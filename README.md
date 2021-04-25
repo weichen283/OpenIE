@@ -39,31 +39,32 @@ online version: https://corenlp.run/
 
 ## Example
 
-conllu file:
+> conllu file:
 
-1	Active	active	ADJ	JJ	_	3	amod	_	start_char=0|end_char=6
-2	brain	brain	NOUN	NN	_	3	compound	_	start_char=7|end_char=12
-3	stimulation	stimulation	NOUN	NN	_	9	nsubj	_	start_char=13|end_char=24
-4	to	to	PART	TO	_	5	mark	_	start_char=25|end_char=27
-5	abate	abate	VERB	VB	_	3	acl	_	start_char=28|end_char=33
-6	epileptic	epileptic	ADJ	JJ	_	7	amod	_	start_char=34|end_char=43
-7	seizures	seizure	NOUN	NNS	_	5	obj	_	start_char=44|end_char=52
-8	has	have	AUX	VBZ	_	9	aux	_	start_char=53|end_char=56
-9	shown	show	VERB	VBN	_	0	root	_	start_char=57|end_char=62
-10	mixed	mixed	ADJ	JJ	_	11	amod	_	start_char=63|end_char=68
-11	success	success	NOUN	NN	_	9	obj	_	start_char=69|end_char=76
-12	.	.	PUNCT	.	_	9	punct	_	start_char=77|end_char=78
+    1	Active	active	ADJ	JJ	_	3	amod	_	start_char=0|end_char=6
+    2	brain	brain	NOUN	NN	_	3	compound	_	start_char=7|end_char=12
+    3	stimulation	stimulation	NOUN	NN	_	9	nsubj	_	start_char=13|end_char=24
+    4	to	to	PART	TO	_	5	mark	_	start_char=25|end_char=27
+    5	abate	abate	VERB	VB	_	3	acl	_	start_char=28|end_char=33
+    6	epileptic	epileptic	ADJ	JJ	_	7	amod	_	start_char=34|end_char=43
+    7	seizures	seizure	NOUN	NNS	_	5	obj	_	start_char=44|end_char=52
+    8	has	have	AUX	VBZ	_	9	aux	_	start_char=53|end_char=56
+    9	shown	show	VERB	VBN	_	0	root	_	start_char=57|end_char=62
+    10	mixed	mixed	ADJ	JJ	_	11	amod	_	start_char=63|end_char=68
+    11	success	success	NOUN	NN	_	9	obj	_	start_char=69|end_char=76
+    12	.	.	PUNCT	.	_	9	punct	_	start_char=77|end_char=78
 
 ----
 
-Predpatt output:
+> Predpatt output:
 
 sentence: Active brain stimulation to abate epileptic seizures has shown mixed success .
 
 ppatt:
- ?a abate ?b
-  &emsp;&emsp;?a: Active brain stimulation
-  &emsp;&emsp;?b: epileptic seizures
- ?a has shown ?b
-  &emsp;&emsp;?a: Active brain stimulation to abate epileptic seizures
-  &emsp;&emsp;?b: mixed success
+
+    ?a abate ?b
+        ?a: Active brain stimulation
+        ?b: epileptic seizures
+    ?a has shown ?b
+        ?a: Active brain stimulation to abate epileptic seizures
+        ?b: mixed success
