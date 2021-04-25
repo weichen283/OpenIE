@@ -1,0 +1,335 @@
+label:    sent_1
+sentence: --Older patients and singles were least likely to receive a living-donor kidney .
+
+ppatt:
+	?a were least likely to receive ?b
+		?a: --Older patients
+		?b: a living-donor kidney
+	?a were least likely to receive ?b
+		?a: singles
+		?b: a living-donor kidney
+
+
+label:    sent_2
+sentence: The control group included 59 newborns who did not receive the drug . Patients were permitted to receive standard of care for RSV .
+
+ppatt:
+	?a included ?b
+		?a: The control group
+		?b: 59 newborns who did not receive the drug
+	?a did not receive ?b
+		?a: 59 newborns
+		?b: the drug
+	?a were permitted to receive ?b
+		?a: Patients
+		?b: standard of care for RSV
+
+
+label:    sent_3
+sentence: Patients with brain metastases did not receive tissue plasminogen activator ( tPA ) . Low-latitude ocean margins release CO2 because they receive two-thirds of the terrestrial OC .
+
+ppatt:
+	?a did not receive ?b
+		?a: Patients with brain metastases
+		?b: tissue plasminogen activator
+	?a is/are tPA
+		?a: tissue plasminogen activator
+	?a release ?b
+		?a: Low-latitude ocean margins
+		?b: CO2
+	?a receive ?b
+		?a: they
+		?b: two-thirds of the terrestrial OC
+
+
+label:    sent_4
+sentence: SLE patients who receive transplants have a lower survival rate than control patients .
+
+ppatt:
+	?a receive ?b
+		?a: SLE patients
+		?b: transplants
+	?a have ?b than ?c
+		?a: SLE patients who receive transplants
+		?b: a lower survival rate
+		?c: control patients
+
+
+label:    sent_5
+sentence: * Those patients not rendered stone-free went on to receive a secondary PCNL .
+
+ppatt:
+	* ?a not rendered ?b went on to receive ?c
+		?a: Those patients
+		?b: stone-free
+		?c: a secondary PCNL
+
+
+label:    sent_6
+sentence: However , many of them can not receive it due to severe associated comorbidities .
+
+ppatt:
+	However , ?a can not receive ?b due to ?c
+		?a: many of them
+		?b: it
+		?c: severe associated comorbidities
+
+
+label:    sent_7
+sentence: Patients were randomized to receive intravenous saline or bevacizumab at 3-week intervals .
+
+ppatt:
+	?a were randomized to receive ?b at ?c
+		?a: Patients
+		?b: intravenous saline
+		?c: 3-week intervals
+	?a were randomized to receive ?b at ?c
+		?a: Patients
+		?b: bevacizumab
+		?c: 3-week intervals
+
+
+label:    sent_8
+sentence: Discussion of these items should receive a prominent place in our travel health consultation .
+
+ppatt:
+	?a should receive ?b in ?c
+		?a: Discussion of these items
+		?b: a prominent place
+		?c: our travel health consultation
+
+
+label:    sent_9
+sentence: In some species , including humans , parents receive help with offspring care .
+
+ppatt:
+	In ?a , ?b receive ?c
+		?a: some species , including humans
+		?b: parents
+		?c: SOMETHING := help with offspring care
+	?a help with ?b
+		?a: parents
+		?b: offspring care
+
+
+label:    sent_10
+sentence: Many homeless women do not receive needed treatment for substance abuse .
+
+ppatt:
+	?a do not receive ?b
+		?a: Many homeless women
+		?b: needed treatment for substance abuse
+
+
+label:    sent_11
+sentence: Excite and receive solenoid radiofrequency coil for MRI-guided breast interventions .
+
+ppatt:
+	Excite ?a for ?b
+		?a: solenoid radiofrequency coil
+		?b: MRI-guided breast interventions
+	receive ?a
+		?a: solenoid radiofrequency coil
+
+
+label:    sent_12
+sentence: These patients may have stage III disease and should receive adjuvant therapy .
+
+ppatt:
+	?a may have ?b
+		?a: These patients
+		?b: stage III disease
+	?a should receive ?b
+		?a: These patients
+		?b: adjuvant therapy
+
+
+label:    sent_13
+sentence: Four ( 4 ) patients served as controls and did not receive any drops .
+
+ppatt:
+	?a is/are 4
+		?a: Four
+	?a served as ?b
+		?a: Four patients
+		?b: controls
+	?a did not receive ?b
+		?a: Four patients
+		?b: any drops
+
+
+label:    sent_14
+sentence: Control rats were exposed to the FS boxes but they did not receive shocks . 21 clusters will receive the intervention and 22 clusters will serve as control areas .
+
+ppatt:
+	?a were exposed to ?b
+		?a: Control rats
+		?b: the FS boxes
+	?a did not receive ?b
+		?a: they
+		?b: shocks
+	?a will receive ?b
+		?a: 21 clusters
+		?b: the intervention
+	?a will serve as ?b
+		?a: 22 clusters
+		?b: control areas
+
+
+label:    sent_15
+sentence: Seven patients did not receive SDS and 2 ( 29 % ) survived .
+
+ppatt:
+	?a did not receive ?b
+		?a: Seven patients
+		?b: SDS
+	?a did not receive ?b
+		?a: Seven patients
+		?b: 2
+	?a is/are 29 %
+		?a: SDS
+	?a is/are 29 %
+		?a: 2
+	?a survived
+		?a: Seven patients
+
+
+label:    sent_16
+sentence: Forty had RIMS , and 39 did not receive reperfusion therapies because of RIMS .
+
+ppatt:
+	?a had ?b
+		?a: Forty
+		?b: RIMS
+	?a did not receive ?b because of ?c
+		?a: 39
+		?b: reperfusion therapies
+		?c: RIMS
+
+
+label:    sent_17
+sentence: Fifty-three patients received IFRT and 114 did not receive IFRT in the peritransplant period .
+
+ppatt:
+	?a received ?b
+		?a: Fifty-three patients
+		?b: IFRT
+	?a received ?b
+		?a: Fifty-three patients
+		?b: 114
+	?a did not receive ?b in ?c
+		?a: Fifty-three patients
+		?b: IFRT
+		?c: the peritransplant period
+
+
+label:    sent_18
+sentence: Men receive more aggressive intervention and at an earlier stage of disease .
+
+ppatt:
+	?a receive ?b
+		?a: Men
+		?b: more aggressive intervention
+	?a receive ?b
+		?a: Men
+		?b: an earlier stage of disease
+
+
+label:    sent_19
+sentence: Many more are treated in other settings or receive no treatment at all .
+
+ppatt:
+	?a more are treated in ?b
+		?a: Many
+		?b: other settings
+	?a receive ?b at ?c
+		?a: Many
+		?b: no treatment
+		?c: all
+
+
+label:    sent_20
+sentence: Each stopped cigarette smoking and did not receive corticosteroid therapy after diagnosis .
+
+ppatt:
+	?a stopped ?b
+		?a: Each
+		?b: cigarette smoking
+	?a did not receive ?b after ?c
+		?a: Each
+		?b: corticosteroid therapy
+		?c: diagnosis
+
+
+label:    sent_21
+sentence: These patients are hypermetabolic and should receive artificial nutrition as soon as possible . 19 patients did not receive NCTX .
+
+ppatt:
+	?a are hypermetabolic
+		?a: These patients
+	?a should receive ?b
+		?a: These patients
+		?b: artificial nutrition
+	?a possible
+		?a: These patients
+	?a did not receive ?b
+		?a: 19 patients
+		?b: NCTX
+
+
+label:    sent_22
+sentence: We will randomise physiotherapists to receive either training for the DSP or not .
+
+ppatt:
+	?a will randomise ?b to receive ?c
+		?a: We
+		?b: physiotherapists
+		?c: training for the DSP or not
+
+
+label:    sent_23
+sentence: How people present symptoms to health services may influence the care they subsequently receive .
+
+ppatt:
+	How ?a ?b may influence ?c
+		?a: people
+		?b: present symptoms to health services
+		?c: the care
+	?a subsequently receive
+		?a: they
+
+
+label:    sent_24
+sentence: A majority of families wish to receive hospital AEHI as leaflets .
+
+ppatt:
+	?a wish to receive ?b as ?c
+		?a: A majority of families
+		?b: hospital AEHI
+		?c: leaflets
+
+
+label:    sent_25
+sentence: Patients randomly assigned to receive IKH-01 or placebo for four cycles .
+
+ppatt:
+	?a randomly assigned to receive ?b for ?c
+		?a: Patients
+		?b: IKH-01
+		?c: four cycles
+	?a randomly assigned to receive ?b for ?c
+		?a: Patients
+		?b: placebo
+		?c: four cycles
+
+
+label:    sent_26
+sentence: In receive , the signals are separated using a simple filtering operation .
+
+ppatt:
+	In ?a , ?b are separated using ?c
+		?a: receive
+		?b: the signals
+		?c: a simple filtering operation
+
+

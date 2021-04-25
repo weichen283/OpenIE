@@ -1,0 +1,115 @@
+label:    sent_1
+sentence: A more principled approach is to extract the multiscale " backbone " of a network by retaining statistically significant edges through hypothesis testing on a specific null model , or by appropriately transforming the original weight matrix before applying some sort of threshold .
+
+ppatt:
+	?a is to extract ?b
+		?a: A more principled approach
+		?b: the multiscale " backbone " of a network
+	?a retaining ?b through ?c ?d
+		?a: A more principled approach
+		?b: statistically significant edges
+		?c: hypothesis
+		?d: testing on a specific null model
+	?a appropriately transforming ?b
+		?a: A more principled approach
+		?b: the original weight matrix
+	?a applying ?b
+		?a: A more principled approach
+		?b: some sort of threshold
+
+
+label:    sent_2
+sentence: Although the hydrolysis provided the highest content of polyphenolic compounds , longer extraction time ( 15 min ) was more efficient to extract these bioactives than shorter extraction duration ( 5 min ) .
+
+ppatt:
+	?a provided ?b
+		?a: the hydrolysis
+		?b: the highest content of polyphenolic compounds
+	?a is/are 15 min
+		?a: longer extraction time
+	?a was more efficient to extract ?b than ?c
+		?a: longer extraction time
+		?b: these bioactives
+		?c: shorter extraction duration
+	?a is/are 5 min
+		?a: shorter extraction duration
+
+
+label:    sent_3
+sentence: To characterize maternal deaths in settings without complete vital registration systems , we designed and assessed the inter-rater reliability of a tool to systematically extract data and characterize the events that precede a nationally representative sample of maternal deaths in India .
+
+ppatt:
+	characterize ?a ?b
+		?a: maternal deaths in settings without complete vital registration systems
+		?b: we
+	?a designed ?b
+		?a: we
+		?b: the inter-rater reliability of a tool to systematically extract data
+	?a assessed
+		?a: we
+	?a characterize ?b
+		?a: we
+		?b: the events that precede a nationally representative sample of maternal deaths in India
+	?a precede ?b
+		?a: the events
+		?b: a nationally representative sample of maternal deaths in India
+
+
+label:    sent_4
+sentence: The major difficulty was to extract proteins and limit their hydrolysis during the sample preparation ; consequently , multiple soft extraction techniques were evaluated .
+
+ppatt:
+	?a was to extract proteins
+		?a: The major difficulty
+	?a limit ?b during ?c
+		?a: The major difficulty
+		?b: their hydrolysis
+		?c: the sample preparation
+	consequently , ?a were evaluated
+		?a: multiple soft extraction techniques
+
+
+label:    sent_5
+sentence: Phyletic trees without consideration of network properties can already extract organisms in anomalous environments .
+
+ppatt:
+	?a can already extract ?b in ?c
+		?a: Phyletic trees without consideration of network properties
+		?b: organisms
+		?c: anomalous environments
+
+
+label:    sent_6
+sentence: The proposed algorithm automatically detects stationary and nonstationary breathing dynamics in order to use the appropriate TIV or TVAR algorithm and then uses a particle filter to extract accurate respiratory rates from as low as 6 b/m to as high as 90 b/m .
+
+ppatt:
+	?a automatically detects ?b
+		?a: The proposed algorithm
+		?b: stationary and nonstationary breathing dynamics
+	?a order to use ?b
+		?a: The proposed algorithm
+		?b: appropriate TIV
+	?a order to use ?b
+		?a: The proposed algorithm
+		?b: TVAR
+	?a order to use ?b
+		?a: The proposed algorithm
+		?b: algorithm
+	?a then uses ?b to extract ?c from ?d to ?e
+		?a: The proposed algorithm
+		?b: a particle filter
+		?c: accurate respiratory rates
+		?d: as low as 6 b/m
+		?e: as high as 90 b/m
+
+
+label:    sent_7
+sentence: We extract the 3D data of melanoma with a photometric stereo device first .
+
+ppatt:
+	?a extract ?b with ?c first
+		?a: We
+		?b: the 3D data of melanoma
+		?c: a photometric stereo device
+
+

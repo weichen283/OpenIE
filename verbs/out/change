@@ -1,0 +1,279 @@
+label:    sent_1
+sentence: The percentage of morbidly obese diabetic patients did not change during the study period .
+
+ppatt:
+	?a did not change during ?b
+		?a: The percentage of morbidly obese diabetic patients
+		?b: the study period
+
+
+label:    sent_2
+sentence: Consequences of climate change on the tree of life in Europe .
+
+ppatt:
+
+
+
+label:    sent_3
+sentence: These results suggest that macrophages of WS-infected rats change to an immunosuppressive type .
+
+ppatt:
+	?a suggest ?b
+		?a: These results
+		?b: SOMETHING := macrophages of WS-infected rats change to an immunosuppressive type
+	?a change to ?b
+		?a: macrophages of WS-infected rats
+		?b: an immunosuppressive type
+
+
+label:    sent_4
+sentence: Adjusting for possible confounders did not change this relative risk . Climate change : Human influence on rainfall .
+
+ppatt:
+	?a did not change ?b ?c
+		?a: Adjusting for possible confounders
+		?b: relative risk
+		?c: this . Climate change
+
+
+label:    sent_5
+sentence: The program did not change observed caregiver sensitivity .
+
+ppatt:
+	?a did not change ?b
+		?a: The program
+		?b: observed caregiver sensitivity
+
+
+label:    sent_6
+sentence: Be vigilant or trusts will change employment terms , unions warn . More education of HCWs is needed to change this perspective .
+
+ppatt:
+	Be ?a will change ?b
+		?a: vigilant
+		?b: employment terms
+	Be ?a will change ?b
+		?a: trusts
+		?b: employment terms
+	?a warn ?b
+		?a: unions
+		?b: SOMETHING := More education of HCWs is needed to change this perspective
+	?a is needed to change ?b
+		?a: More education of HCWs
+		?b: this perspective
+
+
+label:    sent_7
+sentence: The need to change the method for defining mild airway obstruction .
+
+ppatt:
+	?a change ?b
+		?a: The need
+		?b: the method
+	?a defining ?b
+		?a: the method
+		?b: mild airway obstruction
+
+
+label:    sent_8
+sentence: The number of alpha-cells did not change significantly . Environmental protection , inequality , and institutional change .
+
+ppatt:
+	?a did not change significantly ?b
+		?a: The number of alpha-cells
+		?b: Environmental protection
+	?a did not change significantly ?b
+		?a: The number of alpha-cells
+		?b: inequality
+	?a did not change significantly ?b
+		?a: The number of alpha-cells
+		?b: institutional change
+
+
+label:    sent_9
+sentence: Left ventricular ejection fraction and LV diastolic function did not change significantly . MMP-2 activity did not change through gestation , or during foaling . A variety of different microbial pathogens is involved and they change as disease progresses .
+
+ppatt:
+	?a did not change significantly
+		?a: Left ventricular ejection fraction
+	?a did not change significantly
+		?a: LV diastolic function
+	?a did not change through ?b
+		?a: MMP-2 activity
+		?b: gestation
+	?a during foaling
+		?a: MMP-2 activity
+	?a is involved
+		?a: A variety of different microbial pathogens
+	?a change as ?b
+		?a: they
+		?b: disease
+	?a progresses
+		?a: A variety of different microbial pathogens
+
+
+label:    sent_10
+sentence: However , spatial heterogeneity is not static and it can change along temporal scales .
+
+ppatt:
+	However , ?a is not static
+		?a: spatial heterogeneity
+	?a can change along ?b
+		?a: it
+		?b: temporal scales
+
+
+label:    sent_11
+sentence: Culture change models and resident health outcomes in long-term care . People change their behaviour during an epidemic .
+
+ppatt:
+	?a change ?b during ?c
+		?a: Culture change models in long-term care . People
+		?b: their behaviour
+		?c: an epidemic
+	?a change ?b during ?c
+		?a: resident health outcomes
+		?b: their behaviour
+		?c: an epidemic
+
+
+label:    sent_12
+sentence: In multivariate analyses , adjustments did not substantially change the smoking / CDH association .
+
+ppatt:
+	In ?a , ?b did not substantially change ?c
+		?a: multivariate analyses
+		?b: adjustments
+		?c: the smoking / CDH association
+
+
+label:    sent_13
+sentence: Causes are often multi-factorial , specific to country/region , and change over time .
+
+ppatt:
+	?a are often multi-factorial
+		?a: Causes
+	?a specific to ?b
+		?a: Causes
+		?b: country/region
+	?a change over ?b
+		?a: Causes
+		?b: time
+
+
+label:    sent_14
+sentence: This scenario has started to change following the development of molecular targeted therapies .
+
+ppatt:
+	?a has started to change following ?b
+		?a: This scenario
+		?b: the development of molecular targeted therapies
+
+
+label:    sent_15
+sentence: Individuals ' perceptions of CRC are amenable to change through education-based interventions .
+
+ppatt:
+	?a are amenable to change through ?b
+		?a: Individuals ' perceptions of CRC
+		?b: education-based interventions
+
+
+label:    sent_16
+sentence: Higher doses do not change the outcome and could increase the risk of neurotoxicity .
+
+ppatt:
+	?a do not change ?b
+		?a: Higher doses
+		?b: the outcome
+	?a could increase ?b
+		?a: Higher doses
+		?b: the risk of neurotoxicity
+
+
+label:    sent_17
+sentence: Stings did not change the bats ' behaviour and caused no signs of poisoning .
+
+ppatt:
+	?a did not change ?b
+		?a: Stings
+		?b: the bats ' behaviour
+	?a caused ?b
+		?a: Stings
+		?b: no signs of poisoning
+
+
+label:    sent_18
+sentence: Bird exclusion did not change herbivore abundance but did increase leaf damage .
+
+ppatt:
+	?a did not change ?b
+		?a: Bird exclusion
+		?b: herbivore abundance
+	?a did increase ?b
+		?a: Bird exclusion
+		?b: leaf damage
+
+
+label:    sent_19
+sentence: CD9 overexpression induced Akt phosphorylation on FN but did not change total Akt expression .
+
+ppatt:
+	?a induced ?b
+		?a: CD9 overexpression
+		?b: Akt phosphorylation on FN
+	?a did not change ?b
+		?a: CD9 overexpression
+		?b: total Akt expression
+
+
+label:    sent_20
+sentence: Astrocytes then maturate and change their morphology and electrophysiological properties .
+
+ppatt:
+	?a then maturate ?b
+		?a: Astrocytes
+		?b: their morphology
+	?a then maturate ?b
+		?a: Astrocytes
+		?b: electrophysiological properties
+	?a change
+		?a: Astrocytes
+
+
+label:    sent_21
+sentence: One line was an objective referent line Ro and did not change its length .
+
+ppatt:
+	?a was an objective referent line Ro
+		?a: One line
+	did not change ?a
+		?a: its length
+
+
+label:    sent_22
+sentence: This must and will dramatically change in the future . Quinolones resistance rates were high and did not change significantly over time .
+
+ppatt:
+	?a must will dramatically change in ?b
+		?a: This
+		?b: the future
+	?a were high
+		?a: Quinolones resistance rates
+	?a did not change significantly over ?b
+		?a: Quinolones resistance rates
+		?b: time
+
+
+label:    sent_23
+sentence: PrOOH did not change either between baseline measures or after exercise .
+
+ppatt:
+	?a did not change between ?b
+		?a: PrOOH
+		?b: baseline measures
+	?a did not change between ?b
+		?a: PrOOH
+		?b: exercise
+
+

@@ -1,0 +1,277 @@
+label:    sent_1
+sentence: Having diffusion barriers of 0.3-0.5 eV , they diffuse rapidly at moderate temperatures .
+
+ppatt:
+	Having ?a ?b
+		?a: diffusion barriers of 0.3-0.5 eV
+		?b: they
+	?a diffuse rapidly at ?b
+		?a: they
+		?b: moderate temperatures
+
+
+label:    sent_2
+sentence: How liposomes diffuse in concentrated liposome suspensions .
+
+ppatt:
+	How ?a diffuse in ?b
+		?a: liposomes
+		?b: concentrated liposome suspensions
+
+
+label:    sent_3
+sentence: At high hydration , isolated anions diffuse faster ( <=4x ) than cations .
+
+ppatt:
+	At ?a , ?b diffuse ?c than ?d
+		?a: high hydration
+		?b: isolated anions
+		?c: faster
+		?d: cations
+	?a is/are <=4x
+		?a: faster
+
+
+label:    sent_4
+sentence: Infection does not seem to diffuse via the lympathic system , even after castration .
+
+ppatt:
+	?a does not seem to diffuse via ?b , after ?c
+		?a: Infection
+		?b: the lympathic system
+		?c: even castration
+
+
+label:    sent_5
+sentence: PCNU is able to diffuse into the CSF as demonstrated by pharmacokinetic studies .
+
+ppatt:
+	?a is able to diffuse into ?b
+		?a: PCNU
+		?b: the CSF
+	?a demonstrated by ?b
+		?a: PCNU
+		?b: pharmacokinetic studies
+
+
+label:    sent_6
+sentence: Solutes are known to diffuse through the apoplast during redistribution .
+
+ppatt:
+	?a are known to diffuse through ?b during ?c
+		?a: Solutes
+		?b: the apoplast
+		?c: redistribution
+
+
+label:    sent_7
+sentence: Second , breakage of the electrostatic bonds follows , and ligands diffuse into solvent .
+
+ppatt:
+	Second , ?a follows
+		?a: breakage of the electrostatic bonds
+	?a diffuse into ?b
+		?a: ligands
+		?b: solvent
+
+
+label:    sent_8
+sentence: Proteins diffuse out of the gel and coated on the polystirene .
+
+ppatt:
+	?a diffuse out of ?b
+		?a: Proteins
+		?b: the gel
+	?a coated on ?b
+		?a: Proteins
+		?b: the polystirene
+
+
+label:    sent_9
+sentence: This extrasynaptic neurotransmitter can diffuse to neighboring synapses and modulate transmission via presynaptic receptors .
+
+ppatt:
+	?a can diffuse to ?b
+		?a: This extrasynaptic neurotransmitter
+		?b: neighboring synapses
+	?a modulate ?b via ?c
+		?a: This extrasynaptic neurotransmitter
+		?b: transmission
+		?c: presynaptic receptors
+
+
+label:    sent_10
+sentence: Dichlorofluorescein was shown to diffuse through the nexus passively and in a hydrated form . Water continues to diffuse through the front and to invade the core .
+
+ppatt:
+	?a was shown to diffuse through ?b passively ?c
+		?a: Dichlorofluorescein
+		?b: the nexus
+		?c: SOMETHING := Water continues to diffuse through the front and to invade the core
+	?a was shown to diffuse through passively ?b ?c
+		?a: Dichlorofluorescein
+		?b: a hydrated form
+		?c: SOMETHING := Water continues to diffuse through the front and to invade the core
+	?a continues to diffuse through ?b
+		?a: Water
+		?b: the front
+	?a continues to to invade ?b
+		?a: Water
+		?b: the core
+
+
+label:    sent_11
+sentence: AMPARs are stabilized reversibly in these nanodomains and diffuse freely outside them .
+
+ppatt:
+	?a are stabilized reversibly in ?b
+		?a: AMPARs
+		?b: these nanodomains
+	?a diffuse freely outside ?b
+		?a: AMPARs
+		?b: them
+
+
+label:    sent_12
+sentence: Multiple crystalline patches appear without particles having to diffuse more than one diameter .
+
+ppatt:
+	?a appear without ?b
+		?a: Multiple crystalline patches
+		?b: particles having to diffuse more than one diameter
+	?a having to ?b ?c
+		?a: particles
+		?b: diffuse
+		?c: more than one diameter
+
+
+label:    sent_13
+sentence: Scintiscan patterns varied from normal to diffuse concentration of 131I .
+
+ppatt:
+	?a varied from ?b to ?c
+		?a: Scintiscan patterns
+		?b: normal
+		?c: diffuse concentration of 131I
+
+
+label:    sent_14
+sentence: CT Scans findings can give evidence diffuse muscular thickening of esophageal wall . Acetic and lactic acids diffuse faster than sucrose in plaque .
+
+ppatt:
+	?a can give ?b
+		?a: CT Scans findings
+		?b: evidence diffuse muscular thickening of esophageal wall . Acetic and lactic acids
+	?a diffuse faster than ?b
+		?a: CT Scans findings
+		?b: sucrose in plaque
+
+
+label:    sent_15
+sentence: These results were interpreted to mean that aminoglycoside antibiotics diffuse through porin-pores very efficiently . Active enzymes diffuse more rapidly than inactive enzymes .
+
+ppatt:
+	?a were interpreted to mean ?b ?c
+		?a: These results
+		?b: SOMETHING := aminoglycoside antibiotics diffuse through porin-pores very efficiently
+		?c: SOMETHING := Active enzymes diffuse more rapidly than inactive enzymes
+	?a diffuse through ?b very efficiently
+		?a: aminoglycoside antibiotics
+		?b: porin-pores
+	?a diffuse more rapidly than ?b
+		?a: Active enzymes
+		?b: inactive enzymes
+
+
+label:    sent_16
+sentence: Genetic predisposition to diffuse panbronchiolitis .
+
+ppatt:
+
+
+
+label:    sent_17
+sentence: A linear correction for principal component analysis of dynamic fluorescence diffuse optical tomography images .
+
+ppatt:
+
+
+
+label:    sent_18
+sentence: Patterns of failure in treatment of stage I and II diffuse malignant lymphoid tumors .
+
+ppatt:
+
+
+
+label:    sent_19
+sentence: NAT emphasizes that social redundancy can diffuse and reduce responsibility for locating mistakes .
+
+ppatt:
+	?a emphasizes ?b
+		?a: NAT
+		?b: SOMETHING := social redundancy can diffuse responsibility for locating mistakes
+	?a can diffuse ?b
+		?a: social redundancy
+		?b: responsibility
+	?a reduce
+		?a: social redundancy
+	?a locating ?b
+		?a: responsibility
+		?b: mistakes
+
+
+label:    sent_20
+sentence: Nanoparticular systems diffuse rapidly and are better internalized in ocular tissues than microparticles .
+
+ppatt:
+	?a diffuse rapidly
+		?a: Nanoparticular systems
+	?a are better internalized in ?b than ?c
+		?a: Nanoparticular systems
+		?b: ocular tissues
+		?c: microparticles
+
+
+label:    sent_21
+sentence: GLUT4 monomers outside clusters diffuse freely and do not aggregate with other monomers .
+
+ppatt:
+	?a diffuse freely
+		?a: GLUT4 monomers outside clusters
+	?a do not aggregate with ?b
+		?a: GLUT4 monomers outside clusters
+		?b: other monomers
+
+
+label:    sent_22
+sentence: Second , Cl can diffuse passively down electrochemical gradients via the paracellular pathway .
+
+ppatt:
+	Second , ?a can diffuse ?b via ?c
+		?a: Cl
+		?b: electrochemical gradients
+		?c: the paracellular pathway
+	?a passively down
+		?a: Cl
+
+
+label:    sent_23
+sentence: The drug molecules can only diffuse along with the wriggling of the polymer matrix .
+
+ppatt:
+	?a can only diffuse along with ?b
+		?a: The drug molecules
+		?b: the wriggling of the polymer matrix
+
+
+label:    sent_24
+sentence: Mycobacterium kansasii diffuse pulmonary infection in a patient with acquired immune deficiency syndrome .
+
+ppatt:
+	?a diffuse ?b in ?c
+		?a: Mycobacterium kansasii
+		?b: pulmonary infection
+		?c: a patient with acquired immune deficiency syndrome
+
+

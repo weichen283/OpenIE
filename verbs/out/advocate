@@ -1,0 +1,280 @@
+label:    sent_1
+sentence: We advocate immediate surgical exploration with suspected TT .
+
+ppatt:
+	?a advocate ?b
+		?a: We
+		?b: immediate surgical exploration with suspected TT
+
+
+label:    sent_2
+sentence: Therefore , we advocate a modification on the fabrication of the tragus . We advocate this procedure for basal thumb arthritis in men .
+
+ppatt:
+	Therefore , ?a advocate ?b
+		?a: we
+		?b: a modification on the fabrication of the tragus
+	?a advocate ?b
+		?a: We
+		?b: this procedure for basal thumb arthritis in men
+
+
+label:    sent_3
+sentence: We advocate routine use of the shoelace technique during laparoscopic ventral hernia repair .
+
+ppatt:
+	?a advocate ?b
+		?a: We
+		?b: routine use of the shoelace technique during laparoscopic ventral hernia repair
+
+
+label:    sent_4
+sentence: In addition , international guidelines advocate universal vaccination of infants and children against rotavirus .
+
+ppatt:
+	In ?a , ?b advocate ?c
+		?a: addition
+		?b: international guidelines
+		?c: universal vaccination of infants and children against rotavirus
+
+
+label:    sent_5
+sentence: We would however advocate ONS as first choice alternative therapy in iCCH .
+
+ppatt:
+	?a would however advocate ?b as ?c
+		?a: We
+		?b: ONS
+		?c: first choice alternative therapy in iCCH
+
+
+label:    sent_6
+sentence: The 2011 ESRD prospective payment system : perspectives of a home dialysis patient advocate .
+
+ppatt:
+
+
+
+label:    sent_7
+sentence: Current recommendations mostly advocate that lithium be administered in multiple daily doses .
+
+ppatt:
+	?a mostly advocate ?b
+		?a: Current recommendations
+		?b: SOMETHING := lithium be administered in multiple daily doses
+	?a be administered in ?b
+		?a: lithium
+		?b: multiple daily doses
+
+
+label:    sent_8
+sentence: We advocate that SLNB be performed in a single stage with mastectomy and IBR .
+
+ppatt:
+	?a advocate ?b
+		?a: We
+		?b: SOMETHING := SLNB be performed in a single stage with mastectomy and IBR
+	?a be performed in ?b
+		?a: SLNB
+		?b: a single stage with mastectomy and IBR
+
+
+label:    sent_9
+sentence: From local school nurse to national advocate .
+
+ppatt:
+
+
+
+label:    sent_10
+sentence: Children can not vote , should n't we advocate for them ? Why advocate for physical activity ? 2 . Primary care reform proponents advocate for patient-centered medical homes built on interdisciplinary teamwork . Policymakers should advocate for greater access to mifepristone .
+
+ppatt:
+	?a can not vote
+		?a: Children
+	should n't ?a advocate for ?b
+		?a: we
+		?b: them
+	?a Why advocate for ?b
+		?a: Children
+		?b: physical activity
+	?a advocate for ?b
+		?a: Primary care reform proponents
+		?b: patient-centered medical homes built on interdisciplinary teamwork
+	?a built on ?b
+		?a: patient-centered medical homes
+		?b: interdisciplinary teamwork
+	?a should advocate for ?b
+		?a: Policymakers
+		?b: greater access to mifepristone
+
+
+label:    sent_11
+sentence: Some would advocate against routine use of prereduction x-rays for shoulder dislocations .
+
+ppatt:
+	?a would advocate against ?b
+		?a: Some
+		?b: routine use of prereduction x-rays for shoulder dislocations
+
+
+label:    sent_12
+sentence: To advocate newborn screening for SCID .
+
+ppatt:
+	advocate ?a
+		?a: newborn screening for SCID
+
+
+label:    sent_13
+sentence: Older pediatricians were most likely to advocate and practice risk reduction in children .
+
+ppatt:
+	?a were most likely to advocate ?b
+		?a: Older pediatricians
+		?b: risk reduction in children
+	?a were most likely to practice
+		?a: Older pediatricians
+
+
+label:    sent_14
+sentence: Hospital marketing program must involve physicians , advocate says .
+
+ppatt:
+	?a must involve ?b
+		?a: Hospital marketing program
+		?b: physicians
+	?a advocate ?b
+		?a: Hospital marketing program
+		?b: says
+
+
+label:    sent_15
+sentence: The condition usually requires open reduction , and most authors advocate a dorsal incision .
+
+ppatt:
+	?a usually requires ?b
+		?a: The condition
+		?b: open reduction
+	?a advocate ?b
+		?a: most authors
+		?b: a dorsal incision
+
+
+label:    sent_16
+sentence: We advocate use of this preliminary data to design and test future educational interventions .
+
+ppatt:
+	?a advocate ?b
+		?a: We
+		?b: use of this preliminary data
+	?a design ?b
+		?a: We
+		?b: future educational interventions
+	?a test
+		?a: We
+
+
+label:    sent_17
+sentence: Surgeons should be aware of this complication and we advocate careful long-term follow-up .
+
+ppatt:
+	?a should be aware of ?b
+		?a: Surgeons
+		?b: this complication
+	?a advocate ?b
+		?a: we
+		?b: careful long-term follow-up
+
+
+label:    sent_18
+sentence: On being a kidney patient advocate and nurse .
+
+ppatt:
+
+
+
+label:    sent_19
+sentence: They emphasise its advantages and advocate to its more frequent application .
+
+ppatt:
+	?a emphasise ?b
+		?a: They
+		?b: its advantages
+	?a advocate to ?b
+		?a: They
+		?b: its more frequent application
+
+
+label:    sent_20
+sentence: Nurses are positioned to educate and advocate for universal CCHD newborn screening .
+
+ppatt:
+	?a are positioned to educate for ?b
+		?a: Nurses
+		?b: universal CCHD newborn screening
+	?a are positioned to advocate
+		?a: Nurses
+
+
+label:    sent_21
+sentence: Medical students were statistically more likely to advocate resuscitation in each category .
+
+ppatt:
+	?a were statistically more likely to advocate ?b
+		?a: Medical students
+		?b: resuscitation in each category
+
+
+label:    sent_22
+sentence: Pharmacists are in a unique position to advocate change with consistent access to care .
+
+ppatt:
+	?a are in a unique position
+		?a: Pharmacists
+	?a advocate ?b
+		?a: a unique position
+		?b: change with consistent access to care
+
+
+label:    sent_23
+sentence: It should not be used as an argument to advocate hemigastrectomy in PPPD .
+
+ppatt:
+	?a should not be used as ?b
+		?a: It
+		?b: an argument to advocate hemigastrectomy in PPPD
+	?a advocate ?b
+		?a: an argument
+		?b: hemigastrectomy in PPPD
+
+
+label:    sent_24
+sentence: Mothers identified their roles as caregiver , teacher , therapist , and advocate .
+
+ppatt:
+	?a identified ?b as ?c
+		?a: Mothers
+		?b: their roles
+		?c: caregiver
+	?a identified ?b as ?c
+		?a: Mothers
+		?b: their roles
+		?c: teacher
+	?a identified ?b as ?c
+		?a: Mothers
+		?b: their roles
+		?c: therapist
+	?a identified ?b as ?c
+		?a: Mothers
+		?b: their roles
+		?c: advocate
+
+
+label:    sent_25
+sentence: The resident 's family : adversary or advocate in long-term care ? Frances Ginsberg : educator and advocate of surgical technologists .
+
+ppatt:
+
+
+

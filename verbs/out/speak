@@ -1,0 +1,260 @@
+label:    sent_1
+sentence: Leaders of US medicine speak out on health effects of climate change .
+
+ppatt:
+	?a speak out on ?b
+		?a: Leaders of US medicine
+		?b: health effects of climate change
+
+
+label:    sent_2
+sentence: Although each participant is homeless , they speak about their experiences very differently . Nurses speak up on new ORs design .
+
+ppatt:
+	?a is
+		?a: each participant
+	?a homeless , ?b speak about ?c very differently
+		?a: each participant
+		?b: they
+		?c: their experiences
+	?a speak up on ?b
+		?a: Nurses
+		?b: new ORs design
+
+
+label:    sent_3
+sentence: Ninety-seven percent of patients appreciated to speak to their doctor about their distress .
+
+ppatt:
+	?a appreciated to speak to ?b
+		?a: Ninety-seven percent of patients
+		?b: their doctor about their distress
+
+
+label:    sent_4
+sentence: Children with apraxia often do not begin to speak until after age 5 . Scientists are well placed to speak up for biodiversity .
+
+ppatt:
+	?a often do not begin to speak until after ?b
+		?a: Children with apraxia
+		?b: age 5
+	?a are well placed to speak up for ?b
+		?a: Scientists
+		?b: biodiversity
+
+
+label:    sent_5
+sentence: The Carpathian Gypsies speak Hungarian and the Vlax Romanies speak Hungarian and Romani languages .
+
+ppatt:
+	?a speak ?b
+		?a: The Carpathian Gypsies
+		?b: Hungarian
+	?a speak ?b
+		?a: the Vlax Romanies
+		?b: Hungarian and Romani languages
+
+
+label:    sent_6
+sentence: The people speak : community consultation in emergency research . " American teens speak " . When we speak , we provide ourselves with auditory speech input .
+
+ppatt:
+	?a speak
+		?a: The people
+	?a ?b speak ?c
+		?a: community consultation in emergency research
+		?b: " American teens
+		?c: "
+	When ?a speak
+		?a: we
+	?a provide ?b with ?c
+		?a: we
+		?b: ourselves
+		?c: auditory speech input
+
+
+label:    sent_7
+sentence: The phonological awareness abilities of children with cerebral palsy who do not speak .
+
+ppatt:
+	?a do not speak
+		?a: children with cerebral palsy
+
+
+label:    sent_8
+sentence: The experts speak .
+
+ppatt:
+	?a speak
+		?a: The experts
+
+
+label:    sent_9
+sentence: If you want a voice -- now 's the time to speak up . Towards professionalism : time to speak our minds .
+
+ppatt:
+	?a want ?b
+		?a: you
+		?b: a voice -- now 's the time to speak up . Towards professionalism
+	?a speak up . Towards ?b
+		?a: now the time
+		?b: professionalism
+	?a speak ?b
+		?a: time
+		?b: our minds
+
+
+label:    sent_10
+sentence: They were also required to speak English .
+
+ppatt:
+	?a were also required to speak ?b
+		?a: They
+		?b: English
+
+
+label:    sent_11
+sentence: More clinicians speak up about flawed care , but silence still kills . Let physicians speak to medicine and let nurses speak to nursing .
+
+ppatt:
+	?a speak ?b
+		?a: More clinicians
+		?b: up about flawed care
+	?a still kills
+		?a: silence
+	?a speak to ?b
+		?a: Let physicians
+		?b: medicine
+	?a let ?b
+		?a: Let physicians
+		?b: nurses
+	?a speak to ?b
+		?a: Let physicians
+		?b: nursing
+
+
+label:    sent_12
+sentence: The numbers speak for themselves and can not be ignored .
+
+ppatt:
+	?a speak for ?b
+		?a: The numbers
+		?b: themselves
+	?a can not be ignored
+		?a: The numbers
+
+
+label:    sent_13
+sentence: He will speak about his work at a Nursing Standard conference next week When it comes to good leadership , actions speak louder than words . Actions speak louder than images .
+
+ppatt:
+	?a will speak about ?b ?c
+		?a: He
+		?b: his work at a Nursing Standard conference
+		?c: next week
+	When ?a comes to ?b
+		?a: it
+		?b: good leadership
+	?a speak louder than ?b
+		?a: actions
+		?b: words
+	?a speak louder than ?b
+		?a: Actions
+		?b: images
+
+
+label:    sent_14
+sentence: Publish a newsletter on the subject , and speak to small groups clients .
+
+ppatt:
+	Publish ?a on ?b
+		?a: a newsletter
+		?b: the subject
+	speak to ?a
+		?a: small groups clients
+
+
+label:    sent_15
+sentence: On occasion , the quilt-makers accompany their own quilts and speak at these events .
+
+ppatt:
+	On ?a , ?b accompany ?c
+		?a: occasion
+		?b: the quilt-makers
+		?c: their own quilts
+	?a speak at ?b
+		?a: the quilt-makers
+		?b: these events
+
+
+label:    sent_16
+sentence: Leave your castles and speak out for dentistry .
+
+ppatt:
+	Leave ?a
+		?a: your castles
+	speak out for ?a
+		?a: dentistry
+
+
+label:    sent_17
+sentence: Patient was able to masticate adequately and speak comprehensively . [ Professional confidentiality : speak out or remain silent ? ] . At discharge , she was able to speak normally and walk without support .
+
+ppatt:
+	?a was able to masticate adequately . [ ?b
+		?a: Patient
+		?b: Professional confidentiality
+	?a was able to speak comprehensively
+		?a: Patient
+	?a speak out . At ?b
+		?a: Patient
+		?b: discharge
+	?a remain silent
+		?a: Patient
+	?a was able to speak normally
+		?a: she
+	?a was able to walk without ?b
+		?a: she
+		?b: support
+
+
+label:    sent_18
+sentence: Hospital privileges : speak softly , but carry a big lawyer .
+
+ppatt:
+	?a speak softly
+		?a: Hospital privileges
+	?a carry ?b
+		?a: Hospital privileges
+		?b: a big lawyer
+
+
+label:    sent_19
+sentence: The patient was visiting from Egypt and did not speak English .
+
+ppatt:
+	?a was visiting from ?b
+		?a: The patient
+		?b: Egypt
+	?a did not speak ?b
+		?a: The patient
+		?b: English
+
+
+label:    sent_20
+sentence: She recovered and could speak short sentences , but dysphasia and right hemiparesis remained .
+
+ppatt:
+	?a recovered
+		?a: She
+	?a could speak ?b
+		?a: She
+		?b: short sentences
+	?a remained
+		?a: dysphasia
+	?a remained
+		?a: right
+	?a remained
+		?a: hemiparesis
+
+

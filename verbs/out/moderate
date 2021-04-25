@@ -1,0 +1,120 @@
+label:    sent_1
+sentence: Psychosocial models of child development suggest that parental attributions of child and adult controllability could moderate this relationship between child disability status and behaviour .
+
+ppatt:
+	?a suggest ?b
+		?a: Psychosocial models of child development
+		?b: SOMETHING := parental attributions of child and adult controllability could moderate this relationship between child disability
+	?a could moderate ?b
+		?a: parental attributions of child and adult controllability
+		?b: this relationship between child disability
+
+
+label:    sent_2
+sentence: Parental attributions of controllability may moderate the well-established effect of disability on problem behaviour .
+
+ppatt:
+	?a may moderate ?b
+		?a: Parental attributions of controllability
+		?b: the well-established effect of disability on problem behaviour
+
+
+label:    sent_3
+sentence: The goal of this investigation was to determine whether permissive beliefs about aggression moderate the relation between acute alcohol intoxication and aggression in two large experiments .
+
+ppatt:
+	?a was to determine ?b
+		?a: The goal of this investigation
+		?b: SOMETHING := permissive beliefs about aggression moderate the relation between acute alcohol intoxication and aggression in two large experiments
+	?a moderate ?b
+		?a: permissive beliefs about aggression
+		?b: the relation between acute alcohol intoxication and aggression in two large experiments
+
+
+label:    sent_4
+sentence: These results add to the growing literature examining the factors that moderate the link between prosocial behaviour and happiness .
+
+ppatt:
+	?a add to ?b
+		?a: These results
+		?b: the growing literature examining the factors that moderate the link between prosocial behaviour and happiness
+	?a examining ?b
+		?a: the growing literature
+		?b: the factors that moderate the link between prosocial behaviour and happiness
+	?a moderate ?b
+		?a: the factors
+		?b: the link between prosocial behaviour and happiness
+
+
+label:    sent_5
+sentence: Behavioral codes were found to moderate 3 of 16 symptom-to-life event associations for husbands .
+
+ppatt:
+	?a were found to ?b
+		?a: Behavioral codes
+		?b: moderate 3 of 16 symptom-to-life event associations for husbands
+
+
+label:    sent_6
+sentence: Finally , IP tended to moderate the relationship between CD4 cell counts and depressive symptoms .
+
+ppatt:
+	Finally , ?a tended to moderate ?b
+		?a: IP
+		?b: the relationship between CD4 cell counts and depressive symptoms
+
+
+label:    sent_7
+sentence: Here we use a two-stage approach to compare the susceptibility of grasslands and three different shrublands to wind erosion on the Colorado Plateau and demonstrate how climate can indirectly moderate the magnitude of aeolian sediment flux through different responses of dominant plants in these communities .
+
+ppatt:
+	Here ?a use ?b
+		?a: we
+		?b: a two-stage approach to compare the susceptibility of grasslands and three different shrublands to wind erosion on the Colorado Plateau
+	?a compare ?b
+		?a: a two-stage approach
+		?b: the susceptibility of grasslands to wind erosion on the Colorado Plateau
+	?a compare ?b
+		?a: a two-stage approach
+		?b: three different shrublands
+	?a demonstrate ?b
+		?a: we
+		?b: SOMETHING := how climate can indirectly moderate the magnitude of aeolian sediment flux through different responses of dominant plants in these communities
+	how ?a can indirectly moderate ?b through ?c
+		?a: climate
+		?b: the magnitude of aeolian sediment flux
+		?c: different responses of dominant plants in these communities
+
+
+label:    sent_8
+sentence: The finding that chewing gum can moderate stress and mood changes following a multi-task cognitive stressor ( Scholey et al. , 2009 ) was re-examined . CD is a risk factor for colorectal cancer , small bowel cancer , and fistula cancer ; however , compared to ulcerative colitis , cancer risk is moderate .
+
+ppatt:
+	The finding ?a ?b
+		?a: The finding that chewing gum can moderate stress and mood changes following a multi-task cognitive stressor
+		?b: SOMETHING := chewing gum can moderate stress and mood changes following a multi-task cognitive stressor
+	?a can moderate ?b
+		?a: chewing gum
+		?b: stress following a multi-task cognitive stressor
+	?a can moderate ?b
+		?a: chewing gum
+		?b: mood
+	?a can moderate ?b
+		?a: chewing gum
+		?b: changes
+	?a was re-examined
+		?a: The finding that chewing gum can moderate stress and mood changes following a multi-task cognitive stressor
+	?a is a risk factor for ?b
+		?a: CD
+		?b: colorectal cancer
+	?a is a risk factor for ?b
+		?a: CD
+		?b: small bowel cancer
+	?a is a risk factor for ?b
+		?a: CD
+		?b: fistula cancer
+	however , compared to ?a , ?b is moderate
+		?a: ulcerative colitis
+		?b: cancer risk
+
+

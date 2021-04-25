@@ -1,0 +1,315 @@
+label:    sent_1
+sentence: We find that antisense expression is associated with genes of larger expression variability .
+
+ppatt:
+	?a find ?b
+		?a: We
+		?b: SOMETHING := antisense expression is associated with genes of larger expression variability
+	?a is associated with ?b
+		?a: antisense expression
+		?b: genes of larger expression variability
+
+
+label:    sent_2
+sentence: We find that the average angular velocity of the top disk is not zero . [Isolated tumour cells : ' seek , and ye shall find ' ] . Great apes use weight as a cue to find hidden food .
+
+ppatt:
+	?a find ?b ?c
+		?a: We
+		?b: SOMETHING := the average angular velocity of the top disk is not zero
+		?c: SOMETHING := [Isolated tumour cells
+	?a is not zero
+		?a: the average angular velocity of the top disk
+	?a [Isolated tumour cells
+		?a: We
+	?a shall find
+		?a: ye
+	?a ?b use ?c as ?d to find ?e
+		?a: ]
+		?b: Great apes
+		?c: weight
+		?d: a cue
+		?e: hidden food
+
+
+label:    sent_3
+sentence: Do you find supply item charge stickers in shocking places in nursing units ? Multiple analyses failed to find significant support for any singular genus-level phylogeny .
+
+ppatt:
+	Do you find ?a
+		?a: supply item charge stickers in shocking places in nursing units
+	?a failed to find ?b
+		?a: Multiple analyses
+		?b: significant support for any singular genus-level phylogeny
+
+
+label:    sent_4
+sentence: The views of patients and carers must find a stronger voice in health policy .
+
+ppatt:
+	?a must find ?b
+		?a: The views of patients and carers
+		?b: a stronger voice in health policy
+
+
+label:    sent_5
+sentence: Comparative studies of cognitive processes find similarities between humans and apes but also monkeys .
+
+ppatt:
+	?a find ?b
+		?a: Comparative studies of cognitive processes
+		?b: similarities between humans and apes but also monkeys
+
+
+label:    sent_6
+sentence: We did not find significant statistical correlations between alexithymia and clinical variables .
+
+ppatt:
+	?a did not find ?b
+		?a: We
+		?b: significant statistical correlations between alexithymia and clinical
+
+
+label:    sent_7
+sentence: In contrast , the DFT/PBE calculations find an iron 3d contribution in the HOMO .
+
+ppatt:
+	In ?a , ?b find ?c
+		?a: contrast
+		?b: the DFT/PBE calculations
+		?c: an iron 3d contribution in the HOMO
+
+
+label:    sent_8
+sentence: During meiotic prophase homologous chromosomes find each other and pair .
+
+ppatt:
+	During ?a ?b find ?c
+		?a: meiotic prophase
+		?b: homologous chromosomes
+		?c: each other
+	During ?a ?b find ?c
+		?a: meiotic prophase
+		?b: homologous chromosomes
+		?c: pair
+
+
+label:    sent_9
+sentence: Thus , we find evidence for similarity in decision-making processes across the order Primates .
+
+ppatt:
+	Thus , ?a find ?b
+		?a: we
+		?b: evidence for similarity in decision-making processes across the order Primates
+
+
+label:    sent_10
+sentence: In addition , we find that body mass index is positively associated with BMD .
+
+ppatt:
+	In ?a , ?b find ?c
+		?a: addition
+		?b: we
+		?c: SOMETHING := body mass index is positively associated with BMD
+	?a is positively associated with ?b
+		?a: body mass index
+		?b: BMD
+
+
+label:    sent_11
+sentence: In the ideal case , we find that in general the framework actually works . In addition , we find that this region could be widened by hole doping .
+
+ppatt:
+	In ?a , ?b find ?c
+		?a: the ideal case
+		?b: we
+		?c: SOMETHING := in general the framework actually works In addition , we find that this region could be widened by hole doping
+	in ?a In ?b , ?c find ?d
+		?a: general the framework actually works
+		?b: addition
+		?c: we
+		?d: SOMETHING := this region could be widened by hole doping
+	?a could be widened by ?b
+		?a: this region
+		?b: hole doping
+
+
+label:    sent_12
+sentence: We had the opportunity to find this uncommon tumor in a 21-year-old female patient .
+
+ppatt:
+	?a had ?b
+		?a: We
+		?b: the opportunity to find this uncommon tumor in a 21-year-old female patient
+	?a find ?b in ?c
+		?a: the opportunity
+		?b: this uncommon tumor
+		?c: a 21-year-old female patient
+
+
+label:    sent_13
+sentence: We also used regression models to find independent predictors of depression in these patients .
+
+ppatt:
+	?a also used ?b
+		?a: We
+		?b: regression models
+	?a find ?b
+		?a: We
+		?b: independent predictors of depression in these patients
+
+
+label:    sent_14
+sentence: We also expected to find relatively fewer large species in the Chinese assemblage .
+
+ppatt:
+	?a also expected to find ?b
+		?a: We
+		?b: relatively fewer large species in the Chinese assemblage
+
+
+label:    sent_15
+sentence: We aimed to find common causative factors and proffer solutions .
+
+ppatt:
+	?a aimed to find ?b
+		?a: We
+		?b: common causative factors
+	?a aimed to find ?b
+		?a: We
+		?b: proffer solutions
+
+
+label:    sent_16
+sentence: When you find a patient , start CPR immediately and prepare a defibrillator .
+
+ppatt:
+	When ?a find ?b
+		?a: you
+		?b: a patient
+	?a immediately
+		?a: start CPR
+	?a prepare ?b
+		?a: you
+		?b: a defibrillator
+
+
+label:    sent_17
+sentence: We show that these tubes can be directly observed and find their shape .
+
+ppatt:
+	?a show ?b
+		?a: We
+		?b: SOMETHING := these tubes can be directly observed
+	?a can be directly observed
+		?a: these tubes
+	?a find ?b
+		?a: these tubes
+		?b: their shape
+
+
+label:    sent_18
+sentence: Shine a light : nurses find ways to improve care and cut costs .
+
+ppatt:
+	Shine ?a
+		?a: a light
+	?a find ?b
+		?a: nurses
+		?b: ways to improve care and cut
+	?a improve ?b
+		?a: ways
+		?b: care
+	?a improve ?b
+		?a: ways
+		?b: cut
+
+
+label:    sent_19
+sentence: We find only 2 introns , both shared with E. invadens .
+
+ppatt:
+	?a find ?b
+		?a: We
+		?b: only 2 introns , both shared with E. invadens
+	?a both shared with ?b
+		?a: only 2 introns
+		?b: E. invadens
+
+
+label:    sent_20
+sentence: We did not find nocturnal paroxysmal hemoglobinuria and leukocytic alkaline phosphatase level was high .
+
+ppatt:
+	?a did not find ?b
+		?a: We
+		?b: nocturnal paroxysmal hemoglobinuria
+	?a was high
+		?a: leukocytic alkaline phosphatase level
+
+
+label:    sent_21
+sentence: The patient underwent two surgical treatments to find and reattach the deficient muscles .
+
+ppatt:
+	?a underwent ?b
+		?a: The patient
+		?b: two surgical treatments
+	?a find ?b
+		?a: The patient
+		?b: the deficient muscles
+	?a reattach
+		?a: The patient
+
+
+label:    sent_22
+sentence: Therefore , it is necessary to find out and analyze SERPINE1 deficiency in humans . Stay tuned and find out .
+
+ppatt:
+	Therefore , ?a is necessary to find out ?b
+		?a: it
+		?b: SERPINE1 deficiency in humans
+	Therefore , ?a is necessary to out analyze
+		?a: it
+	?a Stay tuned
+		?a: it
+	?a find out
+		?a: it
+
+
+label:    sent_23
+sentence: Phenylthiocarbamide tastes intensely bitter to some individuals , but others find it completely tasteless .
+
+ppatt:
+	?a intensely bitter to ?b
+		?a: Phenylthiocarbamide tastes
+		?b: some individuals
+	?a find ?b completely tasteless
+		?a: others
+		?b: it
+
+
+label:    sent_24
+sentence: Home health clinicians can find and help women with postpartum depression .
+
+ppatt:
+	?a can find ?b
+		?a: Home health clinicians
+		?b: women with postpartum depression
+	?a help
+		?a: Home health clinicians
+
+
+label:    sent_25
+sentence: Help us find and honour the stars of South Asian healthcare .
+
+ppatt:
+	Help ?a
+		?a: us
+	?a find ?b
+		?a: us
+		?b: the stars of South Asian healthcare
+	?a honour
+		?a: us
+
+

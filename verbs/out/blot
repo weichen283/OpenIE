@@ -1,0 +1,95 @@
+label:    sent_1
+sentence: SLE sera could blot a few bands .
+
+ppatt:
+	blot ?a
+		?a: SLE sera could a few bands
+	?a could a few bands
+		?a: SLE sera
+
+
+label:    sent_2
+sentence: The monoclonal antibodies that can blot the IgA binding sites of Fc alpha R could only bind to the membrane-distal domains of Fc alpha R ( EC1 ) . pabBp19 did not blot human platelet lysates but human pp-vWF was detectable using the antibody Frieda 013091 .
+
+ppatt:
+	?a can blot ?b
+		?a: The monoclonal antibodies
+		?b: the IgA binding sites of Fc alpha R
+	?a could only bind to ?b
+		?a: The monoclonal antibodies that can blot the IgA binding sites of Fc alpha R
+		?b: the membrane-distal domains of Fc alpha R
+	?a is/are EC1
+		?a: Fc alpha R
+	?a did not ?b
+		?a: pabBp19
+		?b: blot human platelet lysates
+	?a was detectable using ?b
+		?a: human pp-vWF
+		?b: the antibody
+
+
+label:    sent_3
+sentence: All nine affinity-purified anti-DNA antibodies could blot the HMC membrane proteins , and there were at least three bands at 74 kDa , 63 kDa and 42 kDa that could be blotted .
+
+ppatt:
+	?a could blot ?b
+		?a: All nine affinity-purified anti-DNA antibodies
+		?b: the HMC membrane proteins
+	there were ?a
+		?a: at least three bands at 74 kDa , 63 kDa and 42 kDa that could be blotted
+	?a could be blotted
+		?a: at least three bands at 74 kDa , 63 kDa and 42 kDa
+
+
+label:    sent_4
+sentence: Positive sera could blot the 27-kD band by Western blot analysis .
+
+ppatt:
+	?a could blot ?b by ?c
+		?a: Positive sera
+		?b: the 27-kD band
+		?c: Western blot analysis
+
+
+label:    sent_5
+sentence: In results , the non-DNA-binding IgG fractions from sera of patients with lupus nephritis could blot the protein ( s ) of HMC membrane at 74 , 63 , and 42 kD .
+
+ppatt:
+	In ?a , ?b could blot ?c at ?d
+		?a: results
+		?b: the non-DNA-binding IgG fractions from sera of patients with lupus nephritis
+		?c: the protein ( s ) of HMC membrane
+		?d: 74 , 63 , and 42 kD
+
+
+label:    sent_6
+sentence: Among the nine IgG preparations , all nine ( 100 % ) could blot the 74 kDa band ; eight ( 88.9 % ) could recognize 63 kDa and 42 kDa protein bands separately .
+
+ppatt:
+	?a is/are 100 %
+		?a: all nine
+	Among ?a , ?b could blot ?c
+		?a: the nine IgG preparations
+		?b: all nine
+		?c: the 74 kDa band
+	?a is/are 88.9 %
+		?a: eight
+	?a could recognize ?b separately
+		?a: eight
+		?b: 63 kDa
+	?a could recognize ?b separately
+		?a: eight
+		?b: 42 kDa protein bands
+
+
+label:    sent_7
+sentence: Affinity-purified anti-DNA antibodies could also blot similar bands on membrane proteins of other cells , but some bands were different .
+
+ppatt:
+	?a could also blot similar bands on ?b
+		?a: Affinity-purified anti-DNA antibodies
+		?b: membrane proteins of other cells
+	?a were different
+		?a: some bands
+
+

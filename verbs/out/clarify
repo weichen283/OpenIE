@@ -1,0 +1,279 @@
+label:    sent_1
+sentence: It can be particularly useful to clarify equivocal cytological findings .
+
+ppatt:
+	?a can be particularly useful to clarify ?b
+		?a: It
+		?b: equivocal cytological findings
+
+
+label:    sent_2
+sentence: We attempt to clarify the relationship between language preference and patient satisfaction in Hispanics . Further investigations are needed to clarify the potential role of FCV in FIC .
+
+ppatt:
+	?a attempt to clarify ?b
+		?a: We
+		?b: the relationship between language preference and patient satisfaction in Hispanics
+	?a are needed to clarify ?b
+		?a: Further investigations
+		?b: the potential role of FCV in FIC
+
+
+label:    sent_3
+sentence: Further studies are essential to clarify this relationship and elucidate the underlying mechanisms .
+
+ppatt:
+	?a are essential to clarify ?b
+		?a: Further studies
+		?b: this relationship
+	?a are essential to elucidate ?b
+		?a: Further studies
+		?b: the underlying mechanisms
+
+
+label:    sent_4
+sentence: Governments must act swiftly and decisively to incentivize antibiotic R&D and clarify regulations . I attempted to clarify indications and describe certain methods to remove intraocular lenses safely . Modeling Se kinetics may clarify the impact of form on metabolism .
+
+ppatt:
+	?a must act swiftly and decisively to incentivize ?b
+		?a: Governments
+		?b: antibiotic R&D
+	?a clarify ?b
+		?a: Governments
+		?b: regulations
+	?a attempted to clarify ?b
+		?a: Governments
+		?b: indications
+	?a describe ?b
+		?a: Governments
+		?b: certain methods to remove intraocular lenses safely
+	?a remove ?b safely
+		?a: certain methods
+		?b: intraocular lenses
+	Modeling Se ?a
+		?a: kinetics
+	?a may clarify ?b
+		?a: Governments
+		?b: the impact of form on metabolism
+
+
+label:    sent_5
+sentence: Moreover , close cooperation between ophthalmologists and a psychiatrist can further clarify the diagnosis .
+
+ppatt:
+	Moreover , ?a can further clarify ?b
+		?a: close cooperation between ophthalmologists and a psychiatrist
+		?b: the diagnosis
+
+
+label:    sent_6
+sentence: We also clarify the mechanistic details of this unusual cross-class inhibition .
+
+ppatt:
+	?a also clarify ?b
+		?a: We
+		?b: the mechanistic details of this unusual cross-class inhibition
+
+
+label:    sent_7
+sentence: To clarify the therapeutic education program impact with multiple sclerosis patients , literature review . We aimed to clarify this situation by gender-specific haplotype-phenotype association .
+
+ppatt:
+	clarify ?a ?b
+		?a: the therapeutic education program impact with multiple sclerosis patients
+		?b: literature review
+	?a ?b aimed to clarify ?c by ?d
+		?a: literature review
+		?b: We
+		?c: this situation
+		?d: gender-specific haplotype-phenotype association
+
+
+label:    sent_8
+sentence: The present study aimed to clarify these findings with dyslexic students in higher education .
+
+ppatt:
+	?a aimed to clarify ?b
+		?a: The present study
+		?b: these findings with dyslexic students in higher education
+
+
+label:    sent_9
+sentence: We clarify this pattern and show that it is sufficiently explained by two factors .
+
+ppatt:
+	?a clarify ?b
+		?a: We
+		?b: this pattern
+	?a show ?b
+		?a: We
+		?b: SOMETHING := it is sufficiently explained by two factors
+	?a is sufficiently explained by ?b
+		?a: it
+		?b: two factors
+
+
+label:    sent_10
+sentence: Outcome Indicators clarify specific knowledge areas and suggest clinical performance indicators for each competency .
+
+ppatt:
+	?a clarify ?b
+		?a: Outcome Indicators
+		?b: specific knowledge areas
+	?a suggest ?b
+		?a: Outcome Indicators
+		?b: clinical performance indicators for each competency
+
+
+label:    sent_11
+sentence: Future studies and experience will likely clarify existing controversies and bring further advances .
+
+ppatt:
+	?a will likely clarify ?b
+		?a: Future studies
+		?b: existing controversies
+	?a will likely clarify ?b
+		?a: experience
+		?b: existing controversies
+	?a bring ?b
+		?a: Future studies
+		?b: further advances
+	?a bring ?b
+		?a: experience
+		?b: further advances
+
+
+label:    sent_12
+sentence: These results clarify how FLG mutations impair epidermal permeability barrier function .
+
+ppatt:
+	?a clarify ?b
+		?a: These results
+		?b: SOMETHING := how FLG mutations impair epidermal permeability barrier function
+	how ?a impair ?b
+		?a: FLG mutations
+		?b: epidermal permeability barrier function
+
+
+label:    sent_13
+sentence: Future studies should clarify whether this is a " true " IR .
+
+ppatt:
+	?a should clarify ?b
+		?a: Future studies
+		?b: SOMETHING := this is a " true " IR
+	?a is a " true " IR
+		?a: this
+
+
+label:    sent_14
+sentence: Intervention trials would clarify whether increasing the haemoglobin concentration reduces mortality .
+
+ppatt:
+	?a would clarify ?b
+		?a: Intervention trials
+		?b: SOMETHING := whether increasing the haemoglobin concentration reduces mortality
+	?a ?b reduces ?c
+		?a: SOMETHING := increasing
+		?b: the haemoglobin concentration
+		?c: mortality
+
+
+label:    sent_15
+sentence: Scientific advancements in molecular sequencing can help clarify and provide support for identifications .
+
+ppatt:
+	?a can help clarify ?b
+		?a: Scientific advancements in molecular sequencing
+		?b: support for identifications
+	?a can help provide
+		?a: Scientific advancements in molecular sequencing
+
+
+label:    sent_16
+sentence: Further studies should be performed to clarify and determine the mechanisms of action .
+
+ppatt:
+	?a should be performed to clarify ?b
+		?a: Further studies
+		?b: the mechanisms of action
+	?a should be performed to determine
+		?a: Further studies
+
+
+label:    sent_17
+sentence: In the present study we tried to clarify and extend the above studies .
+
+ppatt:
+	In ?a ?b tried to clarify ?c
+		?a: the present study
+		?b: we
+		?c: the above studies
+	?a tried to extend
+		?a: we
+
+
+label:    sent_18
+sentence: In this paper , we clarify the interpretation of information-theoretic metrics . Results also clarify the interpretation of experimental data , particularly kinetic isotope effects .
+
+ppatt:
+	In ?a , ?b clarify ?c
+		?a: this paper
+		?b: we
+		?c: the interpretation of information-theoretic metrics
+	?a also clarify ?b
+		?a: Results
+		?b: the interpretation of experimental data
+	?a is/are particularly kinetic isotope effects
+		?a: experimental data
+
+
+label:    sent_19
+sentence: In any suspicious case an MRI will easily clarify the diagnosis .
+
+ppatt:
+	In ?a ?b will easily clarify ?c
+		?a: any suspicious case
+		?b: an MRI
+		?c: the diagnosis
+
+
+label:    sent_20
+sentence: Further analyses are required to clarify its roles at the synapses and in oligodendrocytes .
+
+ppatt:
+	?a are required to clarify ?b
+		?a: Further analyses
+		?b: its roles at the synapses and in oligodendrocytes
+
+
+label:    sent_21
+sentence: No studies have ever been tried to clarify about this treatment .
+
+ppatt:
+	?a have ever been tried to clarify about ?b
+		?a: No studies
+		?b: this treatment
+
+
+label:    sent_22
+sentence: We aimed to clarify this controvercy by performing a meta-analysis of published studies .
+
+ppatt:
+	?a aimed to clarify ?b
+		?a: We
+		?b: this controvercy
+	?a performing ?b
+		?a: We
+		?b: a meta-analysis of published studies
+
+
+label:    sent_23
+sentence: The pathogenetic implications of this phenomenon are difficult to clarify at present .
+
+ppatt:
+	?a are difficult to clarify at ?b
+		?a: The pathogenetic implications of this phenomenon
+		?b: present
+
+

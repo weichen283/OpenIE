@@ -1,0 +1,303 @@
+label:    sent_1
+sentence: The other is to observe the axungia degree of the liver .
+
+ppatt:
+	?a is to observe ?b
+		?a: The other
+		?b: the axungia degree of the liver
+
+
+label:    sent_2
+sentence: Confocal laser scanning microscopy was used to observe the proper adhesion of the cells .
+
+ppatt:
+	?a was used to observe ?b
+		?a: Confocal laser scanning microscopy
+		?b: the proper adhesion of the cells
+
+
+label:    sent_3
+sentence: Light microscopy and electron microscopy were used to observe liver morphology .
+
+ppatt:
+	?a were used to observe ?b
+		?a: Light microscopy
+		?b: liver morphology
+	?a were used to observe ?b
+		?a: electron microscopy
+		?b: liver morphology
+
+
+label:    sent_4
+sentence: Yet we could observe increased bruising under the sole external compression treatment .
+
+ppatt:
+	Yet ?a could observe ?b under ?c
+		?a: we
+		?b: increased bruising
+		?c: the sole external compression treatment
+
+
+label:    sent_5
+sentence: In our series we did not observe tumour progression in spite of incomplete excision .
+
+ppatt:
+	In ?a ?b did not observe ?c in ?d
+		?a: our series
+		?b: we
+		?c: tumour progression
+		?d: spite of incomplete excision
+
+
+label:    sent_6
+sentence: We did not observe any effects following the 10-s plasma treatment .
+
+ppatt:
+	?a did not observe ?b following ?c
+		?a: We
+		?b: any effects
+		?c: the 10-s plasma treatment
+
+
+label:    sent_7
+sentence: We did not observe severe arrhythmias , minor gastrointestinal bleeding occurred in 2 % . We did not observe any late-developing paramolar or distomolar ST .
+
+ppatt:
+	?a did not observe ?b
+		?a: We
+		?b: severe arrhythmias
+	?a occurred in ?b
+		?a: minor gastrointestinal bleeding
+		?b: 2 %
+	?a did not observe ?b
+		?a: We
+		?b: any late-developing paramolar
+	?a did not observe ?b
+		?a: We
+		?b: distomolar ST
+
+
+label:    sent_8
+sentence: We did not observe any non-specific binding .
+
+ppatt:
+	?a did not observe ?b
+		?a: We
+		?b: any non-specific binding
+
+
+label:    sent_9
+sentence: Evolutionary biologists have exploited this to observe evolution in real time .
+
+ppatt:
+	?a have exploited ?b to observe ?c
+		?a: Evolutionary biologists
+		?b: this
+		?c: evolution in real time
+
+
+label:    sent_10
+sentence: Immunofluorescence was used to observe SK2 channel protein distribution on right atrial appendage .
+
+ppatt:
+	?a was used to observe ?b
+		?a: Immunofluorescence
+		?b: SK2 channel protein distribution on right atrial appendage
+
+
+label:    sent_11
+sentence: It is important to observe the nystagmus periodically after onset .
+
+ppatt:
+	?a is important to observe ?b periodically after ?c
+		?a: It
+		?b: the nystagmus
+		?c: onset
+
+
+label:    sent_12
+sentence: We observe that persistence acts as an excellent quantifier to describe this transition .
+
+ppatt:
+	?a observe ?b
+		?a: We
+		?b: SOMETHING := persistence acts as an excellent quantifier to describe this transition
+	?a acts as ?b to describe ?c
+		?a: persistence
+		?b: an excellent quantifier
+		?c: this transition
+
+
+label:    sent_13
+sentence: We also observe that RuBisCO Large Subunit accumulation is perturbed .
+
+ppatt:
+	?a also observe ?b
+		?a: We
+		?b: SOMETHING := RuBisCO Large Subunit accumulation is perturbed
+	?a is perturbed
+		?a: RuBisCO Large Subunit accumulation
+
+
+label:    sent_14
+sentence: We observe that pulse-splitting occurs for super-Gaussian pulses , but not for Gaussian pulses . SEM was employed to observe the fractured surface and analyze the fracture mechanisms .
+
+ppatt:
+	?a observe ?b ?c
+		?a: We
+		?b: SOMETHING := pulse-splitting occurs for super-Gaussian pulses , but not for Gaussian pulses
+		?c: SOMETHING := SEM was employed to observe the fractured surface and analyze the fracture mechanisms
+	?a occurs for ?b
+		?a: pulse-splitting
+		?b: super-Gaussian pulses
+	?a occurs for ?b
+		?a: pulse-splitting
+		?b: not Gaussian pulses
+	?a was employed to observe ?b
+		?a: SEM
+		?b: the fractured surface
+	?a was employed to analyze ?b
+		?a: SEM
+		?b: the fracture mechanisms
+
+
+label:    sent_15
+sentence: Good agreement was obtained between calculated and observe values .
+
+ppatt:
+	?a was obtained between ?b ?c
+		?a: Good agreement
+		?b: calculated
+		?c: values
+	?a was obtained between ?b ?c
+		?a: Good agreement
+		?b: observe
+		?c: values
+
+
+label:    sent_16
+sentence: We were able to observe the inner space , and fly through the PDA .
+
+ppatt:
+	?a were able to observe ?b
+		?a: We
+		?b: the inner space
+	?a were able to observe ?b
+		?a: We
+		?b: fly through the PDA
+
+
+label:    sent_17
+sentence: The hippocampal neuronal loss was observe with light microscope .
+
+ppatt:
+	?a was observe with ?b
+		?a: The hippocampal neuronal loss
+		?b: light microscope
+
+
+label:    sent_18
+sentence: We did n't observe serious ventricular arrhytmias in the both subgroups .
+
+ppatt:
+	?a did n't observe ?b
+		?a: We
+		?b: serious ventricular arrhytmias in the both subgroups
+
+
+label:    sent_19
+sentence: In addition , we observe that dRASSF also possesses a tumor-suppressor function .
+
+ppatt:
+	In ?a , ?b observe ?c
+		?a: addition
+		?b: we
+		?c: SOMETHING := dRASSF also possesses a tumor-suppressor function
+	?a also possesses ?b
+		?a: dRASSF
+		?b: a tumor-suppressor function
+
+
+label:    sent_20
+sentence: The field of proteomics strives to observe and quantify this protein diversity .
+
+ppatt:
+	?a strives to observe ?b
+		?a: The field of proteomics
+		?b: this protein diversity
+	?a strives to quantify
+		?a: The field of proteomics
+
+
+label:    sent_21
+sentence: The AIMS was used to observe and score dyskinesia .
+
+ppatt:
+	?a was used to observe ?b
+		?a: The AIMS
+		?b: dyskinesia
+	?a was used to score
+		?a: The AIMS
+
+
+label:    sent_22
+sentence: The management of pancreatic injuries in children : operate or observe .
+
+ppatt:
+
+
+
+label:    sent_23
+sentence: We did not observe any neuroendoscope-related complications and had no postoperative deaths .
+
+ppatt:
+	?a did not observe ?b
+		?a: We
+		?b: any neuroendoscope-related complications
+	?a had ?b
+		?a: We
+		?b: no postoperative deaths
+
+
+label:    sent_24
+sentence: We observe individuals as they change living arrangements , die , or become institutionalized .
+
+ppatt:
+	?a observe ?b
+		?a: We
+		?b: individuals
+	?a change ?b
+		?a: they
+		?b: living arrangements
+	?a die
+		?a: We
+	?a become institutionalized
+		?a: they
+
+
+label:    sent_25
+sentence: Adverse effects are uncommon , and we did not observe any skin rash . After endotoxin application one can observe an endothelial damage and then a repair process .
+
+ppatt:
+	?a are uncommon
+		?a: Adverse effects
+	?a did not observe ?b After ?c
+		?a: we
+		?b: any skin rash
+		?c: endotoxin application
+	?a can observe ?b
+		?a: one
+		?b: an endothelial damage
+	?a can observe ?b
+		?a: one
+		?b: then a repair process
+
+
+label:    sent_26
+sentence: To observe the effect in operation and influence after operation of intrachamberal anesthesia .
+
+ppatt:
+	observe ?a
+		?a: the effect in operation and influence after operation of intrachamberal anesthesia
+
+

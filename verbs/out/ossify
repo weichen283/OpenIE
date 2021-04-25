@@ -1,0 +1,127 @@
+label:    sent_1
+sentence: The extra centra of megophryids ossify differently in each genus .
+
+ppatt:
+	?a ossify differently in ?b
+		?a: The extra centra of megophryids
+		?b: each genus
+
+
+label:    sent_2
+sentence: In Homo and Sus , the tarsals ossify before the pubic bone .
+
+ppatt:
+	In ?a , ?b ossify before ?c
+		?a: Homo
+		?b: the tarsals
+		?c: the pubic bone
+	In ?a , ?b ossify before ?c
+		?a: Sus
+		?b: the tarsals
+		?c: the pubic bone
+
+
+label:    sent_3
+sentence: In particular , critical-sized defects do not ossify spontaneously .
+
+ppatt:
+	In ?a , ?b do not ossify spontaneously
+		?a: particular
+		?b: critical-sized defects
+
+
+label:    sent_4
+sentence: The patella began to ossify at P30 .
+
+ppatt:
+	?a began to ossify at ?b
+		?a: The patella
+		?b: P30
+
+
+label:    sent_5
+sentence: Pleurodires show the epiplastron to ossify before or simultaneously with maxilla and dentary .
+
+ppatt:
+	?a show ?b to ossify ?c with ?d
+		?a: Pleurodires
+		?b: the epiplastron
+		?c: before
+		?d: simultaneously maxilla
+	?a show ?b to ossify ?c with ?d
+		?a: Pleurodires
+		?b: the epiplastron
+		?c: before
+		?d: dentary
+
+
+label:    sent_6
+sentence: With growth rat membranous bones ossify more rapidly than long bones . NOF that ossify can show increased uptake on bone scintigraphy .
+
+ppatt:
+	With ?a ossify more rapidly than ?b
+		?a: growth rat membranous bones
+		?b: long bones
+	?a can show ?b
+		?a: ossify
+		?b: increased uptake on bone scintigraphy
+
+
+label:    sent_7
+sentence: The disorder starts with soft tissue swelling which subsequently ossify .
+
+ppatt:
+	?a starts with ?b
+		?a: The disorder
+		?b: soft tissue swelling which subsequently ossify
+	?a subsequently ossify
+		?a: soft tissue swelling
+
+
+label:    sent_8
+sentence: These cells later ossify , forming a compact centrum .
+
+ppatt:
+	?a later ossify , forming ?b
+		?a: These cells
+		?b: a compact centrum
+
+
+label:    sent_9
+sentence: In gobiesocids , the distal radials never ossify and consist of elastic hyaline-cell cartilage .
+
+ppatt:
+	In ?a , ?b never ossify of ?c
+		?a: gobiesocids
+		?b: the distal radials
+		?c: elastic hyaline-cell cartilage
+	?a consist
+		?a: the distal radials
+
+
+label:    sent_10
+sentence: These may calcify or ossify forming osteocartilaginous masses as loose bodies .
+
+ppatt:
+	?a may calcify ?b as ?c
+		?a: These
+		?b: forming osteocartilaginous masses
+		?c: loose bodies
+	?a ossify
+		?a: These
+
+
+label:    sent_11
+sentence: These masses may calcify and ossify . Human ASCs ossify critical sized mouse calvarial defects without the need for pre-differentiation .
+
+ppatt:
+	?a may calcify
+		?a: These masses
+	?a ossify
+		?a: These masses
+	?a ossify ?b without ?c
+		?a: Human ASCs
+		?b: critical sized mouse calvarial defects
+		?c: the need for pre-differentiation
+
+

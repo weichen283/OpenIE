@@ -1,0 +1,106 @@
+label:    sent_1
+sentence: Hawthorne has worked to immerse Texas Health Resources in technology .
+
+ppatt:
+	?a has worked to immerse ?b in ?c
+		?a: Hawthorne
+		?b: Texas Health Resources
+		?c: technology
+
+
+label:    sent_2
+sentence: The solutions used to immerse the specimen during irradiation influence the specimen morphology .
+
+ppatt:
+	?a used to immerse ?b during ?c
+		?a: The solutions
+		?b: the specimen
+		?c: irradiation
+	?a influence ?b
+		?a: The solutions used to immerse the specimen during irradiation
+		?b: the specimen morphology
+
+
+label:    sent_3
+sentence: This technique seeks to immerse the participant observer in the context of care .
+
+ppatt:
+	?a seeks to immerse ?b in ?c
+		?a: This technique
+		?b: the participant observer
+		?c: the context of care
+
+
+label:    sent_4
+sentence: Virtual world game interfaces offer further potential to immerse the learner . Did not immerse their hands ( control ) . Participants were asked to immerse their right forearm in 10degreesC water for 2 minutes .
+
+ppatt:
+	?a offer ?b
+		?a: Virtual world game interfaces
+		?b: further potential to immerse the learner
+	?a immerse ?b
+		?a: further potential
+		?b: the learner
+	?a Did not immerse ?b
+		?a: Virtual world game interfaces
+		?b: their hands
+	?a is/are control
+		?a: their hands
+	?a were asked to immerse ?b in ?c for ?d
+		?a: Participants
+		?b: their right forearm
+		?c: 10degreesC water
+		?d: 2 minutes
+
+
+label:    sent_5
+sentence: A technology of virtual reality enables us to immerse ourselves into 3D synthesized environments .
+
+ppatt:
+	?a enables ?b to immerse ?c into ?d
+		?a: A technology of virtual reality
+		?b: us
+		?c: ourselves
+		?d: 3D synthesized environments
+
+
+label:    sent_6
+sentence: When we immerse our face in water , bradycardia occurs . He would immerse himself in these investigations throughout the remainder of his scientific career .
+
+ppatt:
+	When ?a immerse ?b
+		?a: we
+		?b: our face in water
+	?a occurs
+		?a: bradycardia
+	?a would immerse ?b in ?c throughout ?d
+		?a: He
+		?b: himself
+		?c: these investigations
+		?d: the remainder of his scientific career
+
+
+label:    sent_7
+sentence: Qualitative health researchers immerse themselves in the settings that they are studying .
+
+ppatt:
+	?a immerse ?b in ?c
+		?a: Qualitative health researchers
+		?b: themselves
+		?c: the settings that they are studying
+	?a are studying
+		?a: they
+
+
+label:    sent_8
+sentence: They then must witness and immerse themselves in the gruesome results of warfare .
+
+ppatt:
+	?a then must witness ?b in ?c
+		?a: They
+		?b: themselves
+		?c: the gruesome results of warfare
+	?a immerse
+		?a: They
+
+

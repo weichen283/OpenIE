@@ -1,0 +1,327 @@
+label:    sent_1
+sentence: Biliary epithelial cells are quiescent cells that are able to proliferate in pathophysiological settings .
+
+ppatt:
+	?a are quiescent cells
+		?a: Biliary epithelial cells
+	?a are able to proliferate in ?b
+		?a: quiescent cells
+		?b: pathophysiological settings
+
+
+label:    sent_2
+sentence: Primary human osteoblasts attach , spread and proliferate well on both types of coatings .
+
+ppatt:
+	?a attach
+		?a: Primary human osteoblasts
+	?a spread
+		?a: Primary human osteoblasts
+	?a proliferate well on ?b
+		?a: Primary human osteoblasts
+		?b: both types of coatings
+
+
+label:    sent_3
+sentence: The hybrid cell lines display fibroblastic morphology and proliferate like immortal cells .
+
+ppatt:
+	?a display ?b
+		?a: The hybrid cell lines
+		?b: fibroblastic morphology
+	?a proliferate like ?b
+		?a: The hybrid cell lines
+		?b: immortal cells
+
+
+label:    sent_4
+sentence: Leydig cells isolated by differential adhesion proliferate actively in the modified culture media . PS can infrequently proliferate aggressively with more differentiated features .
+
+ppatt:
+	?a isolated by ?b
+		?a: Leydig cells
+		?b: differential adhesion
+	?a proliferate actively in ?b
+		?a: Leydig cells isolated by differential adhesion
+		?b: the modified culture media
+	?a can infrequently proliferate aggressively with ?b
+		?a: PS
+		?b: more differentiated features
+
+
+label:    sent_5
+sentence: Our study demonstrates that PECs proliferate in HIV and pamidronate-associated cFSGS .
+
+ppatt:
+	?a demonstrates ?b
+		?a: Our study
+		?b: SOMETHING := PECs proliferate in HIV and pamidronate-associated cFSGS
+	?a proliferate in ?b ?c
+		?a: PECs
+		?b: HIV
+		?c: cFSGS
+	?a proliferate in ?b ?c
+		?a: PECs
+		?b: pamidronate-associated
+		?c: cFSGS
+
+
+label:    sent_6
+sentence: They have the potential to proliferate and to differentiate into mature endothelial cells .
+
+ppatt:
+	?a have ?b
+		?a: They
+		?b: the potential to proliferate and to differentiate into mature endothelial cells
+	?a proliferate
+		?a: the potential
+	differentiate into ?a
+		?a: mature endothelial cells
+
+
+label:    sent_7
+sentence: The liver is characterized by a remarkable ability to proliferate and self-renew .
+
+ppatt:
+	?a is characterized by ?b
+		?a: The liver
+		?b: a remarkable ability to proliferate and self-renew
+	?a proliferate
+		?a: a remarkable ability
+
+
+label:    sent_8
+sentence: The BJ1 cells were able to proliferate and kill the specific target .
+
+ppatt:
+	?a were able to proliferate ?b
+		?a: The BJ1 cells
+		?b: the specific target
+	?a were able to kill
+		?a: The BJ1 cells
+
+
+label:    sent_9
+sentence: The cells proliferate and form multicellular spheroids .
+
+ppatt:
+	?a proliferate
+		?a: The cells
+	?a form ?b
+		?a: The cells
+		?b: multicellular spheroids
+
+
+label:    sent_10
+sentence: The initiated cells can thus proliferate robustly and progress to a malignancy .
+
+ppatt:
+	?a can thus proliferate robustly
+		?a: The initiated cells
+	?a progress to ?b
+		?a: The initiated cells
+		?b: a malignancy
+
+
+label:    sent_11
+sentence: These cells proliferate and form discrete tumors that contain rIGF-II and abundant IGF-II receptors .
+
+ppatt:
+	?a proliferate ?b
+		?a: These cells
+		?b: discrete tumors that contain rIGF-II and abundant IGF-II receptors
+	?a form
+		?a: These cells
+	?a contain ?b
+		?a: discrete tumors
+		?b: rIGF-II
+	?a contain ?b
+		?a: discrete tumors
+		?b: abundant IGF-II receptors
+
+
+label:    sent_12
+sentence: Hematopoietic stem cells proliferate until after birth and show a reversible phase-specific engraftment defect .
+
+ppatt:
+	?a proliferate until after ?b
+		?a: Hematopoietic stem cells
+		?b: birth
+	?a show ?b
+		?a: Hematopoietic stem cells
+		?b: a reversible phase-specific engraftment defect
+
+
+label:    sent_13
+sentence: These Thy-1-positive cells proliferate in the cultures and can generate cytotoxic responses .
+
+ppatt:
+	?a proliferate in ?b
+		?a: These Thy-1-positive cells
+		?b: the cultures
+	?a can generate ?b
+		?a: These Thy-1-positive cells
+		?b: cytotoxic responses
+
+
+label:    sent_14
+sentence: During embryonic and postnatal development they actively proliferate and generate myelinating oligodendrocytes .
+
+ppatt:
+	?a ?b actively proliferate
+		?a: embryonic
+		?b: they
+	?a ?b actively proliferate
+		?a: postnatal
+		?b: they
+	?a generate ?b
+		?a: they
+		?b: myelinating oligodendrocytes
+
+
+label:    sent_15
+sentence: Binucleated cells proliferate slowly . Melatonin stimulated control osteoblasts to proliferate .
+
+ppatt:
+	?a proliferate slowly . ?b to proliferate
+		?a: Binucleated cells
+		?b: Melatonin stimulated control osteoblasts
+
+
+label:    sent_16
+sentence: Cells from the superficial layer proliferate significantly faster than those from the deep layer .
+
+ppatt:
+	?a proliferate significantly faster than ?b
+		?a: Cells from the superficial layer
+		?b: those from the deep layer
+
+
+label:    sent_17
+sentence: Leukemic cells are also able to survive and proliferate in severely hypoxic environments .
+
+ppatt:
+	?a are also able to survive in ?b
+		?a: Leukemic cells
+		?b: severely hypoxic environments
+	?a are also able to proliferate
+		?a: Leukemic cells
+
+
+label:    sent_18
+sentence: Chronic lymphocytic leukaemia cells survive and proliferate in patients but rapidly die in culture .
+
+ppatt:
+	?a survive in ?b
+		?a: Chronic lymphocytic leukaemia cells
+		?b: patients
+	?a proliferate
+		?a: Chronic lymphocytic leukaemia cells
+	?a rapidly die in ?b
+		?a: Chronic lymphocytic leukaemia cells
+		?b: culture
+
+
+label:    sent_19
+sentence: Isolated hepatocytes have quiescent cell function and seldom proliferate in culture .
+
+ppatt:
+	?a have ?b
+		?a: Isolated hepatocytes
+		?b: quiescent cell function
+	?a seldom proliferate in ?b
+		?a: Isolated hepatocytes
+		?b: culture
+
+
+label:    sent_20
+sentence: Cells formed spheroidal aggregates while continuing to proliferate long term and expressing phenotypic stability . KFs migrate and proliferate faster than NFs . PHA also showed its ability to proliferate cells .
+
+ppatt:
+	?a formed ?b
+		?a: Cells
+		?b: spheroidal aggregates
+	continuing to proliferate ?a ?b
+		?a: long term
+		?b: KFs
+	continuing to expressing ?a ?b
+		?a: phenotypic stability
+		?b: KFs
+	?a migrate
+		?a: KFs
+	?a proliferate faster than ?b
+		?a: KFs
+		?b: NFs
+	?a also showed ?b
+		?a: PHA
+		?b: its ability to proliferate cells
+	?a proliferate ?b
+		?a: its ability
+		?b: cells
+
+
+label:    sent_21
+sentence: Signaling cascades proliferate signals received on the cell membrane to the nucleus . Podocytes proliferate : novel mechanism identified in collapsing glomerulopathies .
+
+ppatt:
+	?a proliferate ?b
+		?a: Signaling cascades
+		?b: signals received on the cell membrane to the nucleus
+	?a received on ?b to ?c
+		?a: signals
+		?b: the cell membrane
+		?c: the nucleus
+	?a proliferate ?b
+		?a: Podocytes
+		?b: novel mechanism identified in collapsing glomerulopathies
+	?a identified
+		?a: novel mechanism
+	collapsing ?a
+		?a: glomerulopathies
+
+
+label:    sent_22
+sentence: When germ cells are damaged , Leydig cells in the vicinity proliferate faster .
+
+ppatt:
+	When ?a are damaged
+		?a: germ cells
+	?a proliferate faster
+		?a: Leydig cells in the vicinity
+
+
+label:    sent_23
+sentence: In addition , NGF over-expressing keratinocytes proliferate better than mock transfected cells .
+
+ppatt:
+	In ?a , ?b proliferate better than ?c
+		?a: addition
+		?b: NGF over-expressing keratinocytes
+		?c: mock transfected cells
+
+
+label:    sent_24
+sentence: In conclusion , CLL B cells proliferate at reduced levels compared with healthy controls .
+
+ppatt:
+	In ?a , ?b proliferate at ?c
+		?a: conclusion
+		?b: CLL B cells
+		?c: reduced levels
+	?a compared with healthy controls
+		?a: CLL B cells
+
+
+label:    sent_25
+sentence: It was found that in most cases leukemic cells proliferate slower than normal cells .
+
+ppatt:
+	?a was found ?b
+		?a: It
+		?b: SOMETHING := in most cases leukemic cells proliferate slower than normal cells
+	in ?a ?b proliferate slower than ?c
+		?a: most cases
+		?b: leukemic cells
+		?c: normal cells
+
+

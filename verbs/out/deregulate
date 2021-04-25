@@ -1,0 +1,122 @@
+label:    sent_1
+sentence: Multiple pathogenic pathways are able to deregulate glucose homoeostasis leading to diabetes .
+
+ppatt:
+	?a are able to deregulate ?b
+		?a: Multiple pathogenic pathways
+		?b: glucose homoeostasis leading to diabetes
+	?a leading to ?b
+		?a: glucose homoeostasis
+		?b: diabetes
+
+
+label:    sent_2
+sentence: Thus mutations by themselves are insufficient to deregulate c-myc transcription .
+
+ppatt:
+	Thus ?a are insufficient to deregulate ?b
+		?a: mutations by themselves
+		?b: c-myc transcription
+
+
+label:    sent_3
+sentence: Somatic mutation has been shown to deregulate the RhoGAP activity of DLC1 .
+
+ppatt:
+	?a has been shown to deregulate ?b
+		?a: Somatic mutation
+		?b: the RhoGAP activity of DLC1
+
+
+label:    sent_4
+sentence: Recent studies have begun to explain how oncogenic events may deregulate the hemostatic system .
+
+ppatt:
+	?a have begun to explain ?b
+		?a: Recent studies
+		?b: SOMETHING := how oncogenic events may deregulate the hemostatic system
+	how ?a may deregulate ?b
+		?a: oncogenic events
+		?b: the hemostatic system
+
+
+label:    sent_5
+sentence: Stress granule-defective mutants deregulate stress responsive transcripts .
+
+ppatt:
+	?a deregulate ?b
+		?a: Stress granule-defective mutants
+		?b: stress responsive transcripts
+
+
+label:    sent_6
+sentence: However , we found CDK3 to deregulate E2F-dependent transcription .
+
+ppatt:
+	However , ?a found ?b to deregulate ?c
+		?a: we
+		?b: CDK3
+		?c: E2F-dependent transcription
+
+
+label:    sent_7
+sentence: HnRNP proteins controlled by c-Myc deregulate pyruvate kinase mRNA splicing in cancer .
+
+ppatt:
+	?a controlled by ?b
+		?a: HnRNP proteins
+		?b: c-Myc
+	?a deregulate ?b
+		?a: HnRNP proteins controlled by c-Myc
+		?b: pyruvate kinase mRNA splicing in cancer
+
+
+label:    sent_8
+sentence: Oncogenic ETS fusions deregulate E2F3 target genes in Ewing sarcoma and prostate cancer .
+
+ppatt:
+	?a deregulate ?b in ?c
+		?a: Oncogenic ETS fusions
+		?b: E2F3 target genes
+		?c: Ewing sarcoma
+	?a deregulate ?b in ?c
+		?a: Oncogenic ETS fusions
+		?b: E2F3 target genes
+		?c: prostate cancer
+
+
+label:    sent_9
+sentence: Human tropomyosin mutations deregulate skeletal muscle contraction at the cellular level .
+
+ppatt:
+	?a deregulate ?b at ?c
+		?a: Human tropomyosin mutations
+		?b: skeletal muscle contraction
+		?c: the cellular level
+
+
+label:    sent_10
+sentence: TRNA mutations that affect decoding fidelity deregulate development and the proteostasis network in zebrafish .
+
+ppatt:
+	?a affect ?b
+		?a: TRNA mutations
+		?b: decoding fidelity deregulate development
+	?a affect ?b
+		?a: TRNA mutations
+		?b: the proteostasis network in zebrafish
+
+
+label:    sent_11
+sentence: In addition E7 proteins deregulate the cell cycle and enhance invasive growth .
+
+ppatt:
+	In ?a ?b deregulate ?c
+		?a: addition
+		?b: E7 proteins
+		?c: the cell cycle
+	?a enhance ?b
+		?a: E7 proteins
+		?b: invasive growth
+
+

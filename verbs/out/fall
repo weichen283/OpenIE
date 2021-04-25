@@ -1,0 +1,254 @@
+label:    sent_1
+sentence: A 58-year-old man presented with right elbow pain after a fall from scaffolding .
+
+ppatt:
+	?a presented with ?b after ?c
+		?a: A 58-year-old man
+		?b: right elbow pain
+		?c: a fall from scaffolding
+
+
+label:    sent_2
+sentence: Pathogen survived better in fall , indicating an important influence of temperature and humidity .
+
+ppatt:
+	?a survived ?b in ?c
+		?a: Pathogen
+		?b: better
+		?c: fall
+	?a indicating ?b
+		?a: Pathogen
+		?b: an important influence of temperature and humidity
+
+
+label:    sent_3
+sentence: The rise and fall of endothelin receptor antagonists in congestive heart failure .
+
+ppatt:
+
+
+
+label:    sent_4
+sentence: Germinated brown rice proteases fall into different classes with different properties .
+
+ppatt:
+	?a fall into ?b
+		?a: Germinated brown rice proteases
+		?b: different classes with different properties
+
+
+label:    sent_5
+sentence: The corresponding individual Huang-Rhys factors fall in the range between 0.0011 and 0.0500 .
+
+ppatt:
+	?a fall in ?b
+		?a: The corresponding individual Huang-Rhys factors
+		?b: the range between 0.0011 and 0.0500
+
+
+label:    sent_6
+sentence: What happens when HIV researchers fall in love at work ? Poor nutritional status is often present among older adults who experience a fall . Water features fall out of favor over germ concern .
+
+ppatt:
+	?a happens
+		?a: What
+	when ?a fall in ?b at ?c
+		?a: HIV researchers
+		?b: love
+		?c: work
+	?a is often present among ?b
+		?a: Poor nutritional status
+		?b: older adults who experience a fall
+	?a experience ?b
+		?a: older adults
+		?b: a fall
+	?a fall out of ?b over ?c
+		?a: Water features
+		?b: favor
+		?c: germ concern
+
+
+label:    sent_7
+sentence: After the fall : a teenager with unusual intermittent muscle spasms .
+
+ppatt:
+
+
+
+label:    sent_8
+sentence: This effect was not observed in fall or winter .
+
+ppatt:
+	?a was not observed in ?b
+		?a: This effect
+		?b: fall
+	?a was not observed in ?b
+		?a: This effect
+		?b: winter
+
+
+label:    sent_9
+sentence: Rise and fall of anti-obesity drugs . Implementation of multifactorial interventions for fall and fracture prevention .
+
+ppatt:
+
+
+
+label:    sent_10
+sentence: Thoroughbred jumps racing jockeys have a fall rate greater than their flat racing counterparts .
+
+ppatt:
+	?a racing ?b
+		?a: Thoroughbred jumps
+		?b: jockeys
+	?a have ?b
+		?a: Thoroughbred jumps racing jockeys
+		?b: a fall rate greater than their flat racing counterparts
+
+
+label:    sent_11
+sentence: [ Evaluation of the fall risks in the elderly ] . The present findings demonstrate differences between real-world falls and fall simulations .
+
+ppatt:
+	?a ?b demonstrate ?c
+		?a: Evaluation of the fall risks in the elderly ]
+		?b: The present findings
+		?c: differences between real-world falls
+	?a fall ?b
+		?a: Evaluation of the fall risks in the elderly ]
+		?b: simulations
+
+
+label:    sent_12
+sentence: Blood pressure fall or fall of a myth ? Deaths from chronic disease fall in Australia but concerns rise for the future .
+
+ppatt:
+	?a fall in ?b
+		?a: Blood pressure fall of a myth ? Deaths from chronic disease
+		?b: Australia
+	?a fall in ?b
+		?a: fall
+		?b: Australia
+	?a concerns ?b for ?c
+		?a: Blood pressure fall of a myth ? Deaths from chronic disease
+		?b: rise
+		?c: the future
+	?a concerns ?b for ?c
+		?a: fall
+		?b: rise
+		?c: the future
+
+
+label:    sent_13
+sentence: Influenza costs fall mainly on hospitals and work through time off . However , this effect of maternal PIN-X was not observed in summer or fall .
+
+ppatt:
+	?a fall mainly on ?b
+		?a: Influenza costs
+		?b: hospitals
+	?a work through ?b off
+		?a: Influenza costs
+		?b: time
+	However , ?a was not observed in ?b
+		?a: this effect of maternal PIN-X
+		?b: summer
+	However , ?a was not observed in ?b
+		?a: this effect of maternal PIN-X
+		?b: fall
+
+
+label:    sent_14
+sentence: The lowest numbers were captured during the winter and fall .
+
+ppatt:
+	?a were captured during ?b
+		?a: The lowest numbers
+		?b: the winter
+	?a were captured during ?b
+		?a: The lowest numbers
+		?b: fall
+
+
+label:    sent_15
+sentence: Peaks in monthly antibody prevalence occurred in spring and fall .
+
+ppatt:
+	?a occurred in ?b
+		?a: Peaks in monthly antibody prevalence
+		?b: spring
+	?a fall
+		?a: Peaks in monthly antibody prevalence
+
+
+label:    sent_16
+sentence: Interventions targeting multiple fall risk factors can reduce fall rates by 30-40 % . When hospital patients fall : preliminary data from Ferrara , Italy . [The rise and fall of the Institute for Nursing Science ] . Reducing fall risk for surgical patients . Development , implementation , and evaluation of a comprehensive fall risk program .
+
+ppatt:
+	?a targeting ?b
+		?a: Interventions
+		?b: multiple fall risk factors
+	?a can reduce ?b by ?c
+		?a: Interventions targeting multiple fall risk factors
+		?b: fall rates
+		?c: 30-40 %
+	When ?a fall ?b
+		?a: hospital patients
+		?b: preliminary data from Ferrara , Italy . [The rise
+	?a fall of ?b
+		?a: hospital patients
+		?b: the Institute for Nursing Science ]
+	?a Reducing fall ?b ?c
+		?a: Interventions targeting multiple fall risk factors
+		?b: risk for surgical patients
+		?c: Development
+	?a Reducing fall ?b ?c
+		?a: Interventions targeting multiple fall risk factors
+		?b: risk for surgical patients
+		?c: implementation
+	?a Reducing fall ?b ?c
+		?a: Interventions targeting multiple fall risk factors
+		?b: risk for surgical patients
+		?c: evaluation of a comprehensive fall risk program
+
+
+label:    sent_17
+sentence: Other paradigms fall somewhere between incidental and intentional coordination , e.g. task sharing paradigms .
+
+ppatt:
+	?a fall somewhere ?b ?c
+		?a: Other paradigms
+		?b: between incidental and intentional coordination
+		?c: e.g. task sharing paradigms
+
+
+label:    sent_18
+sentence: Victims of kharisiris , however , fall ill and may die if untreated .
+
+ppatt:
+	?a however , fall ill
+		?a: Victims of kharisiris
+	?a may die
+		?a: Victims of kharisiris
+	?a untreated
+		?a: Victims of kharisiris
+
+
+label:    sent_19
+sentence: The mechanism of injury was typically a fall or a motor vehicle accident .
+
+ppatt:
+	?a was typically a fall
+		?a: The mechanism of injury
+	?a a motor vehicle accident
+		?a: The mechanism of injury
+
+
+label:    sent_20
+sentence: Vertical trauma : injuries to patients who fall and land on their feet .
+
+ppatt:
+	?a fall on ?b
+		?a: patients
+		?b: their feet
+
+

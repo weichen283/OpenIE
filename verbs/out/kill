@@ -1,0 +1,277 @@
+label:    sent_1
+sentence: [Save or kill-the ambivalence of neurotrophin receptors ] . Each had explicitly threatened to kill a person other than themselves .
+
+ppatt:
+	?a ?b had explicitly threatened to kill ?c
+		?a: [Save
+		?b: Each
+		?c: a person other than themselves
+	?a ?b had explicitly threatened to kill ?c
+		?a: kill-the
+		?b: Each
+		?c: a person other than themselves
+
+
+label:    sent_2
+sentence: Stalkers can inflict severe injury upon and have been known to kill their victims .
+
+ppatt:
+	?a can inflict ?b ?c
+		?a: Stalkers
+		?b: severe injury
+		?c: upon
+	?a have been known to kill ?b
+		?a: Stalkers
+		?b: their victims
+
+
+label:    sent_3
+sentence: Development of transgenic fungi that kill human malaria parasites in mosquitoes .
+
+ppatt:
+	?a kill ?b
+		?a: transgenic fungi
+		?b: human malaria parasites in mosquitoes
+
+
+label:    sent_4
+sentence: Williopsis saturnus yeast killer toxin does not kill Streptococcus pneumoniae .
+
+ppatt:
+	?a does not kill ?b
+		?a: Williopsis saturnus yeast killer toxin
+		?b: Streptococcus pneumoniae
+
+
+label:    sent_5
+sentence: Ultrasmall gold-doxorubicin conjugates rapidly kill apoptosis-resistant cancer cells .
+
+ppatt:
+	?a rapidly kill ?b
+		?a: Ultrasmall gold-doxorubicin conjugates
+		?b: apoptosis-resistant cancer cells
+
+
+label:    sent_6
+sentence: Progesterone and 17alphaPSCE were both found to kill H. pylori through their bacteriolytic action .
+
+ppatt:
+	?a were found to kill ?b through ?c
+		?a: Progesterone
+		?b: H. pylori
+		?c: their bacteriolytic action
+	?a were found to kill ?b through ?c
+		?a: 17alphaPSCE
+		?b: H. pylori
+		?c: their bacteriolytic action
+
+
+label:    sent_7
+sentence: Both lactoferrins and bLfcin were able to kill amoebas in a concentration-dependent manner .
+
+ppatt:
+	?a were able to kill ?b in ?c
+		?a: lactoferrins
+		?b: amoebas
+		?c: a concentration-dependent manner
+	?a were able to kill ?b in ?c
+		?a: bLfcin
+		?b: amoebas
+		?c: a concentration-dependent manner
+
+
+label:    sent_8
+sentence: Pertussis immunocompetent sera were unable to kill Bordetella parapertussis via complement deposition .
+
+ppatt:
+	?a were unable to kill ?b via ?c
+		?a: Pertussis immunocompetent sera
+		?b: Bordetella parapertussis
+		?c: complement deposition
+
+
+label:    sent_9
+sentence: Many bacteria kill related bacteria by secretion of bacteriocins . Granzymes kill cells in a variety of ways . Interferon gamma activated macrophages kill mycobacteria by nitric oxide induced apoptosis .
+
+ppatt:
+	?a kill ?b by ?c
+		?a: Many bacteria
+		?b: related bacteria
+		?c: secretion of bacteriocins
+	?a kill ?b in ?c
+		?a: Granzymes
+		?b: cells
+		?c: a variety of ways
+	?a kill ?b by ?c
+		?a: Interferon gamma activated macrophages
+		?b: mycobacteria
+		?c: nitric oxide induced apoptosis
+
+
+label:    sent_10
+sentence: These compounds can poison and kill animals and humans .
+
+ppatt:
+	?a can poison ?b
+		?a: These compounds
+		?b: animals
+	?a can poison ?b
+		?a: These compounds
+		?b: humans
+	?a kill
+		?a: These compounds
+
+
+label:    sent_11
+sentence: The disease adversely affects fruit production and may kill infected plants .
+
+ppatt:
+	?a adversely affects ?b
+		?a: The disease
+		?b: fruit production
+	?a may kill ?b
+		?a: The disease
+		?b: infected plants
+
+
+label:    sent_12
+sentence: Retrocyclins kill bacilli and germinating spores of Bacillus anthracis and inactivate anthrax lethal toxin .
+
+ppatt:
+	?a kill ?b
+		?a: Retrocyclins
+		?b: bacilli of Bacillus anthracis
+	?a kill ?b
+		?a: Retrocyclins
+		?b: germinating spores
+	?a inactivate ?b
+		?a: Retrocyclins
+		?b: anthrax lethal toxin
+
+
+label:    sent_13
+sentence: To kill , you have to duck an HDAC .
+
+ppatt:
+	kill ?a
+		?a: you
+	?a have to ?b
+		?a: you
+		?b: duck an HDAC
+
+
+label:    sent_14
+sentence: Saturability of granulocyte kill of Pseudomonas aeruginosa in a murine model of pneumonia . At kill , intestinal tissues were collected for mucositis assessments .
+
+ppatt:
+	?a were collected for ?b
+		?a: Saturability of granulocyte kill of Pseudomonas aeruginosa in a murine model of pneumonia . At kill , tissues
+		?b: mucositis assessments
+
+
+label:    sent_15
+sentence: However , blocking cytokines will not kill tumor cells nor prevent carcinogenesis .
+
+ppatt:
+	However , ?a will not kill ?b
+		?a: blocking cytokines
+		?b: tumor cells
+	?a prevent ?b
+		?a: blocking cytokines
+		?b: carcinogenesis
+
+
+label:    sent_16
+sentence: The compounds did not kill the cells , but modified completely their sterol pattern .
+
+ppatt:
+	?a did not kill ?b
+		?a: The compounds
+		?b: the cells
+	?a modified completely ?b
+		?a: The compounds
+		?b: their sterol pattern
+
+
+label:    sent_17
+sentence: These doses did not kill dams or affect the pup survival or growth .
+
+ppatt:
+	?a did not kill ?b
+		?a: These doses
+		?b: dams
+	?a affect ?b
+		?a: These doses
+		?b: the pup
+
+
+label:    sent_18
+sentence: Bugs do n't make worms kill . A clinical study of those who utter threats to kill .
+
+ppatt:
+	?a do n't make ?b
+		?a: Bugs
+		?b: A clinical study of those who utter threats to kill
+	?a kill
+		?a: worms
+	?a utter ?b to kill
+		?a: those
+		?b: threats
+
+
+label:    sent_19
+sentence: Traditionally , " flu " does not kill .
+
+ppatt:
+	Traditionally , ?a does not kill
+		?a: " flu "
+
+
+label:    sent_20
+sentence: An anticancer strategic dilemma : to kill or to contain .
+
+ppatt:
+	?a kill
+		?a: An anticancer strategic dilemma
+
+
+label:    sent_21
+sentence: Inhibition of hyphal development and kill of Candida albicans blastospores by noxythiolin in vitro .
+
+ppatt:
+
+
+
+label:    sent_22
+sentence: 5-Thio-D-glucose is also known to specifically kill and radiosensitize hypoxic tumor cells .
+
+ppatt:
+	?a is also known to specifically kill ?b
+		?a: 5-Thio-D-glucose
+		?b: hypoxic tumor cells
+	?a is also known to radiosensitize
+		?a: 5-Thio-D-glucose
+
+
+label:    sent_23
+sentence: Antibiotics kill at a much slower and more disappointing rate against bacilli within macrophages . PGRPs kill with an ancient weapon .
+
+ppatt:
+	?a kill at ?b
+		?a: Antibiotics
+		?b: a much slower and more disappointing rate against bacilli within macrophages
+	?a kill with ?b
+		?a: PGRPs
+		?b: an ancient weapon
+
+
+label:    sent_24
+sentence: These diffDC-activated NK cells could in turn kill surrounding diffDCs .
+
+ppatt:
+	?a could in ?b kill ?c
+		?a: These diffDC-activated NK cells
+		?b: turn
+		?c: surrounding diffDCs
+
+

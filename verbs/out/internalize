@@ -1,0 +1,325 @@
+label:    sent_1
+sentence: CD44 can bind and internalize hyaluronic acid ( HA ) , which acts proinflammatory .
+
+ppatt:
+	?a can bind ?b
+		?a: CD44
+		?b: hyaluronic acid , which acts proinflammatory
+	?a internalize
+		?a: CD44
+	?a is/are HA
+		?a: hyaluronic acid , which acts proinflammatory
+	?a acts proinflammatory
+		?a: hyaluronic acid
+
+
+label:    sent_2
+sentence: Conjunctival epithelial cells stained for CFTR but did not bind or internalize PA .
+
+ppatt:
+	?a stained for ?b
+		?a: Conjunctival epithelial cells
+		?b: CFTR
+	?a did not bind ?b
+		?a: Conjunctival epithelial cells
+		?b: PA
+	?a internalize
+		?a: Conjunctival epithelial cells
+
+
+label:    sent_3
+sentence: The capacity of LC to internalize langerin and dextran was assessed .
+
+ppatt:
+	?a internalize ?b
+		?a: The capacity of LC
+		?b: langerin
+	?a internalize ?b
+		?a: The capacity of LC
+		?b: dextran
+	?a was assessed
+		?a: The capacity of LC to internalize langerin and dextran
+
+
+label:    sent_4
+sentence: Dictyostelium discoideum cells continuously internalize extracellular material , which accumulates in well-characterized endocytic vacuoles .
+
+ppatt:
+	?a continuously internalize ?b
+		?a: Dictyostelium discoideum cells
+		?b: extracellular material , which accumulates in well-characterized endocytic vacuoles
+	?a accumulates in ?b
+		?a: extracellular material
+		?b: well-characterized endocytic vacuoles
+
+
+label:    sent_5
+sentence: Immunofluorescence microscopy on permeabilized cells showed that monocytes induce T cells to internalize T3 . LPS blasts , however , did not internalize IL 2 . Lysosomes are able to internalize cellular proteins in a variety of ways . Immature dendritic cells may acquire and internalize HIV and other pathogens by this process .
+
+ppatt:
+	?a showed ?b ?c
+		?a: Immunofluorescence microscopy on permeabilized cells
+		?b: SOMETHING := monocytes induce T cells to internalize T3
+		?c: SOMETHING := Lysosomes are able to internalize cellular proteins in a variety of ways
+	?a induce ?b to internalize ?c
+		?a: monocytes
+		?b: T cells
+		?c: T3
+	?a however , did not internalize ?b
+		?a: LPS blasts
+		?b: IL 2
+	?a are able to internalize ?b in ?c
+		?a: Lysosomes
+		?b: cellular proteins
+		?c: a variety of ways
+	?a may acquire ?b by ?c
+		?a: Immature dendritic cells
+		?b: HIV
+		?c: this process
+	?a may acquire ?b by ?c
+		?a: Immature dendritic cells
+		?b: other pathogens
+		?c: this process
+	?a internalize
+		?a: Immature dendritic cells
+
+
+label:    sent_6
+sentence: The ability to internalize macromolecules by endocytosis is a property of all eukaryotic cells .
+
+ppatt:
+	?a internalize ?b by ?c
+		?a: The ability
+		?b: macromolecules
+		?c: endocytosis
+	?a is a property of ?b
+		?a: The ability to internalize macromolecules by endocytosis
+		?b: all eukaryotic cells
+
+
+label:    sent_7
+sentence: TAT-PLHSpT was shown to internalize into the nucleus .
+
+ppatt:
+	?a was shown to internalize into ?b
+		?a: TAT-PLHSpT
+		?b: the nucleus
+
+
+label:    sent_8
+sentence: In contrast , rGel alone was not able to internalize into these leukemic lymphocytes .
+
+ppatt:
+	In ?a , ?b was not able to internalize into ?c
+		?a: contrast
+		?b: rGel alone
+		?c: these leukemic lymphocytes
+
+
+label:    sent_9
+sentence: Control cells were able to internalize over 80 % of receptor-bound 125I-EGF . 50 % of heated cells internalize membrane at 0.14 mM tetracaine .
+
+ppatt:
+	?a were able to internalize over ?b
+		?a: Control cells
+		?b: 80 % of receptor-bound 125I-EGF
+	?a internalize ?b at ?c
+		?a: 50 % of heated cells
+		?b: membrane
+		?c: 0.14 mM tetracaine
+
+
+label:    sent_10
+sentence: Psychiatric nurses can internalize these themes in their practice to improve client outcomes .
+
+ppatt:
+	?a can internalize ?b in ?c to improve ?d
+		?a: Psychiatric nurses
+		?b: these themes
+		?c: their practice
+		?d: client outcomes
+
+
+label:    sent_11
+sentence: Both A-9 and CHO cells internalize vasopressin in a manner consistent with receptor-mediated endocytosis .
+
+ppatt:
+	?a internalize ?b in ?c
+		?a: A-9
+		?b: vasopressin
+		?c: a manner consistent with receptor-mediated endocytosis
+	?a internalize ?b in ?c
+		?a: CHO cells
+		?b: vasopressin
+		?c: a manner consistent with receptor-mediated endocytosis
+
+
+label:    sent_12
+sentence: Chick embryo myotubes contain transferrin receptors and internalize and recycle transferrin .
+
+ppatt:
+	?a contain ?b
+		?a: Chick embryo myotubes
+		?b: transferrin receptors
+	?a internalize ?b
+		?a: Chick embryo myotubes
+		?b: transferrin
+	?a recycle
+		?a: Chick embryo myotubes
+
+
+label:    sent_13
+sentence: Cells use multiple pathways to internalize and recycle cell surface components .
+
+ppatt:
+	?a use ?b to internalize ?c
+		?a: Cells
+		?b: multiple pathways
+		?c: cell surface components
+	?a use to recycle
+		?a: Cells
+
+
+label:    sent_14
+sentence: The EGF-RTA-resistant mutants are able to internalize and degrade EGF .
+
+ppatt:
+	?a are able to internalize ?b
+		?a: The EGF-RTA-resistant mutants
+		?b: EGF
+	?a are able to degrade
+		?a: The EGF-RTA-resistant mutants
+
+
+label:    sent_15
+sentence: Many G protein-coupled receptors internalize following agonist binding . SMCs internalize these nanobots without compromising cell viability or growth kinetics .
+
+ppatt:
+	?a internalize following ?b
+		?a: Many G protein-coupled receptors
+		?b: agonist binding
+	?a internalize ?b
+		?a: SMCs
+		?b: these nanobots
+	?a compromising ?b
+		?a: SMCs
+		?b: cell viability
+	?a compromising ?b
+		?a: SMCs
+		?b: growth kinetics
+
+
+label:    sent_16
+sentence: We show that all the Fl-pVEC analogues internalize in live Bowes melanoma cells .
+
+ppatt:
+	?a show ?b
+		?a: We
+		?b: SOMETHING := all the Fl-pVEC analogues internalize in live Bowes melanoma cells
+	?a internalize in ?b
+		?a: all the Fl-pVEC analogues
+		?b: live Bowes melanoma cells
+
+
+label:    sent_17
+sentence: Hepatocytes incubated at 4 degrees C bound , but did not internalize , EGF .
+
+ppatt:
+	?a incubated at ?b
+		?a: Hepatocytes
+		?b: 4 degrees C
+	?a bound
+		?a: Hepatocytes incubated at 4 degrees C
+	?a did not internalize ?b
+		?a: Hepatocytes incubated at 4 degrees C
+		?b: EGF
+
+
+label:    sent_18
+sentence: Normal human peritoneal macrophages are unable to cap and internalize class II antigens .
+
+ppatt:
+	?a are unable to cap
+		?a: Normal human peritoneal macrophages
+	?a internalize ?b
+		?a: Normal human peritoneal macrophages
+		?b: class II antigens
+
+
+label:    sent_19
+sentence: Also , its monovalent isoforms bound efficiently , but did not internalize the receptor .
+
+ppatt:
+	Also , ?a bound efficiently
+		?a: its monovalent isoforms
+	?a did not internalize ?b
+		?a: its monovalent isoforms
+		?b: the receptor
+
+
+label:    sent_20
+sentence: Primary mouse microglia can internalize fAbeta , but they do not degrade it efficiently . Platelets internalize oxidized phospholipids and promote foam cell formation .
+
+ppatt:
+	?a can internalize ?b
+		?a: Primary mouse microglia
+		?b: fAbeta
+	?a do not degrade ?b efficiently
+		?a: they
+		?b: it
+	?a internalize ?b
+		?a: Platelets
+		?b: oxidized phospholipids
+	?a promote ?b
+		?a: Platelets
+		?b: foam cell formation
+
+
+label:    sent_21
+sentence: Platelets internalize oxidized phospholipids and promote foam cell formation .
+
+ppatt:
+	?a internalize ?b
+		?a: Platelets
+		?b: oxidized phospholipids
+	?a promote ?b
+		?a: Platelets
+		?b: foam cell formation
+
+
+label:    sent_22
+sentence: Furthermore , the PM receptors constitutively internalize and localize intracellularly on CK .
+
+ppatt:
+	Furthermore , ?a constitutively internalize on ?b
+		?a: the PM receptors
+		?b: CK
+	?a localize intracellularly
+		?a: the PM receptors
+
+
+label:    sent_23
+sentence: Vascular endothelial cells also internalize and degrade oxLDL though the OLR1 receptor .
+
+ppatt:
+	?a also internalize ?b
+		?a: Vascular endothelial cells
+		?b: oxLDL
+	?a degrade
+		?a: Vascular endothelial cells
+	?a the OLR1 receptor
+		?a: Vascular endothelial cells
+
+
+label:    sent_24
+sentence: Complete and truncated receptors internalize , recycle , and down-regulate normally .
+
+ppatt:
+	?a internalize
+		?a: Complete and truncated receptors
+	?a recycle
+		?a: Complete and truncated receptors
+	?a down-regulate normally
+		?a: Complete and truncated receptors
+
+

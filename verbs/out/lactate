@@ -1,0 +1,164 @@
+label:    sent_1
+sentence: Chitosan lactate as a nonviral gene delivery vector in COS-1 cells .
+
+ppatt:
+
+
+
+label:    sent_2
+sentence: Prognostic value of CSF lactate in cerebral malaria .
+
+ppatt:
+
+
+
+label:    sent_3
+sentence: Pleural fluid lactate in pleural effusion .
+
+ppatt:
+
+
+
+label:    sent_4
+sentence: They oxidize exogenous fatty acids and lactate preferentially to glucose .
+
+ppatt:
+	?a oxidize ?b preferentially to ?c
+		?a: They
+		?b: exogenous fatty acids
+		?c: glucose
+	?a oxidize ?b preferentially to ?c
+		?a: They
+		?b: lactate
+		?c: glucose
+
+
+label:    sent_5
+sentence: Mice were found to convert acetone to lactate at appreciable rates .
+
+ppatt:
+	?a were found to convert ?b to ?c at ?d
+		?a: Mice
+		?b: acetone
+		?c: lactate
+		?d: appreciable rates
+
+
+label:    sent_6
+sentence: Cultured adult cardiac myocytes oxidize fatty acids and lactate preferentially to glucose .
+
+ppatt:
+	?a oxidize ?b preferentially to ?c
+		?a: Cultured adult cardiac myocytes
+		?b: fatty acids
+		?c: glucose
+	?a oxidize ?b preferentially to ?c
+		?a: Cultured adult cardiac myocytes
+		?b: lactate
+		?c: glucose
+
+
+label:    sent_7
+sentence: Cerebrospinal fluid lactate --its diagnostic value in septic meningitis .
+
+ppatt:
+
+
+
+label:    sent_8
+sentence: Synovial fluid lactate determinations as a diagnostic aid in cases of monoarticular arthritis .
+
+ppatt:
+
+
+
+label:    sent_9
+sentence: Onset of blood lactate accumulation after prolonged exercise .
+
+ppatt:
+
+
+
+label:    sent_10
+sentence: Effect of differences in post-exercise lactate accumulation in athletes ' haemodynamics .
+
+ppatt:
+
+
+
+label:    sent_11
+sentence: Cerebrospinal fluid lactate levels in term infants with perinatal hypoxia .
+
+ppatt:
+
+
+
+label:    sent_12
+sentence: [Importance of cerebrospinal fluid lactate determination in neurological diseases ] . Is brain lactate metabolized immediately after neuronal activity through the oxidative pathway ? Synovial fluid lactate .
+
+ppatt:
+	?a Is brain lactate
+		?a: [Importance of cerebrospinal fluid lactate determination in neurological diseases
+	?a metabolized immediately after ?b through ?c
+		?a: brain lactate
+		?b: neuronal activity
+		?c: the oxidative pathway
+	?a is/are Synovial fluid lactate
+		?a: the oxidative pathway
+
+
+label:    sent_13
+sentence: Possible glial contribution of rat hippocampus lactate as assessed with microdialysis and stress .
+
+ppatt:
+
+
+
+label:    sent_14
+sentence: Cinnamates did not alter myocardial hemodynamics nor sarcolemmal pyruvate and lactate export . 2 ) Alanine did not alter myocardial glucose metabolism or lactate oxidation .
+
+ppatt:
+	?a did not alter ?b
+		?a: Cinnamates
+		?b: myocardial hemodynamics
+	?a did not alter ?b
+		?a: Cinnamates
+		?b: sarcolemmal pyruvate
+	?a did not alter ?b
+		?a: Cinnamates
+		?b: export
+	?a did not alter ?b
+		?a: Alanine
+		?b: myocardial glucose metabolism
+	?a did not alter ?b
+		?a: Alanine
+		?b: lactate oxidation
+
+
+label:    sent_15
+sentence: These mice lactate normally and fully restore BMC after weaning . Mammary gland development in all founder lines is normal and the females can lactate .
+
+ppatt:
+	?a lactate normally
+		?a: These mice
+	?a fully restore ?b after ?c
+		?a: These mice
+		?b: BMC
+		?c: weaning
+	?a is normal
+		?a: Mammary gland development in all founder lines
+	?a can lactate
+		?a: the females
+
+
+label:    sent_16
+sentence: Extrahepatic tissues switch from lactate production to lactate utilization under conditions of lactate loading .
+
+ppatt:
+	?a switch from ?b to ?c under ?d
+		?a: Extrahepatic tissues
+		?b: lactate production
+		?c: lactate utilization
+		?d: conditions of lactate loading
+
+

@@ -1,0 +1,40 @@
+prep	A meticulous attempt was made to distinguish between the 2 types of gastric adenocarcinoma .	prep_between@types
+prep	Recurrent infections were genotyped to distinguish between recrudescence and new infection .	prep_between@recrudescence
+prep	Undifferentiated hepatocellular carcinoma difficult to distinguish from liver abscess .	prep_from@abscess
+
+obj#prep	A parabiosis model was used to distinguish organ-specific HSCs from circulating HSCs .	obj@HSCs prep_from@HSCs
+obj#prep	MALDI-MS was able to distinguish CC and UC specimens while profiling the colonic submucosa .	obj@specimens prepc_while@profiling
+obj#prep	Its rapid development and characteristic appearance help to distinguish it from a lymph node .	obj@it prep_from@node
+
+obj	Their expression patterns may help to distinguish the site of origin of metastatic carcinomas .	obj@site
+obj	The latter can be used to distinguish rival prediction models with similar prediction performances .	obj@models
+obj	Cotinine is the most widely used biomarker to distinguish active versus passive smoking .	obj@smoking
+
+subj#obj#prep	This mutational heterogeneity complicates efforts to distinguish functional mutations from sporadic , passenger mutations .	subj@efforts obj@mutations prep_from@mutations
+subj#obj#prep	The method could distinguish target DNA from non-target DNA within 5 min .	subj@method obj@DNA prep_from@DNA prep_within@min
+subj#obj#prep	Preoperative imaging tests could not distinguish it from other intracardiac tumors such as myxoma .	subj@tests obj@it prep_from@tumors
+
+subj#prep	We also use Trpml3 knockout tissues to distinguish TRPML3 - specific from nonspecific immunoreactivities .	subj@tissues prep_from@immunoreactivities
+subj#prep	SOX2 expression levels distinguish between neural progenitor populations of the developing dorsal telencephalon .	subj@levels prep_between@populations
+subj#prep	Analytically , we distinguish between using bodies and recovering bodies .	subj@we prepc_between@using
+
+subj#obj	Diverse requirements for SRC-family tyrosine kinases distinguish chlamydial species .	subj@requirements obj@species
+subj#obj	This metric could distinguish drug-targets with non-drug-targets .	subj@metric obj@drug-targets
+subj#obj	Gene-expression signatures can distinguish gastric cancer grades and stages .	subj@signatures obj@grades
+
+prep#conj	The mandible can be used to distinguish among ethnic groups and between sexes .	prep_among@groups prep_between@sexes conj_and@distinguish
+prep#conj	The degree of defervescence is age-dependent and does not distinguish between infectious outcomes .	prep_between@outcomes conj_and@age-dependent
+prep#conj	Mass spectrometry is reliable but does not distinguish between DMADP and isopentenyl diphosphate .	prep_between@DMADP conj_but@reliable
+
+obj#conj	This assay allowed to distinguish organisms belonging to the subgenus Viannia and identify L .	obj@organisms conj_and@identify
+obj#conj	The epithelial expression of CD44s and did not distinguish papillomas from papillary carcinomas .	obj@papillomas conj_and@expression
+obj#conj	Biopsy and histopathologic examination is required for diagnosis and to distinguish other perianal dermatoses .	obj@dermatoses conj_and@required
+
+subj#prep#conj	Some ligands are noteworthy because they distinguish between receptor subtypes or have allosteric mechanisms .	subj@they prep_between@subtypes conj_or@have
+subj#prep#conj	These spectra distinguish among isomeric unsaturated fatty acids and permit assignment of double-bond location .	subj@spectra prep_among@acids conj_and@permit
+subj#prep#conj	They distinguish among different patterns of pathogens and rapidly activate an innate immune response .	subj@They prep_among@patterns conj_and@activate
+
+obj#prep#conj	Therefore , markers to distinguish malignant kidney tumours and for their detection are needed .	obj@tumours prep_for@detection conj_and@for
+obj#prep#conj	The authors define and distinguish the concept of microdosing from similar approaches .	obj@concept prep_from@approaches conj_and@define
+obj#prep#conj	Their amino acid compositions are unique and distinguish them from all other ribosomal proteins .	obj@them prep_from@proteins conj_and@unique
+

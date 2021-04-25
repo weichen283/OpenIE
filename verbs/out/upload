@@ -1,0 +1,143 @@
+label:    sent_1
+sentence: Users can upload new mutations . Poison Centers upload case data automatically .
+
+ppatt:
+	?a can upload ?b
+		?a: Users
+		?b: new mutations
+	?a upload ?b automatically
+		?a: Poison Centers
+		?b: case data
+
+
+label:    sent_2
+sentence: Such tools should allow biologists to upload genomic data for their own analysis .
+
+ppatt:
+	?a should allow ?b
+		?a: Such tools
+		?b: biologists to upload genomic data for their own analysis
+	?a upload ?b for ?c
+		?a: biologists
+		?b: genomic data
+		?c: their own analysis
+
+
+label:    sent_3
+sentence: A user may upload an amino acid and receive annotation predictions via email .
+
+ppatt:
+	?a may upload ?b
+		?a: A user
+		?b: an amino acid
+	?a receive ?b via ?c
+		?a: A user
+		?b: annotation predictions
+		?c: email
+
+
+label:    sent_4
+sentence: Users may upload expression data and specify a set of criteria .
+
+ppatt:
+	?a may upload ?b
+		?a: Users
+		?b: expression data
+	?a specify ?b
+		?a: Users
+		?b: a set of criteria
+
+
+label:    sent_5
+sentence: Users upload their data and enter MINEMO information through the portal .
+
+ppatt:
+	?a upload ?b
+		?a: Users
+		?b: their data
+	?a enter ?b through ?c
+		?a: Users
+		?b: MINEMO information
+		?c: the portal
+
+
+label:    sent_6
+sentence: Roughly half wanted to upload their information to the PCEHR .
+
+ppatt:
+	?a wanted to upload ?b
+		?a: Roughly half
+		?b: their information to the PCEHR
+
+
+label:    sent_7
+sentence: Learners also can create and upload their own videos to educate others .
+
+ppatt:
+	?a also can create ?b to educate ?c
+		?a: Learners
+		?b: their own videos
+		?c: others
+	?a upload
+		?a: Learners
+
+
+label:    sent_8
+sentence: Users can upload sequences for analysis by the set of EVEREST families .
+
+ppatt:
+	?a can upload ?b by ?c
+		?a: Users
+		?b: sequences for analysis
+		?c: the set of EVEREST families
+
+
+label:    sent_9
+sentence: More advanced users can upload their own interactome data as well .
+
+ppatt:
+	?a can upload ?b as well
+		?a: More advanced users
+		?b: their own interactome data
+
+
+label:    sent_10
+sentence: Users can upload sequence files , or paste sequences directly into a textbox .
+
+ppatt:
+	?a can upload ?b directly into ?c
+		?a: Users
+		?b: sequence files
+		?c: a textbox
+	?a can upload ?b directly into ?c
+		?a: Users
+		?b: paste sequences
+		?c: a textbox
+
+
+label:    sent_11
+sentence: The graphical web-interface allows users to upload , analyse and share experimental proteome data .
+
+ppatt:
+	?a allows ?b to upload
+		?a: The graphical web-interface
+		?b: users
+	?a analyse
+		?a: The graphical web-interface
+	?a allows to share ?b
+		?a: The graphical web-interface
+		?b: experimental proteome data
+
+
+label:    sent_12
+sentence: The platform allows users to upload and share their experimental results .
+
+ppatt:
+	?a allows ?b to upload
+		?a: The platform
+		?b: users
+	?a allows to share ?b
+		?a: The platform
+		?b: their experimental results
+
+

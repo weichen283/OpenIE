@@ -1,0 +1,40 @@
+obj	Excessive nutrients addition was found to inhibit bioremediation .	obj@bioremediation
+obj	Recently , bortezomib was shown to directly inhibit osteoclastogenesis .	obj@osteoclastogenesis
+obj	Sorafenib is known to inhibit Raf .	obj@Raf
+
+subj#obj	Ginseng polysaccharides could inhibit residual malaria infection .	subj@polysaccharides obj@infection
+subj#obj	UL54-specific siRNA can inhibit HSV-II replication , while protecting host cells .	subj@siRNA obj@replication
+subj#obj	Bilirubin can inhibit the TLR4 expression of CBNC in a dose-dependent manner .	subj@Bilirubin obj@expression
+
+subj#obj#prep	Erythromycin could inhibit the proliferation of SH-SY5Y cells in a concentration- and time-dependent manner .	subj@Erythromycin obj@proliferation prep_in@manner
+subj#obj#prep	The results showed that PCP and TCP may inhibit steroidogenesis by disrupting cAMP signaling .	subj@PCP obj@steroidogenesis prepc_by@disrupting
+subj#obj#prep	Bisphosphonates ( BPs ) inhibit bone resorption by preventing osteoclast maturation and apoptosis induction .	subj@Bisphosphonates obj@resorption prepc_by@preventing
+
+obj#prep	Hu23C3 could also inhibit monocyte migration in response to osteopontin in vitro .	obj@migration prep_in@response
+obj#prep	PAC-14028 could inhibit capsaicin - evoked calcium influx in keratinocytes at sub-micromolar concentrations .	obj@influx prep_in@keratinocytes
+obj#prep	Maraviroc is able to inhibit dual-R5 viruses in a dual/mixed HIV-1-infected patient .	obj@viruses prep_in@patient
+
+subj#obj#conj	Ectopic overexpression of miR-451 could significantly inhibit growth and induce apoptosis of A549 cells .	subj@overexpression obj@growth conj_and@induce
+subj#obj#conj	The surfactin can inhibit proliferation and induce apoptosis in cancer cells .	subj@surfactin obj@proliferation conj_and@induce
+subj#obj#conj	Chitosan derivatives inhibit cell proliferation and induce apoptosis in breast cancer cells .	subj@derivatives obj@proliferation conj_and@induce
+
+obj#conj	L. jensenii produced less acidification and did not inhibit N. gonorrhoeae .	obj@gonorrhoeae conj_and@produced
+obj#conj	Haplotypes V and VII are stably expressed and inhibit HIV-1 replication .	obj@replication conj_and@expressed
+obj#conj	These proteins are present in the cytoplasm of mammalian cells and inhibit retroviral replication .	obj@replication conj_and@present
+
+subj#obj#prep#conj	As a result , bisphosphonates inhibit tumor-induced osteolysis and reduce skeletal morbidity .	subj@bisphosphonates obj@osteolysis prep_as@result conj_and@reduce
+subj#obj#prep#conj	In cultured murine melanoma cells , retinoids inhibit proliferation and induce differentiation .	subj@retinoids obj@proliferation prep_in@cells conj_and@induce
+subj#obj#prep#conj	E2 did not inhibit the elevation of TK and Act activities by TP injection .	subj@E2 obj@elevation prepc_by@TP conj_and@Act
+
+obj#prep#conj	wt region and could inhibit rosette formation by both FcRI and FcRII .	obj@formation prep_by@FcRI conj_and@region
+obj#prep#conj	Glutamine generally increases 2-oxoglutarate uptake , but under certain conditions may inhibit uptake .	obj@uptake prep_under@conditions conj_but@increases
+obj#prep#conj	Radiation therapy appears to inhibit healing in both experimental animals and during clinical trials .	obj@healing prep_during@trials prep_in@animals conj_and@inhibit
+
+conj	The principal effect of ulipristal acetate is to inhibit or delay ovulation .	conj_or@delay
+conj	Glutathione monoester appears to inhibit or reduce the development of plaque formation in mice .	conj_or@reduce
+conj	Strikingly , chlamydial infection has been reported both to inhibit and to induce apoptosis .	conj_and@induce
+
+subj#conj	Therefore , the identification of new antimicrobials that inhibit or destroy biofilms is needed .	subj@antimicrobials conj_or@destroy
+subj#conj	They may inhibit or activate cellular function , such as cytotoxicity and cytokine production .	subj@They conj_or@activate conj_such@cytotoxicity
+subj#conj	Alterations in stromal tissue components can inhibit or promote epithelial tumorigenesis .	subj@Alterations conj_or@promote
+

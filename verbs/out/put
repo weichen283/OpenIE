@@ -1,0 +1,278 @@
+label:    sent_1
+sentence: When trichloroisocyanuric acid is put into water , chlorine gas is produced .
+
+ppatt:
+	When ?a is put into ?b
+		?a: trichloroisocyanuric acid
+		?b: water
+	?a is produced
+		?a: chlorine gas
+
+
+label:    sent_2
+sentence: First of all the term and its meaning are put into a historical context .
+
+ppatt:
+	First of ?a are put into ?b
+		?a: the term
+		?b: a historical context
+	First of ?a are put into ?b
+		?a: its meaning
+		?b: a historical context
+
+
+label:    sent_3
+sentence: This in turn means that clinical trials can be put on hold .
+
+ppatt:
+	?a means ?b
+		?a: This in turn
+		?b: SOMETHING := clinical trials can be put on hold
+	?a can be put on ?b
+		?a: clinical trials
+		?b: hold
+
+
+label:    sent_4
+sentence: Suggestions for violence prevention efforts are put forth as well .
+
+ppatt:
+	?a are put forth as well
+		?a: Suggestions for violence prevention efforts
+
+
+label:    sent_5
+sentence: Based on the histologic features , a diagnosis of DPN was put forward . A preexisting hiatal hernia may put patients at a higher risk of incarceration .
+
+ppatt:
+	Based on the histologic features ?a
+		?a: a diagnosis of DPN
+	?a was put ?b
+		?a: a diagnosis of DPN
+		?b: forward
+	?a may put ?b at ?c
+		?a: A preexisting hiatal hernia
+		?b: patients
+		?c: a higher risk of incarceration
+
+
+label:    sent_6
+sentence: Recent health care reform has put it center stage .
+
+ppatt:
+	?a has put ?b
+		?a: Recent health care reform
+		?b: it center stage
+
+
+label:    sent_7
+sentence: A role for proteases in PH has been recently put forward . Calcium channels put synapses in their place . Background .
+
+ppatt:
+	?a has been recently put ?b ?c in ?d
+		?a: A role for proteases in PH
+		?b: forward
+		?c: Calcium channels put synapses
+		?d: their place . Background
+	?a put ?b
+		?a: Calcium channels
+		?b: synapses
+
+
+label:    sent_8
+sentence: A community-based study put the prevalence of hypertension in Nigeria at 32.8 % . Looking beyond the boundaries : time to put landmarks back on the cognitive map ? Homeland Security science chief aims to put house in order .
+
+ppatt:
+	?a put ?b
+		?a: A community-based study
+		?b: the prevalence of hypertension in Nigeria at 32.8 %
+	?a Looking beyond ?b
+		?a: A community-based study
+		?b: the boundaries
+	?a ?b aims to put ?c in order
+		?a: time
+		?b: Homeland Security science chief
+		?c: house
+
+
+label:    sent_9
+sentence: Hints that statins reduce colon cancer risk finally being put to the test .
+
+ppatt:
+	Hints ?a ?b
+		?a: Hints that statins reduce colon cancer risk
+		?b: SOMETHING := statins reduce colon cancer risk
+	?a reduce ?b
+		?a: statins
+		?b: colon cancer risk
+	?a finally being put to ?b
+		?a: Hints that statins reduce colon cancer risk
+		?b: the test
+
+
+label:    sent_10
+sentence: Less shoulder range of motion was used to put on the prototype coat .
+
+ppatt:
+	?a was used to put on ?b
+		?a: Less shoulder range of motion
+		?b: the prototype coat
+
+
+label:    sent_11
+sentence: The great promise of stem cells is finally being put to the test .
+
+ppatt:
+	?a is finally being put to ?b
+		?a: The great promise of stem cells
+		?b: the test
+
+
+label:    sent_12
+sentence: Do cilia put brakes on the cell cycle ? McGrath describes several principles that can help you put intelligent failure to work .
+
+ppatt:
+	?a put ?b
+		?a: cilia
+		?b: brakes on the cell cycle
+	Do ?a ?b describes ?c
+		?a: cilia put brakes on the cell cycle
+		?b: McGrath
+		?c: several principles that can help you put intelligent failure to work
+	?a can help
+		?a: several principles
+	?a put ?b
+		?a: you
+		?b: intelligent failure to work
+	?a work
+		?a: intelligent failure
+
+
+label:    sent_13
+sentence: Lack of such algorithms may relevantly delay treatment and put patients at further risk .
+
+ppatt:
+	?a may relevantly delay ?b at ?c
+		?a: Lack of such algorithms
+		?b: treatment
+		?c: further risk
+	?a may relevantly delay ?b at ?c
+		?a: Lack of such algorithms
+		?b: put patients
+		?c: further risk
+
+
+label:    sent_14
+sentence: All the patients were put under urinary antiseptic treatment and followed since the birth . Pericarditis was suspected and the patient put on aspirin , 500 mg/d .
+
+ppatt:
+	?a were put under ?b
+		?a: All the patients
+		?b: urinary antiseptic treatment
+	?a followed ?b ?c
+		?a: All the patients
+		?b: SOMETHING := the birth . Pericarditis was suspected
+		?c: SOMETHING := the patient put on aspirin
+	?a was suspected
+		?a: the birth . Pericarditis
+	?a put on ?b
+		?a: the patient
+		?b: aspirin
+	?a is/are 500 mg/d
+		?a: aspirin
+
+
+label:    sent_15
+sentence: Fused teeth crowns were separated and orthodontic appliances were put in place . Top executives staying put . The surgical procedures put together , are all superior to radiotherapy concerning organ preservation .
+
+ppatt:
+	?a were separated
+		?a: Fused teeth crowns
+	?a were put in ?b ?c
+		?a: orthodontic appliances
+		?b: place
+		?c: Top executives staying put
+	?a staying
+		?a: Top executives
+	?a put together
+		?a: The surgical procedures
+	?a are all superior to ?b
+		?a: The surgical procedures put together
+		?b: radiotherapy concerning organ preservation
+
+
+label:    sent_16
+sentence: Valuing biodiversity and ecosystem services : Why put economic values on Nature ? Between 2004 and 2007 quality criteria were developed and put into practice .
+
+ppatt:
+	Valuing ?a ?b
+		?a: biodiversity
+		?b: services
+	Valuing ?a ?b
+		?a: ecosystem
+		?b: services
+	Why ?a were developed
+		?a: put economic values on Nature ? Between 2004 and 2007 quality criteria
+	?a put into ?b
+		?a: put economic values on Nature ? Between 2004 and 2007 quality criteria
+		?b: practice
+
+
+label:    sent_17
+sentence: He also had hypoxemia and was therefore intubated and put on mechanical ventilation .
+
+ppatt:
+	?a also had ?b
+		?a: He
+		?b: hypoxemia
+	?a was therefore intubated
+		?a: He
+	?a put on ?b
+		?a: He
+		?b: mechanical ventilation
+
+
+label:    sent_18
+sentence: Remaining 9 patients had a large tumor size and were put on tamoxifen .
+
+ppatt:
+	?a had ?b
+		?a: Remaining 9 patients
+		?b: a large tumor size
+	?a were put on ?b
+		?a: Remaining 9 patients
+		?b: tamoxifen
+
+
+label:    sent_19
+sentence: These findings are discussed , and assumptions on their meaning are put forward .
+
+ppatt:
+	?a are discussed
+		?a: These findings
+	?a are put forward
+		?a: assumptions on their meaning
+
+
+label:    sent_20
+sentence: Their mechanism is obscure and several explanations have been put forward .
+
+ppatt:
+	?a is obscure
+		?a: Their mechanism
+	?a have been put forward
+		?a: several explanations
+
+
+label:    sent_21
+sentence: Several hypotheses have been put forward to explain it , but none is conclusive .
+
+ppatt:
+	?a have been put ?b to explain ?c
+		?a: Several hypotheses
+		?b: forward
+		?c: it
+	?a is conclusive
+		?a: none
+
+

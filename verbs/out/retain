@@ -1,0 +1,321 @@
+label:    sent_1
+sentence: Flies selected for longevity retain a young gene expression profile .
+
+ppatt:
+	?a selected for ?b
+		?a: Flies
+		?b: longevity
+	?a retain ?b
+		?a: Flies selected for longevity
+		?b: a young gene expression profile
+
+
+label:    sent_2
+sentence: The resulting progeny retain a maternal genotype .
+
+ppatt:
+	?a retain ?b
+		?a: The resulting progeny
+		?b: a maternal genotype
+
+
+label:    sent_3
+sentence: Drosophila neuroblasts retain the daughter centrosome . BIO-GIC could retain the effect of TGF-beta1 .
+
+ppatt:
+	?a retain ?b
+		?a: Drosophila neuroblasts
+		?b: the daughter centrosome
+	?a could retain ?b
+		?a: BIO-GIC
+		?b: the effect of TGF-beta1
+
+
+label:    sent_4
+sentence: Wetlands can collect contaminated runoff from agricultural catchments and retain dissolved and particle-laden pesticides .
+
+ppatt:
+	?a can collect ?b
+		?a: Wetlands
+		?b: contaminated runoff from agricultural catchments
+	?a retain ?b
+		?a: Wetlands
+		?b: dissolved and particle-laden pesticides
+
+
+label:    sent_5
+sentence: However , FoxP3-decreased MSCs were found to retain their immunosuppressive properties .
+
+ppatt:
+	However , ?a were found to retain ?b
+		?a: FoxP3-decreased MSCs
+		?b: their immunosuppressive properties
+
+
+label:    sent_6
+sentence: Human skeletal muscle-derived stem cells retain stem cell properties after expansion in myosphere culture .
+
+ppatt:
+	?a retain ?b after ?c
+		?a: Human skeletal muscle-derived stem cells
+		?b: stem cell properties
+		?c: expansion in myosphere culture
+
+
+label:    sent_7
+sentence: In principle , these core knowledge systems may retain information separately from one another .
+
+ppatt:
+	In ?a , ?b may retain ?c separately from ?d
+		?a: principle
+		?b: these core knowledge systems
+		?c: information
+		?d: one another
+
+
+label:    sent_8
+sentence: New corticosteroids retain the efficacy of older corticosteroids while exhibiting a higher safety profile .
+
+ppatt:
+	?a retain ?b
+		?a: New corticosteroids
+		?b: the efficacy of older corticosteroids
+	?a exhibiting ?b
+		?a: New corticosteroids
+		?b: a higher safety profile
+
+
+label:    sent_9
+sentence: This mutant does not retain wild-type function and is bound by several chaperones .
+
+ppatt:
+	?a does not retain ?b
+		?a: This mutant
+		?b: wild-type function
+	?a is bound by ?b
+		?a: This mutant
+		?b: several chaperones
+
+
+label:    sent_10
+sentence: Rarely BM-MSCs may retain their stem cell characteristics and are capable of producing progeny .
+
+ppatt:
+	?a may retain ?b
+		?a: Rarely BM-MSCs
+		?b: their stem cell characteristics
+	producing ?a
+		?a: progeny
+
+
+label:    sent_11
+sentence: The process is homogeneous and the affected lens fibres retain their gross morphology .
+
+ppatt:
+	?a is homogeneous
+		?a: The process
+	?a retain ?b
+		?a: the affected lens fibres
+		?b: their gross morphology
+
+
+label:    sent_12
+sentence: Mosaicplasty is an alternative but does not retain normal condylar anatomy .
+
+ppatt:
+	?a is an alternative
+		?a: Mosaicplasty
+	?a does not retain ?b
+		?a: Mosaicplasty
+		?b: normal condylar anatomy
+
+
+label:    sent_13
+sentence: Students were bored and did not retain the information .
+
+ppatt:
+	?a were bored
+		?a: Students
+	?a did not retain ?b
+		?a: Students
+		?b: the information
+
+
+label:    sent_14
+sentence: They not only maintain better liver-specific function , but also retain higher proliferative potential .
+
+ppatt:
+	?a not only maintain ?b
+		?a: They
+		?b: better liver-specific function
+	?a also retain ?b
+		?a: They
+		?b: higher proliferative potential
+
+
+label:    sent_15
+sentence: Terrestrial pulmonates can learn olfactory-aversion tasks and retain them in their long-term memory .
+
+ppatt:
+	?a can learn ?b
+		?a: Terrestrial pulmonates
+		?b: olfactory-aversion tasks
+	?a retain ?b in ?c
+		?a: Terrestrial pulmonates
+		?b: them
+		?c: their long-term memory
+
+
+label:    sent_16
+sentence: We also examine their ability to retain embryo viability during vapor phase transport .
+
+ppatt:
+	?a also examine ?b
+		?a: We
+		?b: their ability to retain embryo viability during vapor phase transport
+	?a retain ?b during ?c
+		?a: their ability
+		?b: embryo viability
+		?c: vapor phase transport
+
+
+label:    sent_17
+sentence: BSA is found to retain native-like structure and properties upon enthalpy-driven BSA-GNP complexation .
+
+ppatt:
+	?a is found to retain ?b upon ?c
+		?a: BSA
+		?b: native-like structure
+		?c: enthalpy-driven BSA-GNP complexation
+	?a is found to retain ?b upon ?c
+		?a: BSA
+		?b: properties
+		?c: enthalpy-driven BSA-GNP complexation
+
+
+label:    sent_18
+sentence: Despite abnormal morphology , tau-expressing NMJs retain synaptotagmin expression and can form active zones .
+
+ppatt:
+	Despite ?a , ?b retain ?c
+		?a: abnormal morphology
+		?b: tau-expressing NMJs
+		?c: synaptotagmin expression
+	?a can form ?b
+		?a: tau-expressing NMJs
+		?b: active zones
+
+
+label:    sent_19
+sentence: Cells comprising overt BAC retain this differentiation phenotype , but to a reduced extent .
+
+ppatt:
+	?a comprising ?b
+		?a: Cells
+		?b: overt BAC
+	?a retain ?b
+		?a: Cells comprising overt BAC
+		?b: this differentiation phenotype
+
+
+label:    sent_20
+sentence: With the parameters used , cells retain their morphology and remain viable .
+
+ppatt:
+	?a used
+		?a: the parameters
+	With ?a , ?b retain ?c
+		?a: the parameters used
+		?b: cells
+		?c: their morphology
+	?a remain viable
+		?a: cells
+
+
+label:    sent_21
+sentence: Carbon monoxide treatments to impart and retain muscle color in tilapia fillets .
+
+ppatt:
+	?a impart ?b
+		?a: Carbon monoxide treatments
+		?b: muscle color in tilapia fillets
+	retain ?a
+		?a: muscle color in tilapia fillets
+
+
+label:    sent_22
+sentence: Some patients are normocapnic at rest but retain CO2 during exercise .
+
+ppatt:
+	?a are normocapnic at ?b
+		?a: Some patients
+		?b: rest
+	?a retain ?b during ?c
+		?a: Some patients
+		?b: CO2
+		?c: exercise
+
+
+label:    sent_23
+sentence: Failure of immature lungs to produce foam and retain air at birth .
+
+ppatt:
+	?a produce ?b
+		?a: Failure of immature lungs
+		?b: foam
+	retain ?a at ?b
+		?a: air
+		?b: birth
+
+
+label:    sent_24
+sentence: To retain or remove the syndesmotic screw : a review of literature .
+
+ppatt:
+	retain ?a
+		?a: the syndesmotic screw
+	remove ?a
+		?a: the syndesmotic screw
+
+
+label:    sent_25
+sentence: A memory function is incorporated to retain and re-use a successful sequence .
+
+ppatt:
+	?a is incorporated to retain ?b
+		?a: A memory function
+		?b: a successful sequence
+	?a is incorporated to re-use
+		?a: A memory function
+
+
+label:    sent_26
+sentence: It is difficult to retain and localize radioactive , water-soluble compounds within plant cells .
+
+ppatt:
+	?a is difficult to retain ?b
+		?a: It
+		?b: radioactive , compounds within plant cells
+	?a is difficult to localize
+		?a: It
+
+
+label:    sent_27
+sentence: These particulate vaccines retain the adjuvant activity of the saponin component but without toxicity . Treat , train , retain . DON program " trains to retain " and does .
+
+ppatt:
+	?a retain ?b
+		?a: These particulate vaccines
+		?b: the adjuvant activity of the saponin component
+	?a Treat ?b
+		?a: These particulate vaccines
+		?b: train
+	?a retain ?b " ?c to retain ?d
+		?a: These particulate vaccines
+		?b: DON program
+		?c: trains
+		?d: "
+	?a retain to does
+		?a: These particulate vaccines
+
+

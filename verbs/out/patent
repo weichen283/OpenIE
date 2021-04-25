@@ -1,0 +1,196 @@
+label:    sent_1
+sentence: At 12 months , the graft was still patent in both patients , without any signs of endoleak .
+
+ppatt:
+	At ?a , ?b was still patent in ?c , without ?d
+		?a: 12 months
+		?b: the graft
+		?c: both patients
+		?d: any signs of endoleak
+
+
+label:    sent_2
+sentence: In all cases , the port remained patent for infusion purposes ( median follow-up 336 days , range 62-485 days ) . In all patients , the repaired coronary was patent , with demonstrated flow . All 15 facilitated anastomoses were patent . MRI showed all grafts to be patent .
+
+ppatt:
+	In ?a , ?b remained patent for ?c
+		?a: all cases
+		?b: the port
+		?c: infusion purposes In all patients
+	?a is/are range
+		?a: median follow-up 336 days
+	?a is/are 62-485 days
+		?a: median follow-up 336 days
+	?a was patent
+		?a: the repaired coronary
+	?a were patent
+		?a: All 15 facilitated anastomoses
+	?a ?b showed ?c to be patent
+		?a: demonstrated flow
+		?b: MRI
+		?c: all grafts
+
+
+label:    sent_3
+sentence: Repeated CT venography showed portal vein still patent with 6 months oral anti coagulation treatment .
+
+ppatt:
+	?a showed ?b
+		?a: Repeated CT venography
+		?b: portal vein still patent with 6 months oral anti coagulation treatment
+
+
+label:    sent_4
+sentence: MarVis can output a report with the Markush structure showing the query substructure and also an R-group table of all the possible R-groups described in the patent .
+
+ppatt:
+	?a can output ?b
+		?a: MarVis
+		?b: a report with the Markush structure showing the query substructure and also an R-group table of all the possible R-groups described in the patent
+	?a showing ?b
+		?a: the Markush structure
+		?b: the query substructure
+	?a showing ?b
+		?a: the Markush structure
+		?b: also an R-group table of all the possible R-groups described in the patent
+	?a described in ?b
+		?a: all the possible R-groups
+		?b: the patent
+
+
+label:    sent_5
+sentence: The claims of the patent are discussed in light of recent results in the field of cathepsin S research .
+
+ppatt:
+	?a are discussed in ?b
+		?a: The claims of the patent
+		?b: light of recent results in the field of cathepsin S research
+
+
+label:    sent_6
+sentence: As in our two patients , not all these features might be present and some will be patent only in the infancy or early childhood .
+
+ppatt:
+	As in ?a , ?b might be present
+		?a: our two patients
+		?b: not all these features
+	?a will be patent in ?b
+		?a: some
+		?b: only infancy or early childhood
+
+
+label:    sent_7
+sentence: During the follow-up for 20.94 +/- 10.31 months after the procedure , all the IVC remained patent without complications or pulmonary embolus , and all patients were alive with resolution of symptoms at the time of this study .
+
+ppatt:
+	During ?a , ?b remained patent without ?c
+		?a: the follow-up for 20.94 +/- 10.31 months after the procedure
+		?b: all the IVC
+		?c: complications
+	During ?a , ?b remained patent without ?c
+		?a: the follow-up for 20.94 +/- 10.31 months after the procedure
+		?b: all the IVC
+		?c: pulmonary embolus
+	?a were alive with ?b
+		?a: all patients
+		?b: resolution of symptoms at the time of this study
+
+
+label:    sent_8
+sentence: The other patients progressed satisfactorily during follow-up : the reimplanted artery remained patent in all cases and respiratory symptoms improved .
+
+ppatt:
+	?a progressed satisfactorily during ?b
+		?a: The other patients
+		?b: follow-up
+	?a remained patent in ?b
+		?a: the reimplanted artery
+		?b: all cases
+	?a remained patent in ?b
+		?a: the reimplanted artery
+		?b: respiratory symptoms
+	?a improved
+		?a: the reimplanted artery
+
+
+label:    sent_9
+sentence: In comparison with the general population , matched for age and gender , the HR-QoL scores at both BOA entry and long-term follow-up were substantially lower , even if the patient 's graft was patent and no other vascular events had occurred .
+
+ppatt:
+	?a matched for ?b
+		?a: the general population
+		?b: age
+	?a matched for ?b
+		?a: the general population
+		?b: gender
+	In with ?a , ?b were substantially lower
+		?a: the general population , matched for age and gender
+		?b: the HR-QoL scores at both BOA entry and long-term follow-up
+	even if ?a was patent
+		?a: the patient 's graft
+	?a had occurred
+		?a: no other vascular events
+
+
+label:    sent_10
+sentence: A total of 253 grafts including 89 left internal mammary artery ( LIMA ) grafts , 41 saphenous vein grafts ( SVGs ) to diagonal artery , 66 SVGs to obtuse marginal ( OM ) artery , and 57 SVGs to posterior descending artery ( PDA ) were patent and assessed .
+
+ppatt:
+	?a is/are SVGs
+		?a: 41 saphenous vein grafts
+	?a is/are OM
+		?a: obtuse marginal
+	?a is/are PDA
+		?a: posterior descending artery
+	?a were patent
+		?a: A total of 253 grafts including 89 left internal mammary artery ( LIMA ) grafts , 41 saphenous vein grafts to diagonal artery , 66 SVGs to obtuse marginal artery , and 57 SVGs to posterior descending artery
+	?a assessed
+		?a: A total of 253 grafts including 89 left internal mammary artery ( LIMA ) grafts , 41 saphenous vein grafts to diagonal artery , 66 SVGs to obtuse marginal artery , and 57 SVGs to posterior descending artery
+
+
+label:    sent_11
+sentence: If upheld , this decision will have considerable impact on the ability of biotechnical companies and universities to patent the results of their research . Vascular reconstructions were patent except for 2 early occlusions .
+
+ppatt:
+	upheld ?a
+		?a: this decision
+	?a will have ?b on ?c
+		?a: this decision
+		?b: considerable impact
+		?c: the ability of biotechnical companies and universities to patent the results of their research
+	?a patent ?b
+		?a: the ability of biotechnical companies and universities
+		?b: the results of their research
+	?a were patent except for ?b
+		?a: Vascular reconstructions
+		?b: 2 early occlusions
+
+
+label:    sent_12
+sentence: The hepatic veins and inferior vena cava were patent according to angiography .
+
+ppatt:
+	?a were patent according to ?b
+		?a: The hepatic veins
+		?b: angiography
+	?a were patent according to ?b
+		?a: inferior vena cava
+		?b: angiography
+
+
+label:    sent_13
+sentence: With intravenously administered verapamil , a calcium antagonist , given perioperatively at 7.5 ug/kg/min , 12 of 16 grafts in eight dogs were patent compared with only 2 of 16 grafts in eight control dogs ( P less than 0.001 ) .
+
+ppatt:
+	?a given perioperatively at ?b
+		?a: a calcium antagonist , 12 of 16 grafts in eight dogs
+		?b: 7.5 ug/kg/min
+	With ?a , ?b were patent
+		?a: intravenously administered verapamil
+		?b: a calcium antagonist , given perioperatively at 7.5 ug/kg/min 12 of 16 grafts in eight dogs
+	?a compared with only 2 of 16 grafts
+		?a: a calcium antagonist , given perioperatively at 7.5 ug/kg/min 12 of 16 grafts in eight dogs
+	?a in eight control dogs
+		?a: a calcium antagonist , given perioperatively at 7.5 ug/kg/min 12 of 16 grafts in eight dogs
+
+

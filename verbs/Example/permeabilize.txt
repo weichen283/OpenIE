@@ -1,0 +1,26 @@
+obj	One way to permeabilize cells is by electroporation .	obj@cells
+obj	Avicins , natural anticancer saponins , permeabilize mitochondrial membranes .	obj@membranes
+obj	IAPP has been shown to disrupt membrane integrity and to permeabilize membranes .	obj@membranes
+
+obj#prep	Lysolecithin was used to permeabilize embryonic cells to impermeant compounds without compromising embryo viability .	obj@cells prep_to@compounds prepc_without@compromising
+obj#prep	Bax forms multispanning monomers that oligomerize to permeabilize membranes during apoptosis .	obj@membranes prep_during@apoptosis
+obj#prep	Complexes were able to permeabilize the cytoplasmic membrane to 30 kDa molecules .	obj@membrane prep_to@molecules
+
+subj#obj	Higly fusogenic cationic liposomes transiently permeabilize the plasma membrane of HeLa cells .	subj@liposomes obj@membrane
+subj#obj	Dye permeabilization study on isolated mitochondria indicates that piroxicam can permeabilize mitochondrial membrane .	subj@piroxicam obj@membrane
+subj#obj	Self-interacting BAX proteins permeabilize outer mitochondrial membranes to trigger apoptotic cell death .	subj@proteins obj@membranes
+
+obj#conj	Oligomers are highly cytotoxic and permeabilize lipid membranes , both biological and synthetic .	obj@membranes conj_and@cytotoxic
+obj#conj	Microplusin has a bacteriostatic effect and does not permeabilize the bacterial membrane .	obj@membrane conj_and@has
+obj#conj	Others have studied its application to permeabilize tumor vessels and improve tumor interstitial transport .	obj@vessels conj_and@improve
+
+subj#obj#conj	The aggregates do not permeabilize synthetic membranes and are not cytotoxic .	subj@aggregates obj@membranes conj_and@cytotoxic
+subj#obj#conj	Magainins are positively charged amphiphatic peptides which permeabilize cell membranes and display antimicrobial activity .	subj@peptides obj@membranes conj_and@display
+subj#obj#conj	However , many surfactants permeabilize bacterial cell membranes and are effective disinfectants .	subj@surfactants obj@membranes conj_and@disinfectants
+
+subj#obj#prep	Ceramide synthesis in the endoplasmic reticulum can permeabilize mitochondria to proapoptotic proteins .	subj@synthesis obj@mitochondria prep_to@proteins
+subj#obj#prep	Antimicrobial peptides often permeabilize biological membranes via a pore mechanism .	subj@peptides obj@membranes prep_via@mechanism
+subj#obj#prep	In addition to the formation of domains , alpha-hederin and hederagenin permeabilize GUV .	subj@alpha-hederin subj@hederagenin obj@GUV prep_in_addition_to@formation
+
+subj#obj#rel	The detailed mechanisms by which alpha-synuclein oligomers permeabilize lipid bilayers remain unknown .	subj@oligomers obj@bilayers rel@which
+

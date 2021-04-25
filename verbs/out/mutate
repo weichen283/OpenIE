@@ -1,0 +1,224 @@
+label:    sent_1
+sentence: Intrinsic ability to mutate exogenous cDNA sequences was tested .
+
+ppatt:
+	?a mutate ?b
+		?a: Intrinsic ability
+		?b: exogenous cDNA sequences
+	?a was tested
+		?a: Intrinsic ability to mutate exogenous cDNA sequences
+
+
+label:    sent_2
+sentence: The vector was used to mutate specifically the Phe60 residue of E. coli SSB .
+
+ppatt:
+	?a was used to mutate specifically ?b
+		?a: The vector
+		?b: the Phe60 residue of E. coli SSB
+
+
+label:    sent_3
+sentence: Only the IS1096-derived transposition was able to efficiently mutate M. marinum .
+
+ppatt:
+	?a was able to efficiently mutate ?b
+		?a: Only the IS1096-derived transposition
+		?b: M. marinum
+
+
+label:    sent_4
+sentence: Microsatellites mutate frequently by replication slippage .
+
+ppatt:
+	?a mutate frequently by ?b
+		?a: Microsatellites
+		?b: replication slippage
+
+
+label:    sent_5
+sentence: An estimated 500-1 000 Arabidopsis ( Arabidopsis thaliana ) genes mutate to embryonic lethality . PIK3CA exon 9 and exon 20 rarely mutate in NPC .
+
+ppatt:
+	?a mutate to ?b
+		?a: An estimated 500-1 000 Arabidopsis genes
+		?b: embryonic lethality
+	?a rarely mutate in ?b
+		?a: PIK3CA exon 9
+		?b: NPC
+	?a rarely mutate in ?b
+		?a: exon 20
+		?b: NPC
+
+
+label:    sent_6
+sentence: Synapses replicate by quantally strengthening , and mutate by connecting new cells .
+
+ppatt:
+	?a replicate
+		?a: Synapses
+	?a quantally strengthening
+		?a: Synapses
+	?a mutate
+		?a: Synapses
+	?a connecting ?b
+		?a: Synapses
+		?b: new cells
+
+
+label:    sent_7
+sentence: Retroviruses are known to mutate at high rates .
+
+ppatt:
+	?a are known to mutate at ?b
+		?a: Retroviruses
+		?b: high rates
+
+
+label:    sent_8
+sentence: Influenza A viruses possess RNA genomes that mutate frequently in response to immune pressures .
+
+ppatt:
+	?a possess ?b
+		?a: Influenza A viruses
+		?b: RNA genomes that mutate frequently in response to immune pressures
+	?a mutate frequently in ?b
+		?a: RNA genomes
+		?b: response to immune pressures
+
+
+label:    sent_9
+sentence: Genotypes B and C each showed several preferred positions to mutate . At protein level , we would know when a protein family will mutate more .
+
+ppatt:
+	?a showed ?b to mutate . At ?c
+		?a: Genotypes
+		?b: several preferred positions
+		?c: protein level
+	?a would know
+		?a: we
+	when ?a will mutate more
+		?a: a protein family
+
+
+label:    sent_10
+sentence: Do cancer cells selectively mutate HFE to increase their intracellular iron ? Site-directed mutagenesis has been performed to mutate each of the three residues to alanine .
+
+ppatt:
+	Do ?a selectively mutate ?b to increase ?c
+		?a: cancer cells
+		?b: HFE
+		?c: their intracellular iron
+	?a has been performed to mutate ?b
+		?a: Site-directed mutagenesis
+		?b: each of the three residues to alanine
+
+
+label:    sent_11
+sentence: The inducible Mx1-Cre driver was used to mutate Brg1 in adult mice .
+
+ppatt:
+	?a was used to mutate ?b in ?c
+		?a: The inducible Mx1-Cre driver
+		?b: Brg1
+		?c: adult mice
+
+
+label:    sent_12
+sentence: Site-directed mutagenesis was used to mutate this cysteine to serine .
+
+ppatt:
+	?a was used to mutate ?b to ?c
+		?a: Site-directed mutagenesis
+		?b: this cysteine
+		?c: serine
+
+
+label:    sent_13
+sentence: These bacteria are able to regrow , to mutate and to support infection . EGFR pharmacogenomics : the story continues to mutate and evolve .
+
+ppatt:
+	?a are able to regrow , to mutate
+		?a: These bacteria
+	?a are able to regrow , to to support ?b
+		?a: These bacteria
+		?b: infection
+	?a is/are EGFR pharmacogenomics
+		?a: infection
+	?a continues to mutate
+		?a: the story
+	?a continues to evolve
+		?a: the story
+
+
+label:    sent_14
+sentence: Here we confirm this prediction using digital organisms that self-replicate , mutate and evolve .
+
+ppatt:
+	Here ?a confirm ?b
+		?a: we
+		?b: this prediction using digital organisms that , mutate and evolve
+	?a using ?b
+		?a: this prediction
+		?b: digital organisms that , mutate and evolve
+	?a mutate
+		?a: digital organisms
+	?a evolve
+		?a: that
+
+
+label:    sent_15
+sentence: The wild-type strain can mutate and become drug-resistant during the process of reverse transcription .
+
+ppatt:
+	?a can mutate
+		?a: The wild-type strain
+	?a become drug-resistant during ?b
+		?a: The wild-type strain
+		?b: the process of reverse transcription
+
+
+label:    sent_16
+sentence: Why do B cells mutate their immunoglobulin receptors ? First , double mutants that simultaneously mutate various pairs of transcriptional signals were constructed .
+
+ppatt:
+	Why do ?a mutate ?b
+		?a: B cells
+		?b: their immunoglobulin receptors
+	?a simultaneously mutate ?b
+		?a: double mutants
+		?b: various pairs of transcriptional signals
+	First , ?a were constructed
+		?a: double mutants that simultaneously mutate various pairs of transcriptional signals
+
+
+label:    sent_17
+sentence: Smokeless tobacco extracts mutate human cells .
+
+ppatt:
+	?a mutate ?b
+		?a: Smokeless tobacco extracts
+		?b: human cells
+
+
+label:    sent_18
+sentence: I argue that carcinogenic insults injure many cells rather than mutate a few . Individuals mutate between types and migrate to neighboring sites with low probabilities .
+
+ppatt:
+	?a argue ?b
+		?a: I
+		?b: SOMETHING := carcinogenic insults injure many cells rather than mutate few
+	?a injure ?b
+		?a: carcinogenic insults
+		?b: many cells
+	?a mutate ?b
+		?a: carcinogenic insults
+		?b: few
+	?a mutate between ?b
+		?a: a Individuals
+		?b: types
+	?a migrate to ?b
+		?a: a Individuals
+		?b: neighboring sites with low probabilities
+
+

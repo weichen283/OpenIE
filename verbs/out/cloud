@@ -1,0 +1,94 @@
+label:    sent_1
+sentence: Given the enormous potential for iPS cell-based drug development , what ethical issues could possibly cloud this new biomedical horizon ?
+
+ppatt:
+	Given ?a , ?b ?c could possibly cloud ?d
+		?a: the enormous potential for iPS cell-based drug development
+		?b: what
+		?c: ethical issues
+		?d: this new biomedical horizon
+
+
+label:    sent_2
+sentence: The nonspecific nature of this sign should not cloud an otherwise fairly straightforward diagnosis , especially when associated background findings are typical .
+
+ppatt:
+	?a should not cloud ?b
+		?a: The nonspecific nature of this sign
+		?b: an otherwise fairly straightforward diagnosis
+	especially when ?a are typical
+		?a: associated background findings
+
+
+label:    sent_3
+sentence: An attention deficit disorder , with or without hyperactivity , may further cloud our accurate understanding of such student .
+
+ppatt:
+	?a may further cloud ?b
+		?a: An attention deficit disorder , with or without hyperactivity
+		?b: our accurate understanding of such student
+
+
+label:    sent_4
+sentence: We review issues that cloud the diagnosis of neurotoxic disease , and stress the importance of a directed history .
+
+ppatt:
+	?a review ?b
+		?a: We
+		?b: issues that cloud the diagnosis of neurotoxic disease , and stress the importance of a directed history
+	?a cloud ?b
+		?a: issues
+		?b: the diagnosis of neurotoxic disease
+	?a cloud ?b
+		?a: issues
+		?b: stress
+	?a cloud ?b
+		?a: issues
+		?b: the importance of a directed history
+
+
+label:    sent_5
+sentence: Serious reservations have emerged regarding , in particular , the external validity of role-play assessment and cloud the confidence that can be placed on findings generated from role-play measures .
+
+ppatt:
+	?a have emerged regarding , in ?b ?c
+		?a: Serious reservations
+		?b: particular
+		?c: the external validity of role-play assessment
+	?a cloud ?b
+		?a: Serious reservations
+		?b: the confidence that can be placed on findings generated from role-play measures
+	?a can be placed on ?b
+		?a: the confidence
+		?b: findings generated from role-play measures
+	?a generated from ?b
+		?a: findings
+		?b: role-play measures
+
+
+label:    sent_6
+sentence: Local physical habitat quality cloud the effect of predicted pesticide runoff from agricultural land in Danish streams .
+
+ppatt:
+	?a cloud ?b
+		?a: Local physical habitat quality
+		?b: the effect of predicted pesticide runoff from agricultural land in Danish streams
+
+
+label:    sent_7
+sentence: Allegations of bias cloud conflicting reports on bisphenol A 's effects .
+
+ppatt:
+
+
+
+label:    sent_8
+sentence: Entrainment of water would cloud the interpretation of measured partition coefficients as a simple index of hydrophobicity .
+
+ppatt:
+	?a would cloud ?b as ?c
+		?a: Entrainment of water
+		?b: the interpretation of measured partition coefficients
+		?c: a simple index of hydrophobicity
+
+

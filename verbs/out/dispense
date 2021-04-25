@@ -1,0 +1,232 @@
+label:    sent_1
+sentence: Revisiting pharmacists ' refusals to dispense emergency contraception .
+
+ppatt:
+	Revisiting ?a
+		?a: pharmacists ' refusals
+	dispense ?a
+		?a: emergency contraception
+
+
+label:    sent_2
+sentence: Over 90 % of MDs accept our recommendation to dispense alternate Rx products .
+
+ppatt:
+	Over ?a accept ?b
+		?a: 90 % of MDs
+		?b: our recommendation to dispense alternate Rx products
+	?a dispense ?b
+		?a: our recommendation
+		?b: alternate Rx products
+
+
+label:    sent_3
+sentence: It took only 23 seconds to dispense the drugs . Some of the clinics dispense contraceptives . When doctors dispense prescriptions , angry pharmacists are bypassed . They also dispense vaccinations .
+
+ppatt:
+	?a took ?b to dispense ?c
+		?a: It
+		?b: only 23 seconds
+		?c: the drugs
+	?a dispense ?b
+		?a: Some of the clinics
+		?b: contraceptives
+	When ?a dispense ?b
+		?a: doctors
+		?b: prescriptions
+	?a are bypassed
+		?a: angry pharmacists
+	?a also dispense ?b
+		?a: They
+		?b: vaccinations
+
+
+label:    sent_4
+sentence: This makes it possible to dispense with general anesthesia .
+
+ppatt:
+	?a makes ?b possible to dispense with ?c
+		?a: This
+		?b: it
+		?c: general anesthesia
+
+
+label:    sent_5
+sentence: By this alternative it is possible to dispense with the densitometer and the sensitometer . Do n't dispense with dispensing .
+
+ppatt:
+	By ?a ?b is possible to dispense with ?c
+		?a: this alternative
+		?b: it
+		?c: the densitometer
+	By ?a ?b is possible to dispense with ?c
+		?a: this alternative
+		?b: it
+		?c: the sensitometer
+	?a Do n't dispense with ?b
+		?a: it
+		?b: dispensing
+
+
+label:    sent_6
+sentence: The consequences of requesting " dispense as written " . Who can dispense after hours ? A ' reluctance to dispense with the anaesthetist ' : for valid reasons .
+
+ppatt:
+	?a requesting ?b
+		?a: The consequences
+		?b: "
+	?a dispense as ?b : for ?c
+		?a: The consequences of requesting "
+		?b: written " . Who can dispense after hours ? A ' reluctance to dispense with the anaesthetist
+		?c: valid reasons
+	?a ?b can dispense after ?c ?d
+		?a: written "
+		?b: Who
+		?c: hours
+		?d: A ' reluctance to dispense with the anaesthetist
+	?a dispense with ?b
+		?a: A ' reluctance
+		?b: the anaesthetist
+
+
+label:    sent_7
+sentence: The feeder uses a nipple to dispense food pellets reliably under water .
+
+ppatt:
+	?a uses ?b to dispense ?c reliably under ?d
+		?a: The feeder
+		?b: a nipple
+		?c: food pellets
+		?d: water
+
+
+label:    sent_8
+sentence: Despite some opposition , BC pharmacists to dispense morning-after pill without prescription .
+
+ppatt:
+	?a dispense ?b without ?c
+		?a: Despite some opposition , BC pharmacists
+		?b: morning-after pill
+		?c: prescription
+
+
+label:    sent_9
+sentence: We measured ability to dispense Plan B within 24 hours .
+
+ppatt:
+	?a measured ?b
+		?a: We
+		?b: ability to dispense Plan B within 24 hours
+	?a dispense ?b within ?c
+		?a: ability
+		?b: Plan B
+		?c: 24 hours
+
+
+label:    sent_10
+sentence: They expected pharmacists to dispense medications , act professionally , and provide medication information .
+
+ppatt:
+	?a expected ?b to dispense ?c
+		?a: They
+		?b: pharmacists
+		?c: medications
+	?a act professionally
+		?a: They
+	?a provide ?b
+		?a: They
+		?b: medication information
+
+
+label:    sent_11
+sentence: In many Asian countries , physicians both prescribe and dispense drugs . The Pharmaceutical Act in 1993 explicitly allowed pharmacists to prescribe and dispense herbal drugs .
+
+ppatt:
+	In ?a , ?b both prescribe ?c
+		?a: many Asian countries
+		?b: physicians
+		?c: drugs
+	?a dispense
+		?a: physicians
+	?a Act in ?b to prescribe ?c
+		?a: The Pharmaceutical
+		?b: 1993 explicitly allowed pharmacists
+		?c: herbal drugs
+	?a Act to dispense
+		?a: The Pharmaceutical
+
+
+label:    sent_12
+sentence: They almost dispense all categories of medicines over-the-counter without the need of prescriptions .
+
+ppatt:
+	?a almost dispense ?b without ?c
+		?a: They
+		?b: all categories of medicines over-the-counter
+		?c: the need of prescriptions
+
+
+label:    sent_13
+sentence: Pharmacist 's refusal to dispense diethylstilbestrol for contraceptive use . Pharmacists volunteering on medical mission trips may dispense this product with confidence .
+
+ppatt:
+	?a dispense ?b for ?c
+		?a: Pharmacist 's refusal
+		?b: diethylstilbestrol
+		?c: contraceptive use
+	?a volunteering on ?b
+		?a: Pharmacists
+		?b: medical mission trips
+	?a ?b may dispense ?c with ?d
+		?a: Pharmacist 's refusal to dispense diethylstilbestrol for contraceptive use
+		?b: Pharmacists volunteering on medical mission trips
+		?c: this product
+		?d: confidence
+
+
+label:    sent_14
+sentence: Both methods relay on intrinsic contrast mechanisms and dispense with the need of staining .
+
+ppatt:
+	?a relay on ?b
+		?a: Both methods
+		?b: intrinsic contrast mechanisms
+	?a dispense with ?b
+		?a: Both methods
+		?b: the need of staining
+
+
+label:    sent_15
+sentence: Folding is spontaneous and rapid and can dispense with molecular chaperons .
+
+ppatt:
+	?a is spontaneous
+		?a: Folding
+	?a rapid
+		?a: Folding
+	?a can dispense with ?b
+		?a: Folding
+		?b: molecular chaperons
+
+
+label:    sent_16
+sentence: Participants were healthcare professionals authorised to prescribe , dispense or administer medications .
+
+ppatt:
+	?a were healthcare professionals
+		?a: Participants
+	?a authorised to prescribe , dispense ?b
+		?a: healthcare professionals
+		?b: medications
+	authorised to prescribe , administer ?a
+		?a: medications
+
+
+label:    sent_17
+sentence: To dispense or to administer : know the difference .
+
+ppatt:
+	know ?a
+		?a: the difference
+
+

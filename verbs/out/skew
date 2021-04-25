@@ -1,0 +1,256 @@
+label:    sent_1
+sentence: Experience with the ' skew flap ' below-knee amputation .
+
+ppatt:
+
+
+
+label:    sent_2
+sentence: Alternating skew on lateral gaze . Seven children had alternating skew on lateral gaze .
+
+ppatt:
+	?a had ?b
+		?a: Alternating skew on lateral gaze Seven children
+		?b: alternating skew on lateral gaze
+
+
+label:    sent_3
+sentence: These females also had the greatest levels of skew in fertilization success of males .
+
+ppatt:
+	?a also had ?b
+		?a: These females
+		?b: the greatest levels of skew in fertilization success of males
+
+
+label:    sent_4
+sentence: A simple log transformation was used to handle large and skew AT burden distributions .
+
+ppatt:
+	?a was used to handle ?b AT ?c
+		?a: A simple log transformation
+		?b: large
+		?c: burden distributions
+	?a was used to handle ?b AT ?c
+		?a: A simple log transformation
+		?b: skew
+		?c: burden distributions
+
+
+label:    sent_5
+sentence: Estimating incremental costs with skew : a cautionary note . The past , present and future of reproductive skew theory and experiments . Periodic alternating skew deviation .
+
+ppatt:
+	Estimating ?a
+		?a: incremental costs with skew
+
+
+label:    sent_6
+sentence: Some reagents can skew the equilibrium of assembly and disassembly toward formation of polymer .
+
+ppatt:
+	?a can skew ?b
+		?a: Some reagents
+		?b: the equilibrium of assembly and disassembly toward formation of polymer
+
+
+label:    sent_7
+sentence: The results showed that the distribution are unimodal , asymmetric , and positively skew . LMS parameters ( skew , median , and standard deviation ) were calculated .
+
+ppatt:
+	?a showed ?b ?c
+		?a: The results
+		?b: SOMETHING := the distribution are unimodal
+		?c: SOMETHING := LMS parameters were calculated
+	?a are unimodal
+		?a: the distribution
+	?a asymmetric
+		?a: the distribution
+	?a positively
+		?a: the distribution
+	?a skew
+		?a: the distribution
+	?a is/are deviation
+		?a: skew
+	?a is/are deviation
+		?a: median
+	?a is/are deviation
+		?a: standard
+	?a were calculated
+		?a: LMS parameters
+
+
+label:    sent_8
+sentence: Also , both model and real VN neurons exhibit rectification and skew .
+
+ppatt:
+	Also , ?a exhibit ?b
+		?a: model
+		?b: rectification
+	Also , ?a exhibit ?b
+		?a: real
+		?b: rectification
+	Also , ?a exhibit ?b
+		?a: VN neurons
+		?b: rectification
+	Also , ?a exhibit ?b
+		?a: model
+		?b: skew
+	Also , ?a exhibit ?b
+		?a: real
+		?b: skew
+	Also , ?a exhibit ?b
+		?a: VN neurons
+		?b: skew
+
+
+label:    sent_9
+sentence: Glioma cell-derived factors subsequently skew these cells towards an immunosuppressive , tumour-promoting phenotype .
+
+ppatt:
+	?a subsequently skew ?b towards ?c
+		?a: Glioma cell-derived factors
+		?b: these cells
+		?c: an immunosuppressive , phenotype
+
+
+label:    sent_10
+sentence: The skew ray ambiguity in the analysis of videokeratoscopic data . Exonic splicing regulatory elements skew synonymous codon usage near intron-exon boundaries in mammals .
+
+ppatt:
+	?a ?b skew ?c near ?d
+		?a: The skew ray ambiguity in the analysis of videokeratoscopic data
+		?b: Exonic splicing regulatory elements
+		?c: synonymous codon usage
+		?d: intron-exon boundaries in mammals
+
+
+label:    sent_11
+sentence: Insertion and deletion biases were shown to skew allelic distributions in both directions .
+
+ppatt:
+	?a were shown to skew ?b in ?c
+		?a: Insertion
+		?b: allelic distributions
+		?c: both directions
+	?a were shown to skew ?b in ?c
+		?a: deletion biases
+		?b: allelic distributions
+		?c: both directions
+
+
+label:    sent_12
+sentence: Diplopia due to skew deviation following neurotologic procedures .
+
+ppatt:
+
+
+
+label:    sent_13
+sentence: Furthermore , PIM-Inh could skew T cell differentiation towards a Treg phenotype .
+
+ppatt:
+	Furthermore , ?a could skew ?b towards ?c
+		?a: PIM-Inh
+		?b: T cell differentiation
+		?c: a Treg phenotype
+
+
+label:    sent_14
+sentence: Reproducibility of skew and kurtosis were not studied in the normal subjects .
+
+ppatt:
+	?a were not studied in ?b
+		?a: Reproducibility of skew and kurtosis
+		?b: the normal subjects
+
+
+label:    sent_15
+sentence: Randomization analysis of dental data characterized by skew and variance heterogeneity .
+
+ppatt:
+	?a characterized by ?b
+		?a: dental data
+		?b: skew
+	?a characterized by ?b
+		?a: dental data
+		?b: variance
+
+
+label:    sent_16
+sentence: Evolution of cooperation and skew under imperfect information .
+
+ppatt:
+
+
+
+label:    sent_17
+sentence: Parental effort and reproductive skew in coalitions of brood rearing female common eiders .
+
+ppatt:
+
+
+
+label:    sent_18
+sentence: Identification of 2R-ohnologue gene families displaying the same mutation-load skew in multiple cancers .
+
+ppatt:
+	?a displaying ?b
+		?a: 2R-ohnologue gene families
+		?b: the same mutation-load skew in multiple cancers
+
+
+label:    sent_19
+sentence: Pronounced reproductive skew in a natural population of green swordtails , Xiphophorus helleri .
+
+ppatt:
+	?a is/are Xiphophorus helleri
+		?a: green swordtails
+
+
+label:    sent_20
+sentence: Disclosures could strengthen or skew the doctor-patient relationship .
+
+ppatt:
+	?a could strengthen ?b
+		?a: Disclosures
+		?b: the doctor-patient relationship
+	?a skew
+		?a: Disclosures
+
+
+label:    sent_21
+sentence: Such amplification is not always linear and can thus skew results . Male reproductive skew , paternal relatedness , and female social relationships .
+
+ppatt:
+	?a is not always linear
+		?a: Such amplification
+	?a can thus skew ?b
+		?a: Such amplification
+		?b: results
+	?a can thus skew ?b
+		?a: Such amplification
+		?b: Male reproductive skew
+	?a can thus skew ?b
+		?a: Such amplification
+		?b: paternal relatedness
+	?a can thus skew ?b
+		?a: Such amplification
+		?b: female social relationships
+
+
+label:    sent_22
+sentence: The major axis of wrist envelope was not skew .
+
+ppatt:
+	?a was not skew
+		?a: The major axis of wrist envelope
+
+
+label:    sent_23
+sentence: Coalitions of relatives and reproductive skew in cooperatively breeding white-winged choughs . Kin selection , local competition , and reproductive skew .
+
+ppatt:
+
+
+

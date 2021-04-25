@@ -1,0 +1,124 @@
+label:    sent_1
+sentence: Xylazine is an agent frequently used in combination with ketamine to anesthetize rabbits .
+
+ppatt:
+	?a is an agent
+		?a: Xylazine
+	?a frequently used in ?b to anesthetize ?c
+		?a: an agent
+		?b: combination with ketamine
+		?c: rabbits
+
+
+label:    sent_2
+sentence: Neither agent was able to completely anesthetize the teeth effectively .
+
+ppatt:
+	?a was able to completely anesthetize ?b effectively
+		?a: Neither agent
+		?b: the teeth
+
+
+label:    sent_3
+sentence: The ability of lumbar medial branch blocks to anesthetize the zygapophysial joint .
+
+ppatt:
+	?a blocks to anesthetize ?b
+		?a: The ability of lumbar medial branch
+		?b: the zygapophysial joint
+
+
+label:    sent_4
+sentence: It is a common practice to anesthetize patients before performing a thoracentesis .
+
+ppatt:
+	?a is a common practice to ?b
+		?a: It
+		?b: patients
+	?a anesthetize
+		?a: a common practice to patients
+	?a performing ?b
+		?a: It
+		?b: a thoracentesis
+
+
+label:    sent_5
+sentence: Try to anesthetize a few fish in a group first as a test batch .
+
+ppatt:
+	Try to anesthetize ?a in ?b first as ?c
+		?a: a few fish
+		?b: a group
+		?c: a test batch
+
+
+label:    sent_6
+sentence: Is it possible to anesthetize palatal tissues with buccal 4 % articaine injection ? Sevoflurane and desflurane continue to challenge our abilities to anesthetize children safely and efficiently .
+
+ppatt:
+	Is ?a possible to anesthetize ?b
+		?a: it
+		?b: palatal tissues with buccal 4 % articaine injection
+	?a continue to challenge ?b
+		?a: Sevoflurane
+		?b: our abilities to anesthetize children safely and efficiently
+	?a continue to challenge ?b
+		?a: desflurane
+		?b: our abilities to anesthetize children safely and efficiently
+	?a anesthetize ?b safely and efficiently
+		?a: our abilities
+		?b: children
+
+
+label:    sent_7
+sentence: Physicians anesthetize the skin beforehand . P-ASA block injection : a new palatal technique to anesthetize maxillary anterior teeth .
+
+ppatt:
+	?a anesthetize ?b beforehand
+		?a: Physicians
+		?b: the skin
+	?a block ?b
+		?a: P-ASA
+		?b: injection
+	?a anesthetize ?b
+		?a: a new palatal technique
+		?b: maxillary anterior teeth
+
+
+label:    sent_8
+sentence: Electromotive drug administration of lidocaine to anesthetize the bladder before intravesical capsaicin .
+
+ppatt:
+	?a anesthetize ?b before ?c
+		?a: Electromotive drug administration of lidocaine
+		?b: the bladder
+		?c: intravesical capsaicin
+
+
+label:    sent_9
+sentence: Failure to anesthetize human subjects by intravenous administration of magnesium sulfate . Rabbits may be difficult to safely sedate or anesthetize . Balanced anesthesia : does it anesthetize ? Balanced anesthesia does anesthetize .
+
+ppatt:
+	?a anesthetize ?b by ?c
+		?a: Failure
+		?b: human subjects
+		?c: intravenous administration of magnesium sulfate . Rabbits
+	?a may be difficult to safely sedate ?b
+		?a: Failure to anesthetize human subjects by intravenous administration of magnesium sulfate . Rabbits
+		?b: Balanced anesthesia
+	?a may be difficult to anesthetize
+		?a: Failure to anesthetize human subjects by intravenous administration of magnesium sulfate . Rabbits
+	does ?a ?b does anesthetize
+		?a: it
+		?b: Balanced anesthesia
+
+
+label:    sent_10
+sentence: The guinea pig is notoriously difficult to anesthetize with conventional agents .
+
+ppatt:
+	?a is notoriously difficult to anesthetize with ?b
+		?a: The guinea pig
+		?b: conventional agents
+
+

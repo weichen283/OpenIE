@@ -1,0 +1,265 @@
+label:    sent_1
+sentence: The electrical shock itself did not seem to explain this phenomenon .
+
+ppatt:
+	?a did not seem to explain ?b
+		?a: The electrical shock itself
+		?b: this phenomenon
+
+
+label:    sent_2
+sentence: Notably , some 5-HT6 receptor agonists seem to have promnesic and/or antiamnesic effects .
+
+ppatt:
+	Notably , ?a seem to have ?b
+		?a: some 5-HT6 receptor agonists
+		?b: promnesic and/or antiamnesic effects
+
+
+label:    sent_3
+sentence: The histologic characteristics of the tumor seem to be an indicative prognostic factor .
+
+ppatt:
+	?a seem to be an indicative prognostic factor
+		?a: The histologic characteristics of the tumor
+
+
+label:    sent_4
+sentence: In the long run the results of stenting and CEA seem to be comparable .
+
+ppatt:
+	In ?a ?b seem to be comparable
+		?a: the long run
+		?b: the results of stenting and CEA
+
+
+label:    sent_5
+sentence: In addition , fungal infections seem to be related to mortality in the NICU .
+
+ppatt:
+	In ?a , ?b seem to be related to ?c
+		?a: addition
+		?b: fungal infections
+		?c: mortality in the NICU
+
+
+label:    sent_6
+sentence: At the same time , neutral patterns seem to be ubiquitous .
+
+ppatt:
+	At ?a , ?b seem to be ubiquitous
+		?a: the same time
+		?b: neutral patterns
+
+
+label:    sent_7
+sentence: It does not seem to encode proteins nor has its function been identified .
+
+ppatt:
+	?a does not seem to encode ?b
+		?a: It
+		?b: proteins
+	?a does not seem to has ?b
+		?a: It
+		?b: its function
+	?a been identified
+		?a: It
+
+
+label:    sent_8
+sentence: These aspects seem to be topical and are the subject for further studies .
+
+ppatt:
+	?a seem to be topical
+		?a: These aspects
+	?a seem to be are the subject for ?b
+		?a: These aspects
+		?b: further studies
+
+
+label:    sent_9
+sentence: Such elevations seem to be self-limited and should not trigger initiation of salvage therapies .
+
+ppatt:
+	?a seem to be self-limited
+		?a: Such elevations
+	?a seem to be should not trigger ?b
+		?a: Such elevations
+		?b: initiation of salvage therapies
+
+
+label:    sent_10
+sentence: The fracture reduction was good and did not seem to have additional approach-related complications .
+
+ppatt:
+	?a was good
+		?a: The fracture reduction
+	?a did not seem to have ?b
+		?a: The fracture reduction
+		?b: additional approach-related complications
+
+
+label:    sent_11
+sentence: There seem to be a few high-volume surgeons and centers with extensive SDT experience .
+
+ppatt:
+	There seem to be a few high-volume surgeons with ?a
+		?a: extensive SDT experience
+
+
+label:    sent_12
+sentence: The actual apoptotic pathways are not fully understood and seem to be cell-specific .
+
+ppatt:
+	?a are not fully understood
+		?a: The actual apoptotic pathways
+	?a seem to be cell-specific
+		?a: The actual apoptotic pathways
+
+
+label:    sent_13
+sentence: However , methods of the treatment seem to slow rather than treat the disease .
+
+ppatt:
+	However , ?a seem to slow
+		?a: methods of the treatment
+	?a treat ?b
+		?a: methods of the treatment
+		?b: the disease
+
+
+label:    sent_14
+sentence: Young males seem at increased risk and a history of pica is ominous . HIV and HCV seem to co-opt DDX3 and require it for their replication .
+
+ppatt:
+	?a seem at ?b
+		?a: Young males
+		?b: increased risk
+	?a is ominous
+		?a: a history of pica
+	?a seem to co-opt ?b
+		?a: HIV
+		?b: DDX3
+	?a seem to co-opt ?b
+		?a: HCV
+		?b: DDX3
+	?a seem to require ?b for ?c
+		?a: HIV
+		?b: it
+		?c: their replication
+	?a seem to require ?b for ?c
+		?a: HCV
+		?b: it
+		?c: their replication
+
+
+label:    sent_15
+sentence: In particular , the trans-isohumulones seem to be less stable than the cis-isohumulones .
+
+ppatt:
+	In ?a , ?b seem to be less stable than ?c
+		?a: particular
+		?b: the trans-isohumulones
+		?c: the cis-isohumulones
+
+
+label:    sent_16
+sentence: In the case of Ceftazidime mentioned there seem to be minimal side effects .
+
+ppatt:
+	In ?a there seem to be minimal side effects
+		?a: the case of Ceftazidime
+
+
+label:    sent_17
+sentence: From the literature , there does not seem to exist a dose-dependent relationship .
+
+ppatt:
+	From ?a , there does not seem to exist ?b
+		?a: the literature
+		?b: a dose-dependent relationship
+
+
+label:    sent_18
+sentence: However , because of the expected therapeutic profit the efforts seem to be justified .
+
+ppatt:
+	However , because of ?a ?b seem to be justified
+		?a: the expected therapeutic profit
+		?b: the efforts
+
+
+label:    sent_19
+sentence: Based on our results , most patients with VKH seem to be late referrals .
+
+ppatt:
+	Based on ?a results ?b
+		?a: our
+		?b: most patients with VKH
+	?a seem to be late referrals
+		?a: most patients with VKH
+
+
+label:    sent_20
+sentence: Based on the results , fluoroquinolones seem to be a good choice .
+
+ppatt:
+	Based on the results ?a
+		?a: fluoroquinolones
+	?a seem to be a good choice
+		?a: fluoroquinolones
+
+
+label:    sent_21
+sentence: What are the meanings that grandparents seem to have for these grandchildren ?
+
+ppatt:
+	?a are the meanings ?b
+		?a: What
+		?b: SOMETHING := grandparents seem to have for these grandchildren
+	?a seem to have for ?b
+		?a: grandparents
+		?b: these grandchildren
+
+
+label:    sent_22
+sentence: The study identified six issues in which expectations did not seem to match effectiveness .
+
+ppatt:
+	?a identified ?b
+		?a: The study
+		?b: six issues in which expectations did not seem to match effectiveness
+	?a in ?b did not seem to match ?c
+		?a: six issues
+		?b: expectations
+		?c: effectiveness
+
+
+label:    sent_23
+sentence: This is precisely the level at which interpretive misunderstandings seem to abound . Acetaldehyde gives the best results and does not seem to damage F-actin .
+
+ppatt:
+	?a is precisely the level
+		?a: This
+	?a at ?b seem to abound
+		?a: precisely the level
+		?b: interpretive misunderstandings
+	?a gives ?b
+		?a: Acetaldehyde
+		?b: the best results
+	?a does not seem to ?b
+		?a: Acetaldehyde
+		?b: damage F-actin
+
+
+label:    sent_24
+sentence: Symptoms may last for at least 4-5 years but eventually seem to subside .
+
+ppatt:
+	?a may last for ?b
+		?a: Symptoms
+		?b: at least 4-5 years
+	?a eventually seem to subside
+		?a: Symptoms
+
+

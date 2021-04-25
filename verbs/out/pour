@@ -1,0 +1,78 @@
+label:    sent_1
+sentence: Use of an autoclavable bottletop dispenser to rapidly pour agar plates .
+
+ppatt:
+
+
+
+label:    sent_2
+sentence: Cloning : do n't pour baby out with the hogwash . Skeptics pour cold water on a Russian ; fire sale ' . Angry researchers pour scorn on astrology classes . L' incidence cumulative etait de 103 infections pour 1000 jours de traitement .
+
+ppatt:
+	?a do n't ?b with ?c
+		?a: Cloning
+		?b: pour baby
+		?c: the hogwash
+	?a do n't ?b with ?c
+		?a: Cloning
+		?b: pour baby
+		?c: Skeptics pour cold water on a Russian
+	?a researchers ?b on ?c ?d
+		?a: fire sale . Angry
+		?b: pour scorn
+		?c: astrology classes
+		?d: L' incidence cumulative etait de 103 infections
+
+
+label:    sent_3
+sentence: Meteorologists pour into west Africa .
+
+ppatt:
+
+
+
+label:    sent_4
+sentence: In turn , gastric acid is permitted to pour through the breached defenses .
+
+ppatt:
+	In ?a , ?b is permitted to ?c through ?d
+		?a: turn
+		?b: gastric acid
+		?c: pour
+		?d: the breached defenses
+
+
+label:    sent_5
+sentence: In the Alone condition , students were instructed to pour only for themselves . Oil spill ramifications pour in . Your responses pour in . Measure , do n't pour . [Point blank .
+
+ppatt:
+	In ?a , ?b were instructed to ?c
+		?a: the Alone condition
+		?b: students
+		?c: pour for themselves
+	In ?a , ?b were instructed to ?c
+		?a: the Alone condition
+		?b: students
+		?c: Oil spill ramifications
+	?a in ?b , do n't ?c
+		?a: students
+		?b: Measure
+		?c: pour . [Point blank
+
+
+label:    sent_6
+sentence: Criticism will pour down ... harmony will guide evolution ] . La contraception de l' adolescente : Strategies pour une observance optimale .
+
+ppatt:
+	?a will ?b will guide ?c ?d
+		?a: Criticism
+		?b: pour down
+		?c: evolution ] . La contraception
+		?d: de l' adolescente
+	?a will ?b will guide ?c ?d
+		?a: Criticism
+		?b: harmony
+		?c: evolution ] . La contraception
+		?d: de l' adolescente
+
+

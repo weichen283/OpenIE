@@ -1,0 +1,20 @@
+label:    sent_1
+sentence: Patients were more likely to be undertriaged if they were older , self-presented , their cause of injury was assault or their head or chest were their most severely injured body region .
+
+ppatt:
+	?a were more likely to be undertriaged
+		?a: Patients
+	?a were older
+		?a: they
+	?a was assault
+		?a: their cause of injury
+	?a ?b head
+		?a: their cause of injury
+		?b: their
+	?a chest
+		?a: their cause of injury
+	?a were ?b most severely injured body region
+		?a: their cause of injury
+		?b: their
+
+

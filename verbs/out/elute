@@ -1,0 +1,265 @@
+label:    sent_1
+sentence: A three-step procedure was used to elute proteins from the column . Acetic acid was able to elute 100 % of the adsorbed WGA .
+
+ppatt:
+	?a was used to elute ?b
+		?a: A three-step procedure
+		?b: proteins from the column
+	?a was able to elute ?b
+		?a: Acetic acid
+		?b: 100 % of the adsorbed WGA
+
+
+label:    sent_2
+sentence: Ammoniated methanol , 2 mL at 2 % , was selected to elute morphine .
+
+ppatt:
+	?a is/are 2 mL at ?b
+		?a: Ammoniated methanol
+		?b: 2 %
+	?a was selected to elute ?b
+		?a: Ammoniated methanol
+		?b: morphine
+
+
+label:    sent_3
+sentence: Partially dissociated forms elute in order of decreasing DNA content .
+
+ppatt:
+	?a elute
+		?a: Partially dissociated forms
+	?a order of decreasing ?b
+		?a: Partially dissociated forms
+		?b: DNA content
+
+
+label:    sent_4
+sentence: All agonist- and antagonist-labeled receptor species elute as the same apparent molecular size .
+
+ppatt:
+	?a elute as ?b
+		?a: All agonist-
+		?b: the same apparent molecular size
+	?a elute as ?b
+		?a: antagonist-labeled
+		?b: the same apparent molecular size
+
+
+label:    sent_5
+sentence: Strains that elute rapidly from chicken erythrocytes were not bound by Lens culinaris lectin .
+
+ppatt:
+	?a elute rapidly from ?b
+		?a: Strains
+		?b: chicken erythrocytes
+	?a were not bound by ?b
+		?a: Strains that elute rapidly from chicken erythrocytes
+		?b: Lens culinaris lectin
+
+
+label:    sent_6
+sentence: Various solutes were screened for their ability to elute 125I-vWf from the immobilised antibodies .
+
+ppatt:
+	?a were screened for ?b
+		?a: Various solutes
+		?b: their ability to elute 125I-vWf from the immobilised antibodies
+	?a elute ?b from ?c
+		?a: their ability
+		?b: 125I-vWf
+		?c: the immobilised antibodies
+
+
+label:    sent_7
+sentence: During amino acid analysis , chloronorleucines elute as new peaks after delta- and epsilon-Hnle .
+
+ppatt:
+	During ?a , ?b elute as ?c after ?d
+		?a: amino acid analysis
+		?b: chloronorleucines
+		?c: new peaks
+		?d: delta-
+	During ?a , ?b elute as ?c after ?d
+		?a: amino acid analysis
+		?b: chloronorleucines
+		?c: new peaks
+		?d: epsilon-Hnle
+
+
+label:    sent_8
+sentence: All of them bind to DEAE-cellulose but elute out by different salt concentrations .
+
+ppatt:
+	?a bind to ?b
+		?a: All of them
+		?b: DEAE-cellulose
+	?a elute out by ?b
+		?a: All of them
+		?b: different salt concentrations
+
+
+label:    sent_9
+sentence: Biomolecules have been successfully delivered using sutures that elute growth factors over time .
+
+ppatt:
+	?a have been successfully delivered using ?b
+		?a: Biomolecules
+		?b: sutures that elute growth factors over time
+	?a elute ?b over ?c
+		?a: sutures
+		?b: growth factors
+		?c: time
+
+
+label:    sent_10
+sentence: Trials to elute the drug with acidic or alkaline solution were unsuccessful . Octyllysophosphatidylcholine ( 0.5 % ) can replace CH3CN to elute PLA2 from IAM surfaces .
+
+ppatt:
+	?a elute ?b with ?c
+		?a: Trials
+		?b: the drug
+		?c: acidic
+	?a elute ?b with ?c
+		?a: Trials
+		?b: the drug
+		?c: alkaline
+	?a were unsuccessful
+		?a: Trials to elute the drug with acidic or alkaline
+	?a is/are 0.5 %
+		?a: Octyllysophosphatidylcholine
+	?a can replace ?b to elute ?c from ?d
+		?a: Octyllysophosphatidylcholine
+		?b: CH3CN
+		?c: PLA2
+		?d: IAM surfaces
+
+
+label:    sent_11
+sentence: These impurities elute during gradient elution and result in significant chromatographic peaks . Decomposition products elute at the void volume and do not interfere .
+
+ppatt:
+	?a elute during ?b
+		?a: These impurities
+		?b: gradient elution
+	?a result in ?b
+		?a: These impurities
+		?b: significant chromatographic peaks
+	?a elute at ?b
+		?a: Decomposition products
+		?b: the void volume
+	?a do not interfere
+		?a: Decomposition products
+
+
+label:    sent_12
+sentence: This elute is currently used for raising monoclonal antibodies .
+
+ppatt:
+	?a is currently used
+		?a: This elute
+	?a raising ?b
+		?a: This elute
+		?b: monoclonal antibodies
+
+
+label:    sent_13
+sentence: Sphingomyelin and lysophosphatidylcholine elute later than the phosphatidylcholines on the analytical column .
+
+ppatt:
+	?a elute later than ?b on ?c
+		?a: Sphingomyelin
+		?b: the phosphatidylcholines
+		?c: the analytical column
+	?a elute later than ?b on ?c
+		?a: lysophosphatidylcholine
+		?b: the phosphatidylcholines
+		?c: the analytical column
+
+
+label:    sent_14
+sentence: Unreliability of five elution techniques in an attempt to elute autoanti-LW and alloanti-LW .
+
+ppatt:
+	?a elute ?b
+		?a: an attempt
+		?b: autoanti-LW
+	?a elute ?b
+		?a: an attempt
+		?b: alloanti-LW
+
+
+label:    sent_15
+sentence: Increasing ionic strength ( 1 M KCl ) did not effectively elute phytochrome .
+
+ppatt:
+	?a is/are 1 M KCl
+		?a: Increasing ionic strength
+	?a did not effectively elute ?b
+		?a: Increasing ionic strength
+		?b: phytochrome
+
+
+label:    sent_16
+sentence: The second proteoglycan to elute contained chondroitin 4-sulfate .
+
+ppatt:
+	?a elute ?b
+		?a: The second proteoglycan
+		?b: contained chondroitin 4-sulfate
+
+
+label:    sent_17
+sentence: Citrate -- taurocholate solution alone at the pH optimum would not elute the enzyme .
+
+ppatt:
+	?a ?b would not elute ?c
+		?a: Citrate
+		?b: taurocholate solution alone at the pH optimum
+		?c: the enzyme
+
+
+label:    sent_18
+sentence: Both Heraeus Palacos and Smartset elute significantly more gentamicin cumulatively than Schering-Plough Palacos .
+
+ppatt:
+	?a elute ?b cumulatively than ?c
+		?a: Heraeus Palacos
+		?b: significantly more gentamicin
+		?c: Schering-Plough Palacos
+	?a elute ?b cumulatively than ?c
+		?a: Smartset
+		?b: significantly more gentamicin
+		?c: Schering-Plough Palacos
+
+
+label:    sent_19
+sentence: Use of filtered pipet tips to elute DNA from agarose gels .
+
+ppatt:
+	?a elute ?b from ?c
+		?a: Use of filtered pipet tips
+		?b: DNA
+		?c: agarose gels
+
+
+label:    sent_20
+sentence: Unlike nonleukemic cells , leukemic leukocytes elute a large fraction of their label .
+
+ppatt:
+	Unlike ?a , ?b elute ?c
+		?a: nonleukemic cells
+		?b: leukemic leukocytes
+		?c: a large fraction of their label
+
+
+label:    sent_21
+sentence: Several DES are currently used and elute different agents .
+
+ppatt:
+	?a are currently used
+		?a: Several DES
+	?a elute ?b
+		?a: Several DES
+		?b: different agents
+
+

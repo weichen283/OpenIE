@@ -1,0 +1,192 @@
+label:    sent_1
+sentence: The effluent that exited these first-line livers was used to perfuse the second-line livers .
+
+ppatt:
+	?a exited ?b
+		?a: The effluent
+		?b: these first-line livers
+	?a was used to perfuse ?b
+		?a: The effluent that exited these first-line livers
+		?b: the second-line livers
+
+
+label:    sent_2
+sentence: The drains were left in situ after surgery and removed when perfuse drainage ceased . At least 80 % of this blood flow is considered to perfuse the brain .
+
+ppatt:
+	?a were left in situ after ?b
+		?a: The drains
+		?b: surgery
+	?a removed
+		?a: The drains
+	when ?a ceased
+		?a: perfuse drainage
+	?a is considered to perfuse ?b
+		?a: At least 80 % of this blood flow
+		?b: the brain
+
+
+label:    sent_3
+sentence: Herein we describe steps to isolate rat lungs and perfuse them with autologous blood .
+
+ppatt:
+	Herein ?a describe ?b
+		?a: we
+		?b: steps to isolate rat lungs and perfuse them with autologous blood
+	?a isolate ?b
+		?a: steps
+		?b: rat lungs
+	perfuse ?a with ?b
+		?a: them
+		?b: autologous blood
+
+
+label:    sent_4
+sentence: [ Neurinoma of the small intestine complicated by perfuse intestinal hemorrhaging ] . With this system , it is possible to perfuse the kidney at selected rates .
+
+ppatt:
+	?a complicated by ?b With ?c
+		?a: the small intestine
+		?b: perfuse intestinal hemorrhaging ]
+		?c: this system
+	?a ?b is possible to perfuse ?c at ?d
+		?a: Neurinoma of the small intestine complicated by perfuse intestinal hemorrhaging ] . With this system
+		?b: it
+		?c: the kidney
+		?d: selected rates
+
+
+label:    sent_5
+sentence: Generally , the sacrifice of arteries that perfuse normal brain parenchyma is avoided .
+
+ppatt:
+	?a perfuse ?b
+		?a: arteries
+		?b: normal brain parenchyma
+	Generally , ?a is avoided
+		?a: the sacrifice of arteries that perfuse normal brain parenchyma
+
+
+label:    sent_6
+sentence: We conclude that IST induces vascular adaptations nonuniformly among arteries that perfuse WG muscle .
+
+ppatt:
+	?a conclude ?b
+		?a: We
+		?b: SOMETHING := IST induces vascular adaptations nonuniformly among arteries that perfuse WG muscle
+	?a induces ?b nonuniformly among ?c
+		?a: IST
+		?b: vascular adaptations
+		?c: arteries that perfuse WG muscle
+	?a perfuse ?b
+		?a: arteries
+		?b: WG muscle
+
+
+label:    sent_7
+sentence: Retrograde cerebral perfusion does not perfuse the brain in nonhuman primates .
+
+ppatt:
+	?a does not perfuse ?b in ?c
+		?a: Retrograde cerebral perfusion
+		?b: the brain
+		?c: nonhuman primates
+
+
+label:    sent_8
+sentence: To perfuse or not to perfuse kidneys donated after cardiac death .
+
+ppatt:
+	perfuse to ?a
+		?a: not perfuse kidneys donated after cardiac death
+	?a donated after ?b
+		?a: not perfuse kidneys
+		?b: cardiac death
+
+
+label:    sent_9
+sentence: The microvascular pressures that perfuse the anterior pituitary gland with blood were not known .
+
+ppatt:
+	?a perfuse ?b
+		?a: The microvascular pressures
+		?b: the anterior pituitary gland with blood
+	?a were not known
+		?a: The microvascular pressures that perfuse the anterior pituitary gland with blood
+
+
+label:    sent_10
+sentence: The CFP can perfuse the pulmonary and systemic circulation alternately with pulsatile flow . It can perfuse the pulmonary and the systemic circulation alternately with pulsatile flow . It seems to perfuse through the clot when injected in one place .
+
+ppatt:
+	?a can perfuse ?b ?c alternately with ?d
+		?a: The CFP
+		?b: pulmonary
+		?c: the circulation
+		?d: pulsatile flow
+	?a can perfuse ?b ?c alternately with ?d
+		?a: The CFP
+		?b: systemic
+		?c: the circulation
+		?d: pulsatile flow
+	?a can perfuse ?b alternately with ?c
+		?a: It
+		?b: the pulmonary
+		?c: pulsatile flow
+	?a can perfuse ?b alternately with ?c
+		?a: It
+		?b: the systemic
+		?c: pulsatile flow
+	?a seems to perfuse through ?b
+		?a: It
+		?b: the clot
+	?a when injected in ?b
+		?a: It
+		?b: one place
+
+
+label:    sent_11
+sentence: The kidney was intermittently allowed to perfuse with heparinized saline .
+
+ppatt:
+	?a was intermittently allowed to perfuse with ?b
+		?a: The kidney
+		?b: heparinized saline
+
+
+label:    sent_12
+sentence: Then the micro-balloon catheter was withdrawn from the MCA to perfuse for 22 h .
+
+ppatt:
+	Then ?a was withdrawn from ?b to ?c for ?d
+		?a: the micro-balloon catheter
+		?b: the MCA
+		?c: perfuse
+		?d: 22 h
+
+
+label:    sent_13
+sentence: Short-term kidney preservation : to perfuse or not to perfuse .
+
+ppatt:
+
+
+
+label:    sent_14
+sentence: Pain stimulation elevated AVP concentration in CdN perfuse liquid .
+
+ppatt:
+	?a elevated ?b in ?c
+		?a: Pain stimulation
+		?b: AVP concentration
+		?c: CdN perfuse liquid
+
+
+label:    sent_15
+sentence: Penumbra is brain : no excuse not to perfuse . [ Perfuse all or perfuse well ? New prospects in kidney transplantation ] .
+
+ppatt:
+	?a is brain
+		?a: Penumbra
+
+

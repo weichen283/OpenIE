@@ -1,0 +1,38 @@
+obj	Response to protocol review scenario : specify all medications .	obj@medications
+obj	To specify the therapeutic strategy in such malformation .	obj@strategy
+obj	We abstracted detailed information from medical records to specify the necessary data elements .	obj@elements
+
+subj#obj	MADS-box transcription factors specify plant meristem identity .	subj@factors obj@identity
+subj#obj	Divergent mechanisms specify chordate motoneurons : evidence from ascidians .	subj@mechanisms obj@motoneurons
+subj#obj	These effects specify the generalization of the information processed .	subj@effects obj@generalization
+
+obj#prep	To specify risk factors of vascular complications at a predialysis stage of renal failure .	obj@factors prep_at@stage
+obj#prep	Animals use diverse strategies to specify tissue lineages during development .	obj@lineages prep_during@development
+obj#prep	To specify long-term memory impairments in a group of patients selected with stringent criteria .	obj@impairments prep_in@group
+
+obj#conj	EMX2 and PAX6 are expressed by cortical progenitors and specify area patterning .	obj@patterning conj_and@expressed
+obj#conj	Studies had to have >=500 patients and specify patient numerators and denominators .	obj@patient conj_and@have
+obj#conj	Separate elements cause lineage restriction and specify boundaries of Hox-1.1 expression .	obj@boundaries conj_and@cause
+
+subj#obj#prep	The cell cycle molecules that specify lineage commitment within the early pancreas are unknown .	subj@molecules obj@commitment prep_within@pancreas
+subj#obj#prep	In doing so , we specify the quantitative evidence required to make informed decisions .	subj@we obj@evidence prepc_in@doing
+subj#obj#prep	Neonatal resuscitation guidelines do not specify the gas flow rate during mask ventilation .	subj@guidelines obj@rate prep_during@ventilation
+
+subj#obj#conj	Further research should specify strain-specific outcomes and determine optimal dosing schedules .	subj@research obj@outcomes conj_and@determine
+subj#obj#conj	Several mutants were analyzed that specify altered ermC gene products and are deregulated .	subj@that obj@products conj_and@deregulated
+subj#obj#conj	The authors specify the cause of the problems and offer recommendations for improvement .	subj@authors obj@cause conj_and@offer
+
+subj	Odd - skipped genes specify the signaling center that triggers retinogenesis in Drosophila .	subj@genes
+subj	The results specify in what sense these caregivers find their work extremely stressful .	subj@results
+subj	Legislation however does not specify how long should be this period .	subj@Legislation
+
+conj	More research is needed to specify and quantify the importance of the various barriers .	conj_and@quantify
+conj	Future work needs to specify and test candidate mediators in clinical trials .	conj_and@test
+conj	The ability to specify and maintain discrete cell fates is essential for development .	conj_and@maintain
+
+subj#conj	Apical and basolateral determinants specify and maintain membrane domains in epithelia .	subj@determinants conj_and@maintain
+subj#conj	The ICF as a conceptual platform to specify and discuss health and health-related concepts .	subj@ICF conj_and@discuss
+subj#conj	This in turn allows us to specify and to formulate experimental ideas .	subj@us conj_and@formulate
+
+subj#obj#prep#conj	Hox proteins specify segment identity during embryogenesis and have typical associated expression patterns .	subj@proteins obj@identity prep_during@embryogenesis conj_and@have
+

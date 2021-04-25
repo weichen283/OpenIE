@@ -1,0 +1,46 @@
+label:    sent_1
+sentence: sp. ciceris and the root-k not nematode Meloidogyne artiellia coinfect chickpea . sp. ciceris and the root-lesion nematode Pratylenchus thornei coinfect chickpeas in southern Spain .
+
+ppatt:
+
+
+
+label:    sent_2
+sentence: Although both Ehrlichia spp. can coinfect HL-60 cells , they resided in separate inclusions . HIV and HCMV coinfect brain cells in patients with AIDS .
+
+ppatt:
+	?a can coinfect ?b
+		?a: both Ehrlichia spp.
+		?b: HL-60 cells
+	?a resided in ?b
+		?a: they
+		?b: separate inclusions
+	?a coinfect ?b in ?c
+		?a: HIV
+		?b: brain cells
+		?c: patients with AIDS
+	?a coinfect ?b in ?c
+		?a: HCMV
+		?b: brain cells
+		?c: patients with AIDS
+
+
+label:    sent_3
+sentence: Borrelia burgdorferi and Anaplasma phagocytophilum coinfect and are transmitted by Ixodes species ticks .
+
+ppatt:
+
+
+
+label:    sent_4
+sentence: The viruses can coinfect with HCV and/or HBV .
+
+ppatt:
+	?a can coinfect with ?b
+		?a: The viruses
+		?b: HCV
+	?a can coinfect with ?b
+		?a: The viruses
+		?b: HBV
+
+

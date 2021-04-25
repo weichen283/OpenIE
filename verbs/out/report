@@ -1,0 +1,299 @@
+label:    sent_1
+sentence: We report an acute bilateral parotid swelling in a patient after electroconvulsive therapy anesthesia .
+
+ppatt:
+	?a report ?b
+		?a: We
+		?b: an acute bilateral parotid swelling in a patient after electroconvulsive therapy anesthesia
+
+
+label:    sent_2
+sentence: Seventy-two percent did report a stressful event immediately prior to the development of symptoms .
+
+ppatt:
+	?a did report ?b immediately prior to ?c
+		?a: Seventy-two percent
+		?b: a stressful event
+		?c: the development of symptoms
+
+
+label:    sent_3
+sentence: About a quarter of sites report sustained use of the PtDAs in routine care .
+
+ppatt:
+	About ?a report ?b
+		?a: a quarter of sites
+		?b: sustained use of the PtDAs in routine care
+
+
+label:    sent_4
+sentence: We report a 22-year-old female who presented with erythema nodosum and bilateral inguinal lymphadenopathy . Case report .
+
+ppatt:
+	?a report ?b ?c
+		?a: We
+		?b: a 22-year-old female who presented with erythema nodosum and bilateral inguinal lymphadenopathy
+		?c: Case report
+	?a presented with ?b
+		?a: a 22-year-old female
+		?b: erythema nodosum
+	?a presented with ?b
+		?a: a 22-year-old female
+		?b: bilateral inguinal lymphadenopathy
+
+
+label:    sent_5
+sentence: We report on a scrub typhus patient who contracted meningoencephalitis during doxycycline administration .
+
+ppatt:
+	?a report on ?b
+		?a: We
+		?b: a scrub typhus patient who contracted meningoencephalitis during doxycycline administration
+	?a contracted ?b during ?c
+		?a: a scrub typhus patient
+		?b: meningoencephalitis
+		?c: doxycycline administration
+
+
+label:    sent_6
+sentence: We report on our experience with this half-open surgical technique .
+
+ppatt:
+	?a report on ?b
+		?a: We
+		?b: our experience with this half-open surgical technique
+
+
+label:    sent_7
+sentence: We report on 17 patients with traumatic intra-cerebellar haematomas .
+
+ppatt:
+	?a report on ?b
+		?a: We
+		?b: 17 patients with traumatic intra-cerebellar haematomas
+
+
+label:    sent_8
+sentence: Six studies reported on microbiological effects whereas eight studies report on clinical effects .
+
+ppatt:
+	?a reported on ?b
+		?a: Six studies
+		?b: microbiological effects
+	?a report on ?b
+		?a: eight studies
+		?b: clinical effects
+
+
+label:    sent_9
+sentence: We report spin-selective transmission of electrons through self-assembled monolayers of double-stranded DNA on gold .
+
+ppatt:
+	?a report ?b
+		?a: We
+		?b: spin-selective transmission of electrons through self-assembled monolayers of double-stranded DNA on gold
+
+
+label:    sent_10
+sentence: In this work we report ST patterns .
+
+ppatt:
+	In ?a ?b report ?c
+		?a: this work
+		?b: we
+		?c: ST patterns
+
+
+label:    sent_11
+sentence: We report our experience in managing this patient group .
+
+ppatt:
+	?a report ?b
+		?a: We
+		?b: our experience
+	?a managing ?b
+		?a: We
+		?b: this patient group
+
+
+label:    sent_12
+sentence: To report a case of primary intracerebral Hodgkin lymphoma with disease recurrence .
+
+ppatt:
+	report ?a
+		?a: a case of primary intracerebral Hodgkin lymphoma with disease recurrence
+
+
+label:    sent_13
+sentence: Martinez-Noel and co-workers now report another newly discovered aspect of the process .
+
+ppatt:
+	?a now report ?b
+		?a: Martinez-Noel
+		?b: another newly discovered aspect of the process
+	?a now report ?b
+		?a: co-workers
+		?b: another newly discovered aspect of the process
+
+
+label:    sent_14
+sentence: We aimed to report our technique and outcomes of robot-assisted adrenalectomy ( RAA ) . We report our complications and describe a new technique for ECS .
+
+ppatt:
+	?a aimed to report ?b
+		?a: We
+		?b: our technique of robot-assisted adrenalectomy
+	?a aimed to report ?b
+		?a: We
+		?b: outcomes
+	?a is/are RAA
+		?a: robot-assisted adrenalectomy
+	?a report ?b
+		?a: We
+		?b: our complications
+	?a describe ?b
+		?a: We
+		?b: a new technique for ECS
+
+
+label:    sent_15
+sentence: We report a case with brain stem lesion and discuss these nonspecific symptoms .
+
+ppatt:
+	?a report ?b
+		?a: We
+		?b: a case with brain stem lesion
+	?a discuss ?b
+		?a: We
+		?b: these nonspecific symptoms
+
+
+label:    sent_16
+sentence: We report 2 cases of periorbital IPEH and review relevant literature .
+
+ppatt:
+	?a report ?b
+		?a: We
+		?b: 2 cases of periorbital IPEH
+	?a review ?b
+		?a: We
+		?b: relevant literature
+
+
+label:    sent_17
+sentence: The CKD-EPI equation will be used to report eGFR in KEEP .
+
+ppatt:
+	?a will be used to report ?b
+		?a: The CKD-EPI equation
+		?b: eGFR in KEEP
+
+
+label:    sent_18
+sentence: Females were more likely to report more inconsistent condom use over time .
+
+ppatt:
+	?a were more likely to report ?b
+		?a: Females
+		?b: more inconsistent condom use over time
+
+
+label:    sent_19
+sentence: To report through this observation an omphalomesenteric duct causing small bowel obstruction in children .
+
+ppatt:
+	report through ?a ?b
+		?a: this observation
+		?b: an omphalomesenteric duct causing small bowel obstruction in children
+	?a causing ?b
+		?a: an omphalomesenteric duct
+		?b: small bowel obstruction in children
+
+
+label:    sent_20
+sentence: Promote translational medical research and report high quality medical studies .
+
+ppatt:
+	Promote ?a
+		?a: translational medical research
+	report ?a
+		?a: high quality medical studies
+
+
+label:    sent_21
+sentence: We therefore undertook a review and report findings . Latinos smoke somewhat less than non-Latino whites and report lower levels of dependence .
+
+ppatt:
+	?a therefore undertook ?b
+		?a: We
+		?b: a review
+	?a report ?b
+		?a: We
+		?b: findings . Latinos smoke somewhat less than non-Latino whites
+	?a report ?b
+		?a: We
+		?b: lower levels of dependence
+
+
+label:    sent_22
+sentence: Monthly report on dracunculiasis cases , January-December 2010 .
+
+ppatt:
+	?a is/are January-December 2010
+		?a: dracunculiasis cases
+
+
+label:    sent_23
+sentence: To report on the audiometric findings in the first otosclerosis family linked to OTSC10 .
+
+ppatt:
+	report on ?a
+		?a: the audiometric findings in the first otosclerosis family linked to OTSC10
+	?a linked to ?b
+		?a: the first otosclerosis family
+		?b: OTSC10
+
+
+label:    sent_24
+sentence: Monthly report on dracunculiasis cases , January 2011 .
+
+ppatt:
+	?a is/are January 2011
+		?a: dracunculiasis cases
+
+
+label:    sent_25
+sentence: We report this case in detail and briefly review the literature regarding adrenal pseudocysts .
+
+ppatt:
+	?a report ?b in ?c
+		?a: We
+		?b: this case
+		?c: detail
+	?a briefly review ?b
+		?a: We
+		?b: the literature regarding adrenal pseudocysts
+
+
+label:    sent_26
+sentence: Men also report these concerns but to a lesser extent .
+
+ppatt:
+	?a also report ?b
+		?a: Men
+		?b: these concerns
+
+
+label:    sent_27
+sentence: In this paper , we report the purification of SCPA and propose its sequence .
+
+ppatt:
+	In ?a , ?b report ?c
+		?a: this paper
+		?b: we
+		?c: the purification of SCPA
+	?a propose ?b
+		?a: we
+		?b: its sequence
+
+

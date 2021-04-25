@@ -1,0 +1,284 @@
+label:    sent_1
+sentence: Dehydroepiandrosterone is known to depress fatty acid formation in differentiating 3T3-L1 adipocytes .
+
+ppatt:
+	?a is known to depress ?b in ?c
+		?a: Dehydroepiandrosterone
+		?b: fatty acid formation
+		?c: differentiating 3T3-L1 adipocytes
+
+
+label:    sent_2
+sentence: Beta-agonists can depress oxidative metabolism of alveolar macrophages .
+
+ppatt:
+	?a can depress ?b
+		?a: Beta-agonists
+		?b: oxidative metabolism of alveolar macrophages
+
+
+label:    sent_3
+sentence: Higher doses are needed to depress OKT8+ ( suppressor-cytotoxic ) cell numbers .
+
+ppatt:
+	?a are needed to depress ?b
+		?a: Higher doses
+		?b: OKT8+ cell numbers
+
+
+label:    sent_4
+sentence: Cannabinoids acutely administered depress central , cardiovascular and gastrointestinal functions .
+
+ppatt:
+	?a acutely administered
+		?a: Cannabinoids
+	?a depress ?b
+		?a: Cannabinoids acutely administered
+		?b: central , cardiovascular and gastrointestinal functions
+
+
+label:    sent_5
+sentence: Beyond these concepts , the intracellular mechanisms that depress specific force remain undefined .
+
+ppatt:
+	?a depress ?b
+		?a: the intracellular mechanisms
+		?b: specific force
+	Beyond ?a , ?b remain undefined
+		?a: these concepts
+		?b: the intracellular mechanisms that depress specific force
+
+
+label:    sent_6
+sentence: Ethylbenzene can depress the neurobehavioral functions of exposed workers .
+
+ppatt:
+	?a can depress ?b
+		?a: Ethylbenzene
+		?b: the neurobehavioral functions of exposed workers
+
+
+label:    sent_7
+sentence: In visible-size tumors , oxygen did not depress DNA synthesis .
+
+ppatt:
+	In ?a , ?b did not depress ?c
+		?a: visible-size tumors
+		?b: oxygen
+		?c: DNA synthesis
+
+
+label:    sent_8
+sentence: However , H-7 did depress superoxide production during the first 5 minutes following stimulation .
+
+ppatt:
+	However , ?a did depress ?b during ?c following ?d
+		?a: H-7
+		?b: superoxide production
+		?c: the first 5 minutes
+		?d: stimulation
+
+
+label:    sent_9
+sentence: Barbiturates depress vagal motor pathway to ferret trachea at ganglia .
+
+ppatt:
+	?a depress ?b at ?c
+		?a: Barbiturates
+		?b: vagal motor pathway to ferret trachea
+		?c: ganglia
+
+
+label:    sent_10
+sentence: Fatty acids depress ammonia production and blunt the tissue response to acidification .
+
+ppatt:
+	?a depress ?b
+		?a: Fatty acids
+		?b: ammonia production
+	?a blunt ?b
+		?a: Fatty acids
+		?b: the tissue response to acidification
+
+
+label:    sent_11
+sentence: Heat exposure did not depress appetite but caused variable reductions in placental weight .
+
+ppatt:
+	?a did not depress ?b
+		?a: Heat exposure
+		?b: appetite
+	?a caused ?b
+		?a: Heat exposure
+		?b: variable reductions in placental weight
+
+
+label:    sent_12
+sentence: Hypoxia at high altitude could depress cardiac function and decrease exercise capacity .
+
+ppatt:
+	?a could depress ?b
+		?a: Hypoxia at high altitude
+		?b: cardiac function
+	?a decrease ?b
+		?a: Hypoxia at high altitude
+		?b: exercise capacity
+
+
+label:    sent_13
+sentence: In combination with PCH or OCH , 7-k did not further depress enzyme activity .
+
+ppatt:
+	In ?a , ?b did not further depress ?c
+		?a: combination with PCH or OCH
+		?b: 7-k
+		?c: enzyme activity
+
+
+label:    sent_14
+sentence: These results suggest that SC-36602 would preferentially depress conduction in depolarized tissue in vivo .
+
+ppatt:
+	?a suggest ?b
+		?a: These results
+		?b: SOMETHING := SC-36602 would preferentially depress conduction in depolarized tissue in vivo
+	?a would preferentially depress ?b in vivo
+		?a: SC-36602
+		?b: conduction in depolarized tissue
+
+
+label:    sent_15
+sentence: Ethanol was found to depress the hydrolysis of all peptides in a dose-dependent manner .
+
+ppatt:
+	?a was found to depress ?b in ?c
+		?a: Ethanol
+		?b: the hydrolysis of all peptides
+		?c: a dose-dependent manner
+
+
+label:    sent_16
+sentence: Do phenytoin and carbamazepine depress excitation and/or facilitate inhibition ? PQ could boost ROS generation and depress neutrophil apoptosis significantly .
+
+ppatt:
+	Do ?a depress ?b
+		?a: phenytoin
+		?b: excitation
+	Do ?a depress ?b
+		?a: carbamazepine
+		?b: excitation
+	?a facilitate ?b
+		?a: phenytoin
+		?b: inhibition
+	?a facilitate ?b
+		?a: carbamazepine
+		?b: inhibition
+	?a could boost ?b
+		?a: PQ
+		?b: ROS generation
+	?a depress ?b significantly
+		?a: PQ
+		?b: neutrophil apoptosis
+
+
+label:    sent_17
+sentence: Antiarrhythmic drugs prolong the effective refractory period and depress conduction .
+
+ppatt:
+	?a prolong ?b
+		?a: Antiarrhythmic drugs
+		?b: the effective refractory period
+	?a depress ?b
+		?a: Antiarrhythmic drugs
+		?b: conduction
+
+
+label:    sent_18
+sentence: In addition , it does not depress respiration or affect airway tone .
+
+ppatt:
+	In ?a , ?b does not depress ?c
+		?a: addition
+		?b: it
+		?c: respiration
+	?a affect ?b
+		?a: it
+		?b: airway tone
+
+
+label:    sent_19
+sentence: Supplementation decreases parathyroid function and may depress bone turnover to some degree .
+
+ppatt:
+	?a decreases ?b
+		?a: Supplementation
+		?b: parathyroid function
+	?a may depress ?b to ?c
+		?a: Supplementation
+		?b: bone turnover
+		?c: some degree
+
+
+label:    sent_20
+sentence: Third , both hind legs depress and extend completely in less than 1 ms . Morphine and morphine-like drugs depress or abolish the emetic effect of nicotine .
+
+ppatt:
+	Third , ?a depress in ?b
+		?a: both hind legs
+		?b: less than 1 ms
+	?a extend completely
+		?a: both hind legs
+	?a depress
+		?a: Morphine
+	?a depress
+		?a: morphine-like drugs
+	?a abolish ?b
+		?a: Morphine
+		?b: the emetic effect of nicotine
+	?a abolish ?b
+		?a: morphine-like drugs
+		?b: the emetic effect of nicotine
+
+
+label:    sent_21
+sentence: Metabotropic glutamate autoreceptors on nerve terminals of crayfish muscle depress or facilitate release .
+
+ppatt:
+	?a depress ?b
+		?a: Metabotropic glutamate autoreceptors on nerve terminals of crayfish muscle
+		?b: release
+	?a facilitate
+		?a: Metabotropic glutamate autoreceptors on nerve terminals of crayfish muscle
+
+
+label:    sent_22
+sentence: Anaesthetics depress the baroresponse of adults .
+
+ppatt:
+	?a depress ?b
+		?a: Anaesthetics
+		?b: the baroresponse of adults
+
+
+label:    sent_23
+sentence: High concentrations of sevoflurane depress TIWR more than propofol .
+
+ppatt:
+	?a depress ?b ?c
+		?a: High concentrations of sevoflurane
+		?b: TIWR
+		?c: more than propofol
+
+
+label:    sent_24
+sentence: This may depress some pro-inflammatory factors that occur during prolonged , exhaustive exercise .
+
+ppatt:
+	?a may depress ?b
+		?a: This
+		?b: some pro-inflammatory factors that occur during prolonged , exercise
+	?a occur during ?b
+		?a: some pro-inflammatory factors
+		?b: prolonged , exercise
+
+

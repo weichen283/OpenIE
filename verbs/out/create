@@ -1,0 +1,294 @@
+label:    sent_1
+sentence: Their aim is to create virtual environments where surgeons are free to practice .
+
+ppatt:
+	?a is to create ?b
+		?a: Their aim
+		?b: virtual environments where surgeons are free to practice
+	?a where ?b are free to ?c
+		?a: virtual environments
+		?b: surgeons
+		?c: practice
+
+
+label:    sent_2
+sentence: The 2004 Amsterdam Forum was established to create consensus guidelines for donor evaluation .
+
+ppatt:
+	?a was established to create ?b
+		?a: The 2004 Amsterdam Forum
+		?b: consensus guidelines for donor evaluation
+
+
+label:    sent_3
+sentence: We propose that border ownership selectivity reflects mechanisms that create object continuity . Can corruption of chromosome cohesion create a conduit to cancer ? The physiological delicacy and small size of newborns create distinct challenges .
+
+ppatt:
+	?a propose ?b ?c
+		?a: We
+		?b: SOMETHING := border ownership selectivity reflects mechanisms that create object continuity
+		?c: SOMETHING := Can corruption of chromosome cohesion create a conduit to cancer
+	?a reflects ?b
+		?a: border ownership selectivity
+		?b: mechanisms that create object continuity
+	?a create ?b
+		?a: mechanisms
+		?b: object continuity
+	Can ?a create ?b
+		?a: corruption of chromosome cohesion
+		?b: a conduit to cancer
+	?a create ?b
+		?a: The physiological delicacy of newborns
+		?b: distinct challenges
+	?a create ?b
+		?a: small size
+		?b: distinct challenges
+
+
+label:    sent_4
+sentence: Enabling surgeons to create simulation-based teaching modules .
+
+ppatt:
+	Enabling ?a
+		?a: surgeons
+	create ?a
+		?a: simulation-based teaching modules
+
+
+label:    sent_5
+sentence: How to create a new emergency department in 21 days or less . Polyrhythms create tension between a counter meter and the main meter .
+
+ppatt:
+	How to create ?a in ?b ?c
+		?a: a new emergency department
+		?b: 21 days
+		?c: Polyrhythms
+	How to create ?a in ?b ?c
+		?a: a new emergency department
+		?b: less
+		?c: Polyrhythms
+	?a create ?b
+		?a: Polyrhythms
+		?b: tension between a counter meter and the main meter
+
+
+label:    sent_6
+sentence: Our objective was to create a test sensitive and specific to this cognitive dysfunction .
+
+ppatt:
+	?a was to create ?b
+		?a: Our objective
+		?b: a test sensitive and specific to this cognitive dysfunction
+
+
+label:    sent_7
+sentence: TGHQ retains the ability to redox cycle and create an oxidative stress .
+
+ppatt:
+	?a retains ?b
+		?a: TGHQ
+		?b: the ability to redox cycle
+	?a create ?b
+		?a: TGHQ
+		?b: an oxidative stress
+
+
+label:    sent_8
+sentence: An L-shaped retractor was used to create a working space and insert an endoscope .
+
+ppatt:
+	?a was used to create ?b
+		?a: An L-shaped retractor
+		?b: a working space
+	?a was used to insert ?b
+		?a: An L-shaped retractor
+		?b: an endoscope
+
+
+label:    sent_9
+sentence: Rapid HIV testing at home : does it solve a problem or create one ? Therapeutic ultrasound to noninvasively create intracardiac communications in an intact animal model .
+
+ppatt:
+	?a does ?b solve ?c
+		?a: Rapid HIV testing at home
+		?b: it
+		?c: a problem
+	?a create ?b to noninvasively create ?c in ?d
+		?a: Rapid HIV testing at home
+		?b: one ? ultrasound
+		?c: intracardiac communications
+		?d: an intact animal model
+
+
+label:    sent_10
+sentence: In yeast , DNA damage can create heterogeneous responses . Many drugs create adverse effect because of insufficient solubility at the physiological pH .
+
+ppatt:
+	In ?a , ?b can create ?c
+		?a: yeast
+		?b: DNA damage
+		?c: heterogeneous responses
+	?a create ?b because of ?c
+		?a: Many drugs
+		?b: adverse effect
+		?c: insufficient solubility at the physiological pH
+
+
+label:    sent_11
+sentence: The plaques did not create discomfort , change shape , or develop into malignancy .
+
+ppatt:
+	?a did not create ?b
+		?a: The plaques
+		?b: discomfort
+	?a change ?b
+		?a: The plaques
+		?b: shape
+	?a develop into ?b
+		?a: The plaques
+		?b: malignancy
+
+
+label:    sent_12
+sentence: It can create dose-response curves and calculate IC50 values .
+
+ppatt:
+	?a can create ?b
+		?a: It
+		?b: dose-response curves
+	?a calculate ?b
+		?a: It
+		?b: IC50 values
+
+
+label:    sent_13
+sentence: These fractures create a tibio-fibular diastasis and disrupt the articular surface .
+
+ppatt:
+	?a create ?b
+		?a: These fractures
+		?b: a tibio-fibular diastasis
+	?a disrupt ?b
+		?a: These fractures
+		?b: the articular surface
+
+
+label:    sent_14
+sentence: Reliable and reproducible chambers are expensive and may be difficult to create and maintain . MARLIN , software to create , run , and analyse spatially realistic simulations .
+
+ppatt:
+	?a are expensive
+		?a: Reliable and reproducible chambers
+	?a may be difficult to create ?b
+		?a: Reliable and reproducible chambers
+		?b: MARLIN
+	?a may be difficult to create ?b
+		?a: Reliable and reproducible chambers
+		?b: software
+	?a may be difficult to maintain
+		?a: Reliable and reproducible chambers
+	?a may be difficult to to create ?b
+		?a: Reliable and reproducible chambers
+		?b: run
+	?a may be difficult to analyse ?b
+		?a: Reliable and reproducible chambers
+		?b: spatially realistic simulations
+
+
+label:    sent_15
+sentence: Neurocentral synchondrosis screws to create and correct experimental deformity : a pilot study .
+
+ppatt:
+	?a create ?b
+		?a: Neurocentral synchondrosis screws
+		?b: experimental deformity
+
+
+label:    sent_16
+sentence: Merging organic and polymer chemistries to create glycomaterials for glycomics applications .
+
+ppatt:
+	Merging ?a ?b
+		?a: organic
+		?b: chemistries
+	Merging ?a ?b
+		?a: polymer
+		?b: chemistries
+	create ?a
+		?a: glycomaterials for glycomics applications
+
+
+label:    sent_17
+sentence: Suffering and the will to create . Yet the compulsion to create alternated with the compulsion to destroy .
+
+ppatt:
+	Suffering ?a
+		?a: Suffering to create . Yet the compulsion to create alternated with the compulsion to destroy
+	Suffering ?a
+		?a: the
+	?a will
+		?a: Suffering to create . Yet the compulsion to create alternated with the compulsion to destroy
+	?a will
+		?a: the
+	?a create . Yet ?b
+		?a: Suffering to create . Yet the compulsion to create alternated with the compulsion to destroy
+		?b: the compulsion to create alternated with the compulsion to destroy
+	?a create . Yet ?b
+		?a: the
+		?b: the compulsion to create alternated with the compulsion to destroy
+	?a create alternated with ?b to destroy
+		?a: the compulsion
+		?b: the compulsion
+
+
+label:    sent_18
+sentence: Such relationships highlight the possibility that social systemic beliefs may create and support heterosexism .
+
+ppatt:
+	?a highlight ?b
+		?a: Such relationships
+		?b: the possibility that social systemic beliefs may create and support heterosexism
+	?a may create ?b
+		?a: social systemic beliefs
+		?b: heterosexism
+	?a support
+		?a: social systemic beliefs
+
+
+label:    sent_19
+sentence: How do plants create and maintain cell polarity ? The NCS screw epiphysiodesis can create and reverse scoliosis in an immature pig model .
+
+ppatt:
+	How do ?a create ?b
+		?a: plants
+		?b: cell polarity
+	?a maintain
+		?a: plants
+	?a can create ?b in ?c
+		?a: The NCS screw epiphysiodesis
+		?b: reverse scoliosis
+		?c: an immature pig model
+
+
+label:    sent_20
+sentence: In turn , this can create local resistance and modulate T- and B-cell-mediated immunity .
+
+ppatt:
+	In ?a , ?b can create ?c
+		?a: turn
+		?b: this
+		?c: local resistance
+	?a modulate ?b
+		?a: this
+		?b: T- and B-cell-mediated immunity
+
+
+label:    sent_21
+sentence: But they do indeed create value , and in two very different ways .
+
+ppatt:
+	?a do indeed create ?b
+		?a: they
+		?b: value
+
+

@@ -1,0 +1,282 @@
+label:    sent_1
+sentence: TPA potentiated the ability of TSH to desensitize the adenylate cyclase system .
+
+ppatt:
+	?a potentiated ?b
+		?a: TPA
+		?b: the ability of TSH to desensitize the adenylate cyclase system
+	?a desensitize ?b
+		?a: the ability of TSH
+		?b: the adenylate cyclase system
+
+
+label:    sent_2
+sentence: The short-term goal was to desensitize subjects to protect against accidental ingestion reactions . PPARgamma1 attenuates cytosol to membrane translocation of PKCalpha to desensitize monocytes/macrophages .
+
+ppatt:
+	?a was to desensitize ?b to protect against ?c
+		?a: The short-term goal
+		?b: subjects
+		?c: accidental ingestion reactions
+	?a attenuates ?b to ?c to desensitize ?d
+		?a: PPARgamma1
+		?b: cytosol
+		?c: membrane translocation of PKCalpha
+		?d: monocytes/macrophages
+
+
+label:    sent_3
+sentence: Does medical school training desensitize young doctors ? Does plasmapheresis desensitize kidney transplant recipients more effectively than high-dose immunoglobulin ?
+
+ppatt:
+	Does ?a desensitize ?b
+		?a: medical school training
+		?b: young doctors
+	Does ?a desensitize ?b more effectively than ?c
+		?a: plasmapheresis
+		?b: kidney transplant recipients
+		?c: high-dose immunoglobulin
+
+
+label:    sent_4
+sentence: Does short-term fasting desensitize human somatotrophs to oral L-dopa stimulation ? GTPase and adenylate cyclase desensitize at different rates in NG108-15 cells .
+
+ppatt:
+	Does ?a desensitize ?b to ?c
+		?a: short-term fasting
+		?b: human somatotrophs
+		?c: oral L-dopa stimulation
+	?a desensitize at ?b
+		?a: GTPase
+		?b: different rates in NG108-15 cells
+	?a desensitize at ?b
+		?a: adenylate cyclase
+		?b: different rates in NG108-15 cells
+
+
+label:    sent_5
+sentence: Thus , rat AChRs desensitize more slowly than human AChRs . PKC-depleted cells rapidly desensitize after Ang II application .
+
+ppatt:
+	Thus , ?a desensitize more slowly than ?b
+		?a: rat AChRs
+		?b: human AChRs
+	?a rapidly desensitize after ?b
+		?a: PKC-depleted cells
+		?b: Ang II application
+
+
+label:    sent_6
+sentence: In contrast , growth-related oncogene alpha did not desensitize the latter receptors .
+
+ppatt:
+	In ?a , ?b did not desensitize ?c
+		?a: contrast
+		?b: growth-related oncogene alpha
+		?c: the latter receptors
+
+
+label:    sent_7
+sentence: Agonists and phorbol esters desensitize beta-adrenergic receptors by different mechanisms .
+
+ppatt:
+	?a desensitize ?b by ?c
+		?a: Agonists
+		?b: beta-adrenergic receptors
+		?c: different mechanisms
+	?a desensitize ?b by ?c
+		?a: phorbol esters
+		?b: beta-adrenergic receptors
+		?c: different mechanisms
+
+
+label:    sent_8
+sentence: Cannabinoids desensitize capsaicin and mustard oil responses in sensory neurons via TRPA1 activation .
+
+ppatt:
+	?a desensitize ?b in ?c via ?d
+		?a: Cannabinoids
+		?b: capsaicin
+		?c: sensory neurons
+		?d: TRPA1 activation
+	?a desensitize ?b in ?c via ?d
+		?a: Cannabinoids
+		?b: mustard oil responses
+		?c: sensory neurons
+		?d: TRPA1 activation
+
+
+label:    sent_9
+sentence: Enzymatically active CYP24 is expected to desensitize NSCLC cells to 1,25D3 .
+
+ppatt:
+	?a is expected to desensitize ?b to ?c
+		?a: Enzymatically active CYP24
+		?b: NSCLC cells
+		?c: 1,25D3
+
+
+label:    sent_10
+sentence: Stimulating the visual system tends to desensitize it to certain stimulus properties .
+
+ppatt:
+	Stimulating ?a
+		?a: the visual system
+	?a tends to desensitize ?b to ?c
+		?a: SOMETHING := Stimulating the visual system
+		?b: it
+		?c: certain stimulus properties
+
+
+label:    sent_11
+sentence: Will we be able to desensitize food allergies by either injection or oral immunotherapy ? Imetit-induced currents were slow to desensitize and at a high concentration reduced in size .
+
+ppatt:
+	Will ?a be able to desensitize ?b by ?c
+		?a: we
+		?b: food allergies
+		?c: injection
+	Will ?a be able to desensitize ?b by ?c
+		?a: we
+		?b: food allergies
+		?c: oral immunotherapy
+	?a were slow to desensitize
+		?a: Imetit-induced currents
+	?a reduced in ?b
+		?a: a high concentration
+		?b: size
+
+
+label:    sent_12
+sentence: Chromaffin cell nAChRs rapidly activate and desensitize with full recovery on washout .
+
+ppatt:
+	?a rapidly activate with ?b
+		?a: Chromaffin cell nAChRs
+		?b: full recovery on washout
+	?a desensitize
+		?a: Chromaffin cell nAChRs
+
+
+label:    sent_13
+sentence: We sought to desensitize by lowering the DSA titer specifically to 1:4 pretransplant .
+
+ppatt:
+	?a sought to desensitize
+		?a: We
+	?a lowering ?b specifically to ?c
+		?a: We
+		?b: the DSA titer
+		?c: 1:4 pretransplant
+
+
+label:    sent_14
+sentence: Amphetamine may desensitize these voltage-dependent Ca++ channels and inhibit their activation by K+ depolarization .
+
+ppatt:
+	?a may desensitize ?b
+		?a: Amphetamine
+		?b: these voltage-dependent Ca++ channels
+	?a inhibit ?b
+		?a: Amphetamine
+		?b: their activation by K+ depolarization
+
+
+label:    sent_15
+sentence: However , hCG could desensitize isolated membranes , but TPA could not . Sublytic doses of complement desensitize cells and make them resistant to lytic complement doses .
+
+ppatt:
+	However , ?a could desensitize ?b
+		?a: hCG
+		?b: isolated membranes
+	?a could not . ?b desensitize ?c
+		?a: TPA
+		?b: Sublytic doses of complement
+		?c: cells
+	make ?a resistant to ?b
+		?a: them
+		?b: lytic complement doses
+
+
+label:    sent_16
+sentence: Therapies for depression may therefore profitably assess and desensitize the fear of positive emotions .
+
+ppatt:
+	?a may therefore profitably assess ?b
+		?a: Therapies for depression
+		?b: the fear of positive emotions
+	?a desensitize
+		?a: Therapies for depression
+
+
+label:    sent_17
+sentence: This apo-opsin activates the signaling cascade to desensitize cones and speed the photoresponse .
+
+ppatt:
+	?a activates ?b to desensitize ?c
+		?a: This apo-opsin
+		?b: the signaling cascade
+		?c: cones
+	?a activates to speed ?b
+		?a: This apo-opsin
+		?b: the photoresponse
+
+
+label:    sent_18
+sentence: The response mediated by AMPA receptors desensitize rapidly . Human acetylcholine receptors desensitize much faster than rat acetylcholine receptors .
+
+ppatt:
+	?a mediated by ?b
+		?a: The response
+		?b: AMPA receptors
+	?a desensitize rapidly
+		?a: The response mediated by AMPA receptors
+	?a desensitize ?b than ?c
+		?a: Human acetylcholine receptors
+		?b: much faster
+		?c: rat acetylcholine receptors
+
+
+label:    sent_19
+sentence: Kainate responses did not desensitize appreciably .
+
+ppatt:
+	?a did not desensitize appreciably
+		?a: Kainate responses
+
+
+label:    sent_20
+sentence: This effect does not readily desensitize , and persists regardless of chronic cocaine treatment .
+
+ppatt:
+	?a does not readily desensitize
+		?a: This effect
+	?a persists regardless of ?b
+		?a: This effect
+		?b: chronic cocaine treatment
+
+
+label:    sent_21
+sentence: Responses to capsaicin did not desensitize nor were they concentration dependent .
+
+ppatt:
+	?a did not desensitize
+		?a: Responses to capsaicin
+
+
+label:    sent_22
+sentence: Gangliosides and chondroitin sulfate desensitize and internalize B2 bradykinin receptors .
+
+ppatt:
+	?a desensitize ?b
+		?a: Gangliosides
+		?b: B2 bradykinin receptors
+	?a desensitize ?b
+		?a: chondroitin sulfate
+		?b: B2 bradykinin receptors
+	?a internalize
+		?a: Gangliosides
+	?a internalize
+		?a: chondroitin sulfate
+
+

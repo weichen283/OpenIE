@@ -1,0 +1,145 @@
+label:    sent_1
+sentence: Low-pressure pulsed lavage irrigation was performed to irrigate the osteotomy sites . Should you irrigate an occluded i.v. line ? The leachate of the soil treatment system was used to irrigate Bermuda grass .
+
+ppatt:
+	?a was performed to irrigate ?b
+		?a: Low-pressure pulsed lavage irrigation
+		?b: the osteotomy sites
+	?a Should you irrigate ?b
+		?a: Low-pressure pulsed lavage irrigation
+		?b: an occluded i.v. line
+	?a was used to irrigate ?b
+		?a: The leachate of the soil treatment system
+		?b: Bermuda grass
+
+
+label:    sent_2
+sentence: The participants were instructed to irrigate the test sites twice a day . Patients were either observed or underwent surgery to irrigate the viscoelastic from the interface .
+
+ppatt:
+	?a were instructed to irrigate ?b twice ?c
+		?a: The participants
+		?b: the test sites
+		?c: a day
+	?a were either observed
+		?a: Patients
+	?a underwent ?b to irrigate ?c
+		?a: Patients
+		?b: surgery
+		?c: the viscoelastic from the interface
+
+
+label:    sent_3
+sentence: They irrigate an extensive part of the anterior wall of the bowel .
+
+ppatt:
+	?a irrigate ?b
+		?a: They
+		?b: an extensive part of the anterior wall of the bowel
+
+
+label:    sent_4
+sentence: Most patients who irrigate their colostomies achieve continence .
+
+ppatt:
+	?a irrigate ?b
+		?a: Most patients
+		?b: their colostomies
+	?a achieve ?b
+		?a: Most patients who irrigate their colostomies
+		?b: continence
+
+
+label:    sent_5
+sentence: Teaching your patient to irrigate a colostomy .
+
+ppatt:
+	Teaching ?a
+		?a: your patient
+	irrigate ?a
+		?a: a colostomy
+
+
+label:    sent_6
+sentence: They were instructed to irrigate subgingivally once daily for 28 days .
+
+ppatt:
+	?a were instructed to irrigate subgingivally once daily for ?b
+		?a: They
+		?b: 28 days
+
+
+label:    sent_7
+sentence: Physiologic solutions should be used to irrigate during PCNL .
+
+ppatt:
+	?a should be used to irrigate during ?b
+		?a: Physiologic solutions
+		?b: PCNL
+
+
+label:    sent_8
+sentence: Saline is found to irrigate as well as ablate .
+
+ppatt:
+	?a is found to irrigate
+		?a: Saline
+	?a is found to ablate
+		?a: Saline
+
+
+label:    sent_9
+sentence: To irrigate or not to irrigate the abdominal cavity .
+
+ppatt:
+	not to irrigate ?a
+		?a: the abdominal cavity
+
+
+label:    sent_10
+sentence: The tumor was imaged to make sure the diagnosis and irrigate the chemotherapeutic drugs . Marsupialization requires a cooperative patient who will irrigate the cavity and keep it open .
+
+ppatt:
+	?a was imaged to make sure ?b
+		?a: The tumor
+		?b: the diagnosis
+	?a was imaged to irrigate ?b
+		?a: The tumor
+		?b: the chemotherapeutic drugs
+	?a requires ?b
+		?a: Marsupialization
+		?b: a cooperative patient who will irrigate the cavity and keep it open
+	?a will irrigate ?b
+		?a: a cooperative patient
+		?b: the cavity
+	?a keep ?b
+		?a: who
+		?b: it open
+
+
+label:    sent_11
+sentence: To irrigate or not in generalized peritonitis .
+
+ppatt:
+	irrigate in ?a
+		?a: not generalized peritonitis
+
+
+label:    sent_12
+sentence: The purpose of endoscopic debridement is to irrigate and/or remove areas of necrosis .
+
+ppatt:
+	?a is to irrigate ?b
+		?a: The purpose of endoscopic debridement
+		?b: areas of necrosis
+	?a is to remove
+		?a: The purpose of endoscopic debridement
+
+
+label:    sent_13
+sentence: To irrigate or not to irrigate : Immediate postextraction socket irrigation and alveolar osteitis .
+
+ppatt:
+
+
+

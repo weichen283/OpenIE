@@ -1,0 +1,273 @@
+label:    sent_1
+sentence: The results indicate that vigorous late-night exercise does not disturb sleep quality . PAK1IP1 was induced when cells were treated with chemicals that disturb ribosome biogenesis .
+
+ppatt:
+	?a indicate ?b ?c
+		?a: The results
+		?b: SOMETHING := vigorous late-night exercise does not disturb sleep quality
+		?c: SOMETHING := PAK1IP1 was induced when cells were treated with chemicals that disturb ribosome biogenesis
+	?a does not disturb ?b
+		?a: vigorous late-night exercise
+		?b: sleep quality
+	?a was induced
+		?a: PAK1IP1
+	when ?a were treated with ?b
+		?a: cells
+		?b: chemicals that disturb ribosome biogenesis
+	?a disturb ?b
+		?a: chemicals
+		?b: ribosome biogenesis
+
+
+label:    sent_2
+sentence: Antibody against the angiotensin AT1 receptor ( AT1-Ab ) could disturb placental development .
+
+ppatt:
+	?a is/are AT1-Ab
+		?a: the angiotensin AT1 receptor
+	?a could disturb ?b
+		?a: Antibody against the angiotensin AT1 receptor
+		?b: placental development
+
+
+label:    sent_3
+sentence: The baseline drift could lead to recording distortion and to disturb the diagnosis .
+
+ppatt:
+	?a could lead to ?b
+		?a: The baseline drift
+		?b: recording distortion
+	?a disturb ?b
+		?a: The baseline drift
+		?b: the diagnosis
+
+
+label:    sent_4
+sentence: During aging , the products of oxidative processes accumulate and might disturb cellular metabolism .
+
+ppatt:
+	During ?a , ?b accumulate
+		?a: aging
+		?b: the products of oxidative processes
+	?a might disturb ?b
+		?a: the products of oxidative processes
+		?b: cellular metabolism
+
+
+label:    sent_5
+sentence: Constitutive activation of NF-kappa B is not sufficient to disturb normal steady-state hematopoiesis .
+
+ppatt:
+	?a is not sufficient to disturb ?b
+		?a: Constitutive activation of NF-kappa B
+		?b: normal steady-state hematopoiesis
+
+
+label:    sent_6
+sentence: Repeated deliveries might disturb the levator function and increase defecation disorders .
+
+ppatt:
+	?a might disturb ?b
+		?a: Repeated deliveries
+		?b: the levator function
+	?a increase ?b
+		?a: Repeated deliveries
+		?b: defecation disorders
+
+
+label:    sent_7
+sentence: Hypo- or hyperthyroidism may disturb the function of the cardiovascular system and cause arrhythmias . Josamycin did not disturb gastrointestinal motility and no dog showed signs of discomfort .
+
+ppatt:
+	?a may disturb ?b
+		?a: Hypo-
+		?b: the function of the cardiovascular system
+	?a may disturb ?b
+		?a: hyperthyroidism
+		?b: the function of the cardiovascular system
+	?a cause ?b
+		?a: Hypo-
+		?b: arrhythmias
+	?a cause ?b
+		?a: hyperthyroidism
+		?b: arrhythmias
+	?a did not disturb ?b
+		?a: Josamycin
+		?b: gastrointestinal motility
+	?a showed ?b
+		?a: no dog
+		?b: signs of discomfort
+
+
+label:    sent_8
+sentence: During overflow events , the entering water volumes can disturb the sediments .
+
+ppatt:
+	During ?a , ?b can disturb ?c
+		?a: overflow events
+		?b: the entering water volumes
+		?c: the sediments
+
+
+label:    sent_9
+sentence: Decapitation does not disturb normal development of the Leydig cells in the observation period .
+
+ppatt:
+	?a does not disturb ?b in ?c
+		?a: Decapitation
+		?b: normal development of the Leydig cells
+		?c: the observation period
+
+
+label:    sent_10
+sentence: In addition , many drugs disturb the receptor interaction .
+
+ppatt:
+	In ?a , ?b disturb ?c
+		?a: addition
+		?b: many drugs
+		?c: the receptor interaction
+
+
+label:    sent_11
+sentence: Oversecretion affected all phospholipid classes and did not significantly disturb the cellular phospholipid homeostasis .
+
+ppatt:
+	?a affected ?b
+		?a: Oversecretion
+		?b: all phospholipid classes
+	?a did not significantly disturb ?b
+		?a: Oversecretion
+		?b: the cellular phospholipid homeostasis
+
+
+label:    sent_12
+sentence: Blocking R phosphorylation blocks initial velocity suppression but does not disturb rapid turnoff .
+
+ppatt:
+	Blocking ?a
+		?a: R phosphorylation
+	?a blocks ?b
+		?a: SOMETHING := Blocking R phosphorylation
+		?b: initial velocity suppression
+	?a does not disturb ?b
+		?a: Blocking R phosphorylation
+		?b: rapid turnoff
+
+
+label:    sent_13
+sentence: Discrete plasmacytomas are unusual and seldom disturb hepatobiliary function .
+
+ppatt:
+	?a are unusual
+		?a: Discrete plasmacytomas
+	?a seldom disturb ?b
+		?a: Discrete plasmacytomas
+		?b: hepatobiliary function
+
+
+label:    sent_14
+sentence: In contrast , bag1L does not disturb neurite outgrowth .
+
+ppatt:
+	In ?a , ?b does not disturb ?c
+		?a: contrast
+		?b: bag1L
+		?c: neurite outgrowth
+
+
+label:    sent_15
+sentence: We conclude that theophylline seems to disturb sleep mainly in caffeine-sensitive persons . EGCG is known to disturb lipid rafts by sequestering cholesterol .
+
+ppatt:
+	?a conclude ?b ?c
+		?a: We
+		?b: SOMETHING := theophylline seems to disturb sleep mainly in caffeine-sensitive persons
+		?c: SOMETHING := EGCG is known to disturb lipid rafts by sequestering cholesterol
+	?a seems to disturb ?b mainly in ?c
+		?a: theophylline
+		?b: sleep
+		?c: caffeine-sensitive persons
+	?a is known to disturb ?b
+		?a: EGCG
+		?b: lipid rafts
+	?a sequestering ?b
+		?a: EGCG
+		?b: cholesterol
+
+
+label:    sent_16
+sentence: These effects were all mild and did not disturb ADL in any patient .
+
+ppatt:
+	?a were all mild
+		?a: These effects
+	?a did not disturb ?b in ?c
+		?a: These effects
+		?b: ADL
+		?c: any patient
+
+
+label:    sent_17
+sentence: Nasal obstruction is common and may disturb well-being during daytime and sleep . [ Patients who disturb ... ] . However , the insulin circadian rythm was disturb . Prolonged exposure to low concentrations of xenobiotics can disturb hepatic functioning .
+
+ppatt:
+	?a is common
+		?a: Nasal obstruction
+	?a may disturb ?b during ?c
+		?a: Nasal obstruction
+		?b: well-being
+		?c: daytime
+	?a may disturb ?b during ?c
+		?a: Nasal obstruction
+		?b: well-being
+		?c: sleep
+	?a disturb ... ?b
+		?a: Patients
+		?b: ]
+	However , ?a was disturb
+		?a: the insulin circadian rythm
+	?a can disturb ?b
+		?a: Prolonged exposure to low concentrations of xenobiotics
+		?b: hepatic functioning
+
+
+label:    sent_18
+sentence: In this article , we review the evidence by which aPL may disturb fibrinolysis .
+
+ppatt:
+	In ?a , ?b review ?c
+		?a: this article
+		?b: we
+		?c: the evidence by which aPL may disturb fibrinolysis
+	?a by ?b may disturb ?c
+		?a: the evidence
+		?b: aPL
+		?c: fibrinolysis
+
+
+label:    sent_19
+sentence: However , the mechanism by which IUDs disturb fertility remains controversial .
+
+ppatt:
+	?a by ?b disturb ?c
+		?a: the mechanism
+		?b: IUDs
+		?c: fertility
+	However , ?a remains controversial
+		?a: the mechanism by which IUDs disturb fertility
+
+
+label:    sent_20
+sentence: We determine the thresholds above which the x-ray pulses disturb the atomic arrangements .
+
+ppatt:
+	?a determine ?b
+		?a: We
+		?b: the thresholds above which the x-ray pulses disturb the atomic arrangements
+	?a above ?b disturb ?c
+		?a: the thresholds
+		?b: the x-ray pulses
+		?c: the atomic arrangements
+
+

@@ -1,0 +1,66 @@
+label:    sent_1
+sentence: Dimethylation was used as second chemical reaction to derivatize lysine residues .
+
+ppatt:
+	?a was used as ?b to derivatize ?c
+		?a: Dimethylation
+		?b: second chemical reaction
+		?c: lysine residues
+
+
+label:    sent_2
+sentence: Ethyl chloroformate and 2-chloropropanol were used to derivatize amino acid enantiomers .
+
+ppatt:
+	?a were used to derivatize ?b
+		?a: Ethyl chloroformate
+		?b: amino acid enantiomers
+	?a were used to derivatize ?b
+		?a: 2-chloropropanol
+		?b: amino acid enantiomers
+
+
+label:    sent_3
+sentence: Following hexane extraction , ammonia was added to samples to derivatize PEITC to phenethylthiourea .
+
+ppatt:
+	Following ?a , ?b was added to ?c to derivatize ?d to ?e
+		?a: hexane extraction
+		?b: ammonia
+		?c: samples
+		?d: PEITC
+		?e: phenethylthiourea
+
+
+label:    sent_4
+sentence: Furthermore , there is no need to derivatize neutral sterols before injection .
+
+ppatt:
+	Furthermore , there is ?a
+		?a: no need to derivatize neutral sterols before injection
+	?a derivatize ?b before ?c
+		?a: no need
+		?b: neutral sterols
+		?c: injection
+
+
+label:    sent_5
+sentence: Extracts of infected cells are able to derivatize P8 in vitro with labeled dGTP .
+
+ppatt:
+	?a are able to derivatize ?b in vitro with ?c
+		?a: Extracts of infected cells
+		?b: P8
+		?c: labeled dGTP
+
+
+label:    sent_6
+sentence: Both inhibitor scaffolds have available sites to derivatize for further optimization .
+
+ppatt:
+	?a have ?b to derivatize for ?c
+		?a: Both inhibitor scaffolds
+		?b: available sites
+		?c: further optimization
+
+

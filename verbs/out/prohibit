@@ -1,0 +1,168 @@
+label:    sent_1
+sentence: Unfortunately , the underlying costs prohibit use of this system in undergraduate labs . Co-morbid diseases may prohibit the use of some medications .
+
+ppatt:
+	Unfortunately , ?a prohibit ?b
+		?a: the underlying costs
+		?b: use of this system in undergraduate labs
+	?a may prohibit ?b
+		?a: Co-morbid diseases
+		?b: the use of some medications
+
+
+label:    sent_2
+sentence: But high concentration CsA and methylprednisolone prohibit the proliferation of Schwann 's cells .
+
+ppatt:
+	?a prohibit ?b
+		?a: high concentration
+		?b: the proliferation of Schwann 's cells
+
+
+label:    sent_3
+sentence: Harms to vendors : we should discourage , not prohibit organ sales . Nasoenteral tube obstruction may interrupt nutritional support and prohibit drug administration .
+
+ppatt:
+	not prohibit ?a
+		?a: organ sales
+	?a may interrupt ?b
+		?a: Nasoenteral tube obstruction
+		?b: nutritional support
+	?a prohibit ?b
+		?a: Nasoenteral tube obstruction
+		?b: drug administration
+
+
+label:    sent_4
+sentence: There is no reason to advise against or prohibit the use of amalgam fillings . For some students , the cost of such activities can prohibit participation .
+
+ppatt:
+	There is ?a
+		?a: no reason to advise against or prohibit the use of amalgam fillings
+	?a advise ?b ?c
+		?a: no reason
+		?b: against
+		?c: the use of amalgam fillings
+	?a prohibit
+		?a: no reason
+	For ?a , ?b can prohibit ?c
+		?a: some students
+		?b: the cost of such activities
+		?c: participation
+
+
+label:    sent_5
+sentence: The existing regulations do not prohibit wastewater reuse for power plant cooling .
+
+ppatt:
+	?a do not prohibit ?b
+		?a: The existing regulations
+		?b: wastewater reuse for power plant cooling
+
+
+label:    sent_6
+sentence: In addition , the lesions do not prohibit the taxonomic assessment of the mandible . Stark 's pending legislation to prohibit such arrangements under the Medicare program .
+
+ppatt:
+	In ?a , ?b do not prohibit ?c
+		?a: addition
+		?b: the lesions
+		?c: the taxonomic assessment of the mandible
+	?a pending ?b to prohibit ?c under ?d
+		?a: the lesions
+		?b: Stark 's legislation
+		?c: such arrangements
+		?d: the Medicare program
+
+
+label:    sent_7
+sentence: Pediatric bioethicists were the most reluctant to prohibit minors as living donors .
+
+ppatt:
+	?a were the most reluctant to prohibit ?b as ?c
+		?a: Pediatric bioethicists
+		?b: minors
+		?c: living donors
+
+
+label:    sent_8
+sentence: Local authorities have been authorized to prohibit dogs on the beaches .
+
+ppatt:
+	?a have been authorized to prohibit ?b on ?c
+		?a: Local authorities
+		?b: dogs
+		?c: the beaches
+
+
+label:    sent_9
+sentence: Barriers do not prohibit a return to school , but they are problematic .
+
+ppatt:
+	?a do not prohibit ?b
+		?a: Barriers
+		?b: a return to school
+	?a are problematic
+		?a: they
+
+
+label:    sent_10
+sentence: A negative appraisal could result in a decision to discourage or even prohibit implementation .
+
+ppatt:
+	?a could result in ?b
+		?a: A negative appraisal
+		?b: a decision to discourage or even prohibit implementation
+	?a discourage ?b
+		?a: a decision
+		?b: implementation
+	even prohibit ?a
+		?a: implementation
+
+
+label:    sent_11
+sentence: Abstaining from alcohol may prohibit recurrent acute pancreatitis and reduce pain in chronic pancreatitis .
+
+ppatt:
+	?a may prohibit ?b
+		?a: Abstaining from alcohol
+		?b: recurrent acute pancreatitis
+	?a reduce ?b
+		?a: Abstaining from alcohol
+		?b: pain in chronic pancreatitis
+
+
+label:    sent_12
+sentence: Mn ( 3+ ) appears to trap electrons and prohibit the electron-hole recombination .
+
+ppatt:
+	?a is/are 3+
+		?a: Mn
+	?a appears to trap ?b
+		?a: Mn
+		?b: electrons
+	?a appears to prohibit ?b
+		?a: Mn
+		?b: the electron-hole recombination
+
+
+label:    sent_13
+sentence: The general practitioner therefore should not prohibit going for sports . Results of the project prohibit .
+
+ppatt:
+	?a therefore should not prohibit ?b
+		?a: The general practitioner
+		?b: going for sports
+	?a prohibit
+		?a: Results of the project
+
+
+label:    sent_14
+sentence: Furthermore , the small sample sizes prohibit drawing effective conclusions .
+
+ppatt:
+	Furthermore , ?a prohibit drawing ?b
+		?a: the small sample sizes
+		?b: effective conclusions
+
+

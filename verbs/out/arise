@@ -1,0 +1,325 @@
+label:    sent_1
+sentence: Schwannomas arise from Schwann cells of the peripheral nerve sheath .
+
+ppatt:
+	?a arise from ?b
+		?a: Schwannomas
+		?b: Schwann cells of the peripheral nerve sheath
+
+
+label:    sent_2
+sentence: However , new brain metastasis can arise following successful local tumor control from radiosurgery .
+
+ppatt:
+	However , ?a can arise following ?b
+		?a: new brain metastasis
+		?b: successful local tumor control from radiosurgery
+
+
+label:    sent_3
+sentence: Most cases arise in the extremities and head and neck region of young adults .
+
+ppatt:
+	?a arise in ?b
+		?a: Most cases
+		?b: the extremities of young adults
+	?a arise in ?b
+		?a: Most cases
+		?b: head
+	?a arise in ?b
+		?a: Most cases
+		?b: region
+
+
+label:    sent_4
+sentence: These cells are likely to arise during differentiation of Th17 and Treg cells .
+
+ppatt:
+	?a are likely to arise during ?b
+		?a: These cells
+		?b: differentiation of Th17 and Treg
+
+
+label:    sent_5
+sentence: Somatostatinomas are rare functioning carcinoid tumors that usually arise in the pancreas and duodenum .
+
+ppatt:
+	?a are rare functioning carcinoid tumors
+		?a: Somatostatinomas
+	?a usually arise in ?b
+		?a: rare functioning carcinoid tumors
+		?b: the pancreas
+	?a usually arise in ?b
+		?a: rare functioning carcinoid tumors
+		?b: duodenum
+
+
+label:    sent_6
+sentence: New plant pathogens are thought to arise by hybridization between formerly separated fungal species .
+
+ppatt:
+	?a are thought to arise by ?b
+		?a: New plant pathogens
+		?b: hybridization between formerly separated fungal species
+
+
+label:    sent_7
+sentence: Life-threatening pathological conditions arise when ECM remodeling becomes excessive or uncontrolled .
+
+ppatt:
+	?a arise
+		?a: Life-threatening pathological conditions
+	when ?a becomes excessive
+		?a: ECM remodeling
+	when ?a becomes uncontrolled
+		?a: ECM remodeling
+
+
+label:    sent_8
+sentence: Recurrent gastrointestinal pseudo-obstruction can arise secondary to eosinophilic myenteric ganglionitis even in adults .
+
+ppatt:
+	?a can arise secondary to ?b in ?c
+		?a: Recurrent gastrointestinal pseudo-obstruction
+		?b: eosinophilic myenteric ganglionitis
+		?c: even adults
+
+
+label:    sent_9
+sentence: How did this situation arise ? Conglutinate cells arise from hyphal adhesion and certain perithecial hyphae develop from conglutinate cells .
+
+ppatt:
+	How did ?a
+		?a: this situation
+	?a arise
+		?a: this situation
+	?a arise from ?b
+		?a: Conglutinate cells
+		?b: hyphal adhesion
+	?a develop from ?b
+		?a: certain perithecial hyphae
+		?b: conglutinate cells
+
+
+label:    sent_10
+sentence: Hemangiomas mostly arise from the soft tissues , and intraosseous hemangiomas are uncommon .
+
+ppatt:
+	?a mostly arise from ?b
+		?a: Hemangiomas
+		?b: the soft tissues
+	?a are uncommon
+		?a: intraosseous hemangiomas
+
+
+label:    sent_11
+sentence: These oscillations arise from transverse resonances and depend on the geometry of the annulus .
+
+ppatt:
+	?a arise from ?b
+		?a: These oscillations
+		?b: transverse resonances
+	?a depend on ?b
+		?a: These oscillations
+		?b: the geometry of the annulus
+
+
+label:    sent_12
+sentence: It may be community-acquired or arise in children hospitalized for pain or other complications .
+
+ppatt:
+	?a may be community-acquired in ?b
+		?a: It
+		?b: children hospitalized for pain or other complications
+	?a arise
+		?a: It
+	?a hospitalized for ?b
+		?a: children
+		?b: pain
+	?a hospitalized for ?b
+		?a: children
+		?b: other complications
+
+
+label:    sent_13
+sentence: Problems can and do arise when self-employed physicians defer retirement from active practice indefinitely .
+
+ppatt:
+	?a can do arise
+		?a: Problems
+	when ?a defer ?b from ?c indefinitely
+		?a: self-employed physicians
+		?b: retirement
+		?c: active practice
+
+
+label:    sent_14
+sentence: The extraspikes arise in arborizations of neuron and are determined by influx sodium ions .
+
+ppatt:
+	?a arise in ?b
+		?a: The extraspikes
+		?b: arborizations of neuron
+	?a are determined by ?b
+		?a: The extraspikes
+		?b: influx sodium ions
+
+
+label:    sent_15
+sentence: The great majority of PAs arise sporadically and affect adults .
+
+ppatt:
+	?a arise sporadically
+		?a: The great majority of PAs
+	?a affect ?b
+		?a: The great majority of PAs
+		?b: adults
+
+
+label:    sent_16
+sentence: On theoretical grounds this article summarises how and why both types of non-identifiability arise .
+
+ppatt:
+	On ?a ?b summarises ?c
+		?a: theoretical grounds
+		?b: this article
+		?c: SOMETHING := how why both types of non-identifiability arise
+	how why ?a arise
+		?a: both types of non-identifiability
+
+
+label:    sent_17
+sentence: Conflicts will arise , but they can be resolved .
+
+ppatt:
+	?a will arise
+		?a: Conflicts
+	?a can be resolved
+		?a: they
+
+
+label:    sent_18
+sentence: Such strains represent the ' gene pool ' from which infections might arise .
+
+ppatt:
+	?a represent ?b
+		?a: Such strains
+		?b: the ' gene pool ' from which infections might arise
+	?a from ?b might arise
+		?a: the ' gene pool
+		?b: infections
+
+
+label:    sent_19
+sentence: Mechanisms by which this could arise are discussed .
+
+ppatt:
+	?a by ?b could arise
+		?a: Mechanisms
+		?b: this
+	?a are discussed
+		?a: Mechanisms by which this could arise
+
+
+label:    sent_20
+sentence: To create awareness of the benign lesions from which osteosarcoma may arise .
+
+ppatt:
+	create ?a
+		?a: awareness of the benign lesions from which osteosarcoma may arise
+	?a from ?b may arise
+		?a: the benign lesions
+		?b: osteosarcoma
+
+
+label:    sent_21
+sentence: Because of impaired development , microstomia can arise , making dental treatment more difficult .
+
+ppatt:
+	Because of ?a , ?b can arise , making ?c more difficult
+		?a: impaired development
+		?b: microstomia
+		?c: dental treatment
+
+
+label:    sent_22
+sentence: DLBCL may arise de novo or from transformation of ENMZL or other low-grade lymphomas .
+
+ppatt:
+	?a may arise de novo or from transformation of ENMZL or other low-grade lymphomas
+		?a: DLBCL
+
+
+label:    sent_23
+sentence: Therefore , various problems will arise along with the therapy .
+
+ppatt:
+	Therefore , ?a will arise along with ?b
+		?a: various problems
+		?b: the therapy
+
+
+label:    sent_24
+sentence: These results reveal a route by which malignant choriocarcinoma may arise from molar pregnancies .
+
+ppatt:
+	?a reveal ?b
+		?a: These results
+		?b: a route by which malignant choriocarcinoma may arise from molar pregnancies
+	?a by ?b may arise from ?c
+		?a: a route
+		?b: malignant choriocarcinoma
+		?c: molar pregnancies
+
+
+label:    sent_25
+sentence: This could provide a possible mechanism by which new pathogens arise in nature .
+
+ppatt:
+	?a could provide ?b
+		?a: This
+		?b: a possible mechanism by which new pathogens arise in nature
+	?a by ?b arise in ?c
+		?a: a possible mechanism
+		?b: new pathogens
+		?c: nature
+
+
+label:    sent_26
+sentence: Further , there are no indications that problems will arise on longer missions .
+
+ppatt:
+	Further , there are ?a
+		?a: no indications that problems will arise on longer missions
+	?a will arise on ?b
+		?a: problems
+		?b: longer missions
+
+
+label:    sent_27
+sentence: Bioactive materials of a determined combination can arise problems .
+
+ppatt:
+	?a can arise ?b
+		?a: Bioactive materials of a determined combination
+		?b: problems
+
+
+label:    sent_28
+sentence: Several questions arise .. . What problems arise when a celebrity or VIP patient is in your hospital ?
+
+ppatt:
+	?a arise ?b ?c
+		?a: Several questions
+		?b: ..
+		?c: SOMETHING := What problems arise when a celebrity or VIP patient is in your hospital
+	?a arise
+		?a: What problems
+	when ?a is in your hospital
+		?a: a celebrity
+	when ?a is in your hospital
+		?a: VIP
+	when ?a is in your hospital
+		?a: patient
+
+

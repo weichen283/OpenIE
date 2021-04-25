@@ -1,0 +1,240 @@
+label:    sent_1
+sentence: Racial/ethnic disparities prevail among hemodialysis patients .
+
+ppatt:
+	?a prevail among ?b
+		?a: Racial/ethnic disparities
+		?b: hemodialysis patients
+
+
+label:    sent_2
+sentence: In complicated adenoviral pneumonia , certain serotypes prevail with Ad-7 being the most severe . Nature and humanity now prevail over technology . Health claims : let science prevail . The details prevail .
+
+ppatt:
+	In ?a , ?b prevail with ?c ?d
+		?a: complicated adenoviral pneumonia
+		?b: certain serotypes
+		?c: Ad-7
+		?d: being the most severe . Nature
+	?a now prevail over ?b ?c
+		?a: humanity
+		?b: technology
+		?c: Health claims
+	?a prevail
+		?a: let science
+	?a prevail
+		?a: The details
+
+
+label:    sent_3
+sentence: Optimal thermodynamic stability conditions must prevail when radioactivity standard solutions are prepared .
+
+ppatt:
+	?a must prevail
+		?a: Optimal thermodynamic stability conditions
+	when ?a are prepared
+		?a: radioactivity standard solutions
+
+
+label:    sent_4
+sentence: A paternalistic style seems to prevail , irrespective of patients ' educational background .
+
+ppatt:
+	?a seems to prevail , irrespective of ?b
+		?a: A paternalistic style
+		?b: patients ' educational background
+
+
+label:    sent_5
+sentence: This micelle conformation was found to prevail in the entire range of temperatures .
+
+ppatt:
+	?a was found to prevail in ?b
+		?a: This micelle conformation
+		?b: the entire range of temperatures
+
+
+label:    sent_6
+sentence: Rumor and misinformation about oral contraceptives continue to prevail in much of Egypt .
+
+ppatt:
+	?a continue to prevail in ?b
+		?a: Rumor about oral contraceptives
+		?b: much of Egypt
+	?a continue to prevail in ?b
+		?a: misinformation
+		?b: much of Egypt
+
+
+label:    sent_7
+sentence: Only neurointerventional procedures prevail in these cases , but well-equipped centers remain scarce .
+
+ppatt:
+	?a prevail in ?b
+		?a: Only neurointerventional procedures
+		?b: these cases
+	?a remain scarce
+		?a: well-equipped centers
+
+
+label:    sent_8
+sentence: Inhibitory endothelial responses prevail in the arteries , and excitatory ones in the veins .
+
+ppatt:
+	?a prevail in ?b
+		?a: Inhibitory endothelial responses
+		?b: the arteries
+
+
+label:    sent_9
+sentence: Whether or not similar situations prevail in other leprosy-endemic geographic areas is not known .
+
+ppatt:
+	?a prevail in ?b
+		?a: not similar situations
+		?b: other leprosy-endemic geographic areas
+
+
+label:    sent_10
+sentence: Many micro-organisms can be incriminated , but Staphylococcus aureus and Kingella kingae markedly prevail .
+
+ppatt:
+	?a can be incriminated
+		?a: Many micro-organisms
+	?a markedly prevail
+		?a: Staphylococcus aureus
+	?a markedly prevail
+		?a: Kingella kingae
+
+
+label:    sent_11
+sentence: The discussed disadvantages of the Judet approach are relative and its benefits clearly prevail .
+
+ppatt:
+	?a are relative
+		?a: The discussed disadvantages of the Judet approach
+	?a clearly prevail
+		?a: its benefits
+
+
+label:    sent_12
+sentence: In paediatric age cutaneous forms of disease prevail and may regress spontaneously .
+
+ppatt:
+	In ?a ?b prevail
+		?a: paediatric age
+		?b: cutaneous forms of disease
+	?a may regress spontaneously
+		?a: cutaneous forms of disease
+
+
+label:    sent_13
+sentence: The displacement takes place by various means , among which active cellular movements prevail .
+
+ppatt:
+	?a takes ?b by ?c
+		?a: The displacement
+		?b: place
+		?c: various means , among which active cellular movements prevail
+	?a among ?b prevail
+		?a: various means
+		?b: active cellular movements
+
+
+label:    sent_14
+sentence: Neoplastic nodules in which basophilic cells prevail may already be carcinomas .
+
+ppatt:
+	?a in ?b prevail
+		?a: Neoplastic nodules
+		?b: basophilic cells
+	?a may already be carcinomas
+		?a: Neoplastic nodules in which basophilic cells prevail
+
+
+label:    sent_15
+sentence: As to our practice , malignancies prevail ( 57 % ) . Mature Pseudomonas aeruginosa biofilms prevail compared to young biofilms in the presence of ceftazidime .
+
+ppatt:
+	As to ?a , ?b prevail
+		?a: our practice
+		?b: malignancies
+	?a prevail of ?b
+		?a: Mature Pseudomonas aeruginosa biofilms
+		?b: ceftazidime
+	?a compared to young biofilms
+		?a: Mature Pseudomonas aeruginosa biofilms
+
+
+label:    sent_16
+sentence: Depending on the structure , Michael addition or reduction reactions with thiols may prevail .
+
+ppatt:
+	Depending on the structure ?a
+		?a: Michael addition with thiols
+	Depending on the structure ?a
+		?a: reduction reactions
+	?a may prevail
+		?a: Michael addition with thiols
+	?a may prevail
+		?a: reduction reactions
+
+
+label:    sent_17
+sentence: The interactions become comparable to , or even prevail over , classical hydrogen bonding .
+
+ppatt:
+	?a become comparable ?b
+		?a: The interactions
+		?b: to
+	?a even prevail over ?b
+		?a: The interactions
+		?b: classical hydrogen bonding
+
+
+label:    sent_18
+sentence: In the office or at a meeting --order must prevail .
+
+ppatt:
+	In ?a must prevail
+		?a: the office
+	In ?a must prevail
+		?a: a meeting --order
+
+
+label:    sent_19
+sentence: Uninformative memories will prevail : the storage of correlated representations and its consequences .
+
+ppatt:
+	?a will prevail ?b
+		?a: Uninformative memories
+		?b: the storage of correlated representations
+	?a will prevail ?b
+		?a: Uninformative memories
+		?b: its consequences
+
+
+label:    sent_20
+sentence: When multiple optima occur , which party 's interests prevail ? They prevail the carotid , jugulotympanic , and vagal ones . Of these , there prevail Charcot-Marie amyotrophy ( 2.69 per 100,000 population ) .
+
+ppatt:
+	When ?a occur ?b
+		?a: multiple optima
+		?b: SOMETHING := prevail
+	?a prevail
+		?a: multiple optima
+	?a prevail ?b
+		?a: They
+		?b: carotid . Of these
+	?a prevail ?b
+		?a: They
+		?b: jugulotympanic
+	?a prevail ?b
+		?a: They
+		?b: vagal
+	there prevail ?a
+		?a: Charcot-Marie amyotrophy
+	?a is/are 2.69 100,000 population
+		?a: Charcot-Marie amyotrophy
+
+

@@ -1,0 +1,262 @@
+label:    sent_1
+sentence: These discoveries imply that O-GlcNAcylation is another major regulator of cellular signaling .
+
+ppatt:
+	?a imply ?b
+		?a: These discoveries
+		?b: SOMETHING := O-GlcNAcylation is another major regulator of cellular signaling
+	?a is another major regulator of ?b
+		?a: O-GlcNAcylation
+		?b: cellular signaling
+
+
+label:    sent_2
+sentence: These results imply that paradoxical embolism may cause the small WMLs in some migraineurs .
+
+ppatt:
+	?a imply ?b
+		?a: These results
+		?b: SOMETHING := paradoxical embolism may cause the small WMLs in some migraineurs
+	?a may cause ?b in ?c
+		?a: paradoxical embolism
+		?b: the small WMLs
+		?c: some migraineurs
+
+
+label:    sent_3
+sentence: These results imply that dehardening resistance is not related to mid-winter hardiness .
+
+ppatt:
+	?a imply ?b
+		?a: These results
+		?b: SOMETHING := that dehardening resistance is not related to mid-winter hardiness
+	?a is not related to ?b
+		?a: dehardening resistance
+		?b: mid-winter hardiness
+
+
+label:    sent_4
+sentence: Current alternative approaches for pacemaker lead implantation imply the breach of the pleural space .
+
+ppatt:
+	lead ?a
+		?a: implantation
+	?a imply ?b
+		?a: Current alternative approaches for pacemaker
+		?b: the breach of the pleural space
+
+
+label:    sent_5
+sentence: We show that gene proximities calculated from PPI networks imply phenotype similarities .
+
+ppatt:
+	?a show ?b
+		?a: We
+		?b: SOMETHING := gene proximities calculated from PPI networks imply phenotype similarities
+	?a calculated from ?b
+		?a: gene proximities
+		?b: PPI networks
+	?a imply ?b
+		?a: gene proximities calculated from PPI networks
+		?b: phenotype similarities
+
+
+label:    sent_6
+sentence: Grades of lobular carcinoma imply different meanings than do grades of ductal carcinoma .
+
+ppatt:
+	?a imply ?b
+		?a: Grades of lobular carcinoma
+		?b: different meanings
+	do ?a
+		?a: grades of ductal carcinoma
+
+
+label:    sent_7
+sentence: Muscle redundancy does not imply robustness to muscle dysfunction .
+
+ppatt:
+	?a does not imply ?b
+		?a: Muscle redundancy
+		?b: robustness to muscle dysfunction
+
+
+label:    sent_8
+sentence: Higher scores imply worse quality-of-life in a given domain .
+
+ppatt:
+	?a imply ?b in ?c
+		?a: Higher scores
+		?b: worse quality-of-life
+		?c: a given domain
+
+
+label:    sent_9
+sentence: Results imply universal upper bounds on link density across the oceans .
+
+ppatt:
+	?a imply ?b
+		?a: Results
+		?b: universal upper bounds on link density across the oceans
+
+
+label:    sent_10
+sentence: The protein analysis showed changes that could imply some antigenic significance .
+
+ppatt:
+	?a showed ?b
+		?a: The protein analysis
+		?b: changes that could imply some antigenic significance
+	?a could imply ?b
+		?a: changes
+		?b: some antigenic significance
+
+
+label:    sent_11
+sentence: Polarized development , therefore , need not imply atrophy of noncore cities .
+
+ppatt:
+	?a therefore , need not imply ?b
+		?a: Polarized development
+		?b: atrophy of noncore cities
+
+
+label:    sent_12
+sentence: Narcotic antagonist reversibility of acupuncture effect is taken currently to imply endorphin mediation .
+
+ppatt:
+	?a is taken currently to imply ?b
+		?a: Narcotic antagonist reversibility of acupuncture effect
+		?b: endorphin mediation
+
+
+label:    sent_13
+sentence: Social relations imply communication , and mentation underlies the ability to communicate .
+
+ppatt:
+	?a imply ?b
+		?a: Social relations
+		?b: communication
+	?a imply ?b
+		?a: Social relations
+		?b: mentation
+	?a underlies ?b
+		?a: Social relations
+		?b: the ability to communicate
+	?a communicate
+		?a: the ability
+
+
+label:    sent_14
+sentence: Changing thoughts imply a changing brain and thus a changing biology and body .
+
+ppatt:
+	Changing ?a
+		?a: thoughts
+	?a imply ?b
+		?a: SOMETHING := Changing thoughts
+		?b: a changing brain
+	?a imply ?b
+		?a: SOMETHING := Changing thoughts
+		?b: thus a changing biology
+
+
+label:    sent_15
+sentence: These techniques imply the sediment structure deterioration and prohibitive costs . [ Chronic critical disease --what does the long-term patient imply for intensive medicine ] . The discrepancy may imply under reporting of Notifiable Diseases .
+
+ppatt:
+	?a imply ?b
+		?a: These techniques
+		?b: the sediment structure deterioration
+	?a imply ?b
+		?a: These techniques
+		?b: prohibitive costs
+	?a does
+		?a: Chronic critical disease --what
+	?a imply for ?b
+		?a: the long-term patient
+		?b: intensive medicine ]
+	?a may imply under ?b
+		?a: The discrepancy
+		?b: reporting of Notifiable Diseases
+
+
+label:    sent_16
+sentence: This can imply for non-random distribution of insertion mutations in the region studied .
+
+ppatt:
+	?a can imply for ?b
+		?a: This
+		?b: non-random distribution of insertion mutations in the region studied
+	?a studied
+		?a: the region
+
+
+label:    sent_17
+sentence: The method is quite simple , reliable and does not imply any special requirements .
+
+ppatt:
+	?a is quite simple
+		?a: The method
+	?a reliable
+		?a: The method
+	?a does not imply ?b
+		?a: The method
+		?b: any special requirements
+
+
+label:    sent_18
+sentence: It is transient and may not imply corneal toxicity .
+
+ppatt:
+	?a is transient
+		?a: It
+	?a may not imply ?b
+		?a: It
+		?b: corneal toxicity
+
+
+label:    sent_19
+sentence: Hydronephrosis is readily seen on antenatal ultrasonography but does not necessarily imply obstruction .
+
+ppatt:
+	?a is readily seen on ?b
+		?a: Hydronephrosis
+		?b: antenatal ultrasonography
+	?a does not necessarily imply ?b
+		?a: Hydronephrosis
+		?b: obstruction
+
+
+label:    sent_20
+sentence: De-regulation of c-myc does not necessarily imply amplification of this gene in these tumours .
+
+ppatt:
+	?a does not necessarily imply ?b
+		?a: De-regulation of c-myc
+		?b: amplification of this gene in these tumours
+
+
+label:    sent_21
+sentence: Nonsignificance plus high power does not imply support for the null over the alternative .
+
+ppatt:
+	?a does not imply ?b
+		?a: Nonsignificance
+		?b: support for the null over the alternative
+	?a does not imply ?b
+		?a: high power
+		?b: support for the null over the alternative
+
+
+label:    sent_22
+sentence: It is the first one to imply continuity of this effect until adolescence .
+
+ppatt:
+	?a is the first one
+		?a: It
+	?a imply ?b
+		?a: the first one
+		?b: continuity of this effect until adolescence
+
+

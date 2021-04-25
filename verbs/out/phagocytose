@@ -1,0 +1,286 @@
+label:    sent_1
+sentence: Neutrophils are previously known to phagocytose invading pathogens and harmful particles .
+
+ppatt:
+	?a are previously known to phagocytose ?b
+		?a: Neutrophils
+		?b: invading pathogens
+	?a are previously known to phagocytose ?b
+		?a: Neutrophils
+		?b: harmful particles
+
+
+label:    sent_2
+sentence: Furthermore , the capacity of the cell lines to phagocytose latex microspheres was analyzed .
+
+ppatt:
+	?a phagocytose ?b
+		?a: the capacity of the cell lines
+		?b: latex microspheres
+	Furthermore , ?a was analyzed
+		?a: the capacity of the cell lines to phagocytose latex microspheres
+
+
+label:    sent_3
+sentence: These cells were also shown to actively phagocytose labeled zymosan particles in culture .
+
+ppatt:
+	?a were also shown to actively phagocytose ?b in ?c
+		?a: These cells
+		?b: labeled zymosan particles
+		?c: culture
+
+
+label:    sent_4
+sentence: Demonstration of the ability of Hofbauer cells to phagocytose exogenous antibodies .
+
+ppatt:
+	?a phagocytose ?b
+		?a: the ability of Hofbauer cells
+		?b: exogenous antibodies
+
+
+label:    sent_5
+sentence: Peritoneal macrophages which phagocytose autologous polymorphonuclear leucocytes in guinea-pigs .
+
+ppatt:
+	?a phagocytose ?b
+		?a: Peritoneal macrophages
+		?b: autologous polymorphonuclear leucocytes in guinea-pigs
+
+
+label:    sent_6
+sentence: The myeloma cells did not phagocytose staphylococci in vitro .
+
+ppatt:
+	?a did not phagocytose ?b in vitro
+		?a: The myeloma cells
+		?b: staphylococci
+
+
+label:    sent_7
+sentence: Even though leukocytes can penetrate biofilms , they fail to phagocytose and kill bacteria .
+
+ppatt:
+	Even though ?a can penetrate ?b
+		?a: leukocytes
+		?b: biofilms
+	?a fail to phagocytose ?b
+		?a: they
+		?b: bacteria
+	?a fail to kill
+		?a: they
+
+
+label:    sent_8
+sentence: Heterophils from all chickens were able to phagocytose and kill log phase staphylococcal bacteria .
+
+ppatt:
+	?a were able to phagocytose ?b
+		?a: Heterophils from all chickens
+		?b: log phase staphylococcal bacteria
+	?a were able to kill
+		?a: Heterophils from all chickens
+
+
+label:    sent_9
+sentence: The cells can chemotax , phagocytose , cap crosslinked receptors , and contract normally .
+
+ppatt:
+	?a can chemotax ?b
+		?a: The cells
+		?b: cap crosslinked receptors
+	?a phagocytose
+		?a: The cells
+	?a contract normally
+		?a: The cells
+
+
+label:    sent_10
+sentence: Human neutrophils recognise and phagocytose non-opsonised particles coated with bacterial antigen .
+
+ppatt:
+	?a recognise ?b
+		?a: Human neutrophils
+		?b: non-opsonised particles coated with bacterial antigen
+	?a phagocytose
+		?a: Human neutrophils
+	?a coated with ?b
+		?a: non-opsonised particles
+		?b: bacterial antigen
+
+
+label:    sent_11
+sentence: No calcium transients were detected in cells that bound but did not phagocytose beads .
+
+ppatt:
+	?a were detected in ?b
+		?a: No calcium transients
+		?b: cells that bound but did not phagocytose beads
+	?a bound
+		?a: cells
+	?a did not phagocytose ?b
+		?a: that
+		?b: beads
+
+
+label:    sent_12
+sentence: Microglia are activated by and can phagocytose beta-amyloid ( Abeta ) . These cells phagocytose the mobilized neutrophils and return the pleural cavity to normal .
+
+ppatt:
+	?a are activated ?b
+		?a: Microglia
+		?b: by
+	?a can phagocytose ?b
+		?a: Microglia
+		?b: beta-amyloid
+	?a is/are Abeta
+		?a: beta-amyloid
+	?a phagocytose ?b
+		?a: These cells
+		?b: the mobilized neutrophils
+	?a return ?b
+		?a: These cells
+		?b: the pleural cavity to normal
+
+
+label:    sent_13
+sentence: Human osteoblast-like cells phagocytose metal particles and express the macrophage marker CD68 in vitro .
+
+ppatt:
+	?a phagocytose ?b
+		?a: Human osteoblast-like cells
+		?b: metal particles
+	?a express ?b in vitro
+		?a: Human osteoblast-like cells
+		?b: the macrophage marker CD68
+
+
+label:    sent_14
+sentence: Monocytes/macrophages phagocytose wear particles and release cytokines that induce inflammatory response .
+
+ppatt:
+	?a phagocytose ?b
+		?a: Monocytes/macrophages
+		?b: wear particles
+	?a release ?b
+		?a: Monocytes/macrophages
+		?b: cytokines that induce inflammatory response
+	?a induce ?b
+		?a: cytokines
+		?b: inflammatory response
+
+
+label:    sent_15
+sentence: Furthermore , RPE monolayers were able to phagocytose POS in a time-dependent manner .
+
+ppatt:
+	Furthermore , ?a were able to phagocytose ?b in ?c
+		?a: RPE monolayers
+		?b: POS
+		?c: a time-dependent manner
+
+
+label:    sent_16
+sentence: Microglia were shown to phagocytose Abeta1-42 , in agreement with observations of other investigators .
+
+ppatt:
+	?a were shown to phagocytose ?b , in with ?c
+		?a: Microglia
+		?b: Abeta1-42
+		?c: observations of other investigators
+
+
+label:    sent_17
+sentence: Cultured Schwann cells were found to phagocytose exogenously applied myelin membranes within 1 h . Macrophages phagocytose apoptotic cells without causing neutrophil infiltration in vivo under physiological conditions .
+
+ppatt:
+	?a were found to phagocytose ?b within ?c
+		?a: Cultured Schwann cells
+		?b: exogenously applied myelin membranes
+		?c: 1 h
+	?a phagocytose ?b
+		?a: Macrophages
+		?b: apoptotic cells
+	?a causing ?b in vivo under ?c
+		?a: Macrophages
+		?b: neutrophil infiltration
+		?c: physiological conditions
+
+
+label:    sent_18
+sentence: In sensory projection areas , microglial cells phagocytose degenerating axons and terminals .
+
+ppatt:
+	In ?a , ?b phagocytose ?c
+		?a: sensory projection areas
+		?b: microglial cells
+		?c: degenerating axons
+	In ?a , ?b phagocytose ?c
+		?a: sensory projection areas
+		?b: microglial cells
+		?c: terminals
+
+
+label:    sent_19
+sentence: Human granulocytes phagocytose Campylobacter sp. with a twofold higher effectivity than murine cells .
+
+ppatt:
+	?a phagocytose ?b with ?c
+		?a: Human granulocytes
+		?b: Campylobacter sp.
+		?c: a twofold higher effectivity than murine cells
+
+
+label:    sent_20
+sentence: They phagocytose and kill many invading pathogens .
+
+ppatt:
+	?a phagocytose ?b
+		?a: They
+		?b: many invading pathogens
+	?a kill
+		?a: They
+
+
+label:    sent_21
+sentence: We report here that macrophages from MacMARCKS null mice phagocytose and spread normally .
+
+ppatt:
+	?a report here ?b
+		?a: We
+		?b: SOMETHING := macrophages from MacMARCKS null mice phagocytose normally
+	?a phagocytose normally
+		?a: macrophages from MacMARCKS null mice
+	?a spread
+		?a: macrophages from MacMARCKS null mice
+
+
+label:    sent_22
+sentence: Human plasmacytoid dendritic cells phagocytose , process , and present exogenous particulate antigen .
+
+ppatt:
+	?a phagocytose ?b
+		?a: Human plasmacytoid dendritic cells
+		?b: process
+	?a present ?b
+		?a: Human plasmacytoid dendritic cells
+		?b: exogenous particulate antigen
+
+
+label:    sent_23
+sentence: During demyelination , macrophages phagocytose myelin and secrete inflammatory mediators that worsen the disease .
+
+ppatt:
+	During ?a , ?b phagocytose ?c
+		?a: demyelination
+		?b: macrophages
+		?c: myelin
+	?a secrete ?b
+		?a: macrophages
+		?b: inflammatory mediators that worsen the disease
+	?a worsen ?b
+		?a: inflammatory mediators
+		?b: the disease
+
+

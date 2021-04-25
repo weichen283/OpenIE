@@ -1,0 +1,127 @@
+label:    sent_1
+sentence: Do n't starve yourself .
+
+ppatt:
+	Do n't starve ?a
+		?a: yourself
+
+
+label:    sent_2
+sentence: Cancer metabolism : feeding a worm to starve a tumor .
+
+ppatt:
+	starve ?a
+		?a: a tumor
+
+
+label:    sent_3
+sentence: Its most attractive feature is that patients do not have to starve themselves .
+
+ppatt:
+	?a is ?b
+		?a: Its most attractive feature
+		?b: SOMETHING := patients do not have to starve themselves
+	?a do not have to starve ?b
+		?a: patients
+		?b: themselves
+
+
+label:    sent_4
+sentence: Mechanism in stroke causes brain cells to starve . Happy to starve . Happy to starve . [ Child psychiatry --my daughter is trying to starve herself to death ] . More than 17 million people may starve in Horn of Africa , warns UN .
+
+ppatt:
+	?a causes ?b to starve . Happy to starve . Happy to starve
+		?a: Mechanism in stroke
+		?b: brain cells
+	?a is trying to starve ?b to ?c
+		?a: Child psychiatry --my daughter
+		?b: herself
+		?c: death ]
+	?a may starve in ?b
+		?a: More than 17 million people
+		?b: Horn of Africa
+	?a warns ?b
+		?a: More than 17 million people
+		?b: UN
+
+
+label:    sent_5
+sentence: Doctor , does this mean I 'm going to starve to death ? In winter , these birds may starve for periods of several days .
+
+ppatt:
+	does ?a
+		?a: this mean I
+	?a 'm going to starve to ?b ? In ?c
+		?a: Doctor
+		?b: death
+		?c: winter
+	?a ?b may starve for ?c
+		?a: Doctor
+		?b: these birds
+		?c: periods of several days
+
+
+label:    sent_6
+sentence: Anorexia nervosa : why do some people starve themselves ? Inhibiting blood vessel growth could starve solid tumors .
+
+ppatt:
+	?a why do ?b starve ?c
+		?a: Anorexia nervosa
+		?b: some people
+		?c: themselves
+	?a Inhibiting ?b
+		?a: some people
+		?b: blood vessel growth
+	?a could starve ?b
+		?a: Anorexia nervosa : why do some people starve themselves ? Inhibiting blood vessel growth
+		?b: solid tumors
+
+
+label:    sent_7
+sentence: Iron in innate immunity : starve the invaders .
+
+ppatt:
+
+
+
+label:    sent_8
+sentence: Could you starve to death in England in 1839 ? Patient reportedly calls off her effort to starve to death . Others starve or die of malnutrition-related infections .
+
+ppatt:
+	Could you starve to ?a
+		?a: death in England
+	?a reportedly calls off ?b
+		?a: in 1839 Patient
+		?b: her effort to starve to death
+	?a starve to ?b
+		?a: her effort
+		?b: death
+	?a starve of ?b
+		?a: Others
+		?b: malnutrition-related infections
+	?a die
+		?a: Others
+
+
+label:    sent_9
+sentence: Living standards and incomes will plummet , and millions may starve .
+
+ppatt:
+	?a will plummet
+		?a: Living standards
+	?a will plummet
+		?a: incomes
+	?a may starve
+		?a: millions
+
+
+label:    sent_10
+sentence: Threonine addition may starve cells for lysine by feedback inhibition of aspartokinase activity .
+
+ppatt:
+	?a may starve ?b by ?c
+		?a: Threonine addition
+		?b: cells for lysine
+		?c: feedback inhibition of aspartokinase activity
+
+

@@ -1,0 +1,335 @@
+label:    sent_1
+sentence: Even for patients without metastatic spread who undergo nephrectomy , metastatic recurrence is frequent .
+
+ppatt:
+	?a undergo ?b
+		?a: metastatic spread
+		?b: nephrectomy
+	for ?a , ?b is frequent
+		?a: Even patients without metastatic spread who undergo nephrectomy
+		?b: metastatic recurrence
+
+
+label:    sent_2
+sentence: Should all patients with nonalcoholic fatty liver disease undergo oral glucose tolerance test ? As AI cells undergo nuclear mitosis the sexual pathway terminates .
+
+ppatt:
+	Should ?a undergo ?b
+		?a: all patients with nonalcoholic fatty liver disease
+		?b: oral glucose tolerance test
+	?a undergo ?b
+		?a: AI cells
+		?b: nuclear mitosis
+	?a terminates
+		?a: the sexual pathway
+
+
+label:    sent_3
+sentence: Infections in patients with traumatic brain injury who undergo neurosurgery .
+
+ppatt:
+	?a undergo ?b
+		?a: traumatic brain injury
+		?b: neurosurgery
+
+
+label:    sent_4
+sentence: Addressing unstated patient fears about colonoscopy to encourage reluctant patients to undergo screening colonoscopy .
+
+ppatt:
+	Addressing ?a
+		?a: unstated patient fears about colonoscopy
+	encourage ?a to undergo ?b
+		?a: reluctant patients
+		?b: screening colonoscopy
+
+
+label:    sent_5
+sentence: Six of these patients ( 54 % ) were able to undergo postoperative chemoradiation .
+
+ppatt:
+	?a is/are 54 %
+		?a: Six of these patients
+	?a were able to undergo ?b
+		?a: Six of these patients
+		?b: postoperative chemoradiation
+
+
+label:    sent_6
+sentence: All patients should undergo routine craniospinal imaging at diagnosis and follow-up .
+
+ppatt:
+	?a should undergo ?b at ?c
+		?a: All patients
+		?b: routine craniospinal imaging
+		?c: diagnosis
+	?a should undergo ?b at ?c
+		?a: All patients
+		?b: routine craniospinal imaging
+		?c: follow-up
+
+
+label:    sent_7
+sentence: Around 135 000 patients undergo appendectomy in Germany every year .
+
+ppatt:
+	Around ?a undergo ?b in ?c
+		?a: 135 000 patients
+		?b: appendectomy
+		?c: Germany every year
+
+
+label:    sent_8
+sentence: Patients with bulimia nervosa commonly undergo rapid rehydration with intravenous fluid administration .
+
+ppatt:
+	?a commonly undergo ?b
+		?a: Patients with bulimia nervosa
+		?b: rapid rehydration with intravenous fluid administration
+
+
+label:    sent_9
+sentence: The needles were shown to undergo buckling deformation under large tip-sample forces .
+
+ppatt:
+	?a were shown to undergo ?b under ?c
+		?a: The needles
+		?b: buckling deformation
+		?c: large tip-sample forces
+
+
+label:    sent_10
+sentence: He had to undergo a splenectomy following an unsuccessful embolisation of the lienal artery .
+
+ppatt:
+	?a had to undergo ?b following ?c
+		?a: He
+		?b: a splenectomy
+		?c: an unsuccessful embolisation of the lienal artery
+
+
+label:    sent_11
+sentence: All serologically positive respondents were invited to undergo further evaluation including endoscopic biopsy .
+
+ppatt:
+	?a were invited to undergo ?b
+		?a: All serologically positive respondents
+		?b: further evaluation including endoscopic biopsy
+
+
+label:    sent_12
+sentence: Axonal mitochondria undergo saltatory and bidirectional movement and display complex mobility patterns .
+
+ppatt:
+	?a undergo ?b
+		?a: Axonal mitochondria
+		?b: saltatory and bidirectional movement
+	?a display ?b
+		?a: Axonal mitochondria
+		?b: complex mobility patterns
+
+
+label:    sent_13
+sentence: Neutrophils undergo apoptosis and are engulfed by macrophages .
+
+ppatt:
+	?a undergo ?b
+		?a: Neutrophils
+		?b: apoptosis
+	?a are engulfed by ?b
+		?a: Neutrophils
+		?b: macrophages
+
+
+label:    sent_14
+sentence: The patient did not undergo surgery and died of SUDEP two years later .
+
+ppatt:
+	?a did not undergo ?b
+		?a: The patient
+		?b: surgery
+	?a died of ?b ?c later
+		?a: The patient
+		?b: SUDEP
+		?c: two years
+
+
+label:    sent_15
+sentence: Such membranes are flexible and undergo substantial dimensional changes on hydration .
+
+ppatt:
+	?a are flexible
+		?a: Such membranes
+	?a undergo ?b
+		?a: Such membranes
+		?b: substantial dimensional changes on hydration
+
+
+label:    sent_16
+sentence: During pregnancy , fibroids enlarge and may undergo red degeneration causing pain .
+
+ppatt:
+	During ?a , ?b enlarge
+		?a: pregnancy
+		?b: fibroids
+	?a may undergo ?b
+		?a: fibroids
+		?b: red degeneration causing pain
+	?a causing ?b
+		?a: red degeneration
+		?b: pain
+
+
+label:    sent_17
+sentence: Influenza viruses evolve rapidly in sequence and undergo frequent reassortment of different gene segments .
+
+ppatt:
+	?a evolve rapidly in ?b
+		?a: Influenza viruses
+		?b: sequence
+	?a undergo ?b
+		?a: Influenza viruses
+		?b: frequent reassortment of different gene segments
+
+
+label:    sent_18
+sentence: However , their lifespan is limited and they undergo senescence after 25-30 population doublings .
+
+ppatt:
+	However , ?a is limited
+		?a: their lifespan
+	?a undergo ?b after ?c
+		?a: they
+		?b: senescence
+		?c: 25-30 population doublings
+
+
+label:    sent_19
+sentence: Females undergo a process of feminization but in some cases are exposed to testosterone .
+
+ppatt:
+	?a undergo ?b
+		?a: Females
+		?b: a process of feminization
+	in ?a are exposed to ?b
+		?a: some cases
+		?b: testosterone
+
+
+label:    sent_20
+sentence: The patients did not undergo any intervention after above observations and before attempting decannulation .
+
+ppatt:
+	?a did not undergo ?b after ?c
+		?a: The patients
+		?b: any intervention
+		?c: above observations
+	?a did not undergo ?b after ?c
+		?a: The patients
+		?b: any intervention
+		?c: attempting decannulation
+
+
+label:    sent_21
+sentence: The protein itself is immobile and does not undergo rapid rotation within the bilayer .
+
+ppatt:
+	?a is immobile
+		?a: The protein itself
+	?a does not undergo ?b
+		?a: The protein itself
+		?b: rapid rotation within the bilayer
+
+
+label:    sent_22
+sentence: The cells appear normal and undergo specific histamine release after incubation with antigen .
+
+ppatt:
+	?a appear normal
+		?a: The cells
+	?a undergo ?b after ?c
+		?a: The cells
+		?b: specific histamine release
+		?c: incubation with antigen
+
+
+label:    sent_23
+sentence: Frontal bodies resist tensile forces , but undergo changes in shape as they oscillate .
+
+ppatt:
+	?a resist ?b
+		?a: Frontal bodies
+		?b: tensile forces
+	?a undergo ?b
+		?a: Frontal bodies
+		?b: changes in shape
+	?a oscillate
+		?a: they
+
+
+label:    sent_24
+sentence: Children with malignant lymphoma undergo many diagnostic procedures that involve exposure to ionising radiation .
+
+ppatt:
+	?a undergo ?b
+		?a: Children with malignant lymphoma
+		?b: many diagnostic procedures that involve exposure to ionising radiation
+	?a involve ?b
+		?a: many diagnostic procedures
+		?b: exposure to ionising radiation
+
+
+label:    sent_25
+sentence: N-Alkenyl carboxamides undergo gold-catalyzed intramolecular exo-hydroamination to form nitrogen heterocycles in excellent yield .
+
+ppatt:
+	?a undergo ?b to form ?c in ?d
+		?a: N-Alkenyl carboxamides
+		?b: gold-catalyzed intramolecular exo-hydroamination
+		?c: nitrogen heterocycles
+		?d: excellent yield
+
+
+label:    sent_26
+sentence: The presumed products of these migrations , o-quinomethanimines , undergo in situ 6pi-electrocyclization .
+
+ppatt:
+	?a is/are o-quinomethanimines
+		?a: The presumed products of these migrations
+	?a undergo ?b
+		?a: The presumed products of these migrations
+		?b: in 6pi-electrocyclization
+
+
+label:    sent_27
+sentence: Notably , compound 6 can undergo cis/trans-isomerization upon UV irradiation .
+
+ppatt:
+	Notably , ?a can undergo ?b upon ?c
+		?a: compound 6
+		?b: cis/trans-isomerization
+		?c: UV irradiation
+
+
+label:    sent_28
+sentence: The soft tissues undergo to same growth phenomenon .
+
+ppatt:
+	?a undergo to ?b
+		?a: The soft tissues
+		?b: same growth phenomenon
+
+
+label:    sent_29
+sentence: We have found that beta-ketophosphonic acids can undergo facile dephosphonylation under fairly mild conditions .
+
+ppatt:
+	?a have found ?b
+		?a: We
+		?b: SOMETHING := beta-ketophosphonic acids can undergo facile dephosphonylation under fairly mild conditions
+	?a can undergo ?b under ?c
+		?a: beta-ketophosphonic acids
+		?b: facile dephosphonylation
+		?c: fairly mild conditions
+
+

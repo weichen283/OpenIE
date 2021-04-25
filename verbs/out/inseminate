@@ -1,0 +1,98 @@
+label:    sent_1
+sentence: Following irradiation , the sperm were used to inseminate virgin turkey hens artificially .
+
+ppatt:
+	Following ?a , ?b were used to inseminate ?c artificially
+		?a: irradiation
+		?b: the sperm
+		?c: virgin turkey hens
+
+
+label:    sent_2
+sentence: The Government alleged that the doctor used his own sperm to inseminate the patients .
+
+ppatt:
+	?a alleged ?b
+		?a: The Government
+		?b: SOMETHING := the doctor used his own sperm to inseminate the patients
+	?a used ?b to inseminate ?c
+		?a: the doctor
+		?b: his own sperm
+		?c: the patients
+
+
+label:    sent_3
+sentence: When to inseminate : a dilemma for dairy farmers .
+
+ppatt:
+
+
+
+label:    sent_4
+sentence: It is important to inseminate sows at the correct moment relative to ovulation .
+
+ppatt:
+	?a is important to inseminate ?b at ?c relative to ?d
+		?a: It
+		?b: sows
+		?c: the correct moment
+		?d: ovulation
+
+
+label:    sent_5
+sentence: The mature spermatozoa recovered were used to inseminate the oocytes by ICSI .
+
+ppatt:
+	?a recovered
+		?a: The mature spermatozoa
+	?a were used to inseminate ?b by ?c
+		?a: The mature spermatozoa recovered
+		?b: the oocytes
+		?c: ICSI
+
+
+label:    sent_6
+sentence: The obtained results provide a promising base to inseminate Asian elephants with sexed semen .
+
+ppatt:
+	?a provide ?b
+		?a: The obtained results
+		?b: a promising base to inseminate Asian elephants with sexed semen
+	?a inseminate ?b
+		?a: a promising base
+		?b: Asian elephants with sexed semen
+
+
+label:    sent_7
+sentence: In contrast , we show that male garter snakes forcibly inseminate females .
+
+ppatt:
+	In ?a , ?b show ?c
+		?a: contrast
+		?b: we
+		?c: SOMETHING := male garter snakes forcibly inseminate females
+	?a forcibly inseminate ?b
+		?a: male garter snakes
+		?b: females
+
+
+label:    sent_8
+sentence: Males of Culex pipiens autogenicus can inseminate 2 to 3 females .
+
+ppatt:
+	?a can inseminate ?b
+		?a: Males of Culex pipiens autogenicus
+		?b: 2 3 females
+
+
+label:    sent_9
+sentence: Refusal to artificially inseminate ' unmarried ' lesbian . Single fertile women choosing to inseminate with frozen donor semen .
+
+ppatt:
+	?a to artificially inseminate ' Single fertile women
+		?a: Refusal
+	?a choosing to inseminate with ?b
+		?a: to artificially inseminate ' Single fertile women
+		?b: frozen donor semen
+
+

@@ -1,0 +1,313 @@
+label:    sent_1
+sentence: Novel biomarkers are urgently needed to assist in managing these diseases .
+
+ppatt:
+	?a are urgently needed to assist
+		?a: Novel biomarkers
+	?a managing ?b
+		?a: Novel biomarkers
+		?b: these diseases
+
+
+label:    sent_2
+sentence: The traditional technique of locating surface landmarks was used to assist in vascular access .
+
+ppatt:
+	?a locating ?b
+		?a: The traditional technique
+		?b: surface landmarks
+	?a was used to assist in ?b
+		?a: The traditional technique of locating surface landmarks
+		?b: vascular access
+
+
+label:    sent_3
+sentence: Our screening instruments are available to assist in that process .
+
+ppatt:
+	?a are available to assist in ?b
+		?a: Our screening instruments
+		?b: that process
+
+
+label:    sent_4
+sentence: Single-center experience with treatment of cardiogenic shock in children by pediatric ventricular assist devices .
+
+ppatt:
+
+
+
+label:    sent_5
+sentence: This study provides evidence to assist mentors who counsel such candidates .
+
+ppatt:
+	?a provides ?b
+		?a: This study
+		?b: evidence to assist mentors who counsel such candidates
+	?a assist ?b
+		?a: evidence
+		?b: mentors who counsel such candidates
+	?a counsel ?b
+		?a: mentors
+		?b: such candidates
+
+
+label:    sent_6
+sentence: Strength of recommendations was provided to assist the application of these recommendations .
+
+ppatt:
+	?a was provided to assist ?b
+		?a: Strength of recommendations
+		?b: the application of these recommendations
+
+
+label:    sent_7
+sentence: Analysis of micro- and macrolinguistic abilities of discourse may assist in diagnosing AD .
+
+ppatt:
+	?a may assist
+		?a: Analysis of micro- and macrolinguistic abilities of discourse
+	?a diagnosing ?b
+		?a: Analysis of micro- and macrolinguistic abilities of discourse
+		?b: AD
+
+
+label:    sent_8
+sentence: These findings will assist in formulating microbiological media useful for enniatin research .
+
+ppatt:
+	?a will assist
+		?a: These findings
+	?a formulating ?b
+		?a: These findings
+		?b: microbiological media useful for enniatin research
+
+
+label:    sent_9
+sentence: These results may assist in counselling patients regarding the increased risk of surgery .
+
+ppatt:
+	?a may assist in ?b regarding ?c
+		?a: These results
+		?b: counselling patients
+		?c: the increased risk of surgery
+
+
+label:    sent_10
+sentence: Significant technological advances have occurred in mechanical assist devices over the past decade .
+
+ppatt:
+	?a have occurred in ?b over ?c
+		?a: Significant technological advances
+		?b: mechanical assist devices
+		?c: the past decade
+
+
+label:    sent_11
+sentence: Measures to assist coroners in fulfilling this role are proposed . STFM and CAFM create task force to assist residencies in measuring residency competency .
+
+ppatt:
+	?a assist ?b
+		?a: Measures
+		?b: coroners
+	?a fulfilling ?b
+		?a: Measures
+		?b: this role
+	?a are proposed
+		?a: Measures to assist coroners in fulfilling this role
+	?a create ?b to assist ?c
+		?a: STFM
+		?b: task force
+		?c: residencies
+	?a create ?b to assist ?c
+		?a: CAFM
+		?b: task force
+		?c: residencies
+	?a measuring ?b
+		?a: STFM
+		?b: residency competency
+	?a measuring ?b
+		?a: CAFM
+		?b: residency competency
+
+
+label:    sent_12
+sentence: We present our nearly 20-year experience with pediatric ventricular assist devices .
+
+ppatt:
+	?a present ?b
+		?a: We
+		?b: our nearly 20-year experience with pediatric ventricular assist devices
+
+
+label:    sent_13
+sentence: Multimedia patient education to assist the informed consent process for knee arthroscopy .
+
+ppatt:
+	?a assist ?b
+		?a: Multimedia patient education
+		?b: the informed consent process for knee arthroscopy
+
+
+label:    sent_14
+sentence: Human rights approaches may assist the prevention of work-related morbidity . 50 patients received paracorporeal assist devices in biventricular configuration .
+
+ppatt:
+	?a may assist ?b
+		?a: Human rights approaches
+		?b: the prevention of work-related morbidity
+	?a received ?b
+		?a: 50 patients
+		?b: paracorporeal
+	?a assist ?b in ?c
+		?a: 50 patients received paracorporeal
+		?b: devices
+		?c: biventricular configuration
+
+
+label:    sent_15
+sentence: First experiences with the HeartWare ventricular assist system in children .
+
+ppatt:
+
+
+
+label:    sent_16
+sentence: Off-pump implantation of the HeartWare HVAD left ventricular assist device through minimally invasive incisions .
+
+ppatt:
+
+
+
+label:    sent_17
+sentence: Vibrational frequencies match those in the experimental infrared spectrum and assist in their assignment .
+
+ppatt:
+	?a match ?b
+		?a: Vibrational frequencies
+		?b: those in the experimental infrared spectrum
+	?a assist in ?b
+		?a: Vibrational frequencies
+		?b: their assignment
+
+
+label:    sent_18
+sentence: Our predictions can guide searches and assist in both astronomical and laboratory detection .
+
+ppatt:
+	?a can guide ?b
+		?a: Our predictions
+		?b: searches
+	?a assist in ?b
+		?a: Our predictions
+		?b: both astronomical and laboratory detection
+
+
+label:    sent_19
+sentence: TFIIB partially closes the polymerase cleft to position DNA and assist in its opening .
+
+ppatt:
+	?a partially closes ?b
+		?a: TFIIB
+		?b: the polymerase cleft to position DNA
+	?a assist in ?b
+		?a: TFIIB
+		?b: its opening
+
+
+label:    sent_20
+sentence: They also assist in protein translocation and participate in stress functions .
+
+ppatt:
+	?a also assist in ?b
+		?a: They
+		?b: protein translocation
+	?a participate in ?b
+		?a: They
+		?b: stress functions
+
+
+label:    sent_21
+sentence: Management of secretion viscosity may assist in secretion removal and delay VAP development .
+
+ppatt:
+	?a may assist in ?b
+		?a: Management of secretion viscosity
+		?b: secretion removal
+	?a delay ?b
+		?a: Management of secretion viscosity
+		?b: VAP development
+
+
+label:    sent_22
+sentence: Infection is defined clinically , but wound cultures assist in identification of causative pathogens .
+
+ppatt:
+	?a is defined clinically
+		?a: Infection
+	?a assist in ?b
+		?a: wound cultures
+		?b: identification of causative pathogens
+
+
+label:    sent_23
+sentence: Proportional assist ventilation and neurally adjusted ventilatory assist .
+
+ppatt:
+
+
+
+label:    sent_24
+sentence: Pulmonary embolism in a patient with a biventricular assist device--imaging with multislice computed tomography .
+
+ppatt:
+
+
+
+label:    sent_25
+sentence: Such can assist nursing students to gain greater positive experiences in their profession .
+
+ppatt:
+	?a can assist ?b to gain ?c in ?d
+		?a: Such
+		?b: nursing students
+		?c: greater positive experiences
+		?d: their profession
+
+
+label:    sent_26
+sentence: To assist new deans and those aspiring to be deans , Jana L . Robotic surgery is unlikely to create a cure , but may assist surgery .
+
+ppatt:
+	assist ?a ?b
+		?a: new deans
+		?b: Robotic surgery
+	assist ?a ?b
+		?a: those aspiring to be deans
+		?b: Robotic surgery
+	?a aspiring to be deans
+		?a: those
+	?a is/are Jana L
+		?a: deans
+	?a is unlikely to create ?b
+		?a: Robotic surgery
+		?b: a cure
+	?a may assist ?b
+		?a: Robotic surgery
+		?b: surgery
+
+
+label:    sent_27
+sentence: To assist new deans and those aspiring to be deans , Jana L .
+
+ppatt:
+	assist ?a
+		?a: new deans
+	assist ?a
+		?a: those aspiring to be deans
+	?a aspiring to be deans
+		?a: those
+	?a is/are Jana L
+		?a: deans
+
+

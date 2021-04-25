@@ -1,0 +1,273 @@
+label:    sent_1
+sentence: Both samples were more likely to fund a pharmaceutical that was used for the treatment of severe illness .
+
+ppatt:
+	?a were more likely to fund ?b
+		?a: Both samples
+		?b: a pharmaceutical that was used for the treatment of severe illness
+	?a was used for ?b
+		?a: a pharmaceutical
+		?b: the treatment of severe illness
+
+
+label:    sent_2
+sentence: This study seeks to build on previous findings that overweight individuals are more likely than their skinnier peers to rely on themselves , rather than family , to fund their education .
+
+ppatt:
+	?a seeks to build on ?b
+		?a: This study
+		?b: previous findings that overweight individuals are more likely than their skinnier peers to rely on themselves , rather than family , to fund their education
+	?a are more likely than ?b to rely on ?c , to fund ?d
+		?a: overweight individuals
+		?b: their skinnier peers
+		?c: themselves
+		?d: their education
+	?a are more likely than ?b to rely on ?c , to fund ?d
+		?a: overweight individuals
+		?b: their skinnier peers
+		?c: family
+		?d: their education
+
+
+label:    sent_3
+sentence: Policy-level recommendations to redress chemical site vulnerabilities and the related ongoing threats to the nation 's security are as follows : a ) specify detailed requirements for chemical site assessment and security ; b ) mandate audit inspections supported by significant penalties for cases of noncompliance ; c ) require progress toward achieving inherently safer processes , including the minimizing of storage of highly hazardous chemicals ; d ) examine and require additional effective actions in prevention , emergency preparedness , and response and remediation ; e ) mandate and fund the upgrading of emergency communication systems ; and f ) involve workers and community members in plan creation and equip and prepare them to prevent and respond effectively to an incident .
+
+ppatt:
+	?a redress ?b
+		?a: Policy-level recommendations
+		?b: chemical site vulnerabilities
+	?a redress ?b
+		?a: Policy-level recommendations
+		?b: the related ongoing threats to the nation 's security
+	?a are as follows
+		?a: Policy-level recommendations to redress chemical site vulnerabilities and the related ongoing threats to the nation 's security
+	?a specify ?b
+		?a: Policy-level recommendations to redress chemical site vulnerabilities and the related ongoing threats to the nation 's security
+		?b: detailed requirements for chemical site assessment and security
+	?a require ?b
+		?a: Policy-level recommendations to redress chemical site vulnerabilities and the related ongoing threats to the nation 's security
+		?b: progress toward achieving inherently safer processes , including the minimizing of storage of highly hazardous chemicals
+	?a achieving ?b
+		?a: progress
+		?b: inherently safer processes , including the minimizing of storage of highly hazardous chemicals
+	?a examine ?b
+		?a: Policy-level recommendations to redress chemical site vulnerabilities and the related ongoing threats to the nation 's security
+		?b: additional effective actions in prevention , emergency preparedness , and response and remediation
+	?a require
+		?a: Policy-level recommendations to redress chemical site vulnerabilities and the related ongoing threats to the nation 's security
+	?a mandate ?b
+		?a: Policy-level recommendations to redress chemical site vulnerabilities and the related ongoing threats to the nation 's security
+		?b: the upgrading of emergency communication systems
+	?a fund
+		?a: Policy-level recommendations to redress chemical site vulnerabilities and the related ongoing threats to the nation 's security
+	?a involve ?b in ?c
+		?a: Policy-level recommendations to redress chemical site vulnerabilities and the related ongoing threats to the nation 's security
+		?b: workers
+		?c: plan creation
+	?a involve ?b in ?c
+		?a: Policy-level recommendations to redress chemical site vulnerabilities and the related ongoing threats to the nation 's security
+		?b: community members
+		?c: plan creation
+	?a equip ?b to prevent to ?c
+		?a: Policy-level recommendations to redress chemical site vulnerabilities and the related ongoing threats to the nation 's security
+		?b: them
+		?c: effectively an incident
+	?a prepare
+		?a: Policy-level recommendations to redress chemical site vulnerabilities and the related ongoing threats to the nation 's security
+	?a equip to respond
+		?a: Policy-level recommendations to redress chemical site vulnerabilities and the related ongoing threats to the nation 's security
+
+
+label:    sent_4
+sentence: Following a standardized assessment by case managers , an autonomy support benefit would be determined to fund " in kind " public or private services or a " cash-for-care " allowance for older people to purchase services .
+
+ppatt:
+	Following ?a , ?b would be determined to fund ?c in ?d to purchase ?e
+		?a: a standardized assessment by case managers
+		?b: an autonomy support benefit
+		?c: "
+		?d: kind " public or private services or a " cash-for-care " allowance for older people
+		?e: services
+
+
+label:    sent_5
+sentence: One of the reasons pharmacy is on the ascendance in these countries is government commitment to fund and support competitive , well-run pharmacy programs .
+
+ppatt:
+	?a fund and support
+		?a: commitment
+
+
+label:    sent_6
+sentence: Generics competition from India made an originator brand manufacturer of a AIDS drug willing to supply the drug at a cheaper rate to poorer countries , whereas a Brazilian national program to produce nonprofit generics against protected patent of originator brand products to provide free AIDS drugs had cut the number of people dying by half and hospitalization by 80 % , which saved about half a billion US dollars , making the program almost fund itself .
+
+ppatt:
+	?a made ?b
+		?a: Generics competition from India
+		?b: an originator brand manufacturer of a AIDS drug willing to supply the drug at a cheaper rate to poorer countries
+	?a willing to supply ?b at ?c
+		?a: a AIDS drug
+		?b: the drug
+		?c: a cheaper rate to poorer countries
+	?a produce ?b against ?c
+		?a: a Brazilian national program
+		?b: nonprofit generics
+		?c: protected patent of originator brand products to provide free AIDS drugs
+	?a provide ?b
+		?a: protected patent of originator brand products
+		?b: free AIDS drugs
+	?a had cut ?b
+		?a: a Brazilian national program to produce nonprofit generics against protected patent of originator brand products to provide free AIDS drugs
+		?b: the number of people dying by half and hospitalization by 80 % which saved about half a billion US dollars making the program almost fund itself
+	?a dying by ?b by ?c
+		?a: people
+		?b: half
+		?c: 80 % which saved about half a billion US dollars making the program almost fund itself
+	?a dying by ?b by ?c
+		?a: people
+		?b: hospitalization
+		?c: 80 % which saved about half a billion US dollars making the program almost fund itself
+	?a saved ?b
+		?a: 80 %
+		?b: a billion US dollars
+	?a about half
+		?a: which
+	making ?a almost fund ?b
+		?a: the program
+		?b: itself
+
+
+label:    sent_7
+sentence: Federal and state government appropriated monies to fund this role to alleviate the difficulties in coordinating health care between the child welfare system and health care providers .
+
+ppatt:
+	?a appropriated ?b to fund ?c to alleviate ?d
+		?a: Federal and state government
+		?b: monies
+		?c: this role
+		?d: the difficulties
+	?a coordinating ?b between ?c
+		?a: Federal and state government
+		?b: health care
+		?c: the child welfare system
+	?a coordinating ?b between ?c
+		?a: Federal and state government
+		?b: health care
+		?c: health care providers
+
+
+label:    sent_8
+sentence: Society should adequately fund such programs so that they become a reality .
+
+ppatt:
+	?a should adequately fund ?b
+		?a: Society
+		?b: such programs
+	so that ?a become a reality
+		?a: they
+
+
+label:    sent_9
+sentence: Besides , it remains to be seen to what extent policy-makers are able to achieve an optimally designed risk adjustment fund and whether the sickness funds themselves do not misinterpret the reform as nationalization in disguise and consequently delegate their management responsibilities back to the policy-makers .
+
+ppatt:
+	Besides , ?a remains to be seen ?b
+		?a: it
+		?b: SOMETHING := to what extent policy-makers are able to achieve an optimally designed risk adjustment fund
+	to ?a ?b ?c are able to achieve ?d
+		?a: what
+		?b: extent
+		?c: policy-makers
+		?d: an optimally designed risk adjustment fund
+	?a ?b do not misinterpret ?c as ?d
+		?a: the sickness funds
+		?b: themselves
+		?c: the reform
+		?d: nationalization in disguise
+	?a consequently delegate ?b back to ?c
+		?a: the sickness funds
+		?b: their management responsibilities
+		?c: the policy-makers
+
+
+label:    sent_10
+sentence: Expressions of concern about the equitable allocation of departmental resources for research have abated , and energies have focused increasingly on how to do research and less on how to fund it . Significant investment has been made in recent years to spur the adoption of EHRs and to fund the creation of health information exchanges .
+
+ppatt:
+	?a have abated
+		?a: Expressions of concern about the equitable allocation of departmental resources for research
+	?a have focused increasingly
+		?a: energies
+	?a how to do research
+		?a: energies
+	?a how to fund ?b
+		?a: energies
+		?b: it
+	?a has been made in ?b to spur ?c
+		?a: Significant investment
+		?b: recent years
+		?c: the adoption of EHRs
+	?a has been made to to fund ?b
+		?a: Significant investment
+		?b: the creation of health information exchanges
+
+
+label:    sent_11
+sentence: The first element assesses the general climate ( how those who fund research , universities , researchers and users of research support or place value on efforts to link research to action ) . In most healthcare systems , third-party payers fund the costs for patients admitted to hospital for Clostridium difficile infection ( CDI ) whereas , for CDI cases arising as complications of hospitalization , not all related costs are refundable to the hospital .
+
+ppatt:
+	?a assesses ?b . In ?c
+		?a: The first element
+		?b: the general climate ( how those who fund research , universities , researchers and users of research support or place value on efforts to link research to action
+		?c: most healthcare systems
+	?a fund ?b
+		?a: those
+		?b: research
+	?a fund ?b
+		?a: those
+		?b: universities
+	?a fund ?b
+		?a: those
+		?b: researchers
+	?a fund ?b
+		?a: those
+		?b: users of research
+	?a how ?b support ?c on ?d
+		?a: the general climate
+		?b: those who fund research , universities , researchers and users of research
+		?c: value
+		?d: efforts to link research to action
+	?a link ?b
+		?a: efforts
+		?b: research to action
+	?a fund ?b
+		?a: third-party payers
+		?b: the costs for patients admitted to hospital for Clostridium difficile infection
+	?a admitted to ?b
+		?a: patients
+		?b: hospital for Clostridium difficile infection
+	?a is/are CDI
+		?a: Clostridium difficile infection
+	?a arising as ?b
+		?a: CDI cases
+		?b: complications of hospitalization
+	for ?a , ?b are refundable to ?c
+		?a: CDI cases arising as complications of hospitalization
+		?b: not all related costs
+		?c: the hospital
+
+
+label:    sent_12
+sentence: The facility may also fund parish nursing exhibitions at community events and conferences .
+
+ppatt:
+	?a may also fund ?b at ?c
+		?a: The facility
+		?b: parish nursing exhibitions
+		?c: community events
+	?a may also fund ?b at ?c
+		?a: The facility
+		?b: parish nursing exhibitions
+		?c: conferences
+
+

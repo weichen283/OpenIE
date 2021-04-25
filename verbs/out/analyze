@@ -1,0 +1,318 @@
+label:    sent_1
+sentence: The usefulness of concept mapping to analyze problems was demonstrated . T-Student tests and Chi-square tests were applied to analyze the data . To analyze the association between DTI and tumor stage .
+
+ppatt:
+	?a analyze ?b
+		?a: The usefulness of concept mapping
+		?b: problems
+	?a was demonstrated
+		?a: The usefulness of concept mapping to analyze problems
+	?a were applied to analyze ?b
+		?a: T-Student tests
+		?b: the data
+	?a were applied to analyze ?b
+		?a: Chi-square tests
+		?b: the data
+	?a analyze ?b
+		?a: T-Student tests
+		?b: the association between DTI and tumor stage
+	?a analyze ?b
+		?a: Chi-square tests
+		?b: the association between DTI and tumor stage
+
+
+label:    sent_2
+sentence: Repeated measures models were used to analyze feeding patterns during the day . Pearson 's correlation was used to analyze the correction over time .
+
+ppatt:
+	?a were used to analyze ?b during ?c
+		?a: Repeated measures models
+		?b: feeding patterns
+		?c: the day
+	?a was used to analyze ?b
+		?a: Pearson 's correlation
+		?b: the correction over time
+
+
+label:    sent_3
+sentence: To analyze early and midterm complications after hybrid aortic arch repair ( HAR ) . To analyze cases of ovarian leiomyomas and to discuss the proper surgical management .
+
+ppatt:
+	analyze ?a
+		?a: early and midterm complications after hybrid aortic arch repair
+	?a is/are HAR
+		?a: hybrid aortic arch repair
+	analyze ?a
+		?a: cases of ovarian leiomyomas
+	discuss ?a
+		?a: the proper surgical management
+
+
+label:    sent_4
+sentence: Being able to model and analyze their behavior is crucial for understanding their function .
+
+ppatt:
+	Being able to model ?a
+		?a: their behavior
+	Being able to analyze ?a
+		?a: their behavior
+	?a is crucial
+		?a: their behavior
+	?a understanding ?b
+		?a: their behavior
+		?b: their function
+
+
+label:    sent_5
+sentence: We fabricate , pattern , and analyze thin films composed of multilayer graphene nanoribbons .
+
+ppatt:
+	?a fabricate ?b
+		?a: We
+		?b: pattern
+	?a analyze ?b
+		?a: We
+		?b: thin films composed of multilayer graphene nanoribbons
+	?a composed of ?b
+		?a: thin films
+		?b: multilayer graphene nanoribbons
+
+
+label:    sent_6
+sentence: We analyze archival evidence on the physical stature of 19th-century female US passport applicants .
+
+ppatt:
+	?a analyze ?b
+		?a: We
+		?b: archival evidence on the physical stature of 19th-century female US passport applicants
+
+
+label:    sent_7
+sentence: We analyze data from a longitudinal survey conducted between 1999 and 2003 .
+
+ppatt:
+	?a analyze ?b
+		?a: We
+		?b: data from a longitudinal survey conducted between 1999 and 2003
+	?a conducted between ?b
+		?a: a longitudinal survey
+		?b: 1999
+	?a conducted between ?b
+		?a: a longitudinal survey
+		?b: 2003
+
+
+label:    sent_8
+sentence: Many studies analyze the explantation procedure of pectorally placed TIVAPs .
+
+ppatt:
+	?a analyze ?b
+		?a: Many studies
+		?b: the explantation procedure of pectorally placed TIVAPs
+
+
+label:    sent_9
+sentence: In the present study , we numerically analyze the consequences of relaxing this assumption .
+
+ppatt:
+	In ?a , ?b numerically analyze ?c
+		?a: the present study
+		?b: we
+		?c: the consequences of relaxing this assumption
+	?a relaxing ?b
+		?a: the consequences
+		?b: this assumption
+
+
+label:    sent_10
+sentence: In this report , we analyze epigenetic modifications that allow enhancer activation in glia .
+
+ppatt:
+	In ?a , ?b analyze ?c
+		?a: this report
+		?b: we
+		?c: epigenetic modifications that allow enhancer activation in glia
+	?a allow ?b
+		?a: epigenetic modifications
+		?b: enhancer activation in glia
+
+
+label:    sent_11
+sentence: In this study , we analyze the setup of the KRAS scheme .
+
+ppatt:
+	In ?a , ?b analyze ?c
+		?a: this study
+		?b: we
+		?c: the setup of the KRAS scheme
+
+
+label:    sent_12
+sentence: Our objective was to analyze and describe the informatics of this program .
+
+ppatt:
+	?a was to analyze ?b
+		?a: Our objective
+		?b: the informatics of this program
+	?a was to describe
+		?a: Our objective
+
+
+label:    sent_13
+sentence: This study was designed to analyze and quantitate phospholipid components of liposomes .
+
+ppatt:
+	?a was designed to analyze ?b
+		?a: This study
+		?b: phospholipid components of liposomes
+	?a was designed to quantitate
+		?a: This study
+
+
+label:    sent_14
+sentence: To analyze and compare manual and computerized measurements of SVI in CT images .
+
+ppatt:
+	analyze ?a in ?b
+		?a: manual and computerized measurements of SVI
+		?b: CT images
+	compare ?a
+		?a: manual and computerized measurements of SVI
+
+
+label:    sent_15
+sentence: We analyze basic mathematical properties of the proposed model and present some numerical simulations .
+
+ppatt:
+	?a analyze ?b
+		?a: We
+		?b: basic mathematical properties of the proposed model
+	?a present ?b
+		?a: We
+		?b: some numerical simulations
+
+
+label:    sent_16
+sentence: We analyze the retinex algorithm and discuss its general properties .
+
+ppatt:
+	?a analyze ?b
+		?a: We
+		?b: the retinex algorithm
+	?a discuss ?b
+		?a: We
+		?b: its general properties
+
+
+label:    sent_17
+sentence: Pathologists typically analyze biopsy specimens and report their opinions in a qualitative fashion .
+
+ppatt:
+	?a typically analyze ?b
+		?a: Pathologists
+		?b: biopsy specimens
+	?a report ?b in ?c
+		?a: Pathologists
+		?b: their opinions
+		?c: a qualitative fashion
+
+
+label:    sent_18
+sentence: To analyze differences for prostate cancer by race and in rural areas .
+
+ppatt:
+	analyze ?a
+		?a: differences for prostate cancer by race and in rural areas
+
+
+label:    sent_19
+sentence: Summarize and analyze the complications both during operation and post operation .
+
+ppatt:
+	Summarize ?a during ?b
+		?a: the complications
+		?b: operation
+	Summarize ?a during ?b
+		?a: the complications
+		?b: post operation
+	analyze ?a
+		?a: the complications
+
+
+label:    sent_20
+sentence: A primer on how to analyze contracts and avoid the traps : Part 2 .
+
+ppatt:
+	?a how to analyze ?b
+		?a: A primer
+		?b: contracts
+	avoid ?a
+		?a: the traps
+
+
+label:    sent_21
+sentence: In this review we analyze these recent findings and attempt to reconcile these observations .
+
+ppatt:
+	In ?a ?b analyze ?c
+		?a: this review
+		?b: we
+		?c: these recent findings
+	In ?a ?b analyze ?c
+		?a: this review
+		?b: we
+		?c: attempt
+	?a reconcile ?b
+		?a: we
+		?b: these observations
+
+
+label:    sent_22
+sentence: We analyze the receiver theoretically and in a proof-of-concept experiment .
+
+ppatt:
+	?a analyze ?b theoretically and in a proof-of-concept experiment
+		?a: We
+		?b: the receiver
+
+
+label:    sent_23
+sentence: We also analyze the characteristics of ERD2s within a species and among different species .
+
+ppatt:
+	?a also analyze ?b
+		?a: We
+		?b: the characteristics of ERD2s within a species and among different species
+
+
+label:    sent_24
+sentence: For analyze of the results of the study were selected 409 patients .
+
+ppatt:
+	For ?a were selected ?b
+		?a: analyze of the results of the study
+		?b: 409 patients
+
+
+label:    sent_25
+sentence: Ouabain was used as the selective agent to quantitatively analyze for chemically induced mutants .
+
+ppatt:
+	?a was used as ?b to quantitatively analyze for ?c
+		?a: Ouabain
+		?b: the selective agent
+		?c: chemically induced mutants
+
+
+label:    sent_26
+sentence: To analyze in more detail the genetic factors , we examined 12 sickle syndromes .
+
+ppatt:
+	analyze in ?a ?b
+		?a: more detail the genetic factors
+		?b: we
+	?a examined ?b
+		?a: we
+		?b: 12 sickle syndromes
+
+

@@ -1,0 +1,260 @@
+label:    sent_1
+sentence: For-profit : Submit request for for-profit license from the web-site .
+
+ppatt:
+
+
+
+label:    sent_2
+sentence: The complete source code is available under an open-source license at http : //pharmer .
+
+ppatt:
+	?a is available under ?b at ?c
+		?a: The complete source code
+		?b: an open-source license
+		?c: http : //pharmer
+
+
+label:    sent_3
+sentence: sourceforge.net . VIP : an agent with license to kill infective parasites .
+
+ppatt:
+	?a kill ?b
+		?a: an agent with license
+		?b: infective parasites
+
+
+label:    sent_4
+sentence: Taking license with natural killer cell maturation and repertoire development .
+
+ppatt:
+	Taking ?a
+		?a: license with natural killer cell maturation and repertoire development
+
+
+label:    sent_5
+sentence: Top 10 questions to ask when looking at an EHR license agreement .
+
+ppatt:
+	?a ask
+		?a: Top 10 questions
+	when looking at ?a
+		?a: an EHR license agreement
+
+
+label:    sent_6
+sentence: The suggestion is to review official medical indications for driving license .
+
+ppatt:
+	?a is to review ?b
+		?a: The suggestion
+		?b: official medical indications
+	?a driving ?b
+		?a: official medical indications
+		?b: license
+
+
+label:    sent_7
+sentence: Driving behaviors and accident risk under lifetime license revocation .
+
+ppatt:
+	Driving ?a under ?b
+		?a: behaviors
+		?b: lifetime license revocation
+	Driving ?a under ?b
+		?a: accident risk
+		?b: lifetime license revocation
+
+
+label:    sent_8
+sentence: New twist on license renewal .
+
+ppatt:
+
+
+
+label:    sent_9
+sentence: Graduated drivers license programs and rural teenage motor vehicle fatalities .
+
+ppatt:
+	?a license ?b
+		?a: Graduated drivers
+		?b: programs
+	?a license ?b
+		?a: Graduated drivers
+		?b: rural teenage motor vehicle fatalities
+
+
+label:    sent_10
+sentence: After her accident , her driving license was revoked . 2 license .
+
+ppatt:
+	After ?a , ?b was revoked ?c
+		?a: her accident
+		?b: her driving license
+		?c: 2 license
+
+
+label:    sent_11
+sentence: Fifty-eight of 100 patients possessing a driver 's license used psychotropic medication .
+
+ppatt:
+	?a possessing 's ?b
+		?a: Fifty-eight of 100 patients
+		?b: a driver license
+	?a used ?b
+		?a: Fifty-eight of 100 patients possessing a driver 's license
+		?b: psychotropic medication
+
+
+label:    sent_12
+sentence: Driver 's license as " old photo " . Compulsory license for cable systems -- Copyright Office , Library of Congress . Chaotic license for genetic instability and cancer .
+
+ppatt:
+
+
+
+label:    sent_13
+sentence: The Cdt1 protein is required to license DNA for replication in fission yeast . Inflammation .
+
+ppatt:
+	?a is required to license ?b for ?c in ?d
+		?a: The Cdt1 protein
+		?b: DNA
+		?c: replication
+		?d: fission yeast . Inflammation
+
+
+label:    sent_14
+sentence: Neutrophil extracellular traps license macrophages for cytokine production in atherosclerosis .
+
+ppatt:
+	?a license ?b for ?c
+		?a: Neutrophil extracellular traps
+		?b: macrophages
+		?c: cytokine production in atherosclerosis
+
+
+label:    sent_15
+sentence: One very common approach is to license the product via contract .
+
+ppatt:
+	?a is to license ?b via ?c
+		?a: One very common approach
+		?b: the product
+		?c: contract
+
+
+label:    sent_16
+sentence: Released under the GPL license and downloadable from http : //bioinformatics .
+
+ppatt:
+	Released under ?a from ?b
+		?a: the GPL license
+		?b: http : //bioinformatics
+
+
+label:    sent_17
+sentence: uwaterloo .ca/~scli / OptGDT / . [Possession of weapon and hunting license : the role of the physician ] . [Drugs and driving license ( author 's transl ) ] . Availability of driver 's license master lists for use in government-sponsored public health research .
+
+ppatt:
+	?a is/are OptGDT
+		?a: uwaterloo .ca/~scli . of weapon and hunting license
+	?a is/are OptGDT
+		?a: [Possession
+	driving ?a
+		?a: license
+	?a is/are ?b 's transl
+		?a: license
+		?b: author
+	?a lists for ?b
+		?a: uwaterloo .ca/~scli . of weapon and hunting license
+		?b: use in government-sponsored public health research
+	?a lists for ?b
+		?a: [Possession
+		?b: use in government-sponsored public health research
+
+
+label:    sent_18
+sentence: Obtaining driver 's license records for use in evaluating alcoholism treatment .
+
+ppatt:
+	Obtaining 's ?a
+		?a: driver license
+	?a records for ?b
+		?a: SOMETHING := Obtaining driver 's license
+		?b: use
+	?a evaluating ?b
+		?a: Obtaining driver 's license
+		?b: alcoholism treatment
+
+
+label:    sent_19
+sentence: Beyond secondary structure : primary-sequence determinants license pri-miRNA hairpins for processing .
+
+ppatt:
+	Beyond ?a : ?b license ?c for ?d
+		?a: secondary structure
+		?b: primary-sequence determinants
+		?c: pri-miRNA hairpins
+		?d: processing
+
+
+label:    sent_20
+sentence: Potential solutions include a national telemedicine license or license reciprocity laws for telemedicine .
+
+ppatt:
+	?a include ?b
+		?a: Potential solutions
+		?b: a national telemedicine license for telemedicine
+	?a include ?b
+		?a: Potential solutions
+		?b: license reciprocity laws
+
+
+label:    sent_21
+sentence: Alcohol price elasticities in control and license states in the United States , 1982-99 .
+
+ppatt:
+	?a is/are 1982-99
+		?a: the United States
+
+
+label:    sent_22
+sentence: Continuing medical education and license renewal .
+
+ppatt:
+	Continuing ?a
+		?a: medical education
+	Continuing ?a
+		?a: license renewal
+
+
+label:    sent_23
+sentence: Treatment of a professional degree and license on divorce .
+
+ppatt:
+
+
+
+label:    sent_24
+sentence: Thinking is not limited to a particular license or certification level .
+
+ppatt:
+	?a is not limited to ?b
+		?a: Thinking
+		?b: a particular license
+	?a is not limited to ?b
+		?a: Thinking
+		?b: certification level
+
+
+label:    sent_25
+sentence: Years with driving license and education level were significant predictors of sign comprehensibility .
+
+ppatt:
+	?a were significant predictors of ?b
+		?a: Years with driving license and education level
+		?b: sign comprehensibility
+
+

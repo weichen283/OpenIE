@@ -1,0 +1,77 @@
+label:    sent_1
+sentence: A non-approximative equation was used to linearize the titration data . We have used x-rays to linearize circular Chr .
+
+ppatt:
+	?a was used to linearize ?b
+		?a: A non-approximative equation
+		?b: the titration data
+	?a have used ?b to linearize ?c
+		?a: We
+		?b: x-rays
+		?c: circular Chr
+
+
+label:    sent_2
+sentence: Procedures were devised to linearize the usually curved calibration lines for turbidimetric microbiological assays .
+
+ppatt:
+	?a were devised to linearize ?b for ?c
+		?a: Procedures
+		?b: the usually curved calibration lines
+		?c: turbidimetric microbiological assays
+
+
+label:    sent_3
+sentence: Dendritic spines linearize the summation of excitatory potentials . A nystagmus strategy to linearize the vestibulo-ocular reflex .
+
+ppatt:
+	?a linearize ?b ?c
+		?a: Dendritic spines
+		?b: the summation of excitatory potentials
+		?c: A nystagmus strategy to linearize the vestibulo-ocular reflex
+	?a linearize ?b
+		?a: A nystagmus strategy
+		?b: the vestibulo-ocular reflex
+
+
+label:    sent_4
+sentence: Two other contrast expressions also linearize the data on log-log plots .
+
+ppatt:
+	?a also linearize ?b
+		?a: Two other contrast expressions
+		?b: the data on log-log plots
+
+
+label:    sent_5
+sentence: The method does not utilize gamma-irradiation to linearize phytoplasma chromosomes prior to electrophoresis .
+
+ppatt:
+	?a does not utilize ?b to linearize ?c prior to ?d
+		?a: The method
+		?b: gamma-irradiation
+		?c: phytoplasma chromosomes
+		?d: electrophoresis
+
+
+label:    sent_6
+sentence: They require to linearize the problem by computing the logarithm of the DWI .
+
+ppatt:
+	?a require to linearize ?b
+		?a: They
+		?b: the problem
+	?a computing ?b
+		?a: They
+		?b: the logarithm of the DWI
+
+
+label:    sent_7
+sentence: Still it is difficult to linearize about it .
+
+ppatt:
+	Still ?a is difficult to linearize about ?b
+		?a: it
+		?b: it
+
+

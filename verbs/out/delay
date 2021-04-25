@@ -1,0 +1,296 @@
+label:    sent_1
+sentence: HO can interfere with prosthetic use and walking and delay patient rehabilitation .
+
+ppatt:
+	?a can interfere with ?b
+		?a: HO
+		?b: prosthetic use
+	?a can interfere with ?b
+		?a: HO
+		?b: walking
+	?a can interfere with ?b
+		?a: HO
+		?b: patient rehabilitation
+
+
+label:    sent_2
+sentence: Do statins improve outcomes and delay the progression of non-rheumatic calcific aortic stenosis ? Overexpression of rififylin is known to delay endocytic recycling .
+
+ppatt:
+	Do ?a improve ?b
+		?a: statins
+		?b: outcomes
+	?a delay ?b
+		?a: statins
+		?b: the progression of non-rheumatic calcific aortic stenosis
+	?a is known to delay ?b
+		?a: Overexpression of rififylin
+		?b: endocytic recycling
+
+
+label:    sent_3
+sentence: The mechanisms that delay the maturation of photoreceptors remain unknown .
+
+ppatt:
+	?a delay ?b
+		?a: The mechanisms
+		?b: the maturation of photoreceptors
+	?a remain unknown
+		?a: The mechanisms that delay the maturation of photoreceptors
+
+
+label:    sent_4
+sentence: Real-time ultrawide-band group delay profile monitoring through low-noise incoherent temporal interferometry .
+
+ppatt:
+
+
+
+label:    sent_5
+sentence: Coexisting depression should not delay treatment for CPP .
+
+ppatt:
+	?a should not delay ?b
+		?a: Coexisting depression
+		?b: treatment for CPP
+
+
+label:    sent_6
+sentence: Radiotherapy is useful for palliation of rectal cancer and may delay postoperative tumor recurrence .
+
+ppatt:
+	?a is useful for ?b
+		?a: Radiotherapy
+		?b: palliation of rectal cancer
+	?a may delay ?b
+		?a: Radiotherapy
+		?b: postoperative tumor recurrence
+
+
+label:    sent_7
+sentence: This treatment did not hasten or delay the onset of graft rejection .
+
+ppatt:
+	?a did not hasten ?b
+		?a: This treatment
+		?b: the onset of graft rejection
+	?a delay
+		?a: This treatment
+
+
+label:    sent_8
+sentence: However , MRI is expensive and can delay cervical clearance .
+
+ppatt:
+	However , ?a is expensive
+		?a: MRI
+	?a can delay ?b
+		?a: MRI
+		?b: cervical clearance
+
+
+label:    sent_9
+sentence: Brain derived neurotrophic factor is known to delay retinal ganglion cell death after axotomy .
+
+ppatt:
+	?a is known to delay ?b after ?c
+		?a: Brain derived neurotrophic factor
+		?b: retinal ganglion cell death
+		?c: axotomy
+
+
+label:    sent_10
+sentence: With extensive loss of functional myocardium IABP could merely delay irreversible cardiogenic shock .
+
+ppatt:
+	With ?a could merely delay ?b
+		?a: extensive loss of functional myocardium IABP
+		?b: irreversible cardiogenic shock
+
+
+label:    sent_11
+sentence: This study aimed to examine factors that delay weaning from ventilation after cardiac surgery . Postoperative anaemia may delay recovery , but transfusion carries inherent risks .
+
+ppatt:
+	?a aimed to examine ?b ?c
+		?a: This study
+		?b: factors that delay weaning from ventilation after cardiac surgery
+		?c: SOMETHING := Postoperative anaemia may delay recovery
+	?a delay ?b
+		?a: factors
+		?b: weaning from ventilation after cardiac surgery
+	?a may delay ?b
+		?a: Postoperative anaemia
+		?b: recovery
+	?a carries ?b
+		?a: transfusion
+		?b: inherent risks
+
+
+label:    sent_12
+sentence: This therapy can delay tumor growth and noticeably inhibit tumor angiogenesis .
+
+ppatt:
+	?a can delay ?b
+		?a: This therapy
+		?b: tumor growth
+	?a noticeably inhibit ?b
+		?a: This therapy
+		?b: tumor angiogenesis
+
+
+label:    sent_13
+sentence: Unintended peri-articular injection can cause complications and an unsuccessful aspiration can delay diagnosis .
+
+ppatt:
+	?a can cause ?b
+		?a: Unintended peri-articular injection
+		?b: complications
+	?a can delay ?b
+		?a: an unsuccessful aspiration
+		?b: diagnosis
+
+
+label:    sent_14
+sentence: Real-time random delay compensation with prediction-based digital redesign . Ability to delay gratification and BMI in preadolescence .
+
+ppatt:
+	?a delay ?b
+		?a: Ability
+		?b: gratification in preadolescence
+	?a delay ?b
+		?a: Ability
+		?b: BMI
+
+
+label:    sent_15
+sentence: In summary , NACA and ERGO did not delay skeletal muscle fatigue in vitro .
+
+ppatt:
+	In ?a , ?b did not delay ?c in vitro
+		?a: summary
+		?b: NACA
+		?c: skeletal muscle fatigue
+	In ?a , ?b did not delay ?c in vitro
+		?a: summary
+		?b: ERGO
+		?c: skeletal muscle fatigue
+
+
+label:    sent_16
+sentence: Thrombophilic-type placental pathologies and skeletal growth delay following maternal administration of angiostatin4.5 in mice .
+
+ppatt:
+
+
+
+label:    sent_17
+sentence: The relationship between socio-demographic characteristics of patients and diagnostic delay in acute pulmonary thromboembolism .
+
+ppatt:
+
+
+
+label:    sent_18
+sentence: RCN criticises delay in replacing England 's chief nursing officer .
+
+ppatt:
+	?a criticises ?b
+		?a: RCN
+		?b: delay
+	?a replacing 's ?b
+		?a: RCN
+		?b: England chief nursing officer
+
+
+label:    sent_19
+sentence: Do n't delay but scale the pay : some lessons learned about stroke rehabilitation .
+
+ppatt:
+	Do n't delay ?a
+		?a: the pay
+	scale ?a
+		?a: the pay
+
+
+label:    sent_20
+sentence: Maternal choice to delay or avoid childbirth is the most plausible explanation .
+
+ppatt:
+	?a delay ?b
+		?a: Maternal choice
+		?b: childbirth
+	?a avoid
+		?a: Maternal choice
+	?a is the most plausible explanation
+		?a: Maternal choice to delay or avoid childbirth
+
+
+label:    sent_21
+sentence: Varus rotational osteotomies are considered one option to delay or eliminate total hip arthroplasty .
+
+ppatt:
+	?a are considered ?b
+		?a: Varus rotational osteotomies
+		?b: one option to delay or eliminate total hip arthroplasty
+	?a delay ?b
+		?a: one option
+		?b: total hip arthroplasty
+	eliminate ?a
+		?a: total hip arthroplasty
+
+
+label:    sent_22
+sentence: Insulin treatment can delay , but does not prevent , diabetic complications .
+
+ppatt:
+	?a can delay
+		?a: Insulin treatment
+	?a does not prevent ?b
+		?a: Insulin treatment
+		?b: diabetic complications
+
+
+label:    sent_23
+sentence: Electro-optical tunable time delay and advance in a silicon feedback-microring resonator . Rg1 can significantly delay and treat the senescence of Sca-1 + HSC .
+
+ppatt:
+	?a ?b can significantly delay ?c
+		?a: Electro-optical tunable time delay in a silicon feedback-microring resonator
+		?b: Rg1
+		?c: the senescence of Sca-1 + HSC
+	?a ?b can significantly delay ?c
+		?a: advance
+		?b: Rg1
+		?c: the senescence of Sca-1 + HSC
+	?a treat
+		?a: Electro-optical tunable time delay in a silicon feedback-microring resonator
+	?a treat
+		?a: advance
+
+
+label:    sent_24
+sentence: Transition delay using control theory . Social support , gender and patient delay . Physical activity may delay dementia .
+
+ppatt:
+	?a using ?b
+		?a: Transition delay
+		?b: control theory
+	?a ?b may delay ?c
+		?a: Transition delay using control theory
+		?b: Social support
+		?c: dementia
+	?a ?b may delay ?c
+		?a: Transition delay using control theory
+		?b: gender
+		?c: dementia
+	?a ?b may delay ?c
+		?a: Transition delay using control theory
+		?b: patient delay
+		?c: dementia
+	?a ?b may delay ?c
+		?a: Transition delay using control theory
+		?b: Physical activity
+		?c: dementia
+
+

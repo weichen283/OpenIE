@@ -1,0 +1,202 @@
+label:    sent_1
+sentence: During such circumstances , triage is instituted to allocate scarce medical resources .
+
+ppatt:
+	During ?a , ?b is instituted to allocate ?c
+		?a: such circumstances
+		?b: triage
+		?c: scarce medical resources
+
+
+label:    sent_2
+sentence: The method uses FY 2003 DCGs to allocate VHC funds for FY 2004 .
+
+ppatt:
+	?a uses ?b
+		?a: The method
+		?b: FY 2003 DCGs
+	?a allocate ?b
+		?a: The method
+		?b: VHC funds for FY 2004
+
+
+label:    sent_3
+sentence: We used these probabilities retrospectively to allocate advanced life support or basic life support .
+
+ppatt:
+	?a used ?b
+		?a: We
+		?b: these probabilities
+	?a retrospectively to allocate ?b
+		?a: We
+		?b: advanced life support
+	?a retrospectively to allocate ?b
+		?a: We
+		?b: basic life support
+
+
+label:    sent_4
+sentence: To allocate resources ethically under DRGs , we need an expanded medical ethics .
+
+ppatt:
+	allocate ?a ethically under ?b ?c
+		?a: resources
+		?b: DRGs
+		?c: we
+	?a need ?b
+		?a: we
+		?b: an expanded medical ethics
+
+
+label:    sent_5
+sentence: Most project planners are reluctant to allocate substantial proportions of their budgets to evaluation .
+
+ppatt:
+	?a are reluctant to allocate ?b
+		?a: Most project planners
+		?b: substantial proportions of their budgets to evaluation
+
+
+label:    sent_6
+sentence: Animals have to allocate limited resources over different demands , including immune function .
+
+ppatt:
+	?a have to allocate ?b over ?c
+		?a: Animals
+		?b: limited resources
+		?c: different demands , including immune function
+
+
+label:    sent_7
+sentence: Most of the respondents believed that schools should allocate more time for nutrition education . 12-month-old infants allocate increased neural resources to stimuli associated with negative adult emotion .
+
+ppatt:
+	?a believed ?b ?c
+		?a: Most of the respondents
+		?b: SOMETHING := schools should allocate more time for nutrition education
+		?c: SOMETHING := 12-month-old infants allocate increased neural resources to stimuli associated with negative adult emotion
+	?a should allocate ?b
+		?a: schools
+		?b: more time for nutrition education
+	?a allocate ?b
+		?a: 12-month-old infants
+		?b: increased neural resources to stimuli associated with negative adult emotion
+	?a associated with ?b
+		?a: stimuli
+		?b: negative adult emotion
+
+
+label:    sent_8
+sentence: How do I allocate blood products at the end of life ? How hospitals allocate laundry utility costs .
+
+ppatt:
+	How do ?a allocate ?b at ?c
+		?a: I
+		?b: blood products
+		?c: the end of life
+	How ?a allocate ?b
+		?a: hospitals
+		?b: laundry utility costs
+
+
+label:    sent_9
+sentence: This study describes how occupational health professionals allocate their working hours between main tasks .
+
+ppatt:
+	?a describes ?b
+		?a: This study
+		?b: SOMETHING := how occupational health professionals allocate their working hours between main tasks
+	how ?a allocate ?b between ?c
+		?a: occupational health professionals
+		?b: their working hours
+		?c: main tasks
+
+
+label:    sent_10
+sentence: International agencies should allocate funds using cost per couple year of protection .
+
+ppatt:
+	?a should allocate ?b
+		?a: International agencies
+		?b: funds using cost per couple year of protection
+	?a using ?b
+		?a: funds
+		?b: cost per couple year of protection
+
+
+label:    sent_11
+sentence: How we ration and allocate health care resources . Policymakers should be aware of this finding and allocate resources accordingly .
+
+ppatt:
+	How ?a ration ?b
+		?a: we
+		?b: health care resources
+	?a allocate
+		?a: we
+	?a should be aware of ?b
+		?a: Policymakers
+		?b: this finding
+	?a allocate ?b accordingly
+		?a: Policymakers
+		?b: resources
+
+
+label:    sent_12
+sentence: This information is useful and necessary in order to plan and allocate healthcare resources .
+
+ppatt:
+	?a is useful
+		?a: This information
+	?a necessary
+		?a: This information
+	?a order to plan ?b
+		?a: This information
+		?b: healthcare resources
+	?a allocate
+		?a: This information
+
+
+label:    sent_13
+sentence: Market will efficiently allocate the resources , but not always in an ethical manner .
+
+ppatt:
+	?a will efficiently allocate ?b in ?c
+		?a: Market
+		?b: the resources
+		?c: an ethical manner
+
+
+label:    sent_14
+sentence: At low visitation , plants generalize and allocate more to female function .
+
+ppatt:
+	At ?a , ?b generalize
+		?a: low visitation
+		?b: plants
+	?a allocate more to ?b
+		?a: plants
+		?b: female function
+
+
+label:    sent_15
+sentence: However , the Arithmetic subtest has been especially difficult to allocate to one factor .
+
+ppatt:
+	However , ?a has been especially difficult to allocate to ?b
+		?a: the Arithmetic subtest
+		?b: one factor
+
+
+label:    sent_16
+sentence: Mothers allocate to the eggs diverse antioxidants that protect the embryo from oxidative stress .
+
+ppatt:
+	?a allocate to ?b ?c
+		?a: Mothers
+		?b: the eggs
+		?c: diverse antioxidants that protect the embryo from oxidative stress
+	?a protect ?b
+		?a: diverse antioxidants
+		?b: the embryo from oxidative stress
+
+

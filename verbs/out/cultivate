@@ -1,0 +1,254 @@
+label:    sent_1
+sentence: It could also be used to cultivate a lifelong learning habit in medical professionals . ( 6 ) They use apprenticeship and mentoring to cultivate practical wisdom in orders .
+
+ppatt:
+	?a could also be used to cultivate ?b
+		?a: It
+		?b: a lifelong learning habit in medical professionals
+	?a use ?b to cultivate ?c in ?d
+		?a: They
+		?b: apprenticeship
+		?c: practical wisdom
+		?d: orders
+	?a use ?b to cultivate ?c in ?d
+		?a: They
+		?b: mentoring
+		?c: practical wisdom
+		?d: orders
+
+
+label:    sent_2
+sentence: To cultivate a Giardia canis isolate with G. canis virus ( GCV ) . It is possible to cultivate chondrocytes on polyethylene surfaces .
+
+ppatt:
+	cultivate ?a ?b
+		?a: a Giardia canis isolate with G. canis virus
+		?b: It
+	?a is/are GCV
+		?a: G. canis virus
+	?a is possible to cultivate ?b on ?c
+		?a: It
+		?b: chondrocytes
+		?c: polyethylene surfaces
+
+
+label:    sent_3
+sentence: We developed a method to cultivate bacterial cells within 24 h in liquid media .
+
+ppatt:
+	?a developed ?b
+		?a: We
+		?b: a method to cultivate bacterial cells within 24 h in liquid media
+	?a cultivate ?b within ?c
+		?a: a method
+		?b: bacterial cells
+		?c: 24 h in liquid media
+
+
+label:    sent_4
+sentence: One way of enhancing the specific activities is to cultivate hepatocytes as multicellular spheroids .
+
+ppatt:
+	?a enhancing ?b
+		?a: One way
+		?b: the specific activities
+	?a is to cultivate ?b as ?c
+		?a: One way of enhancing the specific activities
+		?b: hepatocytes
+		?c: multicellular spheroids
+
+
+label:    sent_5
+sentence: Organisational strategies to cultivate professional values and behaviours .
+
+ppatt:
+	?a cultivate ?b
+		?a: Organisational strategies
+		?b: professional values
+	?a cultivate ?b
+		?a: Organisational strategies
+		?b: behaviours
+
+
+label:    sent_6
+sentence: This may cultivate a novel pathogenic and therapeutic thinking for these diseases .
+
+ppatt:
+	?a may cultivate ?b
+		?a: This
+		?b: a novel pathogenic and therapeutic thinking for these diseases
+
+
+label:    sent_7
+sentence: Consultant pharmacists should cultivate a " high index of suspicion " for scabies .
+
+ppatt:
+	?a should cultivate ?b
+		?a: Consultant pharmacists
+		?b: a " high index of suspicion " for scabies
+
+
+label:    sent_8
+sentence: We isolated and cultivate human GSCs from glioma patient specimens .
+
+ppatt:
+	?a isolated ?b
+		?a: We
+		?b: human GSCs from glioma patient specimens
+	?a cultivate
+		?a: We
+
+
+label:    sent_9
+sentence: Using epidemiological investigation method to cultivate bacilli and detect the homology .
+
+ppatt:
+	Using ?a
+		?a: epidemiological investigation method to cultivate bacilli and detect the homology
+	?a cultivate ?b
+		?a: epidemiological investigation method
+		?b: bacilli
+	detect ?a
+		?a: the homology
+
+
+label:    sent_10
+sentence: Classical plating methods were applied to cultivate these fungi and to study their morphology .
+
+ppatt:
+	?a were applied to cultivate ?b
+		?a: Classical plating methods
+		?b: these fungi
+	?a were applied to to study ?b
+		?a: Classical plating methods
+		?b: their morphology
+
+
+label:    sent_11
+sentence: Nurses need to cultivate and internalize a passion for learning throughout their careers .
+
+ppatt:
+	?a need to cultivate ?b
+		?a: Nurses
+		?b: a passion for learning throughout their careers
+	?a need to internalize
+		?a: Nurses
+	for learning throughout ?a
+		?a: their careers
+
+
+label:    sent_12
+sentence: We tested iHIOs as a new model to cultivate and study fecal viruses .
+
+ppatt:
+	?a tested ?b as ?c
+		?a: We
+		?b: iHIOs
+		?c: a new model to cultivate and study fecal viruses
+	?a cultivate ?b
+		?a: a new model
+		?b: fecal viruses
+	study ?a
+		?a: fecal viruses
+
+
+label:    sent_13
+sentence: [To cultivate and improve the Hungarian medical language is an imperative ] . Human adenovirus type 41 ( HAdV-41 ) is difficult to cultivate under laboratory conditions .
+
+ppatt:
+	?a cultivate ?b
+		?a: [To
+		?b: the Hungarian medical language
+	?a improve
+		?a: [To
+	?a is/are HAdV-41
+		?a: Human adenovirus type 41
+	?a is difficult to cultivate under ?b
+		?a: Human adenovirus type 41
+		?b: laboratory conditions
+
+
+label:    sent_14
+sentence: Neisseria gonorrhoeae is difficult to cultivate in liquid medium .
+
+ppatt:
+	?a is difficult to cultivate in ?b
+		?a: Neisseria gonorrhoeae
+		?b: liquid medium
+
+
+label:    sent_15
+sentence: How to cultivate outside sources of revenue . Fungus-growing attine ants cultivate basidiomycete fungi for food .
+
+ppatt:
+	How to cultivate outside ?a ?b
+		?a: sources of revenue
+		?b: Fungus-growing attine ants
+	?a cultivate ?b
+		?a: Fungus-growing attine ants
+		?b: basidiomycete fungi for food
+
+
+label:    sent_16
+sentence: Experienced rural nurses cultivate novices through supportive mentoring relationships .
+
+ppatt:
+	?a cultivate ?b through ?c
+		?a: Experienced rural nurses
+		?b: novices
+		?c: supportive mentoring relationships
+
+
+label:    sent_17
+sentence: Search for ideal biomaterials to cultivate human osteoblast-like cells for reconstructive surgery .
+
+ppatt:
+	?a cultivate ?b for ?c
+		?a: Search for ideal biomaterials
+		?b: human osteoblast-like cells
+		?c: reconstructive surgery
+
+
+label:    sent_18
+sentence: Farmers would cultivate rice part-time and earned most of their income from other sources .
+
+ppatt:
+	?a would cultivate ?b
+		?a: Farmers
+		?b: rice part-time
+	?a earned ?b
+		?a: Farmers
+		?b: most of their income from other sources
+
+
+label:    sent_19
+sentence: The ants have an ancient obligate mutualism with fungi they cultivate for food .
+
+ppatt:
+	?a have ?b
+		?a: The ants
+		?b: an ancient obligate mutualism with fungi
+	?a cultivate for ?b
+		?a: they
+		?b: food
+
+
+label:    sent_20
+sentence: Regardless of such instance , these regions did not cultivate Panax jinseng .
+
+ppatt:
+	Regardless of ?a , ?b did not cultivate ?c
+		?a: such instance
+		?b: these regions
+		?c: Panax jinseng
+
+
+label:    sent_21
+sentence: Syphilis could only cultivate in living beings .
+
+ppatt:
+	?a could only cultivate in ?b
+		?a: Syphilis
+		?b: living beings
+
+

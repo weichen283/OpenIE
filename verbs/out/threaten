@@ -1,0 +1,298 @@
+label:    sent_1
+sentence: Publication bias and related types of small-study effects threaten the validity of systematic reviews .
+
+ppatt:
+	?a threaten ?b
+		?a: Publication bias
+		?b: the validity of systematic reviews
+	?a threaten ?b
+		?a: related types of small-study effects
+		?b: the validity of systematic reviews
+
+
+label:    sent_2
+sentence: Inbreeding and a consequent loss of genetic diversity threaten small , isolated populations .
+
+ppatt:
+	?a threaten ?b
+		?a: Inbreeding
+		?b: small , populations
+	?a threaten ?b
+		?a: a consequent loss of genetic diversity
+		?b: small , populations
+
+
+label:    sent_3
+sentence: Documented workarounds , such as bypassing safety features , threaten patient safety .
+
+ppatt:
+	?a such as bypassing ?b
+		?a: Documented workarounds
+		?b: safety features
+	?a threaten ?b
+		?a: Documented workarounds , such as bypassing safety features
+		?b: patient safety
+
+
+label:    sent_4
+sentence: Many of these substances are generally believed to threaten the health of our environment .
+
+ppatt:
+	?a are generally believed to threaten ?b
+		?a: Many of these substances
+		?b: the health of our environment
+
+
+label:    sent_5
+sentence: This might reduce compliance and threaten the validity of the assessment .
+
+ppatt:
+	?a might reduce ?b
+		?a: This
+		?b: compliance
+	?a threaten ?b
+		?a: This
+		?b: the validity of the assessment
+
+
+label:    sent_6
+sentence: Heed these warnings , but do n't let " pharmaphobia " threaten your heart .
+
+ppatt:
+	Heed ?a
+		?a: these warnings
+	?a do n't let
+		?a: these warnings
+	?a threaten ?b
+		?a: " pharmaphobia "
+		?b: your heart
+
+
+label:    sent_7
+sentence: Rates of premature birth are alarming and threaten societies and healthcare systems worldwide .
+
+ppatt:
+	?a are alarming worldwide
+		?a: Rates of premature birth
+	?a threaten ?b
+		?a: Rates of premature birth
+		?b: societies
+	?a threaten ?b
+		?a: Rates of premature birth
+		?b: healthcare systems
+
+
+label:    sent_8
+sentence: These synthetic compounds are resistant to natural degradation and threaten the environment .
+
+ppatt:
+	?a are resistant to ?b
+		?a: These synthetic compounds
+		?b: natural degradation
+	?a threaten ?b
+		?a: These synthetic compounds
+		?b: the environment
+
+
+label:    sent_9
+sentence: Foreign bodies aspirated into respiratory tract may produce severe lung damage and threaten life .
+
+ppatt:
+	?a aspirated into ?b
+		?a: Foreign bodies
+		?b: respiratory tract
+	?a may produce ?b
+		?a: Foreign bodies aspirated into respiratory tract
+		?b: severe lung damage
+	?a threaten ?b
+		?a: Foreign bodies aspirated into respiratory tract
+		?b: life
+
+
+label:    sent_10
+sentence: Employers threaten job cuts after unions stand firm on pay .
+
+ppatt:
+	?a threaten ?b after ?c
+		?a: Employers
+		?b: job cuts
+		?c: unions
+	?a stand firm
+		?a: Employers
+	?a on pay
+		?a: Employers
+
+
+label:    sent_11
+sentence: On Pacific islands non-native rats and mongooses threaten many native species .
+
+ppatt:
+	On ?a ?b threaten ?c
+		?a: Pacific islands
+		?b: non-native rats
+		?c: many native species
+	On ?a ?b threaten ?c
+		?a: Pacific islands
+		?b: mongooses
+		?c: many native species
+
+
+label:    sent_12
+sentence: Affect configurations and changes in women who threaten suicide following a crisis .
+
+ppatt:
+	Affect ?a
+		?a: configurations in women who threaten suicide following a crisis
+	Affect ?a
+		?a: changes
+	?a threaten ?b following ?c
+		?a: women
+		?b: suicide
+		?c: a crisis
+
+
+label:    sent_13
+sentence: Taken together , they can threaten study validity and lead to inconclusive results .
+
+ppatt:
+	Taken together ?a
+		?a: they
+	?a can threaten study ?b
+		?a: they
+		?b: validity
+	?a can threaten lead to ?b
+		?a: they
+		?b: inconclusive results
+
+
+label:    sent_14
+sentence: Emerging pandemics threaten global health and economies and are increasing in frequency .
+
+ppatt:
+	?a threaten ?b
+		?a: Emerging pandemics
+		?b: global health
+	?a threaten ?b
+		?a: Emerging pandemics
+		?b: economies
+	?a are increasing in ?b
+		?a: Emerging pandemics
+		?b: frequency
+
+
+label:    sent_15
+sentence: Laryngeal involvement may threaten airway patency and can be fatal if not addressed promptly .
+
+ppatt:
+	?a may threaten ?b
+		?a: Laryngeal involvement
+		?b: airway patency
+
+
+label:    sent_16
+sentence: The health consequences of this epidemic threaten to overwhelm health-care systems in the region .
+
+ppatt:
+	?a threaten to overwhelm ?b
+		?a: The health consequences of this epidemic
+		?b: health-care systems in the region
+
+
+label:    sent_17
+sentence: Limited block grant battles threaten even best planning . Unions threaten to disrupt NHS .
+
+ppatt:
+	?a threaten ?b
+		?a: Limited block grant battles
+		?b: even best planning
+	?a threaten to disrupt ?b
+		?a: Unions
+		?b: NHS
+
+
+label:    sent_18
+sentence: When patents threaten science .
+
+ppatt:
+	When ?a threaten ?b
+		?a: patents
+		?b: science
+
+
+label:    sent_19
+sentence: Corynetoxins also threaten human health as potential contaminants of the food supply .
+
+ppatt:
+	?a also threaten ?b as ?c
+		?a: Corynetoxins
+		?b: human health
+		?c: potential contaminants of the food supply
+
+
+label:    sent_20
+sentence: Screening was perceived to threaten reimbursement by 27 % . German doctors threaten to boycott patient record project .
+
+ppatt:
+	?a was perceived to threaten ?b by ?c
+		?a: Screening
+		?b: reimbursement
+		?c: 27 %
+	?a threaten to ?b
+		?a: German doctors
+		?b: boycott patient record project
+
+
+label:    sent_21
+sentence: Flying insects threaten to deafen Japan . Banks threaten to hit FTs with rate hike over debt guarantees .
+
+ppatt:
+	?a ?b threaten to ?c
+		?a: SOMETHING := Flying
+		?b: insects
+		?c: deafen Japan
+	?a threaten to hit ?b with ?c
+		?a: Banks
+		?b: FTs
+		?c: rate hike over debt
+	?a guarantees
+		?a: Flying
+
+
+label:    sent_22
+sentence: Big HMOs bolted from some markets and threaten to leave others .
+
+ppatt:
+	?a bolted from ?b
+		?a: Big HMOs
+		?b: some markets
+	?a threaten to leave ?b
+		?a: Big HMOs
+		?b: others
+
+
+label:    sent_23
+sentence: Negative age stereotypes are pervasive and threaten older adults ' self-esteem .
+
+ppatt:
+	?a are pervasive
+		?a: Negative age stereotypes
+	?a threaten ?b
+		?a: Negative age stereotypes
+		?b: older adults ' self-esteem
+
+
+label:    sent_24
+sentence: By obstructing subglottic air passage these tumours can threaten life and often require tracheostomy .
+
+ppatt:
+	obstructing ?a ?b
+		?a: subglottic air passage
+		?b: these tumours
+	?a can threaten ?b
+		?a: these tumours
+		?b: life
+	?a often require ?b
+		?a: these tumours
+		?b: tracheostomy
+
+

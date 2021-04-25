@@ -1,0 +1,324 @@
+label:    sent_1
+sentence: Imatinib was the first to transform the outcomes of this disease .
+
+ppatt:
+	?a was the first
+		?a: Imatinib
+	?a transform ?b
+		?a: the first
+		?b: the outcomes of this disease
+
+
+label:    sent_2
+sentence: Agrobacterium tumefaciens bearing the pChsp65 plasmid was used to transform tobacco plants .
+
+ppatt:
+	?a bearing ?b
+		?a: Agrobacterium tumefaciens
+		?b: the pChsp65 plasmid
+	?a was used to transform ?b
+		?a: Agrobacterium tumefaciens bearing the pChsp65 plasmid
+		?b: tobacco plants
+
+
+label:    sent_3
+sentence: Mustard gas exposure was found to transform the age scale for developing lung cancer .
+
+ppatt:
+	?a was found to transform ?b
+		?a: Mustard gas exposure
+		?b: the age scale
+	?a developing ?b
+		?a: the age scale
+		?b: lung cancer
+
+
+label:    sent_4
+sentence: We were able to transform 29 cases of HSC-BPPV from apogeotropic to geotropic .
+
+ppatt:
+	?a were able to transform ?b from ?c to ?d
+		?a: We
+		?b: 29 cases of HSC-BPPV
+		?c: apogeotropic
+		?d: geotropic
+
+
+label:    sent_5
+sentence: Several algorithms are available to transform colored digital images into simulated dichromatic color perception .
+
+ppatt:
+	?a are available to transform ?b into ?c
+		?a: Several algorithms
+		?b: colored digital images
+		?c: simulated dichromatic color perception
+
+
+label:    sent_6
+sentence: We encoded a depression screening guideline using GLIF to transform it into a CIG .
+
+ppatt:
+	?a encoded ?b using ?c
+		?a: We
+		?b: a depression screening guideline
+		?c: GLIF
+	?a transform ?b into ?c
+		?a: We
+		?b: it
+		?c: a CIG
+
+
+label:    sent_7
+sentence: Two-dimensional grating-based X-ray phase-contrast imaging using Fourier transform phase retrieval .
+
+ppatt:
+	?a using ?b
+		?a: Two-dimensional grating-based X-ray phase-contrast imaging
+		?b: Fourier
+	?a transform ?b
+		?a: Two-dimensional grating-based X-ray phase-contrast imaging using Fourier
+		?b: phase retrieval
+
+
+label:    sent_8
+sentence: Fourier transform infrared spectroscopy of 2'-deoxycytidine aggregates in CDCl3 solutions .
+
+ppatt:
+	?a transform ?b
+		?a: Fourier
+		?b: infrared spectroscopy of 2'-deoxycytidine aggregates in CDCl3 solutions
+
+
+label:    sent_9
+sentence: Holistic nurse coach leadership can transform healthcare .
+
+ppatt:
+	?a can transform ?b
+		?a: Holistic nurse coach leadership
+		?b: healthcare
+
+
+label:    sent_10
+sentence: Dispersion curves are obtained experimentally by short time Fourier transform of the transient signals .
+
+ppatt:
+	?a are obtained experimentally by ?b
+		?a: Dispersion curves
+		?b: short time Fourier transform of the transient signals
+
+
+label:    sent_11
+sentence: Form II was found to transform into form I at intermediate pressures .
+
+ppatt:
+	?a was found to transform into ?b at ?c
+		?a: Form II
+		?b: form I
+		?c: intermediate pressures
+
+
+label:    sent_12
+sentence: Utilizing a constant peak width transform for isothermal gas chromatography .
+
+ppatt:
+	Utilizing ?a
+		?a: a constant peak width transform for isothermal gas chromatography
+
+
+label:    sent_13
+sentence: Fourier transform infrared spectroscopic analysis of normal and torn rotator-cuff tendons . Fast Fourier transform demonstrated well-correlated dominant frequencies between CE and NCVE .
+
+ppatt:
+	?a transform ?b
+		?a: Fourier
+		?b: infrared spectroscopic analysis of normal and torn rotator-cuff tendons
+	?a transform
+		?a: Fast Fourier
+	?a demonstrated ?b
+		?a: Fourier
+		?b: well-correlated dominant frequencies between CE and NCVE
+
+
+label:    sent_14
+sentence: An efficient algorithm for denoising MR and CT images using digital curvelet transform .
+
+ppatt:
+	?a denoising ?b
+		?a: An efficient algorithm using digital curvelet
+		?b: MR
+	?a denoising ?b
+		?a: An efficient algorithm using digital curvelet
+		?b: CT
+	?a denoising ?b
+		?a: An efficient algorithm using digital curvelet
+		?b: images
+	?a using ?b
+		?a: An efficient algorithm for denoising MR and CT images
+		?b: digital curvelet
+	?a transform
+		?a: An efficient algorithm for denoising MR and CT images using digital curvelet
+
+
+label:    sent_15
+sentence: The first section focuses on how new technology can transform vitamin K antagonist therapy .
+
+ppatt:
+	?a focuses
+		?a: The first section
+	how ?a can transform ?b
+		?a: new technology
+		?b: vitamin K antagonist therapy
+
+
+label:    sent_16
+sentence: They transform people from content consumers into content producers .
+
+ppatt:
+	?a transform ?b into ?c
+		?a: They
+		?b: people from content consumers
+		?c: content producers
+
+
+label:    sent_17
+sentence: Local variational methods can transform the binary observation process into a quadratic form .
+
+ppatt:
+	?a can transform ?b into ?c
+		?a: Local variational methods
+		?b: the binary observation process
+		?c: a quadratic form
+
+
+label:    sent_18
+sentence: The sparse matrix transform for covariance estimation and analysis of high dimensional signals .
+
+ppatt:
+	?a transform for ?b
+		?a: The sparse matrix
+		?b: covariance estimation of high dimensional signals
+	?a transform for ?b
+		?a: The sparse matrix
+		?b: analysis
+
+
+label:    sent_19
+sentence: Interpolation by fast Wigner transform for rapid calculations of magnetic resonance spectra from powders .
+
+ppatt:
+	?a transform for ?b
+		?a: Interpolation by fast Wigner
+		?b: rapid calculations of magnetic resonance spectra from powders
+
+
+label:    sent_20
+sentence: Uterine epithelial cells transform into a receptive state to adhere to an implanting blastocyst .
+
+ppatt:
+	?a transform into ?b to adhere to ?c
+		?a: Uterine epithelial cells
+		?b: a receptive state
+		?c: an implanting blastocyst
+
+
+label:    sent_21
+sentence: I discuss enzymes which transform carbohydrates and incorporate halogens .
+
+ppatt:
+	?a discuss ?b
+		?a: I
+		?b: enzymes which transform carbohydrates and incorporate halogens
+	?a transform ?b
+		?a: enzymes
+		?b: carbohydrates
+	?a incorporate ?b
+		?a: which
+		?b: halogens
+
+
+label:    sent_22
+sentence: These are highly activated and transform NIH-3T3 cells .
+
+ppatt:
+	?a are highly activated
+		?a: These
+	?a transform ?b
+		?a: These
+		?b: NIH-3T3 cells
+
+
+label:    sent_23
+sentence: Compression of multispectral images by spectral classification and transform coding . B95-8 virus can transform HUCLs but can not superinfect Raji cells .
+
+ppatt:
+	transform ?a
+		?a: coding . B95-8 virus
+	?a can transform ?b
+		?a: Compression of multispectral images by spectral classification and transform coding . B95-8 virus
+		?b: HUCLs
+	?a can not superinfect ?b
+		?a: Compression of multispectral images by spectral classification and transform coding . B95-8 virus
+		?b: Raji cells
+
+
+label:    sent_24
+sentence: P3HR-1 virus can transform HUCLs cells but can not transform HUCLs .
+
+ppatt:
+	?a can transform ?b
+		?a: P3HR-1 virus
+		?b: HUCLs cells
+	?a can not transform ?b
+		?a: P3HR-1 virus
+		?b: HUCLs
+
+
+label:    sent_25
+sentence: NPC-KT virus can transform HUCLs and can superinfect Raji cells .
+
+ppatt:
+	?a can transform ?b
+		?a: NPC-KT virus
+		?b: HUCLs
+	?a can superinfect ?b
+		?a: NPC-KT virus
+		?b: Raji cells
+
+
+label:    sent_26
+sentence: Visual acuity measurement using evoked potentials and fast Fourier transform .
+
+ppatt:
+	?a using ?b
+		?a: Visual acuity measurement
+		?b: evoked potentials
+	?a using ?b
+		?a: Visual acuity measurement
+		?b: fast Fourier
+	?a transform
+		?a: Visual acuity measurement using evoked potentials and fast Fourier
+
+
+label:    sent_27
+sentence: Skin from penis was highly susceptible , but skin from abdomen did not transform .
+
+ppatt:
+	?a was highly susceptible
+		?a: Skin from penis
+	?a did not transform
+		?a: skin from abdomen
+
+
+label:    sent_28
+sentence: The elderly may transform and eliminate most drugs as efficiently as do younger persons .
+
+ppatt:
+	?a may transform ?b as efficiently
+		?a: The elderly
+		?b: most drugs
+	?a eliminate
+		?a: The elderly
+	do ?a
+		?a: younger persons
+
+

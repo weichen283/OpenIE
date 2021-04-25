@@ -1,0 +1,158 @@
+label:    sent_1
+sentence: Iowa firms team up to trim hospital costs . Presbyterian plans to trim beds , staff . The urgent need to trim costs is apparent in hospitals across the country .
+
+ppatt:
+	?a team up to ?b
+		?a: Iowa firms
+		?b: trim hospital costs
+	?a is/are staff
+		?a: trim beds
+	?a ?b is apparent in ?c
+		?a: Presbyterian plans to trim beds
+		?b: The urgent need to trim costs
+		?c: hospitals across the country
+
+
+label:    sent_2
+sentence: Time to trim the loose ends of the tailstring debate .
+
+ppatt:
+
+
+
+label:    sent_3
+sentence: Plan would trim all payments , pool money for rewards . General Medical may trim national ambitions .
+
+ppatt:
+	?a would trim ?b
+		?a: Plan
+		?b: all payments
+	?a would trim ?b
+		?a: Plan
+		?b: pool
+	?a would trim ?b
+		?a: Plan
+		?b: money for rewards
+	?a may trim ?b
+		?a: General Medical
+		?b: national ambitions
+
+
+label:    sent_4
+sentence: Epic aims to trim expenses by $ 20 million .
+
+ppatt:
+	?a aims to ?b by ?c
+		?a: Epic
+		?b: trim expenses
+		?c: $ 20 million
+
+
+label:    sent_5
+sentence: AMA seeks to trim costs without sacrificing quality of health care .
+
+ppatt:
+	?a seeks to ?b
+		?a: AMA
+		?b: trim costs
+	?a sacrificing ?b
+		?a: AMA
+		?b: quality of health care
+
+
+label:    sent_6
+sentence: In the radiology department trim costs with two management tools .
+
+ppatt:
+
+
+
+label:    sent_7
+sentence: Early postmortem carcass trim effects on the tenderness of broiler breast fillets .
+
+ppatt:
+
+
+
+label:    sent_8
+sentence: Rising prices trim 1977 savings for group buyers .
+
+ppatt:
+
+
+
+label:    sent_9
+sentence: Hospital purchasing directors trim costs with fast turnover , automation .
+
+ppatt:
+
+
+
+label:    sent_10
+sentence: Purchasing workers ' comp insurance : how to broaden coverage and trim costs . Holy Cross Hospital installs computer to track costs and trim linen theft . TaxMan : a server to trim rRNA reference databases and inspect taxonomic coverage .
+
+ppatt:
+	Purchasing ' ?a
+		?a: workers comp insurance
+	how to broaden ?a to track ?b
+		?a: coverage
+		?b: costs
+	how to broaden ?a to track ?b
+		?a: trim costs
+		?b: costs
+	how to broaden ?a to track ?b
+		?a: Holy Cross Hospital installs computer
+		?b: costs
+	how to broaden ?a to track ?b
+		?a: coverage
+		?b: trim linen theft . TaxMan
+	how to broaden ?a to track ?b
+		?a: trim costs
+		?b: trim linen theft . TaxMan
+	how to broaden ?a to track ?b
+		?a: Holy Cross Hospital installs computer
+		?b: trim linen theft . TaxMan
+	inspect ?a
+		?a: taxonomic coverage
+
+
+label:    sent_11
+sentence: New Medicare rules trim $ 490 million .
+
+ppatt:
+
+
+
+label:    sent_12
+sentence: Public hospitals trim back , branch out to stay alive . States trim what they can to restrain Medicaid costs .
+
+ppatt:
+	?a is/are branch
+		?a: Public hospitals trim back
+	?a out to stay ?b ?c
+		?a: branch
+		?b: alive
+		?c: States what they can to restrain Medicaid costs
+	?a ?b ?c can to restrain ?d
+		?a: States
+		?b: what
+		?c: they
+		?d: Medicaid costs
+
+
+label:    sent_13
+sentence: To trim or replant : a matter of cost . To trim or not to trim : progression and control of DSB end resection .
+
+ppatt:
+
+
+
+label:    sent_14
+sentence: Post-acute providers trim losses , but they 're still traveling a bumpy road .
+
+ppatt:
+	?a 're still traveling ?b
+		?a: they
+		?b: a bumpy road
+
+

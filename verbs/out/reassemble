@@ -1,0 +1,187 @@
+label:    sent_1
+sentence: The nuclear pore complexes ( NPCs ) reversibly disassemble and reassemble during mitosis .
+
+ppatt:
+	?a is/are NPCs
+		?a: The nuclear pore complexes
+	?a reversibly disassemble during ?b
+		?a: The nuclear pore complexes
+		?b: mitosis
+	?a reassemble
+		?a: The nuclear pore complexes
+
+
+label:    sent_2
+sentence: Nuclear dots break down as cells enter metaphase and reassemble at telophase .
+
+ppatt:
+	?a break down
+		?a: Nuclear dots
+	?a enter ?b
+		?a: cells
+		?b: metaphase at telophase
+	?a enter ?b
+		?a: cells
+		?b: reassemble
+
+
+label:    sent_3
+sentence: Several adjacent stress fibers appeared to reassemble into a single one after stretching .
+
+ppatt:
+	?a appeared to reassemble into ?b
+		?a: Several adjacent stress fibers
+		?b: a single one after stretching
+
+
+label:    sent_4
+sentence: Upon removal of IQ from NRK cells , both microtubules and Golgi membranes reassemble .
+
+ppatt:
+	Upon ?a , ?b reassemble
+		?a: removal of IQ from NRK cells
+		?b: microtubules
+	Upon ?a , ?b reassemble
+		?a: removal of IQ from NRK cells
+		?b: Golgi membranes
+
+
+label:    sent_5
+sentence: Free subunits reassemble into a two-ring structure .
+
+ppatt:
+	?a reassemble into ?b
+		?a: Free subunits
+		?b: a two-ring structure
+
+
+label:    sent_6
+sentence: They also reassemble in vitro with coat protein .
+
+ppatt:
+	?a also reassemble in vitro with ?b
+		?a: They
+		?b: coat protein
+
+
+label:    sent_7
+sentence: Our results suggest that clathrin is required to reassemble fragmented Golgi elements . A method to reassemble a dislodged die . It is possible to reassemble the virus by reversing the degradation steps .
+
+ppatt:
+	?a suggest ?b ?c
+		?a: Our results
+		?b: SOMETHING := clathrin is required to reassemble fragmented Golgi elements
+		?c: SOMETHING := A method to reassemble a die . It is possible to reassemble the virus by reversing the degradation steps
+	?a is required to reassemble ?b
+		?a: clathrin
+		?b: fragmented Golgi elements
+	?a reassemble
+		?a: A method
+	?a a die
+		?a: A method
+	?a ?b is possible to reassemble ?c
+		?a: A method to reassemble a die
+		?b: It
+		?c: the virus
+	?a reversing ?b
+		?a: A method to reassemble a die
+		?b: the degradation steps
+
+
+label:    sent_8
+sentence: The ineptitude to reassemble collagen into normal dermal patterns specifics a scar .
+
+ppatt:
+	?a reassemble ?b into ?c
+		?a: The ineptitude
+		?b: collagen
+		?c: normal dermal patterns
+	?a specifics ?b
+		?a: The ineptitude to reassemble collagen into normal dermal patterns
+		?b: a scar
+
+
+label:    sent_9
+sentence: Tetramic forms of mtSSB reassemble spontaneously after thermal denaturation and undergo subunit exchange .
+
+ppatt:
+	?a reassemble spontaneously after ?b
+		?a: Tetramic forms of mtSSB
+		?b: thermal denaturation
+	?a undergo ?b
+		?a: Tetramic forms of mtSSB
+		?b: subunit exchange
+
+
+label:    sent_10
+sentence: However , the distal molecules reassemble to form filaments about 5 micrometers long . Greater than 90 % of the protein can reassemble to form filaments .
+
+ppatt:
+	However , ?a reassemble to form ?b ?c long
+		?a: the distal molecules
+		?b: filaments
+		?c: about 5 micrometers
+	?a can reassemble to form ?b
+		?a: Greater than 90 % of the protein
+		?b: filaments
+
+
+label:    sent_11
+sentence: This fragments of peptide can reassemble yielding an active functional reporter .
+
+ppatt:
+	?a can reassemble yielding ?b
+		?a: This fragments of peptide
+		?b: an active functional reporter
+
+
+label:    sent_12
+sentence: Other processes can scramble and reassemble nucleotide sequence .
+
+ppatt:
+	?a can scramble ?b
+		?a: Other processes
+		?b: nucleotide sequence
+	?a reassemble
+		?a: Other processes
+
+
+label:    sent_13
+sentence: The intein domains reassemble and link the joined exteins into a single functional protein .
+
+ppatt:
+	?a reassemble ?b into ?c
+		?a: The intein domains
+		?b: the joined exteins
+		?c: a single functional protein
+	?a link
+		?a: The intein domains
+
+
+label:    sent_14
+sentence: The interaction brings the fragments together , which then fold , reassemble and fluoresce .
+
+ppatt:
+	?a brings ?b
+		?a: The interaction
+		?b: the fragments together
+	?a then fold
+		?a: which
+	?a is/are reassemble
+		?a: the fragments together
+	?a fluoresce
+		?a: The interaction
+
+
+label:    sent_15
+sentence: How NPCs reassemble and incorporate into the NE upon mitotic exit is poorly understood .
+
+ppatt:
+	How ?a reassemble upon ?b
+		?a: NPCs
+		?b: mitotic exit
+	?a incorporate into ?b
+		?a: NPCs
+		?b: the NE
+
+

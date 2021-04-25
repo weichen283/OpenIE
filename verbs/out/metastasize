@@ -1,0 +1,298 @@
+label:    sent_1
+sentence: Malignant melanoma is reported to metastasize to all organs of the human body .
+
+ppatt:
+	?a is reported to metastasize to ?b
+		?a: Malignant melanoma
+		?b: all organs of the human body
+
+
+label:    sent_2
+sentence: Many solid tumors that occur in humans tend to metastasize to the lungs .
+
+ppatt:
+	?a occur in ?b
+		?a: Many solid tumors
+		?b: humans
+	?a tend to metastasize to ?b
+		?a: Many solid tumors that occur in humans
+		?b: the lungs
+
+
+label:    sent_3
+sentence: It has a tendency to metastasize , even after a long latent period .
+
+ppatt:
+	?a has ?b
+		?a: It
+		?b: a tendency to metastasize even after a long latent period
+	?a metastasize after ?b
+		?a: a tendency
+		?b: even a long latent period
+
+
+label:    sent_4
+sentence: The incidence of primary tumors that metastasize to the orbit is approximately 7 % . It can metastasize to any organ .
+
+ppatt:
+	?a metastasize to ?b
+		?a: primary tumors
+		?b: the orbit
+	?a is approximately 7 %
+		?a: The incidence of primary tumors that metastasize to the orbit
+	?a can metastasize to ?b
+		?a: It
+		?b: any organ
+
+
+label:    sent_5
+sentence: Almost a quarter of head and neck melanomas metastasize outside clinically predicted neck levels .
+
+ppatt:
+	?a metastasize outside ?b
+		?a: Almost a quarter of head and neck
+		?b: clinically predicted neck levels
+
+
+label:    sent_6
+sentence: Canine mammary sarcomas are usually very aggressive and easily metastasize .
+
+ppatt:
+	?a are usually very aggressive
+		?a: Canine mammary sarcomas
+	?a easily metastasize
+		?a: Canine mammary sarcomas
+
+
+label:    sent_7
+sentence: They have an inevitable tendency to recur locally and metastasize distally .
+
+ppatt:
+	?a have ?b
+		?a: They
+		?b: an inevitable tendency to recur locally and metastasize distally
+	?a recur locally distally
+		?a: an inevitable tendency
+	?a metastasize
+		?a: an inevitable tendency
+
+
+label:    sent_8
+sentence: It is a relatively benign tumor but can recur and rarely metastasize .
+
+ppatt:
+	?a is a relatively benign tumor
+		?a: It
+	?a can recur
+		?a: It
+	?a rarely metastasize
+		?a: It
+
+
+label:    sent_9
+sentence: True local recurrences do not metastasize .
+
+ppatt:
+	?a do not metastasize
+		?a: True local recurrences
+
+
+label:    sent_10
+sentence: The liver is the organ where tumors most frequently metastasize .
+
+ppatt:
+	?a is the organ
+		?a: The liver
+	?a where ?b most frequently metastasize
+		?a: the organ
+		?b: tumors
+
+
+label:    sent_11
+sentence: Advanced cases determine significant tissue destruction and they can metastasize . PCa cells preferentially metastasize to bone and typically result in osteoblastic lesions .
+
+ppatt:
+	?a determine ?b
+		?a: Advanced cases
+		?b: significant tissue destruction
+	?a can metastasize
+		?a: they
+	?a preferentially metastasize to ?b
+		?a: PCa cells
+		?b: bone
+	?a typically result in ?b
+		?a: PCa cells
+		?b: osteoblastic lesions
+
+
+label:    sent_12
+sentence: Most malignant ovarian tumors metastasize by peritoneal dissemination and have a poor prognosis .
+
+ppatt:
+	?a metastasize by ?b
+		?a: Most malignant ovarian tumors
+		?b: peritoneal dissemination
+	?a have ?b
+		?a: Most malignant ovarian tumors
+		?b: a poor prognosis
+
+
+label:    sent_13
+sentence: Endometrial carcinomas can metastasize to the orbit and may have a very atypical presentation .
+
+ppatt:
+	?a can metastasize to ?b
+		?a: Endometrial carcinomas
+		?b: the orbit
+	?a may have ?b
+		?a: Endometrial carcinomas
+		?b: a very atypical presentation
+
+
+label:    sent_14
+sentence: Most renal cell carcinomas recur or metastasize within 2 years .
+
+ppatt:
+	?a recur within ?b
+		?a: Most renal cell carcinomas
+		?b: 2 years
+	?a metastasize
+		?a: Most renal cell carcinomas
+
+
+label:    sent_15
+sentence: Subpopulation 168FAR is highly tumorigenic but does not metastasize spontaneously from a s.c. site .
+
+ppatt:
+	?a is highly tumorigenic
+		?a: Subpopulation 168FAR
+	?a does not metastasize spontaneously from ?b
+		?a: Subpopulation 168FAR
+		?b: a s.c. site
+
+
+label:    sent_16
+sentence: Prostate cancer tends to metastasize to bone and induce osteoblastic lesions .
+
+ppatt:
+	?a tends to metastasize to ?b
+		?a: Prostate cancer
+		?b: bone
+	?a tends to induce ?b
+		?a: Prostate cancer
+		?b: osteoblastic lesions
+
+
+label:    sent_17
+sentence: Conversely , serous carcinomas can metastasize but this is often a late event .
+
+ppatt:
+	Conversely , ?a can metastasize
+		?a: serous carcinomas
+	?a is often a late event
+		?a: this
+
+
+label:    sent_18
+sentence: Squamous cell carcinomas of the scalp may metastasize and cause death . They rarely metastasize and have an excellent prognosis .
+
+ppatt:
+	?a may metastasize ?b
+		?a: Squamous cell carcinomas of the scalp
+		?b: death
+	?a cause
+		?a: Squamous cell carcinomas of the scalp
+	?a rarely metastasize
+		?a: They
+	?a have ?b
+		?a: They
+		?b: an excellent prognosis
+
+
+label:    sent_19
+sentence: Finally , LMSs were found to metastasize mo Neoplasms have a striking tendency to metastasize or " home " to bone .
+
+ppatt:
+	Finally , ?a were found to metastasize ?b ?c
+		?a: LMSs
+		?b: mo Neoplasms
+		?c: SOMETHING := have a striking tendency to metastasize or " home " to bone
+	?a have ?b
+		?a: LMSs
+		?b: a striking tendency to metastasize or " home " to bone
+	?a metastasize ?b
+		?a: a striking tendency
+		?b: home " to bone
+	" ?a
+		?a: home " to bone
+
+
+label:    sent_20
+sentence: The tumor may extend into the orbit and metastasize regionally .
+
+ppatt:
+	?a may extend into ?b
+		?a: The tumor
+		?b: the orbit
+	?a metastasize regionally
+		?a: The tumor
+
+
+label:    sent_21
+sentence: Mechanisms by which tumor cells metastasize to distant organs still remain enigmatic .
+
+ppatt:
+	?a by ?b metastasize to ?c
+		?a: Mechanisms
+		?b: tumor cells
+		?c: distant organs
+	?a still remain enigmatic
+		?a: Mechanisms by which tumor cells metastasize to distant organs
+
+
+label:    sent_22
+sentence: The mechanisms by which tumor cells metastasize to bone are not well understood .
+
+ppatt:
+	?a by ?b metastasize to ?c
+		?a: The mechanisms
+		?b: tumor cells
+		?c: bone
+	?a are not well understood
+		?a: The mechanisms by which tumor cells metastasize to bone
+
+
+label:    sent_23
+sentence: Bone is the most common site to which breast cancer cells metastasize .
+
+ppatt:
+	?a is the most common site
+		?a: Bone
+	?a to ?b metastasize
+		?a: the most common site
+		?b: breast cancer cells
+
+
+label:    sent_24
+sentence: There is much debate about the way in which epithelial tumors metastasize .
+
+ppatt:
+	There is ?a
+		?a: much debate about the way in which epithelial tumors metastasize
+	?a in ?b metastasize
+		?a: the way
+		?b: epithelial tumors
+
+
+label:    sent_25
+sentence: The critical time of development beyond which a melanoma may metastasize presents great variation .
+
+ppatt:
+	?a beyond ?b may metastasize
+		?a: The critical time of development
+		?b: a melanoma
+	?a presents ?b
+		?a: The critical time of development beyond which a melanoma may metastasize
+		?b: great variation
+
+

@@ -1,0 +1,289 @@
+label:    sent_1
+sentence: The use of small molecules has great power to dissect biological processes .
+
+ppatt:
+	?a has ?b
+		?a: The use of small molecules
+		?b: great power to dissect biological processes
+	?a dissect ?b
+		?a: great power
+		?b: biological processes
+
+
+label:    sent_2
+sentence: We used thyroiditis as a model to dissect these possibilities .
+
+ppatt:
+	?a used ?b as ?c
+		?a: We
+		?b: thyroiditis
+		?c: a model to dissect these possibilities
+	?a dissect ?b
+		?a: a model
+		?b: these possibilities
+
+
+label:    sent_3
+sentence: Methods presented here will provide powerful tools to biochemically dissect the RISC assembly pathways .
+
+ppatt:
+	?a presented here
+		?a: Methods
+	?a will provide ?b
+		?a: Methods presented here
+		?b: powerful tools to biochemically dissect the RISC assembly pathways
+	?a biochemically dissect ?b
+		?a: powerful tools
+		?b: the RISC assembly pathways
+
+
+label:    sent_4
+sentence: Systems biology approaches to dissect mammalian innate immunity . A mouse model system to genetically dissect the molecular mechanisms regulating tumorigenesis .
+
+ppatt:
+	?a dissect ?b ?c to genetically dissect ?d
+		?a: Systems biology approaches
+		?b: mammalian innate immunity
+		?c: A mouse model system
+		?d: the molecular mechanisms regulating tumorigenesis
+	?a regulating ?b
+		?a: the molecular mechanisms
+		?b: tumorigenesis
+
+
+label:    sent_5
+sentence: Proteomic approaches to dissect platelet function : Half the story . It is dangerous to dissect a cervical fistula through a thoracotomy .
+
+ppatt:
+	?a dissect ?b
+		?a: Proteomic approaches
+		?b: platelet function
+	?a is dangerous to dissect ?b through ?c
+		?a: It
+		?b: a cervical fistula
+		?c: a thoracotomy
+
+
+label:    sent_6
+sentence: It is dangerous to dissect a cervical fistula via a thoracotomy .
+
+ppatt:
+	?a is dangerous to dissect ?b via ?c
+		?a: It
+		?b: a cervical fistula
+		?c: a thoracotomy
+
+
+label:    sent_7
+sentence: Harnessing natural sequence variation to dissect posttranscriptional regulatory networks in yeast .
+
+ppatt:
+	Harnessing ?a
+		?a: natural sequence variation
+	dissect ?a
+		?a: posttranscriptional regulatory networks in yeast
+
+
+label:    sent_8
+sentence: We chose not to dissect the cystic mass but to treat the intra-articular cause .
+
+ppatt:
+	?a chose not to dissect ?b
+		?a: We
+		?b: the cystic mass
+	?a chose not to to treat ?b
+		?a: We
+		?b: the intra-articular cause
+
+
+label:    sent_9
+sentence: We here define its subcellular localization and dissect the significance of its domains .
+
+ppatt:
+	?a here define ?b
+		?a: We
+		?b: its subcellular localization
+	?a dissect ?b
+		?a: We
+		?b: the significance of its domains
+
+
+label:    sent_10
+sentence: This study was conceived to dissect the human anti-PC repertoire and generate human mAbs .
+
+ppatt:
+	?a was conceived to dissect ?b
+		?a: This study
+		?b: the human anti-PC repertoire
+	?a was conceived to generate ?b
+		?a: This study
+		?b: human mAbs
+
+
+label:    sent_11
+sentence: Alleles of afd1 dissect REC8 functions during meiotic prophase I .
+
+ppatt:
+	?a dissect ?b during ?c
+		?a: Alleles of afd1
+		?b: REC8 functions
+		?c: meiotic prophase I
+
+
+label:    sent_12
+sentence: We dissect the renal artery and vein placing Hemolock clips on both .
+
+ppatt:
+	?a dissect ?b on ?c
+		?a: We
+		?b: the renal artery placing Hemolock clips
+		?c: both
+	?a dissect ?b on ?c
+		?a: We
+		?b: vein
+		?c: both
+	?a placing ?b
+		?a: the renal artery
+		?b: Hemolock clips
+	?a placing ?b
+		?a: vein
+		?b: Hemolock clips
+
+
+label:    sent_13
+sentence: We could dissect motor neurons with three colors in a single animal .
+
+ppatt:
+	?a could dissect ?b with ?c
+		?a: We
+		?b: motor neurons
+		?c: three colors in a single animal
+
+
+label:    sent_14
+sentence: During total laryngectomy paratracheal lymphatic nodes should be looked for and dissect .
+
+ppatt:
+	During ?a should be looked ?b
+		?a: total laryngectomy paratracheal lymphatic nodes
+		?b: for
+	During ?a dissect
+		?a: total laryngectomy paratracheal lymphatic nodes
+
+
+label:    sent_15
+sentence: We proceed to dissect and clip it . Ten fresh-frozen cadaver wrists were used to dissect and identify the first CMC ligaments .
+
+ppatt:
+	?a proceed to dissect ?b ?c
+		?a: We
+		?b: it
+		?c: SOMETHING := Ten fresh-frozen cadaver wrists were used to dissect and identify the first CMC ligaments
+	?a proceed to clip
+		?a: We
+	?a were used to dissect ?b
+		?a: Ten fresh-frozen cadaver wrists
+		?b: the first CMC ligaments
+	?a were used to identify
+		?a: Ten fresh-frozen cadaver wrists
+
+
+label:    sent_16
+sentence: We dissect local atomic effects from intermolecular interactions and quantify X-ray optical effects .
+
+ppatt:
+	?a dissect ?b
+		?a: We
+		?b: local atomic effects from intermolecular interactions
+	?a quantify ?b
+		?a: We
+		?b: X-ray optical effects
+
+
+label:    sent_17
+sentence: They always dissect the recurrent nerve and search for the parathyroid glands .
+
+ppatt:
+	?a always dissect ?b
+		?a: They
+		?b: the recurrent nerve for the parathyroid glands
+	?a always dissect ?b
+		?a: They
+		?b: search
+
+
+label:    sent_18
+sentence: The excimer laser has the advantage to dissect without thermal tissue damage .
+
+ppatt:
+	?a has ?b
+		?a: The excimer laser
+		?b: the advantage to dissect without thermal tissue damage
+	?a dissect without ?b
+		?a: the advantage
+		?b: thermal tissue damage
+
+
+label:    sent_19
+sentence: Twin studies are the perfect natural experiment to dissect out genes and life experiences .
+
+ppatt:
+	?a are the perfect natural experiment
+		?a: Twin studies
+	?a dissect ?b
+		?a: the perfect natural experiment
+		?b: genes
+	?a dissect ?b
+		?a: the perfect natural experiment
+		?b: life
+	?a dissect ?b
+		?a: the perfect natural experiment
+		?b: experiences
+
+
+label:    sent_20
+sentence: The acquired component of complex traits is difficult to dissect in humans .
+
+ppatt:
+	?a is difficult to dissect in ?b
+		?a: The acquired component of complex traits
+		?b: humans
+
+
+label:    sent_21
+sentence: The descending aorta may dissect whatever the diameter of the ascending aorta .
+
+ppatt:
+	?a may dissect
+		?a: The descending aorta
+	?a the diameter of ?b
+		?a: The descending aorta
+		?b: the ascending aorta
+
+
+label:    sent_22
+sentence: To understand the human body , students must dissect .
+
+ppatt:
+	understand ?a ?b
+		?a: the human body
+		?b: students
+	?a must dissect
+		?a: students
+
+
+label:    sent_23
+sentence: Optogenetic strategies to dissect the neural circuits that underlie reward and addiction .
+
+ppatt:
+	?a dissect ?b
+		?a: Optogenetic strategies
+		?b: the neural circuits that underlie reward and addiction
+	?a underlie ?b
+		?a: the neural circuits
+		?b: reward
+	?a underlie ?b
+		?a: the neural circuits
+		?b: addiction
+
+

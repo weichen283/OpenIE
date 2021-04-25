@@ -1,0 +1,40 @@
+obj	It uses a variety of strategies to effectively colonize the human oropharynx .	obj@oropharynx
+obj	Flies are typically the first insects to colonize a dead body .	obj@body
+obj	Strain variability in the ability to colonize biofilms was observed .	obj@biofilms
+
+subj#obj	To cause infections , bacteria must colonize their host .	subj@bacteria obj@host
+subj#obj	The complex microbial populations that colonize the human body form the human microbiome .	subj@populations obj@body
+subj#obj	Aspergilloma is a saprophytic infection which can colonize preexisting lung cavities .	subj@infection obj@cavities
+
+obj#conj	Campylobacter jejuni is able to colonize the human intestinal mucosa and cause disease .	obj@mucosa conj_and@cause
+obj#conj	Gastrointestinal parasites have evolved with humans and colonize many asymptomatic subjects .	obj@subjects conj_and@evolved
+obj#conj	Anaerobic metabolic pathways allow unicellular organisms to tolerate or colonize anoxic environments .	obj@environments conj_or@tolerate
+
+subj#obj#conj	Various virulence factors allow M haemolytica to colonize the lungs and establish infection .	subj@M obj@lungs conj_and@establish
+subj#obj#conj	Therefore , this mutant could colonize the skin but could not disseminate .	subj@mutant obj@skin conj_but@disseminate
+subj#obj#conj	Certain strains of Bacillus amyloliquefaciens can colonize plants and improve growth and stress management .	subj@strains obj@plants conj_and@improve
+
+obj#prep	Epiphylls widely colonize vascular leaves in moist tropical forests .	obj@vascular prep_in@forests
+obj#prep	Without synthesis of polymers S. mutans cannot colonize the mouth in large numbers .	obj@mouth prep_in@numbers
+obj#prep	The bacteria invade and colonize the roots through structures called infection threads .	obj@roots prep_through@structures
+
+conj	Salmonella Enteritidis has enhanced ability to colonize and persist in extraintestinal sites within chickens .	conj_and@persist
+conj	Strains of Serpulina murdochii and Brachyspira aalborgi failed to colonize or cause histological changes .	conj_or@cause
+conj	The ability to colonize and transfer was tested under different antimicrobial treatments .	conj_and@transfer
+
+subj#obj#prep	O157 colonize the bovine epithelial mucosa at the recto-anal junction ( RAJ ) .	subj@O157 obj@mucosa prep_at@junction
+subj#obj#prep	In temperate climates ectomycorrhizal fungi colonize the roots of many forest plant species .	subj@fungi obj@roots prep_in@climates
+subj#obj#prep	Failure of mosquitoes to colonize teasel axils in Illinois .	subj@Failure obj@axils prep_in@Illinois
+
+subj#conj	Bacteria from diverse habitats colonize and compete in the mouse gut .	subj@Bacteria conj_and@compete
+subj#conj	Pathogenesis of mucosal microorganisms depends on adherence to the tissues they colonize and infect .	subj@they conj_and@infect
+subj#conj	Bacteria rapidly colonize and modulate healing of gastric ulcers in rats .	subj@Bacteria conj_and@modulate
+
+prep	This strain was able to colonize in the intestinal epithelium .	prep_in@epithelium
+prep	Bacteria adhere to and colonize almost any surface .	prep@almost
+prep	Only cells from metastasizing tumors are competent to colonize after direct intrahepatic injection .	prep_after@injection
+
+subj#obj#prep#conj	Following transplantation , human lymphocytes colonize murine lymphatic organs and secrete human immunoglobulins .	subj@lymphocytes obj@organs prep_following@transplantation conj_and@secrete
+subj#obj#prep#conj	Bacterial pathogens colonize respiratory tissue and , as a consequence , compromise lung function .	subj@pathogens obj@tissue prep_as@consequence conj_and@as conj_and@compromise
+subj#obj#prep#conj	The indigenous bacterial microflora colonize the gut at birth and remain there throughout life .	subj@microflora obj@gut prep_at@birth conj_and@remain
+

@@ -1,0 +1,265 @@
+label:    sent_1
+sentence: Subsequent thermal treatment was applied for growing mixed crystal structures to pursue higher performance .
+
+ppatt:
+	?a was applied
+		?a: Subsequent thermal treatment
+	?a growing ?b
+		?a: Subsequent thermal treatment
+		?b: mixed crystal structures
+	?a pursue ?b
+		?a: Subsequent thermal treatment
+		?b: higher performance
+
+
+label:    sent_2
+sentence: One of the larval strategies to pursue spider eggs is spider-boarding .
+
+ppatt:
+	?a pursue ?b
+		?a: One of the larval strategies
+		?b: spider eggs
+	?a is spider-boarding
+		?a: One of the larval strategies to pursue spider eggs
+
+
+label:    sent_3
+sentence: To pursue contribution of PP in hepatocarcinogenesis .
+
+ppatt:
+	pursue ?a
+		?a: contribution of PP in hepatocarcinogenesis
+
+
+label:    sent_4
+sentence: Twenty percent of women did not pursue cycle-based treatment ; approximately half pursued IVF .
+
+ppatt:
+	?a did not pursue ?b
+		?a: Twenty percent of women
+		?b: cycle-based treatment
+	?a pursued ?b
+		?a: approximately half
+		?b: IVF
+
+
+label:    sent_5
+sentence: Only a few states rigorously pursue this method .
+
+ppatt:
+	?a rigorously pursue ?b
+		?a: Only a few states
+		?b: this method
+
+
+label:    sent_6
+sentence: It appears worthwhile to pursue these further .
+
+ppatt:
+	?a appears worthwhile to pursue ?b further
+		?a: It
+		?b: these
+
+
+label:    sent_7
+sentence: We have to pursue research of candidate genes by whole genome scan .
+
+ppatt:
+	?a have to pursue ?b
+		?a: We
+		?b: research of candidate genes by whole genome scan
+
+
+label:    sent_8
+sentence: Some have been informed that they can not pursue careers in aviation .
+
+ppatt:
+	?a have been informed ?b
+		?a: Some
+		?b: SOMETHING := they can not pursue careers in aviation
+	?a can not pursue ?b
+		?a: they
+		?b: careers in aviation
+
+
+label:    sent_9
+sentence: After taking this course , students have gone on to pursue global field experiences .
+
+ppatt:
+	taking ?a ?b
+		?a: this course
+		?b: students
+	?a have gone on to pursue ?b
+		?a: students
+		?b: global field experiences
+
+
+label:    sent_10
+sentence: Within it the vessels pursue a tortuous course with sinusoidal dilatations and constrictions .
+
+ppatt:
+	Within ?a ?b pursue ?c
+		?a: it
+		?b: the vessels
+		?c: a tortuous course with sinusoidal dilatations and constrictions
+
+
+label:    sent_11
+sentence: In the current study we pursue a new , safe and cost-effective solution .
+
+ppatt:
+	In ?a ?b pursue ?c
+		?a: the current study
+		?b: we
+		?c: a new , safe and cost-effective solution
+
+
+label:    sent_12
+sentence: Pregnancy rates among Myanmar migrant workers who pursue employment in Thailand .
+
+ppatt:
+	?a pursue ?b
+		?a: Myanmar migrant workers
+		?b: employment in Thailand
+
+
+label:    sent_13
+sentence: These hypotheses are under investigation and will pursue confirmation in controlled clinical trials .
+
+ppatt:
+	?a are under investigation
+		?a: These hypotheses
+	?a will pursue ?b
+		?a: These hypotheses
+		?b: confirmation in controlled clinical trials
+
+
+label:    sent_14
+sentence: Agency lost its antitrust case in court but can still pursue an administrative complaint .
+
+ppatt:
+	?a lost ?b in ?c
+		?a: Agency
+		?b: its antitrust case
+		?c: court
+	?a can still pursue ?b
+		?a: Agency
+		?b: an administrative complaint
+
+
+label:    sent_15
+sentence: Neurosurgery trainees are encouraged to undertake laboratory research and pursue higher academic degrees .
+
+ppatt:
+	?a are encouraged to undertake ?b
+		?a: Neurosurgery trainees
+		?b: laboratory research
+	?a are encouraged to pursue ?b
+		?a: Neurosurgery trainees
+		?b: higher academic degrees
+
+
+label:    sent_16
+sentence: The decision to pursue or not to pursue fellowship training .
+
+ppatt:
+	?a pursue
+		?a: The decision
+	not to pursue ?a
+		?a: fellowship training
+
+
+label:    sent_17
+sentence: This condition is sometimes reversible and therapy should therefore pursue this outcome .
+
+ppatt:
+	?a is sometimes reversible
+		?a: This condition
+	?a should therefore pursue ?b
+		?a: therapy
+		?b: this outcome
+
+
+label:    sent_18
+sentence: These tumors pursue an aggressive course with rapid local recurrences and are frequently fatal . Hospitals pursue new superstars : famous physicians .
+
+ppatt:
+	?a pursue ?b with ?c
+		?a: These tumors
+		?b: an aggressive course
+		?c: rapid local recurrences
+	?a pursue ?b ?c
+		?a: Hospitals
+		?b: new superstars
+		?c: famous physicians
+
+
+label:    sent_19
+sentence: Researchers have found that men and women pursue sex-appropriate strategies to attract mates . [ Should we pursue escaped patients ? ] . Each student identifies an interest to pursue independently from the perspective of community care .
+
+ppatt:
+	?a have found ?b
+		?a: Researchers
+		?b: SOMETHING := men and women pursue sex-appropriate strategies to attract mates
+	?a pursue ?b to attract ?c
+		?a: men
+		?b: sex-appropriate strategies
+		?c: mates
+	?a pursue ?b to attract ?c
+		?a: women
+		?b: sex-appropriate strategies
+		?c: mates
+	Should ?a pursue ?b ?c
+		?a: we
+		?b: escaped patients
+		?c: ]
+	?a identifies ?b
+		?a: Each student
+		?b: an interest to pursue independently from the perspective of community care
+	?a pursue independently from ?b
+		?a: an interest
+		?b: the perspective of community care
+
+
+label:    sent_20
+sentence: Valve replacement seems reasonable to pursue in select patients .
+
+ppatt:
+	?a seems reasonable to pursue in ?b
+		?a: Valve replacement
+		?b: select patients
+
+
+label:    sent_21
+sentence: Positive results would indicate promising areas to pursue in a follow-up study .
+
+ppatt:
+	?a would indicate ?b
+		?a: Positive results
+		?b: promising areas to pursue in a follow-up study
+	?a pursue in ?b
+		?a: promising areas
+		?b: a follow-up study
+
+
+label:    sent_22
+sentence: The need to pursue and publish clinical trials in nanomedicine . Joint ventures : to pursue or not to pursue ? Physicians need to pursue and determine the cause of pulsatile tinnitus and intracranial hypertension .
+
+ppatt:
+	?a pursue ?b
+		?a: The need
+		?b: clinical trials in nanomedicine . Joint ventures
+	?a publish
+		?a: The need
+	?a pursue
+		?a: The need
+	?a not to pursue
+		?a: The need
+	?a ?b need to pursue ?c
+		?a: The need to pursue and publish clinical trials in nanomedicine . Joint ventures : to pursue or not to pursue
+		?b: Physicians
+		?c: the cause of pulsatile tinnitus and intracranial hypertension
+	?a need to determine
+		?a: The need to pursue and publish clinical trials in nanomedicine . Joint ventures : to pursue or not to pursue
+
+

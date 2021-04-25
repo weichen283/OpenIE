@@ -1,0 +1,220 @@
+label:    sent_1
+sentence: The two Ni-N bonds to the central N donors of the terpy ligands in 1 average 1.990 ( 2 ) A , while the four peripheral Ni-N bonds average 2.107 ( 10 ) A . Daily step counts average 12,100 for boys and 10,300 for girls .
+
+ppatt:
+	?a average ?b
+		?a: the four peripheral Ni-N bonds
+		?b: 2.107 A
+	?a ?b average ?c for ?d
+		?a: The two Ni-N bonds to the central N donors of the terpy ligands in 1 average 1.990 ( 2 ) A
+		?b: Daily step counts
+		?c: 12,100
+		?d: boys for girls
+	?a ?b average ?c for ?d
+		?a: The two Ni-N bonds to the central N donors of the terpy ligands in 1 average 1.990 ( 2 ) A
+		?b: Daily step counts
+		?c: 12,100
+		?d: 10,300
+
+
+label:    sent_2
+sentence: Thus , functional MRI ( fMRI ) studies typically average the BOLD response over the entire structure , which reveals some aspects of amygdala function as a whole but does not distinguish the separate roles of specific nuclei in humans . DLP should be <200 mGy x cm ; E should average 1.0-1.5 mSv and should be <3.0 mSv .
+
+ppatt:
+	?a is/are fMRI
+		?a: functional MRI
+	Thus , ?a typically average ?b
+		?a: functional MRI studies
+		?b: the BOLD response over the entire structure , which reveals some aspects of amygdala function as a whole but does not distinguish the separate roles of specific nuclei in humans
+	?a reveals ?b as ?c
+		?a: the entire structure
+		?b: some aspects of amygdala function
+		?c: a whole
+	?a does not distinguish ?b
+		?a: which
+		?b: the separate roles of specific nuclei in humans
+	?a should be <200 mGy x cm
+		?a: DLP
+	?a should average ?b
+		?a: E
+		?b: 1.0-1.5 mSv
+
+
+label:    sent_3
+sentence: Most research employing physiological stress profiling procedures has relied upon statistical analyses that are flawed in two ways : These analyses typically average the physiological levels observed across a series of observations during any one phase of the profile , thereby ignoring rate of change as a relevant parameter , and the problem of autocorrelation , or the natural correlation of time-series observations of the same physiologic activity , is unaddressed .
+
+ppatt:
+	?a employing ?b
+		?a: Most research
+		?b: physiological stress profiling procedures
+	?a has relied upon ?b
+		?a: Most research employing physiological stress profiling procedures
+		?b: statistical analyses that are flawed in two ways
+	?a are flawed in ?b
+		?a: statistical analyses
+		?b: two ways
+	?a typically average ?b
+		?a: These analyses
+		?b: the physiological levels observed across a series of observations during any one phase of the profile
+	?a observed across ?b
+		?a: the physiological levels
+		?b: a series of observations during any one phase of the profile
+	?a thereby ignoring ?b
+		?a: These analyses
+		?b: rate of change as a relevant parameter
+	?a is unaddressed
+		?a: the problem of autocorrelation
+	?a is unaddressed
+		?a: the natural correlation of time-series observations of the same physiologic activity
+
+
+label:    sent_4
+sentence: We average the parallel component of the vorticity in the direction parallel to that of rotation and examine the resulting <omega ( z ) > ( z ) field for scaling properties of its zero-value contours .
+
+ppatt:
+	?a average ?b
+		?a: We
+		?b: the parallel component of the vorticity in the direction parallel to that of rotation
+	?a examine ?b for ?c
+		?a: We
+		?b: the resulting <omega ( z > field
+		?c: scaling properties of its zero-value contours
+	?a is/are z
+		?a: z >
+
+
+label:    sent_5
+sentence: In patients heterozygous for beta-thalassemia , they average about 5 % but do not usually exceed 7 % . We downsample and synthesize 900 billion wavefield observations to produce 3 billion cross-correlations , which we average and fit , measuring 5 million wave travel times .
+
+ppatt:
+	In ?a , ?b average ?c
+		?a: patients heterozygous for beta-thalassemia
+		?b: they
+		?c: about 5 %
+	?a do not usually exceed ?b
+		?a: they
+		?b: 7 %
+	?a downsample
+		?a: We
+	?a synthesize ?b
+		?a: We
+		?b: 900 billion wavefield observations to produce 3 billion cross-correlations , which we average and fit , measuring 5 million wave travel times
+	?a produce ?b
+		?a: 900 billion wavefield observations
+		?b: 3 billion cross-correlations , which we average and fit , measuring 5 million wave travel times
+	?a ?b average
+		?a: 3 billion cross-correlations
+		?b: we
+	?a fit
+		?a: we
+	?a measuring ?b
+		?a: we
+		?b: 5 million wave travel times
+
+
+label:    sent_6
+sentence: The study differs from existing RR research in that ( a ) students were average as opposed to struggling students , ( b ) prosody was evaluated , and ( c ) measures of prosody were objective as opposed to subjective .
+
+ppatt:
+	?a differs from ?b ?c
+		?a: The study
+		?b: existing RR research
+		?c: SOMETHING := in that students were average as opposed to struggling students
+	in that ?a were average
+		?a: students
+	?a opposed to ?b
+		?a: students
+		?b: struggling students
+	?a was evaluated
+		?a: prosody
+	?a were objective
+		?a: measures of prosody
+	?a opposed to ?b
+		?a: measures of prosody
+		?b: subjective
+
+
+label:    sent_7
+sentence: They may make measurements in different compartments ( e.g. intracellular , extracellular , vascular ) in the volume that they sample , the time span over which they average , the local perturbation that they may cause , etc .
+
+ppatt:
+	?a may make ?b ?c
+		?a: They
+		?b: measurements in different compartments in the volume
+		?c: SOMETHING := they sample , the time span over which they average , the local perturbation that they may cause , etc
+	?a is/are extracellular
+		?a: e.g. intracellular
+	?a is/are vascular
+		?a: e.g. intracellular
+	?a sample ?b ?c
+		?a: they
+		?b: the time span over which they average
+		?c: the local perturbation that they may cause , etc
+	?a over ?b average
+		?a: the time span
+		?b: they
+	?a may cause , etc
+		?a: they
+
+
+label:    sent_8
+sentence: They also perceived their current body figure to be larger when compared with those who believed they were average or underweight prior to puberty .
+
+ppatt:
+	?a also perceived ?b to be larger
+		?a: They
+		?b: their current body figure
+	?a when compared with ?b
+		?a: They
+		?b: those who believed they were average or underweight prior to puberty
+	?a believed ?b
+		?a: those were average or underweight prior to puberty
+		?b: they
+	?a were average prior to ?b
+		?a: those who believed they
+		?b: puberty
+
+
+label:    sent_9
+sentence: Second , when uncorrelated visual and auditory information were simultaneously present , observers showed little cost for averaging in either modality when they did not know until the end of each trial which average they had to report .
+
+ppatt:
+	when ?a ?b were simultaneously present
+		?a: uncorrelated visual
+		?b: information
+	when ?a ?b were simultaneously present
+		?a: auditory
+		?b: information
+	Second , ?a showed ?b
+		?a: observers
+		?b: little cost for averaging in either modality
+	?a for averaging in ?b
+		?a: little cost
+		?b: either modality
+	when ?a did not know until ?b
+		?a: they
+		?b: the end of each trial which average they had to report
+	?a ?b ?c had to report
+		?a: each trial
+		?b: average
+		?c: they
+
+
+label:    sent_10
+sentence: The difference in these estimates could be largely attributed to uncertainty in equilibrium partition coefficients , unaccounted for disequilibrium between samplers and water , or different time scales over which the samplers average .
+
+ppatt:
+	?a could be largely attributed to ?b
+		?a: The difference in these estimates
+		?b: uncertainty in equilibrium partition coefficients , unaccounted for disequilibrium between samplers and water
+	?a could be largely attributed to ?b
+		?a: The difference in these estimates
+		?b: different time scales over which the samplers average
+	?a unaccounted for ?b
+		?a: equilibrium partition coefficients
+		?b: disequilibrium between samplers and water
+	?a over ?b average
+		?a: different time scales
+		?b: the samplers
+
+

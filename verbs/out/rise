@@ -1,0 +1,277 @@
+label:    sent_1
+sentence: The impact factors of biomedical journals tend to rise over time .
+
+ppatt:
+	?a tend to rise over ?b
+		?a: The impact factors of biomedical journals
+		?b: time
+
+
+label:    sent_2
+sentence: The z scores tended to rise with age .
+
+ppatt:
+	?a tended to rise with ?b
+		?a: The z scores
+		?b: age
+
+
+label:    sent_3
+sentence: Aerobic power was assumed to rise monoexponentially with a time constant tau . CV ( inter ) did not rise above 4.5 % . The authors have found that pancreas CCL-2 and CCR-2 levels rise during pancreatitis .
+
+ppatt:
+	?a was assumed to rise monoexponentially
+		?a: Aerobic power
+	?a is/are inter
+		?a: a time constant tau . CV
+	with ?a did not rise above ?b
+		?a: a time constant tau . CV
+		?b: 4.5 %
+	?a have found ?b
+		?a: The authors
+		?b: SOMETHING := pancreas CCL-2 and CCR-2 levels rise during pancreatitis
+	?a rise during ?b
+		?a: pancreas CCL-2
+		?b: pancreatitis
+	?a rise during ?b
+		?a: CCR-2
+		?b: pancreatitis
+	?a rise during ?b
+		?a: levels
+		?b: pancreatitis
+
+
+label:    sent_4
+sentence: Serum uric acid levels physiologically and gradually rise during human lifetime .
+
+ppatt:
+	?a physiologically and gradually rise during ?b
+		?a: Serum uric acid levels
+		?b: human lifetime
+
+
+label:    sent_5
+sentence: Prescriptions for generic drugs rise sharply . Glacial demise and methane 's rise .
+
+ppatt:
+	?a rise sharply ?b
+		?a: Prescriptions for generic drugs
+		?b: Glacial demise
+	?a rise sharply ?b
+		?a: Prescriptions for generic drugs
+		?b: methane rise
+
+
+label:    sent_6
+sentence: Therefore , the number of pregnant women with endometriosis and associated complications may rise .
+
+ppatt:
+	Therefore , ?a may rise
+		?a: the number of pregnant women with endometriosis and associated complications
+
+
+label:    sent_7
+sentence: Levels of acute-phase proteins rise rapidly , during infection and after injury . US abortion rates rise among poor women but fall overall .
+
+ppatt:
+	?a rise rapidly , during ?b
+		?a: Levels of acute-phase proteins
+		?b: infection
+	?a rise rapidly , during ?b
+		?a: Levels of acute-phase proteins
+		?b: injury
+	?a rise among ?b
+		?a: US abortion rates
+		?b: poor women
+	?a fall overall
+		?a: US abortion rates
+
+
+label:    sent_8
+sentence: Plasma free catecholamines rise during exercise , but sulfoconjugated catecholamines reportedly fall .
+
+ppatt:
+	?a rise during ?b
+		?a: Plasma free catecholamines
+		?b: exercise
+	?a reportedly fall
+		?a: sulfoconjugated catecholamines
+
+
+label:    sent_9
+sentence: The rise and fall of endothelin receptor antagonists in congestive heart failure .
+
+ppatt:
+
+
+
+label:    sent_10
+sentence: Some incomes rise , but others fall . [ The rise and fall of pathology techniques ] . Its cellular levels are usually low and rise substantially in response to DNA damage .
+
+ppatt:
+	?a rise
+		?a: Some incomes
+	?a fall [ ?b
+		?a: others
+		?b: The rise of pathology techniques
+	?a fall [ ?b
+		?a: others
+		?b: fall
+	?a are usually low
+		?a: Its cellular levels
+	?a rise substantially in ?b
+		?a: Its cellular levels
+		?b: response to DNA damage
+
+
+label:    sent_11
+sentence: This relative hypoventilation led to a rise in PaCO2 and fall in pHa .
+
+ppatt:
+	?a led to ?b
+		?a: This relative hypoventilation
+		?b: a rise in PaCO2
+	?a fall in ?b
+		?a: This relative hypoventilation
+		?b: pHa
+
+
+label:    sent_12
+sentence: Basal TSH levels were not elevated and did not rise significantly after TRH injection .
+
+ppatt:
+	?a were not elevated
+		?a: Basal TSH levels
+	?a did not rise significantly after ?b
+		?a: Basal TSH levels
+		?b: TRH injection
+
+
+label:    sent_13
+sentence: The incidence of pleural infection continues to rise worldwide .
+
+ppatt:
+	?a continues to rise ?b
+		?a: The incidence of pleural infection
+		?b: worldwide
+
+
+label:    sent_14
+sentence: The new therapeutic modality should be necessary to rise up this clinical response rate .
+
+ppatt:
+	?a should be necessary to rise up ?b
+		?a: The new therapeutic modality
+		?b: this clinical response rate
+
+
+label:    sent_15
+sentence: Her activity contributed to rise the obstetrics knowledge in XVII century .
+
+ppatt:
+	?a contributed to rise ?b
+		?a: Her activity
+		?b: the obstetrics knowledge in XVII century
+
+
+label:    sent_16
+sentence: As fitness to practise cases rise , nurses debate what can be done .
+
+ppatt:
+	?a practise ?b
+		?a: fitness
+		?b: cases
+	?a rise
+		?a: cases
+	As ?a , ?b debate ?c
+		?a: fitness to practise cases rise
+		?b: nurses
+		?c: SOMETHING := what can be done
+	?a can be done
+		?a: what
+
+
+label:    sent_17
+sentence: Voiceless affricate/fricative distinction by frication duration and amplitude rise slope .
+
+ppatt:
+
+
+
+label:    sent_18
+sentence: When alcohol is withdrawn , free fatty acids rise sharply and plasma magnesium falls .
+
+ppatt:
+	When ?a is withdrawn
+		?a: alcohol
+	?a rise sharply and plasma ?b
+		?a: free fatty acids
+		?b: magnesium falls
+
+
+label:    sent_19
+sentence: Prescription prices rise faster after recession .
+
+ppatt:
+	?a rise ?b after ?c
+		?a: Prescription prices
+		?b: faster
+		?c: recession
+
+
+label:    sent_20
+sentence: Deaths rise in good economic times : evidence from the OECD .
+
+ppatt:
+	?a rise in ?b
+		?a: Deaths
+		?b: good economic times
+
+
+label:    sent_21
+sentence: Prices rise along with business activity in August .
+
+ppatt:
+	?a rise along with ?b
+		?a: Prices
+		?b: business activity in August
+
+
+label:    sent_22
+sentence: Male rates were lower in every age group and did not rise as dramatically .
+
+ppatt:
+	?a were lower in ?b
+		?a: Male rates
+		?b: every age group
+	?a did not rise as dramatically
+		?a: Male rates
+
+
+label:    sent_23
+sentence: Incidences continues to rise and vary substantially between populations .
+
+ppatt:
+	?a continues to rise substantially between ?b
+		?a: Incidences
+		?b: populations
+	?a continues to vary
+		?a: Incidences
+
+
+label:    sent_24
+sentence: Predialysis and postdialysis CK was measured in 10 patients and did not rise .
+
+ppatt:
+	?a was measured in ?b
+		?a: Predialysis
+		?b: 10 patients
+	?a was measured in ?b
+		?a: postdialysis CK
+		?b: 10 patients
+	?a did not rise
+		?a: Predialysis
+	?a did not rise
+		?a: postdialysis CK
+
+

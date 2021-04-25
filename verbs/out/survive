@@ -1,0 +1,298 @@
+label:    sent_1
+sentence: Cells within collagen matrices survive in the thoracic cavity at early time points .
+
+ppatt:
+	?a survive in ?b at ?c
+		?a: Cells within collagen matrices
+		?b: the thoracic cavity
+		?c: early time points
+
+
+label:    sent_2
+sentence: We find that hMSCs survive equally well in this system , regardless of MMP-degradability .
+
+ppatt:
+	?a find ?b
+		?a: We
+		?b: SOMETHING := hMSCs survive equally well in this system , regardless of MMP-degradability
+	?a survive equally well in ?b , regardless of ?c
+		?a: hMSCs
+		?b: this system
+		?c: MMP-degradability
+
+
+label:    sent_3
+sentence: During the prolonged gestation of a new medicine few candidate molecules survive .
+
+ppatt:
+	During ?a ?b survive
+		?a: the prolonged gestation
+		?b: of a new medicine few candidate molecules
+
+
+label:    sent_4
+sentence: Intracellular pathogens have developed different strategies to survive within host cells .
+
+ppatt:
+	?a have developed ?b to survive within ?c
+		?a: Intracellular pathogens
+		?b: different strategies
+		?c: host cells
+
+
+label:    sent_5
+sentence: Sulfate reducers have developed a multifaceted adaptative strategy to survive against oxidative stresses .
+
+ppatt:
+	?a have developed ?b
+		?a: Sulfate reducers
+		?b: a multifaceted adaptative strategy to survive against oxidative stresses
+	?a survive against ?b
+		?a: a multifaceted adaptative strategy
+		?b: oxidative stresses
+
+
+label:    sent_6
+sentence: Rhodococcus equi human clinical isolates enter and survive within human alveolar epithelial cells .
+
+ppatt:
+	?a enter within ?b
+		?a: Rhodococcus equi human clinical isolates
+		?b: human alveolar epithelial cells
+	?a survive
+		?a: Rhodococcus equi human clinical isolates
+
+
+label:    sent_7
+sentence: Those who survive passive suspension are at risk for rhabdomyolysis .
+
+ppatt:
+	?a survive ?b
+		?a: Those
+		?b: passive suspension
+	?a are at risk for ?b
+		?a: Those who survive passive suspension
+		?b: rhabdomyolysis
+
+
+label:    sent_8
+sentence: Change ( the only constant ) and how to survive it . In cells that did not survive micropuncture injury , actin remodeling did not occur .
+
+ppatt:
+	?a how to survive ?b In ?c
+		?a: Change
+		?b: it
+		?c: cells that did not survive micropuncture injury
+	?a did not survive ?b
+		?a: cells
+		?b: micropuncture injury
+	?a ?b did not occur
+		?a: Change and how to survive it . In cells that did not survive micropuncture injury
+		?b: actin remodeling
+
+
+label:    sent_9
+sentence: Inserted larvae were statistically more likely to survive fumigation than oviposited larvae .
+
+ppatt:
+	?a were statistically more likely to survive ?b than ?c
+		?a: Inserted larvae
+		?b: fumigation
+		?c: oviposited larvae
+
+
+label:    sent_10
+sentence: There is evidence that women are more likely to survive cardiac arrest than men . Diatoms respire nitrate to survive dark and anoxic conditions .
+
+ppatt:
+	There is ?a
+		?a: evidence that women are more likely to survive cardiac arrest than men . Diatoms respire nitrate to survive dark and anoxic conditions
+	?a are more likely to survive ?b . ?c to survive ?d
+		?a: women
+		?b: cardiac arrest than men
+		?c: Diatoms respire nitrate
+		?d: dark and anoxic conditions
+
+
+label:    sent_11
+sentence: However , the patient could not survive .
+
+ppatt:
+	However , ?a could not survive
+		?a: the patient
+
+
+label:    sent_12
+sentence: Most of the RGC can survive more than two weeks . Of those who survive , most experience a decrease in mobility and independence .
+
+ppatt:
+	?a can survive ?b
+		?a: Most of the RGC
+		?b: more than two weeks Of those who survive
+	?a survive
+		?a: those
+	?a most experience ?b
+		?a: Most of the RGC
+		?b: a decrease in mobility and independence
+
+
+label:    sent_13
+sentence: They need not be designed this way to survive and thrive . Camels survive and produce milk during recurrent prolonged hot and dry periods .
+
+ppatt:
+	?a need not be designed ?b ?c
+		?a: They
+		?b: this way to survive and thrive
+		?c: SOMETHING := Camels survive during recurrent prolonged hot and dry periods
+	?a survive
+		?a: this way
+	?a thrive
+		?a: this way
+	?a survive during ?b
+		?a: Camels
+		?b: recurrent prolonged hot and dry periods
+	?a produce ?b
+		?a: Camels
+		?b: milk
+
+
+label:    sent_14
+sentence: Helping novice perioperative nurses survive and thrive . How to survive and thrive in today 's medical practice .
+
+ppatt:
+	Helping ?a
+		?a: novice perioperative nurses
+	?a survive
+		?a: SOMETHING := Helping novice perioperative nurses
+	?a thrive
+		?a: Helping novice perioperative nurses
+	?a How to survive in 's ?b
+		?a: Helping novice perioperative nurses
+		?b: today medical practice
+	?a thrive
+		?a: Helping novice perioperative nurses
+
+
+label:    sent_15
+sentence: The complex of ASC-MADM can be injected into the vocal cord and can survive .
+
+ppatt:
+	?a can be injected into ?b
+		?a: The complex of ASC-MADM
+		?b: the vocal cord
+	?a can survive
+		?a: The complex of ASC-MADM
+
+
+label:    sent_16
+sentence: Tumor cells interact with their surrounding microenvironment to survive and persist within the host .
+
+ppatt:
+	?a interact with ?b to survive within ?c
+		?a: Tumor cells
+		?b: their surrounding microenvironment
+		?c: the host
+	?a interact to persist
+		?a: Tumor cells
+
+
+label:    sent_17
+sentence: However , mLST8 null embryos survive until e10.5 and resemble embryos missing rictor .
+
+ppatt:
+	However , ?a survive until ?b
+		?a: mLST8 null embryos
+		?b: e10.5
+	?a resemble embryos
+		?a: mLST8 null embryos
+	?a missing ?b
+		?a: embryos
+		?b: rictor
+
+
+label:    sent_18
+sentence: In contrast , goldfish RGCs can survive and regrow their axons after injury .
+
+ppatt:
+	In ?a , ?b can survive
+		?a: contrast
+		?b: goldfish RGCs
+	?a regrow ?b
+		?a: goldfish RGCs
+		?b: their axons after injury
+
+
+label:    sent_19
+sentence: The epidemic will survive when q > qc and die when q < qc . In some cases , people can survive entrapment for lengthy periods .
+
+ppatt:
+	?a will survive
+		?a: The epidemic
+	?a when q > qc
+		?a: The epidemic
+	?a die In ?b
+		?a: The epidemic
+		?b: some cases
+	?a ?b can survive ?c for ?d
+		?a: when q < qc
+		?b: people
+		?c: entrapment
+		?d: lengthy periods
+
+
+label:    sent_20
+sentence: Cold-induced changes of gene expression and metabolism are critical for plants to survive freezing .
+
+ppatt:
+	?a are critical for ?b to survive ?c
+		?a: Cold-induced changes of gene
+		?b: plants
+		?c: freezing
+
+
+label:    sent_21
+sentence: Children that survive birth before 34 weeks gestation often face life-long disability .
+
+ppatt:
+	?a survive ?b before ?c
+		?a: Children
+		?b: birth
+		?c: 34 weeks gestation
+	?a often face ?b
+		?a: Children that survive birth before 34 weeks gestation
+		?b: life-long disability
+
+
+label:    sent_22
+sentence: However , they appear to survive for some time and to remain functional .
+
+ppatt:
+	However , ?a appear to survive for ?b
+		?a: they
+		?b: some time
+	However , ?a appear to to remain functional
+		?a: they
+
+
+label:    sent_23
+sentence: The latter two channels were labile and did not survive during intracellular perfusion .
+
+ppatt:
+	?a were labile
+		?a: The latter two channels
+	?a did not survive during ?b
+		?a: The latter two channels
+		?b: intracellular perfusion
+
+
+label:    sent_24
+sentence: The remaining patients may be stable and survive for prolonged periods .
+
+ppatt:
+	?a may be stable
+		?a: The remaining patients
+	?a survive for ?b
+		?a: The remaining patients
+		?b: prolonged periods
+
+

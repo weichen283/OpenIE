@@ -1,0 +1,241 @@
+label:    sent_1
+sentence: Rules for estimating the number of iterations needed to dissipate these correlations are given .
+
+ppatt:
+	?a estimating ?b
+		?a: Rules
+		?b: the number of iterations needed to dissipate these correlations
+	?a needed to dissipate ?b
+		?a: iterations
+		?b: these correlations
+	?a are given
+		?a: Rules for estimating the number of iterations needed to dissipate these correlations
+
+
+label:    sent_2
+sentence: They also required more time to dissipate applied stress .
+
+ppatt:
+	?a also required ?b to dissipate ?c
+		?a: They
+		?b: more time
+		?c: applied stress
+
+
+label:    sent_3
+sentence: Bioaugmentation is an attractive option to dissipate heavy NP pollution in river sediment .
+
+ppatt:
+	?a is an attractive option
+		?a: Bioaugmentation
+	?a dissipate ?b
+		?a: an attractive option
+		?b: heavy NP pollution in river sediment
+
+
+label:    sent_4
+sentence: Nickel allergy and wrist strap to dissipate static electricity .
+
+ppatt:
+	?a dissipate ?b
+		?a: Nickel allergy
+		?b: static electricity
+	?a dissipate ?b
+		?a: wrist strap
+		?b: static electricity
+
+
+label:    sent_5
+sentence: Reef crests alone dissipate most of this energy ( 86 % ) . The subsequent relaxation steps down to the 5T2 state dissipate approximately 2000 cm-1/100 fs . The effects of smoking appear to dissipate 5 yr after quitting .
+
+ppatt:
+	?a dissipate ?b
+		?a: Reef crests alone
+		?b: most of this energy
+	?a is/are 86 %
+		?a: most of this energy
+	?a dissipate ?b
+		?a: The subsequent relaxation steps down to the 5T2 state
+		?b: approximately 2000 cm-1/100 fs
+	?a appear to dissipate ?b after
+		?a: The effects of smoking
+		?b: 5 yr
+
+
+label:    sent_6
+sentence: The nucleus pulposus contributes to dissipate energy under physiological large deformations .
+
+ppatt:
+	?a contributes to dissipate ?b under ?c
+		?a: The nucleus pulposus
+		?b: energy
+		?c: physiological large deformations
+
+
+label:    sent_7
+sentence: The fibrocartilage is believed to dissipate stress concentration at the hard/soft tissue boundary .
+
+ppatt:
+	?a is believed to dissipate ?b at ?c
+		?a: The fibrocartilage
+		?b: stress concentration
+		?c: the hard/soft tissue boundary
+
+
+label:    sent_8
+sentence: These effects often tend to dissipate with time .
+
+ppatt:
+	?a often tend to dissipate with ?b
+		?a: These effects
+		?b: time
+
+
+label:    sent_9
+sentence: Differences between the groups tended to dissipate after a few trials .
+
+ppatt:
+	?a tended to dissipate after ?b
+		?a: Differences between the groups
+		?b: a few trials
+
+
+label:    sent_10
+sentence: Each block was allowed to fully dissipate prior to the next injection .
+
+ppatt:
+	?a was allowed to fully dissipate prior to ?b
+		?a: Each block
+		?b: the next injection
+
+
+label:    sent_11
+sentence: As a result , the gender differences dissipate in the later decades of life . Ca2+ caused this gradient to dissipate within 10 min .
+
+ppatt:
+	As ?a , ?b dissipate in ?c
+		?a: a result
+		?b: the gender differences
+		?c: the later decades of life
+	?a caused ?b to dissipate within ?c
+		?a: Ca2+
+		?b: this gradient
+		?c: 10 min
+
+
+label:    sent_12
+sentence: Most behavioral and neurochemical changes produced by inescapable shock dissipate in 1-3 days .
+
+ppatt:
+	?a produced by ?b
+		?a: Most behavioral and neurochemical changes
+		?b: inescapable shock
+	?a dissipate in ?b
+		?a: Most behavioral and neurochemical changes produced by inescapable shock
+		?b: 1-3 days
+
+
+label:    sent_13
+sentence: Normal thermogenesis requires a complex interaction between systems that generate and dissipate heat .
+
+ppatt:
+	?a requires ?b
+		?a: Normal thermogenesis
+		?b: a complex interaction between systems that generate and dissipate heat
+	?a generate ?b
+		?a: systems
+		?b: heat
+	?a dissipate
+		?a: that
+
+
+label:    sent_14
+sentence: Older birds dissipate heat predominantly by evaporative cooling .
+
+ppatt:
+	?a dissipate ?b predominantly by ?c
+		?a: Older birds
+		?b: heat
+		?c: evaporative cooling
+
+
+label:    sent_15
+sentence: In addition , the flow of an ideal fluid does not dissipate kinetic energy .
+
+ppatt:
+	In ?a , ?b does not dissipate ?c
+		?a: addition
+		?b: the flow of an ideal fluid
+		?c: kinetic energy
+
+
+label:    sent_16
+sentence: Penetrating bullets dissipate thermal and kinetic energy into surrounding tissues .
+
+ppatt:
+	?a dissipate ?b into ?c
+		?a: Penetrating bullets
+		?b: thermal and kinetic energy
+		?c: surrounding tissues
+
+
+label:    sent_17
+sentence: Subsequently , the matrices were dislodged ; thereby allowing stress to dissipate .
+
+ppatt:
+	Subsequently , ?a were dislodged ; thereby allowing ?b to dissipate
+		?a: the matrices
+		?b: stress
+
+
+label:    sent_18
+sentence: The remainder may dissipate biologically or chemically .
+
+ppatt:
+	?a may dissipate biologically or chemically
+		?a: The remainder
+
+
+label:    sent_19
+sentence: Both energy intermediates dissipate rapidly when the energy supply stops .
+
+ppatt:
+	?a dissipate rapidly
+		?a: Both energy intermediates
+	when ?a stops
+		?a: the energy supply
+
+
+label:    sent_20
+sentence: Higher FCCP concentrations dissipate mitochondrial membrane potential and exacerbate injury .
+
+ppatt:
+	?a dissipate ?b
+		?a: Higher FCCP concentrations
+		?b: mitochondrial membrane potential
+	?a exacerbate ?b
+		?a: Higher FCCP concentrations
+		?b: injury
+
+
+label:    sent_21
+sentence: They also dissipate the membrane potential and inhibit respiration .
+
+ppatt:
+	?a also dissipate ?b
+		?a: They
+		?b: the membrane potential
+	?a inhibit ?b
+		?a: They
+		?b: respiration
+
+
+label:    sent_22
+sentence: Large bills dissipate more heat and may be an adaptation to summer heat stress .
+
+ppatt:
+	?a dissipate ?b
+		?a: Large bills
+		?b: more heat
+
+

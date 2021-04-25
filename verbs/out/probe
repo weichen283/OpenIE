@@ -1,0 +1,266 @@
+label:    sent_1
+sentence: Scanning electron microscopy was used to probe the spore deposition patterns on test coupons .
+
+ppatt:
+	was used to probe ?a
+		?a: the spore deposition patterns on test coupons
+
+
+label:    sent_2
+sentence: Singleton synthesis was used to probe core changes . FTIR and Raman spectroscopy were employed to probe the changes occurring in the sample .
+
+ppatt:
+	?a was used to probe ?b
+		?a: Singleton synthesis
+		?b: core changes
+	?a were employed to probe ?b
+		?a: FTIR
+		?b: the changes occurring in the sample
+	?a were employed to probe ?b
+		?a: Raman spectroscopy
+		?b: the changes occurring in the sample
+	?a occurring in ?b
+		?a: the changes
+		?b: the sample
+
+
+label:    sent_3
+sentence: Wavelet transforms to probe long- and short-range forces by thermally excited dynamic force spectroscopy .
+
+ppatt:
+	?a transforms to probe ?b by ?c
+		?a: Wavelet
+		?b: long- and short-range forces
+		?c: thermally excited dynamic force spectroscopy
+
+
+label:    sent_4
+sentence: Terahertz spectroscopy is shown to probe the collective modes in the water network .
+
+ppatt:
+	?a is shown to probe ?b
+		?a: Terahertz spectroscopy
+		?b: the collective modes in the water network
+
+
+label:    sent_5
+sentence: Using ESI-MS to probe protein structure by site-specific noncovalent attachment of 18-crown-6 .
+
+ppatt:
+	Using ?a
+		?a: ESI-MS
+	probe ?a by ?b
+		?a: protein structure
+		?b: site-specific noncovalent attachment of 18-crown-6
+
+
+label:    sent_6
+sentence: Biomembrane force probe investigation of RNA dissociation .
+
+ppatt:
+
+
+
+label:    sent_7
+sentence: Microscopy and computational studies probe the 3D interior of the beads . Insights into scanning probe high-field chemistry of diphenylgermane .
+
+ppatt:
+	?a probe ?b
+		?a: Microscopy
+		?b: the 3D interior of the beads
+	?a probe ?b
+		?a: computational
+		?b: the 3D interior of the beads
+
+
+label:    sent_8
+sentence: To probe into the reflection of " artery " phenomenon in human channels .
+
+ppatt:
+	probe into ?a
+		?a: the reflection of " artery " phenomenon in human channels
+
+
+label:    sent_9
+sentence: To probe into the relationship of different needle-retained time with therapeutic effects .
+
+ppatt:
+	probe into ?a
+		?a: the relationship of different needle-retained time with therapeutic effects
+
+
+label:    sent_10
+sentence: A preculture system was then used to probe for RF-specific suppressor precursor lymphocytes .
+
+ppatt:
+	?a was then used to probe for ?b
+		?a: A preculture system
+		?b: RF-specific suppressor precursor lymphocytes
+
+
+label:    sent_11
+sentence: Scientists probe oxytocin therapy for social deficits in autism , schizophrenia .
+
+ppatt:
+	?a probe ?b for ?c
+		?a: Scientists
+		?b: oxytocin therapy
+		?c: social deficits in autism
+	?a is/are schizophrenia
+		?a: autism
+
+
+label:    sent_12
+sentence: We probe the stability limits of the micelle by applying hydrostatic pressure .
+
+ppatt:
+	?a probe ?b
+		?a: We
+		?b: the stability limits of the micelle
+	?a applying ?b
+		?a: We
+		?b: hydrostatic pressure
+
+
+label:    sent_13
+sentence: Scientists probe strategies to repair neuron damage in multiple sclerosis .
+
+ppatt:
+	?a probe ?b
+		?a: Scientists
+		?b: strategies to repair neuron damage in multiple sclerosis
+	?a repair ?b
+		?a: strategies
+		?b: neuron damage in multiple sclerosis
+
+
+label:    sent_14
+sentence: A cost effective simulator for education of ultrasound image interpretation and probe manipulation .
+
+ppatt:
+
+
+
+label:    sent_15
+sentence: Spin-polarized scanning tunnelling microscopy accomplishes this but can probe only conducting materials .
+
+ppatt:
+	?a accomplishes ?b
+		?a: Spin-polarized scanning tunnelling microscopy
+		?b: this
+	?a can probe ?b
+		?a: Spin-polarized scanning tunnelling microscopy
+		?b: only conducting materials
+
+
+label:    sent_16
+sentence: Experimental methods to probe such structures and to decipher the results are tedious .
+
+ppatt:
+	?a probe ?b
+		?a: Experimental methods
+		?b: such structures
+	?a decipher ?b
+		?a: Experimental methods
+		?b: the results
+	?a are tedious
+		?a: Experimental methods to probe such structures and to decipher the results
+
+
+label:    sent_17
+sentence: Noncontact interferometric optical probe for calibration of coordinate measuring machines .
+
+ppatt:
+
+
+
+label:    sent_18
+sentence: Novel use of transesophageal echocardiographic probe for intraoperative epicardial imaging .
+
+ppatt:
+
+
+
+label:    sent_19
+sentence: These tests probe for immunologically and biologically active BMP2 , respectively . Mission to probe Venus 's curious winds and test solar sail for propulsion .
+
+ppatt:
+	?a probe for ?b ?c , respectively ?d
+		?a: These tests
+		?b: immunologically
+		?c: BMP2
+		?d: Mission to probe Venus 's curious winds and test solar sail for propulsion
+	?a probe for ?b ?c , respectively ?d
+		?a: These tests
+		?b: biologically active
+		?c: BMP2
+		?d: Mission to probe Venus 's curious winds and test solar sail for propulsion
+	?a probe 's ?b
+		?a: Mission
+		?b: Venus curious winds
+	test ?a
+		?a: solar sail for propulsion
+
+
+label:    sent_20
+sentence: We probe their optical response and discuss potential novel applications .
+
+ppatt:
+	?a probe ?b
+		?a: We
+		?b: their optical response
+	?a discuss ?b
+		?a: We
+		?b: potential novel applications
+
+
+label:    sent_21
+sentence: Cells actively probe the stiffness of their surrounding and respond to it . A nonlinear characteristic regime of biomembrane force probe .
+
+ppatt:
+	?a actively probe ?b
+		?a: Cells
+		?b: the stiffness of their surrounding
+	?a respond to ?b
+		?a: Cells
+		?b: it
+
+
+label:    sent_22
+sentence: Microwave field distribution in a magic angle spinning dynamic nuclear polarization NMR probe .
+
+ppatt:
+
+
+
+label:    sent_23
+sentence: Enantioselective synthesis of nicotinic receptor probe 7,8-difluoro-1,2,3,4,5,6- hexahydro-1,5-methano-3-benzazocine .
+
+ppatt:
+
+
+
+label:    sent_24
+sentence: To probe and systematize the ancient cauterization with pyropuncture needle for evacuation of pus . Using noise to probe and characterize gene circuits .
+
+ppatt:
+	probe ?a for ?b
+		?a: the ancient cauterization with pyropuncture needle
+		?b: evacuation of pus
+	systematize ?a
+		?a: the ancient cauterization with pyropuncture needle
+	Using ?a to probe ?b
+		?a: noise
+		?b: gene circuits
+	Using to characterize ?a
+		?a: gene circuits
+
+
+label:    sent_25
+sentence: To probe or not to probe .
+
+ppatt:
+	probe to ?a
+		?a: probe
+
+

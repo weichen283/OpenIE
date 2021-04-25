@@ -1,0 +1,251 @@
+label:    sent_1
+sentence: Twice daily PPI therapy can be tried to control extra-esophageal symptoms of GERD .
+
+ppatt:
+	?a can be tried to control ?b
+		?a: Twice daily PPI therapy
+		?b: extra-esophageal symptoms of GERD
+
+
+label:    sent_2
+sentence: HAE can be used to successfully control bleeding secondary to hepatic arterial rupture . JBluIce-EPICS control system for macromolecular crystallography .
+
+ppatt:
+	?a can be used to successfully control ?b ?c
+		?a: HAE
+		?b: bleeding secondary to hepatic arterial rupture
+		?c: JBluIce-EPICS control system for macromolecular crystallography
+
+
+label:    sent_3
+sentence: Normally , T-regulatory ( Treg ) -cells control the immune response .
+
+ppatt:
+	?a is/are Treg
+		?a: T-regulatory
+	Normally , ?a control ?b
+		?a: T-regulatory -cells
+		?b: the immune response
+
+
+label:    sent_4
+sentence: AphA and LuxR / HapR reciprocally control quorum sensing in vibrios . " Mask up " to control infectious diseases .
+
+ppatt:
+	?a reciprocally control ?b . ?c to control ?d
+		?a: AphA
+		?b: quorum sensing in vibrios
+		?c: " Mask up "
+		?d: infectious diseases
+	?a reciprocally control ?b . ?c to control ?d
+		?a: LuxR
+		?b: quorum sensing in vibrios
+		?c: " Mask up "
+		?d: infectious diseases
+	?a reciprocally control ?b . ?c to control ?d
+		?a: HapR
+		?b: quorum sensing in vibrios
+		?c: " Mask up "
+		?d: infectious diseases
+
+
+label:    sent_5
+sentence: The extracellular matrix molecule Reelin is known to control neuronal migration during development .
+
+ppatt:
+	?a is known to control ?b during ?c
+		?a: The extracellular matrix molecule
+		?b: neuronal migration
+		?c: development
+
+
+label:    sent_6
+sentence: In this study we investigated factors that control IL-25 production in the gut . Each first dose failed to control seizures in 24 and 13 episodes , respectively . pRb and p16 control the cell cycle as tumor suppressors .
+
+ppatt:
+	In ?a ?b investigated ?c
+		?a: this study
+		?b: we
+		?c: factors that control IL-25 production in the gut
+	?a control ?b
+		?a: factors
+		?b: IL-25 production in the gut
+	?a failed to control ?b in ?c
+		?a: Each first dose
+		?b: seizures
+		?c: 24 and 13 episodes
+	respectively ?a control ?b as ?c
+		?a: pRb
+		?b: the cell cycle
+		?c: tumor suppressors
+	respectively ?a control ?b as ?c
+		?a: p16
+		?b: the cell cycle
+		?c: tumor suppressors
+
+
+label:    sent_7
+sentence: In HIV-positive individuals , complex multifactorial mechanisms control viral infection . miRNAs control insulin content in pancreatic beta-cells via downregulation of transcriptional repressors .
+
+ppatt:
+	In ?a , ?b control ?c . via ?d
+		?a: HIV-positive individuals
+		?b: complex multifactorial mechanisms
+		?c: viral infection
+		?d: downregulation of transcriptional repressors
+	?a control ?b
+		?a: miRNAs
+		?b: insulin content in pancreatic beta-cells
+
+
+label:    sent_8
+sentence: Olivocochlear efferent control in sound localization and experience-dependent learning .
+
+ppatt:
+
+
+
+label:    sent_9
+sentence: A cost-benefit analysis of scaling up tuberculosis control in India . Bio-inspired design strategies for central pattern generator control in modular robotics .
+
+ppatt:
+
+
+
+label:    sent_10
+sentence: The vaccines were well tolerated but did not control HBV infection .
+
+ppatt:
+	?a were well tolerated
+		?a: The vaccines
+	?a did not control ?b
+		?a: The vaccines
+		?b: HBV infection
+
+
+label:    sent_11
+sentence: Control charts and control limits .
+
+ppatt:
+
+
+
+label:    sent_12
+sentence: Mechanics , modulation and modelling : how muscles actuate and control movement .
+
+ppatt:
+
+
+
+label:    sent_13
+sentence: Referral strategies were compared using generalized estimating equations to control for effect of hospital .
+
+ppatt:
+	?a were compared using ?b
+		?a: Referral strategies
+		?b: generalized estimating equations to control for effect of hospital
+	?a control for ?b
+		?a: generalized estimating equations
+		?b: effect of hospital
+
+
+label:    sent_14
+sentence: Matching techniques are used to control for the non-experimental nature of the data . A multiple logistic regression model was used to control for confounders . Gun control . Nutritional supplements and their effect on glucose control .
+
+ppatt:
+	?a are used to control for ?b
+		?a: Matching techniques
+		?b: the non-experimental nature of the data
+	?a was used to control for ?b
+		?a: A multiple logistic regression model
+		?b: confounders
+	?a was used to control for ?b
+		?a: A multiple logistic regression model
+		?b: control
+	?a was used to control for ?b
+		?a: A multiple logistic regression model
+		?b: Gun . Nutritional supplements
+	?a was used to control for ?b
+		?a: A multiple logistic regression model
+		?b: their effect on glucose control
+
+
+label:    sent_15
+sentence: Development of an implantable myoelectric sensor for advanced prosthesis control .
+
+ppatt:
+
+
+
+label:    sent_16
+sentence: We can n't control the future , but we can plan for it . Conservative methods to control the hemorrhage failed , and tonsillectomy was carried out .
+
+ppatt:
+	?a can n't control ?b
+		?a: We
+		?b: the future
+	?a can plan for ?b
+		?a: we
+		?b: it
+	?a control ?b
+		?a: Conservative methods
+		?b: the hemorrhage
+	?a failed
+		?a: Conservative methods to control the hemorrhage
+	?a was carried out
+		?a: tonsillectomy
+
+
+label:    sent_17
+sentence: Astrocytes also control microcirculation and provide metabolic support for neurons .
+
+ppatt:
+	?a also control ?b
+		?a: Astrocytes
+		?b: microcirculation
+	?a provide ?b
+		?a: Astrocytes
+		?b: metabolic support for neurons
+
+
+label:    sent_18
+sentence: Parents employed various techniques to control and monitor their children 's sexual activities .
+
+ppatt:
+	?a employed ?b
+		?a: Parents
+		?b: various techniques to control and monitor their children 's sexual activities
+	?a control ?b
+		?a: various techniques
+		?b: their children 's sexual activities
+	monitor ?a
+		?a: their children 's sexual activities
+
+
+label:    sent_19
+sentence: Microparticles can be loaded with immune regulatory substances to control and terminate inflammatory processes .
+
+ppatt:
+	?a can be loaded with ?b to control ?c
+		?a: Microparticles
+		?b: immune regulatory substances
+		?c: inflammatory processes
+	?a can be loaded to terminate
+		?a: Microparticles
+
+
+label:    sent_20
+sentence: Killing cariogenic bacteria is an effective way to control or prevent tooth decay .
+
+ppatt:
+	Killing ?a
+		?a: cariogenic bacteria
+	?a is an effective way
+		?a: SOMETHING := Killing cariogenic bacteria
+	?a control ?b
+		?a: an effective way
+		?b: tooth decay
+	?a prevent
+		?a: Killing cariogenic bacteria
+
+

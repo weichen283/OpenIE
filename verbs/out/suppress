@@ -1,0 +1,347 @@
+label:    sent_1
+sentence: These results indicate that asbestos has the potential to suppress cytotoxicity of NK cells .
+
+ppatt:
+	?a indicate ?b
+		?a: These results
+		?b: SOMETHING := asbestos has the potential to suppress cytotoxicity of NK cells
+	?a has ?b
+		?a: asbestos
+		?b: the potential to suppress cytotoxicity of NK cells
+	?a suppress ?b
+		?a: the potential
+		?b: cytotoxicity of NK cells
+
+
+label:    sent_2
+sentence: Transmembrane protein tetraspanins either promote or suppress tumor invasion and metastasis .
+
+ppatt:
+	?a either promote ?b
+		?a: Transmembrane protein tetraspanins
+		?b: tumor invasion
+	?a either promote ?b
+		?a: Transmembrane protein tetraspanins
+		?b: metastasis
+	?a suppress
+		?a: Transmembrane protein tetraspanins
+
+
+label:    sent_3
+sentence: Tamoxifen was seen to suppress carrageenan-induced inflammation significantly .
+
+ppatt:
+	?a was seen to suppress ?b significantly
+		?a: Tamoxifen
+		?b: carrageenan-induced inflammation
+
+
+label:    sent_4
+sentence: A new synthetic aperture focusing method to suppress the diffraction of ultrasound . Next , we tested whether the TLR4-interacting SP-A peptides would suppress inflammatory cytokines .
+
+ppatt:
+	?a suppress ?b
+		?a: A new synthetic aperture focusing method
+		?b: the diffraction of ultrasound
+	?a Next , ?b tested ?c
+		?a: A new synthetic aperture focusing method to suppress the diffraction of ultrasound
+		?b: we
+		?c: SOMETHING := the TLR4-interacting SP-A peptides would suppress inflammatory cytokines
+	?a would suppress ?b
+		?a: the TLR4-interacting SP-A peptides
+		?b: inflammatory cytokines
+
+
+label:    sent_5
+sentence: Inhibitors of endoplasmic reticulum alpha-glucosidases potently suppress hepatitis C virus virion assembly and release .
+
+ppatt:
+	?a potently suppress ?b
+		?a: Inhibitors of endoplasmic reticulum alpha-glucosidases
+		?b: hepatitis C virus virion
+
+
+label:    sent_6
+sentence: Retinal cells suppress intraocular inflammation ( uveitis ) through production of interleukin-27 and interleukin-10 .
+
+ppatt:
+	?a suppress ?b through ?c
+		?a: Retinal cells
+		?b: intraocular inflammation
+		?c: production of interleukin-27 and interleukin-10
+	?a is/are uveitis
+		?a: intraocular inflammation
+
+
+label:    sent_7
+sentence: TRPV1 antagonist can suppress the atopic dermatitis-like symptoms by accelerating skin barrier recovery . Hepatic NK cells suppress cholestatic liver injury by stimulating Kupffer cell-dependent IL-6 production .
+
+ppatt:
+	?a can suppress ?b
+		?a: TRPV1 antagonist
+		?b: the atopic dermatitis-like symptoms
+	?a accelerating ?b
+		?a: TRPV1 antagonist
+		?b: skin barrier recovery
+	?a suppress ?b
+		?a: Hepatic NK cells
+		?b: cholestatic liver injury
+	?a stimulating ?b
+		?a: Hepatic NK cells
+		?b: Kupffer cell-dependent IL-6 production
+
+
+label:    sent_8
+sentence: Interleukin-6 induces Gr-1+CD11b+ myeloid cells to suppress CD8+ T cell-mediated liver injury in mice .
+
+ppatt:
+	?a induces ?b
+		?a: Interleukin-6
+		?b: Gr-1+CD11b+ myeloid cells
+	?a suppress ?b
+		?a: Interleukin-6
+		?b: CD8+ T cell-mediated liver injury in mice
+
+
+label:    sent_9
+sentence: Axon regeneration can facilitate or suppress hindlimb function after olfactory ensheathing glia transplantation .
+
+ppatt:
+	?a can facilitate ?b after ?c
+		?a: Axon regeneration
+		?b: hindlimb function
+		?c: olfactory ensheathing glia transplantation
+	?a suppress
+		?a: Axon regeneration
+
+
+label:    sent_10
+sentence: These results suggest that 8-gingerol could suppress humoral and cellular immune responses in mice . Y-40138 is known to suppress the pro-inflammatory cytokines and augment the anti-inflammatory cytokines .
+
+ppatt:
+	?a suggest ?b ?c
+		?a: These results
+		?b: SOMETHING := 8-gingerol could suppress humoral and cellular immune responses in mice
+		?c: SOMETHING := Y-40138 is known to suppress the pro-inflammatory cytokines and augment the anti-inflammatory cytokines
+	?a could suppress ?b
+		?a: 8-gingerol
+		?b: humoral and cellular immune responses in mice
+	?a is known to suppress ?b
+		?a: Y-40138
+		?b: the pro-inflammatory cytokines
+	?a is known to augment ?b
+		?a: Y-40138
+		?b: the anti-inflammatory cytokines
+
+
+label:    sent_11
+sentence: They are induced at sites of inflammation and can potently suppress T cell functions .
+
+ppatt:
+	?a are induced at ?b
+		?a: They
+		?b: sites of inflammation
+	?a can potently suppress ?b
+		?a: They
+		?b: T cell functions
+
+
+label:    sent_12
+sentence: Green tea polyphenols also have shown to suppress cell proliferation and induce apoptosis .
+
+ppatt:
+	?a also have shown to suppress ?b
+		?a: Green tea polyphenols
+		?b: cell proliferation
+	?a also have shown to induce ?b
+		?a: Green tea polyphenols
+		?b: apoptosis
+
+
+label:    sent_13
+sentence: mTOR inhibitors suppress T cell activation and proliferation and are effective immunosuppressants .
+
+ppatt:
+	?a suppress ?b
+		?a: mTOR inhibitors
+		?b: T cell
+
+
+label:    sent_14
+sentence: Recombinant adenovirus could suppress survivin-expression efficiency and induce apoptosis by affecting mitosis .
+
+ppatt:
+	?a could suppress ?b
+		?a: Recombinant adenovirus
+		?b: survivin-expression efficiency
+	?a induce ?b
+		?a: Recombinant adenovirus
+		?b: apoptosis
+	?a affecting ?b
+		?a: Recombinant adenovirus
+		?b: mitosis
+
+
+label:    sent_15
+sentence: These cells suppress the Th1 response against the parasite and prevent its elimination .
+
+ppatt:
+	?a suppress ?b
+		?a: These cells
+		?b: the Th1 response against the parasite
+	?a prevent ?b
+		?a: These cells
+		?b: its elimination
+
+
+label:    sent_16
+sentence: It can not induce EAE but it does suppress it in a variety of animals .
+
+ppatt:
+	?a can not induce ?b
+		?a: It
+		?b: EAE
+	?a does suppress ?b in ?c
+		?a: it
+		?b: it
+		?c: a variety of animals
+
+
+label:    sent_17
+sentence: In some cases , it can suppress adenoma secretion and lead to tumor shrinkage .
+
+ppatt:
+	In ?a , ?b can suppress ?c
+		?a: some cases
+		?b: it
+		?c: adenoma secretion
+	?a lead to ?b
+		?a: it
+		?b: tumor shrinkage
+
+
+label:    sent_18
+sentence: Also in some patients HDV superinfection may itself suppress HBV and thus clear HBeAg .
+
+ppatt:
+	Also in ?a ?b may ?c suppress ?d ?e
+		?a: some patients
+		?b: HDV superinfection
+		?c: itself
+		?d: HBV
+		?e: thus clear HBeAg
+
+
+label:    sent_19
+sentence: CDK11p46 and RPS8 associate with each other and suppress translation in a synergistic manner .
+
+ppatt:
+	?a associate with ?b
+		?a: CDK11p46
+		?b: each other
+	?a associate with ?b
+		?a: RPS8
+		?b: each other
+	?a suppress ?b in ?c
+		?a: CDK11p46
+		?b: translation
+		?c: a synergistic manner
+	?a suppress ?b in ?c
+		?a: RPS8
+		?b: translation
+		?c: a synergistic manner
+
+
+label:    sent_20
+sentence: Progesterone is an endogenous immunomodulator , and can suppress T-cell activation during pregnancy .
+
+ppatt:
+	?a is an endogenous immunomodulator
+		?a: Progesterone
+	?a can suppress ?b during ?c
+		?a: Progesterone
+		?b: T-cell activation
+		?c: pregnancy
+
+
+label:    sent_21
+sentence: Effectors can trigger or suppress defences in a host-dependent fashion .
+
+ppatt:
+	?a can trigger ?b in ?c
+		?a: Effectors
+		?b: defences
+		?c: a host-dependent fashion
+	?a suppress
+		?a: Effectors
+
+
+label:    sent_22
+sentence: In addition , phenytoin failed to suppress or to modify the clinical seizures .
+
+ppatt:
+	In ?a , ?b failed to suppress
+		?a: addition
+		?b: phenytoin
+	?a failed to to modify ?b
+		?a: phenytoin
+		?b: the clinical seizures
+
+
+label:    sent_23
+sentence: Sodium phenytoin failed to suppress or to modify the clinical seizures .
+
+ppatt:
+	?a failed to suppress
+		?a: Sodium phenytoin
+	?a failed to to modify ?b
+		?a: Sodium phenytoin
+		?b: the clinical seizures
+
+
+label:    sent_24
+sentence: Men were more able to suppress and speed up blinking than women .
+
+ppatt:
+	?a were more able to suppress up ?b than ?c
+		?a: Men
+		?b: blinking
+		?c: women
+
+
+label:    sent_25
+sentence: Waves of gene regulation suppress and then restore oxidative phosphorylation in cancer cells .
+
+ppatt:
+	?a suppress
+		?a: Waves of gene regulation
+	?a then restore ?b
+		?a: Waves of gene regulation
+		?b: oxidative phosphorylation in cancer cells
+
+
+label:    sent_26
+sentence: Epidemiological studies reported that diet-derived antioxidants might suppress and/or delay progression of cardiovascular disease .
+
+ppatt:
+	?a reported ?b
+		?a: Epidemiological studies
+		?b: SOMETHING := diet-derived antioxidants might suppress progression of cardiovascular disease
+	?a might suppress ?b
+		?a: diet-derived antioxidants
+		?b: progression of cardiovascular disease
+	?a delay
+		?a: diet-derived antioxidants
+
+
+label:    sent_27
+sentence: They both suppress and enhance numerous biological phenomena .
+
+ppatt:
+	?a both suppress ?b
+		?a: They
+		?b: numerous biological phenomena
+	?a enhance
+		?a: They
+
+

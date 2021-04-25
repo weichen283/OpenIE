@@ -1,0 +1,325 @@
+label:    sent_1
+sentence: Transfusion strategies and steps to minimize perioperative bleeding are needed .
+
+ppatt:
+	?a minimize ?b
+		?a: Transfusion strategies
+		?b: perioperative bleeding
+	?a minimize ?b
+		?a: steps
+		?b: perioperative bleeding
+	?a are needed
+		?a: Transfusion strategies to minimize perioperative bleeding
+	?a are needed
+		?a: steps
+
+
+label:    sent_2
+sentence: Furthermore , suggestions and recommendations to minimize future ISR failures are provided .
+
+ppatt:
+	?a minimize ?b
+		?a: suggestions
+		?b: future ISR failures
+	?a minimize ?b
+		?a: recommendations
+		?b: future ISR failures
+	Furthermore , ?a are provided
+		?a: suggestions to minimize future ISR failures
+	Furthermore , ?a are provided
+		?a: recommendations
+
+
+label:    sent_3
+sentence: Understanding sources of flavors in whey protein is crucial to minimize flavor .
+
+ppatt:
+	Understanding ?a
+		?a: sources of flavors in whey protein
+	?a is crucial to minimize ?b
+		?a: SOMETHING := Understanding sources of flavors in whey protein
+		?b: flavor
+
+
+label:    sent_4
+sentence: Stem cells may have the potential to minimize injury and promote recovery after stroke .
+
+ppatt:
+	?a may have ?b
+		?a: Stem cells
+		?b: the potential to minimize injury and promote recovery after stroke
+	?a minimize ?b
+		?a: the potential
+		?b: injury
+	promote ?a
+		?a: recovery after stroke
+
+
+label:    sent_5
+sentence: The design aims to minimize spherical aberration and improve range of focus .
+
+ppatt:
+	?a aims to minimize ?b
+		?a: The design
+		?b: spherical aberration
+	?a aims to improve ?b
+		?a: The design
+		?b: range of focus
+
+
+label:    sent_6
+sentence: The authors discuss a strategy to minimize nurse anxiety and enhance nurse autonomy .
+
+ppatt:
+	?a discuss ?b
+		?a: The authors
+		?b: a strategy to minimize nurse anxiety and enhance nurse autonomy
+	?a minimize ?b
+		?a: a strategy
+		?b: nurse anxiety
+	enhance ?a
+		?a: nurse autonomy
+
+
+label:    sent_7
+sentence: A prompt and optimal treatment without delay may minimize the damage to the brain .
+
+ppatt:
+	?a may minimize ?b
+		?a: A prompt and optimal treatment without delay
+		?b: the damage to the brain
+
+
+label:    sent_8
+sentence: CONCLUSIONS Candidate donors may minimize psychiatric symptoms .
+
+ppatt:
+	?a ?b may minimize ?c
+		?a: CONCLUSIONS
+		?b: Candidate donors
+		?c: psychiatric symptoms
+
+
+label:    sent_9
+sentence: Early diagnosis and early treatment will minimize cardiac and neurological morbidities .
+
+ppatt:
+	?a will minimize ?b
+		?a: Early diagnosis
+		?b: cardiac and neurological morbidities
+	?a will minimize ?b
+		?a: early treatment
+		?b: cardiac and neurological morbidities
+
+
+label:    sent_10
+sentence: New approaches are needed to minimize the potential for adverse outcomes during this period .
+
+ppatt:
+	?a are needed to minimize ?b
+		?a: New approaches
+		?b: the potential for adverse outcomes during this period
+
+
+label:    sent_11
+sentence: The Pringle maneuver has its applications to minimize blood loss during hepatic resection .
+
+ppatt:
+	?a has ?b
+		?a: The Pringle maneuver
+		?b: its applications to minimize blood loss during hepatic resection
+	?a minimize ?b during ?c
+		?a: its applications
+		?b: blood loss
+		?c: hepatic resection
+
+
+label:    sent_12
+sentence: Ways to minimize these adverse effects in ECT are suggested .
+
+ppatt:
+	?a minimize ?b
+		?a: Ways
+		?b: these adverse effects in ECT
+	?a are suggested
+		?a: Ways to minimize these adverse effects in ECT
+
+
+label:    sent_13
+sentence: Engineering of therapeutic antibodies to minimize immunogenicity and optimize function .
+
+ppatt:
+	?a minimize ?b
+		?a: Engineering of therapeutic antibodies
+		?b: immunogenicity
+	optimize ?a
+		?a: function
+
+
+label:    sent_14
+sentence: Learning to minimize energy costs and maximize mechanical work in a bimanual coordination task .
+
+ppatt:
+	Learning to minimize ?a
+		?a: energy costs
+	Learning to maximize ?a in ?b
+		?a: mechanical work
+		?b: a bimanual coordination task
+
+
+label:    sent_15
+sentence: Treatment algorithms that minimize exposure to heparin and contraindicate platelet transfusions merit further study .
+
+ppatt:
+	?a minimize ?b
+		?a: Treatment algorithms
+		?b: exposure to heparin and contraindicate platelet transfusions
+	?a merit ?b
+		?a: Treatment algorithms that minimize exposure to heparin and contraindicate platelet transfusions
+		?b: further study
+
+
+label:    sent_16
+sentence: Forces between clustered stereocilia minimize friction in the ear on a subnanometre scale .
+
+ppatt:
+	?a minimize ?b on ?c
+		?a: Forces between clustered stereocilia
+		?b: friction in the ear
+		?c: a subnanometre scale
+
+
+label:    sent_17
+sentence: Health professionals would also minimize expenditure by missing meals and walking to work .
+
+ppatt:
+	?a would also minimize ?b
+		?a: Health professionals
+		?b: expenditure by missing meals
+	?a walking to work
+		?a: Health professionals
+
+
+label:    sent_18
+sentence: Selective inhibition of the liver phosphorylase isoform could minimize adverse effects in other tissues .
+
+ppatt:
+	?a could minimize ?b in ?c
+		?a: Selective inhibition of the liver phosphorylase isoform
+		?b: adverse effects
+		?c: other tissues
+
+
+label:    sent_19
+sentence: Prostin-15M serves to minimize bleeding and to maintain uterine position after replacement .
+
+ppatt:
+	?a serves to minimize ?b
+		?a: Prostin-15M
+		?b: bleeding
+	?a serves to to maintain ?b after ?c
+		?a: Prostin-15M
+		?b: uterine position
+		?c: replacement
+
+
+label:    sent_20
+sentence: Therapeutic considerations to minimize or to prevent anoxic brain damage are offered .
+
+ppatt:
+	?a minimize
+		?a: Therapeutic considerations
+	?a prevent ?b
+		?a: Therapeutic considerations
+		?b: anoxic brain damage
+	?a are offered
+		?a: Therapeutic considerations to minimize or to prevent anoxic brain damage
+
+
+label:    sent_21
+sentence: Cosmetic therapy aims to minimize or remove the excess hair either temporarily or permanently .
+
+ppatt:
+	?a aims to minimize ?b either temporarily or permanently
+		?a: Cosmetic therapy
+		?b: the excess hair
+	?a aims to remove either or permanently
+		?a: Cosmetic therapy
+
+
+label:    sent_22
+sentence: Efforts to individualize chemotherapy or minimize surgical interventions without compromising outcome are important .
+
+ppatt:
+	?a individualize ?b
+		?a: Efforts
+		?b: chemotherapy
+	?a minimize ?b
+		?a: Efforts
+		?b: surgical interventions
+	?a compromising ?b
+		?a: Efforts
+		?b: outcome
+	?a are important
+		?a: Efforts to individualize chemotherapy or minimize surgical interventions without compromising outcome
+
+
+label:    sent_23
+sentence: Measures to minimize ocular trauma both in the home and at school are advocated .
+
+ppatt:
+	?a minimize ?b in ?c
+		?a: Measures
+		?b: ocular trauma
+		?c: the home
+	?a minimize ?b in ?c
+		?a: Measures
+		?b: ocular trauma
+		?c: school
+	?a are advocated
+		?a: Measures to minimize ocular trauma both in the home and at school
+
+
+label:    sent_24
+sentence: Group housing benefits sow well-being and when planned properly can minimize aggression during mixing .
+
+ppatt:
+	?a can minimize ?b during ?c
+		?a: Group housing benefits sow well-being
+		?b: aggression
+		?c: mixing
+
+
+label:    sent_25
+sentence: Rats minimize hyperglycemia during chronic glucose infusion , but the metabolic processes are unclear . Biomechanically and ergonomically correct seating can minimize back and neck strain .
+
+ppatt:
+	?a minimize ?b during ?c
+		?a: Rats
+		?b: hyperglycemia
+		?c: chronic glucose infusion
+	?a are unclear Biomechanically
+		?a: the metabolic processes
+	?a can minimize ?b
+		?a: ergonomically correct seating
+		?b: back
+	?a can minimize ?b
+		?a: ergonomically correct seating
+		?b: neck
+	?a can minimize ?b
+		?a: ergonomically correct seating
+		?b: strain
+
+
+label:    sent_26
+sentence: The placebo response in medicine : minimize , maximize or personalize ? These strategies may minimize or eliminate C. philippinensis infection in Thailand .
+
+ppatt:
+	?a ?b may minimize ?c
+		?a: The placebo response in medicine
+		?b: These strategies
+		?c: C. philippinensis infection in Thailand
+	?a eliminate
+		?a: The placebo response in medicine
+
+

@@ -1,0 +1,409 @@
+label:    sent_1
+sentence: Mineral spirits contain benzene and other compounds that boil at temperatures below the cited boiling point range of 300 degrees to 415 degreesF .
+
+ppatt:
+	?a contain ?b
+		?a: Mineral spirits
+		?b: benzene that boil at temperatures below the cited boiling point range of 300 degrees to 415 degreesF
+	?a contain ?b
+		?a: Mineral spirits
+		?b: other compounds
+	?a boil at ?b below ?c
+		?a: benzene
+		?b: temperatures
+		?c: the cited boiling point range of 300 degrees to 415 degreesF
+	?a boil at ?b below ?c
+		?a: other compounds
+		?b: temperatures
+		?c: the cited boiling point range of 300 degrees to 415 degreesF
+
+
+label:    sent_2
+sentence: Water rights and water fights : preventing and resolving conflicts before they boil over .
+
+ppatt:
+	?a boil over
+		?a: they
+
+
+label:    sent_3
+sentence: Healthcare at the center of long-simmering battles ; are they set to boil over ?
+
+ppatt:
+	?a are ?b set to boil over
+		?a: Healthcare at the center of long-simmering battles
+		?b: they
+
+
+label:    sent_4
+sentence: The disease followed such diverse initiating causes as self-injection with heroin , boil , ischiorectal abscess , perforated occult colonic cancer and trivial abrasions . Bryophyllum pinnatum ( Lam. ) Oken ( Crassulaceae ) , popularly known in Brazil as " folha-da-fortuna " , is a plant species used in folk medicine for the external and internal treatment of inflammation , infection , wound , burn , boil , ulcers and gastritis , and several other diseases .
+
+ppatt:
+	?a followed ?b
+		?a: The disease
+		?b: such diverse initiating
+	?a causes as ?b
+		?a: The disease followed such diverse initiating
+		?b: self-injection with heroin , boil , ischiorectal abscess , perforated occult colonic cancer and trivial abrasions
+	?a is/are Bryophyllum pinnatum ( Lam. ) Oken ( Crassulaceae
+		?a: heroin
+	?a is/are Bryophyllum pinnatum ( Lam. ) Oken ( Crassulaceae
+		?a: boil
+	?a is/are Bryophyllum pinnatum ( Lam. ) Oken ( Crassulaceae
+		?a: ischiorectal abscess
+	?a is/are Bryophyllum pinnatum ( Lam. ) Oken ( Crassulaceae
+		?a: perforated occult colonic cancer
+	?a is/are Bryophyllum pinnatum ( Lam. ) Oken ( Crassulaceae
+		?a: trivial abrasions
+	?a used in ?b
+		?a: a plant species
+		?b: folk medicine for external and internal treatment of inflammation , infection , wound , burn , boil , ulcers and gastritis , and several other diseases
+
+
+label:    sent_5
+sentence: Due to their infrequent occurrence , these lesions are often misdiagnosed as cellulitis , leishmaniasis , furunculosis , staphylococcal boil , insect bite or sebaceous cyst-conditions with similar presentations . Particle physics : did the Big Bang boil ?
+
+ppatt:
+	Due to ?a , ?b are often misdiagnosed as ?c
+		?a: their infrequent occurrence
+		?b: these lesions
+		?c: cellulitis , with similar presentations
+	Due to ?a , ?b are often misdiagnosed as ?c
+		?a: their infrequent occurrence
+		?b: these lesions
+		?c: leishmaniasis
+	Due to ?a , ?b are often misdiagnosed as ?c
+		?a: their infrequent occurrence
+		?b: these lesions
+		?c: furunculosis
+	Due to ?a , ?b are often misdiagnosed as ?c
+		?a: their infrequent occurrence
+		?b: these lesions
+		?c: staphylococcal boil
+	Due to ?a , ?b are often misdiagnosed as ?c
+		?a: their infrequent occurrence
+		?b: these lesions
+		?c: insect bite
+	Due to ?a , ?b are often misdiagnosed as ?c
+		?a: their infrequent occurrence
+		?b: these lesions
+		?c: sebaceous cyst-conditions
+	Due to ?a , ?b are often misdiagnosed as ?c
+		?a: their infrequent occurrence
+		?b: these lesions
+		?c: Particle physics
+	did ?a
+		?a: the Big Bang boil
+
+
+label:    sent_6
+sentence: The variations in the three models we analyzed all seem to boil down to the extent the individual physician trades independent decision-making for the benefits of the larger group structure .
+
+ppatt:
+	?a ?b analyzed ?c
+		?a: The variations in the three models
+		?b: we
+		?c: SOMETHING := all seem to boil down to the extent
+	?a all seem to boil down to ?b
+		?a: The variations in the three models
+		?b: the extent
+	?a trades ?b for ?c
+		?a: the individual physician
+		?b: independent decision-making
+		?c: the benefits of the larger group structure
+
+
+label:    sent_7
+sentence: A rapid-cure polymerization of cure , including a terminal boil , with respect to transparency , residual monomer , mechanical properties , and generation of gaseous porosity .
+
+ppatt:
+
+
+
+label:    sent_8
+sentence: Differences in vitamin B12 results as measured with boil and no-boil kits .
+
+ppatt:
+
+
+
+label:    sent_9
+sentence: Use of brass utensils to boil or store milk fed to ICC children was not seen in 46 % of cases , although their serum copper values were raised .
+
+ppatt:
+	?a boil ?b
+		?a: Use of brass utensils
+		?b: milk fed to ICC children
+	?a store
+		?a: Use of brass utensils
+	?a fed to ?b
+		?a: milk
+		?b: ICC children
+	?a was not seen in ?b
+		?a: Use of brass utensils to boil or store milk fed to ICC children
+		?b: 46 % of cases
+	?a were raised
+		?a: their serum copper values
+
+
+label:    sent_10
+sentence: Failure to accurately measure the dose and to boil before consumption may have contributed to his clinical toxicities .
+
+ppatt:
+	?a accurately measure ?b
+		?a: Failure
+		?b: the dose
+	?a boil before ?b
+		?a: Failure
+		?b: consumption
+	?a may have contributed to ?b
+		?a: Failure to accurately measure the dose and to boil before consumption
+		?b: his clinical toxicities
+
+
+label:    sent_11
+sentence: Petroleum middle distillates ( PMDs ) , a class of hydrocarbons which boil between 350-700 degrees F , are tumor promoters in mouse skin .
+
+ppatt:
+	?a is/are PMDs
+		?a: Petroleum middle distillates
+	?a is/are a class of ?b
+		?a: Petroleum middle distillates
+		?b: hydrocarbons
+	?a boil between ?b
+		?a: a class of hydrocarbons
+		?b: 350-700 degrees F
+	?a are tumor promoters in ?b
+		?a: Petroleum middle distillates
+		?b: mouse skin
+
+
+label:    sent_12
+sentence: These compliance equations simply boil down to four integrals , thus simplifying the compliance calculation .
+
+ppatt:
+	?a simply boil down to ?b
+		?a: These compliance equations
+		?b: four integrals
+	?a thus simplifying ?b
+		?a: These compliance equations
+		?b: the compliance calculation
+
+
+label:    sent_13
+sentence: The failure to replicate the beneficial effects of tight glycaemic control may boil down to some less obvious defaults in the set-up of the trial despite a seemingly adequate study design . At 6 hr p.i. , a boil appeared at the site of puncture which attained a diameter of 5.5 cm and 6.2 cm respectively within 3 days , and a thickness of 1.8 cm and 2.2 cm . Subsequently , others have reported lesions with a similar appearance and clinical course , and now , in Japan , blood boil is used as a clinical term for such lesions .
+
+ppatt:
+	?a replicate ?b
+		?a: The failure
+		?b: the beneficial effects of tight glycaemic control
+	?a may boil down to ?b in ?c
+		?a: The failure to replicate the beneficial effects of tight glycaemic control
+		?b: some less obvious defaults
+		?c: the set-up of the trial despite a seemingly adequate study design At 6 hr p.i.
+	?a appeared at ?b
+		?a: a boil
+		?b: the site of puncture which attained a diameter of 5.5 cm and 6.2 cm respectively within 3 days , and a thickness of 1.8 cm and 2.2 cm . Subsequently , others have reported lesions with a similar appearance and clinical course , and now , in Japan , blood boil is used as a clinical term for such lesions
+	?a attained ?b respectively within ?c
+		?a: the site of puncture
+		?b: a diameter of 5.5 cm and 6.2 cm
+		?c: 3 days
+	?a attained respectively within ?b ?c
+		?a: the site of puncture
+		?b: 3 days
+		?c: a thickness of 1.8 cm and 2.2 cm
+	Subsequently , ?a have reported ?b
+		?a: others
+		?b: lesions with a similar appearance and clinical course
+	now , in ?a , ?b is used as ?c
+		?a: Japan
+		?b: blood boil
+		?c: a clinical term for such lesions
+
+
+label:    sent_14
+sentence: The Bagdad boil deploys to the United States .
+
+ppatt:
+	?a deploys to ?b
+		?a: The Bagdad boil
+		?b: the United States
+
+
+label:    sent_15
+sentence: Retiree issues reaching boil on back burner .
+
+ppatt:
+	?a reaching ?b on ?c
+		?a: Retiree issues
+		?b: boil
+		?c: back burner
+
+
+label:    sent_16
+sentence: Those who must reduce potassium uptake should boil small pieces before consuming them . James Gillray 's cartoon Metallic Tractors , published in 1801 , portrays Benjamin Perkins treating a boil on the nose of an alcoholic John Bull with a pair of metallic tractors .
+
+ppatt:
+	?a must reduce ?b
+		?a: Those
+		?b: potassium uptake
+	?a should boil ?b
+		?a: Those who must reduce potassium uptake
+		?b: small pieces
+	?a consuming ?b
+		?a: Those who must reduce potassium uptake
+		?b: them
+	?a published in ?b
+		?a: James Gillray cartoon Metallic Tractors
+		?b: 1801
+	's ?a , portrays ?b
+		?a: James Gillray cartoon Metallic Tractors , published in 1801
+		?b: Benjamin Perkins treating a boil on the nose of an alcoholic John Bull with a pair of metallic tractors
+	?a treating ?b on ?c
+		?a: Benjamin Perkins
+		?b: a boil
+		?c: the nose of an alcoholic John Bull with a pair of metallic tractors
+
+
+label:    sent_17
+sentence: Generally , steaming and microwave steaming were preferred for certain vegetables , even by those who normally boil them .
+
+ppatt:
+	Generally , ?a were preferred for ?b , by ?c
+		?a: steaming
+		?b: certain vegetables
+		?c: even those who normally boil them
+	Generally , ?a were preferred for ?b , by ?c
+		?a: microwave steaming
+		?b: certain vegetables
+		?c: even those who normally boil them
+	?a normally boil ?b
+		?a: even those
+		?b: them
+
+
+label:    sent_18
+sentence: The results of the study indicate that 97 % of the households report that they regularly boil their drinking water .
+
+ppatt:
+	?a indicate ?b
+		?a: The results of the study
+		?b: SOMETHING := 97 % of the households report that they regularly boil their drinking water
+	?a report ?b
+		?a: 97 % of the households
+		?b: SOMETHING := they regularly boil their drinking water
+	?a regularly boil ?b
+		?a: they
+		?b: their drinking water
+
+
+label:    sent_19
+sentence: Older individuals , especially those with dementia , have a higher risk of aconite poisoning because they sometimes do not boil the medicine appropriately .
+
+ppatt:
+	?a is/are especially those with ?b
+		?a: Older individuals
+		?b: dementia
+	?a have ?b
+		?a: Older individuals
+		?b: a higher risk of aconite poisoning
+	?a sometimes do not boil ?b appropriately
+		?a: they
+		?b: the medicine
+
+
+label:    sent_20
+sentence: Immunocompromised persons should boil water for one minute to eliminate risk for acquiring the parasite .
+
+ppatt:
+	?a should boil ?b for ?c to eliminate ?d
+		?a: Immunocompromised persons
+		?b: water
+		?c: one minute
+		?d: risk
+	?a acquiring ?b
+		?a: risk
+		?b: the parasite
+
+
+label:    sent_21
+sentence: The CDC also recommends that in settings with an outbreak of cryptosporidium , individuals boil water for one minute to kill the parasite or use a filter for tap water that is capable of removing particles less than one micron in diameter .
+
+ppatt:
+	?a also recommends ?b
+		?a: The CDC
+		?b: SOMETHING := in settings with an outbreak of cryptosporidium , individuals boil water for one minute to kill the parasite
+	in ?a , ?b boil ?c for ?d to kill ?e
+		?a: settings with an outbreak of cryptosporidium
+		?b: individuals
+		?c: water
+		?d: one minute
+		?e: the parasite
+	?a use ?b
+		?a: individuals
+		?b: a filter for tap water that is capable of removing particles less than one micron in diameter
+	?a is capable
+		?a: tap water
+	?a removing ?b ?c
+		?a: that
+		?b: particles
+		?c: less than one micron in diameter
+
+
+label:    sent_22
+sentence: The Centers for Disease Control and Prevention ( CDC ) presents research findings on cryptosporidiosis and tap water that suggest AIDS patients should either boil their water before drinking it or drink bottled water .
+
+ppatt:
+	?a is/are CDC
+		?a: Prevention
+	?a presents ?b
+		?a: The Centers for Disease Control and Prevention
+		?b: research findings on cryptosporidiosis and tap water that suggest AIDS patients should either boil their water before drinking it or drink bottled water
+	?a suggest ?b
+		?a: water
+		?b: AIDS patients
+	?a should either boil ?b before ?c
+		?a: that
+		?b: their water
+		?c: drinking it
+	?a should either boil ?b before ?c
+		?a: that
+		?b: their water
+		?c: drink bottled water
+
+
+label:    sent_23
+sentence: On spillage it creates liquid pools that can either boil or evaporate .
+
+ppatt:
+	On ?a ?b creates ?c
+		?a: spillage
+		?b: it
+		?c: liquid pools that can either boil or evaporate
+	?a can either boil
+		?a: liquid pools
+	?a evaporate
+		?a: that
+
+
+label:    sent_24
+sentence: On spillage from containment it creates liquid pools that can either boil or evaporate .
+
+ppatt:
+	On ?a ?b creates ?c
+		?a: spillage from containment
+		?b: it
+		?c: liquid pools that can either boil or evaporate
+	?a can either boil
+		?a: liquid pools
+	?a evaporate
+		?a: that
+
+
+label:    sent_25
+sentence: To boil or not : drinking water for children in a periurban barrio .
+
+ppatt:
+
+
+

@@ -1,0 +1,317 @@
+label:    sent_1
+sentence: Examining prescriptions of proxy drugs is not an optimal method to detect adverse reactions .
+
+ppatt:
+	Examining ?a
+		?a: prescriptions of proxy drugs
+	?a is not an optimal method
+		?a: SOMETHING := Examining prescriptions of proxy drugs
+	?a detect ?b
+		?a: not an optimal method
+		?b: adverse reactions
+
+
+label:    sent_2
+sentence: Long-term follow-up is necessary to detect late arrhythmias .
+
+ppatt:
+	?a is necessary to detect ?b
+		?a: Long-term follow-up
+		?b: late arrhythmias
+
+
+label:    sent_3
+sentence: Single-nanopores have recently been used to electrically detect a wide range of analytes .
+
+ppatt:
+	?a have recently been used to electrically detect ?b
+		?a: Single-nanopores
+		?b: a wide range of analytes
+
+
+label:    sent_4
+sentence: Using validated screening instruments to detect depressive symptoms in the elderly has been recommended .
+
+ppatt:
+	Using ?a
+		?a: validated screening instruments to detect depressive symptoms in the elderly
+	?a detect ?b
+		?a: validated screening instruments
+		?b: depressive symptoms in the elderly
+
+
+label:    sent_5
+sentence: To detect the incidence of diabetes in patients with schizophrenia in Taiwan .
+
+ppatt:
+	detect ?a
+		?a: the incidence of diabetes in patients with schizophrenia in Taiwan
+
+
+label:    sent_6
+sentence: Text from corners : a novel approach to detect text and caption in videos .
+
+ppatt:
+	?a detect ?b
+		?a: a novel approach
+		?b: text in videos
+	?a detect ?b
+		?a: a novel approach
+		?b: caption
+
+
+label:    sent_7
+sentence: New cheek swab technique may detect lung cancer .
+
+ppatt:
+	?a may detect ?b
+		?a: New cheek swab technique
+		?b: lung cancer
+
+
+label:    sent_8
+sentence: A highly sensitive genetic protocol to detect NF1 mutations .
+
+ppatt:
+	?a detect ?b
+		?a: A highly sensitive genetic protocol
+		?b: NF1 mutations
+
+
+label:    sent_9
+sentence: Thus , the assay can potentially detect ADAs with various affinities . [Sampling in qualitative research : a proposal for procedures to detect theoretical saturation ] . Sample size requirements to detect gene-environment interactions in genome-wide association studies .
+
+ppatt:
+	Thus , ?a can potentially detect ?b
+		?a: the assay
+		?b: ADAs with various affinities
+	?a [Sampling in ?b
+		?a: the assay
+		?b: qualitative research
+	?a detect ?b
+		?a: a proposal for procedures . Sample size requirements to detect gene-environment interactions in genome-wide association studies
+		?b: theoretical saturation ]
+	?a detect ?b in ?c
+		?a: Sample size requirements
+		?b: gene-environment interactions
+		?c: genome-wide association studies
+
+
+label:    sent_10
+sentence: Inner cylinder load cells detect skin-friction drag via torque measurements .
+
+ppatt:
+	?a detect ?b via ?c
+		?a: Inner cylinder load cells
+		?b: skin-friction drag
+		?c: torque measurements
+
+
+label:    sent_11
+sentence: A hybrid approach to detect and localize texts in natural scene images .
+
+ppatt:
+	?a detect ?b
+		?a: A hybrid approach
+		?b: texts in natural scene images
+	localize ?a
+		?a: texts in natural scene images
+
+
+label:    sent_12
+sentence: Emerging molecular biomarkers -- blood-based strategies to detect and monitor cancer .
+
+ppatt:
+	?a detect ?b
+		?a: blood-based strategies
+		?b: cancer
+	monitor ?a
+		?a: cancer
+
+
+label:    sent_13
+sentence: Colonoscopy to detect and remove polyps has contributed to a reduction in colorectal carcinoma .
+
+ppatt:
+	?a detect ?b
+		?a: Colonoscopy
+		?b: polyps
+	?a remove
+		?a: Colonoscopy
+	?a has contributed to ?b
+		?a: Colonoscopy to detect and remove polyps
+		?b: a reduction in colorectal carcinoma
+
+
+label:    sent_14
+sentence: It is important to detect a local recurrence early and perform repeated RFA .
+
+ppatt:
+	?a is important to detect ?b early
+		?a: It
+		?b: a local recurrence
+	?a is important to early perform ?b
+		?a: It
+		?b: repeated RFA
+
+
+label:    sent_15
+sentence: Tracking vaccine-safety inquiries to detect signals and monitor public concerns .
+
+ppatt:
+	Tracking ?a
+		?a: vaccine-safety inquiries
+	detect ?a
+		?a: signals
+	monitor ?a
+		?a: public concerns
+
+
+label:    sent_16
+sentence: Western blotting was used to detect alpha-spectrin and indirectly determine caspase-3 activity .
+
+ppatt:
+	?a was used to detect ?b
+		?a: Western blotting
+		?b: alpha-spectrin
+	?a indirectly determine ?b
+		?a: Western blotting
+		?b: caspase-3 activity
+
+
+label:    sent_17
+sentence: It enables bacteria to detect metal depletion with improved sensitivity and optimize gene-expression pattern .
+
+ppatt:
+	?a enables ?b to detect ?c with ?d
+		?a: It
+		?b: bacteria
+		?c: metal depletion
+		?d: improved sensitivity
+	?a enables to optimize ?b
+		?a: It
+		?b: gene-expression pattern
+
+
+label:    sent_18
+sentence: Three-dimensional ultrasound to detect Apert syndrome and improve patient understanding .
+
+ppatt:
+	Three-dimensional ultrasound to detect ?a
+		?a: Apert syndrome
+	Three-dimensional ultrasound to improve ?a
+		?a: patient understanding
+
+
+label:    sent_19
+sentence: Furthermore , it also can detect codon repeats and report the corresponding amino acid .
+
+ppatt:
+	Furthermore , ?a also can detect ?b
+		?a: it
+		?b: codon repeats
+	?a report ?b
+		?a: it
+		?b: the corresponding amino acid
+
+
+label:    sent_20
+sentence: Extinction is difficult to detect , even in well-known taxa such as mammals .
+
+ppatt:
+	?a is difficult to detect , in ?b
+		?a: Extinction
+		?b: even well-known taxa such as mammals
+
+
+label:    sent_21
+sentence: Residual neoplastic tissue of the resection interface is difficult to detect by conventional endoscopy .
+
+ppatt:
+	?a is difficult to detect by ?b
+		?a: Residual neoplastic tissue of the resection interface
+		?b: conventional endoscopy
+
+
+label:    sent_22
+sentence: Clinical hepatomegaly is difficult to detect , even by well trained FPs .
+
+ppatt:
+	?a is difficult to detect , by ?b
+		?a: Clinical hepatomegaly
+		?b: even well trained FPs
+
+
+label:    sent_23
+sentence: With modifications , PLNAs can detect immunosuppressive chemicals and distinguish sensitizing from nonsensitizing chemicals .
+
+ppatt:
+	With ?a , ?b can detect ?c
+		?a: modifications
+		?b: PLNAs
+		?c: immunosuppressive chemicals
+	?a distinguish sensitizing from ?b
+		?a: PLNAs
+		?b: nonsensitizing chemicals
+
+
+label:    sent_24
+sentence: To detect neuropeptides in human skeletal muscle at rest and after eccentric exercise .
+
+ppatt:
+	detect ?a at ?b
+		?a: neuropeptides in human skeletal muscle
+		?b: rest
+	detect ?a at ?b
+		?a: neuropeptides in human skeletal muscle
+		?b: eccentric exercise
+
+
+label:    sent_25
+sentence: The FBG sensor showed resonant characteristics and could detect AE continuously during the test .
+
+ppatt:
+	?a showed ?b
+		?a: The FBG sensor
+		?b: resonant characteristics
+	?a could detect ?b continuously during ?c
+		?a: The FBG sensor
+		?b: AE
+		?c: the test
+
+
+label:    sent_26
+sentence: ISHH did not detect XK in skeletal muscle but RT-PCR did .
+
+ppatt:
+	?a did not detect ?b in ?c
+		?a: ISHH
+		?b: XK
+		?c: skeletal muscle
+	?a did
+		?a: RT-PCR
+
+
+label:    sent_27
+sentence: Various pathways detect aberrant RNAs in the cytoplasm and are dependent on translation .
+
+ppatt:
+	?a detect ?b in ?c
+		?a: Various pathways
+		?b: aberrant RNAs
+		?c: the cytoplasm
+
+
+label:    sent_28
+sentence: In diabetic retinopathy , OCT angiography can detect neovascularization and quantify ischemia .
+
+ppatt:
+	In ?a , ?b can detect ?c
+		?a: diabetic retinopathy
+		?b: OCT angiography
+		?c: neovascularization
+	?a quantify ?b
+		?a: OCT angiography
+		?b: ischemia
+
+

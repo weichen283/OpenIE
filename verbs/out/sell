@@ -1,0 +1,231 @@
+label:    sent_1
+sentence: Cephalon used improper tactics to sell drug , probe finds . Four shops ( 7 % ) refused to sell any medications .
+
+ppatt:
+	?a used ?b to sell ?c
+		?a: Cephalon
+		?b: improper tactics
+		?c: drug
+	?a finds
+		?a: probe
+	?a is/are 7 %
+		?a: Four shops
+	?a refused to sell ?b
+		?a: Four shops
+		?b: any medications
+
+
+label:    sent_2
+sentence: The decision to sell a medical practice is never easy . Targeted selective treatment for worm management -- how do we sell rational programs to farmers ? Numerous manufacturers sell various modifications of this technology . What happens to women who sell sex ? The shopkeeper or pharmacist could sell the package at the nominal price of about U.S .
+
+ppatt:
+	?a sell ?b
+		?a: The decision
+		?b: a medical practice
+	?a is never easy ?b
+		?a: The decision to sell a medical practice
+		?b: Targeted selective treatment for worm management
+	how do ?a sell ?b
+		?a: we
+		?b: rational programs to farmers
+	?a sell ?b
+		?a: Numerous manufacturers
+		?b: various modifications of this technology What happens to women who sell sex
+	?a ?b happens to ?c
+		?a: various modifications of this technology
+		?b: What
+		?c: women who sell sex
+	?a sell ?b
+		?a: women
+		?b: sex
+	?a could sell ?b at ?c
+		?a: The shopkeeper
+		?b: the package
+		?c: the nominal price of about U.S
+	?a could sell ?b at ?c
+		?a: pharmacist
+		?b: the package
+		?c: the nominal price of about U.S
+
+
+label:    sent_3
+sentence: If I sell it for junk , I can buy it for junk . The distributors sell the condoms at a profit . Westworld will sell 20 % of systems in effort to stem operating losses .
+
+ppatt:
+	?a sell ?b for ?c
+		?a: I
+		?b: it
+		?c: junk
+	?a can buy ?b for ?c
+		?a: I
+		?b: it
+		?c: junk
+	?a sell ?b at ?c
+		?a: The distributors
+		?b: the condoms
+		?c: a profit
+	?a will sell ?b in ?c
+		?a: Westworld
+		?b: 20 % of systems
+		?c: effort to stem operating losses
+
+
+label:    sent_4
+sentence: Firm offers to sell bad debt to highest bidder .
+
+ppatt:
+	?a offers to sell ?b to ?c
+		?a: Firm
+		?b: bad debt
+		?c: highest bidder
+
+
+label:    sent_5
+sentence: Young women offer to sell their eggs to infertile couples .
+
+ppatt:
+	?a offer to sell ?b to ?c
+		?a: Young women
+		?b: their eggs
+		?c: infertile couples
+
+
+label:    sent_6
+sentence: How to buy and sell a group practice .
+
+ppatt:
+	How to buy ?a
+		?a: a group practice
+	sell ?a
+		?a: a group practice
+
+
+label:    sent_7
+sentence: To sell or not to sell ! To give or sell human gametes -- the interplay between pragmatics , policy and ethics . A few hospitals sell bond issues , but tax reform uncertainties cool market .
+
+ppatt:
+	sell ?a
+		?a: the interplay between pragmatics , policy and ethics
+	not to sell ?a To give ?b ?c
+		?a: !
+		?b: human gametes
+		?c: the interplay between pragmatics , policy and ethics
+	not to sell To sell ?a
+		?a: the interplay between pragmatics , policy and ethics
+	?a ?b sell ?c
+		?a: the interplay between pragmatics , policy and ethics
+		?b: A few hospitals
+		?c: bond issues
+	?a reform ?b
+		?a: tax
+		?b: uncertainties cool market
+
+
+label:    sent_8
+sentence: Women who sell sex and use drugs have dual risks for HIV infection .
+
+ppatt:
+	?a sell ?b
+		?a: Women
+		?b: sex
+	?a sell ?b
+		?a: Women
+		?b: use
+	?a sell ?b
+		?a: Women
+		?b: drugs
+	?a have ?b
+		?a: Women who sell sex and use drugs
+		?b: dual risks for HIV infection
+
+
+label:    sent_9
+sentence: Subscriptions to share : new way to sell content or help fundraising online .
+
+ppatt:
+	?a share ?b
+		?a: Subscriptions
+		?b: new way to sell content or help fundraising online
+	?a sell ?b
+		?a: new way
+		?b: content
+	help ?a
+		?a: fundraising online
+
+
+label:    sent_10
+sentence: Who will sell to doctors ? All OCs sell through chemists and over-the-counter pharmaceutical outlets .
+
+ppatt:
+	?a sell through ?b
+		?a: All OCs
+		?b: chemists
+	?a sell through ?b
+		?a: All OCs
+		?b: over-the-counter pharmaceutical outlets
+
+
+label:    sent_11
+sentence: Two doc-owned hospitals sell to not-for-profits . The pressure to sell .
+
+ppatt:
+	?a sell to ?b . ?c to sell
+		?a: Two doc-owned hospitals
+		?b: not-for-profits
+		?c: The pressure
+
+
+label:    sent_12
+sentence: Knowing what to sell , when , and to whom . MIS makers sell slowly , but surely . How to sell to different types of people .
+
+ppatt:
+	Knowing ?a to sell ?b
+		?a: what
+		?b: SOMETHING := when and to whom . MIS makers sell slowly surely . How to sell to different types of people
+	when to ?a . ?b sell slowly surely . How to sell to ?c
+		?a: whom
+		?b: MIS makers
+		?c: different types of people
+
+
+label:    sent_13
+sentence: How to sell to a segmented market .
+
+ppatt:
+	How to sell to ?a
+		?a: a segmented market
+
+
+label:    sent_14
+sentence: Conversely , station area condominiums in more auto-oriented environments may sell at a discount .
+
+ppatt:
+	Conversely , ?a may sell at ?b
+		?a: station area condominiums in more auto-oriented environments
+		?b: a discount
+
+
+label:    sent_15
+sentence: To sell or not to sell : a tale of two practices .
+
+ppatt:
+
+
+
+label:    sent_16
+sentence: Diversion --patients who sell or share their medication -- is a hotly debated but relatively unresearched phenomenon . N.Y . 's Crouse Hospital will not close , merge or sell .
+
+ppatt:
+	?a sell ?b
+		?a: Diversion --patients
+		?b: their medication
+	?a share
+		?a: who
+	?a is a hotly debated but relatively unresearched phenomenon
+		?a: Diversion --patients who sell or share their medication
+	?a ?b 's ?c will not close
+		?a: a hotly debated but relatively unresearched phenomenon
+		?b: N.Y
+		?c: Crouse Hospital
+
+

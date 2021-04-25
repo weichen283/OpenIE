@@ -1,0 +1,219 @@
+label:    sent_1
+sentence: To update an existing systematic ( Cochrane ) review of herbal therapies in RA .
+
+ppatt:
+	update ?a
+		?a: an existing systematic review of herbal therapies in RA
+
+
+label:    sent_2
+sentence: To update the 1996 U.S .
+
+ppatt:
+	update ?a
+		?a: the 1996 U.S
+
+
+label:    sent_3
+sentence: To update the reader about clinical management strategies for separation from cardiopulmonary bypass . Contraception update .
+
+ppatt:
+	update ?a ?b
+		?a: the reader about clinical management strategies for separation from cardiopulmonary bypass
+		?b: Contraception update
+
+
+label:    sent_4
+sentence: The effects of electronic stability control ( ESC ) on crashes --an update . Pharmaceutical approval update . An update on the African polio outbreak .
+
+ppatt:
+	?a is/are ESC
+		?a: electronic stability control
+	?a --an update ?b ?c
+		?a: The effects of electronic stability control on crashes
+		?b: Pharmaceutical approval update
+		?c: An update on the African polio outbreak
+
+
+label:    sent_5
+sentence: An update on belimumab for the treatment of lupus . An update on nonmelanoma skin cancer . CPT update 2011 .
+
+ppatt:
+
+
+
+label:    sent_6
+sentence: Case law update : a review of recent rulings of interest to risk managers . CDC update : Guidelines for treating STDs .
+
+ppatt:
+	?a treating ?b
+		?a: Guidelines
+		?b: STDs
+
+
+label:    sent_7
+sentence: To update the evidence and provide an overview of the available data on ticagrelor .
+
+ppatt:
+	update ?a
+		?a: the evidence
+	provide ?a
+		?a: an overview of the available data on ticagrelor
+
+
+label:    sent_8
+sentence: Questionnaires were mailed biennially to update exposures and identify incident cases of POAG .
+
+ppatt:
+	?a were mailed biennially to update ?b
+		?a: Questionnaires
+		?b: exposures
+	?a were mailed biennially to identify ?b
+		?a: Questionnaires
+		?b: incident cases of POAG
+
+
+label:    sent_9
+sentence: Those responses were used to devise a plan to revise and update the definitions .
+
+ppatt:
+	?a were used to devise ?b
+		?a: Those responses
+		?b: a plan to revise and update the definitions
+	?a revise ?b
+		?a: a plan
+		?b: the definitions
+	update ?a
+		?a: the definitions
+
+
+label:    sent_10
+sentence: To update indications for imaging techniques in the short or long term management .
+
+ppatt:
+	update ?a
+		?a: indications for imaging techniques in short or long term
+
+
+label:    sent_11
+sentence: Sudan has used evidence to update its malaria treatment to ACTs .
+
+ppatt:
+	?a has used ?b
+		?a: Sudan
+		?b: evidence to update its malaria treatment to ACTs
+	?a update ?b
+		?a: evidence
+		?b: its malaria treatment to ACTs
+
+
+label:    sent_12
+sentence: We aimed to update this trial with results from longer follow-up .
+
+ppatt:
+	?a aimed to update ?b with ?c
+		?a: We
+		?b: this trial
+		?c: results from longer follow-up
+
+
+label:    sent_13
+sentence: We also update the UPR-targeted cancer therapeutics currently in clinical trials .
+
+ppatt:
+	?a also update ?b currently in ?c
+		?a: We
+		?b: the UPR-targeted cancer therapeutics
+		?c: clinical trials
+
+
+label:    sent_14
+sentence: Here , I update human polydactyly entities by phenotype and mutated gene .
+
+ppatt:
+	Here , ?a update ?b by ?c
+		?a: I
+		?b: human polydactyly entities
+		?c: phenotype
+	Here , ?a update ?b by ?c
+		?a: I
+		?b: human polydactyly entities
+		?c: mutated
+
+
+label:    sent_15
+sentence: Legislative update .. . quality of care under the Medicare program .
+
+ppatt:
+
+
+
+label:    sent_16
+sentence: Psoriatic arthritis : update on pathophysiology , assessment and management .
+
+ppatt:
+
+
+
+label:    sent_17
+sentence: Post-cardiac arrest syndrome : update on brain injury management and prognostication .
+
+ppatt:
+
+
+
+label:    sent_18
+sentence: Ventilator-associated pneumonia : update on etiology , prevention , and management .
+
+ppatt:
+
+
+
+label:    sent_19
+sentence: The expert systems of both instruments require modification to update and enhance their utility .
+
+ppatt:
+	?a require ?b
+		?a: The expert systems of both instruments
+		?b: modification to update and enhance their utility
+	?a update
+		?a: modification
+	enhance ?a
+		?a: their utility
+
+
+label:    sent_20
+sentence: Expanding opportunities mean that many nurses wish to update and extend their knowledge .
+
+ppatt:
+	?a mean ?b
+		?a: Expanding opportunities
+		?b: SOMETHING := many nurses wish to update and extend their knowledge
+	?a wish to update ?b
+		?a: many nurses
+		?b: their knowledge
+	?a wish to extend
+		?a: many nurses
+
+
+label:    sent_21
+sentence: The Maryland Pouch reconstruction -- technical improvements and update .
+
+ppatt:
+
+
+
+label:    sent_22
+sentence: Nurses have a responsibility to maintain and update their skills in this area .
+
+ppatt:
+	?a have ?b
+		?a: Nurses
+		?b: a responsibility to maintain and update their skills in this area
+	?a maintain ?b
+		?a: a responsibility
+		?b: their skills in this area
+	update ?a
+		?a: their skills in this area
+
+

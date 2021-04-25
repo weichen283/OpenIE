@@ -1,0 +1,233 @@
+label:    sent_1
+sentence: Conservation .
+
+ppatt:
+
+
+
+label:    sent_2
+sentence: An emerging role of zoos to conserve biodiversity .
+
+ppatt:
+	?a conserve ?b
+		?a: An emerging role of zoos
+		?b: biodiversity
+
+
+label:    sent_3
+sentence: This research contributes to understanding how to conserve biodiversity in urban areas .
+
+ppatt:
+	?a contributes to ?b
+		?a: This research
+		?b: understanding how to conserve biodiversity in urban areas
+	?a how to conserve ?b
+		?a: understanding
+		?b: biodiversity in urban areas
+
+
+label:    sent_4
+sentence: Identifying care actions to conserve dignity in end-of-life care .
+
+ppatt:
+	Identifying ?a
+		?a: care actions to conserve dignity in end-of-life care
+	?a conserve ?b in ?c
+		?a: care actions
+		?b: dignity
+		?c: end-of-life care
+
+
+label:    sent_5
+sentence: It is therefore imperative to conserve the patient 's blood by any means possible . 3-Hydroxybutyrate to conserve protein during therapeutic starvation .
+
+ppatt:
+	?a is therefore imperative to conserve ?b by ?c to conserve ?d during ?e
+		?a: It
+		?b: the patient 's blood
+		?c: any means possible . 3-Hydroxybutyrate
+		?d: protein
+		?e: therapeutic starvation
+
+
+label:    sent_6
+sentence: However , an initial study indicated that bears appeared to conserve strength while denning .
+
+ppatt:
+	However , ?a indicated ?b
+		?a: an initial study
+		?b: SOMETHING := bears appeared to conserve strength while denning
+	?a appeared to conserve ?b
+		?a: bears
+		?b: strength
+	?a denning
+		?a: bears
+
+
+label:    sent_7
+sentence: Such differences in roles influence how we conserve individual species .
+
+ppatt:
+	?a influence ?b
+		?a: Such differences in roles
+		?b: SOMETHING := how we conserve individual species
+	how ?a conserve ?b
+		?a: we
+		?b: individual species
+
+
+label:    sent_8
+sentence: Young children 's ability to conserve facial identity when facial emotion varies . How CFOs can conserve energy resources .
+
+ppatt:
+	?a conserve ?b
+		?a: Young children 's ability
+		?b: facial identity
+	when ?a varies ?b
+		?a: facial emotion
+		?b: SOMETHING := How CFOs can conserve energy resources
+	How ?a can conserve ?b
+		?a: CFOs
+		?b: energy resources
+
+
+label:    sent_9
+sentence: The intent is to conserve Medicare funds and prevent duplicate payments by Medicare .
+
+ppatt:
+	?a is to conserve ?b
+		?a: The intent
+		?b: Medicare funds
+	?a is to prevent ?b
+		?a: The intent
+		?b: duplicate payments by Medicare
+
+
+label:    sent_10
+sentence: The intent is to conserve Medicare funds and prevent duplicate payments by Medicare .
+
+ppatt:
+	?a is to conserve ?b
+		?a: The intent
+		?b: Medicare funds
+	?a is to prevent ?b
+		?a: The intent
+		?b: duplicate payments by Medicare
+
+
+label:    sent_11
+sentence: The objectives of clinical science are to conserve health and to cure disease .
+
+ppatt:
+	?a are to conserve ?b
+		?a: The objectives of clinical science
+		?b: health
+	?a are to conserve ?b
+		?a: The objectives of clinical science
+		?b: cure disease
+
+
+label:    sent_12
+sentence: How effectively would such areas conserve biodiversity under climate change ? Collaborating to conserve large mammals in Southeast Asia .
+
+ppatt:
+	How effectively would ?a conserve ?b under ?c
+		?a: such areas
+		?b: biodiversity
+		?c: climate change
+	?a Collaborating to conserve ?b
+		?a: such areas
+		?b: large mammals in Southeast Asia
+
+
+label:    sent_13
+sentence: By so doing , DBP may conserve the filament-severing activity of plasma gelsolin .
+
+ppatt:
+	By so doing , ?a may conserve ?b
+		?a: DBP
+		?b: the filament-severing activity of plasma gelsolin
+
+
+label:    sent_14
+sentence: Platinum resistant cancer cells conserve sensitivity to BH3 domains and obatoclax induced mitochondrial apoptosis .
+
+ppatt:
+	?a conserve ?b
+		?a: Platinum resistant cancer cells
+		?b: sensitivity to BH3 domains
+	?a induced ?b
+		?a: obatoclax
+		?b: mitochondrial apoptosis
+
+
+label:    sent_15
+sentence: Hibernating bears conserve muscle strength and maintain fatigue resistance .
+
+ppatt:
+	?a bears conserve ?b
+		?a: Hibernating
+		?b: muscle strength
+	?a bears maintain ?b
+		?a: Hibernating
+		?b: fatigue resistance
+
+
+label:    sent_16
+sentence: Partial laryngectomy can conserve voice and yield excellent local control rates .
+
+ppatt:
+	?a can conserve ?b
+		?a: Partial laryngectomy
+		?b: voice
+	?a yield ?b
+		?a: Partial laryngectomy
+		?b: excellent local control rates
+
+
+label:    sent_17
+sentence: Pest control is a key activity undertaken to conserve threatened and declining species .
+
+ppatt:
+	?a is a key activity
+		?a: Pest control
+	?a undertaken to conserve ?b
+		?a: a key activity
+		?b: threatened and declining species
+
+
+label:    sent_18
+sentence: These sleep alterations are hypothesized to conserve or redirect energy for immune system activation .
+
+ppatt:
+	?a are hypothesized to conserve ?b
+		?a: These sleep alterations
+		?b: energy for immune system activation
+	?a are hypothesized to redirect
+		?a: These sleep alterations
+
+
+label:    sent_19
+sentence: Association of them is able to conserve or enhance respiratory and nutritional status .
+
+ppatt:
+	?a is able to conserve ?b
+		?a: Association of them
+		?b: respiratory and nutritional status
+	?a is able to enhance
+		?a: Association of them
+
+
+label:    sent_20
+sentence: Cells are assumed to have axial symmetry and to conserve surface area during deformation .
+
+ppatt:
+	?a are assumed to have ?b
+		?a: Cells
+		?b: axial symmetry
+	?a are assumed to to conserve ?b during ?c
+		?a: Cells
+		?b: surface area
+		?c: deformation
+
+

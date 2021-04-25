@@ -1,0 +1,290 @@
+label:    sent_1
+sentence: These results support the existing classification of CeMV into three principal genetic clusters .
+
+ppatt:
+	?a support ?b
+		?a: These results
+		?b: the existing classification of CeMV into three principal genetic clusters
+
+
+label:    sent_2
+sentence: Serum-based biomarkers may support detection of GBM .
+
+ppatt:
+	?a may support ?b
+		?a: Serum-based biomarkers
+		?b: detection of GBM
+
+
+label:    sent_3
+sentence: Improving population care with an integrated electronic panel support tool .
+
+ppatt:
+	Improving ?a with ?b
+		?a: population care
+		?b: an integrated electronic panel support tool
+
+
+label:    sent_4
+sentence: Successful pregnancy requires coordinated maternal-fetal cross-talk to establish vascular connections that support conceptus growth .
+
+ppatt:
+	?a requires ?b
+		?a: Successful pregnancy
+		?b: coordinated maternal-fetal cross-talk
+	?a establish ?b
+		?a: Successful pregnancy
+		?b: vascular connections that support conceptus growth
+	?a support ?b
+		?a: vascular connections
+		?b: conceptus growth
+
+
+label:    sent_5
+sentence: Do you truly support the advancement of the nursing profession ? Several studies show that high-technology AAC can be used to support off-line communication .
+
+ppatt:
+	Do you truly support ?a
+		?a: the advancement of the nursing profession
+	?a show ?b
+		?a: Several studies
+		?b: SOMETHING := high-technology AAC can be used to support off-line communication
+	?a can be used to support ?b
+		?a: high-technology AAC
+		?b: off-line communication
+
+
+label:    sent_6
+sentence: These results support intending BMI as nutritional reserve in institutionalized elderly patients .
+
+ppatt:
+	?a support ?b as ?c
+		?a: These results
+		?b: intending BMI
+		?c: nutritional reserve in institutionalized elderly patients
+
+
+label:    sent_7
+sentence: Ensuring that practice patterns support savings over time .
+
+ppatt:
+	Ensuring ?a
+		?a: SOMETHING := practice patterns support savings over time
+	?a support ?b
+		?a: practice patterns
+		?b: savings over time
+
+
+label:    sent_8
+sentence: Translation of a dementia caregiver support program in a health care system--REACH VA .
+
+ppatt:
+
+
+
+label:    sent_9
+sentence: Astrocytes support neurons and map out nonoverlapping domains in grey matter of the brain .
+
+ppatt:
+	?a support ?b
+		?a: Astrocytes
+		?b: neurons
+	?a map out ?b
+		?a: Astrocytes
+		?b: nonoverlapping domains in grey matter of the brain
+
+
+label:    sent_10
+sentence: Findings support self-determination theory and indicate that individuals discriminate between intrinsic and extrinsic goals .
+
+ppatt:
+	?a support ?b
+		?a: Findings
+		?b: self-determination theory
+	?a indicate ?b
+		?a: Findings
+		?b: SOMETHING := individuals discriminate between intrinsic and extrinsic goals
+	?a discriminate between ?b
+		?a: individuals
+		?b: intrinsic and extrinsic goals
+
+
+label:    sent_11
+sentence: Mid-urethral slings support the mid-urethra and restrict downward movement during different activities . ReSCA : decision support tool for remediation planning after the Chernobyl accident .
+
+ppatt:
+	?a support ?b during ?c ?d
+		?a: Mid-urethral slings
+		?b: the mid-urethra
+		?c: different activities
+		?d: ReSCA
+	?a restrict ?b
+		?a: Mid-urethral slings
+		?b: downward movement
+	?a support ?b
+		?a: decision
+		?b: tool for remediation planning after the Chernobyl accident
+
+
+label:    sent_12
+sentence: A measuring device was constructed to support each laryngoscope in a standardized manner .
+
+ppatt:
+	?a was constructed to support ?b in ?c
+		?a: A measuring device
+		?b: each laryngoscope
+		?c: a standardized manner
+
+
+label:    sent_13
+sentence: It is possible to successfully support these calves by INO and mechanical ventilation .
+
+ppatt:
+	?a is possible to successfully support ?b by ?c
+		?a: It
+		?b: these calves
+		?c: INO
+	?a is possible to successfully support ?b by ?c
+		?a: It
+		?b: these calves
+		?c: mechanical ventilation
+
+
+label:    sent_14
+sentence: Impact of follow-along support on job tenure in the individual placement and support model .
+
+ppatt:
+
+
+
+label:    sent_15
+sentence: Practitioners could devise ways to better engage and support those families who consider moving .
+
+ppatt:
+	?a could devise ?b to better engage ?c
+		?a: Practitioners
+		?b: ways
+		?c: those families who consider moving
+	?a could devise to support
+		?a: Practitioners
+	?a consider ?b
+		?a: those families
+		?b: moving
+
+
+label:    sent_16
+sentence: The histopathology report supported or did not support the diagnosis of HSCR .
+
+ppatt:
+	?a supported
+		?a: The histopathology report
+	?a did not support ?b
+		?a: The histopathology report
+		?b: the diagnosis of HSCR
+
+
+label:    sent_17
+sentence: Trauma resuscitation errors and computer-assisted decision support . ( 2 ) Proactive versus reactive support .
+
+ppatt:
+
+
+
+label:    sent_18
+sentence: The results support using antioxidant supplements as a preventive tool against radiation-induced harm . Continuous support for women during childbirth .
+
+ppatt:
+	?a support using ?b as ?c
+		?a: The results
+		?b: antioxidant supplements
+		?c: a preventive tool against radiation-induced harm
+
+
+label:    sent_19
+sentence: The threshold for permissible withdrawal of life support from disabled newborn infants .
+
+ppatt:
+
+
+
+label:    sent_20
+sentence: The results support for both predictions .
+
+ppatt:
+	?a support for ?b
+		?a: The results
+		?b: both predictions
+
+
+label:    sent_21
+sentence: The present review investigates the evidence available to support or refute these claims .
+
+ppatt:
+	?a investigates ?b
+		?a: The present review
+		?b: the evidence available to support or refute these claims
+	support ?a
+		?a: these claims
+	refute ?a
+		?a: these claims
+
+
+label:    sent_22
+sentence: Infrared spectroscopy was used to support and clarify the MALDI data .
+
+ppatt:
+	?a was used to support ?b
+		?a: Infrared spectroscopy
+		?b: the MALDI data
+	?a was used to clarify
+		?a: Infrared spectroscopy
+
+
+label:    sent_23
+sentence: There is little evidence to support or to refute this suggestion .
+
+ppatt:
+	There is ?a
+		?a: little evidence to support or to refute this suggestion
+	?a support
+		?a: little evidence
+	?a refute ?b
+		?a: little evidence
+		?b: this suggestion
+
+
+label:    sent_24
+sentence: Taken together , Abeta-peptides support phagocytosis as soluble factors and act as opsonins .
+
+ppatt:
+	Taken together ?a
+		?a: Abeta-peptides
+	?a support ?b as ?c
+		?a: Abeta-peptides
+		?b: phagocytosis
+		?c: soluble factors
+	?a act as ?b
+		?a: Abeta-peptides
+		?b: opsonins
+
+
+label:    sent_25
+sentence: In the first stage , they support hematopoiesis and contain no fat . For instance , some applications support enhanced query and retrieve over DICOM objects metadata .
+
+ppatt:
+	In ?a , ?b support ?c
+		?a: the first stage
+		?b: they
+		?c: hematopoiesis
+	?a contain ?b
+		?a: they
+		?b: no fat
+	For ?a , ?b support ?c
+		?a: instance
+		?b: some applications
+		?c: enhanced query
+	?a retrieve over ?b
+		?a: some applications
+		?b: DICOM objects metadata
+
+

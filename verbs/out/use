@@ -1,0 +1,283 @@
+label:    sent_1
+sentence: The prevalence of evidence-based drug use prevention curricula in U.S. middle schools in 2008 .
+
+ppatt:
+	?a use ?b in ?c
+		?a: The prevalence of evidence-based drug
+		?b: prevention curricula
+		?c: U.S. middle schools in 2008
+
+
+label:    sent_2
+sentence: How do I effectively use electronic continuing medical education ? People use salient landmarks when learning a route through a novel environment .
+
+ppatt:
+	How do ?a effectively use ?b
+		?a: I
+		?b: electronic continuing medical education
+	?a use ?b
+		?a: People
+		?b: salient landmarks
+	?a when learning ?b through ?c
+		?a: People
+		?b: a route
+		?c: a novel environment
+
+
+label:    sent_3
+sentence: Trusts fail to use warning systems .
+
+ppatt:
+	?a fail to use ?b
+		?a: Trusts
+		?b: warning systems
+
+
+label:    sent_4
+sentence: Nurse-leaders use mentorship to grow and develop leadership potential in other nurses . Helping patients simplify and safely use complex prescription regimens .
+
+ppatt:
+	?a use ?b to grow ?c
+		?a: Nurse-leaders
+		?b: mentorship
+		?c: leadership potential in other nurses
+	?a use to develop
+		?a: Nurse-leaders
+	?a Helping
+		?a: Nurse-leaders
+	?a simplify
+		?a: patients
+	?a safely use ?b
+		?a: patients
+		?b: complex prescription regimens
+
+
+label:    sent_5
+sentence: To identify distal and proximal predictors of ecstasy use initiation during adolescence .
+
+ppatt:
+	identify ?a
+		?a: distal during adolescence
+	identify ?a
+		?a: proximal
+
+
+label:    sent_6
+sentence: Should emergency physicians use etomidate for rapid sequence intubation ? Great apes use weight as a cue to find hidden food .
+
+ppatt:
+	?a use ?b for ?c
+		?a: physicians
+		?b: etomidate
+		?c: rapid sequence intubation
+	?a use ?b as ?c to find ?d
+		?a: Great apes
+		?b: weight
+		?c: a cue
+		?d: hidden food
+
+
+label:    sent_7
+sentence: Operators were allowed to use 6 Fr Export aspiration catheter at their discretion .
+
+ppatt:
+	?a were allowed to use ?b at ?c
+		?a: Operators
+		?b: 6 Fr Export aspiration catheter
+		?c: their discretion
+
+
+label:    sent_8
+sentence: Is it possible to use it in adults ? It is recommended to use the three oils as healthy oils and folk medicine .
+
+ppatt:
+	Is ?a possible to use ?b in ?c
+		?a: it
+		?b: it
+		?c: adults
+	?a is recommended to use ?b as ?c
+		?a: It
+		?b: the three oils
+		?c: healthy oils
+	?a is recommended to use ?b as ?c
+		?a: It
+		?b: the three oils
+		?c: folk medicine
+
+
+label:    sent_9
+sentence: In addition , the disadvantages of PAM use should be negated .
+
+ppatt:
+	In ?a , ?b should be negated
+		?a: addition
+		?b: the disadvantages of PAM use
+
+
+label:    sent_10
+sentence: Occasionally , juvenile spider monkeys use headshakes during nonsocial locomotor play .
+
+ppatt:
+	Occasionally , ?a use ?b during ?c
+		?a: juvenile spider monkeys
+		?b: headshakes
+		?c: nonsocial locomotor
+	?a play
+		?a: juvenile spider monkeys
+
+
+label:    sent_11
+sentence: The effects of medication assessment on psychotropic drug use in the community-dwelling elderly .
+
+ppatt:
+
+
+
+label:    sent_12
+sentence: Rectal microbicides : can we make them and will people use them ? Smokers can use the web to continue or quit their habit .
+
+ppatt:
+	will ?a use ?b
+		?a: people
+		?b: them
+	?a can use ?b to continue ?c
+		?a: Smokers
+		?b: the web
+		?c: their habit
+	?a can use to quit
+		?a: Smokers
+
+
+label:    sent_13
+sentence: Patients and caregivers must use and maintain these aerosol drug delivery devices correctly .
+
+ppatt:
+	?a must use ?b correctly
+		?a: Patients
+		?b: these aerosol drug delivery devices
+	?a must use ?b correctly
+		?a: caregivers
+		?b: these aerosol drug delivery devices
+	?a maintain
+		?a: Patients
+	?a maintain
+		?a: caregivers
+
+
+label:    sent_14
+sentence: Health promotion strategies need to combat stigma and use mechanisms of occupational inclusion .
+
+ppatt:
+	?a need to combat ?b
+		?a: Health promotion strategies
+		?b: stigma
+	?a need to use ?b
+		?a: Health promotion strategies
+		?b: mechanisms of occupational inclusion
+
+
+label:    sent_15
+sentence: To use or not to use cool superconductors ? [Blepharoplasty : to suture or to use cyanoacrylate ? ] . Which oral agent to use when metformin is no longer effective ? Some clinical pointers to use .
+
+ppatt:
+	use ?a : to ?b
+		?a: [Blepharoplasty
+		?b: suture
+	not to use ?a
+		?a: cool superconductors
+	use ?a ?b ?c ?d to use
+		?a: cyanoacrylate
+		?b: ]
+		?c: Which
+		?d: oral agent
+	when ?a is no longer effective ?b
+		?a: metformin
+		?b: Some clinical pointers to use
+	?a use
+		?a: Some clinical pointers
+
+
+label:    sent_16
+sentence: Posterior reversible encephalopathy syndrome in the context of phentermine use resulting in intracranial hemorrhage .
+
+ppatt:
+	?a resulting in ?b
+		?a: phentermine use
+		?b: intracranial hemorrhage
+
+
+label:    sent_17
+sentence: Anti-fibrinolytic use for minimising perioperative allogeneic blood transfusion .
+
+ppatt:
+	?a minimising ?b
+		?a: Anti-fibrinolytic use
+		?b: perioperative allogeneic blood transfusion
+
+
+label:    sent_18
+sentence: Gels with different swelling ratios were prepared to use as a medium .
+
+ppatt:
+	?a were prepared to use as ?b
+		?a: Gels with different swelling ratios
+		?b: a medium
+
+
+label:    sent_19
+sentence: We also selected 17 histology-positive biopsy specimens obtained during PUB to use as controls .
+
+ppatt:
+	?a also selected ?b
+		?a: We
+		?b: 17 histology-positive biopsy specimens obtained during PUB to use as controls
+	?a obtained during ?b to use as ?c
+		?a: 17 histology-positive biopsy specimens
+		?b: PUB
+		?c: controls
+
+
+label:    sent_20
+sentence: Women use more services than men and with rising age utilization increases .
+
+ppatt:
+	?a use ?b than ?c
+		?a: Women
+		?b: more services
+		?c: men
+	?a use ?b than ?c
+		?a: Women
+		?b: more services
+		?c: rising age utilization increases
+
+
+label:    sent_21
+sentence: Clinicians increasingly use handheld devices to support evidence-based practice and for clinical decision support .
+
+ppatt:
+	?a increasingly use ?b to support ?c
+		?a: Clinicians
+		?b: handheld devices
+		?c: evidence-based practice
+	?a increasingly use ?b to support ?c
+		?a: Clinicians
+		?b: handheld devices
+		?c: clinical decision support
+
+
+label:    sent_22
+sentence: Most of the time , they use alcohol either in parties or at home .
+
+ppatt:
+	?a ?b use ?c in ?d
+		?a: Most of the time
+		?b: they
+		?c: alcohol
+		?d: parties
+	?a ?b use ?c in ?d
+		?a: Most of the time
+		?b: they
+		?c: alcohol
+		?d: home
+
+

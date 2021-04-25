@@ -1,0 +1,34 @@
+obj	These spike sources were in close proximity or seemed to engulf the magnetic AEF .	obj@AEF
+obj	Designing synthetic vesicles that engulf nanoscopic particles .	obj@particles
+obj	These transformed haemocytes retained their ability to engulf material of the disintegrating fibre .	obj@material
+
+subj#obj	Phagocytosis is an immune receptor-mediated process whereby cells engulf large particles .	subj@cells obj@particles
+subj#obj	These stars can engulf their sub-stellar companions when they become red giants .	subj@stars obj@companions
+subj#obj	Corneal epithelial cells can engulf particulate matter .	subj@cells obj@matter
+
+obj#prep	Fungi possess robust cell walls and do not engulf prey cells by phagotrophy .	obj@cells prep_by@phagotrophy
+obj#prep	Macrophages have the tendency to engulf Van-Au NPs through endocytosis .	obj@NPs prep_through@endocytosis
+obj#prep	Macrophages were shown to engulf GMPs by endocytosis .	obj@GMPs prep_by@endocytosis
+
+subj#obj#prep	Interleukin-2 activated microglia engulf tumor infiltrating T cells in the central nervous system .	subj@microglia obj@cells prep_in@system
+subj#obj#prep	During autophagy , autophagosomes engulf cytoplasmic components , including cytosolic proteins and organelles .	subj@autophagosomes obj@components prep_during@autophagy
+subj#obj#prep	Following laser treatment , macrophages engulf the altered pigment .	subj@macrophages obj@pigment prep_following@treatment
+
+subj#obj#conj	Chaperonins engulf other proteins and accelerate their folding by an unknown mechanism .	subj@Chaperonins obj@proteins conj_and@accelerate
+subj#obj#conj	These processes engulf clusters of varicosities and accumulate intracellular degradative compartments .	subj@processes obj@clusters conj_and@accumulate
+subj#obj#conj	Alveolar macrophages ( AMs ) encounter the particles and attempt to engulf the particles .	subj@attempt obj@particles conj_and@encounter
+
+obj#conj	Fibroblastic processes appeared to wrap around and engulf tumor cells .	obj@cells conj_and@wrap
+obj#conj	These cells capture and engulf pathogens and subsequently destroy them in intracellular vacuoles-the phagosomes .	obj@pathogens conj_and@destroy
+obj#conj	Neutrophils are viable and actively engulf S. Tm , as demonstrated by live microscopy .	obj@Tm conj_and@viable
+
+conj	Exposed phosphatidylserine is recognized by macrophages that engulf and degrade the affected cells .	conj_and@degrade
+conj	Macrophages were observed to engulf and degrade the cystozoites and cyst debris .	conj_and@degrade
+conj	The primary function of neutrophils is to engulf and destroy invading pathogens .	conj_and@destroy
+
+subj#conj	Synthetic biodegradable ionomers that engulf , store , and deliver intact proteins .	subj@ionomers conj_and@deliver conj_and@store
+subj#conj	Neutrophils engulf and kill bacteria using oxidative and nonoxidative mechanisms .	subj@Neutrophils conj_and@kill
+subj#conj	Neutrophils engulf and kill bacteria when their antimicrobial granules fuse with the phagosome .	subj@Neutrophils conj_and@kill
+
+subj#obj#prep#conj	Neutrophils engulf Salmonella during early stages of infection , but bacterial killing is incomplete .	subj@Neutrophils obj@Salmonella prep_during@stages conj_but@incomplete
+

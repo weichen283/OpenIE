@@ -1,0 +1,110 @@
+label:    sent_1
+sentence: Coal utilities gamble on carbon regulation . A gamble on substance .
+
+ppatt:
+
+
+
+label:    sent_2
+sentence: Risky business : how insurance companies gamble with your health coverage .
+
+ppatt:
+
+
+
+label:    sent_3
+sentence: Do n't gamble with medical record numbers .
+
+ppatt:
+
+
+
+label:    sent_4
+sentence: Do n't gamble with hepatitis : one dentist 's story .
+
+ppatt:
+
+
+
+label:    sent_5
+sentence: Both U-Noise and C-Noise inhibited desire to gamble in CO subjects . William perry and the weapons gamble .
+
+ppatt:
+	?a inhibited ?b ?c
+		?a: U-Noise
+		?b: desire to gamble in CO subjects
+		?c: William perry
+	?a inhibited ?b ?c
+		?a: C-Noise
+		?b: desire to gamble in CO subjects
+		?c: William perry
+	?a inhibited ?b ?c
+		?a: U-Noise
+		?b: desire to gamble in CO subjects
+		?c: the weapons
+	?a inhibited ?b ?c
+		?a: C-Noise
+		?b: desire to gamble in CO subjects
+		?c: the weapons
+	?a inhibited ?b ?c
+		?a: U-Noise
+		?b: desire to gamble in CO subjects
+		?c: gamble
+	?a inhibited ?b ?c
+		?a: C-Noise
+		?b: desire to gamble in CO subjects
+		?c: gamble
+	?a to gamble in ?b
+		?a: desire
+		?b: CO subjects
+
+
+label:    sent_6
+sentence: The cancer stem cell gamble .
+
+ppatt:
+
+
+
+label:    sent_7
+sentence: Impulsive decision-making : learning to gamble wisely ? To gamble or not to gamble : is that a decision ? The patent gamble : strategic insights for playing the worldwide patent game .
+
+ppatt:
+	?a is/are The patent gamble
+		?a: a decision
+	?a playing ?b
+		?a: strategic insights
+		?b: the worldwide patent game
+
+
+label:    sent_8
+sentence: People who gamble encounter physicians . Sleepiness and cognition in young adults who gamble and use alcohol .
+
+ppatt:
+	?a ?b encounter ?c
+		?a: People
+		?b: gamble
+		?c: physicians
+	?a ?b encounter ?c
+		?a: People
+		?b: gamble
+		?c: Sleepiness in young adults who gamble and use alcohol
+	?a gamble
+		?a: young adults
+	?a use ?b
+		?a: who
+		?b: alcohol
+
+
+label:    sent_9
+sentence: Investing in stocks -- you do n't have to gamble !
+
+ppatt:
+	Investing in ?a ?b
+		?a: stocks
+		?b: you
+	?a do n't have to ?b
+		?a: you
+		?b: gamble
+
+

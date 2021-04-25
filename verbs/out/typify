@@ -1,0 +1,140 @@
+label:    sent_1
+sentence: Chabazite media provided superior performance resiliency under dynamic conditions that typify stormwater treatment .
+
+ppatt:
+	?a provided ?b under ?c
+		?a: Chabazite media
+		?b: superior performance resiliency
+		?c: dynamic conditions that typify stormwater treatment
+	?a typify ?b
+		?a: dynamic conditions
+		?b: stormwater treatment
+
+
+label:    sent_2
+sentence: Pendular , clocking movements typify mammalian terrestrial locomotion .
+
+ppatt:
+	?a typify ?b
+		?a: Pendular , movements
+		?b: mammalian terrestrial locomotion
+
+
+label:    sent_3
+sentence: Examples from the Cameroon typify the need for such an approach .
+
+ppatt:
+	?a typify ?b
+		?a: Examples from the Cameroon
+		?b: the need for such an approach
+
+
+label:    sent_4
+sentence: Uncertainty appears to typify the experience of living with dementia .
+
+ppatt:
+	?a appears to typify ?b
+		?a: Uncertainty
+		?b: the experience of living with dementia
+	?a living with ?b
+		?a: the experience
+		?b: dementia
+
+
+label:    sent_5
+sentence: Finally , study findings did not indicate characteristics that typify the nonspecific violence offenses .
+
+ppatt:
+	Finally , ?a did not indicate ?b
+		?a: study findings
+		?b: characteristics that typify the nonspecific violence offenses
+	?a typify ?b
+		?a: characteristics
+		?b: the nonspecific violence offenses
+
+
+label:    sent_6
+sentence: We believe these findings typify the orbital gliomas in patients with this disease .
+
+ppatt:
+	?a believe ?b ?c
+		?a: We
+		?b: these findings
+		?c: SOMETHING := typify the orbital gliomas in patients with this disease
+	?a typify ?b
+		?a: We
+		?b: the orbital gliomas in patients with this disease
+
+
+label:    sent_7
+sentence: Of putative hypothalamic-pituitary-adrenal abnormalities hypersecretion of cortisol does not typify subjects with self-perceived fatigue .
+
+ppatt:
+	Of ?a ?b does not typify ?c
+		?a: putative hypothalamic-pituitary-adrenal abnormalities
+		?b: hypersecretion of cortisol
+		?c: subjects with self-perceived fatigue
+
+
+label:    sent_8
+sentence: In fact , fat-suppression sequences , after T1-weighted SE , can typify fat tissue .
+
+ppatt:
+	In ?a , ?b can typify ?c
+		?a: fact
+		?b: fat-suppression sequences , after T1-weighted SE
+		?c: fat tissue
+
+
+label:    sent_9
+sentence: The proposed model was able to typify both bacteriocins as pH-dependent primary metabolites .
+
+ppatt:
+	?a was able to typify ?b as ?c
+		?a: The proposed model
+		?b: both bacteriocins
+		?c: pH-dependent primary metabolites
+
+
+label:    sent_10
+sentence: Truncated Hbs typify such novel classes and exhibit a distinct two-on-two alpha-helical fold .
+
+ppatt:
+	?a typify ?b
+		?a: Truncated Hbs
+		?b: such novel classes
+	?a exhibit ?b
+		?a: Truncated Hbs
+		?b: a distinct two-on-two alpha-helical fold
+
+
+label:    sent_11
+sentence: Focuses on the excessive defensiveness and the psychodynamic factors that typify many exhibitionists .
+
+ppatt:
+	Focuses on ?a
+		?a: the excessive defensiveness that typify many exhibitionists
+	Focuses on ?a
+		?a: the psychodynamic factors
+	?a typify ?b
+		?a: the excessive defensiveness
+		?b: many exhibitionists
+	?a typify ?b
+		?a: the psychodynamic factors
+		?b: many exhibitionists
+
+
+label:    sent_12
+sentence: Several examples which typify experience in applying the strategy are reported .
+
+ppatt:
+	?a typify ?b
+		?a: Several examples
+		?b: experience
+	?a applying ?b
+		?a: which
+		?b: the strategy
+	?a are reported
+		?a: Several examples which typify experience in applying the strategy
+
+

@@ -1,0 +1,307 @@
+label:    sent_1
+sentence: These guidelines reflect the views of the task force .
+
+ppatt:
+	?a reflect ?b
+		?a: These guidelines
+		?b: the views of the task force
+
+
+label:    sent_2
+sentence: Consequently , the spectrum could reflect the energy structure of atoms more explicitly .
+
+ppatt:
+	Consequently , ?a could reflect ?b more explicitly
+		?a: the spectrum
+		?b: the energy structure of atoms
+
+
+label:    sent_3
+sentence: Food-choice coping strategies affecting dietary quality reflect parents ' work and family conditions .
+
+ppatt:
+	?a affecting ?b
+		?a: Food-choice coping strategies
+		?b: dietary quality
+	?a reflect ' ?b
+		?a: Food-choice coping strategies affecting dietary quality
+		?b: parents work
+	?a reflect ' ?b
+		?a: Food-choice coping strategies affecting dietary quality
+		?b: family conditions
+
+
+label:    sent_4
+sentence: Other parts represent somatotopic processing and therefore reflect discriminative perceptive analysis .
+
+ppatt:
+	?a represent ?b
+		?a: Other parts
+		?b: somatotopic processing
+	?a therefore reflect ?b
+		?a: Other parts
+		?b: discriminative perceptive analysis
+
+
+label:    sent_5
+sentence: The P2 effect was suggested to reflect some generic learning effects .
+
+ppatt:
+	?a was suggested to reflect ?b
+		?a: The P2 effect
+		?b: some generic learning effects
+
+
+label:    sent_6
+sentence: Symbiovars in rhizobia reflect bacterial adaptation to legumes .
+
+ppatt:
+	?a reflect ?b
+		?a: Symbiovars in rhizobia
+		?b: bacterial adaptation to legumes
+
+
+label:    sent_7
+sentence: Findings reflect heightened efforts in the criminal justice system to combat CP crimes .
+
+ppatt:
+	?a reflect ?b
+		?a: Findings
+		?b: heightened efforts in the criminal justice system
+	?a combat ?b
+		?a: Findings
+		?b: CP crimes
+
+
+label:    sent_8
+sentence: Blood BDNF concentrations reflect brain-tissue BDNF levels across species .
+
+ppatt:
+	?a reflect ?b
+		?a: Blood BDNF concentrations
+		?b: brain-tissue BDNF levels across species
+
+
+label:    sent_9
+sentence: In the supine position , pressure obtained via the bladder could reflect authentic IAP .
+
+ppatt:
+	?a obtained via ?b
+		?a: pressure
+		?b: the bladder
+	In ?a , ?b could reflect ?c
+		?a: the supine position
+		?b: pressure obtained via the bladder
+		?c: authentic IAP
+
+
+label:    sent_10
+sentence: Both indices reflect postural stability decline and fall tendency # in parkinsonians .
+
+ppatt:
+	?a reflect ?b
+		?a: Both indices
+		?b: postural stability decline
+	?a fall ?b
+		?a: Both indices
+		?b: tendency # in parkinsonians
+
+
+label:    sent_11
+sentence: We conclude that inter-area correlations reflect feature integration and are disrupted by crowding . PNALT does not reflect the degree of fibrotic changes or predict SVR .
+
+ppatt:
+	?a conclude ?b ?c
+		?a: We
+		?b: SOMETHING := inter-area correlations reflect feature integration
+		?c: SOMETHING := by crowding . PNALT does not reflect the degree of fibrotic changes
+	?a reflect ?b
+		?a: inter-area correlations
+		?b: feature integration
+	?a are disrupted
+		?a: inter-area correlations
+	by ?a does not reflect ?b
+		?a: crowding . PNALT
+		?b: the degree of fibrotic changes
+	by ?a predict ?b
+		?a: crowding . PNALT
+		?b: SVR
+
+
+label:    sent_12
+sentence: Most of these studies are small and reflect initial experiences with the procedure .
+
+ppatt:
+	?a are small
+		?a: Most of these studies
+	?a reflect ?b
+		?a: Most of these studies
+		?b: initial experiences with the procedure
+
+
+label:    sent_13
+sentence: Their etiologies are multifactorial and reflect genetic influences and dysfunction of brain systems .
+
+ppatt:
+	?a are multifactorial
+		?a: Their etiologies
+	?a reflect ?b
+		?a: Their etiologies
+		?b: genetic influences of brain systems
+	?a reflect ?b
+		?a: Their etiologies
+		?b: dysfunction
+
+
+label:    sent_14
+sentence: These effects are robust and do not reflect a non-representative local effect .
+
+ppatt:
+	?a are robust
+		?a: These effects
+	?a do not reflect ?b
+		?a: These effects
+		?b: a non-representative local effect
+
+
+label:    sent_15
+sentence: These performance attributes seem to reflect a decrease in attention or motivation during ovulation .
+
+ppatt:
+	?a seem to reflect ?b
+		?a: These performance attributes
+		?b: a decrease in attention or motivation during ovulation
+
+
+label:    sent_16
+sentence: Infant iron status continued to reflect prenatal conditions through 6 mo of age .
+
+ppatt:
+	?a continued to reflect ?b through ?c
+		?a: Infant iron status
+		?b: prenatal conditions
+		?c: 6 mo of age
+
+
+label:    sent_17
+sentence: Changes in RBC rigidity appeared to reflect weight loss and decrease in LDL cholesterol .
+
+ppatt:
+	?a appeared to reflect ?b
+		?a: Changes in RBC rigidity
+		?b: weight loss
+	?a appeared to reflect ?b
+		?a: Changes in RBC rigidity
+		?b: decrease in LDL cholesterol
+
+
+label:    sent_18
+sentence: This may reflect changing opinions/interpretations of HAs / IRBs / ECs .
+
+ppatt:
+	?a may reflect ?b
+		?a: This
+		?b: changing opinions/interpretations of HAs / IRBs / ECs
+
+
+label:    sent_19
+sentence: Lung and ultrasound : time to " reflect " . These findings may reflect that PTZ-induced epilepsy decreases AG of plasma .
+
+ppatt:
+	?a ?b reflect ?c
+		?a: Lung
+		?b: time to "
+		?c: "
+	?a ?b reflect ?c
+		?a: ultrasound
+		?b: time to "
+		?c: "
+	?a may reflect ?b
+		?a: These findings
+		?b: SOMETHING := PTZ-induced epilepsy decreases AG of plasma
+	?a decreases ?b
+		?a: PTZ-induced epilepsy
+		?b: AG of plasma
+
+
+label:    sent_20
+sentence: These suggestions reflect the absence of global knowledge , and in consequence mask reality .
+
+ppatt:
+	?a reflect ?b
+		?a: These suggestions
+		?b: the absence of global knowledge
+	?a reflect ?b
+		?a: These suggestions
+		?b: in consequence mask reality
+
+
+label:    sent_21
+sentence: These patterns reflect selection decisions by experts and are used for screening the records .
+
+ppatt:
+	?a reflect ?b by ?c
+		?a: These patterns
+		?b: selection decisions
+		?c: experts
+	?a are used
+		?a: These patterns
+	?a screening ?b
+		?a: These patterns
+		?b: the records
+
+
+label:    sent_22
+sentence: These data reflect a depressed CO2 response both in D and DANp . Web-enabled video-feedback : a method to reflect on the communication skills of experienced physicians . At least , 40.6 % were led to reflect on their own mortality .
+
+ppatt:
+	?a reflect ?b
+		?a: These data
+		?b: a depressed CO2 response both in D and DANp . Web-enabled video-feedback
+	At least , ?a were led to reflect on ?b
+		?a: 40.6 %
+		?b: their own mortality
+
+
+label:    sent_23
+sentence: The applicants ' ability to reflect on their competences was important .
+
+ppatt:
+	?a reflect on ?b
+		?a: The applicants ' ability
+		?b: their competences
+	?a was important
+		?a: The applicants ' ability to reflect on their competences
+
+
+label:    sent_24
+sentence: [Good to reflect over physician 's life ] . In a second step , we reflect on circumstances requiring further ethical consideration .
+
+ppatt:
+	?a reflect over ?b . In ?c
+		?a: [Good
+		?b: physician 's life
+		?c: a second step
+	?a ?b reflect on ?c
+		?a: [Good to reflect over physician 's life . In a second step
+		?b: we
+		?c: circumstances requiring further ethical consideration
+	?a requiring ?b
+		?a: circumstances
+		?b: further ethical consideration
+
+
+label:    sent_25
+sentence: We reflect on potential solutions for addressing the matters found .
+
+ppatt:
+	?a reflect on ?b
+		?a: We
+		?b: potential solutions for addressing the matters found
+	?a addressing ?b
+		?a: potential solutions
+		?b: the matters found
+	?a found
+		?a: the matters
+
+

@@ -1,0 +1,295 @@
+label:    sent_1
+sentence: Familial connections continue to be important to Latino youth . Still , both researchers ( and payors ) continue to ask some fundamental questions .
+
+ppatt:
+	?a continue to be important to ?b
+		?a: Familial connections
+		?b: Latino youth
+	Still , ?a continue to ask ?b
+		?a: both researchers
+		?b: some fundamental questions
+	Still , ?a continue to ask ?b
+		?a: payors
+		?b: some fundamental questions
+
+
+label:    sent_2
+sentence: Current business leaders continue to adopt e-learning technology despite concerns regarding its value .
+
+ppatt:
+	?a continue to adopt ?b despite ?c
+		?a: Current business leaders
+		?b: e-learning technology
+		?c: concerns regarding its value
+
+
+label:    sent_3
+sentence: However , EMS providers continue to insert IV lines on scene .
+
+ppatt:
+	However , ?a continue to insert ?b on ?c
+		?a: EMS providers
+		?b: IV lines
+		?c: scene
+
+
+label:    sent_4
+sentence: Hospitals continue to struggle to implement successful programmes that meet these objectives .
+
+ppatt:
+	?a continue to struggle to implement ?b
+		?a: Hospitals
+		?b: successful programmes that meet these objectives
+	?a meet ?b
+		?a: successful programmes
+		?b: these objectives
+
+
+label:    sent_5
+sentence: Ongoing surveillance of circulating genotypes should continue in anticipation of universal rotavirus vaccine introduction .
+
+ppatt:
+	?a should continue in ?b
+		?a: Ongoing surveillance of circulating genotypes
+		?b: anticipation of universal rotavirus vaccine introduction
+
+
+label:    sent_6
+sentence: Allergic rhinitis affects millions of Americans and the numbers continue to increase .
+
+ppatt:
+	?a affects ?b
+		?a: Allergic rhinitis
+		?b: millions of Americans
+	?a continue to increase
+		?a: the numbers
+
+
+label:    sent_7
+sentence: Challenges continue to exist and continued improvement in design is necessary .
+
+ppatt:
+	?a continue to exist
+		?a: Challenges
+	?a is necessary
+		?a: continued improvement in design
+
+
+label:    sent_8
+sentence: Guiding catheters and balloons will continue to evolve and hopefully become easier to use .
+
+ppatt:
+	Guiding ?a
+		?a: catheters
+	Guiding ?a
+		?a: balloons
+	?a will continue to evolve
+		?a: SOMETHING := Guiding catheters and balloons
+	?a hopefully become easier to use
+		?a: Guiding catheters and balloons
+
+
+label:    sent_9
+sentence: The patient decided to continue additional chemotherapy with GEM and hyperthermia .
+
+ppatt:
+	?a decided to continue ?b
+		?a: The patient
+		?b: additional chemotherapy with GEM and hyperthermia
+
+
+label:    sent_10
+sentence: Of the soldiers with ADHS , 55.6 % were able to continue their duty .
+
+ppatt:
+	Of ?a , ?b were able to continue ?c
+		?a: the soldiers with ADHS
+		?b: 55.6 %
+		?c: their duty
+
+
+label:    sent_11
+sentence: The parents elected to continue the pregnancy .
+
+ppatt:
+	?a elected to continue ?b
+		?a: The parents
+		?b: the pregnancy
+
+
+label:    sent_12
+sentence: Decisions to continue or cease performing surgery were made by individual surgeons .
+
+ppatt:
+	?a continue
+		?a: Decisions
+	?a cease
+		?a: Decisions
+	?a performing ?b
+		?a: Decisions
+		?b: surgery
+	?a were made by ?b
+		?a: Decisions to continue or cease performing surgery
+		?b: individual surgeons
+
+
+label:    sent_13
+sentence: Outstanding issues are few and will continue to be discussed .
+
+ppatt:
+	?a are few
+		?a: Outstanding issues
+	?a will continue to be discussed
+		?a: Outstanding issues
+
+
+label:    sent_14
+sentence: Birds have been and continue to be enlightening , comparative models in auditory research . Follow-up is expected to continue through 2012 .
+
+ppatt:
+	?a have been
+		?a: Birds
+	?a continue
+		?a: Birds
+	?a ?b is expected to continue through ?c
+		?a: to be enlightening , models in auditory research
+		?b: Follow-up
+		?c: 2012
+
+
+label:    sent_15
+sentence: Shortages of nurses are expected to continue throughout the coming decade .
+
+ppatt:
+	?a are expected to continue throughout ?b
+		?a: Shortages of nurses
+		?b: the coming decade
+
+
+label:    sent_16
+sentence: Exanthema after a stress Tc-99m sestamibi study : continue with a rest sestamibi study ? She was able to continue treatment after switching from pegylated interferon to conventional interferon .
+
+ppatt:
+	continue ?a after ?b
+		?a: treatment
+		?b: switching from pegylated interferon to conventional interferon
+
+
+label:    sent_17
+sentence: However , it was possible to successfully continue therapy with only temporary interruption .
+
+ppatt:
+	However , ?a was possible to successfully continue ?b with ?c
+		?a: it
+		?b: therapy
+		?c: only temporary interruption
+
+
+label:    sent_18
+sentence: The momentum is likely to continue as additional states file new legislation .
+
+ppatt:
+	?a is likely to continue as ?b
+		?a: The momentum
+		?b: additional states
+	?a file ?b
+		?a: The momentum
+		?b: new legislation
+
+
+label:    sent_19
+sentence: Despite such extraordinary efforts , accidental melts continue to occur and plague the industry .
+
+ppatt:
+	Despite ?a , ?b continue to occur ?c
+		?a: such extraordinary efforts
+		?b: accidental melts
+		?c: the industry
+
+
+label:    sent_20
+sentence: Treatment will continue for 18 months or until recurrence or unacceptable adverse events occur .
+
+ppatt:
+	?a will continue for ?b
+		?a: Treatment
+		?b: 18 months
+	?a will continue for ?b
+		?a: Treatment
+		?b: recurrence
+	?a occur
+		?a: Treatment
+
+
+label:    sent_21
+sentence: Schizophrenia symptoms typically continue in later years and include ongoing psychotic symptoms .
+
+ppatt:
+	?a typically continue in ?b
+		?a: Schizophrenia symptoms
+		?b: later years
+	?a include ?b
+		?a: Schizophrenia symptoms
+		?b: ongoing psychotic symptoms
+
+
+label:    sent_22
+sentence: Many patients use ( long-acting ) bronchodilators , whilst they continue smoking alongside .
+
+ppatt:
+	?a use ?b
+		?a: Many patients
+		?b: bronchodilators
+	?a continue ?b alongside
+		?a: they
+		?b: smoking
+
+
+label:    sent_23
+sentence: Seventy-seven percent would continue screening > 75 .
+
+ppatt:
+	?a would continue ?b ?c
+		?a: Seventy-seven percent
+		?b: screening >
+		?c: 75
+
+
+label:    sent_24
+sentence: Private clinics continue explosive growth .
+
+ppatt:
+	?a continue ?b
+		?a: Private clinics
+		?b: explosive growth
+
+
+label:    sent_25
+sentence: Non-progressing patients could continue treatment within a compassionate use setting .
+
+ppatt:
+	?a could continue ?b within ?c
+		?a: Non-progressing patients
+		?b: treatment
+		?c: a compassionate use setting
+
+
+label:    sent_26
+sentence: An interactive voice response system to continue a hospital-based smoking cessation intervention after discharge .
+
+ppatt:
+	?a continue ?b after ?c
+		?a: An interactive voice response system
+		?b: a hospital-based smoking cessation intervention
+		?c: discharge
+
+
+label:    sent_27
+sentence: Due to demographic changes this tendency will probably continue .
+
+ppatt:
+	Due to ?a ?b will probably continue
+		?a: demographic changes
+		?b: this tendency
+
+

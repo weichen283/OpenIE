@@ -1,0 +1,292 @@
+label:    sent_1
+sentence: Further work is needed to illuminate other potential improvements in ethics and professionalism education . to illuminate the experiences of women who have given birth at home .
+
+ppatt:
+	?a is needed to illuminate ?b
+		?a: Further work
+		?b: other potential improvements in ethics and professionalism education
+	?a illuminate ?b
+		?a: Further work
+		?b: the experiences of women who have given birth at home
+	?a have given ?b at ?c
+		?a: women
+		?b: birth
+		?c: home
+
+
+label:    sent_2
+sentence: The wavelength calibration using a Penning source to illuminate the aperture fully is presented .
+
+ppatt:
+	?a using ?b
+		?a: The wavelength calibration
+		?b: a Penning source to illuminate the aperture
+	?a illuminate ?b
+		?a: a Penning source
+		?b: the aperture
+	?a fully is presented
+		?a: The wavelength calibration using a Penning source to illuminate the aperture
+
+
+label:    sent_3
+sentence: Results illuminate changes in masculine identity among Brazilian men treated for cancer .
+
+ppatt:
+	?a illuminate ?b
+		?a: Results
+		?b: changes in masculine identity among Brazilian men treated for cancer
+	?a treated for ?b
+		?a: Brazilian men
+		?b: cancer
+
+
+label:    sent_4
+sentence: We examine how normal development may illuminate the hypnotic state .
+
+ppatt:
+	?a examine ?b
+		?a: We
+		?b: SOMETHING := how normal development may illuminate the hypnotic state
+	how ?a may illuminate ?b
+		?a: normal development
+		?b: the hypnotic state
+
+
+label:    sent_5
+sentence: Structural considerations illuminate the mechanism by which the KaiABC oscillator ratchets unidirectionally .
+
+ppatt:
+	?a illuminate ?b
+		?a: Structural considerations
+		?b: the mechanism by which the KaiABC oscillator ratchets unidirectionally
+	?a by ?b ratchets unidirectionally
+		?a: the mechanism
+		?b: the KaiABC oscillator
+
+
+label:    sent_6
+sentence: Here we summarize biomarkers that may illuminate immunopathogenesis and assist in diagnosis .
+
+ppatt:
+	Here ?a summarize ?b
+		?a: we
+		?b: biomarkers that may illuminate immunopathogenesis and assist in diagnosis
+	?a may illuminate ?b
+		?a: biomarkers
+		?b: immunopathogenesis
+	?a assist in ?b
+		?a: that
+		?b: diagnosis
+
+
+label:    sent_7
+sentence: It tends to distort rather than illuminate the relevant considerations .
+
+ppatt:
+	?a tends to distort
+		?a: It
+	?a illuminate ?b
+		?a: It
+		?b: the relevant considerations
+
+
+label:    sent_8
+sentence: This approach can sometimes obscure rather than illuminate research data . We also illuminate some related issues and resolve apparent discrepancies .
+
+ppatt:
+	?a can sometimes obscure
+		?a: This approach
+	?a illuminate ?b
+		?a: This approach
+		?b: research data
+	?a also illuminate ?b
+		?a: We
+		?b: some related issues
+	?a resolve ?b
+		?a: We
+		?b: apparent discrepancies
+
+
+label:    sent_9
+sentence: Metaphors illuminate complex issues and can paint a thousand words . T lymphocyte clones illuminate pathogenesis and affect therapy of experimental arthritis .
+
+ppatt:
+	?a illuminate ?b
+		?a: Metaphors
+		?b: complex issues
+	?a can paint ?b
+		?a: Metaphors
+		?b: a thousand words
+	?a illuminate ?b
+		?a: T lymphocyte clones
+		?b: pathogenesis
+	?a affect ?b
+		?a: T lymphocyte clones
+		?b: therapy of experimental arthritis
+
+
+label:    sent_10
+sentence: The aim was to illuminate their quality of life after 2-3 years in Sweden .
+
+ppatt:
+	?a was to illuminate ?b
+		?a: The aim
+		?b: their quality of life after 2-3 years in Sweden
+
+
+label:    sent_11
+sentence: To illuminate the meaning of living with alcohol dependency as a woman .
+
+ppatt:
+	illuminate ?a
+		?a: the meaning of living with alcohol dependency as a woman
+	?a living with ?b as ?c
+		?a: the meaning
+		?b: alcohol dependency
+		?c: a woman
+
+
+label:    sent_12
+sentence: Devices were constructed and used to illuminate oral mucosa and uterine endometrium for PDT .
+
+ppatt:
+	?a were constructed
+		?a: Devices
+	?a used to illuminate ?b
+		?a: Devices
+		?b: oral mucosa for PDT
+	?a used to illuminate ?b
+		?a: Devices
+		?b: uterine endometrium
+
+
+label:    sent_13
+sentence: Mitochondrial genome sequences illuminate maternal lineages of conservation concern in a rare carnivore .
+
+ppatt:
+	?a illuminate ?b
+		?a: Mitochondrial genome sequences
+		?b: maternal lineages of conservation concern in a rare carnivore
+
+
+label:    sent_14
+sentence: The results illuminate the mechanism of replication termination specifically at tau . We illuminate gerontological issues by discussing three myths .
+
+ppatt:
+	?a illuminate ?b
+		?a: The results
+		?b: the mechanism of replication termination specifically at tau
+	?a illuminate ?b
+		?a: We
+		?b: gerontological issues
+	?a discussing ?b
+		?a: We
+		?b: three myths
+
+
+label:    sent_15
+sentence: Feminist critiques illuminate the larger structures that oppress both women and men .
+
+ppatt:
+	?a illuminate ?b
+		?a: Feminist critiques
+		?b: the larger structures that oppress both women and men
+	?a oppress ?b
+		?a: the larger structures
+		?b: women
+	?a oppress ?b
+		?a: the larger structures
+		?b: men
+
+
+label:    sent_16
+sentence: However , they also illuminate where undergraduate nurse education could be further enhanced .
+
+ppatt:
+	However , ?a also illuminate ?b
+		?a: they
+		?b: SOMETHING := where undergraduate nurse education could be further enhanced
+	where ?a could be further enhanced
+		?a: undergraduate nurse education
+
+
+label:    sent_17
+sentence: Their stories illuminate personal , social and cultural concepts which characterize these women .
+
+ppatt:
+	?a illuminate ?b
+		?a: Their stories
+		?b: personal , which characterize these women
+	?a illuminate ?b
+		?a: Their stories
+		?b: social
+	?a illuminate ?b
+		?a: Their stories
+		?b: cultural
+	?a characterize ?b
+		?a: personal
+		?b: these women
+	?a characterize ?b
+		?a: social
+		?b: these women
+	?a characterize ?b
+		?a: cultural
+		?b: these women
+
+
+label:    sent_18
+sentence: Are other data available to illuminate or be used with the evaluation ? . She uses a variety of techniques to illuminate and illustrate nursing 's complexity . Its aim is to illuminate and to understand the perspective of home care nurses . OCT probe and excitation beam coaxially illuminate and are focused on tissues .
+
+ppatt:
+	be used with ?a
+		?a: the evaluation
+	?a ?b uses ?c
+		?a: other data available to illuminate or be used with the evaluation
+		?b: She
+		?c: a variety of techniques to illuminate and illustrate nursing 's complexity
+	?a illuminate 's ?b
+		?a: a variety of techniques
+		?b: nursing complexity
+	illustrate 's ?a
+		?a: nursing complexity
+	?a is to illuminate
+		?a: Its aim
+	?a is to to understand ?b
+		?a: Its aim
+		?b: the perspective of home care nurses
+	is to . ?a coaxially illuminate
+		?a: OCT probe
+	is to . ?a coaxially illuminate
+		?a: excitation beam
+	?a are focused on ?b
+		?a: OCT probe
+		?b: tissues
+	?a are focused on ?b
+		?a: excitation beam
+		?b: tissues
+
+
+label:    sent_19
+sentence: Counselor recognition of these processes can illuminate and inform counseling practice .
+
+ppatt:
+	?a can illuminate ?b
+		?a: Counselor recognition of these processes
+		?b: counseling practice
+	?a inform
+		?a: Counselor recognition of these processes
+
+
+label:    sent_20
+sentence: It can illuminate and identify roots in the sinus if such treatment becomes necessary .
+
+ppatt:
+	?a can illuminate ?b
+		?a: It
+		?b: roots in the sinus
+	?a identify
+		?a: It
+	?a becomes necessary
+		?a: such treatment
+
+

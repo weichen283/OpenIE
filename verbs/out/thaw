@@ -1,0 +1,70 @@
+label:    sent_1
+sentence: To determine the clinical potential of donor-oocyte cryopreservation and thaw techniques for recipient patients .
+
+ppatt:
+	determine ?a
+		?a: the clinical potential of donor-oocyte cryopreservation and thaw techniques for recipient patients
+
+
+label:    sent_2
+sentence: We froze a pooled serum and then allowed it to thaw undisturbed .
+
+ppatt:
+	?a froze ?b
+		?a: We
+		?b: a pooled serum
+	?a then allowed ?b to thaw undisturbed
+		?a: We
+		?b: it
+
+
+label:    sent_3
+sentence: Frostbitten limbs were allowed to thaw in air at room temperature .
+
+ppatt:
+	?a were allowed to thaw in ?b at ?c
+		?a: Frostbitten limbs
+		?b: air
+		?c: room temperature
+
+
+label:    sent_4
+sentence: Samples were allowed to thaw for 1h at room temperature .
+
+ppatt:
+	?a were allowed to thaw for ?b at ?c
+		?a: Samples
+		?b: 1h
+		?c: room temperature
+
+
+label:    sent_5
+sentence: Tumor tissue adjacent to normal one was allowed to thaw to 0 degrees C .
+
+ppatt:
+	?a was allowed to thaw to ?b
+		?a: Tumor tissue adjacent to normal one
+		?b: 0 degrees C
+
+
+label:    sent_6
+sentence: Life changes as polar regions thaw . Arctic thaw . Senator : planned DRG freeze could thaw .
+
+ppatt:
+	?a thaw ?b ?c
+		?a: Life changes as polar regions
+		?b: Arctic thaw
+		?c: Senator
+	?a could thaw
+		?a: planned DRG freeze
+
+
+label:    sent_7
+sentence: Summer beetles thaw at -0.7 degrees C .
+
+ppatt:
+	?a thaw at ?b
+		?a: Summer beetles
+		?b: -0.7 degrees C
+
+

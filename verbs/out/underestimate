@@ -1,0 +1,289 @@
+label:    sent_1
+sentence: Hospital staff underestimate carers ' emotional distress and need for information .
+
+ppatt:
+	?a underestimate ?b
+		?a: Hospital staff
+		?b: carers ' emotional distress
+	?a need for ?b
+		?a: Hospital staff
+		?b: information
+
+
+label:    sent_2
+sentence: How and why DNA barcodes underestimate the diversity of microbial eukaryotes .
+
+ppatt:
+	How why ?a underestimate ?b
+		?a: DNA barcodes
+		?b: the diversity of microbial eukaryotes
+
+
+label:    sent_3
+sentence: Childhood constipation in Taiwan : do we underestimate its existence ? Moreover , farmers tended to underestimate these costs .
+
+ppatt:
+	Moreover , ?a tended to underestimate ?b
+		?a: farmers
+		?b: these costs
+
+
+label:    sent_4
+sentence: The TEE tends to underestimate the dimensions of aortic annulus .
+
+ppatt:
+	?a tends to underestimate ?b
+		?a: The TEE
+		?b: the dimensions of aortic annulus
+
+
+label:    sent_5
+sentence: However , some did overestimate the surgical mortality and underestimate the associated survival benefit . XRA underestimate the diameter at the three locations ( <15-22 % ) . Published norms underestimate the health-related quality of life among persons with type 2 diabetes .
+
+ppatt:
+	However , ?a did overestimate ?b
+		?a: some
+		?b: the surgical mortality
+	?a underestimate ?b
+		?a: some
+		?b: the associated survival benefit
+	?a underestimate ?b at ?c
+		?a: XRA
+		?b: the diameter
+		?c: the three locations
+	?a is/are <15-22 %
+		?a: the three locations
+	?a underestimate ?b
+		?a: Published norms
+		?b: the health-related quality of life among persons with type 2 diabetes
+
+
+label:    sent_6
+sentence: In addition , screening at-risk patients by mechanism will underestimate the prevalence of IPV .
+
+ppatt:
+	screening ?a
+		?a: at-risk patients by mechanism
+	In ?a , ?b will underestimate ?c
+		?a: addition
+		?b: SOMETHING := screening at-risk patients by mechanism
+		?c: the prevalence of IPV
+
+
+label:    sent_7
+sentence: The use of the DT might underestimate depression but overestimate anxiety . Traditional SCMs underestimate Pd / Pa and are inaccurate for regional SS estimation .
+
+ppatt:
+	?a might underestimate ?b
+		?a: The use of the DT
+		?b: depression
+	?a overestimate ?b
+		?a: The use of the DT
+		?b: anxiety
+	?a underestimate ?b
+		?a: Traditional SCMs
+		?b: Pd / Pa
+
+
+label:    sent_8
+sentence: Compliance with treatment is poor and patients underestimate their level of defaulting when questioned .
+
+ppatt:
+	?a is poor
+		?a: Compliance with treatment
+	?a underestimate ?b
+		?a: patients
+		?b: their level of defaulting
+	?a when questioned
+		?a: patients
+
+
+label:    sent_9
+sentence: Why people underestimate y when extrapolating in linear functions . WinSmash was found to underestimate delta-V by 23 % on average . TcPO2 tended to underestimate the arterial value with increasing PaO2 .
+
+ppatt:
+	Why ?a underestimate ?b
+		?a: people
+		?b: y
+	?a when extrapolating in ?b
+		?a: people
+		?b: linear functions
+	?a was found to underestimate ?b by ?c
+		?a: WinSmash
+		?b: delta-V
+		?c: 23 % on average
+	?a tended to underestimate ?b with ?c
+		?a: TcPO2
+		?b: the arterial value
+		?c: increasing PaO2
+
+
+label:    sent_10
+sentence: However , official records are conservative and so will underestimate recidivism rates .
+
+ppatt:
+	However , ?a are conservative
+		?a: official records
+	?a so will underestimate ?b
+		?a: official records
+		?b: recidivism rates
+
+
+label:    sent_11
+sentence: Iron absorption prediction equations lack agreement and underestimate iron absorption .
+
+ppatt:
+	?a lack ?b
+		?a: Iron absorption prediction equations
+		?b: agreement
+	?a underestimate ?b
+		?a: Iron absorption prediction equations
+		?b: iron absorption
+
+
+label:    sent_12
+sentence: If asked directly , anosognosic patients deny or seriously underestimate their motor difficulties .
+
+ppatt:
+	asked directly ?a
+		?a: anosognosic patients
+	?a deny
+		?a: anosognosic patients
+	?a seriously underestimate ?b
+		?a: anosognosic patients
+		?b: their motor difficulties
+
+
+label:    sent_13
+sentence: Does the Hawksley random zero sphygmomanometer underestimate blood pressure , and by how much ? In depth-to-width comparisons they underestimate depth , and in width-to-depth comparisons they overestimate width .
+
+ppatt:
+	Does ?a
+		?a: the Hawksley random zero sphygmomanometer
+	?a underestimate ?b
+		?a: the Hawksley random zero sphygmomanometer
+		?b: blood pressure
+	how much ? In ?a ?b underestimate ?c
+		?a: depth-to-width comparisons
+		?b: they
+		?c: depth
+	in ?a ?b overestimate ?c
+		?a: width-to-depth comparisons
+		?b: they
+		?c: width
+
+
+label:    sent_14
+sentence: However , PTT shows a tendency to underestimate BP over time and during ASV .
+
+ppatt:
+	However , ?a shows ?b
+		?a: PTT
+		?b: a tendency to underestimate BP over time and during ASV
+	?a underestimate ?b over ?c
+		?a: a tendency
+		?b: BP
+		?c: time
+	?a underestimate ?b over ?c
+		?a: a tendency
+		?b: BP
+		?c: ASV
+
+
+label:    sent_15
+sentence: Current equations have limited precision and systematically underestimate measured GFR at higher values .
+
+ppatt:
+	?a have ?b
+		?a: Current equations
+		?b: limited precision
+	?a systematically underestimate ?b at ?c
+		?a: Current equations
+		?b: measured GFR
+		?c: higher values
+
+
+label:    sent_16
+sentence: Companies are unaware or underestimate alcohol misuse among their employees .
+
+ppatt:
+	?a are unaware among ?b
+		?a: Companies
+		?b: their employees
+	?a underestimate
+		?a: Companies
+
+
+label:    sent_17
+sentence: Diagnostic laparoscopy may underestimate as well as overestimate the presence of endometriosis .
+
+ppatt:
+	?a may underestimate
+		?a: Diagnostic laparoscopy
+	?a overestimate ?b
+		?a: Diagnostic laparoscopy
+		?b: the presence of endometriosis
+
+
+label:    sent_18
+sentence: Radiographic results can underestimate and overestimate the size of a carious lesion .
+
+ppatt:
+	?a can underestimate ?b
+		?a: Radiographic results
+		?b: the size of a carious lesion
+	?a overestimate
+		?a: Radiographic results
+
+
+label:    sent_19
+sentence: Such QT measurement techniques commonly underestimate or overestimate the " true " QT interval .
+
+ppatt:
+	?a commonly underestimate ?b
+		?a: Such QT measurement techniques
+		?b: the " true " QT interval
+	?a overestimate
+		?a: Such QT measurement techniques
+
+
+label:    sent_20
+sentence: There was a tendency to underestimate and overestimate LE and H , respectively . Biomechanical optimization models that apply efficiency-based objective functions often underestimate or negate antagonist co-activation .
+
+ppatt:
+	There was ?a
+		?a: a tendency to underestimate and overestimate LE and H respectively
+	?a underestimate ?b respectively
+		?a: a tendency
+		?b: LE
+	?a underestimate ?b respectively
+		?a: a tendency
+		?b: H
+	?a overestimate
+		?a: a tendency
+	?a apply ?b
+		?a: Biomechanical optimization models
+		?b: efficiency-based objective functions
+	?a often underestimate
+		?a: Biomechanical optimization models that apply efficiency-based objective functions
+	?a negate ?b
+		?a: Biomechanical optimization models that apply efficiency-based objective functions
+		?b: antagonist co-activation
+
+
+label:    sent_21
+sentence: We demonstrate it is self-consistent and neither underestimate nor excessively overestimate the experimental errors .
+
+ppatt:
+	?a demonstrate ?b
+		?a: We
+		?b: SOMETHING := it is self-consistent
+	?a is self-consistent
+		?a: it
+	?a underestimate
+		?a: neither
+	?a excessively overestimate ?b
+		?a: neither
+		?b: the experimental errors
+
+

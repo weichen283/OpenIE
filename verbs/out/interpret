@@ -1,0 +1,261 @@
+label:    sent_1
+sentence: Consequently , RGs were able to correctly interpret 79.3 % of COD cases .
+
+ppatt:
+	Consequently , ?a were able to correctly interpret ?b
+		?a: RGs
+		?b: 79.3 % of COD cases
+
+
+label:    sent_2
+sentence: Mathematical models were used to interpret experimental findings . How to interpret nutrition drink test .
+
+ppatt:
+	?a were used to interpret ?b
+		?a: Mathematical models
+		?b: experimental findings
+	?a How to interpret ?b
+		?a: Mathematical models
+		?b: nutrition drink test
+
+
+label:    sent_3
+sentence: We interpret this as evidence of past or recent serotype switching .
+
+ppatt:
+	?a interpret ?b as ?c
+		?a: We
+		?b: this
+		?c: evidence of past or recent serotype switching
+
+
+label:    sent_4
+sentence: This study found no consensus in how experts on child abuse interpret reasonable suspicion .
+
+ppatt:
+	?a found ?b
+		?a: This study
+		?b: no consensus
+	how ?a interpret ?b
+		?a: experts on child abuse
+		?b: reasonable suspicion
+
+
+label:    sent_5
+sentence: We interpret this difference as evidence for greater escape motivation in the wild-caught birds .
+
+ppatt:
+	?a interpret ?b
+		?a: We
+		?b: this difference as evidence for greater escape motivation in the wild-caught birds
+
+
+label:    sent_6
+sentence: There is often uncertainty in how to interpret the available scientific data . Bioindicators have been consistently used to interpret effects of contaminants in the environment .
+
+ppatt:
+	There is ?a
+		?a: often uncertainty
+	?a how to interpret ?b
+		?a: often uncertainty
+		?b: the available scientific data
+	?a have been consistently used to interpret ?b
+		?a: Bioindicators
+		?b: effects of contaminants in the environment
+
+
+label:    sent_7
+sentence: Hence , it appears justified to interpret them as ischaemic intestinal stricture .
+
+ppatt:
+	Hence , ?a appears justified to interpret ?b as ?c
+		?a: it
+		?b: them
+		?c: ischaemic intestinal stricture
+
+
+label:    sent_8
+sentence: The generic/nongeneric distinction influences how children interpret new information about social others .
+
+ppatt:
+	?a influences ?b
+		?a: The generic/nongeneric distinction
+		?b: SOMETHING := how children interpret new information about social others
+	how ?a interpret ?b
+		?a: children
+		?b: new information about social others
+
+
+label:    sent_9
+sentence: How can institutional review boards best interpret preclinical data ? To examine how experts on child abuse interpret reasonable suspicion using 2 probability frameworks .
+
+ppatt:
+	How can ?a best interpret ?b
+		?a: institutional review boards
+		?b: preclinical data
+	?a examine ?b
+		?a: institutional review boards
+		?b: SOMETHING := how experts on child abuse interpret reasonable suspicion using 2 probability frameworks
+	how ?a interpret ?b using ?c
+		?a: experts on child abuse
+		?b: reasonable suspicion
+		?c: 2 probability frameworks
+
+
+label:    sent_10
+sentence: Describe and interpret the process of help-seeking among human service professionals with burnout .
+
+ppatt:
+	Describe ?a
+		?a: the process of help-seeking among human service professionals with burnout
+	interpret ?a
+		?a: the process of help-seeking among human service professionals with burnout
+
+
+label:    sent_11
+sentence: The pediatrician may also coordinate and interpret the results of specific surveillance studies .
+
+ppatt:
+	?a may also coordinate
+		?a: The pediatrician
+	?a interpret ?b
+		?a: The pediatrician
+		?b: the results of specific surveillance studies
+
+
+label:    sent_12
+sentence: The hermeneutic circle of understanding offers a way to interpret stories and discover meaning .
+
+ppatt:
+	?a offers ?b
+		?a: The hermeneutic circle of understanding
+		?b: a way to interpret stories and discover meaning
+	?a interpret ?b
+		?a: a way
+		?b: stories
+	discover ?a
+		?a: meaning
+
+
+label:    sent_13
+sentence: Tiling array data is hard to interpret due to noise . FNAC of SDC is difficult to interpret because of overlapping cytomorphologic features .
+
+ppatt:
+	?a is hard to interpret due to ?b
+		?a: Tiling array data
+		?b: noise
+	?a is difficult to interpret because of ?b
+		?a: FNAC of SDC
+		?b: overlapping cytomorphologic features
+
+
+label:    sent_14
+sentence: Their results are difficult to interpret for those reasons . Subjects were able to interpret and respond to the biofeedback successfully .
+
+ppatt:
+	?a are difficult to interpret for ?b
+		?a: Their results
+		?b: those reasons
+	?a were able to interpret to ?b successfully
+		?a: Subjects
+		?b: the biofeedback
+	?a were able to respond
+		?a: Subjects
+
+
+label:    sent_15
+sentence: This method is simple to carryout but long to interpret .
+
+ppatt:
+
+
+
+label:    sent_16
+sentence: Results were often difficult to interpret and reproduce .
+
+ppatt:
+	?a were often difficult to interpret
+		?a: Results
+	?a were often difficult to reproduce
+		?a: Results
+
+
+label:    sent_17
+sentence: [An attempt to interpret referred pain from one tooth to another ] . We interpret this peak to represent dimers of the lower molecular weight species .
+
+ppatt:
+	?a interpret ?b
+		?a: [An attempt
+		?b: referred pain from one tooth to another ]
+	?a ?b interpret ?c
+		?a: [An attempt to interpret referred pain from one tooth to another ]
+		?b: We
+		?c: this peak to represent dimers of the lower molecular weight species
+	?a represent ?b
+		?a: this peak
+		?b: dimers of the lower molecular weight species
+
+
+label:    sent_18
+sentence: We interpret this peak to represent oligomers of the TeBG subunits .
+
+ppatt:
+	?a interpret ?b to represent ?c
+		?a: We
+		?b: this peak
+		?c: oligomers of the TeBG subunits
+
+
+label:    sent_19
+sentence: The solitary waves in the model bifurcate and we interpret such events as speciation .
+
+ppatt:
+	?a interpret ?b as ?c
+		?a: we
+		?b: such events
+		?c: speciation
+
+
+label:    sent_20
+sentence: How and when clinicians interpret defenses , however , has received little empirical examination .
+
+ppatt:
+	How when ?a interpret ?b
+		?a: clinicians
+		?b: defenses
+	however , has received ?a
+		?a: little empirical examination
+
+
+label:    sent_21
+sentence: The biologist and the modeler collaboratively interpret the results and devise improved concept maps .
+
+ppatt:
+	?a collaboratively interpret ?b
+		?a: The biologist
+		?b: the results
+	?a collaboratively interpret ?b
+		?a: the modeler
+		?b: the results
+	?a devise ?b
+		?a: The biologist
+		?b: improved concept maps
+	?a devise ?b
+		?a: the modeler
+		?b: improved concept maps
+
+
+label:    sent_22
+sentence: We interpret the significance of these results and pose questions that remain unanswered .
+
+ppatt:
+	?a interpret ?b
+		?a: We
+		?b: the significance of these results
+	?a pose ?b
+		?a: We
+		?b: questions that remain unanswered
+	?a remain unanswered
+		?a: questions
+
+

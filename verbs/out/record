@@ -1,0 +1,288 @@
+label:    sent_1
+sentence: An electromagnetic system was used to record kinematics of the trunk and hand . A mobile computer was used to record all tasks .
+
+ppatt:
+	?a was used to record ?b
+		?a: An electromagnetic system
+		?b: kinematics of trunk and hand
+	?a was used to record ?b
+		?a: A mobile computer
+		?b: all tasks
+
+
+label:    sent_2
+sentence: A tracheotomy was performed to record respiratory rate .
+
+ppatt:
+	?a was performed to record ?b
+		?a: A tracheotomy
+		?b: respiratory rate
+
+
+label:    sent_3
+sentence: A sphygmograph was developed to record radial pressure pulse for spectral analysis .
+
+ppatt:
+	?a was developed to record ?b for ?c
+		?a: A sphygmograph
+		?b: radial pressure pulse
+		?c: spectral analysis
+
+
+label:    sent_4
+sentence: We applied a fiber-optic microarray to record cellular communication from single cells .
+
+ppatt:
+	?a applied ?b
+		?a: We
+		?b: a fiber-optic microarray
+	?a record ?b
+		?a: We
+		?b: cellular communication from single cells
+
+
+label:    sent_5
+sentence: The equipment was designed to detect and record simultaneously 12 animals in separate cages .
+
+ppatt:
+	?a was designed to detect ?b
+		?a: The equipment
+		?b: simultaneously 12 animals in separate cages
+	?a was designed to record
+		?a: The equipment
+
+
+label:    sent_6
+sentence: We did not record any intraoperative or major postoperative complication requiring a reoperation .
+
+ppatt:
+	?a did not record ?b
+		?a: We
+		?b: any intraoperative or major postoperative complication requiring a reoperation
+	?a requiring ?b
+		?a: any intraoperative or major postoperative complication
+		?b: a reoperation
+
+
+label:    sent_7
+sentence: Structured retrospective patient record review of hospital admissions . Legal , ethical , and financial dilemmas in electronic health record adoption and use . Patients completed a questionnaire to record function and implant revision .
+
+ppatt:
+	?a is/are Legal
+		?a: hospital admissions
+	use ?a
+		?a: Patients
+	?a completed ?b
+		?a: Structured retrospective patient record review of hospital admissions . in electronic health record adoption
+		?b: a questionnaire to record function and implant revision
+	?a completed ?b
+		?a: use . Patients
+		?b: a questionnaire to record function and implant revision
+	?a record ?b
+		?a: a questionnaire
+		?b: function
+	?a record ?b
+		?a: a questionnaire
+		?b: implant revision
+
+
+label:    sent_8
+sentence: Computerized anesthesia records were used to record hemodynamics and to quantify medication administered intraoperatively .
+
+ppatt:
+	?a were used to record ?b
+		?a: Computerized anesthesia records
+		?b: hemodynamics
+	?a were used to to quantify ?b
+		?a: Computerized anesthesia records
+		?b: medication administered intraoperatively
+	?a administered intraoperatively
+		?a: medication
+
+
+label:    sent_9
+sentence: However , controversies exist concerning the correct way to record MAPs or calculate ARIs .
+
+ppatt:
+	However , ?a exist concerning ?b
+		?a: controversies
+		?b: the correct way to record MAPs or calculate ARIs
+	?a record ?b
+		?a: the correct way
+		?b: MAPs
+	calculate ?a
+		?a: ARIs
+
+
+label:    sent_10
+sentence: Electronic health record project initiation and early planning in a community health center .
+
+ppatt:
+
+
+
+label:    sent_11
+sentence: Patents record certain innovations in the evolution of technology .
+
+ppatt:
+	?a record ?b in ?c
+		?a: Patents
+		?b: certain innovations
+		?c: the evolution of technology
+
+
+label:    sent_12
+sentence: Assembly of a multichannel video system to simultaneously record cerebral emboli with cerebral imaging .
+
+ppatt:
+	?a simultaneously record ?b
+		?a: Assembly of a multichannel video system
+		?b: cerebral emboli with cerebral imaging
+
+
+label:    sent_13
+sentence: Such capacity provides the opportunity to record from synaptically connected neurons cultured on-chip .
+
+ppatt:
+	?a provides ?b
+		?a: Such capacity
+		?b: the opportunity to record from synaptically connected neurons cultured on-chip
+	?a record from ?b ?c
+		?a: the opportunity
+		?b: synaptically connected neurons
+		?c: cultured on-chip
+
+
+label:    sent_14
+sentence: We used the whole cell blind patch-clamp technique to record from ventral horn interneurons .
+
+ppatt:
+	?a used ?b
+		?a: We
+		?b: the whole cell blind patch-clamp technique
+	?a record from ?b
+		?a: We
+		?b: ventral horn interneurons
+
+
+label:    sent_15
+sentence: The occurrence of canine parvovirus enteritis was monitored in post mortem record from 1978-1985 .
+
+ppatt:
+	?a was monitored in ?b
+		?a: The occurrence of canine parvovirus enteritis
+		?b: post mortem record from 1978-1985
+
+
+label:    sent_16
+sentence: Thirdly , record and manage the missing data with proper statistical methods .
+
+ppatt:
+	manage ?a
+		?a: the missing data with proper statistical methods
+
+
+label:    sent_17
+sentence: Smartphones can be used to record and transmit high-quality clinical photographs .
+
+ppatt:
+	?a can be used to record ?b
+		?a: Smartphones
+		?b: high-quality clinical photographs
+	?a can be used to transmit
+		?a: Smartphones
+
+
+label:    sent_18
+sentence: Photographs are important tools to record , track , and communicate clinical findings . 1988 accidents up from 1987 , but set second lowest record this decade .
+
+ppatt:
+	?a are important tools
+		?a: Photographs
+	?a record ?b . ?c up from ?d
+		?a: important tools
+		?b: clinical findings
+		?c: 1988 accidents
+		?d: 1987
+	record ?a . ?b up from ?c ?d
+		?a: clinical findings
+		?b: 1988 accidents
+		?c: 1987
+		?d: set second lowest record this decade
+	?a communicate
+		?a: Photographs
+	?a set second lowest record ?b
+		?a: Photographs
+		?b: this decade
+
+
+label:    sent_19
+sentence: Existing electromyographic techniques either record activity with voluntary motion or study nerve conduction .
+
+ppatt:
+	?a either record ?b
+		?a: Existing electromyographic techniques
+		?b: activity with voluntary motion
+	?a study ?b
+		?a: Existing electromyographic techniques
+		?b: nerve conduction
+
+
+label:    sent_20
+sentence: We record event-related potentials and analyze neural synchronization processes .
+
+ppatt:
+	?a record ?b
+		?a: We
+		?b: event-related potentials
+	?a analyze ?b
+		?a: We
+		?b: neural synchronization processes
+
+
+label:    sent_21
+sentence: Counselors were to check and record blood glucose values if the biographer alarmed .
+
+ppatt:
+	?a were to check ?b
+		?a: Counselors
+		?b: blood glucose values
+	?a were to record
+		?a: Counselors
+	?a alarmed
+		?a: the biographer
+
+
+label:    sent_22
+sentence: We encourage efforts to record it for other plants and in other communities .
+
+ppatt:
+	?a encourage ?b
+		?a: We
+		?b: efforts to record it for other plants and in other communities
+	?a record ?b for ?c
+		?a: efforts
+		?b: it
+		?c: other plants
+	?a record ?b for ?c
+		?a: efforts
+		?b: it
+		?c: other communities
+
+
+label:    sent_23
+sentence: The end of the record as we know it . Plio-Pleistocene ice volume , Antarctic climate , and the global delta18O record .
+
+ppatt:
+
+
+
+label:    sent_24
+sentence: A 10 or 21 channel EEG record wcs obtained 1 hour after therapy .
+
+ppatt:
+	?a wcs obtained ?b after
+		?a: A 10 or 21 channel EEG record
+		?b: 1 hour
+
+

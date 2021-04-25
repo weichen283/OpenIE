@@ -1,0 +1,18 @@
+label:    sent_1
+sentence: We propose to use the rapidly emerging genomic sequence as a template on which to layer often unmapped , fragmentary sequence data and to use base quality values to discern true allelic variations from sequencing errors .
+
+ppatt:
+	?a propose to use ?b as ?c
+		?a: We
+		?b: the rapidly emerging genomic sequence
+		?c: a template on which to layer often unmapped fragmentary sequence data and to use base quality values to discern true allelic variations from sequencing errors
+	?a on to ?b often unmapped ?c
+		?a: a template
+		?b: layer
+		?c: fragmentary sequence data
+	?a use ?b to discern ?c
+		?a: layer
+		?b: base quality values
+		?c: true allelic variations from sequencing errors
+
+

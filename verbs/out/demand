@@ -1,0 +1,266 @@
+label:    sent_1
+sentence: Psychiatric healthcare services in Japan demand continuous improvement to ensure quality care .
+
+ppatt:
+	?a demand ?b
+		?a: Psychiatric healthcare services in Japan
+		?b: continuous improvement to ensure quality care
+	?a ensure ?b
+		?a: continuous improvement
+		?b: quality care
+
+
+label:    sent_2
+sentence: It may apparently demand some form of action .
+
+ppatt:
+	?a may apparently demand ?b
+		?a: It
+		?b: some form of action
+
+
+label:    sent_3
+sentence: Various ceramic types demand different surface treatments before cementation .
+
+ppatt:
+	?a demand ?b before ?c
+		?a: Various ceramic types
+		?b: different surface treatments
+		?c: cementation
+
+
+label:    sent_4
+sentence: Famous faces demand attention due to reduced inhibitory processing . All options demand review , including responsibility to future AEM users .
+
+ppatt:
+	?a demand ?b due to ?c
+		?a: Famous faces
+		?b: attention
+		?c: reduced inhibitory processing
+	?a demand ?b
+		?a: All options
+		?b: review , including responsibility to future AEM users
+	?a future ?b
+		?a: responsibility
+		?b: AEM users
+
+
+label:    sent_5
+sentence: An eventual birth control vaccine would demand immunization without CFA .
+
+ppatt:
+	?a would demand ?b
+		?a: An eventual birth control vaccine
+		?b: immunization without CFA
+
+
+label:    sent_6
+sentence: Malignant gliomas continue to demand the search for improved chemotherapeutic solutions .
+
+ppatt:
+	?a continue to demand ?b
+		?a: Malignant gliomas
+		?b: the search for improved chemotherapeutic solutions
+
+
+label:    sent_7
+sentence: Patients should be incited to demand more pertinent advice from pharmacists .
+
+ppatt:
+	?a should be incited to demand ?b
+		?a: Patients
+		?b: more pertinent advice from pharmacists
+
+
+label:    sent_8
+sentence: The entity of postoperative acute cholecystitis has striking features that demand special attention .
+
+ppatt:
+	?a has ?b
+		?a: The entity of postoperative acute cholecystitis
+		?b: striking features that demand special attention
+	?a demand ?b
+		?a: striking features
+		?b: special attention
+
+
+label:    sent_9
+sentence: The times demand we all weigh in . Notably , these protocols demand considerable time to perform reference and probe tests separately . Ear-nose-throat , open eye surgery and laparoscopy may demand myoresolution .
+
+ppatt:
+	?a ?b all weigh ?c . Notably
+		?a: The times demand
+		?b: we
+		?c: in
+	?a demand ?b
+		?a: these protocols
+		?b: considerable time to perform reference and probe tests separately
+	?a perform ?b ?c separately
+		?a: considerable time
+		?b: reference
+		?c: tests
+	?a perform ?b ?c separately
+		?a: considerable time
+		?b: probe
+		?c: tests
+	?a may demand ?b
+		?a: Ear-nose-throat
+		?b: myoresolution
+	?a may demand ?b
+		?a: open eye surgery
+		?b: myoresolution
+	?a may demand ?b
+		?a: laparoscopy
+		?b: myoresolution
+
+
+label:    sent_10
+sentence: A descriptive analysis of ambulatory neurological care demand in Burgos Health Area .
+
+ppatt:
+
+
+
+label:    sent_11
+sentence: Association of adiponectin levels and insulin demand in critically ill patients .
+
+ppatt:
+
+
+
+label:    sent_12
+sentence: Pupil responses to near visual demand during human visual development .
+
+ppatt:
+
+
+
+label:    sent_13
+sentence: Therefore these symptoms demand a Papanicolaou-stained cervicovaginal smear and search for actinomyces .
+
+ppatt:
+	Therefore ?a demand ?b
+		?a: these symptoms
+		?b: a Papanicolaou-stained cervicovaginal smear
+	Therefore ?a demand ?b
+		?a: these symptoms
+		?b: search for actinomyces
+
+
+label:    sent_14
+sentence: Societies have also changed and current conditions demand modernization of clinical practice .
+
+ppatt:
+	?a have also changed
+		?a: Societies
+	?a demand ?b
+		?a: current conditions
+		?b: modernization of clinical practice
+
+
+label:    sent_15
+sentence: They demand respect and are quick to lash out when angered .
+
+ppatt:
+	?a demand ?b
+		?a: They
+		?b: respect
+
+
+label:    sent_16
+sentence: Experimental methods used for characterizing epitopes are time consuming and demand large resources .
+
+ppatt:
+	?a used for ?b
+		?a: Experimental methods
+		?b: characterizing epitopes
+	?a are time
+		?a: Experimental methods used for characterizing epitopes
+	?a consuming ?b
+		?a: time
+		?b: large resources
+	?a demand
+		?a: Experimental methods used for characterizing epitopes
+
+
+label:    sent_17
+sentence: Method II is easily practicable and does not demand expensive or complicated equipment .
+
+ppatt:
+	?a is easily practicable
+		?a: Method II
+	?a does not demand ?b
+		?a: Method II
+		?b: expensive or complicated equipment
+
+
+label:    sent_18
+sentence: These areas are inseparable from one another and demand a systematic coordinated approach .
+
+ppatt:
+	?a are inseparable from ?b
+		?a: These areas
+		?b: one another
+	?a demand ?b
+		?a: These areas
+		?b: a systematic coordinated approach
+
+
+label:    sent_19
+sentence: Other pathological variables exist that demand additional intraoperative choices in technique .
+
+ppatt:
+	?a exist ?b
+		?a: Other pathological variables
+		?b: SOMETHING := that demand additional intraoperative choices in technique
+	?a demand ?b
+		?a: that
+		?b: additional intraoperative choices in technique
+
+
+label:    sent_20
+sentence: Why well-insured patients should demand value-based insurance benefits . [It is unreasonable to demand a time limit in government-supported education in psychotherapy ] . Special needs children and literacy issues demand extra attention in oral health management .
+
+ppatt:
+	Why ?a should demand ?b
+		?a: well-insured patients
+		?b: value-based insurance benefits
+	?a is unreasonable to demand ?b in ?c
+		?a: [It
+		?b: a time limit
+		?c: government-supported education in psychotherapy ]
+	?a demand ?b in ?c
+		?a: Special needs children
+		?b: extra attention
+		?c: oral health management
+	?a demand ?b in ?c
+		?a: literacy issues
+		?b: extra attention
+		?c: oral health management
+
+
+label:    sent_21
+sentence: Prenatal care demand and birthweight production of black mothers .
+
+ppatt:
+
+
+
+label:    sent_22
+sentence: Consent to care : patients who demand or refuse treatment .
+
+ppatt:
+	?a demand ?b
+		?a: patients
+		?b: treatment
+	?a refuse
+		?a: who
+
+
+label:    sent_23
+sentence: Orthodontic treatment demand and need in third and fourth grade schoolchildren .
+
+ppatt:
+
+
+

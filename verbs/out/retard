@@ -1,0 +1,337 @@
+label:    sent_1
+sentence: Intervention that suppressed this signaling loop may potentially retard age-associated adverse arterial remodeling .
+
+ppatt:
+	?a suppressed ?b
+		?a: Intervention
+		?b: this signaling loop
+	?a may potentially retard ?b
+		?a: Intervention that suppressed this signaling loop
+		?b: age-associated adverse arterial remodeling
+
+
+label:    sent_2
+sentence: UNSM process is expected to eliminate or significantly retard the formation of fretting wear .
+
+ppatt:
+	?a is expected to eliminate
+		?a: UNSM process
+	?a is expected to retard ?b
+		?a: UNSM process
+		?b: the formation of fretting wear
+
+
+label:    sent_3
+sentence: Arsenic was found to retard ferrihydrite dissolution and transformation as well as goethite formation .
+
+ppatt:
+	?a was found to retard ?b
+		?a: Arsenic
+		?b: ferrihydrite
+	?a was found to retard ?b
+		?a: Arsenic
+		?b: transformation
+	?a was found to retard ?b
+		?a: Arsenic
+		?b: goethite formation
+
+
+label:    sent_4
+sentence: The normal kidney may retard the restoration of damaged kidney in uni-lateral I/R model .
+
+ppatt:
+	?a may retard ?b
+		?a: The normal kidney
+		?b: the restoration of damaged kidney in uni-lateral I/R model
+
+
+label:    sent_5
+sentence: Hence , its removal by iron chelators may retard the progression of the disease .
+
+ppatt:
+	Hence , ?a may retard ?b
+		?a: its removal by iron chelators
+		?b: the progression of the disease
+
+
+label:    sent_6
+sentence: These organic molecules retard mineral growth , preventing cell encrustation .
+
+ppatt:
+	?a retard ?b
+		?a: These organic molecules
+		?b: mineral growth
+	?a preventing ?b
+		?a: These organic molecules
+		?b: cell encrustation
+
+
+label:    sent_7
+sentence: Poverty and other forms of inequity undermine individual and population health and retard development .
+
+ppatt:
+	?a undermine ?b
+		?a: Poverty
+		?b: individual
+	?a undermine ?b
+		?a: other forms of inequity
+		?b: individual
+	?a undermine ?b
+		?a: Poverty
+		?b: population
+	?a undermine ?b
+		?a: other forms of inequity
+		?b: population
+	?a retard ?b
+		?a: Poverty
+		?b: development
+	?a retard ?b
+		?a: other forms of inequity
+		?b: development
+
+
+label:    sent_8
+sentence: Mebendazole or albendazole therapy seems to retard the recurrences and control the disease .
+
+ppatt:
+	?a seems to retard ?b
+		?a: Mebendazole
+		?b: the recurrences
+	?a seems to retard ?b
+		?a: albendazole therapy
+		?b: the recurrences
+	?a seems to control ?b
+		?a: Mebendazole
+		?b: the disease
+	?a seems to control ?b
+		?a: albendazole therapy
+		?b: the disease
+
+
+label:    sent_9
+sentence: Current PD medications treat symptoms ; none halt or retard dopaminergic neuron degeneration .
+
+ppatt:
+	?a treat ?b
+		?a: Current PD medications
+		?b: symptoms
+	?a halt ?b
+		?a: none
+		?b: dopaminergic neuron degeneration
+	?a retard
+		?a: none
+
+
+label:    sent_10
+sentence: On the contrary , they retard progression of chronic kidney disease .
+
+ppatt:
+	On ?a , ?b retard ?c
+		?a: the contrary
+		?b: they
+		?c: progression of chronic kidney disease
+
+
+label:    sent_11
+sentence: These devices , however , also retard subsidence after surgery . In conclusion , demethylating agents effectively retard growth of TCC and RCC cell lines .
+
+ppatt:
+	?a however , also retard ?b after ?c
+		?a: These devices
+		?b: subsidence
+		?c: surgery
+	In ?a , ?b effectively retard ?c
+		?a: conclusion
+		?b: demethylating agents
+		?c: growth of TCC and RCC cell lines
+
+
+label:    sent_12
+sentence: Thiazolidinediones have been reported to retard cystic disease in rodent models by uncertain mechanisms .
+
+ppatt:
+	?a have been reported to retard ?b in ?c by ?d
+		?a: Thiazolidinediones
+		?b: cystic disease
+		?c: rodent models
+		?d: uncertain mechanisms
+
+
+label:    sent_13
+sentence: Both biochars were found to retard MCPA degradation in loamy sand and sandy soils . As a result , this surface helps retard frost formation at that condition .
+
+ppatt:
+	?a were found to retard ?b . As ?c
+		?a: Both biochars
+		?b: MCPA degradation in loamy sand and sandy soils
+		?c: a result
+	?a helps ?b
+		?a: this surface
+		?b: SOMETHING := retard frost formation at that condition
+	?a retard ?b at ?c
+		?a: this surface
+		?b: frost formation
+		?c: that condition
+
+
+label:    sent_14
+sentence: Indeed , reversible inhibitors retard photo-inactivation , and photo-inactivation destroys their binding sites .
+
+ppatt:
+	Indeed , ?a retard ?b
+		?a: reversible inhibitors
+		?b: photo-inactivation
+	?a destroys ?b
+		?a: photo-inactivation
+		?b: their binding sites
+
+
+label:    sent_15
+sentence: Also IORT can retard the tumor growth and improve the patient survival .
+
+ppatt:
+	Also ?a can retard ?b
+		?a: IORT
+		?b: the tumor growth
+	?a improve ?b
+		?a: IORT
+		?b: the patient survival
+
+
+label:    sent_16
+sentence: Hypertension accompanies diabetic nephropathy and its treatment may retard the progression of renal failure .
+
+ppatt:
+	?a accompanies ?b
+		?a: Hypertension
+		?b: diabetic nephropathy
+	?a may retard ?b
+		?a: its treatment
+		?b: the progression of renal failure
+
+
+label:    sent_17
+sentence: Admixtures are compounds used to retard or accelerate concrete setting time .
+
+ppatt:
+	?a are compounds
+		?a: Admixtures
+	?a used to retard ?b
+		?a: compounds
+		?b: concrete setting time
+	used to accelerate ?a
+		?a: concrete setting time
+
+
+label:    sent_18
+sentence: Cyst decompression surgery does not appear to significantly retard or arrest progressive renal insufficiency .
+
+ppatt:
+	?a does not appear to significantly retard ?b
+		?a: Cyst decompression surgery
+		?b: progressive renal insufficiency
+	?a does not appear to arrest
+		?a: Cyst decompression surgery
+
+
+label:    sent_19
+sentence: The concept of cancer prevention is to retard , regress or eliminate precancerous lesions .
+
+ppatt:
+	?a is to retard
+		?a: The concept of cancer prevention
+	?a is to regress ?b
+		?a: The concept of cancer prevention
+		?b: precancerous lesions
+	?a eliminate
+		?a: The concept of cancer prevention
+
+
+label:    sent_20
+sentence: [Anti-arrhythmia effectiveness and tolerance of retard in comparison with standard mexiletine ] . Bisoprolol and nifedipine retard in elderly hypertensive patients : effect on quality of life .
+
+ppatt:
+	?a of retard
+		?a: [Anti-arrhythmia effectiveness in comparison with standard mexiletine ] . Bisoprolol and nifedipine
+	?a of retard
+		?a: tolerance
+	?a retard in ?b
+		?a: [Anti-arrhythmia effectiveness of retard in comparison with standard mexiletine ] . Bisoprolol and nifedipine
+		?b: elderly hypertensive patients
+	?a retard in ?b
+		?a: tolerance
+		?b: elderly hypertensive patients
+
+
+label:    sent_21
+sentence: Patients with elevated CRP responded to ariphon retard with positive CRP dynamics .
+
+ppatt:
+	?a responded to ?b retard with ?c
+		?a: Patients with elevated CRP
+		?b: ariphon
+		?c: positive CRP dynamics
+
+
+label:    sent_22
+sentence: Stress during early development can retard or accelerate sexual maturation and reproduction .
+
+ppatt:
+	?a can retard ?b
+		?a: Stress during early development
+		?b: sexual maturation
+	?a can retard ?b
+		?a: Stress during early development
+		?b: reproduction
+	?a accelerate
+		?a: Stress during early development
+
+
+label:    sent_23
+sentence: In summary , there are many areas where treatment may retard or reverse atherogenesis .
+
+ppatt:
+	In ?a , there are ?b
+		?a: summary
+		?b: many areas where treatment may retard or reverse atherogenesis
+	?a where ?b may retard ?c
+		?a: many areas
+		?b: treatment
+		?c: reverse atherogenesis
+
+
+label:    sent_24
+sentence: Calcium antagonists and beta blockers may retard or inhibit atherogenesis .
+
+ppatt:
+	?a may retard ?b
+		?a: Calcium antagonists
+		?b: atherogenesis
+	?a may retard ?b
+		?a: beta blockers
+		?b: atherogenesis
+	?a inhibit
+		?a: Calcium antagonists
+	?a inhibit
+		?a: beta blockers
+
+
+label:    sent_25
+sentence: [ Prevention of atrial flutter with Chinidin retard ] . Evaluation of treatment with bromocriptine retard .
+
+ppatt:
+	?a retard ?b
+		?a: Prevention of atrial flutter with Chinidin
+		?b: ]
+	?a retard
+		?a: Evaluation of treatment with bromocriptine
+
+
+label:    sent_26
+sentence: Inhibition of puerperal lactation by means of a single injection of bromocriptine retard .
+
+ppatt:
+	?a retard
+		?a: Inhibition of puerperal lactation by of a single injection of bromocriptine
+
+

@@ -1,0 +1,275 @@
+label:    sent_1
+sentence: This might aggravate radiation-induced pulmonary lesion .
+
+ppatt:
+	?a might aggravate ?b
+		?a: This
+		?b: radiation-induced pulmonary lesion
+
+
+label:    sent_2
+sentence: We hypothesized that loss of endogenous BMP-6 would aggravate renal injury and fibrosis .
+
+ppatt:
+	?a hypothesized ?b
+		?a: We
+		?b: SOMETHING := loss of endogenous BMP-6 would aggravate renal injury and fibrosis
+	?a would aggravate ?b
+		?a: loss of endogenous BMP-6
+		?b: renal injury
+	?a would aggravate ?b
+		?a: loss of endogenous BMP-6
+		?b: fibrosis
+
+
+label:    sent_3
+sentence: The administration of calcineurin inhibitors in the postoperative period can aggravate the situation .
+
+ppatt:
+	?a can aggravate ?b
+		?a: The administration of calcineurin inhibitors in the postoperative period
+		?b: the situation
+
+
+label:    sent_4
+sentence: Stigma is likely to aggravate the severe medical and social consequences of alcohol dependence .
+
+ppatt:
+	?a is likely to aggravate ?b ?c
+		?a: Stigma
+		?b: severe medical of alcohol dependence
+		?c: the consequences
+	?a is likely to aggravate ?b ?c
+		?a: Stigma
+		?b: social
+		?c: the consequences
+
+
+label:    sent_5
+sentence: Stress has been linked to aggravate the metabolic abnormalities present in MBS .
+
+ppatt:
+	?a has been linked to aggravate ?b
+		?a: Stress
+		?b: the metabolic abnormalities present in MBS
+
+
+label:    sent_6
+sentence: Benzodiazepines are known to aggravate the obstructive sleep apnea syndrome .
+
+ppatt:
+	?a are known to aggravate ?b
+		?a: Benzodiazepines
+		?b: the obstructive sleep apnea syndrome
+
+
+label:    sent_7
+sentence: It appears to be associated with postprandial intestinal symptoms and might aggravate late hypoglycemia .
+
+ppatt:
+	?a appears to be associated with ?b
+		?a: It
+		?b: postprandial intestinal symptoms
+	?a appears to be might aggravate ?b
+		?a: It
+		?b: late hypoglycemia
+
+
+label:    sent_8
+sentence: Innumerable chemical substances used in various production processes can cause or aggravate occupational asthma .
+
+ppatt:
+	?a used in ?b
+		?a: Innumerable chemical substances
+		?b: various production processes
+	?a can cause ?b
+		?a: Innumerable chemical substances used in various production processes
+		?b: occupational asthma
+	?a aggravate
+		?a: Innumerable chemical substances used in various production processes
+
+
+label:    sent_9
+sentence: Other options serve only to prolong and aggravate the current disparities .
+
+ppatt:
+	?a serve only to prolong ?b
+		?a: Other options
+		?b: the current disparities
+	?a serve to aggravate
+		?a: Other options
+
+
+label:    sent_10
+sentence: Hypercholesterolemia-related changes in the basilar artery aggravate vasospasm after SAH .
+
+ppatt:
+	?a aggravate ?b after ?c
+		?a: Hypercholesterolemia-related changes in the basilar artery
+		?b: vasospasm
+		?c: SAH
+
+
+label:    sent_11
+sentence: It is possible that low vitamin D can in turn aggravate CHF .
+
+ppatt:
+	?a is possible ?b
+		?a: It
+		?b: SOMETHING := low vitamin D can in turn aggravate CHF
+	?a can in ?b aggravate ?c
+		?a: low vitamin D
+		?b: turn
+		?c: CHF
+
+
+label:    sent_12
+sentence: Combined hypoxia and hypercapnia clearly aggravate CaOx toxicity to renal cell lines .
+
+ppatt:
+	?a clearly aggravate ?b to ?c
+		?a: Combined hypoxia
+		?b: CaOx toxicity
+		?c: renal cell lines
+	?a clearly aggravate ?b to ?c
+		?a: hypercapnia
+		?b: CaOx toxicity
+		?c: renal cell lines
+
+
+label:    sent_13
+sentence: Liver cirrhosis can aggravate HE , and lead to a higher mortality . Laparoscopy , however , does not aggravate such changes , but elevates urinary cortisol .
+
+ppatt:
+	?a can aggravate ?b
+		?a: Liver cirrhosis
+		?b: HE
+	?a lead to ?b
+		?a: Liver cirrhosis
+		?b: a higher mortality
+	?a however , does not aggravate ?b
+		?a: Laparoscopy
+		?b: such changes
+	?a elevates ?b
+		?a: Laparoscopy
+		?b: urinary cortisol
+
+
+label:    sent_14
+sentence: Therefore variations in the SGK1 gene may aggravate renal salt loss or cause PHA1 .
+
+ppatt:
+	Therefore ?a may aggravate ?b
+		?a: variations in the SGK1 gene
+		?b: renal salt loss
+	?a cause ?b
+		?a: variations in the SGK1 gene
+		?b: PHA1
+
+
+label:    sent_15
+sentence: Stress-stimulation may aggravate periodontitis by decreased tissue oxygenation in rats . Compounds that infiltrate the skin can aggravate the reaction to the damaged epidermis .
+
+ppatt:
+	?a may aggravate ?b by ?c
+		?a: Stress-stimulation
+		?b: periodontitis
+		?c: decreased tissue oxygenation in rats
+	?a infiltrate ?b
+		?a: Compounds
+		?b: the skin
+	?a can aggravate ?b
+		?a: Compounds that infiltrate the skin
+		?b: the reaction to the damaged epidermis
+
+
+label:    sent_16
+sentence: Bile salts may initiate or aggravate cholestasis in man . Polypectomy does not aggravate or cause asthma .
+
+ppatt:
+	?a may initiate ?b
+		?a: Bile salts
+		?b: cholestasis in man
+	?a aggravate
+		?a: Bile salts
+	?a does not aggravate ?b
+		?a: Polypectomy
+		?b: asthma
+	?a cause
+		?a: Polypectomy
+
+
+label:    sent_17
+sentence: Antiarrhythmic drugs may aggravate or even induce ventricular arrhythmias .
+
+ppatt:
+	?a may aggravate
+		?a: Antiarrhythmic drugs
+	?a even induce ?b
+		?a: Antiarrhythmic drugs
+		?b: ventricular arrhythmias
+
+
+label:    sent_18
+sentence: Statins : do they aggravate or ameliorate neuropathic pain ? This selective lysis avoids thrombolytic effects that could aggravate or produce systemic hemorrhagic complications .
+
+ppatt:
+	?a avoids ?b
+		?a: This selective lysis
+		?b: thrombolytic effects that could aggravate or produce systemic hemorrhagic complications
+	?a could aggravate ?b
+		?a: thrombolytic effects
+		?b: systemic hemorrhagic complications
+	?a produce
+		?a: that
+
+
+label:    sent_19
+sentence: Furthermore , certain occupational factors were shown to aggravate or attenuate other risk factors .
+
+ppatt:
+	Furthermore , ?a were shown to aggravate ?b
+		?a: certain occupational factors
+		?b: other risk factors
+	Furthermore , ?a were shown to attenuate
+		?a: certain occupational factors
+
+
+label:    sent_20
+sentence: Exercise is known to trigger , aggravate , or relieve the symptoms .
+
+ppatt:
+	?a is known to trigger
+		?a: Exercise
+	?a is known to aggravate
+		?a: Exercise
+	?a is known to relieve ?b
+		?a: Exercise
+		?b: the symptoms
+
+
+label:    sent_21
+sentence: Androgen excess may provoke or aggravate acne by inducing seborrhea .
+
+ppatt:
+	?a may provoke ?b
+		?a: Androgen excess
+		?b: acne
+	?a aggravate
+		?a: Androgen excess
+	?a inducing ?b
+		?a: Androgen excess
+		?b: seborrhea
+
+
+label:    sent_22
+sentence: Reflux may trigger and aggravate respiratory diseases especially bronchial asthma .
+
+ppatt:
+	?a may trigger ?b
+		?a: Reflux
+		?b: respiratory diseases
+	?a aggravate
+		?a: Reflux
+
+

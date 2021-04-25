@@ -1,0 +1,225 @@
+label:    sent_1
+sentence: Substantial skin disorders in psychiatric illness coincide with diabetes and addiction .
+
+ppatt:
+	?a coincide with ?b
+		?a: Substantial skin disorders in psychiatric illness
+		?b: diabetes
+	?a coincide with ?b
+		?a: Substantial skin disorders in psychiatric illness
+		?b: addiction
+
+
+label:    sent_2
+sentence: VEGF effects coincide with descriptive mechanisms of tissue survival . Chance-corrected measures for 2 x 2 tables that coincide with weighted kappa .
+
+ppatt:
+	?a coincide with ?b
+		?a: VEGF effects
+		?b: descriptive mechanisms of tissue survival . Chance-corrected measures for 2 x 2 tables that coincide with weighted kappa
+	?a coincide with ?b
+		?a: 2 x 2 tables
+		?b: weighted kappa
+
+
+label:    sent_3
+sentence: Muscle regeneration occurs to coincide with mitochondrial biogenesis .
+
+ppatt:
+	?a occurs to coincide with ?b
+		?a: Muscle regeneration
+		?b: mitochondrial biogenesis
+
+
+label:    sent_4
+sentence: These morphological changes appeared to coincide with the depressed cytotoxicity of NK cells .
+
+ppatt:
+	?a appeared to coincide with ?b
+		?a: These morphological changes
+		?b: the depressed cytotoxicity of NK cells
+
+
+label:    sent_5
+sentence: Myoclonia as a side effect of etomidate coincide with the increase of SSEP-components .
+
+ppatt:
+	?a coincide with ?b
+		?a: Myoclonia as a side effect of etomidate
+		?b: the increase of SSEP-components
+
+
+label:    sent_6
+sentence: These results coincide with and extend data previously obtained in the mouse .
+
+ppatt:
+	?a coincide ?b
+		?a: These results
+		?b: with data previously obtained in the mouse
+	?a extend
+		?a: These results
+	?a previously obtained in ?b
+		?a: with data
+		?b: the mouse
+
+
+label:    sent_7
+sentence: In such cases the two types of pain may coincide or not .
+
+ppatt:
+	In ?a ?b may coincide or not
+		?a: such cases
+		?b: the two types of pain
+
+
+label:    sent_8
+sentence: How could these coincide in the same individual organism and within minutes ? Changes in depressive symptoms and changes in self-rated health clearly coincide . [ Nursing report on patients ' release .
+
+ppatt:
+	How could ?a coincide in ?b
+		?a: these
+		?b: the same individual organism
+	How could ?a coincide in ?b
+		?a: these
+		?b: minutes
+	?a clearly coincide ?b
+		?a: Changes in depressive symptoms
+		?b: Nursing report on patients ' release
+	?a clearly coincide ?b
+		?a: changes in self-rated health
+		?b: Nursing report on patients ' release
+
+
+label:    sent_9
+sentence: Do observations coincide ? ] . The results obtained in the both cases coincide .
+
+ppatt:
+	Do ?a coincide ?b
+		?a: observations
+		?b: ]
+	?a obtained in ?b
+		?a: The results
+		?b: the both cases
+	?a coincide
+		?a: The results obtained in the both cases
+
+
+label:    sent_10
+sentence: The wave amplitudes are spatially localized and coincide rather well with theoretically predicted amplitudes .
+
+ppatt:
+	?a are spatially localized
+		?a: The wave amplitudes
+	?a coincide with ?b
+		?a: The wave amplitudes
+		?b: theoretically predicted amplitudes
+
+
+label:    sent_11
+sentence: These may or may not coincide with the visual disturbance .
+
+ppatt:
+	?a may may not coincide with ?b
+		?a: These
+		?b: the visual disturbance
+
+
+label:    sent_12
+sentence: Many physiological phenomena are rhythmic and coincide with a particular time of day .
+
+ppatt:
+	?a are rhythmic
+		?a: Many physiological phenomena
+	?a coincide with ?b
+		?a: Many physiological phenomena
+		?b: a particular time of day
+
+
+label:    sent_13
+sentence: Changes in PLR coincide or even precede the onset of retinal hypoperfusion .
+
+ppatt:
+	?a coincide
+		?a: Changes in PLR
+	?a even precede ?b
+		?a: Changes in PLR
+		?b: the onset of retinal hypoperfusion
+
+
+label:    sent_14
+sentence: Valleys for different sequences largely coincide but have distinctive characteristics for each sequence .
+
+ppatt:
+	?a largely coincide
+		?a: Valleys for different sequences
+	?a have ?b
+		?a: Valleys for different sequences
+		?b: distinctive characteristics for each sequence
+
+
+label:    sent_15
+sentence: The EO may coincide , precede , or appear during the endocrine dysfunction .
+
+ppatt:
+	?a may coincide
+		?a: The EO
+	?a precede
+		?a: The EO
+	?a appear during ?b
+		?a: The EO
+		?b: the endocrine dysfunction
+
+
+label:    sent_16
+sentence: [ Comparative ecology of tuberculosis and hanseniasis as they coincide endemically in tropical countries ] . The distribution of sittings and feedings within each species coincide average by 60 % . In neither case did the clinical description by observers coincide with video-EEG findings .
+
+ppatt:
+	?a coincide endemically in ?b ?c
+		?a: they
+		?b: tropical countries
+		?c: ]
+	?a ?b coincide ?c by ?d
+		?a: Comparative ecology of tuberculosis and hanseniasis
+		?b: The distribution of sittings and feedings within each species
+		?c: average
+		?d: 60 %
+	?a In ?b did
+		?a: Comparative ecology of tuberculosis and hanseniasis
+		?b: neither case
+	?a coincide with ?b
+		?a: the clinical description by observers
+		?b: video-EEG findings
+
+
+label:    sent_17
+sentence: A characterization is given of the settings in which interaction and effect modification coincide .
+
+ppatt:
+	?a is given of ?b
+		?a: A characterization
+		?b: the settings in which interaction and effect modification coincide
+	?a in ?b coincide
+		?a: the settings
+		?b: interaction
+	?a in ?b coincide
+		?a: the settings
+		?b: effect
+	?a in ?b coincide
+		?a: the settings
+		?b: modification
+
+
+label:    sent_18
+sentence: The neurites form bundles which coincide with the intermyotomes and are periodically spaced .
+
+ppatt:
+	?a form ?b
+		?a: The neurites
+		?b: bundles which coincide with the intermyotomes and are periodically spaced
+	?a coincide with ?b
+		?a: bundles
+		?b: the intermyotomes
+	?a are periodically spaced
+		?a: which
+
+

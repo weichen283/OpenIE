@@ -1,0 +1,325 @@
+label:    sent_1
+sentence: Many groups displayed variable ability to decompose needles .
+
+ppatt:
+	?a displayed ?b
+		?a: Many groups
+		?b: variable ability to decompose needles
+	?a decompose ?b
+		?a: variable ability
+		?b: needles
+
+
+label:    sent_2
+sentence: DWT is applied in order to decompose an input image into different subbands .
+
+ppatt:
+	?a is applied
+		?a: DWT
+	?a order to decompose ?b into ?c
+		?a: DWT
+		?b: an input image
+		?c: different subbands
+
+
+label:    sent_3
+sentence: Detailed analysis is used to decompose the total dipole moment into different contributions .
+
+ppatt:
+	?a is used to decompose ?b into ?c
+		?a: Detailed analysis
+		?b: the total dipole moment
+		?c: different contributions
+
+
+label:    sent_4
+sentence: Thus we were able to decompose the problem into two parts .
+
+ppatt:
+	Thus ?a were able to decompose ?b
+		?a: we
+		?b: the problem into two parts
+
+
+label:    sent_5
+sentence: Evolved pseudo-wavelet function to optimally decompose sEMG for automated classification of localized muscle fatigue .
+
+ppatt:
+	?a optimally decompose ?b for ?c
+		?a: Evolved pseudo-wavelet function
+		?b: sEMG
+		?c: automated classification of localized muscle fatigue
+
+
+label:    sent_6
+sentence: The EMD is used to decompose a Doppler signal into finite individual components .
+
+ppatt:
+	?a is used to decompose ?b into ?c
+		?a: The EMD
+		?b: a Doppler signal
+		?c: finite individual components
+
+
+label:    sent_7
+sentence: Upon formation , these complexes decompose to give haloamidinium salts .
+
+ppatt:
+	Upon ?a , ?b decompose to give ?c
+		?a: formation
+		?b: these complexes
+		?c: haloamidinium salts
+
+
+label:    sent_8
+sentence: At pressures above 300 MPa the micelles fully decompose into their monomeric constituents .
+
+ppatt:
+	At ?a ?b fully decompose into ?c
+		?a: pressures above 300 MPa
+		?b: the micelles
+		?c: their monomeric constituents
+
+
+label:    sent_9
+sentence: These unstable derivatives decompose by homolysis , yielding RS. radicals . 400 degrees C , while the onium functions begin to decompose at ca .
+
+ppatt:
+	?a decompose by ?b , yielding ?c
+		?a: These unstable derivatives
+		?b: homolysis
+		?c: RS. radicals
+	?a decompose by ?b , yielding ?c
+		?a: These unstable derivatives
+		?b: homolysis
+		?c: 400 degrees C
+	?a begin to decompose at ?b
+		?a: the onium functions
+		?b: ca
+
+
+label:    sent_10
+sentence: The objects were either easy or difficult to decompose into parts .
+
+ppatt:
+	?a were either easy to decompose into ?b
+		?a: The objects
+		?b: parts
+	?a difficult
+		?a: The objects
+
+
+label:    sent_11
+sentence: Thermogravimetric studies show that the compound starts to decompose at 500degreesC .
+
+ppatt:
+	?a show ?b
+		?a: Thermogravimetric studies
+		?b: SOMETHING := the compound starts to decompose at 500degreesC
+	?a starts to decompose at ?b
+		?a: the compound
+		?b: 500degreesC
+
+
+label:    sent_12
+sentence: We decompose the mechanical energy to terms associated with area dilation and shape contribution .
+
+ppatt:
+	?a decompose ?b to ?c
+		?a: We
+		?b: the mechanical energy
+		?c: terms associated with area dilation and shape contribution
+	?a associated with ?b ?c
+		?a: terms
+		?b: area
+		?c: dilation
+	?a associated with ?b ?c
+		?a: terms
+		?b: area
+		?c: shape contribution
+
+
+label:    sent_13
+sentence: This modification allowed the yeast to rapidly decompose excess formic acid .
+
+ppatt:
+	?a allowed ?b to rapidly decompose ?c
+		?a: This modification
+		?b: the yeast
+		?c: excess formic acid
+
+
+label:    sent_14
+sentence: Studies on dissimilatory sulfate-reducing bacteria that decompose fatty acids .
+
+ppatt:
+	?a decompose ?b
+		?a: dissimilatory sulfate-reducing bacteria
+		?b: fatty acids
+
+
+label:    sent_15
+sentence: We decompose MTC synthesis into two stages .
+
+ppatt:
+	?a decompose ?b into ?c
+		?a: We
+		?b: MTC synthesis
+		?c: two stages
+
+
+label:    sent_16
+sentence: Thus , we decompose the symmetry plane computation problem into a surface matching routine .
+
+ppatt:
+	Thus , ?a decompose ?b into ?c
+		?a: we
+		?b: the symmetry plane computation problem
+		?c: a surface matching routine
+
+
+label:    sent_17
+sentence: Next , we decompose BMR variation at the organ , tissue and molecular level .
+
+ppatt:
+	Next , ?a decompose ?b at ?c
+		?a: we
+		?b: BMR variation
+		?c: the organ
+	Next , ?a decompose ?b at ?c
+		?a: we
+		?b: BMR variation
+		?c: tissue
+	Next , ?a decompose ?b at ?c
+		?a: we
+		?b: BMR variation
+		?c: molecular
+
+
+label:    sent_18
+sentence: A number of methods have been proposed to separate or decompose these two components .
+
+ppatt:
+	?a have been proposed to separate ?b
+		?a: A number of methods
+		?b: these two components
+	?a have been proposed to decompose
+		?a: A number of methods
+
+
+label:    sent_19
+sentence: A correspondence analysis was also used to decompose significant Chi-squared and reduce variables dimensions .
+
+ppatt:
+	?a was also used to decompose ?b ?c
+		?a: A correspondence analysis
+		?b: significant Chi-squared
+		?c: variables dimensions
+	?a was also used to reduce
+		?a: A correspondence analysis
+
+
+label:    sent_20
+sentence: Strain F-3 may co-culture with white rot fungus and decompose alkali lignin effectively .
+
+ppatt:
+	?a may co-culture with ?b
+		?a: Strain F-3
+		?b: white rot fungus
+	?a decompose ?b effectively
+		?a: Strain F-3
+		?b: alkali lignin
+
+
+label:    sent_21
+sentence: The polysulphide and thiocarbonate extracts decompose to form TBT-sulphide , sulphur and carbon disulphide .
+
+ppatt:
+	?a decompose to form ?b
+		?a: polysulphide and thiocarbonate extracts
+		?b: TBT-sulphide
+	?a decompose to form ?b
+		?a: polysulphide and thiocarbonate extracts
+		?b: sulphur
+	?a decompose to form ?b
+		?a: polysulphide and thiocarbonate extracts
+		?b: carbon disulphide
+
+
+label:    sent_22
+sentence: First , as metal precursors thermally decompose , monomers accumulate .
+
+ppatt:
+	?a thermally decompose
+		?a: metal precursors
+	First , ?a accumulate
+		?a: monomers
+
+
+label:    sent_23
+sentence: The latter decompose , yielding oligomers containing aldehydes , amides and methyl terminal groups .
+
+ppatt:
+	?a decompose , yielding ?b
+		?a: The latter
+		?b: oligomers containing aldehydes , amides and methyl terminal groups
+	?a containing ?b
+		?a: oligomers
+		?b: aldehydes
+	?a containing ?b
+		?a: oligomers
+		?b: amides
+	?a containing ?b
+		?a: oligomers
+		?b: methyl terminal groups
+
+
+label:    sent_24
+sentence: The as-synthesized nanoparticles are a solid and decompose before melting .
+
+ppatt:
+	?a are a solid before ?b
+		?a: The as-synthesized nanoparticles
+		?b: melting
+	?a decompose
+		?a: The as-synthesized nanoparticles
+
+
+label:    sent_25
+sentence: These species predominate at physiological pH and decompose only partially at micromolar concentrations .
+
+ppatt:
+	?a predominate at ?b
+		?a: These species
+		?b: physiological pH
+	?a decompose only partially at ?b
+		?a: These species
+		?b: micromolar concentrations
+
+
+label:    sent_26
+sentence: The diazonium compounds are very unstable and decompose rapidly at room temperature .
+
+ppatt:
+	?a are very unstable
+		?a: The diazonium compounds
+	?a decompose rapidly at ?b
+		?a: The diazonium compounds
+		?b: room temperature
+
+
+label:    sent_27
+sentence: Nitrated lipids decompose to nitric oxide and lipid radicals and cause vasorelaxation .
+
+ppatt:
+	?a decompose to ?b
+		?a: Nitrated lipids
+		?b: nitric oxide
+	?a decompose to ?b
+		?a: Nitrated lipids
+		?b: lipid radicals
+	?a cause ?b
+		?a: Nitrated lipids
+		?b: vasorelaxation
+
+

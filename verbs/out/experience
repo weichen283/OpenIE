@@ -1,0 +1,302 @@
+label:    sent_1
+sentence: We report on our experience with this half-open surgical technique .
+
+ppatt:
+	?a report on ?b
+		?a: We
+		?b: our experience with this half-open surgical technique
+
+
+label:    sent_2
+sentence: Influence of patients ' self-respect on their experience of feeling respected in doctor-patient interactions .
+
+ppatt:
+	?a respected in ?b
+		?a: feeling
+		?b: doctor-patient interactions
+
+
+label:    sent_3
+sentence: The paper also describes the faculty 's experience in the development of the course .
+
+ppatt:
+	?a also describes ?b
+		?a: The paper
+		?b: the faculty 's experience in the development of the course
+
+
+label:    sent_4
+sentence: Three years of experience : the Italian registry and safety data update .
+
+ppatt:
+	?a ?b update
+		?a: Three years of experience
+		?b: the Italian registry
+	?a ?b update
+		?a: Three years of experience
+		?b: safety
+	?a ?b update
+		?a: Three years of experience
+		?b: data
+
+
+label:    sent_5
+sentence: Our experience shows a recurrence rate of 8.7 % following definitive surgery for AVM .
+
+ppatt:
+	?a shows ?b
+		?a: Our experience
+		?b: a recurrence rate of 8.7 % following definitive surgery for AVM
+
+
+label:    sent_6
+sentence: An educational framework based on science and the authors ' experience is presented .
+
+ppatt:
+	?a is presented
+		?a: An educational framework based on science and the authors ' experience
+
+
+label:    sent_7
+sentence: Anaphylaxis in Israel : experience with 92 hospitalized children .
+
+ppatt:
+
+
+
+label:    sent_8
+sentence: A comparative study on the flow experience in web-based and text-based interaction environments .
+
+ppatt:
+
+
+
+label:    sent_9
+sentence: Reproductive choices and obstetrical experience in Dutch carriers of haemophilia A and B .
+
+ppatt:
+
+
+
+label:    sent_10
+sentence: Youth exiting foster care often experience difficulties transitioning into adulthood .
+
+ppatt:
+	?a foster ?b
+		?a: Youth exiting
+		?b: care
+	?a often experience ?b
+		?a: SOMETHING := Youth exiting foster care
+		?b: difficulties transitioning into adulthood
+	?a transitioning into ?b
+		?a: difficulties
+		?b: adulthood
+
+
+label:    sent_11
+sentence: Long-term single institution experience and literature review .
+
+ppatt:
+
+
+
+label:    sent_12
+sentence: Cancer survivorship was an ambiguous concept that predated the women 's cancer experience .
+
+ppatt:
+	?a was an ambiguous concept
+		?a: Cancer survivorship
+	?a predated ?b
+		?a: an ambiguous concept
+		?b: the women 's cancer experience
+
+
+label:    sent_13
+sentence: Herein we have reported our experience with AG .
+
+ppatt:
+	Herein ?a have reported ?b
+		?a: we
+		?b: our experience with AG
+
+
+label:    sent_14
+sentence: Herein we presented our experience performing retroperitoneal laparoscopic live donor nephrectomy in 105 donors .
+
+ppatt:
+	Herein ?a presented ?b
+		?a: we
+		?b: our experience performing retroperitoneal laparoscopic live donor nephrectomy in 105 donors
+	?a performing ?b
+		?a: our experience
+		?b: retroperitoneal laparoscopic live donor nephrectomy in 105 donors
+
+
+label:    sent_15
+sentence: We also relate our experience with continuous insulin infusion treatment for pegaspargase-induced hyperTG .
+
+ppatt:
+	?a also relate ?b
+		?a: We
+		?b: our experience with continuous insulin infusion treatment for pegaspargase-induced hyperTG
+
+
+label:    sent_16
+sentence: Patients receiving treatment with TM may experience adverse platelet count fluctuations during infections .
+
+ppatt:
+	?a receiving ?b
+		?a: Patients
+		?b: treatment with TM
+	?a may experience ?b during ?c
+		?a: Patients receiving treatment with TM
+		?b: adverse platelet count fluctuations
+		?c: infections
+
+
+label:    sent_17
+sentence: The patient did not experience recurrence or malignant metaplasia during the one-year follow-up period .
+
+ppatt:
+	?a did not experience ?b during ?c
+		?a: The patient
+		?b: recurrence
+		?c: the one-year follow-up period
+	?a did not experience ?b during ?c
+		?a: The patient
+		?b: malignant metaplasia
+		?c: the one-year follow-up period
+
+
+label:    sent_18
+sentence: APNs experience both challenges and successes in caring for women who live with IPV .
+
+ppatt:
+	?a experience ?b
+		?a: APNs
+		?b: both challenges in caring for women who live with IPV
+	?a experience ?b
+		?a: APNs
+		?b: successes
+	?a live with ?b
+		?a: women
+		?b: IPV
+
+
+label:    sent_19
+sentence: Anticipatory physiological arousal increased if the probabilistic cue and experience were conflicting .
+
+ppatt:
+	?a increased
+		?a: Anticipatory physiological arousal
+	?a were conflicting
+		?a: the probabilistic cue
+	?a were conflicting
+		?a: experience
+
+
+label:    sent_20
+sentence: Endobronchial closure of bronchopleural fistulae using amplatzer devices : our experience and literature review . Impact of gender , age and experience of pilots on general aviation accidents .
+
+ppatt:
+	?a using ?b
+		?a: Endobronchial closure of bronchopleural fistulae
+		?b: amplatzer devices
+
+
+label:    sent_21
+sentence: Integrating self and experience in narrative as a route to adolescent identity construction .
+
+ppatt:
+	Integrating ?a in ?b as ?c
+		?a: self
+		?b: narrative
+		?c: a route to adolescent identity construction
+	Integrating ?a in ?b as ?c
+		?a: experience
+		?b: narrative
+		?c: a route to adolescent identity construction
+
+
+label:    sent_22
+sentence: We collected dropout rates due to adverse events and experience of adverse events .
+
+ppatt:
+	?a collected ?b
+		?a: We
+		?b: dropout rates due to adverse events and experience of adverse events
+
+
+label:    sent_23
+sentence: Our recommendations are based on experience of the authors and review of relevant literature .
+
+ppatt:
+	?a are based on ?b
+		?a: Our recommendations
+		?b: experience of the authors and review of relevant literature
+
+
+label:    sent_24
+sentence: Herein we have reported our experience with this technique in acute posttransplantation PVT .
+
+ppatt:
+	Herein ?a have reported ?b
+		?a: we
+		?b: our experience with this technique in acute posttransplantation PVT
+
+
+label:    sent_25
+sentence: This article reports our experience with refractory Osgood-Schlatter disease in 22 patients . Research .
+
+ppatt:
+	?a reports ?b ?c
+		?a: This article
+		?b: our experience with refractory Osgood-Schlatter disease in 22 patients
+		?c: Research
+
+
+label:    sent_26
+sentence: Nonwhites , southerners experience greater morbidity from HIV/AIDS .
+
+ppatt:
+	?a ?b experience ?c
+		?a: Nonwhites
+		?b: southerners
+		?c: greater morbidity from HIV/AIDS
+
+
+label:    sent_27
+sentence: Many dogs with CILBD experience behavioral problems or are exposed to a stressful environment .
+
+ppatt:
+	?a experience ?b
+		?a: Many dogs with CILBD
+		?b: behavioral problems
+	?a are exposed to ?b
+		?a: Many dogs with CILBD
+		?b: a stressful environment
+
+
+label:    sent_28
+sentence: Premature babies experience pain and require adequate analgesia for any painful procedure .
+
+ppatt:
+	?a experience ?b
+		?a: Premature babies
+		?b: pain
+	?a require ?b
+		?a: Premature babies
+		?b: adequate analgesia for any painful procedure
+
+
+label:    sent_29
+sentence: There were no surgery-related deaths , but 2 patients did experience major neurologic morbidity .
+
+ppatt:
+	There were ?a
+		?a: no surgery-related deaths
+	?a did experience ?b
+		?a: 2 patients
+		?b: major neurologic morbidity
+
+

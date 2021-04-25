@@ -1,0 +1,221 @@
+label:    sent_1
+sentence: Under hypoxic conditions , embryos hatch in aqueous and nonaqueous media with equal success .
+
+ppatt:
+	Under ?a , ?b hatch in ?c ?d with ?e
+		?a: hypoxic conditions
+		?b: embryos
+		?c: aqueous
+		?d: media
+		?e: equal success
+	Under ?a , ?b hatch in ?c ?d with ?e
+		?a: hypoxic conditions
+		?b: embryos
+		?c: nonaqueous
+		?d: media
+		?e: equal success
+
+
+label:    sent_2
+sentence: Embryos with liver Pgm1 expression hatch earlier than embryos without liver Pgm1 expression .
+
+ppatt:
+	?a hatch earlier than ?b without ?c
+		?a: Embryos with liver Pgm1 expression
+		?b: embryos
+		?c: liver Pgm1 expression
+
+
+label:    sent_3
+sentence: Conservation : Giant tortoises hatch on Galapagos island .
+
+ppatt:
+
+
+
+label:    sent_4
+sentence: When the cost/benefit ratio is better outside the egg , animals should hatch . Embryos with liver damage could not hatch .
+
+ppatt:
+	When ?a is better outside the egg
+		?a: the cost/benefit ratio
+	?a should hatch
+		?a: animals
+	?a could not hatch
+		?a: Embryos with liver damage
+
+
+label:    sent_5
+sentence: Homozygotes die during 17-19 days of incubation , although a few may hatch .
+
+ppatt:
+	?a die during ?b
+		?a: Homozygotes
+		?b: 17-19 days of incubation
+	?a may hatch
+		?a: a few
+
+
+label:    sent_6
+sentence: After differentiation of the kinetome the tomites hatch . Chicken embryos are supposed to hatch on day 21 .
+
+ppatt:
+	After ?a ?b hatch
+		?a: differentiation of the kinetome
+		?b: the tomites
+	?a are supposed to hatch on ?b
+		?a: Chicken embryos
+		?b: day 21
+
+
+label:    sent_7
+sentence: In general , R. pirica hatch earlier than H. retardatus .
+
+ppatt:
+	In ?a , ?b hatch earlier than ?c
+		?a: general
+		?b: R. pirica
+		?c: H. retardatus
+
+
+label:    sent_8
+sentence: Some tailless species hatch , but some do not hatch before going through metamorphosis .
+
+ppatt:
+	?a hatch
+		?a: Some tailless species
+	?a do not hatch before ?b through ?c
+		?a: some
+		?b: going
+		?c: metamorphosis
+
+
+label:    sent_9
+sentence: Embryonated eggs did not hatch below 11 degrees C or above 17 degrees C .
+
+ppatt:
+	?a did not hatch below ?b
+		?a: Embryonated eggs
+		?b: 11 degrees C
+	?a did not hatch below ?b
+		?a: Embryonated eggs
+		?b: 17 degrees C
+
+
+label:    sent_10
+sentence: From the eggs new infective J2s hatch and start a new cycle .
+
+ppatt:
+	From ?a ?b hatch
+		?a: the eggs
+		?b: new infective J2s
+	?a start ?b
+		?a: new infective J2s
+		?b: a new cycle
+
+
+label:    sent_11
+sentence: Owl clutches typically hatch asynchronously , and brood size hierarchies develop .
+
+ppatt:
+	?a typically hatch asynchronously
+		?a: Owl clutches
+	?a develop
+		?a: brood size hierarchies
+
+
+label:    sent_12
+sentence: Effects of moment of hatch and feed access on chicken development .
+
+ppatt:
+
+
+
+label:    sent_13
+sentence: Blastocysts hatch and attach from their zonae pellucidae by 30 h .
+
+ppatt:
+	?a hatch from ?b by ?c
+		?a: Blastocysts
+		?b: their zonae pellucidae
+		?c: 30 h
+	?a attach
+		?a: Blastocysts
+
+
+label:    sent_14
+sentence: These eggs overwinter in the soil and almost all hatch the following June . Eggs embryonate in seawater but do not hatch . Researchers hatch a plan to make plastic from feathers .
+
+ppatt:
+	?a overwinter in ?b
+		?a: These eggs
+		?b: the soil
+	?a almost all hatch following ?b
+		?a: These eggs
+		?b: the June
+	?a embryonate in ?b
+		?a: Eggs
+		?b: seawater
+	?a do not hatch
+		?a: These eggs
+	?a hatch ?b
+		?a: Researchers
+		?b: a plan to make plastic from feathers
+	?a make ?b from ?c
+		?a: a plan
+		?b: plastic
+		?c: feathers
+
+
+label:    sent_15
+sentence: The " submarine hatch " nail bed biopsy . Development of the egg hatch assay for detection of anthelminthic resistance in human hookworms .
+
+ppatt:
+	?a hatch " ?b ?c for ?d
+		?a: The " submarine
+		?b: nail bed biopsy
+		?c: Development of the egg hatch assay
+		?d: detection of anthelminthic resistance in human hookworms
+
+
+label:    sent_16
+sentence: Can you hatch a new breed of executive ? Miracidia began to hatch 1 h after exposure to incandescent light .
+
+ppatt:
+	Can you hatch ?a
+		?a: a new breed of executive ? Miracidia
+	?a began to hatch ?b after ?c
+		?a: SOMETHING := Can you hatch a new breed of executive ? Miracidia
+		?b: 1 h
+		?c: exposure to incandescent light
+
+
+label:    sent_17
+sentence: The effect of overwing hatch placement on evacuation from smaller transport aircraft .
+
+ppatt:
+	?a overwing ?b on ?c
+		?a: The effect
+		?b: hatch placement
+		?c: evacuation from smaller transport aircraft
+
+
+label:    sent_18
+sentence: Pandemic fears hatch new methods in flu vaccine industry .
+
+ppatt:
+	?a hatch ?b
+		?a: Pandemic fears
+		?b: new methods in flu vaccine industry
+
+
+label:    sent_19
+sentence: The effect of overwing hatch placement on evacuation from smaller transport aircraft .
+
+ppatt:
+	?a overwing ?b on ?c
+		?a: The effect
+		?b: hatch placement
+		?c: evacuation from smaller transport aircraft
+
+

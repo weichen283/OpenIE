@@ -1,0 +1,140 @@
+label:    sent_1
+sentence: Males were significantly more likely to seroconvert than females .
+
+ppatt:
+	?a were significantly more likely to seroconvert than ?b
+		?a: Males
+		?b: females
+
+
+label:    sent_2
+sentence: The skunks that did not survive failed to seroconvert following vaccination .
+
+ppatt:
+	?a did not survive failed to seroconvert following ?b
+		?a: The skunks
+		?b: vaccination
+
+
+label:    sent_3
+sentence: Thirteen of the children in whom infections developed had failed to seroconvert after immunization .
+
+ppatt:
+	?a in ?b ?c developed
+		?a: Thirteen of the children
+		?b: whom
+		?c: infections
+	?a had failed to seroconvert after ?b
+		?a: Thirteen of the children in whom infections developed
+		?b: immunization
+
+
+label:    sent_4
+sentence: Of the 225 seronegative children 23 did not seroconvert after a single vaccination .
+
+ppatt:
+	Of ?a ?b did not seroconvert after ?c
+		?a: the 225 seronegative children
+		?b: 23
+		?c: a single vaccination
+
+
+label:    sent_5
+sentence: Among HIV-infected persons , those who subsequently seroconvert for HHV-8 are at highest risk . Despite triple vaccination 36.7 % of the kittens did not seroconvert .
+
+ppatt:
+	?a subsequently seroconvert for ?b
+		?a: those
+		?b: HHV-8
+	Among ?a , ?b are at highest risk . Despite ?c
+		?a: HIV-infected persons
+		?b: those who subsequently seroconvert for HHV-8
+		?c: triple vaccination
+	?a did not seroconvert
+		?a: 36.7 % of the kittens
+
+
+label:    sent_6
+sentence: The in-contact bats and horses did not seroconvert . 8.75 % of the vaccinees did not seroconvert .
+
+ppatt:
+	?a did not seroconvert
+		?a: The in-contact bats
+	?a did not seroconvert
+		?a: horses
+	?a did not seroconvert
+		?a: 8.75 % of the vaccinees
+
+
+label:    sent_7
+sentence: An in-contact calf did not seroconvert .
+
+ppatt:
+	?a did not seroconvert
+		?a: An in-contact calf
+
+
+label:    sent_8
+sentence: One of the recipients did not seroconvert and the hepatitis resolved .
+
+ppatt:
+	?a did not seroconvert
+		?a: One of the recipients
+	?a resolved
+		?a: the hepatitis
+
+
+label:    sent_9
+sentence: Grey-headed fruit bats seroconvert and develop subclinical disease when inoculated with HeV .
+
+ppatt:
+	?a seroconvert ?b
+		?a: Grey-headed fruit bats
+		?b: subclinical disease
+	?a develop
+		?a: Grey-headed fruit bats
+	?a when inoculated with ?b
+		?a: Grey-headed fruit bats
+		?b: HeV
+
+
+label:    sent_10
+sentence: The remaining 30 % of the transplant recipients did not seroconvert and were asymptomatic .
+
+ppatt:
+	?a did not seroconvert
+		?a: The remaining 30 % of the transplant recipients
+
+
+label:    sent_11
+sentence: The deer inoculated with E. canis did not become infected and did not seroconvert .
+
+ppatt:
+	?a inoculated with ?b
+		?a: The deer
+		?b: E. canis
+	?a did not become infected
+		?a: The deer inoculated with E. canis
+	?a did not seroconvert
+		?a: The deer inoculated with E. canis
+
+
+label:    sent_12
+sentence: The other 3 remained asymptomatic and did not seroconvert .
+
+ppatt:
+	?a remained asymptomatic
+		?a: The other 3
+	?a did not seroconvert
+		?a: The other 3
+
+
+label:    sent_13
+sentence: One dose of rCPV-PPRVH was enough to seroconvert 80 % of immunized sheep .
+
+ppatt:
+	?a was enough to seroconvert ?b
+		?a: One dose of rCPV-PPRVH
+		?b: 80 % of immunized sheep
+
+

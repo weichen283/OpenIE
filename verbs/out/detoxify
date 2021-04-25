@@ -1,0 +1,305 @@
+label:    sent_1
+sentence: It was found to reduce and detoxify redox-active metals like Cr and Hg . Arylamine N-acetyltransferases ( NAT1 and NAT2 ) acetylate and detoxify arylamine carcinogens .
+
+ppatt:
+	?a was found to reduce ?b like ?c
+		?a: It
+		?b: redox-active metals
+		?c: Cr
+	?a was found to reduce ?b like ?c
+		?a: It
+		?b: redox-active metals
+		?c: Hg
+	?a was found to reduce ?b like ?c
+		?a: It
+		?b: redox-active metals
+		?c: Arylamine N-acetyltransferases
+	?a was found to reduce ?b like ?c
+		?a: It
+		?b: redox-active metals
+		?c: acetylate
+	?a was found to detoxify
+		?a: It
+	?a was found to detoxify ?b
+		?a: It
+		?b: arylamine carcinogens
+
+
+label:    sent_2
+sentence: Glutathione S-transferase ( GST ) theta is an enzyme to detoxify xenobiotic compounds .
+
+ppatt:
+	?a is/are GST
+		?a: Glutathione S-transferase
+	?a is an enzyme
+		?a: Glutathione S-transferase ) theta
+	?a detoxify ?b
+		?a: an enzyme
+		?b: xenobiotic compounds
+
+
+label:    sent_3
+sentence: Some fish detoxify ammonia to glutamine or urea . Both enzymes detoxify oxygen free radicals . Hepatocytes detoxify Atuna racemosa extract .
+
+ppatt:
+	?a detoxify ?b to ?c
+		?a: Some fish
+		?b: ammonia
+		?c: glutamine
+	?a detoxify ?b to ?c
+		?a: Some fish
+		?b: ammonia
+		?c: urea
+	?a detoxify ?b
+		?a: Both enzymes
+		?b: oxygen free radicals
+	?a detoxify ?b
+		?a: Hepatocytes
+		?b: Atuna racemosa extract
+
+
+label:    sent_4
+sentence: Therefore the study was aimed to detoxify aflatoxin B1 in poultry feed .
+
+ppatt:
+	Therefore ?a was aimed to detoxify ?b in ?c
+		?a: the study
+		?b: aflatoxin B1
+		?c: poultry feed
+
+
+label:    sent_5
+sentence: Decreased liver glutathione suggests reduced ability to detoxify drugs through this conjugation pathway .
+
+ppatt:
+	?a suggests ?b
+		?a: Decreased liver glutathione
+		?b: reduced ability to detoxify drugs through this conjugation pathway
+	?a detoxify ?b through ?c
+		?a: reduced ability
+		?b: drugs
+		?c: this conjugation pathway
+
+
+label:    sent_6
+sentence: Acetyltransferases detoxify antibiotics by acetylation , this mechanism plays central role in antibiotic resistance .
+
+ppatt:
+	?a detoxify ?b by ?c
+		?a: Acetyltransferases
+		?b: antibiotics
+		?c: acetylation
+	?a plays ?b in ?c
+		?a: this mechanism
+		?b: central role
+		?c: antibiotic resistance
+
+
+label:    sent_7
+sentence: Both organic and STS amendments thus effectively degrade and detoxify acetochlor in soils . Laccases decolorize and detoxify the industrial effluents and help in wastewater treatment .
+
+ppatt:
+	?a thus effectively degrade ?b
+		?a: Both organic and STS amendments
+		?b: acetochlor in soils
+	?a detoxify
+		?a: Both organic and STS amendments
+	?a decolorize
+		?a: Laccases
+	?a detoxify ?b
+		?a: Laccases
+		?b: the industrial effluents
+	?a help in ?b
+		?a: Laccases
+		?b: wastewater treatment
+
+
+label:    sent_8
+sentence: Nuclear enzymes which could generate or detoxify reactive metabolites are of major concern .
+
+ppatt:
+	?a could generate ?b
+		?a: Nuclear enzymes
+		?b: reactive metabolites
+	?a detoxify
+		?a: which
+	?a are of major concern
+		?a: Nuclear enzymes which could generate or detoxify reactive metabolites
+
+
+label:    sent_9
+sentence: Microbes detoxify arsenate by reduction and efflux of arsenite .
+
+ppatt:
+	?a detoxify ?b by ?c
+		?a: Microbes
+		?b: arsenate
+		?c: reduction of arsenite
+	?a detoxify ?b by ?c
+		?a: Microbes
+		?b: arsenate
+		?c: efflux
+
+
+label:    sent_10
+sentence: None of the species could detoxify brain ammonia into urea . SOD-1 and SOD-2 detoxify superoxide in the cytoplasm and mitochondria .
+
+ppatt:
+	?a could detoxify ?b into ?c
+		?a: None of the species
+		?b: brain ammonia
+		?c: urea
+	?a detoxify ?b in ?c
+		?a: SOD-1
+		?b: superoxide
+		?c: the cytoplasm
+	?a detoxify ?b in ?c
+		?a: SOD-2
+		?b: superoxide
+		?c: the cytoplasm
+	?a detoxify ?b in ?c
+		?a: SOD-1
+		?b: superoxide
+		?c: mitochondria
+	?a detoxify ?b in ?c
+		?a: SOD-2
+		?b: superoxide
+		?c: mitochondria
+
+
+label:    sent_11
+sentence: Conjugation to biodegradable polymers can detoxify cancer drugs and improve efficacy .
+
+ppatt:
+	?a can detoxify ?b
+		?a: Conjugation to biodegradable polymers
+		?b: cancer drugs
+	?a improve ?b
+		?a: Conjugation to biodegradable polymers
+		?b: efficacy
+
+
+label:    sent_12
+sentence: Redundant catalases detoxify phagocyte reactive oxygen and facilitate Histoplasma capsulatum pathogenesis .
+
+ppatt:
+	?a detoxify ?b
+		?a: Redundant catalases
+		?b: phagocyte reactive oxygen
+	?a facilitate ?b
+		?a: Redundant catalases
+		?b: Histoplasma capsulatum pathogenesis
+
+
+label:    sent_13
+sentence: Enterocyte microvillus-derived vesicles detoxify bacterial products and regulate epithelial-microbial interactions .
+
+ppatt:
+	?a detoxify ?b
+		?a: Enterocyte microvillus-derived vesicles
+		?b: bacterial products
+	?a regulate ?b
+		?a: Enterocyte microvillus-derived vesicles
+		?b: epithelial-microbial interactions
+
+
+label:    sent_14
+sentence: Protective systems have evolved to detoxify and eliminate these xenobiotics .
+
+ppatt:
+	?a have evolved to detoxify ?b
+		?a: Protective systems
+		?b: these xenobiotics
+	?a have evolved to eliminate
+		?a: Protective systems
+
+
+label:    sent_15
+sentence: Transgenic plants have been engineered to rapidly detoxify and transform such xenobiotic chemicals .
+
+ppatt:
+	?a have been engineered to rapidly detoxify ?b
+		?a: Transgenic plants
+		?b: such xenobiotic chemicals
+	?a have been engineered to transform
+		?a: Transgenic plants
+
+
+label:    sent_16
+sentence: Microorganisms have consequently developed mechanisms to detoxify and tolerate this kind of compounds .
+
+ppatt:
+	?a have consequently developed ?b
+		?a: Microorganisms
+		?b: mechanisms to detoxify and tolerate this kind of compounds
+	?a detoxify ?b
+		?a: mechanisms
+		?b: this kind of compounds
+	tolerate ?a
+		?a: this kind of compounds
+
+
+label:    sent_17
+sentence: The yeast can tolerate some metals and detoxify them via different biomolecules .
+
+ppatt:
+	?a can tolerate ?b
+		?a: The yeast
+		?b: some metals
+	?a detoxify ?b via ?c
+		?a: The yeast
+		?b: them
+		?c: different biomolecules
+
+
+label:    sent_18
+sentence: They balance the production of free radicals and detoxify them when in excess .
+
+ppatt:
+	?a balance ?b
+		?a: They
+		?b: the production of free radicals
+	?a detoxify ?b
+		?a: They
+		?b: them
+	?a when in excess
+		?a: They
+
+
+label:    sent_19
+sentence: This study examines potential mechanisms by which cells might remove or detoxify such peroxides .
+
+ppatt:
+	?a examines ?b
+		?a: This study
+		?b: potential mechanisms by which cells might remove or detoxify such peroxides
+	?a by ?b might remove ?c
+		?a: potential mechanisms
+		?b: cells
+		?c: such peroxides
+	?a detoxify
+		?a: cells
+
+
+label:    sent_20
+sentence: The synthesized solution continued to detoxify through oxidizing reactions during a 72 h period .
+
+ppatt:
+	?a continued to detoxify through ?b during ?c
+		?a: The synthesized solution
+		?b: oxidizing reactions
+		?c: a 72 h period
+
+
+label:    sent_21
+sentence: Chemoprotection by EQ is accompanied by the overexpression of enzymes which detoxify activated AFB1 .
+
+ppatt:
+	?a is accompanied by ?b
+		?a: Chemoprotection by EQ
+		?b: the overexpression of enzymes which detoxify activated AFB1
+	?a detoxify ?b
+		?a: enzymes
+		?b: activated AFB1
+
+

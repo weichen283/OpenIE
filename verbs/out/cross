@@ -1,0 +1,40 @@
+label:    sent_1
+sentence: E. coli ProRS does not cross-aminoacylate human tRNA ( Pro ) , and the bacterial tRNA ( Pro ) is a poor substrate for the human enzyme .
+
+ppatt:
+	?a does not cross-aminoacylate ?b
+		?a: E. coli ProRS
+		?b: human tRNA
+	?a is/are Pro
+		?a: human tRNA
+	?a is/are Pro
+		?a: the bacterial tRNA
+	?a is a poor substrate for ?b
+		?a: the bacterial tRNA
+		?b: the human enzyme
+
+
+label:    sent_2
+sentence: It has been shown that eubacterial and eukaryotic TrpRSs can not efficiently cross-aminoacylate the corresponding tRNA ( Trp ) . During the early phases of thrombus formation , activated factor XIII ( FXIIIa ) covalently cross-links alpha ( 2 ) -antiplasmin to fibrin , indicating the potential of alpha ( 2 ) -antiplasmin-based CAs in the detection of early thrombus formation .
+
+ppatt:
+	?a has been shown ?b
+		?a: It
+		?b: SOMETHING := eubacterial and eukaryotic TrpRSs can not efficiently cross-aminoacylate the corresponding tRNA . During the early phases of thrombus formation , activated factor XIII covalently cross-links alpha -antiplasmin to fibrin , indicating the potential of alpha ( 2 ) -antiplasmin-based CAs in the detection of early thrombus formation
+	?a can not efficiently cross-aminoacylate ?b . During ?c ?d ?e
+		?a: eubacterial and eukaryotic TrpRSs
+		?b: the corresponding tRNA
+		?c: the early phases of thrombus formation , activated factor XIII
+		?d: cross-links
+		?e: covalently alpha -antiplasmin to fibrin
+	?a is/are Trp
+		?a: the corresponding tRNA
+	?a is/are FXIIIa
+		?a: activated factor XIII
+	?a is/are 2
+		?a: covalently alpha
+	?a indicating ?b
+		?a: eubacterial and eukaryotic TrpRSs
+		?b: the potential of alpha ( 2 ) -antiplasmin-based CAs in the detection of early thrombus formation
+
+

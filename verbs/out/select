@@ -1,0 +1,329 @@
+label:    sent_1
+sentence: It is important to select the method that best fits the patient 's situation .
+
+ppatt:
+	?a is important to select ?b
+		?a: It
+		?b: the method that best fits the patient 's situation
+	?a best fits ?b
+		?a: the method
+		?b: the patient 's situation
+
+
+label:    sent_2
+sentence: We used random cluster sampling to select 27 villages in Yunnan province , China . Certain factors are used to select patients in high-risk for relapse .
+
+ppatt:
+	?a used ?b
+		?a: We
+		?b: random cluster sampling to select 27 villages in Yunnan province
+	?a select ?b
+		?a: random cluster sampling
+		?b: 27 villages in Yunnan province
+	?a is/are China
+		?a: Yunnan province
+	?a are used to select ?b for ?c
+		?a: Certain factors
+		?b: patients in high-risk
+		?c: relapse
+
+
+label:    sent_3
+sentence: Seven radiologists were educated on evidence-based criteria used to select nodules for biopsy .
+
+ppatt:
+	?a were educated on ?b
+		?a: Seven radiologists
+		?b: evidence-based criteria used to select nodules for biopsy
+	?a used to select ?b
+		?a: evidence-based criteria
+		?b: nodules for biopsy
+
+
+label:    sent_4
+sentence: Hence , FGFR3 mutation analysis is not suitable to select patients for conservative management .
+
+ppatt:
+	Hence , ?a is not suitable to select ?b
+		?a: FGFR3 mutation analysis
+		?b: patients for conservative management
+
+
+label:    sent_5
+sentence: Molecular tumor signatures may help better select patients for treatment in the future .
+
+ppatt:
+	?a may help better select ?b
+		?a: Molecular tumor signatures
+		?b: patients for treatment in the future
+
+
+label:    sent_6
+sentence: How does the genetic assassin select its neuronal target ? Delivery of biologics to select organelles -- the role of biologically active polymers .
+
+ppatt:
+	How does ?a
+		?a: the genetic assassin
+	?a select ?b ?c
+		?a: the genetic assassin
+		?b: its neuronal target
+		?c: Delivery of biologics to select organelles
+
+
+label:    sent_7
+sentence: Combined with hedonic data , these results should help breeders to select banana hybrids .
+
+ppatt:
+	Combined with ?a ?b
+		?a: hedonic data
+		?b: these results
+	?a should help ?b to select ?c
+		?a: these results
+		?b: breeders
+		?c: banana hybrids
+
+
+label:    sent_8
+sentence: We discuss how to make accurate diagnosis and select appropriate treatment .
+
+ppatt:
+	?a discuss how to make ?b
+		?a: We
+		?b: accurate diagnosis
+	?a discuss how to make ?b
+		?a: We
+		?b: select appropriate treatment
+
+
+label:    sent_9
+sentence: Ethnography was used to select foods and assess acceptability factors .
+
+ppatt:
+	?a was used to select ?b
+		?a: Ethnography
+		?b: foods
+	?a was used to assess ?b
+		?a: Ethnography
+		?b: acceptability factors
+
+
+label:    sent_10
+sentence: Criteria to select appropriate turn and strand residues and to avoid aggregation are provided .
+
+ppatt:
+	?a select ?b
+		?a: Criteria
+		?b: appropriate turn
+	?a select ?b
+		?a: Criteria
+		?b: strand residues
+	?a avoid ?b
+		?a: Criteria
+		?b: aggregation
+	?a are provided
+		?a: Criteria to select appropriate turn and strand residues and to avoid aggregation
+
+
+label:    sent_11
+sentence: Freezing treatment or isolation method appeared not to select for a particular genotype .
+
+ppatt:
+	?a appeared not to select for ?b
+		?a: Freezing treatment
+		?b: a particular genotype
+	?a appeared not to select for ?b
+		?a: isolation method
+		?b: a particular genotype
+
+
+label:    sent_12
+sentence: In addition , AITDs appeared to select for specific TCR Vbeta families .
+
+ppatt:
+	In ?a , ?b appeared to select for ?c
+		?a: addition
+		?b: AITDs
+		?c: specific TCR Vbeta families
+
+
+label:    sent_13
+sentence: Dansyl lysine has previously been shown to select for cholesterol-free membrane domains .
+
+ppatt:
+	?a has previously been shown to select for ?b
+		?a: Dansyl lysine
+		?b: cholesterol-free membrane domains
+
+
+label:    sent_14
+sentence: Ectomycorrhizal roots select distinctive bacterial and ascomycete communities in Swedish subarctic forests .
+
+ppatt:
+	?a select ?b
+		?a: Ectomycorrhizal roots
+		?b: distinctive bacterial in Swedish subarctic forests
+	?a select ?b
+		?a: Ectomycorrhizal roots
+		?b: ascomycete
+
+
+label:    sent_15
+sentence: A primer on how to select osteopathic applicants to an allopathic general surgery residency .
+
+ppatt:
+	?a how to select ?b to ?c
+		?a: A primer
+		?b: osteopathic applicants
+		?c: an allopathic general surgery residency
+
+
+label:    sent_16
+sentence: They also differ in how often they select the best strategy on each problem .
+
+ppatt:
+	?a also differ
+		?a: They
+	how often ?a select ?b on ?c
+		?a: they
+		?b: the best strategy
+		?c: each problem
+
+
+label:    sent_17
+sentence: High temperature and bacteriophages can indirectly select for bacterial pathogenicity in environmental reservoirs .
+
+ppatt:
+	?a can indirectly select for ?b
+		?a: High temperature
+		?b: bacterial pathogenicity in environmental reservoirs
+	?a can indirectly select for ?b
+		?a: bacteriophages
+		?b: bacterial pathogenicity in environmental reservoirs
+
+
+label:    sent_18
+sentence: Lectins as tools to select for glycosylated proteins .
+
+ppatt:
+	?a select for ?b
+		?a: tools
+		?b: glycosylated proteins
+
+
+label:    sent_19
+sentence: Recent work indicates that partner choice can select for high levels of helping . CHROMagar O26 / O157 agar plates were used to select and isolate EHEC .
+
+ppatt:
+	?a indicates ?b
+		?a: Recent work
+		?b: SOMETHING := partner choice can select for high levels of helping
+	?a can select for ?b
+		?a: partner choice
+		?b: high levels of helping
+	?a of helping
+		?a: high levels
+	?a were used to select ?b
+		?a: CHROMagar O26 O157 agar plates
+		?b: EHEC
+	?a were used to isolate
+		?a: CHROMagar O26 O157 agar plates
+
+
+label:    sent_20
+sentence: Novel methods to select and characterise target-specific probiotic strains are thus needed .
+
+ppatt:
+	?a select ?b
+		?a: Novel methods
+		?b: target-specific probiotic strains
+	?a characterise
+		?a: Novel methods
+	?a are thus needed
+		?a: Novel methods to select and characterise target-specific probiotic strains
+
+
+label:    sent_21
+sentence: Expertise is required to select and coordinate the appropriate combinations .
+
+ppatt:
+	?a is required to select ?b
+		?a: Expertise
+		?b: the appropriate combinations
+	?a is required to coordinate
+		?a: Expertise
+
+
+label:    sent_22
+sentence: Then , we select one of the proposed methods and analyze it further .
+
+ppatt:
+	Then , ?a select ?b
+		?a: we
+		?b: one of the proposed methods
+	?a analyze ?b further
+		?a: we
+		?b: it
+
+
+label:    sent_23
+sentence: Such an association enables bacteria to select virulence factors and survive in adverse conditions .
+
+ppatt:
+	?a enables ?b to select ?c
+		?a: Such an association
+		?b: bacteria
+		?c: virulence factors
+	?a enables to survive in ?b
+		?a: Such an association
+		?b: adverse conditions
+
+
+label:    sent_24
+sentence: The brain must select one speech stream and ignore distracting streams .
+
+ppatt:
+	?a must select ?b
+		?a: The brain
+		?b: one speech stream
+	?a ignore ?b
+		?a: The brain
+		?b: distracting streams
+
+
+label:    sent_25
+sentence: Humans spontaneously select a step frequency that minimizes the energy expenditure of walking .
+
+ppatt:
+	?a spontaneously select ?b
+		?a: Humans
+		?b: a step frequency that minimizes the energy expenditure of walking
+	?a minimizes ?b
+		?a: a step frequency
+		?b: the energy expenditure of walking
+
+
+label:    sent_26
+sentence: They can select , highlight and view detailed information from specific alignments and annotations . VCUHS and MCV physicians select PatientKeeper to enhance doctor mobility .
+
+ppatt:
+	?a can select
+		?a: They
+	?a highlight
+		?a: They
+	?a view ?b
+		?a: They
+		?b: detailed information from specific alignments and annotations
+	?a select ?b to enhance ?c
+		?a: VCUHS
+		?b: PatientKeeper
+		?c: doctor mobility
+	?a select ?b to enhance ?c
+		?a: MCV
+		?b: PatientKeeper
+		?c: doctor mobility
+	?a select ?b to enhance ?c
+		?a: physicians
+		?b: PatientKeeper
+		?c: doctor mobility
+
+

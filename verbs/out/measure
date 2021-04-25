@@ -1,0 +1,328 @@
+label:    sent_1
+sentence: Acoustic reflection technology was used to measure vocal tract dimensions in the 2 groups .
+
+ppatt:
+	?a was used to measure ?b
+		?a: Acoustic reflection technology
+		?b: vocal tract dimensions in the 2 groups
+
+
+label:    sent_2
+sentence: Using tryptophan fluorescence to measure the stability of membrane proteins folded in liposomes .
+
+ppatt:
+	Using ?a
+		?a: tryptophan fluorescence
+	measure ?a
+		?a: the stability of membrane proteins folded in liposomes
+	?a folded in ?b
+		?a: membrane proteins
+		?b: liposomes
+
+
+label:    sent_3
+sentence: How to measure the impact of chemistry on the small screen .
+
+ppatt:
+	How to measure ?a
+		?a: the impact of chemistry on the small screen
+
+
+label:    sent_4
+sentence: We have used targeted aequorins to selectively measure calcium fluxes in different organelles .
+
+ppatt:
+	?a have used ?b to selectively measure ?c
+		?a: We
+		?b: targeted aequorins
+		?c: calcium fluxes in different organelles
+
+
+label:    sent_5
+sentence: This can be used to measure very large distances in dispersive media .
+
+ppatt:
+	?a can be used to measure ?b
+		?a: This
+		?b: very large distances in dispersive media
+
+
+label:    sent_6
+sentence: A tri-axial accelerometer was used to measure limb acceleration in three-dimensional space .
+
+ppatt:
+	?a was used to measure ?b
+		?a: A tri-axial accelerometer
+		?b: limb acceleration in three-dimensional space
+
+
+label:    sent_7
+sentence: Several assessment instruments have been developed that attempt to measure decision regret .
+
+ppatt:
+	?a have been developed ?b
+		?a: Several assessment instruments
+		?b: SOMETHING := that attempt to measure decision regret
+	?a attempt to measure ?b
+		?a: Several assessment instruments
+		?b: decision regret
+
+
+label:    sent_8
+sentence: Most pediatric anesthesiologists ( 89 % ) measure the hemoglobin level before PRBC transfusion .
+
+ppatt:
+	?a is/are 89 %
+		?a: Most pediatric anesthesiologists
+	?a measure ?b before ?c
+		?a: Most pediatric anesthesiologists
+		?b: the hemoglobin level
+		?c: PRBC transfusion
+
+
+label:    sent_9
+sentence: Implantable magnetic relaxation sensors measure cumulative exposure to cardiac biomarkers .
+
+ppatt:
+	?a measure ?b
+		?a: Implantable magnetic relaxation sensors
+		?b: cumulative exposure to cardiac biomarkers
+
+
+label:    sent_10
+sentence: How can I accurately measure a wound and how often should I do it ? Therefore , we can use sound attenuation to measure the spinon mass and lifetime .
+
+ppatt:
+	How can I accurately measure ?a
+		?a: a wound
+	how often should I do ?a ? Therefore , ?b can use ?c
+		?a: it
+		?b: we
+		?c: sound attenuation to measure the spinon
+	?a measure ?b
+		?a: sound attenuation
+		?b: the spinon
+
+
+label:    sent_11
+sentence: Urine collections were obtained for U analysis and to measure renal function parameters .
+
+ppatt:
+	?a were obtained for ?b
+		?a: Urine collections
+		?b: U analysis
+	?a measure ?b
+		?a: Urine collections
+		?b: renal function parameters
+
+
+label:    sent_12
+sentence: Use of flow cytometry to measure biogeochemical rates and processes in the ocean .
+
+ppatt:
+	?a measure ?b
+		?a: Use of flow cytometry
+		?b: biogeochemical rates in the ocean
+	?a measure ?b
+		?a: Use of flow cytometry
+		?b: processes
+
+
+label:    sent_13
+sentence: Most studies measure outcome in terms of activity limitations and participation restriction .
+
+ppatt:
+	?a measure ?b
+		?a: Most studies
+		?b: outcome in terms of activity limitations and participation restriction
+
+
+label:    sent_14
+sentence: A new method to measure torsion moments on small-scaled specimens .
+
+ppatt:
+	?a measure ?b
+		?a: A new method
+		?b: torsion moments on small-scaled specimens
+
+
+label:    sent_15
+sentence: Formal pathology review was conducted to measure and verify margin status .
+
+ppatt:
+	?a was conducted to measure ?b
+		?a: Formal pathology review
+		?b: margin status
+	?a was conducted to verify
+		?a: Formal pathology review
+
+
+label:    sent_16
+sentence: Using a nursing balanced scorecard approach to measure and optimize nursing performance .
+
+ppatt:
+	Using ?a
+		?a: a nursing balanced scorecard approach to measure and optimize nursing performance
+	?a measure ?b
+		?a: a nursing balanced scorecard approach
+		?b: nursing performance
+	optimize ?a
+		?a: nursing performance
+
+
+label:    sent_17
+sentence: Finally , novel ways to better measure and treat the electrical substrate are discussed .
+
+ppatt:
+	?a better measure ?b
+		?a: novel ways
+		?b: the electrical substrate
+	?a treat
+		?a: novel ways
+	Finally , ?a are discussed
+		?a: novel ways to better measure and treat the electrical substrate
+
+
+label:    sent_18
+sentence: A system to irradiate and measure luminescence at low temperatures .
+
+ppatt:
+	?a irradiate ?b at ?c
+		?a: A system
+		?b: luminescence
+		?c: low temperatures
+	measure ?a
+		?a: luminescence
+
+
+label:    sent_19
+sentence: To image and measure iris tumors with optical coherence tomography ( OCT ) . A method was developed to measure tooth display in both smile types and speech .
+
+ppatt:
+	image ?a ?b
+		?a: iris tumors with optical coherence tomography
+		?b: A method
+	measure ?a
+		?a: A method
+	?a is/are OCT
+		?a: optical coherence tomography
+	?a was developed to measure ?b in ?c
+		?a: A method
+		?b: tooth display
+		?c: smile types
+	?a was developed to measure ?b in ?c
+		?a: A method
+		?b: tooth display
+		?c: speech
+
+
+label:    sent_20
+sentence: Current methods of assessing platelet activity measure platelet count and function in isolation .
+
+ppatt:
+	?a assessing ?b
+		?a: Current methods
+		?b: platelet activity
+	?a measure ?b
+		?a: Current methods of assessing platelet activity
+		?b: platelet count
+	?a function in ?b
+		?a: Current methods of assessing platelet activity
+		?b: isolation
+
+
+label:    sent_21
+sentence: They measure 35 X 65 nm and are therefore considerably larger than ribosomes .
+
+ppatt:
+	?a measure ?b
+		?a: They
+		?b: 35 X 65 nm
+
+
+label:    sent_22
+sentence: An all-condition measure may better measure quality and promote innovation .
+
+ppatt:
+	?a may better measure ?b
+		?a: An all-condition measure
+		?b: quality
+	?a promote ?b
+		?a: An all-condition measure
+		?b: innovation
+
+
+label:    sent_23
+sentence: SMCs given antiapoptotic pretreatments exhibited improvements in each measure relative to controls .
+
+ppatt:
+	?a given ?b
+		?a: SMCs
+		?b: antiapoptotic pretreatments
+	?a exhibited ?b relative to ?c
+		?a: SMCs given antiapoptotic pretreatments
+		?b: improvements in each measure
+		?c: controls
+
+
+label:    sent_24
+sentence: Accurate enantiomeric excesses are determined that are not possible to measure on static samples .
+
+ppatt:
+	?a are determined ?b
+		?a: Accurate enantiomeric excesses
+		?b: SOMETHING := that are not possible to measure on static samples
+	?a are not possible to measure on ?b
+		?a: that
+		?b: static samples
+
+
+label:    sent_25
+sentence: Plasma estrogens were difficult to measure in this small species .
+
+ppatt:
+	?a were difficult to measure in ?b
+		?a: Plasma estrogens
+		?b: this small species
+
+
+label:    sent_26
+sentence: Current spectrophotometers measure murein hydrolase activity simultaneously under many conditions and in small intervals .
+
+ppatt:
+	?a measure ?b simultaneously under ?c
+		?a: Current spectrophotometers
+		?b: murein hydrolase activity
+		?c: many conditions
+	?a measure ?b simultaneously under ?c
+		?a: Current spectrophotometers
+		?b: murein hydrolase activity
+		?c: small intervals
+
+
+label:    sent_27
+sentence: We can measure LAI repeatedly in AMI non-invasively , and predict LVEDP .
+
+ppatt:
+	?a can measure ?b repeatedly in ?c non-invasively
+		?a: We
+		?b: LAI
+		?c: AMI
+	?a predict ?b
+		?a: We
+		?b: LVEDP
+
+
+label:    sent_28
+sentence: We currently measure them in one way , and this paper describes an alternative .
+
+ppatt:
+	?a currently measure ?b in ?c
+		?a: We
+		?b: them
+		?c: one way
+	?a describes ?b
+		?a: this paper
+		?b: an alternative
+
+

@@ -1,0 +1,120 @@
+label:    sent_1
+sentence: We employed image analysis software to digitize the EBUS image .
+
+ppatt:
+	?a employed ?b
+		?a: We
+		?b: image analysis software
+	?a digitize ?b
+		?a: We
+		?b: the EBUS image
+
+
+label:    sent_2
+sentence: A structured light laser scanner was used to digitize the nondefect patient ear . Second the number of bits required to digitize the image is derived .
+
+ppatt:
+	?a was used to digitize ?b
+		?a: A structured light laser scanner
+		?b: the nondefect patient ear
+	?a required to digitize ?b
+		?a: bits
+		?b: the image
+	Second ?a is derived
+		?a: the number of bits required to digitize the image
+
+
+label:    sent_3
+sentence: High-resolution video recorders were used to digitize dog walking and spontaneous movement at night .
+
+ppatt:
+	?a were used to digitize ?b
+		?a: High-resolution video recorders
+		?b: dog walking at night
+	?a were used to digitize ?b
+		?a: High-resolution video recorders
+		?b: spontaneous movement
+
+
+label:    sent_4
+sentence: Peak Motus 8.2 was used to digitize all seven jumps from each athlete .
+
+ppatt:
+	?a was used to digitize ?b
+		?a: Peak Motus 8.2
+		?b: all seven jumps from each athlete
+
+
+label:    sent_5
+sentence: Computer programs were developed in our laboratory to digitize and store the data . A minicomputer system has been developed to digitize and store visual field data . A Quantimet 570C image analysis system was used to digitize and analyse the microradiographs .
+
+ppatt:
+	?a were developed in ?b
+		?a: Computer programs
+		?b: our laboratory to digitize and store the data
+	?a digitize ?b
+		?a: our laboratory
+		?b: the data
+	store ?a
+		?a: the data
+	?a has been developed to digitize ?b
+		?a: A minicomputer system
+		?b: visual field data
+	?a has been developed to store
+		?a: A minicomputer system
+	?a was used to digitize ?b
+		?a: A Quantimet 570C image analysis system
+		?b: the microradiographs
+	?a was used to analyse
+		?a: A Quantimet 570C image analysis system
+
+
+label:    sent_6
+sentence: The program can digitize analog signals and store data on a magnetic tape .
+
+ppatt:
+	?a can digitize ?b
+		?a: The program
+		?b: analog signals
+	?a store ?b
+		?a: The program
+		?b: data on a magnetic tape
+
+
+label:    sent_7
+sentence: To digitize 100 cells with this method takes an average of 16 min .
+
+ppatt:
+	digitize ?a with ?b
+		?a: 100 cells
+		?b: this method
+	?a takes ?b
+		?a: SOMETHING := To digitize 100 cells with this method
+		?b: an average of 16 min
+
+
+label:    sent_8
+sentence: Nanoclusters digitize Ras signalling . 11 ways to digitize health care of the future . ScanScope software can digitize entire cytology slides .
+
+ppatt:
+	?a digitize ?b
+		?a: 11 ways
+		?b: health care of the future . ScanScope software
+	?a can digitize ?b
+		?a: Nanoclusters digitize Ras signalling . 11 ways to digitize health care of the future . ScanScope software
+		?b: entire cytology slides
+
+
+label:    sent_9
+sentence: Graphics workstations can digitize and store multiple video sources real-time with full video framerate .
+
+ppatt:
+	?a can digitize
+		?a: Graphics workstations
+	?a store
+		?a: Graphics workstations
+	?a real-time with ?b
+		?a: multiple video sources
+		?b: full video framerate
+
+

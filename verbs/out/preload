@@ -1,0 +1,36 @@
+label:    sent_1
+sentence: All groups decreased subsequent intake after the high-calorie preload except bulimics .
+
+ppatt:
+	?a decreased ?b after ?c
+		?a: All groups
+		?b: subsequent intake
+		?c: the high-calorie preload except bulimics
+
+
+label:    sent_2
+sentence: Reduction in IAP and re-establishment of caval flow restores preload with improvement in CO .
+
+ppatt:
+	?a restores ?b
+		?a: Reduction in IAP
+		?b: preload with improvement in CO
+	?a restores ?b
+		?a: re-establishment of caval flow
+		?b: preload with improvement in CO
+
+
+label:    sent_3
+sentence: Effect of isometric thumb preload on the evoked compound muscle action potential .
+
+ppatt:
+
+
+
+label:    sent_4
+sentence: Effect of a soup preload on reduction of food intake by cholecystokinin in humans . Monitoring preload during liver transplantation .
+
+ppatt:
+
+
+

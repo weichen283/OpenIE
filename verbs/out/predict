@@ -1,0 +1,288 @@
+label:    sent_1
+sentence: The findings may help predict successful pregnancy in single-blastocyst transfer .
+
+ppatt:
+	?a may help predict ?b in ?c
+		?a: The findings
+		?b: successful pregnancy
+		?c: single-blastocyst transfer
+
+
+label:    sent_2
+sentence: Wolff-Parkinson-White syndrome and isoproterenol testing in children : a valid adjunct to predict risk ? To date , docking programs have not been used to predict interaction partners .
+
+ppatt:
+	?a predict ?b ? To ?c
+		?a: a valid adjunct
+		?b: risk
+		?c: date
+	?a ?b have not been used to predict ?c
+		?a: Wolff-Parkinson-White syndrome in children
+		?b: docking programs
+		?c: interaction partners
+	?a ?b have not been used to predict ?c
+		?a: isoproterenol testing
+		?b: docking programs
+		?c: interaction partners
+
+
+label:    sent_3
+sentence: Does serum Tau protein predict the outcome of patients with ischemic stroke ? However , a diagnosis for major depression or chronic depression did not predict quitting .
+
+ppatt:
+	Does ?a predict ?b
+		?a: serum Tau protein
+		?b: the outcome of patients with ischemic stroke
+	However , ?a did not predict ?b
+		?a: a diagnosis for major depression or chronic depression
+		?b: quitting
+
+
+label:    sent_4
+sentence: Dobutamine stress CMR : can we predict outcome ? To determine psychological factors that predict success in a medical career .
+
+ppatt:
+	determine ?a
+		?a: psychological factors that predict success in a medical career
+	?a predict ?b
+		?a: psychological factors
+		?b: success in a medical career
+
+
+label:    sent_5
+sentence: Using claims-based measures to predict performance status score in patients with lung cancer .
+
+ppatt:
+	Using ?a
+		?a: claims-based measures to predict performance status score in patients with lung cancer
+	?a predict ?b
+		?a: claims-based measures
+		?b: performance status score in patients with lung cancer
+
+
+label:    sent_6
+sentence: Screening for NPHS2 mutations may help predict FSGS recurrence after transplantation .
+
+ppatt:
+	?a may help predict ?b after ?c
+		?a: Screening for NPHS2 mutations
+		?b: FSGS recurrence
+		?c: transplantation
+
+
+label:    sent_7
+sentence: Noninvasive cerebral oxygenation may predict outcome in patients undergoing aortic arch surgery . CD151 expression can predict cancer progression in clear cell renal cell carcinoma . RIFLE and Acute Kidney Injury Network classifications predict mortality in leptospirosis-associated acute kidney injury . Atrial fibrillation : HAS-BLED -- a new risk score to predict bleeding in patients with AF .
+
+ppatt:
+	?a may predict ?b
+		?a: Noninvasive cerebral oxygenation
+		?b: outcome in patients undergoing aortic arch surgery
+	?a undergoing ?b
+		?a: patients
+		?b: aortic arch surgery
+	?a can predict ?b in ?c
+		?a: CD151 expression
+		?b: cancer progression
+		?c: clear cell renal cell carcinoma
+	?a ?b predict ?c
+		?a: RIFLE
+		?b: Acute Kidney Injury Network classifications
+		?c: mortality in leptospirosis-associated acute kidney injury
+	?a is/are Atrial fibrillation
+		?a: HAS-BLED
+	?a is/are a new risk score
+		?a: HAS-BLED
+	?a predict ?b
+		?a: a new risk score
+		?b: bleeding in patients with AF
+
+
+label:    sent_8
+sentence: We showed that CSF neutrophils predict which patients will develop DCV .
+
+ppatt:
+	?a showed ?b
+		?a: We
+		?b: SOMETHING := CSF neutrophils predict which patients will develop DCV
+	?a predict ?b
+		?a: CSF neutrophils
+		?b: SOMETHING := which patients will develop DCV
+	?a ?b will develop ?c
+		?a: which
+		?b: patients
+		?c: DCV
+
+
+label:    sent_9
+sentence: We predict that phytoplankton is the main food resource used by these species .
+
+ppatt:
+	?a predict ?b
+		?a: We
+		?b: SOMETHING := phytoplankton is the main food resource used by these species
+	?a is the main food resource
+		?a: phytoplankton
+	?a used by ?b
+		?a: the main food resource
+		?b: these species
+
+
+label:    sent_10
+sentence: Externalizing problems in girls precede and predict later parental divorce .
+
+ppatt:
+	?a precede ?b
+		?a: Externalizing problems in girls
+		?b: later parental divorce
+	?a predict
+		?a: Externalizing problems in girls
+
+
+label:    sent_11
+sentence: Asymptomatic multiclonal P. falciparum infections are common and may predict host protection .
+
+ppatt:
+	?a are common
+		?a: Asymptomatic multiclonal P. falciparum infections
+	?a may predict ?b
+		?a: Asymptomatic multiclonal P. falciparum infections
+		?b: host protection
+
+
+label:    sent_12
+sentence: Spirometry can guide therapies for COPD and predict outcomes when used in general practice .
+
+ppatt:
+	?a can guide ?b
+		?a: Spirometry
+		?b: therapies for COPD
+	?a predict ?b
+		?a: Spirometry
+		?b: outcomes
+	?a when used in ?b
+		?a: Spirometry
+		?b: general practice
+
+
+label:    sent_13
+sentence: A k-mer scheme to predict piRNAs and characterize locust piRNAs .
+
+ppatt:
+	?a predict ?b
+		?a: A k-mer scheme
+		?b: piRNAs
+	characterize ?a
+		?a: locust piRNAs
+
+
+label:    sent_14
+sentence: Donor human leukocyte antigen specific antibodies predict development and define prognosis in transplant glomerulopathy . MEGAN and BEIS predict spatially similar emissions but magnitudes differ .
+
+ppatt:
+	?a predict ?b
+		?a: Donor human leukocyte antigen specific antibodies
+		?b: development
+	?a define ?b
+		?a: Donor human leukocyte antigen specific antibodies
+		?b: prognosis in transplant glomerulopathy
+	?a predict ?b
+		?a: MEGAN
+		?b: spatially similar emissions
+	?a predict ?b
+		?a: BEIS
+		?b: spatially similar emissions
+	?a differ
+		?a: magnitudes
+
+
+label:    sent_15
+sentence: There is a plethora of in vitro methods to predict and characterize liver toxicity .
+
+ppatt:
+	There is ?a
+		?a: a plethora of in methods to predict and characterize liver toxicity
+	?a predict ?b
+		?a: in methods
+		?b: liver toxicity
+	characterize ?a
+		?a: liver toxicity
+
+
+label:    sent_16
+sentence: Various techniques have been developed to predict and measure pilot workload .
+
+ppatt:
+	?a have been developed to predict ?b
+		?a: Various techniques
+		?b: pilot workload
+	?a have been developed to measure
+		?a: Various techniques
+
+
+label:    sent_17
+sentence: The PWM can be applied to predict and understand adolescents ' eating behaviour .
+
+ppatt:
+	?a can be applied to predict ?b
+		?a: The PWM
+		?b: adolescents ' eating behaviour
+	?a can be applied to understand
+		?a: The PWM
+
+
+label:    sent_18
+sentence: Still alluring and hard to predict at 100 .
+
+ppatt:
+	Still alluring to predict at ?a
+		?a: 100
+
+
+label:    sent_19
+sentence: Prostate volume does not predict for favorable PSA after cryoablation .
+
+ppatt:
+	?a does not predict for ?b after ?c
+		?a: Prostate volume
+		?b: favorable PSA
+		?c: cryoablation
+
+
+label:    sent_20
+sentence: Team factors that predict to sustainability indicators for community-based prevention teams .
+
+ppatt:
+	?a predict to ?b
+		?a: Team factors
+		?b: sustainability indicators for community-based prevention teams
+
+
+label:    sent_21
+sentence: For both genders , effort did not predict self-reported health , but reward did . Fibrinogen levels predict mortality but in a non-specific manner .
+
+ppatt:
+	For ?a , ?b did not predict ?c
+		?a: both genders
+		?b: effort
+		?c: self-reported health
+	?a did
+		?a: reward
+	?a predict ?b in ?c
+		?a: Fibrinogen levels
+		?b: mortality
+		?c: a non-specific manner
+
+
+label:    sent_22
+sentence: Platelet-monocyte aggregates predict troponin rise after percutaneous coronary intervention and are inhibited by Abciximab .
+
+ppatt:
+	?a predict ?b after ?c
+		?a: Platelet-monocyte aggregates
+		?b: troponin rise
+		?c: percutaneous coronary intervention
+	?a are inhibited by ?b
+		?a: Platelet-monocyte aggregates
+		?b: Abciximab
+
+

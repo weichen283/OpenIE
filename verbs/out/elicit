@@ -1,0 +1,333 @@
+label:    sent_1
+sentence: The 5-HT receptor agonists DOI or mCPP also failed to elicit drug-seeking .
+
+ppatt:
+	?a also failed to elicit ?b
+		?a: The 5-HT receptor agonists
+		?b: drug-seeking
+
+
+label:    sent_2
+sentence: Eleven short stories have been used to elicit emotional arousal in 27 healthy participants .
+
+ppatt:
+	?a have been used to elicit ?b in ?c
+		?a: Eleven short stories
+		?b: emotional arousal
+		?c: 27 healthy participants
+
+
+label:    sent_3
+sentence: Pups were fostered into litters of 6 or 12 to elicit divergent growth patterns .
+
+ppatt:
+	?a were fostered into ?b to elicit ?c
+		?a: Pups
+		?b: litters of 6 or 12
+		?c: divergent growth patterns
+
+
+label:    sent_4
+sentence: Does Campylobacter jejuni infection elicit axonal or demyelinating Guillain-Barre syndrome , or both ? Most successful vaccines elicit antibodies that protect against infection .
+
+ppatt:
+	?a ?b elicit ?c
+		?a: Does
+		?b: Campylobacter jejuni infection
+		?c: axonal
+	?a ?b elicit ?c
+		?a: Does
+		?b: Campylobacter jejuni infection
+		?c: demyelinating
+	?a ?b elicit ?c
+		?a: both
+		?b: Most successful vaccines
+		?c: antibodies that protect against infection
+	?a protect against ?b
+		?a: antibodies
+		?b: infection
+
+
+label:    sent_5
+sentence: Thus , multivalent live-attenuated vaccines elicit multifactorial protective immunity to P. aeruginosa lung infections .
+
+ppatt:
+	Thus , ?a elicit ?b
+		?a: multivalent live-attenuated vaccines
+		?b: multifactorial protective immunity to P. aeruginosa lung infections
+
+
+label:    sent_6
+sentence: Thus endogenous danger signals and exogenous PAMPs elicit similar responses through seemingly similar mechanisms .
+
+ppatt:
+	Thus ?a elicit ?b through ?c
+		?a: endogenous danger signals
+		?b: similar responses
+		?c: seemingly similar mechanisms
+	Thus ?a elicit ?b through ?c
+		?a: exogenous PAMPs
+		?b: similar responses
+		?c: seemingly similar mechanisms
+
+
+label:    sent_7
+sentence: Mucosal infections elicit inflammatory responses via regulated signaling pathways .
+
+ppatt:
+	?a elicit ?b via ?c
+		?a: Mucosal infections
+		?b: inflammatory responses
+		?c: regulated signaling pathways
+
+
+label:    sent_8
+sentence: Multi-feature objects elicit nonconscious priming despite crowding .
+
+ppatt:
+	?a elicit ?b despite ?c
+		?a: Multi-feature objects
+		?b: nonconscious priming
+		?c: crowding
+
+
+label:    sent_9
+sentence: Precursor and mature BDNF are assumed to elicit opposing biological effects in neuroplasticity .
+
+ppatt:
+	?a are assumed to elicit ?b in ?c
+		?a: Precursor
+		?b: opposing biological effects
+		?c: neuroplasticity
+	?a are assumed to elicit ?b in ?c
+		?a: mature
+		?b: opposing biological effects
+		?c: neuroplasticity
+	?a are assumed to elicit ?b in ?c
+		?a: BDNF
+		?b: opposing biological effects
+		?c: neuroplasticity
+
+
+label:    sent_10
+sentence: Evidence for a gut-brain axis used by glucagon-like peptide-1 to elicit hyperglycaemia in fish . Engaging socially vulnerable populations to elicit ethical values and perspectives on rationing ; 3 . Emulsions lacking sevoflurane failed to induce anesthesia but did elicit the allergic response .
+
+ppatt:
+	?a used by ?b to elicit ?c in ?d
+		?a: a gut-brain axis
+		?b: glucagon-like peptide-1
+		?c: hyperglycaemia
+		?d: fish
+	?a Engaging ?b to elicit ?c
+		?a: Evidence for a gut-brain axis used by glucagon-like peptide-1 to elicit hyperglycaemia in fish
+		?b: socially vulnerable populations
+		?c: ethical values on rationing
+	?a Engaging ?b to elicit ?c
+		?a: Evidence for a gut-brain axis used by glucagon-like peptide-1 to elicit hyperglycaemia in fish
+		?b: socially vulnerable populations
+		?c: perspectives
+	?a lacking ?b
+		?a: Emulsions
+		?b: sevoflurane
+	?a failed to induce ?b
+		?a: Emulsions lacking sevoflurane
+		?b: anesthesia
+	?a failed to did elicit ?b
+		?a: Emulsions lacking sevoflurane
+		?b: the allergic response
+
+
+label:    sent_11
+sentence: PACAP increased excitability , but did not elicit Ca2+ release from intracellular stores .
+
+ppatt:
+	?a increased ?b
+		?a: PACAP
+		?b: excitability
+	?a did not elicit ?b from ?c
+		?a: PACAP
+		?b: Ca2+ release
+		?c: intracellular stores
+
+
+label:    sent_12
+sentence: The supernumerary synapses induced by PI3K overexpression are functional and elicit changes in behavior .
+
+ppatt:
+	?a induced by ?b
+		?a: The supernumerary synapses
+		?b: PI3K overexpression
+	?a are functional
+		?a: The supernumerary synapses induced by PI3K overexpression
+	?a elicit ?b
+		?a: The supernumerary synapses induced by PI3K overexpression
+		?b: changes in behavior
+
+
+label:    sent_13
+sentence: System of rabbit antigens which elicit skin-reacting transplantation antibodies and are different from RLA .
+
+ppatt:
+	?a elicit ?b
+		?a: rabbit antigens
+		?b: skin-reacting transplantation antibodies
+
+
+label:    sent_14
+sentence: cGMP could elicit pP47 phosphorylation but only at high concentrations .
+
+ppatt:
+	?a could elicit ?b
+		?a: cGMP
+		?b: pP47 phosphorylation
+
+
+label:    sent_15
+sentence: These vocalizations elicit maternal care and influence the behaviour of other juveniles .
+
+ppatt:
+	?a elicit ?b
+		?a: These vocalizations
+		?b: maternal care
+	?a influence ?b
+		?a: These vocalizations
+		?b: the behaviour of other juveniles
+
+
+label:    sent_16
+sentence: In 2014 the expert panel will elicit feedback from peers and finalize the framework . By contrast , vasopressin did not elicit an inflammatory response or modify CYP3A4 expression .
+
+ppatt:
+	In ?a ?b will elicit ?c
+		?a: 2014
+		?b: the expert panel
+		?c: feedback from peers
+	?a finalize ?b
+		?a: the expert panel
+		?b: the framework
+	By ?a , ?b did not elicit ?c
+		?a: contrast
+		?b: vasopressin
+		?c: an inflammatory response
+	?a modify ?b
+		?a: vasopressin
+		?b: CYP3A4 expression
+
+
+label:    sent_17
+sentence: In patients and in control subjects , weak stimuli did not elicit EMG activation .
+
+ppatt:
+	In ?a , ?b did not elicit ?c
+		?a: patients
+		?b: weak stimuli
+		?c: EMG activation
+	In ?a , ?b did not elicit ?c
+		?a: control subjects
+		?b: weak stimuli
+		?c: EMG activation
+
+
+label:    sent_18
+sentence: These eggs elicit an immune reaction that leads to the formation of granulomas .
+
+ppatt:
+	?a elicit ?b
+		?a: These eggs
+		?b: an immune reaction that leads to the formation of granulomas
+	?a leads to ?b
+		?a: an immune reaction
+		?b: the formation of granulomas
+
+
+label:    sent_19
+sentence: However , bioabsorbable implants elicit a local foreign-body reaction that may lead to osteolysis .
+
+ppatt:
+	However , ?a elicit ?b
+		?a: bioabsorbable implants
+		?b: a local foreign-body reaction that may lead to osteolysis
+	?a may lead to ?b
+		?a: a local foreign-body reaction
+		?b: osteolysis
+
+
+label:    sent_20
+sentence: Sodium chloride , HCl , quinine , or monosodium glutamate did not elicit CPIR .
+
+ppatt:
+	?a did not elicit ?b
+		?a: Sodium chloride
+		?b: CPIR
+	?a did not elicit ?b
+		?a: HCl
+		?b: CPIR
+	?a did not elicit ?b
+		?a: quinine
+		?b: CPIR
+	?a did not elicit ?b
+		?a: monosodium glutamate
+		?b: CPIR
+
+
+label:    sent_21
+sentence: CHS-treated cells may have unmasked tumor-associated antigens to which patients may elicit immunologic responses .
+
+ppatt:
+	?a may have unmasked ?b
+		?a: CHS-treated cells
+		?b: tumor-associated antigens to which patients may elicit immunologic responses
+	?a to ?b may elicit ?c
+		?a: tumor-associated antigens
+		?b: patients
+		?c: immunologic responses
+
+
+label:    sent_22
+sentence: However , the mechanisms by which neurotrophins elicit gene expression remain largely unknown .
+
+ppatt:
+	?a by ?b elicit ?c
+		?a: the mechanisms
+		?b: neurotrophins
+		?c: gene expression
+	However , ?a remain largely unknown
+		?a: the mechanisms by which neurotrophins elicit gene expression
+
+
+label:    sent_23
+sentence: The mechanism by which multiple activators elicit such effects is unknown .
+
+ppatt:
+	?a by ?b elicit ?c
+		?a: The mechanism
+		?b: multiple activators
+		?c: such effects
+	?a is unknown
+		?a: The mechanism by which multiple activators elicit such effects
+
+
+label:    sent_24
+sentence: Both species are efficiently phagocytosed and elicit an oxidative burst by neutrophils and monocytes .
+
+ppatt:
+	?a are efficiently phagocytosed
+		?a: Both species
+	?a elicit ?b
+		?a: Both species
+		?b: an oxidative burst by neutrophils and monocytes
+
+
+label:    sent_25
+sentence: Calreticulin displays in vivo peptide-binding activity and can elicit CTL responses against bound peptides .
+
+ppatt:
+	?a displays ?b
+		?a: Calreticulin
+		?b: in peptide-binding activity
+	?a can elicit ?b against ?c
+		?a: Calreticulin
+		?b: CTL responses
+		?c: bound peptides
+
+

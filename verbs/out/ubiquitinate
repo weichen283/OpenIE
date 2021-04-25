@@ -1,0 +1,190 @@
+label:    sent_1
+sentence: Interestingly , Nedd4 is also able to ubiquitinate GGA3 .
+
+ppatt:
+	Interestingly , ?a is also able to ubiquitinate ?b
+		?a: Nedd4
+		?b: GGA3
+
+
+label:    sent_2
+sentence: Here , we found that Parkin can interact with and ubiquitinate mTOR .
+
+ppatt:
+	Here , ?a found ?b
+		?a: we
+		?b: SOMETHING := Parkin can interact with mTOR
+	?a can interact ?b ?c
+		?a: Parkin
+		?b: with
+		?c: mTOR
+	?a ubiquitinate
+		?a: Parkin
+
+
+label:    sent_3
+sentence: Charged E2s function with E3s to ubiquitinate substrates . SHARPIN-containing complexes can linearly ubiquitinate NEMO and activated NF-kappaB .
+
+ppatt:
+	?a function with ?b to ?c
+		?a: Charged E2s
+		?b: E3s
+		?c: ubiquitinate substrates
+	?a can linearly ubiquitinate ?b
+		?a: SHARPIN-containing complexes
+		?b: NEMO
+	?a can linearly ubiquitinate ?b
+		?a: SHARPIN-containing complexes
+		?b: activated NF-kappaB
+
+
+label:    sent_4
+sentence: We speculate that SopA ubiquitinate bacterial/host proteins involved in Salmonella-induced intestinal inflammation .
+
+ppatt:
+	?a speculate ?b
+		?a: We
+		?b: SOMETHING := SopA ubiquitinate bacterial/host proteins involved in Salmonella-induced intestinal inflammation
+	?a ubiquitinate ?b
+		?a: SopA
+		?b: bacterial/host proteins involved in Salmonella-induced intestinal inflammation
+	?a involved in ?b
+		?a: bacterial/host proteins
+		?b: Salmonella-induced intestinal inflammation
+
+
+label:    sent_5
+sentence: Furthermore , Nedd4-2 could ubiquitinate KCNQ2/3 in transfected cells .
+
+ppatt:
+	Furthermore , ?a could ubiquitinate ?b in ?c
+		?a: Nedd4-2
+		?b: KCNQ2/3
+		?c: transfected cells
+
+
+label:    sent_6
+sentence: Ubiquitin ligases recognize and ubiquitinate target proteins for subsequent degradation by the 26S proteasome .
+
+ppatt:
+	?a recognize ?b for ?c
+		?a: Ubiquitin ligases
+		?b: target proteins
+		?c: subsequent degradation by the 26S proteasome
+	?a ubiquitinate
+		?a: Ubiquitin ligases
+
+
+label:    sent_7
+sentence: To ubiquitinate or to deubiquitinate : it all depends on the partners .
+
+ppatt:
+	ubiquitinate or to ?a
+		?a: deubiquitinate
+	?a all depends on ?b
+		?a: it
+		?b: the partners
+
+
+label:    sent_8
+sentence: Cullin-RING ubiquitin ligases ubiquitinate protein substrates and control their levels through degradation .
+
+ppatt:
+	?a ubiquitinate ?b
+		?a: Cullin-RING ubiquitin ligases
+		?b: protein substrates
+	?a control ?b through ?c
+		?a: Cullin-RING ubiquitin ligases
+		?b: their levels
+		?c: degradation
+
+
+label:    sent_9
+sentence: CRLs ubiquitinate substrate proteins and thus target them for proteasomal degradation .
+
+ppatt:
+	?a ubiquitinate ?b
+		?a: CRLs
+		?b: substrate proteins
+	?a thus target ?b for ?c
+		?a: CRLs
+		?b: them
+		?c: proteasomal degradation
+
+
+label:    sent_10
+sentence: Smurf1 also enhances Rac1 activation but it does not ubiquitinate Rac1 .
+
+ppatt:
+	?a also enhances ?b
+		?a: Smurf1
+		?b: Rac1 activation
+	?a does not ubiquitinate ?b
+		?a: it
+		?b: Rac1
+
+
+label:    sent_11
+sentence: Thus Nedd4-2 does not ubiquitinate and thereby regulate wt-CFTR in human airway epithelial cells .
+
+ppatt:
+	Thus ?a does not ubiquitinate
+		?a: Nedd4-2
+	?a thereby regulate ?b
+		?a: Nedd4-2
+		?b: wt-CFTR in human airway epithelial cells
+
+
+label:    sent_12
+sentence: They are ubiquitin ligases that ubiquitinate and target many signaling molecules for degradation .
+
+ppatt:
+	?a are ubiquitin ligases
+		?a: They
+	?a ubiquitinate
+		?a: ubiquitin ligases
+	?a target ?b for ?c
+		?a: that
+		?b: many signaling molecules
+		?c: degradation
+
+
+label:    sent_13
+sentence: Cbl proteins are ubiquitin ligases that ubiquitinate and target many signaling molecules for degradation .
+
+ppatt:
+	?a are ubiquitin ligases
+		?a: Cbl proteins
+	?a ubiquitinate
+		?a: ubiquitin ligases
+	?a target ?b for ?c
+		?a: that
+		?b: many signaling molecules
+		?c: degradation
+
+
+label:    sent_14
+sentence: Interestingly , UbcH6 could ubiquitinate ataxin-1 in the absence of an E3 ligase .
+
+ppatt:
+	Interestingly , ?a could ubiquitinate ?b of ?c
+		?a: UbcH6
+		?b: ataxin-1
+		?c: an E3 ligase
+
+
+label:    sent_15
+sentence: Like most E3 ligases , Mdm2 can also ubiquitinate itself . AIP4 is found to bind and ubiquitinate Amot130 at residue Lys-481 .
+
+ppatt:
+	Like ?a , ?b can also ubiquitinate ?c
+		?a: most E3 ligases
+		?b: Mdm2
+		?c: itself
+	?a is found to bind ?b
+		?a: AIP4
+		?b: Amot130 residue
+	?a is found to ubiquitinate
+		?a: AIP4
+
+

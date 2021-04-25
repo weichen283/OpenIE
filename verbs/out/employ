@@ -1,0 +1,355 @@
+label:    sent_1
+sentence: Other virus species and cancer cells may employ analogous strategies to impair p53 activity .
+
+ppatt:
+	?a may employ ?b to impair ?c
+		?a: Other virus species
+		?b: analogous strategies
+		?c: p53 activity
+	?a may employ ?b to impair ?c
+		?a: cancer cells
+		?b: analogous strategies
+		?c: p53 activity
+
+
+label:    sent_2
+sentence: Simulations involving the Lennard-Jones potential usually employ a cutoff at r = 2.5sigma .
+
+ppatt:
+	?a involving ?b
+		?a: Simulations
+		?b: the Lennard-Jones potential
+	?a usually employ ?b
+		?a: Simulations involving the Lennard-Jones potential
+		?b: a cutoff
+
+
+label:    sent_3
+sentence: To circumvent this error we employ the second flexural bending mode .
+
+ppatt:
+	circumvent ?a ?b
+		?a: this error
+		?b: we
+	?a employ ?b
+		?a: we
+		?b: the second flexural bending mode
+
+
+label:    sent_4
+sentence: It is possible to employ cross-linking agents to improve physical properties of cooked YAN .
+
+ppatt:
+	?a is possible to employ ?b to improve ?c
+		?a: It
+		?b: cross-linking agents
+		?c: physical properties of cooked YAN
+
+
+label:    sent_5
+sentence: Hospitals ' race to employ physicians -- the logic behind a money-losing proposition .
+
+ppatt:
+	?a employ ?b ?c
+		?a: Hospitals race
+		?b: physicians
+		?c: the logic behind a money-losing proposition
+
+
+label:    sent_6
+sentence: It is helpful to detect CA-125 level and employ B-mode ultrasound imaging .
+
+ppatt:
+	?a is helpful to detect ?b
+		?a: It
+		?b: CA-125 level
+	?a is helpful to employ ?b
+		?a: It
+		?b: B-mode ultrasound imaging
+
+
+label:    sent_7
+sentence: There are little data on how older adults with schizophrenia employ various coping styles .
+
+ppatt:
+	There are ?a
+		?a: little data on how older adults with schizophrenia employ various coping styles
+	?a how ?b employ ?c
+		?a: little data
+		?b: older adults with schizophrenia
+		?c: various coping styles
+
+
+label:    sent_8
+sentence: Many types of mass spectrometers employ rf-only quadrupoles as ion guides .
+
+ppatt:
+	?a employ ?b as ?c
+		?a: Many types of mass spectrometers
+		?b: rf-only quadrupoles
+		?c: ion guides
+
+
+label:    sent_9
+sentence: They are novel lectins that employ the fibrinogen-like domain as a functional domain .
+
+ppatt:
+	?a are novel lectins
+		?a: They
+	?a employ ?b as ?c
+		?a: novel lectins
+		?b: the fibrinogen-like domain
+		?c: a functional domain
+
+
+label:    sent_10
+sentence: Clinicians are encouraged to employ these methods in routine practice .
+
+ppatt:
+	?a are encouraged to employ ?b in ?c
+		?a: Clinicians
+		?b: these methods
+		?c: routine practice
+
+
+label:    sent_11
+sentence: The decision to employ vitamin preparations in therapeutic amounts clearly rests with the physician .
+
+ppatt:
+	?a employ ?b in ?c
+		?a: The decision
+		?b: vitamin preparations
+		?c: therapeutic amounts
+	?a clearly rests with ?b
+		?a: The decision to employ vitamin preparations in therapeutic amounts
+		?b: the physician
+
+
+label:    sent_12
+sentence: It is important to employ chelation therapy prior to any operative intervention .
+
+ppatt:
+	?a is important to employ ?b prior to ?c
+		?a: It
+		?b: chelation therapy
+		?c: any operative intervention
+
+
+label:    sent_13
+sentence: These systems employ various imaging modalities , but few include clinical parameters .
+
+ppatt:
+	?a employ ?b
+		?a: These systems
+		?b: various imaging modalities
+	?a include ?b
+		?a: few
+		?b: clinical parameters
+
+
+label:    sent_14
+sentence: The algorithms used are statistical , but they employ nonlinear dynamics and machine learning .
+
+ppatt:
+	?a used
+		?a: The algorithms
+	?a are statistical
+		?a: The algorithms used
+	?a employ ?b
+		?a: they
+		?b: nonlinear dynamics
+	?a employ ?b
+		?a: they
+		?b: machine learning
+
+
+label:    sent_15
+sentence: Health care providers employ regulation strategies and patients and their families employ substitution strategies .
+
+ppatt:
+	?a employ ?b
+		?a: Health care providers
+		?b: regulation strategies
+	?a employ ?b
+		?a: Health care providers
+		?b: patients
+	?a employ ?b
+		?a: their families
+		?b: substitution strategies
+
+
+label:    sent_16
+sentence: What Strategies do US hospitals employ to reduce unwarranted clinical practice variations ?
+
+ppatt:
+	?a do ?b employ to reduce ?c
+		?a: What Strategies
+		?b: US hospitals
+		?c: unwarranted clinical practice variations
+
+
+label:    sent_17
+sentence: We also employ an error correction methodology that effectively utilizes the channel model .
+
+ppatt:
+	?a also employ ?b
+		?a: We
+		?b: an error correction methodology that effectively utilizes the channel model
+	?a effectively utilizes ?b
+		?a: an error correction methodology
+		?b: the channel model
+
+
+label:    sent_18
+sentence: This article explores several safeguards public hospital can employ to ensure adequate accountability .
+
+ppatt:
+	?a explores ?b
+		?a: This article
+		?b: several safeguards public hospital can employ to ensure adequate accountability
+	?a ?b can employ to ensure ?c
+		?a: several safeguards
+		?b: public hospital
+		?c: adequate accountability
+
+
+label:    sent_19
+sentence: Nidoviruses employ unique strategies to replicate and express their exceptionally large RNA genomes .
+
+ppatt:
+	?a employ ?b to replicate
+		?a: Nidoviruses
+		?b: unique strategies
+	?a employ to express ?b
+		?a: Nidoviruses
+		?b: their exceptionally large RNA genomes
+
+
+label:    sent_20
+sentence: Meanwhile , RICA is essentially an unsupervised method and does not employ class information .
+
+ppatt:
+	Meanwhile , ?a is essentially an unsupervised method
+		?a: RICA
+	?a does not employ ?b
+		?a: RICA
+		?b: class information
+
+
+label:    sent_21
+sentence: Both assays are competitive in nature but employ quite different types of ligands .
+
+ppatt:
+	?a are competitive in ?b
+		?a: Both assays
+		?b: nature
+	?a employ ?b
+		?a: Both assays
+		?b: quite different types of ligands
+
+
+label:    sent_22
+sentence: Osteoporosis is a treatable condition and the oncologist should employ ADT with this knowledge .
+
+ppatt:
+	?a is a treatable condition
+		?a: Osteoporosis
+	?a should employ ?b with ?c
+		?a: the oncologist
+		?b: ADT
+		?c: this knowledge
+
+
+label:    sent_23
+sentence: We employ an acousto-optic cell as a tunable-pitch wavefront sensor and study its performance .
+
+ppatt:
+	?a employ ?b as ?c
+		?a: We
+		?b: an acousto-optic cell
+		?c: a tunable-pitch wavefront sensor
+	?a study ?b
+		?a: We
+		?b: its performance
+
+
+label:    sent_24
+sentence: The first four employ transplantation as well , and the fifth uses dialysis .
+
+ppatt:
+	?a employ ?b
+		?a: The first four
+		?b: transplantation
+	?a uses ?b
+		?a: the fifth
+		?b: dialysis
+
+
+label:    sent_25
+sentence: Current methods of myocardial protection usually employ together with topical hypothermia by pericardial lavage .
+
+ppatt:
+	?a usually employ together with ?b by ?c
+		?a: Current methods of myocardial protection
+		?b: topical hypothermia
+		?c: pericardial lavage
+
+
+label:    sent_26
+sentence: The objective was to describe strategies pregnant adolescents employ in coping with domestic violence .
+
+ppatt:
+	?a was to describe ?b
+		?a: The objective
+		?b: strategies pregnant adolescents employ in coping with domestic violence
+	?a ?b employ in ?c
+		?a: strategies
+		?b: pregnant adolescents
+		?c: coping with domestic violence
+
+
+label:    sent_27
+sentence: At present , its 54 companies employ directly and indirectly about 50,000 people .
+
+ppatt:
+	At ?a , ?b employ directly ?c
+		?a: present
+		?b: its 54 companies
+		?c: indirectly about 50,000 people
+
+
+label:    sent_28
+sentence: Good results can be obtained when suturing a nerve employ with epineural anchoring stitches .
+
+ppatt:
+	?a can be obtained
+		?a: Good results
+	?a when suturing ?b
+		?a: Good results
+		?b: a nerve
+	?a employ with ?b
+		?a: Good results
+		?b: epineural anchoring stitches
+
+
+label:    sent_29
+sentence: Measurement of blood urea based in optical sensing by employ in hemodialysis treatment .
+
+ppatt:
+	?a employ in ?b
+		?a: Measurement of blood urea based in optical sensing
+		?b: hemodialysis treatment
+
+
+label:    sent_30
+sentence: Critical reflection is needed on the strategies practitioners employ to deal with MUPS .
+
+ppatt:
+	?a is needed on ?b
+		?a: Critical reflection
+		?b: the strategies
+	?a employ to deal with ?b
+		?a: practitioners
+		?b: MUPS
+
+

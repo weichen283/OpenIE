@@ -1,0 +1,248 @@
+label:    sent_1
+sentence: Specific assumptions to arrive at these special cases are made and explained .
+
+ppatt:
+	?a arrive at ?b
+		?a: Specific assumptions
+		?b: these special cases
+	?a are made
+		?a: Specific assumptions to arrive at these special cases
+	?a explained
+		?a: Specific assumptions to arrive at these special cases
+
+
+label:    sent_2
+sentence: The so-called F12b approximation is used to arrive at computationally efficient formulas . A model trimming approach was used to arrive at a well fitting model .
+
+ppatt:
+	?a is used to arrive at ?b
+		?a: The so-called F12b approximation
+		?b: computationally efficient formulas
+	?a was used to arrive at ?b
+		?a: A model trimming approach
+		?b: a well fitting model
+
+
+label:    sent_3
+sentence: Following initial adversity , internationally adopted children arrive with significant growth and developmental delays . Platelets arrive at the scene of fibrosis ...... studies . Few patients arrive early enough at hospitals to be eligible for emergent stroke treatment .
+
+ppatt:
+	Following ?a , ?b arrive with ?c
+		?a: initial adversity
+		?b: internationally adopted children
+		?c: significant growth
+	Following ?a , ?b arrive with ?c
+		?a: initial adversity
+		?b: internationally adopted children
+		?c: developmental delays
+	?a arrive at ?b
+		?a: Platelets
+		?b: the scene of fibrosis ...... studies
+	?a arrive early enough at ?b to be eligible for ?c
+		?a: Few patients
+		?b: hospitals
+		?c: emergent stroke treatment
+
+
+label:    sent_4
+sentence: They arrive from all the French countries and also European one . It should arrive in due time and its content should serve its purpose .
+
+ppatt:
+	?a arrive from ?b
+		?a: They
+		?b: the French countries
+	?a also European ?b
+		?a: They
+		?b: one
+	?a should arrive in ?b
+		?a: It
+		?b: due time
+	?a should serve ?b
+		?a: its content
+		?b: its purpose
+
+
+label:    sent_5
+sentence: Primordial germ cells arrive in the gonad and accumulate on the coelomic surface .
+
+ppatt:
+	?a arrive in ?b
+		?a: Primordial germ cells
+		?b: the gonad
+	?a accumulate on ?b
+		?a: Primordial germ cells
+		?b: the coelomic surface
+
+
+label:    sent_6
+sentence: Late reflections generate both energetic and informational masking and arrive from all directions .
+
+ppatt:
+	?a generate ?b
+		?a: Late reflections
+		?b: both energetic and informational masking
+	?a arrive from ?b
+		?a: Late reflections
+		?b: all directions
+
+
+label:    sent_7
+sentence: Subsequently , arrive at implications for clinical practices and set foundation for future research .
+
+ppatt:
+	Subsequently , arrive at ?a
+		?a: implications for clinical practices
+	set ?a
+		?a: foundation for future research
+
+
+label:    sent_8
+sentence: Companies misread clues and arrive at false conclusions all the time .
+
+ppatt:
+	?a misread ?b
+		?a: Companies
+		?b: clues
+	?a arrive at ?b ?c
+		?a: Companies
+		?b: false conclusions
+		?c: all the time
+
+
+label:    sent_9
+sentence: Healthcare professionals in the ED naturally react as quickly as possible when patients arrive .
+
+ppatt:
+	?a naturally react as quickly as ?b
+		?a: Healthcare professionals in the ED
+		?b: possible
+	when ?a arrive
+		?a: patients
+
+
+label:    sent_10
+sentence: Depressed moods do not arrive already hallmarked ' endogenous ' . Where are we going and how will we know when we arrive ? Falling is the main reason for which people over 70 arrive at emergency rooms .
+
+ppatt:
+	?a do not arrive already hallmarked ?b
+		?a: Depressed moods
+		?b: SOMETHING := Where are we going
+	Where are ?a going
+		?a: we
+	how will ?a know ?b
+		?a: we
+		?b: SOMETHING := Falling is the main reason for which people over 70 arrive at emergency rooms
+	when ?a arrive
+		?a: we
+	?a is the main reason
+		?a: Falling
+	?a for ?b arrive at ?c
+		?a: the main reason
+		?b: people over 70
+		?c: emergency rooms
+
+
+label:    sent_11
+sentence: Concurrently , MNLs arrive and remove the pigment from the choroid .
+
+ppatt:
+	Concurrently , ?a arrive ?b
+		?a: MNLs
+		?b: the pigment from the choroid
+	?a remove
+		?a: MNLs
+
+
+label:    sent_12
+sentence: Nerve fibres from the olfactory tubercle arrive and pass through the amygdaloid area .
+
+ppatt:
+	?a arrive
+		?a: Nerve fibres from the olfactory tubercle
+	?a pass through ?b
+		?a: Nerve fibres from the olfactory tubercle
+		?b: the amygdaloid area
+
+
+label:    sent_13
+sentence: The paramedics arrive , and perform a rapid fingerstick cardiac biomarker panel and ECG .
+
+ppatt:
+	?a arrive
+		?a: The paramedics
+	?a perform ?b
+		?a: The paramedics
+		?b: a rapid fingerstick cardiac biomarker panel
+	?a perform ?b
+		?a: The paramedics
+		?b: ECG
+
+
+label:    sent_14
+sentence: Patients who arrive home several hours after ambulatory surgery may drink alcohol .
+
+ppatt:
+	?a arrive ?b
+		?a: Patients
+		?b: home several hours after ambulatory surgery
+	?a may drink ?b
+		?a: Patients who arrive home several hours after ambulatory surgery
+		?b: alcohol
+
+
+label:    sent_15
+sentence: Patients who arrive home several hours after outpatient surgery may drink alcohol .
+
+ppatt:
+	?a arrive ?b
+		?a: Patients
+		?b: home several hours after outpatient surgery
+	?a may drink ?b
+		?a: Patients who arrive home several hours after outpatient surgery
+		?b: alcohol
+
+
+label:    sent_16
+sentence: Based on these observations we arrive at the optimal recipe for a high-quality overlayer .
+
+ppatt:
+	Based on these observations ?a
+		?a: we
+	?a arrive at ?b
+		?a: we
+		?b: the optimal recipe for a high-quality overlayer
+
+
+label:    sent_17
+sentence: Larger vehicles tended to be judged to arrive sooner than motorcycles .
+
+ppatt:
+	?a tended to be judged to arrive ?b than ?c
+		?a: Larger vehicles
+		?b: sooner
+		?c: motorcycles
+
+
+label:    sent_18
+sentence: Low-income youth with behavior disorders were less likely to arrive voluntarily to PES .
+
+ppatt:
+	?a were less likely to arrive voluntarily to ?b
+		?a: Low-income youth with behavior disorders
+		?b: PES
+
+
+label:    sent_19
+sentence: The average time to arrive and perform surgery is 3 h in most cases .
+
+ppatt:
+	?a arrive ?b
+		?a: The average time
+		?b: surgery
+	?a perform
+		?a: The average time
+	?a is 3 h in ?b
+		?a: The average time to arrive and perform surgery
+		?b: most cases
+
+

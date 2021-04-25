@@ -1,0 +1,84 @@
+label:    sent_1
+sentence: This synoptic reporting system can help practicing pathologists and pathology trainees to draft a complete and concise report .
+
+ppatt:
+	?a can help ?b to draft ?c
+		?a: This synoptic reporting system
+		?b: practicing pathologists
+		?c: a complete and concise report
+	?a can help ?b to draft ?c
+		?a: This synoptic reporting system
+		?b: pathology trainees
+		?c: a complete and concise report
+
+
+label:    sent_2
+sentence: Literature review and the Delphi approach were used to draft the core competency items of hospital infection control nurses in Hong Kong .
+
+ppatt:
+	?a were used to draft ?b
+		?a: Literature review
+		?b: the core competency items of hospital infection control nurses in Hong Kong
+	?a were used to draft ?b
+		?a: the Delphi approach
+		?b: the core competency items of hospital infection control nurses in Hong Kong
+
+
+label:    sent_3
+sentence: It is also the aim of this paper to give an overview of the existing documents and draft documents relevant for this field and available in the internet .
+
+ppatt:
+	?a is also the aim of ?b
+		?a: It
+		?b: this paper
+	?a give ?b
+		?a: also the aim of this paper
+		?b: an overview of the existing documents and draft documents relevant for this field and available in the internet
+
+
+label:    sent_4
+sentence: Sixty SmtB / ArsR operators linked to metal detoxification genes , including nine among various archaeal species , are predicted among 230 annotated and draft prokaryotic genome sequences .
+
+ppatt:
+	?a linked to ?b
+		?a: Sixty SmtB / ArsR operators
+		?b: metal detoxification genes , including nine among various archaeal species
+	?a are predicted among ?b
+		?a: Sixty SmtB / ArsR operators linked to metal detoxification genes , including nine among various archaeal species
+		?b: 230 annotated
+	?a draft ?b
+		?a: Sixty SmtB / ArsR operators linked to metal detoxification genes , including nine among various archaeal species
+		?b: prokaryotic genome sequences
+
+
+label:    sent_5
+sentence: The patient can draft early directives . Most participants ( 59 % ) would choose to continue the activities associated with the legislation but advised facilities in states considering similar legislation to educate staff and patients about MRSA screening and to draft clear implementation plans .
+
+ppatt:
+	?a can draft ?b
+		?a: The patient
+		?b: early directives
+	?a is/are 59 %
+		?a: Most participants
+	?a would choose to continue ?b
+		?a: Most participants
+		?b: the activities associated with the legislation
+	?a associated with ?b
+		?a: the activities
+		?b: the legislation
+	?a advised ?b in ?c
+		?a: Most participants
+		?b: facilities
+		?c: states considering similar legislation to educate staff and patients about MRSA screening and to draft clear implementation plans
+	?a considering ?b to educate ?c
+		?a: states
+		?b: similar legislation
+		?c: staff about MRSA screening
+	?a considering ?b to educate ?c
+		?a: states
+		?b: similar legislation
+		?c: patients
+	considering to to draft ?a
+		?a: clear implementation plans
+
+

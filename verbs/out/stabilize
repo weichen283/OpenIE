@@ -1,0 +1,360 @@
+label:    sent_1
+sentence: Improving Salmonella vector with rec mutation to stabilize the DNA cargoes .
+
+ppatt:
+	Improving ?a with ?b
+		?a: Salmonella vector
+		?b: rec mutation
+	stabilize ?a
+		?a: the DNA cargoes
+
+
+label:    sent_2
+sentence: Genetic selection designed to stabilize proteins uncovers a chaperone called Spy . Creating prebiotic sanctuary : self-assembling supramolecular Peptide structures bind and stabilize RNA .
+
+ppatt:
+	?a designed to stabilize ?b
+		?a: Genetic selection
+		?b: proteins
+	?a uncovers ?b
+		?a: Genetic selection designed to stabilize proteins
+		?b: a chaperone called Spy
+	?a called Spy
+		?a: a chaperone
+	?a Creating ?b
+		?a: Genetic selection designed to stabilize proteins
+		?b: prebiotic sanctuary
+	?a bind ?b
+		?a: self-assembling supramolecular Peptide structures
+		?b: RNA
+	?a stabilize
+		?a: self-assembling supramolecular Peptide structures
+
+
+label:    sent_3
+sentence: Adding charge to an organic ligand can also stabilize frameworks .
+
+ppatt:
+	Adding ?a to ?b
+		?a: charge
+		?b: an organic ligand
+	?a can also stabilize ?b
+		?a: SOMETHING := Adding charge to an organic ligand
+		?b: frameworks
+
+
+label:    sent_4
+sentence: Finally , we assessed whether brain-penetrant compounds could stabilize mouse CNS MTs .
+
+ppatt:
+	Finally , ?a assessed ?b
+		?a: we
+		?b: SOMETHING := brain-penetrant compounds could stabilize mouse CNS MTs
+	?a could stabilize ?b
+		?a: brain-penetrant compounds
+		?b: mouse CNS MTs
+
+
+label:    sent_5
+sentence: We propose these subunits stabilize the membrane domain of complex I .
+
+ppatt:
+	?a propose ?b
+		?a: We
+		?b: SOMETHING := these subunits stabilize the membrane domain of complex I
+	?a stabilize ?b
+		?a: these subunits
+		?b: the membrane domain of complex I
+
+
+label:    sent_6
+sentence: It acts to stabilize capsid shells by connecting the capsomeric subunits together .
+
+ppatt:
+	?a acts to stabilize ?b
+		?a: It
+		?b: capsid shells
+	?a connecting ?b together
+		?a: It
+		?b: the capsomeric subunits
+
+
+label:    sent_7
+sentence: We assume that the additive surfactants form micelles and stabilize latanoprost in this formulation .
+
+ppatt:
+	?a assume ?b
+		?a: We
+		?b: SOMETHING := the additive surfactants form micelles
+	?a form ?b
+		?a: the additive surfactants
+		?b: micelles
+	?a stabilize ?b in ?c
+		?a: the additive surfactants
+		?b: latanoprost
+		?c: this formulation
+
+
+label:    sent_8
+sentence: Copper-induced phosphorylation of Thr327 is predicted to stabilize this change in conformation .
+
+ppatt:
+	?a is predicted to stabilize ?b
+		?a: Copper-induced phosphorylation of Thr327
+		?b: this change in conformation
+
+
+label:    sent_9
+sentence: Pericytes surround and stabilize the vast capillary network of the central nervous system .
+
+ppatt:
+	?a surround ?b
+		?a: Pericytes
+		?b: the vast capillary network of the central nervous system
+	?a stabilize
+		?a: Pericytes
+
+
+label:    sent_10
+sentence: We suggest that CCS4 might function to stabilize CCDA or regulate its activity .
+
+ppatt:
+	?a suggest ?b
+		?a: We
+		?b: SOMETHING := CCS4 might function to stabilize CCDA or regulate its activity
+	?a might function to stabilize ?b
+		?a: CCS4
+		?b: CCDA
+	?a might function to regulate ?b
+		?a: CCS4
+		?b: its activity
+
+
+label:    sent_11
+sentence: The proposed regularization techniques are shown to stabilize the inversion and eliminate the artifacts .
+
+ppatt:
+	?a are shown to stabilize ?b
+		?a: The proposed regularization techniques
+		?b: the inversion
+	?a are shown to eliminate ?b
+		?a: The proposed regularization techniques
+		?b: the artifacts
+
+
+label:    sent_12
+sentence: Two feedback loops stabilize cofilin-1 in the phosphorylated versus dephosphorylated state .
+
+ppatt:
+	?a stabilize ?b in ?c
+		?a: Two feedback loops
+		?b: cofilin-1
+		?c: the phosphorylated versus dephosphorylated state
+
+
+label:    sent_13
+sentence: The NTA can stabilize the AuNPs against tris-induced aggregation through capping the AuNPs . Tm1 , Tm2/3 , and Tm5NM1/2 stabilize actin filaments at distinct stress fiber regions .
+
+ppatt:
+	?a can stabilize ?b against ?c
+		?a: The NTA
+		?b: the AuNPs
+		?c: tris-induced aggregation
+	?a capping ?b
+		?a: The NTA
+		?b: the AuNPs
+	?a stabilize ?b at ?c
+		?a: Tm1
+		?b: actin filaments
+		?c: distinct stress fiber regions
+	?a stabilize ?b at ?c
+		?a: Tm2/3
+		?b: actin filaments
+		?c: distinct stress fiber regions
+	?a stabilize ?b at ?c
+		?a: Tm5NM1/2
+		?b: actin filaments
+		?c: distinct stress fiber regions
+
+
+label:    sent_14
+sentence: It can stabilize c-Myc and promote anchorage-independent cell growth and tumour formation .
+
+ppatt:
+	?a can stabilize ?b
+		?a: It
+		?b: c-Myc
+	?a promote ?b
+		?a: It
+		?b: anchorage-independent cell growth
+	?a promote ?b
+		?a: It
+		?b: tumour formation
+
+
+label:    sent_15
+sentence: Moreover , they stabilize the fragmented DNA and increase a total melting point .
+
+ppatt:
+	Moreover , ?a stabilize ?b
+		?a: they
+		?b: the fragmented DNA
+	?a increase ?b
+		?a: they
+		?b: a total melting point
+
+
+label:    sent_16
+sentence: This interaction could stabilize the alphaC-helix and maintain kinase activity .
+
+ppatt:
+	?a could stabilize ?b
+		?a: This interaction
+		?b: the alphaC-helix
+	?a maintain ?b
+		?a: This interaction
+		?b: kinase activity
+
+
+label:    sent_17
+sentence: Treatment with PTX appeared to stabilize or reduce calcium content in PD plaques .
+
+ppatt:
+	?a appeared to stabilize ?b
+		?a: Treatment with PTX
+		?b: calcium content in PD plaques
+	?a appeared to reduce
+		?a: Treatment with PTX
+
+
+label:    sent_18
+sentence: Lone pair-aromatic interactions : to stabilize or not to stabilize .
+
+ppatt:
+	?a stabilize
+		?a: Lone pair-aromatic interactions
+
+
+label:    sent_19
+sentence: Many methods to stabilize and fuse the craniocervical junction have been described .
+
+ppatt:
+	?a stabilize ?b
+		?a: Many methods
+		?b: the craniocervical junction
+	?a fuse
+		?a: Many methods
+	?a have been described
+		?a: Many methods to stabilize and fuse the craniocervical junction
+
+
+label:    sent_20
+sentence: In addition , K+ is able to stabilize LjNSE1 against thermal inactivation .
+
+ppatt:
+	In ?a , ?b is able to stabilize ?c against ?d
+		?a: addition
+		?b: K+
+		?c: LjNSE1
+		?d: thermal inactivation
+
+
+label:    sent_21
+sentence: The enzyme and its conjugate were shown to stabilize in acid media .
+
+ppatt:
+	?a were shown to stabilize in ?b
+		?a: The enzyme
+		?b: acid media
+	?a were shown to stabilize in ?b
+		?a: its conjugate
+		?b: acid media
+
+
+label:    sent_22
+sentence: The keratometry readings and refractive correction required appeared to stabilize by the third month . Epothilones stabilize microtubules in a manner similar to taxanes but are structurally distinct .
+
+ppatt:
+	?a required
+		?a: The keratometry readings
+	?a required
+		?a: refractive correction
+	?a appeared to stabilize by ?b
+		?a: The keratometry readings required
+		?b: the third month
+	?a appeared to stabilize by ?b
+		?a: refractive correction
+		?b: the third month
+	?a stabilize ?b in ?c
+		?a: Epothilones
+		?b: microtubules
+		?c: a manner similar to taxanes
+
+
+label:    sent_23
+sentence: By competing with calcium ion , they stabilize membranes and have an anesthetic effect .
+
+ppatt:
+	competing with ?a ?b
+		?a: calcium ion
+		?b: they
+	?a stabilize ?b
+		?a: they
+		?b: membranes
+	?a have ?b
+		?a: they
+		?b: an anesthetic effect
+
+
+label:    sent_24
+sentence: In addition , cyclization can stabilize the peptide structure and thereby increase its stability .
+
+ppatt:
+	In ?a , ?b can stabilize ?c
+		?a: addition
+		?b: cyclization
+		?c: the peptide structure
+	?a thereby increase ?b
+		?a: cyclization
+		?b: its stability
+
+
+label:    sent_25
+sentence: Studies show that transplanting these cells can stabilize or recover vision in animal models .
+
+ppatt:
+	?a show ?b
+		?a: Studies
+		?b: SOMETHING := that transplanting these cells can stabilize vision in animal models
+	transplanting ?a
+		?a: these cells
+	?a can stabilize ?b
+		?a: SOMETHING := transplanting these cells
+		?b: vision in animal models
+	?a recover
+		?a: transplanting these cells
+
+
+label:    sent_26
+sentence: Singly , these antioxidants did not stabilize or directly inhibit hydroxylase activities .
+
+ppatt:
+	Singly , ?a did not stabilize
+		?a: these antioxidants
+	?a directly inhibit ?b
+		?a: these antioxidants
+		?b: hydroxylase activities
+
+
+label:    sent_27
+sentence: It may stabilize or even regress if gastro-esophageal reflux is suppressed .
+
+ppatt:
+	?a may stabilize
+		?a: It
+	?a even regress
+		?a: It
+	?a is suppressed
+		?a: gastro-esophageal reflux
+
+

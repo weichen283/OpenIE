@@ -1,0 +1,257 @@
+label:    sent_1
+sentence: Change in morphology was one of the strategies bacteria adopted to counter metal stress .
+
+ppatt:
+	?a was one of ?b
+		?a: Change in morphology
+		?b: the strategies bacteria adopted to counter metal stress
+	?a adopted to counter ?b
+		?a: the strategies bacteria
+		?b: metal stress
+
+
+label:    sent_2
+sentence: To counter the consequences of severe fetal thrombocytopenia , antenatal therapies have been implemented .
+
+ppatt:
+	counter ?a ?b
+		?a: the consequences of severe fetal thrombocytopenia
+		?b: antenatal therapies
+	?a have been implemented
+		?a: antenatal therapies
+
+
+label:    sent_3
+sentence: [Over the counter drugs -- a new era in Israel ] . The asymmetric organization of epithelial cells is a basic counter to cellular proliferation .
+
+ppatt:
+	?a ?b is a basic counter to ?c
+		?a: [Over the counter drugs
+		?b: The asymmetric organization of epithelial cells
+		?c: cellular proliferation
+
+
+label:    sent_4
+sentence: This runs counter to the finding of lower incidence of injury in hindlimbs . ' Libyan Trial ' : a verdict running counter to scientific evidence .
+
+ppatt:
+	?a counter to ?b
+		?a: This runs
+		?b: the finding of lower incidence of injury in hindlimbs
+	?a is/are Libyan Trial
+		?a: hindlimbs
+
+
+label:    sent_5
+sentence: Low-cost molybdenum carbide and tungsten carbide counter electrodes for dye-sensitized solar cells .
+
+ppatt:
+
+
+
+label:    sent_6
+sentence: Lysosomal pH and analysis of the counter ion pathways that support acidification .
+
+ppatt:
+	?a support ?b
+		?a: the counter ion pathways
+		?b: acidification
+
+
+label:    sent_7
+sentence: It increases with age , while the endogenous defense mechanisms that counter them decrease .
+
+ppatt:
+	?a increases with ?b
+		?a: It
+		?b: age
+	?a counter ?b
+		?a: the endogenous defense mechanisms
+		?b: them
+	?a decrease
+		?a: the endogenous defense mechanisms that counter them
+
+
+label:    sent_8
+sentence: Replacement tissue-equivalent proportional counter for the International Space Station .
+
+ppatt:
+
+
+
+label:    sent_9
+sentence: Characterisation of the PSI whole body counter by radiographic imaging . A new position recording system for the partial-body counter at KIT .
+
+ppatt:
+
+
+
+label:    sent_10
+sentence: A high-sensitivity multidetector whole-body counter .
+
+ppatt:
+
+
+
+label:    sent_11
+sentence: Organic redox couples and organic counter electrode for efficient organic dye-sensitized solar cells .
+
+ppatt:
+
+
+
+label:    sent_12
+sentence: Real-world assessment of a metered-dose inhaler with integrated dose counter .
+
+ppatt:
+
+
+
+label:    sent_13
+sentence: In search of a step counter criterion for the free-living condition .
+
+ppatt:
+
+
+
+label:    sent_14
+sentence: In addition , measures to counter problems with non-isomorphism and radiation decay are described . [Evidence-" counter public " as program .
+
+ppatt:
+	?a counter ?b
+		?a: measures
+		?b: problems with non-isomorphism and radiation decay
+	In ?a , ?b are described . ?c as ?d
+		?a: addition
+		?b: measures to counter problems with non-isomorphism and radiation decay
+		?c: [Evidence-" counter public "
+		?d: program
+
+
+label:    sent_15
+sentence: The development of pharmaceutical care ] . Efforts need to counter inaccurate information and address the rationale for health practices .
+
+ppatt:
+	?a ?b need to counter ?c
+		?a: The development of pharmaceutical care ]
+		?b: Efforts
+		?c: inaccurate information
+	?a need to address ?b
+		?a: The development of pharmaceutical care ]
+		?b: the rationale for health practices
+
+
+label:    sent_16
+sentence: [Adverse effect of antineoplastic chemotherapy and counter measures ] . Animals have evolved two general strategies to counter injury and maintain physiological function .
+
+ppatt:
+	?a have evolved ?b
+		?a: [Adverse effect of antineoplastic chemotherapy and counter measures ] . Animals
+		?b: two general strategies to counter injury and maintain physiological function
+	?a counter ?b
+		?a: two general strategies
+		?b: injury
+	maintain ?a
+		?a: physiological function
+
+
+label:    sent_17
+sentence: Prognosticator 's advice : counter risk with innovation .
+
+ppatt:
+
+
+
+label:    sent_18
+sentence: Cellular automaton simulation of pedestrian counter flow with different walk velocities .
+
+ppatt:
+
+
+
+label:    sent_19
+sentence: These findings counter psychodynamically based assumptions on emotional behavior of asthmatics and their mothers .
+
+ppatt:
+	?a counter psychodynamically based ?b
+		?a: These findings
+		?b: assumptions on emotional behavior of asthmatics and their mothers
+
+
+label:    sent_20
+sentence: The metallic wire in the pipette acts as both counter and reference electrode .
+
+ppatt:
+	?a acts as ?b
+		?a: The metallic wire in the pipette
+		?b: counter
+	?a acts as ?b
+		?a: The metallic wire in the pipette
+		?b: reference
+	?a acts as ?b
+		?a: The metallic wire in the pipette
+		?b: electrode
+
+
+label:    sent_21
+sentence: The sampler and sensor can be located remotely from the counter and readout devices .
+
+ppatt:
+	?a can be located remotely from ?b
+		?a: The sampler
+		?b: counter
+	?a can be located remotely from ?b
+		?a: sensor
+		?b: counter
+	?a can be located remotely from ?b
+		?a: The sampler
+		?b: readout
+	?a can be located remotely from ?b
+		?a: sensor
+		?b: readout
+
+
+label:    sent_22
+sentence: Motor activity was recorded with an infra-red counter and behaviour videotaped .
+
+ppatt:
+	?a was recorded with ?b
+		?a: Motor activity
+		?b: an infra-red counter videotaped
+	?a was recorded with ?b
+		?a: Motor activity
+		?b: behaviour
+	?a videotaped
+		?a: an infra-red counter
+	?a videotaped
+		?a: behaviour
+
+
+label:    sent_23
+sentence: This protein transports ATP to the cytoplasm and counter transports ADP into the mitochondria .
+
+ppatt:
+	?a transports ?b to ?c
+		?a: This protein
+		?b: ATP
+		?c: the cytoplasm
+	?a transports ?b into ?c
+		?a: counter
+		?b: ADP
+		?c: the mitochondria
+
+
+label:    sent_24
+sentence: When to counter and when not .
+
+ppatt:
+
+
+
+label:    sent_25
+sentence: When to counter and when not .
+
+ppatt:
+
+
+

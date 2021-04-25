@@ -1,0 +1,219 @@
+label:    sent_1
+sentence: A small electrode is used to thermally coagulate malfunctioning tissue .
+
+ppatt:
+	?a is used to thermally coagulate ?b
+		?a: A small electrode
+		?b: malfunctioning tissue
+
+
+label:    sent_2
+sentence: Ba III-4 also showed ability to coagulate bovine fibrinogen .
+
+ppatt:
+	?a also showed ?b
+		?a: Ba III-4
+		?b: ability to coagulate bovine fibrinogen
+	?a coagulate ?b
+		?a: ability
+		?b: bovine fibrinogen
+
+
+label:    sent_3
+sentence: Kleppinger forceps were also used to coagulate various-sized arteries to determine hemostasis .
+
+ppatt:
+	?a were also used to coagulate ?b to determine ?c
+		?a: Kleppinger forceps
+		?b: various-sized arteries
+		?c: hemostasis
+
+
+label:    sent_4
+sentence: It can be used to coagulate vas deferens without any complications or sequelae . Equivalent nonpigmented preparations are stable and do not coagulate .
+
+ppatt:
+	?a can be used to coagulate ?b without ?c
+		?a: It
+		?b: vas deferens
+		?c: any complications
+	?a can be used to coagulate ?b without ?c
+		?a: It
+		?b: vas deferens
+		?c: sequelae
+	?a are stable
+		?a: Equivalent nonpigmented preparations
+	?a do not coagulate
+		?a: Equivalent nonpigmented preparations
+
+
+label:    sent_5
+sentence: Polyelectrolytes are used to coagulate and flocculate colloidal systems .
+
+ppatt:
+	?a are used to coagulate ?b
+		?a: Polyelectrolytes
+		?b: colloidal systems
+	?a are used to flocculate
+		?a: Polyelectrolytes
+
+
+label:    sent_6
+sentence: Management of liver metastases : cut , cryo , coagulate or chemotherapy .
+
+ppatt:
+
+
+
+label:    sent_7
+sentence: This new instrument can both aspirate blood and coagulate the bleeding vessel .
+
+ppatt:
+	?a can ?b
+		?a: This new instrument
+		?b: aspirate blood
+	?a can ?b
+		?a: This new instrument
+		?b: coagulate the bleeding vessel
+	coagulate ?a
+		?a: the bleeding vessel
+
+
+label:    sent_8
+sentence: The laser can vaporize , melt tissues and coagulate blood vessels .
+
+ppatt:
+	?a can vaporize ?b
+		?a: The laser
+		?b: melt tissues
+	?a can vaporize ?b
+		?a: The laser
+		?b: coagulate blood vessels
+
+
+label:    sent_9
+sentence: Diode laser was used to perforate , deflate and coagulate the cysts .
+
+ppatt:
+	?a was used to perforate ?b
+		?a: Diode laser
+		?b: the cysts
+	?a was used to coagulate
+		?a: Diode laser
+
+
+label:    sent_10
+sentence: The fragments formed in phase 2 are considered to coagulate through hydrophobic interactions .
+
+ppatt:
+	?a formed in ?b
+		?a: The fragments
+		?b: phase 2
+	?a are considered to coagulate through ?b
+		?a: The fragments formed in phase 2
+		?b: hydrophobic interactions
+
+
+label:    sent_11
+sentence: We did not coagulate the PSA . Lipid A from L. interrogans did not coagulate the Limulus hemolymph .
+
+ppatt:
+	?a did not coagulate ?b
+		?a: We
+		?b: the PSA
+	?a did not coagulate ?b
+		?a: Lipid A from L. interrogans
+		?b: the Limulus hemolymph
+
+
+label:    sent_12
+sentence: The purified enzyme could coagulate rabbit plasma .
+
+ppatt:
+	?a could coagulate ?b
+		?a: The purified enzyme
+		?b: rabbit plasma
+
+
+label:    sent_13
+sentence: Asialofibrinogen and its concanavalin A complexes coagulate twice as fast as those of fibrinogen .
+
+ppatt:
+	?a coagulate twice as fast as ?b
+		?a: Asialofibrinogen
+		?b: those of fibrinogen
+	?a coagulate twice as fast as ?b
+		?a: its concanavalin A complexes
+		?b: those of fibrinogen
+
+
+label:    sent_14
+sentence: In the absence of SUMO , Pc foci coagulate into larger aggregates .
+
+ppatt:
+	of ?a , ?b coagulate into ?c
+		?a: SUMO
+		?b: Pc foci
+		?c: larger aggregates
+
+
+label:    sent_15
+sentence: During chlorination , the microgels coagulate once they undergo a volume phase transition .
+
+ppatt:
+	During ?a , ?b coagulate
+		?a: chlorination
+		?b: the microgels
+	?a undergo ?b
+		?a: they
+		?b: a volume phase transition
+
+
+label:    sent_16
+sentence: These proteins coagulate plasma and possess fibrinogenolytic activity but lack fibrinolytic activity . Why does the blood not coagulate ? The device did not coagulate .
+
+ppatt:
+	?a coagulate ?b
+		?a: These proteins
+		?b: plasma
+	?a possess ?b
+		?a: These proteins
+		?b: fibrinogenolytic activity
+	?a lack ?b
+		?a: These proteins
+		?b: fibrinolytic activity
+	Why does ?a ?b
+		?a: the blood
+		?b: not coagulate
+	?a did not coagulate
+		?a: The device
+
+
+label:    sent_17
+sentence: The predominant protein in human seminal coagulate .
+
+ppatt:
+
+
+
+label:    sent_18
+sentence: High valence ions effectively coagulate these nanotubes from stable dispersions in N , N-dimethylforamide .
+
+ppatt:
+	?a effectively coagulate ?b from ?c
+		?a: High valence ions
+		?b: these nanotubes
+		?c: stable dispersions in N , N-dimethylforamide
+
+
+label:    sent_19
+sentence: The ability of mononuclear cells to coagulate blood in response to Coxiella burnetii .
+
+ppatt:
+	?a coagulate ?b in ?c to ?d
+		?a: The ability of mononuclear cells
+		?b: blood
+		?c: response
+		?d: Coxiella burnetii
+
+

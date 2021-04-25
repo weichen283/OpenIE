@@ -1,0 +1,311 @@
+label:    sent_1
+sentence: Students appreciate computer supported collaborative learning settings when tackling radiology case-based learning .
+
+ppatt:
+	?a appreciate ?b ?c
+		?a: Students
+		?b: computer
+		?c: supported collaborative learning settings
+	?a when tackling ?b
+		?a: Students
+		?b: radiology case-based learning
+
+
+label:    sent_2
+sentence: It is too early to appreciate the the survival benefit .
+
+ppatt:
+	?a is too early to appreciate ?b
+		?a: It
+		?b: the the survival benefit
+
+
+label:    sent_3
+sentence: Teaching strategies which help students know and appreciate different philosophical orientations are proposed .
+
+ppatt:
+	?a help ?b
+		?a: Teaching strategies know
+		?b: students
+	?a know
+		?a: Teaching strategies which help students and appreciate different philosophical orientations
+	?a appreciate ?b
+		?a: which
+		?b: different philosophical orientations
+	?a are proposed
+		?a: Teaching strategies which help students know and appreciate different philosophical orientations
+
+
+label:    sent_4
+sentence: Colleagues will appreciate the results later .
+
+ppatt:
+	?a will appreciate ?b later
+		?a: Colleagues
+		?b: the results
+
+
+label:    sent_5
+sentence: Teaching medical learners to appreciate " difficult " patients .
+
+ppatt:
+	Teaching ?a
+		?a: medical learners
+	appreciate ?a
+		?a: " difficult " patients
+
+
+label:    sent_6
+sentence: However , general dermatologists do not always appreciate the importance of patch testing .
+
+ppatt:
+	However , ?a do not always appreciate ?b
+		?a: general dermatologists
+		?b: the importance of patch testing
+
+
+label:    sent_7
+sentence: Now more than ever patients value and appreciate dental aesthetics .
+
+ppatt:
+	Now ?a ?b value
+		?a: more than ever
+		?b: patients
+	?a appreciate ?b
+		?a: more than ever
+		?b: dental aesthetics
+
+
+label:    sent_8
+sentence: Nurses in the Austin Hospital value the MET service and appreciate its potential benefits .
+
+ppatt:
+	?a value ?b
+		?a: Nurses in the Austin Hospital
+		?b: the MET service
+	?a appreciate ?b
+		?a: Nurses in the Austin Hospital
+		?b: its potential benefits
+
+
+label:    sent_9
+sentence: This procedure allows to appreciate the anatomical lesions and to clarify the anatomo-radiological discrepancies .
+
+ppatt:
+	?a allows to appreciate ?b
+		?a: This procedure
+		?b: the anatomical lesions
+	?a allows to to clarify ?b
+		?a: This procedure
+		?b: the anatomo-radiological discrepancies
+
+
+label:    sent_10
+sentence: Prospective studies are necessary to appreciate prevalence and pathogenicity in this pathology .
+
+ppatt:
+	?a are necessary to appreciate ?b
+		?a: Prospective studies
+		?b: prevalence in this pathology
+	?a are necessary to appreciate ?b
+		?a: Prospective studies
+		?b: pathogenicity
+
+
+label:    sent_11
+sentence: It is necessary to appreciate this pathology with advances in canal and vestibular surgery . Non-oncologists can appreciate the strength of QOPI as a quality tool .
+
+ppatt:
+	?a is necessary to appreciate ?b with ?c
+		?a: It
+		?b: this pathology
+		?c: advances in canal and vestibular surgery
+	?a can appreciate ?b
+		?a: Non-oncologists
+		?b: the strength of QOPI as a quality tool
+
+
+label:    sent_12
+sentence: When a prenatal diagnosis is made , most mothers appreciate having this information .
+
+ppatt:
+	When ?a is made
+		?a: a prenatal diagnosis
+	?a appreciate having ?b
+		?a: most mothers
+		?b: this information
+
+
+label:    sent_13
+sentence: Around 50 of the participants would appreciate having fewer menstrual period-related symptoms .
+
+ppatt:
+	Around ?a would appreciate having ?b
+		?a: 50 of the participants
+		?b: fewer menstrual period-related symptoms
+
+
+label:    sent_14
+sentence: Now we appreciate that chronic inflammation leads to T cell dysfunction .
+
+ppatt:
+	Now ?a appreciate ?b
+		?a: we
+		?b: SOMETHING := chronic inflammation leads to T cell dysfunction
+	?a leads to ?b
+		?a: chronic inflammation
+		?b: T cell dysfunction
+
+
+label:    sent_15
+sentence: Most of them would appreciate ethical guidelines on how to deal with this issue .
+
+ppatt:
+	?a would appreciate ?b
+		?a: Most of them
+		?b: ethical guidelines
+	?a how to deal with ?b
+		?a: Most of them
+		?b: this issue
+
+
+label:    sent_16
+sentence: Participants would appreciate tailored self-management support after discharge from hospital .
+
+ppatt:
+	?a would appreciate ?b after ?c
+		?a: Participants
+		?b: tailored self-management support
+		?c: discharge from hospital
+
+
+label:    sent_17
+sentence: Surgeons should appreciate the elevated aggressiveness of this tumor despite adequate surgical treatment .
+
+ppatt:
+	?a should appreciate ?b despite ?c
+		?a: Surgeons
+		?b: the elevated aggressiveness of this tumor
+		?c: adequate surgical treatment
+
+
+label:    sent_18
+sentence: They especially appreciate the anonymity of our test but also the consultation .
+
+ppatt:
+	?a especially appreciate ?b
+		?a: They
+		?b: the anonymity of our test but also the consultation
+
+
+label:    sent_19
+sentence: The endoscopist should appreciate these advantages and consider use of the UTCE accordingly .
+
+ppatt:
+	?a should appreciate ?b
+		?a: The endoscopist
+		?b: these advantages
+	?a consider ?b accordingly
+		?a: The endoscopist
+		?b: use of the UTCE
+
+
+label:    sent_20
+sentence: We greatly appreciate their dedication and behind the scenes contribution .
+
+ppatt:
+	?a greatly appreciate ?b
+		?a: We
+		?b: their dedication
+	?a greatly appreciate ?b
+		?a: We
+		?b: the scenes contribution
+
+
+label:    sent_21
+sentence: The reflective effort is to appreciate and work toward easing Indigo 's suffering . is caused by a failure to appreciate or apply the ABCs of life support .
+
+ppatt:
+	?a is to appreciate ?b
+		?a: The reflective effort
+		?b: SOMETHING := is caused by a failure to appreciate or apply the ABCs of life support
+	?a is to work
+		?a: The reflective effort
+	?a easing 's ?b
+		?a: The reflective effort
+		?b: Indigo suffering
+	?a is caused by ?b
+		?a: The reflective effort
+		?b: a failure to appreciate or apply the ABCs of life support
+	?a appreciate ?b
+		?a: a failure
+		?b: the ABCs of life support
+	apply ?a
+		?a: the ABCs of life support
+
+
+label:    sent_22
+sentence: [ Reader survey shows : most read and appreciate Vardfacket ] . Furthermore their in vivo effect is difficult to appreciate for a given vessel .
+
+ppatt:
+	?a shows
+		?a: Reader survey
+	?a appreciate ?b
+		?a: Reader survey
+		?b: Vardfacket ]
+	Furthermore ?a is difficult to appreciate for ?b
+		?a: their in effect
+		?b: a given vessel
+
+
+label:    sent_23
+sentence: This makes a complete appraisal difficult and impossible to appreciate in one single analysis .
+
+ppatt:
+	?a makes ?b
+		?a: This
+		?b: a complete appraisal difficult and impossible to appreciate in one single analysis
+	appreciate in ?a
+		?a: one single analysis
+
+
+label:    sent_24
+sentence: Signs of glaucoma are apparently more difficult to appreciate in bilateral cases .
+
+ppatt:
+	?a are apparently more difficult to appreciate in ?b
+		?a: Signs of glaucoma
+		?b: bilateral cases
+
+
+label:    sent_25
+sentence: Clearly , residents can appreciate and benefit from a well-structured home visit program .
+
+ppatt:
+	Clearly , ?a can appreciate from ?b
+		?a: residents
+		?b: a well-structured home visit program
+	?a benefit
+		?a: residents
+
+
+label:    sent_26
+sentence: Learners appreciate and request specific feedback .
+
+ppatt:
+	?a appreciate ?b
+		?a: Learners
+		?b: specific feedback
+	?a request
+		?a: Learners
+
+
+label:    sent_27
+sentence: They appreciate and value training along with feedback on their searching techniques .
+
+ppatt:
+	?a appreciate training along with ?b
+		?a: They
+		?b: feedback on their searching techniques
+
+

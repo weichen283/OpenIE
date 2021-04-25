@@ -1,0 +1,333 @@
+label:    sent_1
+sentence: Parents employed various techniques to control and monitor their children 's sexual activities .
+
+ppatt:
+	?a employed ?b
+		?a: Parents
+		?b: various techniques to control and monitor their children 's sexual activities
+	?a control ?b
+		?a: various techniques
+		?b: their children 's sexual activities
+	monitor ?a
+		?a: their children 's sexual activities
+
+
+label:    sent_2
+sentence: This article describes a telephone survey in 2008 to monitor non-communicable diseases .
+
+ppatt:
+	?a describes ?b
+		?a: This article
+		?b: a telephone survey in 2008
+	?a monitor ?b
+		?a: This article
+		?b: non-communicable diseases
+
+
+label:    sent_3
+sentence: Unfortunately , underweight is the indicator officially used to monitor progress towards MDG 1 . Automated text-messaging is a feasible method to monitor appetite ratings in this population .
+
+ppatt:
+	Unfortunately , ?a is the indicator
+		?a: underweight
+	?a officially used to monitor ?b
+		?a: Unfortunately , the indicator
+		?b: progress towards MDG 1
+	?a is a feasible method
+		?a: Automated text-messaging
+	?a monitor ?b
+		?a: a feasible method
+		?b: appetite ratings in this population
+
+
+label:    sent_4
+sentence: Governmental regulations emphasizing the need to monitor chirality in drug development have increased .
+
+ppatt:
+	?a emphasizing ?b
+		?a: Governmental regulations
+		?b: the need to monitor chirality in drug development
+	?a monitor ?b
+		?a: the need
+		?b: chirality in drug development
+	?a have increased
+		?a: Governmental regulations emphasizing the need to monitor chirality in drug development
+
+
+label:    sent_5
+sentence: CA-125 is commonly used to monitor disease progression and treatment response in ovarian cancer .
+
+ppatt:
+	?a is commonly used to monitor ?b
+		?a: CA-125
+		?b: disease progression in ovarian cancer
+	?a is commonly used to monitor ?b
+		?a: CA-125
+		?b: treatment response
+
+
+label:    sent_6
+sentence: The goal was to monitor growth and compare data with other infants with PWS .
+
+ppatt:
+	?a was to monitor ?b
+		?a: The goal
+		?b: growth
+	?a was to compare ?b
+		?a: The goal
+		?b: data with other infants with PWS
+
+
+label:    sent_7
+sentence: Constantly monitor compliance , and intervene when necessary .
+
+ppatt:
+	Constantly monitor ?a
+		?a: compliance
+	?a intervene
+		?a: compliance
+
+
+label:    sent_8
+sentence: Meetings were scheduled to monitor those changes and renew the CQI process .
+
+ppatt:
+	?a were scheduled to monitor ?b
+		?a: Meetings
+		?b: those changes
+	?a were scheduled to renew ?b
+		?a: Meetings
+		?b: the CQI process
+
+
+label:    sent_9
+sentence: Miniaturized sensors to monitor simulated lunar locomotion .
+
+ppatt:
+	?a monitor ?b
+		?a: Miniaturized sensors
+		?b: simulated lunar locomotion
+
+
+label:    sent_10
+sentence: Second , they monitor the cultural standing of potential informants . Acid-sensing ion channels ( ASICs ) in mammals monitor acid sensing and mechanoreception .
+
+ppatt:
+	Second , ?a monitor ?b
+		?a: they
+		?b: the cultural standing of potential informants
+	?a is/are ASICs
+		?a: Acid-sensing ion channels in mammals
+	?a monitor ?b
+		?a: Acid-sensing ion channels in mammals
+		?b: acid sensing
+	?a monitor ?b
+		?a: Acid-sensing ion channels in mammals
+		?b: mechanoreception
+
+
+label:    sent_11
+sentence: The CPR feedback provides an effective means to monitor and improve CPR performance .
+
+ppatt:
+	?a provides ?b
+		?a: The CPR feedback
+		?b: an effective means to monitor and improve CPR performance
+	?a monitor ?b
+		?a: an effective means
+		?b: CPR performance
+	improve ?a
+		?a: CPR performance
+
+
+label:    sent_12
+sentence: Methods used to monitor and evaluate activity include the use of innovative hand-held computers .
+
+ppatt:
+	?a used to monitor ?b
+		?a: Methods
+		?b: activity
+	?a used to evaluate
+		?a: Methods
+	?a include ?b
+		?a: Methods used to monitor and evaluate activity
+		?b: the use of innovative hand-held computers
+
+
+label:    sent_13
+sentence: Measures were taken to monitor and control for head movement during data acquisition .
+
+ppatt:
+	?a were taken to monitor for ?b during ?c
+		?a: Measures
+		?b: head movement
+		?c: data acquisition
+	?a were taken to control
+		?a: Measures
+
+
+label:    sent_14
+sentence: It can also noninvasively monitor stem cell migration following iron oxide prelabeling .
+
+ppatt:
+	?a can also noninvasively monitor ?b following ?c
+		?a: It
+		?b: stem cell migration
+		?c: iron oxide prelabeling
+
+
+label:    sent_15
+sentence: Most importantly , it can noninvasively monitor proliferation dynamically for prolonged time periods .
+
+ppatt:
+	Most importantly , ?a can noninvasively monitor ?b dynamically for ?c
+		?a: it
+		?b: proliferation
+		?c: prolonged time periods
+
+
+label:    sent_16
+sentence: Serum pepsinogen levels to monitor gastrointestinal nematode infections in cattle revisited .
+
+ppatt:
+	?a monitor ?b
+		?a: Serum pepsinogen levels
+		?b: gastrointestinal nematode infections in cattle revisited
+	?a revisited
+		?a: cattle
+
+
+label:    sent_17
+sentence: Single-shot beam-position monitor for x-ray free electron laser .
+
+ppatt:
+
+
+
+label:    sent_18
+sentence: A close endoscopic follow-up is required to monitor for recurrence .
+
+ppatt:
+	?a is required to monitor for ?b
+		?a: A close endoscopic follow-up
+		?b: recurrence
+
+
+label:    sent_19
+sentence: High-risk tumors need aggressive treatment and vigilant surveillance to monitor for recurrence .
+
+ppatt:
+	?a need ?b to monitor for ?c
+		?a: High-risk tumors
+		?b: aggressive treatment
+		?c: recurrence
+	?a need ?b to monitor for ?c
+		?a: High-risk tumors
+		?b: vigilant surveillance
+		?c: recurrence
+
+
+label:    sent_20
+sentence: It can dynamically monitor the response to treatment and might aid pre-clinical management decisions .
+
+ppatt:
+	?a can dynamically monitor ?b
+		?a: It
+		?b: the response to treatment
+	?a might aid ?b
+		?a: It
+		?b: pre-clinical management decisions
+
+
+label:    sent_21
+sentence: Rapid ioPTH assay can reliably monitor parathyroid function after thyroidectomy and predict postoperative hypocalcemia .
+
+ppatt:
+	?a can reliably monitor ?b after ?c
+		?a: Rapid ioPTH assay
+		?b: parathyroid function
+		?c: thyroidectomy
+	?a predict ?b
+		?a: Rapid ioPTH assay
+		?b: postoperative hypocalcemia
+
+
+label:    sent_22
+sentence: Registry staff continually monitor the quality of data collection and provide additional training .
+
+ppatt:
+	?a continually monitor ?b
+		?a: Registry staff
+		?b: the quality of data collection
+	?a provide ?b
+		?a: Registry staff
+		?b: additional training
+
+
+label:    sent_23
+sentence: Virus isolation is needed to monitor new influenza strains and for vaccine development .
+
+ppatt:
+	?a is needed to monitor ?b
+		?a: Virus isolation
+		?b: new influenza strains
+	?a is needed to monitor ?b
+		?a: Virus isolation
+		?b: vaccine development
+
+
+label:    sent_24
+sentence: Assist an oral surgeon in preparing intravenous lines and monitor a patient during sedation .
+
+ppatt:
+	Assist ?a
+		?a: an oral surgeon
+	preparing ?a
+		?a: intravenous lines
+	monitor ?a during ?b
+		?a: a patient
+		?b: sedation
+
+
+label:    sent_25
+sentence: We were able to monitor mortality during the war and after .
+
+ppatt:
+	?a were able to monitor ?b during ?c
+		?a: We
+		?b: mortality
+		?c: the war
+	?a were able to monitor ?b during ?c
+		?a: We
+		?b: mortality
+		?c: after
+
+
+label:    sent_26
+sentence: Wearable wireless heart rate monitor for continuous long-term variability studies .
+
+ppatt:
+	?a monitor for ?b
+		?a: Wearable wireless heart rate
+		?b: continuous long-term variability studies
+
+
+label:    sent_27
+sentence: Development and validation of a physical activity monitor for use on a wheelchair .
+
+ppatt:
+	?a monitor for ?b
+		?a: Development of a physical activity
+		?b: use on a wheelchair
+	?a monitor for ?b
+		?a: validation
+		?b: use on a wheelchair
+
+
+label:    sent_28
+sentence: Validation of a transient pain monitor in healthy volunteers .
+
+ppatt:
+
+
+

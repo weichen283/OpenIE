@@ -1,0 +1,285 @@
+label:    sent_1
+sentence: Implants were intended to heal in a submerged mode .
+
+ppatt:
+	?a were intended to heal in ?b
+		?a: Implants
+		?b: a submerged mode
+
+
+label:    sent_2
+sentence: Venous ulcers that respond to treatment appear to heal at a near constant rate .
+
+ppatt:
+	?a respond to ?b
+		?a: Venous ulcers
+		?b: treatment
+	?a appear to heal at ?b
+		?a: Venous ulcers that respond to treatment
+		?b: a near constant rate
+
+
+label:    sent_3
+sentence: The wound had failed to heal properly after 2 weeks of conservative management .
+
+ppatt:
+	?a had failed to heal properly after ?b
+		?a: The wound
+		?b: 2 weeks of conservative management
+
+
+label:    sent_4
+sentence: Fetal wounds can heal without scarring .
+
+ppatt:
+	?a can heal without ?b
+		?a: Fetal wounds
+		?b: scarring
+
+
+label:    sent_5
+sentence: It is reported that peri-implantitis does not heal favorably following nonsurgical therapy .
+
+ppatt:
+	?a is reported ?b
+		?a: It
+		?b: SOMETHING := peri-implantitis does not heal favorably following nonsurgical therapy
+	?a does not heal favorably following ?b
+		?a: peri-implantitis
+		?b: nonsurgical therapy
+
+
+label:    sent_6
+sentence: Moreover , the cracks would heal because of high lateral growth rate . Parenthood raised their aspirations and helped them to heal the rift in the superego .
+
+ppatt:
+	Moreover , ?a would heal because of ?b
+		?a: the cracks
+		?b: high lateral growth rate
+	?a raised ?b
+		?a: Parenthood
+		?b: their aspirations
+	?a helped ?b to heal ?c
+		?a: the cracks
+		?b: them
+		?c: the rift in the superego
+
+
+label:    sent_7
+sentence: To heal a draining wound . Skin grafting has been shown to successfully heal chronic leg ulcers .
+
+ppatt:
+	heal ?a ?b
+		?a: a draining wound
+		?b: Skin grafting
+	?a has been shown to successfully heal ?b
+		?a: Skin grafting
+		?b: chronic leg ulcers
+
+
+label:    sent_8
+sentence: Compared with the non-diabetic rabbits , wounds of diabetic rabbits heal significantly slower .
+
+ppatt:
+	Compared with the non-diabetic rabbits ?a
+		?a: wounds of diabetic rabbits
+	?a heal significantly slower
+		?a: wounds of diabetic rabbits
+
+
+label:    sent_9
+sentence: It has been reported that osteoid osteoma may heal spontaneously . Most tympanic membrane perforations heal spontaneously , whereas a fraction remains patent .
+
+ppatt:
+	?a has been reported ?b ?c
+		?a: It
+		?b: SOMETHING := osteoid osteoma may heal spontaneously
+		?c: SOMETHING := Most tympanic membrane perforations heal spontaneously
+	?a may heal spontaneously
+		?a: osteoid osteoma
+	?a heal spontaneously
+		?a: Most tympanic membrane perforations
+	?a remains patent
+		?a: a fraction
+
+
+label:    sent_10
+sentence: Reindeer bone extract can heal the critical-size rat femur defect .
+
+ppatt:
+	?a can heal ?b
+		?a: Reindeer bone extract
+		?b: the critical-size rat femur defect
+
+
+label:    sent_11
+sentence: The primary endpoint of the study was time to heal the first donor site .
+
+ppatt:
+	?a was time
+		?a: The primary endpoint of the study
+	?a heal ?b
+		?a: time
+		?b: the first donor site
+
+
+label:    sent_12
+sentence: Why the most potent toxin may heal anal fissure .
+
+ppatt:
+	Why ?a may heal ?b
+		?a: the most potent toxin
+		?b: anal fissure
+
+
+label:    sent_13
+sentence: Most ulcers heal with conservative treatment , but recurrence is common .
+
+ppatt:
+	?a heal with ?b
+		?a: Most ulcers
+		?b: conservative treatment
+	?a is common
+		?a: recurrence
+
+
+label:    sent_14
+sentence: Ulceration is never seen , and the nodules heal without atrophy or scarring .
+
+ppatt:
+	?a is never seen
+		?a: Ulceration
+	?a heal without ?b
+		?a: the nodules
+		?b: atrophy
+	?a heal without ?b
+		?a: the nodules
+		?b: scarring
+
+
+label:    sent_15
+sentence: Mild whiplash injuries are very common and as a rule they heal without sequelae .
+
+ppatt:
+	?a are very common
+		?a: Mild whiplash injuries
+	?a as a rule
+		?a: Mild whiplash injuries
+	?a heal without ?b
+		?a: they
+		?b: sequelae
+
+
+label:    sent_16
+sentence: Massive RCT does not heal spontaneously and results in poor clinical outcomes .
+
+ppatt:
+	?a does not heal spontaneously
+		?a: Massive RCT
+	?a results in ?b
+		?a: Massive RCT
+		?b: poor clinical outcomes
+
+
+label:    sent_17
+sentence: Children heal quickly , but they also tend to develop hypertrophic scars .
+
+ppatt:
+	?a heal quickly
+		?a: Children
+	?a also tend to develop ?b
+		?a: they
+		?b: hypertrophic scars
+
+
+label:    sent_18
+sentence: Superficial lesions may heal spontaneously and seldom result in morbidity or mortality .
+
+ppatt:
+	?a may heal spontaneously
+		?a: Superficial lesions
+	?a seldom result in ?b
+		?a: Superficial lesions
+		?b: morbidity
+	?a seldom result in ?b
+		?a: Superficial lesions
+		?b: mortality
+
+
+label:    sent_19
+sentence: Thirty eight patients went on to heal their wounds . All patients went on to heal their sternums without evidence of mediastinitis .
+
+ppatt:
+	?a went on to heal ?b
+		?a: Thirty eight patients
+		?b: their wounds
+	?a went on to heal ?b without ?c
+		?a: All patients
+		?b: their sternums
+		?c: evidence of mediastinitis
+
+
+label:    sent_20
+sentence: Small osteochondral defects in rabbit femur found to heal themselves by regeneration .
+
+ppatt:
+	?a found to heal ?b by ?c
+		?a: rabbit femur
+		?b: themselves
+		?c: regeneration
+
+
+label:    sent_21
+sentence: These lesions are extremely painful , heal slowly , and lead to substantial disability . To heal or to harm . Tendons , like some other tissues , are poorly vascularized and heal slowly .
+
+ppatt:
+	?a are extremely painful
+		?a: These lesions
+	?a heal slowly
+		?a: These lesions
+	?a lead to ?b To heal
+		?a: These lesions
+		?b: substantial disability
+	?a lead To to harm ?b
+		?a: These lesions
+		?b: Tendons
+	?a like ?b , are poorly vascularized
+		?a: These lesions
+		?b: some other tissues
+	?a heal slowly
+		?a: These lesions
+
+
+label:    sent_22
+sentence: This article reviews the most common procedures performed to heal ulcers or avoid recurrence . Reach out and heal someone .
+
+ppatt:
+	?a reviews ?b
+		?a: This article
+		?b: the most common procedures performed to heal ulcers or avoid recurrence
+	?a performed to heal ?b
+		?a: the most common procedures
+		?b: ulcers
+	performed to avoid ?a
+		?a: recurrence
+	?a Reach out
+		?a: This article
+	?a heal ?b
+		?a: This article
+		?b: someone
+
+
+label:    sent_23
+sentence: They are effective in relieving mild reflux symptoms but do not predictably heal oesophagitis .
+
+ppatt:
+	?a are effective
+		?a: They
+	?a relieving ?b
+		?a: They
+		?b: mild reflux symptoms
+	?a do not predictably heal ?b
+		?a: They
+		?b: oesophagitis
+
+

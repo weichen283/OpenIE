@@ -1,0 +1,283 @@
+label:    sent_1
+sentence: Content analysis was used to code transcripts and categorize themes .
+
+ppatt:
+	?a was used to code ?b
+		?a: Content analysis
+		?b: transcripts
+	?a was used to categorize ?b
+		?a: Content analysis
+		?b: themes
+
+
+label:    sent_2
+sentence: Transcriptions were coded using discourse analysis to categorize themes .
+
+ppatt:
+	?a were coded using ?b
+		?a: Transcriptions
+		?b: discourse analysis
+	?a categorize ?b
+		?a: Transcriptions
+		?b: themes
+
+
+label:    sent_3
+sentence: Linear discriminant analysis was used to categorize normal vs. pathological scans .
+
+ppatt:
+	?a was used to categorize ?b
+		?a: Linear discriminant analysis
+		?b: normal vs. pathological scans
+
+
+label:    sent_4
+sentence: To categorize national medical expenditures into patient-centered categories .
+
+ppatt:
+	categorize ?a into ?b
+		?a: national medical expenditures
+		?b: patient-centered categories
+
+
+label:    sent_5
+sentence: Unsupervised cluster analyses were used to categorize patients as high or low gene expressors .
+
+ppatt:
+	?a were used to categorize ?b as ?c
+		?a: Unsupervised cluster analyses
+		?b: patients
+		?c: high or low gene expressors
+
+
+label:    sent_6
+sentence: Adult listeners were asked to categorize these synthetic vowels in a forced choice task .
+
+ppatt:
+	?a were asked to categorize ?b in ?c
+		?a: Adult listeners
+		?b: these synthetic vowels
+		?c: a forced choice task
+
+
+label:    sent_7
+sentence: To categorize phases of the patient journey and evaluate their utility as diagnostic typologies .
+
+ppatt:
+	categorize ?a
+		?a: phases of the patient journey
+	evaluate ?a as ?b
+		?a: their utility
+		?b: diagnostic typologies
+
+
+label:    sent_8
+sentence: Content analysis was used to categorize responses and identify categories .
+
+ppatt:
+	?a was used to categorize ?b
+		?a: Content analysis
+		?b: responses
+	?a was used to identify ?b
+		?a: Content analysis
+		?b: categories
+
+
+label:    sent_9
+sentence: This study investigated preschool children 's ability to discriminate and categorize facial expressions .
+
+ppatt:
+	?a investigated ?b
+		?a: This study
+		?b: preschool children 's ability to discriminate and categorize facial expressions
+	?a discriminate ?b
+		?a: preschool children 's ability
+		?b: facial expressions
+	categorize ?a
+		?a: facial expressions
+
+
+label:    sent_10
+sentence: It is formally shown how oligodendrocytes normally categorize axonic information processing via their processes .
+
+ppatt:
+	?a is formally shown ?b
+		?a: It
+		?b: SOMETHING := how oligodendrocytes normally categorize axonic information processing via their processes
+	how ?a normally categorize ?b via ?c
+		?a: oligodendrocytes
+		?b: axonic information processing
+		?c: their processes
+
+
+label:    sent_11
+sentence: Humans can categorize objects in complex natural scenes within 100-150 ms . To examine how patients categorize their pain with the two commonly employed scales .
+
+ppatt:
+	?a can categorize ?b in ?c
+		?a: Humans
+		?b: objects
+		?c: complex natural scenes within 100-150 ms
+	?a examine ?b
+		?a: Humans
+		?b: SOMETHING := how patients categorize their pain with the two commonly employed scales
+	how ?a categorize ?b
+		?a: patients
+		?b: their pain with the two commonly employed scales
+
+
+label:    sent_12
+sentence: Response to " A graded system to categorize drug-resistant epilepsy " . Do sheep ( Ovis aries ) categorize plant species according to botanical family ? Use of the adjective ' membranous ' to categorize hemodiafiltration and hemofiltration .
+
+ppatt:
+	?a categorize ?b
+		?a: Response to " A graded system . Do sheep
+		?b: drug-resistant epilepsy "
+	?a Do ?b
+		?a: Response to " A graded system to categorize drug-resistant epilepsy "
+		?b: sheep
+	?a is/are Ovis aries
+		?a: sheep
+	?a categorize ?b according to ?c to categorize ?d
+		?a: Response to " A graded system to categorize drug-resistant epilepsy " . Do sheep
+		?b: plant species
+		?c: botanical family
+		?d: hemodiafiltration
+	?a categorize ?b according to ?c to categorize ?d
+		?a: Response to " A graded system to categorize drug-resistant epilepsy " . Do sheep
+		?b: plant species
+		?c: Use of the adjective ' membranous
+		?d: hemodiafiltration
+	?a categorize ?b according to ?c to categorize ?d
+		?a: Response to " A graded system to categorize drug-resistant epilepsy " . Do sheep
+		?b: plant species
+		?c: botanical family
+		?d: hemofiltration
+	?a categorize ?b according to ?c to categorize ?d
+		?a: Response to " A graded system to categorize drug-resistant epilepsy " . Do sheep
+		?b: plant species
+		?c: Use of the adjective ' membranous
+		?d: hemofiltration
+
+
+label:    sent_13
+sentence: This overview attempts to categorize and summarize the available studies .
+
+ppatt:
+	?a attempts to categorize ?b
+		?a: This overview
+		?b: the available studies
+	?a attempts to summarize
+		?a: This overview
+
+
+label:    sent_14
+sentence: Descriptive statistics are commonly used to categorize , display , and summarize data .
+
+ppatt:
+	?a are commonly used to categorize
+		?a: Descriptive statistics
+	?a are commonly used to display
+		?a: Descriptive statistics
+	?a summarize ?b
+		?a: Descriptive statistics
+		?b: data
+
+
+label:    sent_15
+sentence: To categorize and characterize the patients with long-term survival and/or cure after palliative radiotherapy .
+
+ppatt:
+	categorize ?a
+		?a: the patients with long-term survival and/or cure after palliative radiotherapy
+	characterize ?a
+		?a: the patients with long-term survival and/or cure after palliative radiotherapy
+
+
+label:    sent_16
+sentence: Classify and categorize urinary incontinence treatments from least to most invasive . i ) Identify the TNBCs and categorize them into BL and NBL breast cancer .
+
+ppatt:
+	Classify ?a
+		?a: urinary incontinence treatments
+	categorize ?a
+		?a: urinary incontinence treatments
+	Identify ?a
+		?a: the TNBCs
+	categorize ?a into ?b
+		?a: them
+		?b: BL
+	categorize ?a into ?b
+		?a: them
+		?b: NBL
+	categorize ?a into ?b
+		?a: them
+		?b: breast cancer
+
+
+label:    sent_17
+sentence: QSRNVivo7 software was used to analyse and categorize the data under emerging themes .
+
+ppatt:
+	?a was used to analyse ?b
+		?a: QSRNVivo7 software
+		?b: the data under emerging themes
+	?a was used to categorize
+		?a: QSRNVivo7 software
+
+
+label:    sent_18
+sentence: Lynch syndrome is an entity difficult to categorize from a clinical point of view .
+
+ppatt:
+	?a is an entity difficult
+		?a: Lynch syndrome
+	categorize from ?a
+		?a: a clinical point of view
+
+
+label:    sent_19
+sentence: Such compounds , however , are difficult to categorize at present .
+
+ppatt:
+	?a however , are difficult to categorize at ?b
+		?a: Such compounds
+		?b: present
+
+
+label:    sent_20
+sentence: Acute scrotal pathology can be difficult to categorize without surgical exploration .
+
+ppatt:
+	?a can be difficult to categorize without ?b
+		?a: Acute scrotal pathology
+		?b: surgical exploration
+
+
+label:    sent_21
+sentence: Initially , we categorize the cerebral circulation and then review the vascular anatomy .
+
+ppatt:
+	Initially , ?a categorize ?b
+		?a: we
+		?b: the cerebral circulation
+	?a then review ?b
+		?a: we
+		?b: the vascular anatomy
+
+
+label:    sent_22
+sentence: Ontologies categorize entities , express relationships between them , and provide standardized definitions .
+
+ppatt:
+	?a categorize ?b
+		?a: Ontologies
+		?b: entities
+	?a express ?b
+		?a: Ontologies
+		?b: relationships between them
+	?a provide ?b
+		?a: Ontologies
+		?b: standardized definitions
+
+

@@ -1,0 +1,175 @@
+label:    sent_1
+sentence: The cis form must isomerize to trans before it can be cleaved .
+
+ppatt:
+	?a must isomerize to ?b
+		?a: The cis form
+		?b: trans
+	?a can be cleaved
+		?a: it
+
+
+label:    sent_2
+sentence: Docosahexaenoyl chains isomerize on the sub-nanosecond time scale .
+
+ppatt:
+	?a isomerize on ?b
+		?a: Docosahexaenoyl chains
+		?b: the sub-nanosecond time scale
+
+
+label:    sent_3
+sentence: All nitrile imines isomerize to the corresponding carbodiimides both thermally and photochemically .
+
+ppatt:
+	?a isomerize to ?b both thermally and photochemically
+		?a: All nitrile imines
+		?b: the corresponding carbodiimides
+
+
+label:    sent_4
+sentence: Pentacoordinate organoantimony compounds that isomerize by turnstile rotation .
+
+ppatt:
+	?a isomerize by ?b
+		?a: Pentacoordinate organoantimony compounds
+		?b: turnstile rotation
+
+
+label:    sent_5
+sentence: For example , 2'-hydroxychalcones can readily isomerize into flavanones .
+
+ppatt:
+	For ?a , ?b can readily isomerize into ?c
+		?a: example
+		?b: 2'-hydroxychalcones
+		?c: flavanones
+
+
+label:    sent_6
+sentence: This study proposes that the linear-C6H can readily isomerize to a six-member ring isomer .
+
+ppatt:
+	?a proposes ?b
+		?a: This study
+		?b: SOMETHING := the linear-C6H can readily isomerize to a six-member ring isomer
+	?a can readily isomerize to ?b
+		?a: the linear-C6H
+		?b: a six-member ring isomer
+
+
+label:    sent_7
+sentence: Specific ligand complexes , however , slowly isomerize to give a high-affinity complex . All other clusters isomerize .
+
+ppatt:
+	?a however , slowly isomerize to give ?b
+		?a: Specific ligand complexes
+		?b: a high-affinity complex
+	?a isomerize
+		?a: All other clusters
+
+
+label:    sent_8
+sentence: The initial collision complexes could isomerize . Green-plant chloroplasts contain enzymes that can form and isomerize disulfide bonds in proteins .
+
+ppatt:
+	?a could isomerize
+		?a: The initial collision complexes
+	?a contain ?b
+		?a: Green-plant chloroplasts
+		?b: enzymes that can form and isomerize disulfide bonds in proteins
+	?a can form ?b
+		?a: enzymes
+		?b: disulfide bonds in proteins
+	?a isomerize
+		?a: that
+
+
+label:    sent_9
+sentence: Thus , DsbC acts to isomerize disulfide bonds in vivo .
+
+ppatt:
+	Thus , ?a acts to isomerize ?b in vivo
+		?a: DsbC
+		?b: disulfide bonds
+
+
+label:    sent_10
+sentence: The effect of light is to isomerize the chromophore to the all-trans configuration .
+
+ppatt:
+	?a is to isomerize ?b to ?c
+		?a: The effect of light
+		?b: the chromophore
+		?c: the all-trans configuration
+
+
+label:    sent_11
+sentence: Evidence was found that delta-iBPBCDs isomerize stereo- and regioselectively to beta-iBPBCDs .
+
+ppatt:
+	?a was found ?b
+		?a: Evidence
+		?b: SOMETHING := delta-iBPBCDs isomerize stereo- and regioselectively to beta-iBPBCDs
+	?a isomerize ?b
+		?a: delta-iBPBCDs
+		?b: stereo-
+	?a isomerize ?b
+		?a: delta-iBPBCDs
+		?b: regioselectively
+	?a isomerize ?b
+		?a: delta-iBPBCDs
+		?b: beta-iBPBCDs
+
+
+label:    sent_12
+sentence: Many of the reactions involve formation of adducts , which can isomerize and dissociate .
+
+ppatt:
+	?a involve ?b
+		?a: Many of the reactions
+		?b: formation of adducts , which can isomerize and dissociate
+	?a can isomerize
+		?a: adducts
+	?a dissociate
+		?a: which
+
+
+label:    sent_13
+sentence: Some members also isomerize specific double bonds in their substrates to yield cis-apocarotenoid products .
+
+ppatt:
+	?a also isomerize ?b in ?c to yield ?d
+		?a: Some members
+		?b: specific double bonds
+		?c: their substrates
+		?d: cis-apocarotenoid products
+
+
+label:    sent_14
+sentence: Pin1 is an essential protein that can peptidyl-prolyl-isomerize small phosphopeptides . Human small intestine can isomerize all-trans-retinoic acid .
+
+ppatt:
+	?a is an essential protein
+		?a: Pin1
+	?a can ?b . ?c can isomerize ?d
+		?a: an essential protein
+		?b: peptidyl-prolyl-isomerize small phosphopeptides
+		?c: Human small intestine
+		?d: all-trans-retinoic acid
+
+
+label:    sent_15
+sentence: This enzyme could isomerize L-arabinose into L-ribulose , as well as D-galactose into D-tagatose .
+
+ppatt:
+	?a could isomerize ?b into ?c
+		?a: This enzyme
+		?b: L-arabinose
+		?c: L-ribulose
+	?a could isomerize ?b into ?c
+		?a: This enzyme
+		?b: L-arabinose
+		?c: D-galactose into D-tagatose
+
+

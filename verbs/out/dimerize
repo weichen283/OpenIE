@@ -1,0 +1,318 @@
+label:    sent_1
+sentence: After base abstraction , the free germylenes can dimerize by formation of a digermene .
+
+ppatt:
+	After ?a , ?b can dimerize by ?c
+		?a: base abstraction
+		?b: the free germylenes
+		?c: formation of a digermene
+
+
+label:    sent_2
+sentence: Proteins unable to dimerize did not bind DNA .
+
+ppatt:
+	?a did not bind ?b
+		?a: Proteins unable to dimerize
+		?b: DNA
+
+
+label:    sent_3
+sentence: BaxDeltaalpha5alpha6 and Bax-Bcl-2 ( alpha5alpha6 ) also retained the ability to dimerize with Bcl-2 .
+
+ppatt:
+	?a is/are alpha5alpha6
+		?a: BaxDeltaalpha5alpha6
+	?a is/are alpha5alpha6
+		?a: Bax-Bcl-2
+	?a also retained ?b
+		?a: BaxDeltaalpha5alpha6
+		?b: the ability to dimerize with Bcl-2
+	?a also retained ?b
+		?a: Bax-Bcl-2
+		?b: the ability to dimerize with Bcl-2
+	?a dimerize with ?b
+		?a: the ability
+		?b: Bcl-2
+
+
+label:    sent_4
+sentence: Unexpectedly , the COOH-terminal DNA-binding domains dimerize in the non-DNA binding state .
+
+ppatt:
+	Unexpectedly , ?a dimerize in ?b
+		?a: the COOH-terminal DNA-binding domains
+		?b: the non-DNA binding state
+
+
+label:    sent_5
+sentence: Moreover , the complex suggests how CD4 can dimerize through ligand binding .
+
+ppatt:
+	Moreover , ?a suggests ?b
+		?a: the complex
+		?b: SOMETHING := how CD4 can dimerize through ligand binding
+	how ?a can dimerize through ?b
+		?a: CD4
+		?b: ligand binding
+
+
+label:    sent_6
+sentence: In the absence of interaction with gp38 , gp37 polypeptides do not dimerize .
+
+ppatt:
+	In ?a of ?b , ?c do not dimerize
+		?a: absence
+		?b: interaction with gp38
+		?c: gp37 polypeptides
+
+
+label:    sent_7
+sentence: In Drosophila cell lines , we present evidence that Khc-73 can dimerize in vivo .
+
+ppatt:
+	In ?a , ?b present ?c
+		?a: Drosophila cell lines
+		?b: we
+		?c: evidence that Khc-73 can dimerize in vivo
+	?a can dimerize in vivo
+		?a: Khc-73
+
+
+label:    sent_8
+sentence: ABC half-transporters must dimerize to form a functional full-transporter .
+
+ppatt:
+	?a must dimerize to form ?b
+		?a: ABC half-transporters
+		?b: a functional full-transporter
+
+
+label:    sent_9
+sentence: Two such monomers dimerize to form a ring-shaped molecule of approximate 2-fold symmetry .
+
+ppatt:
+	?a dimerize to form ?b
+		?a: Two such monomers
+		?b: a ring-shaped molecule of approximate 2-fold symmetry
+
+
+label:    sent_10
+sentence: Aminoethylcysteine ketimine is known to dimerize spontaneously and easily lose one carboxyl group .
+
+ppatt:
+	?a is known to dimerize spontaneously easily
+		?a: Aminoethylcysteine ketimine
+	?a is known to easily lose ?b
+		?a: Aminoethylcysteine ketimine
+		?b: one carboxyl group
+
+
+label:    sent_11
+sentence: Mutation of these residues generated nonfunctional receptors that could not dimerize or trigger signaling .
+
+ppatt:
+	?a generated ?b
+		?a: Mutation of these residues
+		?b: nonfunctional receptors that could not dimerize or trigger signaling
+	?a could not dimerize ?b
+		?a: nonfunctional receptors
+		?b: signaling
+	?a trigger
+		?a: that
+
+
+label:    sent_12
+sentence: A calix[4 ] arene was designed to reversibly dimerize and form an egg-shaped enclosure .
+
+ppatt:
+	?a was designed to reversibly dimerize ?b
+		?a: A calix[4 ] arene
+		?b: an egg-shaped enclosure
+	?a was designed to form
+		?a: A calix[4 ] arene
+
+
+label:    sent_13
+sentence: The phosphorylated monomers dimerize and assume specific DNA binding ability .
+
+ppatt:
+	?a dimerize
+		?a: The phosphorylated monomers
+	?a assume ?b
+		?a: The phosphorylated monomers
+		?b: specific DNA binding ability
+
+
+label:    sent_14
+sentence: Tyrosine phosphorylated STATs dimerize and translocate into the nucleus to activate specific genes .
+
+ppatt:
+	?a dimerize into ?b to activate ?c
+		?a: Tyrosine phosphorylated STATs
+		?b: the nucleus
+		?c: specific genes
+	?a translocate
+		?a: Tyrosine phosphorylated STATs
+
+
+label:    sent_15
+sentence: Our observations suggest that wheat eIF4B can dimerize but requires zinc . As a consequence , it does not dimerize properly and forms aggregates in vitro .
+
+ppatt:
+	?a suggest ?b ?c
+		?a: Our observations
+		?b: SOMETHING := wheat eIF4B can dimerize . As a consequence
+		?c: SOMETHING := it does not dimerize properly
+	?a can dimerize . As ?b
+		?a: wheat eIF4B
+		?b: a consequence
+	?a requires ?b
+		?a: wheat eIF4B
+		?b: zinc
+	?a does not dimerize properly
+		?a: it
+	?a forms ?b in vitro
+		?a: it
+		?b: aggregates
+
+
+label:    sent_16
+sentence: As a response the TLRs dimerize and their signaling is initiated .
+
+ppatt:
+	?a ?b dimerize
+		?a: a response
+		?b: the TLRs
+	?a is initiated
+		?a: their signaling
+
+
+label:    sent_17
+sentence: On cytokine-induced tyrosine phosphorylation , these molecules dimerize and accumulate transiently in the nucleus .
+
+ppatt:
+	On ?a , ?b dimerize in ?c
+		?a: cytokine-induced tyrosine phosphorylation
+		?b: these molecules
+		?c: the nucleus
+	?a accumulate transiently
+		?a: these molecules
+
+
+label:    sent_18
+sentence: Mybleu is able to dimerize with canonical leucine zippers and to activate transcription selectively .
+
+ppatt:
+	?a is able to dimerize with ?b
+		?a: Mybleu
+		?b: canonical leucine zippers
+	?a is able to to activate ?b selectively
+		?a: Mybleu
+		?b: transcription
+
+
+label:    sent_19
+sentence: Two monomers of MTH1859 occupy the asymmetric unit and dimerize in a head-to-head fashion .
+
+ppatt:
+	?a occupy ?b
+		?a: Two monomers of MTH1859
+		?b: the asymmetric unit
+	?a dimerize in ?b
+		?a: Two monomers of MTH1859
+		?b: a head-to-head fashion
+
+
+label:    sent_20
+sentence: Her1 binds DNA only as a homodimer but will also dimerize with Hes6 .
+
+ppatt:
+	?a binds ?b as ?c
+		?a: Her1
+		?b: DNA
+		?c: only a homodimer
+	?a will also dimerize with ?b
+		?a: Her1
+		?b: Hes6
+
+
+label:    sent_21
+sentence: Tetra- and hexasaccharides bound FGF2 , but failed to dimerize the growth factor .
+
+ppatt:
+	?a bound ?b
+		?a: Tetra-
+		?b: FGF2
+	?a bound ?b
+		?a: hexasaccharides
+		?b: FGF2
+	?a failed to dimerize ?b
+		?a: Tetra-
+		?b: the growth factor
+	?a failed to dimerize ?b
+		?a: hexasaccharides
+		?b: the growth factor
+
+
+label:    sent_22
+sentence: Topochemistry for preparing ligands that dimerize receptors .
+
+ppatt:
+	?a preparing ?b
+		?a: Topochemistry
+		?b: ligands that dimerize receptors
+	?a dimerize ?b
+		?a: ligands
+		?b: receptors
+
+
+label:    sent_23
+sentence: To dimerize DHFR , bis-MTX must shift from a folded to an extended conformation .
+
+ppatt:
+	dimerize ?a ?b
+		?a: DHFR
+		?b: bis-MTX
+	?a must shift from ?b to ?c
+		?a: bis-MTX
+		?b: a folded
+		?c: an extended conformation
+
+
+label:    sent_24
+sentence: Urea will also dimerize normal serum albumin under these conditions .
+
+ppatt:
+	?a will also dimerize ?b under ?c
+		?a: Urea
+		?b: normal serum albumin
+		?c: these conditions
+
+
+label:    sent_25
+sentence: Such pairs provide the opportunity to dimerize two separate molecular systems without undesired crosstalk .
+
+ppatt:
+	?a provide ?b
+		?a: Such pairs
+		?b: the opportunity to dimerize two separate molecular systems without undesired crosstalk
+	?a dimerize ?b without ?c
+		?a: the opportunity
+		?b: two separate molecular systems
+		?c: undesired crosstalk
+
+
+label:    sent_26
+sentence: This correlated with the ability to dimerize FGF2 in an apparently cooperative manner .
+
+ppatt:
+	?a correlated with ?b
+		?a: This
+		?b: the ability to dimerize FGF2 in an apparently cooperative manner
+	?a dimerize ?b in ?c
+		?a: the ability
+		?b: FGF2
+		?c: an apparently cooperative manner
+
+

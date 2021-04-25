@@ -1,0 +1,317 @@
+label:    sent_1
+sentence: This study used a qualitative explorative approach to gain rich in-depth data .
+
+ppatt:
+	?a used ?b
+		?a: This study
+		?b: a qualitative explorative approach to gain rich in-depth data
+	?a gain ?b
+		?a: a qualitative explorative approach
+		?b: rich in-depth data
+
+
+label:    sent_2
+sentence: To gain an understanding of fathers ' experiences of a planned home birth .
+
+ppatt:
+	gain ?a
+		?a: an understanding of fathers ' experiences of a planned home birth
+
+
+label:    sent_3
+sentence: The apparent need to gain professional status is discussed .
+
+ppatt:
+	?a gain ?b
+		?a: The apparent need
+		?b: professional status
+	?a is discussed
+		?a: The apparent need to gain professional status
+
+
+label:    sent_4
+sentence: It is easy to perform and may help the patients gain a faster rehabilitation .
+
+ppatt:
+	?a is easy to perform
+		?a: It
+	?a is easy to may help ?b ?c
+		?a: It
+		?b: the patients
+		?c: SOMETHING := gain a faster rehabilitation
+	?a gain ?b
+		?a: It
+		?b: a faster rehabilitation
+
+
+label:    sent_5
+sentence: Published statements gain credibility when followed by citations .
+
+ppatt:
+	?a gain ?b
+		?a: Published statements
+		?b: credibility
+	?a when followed by ?b
+		?a: Published statements
+		?b: citations
+
+
+label:    sent_6
+sentence: Such can assist nursing students to gain greater positive experiences in their profession .
+
+ppatt:
+	?a can assist ?b to gain ?c in ?d
+		?a: Such
+		?b: nursing students
+		?c: greater positive experiences
+		?d: their profession
+
+
+label:    sent_7
+sentence: Participants who were obese at baseline did not gain more weight during treatment .
+
+ppatt:
+	?a were obese at ?b
+		?a: Participants
+		?b: baseline
+	?a did not gain ?b during ?c
+		?a: Participants who were obese at baseline
+		?b: more weight
+		?c: treatment
+
+
+label:    sent_8
+sentence: Our aim was to gain insight into dopaminergic involvement in the human reward system .
+
+ppatt:
+	?a was to gain ?b
+		?a: Our aim
+		?b: insight into dopaminergic involvement in the human reward system
+
+
+label:    sent_9
+sentence: Both groups continued to gain weight in a similar manner following the injection .
+
+ppatt:
+	?a continued to gain ?b in ?c following ?d
+		?a: Both groups
+		?b: weight
+		?c: a similar manner
+		?d: the injection
+
+
+label:    sent_10
+sentence: First , genes progressively gain new splice variants with time .
+
+ppatt:
+	First , ?a progressively gain ?b with ?c
+		?a: genes
+		?b: new splice variants
+		?c: time
+
+
+label:    sent_11
+sentence: The majority of women gain more weight during pregnancy than what is recommended .
+
+ppatt:
+	?a gain ?b during ?c
+		?a: The majority of women
+		?b: more weight
+		?c: pregnancy
+	?a is recommended
+		?a: what
+
+
+label:    sent_12
+sentence: In addition , the proteins gain additional concentration by ITP .
+
+ppatt:
+	In ?a , ?b gain ?c
+		?a: addition
+		?b: the proteins
+		?c: additional concentration by ITP
+
+
+label:    sent_13
+sentence: To gain this knowledge , understanding the patient 's perceptions and concerns is essential .
+
+ppatt:
+	gain ?a ?b
+		?a: this knowledge
+		?b: understanding the patient 's perceptions and concerns
+	understanding ?a
+		?a: the patient 's perceptions
+	understanding ?a
+		?a: concerns
+	?a is essential
+		?a: SOMETHING := understanding the patient 's perceptions and concerns
+
+
+label:    sent_14
+sentence: Results showed combination therapy was safe and could gain better outcomes in glycemic control .
+
+ppatt:
+	?a showed ?b
+		?a: Results
+		?b: SOMETHING := combination therapy was safe
+	?a was safe
+		?a: combination therapy
+	?a could gain ?b in ?c
+		?a: combination therapy
+		?b: better outcomes
+		?c: glycemic control
+
+
+label:    sent_15
+sentence: The removal of ovarian hormones caused mice to become inactive and gain body mass . Health care coalitions gain nationwide popularity but need cohesiveness , trust to work properly .
+
+ppatt:
+	?a caused ?b to become inactive
+		?a: The removal of ovarian hormones
+		?b: mice
+	?a caused to inactive gain
+		?a: The removal of ovarian hormones
+	?a caused to become body mass
+		?a: The removal of ovarian hormones
+	?a gain ?b
+		?a: Health care coalitions
+		?b: nationwide popularity
+	?a need ?b to work properly
+		?a: Health care coalitions
+		?b: cohesiveness
+	?a is/are trust
+		?a: cohesiveness
+
+
+label:    sent_16
+sentence: Students gain experience and meet learning outcomes through clinical experiences in health care settings . Operative treatment can gain union and improve arm function .
+
+ppatt:
+	?a gain ?b
+		?a: Students
+		?b: experience
+	?a meet ?b through ?c
+		?a: Students
+		?b: learning outcomes
+		?c: clinical experiences in health care settings
+	?a can gain ?b
+		?a: Operative treatment
+		?b: union
+	?a improve ?b
+		?a: Operative treatment
+		?b: arm function
+
+
+label:    sent_17
+sentence: Determination of 17q gain in patients with neuroblastoma by analysis of circulating DNA .
+
+ppatt:
+
+
+
+label:    sent_18
+sentence: [ The methods of left liver lobe volume gain in surgical hepatology ] . Accuracy of maternal recall of gestational weight gain 4 to 12 years after delivery .
+
+ppatt:
+	?a gain in ?b
+		?a: The methods of left liver lobe volume
+		?b: surgical hepatology ]
+	?a gain ?b after
+		?a: Accuracy of maternal recall of gestational weight
+		?b: 4 12 years
+
+
+label:    sent_19
+sentence: Medicare has much to gain financially by clarifying its classification rules . [Who is likely to gain from high dose supplementation of vitamin E ? ] . Nurses have much to gain from ERA ratification .
+
+ppatt:
+	?a has ?b to gain financially
+		?a: Medicare
+		?b: much
+	?a clarifying ?b
+		?a: Medicare
+		?b: its classification rules
+	?a is likely to gain from ?b
+		?a: [Who
+		?b: high dose supplementation of vitamin E ? ]
+	?a have ?b to gain from ?c
+		?a: Nurses
+		?b: much
+		?c: ERA ratification
+
+
+label:    sent_20
+sentence: Uveitic patients similarly gain vision on average , and control of inflammation remains paramount .
+
+ppatt:
+	?a similarly gain ?b on ?c
+		?a: Uveitic patients
+		?b: vision
+		?c: average
+	?a remains paramount
+		?a: control of inflammation
+
+
+label:    sent_21
+sentence: In these circumstances they gain confidence and display the human qualities required of doctors .
+
+ppatt:
+	In ?a ?b gain ?c
+		?a: these circumstances
+		?b: they
+		?c: confidence
+	?a display ?b
+		?a: they
+		?b: the human qualities required of doctors
+	?a required of ?b
+		?a: the human qualities
+		?b: doctors
+
+
+label:    sent_22
+sentence: As observers , living human beings gain dispositions to display and use social subjectivity .
+
+ppatt:
+	As ?a , ?b gain ?c to display ?d
+		?a: observers
+		?b: living human beings
+		?c: dispositions
+		?d: social subjectivity
+	?a gain to use
+		?a: living human beings
+
+
+label:    sent_23
+sentence: Individuals with SSD are heavier and gain more weight over time than normal-duration sleepers .
+
+ppatt:
+	?a are heavier
+		?a: Individuals with SSD
+	?a gain ?b over ?c than ?d
+		?a: Individuals with SSD
+		?b: more weight
+		?c: time
+		?d: normal-duration sleepers
+
+
+label:    sent_24
+sentence: States storm Hill , but gain little ground on Medicaid .
+
+ppatt:
+	gain ?a on ?b
+		?a: little ground
+		?b: Medicaid
+
+
+label:    sent_25
+sentence: Both groups maintained , but did not gain , weight during the feeding schedule .
+
+ppatt:
+	?a maintained
+		?a: Both groups
+	?a did not gain ?b during ?c
+		?a: Both groups
+		?b: weight
+		?c: the feeding schedule
+
+

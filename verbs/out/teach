@@ -1,0 +1,292 @@
+label:    sent_1
+sentence: This shift prompted educators to readdress the best way to teach these two modalities .
+
+ppatt:
+	?a prompted ?b to readdress ?c
+		?a: This shift
+		?b: educators
+		?c: the best way to teach these two modalities
+	?a teach ?b
+		?a: the best way
+		?b: these two modalities
+
+
+label:    sent_2
+sentence: It is therefore possible to teach aesthetic surgery to residents .
+
+ppatt:
+	?a is therefore possible to teach ?b
+		?a: It
+		?b: aesthetic surgery to residents
+
+
+label:    sent_3
+sentence: Anesthesiology training programs are required to teach these algorithms .
+
+ppatt:
+	?a are required to teach ?b
+		?a: Anesthesiology training programs
+		?b: these algorithms
+
+
+label:    sent_4
+sentence: Nursing schools to teach new ways to cope with death . Music lessons : what musicians can teach doctors ( and other health professionals ) . The use of simulation to teach clinical skills in obstetrics .
+
+ppatt:
+	?a teach ?b to cope with ?c ?d
+		?a: Nursing schools
+		?b: new ways
+		?c: death
+		?d: Music lessons what musicians can teach doctors ( and other health professionals . The use of simulation to teach clinical skills in obstetrics
+	?a ?b can teach ?c ?d
+		?a: Music lessons
+		?b: what musicians
+		?c: doctors
+		?d: The use of simulation to teach clinical skills in obstetrics
+	?a ?b can teach ?c ?d
+		?a: Music lessons
+		?b: what musicians
+		?c: other health professionals
+		?d: The use of simulation to teach clinical skills in obstetrics
+	?a teach ?b
+		?a: The use of simulation
+		?b: clinical skills in obstetrics
+
+
+label:    sent_5
+sentence: Simulation exercises have long been used to teach management skills in business schools .
+
+ppatt:
+	?a have long been used to teach ?b
+		?a: Simulation exercises
+		?b: management skills in business schools
+
+
+label:    sent_6
+sentence: To determine the methods used to teach surgical airway management to residents .
+
+ppatt:
+	determine ?a
+		?a: the methods used to teach surgical airway management to residents
+	?a used to teach ?b
+		?a: the methods
+		?b: surgical airway management to residents
+
+
+label:    sent_7
+sentence: Do psychoanalysis and the unconsciousness have something to teach us about consciousness ? How can we teach EBM in clinical practice ? A framework to teach self-reflection for the remedial resident .
+
+ppatt:
+	Do ?a have something to teach ?b about ?c ?d
+		?a: psychoanalysis
+		?b: us
+		?c: consciousness
+		?d: SOMETHING := How can we teach EBM in clinical practice A framework to teach self-reflection for the remedial resident
+	Do ?a have something to teach ?b about ?c ?d
+		?a: the unconsciousness
+		?b: us
+		?c: consciousness
+		?d: SOMETHING := How can we teach EBM in clinical practice A framework to teach self-reflection for the remedial resident
+	How can ?a teach ?b in ?c ?d
+		?a: we
+		?b: EBM
+		?c: clinical practice
+		?d: A framework to teach self-reflection for the remedial resident
+	?a teach ?b for ?c
+		?a: A framework
+		?b: self-reflection
+		?c: the remedial resident
+
+
+label:    sent_8
+sentence: What can development teach us about menopause ? It can simultaneously expedite diagnostic evaluations and teach the best utilization of imaging examinations .
+
+ppatt:
+	?a can ?b teach ?c about ?d
+		?a: What
+		?b: development
+		?c: us
+		?d: menopause
+	?a can simultaneously expedite ?b
+		?a: It
+		?b: diagnostic evaluations
+	?a teach ?b
+		?a: It
+		?b: the best utilization of imaging examinations
+
+
+label:    sent_9
+sentence: Third , a preventive intervention was designed to teach coping skills and enhance self-esteem .
+
+ppatt:
+	Third , ?a was designed to teach ?b
+		?a: a preventive intervention
+		?b: coping skills
+	Third , ?a was designed to enhance ?b
+		?a: a preventive intervention
+		?b: self-esteem
+
+
+label:    sent_10
+sentence: Findings support nursing interventions that empower and teach self-management techniques .
+
+ppatt:
+	?a support ?b
+		?a: Findings
+		?b: nursing interventions that empower and teach self-management techniques
+	?a empower ?b
+		?a: nursing interventions
+		?b: self-management techniques
+	?a teach
+		?a: that
+
+
+label:    sent_11
+sentence: Agreement on how to define , teach , and evaluate this skill is lacking .
+
+ppatt:
+	?a how to define
+		?a: Agreement
+	?a teach
+		?a: Agreement on how to define
+	?a evaluate ?b
+		?a: Agreement on how to define
+		?b: this skill
+	?a is lacking
+		?a: Agreement on how to define
+
+
+label:    sent_12
+sentence: Application of PEEP therapy is difficult to teach and demonstrate clearly .
+
+ppatt:
+	?a is difficult to teach
+		?a: Application of PEEP therapy
+	?a is difficult to demonstrate clearly
+		?a: Application of PEEP therapy
+
+
+label:    sent_13
+sentence: An implementation strategy is proposed to teach and assess cataract surgical competence .
+
+ppatt:
+	?a is proposed to teach ?b
+		?a: An implementation strategy
+		?b: cataract surgical competence
+	?a is proposed to assess
+		?a: An implementation strategy
+
+
+label:    sent_14
+sentence: Citations : the rules they did n't teach you . Most programs teach lumbar before thoracic epidurals .
+
+ppatt:
+	?a teach ?b before ?c
+		?a: Most programs
+		?b: lumbar
+		?c: thoracic epidurals
+
+
+label:    sent_15
+sentence: Indeed , we pay little more than lip-service to the ideal we teach about .
+
+ppatt:
+	Indeed , ?a pay little more than lip-service
+		?a: we
+	to ?a ?b teach about
+		?a: the ideal
+		?b: we
+
+
+label:    sent_16
+sentence: Thoracic epidurals are safe to teach without prior experience with lumbar epidurals . [Speaking with images .
+
+ppatt:
+	?a are safe to teach without ?b . [Speaking with ?c
+		?a: Thoracic epidurals
+		?b: prior experience with lumbar epidurals
+		?c: images
+
+
+label:    sent_17
+sentence: Audiovisual communication materials .
+
+ppatt:
+
+
+
+label:    sent_18
+sentence: When and how to teach with slides ] . In addition , it is easy to learn and teach to patients .
+
+ppatt:
+	When how to teach with ?a ?b
+		?a: slides
+		?b: it
+	In ?a , ?b is easy to learn to ?c
+		?a: addition
+		?b: it
+		?c: patients
+	?a is easy to teach
+		?a: it
+
+
+label:    sent_19
+sentence: All medical schools teach some medical ethics but there are not enough trained teachers .
+
+ppatt:
+	?a teach ?b
+		?a: All medical schools
+		?b: some medical ethics
+	there are ?a
+		?a: not enough trained teachers
+
+
+label:    sent_20
+sentence: This prompted us to reflect on what and how we teach psychiatry .
+
+ppatt:
+	?a prompted ?b to reflect
+		?a: This
+		?b: us
+	prompted to on ?a how ?b teach ?c
+		?a: what
+		?b: we
+		?c: psychiatry
+
+
+label:    sent_21
+sentence: Hurricane Katrina : disasters teach us and we must learn . CASES 101 : learning to teach with cases .
+
+ppatt:
+	?a ?b teach ?c
+		?a: Hurricane Katrina
+		?b: disasters
+		?c: us
+	?a must learn ?b
+		?a: we
+		?b: CASES 101
+
+
+label:    sent_22
+sentence: Teaching medical teachers how to teach in Lagos , Nigeria .
+
+ppatt:
+	Teaching ?a
+		?a: medical teachers
+	how to teach in ?a ?b
+		?a: Lagos
+		?b: Nigeria
+
+
+label:    sent_23
+sentence: [What nursing instructors teach in consumer planning and social service planning ] .
+
+ppatt:
+	?a teach in ?b
+		?a: [What nursing instructors
+		?b: consumer planning
+	?a teach in ?b
+		?a: [What nursing instructors
+		?b: social service planning ]
+
+

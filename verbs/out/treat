@@ -1,0 +1,321 @@
+label:    sent_1
+sentence: Neuronavigation-assisted VP shunts were used to treat 28 % . ( OFI ) are traditionally used in Mexico to treat diabetes mellitus .
+
+ppatt:
+	?a were used to treat ?b
+		?a: Neuronavigation-assisted VP shunts
+		?b: 28 %
+	?a is/are OFI
+		?a: 28 %
+	?a are traditionally used in ?b to treat ?c
+		?a: Neuronavigation-assisted VP shunts
+		?b: Mexico
+		?c: diabetes mellitus
+
+
+label:    sent_2
+sentence: Analysis will be performed according to the intention to treat principle .
+
+ppatt:
+	?a will be performed according to ?b
+		?a: Analysis
+		?b: the intention to treat principle
+	?a treat ?b
+		?a: the intention
+		?b: principle
+
+
+label:    sent_3
+sentence: The Rex shunt has been used successfully to treat PVT patients since 1998 .
+
+ppatt:
+	?a has been used successfully to treat ?b since ?c
+		?a: The Rex shunt
+		?b: PVT patients
+		?c: 1998
+
+
+label:    sent_4
+sentence: Voriconazole is widely used to treat invasive aspergillosis after lung transplantation .
+
+ppatt:
+	?a is widely used to treat ?b after ?c
+		?a: Voriconazole
+		?b: invasive aspergillosis
+		?c: lung transplantation
+
+
+label:    sent_5
+sentence: In addition , it remains challenging to treat cancer metastasis through antiangiogenic regimes .
+
+ppatt:
+	In ?a , ?b remains challenging to treat ?c through ?d
+		?a: addition
+		?b: it
+		?c: cancer metastasis
+		?d: antiangiogenic regimes
+
+
+label:    sent_6
+sentence: Insulin infusion to treat severe hypertriglyceridemia associated with pegaspargase therapy : a case report .
+
+ppatt:
+	?a treat ?b
+		?a: Insulin infusion
+		?b: severe hypertriglyceridemia associated with pegaspargase therapy
+	?a associated with ?b
+		?a: severe hypertriglyceridemia
+		?b: pegaspargase therapy
+
+
+label:    sent_7
+sentence: Forty percent of urologists stated that they would treat asymptomatic bacteriuria .
+
+ppatt:
+	?a stated ?b
+		?a: Forty percent of urologists
+		?b: SOMETHING := they would treat asymptomatic bacteriuria
+	?a would treat ?b
+		?a: they
+		?b: asymptomatic bacteriuria
+
+
+label:    sent_8
+sentence: Combined therapy : photodynamic therapy and bevacizumab to treat myopic neovascular membranes .
+
+ppatt:
+	?a treat ?b
+		?a: Combined therapy
+		?b: myopic neovascular membranes
+
+
+label:    sent_9
+sentence: No consensus exists on how to follow-up and treat these patients .
+
+ppatt:
+	?a exists
+		?a: No consensus
+	?a how to follow-up
+		?a: No consensus
+	?a treat ?b
+		?a: No consensus
+		?b: these patients
+
+
+label:    sent_10
+sentence: We performed pylorus-preserving pancreaticoduodenectomy to treat the calcified tumor and multilocular cystic lesions .
+
+ppatt:
+	?a performed ?b
+		?a: We
+		?b: pylorus-preserving pancreaticoduodenectomy
+	?a treat ?b
+		?a: We
+		?b: the calcified tumor and multilocular cystic lesions
+
+
+label:    sent_11
+sentence: [How to diagnose and treat limb apraxia ] . Hepatolithiasis is a challenging condition to treat especially in patients with previous hepatobiliary surgery .
+
+ppatt:
+	?a diagnose
+		?a: [How
+	?a treat
+		?a: [How
+	?a ?b is a challenging condition
+		?a: [How to diagnose and treat
+		?b: limb apraxia ] . Hepatolithiasis
+	?a treat especially in ?b
+		?a: a challenging condition
+		?b: patients with previous hepatobiliary surgery
+
+
+label:    sent_12
+sentence: Patient whose carina is involved by carcinoma is difficult to treat by surgery .
+
+ppatt:
+	?a ?b is involved by ?c
+		?a: Patient
+		?b: whose carina
+		?c: carcinoma
+	?a is difficult to treat by ?b
+		?a: Patient whose carina is involved by carcinoma
+		?b: surgery
+
+
+label:    sent_13
+sentence: Subjects were permitted to treat at the stage they customarily treated .
+
+ppatt:
+	?a were permitted to treat at ?b
+		?a: Subjects
+		?b: the stage
+	?a customarily treated
+		?a: they
+
+
+label:    sent_14
+sentence: Inhalable nanoparticles , a non-invasive approach to treat lung cancer in a mouse model .
+
+ppatt:
+	?a is/are a non-invasive approach
+		?a: Inhalable nanoparticles
+	?a treat ?b in ?c
+		?a: a non-invasive approach
+		?b: lung cancer
+		?c: a mouse model
+
+
+label:    sent_15
+sentence: Exogenous IFN-gamma can treat hemangioma effectively in a nude mice model .
+
+ppatt:
+	?a can treat ?b effectively in ?c
+		?a: Exogenous IFN-gamma
+		?b: hemangioma
+		?c: a nude mice model
+
+
+label:    sent_16
+sentence: How I treat late effects in adults after allogeneic stem cell transplantation .
+
+ppatt:
+	How ?a treat ?b in ?c after ?d
+		?a: I
+		?b: late effects
+		?c: adults
+		?d: allogeneic stem cell transplantation
+
+
+label:    sent_17
+sentence: Trick or treat ? Steroid and tamoxifen therapy is recommended to treat and avoid recurrence of periaortitis .
+
+ppatt:
+	?a is recommended to treat ?b
+		?a: Trick
+		?b: recurrence of periaortitis
+	?a is recommended to treat ?b
+		?a: treat
+		?b: recurrence of periaortitis
+	?a is recommended to treat ?b
+		?a: Steroid
+		?b: recurrence of periaortitis
+	?a is recommended to treat ?b
+		?a: therapy
+		?b: recurrence of periaortitis
+	?a is recommended to avoid
+		?a: Trick
+	?a is recommended to avoid
+		?a: treat
+	?a is recommended to avoid
+		?a: Steroid
+	?a is recommended to avoid
+		?a: therapy
+
+
+label:    sent_18
+sentence: Statins after intracerebral hemorrhage : to treat or not to treat .
+
+ppatt:
+	?a treat
+		?a: Statins after intracerebral hemorrhage
+
+
+label:    sent_19
+sentence: Rolling needle therapy can treat chronic insomnia and increase life quality of the patient .
+
+ppatt:
+	?a can treat ?b
+		?a: Rolling needle therapy
+		?b: chronic insomnia
+	?a increase ?b
+		?a: Rolling needle therapy
+		?b: life quality of the patient
+
+
+label:    sent_20
+sentence: Community hospital-school partnership to treat asthma episodes at school and improve management .
+
+ppatt:
+	?a treat ?b at ?c
+		?a: Community hospital-school partnership
+		?b: asthma episodes
+		?c: school
+	improve ?a
+		?a: management
+
+
+label:    sent_21
+sentence: Hospitals treat many uninsured patients and shoulder substantial amounts of uncompensated care .
+
+ppatt:
+	?a treat ?b
+		?a: Hospitals
+		?b: many uninsured patients
+	?a treat ?b
+		?a: Hospitals
+		?b: shoulder substantial amounts of uncompensated care
+
+
+label:    sent_22
+sentence: This knowledge may aid those who treat SS and in designing intervention studies .
+
+ppatt:
+	?a may aid ?b
+		?a: This knowledge
+		?b: those who treat SS and in designing intervention studies
+	?a treat ?b
+		?a: those
+		?b: SS
+	?a designing ?b
+		?a: who
+		?b: intervention studies
+
+
+label:    sent_23
+sentence: Hysteroscopy is performed to view and treat pathology within the uterine cavity and endocervix .
+
+ppatt:
+	?a is performed to view ?b
+		?a: Hysteroscopy
+		?b: pathology within the uterine cavity and endocervix
+	?a is performed to treat
+		?a: Hysteroscopy
+
+
+label:    sent_24
+sentence: The controversy over whether or not to treat asymptomatic infants is unresolved as well .
+
+ppatt:
+	?a not to treat ?b
+		?a: The controversy
+		?b: asymptomatic infants
+	?a over whether is unresolved as well
+		?a: The controversy or not to treat asymptomatic infants
+
+
+label:    sent_25
+sentence: Open bites are known to be difficult malocclusions to treat .
+
+ppatt:
+	?a are known to be difficult malocclusions
+		?a: Open bites
+	?a treat
+		?a: difficult malocclusions
+
+
+label:    sent_26
+sentence: The use of serotonergic drugs to treat obesity -- is there any hope ? Statin treatment for primary prevention of vascular disease : whom to treat ?
+
+ppatt:
+	?a treat ?b
+		?a: The use of serotonergic drugs
+		?b: obesity
+	?a is there ?b
+		?a: The use of serotonergic drugs to treat obesity
+		?b: any hope : whom to treat
+	?a ?b treat
+		?a: any hope
+		?b: whom
+
+

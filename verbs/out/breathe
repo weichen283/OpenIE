@@ -1,0 +1,223 @@
+label:    sent_1
+sentence: Animals were allowed to breathe freely during the imaging under isoflurane anesthesia .
+
+ppatt:
+	?a were allowed to breathe freely during ?b
+		?a: Animals
+		?b: the imaging under isoflurane anesthesia
+
+
+label:    sent_2
+sentence: One group of patients was allowed to breathe spontaneously after intubation under suxamethonium .
+
+ppatt:
+	?a was allowed to breathe spontaneously after ?b
+		?a: One group of patients
+		?b: intubation under suxamethonium
+
+
+label:    sent_3
+sentence: Oxygen-related chemoreceptor drive to breathe during H2S infusion .
+
+ppatt:
+	?a drive to breathe during ?b
+		?a: Oxygen-related chemoreceptor
+		?b: H2S infusion
+
+
+label:    sent_4
+sentence: Heart failure ( HF ) patients breathe with a rapid shallow pattern during exercise .
+
+ppatt:
+	?a is/are HF
+		?a: Heart failure
+	?a breathe with ?b during ?c
+		?a: Heart failure patients
+		?b: a rapid shallow pattern
+		?c: exercise
+
+
+label:    sent_5
+sentence: Individuals with low back pain breathe differently than healthy individuals during a lifting task . Mitochondria breathe for autophagy .
+
+ppatt:
+	?a breathe differently than ?b during ?c
+		?a: Individuals with low back pain
+		?b: healthy individuals
+		?c: a lifting task
+	?a breathe for ?b
+		?a: Mitochondria
+		?b: autophagy
+
+
+label:    sent_6
+sentence: There were 3186 ( 12.5 % ) home-born infants who did not breathe immediately . CO2-responsive polymeric vesicles that breathe .
+
+ppatt:
+	There were ?a
+		?a: 3186 home-born infants who did not breathe immediately . CO2-responsive polymeric vesicles that breathe
+	?a did not breathe immediately ?b
+		?a: 3186 home-born infants
+		?b: CO2-responsive polymeric vesicles that breathe
+	?a breathe
+		?a: CO2-responsive polymeric vesicles
+
+
+label:    sent_7
+sentence: Incentive spirometry --inspiring your patient to breathe deeply .
+
+ppatt:
+	?a breathe deeply
+		?a: Incentive spirometry --inspiring your patient
+
+
+label:    sent_8
+sentence: Nurses do more than breathe ! Components of the pressure required to breathe dense gases .
+
+ppatt:
+	?a do more than breathe ?b
+		?a: Nurses
+		?b: ! Components of the pressure required to breathe dense gases
+	?a required to breathe ?b
+		?a: the pressure
+		?b: dense gases
+
+
+label:    sent_9
+sentence: Hypoxia was induced by letting the doe breathe a low-oxygen gas mixture .
+
+ppatt:
+	?a was induced
+		?a: Hypoxia
+	?a letting
+		?a: Hypoxia
+	?a breathe ?b
+		?a: the doe
+		?b: a low-oxygen gas mixture
+
+
+label:    sent_10
+sentence: To understand how babies breathe .. . Helping premature lungs breathe easier .
+
+ppatt:
+	understand ?a
+		?a: SOMETHING := how babies breathe .. Helping premature lungs
+	how ?a breathe ?b
+		?a: babies
+		?b: ..
+	?a Helping ?b
+		?a: babies
+		?b: premature lungs
+
+
+label:    sent_11
+sentence: Endobronchial brachytherapy helps lung cancer patients breathe easier .
+
+ppatt:
+	?a helps
+		?a: Endobronchial brachytherapy
+	?a breathe easier
+		?a: lung cancer patients
+
+
+label:    sent_12
+sentence: Drug companies hope to breathe life into asthma pipeline .
+
+ppatt:
+	?a hope to breathe ?b
+		?a: Drug companies
+		?b: life into asthma pipeline
+
+
+label:    sent_13
+sentence: The subjects exhaled quickly to breathe fresh air in the following cycle .
+
+ppatt:
+	?a exhaled quickly to breathe ?b in ?c
+		?a: The subjects
+		?b: fresh air
+		?c: the following cycle
+
+
+label:    sent_14
+sentence: The dogs were allowed to breathe room air with the endotracheal tube in place .
+
+ppatt:
+	?a were allowed to breathe ?b with ?c in ?d
+		?a: The dogs
+		?b: room air
+		?c: the endotracheal tube
+		?d: place
+
+
+label:    sent_15
+sentence: To breathe or not to breathe : the respiratory muscles and COPD .
+
+ppatt:
+
+
+
+label:    sent_16
+sentence: To breathe , or not to breathe ? Animals were allowed to breathe spontaneously and reach 3 to 6 months of age .
+
+ppatt:
+	breathe ?a
+		?a: Animals
+	breathe ?a
+		?a: Animals
+	?a were allowed to breathe spontaneously
+		?a: Animals
+	?a were allowed to reach ?b
+		?a: Animals
+		?b: 3 6 months of age
+
+
+label:    sent_17
+sentence: When the infant can n't breathe , but his heart is OK .
+
+ppatt:
+	When ?a can n't breathe
+		?a: the infant
+	?a is OK
+		?a: his heart
+
+
+label:    sent_18
+sentence: [To breathe or to swallow , the uncertainties of functional harmonization ] . Blue 's model may breathe new life into global cap . Return to the basics might breathe life into HIV vaccine pipeline .
+
+ppatt:
+	?a breathe
+		?a: [To
+	?a swallow
+		?a: [To
+	?a may breathe ?b into ?c
+		?a: the uncertainties of functional harmonization ] Blue 's model
+		?b: new life
+		?c: global cap
+	?a Return to ?b
+		?a: the uncertainties of functional harmonization ] Blue 's model
+		?b: the basics
+	?a might breathe ?b into ?c
+		?a: the uncertainties of functional harmonization ] Blue 's model
+		?b: life
+		?c: HIV vaccine pipeline
+
+
+label:    sent_19
+sentence: Birth under water --to breathe or not to breathe . Does hemoglobin breathe , and if yes , how ? Birth under water --to breathe or not to breathe .
+
+ppatt:
+	?a breathe
+		?a: Birth under water --to
+	?a not to breathe
+		?a: Birth under water --to
+	?a Does
+		?a: Birth under water --to breathe or not to breathe
+	?a ?b breathe
+		?a: Birth under water --to breathe or not to breathe
+		?b: hemoglobin
+	?a how ?b --to breathe not to breathe
+		?a: yes
+		?b: Birth under water
+
+

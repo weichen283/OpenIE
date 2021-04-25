@@ -1,0 +1,387 @@
+label:    sent_1
+sentence: Understanding the mechanism of action of pore-forming toxins ( PFTs ) produced by different bacteria , as well as the host responses to toxin action , would provide ways to deal with these pathogenic bacteria .
+
+ppatt:
+	Understanding ?a
+		?a: the mechanism of action of pore-forming toxins produced by different bacteria , as well as the host responses to toxin action
+	?a is/are PFTs
+		?a: pore-forming toxins produced by different bacteria
+	?a is/are PFTs
+		?a: the host responses to toxin action
+	?a produced by ?b
+		?a: pore-forming toxins
+		?b: different bacteria
+	produced by ?a ?b
+		?a: different bacteria
+		?b: the host responses to toxin action
+	?a would provide ?b
+		?a: SOMETHING := Understanding the mechanism of action of pore-forming toxins produced by different bacteria , as well as the host responses to toxin action
+		?b: ways to deal with these pathogenic bacteria
+	?a deal with ?b
+		?a: ways
+		?b: these pathogenic bacteria
+
+
+label:    sent_2
+sentence: Second , we use a large dataset of male twins drawn from Swedish conscription records and examine how well genetic and environmental factors explain the association between ( i ) height and intelligence and ( ii ) height and military aptitude , a professional psychologist 's assessment of a conscript 's ability to deal with wartime stress .
+
+ppatt:
+	Second , ?a use ?b
+		?a: we
+		?b: a large dataset of male twins drawn from Swedish conscription records
+	?a drawn from ?b
+		?a: male twins
+		?b: Swedish conscription records
+	?a examine ?b
+		?a: we
+		?b: SOMETHING := how well genetic and environmental factors explain the association between height and intelligence and height and military aptitude , a professional psychologist 's assessment of a conscript 's ability to deal with wartime stress
+	how ?a explain ?b
+		?a: well genetic and environmental factors
+		?b: the association between height and intelligence and height and military aptitude , a professional psychologist 's assessment of a conscript 's ability to deal with wartime stress
+	?a deal with ?b
+		?a: a conscript 's ability
+		?b: wartime stress
+
+
+label:    sent_3
+sentence: The uninsured resort to a variety of coping strategies to deal with the high medical expenses and reductions in income , such as selling assets , taking up credit or receiving financial support from relatives and friends .
+
+ppatt:
+	?a deal with ?b
+		?a: a variety of coping strategies
+		?b: the high medical expenses
+	?a deal with ?b
+		?a: a variety of coping strategies
+		?b: reductions in income , such as selling assets
+	?a taking ?b ?c
+		?a: The uninsured resort to a variety of coping strategies to deal with the high medical expenses and reductions in income , such as selling assets
+		?b: credit
+		?c: financial support from relatives and friends
+	?a taking ?b ?c
+		?a: The uninsured resort to a variety of coping strategies to deal with the high medical expenses and reductions in income , such as selling assets
+		?b: receiving
+		?c: financial support from relatives and friends
+
+
+label:    sent_4
+sentence: In such systems we deal with renewal processes .
+
+ppatt:
+	In ?a ?b deal with ?c
+		?a: such systems
+		?b: we
+		?c: renewal processes
+
+
+label:    sent_5
+sentence: In general , moderately intensive walking exercise is the intervention most recommended by professionals to help patients deal with sleep disturbance .
+
+ppatt:
+	In ?a , ?b is the intervention
+		?a: general
+		?b: moderately intensive walking exercise
+	?a most recommended by ?b to help ?c ?d
+		?a: In general , the intervention
+		?b: professionals
+		?c: patients
+		?d: SOMETHING := deal with sleep disturbance
+	deal with ?a
+		?a: sleep disturbance
+
+
+label:    sent_6
+sentence: The present chapter does not deal with " ordinary " intertrigo , but rather with other skin diseases that have affinity to the intertriginous areas .
+
+ppatt:
+	?a does not deal with ?b
+		?a: The present chapter
+		?b: " ordinary " intertrigo
+	?a does not deal with ?b
+		?a: The present chapter
+		?b: other skin diseases that have affinity to the intertriginous areas
+	?a have ?b
+		?a: other skin diseases
+		?b: affinity to the intertriginous areas
+
+
+label:    sent_7
+sentence: Smokers who did not plan to quit due to addiction , past failure at quitting , and using smoking for relaxation or to deal with stress were more likely to report psychological distress than those who did not report these reasons .
+
+ppatt:
+	?a did not plan to quit due to ?b
+		?a: Smokers
+		?b: addiction
+	?a did not plan to quit due to ?b
+		?a: Smokers
+		?b: past failure at quitting
+	?a using ?b for ?c
+		?a: who
+		?b: smoking
+		?c: relaxation
+	?a deal with ?b
+		?a: who
+		?b: stress
+	?a were more likely to report ?b than ?c
+		?a: Smokers who did not plan to quit due to addiction , past failure at quitting , and using smoking for relaxation or to deal with stress
+		?b: psychological distress
+		?c: those who did not report these reasons
+	?a did not report ?b
+		?a: those
+		?b: these reasons
+
+
+label:    sent_8
+sentence: This paper presents a robust automated tumour cell segmentation model which can be applied to both routine histochemical tissue slides and IHC slides and deal with finer pixel-based segmentation in comparison with blob or area based segmentation by existing approaches .
+
+ppatt:
+	?a presents ?b
+		?a: This paper
+		?b: a robust automated tumour cell segmentation model which can be applied to both routine histochemical tissue slides and IHC slides
+	?a can be applied to ?b
+		?a: a robust automated tumour cell segmentation model
+		?b: routine histochemical tissue slides
+	?a can be applied to ?b
+		?a: a robust automated tumour cell segmentation model
+		?b: IHC slides
+	?a deal with ?b in ?c
+		?a: This paper
+		?b: finer pixel-based segmentation
+		?c: comparison with blob or area based segmentation by existing approaches
+
+
+label:    sent_9
+sentence: Findings support the claim that previously reported age-related performance decreases on classic reasoning tasks need to be attributed to the increased need to deal with tempting heuristics and not to a decrease in analytic thinking skills per se .
+
+ppatt:
+	?a support ?b
+		?a: Findings
+		?b: the claim that previously reported age-related performance decreases on classic reasoning tasks need to be attributed to the increased need to deal with tempting heuristics and not to a decrease in analytic thinking skills per se
+	?a need to be attributed to ?b
+		?a: previously reported age-related performance decreases on classic reasoning tasks
+		?b: the increased need to deal with tempting heuristics
+	?a need to be attributed to ?b
+		?a: previously reported age-related performance decreases on classic reasoning tasks
+		?b: not a decrease in analytic thinking skills per se
+	?a deal with ?b
+		?a: the increased need
+		?b: tempting heuristics
+	deal with ?a ?b
+		?a: tempting heuristics
+		?b: not a decrease in analytic thinking skills per se
+
+
+label:    sent_10
+sentence: There are several case reports which deal with primary or secondary tumours which were either discovered at the time of replacement surgery or developed at the site of prosthesis years after total hip or knee replacement .
+
+ppatt:
+	There are ?a
+		?a: several case reports which deal with primary or secondary
+	?a deal with ?b
+		?a: several case reports
+		?b: primary
+	?a deal with ?b
+		?a: several case reports
+		?b: secondary
+	?a were either discovered at ?b
+		?a: tumours
+		?b: the time of replacement surgery
+	?a developed at ?b
+		?a: which
+		?b: the site of prosthesis years after total hip or knee replacement
+
+
+label:    sent_11
+sentence: Numerous publications deal with the diagnostic and prognostic values of new cardiac biomarkers in cardiac and non-cardiac surgical settings and provide an increasing evidence of their interest , validating different hierarchical steps which are mandatory before recommending a wide use of biomarkers for routine practice .
+
+ppatt:
+	?a deal with ?b
+		?a: Numerous publications
+		?b: the diagnostic and prognostic values of new cardiac biomarkers in cardiac and non-cardiac surgical settings
+	?a provide ?b
+		?a: Numerous publications
+		?b: an increasing evidence of their interest
+	?a validating ?b
+		?a: Numerous publications
+		?b: different hierarchical steps which are mandatory before recommending a wide use of biomarkers for routine practice
+	?a are mandatory
+		?a: different hierarchical steps
+	?a recommending ?b
+		?a: which
+		?b: a wide use of biomarkers for routine practice
+
+
+label:    sent_12
+sentence: Higher awareness and improved diagnostic methods have led to an increasing incidence of these diseases , and most oncologists deal with such patients in their daily practice .
+
+ppatt:
+	?a have led to ?b
+		?a: Higher awareness
+		?b: an increasing incidence of these diseases
+	?a have led to ?b
+		?a: improved diagnostic methods
+		?b: an increasing incidence of these diseases
+	?a deal with ?b in ?c
+		?a: most oncologists
+		?b: such patients
+		?c: their daily practice
+
+
+label:    sent_13
+sentence: Coping with existential challenges is important when struck by serious disease , but apart from cancer and palliative care little is known about how patients deal with such issues and maintain hope .
+
+ppatt:
+	?a is important
+		?a: Coping with existential challenges
+	?a when struck by ?b
+		?a: Coping with existential challenges
+		?b: serious disease
+	apart from ?a ?b is known
+		?a: cancer
+		?b: little
+	apart from ?a ?b is known
+		?a: palliative care
+		?b: little
+	how ?a deal with ?b
+		?a: patients
+		?b: such issues
+	?a maintain ?b
+		?a: patients
+		?b: hope
+
+
+label:    sent_14
+sentence: It can predict odor frequency from the routine hourly meteorological data input and deal with different types of sources and multiple sources .
+
+ppatt:
+	?a can predict ?b from ?c
+		?a: It
+		?b: odor frequency
+		?c: the routine hourly meteorological data
+	?a input
+		?a: It
+	?a deal with ?b
+		?a: It
+		?b: different types of sources and multiple sources
+
+
+label:    sent_15
+sentence: This was a realistic military-type exercise assessing unexpected , abrupt early-morning awakening effects on immediate ' executive function ' and the ability to comprehend and deal with a sudden emergency under a changing situation .
+
+ppatt:
+	?a was a realistic military-type exercise
+		?a: This
+	?a assessing ?b
+		?a: a realistic military-type exercise
+		?b: unexpected , awakening effects on immediate ' executive function
+	assessing ?a ?b
+		?a: unexpected , awakening effects on immediate ' executive function
+		?b: the ability to comprehend and deal with a sudden emergency under a changing situation
+	?a the ability
+		?a: This
+	?a comprehend with ?b under ?c
+		?a: the ability
+		?b: a sudden emergency
+		?c: a changing situation
+	?a deal
+		?a: This
+
+
+label:    sent_16
+sentence: HHD is an option for any motivated patient who can learn the necessary skills to manage their own HD and deal with the potential complications .
+
+ppatt:
+	?a is an option for ?b
+		?a: HHD
+		?b: any motivated patient who can learn the necessary skills to manage their own HD and deal with the potential complications
+	?a can learn ?b
+		?a: any motivated patient
+		?b: the necessary skills to manage their own HD
+	?a manage ?b
+		?a: the necessary skills
+		?b: their own HD
+	?a deal with ?b
+		?a: who
+		?b: the potential complications
+
+
+label:    sent_17
+sentence: To rapidly deal with critical hemorrhage , not only cooperation between anesthesiologists and surgeons but also linkage of operating rooms with blood transfusion services and a blood bank are important .
+
+ppatt:
+	rapidly deal with ?a ?b
+		?a: critical hemorrhage
+		?b: cooperation between anesthesiologists and surgeons
+	rapidly deal with ?a ?b
+		?a: critical hemorrhage
+		?b: also linkage of operating rooms with blood transfusion services and a blood bank
+	?a are important
+		?a: cooperation between anesthesiologists and surgeons
+	?a are important
+		?a: also linkage of operating rooms with blood transfusion services and a blood bank
+
+
+label:    sent_18
+sentence: Many surgeons do not deal with atrial fibrillation or choose modifications of the maze procedure when performing additional cardiac surgery .
+
+ppatt:
+	?a do not deal with ?b
+		?a: Many surgeons
+		?b: atrial fibrillation
+	?a choose ?b
+		?a: Many surgeons
+		?b: modifications of the maze procedure
+	?a when performing ?b
+		?a: Many surgeons
+		?b: additional cardiac surgery
+
+
+label:    sent_19
+sentence: Delusional and pervasive speech , beyond the usual patient dialogue , is one of the fundamental aspects which the nursing team must deal with on a daily basis .
+
+ppatt:
+	?a is one of ?b
+		?a: Delusional and pervasive speech , beyond the usual patient dialogue
+		?b: the fundamental aspects which the nursing team must deal with on a daily basis
+	?a ?b must deal with on ?c
+		?a: the fundamental aspects
+		?b: the nursing team
+		?c: a daily basis
+
+
+label:    sent_20
+sentence: The values of the professional thereby lie as much in the etiquette and other social skills with which they deal with their clients , than with any distinctive form of skill or value .
+
+ppatt:
+	?a thereby lie as much in ?b
+		?a: The values of the professional
+		?b: etiquette
+	?a thereby lie as much in ?b
+		?a: The values of the professional
+		?b: other social
+	?a thereby lie as much in ?b
+		?a: The values of the professional
+		?b: skills with which they deal with their clients
+	?a with ?b deal with ?c
+		?a: skills
+		?b: they
+		?c: their clients
+	?a than with any distinctive form of ?b
+		?a: The values of the professional
+		?b: skill
+	?a than with any distinctive form of ?b
+		?a: The values of the professional
+		?b: value
+
+
+label:    sent_21
+sentence: There is a need for a change in the way that health professionals deal with waste management issues .
+
+ppatt:
+	There is ?a in ?b
+		?a: a need for a change
+		?b: the way that health professionals deal with waste management issues
+	?a deal with ?b
+		?a: health professionals
+		?b: waste management issues
+
+

@@ -1,0 +1,270 @@
+label:    sent_1
+sentence: Structural and functional reverse remodeling associated with LVADs continues to inspire innovative research .
+
+ppatt:
+	?a associated with ?b
+		?a: reverse remodeling
+		?b: LVADs
+	?a ?b continues to inspire ?c
+		?a: Structural
+		?b: reverse remodeling associated with LVADs
+		?c: innovative research
+	?a ?b continues to inspire ?c
+		?a: functional
+		?b: reverse remodeling associated with LVADs
+		?c: innovative research
+
+
+label:    sent_2
+sentence: Gender : missing the prizes that can inspire a career .
+
+ppatt:
+	?a missing ?b
+		?a: Gender
+		?b: the prizes that can inspire a career
+	?a can inspire ?b
+		?a: the prizes
+		?b: a career
+
+
+label:    sent_3
+sentence: We believe these novel aromatic nitrogen mustards will inspire further and effective applications .
+
+ppatt:
+	?a believe ?b
+		?a: We
+		?b: SOMETHING := these novel aromatic nitrogen mustards will inspire further and effective applications
+	?a will inspire ?b
+		?a: these novel aromatic nitrogen mustards
+		?b: further and effective applications
+
+
+label:    sent_4
+sentence: Personal stories of HIV will inspire dance composition .
+
+ppatt:
+	?a will inspire ?b
+		?a: Personal stories of HIV
+		?b: dance composition
+
+
+label:    sent_5
+sentence: Midwifery today : past challenges and achievements inspire present practice .
+
+ppatt:
+	?a today ?b inspire ?c
+		?a: Midwifery
+		?b: past challenges
+		?c: present practice
+	?a today ?b inspire ?c
+		?a: Midwifery
+		?b: achievements
+		?c: present practice
+
+
+label:    sent_6
+sentence: The immediate results of posterior keratoplasty inspire optimism .
+
+ppatt:
+	?a inspire ?b
+		?a: The immediate results of posterior keratoplasty
+		?b: optimism
+
+
+label:    sent_7
+sentence: We conclude that good actions do not necessarily inspire good actions in others .
+
+ppatt:
+	?a conclude ?b
+		?a: We
+		?b: SOMETHING := good actions do not necessarily inspire good actions in others
+	?a do not necessarily inspire ?b
+		?a: good actions
+		?b: good actions in others
+
+
+label:    sent_8
+sentence: We outline how this can inspire research on psychotherapy .
+
+ppatt:
+	?a outline ?b
+		?a: We
+		?b: SOMETHING := how this can inspire research on psychotherapy
+	how ?a can inspire ?b
+		?a: this
+		?b: research on psychotherapy
+
+
+label:    sent_9
+sentence: Our insights inspire future research on feature extraction of multidimensional discrete sources .
+
+ppatt:
+	?a inspire ?b
+		?a: Our insights
+		?b: future research on feature extraction of multidimensional discrete sources
+
+
+label:    sent_10
+sentence: Nurses are challenged to inspire the family 's hope and decrease their anxiety .
+
+ppatt:
+	?a are challenged to inspire ?b
+		?a: Nurses
+		?b: the family 's hope
+	?a are challenged to decrease ?b
+		?a: Nurses
+		?b: their anxiety
+
+
+label:    sent_11
+sentence: Our findings are tentative but may inspire future research .
+
+ppatt:
+	?a are tentative
+		?a: Our findings
+	?a may inspire ?b
+		?a: Our findings
+		?b: future research
+
+
+label:    sent_12
+sentence: This enigmatic phenomenon lacks obvious biological significance but may inspire bionic applications .
+
+ppatt:
+	?a lacks ?b
+		?a: This enigmatic phenomenon
+		?b: obvious biological significance
+	?a may inspire ?b
+		?a: This enigmatic phenomenon
+		?b: bionic applications
+
+
+label:    sent_13
+sentence: These results will inspire further efforts to explore the fundamentals and applications of HADCNTs .
+
+ppatt:
+	?a will inspire ?b
+		?a: These results
+		?b: further efforts to explore the fundamentals and applications of HADCNTs
+	?a explore ?b
+		?a: further efforts
+		?b: the fundamentals of HADCNTs
+	?a explore ?b
+		?a: further efforts
+		?b: applications
+
+
+label:    sent_14
+sentence: How can we inspire residents to become surgical oncologists ? This underlying feature of the model might inspire further experiments to test this hypothesis .
+
+ppatt:
+	How can ?a inspire ?b to become surgical oncologists
+		?a: we
+		?b: residents
+	?a might inspire ?b to test ?c
+		?a: This underlying feature of the model
+		?b: further experiments
+		?c: this hypothesis
+
+
+label:    sent_15
+sentence: The findings provide direction for developing strategies to inspire hope in the critically ill . Healthcare professionals set to inspire quitters for 30th milestone No Smoking Day . Trainers try to inspire self esteem and pride in work .
+
+ppatt:
+	?a provide ?b
+		?a: The findings
+		?b: direction for developing strategies to inspire hope
+	?a inspire ?b
+		?a: direction for developing strategies
+		?b: hope
+	in ?a set to inspire ?b for ?c
+		?a: the critically ill . Healthcare professionals
+		?b: quitters
+		?c: 30th milestone
+	?a is/are No Smoking Day
+		?a: 30th milestone
+	?a try to inspire ?b in ?c
+		?a: Trainers
+		?b: self esteem
+		?c: work
+	?a try to inspire ?b in ?c
+		?a: Trainers
+		?b: pride
+		?c: work
+
+
+label:    sent_16
+sentence: How to inspire and involve future medical doctors in CF care ? RN ladder programs are designed to inspire and reward clinical excellence .
+
+ppatt:
+	How to inspire ?a ?b
+		?a: future medical doctors in CF care
+		?b: RN ladder programs
+	involve ?a
+		?a: RN ladder programs
+	?a are designed to inspire ?b
+		?a: RN ladder programs
+		?b: clinical excellence
+	?a are designed to reward
+		?a: RN ladder programs
+
+
+label:    sent_17
+sentence: Knowledge that is gained through practice is shared to inspire and sustain needed changes .
+
+ppatt:
+	?a is gained through ?b
+		?a: Knowledge
+		?b: practice
+	?a is shared to inspire ?b
+		?a: Knowledge that is gained through practice
+		?b: needed changes
+	?a is shared to sustain
+		?a: Knowledge that is gained through practice
+
+
+label:    sent_18
+sentence: Finally , insights from comparative research can inspire and guide technological development .
+
+ppatt:
+	Finally , ?a can inspire ?b
+		?a: insights from comparative research
+		?b: technological development
+	?a guide
+		?a: insights from comparative research
+
+
+label:    sent_19
+sentence: Personal interviews add spice to publications -- a well-written interview can inspire as well as inform .
+
+ppatt:
+	?a add ?b to ?c
+		?a: Personal interviews
+		?b: spice
+		?c: publications
+	?a can inspire
+		?a: a well-written interview
+	?a inform
+		?a: a well-written interview
+
+
+label:    sent_20
+sentence: Finally , insights from comparative research can inspire and guide technological development .
+
+ppatt:
+	Finally , ?a can inspire ?b
+		?a: insights from comparative research
+		?b: technological development
+	?a guide
+		?a: insights from comparative research
+
+
+label:    sent_21
+sentence: Working to evaluate and inspire through accreditation .
+
+ppatt:
+	?a evaluate through ?b
+		?a: Working
+		?b: accreditation
+
+

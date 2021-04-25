@@ -1,0 +1,325 @@
+label:    sent_1
+sentence: The 2 approaches did not result in a significant difference in area exposed .
+
+ppatt:
+	?a did not result in ?b
+		?a: The 2 approaches
+		?b: a significant difference in area exposed
+	?a exposed
+		?a: area
+
+
+label:    sent_2
+sentence: Heartburn or dysphagia could result from mucin and/or acid production in this area .
+
+ppatt:
+	?a could result from ?b ?c
+		?a: Heartburn
+		?b: mucin in this area
+		?c: production
+	?a could result from ?b ?c
+		?a: dysphagia
+		?b: mucin in this area
+		?c: production
+	?a could result from ?b ?c
+		?a: Heartburn
+		?b: acid
+		?c: production
+	?a could result from ?b ?c
+		?a: dysphagia
+		?b: acid
+		?c: production
+
+
+label:    sent_3
+sentence: Early detection and dedicated treatment of intraocular lymphoma may result in improved visual outcome .
+
+ppatt:
+	?a may result in ?b
+		?a: Early detection of intraocular lymphoma
+		?b: improved visual outcome
+	?a may result in ?b
+		?a: dedicated treatment
+		?b: improved visual outcome
+
+
+label:    sent_4
+sentence: Anterior and posterior downgrafting did not result in significantly more relapse .
+
+ppatt:
+	?a did not result in ?b
+		?a: Anterior
+		?b: significantly more relapse
+	?a did not result in ?b
+		?a: posterior downgrafting
+		?b: significantly more relapse
+
+
+label:    sent_5
+sentence: Choice of the three-pellet alternative continued to result in three food pellets .
+
+ppatt:
+	?a of the three-pellet alternative continued to result in ?b
+		?a: Choice
+		?b: three food pellets
+
+
+label:    sent_6
+sentence: Infections in critically ill patients continue to result in unacceptably high morbidity and mortality .
+
+ppatt:
+	?a continue to result in ?b
+		?a: Infections in critically ill patients
+		?b: unacceptably high morbidity
+	?a continue to result in ?b
+		?a: Infections in critically ill patients
+		?b: mortality
+
+
+label:    sent_7
+sentence: Over-activation of host defense systems may result in severe tissue damage and requires regulation .
+
+ppatt:
+	?a may result in ?b
+		?a: Over-activation of host defense systems
+		?b: severe tissue damage
+	?a requires ?b
+		?a: Over-activation of host defense systems
+		?b: regulation
+
+
+label:    sent_8
+sentence: The lungs are most commonly involved and progressive inflammation may result in pulmonary fibrosis .
+
+ppatt:
+	?a are most commonly involved
+		?a: The lungs
+	?a may result in ?b
+		?a: progressive inflammation
+		?b: pulmonary fibrosis
+
+
+label:    sent_9
+sentence: These imbalances result in parathyroid hyperplasia and contribute to vascular calcification .
+
+ppatt:
+	?a result in ?b
+		?a: These imbalances
+		?b: parathyroid hyperplasia
+	?a contribute to ?b
+		?a: These imbalances
+		?b: vascular calcification
+
+
+label:    sent_10
+sentence: Postictal pulvinar lesions can persist and may result in thalamic atrophy .
+
+ppatt:
+	?a can persist
+		?a: Postictal pulvinar lesions
+	?a may result in ?b
+		?a: Postictal pulvinar lesions
+		?b: thalamic atrophy
+
+
+label:    sent_11
+sentence: These intense observations are intrusive and may result in untoward stimulation of the patient .
+
+ppatt:
+	?a are intrusive
+		?a: These intense observations
+	?a may result in ?b
+		?a: These intense observations
+		?b: untoward stimulation of the patient
+
+
+label:    sent_12
+sentence: Local anesthetics are commonly used medications and can result in adverse reactions .
+
+ppatt:
+	?a are commonly used ?b
+		?a: Local anesthetics
+		?b: medications
+	?a can result in ?b
+		?a: Local anesthetics
+		?b: adverse reactions
+
+
+label:    sent_13
+sentence: [Amblyopia treatment of unilateral and bilateral cataract with visual acuity result ] . Significant psychosocial distress and difficulty performing activities of daily living can result .
+
+ppatt:
+	?a result ?b ?c
+		?a: [Amblyopia treatment of unilateral and bilateral cataract with visual acuity
+		?b: ]
+		?c: Significant psychosocial distress
+	?a performing ?b
+		?a: difficulty
+		?b: activities of daily living
+	?a can result
+		?a: difficulty performing activities of daily living
+
+
+label:    sent_14
+sentence: The nanospheres result in a system that provides movement of Van der Waals .
+
+ppatt:
+	?a result in ?b
+		?a: The nanospheres
+		?b: a system that provides movement of Van der Waals
+	?a provides ?b
+		?a: a system
+		?b: movement of Van der Waals
+
+
+label:    sent_15
+sentence: Conventional pharmacological method might result dependence and impairment in psychomotor and cognitive function .
+
+ppatt:
+	?a might result ?b
+		?a: Conventional pharmacological method
+		?b: dependence in psychomotor and cognitive function
+	?a might result ?b
+		?a: Conventional pharmacological method
+		?b: impairment
+
+
+label:    sent_16
+sentence: The modifications performed result in significantly reduced input/output activity compared with the serial version .
+
+ppatt:
+	?a performed
+		?a: The modifications
+	?a result in ?b
+		?a: The modifications performed
+		?b: significantly reduced input/output activity
+	?a compared with the serial version
+		?a: The modifications performed
+
+
+label:    sent_17
+sentence: What heritable ontogenetic mechanisms result in the evolution of new morphologies and functions ? The mechanisms by which auto-immune diseases may result in hearing disorders are reviewed .
+
+ppatt:
+	?a result in ?b
+		?a: heritable ontogenetic mechanisms
+		?b: the evolution of new morphologies and functions
+	?a by ?b may result in ?c
+		?a: The mechanisms
+		?b: auto-immune diseases
+		?c: hearing disorders
+	?a are reviewed
+		?a: The mechanisms by which auto-immune diseases may result in hearing disorders
+
+
+label:    sent_18
+sentence: The mechanisms by which epithelial-mesenchymal interactions result in differentiation are not known .
+
+ppatt:
+	?a by ?b result in ?c
+		?a: The mechanisms
+		?b: epithelial-mesenchymal interactions
+		?c: differentiation
+	?a are not known
+		?a: The mechanisms by which epithelial-mesenchymal interactions result in differentiation
+
+
+label:    sent_19
+sentence: The manner by which these increases result in altered neuronal activity remains unknown .
+
+ppatt:
+	?a by ?b result in ?c
+		?a: The manner
+		?b: these increases
+		?c: altered neuronal activity
+	?a remains unknown
+		?a: The manner by which these increases result in altered neuronal activity
+
+
+label:    sent_20
+sentence: Instability can result from overresection and persistent impingement can result from underresection .
+
+ppatt:
+	?a can result from ?b
+		?a: Instability
+		?b: overresection
+	?a can result from ?b
+		?a: Instability
+		?b: persistent
+	?a can result from ?b
+		?a: impingement
+		?b: underresection
+
+
+label:    sent_21
+sentence: This procedure is time consuming and a delay in starting treatment might result .
+
+ppatt:
+	?a is time consuming
+		?a: This procedure
+	?a might result
+		?a: a delay in starting treatment
+
+
+label:    sent_22
+sentence: Peroneal nerve injuries are common , and permanent neurologic damage may result .
+
+ppatt:
+	?a are common
+		?a: Peroneal nerve injuries
+	?a may result
+		?a: permanent neurologic damage
+
+
+label:    sent_23
+sentence: In no patient did VT result in loss of consciousness .
+
+ppatt:
+	In ?a did ?b result in ?c
+		?a: no patient
+		?b: VT
+		?c: loss of consciousness
+
+
+label:    sent_24
+sentence: In no instance did palsy result from the treatment .
+
+ppatt:
+	In ?a did ?b result from ?c
+		?a: no instance
+		?b: palsy
+		?c: the treatment
+
+
+label:    sent_25
+sentence: From these dates result importance of caloric and nitrogen administration both qualitatively and quantitatively .
+
+ppatt:
+	From ?a result ?b both qualitatively and quantitatively
+		?a: these dates
+		?b: importance of caloric and nitrogen administration
+
+
+label:    sent_26
+sentence: Non-representative superficial biopsies may result underdiagnosis of the disease .
+
+ppatt:
+	?a may result ?b
+		?a: Non-representative superficial biopsies
+		?b: underdiagnosis of the disease
+
+
+label:    sent_27
+sentence: Diagnosis , no result rate and error rate .
+
+ppatt:
+
+
+
+label:    sent_28
+sentence: Excellent long-term result 10 years after minimally invasive quadruple coronary artery bypass .
+
+ppatt:
+
+
+

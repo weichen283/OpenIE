@@ -1,0 +1,24 @@
+label:    sent_1
+sentence: The plasmid pE194 as a vector is used to subclone the thermostable alpha-amylase gene of B. licheniformis and construct recombinant plasmid pNW102 .
+
+ppatt:
+	?a is used to subclone ?b
+		?a: The plasmid pE194 as a vector
+		?b: the thermostable alpha-amylase gene of B. licheniformis and construct recombinant plasmid pNW102
+
+
+label:    sent_2
+sentence: Here , we describe how to subclone the gene coding for a cargo of interest into a RUSH plasmid and to monitor its synchronized transport along the secretory pathway in fixed samples and in living cells .
+
+ppatt:
+	Here , ?a describe how to subclone ?b
+		?a: we
+		?b: the gene coding for a cargo of interest into a RUSH plasmid
+	?a coding for ?b
+		?a: the gene
+		?b: a cargo of interest into a RUSH plasmid
+	Here , ?a describe to to monitor ?b
+		?a: we
+		?b: its synchronized transport along the secretory pathway in fixed samples and in living cells
+
+

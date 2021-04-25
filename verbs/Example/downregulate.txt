@@ -1,0 +1,32 @@
+obj	The Nur77 siRNA was used to downregulate the Nur77 expression .	obj@expression
+obj	It could activate primary immune response , and also downregulate immune response .	obj@response
+obj	This effect correlated with their abilities to downregulate survivin .	obj@survivin
+
+subj#obj	Alpinia galanga extracts downregulate interleukin-1beta - induced matrix metalloproteinases expression in human synovial fibroblasts .	subj@extracts obj@expression
+subj#obj	Reactive oxygen species downregulate glucose transport system in retinal endothelial cells .	subj@species obj@system
+subj#obj	Statins downregulate K6a promoter activity : a possible therapeutic avenue for pachyonychia congenita .	subj@Statins obj@activity obj@avenue
+
+subj#obj#prep	By comparison , SAHA could downregulate the mRNA expression of bcl-2 .	subj@SAHA obj@expression prep_by@comparison
+subj#obj#prep	BA downregulate hepatic lipogenesis by activating the FXR-small heterodimer partner ( SHP ) pathway .	subj@BA obj@lipogenesis prepc_by@activating
+subj#obj#prep	Folic acid can downregulate tau protein phosphorylation by inhibiting the demethylation reactions of PP2A .	subj@acid obj@phosphorylation prepc_by@inhibiting
+
+obj#prep	Therefore , D-CblS and D - CblL may downregulate Egfr through distinct mechanisms .	obj@Egfr prep_through@mechanisms
+obj#prep	It appears that Ras can upregulate or downregulate autophagy through several signaling pathways .	obj@autophagy prep_through@pathways
+obj#prep	To downregulate the expression of mdr1 gene in K562/A02 cell line by RNA interference .	obj@expression prep_by@interference
+
+subj#obj#conj	Knockdown of SIRT1 could downregulate expression of SREBP1 and suppress cell proliferation .	subj@Knockdown obj@expression conj_and@suppress
+subj#obj#conj	Adrenomedullin and adrenomedullin-binding protein-1 downregulate inflammatory cytokines and attenuate tissue injury after gut ischemia-reperfusion .	subj@Adrenomedullin subj@protein-1 obj@cytokines conj_and@attenuate
+subj#obj#conj	Antidepressants downregulate beta AR density and induce uncoupling from Gs protein in PD .	subj@Antidepressants obj@density conj_and@induce
+
+obj#conj	Anti-LUNX could downregulate LUNX and reduce lung cancer cell proliferation and migration in vitro .	obj@LUNX obj@cell conj_and@reduce
+obj#conj	Matrine could up-regulate Fas protein expression and downregulate VEGF protein expression of MCF-7 cells .	obj@expression conj_and@up-regulate
+obj#conj	Interestingly , miR-101 synergized with decitabine to downregulate DNMT3a and to reduce DNA methylation .	obj@DNMT3a conj_and@reduce
+
+subj#obj#prep#conj	Under anoxia , Artemia franciscana embryos downregulate metabolic processes and approach an ametabolic state .	subj@embryos obj@processes prep_under@anoxia conj_and@approach
+
+conj	Autoantibodies and drug-induced platelet antibodies have been demonstrated to downregulate or enhance platelet function .	conj_or@enhance
+conj	In primary cultures of glioblastoma , tumor cells maintain Shc1 expression but downregulate Shc3 .	conj_but@maintain
+
+subj#obj#rel	This phenomenon may represent one mechanism by which tumour cells downregulate immune surveillance .	subj@cells obj@surveillance rel@which
+subj#obj#rel	The mechanism by which human NK cells downregulate their production of IFN-gamma is unknown .	subj@cells obj@production rel@which
+

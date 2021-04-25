@@ -1,0 +1,41 @@
+label:    sent_1
+sentence: Credit balances can trip up a provider 's accounting . ADA .
+
+ppatt:
+	?a can trip up ?b
+		?a: Credit balances
+		?b: a provider 's accounting . ADA
+
+
+label:    sent_2
+sentence: Failure to serve summons could trip up man 's injury claim .
+
+ppatt:
+	?a serve ?b
+		?a: Failure
+		?b: summons
+	?a could trip up ?b claim
+		?a: Failure to serve summons
+		?b: man 's injury
+
+
+label:    sent_3
+sentence: This review presents methods that could be applied at the outset of any project , a prioritized list of alternate strategies and a list of pitfalls that trip many new investigators .
+
+ppatt:
+	?a presents ?b
+		?a: This review
+		?b: methods that could be applied at the outset of any project
+	?a could be applied at ?b
+		?a: methods
+		?b: the outset of any project
+	?a is/are a prioritized list of ?b
+		?a: methods that could be applied at the outset of any project
+		?b: alternate strategies
+	a list of ?a
+		?a: pitfalls that trip many new investigators
+	?a trip ?b
+		?a: pitfalls
+		?b: many new investigators
+
+

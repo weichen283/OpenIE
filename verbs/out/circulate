@@ -1,0 +1,305 @@
+label:    sent_1
+sentence: Problems imposed by these issues will circulate in the 21st century .
+
+ppatt:
+	?a imposed by ?b
+		?a: Problems
+		?b: these issues
+	?a will circulate in ?b
+		?a: Problems imposed by these issues
+		?b: the 21st century
+
+
+label:    sent_2
+sentence: Plasmodium ovale curtisi and Plasmodium ovale wallikeri circulate simultaneously in African communities . hBoV does circulate in northern Taiwan .
+
+ppatt:
+	?a circulate simultaneously in ?b
+		?a: Plasmodium ovale curtisi
+		?b: African communities
+	?a circulate simultaneously in ?b
+		?a: Plasmodium ovale wallikeri
+		?b: African communities
+	?a does circulate in ?b
+		?a: hBoV
+		?b: northern Taiwan
+
+
+label:    sent_3
+sentence: Radioresistant cells lost the ability to the proliferation circulate in the peripheral blood . G-CSA itself does not circulate in serum .
+
+ppatt:
+	?a lost ?b
+		?a: Radioresistant cells
+		?b: the ability to the proliferation
+	?a circulate in ?b
+		?a: Radioresistant cells
+		?b: the peripheral blood
+	?a does not circulate in ?b
+		?a: G-CSA itself
+		?b: serum
+
+
+label:    sent_4
+sentence: Finally , these products were found to circulate as heterogenous molecular species .
+
+ppatt:
+	Finally , ?a were found to circulate as ?b
+		?a: these products
+		?b: heterogenous molecular species
+
+
+label:    sent_5
+sentence: These cells circulate in venous blood and are locally enriched in CSF .
+
+ppatt:
+	?a circulate in ?b
+		?a: These cells
+		?b: venous blood
+
+
+label:    sent_6
+sentence: Some of these molecules circulate in the blood and are antigenic .
+
+ppatt:
+	?a circulate in ?b
+		?a: Some of these molecules
+		?b: the blood
+
+
+label:    sent_7
+sentence: They circulate around the body and stimulate cytotoxic T-lymphocytes to clear tumor cells .
+
+ppatt:
+	?a circulate around ?b
+		?a: They
+		?b: the body
+	?a stimulate ?b
+		?a: They
+		?b: cytotoxic T-lymphocytes
+	?a clear ?b
+		?a: They
+		?b: tumor cells
+
+
+label:    sent_8
+sentence: Some of these hyphal fragments can break off and circulate in the bloodstream .
+
+ppatt:
+	?a can break ?b in ?c
+		?a: Some of these hyphal fragments
+		?b: off
+		?c: the bloodstream
+	?a circulate
+		?a: Some of these hyphal fragments
+
+
+label:    sent_9
+sentence: Divergent HTLV-1 strains have been introduced and currently circulate in Spain . OxPLs are pro-inflammatory , circulate on Lp ( a ) , and mediate CAD .
+
+ppatt:
+	?a have been introduced
+		?a: Divergent HTLV-1 strains
+	?a currently circulate in ?b
+		?a: Divergent HTLV-1 strains
+		?b: Spain
+	?a are pro-inflammatory
+		?a: OxPLs
+	?a circulate on ?b
+		?a: OxPLs
+		?b: Lp
+	?a is/are a
+		?a: Lp
+	?a mediate ?b
+		?a: OxPLs
+		?b: CAD
+
+
+label:    sent_10
+sentence: PNH III erythrocytes circulate 6 to 60 days in vivo .
+
+ppatt:
+	?a circulate ?b in vivo
+		?a: PNH III erythrocytes
+		?b: 6 60 days
+
+
+label:    sent_11
+sentence: The insulin-like growth factors ( IGF-I and IGF-II ) circulate bound to specific proteins .
+
+ppatt:
+	?a circulate bound to ?b
+		?a: The insulin-like growth factors
+		?b: specific proteins
+
+
+label:    sent_12
+sentence: Triglyceride-rich lipoproteins that circulate postprandially are increasingly being recognized as potentially atherogenic .
+
+ppatt:
+	?a circulate postprandially
+		?a: Triglyceride-rich lipoproteins
+	?a are increasingly being recognized as potentially atherogenic
+		?a: Triglyceride-rich lipoproteins that circulate postprandially
+
+
+label:    sent_13
+sentence: It has been suggested that it can circulate and exert paracrine effects .
+
+ppatt:
+	?a has been suggested ?b
+		?a: It
+		?b: SOMETHING := it can circulate paracrine effects
+	?a can circulate ?b
+		?a: it
+		?b: paracrine effects
+	?a exert
+		?a: it
+
+
+label:    sent_14
+sentence: Isoflavones circulate and are excreted into the urine mainly as glucuronide and sulfate conjugates .
+
+ppatt:
+	?a circulate
+		?a: Isoflavones
+	?a are excreted into ?b as ?c
+		?a: Isoflavones
+		?b: the urine
+		?c: mainly glucuronide
+	?a are excreted into ?b as ?c
+		?a: Isoflavones
+		?b: the urine
+		?c: sulfate
+	?a are excreted into ?b as ?c
+		?a: Isoflavones
+		?b: the urine
+		?c: conjugates
+
+
+label:    sent_15
+sentence: Here we demonstrate that platelets become desialylated as they circulate and age in blood .
+
+ppatt:
+	Here ?a demonstrate ?b
+		?a: we
+		?b: SOMETHING := platelets become desialylated as they circulate and age in blood
+	?a become desialylated
+		?a: platelets
+	?a circulate in ?b
+		?a: they
+		?b: blood
+
+
+label:    sent_16
+sentence: The wick structure provides capillary force to circulate the working fluid .
+
+ppatt:
+	?a provides ?b to circulate ?c
+		?a: The wick structure
+		?b: capillary force
+		?c: the working fluid
+
+
+label:    sent_17
+sentence: Antiviral immunity involves NK cells , which circulate rhythmically every 24 hours .
+
+ppatt:
+	?a involves ?b
+		?a: Antiviral immunity
+		?b: NK cells , which circulate rhythmically every 24 hours
+	?a circulate rhythmically every ?b
+		?a: NK cells
+		?b: 24 hours
+
+
+label:    sent_18
+sentence: Each student has to circulate round a number of timed stations .
+
+ppatt:
+	?a has to circulate ?b ?c
+		?a: Each student
+		?b: round
+		?c: a number of timed stations
+
+
+label:    sent_19
+sentence: Denial to freely circulate and obtain asylum is associated with vulnerability to HIV infections .
+
+ppatt:
+	?a freely circulate ?b
+		?a: Denial
+		?b: asylum
+	?a obtain
+		?a: Denial
+	?a is associated with ?b
+		?a: Denial to freely circulate and obtain asylum
+		?b: vulnerability to HIV infections
+
+
+label:    sent_20
+sentence: Blood was not seen to circulate but rather to slowly ebb and flow .
+
+ppatt:
+	?a was not seen to circulate
+		?a: Blood
+
+
+label:    sent_21
+sentence: Most of these countries circulate lyophilized samples with for the participants unknown target values .
+
+ppatt:
+	?a circulate ?b with for ?c
+		?a: Most of these countries
+		?b: lyophilized samples
+		?c: the participants unknown target values
+
+
+label:    sent_22
+sentence: This study is the first indication that NoVs circulate widely in Botswana . Inside the vortices , the microtubules circulate both clockwise and anticlockwise .
+
+ppatt:
+	?a is the first indication ?b
+		?a: This study
+		?b: SOMETHING := NoVs circulate widely in Botswana . Inside the vortices
+	?a circulate widely in ?b . Inside ?c
+		?a: NoVs
+		?b: Botswana
+		?c: the vortices
+	?a circulate ?b
+		?a: the microtubules
+		?b: clockwise
+	?a circulate ?b
+		?a: the microtubules
+		?b: anticlockwise
+
+
+label:    sent_23
+sentence: Two main hMPV lineages circulate worldwide and reinfections occur frequently . Plasma catecholamines circulate either in conjugated or unconjugated forms .
+
+ppatt:
+	?a circulate ?b
+		?a: Two main hMPV lineages
+		?b: worldwide
+	?a circulate ?b
+		?a: Two main hMPV lineages
+		?b: reinfections
+	?a occur frequently
+		?a: Two main hMPV lineages
+	?a circulate ?b
+		?a: Plasma catecholamines
+		?b: either in conjugated or unconjugated forms
+
+
+label:    sent_24
+sentence: These translations did not widely circulate either in manuscripts or printed editions .
+
+ppatt:
+	?a did not widely circulate in ?b
+		?a: These translations
+		?b: manuscripts
+	?a did not widely circulate in ?b
+		?a: These translations
+		?b: printed editions
+
+

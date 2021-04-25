@@ -1,0 +1,59 @@
+label:    sent_1
+sentence: Chronic stress causes stress hormones to strain many biological systems in a process referred to as allostatic load ( AL ) that is measurable using an index of biomarkers .
+
+ppatt:
+	?a causes ?b in ?c
+		?a: Chronic stress
+		?b: stress hormones
+		?c: a process referred to as allostatic load that is measurable using an index of biomarkers
+	?a strain ?b
+		?a: Chronic stress
+		?b: many biological systems
+	?a referred to as ?b
+		?a: a process
+		?b: allostatic load that is measurable using an index of biomarkers
+	?a is/are AL
+		?a: allostatic load that is measurable using an index of biomarkers
+	?a is measurable using ?b
+		?a: allostatic load
+		?b: an index of biomarkers
+
+
+label:    sent_2
+sentence: Impulsive frontal plane knee joint torques directly strain the anterior cruciate ligament and therefore may contribute to injury risk .
+
+ppatt:
+
+
+
+label:    sent_3
+sentence: Caring for veterans as they age may further strain the mental health of one in 3-4 partners and jeopardise their role as grandparents .
+
+ppatt:
+	?a may further strain
+		?a: they age
+	jeopardise ?a
+		?a: their role as grandparents
+
+
+label:    sent_4
+sentence: Astrocytes located at the periphery of the adult optic nerve that form the glial limiting membrane are more like protoplasmic astrocytes than fibrous astrocytes in that they strain relatively weakly with anti-GFAP antiserum and are A2B5-. At 24 weeks , there was no increase in the percentage of patients in either group in whom the PA strain with the highest MIC became most the prevalent strain .
+
+ppatt:
+	?a form ?b
+		?a: the adult optic nerve
+		?b: the glial limiting membrane
+	?a are more like protoplasmic astrocytes than ?b
+		?a: Astrocytes located at the periphery of the adult optic nerve that form the glial limiting membrane
+		?b: fibrous astrocytes
+	?a strain relatively weakly with ?b
+		?a: they
+		?b: anti-GFAP antiserum
+	there was ?a
+		?a: no increase in the percentage of patients in either group in whom the PA strain with the highest MIC became most the prevalent strain
+	?a in ?b ?c became most the prevalent strain
+		?a: either group
+		?b: whom
+		?c: the PA strain with the highest MIC
+
+

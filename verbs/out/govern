@@ -1,0 +1,307 @@
+label:    sent_1
+sentence: However , the cell-intrinsic mechanisms that govern neuronal positioning remain to be elucidated .
+
+ppatt:
+	?a govern ?b
+		?a: the cell-intrinsic mechanisms
+		?b: neuronal positioning
+	However , ?a remain to be elucidated
+		?a: the cell-intrinsic mechanisms that govern neuronal positioning
+
+
+label:    sent_2
+sentence: Factors and situations that govern implementation of safety practices are cited and discussed .
+
+ppatt:
+	?a govern ?b
+		?a: Factors
+		?b: implementation of safety practices
+	?a govern ?b
+		?a: situations
+		?b: implementation of safety practices
+	?a are cited
+		?a: Factors that govern implementation of safety practices
+	?a are cited
+		?a: situations
+	?a discussed
+		?a: Factors that govern implementation of safety practices
+	?a discussed
+		?a: situations
+
+
+label:    sent_3
+sentence: Does temperature regime govern the establishment of Heterobasidion annosum in Scandinavia ? Developing a business model to govern its new implant supply process .
+
+ppatt:
+	Does ?a govern ?b
+		?a: temperature regime
+		?b: the establishment of Heterobasidion annosum in Scandinavia
+	?a Developing ?b
+		?a: temperature regime
+		?b: a business model to govern its new implant supply process
+	?a govern ?b
+		?a: a business model
+		?b: its new implant supply process
+
+
+label:    sent_4
+sentence: Modern warfare has resulted in multiple changes in policy that govern military operations .
+
+ppatt:
+	?a has resulted in ?b
+		?a: Modern warfare
+		?b: multiple changes in policy that govern military operations
+	?a govern ?b
+		?a: policy
+		?b: military operations
+
+
+label:    sent_5
+sentence: We shall describe the factors that govern aggregation of unfolded peptides and proteins .
+
+ppatt:
+	?a shall describe ?b
+		?a: We
+		?b: the factors that govern aggregation of unfolded peptides and proteins
+	?a govern ?b
+		?a: the factors
+		?b: aggregation of unfolded peptides and proteins
+
+
+label:    sent_6
+sentence: In mammals , whether metabolic-sensing neurons govern aging in a cell-non-autonomous fashion is unknown .
+
+ppatt:
+	?a govern ?b in ?c
+		?a: metabolic-sensing neurons
+		?b: aging
+		?c: a cell-non-autonomous fashion
+	In ?a , ?b is unknown
+		?a: mammals
+		?b: SOMETHING := metabolic-sensing neurons govern aging in a cell-non-autonomous fashion
+
+
+label:    sent_7
+sentence: The circadian clocks govern many metabolic and behavioral processes in an organism .
+
+ppatt:
+	?a govern ?b in ?c
+		?a: The circadian clocks
+		?b: many metabolic
+		?c: an organism
+	?a govern ?b in ?c
+		?a: The circadian clocks
+		?b: behavioral
+		?c: an organism
+
+
+label:    sent_8
+sentence: Shared molecular programs govern the formation of heart and head during mammalian embryogenesis .
+
+ppatt:
+	?a govern ?b
+		?a: Shared molecular programs
+		?b: the formation of heart and head during mammalian embryogenesis
+
+
+label:    sent_9
+sentence: State and federal governments and industry regulations heavily govern healthcare and how nurses practice .
+
+ppatt:
+	?a heavily govern ?b
+		?a: State
+		?b: healthcare
+	?a heavily govern ?b
+		?a: federal governments
+		?b: healthcare
+	?a heavily govern ?b
+		?a: industry regulations
+		?b: healthcare
+	how ?a practice
+		?a: nurses
+
+
+label:    sent_10
+sentence: Different activation domains of Sp1 govern formation of multimers and mediate transcriptional synergism .
+
+ppatt:
+	?a govern ?b
+		?a: Different activation domains of Sp1
+		?b: formation of multimers
+	?a mediate ?b
+		?a: Different activation domains of Sp1
+		?b: transcriptional synergism
+
+
+label:    sent_11
+sentence: These biochemical reactions govern cell growth and cause cells to attain an anabolic state .
+
+ppatt:
+	?a govern ?b
+		?a: These biochemical reactions
+		?b: cell growth
+	?a cause ?b to attain ?c
+		?a: These biochemical reactions
+		?b: cells
+		?c: an anabolic state
+
+
+label:    sent_12
+sentence: Acetogens and acetoclastic methanosarcinales govern methane formation in abandoned coal mines .
+
+ppatt:
+	?a govern ?b in ?c
+		?a: Acetogens
+		?b: methane formation
+		?c: abandoned coal mines
+	?a govern ?b in ?c
+		?a: acetoclastic methanosarcinales
+		?b: methane formation
+		?c: abandoned coal mines
+
+
+label:    sent_13
+sentence: It also summarizes important principles that govern receptor recognition by viruses in general .
+
+ppatt:
+	?a also summarizes ?b
+		?a: It
+		?b: important principles that govern receptor recognition by viruses in general
+	?a govern ?b
+		?a: important principles
+		?b: receptor recognition by viruses in general
+
+
+label:    sent_14
+sentence: We conclude that dynamic clinical parameters appear to govern EF in patients with PKU .
+
+ppatt:
+	?a conclude ?b
+		?a: We
+		?b: SOMETHING := dynamic clinical parameters appear to govern EF in patients with PKU
+	?a appear to govern ?b in ?c
+		?a: dynamic clinical parameters
+		?b: EF
+		?c: patients with PKU
+
+
+label:    sent_15
+sentence: Protein-ligand interactions characterise and govern the current state and fate of a living cell .
+
+ppatt:
+	?a characterise ?b
+		?a: Protein-ligand interactions
+		?b: the current state of a living cell
+	?a characterise ?b
+		?a: Protein-ligand interactions
+		?b: fate
+	?a govern
+		?a: Protein-ligand interactions
+
+
+label:    sent_16
+sentence: These dHb clusters are also preserved during odor stimulation and govern olfactory responses .
+
+ppatt:
+	?a are also preserved during ?b
+		?a: These dHb clusters
+		?b: odor stimulation
+	?a govern ?b
+		?a: These dHb clusters
+		?b: olfactory responses
+
+
+label:    sent_17
+sentence: These dynamics are biologically relevant and govern the majority of functional and pathological processes .
+
+ppatt:
+	?a are biologically relevant
+		?a: These dynamics
+	?a govern ?b
+		?a: These dynamics
+		?b: the majority of functional and pathological processes
+
+
+label:    sent_18
+sentence: Evidence suggesting that desire-state attribution may govern food sharing in Eurasian jays . Can the government govern ? Together , these results offer insights into the transcriptional mechanisms that govern cytotrophoblast differentiation/invasion .
+
+ppatt:
+	?a suggesting ?b
+		?a: Evidence
+		?b: SOMETHING := desire-state attribution may govern food sharing in Eurasian jays
+	?a may govern ?b in ?c
+		?a: desire-state attribution
+		?b: food sharing
+		?c: Eurasian jays
+	?a Can ?b govern
+		?a: Evidence suggesting that desire-state attribution may govern food sharing in Eurasian jays
+		?b: the government
+	Together , ?a offer ?b
+		?a: these results
+		?b: insights into the transcriptional mechanisms that govern cytotrophoblast differentiation/invasion
+	?a govern ?b
+		?a: the transcriptional mechanisms
+		?b: cytotrophoblast differentiation/invasion
+
+
+label:    sent_19
+sentence: Parent-child relationships are fundamental human relationships in which specific norms govern proper parent-child interactions .
+
+ppatt:
+	?a are fundamental human relationships
+		?a: Parent-child relationships
+	?a in ?b govern ?c
+		?a: fundamental human relationships
+		?b: specific norms
+		?c: proper parent-child interactions
+
+
+label:    sent_20
+sentence: The mechanisms by which the cell cycle events govern these processes are poorly understood .
+
+ppatt:
+	?a by ?b govern ?c
+		?a: The mechanisms
+		?b: the cell cycle events
+		?c: these processes
+	?a are poorly understood
+		?a: The mechanisms by which the cell cycle events govern these processes
+
+
+label:    sent_21
+sentence: Federal agencies that govern and enforce GINA 's provisions are identified .
+
+ppatt:
+	?a govern 's ?b
+		?a: Federal agencies
+		?b: GINA provisions
+	?a enforce
+		?a: that
+	?a are identified
+		?a: Federal agencies that govern and enforce GINA 's provisions
+
+
+label:    sent_22
+sentence: Shifts across environments in patterns of trait integration may govern or alter adaptive responses .
+
+ppatt:
+	?a may govern ?b
+		?a: Shifts across environments in patterns of trait integration
+		?b: adaptive responses
+	?a alter
+		?a: Shifts across environments in patterns of trait integration
+
+
+label:    sent_23
+sentence: The molecular processes that govern and facilitate this mitochondrial translation remain unclear .
+
+ppatt:
+	?a govern
+		?a: The molecular processes
+	?a facilitate ?b
+		?a: that
+		?b: this mitochondrial translation
+	?a remain unclear
+		?a: The molecular processes that govern and facilitate this mitochondrial translation
+
+

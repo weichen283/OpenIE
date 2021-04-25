@@ -1,0 +1,131 @@
+label:    sent_1
+sentence: During spring sexual production , colonies shrink because worker production falls below replacement .
+
+ppatt:
+	During ?a , ?b shrink
+		?a: spring sexual production
+		?b: colonies
+	?a falls below ?b
+		?a: worker production
+		?b: replacement
+
+
+label:    sent_2
+sentence: Tree phenology responses to warming : spring forward , fall back ? Results of this survey confirm the ubiquity of Legionella in Taiwan spring recreation areas .
+
+ppatt:
+	?a fall back
+		?a: Tree phenology responses to warming
+	?a ?b confirm ?c
+		?a: Tree phenology responses to warming , fall back
+		?b: Results of this survey
+		?c: the ubiquity of Legionella in Taiwan spring recreation areas
+
+
+label:    sent_3
+sentence: Part of the males with proventriculus block exceeded that of females in spring experiment .
+
+ppatt:
+	?a exceeded ?b
+		?a: Part of the males with proventriculus block
+		?b: that of females in spring experiment
+
+
+label:    sent_4
+sentence: The study period is from spring 1979 to spring 1982 .
+
+ppatt:
+	?a is from spring 1979 to ?b
+		?a: The study period
+		?b: spring 1982
+
+
+label:    sent_5
+sentence: In spring 2011 at the Mt . [The Lorenz spring for distal movement -- a new spring element for orthodontic plates ] . Designing two-dimensional materials that spring rapidly into three-dimensional shapes . Biosensors .
+
+ppatt:
+	In ?a ?b Designing ?c
+		?a: spring 2011 at the Mt . [The Lorenz spring for distal movement
+		?b: a new spring element for orthodontic plates ]
+		?c: two-dimensional materials that spring rapidly into three-dimensional shapes . Biosensors
+	?a spring rapidly into ?b ?c
+		?a: two-dimensional materials
+		?b: three-dimensional shapes
+		?c: Biosensors
+
+
+label:    sent_6
+sentence: Plasmons spring into action .
+
+ppatt:
+	?a spring into ?b
+		?a: Plasmons
+		?b: action
+
+
+label:    sent_7
+sentence: These differences spring from the worldview and philosophy that tailor its focus and fit . Vernalization : spring into flowering .
+
+ppatt:
+	?a spring from ?b
+		?a: These differences
+		?b: the worldview that tailor its focus and fit . Vernalization
+	?a spring from ?b
+		?a: These differences
+		?b: philosophy
+	?a tailor ?b
+		?a: the worldview
+		?b: its focus
+	?a tailor ?b
+		?a: philosophy
+		?b: its focus
+	?a fit ?b
+		?a: that
+		?b: Vernalization
+
+
+label:    sent_8
+sentence: Synthetic biologists spring into action at the 245th American Chemical Society National Meeting .
+
+ppatt:
+	?a spring into ?b at ?c
+		?a: Synthetic biologists
+		?b: action
+		?c: the 245th American Chemical Society National Meeting
+
+
+label:    sent_9
+sentence: Migratory flows do not spring up suddenly . [Medical education in the 1983 spring semester .
+
+ppatt:
+	?a do not spring up suddenly ?b
+		?a: Migratory flows
+		?b: [Medical education in the 1983 spring semester
+
+
+label:    sent_10
+sentence: Course catalog ] . Precise atomic force microscope cantilever spring constant calibration using a reference cantilever array .
+
+ppatt:
+	?a using ?b
+		?a: Course catalog ]
+		?b: a reference cantilever array
+
+
+label:    sent_11
+sentence: The manure was spring applied and incorporated . Multi spring winder . Molecular screening for haemoglobin constant spring . Continuum vs. spring network models of airway-parenchymal interdependence .
+
+ppatt:
+	?a was applied ?b
+		?a: The manure
+		?b: Multi spring winder Molecular screening for haemoglobin constant spring
+	?a was applied ?b
+		?a: The manure
+		?b: Continuum
+	?a was applied ?b
+		?a: The manure
+		?b: spring network models of airway-parenchymal interdependence
+	?a incorporated
+		?a: The manure
+
+

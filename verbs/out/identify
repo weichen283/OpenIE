@@ -1,0 +1,323 @@
+label:    sent_1
+sentence: The patients ' slides were reviewed to identify secondary histological changes .
+
+ppatt:
+	?a were reviewed to identify ?b
+		?a: The patients ' slides
+		?b: secondary histological changes
+
+
+label:    sent_2
+sentence: This was conducted in an effort to identify potential biomarkers of exposure .
+
+ppatt:
+	?a was conducted in ?b
+		?a: This
+		?b: an effort to identify potential biomarkers of exposure
+	?a identify ?b
+		?a: an effort
+		?b: potential biomarkers of exposure
+
+
+label:    sent_3
+sentence: Stepwise logistic regression was used to identify independent predictors of in-hospital mortality .
+
+ppatt:
+	?a was used to identify ?b
+		?a: Stepwise logistic regression
+		?b: independent predictors of in-hospital mortality
+
+
+label:    sent_4
+sentence: This tool should help non-trained people identify " Mibyou " health status for individuals .
+
+ppatt:
+	?a should help
+		?a: This tool
+	?a identify ?b
+		?a: non-trained people
+		?b: " Mibyou " health status for individuals
+
+
+label:    sent_5
+sentence: Use of BAER to identify loss of auditory function in older horses .
+
+ppatt:
+	?a identify ?b
+		?a: Use of BAER
+		?b: loss of auditory function in older horses
+
+
+label:    sent_6
+sentence: Transcriptional profiling to identify biomarkers of disease and drug response .
+
+ppatt:
+	?a identify ?b
+		?a: Transcriptional profiling
+		?b: biomarkers of disease and drug response
+
+
+label:    sent_7
+sentence: These findings have been used to identify coactivating brain regions as functional networks .
+
+ppatt:
+	?a have been used to identify ?b as ?c
+		?a: These findings
+		?b: coactivating brain regions
+		?c: functional networks
+
+
+label:    sent_8
+sentence: We then used Taqman low-density arrays to identify suitable housekeeping genes in lupus nephritis .
+
+ppatt:
+	?a then used ?b
+		?a: We
+		?b: Taqman low-density arrays
+	?a identify ?b
+		?a: We
+		?b: suitable housekeeping genes in lupus nephritis
+
+
+label:    sent_9
+sentence: To identify novel methylation-silenced genes in ESCC .
+
+ppatt:
+	identify ?a
+		?a: novel methylation-silenced genes in ESCC
+
+
+label:    sent_10
+sentence: There is a need to identify their needs and to support them .
+
+ppatt:
+	There is ?a
+		?a: a need to identify their needs and to support them
+	?a identify ?b
+		?a: a need
+		?b: their needs
+	?a support ?b
+		?a: a need
+		?b: them
+
+
+label:    sent_11
+sentence: Establish the incidence of accidental hypothermia in major trauma patients and identify causative factors .
+
+ppatt:
+	Establish ?a
+		?a: the incidence of accidental hypothermia in major trauma patients
+	identify ?a
+		?a: causative factors
+
+
+label:    sent_12
+sentence: Such information is essential to identify potential problems and to inform targeted intervention strategies .
+
+ppatt:
+	?a is essential to identify ?b
+		?a: Such information
+		?b: potential problems
+	?a is essential to to inform ?b
+		?a: Such information
+		?b: targeted intervention strategies
+
+
+label:    sent_13
+sentence: Force measuring sensors may be used to electronically identify and quantify these maneuvers .
+
+ppatt:
+	?a may be used to electronically identify ?b
+		?a: Force measuring sensors
+		?b: these maneuvers
+	?a may be used to quantify
+		?a: Force measuring sensors
+
+
+label:    sent_14
+sentence: To identify , catalog , and critically evaluate Web-based resources for critical care education .
+
+ppatt:
+	identify ?a
+		?a: catalog
+	critically evaluate ?a
+		?a: Web-based resources for critical care education
+
+
+label:    sent_15
+sentence: Further investigation is warranted to identify and truncate further disparate birth outcomes .
+
+ppatt:
+	?a is warranted to identify ?b
+		?a: Further investigation
+		?b: further disparate birth outcomes
+	?a is warranted to truncate
+		?a: Further investigation
+
+
+label:    sent_16
+sentence: To identify a neck as difficult seems an easy thing .
+
+ppatt:
+	identify ?a
+		?a: a neck
+
+
+label:    sent_17
+sentence: These data identify IL-6 as an important target for modulation of autoimmune responses .
+
+ppatt:
+	?a identify ?b as ?c
+		?a: These data
+		?b: IL-6
+		?c: an important target for modulation of autoimmune responses
+
+
+label:    sent_18
+sentence: Patients with COPD identify dyspnea as their most disabling symptom .
+
+ppatt:
+	?a identify ?b as ?c
+		?a: Patients with COPD
+		?b: dyspnea
+		?c: their most disabling symptom
+
+
+label:    sent_19
+sentence: MRI can identify intracystic haemorrhage and permit renal volume measure .
+
+ppatt:
+	?a can identify ?b
+		?a: MRI
+		?b: intracystic haemorrhage
+	?a permit ?b
+		?a: MRI
+		?b: renal volume measure
+
+
+label:    sent_20
+sentence: Screening series identify most cases of acrylate allergy but miss a substantial number .
+
+ppatt:
+	?a identify ?b
+		?a: Screening series
+		?b: most cases of acrylate allergy
+	?a miss ?b
+		?a: Screening series
+		?b: a substantial number
+
+
+label:    sent_21
+sentence: Staff should identify caregivers , assess their motivations , and help determine appropriate tasks .
+
+ppatt:
+	?a should identify ?b
+		?a: Staff
+		?b: caregivers
+	?a assess ?b
+		?a: Staff
+		?b: their motivations
+	?a help determine ?b
+		?a: Staff
+		?b: appropriate tasks
+
+
+label:    sent_22
+sentence: It is important for clinicians to identify malingerers early and limit unnecessary admissions .
+
+ppatt:
+	?a is important for ?b to identify ?c
+		?a: It
+		?b: clinicians
+		?c: malingerers early and limit unnecessary admissions
+	limit ?a
+		?a: unnecessary admissions
+
+
+label:    sent_23
+sentence: In addition , they will identify enriched populations and enable individualized drug therapy . Clinicians should identify individuals at risk and actively recommend vitamin D supplementation .
+
+ppatt:
+	In ?a , ?b will identify ?c
+		?a: addition
+		?b: they
+		?c: enriched populations
+	?a enable ?b
+		?a: they
+		?b: individualized drug therapy
+	?a should identify ?b
+		?a: Clinicians
+		?b: individuals at risk
+	?a actively recommend ?b
+		?a: Clinicians
+		?b: vitamin D supplementation
+
+
+label:    sent_24
+sentence: This might help identify patients at particular risk from thrombosis and so administer thromboprophylaxis .
+
+ppatt:
+	?a might help identify ?b
+		?a: This
+		?b: patients at particular risk from thrombosis
+	?a so administer ?b
+		?a: This
+		?b: thromboprophylaxis
+
+
+label:    sent_25
+sentence: Isolate and purify compounds by chromatographic methods , and identify structures by spectroscopic methods .
+
+ppatt:
+	identify ?a by ?b
+		?a: structures
+		?b: spectroscopic methods
+
+
+label:    sent_26
+sentence: To identify cTnI rise after percutaneous ISD closure and to determine its prognostic significance .
+
+ppatt:
+	identify ?a after ?b
+		?a: cTnI rise
+		?b: percutaneous ISD closure
+	determine ?a
+		?a: its prognostic significance
+
+
+label:    sent_27
+sentence: We further identify R447 of Epac2 to be critically involved in SU binding .
+
+ppatt:
+	?a further identify ?b
+		?a: We
+		?b: R447 of Epac2
+	?a be critically involved in ?b
+		?a: We
+		?b: SU binding
+
+
+label:    sent_28
+sentence: Structured literature search ( 1950-2008 ) to identify all published oncology RCTCEB .
+
+ppatt:
+	?a is/are 1950-2008
+		?a: Structured literature search to identify all published oncology RCTCEB
+	?a identify ?b
+		?a: Structured literature search
+		?b: all published oncology RCTCEB
+
+
+label:    sent_29
+sentence: We identify several key controversies that have stimulated important work on these problems .
+
+ppatt:
+	?a identify ?b
+		?a: We
+		?b: several key controversies that have stimulated important work on these problems
+	?a have stimulated ?b on ?c
+		?a: several key controversies
+		?b: important work
+		?c: these problems
+
+

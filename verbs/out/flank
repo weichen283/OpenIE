@@ -1,0 +1,227 @@
+label:    sent_1
+sentence: As a result of transcription MNase-sensitive areas arise which possibly flank elongating RNA polymerases .
+
+ppatt:
+	?a arise ?b
+		?a: a result of transcription MNase-sensitive areas
+		?b: SOMETHING := which possibly flank elongating RNA polymerases
+	?a possibly flank ?b
+		?a: which
+		?b: elongating RNA polymerases
+
+
+label:    sent_2
+sentence: The presenting complaint was more often flank pain in younger patients .
+
+ppatt:
+	?a was more often flank pain in ?b
+		?a: The presenting complaint
+		?b: younger patients
+
+
+label:    sent_3
+sentence: These serines flank the carboxyl-terminal EF-hand motif .
+
+ppatt:
+	?a flank ?b
+		?a: These serines
+		?b: the carboxyl-terminal EF-hand motif
+
+
+label:    sent_4
+sentence: Unique restriction sites were engineered to flank the natural sequence for cloning .
+
+ppatt:
+	?a were engineered to flank ?b for ?c
+		?a: Unique restriction sites
+		?b: the natural sequence
+		?c: cloning
+
+
+label:    sent_5
+sentence: Identifying genes that flank chromosomal reconfigurations is thus essential for cancer cytogenetics .
+
+ppatt:
+	Identifying ?a
+		?a: genes that flank chromosomal reconfigurations
+	?a flank ?b
+		?a: genes
+		?b: chromosomal reconfigurations
+	?a is thus essential for ?b
+		?a: SOMETHING := Identifying genes that flank chromosomal reconfigurations
+		?b: cancer cytogenetics
+
+
+label:    sent_6
+sentence: No IS1016 element was found to flank the locus . Giant flank hematoma in a neonate . By contrast , amplitude enhancement typically does not flank the high frequency slope region .
+
+ppatt:
+	?a was found to flank ?b ?c
+		?a: No IS1016 element
+		?b: locus
+		?c: the Giant flank hematoma in a neonate
+	By ?a , ?b typically does not flank ?c
+		?a: contrast
+		?b: amplitude enhancement
+		?c: the high frequency slope region
+
+
+label:    sent_7
+sentence: Right flank pain and high fever in a neutropenic patient with acute lymphoblastic leukaemia .
+
+ppatt:
+
+
+
+label:    sent_8
+sentence: Regulatory sequences flank the silent mating-type loci and mediate repression of HML and HMR .
+
+ppatt:
+	?a flank ?b
+		?a: Regulatory sequences
+		?b: the silent mating-type loci
+	?a mediate ?b
+		?a: Regulatory sequences
+		?b: repression of HML and HMR
+
+
+label:    sent_9
+sentence: These markers therefore flank the myotonic dystrophy gene and may be useful for diagnosis .
+
+ppatt:
+	?a therefore flank ?b
+		?a: These markers
+		?b: the myotonic dystrophy gene
+
+
+label:    sent_10
+sentence: Carbohydrates attached to Asn232 flank the active-site entrance and might influence substrate specificity .
+
+ppatt:
+	?a attached to ?b
+		?a: Carbohydrates
+		?b: Asn232
+	?a flank ?b
+		?a: Carbohydrates attached to Asn232
+		?b: the active-site entrance
+	?a might influence ?b
+		?a: Carbohydrates attached to Asn232
+		?b: substrate specificity
+
+
+label:    sent_11
+sentence: Although his diarrhea subsided soon , high fever persisted and flank pain got worse .
+
+ppatt:
+	?a subsided soon
+		?a: his diarrhea
+	?a persisted
+		?a: high fever
+	?a got worse
+		?a: flank pain
+
+
+label:    sent_12
+sentence: Clinicopathological conference : flank pain and delayed hematuria following blunt trauma .
+
+ppatt:
+
+
+
+label:    sent_13
+sentence: Ureteral stones are normally clinically symptomatic as colic or flank pain .
+
+ppatt:
+	?a are normally clinically symptomatic as ?b
+		?a: Ureteral stones
+		?b: colic
+	?a are normally clinically symptomatic as ?b
+		?a: Ureteral stones
+		?b: flank
+
+
+label:    sent_14
+sentence: Long terminal repeat-like elements flank a human immunoglobulin epsilon pseudogene that lacks introns .
+
+ppatt:
+	?a flank ?b
+		?a: Long terminal repeat-like elements
+		?b: a human immunoglobulin epsilon pseudogene that lacks introns
+	?a lacks ?b
+		?a: a human immunoglobulin epsilon pseudogene
+		?b: introns
+
+
+label:    sent_15
+sentence: These sites flank a central repeat segment which binds pi protein . ACR Appropriateness Criteria ( R ) acute onset flank pain--suspicion of stone disease .
+
+ppatt:
+	?a flank ?b
+		?a: These sites
+		?b: a central repeat segment which binds pi protein . ACR Appropriateness Criteria acute onset flank pain--suspicion of stone disease
+	?a binds ?b
+		?a: a central repeat segment
+		?b: pi protein
+	?a binds ?b
+		?a: a central repeat segment
+		?b: ACR Appropriateness Criteria
+	?a is/are R
+		?a: ACR Appropriateness Criteria
+	?a is/are R
+		?a: acute onset flank pain--suspicion of stone disease
+
+
+label:    sent_16
+sentence: Diagnostic oncology case study : flank pain and hematuria in a child .
+
+ppatt:
+
+
+
+label:    sent_17
+sentence: This could mediate the swapping of nonconserved sequences that they flank .
+
+ppatt:
+	?a could mediate ?b ?c
+		?a: This
+		?b: the swapping of nonconserved sequences
+		?c: SOMETHING := they flank
+	?a flank
+		?a: they
+
+
+label:    sent_18
+sentence: We generated mice in which two loxP sites flank part of Piga exon 2 .
+
+ppatt:
+	?a generated ?b
+		?a: We
+		?b: mice in which two loxP sites flank part of Piga exon 2
+	?a in ?b flank ?c
+		?a: mice
+		?b: two loxP sites
+		?c: part of Piga exon 2
+
+
+label:    sent_19
+sentence: Other insertion sequences flank and interrupt the alk genes in both strains .
+
+ppatt:
+	?a flank ?b
+		?a: Other insertion sequences
+		?b: the alk genes in both strains
+	?a interrupt
+		?a: Other insertion sequences
+
+
+label:    sent_20
+sentence: Two cis-cleaving ribozymes were used to flank and process the chimeric ribozyme .
+
+ppatt:
+	?a were used to flank ?b
+		?a: Two cis-cleaving ribozymes
+		?b: the chimeric ribozyme
+	?a were used to process
+		?a: Two cis-cleaving ribozymes
+
+

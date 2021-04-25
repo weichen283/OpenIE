@@ -1,0 +1,306 @@
+label:    sent_1
+sentence: It presents successful strategies to reach and recruit the elderly . RecordAF-AP will recruit more than 3000 patients . We aim to recruit 300 patients .
+
+ppatt:
+	?a presents ?b
+		?a: It
+		?b: successful strategies to reach and recruit the elderly
+	?a reach ?b
+		?a: successful strategies
+		?b: the elderly
+	recruit ?a
+		?a: the elderly
+	?a will recruit ?b
+		?a: RecordAF-AP
+		?b: more than 3000 patients
+	?a aim to recruit ?b
+		?a: We
+		?b: 300 patients
+
+
+label:    sent_2
+sentence: The study aims to recruit 360 patients from 10 UK centres .
+
+ppatt:
+	?a aims to recruit ?b
+		?a: The study
+		?b: 360 patients from 10 UK centres
+
+
+label:    sent_3
+sentence: Therefore , approaches to recruit more physicians for general practice are being sought .
+
+ppatt:
+	?a recruit ?b for ?c
+		?a: approaches
+		?b: more physicians
+		?c: general practice
+	Therefore , ?a are being sought
+		?a: approaches to recruit more physicians for general practice
+
+
+label:    sent_4
+sentence: Purposeful sampling was used to recruit the nine participants through the snowball technique .
+
+ppatt:
+	?a was used to recruit ?b through ?c
+		?a: Purposeful sampling
+		?b: the nine participants
+		?c: the snowball technique
+
+
+label:    sent_5
+sentence: These findings suggest that schools of social work should recruit more professors with disabilities .
+
+ppatt:
+	?a suggest ?b
+		?a: These findings
+		?b: SOMETHING := schools of social work should recruit more professors with disabilities
+	?a should recruit ?b
+		?a: schools of social work
+		?b: more professors with disabilities
+
+
+label:    sent_6
+sentence: Neurons recruit numerous mechanisms to facilitate the development of synaptic connections .
+
+ppatt:
+	?a recruit ?b
+		?a: Neurons
+		?b: numerous mechanisms to facilitate the development of synaptic connections
+	?a facilitate ?b
+		?a: numerous mechanisms
+		?b: the development of synaptic connections
+
+
+label:    sent_7
+sentence: Both modules recruit the formin Cdc12 to nucleate actin filaments .
+
+ppatt:
+	?a recruit ?b to nucleate ?c
+		?a: Both modules
+		?b: the formin Cdc12
+		?c: actin filaments
+
+
+label:    sent_8
+sentence: We hypothesized that larger wounds recruit more cells from the bone marrow .
+
+ppatt:
+	?a hypothesized ?b
+		?a: We
+		?b: SOMETHING := larger wounds recruit more cells from the bone marrow
+	?a recruit ?b from ?c
+		?a: larger wounds
+		?b: more cells
+		?c: the bone marrow
+
+
+label:    sent_9
+sentence: Chemokines are chemotactic cytokines which recruit leukocytes to inflammatory sites . NS5A may recruit PI4KIIIalpha to the HCV RNA replication complex .
+
+ppatt:
+	?a are chemotactic cytokines
+		?a: Chemokines
+	?a recruit ?b to ?c
+		?a: chemotactic cytokines
+		?b: leukocytes
+		?c: inflammatory sites
+	?a may recruit ?b to ?c
+		?a: NS5A
+		?b: PI4KIIIalpha
+		?c: the HCV RNA replication complex
+
+
+label:    sent_10
+sentence: Health care organizations should launch targeted efforts to recruit and utilize retired RN volunteers .
+
+ppatt:
+	?a should launch ?b to recruit ?c
+		?a: Health care organizations
+		?b: targeted efforts
+		?c: retired RN volunteers
+	?a should launch to utilize
+		?a: Health care organizations
+
+
+label:    sent_11
+sentence: Workplaces vary in their ability to recruit and retain workers .
+
+ppatt:
+	?a vary in ?b
+		?a: Workplaces
+		?b: their ability to recruit and retain workers
+	?a recruit ?b
+		?a: their ability
+		?b: workers
+	retain ?a
+		?a: workers
+
+
+label:    sent_12
+sentence: The methods used to recruit and interview the participants minimized self-selection bias . Apparently mechanisms other than recurrent chemical synapses can synchronize and recruit epileptiform events .
+
+ppatt:
+	?a used to recruit ?b
+		?a: The methods
+		?b: the participants minimized self-selection bias
+	?a used to interview
+		?a: The methods
+	?a minimized ?b
+		?a: the participants
+		?b: self-selection bias
+	?a Apparently ?b can synchronize
+		?a: The methods used to recruit and interview the participants minimized self-selection bias
+		?b: mechanisms other than recurrent chemical synapses
+	?a recruit ?b
+		?a: The methods used to recruit and interview the participants minimized self-selection bias
+		?b: epileptiform events
+
+
+label:    sent_13
+sentence: This suggests the IA subjects fail to recruit this pathway and inhibit unwanted actions .
+
+ppatt:
+	?a suggests ?b
+		?a: This
+		?b: SOMETHING := the IA subjects fail to recruit this pathway and inhibit unwanted actions
+	?a fail to recruit ?b
+		?a: the IA subjects
+		?b: this pathway
+	?a fail to inhibit ?b
+		?a: the IA subjects
+		?b: unwanted actions
+
+
+label:    sent_14
+sentence: Efforts to counteract these effects will be critical to maintain and recruit teaching faculty . SIV Nef proteins recruit the AP-2 complex to antagonize Tetherin and facilitate virion release .
+
+ppatt:
+	?a counteract ?b
+		?a: Efforts
+		?b: these effects
+	?a will be critical to maintain ?b
+		?a: Efforts to counteract these effects
+		?b: teaching faculty
+	?a will be critical to recruit
+		?a: Efforts to counteract these effects
+	?a recruit ?b to antagonize ?c
+		?a: SIV Nef proteins
+		?b: the AP-2 complex
+		?c: Tetherin
+	?a recruit to facilitate ?b
+		?a: SIV Nef proteins
+		?b: virion release
+
+
+label:    sent_15
+sentence: Glioma cells recruit GAMs and MDSCs to the tumour site and block their maturation .
+
+ppatt:
+	?a recruit ?b to ?c
+		?a: Glioma cells
+		?b: GAMs
+		?c: the tumour site
+	?a recruit ?b to ?c
+		?a: Glioma cells
+		?b: MDSCs
+		?c: the tumour site
+	?a block ?b
+		?a: Glioma cells
+		?b: their maturation
+
+
+label:    sent_16
+sentence: Activated platelets recruit T cells and initiate a feedback loop . PINK1 is required to recruit Parkin to mitochondria and initiate mitophagy upon mitochondrial depolarization .
+
+ppatt:
+	?a recruit ?b
+		?a: Activated platelets
+		?b: T cells
+	?a initiate ?b
+		?a: Activated platelets
+		?b: a feedback loop
+	?a is required to recruit ?b to ?c
+		?a: PINK1
+		?b: Parkin
+		?c: mitochondria
+	?a is required to initiate ?b upon ?c
+		?a: PINK1
+		?b: mitophagy
+		?c: mitochondrial depolarization
+
+
+label:    sent_17
+sentence: Both pathogens fragment the host Golgi apparatus and recruit Golgi elements to retrieve sphingolipids .
+
+ppatt:
+	?a fragment ?b
+		?a: Both pathogens
+		?b: the host Golgi apparatus
+	?a recruit ?b to retrieve ?c
+		?a: Both pathogens
+		?b: Golgi elements
+		?c: sphingolipids
+
+
+label:    sent_18
+sentence: There are three dental schools and recruit about 300 new students per year .
+
+ppatt:
+	There are ?a
+		?a: three dental schools
+	?a recruit ?b
+		?a: three dental schools
+		?b: about 300 new students per year
+
+
+label:    sent_19
+sentence: STK might thus recruit or regulate histone modifying factors to control their activity . Chemokines recruit and activate leukocytes during inflammation .
+
+ppatt:
+	?a might thus recruit ?b to control ?c
+		?a: STK
+		?b: histone modifying factors
+		?c: their activity
+	?a regulate
+		?a: STK
+	?a recruit ?b during ?c
+		?a: Chemokines
+		?b: leukocytes
+		?c: inflammation
+	?a activate
+		?a: Chemokines
+
+
+label:    sent_20
+sentence: Strategies to recruit and retain quality staff .
+
+ppatt:
+	?a recruit ?b
+		?a: Strategies
+		?b: quality staff
+	retain ?a
+		?a: quality staff
+
+
+label:    sent_21
+sentence: The potential to recruit from this pool of donors was reviewed . [ NEDD1 and microtubule nucleation complexes : To recruit for better organizing ] . Black families were more difficult to recruit than whites .
+
+ppatt:
+	?a recruit from ?b
+		?a: The potential
+		?b: this pool of donors
+	?a was reviewed . [ ?b : To recruit for ?c
+		?a: The potential to recruit from this pool of donors
+		?b: NEDD1
+		?c: better organizing ]
+	?a was reviewed . [ ?b : To recruit for ?c
+		?a: The potential to recruit from this pool of donors
+		?b: microtubule nucleation
+		?c: better organizing ]
+	?a were more difficult to recruit than ?b
+		?a: Black families
+		?b: whites
+
+

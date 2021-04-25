@@ -1,0 +1,35 @@
+obj	A closed-loop protocol was successfully used to wean children from mechanical ventilation .	obj@children
+obj	Is cardiac function a sufficient criterion to wean a patient from circulatory support ?	obj@patient
+obj	Especially important has been the ability to wean patients from systemic corticosteroids postoperatively .	obj@patients
+
+prep	Patients who require tracheotomy only for airway protection wean sooner than other patients .	prep_than@patients
+prep	Effectiveness of intensive nutritional regimes in patients who fail to wean from mechanical ventilation .	prep_from@ventilation
+prep	Two further patients with chest disease were difficult to wean following surgery .	prep_following@surgery
+
+obj#prep	The other 21 patients were studied during attempts to wean them from mechanical ventilation .	obj@them prep_from@ventilation
+obj#prep	Repeated attempts to wean her from the ventilator failed .	obj@her prep_from@ventilator
+obj#prep	We were subsequently able to wean two children from tube feeding .	obj@children prep_from@feeding
+
+subj#prep	One patient with preoperative profound shock could not wean from cardiopulmonary bypass .	subj@patient prep_from@cardiopulmonary
+subj#prep	Graft atheroembolism as the probable cause of failure to wean from cardiopulmonary bypass .	subj@atheroembolism prep_from@cardiopulmonary
+subj#prep	By rehabilitation therapy , most short bowel patients could wean from parenteral nutrition .	subj@patients prep_by@therapy prep_from@nutrition
+
+subj#obj	Lactating-only rabbits do not spontaneously wean their young .	subj@rabbits obj@young
+subj#obj	Proportional assist ventilation : an alternative approach to wean the patient .	subj@approach obj@patient
+subj#obj	The decision-making process that leads women to wean their babies is complex and guilt-ridden .	subj@women obj@babies
+
+subj#obj#prep	They wean the first litter shortly before delivering the second one .	subj@They obj@litter prepc_before@delivering
+subj#obj#prep	On average , mothers wean their infants between 9-12 months .	subj@mothers obj@infants prep_between@months prep_on@average
+subj#obj#prep	Use of temporary cardiac resynchronization therapy to wean a patient successfully from ventilation .	subj@Use obj@patient prep_from@ventilation
+
+obj#conj	It is often unclear when and how to wean patients from mechanical ventilation .	obj@patients conj_and@when
+obj#conj	The goal is to wean these patients as soon as possible .	obj@patients conj_soon@possible
+
+subj#prep#conj	Three patients did not wean from the ventilator and died shortly after the operation .	subj@patients prep_from@ventilator conj_and@died
+subj#prep#conj	He could n't wean from CPB and required the insertion of an LVAD .	subj@He prep_from@CPB conj_and@required
+subj#prep#conj	The remaining 2 patients could not wean from CHDF , and were introduced HD .	subj@patients prep_from@CHDF conj_and@introduced
+
+prep#conj	Women were advised to breastfeed exclusively and wean rapidly just before 6 mo .	prep_before@mo conj_and@advised
+
+subj	Mothers also wean too early ( before 4 months of age ) .	subj@Mothers
+

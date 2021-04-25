@@ -1,0 +1,313 @@
+label:    sent_1
+sentence: Microparticles can be loaded with immune regulatory substances to control and terminate inflammatory processes .
+
+ppatt:
+	?a can be loaded with ?b to control ?c
+		?a: Microparticles
+		?b: immune regulatory substances
+		?c: inflammatory processes
+	?a can be loaded to terminate
+		?a: Microparticles
+
+
+label:    sent_2
+sentence: We demonstrate that mgtL translation is required to prematurely terminate mgtA transcription .
+
+ppatt:
+	?a demonstrate ?b
+		?a: We
+		?b: SOMETHING := mgtL translation is required to prematurely terminate mgtA transcription
+	?a is required to prematurely terminate ?b
+		?a: mgtL translation
+		?b: mgtA transcription
+
+
+label:    sent_3
+sentence: Our data also indicate that high frequency of odorant spike encounters terminate upstream movement .
+
+ppatt:
+	?a also indicate ?b
+		?a: Our data
+		?b: SOMETHING := high frequency of odorant spike encounters terminate upstream movement
+	?a terminate ?b
+		?a: high frequency of odorant spike encounters
+		?b: upstream movement
+
+
+label:    sent_4
+sentence: Such trials can terminate at any of the intermediate stages or the final stage .
+
+ppatt:
+	?a can terminate at ?b
+		?a: Such trials
+		?b: any of the intermediate stages or the final stage
+
+
+label:    sent_5
+sentence: Most excitatory synapses terminate on dendritic spines .
+
+ppatt:
+	?a terminate on ?b
+		?a: Most excitatory synapses
+		?b: dendritic spines
+
+
+label:    sent_6
+sentence: These axons terminate in characteristic globose structures resembling the glomeruli of the olfactory bulb .
+
+ppatt:
+	?a terminate in ?b
+		?a: These axons
+		?b: characteristic globose structures resembling the glomeruli of the olfactory bulb
+	?a resembling the glomeruli of ?b
+		?a: characteristic globose structures
+		?b: the olfactory bulb
+
+
+label:    sent_7
+sentence: Anatomical studies have shown that D1STR neurons have collaterals that terminate in GP .
+
+ppatt:
+	?a have shown ?b
+		?a: Anatomical studies
+		?b: SOMETHING := D1STR neurons have collaterals that terminate in GP
+	?a have ?b
+		?a: D1STR neurons
+		?b: collaterals that terminate in GP
+	?a terminate in ?b
+		?a: collaterals
+		?b: GP
+
+
+label:    sent_8
+sentence: Axon collaterals of basolateral nucleus pyramidal cells appear to terminate among the intercalated cells .
+
+ppatt:
+	?a appear to terminate among ?b
+		?a: Axon collaterals of basolateral nucleus pyramidal cells
+		?b: the intercalated cells
+
+
+label:    sent_9
+sentence: Other axons pass in normal fashion in SO and ascend to terminate in SGS .
+
+ppatt:
+	?a pass in ?b in ?c
+		?a: Other axons
+		?b: normal fashion
+		?c: SO
+	?a ascend to terminate in ?b
+		?a: Other axons
+		?b: SGS
+
+
+label:    sent_10
+sentence: KIF4 is required to terminate midzone elongation in late anaphase .
+
+ppatt:
+	?a is required to terminate ?b
+		?a: KIF4
+		?b: midzone elongation in late anaphase
+
+
+label:    sent_11
+sentence: The parents refused cordocentesis and decided to terminate pregnancy in the 21st week .
+
+ppatt:
+	?a refused ?b
+		?a: The parents
+		?b: cordocentesis
+	?a decided to terminate ?b in ?c
+		?a: The parents
+		?b: pregnancy
+		?c: the 21st week
+
+
+label:    sent_12
+sentence: One patient with twins elected to terminate the pregnancy at 19 weeks . Lidocaine ( 100 mg i.v. ) did not terminate VT .
+
+ppatt:
+	?a elected to terminate ?b at ?c
+		?a: twins
+		?b: the pregnancy
+		?c: 19 weeks
+	?a is/are Lidocaine
+		?a: One patient with twins elected to terminate the pregnancy at 19 weeks
+	?a is/are 100 mg i.v.
+		?a: Lidocaine
+	?a did not terminate ?b
+		?a: One patient with twins elected to terminate the pregnancy at 19 weeks
+		?b: VT
+
+
+label:    sent_13
+sentence: [Pharmacological study on the effect of testosterone propionate to terminate early pregnancy ] . Two tetracycline patients did however terminate participation in the study due to itching .
+
+ppatt:
+	?a terminate ?b
+		?a: the effect of testosterone propionate
+		?b: early pregnancy ]
+	?a ?b did however terminate ?c
+		?a: [Pharmacological study on the effect of testosterone propionate to terminate early pregnancy ]
+		?b: Two tetracycline patients
+		?c: participation in the study due to itching
+
+
+label:    sent_14
+sentence: This effect may terminate fungal epidemics of Daphnia as lakes cool in autumn .
+
+ppatt:
+	?a may terminate ?b as ?c cool in ?d
+		?a: This effect
+		?b: fungal epidemics of Daphnia
+		?c: lakes
+		?d: autumn
+
+
+label:    sent_15
+sentence: Variation in the decision to terminate pregnancy in the setting of fetal aneuploidy .
+
+ppatt:
+	?a terminate ?b in ?c
+		?a: Variation in the decision
+		?b: pregnancy
+		?c: the setting of fetal aneuploidy
+
+
+label:    sent_16
+sentence: Upregulation of TSP-1 , in contrast , may terminate the postischemic angiogenesis .
+
+ppatt:
+	?a in ?b , may terminate ?c
+		?a: Upregulation of TSP-1
+		?b: contrast
+		?c: the postischemic angiogenesis
+
+
+label:    sent_17
+sentence: Cases which did not terminate spontaneously were administered the same treatment the next day . Subsequently , the B-tubule protofilaments terminate individually .
+
+ppatt:
+	?a did not terminate spontaneously
+		?a: Cases
+	?a were administered ?b
+		?a: Cases which did not terminate spontaneously
+		?b: the same treatment the next day
+	Subsequently , ?a terminate individually
+		?a: the B-tubule protofilaments
+
+
+label:    sent_18
+sentence: Rods from different parts of the dentate nucleus terminate independently of one another .
+
+ppatt:
+	?a terminate independently of ?b
+		?a: Rods from different parts of the dentate nucleus
+		?b: one another
+
+
+label:    sent_19
+sentence: Nucleoside analogues can incorporate into DNA and terminate DNA strand elongation .
+
+ppatt:
+	?a can incorporate into ?b
+		?a: Nucleoside analogues
+		?b: DNA
+	?a terminate ?b
+		?a: Nucleoside analogues
+		?b: DNA strand elongation
+
+
+label:    sent_20
+sentence: Prostaglandins are mainly used in clinical medicine for midterm abortion and to terminate pregnancy .
+
+ppatt:
+	?a are mainly used in ?b
+		?a: Prostaglandins
+		?b: clinical medicine for midterm abortion
+	?a terminate ?b
+		?a: Prostaglandins
+		?b: pregnancy
+
+
+label:    sent_21
+sentence: Inhibition of GABA aminotransferase increases the concentration of GABA and can terminate the convulsions .
+
+ppatt:
+	?a increases ?b
+		?a: Inhibition of GABA aminotransferase
+		?b: the concentration of GABA
+	?a can terminate ?b
+		?a: Inhibition of GABA aminotransferase
+		?b: the convulsions
+
+
+label:    sent_22
+sentence: Telomeres of most investigated species terminate with short repeats and are elongated by telomerase .
+
+ppatt:
+	?a terminate with ?b
+		?a: Telomeres of most investigated species
+		?b: short repeats
+	?a are elongated by ?b
+		?a: Telomeres of most investigated species
+		?b: telomerase
+
+
+label:    sent_23
+sentence: Slow firing changes terminate with reinforcers and possibly with auditory stimuli and behavioral responses .
+
+ppatt:
+	?a terminate with ?b
+		?a: Slow firing changes
+		?b: reinforcers
+	?a terminate with ?b
+		?a: Slow firing changes
+		?b: possibly auditory stimuli
+
+
+label:    sent_24
+sentence: These neurons terminate within the brain and their cell bodies lie within the protocerebrum .
+
+ppatt:
+	?a terminate within ?b
+		?a: These neurons
+		?b: the brain
+	?a lie within ?b
+		?a: their cell bodies
+		?b: the protocerebrum
+
+
+label:    sent_25
+sentence: The pigment cells narrow more proximally and terminate at the proximal basement membrane .
+
+ppatt:
+	?a narrow more proximally
+		?a: The pigment cells
+	?a terminate at ?b
+		?a: The pigment cells
+		?b: the proximal basement membrane
+
+
+label:    sent_26
+sentence: The dendrites are varicose and terminate in presumed growth cones .
+
+ppatt:
+	?a are varicose
+		?a: The dendrites
+	?a terminate in ?b
+		?a: The dendrites
+		?b: presumed growth cones
+
+
+label:    sent_27
+sentence: These bands frequently bifurcate or terminate in blind endings .
+
+ppatt:
+	?a frequently bifurcate in ?b
+		?a: These bands
+		?b: blind endings
+	?a terminate
+		?a: These bands
+
+

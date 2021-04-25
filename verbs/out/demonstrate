@@ -1,0 +1,321 @@
+label:    sent_1
+sentence: Extensive experiments demonstrate the proposed techniques can provide faster reconstruction without compromising image quality .
+
+ppatt:
+	?a demonstrate ?b
+		?a: Extensive experiments
+		?b: SOMETHING := the proposed techniques can provide faster reconstruction without compromising image quality
+	?a can provide ?b
+		?a: the proposed techniques
+		?b: faster reconstruction
+	?a compromising ?b
+		?a: the proposed techniques
+		?b: image quality
+
+
+label:    sent_2
+sentence: The results demonstrate our reconstructed volume can eliminate undesirable artifacts like blurring .
+
+ppatt:
+	?a demonstrate ?b ?c
+		?a: The results
+		?b: our reconstructed volume
+		?c: SOMETHING := can eliminate undesirable artifacts like blurring
+	?a can eliminate ?b like ?c
+		?a: The results
+		?b: undesirable artifacts
+		?c: blurring
+
+
+label:    sent_3
+sentence: Finally , we demonstrate that E2F-1 associated pRB is modified by O-GlcNAc .
+
+ppatt:
+	Finally , ?a demonstrate ?b
+		?a: we
+		?b: SOMETHING := E2F-1 associated pRB is modified by O-GlcNAc
+	?a is modified by ?b
+		?a: E2F-1 associated pRB
+		?b: O-GlcNAc
+
+
+label:    sent_4
+sentence: Few case reports demonstrate successful surgical treatment of the injury using screw fixation .
+
+ppatt:
+	?a demonstrate ?b using ?c
+		?a: Few case reports
+		?b: successful surgical treatment of the injury
+		?c: screw fixation
+
+
+label:    sent_5
+sentence: Collectively , these data demonstrate drug-induced multi-organ toxicity . Taken together , our results demonstrate an important regulator for transcription-coupled histone H2B ubiquitination .
+
+ppatt:
+	Collectively , ?a demonstrate ?b
+		?a: these data
+		?b: drug-induced multi-organ toxicity
+	?a Taken together
+		?a: these data
+	?a demonstrate ?b
+		?a: our results
+		?b: an important regulator for transcription-coupled histone H2B ubiquitination
+
+
+label:    sent_6
+sentence: Our results showed significant differences that demonstrate the effectiveness of the method .
+
+ppatt:
+	?a showed ?b
+		?a: Our results
+		?b: significant differences that demonstrate the effectiveness of the method
+	?a demonstrate ?b
+		?a: significant differences
+		?b: the effectiveness of the method
+
+
+label:    sent_7
+sentence: To demonstrate the feasibility of periorbital AEA ligation in a transethmoidal endoscopic approach .
+
+ppatt:
+	demonstrate ?a
+		?a: the feasibility of periorbital AEA ligation in a transethmoidal endoscopic approach
+
+
+label:    sent_8
+sentence: Large systematic reviews failed to demonstrate a net beneficial effect of perioperative beta-blockers .
+
+ppatt:
+	?a failed to demonstrate ?b
+		?a: Large systematic reviews
+		?b: a net beneficial effect of perioperative beta-blockers
+
+
+label:    sent_9
+sentence: In addition , we demonstrate that they are bound as oleate ions . In particular , our findings demonstrate that DMEM preserves the hMSC stem features better .
+
+ppatt:
+	In ?a , ?b demonstrate ?c
+		?a: addition
+		?b: we
+		?c: SOMETHING := they are bound as oleate ions . In particular
+	?a are bound as ?b . In ?c
+		?a: they
+		?b: oleate ions
+		?c: particular
+	?a demonstrate ?b
+		?a: our findings
+		?b: SOMETHING := DMEM preserves the hMSC stem features better
+	?a preserves ?b
+		?a: DMEM
+		?b: the hMSC stem features better
+
+
+label:    sent_10
+sentence: In this study , we demonstrate that IL-33 is important for allergic lung inflammation .
+
+ppatt:
+	In ?a , ?b demonstrate ?c
+		?a: this study
+		?b: we
+		?c: SOMETHING := IL-33 is important for allergic lung inflammation
+	?a is important for ?b
+		?a: IL-33
+		?b: allergic lung inflammation
+
+
+label:    sent_11
+sentence: We also demonstrate better face processing in women than in men .
+
+ppatt:
+	?a also demonstrate ?b than in ?c
+		?a: We
+		?b: better face processing in women
+		?c: men
+
+
+label:    sent_12
+sentence: Preclinical models demonstrate synergistic antitumor activity with combination blockade of mTOR and IGF-1R signaling .
+
+ppatt:
+	?a demonstrate ?b
+		?a: Preclinical models
+		?b: synergistic antitumor activity with combination blockade of mTOR and IGF-1R signaling
+
+
+label:    sent_13
+sentence: We demonstrate the usage of Key2Ann by discussing three typical examples of phylogenetic analysis .
+
+ppatt:
+	?a demonstrate ?b
+		?a: We
+		?b: the usage of Key2Ann
+	?a discussing ?b
+		?a: We
+		?b: three typical examples of phylogenetic analysis
+
+
+label:    sent_14
+sentence: The present findings demonstrate differences between real-world falls and fall simulations .
+
+ppatt:
+	?a demonstrate ?b
+		?a: The present findings
+		?b: differences between real-world falls
+	?a fall ?b
+		?a: The present findings
+		?b: simulations
+
+
+label:    sent_15
+sentence: We demonstrate a proof-of-concept prototype and present some of its manufacturing details .
+
+ppatt:
+	?a demonstrate ?b
+		?a: We
+		?b: a proof-of-concept prototype
+	?a present ?b
+		?a: We
+		?b: some of its manufacturing details
+
+
+label:    sent_16
+sentence: Biventricular continuous flow VADs demonstrate diurnal flow variation and lead to end-organ recovery .
+
+ppatt:
+	?a demonstrate ?b
+		?a: Biventricular continuous flow VADs
+		?b: diurnal flow variation
+	?a lead to ?b
+		?a: Biventricular continuous flow VADs
+		?b: end-organ recovery
+
+
+label:    sent_17
+sentence: We demonstrate and discuss the radiologic findings here . We demonstrate that telomeres shorten and shift towards the nuclear center at later passages .
+
+ppatt:
+	?a demonstrate ?b here
+		?a: We
+		?b: the radiologic findings
+	?a discuss
+		?a: We
+	?a demonstrate ?b
+		?a: We
+		?b: SOMETHING := telomeres shorten towards the nuclear center at later passages
+	?a shorten towards ?b at ?c
+		?a: telomeres
+		?b: the nuclear center
+		?c: later passages
+
+
+label:    sent_18
+sentence: We demonstrate and characterize an apparatus for transient infrared spectroscopy with a 5-ps resolution .
+
+ppatt:
+	?a demonstrate ?b
+		?a: We
+		?b: an apparatus for transient infrared spectroscopy with a 5-ps resolution
+	?a characterize
+		?a: We
+
+
+label:    sent_19
+sentence: Only 5 patients were able to demonstrate this at the reassessment appointment .
+
+ppatt:
+	?a were able to demonstrate ?b at ?c
+		?a: Only 5 patients
+		?b: this
+		?c: the reassessment appointment
+
+
+label:    sent_20
+sentence: An additional 7 animals were used to demonstrate hemodynamic stability during general anesthesia .
+
+ppatt:
+	?a were used to demonstrate ?b during ?c
+		?a: An additional 7 animals
+		?b: hemodynamic stability
+		?c: general anesthesia
+
+
+label:    sent_21
+sentence: It is further recommended to demonstrate unilateral disease because of its consequence for therapy .
+
+ppatt:
+	?a is further recommended to demonstrate ?b because of ?c
+		?a: It
+		?b: unilateral disease
+		?c: its consequence for therapy
+
+
+label:    sent_22
+sentence: The histologic criteria are subjective and demonstrate considerable interobserver variability .
+
+ppatt:
+	?a are subjective
+		?a: The histologic criteria
+	?a demonstrate ?b
+		?a: The histologic criteria
+		?b: considerable interobserver variability
+
+
+label:    sent_23
+sentence: Analysis was performed but could not demonstrate the known gene defects of PXE .
+
+ppatt:
+	?a was performed
+		?a: Analysis
+	?a could not demonstrate ?b
+		?a: Analysis
+		?b: the known gene defects of PXE
+
+
+label:    sent_24
+sentence: Know your interests , demonstrate your qualities , and identify your accomplishments .
+
+ppatt:
+	Know ?a
+		?a: your interests
+	demonstrate ?a
+		?a: your qualities
+	identify ?a
+		?a: your accomplishments
+
+
+label:    sent_25
+sentence: In hypercholesterolemia , platelets demonstrate increased reactivity and promote the development of cardiovascular disease .
+
+ppatt:
+	In ?a , ?b demonstrate ?c
+		?a: hypercholesterolemia
+		?b: platelets
+		?c: increased reactivity
+	?a promote ?b
+		?a: platelets
+		?b: the development of cardiovascular disease
+
+
+label:    sent_26
+sentence: We demonstrate efficacy in vitro and in a heterotopic tumor model in mice .
+
+ppatt:
+	?a demonstrate ?b
+		?a: We
+		?b: efficacy in vitro
+	?a demonstrate ?b
+		?a: We
+		?b: a heterotopic tumor model in mice
+
+
+label:    sent_27
+sentence: Our results demonstrate prodigiosin-DNA interaction in vitro and in cultured cells .
+
+ppatt:
+	?a demonstrate ?b in vitro and in cultured cells
+		?a: Our results
+		?b: prodigiosin-DNA interaction
+
+

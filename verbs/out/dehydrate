@@ -1,0 +1,136 @@
+label:    sent_1
+sentence: [
+
+ppatt:
+
+
+
+label:    sent_2
+sentence: Dissociation of Mycobacterium globiforme 193 and its capacity to dehydrate steroids ] . Because pollutants make them dehydrate .
+
+ppatt:
+	?a dehydrate ?b ?c
+		?a: its capacity
+		?b: steroids
+		?c: ]
+	?a make ?b
+		?a: pollutants
+		?b: them dehydrate
+
+
+label:    sent_3
+sentence: It is concluded that exercising children progressively dehydrate when not forced to drink .
+
+ppatt:
+	?a is concluded ?b
+		?a: It
+		?b: SOMETHING := that exercising children progressively dehydrate when not forced to drink
+	?a progressively dehydrate
+		?a: exercising children
+	?a when not forced to ?b
+		?a: exercising children
+		?b: drink
+
+
+label:    sent_4
+sentence: Permeable soil invertebrates dehydrate when exposed in frozen soil . AM was allowed to gradually dehydrate at 4-8 degreesC with and without chemical cross-linking .
+
+ppatt:
+	?a dehydrate ?b
+		?a: Permeable soil invertebrates
+		?b: SOMETHING := AM was allowed to gradually dehydrate at 4-8 degreesC with and without chemical cross-linking
+	?a when exposed in ?b
+		?a: Permeable soil invertebrates
+		?b: frozen soil
+	?a was allowed to gradually dehydrate at ?b ?c
+		?a: AM
+		?b: 4-8 degreesC
+		?c: with and without chemical cross-linking
+
+
+label:    sent_5
+sentence: The specimens were allowed to dehydrate under the microscope for different time intervals .
+
+ppatt:
+	?a were allowed to dehydrate under ?b
+		?a: The specimens
+		?b: the microscope for different time intervals
+
+
+label:    sent_6
+sentence: Embryos and endosperm of wild-type kernels began to dehydrate at approx .
+
+ppatt:
+	?a began to dehydrate at approx
+		?a: Embryos of wild-type kernels
+	?a began to dehydrate at approx
+		?a: endosperm
+
+
+label:    sent_7
+sentence: Pelagic sea snakes dehydrate at sea .
+
+ppatt:
+	?a dehydrate at ?b
+		?a: Pelagic sea snakes
+		?b: sea
+
+
+label:    sent_8
+sentence: This indicates these premercapturic acids dehydrate by direct elimination without rearrangment . HAP does not dehydrate completely before decomposition .
+
+ppatt:
+	?a indicates ?b
+		?a: This
+		?b: these premercapturic acids dehydrate by direct elimination without rearrangment
+	?a dehydrate by ?b
+		?a: these premercapturic acids
+		?b: direct elimination without rearrangment
+	?a does not dehydrate completely before ?b
+		?a: HAP
+		?b: decomposition
+
+
+label:    sent_9
+sentence: The theoretical and experimental study on dicalcium phosphate dehydrate loading with protocatechuic aldehyde .
+
+ppatt:
+
+
+
+label:    sent_10
+sentence: The majority of children were only mildly dehydrate presentation to hospital .
+
+ppatt:
+	?a were only mildly dehydrate presentation to ?b
+		?a: The majority of children
+		?b: hospital
+
+
+label:    sent_11
+sentence: Further , thermogravimetric studies revealed that solvents containing high PG concentrations dehydrate epidermis .
+
+ppatt:
+	Further , ?a revealed ?b
+		?a: thermogravimetric studies
+		?b: SOMETHING := solvents containing high PG concentrations dehydrate epidermis
+	?a containing ?b
+		?a: solvents
+		?b: high PG concentrations
+	?a dehydrate ?b
+		?a: solvents containing high PG concentrations
+		?b: epidermis
+
+
+label:    sent_12
+sentence: Rather these leaves dehydrate to air-dryness and revive fully following rehydration .
+
+ppatt:
+	Rather ?a dehydrate to ?b
+		?a: these leaves
+		?b: air-dryness
+	?a revive fully following ?b
+		?a: these leaves
+		?b: rehydration
+
+

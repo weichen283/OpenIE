@@ -1,0 +1,20 @@
+label:    sent_1
+sentence: Antibodies raised against fusion proteins produced from fragments of the cloned mammalian cDNA interact specifically with the HeLa U5-200kD protein on Western blots and co-immunoprecipitate U5 snRNA and to a lesser extent U4 and U6 snRNAs from HeLa snRNPs .
+
+ppatt:
+	?a raised against ?b
+		?a: Antibodies
+		?b: fusion proteins produced from fragments of the cloned mammalian cDNA
+	?a produced from ?b
+		?a: fusion proteins
+		?b: fragments of the cloned mammalian cDNA
+	?a interact specifically with ?b on ?c
+		?a: Antibodies raised against fusion proteins produced from fragments of the cloned mammalian cDNA
+		?b: the HeLa U5-200kD protein
+		?c: Western blots
+	?a co-immunoprecipitate ?b to ?c
+		?a: Antibodies raised against fusion proteins produced from fragments of the cloned mammalian cDNA
+		?b: U5 snRNA
+		?c: a lesser extent
+
+

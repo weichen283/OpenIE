@@ -1,0 +1,88 @@
+label:    sent_1
+sentence: Case report : pure robot-assisted psoas hitch ureteral reimplantation for distal-ureteral stenosis .
+
+ppatt:
+
+
+
+label:    sent_2
+sentence: Re : Versatility of the adult psoas hitch ureteral reimplantation .
+
+ppatt:
+
+
+
+label:    sent_3
+sentence: Femoral nerve neuropathy following the psoas hitch procedure . Laparoscopic ureteroneocystostomy with psoas hitch . Robot-assisted laparoscopic distal ureterectomy and ureteral reimplantation with psoas hitch . Girth hitch . Gastrojejunal hitch in gastric volvulus . A hitch in hiccups . Laparoscopic ureteroneocystostomy and vesicopsoas hitch for infiltrative endometriosis .
+
+ppatt:
+
+
+
+label:    sent_4
+sentence: [Ureterocystoneostomy using the psoas hitch technic --outside variant ] . Combined Boari bladder flap-psoas bladder hitch procedure in ureteral replacement .
+
+ppatt:
+	?a using ?b ?c in ?d
+		?a: [Ureterocystoneostomy
+		?b: the psoas hitch technic --outside variant ]
+		?c: Combined Boari bladder flap-psoas bladder hitch procedure
+		?d: ureteral replacement
+
+
+label:    sent_5
+sentence: Vesicopsoas hitch : a versatile procedure . Condoms hitch lift with truckers . Infectious prions hitch ride on ferritin .
+
+ppatt:
+	?a hitch ride on ?b
+		?a: Infectious prions
+		?b: ferritin
+
+
+label:    sent_6
+sentence: Bladder psoas hitch in hydronephrosis due to pelvic endometriosis : outcome of urodynamic parameters .
+
+ppatt:
+
+
+
+label:    sent_7
+sentence: The vesico-psoas hitch as an adjunct to megaureter repair in childhood .
+
+ppatt:
+	?a hitch as ?b
+		?a: The vesico-psoas
+		?b: an adjunct to megaureter repair in childhood
+	?a megaureter ?b
+		?a: an adjunct
+		?b: repair in childhood
+
+
+label:    sent_8
+sentence: It takes KASH to hitch to the SUN .
+
+ppatt:
+	?a takes ?b to hitch to ?c
+		?a: It
+		?b: KASH
+		?c: the SUN
+
+
+label:    sent_9
+sentence: Laparoscopic vesicopsoas hitch for infiltrative ureteral endometriosis .
+
+ppatt:
+	?a hitch for ?b
+		?a: Laparoscopic vesicopsoas
+		?b: infiltrative ureteral endometriosis
+
+
+label:    sent_10
+sentence: [First-line vesico-psoas hitch ureteroneocystostomy for primary obstructive megaureter ] .
+
+ppatt:
+	?a hitch ?b
+		?a: [First-line vesico-psoas
+		?b: ureteroneocystostomy for primary obstructive megaureter ]
+
+

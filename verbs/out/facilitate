@@ -1,0 +1,352 @@
+label:    sent_1
+sentence: To facilitate evidence-based nursing practice , audit-feedback-re-audit cycles strategies were used .
+
+ppatt:
+	facilitate ?a ?b
+		?a: evidence-based nursing practice
+		?b: audit-feedback-re-audit cycles strategies
+	?a were used
+		?a: audit-feedback-re-audit cycles strategies
+
+
+label:    sent_2
+sentence: Spider monkeys shake their heads so as to facilitate amicable social contact .
+
+ppatt:
+	?a so as to facilitate ?b
+		?a: shake their heads
+		?b: amicable social contact
+
+
+label:    sent_3
+sentence: A new rule-based approach has been developed to facilitate model validation and model complementation .
+
+ppatt:
+	?a has been developed to facilitate ?b
+		?a: A new rule-based approach
+		?b: model validation
+	?a has been developed to facilitate ?b
+		?a: A new rule-based approach
+		?b: model complementation
+
+
+label:    sent_4
+sentence: This allele may facilitate an autoimmune response against targets such as variants of PLA2R1 .
+
+ppatt:
+	?a may facilitate ?b
+		?a: This allele
+		?b: an autoimmune response against targets such as variants of PLA2R1
+
+
+label:    sent_5
+sentence: Its recognition may facilitate nephron-sparing surgery .
+
+ppatt:
+	?a may facilitate ?b
+		?a: Its recognition
+		?b: nephron-sparing surgery
+
+
+label:    sent_6
+sentence: Evaluation of a VR and stereo-endoscopic tool to facilitate 3rd ventriculostomy .
+
+ppatt:
+	?a facilitate ?b
+		?a: Evaluation of a VR and stereo-endoscopic tool
+		?b: 3rd ventriculostomy
+
+
+label:    sent_7
+sentence: On Gerasimov 's plastic facial reconstruction technique : new insights to facilitate repeatability .
+
+ppatt:
+	?a facilitate ?b
+		?a: On Gerasimov 's plastic facial reconstruction technique : new insights
+		?b: repeatability
+
+
+label:    sent_8
+sentence: Electronic calendar such as the Google calendar facilitate adequate coordination among health care professionals .
+
+ppatt:
+	?a facilitate ?b
+		?a: Electronic calendar such as the Google calendar
+		?b: adequate coordination among health care professionals
+
+
+label:    sent_9
+sentence: Use of ultrasound to facilitate femoral nerve block with stimulating catheter .
+
+ppatt:
+	?a facilitate ?b
+		?a: Use of ultrasound
+		?b: femoral nerve block with stimulating catheter
+
+
+label:    sent_10
+sentence: To facilitate urine sample preparation prior to head-space gas-chromatographic ( HS-GC ) analysis .
+
+ppatt:
+	facilitate ?a prior to ?b
+		?a: urine sample preparation
+		?b: head-space gas-chromatographic analysis
+	?a is/are HS-GC
+		?a: head-space gas-chromatographic
+
+
+label:    sent_11
+sentence: It should be performed when indicated to facilitate tumor resection in the cervicothoracic region .
+
+ppatt:
+	?a should be performed
+		?a: It
+	?a when indicated to facilitate ?b
+		?a: It
+		?b: tumor resection in the cervicothoracic region
+
+
+label:    sent_12
+sentence: Sucrose was confirmed to facilitate the preparation of nano-emulsions in both systems .
+
+ppatt:
+	?a was confirmed to facilitate ?b
+		?a: Sucrose
+		?b: the preparation of nano-emulsions in both systems
+
+
+label:    sent_13
+sentence: Guidelines are produced in oncology to facilitate clinical decision making and improve clinical practice .
+
+ppatt:
+	?a are produced in ?b to facilitate ?c
+		?a: Guidelines
+		?b: oncology
+		?c: clinical decision making and improve clinical practice
+	?a making ?b
+		?a: clinical decision
+		?b: clinical practice
+	improve ?a
+		?a: clinical practice
+
+
+label:    sent_14
+sentence: Such R-loops trigger genome instability and facilitate deamination by human AID .
+
+ppatt:
+	?a trigger ?b
+		?a: Such R-loops
+		?b: genome instability
+	?a facilitate ?b
+		?a: Such R-loops
+		?b: deamination by human AID
+
+
+label:    sent_15
+sentence: Strategies that helped to facilitate recruitment and foster community networking are discussed .
+
+ppatt:
+	?a helped to facilitate ?b
+		?a: Strategies
+		?b: recruitment
+	?a helped to foster ?b
+		?a: that
+		?b: community networking
+	?a are discussed
+		?a: Strategies that helped to facilitate recruitment and foster community networking
+
+
+label:    sent_16
+sentence: This will facilitate early diagnostic clarification and promote efficient treatment strategies .
+
+ppatt:
+	?a will facilitate ?b
+		?a: This
+		?b: early diagnostic clarification
+	?a promote ?b
+		?a: This
+		?b: efficient treatment strategies
+
+
+label:    sent_17
+sentence: Detection of anti-HMGCR autoantibodies may facilitate diagnosis and direct therapy .
+
+ppatt:
+	?a may facilitate ?b
+		?a: Detection of anti-HMGCR autoantibodies
+		?b: diagnosis
+	?a may facilitate ?b
+		?a: Detection of anti-HMGCR autoantibodies
+		?b: direct therapy
+
+
+label:    sent_18
+sentence: Trust and reciprocity facilitate cooperation and are relevant to virtually all human interactions . Law as a tool to facilitate healthier lifestyles and prevent obesity .
+
+ppatt:
+	?a facilitate ?b ?c
+		?a: Trust
+		?b: cooperation
+		?c: Law
+	?a facilitate ?b ?c
+		?a: reciprocity
+		?b: cooperation
+		?c: Law
+	?a facilitate ?b
+		?a: a tool
+		?b: healthier lifestyles
+	prevent ?a
+		?a: obesity
+
+
+label:    sent_19
+sentence: In these women , the biopsy does not facilitate diagnosis and is hazardous .
+
+ppatt:
+	In ?a , ?b does not facilitate ?c
+		?a: these women
+		?b: the biopsy
+		?c: diagnosis
+
+
+label:    sent_20
+sentence: In addition some mycotoxins facilitate persistence of intestinal pathogens and potentiate intestinal inflammation .
+
+ppatt:
+	In ?a ?b facilitate ?c
+		?a: addition
+		?b: some mycotoxins
+		?c: persistence of intestinal pathogens
+	?a potentiate ?b
+		?a: some mycotoxins
+		?b: intestinal inflammation
+
+
+label:    sent_21
+sentence: A secured web-based database is used to facilitate and centralize data registration .
+
+ppatt:
+	?a is used to facilitate ?b
+		?a: A secured web-based database
+		?b: data registration
+	?a is used to centralize
+		?a: A secured web-based database
+
+
+label:    sent_22
+sentence: PD Trivia is an interactive game created to facilitate and reinforce learning .
+
+ppatt:
+	?a is an interactive game
+		?a: PD Trivia
+	?a created to facilitate ?b
+		?a: an interactive game
+		?b: learning
+	created to reinforce ?a
+		?a: learning
+
+
+label:    sent_23
+sentence: This system was designed to facilitate and not replace the physician interview .
+
+ppatt:
+	?a was designed to facilitate
+		?a: This system
+	?a was designed to not replace ?b
+		?a: This system
+		?b: the physician interview
+
+
+label:    sent_24
+sentence: Case managers can better coordinate and facilitate chronic illness care by adopting telehealth technology .
+
+ppatt:
+	?a can better coordinate ?b
+		?a: Case managers
+		?b: chronic illness care
+	?a facilitate
+		?a: Case managers
+	?a adopting ?b
+		?a: Case managers
+		?b: telehealth technology
+
+
+label:    sent_25
+sentence: Measures to foster and facilitate successful breast-feeding after caesarean delivery are recommended .
+
+ppatt:
+	?a foster ?b after ?c
+		?a: Measures
+		?b: successful breast-feeding
+		?c: caesarean delivery
+	?a facilitate
+		?a: Measures
+	?a are recommended
+		?a: Measures to foster and facilitate successful breast-feeding after caesarean delivery
+
+
+label:    sent_26
+sentence: Suxamethonium was used to facilitate intubation and for further muscle relaxation .
+
+ppatt:
+	?a was used to facilitate ?b
+		?a: Suxamethonium
+		?b: intubation
+	?a was used to facilitate ?b
+		?a: Suxamethonium
+		?b: further muscle relaxation
+
+
+label:    sent_27
+sentence: Axon regeneration can facilitate or suppress hindlimb function after olfactory ensheathing glia transplantation .
+
+ppatt:
+	?a can facilitate ?b after ?c
+		?a: Axon regeneration
+		?b: hindlimb function
+		?c: olfactory ensheathing glia transplantation
+	?a suppress
+		?a: Axon regeneration
+
+
+label:    sent_28
+sentence: Patient , system , and internal variables facilitate or impede professional efficacy and growth .
+
+ppatt:
+	?a facilitate ?b
+		?a: Patient
+		?b: professional efficacy
+	?a facilitate ?b
+		?a: system
+		?b: professional efficacy
+	?a facilitate ?b
+		?a: internal variables
+		?b: professional efficacy
+	?a facilitate ?b
+		?a: Patient
+		?b: growth
+	?a facilitate ?b
+		?a: system
+		?b: growth
+	?a facilitate ?b
+		?a: internal variables
+		?b: growth
+	?a impede
+		?a: Patient
+	?a impede
+		?a: system
+	?a impede
+		?a: internal variables
+
+
+label:    sent_29
+sentence: However , orientation precue did not facilitate nor inhibit the search processing .
+
+ppatt:
+	However , ?a did not facilitate ?b
+		?a: orientation precue
+		?b: the search processing
+	?a inhibit
+		?a: orientation precue
+
+

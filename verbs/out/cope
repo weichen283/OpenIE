@@ -1,0 +1,319 @@
+label:    sent_1
+sentence: Nursing schools to teach new ways to cope with death .
+
+ppatt:
+	?a teach ?b to cope with ?c
+		?a: Nursing schools
+		?b: new ways
+		?c: death
+
+
+label:    sent_2
+sentence: This chapter provides various sources on uncertainty and methods to cope with this challenge .
+
+ppatt:
+	?a provides ?b
+		?a: This chapter
+		?b: various sources on uncertainty and methods to cope with this challenge
+	?a cope with ?b
+		?a: various sources on uncertainty and methods
+		?b: this challenge
+
+
+label:    sent_3
+sentence: How will fish that evolved at constant sub-zero temperatures cope with global warming ? Simple guidelines on how dental practitioners can cope with such patients are presented .
+
+ppatt:
+	?a evolved at ?b
+		?a: fish
+		?b: constant sub-zero temperatures
+	How will ?a cope with ?b
+		?a: fish that evolved at constant sub-zero temperatures
+		?b: global warming
+	?a how ?b can cope with ?c
+		?a: Simple guidelines
+		?b: dental practitioners
+		?c: such patients
+	?a are presented
+		?a: Simple guidelines on how dental practitioners can cope with such patients
+
+
+label:    sent_4
+sentence: Not at any cost : organizations help patients cope with costs of cancer care .
+
+ppatt:
+	at ?a : ?b help
+		?a: Not any cost
+		?b: organizations
+	?a cope with ?b
+		?a: patients
+		?b: costs of cancer care
+
+
+label:    sent_5
+sentence: This system could help PMNs cope with an overwhelming infection by A. actinomycetemcomitans .
+
+ppatt:
+	?a could help ?b
+		?a: This system
+		?b: SOMETHING := PMNs cope with an overwhelming infection by A. actinomycetemcomitans
+	?a cope with ?b
+		?a: PMNs
+		?b: an overwhelming infection by A. actinomycetemcomitans
+
+
+label:    sent_6
+sentence: How to cope with complexity and adapt new scenarios to patient care .
+
+ppatt:
+	How to cope with ?a
+		?a: complexity
+	adapt ?a
+		?a: new scenarios to patient care
+
+
+label:    sent_7
+sentence: All patients improved functionally and could cope with their routine activities .
+
+ppatt:
+	?a improved functionally
+		?a: All patients
+	?a could cope with ?b
+		?a: All patients
+		?b: their routine activities
+
+
+label:    sent_8
+sentence: Cells have to cope with stressful conditions and adapt to changing environments .
+
+ppatt:
+	?a have to cope with ?b
+		?a: Cells
+		?b: stressful conditions
+	?a adapt to ?b
+		?a: Cells
+		?b: changing environments
+
+
+label:    sent_9
+sentence: A living system must cope with and adapt to environmental fluctuations to survive .
+
+ppatt:
+	?a must cope ?b to survive
+		?a: A living system
+		?b: with
+	?a adapt to ?b
+		?a: A living system
+		?b: environmental fluctuations
+
+
+label:    sent_10
+sentence: They cope with malfunctions and the respective deletions strengthen the Deltanep1 growth deficiency .
+
+ppatt:
+	?a cope with ?b
+		?a: They
+		?b: malfunctions
+	?a strengthen ?b
+		?a: the respective deletions
+		?b: the Deltanep1 growth deficiency
+
+
+label:    sent_11
+sentence: Stress and how bacteria cope with death and survival .
+
+ppatt:
+	?a how ?b cope with ?c
+		?a: Stress
+		?b: bacteria
+		?c: death
+	?a how ?b cope with ?c
+		?a: Stress
+		?b: bacteria
+		?c: survival
+
+
+label:    sent_12
+sentence: Their concerns related to experiencing distressing symptoms or worrying how family members would cope .
+
+ppatt:
+	experiencing ?a
+		?a: distressing symptoms
+	worrying ?a
+		?a: SOMETHING := how family members would cope
+	how ?a would cope
+		?a: family members
+
+
+label:    sent_13
+sentence: How do nurses cope when values and practice conflict ? How individuals cope with the treatment process may relate to why neurocognitive problems arise .
+
+ppatt:
+	How do ?a cope
+		?a: nurses
+	How ?a cope with ?b
+		?a: individuals
+		?b: the treatment process
+	when ?a may relate
+		?a: values
+	when ?a may relate
+		?a: practice
+	when ?a may relate
+		?a: conflict
+	to why ?a arise
+		?a: neurocognitive problems
+
+
+label:    sent_14
+sentence: Phenotypic plasticity is considered the major means by which plants cope with environmental heterogeneity .
+
+ppatt:
+	?a is considered the major means
+		?a: Phenotypic plasticity
+	?a by ?b cope with ?c
+		?a: the major means
+		?b: plants
+		?c: environmental heterogeneity
+
+
+label:    sent_15
+sentence: The process by which children cope with stressful events is a very relevant topic .
+
+ppatt:
+	?a by ?b cope with ?c
+		?a: The process
+		?b: children
+		?c: stressful events
+	?a is a very relevant topic
+		?a: The process by which children cope with stressful events
+
+
+label:    sent_16
+sentence: Individuals vary in the way in which they cope with stressful situations .
+
+ppatt:
+	?a vary in ?b
+		?a: Individuals
+		?b: the way in which they cope with stressful situations
+	?a in ?b cope with ?c
+		?a: the way
+		?b: they
+		?c: stressful situations
+
+
+label:    sent_17
+sentence: Where treatment fails , individuals have to find ways to cope and adjust .
+
+ppatt:
+	Where ?a fails
+		?a: treatment
+	?a ?b have to find ?c to cope
+		?a: SOMETHING := Where treatment fails
+		?b: individuals
+		?c: ways
+	?a have to find to adjust
+		?a: individuals
+
+
+label:    sent_18
+sentence: How much longer can nurse be expected to cope and ' make do ' ? Helping nursing students to better cope and manage their overall health .
+
+ppatt:
+	Helping ?a to better cope
+		?a: nursing students
+	Helping to manage ?a
+		?a: their overall health
+
+
+label:    sent_19
+sentence: Breast cancer in a wife : how husbands cope and how well it works .
+
+ppatt:
+	how well ?a works
+		?a: it
+
+
+label:    sent_20
+sentence: Tomorrow 's professionals : who are they and how will they cope ? AIDS : what is at stake and how nurses cope .
+
+ppatt:
+	?a are they
+		?a: Tomorrow 's professionals
+	how will ?a cope ?b
+		?a: they
+		?b: AIDS
+	?a is at stake
+		?a: what
+	how ?a cope
+		?a: nurses
+
+
+label:    sent_21
+sentence: Anyhow , to cope with DNA crosslinks a cell needs a functional FANC pathway .
+
+ppatt:
+	?a cope with ?b ?c
+		?a: Anyhow
+		?b: DNA crosslinks
+		?c: a cell
+	?a needs ?b
+		?a: Anyhow , to cope with DNA crosslinks a cell
+		?b: a functional FANC pathway
+
+
+label:    sent_22
+sentence: Therefore , Japanese dentists have to cope with various oral symptoms along with aging .
+
+ppatt:
+	Therefore , ?a have to cope with ?b along with ?c
+		?a: Japanese dentists
+		?b: various oral symptoms
+		?c: aging
+
+
+label:    sent_23
+sentence: Girls employed significantly more strategies to cope with stress compared to boys .
+
+ppatt:
+	?a employed ?b to cope with ?c compared to ?d
+		?a: Girls
+		?b: significantly more strategies
+		?c: stress
+		?d: boys
+
+
+label:    sent_24
+sentence: It is yet not known why some cope well and others do not .
+
+ppatt:
+	?a is yet not known
+		?a: It
+	why ?a do not
+		?a: some cope well and others
+
+
+label:    sent_25
+sentence: Most common strategies used to cope stress was task-oriented while emotion oriented was least .
+
+ppatt:
+	?a used to cope ?b
+		?a: Most common strategies
+		?b: stress
+	?a was task-oriented
+		?a: Most common strategies used to cope stress
+	?a oriented
+		?a: emotion
+	?a was ?b
+		?a: Most common strategies used to cope stress
+		?b: least
+
+
+label:    sent_26
+sentence: Cadaver dissection -- need to cope the inevitable stressor .
+
+ppatt:
+	?a cope ?b
+		?a: need
+		?b: the inevitable stressor
+
+

@@ -1,0 +1,285 @@
+label:    sent_1
+sentence: Information inserts were difficult to read and lacked relevant information .
+
+ppatt:
+	?a were difficult to read ?b
+		?a: Information inserts
+		?b: relevant information
+	?a were difficult to lacked
+		?a: Information inserts
+
+
+label:    sent_2
+sentence: All will receive exactly the same brief educational material to read .
+
+ppatt:
+	?a will receive exactly ?b to ?c
+		?a: All
+		?b: the same brief educational material
+		?c: read
+
+
+label:    sent_3
+sentence: In two experiments , French participants listen to short stories read in accented speech . A second read on X-rays . Optical density was read in an ELISA reader .
+
+ppatt:
+	In ?a , ?b listen to ?c
+		?a: two experiments
+		?b: French participants
+		?c: short stories read in accented speech
+	?a read in ?b
+		?a: short stories
+		?b: accented speech
+	A second read ?a on ?b
+		?a: A second read on X-rays
+		?b: X-rays
+	?a ?b was read in ?c
+		?a: A second read on X-rays
+		?b: Optical density
+		?c: an ELISA reader
+
+
+label:    sent_4
+sentence: The digital slides are easily read on a monitor .
+
+ppatt:
+	?a are easily read on ?b
+		?a: The digital slides
+		?b: a monitor
+
+
+label:    sent_5
+sentence: Two radiologists read the scans . [Why read the articles in this issue of Angiology and Hemostasis ] . College students ( N = 195 ) read one of six vignettes .
+
+ppatt:
+	?a read ?b
+		?a: Two radiologists . read the articles in this issue of Angiology and Hemostasis ]
+		?b: the scans
+	read ?a ?b
+		?a: the scans
+		?b: College students
+	?a is/are [Why
+		?a: Two radiologists read the scans . read the articles in this issue of Angiology and Hemostasis ]
+	?a is/are [Why
+		?a: College students
+	?a read ?b
+		?a: Two radiologists read the scans
+		?b: the articles in this issue of Angiology and Hemostasis ]
+	read ?a ?b
+		?a: the articles in this issue of Angiology and Hemostasis ]
+		?b: College students
+	= ?a
+		?a: 195
+	?a read ?b
+		?a: Two radiologists read the scans . read the articles in this issue of Angiology and Hemostasis ]
+		?b: one of six vignettes
+	?a read ?b
+		?a: College students
+		?b: one of six vignettes
+
+
+label:    sent_6
+sentence: VCE was read real-time at the bedside and later reviewed after download .
+
+ppatt:
+	?a was read ?b at ?c
+		?a: VCE
+		?b: real-time
+		?c: the bedside
+	?a later reviewed after ?b
+		?a: VCE
+		?b: download
+
+
+label:    sent_7
+sentence: Synaptophysin and chromogranin immunostaining , biopsies read anonymised , blinded .
+
+ppatt:
+	?a is/are biopsies
+		?a: Synaptophysin and chromogranin immunostaining
+	?a read
+		?a: biopsies anonymised
+	?a anonymised
+		?a: biopsies read
+	?a blinded
+		?a: Synaptophysin and chromogranin immunostaining
+
+
+label:    sent_8
+sentence: All liver biopsies were read by a single pathologist blinded to the clinical data . Why you should read Dr .
+
+ppatt:
+	?a were read by ?b
+		?a: All liver biopsies
+		?b: a single pathologist blinded to the clinical data
+	?a blinded to ?b
+		?a: a single pathologist
+		?b: the clinical data
+	Why ?a should read ?b
+		?a: you
+		?b: Dr
+
+
+label:    sent_9
+sentence: Cramer 's perspective . " Number needed to read " --how to facilitate clinical trials in MR-angiography .
+
+ppatt:
+	?a needed to read " ?b to facilitate ?c
+		?a: Cramer 's perspective . " Number
+		?b: --how
+		?c: clinical trials in MR-angiography
+
+
+label:    sent_10
+sentence: A B-reader read all postero-anterior chest x-rays .
+
+ppatt:
+	?a read ?b
+		?a: A B-reader
+		?b: all postero-anterior chest x-rays
+
+
+label:    sent_11
+sentence: Documents were read and analyzed for evidence-based alcohol policy content .
+
+ppatt:
+	?a were read
+		?a: Documents
+	?a analyzed for ?b
+		?a: Documents
+		?b: evidence-based alcohol policy content
+
+
+label:    sent_12
+sentence: The transcribed text was read and coded independently by two researchers . All transcripts were read and re-read to elicit general themes .
+
+ppatt:
+	?a was read
+		?a: The transcribed text
+	?a coded independently by ?b
+		?a: The transcribed text
+		?b: two researchers
+	?a were read to elicit ?b
+		?a: All transcripts
+		?b: general themes
+
+
+label:    sent_13
+sentence: In both experiments , participants read a short vignette depicting a rape case .
+
+ppatt:
+	In ?a , ?b read ?c
+		?a: both experiments
+		?b: participants
+		?c: a short vignette depicting a rape case
+	?a depicting ?b
+		?a: a short vignette
+		?b: a rape case
+
+
+label:    sent_14
+sentence: The two DAQ boards read exactly the same imaging data for comparison . HRCT scans were read according to an international classification system .
+
+ppatt:
+	?a read exactly ?b
+		?a: The two DAQ boards
+		?b: the same imaging data for comparison . HRCT scans
+	?a were read according to ?b
+		?a: The two DAQ boards read exactly the same imaging data for comparison . HRCT scans
+		?b: an international classification system
+
+
+label:    sent_15
+sentence: These can be entered in browser text fields , or read from a file .
+
+ppatt:
+	?a can be entered in ?b
+		?a: These
+		?b: browser text fields
+	?a read from ?b
+		?a: These
+		?b: a file
+
+
+label:    sent_16
+sentence: Subjects were asked to ignore the stimuli and read during the task . Ninety-eight percent of them had heard or read about epilepsy .
+
+ppatt:
+	?a were asked to ignore ?b during ?c
+		?a: Subjects
+		?b: the stimuli
+		?c: the task
+	?a were asked to read
+		?a: Subjects
+	?a had heard about ?b
+		?a: Ninety-eight percent of them
+		?b: epilepsy
+	?a read
+		?a: Ninety-eight percent of them
+
+
+label:    sent_17
+sentence: Examinations were read during clinical practice and classified according to the MRI BI-RADS lexicon .
+
+ppatt:
+	?a were read during ?b
+		?a: Examinations
+		?b: clinical practice
+	?a classified according to ?b
+		?a: Examinations
+		?b: the MRI BI-RADS lexicon
+
+
+label:    sent_18
+sentence: This transition is modifying the process of how we read and understand text .
+
+ppatt:
+	?a is modifying ?b
+		?a: This transition
+		?b: the process
+	how ?a read ?b
+		?a: we
+		?b: text
+	?a understand
+		?a: we
+
+
+label:    sent_19
+sentence: Spot densities were read through a densitometer and also graded visually . SBMLSupportLayout can read , update , add and render model layout information .
+
+ppatt:
+	?a were read through ?b
+		?a: Spot densities
+		?b: a densitometer
+	?a also graded visually
+		?a: Spot densities
+	?a can read ?b
+		?a: SBMLSupportLayout
+		?b: update
+	?a add
+		?a: Spot densities
+	?a render ?b
+		?a: Spot densities
+		?b: model layout information
+
+
+label:    sent_20
+sentence: The heat-exposed BI units were cultivated and read as recommended by the manufacturers .
+
+ppatt:
+	?a were cultivated
+		?a: The heat-exposed BI units
+	?a read
+		?a: The heat-exposed BI units
+	?a recommended by ?b
+		?a: The heat-exposed BI units
+		?b: the manufacturers
+
+
+label:    sent_21
+sentence: Breathe deeply and read carefully .
+
+ppatt:
+
+
+

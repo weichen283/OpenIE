@@ -1,0 +1,59 @@
+label:    sent_1
+sentence: An amino acid was adopted to pretreat the surface of dentin .
+
+ppatt:
+	?a was adopted to pretreat ?b
+		?a: An amino acid
+		?b: the surface of dentin
+
+
+label:    sent_2
+sentence: Microwave irradiation was employed to pretreat the substrates in order to increase the susceptibility .
+
+ppatt:
+	?a was employed to pretreat ?b
+		?a: Microwave irradiation
+		?b: the substrates
+	?a order to increase ?b
+		?a: Microwave irradiation
+		?b: the susceptibility
+
+
+label:    sent_3
+sentence: It may also be beneficial to pretreat the patient with steroids and other medications .
+
+ppatt:
+	?a may also be beneficial to pretreat ?b
+		?a: It
+		?b: the patient with steroids and other medications
+
+
+label:    sent_4
+sentence: The first step is to pretreat the cells with a thiol reagent .
+
+ppatt:
+	?a is to pretreat ?b with ?c
+		?a: The first step
+		?b: the cells
+		?c: a thiol reagent
+
+
+label:    sent_5
+sentence: Should we pretreat solid waste prior to anaerobic digestion ? Forty-eight percent use corticosteroids , primarily dexamethasone , to pretreat the donor .
+
+ppatt:
+	Should ?a pretreat ?b prior to ?c
+		?a: we
+		?b: solid waste
+		?c: anaerobic digestion
+	Should ?a pretreat ?b prior to ?c
+		?a: we
+		?b: solid waste
+		?c: Forty-eight percent use corticosteroids
+	?a is/are primarily dexamethasone
+		?a: Forty-eight percent use corticosteroids
+	?a pretreat ?b
+		?a: we
+		?b: the donor
+
+

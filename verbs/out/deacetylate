@@ -1,0 +1,121 @@
+label:    sent_1
+sentence: During G2/M phase , SIRT2 proteins enter nuclei and deacetylate histones .
+
+ppatt:
+	During ?a , ?b enter ?c
+		?a: G2/M phase
+		?b: SIRT2 proteins
+		?c: nuclei
+	During ?a , ?b enter ?c
+		?a: G2/M phase
+		?b: SIRT2 proteins
+		?c: deacetylate histones
+
+
+label:    sent_2
+sentence: The histone deacetylases , however , are unable to deacetylate oligonucleosomal histones in vitro .
+
+ppatt:
+	?a however , are unable to deacetylate ?b in vitro
+		?a: The histone deacetylases
+		?b: oligonucleosomal histones
+
+
+label:    sent_3
+sentence: Characterization of an acetyl esterase from Myceliophthora thermophila C1 able to deacetylate xanthan .
+
+ppatt:
+	deacetylate ?a
+		?a: xanthan
+
+
+label:    sent_4
+sentence: Furthermore , SIRT1 can deacetylate p73 protein acetylation both in vivo and in vitro .
+
+ppatt:
+	Furthermore , ?a can deacetylate ?b both in vivo and in vitro
+		?a: SIRT1
+		?b: p73 protein acetylation
+
+
+label:    sent_5
+sentence: Consistent with this , we find that the RB-associated histone deacetylase can deacetylate E2F1 .
+
+ppatt:
+	Consistent with ?a , ?b find ?c
+		?a: this
+		?b: we
+		?c: SOMETHING := the RB-associated histone deacetylase can deacetylate E2F1
+	?a can deacetylate ?b
+		?a: the RB-associated histone deacetylase
+		?b: E2F1
+
+
+label:    sent_6
+sentence: RPD3 can deacetylate all histone H4 acetylation sites in cell extracts .
+
+ppatt:
+	?a can deacetylate ?b in ?c
+		?a: RPD3
+		?b: all histone H4 acetylation sites
+		?c: cell extracts
+
+
+label:    sent_7
+sentence: The cell homogenate was also able to deacetylate peridinin and to esterify peridininol .
+
+ppatt:
+	?a was also able to deacetylate ?b
+		?a: The cell homogenate
+		?b: peridinin
+	?a was also able to to esterify ?b
+		?a: The cell homogenate
+		?b: peridininol
+
+
+label:    sent_8
+sentence: Repressor complexes deacetylate histones and stabilize nucleosomes .
+
+ppatt:
+	?a deacetylate ?b
+		?a: Repressor complexes
+		?b: histones
+	?a stabilize ?b
+		?a: Repressor complexes
+		?b: nucleosomes
+
+
+label:    sent_9
+sentence: Oxidative stress activates SIRT2 to deacetylate and stimulate phosphoglycerate mutase .
+
+ppatt:
+	?a activates ?b to deacetylate ?c
+		?a: Oxidative stress
+		?b: SIRT2
+		?c: phosphoglycerate mutase
+	?a activates to stimulate
+		?a: Oxidative stress
+
+
+label:    sent_10
+sentence: Sirt5 was shown to deacetylate and activate carbamoyl phosphate synthase 1 .
+
+ppatt:
+	?a was shown to deacetylate ?b
+		?a: Sirt5
+		?b: carbamoyl phosphate synthase 1
+	?a was shown to activate
+		?a: Sirt5
+
+
+label:    sent_11
+sentence: Sirtuins deacetylate and activate mammalian acetyl-CoA synthetases .
+
+ppatt:
+	?a deacetylate ?b
+		?a: Sirtuins
+		?b: mammalian acetyl-CoA synthetases
+	?a activate
+		?a: Sirtuins
+
+

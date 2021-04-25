@@ -1,0 +1,88 @@
+label:    sent_1
+sentence: Furthermore , HDAC4 and MEF2C individually upregulate but together downmodulate c-jun promoter activity .
+
+ppatt:
+	Furthermore , ?a individually upregulate
+		?a: HDAC4
+	Furthermore , ?a individually upregulate
+		?a: MEF2C
+	?a together downmodulate ?b
+		?a: HDAC4
+		?b: c-jun promoter activity
+	?a together downmodulate ?b
+		?a: MEF2C
+		?b: c-jun promoter activity
+
+
+label:    sent_2
+sentence: Our studies suggest that immunotherapies that regulate TIM-1 function may downmodulate allergic inflammatory diseases . HIV-1 Nef has the ability to downmodulate CD4 cell surface expression .
+
+ppatt:
+	?a suggest ?b ?c
+		?a: Our studies
+		?b: SOMETHING := immunotherapies that regulate TIM-1 function may downmodulate allergic inflammatory diseases
+		?c: SOMETHING := HIV-1 Nef has the ability to downmodulate CD4 cell surface expression
+	?a regulate ?b
+		?a: immunotherapies
+		?b: TIM-1 function
+	?a may downmodulate ?b
+		?a: immunotherapies that regulate TIM-1 function
+		?b: allergic inflammatory diseases
+	?a has ?b
+		?a: HIV-1 Nef
+		?b: the ability to downmodulate CD4 cell surface expression
+	?a downmodulate ?b
+		?a: the ability
+		?b: CD4 cell surface expression
+
+
+label:    sent_3
+sentence: Similarly , PD-1 interactions with PD-L1 and PD-L2 downmodulate T-cell immune responses .
+
+ppatt:
+	Similarly , ?a downmodulate ?b
+		?a: PD-1 interactions with PD-L1 and PD-L2
+		?b: T-cell immune responses
+
+
+label:    sent_4
+sentence: Furthermore , we show that hESCs downmodulate the TCR-associated CD3-zeta chain .
+
+ppatt:
+	Furthermore , ?a show ?b
+		?a: we
+		?b: SOMETHING := hESCs downmodulate the TCR-associated CD3-zeta chain
+	?a downmodulate ?b
+		?a: hESCs
+		?b: the TCR-associated CD3-zeta chain
+
+
+label:    sent_5
+sentence: Inhibitory receptors such as CD22 can downmodulate autoreactive BCR responses . Ligand and protein kinase C downmodulate the colony-stimulating factor 1 receptor by independent mechanisms .
+
+ppatt:
+	?a can downmodulate ?b
+		?a: Inhibitory receptors such as CD22
+		?b: autoreactive BCR responses
+	?a downmodulate ?b by ?c
+		?a: Ligand
+		?b: the colony-stimulating factor 1 receptor
+		?c: independent mechanisms
+	?a downmodulate ?b by ?c
+		?a: protein kinase C
+		?b: the colony-stimulating factor 1 receptor
+		?c: independent mechanisms
+
+
+label:    sent_6
+sentence: Human major group rhinoviruses downmodulate the accessory function of monocytes by inducing IL-10 .
+
+ppatt:
+	?a downmodulate ?b
+		?a: Human major group rhinoviruses
+		?b: the accessory function of monocytes
+	?a inducing ?b
+		?a: Human major group rhinoviruses
+		?b: IL-10
+
+

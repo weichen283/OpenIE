@@ -1,0 +1,330 @@
+label:    sent_1
+sentence: For proof-of-concept , HDL AuNPs are shown to adsorb antisense cholesterylated DNA .
+
+ppatt:
+	For ?a , ?b are shown to adsorb ?c
+		?a: proof-of-concept
+		?b: HDL AuNPs
+		?c: antisense cholesterylated DNA
+
+
+label:    sent_2
+sentence: Increasing hydration of the drying agents reduced their capacity to adsorb CO2 .
+
+ppatt:
+	?a reduced ?b
+		?a: Increasing hydration of the drying agents
+		?b: their capacity to adsorb CO2
+	?a adsorb ?b
+		?a: their capacity
+		?b: CO2
+
+
+label:    sent_3
+sentence: In vitro , the Lundh test meal was found to adsorb bile acid .
+
+ppatt:
+	In vitro , ?a was found to adsorb ?b
+		?a: the Lundh test meal
+		?b: bile acid
+
+
+label:    sent_4
+sentence: Gtfs also adsorb to surfaces of other oral microorganisms converting them to glucan producers .
+
+ppatt:
+	?a also adsorb to ?b
+		?a: Gtfs
+		?b: surfaces of other oral microorganisms converting them to glucan producers
+	?a converting ?b to ?c
+		?a: other oral microorganisms
+		?b: them
+		?c: glucan producers
+
+
+label:    sent_5
+sentence: After submonolayer deposition , the molecules adsorb tilted on the bridging oxygen row . Isolated molecules adsorb preferentially at steps .
+
+ppatt:
+	After ?a , ?b adsorb tilted on ?c
+		?a: submonolayer deposition
+		?b: the molecules
+		?c: the bridging oxygen row
+	?a adsorb preferentially at ?b
+		?a: Isolated molecules
+		?b: steps
+
+
+label:    sent_6
+sentence: This explains the ability of hydrogen to adsorb on closely spaced nanorods .
+
+ppatt:
+	?a explains ?b
+		?a: This
+		?b: the ability of hydrogen to adsorb on closely spaced nanorods
+	?a adsorb on ?b
+		?a: the ability of hydrogen
+		?b: closely spaced nanorods
+
+
+label:    sent_7
+sentence: Dendrimers have been shown to adsorb spontaneously on electrode materials as compressed macromolecular films .
+
+ppatt:
+	?a have been shown to adsorb spontaneously on ?b as ?c
+		?a: Dendrimers
+		?b: electrode materials
+		?c: compressed macromolecular films
+
+
+label:    sent_8
+sentence: Radiolabelled cell extracts were then added and allowed to adsorb to the antigen .
+
+ppatt:
+	?a were then added
+		?a: Radiolabelled cell extracts
+	?a allowed to adsorb to ?b
+		?a: Radiolabelled cell extracts
+		?b: the antigen
+
+
+label:    sent_9
+sentence: Several macroporous adsorbent resins were chosen to adsorb vanillin in situ during the bioconversion .
+
+ppatt:
+	?a were chosen to adsorb ?b in situ during ?c
+		?a: Several macroporous adsorbent resins
+		?b: vanillin
+		?c: the bioconversion
+
+
+label:    sent_10
+sentence: Synthetic resin was not found efficient to adsorb 2,4 DCP compared to activated carbon .
+
+ppatt:
+	?a was not found efficient to adsorb ?b
+		?a: Synthetic resin
+		?b: 2,4 DCP
+	?a compared to activated carbon
+		?a: Synthetic resin
+
+
+label:    sent_11
+sentence: Its ability to adsorb Pb ( II ) ions from aqueous solutions was examined .
+
+ppatt:
+	?a adsorb ?b from ?c
+		?a: Its ability
+		?b: Pb ( ions
+		?c: aqueous solutions
+	?a is/are II
+		?a: Pb
+	?a was examined
+		?a: Its ability to adsorb Pb ( ions from aqueous solutions
+
+
+label:    sent_12
+sentence: However , CNTs do not adsorb supercoiled form of plasmid DNA .
+
+ppatt:
+	However , ?a do not adsorb ?b
+		?a: CNTs
+		?b: supercoiled form of plasmid DNA
+
+
+label:    sent_13
+sentence: The novel product PVDF-Ser could adsorb endotoxin with high safety and efficacy .
+
+ppatt:
+	?a could adsorb ?b with ?c
+		?a: The novel product PVDF-Ser
+		?b: endotoxin
+		?c: high safety
+	?a could adsorb ?b with ?c
+		?a: The novel product PVDF-Ser
+		?b: endotoxin
+		?c: efficacy
+
+
+label:    sent_14
+sentence: It is filled with extra-fine fibers that can adsorb TGF-beta .
+
+ppatt:
+	?a is filled with ?b
+		?a: It
+		?b: extra-fine fibers that can adsorb TGF-beta
+	?a can adsorb ?b
+		?a: extra-fine fibers
+		?b: TGF-beta
+
+
+label:    sent_15
+sentence: This AD-aptamer complex can not adsorb onto CNTs , and has high fluorescence intensity .
+
+ppatt:
+	?a can not adsorb onto ?b
+		?a: This AD-aptamer complex
+		?b: CNTs
+	?a has ?b
+		?a: This AD-aptamer complex
+		?b: high fluorescence intensity
+
+
+label:    sent_16
+sentence: Viruses adsorb on these nanosheets and degrade when exposed to UV light .
+
+ppatt:
+	?a adsorb on ?b
+		?a: Viruses
+		?b: these nanosheets
+	?a degrade
+		?a: Viruses
+	?a when exposed to ?b
+		?a: Viruses
+		?b: UV light
+
+
+label:    sent_17
+sentence: Semi-volatile , they adsorb to atmospheric particles and get distributed in all ecosystems .
+
+ppatt:
+	?a ?b adsorb to ?c
+		?a: Semi-volatile
+		?b: they
+		?c: atmospheric particles
+	?a get distributed in ?b
+		?a: Semi-volatile
+		?b: all ecosystems
+
+
+label:    sent_18
+sentence: Minerals adsorb more amino acids with charged R-groups than amino acids with uncharged R-groups .
+
+ppatt:
+	?a adsorb ?b with ?c than ?d
+		?a: Minerals
+		?b: more amino acids
+		?c: charged R-groups
+		?d: amino acids with uncharged R-groups
+
+
+label:    sent_19
+sentence: At such concentrations the minerals adsorb ca . Our results show that polystyrene plates adsorb BSA-Ar36 according to the Langmuir isotherm .
+
+ppatt:
+	At ?a ?b adsorb ca
+		?a: such concentrations
+		?b: the minerals
+	?a show ?b
+		?a: Our results
+		?b: SOMETHING := polystyrene plates adsorb BSA-Ar36 according to the Langmuir isotherm
+	?a adsorb ?b according to ?c
+		?a: polystyrene plates
+		?b: BSA-Ar36
+		?c: the Langmuir isotherm
+
+
+label:    sent_20
+sentence: The treated virus was still able to adsorb to and penetrate into HeLa cells .
+
+ppatt:
+	?a was still able to adsorb ?b into ?c
+		?a: The treated virus
+		?b: to
+		?c: HeLa cells
+	?a was still able to penetrate
+		?a: The treated virus
+
+
+label:    sent_21
+sentence: Dye molecules aggregate together near the surface of AgBr and adsorb on the surface .
+
+ppatt:
+	?a aggregate together near ?b
+		?a: Dye molecules
+		?b: the surface of AgBr
+	?a adsorb on ?b
+		?a: Dye molecules
+		?b: the surface
+
+
+label:    sent_22
+sentence: Particles first diffuse and adsorb at the Hg0 surface .
+
+ppatt:
+	?a first diffuse at ?b
+		?a: Particles
+		?b: the Hg0 surface
+	?a adsorb
+		?a: Particles
+
+
+label:    sent_23
+sentence: It was found that MWNT could adsorb midecamycin and promote its direct electron-transfer .
+
+ppatt:
+	?a was found ?b
+		?a: It
+		?b: SOMETHING := MWNT could adsorb midecamycin
+	?a could adsorb ?b
+		?a: MWNT
+		?b: midecamycin
+	?a promote ?b
+		?a: MWNT
+		?b: its direct electron-transfer
+
+
+label:    sent_24
+sentence: Ferrocene molecules adsorb dissociatively and form a two layer structure .
+
+ppatt:
+	?a adsorb dissociatively
+		?a: Ferrocene molecules
+	?a form ?b
+		?a: Ferrocene molecules
+		?b: a two layer structure
+
+
+label:    sent_25
+sentence: Polycarbonate does not adsorb virus and is well suited to particle sizing .
+
+ppatt:
+	?a does not adsorb ?b
+		?a: Polycarbonate
+		?b: virus
+	?a is well suited to ?b
+		?a: Polycarbonate
+		?b: particle sizing
+
+
+label:    sent_26
+sentence: The prepared nanocomposites were used to adsorb and photocatalytically degrade organic pollutants from water .
+
+ppatt:
+	?a were used to adsorb
+		?a: The prepared nanocomposites
+	?a were used to degrade ?b
+		?a: The prepared nanocomposites
+		?b: organic pollutants from water
+
+
+label:    sent_27
+sentence: The ability of soils to adsorb and degrade pesticides strongly influences their environmental fate . A second method used charcoal to adsorb and concentrate analyte from 10-L air samples .
+
+ppatt:
+	?a adsorb ?b
+		?a: The ability of soils
+		?b: pesticides
+	?a degrade
+		?a: The ability of soils
+	?a strongly influences ?b ?c
+		?a: The ability of soils to adsorb and degrade pesticides
+		?b: their environmental fate
+		?c: A second method used charcoal to adsorb and concentrate analyte from 10-L air samples
+	?a used charcoal to adsorb ?b
+		?a: A second method
+		?b: analyte from 10-L air samples
+	used charcoal to concentrate ?a
+		?a: analyte from 10-L air samples
+
+

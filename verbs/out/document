@@ -1,0 +1,309 @@
+label:    sent_1
+sentence: However , it is important to document their validity , before using them .
+
+ppatt:
+	However , ?a is important to document ?b
+		?a: it
+		?b: their validity
+	?a using ?b
+		?a: it
+		?b: them
+
+
+label:    sent_2
+sentence: Additional evaluations were done every 3 months to document disease status .
+
+ppatt:
+	?a were done every ?b to document ?c
+		?a: Additional evaluations
+		?b: 3 months
+		?c: disease status
+
+
+label:    sent_3
+sentence: The authors conducted a study to document long-term follow-up of the All-on-4 concept .
+
+ppatt:
+	?a conducted ?b
+		?a: The authors
+		?b: a study to document long-term follow-up of the All-on-4 concept
+	?a document ?b
+		?a: a study
+		?b: long-term follow-up of the All-on-4 concept
+
+
+label:    sent_4
+sentence: Using various controls we document the reliability of the method .
+
+ppatt:
+	Using ?a ?b
+		?a: various controls
+		?b: we
+	?a document ?b
+		?a: we
+		?b: the reliability of the method
+
+
+label:    sent_5
+sentence: The results document a decrease in Fe signal with increased Na / K ratio . MD to document meeting regarding home care .
+
+ppatt:
+	?a document ?b
+		?a: The results
+		?b: a decrease in Fe signal with increased Na / K ratio . MD
+	?a document ?b
+		?a: The results
+		?b: meeting regarding home care
+
+
+label:    sent_6
+sentence: Alternative immunological markers to document successful multiple smallpox revaccinations .
+
+ppatt:
+	?a document ?b
+		?a: Alternative immunological markers
+		?b: successful multiple smallpox revaccinations
+
+
+label:    sent_7
+sentence: This curriculum document represents the consensus of recommendations by this committee .
+
+ppatt:
+	?a represents ?b
+		?a: This curriculum document
+		?b: the consensus of recommendations by this committee
+
+
+label:    sent_8
+sentence: We newly document that the transmission of MRSA between human and hamster is possible .
+
+ppatt:
+	?a newly document ?b
+		?a: We
+		?b: SOMETHING := the transmission of MRSA between human and hamster is possible
+	?a is possible
+		?a: the transmission of MRSA between human and hamster
+
+
+label:    sent_9
+sentence: Additional studies in this area will be required to document efficacy and evaluate toxicity .
+
+ppatt:
+	?a will be required to document ?b
+		?a: Additional studies in this area
+		?b: efficacy
+	?a will be required to evaluate ?b
+		?a: Additional studies in this area
+		?b: toxicity
+
+
+label:    sent_10
+sentence: The empirical data comes from structured interviews , participant observation and document review . Data shall be collected using interviews , focus groups and document reviews .
+
+ppatt:
+	?a comes from ?b
+		?a: The empirical data
+		?b: structured interviews
+	?a comes from ?b
+		?a: The empirical data
+		?b: participant observation
+	?a document ?b
+		?a: The empirical data
+		?b: review
+	?a shall be collected using ?b
+		?a: Data
+		?b: interviews
+	?a shall be collected using ?b
+		?a: Data
+		?b: focus groups
+	?a document ?b
+		?a: Data
+		?b: reviews
+
+
+label:    sent_11
+sentence: To document physical activity ( PA ) during organized youth soccer and baseball/softball practices .
+
+ppatt:
+	document ?a
+		?a: physical activity during organized youth soccer and baseball/softball practices
+	?a is/are PA
+		?a: physical activity during organized youth soccer and baseball/softball practices
+
+
+label:    sent_12
+sentence: Key informants were interviewed to document the initiatives under NRHM implemented in the district .
+
+ppatt:
+	?a were interviewed to document ?b
+		?a: Key informants
+		?b: the initiatives under NRHM implemented in the district
+	?a implemented in ?b
+		?a: NRHM
+		?b: the district
+
+
+label:    sent_13
+sentence: To document complications after RARP by strict application of standardized reporting criteria .
+
+ppatt:
+	document ?a by ?b
+		?a: complications after RARP
+		?b: strict application of standardized reporting criteria
+
+
+label:    sent_14
+sentence: Studies of phenotypic selection document directional selection in many natural populations .
+
+ppatt:
+	?a document ?b
+		?a: Studies of phenotypic selection
+		?b: directional selection in many natural populations
+
+
+label:    sent_15
+sentence: In this report , the authors document their experience with a 2-year curriculum .
+
+ppatt:
+	In ?a , ?b document ?c
+		?a: this report
+		?b: the authors
+		?c: their experience with a 2-year curriculum
+
+
+label:    sent_16
+sentence: We document cervical histology in K14-HPV16 mice receiving different doses of diindolylmethane .
+
+ppatt:
+	?a document ?b
+		?a: We
+		?b: cervical histology in K14-HPV16 mice receiving different doses of diindolylmethane
+	?a receiving ?b
+		?a: K14-HPV16 mice
+		?b: different doses of diindolylmethane
+
+
+label:    sent_17
+sentence: A multidisciplinary consensus document for the control of A. baumannii is needed in Spain .
+
+ppatt:
+	?a is needed in ?b
+		?a: A multidisciplinary consensus document for the control of A. baumannii
+		?b: Spain
+
+
+label:    sent_18
+sentence: In a supplementary file a working document for assembling the assay validation is proposed .
+
+ppatt:
+	?a assembling ?b
+		?a: a working document
+		?b: the assay validation
+	In ?a ?b is proposed
+		?a: a supplementary file
+		?b: a working document for assembling the assay validation
+
+
+label:    sent_19
+sentence: Informed consent is a mandatory document in human subject research protocols .
+
+ppatt:
+	?a is a mandatory document in ?b
+		?a: Informed consent
+		?b: human subject research protocols
+
+
+label:    sent_20
+sentence: We now document podocyte detachment microscopically and quantify it morphometrically in humans with T2DM .
+
+ppatt:
+	?a now document ?b microscopically
+		?a: We
+		?b: podocyte detachment
+	?a quantify ?b morphometrically in ?c
+		?a: We
+		?b: it
+		?c: humans with T2DM
+
+
+label:    sent_21
+sentence: The following case reports document the occurrence and provide some insight to its management . Objective .
+
+ppatt:
+	?a document ?b
+		?a: The following case reports
+		?b: the occurrence
+	?a provide ?b
+		?a: The following case reports
+		?b: some insight to its management . Objective
+
+
+label:    sent_22
+sentence: To document the incidence of postinfusion phlebitis and to investigate associated risk factors .
+
+ppatt:
+	document ?a
+		?a: the incidence of postinfusion phlebitis
+	investigate ?a
+		?a: associated risk factors
+
+
+label:    sent_23
+sentence: Clarifications to the consensus document on the diagnosis , treatment and prevention of tuberculosis .
+
+ppatt:
+
+
+
+label:    sent_24
+sentence: Consensus document on European brain research .
+
+ppatt:
+
+
+
+label:    sent_25
+sentence: This is a complete and comprehensive document at the current time .
+
+ppatt:
+	?a is a complete and comprehensive document at ?b
+		?a: This
+		?b: the current time
+
+
+label:    sent_26
+sentence: A system was implemented to document and control unreported distribution changes .
+
+ppatt:
+	?a was implemented to document ?b
+		?a: A system
+		?b: unreported distribution changes
+	?a was implemented to control
+		?a: A system
+
+
+label:    sent_27
+sentence: To document and analyze the initial steps in building a health research partnership .
+
+ppatt:
+	document ?a
+		?a: the initial steps
+	analyze ?a
+		?a: the initial steps
+	building ?a
+		?a: a health research partnership
+
+
+label:    sent_28
+sentence: To document and analyse resuscitation skills assessment must provide reliable data .
+
+ppatt:
+	document ?a
+		?a: resuscitation skills assessment
+	analyse ?a
+		?a: resuscitation skills assessment
+	?a must provide ?b
+		?a: resuscitation skills assessment
+		?b: reliable data
+
+

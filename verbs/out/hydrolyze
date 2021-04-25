@@ -1,0 +1,303 @@
+label:    sent_1
+sentence: IgG from some patients were found to hydrolyze FIX .
+
+ppatt:
+	?a were found to hydrolyze ?b
+		?a: IgG from some patients
+		?b: FIX
+
+
+label:    sent_2
+sentence: Pyloric-duodenal lipase was able to hydrolyze emulsified alimentary oils . A longer time was needed to hydrolyze glucuronic acid than neutral saccharides .
+
+ppatt:
+	?a was able to hydrolyze ?b
+		?a: Pyloric-duodenal lipase
+		?b: emulsified alimentary oils
+	?a was needed to hydrolyze ?b than ?c
+		?a: A longer time
+		?b: glucuronic acid
+		?c: neutral saccharides
+
+
+label:    sent_3
+sentence: Lysozymes are antibacterial effectors of the innate immune system in animals that hydrolyze peptidoglycan . IgG from some patients with acquired hemophilia hydrolyze FVIII .
+
+ppatt:
+	?a are antibacterial effectors of ?b
+		?a: Lysozymes
+		?b: the innate immune system in animals that hydrolyze peptidoglycan
+	?a hydrolyze ?b
+		?a: animals
+		?b: peptidoglycan
+	?a hydrolyze ?b
+		?a: IgG from some patients with acquired hemophilia
+		?b: FVIII
+
+
+label:    sent_4
+sentence: Xylanases ( EC 3.2.1.8 ) are enzymes that can hydrolyze the xylan backbone internally . A 5'-methylthioadenosine-adenosylhomocysteine nucleosidase is used to hydrolyze AdoHcy to adenine .
+
+ppatt:
+	?a is/are EC 3.2.1.8
+		?a: Xylanases
+	?a are enzymes
+		?a: Xylanases
+	?a can hydrolyze ?b internally
+		?a: enzymes
+		?b: the xylan backbone
+	?a is used to hydrolyze ?b to ?c
+		?a: A 5'-methylthioadenosine-adenosylhomocysteine nucleosidase
+		?b: AdoHcy
+		?c: adenine
+
+
+label:    sent_5
+sentence: The products demonstrated varying ability to hydrolyze lactose under simulated digestive tract conditions .
+
+ppatt:
+	?a demonstrated ?b
+		?a: The products
+		?b: varying ability to hydrolyze lactose under simulated digestive tract conditions
+	?a hydrolyze ?b under ?c
+		?a: varying ability
+		?b: lactose
+		?c: simulated digestive tract conditions
+
+
+label:    sent_6
+sentence: The high-affinity sites are able to hydrolyze ATP at a very slow rate .
+
+ppatt:
+	?a are able to hydrolyze ?b at ?c
+		?a: The high-affinity sites
+		?b: ATP
+		?c: a very slow rate
+
+
+label:    sent_7
+sentence: The pure enzyme can efficiently hydrolyze haemolymph trehalose into glucose in vitro .
+
+ppatt:
+	?a can efficiently hydrolyze ?b into ?c in vitro
+		?a: The pure enzyme
+		?b: haemolymph trehalose
+		?c: glucose
+
+
+label:    sent_8
+sentence: Unlike the soluble intracellular beta-xylosidase , the wall-bound enzyme does not hydrolyze xylooligosaccharides .
+
+ppatt:
+	Unlike ?a , ?b does not hydrolyze ?c
+		?a: the soluble intracellular beta-xylosidase
+		?b: the wall-bound enzyme
+		?c: xylooligosaccharides
+
+
+label:    sent_9
+sentence: In red cell lysates , three soluble proteases hydrolyze insulin at pH 8.5 .
+
+ppatt:
+	In ?a , ?b hydrolyze ?c at ?d
+		?a: red cell lysates
+		?b: three soluble proteases
+		?c: insulin
+		?d: pH 8.5
+
+
+label:    sent_10
+sentence: Cholinesterases are enzymes able to hydrolyze the neurotransmitter acetylcholine and thus to terminate transmission .
+
+ppatt:
+	?a are enzymes able
+		?a: Cholinesterases
+	hydrolyze ?a
+		?a: the neurotransmitter acetylcholine
+	thus to terminate ?a
+		?a: transmission
+
+
+label:    sent_11
+sentence: The GPExo intensively adsorbed onto Avicel but did not hydrolyze it . The enzyme is specific for phosphatidylinositol and phosphatidylinositol 4,5-bisphosphate but does not hydrolyze phosphatidylcholine .
+
+ppatt:
+	?a intensively adsorbed onto ?b
+		?a: The GPExo
+		?b: Avicel
+	?a did not hydrolyze ?b
+		?a: The GPExo
+		?b: it
+	?a is specific for ?b
+		?a: The enzyme
+		?b: phosphatidylinositol
+	?a is specific for ?b
+		?a: The enzyme
+		?b: phosphatidylinositol 4,5-bisphosphate
+	?a does not hydrolyze ?b
+		?a: The enzyme
+		?b: phosphatidylcholine
+
+
+label:    sent_12
+sentence: This enzyme also asymmetrically hydrolyzes Ap4A , but it does not hydrolyze NAD + . Both endopeptidases hydrolyze insulin B chain and are totally inhibited by EDTA and o-phenanthroline .
+
+ppatt:
+	?a also asymmetrically hydrolyzes ?b
+		?a: This enzyme
+		?b: Ap4A
+	?a does not hydrolyze ?b
+		?a: it
+		?b: NAD
+	?a hydrolyze ?b
+		?a: Both endopeptidases
+		?b: insulin B chain
+	?a are totally inhibited by ?b
+		?a: Both endopeptidases
+		?b: EDTA
+	?a are totally inhibited by ?b
+		?a: Both endopeptidases
+		?b: o-phenanthroline
+
+
+label:    sent_13
+sentence: Intracellular phosphodiesterases ( PDEs ) hydrolyze cAMP and limit stimulation of lipolysis .
+
+ppatt:
+	?a is/are PDEs
+		?a: Intracellular phosphodiesterases
+	?a hydrolyze ?b
+		?a: Intracellular phosphodiesterases
+		?b: cAMP
+	?a limit ?b
+		?a: Intracellular phosphodiesterases
+		?b: stimulation of lipolysis
+
+
+label:    sent_14
+sentence: It is clear that oximes easily hydrolyze ASCh . The enzyme did not hydrolyze N-carbamoyl-beta-alanine .
+
+ppatt:
+	?a is clear ?b ?c
+		?a: It
+		?b: SOMETHING := oximes easily hydrolyze ASCh
+		?c: SOMETHING := The enzyme did not hydrolyze N-carbamoyl-beta-alanine
+	?a easily hydrolyze ?b
+		?a: oximes
+		?b: ASCh
+	?a did not hydrolyze ?b
+		?a: The enzyme
+		?b: N-carbamoyl-beta-alanine
+
+
+label:    sent_15
+sentence: These nitriles could hydrolyze to produce the corresponding chloroacetic acids .
+
+ppatt:
+	?a could hydrolyze to produce ?b
+		?a: These nitriles
+		?b: the corresponding chloroacetic acids
+
+
+label:    sent_16
+sentence: This extract does not hydrolyze further the resulting octapeptide .
+
+ppatt:
+	?a does not hydrolyze further ?b
+		?a: This extract
+		?b: the resulting octapeptide
+
+
+label:    sent_17
+sentence: They hydrolyze rapidly in aqueous solution to give predominantly mono-aqua mono-chlorido species .
+
+ppatt:
+	?a hydrolyze rapidly in ?b to give ?c
+		?a: They
+		?b: aqueous solution
+		?c: predominantly mono-aqua mono-chlorido species
+
+
+label:    sent_18
+sentence: Both LSS and DS enzymes hydrolyze at the highest rate propionylthiocholine .
+
+ppatt:
+	?a hydrolyze at ?b
+		?a: LSS
+		?b: the highest rate propionylthiocholine
+	?a hydrolyze at ?b
+		?a: DS
+		?b: the highest rate propionylthiocholine
+	?a hydrolyze at ?b
+		?a: enzymes
+		?b: the highest rate propionylthiocholine
+
+
+label:    sent_19
+sentence: An acid-catalyzed procedure has been used to hydrolyze MHPG-sulfate in homogenates of rat brain .
+
+ppatt:
+	?a has been used to hydrolyze ?b in ?c
+		?a: An acid-catalyzed procedure
+		?b: MHPG-sulfate
+		?c: homogenates of rat brain
+
+
+label:    sent_20
+sentence: The enzyme bound to its ligand shows to be inactive to hydrolyze of arginine .
+
+ppatt:
+	?a bound to ?b
+		?a: The enzyme
+		?b: its ligand
+	?a shows to be inactive to hydrolyze of ?b
+		?a: The enzyme bound to its ligand
+		?b: arginine
+
+
+label:    sent_21
+sentence: In general , hHint3s hydrolyze phosphoramidate 370- to 2000-fold less efficiently than hHint1 .
+
+ppatt:
+	In ?a , ?b hydrolyze ?c 2000-fold less efficiently than ?d
+		?a: general
+		?b: hHint3s
+		?c: phosphoramidate 370-
+		?d: hHint1
+
+
+label:    sent_22
+sentence: Octacalcium phosphate is less stable than hydroxyapatite and can hydrolyze to OHAp . Metallo-beta-lactamases are zinc containing enzymes that are able to hydrolyze and inactivate beta-lactam antibiotics .
+
+ppatt:
+	?a is less stable than ?b
+		?a: Octacalcium phosphate
+		?b: hydroxyapatite
+	?a can hydrolyze to ?b
+		?a: Octacalcium phosphate
+		?b: OHAp
+	?a are zinc containing enzymes
+		?a: Metallo-beta-lactamases
+	?a are able to hydrolyze ?b
+		?a: zinc containing enzymes
+		?b: beta-lactam antibiotics
+	?a are able to inactivate
+		?a: that
+
+
+label:    sent_23
+sentence: In contrast , they hydrolyzed poorly DIMBOA-glucoside and did not hydrolyze pNP- and oNP-glucosides .
+
+ppatt:
+	In ?a , ?b hydrolyzed ?c
+		?a: contrast
+		?b: they
+		?c: poorly DIMBOA-glucoside
+	?a did not hydrolyze ?b
+		?a: they
+		?b: pNP-
+	?a did not hydrolyze ?b
+		?a: they
+		?b: oNP-glucosides
+
+

@@ -1,0 +1,288 @@
+label:    sent_1
+sentence: Transporters also cooperate with Phase I/Phase II metabolism enzymes by eliminating drug metabolites .
+
+ppatt:
+	?a also cooperate with ?b
+		?a: Transporters
+		?b: Phase I/Phase II metabolism enzymes
+	?a eliminating ?b
+		?a: Transporters
+		?b: drug metabolites
+
+
+label:    sent_2
+sentence: Macrophages and neutrophils cooperate in immune responses to Leishmania infection .
+
+ppatt:
+	?a cooperate in ?b
+		?a: Macrophages
+		?b: immune responses to Leishmania infection
+	?a cooperate in ?b
+		?a: neutrophils
+		?b: immune responses to Leishmania infection
+
+
+label:    sent_3
+sentence: Neutrophils and macrophages are phagocytic cells that cooperate during inflammation and tissue repair .
+
+ppatt:
+	?a are phagocytic cells
+		?a: Neutrophils
+	?a are phagocytic cells
+		?a: macrophages
+	?a cooperate during ?b
+		?a: phagocytic cells
+		?b: inflammation
+	?a cooperate during ?b
+		?a: phagocytic cells
+		?b: tissue repair
+
+
+label:    sent_4
+sentence: Sonic hedgehog and notch signaling can cooperate to regulate neurogenic divisions of neocortical progenitors .
+
+ppatt:
+	?a can cooperate to regulate ?b
+		?a: Sonic hedgehog
+		?b: neurogenic divisions of neocortical progenitors
+	?a can cooperate to regulate ?b
+		?a: notch
+		?b: neurogenic divisions of neocortical progenitors
+	?a can cooperate to regulate ?b
+		?a: signaling
+		?b: neurogenic divisions of neocortical progenitors
+
+
+label:    sent_5
+sentence: These factors and events likely cooperate to dictate the mobility of particular proteins .
+
+ppatt:
+	?a likely cooperate to dictate ?b
+		?a: These factors
+		?b: the mobility of particular proteins
+	?a likely cooperate to dictate ?b
+		?a: events
+		?b: the mobility of particular proteins
+
+
+label:    sent_6
+sentence: Thus , the transmembrane and cytoplasmic domains cooperate to promote dimerization of PSGL-1 .
+
+ppatt:
+	Thus , ?a cooperate to promote ?b
+		?a: the transmembrane and cytoplasmic domains
+		?b: dimerization of PSGL-1
+
+
+label:    sent_7
+sentence: Tissue samples and follow up data are used to cooperate with molecular genetical laboratories .
+
+ppatt:
+	follow up ?a
+		?a: data
+	?a are used to cooperate with ?b
+		?a: Tissue samples
+		?b: molecular genetical laboratories
+	?a are used to cooperate with ?b
+		?a: follow up data
+		?b: molecular genetical laboratories
+
+
+label:    sent_8
+sentence: Anxious adolescents were also more likely than controls to cooperate after co-player betrayal .
+
+ppatt:
+	?a were also more likely than ?b to cooperate after ?c
+		?a: Anxious adolescents
+		?b: controls
+		?c: co-player betrayal
+
+
+label:    sent_9
+sentence: Most critically ill patients can not cooperate for the performance of the test as described .
+
+ppatt:
+	?a can not cooperate for ?b
+		?a: Most critically ill patients
+		?b: the performance of the test
+	?a described
+		?a: Most critically ill patients
+
+
+label:    sent_10
+sentence: One child could not cooperate at all and was excluded from the evaluations .
+
+ppatt:
+	?a could not cooperate at ?b
+		?a: One child
+		?b: all
+	?a was excluded from ?b
+		?a: One child
+		?b: the evaluations
+
+
+label:    sent_11
+sentence: In several promoters these two complexes cooperate but their functional linkage is unknown .
+
+ppatt:
+	In ?a ?b cooperate
+		?a: several promoters
+		?b: these two complexes
+	?a is unknown
+		?a: their functional linkage
+
+
+label:    sent_12
+sentence: Recombinant IL-21 and anti-CD4 antibodies cooperate in syngeneic neuroblastoma immunotherapy and mediate long-lasting immunity . One cases did n't cooperate , and excluded . Micro-scale and meso-scale architectural cues cooperate and compete to direct aligned tissue formation .
+
+ppatt:
+	?a cooperate in ?b
+		?a: Recombinant IL-21
+		?b: syngeneic neuroblastoma immunotherapy
+	?a cooperate in ?b
+		?a: anti-CD4
+		?b: syngeneic neuroblastoma immunotherapy
+	?a mediate ?b
+		?a: Recombinant IL-21
+		?b: long-lasting immunity
+	?a mediate ?b
+		?a: anti-CD4
+		?b: long-lasting immunity
+	?a did n't cooperate
+		?a: One cases
+	?a excluded
+		?a: One cases
+	?a ?b cooperate
+		?a: Micro-scale
+		?b: architectural cues
+	?a ?b cooperate
+		?a: meso-scale
+		?b: architectural cues
+	?a compete to direct ?b
+		?a: Micro-scale
+		?b: aligned tissue formation
+	?a compete to direct ?b
+		?a: meso-scale
+		?b: aligned tissue formation
+
+
+label:    sent_13
+sentence: Infant pointing : communication to cooperate or communication to learn ? The patients were all fully conscious and could cooperate in a detailed investigation .
+
+ppatt:
+
+
+
+label:    sent_14
+sentence: Humans make decisions about when and with whom to cooperate based on their reputations .
+
+ppatt:
+	?a make ?b
+		?a: Humans
+		?b: decisions about when and with whom to cooperate based on their reputations
+	?a about when with ?b to cooperate based on ?c
+		?a: decisions
+		?b: whom
+		?c: their reputations
+
+
+label:    sent_15
+sentence: She was alert but did not cooperate well due to severe dementia and dysarthria .
+
+ppatt:
+	?a was alert
+		?a: She
+	?a did not cooperate well due to ?b
+		?a: She
+		?b: severe dementia
+	?a did not cooperate well due to ?b
+		?a: She
+		?b: dysarthria
+
+
+label:    sent_16
+sentence: How the tube is placed depends on whether the patient can or will cooperate .
+
+ppatt:
+	How ?a is placed
+		?a: the tube
+	depends ?a
+		?a: on
+	?a can will cooperate
+		?a: the patient
+
+
+label:    sent_17
+sentence: [ Alcohol public policies in Brazil : to fight or to cooperate ? ] . Fight , copy or cooperate ? Little is known of the mechanism by which these enzymes cooperate to induce silencing .
+
+ppatt:
+	?a fight
+		?a: Alcohol public policies in Brazil
+	[ ?a to cooperate ?b
+		?a: Alcohol public policies in Brazil
+		?b: ]
+	[ ?a Fight ?b
+		?a: Alcohol public policies in Brazil
+		?b: copy
+	[ ?a cooperate
+		?a: Alcohol public policies in Brazil
+	[ ?a ?b is known of ?c
+		?a: Alcohol public policies in Brazil : to fight or to cooperate ? ] . Fight , copy or cooperate
+		?b: Little
+		?c: the mechanism by which these enzymes cooperate to induce silencing
+	?a by ?b cooperate to induce ?c
+		?a: the mechanism
+		?b: these enzymes
+		?c: silencing
+
+
+label:    sent_18
+sentence: Mechanisms by which they cooperate are poorly understood .
+
+ppatt:
+	?a by ?b cooperate
+		?a: Mechanisms
+		?b: they
+	?a are poorly understood
+		?a: Mechanisms by which they cooperate
+
+
+label:    sent_19
+sentence: But there is a simpler strategy in which any number of laboratories can cooperate .
+
+ppatt:
+	there is ?a
+		?a: a simpler strategy in which any number of laboratories can cooperate
+	?a in ?b can cooperate
+		?a: a simpler strategy
+		?b: any number of laboratories
+
+
+label:    sent_20
+sentence: However , the way in which MDSC cooperate with Treg remains elusive . [ Community-based comprehensive cooperate care for elderly ] . In control experiments , people could only cooperate or defect .
+
+ppatt:
+	?a in ?b cooperate with ?c
+		?a: the way
+		?b: MDSC
+		?c: Treg
+	However , ?a remains elusive
+		?a: the way in which MDSC cooperate with Treg
+	?a cooperate ?b In ?c
+		?a: Community-based comprehensive
+		?b: care for elderly ]
+		?c: control experiments
+	?a could only cooperate
+		?a: people
+
+
+label:    sent_21
+sentence: According to the macrophage-network theory , local macrophages cooperate with other tissue macrophages .
+
+ppatt:
+	According to ?a , ?b cooperate with ?c
+		?a: the macrophage-network theory
+		?b: local macrophages
+		?c: other tissue macrophages
+
+

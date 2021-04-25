@@ -1,0 +1,319 @@
+label:    sent_1
+sentence: Paravalvular leaks still occur following prosthetic valvular replacement .
+
+ppatt:
+	?a still occur following ?b
+		?a: Paravalvular leaks
+		?b: prosthetic valvular replacement
+
+
+label:    sent_2
+sentence: Spinal deformities ( SD ) may occur in these cases .
+
+ppatt:
+	?a is/are SD
+		?a: Spinal deformities
+	?a may occur in ?b
+		?a: Spinal deformities
+		?b: these cases
+
+
+label:    sent_3
+sentence: An inflammatory mechanism may occur separately from MYH9-related disease .
+
+ppatt:
+	?a may occur separately from ?b
+		?a: An inflammatory mechanism
+		?b: MYH9-related disease
+
+
+label:    sent_4
+sentence: Food-induced anaphylaxis tended to occur in younger children .
+
+ppatt:
+	?a tended to occur in ?b
+		?a: Food-induced anaphylaxis
+		?b: younger children
+
+
+label:    sent_5
+sentence: Preventable medication errors that involve antimicrobials occur throughout the perioperative continuum .
+
+ppatt:
+	?a involve ?b
+		?a: Preventable medication errors
+		?b: antimicrobials
+	?a occur throughout ?b
+		?a: Preventable medication errors that involve antimicrobials
+		?b: the perioperative continuum
+
+
+label:    sent_6
+sentence: Some differences were found to occur mainly at higher attained ages above 70 years .
+
+ppatt:
+	?a were found to occur mainly at ?b above ?c
+		?a: Some differences
+		?b: higher attained ages
+		?c: 70 years
+
+
+label:    sent_7
+sentence: Human studies : To date , few studies have investigated if such differences occur .
+
+ppatt:
+	?a To ?b , ?c have investigated
+		?a: Human studies
+		?b: date
+		?c: few studies
+	?a occur
+		?a: such differences
+
+
+label:    sent_8
+sentence: Pseudoaneurysms occur secondary to partial disruption of the arterial wall .
+
+ppatt:
+	?a occur secondary to ?b
+		?a: Pseudoaneurysms
+		?b: partial disruption of the arterial wall
+
+
+label:    sent_9
+sentence: When they do occur , they usually manifest as a rash or urticaria . IDH2 mutations are rare , but they also occur in gliomas .
+
+ppatt:
+	When ?a do occur
+		?a: they
+	?a usually manifest as ?b
+		?a: they
+		?b: a rash
+	?a usually manifest as ?b
+		?a: they
+		?b: urticaria
+	?a are rare
+		?a: IDH2 mutations
+	?a also occur in ?b
+		?a: they
+		?b: gliomas
+
+
+label:    sent_10
+sentence: Long-term prognosis is good , but respiratory failure can occur in some cases .
+
+ppatt:
+	?a is good
+		?a: Long-term prognosis
+	?a can occur in ?b
+		?a: respiratory failure
+		?b: some cases
+
+
+label:    sent_11
+sentence: They occur during seizures and interictally and seem important in seizure genesis .
+
+ppatt:
+	?a occur during ?b interictally
+		?a: They
+		?b: seizures
+	?a seem important in ?b
+		?a: They
+		?b: seizure genesis
+
+
+label:    sent_12
+sentence: Vocal cord dysfunction can occur independently or can co-exist with asthma .
+
+ppatt:
+	?a can occur independently
+		?a: Vocal cord dysfunction
+	?a can co-exist with ?b
+		?a: Vocal cord dysfunction
+		?b: asthma
+
+
+label:    sent_13
+sentence: Residual masses in advanced clinical stages occur frequently but are nonvital tissue .
+
+ppatt:
+	?a occur frequently
+		?a: Residual masses in advanced clinical stages
+
+
+label:    sent_14
+sentence: MRI-induced artifacts occur rarely but have to be taken into account .
+
+ppatt:
+	?a occur rarely
+		?a: MRI-induced artifacts
+	?a have to be taken into ?b
+		?a: MRI-induced artifacts
+		?b: account
+
+
+label:    sent_15
+sentence: Histiocytosis is rare but does occur in prevalent locations .
+
+ppatt:
+	?a is rare
+		?a: Histiocytosis
+	?a does occur in ?b
+		?a: Histiocytosis
+		?b: prevalent locations
+
+
+label:    sent_16
+sentence: Cutaneous histoplasmosis is an uncommon infection and can occur as a primary infection .
+
+ppatt:
+	?a is an uncommon infection
+		?a: Cutaneous histoplasmosis
+	?a can occur as ?b
+		?a: Cutaneous histoplasmosis
+		?b: a primary infection
+
+
+label:    sent_17
+sentence: These changes were species-specific , but did not occur in all individuals .
+
+ppatt:
+	?a were species-specific
+		?a: These changes
+	?a did not occur in ?b
+		?a: These changes
+		?b: all individuals
+
+
+label:    sent_18
+sentence: There was no single body mass index above which seroconversion did not occur .
+
+ppatt:
+	There was ?a
+		?a: no single body mass index above which seroconversion did not occur
+	?a above ?b did not occur
+		?a: no single body mass index
+		?b: seroconversion
+
+
+label:    sent_19
+sentence: The setting in which psychological therapies occur has attracted little research attention to date .
+
+ppatt:
+	?a in ?b occur
+		?a: The setting
+		?b: psychological therapies
+	?a has attracted ?b to ?c
+		?a: The setting in which psychological therapies occur
+		?b: little research attention
+		?c: date
+
+
+label:    sent_20
+sentence: These vary with the organism in which they occur and with environmental conditions .
+
+ppatt:
+	?a vary with ?b
+		?a: These
+		?b: the organism in which they occur and with environmental conditions
+	?a in ?b occur with ?c
+		?a: the organism
+		?b: they
+		?c: environmental conditions
+
+
+label:    sent_21
+sentence: According to classic models of carcinogenesis , these events can occur in any cell .
+
+ppatt:
+	According to ?a , ?b can occur in ?c
+		?a: classic models of carcinogenesis
+		?b: these events
+		?c: any cell
+
+
+label:    sent_22
+sentence: Nowadays , measles and rubella epidemics still occur worldwide , particularly in developing countries .
+
+ppatt:
+	?a still occur worldwide , in ?b
+		?a: Nowadays
+		?b: particularly developing countries
+	?a still occur worldwide , in ?b
+		?a: measles
+		?b: particularly developing countries
+	?a still occur worldwide , in ?b
+		?a: rubella epidemics
+		?b: particularly developing countries
+
+
+label:    sent_23
+sentence: Depending on the pressure and temperature , sublimation of ice can occur .
+
+ppatt:
+	Depending on the pressure ?a
+		?a: sublimation of ice
+	temperature ?a
+		?a: sublimation of ice
+	?a can occur
+		?a: sublimation of ice
+
+
+label:    sent_24
+sentence: Negative symptoms are often observed in chronic-course psychosis , but occur infrequently in late-onset-schizophrenia .
+
+ppatt:
+	?a are often observed in ?b
+		?a: Negative symptoms
+		?b: chronic-course psychosis
+	?a occur infrequently in ?b
+		?a: Negative symptoms
+		?b: late-onset-schizophrenia
+
+
+label:    sent_25
+sentence: The injury is usually caused by trauma but can also occur spontaneously . Gangliogliomas are glioneuronal tumours of the young , and occur more frequently supratentorially .
+
+ppatt:
+	?a is usually caused by ?b
+		?a: The injury
+		?b: trauma
+	?a can also occur spontaneously
+		?a: The injury
+	?a are glioneuronal tumours of ?b
+		?a: Gangliogliomas
+		?b: the young
+	?a occur more frequently supratentorially
+		?a: The injury
+
+
+label:    sent_26
+sentence: The mechanisms by which chromosomal aberrations occur during hepatocarcinogenesis are still unknown .
+
+ppatt:
+	?a by ?b occur during ?c
+		?a: The mechanisms
+		?b: chromosomal aberrations
+		?c: hepatocarcinogenesis
+	?a are still unknown
+		?a: The mechanisms by which chromosomal aberrations occur during hepatocarcinogenesis
+
+
+label:    sent_27
+sentence: Are speakers sensitive to the frequency with which phrases occur in language ? We confirm findings from previous studies that BEL/Pao elements do not occur in mammals .
+
+ppatt:
+	Are ?a
+		?a: speakers sensitive to the frequency with which phrases occur in language
+	?a with ?b occur in ?c
+		?a: the frequency
+		?b: phrases
+		?c: language
+	?a ?b confirm ?c
+		?a: speakers sensitive to the frequency with which phrases occur in language
+		?b: We
+		?c: findings from previous studies that BEL/Pao elements do not occur in mammals
+	?a do not occur in ?b
+		?a: BEL/Pao elements
+		?b: mammals
+
+

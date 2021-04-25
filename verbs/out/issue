@@ -1,0 +1,372 @@
+label:    sent_1
+sentence: While federal and state agencies often issue consumption advisories for some fish with high mercury ( Hg ) concentrations , advisories seldom provide the actual metal levels to the general public .
+
+ppatt:
+	?a often issue ?b
+		?a: federal and state agencies
+		?b: consumption advisories for some fish with high mercury concentrations
+	?a is/are Hg
+		?a: high mercury
+	?a seldom provide ?b
+		?a: advisories
+		?b: the actual metal levels to the general public
+
+
+label:    sent_2
+sentence: A comprehensive review of scientific evidence of the health benefits of physical activity led the USDHHS to issue new Federal Guidelines for physical activity in 2008 .
+
+ppatt:
+	?a led ?b to issue ?c
+		?a: A comprehensive review of scientific evidence of the health benefits of physical activity
+		?b: the USDHHS
+		?c: new Federal Guidelines for physical activity in 2008
+
+
+label:    sent_3
+sentence: The gained experience allowed the laboratory staff to defend several dissertations , to issue two monographs , and to analyze errors and risks of general anesthesia in patients with cardiovascular diseases at surgery . Decision-making that led states to issue-or not issue-these orders has not been examined .
+
+ppatt:
+	?a allowed ?b
+		?a: The gained experience
+		?b: the laboratory staff to defend several dissertations to issue two monographs and to analyze errors and risks of general anesthesia in patients with cardiovascular diseases at surgery
+	?a defend ?b to issue ?c
+		?a: the laboratory staff
+		?b: several dissertations
+		?c: two monographs
+	analyze ?a
+		?a: errors of general anesthesia in patients with cardiovascular diseases at surgery
+	analyze ?a
+		?a: risks
+	?a led ?b
+		?a: Decision-making
+		?b: states to issue-or not issue-these orders
+	?a has not been examined
+		?a: Decision-making that led states to issue-or not issue-these orders
+
+
+label:    sent_4
+sentence: The web-based programs could not issue definitive interpretations in 15.2 % and 25.3 % of cases , respectively , but the algorithm issued definitive interpretations in all cases .
+
+ppatt:
+	?a could not issue ?b in ?c , respectively
+		?a: The web-based programs
+		?b: definitive interpretations
+		?c: 15.2 %
+	?a could not issue ?b in ?c , respectively
+		?a: The web-based programs
+		?b: definitive interpretations
+		?c: 25.3 % of cases
+	?a issued ?b in ?c
+		?a: the algorithm
+		?b: definitive interpretations
+		?c: all cases
+
+
+label:    sent_5
+sentence: Hospitals must issue the IM within 2 days of admission , and must obtain the signature of the beneficiary or his or her representative .
+
+ppatt:
+	?a must issue ?b within ?c
+		?a: Hospitals
+		?b: the IM
+		?c: 2 days of admission
+	?a must obtain ?b
+		?a: Hospitals
+		?b: the signature of the beneficiary
+	?a must obtain ?b
+		?a: Hospitals
+		?b: his
+
+
+label:    sent_6
+sentence: These results prompted the United States Food and Drug Administration ( FDA ) to issue a stern warning regarding these potential adverse effects and to advise that long-acting beta-agonists ( LABAs ) should not used as first-line therapy for the treatment of asthma .
+
+ppatt:
+	?a prompted ?b
+		?a: These results
+		?b: the United States
+	?a is/are FDA
+		?a: Drug Administration
+	?a issue ?b regarding ?c
+		?a: These results
+		?b: a stern warning
+		?c: these potential adverse effects
+	?a advise ?b
+		?a: These results
+		?b: SOMETHING := long-acting beta-agonists should not used as first-line therapy for the treatment of asthma
+	?a is/are LABAs
+		?a: long-acting beta-agonists
+	?a should not used as ?b for ?c
+		?a: long-acting beta-agonists
+		?b: first-line therapy
+		?c: the treatment of asthma
+
+
+label:    sent_7
+sentence: In addition , the study finds that the amount of abuse reported is less when insurance companies routinely issue press releases concerning agent or company misrepresentation and when consumer guides are developed and available from the state .
+
+ppatt:
+	In ?a , ?b finds
+		?a: addition
+		?b: the study
+	?a reported
+		?a: abuse
+	?a is less when ?b routinely issue ?c
+		?a: the amount of abuse reported
+		?b: insurance companies
+		?c: press
+	?a releases concerning ?b
+		?a: the amount of abuse reported
+		?b: agent
+	?a releases concerning ?b
+		?a: the amount of abuse reported
+		?b: company
+	when ?a are developed
+		?a: consumer guides
+
+
+label:    sent_8
+sentence: In accordance with section 205 of the Health Insurance Portability and Accountability Act of 1996 , this final rule sets forth the specific procedures by which the Department , through the Office of the Inspector General ( OIG ) , in consultation with the Department of Justice ( DoJ ) , will issue advisory opinions to outside parties regarding the interpretation and applicability of certain statutes relating to the Federal and State health care programs .
+
+ppatt:
+	In ?a Act of ?b ?c
+		?a: accordance with section 205 of the Health Insurance Portability and Accountability
+		?b: 1996
+		?c: this final rule sets
+	?a forth ?b ?c
+		?a: this final rule sets
+		?b: the specific procedures
+		?c: SOMETHING := by which the Department , through the Office of the Inspector General , in consultation with the Department of Justice , will issue advisory opinions to outside parties regarding the interpretation and applicability of certain statutes relating to the Federal and State health care programs
+	?a is/are OIG
+		?a: the General
+	?a is/are DoJ
+		?a: Justice
+	by ?a ?b will issue ?c to outside ?d regarding ?e
+		?a: which
+		?b: the Department , through the Office of the Inspector General , in consultation with the Department of Justice
+		?c: advisory opinions
+		?d: parties
+		?e: the interpretation of certain statutes relating to the Federal and State health care programs
+	by ?a ?b will issue ?c to outside ?d regarding ?e
+		?a: which
+		?b: the Department , through the Office of the Inspector General , in consultation with the Department of Justice
+		?c: advisory opinions
+		?d: parties
+		?e: applicability
+	?a relating to ?b ?c
+		?a: certain statutes
+		?b: Federal
+		?c: the health care programs
+	?a relating to ?b ?c
+		?a: certain statutes
+		?b: State
+		?c: the health care programs
+
+
+label:    sent_9
+sentence: Resuscitation involves situations in which doctors issue oral orders , and is inherently highly stressful .
+
+ppatt:
+	?a involves ?b
+		?a: Resuscitation
+		?b: situations in which doctors issue oral orders and is inherently highly stressful
+	?a in ?b issue ?c
+		?a: situations
+		?b: doctors
+		?c: oral orders
+
+
+label:    sent_10
+sentence: One of the efficient ways of solving the existing problems is further integration of systems of military medical and civilian medical education in the country , to which issue a joint sitting of boards of Ministry of Defence and Ministry of Public Health of Ukraine was dedicated .
+
+ppatt:
+	?a solving ?b
+		?a: the efficient ways
+		?b: the existing problems
+	?a is further integration of ?b
+		?a: One of the efficient ways of solving the existing problems
+		?b: systems of military medical and civilian medical education in the country to which issue a joint sitting of boards of Ministry of Defence and Ministry of Public Health of Ukraine
+	?a to issue ?b
+		?a: the country
+		?b: a joint sitting of boards of Ministry of Defence and Ministry of Public Health of Ukraine
+	?a was dedicated
+		?a: One of the efficient ways of solving the existing problems
+
+
+label:    sent_11
+sentence: The isozymes M2f and M2 seem therefore to be the original M type pyruvate kinase forms from which the other isozymes issue .
+
+ppatt:
+	?a seem therefore to be the original M type pyruvate kinase forms
+		?a: The isozymes
+	?a from ?b issue
+		?a: the original M type pyruvate kinase forms
+		?b: the other isozymes
+
+
+label:    sent_12
+sentence: Used by the Chinese traders operating in the Fou-Kien area , the vulgar word -te- set up in Great Britain , the Netherlands , Germany and France , from which issue tea , Tee and the .
+
+ppatt:
+	Used by ?a ?b
+		?a: the Chinese traders operating in the Fou-Kien area
+		?b: the vulgar word -te-
+	?a operating in ?b
+		?a: the Chinese traders
+		?b: the Fou-Kien area
+	?a set up in ?b
+		?a: the vulgar word -te-
+		?b: Great Britain
+	?a set up in ?b
+		?a: the vulgar word -te-
+		?b: the Netherlands
+	?a set up in ?b
+		?a: the vulgar word -te-
+		?b: Germany
+	?a set up in ?b
+		?a: the vulgar word -te-
+		?b: France
+
+
+label:    sent_13
+sentence: This Act gives extraordinary powers to the President of Colombia for a period of a year in which to issue a Minor 's Code and to regulate the following matters among others : 1 ) the fundamental principles guiding the regulations for the protection of minors ; 2 ) the definition of irregular situations in which minors find themselves ; 3 ) the determination of ways minors finding themselves in these situations are to be protected ; 4 ) the creation and organization of a regime of permanent family offices to take care of requests to protect minors ; 5 ) the modification of substantive rules relating to adoption and the abolition of simple adoption ; 6 ) the regulation of the obligation to support minors ; 7 ) the determination of the function and responsibility of media in protecting the minor in moral and psychological terms ; 8 ) the establishment of the jurisdiction of " Family Defenders " and the procedures they should follow to protect minors ; 9 ) the establishment of the objectives , functions and responsibilities of the Minors ' Police ; 10 ) the establishment of protection for working minors ; 11 ) the creation of an agency to oversee the activities of judges and persons defending minors ; 12 ) the modification of the Penal Code to identify new crimes relating to the traffic in and exploitation of minors and failure to support minors and concealment of property ; and 13 ) the modification of other laws relating to minors .
+
+ppatt:
+	?a ?b gives ?c
+		?a: This
+		?b: Act
+		?c: extraordinary powers to the President of Colombia for a period of a year in which to issue a Minor 's Code and to regulate the following matters among others
+	?a in to issue ?b
+		?a: a period of a year
+		?b: a Minor 's Code
+	regulate ?a
+		?a: the following matters among others
+	?a guiding ?b
+		?a: the fundamental principles
+		?b: the regulations for the protection of minors
+	guiding ?a ?b
+		?a: the regulations for the protection of minors
+		?b: the definition of irregular situations in which minors find themselves
+	?a in ?b find ?c
+		?a: the definition of irregular situations
+		?b: minors
+		?c: themselves
+	?a finding ?b in ?c
+		?a: the determination of ways minors
+		?b: themselves
+		?c: these situations
+	?a are to be protected
+		?a: the determination of ways minors finding themselves in these situations
+	?a offices to take ?b ?c
+		?a: the creation of a regime of permanent family
+		?b: care of requests
+		?c: the modification of substantive rules relating to adoption and the abolition of simple adoption
+	?a offices to take ?b ?c
+		?a: organization
+		?b: care of requests
+		?c: the modification of substantive rules relating to adoption and the abolition of simple adoption
+	?a offices to take ?b ?c
+		?a: the creation of a regime of permanent family
+		?b: care of requests
+		?c: the regulation of the obligation to support minors
+	?a offices to take ?b ?c
+		?a: organization
+		?b: care of requests
+		?c: the regulation of the obligation to support minors
+	?a offices to to protect ?b
+		?a: the creation of a regime of permanent family
+		?b: minors
+	?a offices to to protect ?b
+		?a: organization
+		?b: minors
+	?a relating to ?b
+		?a: substantive rules
+		?b: adoption
+	?a relating to ?b
+		?a: substantive rules
+		?b: the abolition of simple adoption
+	?a support ?b
+		?a: the regulation of the obligation
+		?b: minors
+	support ?a ?b
+		?a: minors
+		?b: the determination of the function and responsibility of media in protecting the minor in moral and psychological terms
+	?a protecting ?b ?c
+		?a: the determination of the function and responsibility of media
+		?b: the minor
+		?c: in moral and psychological terms
+	protecting ?a ?b ?c
+		?a: the minor
+		?b: in moral and psychological terms
+		?c: the establishment of the jurisdiction of " Family Defenders " and the procedures they should follow to protect minors the establishment of the objectives , functions and responsibilities of the Minors ' Police ; the establishment of protection for working minors
+	?a ?b should follow to protect ?c ?d
+		?a: the establishment of the jurisdiction of " Family Defenders " and the procedures
+		?b: they
+		?c: minors
+		?d: the establishment of the objectives , and responsibilities of the Minors ' Police
+	?a ?b should follow to protect ?c ?d
+		?a: the establishment of the jurisdiction of " Family Defenders " and the procedures
+		?b: they
+		?c: minors
+		?d: functions
+	?a ?b should follow to protect ?c ?d
+		?a: the establishment of the jurisdiction of " Family Defenders " and the procedures
+		?b: they
+		?c: minors
+		?d: the establishment of protection for working minors
+	?a oversee ?b
+		?a: the creation of an agency
+		?b: the activities of judges and persons defending minors
+	?a defending ?b
+		?a: judges
+		?b: minors
+	?a defending ?b
+		?a: persons
+		?b: minors
+	?a identify ?b
+		?a: the modification of the Penal Code
+		?b: new crimes relating to the traffic in and exploitation of minors and failure to support minors and concealment of property
+	identify ?a ?b
+		?a: new crimes relating to the traffic in and exploitation of minors and failure to support minors and concealment of property
+		?b: the modification of other laws relating to minors
+	?a relating to ?b
+		?a: new crimes
+		?b: the traffic
+	?a relating to ?b
+		?a: new crimes
+		?b: exploitation of minors
+	?a support ?b
+		?a: failure
+		?b: minors
+	?a relating to ?b
+		?a: other laws
+		?b: minors
+
+
+label:    sent_14
+sentence: The physiopathology of the immune manifestations may involve auto-antibodies production by natural CD5+ autoreactive B-cell from which is issue the proliferation , a lost of immune tolerance , an abnormality in the Fas / Fas Ligand pathway or a chronic antigenic stimulation .
+
+ppatt:
+	?a may involve ?b
+		?a: The physiopathology of the immune manifestations
+		?b: auto-antibodies production by natural CD5+ autoreactive B-cell from which is issue the proliferation , a lost of immune tolerance , or a chronic antigenic stimulation
+	?a from is issue ?b
+		?a: natural CD5+ autoreactive B-cell
+		?b: the proliferation
+	?a from is issue ?b
+		?a: natural CD5+ autoreactive B-cell
+		?b: a lost of immune tolerance
+	?a from is issue ?b
+		?a: natural CD5+ autoreactive B-cell
+		?b: a chronic antigenic stimulation
+	?a is/are an abnormality in ?b
+		?a: the proliferation
+		?b: the Fas / Fas Ligand pathway
+	?a is/are an abnormality in ?b
+		?a: a lost of immune tolerance
+		?b: the Fas / Fas Ligand pathway
+	?a is/are an abnormality in ?b
+		?a: the Fas / Fas Ligand pathway
+		?b: a chronic antigenic stimulation
+
+

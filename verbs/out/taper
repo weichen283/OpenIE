@@ -1,0 +1,52 @@
+label:    sent_1
+sentence: Half of the patients who completed the study chose to continue treatment with escitalopram rather than taper down the dose at 32 weeks .
+
+ppatt:
+	?a completed ?b
+		?a: the patients
+		?b: the study
+	?a chose to continue ?b at ?c
+		?a: Half of the patients who completed the study
+		?b: treatment with escitalopram
+		?c: 32 weeks
+	?a chose to continue ?b at ?c
+		?a: Half of the patients who completed the study
+		?b: taper down the dose
+		?c: 32 weeks
+
+
+label:    sent_2
+sentence: We examine patient characteristics , 12-month treatment success ( ie , retention or taper after 6 months ) , and predictors of successful outcomes .
+
+ppatt:
+	?a examine ?b
+		?a: We
+		?b: patient characteristics
+	?a examine ?b
+		?a: We
+		?b: 12-month treatment success
+	?a examine ?b
+		?a: We
+		?b: predictors of successful outcomes
+
+
+label:    sent_3
+sentence: Appropriate examinations should be performed regularly in order to decide whether to taper or stop when damage is still mild , preclinical , or reversible .
+
+ppatt:
+	?a should be performed regularly
+		?a: Appropriate examinations
+	?a order to decide to ?b
+		?a: Appropriate examinations
+		?b: taper
+	?a order to decide to ?b
+		?a: Appropriate examinations
+		?b: stop
+	when ?a is still mild
+		?a: damage
+	?a preclinical
+		?a: damage
+	?a reversible
+		?a: damage
+
+

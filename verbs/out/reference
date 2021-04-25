@@ -1,0 +1,286 @@
+label:    sent_1
+sentence: Surprisingly , only one year into ART provision , healthcare workers did not reference the professional challenges of their HIV work before ART became available , suggesting that medical breakthroughs such as ART rapidly come to be seen as a standard element of nursing .
+
+ppatt:
+	Surprisingly ?a , ?b did not reference ?c
+		?a: only one year into ART provision
+		?b: healthcare workers
+		?c: the professional challenges of their HIV work before ART
+	?a became available , suggesting ?b
+		?a: only one year into ART provision
+		?b: SOMETHING := medical breakthroughs such as ART rapidly come to be seen as a standard element of nursing
+	?a rapidly come to be seen as ?b
+		?a: medical breakthroughs such as ART
+		?b: a standard element of nursing
+
+
+label:    sent_2
+sentence: Hospitals increasingly reference published evidence for any given procedure or guideline as part of the push toward evidence-based nursing .
+
+ppatt:
+	?a increasingly reference ?b as ?c
+		?a: Hospitals
+		?b: published evidence for any given procedure or guideline
+		?c: part of the push toward evidence-based nursing
+
+
+label:    sent_3
+sentence: We review these recent studies , and when effects were observed , we reference the time course of observed effects ( immediate or delayed ) . It is especially important that researchers explain why the treatment difference sought is worthwhile to patients , and they should reference consultations with the public and patient groups and existing literature .
+
+ppatt:
+	?a review ?b
+		?a: We
+		?b: these recent studies
+	when ?a were observed
+		?a: effects
+	?a reference ?b
+		?a: we
+		?b: the time course of observed effects
+	?a is especially important ?b
+		?a: It
+		?b: SOMETHING := researchers explain why the treatment difference sought is worthwhile to patients
+	?a explain ?b
+		?a: researchers
+		?b: SOMETHING := why the treatment difference sought is worthwhile to patients
+	?a sought
+		?a: the treatment difference
+	?a why is worthwhile to ?b
+		?a: researchers
+		?b: patients
+	?a should reference ?b
+		?a: they
+		?b: consultations with public and patient
+	?a existing ?b
+		?a: they
+		?b: literature
+
+
+label:    sent_4
+sentence: We reference internet-based government resources and offer direct links to applicable websites in an attempt to offer rapid and current sources of practical information .
+
+ppatt:
+	?a reference ?b
+		?a: We
+		?b: internet-based government resources
+	?a offer ?b in ?c
+		?a: We
+		?b: direct links to applicable websites
+		?c: an attempt to offer rapid and current sources of practical information
+	?a offer ?b
+		?a: an attempt
+		?b: rapid and current sources of practical information
+
+
+label:    sent_5
+sentence: Three studies present longitudinal data that the authors reference when recommending periodicity of follow-up .
+
+ppatt:
+	?a present ?b
+		?a: Three studies
+		?b: longitudinal data that the authors reference when recommending periodicity of follow-up
+	?a reference
+		?a: the authors
+	?a when recommending ?b
+		?a: the authors
+		?b: periodicity of follow-up
+
+
+label:    sent_6
+sentence: A number of measurements of patellar height are in clinical use all of which reference from the tibia . Historically , however , this growing population of breast cancer patients has been underrepresented in clinical trials , resulting in a paucity of data that clinicians can reference in making treatment decisions for their older patients .
+
+ppatt:
+	?a are in clinical use . Historically
+		?a: A number of measurements of patellar height
+	?a ?b reference from ?c
+		?a: clinical use . Historically
+		?b: all of which
+		?c: the tibia
+	however , ?a has been underrepresented in ?b , resulting in ?c
+		?a: this growing population of breast cancer patients
+		?b: clinical trials
+		?c: a paucity of data that clinicians can reference in making treatment decisions for their older patients
+	?a can reference
+		?a: clinicians
+	?a making ?b
+		?a: clinicians
+		?b: treatment decisions for their older patients
+
+
+label:    sent_7
+sentence: The results of this definition will be published at the first opportunity ( sometime during the first half of 1999 ) and then placed into public domain , so that any solution provider can reference this source to create secure and mutually interoperable application programs for health care professionals in Germany .
+
+ppatt:
+	?a will be published at ?b
+		?a: The results of this definition
+		?b: the first opportunity
+	?a then placed into ?b
+		?a: The results of this definition
+		?b: public domain
+	so that ?a can reference ?b to create ?c
+		?a: any solution provider
+		?b: this source
+		?c: secure and mutually interoperable application programs for health care professionals in Germany
+
+
+label:    sent_8
+sentence: The current paper describes standardisation efforts by the International Federation of Clinical Chemistry and Laboratory Medicine Working Group on Standardization of cTnI ( IFCC WG-TNI ) to establish a reference immunoassay measurement procedure for cTnI of a higher order than current commercial immunoassay methods and a commutable secondary reference material for cTnI to which companies can reference their calibration materials .
+
+ppatt:
+	?a describes ?b
+		?a: The current paper
+		?b: standardisation efforts by the International Federation of Clinical Chemistry and Laboratory Medicine Working Group on Standardization of cTnI
+	?a is/are IFCC WG-TNI
+		?a: cTnI
+	?a establish ?b
+		?a: The current paper
+		?b: a reference immunoassay measurement procedure for cTnI of a higher order than current commercial immunoassay methods
+	?a establish ?b
+		?a: The current paper
+		?b: a commutable secondary reference material for cTnI to which companies can reference their calibration materials
+	?a to ?b can reference ?c
+		?a: a commutable secondary reference material for cTnI
+		?b: companies
+		?c: their calibration materials
+
+
+label:    sent_9
+sentence: If the medical staff wants to have the associated details of all elements in the bylaws they can , but they can also reference them in rules and regulations or policies and procedures .
+
+ppatt:
+	?a wants to have ?b
+		?a: the medical staff
+		?b: the associated details of all elements in the bylaws
+	?a can
+		?a: they
+	?a can also reference ?b in ?c
+		?a: they
+		?b: them
+		?c: rules
+	?a can also reference ?b in ?c
+		?a: they
+		?b: them
+		?c: regulations
+	?a can also reference ?b in ?c
+		?a: they
+		?b: them
+		?c: policies
+
+
+label:    sent_10
+sentence: Environmental Protection Agency ( EPA ) reference dose for chlorpyrifos , but exceed those for diazinon .
+
+ppatt:
+	?a is/are EPA
+		?a: Environmental Protection Agency
+	exceed ?a
+		?a: those for diazinon
+
+
+label:    sent_11
+sentence: In the discussions included here , we reference relevant clinical and basic science literature underlying research into disease etiology and pathogenesis , and we highlight current reviews on the various topics addressed .
+
+ppatt:
+	?a included here
+		?a: the discussions
+	In ?a , ?b reference ?c
+		?a: the discussions included here
+		?b: we
+		?c: relevant clinical and basic science literature underlying research disease
+	?a underlying ?b
+		?a: relevant clinical and basic science literature
+		?b: research disease
+	?a highlight ?b
+		?a: we
+		?b: current reviews on the various topics addressed
+	?a addressed
+		?a: the various topics
+
+
+label:    sent_12
+sentence: With this exclusion gel column ( TSK-G3000SW ) as a background upon which to reference different receptor forms , eight distinct partitions or elution positions have been enumerated .
+
+ppatt:
+	?a is/are TSK-G3000SW
+		?a: this exclusion gel column as a background upon which to reference different receptor forms
+	?a upon to reference ?b
+		?a: a background
+		?b: different receptor forms
+	With ?a , ?b have been enumerated
+		?a: this exclusion gel column as a background upon which to reference different receptor forms
+		?b: eight distinct partitions
+	With ?a , ?b have been enumerated
+		?a: this exclusion gel column as a background upon which to reference different receptor forms
+		?b: elution positions
+
+
+label:    sent_13
+sentence: It should provide an accurate structural framework against which to reference the many other kinds of neuroanatomical information that are acquired by modern imaging , mapping , and histological labeling techniques .
+
+ppatt:
+	?a should provide ?b
+		?a: It
+		?b: an accurate structural framework against which to reference the many other kinds of neuroanatomical information that are acquired by modern imaging , mapping , and histological labeling techniques
+	?a against to reference ?b
+		?a: an accurate structural framework
+		?b: the many other kinds of neuroanatomical information that are acquired by modern imaging , mapping , and histological labeling techniques
+	?a are acquired by ?b
+		?a: neuroanatomical information
+		?b: modern imaging
+	?a are acquired by ?b
+		?a: neuroanatomical information
+		?b: mapping
+	?a are acquired by ?b
+		?a: neuroanatomical information
+		?b: histological labeling techniques
+
+
+label:    sent_14
+sentence: A set of 32 post-mortem serum and plasma samples from cornea donors and 40 control samples from blood donors , serologically and NAT negative for all investigated parameters , were spiked with defined concentrations of WHO reference material and tested for HIV-1 , HCV , HBV , and HAV by NAT using DRK Baden-Wurttemberg-Hesse CE PCR kits .
+
+ppatt:
+	?a were spiked with ?b
+		?a: A set of 32 post-mortem serum and plasma samples from cornea donors and 40 control samples from blood donors , serologically and NAT negative for all investigated parameters
+		?b: defined concentrations of WHO reference material and tested for HIV-1 , HCV , HBV , and HAV by NAT using DRK Baden-Wurttemberg-Hesse CE PCR kits
+	?a of ?b reference ?c
+		?a: defined concentrations
+		?b: WHO
+		?c: material
+	of ?a tested for ?b by ?c using ?d
+		?a: WHO
+		?b: HIV-1
+		?c: NAT
+		?d: DRK Baden-Wurttemberg-Hesse CE PCR kits
+	of ?a tested for ?b by ?c using ?d
+		?a: WHO
+		?b: HCV
+		?c: NAT
+		?d: DRK Baden-Wurttemberg-Hesse CE PCR kits
+	of ?a tested for ?b by ?c using ?d
+		?a: WHO
+		?b: HBV
+		?c: NAT
+		?d: DRK Baden-Wurttemberg-Hesse CE PCR kits
+	of ?a tested for ?b by ?c using ?d
+		?a: WHO
+		?b: HAV
+		?c: NAT
+		?d: DRK Baden-Wurttemberg-Hesse CE PCR kits
+
+
+label:    sent_15
+sentence: Both types of skills rely on learners having a visual exemplar or standard of performance with which to reference their skill performance and evaluate anatomic structures .
+
+ppatt:
+	?a rely on ?b
+		?a: Both types of skills
+		?b: learners having a visual exemplar or standard of performance with which to reference their skill performance and evaluate anatomic structures
+	?a having ?b
+		?a: learners
+		?b: a visual exemplar
+	?a with to reference ?b
+		?a: performance
+		?b: their skill performance
+	evaluate ?a
+		?a: anatomic structures
+
+

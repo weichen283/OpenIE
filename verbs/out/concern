@@ -1,0 +1,263 @@
+label:    sent_1
+sentence: Several studies have expressed concern about the effect of ABO compatibility on graft survival .
+
+ppatt:
+	?a have expressed ?b
+		?a: Several studies
+		?b: concern about the effect of ABO compatibility on graft survival
+
+
+label:    sent_2
+sentence: There is concern over the methods used to evaluate antipsychotic drugs . Clerks and nurses expressed concern about additional workload and demands on parents .
+
+ppatt:
+	There is ?a
+		?a: concern over the methods used to evaluate antipsychotic drugs
+	?a used to evaluate ?b
+		?a: the methods
+		?b: antipsychotic drugs
+	?a expressed ?b
+		?a: Clerks
+		?b: concern about additional workload and demands on parents
+	?a expressed ?b
+		?a: nurses
+		?b: concern about additional workload and demands on parents
+
+
+label:    sent_3
+sentence: Several of the reported adverse events concern systemic failures .
+
+ppatt:
+	?a concern ?b
+		?a: Several of the reported adverse events
+		?b: systemic failures
+
+
+label:    sent_4
+sentence: Organ dysfunctions related to IAH mainly concern the kidneys and -respiratory system .
+
+ppatt:
+	?a mainly concern ?b
+		?a: Organ dysfunctions related to IAH
+		?b: the kidneys
+	?a mainly concern ?b
+		?a: Organ dysfunctions related to IAH
+		?b: -respiratory system
+
+
+label:    sent_5
+sentence: The results concern the inaccuracy of the CMMs example measuring area .
+
+ppatt:
+	?a concern ?b
+		?a: The results
+		?b: the inaccuracy of the CMMs example measuring area
+	?a measuring ?b
+		?a: the CMMs example
+		?b: area
+
+
+label:    sent_6
+sentence: The outcome measured may concern both efficacy and safety , although from different perspectives .
+
+ppatt:
+	?a measured
+		?a: The outcome
+	?a may concern ?b
+		?a: The outcome measured
+		?b: efficacy
+	?a may concern ?b
+		?a: The outcome measured
+		?b: safety
+	?a from different perspectives
+		?a: The outcome measured
+
+
+label:    sent_7
+sentence: Questions of law concern themselves with what the law requires , permits or prohibits .
+
+ppatt:
+	?a concern ?b
+		?a: Questions of law
+		?b: themselves with what the law requires
+	?a with ?b ?c requires
+		?a: themselves
+		?b: what
+		?c: the law
+	?a permits
+		?a: Questions of law
+	?a prohibits
+		?a: Questions of law
+
+
+label:    sent_8
+sentence: Most genetic studies concern HLA haplotype association or polymorphism in genes encoding drug-metabolising enzymes .
+
+ppatt:
+	?a concern ?b
+		?a: Most genetic studies
+		?b: HLA haplotype in genes encoding drug-metabolising enzymes
+	?a encoding ?b
+		?a: genes
+		?b: drug-metabolising enzymes
+
+
+label:    sent_9
+sentence: Despite individual variation , certain issues have been found to concern most homosexual adolescents .
+
+ppatt:
+	Despite ?a , ?b have been found to concern ?c
+		?a: individual variation
+		?b: certain issues
+		?c: most homosexual adolescents
+
+
+label:    sent_10
+sentence: Discussed evidence and assumptions that concern hemispheric laterality and asymmetrical functional representation .
+
+ppatt:
+	?a concern ?b
+		?a: Discussed evidence
+		?b: hemispheric laterality
+	?a concern ?b
+		?a: assumptions
+		?b: hemispheric laterality
+	?a concern ?b
+		?a: Discussed evidence
+		?b: asymmetrical functional representation
+	?a concern ?b
+		?a: assumptions
+		?b: asymmetrical functional representation
+
+
+label:    sent_11
+sentence: The problems which exist mainly concern the realization of recommendations .
+
+ppatt:
+	?a exist
+		?a: The problems
+	?a mainly concern ?b
+		?a: The problems which exist
+		?b: the realization of recommendations
+
+
+label:    sent_12
+sentence: Union concern over plan to move public health to local authorities . Ongoing concern about photo essay . [The Communist Party 's concern for public health ] . Mobile phone use is increasing but there is also concern for adverse health effects .
+
+ppatt:
+	?a move ?b to ?c
+		?a: plan
+		?b: public health
+		?c: local authorities
+	?a ?b ?c is increasing
+		?a: Union concern over plan to move public health to local authorities
+		?b: [The Communist Party 's concern for public health ]
+		?c: Mobile phone use
+	there is also ?a
+		?a: concern for adverse health effects
+
+
+label:    sent_13
+sentence: There is concern about false-positive screening results and wrongly grounding an athlete .
+
+ppatt:
+	There is ?a
+		?a: concern about false-positive screening results
+	?a wrongly grounding ?b
+		?a: concern about false-positive screening results
+		?b: an athlete
+
+
+label:    sent_14
+sentence: Parents differed regionally regarding accurate weight perception and concern about overweight and underweight .
+
+ppatt:
+	?a differed regionally regarding ?b
+		?a: Parents
+		?b: accurate weight perception about overweight and underweight
+	?a differed regionally regarding ?b
+		?a: Parents
+		?b: concern
+
+
+label:    sent_15
+sentence: The data concern 98 Area Health Authorities and are for the period 1974-1978 .
+
+ppatt:
+	?a concern ?b
+		?a: The data
+		?b: 98 Area Health Authorities
+
+
+label:    sent_16
+sentence: All reported cases concern young people and present no associated pathology .
+
+ppatt:
+	?a concern ?b
+		?a: All reported cases
+		?b: young people
+	?a present ?b
+		?a: All reported cases
+		?b: no associated pathology
+
+
+label:    sent_17
+sentence: The data concern the period 1965-1970 and are taken from the 1970 census . EPA concern . A family concern . Gastric xanthelasma --still a concern .
+
+ppatt:
+	?a concern ?b
+		?a: The data
+		?b: the period 1965-1970
+	?a are taken from ?b
+		?a: The data
+		?b: the 1970 census
+	?a is/are A family concern ?b
+		?a: EPA concern
+		?b: Gastric xanthelasma --still a concern
+
+
+label:    sent_18
+sentence: There has been concern regarding decreased surgical exposure and compromise in prosthesis durability . Data are from the national census and primarily concern the years 1970 and 1978 .
+
+ppatt:
+	?a are from the national census
+		?a: Data
+	?a primarily concern ?b
+		?a: Data
+		?b: the years
+
+
+label:    sent_19
+sentence: However , it also caused significant upset and concern . Data are primarily from French sources and concern the period since 1980 .
+
+ppatt:
+	However , ?a also caused ?b
+		?a: it
+		?b: significant upset
+	However , ?a also caused ?b
+		?a: it
+		?b: concern
+	?a are primarily from French sources
+		?a: Data
+	?a concern ?b
+		?a: it
+		?b: the period
+
+
+label:    sent_20
+sentence: Immediate severe adverse effects are exceptionally rare and mostly concern mild anaphylactoid reactions . Data are from the 1988 Netherlands Fertility Survey and concern women aged 18-37 .
+
+ppatt:
+	?a are exceptionally rare . from ?b
+		?a: Immediate severe adverse effects
+		?b: Data are the 1988 Netherlands Fertility Survey
+	?a are exceptionally rare . from ?b
+		?a: Immediate severe adverse effects
+		?b: concern women aged
+	?a mostly concern ?b
+		?a: Immediate severe adverse effects
+		?b: mild anaphylactoid reactions
+	?a Netherlands
+		?a: Data
+
+

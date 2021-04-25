@@ -1,0 +1,155 @@
+label:    sent_1
+sentence: S. aureus isolates were used to inoculate patient serum samples .
+
+ppatt:
+	?a were used to inoculate ?b
+		?a: S. aureus isolates
+		?b: patient serum samples
+
+
+label:    sent_2
+sentence: Some phlebotomists were not using new sterile needles to inoculate blood culture bottles .
+
+ppatt:
+	?a were not using ?b to inoculate ?c
+		?a: Some phlebotomists
+		?b: new sterile needles
+		?c: blood culture bottles
+
+
+label:    sent_3
+sentence: The alkaline suspension was used to inoculate the cups of the test kits . Root-feeding nymphs were able to inoculate SBR bacterium to sugar beet .
+
+ppatt:
+	?a was used to inoculate ?b
+		?a: The alkaline suspension
+		?b: the cups of the test kits
+	?a were able to inoculate ?b to ?c
+		?a: Root-feeding nymphs
+		?b: SBR bacterium
+		?c: sugar beet
+
+
+label:    sent_4
+sentence: A gene gun was used to inoculate vaccines into the epidermis .
+
+ppatt:
+	?a was used to inoculate ?b into ?c
+		?a: A gene gun
+		?b: vaccines
+		?c: the epidermis
+
+
+label:    sent_5
+sentence: The other was used to inoculate culture medium for T. vaginalis .
+
+ppatt:
+	?a was used to inoculate ?b
+		?a: The other
+		?b: culture medium for T. vaginalis
+
+
+label:    sent_6
+sentence: It is important to both renew childhood vaccines and to inoculate against hepatitis A . [ Production of inoculate for submerged cultivation of Aspergillus candidus ] . Microbiological data confirmed contamination of the FB after aspiration and fixation of the inoculate .
+
+ppatt:
+	?a is important to both renew ?b
+		?a: It
+		?b: childhood vaccines
+	?a is important to to inoculate against ?b
+		?a: It
+		?b: hepatitis A
+	?a inoculate
+		?a: Production of for submerged cultivation of Aspergillus candidus ]
+	?a ?b confirmed ?c
+		?a: Production of inoculate for submerged cultivation of Aspergillus candidus ]
+		?b: Microbiological data
+		?c: contamination of the FB after aspiration and fixation of the inoculate
+
+
+label:    sent_7
+sentence: Should we go ahead and inoculate everyone now ? The SS/u system required minimal hands-on time inoculate and interpret reactions .
+
+ppatt:
+	Should ?a go ?b now
+		?a: we
+		?b: ahead
+	?a inoculate ?b
+		?a: we
+		?b: everyone
+	?a required ?b
+		?a: The SS/u system
+		?b: minimal hands-on time
+	?a inoculate
+		?a: The SS/u system required minimal hands-on time
+	?a interpret ?b
+		?a: The SS/u system required minimal hands-on time
+		?b: reactions
+
+
+label:    sent_8
+sentence: The PASCO system is easy to inoculate and read .
+
+ppatt:
+	?a is easy to inoculate
+		?a: The PASCO system
+	?a is easy to read
+		?a: The PASCO system
+
+
+label:    sent_9
+sentence: We inoculate with S. pneumoniae suspended in 100 mul of saline .
+
+ppatt:
+	?a inoculate with ?b
+		?a: We
+		?b: S. pneumoniae suspended in 100 mul of saline
+	?a suspended in ?b
+		?a: S. pneumoniae
+		?b: 100 mul of saline
+
+
+label:    sent_10
+sentence: [Attempts to inoculate against plague in the eighteenth and nineteenth centuries ] . Fusion hybrid can inoculate in the leguminous of parental strains respectively .
+
+ppatt:
+	?a inoculate against ?b in ?c
+		?a: [Attempts
+		?b: plague
+		?c: eighteenth
+	?a inoculate against ?b in ?c
+		?a: [Attempts
+		?b: plague
+		?c: nineteenth
+	?a can inoculate in ?b respectively
+		?a: [Attempts to inoculate against plague in eighteenth and nineteenth
+		?b: the leguminous of parental strains
+
+
+label:    sent_11
+sentence: This enables pathogens to inoculate the nail , resulting in infection .
+
+ppatt:
+	?a enables ?b to inoculate ?c
+		?a: This
+		?b: pathogens
+		?c: the nail
+	?a resulting in ?b
+		?a: This
+		?b: infection
+
+
+label:    sent_12
+sentence: The cultivate bacteria are mainly inoculate ones when sinusitis induced shorter than 2 weeks . sp. tritici to inoculate 99 T. durum-Ae. squarrosa amphidiploids .
+
+ppatt:
+	?a are mainly inoculate ?b
+		?a: The cultivate bacteria
+		?b: ones
+	when ?a induced ?b . ?c to inoculate ?d
+		?a: sinusitis
+		?b: shorter than 2 weeks
+		?c: sp. tritici
+		?d: 99 T. durum-Ae. squarrosa amphidiploids
+
+

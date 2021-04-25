@@ -1,0 +1,307 @@
+label:    sent_1
+sentence: Accordingly , we tested its ability to permeate the blood-brain barrier ( BBB ) . Yet through aggressive marketing , the technique is already beginning to permeate radiologic practice .
+
+ppatt:
+	Accordingly , ?a tested ?b
+		?a: we
+		?b: its ability to permeate the blood-brain barrier Yet through aggressive marketing
+	?a permeate ?b Yet through ?c
+		?a: its ability
+		?b: the blood-brain barrier
+		?c: aggressive marketing
+	?a is/are BBB
+		?a: the blood-brain barrier
+	?a is already beginning to permeate ?b
+		?a: the technique
+		?b: radiologic practice
+
+
+label:    sent_2
+sentence: Its ability to permeate bacterial cell membranes appears similar to that of cefotaxime .
+
+ppatt:
+	?a permeate ?b
+		?a: Its ability
+		?b: bacterial cell membranes
+	?a appears similar to ?b
+		?a: Its ability to permeate bacterial cell membranes
+		?b: that of cefotaxime
+
+
+label:    sent_3
+sentence: Heavy metal cations permeate the TRPV6 epithelial cation channel . CHL probe may not easily permeate the SC .
+
+ppatt:
+	?a permeate ?b
+		?a: Heavy metal cations
+		?b: the TRPV6 epithelial cation channel
+	?a may not easily permeate ?b
+		?a: CHL probe
+		?b: the SC
+
+
+label:    sent_4
+sentence: Tasks requiring interpersonal coordination permeate all spheres of life .
+
+ppatt:
+	?a requiring ?b
+		?a: Tasks
+		?b: interpersonal coordination
+	?a permeate ?b
+		?a: Tasks requiring interpersonal coordination
+		?b: all spheres of life
+
+
+label:    sent_5
+sentence: The initial lactose concentration in permeate was 50.0 g L ( -1 ) .
+
+ppatt:
+	?a was 50.0 g L ( -1
+		?a: The initial lactose concentration in permeate
+
+
+label:    sent_6
+sentence: The turbidity of permeate was lower than the detection limit for all applied waters .
+
+ppatt:
+	?a was lower than ?b
+		?a: The turbidity of permeate
+		?b: the detection limit for all applied waters
+
+
+label:    sent_7
+sentence: It was supposed to permeate in plastic films .
+
+ppatt:
+	?a was supposed to permeate in ?b
+		?a: It
+		?b: plastic films
+
+
+label:    sent_8
+sentence: Ethanol production from whey permeate in a continuous anaerobic bioreactor by Kluyveromyces marxianus . Does CO2 permeate through aquaporin-1 ?
+
+ppatt:
+	?a permeate in ?b by ?c
+		?a: Ethanol production from whey
+		?b: a continuous anaerobic bioreactor
+		?c: Kluyveromyces marxianus
+	Does ?a permeate through ?b
+		?a: CO2
+		?b: aquaporin-1
+
+
+label:    sent_9
+sentence: The kapok wall exhibited complete rejection of water while allowed oil to permeate through .
+
+ppatt:
+	?a exhibited ?b
+		?a: The kapok wall
+		?b: complete rejection of water
+	?a allowed ?b to permeate ?c
+		?a: The kapok wall
+		?b: oil
+		?c: through
+
+
+label:    sent_10
+sentence: Hierarchical biological scales permeate research in tree physiology and represent multiple sources of variation .
+
+ppatt:
+	?a permeate ?b
+		?a: Hierarchical biological scales
+		?b: research in tree physiology
+	?a represent ?b
+		?a: Hierarchical biological scales
+		?b: multiple sources of variation
+
+
+label:    sent_11
+sentence: Random movers permeate entire landscapes , but directed movers are more geographically constrained .
+
+ppatt:
+	?a permeate ?b
+		?a: Random movers
+		?b: entire landscapes
+	?a are more geographically constrained
+		?a: directed movers
+
+
+label:    sent_12
+sentence: Many polymers permeate the skin poorly and are vulnerable to enzymatic degradation .
+
+ppatt:
+	?a permeate ?b poorly
+		?a: Many polymers
+		?b: the skin
+
+
+label:    sent_13
+sentence: Biodiesel production by microalgae cultivated using permeate from membrane bioreactors in continuous system .
+
+ppatt:
+	?a cultivated using ?b
+		?a: microalgae
+		?b: permeate from membrane bioreactors in continuous system
+	permeate from ?a in ?b
+		?a: membrane bioreactors
+		?b: continuous system
+
+
+label:    sent_14
+sentence: CPX was able to permeate hoof membranes more easily compared with MRF .
+
+ppatt:
+	?a was able to permeate ?b more easily
+		?a: CPX
+		?b: hoof membranes
+	?a compared with MRF
+		?a: CPX
+
+
+label:    sent_15
+sentence: The results confirm that NPs are too large to permeate skin by this mechanism .
+
+ppatt:
+	?a confirm ?b
+		?a: The results
+		?b: SOMETHING := NPs are too large to permeate skin by this mechanism
+	?a are too large to permeate ?b by ?c
+		?a: NPs
+		?b: skin
+		?c: this mechanism
+
+
+label:    sent_16
+sentence: Before injury fine astrocyte processes permeate the parenchyma . GTX 2/3 epimers permeate the intestine through a paracellular pathway .
+
+ppatt:
+	?a permeate ?b
+		?a: injury fine astrocyte processes
+		?b: the parenchyma
+	?a permeate ?b through ?c
+		?a: GTX 2/3 epimers
+		?b: the intestine
+		?c: a paracellular pathway
+
+
+label:    sent_17
+sentence: Kinetics of methanogenesis from whey permeate in packed bed immobilized cells bioreactor .
+
+ppatt:
+	?a permeate in ?b
+		?a: Kinetics of methanogenesis from whey
+		?b: packed bed immobilized cells bioreactor
+
+
+label:    sent_18
+sentence: Spermine and other endogenous polyamines potentiate , block and permeate the N-methyl-D-aspartate receptor channel .
+
+ppatt:
+	?a potentiate
+		?a: Spermine
+	?a potentiate
+		?a: other endogenous polyamines
+	?a block
+		?a: Spermine
+	?a block
+		?a: other endogenous polyamines
+	?a permeate ?b
+		?a: Spermine
+		?b: the N-methyl-D-aspartate receptor channel
+	?a permeate ?b
+		?a: other endogenous polyamines
+		?b: the N-methyl-D-aspartate receptor channel
+
+
+label:    sent_19
+sentence: These complexes have zero net charge and readily permeate the intact erythrocyte membrane .
+
+ppatt:
+	?a have ?b
+		?a: These complexes
+		?b: zero net charge
+	?a readily permeate ?b
+		?a: These complexes
+		?b: the intact erythrocyte membrane
+
+
+label:    sent_20
+sentence: The results showed that higher pressure resulted in higher Na+ rejection and permeate flux .
+
+ppatt:
+	?a showed ?b
+		?a: The results
+		?b: SOMETHING := higher pressure resulted in higher Na+ rejection
+	?a resulted in ?b
+		?a: higher pressure
+		?b: higher Na+ rejection
+	?a permeate ?b
+		?a: higher pressure
+		?b: flux
+
+
+label:    sent_21
+sentence: Lactulose production from milk concentration permeate using calcium carbonate-based catalysts .
+
+ppatt:
+	?a permeate using ?b
+		?a: Lactulose production from milk concentration
+		?b: calcium carbonate-based catalysts
+
+
+label:    sent_22
+sentence: Anaerobic thermophilic fermentation for acetic acid production from milk permeate .
+
+ppatt:
+	?a permeate
+		?a: Anaerobic thermophilic fermentation for acetic acid production from milk
+
+
+label:    sent_23
+sentence: Then ionic and nonionic substances may permeate unselectively .
+
+ppatt:
+	Then ?a may permeate unselectively
+		?a: ionic
+	Then ?a may permeate unselectively
+		?a: nonionic
+
+
+label:    sent_24
+sentence: Enhancers permeate into the skin and reversibly decrease the barrier resistance . Ni2+ and Co2+ neither permeate through the channel nor inhibit the Ca2+ influx .
+
+ppatt:
+	?a permeate into ?b
+		?a: Enhancers
+		?b: the skin
+	?a reversibly decrease ?b
+		?a: Enhancers
+		?b: the barrier resistance
+	?a ?b permeate through ?c
+		?a: Ni2+
+		?b: neither
+		?c: the channel
+	?a ?b permeate through ?c
+		?a: Co2+
+		?b: neither
+		?c: the channel
+	?a inhibit ?b
+		?a: Ni2+
+		?b: the Ca2+ influx
+	?a inhibit ?b
+		?a: Co2+
+		?b: the Ca2+ influx
+
+
+label:    sent_25
+sentence: Therefore , oil can permeate through the mesh and be collected in situ .
+
+ppatt:
+	Therefore , ?a can permeate through ?b
+		?a: oil
+		?b: the mesh
+	?a be collected in situ
+		?a: oil
+
+

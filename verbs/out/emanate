@@ -1,0 +1,198 @@
+label:    sent_1
+sentence: When implausible findings emanate from high-quality studies .
+
+ppatt:
+	When ?a emanate from ?b
+		?a: implausible findings
+		?b: high-quality studies
+
+
+label:    sent_2
+sentence: They typically emanate from the posterior wall of the stomach near the gastroesophageal junction .
+
+ppatt:
+	?a typically emanate from ?b
+		?a: They
+		?b: the posterior wall of the stomach near the gastroesophageal junction
+
+
+label:    sent_3
+sentence: Caregiving actions emanate from the family caregiver 's care meanings .
+
+ppatt:
+	?a emanate from ?b
+		?a: Caregiving actions
+		?b: the family caregiver 's care meanings
+
+
+label:    sent_4
+sentence: They appeared to emanate from a dense central posterior subcapsular plaque .
+
+ppatt:
+	?a appeared to emanate from ?b
+		?a: They
+		?b: a dense central posterior subcapsular plaque
+
+
+label:    sent_5
+sentence: This disorder appeared to emanate from Hashimoto 's thyroiditis in this case .
+
+ppatt:
+	?a appeared to emanate from 's ?b in ?c
+		?a: This disorder
+		?b: Hashimoto thyroiditis
+		?c: this case
+
+
+label:    sent_6
+sentence: Classical cadherins form parallel cis-dimers that emanate from a single cell surface .
+
+ppatt:
+	?a form ?b
+		?a: Classical cadherins
+		?b: parallel cis-dimers that emanate from a single cell surface
+	?a emanate from ?b
+		?a: parallel cis-dimers
+		?b: a single cell surface
+
+
+label:    sent_7
+sentence: These factors emanate from the stimulation of the T-cell receptors and include multiple pathways .
+
+ppatt:
+	?a emanate from ?b
+		?a: These factors
+		?b: the stimulation of the T-cell receptors
+	?a include ?b
+		?a: These factors
+		?b: multiple pathways
+
+
+label:    sent_8
+sentence: Future refinements are necessary , but improved designs can emanate from this particular effort .
+
+ppatt:
+	?a are necessary
+		?a: Future refinements
+	?a can emanate from ?b
+		?a: improved designs
+		?b: this particular effort
+
+
+label:    sent_9
+sentence: The present cytokines may not only emanate from superficial mucosal cells .
+
+ppatt:
+	?a may not only emanate from ?b
+		?a: The present cytokines
+		?b: superficial mucosal cells
+
+
+label:    sent_10
+sentence: The NT fibers are unmyelinated and emanate from ganglia .
+
+ppatt:
+	?a are unmyelinated
+		?a: The NT fibers
+	?a emanate from ?b
+		?a: The NT fibers
+		?b: ganglia
+
+
+label:    sent_11
+sentence: Both complexes show a central U-shaped segment from which several arms emanate .
+
+ppatt:
+	?a show ?b
+		?a: Both complexes
+		?b: a central U-shaped segment from which several arms emanate
+	?a from ?b emanate
+		?a: a central U-shaped segment
+		?b: several arms
+
+
+label:    sent_12
+sentence: This is the basis from which civil and criminal forensic opinions must emanate .
+
+ppatt:
+	?a is the basis
+		?a: This
+	?a from ?b must emanate
+		?a: the basis
+		?b: civil
+	?a from ?b must emanate
+		?a: the basis
+		?b: criminal
+	?a from ?b must emanate
+		?a: the basis
+		?b: forensic opinions
+
+
+label:    sent_13
+sentence: The shorter t1/2 values emanate if monitoring had stopped after 10 or 12 h .
+
+ppatt:
+	?a emanate
+		?a: The shorter t1/2 values
+	?a had stopped after ?b
+		?a: monitoring
+		?b: 10 or 12 h
+
+
+label:    sent_14
+sentence: Approximately two-thirds of SO2 emissions in Ireland emanate from two grid-squares .
+
+ppatt:
+	?a emanate from ?b
+		?a: Approximately two-thirds of SO2 emissions in Ireland
+		?b: two grid-squares
+
+
+label:    sent_15
+sentence: It is from these traits that student actions and behaviors should emanate .
+
+ppatt:
+	?a is from these traits ?b
+		?a: It
+		?b: SOMETHING := that student actions and behaviors should emanate
+	?a ?b should emanate
+		?a: student
+		?b: actions
+	?a ?b should emanate
+		?a: student
+		?b: behaviors
+
+
+label:    sent_16
+sentence: The artifacts appear as streaks which emanate radially from the site of the clip . From these columns emanate cytotrophoblasts that invade deeply into the uterus and its arterioles .
+
+ppatt:
+	?a appear as ?b
+		?a: The artifacts
+		?b: streaks which emanate radially from the site of the clip From these columns
+	?a emanate radially from ?b
+		?a: streaks
+		?b: the site of the clip From these columns
+	?a emanate ?b
+		?a: The artifacts
+		?b: cytotrophoblasts that invade deeply into the uterus and its arterioles
+	?a invade deeply into ?b
+		?a: cytotrophoblasts
+		?b: the uterus
+	?a invade deeply into ?b
+		?a: cytotrophoblasts
+		?b: its arterioles
+
+
+label:    sent_17
+sentence: These studies also showed that reagent grade uranium compounds may emanate measurable 222Rn .
+
+ppatt:
+	?a also showed ?b
+		?a: These studies
+		?b: SOMETHING := reagent grade uranium compounds may emanate measurable 222Rn
+	?a may emanate ?b
+		?a: reagent grade uranium compounds
+		?b: measurable 222Rn
+
+

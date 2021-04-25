@@ -1,0 +1,297 @@
+label:    sent_1
+sentence: Further investigations were recommended to exclude neurofibromatosis and tuberous sclerosis .
+
+ppatt:
+	?a were recommended to exclude ?b
+		?a: Further investigations
+		?b: neurofibromatosis
+	?a were recommended to exclude ?b
+		?a: Further investigations
+		?b: tuberous
+	?a were recommended to exclude ?b
+		?a: Further investigations
+		?b: sclerosis
+
+
+label:    sent_2
+sentence: Histologic findings may help to exclude autoimmune sclerosing cholangitis .
+
+ppatt:
+	?a may help to exclude ?b
+		?a: Histologic findings
+		?b: autoimmune sclerosing cholangitis
+
+
+label:    sent_3
+sentence: Appropriate investigations were undertaken to exclude organic causes .
+
+ppatt:
+	?a were undertaken to exclude ?b
+		?a: Appropriate investigations
+		?b: organic causes
+
+
+label:    sent_4
+sentence: Additionally , negative final scores exclude the presence of an advanced illness .
+
+ppatt:
+	Additionally , ?a exclude ?b
+		?a: negative final scores
+		?b: the presence of an advanced illness
+
+
+label:    sent_5
+sentence: Coaching does not exclude simultaneous therapeutic elements . Normal CSF cellularity should not exclude dengue encephalitis .
+
+ppatt:
+	?a does not exclude ?b
+		?a: Coaching
+		?b: simultaneous therapeutic elements
+	?a should not exclude ?b
+		?a: Normal CSF cellularity
+		?b: dengue encephalitis
+
+
+label:    sent_6
+sentence: The blood-brain barrier is known to exclude BSH from the CNS parenchyma .
+
+ppatt:
+	?a is known to exclude ?b
+		?a: The blood-brain barrier
+		?b: BSH from the CNS parenchyma
+
+
+label:    sent_7
+sentence: Subjects underwent standard imaging to exclude metastatic disease before PET .
+
+ppatt:
+	?a underwent ?b
+		?a: Subjects
+		?b: standard imaging to exclude metastatic disease before PET
+	?a exclude ?b before ?c
+		?a: standard imaging
+		?b: metastatic disease
+		?c: PET
+
+
+label:    sent_8
+sentence: Surgical resection is usually indicated to exclude the diagnosis of cancer in these patients .
+
+ppatt:
+	?a is usually indicated to exclude ?b
+		?a: Surgical resection
+		?b: the diagnosis of cancer in these patients
+
+
+label:    sent_9
+sentence: Under threat of social exclusion , females exclude more than males .
+
+ppatt:
+	Under ?a , ?b exclude ?c than ?d
+		?a: threat of social exclusion
+		?b: females
+		?c: more
+		?d: males
+
+
+label:    sent_10
+sentence: This does not exclude a role for autophagy also after second signaling .
+
+ppatt:
+	?a does not exclude ?b also
+		?a: This
+		?b: a role for autophagy after second signaling
+
+
+label:    sent_11
+sentence: Also , one should exclude leprosy in patients presenting with isolated cranial neuropathies .
+
+ppatt:
+	Also , ?a should exclude ?b in ?c
+		?a: one
+		?b: leprosy
+		?c: patients presenting with isolated cranial neuropathies
+	?a presenting with ?b
+		?a: patients
+		?b: isolated cranial neuropathies
+
+
+label:    sent_12
+sentence: It is important to exclude anal carcinoma , and to consider more unusual causes .
+
+ppatt:
+	?a is important to exclude ?b
+		?a: It
+		?b: anal carcinoma
+	?a is important to to consider ?b
+		?a: It
+		?b: more unusual causes
+
+
+label:    sent_13
+sentence: These data suggested a circadian variation , but did not exclude alternative hypotheses .
+
+ppatt:
+	?a suggested ?b
+		?a: These data
+		?b: a circadian variation
+	?a did not exclude ?b
+		?a: These data
+		?b: alternative hypotheses
+
+
+label:    sent_14
+sentence: In ant-aphid mutualisms , ants usually attack and exclude enemies of aphids .
+
+ppatt:
+	In ?a , ?b usually attack ?c
+		?a: ant-aphid mutualisms
+		?b: ants
+		?c: enemies of aphids
+	?a exclude
+		?a: ants
+
+
+label:    sent_15
+sentence: They exclude also some clinical forms and are not helpful in the differential diagnosis .
+
+ppatt:
+	?a exclude also ?b
+		?a: They
+		?b: some clinical forms
+
+
+label:    sent_16
+sentence: To exclude unrecognized expulsion and to locate the device sonography was primarily employed .
+
+ppatt:
+	exclude ?a
+		?a: unrecognized expulsion
+	locate ?a
+		?a: the device sonography
+
+
+label:    sent_17
+sentence: They exclude the lessonae genome and produce ridibunda gametes .
+
+ppatt:
+	?a exclude ?b
+		?a: They
+		?b: the lessonae genome
+	?a produce ?b
+		?a: They
+		?b: ridibunda gametes
+
+
+label:    sent_18
+sentence: We can exclude that the selected polymorphisms are major multiple myeloma risk factors .
+
+ppatt:
+	?a can exclude ?b
+		?a: We
+		?b: SOMETHING := the selected polymorphisms are major multiple myeloma risk factors
+	?a are major multiple myeloma risk factors
+		?a: the selected polymorphisms
+
+
+label:    sent_19
+sentence: However previous studies could not exclude additional mechanisms to account for the hypercalciuria .
+
+ppatt:
+	However ?a could not exclude ?b
+		?a: previous studies
+		?b: additional mechanisms to account for the hypercalciuria
+	?a account for ?b
+		?a: additional mechanisms
+		?b: the hypercalciuria
+
+
+label:    sent_20
+sentence: We can not exclude that blood flow is redistributed within the edematous lobe .
+
+ppatt:
+	?a can not exclude ?b
+		?a: We
+		?b: SOMETHING := blood flow is redistributed within the edematous lobe
+	?a is redistributed within ?b
+		?a: blood flow
+		?b: the edematous lobe
+
+
+label:    sent_21
+sentence: It did not exclude many patients from receiving thrombolysis but it caused delayed thrombolysis .
+
+ppatt:
+	?a did not exclude ?b
+		?a: It
+		?b: many patients
+	?a receiving ?b
+		?a: many patients
+		?b: thrombolysis
+	?a caused ?b
+		?a: it
+		?b: delayed thrombolysis
+
+
+label:    sent_22
+sentence: When necessary , imaging techniques are then used to exclude or diagnose PE .
+
+ppatt:
+	When necessary ?a
+		?a: imaging techniques
+	?a are then used to exclude ?b
+		?a: imaging techniques
+		?b: PE
+	?a are then used to diagnose
+		?a: imaging techniques
+
+
+label:    sent_23
+sentence: The purpose was to exclude or demonstrate the presence of a hernia .
+
+ppatt:
+	?a was to exclude ?b
+		?a: The purpose
+		?b: the presence of a hernia
+	?a was to demonstrate
+		?a: The purpose
+
+
+label:    sent_24
+sentence: The HIV-infected clinician : to exclude or not to exclude ? Ants attack and exclude natural enemies of aphids in ant-aphid mutualisms .
+
+ppatt:
+	?a exclude
+		?a: The HIV-infected clinician
+	not to exclude ?a
+		?a: Ants attack
+	exclude ?a
+		?a: natural enemies of aphids in ant-aphid mutualisms
+
+
+label:    sent_25
+sentence: MR-angiography is recommended in order to exclude infrequent etiologies and as preoperative evaluation .
+
+ppatt:
+	?a is recommended
+		?a: MR-angiography
+	?a order to exclude ?b
+		?a: MR-angiography
+		?b: infrequent etiologies
+	?a order to exclude ?b
+		?a: MR-angiography
+		?b: preoperative evaluation
+
+
+label:    sent_26
+sentence: Surgeons should be involved early and exclude torsion promptly , often by surgical exploration .
+
+ppatt:
+	?a should be involved early
+		?a: Surgeons
+	?a exclude ?b promptly often by ?c
+		?a: Surgeons
+		?b: torsion
+		?c: surgical exploration
+
+

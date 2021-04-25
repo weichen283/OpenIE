@@ -1,0 +1,258 @@
+label:    sent_1
+sentence: Many hospitals and healthcare organizations are in progress to deploy biometric security architecture .
+
+ppatt:
+	?a are in progress
+		?a: Many hospitals
+	?a are in progress
+		?a: healthcare organizations
+	?a deploy ?b
+		?a: progress
+		?b: biometric security architecture
+
+
+label:    sent_2
+sentence: We have failed to successfully deploy three Spyder connector devices .
+
+ppatt:
+	?a have failed to successfully deploy ?b
+		?a: We
+		?b: three Spyder connector devices
+
+
+label:    sent_3
+sentence: The protections and how to deploy them are presented .
+
+ppatt:
+	?a how to deploy ?b
+		?a: The protections
+		?b: them
+	?a are presented
+		?a: The protections and how to deploy them
+
+
+label:    sent_4
+sentence: Proposals to deploy such variables differently in research strategies and analyses are endorsed .
+
+ppatt:
+	?a deploy ?b differently ?c
+		?a: Proposals
+		?b: such variables
+		?c: research
+	?a are endorsed
+		?a: Proposals to deploy such variables differently research
+
+
+label:    sent_5
+sentence: There is also a case to deploy these interventions in the general population .
+
+ppatt:
+	There is also ?a
+		?a: a case to deploy these interventions in the general population
+	?a deploy ?b in ?c
+		?a: a case
+		?b: these interventions
+		?c: the general population
+
+
+label:    sent_6
+sentence: Two decades of experience provide important lessons on how to deploy emergency resources .
+
+ppatt:
+	?a provide ?b
+		?a: Two decades of experience
+		?b: important lessons
+	?a how to deploy ?b
+		?a: Two decades of experience
+		?b: emergency resources
+
+
+label:    sent_7
+sentence: Plants deploy intracellular innate immune receptors to recognize pathogens and initiate disease resistance .
+
+ppatt:
+	?a deploy ?b
+		?a: Plants
+		?b: intracellular innate immune receptors
+	?a recognize ?b
+		?a: Plants
+		?b: pathogens
+	?a initiate ?b
+		?a: Plants
+		?b: disease resistance
+
+
+label:    sent_8
+sentence: How cells deploy ubiquitin and autophagy to defend their cytosol from bacterial invasion .
+
+ppatt:
+	How ?a deploy ?b to defend ?c
+		?a: cells
+		?b: ubiquitin
+		?c: their cytosol from bacterial invasion
+	How ?a deploy ?b to defend ?c
+		?a: cells
+		?b: autophagy
+		?c: their cytosol from bacterial invasion
+
+
+label:    sent_9
+sentence: How is it possible to deploy the law to create and perform accountability ? Most dichotic listening experiments permit subjects to deploy attention in any way they choose .
+
+ppatt:
+	How is ?a possible to deploy ?b
+		?a: it
+		?b: the law
+	?a create ?b
+		?a: it
+		?b: accountability
+	?a perform
+		?a: it
+	?a permit ?b
+		?a: Most dichotic listening experiments
+		?b: subjects to deploy attention in any way
+	?a deploy ?b in ?c
+		?a: subjects
+		?b: attention
+		?c: any way
+	?a choose
+		?a: they
+
+
+label:    sent_10
+sentence: Rare bistratified cells deploy terminal dendrites within both melanopsin-immunoreactive plexuses .
+
+ppatt:
+	?a deploy ?b within ?c
+		?a: Rare bistratified cells
+		?b: terminal dendrites
+		?c: both melanopsin-immunoreactive plexuses
+
+
+label:    sent_11
+sentence: The UK government wishes to deploy a mainstream telecare service by 2010 . U.S .
+
+ppatt:
+	?a wishes to deploy ?b by ?c
+		?a: The UK government
+		?b: a mainstream telecare service
+		?c: 2010 . U.S
+
+
+label:    sent_12
+sentence: Army dietitians deploy in support of Cobra Gold : a humanitarian mission .
+
+ppatt:
+	?a deploy in ?b
+		?a: Army dietitians
+		?b: support of Cobra Gold
+
+
+label:    sent_13
+sentence: Airbags deploy by releasing a hot effluent at 300 km/h .
+
+ppatt:
+	?a deploy
+		?a: Airbags
+	?a releasing ?b at ?c
+		?a: Airbags
+		?b: a hot effluent
+		?c: 300 km/h
+
+
+label:    sent_14
+sentence: Initial injury severity and social factors determine ability to deploy after combat-related amputation .
+
+ppatt:
+	?a determine ?b
+		?a: Initial injury severity
+		?b: ability to deploy after combat-related amputation
+	?a determine ?b
+		?a: social factors
+		?b: ability to deploy after combat-related amputation
+	?a deploy after ?b
+		?a: ability
+		?b: combat-related amputation
+
+
+label:    sent_15
+sentence: Care should be taken to design and deploy a program that maximizes employee satisfaction .
+
+ppatt:
+	?a should be taken to design ?b
+		?a: Care
+		?b: a program that maximizes employee satisfaction
+	?a should be taken to deploy
+		?a: Care
+	?a maximizes ?b
+		?a: a program
+		?b: employee satisfaction
+
+
+label:    sent_16
+sentence: Poxviruses deploy genomic accordions to adapt rapidly against host antiviral defenses .
+
+ppatt:
+	?a deploy ?b to adapt rapidly against ?c
+		?a: Poxviruses
+		?b: genomic accordions
+		?c: host antiviral defenses
+
+
+label:    sent_17
+sentence: Male animals of many species deploy conditional reproductive strategies that contain distinct alternative phenotypes .
+
+ppatt:
+	?a deploy ?b
+		?a: Male animals of many species
+		?b: conditional reproductive strategies that contain distinct alternative phenotypes
+	?a contain ?b
+		?a: conditional reproductive strategies
+		?b: distinct alternative phenotypes
+
+
+label:    sent_18
+sentence: How much software can you deploy in one sitting ? They deploy with limited equipment and personnel to austere environments .
+
+ppatt:
+	How ?a can you deploy in ?b
+		?a: much software
+		?b: one sitting
+	?a deploy with ?b
+		?a: They
+		?b: limited equipment to austere environments
+	?a deploy with ?b
+		?a: They
+		?b: personnel
+
+
+label:    sent_19
+sentence: Military physicians deploy primarily to care for traumatic injuries . Each year , 40,000 French soldiers deploy or travel through malaria-endemic areas .
+
+ppatt:
+	?a deploy primarily to ?b
+		?a: Military physicians
+		?b: care for traumatic injuries
+	?a ?b deploy through ?c
+		?a: Each year
+		?b: 40,000 French soldiers
+		?c: malaria-endemic areas
+	?a travel
+		?a: Each year
+
+
+label:    sent_20
+sentence: We measured the ability to deploy and manipulate the capsule within the bladder .
+
+ppatt:
+	?a measured ?b
+		?a: We
+		?b: the ability to deploy and manipulate the capsule within the bladder
+	?a deploy ?b within ?c
+		?a: the ability
+		?b: the capsule
+		?c: the bladder
+	manipulate ?a
+		?a: the capsule
+
+

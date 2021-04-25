@@ -1,0 +1,219 @@
+label:    sent_1
+sentence: The results suggest that the majority of extant cyanobacteria descend from multicellular ancestors .
+
+ppatt:
+	?a suggest ?b
+		?a: The results
+		?b: SOMETHING := the majority of extant cyanobacteria descend from multicellular ancestors
+	?a descend from ?b
+		?a: the majority of extant cyanobacteria
+		?b: multicellular ancestors
+
+
+label:    sent_2
+sentence: Oral infection may rapidly descend into the mediastinum across the retropharyngeal and retrovisceral spaces .
+
+ppatt:
+	?a may rapidly descend into ?b across ?c
+		?a: Oral infection
+		?b: the mediastinum
+		?c: the retropharyngeal and retrovisceral spaces
+
+
+label:    sent_3
+sentence: Laboratory rat strains descend from Wistar rats as a consequence of artificial selection .
+
+ppatt:
+	?a descend from ?b as ?c
+		?a: Laboratory rat strains
+		?b: Wistar rats
+		?c: a consequence of artificial selection
+
+
+label:    sent_4
+sentence: The head of the second twin failed to descend with pushing .
+
+ppatt:
+	?a failed to descend with ?b
+		?a: The head of the second twin
+		?b: pushing
+
+
+label:    sent_5
+sentence: The testis began to descend with a reduced length of the cord .
+
+ppatt:
+	?a began to descend with ?b
+		?a: The testis
+		?b: a reduced length of the cord
+
+
+label:    sent_6
+sentence: Fibers in this tract appear to descend to the spinal cord .
+
+ppatt:
+	?a appear to descend to ?b
+		?a: Fibers in this tract
+		?b: the spinal cord
+
+
+label:    sent_7
+sentence: The hemorrhoids not only bulge , but descend into the lumen .
+
+ppatt:
+	?a not only bulge
+		?a: The hemorrhoids
+	?a descend into ?b
+		?a: The hemorrhoids
+		?b: the lumen
+
+
+label:    sent_8
+sentence: The side effects are slight and descend from the pharmacological properties of the preparation . TH-containing axons converge toward the ME and descend into the infundibulum .
+
+ppatt:
+	?a are slight
+		?a: The side effects
+	?a descend from ?b
+		?a: The side effects
+		?b: the pharmacological properties of the preparation
+	?a converge toward ?b
+		?a: TH-containing axons
+		?b: the ME
+	?a descend into ?b
+		?a: TH-containing axons
+		?b: the infundibulum
+
+
+label:    sent_9
+sentence: The gonads may descend slightly .
+
+ppatt:
+	?a may descend slightly
+		?a: The gonads
+
+
+label:    sent_10
+sentence: The posterior muscle fibers of this compartment always descend lower than the anterior fibers .
+
+ppatt:
+	?a always descend lower than ?b
+		?a: The posterior muscle fibers of this compartment
+		?b: the anterior fibers
+
+
+label:    sent_11
+sentence: The scores of Chinese medicine syndrome descend .
+
+ppatt:
+	?a descend
+		?a: The scores of Chinese medicine syndrome
+
+
+label:    sent_12
+sentence: The ability to ascend and descend steps improved .
+
+ppatt:
+	?a ascend ?b
+		?a: The ability
+		?b: steps improved
+	descend ?a
+		?a: steps improved
+	?a improved
+		?a: steps
+
+
+label:    sent_13
+sentence: Neuroprostheses enabling patients to ascend and descend stairs can provide real functional gain .
+
+ppatt:
+	?a enabling ?b
+		?a: Neuroprostheses
+		?b: patients
+	?a ascend ?b
+		?a: Neuroprostheses
+		?b: stairs
+	?a descend
+		?a: Neuroprostheses
+	?a can provide ?b
+		?a: Neuroprostheses enabling patients to ascend and descend stairs
+		?b: real functional gain
+
+
+label:    sent_14
+sentence: Time taken to ascend and descend a flight of stairs improved in all subjects .
+
+ppatt:
+	?a taken to ascend ?b
+		?a: Time
+		?b: a flight of stairs improved in all subjects
+	taken to descend ?a
+		?a: a flight of stairs improved in all subjects
+	?a improved in ?b
+		?a: stairs
+		?b: all subjects
+
+
+label:    sent_15
+sentence: It then continues to descend inferiorly between the middle and posterior axillary lines .
+
+ppatt:
+	?a then continues to descend inferiorly between ?b
+		?a: It
+		?b: middle
+	?a then continues to descend inferiorly between ?b
+		?a: It
+		?b: posterior
+	?a then continues to descend inferiorly between ?b
+		?a: It
+		?b: axillary
+
+
+label:    sent_16
+sentence: The laparoscopic approach is a safe way to descend the palpable testicle .
+
+ppatt:
+	?a is a safe way
+		?a: The laparoscopic approach
+	?a descend ?b
+		?a: a safe way
+		?b: the palpable testicle
+
+
+label:    sent_17
+sentence: Transfemoral amputees have decreased ability to descend ramps and hills .
+
+ppatt:
+	?a have ?b
+		?a: Transfemoral amputees
+		?b: decreased ability to descend ramps and hills
+	?a descend ?b
+		?a: decreased ability
+		?b: ramps
+	?a descend ?b
+		?a: decreased ability
+		?b: hills
+
+
+label:    sent_18
+sentence: Their axons always descend and terminate in broad fields in layer VI .
+
+ppatt:
+	?a always descend in ?b
+		?a: Their axons
+		?b: broad fields in layer VI
+	?a terminate
+		?a: Their axons
+
+
+label:    sent_19
+sentence: But the beneficial effect would descend and disappear after 2 years .
+
+ppatt:
+	?a would descend
+		?a: the beneficial effect
+	?a disappear after ?b
+		?a: the beneficial effect
+		?b: 2 years
+
+

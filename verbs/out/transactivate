@@ -1,0 +1,247 @@
+label:    sent_1
+sentence: Following xenobiotic stimuli , receptors translocate into the nucleus and transactivate its target genes . PAR bZIP proteins are able to transactivate the promoter of bcl-gS .
+
+ppatt:
+	Following ?a , ?b translocate into ?c
+		?a: xenobiotic stimuli
+		?b: receptors
+		?c: the nucleus
+	?a transactivate ?b
+		?a: receptors
+		?b: its target genes
+	?a are able to transactivate ?b
+		?a: PAR bZIP proteins
+		?b: the promoter of bcl-gS
+
+
+label:    sent_2
+sentence: The interaction between WT1 and p53 modulates their ability to transactivate their respective targets .
+
+ppatt:
+	?a modulates ?b
+		?a: The interaction between WT1 and p53
+		?b: their ability to transactivate their respective targets
+	?a transactivate ?b
+		?a: their ability
+		?b: their respective targets
+
+
+label:    sent_3
+sentence: Reporter gene assay indicated that Rb1 could transactivate ERbeta especially . p63 and p73 , members of the p53 gene family , transactivate PKCdelta . FOXM1c and Sp1 transactivate the P1 and P2 promoters of human c-myc synergistically .
+
+ppatt:
+	?a indicated ?b
+		?a: Reporter gene assay
+		?b: SOMETHING := Rb1 could transactivate ERbeta especially . p63 and p73
+	?a could transactivate ?b especially
+		?a: Rb1
+		?b: ERbeta
+	?a could transactivate especially ?b
+		?a: Rb1
+		?b: p63
+	?a is/are members of ?b
+		?a: p63
+		?b: the p53 gene family
+	?a is/are members of ?b
+		?a: p73
+		?b: the p53 gene family
+	?a transactivate ?b
+		?a: Rb1
+		?b: PKCdelta
+	?a transactivate ?b synergistically
+		?a: FOXM1c
+		?b: the P1 and P2 promoters of human c-myc
+	?a transactivate ?b synergistically
+		?a: Sp1
+		?b: the P1 and P2 promoters of human c-myc
+
+
+label:    sent_4
+sentence: As c-Myc heterodimerizes with Max to transactivate downstream target genes in leukemogenesis .
+
+ppatt:
+	?a heterodimerizes with ?b to transactivate ?c in ?d
+		?a: c-Myc
+		?b: Max
+		?c: downstream target genes
+		?d: leukemogenesis
+
+
+label:    sent_5
+sentence: PAF has the potential to transactivate EGFR in ovarian cancer cells .
+
+ppatt:
+	?a has ?b
+		?a: PAF
+		?b: the potential to transactivate EGFR in ovarian cancer cells
+	?a transactivate ?b in ?c
+		?a: the potential
+		?b: EGFR
+		?c: ovarian cancer cells
+
+
+label:    sent_6
+sentence: Thrombin has been shown to transactivate PAR2 through PAR1 .
+
+ppatt:
+	?a has been shown to transactivate ?b through ?c
+		?a: Thrombin
+		?b: PAR2
+		?c: PAR1
+
+
+label:    sent_7
+sentence: In addition , E2Fs transactivate bik by a p53-independent mechanism .
+
+ppatt:
+	In ?a , ?b transactivate ?c by ?d
+		?a: addition
+		?b: E2Fs
+		?c: bik
+		?d: a p53-independent mechanism
+
+
+label:    sent_8
+sentence: Simian virus 40 small-t does not transactivate RNA polymerase II promoters in virus infections .
+
+ppatt:
+	?a does not transactivate ?b in ?c
+		?a: Simian virus 40 small-t
+		?b: RNA polymerase II promoters
+		?c: virus infections
+
+
+label:    sent_9
+sentence: Low density lipoproteins transactivate EGF receptor : role in mesangial cell proliferation .
+
+ppatt:
+	?a transactivate ?b
+		?a: Low density lipoproteins
+		?b: EGF receptor
+
+
+label:    sent_10
+sentence: Yy1 and Ctcf associate through specific protein-protein interactions and together transactivate Tsix . DIM-Ph-4-CF ( 3 ) displaces 9-cis-retinoic acid from RXRalpha but does not transactivate RXRalpha .
+
+ppatt:
+	?a associate through ?b
+		?a: Yy1
+		?b: specific protein-protein interactions
+	?a associate through ?b
+		?a: Ctcf
+		?b: specific protein-protein interactions
+	?a together transactivate ?b
+		?a: Yy1
+		?b: Tsix
+	?a together transactivate ?b
+		?a: Ctcf
+		?b: Tsix
+	?a is/are 3
+		?a: DIM-Ph-4-CF
+	?a displaces ?b from ?c
+		?a: DIM-Ph-4-CF
+		?b: 9-cis-retinoic acid
+		?c: RXRalpha
+	?a does not transactivate ?b
+		?a: DIM-Ph-4-CF
+		?b: RXRalpha
+
+
+label:    sent_11
+sentence: Both p73 and p63 transactivate p53-regulated promoters and induce apoptosis .
+
+ppatt:
+	?a transactivate ?b
+		?a: p73
+		?b: p53-regulated promoters
+	?a transactivate ?b
+		?a: p63
+		?b: p53-regulated promoters
+	?a induce ?b
+		?a: p73
+		?b: apoptosis
+	?a induce ?b
+		?a: p63
+		?b: apoptosis
+
+
+label:    sent_12
+sentence: Myogenic regulatory factors transactivate the Tceal7 gene and modulate muscle differentiation .
+
+ppatt:
+	?a transactivate ?b
+		?a: Myogenic regulatory factors
+		?b: the Tceal7 gene
+	?a modulate ?b
+		?a: Myogenic regulatory factors
+		?b: muscle differentiation
+
+
+label:    sent_13
+sentence: Cholinergic agonists transactivate EGFR and stimulate MAPK to induce goblet cell secretion .
+
+ppatt:
+	?a transactivate ?b
+		?a: Cholinergic agonists
+		?b: EGFR
+	?a stimulate ?b to induce ?c
+		?a: Cholinergic agonists
+		?b: MAPK
+		?c: goblet cell secretion
+
+
+label:    sent_14
+sentence: In addition , FXR / RXR can bind to and transactivate through direct repeats .
+
+ppatt:
+	In ?a , ?b ?c can bind ?d
+		?a: addition
+		?b: FXR
+		?c: RXR
+		?d: to
+	?a transactivate through ?b
+		?a: FXR
+		?b: direct repeats
+
+
+label:    sent_15
+sentence: In these assays , NEUROD1 was found to transiently transactivate NEUROD2 in trophoblast cells .
+
+ppatt:
+	In ?a , ?b was found to transiently transactivate ?c in ?d
+		?a: these assays
+		?b: NEUROD1
+		?c: NEUROD2
+		?d: trophoblast cells
+
+
+label:    sent_16
+sentence: Upon cotransfection into non-T cells , TCF-1 could transactivate through its cognate motif .
+
+ppatt:
+	Upon ?a , ?b could transactivate through ?c
+		?a: cotransfection into non-T cells
+		?b: TCF-1
+		?c: its cognate motif
+
+
+label:    sent_17
+sentence: In addition GCNF does not transactivate through an SF-1 response element .
+
+ppatt:
+	In ?a ?b does not transactivate through ?c
+		?a: addition
+		?b: GCNF
+		?c: an SF-1 response element
+
+
+label:    sent_18
+sentence: Bright can not transactivate via out of context , concatenated binding sites .
+
+ppatt:
+	?a can not transactivate via of ?b ?c
+		?a: Bright
+		?b: out context
+		?c: concatenated binding sites
+
+

@@ -1,0 +1,303 @@
+label:    sent_1
+sentence: An educational program was developed to meet the needs and expectations of physicians .
+
+ppatt:
+	?a was developed to meet ?b
+		?a: An educational program
+		?b: the needs of physicians
+	?a was developed to meet ?b
+		?a: An educational program
+		?b: expectations
+
+
+label:    sent_2
+sentence: The technique can be refined to meet specific experimental requirements . IP collaboration facilitated the problem-solving needed to meet the complex needs of this patient .
+
+ppatt:
+	?a can be refined to meet ?b ?c
+		?a: The technique
+		?b: specific experimental requirements
+		?c: SOMETHING := IP collaboration facilitated the problem-solving needed to meet the complex needs of this patient
+	?a facilitated ?b
+		?a: IP collaboration
+		?b: the problem-solving needed to meet the complex needs of this patient
+	?a needed to meet ?b
+		?a: the problem-solving
+		?b: the complex needs of this patient
+
+
+label:    sent_3
+sentence: Most adults do not meet calcium intake recommendations .
+
+ppatt:
+	?a do not meet ?b
+		?a: Most adults
+		?b: calcium intake recommendations
+
+
+label:    sent_4
+sentence: However , transferral patients do not meet the defined time limits .
+
+ppatt:
+	However , ?a do not meet ?b
+		?a: transferral patients
+		?b: the defined time limits
+
+
+label:    sent_5
+sentence: Restructuring care in a federally qualified health center to better meet patients ' needs .
+
+ppatt:
+	?a better meet ?b ' needs
+		?a: Restructuring care in a federally qualified health center
+		?b: patients
+
+
+label:    sent_6
+sentence: Outcomes were compared between men who did and did not meet very-low-risk criteria .
+
+ppatt:
+	?a were compared between ?b
+		?a: Outcomes
+		?b: men who did and did not meet very-low-risk criteria
+	?a did did not meet ?b
+		?a: men
+		?b: very-low-risk criteria
+
+
+label:    sent_7
+sentence: TAZ was modestly higher than that predicted but did not meet physiologic requirements .
+
+ppatt:
+	?a was modestly higher than ?b
+		?a: TAZ
+		?b: that predicted
+	predicted
+	?a did not meet ?b
+		?a: TAZ
+		?b: physiologic requirements
+
+
+label:    sent_8
+sentence: The hospitals still have to meet basic overhead costs and profit margins .
+
+ppatt:
+	?a still have to meet ?b
+		?a: The hospitals
+		?b: basic overhead costs
+	?a still have to meet ?b
+		?a: The hospitals
+		?b: profit margins
+
+
+label:    sent_9
+sentence: Policymakers struggle with how to meet recommendations for IT program .
+
+ppatt:
+	?a struggle with how to meet ?b
+		?a: Policymakers
+		?b: recommendations for IT program
+
+
+label:    sent_10
+sentence: PET can detect disease at sites that do not meet size criteria by CT .
+
+ppatt:
+	?a can detect ?b at ?c
+		?a: PET
+		?b: disease
+		?c: sites that do not meet size criteria by CT
+	?a do not meet ?b
+		?a: sites
+		?b: size criteria by CT
+
+
+label:    sent_11
+sentence: Several complementary approaches that may help meet this demand in the future are reviewed .
+
+ppatt:
+	?a may help meet ?b
+		?a: Several complementary approaches
+		?b: this demand in the future
+	?a are reviewed
+		?a: Several complementary approaches that may help meet this demand in the future
+
+
+label:    sent_12
+sentence: College to meet SHA officials over new e-learning contract .
+
+ppatt:
+	?a meet ?b over ?c
+		?a: College
+		?b: SHA officials
+		?c: new e-learning contract
+
+
+label:    sent_13
+sentence: When signaling kinases meet histones and histone modifiers in the nucleus .
+
+ppatt:
+	When ?a meet ?b
+		?a: signaling kinases
+		?b: histones in the nucleus
+	When ?a meet ?b
+		?a: signaling kinases
+		?b: histone modifiers
+
+
+label:    sent_14
+sentence: Examinations of physical methods meet essential obstacles by granting of these criteria .
+
+ppatt:
+	?a meet ?b
+		?a: Examinations of physical methods
+		?b: essential obstacles
+	?a by granting of ?b
+		?a: Examinations of physical methods
+		?b: these criteria
+
+
+label:    sent_15
+sentence: Each material selected should meet the individual wear behavior and needs .
+
+ppatt:
+	?a selected
+		?a: Each material
+	?a should meet ?b
+		?a: Each material selected
+		?b: the individual wear behavior
+	?a needs
+		?a: Each material selected
+
+
+label:    sent_16
+sentence: Unfortunately , supply does not meet demand , and demand is increasing .
+
+ppatt:
+	Unfortunately , ?a does not meet ?b
+		?a: supply
+		?b: demand
+	?a is increasing
+		?a: demand
+
+
+label:    sent_17
+sentence: Forty-one women were diagnosed with GDM and 294 did not meet the GDM criteria .
+
+ppatt:
+	?a were diagnosed with ?b
+		?a: Forty-one women
+		?b: GDM
+	?a were diagnosed with ?b
+		?a: Forty-one women
+		?b: 294
+	?a did not meet ?b
+		?a: Forty-one women
+		?b: the GDM criteria
+
+
+label:    sent_18
+sentence: Members meet yearly to promote research , education and treatment of SpA . A toolkit to meet Tomorrow 's Doctors standards . When physics and biology meet : the nanoscale case . Maternal diet , aging and diabetes meet at a chromatin loop .
+
+ppatt:
+	?a meet yearly to promote ?b to meet ?c
+		?a: Members
+		?b: research
+		?c: Tomorrow 's Doctors standards
+	?a meet yearly to promote ?b to meet ?c
+		?a: Members
+		?b: education
+		?c: Tomorrow 's Doctors standards
+	?a meet yearly to promote ?b to meet ?c
+		?a: Members
+		?b: treatment of SpA
+		?c: Tomorrow 's Doctors standards
+	?a meet yearly to promote ?b to meet ?c
+		?a: Members
+		?b: A toolkit
+		?c: Tomorrow 's Doctors standards
+	When ?a meet
+		?a: physics
+	When ?a meet
+		?a: biology
+	?a is/are Maternal diet
+		?a: the nanoscale case
+	?a aging
+		?a: the nanoscale case
+	?a diabetes
+		?a: the nanoscale case
+	?a meet at ?b
+		?a: the nanoscale case
+		?b: a chromatin loop
+
+
+label:    sent_19
+sentence: The exchange can not occur if the strings meet with very large relative velocity . Copper and nitric oxide meet in the plasma . When cells and microbes meet in Krakow .
+
+ppatt:
+	?a can not occur
+		?a: The exchange
+	?a meet with ?b
+		?a: the strings
+		?b: very large relative velocity
+	?a meet in ?b
+		?a: Copper
+		?b: the plasma
+	?a meet in ?b
+		?a: nitric oxide
+		?b: the plasma
+	When ?a meet in ?b
+		?a: cells
+		?b: Krakow
+	When ?a meet in ?b
+		?a: microbes
+		?b: Krakow
+
+
+label:    sent_20
+sentence: Why Bush and science may yet meet in the middle . [Followers of Freud meet in Germany ] . They meet patients in the hospital and follow them for 30 days after discharge .
+
+ppatt:
+	Why ?a may yet meet in ?b
+		?a: Bush
+		?b: the middle
+	Why ?a may yet meet in ?b
+		?a: science
+		?b: the middle
+	?a meet in ?b
+		?a: [Followers of Freud
+		?b: Germany ]
+	?a meet ?b
+		?a: They
+		?b: patients in the hospital
+	?a follow ?b for ?c after
+		?a: They
+		?b: them
+		?c: 30 days
+
+
+label:    sent_21
+sentence: In contrast , these mechanical strengths meet the standard values and fulfill the requirements .
+
+ppatt:
+	In ?a , ?b meet ?c
+		?a: contrast
+		?b: these mechanical strengths
+		?c: the standard values
+	?a fulfill ?b
+		?a: these mechanical strengths
+		?b: the requirements
+
+
+label:    sent_22
+sentence: Of these , 52 did not meet the inclusion criteria and were excluded .
+
+ppatt:
+	Of ?a , ?b did not meet ?c
+		?a: these
+		?b: 52
+		?c: the inclusion criteria
+	?a were excluded
+		?a: 52
+
+

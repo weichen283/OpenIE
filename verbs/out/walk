@@ -1,0 +1,281 @@
+label:    sent_1
+sentence: All cats were able to walk within five days of surgery . Postoperatively , all patients were able to walk on flat ground .
+
+ppatt:
+	?a were able to walk within ?b
+		?a: All cats
+		?b: five days of surgery
+	Postoperatively , ?a were able to walk on ?b
+		?a: all patients
+		?b: flat ground
+
+
+label:    sent_2
+sentence: The crickets were allowed to walk freely inside the container for a constant period .
+
+ppatt:
+	?a were allowed to walk freely inside ?b for ?c
+		?a: The crickets
+		?b: the container
+		?c: a constant period
+
+
+label:    sent_3
+sentence: Most public transit users walk to and from transit .
+
+ppatt:
+	?a walk ?b
+		?a: Most public transit users
+		?b: from
+	?a walk ?b
+		?a: Most public transit users
+		?b: to transit
+
+
+label:    sent_4
+sentence: Hospital-based training enabled participants to walk for longer periods . A stress-free walk from Arabidopsis to crops .
+
+ppatt:
+	?a enabled ?b
+		?a: Hospital-based training
+		?b: participants to walk for longer periods A stress-free walk from Arabidopsis to crops
+	?a walk for ?b ?c
+		?a: participants
+		?b: longer periods
+		?c: A stress-free walk from Arabidopsis to crops
+
+
+label:    sent_5
+sentence: He walked with a limp and was unable to walk a long distance .
+
+ppatt:
+	?a walked with ?b
+		?a: He
+		?b: a limp
+	walk ?a
+		?a: a long distance
+
+
+label:    sent_6
+sentence: Steps and time taken to walk 9.144 meters were measured .
+
+ppatt:
+	?a taken to walk ?b
+		?a: Steps
+		?b: 9.144 meters
+	?a taken to walk ?b
+		?a: time
+		?b: 9.144 meters
+	?a were measured
+		?a: Steps taken to walk 9.144 meters
+	?a were measured
+		?a: time
+
+
+label:    sent_7
+sentence: We trained ants to walk routes within channels that included ascents and descents .
+
+ppatt:
+	?a trained ?b to walk ?c
+		?a: We
+		?b: ants
+		?c: routes within channels that included ascents and descents
+	?a included ?b
+		?a: channels
+		?b: ascents
+	?a included ?b
+		?a: channels
+		?b: descents
+
+
+label:    sent_8
+sentence: Two patients in group SF could not walk during the PACU stay .
+
+ppatt:
+	?a could not walk during ?b
+		?a: Two patients in group SF
+		?b: the PACU stay
+
+
+label:    sent_9
+sentence: Less than one-quarter of California adults walk regularly . How far do nurses walk ? She had widespread joint pain and could hardly walk without the help . Retail health clinics : should you walk in or walk on by ? He regained the ability to walk with assistance , and continued taking corticosteroid .
+
+ppatt:
+	than ?a walk regularly
+		?a: Less one-quarter of California adults
+	How far do ?a walk
+		?a: nurses
+	?a had ?b
+		?a: She
+		?b: widespread joint pain
+	?a could hardly walk without ?b
+		?a: She
+		?b: the help . Retail health clinics
+	?a should you walk ?b
+		?a: She
+		?b: in
+	?a walk
+		?a: She
+	?a ?b regained ?c
+		?a: on
+		?b: He
+		?c: the ability to walk with assistance
+	?a walk with ?b
+		?a: the ability
+		?b: assistance
+	?a continued taking ?b
+		?a: He
+		?b: corticosteroid
+
+
+label:    sent_10
+sentence: Pain relief was sustained and he could walk after 2 weeks of infusion .
+
+ppatt:
+	?a was sustained
+		?a: Pain relief
+	?a could walk after ?b
+		?a: he
+		?b: 2 weeks of infusion
+
+
+label:    sent_11
+sentence: Fourteen patients needed a walking frame and twenty could walk without a walking frame .
+
+ppatt:
+	?a needed ?b
+		?a: Fourteen patients
+		?b: a walking frame
+	?a could walk without ?b
+		?a: twenty
+		?b: a walking frame
+
+
+label:    sent_12
+sentence: All patients could walk with horizontal vision and lie on their backs postoperatively .
+
+ppatt:
+	?a could walk with ?b
+		?a: All patients
+		?b: horizontal vision
+	?a lie on ?b postoperatively
+		?a: All patients
+		?b: their backs
+
+
+label:    sent_13
+sentence: The others were able to walk and leave hospital .
+
+ppatt:
+	?a were able to walk ?b
+		?a: The others
+		?b: hospital
+	?a were able to leave
+		?a: The others
+
+
+label:    sent_14
+sentence: In another ten years , he became unable to stand or walk unaided .
+
+ppatt:
+	In ?a , ?b became unable to stand ?c
+		?a: another ten years
+		?b: he
+		?c: unaided
+	?a became unable to walk
+		?a: he
+
+
+label:    sent_15
+sentence: Then they had to either actually walk or imagine themselves walking to the target .
+
+ppatt:
+	Then ?a had to either actually walk ?b
+		?a: they
+		?b: themselves walking to the target
+	Then ?a had to either imagine
+		?a: they
+	?a walking to ?b
+		?a: themselves
+		?b: the target
+
+
+label:    sent_16
+sentence: Eighteen patients were unable to walk 150 feet without help or stopping . Patients were able to walk upstairs without support at 4 weeks .
+
+ppatt:
+	?a were unable to walk ?b
+		?a: Eighteen patients
+		?b: 150 feet
+	?a help
+		?a: Eighteen patients
+	?a stopping
+		?a: Eighteen patients
+	?a were able to walk ?b without ?c at ?d
+		?a: Patients
+		?b: upstairs
+		?c: support
+		?d: 4 weeks
+
+
+label:    sent_17
+sentence: All subjects were required to walk barefoot during testing .
+
+ppatt:
+	?a were required to walk ?b during ?c
+		?a: All subjects
+		?b: barefoot
+		?c: testing
+
+
+label:    sent_18
+sentence: The need for randomized trials in mesothelioma : let 's walk the talk . The man who could not walk backward : an unusual presentation of neuroferritinopathy .
+
+ppatt:
+	?a could not walk ?b
+		?a: The man
+		?b: backward
+
+
+label:    sent_19
+sentence: Time to ' walk the walk ' about industry ties to enhance health .
+
+ppatt:
+	?a ties to enhance ?b
+		?a: Time about industry
+		?b: health
+
+
+label:    sent_20
+sentence: He can walk and speak fluently , but with cordonal ataxy of the limbs . Six animals recovered : two could stand and four could walk .
+
+ppatt:
+	?a can walk fluently , but with cordonal ataxy of the limbs
+		?a: He
+	?a speak
+		?a: He
+	?a recovered
+		?a: Six animals
+	?a could stand
+		?a: two
+	?a could walk
+		?a: four
+
+
+label:    sent_21
+sentence: He could not walk veering to right and spontaneous contrarateral horizontal nystagmus was noted .
+
+ppatt:
+	?a could not walk ?b
+		?a: He
+		?b: veering to right and spontaneous
+	?a veering to ?b
+		?a: He
+		?b: right
+	?a veering to ?b
+		?a: He
+		?b: spontaneous
+	?a was noted
+		?a: contrarateral horizontal nystagmus
+
+

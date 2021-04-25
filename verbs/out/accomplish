@@ -1,0 +1,313 @@
+label:    sent_1
+sentence: However , little evidence-based data exist regarding how to accomplish these goals . SERS nanotags have been prepared to accomplish the multiplex detection of cancer cells .
+
+ppatt:
+	However , ?a exist regarding how to accomplish ?b
+		?a: little evidence-based data
+		?b: these goals
+	?a have been prepared to accomplish ?b
+		?a: SERS nanotags
+		?b: the multiplex detection of cancer cells
+
+
+label:    sent_2
+sentence: We describe a technique that uses a modified anterolateral thoracotomy to accomplish pneumonectomy .
+
+ppatt:
+	?a describe ?b
+		?a: We
+		?b: a technique that uses a modified anterolateral thoracotomy to accomplish pneumonectomy
+	?a uses ?b to accomplish ?c
+		?a: a technique
+		?b: a modified anterolateral thoracotomy
+		?c: pneumonectomy
+
+
+label:    sent_3
+sentence: Nevertheless , none of those coagulants could accomplish high coliphage ( CP ) removal .
+
+ppatt:
+	Nevertheless , ?a could accomplish ?b
+		?a: none of those coagulants
+		?b: high coliphage removal
+	?a is/are CP
+		?a: coliphage
+
+
+label:    sent_4
+sentence: Brown a person with the knowledge and abilities to accomplish these tasks . What drug can accomplish this , much less for pennies a day ? We accomplish these objectives by combining observational learning with experiential learning .
+
+ppatt:
+	?a accomplish ?b
+		?a: the knowledge
+		?b: these tasks
+	?a accomplish ?b
+		?a: abilities
+		?b: these tasks
+	?a ?b can accomplish ?c
+		?a: Brown a person with the knowledge and abilities to accomplish these tasks
+		?b: What drug
+		?c: this
+	?a much less for pennies ?b
+		?a: What drug
+		?b: a day
+	?a ?b accomplish ?c
+		?a: Brown a person with the knowledge and abilities to accomplish these tasks . What drug can accomplish this , much less for pennies a day
+		?b: We
+		?c: these objectives
+	?a combining ?b
+		?a: Brown a person with the knowledge and abilities to accomplish these tasks . What drug can accomplish this , much less for pennies a day
+		?b: observational learning with experiential learning
+
+
+label:    sent_5
+sentence: Telomeres accomplish this feat by forming a unique higher order nucleoprotein structure .
+
+ppatt:
+	?a accomplish ?b
+		?a: Telomeres
+		?b: this feat
+	?a forming ?b
+		?a: Telomeres
+		?b: a unique higher order nucleoprotein structure
+
+
+label:    sent_6
+sentence: In part , those cells accomplish suppression by releasing soluble suppressor factors .
+
+ppatt:
+	In ?a , ?b accomplish ?c
+		?a: part
+		?b: those cells
+		?c: suppression
+	?a releasing ?b
+		?a: those cells
+		?b: soluble suppressor factors
+
+
+label:    sent_7
+sentence: Physician extenders are recommended to accomplish more effective hip screening in this country .
+
+ppatt:
+	?a are recommended to accomplish ?b
+		?a: Physician extenders
+		?b: more effective hip screening in this country
+
+
+label:    sent_8
+sentence: He was able to accomplish all this through his talent for working collaboratively .
+
+ppatt:
+	?a was able to accomplish ?b through ?c
+		?a: He
+		?b: this
+		?c: his talent
+	?a working collaboratively
+		?a: this
+
+
+label:    sent_9
+sentence: This article provides information to physicians on how to best accomplish this task . Publish or perish : how to accomplish the former and avoid the latter .
+
+ppatt:
+	?a provides ?b
+		?a: This article
+		?b: information to physicians
+	?a how to best accomplish ?b
+		?a: This article
+		?b: this task
+	?a Publish
+		?a: This article
+	?a perish
+		?a: This article
+	?a how to accomplish ?b
+		?a: This article
+		?b: the former
+	?a how to accomplish ?b
+		?a: This article
+		?b: avoid the latter
+	avoid ?a
+		?a: the latter
+
+
+label:    sent_10
+sentence: To accomplish this , working groups have been formed and domains identified .
+
+ppatt:
+	accomplish ?a ?b
+		?a: this
+		?b: working groups
+	?a have been formed
+		?a: working groups
+	?a identified
+		?a: domains
+
+
+label:    sent_11
+sentence: Pigmentation of body surface in animals can have multiple determinants and accomplish diverse functions .
+
+ppatt:
+	?a can have ?b
+		?a: Pigmentation of body surface in animals
+		?b: multiple determinants
+	?a accomplish ?b
+		?a: Pigmentation of body surface in animals
+		?b: diverse functions
+
+
+label:    sent_12
+sentence: Screening for both conditions was considered relatively easy to accomplish by the hospice staff .
+
+ppatt:
+	?a was considered relatively easy to accomplish by ?b
+		?a: Screening for both conditions
+		?b: the hospice staff
+
+
+label:    sent_13
+sentence: This procedure is often difficult or impossible to accomplish in this patient group .
+
+ppatt:
+	?a is often difficult to accomplish in ?b
+		?a: This procedure
+		?b: this patient group
+	?a impossible
+		?a: This procedure
+
+
+label:    sent_14
+sentence: Veterinarians should first decide what functions they want a computer to accomplish for them .
+
+ppatt:
+	?a should first decide ?b
+		?a: Veterinarians
+		?b: SOMETHING := what functions they want a computer to accomplish for them
+	?a ?b ?c want ?d
+		?a: what
+		?b: functions
+		?c: they
+		?d: a computer to accomplish for them
+	?a accomplish for ?b
+		?a: a computer
+		?b: them
+
+
+label:    sent_15
+sentence: Shocks accomplish this goal but are painful .
+
+ppatt:
+	?a accomplish ?b
+		?a: Shocks
+		?b: this goal
+
+
+label:    sent_16
+sentence: We could accomplish the operation uneventfully and he was discharged on POD 53 .
+
+ppatt:
+	?a could accomplish ?b uneventfully
+		?a: We
+		?b: the operation
+	?a was discharged on ?b
+		?a: he
+		?b: POD 53
+
+
+label:    sent_17
+sentence: Amputation will accomplish this in most cases but a prosthesis is required .
+
+ppatt:
+	?a will accomplish ?b in ?c
+		?a: Amputation
+		?b: this
+		?c: most cases
+	?a is required
+		?a: a prosthesis
+
+
+label:    sent_18
+sentence: In the 1980s , pharmaceutical education has three goals to accomplish .
+
+ppatt:
+	In ?a , ?b has ?c to accomplish
+		?a: the 1980s
+		?b: pharmaceutical education
+		?c: three goals
+
+
+label:    sent_19
+sentence: The cells accomplish the icl-variant of serine pathway .
+
+ppatt:
+	?a accomplish ?b
+		?a: The cells
+		?b: the icl-variant of serine pathway
+
+
+label:    sent_20
+sentence: Your own five-year plan : what do you want to accomplish ? The mechanisms by which organisms accomplish this adaptation are not well understood .
+
+ppatt:
+	?a ?b do you want to accomplish
+		?a: Your own five-year plan
+		?b: what
+	?a by ?b accomplish ?c
+		?a: The mechanisms
+		?b: organisms
+		?c: this adaptation
+	?a ?b are not well understood
+		?a: Your own five-year plan : what do you want to accomplish
+		?b: The mechanisms by which organisms accomplish this adaptation
+
+
+label:    sent_21
+sentence: The mechanism by which the pyloric neurons accomplish phase maintenance is currently not obvious .
+
+ppatt:
+	?a by ?b accomplish ?c
+		?a: The mechanism
+		?b: the pyloric neurons
+		?c: phase maintenance
+	?a is currently not obvious
+		?a: The mechanism by which the pyloric neurons accomplish phase maintenance
+
+
+label:    sent_22
+sentence: The mechanisms by which they accomplish this remain obscure . Circulators ' number depends on goals to accomplish .
+
+ppatt:
+	?a by ?b accomplish ?c
+		?a: The mechanisms
+		?b: they
+		?c: this
+	?a remain obscure
+		?a: The mechanisms by which they accomplish this
+	?a depends on ?b
+		?a: Circulators ' number
+		?b: goals to accomplish
+	?a accomplish
+		?a: goals
+
+
+label:    sent_23
+sentence: This study has been accomplish in pre-school children attending to the Federal Education System .
+
+ppatt:
+	?a has been accomplish in ?b
+		?a: This study
+		?b: pre-school children attending to the Federal Education System
+	?a attending to ?b
+		?a: pre-school children
+		?b: the Federal Education System
+
+
+label:    sent_24
+sentence: Read and be proud of what nurses can accomplish .
+
+ppatt:
+	?a be proud
+		?a: Read
+	?a can accomplish
+		?a: what nurses
+
+

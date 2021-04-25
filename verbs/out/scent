@@ -1,0 +1,17 @@
+label:    sent_1
+sentence: A Belgian Malinois shepherd was trained by the clicker training method ( operant conditioning ) to scent and recognize urine of people having PCa .
+
+ppatt:
+	?a was trained by ?b
+		?a: A Belgian Malinois shepherd
+		?b: the clicker training method to scent
+	?a is/are operant conditioning
+		?a: the clicker training method to scent
+	?a recognize ?b
+		?a: A Belgian Malinois shepherd
+		?b: urine of people having PCa
+	?a having ?b
+		?a: people
+		?b: PCa
+
+

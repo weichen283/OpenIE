@@ -1,0 +1,235 @@
+label:    sent_1
+sentence: Combination of prescribing restrictions and policies to engineer low prices to reduce reimbursement costs .
+
+ppatt:
+	?a engineer ?b to reduce ?c
+		?a: Combination of prescribing restrictions and policies
+		?b: low prices
+		?c: reimbursement costs
+
+
+label:    sent_2
+sentence: Isolating and defining cells to engineer human blood vessels .
+
+ppatt:
+	Isolating ?a
+		?a: cells
+	defining ?a
+		?a: cells
+	engineer ?a
+		?a: human blood vessels
+
+
+label:    sent_3
+sentence: Considerable efforts were made to genetically engineer S. cerevisiae to ferment xylose .
+
+ppatt:
+	?a were made to genetically engineer ?b to ferment ?c
+		?a: Considerable efforts
+		?b: S. cerevisiae
+		?c: xylose
+
+
+label:    sent_4
+sentence: Design of experiments approach to engineer cell-secreted matrices for directing osteogenic differentiation .
+
+ppatt:
+	?a approach to engineer ?b
+		?a: Design of experiments
+		?b: cell-secreted matrices
+	?a directing ?b
+		?a: cell-secreted matrices
+		?b: osteogenic differentiation
+
+
+label:    sent_5
+sentence: Many efforts have been made to engineer stress tolerance by accumulating polyols .
+
+ppatt:
+	?a have been made to engineer ?b
+		?a: Many efforts
+		?b: stress tolerance
+	?a accumulating ?b
+		?a: Many efforts
+		?b: polyols
+
+
+label:    sent_6
+sentence: Here , we attempted to engineer this protein for targeting purposes .
+
+ppatt:
+	Here , ?a attempted to engineer ?b for ?c
+		?a: we
+		?b: this protein
+		?c: targeting purposes
+
+
+label:    sent_7
+sentence: Sequential assembly of cell-laden hydrogel constructs to engineer vascular-like microchannels .
+
+ppatt:
+	?a engineer ?b
+		?a: Sequential assembly of cell-laden hydrogel constructs
+		?b: vascular-like microchannels
+
+
+label:    sent_8
+sentence: Stress responsive DEAD-box helicases : a new pathway to engineer plant stress tolerance .
+
+ppatt:
+	?a engineer ?b
+		?a: a new pathway
+		?b: plant stress tolerance
+
+
+label:    sent_9
+sentence: Do they also engineer brain cell death and deterioration ? These results suggest novel approaches to foster stable cell-cell adhesion and engineer tissues .
+
+ppatt:
+	Do ?a also engineer ?b
+		?a: they
+		?b: brain cell
+	Do ?a also engineer ?b
+		?a: they
+		?b: deterioration
+	?a suggest ?b
+		?a: These results
+		?b: novel approaches to foster stable cell-cell adhesion and engineer tissues
+	?a foster ?b
+		?a: novel approaches
+		?b: stable cell-cell adhesion
+	engineer ?a
+		?a: tissues
+
+
+label:    sent_10
+sentence: The time has come to engineer tissues and not just tissue engineer .
+
+ppatt:
+	?a has come to engineer ?b
+		?a: The time
+		?b: tissues
+	?a has come to engineer ?b
+		?a: The time
+		?b: tissue engineer
+
+
+label:    sent_11
+sentence: Hijacking nature -- new approaches to unravel enzyme mechanisms and engineer improved biocatalysts .
+
+ppatt:
+	?a unravel ?b
+		?a: new approaches
+		?b: enzyme mechanisms
+	engineer ?a
+		?a: improved biocatalysts
+
+
+label:    sent_12
+sentence: Here , we engineer Drosophila hypomorphic for ADAR expression using homologous recombination .
+
+ppatt:
+	Here , ?a engineer ?b using ?c
+		?a: we
+		?b: Drosophila hypomorphic for ADAR expression
+		?c: homologous recombination
+
+
+label:    sent_13
+sentence: Transcription factors as tools to engineer enhanced drought stress tolerance in plants .
+
+ppatt:
+	?a engineer ?b
+		?a: tools
+		?b: enhanced drought stress tolerance in plants
+
+
+label:    sent_14
+sentence: Synthetic biologists engineer systems with desired properties from simple and well-characterized biological parts .
+
+ppatt:
+	?a engineer ?b
+		?a: Synthetic biologists
+		?b: systems with desired properties from simple and well-characterized biological parts
+
+
+label:    sent_15
+sentence: Consequently , there is considerable interest in technologies to engineer and manufacture them .
+
+ppatt:
+	Consequently , there is ?a in ?b
+		?a: considerable interest
+		?b: technologies to engineer and manufacture them
+	?a engineer ?b
+		?a: technologies
+		?b: them
+	manufacture ?a
+		?a: them
+
+
+label:    sent_16
+sentence: Human antibody libraries : a race to engineer and explore a larger diversity .
+
+ppatt:
+	explore ?a
+		?a: a larger diversity
+
+
+label:    sent_17
+sentence: Using affinity chromatography to engineer and characterize pH-dependent protein switches .
+
+ppatt:
+	Using ?a
+		?a: affinity chromatography
+	engineer ?a
+		?a: pH-dependent protein switches
+	characterize ?a
+		?a: pH-dependent protein switches
+
+
+label:    sent_18
+sentence: Graduate journal : from biochemist to engineer . From aircraft engineer to FBI suspect .
+
+ppatt:
+	?a engineer . From ?b
+		?a: Graduate journal : from biochemist
+		?b: aircraft engineer to FBI
+	?a suspect
+		?a: Graduate journal : from biochemist to engineer . From aircraft engineer to FBI
+
+
+label:    sent_19
+sentence: Simpler biological systems should be easier to understand and to engineer towards pre-defined goals .
+
+ppatt:
+	?a should be easier to understand
+		?a: Simpler biological systems
+	?a should be easier to to engineer towards ?b
+		?a: Simpler biological systems
+		?b: pre-defined goals
+
+
+label:    sent_20
+sentence: Non-linear density-dependent effects of an intertidal ecosystem engineer . Nutrition engineer . Memoirs of an early heart-valve engineer .
+
+ppatt:
+	?a engineer ?b
+		?a: Non-linear density-dependent effects of an intertidal ecosystem engineer . Nutrition
+		?b: Memoirs of an early heart-valve engineer
+
+
+label:    sent_21
+sentence: We engineer a conditional null-mutant and show that TgTic20 is essential for parasite growth .
+
+ppatt:
+	?a engineer ?b
+		?a: We
+		?b: a conditional null-mutant
+	?a show ?b
+		?a: We
+		?b: SOMETHING := TgTic20 is essential for parasite growth
+	?a is essential for ?b
+		?a: TgTic20
+		?b: parasite growth
+
+

@@ -1,0 +1,224 @@
+label:    sent_1
+sentence: How to write a rave review . How to write a RAC appeal letter .
+
+ppatt:
+	How to write ?a
+		?a: a rave review
+	How to write ?a
+		?a: a RAC appeal letter
+
+
+label:    sent_2
+sentence: How to write a scientific paper --and win the game scientists play ! [How to write an original article for a biomedical journal ] . Disclosing adverse events : you said it , now write it . Determining what type of article to write .
+
+ppatt:
+	How to write ?a
+		?a: a scientific paper
+	win ?a
+		?a: the game scientists
+	play ! ?a to write ?b . Disclosing ?c
+		?a: [How
+		?b: an original article for a biomedical journal ]
+		?c: adverse events
+	?a said ?b
+		?a: you
+		?b: it
+	?a now write ?b . Determining ?c to write
+		?a: you
+		?b: it
+		?c: what type of article
+
+
+label:    sent_3
+sentence: This alternative to commonly used ultra-short femtosecond lasers extends accessibility of 3D direct write .
+
+ppatt:
+	?a extends ?b
+		?a: This alternative to commonly used ultra-short femtosecond lasers
+		?b: accessibility of 3D direct write
+
+
+label:    sent_4
+sentence: Teaching students to write for publication . Developing the motivation to write for publication .
+
+ppatt:
+	Teaching ?a
+		?a: students
+	write for ?a Developing ?b
+		?a: publication
+		?b: the motivation to write for publication
+	?a write for ?b
+		?a: the motivation
+		?b: publication
+
+
+label:    sent_5
+sentence: Transplant recipients are encouraged to write anonymous thank-you letters to the donor family .
+
+ppatt:
+	?a are encouraged to write ?b to ?c
+		?a: Transplant recipients
+		?b: anonymous thank-you letters
+		?c: the donor family
+
+
+label:    sent_6
+sentence: Three-dimensional micro-/nano-structuring via direct write polymerization with picosecond laser pulses .
+
+ppatt:
+
+
+
+label:    sent_7
+sentence: How to write health dialog for a talking computer . 3 ) Physicians need to write better death certificates and correct them .
+
+ppatt:
+	How to write ?a for ?b ?c
+		?a: health dialog
+		?b: a talking computer
+		?c: Physicians
+	?a need to write ?b
+		?a: Physicians
+		?b: better death certificates
+	?a correct ?b
+		?a: Physicians
+		?b: them
+
+
+label:    sent_8
+sentence: Her chief complaint was the inability to read and write kanji .
+
+ppatt:
+	?a was the inability
+		?a: Her chief complaint
+	?a read ?b
+		?a: the inability
+		?b: kanji
+	?a write
+		?a: Her chief complaint
+
+
+label:    sent_9
+sentence: Encouraging medical students to do research and write papers . Read , write , and forget science .
+
+ppatt:
+	Encouraging ?a
+		?a: medical students
+	do research ?a
+		?a: papers
+	write ?a
+		?a: papers
+	?a ?b write
+		?a: SOMETHING := Encouraging medical students to do research and write papers
+		?b: Read
+	?a forget ?b
+		?a: Encouraging medical students to do research and write papers
+		?b: science
+
+
+label:    sent_10
+sentence: Reporting words from the eye or the ear : to write or to speak ? How to write OR process standards .
+
+ppatt:
+	Reporting ?a
+		?a: words from the eye or the ear
+	speak ? How to write ?a
+		?a: OR process standards
+
+
+label:    sent_11
+sentence: In this presentation , I write about the development of glaucoma knowledge and management .
+
+ppatt:
+	In ?a , ?b write about ?c
+		?a: this presentation
+		?b: I
+		?c: the development of glaucoma
+
+
+label:    sent_12
+sentence: Step write into publishing , Part I . Step write into publishing , Part II .
+
+ppatt:
+	?a write into ?b
+		?a: Step
+		?b: publishing
+	?a is/are Part I
+		?a: publishing
+	?a write into ?b
+		?a: Step
+		?b: publishing
+	?a is/are Part II
+		?a: publishing
+
+
+label:    sent_13
+sentence: In addition , the surgical scholar may also write chapters , editorials and commentaries . NPs write prescriptions regardless of enabling legislation .
+
+ppatt:
+	In ?a , ?b may also write ?c
+		?a: addition
+		?b: the surgical scholar
+		?c: chapters
+	In ?a , ?b may also write ?c
+		?a: addition
+		?b: the surgical scholar
+		?c: editorials
+	?a write ?b regardless
+		?a: NPs
+		?b: prescriptions
+	?a enabling ?b
+		?a: NPs
+		?b: legislation
+
+
+label:    sent_14
+sentence: At present all the machines write files in different formats . Please write soon .
+
+ppatt:
+	At ?a ?b write ?c in ?d
+		?a: present
+		?b: all the machines
+		?c: files
+		?d: different formats
+	?a write soon
+		?a: Please
+
+
+label:    sent_15
+sentence: They were asked to describe themselves and the letters they write .
+
+ppatt:
+	?a were asked to describe ?b
+		?a: They
+		?b: themselves
+	were asked to ?a ?b write
+		?a: the letters
+		?b: they
+
+
+label:    sent_16
+sentence: When adolescents write : semiotic and social dimensions of adolescents ' personal writing .
+
+ppatt:
+	When ?a write ?b
+		?a: adolescents
+		?b: semiotic and social dimensions of adolescents ' personal writing
+
+
+label:    sent_17
+sentence: When a patient can write but not copy : report of a single case .
+
+ppatt:
+	When ?a can write ?b
+		?a: a patient
+		?b: copy
+
+
+label:    sent_18
+sentence: Should non-Maori research and write about Maori ? Why senior epidemiologists should write and publish papers .
+
+ppatt:
+
+
+

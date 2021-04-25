@@ -1,0 +1,218 @@
+label:    sent_1
+sentence: Patients may be unable to inflate the device and return for evaluation .
+
+ppatt:
+	?a may be unable to inflate ?b
+		?a: Patients
+		?b: the device
+	?a may be unable to return for ?b
+		?a: Patients
+		?b: evaluation
+
+
+label:    sent_2
+sentence: The definitive technique used hydrogen peroxide to identify lymphatic vessels and to inflate them .
+
+ppatt:
+	?a used ?b to identify ?c
+		?a: The definitive technique
+		?b: hydrogen peroxide
+		?c: lymphatic vessels
+	?a used to to inflate ?b
+		?a: The definitive technique
+		?b: them
+
+
+label:    sent_3
+sentence: Hydrogen peroxide was used to identify and inflate the lymphatic vessels .
+
+ppatt:
+	?a was used to identify ?b
+		?a: Hydrogen peroxide
+		?b: the lymphatic vessels
+	?a was used to inflate
+		?a: Hydrogen peroxide
+
+
+label:    sent_4
+sentence: Newborns : inflate the lungs with bag-valve mask ventilation .
+
+ppatt:
+
+
+
+label:    sent_5
+sentence: Increased diagnostic activity ( e.g. , screening ) can inflate both incidence and survival .
+
+ppatt:
+	?a is/are e.g. , screening
+		?a: Increased diagnostic activity
+	?a can inflate ?b
+		?a: Increased diagnostic activity
+		?b: incidence
+	?a can inflate ?b
+		?a: Increased diagnostic activity
+		?b: survival
+
+
+label:    sent_6
+sentence: Although more complex substitution models reduce systematic error , they also inflate stochastic error . Lag was observed to inflate DQE measurements by up to 50 % when ignored .
+
+ppatt:
+	?a reduce ?b
+		?a: more complex substitution models
+		?b: systematic error
+	?a also inflate ?b
+		?a: they
+		?b: stochastic error
+	?a was observed to inflate ?b by ?c
+		?a: Lag
+		?b: DQE measurements
+		?c: up 50 %
+	?a when ignored
+		?a: Lag
+
+
+label:    sent_7
+sentence: Departures from normality can inflate the type I error and reduce the power .
+
+ppatt:
+	?a can inflate ?b
+		?a: Departures from normality
+		?b: the type I error
+	?a reduce ?b
+		?a: Departures from normality
+		?b: the power
+
+
+label:    sent_8
+sentence: Mammals must inflate their lungs and breathe within minutes of birth to survive .
+
+ppatt:
+	?a must inflate ?b
+		?a: Mammals
+		?b: their lungs
+	?a breathe within ?b to survive
+		?a: Mammals
+		?b: minutes of birth
+
+
+label:    sent_9
+sentence: Systematic biases may obscure or inflate associations with self-reported intakes .
+
+ppatt:
+	?a may obscure ?b
+		?a: Systematic biases
+		?b: associations with self-reported intakes
+	?a inflate
+		?a: Systematic biases
+
+
+label:    sent_10
+sentence: They died rapidly after birth , failing to inflate their lungs or oxygenate .
+
+ppatt:
+	?a died rapidly after ?b , failing to inflate ?c
+		?a: They
+		?b: birth
+		?c: their lungs
+	?a died rapidly after ?b , failing to inflate ?c
+		?a: They
+		?b: birth
+		?c: oxygenate
+
+
+label:    sent_11
+sentence: Repeated imagery did not inflate unconscious plagiarism on either task .
+
+ppatt:
+	?a did not inflate ?b on ?c
+		?a: Repeated imagery
+		?b: unconscious plagiarism
+		?c: either task
+
+
+label:    sent_12
+sentence: Temporal preparation strategy may inflate RT deficit in patients with Parkinson 's disease .
+
+ppatt:
+	?a may inflate ?b
+		?a: Temporal preparation strategy
+		?b: RT deficit in patients with Parkinson 's disease
+
+
+label:    sent_13
+sentence: Selective serotonin reuptake inhibitors : placebo washouts inflate antidepressant effects in general practice .
+
+ppatt:
+
+
+
+label:    sent_14
+sentence: This results in the capacity to inflate or deflate the prosthesis at will .
+
+ppatt:
+	?a results in ?b
+		?a: This
+		?b: the capacity to inflate or deflate the prosthesis at will
+	?a inflate ?b
+		?a: the capacity
+		?b: the prosthesis
+	deflate ?a
+		?a: the prosthesis
+
+
+label:    sent_15
+sentence: A relatively large pressure difference caused the stent-graft to inflate and become sturdier .
+
+ppatt:
+	?a caused ?b to inflate
+		?a: A relatively large pressure difference
+		?b: the stent-graft
+	?a caused to become sturdier
+		?a: A relatively large pressure difference
+
+
+label:    sent_16
+sentence: The pump is timed to inflate during ventricular systole .
+
+ppatt:
+	?a is timed to inflate during ?b
+		?a: The pump
+		?b: ventricular systole
+
+
+label:    sent_17
+sentence: The intra-aortic balloon is timed to inflate with aortic valve closure .
+
+ppatt:
+	?a is timed to inflate with ?b
+		?a: The intra-aortic balloon
+		?b: aortic valve closure
+
+
+label:    sent_18
+sentence: An overly adjusted estimator may inflate the variance and in some cases be biased .
+
+ppatt:
+	?a may inflate ?b
+		?a: An overly adjusted estimator
+		?b: the variance
+	?a may inflate ?b
+		?a: An overly adjusted estimator
+		?b: some cases
+	?a be biased
+		?a: An overly adjusted estimator
+
+
+label:    sent_19
+sentence: If lung separation is incomplete , the balloon will inflate with each ventilation .
+
+ppatt:
+	?a is incomplete
+		?a: lung separation
+	?a will inflate with ?b
+		?a: the balloon
+		?b: each ventilation
+
+

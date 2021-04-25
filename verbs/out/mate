@@ -1,0 +1,248 @@
+label:    sent_1
+sentence: Thirty-five strains could mate with one or more compatible partner .
+
+ppatt:
+	?a could mate with ?b
+		?a: Thirty-five strains
+		?b: one
+	?a could mate with ?b
+		?a: Thirty-five strains
+		?b: more compatible
+
+
+label:    sent_2
+sentence: In contrast , workers in most species never mate . When females mate with different males , competition for fertilizations occurs after insemination .
+
+ppatt:
+	In ?a , ?b never mate
+		?a: contrast
+		?b: workers in most species
+	When ?a mate with ?b
+		?a: females
+		?b: different males
+	?a occurs after ?b
+		?a: competition for fertilizations
+		?b: insemination
+
+
+label:    sent_3
+sentence: In Experiment 4 males were allowed to mate to satiety .
+
+ppatt:
+	In ?a ?b were allowed to mate to ?c
+		?a: Experiment
+		?b: 4 males
+		?c: satiety
+
+
+label:    sent_4
+sentence: Each male was allowed 30 min to mate with a receptive female . 2 , sexually experienced male rats were allowed to mate to sexual exhaustion .
+
+ppatt:
+	?a was allowed ?b to mate with ?c
+		?a: Each male
+		?b: 30 min
+		?c: a receptive female
+	?a were allowed to mate to ?b
+		?a: sexually experienced male rats
+		?b: sexual exhaustion
+
+
+label:    sent_5
+sentence: The excluded strains did not mate . Matron 's mate . Nasonia vitripennis females normally mate only once .
+
+ppatt:
+	?a did not mate . 's ?b
+		?a: The excluded strains
+		?b: Matron mate
+	?a normally mate only once
+		?a: Nasonia vitripennis females
+
+
+label:    sent_6
+sentence: They mate at normal efficiencies , and they sporulate successfully . Long-tailed manakins mate in leks and cooperate in multiyear male-male partnerships .
+
+ppatt:
+	?a mate at ?b
+		?a: They
+		?b: normal efficiencies
+	?a sporulate successfully
+		?a: they
+	?a mate in ?b
+		?a: Long-tailed manakins
+		?b: leks
+	?a cooperate in ?b
+		?a: Long-tailed manakins
+		?b: multiyear male-male partnerships
+
+
+label:    sent_7
+sentence: Under such conditions , homothallic wild-type cells will normally mate and undergo sporulation .
+
+ppatt:
+	Under ?a , ?b will normally mate ?c
+		?a: such conditions
+		?b: homothallic wild-type cells
+		?c: sporulation
+	?a undergo
+		?a: homothallic wild-type cells
+
+
+label:    sent_8
+sentence: Females mate regularly and are able to store sperm for at least 6 months .
+
+ppatt:
+	?a mate regularly
+		?a: Females
+	store ?a for ?b
+		?a: sperm
+		?b: at least 6 months
+
+
+label:    sent_9
+sentence: Female homozygotes mate and breed .
+
+ppatt:
+
+
+
+label:    sent_10
+sentence: Sperm can be stored for months yet individuals mate frequently .
+
+ppatt:
+	?a can be stored for ?b
+		?a: Sperm
+		?b: months
+	yet ?a mate frequently
+		?a: individuals
+
+
+label:    sent_11
+sentence: Cohabitation with a sick cage mate : Effects on noradrenaline turnover and neutrophil activity .
+
+ppatt:
+
+
+
+label:    sent_12
+sentence: A common explanation of this effect proposes that prototypicality signals mate value .
+
+ppatt:
+	?a proposes ?b
+		?a: A common explanation of this effect
+		?b: SOMETHING := prototypicality signals mate value
+	?a mate ?b
+		?a: prototypicality signals
+		?b: value
+
+
+label:    sent_13
+sentence: Mutant dunce females , mate every 22-24 hr . Following parturition ( kindling ) does can mate and become pregnant again . X-disrupted mutants have wild-type phenotypes and mate normally .
+
+ppatt:
+	?a is/are mate every ?b
+		?a: Mutant dunce females . Following parturition
+		?b: 22-24 hr
+	?a is/are kindling
+		?a: parturition
+	?a does can mate ?b again
+		?a: Mutant dunce females . Following parturition
+		?b: pregnant
+	?a become
+		?a: Mutant dunce females . Following parturition
+	?a have ?b
+		?a: X-disrupted mutants
+		?b: wild-type phenotypes
+	?a mate normally
+		?a: X-disrupted mutants
+
+
+label:    sent_14
+sentence: After mating , Drosophila melanogaster females lay substantially more eggs and mate rarely .
+
+ppatt:
+	After ?a , ?b lay ?c
+		?a: mating
+		?b: Drosophila melanogaster females
+		?c: substantially more eggs
+	?a mate rarely
+		?a: Drosophila melanogaster females
+
+
+label:    sent_15
+sentence: Field collected individuals did not swarm normally nor mate effectively in cages . D. yangi has winged males but mate mostly within the natal patch .
+
+ppatt:
+	?a did not swarm normally in ?b
+		?a: Field collected individuals
+		?b: cages
+	?a mate effectively
+		?a: Field collected individuals
+	?a has ?b
+		?a: D. yangi
+		?b: winged males
+	?a mate mostly within ?b
+		?a: D. yangi
+		?b: the natal patch
+
+
+label:    sent_16
+sentence: Females are able to choose between calling males and mate with a single male .
+
+ppatt:
+	?a are able to choose between ?b
+		?a: Females
+		?b: males
+	?a calling
+		?a: Females
+	?a are able to mate with ?b
+		?a: Females
+		?b: a single male
+
+
+label:    sent_17
+sentence: Interspecifically mated queens can still produce viable sons that will mate intraspecifically .
+
+ppatt:
+	?a can still produce ?b
+		?a: Interspecifically mated queens
+		?b: viable sons that will mate intraspecifically
+	?a will mate intraspecifically
+		?a: viable sons
+
+
+label:    sent_18
+sentence: Additionally , mate competition positively related to male dispersal but negatively to female dispersal .
+
+ppatt:
+	Additionally , ?a positively related to ?b
+		?a: mate competition
+		?b: male dispersal
+	Additionally , ?a positively related to ?b
+		?a: mate competition
+		?b: negatively female
+
+
+label:    sent_19
+sentence: However , it is preferable to mate the stud males with superovulated immature females .
+
+ppatt:
+	However , ?a is preferable to mate ?b
+		?a: it
+		?b: the stud males with superovulated immature females
+
+
+label:    sent_20
+sentence: Female mate preference for longer fins in medaka . Behavioral aspects of electronic bull separation and mate allocation in multiple-sire mating paddocks .
+
+ppatt:
+
+
+
+label:    sent_21
+sentence: Hybrids mate according to song type .
+
+ppatt:
+
+
+

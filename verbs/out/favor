@@ -1,0 +1,316 @@
+label:    sent_1
+sentence: A total of 15 % of responders were not in favor of DCVR surgery . Regarding living liver donation , 85 % were in favor of related donation .
+
+ppatt:
+	?a were not in favor of ?b . Regarding ?c
+		?a: A total of 15 % of responders
+		?b: DCVR surgery
+		?c: living liver donation
+	?a were in favor of ?b
+		?a: 85 %
+		?b: related donation
+
+
+label:    sent_2
+sentence: The mood analysis showed significant differences between the groups in favor of donors . Increased cortisol release may favor atherosclerosis .
+
+ppatt:
+	?a showed ?b
+		?a: The mood analysis
+		?b: significant differences between the groups in favor of donors
+	?a may favor ?b
+		?a: Increased cortisol release
+		?b: atherosclerosis
+
+
+label:    sent_3
+sentence: Liver tumor cells show several molecular alterations which favor pro-survival signaling .
+
+ppatt:
+	?a show ?b
+		?a: Liver tumor cells
+		?b: several molecular alterations which favor pro-survival signaling
+	?a favor ?b
+		?a: several molecular alterations
+		?b: pro-survival signaling
+
+
+label:    sent_4
+sentence: Histone H3 lysine 9 trimethylation and HP1gamma favor inclusion of alternative exons .
+
+ppatt:
+	?a favor ?b
+		?a: Histone H3 lysine
+		?b: inclusion of alternative exons
+
+
+label:    sent_5
+sentence: Although overall morbidity tended to favor NTCs , mortality was no different .
+
+ppatt:
+	?a tended to favor ?b
+		?a: overall morbidity
+		?b: NTCs
+	?a was no different
+		?a: mortality
+
+
+label:    sent_6
+sentence: CCN3 impairs osteoblast and stimulates osteoclast differentiation to favor breast cancer metastasis to bone .
+
+ppatt:
+	?a impairs ?b
+		?a: CCN3
+		?b: osteoblast
+	?a stimulates ?b to favor ?c
+		?a: CCN3
+		?b: osteoclast differentiation
+		?c: breast cancer metastasis to bone
+
+
+label:    sent_7
+sentence: Biochemical outcomes tended to marginally favor the lap RYGB group .
+
+ppatt:
+	?a tended to marginally favor ?b
+		?a: Biochemical outcomes
+		?b: the lap RYGB group
+
+
+label:    sent_8
+sentence: Evidence does not favor racemic epinephrine or LE , or IPPB over simple nebulization .
+
+ppatt:
+	?a does not favor ?b over ?c
+		?a: Evidence
+		?b: racemic epinephrine
+		?c: simple nebulization
+	?a does not favor ?b over ?c
+		?a: Evidence
+		?b: LE
+		?c: simple nebulization
+	?a does not favor ?b over ?c
+		?a: Evidence
+		?b: IPPB
+		?c: simple nebulization
+
+
+label:    sent_9
+sentence: [ Failure to document may favor the patient in proof of malpractice ] . However , these membranes favor EB transport by diffusion selectivity .
+
+ppatt:
+	?a document
+		?a: Failure
+	?a may favor ?b in ?c
+		?a: Failure to document
+		?b: the patient
+		?c: proof of malpractice ]
+	However , ?a favor ?b by ?c
+		?a: these membranes
+		?b: EB transport
+		?c: diffusion selectivity
+
+
+label:    sent_10
+sentence: Predictions favor kinases as targets of these compounds but also suggest potential off-target effects .
+
+ppatt:
+	?a favor ?b as ?c
+		?a: Predictions
+		?b: kinases
+		?c: targets of these compounds
+	?a also suggest ?b
+		?a: Predictions
+		?b: potential off-target effects
+
+
+label:    sent_11
+sentence: Estroprogestative contraceptive drugs favor thromboembolitic events and increase the incidence of hypertension .
+
+ppatt:
+	?a favor ?b
+		?a: Estroprogestative contraceptive drugs
+		?b: thromboembolitic events
+	?a increase ?b
+		?a: Estroprogestative contraceptive drugs
+		?b: the incidence of hypertension
+
+
+label:    sent_12
+sentence: Thus , cytokines not only favor tissue destruction , but also inhibit tissue repair .
+
+ppatt:
+	Thus , ?a not only favor ?b
+		?a: cytokines
+		?b: tissue destruction
+	?a also inhibit ?b
+		?a: cytokines
+		?b: tissue repair
+
+
+label:    sent_13
+sentence: Evidence in favor of formation of hydrophobic complexes in aqueous solution .
+
+ppatt:
+
+
+
+label:    sent_14
+sentence: Ungrooved prosthesis areas seem to favor bone growth at the shaft .
+
+ppatt:
+	?a seem to favor ?b at ?c
+		?a: Ungrooved prosthesis areas
+		?b: bone growth
+		?c: the shaft
+
+
+label:    sent_15
+sentence: Analysis of those data seemed to favor TS for duration of continuous complete remission .
+
+ppatt:
+	?a seemed to favor ?b for ?c
+		?a: Analysis of those data
+		?b: TS
+		?c: duration of continuous complete remission
+
+
+label:    sent_16
+sentence: The tools used in the nursing staff should be complete and favor their work .
+
+ppatt:
+	?a used in ?b
+		?a: The tools
+		?b: the nursing staff
+	?a should be complete
+		?a: The tools used in the nursing staff
+	?a favor ?b
+		?a: The tools used in the nursing staff
+		?b: their work
+
+
+label:    sent_17
+sentence: They are more guiding and favor a homogenization of the various practices .
+
+ppatt:
+	?a are more guiding
+		?a: They
+	?a favor ?b
+		?a: They
+		?b: a homogenization of the various practices
+
+
+label:    sent_18
+sentence: Pyruvate decreased the number of DNA breaks , and might favor DNA repair .
+
+ppatt:
+	?a decreased ?b
+		?a: Pyruvate
+		?b: the number of DNA breaks
+	?a might favor ?b
+		?a: Pyruvate
+		?b: DNA repair
+
+
+label:    sent_19
+sentence: Cloned breakpoint sequences favor adopting a cruciform configuration in vitro .
+
+ppatt:
+	?a favor adopting ?b in vitro
+		?a: Cloned breakpoint sequences
+		?b: a cruciform configuration
+
+
+label:    sent_20
+sentence: Health insurers favor budget cutting -- but not if it means they must pay more .
+
+ppatt:
+	?a favor ?b
+		?a: Health insurers
+		?b: budget cutting
+	?a means ?b
+		?a: it
+		?b: they
+	?a must pay more
+		?a: Health insurers
+
+
+label:    sent_21
+sentence: Recent trends in psoriasis therapy favor using lower-strength anthralins .
+
+ppatt:
+	?a favor using ?b
+		?a: Recent trends in psoriasis therapy
+		?b: lower-strength anthralins
+
+
+label:    sent_22
+sentence: Glucocorticoids also favor osteoclastogenesis and as a consequence increase bone resorption .
+
+ppatt:
+	?a also favor ?b
+		?a: Glucocorticoids
+		?b: osteoclastogenesis
+	?a also favor ?b
+		?a: Glucocorticoids
+		?b: a consequence
+	?a increase ?b
+		?a: Glucocorticoids
+		?b: bone resorption
+
+
+label:    sent_23
+sentence: In turn , this may favor risky motor decision-making and promote falls .
+
+ppatt:
+	In ?a , ?b may favor ?c
+		?a: turn
+		?b: this
+		?c: risky motor decision-making
+	?a promote ?b
+		?a: this
+		?b: falls
+
+
+label:    sent_24
+sentence: Glucocorticoids also favor osteoclastogenesis and , as a consequence , increase bone resorption . [Exocrine pancreas cancer .
+
+ppatt:
+	?a also favor ?b
+		?a: Glucocorticoids
+		?b: osteoclastogenesis
+	?a as ?b , increase ?c
+		?a: Glucocorticoids
+		?b: a consequence
+		?c: bone resorption
+	?a is/are [Exocrine pancreas cancer
+		?a: bone resorption
+
+
+label:    sent_25
+sentence: In favor of an early diagnosis and surgical treatment ] . [In favor of specialization of recovery room nurses ] . Conditions which favor the C1-fixation by mouse IgG1 .
+
+ppatt:
+	In ?a of ?b . ?c favor of ?d
+		?a: favor
+		?b: an early diagnosis
+		?c: [In
+		?d: specialization of recovery room nurses
+	In ?a of ?b . ?c favor of ?d
+		?a: favor
+		?b: surgical treatment
+		?c: [In
+		?d: specialization of recovery room nurses
+	In ?a of ?b . ?c favor of ?d
+		?a: favor
+		?b: ]
+		?c: [In
+		?d: specialization of recovery room nurses
+	?a is/are Conditions
+		?a: specialization of recovery room nurses
+	?a favor ?b by ?c
+		?a: Conditions
+		?b: the C1-fixation
+		?c: mouse IgG1
+
+

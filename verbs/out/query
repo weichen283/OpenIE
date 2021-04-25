@@ -1,0 +1,201 @@
+label:    sent_1
+sentence: Using BioMart as a framework to manage and query pancreatic cancer data . Data visualization tools were developed to curate , display and query the data . A questionnaire was used to query parents about QL .
+
+ppatt:
+	Using ?a as ?b ?c
+		?a: BioMart
+		?b: a framework to manage and query pancreatic cancer data
+		?c: Data visualization tools
+	?a manage ?b
+		?a: a framework
+		?b: pancreatic cancer data
+	query ?a
+		?a: pancreatic cancer data
+	?a were developed to curate
+		?a: Data visualization tools
+	?a were developed to display
+		?a: Data visualization tools
+	?a were developed to query ?b
+		?a: Data visualization tools
+		?b: the data
+	?a was used to query ?b
+		?a: A questionnaire
+		?b: parents about QL
+
+
+label:    sent_2
+sentence: A Ruby API to query the Ensembl database for genomic features .
+
+ppatt:
+	?a query ?b for ?c
+		?a: A Ruby API
+		?b: the Ensembl database
+		?c: genomic features
+
+
+label:    sent_3
+sentence: Together the data query the regulatory relevance of IAA redistribution for gravitropic differential growth .
+
+ppatt:
+	Together ?a query ?b
+		?a: the data
+		?b: the regulatory relevance of IAA redistribution for gravitropic differential growth
+
+
+label:    sent_4
+sentence: We query the supposed rarity of the disease . BioGateway provides a single entry point to query these resources through SPARQL .
+
+ppatt:
+	?a query ?b
+		?a: We
+		?b: the supposed rarity of the disease
+	?a provides ?b
+		?a: BioGateway
+		?b: a single entry point to query these resources through SPARQL
+	?a query ?b through ?c
+		?a: a single entry point
+		?b: these resources
+		?c: SPARQL
+
+
+label:    sent_5
+sentence: BLAST2 is the most widely used tool to query databases by sequence similarity search .
+
+ppatt:
+	?a is the most widely used tool
+		?a: BLAST2
+	?a query ?b by ?c
+		?a: the most widely used tool
+		?b: databases
+		?c: sequence similarity search
+
+
+label:    sent_6
+sentence: It remains important for dentists to query their patients for this information .
+
+ppatt:
+	?a remains important for ?b to query ?c
+		?a: It
+		?b: dentists
+		?c: their patients for this information
+
+
+label:    sent_7
+sentence: A cryptographic approach to securely share and query genomic sequences .
+
+ppatt:
+	?a securely share ?b
+		?a: A cryptographic approach
+		?b: genomic sequences
+	query ?a
+		?a: genomic sequences
+
+
+label:    sent_8
+sentence: Our informatics tool permits users to browse , query and compare these maps . Convenient software is implemented to query and browse the pathway information of HBVPathDB .
+
+ppatt:
+	?a permits ?b
+		?a: Our informatics tool
+		?b: users to browse , query and compare these maps
+	?a browse
+		?a: users
+	?a query
+		?a: users
+	compare ?a
+		?a: these maps
+	?a is implemented to query ?b
+		?a: Convenient software
+		?b: the pathway information of HBVPathDB
+	?a is implemented to browse
+		?a: Convenient software
+
+
+label:    sent_9
+sentence: Protein data representation and query using optimized data decomposition .
+
+ppatt:
+	?a using ?b
+		?a: Protein data
+		?b: optimized data decomposition
+
+
+label:    sent_10
+sentence: This demonstrates that most nurses do not query their patients about subjective pain perception .
+
+ppatt:
+	?a demonstrates ?b
+		?a: This
+		?b: SOMETHING := most nurses do not query their patients about subjective pain perception
+	?a do not query ?b
+		?a: most nurses
+		?b: their patients about subjective pain perception
+
+
+label:    sent_11
+sentence: GeneE : gene and protein query expansion with disambiguation .
+
+ppatt:
+
+
+
+label:    sent_12
+sentence: Experts query benefit of NICE U-turn on flu drug . Further query on dystonia . Lawmakers await NSF 's response to query about grants .
+
+ppatt:
+	?a query ?b
+		?a: Experts
+		?b: benefit of NICE U-turn on flu drug
+	?a ?b await 's ?c
+		?a: Further query on dystonia
+		?b: Lawmakers
+		?c: NSF response to query about grants
+	?a query about ?b
+		?a: NSF response
+		?b: grants
+
+
+label:    sent_13
+sentence: An interactive web interface allows users to query the database and generate reports .
+
+ppatt:
+	?a allows ?b to query ?c
+		?a: An interactive web interface
+		?b: users
+		?c: the database
+	?a allows to generate ?b
+		?a: An interactive web interface
+		?b: reports
+
+
+label:    sent_14
+sentence: Monitoring influenza epidemics in china with search query from baidu . Death query . The ' Jamison report ' --a nagging query . Remote literature searches can query for surgery trials and results . Data extraction and ad hoc query of an entity-attribute-value database .
+
+ppatt:
+	Monitoring ?a ?b with ?c ?d
+		?a: influenza epidemics
+		?b: in china
+		?c: search query from baidu . Death query
+		?d: Remote literature searches
+	?a is/are The ' Jamison report ' --a nagging query
+		?a: baidu . Death query
+	?a can query for ?b
+		?a: Remote literature searches
+		?b: surgery trials
+	?a results ?b
+		?a: Remote literature searches
+		?b: Data extraction
+	?a results ?b
+		?a: Remote literature searches
+		?b: ad hoc query of an entity-attribute-value database
+
+
+label:    sent_15
+sentence: Analysis of data query as parameter of quality .
+
+ppatt:
+	?a query as ?b
+		?a: Analysis of data
+		?b: parameter of quality
+
+

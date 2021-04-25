@@ -1,0 +1,278 @@
+label:    sent_1
+sentence: MCFG administered for 10 days failed to cure C. glabrata infection .
+
+ppatt:
+	?a administered for ?b
+		?a: MCFG
+		?b: 10 days
+	?a failed to cure ?b
+		?a: MCFG administered for 10 days
+		?b: C. glabrata infection
+
+
+label:    sent_2
+sentence: Islet transplantation has the potential to cure type 1 diabetes .
+
+ppatt:
+	?a has ?b
+		?a: Islet transplantation
+		?b: the potential to cure type 1 diabetes
+	?a cure ?b
+		?a: the potential
+		?b: type 1 diabetes
+
+
+label:    sent_3
+sentence: Gene therapy has proven its potential to cure diseases of the hematopoietic system .
+
+ppatt:
+	?a has proven ?b
+		?a: Gene therapy
+		?b: its potential to cure diseases of the hematopoietic system
+	?a cure ?b
+		?a: its potential
+		?b: diseases of the hematopoietic system
+
+
+label:    sent_4
+sentence: Antibiotics cure anthrax in animal models .
+
+ppatt:
+	?a cure ?b in ?c
+		?a: Antibiotics
+		?b: anthrax
+		?c: animal models
+
+
+label:    sent_5
+sentence: Surgical resection , liver transplantation and ablative therapies can cure early stage HCC .
+
+ppatt:
+	?a can cure ?b
+		?a: Surgical resection
+		?b: early stage HCC
+	?a can cure ?b
+		?a: liver transplantation
+		?b: early stage HCC
+	?a can cure ?b
+		?a: ablative therapies
+		?b: early stage HCC
+
+
+label:    sent_6
+sentence: Mixture cure model with random effects for clustered interval-censored survival data .
+
+ppatt:
+
+
+
+label:    sent_7
+sentence: This treatment produces less morbidity than chemotherapy and will cure approximately two-thirds of patients .
+
+ppatt:
+	?a produces ?b than ?c
+		?a: This treatment
+		?b: less morbidity
+		?c: chemotherapy
+	?a will cure ?b
+		?a: This treatment
+		?b: approximately two-thirds of patients
+
+
+label:    sent_8
+sentence: Physicians are educated and trained to cure illness and save lives .
+
+ppatt:
+	?a are educated to cure ?b
+		?a: Physicians
+		?b: illness
+	?a trained
+		?a: Physicians
+	?a save ?b
+		?a: Physicians
+		?b: lives
+
+
+label:    sent_9
+sentence: To cure the sick and be in peace . Cevimeline is useful to cure diabetic xerostomia under insulin administration .
+
+ppatt:
+	cure ?a ?b
+		?a: the sick
+		?b: Cevimeline
+	?a is useful to cure ?b under ?c
+		?a: Cevimeline
+		?b: diabetic xerostomia
+		?c: insulin administration
+
+
+label:    sent_10
+sentence: The standard of care must be to cure malaria by killing the last parasite .
+
+ppatt:
+	?a must be to cure ?b
+		?a: The standard of care
+		?b: malaria
+	?a killing ?b
+		?a: The standard of care
+		?b: the last parasite
+
+
+label:    sent_11
+sentence: Everyday problems in dentistry and some tips and suggestions on how to cure them . Jugular vein ligation in selected patients can cure tinnitus and reverse hearing loss . These substances neither cure the disease nor halt its progression .
+
+ppatt:
+	?a how to cure ?b
+		?a: suggestions
+		?b: them
+	?a ?b can cure ?c
+		?a: Everyday problems in dentistry and some tips
+		?b: Jugular vein ligation in selected patients
+		?c: tinnitus
+	?a ?b can cure ?c
+		?a: suggestions on how to cure them
+		?b: Jugular vein ligation in selected patients
+		?c: tinnitus
+	?a ?b can cure ?c
+		?a: Everyday problems in dentistry and some tips
+		?b: Jugular vein ligation in selected patients
+		?c: reverse hearing loss
+	?a ?b can cure ?c
+		?a: suggestions on how to cure them
+		?b: Jugular vein ligation in selected patients
+		?c: reverse hearing loss
+	?a neither cure ?b
+		?a: These substances
+		?b: the disease
+	?a halt ?b
+		?a: These substances
+		?b: its progression
+
+
+label:    sent_12
+sentence: Mastectomy will cure ductal cancer in situ but has a greater morbidity . [Could we cure type 1 diabetes by stimulating T ( reg ) ? ] . Mixture cure model with an application to interval mapping of quantitative trait loci .
+
+ppatt:
+	?a will cure ?b in situ
+		?a: Mastectomy
+		?b: ductal cancer
+	?a has ?b ?c
+		?a: Mastectomy
+		?b: a greater morbidity
+		?c: [Could
+	?a cure ?b ?c with ?d
+		?a: we
+		?b: type 1 diabetes
+		?c: T ] . Mixture cure model
+		?d: an application to interval mapping of quantitative trait loci
+	?a stimulating
+		?a: we
+	?a is/are reg
+		?a: T
+	?a is/are reg
+		?a: ]
+	?a interval ?b
+		?a: an application
+		?b: mapping of quantitative trait loci
+
+
+label:    sent_13
+sentence: Failure of meglumine antimoniate to cure cutaneous lesions due to Leishmania major in Algeria .
+
+ppatt:
+	?a cure ?b due to ?c
+		?a: Failure of meglumine antimoniate
+		?b: cutaneous lesions
+		?c: Leishmania major in Algeria
+
+
+label:    sent_14
+sentence: Anti-tuberculous therapy resulted in both clinical and radiological cure within 12 months .
+
+ppatt:
+	?a resulted in ?b within ?c
+		?a: Anti-tuberculous therapy
+		?b: both clinical and radiological cure
+		?c: 12 months
+
+
+label:    sent_15
+sentence: Human fascioliasis : cure by mebendazole ? A case report .
+
+ppatt:
+
+
+
+label:    sent_16
+sentence: Bithionol has been reported to cure over 90 % of infected patients .
+
+ppatt:
+	?a has been reported to cure over ?b
+		?a: Bithionol
+		?b: 90 % of infected patients
+
+
+label:    sent_17
+sentence: To date , there are no effective ways to cure or reverse the disease .
+
+ppatt:
+	To ?a , there are ?b
+		?a: date
+		?b: no effective ways to cure or reverse the disease
+	?a cure ?b
+		?a: no effective ways
+		?b: the disease
+	?a reverse
+		?a: no effective ways
+
+
+label:    sent_18
+sentence: Nitrofurantoin is the effective antimicrobial method to cure and prevent NIM .
+
+ppatt:
+	?a is the effective antimicrobial method
+		?a: Nitrofurantoin
+	?a cure ?b
+		?a: the effective antimicrobial method
+		?b: NIM
+	?a prevent
+		?a: Nitrofurantoin
+
+
+label:    sent_19
+sentence: Fosfomycin is the safe and effective antimicrobial method to cure and prevent NIDDM .
+
+ppatt:
+	?a is the safe and effective antimicrobial method
+		?a: Fosfomycin
+	?a cure ?b
+		?a: the safe and effective antimicrobial method
+		?b: NIDDM
+	?a prevent
+		?a: Fosfomycin
+
+
+label:    sent_20
+sentence: Narrative empowerment and the talking cure . Potential strategies for an HIV infection cure . Mandated health coverage competition may create more ills than it would cure . [ Consequences of the nonobservance of the criteria for gonorrhea cure in men ] . [Use of the terrain cure in diseases of the circulatory organs in Kislovodsk ] . Office cure for hydrocele ?
+
+ppatt:
+	?a ?b may create ?c
+		?a: Narrative empowerment
+		?b: Mandated health coverage competition
+		?c: more ills
+	?a ?b may create ?c
+		?a: the talking cure
+		?b: Mandated health coverage competition
+		?c: more ills
+	?a ?b may create ?c
+		?a: Potential strategies for an HIV infection cure
+		?b: Mandated health coverage competition
+		?c: more ills
+	than ?a would cure ?b
+		?a: it
+		?b: Consequences of the nonobservance of the criteria for gonorrhea cure in men
+	than ?a would cure ?b
+		?a: it
+		?b: ] . [Use of the terrain cure in diseases of the circulatory organs in Kislovodsk ] . Office cure for hydrocele
+
+

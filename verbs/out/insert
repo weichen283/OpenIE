@@ -1,0 +1,479 @@
+label:    sent_1
+sentence: They lacked details about the method-when to insert it , where it can be obtained , and its cost .
+
+ppatt:
+	?a lacked ?b
+		?a: They
+		?b: details about the method-when
+	?a insert ?b
+		?a: They
+		?b: it , where it can be obtained and its cost
+	?a where ?b can be obtained
+		?a: it
+		?b: it
+
+
+label:    sent_2
+sentence: Misoprostol vaginal insert for successful labor induction : a randomized controlled trial .
+
+ppatt:
+
+
+
+label:    sent_3
+sentence: To compare three doses of misoprostol vaginal insert for successful labor induction measured by the proportion of vaginal deliveries within 24 hours .
+
+ppatt:
+	compare ?a
+		?a: three doses of misoprostol vaginal insert for successful labor induction measured by the proportion of vaginal deliveries within 24 hours
+	?a measured by ?b
+		?a: successful labor induction
+		?b: the proportion of vaginal deliveries within 24 hours
+
+
+label:    sent_4
+sentence: For example , when students are learning how to insert an intravenous catheter , failure to perform the technique correctly results in no blood return in the catheter .
+
+ppatt:
+	when ?a are learning how to insert ?b
+		?a: students
+		?b: an intravenous catheter
+	?a perform ?b
+		?a: failure
+		?b: the technique
+	For ?a , ?b correctly results in ?c
+		?a: example
+		?b: failure to perform the technique
+		?c: no blood return in the catheter
+
+
+label:    sent_5
+sentence: DNA was isolated from 1000 purified phage populations and the region covering the 36 bp oligonucleotide insert from which the displayed peptides were translated , was sequenced .
+
+ppatt:
+	?a was isolated from ?b
+		?a: DNA
+		?b: 1000 purified phage populations
+	?a covering ?b
+		?a: the region
+		?b: the 36 bp oligonucleotide insert from which the displayed peptides were translated
+	?a from ?b were translated
+		?a: the 36 bp oligonucleotide insert
+		?b: the displayed peptides
+	?a was sequenced
+		?a: the region covering the 36 bp oligonucleotide insert from which the displayed peptides were translated
+
+
+label:    sent_6
+sentence: Stress survival islet 1 ( SSI-1 ) survey in Listeria monocytogenes reveals an insert common to listeria innocua in sequence type 121 L. monocytogenes strains .
+
+ppatt:
+	?a is/are SSI-1
+		?a: Stress survival islet 1
+	?a reveals ?b
+		?a: Stress survival islet 1 survey in Listeria monocytogenes
+		?b: an insert common to listeria innocua in sequence type 121 L. monocytogenes strains
+
+
+label:    sent_7
+sentence: The insert was removed for onset of active labor or adverse event .
+
+ppatt:
+	?a was removed for ?b
+		?a: The insert
+		?b: onset of active labor or adverse event
+
+
+label:    sent_8
+sentence: Misoprostol vaginal insert 200 was associated with an increased rate of tachysystole ( 41.2 % ) compared with MVI 100 ( 19.5 % ) ( P<.001 , RR 2.11 , 95 % CI 1.39-3.22 ) . A prototype y-gradient insert has been built to demonstrate imaging and implementation characteristics of the superellipse gradient in a 3 T MRI system .
+
+ppatt:
+	?a ?b was associated with ?c compared ?d
+		?a: Misoprostol
+		?b: vaginal insert 200
+		?c: an increased rate of tachysystole with MVI
+		?d: 100
+	?a is/are 41.2 %
+		?a: tachysystole
+	?a is/are 19.5 %
+		?a: 100
+	?a is/are RR 2.11
+		?a: P<.001
+	?a is/are 95 % CI 1.39-3.22
+		?a: P<.001
+	?a has been built to demonstrate ?b in ?c
+		?a: A prototype y-gradient insert
+		?b: imaging of the superellipse gradient
+		?c: a 3 T MRI system
+	?a has been built to demonstrate ?b in ?c
+		?a: A prototype y-gradient insert
+		?b: implementation characteristics
+		?c: a 3 T MRI system
+
+
+label:    sent_9
+sentence: Emergency medical service ( EMS ) personnel are trained to insert intravenous ( IV ) lines at trauma scenes if the time for insertion does not prolong scene time .
+
+ppatt:
+	?a is/are EMS
+		?a: Emergency medical service
+	?a are trained to insert ?b at ?c
+		?a: Emergency medical service personnel
+		?b: intravenous ( IV ) lines
+		?c: trauma scenes
+	?a does not prolong ?b
+		?a: the time for insertion
+		?b: scene time
+
+
+label:    sent_10
+sentence: Screening of a library of 3,840 clones revealed a 36 kb insert of a cellulase positive clone ( pAMHElO ) .
+
+ppatt:
+	?a revealed ?b
+		?a: Screening of a library of 3,840 clones
+		?b: a 36 kb insert of a cellulase positive clone
+	?a is/are pAMHElO
+		?a: a cellulase positive clone
+
+
+label:    sent_11
+sentence: However , F48-like NDVs from China , identified a 6-nt insert in the NP gene , have been previously classified into genotype III or genotype IX .
+
+ppatt:
+	?a identified ?b
+		?a: F48-like NDVs from China
+		?b: a 6-nt insert in the NP gene
+	However , ?a have been previously classified into ?b
+		?a: F48-like NDVs from China , identified a 6-nt insert in the NP gene
+		?b: genotype III
+	However , ?a have been previously classified into ?b
+		?a: F48-like NDVs from China , identified a 6-nt insert in the NP gene
+		?b: genotype IX
+
+
+label:    sent_12
+sentence: The insert of hmgb1 gene contained in PMD18-T-HMGB1 vector was cut out with restriction enzymes of KpnI / XhoI and then ligated into eukaryotic expression vector pcDNA3.1 to form pcDNA3.1-HMGB1 vector .
+
+ppatt:
+	?a contained in ?b
+		?a: hmgb1 gene
+		?b: PMD18-T-HMGB1 vector
+	?a was cut out with ?b
+		?a: The insert of hmgb1 gene contained in PMD18-T-HMGB1 vector
+		?b: restriction enzymes of KpnI / XhoI
+	?a then ligated into ?b to form ?c
+		?a: The insert of hmgb1 gene contained in PMD18-T-HMGB1 vector
+		?b: eukaryotic expression vector pcDNA3.1
+		?c: pcDNA3.1-HMGB1 vector
+
+
+label:    sent_13
+sentence: These single molecules or smaller aggregates may insert into the lysosomal membranes , further stabilizing them and decreasing the release of cathepsins from lysosomes , leading to the inhibition of tumor necrosis factor-induced apoptosis .
+
+ppatt:
+	?a may insert into ?b , further stabilizing ?c
+		?a: These single molecules
+		?b: the lysosomal membranes
+		?c: them
+	?a may insert into ?b , further stabilizing ?c
+		?a: smaller aggregates
+		?b: the lysosomal membranes
+		?c: them
+	?a may insert , decreasing ?b
+		?a: These single molecules
+		?b: the release of cathepsins from lysosomes
+	?a may insert , decreasing ?b
+		?a: smaller aggregates
+		?b: the release of cathepsins from lysosomes
+	?a leading to ?b
+		?a: These single molecules
+		?b: the inhibition of tumor necrosis factor-induced apoptosis
+	?a leading to ?b
+		?a: smaller aggregates
+		?b: the inhibition of tumor necrosis factor-induced apoptosis
+
+
+label:    sent_14
+sentence: Both elements preferentially insert into gene-rich regions altering the maize genome by creating unstable insertion alleles , stable derivative or excision alleles , or by altering the spatial or temporal regulation of gene expression .
+
+ppatt:
+	?a preferentially insert into ?b
+		?a: Both elements
+		?b: gene-rich regions altering the maize genome
+	?a altering ?b
+		?a: gene-rich regions
+		?b: the maize genome
+	?a creating ?b
+		?a: Both elements
+		?b: unstable insertion alleles
+	?a creating ?b
+		?a: Both elements
+		?b: stable derivative
+	?a creating ?b
+		?a: Both elements
+		?b: alleles
+	?a altering ?b
+		?a: Both elements
+		?b: the spatial or temporal regulation of gene expression
+
+
+label:    sent_15
+sentence: Within each farm ( n = 8 ) , cows ( n = 883 ; mean +/- SEM 166.24 +/- 3.27 d postpartum , yielding 36.8 +/- 0.34 kg of milk/d ) were randomly assigned to receive either : 1 ) an intravaginal progesterone insert ( CIDR ( R ) ) with 1.9 g of progesterone + GnRH on Day -10 , CIDR ( R ) withdrawal + PGF2alpha on Day -3 , and 1 mg estradiol cypionate on Day -2 ( treatment GP-P-E ; n ( TAI ) = 180 ; n ( TET ) = 260 ) ; or 2 ) a CIDR ( R ) insert + 2 mg estradiol benzoate on Day -10 , PGF2alpha on Day -3 , CIDR ( R ) withdrawal + 1 mg estradiol cypionate on Day -2 ( treatment EP-P-E ; n ( TAI ) = 174 ; n ( TET ) = 269 ) .
+
+ppatt:
+	= ?a
+		?a: 883
+	?a yielding ?b
+		?a: n = 883
+		?b: 36.8 +/- 0.34 kg of milk/d
+	Within ?a , ?b were randomly assigned to receive ?c ?d
+		?a: each farm
+		?b: cows
+		?c: either
+		?d: an intravaginal progesterone insert with 1.9 g of progesterone + GnRH on Day -10 , CIDR + PGF2alpha
+	Within ?a , ?b were randomly assigned to receive ?c ?d
+		?a: each farm
+		?b: cows
+		?c: either
+		?d: 1 mg estradiol cypionate
+	Within ?a , ?b were randomly assigned to receive ?c ?d
+		?a: each farm
+		?b: cows
+		?c: either
+		?d: a CIDR ( R ) insert on Day -10 , on Day -3
+	?a is/are R
+		?a: CIDR
+	?a is/are R
+		?a: CIDR
+	?a is/are TAI
+		?a: on Day -2 ( treatment GP-P-E ; = 180
+	= ?a
+		?a: 180
+	?a is/are TET
+		?a: n
+	?a is/are R
+		?a: CIDR
+	?a is/are TAI
+		?a: treatment EP-P-E ; =
+	?a is/are TET
+		?a: n
+
+
+label:    sent_16
+sentence: The coding sequence of PIDD4 contains intron 3 and a 60 bp insert at the 5 ' of exon 3 .
+
+ppatt:
+	?a contains ?b
+		?a: The coding sequence of PIDD4
+		?b: intron 3
+	?a contains ?b
+		?a: The coding sequence of PIDD4
+		?b: a 60 bp insert at the 5 ' of exon 3
+
+
+label:    sent_17
+sentence: The labelled thickness of polyethylene inserts often refers to the combined thickness of the insert and its metal backing .
+
+ppatt:
+	?a often refers to ?b
+		?a: The labelled thickness of polyethylene inserts
+		?b: the combined thickness of the insert
+	?a often refers to ?b
+		?a: The labelled thickness of polyethylene inserts
+		?b: its metal backing
+
+
+label:    sent_18
+sentence: In general , the magnitude of dose errors incurred by ignoring the effect of the plaque backing and Silastic insert ( i.e. , by using the TG-43 approach ) increased with distance from the plaque 's central-axis .
+
+ppatt:
+	?a incurred
+		?a: dose errors
+	ignoring ?a
+		?a: the effect of the plaque backing and Silastic insert
+	i.e. , by using ?a
+		?a: the TG-43 approach
+	In ?a , ?b increased with ?c
+		?a: general
+		?b: the magnitude of dose errors incurred by ignoring the effect of the plaque backing and Silastic insert ( i.e. , by using the TG-43 approach
+		?c: distance from the plaque 's central-axis
+
+
+label:    sent_19
+sentence: Our results indicate that the TM-helices of CaBP7 and CaBP8 insert fully across membranes such that their extreme C-termini are luminal .
+
+ppatt:
+	?a indicate ?b
+		?a: Our results
+		?b: SOMETHING := the TM-helices of CaBP7 and CaBP8 insert fully across membranes such that their extreme C-termini are luminal
+	?a insert fully across ?b
+		?a: the TM-helices of CaBP7 and CaBP8
+		?b: membranes
+	?a are luminal
+		?a: their extreme C-termini
+
+
+label:    sent_20
+sentence: Subjects with persistent DME despite at least 1 macular laser treatment were randomized 1:2:2 to sham injection ( n = 185 ) , low-dose insert ( n = 375 ) , or high-dose insert ( n = 393 ) . Furthermore , we show that by concerted transfer of a hydrogen from the alpha-carbon to the beta-carbon , a 1-alkene can insert its alpha-carbon into a surface Si-H bond to accomplish hydrosilylation .
+
+ppatt:
+	?a were randomized to ?b
+		?a: Subjects with persistent DME despite at least 1 macular laser treatment
+		?b: 1:2:2 sham injection
+	?a were randomized to ?b
+		?a: Subjects with persistent DME despite at least 1 macular laser treatment
+		?b: low-dose insert
+	?a were randomized to ?b
+		?a: Subjects with persistent DME despite at least 1 macular laser treatment
+		?b: high-dose insert
+	Furthermore , ?a show ?b
+		?a: we
+		?b: SOMETHING := by concerted transfer of a hydrogen from the alpha-carbon to the beta-carbon , a 1-alkene can insert its alpha-carbon into a surface Si-H bond to accomplish hydrosilylation
+	by ?a , ?b can insert ?c into ?d to accomplish ?e
+		?a: concerted transfer of a hydrogen from the alpha-carbon to the beta-carbon
+		?b: a 1-alkene
+		?c: its alpha-carbon
+		?d: a surface Si-H bond
+		?e: hydrosilylation
+
+
+label:    sent_21
+sentence: Nascent membrane proteins typically insert in a sequential fashion into the membrane via a protein-conducting channel , the Sec translocon .
+
+ppatt:
+	?a typically insert in ?b into ?c via ?d
+		?a: Nascent membrane proteins
+		?b: a sequential fashion
+		?c: the membrane
+		?d: a protein-conducting channel
+	?a is/are the Sec translocon
+		?a: a protein-conducting channel
+
+
+label:    sent_22
+sentence: Some spine surgeons thus insert shorter C2 pedicle or pars/isthmus screws as alternatives to minimize the latter risks . By combining 3D TRUS imaging system to a needle tracking linkage , this system should improve the physician 's ability to target and accurately guide a needle to selected targets without the need for the computer to directly manipulate and insert the needle .
+
+ppatt:
+	?a thus insert ?b as ?c to minimize ?d
+		?a: Some spine surgeons
+		?b: shorter C2 pedicle
+		?c: alternatives
+		?d: the latter risks
+	?a thus insert ?b as ?c to minimize ?d
+		?a: Some spine surgeons
+		?b: pars/isthmus screws
+		?c: alternatives
+		?d: the latter risks
+	?a combining ?b to ?c
+		?a: Some spine surgeons
+		?b: 3D TRUS imaging system
+		?c: a needle tracking linkage
+	?a should improve ?b
+		?a: this system
+		?b: the physician 's ability to target accurately
+	?a target
+		?a: the physician 's ability
+	?a guide ?b to ?c without ?d
+		?a: this system
+		?b: a needle
+		?c: selected targets
+		?d: the need for the computer to directly manipulate and insert the needle
+	?a directly manipulate ?b
+		?a: the need for the computer
+		?b: the needle
+	insert ?a
+		?a: the needle
+
+
+label:    sent_23
+sentence: An L-shaped retractor was used to create a working space and insert an endoscope .
+
+ppatt:
+	?a was used to create ?b
+		?a: An L-shaped retractor
+		?b: a working space
+	?a was used to insert ?b
+		?a: An L-shaped retractor
+		?b: an endoscope
+
+
+label:    sent_24
+sentence: Interviewed clinicians expressed interest in CPOE systems that check for contraindications and interactions between drugs , suggest cheaper products , and automatically insert active ingredients when omitted .
+
+ppatt:
+	?a expressed ?b
+		?a: Interviewed clinicians
+		?b: interest in CPOE systems that check for contraindications and interactions between drugs
+	?a check for ?b
+		?a: CPOE systems
+		?b: contraindications between drugs
+	?a check for ?b
+		?a: CPOE systems
+		?b: interactions
+	?a suggest ?b
+		?a: Interviewed clinicians
+		?b: cheaper products
+	?a automatically insert ?b
+		?a: Interviewed clinicians
+		?b: active ingredients
+	?a when omitted
+		?a: Interviewed clinicians
+
+
+label:    sent_25
+sentence: To synthesize the minimal and artificial HRE , and to insert it into the anterior extremity of CMV promoter of a AAV plasmid , and then to construct the AAV regulated by hypoxic-responsive element which was introduced into 293 cell by method of Ca3 ( PO4 ) 2 using three plasmids .
+
+ppatt:
+	synthesize ?a ?b
+		?a: minimal
+		?b: the HRE
+	synthesize ?a ?b
+		?a: artificial
+		?b: the HRE
+	insert ?a into ?b
+		?a: it
+		?b: the anterior extremity of CMV promoter of a AAV plasmid
+	construct ?a using ?b
+		?a: the AAV regulated by hypoxic-responsive element which was introduced into 293 cell by method of Ca3
+		?b: three plasmids
+	?a regulated by ?b
+		?a: the AAV which was introduced into 293 cell by method of Ca3
+		?b: hypoxic-responsive element
+	?a was introduced into ?b by ?c
+		?a: the AAV regulated by hypoxic-responsive element
+		?b: 293 cell
+		?c: method of Ca3
+	?a is/are PO4 ) 2
+		?a: Ca3
+
+
+label:    sent_26
+sentence: To insert the full-length NS1 gene of influenza A ( H1N1 ) into an eukaryotic expression vector PXJ40-HA , and to evaluate the expression of NS1 gene in transfected 293T cells .
+
+ppatt:
+	insert ?a into ?b
+		?a: the full-length NS1 gene of influenza A
+		?b: an eukaryotic expression vector PXJ40-HA
+	?a is/are H1N1
+		?a: influenza A
+	evaluate ?a
+		?a: the expression of NS1 gene in transfected 293T cells
+
+
+label:    sent_27
+sentence: We exploited this endogenous activity to generate chromosomal deletions and to insert an epitope into a chromosomal coding sequence .
+
+ppatt:
+	?a exploited ?b
+		?a: We
+		?b: this endogenous activity
+	?a generate ?b
+		?a: We
+		?b: chromosomal deletions
+	?a insert ?b into ?c
+		?a: We
+		?b: an epitope
+		?c: a chromosomal coding sequence
+
+

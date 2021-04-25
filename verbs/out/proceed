@@ -1,0 +1,290 @@
+label:    sent_1
+sentence: The decomposition reaction is proposed to proceed along two parallel reaction coordinates .
+
+ppatt:
+	?a is proposed to proceed along ?b
+		?a: The decomposition reaction
+		?b: two parallel reaction coordinates
+
+
+label:    sent_2
+sentence: Therefore , immunology reagents are urgently needed to proceed with the next mechanism-related research .
+
+ppatt:
+	Therefore , ?a are urgently needed to proceed with ?b
+		?a: immunology reagents
+		?b: the next mechanism-related research
+
+
+label:    sent_3
+sentence: The decision to proceed with digital replantation in the elderly can be challenging . Bioinformatic analyses typically proceed as chains of data-processing tasks .
+
+ppatt:
+	?a proceed with ?b
+		?a: The decision
+		?b: digital replantation in the elderly
+	?a can be challenging
+		?a: The decision to proceed with digital replantation in the elderly
+	?a ?b typically proceed as ?c
+		?a: The decision to proceed with digital replantation in the elderly
+		?b: Bioinformatic analyses
+		?c: chains of data-processing tasks
+
+
+label:    sent_4
+sentence: The salt-free proteins proceed to the ESI source . Therapy .
+
+ppatt:
+	?a proceed to ?b
+		?a: The salt-free proteins
+		?b: the ESI source . Therapy
+
+
+label:    sent_5
+sentence: Direct purchasers may proceed with claims against Abbott .
+
+ppatt:
+	?a may proceed with ?b
+		?a: Direct purchasers
+		?b: claims against Abbott
+
+
+label:    sent_6
+sentence: If so , how do we proceed , while still retaining materialistic-mechanistic perspectives ? However , some individuals proceed to develop severe virus-mediated heart disease .
+
+ppatt:
+	so , how do ?a proceed
+		?a: we
+	?a still retaining ?b
+		?a: we
+		?b: materialistic-mechanistic perspectives
+	However , ?a proceed to develop ?b
+		?a: some individuals
+		?b: severe virus-mediated heart disease
+
+
+label:    sent_7
+sentence: These rearrangements proceed via singlet biradical intermediates that can be stabilized by substituents .
+
+ppatt:
+	?a proceed via ?b
+		?a: These rearrangements
+		?b: singlet biradical intermediates that can be stabilized by substituents
+	?a can be stabilized by ?b
+		?a: singlet biradical intermediates
+		?b: substituents
+
+
+label:    sent_8
+sentence: These reactions proceed rapidly and without loss of stereochemistry . Catalytic processes were developed and the functionalizations proceed under mild reaction conditions .
+
+ppatt:
+	?a proceed rapidly and without loss of stereochemistry
+		?a: These reactions
+	?a were developed
+		?a: Catalytic processes
+	?a proceed under ?b
+		?a: the functionalizations
+		?b: mild reaction conditions
+
+
+label:    sent_9
+sentence: However , it is critical that investigators proceed with caution and utilize transdisciplinary approaches .
+
+ppatt:
+	However , ?a is critical ?b
+		?a: it
+		?b: SOMETHING := investigators proceed with caution
+	?a proceed with ?b
+		?a: investigators
+		?b: caution
+	?a utilize ?b
+		?a: investigators
+		?b: transdisciplinary approaches
+
+
+label:    sent_10
+sentence: Return-to-play should be individually based and proceed in a step-wise manner .
+
+ppatt:
+	?a should be individually based
+		?a: Return-to-play
+	?a proceed in ?b
+		?a: Return-to-play
+		?b: a step-wise manner
+
+
+label:    sent_11
+sentence: How patients decide whether or not to proceed with device implantation is unknown .
+
+ppatt:
+	How ?a decide ?b ?c
+		?a: patients
+		?b: SOMETHING := not to proceed with device implantation
+		?c: SOMETHING := whether is unknown
+	?a not to proceed with ?b
+		?a: patients
+		?b: device implantation
+	?a is unknown
+		?a: patients
+
+
+label:    sent_12
+sentence: The decision was made to stop further excision and proceed with reconstructive surgery .
+
+ppatt:
+	?a was made to stop ?b
+		?a: The decision
+		?b: further excision
+	?a was made to proceed with ?b
+		?a: The decision
+		?b: reconstructive surgery
+
+
+label:    sent_13
+sentence: The reactions proceed without overalkylation and provide high levels of regioselectivity .
+
+ppatt:
+	?a proceed without ?b
+		?a: The reactions
+		?b: overalkylation
+	?a provide ?b
+		?a: The reactions
+		?b: high levels of regioselectivity
+
+
+label:    sent_14
+sentence: The results were proceed and analyzed by means of SPSS statistical program .
+
+ppatt:
+	?a were proceed by ?b
+		?a: The results
+		?b: means of SPSS statistical program
+	?a analyzed
+		?a: The results
+
+
+label:    sent_15
+sentence: Half of claims did not proceed but were not without financial and psychological costs .
+
+ppatt:
+	?a did not proceed ?b
+		?a: Half of claims
+		?b: costs
+
+
+label:    sent_16
+sentence: We proceed to dissect and clip it . Evidence that the ( 6-4 ) photolyase mechanism can proceed through an oxetane intermediate .
+
+ppatt:
+	?a proceed to dissect ?b ?c
+		?a: We
+		?b: it
+		?c: Evidence that the ( 6-4 ) photolyase mechanism can proceed through an oxetane intermediate
+	?a proceed to clip
+		?a: We
+	?a can proceed through ?b
+		?a: the ( 6-4 ) photolyase mechanism
+		?b: an oxetane intermediate
+
+
+label:    sent_17
+sentence: After that , the reform process must proceed according to the agreed timetable .
+
+ppatt:
+	After ?a , ?b must proceed according to ?c
+		?a: that
+		?b: the reform process
+		?c: the agreed timetable
+
+
+label:    sent_18
+sentence: These two reactions may be somewhat interchangeable and proceed simultaneously .
+
+ppatt:
+	?a may be somewhat interchangeable
+		?a: These two reactions
+	?a proceed simultaneously
+		?a: These two reactions
+
+
+label:    sent_19
+sentence: Finally , a legal decision is made to proceed or refuse the chosen surgery .
+
+ppatt:
+	Finally , ?a is made to proceed ?b
+		?a: a legal decision
+		?b: the chosen surgery
+	Finally , ?a is made to refuse
+		?a: a legal decision
+
+
+label:    sent_20
+sentence: Children refusing general anaesthesia : to postpone or proceed ?
+
+ppatt:
+	?a refusing ?b
+		?a: Children : to postpone or proceed
+		?b: general anaesthesia
+	?a postpone
+		?a: Children refusing general anaesthesia
+
+
+label:    sent_21
+sentence: These findings provide a framework upon which research on complex causal processes may proceed .
+
+ppatt:
+	?a provide ?b
+		?a: These findings
+		?b: a framework upon which research on complex causal processes may proceed
+	?a upon ?b may proceed
+		?a: a framework
+		?b: research on complex causal processes
+
+
+label:    sent_22
+sentence: Conditions under which multielectron reactions at the interface proceed are discussed .
+
+ppatt:
+	?a under ?b are discussed
+		?a: Conditions
+		?b: multielectron reactions at the interface proceed
+
+
+label:    sent_23
+sentence: A probable mechanism by which such mitogenic induction may proceed is elaborated .
+
+ppatt:
+	?a by ?b may proceed
+		?a: A probable mechanism
+		?b: such mitogenic induction
+	?a is elaborated
+		?a: A probable mechanism by which such mitogenic induction may proceed
+
+
+label:    sent_24
+sentence: The level of anticoagulation at which surgeons would proceed with dental extractions was variable .
+
+ppatt:
+	?a at ?b would proceed with ?c
+		?a: The level of anticoagulation
+		?b: surgeons
+		?c: dental extractions
+	?a was variable
+		?a: The level of anticoagulation at which surgeons would proceed with dental extractions
+
+
+label:    sent_25
+sentence: These physicians then identified patients for whom they would proceed to barium enema .
+
+ppatt:
+	?a then identified ?b
+		?a: These physicians
+		?b: patients for whom they would proceed to barium enema
+	?a for ?b ?c would proceed to ?d
+		?a: patients
+		?b: whom
+		?c: they
+		?d: barium enema
+
+

@@ -1,0 +1,301 @@
+label:    sent_1
+sentence: Arctic oil drilling plans raise environmental health concerns .
+
+ppatt:
+	?a raise ?b
+		?a: Arctic oil drilling plans
+		?b: environmental health concerns
+
+
+label:    sent_2
+sentence: These findings raise questions about the accuracy of pulmonary hypertension diagnosis codes .
+
+ppatt:
+	?a raise ?b
+		?a: These findings
+		?b: questions about the accuracy of pulmonary hypertension diagnosis codes
+
+
+label:    sent_3
+sentence: These contextual influences raise critical challenges for the field of population health intervention research .
+
+ppatt:
+	?a raise ?b
+		?a: These contextual influences
+		?b: critical challenges for the field of population health intervention research
+
+
+label:    sent_4
+sentence: The importance of staff training in order to raise knowledge and awareness is highlighted .
+
+ppatt:
+	?a order to raise ?b
+		?a: The importance of staff training
+		?b: knowledge
+	?a order to raise ?b
+		?a: The importance of staff training
+		?b: awareness
+	?a is highlighted
+		?a: The importance of staff training in order to raise knowledge and awareness
+
+
+label:    sent_5
+sentence: The present paper serves to raise awareness of this intervention and its potential .
+
+ppatt:
+	?a serves to raise ?b
+		?a: The present paper
+		?b: awareness of this intervention
+	?a serves to raise ?b
+		?a: The present paper
+		?b: its potential
+
+
+label:    sent_6
+sentence: Medio-lateral translation during knee flexion continues to raise controversy .
+
+ppatt:
+	?a continues to raise ?b
+		?a: Medio-lateral translation during knee flexion
+		?b: controversy
+
+
+label:    sent_7
+sentence: We place this in context and raise issues for discussion and further experimentation .
+
+ppatt:
+	?a place ?b in ?c
+		?a: We
+		?b: this
+		?c: context
+	?a raise ?b
+		?a: We
+		?b: issues for discussion and further experimentation
+
+
+label:    sent_8
+sentence: Examples are given to raise awareness of the problem and initiate possible solutions .
+
+ppatt:
+	?a are given to raise ?b
+		?a: Examples
+		?b: awareness of the problem
+	?a are given to initiate ?b
+		?a: Examples
+		?b: possible solutions
+
+
+label:    sent_9
+sentence: The purified glycoprotein GTH was used to raise antibodies and to develop a radioimmunoassay .
+
+ppatt:
+	?a was used to raise ?b
+		?a: The purified glycoprotein GTH
+		?b: antibodies
+	?a was used to to develop ?b
+		?a: The purified glycoprotein GTH
+		?b: a radioimmunoassay
+
+
+label:    sent_10
+sentence: Our results also raise interest into ITGB3 influences on feto-maternal immune interactions in autism .
+
+ppatt:
+	?a also raise ?b ?c
+		?a: Our results
+		?b: interest into ITGB3
+		?c: SOMETHING := influences on feto-maternal immune interactions in autism
+	?a influences on ?b
+		?a: Our results
+		?b: feto-maternal immune interactions in autism
+
+
+label:    sent_11
+sentence: Release of acetylcholine by Hon-Chi to raise insulin secretion in Wistar rats .
+
+ppatt:
+	?a raise ?b
+		?a: Release of acetylcholine by Hon-Chi
+		?b: insulin secretion in Wistar rats
+
+
+label:    sent_12
+sentence: They raise the issue of care because of severe neurological sequella .
+
+ppatt:
+	?a raise ?b
+		?a: They
+		?b: the issue of care because of severe neurological sequella
+
+
+label:    sent_13
+sentence: Pesticide treatments against the parasite raise environmental concerns and their efficacy is gradually decreasing .
+
+ppatt:
+	?a raise ?b
+		?a: Pesticide treatments against the parasite
+		?b: environmental concerns
+	?a is gradually decreasing
+		?a: their efficacy
+
+
+label:    sent_14
+sentence: Unions raise nurses ' pay and increase nurse/patient staffing ratios .
+
+ppatt:
+	?a raise ?b ' pay ?c
+		?a: Unions
+		?b: nurses
+		?c: nurse/patient staffing ratios
+	raise ?a ' increase
+		?a: nurses
+
+
+label:    sent_15
+sentence: They raise fibrinolytic activity and inhibit thrombocyte aggregation .
+
+ppatt:
+	?a raise ?b
+		?a: They
+		?b: fibrinolytic activity
+	?a inhibit ?b
+		?a: They
+		?b: thrombocyte aggregation
+
+
+label:    sent_16
+sentence: Prevention programs should aim to raise age at first contact with alcohol .
+
+ppatt:
+	?a should aim to raise ?b at ?c
+		?a: Prevention programs
+		?b: age
+		?c: first contact with alcohol
+
+
+label:    sent_17
+sentence: Initiatives have been taken to raise compliance with the system .
+
+ppatt:
+	?a have been taken to raise ?b
+		?a: Initiatives
+		?b: compliance with the system
+
+
+label:    sent_18
+sentence: We have tried to raise several issues in this paper .
+
+ppatt:
+	?a have tried to raise ?b in ?c
+		?a: We
+		?b: several issues
+		?c: this paper
+
+
+label:    sent_19
+sentence: These data raise concerns for long-term problems with weight in this group of Veterans .
+
+ppatt:
+	?a raise ?b
+		?a: These data
+		?b: concerns for long-term problems with weight in this group of Veterans
+
+
+label:    sent_20
+sentence: Is the psoas a hip flexor in the active straight leg raise ? Risk score increases when variables indicating the individual vulnerability raise .
+
+ppatt:
+	?a raise ?b
+		?a: the psoas a hip flexor in the active straight leg
+		?b: Risk score increases when variables indicating the individual vulnerability raise
+	?a indicating ?b
+		?a: variables
+		?b: the individual vulnerability
+	?a when ?b raise
+		?a: Risk score increases
+		?b: variables indicating the individual vulnerability
+
+
+label:    sent_21
+sentence: The puberal growth was coincident with the raise in plasma testosterone .
+
+ppatt:
+	?a was coincident with ?b
+		?a: The puberal growth
+		?b: the raise in plasma testosterone
+
+
+label:    sent_22
+sentence: The anterolateral leg island flap is thin , reliable and relatively easy to raise .
+
+ppatt:
+	?a is thin
+		?a: The anterolateral leg island flap
+	?a reliable
+		?a: The anterolateral leg island flap
+	?a relatively easy to raise
+		?a: The anterolateral leg island flap
+
+
+label:    sent_23
+sentence: This migratory flux has contributed to a raise of heterogeneity at multiple levels .
+
+ppatt:
+	?a has contributed to ?b
+		?a: This migratory flux
+		?b: a raise of heterogeneity at multiple levels
+
+
+label:    sent_24
+sentence: In addition , palm oil consumption may raise HDL levels and reduce platelet aggregability .
+
+ppatt:
+	In ?a , ?b may raise ?c
+		?a: addition
+		?b: palm oil consumption
+		?c: HDL levels
+	?a reduce ?b
+		?a: palm oil consumption
+		?b: platelet aggregability
+
+
+label:    sent_25
+sentence: News media raise public awareness about health and can influence public policy agenda .
+
+ppatt:
+	?a raise ?b
+		?a: News media
+		?b: public awareness about health
+	?a can influence ?b
+		?a: News media
+		?b: public policy agenda
+
+
+label:    sent_26
+sentence: In this article , we raise this question , and offer some tentative conclusions .
+
+ppatt:
+	In ?a , ?b raise ?c
+		?a: this article
+		?b: we
+		?c: this question
+	?a offer ?b
+		?a: we
+		?b: some tentative conclusions
+
+
+label:    sent_27
+sentence: We have also seen the raise and , probably unwarranted , fall of radioimmunotherapy .
+
+ppatt:
+	?a have also seen ?b
+		?a: We
+		?b: the raise
+	?a have also seen ?b
+		?a: We
+		?b: probably unwarranted
+	?a have also seen ?b
+		?a: We
+		?b: fall of radioimmunotherapy
+
+

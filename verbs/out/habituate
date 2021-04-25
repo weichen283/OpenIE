@@ -1,0 +1,227 @@
+label:    sent_1
+sentence: On the other hand , the FPA-R does not habituate to higher odor concentrations .
+
+ppatt:
+	On ?a , ?b does not habituate to ?c
+		?a: the other hand
+		?b: the FPA-R
+		?c: higher odor concentrations
+
+
+label:    sent_2
+sentence: Amygdala and hippocampus fail to habituate to faces in individuals with an inhibited temperament .
+
+ppatt:
+	?a fail to habituate to ?b in ?c
+		?a: Amygdala
+		?b: faces
+		?c: individuals with an inhibited temperament
+	?a fail to habituate to ?b in ?c
+		?a: hippocampus
+		?b: faces
+		?c: individuals with an inhibited temperament
+
+
+label:    sent_3
+sentence: Chicks seemed to habituate to the shock over time .
+
+ppatt:
+	?a seemed to habituate to ?b over ?c
+		?a: Chicks
+		?b: the shock
+		?c: time
+
+
+label:    sent_4
+sentence: The EMG response did not habituate with repeated stimulation .
+
+ppatt:
+	?a did not habituate with ?b
+		?a: The EMG response
+		?b: repeated stimulation
+
+
+label:    sent_5
+sentence: Secondarily , it was found that cuttlefish habituate to certain sound stimuli .
+
+ppatt:
+	Secondarily , ?a was found ?b
+		?a: it
+		?b: SOMETHING := cuttlefish habituate to certain sound stimuli
+	?a habituate to ?b
+		?a: cuttlefish
+		?b: certain sound stimuli
+
+
+label:    sent_6
+sentence: This response , moreover , did not habituate after repeated day-to-day testing .
+
+ppatt:
+	?a moreover , did not habituate after ?b
+		?a: This response
+		?b: repeated day-to-day testing
+
+
+label:    sent_7
+sentence: These animals did not easily habituate to unfamiliar circumstances and displayed hyperlocomotion .
+
+ppatt:
+	?a did not easily habituate to ?b
+		?a: These animals
+		?b: unfamiliar circumstances
+	?a displayed ?b
+		?a: These animals
+		?b: hyperlocomotion
+
+
+label:    sent_8
+sentence: Speaker and listener quickly habituate to these expressions and automatically exclude them from consideration .
+
+ppatt:
+	?a quickly habituate to ?b
+		?a: Speaker
+		?b: these expressions
+	?a quickly habituate to ?b
+		?a: listener
+		?b: these expressions
+	?a automatically exclude ?b from ?c
+		?a: Speaker
+		?b: them
+		?c: consideration
+	?a automatically exclude ?b from ?c
+		?a: listener
+		?b: them
+		?c: consideration
+
+
+label:    sent_9
+sentence: The dunce , turnip , and rutabaga mutants all habituate less than normal flies .
+
+ppatt:
+	?a all habituate less than ?b
+		?a: The dunce
+		?b: normal flies
+	?a all habituate less than ?b
+		?a: turnip
+		?b: normal flies
+	?a all habituate less than ?b
+		?a: rutabaga
+		?b: normal flies
+	?a all habituate less than ?b
+		?a: mutants
+		?b: normal flies
+
+
+label:    sent_10
+sentence: Overweight children habituate slower than non-overweight children to food .
+
+ppatt:
+	?a habituate slower than ?b
+		?a: Overweight children
+		?b: non-overweight children to food
+
+
+label:    sent_11
+sentence: Most physiological responses to noise habituate rapidly but in some people physiological responses persist .
+
+ppatt:
+	?a habituate rapidly
+		?a: Most physiological responses to noise
+	in ?a ?b persist
+		?a: some people
+		?b: physiological responses
+
+
+label:    sent_12
+sentence: All are related to intensity of stimulation and rapidly habituate in most subjects .
+
+ppatt:
+	?a are related to ?b
+		?a: All
+		?b: intensity of stimulation
+	?a rapidly habituate in ?b
+		?a: All
+		?b: most subjects
+
+
+label:    sent_13
+sentence: All organs responded phasically and did not habituate to repetitive stimuli .
+
+ppatt:
+	?a responded phasically
+		?a: All organs
+	?a did not habituate to ?b
+		?a: All organs
+		?b: repetitive stimuli
+
+
+label:    sent_14
+sentence: Down syndrome individuals fail to habituate cortical evoked potentials .
+
+ppatt:
+	?a fail to habituate ?b
+		?a: Down syndrome individuals
+		?b: cortical evoked potentials
+
+
+label:    sent_15
+sentence: Serotonin and octopamine increased the number of stimuli needed to habituate the LG response .
+
+ppatt:
+	?a increased ?b
+		?a: Serotonin
+		?b: the number of stimuli needed to habituate the LG response
+	?a increased ?b
+		?a: octopamine
+		?b: the number of stimuli needed to habituate the LG response
+	?a needed to habituate ?b
+		?a: stimuli
+		?b: the LG response
+
+
+label:    sent_16
+sentence: The number of trials to habituate and latency to respond were recorded .
+
+ppatt:
+	?a habituate to respond
+		?a: The number of trials
+	?a were recorded
+		?a: The number of trials to habituate and latency to respond
+
+
+label:    sent_17
+sentence: In the older group this component had longer latency , and did not habituate . During the theta blockade , the reset was too long and did not habituate .
+
+ppatt:
+	In ?a ?b had ?c
+		?a: the older group
+		?b: this component
+		?c: longer latency
+	?a did not habituate . During ?b
+		?a: this component
+		?b: the theta blockade
+	?a was too long
+		?a: the reset
+	?a did not habituate
+		?a: the reset
+
+
+label:    sent_18
+sentence: Orientation sessions are sometimes used to habituate subjects before exercise stress testing .
+
+ppatt:
+	?a are sometimes used to habituate ?b before ?c
+		?a: Orientation sessions
+		?b: subjects
+		?c: exercise stress testing
+
+
+label:    sent_19
+sentence: The first session was used to habituate subjects to treadmill walking or running .
+
+ppatt:
+	?a was used to habituate ?b
+		?a: The first session
+		?b: subjects to treadmill
+
+

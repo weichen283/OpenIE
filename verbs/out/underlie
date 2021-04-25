@@ -1,0 +1,309 @@
+label:    sent_1
+sentence: Daily oscillations of gene expression underlie circadian behaviours in multicellular organisms .
+
+ppatt:
+	?a underlie ?b
+		?a: Daily oscillations of gene expression
+		?b: circadian behaviours in multicellular organisms
+
+
+label:    sent_2
+sentence: Distinct germ line polymorphisms underlie glioma morphologic heterogeneity .
+
+ppatt:
+	?a underlie ?b
+		?a: Distinct germ line polymorphisms
+		?b: glioma morphologic heterogeneity
+
+
+label:    sent_3
+sentence: Such altered connectivity may underlie cognitive symptoms in neurologic disease .
+
+ppatt:
+	?a may underlie ?b
+		?a: Such altered connectivity
+		?b: cognitive symptoms in neurologic disease
+
+
+label:    sent_4
+sentence: Finally , we suggest optical mechanisms that underlie the myelin specificity of THG .
+
+ppatt:
+	Finally , ?a suggest ?b
+		?a: we
+		?b: optical mechanisms that underlie the myelin specificity of THG
+	?a underlie ?b
+		?a: optical mechanisms
+		?b: the myelin specificity of THG
+
+
+label:    sent_5
+sentence: In skin , loss of RhoA was suggested to underlie pemphigus skin blistering .
+
+ppatt:
+	In ?a , ?b was suggested to underlie ?c
+		?a: skin
+		?b: loss of RhoA
+		?c: pemphigus skin blistering
+
+
+label:    sent_6
+sentence: This study examined the neuronal changes that could underlie this behavioral observation .
+
+ppatt:
+	?a examined ?b
+		?a: This study
+		?b: the neuronal changes that could underlie this behavioral observation
+	?a could underlie ?b
+		?a: the neuronal changes
+		?b: this behavioral observation
+
+
+label:    sent_7
+sentence: The range of internal experiences that underlie narration in psychotherapy is explicated .
+
+ppatt:
+	?a underlie ?b
+		?a: internal experiences
+		?b: narration in psychotherapy
+	?a is explicated
+		?a: The range of internal experiences that underlie narration in psychotherapy
+
+
+label:    sent_8
+sentence: Retinal dynamics underlie its switch from inverse agonist to agonist during rhodopsin activation .
+
+ppatt:
+	?a underlie ?b during ?c
+		?a: Retinal dynamics
+		?b: its switch from inverse agonist to agonist
+		?c: rhodopsin activation
+
+
+label:    sent_9
+sentence: TRPC channels underlie cholinergic plateau potentials and persistent activity in entorhinal cortex .
+
+ppatt:
+	?a underlie ?b
+		?a: TRPC channels
+		?b: cholinergic plateau potentials in entorhinal cortex
+	?a underlie ?b
+		?a: TRPC channels
+		?b: persistent activity
+
+
+label:    sent_10
+sentence: Susceptibility to stress-induced apoptosis may underlie beta cell failure and/or hamper islet transplantation therapy .
+
+ppatt:
+	?a may underlie ?b
+		?a: Susceptibility to stress-induced apoptosis
+		?b: beta cell failure
+	?a hamper ?b
+		?a: Susceptibility to stress-induced apoptosis
+		?b: islet transplantation therapy
+
+
+label:    sent_11
+sentence: This may underlie the disordered vessel structure and/or function in this condition .
+
+ppatt:
+	?a may underlie ?b
+		?a: This
+		?b: the disordered vessel structure
+	?a function in ?b
+		?a: This
+		?b: this condition
+
+
+label:    sent_12
+sentence: Its discoveries and explanations underlie every social science and offer information to other fields .
+
+ppatt:
+	?a underlie ?b
+		?a: Its discoveries
+		?b: every social science
+	?a underlie ?b
+		?a: explanations
+		?b: every social science
+	?a offer ?b
+		?a: Its discoveries
+		?b: information to other fields
+	?a offer ?b
+		?a: explanations
+		?b: information to other fields
+
+
+label:    sent_13
+sentence: Amyloid-like aggregates are found in a wide range of diseases and underlie prion-based inheritance .
+
+ppatt:
+	?a are found in ?b
+		?a: Amyloid-like aggregates
+		?b: a wide range of diseases
+	?a underlie ?b
+		?a: Amyloid-like aggregates
+		?b: prion-based inheritance
+
+
+label:    sent_14
+sentence: Defective immunoregulation is present in insulin-dependent diabetes and may underlie autoimmunity .
+
+ppatt:
+	?a is present in ?b
+		?a: Defective immunoregulation
+		?b: insulin-dependent diabetes
+	?a may underlie ?b
+		?a: Defective immunoregulation
+		?b: autoimmunity
+
+
+label:    sent_15
+sentence: Inflammation is associated with these disorders and may underlie the risk for health declines .
+
+ppatt:
+	?a is associated with ?b
+		?a: Inflammation
+		?b: these disorders
+	?a may underlie ?b
+		?a: Inflammation
+		?b: the risk for health declines
+
+
+label:    sent_16
+sentence: Various mechanisms have been suggested to underlie PPI failure in GORD patients .
+
+ppatt:
+	?a have been suggested to underlie ?b
+		?a: Various mechanisms
+		?b: PPI failure in GORD patients
+
+
+label:    sent_17
+sentence: 1 . Synaptic plasticity is thought to underlie learning and memory formation in the brain .
+
+ppatt:
+	?a is thought to underlie ?b
+		?a: Synaptic plasticity
+		?b: learning in the brain
+	?a is thought to underlie ?b
+		?a: Synaptic plasticity
+		?b: memory formation
+
+
+label:    sent_18
+sentence: Potential flaws in this process include the assumptions that underlie the research under examination .
+
+ppatt:
+	?a include ?b
+		?a: Potential flaws in this process
+		?b: the assumptions that underlie the research under examination
+	?a underlie ?b
+		?a: the assumptions
+		?b: the research under examination
+
+
+label:    sent_19
+sentence: Age-related degeneration of intracortical inhibition could underlie declines in cognitive function during senescence .
+
+ppatt:
+	?a could underlie ?b during ?c
+		?a: Age-related degeneration of intracortical inhibition
+		?b: declines in cognitive function
+		?c: senescence
+
+
+label:    sent_20
+sentence: These results indicate that visuospatial attention deficits do not underlie these dyslexias .
+
+ppatt:
+	?a indicate ?b
+		?a: These results
+		?b: SOMETHING := visuospatial attention deficits do not underlie these dyslexias
+	?a do not underlie ?b
+		?a: visuospatial attention deficits
+		?b: these dyslexias
+
+
+label:    sent_21
+sentence: Failure to recruit these areas in the patients may underlie schizophrenic concretism .
+
+ppatt:
+	?a recruit ?b
+		?a: Failure
+		?b: these areas in the patients
+	?a may underlie ?b
+		?a: Failure to recruit these areas in the patients
+		?b: schizophrenic concretism
+
+
+label:    sent_22
+sentence: Specific personality dimensions may underlie and explain the similarities between AvPD and GSAD .
+
+ppatt:
+	?a may underlie ?b
+		?a: Specific personality dimensions
+		?b: the similarities between AvPD and GSAD
+	?a explain
+		?a: Specific personality dimensions
+
+
+label:    sent_23
+sentence: These affects may underlie or reflect differences in iron loading in these mice .
+
+ppatt:
+	?a may underlie ?b
+		?a: These affects
+		?b: differences in iron loading in these mice
+	?a reflect
+		?a: These affects
+
+
+label:    sent_24
+sentence: Different mechanisms underlie and co-exist in the chronic whiplash condition .
+
+ppatt:
+	?a underlie in ?b
+		?a: Different mechanisms
+		?b: the chronic whiplash condition
+	?a co-exist
+		?a: Different mechanisms
+
+
+label:    sent_25
+sentence: It is unknown what cellular mechanisms underlie this lack of adaptation .
+
+ppatt:
+	?a is unknown ?b
+		?a: It
+		?b: SOMETHING := what cellular mechanisms underlie this lack of adaptation
+	?a ?b underlie ?c
+		?a: what
+		?b: cellular mechanisms
+		?c: this lack of adaptation
+
+
+label:    sent_26
+sentence: However , it is unclear what fundamental mechanisms underlie this type of conformity .
+
+ppatt:
+	However , ?a is unclear ?b
+		?a: it
+		?b: SOMETHING := what fundamental mechanisms underlie this type of conformity
+	?a ?b underlie ?c
+		?a: what
+		?b: fundamental mechanisms
+		?c: this type of conformity
+
+
+label:    sent_27
+sentence: There is agreement that these mechanisms underlie a variety of human neurodegenerative diseases .
+
+ppatt:
+	There is ?a
+		?a: agreement that these mechanisms underlie a variety of human neurodegenerative diseases
+	?a underlie ?b
+		?a: these mechanisms
+		?b: a variety of human neurodegenerative diseases
+
+

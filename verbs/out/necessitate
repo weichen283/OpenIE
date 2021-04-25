@@ -1,0 +1,315 @@
+label:    sent_1
+sentence: Increasing efficiency and reducing costs over time will necessitate careful strategic planning .
+
+ppatt:
+	?a will necessitate ?b
+		?a: Increasing efficiency over time
+		?b: careful strategic planning
+	?a will necessitate ?b
+		?a: reducing
+		?b: careful strategic planning
+	?a will necessitate ?b
+		?a: costs
+		?b: careful strategic planning
+
+
+label:    sent_2
+sentence: Experimental space restrictions and dynamic range requirements necessitate designs that stress the analytical assumptions .
+
+ppatt:
+	?a necessitate ?b
+		?a: Experimental space restrictions
+		?b: designs that stress the analytical assumptions
+	?a necessitate ?b
+		?a: dynamic range requirements
+		?b: designs that stress the analytical assumptions
+	?a stress
+		?a: that
+	?a ?b the analytical assumptions
+		?a: designs
+		?b: that stress
+
+
+label:    sent_3
+sentence: Large interinstrument differences necessitate calibration of corneal backscatter measurements .
+
+ppatt:
+	?a necessitate ?b
+		?a: Large interinstrument differences
+		?b: calibration of corneal backscatter measurements
+
+
+label:    sent_4
+sentence: None of the side effects were severe enough to necessitate treatment discontinuation .
+
+ppatt:
+	?a were severe enough to necessitate ?b
+		?a: None of the side effects
+		?b: treatment discontinuation
+
+
+label:    sent_5
+sentence: Present limitations include limited temporal resolution and necessitate further improvement of the system .
+
+ppatt:
+	?a include ?b
+		?a: Present limitations
+		?b: limited temporal resolution
+	?a necessitate ?b
+		?a: Present limitations
+		?b: further improvement of the system
+
+
+label:    sent_6
+sentence: The results indicate that incomplete removal does not always seem to necessitate subsequent surgery .
+
+ppatt:
+	?a indicate ?b
+		?a: The results
+		?b: SOMETHING := incomplete removal does not always seem to necessitate subsequent surgery
+	?a does not always seem to necessitate ?b
+		?a: incomplete removal
+		?b: subsequent surgery
+
+
+label:    sent_7
+sentence: These findings necessitate long-term follow-up beyond childhood .
+
+ppatt:
+	?a necessitate ?b
+		?a: These findings
+		?b: long-term follow-up beyond childhood
+
+
+label:    sent_8
+sentence: Despite widespread availability , various medical conditions necessitate caffeine-restricted diets .
+
+ppatt:
+	Despite ?a , ?b necessitate ?c
+		?a: widespread availability
+		?b: various medical conditions
+		?c: caffeine-restricted diets
+
+
+label:    sent_9
+sentence: This will necessitate studies using actual patient telephone vignettes rather than simulated ones .
+
+ppatt:
+	?a will necessitate ?b
+		?a: This
+		?b: studies using actual patient telephone vignettes rather than simulated ones
+	?a using ?b
+		?a: studies
+		?b: actual patient telephone vignettes
+	?a using ?b
+		?a: studies
+		?b: simulated ones
+
+
+label:    sent_10
+sentence: Perforation is a potential complication of this treatment and may necessitate surgical intervention .
+
+ppatt:
+	?a is a potential complication of ?b
+		?a: Perforation
+		?b: this treatment
+	?a may necessitate ?b
+		?a: Perforation
+		?b: surgical intervention
+
+
+label:    sent_11
+sentence: Skin-flap loss compromises the aesthetic result and may necessitate revisional surgery .
+
+ppatt:
+	?a compromises ?b
+		?a: Skin-flap loss
+		?b: the aesthetic result
+	?a may necessitate ?b
+		?a: Skin-flap loss
+		?b: revisional surgery
+
+
+label:    sent_12
+sentence: However , delivery of the device can be difficult and may necessitate adjunctive procedures .
+
+ppatt:
+	However , ?a can be difficult
+		?a: delivery of the device
+	?a may necessitate ?b
+		?a: delivery of the device
+		?b: adjunctive procedures
+
+
+label:    sent_13
+sentence: These events may necessitate additional investigations and interventions and may prolong the hospital stay .
+
+ppatt:
+	?a may necessitate ?b
+		?a: These events
+		?b: additional investigations
+	?a may necessitate ?b
+		?a: These events
+		?b: interventions
+	?a may prolong ?b
+		?a: These events
+		?b: the hospital stay
+
+
+label:    sent_14
+sentence: Three patients necessitate multiple sessions of endoscopic dilatation and 15 had favourable evolution .
+
+ppatt:
+	?a necessitate ?b
+		?a: Three patients
+		?b: multiple sessions of endoscopic dilatation
+	?a had ?b
+		?a: 15
+		?b: favourable evolution
+
+
+label:    sent_15
+sentence: Successful limitation of homologous blood transfusion may necessitate multiple strategies and advance planning .
+
+ppatt:
+	?a may necessitate ?b
+		?a: Successful limitation of homologous blood transfusion
+		?b: multiple strategies
+	?a advance ?b
+		?a: Successful limitation of homologous blood transfusion
+		?b: planning
+
+
+label:    sent_16
+sentence: The authors necessitate increasing the number of autopsies in cases of death at home .
+
+ppatt:
+	?a necessitate increasing ?b
+		?a: The authors
+		?b: the number of autopsies in cases of death at home
+
+
+label:    sent_17
+sentence: This would necessitate that the axons are able to transiently enlarge their diameter considerably .
+
+ppatt:
+	?a would necessitate ?b
+		?a: This
+		?b: SOMETHING := the axons are able to transiently enlarge their diameter considerably
+	?a are able to transiently enlarge ?b considerably
+		?a: the axons
+		?b: their diameter
+
+
+label:    sent_18
+sentence: Resource limitation may necessitate performing these operations nights and weekends .
+
+ppatt:
+	?a may necessitate performing ?b
+		?a: Resource limitation
+		?b: these operations
+
+
+label:    sent_19
+sentence: This was of sufficient degree to necessitate methotrexate withdrawal in two cases .
+
+ppatt:
+	?a was of sufficient degree
+		?a: This
+	?a necessitate ?b
+		?a: sufficient degree
+		?b: methotrexate withdrawal in two cases
+
+
+label:    sent_20
+sentence: No side effects of such severity as to necessitate interruption of therapy were observed .
+
+ppatt:
+	?a necessitate ?b
+		?a: No side effects of such severity
+		?b: interruption of therapy
+	?a were observed
+		?a: No side effects of such severity as to necessitate interruption of therapy
+
+
+label:    sent_21
+sentence: Chronic ulcers that do not heal necessitate closure with a graft .
+
+ppatt:
+	?a do not heal
+		?a: Chronic ulcers
+	?a necessitate ?b
+		?a: Chronic ulcers that do not heal
+		?b: closure with a graft
+
+
+label:    sent_22
+sentence: The defects can be large and may necessitate complex reconstruction with hair-bearing tissue .
+
+ppatt:
+	?a can be large
+		?a: The defects
+	?a may necessitate ?b
+		?a: The defects
+		?b: complex reconstruction with hair-bearing tissue
+
+
+label:    sent_23
+sentence: Complex interventions are not straightforward and necessitate a monitoring process at trial stage .
+
+ppatt:
+	?a are not straightforward
+		?a: Complex interventions
+	?a necessitate ?b at ?c
+		?a: Complex interventions
+		?b: a monitoring process
+		?c: trial stage
+
+
+label:    sent_24
+sentence: Side effects were minimal and did not necessitate discontinuation of therapy in any patient .
+
+ppatt:
+	?a were minimal
+		?a: Side effects
+	?a did not necessitate ?b
+		?a: Side effects
+		?b: discontinuation of therapy in any patient
+
+
+label:    sent_25
+sentence: These and other findings necessitate further investigation and confirmation .
+
+ppatt:
+	?a necessitate ?b
+		?a: These
+		?b: further investigation
+	?a necessitate ?b
+		?a: other findings
+		?b: further investigation
+	?a necessitate ?b
+		?a: These
+		?b: confirmation
+	?a necessitate ?b
+		?a: other findings
+		?b: confirmation
+
+
+label:    sent_26
+sentence: Problems with graft strength or stiffness may necessitate further surgery .
+
+ppatt:
+	?a may necessitate ?b
+		?a: Problems with graft
+		?b: further surgery
+
+
+label:    sent_27
+sentence: The presence of residual tumor after surgery for pituitary adenoma may necessitate further treatment .
+
+ppatt:
+	?a may necessitate ?b
+		?a: The presence of residual tumor after surgery for pituitary adenoma
+		?b: further treatment
+
+

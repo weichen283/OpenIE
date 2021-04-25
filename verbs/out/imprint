@@ -1,0 +1,176 @@
+label:    sent_1
+sentence: We utilize the interaction of tightly focused ultrashort pulses with transparent media to imprint their local polarization in the focal region .
+
+ppatt:
+	?a utilize ?b
+		?a: We
+		?b: the interaction of tightly focused ultrashort pulses with transparent media
+	?a imprint ?b
+		?a: We
+		?b: their local polarization in the focal region
+
+
+label:    sent_2
+sentence: We found that a period of stimulation as short as two hours could imprint on a T cell a " biochemical memory " of that activation signal that persisted for several hours .
+
+ppatt:
+	?a found ?b
+		?a: We
+		?b: SOMETHING := a period of stimulation as short as two hours could imprint on a T cell a " biochemical memory " of that activation signal that persisted for several hours
+	?a could imprint on ?b ?c
+		?a: a period of stimulation as short as two hours
+		?b: a T cell
+		?c: a " biochemical memory " of that activation signal that persisted for several hours
+	?a persisted for ?b
+		?a: that activation signal
+		?b: several hours
+
+
+label:    sent_3
+sentence: An upside-down muzzle imprint in the left temporal region and recoil injuries of a mandibular incisor , and the lower lip indicated that both the pistol and the revolver had been held in an inverted manner at the time of discharge .
+
+ppatt:
+	?a indicated ?b
+		?a: An upside-down muzzle imprint in the left temporal region and recoil injuries of a mandibular incisor
+		?b: SOMETHING := both the pistol and the revolver had been held in an inverted manner at the time of discharge
+	?a indicated ?b
+		?a: the lower lip
+		?b: SOMETHING := both the pistol and the revolver had been held in an inverted manner at the time of discharge
+	?a had been held in ?b at ?c
+		?a: the pistol
+		?b: an inverted manner
+		?c: the time of discharge
+	?a had been held in ?b at ?c
+		?a: the revolver
+		?b: an inverted manner
+		?c: the time of discharge
+
+
+label:    sent_4
+sentence: The dissociation process was found to preserve the conformation of the parent molecule with a high probability of 75 % and imprint it in the relative position and orientation of the product CH3S species on the surface .
+
+ppatt:
+	?a was found to preserve ?b with ?c
+		?a: The dissociation process
+		?b: the conformation of the parent molecule
+		?c: a high probability of 75 %
+	?a imprint ?b in ?c
+		?a: The dissociation process
+		?b: it
+		?c: the relative position on the surface
+	?a imprint ?b in ?c
+		?a: The dissociation process
+		?b: it
+		?c: orientation of the product CH3S species
+
+
+label:    sent_5
+sentence: We imprint plasmonic near field enhancements as nanoscale topography in SU8 photoresist using two-photon absorption from a spectrally filtered broadband supercontinuum light source .
+
+ppatt:
+	?a imprint ?b as ?c using ?d
+		?a: We
+		?b: plasmonic near field enhancements
+		?c: nanoscale topography in SU8 photoresist
+		?d: two-photon absorption from a spectrally filtered broadband supercontinuum light source
+
+
+label:    sent_6
+sentence: Bile retinoids imprint intestinal CD103+ dendritic cells with the ability to generate gut-tropic T cells .
+
+ppatt:
+	?a imprint ?b with ?c
+		?a: Bile retinoids
+		?b: intestinal CD103+ dendritic cells
+		?c: the ability to generate gut-tropic T cells
+	?a generate ?b
+		?a: the ability
+		?b: gut-tropic T cells
+
+
+label:    sent_7
+sentence: In summary , perinatal growth restriction could permanently imprint pharmacokinetic processes affecting drug response .
+
+ppatt:
+	In ?a , ?b could permanently imprint ?c
+		?a: summary
+		?b: perinatal growth restriction
+		?c: pharmacokinetic processes affecting drug response
+	?a affecting ?b
+		?a: pharmacokinetic processes
+		?b: drug response
+
+
+label:    sent_8
+sentence: Recirculation patterns of lymphocytes differ between mucosal and systemic lymphoid organs , and more insight into the mechanisms that imprint this behavior has been generated recently .
+
+ppatt:
+	?a differ between ?b
+		?a: Recirculation patterns of lymphocytes
+		?b: mucosal
+	?a differ between ?b
+		?a: Recirculation patterns of lymphocytes
+		?b: systemic
+	?a imprint ?b
+		?a: the mechanisms
+		?b: this behavior
+	?a has been generated recently
+		?a: more insight into the mechanisms that imprint this behavior
+
+
+label:    sent_9
+sentence: Hormones and malnutrition can imprint several changes in the beginning of life that programs homeostatic changes in the adulthood .
+
+ppatt:
+	?a can imprint ?b
+		?a: Hormones
+		?b: several changes in the beginning of life that programs homeostatic changes in the adulthood
+	?a can imprint ?b
+		?a: malnutrition
+		?b: several changes in the beginning of life that programs homeostatic changes in the adulthood
+	?a programs ?b
+		?a: life
+		?b: homeostatic changes in the adulthood
+
+
+label:    sent_10
+sentence: These findings imply that colonization during development is required to meet the window of opportunity where the gut microbiota can imprint the host 's mucosal immune-homeostasis in a way that can not be achieved at later stages in life .
+
+ppatt:
+	?a imply ?b
+		?a: These findings
+		?b: SOMETHING := colonization during development is required to meet the window of opportunity where the gut microbiota can imprint the host 's mucosal immune-homeostasis in a way that can not be achieved at later stages in life
+	?a is required to meet ?b
+		?a: colonization during development
+		?b: the window of opportunity where the gut microbiota can imprint the host 's mucosal immune-homeostasis in a way that can not be achieved at later stages in life
+	?a where ?b can imprint ?c in ?d
+		?a: the window of opportunity
+		?b: the gut microbiota
+		?c: the host 's mucosal immune-homeostasis
+		?d: a way that can not be achieved at later stages in life
+	?a can not be achieved at ?b
+		?a: a way
+		?b: later stages in life
+
+
+label:    sent_11
+sentence: We used a UV-Bioimprint replication technique to imprint a polymer layer onto cells attached to a substrate and rapidly cure to create an impression of cell topography .
+
+ppatt:
+	?a used ?b
+		?a: We
+		?b: a UV-Bioimprint replication technique
+	?a imprint ?b
+		?a: We
+		?b: a polymer layer onto cells attached to a substrate and rapidly cure to create an impression of cell topography
+	?a attached to ?b
+		?a: cells
+		?b: a substrate
+	?a attached to ?b
+		?a: cells
+		?b: rapidly cure to create an impression of cell topography
+	?a create ?b
+		?a: rapidly cure
+		?b: an impression of cell topography
+
+

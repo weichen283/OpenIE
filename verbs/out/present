@@ -1,0 +1,316 @@
+label:    sent_1
+sentence: We present new associations of benign and malignant tumors with Down syndrome .
+
+ppatt:
+	?a present ?b
+		?a: We
+		?b: new associations of benign and malignant with Down syndrome
+
+
+label:    sent_2
+sentence: We present the first reported case of CEAN arising in CM .
+
+ppatt:
+	?a present ?b
+		?a: We
+		?b: the first reported case of CEAN arising in CM
+	?a arising in ?b
+		?a: CEAN
+		?b: CM
+
+
+label:    sent_3
+sentence: Here we present a review of known evidence .
+
+ppatt:
+	Here ?a present ?b
+		?a: we
+		?b: a review of known evidence
+
+
+label:    sent_4
+sentence: Synovial cells can also present antigen to T cells to drive antigen-specific immune responses . CU patients present serious difficulty in dealing with emotion arousal .
+
+ppatt:
+	?a can also present ?b to ?c to drive ?d
+		?a: Synovial cells
+		?b: antigen
+		?c: T cells
+		?d: antigen-specific immune responses
+	?a present ?b
+		?a: CU patients
+		?b: serious difficulty
+	?a dealing with ?b
+		?a: CU patients
+		?b: emotion arousal
+
+
+label:    sent_5
+sentence: In this paper we present a web-based remote visualization system .
+
+ppatt:
+	In ?a ?b present ?c
+		?a: this paper
+		?b: we
+		?c: a web-based remote visualization system
+
+
+label:    sent_6
+sentence: Myocarditis can present in a variety of ways , from asymptomatic to cardiogenic shock .
+
+ppatt:
+	?a can present in ?b from ?c
+		?a: Myocarditis
+		?b: a variety of ways
+		?c: asymptomatic to cardiogenic shock
+
+
+label:    sent_7
+sentence: Peri-implant diseases present in two forms-peri-implant mucositis and peri-implantitis .
+
+ppatt:
+
+
+
+label:    sent_8
+sentence: Patients often present to the dentist with a main goal of improving their esthetics .
+
+ppatt:
+	?a often present to ?b with ?c
+		?a: Patients
+		?b: the dentist
+		?c: a main goal of improving their esthetics
+	?a improving ?b
+		?a: a main goal
+		?b: their esthetics
+
+
+label:    sent_9
+sentence: To present two exemplary cases of adenomatoid tumors .
+
+ppatt:
+	present ?a
+		?a: two exemplary cases of adenomatoid tumors
+
+
+label:    sent_10
+sentence: We describe Read&Answer and present its applications for research and assessment .
+
+ppatt:
+	?a describe ?b
+		?a: We
+		?b: Read&Answer
+	?a present ?b
+		?a: We
+		?b: its applications for research and assessment
+
+
+label:    sent_11
+sentence: The aim of this work is to present a historical review of urological pharmacotherapy .
+
+ppatt:
+	?a is to present ?b
+		?a: The aim of this work
+		?b: a historical review of urological pharmacotherapy
+
+
+label:    sent_12
+sentence: Legacy systems and interoperability present further challenges , and outsourcing may pose special problems .
+
+ppatt:
+	?a present ?b
+		?a: Legacy systems
+		?b: further challenges
+	?a present ?b
+		?a: interoperability
+		?b: further challenges
+	?a may pose ?b
+		?a: outsourcing
+		?b: special problems
+
+
+label:    sent_13
+sentence: These variants can be undetected by RFLP and they might present variable antibiotic susceptibility .
+
+ppatt:
+	?a can be undetected by ?b
+		?a: These variants
+		?b: RFLP
+	?a might present ?b
+		?a: they
+		?b: variable antibiotic susceptibility
+
+
+label:    sent_14
+sentence: The authors present an illustrative case and describe and discuss the technique .
+
+ppatt:
+	?a present ?b
+		?a: The authors
+		?b: an illustrative case
+	?a describe
+		?a: The authors
+	?a discuss ?b
+		?a: The authors
+		?b: the technique
+
+
+label:    sent_15
+sentence: We present a Sagnac interferometer that uses a nonlinear adaptive medium for detection .
+
+ppatt:
+	?a present ?b
+		?a: We
+		?b: a Sagnac interferometer that uses a nonlinear adaptive medium for detection
+	?a uses ?b
+		?a: a Sagnac interferometer
+		?b: a nonlinear adaptive medium for detection
+
+
+label:    sent_16
+sentence: We present a 60-year-old man who developed hyponatraemia and hypokalaemia due to repeated vomiting .
+
+ppatt:
+	?a present ?b
+		?a: We
+		?b: a 60-year-old man who developed hyponatraemia and hypokalaemia due to repeated vomiting
+	?a developed ?b
+		?a: a 60-year-old man
+		?b: hyponatraemia due to repeated vomiting
+	?a developed ?b
+		?a: a 60-year-old man
+		?b: hypokalaemia
+
+
+label:    sent_17
+sentence: We present an optical cavity design that is insensitive to both vibrations and orientation .
+
+ppatt:
+	?a present ?b
+		?a: We
+		?b: an optical cavity design that is insensitive to both vibrations and orientation
+	?a is insensitive to ?b
+		?a: an optical cavity design
+		?b: vibrations
+	?a is insensitive to ?b
+		?a: an optical cavity design
+		?b: orientation
+
+
+label:    sent_18
+sentence: The aim of this work is to present our experience with this particular group .
+
+ppatt:
+	?a is to present ?b
+		?a: The aim of this work
+		?b: our experience with this particular group
+
+
+label:    sent_19
+sentence: Nonstationarity in extracellular recordings can present a major problem during in vivo experiments .
+
+ppatt:
+	?a can present ?b during ?c
+		?a: Nonstationarity in extracellular recordings
+		?b: a major problem
+		?c: in experiments
+
+
+label:    sent_20
+sentence: Some produced polyol mixtures that might present difficulties to downstream separation and purification .
+
+ppatt:
+	?a might present ?b
+		?a: Some produced polyol mixtures
+		?b: difficulties to downstream separation and purification
+
+
+label:    sent_21
+sentence: Mediastinal schwannomas are typically benign and asymptomatic , and generally present no immediate risks .
+
+ppatt:
+	?a are typically benign
+		?a: Mediastinal schwannomas
+	?a asymptomatic
+		?a: Mediastinal schwannomas
+	?a generally present ?b
+		?a: Mediastinal schwannomas
+		?b: no immediate risks
+
+
+label:    sent_22
+sentence: Psychiatry studies are complex and present unique challenges in the Indian setting .
+
+ppatt:
+	?a are complex
+		?a: Psychiatry studies
+	?a present
+		?a: Psychiatry studies
+
+
+label:    sent_23
+sentence: To present six cases of tubal stump pregnancy and discuss possible etiologies .
+
+ppatt:
+	present ?a
+		?a: six cases of tubal stump pregnancy
+	discuss ?a
+		?a: possible etiologies
+
+
+label:    sent_24
+sentence: However , different patients present with unique problems and need to be treated individually . Patients present with groin pain and investigated with radiographs , CT and MRA .
+
+ppatt:
+	be treated individually ?a
+		?a: Patients present with groin pain
+	investigated with ?a
+		?a: radiographs
+	investigated with ?a
+		?a: CT
+
+
+label:    sent_25
+sentence: It can present as idiopathic form or associated with several systemic diseases .
+
+ppatt:
+	?a can present as ?b
+		?a: It
+		?b: idiopathic form
+	?a associated with ?b
+		?a: It
+		?b: several systemic diseases
+
+
+label:    sent_26
+sentence: Myelinolysis can present with features of extrapontine involvement with the pontine lesions remaining asymptomatic .
+
+ppatt:
+	?a can present with ?b
+		?a: Myelinolysis
+		?b: features of extrapontine involvement with the pontine lesions remaining asymptomatic
+	?a remaining asymptomatic
+		?a: the pontine lesions
+
+
+label:    sent_27
+sentence: Rheumatologic conditions in children who may present to the orthopaedic surgeon .
+
+ppatt:
+	?a may present to ?b
+		?a: children
+		?b: the orthopaedic surgeon
+
+
+label:    sent_28
+sentence: We explore diseases that often present in annular , arciform , and/or polycyclic forms .
+
+ppatt:
+	?a explore ?b
+		?a: We
+		?b: diseases that often present in annular , arciform , and/or polycyclic forms
+	?a often present ?b
+		?a: diseases
+		?b: in annular , arciform , and/or polycyclic forms
+
+

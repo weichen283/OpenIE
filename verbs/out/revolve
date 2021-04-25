@@ -1,0 +1,102 @@
+label:    sent_1
+sentence: Software packages should revolve around customization .
+
+ppatt:
+	?a should revolve around ?b
+		?a: Software packages
+		?b: customization
+
+
+label:    sent_2
+sentence: Some revolve around the link between genetics and the nature of sexuality itself .
+
+ppatt:
+
+
+
+label:    sent_3
+sentence: Other questions revolve around mammograms only for women over 50 and screening for osteoporosis .
+
+ppatt:
+	?a revolve around ?b
+		?a: Other questions
+		?b: mammograms only for women over 50 and screening for osteoporosis
+
+
+label:    sent_4
+sentence: All sexual activity seems to revolve around a mix of sensations and feelings . Spondylarthropathies revolve around the strongest known contributing factor , HLA-B27 .
+
+ppatt:
+	?a seems to revolve around ?b
+		?a: All sexual activity
+		?b: a mix of sensations and feelings
+	?a revolve around ?b
+		?a: Spondylarthropathies
+		?b: the strongest known contributing factor
+	?a is/are HLA-B27
+		?a: the strongest known contributing factor
+
+
+label:    sent_5
+sentence: Concerns regarding surgery during pregnancy revolve around the safety for the mother and fetus .
+
+ppatt:
+	?a revolve around ?b
+		?a: Concerns regarding surgery during pregnancy
+		?b: the safety for the mother and fetus
+
+
+label:    sent_6
+sentence: International alliances should revolve around issues/strategies identified by workers .
+
+ppatt:
+	?a should revolve around ?b
+		?a: International alliances
+		?b: issues/strategies identified by workers
+	?a identified by ?b
+		?a: issues/strategies
+		?b: workers
+
+
+label:    sent_7
+sentence: Her explorations revolve around her work-in-process about her great grandmother 's life .
+
+ppatt:
+	?a revolve around ?b
+		?a: Her explorations
+		?b: her work-in-process about her great grandmother 's life
+
+
+label:    sent_8
+sentence: New phacoemulsification strategies revolve around the Phaco-Chop method that emphasizes nuclear rim fracturing .
+
+ppatt:
+	?a revolve around ?b
+		?a: New phacoemulsification strategies
+		?b: the Phaco-Chop method that emphasizes nuclear rim fracturing
+	?a emphasizes ?b
+		?a: the Phaco-Chop method
+		?b: nuclear rim fracturing
+
+
+label:    sent_9
+sentence: An electric motor was used to revolve a target .
+
+ppatt:
+	?a was used to revolve ?b
+		?a: An electric motor
+		?b: a target
+
+
+label:    sent_10
+sentence: Procedures are suggested that may help to revolve these problems .
+
+ppatt:
+	?a are suggested ?b
+		?a: Procedures
+		?b: SOMETHING := may help to revolve these problems
+	?a may help to revolve ?b
+		?a: Procedures
+		?b: these problems
+
+

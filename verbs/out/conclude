@@ -1,0 +1,259 @@
+label:    sent_1
+sentence: We conclude that home-based PSG is associated with a better sleep efficiency .
+
+ppatt:
+	?a conclude ?b
+		?a: We
+		?b: SOMETHING := home-based PSG is associated with a better sleep efficiency
+	?a is associated with ?b
+		?a: home-based PSG
+		?b: a better sleep efficiency
+
+
+label:    sent_2
+sentence: We conclude that pediatricians have superficial information about CD .
+
+ppatt:
+	?a conclude ?b
+		?a: We
+		?b: SOMETHING := pediatricians have superficial information about CD
+	?a have ?b
+		?a: pediatricians
+		?b: superficial information about CD
+
+
+label:    sent_3
+sentence: We also conclude that thermoplastic masks are effective for patient immobilization .
+
+ppatt:
+	?a also conclude ?b
+		?a: We
+		?b: SOMETHING := thermoplastic masks are effective for patient immobilization
+	?a are effective for ?b
+		?a: thermoplastic masks
+		?b: patient immobilization
+
+
+label:    sent_4
+sentence: Lastly , we conclude by suggesting several open problems which warrant further investigation .
+
+ppatt:
+	Lastly , ?a conclude
+		?a: we
+	?a suggesting ?b
+		?a: we
+		?b: several open problems which warrant further investigation
+	?a warrant ?b
+		?a: several open problems
+		?b: further investigation
+
+
+label:    sent_5
+sentence: We will conclude with some potential considerations for future exploration .
+
+ppatt:
+	?a will conclude with ?b
+		?a: We
+		?b: some potential considerations for future exploration
+
+
+label:    sent_6
+sentence: Further work should conclude about safety related to repeated injections .
+
+ppatt:
+	?a should conclude about ?b
+		?a: Further work
+		?b: safety related to repeated injections
+
+
+label:    sent_7
+sentence: From the overlay images we conclude a close interaction between cells and cellulose fibers .
+
+ppatt:
+	From ?a ?b conclude ?c
+		?a: the overlay images
+		?b: we
+		?c: a close interaction between cells and cellulose fibers
+
+
+label:    sent_8
+sentence: These evidences conclude different adaptation resources among sportsmen of different physical trainings .
+
+ppatt:
+	?a conclude ?b
+		?a: These evidences
+		?b: different adaptation resources among sportsmen of different physical trainings
+
+
+label:    sent_9
+sentence: Based on these results , we conclude that , contrary to Li et al . Finally , we conclude and give the future prospects of this research area .
+
+ppatt:
+	Based on these results ?a
+		?a: we
+	?a conclude ?b
+		?a: we
+		?b: SOMETHING := contrary to Li et . Finally , we conclude
+	contrary to ?a . Finally , ?b conclude
+		?a: Li et
+		?b: we
+	?a give ?b
+		?a: we
+		?b: the future prospects of this research area
+
+
+label:    sent_10
+sentence: What can we conclude and hope to see in the next few years ? Contract negotiations will soon conclude , and an aggressive implementation will begin ! We conclude background music influenced listener attention .
+
+ppatt:
+	?a can ?b conclude to see in ?c
+		?a: What
+		?b: we
+		?c: the next few years
+	?a hope
+		?a: What
+	?a will soon conclude
+		?a: Contract negotiations
+	?a will begin
+		?a: an aggressive implementation
+	?a conclude ?b
+		?a: We
+		?b: background music influenced listener attention
+
+
+label:    sent_11
+sentence: Thus , we conclude our sentinel-node biopsy procedure is feasible .
+
+ppatt:
+	Thus , ?a conclude ?b
+		?a: we
+		?b: SOMETHING := our sentinel-node biopsy procedure is feasible
+	?a is feasible
+		?a: our sentinel-node biopsy procedure
+
+
+label:    sent_12
+sentence: Clinical suggestions for community planning and actions of individual psychologists conclude the article . A negative workup enabled to conclude to an essential arterial hypertension .
+
+ppatt:
+	?a conclude ?b
+		?a: Clinical suggestions for community planning and actions of individual psychologists
+		?b: the article
+	?a is/are A negative workup
+		?a: the article
+	?a enabled to conclude to ?b
+		?a: A negative workup
+		?b: an essential arterial hypertension
+
+
+label:    sent_13
+sentence: The conformational model has not allowed to conclude decisively about the electronic ground state .
+
+ppatt:
+	?a has not allowed to conclude decisively about ?b
+		?a: The conformational model
+		?b: the electronic ground state
+
+
+label:    sent_14
+sentence: The trial is scheduled to conclude in 1983 . N-methyl-N'-nitro-N-nitrosoguanidine , and conclude that SDMH and AOM are weak bacterial mutagens .
+
+ppatt:
+	?a is scheduled to conclude in ?b ?c
+		?a: The trial
+		?b: 1983
+		?c: N-methyl-N'-nitro-N-nitrosoguanidine
+	?a conclude ?b
+		?a: The trial
+		?b: SOMETHING := SDMH and AOM are weak bacterial mutagens
+	?a are weak bacterial mutagens
+		?a: SDMH
+	?a are weak bacterial mutagens
+		?a: AOM
+
+
+label:    sent_15
+sentence: We have explored recent mechanistic insights and conclude that more clinical research is warranted .
+
+ppatt:
+	?a have explored ?b
+		?a: We
+		?b: recent mechanistic insights
+	?a conclude ?b
+		?a: We
+		?b: SOMETHING := more clinical research is warranted
+	?a is warranted
+		?a: more clinical research
+
+
+label:    sent_16
+sentence: We have re-investigated this claim and conclude that it is most likely erroneous .
+
+ppatt:
+	?a have re-investigated ?b
+		?a: We
+		?b: this claim
+	?a conclude ?b
+		?a: We
+		?b: SOMETHING := it is most likely erroneous
+	?a is most likely erroneous
+		?a: it
+
+
+label:    sent_17
+sentence: We conclude with a summary and underscore important future trends . What and what not to conclude from the results of the LEGS study ? We conclude with data integration in bioscience and present approaches on neuroscience data sharing .
+
+ppatt:
+	?a conclude with ?b
+		?a: We
+		?b: a summary
+	underscore ?a ?b ?c not to conclude from ?d
+		?a: important future trends
+		?b: What
+		?c: what
+		?d: the results of the LEGS study
+	?a conclude with ?b
+		?a: We
+		?b: data integration in bioscience and present approaches on neuroscience data sharing
+	?a sharing
+		?a: neuroscience data
+
+
+label:    sent_18
+sentence: Further study analyzing survival will be required to conclude the chemotherapy effect .
+
+ppatt:
+	?a analyzing ?b
+		?a: Further study
+		?b: survival
+	?a will be required to conclude ?b
+		?a: Further study analyzing survival
+		?b: the chemotherapy effect
+
+
+label:    sent_19
+sentence: Six ( 18 % ) patients failed to conclude the treatment schedule .
+
+ppatt:
+	?a is/are 18 %
+		?a: Six
+	?a failed to conclude ?b
+		?a: Six patients
+		?b: the treatment schedule
+
+
+label:    sent_20
+sentence: Increased investment in preschool , conclude Barnett and Belfield , could raise social mobility .
+
+ppatt:
+	?a conclude ?b
+		?a: Increased investment in preschool
+		?b: Barnett
+	?a conclude ?b
+		?a: Increased investment in preschool
+		?b: Belfield
+	?a could raise ?b
+		?a: Increased investment in preschool , conclude Barnett and Belfield
+		?b: social mobility
+
+

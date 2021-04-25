@@ -1,0 +1,343 @@
+label:    sent_1
+sentence: The ChIP assay revealed that p53 did not bind to the VEGF promoter .
+
+ppatt:
+	?a revealed ?b
+		?a: The ChIP assay
+		?b: SOMETHING := p53 did not bind to the VEGF promoter
+	?a did not bind to ?b
+		?a: p53
+		?b: the VEGF promoter
+
+
+label:    sent_2
+sentence: The purified SERPINE2 protein could bind to epididymal sperm .
+
+ppatt:
+	?a could bind to ?b
+		?a: The purified SERPINE2 protein
+		?b: epididymal sperm
+
+
+label:    sent_3
+sentence: Hence , antiviral agents that bind to CXCR4 are expected to inhibit HIV-1 entry .
+
+ppatt:
+	?a bind to ?b
+		?a: antiviral agents
+		?b: CXCR4
+	Hence , ?a are expected to inhibit ?b
+		?a: antiviral agents that bind to CXCR4
+		?b: HIV-1 entry
+
+
+label:    sent_4
+sentence: However , PT-262 did not directly bind to actin filaments .
+
+ppatt:
+	However , ?a did not directly bind to ?b
+		?a: PT-262
+		?b: actin filaments
+
+
+label:    sent_5
+sentence: The chemokine CCL5 and CCL19 are reported to bind to CCRL2 .
+
+ppatt:
+	?a are reported to bind to ?b
+		?a: The chemokine
+		?b: CCRL2
+
+
+label:    sent_6
+sentence: The VHHs were shown to exclusively bind to PKCepsilon in ELISA and immunoprecipitation studies .
+
+ppatt:
+	?a were shown to exclusively bind to ?b in ?c ?d
+		?a: The VHHs
+		?b: PKCepsilon
+		?c: ELISA
+		?d: studies
+	?a were shown to exclusively bind to ?b in ?c ?d
+		?a: The VHHs
+		?b: PKCepsilon
+		?c: immunoprecipitation
+		?d: studies
+
+
+label:    sent_7
+sentence: Ion exchange resins have been reported to bind copper and zinc .
+
+ppatt:
+	?a have been reported to bind ?b
+		?a: Ion exchange resins
+		?b: copper
+	?a have been reported to bind ?b
+		?a: Ion exchange resins
+		?b: zinc
+
+
+label:    sent_8
+sentence: Similar to other Hfq proteins , Hfq2 is able to bind RNA .
+
+ppatt:
+	Similar to ?a , ?b is able to bind ?c
+		?a: other Hfq proteins
+		?b: Hfq2
+		?c: RNA
+
+
+label:    sent_9
+sentence: It also was shown to bind proteins and compounds containing iron and nitric oxide .
+
+ppatt:
+	?a also was shown to bind ?b
+		?a: It
+		?b: proteins containing iron and nitric oxide
+	?a also was shown to bind ?b
+		?a: It
+		?b: compounds
+	?a containing ?b
+		?a: proteins
+		?b: iron
+	?a containing ?b
+		?a: compounds
+		?b: iron
+	?a containing ?b
+		?a: proteins
+		?b: nitric oxide
+	?a containing ?b
+		?a: compounds
+		?b: nitric oxide
+
+
+label:    sent_10
+sentence: Numerous peptides that bind cancer-associated antigens have been discovered by panning phage libraries . P. includens plasmatocytes are also recognized by several monoclonal antibodies that bind unknown antigens .
+
+ppatt:
+	?a bind ?b
+		?a: Numerous peptides
+		?b: cancer-associated antigens
+	?a have been discovered
+		?a: Numerous peptides that bind cancer-associated antigens
+	?a panning ?b
+		?a: Numerous peptides that bind cancer-associated antigens
+		?b: phage libraries
+	?a are also recognized by ?b
+		?a: P. includens plasmatocytes
+		?b: several monoclonal antibodies that bind unknown antigens
+	?a bind ?b
+		?a: several monoclonal antibodies
+		?b: unknown antigens
+
+
+label:    sent_11
+sentence: Identification of plasma haptoglobin forms which loosely bind hemoglobin .
+
+ppatt:
+	?a loosely bind ?b
+		?a: plasma haptoglobin forms
+		?b: hemoglobin
+
+
+label:    sent_12
+sentence: MiR-101 can directly bind to ATP5B 3 ' UTR and negatively regulate ATP5B expression .
+
+ppatt:
+	?a can directly bind to ' ?b
+		?a: MiR-101
+		?b: ATP5B 3 UTR
+	?a negatively regulate ?b
+		?a: MiR-101
+		?b: ATP5B expression
+
+
+label:    sent_13
+sentence: The legs can also reversibly bind to products , but at a different rate .
+
+ppatt:
+	?a can also reversibly bind to ?b
+		?a: The legs
+		?b: products
+
+
+label:    sent_14
+sentence: The rhombuses bind to each other and form two dimensional tiles .
+
+ppatt:
+	?a bind to ?b
+		?a: The rhombuses
+		?b: each other
+	?a form ?b
+		?a: The rhombuses
+		?b: two dimensional tiles
+
+
+label:    sent_15
+sentence: Antibodies were able to bind to the surface of the parasites and agglutinate them .
+
+ppatt:
+	?a were able to bind to ?b
+		?a: Antibodies
+		?b: the surface of the parasites
+	?a agglutinate ?b
+		?a: Antibodies
+		?b: them
+
+
+label:    sent_16
+sentence: This DNA is antigenically active and can bind to lupus anti-DNA autoantibodies . SRY was found to bind to the Tcf21 promoter and activate gene expression .
+
+ppatt:
+	?a is antigenically active
+		?a: This DNA
+	?a can bind to ?b
+		?a: This DNA
+		?b: lupus anti-DNA autoantibodies
+	?a was found to bind to ?b
+		?a: SRY
+		?b: the Tcf21 promoter
+	?a was found to activate ?b
+		?a: SRY
+		?b: gene expression
+
+
+label:    sent_17
+sentence: Both Lef1 isoforms bind DNA and regulate gene expression .
+
+ppatt:
+	?a bind ?b
+		?a: Both Lef1 isoforms
+		?b: DNA
+	?a regulate ?b
+		?a: Both Lef1 isoforms
+		?b: gene expression
+
+
+label:    sent_18
+sentence: SOD2 can also bind iron in vivo , but is inactive with iron . Puf proteins bind RNA sequence specifically and regulate translation and stability of target mRNAs .
+
+ppatt:
+	?a can also bind ?b in vivo
+		?a: SOD2
+		?b: iron
+	?a bind ?b specifically
+		?a: Puf proteins
+		?b: RNA sequence
+	?a regulate ?b
+		?a: Puf proteins
+		?b: translation of target mRNAs
+	?a regulate ?b
+		?a: Puf proteins
+		?b: stability
+
+
+label:    sent_19
+sentence: Here , we investigated when T cells bind hyaluronan during an immune response .
+
+ppatt:
+	Here , ?a investigated
+		?a: we
+	when ?a bind ?b during ?c
+		?a: T cells
+		?b: hyaluronan
+		?c: an immune response
+
+
+label:    sent_20
+sentence: Many siderophores can also bind copper in the presence of CAS .
+
+ppatt:
+	?a can also bind ?b in ?c of ?d
+		?a: Many siderophores
+		?b: copper
+		?c: the presence
+		?d: CAS
+
+
+label:    sent_21
+sentence: Ezrin is a membrane-cytoskeleton linker protein that can bind F-actin in its active conformation .
+
+ppatt:
+	?a is a membrane-cytoskeleton linker protein
+		?a: Ezrin
+	?a can bind ?b in ?c
+		?a: a membrane-cytoskeleton linker protein
+		?b: F-actin
+		?c: its active conformation
+
+
+label:    sent_22
+sentence: Cells of both morphologies were able to incorporate DiI-ac-LDL and bind lectin in vitro .
+
+ppatt:
+	?a were able to incorporate ?b
+		?a: Cells of both morphologies
+		?b: DiI-ac-LDL
+	?a were able to bind ?b in vitro
+		?a: Cells of both morphologies
+		?b: lectin
+
+
+label:    sent_23
+sentence: Dectin-1 was required for immune blocking but did not bind chitin directly .
+
+ppatt:
+	?a was required for ?b
+		?a: Dectin-1
+		?b: immune blocking
+	?a did not bind ?b directly
+		?a: Dectin-1
+		?b: chitin
+
+
+label:    sent_24
+sentence: Class I and class II PurEs are mechanistically related but bind different substrates .
+
+ppatt:
+	?a are mechanistically related
+		?a: Class I
+	?a are mechanistically related
+		?a: class II
+	?a are mechanistically related
+		?a: PurEs
+	?a bind ?b
+		?a: Class I
+		?b: different substrates
+	?a bind ?b
+		?a: class II
+		?b: different substrates
+	?a bind ?b
+		?a: PurEs
+		?b: different substrates
+
+
+label:    sent_25
+sentence: Reprogramming virus nanoparticles to bind metal ions upon activation with heat .
+
+ppatt:
+	bind ?a upon ?b
+		?a: metal ions
+		?b: activation with heat
+
+
+label:    sent_26
+sentence: Calmodulin was found to bind eNOS after nicotine injection into NTS .
+
+ppatt:
+	?a was found to bind ?b after ?c
+		?a: Calmodulin
+		?b: eNOS
+		?c: nicotine injection into NTS
+
+
+label:    sent_27
+sentence: In contrast , CTproSP-C does not bind alpha-helical SP-C .
+
+ppatt:
+	In ?a , ?b does not bind ?c
+		?a: contrast
+		?b: CTproSP-C
+		?c: alpha-helical SP-C
+
+

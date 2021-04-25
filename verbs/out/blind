@@ -1,0 +1,163 @@
+label:    sent_1
+sentence: The placebo technique showed its ability to blind participants to group allocation .
+
+ppatt:
+	?a showed ?b
+		?a: The placebo technique
+		?b: its ability to blind participants to group allocation
+	?a blind ?b to ?c
+		?a: its ability
+		?b: participants
+		?c: group allocation
+
+
+label:    sent_2
+sentence: Inflation of the endotracheal tube cuff as an aid to blind nasal endotracheal intubation .
+
+ppatt:
+
+
+
+label:    sent_3
+sentence: Sham procedures were used to blind surgeons , patients and outcome assessors . A Kullback-Leibler divergence approach to blind image restoration .
+
+ppatt:
+	?a were used to ?b
+		?a: Sham procedures
+		?b: blind surgeons
+	?a were used to ?b
+		?a: Sham procedures
+		?b: patients
+	?a were used to ?b
+		?a: Sham procedures
+		?b: outcome assessors
+	?a is/are A Kullback-Leibler divergence approach to ?b
+		?a: blind surgeons
+		?b: blind image restoration
+	?a is/are A Kullback-Leibler divergence approach to ?b
+		?a: patients
+		?b: blind image restoration
+	?a is/are A Kullback-Leibler divergence approach to ?b
+		?a: outcome assessors
+		?b: blind image restoration
+
+
+label:    sent_4
+sentence: An alternative to blind nasal intubation .
+
+ppatt:
+
+
+
+label:    sent_5
+sentence: A minimum-range approach to blind extraction of bounded sources .
+
+ppatt:
+
+
+
+label:    sent_6
+sentence: Most complications are related to blind trocar passage in the retropubic space .
+
+ppatt:
+	?a are related to ?b
+		?a: Most complications
+		?b: blind trocar passage in the retropubic space
+
+
+label:    sent_7
+sentence: Selective-tap blind signal processing for speech separation .
+
+ppatt:
+
+
+
+label:    sent_8
+sentence: Videos were edited to blind reviewers to the hypothesis being tested .
+
+ppatt:
+	?a were edited to ?b
+		?a: Videos
+		?b: blind reviewers
+	to ?a being tested
+		?a: the hypothesis
+
+
+label:    sent_9
+sentence: Approach to blind image deconvolution by multiscale subband decomposition and independent component analysis .
+
+ppatt:
+
+
+
+label:    sent_10
+sentence: Joint blind restoration and surface recovery in photometric stereo .
+
+ppatt:
+
+
+
+label:    sent_11
+sentence: Retrograde blind nasal intubation via the intubating laryngeal mask . Statisticians blind until analyses completed .
+
+ppatt:
+	?a blind until ?b
+		?a: Statisticians
+		?b: analyses completed
+	?a completed
+		?a: analyses
+
+
+label:    sent_12
+sentence: Cardiopulmonary resuscitation : from flying blind to flying right .
+
+ppatt:
+
+
+
+label:    sent_13
+sentence: Randomised controlled trial , blind at follow-up with final assessment at 6 months .
+
+ppatt:
+
+
+
+label:    sent_14
+sentence: Subretinal electronic chips allow blind patients to read letters and combine them to words .
+
+ppatt:
+	?a allow ?b
+		?a: Subretinal electronic chips
+		?b: blind patients to read letters
+	?a combine ?b to ?c
+		?a: Subretinal electronic chips
+		?b: them
+		?c: words
+
+
+label:    sent_15
+sentence: Adjuvant chemotherapy for cancer patients , ally or blind alley ? Stark claims ' blind to lead the blind ' on EHR panel . A total of 80 % of the world 's blind live in developing countries .
+
+ppatt:
+	?a ?b ' blind to lead ?c on ?d ?e
+		?a: Adjuvant chemotherapy for cancer patients , ally or blind alley
+		?b: Stark claims
+		?c: the blind
+		?d: EHR panel
+		?e: A total of 80 % of the world 's blind live in developing countries
+
+
+label:    sent_16
+sentence: Audiometric findings in Waardenburg 's syndrome amongst the institutionalised deaf/ blind in Kaduna-Nigeria .
+
+ppatt:
+
+
+
+label:    sent_17
+sentence: [ The blind or blunt transmediastinal dissection of the esophagus ] .
+
+ppatt:
+
+
+

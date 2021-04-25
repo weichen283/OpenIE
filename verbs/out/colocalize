@@ -1,0 +1,323 @@
+label:    sent_1
+sentence: Peripheral LE/lysosomes in dynein-depleted cells no longer colocalize with microtubules .
+
+ppatt:
+	?a no longer colocalize with ?b
+		?a: Peripheral LE/lysosomes in dynein-depleted cells
+		?b: microtubules
+
+
+label:    sent_2
+sentence: Delta opioid receptors colocalize with corticotropin releasing factor in hippocampal interneurons .
+
+ppatt:
+	?a colocalize with ?b in ?c
+		?a: Delta opioid receptors
+		?b: corticotropin releasing factor
+		?c: hippocampal interneurons
+
+
+label:    sent_3
+sentence: Approximately 60 % of CB1 receptors colocalize to GABAergic terminals in hippocampal cultures . ZP2 and ZP3 traffic independently , but colocalize at the plasma membrane .
+
+ppatt:
+	?a colocalize to ?b in ?c
+		?a: Approximately 60 % of CB1 receptors
+		?b: GABAergic terminals
+		?c: hippocampal cultures
+	?a traffic independently
+		?a: ZP2
+	?a traffic independently
+		?a: ZP3
+	?a colocalize at ?b
+		?a: ZP2
+		?b: the plasma membrane
+	?a colocalize at ?b
+		?a: ZP3
+		?b: the plasma membrane
+
+
+label:    sent_4
+sentence: Hepatocyte growth factor also forms clusters that partially colocalize with PSD-95 .
+
+ppatt:
+	?a also forms ?b
+		?a: Hepatocyte growth factor
+		?b: clusters that partially colocalize with PSD-95
+	?a partially colocalize with ?b
+		?a: clusters
+		?b: PSD-95
+
+
+label:    sent_5
+sentence: In contrast , HCN4-IR did not colocalize with either synaptophysin or cortactin .
+
+ppatt:
+	In ?a , ?b did not colocalize with ?c
+		?a: contrast
+		?b: HCN4-IR
+		?c: synaptophysin
+	In ?a , ?b did not colocalize with ?c
+		?a: contrast
+		?b: HCN4-IR
+		?c: cortactin
+
+
+label:    sent_6
+sentence: These two complexes colocalize and , like Nemo , also promote rotation .
+
+ppatt:
+	?a colocalize
+		?a: These two complexes
+	?a like ?b , also promote ?c
+		?a: These two complexes
+		?b: Nemo
+		?c: rotation
+
+
+label:    sent_7
+sentence: In human inoculation experiments , bacteria colocalize with neutrophils and macrophages but remain extracellular . BBX19 and CO colocalize in the nucleus and interact physically in vivo .
+
+ppatt:
+	In ?a , ?b colocalize with ?c
+		?a: human inoculation experiments
+		?b: bacteria
+		?c: neutrophils
+	In ?a , ?b colocalize with ?c
+		?a: human inoculation experiments
+		?b: bacteria
+		?c: macrophages
+	?a remain extracellular
+		?a: bacteria
+	?a colocalize in ?b
+		?a: BBX19
+		?b: the nucleus
+	?a colocalize in ?b
+		?a: CO
+		?b: the nucleus
+	?a interact physically in vivo
+		?a: BBX19
+	?a interact physically in vivo
+		?a: CO
+
+
+label:    sent_8
+sentence: HuR was found to be overexpressed and colocalize with HDAg in human hepatoma cells .
+
+ppatt:
+	?a was found to be overexpressed in ?b
+		?a: HuR
+		?b: human hepatoma cells
+	?a was found to be colocalize with ?b
+		?a: HuR
+		?b: HDAg
+
+
+label:    sent_9
+sentence: Quantum dots are phagocytized by macrophages and colocalize with experimental gliomas .
+
+ppatt:
+	?a are phagocytized by ?b
+		?a: Quantum dots
+		?b: macrophages
+	?a colocalize with ?b
+		?a: Quantum dots
+		?b: experimental gliomas
+
+
+label:    sent_10
+sentence: Furthermore , AP-1 and VWF immunoprecipitate and colocalize with Dlg1 in the juxtanuclear zone .
+
+ppatt:
+	Furthermore , ?a immunoprecipitate in ?b
+		?a: AP-1
+		?b: the juxtanuclear zone
+	Furthermore , ?a immunoprecipitate in ?b
+		?a: VWF
+		?b: the juxtanuclear zone
+	?a colocalize with ?b
+		?a: AP-1
+		?b: Dlg1
+	?a colocalize with ?b
+		?a: VWF
+		?b: Dlg1
+
+
+label:    sent_11
+sentence: Canoe can recruit Bazooka when ectopically expressed , but they do not obligatorily colocalize .
+
+ppatt:
+	?a can recruit ?b
+		?a: Canoe
+		?b: Bazooka
+	?a when ectopically expressed
+		?a: Canoe
+	?a do not obligatorily colocalize
+		?a: they
+
+
+label:    sent_12
+sentence: All the molecules colocalize . QTLs for resistance to Pasteuria and Hamiltosporidium do not colocalize .
+
+ppatt:
+	?a colocalize . ?b for ?c
+		?a: All the molecules
+		?b: QTLs
+		?c: resistance to Pasteuria and Hamiltosporidium
+	?a do not colocalize
+		?a: All the molecules
+
+
+label:    sent_13
+sentence: Moreover , UNC-104 and PTL-1 colocalize and occasionally co-migrate . Moe and Crumbs proteins colocalize apically and this apical localization requires reciprocal protein function .
+
+ppatt:
+	Moreover , ?a colocalize
+		?a: UNC-104
+	Moreover , ?a colocalize
+		?a: PTL-1
+	?a occasionally co-migrate
+		?a: UNC-104
+	?a occasionally co-migrate
+		?a: PTL-1
+	?a ?b colocalize apically
+		?a: Moe
+		?b: proteins
+	?a ?b colocalize apically
+		?a: Crumbs
+		?b: proteins
+	?a requires ?b
+		?a: this apical localization
+		?b: reciprocal protein function
+
+
+label:    sent_14
+sentence: Caveolin-3 and eNOS colocalize and interact in ciliated airway epithelial cells in the rat . Immunohistochemical studies were used to colocalize the AhR and CYP1A1 in adjacent liver sections .
+
+ppatt:
+	?a colocalize in ?b
+		?a: Caveolin-3
+		?b: ciliated airway epithelial cells in the rat
+	?a colocalize in ?b
+		?a: eNOS
+		?b: ciliated airway epithelial cells in the rat
+	?a interact
+		?a: Caveolin-3
+	?a interact
+		?a: eNOS
+	?a were used to colocalize ?b
+		?a: Immunohistochemical studies
+		?b: the AhR in adjacent liver sections
+	?a were used to colocalize ?b
+		?a: Immunohistochemical studies
+		?b: CYP1A1
+
+
+label:    sent_15
+sentence: These results suggest that vagal preganglionic neurones colocalize functionally nicotinic and P2X purinergic receptors .
+
+ppatt:
+	?a suggest ?b
+		?a: These results
+		?b: SOMETHING := vagal preganglionic neurones colocalize functionally nicotinic and P2X
+	?a colocalize ?b
+		?a: vagal preganglionic neurones
+		?b: functionally nicotinic
+	?a colocalize ?b
+		?a: vagal preganglionic neurones
+		?b: P2X
+
+
+label:    sent_16
+sentence: A small percentage of growth hormone-secreting cells colocalize GAL .
+
+ppatt:
+	?a colocalize ?b
+		?a: A small percentage of growth hormone-secreting cells
+		?b: GAL
+
+
+label:    sent_17
+sentence: Double-labeling immunohistochemistry showed that the intrinsic SP-IR neurons did not colocalize VIP .
+
+ppatt:
+	?a showed ?b
+		?a: Double-labeling immunohistochemistry
+		?b: SOMETHING := the intrinsic SP-IR neurons did not colocalize VIP
+	?a did not colocalize ?b
+		?a: the intrinsic SP-IR neurons
+		?b: VIP
+
+
+label:    sent_18
+sentence: In addition , we attempted to colocalize chemokine receptors with markers for neural progenitors .
+
+ppatt:
+	In ?a , ?b attempted to colocalize ?c with ?d
+		?a: addition
+		?b: we
+		?c: chemokine receptors
+		?d: markers for neural progenitors
+
+
+label:    sent_19
+sentence: We failed to colocalize GFP signals with endothelial or smooth muscle cell markers .
+
+ppatt:
+	?a failed to colocalize ?b with ?c
+		?a: We
+		?b: GFP signals
+		?c: endothelial
+	?a failed to colocalize ?b with ?c
+		?a: We
+		?b: GFP signals
+		?c: smooth
+
+
+label:    sent_20
+sentence: Double immunofluorescent localization was performed to colocalize cPLA2 with various glial cell types .
+
+ppatt:
+	?a was performed to colocalize ?b with ?c
+		?a: Double immunofluorescent localization
+		?b: cPLA2
+		?c: various glial cell types
+
+
+label:    sent_21
+sentence: Hsp90 and STAT3 have previously been shown to colocalize and coimmunoprecipitate in common complexes .
+
+ppatt:
+	?a have previously been shown to colocalize in ?b
+		?a: Hsp90
+		?b: common complexes
+	?a have previously been shown to colocalize in ?b
+		?a: STAT3
+		?b: common complexes
+	?a have previously been shown to coimmunoprecipitate
+		?a: Hsp90
+	?a have previously been shown to coimmunoprecipitate
+		?a: STAT3
+
+
+label:    sent_22
+sentence: PfeIF4E and PfeIF4A colocalize and their double-stranded RNA inhibits Plasmodium falciparum proliferation .
+
+ppatt:
+	?a colocalize
+		?a: PfeIF4E
+	?a colocalize
+		?a: PfeIF4A
+	?a inhibits ?b
+		?a: their double-stranded RNA
+		?b: Plasmodium falciparum proliferation
+
+
+label:    sent_23
+sentence: The two proteins were found to colocalize in vivo and to coimmunoprecipitate .
+
+ppatt:
+	?a were found to colocalize in vivo and to coimmunoprecipitate
+		?a: The two proteins
+
+

@@ -1,0 +1,277 @@
+label:    sent_1
+sentence: Kif24 is able to bind and depolymerize microtubules in vitro .
+
+ppatt:
+	?a is able to bind ?b in vitro
+		?a: Kif24
+		?b: microtubules
+	?a is able to depolymerize in
+		?a: Kif24
+
+
+label:    sent_2
+sentence: It is still not fully clear by which mechanism kinesin-13s depolymerize microtubules .
+
+ppatt:
+	?a is still not fully clear ?b
+		?a: It
+		?b: SOMETHING := by which mechanism kinesin-13s depolymerize microtubules
+	by ?a ?b ?c depolymerize ?d
+		?a: which
+		?b: mechanism
+		?c: kinesin-13s
+		?d: microtubules
+
+
+label:    sent_3
+sentence: Only substances known to depolymerize microtubules reduced chromosome flexion .
+
+ppatt:
+	?a known to depolymerize ?b
+		?a: Only substances
+		?b: microtubules
+	?a reduced ?b
+		?a: Only substances known to depolymerize microtubules
+		?b: chromosome flexion
+
+
+label:    sent_4
+sentence: Capacity of human serum to depolymerize actin filaments . FCCP did not depolymerize microtubules of cells permeabilized with Triton X-100 .
+
+ppatt:
+	?a depolymerize ?b
+		?a: Capacity of human serum
+		?b: actin filaments
+	?a ?b did not depolymerize ?c
+		?a: Capacity of human serum to depolymerize actin filaments
+		?b: FCCP
+		?c: microtubules of cells permeabilized with Triton X-100
+	?a permeabilized with ?b
+		?a: cells
+		?b: Triton X-100
+
+
+label:    sent_5
+sentence: An efficient method to depolymerize polyamide plastics : a new use of ionic liquids .
+
+ppatt:
+	?a depolymerize ?b
+		?a: An efficient method
+		?b: polyamide plastics
+
+
+label:    sent_6
+sentence: The microtubules in the arrested prometaphase cells depolymerize to two small asters .
+
+ppatt:
+	?a depolymerize to ?b
+		?a: The microtubules in the arrested prometaphase cells
+		?b: two small asters
+
+
+label:    sent_7
+sentence: In mitosis , the cortical microtubules and the intracytoplasmic microtubular bundles do not depolymerize .
+
+ppatt:
+	In ?a , ?b do not depolymerize
+		?a: mitosis
+		?b: the cortical microtubules
+	In ?a , ?b do not depolymerize
+		?a: mitosis
+		?b: the intracytoplasmic microtubular bundles
+
+
+label:    sent_8
+sentence: The ADF-decorated filaments depolymerize rapidly from their pointed ends , while undecorated filaments polymerize .
+
+ppatt:
+	?a depolymerize rapidly from ?b
+		?a: The ADF-decorated filaments
+		?b: their pointed ends
+	?a polymerize
+		?a: undecorated filaments
+
+
+label:    sent_9
+sentence: Nevertheless , propineb did not depolymerize actin in a cell-free system .
+
+ppatt:
+	Nevertheless , ?a did not depolymerize ?b in ?c
+		?a: propineb
+		?b: actin
+		?c: a cell-free system
+
+
+label:    sent_10
+sentence: Polygalacturonase is well known to depolymerize preferentially polygalacturonic acid ( PGA ) by hydrolysis .
+
+ppatt:
+	?a is well known to depolymerize ?b by ?c
+		?a: Polygalacturonase
+		?b: preferentially polygalacturonic acid
+		?c: hydrolysis
+	?a is/are PGA
+		?a: preferentially polygalacturonic acid
+
+
+label:    sent_11
+sentence: Nocodazole ( 3 micrograms/ml ) was used to depolymerize microtubules in the cell .
+
+ppatt:
+	?a is/are 3 micrograms/ml
+		?a: Nocodazole
+	?a was used to depolymerize ?b in ?c
+		?a: Nocodazole
+		?b: microtubules
+		?c: the cell
+
+
+label:    sent_12
+sentence: Peroxidases depolymerize lignin in organic media but not in water .
+
+ppatt:
+	?a depolymerize ?b in ?c
+		?a: Peroxidases
+		?b: lignin
+		?c: organic media
+	?a depolymerize ?b in ?c
+		?a: Peroxidases
+		?b: lignin
+		?c: not water
+
+
+label:    sent_13
+sentence: Unlike other kinesins , middle motor domain-type kinesins depolymerize the microtubule from its ends .
+
+ppatt:
+	Unlike ?a , ?b depolymerize ?c from ?d
+		?a: other kinesins
+		?b: middle motor domain-type kinesins
+		?c: the microtubule
+		?d: its ends
+
+
+label:    sent_14
+sentence: Cytoplasmic polysaccharide lyases depolymerize alginate into the constituent monosaccharides . H2O2 at 1 mM injury caused microfilament disruption but did not depolymerize microtubules .
+
+ppatt:
+	?a depolymerize ?b into ?c
+		?a: Cytoplasmic polysaccharide lyases
+		?b: alginate
+		?c: the constituent monosaccharides
+	?a caused ?b
+		?a: H2O2 at 1 mM injury
+		?b: microfilament disruption
+	?a did not depolymerize ?b
+		?a: H2O2 at 1 mM injury
+		?b: microtubules
+
+
+label:    sent_15
+sentence: The Na ions acted as glass modifier and depolymerize the chain structure of slag . Disorazole C1 was newly synthesized and found to depolymerize microtubules and cause mitotic arrest .
+
+ppatt:
+	?a acted as ?b
+		?a: The Na ions
+		?b: glass modifier
+	?a depolymerize ?b
+		?a: The Na ions
+		?b: the chain structure of slag
+	?a was newly synthesized
+		?a: Disorazole C1
+	?a found to depolymerize ?b
+		?a: Disorazole C1
+		?b: microtubules
+	?a found to cause ?b
+		?a: Disorazole C1
+		?b: mitotic arrest
+
+
+label:    sent_16
+sentence: Plant microtubules ( MTs ) polymerize and depolymerize in a process termed dynamic instability .
+
+ppatt:
+	?a is/are MTs
+		?a: Plant microtubules
+	?a polymerize in ?b
+		?a: Plant microtubules
+		?b: a process termed dynamic instability
+	?a depolymerize
+		?a: Plant microtubules
+	?a termed dynamic instability
+		?a: a process
+
+
+label:    sent_17
+sentence: These microtubules could be induced to depolymerize , however , by micromolar Ca++ concentrations .
+
+ppatt:
+	?a could be induced to depolymerize , however , by ?b
+		?a: These microtubules
+		?b: micromolar Ca++ concentrations
+
+
+label:    sent_18
+sentence: The microtubules that make up the spindle tend to depolymerize at sub-physiological temperatures .
+
+ppatt:
+	?a make ?b
+		?a: The microtubules
+		?b: up the spindle
+	?a tend to depolymerize at ?b
+		?a: The microtubules that make up the spindle
+		?b: sub-physiological temperatures
+
+
+label:    sent_19
+sentence: When Glu microtubules depolymerize , the resulting Glu monomer is retyrosinated .
+
+ppatt:
+	When ?a depolymerize
+		?a: Glu microtubules
+	?a is retyrosinated
+		?a: the resulting Glu monomer
+
+
+label:    sent_20
+sentence: Finally , to maintain a steady state filaments must depolymerize .
+
+ppatt:
+	Finally , to maintain ?a must depolymerize
+		?a: a steady state filaments
+
+
+label:    sent_21
+sentence: In osteosarcoma cells , which do not have cytokeratin , vimentin did not depolymerize .
+
+ppatt:
+	?a do not have ?b
+		?a: osteosarcoma cells
+		?b: cytokeratin
+	In ?a , ?b did not depolymerize
+		?a: osteosarcoma cells , which do not have cytokeratin
+		?b: vimentin
+
+
+label:    sent_22
+sentence: The microtubules of meiotic spindles are vulnerable to the thermal changes and would depolymerize .
+
+ppatt:
+	?a are vulnerable to ?b
+		?a: The microtubules of meiotic spindles
+		?b: the thermal changes
+	?a would depolymerize
+		?a: The microtubules of meiotic spindles
+
+
+label:    sent_23
+sentence: The microtubules of meiotic spindles are vulnerable to the thermal changes and will depolymerize .
+
+ppatt:
+	?a are vulnerable to ?b
+		?a: The microtubules of meiotic spindles
+		?b: the thermal changes
+	?a will depolymerize
+		?a: The microtubules of meiotic spindles
+
+

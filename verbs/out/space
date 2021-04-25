@@ -1,0 +1,46 @@
+label:    sent_1
+sentence: There was a leaf-size-mediated trade-off between biomechanical and hydraulic safety , and the efficiency with which species can space their leaves and forage for light .
+
+ppatt:
+	There was ?a
+		?a: a leaf-size-mediated trade-off between biomechanical and hydraulic
+	There was ?a
+		?a: the efficiency with which species can space their leaves and forage for light
+	?a with ?b can space ?c
+		?a: the efficiency
+		?b: species
+		?c: their leaves for light
+	?a with ?b can space ?c
+		?a: the efficiency
+		?b: species
+		?c: forage
+
+
+label:    sent_2
+sentence: Women who marry later space their children more closely together but have the same number of children .
+
+ppatt:
+	?a marry later
+		?a: Women
+	?a space ?b more closely together
+		?a: Women who marry later
+		?b: their children
+	?a have ?b
+		?a: Women who marry later
+		?b: the same number of children
+
+
+label:    sent_3
+sentence: Although the mnemonic benefit of spaced retrieval is well established , the way in which participants naturally space their own retrieval is relatively unexplored .
+
+ppatt:
+	?a is well established
+		?a: the mnemonic benefit of spaced retrieval
+	?a in ?b naturally space ?c
+		?a: the way
+		?b: participants
+		?c: their own retrieval
+	?a is relatively unexplored
+		?a: the way in which participants naturally space their own retrieval
+
+

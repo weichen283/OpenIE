@@ -1,0 +1,39 @@
+prep	Malignant melanoma is reported to metastasize to all organs of the human body .	prep_to@organs
+prep	Many solid tumors that occur in humans tend to metastasize to the lungs .	prep_to@lungs
+prep	It has a tendency to metastasize , even after a long latent period .	prep_after@period
+
+subj#prep	The incidence of primary tumors that metastasize to the orbit is approximately 7 % .	subj@tumors prep_to@orbit
+subj#prep	It can metastasize to any organ .	subj@It prep_to@organ
+subj#prep	Almost a quarter of head and neck melanomas metastasize outside clinically predicted neck levels .	subj@quarter prep_outside@levels
+
+conj	Canine mammary sarcomas are usually very aggressive and easily metastasize .	conj_and@aggressive
+conj	They have an inevitable tendency to recur locally and metastasize distally .	conj_and@recur
+conj	It is a relatively benign tumor but can recur and rarely metastasize .	conj_and@recur
+
+subj	True local recurrences do not metastasize .	subj@recurrences
+subj	The liver is the organ where tumors most frequently metastasize .	subj@tumors
+subj	Advanced cases determine significant tissue destruction and they can metastasize .	subj@they
+
+subj#prep#conj	PCa cells preferentially metastasize to bone and typically result in osteoblastic lesions .	subj@cells prep_to@bone conj_and@result
+subj#prep#conj	Most malignant ovarian tumors metastasize by peritoneal dissemination and have a poor prognosis .	subj@tumors prep_by@dissemination conj_and@have
+subj#prep#conj	Endometrial carcinomas can metastasize to the orbit and may have a very atypical presentation .	subj@carcinomas prep_to@orbit conj_and@have
+
+prep#conj	Most renal cell carcinomas recur or metastasize within 2 years .	prep_within@years conj_or@recur
+prep#conj	Subpopulation 168FAR is highly tumorigenic but does not metastasize spontaneously from a s.c. site .	prep_from@site conj_but@tumorigenic
+prep#conj	Prostate cancer tends to metastasize to bone and induce osteoblastic lesions .	prep_to@bone conj_and@induce
+
+subj#conj	Conversely , serous carcinomas can metastasize but this is often a late event .	subj@carcinomas conj_but@event
+subj#conj	Squamous cell carcinomas of the scalp may metastasize and cause death .	subj@carcinomas conj_and@cause
+subj#conj	They rarely metastasize and have an excellent prognosis .	subj@They conj_and@have
+
+obj	Finally , LMSs were found to metastasize mo	obj@mo
+obj	Neoplasms have a striking tendency to metastasize or " home " to bone .	obj@"
+obj	The tumor may extend into the orbit and metastasize regionally .	obj@regionally
+
+subj#prep#rel	Mechanisms by which tumor cells metastasize to distant organs still remain enigmatic .	subj@cells prep_to@organs rel@which
+subj#prep#rel	The mechanisms by which tumor cells metastasize to bone are not well understood .	subj@cells prep_to@bone rel@which
+
+subj#rel	Bone is the most common site to which breast cancer cells metastasize .	subj@cells rel@which
+subj#rel	There is much debate about the way in which epithelial tumors metastasize .	subj@tumors rel@which
+subj#rel	The critical time of development beyond which a melanoma may metastasize presents great variation .	subj@melanoma rel@which
+

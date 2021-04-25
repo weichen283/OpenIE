@@ -1,0 +1,284 @@
+label:    sent_1
+sentence: We suspect they arise from a foreign body response to the screw breakdown .
+
+ppatt:
+	?a suspect ?b
+		?a: We
+		?b: SOMETHING := they arise from a foreign body response to the screw breakdown
+	?a arise from ?b to ?c
+		?a: they
+		?b: a foreign body response
+		?c: the screw breakdown
+
+
+label:    sent_2
+sentence: We suspect that use of " spice " products may increase .
+
+ppatt:
+	?a suspect ?b
+		?a: We
+		?b: SOMETHING := use of " spice " products may increase
+	?a may increase
+		?a: use of " spice " products
+
+
+label:    sent_3
+sentence: We suspect that these assays have applications to other species of New World primates .
+
+ppatt:
+	?a suspect ?b
+		?a: We
+		?b: SOMETHING := these assays have applications to other species of New World primates
+	?a have ?b
+		?a: these assays
+		?b: applications to other species of New World primates
+
+
+label:    sent_4
+sentence: Consecutive glaucoma and glaucoma suspect Caucasian patients .
+
+ppatt:
+	?a suspect ?b
+		?a: Consecutive glaucoma
+		?b: Caucasian patients
+	?a suspect ?b
+		?a: glaucoma
+		?b: Caucasian patients
+
+
+label:    sent_5
+sentence: The condition mimics a fracture and may even lead one to suspect a non-union .
+
+ppatt:
+	?a mimics ?b
+		?a: The condition
+		?b: a fracture
+	?a may even lead ?b to suspect ?c
+		?a: The condition
+		?b: one
+		?c: a non-union
+
+
+label:    sent_6
+sentence: We suspect published accuracy rates ( 80-97 % ) overestimate clinical utility . Giant cell arteritis : suspect it , treat it promptly .
+
+ppatt:
+	?a suspect ?b
+		?a: We
+		?b: published accuracy rates
+	?a is/are 80-97 %
+		?a: published accuracy rates
+	?a overestimate ?b ?c
+		?a: We
+		?b: clinical utility
+		?c: Giant cell arteritis
+	?a suspect ?b
+		?a: We
+		?b: it
+	?a treat ?b promptly
+		?a: We
+		?b: it
+
+
+label:    sent_7
+sentence: When to suspect interstitial cystitis .
+
+ppatt:
+	When to suspect ?a
+		?a: interstitial cystitis
+
+
+label:    sent_8
+sentence: It is important to suspect it in order to avoid wrong treatment .
+
+ppatt:
+	?a is important to suspect ?b
+		?a: It
+		?b: it
+	?a order to avoid ?b
+		?a: It
+		?b: wrong treatment
+
+
+label:    sent_9
+sentence: Ophthalmologists should suspect retinal vasculitis when patient complains of xanthopsia .
+
+ppatt:
+	?a should suspect ?b
+		?a: Ophthalmologists
+		?b: retinal vasculitis
+	when ?a complains of ?b
+		?a: patient
+		?b: xanthopsia
+
+
+label:    sent_10
+sentence: Based on these findings , we suspect she was taking oral contraceptives .
+
+ppatt:
+	Based on these findings ?a
+		?a: we
+	?a suspect ?b
+		?a: we
+		?b: SOMETHING := she was taking oral contraceptives
+	?a was taking ?b
+		?a: she
+		?b: oral contraceptives
+
+
+label:    sent_11
+sentence: We did not initially suspect syphilis in most of these 28 patients .
+
+ppatt:
+	?a did not initially suspect ?b in ?c
+		?a: We
+		?b: syphilis
+		?c: most of these 28 patients
+
+
+label:    sent_12
+sentence: Right to left shunt measurement in patients suspect for pulmonary embolism .
+
+ppatt:
+	?a suspect for ?b
+		?a: Right to left shunt measurement in patients
+		?b: pulmonary embolism
+
+
+label:    sent_13
+sentence: Proper biopsy of a lesion suspect of being a malignant melanoma . All suspect in India . When to suspect thyroid disease in the elderly . A total of 64 normal-tension glaucoma suspect eyes without anti-hypertensive treatment were enrolled .
+
+ppatt:
+	?a All suspect in ?b
+		?a: Proper biopsy of a lesion suspect
+		?b: India
+	?a When to suspect ?b in ?c
+		?a: Proper biopsy of a lesion suspect
+		?b: thyroid disease
+		?c: the elderly
+	?a suspect ?b without ?c
+		?a: Proper biopsy of a lesion suspect
+		?b: eyes
+		?c: anti-hypertensive treatment
+	?a were enrolled
+		?a: A total of 64 normal-tension glaucoma
+
+
+label:    sent_14
+sentence: Beyond shy : when to suspect social anxiety disorder .
+
+ppatt:
+	?a when to suspect ?b
+		?a: shy
+		?b: social anxiety disorder
+
+
+label:    sent_15
+sentence: Medical team could suspect and confirm D-bifunctional peroxisomal enzymatic deficiency diagnosis .
+
+ppatt:
+	?a could suspect ?b
+		?a: Medical team
+		?b: D-bifunctional peroxisomal enzymatic deficiency diagnosis
+	?a confirm
+		?a: Medical team
+
+
+label:    sent_16
+sentence: Consecutive sample of 246 patients with a suspect or manifest myocardial infarction .
+
+ppatt:
+	manifest ?a
+		?a: myocardial infarction
+
+
+label:    sent_17
+sentence: These late neurologic complications permitted us to suspect and discuss some diagnostic hypotheses .
+
+ppatt:
+	?a permitted ?b to suspect
+		?a: These late neurologic complications
+		?b: us
+	?a permitted to discuss ?b
+		?a: These late neurologic complications
+		?b: some diagnostic hypotheses
+
+
+label:    sent_18
+sentence: Conceptus viability , malformation , and suspect mutagens or teratogens in humans .
+
+ppatt:
+
+
+
+label:    sent_19
+sentence: It 's important to suspect the diagnosis and to distinguish it of aggressive angiomyxoma .
+
+ppatt:
+	?a 's important to suspect ?b
+		?a: It
+		?b: the diagnosis
+	?a 's important to to distinguish ?b
+		?a: It
+		?b: it of aggressive angiomyxoma
+
+
+label:    sent_20
+sentence: Description of methods and evaluation in patients with manifest and suspect glaucoma .
+
+ppatt:
+	?a with manifest
+		?a: patients
+	suspect ?a
+		?a: glaucoma
+
+
+label:    sent_21
+sentence: Healthcare providers should suspect TB in symptomatic persons and adhere to TB control policies .
+
+ppatt:
+	?a should suspect ?b in ?c
+		?a: Healthcare providers
+		?b: TB
+		?c: symptomatic persons
+	?a adhere to ?b
+		?a: Healthcare providers
+		?b: TB control policies
+
+
+label:    sent_22
+sentence: We suspect a factitial component but have been unable to prove or disprove it . The elevation of ACE in spinal fluid made us suspect of neurosarcoidosis .
+
+ppatt:
+	?a suspect ?b
+		?a: We
+		?b: a factitial component
+	prove ?a
+		?a: it
+	disprove ?a
+		?a: it
+	?a made ?b
+		?a: The elevation of ACE in spinal fluid
+		?b: us suspect of neurosarcoidosis
+
+
+label:    sent_23
+sentence: From pandemic suspect to the postvaccine era : the Haemophilus influenzae story .
+
+ppatt:
+
+
+
+label:    sent_24
+sentence: We also studied other US features suspect for malignant lesions .
+
+ppatt:
+	?a also studied ?b ?c
+		?a: We
+		?b: other US features
+		?c: SOMETHING := suspect for malignant lesions
+	?a suspect for ?b
+		?a: We
+		?b: malignant lesions
+
+

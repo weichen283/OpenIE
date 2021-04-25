@@ -1,0 +1,209 @@
+label:    sent_1
+sentence: The findings cast serious doubt on the concept of CCSVI in MS .
+
+ppatt:
+	?a cast ?b
+		?a: The findings
+		?b: serious doubt on the concept of CCSVI in MS
+
+
+label:    sent_2
+sentence: Recent experiments and calculations that cast light on radical generation are reviewed .
+
+ppatt:
+	?a cast ?b on ?c
+		?a: Recent experiments
+		?b: light
+		?c: radical generation
+	?a cast ?b on ?c
+		?a: calculations
+		?b: light
+		?c: radical generation
+	?a are reviewed
+		?a: Recent experiments that cast light on radical generation
+	?a are reviewed
+		?a: calculations
+
+
+label:    sent_3
+sentence: Officials cast doubts on UN report on HIV in India . Below knee cast stresses and intra-cast pressures during normal walking .
+
+ppatt:
+	?a cast ?b ?c
+		?a: Officials
+		?b: doubts on UN
+		?c: SOMETHING := report on HIV in India . Below knee cast stresses and intra-cast pressures during normal walking
+	?a report on ?b . Below ?c
+		?a: Officials
+		?b: HIV in India
+		?c: knee cast stresses during normal walking
+	?a report on ?b . Below ?c
+		?a: Officials
+		?b: HIV in India
+		?c: intra-cast pressures
+
+
+label:    sent_4
+sentence: Finally , the last step is to cast medical grade silicone into the mold .
+
+ppatt:
+	Finally , ?a is to cast ?b into ?c
+		?a: the last step
+		?b: medical grade silicone
+		?c: the mold
+
+
+label:    sent_5
+sentence: To cast light on the deregulating influence of oestrogen on the hypothalamic-pituitary-adrenal axis .
+
+ppatt:
+	cast ?a on ?b
+		?a: light
+		?b: the deregulating influence of oestrogen on the hypothalamic-pituitary-adrenal axis
+
+
+label:    sent_6
+sentence: Short-term after-effect of forearm cast removal in children .
+
+ppatt:
+
+
+
+label:    sent_7
+sentence: Short history of plaster-of-Paris cast immobilization .
+
+ppatt:
+
+
+
+label:    sent_8
+sentence: The invisible single cast broken-stress bridge .
+
+ppatt:
+
+
+
+label:    sent_9
+sentence: Titanium elastic nailing versus hip spica cast in treatment of femoral-shaft fractures in children .
+
+ppatt:
+
+
+
+label:    sent_10
+sentence: The long shadow cast by childhood physical and mental problems on adult life .
+
+ppatt:
+
+
+
+label:    sent_11
+sentence: Doubt has been cast on sunlight as the major causative factor for malignant melanoma .
+
+ppatt:
+	?a has been cast on ?b as ?c
+		?a: Doubt
+		?b: sunlight
+		?c: the major causative factor for malignant melanoma
+
+
+label:    sent_12
+sentence: Super Cast and Verabond base-metal alloys were used to cast 260 wax patterns .
+
+ppatt:
+	?a were used to cast ?b
+		?a: Super Cast
+		?b: 260 wax patterns
+	?a were used to cast ?b
+		?a: Verabond base-metal alloys
+		?b: 260 wax patterns
+
+
+label:    sent_13
+sentence: Experimental binder-free investments reused to cast dental precious alloys .
+
+ppatt:
+	?a reused to cast ?b
+		?a: Experimental binder-free investments
+		?b: dental precious alloys
+
+
+label:    sent_14
+sentence: Effect of metal conditioners on the adhesive bonding of resin cements to cast titanium .
+
+ppatt:
+	?a cast ?b
+		?a: Effect of metal conditioners on the adhesive bonding of resin cements
+		?b: titanium
+
+
+label:    sent_15
+sentence: Mechanical properties of most alloys showed larger variations when cast in the clinical laboratory . Below-elbow cast for 2 weeks .
+
+ppatt:
+	?a showed ?b ?c
+		?a: Mechanical properties of most alloys
+		?b: larger variations
+		?c: Below-elbow cast for 2 weeks
+	?a when cast in ?b
+		?a: Mechanical properties of most alloys
+		?b: the clinical laboratory
+
+
+label:    sent_16
+sentence: The complex forms stable aggregates when cast on glass . Median scores of votes cast . Accurate location of postpalatal seal area on the maxillary complete denture cast .
+
+ppatt:
+	?a forms ?b
+		?a: The complex
+		?b: stable aggregates
+	when cast on ?a ?b
+		?a: glass
+		?b: Median scores of votes
+	?a cast ?b
+		?a: Median scores of votes
+		?b: Accurate location of postpalatal seal area on the maxillary complete denture cast
+
+
+label:    sent_17
+sentence: The adolescent in a spica cast .
+
+ppatt:
+
+
+
+label:    sent_18
+sentence: The author invested the wax patterns and cast them in gold .
+
+ppatt:
+	?a invested ?b
+		?a: The author
+		?b: the wax patterns
+	?a cast ?b
+		?a: The author
+		?b: them in gold
+
+
+label:    sent_19
+sentence: The results confirmed some of the mechanism hypotheses , and cast doubt on others .
+
+ppatt:
+	?a confirmed ?b
+		?a: The results
+		?b: some of the mechanism hypotheses
+	?a cast ?b
+		?a: The results
+		?b: doubt on others
+
+
+label:    sent_20
+sentence: There are numerous disorders , and front-line tests must cast a wide net .
+
+ppatt:
+	There are ?a
+		?a: numerous disorders
+	?a must cast ?b
+		?a: front-line tests
+		?b: a wide net
+
+

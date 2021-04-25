@@ -1,0 +1,477 @@
+label:    sent_1
+sentence: Students completing the Web-based version of the survey were four times more likely to skip an item .
+
+ppatt:
+	?a completing ?b
+		?a: Students
+		?b: the Web-based version of the survey
+	?a were ?b more likely to skip ?c
+		?a: Students completing the Web-based version of the survey
+		?b: four times
+		?c: an item
+
+
+label:    sent_2
+sentence: Staff probably know the proper procedures for safe use of MDVs , but job stress , time constraints , and poor staffing levels can underlie a medication giver 's decision to skip or omit steps in the process .
+
+ppatt:
+	?a probably know ?b
+		?a: Staff
+		?b: the proper procedures for safe use of MDVs
+	?a can underlie ?b to skip ?c in ?d
+		?a: job stress
+		?b: a medication giver 's decision
+		?c: steps
+		?d: the process
+	?a can underlie ?b to skip ?c in ?d
+		?a: time constraints
+		?b: a medication giver 's decision
+		?c: steps
+		?d: the process
+	?a can underlie ?b to skip ?c in ?d
+		?a: poor staffing levels
+		?b: a medication giver 's decision
+		?c: steps
+		?d: the process
+	?a can underlie to omit
+		?a: job stress
+	?a can underlie to omit
+		?a: time constraints
+	?a can underlie to omit
+		?a: poor staffing levels
+
+
+label:    sent_3
+sentence: The Overnight Express ( TM ) Autoinduction System ( OE system ) was adopted to skip the laborious induction step of the addition of IPTG .
+
+ppatt:
+	?a is/are OE system
+		?a: The Overnight Express ( TM ) Autoinduction System
+	?a was adopted to skip ?b
+		?a: The Overnight Express ( TM ) Autoinduction System
+		?b: the laborious induction step of the addition of IPTG
+
+
+label:    sent_4
+sentence: We could detect an alternative transcript that would skip the exon that harbored the mutation , but we demonstrate that if this transcript is translated into protein , although it correctly localizes to early endosomes , it does not interact with syntaxin-13 .
+
+ppatt:
+	?a could detect ?b
+		?a: We
+		?b: an alternative transcript that would skip the exon that harbored the mutation
+	?a would skip ?b
+		?a: an alternative transcript
+		?b: the exon that harbored the mutation
+	?a harbored ?b
+		?a: the exon
+		?b: the mutation
+	?a demonstrate ?b ?c
+		?a: we
+		?b: SOMETHING := this transcript is translated into protein
+		?c: SOMETHING := it correctly localizes to early endosomes , it does not interact with syntaxin-13
+	?a is translated into ?b
+		?a: this transcript
+		?b: protein
+	?a correctly localizes to ?b
+		?a: it
+		?b: early endosomes
+	?a does not interact with ?b
+		?a: it
+		?b: syntaxin-13
+
+
+label:    sent_5
+sentence: Recent work has suggested , however , that in Norwegian spring-spawning herring-a population that undertakes extensive spawning migrations-almost one in two adults may skip their second spawning migration . I will skip the trivial ( and difficult to accept by patients ) dietary changes .
+
+ppatt:
+	?a has suggested , however ?b
+		?a: Recent work
+		?b: SOMETHING := in Norwegian spring-spawning herring-a population that undertakes extensive spawning migrations-almost one in two adults may skip their second spawning migration
+	?a undertakes ?b
+		?a: Norwegian spring-spawning herring-a population
+		?b: extensive spawning migrations-almost
+	in ?a ?b may skip ?c
+		?a: Norwegian spring-spawning herring-a population that undertakes extensive spawning migrations-almost
+		?b: one in two adults
+		?c: their second spawning migration
+	?a will skip ?b
+		?a: one in two adults
+		?b: the trivial
+	?a will skip ?b
+		?a: one in two adults
+		?b: difficult to accept by patients ) dietary changes
+	accept by ?a ?b
+		?a: patients
+		?b: dietary changes
+
+
+label:    sent_6
+sentence: The evidence supports our hypothesis that a low internal redox potential can cause fibrosarcoma cells to skip the G1pm phase of the cell cycle .
+
+ppatt:
+	?a supports ?b
+		?a: The evidence
+		?b: our hypothesis that a low internal redox potential can cause fibrosarcoma cells to skip the G1pm phase of the cell cycle
+	?a can cause ?b to skip ?c
+		?a: a low internal redox potential
+		?b: fibrosarcoma cells
+		?c: the G1pm phase of the cell cycle
+
+
+label:    sent_7
+sentence: Even if more and more evidences have highlighted the importance of breakfast in the growth and development of children , from 10 to 30 % of US and European children and adolescents regularly skip breakfast .
+
+ppatt:
+	Even if ?a have highlighted ?b
+		?a: more and more evidences
+		?b: the importance of breakfast in growth and development of children
+	from ?a regularly skip ?b
+		?a: 10 30 % of US and adolescents
+		?b: breakfast
+
+
+label:    sent_8
+sentence: Multivalent interactions : a hop , skip and jump . Participants also felt strongly that not all domains and items apply to all women with UI and an option to tailor questionnaires and skip non-relevant items was important .
+
+ppatt:
+	?a ?b also felt strongly ?c
+		?a: Multivalent interactions
+		?b: a hop
+		?c: SOMETHING := not all domains and items apply to all women with UI and an option to tailor questionnaires and skip non-relevant items
+	?a ?b also felt strongly ?c
+		?a: Multivalent interactions
+		?b: skip
+		?c: SOMETHING := not all domains and items apply to all women with UI and an option to tailor questionnaires and skip non-relevant items
+	?a ?b also felt strongly ?c
+		?a: Multivalent interactions
+		?b: jump
+		?c: SOMETHING := not all domains and items apply to all women with UI and an option to tailor questionnaires and skip non-relevant items
+	?a apply to ?b
+		?a: domains
+		?b: all women with UI
+	?a apply to ?b
+		?a: items
+		?b: all women with UI
+	?a apply to ?b
+		?a: domains
+		?b: an option to tailor questionnaires and skip non-relevant items
+	?a apply to ?b
+		?a: items
+		?b: an option to tailor questionnaires and skip non-relevant items
+	?a tailor ?b
+		?a: an option
+		?b: questionnaires
+	skip ?a
+		?a: non-relevant items
+
+
+label:    sent_9
+sentence: Rhythms produced by leg correspond to the bipedal gaits of walk , run , two-legged hop , two-legged jump , skip , gallop , asymmetric hop , and one-legged hop .
+
+ppatt:
+	?a produced by ?b
+		?a: Rhythms
+		?b: leg
+	?a correspond to ?b
+		?a: Rhythms produced by leg
+		?b: the bipedal gaits of walk , run , two-legged hop , two-legged jump , skip , gallop , asymmetric hop , and one-legged hop
+
+
+label:    sent_10
+sentence: These images ( 7.5 mm ; skip = 15 mm ) were then sent --without identifying information -- to the original reviewers .
+
+ppatt:
+	= ?a
+		?a: 15 mm
+	?a were then sent --without identifying ?b -- to ?c
+		?a: These images
+		?b: information
+		?c: the original reviewers
+
+
+label:    sent_11
+sentence: Under current heart rate control menus in normals , the PM skip appears to follow central influence , whereas the conservative or slipping PMs suggest peripheral control .
+
+ppatt:
+	Under ?a ?b , ?c appears to follow ?d
+		?a: current heart rate
+		?b: control menus in normals
+		?c: the PM skip
+		?d: central influence
+	?a suggest ?b
+		?a: the conservative or slipping PMs
+		?b: peripheral control
+
+
+label:    sent_12
+sentence: Micrometastasis and skip metastasis as predictive factors in non-small-cell lung cancer staging .
+
+ppatt:
+	skip ?a as ?b
+		?a: metastasis
+		?b: predictive factors in non-small-cell lung cancer staging
+
+
+label:    sent_13
+sentence: Breakfast skippers tended to skip lunch , do less extra-curricular physical activity , watch more television and have less educated parents .
+
+ppatt:
+	?a tended to skip ?b
+		?a: Breakfast skippers
+		?b: lunch
+	?a do ?b
+		?a: Breakfast skippers
+		?b: less extra-curricular physical activity
+	?a watch ?b
+		?a: Breakfast skippers
+		?b: more television
+	?a have ?b
+		?a: Breakfast skippers
+		?b: less educated parents
+
+
+label:    sent_14
+sentence: Why skip the general practitioner and go to the accident and emergency department ? Early recognition of FMF would help to skip unnecessary invasive procedures and to prevent the development of amyloidosis , the devastating complication of FMF .
+
+ppatt:
+	Why skip ?a ?b
+		?a: the general practitioner
+		?b: Early recognition of FMF
+	go to ?a ?b
+		?a: the accident
+		?b: Early recognition of FMF
+	go to ?a ?b
+		?a: emergency
+		?b: Early recognition of FMF
+	go to ?a ?b
+		?a: department
+		?b: Early recognition of FMF
+	?a would help to skip ?b
+		?a: Early recognition of FMF
+		?b: unnecessary invasive procedures
+	?a would help to to prevent ?b
+		?a: Early recognition of FMF
+		?b: the development of amyloidosis
+	?a is/are the devastating complication of ?b
+		?a: amyloidosis
+		?b: FMF
+
+
+label:    sent_15
+sentence: Replicase might , therefore , skip these transiently formed loop structures with certain frequencies , resulting in the generation of DI genomes . PURLs : skip this step when checking lipid levels .
+
+ppatt:
+	?a might , therefore , skip ?b
+		?a: Replicase
+		?b: these transiently formed loop structures with certain frequencies
+	?a resulting in ?b
+		?a: Replicase
+		?b: the generation of DI genomes PURLs
+	?a skip ?b
+		?a: Replicase
+		?b: this step
+	?a when checking ?b
+		?a: Replicase
+		?b: lipid levels
+
+
+label:    sent_16
+sentence: With the aim of enabling the examiner to skip a large portion of the MMSE when screening subjects with lower possibility of cognitive impairment , we examined the internal distribution of the MMSE scores among 792 older adults visiting a teaching hospital , a long-term care hospital , nursing homes , and a geriatric clinic .
+
+ppatt:
+	?a enabling ?b
+		?a: the aim
+		?b: the examiner
+	skip ?a
+		?a: a large portion of the MMSE
+	when screening ?a with ?b
+		?a: subjects
+		?b: lower possibility of cognitive impairment
+	With ?a , ?b examined ?c
+		?a: the aim of enabling the examiner to skip a large portion of the MMSE when screening subjects with lower possibility of cognitive impairment
+		?b: we
+		?c: the internal distribution of the MMSE scores among 792 older adults visiting a teaching hospital , a long-term care hospital , nursing homes , and a geriatric clinic
+	?a visiting ?b
+		?a: 792 older adults
+		?b: a teaching hospital
+	?a visiting ?b
+		?a: 792 older adults
+		?b: a long-term care hospital
+	?a visiting ?b
+		?a: 792 older adults
+		?b: nursing homes
+	?a visiting ?b
+		?a: 792 older adults
+		?b: a geriatric clinic
+
+
+label:    sent_17
+sentence: The energy and protein composition of breakfasts eaten by the children indicated that those who did not skip breakfast met one-quarter to one-third of their total daily energy and protein requirements .
+
+ppatt:
+	?a eaten by ?b
+		?a: breakfasts
+		?b: the children
+	?a indicated ?b
+		?a: energy of breakfasts eaten by the children
+		?b: SOMETHING := those who did not skip breakfast met one-quarter one-third of their total daily energy and protein
+	?a indicated ?b
+		?a: protein
+		?b: SOMETHING := those who did not skip breakfast met one-quarter one-third of their total daily energy and protein
+	?a indicated ?b
+		?a: composition
+		?b: SOMETHING := those who did not skip breakfast met one-quarter one-third of their total daily energy and protein
+	?a did not skip ?b
+		?a: those
+		?b: breakfast
+	?a met ?b
+		?a: those who did not skip breakfast
+		?b: one-quarter one-third of their total daily energy and protein
+
+
+label:    sent_18
+sentence: Many patients drink cafe latte as part of their habitual morning routine to start their day and may be unable to skip this step before drawing a fasting blood sample for cholesterol testing .
+
+ppatt:
+	?a drink ?b as ?c
+		?a: Many patients
+		?b: cafe latte
+		?c: part of their habitual morning routine
+	?a start ?b
+		?a: Many patients
+		?b: their day
+	skip ?a
+		?a: this step
+	drawing ?a
+		?a: a fasting blood sample for cholesterol testing
+
+
+label:    sent_19
+sentence: This substitution led to a skip of the same exon as well as conversion of codon-930 from GCT ( Ala ) to ACT ( Thr ) in the normal-size transcript .
+
+ppatt:
+	?a led to ?b
+		?a: This substitution
+		?b: a skip of the same exon
+	?a led to ?b
+		?a: This substitution
+		?b: conversion of codon-930 from GCT to ACT in the normal-size transcript
+	?a is/are Ala
+		?a: GCT
+	?a ACT in ?b
+		?a: conversion of codon-930 from GCT
+		?b: the normal-size transcript
+
+
+label:    sent_20
+sentence: In the linear regression , the most powerful predictor of non-adherence was the disbelief that the drug is ameliorating the disease ( beta = 0.279 ) , however , in logistic regression , patient who were willing to skip or double doses in case of amelioration/deterioration were found to be 7.35 times more likely to be non-adherent than those who were not ( aOR =0.136 , 95 % CI : 0.037-0.503 ) .
+
+ppatt:
+	In ?a , ?b was the disbelief ?c , however
+		?a: the linear regression
+		?b: the most powerful predictor of non-adherence
+		?c: SOMETHING := the drug is ameliorating the disease ( beta = 0.279 ) in logistic regression
+	?a is ameliorating ?b in ?c
+		?a: the drug
+		?b: the disease
+		?c: logistic regression
+	?a = ?b
+		?a: beta
+		?b: 0.279
+	?a were willing to skip ?b
+		?a: patient
+		?b: doses in case of amelioration/deterioration
+	?a were found to be ?b more likely to be non-adherent than ?c
+		?a: patient who were willing to skip or double doses in case of amelioration/deterioration
+		?b: 7.35 times
+		?c: those
+	?a is/are 95 %
+		?a: not ( aOR =0.136
+
+
+label:    sent_21
+sentence: Futhermore , LT with primary suturing was thought to be useful in cases of skip and multiple , in consideration of the numbers , patterns , and properties of the bulla and/or bleb from the intraoperative findings through the thoracoscope .
+
+ppatt:
+	?a ?b was thought to be useful in ?c , in ?d
+		?a: Futhermore
+		?b: LT with primary suturing
+		?c: cases of skip
+		?d: consideration of the numbers , patterns , and properties of the bulla and/or bleb from the intraoperative findings through the thoracoscope
+	?a was thought to be multiple
+		?a: Futhermore
+
+
+label:    sent_22
+sentence: Over the years , several modifications to the analgesic ladder have been proposed , as the addition of two further steps , related to the switch of opioid and/or non-invasive route of administration , and to the use of invasive approaches , or again the skip of the second step ; nevertheless the educational value and benefits related to the worldwide dissemination are of paramount importance .
+
+ppatt:
+	Over ?a , ?b have been proposed , as ?c
+		?a: the years
+		?b: several modifications to the analgesic ladder
+		?c: the addition of two further steps , related to the switch of opioid and/or non-invasive route of administration
+	Over ?a , ?b have been proposed , as ?c
+		?a: the years
+		?b: several modifications to the analgesic ladder
+		?c: the use of invasive approaches
+	nevertheless ?a are of paramount importance
+		?a: the educational value related to the worldwide dissemination
+	nevertheless ?a are of paramount importance
+		?a: benefits
+
+
+label:    sent_23
+sentence: The reflected beams skip a part of the interferometer and travel a different path from the main beam thus experiencing a smaller optomechanical gain .
+
+ppatt:
+	?a skip ?b thus experiencing ?c
+		?a: The reflected beams
+		?b: a part of the interferometer
+		?c: a smaller optomechanical gain
+	?a travel ?b
+		?a: The reflected beams
+		?b: a different path from the main beam
+
+
+label:    sent_24
+sentence: We assessed commercial transport media and improved nucleic acid isolation techniques and the RT-PCR-based tests , which allowed us to skip a culture step and to test directly the patients ' samples ; however , for full confirmation of our hypothesis and explanation of possible mechanisms of the contribution of Helicobacter sp. to the pathogenesis of the disease further data are to be collected and evaluated .
+
+ppatt:
+	?a assessed ?b
+		?a: We
+		?b: commercial transport media
+	?a improved ?b
+		?a: We
+		?b: nucleic acid isolation techniques
+	?a improved ?b
+		?a: We
+		?b: the RT-PCR-based tests , which allowed us to skip a culture step and to test directly the patients ' samples
+	?a allowed ?b to skip ?c
+		?a: the RT-PCR-based tests
+		?b: us
+		?c: a culture step
+	?a test directly ?b
+		?a: which
+		?b: the patients ' samples
+	however , for ?a ?b are to be collected
+		?a: full confirmation of our hypothesis and explanation of possible mechanisms of the contribution of Helicobacter sp. to the pathogenesis
+		?b: of the disease further data
+	however , ?a are to be evaluated
+		?a: of the disease further data
+
+
+label:    sent_25
+sentence: Spermatocytes form , but the germ cells in mutant males skip the major events of the meiotic divisions and form aberrant spermatids with large nuclei .
+
+ppatt:
+	?a form
+		?a: Spermatocytes
+	?a skip ?b
+		?a: the germ cells in mutant males
+		?b: the major events of the meiotic divisions
+	?a form ?b with ?c
+		?a: the germ cells in mutant males
+		?b: aberrant spermatids
+		?c: large nuclei
+
+

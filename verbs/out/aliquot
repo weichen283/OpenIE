@@ -1,0 +1,154 @@
+label:    sent_1
+sentence: Thirty apheresis fresh plasma units were aliquot and stored at -70 degreesC .
+
+ppatt:
+	?a were aliquot
+		?a: Thirty apheresis fresh plasma units
+	?a stored at ?b
+		?a: Thirty apheresis fresh plasma units
+		?b: -70 degreesC
+
+
+label:    sent_2
+sentence: One control aliquot ( CN ) and five experimental aliquots ( EX1 , EX2 , EX3 , EX4 , and EX5 ) were prepared from each sample .
+
+ppatt:
+	?a is/are CN
+		?a: One control aliquot
+	?a is/are CN
+		?a: five experimental aliquots
+	?a were prepared from ?b
+		?a: One control aliquot
+		?b: each sample
+	?a were prepared from ?b
+		?a: five experimental aliquots
+		?b: each sample
+
+
+label:    sent_3
+sentence: To determine the stability of circulating miRNA , the blood sample was aliquot and stored at different temperature conditions for analysis .
+
+ppatt:
+	determine ?a ?b
+		?a: the stability of circulating miRNA
+		?b: the blood sample
+	?a was aliquot
+		?a: the blood sample
+	?a stored at ?b for ?c
+		?a: the blood sample
+		?b: different temperature conditions
+		?c: analysis
+
+
+label:    sent_4
+sentence: Although many centres aliquot multiple syringes from a single vial to be kept in a refrigerator for use , the current study shows that so long as proper sterile techniques are implemented , there were no cases of endophthalmitis from using the same vial , which was reused for a maximum of 10 consecutive injections .
+
+ppatt:
+	many centres aliquot ?a ?b
+		?a: multiple syringes from a single vial
+		?b: the current study
+	?a be kept in ?b
+		?a: many centres aliquot multiple syringes from a single vial
+		?b: a refrigerator for use
+	?a shows ?b ?c
+		?a: the current study
+		?b: SOMETHING := so long as proper sterile techniques are implemented
+		?c: SOMETHING := there were no cases of endophthalmitis from using the same vial , which was reused for a maximum of 10 consecutive injections
+	so long as ?a are implemented
+		?a: proper sterile techniques
+	there were ?a
+		?a: no cases of endophthalmitis
+	?a using ?b
+		?a: no cases of endophthalmitis
+		?b: the same vial , which was reused for a maximum of 10 consecutive injections
+	?a was reused for ?b
+		?a: the same vial
+		?b: a maximum of 10 consecutive injections
+
+
+label:    sent_5
+sentence: An additional aliquot of cells for potential subsequent therapies could be collected at the time of the initial PBSC apheresis episode , by any of extending the collection time , extending the apheresis episode by a single day , or cryopreserving a separate aliquot from collections in which large numbers of CD34+ cells are collected .
+
+ppatt:
+	?a could be collected at ?b , by ?c
+		?a: An additional aliquot of cells for potential subsequent therapies
+		?b: the time of the initial PBSC apheresis episode
+		?c: any of extending the collection time extending the apheresis episode by a single day
+	?a extending ?b
+		?a: any
+		?b: the collection time
+	extending ?a by ?b
+		?a: the apheresis episode
+		?b: a single day
+	?a cryopreserving ?b
+		?a: An additional aliquot of cells for potential subsequent therapies
+		?b: a separate aliquot from collections in which large numbers of CD34+ cells are collected
+	?a in ?b are collected
+		?a: collections
+		?b: large numbers of CD34+ cells
+
+
+label:    sent_6
+sentence: These include the following : ( 1 ) the reduction or elimination , or both , of detection cell dead volume , ( 2 ) the ability to interrogate a nearly pure aliquot of analyte , and ( 3 ) the ability to signal average spectra of the same aliquot ( depending on its size ) thereby improving the signal-to-noise ratio of the measurement and , concomitantly , the analytical characteristics of the method .
+
+ppatt:
+	?a include ?b ?c
+		?a: These
+		?b: the following
+		?c: the reduction
+	?a include ?b ?c
+		?a: These
+		?b: the following
+		?c: elimination
+	?a include ?b ?c
+		?a: These
+		?b: the following
+		?c: detection cell dead volume
+	?a include ?b ?c
+		?a: These
+		?b: the following
+		?c: the ability to interrogate a nearly pure aliquot of analyte
+	?a interrogate ?b
+		?a: the ability
+		?b: a nearly pure aliquot of analyte
+	interrogate ?a ?b
+		?a: a nearly pure aliquot of analyte
+		?b: the ability to signal average spectra of the same aliquot ( depending on its size ) thereby improving the signal-to-noise ratio of the measurement and , concomitantly , the analytical characteristics of the method
+	?a signal ?b
+		?a: the ability
+		?b: average spectra of the same aliquot
+	depending on ?a size
+		?a: its
+	thereby improving ?a
+		?a: the signal-to-noise ratio of the measurement
+	thereby improving ?a
+		?a: concomitantly , the analytical characteristics of the method
+
+
+label:    sent_7
+sentence: The results demonstrate that the automated Hamilton PPT method can accurately and precisely aliquot 10 muL of plasma from 15 muL or larger volume plasma samples .
+
+ppatt:
+	?a demonstrate ?b
+		?a: The results
+		?b: SOMETHING := the automated Hamilton PPT method can accurately and precisely aliquot 10 muL of plasma from 15 muL or larger volume plasma samples
+	?a can accurately and precisely aliquot ?b
+		?a: the automated Hamilton PPT method
+		?b: 10 muL of plasma from 15 muL or larger volume plasma samples
+
+
+label:    sent_8
+sentence: The organic phase was loaded with 10-g phenol , the microorganisms were allowed to consume this aliquot almost to completion , and a second 10-g aliquot was then added .
+
+ppatt:
+	?a was loaded with ?b
+		?a: The organic phase
+		?b: 10-g phenol
+	?a were allowed to consume ?b to ?c
+		?a: the microorganisms
+		?b: this aliquot
+		?c: almost completion
+	?a was then added
+		?a: a second 10-g aliquot
+
+

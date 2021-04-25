@@ -1,0 +1,301 @@
+label:    sent_1
+sentence: More research is warranted to elucidate the etiologic mechanisms of these associations .
+
+ppatt:
+	?a is warranted to elucidate ?b
+		?a: More research
+		?b: the etiologic mechanisms of these associations
+
+
+label:    sent_2
+sentence: Further studies are needed to elucidate the role of impaired renal haemodynamics in OSA .
+
+ppatt:
+	?a are needed to elucidate ?b
+		?a: Further studies
+		?b: the role of impaired renal haemodynamics in OSA
+
+
+label:    sent_3
+sentence: Further experimental studies are necessary to elucidate microfascicle formation .
+
+ppatt:
+	?a are necessary to elucidate ?b
+		?a: Further experimental studies
+		?b: microfascicle formation
+
+
+label:    sent_4
+sentence: Additional studies are needed to elucidate mechanisms of action and to establish causal inference .
+
+ppatt:
+	?a are needed to elucidate ?b
+		?a: Additional studies
+		?b: mechanisms of action
+	?a are needed to to establish ?b
+		?a: Additional studies
+		?b: causal inference
+
+
+label:    sent_5
+sentence: More research is needed to elucidate treatment effects and to determine mechanisms .
+
+ppatt:
+	?a is needed to elucidate ?b
+		?a: More research
+		?b: treatment effects
+	?a is needed to to determine ?b
+		?a: More research
+		?b: mechanisms
+
+
+label:    sent_6
+sentence: We aimed to elucidate this as well as evaluate a home-care team . X-ray crystal structures elucidate the nucleotidyl transfer reaction of transcript initiation using two nucleotides .
+
+ppatt:
+	?a aimed to elucidate ?b
+		?a: We
+		?b: this
+	?a evaluate ?b
+		?a: We
+		?b: a home-care team
+	aimed to ?a elucidate ?b using ?c
+		?a: X-ray crystal structures
+		?b: the nucleotidyl transfer reaction of transcript initiation
+		?c: two nucleotides
+
+
+label:    sent_7
+sentence: We elucidate the workings of such a clamp in an atomic detail .
+
+ppatt:
+	?a elucidate ?b
+		?a: We
+		?b: the workings of such a clamp in an atomic detail
+
+
+label:    sent_8
+sentence: We elucidate the differences between the two systems due to different confinement .
+
+ppatt:
+	?a elucidate ?b
+		?a: We
+		?b: the differences between the two systems due to different confinement
+
+
+label:    sent_9
+sentence: Further studies are clearly needed to elucidate cytokines ' role in adults with AD .
+
+ppatt:
+	?a are clearly needed to elucidate ?b
+		?a: Further studies
+		?b: cytokines ' role in adults with AD
+
+
+label:    sent_10
+sentence: We aim to further elucidate various metabolic processes in the neural system .
+
+ppatt:
+	?a aim to further elucidate ?b
+		?a: We
+		?b: various metabolic processes in the neural system
+
+
+label:    sent_11
+sentence: Our results are expected to further elucidate various metabolic processes in the neural system .
+
+ppatt:
+	?a are expected to further elucidate ?b
+		?a: Our results
+		?b: various metabolic processes in the neural system
+
+
+label:    sent_12
+sentence: This could further elucidate the biological underpinnings of depression and optimize its treatment .
+
+ppatt:
+	?a could further elucidate ?b
+		?a: This
+		?b: the biological underpinnings of depression
+	?a optimize ?b
+		?a: This
+		?b: its treatment
+
+
+label:    sent_13
+sentence: Our calculations elucidate many recent experiments qualitatively and suggest further extensions of them .
+
+ppatt:
+	?a elucidate ?b qualitatively
+		?a: Our calculations
+		?b: many recent experiments
+	?a suggest ?b
+		?a: Our calculations
+		?b: further extensions of them
+
+
+label:    sent_14
+sentence: Experiments to further elucidate the functions and properties of the IR6 protein were conducted .
+
+ppatt:
+	?a further elucidate ?b
+		?a: Experiments
+		?b: the functions of the IR6 protein
+	?a further elucidate ?b
+		?a: Experiments
+		?b: properties
+	?a were conducted
+		?a: Experiments to further elucidate the functions and properties of the IR6 protein
+
+
+label:    sent_15
+sentence: Multiple measures elucidate glucocorticoid responses to environmental variation in predation threat .
+
+ppatt:
+	?a elucidate ?b to ?c
+		?a: Multiple measures
+		?b: glucocorticoid responses
+		?c: environmental variation in predation threat
+
+
+label:    sent_16
+sentence: In this study , we further elucidate this possible link . In this report we elucidate further the melanocytic defect .
+
+ppatt:
+	In ?a , ?b further elucidate ?c
+		?a: this study
+		?b: we
+		?c: this possible link
+	In ?a ?b elucidate further ?c
+		?a: this report
+		?b: we
+		?c: the melanocytic defect
+
+
+label:    sent_17
+sentence: We elucidate how graphene bilayers form on Ir ( 111 ) .
+
+ppatt:
+	?a elucidate ?b
+		?a: We
+		?b: SOMETHING := how graphene bilayers form on Ir
+	how ?a form on ?b
+		?a: graphene bilayers
+		?b: Ir
+	?a is/are 111
+		?a: Ir
+
+
+label:    sent_18
+sentence: The POP-ABC study will elucidate the nosogeny of ethnic disparities in glucose dysregulation .
+
+ppatt:
+	?a will elucidate ?b
+		?a: The POP-ABC study
+		?b: the nosogeny of ethnic disparities in glucose dysregulation
+
+
+label:    sent_19
+sentence: This approach , however , does not elucidate the phase dynamics that underlies synchronization .
+
+ppatt:
+	?a however , does not elucidate ?b
+		?a: This approach
+		?b: the phase dynamics that underlies synchronization
+	?a underlies ?b
+		?a: the phase dynamics
+		?b: synchronization
+
+
+label:    sent_20
+sentence: Targeting TNF-alpha to elucidate and ameliorate neuroinflammation in neurodegenerative diseases .
+
+ppatt:
+	Targeting ?a
+		?a: TNF-alpha
+	elucidate ?a
+		?a: neuroinflammation in neurodegenerative diseases
+	ameliorate ?a
+		?a: neuroinflammation in neurodegenerative diseases
+
+
+label:    sent_21
+sentence: Patient and carer interviews to elucidate and verify district nurse data . A physician has an obligation to elucidate and justify , treatment he proposes .
+
+ppatt:
+	?a elucidate ?b
+		?a: Patient
+		?b: district nurse data
+	?a elucidate ?b
+		?a: carer
+		?b: district nurse data
+	?a elucidate ?b
+		?a: interviews
+		?b: district nurse data
+	?a verify
+		?a: Patient
+	?a verify
+		?a: carer
+	?a verify
+		?a: interviews
+	?a ?b has ?c
+		?a: Patient to elucidate and verify district nurse data
+		?b: A physician
+		?c: an obligation to elucidate and justify
+	?a ?b has ?c
+		?a: carer
+		?b: A physician
+		?c: an obligation to elucidate and justify
+	?a ?b has ?c
+		?a: interviews
+		?b: A physician
+		?c: an obligation to elucidate and justify
+	?a elucidate
+		?a: an obligation
+	?a justify
+		?a: an obligation
+	?a ?b proposes
+		?a: treatment
+		?b: he
+
+
+label:    sent_22
+sentence: Further identification of novel causative genes and elucidate pathomechanisms of protein aggregation in necessary .
+
+ppatt:
+	elucidate ?a
+		?a: pathomechanisms of protein aggregation in necessary
+
+
+label:    sent_23
+sentence: The intent was to elucidate on niche partitioning of these taxa . To elucidate from mothers reasons and preferred methods for circumcising male children in Lagos .
+
+ppatt:
+	?a was to elucidate on ?b . To elucidate from ?c
+		?a: The intent
+		?b: niche partitioning of these taxa
+		?c: mothers reasons
+	?a was to elucidate on ?b . To elucidate from ?c
+		?a: The intent
+		?b: niche partitioning of these taxa
+		?c: preferred methods
+	?a circumcising ?b
+		?a: The intent
+		?b: male children in Lagos
+
+
+label:    sent_24
+sentence: We review the literature to elucidate about HEV infection and its autoimmune effects .
+
+ppatt:
+	?a review ?b
+		?a: We
+		?b: the literature to elucidate about HEV infection and its autoimmune effects
+	?a elucidate about ?b
+		?a: the literature
+		?b: HEV infection
+	?a elucidate about ?b
+		?a: the literature
+		?b: its autoimmune effects
+
+

@@ -1,0 +1,291 @@
+label:    sent_1
+sentence: Afflicted patients tend to be elderly with multiple infirmities often with cardio-pulmonary dysfunction .
+
+ppatt:
+	?a tend to be elderly with ?b often with ?c
+		?a: Afflicted patients
+		?b: multiple infirmities
+		?c: cardio-pulmonary dysfunction
+
+
+label:    sent_2
+sentence: Solitary fibrous tumors tend to be well-defined , ovoid , heterogeneously enhancing lesions .
+
+ppatt:
+	?a tend to be well-defined , lesions
+		?a: Solitary fibrous tumors
+
+
+label:    sent_3
+sentence: These malignancies tend to be associated with a poor prognosis and disease course .
+
+ppatt:
+	?a tend to be associated with ?b
+		?a: These malignancies
+		?b: a poor prognosis
+	?a tend to be associated with ?b
+		?a: These malignancies
+		?b: disease course
+
+
+label:    sent_4
+sentence: Its cortex is wide and layers tend to merge .
+
+ppatt:
+	?a is wide
+		?a: Its cortex
+	?a tend to merge
+		?a: layers
+
+
+label:    sent_5
+sentence: Complications tend to be minor and do not affect postreconstruction adjuvant therapy .
+
+ppatt:
+	?a tend to be minor
+		?a: Complications
+	?a tend to be do not affect ?b
+		?a: Complications
+		?b: postreconstruction adjuvant therapy
+
+
+label:    sent_6
+sentence: The symptoms tend either to disappear or exacerbate with time passing .
+
+ppatt:
+	?a tend either to disappear with ?b
+		?a: The symptoms
+		?b: time passing
+	?a tend either to exacerbate
+		?a: The symptoms
+
+
+label:    sent_7
+sentence: Thus , certain amino acids tend to group together to form local clouds . Erythrocytes tend to aggregate during an inflammatory process .
+
+ppatt:
+	Thus , ?a tend to group together to form ?b
+		?a: certain amino acids
+		?b: local clouds
+	?a tend to aggregate during ?b
+		?a: Erythrocytes
+		?b: an inflammatory process
+
+
+label:    sent_8
+sentence: Due to feelings of shame , patients often tend to conceal their obsessive-compulsive symptoms .
+
+ppatt:
+	Due to ?a , ?b often tend to conceal ?c
+		?a: feelings of shame
+		?b: patients
+		?c: their obsessive-compulsive symptoms
+
+
+label:    sent_9
+sentence: Most liver cysts are asymptomatic and tend to have a benign clinical course . LBHs tend to represent smaller communities and are primarily appointed .
+
+ppatt:
+	?a are asymptomatic
+		?a: Most liver cysts
+	?a tend to have ?b
+		?a: Most liver cysts
+		?b: a benign clinical course
+	?a tend to represent ?b
+		?a: LBHs
+		?b: smaller communities
+	?a are primarily appointed
+		?a: LBHs
+
+
+label:    sent_10
+sentence: Such infections are rare and tend to respond well to therapy .
+
+ppatt:
+	?a are rare
+		?a: Such infections
+	?a tend to respond well to ?b
+		?a: Such infections
+		?b: therapy
+
+
+label:    sent_11
+sentence: Plant cells in suspension culture tend to aggregate and form large clumps .
+
+ppatt:
+	?a tend to aggregate ?b
+		?a: Plant cells in suspension culture
+		?b: large clumps
+	?a tend to form
+		?a: Plant cells in suspension culture
+
+
+label:    sent_12
+sentence: In some patients , the cysts tend to recur and repeated evacuations are necessary .
+
+ppatt:
+	In ?a , ?b tend to recur
+		?a: some patients
+		?b: the cysts
+	?a are necessary
+		?a: repeated evacuations
+
+
+label:    sent_13
+sentence: The aetiology remains uncertain but the authors tend in favour of an atheromatous aetiology .
+
+ppatt:
+	?a remains uncertain
+		?a: The aetiology
+	?a tend in ?b
+		?a: the authors
+		?b: favour of an atheromatous aetiology
+
+
+label:    sent_14
+sentence: Fixations from different observers are often consistent-observers tend to look at the same locations .
+
+ppatt:
+	?a are often consistent-observers tend to look at ?b
+		?a: Fixations from different observers
+		?b: the same locations
+
+
+label:    sent_15
+sentence: Disabilities occur frequently after very preterm birth and tend to aggregate .
+
+ppatt:
+	?a occur frequently after ?b
+		?a: Disabilities
+		?b: very preterm birth
+	?a tend to aggregate
+		?a: Disabilities
+
+
+label:    sent_16
+sentence: In the distal nerve branches large axons tend to be grouped together .
+
+ppatt:
+	In ?a ?b tend to be grouped together
+		?a: the distal nerve branches
+		?b: large axons
+
+
+label:    sent_17
+sentence: Fragile sites on chromosomes are points at which rearrangements tend to occur nonrandomly .
+
+ppatt:
+	?a are points
+		?a: Fragile sites on chromosomes
+	?a at ?b tend to occur nonrandomly
+		?a: points
+		?b: rearrangements
+
+
+label:    sent_18
+sentence: These extra profits attract newcomers so that profits tend to fall over time .
+
+ppatt:
+	?a attract ?b ?c
+		?a: These extra profits
+		?b: newcomers
+		?c: SOMETHING := so that profits tend to fall over time
+	so that ?a tend to fall over ?b
+		?a: profits
+		?b: time
+
+
+label:    sent_19
+sentence: Second , what individuals tend to be served in state mental hospitals today ? According to the model , phytochemicals tend to prevent germination at low seed densities .
+
+ppatt:
+	?a tend to be served in ?b today According to ?c
+		?a: what individuals
+		?b: state mental hospitals
+		?c: the model
+	Second , ?a tend to prevent ?b at ?c
+		?a: phytochemicals
+		?b: germination
+		?c: low seed densities
+
+
+label:    sent_20
+sentence: Family relations appear little satisfying even if over time they tend to improve .
+
+ppatt:
+	?a appear little satisfying
+		?a: Family relations
+	even if over ?a ?b tend to improve
+		?a: time
+		?b: they
+
+
+label:    sent_21
+sentence: Because of their positive charge the hydrogen bonds tend to repel holes .
+
+ppatt:
+	Because of ?a ?b tend to repel ?c
+		?a: their positive charge
+		?b: the hydrogen bonds
+		?c: holes
+
+
+label:    sent_22
+sentence: The lesions sometimes appear plaquelike and tend to ulcerate . Second-degree students are highly motivated and tend to excel academically .
+
+ppatt:
+	?a sometimes appear plaquelike
+		?a: The lesions
+	?a tend to ulcerate
+		?a: The lesions
+	?a are highly motivated
+		?a: Second-degree students
+	?a tend to excel academically
+		?a: Second-degree students
+
+
+label:    sent_23
+sentence: They are larger , tend to infiltrate , and are very aggressive neoplasms .
+
+ppatt:
+	?a are larger , tend to infiltrate
+		?a: They
+	?a are very aggressive neoplasms
+		?a: They
+
+
+label:    sent_24
+sentence: There is a high recurrence rate because lymphangiomas tend to infiltrate the surrounding tissues .
+
+ppatt:
+	There is ?a
+		?a: a high recurrence rate
+	?a tend to infiltrate ?b
+		?a: lymphangiomas
+		?b: the surrounding tissues
+
+
+label:    sent_25
+sentence: Advice for those who tend others with chronic disease : take care of yourself .
+
+ppatt:
+	?a tend ?b
+		?a: those
+		?b: others with chronic disease
+
+
+label:    sent_26
+sentence: These Formica workers then tend the Polyergus brood , workers , and reproductives .
+
+ppatt:
+	?a then tend ?b
+		?a: These Formica workers
+		?b: the Polyergus brood
+	?a then tend ?b
+		?a: These Formica workers
+		?b: workers
+	?a then tend ?b
+		?a: These Formica workers
+		?b: reproductives
+
+

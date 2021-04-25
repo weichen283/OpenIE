@@ -1,0 +1,227 @@
+label:    sent_1
+sentence: A successive rejection-based strategy is proposed to progressively lower the number of clutter responses . Obama budget aims to lower biologics exclusivity period .
+
+ppatt:
+	?a is proposed to progressively lower ?b
+		?a: A successive rejection-based strategy
+		?b: the number of clutter responses
+	?a aims to ?b
+		?a: Obama budget
+		?b: lower biologics exclusivity period
+
+
+label:    sent_2
+sentence: Methods to predict and lower the risk of prostate cancer .
+
+ppatt:
+	?a predict ?b
+		?a: Methods
+		?b: the risk of prostate cancer
+
+
+label:    sent_3
+sentence: Can dietary fructans lower serum glucose ? Crystalline systems often lower their energy by atom displacements from regular high-symmetry lattice sites .
+
+ppatt:
+	Can ?a ?b often lower ?c
+		?a: dietary fructans
+		?b: lower serum glucose ? Crystalline systems
+		?c: their energy by atom displacements from regular high-symmetry lattice sites
+
+
+label:    sent_4
+sentence: The use of a dual-energy single-phase study protocol will lower radiation exposure to patients .
+
+ppatt:
+	?a will lower ?b
+		?a: The use of a dual-energy single-phase study protocol
+		?b: radiation exposure to patients
+
+
+label:    sent_5
+sentence: How far to lower blood pressure in the long term , after a stroke ? It also seems to lower HIV-1 transmission compared to mixed feeding .
+
+ppatt:
+	How far ?a
+		?a: It
+	to ?a , after ?b ? ?c also seems to ?d
+		?a: lower blood pressure in the long term
+		?b: a stroke
+		?c: It
+		?d: lower HIV-1 transmission
+	?a compared to mixed feeding
+		?a: It
+
+
+label:    sent_6
+sentence: Travoprost seems to lower IOP by increasing trabecular outflow facility .
+
+ppatt:
+	?a seems to ?b
+		?a: Travoprost
+		?b: lower IOP
+	?a increasing ?b
+		?a: Travoprost
+		?b: trabecular outflow facility
+
+
+label:    sent_7
+sentence: Clinicians should be aware that following the DGA might not lower diabetes risk .
+
+ppatt:
+	?a should be aware ?b
+		?a: Clinicians
+		?b: SOMETHING := that following the DGA might not lower diabetes risk
+	following ?a might not lower diabetes risk
+		?a: the DGA
+
+
+label:    sent_8
+sentence: Intensive fishing can lower MeHg in food webs by increasing fish growth rate .
+
+ppatt:
+	?a can lower ?b in ?c
+		?a: Intensive fishing
+		?b: MeHg
+		?c: food webs
+	?a increasing ?b
+		?a: Intensive fishing
+		?b: fish growth rate
+
+
+label:    sent_9
+sentence: Only a few agents will lower LDL by at least 50 % . Pom1 autophosphorylates in this region to lower lipid affinity and promote membrane release .
+
+ppatt:
+	?a will lower ?b by ?c ?d to ?e
+		?a: Only a few agents
+		?b: LDL
+		?c: at least 50 %
+		?d: Pom1 autophosphorylates in this region
+		?e: lower lipid affinity
+	?a promote ?b
+		?a: Only a few agents
+		?b: membrane release
+
+
+label:    sent_10
+sentence: The peptide can broaden the transition and lower the transition enthalpy of dimyristoylphosphatidylglycerol .
+
+ppatt:
+	?a can broaden ?b
+		?a: The peptide
+		?b: the transition
+	?a can broaden ?b
+		?a: The peptide
+		?b: lower the transition enthalpy of dimyristoylphosphatidylglycerol
+
+
+label:    sent_11
+sentence: Abietic acid-treated foliage reduced consumption but did not lower relative growth rate .
+
+ppatt:
+	?a reduced ?b
+		?a: Abietic acid-treated foliage
+		?b: consumption
+	?a did ?b
+		?a: Abietic acid-treated foliage
+		?b: not lower relative growth rate
+
+
+label:    sent_12
+sentence: Our results showed that triptolide could lower the arthritic scores and increase TGF-beta level .
+
+ppatt:
+	?a showed ?b
+		?a: Our results
+		?b: SOMETHING := triptolide could lower the arthritic scores
+	?a could lower ?b
+		?a: triptolide
+		?b: the arthritic scores
+	?a increase ?b
+		?a: triptolide
+		?b: TGF-beta level
+
+
+label:    sent_13
+sentence: Low-molecular-weight heparin and bleeding : how do we lower risk but maintain benefit ? Alternative regimens may lower the incidence of haematological toxicities and maintain antitumour efficacy .
+
+ppatt:
+	maintain ?a
+		?a: benefit
+	?a may lower the incidence of ?b
+		?a: Alternative regimens
+		?b: haematological toxicities
+	?a maintain ?b
+		?a: Alternative regimens
+		?b: antitumour efficacy
+
+
+label:    sent_14
+sentence: As such , GLP-1 receptor agonists effectively lower blood glucose levels and reduce weight .
+
+ppatt:
+	As ?a , ?b effectively lower ?c
+		?a: such
+		?b: GLP-1 receptor agonists
+		?c: blood glucose levels
+	?a reduce ?b
+		?a: GLP-1 receptor agonists
+		?b: weight
+
+
+label:    sent_15
+sentence: In atherosclerosis , statins lower cholesterol and display some anti-inflammatory activity .
+
+ppatt:
+	display ?a
+		?a: some anti-inflammatory activity
+
+
+label:    sent_16
+sentence: In nonhypertensive individuals , dietary changes can lower BP and prevent hypertension .
+
+ppatt:
+	In ?a , ?b can lower ?c
+		?a: nonhypertensive individuals
+		?b: dietary changes
+		?c: BP
+	?a prevent ?b
+		?a: dietary changes
+		?b: hypertension
+
+
+label:    sent_17
+sentence: Those measures appeared to lower but not eliminate the occupational risk .
+
+ppatt:
+	?a appeared to lower
+		?a: Those measures
+	?a appeared to not eliminate ?b
+		?a: Those measures
+		?b: the occupational risk
+
+
+label:    sent_18
+sentence: They are routinely used after refractive surgeries to lower or prevent an inflammatory action .
+
+ppatt:
+	?a are routinely used after ?b to ?c
+		?a: They
+		?b: refractive surgeries
+		?c: lower
+	?a are routinely used after ?b to ?c
+		?a: They
+		?b: refractive surgeries
+		?c: prevent an inflammatory action
+	prevent ?a
+		?a: an inflammatory action
+
+
+label:    sent_19
+sentence: To lower or not to lower ?
+
+ppatt:
+
+
+

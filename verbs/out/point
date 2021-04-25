@@ -1,0 +1,287 @@
+label:    sent_1
+sentence: Pilot data point to a good effectiveness of the treatment .
+
+ppatt:
+	?a point to ?b
+		?a: Pilot data
+		?b: a good effectiveness of the treatment
+
+
+label:    sent_2
+sentence: Our results point toward the minipig being a promising species for cardiac safety research .
+
+ppatt:
+	?a point ?b
+		?a: Our results
+		?b: SOMETHING := toward the minipig being a promising species for cardiac safety research
+	toward ?a being a promising species for ?b
+		?a: the minipig
+		?b: cardiac safety research
+
+
+label:    sent_3
+sentence: Such observations are extremely important since they potentially point to underling etiological variations .
+
+ppatt:
+	?a are extremely important
+		?a: Such observations
+	?a potentially point to ?b
+		?a: they
+		?b: underling etiological variations
+
+
+label:    sent_4
+sentence: Children were asked to point to pictures representing each stimulus item . Tricritical point in explosive percolation .
+
+ppatt:
+	?a were asked to point to ?b
+		?a: Children
+		?b: pictures representing each stimulus item . Tricritical point in explosive percolation
+	?a representing ?b ?c
+		?a: pictures
+		?b: stimulus item
+		?c: each . Tricritical point in explosive percolation
+
+
+label:    sent_5
+sentence: Subjects had to point manually to the collision place at the correct time .
+
+ppatt:
+	?a had to point manually to ?b at ?c
+		?a: Subjects
+		?b: the collision place
+		?c: the correct time
+
+
+label:    sent_6
+sentence: The double lung point : an unusual sonographic sign of juvenile spontaneous pneumothorax .
+
+ppatt:
+
+
+
+label:    sent_7
+sentence: Extension of the distributed point source method for ultrasonic field modeling .
+
+ppatt:
+
+
+
+label:    sent_8
+sentence: Lung cancer : new developments point the way to reduced mortality .
+
+ppatt:
+
+
+
+label:    sent_9
+sentence: These favourable findings point to consider PRGF as a therapy for OA .
+
+ppatt:
+	?a point to consider ?b as ?c
+		?a: These favourable findings
+		?b: PRGF
+		?c: a therapy for OA
+
+
+label:    sent_10
+sentence: Use of computed tomography in the diagnosis of pelvic fractures -- a point to consider .
+
+ppatt:
+
+
+
+label:    sent_11
+sentence: We will point out that most concerns are invalid .
+
+ppatt:
+	?a will point out ?b
+		?a: We
+		?b: SOMETHING := most concerns are invalid
+	?a are invalid
+		?a: most concerns
+
+
+label:    sent_12
+sentence: This disparity may point to different arrhythmia mechanisms and may affect therapy strategies .
+
+ppatt:
+	?a may point to ?b
+		?a: This disparity
+		?b: different arrhythmia mechanisms
+	?a may affect ?b
+		?a: This disparity
+		?b: therapy strategies
+
+
+label:    sent_13
+sentence: We point out recent cases and summarise relevant EU and OECD documents .
+
+ppatt:
+	?a point ?b
+		?a: We
+		?b: out recent cases
+	?a summarise ?b
+		?a: We
+		?b: relevant EU
+	?a summarise ?b
+		?a: We
+		?b: OECD
+	?a summarise ?b
+		?a: We
+		?b: documents
+
+
+label:    sent_14
+sentence: Proponents point to two recent studies , but actually the sample sizes were small .
+
+ppatt:
+	?a point to ?b
+		?a: Proponents
+		?b: two recent studies
+	actually ?a were small
+		?a: the sample sizes
+
+
+label:    sent_15
+sentence: From point defects in graphene to two-dimensional amorphous carbon .
+
+ppatt:
+
+
+
+label:    sent_16
+sentence: We discuss the progress in this young field and point out the open issues .
+
+ppatt:
+	?a discuss ?b
+		?a: We
+		?b: the progress in this young field
+	?a point out ?b
+		?a: We
+		?b: the open issues
+
+
+label:    sent_17
+sentence: To point out the risk of bleeding during retropubic surgery in females .
+
+ppatt:
+	point out ?a
+		?a: the risk of bleeding during retropubic surgery in females
+
+
+label:    sent_18
+sentence: Our cases are unusual and point to a wider spectrum of such injuries . Between-study heterogeneity is important to document and may point to interesting leads .
+
+ppatt:
+	?a are unusual
+		?a: Our cases
+	?a point to ?b
+		?a: Our cases
+		?b: a wider spectrum of such injuries
+	?a is important to document
+		?a: Between-study heterogeneity
+	?a is important to may point
+		?a: Between-study heterogeneity
+	?a is important to to ?b leads
+		?a: Between-study heterogeneity
+		?b: interesting
+
+
+label:    sent_19
+sentence: These individual findings are nonspecific , but together point to a lymphoma .
+
+ppatt:
+	?a are nonspecific
+		?a: These individual findings
+	?a together point to ?b
+		?a: These individual findings
+		?b: a lymphoma
+
+
+label:    sent_20
+sentence: Denervation point for neuromuscular blockade on lateral pectoral nerves : a cadaver study . [Dual time point 18F-FDOPA PET as a tool for characterizing brain tumors ] . Geochemistry .
+
+ppatt:
+	?a characterizing ?b ?c
+		?a: a tool
+		?b: brain tumors
+		?c: ] . Geochemistry
+
+
+label:    sent_21
+sentence: Meteoritic clues point chromium toward Earth 's core . We point out potential pitfalls of phase-plate operation , and discuss solutions .
+
+ppatt:
+	?a point ?b
+		?a: Meteoritic clues
+		?b: chromium toward Earth 's core
+	?a point out ?b
+		?a: We
+		?b: potential pitfalls of phase-plate operation
+	?a discuss ?b
+		?a: We
+		?b: solutions
+
+
+label:    sent_22
+sentence: We also point out the destructive potential of humour , and categorize its misapplications .
+
+ppatt:
+	?a also point out ?b
+		?a: We
+		?b: the destructive potential of humour
+	?a categorize ?b
+		?a: We
+		?b: its misapplications
+
+
+label:    sent_23
+sentence: We point out the unusual endogenous hyperinsulinism , clinical features and postulate possible mechanisms .
+
+ppatt:
+	?a point out ?b
+		?a: We
+		?b: the unusual endogenous hyperinsulinism
+	?a is/are clinical features
+		?a: the unusual endogenous hyperinsulinism
+	?a postulate ?b
+		?a: We
+		?b: possible mechanisms
+
+
+label:    sent_24
+sentence: He defines the concept and point out its ambiguities .
+
+ppatt:
+	?a defines ?b
+		?a: He
+		?b: the concept
+	?a point out ?b
+		?a: He
+		?b: its ambiguities
+
+
+label:    sent_25
+sentence: It is shown that motorograms can point out seizure movements and emphasize epileptic patterns . EUS-assisted ERP : throw me a line or just point out the way ?
+
+ppatt:
+	?a is shown ?b
+		?a: It
+		?b: SOMETHING := motorograms can point out seizure movements . EUS-assisted ERP
+	?a can point out ?b ?c
+		?a: motorograms
+		?b: seizure movements
+		?c: EUS-assisted ERP
+	?a emphasize ?b
+		?a: motorograms
+		?b: epileptic patterns
+	?a throw ?b ?c
+		?a: It
+		?b: me
+		?c: a line
+	?a just point out ?b
+		?a: It
+		?b: the way
+
+

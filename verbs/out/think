@@ -1,0 +1,258 @@
+label:    sent_1
+sentence: 34 % of physicians think that off label use is risky . Social networking and the workplace : think before you post .
+
+ppatt:
+	?a think ?b
+		?a: 34 % of physicians
+		?b: SOMETHING := off label use is risky . Social networking and the workplace
+	off ?a is risky ?b
+		?a: label use
+		?b: Social networking
+	off ?a is risky ?b
+		?a: label use
+		?b: the workplace
+	?a think before ?b post
+		?a: 34 % of physicians
+		?b: you
+
+
+label:    sent_2
+sentence: Treatment of hepatic encephalopathy with rifaximin : more to think about . Metaphors we think with : the role of metaphor in reasoning .
+
+ppatt:
+	?a think about ?b
+		?a: Treatment of hepatic encephalopathy with rifaximin
+		?b: Metaphors
+	?a ?b think ?c ?d
+		?a: Treatment of hepatic encephalopathy with rifaximin : to think about . Metaphors
+		?b: we
+		?c: with
+		?d: the role of metaphor in reasoning
+
+
+label:    sent_3
+sentence: This work has changed the way we think about how brains develop .
+
+ppatt:
+	?a has changed ?b
+		?a: This work
+		?b: the way
+	?a think
+		?a: we
+	how ?a develop
+		?a: brains
+
+
+label:    sent_4
+sentence: We must think outside the box to understand nonadherence .
+
+ppatt:
+	?a must think outside ?b to understand ?c
+		?a: We
+		?b: the box
+		?c: nonadherence
+
+
+label:    sent_5
+sentence: How to think about stress-induced cardiomyopathy ? --Think " out of the box " ! And even then , we need to think about how to offer it . They also provide a simple way to think about the simulated dynamics . Recalcitrant generalized eruption and low alkaline phosphatase : think zinc .
+
+ppatt:
+	How to think about ?a ?b
+		?a: stress-induced cardiomyopathy
+		?b: we
+	How to think about ?a ?b
+		?a: --Think " out of the box " !
+		?b: we
+	even then , ?a need to think ?b
+		?a: we
+		?b: SOMETHING := They also provide a simple way to think about the simulated dynamics . Recalcitrant generalized eruption and low alkaline phosphatase : think zinc
+	?a how to offer ?b
+		?a: we
+		?b: it
+	?a also provide ?b
+		?a: They
+		?b: a simple way to think about the simulated dynamics . Recalcitrant generalized eruption and low alkaline phosphatase
+	?a think about ?b
+		?a: a simple way
+		?b: the simulated dynamics
+	?a think about ?b
+		?a: a simple way
+		?b: Recalcitrant generalized eruption
+	?a think ?b
+		?a: They
+		?b: zinc
+
+
+label:    sent_6
+sentence: The ' undertaking ' doctrine may not be what you think ! White v . Hepatocellular carcinoma without cirrhosis : think acute hepatic porphyrias and vice versa . What do physicians think of somatoform disorders ? Training in hospitals : what do GP specialist trainees think of workplace-based assessments ? Reduction of central line complications : think ' procedure ' before ' gadget ' . Emergence and spread of multi-drug resistant organisms : think globally and act locally . Infections/illnesses .
+
+ppatt:
+	?a may not be ?b
+		?a: The ' undertaking ' doctrine
+		?b: SOMETHING := what you think ! White v . Hepatocellular carcinoma without cirrhosis
+	?a ?b think ?c
+		?a: what
+		?b: you
+		?c: ! White v
+	?a ?b think ?c
+		?a: what
+		?b: you
+		?c: Hepatocellular carcinoma without cirrhosis
+	?a think ?b and vice versa ?c
+		?a: The ' undertaking ' doctrine
+		?b: acute hepatic porphyrias
+		?c: SOMETHING := What do physicians
+	?a do ?b
+		?a: What
+		?b: physicians
+	?a think of ?b ?c
+		?a: What
+		?b: somatoform disorders
+		?c: Training in hospitals
+	?a do
+		?a: what
+	?a think of ?b
+		?a: GP specialist trainees
+		?b: workplace-based assessments
+	?a think ?b
+		?a: GP specialist trainees
+		?b: procedure
+	?a think globally ?b
+		?a: GP specialist trainees
+		?b: Infections/illnesses
+	act locally ?a
+		?a: Infections/illnesses
+
+
+label:    sent_7
+sentence: Whooping cough--more common than we think ... and measles is still with us . During the process it became more and more clear how OTs think and act . England 's cancer plan needs an overhaul , think tank says . All participating investigators attributed much of their success to think tank participation .
+
+ppatt:
+	?a think ?b is still During ?c
+		?a: we
+		?b: ...
+		?c: the process
+	?a think ?b is still During ?c
+		?a: we
+		?b: measles
+		?c: the process
+	?a with ?b . ?c became more
+		?a: Whooping cough--more common than we think ... and measles is still During the process
+		?b: us
+		?c: it
+	how ?a think . 's ?b
+		?a: OTs
+		?b: England cancer plan
+	?a act
+		?a: OTs
+	?a needs ?b
+		?a: OTs
+		?b: an overhaul
+	?a think ?b
+		?a: OTs
+		?b: tank
+	?a says ?b
+		?a: OTs
+		?b: All participating investigators attributed much of their success to think tank participation
+	?a attributed much of ?b
+		?a: All participating investigators
+		?b: their success to think tank participation
+	?a think ?b
+		?a: their success
+		?b: tank participation
+
+
+label:    sent_8
+sentence: Attorney general issues subpoenas regarding think tank . Fluid intelligence is the ability to think flexibly and to understand abstract relations .
+
+ppatt:
+	?a subpoenas regarding think ?b ?c
+		?a: Attorney general issues
+		?b: tank
+		?c: SOMETHING := Fluid intelligence is the ability to think flexibly and to understand abstract relations
+	?a is the ability
+		?a: Fluid intelligence
+	?a think flexibly
+		?a: the ability
+	?a understand ?b
+		?a: Fluid intelligence
+		?b: abstract relations
+
+
+label:    sent_9
+sentence: All students were allowed 1 min to think and to record their answers .
+
+ppatt:
+	?a were allowed ?b to think
+		?a: All students
+		?b: 1 min
+	?a were allowed to to record ?b
+		?a: All students
+		?b: their answers
+
+
+label:    sent_10
+sentence: Permanent education : a tool to think and act in nursing work .
+
+ppatt:
+
+
+
+label:    sent_11
+sentence: How do homeless adolescents think of health and perceive their own health status ? Such a method allows students to think for themselves and develop confidence and responsibility . I can think of no better reason to support CISD and encourage its development .
+
+ppatt:
+	How do ?a
+		?a: homeless adolescents
+	?a think of ?b
+		?a: homeless adolescents
+		?b: health
+	?a perceive ?b
+		?a: homeless adolescents
+		?b: their own health status
+	?a allows ?b to think for ?c
+		?a: Such a method
+		?b: students
+		?c: themselves
+	?a allows to develop ?b
+		?a: Such a method
+		?b: confidence
+	?a allows to develop ?b
+		?a: Such a method
+		?b: responsibility
+	?a can think of ?b
+		?a: I
+		?b: no better reason to support CISD and encourage its development
+	?a support ?b
+		?a: no better reason
+		?b: CISD
+	encourage ?a
+		?a: its development
+
+
+label:    sent_12
+sentence: Find a quiet room and think about nursing . Eat , drink but think of tomorrow .
+
+ppatt:
+	Find ?a
+		?a: a quiet room
+	think about ?a
+		?a: nursing
+	Eat ?a
+		?a: drink
+	think of ?a
+		?a: tomorrow
+
+
+label:    sent_13
+sentence: We only have to take that quantum leap and think in new ways .
+
+ppatt:
+	?a only have to take ?b
+		?a: We
+		?b: quantum leap
+	?a only have to that think in ?b
+		?a: We
+		?b: new ways
+
+

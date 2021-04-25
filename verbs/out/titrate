@@ -1,0 +1,243 @@
+label:    sent_1
+sentence: Contact sensing provides a highly accurate means to titrate radiofrequency ablation lesion depth .
+
+ppatt:
+	?a provides ?b
+		?a: Contact sensing
+		?b: a highly accurate means to titrate radiofrequency ablation lesion depth
+	?a titrate ?b
+		?a: a highly accurate means
+		?b: radiofrequency ablation lesion depth
+
+
+label:    sent_2
+sentence: Evidence suggests support for protocols to carefully titrate sedation .
+
+ppatt:
+	?a suggests ?b
+		?a: Evidence
+		?b: support for protocols to carefully titrate sedation
+	?a carefully titrate ?b
+		?a: support for protocols
+		?b: sedation
+
+
+label:    sent_3
+sentence: These protons serve to titrate HCO3-. They request and titrate drug levels according to their own identification of symptom distress .
+
+ppatt:
+	?a serve to titrate ?b ?c
+		?a: These protons
+		?b: HCO3-.
+		?c: SOMETHING := They request drug levels according to their own identification of symptom distress
+	?a request ?b according to ?c
+		?a: They
+		?b: drug levels
+		?c: their own identification of symptom distress
+	?a titrate
+		?a: They
+
+
+label:    sent_4
+sentence: Patients appear to titrate dosage to symptoms on any given day . BIS could be useful to titrate propofol infusion during the anhepatic phase of OLT .
+
+ppatt:
+	?a appear to titrate ?b
+		?a: Patients
+		?b: dosage to symptoms on any given day
+	?a could be useful to titrate ?b during ?c
+		?a: BIS
+		?b: propofol infusion
+		?c: the anhepatic phase of OLT
+
+
+label:    sent_5
+sentence: These NK-cell functions are controlled by cell-surface receptors that titrate stimulatory and inhibitory signals .
+
+ppatt:
+	?a are controlled by ?b
+		?a: These NK-cell functions
+		?b: cell-surface receptors that titrate stimulatory and inhibitory signals
+	?a titrate ?b
+		?a: cell-surface receptors
+		?b: stimulatory and inhibitory signals
+
+
+label:    sent_6
+sentence: Hyaluronic acid nanoparticles titrate the viscoelastic properties of viscosupplements .
+
+ppatt:
+	?a titrate ?b
+		?a: Hyaluronic acid nanoparticles
+		?b: the viscoelastic properties of viscosupplements
+
+
+label:    sent_7
+sentence: Recently , machines that automatically titrate the effective nCPAP pressure have become available . beta-Adrenergic agonists are rapid acting and easy to titrate , with short elimination half-life .
+
+ppatt:
+	?a automatically titrate ?b
+		?a: machines
+		?b: the effective nCPAP pressure
+	Recently , ?a have become available
+		?a: machines that automatically titrate the effective nCPAP pressure
+	?a are rapid acting to titrate , with ?b
+		?a: beta-Adrenergic agonists
+		?b: short elimination half-life
+
+
+label:    sent_8
+sentence: Efforts to titrate to smaller doses were not attempted .
+
+ppatt:
+	?a titrate to ?b
+		?a: Efforts
+		?b: smaller doses
+	?a were not attempted
+		?a: Efforts to titrate to smaller doses
+
+
+label:    sent_9
+sentence: Stimulus dosing with ECT : to titrate or not to titrate --that is the question .
+
+ppatt:
+	?a titrate
+		?a: Stimulus dosing with ECT
+	?a not to titrate ?b
+		?a: Stimulus dosing with ECT
+		?b: --that
+	?a is the question
+		?a: Stimulus dosing with ECT : to titrate or not to titrate --that
+
+
+label:    sent_10
+sentence: Initiate therapy with a low dosage , and titrate judiciously .
+
+ppatt:
+	Initiate ?a
+		?a: therapy with a low dosage
+	?a titrate judiciously
+		?a: therapy with a low dosage
+
+
+label:    sent_11
+sentence: The triplet resonances titrate with a midpoint potential of +380 +/- 10 mV .
+
+ppatt:
+	?a titrate with ?b
+		?a: The triplet resonances
+		?b: a midpoint potential of +380 +/- 10 mV
+
+
+label:    sent_12
+sentence: The resonances from the lysyl epsilon-CH2 protons titrate with a pK of 10.95 .
+
+ppatt:
+	?a titrate with ?b
+		?a: The resonances from the lysyl epsilon-CH2 protons
+		?b: a pK of 10.95
+
+
+label:    sent_13
+sentence: Lys and Tyr would normally titrate in the pH range 6-9 .
+
+ppatt:
+	?a would normally titrate in ?b
+		?a: Lys
+		?b: the pH range 6-9
+	?a would normally titrate in ?b
+		?a: Tyr
+		?b: the pH range 6-9
+
+
+label:    sent_14
+sentence: [How to titrate rocuronium under specific conditions ] . Patients titrate dose against response .
+
+ppatt:
+	?a titrate ?b under ?c
+		?a: [How
+		?b: rocuronium
+		?c: specific conditions
+	?a ?b titrate ?c
+		?a: [How to titrate rocuronium under specific conditions
+		?b: Patients
+		?c: dose against response
+
+
+label:    sent_15
+sentence: Evaluation of the Healthdyne NightWatch system to titrate CPAP in the home .
+
+ppatt:
+	?a titrate ?b in ?c
+		?a: Evaluation of the Healthdyne NightWatch system
+		?b: CPAP
+		?c: the home
+
+
+label:    sent_16
+sentence: Fourteen clinicians load methadone and titrate down to minimize adverse effects while maintaining analgesia .
+
+ppatt:
+	?a load ?b
+		?a: Fourteen clinicians
+		?b: methadone
+	?a titrate ?b to minimize ?c
+		?a: Fourteen clinicians
+		?b: down
+		?c: adverse effects
+	?a maintaining ?b
+		?a: Fourteen clinicians
+		?b: analgesia
+
+
+label:    sent_17
+sentence: These data could be relevant to titrate and personalize both treatments and preventive interventions . Patients and physicians were allowed to titrate , augment , and/or discontinue treatment .
+
+ppatt:
+	?a could be relevant to titrate ?b
+		?a: These data
+		?b: treatments
+	?a could be relevant to titrate ?b
+		?a: These data
+		?b: preventive interventions
+	?a could be relevant to personalize
+		?a: These data
+	?a were allowed to titrate ?b
+		?a: Patients
+		?b: treatment
+	?a were allowed to titrate ?b
+		?a: physicians
+		?b: treatment
+	?a were allowed to augment
+		?a: Patients
+	?a were allowed to augment
+		?a: physicians
+	?a were allowed to discontinue
+		?a: Patients
+	?a were allowed to discontinue
+		?a: physicians
+
+
+label:    sent_18
+sentence: Denatured proteins either titrate the molecular chaperones or activate the protease .
+
+ppatt:
+	?a either titrate ?b
+		?a: Denatured proteins
+		?b: the molecular chaperones
+	?a activate ?b
+		?a: Denatured proteins
+		?b: the protease
+
+
+label:    sent_19
+sentence: Model-based respiratory mechanics to titrate PEEP and monitor disease state for experimental ARDS subjects .
+
+ppatt:
+	?a titrate ?b
+		?a: Model-based respiratory mechanics
+		?b: PEEP
+	monitor ?a
+		?a: disease state for experimental ARDS subjects
+
+

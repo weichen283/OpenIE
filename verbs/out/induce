@@ -1,0 +1,325 @@
+label:    sent_1
+sentence: Multiple studies have shown that phenytoin can promote wound healing and induce faster fibrosis .
+
+ppatt:
+	?a have shown ?b
+		?a: Multiple studies
+		?b: SOMETHING := phenytoin can promote wound healing
+	?a can promote ?b
+		?a: phenytoin
+		?b: wound healing
+	?a induce ?b
+		?a: phenytoin
+		?b: faster fibrosis
+
+
+label:    sent_2
+sentence: Chemokines proved able to induce release of enzymes relevant in cartilage damage .
+
+ppatt:
+	?a proved able to induce ?b
+		?a: Chemokines
+		?b: release of enzymes relevant in cartilage damage
+
+
+label:    sent_3
+sentence: Forty female Wistar rats were submitted to ovariectomy ( OVX ) to induce osteopenia .
+
+ppatt:
+	?a were submitted to ?b to induce ?c
+		?a: Forty female Wistar rats
+		?b: ovariectomy
+		?c: osteopenia
+	?a is/are OVX
+		?a: ovariectomy
+
+
+label:    sent_4
+sentence: The interstitial C defects in ZnO clusters induce small magnetic moments .
+
+ppatt:
+	?a induce ?b
+		?a: The interstitial C defects in ZnO clusters
+		?b: small magnetic moments
+
+
+label:    sent_5
+sentence: These carbon radicals induce cross-linking of neighboring molecular chains . Plasmacytoid DCs induce gutsy plasma cells .
+
+ppatt:
+	?a induce ?b
+		?a: These carbon radicals
+		?b: cross-linking of neighboring molecular chains
+	?a induce ?b
+		?a: Plasmacytoid DCs
+		?b: gutsy plasma cells
+
+
+label:    sent_6
+sentence: Other NPs may induce allergic sensitization , i.e. allergic contact dermatitis to Pd . Due to chronotropic and inotropic activity it may induce fetal tachycardia and/or extrasystolic beats .
+
+ppatt:
+	?a may induce ?b . Due to ?c
+		?a: Other NPs
+		?b: allergic sensitization , i.e. allergic contact dermatitis to Pd
+		?c: chronotropic
+	?a may induce ?b . Due to ?c
+		?a: Other NPs
+		?b: allergic sensitization , i.e. allergic contact dermatitis to Pd
+		?c: inotropic
+	?a may induce ?b
+		?a: it
+		?b: fetal tachycardia
+	?a may induce ?b
+		?a: it
+		?b: extrasystolic beats
+
+
+label:    sent_7
+sentence: How leaky gut and endotoxemia induce bacterial infection in cirrhosis and gastrointestinal hemorrhage ?
+
+ppatt:
+	How ?a induce ?b
+		?a: leaky gut
+		?b: bacterial infection in cirrhosis and gastrointestinal hemorrhage
+	How ?a induce ?b
+		?a: endotoxemia
+		?b: bacterial infection in cirrhosis and gastrointestinal hemorrhage
+
+
+label:    sent_8
+sentence: The HC and RDS work synergistically to induce lung injury in ELBW infants . Kavalactones Yangonin and Methysticin induce apoptosis in human hepatocytes ( HepG2 ) in vitro .
+
+ppatt:
+	?a work synergistically to induce ?b
+		?a: The HC
+		?b: lung injury in ELBW infants
+	?a work synergistically to induce ?b
+		?a: RDS
+		?b: lung injury in ELBW infants
+	?a induce ?b in ?c in vitro
+		?a: Kavalactones
+		?b: apoptosis
+		?c: human hepatocytes
+	?a is/are HepG2
+		?a: human hepatocytes
+
+
+label:    sent_9
+sentence: We attempted to induce bone marrow mesenchymal stromal cells ( BMSC ) into RPC .
+
+ppatt:
+	?a attempted to induce ?b into ?c
+		?a: We
+		?b: bone marrow mesenchymal stromal cells
+		?c: RPC
+	?a is/are BMSC
+		?a: bone marrow mesenchymal stromal cells
+
+
+label:    sent_10
+sentence: MPER-specific antibodies induce gp120 shedding and irreversibly neutralize HIV-1 .
+
+ppatt:
+	?a induce ?b
+		?a: MPER-specific antibodies
+		?b: gp120 shedding
+	?a irreversibly neutralize ?b
+		?a: MPER-specific antibodies
+		?b: HIV-1
+
+
+label:    sent_11
+sentence: Anticholinergic drugs often induce delirium in demented patients and therefore should be avoided .
+
+ppatt:
+	?a often induce ?b
+		?a: Anticholinergic drugs
+		?b: delirium in demented patients
+	?a therefore should be avoided
+		?a: Anticholinergic drugs
+
+
+label:    sent_12
+sentence: They also induce muscle relaxation , control epileptic seizures , and can produce amnesia .
+
+ppatt:
+	?a also induce ?b
+		?a: They
+		?b: muscle relaxation
+	?a control ?b
+		?a: They
+		?b: epileptic seizures
+	?a can produce ?b
+		?a: They
+		?b: amnesia
+
+
+label:    sent_13
+sentence: The metyloxantine easily crosses the blood-placenta barrier , and may induce intrauterine growth retardation .
+
+ppatt:
+	?a easily crosses ?b
+		?a: The metyloxantine
+		?b: the blood-placenta barrier
+	?a may induce ?b
+		?a: The metyloxantine
+		?b: intrauterine growth retardation
+
+
+label:    sent_14
+sentence: Additionally , HIIT causes oxidative stress but did not induce a significant postexercise lymphocytopenia .
+
+ppatt:
+	Additionally , ?a causes ?b
+		?a: HIIT
+		?b: oxidative stress
+	?a did not induce ?b
+		?a: HIIT
+		?b: a significant postexercise lymphocytopenia
+
+
+label:    sent_15
+sentence: TSA was also shown to induce IKK dephosphorylation and to suppress NF-kappaB reporter activity .
+
+ppatt:
+	?a was also shown to induce ?b
+		?a: TSA
+		?b: IKK dephosphorylation
+	?a was also shown to to suppress ?b
+		?a: TSA
+		?b: NF-kappaB reporter activity
+
+
+label:    sent_16
+sentence: In preeclampsia endogenous cardiotonic steroids induce vascular fibrosis and impair relaxation of umbilical arteries . SWNTs can induce B-A transition for GC-DNA but AT-DNA resisted the transition .
+
+ppatt:
+	In ?a ?b induce ?c
+		?a: preeclampsia
+		?b: endogenous cardiotonic steroids
+		?c: vascular fibrosis
+	?a impair ?b
+		?a: endogenous cardiotonic steroids
+		?b: relaxation of umbilical arteries
+	?a can induce ?b
+		?a: SWNTs
+		?b: B-A transition for GC-DNA
+	?a resisted ?b
+		?a: AT-DNA
+		?b: the transition
+
+
+label:    sent_17
+sentence: Corticosteroids induce apoptosis in and suppress proliferation of airway epithelial cells in culture . ATM activates cell-cycle checkpoints and can induce apoptosis in response to DNA DSBs .
+
+ppatt:
+	?a induce ?b in ?c
+		?a: Corticosteroids
+		?b: apoptosis
+		?c: proliferation of airway epithelial cells in culture
+	?a suppress
+		?a: Corticosteroids
+	?a activates ?b
+		?a: ATM
+		?b: cell-cycle checkpoints
+	?a can induce ?b in ?c
+		?a: ATM
+		?b: apoptosis
+		?c: response to DNA DSBs
+
+
+label:    sent_18
+sentence: Many HAAs are carcinogenic and induce tumors at multiple sites in rodents .
+
+ppatt:
+	?a are carcinogenic
+		?a: Many HAAs
+	?a induce ?b at ?c
+		?a: Many HAAs
+		?b: tumors
+		?c: multiple sites in rodents
+
+
+label:    sent_19
+sentence: These have the disadvantages that they are expensive and/or induce radiation to the patient . Dexamethasone can induce HUVECs to release EMPs in vitro .
+
+ppatt:
+	?a have ?b
+		?a: These
+		?b: the disadvantages that they are expensive and/or induce radiation to the patient . Dexamethasone can induce HUVECs to release EMPs in vitro
+	?a are expensive
+		?a: they
+	?a induce ?b to ?c
+		?a: they
+		?b: radiation
+		?c: the patient
+	?a can induce ?b to release ?c in vitro
+		?a: Dexamethasone
+		?b: HUVECs
+		?c: EMPs
+
+
+label:    sent_20
+sentence: Costimulatory blockade with monoclonal antibodies to induce alloanergy in donor lymphocytes .
+
+ppatt:
+	?a induce ?b
+		?a: Costimulatory blockade with monoclonal antibodies
+		?b: alloanergy in donor lymphocytes
+
+
+label:    sent_21
+sentence: Moreover , starvation can induce vegetative cells to differentiate into quiescent cysts .
+
+ppatt:
+	Moreover , ?a can induce ?b to differentiate into ?c
+		?a: starvation
+		?b: vegetative cells
+		?c: quiescent cysts
+
+
+label:    sent_22
+sentence: Their capacity to induce and sustain diverse T-cell responses underpins protective immunity .
+
+ppatt:
+	?a induce ?b
+		?a: Their capacity
+		?b: diverse T-cell responses
+	?a sustain
+		?a: Their capacity
+	?a underpins ?b
+		?a: Their capacity to induce and sustain diverse T-cell responses
+		?b: protective immunity
+
+
+label:    sent_23
+sentence: This mechanism is held responsible to induce and maintain chronic itch and pain conditions .
+
+ppatt:
+	?a is held responsible to induce ?b
+		?a: This mechanism
+		?b: chronic itch
+	?a is held responsible to induce ?b
+		?a: This mechanism
+		?b: pain
+	?a is held responsible to induce ?b
+		?a: This mechanism
+		?b: conditions
+	?a is held responsible to maintain
+		?a: This mechanism
+
+
+label:    sent_24
+sentence: Thus , strategies to induce or inhibit angiogenesis are of considerable therapeutic interest .
+
+ppatt:
+	?a induce ?b
+		?a: strategies
+		?b: angiogenesis
+	?a inhibit
+		?a: strategies
+	Thus , ?a are of considerable therapeutic interest
+		?a: strategies to induce or inhibit angiogenesis
+
+

@@ -1,0 +1,350 @@
+label:    sent_1
+sentence: Chemical post-modifications also allow to significantly modify the film properties .
+
+ppatt:
+	?a also allow to significantly modify ?b
+		?a: Chemical post-modifications
+		?b: the film properties
+
+
+label:    sent_2
+sentence: They may also help the surgeon plan and modify the procedure if possible . SNPs are known to modify susceptibility to complex diseases .
+
+ppatt:
+	?a may also help ?b
+		?a: They
+		?b: the surgeon plan
+	?a modify ?b
+		?a: They
+		?b: the procedure
+	possible ?a
+		?a: SNPs
+	?a are known to modify ?b
+		?a: SNPs
+		?b: susceptibility to complex diseases
+
+
+label:    sent_3
+sentence: Gender did not modify the results . Bosentan did not significantly modify these parameters .
+
+ppatt:
+	?a did not modify ?b
+		?a: Gender
+		?b: the results
+	?a did not significantly modify ?b
+		?a: Bosentan
+		?b: these parameters
+
+
+label:    sent_4
+sentence: Likewise , memory , aging , and AD modify 5-HT6 receptors and signaling cascades .
+
+ppatt:
+	Likewise , ?a modify ?b
+		?a: memory
+		?b: 5-HT6 receptors
+	Likewise , ?a modify ?b
+		?a: aging
+		?b: 5-HT6 receptors
+	Likewise , ?a modify ?b
+		?a: AD
+		?b: 5-HT6 receptors
+	Likewise , ?a modify ?b
+		?a: memory
+		?b: signaling cascades
+	Likewise , ?a modify ?b
+		?a: aging
+		?b: signaling cascades
+	Likewise , ?a modify ?b
+		?a: AD
+		?b: signaling cascades
+
+
+label:    sent_5
+sentence: In conclusion , broilers modify their feeding behaviour according to the prevailing light schedule .
+
+ppatt:
+	In ?a , ?b modify ?c according to ?d
+		?a: conclusion
+		?b: broilers
+		?c: their feeding behaviour
+		?d: the prevailing light schedule
+
+
+label:    sent_6
+sentence: Genetic engineering of flavonoid pigments to modify flower color in floricultural plants .
+
+ppatt:
+	?a modify ?b
+		?a: Genetic engineering of flavonoid pigments
+		?b: flower color in floricultural plants
+
+
+label:    sent_7
+sentence: Addition of voice prompts does neither modify CPR quality nor outcome in OHCA .
+
+ppatt:
+	?a prompts ?b
+		?a: Addition of voice
+		?b: SOMETHING := does neither modify CPR quality nor outcome in OHCA
+	?a does neither modify ?b
+		?a: Addition of voice
+		?b: CPR quality in OHCA
+	?a does neither modify ?b
+		?a: Addition of voice
+		?b: outcome
+
+
+label:    sent_8
+sentence: Persistent traditions could , theoretically , modify selection pressures and influence genetic evolution .
+
+ppatt:
+	?a could , theoretically , modify ?b
+		?a: Persistent traditions
+		?b: selection pressures
+	?a influence ?b
+		?a: Persistent traditions
+		?b: genetic evolution
+
+
+label:    sent_9
+sentence: Supplementation with FPP did not modify alpha-tocopherol depletion but significantly improved redox balance parameters .
+
+ppatt:
+	?a did not modify ?b
+		?a: Supplementation with FPP
+		?b: alpha-tocopherol depletion
+	?a significantly improved ?b
+		?a: Supplementation with FPP
+		?b: redox balance parameters
+
+
+label:    sent_10
+sentence: Sensory experience during development can modify the CNS and alter adult perceptual skills .
+
+ppatt:
+	?a can modify ?b
+		?a: Sensory experience during development
+		?b: the CNS
+	?a alter ?b
+		?a: Sensory experience during development
+		?b: adult perceptual skills
+
+
+label:    sent_11
+sentence: Liver cirrhosis increased CGRP release , but did not modify cGMP formation .
+
+ppatt:
+	?a increased ?b
+		?a: Liver cirrhosis
+		?b: CGRP release
+	?a did not modify ?b
+		?a: Liver cirrhosis
+		?b: cGMP formation
+
+
+label:    sent_12
+sentence: P2X7 receptors trigger ATP exocytosis and modify secretory vesicle dynamics in neuroblastoma cells .
+
+ppatt:
+	?a trigger ?b
+		?a: P2X7 receptors
+		?b: ATP exocytosis
+	?a modify ?b
+		?a: P2X7 receptors
+		?b: secretory vesicle dynamics in neuroblastoma cells
+
+
+label:    sent_13
+sentence: LPS treatment is known to modify the expression of some transporters and induce cholestasis .
+
+ppatt:
+	?a is known to modify ?b
+		?a: LPS treatment
+		?b: the expression of some transporters
+	?a is known to induce ?b
+		?a: LPS treatment
+		?b: cholestasis
+
+
+label:    sent_14
+sentence: More research is needed to identify interventions that can modify behavior in clinical settings .
+
+ppatt:
+	?a is needed to identify ?b
+		?a: More research
+		?b: interventions that can modify behavior in clinical settings
+	?a can modify ?b
+		?a: interventions
+		?b: behavior in clinical settings
+
+
+label:    sent_15
+sentence: Two genotype-dependent effects appear to modify community structure in this system .
+
+ppatt:
+	?a appear to modify ?b in ?c
+		?a: Two genotype-dependent effects
+		?b: community structure
+		?c: this system
+
+
+label:    sent_16
+sentence: Intraoperative imaging was found to modify surgery in a substantial number of patients .
+
+ppatt:
+	?a was found to modify ?b in ?c
+		?a: Intraoperative imaging
+		?b: surgery
+		?c: a substantial number of patients
+
+
+label:    sent_17
+sentence: For example , secreted CEH may modify lipoproteins and affect their interactions with cells .
+
+ppatt:
+	For ?a , ?b may modify ?c
+		?a: example
+		?b: secreted CEH
+		?c: lipoproteins
+	?a affect ?b
+		?a: secreted CEH
+		?b: their interactions with cells
+
+
+label:    sent_18
+sentence: During apoptotic cell death , biochemical processes modify self-proteins and create potential autoantigens .
+
+ppatt:
+	During ?a , ?b modify ?c
+		?a: apoptotic cell death
+		?b: biochemical processes
+		?c: self-proteins
+	?a create ?b
+		?a: biochemical processes
+		?b: potential autoantigens
+
+
+label:    sent_19
+sentence: These reactive aldehydes can structurally modify proteins by covalent interaction and inhibit enzyme function .
+
+ppatt:
+	?a can structurally modify ?b by ?c
+		?a: These reactive aldehydes
+		?b: proteins
+		?c: covalent interaction
+	?a inhibit ?b
+		?a: These reactive aldehydes
+		?b: enzyme function
+
+
+label:    sent_20
+sentence: Hypnosis has been shown to modify and reduce the intensity of itching as well .
+
+ppatt:
+	?a has been shown to modify ?b
+		?a: Hypnosis
+		?b: the intensity of itching
+	?a has been shown to reduce as well
+		?a: Hypnosis
+
+
+label:    sent_21
+sentence: Humic acid ( HA ) is widely used to modify and stabilize colloid suspensions .
+
+ppatt:
+	?a is/are HA
+		?a: Humic acid
+	?a is widely used to modify ?b
+		?a: Humic acid
+		?b: colloid suspensions
+	?a is widely used to stabilize
+		?a: Humic acid
+
+
+label:    sent_22
+sentence: We aim to modify and apply this tool to advanced laparoscopic operations .
+
+ppatt:
+	?a aim to modify ?b to ?c
+		?a: We
+		?b: this tool
+		?c: advanced laparoscopic operations
+	?a aim to apply
+		?a: We
+
+
+label:    sent_23
+sentence: Cocaine did not substitute for morphine or modify LCR compared with saline control .
+
+ppatt:
+	?a did not substitute for ?b
+		?a: Cocaine
+		?b: morphine
+	?a modify ?b
+		?a: Cocaine
+		?b: LCR
+	?a compared with saline control
+		?a: Cocaine
+
+
+label:    sent_24
+sentence: New therapies are under investigation and should modify treatment paradigms in the future .
+
+ppatt:
+	?a are under investigation
+		?a: New therapies
+	?a should modify ?b in ?c
+		?a: New therapies
+		?b: treatment paradigms
+		?c: the future
+
+
+label:    sent_25
+sentence: Serum triglycerides are correlated with PCSK9 and modify risk prediction by PCSK9 .
+
+ppatt:
+	?a are correlated with ?b
+		?a: Serum triglycerides
+		?b: PCSK9
+	?a modify ?b
+		?a: Serum triglycerides
+		?b: risk prediction by PCSK9
+
+
+label:    sent_26
+sentence: To perform segmentation , we novelly modify and extend active shape model method .
+
+ppatt:
+	perform ?a ?b
+		?a: segmentation
+		?b: we
+	?a novelly modify ?b
+		?a: we
+		?b: active shape model method
+	?a extend
+		?a: we
+
+
+label:    sent_27
+sentence: These data modify and extend previous ideas of the organization of spinal white matter .
+
+ppatt:
+	?a modify ?b
+		?a: These data
+		?b: previous ideas of the organization of spinal white matter
+	?a extend
+		?a: These data
+
+
+label:    sent_28
+sentence: Sympathectomy with 6-OHDA did not modify nor abolish ouabain toxicity .
+
+ppatt:
+	?a did not modify ?b
+		?a: Sympathectomy with 6-OHDA
+		?b: ouabain toxicity
+	?a abolish
+		?a: Sympathectomy with 6-OHDA
+
+

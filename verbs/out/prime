@@ -1,0 +1,124 @@
+label:    sent_1
+sentence: Clinical trials using aAPC-expanded or -activated NK cells are underway , one using leukemic cell line CTV-1 to prime and activate NK cells without significant expansion .
+
+ppatt:
+	?a using ?b
+		?a: Clinical trials
+		?b: aAPC-expanded or -activated NK cells
+	?a are underway ?b
+		?a: Clinical trials using aAPC-expanded or -activated NK cells
+		?b: one using leukemic cell line CTV-1 to prime and activate NK cells without significant expansion
+	?a using ?b
+		?a: one
+		?b: leukemic cell line CTV-1
+	prime ?a without ?b
+		?a: NK cells
+		?b: significant expansion
+	activate ?a
+		?a: NK cells
+
+
+label:    sent_2
+sentence: Studies so far have shown that the treatment of dendritic cells ( DCs ) with a TLR3 ligand , polyinosinic-polycytidylicacid [ Poly ( I : C ) ] , may be an appropriate activation agent for obtaining mature MoDCs , competent to prime effective immune responses .
+
+ppatt:
+	?a so far have shown ?b
+		?a: Studies
+		?b: SOMETHING := the treatment of dendritic cells with a TLR3 ligand , may be an appropriate activation agent for obtaining mature MoDCs , competent to prime effective immune responses
+	?a is/are DCs
+		?a: dendritic cells
+	?a is/are polyinosinic-polycytidylicacid [ Poly
+		?a: a TLR3 ligand
+	?a is/are I : C
+		?a: polyinosinic-polycytidylicacid [ Poly
+	?a is/are ]
+		?a: a TLR3 ligand
+	?a may be an appropriate activation agent
+		?a: the treatment of dendritic cells with a TLR3 ligand
+	?a obtaining ?b
+		?a: an appropriate activation agent
+		?b: mature MoDCs competent to prime effective immune responses
+	prime ?a
+		?a: effective immune responses
+
+
+label:    sent_3
+sentence: Exposure to these antigens by means of a TST may prime an immune response that leads to a false-positive result in a subsequent IGRA , limiting the validity of IGRAs in patients in whom these tests are performed sequentially .
+
+ppatt:
+	?a may prime ?b
+		?a: Exposure to these antigens by means of a TST
+		?b: an immune response that leads to a false-positive result in a subsequent IGRA
+	?a leads to ?b
+		?a: an immune response
+		?b: a false-positive result in a subsequent IGRA
+	?a limiting ?b
+		?a: Exposure to these antigens by means of a TST
+		?b: the validity of IGRAs in patients in whom these tests are performed sequentially
+	?a in ?b ?c are performed sequentially
+		?a: patients
+		?b: whom
+		?c: these tests
+
+
+label:    sent_4
+sentence: To evaluate the effects exerted by the chondrocytic culture condition on AMSC , we utilized chondrocyte conditioned medium ( CM ) and/or co-culture methods to prime and differentiate AMSCs .
+
+ppatt:
+	evaluate ?a ?b
+		?a: the effects exerted by the chondrocytic culture condition on AMSC
+		?b: we
+	?a exerted by ?b
+		?a: the effects
+		?b: the chondrocytic culture condition on AMSC
+	?a utilized ?b
+		?a: we
+		?b: chondrocyte conditioned medium
+	?a utilized ?b
+		?a: we
+		?b: co-culture methods
+	?a is/are CM
+		?a: chondrocyte conditioned medium
+	?a is/are CM
+		?a: co-culture methods
+	?a prime ?b
+		?a: we
+		?b: AMSCs
+	?a differentiate
+		?a: we
+
+
+label:    sent_5
+sentence: Arousal-related inputs are known to prime amygdaloid mechanisms for fear and anxiety , with resultant social avoidance .
+
+ppatt:
+	?a are known to prime ?b , with ?c
+		?a: Arousal-related inputs
+		?b: amygdaloid mechanisms for fear and anxiety
+		?c: resultant social avoidance
+
+
+label:    sent_6
+sentence: Stable incorporation of SF-1 into embryonic stem cells ( SF-1-ES cells ) has been shown to prime the cells for steroidogenesis .
+
+ppatt:
+	?a is/are SF-1-ES cells
+		?a: embryonic stem cells
+	?a has been shown to prime ?b for ?c
+		?a: Stable incorporation of SF-1 into embryonic stem cells
+		?b: the cells
+		?c: steroidogenesis
+
+
+label:    sent_7
+sentence: The RRV-LV could also be used to infect human mDC and to prime a human T cell immune response .
+
+ppatt:
+	?a could also be used to infect ?b
+		?a: The RRV-LV
+		?b: human mDC
+	?a could also be used to to prime ?b
+		?a: The RRV-LV
+		?b: a human T cell immune response
+
+

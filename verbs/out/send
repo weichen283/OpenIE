@@ -1,0 +1,239 @@
+label:    sent_1
+sentence: The majority of surgeons send small fragments of tissue from the surgical defect cavity .
+
+ppatt:
+	?a send ?b
+		?a: The majority of surgeons
+		?b: small fragments of tissue from the surgical defect cavity
+
+
+label:    sent_2
+sentence: This indicates that virtually all SPN neurons send their axons into the pelvic nerve .
+
+ppatt:
+	?a indicates ?b
+		?a: This
+		?b: SOMETHING := virtually all SPN neurons send their axons into the pelvic nerve
+	?a send ?b into ?c
+		?a: virtually all SPN neurons
+		?b: their axons
+		?c: the pelvic nerve
+
+
+label:    sent_3
+sentence: Second , God may send sickness as a punishment for the sufferer 's sins . Nurses were also requested to send ADR reports to the Italian Pharmacovigilance System .
+
+ppatt:
+	Second , ?a may send ?b as ?c
+		?a: God
+		?b: sickness
+		?c: a punishment for the sufferer 's sins
+	?a were also requested to send ?b to ?c
+		?a: Nurses
+		?b: ADR reports
+		?c: the Italian Pharmacovigilance System
+
+
+label:    sent_4
+sentence: Union disputes plan to send ailing workers to India for cheaper medical care .
+
+ppatt:
+	?a plan to send ?b to India for ?c
+		?a: Union disputes
+		?b: ailing workers
+		?c: cheaper medical care
+
+
+label:    sent_5
+sentence: Physicians were asked to send their samples to a laboratory for genotyping .
+
+ppatt:
+	?a were asked to send ?b to ?c
+		?a: Physicians
+		?b: their samples
+		?c: a laboratory for genotyping
+
+
+label:    sent_6
+sentence: She wanted to send the whole artefact off secretly but obviously did not succeed . . . . and do n't send her back ! These neurons innervate the central body neuropil and send processes into the central neuropil .
+
+ppatt:
+	?a wanted to send ?b
+		?a: She
+		?b: the whole artefact
+	?a wanted to off secretly obviously did not succeed
+		?a: She
+	?a do n't send ?b
+		?a: She
+		?b: her back
+	?a innervate ?b
+		?a: These neurons
+		?b: the central body neuropil
+	?a send ?b
+		?a: These neurons
+		?b: processes into the central neuropil
+
+
+label:    sent_7
+sentence: Full member registries send individual records of all congenital anomalies covered by their region .
+
+ppatt:
+	?a send ?b
+		?a: Full member registries
+		?b: individual records of all congenital anomalies covered by their region
+	?a covered by ?b
+		?a: all congenital anomalies
+		?b: their region
+
+
+label:    sent_8
+sentence: About 10 % of DCs never send follow-up clinical information to referring doctors .
+
+ppatt:
+	?a never send ?b to ?c
+		?a: About 10 % of DCs
+		?b: follow-up clinical information
+		?c: referring doctors
+
+
+label:    sent_9
+sentence: Federal antitrust agencies send mixed signals to PPOs .
+
+ppatt:
+	?a send ?b to ?c
+		?a: Federal antitrust agencies
+		?b: mixed signals
+		?c: PPOs
+
+
+label:    sent_10
+sentence: Then they turn caudally and send branches laterally . Palpitations and dizziness in a 64-year-old man : reassure and send him home . ( 2 ) E-messaging made it easy to be proactive and send information .
+
+ppatt:
+	Then ?a turn caudally
+		?a: they
+	?a send ?b laterally
+		?a: they
+		?b: branches . Palpitations and dizziness in a 64-year-old man
+	?a reassure ?b
+		?a: they
+		?b: him home
+	?a send
+		?a: they
+	?a made ?b easy to be proactive
+		?a: E-messaging
+		?b: it
+	?a made easy to be send ?b
+		?a: E-messaging
+		?b: information
+
+
+label:    sent_11
+sentence: Participants were asked to give anonymous information and send it back per mail .
+
+ppatt:
+	?a were asked to give ?b
+		?a: Participants
+		?b: anonymous information
+	?a were asked to send ?b back per ?c
+		?a: Participants
+		?b: it
+		?c: mail
+
+
+label:    sent_12
+sentence: These tend to send off waves not only in the normal direction of propagation .
+
+ppatt:
+	?a tend to send off ?b in ?c
+		?a: These
+		?b: waves
+		?c: not only the normal direction of propagation
+
+
+label:    sent_13
+sentence: Both MPNs are located in the esophageal nerve and send processes to the STG .
+
+ppatt:
+	?a are located in ?b
+		?a: Both MPNs
+		?b: the esophageal nerve
+	?a send ?b
+		?a: Both MPNs
+		?b: processes to the STG
+
+
+label:    sent_14
+sentence: Sixty percent of them where send by a physician after failure of medical treatment .
+
+ppatt:
+	?a where send by ?b after ?c
+		?a: Sixty percent of them
+		?b: a physician
+		?c: failure of medical treatment
+
+
+label:    sent_15
+sentence: Four kinds of carelessness that can send you to court .
+
+ppatt:
+	?a can send ?b to ?c
+		?a: Four kinds of carelessness
+		?b: you
+		?c: court
+
+
+label:    sent_16
+sentence: In all cases sample was send to histological examination .
+
+ppatt:
+	In ?a ?b was send to ?c
+		?a: all cases
+		?b: sample
+		?c: histological examination
+
+
+label:    sent_17
+sentence: These brainstem regions send inhibitory projections to the spine and produce diffuse analgesic responses .
+
+ppatt:
+	?a send ?b
+		?a: These brainstem regions
+		?b: inhibitory projections to the spine
+	?a produce ?b
+		?a: These brainstem regions
+		?b: diffuse analgesic responses
+
+
+label:    sent_18
+sentence: Such policies send a powerful message , but are the underlying assumptions defensible ? Please send your comments and critique to : kqinc @ aol.com Guineaworm : send in the fish . All 31 Norwegian hospital trusts were asked to send in such guidelines .
+
+ppatt:
+	?a send ?b
+		?a: Such policies
+		?b: a powerful message
+	?a send ?b
+		?a: Please
+		?b: your comments
+	?a critique
+		?a: Please
+	?a send in ?b
+		?a: Please
+		?b: the fish
+	?a were asked to send in ?b
+		?a: All 31 Norwegian hospital trusts
+		?b: such guidelines
+
+
+label:    sent_19
+sentence: The decision to send to hospital was taken at this point .
+
+ppatt:
+	?a send to ?b
+		?a: The decision
+		?b: hospital
+	?a was taken at ?b
+		?a: The decision to send to hospital
+		?b: this point
+
+

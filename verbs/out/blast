@@ -1,0 +1,54 @@
+label:    sent_1
+sentence: These educational objectives are categorized into five thematic areas : 1 ) disaster systems , 2 ) triage/medical assessment , 3 ) blast and burn injuries , 4 ) chemical agents , and 5 ) biological agents .
+
+ppatt:
+	?a are categorized into ?b
+		?a: These educational objectives
+		?b: five thematic areas
+
+
+label:    sent_2
+sentence: TUNEL-positive cells were predominant in the white matter of the brain at day 1 after blast and double-labeling of brain tissue showed that these DNA-damaged cells were both oligodendrocytes and astrocytes but were mainly not apoptotic due to the low caspase-3 immunopositivity .
+
+ppatt:
+	?a were predominant in ?b
+		?a: TUNEL-positive cells
+		?b: the white matter of the brain at day 1 after blast
+	?a showed ?b due to ?c
+		?a: double-labeling of brain tissue
+		?b: SOMETHING := these DNA-damaged cells were oligodendrocytes
+		?c: SOMETHING := the low caspase-3 immunopositivity
+	?a were both oligodendrocytes
+		?a: these DNA-damaged cells
+	?a astrocytes
+		?a: these DNA-damaged cells
+	?a were mainly not apoptotic
+		?a: double-labeling of brain tissue
+	?a due to the low caspase-3 immunopositivity
+		?a: double-labeling of brain tissue
+
+
+label:    sent_3
+sentence: Nucleic acid sequence was blast in GenBank and phylogenetic tree was constructed using neighbor-joining method of distance methods by Mega3.1 soft .
+
+ppatt:
+	?a was blast in ?b
+		?a: Nucleic acid sequence
+		?b: GenBank
+	?a was constructed using ?b
+		?a: phylogenetic tree
+		?b: neighbor-joining method of distance methods by Mega3.1 soft
+
+
+label:    sent_4
+sentence: The DNA sequence was blast with cdtABC gene from GenBank and 99 % homology was obtained .
+
+ppatt:
+	?a was blast with ?b from ?c
+		?a: The DNA sequence
+		?b: cdtABC gene
+		?c: GenBank
+	?a was obtained
+		?a: 99 % homology
+
+

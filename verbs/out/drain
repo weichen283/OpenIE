@@ -1,0 +1,241 @@
+label:    sent_1
+sentence: He was taken for emergent scrotal exploration to drain the presumptive pyocele .
+
+ppatt:
+	?a was taken for ?b to drain ?c
+		?a: He
+		?b: emergent scrotal exploration
+		?c: the presumptive pyocele
+
+
+label:    sent_2
+sentence: Five patients required surgery to drain an abdominal abscess .
+
+ppatt:
+	?a required ?b to drain ?c
+		?a: Five patients
+		?b: surgery
+		?c: an abdominal abscess
+
+
+label:    sent_3
+sentence: The patient was submitted to thoracotomy in order to drain the infected fluids . Intestinal contents drain from the body via the C-seal .
+
+ppatt:
+	?a was submitted to ?b
+		?a: The patient
+		?b: thoracotomy
+	?a order to drain ?b
+		?a: The patient
+		?b: the infected fluids
+	?a drain from ?b via ?c
+		?a: Intestinal contents
+		?b: the body
+		?c: the C-seal
+
+
+label:    sent_4
+sentence: Melanomas located anywhere below the knee can drain to the popliteal fossa . In 1 patient , postoperative leakage around the nephrostomy drain occurred but resolved spontaneously .
+
+ppatt:
+	?a can drain to ?b
+		?a: Melanomas located anywhere below the knee
+		?b: the popliteal fossa
+	In ?a , ?b occurred
+		?a: 1 patient
+		?b: postoperative leakage around the nephrostomy drain
+	?a resolved spontaneously
+		?a: postoperative leakage around the nephrostomy drain
+
+
+label:    sent_5
+sentence: Reduction in external ventricular drain infection rate . Minimally invasive chest drain insertion in children . Extraventricular drain infection .
+
+ppatt:
+
+
+
+label:    sent_6
+sentence: Post-pneumonectomy thoracic drainage : to drain or not to drain ? A retrospective study . Hepatic trauma : to drain or not to drain ? The lymph was then allowed to drain by gravity .
+
+ppatt:
+	?a drain ? to drain
+		?a: Post-pneumonectomy thoracic drainage
+	?a not to drain ?b
+		?a: Post-pneumonectomy thoracic drainage
+		?b: A retrospective study
+	?a is/are Hepatic trauma
+		?a: A retrospective study
+	?a drain ? to not to drain
+		?a: Post-pneumonectomy thoracic drainage
+	?a ?b was then allowed to drain by ?c
+		?a: Post-pneumonectomy thoracic drainage : to drain or not to drain ? A retrospective study : to drain or not to drain
+		?b: The lymph
+		?c: gravity
+
+
+label:    sent_7
+sentence: Several options are available to drain the renal pelvis after a dysmembered pyeloplasty .
+
+ppatt:
+	?a are available to drain ?b after ?c
+		?a: Several options
+		?b: the renal pelvis
+		?c: a dysmembered pyeloplasty
+
+
+label:    sent_8
+sentence: Is it necessary to drain all postoperative fluid collections after appendectomy for perforated appendicitis ?
+
+ppatt:
+	Is ?a necessary to drain ?b after ?c
+		?a: it
+		?b: all postoperative fluid collections
+		?c: appendectomy for perforated appendicitis
+
+
+label:    sent_9
+sentence: The technique was successfully used in two patients to drain abscesses in the cul-de-sac .
+
+ppatt:
+	?a was successfully used in ?b
+		?a: The technique
+		?b: two patients to drain abscesses in the cul-de-sac
+	?a drain ?b
+		?a: two patients
+		?b: abscesses in the cul-de-sac
+
+
+label:    sent_10
+sentence: A tube was used to drain the rumen and prevent bloat during the procedure .
+
+ppatt:
+	?a was used to drain ?b
+		?a: A tube
+		?b: the rumen
+	?a was used to prevent ?b during ?c
+		?a: A tube
+		?b: bloat
+		?c: the procedure
+
+
+label:    sent_11
+sentence: Repeated lumbar punctures were done to drain CSF and to reduce pressure .
+
+ppatt:
+	?a were done to drain ?b
+		?a: Repeated lumbar punctures
+		?b: CSF
+	?a were done to to reduce ?b
+		?a: Repeated lumbar punctures
+		?b: pressure
+
+
+label:    sent_12
+sentence: All the lesions were approached stereotactically to get biopsies and/or to drain cystic lesions .
+
+ppatt:
+	?a were approached stereotactically to get ?b
+		?a: All the lesions
+		?b: biopsies
+	?a were approached stereotactically to to drain ?b
+		?a: All the lesions
+		?b: cystic lesions
+
+
+label:    sent_13
+sentence: Fight AIDS as well as the brain drain .
+
+ppatt:
+
+
+
+label:    sent_14
+sentence: Accordance between the veins and the glandular parts they drain is described . Economic analysis of brain drain .
+
+ppatt:
+	?a drain
+		?a: they
+	?a is described ?b
+		?a: Accordance between the veins and the glandular parts
+		?b: Economic analysis of brain drain
+
+
+label:    sent_15
+sentence: Both these systems mostly drain themselves into internal jugular veins .
+
+ppatt:
+	?a mostly drain ?b into ?c
+		?a: Both these systems
+		?b: themselves
+		?c: internal jugular veins
+
+
+label:    sent_16
+sentence: Predictive factors associated with prolonged chest drain production after esophagectomy .
+
+ppatt:
+	?a associated with ?b
+		?a: Predictive factors
+		?b: prolonged chest drain production after esophagectomy
+
+
+label:    sent_17
+sentence: Suction drain retention sutures in the closure of the acute burst abdomen .
+
+ppatt:
+
+
+
+label:    sent_18
+sentence: They drain into arcuate and interlobar vessels and then into hilar lymphatics .
+
+ppatt:
+	?a drain into ?b
+		?a: They
+		?b: arcuate
+	?a drain into ?b
+		?a: They
+		?b: interlobar
+	?a drain into ?b
+		?a: They
+		?b: then hilar lymphatics
+
+
+label:    sent_19
+sentence: Tumour-produced VEGF-C can also drain to the regional lymph nodes and induce lymphangiogenesis there .
+
+ppatt:
+	?a can also drain to ?b
+		?a: Tumour-produced VEGF-C
+		?b: the regional lymph nodes
+	induce ?a ?b
+		?a: lymphangiogenesis
+		?b: there
+
+
+label:    sent_20
+sentence: To drain or not to drain in laparoscopic cholecystectomy : rationale and technique .
+
+ppatt:
+
+
+
+label:    sent_21
+sentence: To drain or not to drain in thyroid surgery .
+
+ppatt:
+
+
+
+label:    sent_22
+sentence: Simple renal cysts can spontaneously rupture and drain into the adjacent renal collecting system .
+
+ppatt:
+	?a can spontaneously rupture into ?b
+		?a: Simple renal cysts
+		?b: the adjacent renal collecting system
+	?a drain
+		?a: Simple renal cysts
+
+

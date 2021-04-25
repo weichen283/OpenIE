@@ -1,0 +1,179 @@
+label:    sent_1
+sentence: How to compact DNA .
+
+ppatt:
+
+
+
+label:    sent_2
+sentence: The H1 from rat thymus has a minimum ability to compact DNA .
+
+ppatt:
+	?a has ?b
+		?a: The H1 from rat thymus
+		?b: a minimum ability to compact DNA
+	?a compact ?b
+		?a: a minimum ability
+		?b: DNA
+
+
+label:    sent_3
+sentence: Vibration is commonly used in civil engineering applications to efficiently compact aggregates . InXy and SeXy , compact heterologous reporter proteins for mammalian cells .
+
+ppatt:
+	?a is commonly used in ?b
+		?a: Vibration
+		?b: civil engineering applications to efficiently compact aggregates
+	?a is/are compact heterologous reporter proteins for ?b
+		?a: InXy
+		?b: mammalian cells
+	?a is/are compact heterologous reporter proteins for ?b
+		?a: SeXy
+		?b: mammalian cells
+
+
+label:    sent_4
+sentence: Histones package and compact DNA by assembling into nucleosome core particles . Specialized domains concatenate and compact VWF during biosynthesis .
+
+ppatt:
+	?a ?b concatenate ?c during ?d
+		?a: Histones
+		?b: Specialized domains
+		?c: compact VWF
+		?d: biosynthesis
+
+
+label:    sent_5
+sentence: This raises further questions on how can we compact Pseudomonas infections .
+
+ppatt:
+	?a raises ?b
+		?a: This
+		?b: further questions on how can we compact Pseudomonas infections
+	?a how can ?b compact ?c
+		?a: further questions
+		?b: we
+		?c: Pseudomonas infections
+
+
+label:    sent_6
+sentence: Eukaryotic cells must first compact their chromosomes before faithfully segregating them during cell division .
+
+ppatt:
+	?a must first compact ?b
+		?a: Eukaryotic cells
+		?b: their chromosomes
+	?a faithfully segregating ?b during ?c
+		?a: Eukaryotic cells
+		?b: them
+		?c: cell division
+
+
+label:    sent_7
+sentence: Crenarchaeal chromatin proteins Cren7 and Sul7 compact DNA by inducing rigid bends .
+
+ppatt:
+	?a inducing ?b
+		?a: Crenarchaeal chromatin proteins
+		?b: rigid bends
+
+
+label:    sent_8
+sentence: A probabilistic approach to compact steady-state kinetic equations for enzymic reactions .
+
+ppatt:
+	?a compact ?b
+		?a: A probabilistic approach
+		?b: steady-state kinetic equations for enzymic reactions
+
+
+label:    sent_9
+sentence: This traction may compact the thickened trabecular beams , obstructing aqueous humor outflow . Noncollagenous proteins of rat compact bone .
+
+ppatt:
+	?a may compact ?b
+		?a: This traction
+		?b: the thickened trabecular beams
+	?a obstructing ?b ?c
+		?a: This traction
+		?b: aqueous humor outflow
+		?c: Noncollagenous proteins of rat compact bone
+
+
+label:    sent_10
+sentence: During mitotic prophase , chromosomes progressively compact to their metaphase length .
+
+ppatt:
+	During ?a , ?b progressively compact to ?c
+		?a: mitotic prophase
+		?b: chromosomes
+		?c: their metaphase length
+
+
+label:    sent_11
+sentence: Our results provide mechanistic insights into how nucleosomes compact into higher-order chromatin fibers .
+
+ppatt:
+	?a provide ?b
+		?a: Our results
+		?b: mechanistic insights into how nucleosomes compact into higher-order chromatin fibers
+	?a how ?b compact into ?c
+		?a: mechanistic insights
+		?b: nucleosomes
+		?c: higher-order chromatin fibers
+
+
+label:    sent_12
+sentence: Multi-state licensure compact for nurses . Histone deacetylases ( HDACs ) compact chromatin structure and repress gene transcription .
+
+ppatt:
+	?a is/are HDACs
+		?a: Histone deacetylases
+	?a compact ?b
+		?a: Multi-state licensure compact for nurses . Histone deacetylases
+		?b: chromatin structure
+	?a repress ?b
+		?a: Multi-state licensure compact for nurses . Histone deacetylases
+		?b: gene transcription
+
+
+label:    sent_13
+sentence: Chromosome territories in multipotent myeloid precursor cells appeared homogeneously stained and compact .
+
+ppatt:
+	?a appeared homogeneously stained
+		?a: Chromosome territories in multipotent myeloid precursor cells
+
+
+label:    sent_14
+sentence: They constitute areas of chromatin that fail to compact during mitosis .
+
+ppatt:
+	?a constitute ?b
+		?a: They
+		?b: areas of chromatin that fail to compact during mitosis
+	?a fail to compact during ?b
+		?a: chromatin
+		?b: mitosis
+
+
+label:    sent_15
+sentence: The matrix structure changed from loose to compact with increasing EC concentration .
+
+ppatt:
+	?a changed from ?b to ?c with ?d
+		?a: The matrix structure
+		?b: loose
+		?c: compact
+		?d: increasing EC concentration
+
+
+label:    sent_16
+sentence: Both adhere to the embryonic cells and subsequently compact with the embryos .
+
+ppatt:
+	?a adhere to ?b
+		?a: Both
+		?b: the embryonic cells
+
+

@@ -1,0 +1,148 @@
+label:    sent_1
+sentence: To market , to market ! : Riding shotgun with the tomato man . Go for awareness , not demand , to market a hospice . How to market planned giving .
+
+ppatt:
+	?a Riding ?b
+		?a: market !
+		?b: shotgun with the tomato man
+	To ?a , to ?b . Go for ?c to market ?d
+		?a: market
+		?b: market ! : Riding shotgun with the tomato man
+		?c: awareness
+		?d: a hospice
+	?a is/are not demand
+		?a: awareness
+
+
+label:    sent_2
+sentence: The fair market value compensation for clinicians . Using information technology market differentiator .
+
+ppatt:
+	?a Using ?b
+		?a: The fair market value compensation for clinicians
+		?b: information technology market differentiator
+
+
+label:    sent_3
+sentence: An effective way to market yourself .
+
+ppatt:
+	?a market ?b
+		?a: An effective way
+		?b: yourself
+
+
+label:    sent_4
+sentence: The time is ripe for nutritionists to market their expertise in the corporate setting .
+
+ppatt:
+	?a is ripe for ?b to market ?c
+		?a: The time
+		?b: nutritionists
+		?c: their expertise in the corporate setting
+
+
+label:    sent_5
+sentence: Admitters market their hospitals to physicians ' staffs . A need to market nursing 's ' usefulness ' as a profession .
+
+ppatt:
+	?a market ?b ?c
+		?a: Admitters
+		?b: their hospitals to physicians ' staffs
+		?c: A need to market nursing 's ' usefulness ' as a profession
+	?a market 's ?b as ?c
+		?a: A need
+		?b: nursing ' usefulness
+		?c: a profession
+
+
+label:    sent_6
+sentence: Companies eye slice of age-related macular degeneration market .
+
+ppatt:
+
+
+
+label:    sent_7
+sentence: Health shocks , employment and income in the Spanish labour market .
+
+ppatt:
+	?a is/are employment
+		?a: Health shocks , in the Spanish labour market
+
+
+label:    sent_8
+sentence: Is the online drugs market putting patients at risk ? The U.S. health care economy : from guild to market in ten years . To market , to market . To market to market ... . How does a pharmaceutical company market such a product ? [ Survey on the illicit drug market in Cotonou , Benin in March 2003 ] . The elderly market for nurse practitioner services .
+
+ppatt:
+	Is ?a
+		?a: the online drugs market putting patients at risk : from guild to market in ten years . To market , to market . To market to market ...
+	?a putting ?b from ?c to ?d To ?e To ?f
+		?a: the online drugs market
+		?b: patients at risk
+		?c: guild
+		?d: market in ten years
+		?e: market , to market
+		?f: market to market ...
+	How does ?a [ ?b
+		?a: a pharmaceutical company market such a product
+		?b: Survey on the illicit drug market in Cotonou , Benin in March 2003 ]
+	?a is/are The elderly market for ?b
+		?a: in Cotonou , Benin in March 2003 ]
+		?b: nurse practitioner services
+
+
+label:    sent_9
+sentence: Institutions , health shocks and labour market outcomes across Europe .
+
+ppatt:
+
+
+
+label:    sent_10
+sentence: Centers must market their services more competitively to consumers in the private sector .
+
+ppatt:
+	?a must market ?b more competitively to ?c
+		?a: Centers
+		?b: their services
+		?c: consumers in the private sector
+
+
+label:    sent_11
+sentence: Marriage and labor market discrimination in Japan . Buyers guide and market analysis .
+
+ppatt:
+	?a guide ?b
+		?a: Marriage in Japan . Buyers
+		?b: market analysis
+	?a guide ?b
+		?a: labor market discrimination
+		?b: market analysis
+
+
+label:    sent_12
+sentence: Buyers guide and market analysis .
+
+ppatt:
+	?a guide ?b
+		?a: Buyers
+		?b: market analysis
+
+
+label:    sent_13
+sentence: Buyers guide and market analysis .
+
+ppatt:
+	?a guide ?b
+		?a: Buyers
+		?b: market analysis
+
+
+label:    sent_14
+sentence: Extended wear soft contact lenses : to market or not to market .
+
+ppatt:
+
+
+

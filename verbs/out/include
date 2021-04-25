@@ -1,0 +1,323 @@
+label:    sent_1
+sentence: Suggested interventions include poverty alleviation , medical education and psychosocial strategies .
+
+ppatt:
+	?a include ?b
+		?a: Suggested interventions
+		?b: poverty alleviation
+	?a include ?b
+		?a: Suggested interventions
+		?b: medical education
+	?a include ?b
+		?a: Suggested interventions
+		?b: psychosocial strategies
+
+
+label:    sent_2
+sentence: Scenarios for standardised simulated patients should include different types of claimants .
+
+ppatt:
+	?a should include ?b
+		?a: Scenarios for standardised simulated patients
+		?b: different types of claimants
+
+
+label:    sent_3
+sentence: Combinatorial strategies which include physical rehabilitation are beginning to yield promising results .
+
+ppatt:
+	?a include ?b
+		?a: Combinatorial strategies
+		?b: physical rehabilitation
+	?a are beginning to yield ?b
+		?a: Combinatorial strategies which include physical rehabilitation
+		?b: promising results
+
+
+label:    sent_4
+sentence: The authors extended their concept of multi-resolution superposition to include kernel tilting .
+
+ppatt:
+	?a extended ?b
+		?a: The authors
+		?b: their concept of multi-resolution superposition to include kernel tilting
+	?a include ?b
+		?a: multi-resolution superposition
+		?b: kernel tilting
+
+
+label:    sent_5
+sentence: Data comprise video records of a collection of family mealtimes that include preschool children .
+
+ppatt:
+	?a comprise ?b
+		?a: Data
+		?b: video records of a collection of family mealtimes that include preschool children
+	?a include ?b
+		?a: family mealtimes
+		?b: preschool children
+
+
+label:    sent_6
+sentence: This speller uses event-related potentials ( ERPs ) that include the P300 ERP .
+
+ppatt:
+	?a uses ?b
+		?a: This speller
+		?b: event-related potentials that include the P300 ERP
+	?a is/are ERPs
+		?a: event-related potentials that include the P300 ERP
+	?a include ?b
+		?a: event-related potentials
+		?b: the P300 ERP
+
+
+label:    sent_7
+sentence: Training for endotracheal intubation must also include training in the verification methods .
+
+ppatt:
+	?a must also include ?b
+		?a: Training for endotracheal intubation
+		?b: training in the verification methods
+
+
+label:    sent_8
+sentence: Kidney biopsy protocols should include EM in all biopsy cases .
+
+ppatt:
+	?a should include ?b in ?c
+		?a: Kidney biopsy protocols
+		?b: EM
+		?c: all biopsy cases
+
+
+label:    sent_9
+sentence: The scope of economic evaluations should also include health effects in significant others .
+
+ppatt:
+	?a should also include ?b in ?c
+		?a: The scope of economic evaluations
+		?b: health effects
+		?c: significant others
+
+
+label:    sent_10
+sentence: Prospective AED trials should include validated scales to systematically identify neuropsychiatric complications of AEDs .
+
+ppatt:
+	?a should include ?b to systematically identify ?c
+		?a: Prospective AED trials
+		?b: validated scales
+		?c: neuropsychiatric complications of AEDs
+
+
+label:    sent_11
+sentence: These speech system level variables include speaking rate and intelligibility of speech . Safety end points include major and minor bleeding . SISA return values do not include person identifiers and need no explicit informed consent .
+
+ppatt:
+	?a include ?b
+		?a: These speech system level variables
+		?b: speaking rate of speech
+	?a include ?b
+		?a: These speech system level variables
+		?b: intelligibility
+	?a include ?b
+		?a: Safety end points
+		?b: major
+	?a include ?b
+		?a: Safety end points
+		?b: minor
+	?a do not include ?b
+		?a: SISA return values
+		?b: person identifiers
+	?a need ?b
+		?a: SISA return values
+		?b: no explicit informed consent
+
+
+label:    sent_12
+sentence: Controversially discussed solutions include wildlife-friendly farming or combining high-intensity farming with land-sparing for nature .
+
+ppatt:
+	?a include ?b
+		?a: Controversially discussed solutions
+		?b: wildlife-friendly farming
+	?a include ?b
+		?a: Controversially discussed solutions
+		?b: combining
+
+
+label:    sent_13
+sentence: The predilection sites include the entire anogenital skin and less often the axillary region .
+
+ppatt:
+	?a include ?b
+		?a: The predilection sites
+		?b: the entire anogenital skin
+	?a include ?b
+		?a: The predilection sites
+		?b: less often the axillary region
+
+
+label:    sent_14
+sentence: Masses of the lateral skull are not uncommon and include lipomas and epidermoids .
+
+ppatt:
+	?a are not uncommon
+		?a: Masses of the lateral skull
+	?a include ?b
+		?a: Masses of the lateral skull
+		?b: lipomas
+	?a include ?b
+		?a: Masses of the lateral skull
+		?b: epidermoids
+
+
+label:    sent_15
+sentence: Ophthalmologic complications of malnutrition are rare but include both oculomotor and visual sensory disturbances .
+
+ppatt:
+	?a are rare
+		?a: Ophthalmologic complications of malnutrition
+	?a include ?b
+		?a: Ophthalmologic complications of malnutrition
+		?b: both oculomotor and visual sensory disturbances
+
+
+label:    sent_16
+sentence: The clinical manifestations of neurosyphilis are protean , and include acute stroke .
+
+ppatt:
+	?a are protean
+		?a: The clinical manifestations of neurosyphilis
+	?a include ?b
+		?a: The clinical manifestations of neurosyphilis
+		?b: acute stroke
+
+
+label:    sent_17
+sentence: The endocrine community has to include ACTH assays among those requiring standardization .
+
+ppatt:
+	?a has to include ?b among ?c
+		?a: The endocrine community
+		?b: ACTH assays
+		?c: those requiring standardization
+	?a requiring ?b
+		?a: those
+		?b: standardization
+
+
+label:    sent_18
+sentence: To the observation include the patient with TSH level below 0,4 uU/ml in sreening .
+
+ppatt:
+	To ?a include ?b
+		?a: the observation
+		?b: the patient with TSH level below 0,4 uU/ml in sreening
+
+
+label:    sent_19
+sentence: Health professionals need to include family caregivers in the overall patient care plan .
+
+ppatt:
+	?a need to include ?b in ?c
+		?a: Health professionals
+		?b: family caregivers
+		?c: the overall patient care plan
+
+
+label:    sent_20
+sentence: Defective units would include children not fully immunized and beyond the age of immunization .
+
+ppatt:
+	?a would include ?b
+		?a: Defective units
+		?b: children not fully immunized and beyond the age of immunization
+	?a not fully immunized
+		?a: children
+
+
+label:    sent_21
+sentence: At times , these resections can include the skull and even the underlying dura .
+
+ppatt:
+	At ?a , ?b can include ?c
+		?a: times
+		?b: these resections
+		?c: the skull
+	At ?a , ?b can include ?c
+		?a: times
+		?b: these resections
+		?c: even the underlying dura
+
+
+label:    sent_22
+sentence: They include re-excitation among themselves and with the optic lobes .
+
+ppatt:
+	?a include ?b
+		?a: They
+		?b: re-excitation among themselves and with the optic lobes
+
+
+label:    sent_23
+sentence: Several studies include or focus on critically ill patients .
+
+ppatt:
+	?a include on ?b
+		?a: Several studies
+		?b: critically ill patients
+	?a focus
+		?a: Several studies
+
+
+label:    sent_24
+sentence: The main clinical patterns include solid-coloured and eclipse naevi .
+
+ppatt:
+	?a include ?b
+		?a: The main clinical patterns
+		?b: solid-coloured
+	?a include ?b
+		?a: The main clinical patterns
+		?b: eclipse
+
+
+label:    sent_25
+sentence: More data include three year , postoperative complications and so on . Its advantages include atraumaticity and good tolerability by the patients .
+
+ppatt:
+	?a include ?b
+		?a: More data
+		?b: three year
+	?a is/are postoperative complications
+		?a: three year
+	so on ?a include ?b
+		?a: Its advantages
+		?b: atraumaticity by the patients
+	so on ?a include ?b
+		?a: Its advantages
+		?b: good
+
+
+label:    sent_26
+sentence: Antifungal treatment modalities basically include in therapy for suspected or proven infection and prophylaxis .
+
+ppatt:
+	?a basically include in ?b
+		?a: Antifungal treatment modalities
+		?b: therapy for suspected or proven infection and prophylaxis
+
+
+label:    sent_27
+sentence: All forms of mental disease include to the same extent , anxiety .
+
+ppatt:
+	?a include to ?b
+		?a: All forms of mental disease
+		?b: the same extent
+	?a is/are anxiety
+		?a: the same extent
+
+

@@ -1,0 +1,308 @@
+label:    sent_1
+sentence: Numerous policy documents recommend that ACP should be available to all with life-limiting illness .
+
+ppatt:
+	?a recommend ?b
+		?a: Numerous policy documents
+		?b: SOMETHING := ACP should be available to all with life-limiting illness
+	?a should be available to ?b
+		?a: ACP
+		?b: all with life-limiting illness
+
+
+label:    sent_2
+sentence: We recommend to further study nanoparticles in the characterisation of cigarette smoke .
+
+ppatt:
+	?a recommend to further study ?b in ?c
+		?a: We
+		?b: nanoparticles
+		?c: the characterisation of cigarette smoke
+
+
+label:    sent_3
+sentence: We also recommend that frequent biochemical monitoring should be performed in such patients .
+
+ppatt:
+	?a also recommend ?b
+		?a: We
+		?b: SOMETHING := frequent biochemical monitoring should be performed in such patients
+	?a should be performed in ?b
+		?a: frequent biochemical monitoring
+		?b: such patients
+
+
+label:    sent_4
+sentence: We , therefore , recommend a full pilot study to validate the findings .
+
+ppatt:
+	?a therefore , recommend ?b to validate ?c
+		?a: We
+		?b: a full pilot study
+		?c: the findings
+
+
+label:    sent_5
+sentence: We recommend the use of this approach in environmental and biomedical research . ERC 2005 guidelines recommend the use of technical devices to support rescuers giving compressions .
+
+ppatt:
+	?a recommend ?b
+		?a: We
+		?b: the use of this approach in environmental and biomedical research
+	?a recommend ?b
+		?a: ERC 2005 guidelines
+		?b: the use of technical devices to support rescuers giving compressions
+	?a support ?b
+		?a: the use of technical devices
+		?b: rescuers giving compressions
+	?a giving ?b
+		?a: rescuers
+		?b: compressions
+
+
+label:    sent_6
+sentence: Ninety-eight percent of patients and injectors would recommend treatment to others . I highly recommend it to the reader .
+
+ppatt:
+	?a would recommend ?b
+		?a: Ninety-eight percent of patients and injectors
+		?b: treatment to others
+	?a highly recommend ?b to ?c
+		?a: Ninety-eight percent of patients and injectors
+		?b: it
+		?c: the reader
+
+
+label:    sent_7
+sentence: With regard to adjuvant therapy , we recommend the addition of chemotherapy .
+
+ppatt:
+	With ?a to ?b , ?c recommend ?d
+		?a: regard
+		?b: adjuvant therapy
+		?c: we
+		?d: the addition of chemotherapy
+
+
+label:    sent_8
+sentence: Funders have been reticent to recommend earlier initiation of treatment .
+
+ppatt:
+	?a have been reticent to recommend ?b
+		?a: Funders
+		?b: earlier initiation of treatment
+
+
+label:    sent_9
+sentence: SFOP dentists were more prone to recommend pit and fissures sealants .
+
+ppatt:
+	?a were more prone to recommend ?b
+		?a: SFOP dentists
+		?b: pit
+	?a were more prone to recommend ?b
+		?a: SFOP dentists
+		?b: fissures
+	?a were more prone to recommend ?b
+		?a: SFOP dentists
+		?b: sealants
+
+
+label:    sent_10
+sentence: It is strongly suggested to recommend 2-day medication for individuals with high EPGs> =1,000 .
+
+ppatt:
+	?a is strongly suggested to recommend ?b
+		?a: It
+		?b: 2-day medication for individuals with high EPGs> =1,000
+
+
+label:    sent_11
+sentence: In summary , we recommend on the GGA level the B97-D3 and revPBE-D3 functionals .
+
+ppatt:
+	In ?a , ?b recommend on ?c
+		?a: summary
+		?b: we
+		?c: the GGA level B97-D3 and revPBE-D3 functionals
+
+
+label:    sent_12
+sentence: However , we recommend against heart transplantation from infected donors .
+
+ppatt:
+	However , ?a recommend against ?b
+		?a: we
+		?b: heart transplantation from infected donors
+
+
+label:    sent_13
+sentence: For future studies we recommend selecting only patients with instable anticoagulant control . I am pleased to recommend Sadagopan Krishnan for the Bioanalysis Young Investigator award .
+
+ppatt:
+	For ?a ?b recommend selecting ?c
+		?a: future studies
+		?b: we
+		?c: only patients with instable anticoagulant control
+	?a am pleased to recommend ?b
+		?a: we
+		?b: Sadagopan Krishnan for the Bioanalysis Young Investigator award
+
+
+label:    sent_14
+sentence: Evidence is not available to recommend this treatment in general population .
+
+ppatt:
+	?a is not available to recommend ?b in ?c
+		?a: Evidence
+		?b: this treatment
+		?c: general population
+
+
+label:    sent_15
+sentence: It seems reasonable therefore , to recommend mammography routinely in this group of patients . All recommend ACCM training to others and plan to continue to practice ACCM .
+
+ppatt:
+	?a seems reasonable therefore , to recommend ?b routinely in ?c
+		?a: It
+		?b: mammography
+		?c: this group of patients
+	?a recommend ?b
+		?a: All
+		?b: ACCM training to others
+	?a plan to continue to practice ?b
+		?a: All
+		?b: ACCM
+
+
+label:    sent_16
+sentence: Most authorities recommend posterior occipitoaxial fusion , but this compromises cervical rotation .
+
+ppatt:
+	?a recommend ?b
+		?a: Most authorities
+		?b: posterior occipitoaxial fusion
+	?a compromises ?b
+		?a: this
+		?b: cervical rotation
+
+
+label:    sent_17
+sentence: Post-operative results are satisfactory and we recommend surgery for preventive more than curative reasons .
+
+ppatt:
+	?a are satisfactory
+		?a: Post-operative results
+	?a recommend ?b for ?c than ?d
+		?a: we
+		?b: surgery
+		?c: more
+		?d: preventive curative reasons
+
+
+label:    sent_18
+sentence: Some centers recommend resection in infancy , and others prefer observation .
+
+ppatt:
+	?a recommend ?b
+		?a: Some centers
+		?b: resection in infancy
+	?a prefer ?b
+		?a: others
+		?b: observation
+
+
+label:    sent_19
+sentence: For younger women and for adenomatous hyperplasia grade I , we recommend individual therapy .
+
+ppatt:
+	For ?a , ?b recommend ?c
+		?a: younger women
+		?b: we
+		?c: individual therapy
+	For ?a , ?b recommend ?c
+		?a: adenomatous hyperplasia grade I
+		?b: we
+		?c: individual therapy
+
+
+label:    sent_20
+sentence: We recommend further studies at higher doses and for longer durations .
+
+ppatt:
+	?a recommend ?b
+		?a: We
+		?b: further studies at higher doses and for longer durations
+
+
+label:    sent_21
+sentence: We recommend using the BUS algorithm and discuss potential improvements to the clustering algorithms .
+
+ppatt:
+	?a recommend using ?b
+		?a: We
+		?b: the BUS algorithm
+	?a discuss ?b
+		?a: We
+		?b: potential improvements to the clustering algorithms
+
+
+label:    sent_22
+sentence: Today , most healthcare professionals recommend and privilege oral information regarding NSAIDs .
+
+ppatt:
+	Today , ?a recommend ?b
+		?a: most healthcare professionals
+		?b: oral information regarding NSAIDs
+	?a privilege
+		?a: most healthcare professionals
+
+
+label:    sent_23
+sentence: Thirty-four states recommend or require vision screening of preschool children .
+
+ppatt:
+	?a recommend ?b
+		?a: Thirty-four states
+		?b: vision screening of preschool children
+	?a require
+		?a: Thirty-four states
+
+
+label:    sent_24
+sentence: His aim was to recommend the best ones and warn against the harmful .
+
+ppatt:
+	?a was to recommend ?b
+		?a: His aim
+		?b: the best ones
+	?a was to warn against ?b
+		?a: His aim
+		?b: the harmful
+
+
+label:    sent_25
+sentence: Evaluate and recommend further tests to aid in defining the diagnosis .
+
+ppatt:
+	Evaluate ?a
+		?a: further tests to aid in defining the diagnosis
+	recommend ?a
+		?a: further tests to aid in defining the diagnosis
+	?a aid
+		?a: further tests
+	defining ?a
+		?a: the diagnosis
+
+
+label:    sent_26
+sentence: A total of 97 % were satisfied and would recommend the surgery .
+
+ppatt:
+	?a were satisfied
+		?a: A total of 97 %
+	?a would recommend ?b
+		?a: A total of 97 %
+		?b: the surgery
+
+

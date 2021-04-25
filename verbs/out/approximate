@@ -1,0 +1,473 @@
+label:    sent_1
+sentence: Through available output measurements from each individual sensor , we aim to design distributed state estimators to approximate the states of the networked dynamic system .
+
+ppatt:
+	Through ?a , ?b aim to design ?c
+		?a: available output measurements from each individual sensor
+		?b: we
+		?c: distributed state estimators
+	?a approximate ?b
+		?a: we
+		?b: the states of the networked dynamic system
+
+
+label:    sent_2
+sentence: Adjustment for the duration of smoking after 1972 results in estimates that reasonably approximate the observed U.S. lung cancer mortality , suggesting that lung cancer risks from smoking are increasing in the United States coincident with changes in cigarette design .
+
+ppatt:
+	?a results in ?b , suggesting ?c
+		?a: Adjustment for the duration of smoking after 1972
+		?b: estimates that reasonably approximate the observed U.S. lung cancer mortality
+		?c: SOMETHING := lung cancer risks from smoking are increasing in the United States coincident with changes in cigarette design
+	?a reasonably approximate ?b
+		?a: estimates
+		?b: the observed U.S. lung cancer mortality
+	?a are increasing in ?b
+		?a: lung cancer risks from smoking
+		?b: the United States coincident with changes in cigarette design
+
+
+label:    sent_3
+sentence: The SI produced from the lighting system was adjusted to approximate the reference SI .
+
+ppatt:
+	?a produced from ?b
+		?a: The SI
+		?b: the lighting system
+	?a was adjusted to approximate ?b
+		?a: The SI produced from the lighting system
+		?b: the reference SI
+
+
+label:    sent_4
+sentence: We report on a smoothing procedure which fits a series of lines that approximate a curve matching the developmental trajectory .
+
+ppatt:
+	?a report on ?b
+		?a: We
+		?b: a smoothing procedure which fits a series of lines that approximate a curve matching the developmental trajectory
+	?a fits ?b
+		?a: a smoothing procedure
+		?b: a series of lines that approximate a curve matching the developmental trajectory
+	?a approximate ?b
+		?a: lines
+		?b: a curve matching the developmental trajectory
+	?a matching ?b
+		?a: a curve
+		?b: the developmental trajectory
+
+
+label:    sent_5
+sentence: These images approximate the appearance of both anatomic structures and instrument activity occurring within the body .
+
+ppatt:
+	?a approximate ?b
+		?a: These images
+		?b: the appearance of both anatomic structures and instrument activity occurring within the body
+	?a occurring within ?b
+		?a: anatomic structures
+		?b: the body
+	?a occurring within ?b
+		?a: instrument activity
+		?b: the body
+
+
+label:    sent_6
+sentence: Thus , these data identify a specific subgroup of elite controllers whose immunological and gene expression characteristics approximate those of HIV-1-negative persons .
+
+ppatt:
+	Thus , ?a identify ?b
+		?a: these data
+		?b: a specific subgroup of elite controllers whose immunological and gene expression characteristics approximate those of HIV-1-negative persons
+	?a ?b ?c approximate ?d
+		?a: elite controllers
+		?b: immunological
+		?c: whose expression characteristics
+		?d: those of HIV-1-negative persons
+	?a ?b ?c approximate ?d
+		?a: elite controllers
+		?b: gene
+		?c: whose expression characteristics
+		?d: those of HIV-1-negative persons
+
+
+label:    sent_7
+sentence: The crux of the explicit tau-leaping procedure is the use of Poisson random variables to approximate the number of occurrences of each type of reaction event during a carefully selected time period , tau . Here , we propose to approximate transition probabilities by a Markov chain Monte Carlo method .
+
+ppatt:
+	?a is the use of ?b
+		?a: The crux of the explicit tau-leaping procedure
+		?b: Poisson random variables
+	?a approximate ?b during ?c
+		?a: the use of Poisson random variables
+		?b: the number of occurrences of each type of reaction event
+		?c: a carefully selected time period
+	?a is/are tau
+		?a: a carefully selected time period
+	Here , ?a propose to approximate ?b by ?c
+		?a: we
+		?b: transition probabilities
+		?c: a Markov chain Monte Carlo method
+
+
+label:    sent_8
+sentence: A practical and efficient method for exploiting second order Rayleigh-Schrodinger perturbation theory to approximate the correlation energy contribution to the London dispersion interaction is presented .
+
+ppatt:
+	?a exploiting ?b ?c
+		?a: A practical and efficient method
+		?b: order
+		?c: second Rayleigh-Schrodinger perturbation theory
+	?a approximate ?b
+		?a: A practical and efficient method
+		?b: the correlation energy contribution to the London dispersion interaction
+	?a is presented
+		?a: A practical and efficient method for exploiting second order Rayleigh-Schrodinger perturbation theory to approximate the correlation energy contribution to the London dispersion interaction
+
+
+label:    sent_9
+sentence: We approximate structural alignment in a more simplified manner than the existing methods .
+
+ppatt:
+	?a approximate ?b in ?c than ?d
+		?a: We
+		?b: structural alignment
+		?c: a more simplified manner
+		?d: the existing methods
+
+
+label:    sent_10
+sentence: The present results demonstrate that alterations in urinary 8-OHdG level closely approximate onset and disease progression in PD .
+
+ppatt:
+	?a demonstrate ?b
+		?a: The present results
+		?b: SOMETHING := alterations in urinary 8-OHdG level closely approximate onset and disease progression in PD
+	?a closely approximate ?b
+		?a: alterations in urinary 8-OHdG level
+		?b: onset in PD
+	?a closely approximate ?b
+		?a: alterations in urinary 8-OHdG level
+		?b: disease progression
+
+
+label:    sent_11
+sentence: In the first scheme , we approximate the intersecting chord length of the ray passing through a voxel by the perpendicular distance from the center to the ray .
+
+ppatt:
+	In ?a , ?b approximate ?c through ?d
+		?a: the first scheme
+		?b: we
+		?c: the intersecting chord length of the ray passing
+		?d: a voxel by the perpendicular distance from the center to the ray
+
+
+label:    sent_12
+sentence: Their structures show that in each the [ N ( R ( 1 ) ) C ( R ( 3 ) ) NR ( 2 ) ] ( 3- ) moiety has the three negative charges largely localised on each of N , N' and R = Aryl ) ; a consequence is that the " aromatic " 2,3- and 5,6-CC bonds of R ( 3 ) approximate to being double bonds .
+
+ppatt:
+	?a show ?b
+		?a: Their structures
+		?b: SOMETHING := in each the [ N ( R ( 1 ) C R ) NR ( 2 ) ] ( 3- ) moiety has the three negative charges largely localised on each of N , N' and R = Aryl
+	?a is/are 3
+		?a: [ N R ( 1 ) C
+	in ?a has ?b
+		?a: each the [ N ( R ( 1 ) C R ) NR ( 2 ) ] ( 3- ) moiety
+		?b: the three negative charges largely localised on each of N , N'
+	?a largely localised on ?b
+		?a: the three negative charges
+		?b: each of N , N'
+	?a = ?b
+		?a: R
+		?b: Aryl
+	?a is ?b
+		?a: a consequence
+		?b: SOMETHING := the " aromatic " 2,3- and 5,6-CC bonds of R approximate to being double bonds
+	?a is/are 3
+		?a: R
+	?a ?b approximate to ?c
+		?a: "
+		?b: the aromatic " 2,3-
+		?c: being double bonds
+	?a ?b approximate to ?c
+		?a: "
+		?b: 5,6-CC
+		?c: being double bonds
+	?a ?b approximate to ?c
+		?a: "
+		?b: bonds of R
+		?c: being double bonds
+
+
+label:    sent_13
+sentence: Compared with Group A , different degrees of ultrastructural changes on nuclei and organelle were observed in Group B and C , but the injury in Group C was significantly milder than that in Group B , showing normal sized cells with good structure approximate to the morphology in Group A .
+
+ppatt:
+	Compared with Group A ?a
+		?a: different degrees of ultrastructural changes on nuclei and organelle
+	?a were observed in ?b , showing ?c
+		?a: different degrees of ultrastructural changes on nuclei and organelle
+		?b: Group
+		?c: normal sized cells with good structure approximate to the morphology in Group A
+	?a was significantly milder than ?b
+		?a: the injury in Group C
+		?b: that in Group B
+
+
+label:    sent_14
+sentence: Furthermore , we show a link between the gene-duplication problem and the minimum rooted triplets inconsistency problem which implies that the gene-duplication problem is 1 ) W[2 ] -hard when parameterized by the number of gene duplications necessary for the reconciliation and 2 ) hard to approximate to better than a logarithmic factor .
+
+ppatt:
+	Furthermore , ?a show ?b
+		?a: we
+		?b: a link between the gene-duplication problem and the minimum rooted triplets inconsistency problem which implies that the gene-duplication problem is W[2 ] -hard when parameterized by the number of gene duplications necessary for the reconciliation and hard to approximate to better than a logarithmic factor
+	?a implies ?b
+		?a: a link between the gene-duplication problem and the minimum rooted triplets inconsistency problem
+		?b: SOMETHING := the gene-duplication problem is W[2 ] -hard
+	?a is W[2 ] -hard
+		?a: the gene-duplication problem
+	?a when parameterized by ?b
+		?a: which
+		?b: the number of gene duplications necessary for the reconciliation
+	approximate to better than ?a
+		?a: a logarithmic factor
+
+
+label:    sent_15
+sentence: Transgenic Bt cotton was slower than its counterpart , transgenic Bt+ CpTI cotton Z41 was approximate to its counterpart , but transgenic Bt+ CpTI cotton SGK321 was faster than its counterpart .
+
+ppatt:
+	?a was slower than ?b
+		?a: Transgenic Bt cotton
+		?b: its counterpart
+	?a was approximate to ?b
+		?a: transgenic Bt+ CpTI cotton Z41
+		?b: its counterpart
+	?a was faster than ?b
+		?a: transgenic Bt+ CpTI cotton SGK321
+		?b: its counterpart
+
+
+label:    sent_16
+sentence: The wall-deposition-loss-rate coefficient observed ( 1.00+/-0.02 h ( -1 ) ) was approximate to the estimated value based on Zhao and Wu 's model which includes the factors of turbulence , Brownian diffusion , turbophoresis and surface roughness .
+
+ppatt:
+	?a observed
+		?a: The wall-deposition-loss-rate coefficient
+	?a was approximate to ?b
+		?a: The wall-deposition-loss-rate coefficient observed
+		?b: the estimated value
+	?a based on Zhao
+		?a: The wall-deposition-loss-rate coefficient observed
+	?a ?b 's model
+		?a: The wall-deposition-loss-rate coefficient observed
+		?b: Wu
+	?a includes ?b
+		?a: Wu model
+		?b: the factors of turbulence , Brownian diffusion , turbophoresis and surface roughness
+
+
+label:    sent_17
+sentence: Our results suggest that the formulation of possible functional foods should approximate as much as possible the natural environment in which active molecules are found .
+
+ppatt:
+	?a suggest ?b
+		?a: Our results
+		?b: SOMETHING := the formulation of possible functional foods should approximate as much as possible the natural environment in which active molecules are found
+	?a should approximate as much as ?b
+		?a: the formulation of possible functional foods
+		?b: possible the natural environment in which active molecules are found
+	?a in ?b are found
+		?a: possible the natural environment
+		?b: active molecules
+
+
+label:    sent_18
+sentence: The method uses Markov Chain Monte Carlo ( MCMC ) to approximate the posterior distribution of the target concentrations and numerically compute the relevant summary statistics .
+
+ppatt:
+	?a uses ?b
+		?a: The method
+		?b: Markov Chain Monte Carlo
+	?a is/are MCMC
+		?a: Markov Chain Monte Carlo
+	?a approximate ?b
+		?a: The method
+		?b: the posterior distribution of the target concentrations
+	?a numerically compute ?b
+		?a: The method
+		?b: the relevant summary statistics
+
+
+label:    sent_19
+sentence: This abundance of data enabled us to calculate the long-term average aqueous Hg concentrations and approximate the lifetime aqueous Hg exposure experienced by fish , enabling the calculation of appropriate BAFs .
+
+ppatt:
+	?a enabled ?b to calculate ?c
+		?a: This abundance of data
+		?b: us
+		?c: the long-term average aqueous Hg concentrations
+	?a approximate ?b
+		?a: This abundance of data
+		?b: the lifetime aqueous Hg exposure experienced by fish
+	?a experienced by ?b
+		?a: the lifetime aqueous Hg exposure
+		?b: fish
+	?a enabling ?b
+		?a: This abundance of data
+		?b: the calculation of appropriate BAFs
+
+
+label:    sent_20
+sentence: Secondly , we derive reduced equations that approximate the network 's dynamics and involve only protein concentrations .
+
+ppatt:
+	Secondly , ?a derive ?b
+		?a: we
+		?b: reduced equations that approximate the network 's dynamics and involve only protein concentrations
+	?a approximate ?b
+		?a: reduced equations
+		?b: the network 's dynamics
+	?a involve ?b
+		?a: that
+		?b: only protein concentrations
+
+
+label:    sent_21
+sentence: Circadian rhythms are physiological functions that cycle over a period of approximately 24 hours ( circadian- circa : approximate and diem : day ) . Two kinds of algorithms can be found in the literature for solving the PMS problem : exact and approximate .
+
+ppatt:
+	?a are physiological functions over ?b
+		?a: Circadian rhythms
+		?b: a period of approximately 24 hours
+	?a cycle
+		?a: physiological functions over a period of approximately 24 hours
+	?a can be found in ?b
+		?a: Two kinds of algorithms
+		?b: the literature for solving the PMS problem
+	?a solving ?b
+		?a: the literature
+		?b: the PMS problem
+
+
+label:    sent_22
+sentence: This paper , which is based on recent empirical research at the University of Leeds , the University of Edinburgh , and the University of Bristol , presents two difficulties which arise when condensed matter physicists interact with molecular biologists : ( 1 ) the former use models which appear to be too coarse-grained , approximate and/or idealized to serve a useful scientific purpose to the latter ; and ( 2 ) the latter have a rather narrower view of what counts as an experiment , particularly when it comes to computer simulations , than the former .
+
+ppatt:
+	?a is based on ?b
+		?a: This paper
+		?b: recent empirical research at the University of Leeds , the University of Edinburgh , and the University of Bristol
+	?a presents ?b
+		?a: This paper , which is based on recent empirical research at the University of Leeds , the University of Edinburgh , and the University of Bristol
+		?b: two difficulties which arise when condensed matter physicists interact with molecular biologists : and the latter have a rather narrower view of what counts as an experiment , particularly when it comes to computer simulations , than the former
+	?a arise
+		?a: two difficulties
+	when ?a interact with ?b
+		?a: condensed matter physicists
+		?b: molecular biologists
+	?a appear to be too coarse-grained to serve ?b to ?c
+		?a: the former use models , approximate
+		?b: a useful scientific purpose
+		?c: the latter
+	?a idealized
+		?a: which
+	?a have ?b as ?c
+		?a: the latter
+		?b: a rather narrower view of what counts
+		?c: an experiment
+	particularly when ?a comes to ?b , than ?c
+		?a: it
+		?b: computer simulations
+		?c: the former
+
+
+label:    sent_23
+sentence: As shown by the wide overlap of the grading results , subjective grading systems are only approximate .
+
+ppatt:
+	shown by ?a ?b
+		?a: the wide overlap of the grading results
+		?b: subjective grading systems
+	?a are only approximate
+		?a: subjective grading systems
+
+
+label:    sent_24
+sentence: Although comparison of experimental and outdoor conditions are only approximate , the results in rabbits point to the danger for the human eye from UVB radiation when short stays in sunlight are repeated for several consecutive days without UV protection .
+
+ppatt:
+	?a are only approximate
+		?a: comparison of experimental and outdoor conditions
+	?a point to ?b
+		?a: the results in rabbits
+		?b: the danger for the human eye from UVB radiation
+	when ?a are repeated for ?b
+		?a: short stays in sunlight
+		?b: several consecutive days without UV protection
+
+
+label:    sent_25
+sentence: This study is a first step in understanding processing of dynamic stimuli using ecologically appropriate stimuli that approximate the real-time social processing that is appropriate for use with populations who experience significant social problems .
+
+ppatt:
+	?a is a first step
+		?a: This study
+	?a understanding ?b
+		?a: a first step using ecologically appropriate stimuli that approximate the real-time social processing that is appropriate for use with populations who experience significant social problems
+		?b: processing of dynamic stimuli
+	?a using ?b
+		?a: a first step in understanding processing of dynamic stimuli
+		?b: ecologically appropriate stimuli that approximate the real-time social processing that is appropriate for use with populations who experience significant social problems
+	?a approximate ?b
+		?a: ecologically appropriate stimuli
+		?b: the real-time social processing that is appropriate for use with populations who experience significant social problems
+	?a is appropriate for ?b
+		?a: the real-time social processing
+		?b: use with populations who experience significant social problems
+	?a experience ?b
+		?a: populations
+		?b: significant social problems
+
+
+label:    sent_26
+sentence: Adipose derived hydrogels more closely approximate the physical and chemical microenvironment of adipose tissue , promote preadipocyte differentiation and vessel assembly in vitro , and stimulate vascularized adipose formation in vivo .
+
+ppatt:
+	?a more closely approximate ?b
+		?a: Adipose derived hydrogels
+		?b: the physical and chemical microenvironment of adipose tissue
+	?a promote ?b in vitro
+		?a: Adipose derived hydrogels
+		?b: preadipocyte differentiation
+	?a promote ?b in vitro
+		?a: Adipose derived hydrogels
+		?b: vessel assembly
+	?a stimulate ?b in vivo
+		?a: Adipose derived hydrogels
+		?b: vascularized adipose formation
+
+
+label:    sent_27
+sentence: The rate of colonic injury in supine PCNL was approximate 0.5 % and incidence of pleural injury of 0 % was noted for both positions .
+
+ppatt:
+	?a was approximate 0.5 %
+		?a: The rate of colonic injury in supine PCNL
+	?a was noted for ?b
+		?a: incidence of pleural injury of 0 %
+		?b: both positions
+
+
+label:    sent_28
+sentence: Many of them approximate the criteria for termination , but maintain a therapeutic relationship for a variety of reasons .
+
+ppatt:
+	?a approximate ?b
+		?a: Many of them
+		?b: the criteria for termination
+	?a maintain ?b for ?c
+		?a: Many of them
+		?b: a therapeutic relationship
+		?c: a variety of reasons
+
+

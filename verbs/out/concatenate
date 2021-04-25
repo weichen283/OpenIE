@@ -1,0 +1,41 @@
+label:    sent_1
+sentence: We conclude that cohesin rings concatenate individual sister minichromosome DNA molecules .
+
+ppatt:
+	?a conclude ?b
+		?a: We
+		?b: SOMETHING := cohesin rings concatenate individual sister minichromosome DNA molecules
+	?a concatenate ?b
+		?a: cohesin rings
+		?b: individual sister minichromosome DNA molecules
+
+
+label:    sent_2
+sentence: Campbell 's monkeys concatenate vocalizations into context-specific call sequences .
+
+ppatt:
+	?a concatenate ?b into ?c
+		?a: Campbell 's monkeys
+		?b: vocalizations
+		?c: context-specific call sequences
+
+
+label:    sent_3
+sentence: Action relationships concatenate representations of separate objects in the ventral visual system .
+
+ppatt:
+	?a concatenate ?b
+		?a: Action relationships
+		?b: representations of separate objects in the ventral visual system
+
+
+label:    sent_4
+sentence: Specialized domains concatenate and compact VWF during biosynthesis .
+
+ppatt:
+	?a concatenate ?b during ?c
+		?a: Specialized domains
+		?b: compact VWF
+		?c: biosynthesis
+
+

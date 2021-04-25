@@ -1,0 +1,33 @@
+label:    sent_1
+sentence: Fast randomized approximate string matching with succinct hash data structures .
+
+ppatt:
+	?a matching with ?b
+		?a: Fast randomized approximate string
+		?b: succinct hash data structures
+
+
+label:    sent_2
+sentence: Efficient hash tables for network applications . Ethical hash . Potato hash . Californians hash out guide for spending stem-cell billions .
+
+ppatt:
+	?a is/are Ethical hash
+		?a: network applications
+	?a is/are Potato hash
+		?a: Ethical hash
+	?a is/are Potato hash
+		?a: Californians hash
+	?a guide
+		?a: Efficient hash tables for network applications
+	?a spending ?b
+		?a: Efficient hash tables for network applications
+		?b: stem-cell billions
+
+
+label:    sent_3
+sentence: Neighborhood hash graph kernel for protein-protein interaction extraction .
+
+ppatt:
+
+
+

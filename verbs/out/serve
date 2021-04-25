@@ -1,0 +1,298 @@
+label:    sent_1
+sentence: These findings may serve as a springboard for future large-scale studies .
+
+ppatt:
+	?a may serve as ?b
+		?a: These findings
+		?b: a springboard for future large-scale studies
+
+
+label:    sent_2
+sentence: This blueshift can serve as an indicator of ionization processes in CARS-based neuroimaging . CXCL5 could serve as an additional biomarker for hepatic necroinflammation and fibrosis .
+
+ppatt:
+	?a can serve as ?b
+		?a: This blueshift
+		?b: an indicator of ionization processes in CARS-based neuroimaging
+	?a could serve as ?b
+		?a: CXCL5
+		?b: an additional biomarker for hepatic necroinflammation and fibrosis
+
+
+label:    sent_3
+sentence: The contralateral shoulders received saline to serve as paired controls . Yet commemorations also serve as moments of critical reflection .
+
+ppatt:
+	?a received ?b to serve as ?c
+		?a: The contralateral shoulders
+		?b: saline
+		?c: paired controls
+	Yet ?a also serve as ?b
+		?a: commemorations
+		?b: moments of critical reflection
+
+
+label:    sent_4
+sentence: Carboxypeptidases may serve as tools for removal of C-terminal affinity tags .
+
+ppatt:
+	?a may serve as ?b
+		?a: Carboxypeptidases
+		?b: tools for removal of C-terminal affinity tags
+
+
+label:    sent_5
+sentence: This model may serve to explore the application of anabolic strategies in peri-implant osteogenesis . Just thinking about exercise makes me serve more food .
+
+ppatt:
+	?a may serve to explore ?b
+		?a: This model
+		?b: the application of anabolic strategies in peri-implant osteogenesis
+	?a makes ?b
+		?a: Just thinking about exercise
+		?b: SOMETHING := me serve more food
+	?a serve ?b
+		?a: me
+		?b: more food
+
+
+label:    sent_6
+sentence: These alleles serve as sensitized genetic backgrounds that have reduced V-ATPase enzyme activity .
+
+ppatt:
+	?a serve as ?b
+		?a: These alleles
+		?b: sensitized genetic backgrounds that have reduced V-ATPase enzyme activity
+	?a have reduced ?b
+		?a: sensitized genetic backgrounds
+		?b: V-ATPase enzyme activity
+
+
+label:    sent_7
+sentence: Feral house mice and voles also were infected and may serve as secondary hosts .
+
+ppatt:
+	?a also were infected
+		?a: Feral house mice
+	?a also were infected
+		?a: voles
+	?a may serve as ?b
+		?a: Feral house mice
+		?b: secondary hosts
+	?a may serve as ?b
+		?a: voles
+		?b: secondary hosts
+
+
+label:    sent_8
+sentence: The hydrogels were well tolerated and might well serve as good tissue equivalents .
+
+ppatt:
+	?a were well tolerated
+		?a: The hydrogels
+	?a might well serve as ?b
+		?a: The hydrogels
+		?b: good tissue equivalents
+
+
+label:    sent_9
+sentence: Willebrand factor appears to coat surfaces and to serve as a platelet attachment protein .
+
+ppatt:
+	?a appears to coat surfaces
+		?a: Willebrand factor
+	?a serve as ?b
+		?a: Willebrand factor
+		?b: a platelet attachment protein
+
+
+label:    sent_10
+sentence: The segmentation can serve as a guideline and prevent confusion with pathological tissue . Above all , it must serve and benefit community .
+
+ppatt:
+	?a can serve as ?b
+		?a: The segmentation
+		?b: a guideline
+	?a prevent ?b
+		?a: The segmentation
+		?b: confusion with pathological tissue
+	Above ?a , ?b must serve
+		?a: all
+		?b: it
+	?a benefit ?b
+		?a: it
+		?b: community
+
+
+label:    sent_11
+sentence: They serve as reservoirs and vectors pathogens and cause direct skin damage by feeding .
+
+ppatt:
+	?a serve as ?b
+		?a: They
+		?b: reservoirs
+	?a serve as ?b
+		?a: They
+		?b: vectors pathogens
+	?a cause ?b by ?c
+		?a: They
+		?b: direct skin damage
+		?c: feeding
+
+
+label:    sent_12
+sentence: Most were recruited through programs that serve low-income women .
+
+ppatt:
+	?a were recruited through ?b
+		?a: Most
+		?b: programs that serve low-income women
+	?a serve ?b
+		?a: programs
+		?b: low-income women
+
+
+label:    sent_13
+sentence: The love bag program can serve extended purposes .
+
+ppatt:
+	?a can serve ?b
+		?a: The love bag program
+		?b: extended purposes
+
+
+label:    sent_14
+sentence: The effect of financial incentives on hospitals that serve poor patients .
+
+ppatt:
+	?a serve ?b
+		?a: hospitals
+		?b: poor patients
+
+
+label:    sent_15
+sentence: Preparing dietetics practitioners to effectively serve the Hispanic population .
+
+ppatt:
+	Preparing ?a
+		?a: dietetics practitioners
+	effectively serve ?a
+		?a: the Hispanic population
+
+
+label:    sent_16
+sentence: Cephalic capability is reflected by anticipatory behaviors to serve systemic physiological regulation .
+
+ppatt:
+	?a is reflected by ?b to serve ?c
+		?a: Cephalic capability
+		?b: anticipatory behaviors
+		?c: systemic physiological regulation
+
+
+label:    sent_17
+sentence: Pharmacological interventions might alter HSP20 expressions and thus serve a protective effect .
+
+ppatt:
+	?a might alter ?b
+		?a: Pharmacological interventions
+		?b: HSP20 expressions
+	?a thus serve ?b
+		?a: Pharmacological interventions
+		?b: a protective effect
+
+
+label:    sent_18
+sentence: The air layer on these surfaces can serve the insects as a physical gill .
+
+ppatt:
+	?a can serve ?b as ?c
+		?a: The air layer on these surfaces
+		?b: the insects
+		?c: a physical gill
+
+
+label:    sent_19
+sentence: Spiritual coping , in particular , may serve a unique role in promoting SWL .
+
+ppatt:
+	?a in ?b , may serve ?c
+		?a: Spiritual coping
+		?b: particular
+		?c: a unique role
+	?a promoting ?b
+		?a: Spiritual coping
+		?b: SWL
+
+
+label:    sent_20
+sentence: Residual oxygen may serve other purposes , such as respiration . To serve and not to count the cost : the challenge and the charge .
+
+ppatt:
+	?a may serve ?b To serve
+		?a: Residual oxygen
+		?b: other purposes , such as respiration
+	?a may serve To not to count ?b
+		?a: Residual oxygen
+		?b: the cost
+
+
+label:    sent_21
+sentence: Both are anxiety-related , and may serve to amplify withdrawal symptoms .
+
+ppatt:
+	?a are anxiety-related
+		?a: Both
+	?a may serve to amplify ?b
+		?a: Both
+		?b: withdrawal symptoms
+
+
+label:    sent_22
+sentence: Variety of programs show how hospitals market to serve and compete .
+
+ppatt:
+	?a show ?b
+		?a: Variety of programs
+		?b: SOMETHING := how hospitals market to serve and compete
+	how ?a market to serve
+		?a: hospitals
+	how ?a market to compete
+		?a: hospitals
+
+
+label:    sent_23
+sentence: We need to serve our apprenticeship before we master our profession .
+
+ppatt:
+	?a need to serve ?b
+		?a: We
+		?b: our apprenticeship
+	?a master ?b
+		?a: we
+		?b: our profession
+
+
+label:    sent_24
+sentence: Handoffs serve a critical function in ensuring patient care continuity during transitions of care .
+
+ppatt:
+	?a serve ?b
+		?a: Handoffs
+		?b: a critical function
+	?a ensuring ?b during ?c
+		?a: Handoffs
+		?b: patient care continuity
+		?c: transitions of care
+
+
+label:    sent_25
+sentence: The manipulators are designed to serve undergraduate teaching exercises in physiology .
+
+ppatt:
+	?a are designed to serve ?b in ?c
+		?a: The manipulators
+		?b: undergraduate teaching exercises
+		?c: physiology
+
+

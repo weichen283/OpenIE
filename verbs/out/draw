@@ -1,0 +1,310 @@
+label:    sent_1
+sentence: This limits the ability to draw general conclusions from any particular system .
+
+ppatt:
+	?a limits ?b
+		?a: This
+		?b: the ability to draw general conclusions from any particular system
+	?a draw ?b
+		?a: the ability
+		?b: general conclusions from any particular system
+
+
+label:    sent_2
+sentence: Three stage cluster sampling was employed to draw a representative sample of students .
+
+ppatt:
+	?a was employed to draw ?b
+		?a: Three stage cluster sampling
+		?b: a representative sample of students
+
+
+label:    sent_3
+sentence: Additional studies and improvements of the current technique are needed to draw final conclusions .
+
+ppatt:
+	?a are needed to draw ?b
+		?a: Additional studies of the current technique
+		?b: final conclusions
+	?a are needed to draw ?b
+		?a: improvements
+		?b: final conclusions
+
+
+label:    sent_4
+sentence: Therefore , it would be unwise to draw firm conclusions at this stage .
+
+ppatt:
+	Therefore , ?a would be unwise to draw ?b
+		?a: it
+		?b: firm conclusions at this stage
+
+
+label:    sent_5
+sentence: To draw attention on citalopram as a possible cause of movement disorders .
+
+ppatt:
+	draw ?a as ?b
+		?a: attention on citalopram
+		?b: a possible cause of movement disorders
+
+
+label:    sent_6
+sentence: The results from the trial were insufficient to draw firm conclusions for this comparison . HAC numbers on website draw criticism .
+
+ppatt:
+	?a were insufficient to draw ?b
+		?a: The results from the trial
+		?b: firm conclusions for this comparison
+	?a draw ?b
+		?a: HAC numbers on website
+		?b: criticism
+
+
+label:    sent_7
+sentence: In conclusion , we will draw out some normative consequences of our narrative approach . ACO plans draw more criticism from top execs .
+
+ppatt:
+	In ?a , ?b will draw out ?c
+		?a: conclusion
+		?b: we
+		?c: some normative consequences of our narrative approach
+	?a draw ?b
+		?a: ACO plans
+		?b: more criticism from top execs
+
+
+label:    sent_8
+sentence: They draw on their personal values to structure their professional position .
+
+ppatt:
+	?a draw on ?b to structure ?c
+		?a: They
+		?b: their personal values
+		?c: their professional position
+
+
+label:    sent_9
+sentence: We draw upon published research evidence and qualitative case examples .
+
+ppatt:
+	?a draw upon ?b
+		?a: We
+		?b: published research evidence
+	?a draw upon ?b
+		?a: We
+		?b: qualitative case examples
+
+
+label:    sent_10
+sentence: European nations draw up strategy to fight obesity .
+
+ppatt:
+	?a draw ?b
+		?a: European nations
+		?b: up strategy to fight obesity
+	?a fight ?b
+		?a: up strategy
+		?b: obesity
+
+
+label:    sent_11
+sentence: Therefore we draw attention to adherance to the PRISMA statement .
+
+ppatt:
+	Therefore ?a draw ?b to adherance to ?c
+		?a: we
+		?b: attention
+		?c: the PRISMA statement
+
+
+label:    sent_12
+sentence: The Cochrane reviews covering this field also do not draw firm conclusions .
+
+ppatt:
+	?a covering ?b
+		?a: The Cochrane reviews
+		?b: this field
+	?a also do not draw ?b
+		?a: The Cochrane reviews covering this field
+		?b: firm conclusions
+
+
+label:    sent_13
+sentence: Charity disclosures will draw unwelcome attention to hospital tax breaks .
+
+ppatt:
+	?a will draw ?b to ?c
+		?a: Charity disclosures
+		?b: unwelcome attention
+		?c: hospital tax breaks
+
+
+label:    sent_14
+sentence: It is possible to draw up a general schema .
+
+ppatt:
+	?a is possible to draw up ?b
+		?a: It
+		?b: a general schema
+
+
+label:    sent_15
+sentence: Qualitative data was analysed manually to draw out themes , commonalities , and contrasts .
+
+ppatt:
+	?a was analysed manually to draw out ?b
+		?a: Qualitative data
+		?b: themes
+	?a was analysed manually to draw out ?b
+		?a: Qualitative data
+		?b: commonalities
+	?a was analysed manually to draw out ?b
+		?a: Qualitative data
+		?b: contrasts
+
+
+label:    sent_16
+sentence: A computerized random-number generator was used to draw up an allocation schedule .
+
+ppatt:
+	?a was used to draw up ?b
+		?a: A computerized random-number generator
+		?b: an allocation schedule
+
+
+label:    sent_17
+sentence: A team was formed to draw up and implement it . Other subjects were presented words and asked to recall them or draw representational pictures .
+
+ppatt:
+	?a was formed to draw up ?b
+		?a: A team
+		?b: it
+	?a was formed to up implement
+		?a: A team
+	?a were presented ?b
+		?a: Other subjects
+		?b: words
+	?a asked to recall ?b
+		?a: Other subjects
+		?b: them
+	?a asked to draw ?b
+		?a: Other subjects
+		?b: representational pictures
+
+
+label:    sent_18
+sentence: It is not necessary to make judgements or draw conclusions about the observations charted .
+
+ppatt:
+	?a is not necessary to make ?b
+		?a: It
+		?b: judgements
+	?a is not necessary to draw ?b
+		?a: It
+		?b: conclusions about the observations charted
+	?a charted
+		?a: the observations
+
+
+label:    sent_19
+sentence: Humans draw maps when communicating about places or verbally describe routes between locations .
+
+ppatt:
+	?a draw ?b
+		?a: Humans
+		?b: maps
+	?a when communicating about ?b
+		?a: Humans
+		?b: places
+	?a verbally describe ?b
+		?a: Humans
+		?b: routes between locations
+
+
+label:    sent_20
+sentence: The myocytes draw nearer and form specialized junctions , that ensure their cooperation .
+
+ppatt:
+	?a draw ?b
+		?a: The myocytes
+		?b: nearer
+	?a form
+		?a: The myocytes
+	?a ensure ?b
+		?a: specialized junctions
+		?b: their cooperation
+
+
+label:    sent_21
+sentence: The current review will draw together recent research and suggest directions for future investigation .
+
+ppatt:
+	?a will draw ?b
+		?a: The current review
+		?b: together recent research
+	?a suggest ?b
+		?a: The current review
+		?b: directions for future investigation
+
+
+label:    sent_22
+sentence: The authors draw upon their personal experience and expertise in feline genetics .
+
+ppatt:
+	?a draw upon ?b
+		?a: The authors
+		?b: their personal experience in feline genetics
+	?a draw upon ?b
+		?a: The authors
+		?b: expertise
+
+
+label:    sent_23
+sentence: We draw from the limited published literature and use Cameroon as a case study .
+
+ppatt:
+	?a draw from ?b
+		?a: We
+		?b: the limited published literature
+	?a use ?b as ?c
+		?a: We
+		?b: Cameroon
+		?c: a case study
+
+
+label:    sent_24
+sentence: Treatment strategies draw from experience in women and usually begin with surgery .
+
+ppatt:
+	?a draw from ?b
+		?a: Treatment strategies
+		?b: experience in women
+	?a usually begin with ?b
+		?a: Treatment strategies
+		?b: surgery
+
+
+label:    sent_25
+sentence: To draw attention to this unusual case and to review the relevant literature .
+
+ppatt:
+	draw ?a to ?b
+		?a: attention
+		?b: this unusual case
+	review ?a
+		?a: the relevant literature
+
+
+label:    sent_26
+sentence: Prompts can be intrusive and draw attention to the problem , however .
+
+ppatt:
+	?a can be intrusive , however
+		?a: Prompts
+	?a draw ?b to ?c
+		?a: Prompts
+		?b: attention
+		?c: the problem
+
+

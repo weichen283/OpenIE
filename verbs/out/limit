@@ -1,0 +1,325 @@
+label:    sent_1
+sentence: To limit these risks , many renal units use heparin as a catheter-locking solution .
+
+ppatt:
+	limit ?a ?b
+		?a: these risks
+		?b: many renal units
+	?a use ?b as ?c
+		?a: many renal units
+		?b: heparin
+		?c: a catheter-locking solution
+
+
+label:    sent_2
+sentence: These antibodies might contribute to limit the systemic effects of the infection .
+
+ppatt:
+	?a might contribute to limit ?b
+		?a: These antibodies
+		?b: the systemic effects of the infection
+
+
+label:    sent_3
+sentence: Parkin degrades estrogen-related receptors to limit the expression of monoamine oxidases .
+
+ppatt:
+	?a degrades ?b to limit ?c
+		?a: Parkin
+		?b: estrogen-related receptors
+		?c: the expression of monoamine oxidases
+
+
+label:    sent_4
+sentence: Early case detection and treatment may limit household transmission of M. tuberculosis .
+
+ppatt:
+	?a may limit ?b
+		?a: Early case
+		?b: household transmission of M. tuberculosis
+
+
+label:    sent_5
+sentence: However , the materials typically used may limit its long-term application .
+
+ppatt:
+	?a typically used
+		?a: the materials
+	However , ?a may limit ?b
+		?a: the materials typically used
+		?b: its long-term application
+
+
+label:    sent_6
+sentence: Congenital anomalies of this venous system may limit catheter ablation .
+
+ppatt:
+	?a may limit ?b
+		?a: Congenital anomalies of this venous system
+		?b: catheter ablation
+
+
+label:    sent_7
+sentence: DNA methyltransferase inhibition may limit cancer cell growth by disrupting ribosome biogenesis .
+
+ppatt:
+	?a may limit ?b
+		?a: DNA methyltransferase inhibition
+		?b: cancer cell growth
+	?a disrupting ?b
+		?a: DNA methyltransferase inhibition
+		?b: ribosome biogenesis
+
+
+label:    sent_8
+sentence: These compounds may limit prostate carcinogenesis through matrix metalloproteinase inhibition .
+
+ppatt:
+	?a may limit ?b through ?c
+		?a: These compounds
+		?b: prostate carcinogenesis
+		?c: matrix metalloproteinase inhibition
+
+
+label:    sent_9
+sentence: We limit our analysis to the case of lensless Fourier off-axis digital holograms .
+
+ppatt:
+	?a limit ?b to ?c
+		?a: We
+		?b: our analysis
+		?c: the case of lensless Fourier off-axis digital holograms
+
+
+label:    sent_10
+sentence: Preventive measures should be undertaken to limit as much as possible these exposures .
+
+ppatt:
+	?a should be undertaken to limit as much as ?b
+		?a: Preventive measures
+		?b: possible these exposures
+
+
+label:    sent_11
+sentence: A preventative strategy is to limit the flooded area , especially wetland areas .
+
+ppatt:
+	?a is to limit ?b
+		?a: A preventative strategy
+		?b: the flooded area
+	?a is/are especially wetland areas
+		?a: the flooded area
+
+
+label:    sent_12
+sentence: Presence of agitation seems to limit rehabilitation gains at discharge .
+
+ppatt:
+	?a seems to limit ?b at ?c
+		?a: Presence of agitation
+		?b: rehabilitation gains
+		?c: discharge
+
+
+label:    sent_13
+sentence: Neuronavigation is used to optimise tumor resection and limit the risk for neurovascular structures .
+
+ppatt:
+	?a is used to optimise ?b
+		?a: Neuronavigation
+		?b: tumor resection
+	?a is used to limit ?b
+		?a: Neuronavigation
+		?b: the risk for neurovascular structures
+
+
+label:    sent_14
+sentence: Anticholinergic side effects were experienced by most patients but did not limit treatment .
+
+ppatt:
+	?a were experienced by ?b
+		?a: Anticholinergic side effects
+		?b: most patients
+	?a did not limit ?b
+		?a: Anticholinergic side effects
+		?b: treatment
+
+
+label:    sent_15
+sentence: Preserve but limit the insanity defense .
+
+ppatt:
+	limit ?a
+		?a: the insanity defense
+
+
+label:    sent_16
+sentence: Multiple organ involvement can limit surgical correction of deformities and affect patient management .
+
+ppatt:
+	?a can limit ?b
+		?a: Multiple organ involvement
+		?b: surgical correction of deformities
+	?a affect ?b
+		?a: Multiple organ involvement
+		?b: patient management
+
+
+label:    sent_17
+sentence: Bet hedging based cooperation can limit kin selection and form a basis for mutualism .
+
+ppatt:
+	?a can limit ?b
+		?a: Bet hedging based cooperation
+		?b: kin selection
+	?a form ?b
+		?a: Bet hedging based cooperation
+		?b: a basis for mutualism
+
+
+label:    sent_18
+sentence: It does not limit the patients ' routine activities and avoids staged operations .
+
+ppatt:
+	?a does not limit ?b
+		?a: It
+		?b: the patients ' routine activities
+	?a avoids ?b
+		?a: It
+		?b: staged operations
+
+
+label:    sent_19
+sentence: In addition , pressurised clinical environments may limit teaching time and decrease teaching quality .
+
+ppatt:
+	In ?a , ?b may limit ?c
+		?a: addition
+		?b: pressurised clinical environments
+		?c: teaching time
+	?a decrease ?b
+		?a: pressurised clinical environments
+		?b: teaching quality
+
+
+label:    sent_20
+sentence: In most cases , economic constraints limit diagnostic investigation and affect treatment options .
+
+ppatt:
+	In ?a , ?b limit ?c
+		?a: most cases
+		?b: economic constraints
+		?c: diagnostic investigation
+	?a affect ?b
+		?a: economic constraints
+		?b: treatment options
+
+
+label:    sent_21
+sentence: Punishment can effectively limit selfishness in the population , but it is not free . Its presence may impair progress during rehabilitation and limit functional improvement after discharge .
+
+ppatt:
+	?a can effectively limit ?b in ?c
+		?a: Punishment
+		?b: selfishness
+		?c: the population
+	?a is not free
+		?a: it
+	?a may impair ?b
+		?a: Its presence
+		?b: progress during rehabilitation
+	?a limit ?b after ?c
+		?a: Its presence
+		?b: functional improvement
+		?c: discharge
+
+
+label:    sent_22
+sentence: Adverse environmental conditions constrain active flight and thereby limit reproduction in most insects .
+
+ppatt:
+	?a constrain ?b
+		?a: Adverse environmental conditions
+		?b: active flight
+	?a thereby limit ?b
+		?a: Adverse environmental conditions
+		?b: reproduction in most insects
+
+
+label:    sent_23
+sentence: Pentoxifylline ( PTX ) has antiinflammatory effects and may limit endothelial dysfunction during ischemia/reperfusion .
+
+ppatt:
+	?a is/are PTX
+		?a: Pentoxifylline
+	?a has ?b
+		?a: Pentoxifylline
+		?b: antiinflammatory effects
+	?a may limit ?b during ?c
+		?a: Pentoxifylline
+		?b: endothelial dysfunction
+		?c: ischemia/reperfusion
+
+
+label:    sent_24
+sentence: Understanding its origins is essential for creating designs that limit or control this phenomenon .
+
+ppatt:
+	Understanding ?a
+		?a: its origins
+	?a is essential
+		?a: SOMETHING := Understanding its origins
+	?a creating ?b
+		?a: Understanding its origins
+		?b: designs that limit or control this phenomenon
+	?a limit ?b
+		?a: designs
+		?b: this phenomenon
+	?a control
+		?a: that
+
+
+label:    sent_25
+sentence: The separation of these sites serves to limit and control immune responses .
+
+ppatt:
+	?a serves to limit ?b
+		?a: The separation of these sites
+		?b: immune responses
+	?a serves to control
+		?a: The separation of these sites
+
+
+label:    sent_26
+sentence: Trials of techniques to limit and prevent complication are required .
+
+ppatt:
+	?a limit ?b
+		?a: Trials of techniques
+		?b: complication
+	?a prevent
+		?a: Trials of techniques
+	?a are required
+		?a: Trials of techniques to limit and prevent complication
+
+
+label:    sent_27
+sentence: Detection limit of saliva cotinine values and statistical validity .
+
+ppatt:
+
+
+
+label:    sent_28
+sentence: The ultimate speed limit to protein folding is conformational searching . MEDLINE offers the Core Clinical Journals filter to limit to clinically useful journals .
+
+ppatt:
+	?a is conformational searching
+		?a: The ultimate speed limit to protein folding
+	?a offers
+		?a: MEDLINE
+	?a filter to limit to ?b
+		?a: the Core Clinical Journals
+		?b: clinically useful journals
+
+

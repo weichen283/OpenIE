@@ -1,0 +1,319 @@
+label:    sent_1
+sentence: It uses a variety of strategies to effectively colonize the human oropharynx .
+
+ppatt:
+	?a uses ?b
+		?a: It
+		?b: a variety of strategies to effectively colonize the human oropharynx
+	?a effectively colonize ?b
+		?a: a variety of strategies
+		?b: the human oropharynx
+
+
+label:    sent_2
+sentence: Flies are typically the first insects to colonize a dead body . Strain variability in the ability to colonize biofilms was observed .
+
+ppatt:
+	?a are typically the first insects
+		?a: Flies
+	?a colonize ?b
+		?a: typically the first insects
+		?b: a dead body
+	?a colonize ?b
+		?a: the ability
+		?b: biofilms
+	?a was observed
+		?a: Strain variability in the ability to colonize biofilms
+
+
+label:    sent_3
+sentence: To cause infections , bacteria must colonize their host .
+
+ppatt:
+	cause ?a ?b
+		?a: infections
+		?b: bacteria
+	?a must colonize ?b
+		?a: bacteria
+		?b: their host
+
+
+label:    sent_4
+sentence: The complex microbial populations that colonize the human body form the human microbiome .
+
+ppatt:
+	?a colonize ?b
+		?a: The complex microbial populations
+		?b: the human body
+	?a form ?b
+		?a: The complex microbial populations that colonize the human body
+		?b: the human microbiome
+
+
+label:    sent_5
+sentence: Aspergilloma is a saprophytic infection which can colonize preexisting lung cavities .
+
+ppatt:
+	?a is a saprophytic infection
+		?a: Aspergilloma
+	?a can colonize ?b
+		?a: a saprophytic infection
+		?b: preexisting lung cavities
+
+
+label:    sent_6
+sentence: Campylobacter jejuni is able to colonize the human intestinal mucosa and cause disease .
+
+ppatt:
+	?a is able to colonize ?b
+		?a: Campylobacter jejuni
+		?b: the human intestinal mucosa
+	?a is able to cause ?b
+		?a: Campylobacter jejuni
+		?b: disease
+
+
+label:    sent_7
+sentence: Gastrointestinal parasites have evolved with humans and colonize many asymptomatic subjects .
+
+ppatt:
+	?a have evolved with ?b
+		?a: Gastrointestinal parasites
+		?b: humans
+	?a colonize ?b
+		?a: Gastrointestinal parasites
+		?b: many asymptomatic subjects
+
+
+label:    sent_8
+sentence: Anaerobic metabolic pathways allow unicellular organisms to tolerate or colonize anoxic environments .
+
+ppatt:
+	?a allow ?b to tolerate ?c
+		?a: Anaerobic metabolic pathways
+		?b: unicellular organisms
+		?c: anoxic environments
+	?a allow to colonize
+		?a: Anaerobic metabolic pathways
+
+
+label:    sent_9
+sentence: Various virulence factors allow M haemolytica to colonize the lungs and establish infection .
+
+ppatt:
+	?a allow ?b haemolytica to colonize ?c
+		?a: Various virulence factors
+		?b: M
+		?c: the lungs
+	?a establish ?b
+		?a: Various virulence factors
+		?b: infection
+
+
+label:    sent_10
+sentence: Therefore , this mutant could colonize the skin but could not disseminate .
+
+ppatt:
+	Therefore , ?a could colonize ?b
+		?a: this mutant
+		?b: the skin
+	?a could not disseminate
+		?a: this mutant
+
+
+label:    sent_11
+sentence: Certain strains of Bacillus amyloliquefaciens can colonize plants and improve growth and stress management .
+
+ppatt:
+	?a can colonize ?b
+		?a: Certain strains of Bacillus amyloliquefaciens
+		?b: plants
+	?a improve ?b
+		?a: Certain strains of Bacillus amyloliquefaciens
+		?b: growth
+	?a improve ?b
+		?a: Certain strains of Bacillus amyloliquefaciens
+		?b: stress management
+
+
+label:    sent_12
+sentence: Epiphylls widely colonize vascular leaves in moist tropical forests .
+
+ppatt:
+	?a widely colonize ?b
+		?a: Epiphylls
+		?b: vascular leaves in moist tropical forests
+
+
+label:    sent_13
+sentence: Without synthesis of polymers S. mutans can not colonize the mouth in large numbers .
+
+ppatt:
+	Without ?a can not colonize ?b in ?c
+		?a: synthesis of polymers
+		?b: the mouth
+		?c: large numbers
+
+
+label:    sent_14
+sentence: The bacteria invade and colonize the roots through structures called infection threads . Salmonella Enteritidis has enhanced ability to colonize and persist in extraintestinal sites within chickens .
+
+ppatt:
+	?a invade ?b through ?c
+		?a: The bacteria
+		?b: the roots
+		?c: structures called infection threads
+	?a colonize
+		?a: The bacteria
+	?a called infection threads
+		?a: structures
+	?a has ?b
+		?a: Salmonella Enteritidis
+		?b: enhanced ability to colonize and persist in extraintestinal sites within chickens
+	?a colonize in ?b
+		?a: enhanced ability
+		?b: extraintestinal sites within chickens
+	?a persist
+		?a: enhanced ability
+
+
+label:    sent_15
+sentence: Strains of Serpulina murdochii and Brachyspira aalborgi failed to colonize or cause histological changes .
+
+ppatt:
+	?a failed to colonize ?b
+		?a: Strains of Serpulina murdochii and Brachyspira aalborgi
+		?b: histological changes
+	?a failed to cause
+		?a: Strains of Serpulina murdochii and Brachyspira aalborgi
+
+
+label:    sent_16
+sentence: The ability to colonize and transfer was tested under different antimicrobial treatments . O157 colonize the bovine epithelial mucosa at the recto-anal junction ( RAJ ) . In temperate climates ectomycorrhizal fungi colonize the roots of many forest plant species .
+
+ppatt:
+	?a colonize
+		?a: The ability
+	?a was tested under ?b
+		?a: The ability to colonize and transfer
+		?b: different antimicrobial treatments
+	?a colonize ?b at ?c
+		?a: O157
+		?b: the bovine epithelial mucosa
+		?c: the recto-anal junction
+	?a is/are RAJ
+		?a: the recto-anal junction
+	In ?a ?b colonize ?c
+		?a: temperate climates
+		?b: ectomycorrhizal fungi
+		?c: the roots of many forest plant species
+
+
+label:    sent_17
+sentence: Failure of mosquitoes to colonize teasel axils in Illinois .
+
+ppatt:
+	?a colonize ?b in ?c
+		?a: Failure of mosquitoes
+		?b: teasel axils
+		?c: Illinois
+
+
+label:    sent_18
+sentence: Bacteria from diverse habitats colonize and compete in the mouse gut .
+
+ppatt:
+	?a colonize
+		?a: Bacteria from diverse habitats
+	?a compete in ?b
+		?a: Bacteria from diverse habitats
+		?b: the mouse gut
+
+
+label:    sent_19
+sentence: Pathogenesis of mucosal microorganisms depends on adherence to the tissues they colonize and infect .
+
+ppatt:
+	?a depends on ?b
+		?a: Pathogenesis of mucosal microorganisms
+		?b: adherence to the tissues
+	?a colonize
+		?a: they
+	?a infect
+		?a: they
+
+
+label:    sent_20
+sentence: Bacteria rapidly colonize and modulate healing of gastric ulcers in rats .
+
+ppatt:
+	?a rapidly colonize ?b
+		?a: Bacteria
+		?b: healing of gastric ulcers in rats
+	?a modulate
+		?a: Bacteria
+
+
+label:    sent_21
+sentence: This strain was able to colonize in the intestinal epithelium .
+
+ppatt:
+	?a was able to colonize in ?b
+		?a: This strain
+		?b: the intestinal epithelium
+
+
+label:    sent_22
+sentence: Bacteria adhere to and colonize almost any surface .
+
+ppatt:
+	?a adhere ?b ?c
+		?a: Bacteria
+		?b: to
+		?c: almost any surface
+	?a colonize
+		?a: Bacteria
+
+
+label:    sent_23
+sentence: Only cells from metastasizing tumors are competent to colonize after direct intrahepatic injection .
+
+ppatt:
+	?a are competent to colonize after ?b
+		?a: Only cells from metastasizing tumors
+		?b: direct intrahepatic injection
+
+
+label:    sent_24
+sentence: Following transplantation , human lymphocytes colonize murine lymphatic organs and secrete human immunoglobulins . Bacterial pathogens colonize respiratory tissue and , as a consequence , compromise lung function .
+
+ppatt:
+	Following ?a , ?b colonize ?c
+		?a: transplantation
+		?b: human lymphocytes
+		?c: murine lymphatic organs
+	?a secrete ?b
+		?a: human lymphocytes
+		?b: human immunoglobulins
+	?a colonize ?b
+		?a: Bacterial pathogens
+		?b: respiratory tissue
+	?a as ?b , compromise ?c
+		?a: human lymphocytes
+		?b: a consequence
+		?c: lung function
+
+
+label:    sent_25
+sentence: The indigenous bacterial microflora colonize the gut at birth and remain there throughout life .
+
+ppatt:
+	?a colonize ?b at ?c
+		?a: The indigenous bacterial microflora
+		?b: the gut
+		?c: birth
+	?a remain there throughout ?b
+		?a: The indigenous bacterial microflora
+		?b: life
+
+

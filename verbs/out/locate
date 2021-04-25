@@ -1,0 +1,327 @@
+label:    sent_1
+sentence: A three-step search strategy was used to locate the literature .
+
+ppatt:
+	?a was used to locate ?b
+		?a: A three-step search strategy
+		?b: the literature
+
+
+label:    sent_2
+sentence: The objective was to locate both organic binders and inorganic pigments .
+
+ppatt:
+	?a was to locate ?b
+		?a: The objective
+		?b: organic binders
+	?a was to locate ?b
+		?a: The objective
+		?b: inorganic pigments
+
+
+label:    sent_3
+sentence: Repeated endoscopies , mesenteric angiography and scintigraphy failed to locate the bleeding site .
+
+ppatt:
+	?a failed to locate ?b
+		?a: Repeated endoscopies
+		?b: the bleeding site
+	?a failed to locate ?b
+		?a: mesenteric angiography
+		?b: the bleeding site
+	?a failed to locate ?b
+		?a: scintigraphy
+		?b: the bleeding site
+
+
+label:    sent_4
+sentence: Rats sweep their vibrissae through space to locate objects in their immediate environment .
+
+ppatt:
+	?a sweep ?b through ?c to locate ?d in ?e
+		?a: Rats
+		?b: their vibrissae
+		?c: space
+		?d: objects
+		?e: their immediate environment
+
+
+label:    sent_5
+sentence: Ten participants in each community were asked to locate their homes on aerial photographs .
+
+ppatt:
+	?a were asked to locate ?b
+		?a: Ten participants in each community
+		?b: their homes on aerial photographs
+
+
+label:    sent_6
+sentence: A 3-dimensional digitizing system was used to locate 19 anatomic landmarks on each specimen .
+
+ppatt:
+	?a was used to locate ?b
+		?a: A 3-dimensional digitizing system
+		?b: 19 anatomic landmarks on each specimen
+
+
+label:    sent_7
+sentence: Their task was to locate different landmarks and become familiar with the town .
+
+ppatt:
+	?a was to locate ?b
+		?a: Their task
+		?b: different landmarks
+	?a become familiar with ?b
+		?a: Their task
+		?b: the town
+
+
+label:    sent_8
+sentence: Intraoperative transesophageal echocardiography was utilized to locate the vegetation and confirm its removal .
+
+ppatt:
+	?a was utilized to locate ?b
+		?a: Intraoperative transesophageal echocardiography
+		?b: the vegetation
+	?a confirm ?b
+		?a: Intraoperative transesophageal echocardiography
+		?b: its removal
+
+
+label:    sent_9
+sentence: Our bats apparently used echolocation for general orientation , but not to locate prey .
+
+ppatt:
+	?a apparently used ?b
+		?a: Our bats
+		?b: echolocation for general orientation
+	?a not to locate ?b
+		?a: Our bats
+		?b: prey
+
+
+label:    sent_10
+sentence: Neurosurgical intervention failed to locate and remove the migrated seed .
+
+ppatt:
+	?a failed to locate ?b
+		?a: Neurosurgical intervention
+		?b: the migrated seed
+	?a failed to remove
+		?a: Neurosurgical intervention
+
+
+label:    sent_11
+sentence: Rats use their whiskers to locate and discriminate tactile features of their environment .
+
+ppatt:
+	?a use ?b to locate ?c
+		?a: Rats
+		?b: their whiskers
+		?c: tactile features of their environment
+	?a use to discriminate
+		?a: Rats
+
+
+label:    sent_12
+sentence: For web masters it provides a mechanism to easily locate and validate the resources .
+
+ppatt:
+	For ?a ?b provides ?c
+		?a: web masters
+		?b: it
+		?c: a mechanism to easily locate and validate the resources
+	?a easily locate ?b
+		?a: a mechanism
+		?b: the resources
+	validate ?a
+		?a: the resources
+
+
+label:    sent_13
+sentence: We did this to aid researchers to locate relevant references .
+
+ppatt:
+	?a did ?b to aid ?c to locate ?d
+		?a: We
+		?b: this
+		?c: researchers
+		?d: relevant references
+
+
+label:    sent_14
+sentence: We locate a novel type of double-crisis vertex which we call a grazing-crisis vertex .
+
+ppatt:
+	?a locate ?b
+		?a: We
+		?b: a novel type of double-crisis vertex which we call a grazing-crisis vertex
+	?a ?b call ?c
+		?a: double-crisis vertex
+		?b: we
+		?c: a grazing-crisis vertex
+
+
+label:    sent_15
+sentence: We contacted authors to locate additional eligible studies . Of 23 practices , 4 could not locate eligible visits .
+
+ppatt:
+	?a contacted ?b
+		?a: We
+		?b: authors to locate additional eligible studies . Of 23 practices
+	?a locate ?b
+		?a: authors
+		?b: additional eligible studies . Of 23 practices
+	?a could not locate ?b
+		?a: 4
+		?b: eligible visits
+
+
+label:    sent_16
+sentence: Male broad-nosed pipefish Syngnathus typhle do not locate females by smell .
+
+ppatt:
+	?a do not locate ?b by ?c
+		?a: Male broad-nosed pipefish Syngnathus typhle
+		?b: females
+		?c: smell
+
+
+label:    sent_17
+sentence: Intraoperative Doppler velocity measurements to locate patent ITA grafts at reoperation .
+
+ppatt:
+	?a locate ?b at ?c
+		?a: Intraoperative Doppler velocity measurements
+		?b: patent ITA grafts
+		?c: reoperation
+
+
+label:    sent_18
+sentence: They follow an atypical pathway of development and preferentially locate to peripheral tissues . A tumor was found to locate in the right lateral ventricle .
+
+ppatt:
+	?a follow ?b
+		?a: They
+		?b: an atypical pathway of development
+	?a preferentially locate to ?b
+		?a: They
+		?b: peripheral tissues
+	?a was found to locate in ?b
+		?a: A tumor
+		?b: the right lateral ventricle
+
+
+label:    sent_19
+sentence: Six novel genes were found to locate in chromosome 5 . Isoforms lacking the transmembrane domain also locate to the nucleoplasm .
+
+ppatt:
+	?a were found to locate in ?b
+		?a: Six novel genes
+		?b: chromosome 5
+	?a lacking ?b
+		?a: Isoforms
+		?b: the transmembrane domain
+	?a also locate to ?b
+		?a: Isoforms lacking the transmembrane domain
+		?b: the nucleoplasm
+
+
+label:    sent_20
+sentence: The compensatory mutations do not locate to the molecularly modeled intermolecular NTD-CTD interface .
+
+ppatt:
+	?a do not locate to ?b
+		?a: The compensatory mutations
+		?b: the molecularly modeled intermolecular NTD-CTD interface
+
+
+label:    sent_21
+sentence: The 34.1 kDa MbCRP1-green fluorescent protein fusion protein locate specifically in the cytoplasm .
+
+ppatt:
+	?a locate specifically in ?b
+		?a: The 34.1 kDa MbCRP1-green fluorescent protein fusion protein
+		?b: the cytoplasm
+
+
+label:    sent_22
+sentence: The study demonstrates that rats locate food and direct reaching using olfaction .
+
+ppatt:
+	?a demonstrates ?b
+		?a: The study
+		?b: SOMETHING := rats locate food and direct reaching using olfaction
+	?a locate ?b using ?c
+		?a: rats
+		?b: food
+		?c: olfaction
+	?a locate ?b using ?c
+		?a: rats
+		?b: direct reaching
+		?c: olfaction
+
+
+label:    sent_23
+sentence: A transesophageal echocardiography technique to locate the kidney and monitor renal perfusion .
+
+ppatt:
+	?a locate ?b
+		?a: A transesophageal echocardiography technique
+		?b: the kidney
+	monitor ?a
+		?a: renal perfusion
+
+
+label:    sent_24
+sentence: Students described how grades locate their performance and calibrate their self-assessment .
+
+ppatt:
+	?a described
+		?a: Students
+	?a how ?b locate ?c
+		?a: Students described
+		?b: grades
+		?c: their performance
+	?a calibrate ?b
+		?a: Students described
+		?b: their self-assessment
+
+
+label:    sent_25
+sentence: We conclude that Cro slides along the DNA to locate and leave the operator .
+
+ppatt:
+	?a conclude ?b
+		?a: We
+		?b: SOMETHING := Cro slides along the DNA to locate and leave the operator
+	?a slides along ?b to locate ?c
+		?a: Cro
+		?b: the DNA
+		?c: the operator
+	?a slides to leave
+		?a: Cro
+
+
+label:    sent_26
+sentence: A double channel laparoscope aids to locate and exteriorize the appendix .
+
+ppatt:
+	?a aids to locate ?b
+		?a: A double channel laparoscope
+		?b: the appendix
+	?a aids to exteriorize
+		?a: A double channel laparoscope
+
+
+label:    sent_27
+sentence: A crowdsourcing innovation challenge to locate and map automated external defibrillators .
+
+ppatt:
+	?a locate ?b
+		?a: A crowdsourcing innovation challenge
+		?b: automated external defibrillators
+	map ?a
+		?a: automated external defibrillators
+
+

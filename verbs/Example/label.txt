@@ -1,0 +1,40 @@
+prep	Systemic drugs were more frequently prescribed according to the label than topical agents .	prep_than@agents
+prep	The sedating antidepressant mirtazapine is used off label for insomnia in perimenopausal women .	prep_for@insomnia prep_in@women
+prep	Iodine-124 as a label for pharmacological PET imaging .	prep_for@imaging
+
+obj	Leukostasis was assessed using FITC - conjugated ConA to label leukocytes .	obj@leukocytes
+obj	Several methods to label native DNA have been developed in the last two decades .	obj@DNA
+obj	Techniques employing viral tracing or reporter genes also commonly use GFP to label cells .	obj@cells
+
+obj#prep	5'-Bromo-2'-deoxyuridine ( BrdU ) was injected to label dividing cells before the drug treatment .	obj@cells prep_before@treatment
+obj#prep	Bromodeoxyuridine was injected daily to label proliferating cells during the first postischemic week .	obj@cells prep_during@week
+obj#prep	When used in paired label localization experiments in s.c.	obj@experiments prep_in@s.c.
+
+subj#obj	Open label intervention .	subj@Open obj@intervention
+subj#obj	Nanoparticle sensor for label free detection of swine DNA in mixed biological samples .	subj@sensor obj@detection
+subj#obj	Generic arterial spin labeling ( ASL ) techniques label all brain feeding arteries .	subj@techniques obj@arteries
+
+subj	When off label is off target .	subj@target
+subj	All trials were open label , which may introduce bias .	subj@trials
+subj	The study design was open label and subject matched with crossover of therapeutic regimens .	subj@open
+
+subj#obj#prep	Injections of HRP in the lateral thalamus retrogradely label neurons throughout the visual cortex .	subj@Injections obj@neurons prep_throughout@cortex
+subj#obj#prep	Methods to label monoclonal antibodies for use in tumor imaging .	subj@Methods obj@antibodies prep_for@use
+subj#obj#prep	Use of spin label and the flow-induced ESR spectral difference for studying erythrocyte deformation .	subj@Use obj@difference prepc_for@studying
+
+subj#prep	Positively coded photoaffinity label for altering isoelectric points of proteins .	subj@photoaffinity prepc_for@altering
+subj#prep	Fluorogenic label for biomolecular imaging .	subj@Fluorogenic prep_for@imaging
+subj#prep	A substrate and photoaffinity label for CMP-N-acetylneuraminic acid synthetase .	subj@photoaffinity subj@substrate prep_for@synthetase
+
+obj#conj	Production the 20nm colloidal gold and label the monoclonal antibody .	obj@antibody conj_and@Production
+obj#conj	Integrated optical payload envelope detection and label recovery device for optical packet switching networks .	obj@device conj_and@Integrated
+obj#conj	The autistic label and its potentially detrimental effect on the child 's treatment .	obj@autistic conj_and@effect
+
+conj	The high extinction ratio of both the payload and label improves the receiver margin .	conj_and@payload
+conj	An uptake , spin label and calorimetric study .	conj_and@study
+conj	Single-cell electroporation is an affordable method to fluorescently label and genetically manipulate individual cells .	conj_and@manipulate
+
+prep#conj	Judgments of EMR students toward their peers : effects of label and academic competence .	prep_of@effects conj_and@competence
+prep#conj	Moreover , a general evaluation on label and packaging characteristics was performed .	prep_on@evaluation conj_and@characteristics
+prep#conj	However , highly charged ligands are difficult to label with 99mTc and to purify .	prep_with@99mTc conj_and@purify
+

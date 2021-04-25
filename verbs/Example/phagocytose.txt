@@ -1,0 +1,34 @@
+obj	Neutrophils are previously known to phagocytose invading pathogens and harmful particles .	obj@pathogens
+obj	Furthermore , the capacity of the cell lines to phagocytose latex microspheres was analyzed .	obj@microspheres
+obj	These cells were also shown to actively phagocytose labeled zymosan particles in culture .	obj@particles
+
+subj#obj	Demonstration of the ability of Hofbauer cells to phagocytose exogenous antibodies .	subj@Demonstration obj@antibodies
+subj#obj	Peritoneal macrophages which phagocytose autologous polymorphonuclear leucocytes in guinea-pigs .	subj@macrophages obj@leucocytes
+subj#obj	The myeloma cells did not phagocytose staphylococci in vitro .	subj@cells obj@staphylococci
+
+conj	Even though leukocytes can penetrate biofilms , they fail to phagocytose and kill bacteria .	conj_and@kill
+conj	Heterophils from all chickens were able to phagocytose and kill log phase staphylococcal bacteria .	conj_and@kill
+conj	The cells can chemotax , phagocytose , cap crosslinked receptors , and contract normally .	conj_and@chemotax
+
+obj#conj	Human neutrophils recognise and phagocytose non-opsonised particles coated with bacterial antigen .	obj@particles conj_and@recognise
+obj#conj	No calcium transients were detected in cells that bound but did not phagocytose beads .	obj@beads conj_but@bound
+obj#conj	Microglia are activated by and can phagocytose beta-amyloid ( Abeta ) .	obj@beta-amyloid conj_and@activated
+
+subj#obj#conj	These cells phagocytose the mobilized neutrophils and return the pleural cavity to normal .	subj@cells obj@neutrophils conj_and@return
+subj#obj#conj	Human osteoblast-like cells phagocytose metal particles and express the macrophage marker CD68 in vitro .	subj@cells obj@particles conj_and@express
+subj#obj#conj	Monocytes/macrophages phagocytose wear particles and release cytokines that induce inflammatory response .	subj@Monocytes/macrophages obj@particles conj_and@release
+
+obj#prep	Furthermore , RPE monolayers were able to phagocytose POS in a time-dependent manner .	obj@POS prep_in@manner
+obj#prep	Microglia were shown to phagocytose Abeta1-42 , in agreement with observations of other investigators .	obj@Abeta1-42 prep_in@agreement
+obj#prep	Cultured Schwann cells were found to phagocytose exogenously applied myelin membranes within 1 h .	obj@membranes prep_within@h
+
+subj#obj#prep	Macrophages phagocytose apoptotic cells without causing neutrophil infiltration in vivo under physiological conditions .	subj@Macrophages obj@cells prepc_without@causing
+subj#obj#prep	In sensory projection areas , microglial cells phagocytose degenerating axons and terminals .	subj@cells obj@axons prep_in@areas
+subj#obj#prep	Human granulocytes phagocytose Campylobacter sp. with a twofold higher effectivity than murine cells .	subj@granulocytes obj@Campylobacter prep_with@effectivity
+
+subj#conj	They phagocytose and kill many invading pathogens .	subj@They conj_and@kill
+subj#conj	We report here that macrophages from MacMARCKS null mice phagocytose and spread normally .	subj@macrophages conj_and@spread
+subj#conj	Human plasmacytoid dendritic cells phagocytose , process , and present exogenous particulate antigen .	subj@cells conj_and@present conj_and@process
+
+subj#prep#conj	During demyelination , macrophages phagocytose myelin and secrete inflammatory mediators that worsen the disease .	subj@macrophages prep_during@demyelination conj_and@secrete
+

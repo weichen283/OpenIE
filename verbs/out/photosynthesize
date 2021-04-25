@@ -1,0 +1,20 @@
+label:    sent_1
+sentence: Developing embryos of Sesbania sesban have unique potential to photosynthesize under high osmotic environment . 2060 species are hemiparasites that photosynthesize throughout all or part of their life cycles .
+
+ppatt:
+	?a have ?b
+		?a: Developing embryos of Sesbania sesban
+		?b: unique potential to photosynthesize under high osmotic environment
+	?a photosynthesize under ?b
+		?a: unique potential
+		?b: high osmotic environment
+	?a are hemiparasites
+		?a: 2060 species
+	?a photosynthesize throughout ?b
+		?a: hemiparasites
+		?b: all of their life cycles
+	?a photosynthesize throughout ?b
+		?a: hemiparasites
+		?b: part
+
+

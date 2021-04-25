@@ -1,0 +1,337 @@
+label:    sent_1
+sentence: Data were used to develop an artificial neural network for activity recognition .
+
+ppatt:
+	?a were used to develop ?b for ?c
+		?a: Data
+		?b: an artificial neural network
+		?c: activity recognition
+
+
+label:    sent_2
+sentence: To develop consensual practice recommendations for treating the aging upper- and mid-face with onabotulinum .
+
+ppatt:
+	develop ?a
+		?a: consensual practice recommendations
+	?a treating ?b with ?c
+		?a: consensual practice recommendations
+		?b: the aging upper-
+		?c: onabotulinum
+	?a treating ?b with ?c
+		?a: consensual practice recommendations
+		?b: mid-face
+		?c: onabotulinum
+
+
+label:    sent_3
+sentence: Pediatric patients are more prone to develop vascular complications after LDLT . 20-25 % of Stage II patients also develop recurrent disease .
+
+ppatt:
+	?a are more prone to develop ?b after ?c
+		?a: Pediatric patients
+		?b: vascular complications
+		?c: LDLT
+	?a also develop ?b
+		?a: 20-25 % of Stage II patients
+		?b: recurrent disease
+
+
+label:    sent_4
+sentence: However , he did not develop delayed encephalopathy .
+
+ppatt:
+	However , ?a did not develop ?b
+		?a: he
+		?b: delayed encephalopathy
+
+
+label:    sent_5
+sentence: It is essential that nurses develop positive relationships with patients to enable successful treatment .
+
+ppatt:
+	?a is essential ?b
+		?a: It
+		?b: SOMETHING := nurses develop positive relationships with patients to enable successful treatment
+	?a develop ?b to enable ?c
+		?a: nurses
+		?b: positive relationships with patients
+		?c: successful treatment
+
+
+label:    sent_6
+sentence: Circadian rhythms develop over the first months and years of life .
+
+ppatt:
+	?a develop over ?b
+		?a: Circadian rhythms
+		?b: the first months
+	?a develop over ?b
+		?a: Circadian rhythms
+		?b: years of life
+
+
+label:    sent_7
+sentence: Oral squamous cell carcinomas ( OSCCs ) develop commonly in cats .
+
+ppatt:
+	?a is/are OSCCs
+		?a: Oral squamous cell carcinomas
+	?a develop commonly in ?b
+		?a: Oral squamous cell carcinomas
+		?b: cats
+
+
+label:    sent_8
+sentence: This suggests that human and feline OSCCs develop due to different molecular mechanisms .
+
+ppatt:
+	?a suggests ?b
+		?a: This
+		?b: SOMETHING := human and feline OSCCs develop due to different molecular mechanisms
+	?a develop due to ?b
+		?a: human and feline OSCCs
+		?b: different molecular mechanisms
+
+
+label:    sent_9
+sentence: On the other hand , only 5-10 % of heavy drinkers develop chronic pancreatitis .
+
+ppatt:
+	On ?a , ?b develop ?c
+		?a: the other hand
+		?b: only 5-10 % of heavy drinkers
+		?c: chronic pancreatitis
+
+
+label:    sent_10
+sentence: Bilateral lung transplant recipients may develop benign PI or pneumoperitoneum after surgery .
+
+ppatt:
+	?a may develop ?b after ?c
+		?a: Bilateral lung transplant recipients
+		?b: benign PI
+		?c: surgery
+	?a may develop ?b after ?c
+		?a: Bilateral lung transplant recipients
+		?b: pneumoperitoneum
+		?c: surgery
+
+
+label:    sent_11
+sentence: Most develop moderate intellectual disability within a few years of onset of the syndrome .
+
+ppatt:
+	Most develop ?a within ?b
+		?a: moderate intellectual disability
+		?b: a few years of onset of the syndrome
+
+
+label:    sent_12
+sentence: A community forum was held to develop recommendations and move these themes to action .
+
+ppatt:
+	?a was held to develop ?b
+		?a: A community forum
+		?b: recommendations
+	?a was held to move ?b to ?c
+		?a: A community forum
+		?b: these themes
+		?c: action
+
+
+label:    sent_13
+sentence: However , not all behaviorally inhibited children remain reticent or develop an anxiety disorder .
+
+ppatt:
+	?a behaviorally inhibited
+		?a: not all
+	However , ?a remain reticent
+		?a: not all behaviorally inhibited children
+	?a develop ?b
+		?a: not all behaviorally inhibited children
+		?b: an anxiety disorder
+
+
+label:    sent_14
+sentence: To develop an instrument to measure pharmacists ' attitudes and barriers toward health literacy .
+
+ppatt:
+	develop ?a
+		?a: an instrument to measure pharmacists ' attitudes and barriers toward health literacy
+	?a measure ' ?b
+		?a: an instrument
+		?b: pharmacists attitudes toward health literacy
+	?a measure ' ?b
+		?a: an instrument
+		?b: barriers
+
+
+label:    sent_15
+sentence: How to develop patient trust in anorexia treatment .
+
+ppatt:
+	How to develop ?a in ?b
+		?a: patient trust
+		?b: anorexia treatment
+
+
+label:    sent_16
+sentence: Further work is needed to develop more sensitive , efficient tools in this population .
+
+ppatt:
+	?a is needed to develop ?b
+		?a: Further work
+		?b: more sensitive , tools in this population
+
+
+label:    sent_17
+sentence: Close follow-up of patients will prevent many expanders that develop complications from becoming failures .
+
+ppatt:
+	?a will prevent ?b
+		?a: Close follow-up of patients
+		?b: many expanders that develop complications from becoming failures
+	?a develop ?b
+		?a: many expanders
+		?b: complications from becoming failures
+
+
+label:    sent_18
+sentence: To develop and validate a taxonomy for the domain of clinical research nursing .
+
+ppatt:
+	develop ?a
+		?a: a taxonomy for the domain of clinical research nursing
+	validate ?a
+		?a: a taxonomy for the domain of clinical research nursing
+
+
+label:    sent_19
+sentence: To develop and validate an efficient comet assay on mouse oocytes without depellucidation .
+
+ppatt:
+	develop ?a without ?b
+		?a: an efficient comet assay on mouse oocytes
+		?b: depellucidation
+	validate ?a
+		?a: an efficient comet assay on mouse oocytes
+
+
+label:    sent_20
+sentence: The authors aimed to develop and validate an instrument to measure teamwork behaviours .
+
+ppatt:
+	?a aimed to develop ?b
+		?a: The authors
+		?b: an instrument to measure teamwork behaviours
+	?a aimed to validate
+		?a: The authors
+	?a measure ?b
+		?a: an instrument
+		?b: teamwork behaviours
+
+
+label:    sent_21
+sentence: Commercial spaceflight is expected to rapidly develop in the near future .
+
+ppatt:
+	?a is expected to rapidly develop in ?b
+		?a: Commercial spaceflight
+		?b: the near future
+
+
+label:    sent_22
+sentence: Critical thinking is an important characteristic to develop in respiratory care students .
+
+ppatt:
+	?a is an important characteristic
+		?a: Critical thinking
+	?a develop in ?b
+		?a: an important characteristic
+		?b: respiratory care students
+
+
+label:    sent_23
+sentence: He noticed a red streak develop during the past year .
+
+ppatt:
+	?a noticed ?b ?c
+		?a: He
+		?b: a red streak
+		?c: SOMETHING := develop during the past year
+	?a develop during ?b
+		?a: He
+		?b: the past year
+
+
+label:    sent_24
+sentence: They can develop wherever smooth muscle is present .
+
+ppatt:
+	?a can develop
+		?a: They
+	?a is present
+		?a: smooth muscle
+
+
+label:    sent_25
+sentence: We further develop two novel association tests that adjust for local ancestry .
+
+ppatt:
+	?a further develop ?b
+		?a: We
+		?b: two novel association tests that adjust for local ancestry
+	?a adjust for ?b
+		?a: two novel association tests
+		?b: local ancestry
+
+
+label:    sent_26
+sentence: These deaf individuals develop their own gestures , called homesigns , to communicate .
+
+ppatt:
+	?a develop ?b
+		?a: These deaf individuals
+		?b: their own gestures , called homesigns
+	?a called homesigns
+		?a: their own gestures
+	?a communicate
+		?a: These deaf individuals
+
+
+label:    sent_27
+sentence: It has several mechanisms of action , but cancer cells can develop resistance .
+
+ppatt:
+	?a has ?b
+		?a: It
+		?b: several mechanisms of action
+	?a can develop ?b
+		?a: cancer cells
+		?b: resistance
+
+
+label:    sent_28
+sentence: Furthermore , Smad4-deficient neurons develop simpler terminal arbors and form fewer synapses .
+
+ppatt:
+	Furthermore , ?a develop ?b
+		?a: Smad4-deficient neurons
+		?b: simpler terminal arbors
+	?a form ?b
+		?a: Smad4-deficient neurons
+		?b: fewer synapses
+
+
+label:    sent_29
+sentence: How we develop and sustain innovation in medical education technology : Keys to success .
+
+ppatt:
+	How ?a develop ?b
+		?a: we
+		?b: innovation in medical education technology
+	?a sustain
+		?a: we
+
+

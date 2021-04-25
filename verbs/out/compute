@@ -1,0 +1,280 @@
+label:    sent_1
+sentence: Stratified Cox proportional hazard regressions were performed to compute the 2-year HZ-free survival rates .
+
+ppatt:
+	?a were performed to compute ?b
+		?a: Stratified Cox proportional hazard regressions
+		?b: the 2-year HZ-free survival rates
+
+
+label:    sent_2
+sentence: The values of Deltaf1 and Deltaf2 were used to compute 2 velocity measurements .
+
+ppatt:
+	?a were used to compute ?b
+		?a: The values of Deltaf1 and Deltaf2
+		?b: 2 velocity measurements
+
+
+label:    sent_3
+sentence: This study describes a method to compute these uncertainties using the Monte Carlo method .
+
+ppatt:
+	?a describes ?b
+		?a: This study
+		?b: a method to compute these uncertainties using the Monte Carlo method
+	?a compute ?b using ?c
+		?a: a method
+		?b: these uncertainties
+		?c: the Monte Carlo method
+
+
+label:    sent_4
+sentence: The method , however , can not reliably compute more than one value per min .
+
+ppatt:
+	?a however , can not reliably compute ?b
+		?a: The method
+		?b: more than one value per min
+
+
+label:    sent_5
+sentence: The Jacobian of the deformation was used to compute voxel values in Hounsfield units .
+
+ppatt:
+	?a was used to compute ?b
+		?a: The Jacobian of the deformation
+		?b: voxel values in Hounsfield units
+
+
+label:    sent_6
+sentence: The weights are then used to compute Wilk 's lambda for the weighted model .
+
+ppatt:
+	?a are then used to compute 's ?b for ?c
+		?a: The weights
+		?b: Wilk lambda
+		?c: the weighted model
+
+
+label:    sent_7
+sentence: We compute the optimized bond length , dissociation energy , and anharmonic vibrational frequencies . A method to compute probability current in generic coordinates .
+
+ppatt:
+	?a compute ?b ?c
+		?a: We
+		?b: the optimized bond length
+		?c: A method to compute probability current in generic coordinates
+	?a compute ?b ?c
+		?a: We
+		?b: dissociation energy
+		?c: A method to compute probability current in generic coordinates
+	?a compute ?b ?c
+		?a: We
+		?b: anharmonic vibrational
+		?c: A method to compute probability current in generic coordinates
+	?a compute ?b ?c
+		?a: We
+		?b: frequencies
+		?c: A method to compute probability current in generic coordinates
+	?a compute ?b
+		?a: A method
+		?b: probability current in generic coordinates
+
+
+label:    sent_8
+sentence: An ontology-based measure to compute semantic similarity in biomedicine .
+
+ppatt:
+	?a compute ?b
+		?a: An ontology-based measure
+		?b: semantic similarity in biomedicine
+
+
+label:    sent_9
+sentence: To this end we compute order parameters for chiral symmetry breaking and quark confinement .
+
+ppatt:
+	To ?a ?b compute ?c
+		?a: this end
+		?b: we
+		?c: order parameters for chiral symmetry breaking and quark confinement
+
+
+label:    sent_10
+sentence: We compute these coefficients from our model using fluid-gravity duality .
+
+ppatt:
+	?a compute ?b from ?c using ?d
+		?a: We
+		?b: these coefficients
+		?c: our model
+		?d: fluid-gravity duality
+
+
+label:    sent_11
+sentence: Simulation results show that the proposed approach compute f-information measure easily without discretisation .
+
+ppatt:
+	?a show ?b
+		?a: Simulation results
+		?b: SOMETHING := the proposed approach compute f-information measure easily without discretisation
+	?a compute ?b easily without ?c
+		?a: the proposed approach
+		?b: f-information measure
+		?c: discretisation
+
+
+label:    sent_12
+sentence: Methods to impute genotypes and compute genomic evaluations were affordable with many more markers .
+
+ppatt:
+	?a impute ?b
+		?a: Methods
+		?b: genotypes
+	?a compute ?b
+		?a: Methods
+		?b: genomic evaluations
+	?a were affordable with ?b
+		?a: Methods to impute genotypes and compute genomic evaluations
+		?b: many more markers
+
+
+label:    sent_13
+sentence: Using DelPhi to compute electrostatic potentials and assess their contribution to interactions .
+
+ppatt:
+	Using ?a
+		?a: DelPhi
+	compute ?a
+		?a: electrostatic potentials
+	assess ?a
+		?a: their contribution to interactions
+
+
+label:    sent_14
+sentence: We segment the sperm heads and compute a feature vector for each head .
+
+ppatt:
+	?a segment ?b
+		?a: We
+		?b: the sperm heads
+	?a compute ?b
+		?a: We
+		?b: a feature vector for each head
+
+
+label:    sent_15
+sentence: This article describes a visual-world study investigating how and when perceivers compute these inferences .
+
+ppatt:
+	?a describes ?b
+		?a: This article
+		?b: a visual-world study investigating how and when perceivers compute these inferences
+	?a investigating ?b
+		?a: a visual-world study
+		?b: SOMETHING := how when perceivers compute these inferences
+	how when ?a compute ?b
+		?a: perceivers
+		?b: these inferences
+
+
+label:    sent_16
+sentence: We compute the nonlinear dispersion relation and the field profiles , and estimate losses .
+
+ppatt:
+	?a compute ?b
+		?a: We
+		?b: the nonlinear dispersion relation
+	?a compute ?b
+		?a: We
+		?b: the field profiles
+	?a estimate ?b
+		?a: We
+		?b: losses
+
+
+label:    sent_17
+sentence: We compute interaction energies and find excellent agreement to the original potential .
+
+ppatt:
+	?a compute ?b
+		?a: We
+		?b: interaction energies
+	?a find ?b
+		?a: We
+		?b: excellent agreement to the original potential
+
+
+label:    sent_18
+sentence: The key is to compute and combine spectral and multi-scale spatial features . Engineering genetic circuits that compute and remember .
+
+ppatt:
+	?a is to compute ?b
+		?a: The key
+		?b: spectral and multi-scale spatial features
+	?a is to combine
+		?a: The key
+	?a Engineering ?b
+		?a: The key
+		?b: genetic circuits that compute and remember
+	?a compute
+		?a: genetic circuits
+	?a remember
+		?a: that
+
+
+label:    sent_19
+sentence: To compute ... or not to compute ? Moreover posterior class pixel probability estimation is easy to compute with Platt method .
+
+ppatt:
+	compute ?a ?b
+		?a: ...
+		?b: Moreover posterior class pixel probability estimation
+	not to compute ?a
+		?a: Moreover posterior class pixel probability estimation
+	?a is easy to compute with ?b
+		?a: Moreover posterior class pixel probability estimation
+		?b: Platt method
+
+
+label:    sent_20
+sentence: The MFPH statistic is straightforward to compute for phased SNP- and sequence-data . SAS and R functions to compute pseudo-values for censored data regression .
+
+ppatt:
+	?a is straightforward to compute for ?b
+		?a: The MFPH statistic
+		?b: phased SNP-
+	?a is straightforward to compute for ?b
+		?a: The MFPH statistic
+		?b: sequence-data
+	?a functions to compute ?b for ?c
+		?a: SAS
+		?b: pseudo-values
+		?c: censored data regression
+	?a functions to compute ?b for ?c
+		?a: R
+		?b: pseudo-values
+		?c: censored data regression
+
+
+label:    sent_21
+sentence: We compute leave-one-out pseudo-observations from the cumulative incidence function at several time points . Comparison does not compute .
+
+ppatt:
+	?a compute ?b at ?c
+		?a: We
+		?b: leave-one-out pseudo-observations from the cumulative incidence function
+		?c: several time points
+	?a does not compute
+		?a: Comparison
+
+
+label:    sent_22
+sentence: Noisy neurons can certainly compute .
+
+ppatt:
+	?a can certainly compute
+		?a: Noisy neurons
+
+

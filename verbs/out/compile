@@ -1,0 +1,207 @@
+label:    sent_1
+sentence: The information was used to compile delineations of radiation safety .
+
+ppatt:
+	?a was used to compile ?b
+		?a: The information
+		?b: delineations of radiation safety
+
+
+label:    sent_2
+sentence: To analyze and compile the laboratory abnormalities of 126 adult patients with DM1 .
+
+ppatt:
+	analyze ?a
+		?a: the laboratory abnormalities of 126 adult patients with DM1
+	compile ?a
+		?a: the laboratory abnormalities of 126 adult patients with DM1
+
+
+label:    sent_3
+sentence: The final aim was to compile guidelines for health education to pregnant women .
+
+ppatt:
+	?a was to compile ?b
+		?a: The final aim
+		?b: guidelines for health education to pregnant women
+
+
+label:    sent_4
+sentence: We want to compile and share database of laboratory information .
+
+ppatt:
+	?a want to compile ?b
+		?a: We
+		?b: database of laboratory information
+	?a want to share
+		?a: We
+
+
+label:    sent_5
+sentence: Gives hospitals the ability to better compile , record , and manage patient information .
+
+ppatt:
+	Gives ?a ?b
+		?a: hospitals
+		?b: the ability to better compile , record , and manage patient information
+	?a better compile ?b
+		?a: the ability
+		?b: record
+	manage ?a
+		?a: patient information
+
+
+label:    sent_6
+sentence: ExonSuite is available to compile and run at https : //github.com/dilanustek/ExonSuite .
+
+ppatt:
+	?a is available to compile at ?b
+		?a: ExonSuite
+		?b: https : //github.com/dilanustek/ExonSuite
+	?a is available to run
+		?a: ExonSuite
+
+
+label:    sent_7
+sentence: To compile imaging findings in patients with vocal fold paralysis .
+
+ppatt:
+	compile ?a
+		?a: imaging findings in patients with vocal fold paralysis
+
+
+label:    sent_8
+sentence: We applied large scale analysis to compile robust conclusions on both data sets .
+
+ppatt:
+	?a applied ?b
+		?a: We
+		?b: large scale analysis
+	?a compile ?b
+		?a: We
+		?b: robust conclusions on both data sets
+
+
+label:    sent_9
+sentence: Qualitative content analysis was used to compile their frequencies from recurring themes .
+
+ppatt:
+	?a was used to compile ?b
+		?a: Qualitative content analysis
+		?b: their frequencies from recurring themes
+
+
+label:    sent_10
+sentence: We compile the maturity levels for each developmental milestone recorded in staging atlases .
+
+ppatt:
+	?a compile ?b
+		?a: We
+		?b: the maturity levels for each developmental milestone recorded in staging atlases
+	?a recorded in ?b
+		?a: each developmental milestone
+		?b: staging atlases
+
+
+label:    sent_11
+sentence: To compile cases of chromosome 9p deletion associated with congenital glaucoma from the literature .
+
+ppatt:
+	compile ?a
+		?a: cases of chromosome 9p deletion associated with congenital glaucoma from the literature
+	?a associated with ?b
+		?a: chromosome 9p deletion
+		?b: congenital glaucoma from the literature
+
+
+label:    sent_12
+sentence: To compile plants used for the treatment of different gastrointestinal disorders in Bangladesh .
+
+ppatt:
+	compile ?a
+		?a: plants used for the treatment of different gastrointestinal disorders in Bangladesh
+	?a used for ?b
+		?a: plants
+		?b: the treatment of different gastrointestinal disorders in Bangladesh
+
+
+label:    sent_13
+sentence: We compile potentially useful compounds together with their recommended stock and working concentrations .
+
+ppatt:
+	?a compile ?b with ?c
+		?a: We
+		?b: potentially useful compounds
+		?c: together their recommended stock
+	?a compile ?b with ?c
+		?a: We
+		?b: potentially useful compounds
+		?c: working
+	?a compile ?b with ?c
+		?a: We
+		?b: potentially useful compounds
+		?c: concentrations
+
+
+label:    sent_14
+sentence: Here we compile springtime ozone measurements from many different platforms across western North America .
+
+ppatt:
+	Here ?a compile ?b from ?c
+		?a: we
+		?b: springtime ozone measurements
+		?c: many different platforms across western North America
+
+
+label:    sent_15
+sentence: Police surgeons regularly compile these reports without any complications .
+
+ppatt:
+	?a regularly compile ?b without ?c
+		?a: Police surgeons
+		?b: these reports
+		?c: any complications
+
+
+label:    sent_16
+sentence: Here we compile these plants and discuss their use from a pharmacological perspective .
+
+ppatt:
+	Here ?a compile ?b
+		?a: we
+		?b: these plants
+	?a discuss ?b
+		?a: we
+		?b: their use from a pharmacological perspective
+
+
+label:    sent_17
+sentence: Groups compile and compare millennium-related data . Here we compile and compare these results and discuss the involvement of each process .
+
+ppatt:
+	?a compile ?b
+		?a: Groups
+		?b: millennium-related data
+	?a compare
+		?a: Groups
+	Here ?a compile ?b
+		?a: we
+		?b: these results
+	?a compare
+		?a: we
+	?a discuss ?b
+		?a: we
+		?b: the involvement of each process
+
+
+label:    sent_18
+sentence: Computational approaches to compile and annotate repertoires of regulators for any genome .
+
+ppatt:
+	?a compile ?b
+		?a: Computational approaches
+		?b: repertoires of regulators for any genome
+	annotate ?a
+		?a: repertoires of regulators for any genome
+
+

@@ -1,0 +1,234 @@
+label:    sent_1
+sentence: Melting or annealing is used to quench the free radicals .
+
+ppatt:
+	?a is used to quench ?b
+		?a: Melting
+		?b: the free radicals
+	?a is used to quench ?b
+		?a: annealing
+		?b: the free radicals
+
+
+label:    sent_2
+sentence: This method uses electron transfer to quench the emission from a ZnS-coated CdSe nanoparticle .
+
+ppatt:
+	?a uses ?b to quench ?c
+		?a: This method
+		?b: electron transfer
+		?c: the emission from a ZnS-coated CdSe nanoparticle
+
+
+label:    sent_3
+sentence: Higher concentrations of anthracycline were needed to quench the fluorescence of tryptophan .
+
+ppatt:
+	?a were needed to quench ?b
+		?a: Higher concentrations of anthracycline
+		?b: the fluorescence of tryptophan
+
+
+label:    sent_4
+sentence: Lactobacillus reuteri-produced cyclic dipeptides quench agr-mediated expression of toxic shock syndrome toxin-1 in staphylococci .
+
+ppatt:
+	?a quench ?b
+		?a: Lactobacillus reuteri-produced cyclic dipeptides
+		?b: agr-mediated expression of toxic shock syndrome toxin-1 in staphylococci
+
+
+label:    sent_5
+sentence: Un-aggregated GNPs could effectively quench the fluorescence of RB .
+
+ppatt:
+	?a could effectively quench ?b
+		?a: Un-aggregated GNPs
+		?b: the fluorescence of RB
+
+
+label:    sent_6
+sentence: We hypothesized , that free tryptophan may quench the HOCl attack therefore protecting LDL .
+
+ppatt:
+	?a hypothesized ?b
+		?a: We
+		?b: SOMETHING := free tryptophan may quench the HOCl attack therefore protecting LDL
+	?a may quench ?b therefore protecting ?c
+		?a: free tryptophan
+		?b: the HOCl attack
+		?c: LDL
+
+
+label:    sent_7
+sentence: It may be used to quench thrombin activity upon extensive or limited action .
+
+ppatt:
+	?a may be used to quench ?b upon ?c
+		?a: It
+		?b: thrombin activity
+		?c: extensive or limited action
+
+
+label:    sent_8
+sentence: EDTA was used to quench the reaction by removal of Fe2+ .
+
+ppatt:
+	?a was used to quench ?b by ?c
+		?a: EDTA
+		?b: the reaction
+		?c: removal of Fe2+
+
+
+label:    sent_9
+sentence: Blue light is unable to quench fluorescence in the absence of phycobilisomes or OCP .
+
+ppatt:
+	?a is unable to quench ?b in of ?c
+		?a: Blue light
+		?b: fluorescence
+		?c: phycobilisomes
+	?a is unable to quench ?b in of ?c
+		?a: Blue light
+		?b: fluorescence
+		?c: OCP
+
+
+label:    sent_10
+sentence: These amine groups can quench the excited fluorophore through an electron transfer process .
+
+ppatt:
+	?a can quench ?b through ?c
+		?a: These amine groups
+		?b: the excited fluorophore
+		?c: an electron transfer process
+
+
+label:    sent_11
+sentence: Active site modifications quench intrinsic fluorescence of rhodanese by different mechanisms . GQDs could quench the intrinsic fluorescence of HSA via static mode .
+
+ppatt:
+	?a quench ?b by ?c
+		?a: Active site modifications
+		?b: intrinsic fluorescence of rhodanese
+		?c: different mechanisms
+	?a could quench ?b via ?c
+		?a: GQDs
+		?b: the intrinsic fluorescence of HSA
+		?c: static mode
+
+
+label:    sent_12
+sentence: The oxygenase inhibitor-antiperoxidants identified could neither quench superoxide radical nor inhibit xanthine oxidase .
+
+ppatt:
+	?a identified
+		?a: The oxygenase inhibitor-antiperoxidants
+	?a could neither quench ?b
+		?a: The oxygenase inhibitor-antiperoxidants identified
+		?b: superoxide radical
+	?a inhibit ?b
+		?a: The oxygenase inhibitor-antiperoxidants identified
+		?b: xanthine oxidase
+
+
+label:    sent_13
+sentence: Sevoflurane has been shown to quench inflammation and to provide cardioprotection in preclinical studies .
+
+ppatt:
+	?a has been shown to quench ?b
+		?a: Sevoflurane
+		?b: inflammation
+	?a has been shown to to provide ?b
+		?a: Sevoflurane
+		?b: cardioprotection in preclinical studies
+
+
+label:    sent_14
+sentence: Such colloids can absorb and quench dye-labeled single-stranded DNA ( ssDNA ) very effectively .
+
+ppatt:
+	?a can absorb ?b very effectively
+		?a: Such colloids
+		?b: dye-labeled single-stranded DNA
+	?a quench
+		?a: Such colloids
+	?a is/are ssDNA
+		?a: dye-labeled single-stranded DNA
+
+
+label:    sent_15
+sentence: Advanced glycosylation products quench nitric oxide and mediate defective endothelium-dependent vasodilatation in experimental diabetes .
+
+ppatt:
+	?a quench ?b
+		?a: Advanced glycosylation products
+		?b: nitric oxide
+	?a mediate ?b
+		?a: Advanced glycosylation products
+		?b: defective endothelium-dependent vasodilatation in experimental diabetes
+
+
+label:    sent_16
+sentence: These complexes quench the fluorescence of harmane and diminish its fluorescence lifetime .
+
+ppatt:
+	?a quench ?b
+		?a: These complexes
+		?b: the fluorescence of harmane
+	?a diminish ?b
+		?a: These complexes
+		?b: its fluorescence lifetime
+
+
+label:    sent_17
+sentence: It can quench reactive oxidative species , ROS and induce eNOS and iNOS expression .
+
+ppatt:
+	?a can quench ?b
+		?a: It
+		?b: reactive oxidative species
+	?a is/are ROS
+		?a: reactive oxidative species
+	?a induce ?b
+		?a: It
+		?b: eNOS and iNOS expression
+
+
+label:    sent_18
+sentence: They quench , for example , nitric oxide , and mediate pro-inflammatory signaling . Quantum quench in the transverse-field Ising chain .
+
+ppatt:
+	?a quench , for ?b ?c
+		?a: They
+		?b: example
+		?c: nitric oxide
+	?a mediate ?b ?c
+		?a: They
+		?b: pro-inflammatory signaling
+		?c: Quantum quench in the transverse-field Ising chain
+
+
+label:    sent_19
+sentence: Interaction quench in the Hubbard model .
+
+ppatt:
+
+
+
+label:    sent_20
+sentence: Quantum quench in an atomic one-dimensional Ising chain .
+
+ppatt:
+
+
+
+label:    sent_21
+sentence: Antiarthritic gold compounds effectively quench electronically excited singlet oxygen .
+
+ppatt:
+	?a effectively quench ?b
+		?a: Antiarthritic gold compounds
+		?b: electronically excited singlet oxygen
+
+

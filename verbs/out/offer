@@ -1,0 +1,296 @@
+label:    sent_1
+sentence: Do probiotics offer opportunities to manipulate the periodontal oral microbiota ? Initial findings offer support for future , large-scale efficacy studies .
+
+ppatt:
+	Do ?a offer ?b
+		?a: probiotics
+		?b: opportunities to manipulate the periodontal oral microbiota
+	?a manipulate ?b
+		?a: opportunities
+		?b: the periodontal oral microbiota
+	?a offer ?b
+		?a: Initial findings
+		?b: support for future , efficacy studies
+
+
+label:    sent_2
+sentence: Topical therapy with tacrolimus may offer good long-term disease control .
+
+ppatt:
+	?a may offer ?b
+		?a: Topical therapy with tacrolimus
+		?b: good long-term disease control
+
+
+label:    sent_3
+sentence: The aim of this work is to offer a general overview of this construct .
+
+ppatt:
+	?a is to offer ?b
+		?a: The aim of this work
+		?b: a general overview of this construct
+
+
+label:    sent_4
+sentence: Identification of endophenotypes seems to offer more promising results .
+
+ppatt:
+	?a seems to offer ?b
+		?a: Identification of endophenotypes
+		?b: more promising results
+
+
+label:    sent_5
+sentence: What disability studies has to offer medical education . MRI , in contrast , could offer physiological and functional data without depth limitation .
+
+ppatt:
+	?a has to offer ?b
+		?a: disability studies
+		?b: medical education
+	?a in ?b , could offer ?c without ?d
+		?a: MRI
+		?b: contrast
+		?c: physiological and functional data
+		?d: depth limitation
+
+
+label:    sent_6
+sentence: New , highly sensitive troponin assays may offer improved certainty in these early hours . Bedside-prepared slides offer improved diagnostic adequacy and specimen cellularity over solution-based samples .
+
+ppatt:
+	?a may offer ?b in ?c
+		?a: New , troponin assays
+		?b: improved certainty
+		?c: these early hours
+	?a offer ?b
+		?a: Bedside-prepared slides
+		?b: improved diagnostic adequacy over solution-based samples
+	?a offer ?b
+		?a: Bedside-prepared slides
+		?b: specimen cellularity
+
+
+label:    sent_7
+sentence: Private clinics performing AGB offer short wait times , but the cost is high . Further analysis identifying systematic reasons for disparities may offer cost savings and improve outcomes .
+
+ppatt:
+	?a performing ?b
+		?a: Private clinics
+		?b: AGB
+	?a offer ?b
+		?a: Private clinics performing AGB
+		?b: short wait times
+	?a is high
+		?a: the cost
+	?a identifying ?b
+		?a: Further analysis
+		?b: systematic reasons for disparities
+	?a may offer ?b
+		?a: Further analysis identifying systematic reasons for disparities
+		?b: cost savings
+	?a improve ?b
+		?a: Further analysis identifying systematic reasons for disparities
+		?b: outcomes
+
+
+label:    sent_8
+sentence: These properties offer diagnostic clues and disclose some peculiar functions of the skin . AVFs are feasible and offer functional and timely AV access in older patients .
+
+ppatt:
+	?a offer ?b
+		?a: These properties
+		?b: diagnostic clues
+	?a disclose ?b
+		?a: These properties
+		?b: some peculiar functions of the skin
+	?a are feasible
+		?a: AVFs
+	?a offer ?b
+		?a: AVFs
+		?b: functional and timely AV access in older patients
+
+
+label:    sent_9
+sentence: We examined several critical tenets of this proposed model , and offer significant revisions .
+
+ppatt:
+	?a examined ?b
+		?a: We
+		?b: several critical tenets of this proposed model
+	?a offer ?b
+		?a: We
+		?b: significant revisions
+
+
+label:    sent_10
+sentence: The casinos should ban smoking on their premises and offer employee smoking cessation programs .
+
+ppatt:
+	?a should ban ?b on ?c
+		?a: The casinos
+		?b: smoking
+		?c: their premises
+	?a offer ?b
+		?a: The casinos
+		?b: employee smoking cessation programs
+
+
+label:    sent_11
+sentence: New compounds are expected to offer new options against ethanol-induced genotoxicity .
+
+ppatt:
+	?a are expected to offer ?b
+		?a: New compounds
+		?b: new options against ethanol-induced genotoxicity
+
+
+label:    sent_12
+sentence: Isokinetics offer a range of applications in hospital , therapy and training .
+
+ppatt:
+	?a offer ?b
+		?a: Isokinetics
+		?b: a range of applications in hospital , therapy and training
+
+
+label:    sent_13
+sentence: Students went on to offer various suggestions to improve their first exposure to IPE .
+
+ppatt:
+	?a went on to offer ?b
+		?a: Students
+		?b: various suggestions to improve their first exposure to IPE
+	?a improve ?b
+		?a: various suggestions
+		?b: their first exposure to IPE
+
+
+label:    sent_14
+sentence: PCR may offer significant advantages in diagnosis but tests require standardisation .
+
+ppatt:
+	?a may offer ?b in ?c
+		?a: PCR
+		?b: significant advantages
+		?c: diagnosis
+	?a require ?b
+		?a: tests
+		?b: standardisation
+
+
+label:    sent_15
+sentence: These systems offer health services to individuals and thus implement ubiquitous computing .
+
+ppatt:
+	?a offer ?b
+		?a: These systems
+		?b: health services to individuals
+	?a thus implement ?b
+		?a: These systems
+		?b: ubiquitous computing
+
+
+label:    sent_16
+sentence: They offer greater continuity than locum doctors and at considerably lower cost . Democrats offer tweaks .
+
+ppatt:
+	?a offer ?b
+		?a: They
+		?b: greater continuity than locum doctors and at considerably lower cost
+	?a offer ?b
+		?a: Democrats
+		?b: tweaks
+
+
+label:    sent_17
+sentence: Does the use of silodosin to treat benign prostatic hyperplasia really offer something new ? Preconceptional genetic carrier testing and the commercial offer directly-to-consumers .
+
+ppatt:
+	Does ?a
+		?a: the use of silodosin to treat benign prostatic hyperplasia
+	?a treat ?b
+		?a: the use of silodosin
+		?b: benign prostatic hyperplasia
+	?a really offer something ?b
+		?a: SOMETHING := Does the use of silodosin to treat benign prostatic hyperplasia
+		?b: new ? genetic carrier testing
+	?a offer ?b
+		?a: the commercial
+		?b: directly-to-consumers
+
+
+label:    sent_18
+sentence: Nystagmus or repetitive blinking may be present and offer clues in clinically subtle seizures .
+
+ppatt:
+	?a may be present
+		?a: Nystagmus
+	?a may be present
+		?a: repetitive blinking
+	?a offer ?b
+		?a: Nystagmus
+		?b: clues in clinically subtle seizures
+	?a offer ?b
+		?a: repetitive blinking
+		?b: clues in clinically subtle seizures
+
+
+label:    sent_19
+sentence: The hypothesis can be tested and if sustained would offer hope of prevention .
+
+ppatt:
+	?a can be tested
+		?a: The hypothesis
+	?a would offer ?b
+		?a: sustained
+		?b: hope of prevention
+
+
+label:    sent_20
+sentence: Mothers were encouraged to breastfeed and offer ORS by mouth during the treatment period .
+
+ppatt:
+	?a were encouraged to breastfeed ?b by ?c during ?d
+		?a: Mothers
+		?b: ORS
+		?c: mouth
+		?d: the treatment period
+	?a were encouraged to offer
+		?a: Mothers
+
+
+label:    sent_21
+sentence: The intervention was acceptable to participants and feasible to offer within a healthcare system .
+
+ppatt:
+	?a was acceptable to ?b
+		?a: The intervention
+		?b: participants
+	?a feasible to offer within ?b
+		?a: The intervention
+		?b: a healthcare system
+
+
+label:    sent_22
+sentence: Nurses have much to offer in care of those with diabetes .
+
+ppatt:
+	?a have ?b to offer in ?c
+		?a: Nurses
+		?b: much
+		?c: care of those with diabetes
+
+
+label:    sent_23
+sentence: The health care system known as Ayurveda has much to offer in this regard .
+
+ppatt:
+	?a known as ?b
+		?a: The health care system
+		?b: Ayurveda
+	?a has ?b to offer in ?c
+		?a: The health care system known as Ayurveda
+		?b: much
+		?c: this regard
+
+

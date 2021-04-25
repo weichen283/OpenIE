@@ -1,0 +1,291 @@
+label:    sent_1
+sentence: Finally , a numerical example is given to verify the theoretical results .
+
+ppatt:
+	Finally , ?a is given to verify ?b
+		?a: a numerical example
+		?b: the theoretical results
+
+
+label:    sent_2
+sentence: Computer simulations are presented to verify the system 's validity and efficiency .
+
+ppatt:
+	?a are presented to verify ?b
+		?a: Computer simulations
+		?b: the system 's validity
+	?a are presented to verify ?b
+		?a: Computer simulations
+		?b: efficiency
+
+
+label:    sent_3
+sentence: A neurologist used abstracted medical records to verify the diagnosis of ALS/MND .
+
+ppatt:
+	?a used
+		?a: A neurologist
+	?a abstracted ?b to verify ?c
+		?a: A neurologist used
+		?b: medical records
+		?c: the diagnosis of ALS/MND
+
+
+label:    sent_4
+sentence: Establish and verify TSH reference intervals using optimized statistical method by analyzing laboratory-stored data . Illustrative examples are given to verify the proposed approach and demonstrate its use .
+
+ppatt:
+	Establish ?a ?b
+		?a: TSH reference intervals
+		?b: Illustrative examples
+	verify ?a
+		?a: Illustrative examples
+	using ?a ?b
+		?a: optimized statistical method
+		?b: Illustrative examples
+	analyzing ?a ?b
+		?a: laboratory-stored data
+		?b: Illustrative examples
+	?a are given to verify ?b
+		?a: Illustrative examples
+		?b: the proposed approach
+	?a are given to demonstrate ?b
+		?a: Illustrative examples
+		?b: its use
+
+
+label:    sent_5
+sentence: Immunohistochemistry was used to verify the results of qRT-PCR and to assess protein localization .
+
+ppatt:
+	?a was used to verify ?b
+		?a: Immunohistochemistry
+		?b: the results of qRT-PCR
+	?a was used to to assess ?b
+		?a: Immunohistochemistry
+		?b: protein localization
+
+
+label:    sent_6
+sentence: We herein aim to verify its protective effects in experimental models of liver injury .
+
+ppatt:
+	?a herein aim to verify ?b
+		?a: We
+		?b: its protective effects in experimental models of liver injury
+
+
+label:    sent_7
+sentence: Further prospective studies are needed to verify the authors ' results in the future .
+
+ppatt:
+	?a are needed to verify ?b
+		?a: Further prospective studies
+		?b: the authors ' results in the future
+
+
+label:    sent_8
+sentence: Further testing is required to verify activity under field conditions .
+
+ppatt:
+	?a is required to verify ?b
+		?a: Further testing
+		?b: activity under field conditions
+
+
+label:    sent_9
+sentence: Simulations using the Reiner-Rivlin constitutive equation verify the results .
+
+ppatt:
+	?a using ?b
+		?a: Simulations
+		?b: the Reiner-Rivlin constitutive equation
+	?a verify ?b
+		?a: Simulations using the Reiner-Rivlin constitutive equation
+		?b: the results
+
+
+label:    sent_10
+sentence: We suggest experiments to verify our predictions .
+
+ppatt:
+	?a suggest ?b
+		?a: We
+		?b: experiments to verify our predictions
+	?a verify ?b
+		?a: experiments
+		?b: our predictions
+
+
+label:    sent_11
+sentence: The results verify the achievement of ligand-density-controlled polyrotaxanes .
+
+ppatt:
+	?a verify ?b
+		?a: The results
+		?b: the achievement of ligand-density-controlled polyrotaxanes
+
+
+label:    sent_12
+sentence: These data verify that an immunoregulatory defect exists in IDCM .
+
+ppatt:
+	?a verify ?b
+		?a: These data
+		?b: SOMETHING := an immunoregulatory defect exists in IDCM
+	?a exists in ?b
+		?a: an immunoregulatory defect
+		?b: IDCM
+
+
+label:    sent_13
+sentence: These results verify that CrHis has critical beneficial effects against retinal complications .
+
+ppatt:
+	?a verify ?b
+		?a: These results
+		?b: SOMETHING := CrHis has critical beneficial effects against retinal complications
+	?a has ?b against ?c
+		?a: CrHis
+		?b: critical beneficial effects
+		?c: retinal complications
+
+
+label:    sent_14
+sentence: The results verify that phosphorylation is indeed very rare .
+
+ppatt:
+	?a verify ?b
+		?a: The results
+		?b: SOMETHING := phosphorylation is indeed very rare
+	?a is indeed very rare
+		?a: phosphorylation
+
+
+label:    sent_15
+sentence: Further investigations are needed to verify or reject hypotheses listed .
+
+ppatt:
+	?a are needed to verify ?b
+		?a: Further investigations
+		?b: hypotheses listed
+	?a are needed to reject
+		?a: Further investigations
+	?a listed
+		?a: hypotheses
+
+
+label:    sent_16
+sentence: A dedicated transducer is needed to further verify and implement this approach .
+
+ppatt:
+	?a is needed to further verify ?b
+		?a: A dedicated transducer
+		?b: this approach
+	?a is needed to implement
+		?a: A dedicated transducer
+
+
+label:    sent_17
+sentence: These X-rays severe to verify or rule out injury of the epiphysis .
+
+ppatt:
+	?a severe to verify out ?b
+		?a: These X-rays
+		?b: injury of the epiphysis
+	?a severe to rule
+		?a: These X-rays
+
+
+label:    sent_18
+sentence: We verify these results in selected cases numerically . We verify this for NiMnSb by ab initio calculations .
+
+ppatt:
+	?a verify ?b
+		?a: We
+		?b: these results in selected cases
+	numerically ?a verify ?b by ?c
+		?a: We
+		?b: this for NiMnSb
+		?c: ab initio calculations
+
+
+label:    sent_19
+sentence: This allows us to verify a functional improvement through the operative treatment .
+
+ppatt:
+	?a allows ?b to verify ?c
+		?a: This
+		?b: us
+		?c: a functional improvement through the operative treatment
+
+
+label:    sent_20
+sentence: We verify four previously known erythroid CRMs and identify 28 novel ones .
+
+ppatt:
+	?a verify ?b
+		?a: We
+		?b: four previously known erythroid CRMs
+	?a identify ?b
+		?a: We
+		?b: 28 novel ones
+
+
+label:    sent_21
+sentence: Our simulation results verify the correctness and demonstrate the merits of the proposed scheme .
+
+ppatt:
+	?a verify ?b
+		?a: Our simulation results
+		?b: the correctness
+	?a demonstrate ?b
+		?a: Our simulation results
+		?b: the merits of the proposed scheme
+
+
+label:    sent_22
+sentence: Measured results verify the theoretical expressions and demonstrate a robust notch filter response .
+
+ppatt:
+	?a verify ?b
+		?a: Measured results
+		?b: the theoretical expressions
+	?a demonstrate ?b
+		?a: Measured results
+		?b: a robust notch filter response
+
+
+label:    sent_23
+sentence: To verify whether the volatiles of Bacillus sp . This would be worthwhile to verify in longitudinal growth data in future .
+
+ppatt:
+	verify ?a
+		?a: SOMETHING := the volatiles of Bacillus sp . This would be worthwhile to verify in longitudinal growth data in future
+	?a ?b would be worthwhile to verify in ?c
+		?a: the volatiles of Bacillus sp
+		?b: This
+		?c: longitudinal growth data in future
+
+
+label:    sent_24
+sentence: Further evaluation for EC-Blue-10 is needed to verify in different geographical areas .
+
+ppatt:
+	?a is needed to verify in ?b
+		?a: Further evaluation for EC-Blue-10
+		?b: different geographical areas
+
+
+label:    sent_25
+sentence: Authors should be more diligent and preferably verify cited references against the original article .
+
+ppatt:
+	?a should be more diligent
+		?a: Authors
+	?a preferably verify ?b against ?c
+		?a: Authors
+		?b: cited references
+		?c: the original article
+
+

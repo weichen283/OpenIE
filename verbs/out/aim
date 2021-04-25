@@ -1,0 +1,159 @@
+label:    sent_1
+sentence: This allowed us to aim at the lesion more precisely , as the revised endoscopic image matched the 3D model .
+
+ppatt:
+	?a allowed ?b to aim at ?c more precisely
+		?a: This
+		?b: us
+		?c: the lesion
+	?a matched ?b
+		?a: the revised endoscopic image
+		?b: the 3D model
+
+
+label:    sent_2
+sentence: Future research is necessary to gain a deeper understanding of the mechanisms of health inequalities and obesity risks , resulting in prevention programs which aim at a sustainable and long-term reduction of obesity risk and include obesity-relevant social factors during the life-course . tet ( B ) was by far the most common determinant identified but future work should aim at identifying the tetracycline resistance determinants in the remaining 41 % of strains where no determinant was assigned .
+
+ppatt:
+	?a is necessary to gain ?b , resulting in ?c
+		?a: Future research
+		?b: a deeper understanding of the mechanisms of health inequalities and obesity risks
+		?c: prevention programs which aim at a sustainable and long-term reduction of obesity risk and include obesity-relevant social factors
+	?a aim at ?b
+		?a: prevention programs
+		?b: a sustainable and long-term reduction of obesity risk
+	?a include ?b
+		?a: which
+		?b: obesity-relevant social factors
+	?a is/are B
+		?a: the life-course . tet
+	during ?a was by far the most common determinant
+		?a: the life-course . tet
+	?a identified
+		?a: far the most common determinant
+	identified ?a
+		?a: future work should aim at identifying the tetracycline resistance determinants in the remaining 41 % of strains where no determinant was assigned
+	?a should aim
+		?a: future work
+	?a identifying ?b in ?c
+		?a: future work
+		?b: the tetracycline resistance determinants
+		?c: the remaining 41 % of strains where no determinant was assigned
+	?a where ?b was assigned
+		?a: strains
+		?b: no determinant
+
+
+label:    sent_3
+sentence: The paper introduces four recently funded projects -- Interstress , Monarca , Optimi and Psyche --that aim at using PHS based on virtual reality , biosensors and/or mobile technologies to improve the treatment of bipolar disorders , depression and psychological stress .
+
+ppatt:
+	?a introduces ?b
+		?a: The paper
+		?b: four recently funded projects
+	?a using ?b based on ?c to improve ?d
+		?a: The paper
+		?b: PHS
+		?c: virtual reality
+		?d: the treatment of bipolar disorders , depression and psychological stress
+	?a using ?b based on ?c to improve ?d
+		?a: The paper
+		?b: PHS
+		?c: biosensors
+		?d: the treatment of bipolar disorders , depression and psychological stress
+	?a using ?b based on ?c to improve ?d
+		?a: The paper
+		?b: PHS
+		?c: mobile technologies
+		?d: the treatment of bipolar disorders , depression and psychological stress
+
+
+label:    sent_4
+sentence: More efficient interventions lasted at least 3 months , did not aim solely at environmental changes , and were implemented in general population .
+
+ppatt:
+	?a lasted ?b
+		?a: More efficient interventions
+		?b: at least 3 months
+	?a did not aim solely at ?b
+		?a: More efficient interventions
+		?b: environmental changes
+	?a were implemented in ?b
+		?a: More efficient interventions
+		?b: general population
+
+
+label:    sent_5
+sentence: These preliminary results seem promising and we aim to further perform qualitative and quantitative analyses of the inflammatory processes in the environment of the implant and their link to the TGF-beta pathway .
+
+ppatt:
+	?a seem promising
+		?a: These preliminary results
+	?a aim to further perform ?b
+		?a: we
+		?b: qualitative and quantitative analyses of the inflammatory processes in the environment of the implant and their link to the TGF-beta pathway
+
+
+label:    sent_6
+sentence: Tendon adhesion formation results in poor outcomes and rehabilitation regimes aim to limit this .
+
+ppatt:
+	?a results in ?b to limit ?c
+		?a: Tendon adhesion formation
+		?b: poor outcomes
+		?c: this
+	?a results in ?b to limit ?c
+		?a: Tendon adhesion formation
+		?b: rehabilitation regimes aim
+		?c: this
+
+
+label:    sent_7
+sentence: Based on our data , we aim to provide important information regarding the influence of such an intervention on these outcome measures in school-aged children and to provide nationwide guidelines to improve PA in children .
+
+ppatt:
+	Based on ?a data ?b
+		?a: our
+		?b: we
+	?a aim to provide ?b regarding ?c
+		?a: we
+		?b: important information
+		?c: the influence of such an intervention on these outcome measures in school-aged children
+	?a aim to to provide ?b
+		?a: we
+		?b: nationwide guidelines to improve PA in children
+	?a improve ?b in ?c
+		?a: nationwide guidelines
+		?b: PA
+		?c: children
+
+
+label:    sent_8
+sentence: Based on these results , conservation efforts should aim at preserving landscapes with high proportions of the focal habitat .
+
+ppatt:
+	Based on these results ?a
+		?a: conservation efforts
+	?a should aim
+		?a: conservation efforts
+	?a preserving ?b
+		?a: conservation efforts
+		?b: landscapes with high proportions of the focal habitat
+
+
+label:    sent_9
+sentence: However , as most uSSSIs in the community continue to be caused by methicillin-susceptible Staphylococcus aureus or streptococci , effective treatment against these key pathogens should aim to achieve prompt eradication , along with minimal risk of antimicrobial resistance .
+
+ppatt:
+	?a continue to be caused by ?b
+		?a: most uSSSIs in the community
+		?b: methicillin-susceptible Staphylococcus aureus
+	?a continue to be caused by ?b
+		?a: most uSSSIs in the community
+		?b: streptococci
+	However , ?a should aim to achieve ?b , along with ?c
+		?a: effective treatment against these key pathogens
+		?b: prompt eradication
+		?c: minimal risk of antimicrobial resistance
+
+

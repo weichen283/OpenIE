@@ -1,0 +1,176 @@
+label:    sent_1
+sentence: Shewanella oneidensis is known for its ability to respire on extracellular electron acceptors .
+
+ppatt:
+	?a is known for ?b
+		?a: Shewanella oneidensis
+		?b: its ability to respire on extracellular electron acceptors
+	?a respire on ?b
+		?a: its ability
+		?b: extracellular electron acceptors
+
+
+label:    sent_2
+sentence: However , it failed to grow or respire on o-phthalic acid .
+
+ppatt:
+	However , ?a failed to grow on ?b
+		?a: it
+		?b: o-phthalic acid
+	However , ?a failed to respire
+		?a: it
+
+
+label:    sent_3
+sentence: The cells started to respire on the propionic acid previously accumulated furing anaerobiosis .
+
+ppatt:
+	?a started to respire on ?b
+		?a: The cells
+		?b: the propionic acid
+	?a previously accumulated ?b
+		?a: The cells
+		?b: furing anaerobiosis
+
+
+label:    sent_4
+sentence: Fish respire through gills , which have evolved to extract aqueous oxygen .
+
+ppatt:
+	?a have evolved to extract ?b
+		?a: gills
+		?b: aqueous oxygen
+
+
+label:    sent_5
+sentence: Genomic characterization of three unique Dehalococcoides that respire on persistent polychlorinated biphenyls .
+
+ppatt:
+	?a respire on ?b
+		?a: three unique Dehalococcoides
+		?b: persistent polychlorinated biphenyls
+
+
+label:    sent_6
+sentence: Cells of the aerotolerant anaerobe Giardia lamblia respire in the presence of oxygen .
+
+ppatt:
+
+
+
+label:    sent_7
+sentence: Spheroplasts were able to respire sulfur and their respiratory activity was acidostable .
+
+ppatt:
+	?a were able to respire ?b
+		?a: Spheroplasts
+		?b: sulfur
+	?a was acidostable
+		?a: their respiratory activity
+
+
+label:    sent_8
+sentence: Cells lacking mitochondrial RNase P can not respire and accumulate lesions in their mitochondrial DNA .
+
+ppatt:
+	?a lacking ?b
+		?a: Cells
+		?b: mitochondrial RNase P
+	?a can not respire ?b in ?c
+		?a: Cells lacking mitochondrial RNase P
+		?b: lesions
+		?c: their mitochondrial DNA
+	?a accumulate
+		?a: Cells lacking mitochondrial RNase P
+
+
+label:    sent_9
+sentence: Heterocysts do not evolve oxygen in the light , but do respire .
+
+ppatt:
+	?a do not evolve ?b in ?c
+		?a: Heterocysts
+		?b: oxygen
+		?c: the light
+	do ?a
+		?a: respire
+
+
+label:    sent_10
+sentence: These findings suggest that cyanelles do not respire . Rat hepatocytes respire 4-fold faster than do hepatocytes from the lizard .
+
+ppatt:
+	?a suggest ?b ?c
+		?a: These findings
+		?b: SOMETHING := cyanelles do not respire
+		?c: SOMETHING := Rat hepatocytes respire 4-fold faster do hepatocytes from the lizard
+	?a do not respire
+		?a: cyanelles
+	?a respire ?b
+		?a: Rat hepatocytes
+		?b: 4-fold faster
+	do ?a
+		?a: hepatocytes from the lizard
+
+
+label:    sent_11
+sentence: Intact amebae do not produce peroxide when they respire .
+
+ppatt:
+	?a do not produce ?b
+		?a: Intact amebae
+		?b: peroxide
+	when ?a respire
+		?a: they
+
+
+label:    sent_12
+sentence: The other , a Pseudomonas species , was shown to respire selenate to selenite .
+
+ppatt:
+	?a is/are a Pseudomonas species
+		?a: The other
+	?a was shown to respire ?b to ?c
+		?a: The other
+		?b: selenate
+		?c: selenite
+
+
+label:    sent_13
+sentence: Diatoms respire nitrate to survive dark and anoxic conditions .
+
+ppatt:
+	?a respire ?b to survive ?c
+		?a: Diatoms
+		?b: nitrate
+		?c: dark and anoxic conditions
+
+
+label:    sent_14
+sentence: Sediments that actively respire hydrocarbons have high numbers of Sheen Screen-positive microorganisms .
+
+ppatt:
+	?a actively respire ?b
+		?a: Sediments
+		?b: hydrocarbons
+	?a have ?b
+		?a: Sediments that actively respire hydrocarbons
+		?b: high numbers of Sheen Screen-positive microorganisms
+
+
+label:    sent_15
+sentence: It is demonstrated that these mosquitoes respire discontinuously . DSP cells also respire and convert glucose to CO2 .
+
+ppatt:
+	?a is demonstrated ?b
+		?a: It
+		?b: SOMETHING := these mosquitoes respire discontinuously
+	?a respire discontinuously
+		?a: these mosquitoes
+	?a also respire ?b
+		?a: DSP cells
+		?b: glucose to CO2
+	?a convert
+		?a: DSP cells
+
+

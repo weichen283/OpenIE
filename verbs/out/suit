@@ -1,0 +1,334 @@
+label:    sent_1
+sentence: Prolonged exposure in the Navy full pressure suit at " space equivalent " altitudes .
+
+ppatt:
+
+
+
+label:    sent_2
+sentence: We modified the MaPSaF to suit the NZ context and then used it in 12 Dunedin general practices at baseline and at three months .
+
+ppatt:
+	?a modified ?b
+		?a: We
+		?b: the MaPSaF
+	?a suit ?b
+		?a: We
+		?b: the NZ context
+	?a then used ?b in ?c
+		?a: We
+		?b: it
+		?c: 12 Dunedin general practices at baseline and at three months
+
+
+label:    sent_3
+sentence: Key areas of current research include , developing better vaccines , deploying tailored vaccines in a specific and targeted fashion on individual farms , analysing and developing better farm management practices to suit specific sheep farming environments , elucidating the virulence genes and bacterial population dynamics that drive footrot and using genetic testing in combination with selective breeding to produce stock that are more resilient to disease .
+
+ppatt:
+	?a include , developing ?b
+		?a: Key areas of current research
+		?b: better vaccines
+	?a deploying ?b in ?c on ?d
+		?a: Key areas of current research
+		?b: tailored vaccines
+		?c: a specific and targeted fashion
+		?d: individual farms
+	?a analysing ?b to suit ?c
+		?a: Key areas of current research
+		?b: better farm management practices
+		?c: specific sheep farming environments
+	?a developing
+		?a: Key areas of current research
+	?a elucidating ?b
+		?a: Key areas of current research
+		?b: the virulence genes that drive footrot
+	?a elucidating ?b
+		?a: Key areas of current research
+		?b: bacterial population dynamics
+	?a drive ?b
+		?a: the virulence genes
+		?b: footrot
+	?a drive ?b
+		?a: bacterial population dynamics
+		?b: footrot
+	?a using ?b in ?c
+		?a: Key areas of current research
+		?b: genetic testing
+		?c: combination with selective breeding to produce stock that are more resilient to disease
+	?a produce ?b
+		?a: combination with selective breeding
+		?b: stock that are more resilient to disease
+	?a are more resilient to ?b
+		?a: stock
+		?b: disease
+
+
+label:    sent_4
+sentence: A semi-quantitative method based on Banff schema , 97 classification has been modified to suit the requirements .
+
+ppatt:
+	?a is/are 97 classification
+		?a: A semi-quantitative method based on Banff schema
+	?a has been modified to suit ?b
+		?a: A semi-quantitative method based on Banff schema
+		?b: the requirements
+
+
+label:    sent_5
+sentence: Treatment can then be tailored to suit the stalker , thereby enhancing therapeutic efficacy .
+
+ppatt:
+	?a can then be tailored to suit ?b
+		?a: Treatment
+		?b: the stalker
+	?a thereby enhancing ?b
+		?a: Treatment
+		?b: therapeutic efficacy
+
+
+label:    sent_6
+sentence: Recently , monolith has been modified to suit various devices for the extraction and enrichment of analytes in any matrices of environmental , food , and biological analyses .
+
+ppatt:
+	Recently , ?a has been modified to suit ?b for ?c
+		?a: monolith
+		?b: various devices
+		?c: extraction of analytes in any matrices of environmental , food , and biological analyses
+	Recently , ?a has been modified to suit ?b for ?c
+		?a: monolith
+		?b: various devices
+		?c: enrichment
+
+
+label:    sent_7
+sentence: Children 's writing autobiographies show developmental differences that suit the shift from a direct to an interpretative theory of learning on the basis of hierarchical integration rather than conceptual replacement .
+
+ppatt:
+	?a show ?b
+		?a: Children 's writing autobiographies
+		?b: developmental differences that suit the shift from a direct to an interpretative theory of learning on the basis of hierarchical integration rather than conceptual replacement
+	?a suit ?b
+		?a: developmental differences
+		?b: the shift from a direct to an interpretative theory
+	?a learning on ?b
+		?a: that
+		?b: the basis of hierarchical integration rather than conceptual replacement
+
+
+label:    sent_8
+sentence: Because an important focus of the program of research was to assess the cognitive capacities of lesser apes ( family Hylobatidae ) , we modified Call 's original procedures to better suit their attentional and dispositional characteristics .
+
+ppatt:
+	?a was to assess ?b
+		?a: an important focus of the program of research
+		?b: the cognitive capacities of lesser apes
+	?a is/are family Hylobatidae
+		?a: lesser apes
+	?a modified ?b to better suit ?c
+		?a: we
+		?b: Call 's original procedures
+		?c: their attentional and dispositional characteristics
+
+
+label:    sent_9
+sentence: Identification of a student 's learning style can help medical educators direct students to learning resources that best suit their individual needs .
+
+ppatt:
+	?a can help ?b ?c
+		?a: Identification of a student 's learning style
+		?b: medical educators
+		?c: direct students to learning resources that best suit their individual needs
+	?a best suit ?b
+		?a: learning resources
+		?b: their individual needs
+
+
+label:    sent_10
+sentence: Today 's Australian general practice training program strongly resembles its ancestors , with adaptations that better suit its regionalised environment .
+
+ppatt:
+	?a strongly resembles ?b ancestors , with ?c
+		?a: Today 's Australian general practice training program
+		?b: its
+		?c: adaptations that better suit its regionalised environment
+	?a better suit ?b
+		?a: adaptations
+		?b: its regionalised environment
+
+
+label:    sent_11
+sentence: Offset ( representing the gap between the EVA suit and the astronaut 's body ) , impact load magnitude , and EVA suit operating pressure were factors varied in the study .
+
+ppatt:
+	?a representing ?b
+		?a: Offset
+		?b: the gap between the EVA suit and the astronaut 's body
+	representing ?a ?b
+		?a: the gap between the EVA suit and the astronaut 's body
+		?b: impact load magnitude
+	representing ?a ?b
+		?a: the gap between the EVA suit and the astronaut 's body
+		?b: EVA suit operating pressure
+	?a were factors
+		?a: Offset ( representing the gap between the EVA suit and the astronaut 's body
+	?a were factors
+		?a: impact load magnitude
+	?a were factors
+		?a: EVA suit operating pressure
+	?a varied in ?b
+		?a: factors
+		?b: the study
+
+
+label:    sent_12
+sentence: Furthermore , by varying the compositions of the two solutions independently , it is possible to control the pH in a way to suit the solubilization of a drug as well as the specific environment of a particular application site .
+
+ppatt:
+	varying ?a independently ?b
+		?a: the compositions of the two solutions
+		?b: it
+	Furthermore , ?a is possible to control ?b in ?c
+		?a: it
+		?b: the pH
+		?c: a way to suit the solubilization of a drug as well as the specific environment of a particular application site
+	?a suit ?b
+		?a: a way
+		?b: the solubilization of a drug
+	?a suit ?b
+		?a: a way
+		?b: the specific environment of a particular application site
+
+
+label:    sent_13
+sentence: However OptiLyse C solution was suitable to Gr-1 ( + ) cell detection , but did not suit to Foxp3 ( + ) Treg detection .
+
+ppatt:
+	However ?a was suitable to ?b
+		?a: OptiLyse C solution
+		?b: Gr-1 ) cell detection
+	?a did not suit to ?b
+		?a: OptiLyse C solution
+		?b: Foxp3 ) Treg detection
+
+
+label:    sent_14
+sentence: It demonstrated that M. spicatum is suit for pioneer plant comparatively during the process of lake restoration .
+
+ppatt:
+	?a demonstrated ?b
+		?a: It
+		?b: SOMETHING := M. spicatum is suit for pioneer plant comparatively during the process of lake restoration
+	?a is suit for ?b comparatively during ?c
+		?a: M. spicatum
+		?b: pioneer plant
+		?c: the process of lake restoration
+
+
+label:    sent_15
+sentence: PN should be optimized to answer their high nutritional requirements and suit their metabolic status , but should also be validated pharmaceutically .
+
+ppatt:
+	?a should be optimized to answer ?b
+		?a: PN
+		?b: their high nutritional requirements
+	?a should be optimized to suit ?b
+		?a: PN
+		?b: their metabolic status
+	?a should also be validated pharmaceutically
+		?a: PN
+
+
+label:    sent_16
+sentence: Although based on already developed tools , both instruments were modified to suit the young target group and ensure cross-cultural comparability .
+
+ppatt:
+	based on already developed tools ?a
+		?a: both instruments
+	?a were modified to suit ?b
+		?a: both instruments
+		?b: the young target group
+	?a ensure ?b
+		?a: both instruments
+		?b: cross-cultural comparability
+
+
+label:    sent_17
+sentence: They choose theories that suit them , and need technique to maintain the therapeutic setting .
+
+ppatt:
+	?a choose ?b
+		?a: They
+		?b: theories that suit them
+	?a suit ?b
+		?a: theories
+		?b: them
+	?a need ?b
+		?a: They
+		?b: technique to maintain the therapeutic setting
+	?a maintain ?b
+		?a: technique
+		?b: the therapeutic setting
+
+
+label:    sent_18
+sentence: Its responsiveness to a wide range of chemicals and its organization along a dimension which promotes the organism 's physiological welfare ideally suit it to that purpose .
+
+ppatt:
+	?a promotes 's ?b
+		?a: a dimension
+		?b: the organism physiological welfare
+	?a ideally suit ?b to ?c
+		?a: Its responsiveness to a wide range of chemicals and its organization along a dimension which promotes the organism 's physiological welfare
+		?b: it
+		?c: that purpose
+
+
+label:    sent_19
+sentence: It was found that the manifold vaccinations and use of higher amounts of the vaccine might well suit the base in working out sanitation programmes for farms infected with Aujeszky 's disease .
+
+ppatt:
+	?a was found ?b
+		?a: It
+		?b: SOMETHING := the manifold vaccinations and use of higher amounts of the vaccine might well suit the base in working out sanitation programmes for farms infected with Aujeszky 's disease
+	?a might well suit ?b
+		?a: the manifold vaccinations of higher amounts of the vaccine
+		?b: the base
+	?a might well suit ?b
+		?a: use
+		?b: the base
+	?a working out ?b
+		?a: the manifold vaccinations of higher amounts of the vaccine
+		?b: sanitation programmes for farms infected with Aujeszky 's disease
+	?a working out ?b
+		?a: use
+		?b: sanitation programmes for farms infected with Aujeszky 's disease
+	?a infected with 's ?b
+		?a: farms
+		?b: Aujeszky disease
+
+
+label:    sent_20
+sentence: Although biases may exist between cardiologists and surgeons , with this review , we hope to provide the reader with information that will shed light on the options that best suit the individual patient in a given set of circumstances .
+
+ppatt:
+	?a may exist between ?b with ?c
+		?a: biases
+		?b: cardiologists
+		?c: this review
+	?a may exist between ?b with ?c
+		?a: biases
+		?b: surgeons
+		?c: this review
+	?a hope to provide ?b
+		?a: we
+		?b: the reader with information that will shed light on the options that best suit the individual patient in a given set of circumstances
+	?a will shed ?b on ?c
+		?a: information
+		?b: light
+		?c: the options that best suit the individual patient in a given set of circumstances
+	?a best suit ?b in ?c
+		?a: the options
+		?b: the individual patient
+		?c: a given set of circumstances
+
+

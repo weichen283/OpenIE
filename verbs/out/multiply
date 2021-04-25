@@ -1,0 +1,272 @@
+label:    sent_1
+sentence: Ability of bacteria to multiply at a given temperature was also determined .
+
+ppatt:
+	?a was also determined
+		?a: Ability of bacteria to multiply at a given temperature
+
+
+label:    sent_2
+sentence: However , vir- clones failed to multiply inside the macrophages .
+
+ppatt:
+	However , ?a failed to multiply inside ?b
+		?a: vir- clones
+		?b: the macrophages
+
+
+label:    sent_3
+sentence: Escherichia coli was observed to multiply in the mill .
+
+ppatt:
+	?a was observed to multiply in ?b
+		?a: Escherichia coli
+		?b: the mill
+
+
+label:    sent_4
+sentence: In the environment , legionellae multiply in amoebae .
+
+ppatt:
+
+
+
+label:    sent_5
+sentence: Phytopathogenic spiroplasmas can multiply in vascular plants and insects .
+
+ppatt:
+	?a can multiply in vascular plants
+		?a: Phytopathogenic spiroplasmas
+	?a insects
+		?a: Phytopathogenic spiroplasmas
+
+
+label:    sent_6
+sentence: Periodontopathogenic bacteria multiply in the environmental amoeba Acanthamoeba castellani .
+
+ppatt:
+
+
+
+label:    sent_7
+sentence: It is often labor-intensive to multiply such lines , due to low AF .
+
+ppatt:
+	?a is often labor-intensive to ?b , due to ?c
+		?a: It
+		?b: multiply such lines
+		?c: low AF
+
+
+label:    sent_8
+sentence: Multivariate outlier detection applied to multiply imputed laboratory data . Volumetric optical disks comprising multiple data layers have been proposed to multiply recording density .
+
+ppatt:
+	?a applied to ?b
+		?a: Multivariate outlier detection
+		?b: multiply imputed laboratory data
+	?a comprising ?b
+		?a: Volumetric optical disks
+		?b: multiple data layers
+	?a ?b have been proposed to multiply recording ?c
+		?a: Multivariate outlier detection applied to multiply imputed laboratory data
+		?b: Volumetric optical disks comprising multiple data layers
+		?c: density
+
+
+label:    sent_9
+sentence: Cells loose their capability to multiply and to differentiate when they are serial subcultivated .
+
+ppatt:
+	?a loose ?b
+		?a: Cells
+		?b: their capability
+	?a multiply to differentiate ?b
+		?a: Cells
+		?b: SOMETHING := when they are serial subcultivated
+	when ?a are serial
+		?a: they
+	?a subcultivated
+		?a: they
+
+
+label:    sent_10
+sentence: Many species of fungi produce ephemeral autumnal fruiting bodies to spread and multiply .
+
+ppatt:
+	?a produce ?b to spread
+		?a: Many species of fungi
+		?b: ephemeral autumnal fruiting bodies
+
+
+label:    sent_11
+sentence: The few intracellular bacteria seemed to be within vacuoles and did not multiply .
+
+ppatt:
+	?a seemed to be within vacuoles
+		?a: The few intracellular bacteria
+	?a did not multiply
+		?a: The few intracellular bacteria
+
+
+label:    sent_12
+sentence: In the seed pulque , the strains did not multiply and tended to die .
+
+ppatt:
+	In ?a , ?b did not multiply
+		?a: the seed pulque
+		?b: the strains
+	?a tended to die
+		?a: the strains
+
+
+label:    sent_13
+sentence: Peroxisomes multiply by division of existing organelles and can be formed from ER .
+
+ppatt:
+
+
+
+label:    sent_14
+sentence: Chlamydia pneumoniae multiply in neutrophil granulocytes and delay their spontaneous apoptosis .
+
+ppatt:
+	delay ?a
+		?a: their spontaneous apoptosis
+
+
+label:    sent_15
+sentence: Adult SC are rare and can not multiply as the ES .
+
+ppatt:
+	?a are rare as ?b
+		?a: Adult SC
+		?b: the ES
+	?a can not multiply
+		?a: Adult SC
+
+
+label:    sent_16
+sentence: Chloroplasts arose from a cyanobacterial endosymbiont and multiply by division .
+
+ppatt:
+	?a arose from ?b
+		?a: Chloroplasts
+		?b: a cyanobacterial endosymbiont
+	?a arose from ?b
+		?a: Chloroplasts
+		?b: multiply division
+
+
+label:    sent_17
+sentence: They are found in virtually all eukaryotic cells and basically multiply by division .
+
+ppatt:
+	?a are found in ?b
+		?a: They
+		?b: virtually all eukaryotic cells
+	?a are found in ?b
+		?a: They
+		?b: basically multiply division
+
+
+label:    sent_18
+sentence: As the role continues to evolve and grow , the growing pains will multiply . Improvements multiply at Tri-City .
+
+ppatt:
+	?a continues to evolve
+		?a: the role
+	?a continues to grow
+		?a: the role
+	?a will multiply . Improvements multiply at ?b
+		?a: the growing pains
+		?b: Tri-City
+
+
+label:    sent_19
+sentence: It is assumed that cells possessing receptors multiply to form the mature tissue .
+
+ppatt:
+	?a is assumed ?b
+		?a: It
+		?b: cells possessing receptors multiply to form the mature tissue
+	?a possessing ?b multiply to form ?c
+		?a: cells
+		?b: receptors
+		?c: the mature tissue
+
+
+label:    sent_20
+sentence: Brucella are invasive gram-negative bacteria that multiply and survive within eukaryotic cells causing brucellosis .
+
+ppatt:
+	?a are invasive gram-negative bacteria
+		?a: Brucella
+	?a multiply survive within ?b
+		?a: that
+		?b: eukaryotic cells causing brucellosis
+	?a causing ?b
+		?a: eukaryotic cells
+		?b: brucellosis
+
+
+label:    sent_21
+sentence: For cells to multiply and survive these areas must eventually be replicated .
+
+ppatt:
+	multiply survive ?a
+		?a: these areas
+	For ?a must eventually be replicated
+		?a: cells
+	For ?a must eventually be replicated
+		?a: multiply survive these areas
+
+
+label:    sent_22
+sentence: These mesenchyme cells multiply and differentiate into chondrocytes during a 6-day culture period .
+
+ppatt:
+
+
+
+label:    sent_23
+sentence: A multiply convergent platform for the synthesis of trioxacarcins .
+
+ppatt:
+
+
+
+label:    sent_24
+sentence: Correlation transfer equation for ultrasound-modulated multiply scattered light .
+
+ppatt:
+
+
+
+label:    sent_25
+sentence: Characterisation of the chick brain high molecular weight multiply phosphorylated microtubule associated protein .
+
+ppatt:
+
+
+
+label:    sent_26
+sentence: How to multiply a matrix of normal equations by an arbitrary vector using FFT .
+
+ppatt:
+	?a using ?b
+		?a: an arbitrary vector
+		?b: FFT
+
+
+label:    sent_27
+sentence: To interpret PSA concentrations in patients taking finasteride , multiply them by two .
+
+ppatt:
+	interpret ?a
+		?a: PSA concentrations in patients taking finasteride
+	?a taking ?b
+		?a: patients
+		?b: finasteride
+
+

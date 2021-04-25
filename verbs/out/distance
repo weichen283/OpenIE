@@ -1,0 +1,114 @@
+label:    sent_1
+sentence: The author argues that individual resistances to oedipal passions reappear and are reinforced in collective theories that distance us from oedipal issues .
+
+ppatt:
+	?a argues ?b
+		?a: The author
+		?b: SOMETHING := individual resistances to oedipal passions reappear
+	?a reappear
+		?a: individual resistances to oedipal passions
+	?a are reinforced in ?b
+		?a: individual resistances to oedipal passions
+		?b: collective theories that distance us from oedipal issues
+	?a distance ?b from ?c
+		?a: collective theories
+		?b: us
+		?c: oedipal issues
+
+
+label:    sent_2
+sentence: Occupational health and safety and radiation safety regulations stipulate that operators of an X-ray emitting device , or technologists assisting in the operation of an X-ray emitting device , must distance themselves from the primary beam ( minimum of 3 metres ) during X-ray exposure .
+
+ppatt:
+	?a stipulate ?b
+		?a: Occupational health
+		?b: SOMETHING := operators of an X-ray emitting device , or technologists assisting in the operation of an X-ray emitting device , must distance themselves from the primary beam during X-ray exposure
+	?a stipulate ?b
+		?a: safety
+		?b: SOMETHING := operators of an X-ray emitting device , or technologists assisting in the operation of an X-ray emitting device , must distance themselves from the primary beam during X-ray exposure
+	?a stipulate ?b
+		?a: radiation safety regulations
+		?b: SOMETHING := operators of an X-ray emitting device , or technologists assisting in the operation of an X-ray emitting device , must distance themselves from the primary beam during X-ray exposure
+	?a assisting in ?b
+		?a: technologists
+		?b: the operation of an X-ray emitting device
+	?a must distance ?b during ?c
+		?a: operators of an X-ray emitting device
+		?b: themselves from the primary beam
+		?c: X-ray exposure
+	?a must distance ?b during ?c
+		?a: technologists assisting in the operation of an X-ray emitting device
+		?b: themselves from the primary beam
+		?c: X-ray exposure
+
+
+label:    sent_3
+sentence: With the new trusts to control budgets in the region of pounds sterling 290m , there are fears that their size could distance them from commissioners and service users .
+
+ppatt:
+	?a control ?b
+		?a: the new trusts
+		?b: budgets in the region of pounds sterling 290m
+	?a sterling ?b
+		?a: pounds
+		?b: 290m
+	With ?a , there are ?b
+		?a: the new trusts to control budgets in the region of pounds sterling 290m
+		?b: fears that their size could distance them from commissioners and service users
+	?a could distance ?b from ?c
+		?a: their size
+		?b: them
+		?c: commissioners
+	?a could distance ?b from ?c
+		?a: their size
+		?b: them
+		?c: service users
+
+
+label:    sent_4
+sentence: It is postulated that attitude towards payment becomes part of a psychological detachment process in which surrogate mothers emotionally distance themselves from the growing foetus .
+
+ppatt:
+	?a is postulated ?b
+		?a: It
+		?b: SOMETHING := attitude towards payment becomes part of a psychological detachment process in which surrogate mothers emotionally distance themselves from the growing foetus
+	?a becomes part of ?b
+		?a: attitude towards payment
+		?b: a psychological detachment process in which surrogate mothers emotionally distance themselves from the growing foetus
+	?a in ?b emotionally distance ?c
+		?a: a psychological detachment process
+		?b: surrogate mothers
+		?c: themselves from the growing foetus
+
+
+label:    sent_5
+sentence: The mean patient-preferred near distance was 41 +/- 4 cm , at which distance the mean visual acuity was -0.01 +/- 0.11 logMAR .
+
+ppatt:
+	?a was 41 +/- 4 cm
+		?a: The mean patient-preferred near distance
+	?a at ?b ?c was -0.01 +/- 0.11 logMAR
+		?a: 41 +/- 4 cm
+		?b: distance
+		?c: the mean visual acuity
+
+
+label:    sent_6
+sentence: Phytoextraction has possibly reached a turning point in which it should distance itself from chelate assisted phytoextraction and focus on alternative options .
+
+ppatt:
+	?a has possibly reached ?b
+		?a: Phytoextraction
+		?b: a turning point in which it should distance itself from chelate assisted phytoextraction and focus on alternative options
+	?a in ?b should distance ?c from ?d
+		?a: a turning point assisted phytoextraction and focus on alternative options
+		?b: it
+		?c: itself
+		?d: chelate
+	?a assisted ?b
+		?a: a turning point in which it should distance itself from chelate
+		?b: phytoextraction
+	focus on ?a
+		?a: alternative options
+
+

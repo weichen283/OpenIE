@@ -1,0 +1,337 @@
+label:    sent_1
+sentence: The normal-starch total mixed ration did not contain exogenous amylase ( NS- ) . These libraries contain predetermined volumes with corresponding administration rate limits .
+
+ppatt:
+	?a did not contain ?b
+		?a: The normal-starch total mixed ration
+		?b: exogenous amylase
+	?a is/are NS-
+		?a: exogenous amylase
+	?a contain ?b
+		?a: These libraries
+		?b: predetermined volumes with corresponding administration rate limits
+
+
+label:    sent_2
+sentence: Interglacial deposits contain thermophilic palms suggesting warm and wet climates .
+
+ppatt:
+	?a contain ?b suggesting ?c
+		?a: Interglacial deposits
+		?b: thermophilic palms
+		?c: warm and wet climates
+
+
+label:    sent_3
+sentence: All diets were corn-soybean meal based and formulated to contain 1.26 % total Lys . Treatment and control groups were arranged to contain 10 cases each .
+
+ppatt:
+	?a were corn-soybean meal
+		?a: All diets
+	?a based
+		?a: corn-soybean meal
+	based ?a
+		?a: formulated to contain 1.26 % total Lys
+	?a formulated to contain ?b
+		?a: All diets
+		?b: 1.26 % total Lys
+	?a were arranged to contain ?b ?c
+		?a: Treatment
+		?b: 10 cases
+		?c: each
+	?a were arranged to contain ?b ?c
+		?a: control groups
+		?b: 10 cases
+		?c: each
+
+
+label:    sent_4
+sentence: Most societies elaborate ways to contain increasing health care expenditures .
+
+ppatt:
+	?a elaborate ?b
+		?a: Most societies
+		?b: ways to contain increasing health care expenditures
+	?a contain ?b
+		?a: ways
+		?b: increasing health care expenditures
+
+
+label:    sent_5
+sentence: Global functional assessments contain few cognitive items and may lack psychometric rigour . Ti-15Zr-4Nb-4Ta alloy does not contain any cytotoxic elements and has a high mechanical strength .
+
+ppatt:
+	?a contain ?b
+		?a: Global functional assessments
+		?b: few cognitive items
+	?a may lack ?b
+		?a: Global functional assessments
+		?b: psychometric rigour
+	?a does not contain ?b
+		?a: Ti-15Zr-4Nb-4Ta alloy
+		?b: any cytotoxic elements
+	?a has ?b
+		?a: Ti-15Zr-4Nb-4Ta alloy
+		?b: a high mechanical strength
+
+
+label:    sent_6
+sentence: Tumour-derived microvesicles contain interleukin-8 and modulate production of chemokines by human monocytes .
+
+ppatt:
+	?a contain ?b
+		?a: Tumour-derived microvesicles
+		?b: interleukin-8
+	?a modulate ?b
+		?a: Tumour-derived microvesicles
+		?b: production of chemokines by human monocytes
+
+
+label:    sent_7
+sentence: In total , these genomes contain more than 34 million single-nucleotide variants .
+
+ppatt:
+	In ?a , ?b contain ?c
+		?a: total
+		?b: these genomes
+		?c: more than 34 million single-nucleotide variants
+
+
+label:    sent_8
+sentence: The PRKs contain three tandem HR1 domains at their N-termini .
+
+ppatt:
+	?a contain ?b at ?c
+		?a: The PRKs
+		?b: three tandem HR1 domains
+		?c: their N-termini
+
+
+label:    sent_9
+sentence: The impurities contain alkyl substitution on the piperidine nitrogen , producing tertiary amine species .
+
+ppatt:
+	?a contain ?b
+		?a: The impurities
+		?b: alkyl substitution on the piperidine nitrogen
+	?a producing ?b
+		?a: The impurities
+		?b: tertiary amine species
+
+
+label:    sent_10
+sentence: The two compounds are isostructural and contain two crystallographically independent molecules .
+
+ppatt:
+	?a are isostructural
+		?a: The two compounds
+	?a contain ?b
+		?a: The two compounds
+		?b: two crystallographically independent molecules
+
+
+label:    sent_11
+sentence: However , brain metastasis-associated blood vessels are dilated and contain numerous dividing endothelial cells .
+
+ppatt:
+	However , ?a are dilated
+		?a: brain metastasis-associated blood vessels
+	?a contain ?b
+		?a: brain metastasis-associated blood vessels
+		?b: numerous dividing endothelial cells
+
+
+label:    sent_12
+sentence: Full economic evaluations of hypertension management programmes are scarce and contain methodological limitations .
+
+ppatt:
+	?a are scarce
+		?a: Full economic evaluations of hypertension management programmes
+	?a contain ?b
+		?a: Full economic evaluations of hypertension management programmes
+		?b: methodological limitations
+
+
+label:    sent_13
+sentence: The adult mouse and human pancreas contain rare multipotent stem cells that express insulin .
+
+ppatt:
+	?a contain ?b
+		?a: The adult mouse
+		?b: rare multipotent stem cells that express insulin
+	?a contain ?b
+		?a: human
+		?b: rare multipotent stem cells that express insulin
+	?a contain ?b
+		?a: pancreas
+		?b: rare multipotent stem cells that express insulin
+	?a express ?b
+		?a: rare multipotent stem cells
+		?b: insulin
+
+
+label:    sent_14
+sentence: Boreal forests contain diverse fungal communities that form essential ectomycorrhizal symbioses with trees .
+
+ppatt:
+	?a contain ?b
+		?a: Boreal forests
+		?b: diverse fungal communities that form essential ectomycorrhizal symbioses with trees
+	?a form ?b
+		?a: diverse fungal communities
+		?b: essential ectomycorrhizal symbioses with trees
+
+
+label:    sent_15
+sentence: Suberised cell walls contain both polyaliphatic and polyaromatic domains which are supposedly cross-linked .
+
+ppatt:
+	?a contain ?b
+		?a: Suberised cell walls
+		?b: polyaliphatic
+	?a contain ?b
+		?a: Suberised cell walls
+		?b: polyaromatic
+	?a are supposedly cross-linked
+		?a: domains
+
+
+label:    sent_16
+sentence: However , no glial cells are seen to contain tau in their cytoplasm .
+
+ppatt:
+	However , ?a are seen to contain ?b in ?c
+		?a: no glial cells
+		?b: tau
+		?c: their cytoplasm
+
+
+label:    sent_17
+sentence: In yeast , the inositolphosphorylceramides mostly contain C26:0 fatty acids .
+
+ppatt:
+	In ?a , ?b mostly contain ?c
+		?a: yeast
+		?b: the inositolphosphorylceramides
+		?c: C26:0 fatty acids
+
+
+label:    sent_18
+sentence: Organic crops are often thought to contain more phenolic secondary metabolites than conventional ones .
+
+ppatt:
+	?a are often thought to contain ?b than ?c
+		?a: Organic crops
+		?b: more phenolic secondary metabolites
+		?c: conventional ones
+
+
+label:    sent_19
+sentence: Marine organisms contain arsenic at high levels , both in water-soluble and lipid-soluble forms .
+
+ppatt:
+	?a contain ?b at ?c ?d
+		?a: Marine organisms
+		?b: arsenic
+		?c: high levels
+		?d: both in water-soluble and lipid-soluble forms
+
+
+label:    sent_20
+sentence: They contain a dimer in the asymmetric unit and diffract to 2.7 A .
+
+ppatt:
+	?a contain ?b
+		?a: They
+		?b: a dimer in the asymmetric unit
+	?a diffract to ?b
+		?a: They
+		?b: 2.7 A
+
+
+label:    sent_21
+sentence: Neutrophils also take up particles such as silica and in addition they contain lysosomes .
+
+ppatt:
+	?a also take ?b
+		?a: Neutrophils
+		?b: up particles such as silica
+	in ?a ?b contain ?c
+		?a: addition
+		?b: they
+		?c: lysosomes
+
+
+label:    sent_22
+sentence: Technical mixtures of nonylphenol ( NP ) contain over 20 p-substituted isomers .
+
+ppatt:
+	?a is/are NP
+		?a: nonylphenol
+	?a contain over ?b
+		?a: Technical mixtures of nonylphenol
+		?b: 20 p-substituted isomers
+
+
+label:    sent_23
+sentence: Except for Abeta , plaques contain several other components which co-precipitate together with Abeta .
+
+ppatt:
+	Except for ?a , ?b contain ?c
+		?a: Abeta
+		?b: plaques
+		?c: several other components which co-precipitate together with Abeta
+	?a co-precipitate together with ?b
+		?a: several other components
+		?b: Abeta
+
+
+label:    sent_24
+sentence: After the contours are digitized , each contour could contain over 1000 points .
+
+ppatt:
+	After ?a are digitized
+		?a: the contours
+	?a could contain over ?b
+		?a: each contour
+		?b: 1000 points
+
+
+label:    sent_25
+sentence: Granulomas physically contain and immunologically restrain bacteria that can not be cleared .
+
+ppatt:
+	?a physically contain
+		?a: Granulomas
+	?a immunologically restrain ?b
+		?a: Granulomas
+		?b: bacteria that can not be cleared
+	?a can not be cleared
+		?a: bacteria
+
+
+label:    sent_26
+sentence: Human platelets contain and secrete osteonectin , a major protein of mineralized bone .
+
+ppatt:
+	?a contain ?b
+		?a: Human platelets
+		?b: osteonectin
+	?a secrete
+		?a: Human platelets
+	?a is/are a major protein of ?b
+		?a: osteonectin
+		?b: mineralized bone
+
+
+label:    sent_27
+sentence: The complexes frequently contain or interact with nucleic acids .
+
+ppatt:
+	?a frequently contain with ?b
+		?a: The complexes
+		?b: nucleic acids
+	?a interact
+		?a: The complexes
+
+

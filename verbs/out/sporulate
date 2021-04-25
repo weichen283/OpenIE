@@ -1,0 +1,208 @@
+label:    sent_1
+sentence: The homozygous diploid mutant fails to sporulate at the nonpermissive temperature .
+
+ppatt:
+	?a fails to sporulate at ?b
+		?a: The homozygous diploid mutant
+		?b: the nonpermissive temperature
+
+
+label:    sent_2
+sentence: All of the mutants are induced to sporulate by glycerol .
+
+ppatt:
+	?a are induced to ?b
+		?a: All of the mutants
+		?b: sporulate by glycerol
+	?a to sporulate by ?b
+		?a: All of the mutants
+		?b: glycerol
+
+
+label:    sent_3
+sentence: Transformants were selected for their ability to grow and sporulate on medium lacking uracil .
+
+ppatt:
+	?a were selected for ?b
+		?a: Transformants
+		?b: their ability to grow and sporulate on medium lacking uracil
+	?a grow on ?b
+		?a: their ability
+		?b: medium lacking uracil
+	?a lacking ?b
+		?a: medium
+		?b: uracil
+
+
+label:    sent_4
+sentence: Few isolates sporulate at high levels in this medium . M. fulvum did not sporulate at higher concentration of griseofulvin .
+
+ppatt:
+	?a sporulate at ?b
+		?a: Few isolates
+		?b: high levels in this medium
+	?a did not sporulate at ?b
+		?a: M. fulvum
+		?b: higher concentration of griseofulvin
+
+
+label:    sent_5
+sentence: Mutants of Schizosaccharomyces pombe which sporulate in the haploid state .
+
+ppatt:
+	?a sporulate in ?b
+		?a: Mutants of Schizosaccharomyces pombe
+		?b: the haploid state
+
+
+label:    sent_6
+sentence: They mate at normal efficiencies , and they sporulate successfully . Oocysts did not sporulate in vitro .
+
+ppatt:
+	?a mate at ?b
+		?a: They
+		?b: normal efficiencies
+	?a sporulate successfully
+		?a: they
+	?a did not sporulate in vitro
+		?a: Oocysts
+
+
+label:    sent_7
+sentence: Mutants lacking AcbA sporulate well only when developed in chimeras with WT cells .
+
+ppatt:
+	?a lacking ?b
+		?a: Mutants
+		?b: AcbA
+	?a sporulate well
+		?a: Mutants lacking AcbA
+	?a only when developed in ?b
+		?a: Mutants lacking AcbA
+		?b: chimeras with WT cells
+
+
+label:    sent_8
+sentence: A revertant of this mutant regained the ability to both sporulate and synthesize pppAppp .
+
+ppatt:
+	?a regained ?b
+		?a: A revertant of this mutant
+		?b: the ability to both sporulate
+	?a synthesize ?b
+		?a: A revertant of this mutant
+		?b: pppAppp
+
+
+label:    sent_9
+sentence: The oomycete has spiny oogonia and does not sporulate readily .
+
+ppatt:
+	?a has ?b
+		?a: The oomycete
+		?b: spiny oogonia
+	?a does not sporulate readily
+		?a: The oomycete
+
+
+label:    sent_10
+sentence: Cultures maintained on yeast extract-starch medium retained the ability to sporulate and utilize glycerol .
+
+ppatt:
+	?a maintained on ?b
+		?a: Cultures
+		?b: yeast extract-starch medium
+	?a retained ?b
+		?a: Cultures maintained on yeast extract-starch medium
+		?b: the ability to sporulate and utilize glycerol
+	?a sporulate ?b
+		?a: the ability
+		?b: glycerol
+	utilize ?a
+		?a: glycerol
+
+
+label:    sent_11
+sentence: The diploid hybrids from crosses between these species sporulate well but are essentially infertile . mum3 mutants sporulate poorly and the spores produced are inviable .
+
+ppatt:
+	?a sporulate well
+		?a: The diploid hybrids from crosses between these species
+	?a sporulate poorly
+		?a: mum3 mutants
+	?a produced
+		?a: the spores
+	?a are inviable
+		?a: the spores produced
+
+
+label:    sent_12
+sentence: Such strains sporulate but germination is poor and only one-spore tetrads are formed .
+
+ppatt:
+	?a sporulate
+		?a: Such strains
+	?a is poor
+		?a: germination
+	?a are formed
+		?a: only one-spore tetrads
+
+
+label:    sent_13
+sentence: Homozygous diploid mai1Delta cells sporulate , but with a slightly reduced frequency .
+
+ppatt:
+	?a sporulate
+		?a: Homozygous diploid mai1Delta cells
+
+
+label:    sent_14
+sentence: Such strains conjugate and sporulate less frequently than wild-type cells upon nutrient limitation .
+
+ppatt:
+	?a conjugate less frequently than ?b upon ?c
+		?a: Such strains
+		?b: wild-type cells
+		?c: nutrient limitation
+
+
+label:    sent_15
+sentence: Two of the strains did not produce virus-like particles or sporulate significantly upon induction .
+
+ppatt:
+	?a did not produce ?b
+		?a: Two of the strains
+		?b: virus-like particles
+	?a sporulate significantly upon ?b
+		?a: Two of the strains
+		?b: induction
+
+
+label:    sent_16
+sentence: Five other strains grew , but did not sporulate , in this medium . Attempts to sporulate CAM-derived oocysts were not successful .
+
+ppatt:
+	?a grew
+		?a: Five other strains
+	?a did not sporulate in ?b
+		?a: Five other strains
+		?b: this medium
+	?a sporulate ?b
+		?a: Attempts
+		?b: CAM-derived oocysts
+	?a were not successful
+		?a: Attempts to sporulate CAM-derived oocysts
+
+
+label:    sent_17
+sentence: Attempts were made to sporulate cells taken from both complex and semidefined media .
+
+ppatt:
+	?a were made to sporulate ?b
+		?a: Attempts
+		?b: cells taken from both complex and semidefined media
+	?a taken ?b
+		?a: cells
+		?b: from both complex and semidefined media
+
+

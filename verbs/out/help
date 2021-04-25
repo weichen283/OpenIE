@@ -1,0 +1,307 @@
+label:    sent_1
+sentence: This tool should help non-trained people identify " Mibyou " health status for individuals .
+
+ppatt:
+	?a should help
+		?a: This tool
+	?a identify ?b
+		?a: non-trained people
+		?b: " Mibyou " health status for individuals
+
+
+label:    sent_2
+sentence: Our classification system could help surgeons tailor management of convex nasal dorsum deformities .
+
+ppatt:
+	?a could help ?b tailor ?c
+		?a: Our classification system
+		?b: surgeons
+		?c: management of convex nasal dorsum deformities
+
+
+label:    sent_3
+sentence: The findings may help predict successful pregnancy in single-blastocyst transfer .
+
+ppatt:
+	?a may help predict ?b in ?c
+		?a: The findings
+		?b: successful pregnancy
+		?c: single-blastocyst transfer
+
+
+label:    sent_4
+sentence: These findings will help in optimizing therapeutic strategies against cancer using PPZ .
+
+ppatt:
+	?a will help
+		?a: These findings
+	?a optimizing ?b
+		?a: These findings
+		?b: therapeutic strategies against cancer
+	?a using ?b
+		?a: These findings
+		?b: PPZ
+
+
+label:    sent_5
+sentence: We believe that adding a health coach will help in achieving this goal .
+
+ppatt:
+	?a believe ?b
+		?a: We
+		?b: SOMETHING := that adding a health coach will help in achieving this goal
+	adding ?a
+		?a: a health coach
+	?a will help
+		?a: SOMETHING := adding a health coach
+	?a achieving ?b
+		?a: adding a health coach
+		?b: this goal
+
+
+label:    sent_6
+sentence: In long-term follow-up of BA patients , MDCT can help determine follow-up strategies .
+
+ppatt:
+	In ?a , ?b can help determine ?c
+		?a: long-term follow-up of BA patients
+		?b: MDCT
+		?c: follow-up strategies
+
+
+label:    sent_7
+sentence: Particulate nanoscale delivery systems deliver antigens intracellularly and help in inducing T-cell responses .
+
+ppatt:
+	?a deliver ?b intracellularly
+		?a: Particulate nanoscale delivery systems
+		?b: antigens
+	?a help
+		?a: Particulate nanoscale delivery systems
+	?a inducing ?b
+		?a: Particulate nanoscale delivery systems
+		?b: T-cell responses
+
+
+label:    sent_8
+sentence: A clinical score is available to help with the diagnosis of thoracic pain .
+
+ppatt:
+	?a is available to help with ?b
+		?a: A clinical score
+		?b: the diagnosis of thoracic pain
+
+
+label:    sent_9
+sentence: Incidence in pediatric IBD is rising : help from health administrative data .
+
+ppatt:
+	?a is rising
+		?a: Incidence in pediatric IBD
+	?a help from ?b
+		?a: Incidence in pediatric IBD
+		?b: health administrative data
+
+
+label:    sent_10
+sentence: There is a lack of guidelines to help decision-making . Can this DNA sleuth help catch criminals ? Does Your Heart Forecast help practitioner understanding and confidence with cardiovascular disease risk communication ? It is easy to perform and may help the patients gain a faster rehabilitation .
+
+ppatt:
+	There is ?a
+		?a: a lack of guidelines to help decision-making
+	?a help decision-making
+		?a: a lack of guidelines
+	Can ?a help catch ?b
+		?a: this DNA sleuth
+		?b: criminals
+	Does Your ?a help ?b
+		?a: Heart Forecast
+		?b: practitioner understanding with cardiovascular disease risk communication
+	Does Your ?a help ?b
+		?a: Heart Forecast
+		?b: confidence
+	?a is easy to perform
+		?a: It
+	?a is easy to may help ?b
+		?a: It
+		?b: SOMETHING := the patients gain a faster rehabilitation
+	?a gain ?b
+		?a: the patients
+		?b: a faster rehabilitation
+
+
+label:    sent_11
+sentence: The models can be used to simulate relationships and help understand the relationships .
+
+ppatt:
+	?a can be used to simulate ?b
+		?a: The models
+		?b: relationships
+	?a can be used to help
+		?a: The models
+	?a can be used to understand ?b
+		?a: The models
+		?b: the relationships
+
+
+label:    sent_12
+sentence: Relatives can provide important help and support to their loved one . We hypothesized that neutrophils help modulate the adaptive response and promote host tissue damage .
+
+ppatt:
+	?a can provide ?b
+		?a: Relatives
+		?b: important help
+	?a support to ?b
+		?a: Relatives
+		?b: their loved one
+	?a hypothesized ?b
+		?a: We
+		?b: SOMETHING := neutrophils help modulate the adaptive response and promote host tissue damage
+	?a help modulate ?b
+		?a: neutrophils
+		?b: the adaptive response
+	?a help promote ?b
+		?a: neutrophils
+		?b: host tissue damage
+
+
+label:    sent_13
+sentence: Endoscopic techniques help reduce hospital costs and decrease the morbidity .
+
+ppatt:
+	?a help ?b
+		?a: Endoscopic techniques
+		?b: SOMETHING := reduce hospital costs
+	?a reduce ?b
+		?a: Endoscopic techniques
+		?b: hospital costs
+	?a decrease ?b
+		?a: Endoscopic techniques
+		?b: the morbidity
+
+
+label:    sent_14
+sentence: The trauma and the clinical signs can help but the confirmation is surgical . MRA may help planning of catheter interventions for PPAS .
+
+ppatt:
+	?a can help
+		?a: The trauma
+	?a can help
+		?a: the clinical signs
+	?a is surgical
+		?a: the confirmation
+	?a may help ?b
+		?a: MRA
+		?b: planning of catheter interventions for PPAS
+
+
+label:    sent_15
+sentence: Although he had significant psychiatric issues , psychiatric treatment did not help him . The work will help the design of the isozyme-specific inhibitors of hCA VII .
+
+ppatt:
+	?a had ?b
+		?a: he
+		?b: significant psychiatric issues
+	?a did not help ?b
+		?a: psychiatric treatment
+		?b: him
+	?a will help ?b
+		?a: The work
+		?b: the design of the isozyme-specific inhibitors of hCA VII
+
+
+label:    sent_16
+sentence: Based on the available evidence , peer support interventions help reduce symptoms of depression .
+
+ppatt:
+	Based on the available evidence ?a
+		?a: peer support interventions
+	?a help reduce ?b
+		?a: peer support interventions
+		?b: symptoms of depression
+
+
+label:    sent_17
+sentence: Platelet-rich plasma ( PRP ) therapies may help athletes by promoting muscle regeneration .
+
+ppatt:
+	?a is/are PRP
+		?a: Platelet-rich plasma
+	?a may help ?b
+		?a: Platelet-rich plasma therapies
+		?b: athletes
+	?a promoting ?b
+		?a: Platelet-rich plasma therapies
+		?b: muscle regeneration
+
+
+label:    sent_18
+sentence: Specific communications training may help clinicians in this role .
+
+ppatt:
+	?a may help ?b in ?c
+		?a: Specific communications training
+		?b: clinicians
+		?c: this role
+
+
+label:    sent_19
+sentence: Guidelines are needed to help the physicist set clinically reasonable action levels for agreement .
+
+ppatt:
+	?a are needed to help ?b ?c
+		?a: Guidelines
+		?b: the physicist set
+		?c: clinically reasonable action levels for agreement
+
+
+label:    sent_20
+sentence: The models can be further used to help design shoes with optimized thermal comfort .
+
+ppatt:
+	?a can be further used to help design ?b with ?c
+		?a: The models
+		?b: shoes
+		?c: optimized thermal comfort
+
+
+label:    sent_21
+sentence: Recommendations represent systematically developed statements to help practitioners in reducing variability .
+
+ppatt:
+	?a represent ?b to help ?c
+		?a: Recommendations
+		?b: systematically developed statements
+		?c: practitioners
+	?a reducing ?b
+		?a: Recommendations
+		?b: variability
+
+
+label:    sent_22
+sentence: They also help with promotion in academic medicine and can reveal new job opportunities .
+
+ppatt:
+	?a also help with ?b
+		?a: They
+		?b: promotion in academic medicine
+	?a can reveal ?b
+		?a: They
+		?b: new job opportunities
+
+
+label:    sent_23
+sentence: A CT scan can help in the assessment of severity and for preoperative planning . As a result , Dr . Park could n't help but stop his anti-Japanese activities .
+
+ppatt:
+	?a can help in ?b . As ?c
+		?a: A CT scan
+		?b: the assessment of severity and for preoperative planning
+		?c: a result
+	?a could n't help
+		?a: Dr . Park
+	?a stop ?b
+		?a: Dr . Park
+		?b: his anti-Japanese activities
+
+

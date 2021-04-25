@@ -1,0 +1,62 @@
+label:    sent_1
+sentence: Magnesium-limited S. cerevisiae cells did not flocculate at any stage of growth .
+
+ppatt:
+	?a did not flocculate at ?b
+		?a: Magnesium-limited S. cerevisiae cells
+		?b: any stage of growth
+
+
+label:    sent_2
+sentence: Can colloidal particles flocculate at two energy minima simultaneously in a quiescent medium ? Cdk8 module mutants flocculate due to overexpression of adhesive cell-surface proteins .
+
+ppatt:
+	Can ?a flocculate at ?b simultaneously in ?c
+		?a: colloidal particles
+		?b: two energy minima
+		?c: a quiescent medium
+	?a flocculate due to ?b
+		?a: Cdk8 module mutants
+		?b: overexpression of adhesive cell-surface proteins
+
+
+label:    sent_3
+sentence: In addition , this EPS was effective to flocculate several other suspended solids .
+
+ppatt:
+	In ?a , ?b was effective to flocculate ?c
+		?a: addition
+		?b: this EPS
+		?c: several other suspended solids
+
+
+label:    sent_4
+sentence: Polyelectrolytes are used to coagulate and flocculate colloidal systems .
+
+ppatt:
+	?a are used to coagulate ?b
+		?a: Polyelectrolytes
+		?b: colloidal systems
+	?a are used to flocculate
+		?a: Polyelectrolytes
+
+
+label:    sent_5
+sentence: We have isolated fission yeast mutants that constitutively flocculate upon growth in liquid media .
+
+ppatt:
+	?a have isolated ?b
+		?a: We
+		?b: fission yeast mutants that constitutively flocculate upon growth in liquid media
+	?a constitutively flocculate upon ?b
+		?a: fission yeast mutants
+		?b: growth in liquid media
+
+
+label:    sent_6
+sentence: Most brewing strains of Saccharomyces cerevisiae flocculate following growth in beer wort .
+
+ppatt:
+
+
+

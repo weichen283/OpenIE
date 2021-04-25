@@ -1,0 +1,313 @@
+label:    sent_1
+sentence: Emphasis is on the priority to inactivate the infectious micro-organisms in CSW .
+
+ppatt:
+	?a is on the priority
+		?a: Emphasis
+	?a inactivate ?b
+		?a: the priority
+		?b: the infectious micro-organisms in CSW
+
+
+label:    sent_2
+sentence: Synthetic protocells interact with viral nanomachinery and inactivate pathogenic human virus . Fresh Cistanche tubulosa was treated by microwave moisture processing to inactivate enzymes .
+
+ppatt:
+	?a interact with ?b
+		?a: Synthetic protocells
+		?b: viral nanomachinery
+	?a inactivate ?b
+		?a: Synthetic protocells
+		?b: pathogenic human virus
+	?a was treated by ?b to inactivate ?c
+		?a: Fresh Cistanche tubulosa
+		?b: microwave moisture processing
+		?c: enzymes
+
+
+label:    sent_3
+sentence: Nitrooxyacyl derivatives of salicylic acid : aspirin-like molecules that covalently inactivate cyclooxygenase-1 .
+
+ppatt:
+	?a covalently inactivate ?b
+		?a: aspirin-like molecules
+		?b: cyclooxygenase-1
+
+
+label:    sent_4
+sentence: A peptidomics strategy to elucidate the proteolytic pathways that inactivate peptide hormones . BRG1 mutations found in human cancer cell lines inactivate Rb-mediated cell-cycle arrest .
+
+ppatt:
+	?a elucidate ?b
+		?a: A peptidomics strategy
+		?b: the proteolytic pathways that inactivate peptide hormones
+	?a inactivate ?b
+		?a: the proteolytic pathways
+		?b: peptide hormones
+	?a found in ?b
+		?a: BRG1 mutations
+		?b: human cancer cell lines
+	?a ?b inactivate ?c
+		?a: A peptidomics strategy to elucidate the proteolytic pathways that inactivate peptide hormones
+		?b: BRG1 mutations found in human cancer cell lines
+		?c: Rb-mediated cell-cycle arrest
+
+
+label:    sent_5
+sentence: This transgene provides a powerful tool to inactivate genes of interest in these tissues .
+
+ppatt:
+	?a provides ?b
+		?a: This transgene
+		?b: a powerful tool to inactivate genes of interest in these tissues
+	?a inactivate ?b
+		?a: a powerful tool
+		?b: genes of interest in these tissues
+
+
+label:    sent_6
+sentence: This postsynaptic depolarization was large enough to inactivate action potentials in one cell .
+
+ppatt:
+	?a was large enough to inactivate ?b in ?c
+		?a: This postsynaptic depolarization
+		?b: action potentials
+		?c: one cell
+
+
+label:    sent_7
+sentence: Two haloenol lactones have been shown to inactivate alpha-chymotrypsin by an enzyme-mediated process .
+
+ppatt:
+	?a have been shown to inactivate ?b by ?c
+		?a: Two haloenol lactones
+		?b: alpha-chymotrypsin
+		?c: an enzyme-mediated process
+
+
+label:    sent_8
+sentence: Cooking for 19 min would fully inactivate Salmonella in 99.9 % of the cases .
+
+ppatt:
+	?a would fully inactivate ?b in ?c
+		?a: Cooking for 19 min
+		?b: Salmonella
+		?c: 99.9 % of the cases
+
+
+label:    sent_9
+sentence: This is because it can inactivate most beta-lactam antibiotic drugs by hydrolyzing them .
+
+ppatt:
+	?a is
+		?a: This
+	?a can inactivate ?b
+		?a: it
+		?b: most beta-lactam antibiotic drugs
+	?a hydrolyzing ?b
+		?a: it
+		?b: them
+
+
+label:    sent_10
+sentence: Our results indicated that sub-lethal colchicine can inactivate DPCs through releasing histone H4 .
+
+ppatt:
+	?a indicated ?b
+		?a: Our results
+		?b: SOMETHING := sub-lethal colchicine can inactivate DPCs through releasing histone H4
+	?a can inactivate ?b
+		?a: sub-lethal colchicine
+		?b: DPCs
+	?a releasing ?b
+		?a: sub-lethal colchicine
+		?b: histone H4
+
+
+label:    sent_11
+sentence: This seems to invoke suppressor mechanisms and to directly inactivate TDH cells .
+
+ppatt:
+	?a seems to invoke ?b
+		?a: This
+		?b: suppressor mechanisms
+	?a seems to to directly inactivate ?b
+		?a: This
+		?b: TDH cells
+
+
+label:    sent_12
+sentence: This compound can adsorb agents that are toxic to DNA and inactivate them .
+
+ppatt:
+	?a can adsorb ?b
+		?a: This compound
+		?b: agents that are toxic to DNA and inactivate them
+	?a are toxic to ?b
+		?a: agents
+		?b: DNA
+	?a inactivate ?b
+		?a: that
+		?b: them
+
+
+label:    sent_13
+sentence: Alkylhydrazines are catalytically oxidized but do not inactivate the enzyme .
+
+ppatt:
+	?a are catalytically oxidized
+		?a: Alkylhydrazines
+	?a do not inactivate ?b
+		?a: Alkylhydrazines
+		?b: the enzyme
+
+
+label:    sent_14
+sentence: Bisphosphonates inactivate osteoclasts and can be used to control the resorption .
+
+ppatt:
+	?a inactivate ?b
+		?a: Bisphosphonates
+		?b: osteoclasts
+	?a can be used to control ?b
+		?a: Bisphosphonates
+		?b: the resorption
+
+
+label:    sent_15
+sentence: Peptidases may rapidly inactivate Met-enkephalin after intracerebral injection and prevent the behavioral effect .
+
+ppatt:
+	?a may rapidly inactivate ?b after ?c
+		?a: Peptidases
+		?b: Met-enkephalin
+		?c: intracerebral injection
+	?a prevent ?b
+		?a: Peptidases
+		?b: the behavioral effect
+
+
+label:    sent_16
+sentence: Norepinephrine and phenylephrine inactivate acetyl-CoA carboxylase activity and inhibit fatty acid synthesis .
+
+ppatt:
+	?a inactivate ?b
+		?a: Norepinephrine
+		?b: acetyl-CoA carboxylase activity
+	?a inactivate ?b
+		?a: phenylephrine
+		?b: acetyl-CoA carboxylase activity
+	?a inhibit ?b
+		?a: Norepinephrine
+		?b: fatty acid synthesis
+	?a inhibit ?b
+		?a: phenylephrine
+		?b: fatty acid synthesis
+
+
+label:    sent_17
+sentence: 8-Methoxypsoralen has been shown to both inactivate and induce microsomal enzymes .
+
+ppatt:
+	?a has been shown to both inactivate ?b
+		?a: 8-Methoxypsoralen
+		?b: microsomal enzymes
+	?a has been shown to both induce
+		?a: 8-Methoxypsoralen
+
+
+label:    sent_18
+sentence: The original goal was to inactivate and/or remove parvovirus from plasma-derived factor VIII .
+
+ppatt:
+	?a was to inactivate ?b from ?c
+		?a: The original goal
+		?b: parvovirus
+		?c: plasma-derived factor VIII
+	?a was to remove
+		?a: The original goal
+
+
+label:    sent_19
+sentence: None of the adducts appeared to inactivate or sequester EcoRI .
+
+ppatt:
+	?a appeared to inactivate ?b
+		?a: None of the adducts
+		?b: EcoRI
+	?a appeared to sequester
+		?a: None of the adducts
+
+
+label:    sent_20
+sentence: Borohydride and hydroxylamine inactivate in the presence of ubiquitin .
+
+ppatt:
+	?a inactivate in ?b
+		?a: Borohydride
+		?b: the presence of ubiquitin
+	?a inactivate in ?b
+		?a: hydroxylamine
+		?b: the presence of ubiquitin
+
+
+label:    sent_21
+sentence: Why does ribonuclease irreversibly inactivate at high temperatures ? It did not inactivate completely even during depolarizations lasting many seconds .
+
+ppatt:
+	Why does ?a irreversibly inactivate at ?b
+		?a: ribonuclease
+		?b: high temperatures
+	?a did not inactivate completely during ?b
+		?a: It
+		?b: even depolarizations lasting many seconds
+	?a lasting ?b
+		?a: even depolarizations
+		?b: many seconds
+
+
+label:    sent_22
+sentence: Difluoromethyl diaminopimelate 1 does not irreversibly inactivate or strongly competitively inhibit either enzyme .
+
+ppatt:
+	?a does not irreversibly inactivate
+		?a: Difluoromethyl diaminopimelate 1
+	?a strongly competitively inhibit ?b
+		?a: Difluoromethyl diaminopimelate 1
+		?b: either enzyme
+
+
+label:    sent_23
+sentence: In the presence of neuroactivators the receptors inactivate .
+
+ppatt:
+	In of ?a ?b inactivate
+		?a: neuroactivators
+		?b: the receptors
+
+
+label:    sent_24
+sentence: In fibers that inactivate normally , the dyes hasten the decay of sodium current .
+
+ppatt:
+	?a inactivate normally
+		?a: fibers
+	In ?a , ?b hasten ?c
+		?a: fibers that inactivate normally
+		?b: the dyes
+		?c: the decay of sodium current
+
+
+label:    sent_25
+sentence: As homozygotes , these fusions can inactivate the gene and lead to lethality .
+
+ppatt:
+	As ?a , ?b can inactivate ?c
+		?a: homozygotes
+		?b: these fusions
+		?c: the gene
+	?a lead to ?b
+		?a: these fusions
+		?b: lethality
+
+

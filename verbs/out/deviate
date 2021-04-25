@@ -1,0 +1,242 @@
+label:    sent_1
+sentence: Resuscitation teams often deviate from algorithms of CPR .
+
+ppatt:
+	?a often deviate from ?b
+		?a: Resuscitation teams
+		?b: algorithms of CPR
+
+
+label:    sent_2
+sentence: The clinical and electrocardiographic manifestations may deviate to a diagnosis of myocardial infarction .
+
+ppatt:
+	?a may deviate to ?b
+		?a: The clinical and electrocardiographic manifestations
+		?b: a diagnosis of myocardial infarction
+
+
+label:    sent_3
+sentence: Self-collimation makes the focusing position deviate from Snell 's law . Why humans deviate from rational choice .
+
+ppatt:
+	?a makes ?b ?c
+		?a: Self-collimation
+		?b: the focusing position
+		?c: SOMETHING := deviate from Snell 's law . Why humans deviate from rational choice
+	?a deviate from 's ?b
+		?a: Self-collimation
+		?b: Snell law
+	Why ?a deviate from ?b
+		?a: humans
+		?b: rational choice
+
+
+label:    sent_4
+sentence: Thereby we observed relative intensities that deviate from data in the literature .
+
+ppatt:
+	Thereby ?a observed ?b
+		?a: we
+		?b: relative intensities that deviate from data in the literature
+	?a deviate from ?b
+		?a: relative intensities
+		?b: data in the literature
+
+
+label:    sent_5
+sentence: The simulated intrinsic structure factors are found to deviate considerably from the measured one . Occasional cases deviate from the expected appearance and thereby cause diagnostic confusion .
+
+ppatt:
+	?a are found to deviate considerably from ?b
+		?a: The simulated intrinsic structure factors
+		?b: the measured one
+	?a deviate from ?b
+		?a: Occasional cases
+		?b: the expected appearance
+	?a thereby cause ?b
+		?a: Occasional cases
+		?b: diagnostic confusion
+
+
+label:    sent_6
+sentence: Both Gly derivatives deviate from the series and adopt different binding modes .
+
+ppatt:
+	?a deviate from ?b
+		?a: Both Gly derivatives
+		?b: the series
+	?a adopt ?b
+		?a: Both Gly derivatives
+		?b: different binding modes
+
+
+label:    sent_7
+sentence: No exclusions were found and the observed distribution did not deviate from the expected .
+
+ppatt:
+	?a were found
+		?a: No exclusions
+	?a did not deviate from ?b
+		?a: the observed distribution
+		?b: the expected
+
+
+label:    sent_8
+sentence: This principle is inviolable nor can one deviate from the norm " . The results of MMPI showed high scores in items of psychopathic deviate and schizophrenia .
+
+ppatt:
+	?a is inviolable
+		?a: This principle
+	can ?a deviate from ?b
+		?a: one
+		?b: the norm "
+	?a showed ?b
+		?a: The results of MMPI
+		?b: high scores in items of psychopathic deviate and schizophrenia
+
+
+label:    sent_9
+sentence: Cesium exchange was independent from pH value and deviate from ideal exchange phenomena .
+
+ppatt:
+	?a was independent from ?b
+		?a: Cesium exchange
+		?b: pH value
+	?a deviate from ?b
+		?a: Cesium exchange
+		?b: ideal exchange phenomena
+
+
+label:    sent_10
+sentence: Because of steric hindrances the pyridine rings deviate considerably from coplanarity .
+
+ppatt:
+	Because of ?a ?b deviate considerably from ?c
+		?a: steric hindrances
+		?b: the pyridine rings
+		?c: coplanarity
+
+
+label:    sent_11
+sentence: Several tick species deviate host T cell responses toward a Th2 cytokine profile .
+
+ppatt:
+	?a deviate ?b toward ?c
+		?a: Several tick species
+		?b: host T cell responses
+		?c: a Th2 cytokine profile
+
+
+label:    sent_12
+sentence: The incidence rate and age distribution did not deviate much compared with former results .
+
+ppatt:
+	?a did not deviate much
+		?a: The incidence rate
+	?a did not deviate much
+		?a: age distribution
+	?a compared with former results
+		?a: The incidence rate
+	?a compared with former results
+		?a: age distribution
+
+
+label:    sent_13
+sentence: If the Fry theory is correct , the cartilaginous septum should deviate .
+
+ppatt:
+	?a is correct
+		?a: the Fry theory
+	?a should deviate
+		?a: the cartilaginous septum
+
+
+label:    sent_14
+sentence: However , circular dichroism spectra in 250-300 nm region deviate significantly .
+
+ppatt:
+	However , ?a deviate significantly
+		?a: circular dichroism spectra in 250-300 nm region
+
+
+label:    sent_15
+sentence: Top-down influences make saccades deviate away : the case of endogenous cues .
+
+ppatt:
+	?a make
+		?a: Top-down influences
+	?a deviate away
+		?a: saccades
+
+
+label:    sent_16
+sentence: This can alter cellular differentiation with the potential to deviate immune responses . CD8 T cells are known to deviate CD4 T-cell responses from Th2 toward Th1 .
+
+ppatt:
+	?a can alter ?b with ?c
+		?a: This
+		?b: cellular differentiation
+		?c: the potential to deviate immune responses
+	?a deviate ?b
+		?a: the potential
+		?b: immune responses
+	?a are known to deviate ?b
+		?a: CD8 T cells
+		?b: CD4 T-cell responses from Th2 toward Th1
+
+
+label:    sent_17
+sentence: The deviate swallowing syndrome : its etiology , incidence , diagnosis and treatment .
+
+ppatt:
+
+
+
+label:    sent_18
+sentence: A norm deviate score from the TSCS showed P less than .001 .
+
+ppatt:
+	?a deviate ?b
+		?a: A norm
+		?b: score from the TSCS
+	?a showed ?b
+		?a: A norm
+		?b: P less than .001
+
+
+label:    sent_19
+sentence: Zooprophylaxis is the use of animals to deviate vectors from humans .
+
+ppatt:
+	?a is the use of ?b
+		?a: Zooprophylaxis
+		?b: animals
+	?a deviate ?b
+		?a: the use of animals
+		?b: vectors from humans
+
+
+label:    sent_20
+sentence: Force responses are found to deviate concavely downwards from a linear time course .
+
+ppatt:
+	?a are found to deviate concavely downwards from ?b
+		?a: Force responses
+		?b: a linear time course
+
+
+label:    sent_21
+sentence: Combinations of common chronic paediatric diseases deviate the immune response in diverging directions . 24-h storage of the samples in refrigerator does not deviate the results . A deviate eruption pattern .
+
+ppatt:
+	?a deviate ?b in ?c
+		?a: Combinations of common chronic paediatric diseases
+		?b: the immune response
+		?c: diverging directions
+	?a does not deviate ?b ?c
+		?a: 24-h storage of the samples in refrigerator
+		?b: the results
+		?c: A deviate eruption pattern
+
+

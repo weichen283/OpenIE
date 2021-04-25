@@ -1,0 +1,319 @@
+label:    sent_1
+sentence: Depressed and medically ill patients were asked to describe symptoms that characterize depression .
+
+ppatt:
+	?a ?b were asked to describe ?c
+		?a: Depressed
+		?b: patients
+		?c: symptoms that characterize depression
+	?a ?b were asked to describe ?c
+		?a: medically ill
+		?b: patients
+		?c: symptoms that characterize depression
+	?a characterize ?b
+		?a: symptoms
+		?b: depression
+
+
+label:    sent_2
+sentence: A secondary goal was to characterize the immune responses . A whale tale : using blubber biopsies to characterize Pacific Ocean pollutant trends .
+
+ppatt:
+	?a was to characterize ?b : using ?c to characterize ?d
+		?a: A secondary goal
+		?b: the immune responses
+		?c: blubber biopsies
+		?d: Pacific Ocean pollutant trends
+	?a is/are A whale tale
+		?a: the immune responses
+
+
+label:    sent_3
+sentence: We sought to characterize mothers ' communication with their adolescent daughters about HPV vaccine .
+
+ppatt:
+	?a sought to characterize ?b
+		?a: We
+		?b: mothers ' communication with their adolescent daughters about HPV vaccine
+
+
+label:    sent_4
+sentence: This review aims to characterize the loss in the diversity of libraries during amplification .
+
+ppatt:
+	?a aims to characterize ?b
+		?a: This review
+		?b: the loss in the diversity of libraries during amplification
+
+
+label:    sent_5
+sentence: To characterize the electroencephalogram ( EEG ) in young cats . Distinct histological features characterize primary angiosarcoma of bone .
+
+ppatt:
+	characterize ?a ?b
+		?a: the electroencephalogram in young cats
+		?b: Distinct histological features
+	?a is/are EEG
+		?a: the electroencephalogram in young cats
+	?a characterize ?b
+		?a: Distinct histological features
+		?b: primary angiosarcoma of bone
+
+
+label:    sent_6
+sentence: Microbial communities characterize the airways of cystic fibrosis ( CF ) patients .
+
+ppatt:
+	?a characterize ?b
+		?a: Microbial communities
+		?b: the airways of cystic fibrosis patients
+	?a is/are CF
+		?a: cystic fibrosis
+
+
+label:    sent_7
+sentence: Bioluminescence reporter gene imaging characterize human embryonic stem cell-derived teratoma formation .
+
+ppatt:
+	?a characterize ?b
+		?a: Bioluminescence reporter gene imaging
+		?b: human embryonic stem cell-derived teratoma formation
+
+
+label:    sent_8
+sentence: To characterize epilepsy originating from the cingulate gyrus and to report surgical outcomes .
+
+ppatt:
+	characterize ?a
+		?a: epilepsy originating from the cingulate gyrus
+	?a originating from ?b
+		?a: epilepsy
+		?b: the cingulate gyrus
+	report ?a
+		?a: surgical outcomes
+
+
+label:    sent_9
+sentence: Animal experimentation is necessary to characterize human diseases and design adequate therapeutic interventions .
+
+ppatt:
+	?a is necessary to characterize ?b
+		?a: Animal experimentation
+		?b: human diseases
+	?a is necessary to design ?b
+		?a: Animal experimentation
+		?b: adequate therapeutic interventions
+
+
+label:    sent_10
+sentence: To generate and characterize a constitutively active , RPE-specific , cre-expressing transgenic mouse line .
+
+ppatt:
+	generate ?a
+		?a: a constitutively active , transgenic mouse line
+	characterize ?a
+		?a: a constitutively active , transgenic mouse line
+
+
+label:    sent_11
+sentence: Here we characterize posttranslational modification of MnSOD in the fission yeast Schizosaccharomyces pombe .
+
+ppatt:
+	Here ?a characterize ?b
+		?a: we
+		?b: posttranslational modification of MnSOD in the fission yeast Schizosaccharomyces pombe
+
+
+label:    sent_12
+sentence: Comprehensive two-dimensional gas chromatography to characterize hydrocarbon mixtures in lithic materials .
+
+ppatt:
+	?a characterize ?b
+		?a: Comprehensive two-dimensional gas chromatography
+		?b: hydrocarbon mixtures in lithic materials
+
+
+label:    sent_13
+sentence: In the present study , we characterize the interaction of Efb with Fg . Distinct strategies have been developed to characterize and isolate this specific subpopulation .
+
+ppatt:
+	In ?a , ?b characterize ?c
+		?a: the present study
+		?b: we
+		?c: the interaction of Efb with Fg
+	?a have been developed to characterize ?b
+		?a: Distinct strategies
+		?b: this specific subpopulation
+	?a have been developed to isolate
+		?a: Distinct strategies
+
+
+label:    sent_14
+sentence: Further studies are needed to characterize and classify cystic lesions of the prostate .
+
+ppatt:
+	?a are needed to characterize ?b
+		?a: Further studies
+		?b: cystic lesions of the prostate
+	?a are needed to classify
+		?a: Further studies
+
+
+label:    sent_15
+sentence: This report is the first to clone and characterize of buffalograss RGLs .
+
+ppatt:
+	?a is the first to ?b
+		?a: This report
+		?b: clone
+	?a characterize of ?b
+		?a: This report
+		?b: buffalograss RGLs
+
+
+label:    sent_16
+sentence: Differences in epigenetic marks characterize monozygotic twin pairs and may explain discordance .
+
+ppatt:
+	?a characterize ?b
+		?a: Differences in epigenetic marks
+		?b: monozygotic twin pairs
+	?a may explain ?b
+		?a: Differences in epigenetic marks
+		?b: discordance
+
+
+label:    sent_17
+sentence: We characterize these transitions using numerical simulations and develop analytic theories capturing each transition .
+
+ppatt:
+	?a characterize ?b using ?c
+		?a: We
+		?b: these transitions
+		?c: numerical simulations
+	?a develop ?b
+		?a: We
+		?b: analytic theories capturing each transition
+	?a capturing ?b
+		?a: analytic theories
+		?b: each transition
+
+
+label:    sent_18
+sentence: Invertebrate-type innate immune responses evolved first and they characterize the metazoans .
+
+ppatt:
+	?a evolved first
+		?a: Invertebrate-type innate immune responses
+	?a characterize ?b
+		?a: they
+		?b: the metazoans
+
+
+label:    sent_19
+sentence: These features clearly separate these cells from canine monocytes and characterize them as DC .
+
+ppatt:
+	?a clearly separate ?b from ?c
+		?a: These features
+		?b: these cells
+		?c: canine monocytes
+	?a characterize ?b as ?c
+		?a: These features
+		?b: them
+		?c: DC
+
+
+label:    sent_20
+sentence: To characterize the gastrointestinal tract at the onset and in well-established obesity .
+
+ppatt:
+	characterize ?a at ?b
+		?a: the gastrointestinal tract
+		?b: the onset
+	characterize ?a at ?b
+		?a: the gastrointestinal tract
+		?b: well-established obesity
+
+
+label:    sent_21
+sentence: To clone and characterize the porcine aquaporins ( AQPs ) in the gastrointestinal system .
+
+ppatt:
+	characterize ?a
+		?a: the porcine aquaporins in the gastrointestinal system
+	?a is/are AQPs
+		?a: the porcine aquaporins in the gastrointestinal system
+
+
+label:    sent_22
+sentence: In this review we characterize laser-induced crosslinking and explore the applications of this method .
+
+ppatt:
+	In ?a ?b characterize ?c
+		?a: this review
+		?b: we
+		?c: laser-induced crosslinking
+	?a explore ?b
+		?a: we
+		?b: the applications of this method
+
+
+label:    sent_23
+sentence: We characterize these methods in simulation and illustrate their use on an empirical dataset .
+
+ppatt:
+	?a characterize ?b in ?c
+		?a: We
+		?b: these methods
+		?c: simulation
+	?a illustrate ?b
+		?a: We
+		?b: their use on an empirical dataset
+
+
+label:    sent_24
+sentence: In addition , surgeons should characterize their study population and report outcomes for sub-populations .
+
+ppatt:
+	In ?a , ?b should characterize ?c
+		?a: addition
+		?b: surgeons
+		?c: their study population
+	?a report ?b
+		?a: surgeons
+		?b: outcomes for sub-populations
+
+
+label:    sent_25
+sentence: However , it is difficult to diagnose or characterize non-invasively with conventional imaging .
+
+ppatt:
+	However , ?a is difficult to diagnose non-invasively with ?b
+		?a: it
+		?b: conventional imaging
+	However , ?a is difficult to characterize
+		?a: it
+
+
+label:    sent_26
+sentence: Apathy is more difficult to detect and characterize in Asian populations .
+
+ppatt:
+	?a is more difficult to detect in ?b
+		?a: Apathy
+		?b: Asian populations
+	?a is more difficult to characterize
+		?a: Apathy
+
+
+label:    sent_27
+sentence: To date , similar molecules have been difficult to characterize in mammalian cells .
+
+ppatt:
+	To ?a , ?b have been difficult to characterize in ?c
+		?a: date
+		?b: similar molecules
+		?c: mammalian cells
+
+

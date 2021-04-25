@@ -1,0 +1,40 @@
+obj	The findings may help predict successful pregnancy in single-blastocyst transfer .	obj@pregnancy
+obj	Wolff-Parkinson-White syndrome and isoproterenol testing in children : a valid adjunct to predict risk ?	obj@risk
+obj	To date , docking programs have not been used to predict interaction partners .	obj@partners
+
+subj#obj	Does serum Tau protein predict the outcome of patients with ischemic stroke ?	subj@protein obj@outcome
+subj#obj	However , a diagnosis for major depression or chronic depression did not predict quitting .	subj@diagnosis obj@quitting
+subj#obj	Dobutamine stress CMR : can we predict outcome ?	subj@we obj@outcome
+
+obj#prep	To determine psychological factors that predict success in a medical career .	obj@success prep_in@career
+obj#prep	Using claims-based measures to predict performance status score in patients with lung cancer .	obj@score prep_in@patients
+obj#prep	Screening for NPHS2 mutations may help predict FSGS recurrence after transplantation .	obj@FSGS prep_after@transplantation
+
+subj#obj#prep	Noninvasive cerebral oxygenation may predict outcome in patients undergoing aortic arch surgery .	subj@oxygenation obj@outcome prep_in@patients
+subj#obj#prep	CD151 expression can predict cancer progression in clear cell renal cell carcinoma .	subj@expression obj@progression prep_in@carcinoma
+subj#obj#prep	RIFLE and Acute Kidney Injury Network classifications predict mortality in leptospirosis-associated acute kidney injury .	subj@classifications obj@mortality prep_in@injury
+
+subj	Atrial fibrillation : HAS-BLED--a new risk score to predict bleeding in patients with AF .	subj@score
+subj	We showed that CSF neutrophils predict which patients will develop DCV .	subj@neutrophils
+subj	We predict that phytoplankton is the main food resource used by these species .	subj@We
+
+obj#conj	Externalizing problems in girls precede and predict later parental divorce .	obj@divorce conj_and@precede
+obj#conj	Asymptomatic multiclonal P. falciparum infections are common and may predict host protection .	obj@protection conj_and@common
+obj#conj	Spirometry can guide therapies for COPD and predict outcomes when used in general practice .	obj@outcomes conj_and@guide
+
+subj#obj#conj	A k-mer scheme to predict piRNAs and characterize locust piRNAs .	subj@scheme obj@piRNAs conj_and@characterize
+subj#obj#conj	Donor human leukocyte antigen specific antibodies predict development and define prognosis in transplant glomerulopathy .	subj@antibodies obj@development conj_and@define
+subj#obj#conj	MEGAN and BEIS predict spatially similar emissions but magnitudes differ .	subj@MEGAN obj@emissions conj_but@differ
+
+conj	There is a plethora of in vitro methods to predict and characterize liver toxicity .	conj_and@characterize
+conj	Various techniques have been developed to predict and measure pilot workload .	conj_and@measure
+conj	The PWM can be applied to predict and understand adolescents ' eating behaviour .	conj_and@understand
+
+subj#prep	Still alluring and hard to predict at 100 .	subj@alluring prep_at@100
+subj#prep	Prostate volume does not predict for favorable PSA after cryoablation .	subj@volume prep_after@cryoablation prep_for@PSA
+subj#prep	Team factors that predict to sustainability indicators for community-based prevention teams .	subj@factors prep_to@indicators
+
+subj#obj#prep#conj	For both genders , effort did not predict self-reported health , but reward did .	subj@effort obj@health prep_for@genders conj_but@did
+subj#obj#prep#conj	Fibrinogen levels predict mortality but in a non-specific manner .	subj@levels obj@mortality prep_in@manner conj_but@in
+subj#obj#prep#conj	Platelet-monocyte aggregates predict troponin rise after percutaneous coronary intervention and are inhibited by Abciximab .	subj@aggregates obj@rise prep_after@intervention conj_and@inhibited
+

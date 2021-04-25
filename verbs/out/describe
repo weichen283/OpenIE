@@ -1,0 +1,343 @@
+label:    sent_1
+sentence: The hand measures can directly describe the primary hand function and limitation .
+
+ppatt:
+	?a can directly describe ?b
+		?a: The hand measures
+		?b: the primary hand
+
+
+label:    sent_2
+sentence: We describe the antenatal imaging findings and the short-term postnatal outcome .
+
+ppatt:
+	?a describe ?b
+		?a: We
+		?b: the antenatal imaging findings
+	?a describe ?b
+		?a: We
+		?b: the short-term postnatal outcome
+
+
+label:    sent_3
+sentence: Here we describe two patients attending the internal medicine out-patient clinic . I will try to describe situations where such enactments were compelling .
+
+ppatt:
+	Here ?a describe ?b
+		?a: we
+		?b: two patients attending the internal medicine out-patient clinic
+	?a attending ?b
+		?a: two patients
+		?b: the internal medicine out-patient clinic
+	?a will try to describe ?b
+		?a: we
+		?b: situations where such enactments were compelling
+	?a where ?b were compelling
+		?a: situations
+		?b: such enactments
+
+
+label:    sent_4
+sentence: However , the method failed to adequately describe lesion extent in most cases .
+
+ppatt:
+	However , ?a failed to adequately describe ?b
+		?a: the method
+		?b: lesion extent in most cases
+
+
+label:    sent_5
+sentence: Depressed and medically ill patients were asked to describe symptoms that characterize depression .
+
+ppatt:
+	?a ?b were asked to describe ?c
+		?a: Depressed
+		?b: patients
+		?c: symptoms that characterize depression
+	?a ?b were asked to describe ?c
+		?a: medically ill
+		?b: patients
+		?c: symptoms that characterize depression
+	?a characterize ?b
+		?a: symptoms
+		?b: depression
+
+
+label:    sent_6
+sentence: We also describe the desinfibulation technique in this article .
+
+ppatt:
+	?a also describe ?b in ?c
+		?a: We
+		?b: the desinfibulation technique
+		?c: this article
+
+
+label:    sent_7
+sentence: In addition , we describe the main signaling pathways used by NK cell receptors .
+
+ppatt:
+	In ?a , ?b describe ?c
+		?a: addition
+		?b: we
+		?c: the main signaling pathways used by NK cell receptors
+	?a used by ?b
+		?a: the main signaling pathways
+		?b: NK cell receptors
+
+
+label:    sent_8
+sentence: In this paper we describe a three-armed , randomized , controlled study . To describe the pathogenesis and emphasize prognosis of systemic inflammatory response during severe infection .
+
+ppatt:
+	In ?a ?b describe ?c
+		?a: this paper
+		?b: we
+		?c: a three-armed , study
+	?a describe ?b
+		?a: we
+		?b: the pathogenesis
+	?a emphasize ?b
+		?a: we
+		?b: prognosis of systemic inflammatory response during severe infection
+
+
+label:    sent_9
+sentence: Studies on young people are rare and describe societies with large income inequalities .
+
+ppatt:
+	?a are rare
+		?a: Studies on young people
+	?a describe ?b
+		?a: Studies on young people
+		?b: societies with large income inequalities
+
+
+label:    sent_10
+sentence: To describe the specific characteristics of duodenal/perivaterian carcinoids and to analyze the diagnostic/therapeutic approach .
+
+ppatt:
+	describe ?a
+		?a: the specific characteristics of duodenal/perivaterian carcinoids
+	analyze ?a
+		?a: the diagnostic/therapeutic approach
+
+
+label:    sent_11
+sentence: This study aimed to describe experts ' evaluation and wishes for aesthetics in hospitals .
+
+ppatt:
+	?a aimed to describe ' ?b
+		?a: This study
+		?b: experts evaluation for aesthetics in hospitals
+	?a aimed to describe ' ?b
+		?a: This study
+		?b: wishes
+
+
+label:    sent_12
+sentence: The aim of this study is to describe these sequelae in Morocco .
+
+ppatt:
+	?a is to describe ?b
+		?a: The aim of this study
+		?b: these sequelae in Morocco
+
+
+label:    sent_13
+sentence: To describe a tuberculosis outbreak in a primary school arising from a secondary case .
+
+ppatt:
+	describe ?a
+		?a: a tuberculosis outbreak in a primary school arising from a secondary case
+	?a arising from ?b
+		?a: a primary school
+		?b: a secondary case
+
+
+label:    sent_14
+sentence: The aim of this study was describe what pediatricians in Brazil know about CD .
+
+ppatt:
+	?a was describe ?b
+		?a: The aim of this study
+		?b: SOMETHING := pediatricians in Brazil know about CD
+	?a know ?b
+		?a: pediatricians in Brazil
+		?b: about CD
+
+
+label:    sent_15
+sentence: Complete perioperative results describe important treatment ends that can not influence primary outcomes .
+
+ppatt:
+	?a describe ?b
+		?a: Complete perioperative results
+		?b: important treatment ends that can not influence primary outcomes
+	?a can not influence ?b
+		?a: important treatment ends
+		?b: primary outcomes
+
+
+label:    sent_16
+sentence: We then describe how they relate and what they can learn from each other .
+
+ppatt:
+	?a then describe ?b
+		?a: We
+		?b: SOMETHING := how they relate
+	how ?a relate
+		?a: they
+	?a can learn from ?b
+		?a: they
+		?b: each other
+
+
+label:    sent_17
+sentence: The authors describe a comprehensive approach to teaching and evaluating dosage calculation .
+
+ppatt:
+	?a describe ?b
+		?a: The authors
+		?b: a comprehensive approach to teaching and evaluating dosage calculation
+	?a teaching ?b
+		?a: a comprehensive approach
+		?b: dosage calculation
+	evaluating ?a
+		?a: dosage calculation
+
+
+label:    sent_18
+sentence: We describe the resulting community consultation and summarize the outcomes .
+
+ppatt:
+	?a describe ?b
+		?a: We
+		?b: the resulting community consultation
+	?a summarize ?b
+		?a: We
+		?b: the outcomes
+
+
+label:    sent_19
+sentence: We describe the fabrication and associated experimental challenges and discuss potential applications .
+
+ppatt:
+	?a describe ?b
+		?a: We
+		?b: the fabrication
+	?a describe ?b
+		?a: We
+		?b: associated experimental challenges
+	?a discuss ?b
+		?a: We
+		?b: potential applications
+
+
+label:    sent_20
+sentence: We also describe our experience with this technique and analyze our results .
+
+ppatt:
+	?a also describe ?b
+		?a: We
+		?b: our experience with this technique
+	?a analyze ?b
+		?a: We
+		?b: our results
+
+
+label:    sent_21
+sentence: In this paper we describe these techniques and demonstrate their applications in clinical studies .
+
+ppatt:
+	In ?a ?b describe ?c
+		?a: this paper
+		?b: we
+		?c: these techniques
+	?a demonstrate ?b
+		?a: we
+		?b: their applications in clinical studies
+
+
+label:    sent_22
+sentence: In this report , we describe our implementation and characterize its performance capabilities .
+
+ppatt:
+	In ?a , ?b describe ?c
+		?a: this report
+		?b: we
+		?c: our implementation
+	?a characterize ?b
+		?a: we
+		?b: its performance capabilities
+
+
+label:    sent_23
+sentence: The authors present an illustrative case and describe and discuss the technique .
+
+ppatt:
+	?a present ?b
+		?a: The authors
+		?b: an illustrative case
+	?a describe
+		?a: The authors
+	?a discuss ?b
+		?a: The authors
+		?b: the technique
+
+
+label:    sent_24
+sentence: The authors sought to describe and define these . Clinical and radioanatomic data are presented to describe and define this novel technique .
+
+ppatt:
+	?a sought to describe ?b
+		?a: The authors
+		?b: SOMETHING := these . Clinical and radioanatomic data are presented to describe and define this novel technique
+	?a sought to define
+		?a: The authors
+	?a are presented to describe ?b
+		?a: these . Clinical and radioanatomic data
+		?b: this novel technique
+	?a are presented to define
+		?a: these . Clinical and radioanatomic data
+
+
+label:    sent_25
+sentence: In this paper we describe how we have implemented this model across our network .
+
+ppatt:
+	In ?a ?b describe ?c
+		?a: this paper
+		?b: we
+		?c: SOMETHING := how we have implemented this model across our network
+	how ?a have implemented ?b across ?c
+		?a: we
+		?b: this model
+		?c: our network
+
+
+label:    sent_26
+sentence: Researchers did not describe before the process of self-audit as proposed in this research .
+
+ppatt:
+	?a did not describe before ?b
+		?a: Researchers
+		?b: the process of self-audit
+	?a proposed in ?b
+		?a: Researchers
+		?b: this research
+
+
+label:    sent_27
+sentence: In this study , we describe a receptor cross-talk system that addresses this issue .
+
+ppatt:
+	In ?a , ?b describe ?c
+		?a: this study
+		?b: we
+		?c: a receptor cross-talk system that addresses this issue
+	?a addresses ?b
+		?a: a receptor cross-talk system
+		?b: this issue
+
+

@@ -1,0 +1,341 @@
+label:    sent_1
+sentence: The availability of quality data to inform policy is essential to reduce maternal deaths .
+
+ppatt:
+	?a inform ?b
+		?a: The availability of quality data
+		?b: policy
+	?a is essential to reduce ?b
+		?a: The availability of quality data to inform policy
+		?b: maternal deaths
+
+
+label:    sent_2
+sentence: The study highlights the need for a periodic surveillance to inform syndromic management protocols .
+
+ppatt:
+	?a highlights ?b
+		?a: The study
+		?b: the need for a periodic surveillance to inform syndromic management protocols
+	?a inform ?b
+		?a: a periodic surveillance
+		?b: syndromic management protocols
+
+
+label:    sent_3
+sentence: Pharmacokinetic studies will be needed to inform the development of such trials .
+
+ppatt:
+	?a will be needed to inform ?b
+		?a: Pharmacokinetic studies
+		?b: the development of such trials
+
+
+label:    sent_4
+sentence: How pleiotropic genetics of the musculoskeletal system can inform genomics and phenomics of aging .
+
+ppatt:
+	How ?a can inform ?b
+		?a: pleiotropic genetics of the musculoskeletal system
+		?b: genomics of aging
+	How ?a can inform ?b
+		?a: pleiotropic genetics of the musculoskeletal system
+		?b: phenomics
+
+
+label:    sent_5
+sentence: This information could inform the development of effective nutrition education programs .
+
+ppatt:
+	?a could inform ?b
+		?a: This information
+		?b: the development of effective nutrition education programs
+
+
+label:    sent_6
+sentence: These results will inform future recommendations on duration of isolation of individuals with ILI .
+
+ppatt:
+	?a will inform ?b
+		?a: These results
+		?b: future recommendations on duration of isolation of individuals with ILI
+
+
+label:    sent_7
+sentence: The best intervention to reduce anxiety is to inform the patient about the procedure .
+
+ppatt:
+	?a reduce ?b
+		?a: The best intervention
+		?b: anxiety
+	?a is to inform ?b
+		?a: The best intervention to reduce anxiety
+		?b: the patient about the procedure
+
+
+label:    sent_8
+sentence: These differences can help inform clinical practice with this under-researched population .
+
+ppatt:
+	?a can help inform ?b
+		?a: These differences
+		?b: clinical practice with this under-researched population
+
+
+label:    sent_9
+sentence: Federal law requires warning signs to inform consumers about health risks .
+
+ppatt:
+	?a requires ?b
+		?a: Federal law
+		?b: warning signs to inform consumers about health risks
+	?a inform ?b
+		?a: warning signs
+		?b: consumers about health risks
+
+
+label:    sent_10
+sentence: We should be aware of the possible complications and inform our patients .
+
+ppatt:
+	?a should be aware of ?b
+		?a: We
+		?b: the possible complications
+	?a inform ?b
+		?a: We
+		?b: our patients
+
+
+label:    sent_11
+sentence: Guidelines are used to inform clinical practice and improve the quality of health care .
+
+ppatt:
+	?a are used to inform ?b
+		?a: Guidelines
+		?b: clinical practice
+	?a are used to improve ?b
+		?a: Guidelines
+		?b: the quality of health care
+
+
+label:    sent_12
+sentence: Ophthalmologists should be aware of this possible complication and inform patients at risk .
+
+ppatt:
+	?a should be aware of ?b
+		?a: Ophthalmologists
+		?b: this possible complication
+	?a inform ?b
+		?a: Ophthalmologists
+		?b: patients at risk
+
+
+label:    sent_13
+sentence: This is positive if we want these professionals to inform society about the subject .
+
+ppatt:
+	?a is positive
+		?a: This
+	?a want ?b to inform ?c about ?d
+		?a: we
+		?b: these professionals
+		?c: society
+		?d: the subject
+
+
+label:    sent_14
+sentence: This model of caregiver support can inform public policy in providing assistance to caregivers .
+
+ppatt:
+	?a can inform ?b
+		?a: This model of caregiver support
+		?b: public policy
+	?a providing ?b
+		?a: This model of caregiver support
+		?b: assistance to caregivers
+
+
+label:    sent_15
+sentence: These results will inform future item content development for UI .
+
+ppatt:
+	?a will inform ?b
+		?a: These results
+		?b: future item content development for UI
+
+
+label:    sent_16
+sentence: Findings can inform public health policy and smoking cessation programmes for Pacific families .
+
+ppatt:
+	?a can inform ?b
+		?a: Findings
+		?b: public health policy for Pacific families
+	?a can inform ?b
+		?a: Findings
+		?b: smoking cessation programmes
+
+
+label:    sent_17
+sentence: Urgent strategic research into influenza to inform health policy and protect the public .
+
+ppatt:
+	?a inform ?b
+		?a: Urgent strategic research into influenza
+		?b: health policy
+	protect ?a
+		?a: the public
+
+
+label:    sent_18
+sentence: This information can inform health officials , and aid development of pharmacy-based syndromic surveillance .
+
+ppatt:
+	?a can inform ?b
+		?a: This information
+		?b: health officials
+	?a aid ?b
+		?a: This information
+		?b: development of pharmacy-based syndromic surveillance
+
+
+label:    sent_19
+sentence: They are increasingly being used to inform and support professional practice .
+
+ppatt:
+	?a are increasingly being used to inform ?b
+		?a: They
+		?b: professional practice
+	?a are increasingly being used to support
+		?a: They
+
+
+label:    sent_20
+sentence: Specialist mental health professionals are needed to inform and lead public health reforms .
+
+ppatt:
+	?a are needed to inform ?b
+		?a: Specialist mental health professionals
+		?b: public health reforms
+	?a are needed to lead
+		?a: Specialist mental health professionals
+
+
+label:    sent_21
+sentence: The aim is to inform and stimulate colleagues to report adverse effects of drugs .
+
+ppatt:
+	?a is to inform ?b
+		?a: The aim
+		?b: colleagues
+	?a is to stimulate
+		?a: The aim
+	?a report ?b
+		?a: The aim
+		?b: adverse effects of drugs
+
+
+label:    sent_22
+sentence: These data should inform attempts to produce a second-generation , L2-based vaccine .
+
+ppatt:
+	?a should inform ?b
+		?a: These data
+		?b: attempts to produce a second-generation , vaccine
+	?a produce ?b
+		?a: attempts
+		?b: a second-generation , vaccine
+
+
+label:    sent_23
+sentence: Widely diverse opinions can lead to conflicting outcomes in models they inform .
+
+ppatt:
+	?a can lead to ?b
+		?a: Widely diverse opinions
+		?b: conflicting outcomes in models
+	?a inform
+		?a: they
+
+
+label:    sent_24
+sentence: These findings may inform future efforts to improve EC provision for adolescents .
+
+ppatt:
+	?a may inform ?b
+		?a: These findings
+		?b: future efforts to improve EC provision for adolescents
+	?a improve ?b
+		?a: future efforts
+		?b: EC provision for adolescents
+
+
+label:    sent_25
+sentence: To inform or not to inform patients about students .
+
+ppatt:
+	not to inform ?a
+		?a: patients about students
+
+
+label:    sent_26
+sentence: An important topic is whether or not to inform others about the NF1 diagnosis .
+
+ppatt:
+	?a is ?b
+		?a: An important topic
+		?b: SOMETHING := not to inform others about the NF1 diagnosis
+	?a not to inform ?b about ?c
+		?a: An important topic
+		?b: others
+		?c: the NF1 diagnosis
+
+
+label:    sent_27
+sentence: It is important to question and inform patients about CAM use during treatment .
+
+ppatt:
+	?a is important to question ?b during ?c
+		?a: It
+		?b: patients about CAM use
+		?c: treatment
+	?a is important to inform
+		?a: It
+
+
+label:    sent_28
+sentence: Such knowledge is important for its potential to inform on sites of protein nitrosation .
+
+ppatt:
+	?a is important for ?b
+		?a: Such knowledge
+		?b: its potential to inform on sites of protein nitrosation
+	?a inform on ?b
+		?a: its potential
+		?b: sites of protein nitrosation
+
+
+label:    sent_29
+sentence: We then discuss future directions to inform on the epigenomic architecture of AD .
+
+ppatt:
+	?a then discuss ?b
+		?a: We
+		?b: future directions to inform on the epigenomic architecture of AD
+	?a inform on ?b
+		?a: future directions
+		?b: the epigenomic architecture of AD
+
+
+label:    sent_30
+sentence: The patient who failed to inform of his allergy developed laryngeal angioedema .
+
+ppatt:
+	?a failed to inform of ?b
+		?a: The patient
+		?b: his allergy
+	?a developed ?b
+		?a: The patient who failed to inform of his allergy
+		?b: laryngeal angioedema
+
+

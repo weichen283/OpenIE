@@ -1,0 +1,213 @@
+label:    sent_1
+sentence: Furthermore , endogenous GLP-1 seems to tonically restrain glucagon secretion .
+
+ppatt:
+	Furthermore , ?a seems to tonically restrain ?b
+		?a: endogenous GLP-1
+		?b: glucagon secretion
+
+
+label:    sent_2
+sentence: The danger signal S100B integrates pathogen- and danger-sensing pathways to restrain inflammation .
+
+ppatt:
+	?a integrates ?b to restrain ?c
+		?a: The danger signal S100B
+		?b: pathogen- and danger-sensing pathways
+		?c: inflammation
+
+
+label:    sent_3
+sentence: Hippo pathway inhibits Wnt signaling to restrain cardiomyocyte proliferation and heart size .
+
+ppatt:
+	?a inhibits ?b to restrain ?c
+		?a: Hippo pathway
+		?b: Wnt signaling
+		?c: cardiomyocyte proliferation
+	?a inhibits ?b to restrain ?c
+		?a: Hippo pathway
+		?b: Wnt signaling
+		?c: heart size
+
+
+label:    sent_4
+sentence: It was concluded that erythromycin could restrain the proliferation of SH-SY5Y cells .
+
+ppatt:
+	?a was concluded ?b
+		?a: It
+		?b: SOMETHING := erythromycin could restrain the proliferation of SH-SY5Y cells
+	?a could restrain ?b
+		?a: erythromycin
+		?b: the proliferation of SH-SY5Y cells
+
+
+label:    sent_5
+sentence: Similarly , inhibiting pRb can restrain ischemia/reperfusion-associated apoptosis .
+
+ppatt:
+	inhibiting ?a
+		?a: pRb
+	Similarly , ?a can restrain ?b
+		?a: SOMETHING := inhibiting pRb
+		?b: ischemia/reperfusion-associated apoptosis
+
+
+label:    sent_6
+sentence: Radiotherapy can restrain the immune function of the patients with laryngeal cancers .
+
+ppatt:
+	?a can restrain ?b
+		?a: Radiotherapy
+		?b: the immune function of the patients with laryngeal cancers
+
+
+label:    sent_7
+sentence: Moesin helps to restrain synaptic growth at the Drosophila neuromuscular junction . rEF and rLF can restrain each other by competition .
+
+ppatt:
+	?a helps to restrain ?b
+		?a: Moesin
+		?b: synaptic growth at the Drosophila neuromuscular junction
+	?a can restrain ?b by ?c
+		?a: rEF
+		?b: each other
+		?c: competition
+	?a can restrain ?b by ?c
+		?a: rLF
+		?b: each other
+		?c: competition
+
+
+label:    sent_8
+sentence: Highwire has been proposed to restrain synaptic growth by downregulating a synaptogenic signal . I hope you can either reassure me or restrain my husband . CON regulations were intended to restrain cost growth and improve quality of care .
+
+ppatt:
+	?a has been proposed to restrain ?b
+		?a: Highwire
+		?b: synaptic growth
+	?a downregulating ?b
+		?a: Highwire
+		?b: a synaptogenic signal
+	?a hope ?b
+		?a: Highwire
+		?b: SOMETHING := you can reassure me
+	?a can either reassure ?b
+		?a: you
+		?b: me
+	?a restrain ?b
+		?a: you
+		?b: my husband
+	?a were intended to restrain ?b
+		?a: CON regulations
+		?b: cost growth
+	?a were intended to improve ?b
+		?a: CON regulations
+		?b: quality of care
+
+
+label:    sent_9
+sentence: DFsn collaborates with Highwire to down-regulate the Wallenda/DLK kinase and restrain synaptic terminal growth .
+
+ppatt:
+	?a collaborates with ?b to down-regulate ?c
+		?a: DFsn
+		?b: Highwire
+		?c: the Wallenda/DLK kinase
+	?a collaborates to restrain ?b
+		?a: DFsn
+		?b: synaptic terminal growth
+
+
+label:    sent_10
+sentence: Humans restrain self-interest with moral and social values .
+
+ppatt:
+	?a restrain ?b
+		?a: Humans
+		?b: self-interest with moral and social
+
+
+label:    sent_11
+sentence: Unfortunately , conceptual and methodological problems can restrain possible conclusions from these studies .
+
+ppatt:
+	Unfortunately , ?a can restrain ?b
+		?a: conceptual and methodological problems
+		?b: possible conclusions from these studies
+
+
+label:    sent_12
+sentence: On the other hand , H1 and H2 antagonists restrain this process .
+
+ppatt:
+	On ?a , ?b restrain ?c
+		?a: the other hand
+		?b: H1 and H2 antagonists
+		?c: this process
+
+
+label:    sent_13
+sentence: Furthermore , overexpression of zyxin could also restrain cell movement and enhance cell-cell adhesion .
+
+ppatt:
+	Furthermore , ?a could also restrain ?b
+		?a: overexpression of zyxin
+		?b: cell movement
+	?a enhance ?b
+		?a: overexpression of zyxin
+		?b: cell-cell adhesion
+
+
+label:    sent_14
+sentence: VB2 can restrain the proliferation of choriocarcinoma cell JEG-3 and induce its apoptosis .
+
+ppatt:
+	?a can restrain ?b
+		?a: VB2
+		?b: the proliferation of choriocarcinoma cell JEG-3
+	?a induce ?b
+		?a: VB2
+		?b: its apoptosis
+
+
+label:    sent_15
+sentence: Pressure can restrain the heat-induced aggregation and dissociate the heat-induced aggregates .
+
+ppatt:
+	?a can restrain ?b
+		?a: Pressure
+		?b: the heat-induced aggregation
+	?a dissociate ?b
+		?a: Pressure
+		?b: the heat-induced aggregates
+
+
+label:    sent_16
+sentence: To restrain or not to restrain ? To restrain or not to restrain ? To watch or restrain : female convict prisons in 19th-century Tasmania . 14-3-3 proteins restrain the Exo1 nuclease to prevent overresection .
+
+ppatt:
+	?a restrain ?b to prevent ?c
+		?a: female convict prisons in 19th-century Tasmania 14-3-3 proteins
+		?b: the Exo1 nuclease
+		?c: overresection
+
+
+label:    sent_17
+sentence: Lichen compounds restrain lichen feeding by bank voles ( Myodes glareolus ) . The experiment results exhibite that all the sorbents can restrain ammonia volatilizing .
+
+ppatt:
+	?a restrain ?b
+		?a: Lichen compounds
+		?b: lichen feeding by bank voles
+	?a is/are Myodes glareolus
+		?a: bank voles
+	?a exhibite ?b
+		?a: The experiment results
+		?b: SOMETHING := all the sorbents can restrain ammonia volatilizing
+	?a can restrain ?b
+		?a: all the sorbents
+		?b: ammonia volatilizing
+
+

@@ -1,0 +1,259 @@
+label:    sent_1
+sentence: The muscular dystrophies : distinct pathogenic mechanisms invite novel therapeutic approaches .
+
+ppatt:
+
+
+
+label:    sent_2
+sentence: We cordially invite all of you to join the registration procedure . We invite further discussion .
+
+ppatt:
+	?a cordially invite ?b to join ?c
+		?a: We
+		?b: all of you
+		?c: the registration procedure
+	?a invite ?b
+		?a: We
+		?b: further discussion
+
+
+label:    sent_3
+sentence: Index cases were asked to invite relatives resident in Oxfordshire for testing .
+
+ppatt:
+	?a were asked to invite ?b
+		?a: Index cases
+		?b: relatives resident in Oxfordshire for testing
+
+
+label:    sent_4
+sentence: Therefore , to exclude either from the equation is to invite error . A field for further anatomical study thus seemed to invite exploration .
+
+ppatt:
+	exclude from ?a is to invite ?b
+		?a: either the equation
+		?b: error
+	Therefore . ?a thus seemed to invite ?b
+		?a: A field for further anatomical study
+		?b: exploration
+
+
+label:    sent_5
+sentence: CNVs with a weak amplitude would rather invite one to prescribe antidepressant drugs .
+
+ppatt:
+	?a would rather invite ?b to prescribe ?c
+		?a: CNVs with a weak amplitude
+		?b: one
+		?c: antidepressant drugs
+
+
+label:    sent_6
+sentence: We invite all voluntary hospitals to include their encephalitic patients in our study .
+
+ppatt:
+	?a invite ?b
+		?a: We
+		?b: all voluntary hospitals
+	?a include ?b in ?c
+		?a: We
+		?b: their encephalitic patients
+		?c: our study
+
+
+label:    sent_7
+sentence: Recruitment difficulties arise when clinicians do not invite patients to participate in trials .
+
+ppatt:
+	?a arise
+		?a: Recruitment difficulties
+	when ?a do not invite ?b to participate in ?c
+		?a: clinicians
+		?b: patients
+		?c: trials
+
+
+label:    sent_8
+sentence: We invite comment on the approach . These appearances invite confusion with other renal neoplasms .
+
+ppatt:
+	comment on ?a
+		?a: the approach
+	?a invite ?b
+		?a: These appearances
+		?b: confusion with other renal neoplasms
+
+
+label:    sent_9
+sentence: Different types of advance directives invite varying interpretation from emergency care professionals .
+
+ppatt:
+	?a invite ?b
+		?a: Different types of advance directives
+		?b: varying interpretation from emergency care professionals
+
+
+label:    sent_10
+sentence: Metaphors in language appear to instantiate frame-consistent knowledge structures and invite structurally consistent inferences .
+
+ppatt:
+	?a appear to instantiate ?b
+		?a: Metaphors in language
+		?b: frame-consistent knowledge structures
+	?a invite ?b
+		?a: Metaphors in language
+		?b: structurally consistent inferences
+
+
+label:    sent_11
+sentence: These anesthetic agents did not damage tissue defenses or invite infection in experimental animals .
+
+ppatt:
+	?a did not damage ?b
+		?a: These anesthetic agents
+		?b: tissue defenses
+	?a invite ?b
+		?a: These anesthetic agents
+		?b: infection in experimental animals
+
+
+label:    sent_12
+sentence: The results of this new surgical procedure are encouraging and invite further trials .
+
+ppatt:
+	?a are encouraging
+		?a: The results of this new surgical procedure
+	?a invite ?b
+		?a: The results of this new surgical procedure
+		?b: further trials
+
+
+label:    sent_13
+sentence: To do otherwise is to invite distrust and distress in the client .
+
+ppatt:
+	do otherwise is to invite ?a
+		?a: distrust in the client
+	do otherwise is to invite ?a
+		?a: distress
+
+
+label:    sent_14
+sentence: Do n't just invite us to the table : authentic community engagement .
+
+ppatt:
+	Do n't just invite ?a to ?b ?c
+		?a: us
+		?b: the table
+		?c: authentic community engagement
+
+
+label:    sent_15
+sentence: The ICF , therefore , appears to invite explanations of AL as behaviours .
+
+ppatt:
+	?a therefore , appears to invite ?b
+		?a: The ICF
+		?b: explanations of AL as behaviours
+
+
+label:    sent_16
+sentence: We invite researchers to use and explore the instrument in multiple settings .
+
+ppatt:
+	?a invite ?b
+		?a: We
+		?b: researchers to use and explore the instrument in multiple settings
+	?a use ?b
+		?a: researchers
+		?b: the instrument in multiple settings
+	explore ?a
+		?a: the instrument in multiple settings
+
+
+label:    sent_17
+sentence: Explore why health professionals invite or not invite Family Witnessed Resuscitation .
+
+ppatt:
+	Explore ?a
+		?a: SOMETHING := why health professionals invite
+	why ?a invite
+		?a: health professionals
+	?a not invite ?b
+		?a: health professionals
+		?b: Family
+	Witnessed ?a
+		?a: Resuscitation
+
+
+label:    sent_18
+sentence: These are important issues , and I invite academic debate .
+
+ppatt:
+	?a are important issues
+		?a: These
+	?a invite ?b
+		?a: These
+		?b: academic debate
+
+
+label:    sent_19
+sentence: In conclusion , we invite psychiatrists to play a more active role in rehabilitation .
+
+ppatt:
+	In ?a , ?b invite ?c to play ?d in ?e
+		?a: conclusion
+		?b: we
+		?c: psychiatrists
+		?d: a more active role
+		?e: rehabilitation
+
+
+label:    sent_20
+sentence: They invite to the discussion on topics that they consider polemic .
+
+ppatt:
+	?a invite to ?b
+		?a: They
+		?b: the discussion on topics that they consider polemic
+	?a consider ?b
+		?a: they
+		?b: polemic
+
+
+label:    sent_21
+sentence: Pancreatic malignancies do not necessarily invite to a fatalistic attitude .
+
+ppatt:
+	?a do not necessarily invite to ?b
+		?a: Pancreatic malignancies
+		?b: a fatalistic attitude
+
+
+label:    sent_22
+sentence: Uniforms both invite condescension and encourage domination .
+
+ppatt:
+	?a both invite ?b
+		?a: Uniforms
+		?b: condescension
+	?a encourage ?b
+		?a: Uniforms
+		?b: domination
+
+
+label:    sent_23
+sentence: We invite and encourage readers of this review to repeat/duplicate our experiments .
+
+ppatt:
+	?a invite ?b
+		?a: We
+		?b: readers of this review
+	?a encourage
+		?a: We
+	?a repeat/duplicate ?b
+		?a: We
+		?b: our experiments
+
+

@@ -1,0 +1,153 @@
+label:    sent_1
+sentence: The H159A fails to ionize the C-2 proton of either 2-PGA or phosphoglycolate .
+
+ppatt:
+	?a fails to ionize ?b
+		?a: The H159A
+		?b: the C-2 proton of either 2-PGA or phosphoglycolate
+
+
+label:    sent_2
+sentence: Octahedral Co ( II ) fails to ionize metal bound water . Eluents containing 0.001-0.01M sodium hydroxide are used to ionize the weak-acid metabolite .
+
+ppatt:
+	?a is/are II
+		?a: Octahedral Co
+	?a fails to ionize ?b
+		?a: Octahedral Co
+		?b: metal bound water
+	?a containing ?b
+		?a: Eluents
+		?b: 0.001-0.01M sodium hydroxide
+	?a are used to ionize ?b
+		?a: Eluents containing 0.001-0.01M sodium hydroxide
+		?b: the weak-acid metabolite
+
+
+label:    sent_3
+sentence: PE does not fully ionize because of intermolecular hydrogen bonding . Closed-shell molecules that ionize more readily than cesium .
+
+ppatt:
+	?a does not fully ionize because of ?b ?c
+		?a: PE
+		?b: intermolecular hydrogen bonding
+		?c: Closed-shell molecules that ionize more readily than cesium
+	?a ionize more readily than ?b
+		?a: Closed-shell molecules
+		?b: cesium
+
+
+label:    sent_4
+sentence: Water is required to ionize acid resin monomers for demineralization of tooth substrates .
+
+ppatt:
+	?a is required to ionize ?b for ?c
+		?a: Water
+		?b: acid resin monomers
+		?c: demineralization of tooth substrates
+
+
+label:    sent_5
+sentence: IMS utilizes atmospheric pressure ionization to ionize trace impurities in the sample gas .
+
+ppatt:
+	?a utilizes ?b
+		?a: IMS
+		?b: atmospheric pressure ionization
+	?a ionize ?b
+		?a: IMS
+		?b: trace impurities in the sample gas
+
+
+label:    sent_6
+sentence: Therefore , transition-state formation requires an altered Gialpha1 conformation to expose and ionize Cys .
+
+ppatt:
+	Therefore , ?a requires ?b to expose ?c
+		?a: transition-state formation
+		?b: an altered Gialpha1 conformation
+		?c: Cys
+	Therefore , ?a requires to ionize
+		?a: transition-state formation
+
+
+label:    sent_7
+sentence: We ionize the molecule in various multiphoton ionization processes using different laser wavelengths .
+
+ppatt:
+	?a ionize ?b in ?c using ?d
+		?a: We
+		?b: the molecule
+		?c: various multiphoton ionization processes
+		?d: different laser wavelengths
+
+
+label:    sent_8
+sentence: Two-photon excited CCl4 or CHCl3 can also ionize the diene or alkene solute .
+
+ppatt:
+	?a can also ionize ?b
+		?a: Two-photon excited CCl4
+		?b: the diene
+	?a can also ionize ?b
+		?a: CHCl3
+		?b: the diene
+	?a can also ionize ?b
+		?a: Two-photon excited CCl4
+		?b: alkene solute
+	?a can also ionize ?b
+		?a: CHCl3
+		?b: alkene solute
+
+
+label:    sent_9
+sentence: Residual silanols exhibit acidic characteristic and they can ionize depending on the environment .
+
+ppatt:
+	?a exhibit ?b
+		?a: Residual silanols
+		?b: acidic characteristic
+	?a can ionize
+		?a: they
+	?a depending on the environment
+		?a: they
+
+
+label:    sent_10
+sentence: High-energy electrons and gamma rays ionize molecules at random along their trajectories .
+
+ppatt:
+	?a ionize ?b at ?c along ?d
+		?a: High-energy electrons
+		?b: molecules
+		?c: random
+		?d: their trajectories
+	?a ionize ?b at ?c along ?d
+		?a: gamma rays
+		?b: molecules
+		?c: random
+		?d: their trajectories
+
+
+label:    sent_11
+sentence: Subsequently , the bubble wall molecules may thereby ionize and produce visible photons . How fast do R-X bonds ionize ? A semiquantitative approach .
+
+ppatt:
+	Subsequently , ?a may thereby ionize ?b
+		?a: the bubble wall molecules
+		?b: visible photons
+	?a produce
+		?a: the bubble wall molecules
+	How ?a ionize ?b
+		?a: R-X bonds
+		?b: A semiquantitative approach
+
+
+label:    sent_12
+sentence: These atoms thermally ionize slowly and with large probabilities .
+
+ppatt:
+	?a thermally ionize slowly and with large probabilities
+		?a: These atoms
+
+

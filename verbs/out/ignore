@@ -1,0 +1,248 @@
+label:    sent_1
+sentence: Can we continue to ignore gender differences in performance on simulation trainers ? Let the patient drive the informed consent process : ignore legal requirements .
+
+ppatt:
+	Can ?a continue to ignore ?b
+		?a: we
+		?b: gender differences in performance on simulation trainers
+	?a Let ?b
+		?a: we
+		?b: SOMETHING := the patient drive the informed consent process
+	?a drive ?b
+		?a: the patient
+		?b: the informed consent process
+	?a ignore ?b
+		?a: we
+		?b: legal requirements
+
+
+label:    sent_2
+sentence: Attempting to ignore recurring symptoms of preterm labor delayed help seeking and caused anxiety .
+
+ppatt:
+	Attempting to ignore ?a
+		?a: recurring symptoms of preterm labor delayed
+	?a delayed
+		?a: preterm labor
+	?a help seeking ?b
+		?a: SOMETHING := Attempting to ignore recurring symptoms of preterm labor delayed
+		?b: anxiety
+	?a help caused
+		?a: SOMETHING := Attempting to ignore recurring symptoms of preterm labor delayed
+
+
+label:    sent_3
+sentence: However , existing approaches ignore the ubiquitous presence of noise in boundary measurements .
+
+ppatt:
+	However , ?a ignore ?b
+		?a: existing approaches
+		?b: the ubiquitous presence of noise in boundary measurements
+
+
+label:    sent_4
+sentence: Most predictions about species responses to climate change ignore species interactions .
+
+ppatt:
+	?a ignore ?b
+		?a: Most predictions about species responses to climate change
+		?b: species interactions
+
+
+label:    sent_5
+sentence: Current dosing approaches for treating microbial infections ignore resistant subpopulations .
+
+ppatt:
+	?a treating ?b
+		?a: Current dosing approaches
+		?b: microbial infections
+	?a ignore ?b
+		?a: Current dosing approaches for treating microbial infections
+		?b: resistant subpopulations
+
+
+label:    sent_6
+sentence: However , these representations are static and ignore the constant changes in protein-protein interactions .
+
+ppatt:
+	However , ?a are static
+		?a: these representations
+	?a ignore ?b
+		?a: these representations
+		?b: the constant changes in protein-protein interactions
+
+
+label:    sent_7
+sentence: Some people insist that it is too simple to work and will ignore it . Clinicians could cancel the order or ignore the alert .
+
+ppatt:
+	?a insist ?b
+		?a: Some people
+		?b: SOMETHING := it is too simple to work
+	?a is too simple to work
+		?a: it
+	?a will ignore ?b
+		?a: it
+		?b: it
+	?a could cancel ?b
+		?a: Clinicians
+		?b: the order
+	?a ignore ?b
+		?a: Clinicians
+		?b: the alert
+
+
+label:    sent_8
+sentence: Most studies ignore this fact or substitute all missing data by zero .
+
+ppatt:
+	?a ignore ?b
+		?a: Most studies
+		?b: this fact
+	?a substitute ?b
+		?a: Most studies
+		?b: all missing data by zero
+
+
+label:    sent_9
+sentence: We may not like politics but we can n't ignore it . Congress should ignore MedPAC and make the moratorium permanent .
+
+ppatt:
+	?a may not like politics
+		?a: We
+	?a can n't ignore ?b
+		?a: we
+		?b: it
+	?a should ignore ?b
+		?a: Congress
+		?b: MedPAC
+	make ?a permanent
+		?a: the moratorium
+
+
+label:    sent_10
+sentence: However , in their medical work potential users widely ignore such guidelines .
+
+ppatt:
+	However , in ?a ?b widely ignore ?c
+		?a: their medical work
+		?b: potential users
+		?c: such guidelines
+
+
+label:    sent_11
+sentence: In the remaining two-thirds of the trials , participants could ignore S2 .
+
+ppatt:
+	In ?a , ?b could ignore ?c
+		?a: the remaining two-thirds of the trials
+		?b: participants
+		?c: S2
+
+
+label:    sent_12
+sentence: One can not ignore PREP amplitudes without sacrificing information regarding early development .
+
+ppatt:
+	?a can not ignore ?b
+		?a: One
+		?b: PREP amplitudes
+	?a sacrificing ?b
+		?a: One
+		?b: information regarding early development
+
+
+label:    sent_13
+sentence: A common method is to simply ignore all the item nonrespondents from the analysis .
+
+ppatt:
+	?a is to simply ignore ?b
+		?a: A common method
+		?b: the item nonrespondents from the analysis
+
+
+label:    sent_14
+sentence: Is it ever valid to ignore the effects of clinics in the analysis ? Consultant to laundry managers : ignore energy conservation at your own expense .
+
+ppatt:
+	Is ?a ever valid to ignore ?b
+		?a: it
+		?b: the effects of clinics in the analysis ? Consultant to laundry managers
+	?a ignore ?b at ?c
+		?a: it
+		?b: energy conservation
+		?c: your own expense
+
+
+label:    sent_15
+sentence: These analyses ignore the dynamic processes that shape walking behaviors .
+
+ppatt:
+	?a ignore ?b
+		?a: These analyses
+		?b: the dynamic processes that shape walking behaviors
+	?a shape ?b
+		?a: the dynamic processes
+		?b: walking behaviors
+
+
+label:    sent_16
+sentence: The heart threat that doctors often ignore .
+
+ppatt:
+	?a ?b often ignore
+		?a: The heart threat
+		?b: that doctors
+
+
+label:    sent_17
+sentence: Professional liability has become an uncomfortable fact of life for hospitals -- one trustees can not ignore .
+
+ppatt:
+	?a has become an uncomfortable fact of ?b
+		?a: Professional liability
+		?b: life for hospitals
+	?a can not ignore
+		?a: one trustees
+
+
+label:    sent_18
+sentence: The enigmatic sacro-coccygeal dimple : to ignore or explore ? Traditional methods focus on differentially expressed genes ( or node-biomarkers ) but ignore non-differentials .
+
+ppatt:
+	?a ignore
+		?a: The enigmatic sacro-coccygeal dimple
+	?a explore
+		?a: The enigmatic sacro-coccygeal dimple
+	?a ?b focus on ?c
+		?a: The enigmatic sacro-coccygeal dimple : to ignore or explore
+		?b: Traditional methods
+		?c: differentially expressed genes
+	?a ?b focus on ?c
+		?a: The enigmatic sacro-coccygeal dimple : to ignore or explore
+		?b: Traditional methods
+		?c: node-biomarkers
+	?a ignore ?b
+		?a: The enigmatic sacro-coccygeal dimple : to ignore or explore
+		?b: non-differentials
+
+
+label:    sent_19
+sentence: Surgical strategy for moderate ischemic mitral valve regurgitation : repair or ignore ? Medical guidelines by other societies : should we ignore or influence them ? Evidence forward , drainage on retreat : still we ignore and drain ! ? Portal vein thrombosis in cirrhosis : ignore , prevent , or treat ? As a consequence , empirical studies often ignore dispersal or use indirect measures .
+
+ppatt:
+	still ?a ignore ?b ?c
+		?a: we
+		?b: !
+		?c: Portal vein thrombosis in cirrhosis
+	?a drain
+		?a: we
+	As ?a , ?b often ignore ?c
+		?a: a consequence
+		?b: empirical studies
+		?c: dispersal
+	?a use ?b
+		?a: empirical studies
+		?b: indirect measures
+
+

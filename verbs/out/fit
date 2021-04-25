@@ -1,0 +1,256 @@
+label:    sent_1
+sentence: Biological models of breast cancer : one size does not fit all .
+
+ppatt:
+
+
+
+label:    sent_2
+sentence: Haldane model was found to best fit the kinetics of biodegradation .
+
+ppatt:
+	?a was found to best fit ?b
+		?a: Haldane model
+		?b: the kinetics of biodegradation
+
+
+label:    sent_3
+sentence: A two-compartment mamillary model was used to fit data .
+
+ppatt:
+	?a was used to fit ?b
+		?a: A two-compartment mamillary model
+		?b: data
+
+
+label:    sent_4
+sentence: The monoclonal expanded TCR sequences contained amino acid combinations that fit the observed bias . We fit a mathematical model to these data to estimate parameter values .
+
+ppatt:
+	?a contained ?b
+		?a: The monoclonal expanded TCR sequences
+		?b: amino acid combinations that fit the observed bias
+	?a fit ?b
+		?a: amino acid combinations
+		?b: the observed bias
+	?a fit ?b to ?c to estimate ?d
+		?a: We
+		?b: a mathematical model
+		?c: these data
+		?d: parameter values
+
+
+label:    sent_5
+sentence: One size does not fit all . Ski mountaineering competition : fit for it ? Multiple stimulators fit together for independent stimulation of four or more whiskers .
+
+ppatt:
+	?a does not fit ?b
+		?a: One size
+		?b: all . Ski mountaineering competition
+	?a fit together for ?b
+		?a: Multiple stimulators
+		?b: independent stimulation of four or more whiskers
+
+
+label:    sent_6
+sentence: Where might these agents fit in the current armamentarium against this disease ? Consequently , OxR1 appears to fit uneasily into the commonly used beta-arrestin classification scheme .
+
+ppatt:
+	Where might ?a fit in ?b
+		?a: these agents
+		?b: the current armamentarium against this disease
+	Consequently , ?a appears to fit uneasily into ?b
+		?a: OxR1
+		?b: the commonly used beta-arrestin classification scheme
+
+
+label:    sent_7
+sentence: Taken from these reviews , we here pinpoint several topics fit for future attention .
+
+ppatt:
+	Taken from ?a ?b
+		?a: these reviews
+		?b: we
+	?a here pinpoint ?b ?c
+		?a: we
+		?b: several topics
+		?c: SOMETHING := fit for future attention
+	?a fit for ?b
+		?a: we
+		?b: future attention
+
+
+label:    sent_8
+sentence: Equilibrium data were found to fit very well with both Freundlich and Langmuir models .
+
+ppatt:
+	?a were found to fit very well with ?b
+		?a: Equilibrium data
+		?b: both Freundlich and Langmuir models
+
+
+label:    sent_9
+sentence: Multivariable Cox proportional hazards regression models were fit using age as the time metric .
+
+ppatt:
+	?a were fit using ?b as ?c
+		?a: Multivariable Cox proportional hazards regression models
+		?b: age
+		?c: the time metric
+
+
+label:    sent_10
+sentence: How do the pieces fit together ? Generalized linear models were fit adjusting for patient clustering within physician .
+
+ppatt:
+	How do ?a fit together
+		?a: the pieces
+	?a were fit adjusting for ?b
+		?a: Generalized linear models
+		?b: patient clustering within physician
+
+
+label:    sent_11
+sentence: Most offspring clones fit the expected allelic pattern from a standard Mendelian segregation .
+
+ppatt:
+	?a fit ?b
+		?a: Most offspring clones
+		?b: the expected allelic pattern from a standard Mendelian segregation
+
+
+label:    sent_12
+sentence: In 20 of 112 , the result did not fit the linear model .
+
+ppatt:
+	In ?a , ?b did not fit ?c
+		?a: 20 of 112
+		?b: the result
+		?c: the linear model
+
+
+label:    sent_13
+sentence: This enabled us to fit the experimental data closely to the simulated data . Further investigation revealed widespread metastatic disease and the patient was not fit for chemotherapy .
+
+ppatt:
+	?a enabled ?b to fit ?c closely to ?d
+		?a: This
+		?b: us
+		?c: the experimental data
+		?d: the simulated data
+	?a revealed ?b
+		?a: Further investigation
+		?b: widespread metastatic disease
+	?a was not fit for ?b
+		?a: the patient
+		?b: chemotherapy
+
+
+label:    sent_14
+sentence: Patients who were surgically fit for discharge but whose discharge was delayed were identified .
+
+ppatt:
+	?a were surgically fit for ?b
+		?a: Patients
+		?b: discharge
+	?a was delayed
+		?a: whose discharge
+	?a were identified
+		?a: Patients who were surgically fit for discharge but whose discharge was delayed
+
+
+label:    sent_15
+sentence: Patients were included if they were fit and at low risk for SSI .
+
+ppatt:
+	?a were included
+		?a: Patients
+	?a were fit
+		?a: they
+
+
+label:    sent_16
+sentence: The virtual atoms fit the pocket ideally and achieve an optimal Coulomb interaction .
+
+ppatt:
+	?a fit ?b ideally
+		?a: The virtual atoms
+		?b: the pocket
+	?a achieve ?b
+		?a: The virtual atoms
+		?b: an optimal Coulomb interaction
+
+
+label:    sent_17
+sentence: Theoretical curves have been constructed , and they fit experimental data satisfactorily .
+
+ppatt:
+	?a have been constructed
+		?a: Theoretical curves
+	?a fit ?b satisfactorily
+		?a: they
+		?b: experimental data
+
+
+label:    sent_18
+sentence: The plasma elimination of pyrilamine fit a one-compartment open model and was first order .
+
+ppatt:
+	?a fit ?b
+		?a: The plasma elimination of pyrilamine
+		?b: a one-compartment open model
+
+
+label:    sent_19
+sentence: There have been no attempts to fit neutral models to parasite communities to date .
+
+ppatt:
+	?a fit ?b to ?c
+		?a: There no attempts
+		?b: neutral models
+		?c: parasite communities to date
+
+
+label:    sent_20
+sentence: Few attempts have been made to fit such models to field data . ' Why not fit the job to the nurse ' ? We perturb each fit 1000 times and assess each new fit with each score .
+
+ppatt:
+	?a have been made to fit ?b
+		?a: Few attempts
+		?b: such models
+	?a field ?b
+		?a: Few attempts
+		?b: data
+	?a Why not fit ?b
+		?a: Few attempts
+		?b: the job to the nurse
+	?a perturb ?b ?c
+		?a: We
+		?b: each fit
+		?c: 1000 times
+	?a assess ?b
+		?a: We
+		?b: each new fit with each score
+
+
+label:    sent_21
+sentence: All models were shown to fit the data and to be comparable in accuracy .
+
+ppatt:
+	?a were shown to fit ?b
+		?a: All models
+		?b: the data
+
+
+label:    sent_22
+sentence: Learning has to fit round and complement the clinical and emotional needs of patients .
+
+ppatt:
+	?a has to fit ?b
+		?a: Learning
+		?b: round
+	?a has to complement ?b
+		?a: Learning
+		?b: the clinical and emotional needs of patients
+
+

@@ -1,0 +1,283 @@
+label:    sent_1
+sentence: The role of the Giemsa stain in cytogenetics . Nodular and thickened port-wine stain with lipomatosis and oral mucosa malformation .
+
+ppatt:
+
+
+
+label:    sent_2
+sentence: Control valves did not stain for either protein .
+
+ppatt:
+	?a did not stain for ?b
+		?a: Control valves
+		?b: either protein
+
+
+label:    sent_3
+sentence: Indocyanine green and trypan blue have been extensively used to stain the ILM .
+
+ppatt:
+	?a have been extensively used to stain ?b
+		?a: Indocyanine green
+		?b: the ILM
+	?a have been extensively used to stain ?b
+		?a: trypan blue
+		?b: the ILM
+
+
+label:    sent_4
+sentence: Giemsa 's technique was employed to stain the myenteric neurons .
+
+ppatt:
+	's ?a was employed to stain ?b
+		?a: Giemsa technique
+		?b: the myenteric neurons
+
+
+label:    sent_5
+sentence: Morphological changes were confirmed using trypan blue to stain the cells . " Dead " cells stain blue-green .
+
+ppatt:
+	?a were confirmed using ?b
+		?a: Morphological changes
+		?b: trypan blue
+	?a stain ?b
+		?a: Morphological changes
+		?b: the cells
+	?a stain ?b
+		?a: " Dead " cells
+		?b: blue-green
+
+
+label:    sent_6
+sentence: Polyclonal carcinoembryonic antigen ( pCEA ) and CD10 stain bile canaliculi in better-differentiated HCC .
+
+ppatt:
+	?a is/are pCEA
+		?a: Polyclonal carcinoembryonic antigen
+	?a is/are pCEA
+		?a: CD10
+	?a stain ?b ?c
+		?a: Polyclonal carcinoembryonic antigen
+		?b: bile
+		?c: canaliculi in better-differentiated HCC
+	?a stain ?b ?c
+		?a: CD10
+		?b: bile
+		?c: canaliculi in better-differentiated HCC
+
+
+label:    sent_7
+sentence: The compounds can also stain human squamous epithelium cells .
+
+ppatt:
+	?a can also stain ?b
+		?a: The compounds
+		?b: human squamous epithelium cells
+
+
+label:    sent_8
+sentence: Sixteen ( 32 % ) failed to stain at all . Leder-Giemsa stain for bone marrow trephine -- a technical report .
+
+ppatt:
+	?a is/are 32 %
+		?a: Sixteen
+	?a failed to stain at ?b
+		?a: Sixteen
+		?b: all . Leder-Giemsa stain for bone marrow trephine
+
+
+label:    sent_9
+sentence: The lymphoma cells in the other case failed to stain for cytoplasmic immunoglobulins . The Gram stain . Elastin stain identified the elastic fiber network of the levator aponeurosis .
+
+ppatt:
+	?a failed to stain for ?b
+		?a: The lymphoma cells in the other case
+		?b: cytoplasmic immunoglobulins
+	?a is/are The Gram stain
+		?a: cytoplasmic immunoglobulins
+	?a identified ?b
+		?a: Elastin stain
+		?b: the elastic fiber network of the levator aponeurosis
+
+
+label:    sent_10
+sentence: HE stain indicated that there were little acellular traces of muscle and mucosa .
+
+ppatt:
+	?a indicated ?b
+		?a: HE stain
+		?b: SOMETHING := there were little acellular traces of muscle and mucosa
+	there were ?a
+		?a: little acellular traces of muscle and mucosa
+
+
+label:    sent_11
+sentence: All tested dyes were able to stain lens capsules sufficiently for capsulorhexis creation .
+
+ppatt:
+	?a were able to stain ?b sufficiently for ?c
+		?a: All tested dyes
+		?b: lens capsules
+		?c: capsulorhexis creation
+
+
+label:    sent_12
+sentence: Trypan blue 0.2 % was used to stain the ILM during surgery . Immunochemistry was used to stain for Bax and Bcl-2 ( apoptosis markers ) . The LC stain positively with ATPase and were negative to DOPA-oxidase .
+
+ppatt:
+	?a was used to stain ?b during ?c
+		?a: Trypan blue 0.2 %
+		?b: the ILM
+		?c: surgery
+	?a was used to stain for ?b positively with ?c
+		?a: Immunochemistry
+		?b: Bax
+		?c: ATPase
+	?a was used to stain for ?b positively with ?c
+		?a: Immunochemistry
+		?b: Bcl-2
+		?c: ATPase
+	?a was used to stain for ?b positively with ?c
+		?a: Immunochemistry
+		?b: The LC stain
+		?c: ATPase
+	?a is/are apoptosis markers
+		?a: Bax
+	?a is/are apoptosis markers
+		?a: Bcl-2
+	?a is/are apoptosis markers
+		?a: The LC stain
+
+
+label:    sent_13
+sentence: They stain variably for nonspecific esterase and acid phosphatase and are ATPase-positive .
+
+ppatt:
+	?a stain variably for ?b
+		?a: They
+		?b: nonspecific esterase
+	?a stain variably for ?b
+		?a: They
+		?b: acid phosphatase
+
+
+label:    sent_14
+sentence: As previously demonstrated thymocytes stain brightly for Ly-1 by immunofluorescence and express Ly-1 transcripts .
+
+ppatt:
+	?a stain brightly for ?b by ?c
+		?a: previously demonstrated thymocytes
+		?b: Ly-1
+		?c: immunofluorescence
+	?a express ?b
+		?a: previously demonstrated thymocytes
+		?b: Ly-1 transcripts
+
+
+label:    sent_15
+sentence: They can easily stain blood cancer cells without further surface modification .
+
+ppatt:
+	?a can easily stain ?b without ?c
+		?a: They
+		?b: blood cancer cells
+		?c: further surface modification
+
+
+label:    sent_16
+sentence: Limulus polyhemus agglutinin did not stain any structures in rat or human nerves .
+
+ppatt:
+	?a did not stain ?b in ?c
+		?a: Limulus polyhemus agglutinin
+		?b: any structures
+		?c: rat or human nerves
+
+
+label:    sent_17
+sentence: Differential technique to stain nerve cells and fibers in methacrylate sections . FITC-MAb 6C9 stained only C / PC area lightly but did not stain matrix .
+
+ppatt:
+	?a stain ?b in ?c
+		?a: Differential technique
+		?b: nerve cells
+		?c: methacrylate sections
+	?a stain ?b in ?c
+		?a: Differential technique
+		?b: fibers
+		?c: methacrylate sections
+	?a ?b stained ?c lightly
+		?a: Differential technique to stain nerve cells and fibers in methacrylate sections
+		?b: FITC-MAb 6C9
+		?c: only C / PC area
+	?a did not stain ?b
+		?a: Differential technique to stain nerve cells and fibers in methacrylate sections
+		?b: matrix
+
+
+label:    sent_18
+sentence: D2-40 was specific for lymphatic vessels and did not stain blood vascular endothelial cells .
+
+ppatt:
+	?a was specific for ?b
+		?a: D2-40
+		?b: lymphatic vessels
+	?a did not stain ?b
+		?a: D2-40
+		?b: blood vascular endothelial cells
+
+
+label:    sent_19
+sentence: Rabbits produce noticeable odors , and their excreta can scald and stain cages .
+
+ppatt:
+	?a produce ?b
+		?a: Rabbits
+		?b: noticeable odors
+	?a can scald
+		?a: their excreta
+	?a stain ?b
+		?a: their excreta
+		?b: cages
+
+
+label:    sent_20
+sentence: The cells were argyrophil but nonargentaffin and did not stain with conventional mucus stains .
+
+ppatt:
+	?a were argyrophil
+		?a: The cells
+	?a nonargentaffin
+		?a: The cells
+	?a did not stain with ?b
+		?a: The cells
+		?b: conventional mucus stains
+
+
+label:    sent_21
+sentence: The material was non-isotropic , non-crystalline and did not stain with routine staining procedures .
+
+ppatt:
+	?a was non-isotropic
+		?a: The material
+	?a non-crystalline
+		?a: The material
+	?a did not stain with ?b
+		?a: The material
+		?b: routine staining procedures
+
+
+label:    sent_22
+sentence: They are not detectable in infant spinal cord , but stain heavily in adults .
+
+ppatt:
+	?a are not detectable in ?b
+		?a: They
+		?b: infant spinal cord
+	?a stain heavily in ?b
+		?a: They
+		?b: adults
+
+

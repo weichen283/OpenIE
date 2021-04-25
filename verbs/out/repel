@@ -1,0 +1,267 @@
+label:    sent_1
+sentence: Opposite-phase pulsators repel one-another ; like-phase pulsators attract one-another .
+
+ppatt:
+	?a repel ?b
+		?a: Opposite-phase pulsators
+		?b: one-another
+	?a attract ?b
+		?a: like-phase pulsators
+		?b: one-another
+
+
+label:    sent_2
+sentence: DDT 's ability to repel mosquitoes trumps resistance , scientists say . Because of their positive charge the hydrogen bonds tend to repel holes .
+
+ppatt:
+	?a repel ?b ?c
+		?a: DDT 's ability
+		?b: mosquitoes
+		?c: trumps resistance
+	?a ?b say
+		?a: DDT 's ability to repel mosquitoes trumps resistance
+		?b: scientists
+	Because of ?a ?b tend to repel ?c
+		?a: their positive charge
+		?b: the hydrogen bonds
+		?c: holes
+
+
+label:    sent_3
+sentence: Why do pigeon feathers repel water ? A variety of physiologic mechanisms repel the threat of infection .
+
+ppatt:
+	Why do ?a repel ?b
+		?a: pigeon feathers
+		?b: water
+	?a repel ?b
+		?a: A variety of physiologic mechanisms
+		?b: the threat of infection
+
+
+label:    sent_4
+sentence: Chemical intuition suggests that anions and pi-aromatic systems would repel each other .
+
+ppatt:
+	?a suggests ?b
+		?a: Chemical intuition
+		?b: SOMETHING := anions and pi-aromatic systems would repel each other
+	?a would repel ?b
+		?a: anions
+		?b: each other
+	?a would repel ?b
+		?a: pi-aromatic systems
+		?b: each other
+
+
+label:    sent_5
+sentence: Distinct short-range ovule signals attract or repel Arabidopsis thaliana pollen tubes in vitro .
+
+ppatt:
+	?a attract ?b in vitro
+		?a: Distinct short-range ovule signals
+		?b: Arabidopsis thaliana pollen tubes
+	?a repel
+		?a: Distinct short-range ovule signals
+
+
+label:    sent_6
+sentence: Netrins are bifunctional guidance cues that attract several classes of axons but repel others .
+
+ppatt:
+	?a are bifunctional guidance cues
+		?a: Netrins
+	?a attract ?b
+		?a: bifunctional guidance cues
+		?b: several classes of axons
+	?a repel ?b
+		?a: that
+		?b: others
+
+
+label:    sent_7
+sentence: Netrins are bifunctional : they attract some axons and repel others .
+
+ppatt:
+	?a are bifunctional
+		?a: Netrins
+	?a attract ?b
+		?a: they
+		?b: some axons
+	?a repel ?b
+		?a: they
+		?b: others
+
+
+label:    sent_8
+sentence: In contrast to maraviroc , cenicriviroc does not repel virus back into extracellular space .
+
+ppatt:
+	?a ?b does not repel ?c back into ?d
+		?a: In contrast to maraviroc
+		?b: cenicriviroc
+		?c: virus
+		?d: extracellular space
+
+
+label:    sent_9
+sentence: The study shows that the chemicals failed to repel feeding by birds in Germany .
+
+ppatt:
+	?a shows ?b
+		?a: The study
+		?b: SOMETHING := the chemicals failed to repel feeding by birds in Germany
+	?a failed to repel ?b
+		?a: the chemicals
+		?b: feeding by birds in Germany
+
+
+label:    sent_10
+sentence: Semaphorins deployed to repel cell migrants at spinal cord borders .
+
+ppatt:
+	?a deployed to repel ?b at ?c
+		?a: Semaphorins
+		?b: cell migrants
+		?c: spinal cord borders
+
+
+label:    sent_11
+sentence: Signals predicting aversive events repel the subject from the source of the CS .
+
+ppatt:
+	?a predicting ?b
+		?a: Signals
+		?b: aversive events
+	?a repel ?b
+		?a: Signals predicting aversive events
+		?b: the subject from the source of the CS
+
+
+label:    sent_12
+sentence: Semaphorins III and IV repel hippocampal axons via two distinct receptors .
+
+ppatt:
+	?a repel ?b via ?c
+		?a: Semaphorins
+		?b: hippocampal axons
+		?c: two distinct receptors
+
+
+label:    sent_13
+sentence: In the absence of any coordination center , functionalized micelles repel each other .
+
+ppatt:
+	In of ?a , ?b repel ?c
+		?a: any coordination center
+		?b: functionalized micelles
+		?c: each other
+
+
+label:    sent_14
+sentence: Oligodendrocytes repel axons and cause axonal growth cone collapse .
+
+ppatt:
+	?a repel ?b
+		?a: Oligodendrocytes
+		?b: axons
+	?a cause ?b
+		?a: Oligodendrocytes
+		?b: axonal growth cone collapse
+
+
+label:    sent_15
+sentence: Floral scents repel facultative flower visitors , but attract obligate ones . Female Drosophila with the spinster mutation repel courting males and rarely mate .
+
+ppatt:
+	?a repel ?b
+		?a: Floral scents
+		?b: facultative flower visitors
+	?a attract ?b
+		?a: Floral scents
+		?b: obligate ones
+	?a repel ?b
+		?a: Female Drosophila with the spinster mutation
+		?b: courting males
+	?a repel ?b
+		?a: Female Drosophila with the spinster mutation
+		?b: rarely mate
+
+
+label:    sent_16
+sentence: To attract or repel , that is the question . Disease-induced lethargy can diminish host capacity to repel or kill biting mosquitoes .
+
+ppatt:
+	attract ?a ?b
+		?a: SOMETHING := that is the question
+		?b: Disease-induced lethargy
+	repel ?a
+		?a: Disease-induced lethargy
+	?a is the question
+		?a: that
+	?a can diminish ?b
+		?a: Disease-induced lethargy
+		?b: host capacity to repel or kill biting mosquitoes
+	?a repel ?b
+		?a: host capacity
+		?b: biting mosquitoes
+	kill ?a
+		?a: biting mosquitoes
+
+
+label:    sent_17
+sentence: Temporal stimulus properties that attract gaze to the periphery and repel gaze from fixation .
+
+ppatt:
+	?a attract ?b to ?c
+		?a: Temporal stimulus properties
+		?b: gaze
+		?c: the periphery
+	?a repel ?b from ?c
+		?a: that
+		?b: gaze
+		?c: fixation
+
+
+label:    sent_18
+sentence: Conversely , stimuli with different excitation vectors will " repel " and become segmented .
+
+ppatt:
+	Conversely , ?a will " repel ?b
+		?a: stimuli with different excitation vectors
+		?b: "
+	?a become segmented
+		?a: stimuli with different excitation vectors
+
+
+label:    sent_19
+sentence: These devices did not repel or attract bed bugs during choice trials . Endogenous free fatty acids repel and attract Collembola .
+
+ppatt:
+	?a did not repel ?b during ?c
+		?a: These devices
+		?b: bed bugs
+		?c: choice trials
+	?a attract
+		?a: These devices
+	?a repel
+		?a: Endogenous free fatty acids
+	?a attract ?b
+		?a: Endogenous free fatty acids
+		?b: Collembola
+
+
+label:    sent_20
+sentence: Netrins are chemotropic guidance cues that attract or repel growing axons during development .
+
+ppatt:
+	?a are chemotropic guidance cues
+		?a: Netrins
+	?a attract ?b during ?c
+		?a: chemotropic guidance cues
+		?b: growing axons
+		?c: development
+	?a repel
+		?a: that
+
+

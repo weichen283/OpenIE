@@ -1,0 +1,173 @@
+label:    sent_1
+sentence: No studies utilized multilevel methods to parse out environmental influences on DWCB .
+
+ppatt:
+	?a utilized ?b
+		?a: No studies
+		?b: multilevel methods to parse out environmental influences on DWCB
+	?a parse out ?b
+		?a: multilevel methods
+		?b: environmental influences on DWCB
+
+
+label:    sent_2
+sentence: Larger studies can aid to further parse out c-MET prognostic and therapeutic significance .
+
+ppatt:
+	?a can aid to further parse out ?b
+		?a: Larger studies
+		?b: c-MET prognostic and therapeutic significance
+
+
+label:    sent_3
+sentence: Without more information it is difficult to parse these results .
+
+ppatt:
+	Without ?a ?b is difficult to parse ?c
+		?a: more information
+		?b: it
+		?c: these results
+
+
+label:    sent_4
+sentence: Using theoretical protein isotopic distributions to parse small-mass-difference post-translational modifications via mass spectrometry .
+
+ppatt:
+	Using ?a
+		?a: theoretical protein isotopic distributions
+	parse ?a via ?b
+		?a: small-mass-difference post-translational modifications
+		?b: mass spectrometry
+
+
+label:    sent_5
+sentence: The decomposition technique was used to parse out differences into observed and unobserved components .
+
+ppatt:
+	?a was used to parse out ?b
+		?a: The decomposition technique
+		?b: differences into observed and unobserved components
+
+
+label:    sent_6
+sentence: A multichannel electronic monitor of acoustic behaviors , and software to parse individual channels .
+
+ppatt:
+	?a parse ?b
+		?a: A multichannel electronic monitor of acoustic behaviors
+		?b: individual channels
+	?a parse ?b
+		?a: software
+		?b: individual channels
+
+
+label:    sent_7
+sentence: Genes set the boundaries of the possible ; environments parse out the actual .
+
+ppatt:
+	?a set ?b
+		?a: Genes
+		?b: the boundaries of possible
+	?a parse out ?b
+		?a: the environments
+		?b: the actual
+
+
+label:    sent_8
+sentence: Querying parse tree database of Medline text to synthesize user-specific biomolecular networks .
+
+ppatt:
+	?a parse ?b to synthesize ?c
+		?a: Querying
+		?b: tree database of Medline text
+		?c: user-specific biomolecular networks
+
+
+label:    sent_9
+sentence: Neurons in sensory cortex integrate multiple influences to parse objects and support perception .
+
+ppatt:
+	?a integrate ?b
+		?a: Neurons in sensory cortex
+		?b: multiple influences to parse objects
+	?a parse ?b
+		?a: multiple influences
+		?b: objects
+	?a support ?b
+		?a: Neurons in sensory cortex
+		?b: perception
+
+
+label:    sent_10
+sentence: Human premotor areas parse sequences into their spatial and temporal features .
+
+ppatt:
+	?a parse ?b into ?c
+		?a: Human premotor areas
+		?b: sequences
+		?c: their spatial and temporal features
+
+
+label:    sent_11
+sentence: How might young learners parse speech into linguistically relevant units ? MascotDatfile : an open-source library to fully parse and analyse MASCOT MS/MS search results . FastaValidator : an open-source Java library to parse and validate FASTA formatted sequences .
+
+ppatt:
+	How might ?a parse ?b into ?c ?d
+		?a: young learners
+		?b: speech
+		?c: linguistically relevant units
+		?d: MascotDatfile
+	?a fully parse ?b
+		?a: an open-source library
+		?b: MASCOT MS/MS search results
+	analyse ?a
+		?a: MASCOT MS/MS search results
+	?a is/are FastaValidator
+		?a: an open-source library to fully parse and analyse MASCOT MS/MS search results
+	?a parse ?b
+		?a: an open-source Java library
+		?b: FASTA formatted sequences
+	validate ?a
+		?a: FASTA formatted sequences
+
+
+label:    sent_12
+sentence: Also , the engine can parse and generate XML-formatted HL7 messages . rBiopaxParser --an R package to parse , modify and visualize BioPAX data .
+
+ppatt:
+	Also , ?a can parse ?b . to parse
+		?a: the engine
+		?b: XML-formatted HL7 messages
+	?a generate
+		?a: the engine
+	?a is/are rBiopaxParser
+		?a: XML-formatted HL7 messages
+	?a R
+		?a: XML-formatted HL7 messages
+	?a package
+		?a: XML-formatted HL7 messages
+	?a modify ?b
+		?a: the engine
+		?b: BioPAX data
+	?a visualize
+		?a: the engine
+
+
+label:    sent_13
+sentence: This work documents the degree and types of variability listeners encounter and must parse .
+
+ppatt:
+	?a documents ?b ?c
+		?a: This work
+		?b: the degree of variability listeners
+		?c: SOMETHING := encounter
+	?a documents ?b ?c
+		?a: This work
+		?b: types
+		?c: SOMETHING := encounter
+	?a encounter
+		?a: This work
+	?a must parse
+		?a: This work
+
+

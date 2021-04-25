@@ -1,0 +1,279 @@
+label:    sent_1
+sentence: ADF5 was recently also found to repress CBFs .
+
+ppatt:
+	?a was recently also found to repress ?b
+		?a: ADF5
+		?b: CBFs
+
+
+label:    sent_2
+sentence: These results suggest that HDAC3 mediates NF-kappaB activity to repress Pepck transcription .
+
+ppatt:
+	?a suggest ?b
+		?a: These results
+		?b: SOMETHING := HDAC3 mediates NF-kappaB activity to repress Pepck transcription
+	?a mediates ?b to repress ?c
+		?a: HDAC3
+		?b: NF-kappaB activity
+		?c: Pepck transcription
+
+
+label:    sent_3
+sentence: How the polycomb is recruited to repress this gene cluster is unclear .
+
+ppatt:
+	How ?a is recruited to repress ?b
+		?a: the polycomb
+		?b: this gene cluster
+
+
+label:    sent_4
+sentence: Hypomethylated intragenic L1s are a nuclear siRNA mediated cis-regulatory element that can repress genes .
+
+ppatt:
+	?a are a nuclear siRNA mediated cis-regulatory element
+		?a: Hypomethylated intragenic L1s
+	?a can repress ?b
+		?a: a nuclear siRNA mediated cis-regulatory element
+		?b: genes
+
+
+label:    sent_5
+sentence: Both miR-451 and miR-709 directly repress Myc expression .
+
+ppatt:
+	?a directly repress ?b
+		?a: miR-451
+		?b: Myc expression
+	?a directly repress ?b
+		?a: miR-709
+		?b: Myc expression
+
+
+label:    sent_6
+sentence: Taken together , JunD and c-Jun repress aromatase promoter I.4 . MarA was also found to repress OmpF expression through a MicF-independent pathway .
+
+ppatt:
+	Taken together ?a
+		?a: JunD
+	Taken together ?a
+		?a: c-Jun
+	?a repress ?b
+		?a: JunD
+		?b: aromatase promoter I.4
+	?a repress ?b
+		?a: c-Jun
+		?b: aromatase promoter I.4
+	?a was also found to repress ?b through ?c
+		?a: MarA
+		?b: OmpF expression
+		?c: a MicF-independent pathway
+
+
+label:    sent_7
+sentence: Multiple mechanisms collaborate to repress nanos translation in the Drosophila ovary and embryo .
+
+ppatt:
+	?a collaborate to repress ?b
+		?a: Multiple mechanisms
+		?b: nanos translation in the Drosophila ovary and embryo
+
+
+label:    sent_8
+sentence: Myc functions to both activate and repress transcription by associating with multiple binding partners .
+
+ppatt:
+	?a functions to both activate ?b
+		?a: Myc
+		?b: transcription
+	?a functions to repress
+		?a: Myc
+	?a associating with ?b
+		?a: Myc
+		?b: multiple binding partners
+
+
+label:    sent_9
+sentence: We previously demonstrated that estrogens repress numerous proinflammatory genes in U2OS cells .
+
+ppatt:
+	?a previously demonstrated ?b
+		?a: We
+		?b: SOMETHING := estrogens repress numerous proinflammatory genes in U2OS cells
+	?a repress ?b in ?c
+		?a: estrogens
+		?b: numerous proinflammatory genes
+		?c: U2OS cells
+
+
+label:    sent_10
+sentence: In conclusion , selective FXR agonists do not repress apoA-I expression in rodents . HDACs repress gene transcription by decreasing histone acetylation levels . Msx2 can auto-regulate its promoter and repress Dlx2 activation .
+
+ppatt:
+	In ?a , ?b do not repress ?c
+		?a: conclusion
+		?b: selective FXR agonists
+		?c: apoA-I expression in rodents
+	?a repress ?b
+		?a: HDACs
+		?b: gene transcription
+	?a decreasing ?b
+		?a: HDACs
+		?b: histone acetylation levels
+	?a can auto-regulate ?b
+		?a: Msx2
+		?b: its promoter
+	?a repress ?b
+		?a: Msx2
+		?b: Dlx2 activation
+
+
+label:    sent_11
+sentence: FoxD3 and Grg4 physically interact to repress transcription and induce mesoderm in Xenopus . RvDs also repress renal interstitial fibrosis , and PD1 promotes renoprotective heme-oxygenase-1 expression .
+
+ppatt:
+	?a physically interact to repress ?b
+		?a: FoxD3
+		?b: transcription
+	?a physically interact to repress ?b
+		?a: Grg4
+		?b: transcription
+	?a physically interact to induce ?b
+		?a: FoxD3
+		?b: mesoderm in Xenopus
+	?a physically interact to induce ?b
+		?a: Grg4
+		?b: mesoderm in Xenopus
+	?a also repress ?b
+		?a: RvDs
+		?b: renal interstitial fibrosis
+	?a promotes ?b
+		?a: PD1
+		?b: renoprotective heme-oxygenase-1 expression
+
+
+label:    sent_12
+sentence: Repressing Twist with RNAi , we can repress cell transition and inhibit retinal neovascular .
+
+ppatt:
+	Repressing ?a with ?b ?c
+		?a: Twist
+		?b: RNAi
+		?c: we
+	?a can repress ?b
+		?a: we
+		?b: cell transition
+	?a inhibit ?b
+		?a: we
+		?b: retinal neovascular
+
+
+label:    sent_13
+sentence: Several nuclear receptors repress inflammatory responses , but their molecular mechanisms remain poorly understood .
+
+ppatt:
+	?a repress ?b
+		?a: Several nuclear receptors
+		?b: inflammatory responses
+	?a remain poorly understood
+		?a: their molecular mechanisms
+
+
+label:    sent_14
+sentence: ZEB1 and SNAIL repress CDH1 and induce epithelial-mesenchymal transition ( EMT ) . Unlike UV , ionizing radiation does not repress Fbw7alpha and does not induce c-Jun .
+
+ppatt:
+	?a repress ?b . Unlike ?c
+		?a: ZEB1
+		?b: CDH1
+		?c: UV
+	?a repress ?b . Unlike ?c
+		?a: SNAIL
+		?b: CDH1
+		?c: UV
+	?a induce ?b
+		?a: ZEB1
+		?b: epithelial-mesenchymal transition
+	?a induce ?b
+		?a: SNAIL
+		?b: epithelial-mesenchymal transition
+	?a is/are EMT
+		?a: epithelial-mesenchymal transition
+	?a does not repress ?b
+		?a: ionizing radiation
+		?b: Fbw7alpha
+	?a does not induce ?b
+		?a: ionizing radiation
+		?b: c-Jun
+
+
+label:    sent_15
+sentence: To repress or not to repress : this is the guardian 's question .
+
+ppatt:
+
+
+
+label:    sent_16
+sentence: The ability of mutant p53 to repress or induce Bcl-2 expression is controversial . DNA methylation and histone acetylation alter the nucleosomal infrastructure to repress or activate transcription .
+
+ppatt:
+	?a repress ?b
+		?a: The ability of mutant p53
+		?b: Bcl-2 expression
+	?a induce
+		?a: The ability of mutant p53
+	?a is controversial
+		?a: The ability of mutant p53 to repress or induce Bcl-2 expression
+	?a alter ?b
+		?a: DNA methylation
+		?b: the nucleosomal infrastructure to repress or activate transcription
+	?a alter ?b
+		?a: histone acetylation
+		?b: the nucleosomal infrastructure to repress or activate transcription
+	?a repress ?b
+		?a: the nucleosomal infrastructure
+		?b: transcription
+	activate ?a
+		?a: transcription
+
+
+label:    sent_17
+sentence: CtBP can both repress and activate Wingless nuclear targets in Drosophila .
+
+ppatt:
+	?a can both repress ?b
+		?a: CtBP
+		?b: Wingless nuclear targets in Drosophila
+	?a activate
+		?a: CtBP
+
+
+label:    sent_18
+sentence: Numerous sRNAs repress or activate the translation of target mRNAs by a base-pairing mechanism .
+
+ppatt:
+	?a repress ?b by ?c
+		?a: Numerous sRNAs
+		?b: the translation of target mRNAs
+		?c: a base-pairing mechanism
+	?a activate
+		?a: Numerous sRNAs
+
+
+label:    sent_19
+sentence: Finally , we show that JMJD2 proteins promoter-specifically repress or activate gene transcription .
+
+ppatt:
+	Finally , ?a show ?b
+		?a: we
+		?b: SOMETHING := JMJD2 proteins promoter-specifically repress gene transcription
+	?a promoter-specifically repress ?b
+		?a: JMJD2 proteins
+		?b: gene transcription
+	?a activate
+		?a: JMJD2 proteins
+
+

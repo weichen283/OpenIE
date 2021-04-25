@@ -1,0 +1,276 @@
+label:    sent_1
+sentence: Mouse neutrophils are professional antigen-presenting cells programmed to instruct Th1 and Th17 T-cell differentiation .
+
+ppatt:
+	?a are professional antigen-presenting cells
+		?a: Mouse neutrophils
+	?a programmed to instruct ?b
+		?a: professional antigen-presenting cells
+		?b: Th1 and Th17 T-cell differentiation
+
+
+label:    sent_2
+sentence: BFRP also conducts seminars and lectures to instruct this group .
+
+ppatt:
+	?a also conducts ?b to instruct ?c
+		?a: BFRP
+		?b: seminars
+		?c: this group
+	?a also conducts ?b to instruct ?c
+		?a: BFRP
+		?b: lectures
+		?c: this group
+
+
+label:    sent_3
+sentence: Chair-side assistants were trained to motivate and instruct patients in oral hygiene methods .
+
+ppatt:
+	?a were trained to motivate ?b
+		?a: Chair-side assistants
+		?b: patients in oral hygiene methods
+	?a were trained to instruct
+		?a: Chair-side assistants
+
+
+label:    sent_4
+sentence: Mesenchymal stem cells instruct oligodendrogenic fate decision on adult neural stem cells .
+
+ppatt:
+	?a instruct ?b on ?c
+		?a: Mesenchymal stem cells
+		?b: oligodendrogenic fate decision
+		?c: adult neural stem cells
+
+
+label:    sent_5
+sentence: Microglia instruct subventricular zone neurogenesis .
+
+ppatt:
+	?a instruct ?b
+		?a: Microglia
+		?b: subventricular zone neurogenesis
+
+
+label:    sent_6
+sentence: It is important that general practitioners and health nurses instruct parents about these possibilities .
+
+ppatt:
+	?a is important ?b
+		?a: It
+		?b: SOMETHING := general practitioners and health nurses instruct parents about these possibilities
+	?a instruct ?b about ?c
+		?a: general practitioners
+		?b: parents
+		?c: these possibilities
+	?a instruct ?b about ?c
+		?a: health nurses
+		?b: parents
+		?c: these possibilities
+
+
+label:    sent_7
+sentence: A training program was created to instruct school nurses on how to perform electrocardiograms .
+
+ppatt:
+	?a was created to instruct ?b
+		?a: A training program
+		?b: school nurses
+	?a how to perform ?b
+		?a: A training program
+		?b: electrocardiograms
+
+
+label:    sent_8
+sentence: The cytokine CNTF is thought to instruct multipotent cells to an astrocytic fate .
+
+ppatt:
+	?a ?b is thought to instruct ?c to ?d
+		?a: cytokine
+		?b: The CNTF
+		?c: multipotent cells
+		?d: an astrocytic fate
+
+
+label:    sent_9
+sentence: Thus retinoic acid appears to instruct incisor morphology in the mouse embryonic mandible .
+
+ppatt:
+	Thus ?a appears to instruct ?b
+		?a: retinoic acid
+		?b: incisor morphology in the mouse embryonic mandible
+
+
+label:    sent_10
+sentence: Laboratory technologists instruct the trainees to gain the basic skills .
+
+ppatt:
+	?a instruct ?b to gain ?c
+		?a: Laboratory technologists
+		?b: the trainees
+		?c: the basic skills
+
+
+label:    sent_11
+sentence: Bioactive nanofibers instruct cells to proliferate and differentiate during enamel regeneration .
+
+ppatt:
+	?a instruct ?b to proliferate during ?c
+		?a: Bioactive nanofibers
+		?b: cells
+		?c: enamel regeneration
+	?a instruct to differentiate
+		?a: Bioactive nanofibers
+
+
+label:    sent_12
+sentence: [How keratinocytes instruct melanocytes to deliver the pigment ] . Glia instruct developmental neuronal remodeling through TGF-beta signaling .
+
+ppatt:
+	?a instruct ?b to deliver ?c
+		?a: [How keratinocytes
+		?b: melanocytes
+		?c: the pigment ]
+	?a instruct ?b through ?c
+		?a: Glia
+		?b: developmental neuronal remodeling
+		?c: TGF-beta signaling
+
+
+label:    sent_13
+sentence: Axonal neuregulins instruct glial cells on when and how much myelin they should produce .
+
+ppatt:
+	?a instruct ?b
+		?a: Axonal neuregulins
+		?b: glial cells
+	when how ?a ?b should produce
+		?a: much myelin
+		?b: they
+
+
+label:    sent_14
+sentence: It is necessary for the diabetes educator to instruct the patient regarding infection-control practices .
+
+ppatt:
+	?a is necessary for ?b to instruct ?c regarding ?d
+		?a: It
+		?b: the diabetes educator
+		?c: the patient
+		?d: infection-control practices
+
+
+label:    sent_15
+sentence: Cortical interneurons become activated by deafferentation and instruct the apoptosis of pyramidal neurons .
+
+ppatt:
+	?a become activated by ?b
+		?a: Cortical interneurons
+		?b: deafferentation
+	?a instruct ?b
+		?a: Cortical interneurons
+		?b: the apoptosis of pyramidal neurons
+
+
+label:    sent_16
+sentence: One investigator made weekly visits to instruct and monitor participants .
+
+ppatt:
+	?a made ?b to instruct ?c
+		?a: One investigator
+		?b: weekly visits
+		?c: participants
+	made to monitor ?a
+		?a: participants
+
+
+label:    sent_17
+sentence: The institution 's researchers were equally enthusiastic to instruct and serve as mentors .
+
+ppatt:
+	?a were equally enthusiastic to instruct as ?b
+		?a: The institution 's researchers
+		?b: mentors
+	?a were equally enthusiastic to serve
+		?a: The institution 's researchers
+
+
+label:    sent_18
+sentence: Informedia will instruct and entertain waiting patients ; could prove profitable investment for you .
+
+ppatt:
+	?a will instruct ?b
+		?a: Informedia
+		?b: waiting patients
+	?a entertain
+		?a: Informedia
+	?a could prove profitable investment for ?b
+		?a: Informedia
+		?b: you
+
+
+label:    sent_19
+sentence: Whether and how inflamed tissues instruct DCs to emigrate is not fully understood .
+
+ppatt:
+	how ?a instruct ?b to emigrate
+		?a: inflamed tissues
+		?b: DCs
+
+
+label:    sent_20
+sentence: They instruct , guide , and support the alcoholic back to a normal life .
+
+ppatt:
+	?a instruct
+		?a: They
+	?a guide
+		?a: They
+	?a support ?b to ?c
+		?a: They
+		?b: the alcoholic back
+		?c: a normal life
+
+
+label:    sent_21
+sentence: Such a micromilieu could instruct as well as require local adaptions of microglial features .
+
+ppatt:
+	?a could instruct
+		?a: Such a micromilieu
+	?a require ?b
+		?a: Such a micromilieu
+		?b: local adaptions of microglial features
+
+
+label:    sent_22
+sentence: Furthermore , these devices can instruct and remind individuals about safety-related issues . Preceptors guide and instruct the interns at each of four clinical rotation sites .
+
+ppatt:
+	Furthermore , ?a can instruct ?b
+		?a: these devices
+		?b: individuals about safety-related issues
+	?a remind
+		?a: these devices
+	?a guide
+		?a: Preceptors
+	?a instruct ?b at ?c
+		?a: Preceptors
+		?b: the interns
+		?c: each of four clinical rotation sites
+
+
+label:    sent_23
+sentence: They sense microbial motifs and instruct T cells toward pro-inflammatory and tissue-destructive effector functions .
+
+ppatt:
+	?a sense ?b
+		?a: They
+		?b: microbial motifs
+	?a instruct ?b toward ?c
+		?a: They
+		?b: T cells
+		?c: pro-inflammatory and tissue-destructive effector functions
+
+

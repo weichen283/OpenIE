@@ -1,0 +1,29 @@
+label:    sent_1
+sentence: The framework allows the user to perform a virtual wound closure by suture with real surgical instrument handles customized to fit on haptic devices .
+
+ppatt:
+	?a allows ?b
+		?a: The framework
+		?b: the user to perform a virtual wound closure by suture with real surgical instrument
+	?a perform ?b
+		?a: the user
+		?b: a virtual wound closure by suture with real surgical instrument
+	?a handles customized to fit on ?b
+		?a: The framework
+		?b: haptic devices
+
+
+label:    sent_2
+sentence: We tie the two single-lumen tubes together and suture them directly to the skin .
+
+ppatt:
+	?a tie ?b together directly to ?c
+		?a: We
+		?b: the two single-lumen tubes
+		?c: the skin
+	?a tie together ?b directly to ?c
+		?a: We
+		?b: suture
+		?c: the skin
+
+

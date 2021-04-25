@@ -1,0 +1,118 @@
+label:    sent_1
+sentence: Using a project management approach to install an automated order processing system .
+
+ppatt:
+	Using ?a
+		?a: a project management approach to install an automated order processing system
+	?a install ?b
+		?a: a project management approach
+		?b: an automated order processing system
+
+
+label:    sent_2
+sentence: Subsequent attempts to install the C-3 methoxy group of 1-3 are also described .
+
+ppatt:
+	?a install ?b
+		?a: Subsequent attempts
+		?b: the C-3 methoxy group of 1-3
+	?a are also described
+		?a: Subsequent attempts to install the C-3 methoxy group of 1-3
+
+
+label:    sent_3
+sentence: Telecommunications : how to install a new system .
+
+ppatt:
+	?a how to install ?b
+		?a: Telecommunications
+		?b: a new system
+
+
+label:    sent_4
+sentence: Plans are being implemented now to install a cyclotron in March 2000 .
+
+ppatt:
+	?a are being implemented now to install ?b
+		?a: Plans
+		?b: a cyclotron in March 2000
+
+
+label:    sent_5
+sentence: We recruited nine residents who provided permission to install the technology in their apartments .
+
+ppatt:
+	?a recruited ?b
+		?a: We
+		?b: nine residents who provided permission to install the technology in their apartments
+	?a provided ?b to install ?c
+		?a: nine residents
+		?b: permission
+		?c: the technology in their apartments
+
+
+label:    sent_6
+sentence: Ring-expanding cyclopentane annulations that directly install useful functionality in the cyclopentane ring . We install a preemptive renal transplantation program .
+
+ppatt:
+	?a directly install ?b
+		?a: Ring-expanding cyclopentane annulations
+		?b: useful functionality in the cyclopentane ring
+	?a ?b install ?c
+		?a: Ring-expanding cyclopentane annulations that directly install useful functionality in the cyclopentane ring
+		?b: We
+		?c: a preemptive renal transplantation program
+
+
+label:    sent_7
+sentence: We can install an x-ray tube inside the re-entrant electrode .
+
+ppatt:
+	?a can install ?b inside ?c
+		?a: We
+		?b: an x-ray tube
+		?c: the re-entrant electrode
+
+
+label:    sent_8
+sentence: No requirement of a wide space to install the equipment in the distant room . Healthcare providers must also install wheelchair lifts in shuttle bus systems they operate .
+
+ppatt:
+	?a install ?b
+		?a: a wide space
+		?b: the equipment in the distant room
+	?a must also install ?b in ?c
+		?a: No requirement of a wide space to install the equipment in the distant room . Healthcare providers
+		?b: wheelchair lifts
+		?c: shuttle bus systems
+	?a operate
+		?a: they
+
+
+label:    sent_9
+sentence: [How to install an implantable site for chemotherapy through the cephalic vein ] . We could install coils in the objective bronchi in all cases .
+
+ppatt:
+	?a install ?b through ?c
+		?a: [How
+		?b: an implantable site for chemotherapy
+		?c: the cephalic vein ]
+	?a ?b could install ?c in ?d
+		?a: [How to install an implantable site for chemotherapy through the cephalic vein ]
+		?b: We
+		?c: coils
+		?d: the objective bronchi in all cases
+
+
+label:    sent_10
+sentence: Research groups can install Acorn locally and create user accounts .
+
+ppatt:
+	?a can install ?b locally
+		?a: Research groups
+		?b: Acorn
+	?a create ?b
+		?a: Research groups
+		?b: user accounts
+
+

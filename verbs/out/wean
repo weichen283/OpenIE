@@ -1,0 +1,214 @@
+label:    sent_1
+sentence: A closed-loop protocol was successfully used to wean children from mechanical ventilation .
+
+ppatt:
+	?a was successfully used to wean children from ?b
+		?a: A closed-loop protocol
+		?b: mechanical ventilation
+
+
+label:    sent_2
+sentence: Is cardiac function a sufficient criterion to wean a patient from circulatory support ? Especially important has been the ability to wean patients from systemic corticosteroids postoperatively .
+
+ppatt:
+	?a wean a patient from ?b
+		?a: a sufficient criterion
+		?b: circulatory support
+	?a Especially important has been the ability
+		?a: Is cardiac function a sufficient criterion to wean a patient from circulatory support
+	?a wean patients from ?b postoperatively
+		?a: Especially important the ability
+		?b: systemic corticosteroids
+
+
+label:    sent_3
+sentence: Patients who require tracheotomy only for airway protection wean sooner than other patients .
+
+ppatt:
+	?a require ?b for ?c
+		?a: Patients
+		?b: tracheotomy
+		?c: only airway protection
+	?a wean sooner than ?b
+		?a: Patients who require tracheotomy only for airway protection
+		?b: other patients
+
+
+label:    sent_4
+sentence: Effectiveness of intensive nutritional regimes in patients who fail to wean from mechanical ventilation .
+
+ppatt:
+	?a fail to wean from ?b
+		?a: patients
+		?b: mechanical ventilation
+
+
+label:    sent_5
+sentence: Two further patients with chest disease were difficult to wean following surgery .
+
+ppatt:
+	?a were difficult following ?b
+		?a: Two further patients with chest disease
+		?b: to wean surgery
+
+
+label:    sent_6
+sentence: The other 21 patients were studied during attempts to wean them from mechanical ventilation .
+
+ppatt:
+	?a were studied during ?b
+		?a: The other 21 patients
+		?b: attempts to wean them from mechanical ventilation
+	?a wean them from ?b
+		?a: attempts
+		?b: mechanical ventilation
+
+
+label:    sent_7
+sentence: Repeated attempts to wean her from the ventilator failed .
+
+ppatt:
+	?a wean ?b failed
+		?a: Repeated attempts
+		?b: her from the ventilator
+
+
+label:    sent_8
+sentence: We were subsequently able to wean two children from tube feeding .
+
+ppatt:
+	?a were subsequently able to wean two children from ?b
+		?a: We
+		?b: tube feeding
+
+
+label:    sent_9
+sentence: One patient with preoperative profound shock could not wean from cardiopulmonary bypass .
+
+ppatt:
+	?a could not wean from cardiopulmonary bypass
+		?a: One patient with preoperative profound shock
+
+
+label:    sent_10
+sentence: Graft atheroembolism as the probable cause of failure to wean from cardiopulmonary bypass . By rehabilitation therapy , most short bowel patients could wean from parenteral nutrition .
+
+ppatt:
+	?a ?b could wean from parenteral nutrition
+		?a: Graft atheroembolism as the probable cause of failure to wean from cardiopulmonary bypass . By rehabilitation therapy
+		?b: most short bowel patients
+
+
+label:    sent_11
+sentence: Lactating-only rabbits do not spontaneously wean their young . Proportional assist ventilation : an alternative approach to wean the patient .
+
+ppatt:
+	?a do not spontaneously wean ?b young
+		?a: Lactating-only rabbits
+		?b: their
+	?a assist ?b
+		?a: Proportional
+		?b: ventilation
+
+
+label:    sent_12
+sentence: The decision-making process that leads women to wean their babies is complex and guilt-ridden .
+
+ppatt:
+	?a leads ?b to wean ?c
+		?a: The decision-making process
+		?b: women
+		?c: their babies
+	?a is complex
+		?a: The decision-making process that leads women to wean their babies
+	?a guilt-ridden
+		?a: The decision-making process that leads women to wean their babies
+
+
+label:    sent_13
+sentence: They wean the first litter shortly before delivering the second one . On average , mothers wean their infants between 9-12 months .
+
+ppatt:
+	?a wean the first litter shortly
+		?a: They
+	?a delivering ?b
+		?a: They
+		?b: the second one
+	On ?a , ?b wean ?c infants between ?d
+		?a: average
+		?b: mothers
+		?c: their
+		?d: 9-12 months
+
+
+label:    sent_14
+sentence: Use of temporary cardiac resynchronization therapy to wean a patient successfully from ventilation .
+
+ppatt:
+
+
+
+label:    sent_15
+sentence: It is often unclear when and how to wean patients from mechanical ventilation .
+
+ppatt:
+	?a is often unclear
+		?a: It
+	?a when how to wean patients from ?b
+		?a: It
+		?b: mechanical ventilation
+
+
+label:    sent_16
+sentence: The goal is to wean these patients as soon as possible .
+
+ppatt:
+	?a is to wean these patients as soon as possible
+		?a: The goal
+
+
+label:    sent_17
+sentence: Three patients did not wean from the ventilator and died shortly after the operation .
+
+ppatt:
+	?a did not wean from the ventilator
+		?a: Three patients
+	?a died shortly after ?b
+		?a: Three patients
+		?b: the operation
+
+
+label:    sent_18
+sentence: He could n't wean from CPB and required the insertion of an LVAD .
+
+ppatt:
+	?a could n't wean from CPB
+		?a: He
+	?a required ?b
+		?a: He
+		?b: the insertion of an LVAD
+
+
+label:    sent_19
+sentence: The remaining 2 patients could not wean from CHDF , and were introduced HD .
+
+ppatt:
+	?a could not wean from CHDF
+		?a: The remaining 2 patients
+	?a were introduced HD
+		?a: The remaining 2 patients
+
+
+label:    sent_20
+sentence: Women were advised to breastfeed exclusively and wean rapidly just before 6 mo . Mothers also wean too early ( before 4 months of age ) .
+
+ppatt:
+	?a were advised to breastfeed exclusively before ?b
+		?a: Women
+		?b: rapidly just 6 mo
+	?a were advised to wean
+		?a: Women
+	?a also wean too early
+		?a: Mothers
+
+

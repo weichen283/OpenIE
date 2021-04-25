@@ -1,0 +1,333 @@
+label:    sent_1
+sentence: Neglected patellar tendon rupture : preserve the fat pad . It was not possible to preserve the ACL fibers .
+
+ppatt:
+	?a ?b was not possible to preserve ?c
+		?a: Neglected patellar tendon rupture
+		?b: It
+		?c: the ACL fibers
+
+
+label:    sent_2
+sentence: The disadvantage of this fixative is its inability to preserve nucleic acids .
+
+ppatt:
+	?a is ?b inability
+		?a: The disadvantage of this fixative
+		?b: its
+	?a preserve ?b
+		?a: its inability
+		?b: nucleic acids
+
+
+label:    sent_3
+sentence: Myomectomy is the procedure of choice to preserve fertility in this population .
+
+ppatt:
+	?a is the procedure of ?b
+		?a: Myomectomy
+		?b: choice to preserve fertility in this population
+	?a preserve ?b
+		?a: choice
+		?b: fertility in this population
+
+
+label:    sent_4
+sentence: Normoventilation and mild respiratory acidosis , however , preserve cerebral oxygenation in these patients .
+
+ppatt:
+	?a however , preserve ?b
+		?a: Normoventilation
+		?b: cerebral oxygenation in these patients
+	?a however , preserve ?b
+		?a: mild respiratory acidosis
+		?b: cerebral oxygenation in these patients
+
+
+label:    sent_5
+sentence: In addition , nitrendipine appears to preserve tissue integrity in both prophylaxis and therapy . Emerging strategies to preserve renal function .
+
+ppatt:
+	In ?a , ?b appears to preserve ?c ?d
+		?a: addition
+		?b: nitrendipine
+		?c: tissue integrity in both prophylaxis and therapy
+		?d: Emerging strategies to preserve renal function
+	?a preserve ?b
+		?a: Emerging strategies
+		?b: renal function
+
+
+label:    sent_6
+sentence: These aromatic molecules preserve the fundamental structural and spectroscopic features of the parent tetraarylporphyrin .
+
+ppatt:
+	?a preserve ?b
+		?a: These aromatic molecules
+		?b: the fundamental structural and spectroscopic features of the parent tetraarylporphyrin
+
+
+label:    sent_7
+sentence: Special attention is paid to the procedures that preserve good morphology .
+
+ppatt:
+	?a is paid to ?b
+		?a: Special attention
+		?b: the procedures that preserve good morphology
+	?a preserve ?b
+		?a: the procedures
+		?b: good morphology
+
+
+label:    sent_8
+sentence: The basic principle of surgery was to preserve lung parenchyme as much as possible .
+
+ppatt:
+	?a was to preserve ?b as much as possible
+		?a: The basic principle of surgery
+		?b: lung parenchyme
+
+
+label:    sent_9
+sentence: This approach aims to preserve bone biology and minimise surgical soft tissue trauma .
+
+ppatt:
+	?a aims to preserve ?b
+		?a: This approach
+		?b: bone biology
+	?a aims to minimise ?b
+		?a: This approach
+		?b: surgical soft tissue trauma
+
+
+label:    sent_10
+sentence: Rosiglitazone is a thiazolidinedione that reduces insulin resistance and might preserve insulin secretion .
+
+ppatt:
+	?a is a thiazolidinedione
+		?a: Rosiglitazone
+	?a reduces ?b
+		?a: a thiazolidinedione
+		?b: insulin resistance
+	?a might preserve ?b
+		?a: that
+		?b: insulin secretion
+
+
+label:    sent_11
+sentence: The general purpose dimensionality reduction method should preserve data interrelations at all scales .
+
+ppatt:
+	?a should preserve ?b at ?c
+		?a: The general purpose dimensionality reduction method
+		?b: data interrelations
+		?c: all scales
+
+
+label:    sent_12
+sentence: In conclusion , SUT might preserve membrane viability even at lower dosages .
+
+ppatt:
+	In ?a , ?b might preserve ?c at ?d
+		?a: conclusion
+		?b: SUT
+		?c: membrane viability
+		?d: even lower dosages
+
+
+label:    sent_13
+sentence: We showed that AT-MSCs overexpressing CXCR4 preserve their ability for osteodifferentiation .
+
+ppatt:
+	?a showed ?b
+		?a: We
+		?b: SOMETHING := AT-MSCs overexpressing CXCR4 preserve their ability for osteodifferentiation
+	?a overexpressing ?b
+		?a: AT-MSCs
+		?b: CXCR4
+	?a preserve ?b
+		?a: AT-MSCs overexpressing CXCR4
+		?b: their ability for osteodifferentiation
+
+
+label:    sent_14
+sentence: Early intervention may preserve neurological spinal function and limit persistent disability .
+
+ppatt:
+	?a may preserve ?b
+		?a: Early intervention
+		?b: neurological spinal function
+	?a limit ?b
+		?a: Early intervention
+		?b: persistent disability
+
+
+label:    sent_15
+sentence: We found that both the implants preserve metaphyseal bone stock and increase periprosthetic BMD .
+
+ppatt:
+	?a found ?b
+		?a: We
+		?b: SOMETHING := both the implants preserve metaphyseal bone stock
+	?a preserve ?b
+		?a: both the implants
+		?b: metaphyseal bone stock
+	?a increase ?b
+		?a: both the implants
+		?b: periprosthetic BMD
+
+
+label:    sent_16
+sentence: Alternative methods would ideally preserve tissue morphology and not degrade DNA or RNA .
+
+ppatt:
+	?a would ideally preserve ?b
+		?a: Alternative methods
+		?b: tissue morphology
+	?a not degrade ?b
+		?a: Alternative methods
+		?b: DNA
+	?a not degrade ?b
+		?a: Alternative methods
+		?b: RNA
+
+
+label:    sent_17
+sentence: Cycloaddition functionalizations to preserve or control the conductance of carbon nanotubes .
+
+ppatt:
+	?a preserve ?b
+		?a: Cycloaddition functionalizations
+		?b: the conductance of carbon nanotubes
+	control ?a
+		?a: the conductance of carbon nanotubes
+
+
+label:    sent_18
+sentence: Parenteral nutrition is one way to preserve or to restore the nutritional equilibrium .
+
+ppatt:
+	?a is one way
+		?a: Parenteral nutrition
+	?a preserve
+		?a: one way
+	?a restore ?b
+		?a: Parenteral nutrition
+		?b: the nutritional equilibrium
+
+
+label:    sent_19
+sentence: Nine were treated with an operation to preserve and utilize the descending colon .
+
+ppatt:
+	?a were treated with ?b
+		?a: Nine
+		?b: an operation to preserve and utilize the descending colon
+	?a preserve ?b
+		?a: an operation
+		?b: the descending colon
+	utilize ?a
+		?a: the descending colon
+
+
+label:    sent_20
+sentence: Lipids were required to preserve binding activity during solubilization and throughout the purification procedure .
+
+ppatt:
+	?a were required to preserve ?b during ?c
+		?a: Lipids
+		?b: binding activity
+		?c: solubilization
+	?a were required to preserve ?b during ?c
+		?a: Lipids
+		?b: binding activity
+		?c: the purification procedure
+
+
+label:    sent_21
+sentence: Take policy limitations into account and preserve benefits for their future needs .
+
+ppatt:
+	Take ?a
+		?a: policy limitations
+	preserve ?a
+		?a: benefits for their future needs
+
+
+label:    sent_22
+sentence: As a result , this will possibly preserve organ function and improve patient outcome .
+
+ppatt:
+	As ?a , ?b will possibly preserve ?c
+		?a: a result
+		?b: this
+		?c: organ function
+	?a improve ?b
+		?a: this
+		?b: patient outcome
+
+
+label:    sent_23
+sentence: At the preoperative stage the desire to preserve health and to survive is prevailing .
+
+ppatt:
+	?a preserve ?b
+		?a: the desire
+		?b: health
+	?a survive
+		?a: the desire
+	At ?a ?b is prevailing
+		?a: the preoperative stage
+		?b: the desire to preserve health and to survive
+
+
+label:    sent_24
+sentence: Liver X receptors preserve renal glomerular integrity under normoglycaemia and in diabetes in mice .
+
+ppatt:
+	?a preserve ?b under ?c
+		?a: Liver X receptors
+		?b: renal glomerular integrity
+		?c: normoglycaemia in mice
+	?a preserve ?b under ?c
+		?a: Liver X receptors
+		?b: renal glomerular integrity
+		?c: diabetes
+
+
+label:    sent_25
+sentence: Interventions that preserve or increase beta-cell mass may also prevent Type 2 diabetes .
+
+ppatt:
+	?a preserve ?b
+		?a: Interventions
+		?b: beta-cell mass
+	?a increase
+		?a: that
+	?a may also prevent ?b
+		?a: Interventions that preserve or increase beta-cell mass
+		?b: Type 2 diabetes
+
+
+label:    sent_26
+sentence: Thus , the mitigation of metabolic disturbances may preserve or ameliorate cognitive function .
+
+ppatt:
+	Thus , ?a may preserve ?b
+		?a: the mitigation of metabolic disturbances
+		?b: cognitive function
+	?a ameliorate
+		?a: the mitigation of metabolic disturbances
+
+
+label:    sent_27
+sentence: Do dental implants preserve and maintain alveolar bone ?
+
+ppatt:
+	Do ?a preserve ?b
+		?a: dental implants
+		?b: alveolar bone
+	?a maintain
+		?a: dental implants
+
+

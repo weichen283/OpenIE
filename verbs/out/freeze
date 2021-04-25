@@ -1,0 +1,251 @@
+label:    sent_1
+sentence: Thus , care should be taken to refrigerate or freeze samples promptly .
+
+ppatt:
+	Thus , ?a should be taken to refrigerate ?b promptly
+		?a: care
+		?b: samples
+
+
+label:    sent_2
+sentence: Cryomedicine involved subzero-temperatures to freeze the biological objects either for preservation or for destruction .
+
+ppatt:
+	?a involved ?b to freeze ?c for ?d
+		?a: Cryomedicine
+		?b: subzero-temperatures
+		?c: the biological objects
+		?d: preservation
+	?a involved ?b to freeze ?c for ?d
+		?a: Cryomedicine
+		?b: subzero-temperatures
+		?c: the biological objects
+		?d: destruction
+
+
+label:    sent_3
+sentence: A total of 557 men have decided to freeze their semen before cancer treatment . Pay freeze proposal .
+
+ppatt:
+	?a have decided to freeze ?b before ?c
+		?a: A total of 557 men
+		?b: their semen
+		?c: cancer treatment
+	?a Pay ?b
+		?a: A total of 557 men
+		?b: freeze proposal
+
+
+label:    sent_4
+sentence: Dutch MPs vote to allow women to freeze oocytes to delay parenthood .
+
+ppatt:
+	?a vote to allow ?b to freeze ?c to delay ?d
+		?a: Dutch MPs
+		?b: women
+		?c: oocytes
+		?d: parenthood
+
+
+label:    sent_5
+sentence: A microsoft tool looks for programs that freeze up . Time based trials consisted of a double 10-minute freeze separated by a 5-minute thaw .
+
+ppatt:
+	?a looks for ?b
+		?a: A microsoft tool
+		?b: programs that freeze up . Time based trials consisted of a double 10-minute freeze separated by a 5-minute thaw
+	?a freeze up ?b
+		?a: programs consisted of a double 10-minute freeze separated by a 5-minute thaw
+		?b: Time based trials
+	?a consisted of ?b
+		?a: programs that freeze up . Time based trials
+		?b: a double 10-minute freeze separated by a 5-minute thaw
+	?a separated by ?b
+		?a: a double 10-minute freeze
+		?b: a 5-minute thaw
+
+
+label:    sent_6
+sentence: Laboratory evaluation of freeze vs nonfreeze lamellar refractive keratoplasty .
+
+ppatt:
+
+
+
+label:    sent_7
+sentence: Density dependent mechanical properties and structures of a freeze dried biopharmaceutical excipient -- sucrose .
+
+ppatt:
+
+
+
+label:    sent_8
+sentence: To freeze or not to freeze ? Breast biopsy : to freeze or not to freeze .
+
+ppatt:
+
+
+
+label:    sent_9
+sentence: To freeze , or not to . . . . Fidelity freeze for a random matrix model with off-diagonal perturbation .
+
+ppatt:
+
+
+
+label:    sent_10
+sentence: This system is unusual in that cyclohexane can freeze into coexisting solid phases .
+
+ppatt:
+	?a is unusual
+		?a: This system
+	?a can freeze into ?b
+		?a: cyclohexane
+		?b: coexisting solid phases
+
+
+label:    sent_11
+sentence: Salmonids freeze to death if they come into contact with ice .
+
+ppatt:
+	?a freeze to ?b
+		?a: Salmonids
+		?b: death
+	?a come into ?b
+		?a: they
+		?b: contact with ice
+
+
+label:    sent_12
+sentence: Higher daytime leaf temperatures contribute to lower freeze tolerance under elevated CO2 .
+
+ppatt:
+	?a contribute to ?b
+		?a: Higher daytime leaf temperatures
+		?b: lower freeze tolerance under elevated CO2
+
+
+label:    sent_13
+sentence: The ice was used to freeze the skin prior to dermabrasion .
+
+ppatt:
+	?a was used to freeze ?b prior to ?c
+		?a: The ice
+		?b: the skin
+		?c: dermabrasion
+
+
+label:    sent_14
+sentence: BC trying to freeze costs in midst of a spending heat wave .
+
+ppatt:
+	?a trying to freeze ?b in ?c of ?d
+		?a: BC
+		?b: costs
+		?c: midst
+		?d: a spending heat wave
+
+
+label:    sent_15
+sentence: Liquid and freeze preservation of baboon platelets .
+
+ppatt:
+
+
+
+label:    sent_16
+sentence: [Smallpox vaccination with the help of an attenuated and freeze dried vaccinal virus ] . Freeze fracture and freeze etching .
+
+ppatt:
+
+
+
+label:    sent_17
+sentence: Carter seeks clarification on pay increment freeze after congress .
+
+ppatt:
+	?a seeks ?b on pay ?c
+		?a: Carter
+		?b: clarification
+		?c: increment freeze after congress
+
+
+label:    sent_18
+sentence: Rats learn to freeze to 22-kHz ultrasonic vocalizations through autoconditioning .
+
+ppatt:
+	?a learn to freeze to ?b through ?c
+		?a: Rats
+		?b: 22-kHz ultrasonic vocalizations
+		?c: autoconditioning
+
+
+label:    sent_19
+sentence: As expected from previous studies , control animals failed to freeze to either USV .
+
+ppatt:
+	expected from ?a ?b
+		?a: previous studies
+		?b: control animals
+	?a failed to freeze to ?b
+		?a: control animals
+		?b: USV
+
+
+label:    sent_20
+sentence: Inflorescences of alpine cushion plants freeze autonomously and may survive subzero temperatures by supercooling .
+
+ppatt:
+	?a freeze autonomously
+		?a: Inflorescences of alpine cushion plants
+	?a may survive ?b by ?c
+		?a: Inflorescences of alpine cushion plants
+		?b: subzero temperatures
+		?c: supercooling
+
+
+label:    sent_21
+sentence: Other tissues were freeze substituted and thin sectioned .
+
+ppatt:
+	?a were freeze substituted
+		?a: Other tissues
+	?a sectioned
+		?a: Other tissues
+
+
+label:    sent_22
+sentence: Radicals were freeze trapped at 77 degrees K , and ESR measurements were made . Optimal freeze cycle length for renal cryotherapy .
+
+ppatt:
+	?a were freeze trapped at ?b
+		?a: Radicals
+		?b: 77 degrees K
+	?a were made ?b
+		?a: ESR measurements
+		?b: Optimal freeze cycle length for renal cryotherapy
+
+
+label:    sent_23
+sentence: High resolution freeze replica by means of high melting point metal shadowing .
+
+ppatt:
+
+
+
+label:    sent_24
+sentence: During testing , preexposed rats freeze more than non-preexposed controls .
+
+ppatt:
+	During ?a , ?b freeze ?c ?d
+		?a: testing
+		?b: preexposed rats
+		?c: more than
+		?d: controls
+	During ?a , ?b freeze ?c ?d
+		?a: testing
+		?b: preexposed rats
+		?c: non-preexposed
+		?d: controls
+
+

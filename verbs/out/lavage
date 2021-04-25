@@ -1,0 +1,21 @@
+label:    sent_1
+sentence: The results clearly showed that careful lavage can eliminate the significant decreases in arterial PO2 and increases in intrapulmonary shunt fraction and pulmonary artery pressure that were evident in the group that did not have lavage .
+
+ppatt:
+	?a clearly showed ?b
+		?a: The results
+		?b: SOMETHING := careful lavage can eliminate the significant decreases in arterial PO2 and increases in intrapulmonary shunt fraction and pulmonary artery pressure that were evident in the group that did not have lavage
+	?a can eliminate ?b
+		?a: careful lavage
+		?b: the significant decreases in arterial PO2
+	?a can eliminate ?b
+		?a: careful lavage
+		?b: increases in intrapulmonary shunt fraction and pulmonary artery pressure that were evident in the group that did not have lavage
+	?a were evident in ?b
+		?a: pulmonary artery pressure
+		?b: the group that did not have lavage
+	?a did not have ?b
+		?a: the group
+		?b: lavage
+
+

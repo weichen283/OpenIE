@@ -1,0 +1,307 @@
+label:    sent_1
+sentence: We start by briefly presenting diagnostic criteria for migraine and revising its pathophysiology .
+
+ppatt:
+	?a start
+		?a: We
+	?a briefly presenting ?b
+		?a: We
+		?b: diagnostic criteria for migraine
+	?a revising ?b
+		?a: We
+		?b: its pathophysiology
+
+
+label:    sent_2
+sentence: We find that deviations from simulation start at low charges for solutes .
+
+ppatt:
+	?a find ?b
+		?a: We
+		?b: SOMETHING := deviations from simulation start at low charges for solutes
+	?a start at ?b
+		?a: deviations from simulation
+		?b: low charges for solutes
+
+
+label:    sent_3
+sentence: These patients should start antiviral therapy one week before receiving a biologic response modifier .
+
+ppatt:
+	?a should start ?b ?c
+		?a: These patients
+		?b: antiviral therapy
+		?c: one week
+	?a receiving ?b
+		?a: These patients
+		?b: a biologic response modifier
+
+
+label:    sent_4
+sentence: No woman had chosen not to start a family .
+
+ppatt:
+	?a had chosen not to start ?b
+		?a: No woman
+		?b: a family
+
+
+label:    sent_5
+sentence: This study is an attempt to start a database formation on the dyes degradation .
+
+ppatt:
+	?a is an attempt
+		?a: This study
+	?a start ?b on ?c
+		?a: an attempt
+		?b: a database formation
+		?c: the dyes degradation
+
+
+label:    sent_6
+sentence: After a few unsuccessful treatments , the present authors chose to start etanercept .
+
+ppatt:
+	After ?a , ?b chose to start ?c
+		?a: a few unsuccessful treatments
+		?b: the present authors
+		?c: etanercept
+
+
+label:    sent_7
+sentence: This paper will start to rectify this oversight . Recent advances in the field start to reveal the molecules involved in each step .
+
+ppatt:
+	?a will start to rectify ?b ?c
+		?a: This paper
+		?b: this oversight
+		?c: Recent advances in the field start
+	?a reveal ?b
+		?a: This paper
+		?b: the molecules involved in each step
+	?a involved in ?b
+		?a: the molecules
+		?b: each step
+
+
+label:    sent_8
+sentence: Tooth movement into distraction regenerate : when should we start ? Do n't start without the charting .
+
+ppatt:
+	?a regenerate
+		?a: Tooth movement into distraction
+	when should ?a start
+		?a: we
+	?a Do n't start without ?b
+		?a: Tooth movement into distraction
+		?b: the charting
+
+
+label:    sent_9
+sentence: The benefit from statin treatment seems to start beyond 1 year of treatment .
+
+ppatt:
+	?a seems to start beyond ?b
+		?a: The benefit from statin treatment
+		?b: 1 year of treatment
+
+
+label:    sent_10
+sentence: With 1-piece IOLs , PCO tended to start at the optic-haptic junctions .
+
+ppatt:
+	With ?a , ?b tended to start at ?c
+		?a: 1-piece IOLs
+		?b: PCO
+		?c: the optic-haptic junctions
+
+
+label:    sent_11
+sentence: Most people who start antidepressant treatment discontinue it on their own . Children start school with differing levels of skills .
+
+ppatt:
+	?a start ?b
+		?a: Most people discontinue it on their own
+		?b: antidepressant treatment
+	?a discontinue ?b on ?c
+		?a: Most people who start antidepressant treatment
+		?b: it
+		?c: their own
+	?a ?b start ?c with ?d
+		?a: Most people who start antidepressant treatment discontinue it on their own
+		?b: Children
+		?c: school
+		?d: differing levels of skills
+
+
+label:    sent_12
+sentence: When the sheath is unwrapped , spores start swimming .
+
+ppatt:
+	When ?a is unwrapped
+		?a: the sheath
+
+
+label:    sent_13
+sentence: In general , water-soaked lesions start on leaves and extend up the stem .
+
+ppatt:
+	In ?a , ?b start on ?c
+		?a: general
+		?b: water-soaked lesions
+		?c: leaves
+	?a extend up ?b
+		?a: water-soaked lesions
+		?b: the stem
+
+
+label:    sent_14
+sentence: In women , symptoms start later and the severity is milder .
+
+ppatt:
+	In ?a , ?b start ?c
+		?a: women
+		?b: symptoms
+		?c: later
+	?a is milder
+		?a: the severity
+
+
+label:    sent_15
+sentence: We start with nonparametric techniques , and then present variance-based methods .
+
+ppatt:
+	?a start with ?b
+		?a: We
+		?b: nonparametric techniques
+	?a then present ?b
+		?a: We
+		?b: variance-based methods
+
+
+label:    sent_16
+sentence: Results are understood as encouragement to start translation to routine care accompanied by research .
+
+ppatt:
+	?a are understood as ?b
+		?a: Results
+		?b: encouragement to start translation to routine care accompanied by research
+	?a start ?b
+		?a: encouragement
+		?b: translation to routine care accompanied by research
+	?a accompanied by ?b
+		?a: routine care
+		?b: research
+
+
+label:    sent_17
+sentence: How to start the late referred ESRD patient urgently on chronic APD .
+
+ppatt:
+	How to start ?a urgently on ?b
+		?a: the late referred ESRD patient
+		?b: chronic APD
+
+
+label:    sent_18
+sentence: She is due to start her menstrual period on the next day . Despite this , most patients in western countries start hemodialysis therapy using a catheter .
+
+ppatt:
+	?a is due to start ?b on ?c
+		?a: She
+		?b: her menstrual period
+		?c: the next day
+	Despite ?a , ?b start ?c using ?d
+		?a: this
+		?b: most patients in western countries
+		?c: hemodialysis therapy
+		?d: a catheter
+
+
+label:    sent_19
+sentence: Effects of experiment start time and duration on measurement of standard physiological variables .
+
+ppatt:
+
+
+
+label:    sent_20
+sentence: Eleven per cent of paediatricians would start treatment after a single complex partial seizure .
+
+ppatt:
+	?a per ?b would start ?c after ?d
+		?a: Eleven
+		?b: cent of paediatricians
+		?c: treatment
+		?d: a single complex partial seizure
+
+
+label:    sent_21
+sentence: This disease may start explosively and may run a progressive course .
+
+ppatt:
+	?a may start explosively
+		?a: This disease
+	?a may run ?b
+		?a: This disease
+		?b: a progressive course
+
+
+label:    sent_22
+sentence: Simple method to start and maintain self-mode-locking of a Ti : sapphire laser .
+
+ppatt:
+	?a start ?b
+		?a: Simple method
+		?b: self-mode-locking of a Ti : sapphire laser
+	maintain ?a
+		?a: self-mode-locking of a Ti : sapphire laser
+
+
+label:    sent_23
+sentence: The process may start very early and continue for several decades .
+
+ppatt:
+	?a may start ?b
+		?a: The process
+		?b: very early
+	?a continue for ?b
+		?a: The process
+		?b: several decades
+
+
+label:    sent_24
+sentence: She denied contact with any new substances and did not start any new activities .
+
+ppatt:
+	?a denied ?b
+		?a: She
+		?b: contact with any new substances
+	?a did not start ?b
+		?a: She
+		?b: any new activities
+
+
+label:    sent_25
+sentence: We recommend to start therapy with low dose and to closely monitor renal function .
+
+ppatt:
+	?a recommend to start ?b
+		?a: We
+		?b: therapy with low dose
+	?a recommend to to closely monitor ?b
+		?a: We
+		?b: renal function
+
+
+label:    sent_26
+sentence: It is easy to center and to start the cut with this new drill .
+
+ppatt:
+	?a is easy to center
+		?a: It
+	?a start ?b
+		?a: It
+		?b: the cut with this new drill
+
+

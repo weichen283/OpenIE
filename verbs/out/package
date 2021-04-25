@@ -1,0 +1,210 @@
+label:    sent_1
+sentence: Herpesviruses replicate their DNA and package this DNA into capsids in the nucleus . Overpromotion of drugs in international product package inserts .
+
+ppatt:
+	?a replicate ?b
+		?a: Herpesviruses
+		?b: their DNA
+	?a package ?b into ?c
+		?a: Herpesviruses
+		?b: this DNA
+		?c: capsids in the nucleus
+
+
+label:    sent_2
+sentence: The visualFields package : a tool for analysis and visualization of visual fields .
+
+ppatt:
+
+
+
+label:    sent_3
+sentence: Long-term memory formation involves covalent modification of the histone proteins that package DNA .
+
+ppatt:
+	?a involves ?b
+		?a: Long-term memory formation
+		?b: covalent modification of the histone proteins that package DNA
+	?a package ?b
+		?a: the histone proteins
+		?b: DNA
+
+
+label:    sent_4
+sentence: New approaches to package integrity testing . Nitrates , package inserts , and the Food and Drug Administration . aCGH .
+
+ppatt:
+	?a package ?b
+		?a: New approaches
+		?b: integrity testing
+
+
+label:    sent_5
+sentence: Spline --an R package for aCGH dye bias normalization . KBWS : an EMBOSS associated package for accessing bioinformatics web services . A promising package on hospital staffing . Surprise package . Many-particle Brownian and Langevin Dynamics Simulations with the Brownmove package . Stats package .
+
+ppatt:
+	?a accessing ?b ?c
+		?a: an EMBOSS associated package
+		?b: bioinformatics
+		?c: web services
+	accessing ?a ?b ?c
+		?a: bioinformatics
+		?b: web services
+		?c: A promising package on hospital staffing . Surprise package
+
+
+label:    sent_6
+sentence: Bacteriophage P22 is thought to package daughter chromosomes serially along concatemeric DNA .
+
+ppatt:
+	?a is thought to package ?b serially along ?c
+		?a: Bacteriophage P22
+		?b: daughter chromosomes
+		?c: concatemeric DNA
+
+
+label:    sent_7
+sentence: Hc1 alone is thus able to package DNA into condensed spherical bodies .
+
+ppatt:
+	?a is thus able to package ?b into ?c
+		?a: Hc1 alone
+		?b: DNA
+		?c: condensed spherical bodies
+
+
+label:    sent_8
+sentence: The most dramatic difference is in how best to package these services .
+
+ppatt:
+	?a is
+		?a: The most dramatic difference
+	?a how best to package ?b
+		?a: The most dramatic difference
+		?b: these services
+
+
+label:    sent_9
+sentence: Eukaryotic organisms package DNA into chromatin for compact storage in the cell nucleus .
+
+ppatt:
+
+
+
+label:    sent_10
+sentence: Little is known about how animals package fat within cells .
+
+ppatt:
+	?a is known ?b
+		?a: Little
+		?b: SOMETHING := how animals package fat within cells
+	how ?a package ?b within ?c
+		?a: animals
+		?b: fat
+		?c: cells
+
+
+label:    sent_11
+sentence: Influenza A viruses package their segmented RNA genome in a selective manner .
+
+ppatt:
+	?a package ?b in ?c
+		?a: Influenza A viruses
+		?b: their segmented RNA genome
+		?c: a selective manner
+
+
+label:    sent_12
+sentence: They can package negative-strand DNA , and they specifically bind MVM 3'-terminal hairpin DNA .
+
+ppatt:
+	?a can package ?b
+		?a: They
+		?b: negative-strand DNA
+	?a specifically bind ?b
+		?a: they
+		?b: MVM 3'-terminal hairpin DNA
+
+
+label:    sent_13
+sentence: Sus525 particles package DNA effectively but loose it upon purification .
+
+ppatt:
+	loose ?a upon ?b
+		?a: it
+		?b: purification
+
+
+label:    sent_14
+sentence: Geminiviruses package circular single-stranded DNA and replicate in the nucleus via a double-stranded intermediate .
+
+ppatt:
+	Geminiviruses package ?a
+		?a: circular single-stranded DNA
+	replicate in ?a via ?b
+		?a: the nucleus
+		?b: a double-stranded intermediate
+
+
+label:    sent_15
+sentence: Published articles , published abstracts , online databases , and package inserts . PsyAcoustX : A flexible MATLAB ( ( R ) ) package for psychoacoustics research . T-Pile --a package for thermodynamic calculations for biomolecules .
+
+ppatt:
+	?a is/are R
+		?a: MATLAB
+	?a research ?b
+		?a: Published articles
+		?b: T-Pile --a package for thermodynamic calculations for biomolecules
+	?a research ?b
+		?a: published abstracts
+		?b: T-Pile --a package for thermodynamic calculations for biomolecules
+	?a research ?b
+		?a: online databases
+		?b: T-Pile --a package for thermodynamic calculations for biomolecules
+	?a research ?b
+		?a: package inserts
+		?b: T-Pile --a package for thermodynamic calculations for biomolecules
+	?a research ?b
+		?a: PsyAcoustX
+		?b: T-Pile --a package for thermodynamic calculations for biomolecules
+
+
+label:    sent_16
+sentence: An optical scan/statistical package for clinical data management in C-L psychiatry .
+
+ppatt:
+	?a management in ?b
+		?a: An optical scan/statistical package for clinical data
+		?b: C-L psychiatry
+
+
+label:    sent_17
+sentence: Disulfides can also be used to package and secure macromolecular cargo for intercellular transport .
+
+ppatt:
+	?a can also be used to package ?b
+		?a: Disulfides
+		?b: macromolecular cargo for intercellular transport
+	?a can also be used to secure
+		?a: Disulfides
+
+
+label:    sent_18
+sentence: Further efforts to package , deliver and evaluate guidelines are needed . Upsher-Smith will package , market and distribute the product nationwide .
+
+ppatt:
+	?a deliver
+		?a: Further efforts to package
+	?a evaluate
+		?a: Further efforts to package
+	?a ?b are needed
+		?a: Further efforts to package , deliver and evaluate
+		?b: guidelines
+	?a will package ?b
+		?a: Upsher-Smith
+		?b: market
+	?a distribute ?b
+		?a: Upsher-Smith
+		?b: the product nationwide
+
+

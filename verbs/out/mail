@@ -1,0 +1,80 @@
+label:    sent_1
+sentence: We instructed 233 insulin-requiring diabetic patients to mail the results of home blood glucose monitoring to the physician 's office at least every two weeks .
+
+ppatt:
+	?a instructed ?b
+		?a: We
+		?b: 233 insulin-requiring diabetic patients
+	?a mail ?b at least every ?c
+		?a: We
+		?b: the results of home blood glucose monitoring to the physician 's office
+		?c: two weeks
+
+
+label:    sent_2
+sentence: Linked studies around a cross-sectional population-based survey of adult men and women invited to collect urine and ( for women ) vulvovaginal swab specimens at home and mail these to a laboratory for testing for Chlamydia trachomatis .
+
+ppatt:
+	?a invited to collect ?b at ?c
+		?a: women
+		?b: urine
+		?c: home to a laboratory for testing for Chlamydia trachomatis
+	?a invited to collect ?b at ?c
+		?a: women
+		?b: women
+		?c: home to a laboratory for testing for Chlamydia trachomatis
+	?a invited to collect ?b at ?c
+		?a: women
+		?b: urine
+		?c: mail
+	?a invited to collect ?b at ?c
+		?a: women
+		?b: women
+		?c: mail
+	?a invited to collect ?b at ?c
+		?a: women
+		?b: urine
+		?c: these
+	?a invited to collect ?b at ?c
+		?a: women
+		?b: women
+		?c: these
+
+
+label:    sent_3
+sentence: We also asked them to estimate their cigarette butt lengths from a visual model and to collect all cigarette butts over the next 24 h and mail them to us . The Radiological Physics Center 's ( RPC ) mail out TLD system , utilizing throwaway LiF powder to monitor high-energy photon and electron beam outputs , is analyzed in detail .
+
+ppatt:
+	?a also asked ?b to estimate ?c
+		?a: We
+		?b: them
+		?c: their cigarette butt lengths from a visual model
+	?a also asked to to collect ?b over ?c
+		?a: We
+		?b: all cigarette butts
+		?c: the next 24 h
+	?a also asked to mail ?b to ?c
+		?a: We
+		?b: them
+		?c: us
+	?a is/are RPC
+		?a: The Radiological Physics Center
+	?a 's mail out ?b
+		?a: The Radiological Physics Center
+		?b: TLD system
+	?a 's utilizing ?b
+		?a: The Radiological Physics Center
+		?b: throwaway LiF powder
+	?a 's to monitor ?b ?c
+		?a: The Radiological Physics Center
+		?b: high-energy photon
+		?c: beam outputs
+	?a 's to monitor ?b ?c
+		?a: The Radiological Physics Center
+		?b: electron
+		?c: beam outputs
+	?a 's , is analyzed in ?b
+		?a: The Radiological Physics Center
+		?b: detail
+
+

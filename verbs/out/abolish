@@ -1,0 +1,287 @@
+label:    sent_1
+sentence: How the secretary of state for health proposes to abolish the NHS in England .
+
+ppatt:
+	How ?a proposes to abolish ?b
+		?a: the secretary of state for health
+		?b: the NHS in England
+
+
+label:    sent_2
+sentence: The case that failed catheter ablation required surgical cryoablation to abolish the incessant VT .
+
+ppatt:
+	?a failed ?b
+		?a: The case
+		?b: catheter ablation
+	?a required ?b to abolish ?c
+		?a: The case that failed catheter ablation
+		?b: surgical cryoablation
+		?c: the incessant VT
+
+
+label:    sent_3
+sentence: The model suggests PKCepsilon phosphorylation of TRPV1-S800 to abolish the tubulin-TRPV1 interaction .
+
+ppatt:
+	?a suggests ?b to abolish ?c
+		?a: The model
+		?b: PKCepsilon phosphorylation of TRPV1-S800
+		?c: the tubulin-TRPV1 interaction
+
+
+label:    sent_4
+sentence: Thus , targeting these pathways can abolish age-related bone loss . Both mutations abolish LPL transport across endothelial cells by GPIHBP1 .
+
+ppatt:
+	targeting ?a
+		?a: these pathways
+	Thus , ?a can abolish ?b
+		?a: SOMETHING := targeting these pathways
+		?b: age-related bone loss
+	?a abolish ?b by ?c
+		?a: Both mutations
+		?b: LPL transport across endothelial cells
+		?c: GPIHBP1
+
+
+label:    sent_5
+sentence: Interestingly , zinc chloride could also abolish the increase of EA-induced RECK expression .
+
+ppatt:
+	Interestingly , ?a could also abolish ?b
+		?a: zinc chloride
+		?b: the increase of EA-induced RECK expression
+
+
+label:    sent_6
+sentence: The color match reduced figureness , but did not abolish it . Blocking muscarinic receptors reduced but did not abolish odor discrimination .
+
+ppatt:
+	?a reduced ?b
+		?a: The color match
+		?b: figureness
+	?a did not abolish ?b
+		?a: The color match
+		?b: it
+	?a Blocking ?b
+		?a: The color match
+		?b: muscarinic receptors
+	?a reduced
+		?a: The color match
+	?a did not abolish ?b
+		?a: The color match
+		?b: odor discrimination
+
+
+label:    sent_7
+sentence: Chelation of free Ca2+ decreases but does not abolish the EGF-stimulated turnover .
+
+ppatt:
+	?a decreases
+		?a: Chelation of free Ca2+
+	?a does not abolish ?b
+		?a: Chelation of free Ca2+
+		?b: the EGF-stimulated turnover
+
+
+label:    sent_8
+sentence: Topical lignocaine will abolish cough but has no effect on bronchoconstriction .
+
+ppatt:
+	?a will abolish ?b
+		?a: Topical lignocaine
+		?b: cough
+	?a has ?b on ?c
+		?a: Topical lignocaine
+		?b: no effect
+		?c: bronchoconstriction
+
+
+label:    sent_9
+sentence: These changes in FGF23 abolish its phosphaturic effect and lead to severe persistent hyperphosphatemia .
+
+ppatt:
+	?a abolish ?b
+		?a: These changes in FGF23
+		?b: its phosphaturic effect
+	?a lead to ?b
+		?a: These changes in FGF23
+		?b: severe persistent hyperphosphatemia
+
+
+label:    sent_10
+sentence: Guanethidine did not abolish periodicity but it prolonged the interpeak interval .
+
+ppatt:
+	?a did not abolish ?b
+		?a: Guanethidine
+		?b: periodicity
+	?a prolonged ?b
+		?a: it
+		?b: the interpeak interval
+
+
+label:    sent_11
+sentence: Targeting JunD may abolish aromatase expression selectively in breast cancer tissue .
+
+ppatt:
+	Targeting ?a
+		?a: JunD
+	?a may abolish ?b selectively in ?c
+		?a: SOMETHING := Targeting JunD
+		?b: aromatase expression
+		?c: breast cancer tissue
+
+
+label:    sent_12
+sentence: Mutations in recF , recO or recR gene abolish induced mutagenesis in E. coli .
+
+ppatt:
+	?a abolish ?b
+		?a: Mutations in recF , recO or recR gene
+		?b: induced mutagenesis in E. coli
+
+
+label:    sent_13
+sentence: Ventromedial tegmental lesions abolish offense without disturbing predation or defense .
+
+ppatt:
+	?a abolish ?b
+		?a: Ventromedial tegmental lesions
+		?b: offense
+	?a disturbing ?b
+		?a: Ventromedial tegmental lesions
+		?b: predation
+	?a disturbing ?b
+		?a: Ventromedial tegmental lesions
+		?b: defense
+
+
+label:    sent_14
+sentence: Subjects were not able to abolish these reflexes by altering their preparatory set .
+
+ppatt:
+	?a were not able to abolish ?b
+		?a: Subjects
+		?b: these reflexes
+	?a altering ?b
+		?a: Subjects
+		?b: their preparatory set
+
+
+label:    sent_15
+sentence: Eye movements are not of sufficient amplitude to abolish binocularity at any elevation .
+
+ppatt:
+	?a are not of sufficient amplitude
+		?a: Eye movements
+	?a abolish ?b at ?c
+		?a: not sufficient amplitude
+		?b: binocularity
+		?c: any elevation
+
+
+label:    sent_16
+sentence: Multiple mutations may be necessary to abolish antibody binding at these sites .
+
+ppatt:
+	?a may be necessary to abolish ?b at ?c
+		?a: Multiple mutations
+		?b: antibody binding
+		?c: these sites
+
+
+label:    sent_17
+sentence: This treatment can either abolish or greatly reduce the infectivity of EEF for mice .
+
+ppatt:
+	?a can either abolish
+		?a: This treatment
+	?a reduce ?b
+		?a: This treatment
+		?b: the infectivity of EEF for mice
+
+
+label:    sent_18
+sentence: Reflections on current proposals to abolish or reform the insanity defense .
+
+ppatt:
+	?a abolish ?b
+		?a: current proposals
+		?b: the insanity defense
+	reform ?a
+		?a: the insanity defense
+
+
+label:    sent_19
+sentence: Does the endothelium abolish or promote arterial vasomotion in rat mesenteric arteries ? The prime management need in angina pectoris is to abolish or to minimize pain .
+
+ppatt:
+	Does ?a
+		?a: the endothelium
+	?a abolish ?b
+		?a: the endothelium
+		?b: arterial vasomotion in rat mesenteric arteries
+	?a promote
+		?a: the endothelium
+	?a is to abolish
+		?a: The prime management need in angina pectoris
+	?a is to to minimize ?b
+		?a: The prime management need in angina pectoris
+		?b: pain
+
+
+label:    sent_20
+sentence: Phenobarbital failed to abolish or depress recurrent seizures in 70 % of hippocampi .
+
+ppatt:
+	?a failed to abolish ?b in ?c
+		?a: Phenobarbital
+		?b: recurrent seizures
+		?c: 70 % of hippocampi
+	?a failed to depress
+		?a: Phenobarbital
+
+
+label:    sent_21
+sentence: Tetrodotoxin reduced the excitatory effect of domperidone but did not abolish .
+
+ppatt:
+	?a reduced ?b
+		?a: Tetrodotoxin
+		?b: the excitatory effect of domperidone
+	?a did not abolish
+		?a: Tetrodotoxin
+
+
+label:    sent_22
+sentence: It suppressed but did not abolish hepatic glutamine output by 60 % . Diltiazem blocked but did not completely abolish ICa in these neonatal cells .
+
+ppatt:
+	?a suppressed
+		?a: It
+	?a did not abolish ?b by ?c
+		?a: It
+		?b: hepatic glutamine output
+		?c: 60 %
+	?a blocked
+		?a: Diltiazem
+	?a did not completely abolish ?b in ?c
+		?a: Diltiazem
+		?b: ICa
+		?c: these neonatal cells
+
+
+label:    sent_23
+sentence: Prazosin significantly reduced but did not abolish renin release during hypercapnia .
+
+ppatt:
+	?a significantly reduced
+		?a: Prazosin
+	?a did not abolish ?b during ?c
+		?a: Prazosin
+		?b: renin release
+		?c: hypercapnia
+
+

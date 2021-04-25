@@ -1,0 +1,397 @@
+label:    sent_1
+sentence: The general objective of this follow-up plan is to improve the quality of live of these subjects and their family .
+
+ppatt:
+	?a is to improve ?b
+		?a: The general objective of this follow-up plan
+		?b: the quality of live of these subjects and their family
+
+
+label:    sent_2
+sentence: To further investigate this , we compared serologic markers of infection and allergic sensitization prevalence in Roma children , who live under unfavorable hygienic conditions that facilitate the spread of infections , and non-Roma children who live in the same area . As a result , more people live in their homes nowadays .
+
+ppatt:
+	further investigate ?a ?b
+		?a: this
+		?b: we
+	?a compared ?b
+		?a: we
+		?b: serologic markers of infection and allergic sensitization prevalence in Roma children , who live under unfavorable hygienic conditions that facilitate the spread of infections , and non-Roma children who live in the same area . As a result
+	?a live under ?b
+		?a: serologic markers of infection and allergic sensitization prevalence in Roma children
+		?b: unfavorable hygienic conditions that facilitate the spread of infections
+	?a live under ?b
+		?a: serologic markers of infection and allergic sensitization prevalence in Roma children
+		?b: non-Roma children who live in the same area . As a result
+	?a facilitate ?b
+		?a: unfavorable hygienic conditions
+		?b: the spread of infections
+	facilitate ?a ?b
+		?a: the spread of infections
+		?b: non-Roma children who live in the same area . As a result
+	?a live in ?b As ?c
+		?a: non-Roma children
+		?b: the same area
+		?c: a result
+	?a is/are more people
+		?a: a result
+	?a live in ?b nowadays
+		?a: more people
+		?b: their homes
+
+
+label:    sent_3
+sentence: The childhood cancer experiences of stepfamilies have not been described despite the fact that nearly one third of U.S. children will live in a stepfamily household .
+
+ppatt:
+	?a have not been described despite ?b
+		?a: The childhood cancer experiences of stepfamilies
+		?b: the fact that nearly one third of U.S. children will live in a stepfamily household
+	?a will live in ?b
+		?a: nearly one third of U.S. children
+		?b: a stepfamily household
+
+
+label:    sent_4
+sentence: [We may yet live in a great epoch ] . In Latin America and the Caribbean , around 195 million people live in poverty , a situation that increases the burden of some infectious diseases .
+
+ppatt:
+	?a may yet live in ?b . In ?c around ?d
+		?a: [We
+		?b: a great epoch ]
+		?c: Latin America
+		?d: 195 million people live in poverty
+	?a may yet live in ?b . In ?c around ?d
+		?a: [We
+		?b: a great epoch ]
+		?c: the Caribbean
+		?d: 195 million people live in poverty
+	?a live in ?b
+		?a: 195 million people
+		?b: poverty
+	?a is/are a situation
+		?a: Latin America
+	?a is/are a situation
+		?a: the Caribbean
+	?a increases ?b
+		?a: a situation
+		?b: the burden of some infectious diseases
+
+
+label:    sent_5
+sentence: These mice spontaneously consume less food when fed ad libitum and live longer compared with wild-type ( WT ) control mice .
+
+ppatt:
+	?a spontaneously consume ?b
+		?a: These mice
+		?b: less food
+	?a when fed ?b longer
+		?a: These mice
+		?b: ad libitum
+	?a when fed ?b longer
+		?a: These mice
+		?b: live
+	?a compared with wild-type control mice
+		?a: These mice
+
+
+label:    sent_6
+sentence: All mothers had to be at least 24 weeks pregnant and live within 100 km of the hospital .
+
+ppatt:
+	?a had to be ?b pregnant within ?c
+		?a: All mothers
+		?b: at least 24 weeks
+		?c: 100 km of the hospital
+	?a had to be live
+		?a: All mothers
+
+
+label:    sent_7
+sentence: Commuting by public transit and physical activity : where you live , where you work , and how you get there . Histochemistry : live and in color .
+
+ppatt:
+	Commuting by ?a
+		?a: public transit
+	Commuting by ?a
+		?a: physical activity
+	where ?a work
+		?a: you
+	how ?a get ?b ?c
+		?a: you
+		?b: there
+		?c: Histochemistry
+
+
+label:    sent_8
+sentence: As a result of changed attitudes in health care , the majority of people aged 50 years or more now live in the community and make use of the standard general and specialist healthcare services .
+
+ppatt:
+	As ?a , ?b or more now live in ?c
+		?a: a result of changed attitudes in health care
+		?b: the majority of people aged 50 years
+		?c: the community
+	?a make ?b
+		?a: the majority of people aged 50 years
+		?b: use of the standard general and specialist healthcare services
+
+
+label:    sent_9
+sentence: MIF knockout mice are healthier and live longer than their wild-type counterparts .
+
+ppatt:
+	?a are healthier
+		?a: MIF knockout mice
+	?a live
+		?a: MIF knockout mice
+	?a longer than ?b
+		?a: MIF knockout mice
+		?b: their wild-type counterparts
+
+
+label:    sent_10
+sentence: Bayesian space-time geostatistical models can be used to reliably estimate the combined observed prevalence of STH and suggest that a quarter of Kenya 's school-aged children live in areas of high prevalence and warrant mass treatment .
+
+ppatt:
+	?a can be used to reliably estimate ?b
+		?a: Bayesian space-time geostatistical models
+		?b: the combined observed prevalence of STH
+	?a suggest ?b
+		?a: Bayesian space-time geostatistical models
+		?b: SOMETHING := a quarter of Kenya 's school-aged children live in areas of high prevalence
+	?a live in ?b
+		?a: a quarter of Kenya 's school-aged children
+		?b: areas of high prevalence
+	?a warrant ?b
+		?a: a quarter of Kenya 's school-aged children
+		?b: mass treatment
+
+
+label:    sent_11
+sentence: Meerkats live under high predation pressure and occupy a difficult foraging niche .
+
+ppatt:
+	?a live under ?b
+		?a: Meerkats
+		?b: high predation pressure
+	?a occupy ?b
+		?a: Meerkats
+		?b: a difficult foraging niche
+
+
+label:    sent_12
+sentence: Because many cancer survivors live long after diagnosis and the U.S. population is aging , the number of persons living with a history of cancer is expected to continue to increase .
+
+ppatt:
+	?a live long after ?b
+		?a: many cancer survivors
+		?b: diagnosis
+	?a is aging
+		?a: the U.S. population
+	?a living with ?b
+		?a: persons
+		?b: a history of cancer
+	?a is expected to continue to increase
+		?a: the number of persons living with a history of cancer
+
+
+label:    sent_13
+sentence: Differences in filial behavior in multigeneration families that live together .
+
+ppatt:
+	?a live together
+		?a: multigeneration families
+
+
+label:    sent_14
+sentence: The purpose of this study was to investigate differences in filial piety in three-generation families who live together .
+
+ppatt:
+	?a was to investigate ?b
+		?a: The purpose of this study
+		?b: differences in filial piety in three-generation families who live together
+	?a live together
+		?a: three-generation families
+
+
+label:    sent_15
+sentence: A code that you can live by . Given the vulnerable conditions in which these older adults live , specific interventions need to be implemented to prevent falls in order to reduce the risk of functional dependency .
+
+ppatt:
+	?a ?b can live ?c
+		?a: A code . Given the vulnerable conditions in which these older adults live
+		?b: you
+		?c: by
+	?a Given ?b
+		?a: A code that you can live by
+		?b: the vulnerable conditions in which these older adults live
+	?a in ?b live
+		?a: the vulnerable conditions
+		?b: these older adults
+	?a ?b need to be implemented to prevent ?c
+		?a: A code that you can live by . Given the vulnerable conditions in which these older adults live
+		?b: specific interventions
+		?c: falls
+	?a order to reduce ?b
+		?a: A code that you can live by . Given the vulnerable conditions in which these older adults live
+		?b: the risk of functional dependency
+
+
+label:    sent_16
+sentence: Metagenomic data enables the study of microbes and viruses through their DNA as retrieved directly from the environment in which they live .
+
+ppatt:
+	?a enables ?b
+		?a: Metagenomic data
+		?b: the study of microbes and viruses through their DNA
+	?a retrieved directly from ?b
+		?a: Metagenomic data
+		?b: the environment in which they live
+	?a in ?b live
+		?a: the environment
+		?b: they
+
+
+label:    sent_17
+sentence: This paper presents an approach to describe the environments in which people live , work , and play .
+
+ppatt:
+	?a presents ?b
+		?a: This paper
+		?b: an approach to describe the environments in which people live , work , and play
+	?a describe ?b
+		?a: an approach
+		?b: the environments in which people live , work , and play
+	?a in ?b live ?c
+		?a: the environments
+		?b: people
+		?c: work
+	?a play
+		?a: people
+
+
+label:    sent_18
+sentence: We live and work in a multicultural world and need to be knowledgeable about culture and how it affects the quality of care given to patients .
+
+ppatt:
+	?a live in ?b
+		?a: We
+		?b: a multicultural world
+	?a work
+		?a: We
+	?a need to be knowledgeable about ?b
+		?a: We
+		?b: culture
+	how ?a affects ?b
+		?a: it
+		?b: the quality of care given to patients
+	?a given to ?b
+		?a: care
+		?b: patients
+
+
+label:    sent_19
+sentence: Residents of Anniston , Alabama , live near a Monsanto plant that manufactured polychlorinated biphenyls ( PCBs ) from 1929 to 1971 and are relatively heavily exposed .
+
+ppatt:
+	?a is/are Alabama
+		?a: Anniston
+	?a live near ?b
+		?a: Residents of Anniston
+		?b: a Monsanto plant that manufactured polychlorinated biphenyls from 1929 1971 and are relatively heavily exposed
+	?a manufactured ?b
+		?a: a Monsanto plant
+		?b: polychlorinated biphenyls from 1929 1971
+	?a is/are PCBs
+		?a: polychlorinated biphenyls from 1929 1971
+	?a are relatively heavily exposed
+		?a: that
+
+
+label:    sent_20
+sentence: Although the age when NIHL begins among farmers is unknown , its prevalence is higher among male adolescents who live and work on farms .
+
+ppatt:
+	?a when ?b begins among ?c
+		?a: the age
+		?b: NIHL
+		?c: farmers
+	?a is unknown
+		?a: the age when NIHL begins among farmers
+	?a is higher among ?b
+		?a: its prevalence
+		?b: male adolescents who live and work on farms
+	?a live
+		?a: male adolescents
+	?a work on ?b
+		?a: who
+		?b: farms
+
+
+label:    sent_21
+sentence: Individuals living with HIV who receive treatment and optimal care live longer and healthier lives .
+
+ppatt:
+	?a living with ?b
+		?a: Individuals who receive treatment and optimal care
+		?b: HIV
+	?a receive ?b
+		?a: Individuals living with HIV
+		?b: treatment
+	?a receive ?b
+		?a: Individuals living with HIV
+		?b: optimal care
+	?a live ?b
+		?a: Individuals living with HIV who receive treatment and optimal care
+		?b: longer and healthier lives
+
+
+label:    sent_22
+sentence: As these patients now live longer lives , it is crucial that clinicians have a basic understanding of the process and outcomes . Salmonella Enteritidis with double deletion in phoPfliC --a potential live Salmonella vaccine candidate with novel characteristics for use in chickens .
+
+ppatt:
+	?a now live ?b
+		?a: these patients
+		?b: longer lives
+	?a is crucial ?b
+		?a: it
+		?b: SOMETHING := clinicians have a basic understanding of process and outcomes . Salmonella Enteritidis with double deletion in phoPfliC --a potential live Salmonella vaccine candidate with novel characteristics for use in chickens
+	?a have ?b
+		?a: clinicians
+		?b: a basic understanding of process and outcomes . Salmonella Enteritidis with double deletion in phoPfliC --a potential live Salmonella vaccine candidate with novel characteristics for use in chickens
+
+
+label:    sent_23
+sentence: The manuals allow SSI assessments to be made in different ways ( e.g. from digital recordings or whilst listening to speech live ) . Abel and Kruger ( 2007 ) reported that Major League Baseball players whose names have positive initials ( such as ACE or GOD ) live an average of 13 years longer than do players with negative initials ( such as ASS or BAD ) or players with neutral initials ( such as GHR or TSW ) . CLP or sham surgery was performed on BALB/c wild-type ( WT ) and ST2 knockout ( KO ) mice , and 24 hours later animals were challenged with 10 ( 8 ) live P. aeruginosa .
+
+ppatt:
+	?a allow ?b
+		?a: The manuals
+		?b: SSI assessments to be made in different ways ( e.g. from digital recordings or whilst listening to speech live . Abel and Kruger
+	?a be made in ?b
+		?a: SSI assessments
+		?b: different ways ( e.g. from digital recordings or whilst listening to speech live . Abel and Kruger
+	?a is/are 2007
+		?a: Kruger
+	?a reported ?b
+		?a: The manuals
+		?b: SOMETHING := Major League Baseball players whose names have positive initials ( such as ACE or GOD ) live an average of 13 years longer
+	?a ?b have ?c
+		?a: Major League Baseball players
+		?b: whose names
+		?c: positive initials ( such as ACE or GOD
+	?a live ?b
+		?a: Major League Baseball players whose names have positive initials ( such as ACE or GOD
+		?b: an average of 13 years longer
+	?a was performed on ?b
+		?a: Major League Baseball players whose names have positive initials ( such as ACE or GOD
+		?b: BALB/c wild-type and ST2 knockout mice
+	?a is/are WT
+		?a: BALB/c wild-type
+	?a is/are WT
+		?a: ST2 knockout
+	?a were challenged with ?b
+		?a: 24 hours later animals
+		?b: 10 ( 8 ) live P. aeruginosa
+
+

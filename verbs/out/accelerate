@@ -1,0 +1,325 @@
+label:    sent_1
+sentence: Fomenting a collaborative scientific culture will accelerate our understanding of the underlying phenonmemna .
+
+ppatt:
+	Fomenting ?a
+		?a: a collaborative scientific culture
+	?a will accelerate ?b
+		?a: SOMETHING := Fomenting a collaborative scientific culture
+		?b: our understanding of the underlying phenonmemna
+
+
+label:    sent_2
+sentence: Increased oxidative stress is known to accelerate age-related pathologies .
+
+ppatt:
+	?a is known to accelerate ?b
+		?a: Increased oxidative stress
+		?b: age-related pathologies
+
+
+label:    sent_3
+sentence: The incentives are thus likely to accelerate the spread of electronic health records .
+
+ppatt:
+	?a are thus likely to accelerate ?b
+		?a: The incentives
+		?b: the spread of electronic health records
+
+
+label:    sent_4
+sentence: Analysis of male pheromones that accelerate female reproductive organ development .
+
+ppatt:
+	?a accelerate ?b
+		?a: male pheromones
+		?b: female reproductive organ development
+
+
+label:    sent_5
+sentence: Microwave heating , as an alternative heating source , significantly accelerate the polymerization process .
+
+ppatt:
+	?a significantly accelerate ?b
+		?a: Microwave heating , as an alternative heating source
+		?b: the polymerization process
+
+
+label:    sent_6
+sentence: Large scale chiral chromatography for the separation of an enantiomer to accelerate drug development .
+
+ppatt:
+	?a accelerate ?b
+		?a: Large scale chiral chromatography for the separation of an enantiomer
+		?b: drug development
+
+
+label:    sent_7
+sentence: Pregnancy does not accelerate corticotroph tumor progression in Nelson 's syndrome .
+
+ppatt:
+	?a does not accelerate ?b
+		?a: Pregnancy
+		?b: corticotroph tumor progression in Nelson 's syndrome
+
+
+label:    sent_8
+sentence: Pregnancy does not accelerate corticotroph tumor progression after bilateral adrenalectomy .
+
+ppatt:
+	?a does not accelerate ?b after ?c
+		?a: Pregnancy
+		?b: corticotroph tumor progression
+		?c: bilateral adrenalectomy
+
+
+label:    sent_9
+sentence: Locally administered adipose-derived stem cells accelerate wound healing through differentiation and vasculogenesis . IGF-I and androgens are postulated to accelerate skeletal maturation in obese children .
+
+ppatt:
+	?a accelerate ?b through ?c
+		?a: Locally administered adipose-derived stem cells
+		?b: wound healing
+		?c: differentiation
+	?a accelerate ?b through ?c
+		?a: Locally administered adipose-derived stem cells
+		?b: wound healing
+		?c: vasculogenesis
+	?a are postulated to accelerate ?b
+		?a: IGF-I
+		?b: skeletal maturation in obese children
+	?a are postulated to accelerate ?b
+		?a: androgens
+		?b: skeletal maturation in obese children
+
+
+label:    sent_10
+sentence: Pregnancy per se did not appear to accelerate SLE in patients receiving immunosuppressive therapy .
+
+ppatt:
+	?a did not appear to accelerate ?b in ?c
+		?a: Pregnancy per se
+		?b: SLE
+		?c: patients receiving immunosuppressive therapy
+	?a receiving ?b
+		?a: patients
+		?b: immunosuppressive therapy
+
+
+label:    sent_11
+sentence: Vitamin E was shown to accelerate gingival wound healing in experimental animals .
+
+ppatt:
+	?a was shown to accelerate ?b
+		?a: Vitamin E
+		?b: gingival wound healing in experimental animals
+
+
+label:    sent_12
+sentence: Here we postulated that calcium may enable or accelerate the aggregation of Abeta . IVIg itself appears to accelerate IgG degradation rather than suppress IgG production .
+
+ppatt:
+	Here ?a postulated ?b ?c
+		?a: we
+		?b: SOMETHING := calcium may enable the aggregation of Abeta
+		?c: SOMETHING := IVIg itself appears to accelerate IgG degradation rather than suppress IgG production
+	?a may enable ?b
+		?a: calcium
+		?b: the aggregation of Abeta
+	?a accelerate
+		?a: calcium
+	?a appears to accelerate ?b
+		?a: IVIg itself
+		?b: IgG degradation
+	?a suppress ?b
+		?a: IVIg itself
+		?b: IgG production
+
+
+label:    sent_13
+sentence: NSAIDs can intensify symptoms of OA and accelerate its progress .
+
+ppatt:
+	?a can intensify ?b
+		?a: NSAIDs
+		?b: symptoms of OA
+	?a accelerate ?b
+		?a: NSAIDs
+		?b: its progress
+
+
+label:    sent_14
+sentence: Platelet-released growth factors can accelerate tenocyte proliferation and activate the anti-oxidant response element .
+
+ppatt:
+	?a can accelerate ?b
+		?a: Platelet-released growth factors
+		?b: tenocyte proliferation
+	?a activate ?b
+		?a: Platelet-released growth factors
+		?b: the anti-oxidant response element
+
+
+label:    sent_15
+sentence: Besides , these complexes accelerate wound healing and produce a potent erective action .
+
+ppatt:
+	Besides , ?a accelerate ?b
+		?a: these complexes
+		?b: wound healing
+	?a produce ?b
+		?a: these complexes
+		?b: a potent erective action
+
+
+label:    sent_16
+sentence: This technology can accelerate in vitro cell assays and thus save costs .
+
+ppatt:
+	?a can accelerate ?b
+		?a: This technology
+		?b: in cell assays
+	?a thus save ?b
+		?a: This technology
+		?b: costs
+
+
+label:    sent_17
+sentence: It may accelerate speciation via adaptive introgression or cause near-instantaneous speciation by allopolyploidization .
+
+ppatt:
+	?a may accelerate ?b via ?c
+		?a: It
+		?b: speciation
+		?c: adaptive introgression
+	?a cause ?b
+		?a: It
+		?b: near-instantaneous speciation by allopolyploidization
+
+
+label:    sent_18
+sentence: COPD exacerbations reduced physical activity and frequent exacerbations accelerate decline in activity over time .
+
+ppatt:
+	?a reduced ?b
+		?a: COPD exacerbations
+		?b: physical activity
+	?a reduced ?b
+		?a: COPD exacerbations
+		?b: frequent exacerbations
+	?a accelerate ?b over ?c
+		?a: COPD exacerbations
+		?b: decline in activity
+		?c: time
+
+
+label:    sent_19
+sentence: On the contrary , lymphangiogenic growth factors accelerate lymphangiogenesis and improve lymphedema .
+
+ppatt:
+	On ?a , ?b accelerate ?c
+		?a: the contrary
+		?b: lymphangiogenic growth factors
+		?c: lymphangiogenesis
+	?a improve ?b
+		?a: lymphangiogenic growth factors
+		?b: lymphedema
+
+
+label:    sent_20
+sentence: LLLT has been used to accelerate and enhance injured Achilles tendon repair .
+
+ppatt:
+	?a has been used to accelerate ?b
+		?a: LLLT
+		?b: injured Achilles tendon repair
+	?a has been used to enhance
+		?a: LLLT
+
+
+label:    sent_21
+sentence: A semiautomatic anthropometric caliper was developed to accelerate and simplify anthropometric data acquisition .
+
+ppatt:
+	?a was developed to accelerate ?b
+		?a: A semiautomatic anthropometric caliper
+		?b: anthropometric data acquisition
+	?a was developed to simplify
+		?a: A semiautomatic anthropometric caliper
+
+
+label:    sent_22
+sentence: Discovery 99 : accelerate and improve the drug discovery process .
+
+ppatt:
+
+
+
+label:    sent_23
+sentence: Transluminal angioplasty and atherosclerosis : does angioplasty accelerate or decelerate atherosclerosis ? Extracorporeal shock wave therapy ( ESWT ) may accelerate and improve wound repair .
+
+ppatt:
+	?a does ?b accelerate ?c
+		?a: Transluminal angioplasty
+		?b: angioplasty
+		?c: atherosclerosis
+	?a does ?b accelerate ?c
+		?a: atherosclerosis
+		?b: angioplasty
+		?c: atherosclerosis
+	?a decelerate
+		?a: Transluminal angioplasty
+	?a decelerate
+		?a: atherosclerosis
+	?a is/are ESWT
+		?a: Extracorporeal shock wave therapy
+	?a may accelerate ?b
+		?a: Extracorporeal shock wave therapy
+		?b: wound repair
+	?a improve
+		?a: Extracorporeal shock wave therapy
+
+
+label:    sent_24
+sentence: Discrimination of moving events which accelerate or decelerate over the listening interval .
+
+ppatt:
+	?a accelerate over ?b
+		?a: moving events
+		?b: the listening interval
+	?a decelerate
+		?a: which
+
+
+label:    sent_25
+sentence: Most mutations slow or accelerate both uptake and release , often with opposite effects .
+
+ppatt:
+	?a slow ?b , often with ?c
+		?a: Most mutations
+		?b: uptake
+		?c: opposite effects
+	?a slow ?b , often with ?c
+		?a: Most mutations
+		?b: release
+		?c: opposite effects
+	?a accelerate
+		?a: Most mutations
+
+
+label:    sent_26
+sentence: We conclude that SMC coengraftment can accelerate vessel development by EC and promote arteriolization .
+
+ppatt:
+	?a conclude ?b
+		?a: We
+		?b: SOMETHING := SMC coengraftment can accelerate vessel development by EC
+	?a can accelerate ?b by ?c
+		?a: SMC coengraftment
+		?b: vessel development
+		?c: EC
+	?a promote ?b
+		?a: SMC coengraftment
+		?b: arteriolization
+
+

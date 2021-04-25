@@ -1,0 +1,133 @@
+label:    sent_1
+sentence: Military plans for shuttle stir concern . U.K. 's sick pay proposals stir controversy . Hawaiian milk problems stir little action .
+
+ppatt:
+	's ?a pay
+		?a: U.K. sick
+	?a ?b stir ?c
+		?a: Military plans for shuttle stir concern
+		?b: proposals
+		?c: controversy
+	?a stir ?b
+		?a: Hawaiian milk problems
+		?b: little action
+
+
+label:    sent_2
+sentence: How to stir up a deep-sea storm .
+
+ppatt:
+	How to stir up ?a
+		?a: a deep-sea storm
+
+
+label:    sent_3
+sentence: Though amply described , alcoholic pancreatitis continues to stir controversy .
+
+ppatt:
+	amply described ?a
+		?a: alcoholic pancreatitis
+	?a continues to stir ?b
+		?a: alcoholic pancreatitis
+		?b: controversy
+
+
+label:    sent_4
+sentence: These words need to touch us , guide us , stir us . Catastrophic proposals stir debate on need for long-term care plans .
+
+ppatt:
+	?a need to touch ?b
+		?a: These words
+		?b: us
+	?a need to guide ?b
+		?a: These words
+		?b: us
+	?a need to stir ?b
+		?a: These words
+		?b: us
+	?a stir ?b on ?c
+		?a: Catastrophic proposals
+		?b: debate
+		?c: need for long-term care plans
+
+
+label:    sent_5
+sentence: The jet flow creates two counter-rotating vortices which stir the liquid at high velocities .
+
+ppatt:
+	?a creates ?b
+		?a: The jet flow
+		?b: two counter-rotating vortices which stir the liquid at high velocities
+	?a stir ?b at ?c
+		?a: two counter-rotating vortices
+		?b: the liquid
+		?c: high velocities
+
+
+label:    sent_6
+sentence: Genetically modified crops stir up controversy at home and abroad .
+
+ppatt:
+	?a stir ?b at ?c
+		?a: Genetically modified crops
+		?b: up controversy
+		?c: home
+	?a stir ?b at ?c
+		?a: Genetically modified crops
+		?b: up controversy
+		?c: abroad
+
+
+label:    sent_7
+sentence: Growing safety concerns stir caution on gastric bypass surgery .
+
+ppatt:
+	?a stir ?b
+		?a: Growing safety concerns
+		?b: caution on gastric bypass surgery
+
+
+label:    sent_8
+sentence: Such patients can stir the brain to action and prompt stimulating discussions with colleagues .
+
+ppatt:
+	?a can stir ?b to ?c
+		?a: Such patients
+		?b: the brain
+		?c: action
+	?a prompt ?b with ?c
+		?a: Such patients
+		?b: stimulating discussions
+		?c: colleagues
+
+
+label:    sent_9
+sentence: New payment system may stir turbulence with patient mix and drive providers into alliances . EPA 's proposed radionuclide emission standards stir up opposition .
+
+ppatt:
+	?a may stir ?b
+		?a: New payment system
+		?b: turbulence with patient mix
+	?a drive ?b into ?c
+		?a: New payment system
+		?b: providers
+		?c: alliances
+	's ?a stir ?b
+		?a: EPA proposed radionuclide emission standards
+		?b: opposition
+
+
+label:    sent_10
+sentence: The stir over a toothless child and an orange . A stir in the cytoplasm .
+
+ppatt:
+
+
+
+label:    sent_11
+sentence: Characterization of exposures to airborne nanoscale particles during friction stir welding of aluminum .
+
+ppatt:
+
+
+

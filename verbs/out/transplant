@@ -1,0 +1,51 @@
+label:    sent_1
+sentence: Whereas in period I 17 % of children younger than 1 year were discharged home after transplant or weaning , rate during period II was 93 % ( P < .001 ) , in particular because of improvement in discharge rate of patients with postcardiotomy heart failure ( 13 % vs 50 % ) . In conclusion , kidney transplant from a living donor is a natural choice within the pediatric setting .
+
+ppatt:
+	?a were discharged ?b after ?c
+		?a: in period I 17 % of children younger than 1 year
+		?b: home
+		?c: transplant
+	?a were discharged ?b after ?c
+		?a: in period I 17 % of children younger than 1 year
+		?b: home
+		?c: weaning
+	?a was 93 % , because of ?b
+		?a: rate during period II
+		?b: in particular improvement in discharge rate of patients with postcardiotomy heart failure
+	In ?a , ?b is a natural choice within ?c
+		?a: conclusion
+		?b: kidney transplant from a living donor
+		?c: the pediatric setting
+
+
+label:    sent_2
+sentence: In this study we systematically dissect the prenylation pathway to better define the mechanism behind statin inhibition in chronic allograft rejection in heart transplants , or transplant coronary artery disease ( TCAD ) .
+
+ppatt:
+	In ?a ?b systematically dissect ?c to better define ?d
+		?a: this study
+		?b: we
+		?c: the prenylation pathway
+		?d: the mechanism behind statin inhibition in chronic allograft rejection in heart transplants , or transplant coronary artery disease
+	?a is/are TCAD
+		?a: transplant coronary artery disease
+
+
+label:    sent_3
+sentence: The aim of this study was to establish an osteoporosis rabbit model by ovariectomy ( OVX ) , characterize the autologous MSCs from the OVX rabbits , and transplant the autologous MSCs into the OVX rabbits .
+
+ppatt:
+	?a was to establish ?b
+		?a: The aim of this study
+		?b: an osteoporosis rabbit model by ovariectomy
+	?a is/are OVX
+		?a: ovariectomy
+	?a was to characterize ?b
+		?a: The aim of this study
+		?b: the autologous MSCs from the OVX rabbits
+	?a was to characterize ?b
+		?a: The aim of this study
+		?b: transplant the autologous MSCs into the OVX rabbits
+
+

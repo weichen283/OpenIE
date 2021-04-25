@@ -1,0 +1,308 @@
+label:    sent_1
+sentence: These conclusions need to be validated in a larger controlled study population .
+
+ppatt:
+	?a need to be validated in ?b
+		?a: These conclusions
+		?b: a larger controlled study population
+
+
+label:    sent_2
+sentence: Our policy of planned cesarean section may need to be revised .
+
+ppatt:
+	?a may need to be revised
+		?a: Our policy of planned cesarean section
+
+
+label:    sent_3
+sentence: Clinicians need to maintain a high index of suspicion to identify these patients .
+
+ppatt:
+	?a need to maintain ?b to identify ?c
+		?a: Clinicians
+		?b: a high index of suspicion
+		?c: these patients
+
+
+label:    sent_4
+sentence: It is known that older persons need integrated primary health care .
+
+ppatt:
+	?a is known ?b
+		?a: It
+		?b: SOMETHING := older persons need integrated primary health care
+	?a need ?b
+		?a: older persons
+		?b: integrated primary health care
+
+
+label:    sent_5
+sentence: That is what ultimately will bring effective treatments to those who need them . 6/34 medications which need dose-adjustment were unadjusted .
+
+ppatt:
+	is ?a
+		?a: SOMETHING := That what ultimately will bring effective treatments to those who need them . 6/34 medications which need dose-adjustment
+	?a ?b ultimately will bring ?c
+		?a: That
+		?b: what
+		?c: effective treatments to those who need them . 6/34 medications which need dose-adjustment
+	?a need ?b ?c
+		?a: those
+		?b: them
+		?c: 6/34 medications which need dose-adjustment
+	?a need ?b
+		?a: 6/34 medications
+		?b: dose-adjustment
+
+
+label:    sent_6
+sentence: In particular we need to understand the role that informal communication plays .
+
+ppatt:
+	In ?a ?b need to understand ?c
+		?a: particular
+		?b: we
+		?c: the role that informal communication plays
+	?a plays
+		?a: informal communication
+
+
+label:    sent_7
+sentence: The need for public engagement in choosing health priorities .
+
+ppatt:
+	?a choosing ?b
+		?a: The need for public engagement
+		?b: health priorities
+
+
+label:    sent_8
+sentence: These findings suggest that surveyed providers need more training in tobacco cessation services .
+
+ppatt:
+	?a suggest ?b
+		?a: These findings
+		?b: SOMETHING := that surveyed providers need more training in tobacco cessation services
+	?a need ?b in ?c
+		?a: surveyed providers
+		?b: more training
+		?c: tobacco cessation services
+
+
+label:    sent_9
+sentence: Innovation is key in healthcare , but one stubborn problem does n't need much . Predictors of substance abuse treatment need and receipt among homeless women .
+
+ppatt:
+	?a is key in ?b
+		?a: Innovation
+		?b: healthcare
+	?a does n't need much
+		?a: one stubborn problem
+	?a need among ?b
+		?a: Predictors of substance abuse treatment
+		?b: homeless women
+
+
+label:    sent_10
+sentence: Radiation need not be feared , but it must be respected .
+
+ppatt:
+	?a not be feared
+		?a: Radiation need
+	?a must be respected
+		?a: it
+
+
+label:    sent_11
+sentence: Results need confirmation through more appropriate 3D PL modelling .
+
+ppatt:
+	?a need ?b
+		?a: Results
+		?b: confirmation through more appropriate 3D PL modelling
+
+
+label:    sent_12
+sentence: Markers of chemotherapy efficacy still need validation studies before coming into routine practice .
+
+ppatt:
+	?a still need ?b
+		?a: Markers of chemotherapy efficacy
+		?b: validation studies
+	?a coming into ?b
+		?a: Markers of chemotherapy efficacy
+		?b: routine practice
+
+
+label:    sent_13
+sentence: Quetiapine and olanzapine especially need attention after clozapine-associated granulocytopenia .
+
+ppatt:
+	?a especially need ?b after ?c
+		?a: Quetiapine
+		?b: attention
+		?c: clozapine-associated granulocytopenia
+	?a especially need ?b after ?c
+		?a: olanzapine
+		?b: attention
+		?c: clozapine-associated granulocytopenia
+
+
+label:    sent_14
+sentence: Do all ionic liquids need organic cations ? This allows to identify patients who need more aggressive treatment .
+
+ppatt:
+	Do ?a need ?b
+		?a: all ionic liquids
+		?b: organic cations
+	?a allows to identify ?b
+		?a: This
+		?b: patients who need more aggressive treatment
+	?a need ?b
+		?a: patients
+		?b: more aggressive treatment
+
+
+label:    sent_15
+sentence: Managing adult patients who need home parenteral nutrition .
+
+ppatt:
+	Managing ?a
+		?a: adult patients who need home parenteral nutrition
+	?a need ?b
+		?a: adult patients
+		?b: home parenteral nutrition
+
+
+label:    sent_16
+sentence: Some of these are promising but need further study . Optimal roughness and superficial morphology are still controversial and need to be clearly defined .
+
+ppatt:
+	?a are promising
+		?a: Some of these
+	?a need ?b
+		?a: Some of these
+		?b: further study
+	?a are still controversial
+		?a: Optimal roughness
+	?a are still controversial
+		?a: superficial morphology
+	?a need to be clearly defined
+		?a: Optimal roughness
+	?a need to be clearly defined
+		?a: superficial morphology
+
+
+label:    sent_17
+sentence: As a result , these parameters have imperfection and need to be improved further .
+
+ppatt:
+	As ?a , ?b have ?c
+		?a: a result
+		?b: these parameters
+		?c: imperfection
+	?a need to be improved further
+		?a: these parameters
+
+
+label:    sent_18
+sentence: Patient assessment is good , but support services need improvement .
+
+ppatt:
+	?a is good
+		?a: Patient assessment
+	?a support
+		?a: Patient assessment
+	?a need ?b
+		?a: services
+		?b: improvement
+
+
+label:    sent_19
+sentence: No , but they need a careful look .
+
+ppatt:
+	?a ?b need ?c
+		?a: No
+		?b: they
+		?c: a careful look
+
+
+label:    sent_20
+sentence: Some patients do not need the internal stabilization and are observed conservatively .
+
+ppatt:
+	?a do not need ?b
+		?a: Some patients
+		?b: the internal stabilization
+	?a are observed conservatively
+		?a: Some patients
+
+
+label:    sent_21
+sentence: Alternative kidney biomarkers of renal function in cirrhosis are promising and need further investigation .
+
+ppatt:
+	?a are promising
+		?a: Alternative kidney biomarkers of renal function in cirrhosis
+	?a need ?b
+		?a: Alternative kidney biomarkers of renal function in cirrhosis
+		?b: further investigation
+
+
+label:    sent_22
+sentence: The results of that theory are approximate and need verification .
+
+ppatt:
+	?a of that ?b are approximate
+		?a: The results
+		?b: theory
+	?a need ?b
+		?a: The results
+		?b: verification
+
+
+label:    sent_23
+sentence: They have fewer complications , need fewer antibiotics and are less often re-hospitalised .
+
+ppatt:
+	?a have ?b
+		?a: They
+		?b: fewer complications
+	?a need ?b
+		?a: They
+		?b: fewer antibiotics
+
+
+label:    sent_24
+sentence: The skinny on weight-loss surgery : what occupational health nurses need to know .
+
+ppatt:
+
+
+
+label:    sent_25
+sentence: It is this subgroup which we need to identify early and treat vigorously .
+
+ppatt:
+	?a is this subgroup
+		?a: It
+	?a ?b need to identify ?c vigorously
+		?a: this subgroup
+		?b: we
+		?c: early
+	?a ?b need to identify ?c vigorously
+		?a: this subgroup
+		?b: we
+		?c: treat
+
+
+label:    sent_26
+sentence: Providing health care to Vietnamese in America : what practitioners need to know .
+
+ppatt:
+	Providing ?a
+		?a: health care to Vietnamese in America
+
+

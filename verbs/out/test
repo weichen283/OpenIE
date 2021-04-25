@@ -1,0 +1,281 @@
+label:    sent_1
+sentence: A single volunteer was used to test skin temperatures produced with various casting techniques .
+
+ppatt:
+	?a was used to test ?b
+		?a: A single volunteer
+		?b: skin temperatures produced with various casting techniques
+	?a produced with ?b
+		?a: skin temperatures
+		?b: various casting techniques
+
+
+label:    sent_2
+sentence: Linear or logistic regression was used to test associations between biomarkers and kidney measures .
+
+ppatt:
+	?a was used to test ?b
+		?a: Linear or logistic regression
+		?b: associations between biomarkers and kidney measures
+
+
+label:    sent_3
+sentence: To test the effectiveness of peer support for patients with type 2 diabetes .
+
+ppatt:
+	test ?a
+		?a: the effectiveness of peer support for patients with type 2 diabetes
+
+
+label:    sent_4
+sentence: Case-only analysis using logistic regression was used to test for significant interaction .
+
+ppatt:
+	?a using ?b
+		?a: Case-only analysis
+		?b: logistic regression
+	?a was used to test for ?b
+		?a: Case-only analysis using logistic regression
+		?b: significant interaction
+
+
+label:    sent_5
+sentence: A Pearson analysis was applied to test for degree of correlation .
+
+ppatt:
+	?a was applied to test for ?b
+		?a: A Pearson analysis
+		?b: degree of correlation
+
+
+label:    sent_6
+sentence: Bootstrapping , a resampling method , was used to test for mediation .
+
+ppatt:
+	?a is/are a resampling method
+		?a: Bootstrapping
+	?a was used to test for ?b
+		?a: Bootstrapping
+		?b: mediation
+
+
+label:    sent_7
+sentence: Here , we test our hypothesis that the Hypocretin system is regulated by TNF-alpha .
+
+ppatt:
+	Here , ?a test ?b
+		?a: we
+		?b: our hypothesis that the Hypocretin system is regulated by TNF-alpha
+	?a is regulated by ?b
+		?a: the Hypocretin system
+		?b: TNF-alpha
+
+
+label:    sent_8
+sentence: Hydractinia echinata test system .
+
+ppatt:
+
+
+
+label:    sent_9
+sentence: Validated intraclass correlation statistics to test item performance models .
+
+ppatt:
+	?a test ?b
+		?a: Validated intraclass correlation statistics
+		?b: item performance models
+
+
+label:    sent_10
+sentence: We propose to test three hypotheses in a stepwise sequence .
+
+ppatt:
+	?a propose to test ?b
+		?a: We
+		?b: three hypotheses in a stepwise sequence
+
+
+label:    sent_11
+sentence: The present study was designed to test this hypothesis in laboratory rats . For those reasons we elected to test its effects in inhibiting brain tumor growth .
+
+ppatt:
+	?a was designed to test ?b
+		?a: The present study
+		?b: this hypothesis in laboratory rats
+	For ?a ?b elected to test ?c
+		?a: those reasons
+		?b: we
+		?c: its effects
+	?a inhibiting ?b
+		?a: we
+		?b: brain tumor growth
+
+
+label:    sent_12
+sentence: Maternal hyperoxygenation test in fetuses undergoing FETO for severe isolated congenital diaphragmatic hernia .
+
+ppatt:
+	?a undergoing ?b for ?c
+		?a: fetuses
+		?b: FETO
+		?c: severe isolated congenital diaphragmatic hernia
+
+
+label:    sent_13
+sentence: Development of a multiple marker test for ectopic pregnancy .
+
+ppatt:
+
+
+
+label:    sent_14
+sentence: Viewpoint : Why do we need a point-of-care CD4 test for low-income countries ? Using confocal microscopy , we access their packing microstructure and test the theoretical assumptions .
+
+ppatt:
+	Why do ?a need ?b
+		?a: we
+		?b: a point-of-care CD4 test for low-income countries
+	?a Using ?b
+		?a: we
+		?b: confocal microscopy
+	test ?a
+		?a: the theoretical assumptions
+
+
+label:    sent_15
+sentence: To test this prediction and study its operation .
+
+ppatt:
+	test ?a
+		?a: this prediction
+	study ?a
+		?a: its operation
+
+
+label:    sent_16
+sentence: Pearson 's correlation coefficient was employed to test the convergent and discriminate validity .
+
+ppatt:
+	's ?a was employed to test ?b
+		?a: Pearson correlation coefficient
+		?b: the convergent and discriminate validity
+
+
+label:    sent_17
+sentence: Here we test this suggestion by investigating young children 's reorientation in enclosed environments .
+
+ppatt:
+	Here ?a test ?b
+		?a: we
+		?b: this suggestion
+	?a investigating ?b
+		?a: we
+		?b: young children 's reorientation in enclosed environments
+
+
+label:    sent_18
+sentence: Mass spectrometry as test bench for medicinal chemistry studies .
+
+ppatt:
+	?a test ?b for ?c
+		?a: Mass spectrometry
+		?b: bench
+		?c: medicinal chemistry studies
+
+
+label:    sent_19
+sentence: Over three studies , we test a key aspect of this idea .
+
+ppatt:
+	Over ?a , ?b test ?c
+		?a: three studies
+		?b: we
+		?c: a key aspect of this idea
+
+
+label:    sent_20
+sentence: Here we test to what extent this is true in human perception .
+
+ppatt:
+	Here ?a test ?b
+		?a: we
+		?b: SOMETHING := to what extent this is true in human perception
+	to ?a ?b ?c is true in ?d
+		?a: what
+		?b: extent
+		?c: this
+		?d: human perception
+
+
+label:    sent_21
+sentence: Diagnosing of bakers ' respiratory allergy : is specific inhalation challenge test essential ? Adequate prospective studies should test if the associations found can be confirmed .
+
+ppatt:
+	?a ?b should test
+		?a: Diagnosing of bakers ' respiratory allergy
+		?b: essential ? studies
+	?a found
+		?a: the associations
+	?a can be confirmed
+		?a: the associations found
+
+
+label:    sent_22
+sentence: Infectious diarrhea : when to test and when to treat . Clopidogrel : to test or not to test ? The method was used to test and quantitate the pyrogen levels in polymeric biomaterials .
+
+ppatt:
+	?a when to test
+		?a: Infectious diarrhea : to test or not to test ? The method was used to test and quantitate the pyrogen levels in polymeric biomaterials
+	when to treat ?a
+		?a: Clopidogrel
+	?a test ?b
+		?a: Infectious diarrhea : when to test and when to treat . Clopidogrel
+		?b: SOMETHING := The method was used to test and quantitate the pyrogen levels in polymeric biomaterials
+	?a was used to test ?b
+		?a: The method
+		?b: the pyrogen levels in polymeric biomaterials
+	?a was used to quantitate
+		?a: The method
+
+
+label:    sent_23
+sentence: We test several algorithms and features and obtain between 0.60 and 0.95 F-measure .
+
+ppatt:
+	?a test ?b
+		?a: We
+		?b: several algorithms
+	?a test ?b
+		?a: We
+		?b: features
+	?a obtain between ?b
+		?a: We
+		?b: 0.60 and 0.95 F-measure
+
+
+label:    sent_24
+sentence: Future study can test this association and provide more information for clinical use .
+
+ppatt:
+	?a can test ?b
+		?a: Future study
+		?b: this association
+	?a provide ?b
+		?a: Future study
+		?b: more information for clinical use
+
+
+label:    sent_25
+sentence: We test this possibility and compare it with standard decision tree models .
+
+ppatt:
+	?a test ?b
+		?a: We
+		?b: this possibility
+	?a compare ?b with ?c
+		?a: We
+		?b: it
+		?c: standard decision tree models
+
+

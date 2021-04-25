@@ -1,0 +1,295 @@
+label:    sent_1
+sentence: The objective is to investigate the pattern of hazelnut sensitization in infants with AD .
+
+ppatt:
+	?a is to investigate ?b
+		?a: The objective
+		?b: the pattern of hazelnut sensitization in infants with AD
+
+
+label:    sent_2
+sentence: To investigate the impact of left ventricular dilatation on right ventricular papillary muscle displacement .
+
+ppatt:
+	investigate ?a
+		?a: the impact of left ventricular dilatation on right ventricular papillary muscle displacement
+
+
+label:    sent_3
+sentence: A Sox10 antibody was used to investigate 113 pulmonary NECs .
+
+ppatt:
+	?a was used to investigate ?b
+		?a: A Sox10 antibody
+		?b: 113 pulmonary NECs
+
+
+label:    sent_4
+sentence: We aimed to investigate this relationship in a population-based study of middle-aged Chinese .
+
+ppatt:
+	?a aimed to investigate ?b in ?c
+		?a: We
+		?b: this relationship
+		?c: a population-based study of middle-aged Chinese
+
+
+label:    sent_5
+sentence: Efforts to investigate such remedies in terms of neuropharmacology have been limited .
+
+ppatt:
+	?a investigate ?b in ?c
+		?a: Efforts
+		?b: such remedies
+		?c: terms of neuropharmacology
+	?a have been limited
+		?a: Efforts to investigate such remedies in terms of neuropharmacology
+
+
+label:    sent_6
+sentence: To investigate risks of torsion and malignancy by adnexal mass size during pregnancy .
+
+ppatt:
+	investigate ?a
+		?a: risks of torsion and malignancy by adnexal mass size during pregnancy
+
+
+label:    sent_7
+sentence: To investigate UbcH10 expression in hepatocellular carcinoma and explore its clinicopathological implications .
+
+ppatt:
+	investigate ?a
+		?a: UbcH10 expression in hepatocellular carcinoma
+	explore ?a
+		?a: its clinicopathological implications
+
+
+label:    sent_8
+sentence: Our study aims were to investigate periprocedural pain and evaluate its related factors .
+
+ppatt:
+	?a were to investigate ?b
+		?a: Our study aims
+		?b: periprocedural pain
+	?a were to evaluate ?b
+		?a: Our study aims
+		?b: its related factors
+
+
+label:    sent_9
+sentence: Be alert for even trivial infractions and investigate them immediately .
+
+ppatt:
+	investigate ?a immediately
+		?a: them
+
+
+label:    sent_10
+sentence: We investigate the sensitivity of the cross-validation procedure to this noisy training data . A new proposal for randomized start design to investigate disease-modifying therapies for Alzheimer disease .
+
+ppatt:
+	?a investigate ?b
+		?a: We
+		?b: the sensitivity of the cross-validation procedure to this noisy training data
+	?a investigate ?b
+		?a: randomized start design
+		?b: disease-modifying therapies for Alzheimer disease
+
+
+label:    sent_11
+sentence: Future genetic studies should investigate the ADHD dimensions separately .
+
+ppatt:
+	?a should investigate ?b separately
+		?a: Future genetic studies
+		?b: the ADHD dimensions
+
+
+label:    sent_12
+sentence: Health providers should investigate drug-nutritional supplement interactions prior to treatment .
+
+ppatt:
+	?a should investigate ?b prior to ?c
+		?a: Health providers
+		?b: drug-nutritional supplement interactions
+		?c: treatment
+
+
+label:    sent_13
+sentence: We investigate the dynamics of CPP and the lipid bilayer membrane by coarse-grained simulation .
+
+ppatt:
+	?a investigate ?b
+		?a: We
+		?b: the dynamics of CPP and the lipid bilayer membrane by coarse-grained simulation
+
+
+label:    sent_14
+sentence: In this work , we investigate the mechanism behind this paradox .
+
+ppatt:
+	In ?a , ?b investigate ?c
+		?a: this work
+		?b: we
+		?c: the mechanism behind this paradox
+
+
+label:    sent_15
+sentence: Secondary objectives were to investigate CCA-FMVD in lacunar patients and whether BA-FMVD parallels CCA-FMVD .
+
+ppatt:
+	?a were to investigate ?b
+		?a: Secondary objectives
+		?b: CCA-FMVD in lacunar patients
+	were to whether ?a parallels ?b
+		?a: BA-FMVD
+		?b: CCA-FMVD
+
+
+label:    sent_16
+sentence: The time has come to further investigate and justify this management .
+
+ppatt:
+	?a has come to further investigate ?b
+		?a: The time
+		?b: this management
+	?a has come to justify
+		?a: The time
+
+
+label:    sent_17
+sentence: Five multi-centres studies were undertaken to investigate and minimise differences .
+
+ppatt:
+	?a were undertaken to investigate ?b
+		?a: Five multi-centres studies
+		?b: differences
+	?a were undertaken to minimise
+		?a: Five multi-centres studies
+
+
+label:    sent_18
+sentence: This prompted us to investigate how NP or saposin C can function in cells .
+
+ppatt:
+	?a prompted ?b to investigate ?c
+		?a: This
+		?b: us
+		?c: SOMETHING := how NP or saposin C can function in cells
+	how ?a can function in ?b
+		?a: NP
+		?b: cells
+	how ?a can function in ?b
+		?a: saposin C
+		?b: cells
+
+
+label:    sent_19
+sentence: We investigate if the DTW can offer new insight on TWA .
+
+ppatt:
+	?a investigate
+		?a: We
+	?a can offer ?b
+		?a: the DTW
+		?b: new insight on TWA
+
+
+label:    sent_20
+sentence: Paediatric evaluation for inherited conditions : how do we investigate ? These neurons were used to investigate hypoxic-ischaemic cell damage and for developing neuroprotective strategies .
+
+ppatt:
+	investigate ?a
+		?a: hypoxic-ischaemic cell damage
+	investigate ?a
+		?a: developing neuroprotective strategies
+
+
+label:    sent_21
+sentence: To investigate self-reported water exposure at work as well as throughout the day . To investigate associations between long-term sick-listing and factors at work and in family life .
+
+ppatt:
+	investigate ?a
+		?a: self-reported water exposure at work as well as throughout the day
+	investigate ?a
+		?a: associations between long-term sick-listing and factors at work and in family life
+
+
+label:    sent_22
+sentence: Future research should investigate the pathway of thiouracil formation and identify its possible precursors .
+
+ppatt:
+	?a should investigate ?b
+		?a: Future research
+		?b: the pathway of thiouracil formation
+	?a identify ?b
+		?a: Future research
+		?b: its possible precursors
+
+
+label:    sent_23
+sentence: Commentary : Use of registries to investigate the past and develop the future .
+
+ppatt:
+	?a investigate ?b
+		?a: Commentary
+		?b: the past
+	develop ?a
+		?a: the future
+
+
+label:    sent_24
+sentence: Few studies investigate other skeletal elements or compare these processes in a systematic manner .
+
+ppatt:
+	?a investigate ?b
+		?a: Few studies
+		?b: other skeletal elements
+	?a compare ?b in ?c
+		?a: Few studies
+		?b: these processes
+		?c: a systematic manner
+
+
+label:    sent_25
+sentence: In this series , the necessary number to investigate for 1 adenoma was 3.9 .
+
+ppatt:
+	?a investigate for ?b
+		?a: the necessary number
+		?b: 1 adenoma
+	In ?a , ?b was 3.9
+		?a: this series
+		?b: the necessary number to investigate for 1 adenoma
+
+
+label:    sent_26
+sentence: We combined social-network analysis and molecular epidemiology to investigate Staphylococcus aureus among drug users .
+
+ppatt:
+	?a combined ?b
+		?a: We
+		?b: social-network analysis
+	?a combined ?b
+		?a: We
+		?b: molecular epidemiology
+	?a investigate ?b among ?c
+		?a: We
+		?b: Staphylococcus aureus
+		?c: drug users
+
+
+label:    sent_27
+sentence: To investigate for reversibility , heparin was co-incubated with protamine sulfate ( PS ) .
+
+ppatt:
+	investigate for ?a ?b
+		?a: reversibility
+		?b: heparin
+	?a was co-incubated with ?b
+		?a: heparin
+		?b: protamine sulfate
+	?a is/are PS
+		?a: protamine sulfate
+
+

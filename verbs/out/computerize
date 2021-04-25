@@ -1,0 +1,74 @@
+label:    sent_1
+sentence: Why computerize your office ? The major components of a thorough proposal to computerize pharmaceutical services are described .
+
+ppatt:
+	Why computerize your office ?a
+		?a: The major components of a thorough proposal to computerize pharmaceutical services
+	?a computerize ?b
+		?a: a thorough proposal
+		?b: pharmaceutical services
+	?a are described
+		?a: The major components of a thorough proposal to computerize pharmaceutical services
+
+
+label:    sent_2
+sentence: A program has therefore been written to computerize the transcription .
+
+ppatt:
+	?a has therefore been written to computerize ?b
+		?a: A program
+		?b: the transcription
+
+
+label:    sent_3
+sentence: [A computerized management system or how to computerize your office ] . Is it time to computerize your practice ? Uses and limitations of computerize tomography of the pelvis .
+
+ppatt:
+	how to computerize ?a
+		?a: your office ]
+	?a Is it time
+		?a: [A computerized management system
+	?a Is it time
+		?a: how to computerize your office ]
+	?a computerize ?b
+		?a: it time
+		?b: your practice
+	computerize ?a ?b
+		?a: your practice
+		?b: Uses
+	?a Uses
+		?a: [A computerized management system
+	?a Uses
+		?a: how to computerize your office ]
+
+
+label:    sent_4
+sentence: Productivity & information : two good reasons to computerize .
+
+ppatt:
+
+
+
+label:    sent_5
+sentence: The benefits of a computerized health information system -- why computerize ? [Independent nursing practice and computers .
+
+ppatt:
+
+
+
+label:    sent_6
+sentence: How to computerize effectively ] . [ The decision to computerize in microbiology ] . Homes doubt they can computerize per HCFA 's request .
+
+ppatt:
+	How to computerize ?a ?b
+		?a: effectively ]
+		?b: The decision to computerize in microbiology ]
+	?a ?b doubt ?c
+		?a: The decision to computerize in microbiology ]
+		?b: Homes
+		?c: SOMETHING := they can computerize per HCFA 's request
+	?a can computerize per ?b
+		?a: they
+		?b: HCFA 's request
+
+

@@ -1,0 +1,230 @@
+label:    sent_1
+sentence: The P3J-HR-1 strain of Epstein-Barr virus ( EBV ) fails to immortalize human lymphocytes .
+
+ppatt:
+	?a is/are EBV
+		?a: Epstein-Barr virus
+	?a fails to immortalize ?b
+		?a: The P3J-HR-1 strain of Epstein-Barr virus
+		?b: human lymphocytes
+
+
+label:    sent_2
+sentence: Bmi-1 cooperates with human papillomavirus type 16 E6 to immortalize normal human oral keratinocytes .
+
+ppatt:
+	?a cooperates with ?b to immortalize ?c
+		?a: Bmi-1
+		?b: human papillomavirus type 16 E6
+		?c: normal human oral keratinocytes
+
+
+label:    sent_3
+sentence: Human adenovirus type 12 : crossing species barriers to immortalize the viral genome . Epstein-Barr virus : a ubiquitous agent that can immortalize cells .
+
+ppatt:
+	?a immortalize ?b ?c
+		?a: crossing species barriers
+		?b: the viral genome
+		?c: Epstein-Barr virus
+	?a can immortalize ?b
+		?a: a ubiquitous agent
+		?b: cells
+
+
+label:    sent_4
+sentence: These results suggest that the loss of p53 does not directly immortalize tumor cells .
+
+ppatt:
+	?a suggest ?b
+		?a: These results
+		?b: SOMETHING := the loss of p53 does not directly immortalize tumor cells
+	?a does not directly immortalize ?b
+		?a: the loss of p53
+		?b: tumor cells
+
+
+label:    sent_5
+sentence: Ectopic expression of hTERT can effectively immortalize hMSC in vitro . Epstein-Barr virus ( EBV ) can immortalize B cells and contributes to lymphomagenesis .
+
+ppatt:
+	?a can effectively immortalize ?b in vitro
+		?a: Ectopic expression of hTERT
+		?b: hMSC
+	?a is/are EBV
+		?a: Epstein-Barr virus
+	?a can immortalize ?b
+		?a: Epstein-Barr virus
+		?b: B cells
+	?a contributes to ?b
+		?a: Epstein-Barr virus
+		?b: lymphomagenesis
+
+
+label:    sent_6
+sentence: The oncogenic viruses may immortalize the host cell , and facilitate malignant transformation .
+
+ppatt:
+	?a may immortalize ?b
+		?a: The oncogenic viruses
+		?b: the host cell
+	?a facilitate ?b
+		?a: The oncogenic viruses
+		?b: malignant transformation
+
+
+label:    sent_7
+sentence: It can immortalize human B lymphocytes and controls their resistance to apoptosis .
+
+ppatt:
+	?a can immortalize ?b
+		?a: It
+		?b: human B lymphocytes
+	?a controls ?b
+		?a: It
+		?b: their resistance to apoptosis
+
+
+label:    sent_8
+sentence: Bcl-2 oncogene blocks differentiation and extends viability but does not immortalize normal human keratinocytes .
+
+ppatt:
+	?a blocks ?b
+		?a: Bcl-2 oncogene
+		?b: differentiation
+	?a extends ?b
+		?a: Bcl-2 oncogene
+		?b: viability
+	?a does not immortalize ?b
+		?a: Bcl-2 oncogene
+		?b: normal human keratinocytes
+
+
+label:    sent_9
+sentence: The p53 extended the life-span of the cells but could not immortalize them .
+
+ppatt:
+	?a extended ?b
+		?a: The p53
+		?b: the life-span of the cells
+	?a could not immortalize ?b
+		?a: The p53
+		?b: them
+
+
+label:    sent_10
+sentence: Polyomaviruses have been found to immortalize cell lines and to possess oncogenic properties .
+
+ppatt:
+	?a have been found to immortalize ?b
+		?a: Polyomaviruses
+		?b: cell lines
+	?a have been found to to possess ?b
+		?a: Polyomaviruses
+		?b: oncogenic properties
+
+
+label:    sent_11
+sentence: This study reports an attempt to infect and to immortalize NK cells with HTLV-I .
+
+ppatt:
+	?a reports ?b
+		?a: This study
+		?b: an attempt to infect and to immortalize NK cells with HTLV-I
+	?a infect
+		?a: an attempt
+	immortalize ?a with ?b
+		?a: NK cells
+		?b: HTLV-I
+
+
+label:    sent_12
+sentence: Can SV40 infect and immortalize human B-lymphocytes and mesothelial cells as a natural pathogen ? We attempted to immortalize putative EPCs from human cord blood .
+
+ppatt:
+	Can ?a infect ?b as ?c
+		?a: SV40
+		?b: human B-lymphocytes
+		?c: a natural pathogen
+	Can ?a infect ?b as ?c
+		?a: SV40
+		?b: mesothelial cells
+		?c: a natural pathogen
+	?a immortalize
+		?a: SV40
+	?a attempted to immortalize ?b
+		?a: We
+		?b: putative EPCs from human cord blood
+
+
+label:    sent_13
+sentence: We found that Ik6 can immortalize haematopoietic progenitor cells in myeloid conditions .
+
+ppatt:
+	?a found ?b
+		?a: We
+		?b: SOMETHING := Ik6 can immortalize haematopoietic progenitor cells in myeloid conditions
+	?a can immortalize ?b in ?c
+		?a: Ik6
+		?b: haematopoietic progenitor cells
+		?c: myeloid conditions
+
+
+label:    sent_14
+sentence: Ectopic expression of hTERT and SV40LT can effectively immortalize HUVECs without tumorigenesis .
+
+ppatt:
+	?a can effectively immortalize ?b without ?c
+		?a: Ectopic expression of hTERT and SV40LT
+		?b: HUVECs
+		?c: tumorigenesis
+
+
+label:    sent_15
+sentence: EBV can immortalize primary B cells into lymphoblastoid cell lines in vitro .
+
+ppatt:
+	?a can immortalize ?b into ?c in vitro
+		?a: EBV
+		?b: primary B cells
+		?c: lymphoblastoid cell lines
+
+
+label:    sent_16
+sentence: Be fruitful and immortalize .
+
+ppatt:
+
+
+
+label:    sent_17
+sentence: The latter can immortalize and induce fundamental changes in their host cells .
+
+ppatt:
+	?a can immortalize ?b
+		?a: The latter
+		?b: fundamental changes in their host cells
+	?a induce
+		?a: The latter
+
+
+label:    sent_18
+sentence: Theileria sporozoites immortalize and transform host cells of haematopoietic origin .
+
+ppatt:
+	?a immortalize ?b
+		?a: Theileria sporozoites
+		?b: host cells of haematopoietic origin
+	?a transform
+		?a: Theileria sporozoites
+
+
+label:    sent_19
+sentence: Cultured human myoblasts fail to immortalize following the introduction of telomerase .
+
+ppatt:
+	?a fail to immortalize following ?b
+		?a: Cultured human myoblasts
+		?b: the introduction of telomerase
+
+

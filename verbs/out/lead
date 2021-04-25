@@ -1,0 +1,271 @@
+label:    sent_1
+sentence: Surgical clipping lead to complete neurological recovery . Hyperuricemia could lead to serious renal disease .
+
+ppatt:
+	?a lead to ?b
+		?a: Surgical clipping
+		?b: complete neurological recovery
+	?a could lead to ?b
+		?a: Hyperuricemia
+		?b: serious renal disease
+
+
+label:    sent_2
+sentence: Potentially , this could lead to the interpretation that such farmers are behaving irrationally .
+
+ppatt:
+	Potentially , ?a could lead to ?b
+		?a: this
+		?b: the interpretation that such farmers are behaving irrationally
+	?a are behaving irrationally
+		?a: such farmers
+
+
+label:    sent_3
+sentence: Nurses in all clinical settings encounter ethical issues that frequently lead to moral distress .
+
+ppatt:
+	?a encounter ?b
+		?a: Nurses in all clinical settings
+		?b: ethical issues that frequently lead to moral distress
+	?a frequently lead to ?b
+		?a: ethical issues
+		?b: moral distress
+
+
+label:    sent_4
+sentence: Deregulations may lead to severe pathologies such as diabetes mellitus and obesity .
+
+ppatt:
+	?a may lead to ?b
+		?a: Deregulations
+		?b: severe pathologies such as diabetes mellitus and obesity
+
+
+label:    sent_5
+sentence: Further research is needed to lead to a conclusive statement on this hypothesis .
+
+ppatt:
+	?a is needed to lead to ?b
+		?a: Further research
+		?b: a conclusive statement on this hypothesis
+
+
+label:    sent_6
+sentence: The baseline drift could lead to recording distortion and to disturb the diagnosis .
+
+ppatt:
+	?a could lead to ?b
+		?a: The baseline drift
+		?b: recording distortion
+	?a disturb ?b
+		?a: The baseline drift
+		?b: the diagnosis
+
+
+label:    sent_7
+sentence: Obesity may lead to depression or be one of its consequences .
+
+ppatt:
+	?a may lead to ?b
+		?a: Obesity
+		?b: depression
+
+
+label:    sent_8
+sentence: Platelet plays essential roles in hemostasis and its dysregulation can lead to arterial thrombosis .
+
+ppatt:
+	?a plays ?b in ?c
+		?a: Platelet
+		?b: essential roles
+		?c: hemostasis
+	?a can lead to ?b
+		?a: its dysregulation
+		?b: arterial thrombosis
+
+
+label:    sent_9
+sentence: Incontinence is a prevalent problem and can lead to many complications .
+
+ppatt:
+	?a is a prevalent problem
+		?a: Incontinence
+	?a can lead to ?b
+		?a: Incontinence
+		?b: many complications
+
+
+label:    sent_10
+sentence: Depression during pregnancy is especially dangerous and can lead to suicide or infanticide .
+
+ppatt:
+	?a is especially dangerous
+		?a: Depression during pregnancy
+	?a can lead to ?b
+		?a: Depression during pregnancy
+		?b: suicide
+	?a can lead to ?b
+		?a: Depression during pregnancy
+		?b: infanticide
+
+
+label:    sent_11
+sentence: Cardiac involvement in sarcoidosis is often silent and may lead to sudden death .
+
+ppatt:
+	?a is often silent
+		?a: Cardiac involvement in sarcoidosis
+	?a may lead to ?b
+		?a: Cardiac involvement in sarcoidosis
+		?b: sudden death
+
+
+label:    sent_12
+sentence: Conversely , genuine cognitive dysfunction can lead to an under-appreciation of cognitive deficits .
+
+ppatt:
+	Conversely , ?a can lead to ?b
+		?a: genuine cognitive dysfunction
+		?b: an under-appreciation of cognitive deficits
+
+
+label:    sent_13
+sentence: Very-late proarrhythmia of a migrant pacemaker lead .
+
+ppatt:
+	?a lead
+		?a: Very-late proarrhythmia of a migrant pacemaker
+
+
+label:    sent_14
+sentence: Unintentional protrusion and trapping of the screw-in helix of an implantable cardioverter defibrillator lead .
+
+ppatt:
+	?a lead
+		?a: Unintentional protrusion of the screw-in helix of an implantable cardioverter defibrillator
+	?a lead
+		?a: trapping
+
+
+label:    sent_15
+sentence: Based on previous investigations , the progress of gastritis may lead to gastric carcinomas .
+
+ppatt:
+	Based on previous investigations ?a
+		?a: the progress of gastritis
+	?a may lead to ?b
+		?a: the progress of gastritis
+		?b: gastric carcinomas
+
+
+label:    sent_16
+sentence: On the contrary , a more invasive coupling would lead cells towards homogeneity . All roads lead to home : panmixia of European eel in the Sargasso Sea .
+
+ppatt:
+	On ?a , ?b would lead ?c towards ?d
+		?a: the contrary
+		?b: a more invasive coupling
+		?c: cells
+		?d: homogeneity
+	?a lead to ?b
+		?a: All roads
+		?b: home
+
+
+label:    sent_17
+sentence: Skin lead contamination of family members of boat-caulkers in southern Thailand .
+
+ppatt:
+	?a lead ?b
+		?a: Skin
+		?b: contamination of family members of boat-caulkers in southern Thailand
+
+
+label:    sent_18
+sentence: Proton magnetic resonance spectroscopy in adults with childhood lead exposure . Long-term pacemaker lead malposition .
+
+ppatt:
+	?a lead ?b
+		?a: Proton magnetic resonance spectroscopy in adults with childhood
+		?b: exposure
+	?a lead ?b
+		?a: Long-term pacemaker
+		?b: malposition
+
+
+label:    sent_19
+sentence: Intercommissural lead placement into a right ventricular coronary sinus--utility of intracardiac echo guidance .
+
+ppatt:
+	?a lead ?b into ?c
+		?a: Intercommissural
+		?b: placement
+		?c: a right ventricular coronary sinus--utility of intracardiac echo guidance
+
+
+label:    sent_20
+sentence: STD patterns indicated adolescents lead all age groups in STDs . New Forest Home aims to lead dementia care .
+
+ppatt:
+	?a indicated ?b
+		?a: STD patterns
+		?b: SOMETHING := adolescents lead all age groups in STDs
+	?a lead ?b
+		?a: adolescents
+		?b: all age groups in STDs
+	?a aims to lead ?b
+		?a: New Forest Home
+		?b: dementia care
+
+
+label:    sent_21
+sentence: Possible mechanisms by which high dose zolpidem may lead to teratogenicity are discussed .
+
+ppatt:
+	?a by ?b may lead to ?c
+		?a: Possible mechanisms
+		?b: high dose zolpidem
+		?c: teratogenicity
+	?a are discussed
+		?a: Possible mechanisms by which high dose zolpidem may lead to teratogenicity
+
+
+label:    sent_22
+sentence: Potential mechanisms by which HIV infection may lead to lung cancer are discussed .
+
+ppatt:
+	?a by ?b may lead to ?c
+		?a: Potential mechanisms
+		?b: HIV infection
+		?c: lung cancer
+	?a are discussed
+		?a: Potential mechanisms by which HIV infection may lead to lung cancer
+
+
+label:    sent_23
+sentence: The mechanism by which these dietary components lead to pigment stone formation remains obscure .
+
+ppatt:
+	?a by ?b lead to ?c
+		?a: The mechanism
+		?b: these dietary components
+		?c: pigment stone formation
+	?a remains obscure
+		?a: The mechanism by which these dietary components lead to pigment stone formation
+
+
+label:    sent_24
+sentence: On the lead time of a periodic screening program . ( n=16 ) as lead acetate solution i.p. for a period of seven days . Can such evanescent subliminal stimuli , nevertheless , lead to long-lasting learning ?
+
+ppatt:
+	lead ?a i.p. for ?b ?c
+		?a: acetate solution
+		?b: a period of seven days
+		?c: such evanescent subliminal stimuli
+	On ?a . Can ?b , nevertheless , lead to ?c
+		?a: the lead time of a periodic screening program
+		?b: such evanescent subliminal stimuli
+		?c: long-lasting learning
+
+

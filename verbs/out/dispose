@@ -1,0 +1,251 @@
+label:    sent_1
+sentence: Investigators should dispose of the necessary laboratory resources to study food-borne norovirus outbreaks .
+
+ppatt:
+	?a should dispose of ?b to study ?c
+		?a: Investigators
+		?b: the necessary laboratory resources
+		?c: food-borne norovirus outbreaks
+
+
+label:    sent_2
+sentence: Clear guidance for how patients should dispose of unused and expired medications is lacking . Cardiac stimulators and defibrillators dispose of diagnostic capabilities .
+
+ppatt:
+	?a how ?b should dispose of ?c
+		?a: Clear guidance is lacking
+		?b: patients
+		?c: unused and expired medications
+	?a is lacking
+		?a: Clear guidance for how patients should dispose of unused and expired medications
+	?a ?b dispose of ?c
+		?a: Clear guidance for how patients should dispose of unused and expired medications is lacking
+		?b: Cardiac stimulators
+		?c: diagnostic capabilities
+	?a ?b dispose of ?c
+		?a: Clear guidance for how patients should dispose of unused and expired medications is lacking
+		?b: defibrillators
+		?c: diagnostic capabilities
+
+
+label:    sent_3
+sentence: In order to dispose of CRT funnel glass , some technologies have been developed .
+
+ppatt:
+	order dispose of ?a ?b
+		?a: CRT funnel glass
+		?b: some technologies
+	?a have been developed
+		?a: some technologies
+
+
+label:    sent_4
+sentence: Abnormal systemic collagen metabolism is thought to dispose to the development of hernias . How to dispose of mercury thermometers .
+
+ppatt:
+	?a is thought to dispose to ?b . How to dispose of ?c
+		?a: Abnormal systemic collagen metabolism
+		?b: the development of hernias
+		?c: mercury thermometers
+
+
+label:    sent_5
+sentence: It is easy to dispose the samples .
+
+ppatt:
+	?a is easy to dispose ?b
+		?a: It
+		?b: the samples
+
+
+label:    sent_6
+sentence: Sufficient safety boxes were also supplied to dispose the used syringe .
+
+ppatt:
+	?a were also supplied to dispose ?b
+		?a: Sufficient safety boxes
+		?b: the used syringe
+
+
+label:    sent_7
+sentence: However , they appear to further impair the ability to dispose glucose .
+
+ppatt:
+	However , ?a appear to further impair ?b
+		?a: they
+		?b: the ability to dispose glucose
+	?a dispose ?b
+		?a: the ability
+		?b: glucose
+
+
+label:    sent_8
+sentence: Therefore , the main focus is to dispose them by composting .
+
+ppatt:
+	Therefore , ?a is to dispose ?b by ?c
+		?a: the main focus
+		?b: them
+		?c: composting
+
+
+label:    sent_9
+sentence: Prematurity itself does not seem to dispose preterm infants to global cerebral hypoxia .
+
+ppatt:
+	?a does not seem to dispose ?b to global ?c
+		?a: Prematurity itself
+		?b: preterm infants
+		?c: cerebral hypoxia
+
+
+label:    sent_10
+sentence: NIR technique can dispose the samples without complicated pretreatment .
+
+ppatt:
+	?a can dispose ?b without ?c
+		?a: NIR technique
+		?b: the samples
+		?c: complicated pretreatment
+
+
+label:    sent_11
+sentence: This , in turn , may dispose the Parkinsonian patient against predictive movement .
+
+ppatt:
+	?a in ?b , may dispose ?c against ?d
+		?a: This
+		?b: turn
+		?c: the Parkinsonian patient
+		?d: predictive movement
+
+
+label:    sent_12
+sentence: Ultimately , ABCB1 and ABCC2 will dispose the metabolites into bile canaliculi .
+
+ppatt:
+	Ultimately , ?a will dispose ?b into ?c
+		?a: ABCB1
+		?b: the metabolites
+		?c: bile canaliculi
+	Ultimately , ?a will dispose ?b into ?c
+		?a: ABCC2
+		?b: the metabolites
+		?c: bile canaliculi
+
+
+label:    sent_13
+sentence: The authors dispose an experience with 250 surgical interventions with employment of abacterial insulators .
+
+ppatt:
+	?a dispose ?b
+		?a: The authors
+		?b: an experience with 250 surgical interventions with employment of abacterial insulators
+
+
+label:    sent_14
+sentence: We dispose different off-loading devices and techniques which are efficient on short term .
+
+ppatt:
+	?a dispose ?b
+		?a: We
+		?b: different off-loading devices which are efficient on short term
+	?a dispose ?b
+		?a: We
+		?b: techniques
+	?a are efficient on ?b
+		?a: different off-loading devices
+		?b: short term
+	?a are efficient on ?b
+		?a: techniques
+		?b: short term
+
+
+label:    sent_15
+sentence: The subjects could dispose of or reduce their previous representations .
+
+ppatt:
+	?a could dispose ?b ?c
+		?a: The subjects
+		?b: of
+		?c: their previous representations
+	?a reduce
+		?a: The subjects
+
+
+label:    sent_16
+sentence: It has been hypothesized that genetic risk-factors dispose patients with schizophrenia to develop OCS .
+
+ppatt:
+	?a has been hypothesized ?b
+		?a: It
+		?b: SOMETHING := genetic risk-factors dispose patients with schizophrenia to develop OCS
+	?a dispose ?b to develop ?c
+		?a: genetic risk-factors
+		?b: patients with schizophrenia
+		?c: OCS
+
+
+label:    sent_17
+sentence: It reminds some mechanisms and envisages means we dispose to limit their disaggreable consequences .
+
+ppatt:
+	?a reminds ?b
+		?a: It
+		?b: some mechanisms
+	?a envisages ?b
+		?a: It
+		?b: means
+	?a dispose to limit ?b
+		?a: we
+		?b: their disaggreable consequences
+
+
+label:    sent_18
+sentence: There are several different personality traits that dispose individuals to engage in rash action .
+
+ppatt:
+	There are ?a
+		?a: several different personality traits that dispose individuals to engage in rash action
+	?a dispose ?b to engage in ?c
+		?a: several different personality traits
+		?b: individuals
+		?c: rash action
+
+
+label:    sent_19
+sentence: Their argument was to dispose of potential cancer as soon as possible .
+
+ppatt:
+	?a was to dispose of ?b
+		?a: Their argument
+		?b: potential cancer
+
+
+label:    sent_20
+sentence: Users need to know how and when to dispose of or decontaminate their CPC .
+
+ppatt:
+	?a need to know
+		?a: Users
+	?a need to how when to dispose ?b ?c
+		?a: Users
+		?b: of
+		?c: their CPC
+	?a decontaminate
+		?a: Users
+
+
+label:    sent_21
+sentence: Brain cells have the potential to generate and to dispose formaldehyde .
+
+ppatt:
+	?a have ?b
+		?a: Brain cells
+		?b: the potential to generate and to dispose formaldehyde
+	?a generate
+		?a: the potential
+	dispose ?a
+		?a: formaldehyde
+
+

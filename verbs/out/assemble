@@ -1,0 +1,308 @@
+label:    sent_1
+sentence: A novel two-step bonding method was created to assemble the complete PMMA microchip .
+
+ppatt:
+	?a was created to assemble ?b
+		?a: A novel two-step bonding method
+		?b: the complete PMMA microchip
+
+
+label:    sent_2
+sentence: Biosynthesis of vitamin B2 : a unique way to assemble a xylene ring . Mitochondria can recognize and assemble fragments of a beta-barrel structure .
+
+ppatt:
+	?a assemble ?b
+		?a: a unique way
+		?b: xylene ring
+
+
+label:    sent_3
+sentence: Retroviruses are enveloped viruses that assemble on the inner leaflet of cellular membranes . NPCs assemble twice during the cell cycle in metazoans : postmitosis and during interphase .
+
+ppatt:
+	?a are enveloped viruses
+		?a: Retroviruses
+	?a assemble on ?b
+		?a: enveloped viruses
+		?b: the inner leaflet of cellular membranes
+	?a assemble twice during ?b
+		?a: NPCs
+		?b: the cell cycle in metazoans
+
+
+label:    sent_4
+sentence: The proteins assemble into cationic channels , often with calcium permeability .
+
+ppatt:
+	?a assemble into ?b , often with ?c
+		?a: The proteins
+		?b: cationic channels
+		?c: calcium permeability
+
+
+label:    sent_5
+sentence: These can be designed to further assemble into geometrically well-defined nanotubes .
+
+ppatt:
+	?a can be designed to further assemble into ?b
+		?a: These
+		?b: geometrically well-defined nanotubes
+
+
+label:    sent_6
+sentence: All but P2X6 are able to assemble as homotrimers .
+
+ppatt:
+	?a ?b are able to assemble as ?c
+		?a: All
+		?b: P2X6
+		?c: homotrimers
+
+
+label:    sent_7
+sentence: Further , gel filtration analysis showed that 8Salpha was able to assemble into trimers .
+
+ppatt:
+	Further , ?a showed ?b
+		?a: gel filtration analysis
+		?b: SOMETHING := 8Salpha was able to assemble into trimers
+	?a was able to assemble into ?b
+		?a: 8Salpha
+		?b: trimers
+
+
+label:    sent_8
+sentence: Attempts to assemble a universal NMR database without synthesis of NMR database compounds . ASSIM-8080 will assemble , with error checking and error diagnostics , an assembly-language program .
+
+ppatt:
+	?a assemble ?b without ?c
+		?a: Attempts
+		?b: a universal NMR database
+		?c: synthesis of NMR database compounds
+	?a ?b will assemble , with ?c
+		?a: Attempts to assemble a universal NMR database without synthesis of NMR database compounds
+		?b: ASSIM-8080
+		?c: error checking
+	?a ?b will assemble , with ?c
+		?a: Attempts to assemble a universal NMR database without synthesis of NMR database compounds
+		?b: ASSIM-8080
+		?c: error diagnostics
+	?a is/are an assembly-language program
+		?a: error checking
+	?a is/are an assembly-language program
+		?a: error diagnostics
+
+
+label:    sent_9
+sentence: Gene synthesis attempts to assemble user-defined DNA sequences with base-level precision .
+
+ppatt:
+	?a attempts to assemble ?b with ?c
+		?a: Gene synthesis
+		?b: user-defined DNA sequences
+		?c: base-level precision
+
+
+label:    sent_10
+sentence: Anisotropic particles assemble to spontaneously form columnar arrays .
+
+ppatt:
+	?a assemble to spontaneously form ?b
+		?a: Anisotropic particles
+		?b: columnar arrays
+
+
+label:    sent_11
+sentence: Physicians assemble : integrating small groups to preserve independent practice . TRPV4 , TRPC1 , and TRPP2 assemble to form a flow-sensitive heteromeric channel .
+
+ppatt:
+	?a assemble : integrating ?b
+		?a: Physicians
+		?b: small groups
+	?a preserve ?b
+		?a: Physicians
+		?b: independent practice
+	?a assemble to form ?b
+		?a: TRPV4
+		?b: a flow-sensitive heteromeric channel
+	?a assemble to form ?b
+		?a: TRPC1
+		?b: a flow-sensitive heteromeric channel
+	?a assemble to form ?b
+		?a: TRPP2
+		?b: a flow-sensitive heteromeric channel
+
+
+label:    sent_12
+sentence: From quantum motifs to assemble nanoaggregates : the preparation of organo-molybdenum hybrid nanostructures .
+
+ppatt:
+	?a assemble ?b
+		?a: quantum motifs
+		?b: nanoaggregates
+
+
+label:    sent_13
+sentence: We find that the two proteins assemble similar active sites for their common substrates .
+
+ppatt:
+	?a find ?b
+		?a: We
+		?b: SOMETHING := the two proteins assemble similar active sites for their common substrates
+	?a assemble ?b
+		?a: the two proteins
+		?b: similar active sites for their common substrates
+
+
+label:    sent_14
+sentence: Chelate oxorhenium to assemble new integrin antagonists .
+
+ppatt:
+	?a assemble ?b
+		?a: Chelate oxorhenium
+		?b: new integrin antagonists
+
+
+label:    sent_15
+sentence: Several proteins assemble on the RNA LE and direct transport to the vegetal cortex .
+
+ppatt:
+	?a assemble on ?b
+		?a: Several proteins
+		?b: the RNA LE to the vegetal cortex
+	?a assemble on ?b
+		?a: Several proteins
+		?b: direct transport
+
+
+label:    sent_16
+sentence: Maize meiotic spindles assemble around chromatin and do not require paired chromosomes .
+
+ppatt:
+	?a assemble around ?b
+		?a: Maize meiotic spindles
+		?b: chromatin
+	?a do not require ?b
+		?a: Maize meiotic spindles
+		?b: paired chromosomes
+
+
+label:    sent_17
+sentence: This article is concerned with how and why publics assemble around waste management issues .
+
+ppatt:
+	?a is concerned
+		?a: This article
+	how why ?a assemble around ?b
+		?a: publics
+		?b: waste management issues
+
+
+label:    sent_18
+sentence: It is suggested that individual synapses assemble piecemeal , element by element .
+
+ppatt:
+	?a is suggested ?b
+		?a: It
+		?b: SOMETHING := individual synapses assemble piecemeal , element by element
+	?a assemble ?b by ?c
+		?a: individual synapses
+		?b: piecemeal
+		?c: element
+	?a assemble ?b by ?c
+		?a: individual synapses
+		?b: element
+		?c: element
+
+
+label:    sent_19
+sentence: This self-assembly approach also can assemble particles with tunable compositions into layered films .
+
+ppatt:
+	?a also can assemble ?b with ?c
+		?a: This self-assembly approach
+		?b: particles
+		?c: tunable compositions into layered films
+
+
+label:    sent_20
+sentence: Such computer-controlled methods assemble 3D objects by layer-wise deposition or layer-wise cross-linking of materials .
+
+ppatt:
+	?a assemble ?b by ?c
+		?a: Such computer-controlled methods
+		?b: 3D objects
+		?c: layer-wise deposition
+	?a assemble ?b by ?c
+		?a: Such computer-controlled methods
+		?b: 3D objects
+		?c: layer-wise cross-linking of materials
+
+
+label:    sent_21
+sentence: Until recently , it has been difficult to assemble and interpret this data .
+
+ppatt:
+	Until recently , ?a has been difficult to assemble ?b
+		?a: it
+		?b: this data
+	recently , ?a has been difficult to interpret
+		?a: it
+
+
+label:    sent_22
+sentence: The resulting proteasomes appear normal but assemble inefficiently , facilitating identification of assembly intermediates .
+
+ppatt:
+	?a appear normal
+		?a: The resulting proteasomes
+	?a assemble inefficiently
+		?a: The resulting proteasomes
+	?a facilitating ?b
+		?a: The resulting proteasomes
+		?b: identification of assembly intermediates
+
+
+label:    sent_23
+sentence: It is also very easy to assemble and disassemble the working electrode when needed . C5-deficient ( C5D ) mice can neither generate C5a nor assemble C5b-9 .
+
+ppatt:
+	?a is also very easy to assemble ?b
+		?a: It
+		?b: the working electrode
+	?a is also very easy to disassemble
+		?a: It
+	when needed ?a
+		?a: C5-deficient mice
+	?a can neither generate ?b
+		?a: C5-deficient mice
+		?b: C5a
+	?a assemble ?b
+		?a: C5-deficient mice
+		?b: C5b-9
+
+
+label:    sent_24
+sentence: PCR was used to assemble fragments and map equivalent regions .
+
+ppatt:
+	?a was used to assemble ?b
+		?a: PCR
+		?b: fragments
+	?a was used to map ?b
+		?a: PCR
+		?b: equivalent regions
+
+
+label:    sent_25
+sentence: Mutant cells were unable to assemble new cilia or to maintain preexisting cilia .
+
+ppatt:
+	?a were unable to assemble ?b
+		?a: Mutant cells
+		?b: new cilia
+	?a were unable to to maintain ?b
+		?a: Mutant cells
+		?b: preexisting cilia
+
+

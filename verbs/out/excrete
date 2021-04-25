@@ -1,0 +1,306 @@
+label:    sent_1
+sentence: Humans do not possess mechanisms to excrete the excess of this metal .
+
+ppatt:
+	?a do not possess ?b
+		?a: Humans
+		?b: mechanisms to excrete the excess of this metal
+	?a excrete ?b
+		?a: mechanisms
+		?b: the excess of this metal
+
+
+label:    sent_2
+sentence: Alders inoculated with Frankia did not excrete any detectable amount of nitrogen .
+
+ppatt:
+	?a inoculated with ?b
+		?a: Alders
+		?b: Frankia
+	?a did not excrete ?b
+		?a: Alders inoculated with Frankia
+		?b: any detectable amount of nitrogen
+
+
+label:    sent_3
+sentence: Two nonsmoking normal volunteers were found to excrete mutagenic urines . Many plants and bacteria excrete redox-cycling compounds .
+
+ppatt:
+	?a were found to excrete ?b
+		?a: Two nonsmoking normal volunteers
+		?b: mutagenic urines
+	?a excrete ?b
+		?a: Many plants
+		?b: redox-cycling compounds
+	?a excrete ?b
+		?a: bacteria
+		?b: redox-cycling compounds
+
+
+label:    sent_4
+sentence: Obstructed kidneys with decreased concentrating ability on the other hand excrete comparatively more sodium . Both low- and high-CO ( 2 ) -grown cells excrete glycolate .
+
+ppatt:
+	?a excrete ?b
+		?a: Obstructed kidneys with decreased concentrating ability on the other hand
+		?b: comparatively more sodium
+	?a ?b excrete ?c
+		?a: low-
+		?b: 2 ) -grown cells
+		?c: glycolate
+	?a ?b excrete ?c
+		?a: high-CO
+		?b: 2 ) -grown cells
+		?c: glycolate
+
+
+label:    sent_5
+sentence: The salivary glands ' secretion system can actively excrete K into the oral cavity . In 24-hour urine , males excrete significantly more GAGs than females . Women excrete significantly more XA ( p = 0.02 ) than men . Corynebacterium glutamicum can consume glucose to excrete glycerol under oxygen deprivation .
+
+ppatt:
+	?a can actively excrete ?b into ?c . In ?d
+		?a: The salivary glands ' secretion system
+		?b: K
+		?c: the oral cavity
+		?d: 24-hour urine
+	?a excrete ?b than ?c
+		?a: males
+		?b: significantly more GAGs
+		?c: females
+	?a excrete ?b than ?c
+		?a: Women
+		?b: significantly more XA
+		?c: men
+	?a = ?b
+		?a: p
+		?b: 0.02
+	?a can consume ?b to excrete ?c under ?d
+		?a: Corynebacterium glutamicum
+		?b: glucose
+		?c: glycerol
+		?d: oxygen deprivation
+
+
+label:    sent_6
+sentence: Women who develop preeclampsia during pregnancy excrete less calcium than healthy pregnant women .
+
+ppatt:
+	?a develop ?b during ?c
+		?a: Women
+		?b: preeclampsia
+		?c: pregnancy
+	?a excrete ?b than ?c
+		?a: Women who develop preeclampsia during pregnancy
+		?b: less calcium
+		?c: healthy pregnant women
+
+
+label:    sent_7
+sentence: Shorter survival in HIV-positive patients with diarrhoea who excrete adenovirus from the GI tract .
+
+ppatt:
+	?a excrete ?b
+		?a: HIV-positive patients with diarrhoea
+		?b: adenovirus from the GI tract
+
+
+label:    sent_8
+sentence: During the reproduction phase , sows consume and excrete large quantities of nutrients .
+
+ppatt:
+	During ?a , ?b consume ?c
+		?a: the reproduction phase
+		?b: sows
+		?c: large quantities of nutrients
+	?a excrete
+		?a: sows
+
+
+label:    sent_9
+sentence: These PI lambs are viraemic , antibody negative and constantly excrete virus .
+
+ppatt:
+	?a are viraemic , ?b negative
+		?a: These PI lambs
+		?b: antibody
+	?a constantly excrete ?b
+		?a: These PI lambs
+		?b: virus
+
+
+label:    sent_10
+sentence: Alternaria species produce and excrete dimethyl coprogen siderophores to acquire iron . It is concluded that the fetal kidneys can excrete protons and generate bicarbonate .
+
+ppatt:
+	?a produce ?b to acquire ?c
+		?a: Alternaria species
+		?b: dimethyl coprogen siderophores
+		?c: iron
+	?a excrete
+		?a: Alternaria species
+	?a is concluded ?b
+		?a: It
+		?b: SOMETHING := the fetal kidneys can excrete protons
+	?a can excrete ?b
+		?a: the fetal kidneys
+		?b: protons
+	?a generate ?b
+		?a: the fetal kidneys
+		?b: bicarbonate
+
+
+label:    sent_11
+sentence: Pericentral hepatocytes excrete bile acids more slowly and biotransform them more than periportal cells .
+
+ppatt:
+	?a excrete ?b more slowly
+		?a: Pericentral hepatocytes
+		?b: bile acids
+	?a biotransform ?b ?c than ?d
+		?a: Pericentral hepatocytes
+		?b: them
+		?c: more
+		?d: periportal cells
+
+
+label:    sent_12
+sentence: All subjects excreted hydrogen , but 71 % did not excrete methane .
+
+ppatt:
+	?a excreted ?b
+		?a: All subjects
+		?b: hydrogen
+	?a did not excrete ?b
+		?a: 71 %
+		?b: methane
+
+
+label:    sent_13
+sentence: Alloniscus perconvexus and Tylos punctatus can excrete ammonia directly into seawater or utilize volatilization .
+
+ppatt:
+	?a can excrete ?b directly into ?c
+		?a: Alloniscus perconvexus
+		?b: ammonia
+		?c: seawater
+	?a can excrete ?b directly into ?c
+		?a: Tylos punctatus
+		?b: ammonia
+		?c: seawater
+	?a utilize ?b
+		?a: Alloniscus perconvexus
+		?b: volatilization
+	?a utilize ?b
+		?a: Tylos punctatus
+		?b: volatilization
+
+
+label:    sent_14
+sentence: It can actively excrete ammonia through its gills , and tolerate high environmental ammonia .
+
+ppatt:
+	?a can actively excrete ?b through ?c
+		?a: It
+		?b: ammonia
+		?c: its gills
+	?a tolerate ?b
+		?a: It
+		?b: high environmental ammonia
+
+
+label:    sent_15
+sentence: In Escherichia coli , some K-12 strains excrete orotic acid and not uracil .
+
+ppatt:
+	In ?a , ?b excrete ?c
+		?a: Escherichia coli
+		?b: some K-12 strains
+		?c: orotic acid
+	In ?a , ?b excrete ?c
+		?a: Escherichia coli
+		?b: some K-12 strains
+		?c: uracil
+
+
+label:    sent_16
+sentence: Ochratoxin A carries chlorine in its molecule and can excrete chlorine from the cell .
+
+ppatt:
+	?a carries ?b in ?c
+		?a: Ochratoxin A
+		?b: chlorine
+		?c: its molecule
+	?a can excrete ?b from ?c
+		?a: Ochratoxin A
+		?b: chlorine
+		?c: the cell
+
+
+label:    sent_17
+sentence: Two AZCA-resistant cell lines overproduce and excrete more proline than wild-type cells .
+
+ppatt:
+	?a overproduce ?b than ?c
+		?a: Two AZCA-resistant cell lines
+		?b: more proline
+		?c: wild-type cells
+	?a excrete
+		?a: Two AZCA-resistant cell lines
+
+
+label:    sent_18
+sentence: It seems likely that MT does not excrete intrinsically into the bile . Only one patient did not excrete before developing CMV pneumonia .
+
+ppatt:
+	?a seems likely ?b ?c
+		?a: It
+		?b: SOMETHING := MT does not excrete intrinsically into the bile
+		?c: SOMETHING := Only one patient did not excrete before developing CMV pneumonia
+	?a does not excrete intrinsically into ?b
+		?a: MT
+		?b: the bile
+	?a did not excrete before ?b
+		?a: Only one patient
+		?b: developing CMV pneumonia
+
+
+label:    sent_19
+sentence: The microorganisms studied did not excrete folates into the media in significant amounts .
+
+ppatt:
+	?a studied
+		?a: The microorganisms
+	?a did not excrete ?b into ?c in ?d
+		?a: The microorganisms studied
+		?b: folates
+		?c: the media
+		?d: significant amounts
+
+
+label:    sent_20
+sentence: This review explains why , when , and how cells excrete or dissimilate acetate .
+
+ppatt:
+	?a explains ?b
+		?a: This review
+		?b: SOMETHING := why , when , how cells excrete or dissimilate acetate
+	why , when , how ?a excrete ?b
+		?a: cells
+		?b: dissimilate acetate
+
+
+label:    sent_21
+sentence: Freshly isolated cells excrete DNA faster than phytohemagglutinin-stimulated ones . All strains excrete all three mups when induced .
+
+ppatt:
+	?a excrete ?b faster than ?c
+		?a: Freshly isolated cells
+		?b: DNA
+		?c: phytohemagglutinin-stimulated ones
+	?a excrete ?b
+		?a: All strains
+		?b: all three mups
+	?a when induced
+		?a: All strains
+
+

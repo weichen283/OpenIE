@@ -1,0 +1,297 @@
+label:    sent_1
+sentence: This combination allows to mimic most input functions that are relevant in practice .
+
+ppatt:
+	?a allows to mimic ?b
+		?a: This combination
+		?b: most input functions that are relevant in practice
+	?a are relevant in ?b
+		?a: most input functions
+		?b: practice
+
+
+label:    sent_2
+sentence: The synthesis of molecules able to mimic physiologically-relevant proteins is nowadays of particular interest .
+
+ppatt:
+	mimic ?a
+		?a: physiologically-relevant proteins
+	?a is nowadays of particular interest
+		?a: The synthesis of molecules able to mimic physiologically-relevant proteins
+
+
+label:    sent_3
+sentence: Clandestine conditions : know how to identify diseases that mimic strokes .
+
+ppatt:
+	?a know how to identify ?b
+		?a: Clandestine conditions
+		?b: diseases that mimic strokes
+	?a mimic ?b
+		?a: diseases
+		?b: strokes
+
+
+label:    sent_4
+sentence: Treatment of plagiocephaly with helmet molding therapy : do actual results mimic perception ? Aspartates can mimic constitutively phosphorylated serines while alanines can mimic constitutively dephosphorylated serines .
+
+ppatt:
+	?a mimic ?b
+		?a: actual results
+		?b: perception
+	?a ?b can mimic ?c
+		?a: Treatment of plagiocephaly with helmet molding therapy
+		?b: Aspartates
+		?c: constitutively phosphorylated serines
+	?a can mimic ?b
+		?a: alanines
+		?b: constitutively dephosphorylated serines
+
+
+label:    sent_5
+sentence: Electroactive polymers have shown promising applications as transducers that can mimic biological muscle .
+
+ppatt:
+	?a have shown ?b
+		?a: Electroactive polymers
+		?b: promising applications as transducers that can mimic biological muscle
+	?a can mimic ?b
+		?a: transducers
+		?b: biological muscle
+
+
+label:    sent_6
+sentence: The pattern may mimic chiasmal compression , and neuroimaging is required .
+
+ppatt:
+	?a may mimic ?b
+		?a: The pattern
+		?b: chiasmal compression
+	?a is required
+		?a: neuroimaging
+
+
+label:    sent_7
+sentence: A number of conditions can mimic CUA clinically and should be differentiated from it . Radiological findings mimic those of tuberculous dactylitis but the involvement is bilateral and symmetric .
+
+ppatt:
+	?a can mimic ?b clinically
+		?a: A number of conditions
+		?b: CUA
+	?a should be differentiated from ?b
+		?a: A number of conditions
+		?b: it
+	?a mimic ?b
+		?a: Radiological findings
+		?b: those of tuberculous dactylitis
+	?a is bilateral
+		?a: the involvement
+	?a symmetric
+		?a: the involvement
+
+
+label:    sent_8
+sentence: For this reason , lipoid pneumonia may mimic many other diseases .
+
+ppatt:
+	For ?a , ?b may mimic ?c
+		?a: this reason
+		?b: lipoid pneumonia
+		?c: many other diseases
+
+
+label:    sent_9
+sentence: In contrast , HO-1 inducer hemin could partially mimic the effects of 6-BA .
+
+ppatt:
+	In ?a , ?b could partially mimic ?c
+		?a: contrast
+		?b: HO-1 inducer hemin
+		?c: the effects of 6-BA
+
+
+label:    sent_10
+sentence: On rare occasions , EMH may mimic a neoplasm in hematologically noncompromised patients .
+
+ppatt:
+	On ?a , ?b may mimic ?c
+		?a: rare occasions
+		?b: EMH
+		?c: a neoplasm in hematologically noncompromised patients
+
+
+label:    sent_11
+sentence: Gallblader tuberculosis is uncommon and may mimic a neoplasia .
+
+ppatt:
+	?a is uncommon
+		?a: Gallblader tuberculosis
+	?a may mimic ?b
+		?a: Gallblader tuberculosis
+		?b: a neoplasia
+
+
+label:    sent_12
+sentence: NMDA receptor encephalitis has variable neuroimaging manifestations , and can mimic other entities .
+
+ppatt:
+	?a has ?b
+		?a: NMDA receptor encephalitis
+		?b: variable neuroimaging manifestations
+	?a can mimic ?b
+		?a: NMDA receptor encephalitis
+		?b: other entities
+
+
+label:    sent_13
+sentence: Occasionally VR spaces may get massively enlarged and may mimic a cystic mass lesion .
+
+ppatt:
+	?a may get massively enlarged
+		?a: Occasionally VR spaces
+	?a may mimic ?b
+		?a: Occasionally VR spaces
+		?b: a cystic mass lesion
+
+
+label:    sent_14
+sentence: The ring was removed after 4 days to mimic endoscopical decompression by stent deployment .
+
+ppatt:
+	?a was removed after ?b to mimic ?c by ?d
+		?a: The ring
+		?b: 4 days
+		?c: endoscopical decompression
+		?d: stent deployment
+
+
+label:    sent_15
+sentence: It is not known how to mimic the phospho-Thr-Xaa-phospho-Tyr motif by mutagenesis .
+
+ppatt:
+	?a is not known how to mimic ?b by ?c
+		?a: It
+		?b: the phospho-Thr-Xaa-phospho-Tyr motif
+		?c: mutagenesis
+
+
+label:    sent_16
+sentence: In this respect zeranol did not mimic castration .
+
+ppatt:
+	In ?a ?b did not mimic ?c
+		?a: this respect
+		?b: zeranol
+		?c: castration
+
+
+label:    sent_17
+sentence: Epithelioid variant of pleomorphic liposarcoma as potential mimic of metastatic carcinoma .
+
+ppatt:
+
+
+
+label:    sent_18
+sentence: Towards a synthetic avidin mimic . 8-Vinyl-2'-deoxyguanosine as a fluorescent 2'-deoxyguanosine mimic for investigating DNA hybridization and topology .
+
+ppatt:
+	Towards ?a mimic . as ?b
+		?a: a synthetic avidin
+		?b: a fluorescent 2'-deoxyguanosine
+	?a mimic
+		?a: 8-Vinyl-2'-deoxyguanosine
+	?a investigating ?b
+		?a: 8-Vinyl-2'-deoxyguanosine
+		?b: DNA
+
+
+label:    sent_19
+sentence: It may mimic a carotid body tumor when it presents in the neck .
+
+ppatt:
+	?a may mimic ?b
+		?a: It
+		?b: a carotid body tumor
+	when ?a presents in ?b
+		?a: it
+		?b: the neck
+
+
+label:    sent_20
+sentence: Bulk modulus of a protein active-site mimic . Rational design of a Tn antigen mimic .
+
+ppatt:
+	?a mimic
+		?a: Bulk modulus of a protein active-site
+	?a mimic
+		?a: Rational design of a Tn antigen
+
+
+label:    sent_21
+sentence: None of the inhibitors mimic or prevent the effects of added GRs .
+
+ppatt:
+	?a mimic ?b
+		?a: None of the inhibitors
+		?b: the effects of added GRs
+	?a prevent
+		?a: None of the inhibitors
+
+
+label:    sent_22
+sentence: Sarcoidosis may mimic and/or may occur concomitantly with numerous primary rheumatic diseases .
+
+ppatt:
+	?a may mimic
+		?a: Sarcoidosis
+	?a may occur concomitantly with ?b
+		?a: Sarcoidosis
+		?b: numerous primary rheumatic diseases
+
+
+label:    sent_23
+sentence: Dermatophytes can mimic or possibly trigger mycosis fungoides ( MF ) . In some cases , they may mimic melanoma and cause diagnostic difficulties .
+
+ppatt:
+	?a can mimic . In ?b
+		?a: Dermatophytes
+		?b: some cases
+	?a possibly trigger ?b
+		?a: Dermatophytes
+		?b: mycosis fungoides
+	?a is/are MF
+		?a: mycosis fungoides
+	?a may mimic ?b
+		?a: they
+		?b: melanoma
+	?a cause ?b
+		?a: they
+		?b: diagnostic difficulties
+
+
+label:    sent_24
+sentence: In bladder especially it can mimic malignancy and lead to serious misdiagnosis .
+
+ppatt:
+	In ?a especially ?b can mimic ?c
+		?a: bladder
+		?b: it
+		?c: malignancy
+	?a lead to ?b
+		?a: it
+		?b: serious misdiagnosis
+
+
+label:    sent_25
+sentence: Occasionally , nonthyroidal lesions can mimic thyroid nodules on imaging and get wrongly aspirated .
+
+ppatt:
+	Occasionally , ?a can mimic ?b on ?c
+		?a: nonthyroidal lesions
+		?b: thyroid nodules
+		?c: imaging
+	?a get wrongly aspirated
+		?a: nonthyroidal lesions
+
+

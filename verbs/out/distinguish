@@ -1,0 +1,344 @@
+label:    sent_1
+sentence: A meticulous attempt was made to distinguish between the 2 types of gastric adenocarcinoma .
+
+ppatt:
+	?a was made to distinguish between ?b
+		?a: A meticulous attempt
+		?b: the 2 types of gastric adenocarcinoma
+
+
+label:    sent_2
+sentence: Recurrent infections were genotyped to distinguish between recrudescence and new infection .
+
+ppatt:
+	?a were genotyped to distinguish between ?b
+		?a: Recurrent infections
+		?b: recrudescence
+	?a were genotyped to distinguish between ?b
+		?a: Recurrent infections
+		?b: new infection
+
+
+label:    sent_3
+sentence: Undifferentiated hepatocellular carcinoma difficult to distinguish from liver abscess .
+
+ppatt:
+	?a difficult to distinguish from ?b
+		?a: Undifferentiated hepatocellular carcinoma
+		?b: liver abscess
+
+
+label:    sent_4
+sentence: A parabiosis model was used to distinguish organ-specific HSCs from circulating HSCs .
+
+ppatt:
+	?a was used to distinguish ?b
+		?a: A parabiosis model
+		?b: organ-specific HSCs from circulating HSCs
+
+
+label:    sent_5
+sentence: MALDI-MS was able to distinguish CC and UC specimens while profiling the colonic submucosa .
+
+ppatt:
+	?a was able to distinguish ?b
+		?a: MALDI-MS
+		?b: CC
+	?a was able to distinguish ?b
+		?a: MALDI-MS
+		?b: UC
+	?a profiling ?b
+		?a: MALDI-MS
+		?b: the colonic submucosa
+
+
+label:    sent_6
+sentence: Its rapid development and characteristic appearance help to distinguish it from a lymph node .
+
+ppatt:
+	?a help to distinguish ?b from ?c
+		?a: Its rapid development
+		?b: it
+		?c: a lymph node
+	?a help to distinguish ?b from ?c
+		?a: characteristic appearance
+		?b: it
+		?c: a lymph node
+
+
+label:    sent_7
+sentence: Their expression patterns may help to distinguish the site of origin of metastatic carcinomas .
+
+ppatt:
+	?a may help to distinguish ?b
+		?a: Their expression patterns
+		?b: the site of origin of metastatic carcinomas
+
+
+label:    sent_8
+sentence: The latter can be used to distinguish rival prediction models with similar prediction performances .
+
+ppatt:
+	?a can be used to distinguish ?b with ?c
+		?a: The latter
+		?b: rival prediction models
+		?c: similar prediction performances
+
+
+label:    sent_9
+sentence: Cotinine is the most widely used biomarker to distinguish active versus passive smoking .
+
+ppatt:
+	?a is the most widely used biomarker
+		?a: Cotinine
+	?a distinguish ?b
+		?a: the most widely used biomarker
+		?b: active versus passive smoking
+
+
+label:    sent_10
+sentence: This mutational heterogeneity complicates efforts to distinguish functional mutations from sporadic , passenger mutations .
+
+ppatt:
+	?a complicates ?b
+		?a: This mutational heterogeneity
+		?b: efforts to distinguish functional mutations from sporadic , mutations
+	?a distinguish ?b
+		?a: efforts
+		?b: functional mutations from sporadic , mutations
+
+
+label:    sent_11
+sentence: The method could distinguish target DNA from non-target DNA within 5 min .
+
+ppatt:
+	?a could distinguish ?b from ?c within ?d
+		?a: The method
+		?b: target DNA
+		?c: non-target DNA
+		?d: 5 min
+
+
+label:    sent_12
+sentence: Preoperative imaging tests could not distinguish it from other intracardiac tumors such as myxoma .
+
+ppatt:
+	?a could not distinguish ?b from ?c
+		?a: Preoperative imaging tests
+		?b: it
+		?c: other intracardiac tumors such as myxoma
+
+
+label:    sent_13
+sentence: We also use Trpml3 knockout tissues to distinguish TRPML3-specific from nonspecific immunoreactivities . SOX2 expression levels distinguish between neural progenitor populations of the developing dorsal telencephalon .
+
+ppatt:
+	?a also use ?b
+		?a: We
+		?b: Trpml3 knockout tissues
+	?a distinguish ?b from ?c
+		?a: We
+		?b: TRPML3-specific
+		?c: nonspecific immunoreactivities
+	?a distinguish between ?b
+		?a: SOX2 expression levels
+		?b: neural progenitor populations of the developing dorsal telencephalon
+
+
+label:    sent_14
+sentence: Analytically , we distinguish between using bodies and recovering bodies .
+
+ppatt:
+	Analytically , ?a distinguish
+		?a: we
+	?a using ?b
+		?a: we
+		?b: bodies
+	?a using ?b
+		?a: we
+		?b: recovering bodies
+
+
+label:    sent_15
+sentence: Diverse requirements for SRC-family tyrosine kinases distinguish chlamydial species .
+
+ppatt:
+	?a distinguish ?b
+		?a: Diverse requirements for SRC-family tyrosine kinases
+		?b: chlamydial species
+
+
+label:    sent_16
+sentence: This metric could distinguish drug-targets with non-drug-targets . Gene-expression signatures can distinguish gastric cancer grades and stages .
+
+ppatt:
+	?a could distinguish ?b
+		?a: This metric
+		?b: drug-targets with non-drug-targets . Gene-expression signatures
+	?a can distinguish ?b
+		?a: This metric
+		?b: gastric cancer
+
+
+label:    sent_17
+sentence: The mandible can be used to distinguish among ethnic groups and between sexes .
+
+ppatt:
+	?a can be used to distinguish among ?b
+		?a: The mandible
+		?b: ethnic groups
+	?a can be used to distinguish among ?b
+		?a: The mandible
+		?b: sexes
+
+
+label:    sent_18
+sentence: The degree of defervescence is age-dependent and does not distinguish between infectious outcomes .
+
+ppatt:
+	?a is age-dependent
+		?a: The degree of defervescence
+	?a does not distinguish between ?b
+		?a: The degree of defervescence
+		?b: infectious outcomes
+
+
+label:    sent_19
+sentence: Mass spectrometry is reliable but does not distinguish between DMADP and isopentenyl diphosphate .
+
+ppatt:
+	?a is reliable
+		?a: Mass spectrometry
+	?a does not distinguish between ?b
+		?a: Mass spectrometry
+		?b: DMADP
+	?a does not distinguish between ?b
+		?a: Mass spectrometry
+		?b: isopentenyl diphosphate
+
+
+label:    sent_20
+sentence: This assay allowed to distinguish organisms belonging to the subgenus Viannia and identify L .
+
+ppatt:
+	?a allowed to distinguish ?b
+		?a: This assay
+		?b: organisms belonging to the subgenus Viannia
+	?a belonging to ?b
+		?a: organisms
+		?b: the subgenus Viannia
+	?a allowed to identify ?b
+		?a: This assay
+		?b: L
+
+
+label:    sent_21
+sentence: The epithelial expression of CD44s and did not distinguish papillomas from papillary carcinomas .
+
+ppatt:
+	did not distinguish ?a
+		?a: papillomas from papillary carcinomas
+
+
+label:    sent_22
+sentence: Biopsy and histopathologic examination is required for diagnosis and to distinguish other perianal dermatoses .
+
+ppatt:
+	?a is required for ?b
+		?a: Biopsy
+		?b: diagnosis
+	?a is required for ?b
+		?a: histopathologic
+		?b: diagnosis
+	?a is required for ?b
+		?a: examination
+		?b: diagnosis
+	?a distinguish ?b
+		?a: Biopsy
+		?b: other perianal dermatoses
+	?a distinguish ?b
+		?a: histopathologic
+		?b: other perianal dermatoses
+	?a distinguish ?b
+		?a: examination
+		?b: other perianal dermatoses
+
+
+label:    sent_23
+sentence: Some ligands are noteworthy because they distinguish between receptor subtypes or have allosteric mechanisms .
+
+ppatt:
+	?a are noteworthy
+		?a: Some ligands
+	?a distinguish between ?b
+		?a: they
+		?b: receptor subtypes
+	?a have ?b
+		?a: they
+		?b: allosteric mechanisms
+
+
+label:    sent_24
+sentence: These spectra distinguish among isomeric unsaturated fatty acids and permit assignment of double-bond location .
+
+ppatt:
+	?a distinguish among ?b
+		?a: These spectra
+		?b: isomeric unsaturated fatty acids
+	?a permit ?b
+		?a: These spectra
+		?b: assignment of double-bond location
+
+
+label:    sent_25
+sentence: They distinguish among different patterns of pathogens and rapidly activate an innate immune response .
+
+ppatt:
+	?a distinguish among ?b
+		?a: They
+		?b: different patterns of pathogens
+	?a rapidly activate ?b
+		?a: They
+		?b: an innate immune response
+
+
+label:    sent_26
+sentence: Therefore , markers to distinguish malignant kidney tumours and for their detection are needed .
+
+ppatt:
+	?a distinguish ?b
+		?a: markers
+		?b: malignant kidney tumours
+	?a distinguish ?b
+		?a: markers
+		?b: their detection
+	Therefore , ?a are needed
+		?a: markers to distinguish malignant kidney tumours and for their detection
+
+
+label:    sent_27
+sentence: The authors define and distinguish the concept of microdosing from similar approaches .
+
+ppatt:
+	?a define ?b
+		?a: The authors
+		?b: the concept of microdosing from similar approaches
+	?a distinguish
+		?a: The authors
+	?a microdosing from ?b
+		?a: the concept
+		?b: similar approaches
+
+
+label:    sent_28
+sentence: Their amino acid compositions are unique and distinguish them from all other ribosomal proteins .
+
+ppatt:
+	?a are unique
+		?a: Their amino acid compositions
+	?a distinguish ?b from ?c
+		?a: Their amino acid compositions
+		?b: them
+		?c: all other ribosomal proteins
+
+

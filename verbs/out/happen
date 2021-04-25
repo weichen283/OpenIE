@@ -1,0 +1,265 @@
+label:    sent_1
+sentence: The haemostasis ' disorders may happen on the venous or arterial side .
+
+ppatt:
+	?a may happen on ?b
+		?a: The haemostasis ' disorders
+		?b: the venous or arterial side
+
+
+label:    sent_2
+sentence: In group 3 , The recovery could n't happen at anytime .
+
+ppatt:
+	In ?a , ?b could n't happen at ?c
+		?a: group 3
+		?b: The recovery
+		?c: anytime
+
+
+label:    sent_3
+sentence: Elder abuse can happen to any older adult .
+
+ppatt:
+	?a can happen to ?b
+		?a: Elder abuse
+		?b: any older adult
+
+
+label:    sent_4
+sentence: Transforming Health through better health information will not happen overnight . Mid staffs scandal could happen again .
+
+ppatt:
+	?a will not happen ?b
+		?a: Transforming Health through better health information
+		?b: overnight
+	?a could happen again
+		?a: Mid staffs scandal
+
+
+label:    sent_5
+sentence: This may happen even if the invading species is an inferior competitor .
+
+ppatt:
+	?a may happen
+		?a: This
+	even if ?a is an inferior competitor
+		?a: the invading species
+
+
+label:    sent_6
+sentence: The perception that some diseases happen in certain places is old .
+
+ppatt:
+	?a happen in ?b
+		?a: some diseases
+		?b: certain places
+	?a is old
+		?a: The perception that some diseases happen in certain places
+
+
+label:    sent_7
+sentence: This is of concern because most youth firearm injuries happen to adolescents .
+
+ppatt:
+	?a is of concern
+		?a: This
+	?a happen to ?b
+		?a: most youth firearm injuries
+		?b: adolescents
+
+
+label:    sent_8
+sentence: Renal damge may happen when people contact or intake excessive chromium compounds .
+
+ppatt:
+	?a may happen ?b
+		?a: Renal damge
+		?b: when people contact
+	?a may happen ?b
+		?a: Renal damge
+		?b: intake excessive chromium compounds
+
+
+label:    sent_9
+sentence: Drowning may happen by accident or as a method of committing suicide .
+
+ppatt:
+	?a may happen by ?b
+		?a: Drowning
+		?b: accident
+	?a may happen by ?b
+		?a: Drowning
+		?b: a method of committing suicide
+	?a committing ?b
+		?a: a method
+		?b: suicide
+
+
+label:    sent_10
+sentence: Is DWH an extreme event or will it happen frequently in the future ? Most falls causing hip fracture in nonagenarians happen during the day and at home . A quantitative analysis reveals how and why they happen .
+
+ppatt:
+	Is ?a
+		?a: DWH an extreme event
+	Is ?a
+		?a: will it happen frequently in the future
+	?a an extreme event
+		?a: DWH
+	will ?a happen frequently in ?b
+		?a: it
+		?b: the future
+	?a causing ?b
+		?a: Most falls
+		?b: hip fracture in nonagenarians
+	?a happen during ?b
+		?a: Most falls causing hip fracture in nonagenarians
+		?b: the day
+	?a happen during ?b
+		?a: Most falls causing hip fracture in nonagenarians
+		?b: home
+	?a reveals ?b
+		?a: A quantitative analysis
+		?b: SOMETHING := how why they happen
+	how why ?a happen
+		?a: they
+
+
+label:    sent_11
+sentence: Endoscopic sphincterotomy is a benign procedure but occasional complications happen .
+
+ppatt:
+	?a is a benign procedure
+		?a: Endoscopic sphincterotomy
+	?a happen
+		?a: occasional complications
+
+
+label:    sent_12
+sentence: Radiographic progression in rheumatoid arthritis : does it still happen and does it matter ? Microbial contamination of parenteral nutrition -- how could it happen ? Transformation can happen anywhere . Accidents do happen : two cautionary tales .
+
+ppatt:
+	?a does ?b still happen
+		?a: Radiographic progression in rheumatoid arthritis
+		?b: it
+	?a does ?b
+		?a: Radiographic progression in rheumatoid arthritis
+		?b: it matter
+	?a does ?b
+		?a: Radiographic progression in rheumatoid arthritis
+		?b: Microbial contamination of parenteral nutrition
+	how could ?a happen
+		?a: it
+	?a can happen anywhere
+		?a: Transformation
+	?a do happen ?b
+		?a: Accidents
+		?b: two cautionary tales
+
+
+label:    sent_13
+sentence: Most of malarias are now due to Plasmodium falciparum and happen in Africa . Tackling the issue of insulin initiation should not only happen during clinical consultations .
+
+ppatt:
+	?a are due
+		?a: Most of malarias
+	?a happen in ?b Tackling ?c
+		?a: Most of malarias
+		?b: Africa
+		?c: the issue of insulin initiation
+	?a should not only happen during ?b
+		?a: Most of malarias
+		?b: clinical consultations
+
+
+label:    sent_14
+sentence: The observed demethylation is specific and can happen without DNA replication . I told you it was going to happen .. . The physician " surplus " : how did it happen ? Home-ownership in Europe : How did it happen ? This may happen once or several times during an interview .
+
+ppatt:
+	?a is specific
+		?a: The observed demethylation
+	?a can happen without ?b
+		?a: The observed demethylation
+		?b: DNA replication
+	?a told
+		?a: The observed demethylation
+	?a ?b was going to happen ?c ?d
+		?a: you
+		?b: it
+		?c: ..
+		?d: The physician " surplus "
+	how did ?a happen ? ?b in ?c
+		?a: it
+		?b: Home-ownership
+		?c: Europe
+	How did ?a happen
+		?a: it
+	?a may happen ?b ?c during ?d
+		?a: This
+		?b: once
+		?c: times
+		?d: an interview
+	?a may happen ?b ?c during ?d
+		?a: This
+		?b: several
+		?c: times
+		?d: an interview
+
+
+label:    sent_15
+sentence: Anybody remember the '90s ? Skeptics beware : Reform could happen this time around .
+
+ppatt:
+	?a remember ?b
+		?a: Anybody
+		?b: the '90s
+	?a beware
+		?a: Skeptics
+	?a could happen ?b around
+		?a: Reform
+		?b: this time
+
+
+label:    sent_16
+sentence: It did happen here : fear and loathing on the vaccine trail .
+
+ppatt:
+	?a did happen here
+		?a: It
+
+
+label:    sent_17
+sentence: Skin ageing is an irreversible process during which ultrastructural and physiologic alterations happen .
+
+ppatt:
+	?a is an irreversible process
+		?a: Skin ageing
+	?a during ?b ?c happen
+		?a: an irreversible process
+		?b: ultrastructural
+		?c: alterations
+	?a during ?b ?c happen
+		?a: an irreversible process
+		?b: physiologic
+		?c: alterations
+
+
+label:    sent_18
+sentence: Toward asthma prevention -- does all that really matters happen before we learn to read ? Two possible ways in which this can happen are described .
+
+ppatt:
+	Toward ?a -- does all ?b
+		?a: asthma prevention
+		?b: SOMETHING := really matters happen before we learn to read ? Two possible ways in which this can happen are described
+	?a happen
+		?a: really matters
+	?a learn to read ?b
+		?a: we
+		?b: Two possible ways in which this can happen are described
+	?a in ?b can happen
+		?a: Two possible ways are described
+		?b: this
+	?a are described
+		?a: Two possible ways in which this can happen
+
+

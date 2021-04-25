@@ -1,0 +1,245 @@
+label:    sent_1
+sentence: It is necessary to introduce follow-up and enforce adherence to developed treatment guideline .
+
+ppatt:
+	?a is necessary to introduce ?b
+		?a: It
+		?b: follow-up
+	?a is necessary to enforce ?b
+		?a: It
+		?b: adherence to developed treatment guideline
+
+
+label:    sent_2
+sentence: Federal agencies that govern and enforce GINA 's provisions are identified .
+
+ppatt:
+	?a govern 's ?b
+		?a: Federal agencies
+		?b: GINA provisions
+	?a enforce
+		?a: that
+	?a are identified
+		?a: Federal agencies that govern and enforce GINA 's provisions
+
+
+label:    sent_3
+sentence: It is therefore crucial to enforce early identification of HL .
+
+ppatt:
+	?a is therefore crucial to enforce ?b
+		?a: It
+		?b: early identification of HL
+
+
+label:    sent_4
+sentence: Use of allylic strain to enforce stereochemistry . BHP to enforce staffing level requirements ; half of HSAs may fold .
+
+ppatt:
+	?a enforce ?b ?c to enforce ?d
+		?a: Use of allylic strain
+		?b: stereochemistry
+		?c: BHP
+		?d: staffing level requirements
+	?a ?b may fold
+		?a: Use of allylic strain to enforce stereochemistry . BHP to enforce staffing level requirements
+		?b: half of HSAs
+
+
+label:    sent_5
+sentence: Our work shows that DNA-PKcs and ATM enforce a biphasic H2AX phosphorylation .
+
+ppatt:
+	?a shows ?b
+		?a: Our work
+		?b: SOMETHING := DNA-PKcs and ATM enforce a biphasic H2AX phosphorylation
+	?a enforce ?b
+		?a: DNA-PKcs
+		?b: a biphasic H2AX phosphorylation
+	?a enforce ?b
+		?a: ATM
+		?b: a biphasic H2AX phosphorylation
+
+
+label:    sent_6
+sentence: Attentional and cognitive strategies were found to enforce body awareness and improve movement sequences .
+
+ppatt:
+	?a ?b were found to enforce ?c
+		?a: Attentional
+		?b: strategies
+		?c: body awareness
+	?a ?b were found to enforce ?c
+		?a: cognitive
+		?b: strategies
+		?c: body awareness
+	?a were found to improve ?b
+		?a: Attentional
+		?b: movement sequences
+	?a were found to improve ?b
+		?a: cognitive
+		?b: movement sequences
+
+
+label:    sent_7
+sentence: Should HECs audit compliance with institutional policies and enforce sanctions for violations ? Should HECs audit compliance with institutional policies and enforce sanctions for violations ?
+
+ppatt:
+	Should ?a audit ?b
+		?a: HECs
+		?b: compliance with institutional policies
+	?a enforce ?b
+		?a: HECs
+		?b: sanctions for violations
+	Should ?a audit ?b
+		?a: HECs
+		?b: compliance with institutional policies
+	?a enforce ?b
+		?a: HECs
+		?b: sanctions for violations
+
+
+label:    sent_8
+sentence: In this connection it is admitted unadvisable to enforce it into agricultural practice .
+
+ppatt:
+	In ?a ?b is admitted unadvisable to enforce ?c into ?d
+		?a: this connection
+		?b: it
+		?c: it
+		?d: agricultural practice
+
+
+label:    sent_9
+sentence: A collateral meniscus- or ligament-tear will enforce this hazard in addition .
+
+ppatt:
+	?a will enforce ?b in ?c
+		?a: A collateral meniscus-
+		?b: this hazard
+		?c: addition
+	?a will enforce ?b in ?c
+		?a: ligament-tear
+		?b: this hazard
+		?c: addition
+
+
+label:    sent_10
+sentence: The ANCR lncRNA is thus required to enforce the undifferentiated cell state within epidermis .
+
+ppatt:
+	?a is thus required to enforce ?b
+		?a: The ANCR lncRNA
+		?b: the undifferentiated cell state within epidermis
+
+
+label:    sent_11
+sentence: The conventional sparsity-based methods enforce sparse coding on small image patches with certain constraints .
+
+ppatt:
+	?a enforce ?b
+		?a: The conventional sparsity-based methods
+		?b: sparse coding on small image patches with certain constraints
+
+
+label:    sent_12
+sentence: Intraspecific sperm competition genes enforce post-mating species barriers in Drosophila .
+
+ppatt:
+	?a enforce ?b
+		?a: Intraspecific sperm competition genes
+		?b: post-mating species barriers in Drosophila
+
+
+label:    sent_13
+sentence: Most popular regularization approaches enforce smoothness in the inverse solution . EPA sets tolerances , and FDA and USDA enforce those tolerances .
+
+ppatt:
+	?a enforce ?b ?c
+		?a: Most popular regularization approaches
+		?b: smoothness in the inverse solution
+		?c: EPA sets tolerances
+	?a enforce ?b
+		?a: FDA
+		?b: those tolerances
+	?a enforce ?b
+		?a: USDA
+		?b: those tolerances
+
+
+label:    sent_14
+sentence: Septins enforce morphogenetic events during sexual reproduction and contribute to virulence of Cryptococcus neoformans .
+
+ppatt:
+	?a enforce ?b during ?c
+		?a: Septins
+		?b: morphogenetic events
+		?c: sexual reproduction
+	?a contribute to ?b
+		?a: Septins
+		?b: virulence of Cryptococcus neoformans
+
+
+label:    sent_15
+sentence: Regulators actively enforce these laws , and most subjects reported no systematic violations .
+
+ppatt:
+	?a actively enforce ?b
+		?a: Regulators
+		?b: these laws
+	?a reported ?b
+		?a: most subjects
+		?b: no systematic violations
+
+
+label:    sent_16
+sentence: Ligands that enforce unnatural stereospinomers .
+
+ppatt:
+	?a enforce ?b
+		?a: Ligands
+		?b: unnatural stereospinomers
+
+
+label:    sent_17
+sentence: Do-not-resuscitate orders in the OR--suspend or enforce ? Chemical stressors enforce the organism to develop adaptive reactions .
+
+ppatt:
+	?a enforce ?b to develop ?c
+		?a: Do-not-resuscitate orders in the OR--suspend or enforce
+		?b: the organism
+		?c: adaptive reactions
+
+
+label:    sent_18
+sentence: Law is the set of rules a society chooses to enact and enforce .
+
+ppatt:
+	?a is the set of ?b
+		?a: Law
+		?b: rules
+	?a ?b chooses to enact
+		?a: the set of rules
+		?b: a society
+	?a chooses to enforce
+		?a: a society
+
+
+label:    sent_19
+sentence: Such policies have been difficult to enforce and have met with only limited success .
+
+ppatt:
+	?a have been difficult to enforce
+		?a: Such policies
+	?a have been difficult to have met with ?b
+		?a: Such policies
+		?b: only limited success
+
+
+label:    sent_20
+sentence: To enforce or not to enforce ?
+
+ppatt:
+
+
+

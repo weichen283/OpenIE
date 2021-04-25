@@ -1,0 +1,270 @@
+label:    sent_1
+sentence: Sex-differences in PF did not reach significance .
+
+ppatt:
+	?a did not reach ?b
+		?a: Sex-differences in PF
+		?b: significance
+
+
+label:    sent_2
+sentence: Then the proteins were purified to reach the level of homogeneity .
+
+ppatt:
+	Then ?a were purified to reach ?b
+		?a: the proteins
+		?b: the level of homogeneity
+
+
+label:    sent_3
+sentence: The peptide takes 2.5 h to reach the neuronal cell bodies .
+
+ppatt:
+	?a takes ?b to reach ?c
+		?a: The peptide
+		?b: 2.5 h
+		?c: the neuronal cell bodies
+
+
+label:    sent_4
+sentence: Six subjects could not reach maximal exercise capacity . Differences nearly reach significance for anxiety ( p=0.051 ) and PTSD ( p=0.059 ) .
+
+ppatt:
+	?a could not reach ?b
+		?a: Six subjects
+		?b: maximal exercise capacity
+	?a nearly reach ?b
+		?a: Differences
+		?b: significance for anxiety and PTSD
+	?a is/are p=0.051
+		?a: anxiety
+	?a is/are p=0.051
+		?a: PTSD
+	?a is/are p=0.059
+		?a: PTSD
+
+
+label:    sent_5
+sentence: The potential benefit of this isolation may reach the entire cohort .
+
+ppatt:
+	?a may reach ?b
+		?a: The potential benefit of this isolation
+		?b: the entire cohort
+
+
+label:    sent_6
+sentence: A preoperative histology examination failed to reach a definitive diagnosis in all patients .
+
+ppatt:
+	?a failed to reach ?b
+		?a: A preoperative histology examination
+		?b: a definitive diagnosis in all patients
+
+
+label:    sent_7
+sentence: This technique could be extended to reach subpicoradian/sqrtHz sensitivities with an optimized design .
+
+ppatt:
+	?a could be extended to reach ?b with ?c
+		?a: This technique
+		?b: subpicoradian/sqrtHz sensitivities
+		?c: an optimized design
+
+
+label:    sent_8
+sentence: Clinicians should therefore attempt to reach target doses in heart failure whenever possible .
+
+ppatt:
+	?a should therefore attempt to reach ?b whenever possible
+		?a: Clinicians
+		?b: target doses in heart failure
+
+
+label:    sent_9
+sentence: In all cases , the scopes could reach the papilla . Mesh kit repair did not reach cost equivalence even at 0 min OR time .
+
+ppatt:
+	In ?a , ?b could reach ?c
+		?a: all cases
+		?b: the scopes
+		?c: the papilla
+	?a did not reach ?b at ?c
+		?a: Mesh kit repair
+		?b: cost equivalence
+		?c: even 0 min OR time
+
+
+label:    sent_10
+sentence: Parametric multipoint LOD scores reach significance on chromosome 10p15.3-10p15.2 ( max. 3.29 ) . PbtO2 was lower , but this did not reach statistical significance .
+
+ppatt:
+	?a reach ?b
+		?a: Parametric multipoint LOD scores
+		?b: significance on chromosome 10p15.3-10p15.2
+	?a is/are max. 3.29
+		?a: chromosome 10p15.3-10p15.2
+	?a was lower
+		?a: PbtO2
+	?a did not reach ?b
+		?a: this
+		?b: statistical significance
+
+
+label:    sent_11
+sentence: Times to reach isolated disc or field end points were similar .
+
+ppatt:
+	?a reach ?b
+		?a: Times
+		?b: isolated disc
+	?a reach ?b
+		?a: Times
+		?b: field
+	?a reach ?b
+		?a: Times
+		?b: end points
+	?a were similar
+		?a: Times to reach isolated disc or field end points
+
+
+label:    sent_12
+sentence: However , they may reach huge proportions and present as an upper abdominal mass .
+
+ppatt:
+	However , ?a may reach ?b
+		?a: they
+		?b: huge proportions
+
+
+label:    sent_13
+sentence: Current behavioral treatments are efficacious but reach only part of the affected women .
+
+ppatt:
+	?a are efficacious
+		?a: Current behavioral treatments
+	?a reach ?b
+		?a: Current behavioral treatments
+		?b: only part of the affected women
+
+
+label:    sent_14
+sentence: Similar trends were found for other internalizing symptoms , but did not reach significance .
+
+ppatt:
+	?a were found for ?b
+		?a: Similar trends
+		?b: other internalizing symptoms
+	?a did not reach ?b
+		?a: Similar trends
+		?b: significance
+
+
+label:    sent_15
+sentence: Differences between BA 10 and BA 4 were present but did not reach significance .
+
+ppatt:
+	?a were present
+		?a: Differences between BA 10 and BA 4
+	?a did not reach ?b
+		?a: Differences between BA 10 and BA 4
+		?b: significance
+
+
+label:    sent_16
+sentence: Before you reach for the bleach .. . Cancer costs to reach at least $ 173B in 2020 .
+
+ppatt:
+	?a reach for ?b to reach ?c
+		?a: you
+		?b: the bleach .. . Cancer costs
+		?c: at least $ 173B in 2020
+
+
+label:    sent_17
+sentence: Food allergy therapy : is a cure within reach ? Normal values of functional reach and lateral reach tests in children with knee hypermobility . Still others , like interleukin-6 , may reach the brain but are rapidly degraded .
+
+ppatt:
+	?a is a cure ?b
+		?a: Food allergy therapy
+		?b: Normal values of functional reach
+	?a within reach
+		?a: a cure Normal values of functional reach
+	within reach ?a
+		?a: lateral reach tests in children with knee hypermobility
+	?a reach ?b
+		?a: lateral
+		?b: tests in children with knee hypermobility
+	Still ?a , like ?b , may reach ?c
+		?a: others
+		?b: interleukin-6
+		?c: the brain
+	?a are rapidly degraded
+		?a: others
+
+
+label:    sent_18
+sentence: These interventions must reach infant caregivers at highest risk and change unsafe sleep practices .
+
+ppatt:
+	?a must reach ?b at ?c
+		?a: These interventions
+		?b: infant caregivers
+		?c: highest risk
+	?a change ?b
+		?a: These interventions
+		?b: unsafe sleep practices
+
+
+label:    sent_19
+sentence: Expanding the lab 's reach with digital pathology .
+
+ppatt:
+	?a ?b 's reach with ?c
+		?a: SOMETHING := Expanding
+		?b: the lab
+		?c: digital pathology
+
+
+label:    sent_20
+sentence: And where does a nurse reach for this critical health care tool ? Easy way to reach out to the pacific islands .
+
+ppatt:
+	reach for ?a ?b
+		?a: this critical health care tool
+		?b: Easy way to reach out to the pacific islands
+	?a reach out to ?b
+		?a: Easy way
+		?b: the pacific islands
+
+
+label:    sent_21
+sentence: An additional ACT must be performed and reach target times before CPB initiation .
+
+ppatt:
+	?a must be performed
+		?a: An additional ACT
+	?a reach ?b before ?c
+		?a: An additional ACT
+		?b: target times
+		?c: CPB initiation
+
+
+label:    sent_22
+sentence: Winds are predominantly eastward and reach 500 meters per second at the equator . 5-HIAA levels increased but did not reach significant levels except in the striatum .
+
+ppatt:
+	?a are predominantly eastward
+		?a: Winds
+	?a reach ?b per second at ?c
+		?a: Winds
+		?b: 500 meters
+		?c: the equator
+	?a increased
+		?a: 5-HIAA levels
+	?a did not reach ?b except in ?c
+		?a: 5-HIAA levels
+		?b: significant levels
+		?c: the striatum
+
+

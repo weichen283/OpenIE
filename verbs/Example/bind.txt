@@ -1,0 +1,40 @@
+subj#prep	The ChIP assay revealed that p53 did not bind to the VEGF promoter .	subj@p53 prep_to@promoter
+subj#prep	The purified SERPINE2 protein could bind to epididymal sperm .	subj@protein prep_to@sperm
+subj#prep	Hence , antiviral agents that bind to CXCR4 are expected to inhibit HIV-1 entry .	subj@agents prep_to@CXCR4
+
+prep	However , PT-262 did not directly bind to actin filaments .	prep_to@filaments
+prep	The chemokine CCL5 and CCL19 are reported to bind to CCRL2 .	prep_to@CCRL2
+prep	The VHHs were shown to exclusively bind to PKCepsilon in ELISA and immunoprecipitation studies .	prep_in@ELISA prep_to@PKCepsilon
+
+obj	Ion exchange resins have been reported to bind copper and zinc .	obj@copper
+obj	Similar to other Hfq proteins , Hfq2 is able to bind RNA .	obj@RNA
+obj	It also was shown to bind proteins and compounds containing iron and nitric oxide .	obj@proteins
+
+subj#obj	Numerous peptides that bind cancer-associated antigens have been discovered by panning phage libraries .	subj@peptides obj@antigens
+subj#obj	P. includens plasmatocytes are also recognized by several monoclonal antibodies that bind unknown antigens .	subj@antibodies obj@antigens
+subj#obj	Identification of plasma haptoglobin forms which loosely bind hemoglobin .	subj@forms obj@hemoglobin
+
+subj#prep#conj	MiR-101 can directly bind to ATP5B 3 ' UTR and negatively regulate ATP5B expression .	subj@MiR-101 prep_to@UTR conj_and@regulate
+subj#prep#conj	The legs can also reversibly bind to products , but at a different rate .	subj@legs prep_at@rate prep_to@products conj_but@at
+subj#prep#conj	The rhombuses bind to each other and form two dimensional tiles .	subj@rhombuses prep_to@other conj_and@form
+
+prep#conj	Antibodies were able to bind to the surface of the parasites and agglutinate them .	prep_to@surface conj_and@agglutinate
+prep#conj	This DNA is antigenically active and can bind to lupus anti-DNA autoantibodies .	prep_to@autoantibodies conj_and@active
+prep#conj	SRY was found to bind to the Tcf21 promoter and activate gene expression .	prep_to@promoter conj_and@activate
+
+subj#obj#conj	Both Lef1 isoforms bind DNA and regulate gene expression .	subj@isoforms obj@DNA conj_and@regulate
+subj#obj#conj	SOD2 can also bind iron in vivo , but is inactive with iron .	subj@SOD2 obj@iron conj_but@inactive
+subj#obj#conj	Puf proteins bind RNA sequence specifically and regulate translation and stability of target mRNAs .	subj@proteins obj@sequence conj_and@regulate
+
+subj#obj#prep	Here , we investigated when T cells bind hyaluronan during an immune response .	subj@cells obj@hyaluronan prep_during@response
+subj#obj#prep	Many siderophores can also bind copper in the presence of CAS .	subj@siderophores obj@copper prep_in@presence
+subj#obj#prep	Ezrin is a membrane-cytoskeleton linker protein that can bind F-actin in its active conformation .	subj@protein obj@F-actin prep_in@conformation
+
+obj#conj	Cells of both morphologies were able to incorporate DiI-ac-LDL and bind lectin in vitro .	obj@lectin conj_and@incorporate
+obj#conj	Dectin-1 was required for immune blocking but did not bind chitin directly .	obj@chitin conj_but@required
+obj#conj	Class I and class II PurEs are mechanistically related but bind different substrates .	obj@substrates conj_but@related
+
+obj#prep	Reprogramming virus nanoparticles to bind metal ions upon activation with heat .	obj@ions prep_upon@activation
+obj#prep	Calmodulin was found to bind eNOS after nicotine injection into NTS .	obj@eNOS prep_after@injection
+obj#prep	In contrast , CTproSP-C does not bind alpha-helical SP-C .	obj@SP-C prep_in@contrast
+

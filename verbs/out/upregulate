@@ -1,0 +1,327 @@
+label:    sent_1
+sentence: Beraprost required BCR and CD40 signals to upregulate CD86 expression levels . beta-Catenin has most recently been shown to upregulate the Na+/K+ ATPase .
+
+ppatt:
+	?a required ?b
+		?a: Beraprost
+		?b: BCR
+	?a required ?b
+		?a: Beraprost
+		?b: CD40
+	?a upregulate ?b
+		?a: Beraprost
+		?b: CD86 expression levels
+	?a has most recently been shown to upregulate ?b
+		?a: beta-Catenin
+		?b: the Na+/K+ ATPase
+
+
+label:    sent_2
+sentence: Cyclophosphamide and acrolein appear to upregulate procoagulant pathways , while impairing endogenous anticoagulant pathways .
+
+ppatt:
+	?a appear to upregulate ?b
+		?a: Cyclophosphamide
+		?b: procoagulant pathways
+	?a appear to upregulate ?b
+		?a: acrolein
+		?b: procoagulant pathways
+	?a impairing ?b
+		?a: Cyclophosphamide
+		?b: endogenous anticoagulant pathways
+	?a impairing ?b
+		?a: acrolein
+		?b: endogenous anticoagulant pathways
+
+
+label:    sent_3
+sentence: Nephronectin induces alpha8 integrin-positive mesenchymal cells to upregulate smooth muscle markers . Th17 cells upregulate neutrophil chemokines , antimicrobial peptides , and other pro-inflammatory cytokines .
+
+ppatt:
+	?a induces ?b
+		?a: Nephronectin
+		?b: alpha8 integrin-positive mesenchymal cells
+	?a upregulate ?b
+		?a: Nephronectin
+		?b: smooth muscle markers
+	?a upregulate ?b
+		?a: Th17 cells
+		?b: neutrophil chemokines
+	?a upregulate ?b
+		?a: Th17 cells
+		?b: antimicrobial peptides
+	?a upregulate ?b
+		?a: Th17 cells
+		?b: other pro-inflammatory cytokines
+
+
+label:    sent_4
+sentence: Immunosuppressive treatment can also significantly upregulate Qa-2 .
+
+ppatt:
+	?a can also significantly upregulate ?b
+		?a: Immunosuppressive treatment
+		?b: Qa-2
+
+
+label:    sent_5
+sentence: In contrast , T cell populations only upregulate LDLR on activation .
+
+ppatt:
+	In ?a , ?b only upregulate ?c on ?d
+		?a: contrast
+		?b: T cell populations
+		?c: LDLR
+		?d: activation
+
+
+label:    sent_6
+sentence: In contrast , EBNA3C can upregulate alpha V integrin expression .
+
+ppatt:
+	In ?a , ?b can upregulate ?c
+		?a: contrast
+		?b: EBNA3C
+		?c: alpha V integrin expression
+
+
+label:    sent_7
+sentence: We reported that cancer cells upregulate autophagy as a survival mechanism to acidic stress .
+
+ppatt:
+	?a reported ?b
+		?a: We
+		?b: SOMETHING := cancer cells upregulate autophagy as a survival mechanism to acidic stress
+	?a upregulate ?b as ?c
+		?a: cancer cells
+		?b: autophagy
+		?c: a survival mechanism to acidic stress
+
+
+label:    sent_8
+sentence: Astrocytes upregulate survival genes in tumor cells and induce protection from chemotherapy .
+
+ppatt:
+	?a upregulate ?b in ?c
+		?a: Astrocytes
+		?b: survival genes
+		?c: tumor cells
+	?a induce ?b
+		?a: Astrocytes
+		?b: protection from chemotherapy
+
+
+label:    sent_9
+sentence: Histone deacetylase inhibitors upregulate Rap1GAP and inhibit Rap activity in thyroid tumor cells .
+
+ppatt:
+	?a upregulate ?b
+		?a: Histone deacetylase inhibitors
+		?b: Rap1GAP
+	?a inhibit ?b
+		?a: Histone deacetylase inhibitors
+		?b: Rap activity in thyroid tumor cells
+
+
+label:    sent_10
+sentence: HIV-1 Nef can upregulate DC-SIGN expression and promote DC-T-cell clustering and HIV-1 spread .
+
+ppatt:
+	?a can upregulate ?b
+		?a: HIV-1 Nef
+		?b: DC-SIGN expression
+	?a promote ?b
+		?a: HIV-1 Nef
+		?b: DC-T-cell clustering
+	?a promote ?b
+		?a: HIV-1 Nef
+		?b: HIV-1 spread
+
+
+label:    sent_11
+sentence: Oxfenicine did not further upregulate PPARalpha target genes within each dietary treatment group .
+
+ppatt:
+	?a did not further upregulate ?b within ?c
+		?a: Oxfenicine
+		?b: PPARalpha target genes
+		?c: each dietary treatment group
+
+
+label:    sent_12
+sentence: The ability to precisely upregulate genes in inflamed brain holds great therapeutic promise .
+
+ppatt:
+	?a precisely upregulate ?b
+		?a: The ability
+		?b: genes in inflamed brain
+	?a holds ?b
+		?a: The ability to precisely upregulate genes in inflamed brain
+		?b: great therapeutic promise
+
+
+label:    sent_13
+sentence: BAY11-7082 pretreated EC failed to upregulate CD62E after interaction with D1.1 cells .
+
+ppatt:
+	?a failed to upregulate ?b after ?c
+		?a: BAY11-7082 pretreated EC
+		?b: CD62E
+		?c: interaction with D1.1 cells
+
+
+label:    sent_14
+sentence: T-2 toxin is able to down- or upregulate cytochrome P-450 enzymes in different species .
+
+ppatt:
+	?a is able to down-
+		?a: T-2 toxin
+	?a upregulate ?b
+		?a: T-2 toxin
+		?b: cytochrome P-450 enzymes in different species
+
+
+label:    sent_15
+sentence: Axon regeneration requires that injured neurons reinitiate long-distance growth and upregulate specific genes .
+
+ppatt:
+	?a requires ?b
+		?a: Axon regeneration
+		?b: SOMETHING := that injured neurons reinitiate long-distance growth
+	?a reinitiate ?b
+		?a: injured neurons
+		?b: long-distance growth
+	?a upregulate ?b
+		?a: injured neurons
+		?b: specific genes
+
+
+label:    sent_16
+sentence: IL-17A synergizes with IFN-gamma to upregulate iNOS and NO production and inhibit chlamydial growth .
+
+ppatt:
+	?a synergizes with ?b to upregulate ?c
+		?a: IL-17A
+		?b: IFN-gamma
+		?c: iNOS
+	?a synergizes with ?b to upregulate ?c
+		?a: IL-17A
+		?b: IFN-gamma
+		?c: NO
+	?a synergizes to inhibit ?b
+		?a: IL-17A
+		?b: chlamydial growth
+
+
+label:    sent_17
+sentence: In glioma cells , both NSAIDS upregulate GRP78 and activate ER-associated caspase-4 and caspase-3 .
+
+ppatt:
+	In ?a , ?b upregulate ?c
+		?a: glioma cells
+		?b: both NSAIDS
+		?c: GRP78
+	?a activate ?b
+		?a: both NSAIDS
+		?b: ER-associated caspase-4
+	?a activate ?b
+		?a: both NSAIDS
+		?b: caspase-3
+
+
+label:    sent_18
+sentence: Myeloma cells upregulate interleukin-6 secretion in osteoblastic cells through cell-to-cell contact but downregulate osteocalcin .
+
+ppatt:
+	?a upregulate ?b through ?c
+		?a: Myeloma cells
+		?b: interleukin-6 secretion in osteoblastic cells
+		?c: cell-to-cell contact
+	?a downregulate ?b
+		?a: Myeloma cells
+		?b: osteocalcin
+
+
+label:    sent_19
+sentence: Depending on the supplemented CSF , TNF could upregulate or suppress AML blast proliferation .
+
+ppatt:
+	Depending on the supplemented CSF ?a
+		?a: TNF
+	?a could upregulate ?b
+		?a: TNF
+		?b: AML blast proliferation
+	?a suppress
+		?a: TNF
+
+
+label:    sent_20
+sentence: Upon activation , qNSCs upregulate Nestin and EGFR and become highly proliferative .
+
+ppatt:
+	Upon ?a , ?b upregulate ?c
+		?a: activation
+		?b: qNSCs
+		?c: Nestin
+	Upon ?a , ?b upregulate ?c
+		?a: activation
+		?b: qNSCs
+		?c: EGFR
+	?a become highly proliferative
+		?a: qNSCs
+
+
+label:    sent_21
+sentence: It appears that Ras can upregulate or downregulate autophagy through several signaling pathways .
+
+ppatt:
+	?a appears ?b
+		?a: It
+		?b: SOMETHING := Ras can upregulate autophagy through several signaling pathways
+	?a can upregulate ?b through ?c
+		?a: Ras
+		?b: autophagy
+		?c: several signaling pathways
+	?a downregulate
+		?a: Ras
+
+
+label:    sent_22
+sentence: Furthermore , HDAC4 and MEF2C individually upregulate but together downmodulate c-jun promoter activity .
+
+ppatt:
+	Furthermore , ?a individually upregulate
+		?a: HDAC4
+	Furthermore , ?a individually upregulate
+		?a: MEF2C
+	?a together downmodulate ?b
+		?a: HDAC4
+		?b: c-jun promoter activity
+	?a together downmodulate ?b
+		?a: MEF2C
+		?b: c-jun promoter activity
+
+
+label:    sent_23
+sentence: Rational antigen modification as a strategy to upregulate or downregulate antigen recognition .
+
+ppatt:
+	?a upregulate ?b
+		?a: a strategy
+		?b: antigen recognition
+	downregulate ?a
+		?a: antigen recognition
+
+
+label:    sent_24
+sentence: Transcription factors cooperate with the basal machinery to upregulate or downregulate transcription .
+
+ppatt:
+	?a cooperate with ?b to upregulate ?c
+		?a: Transcription factors
+		?b: the basal machinery
+		?c: transcription
+	?a cooperate to downregulate
+		?a: Transcription factors
+
+

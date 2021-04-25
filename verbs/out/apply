@@ -1,0 +1,313 @@
+label:    sent_1
+sentence: This article describes how to adapt and apply environmental scanning for remedial residents .
+
+ppatt:
+	?a describes how to adapt ?b
+		?a: This article
+		?b: environmental scanning for remedial residents
+	?a describes to apply
+		?a: This article
+
+
+label:    sent_2
+sentence: The decision to apply spinal motion restriction should be based upon assessment findings . Cancer age : can we reliably estimate and apply this knowledge ? The challenge will now be to apply the method to large-scale datasets .
+
+ppatt:
+	?a apply ?b
+		?a: The decision
+		?b: spinal motion restriction
+	?a should be based upon ?b
+		?a: The decision to apply spinal motion restriction
+		?b: assessment findings . Cancer age
+	can ?a reliably estimate ?b
+		?a: we
+		?b: this knowledge
+	?a apply
+		?a: we
+	?a will now be to apply ?b
+		?a: The challenge
+		?b: the method to large-scale datasets
+
+
+label:    sent_3
+sentence: A modified Sackett scale was used to apply levels of evidence for each intervention .
+
+ppatt:
+	?a was used to apply ?b
+		?a: A modified Sackett scale
+		?b: levels of evidence for each intervention
+
+
+label:    sent_4
+sentence: Our studies suggest ADCC responses apply significant immune pressure on the virus . This conclusion , however , does not apply to asymmetric particles .
+
+ppatt:
+	?a suggest ?b
+		?a: Our studies
+		?b: SOMETHING := ADCC responses apply significant immune pressure on the virus
+	?a apply ?b on ?c
+		?a: ADCC responses
+		?b: significant immune pressure
+		?c: the virus
+	?a however , does not apply to ?b
+		?a: This conclusion
+		?b: asymmetric particles
+
+
+label:    sent_5
+sentence: These criteria do not apply equally well to all situations .
+
+ppatt:
+	?a do not apply equally well to ?b
+		?a: These criteria
+		?b: all situations
+
+
+label:    sent_6
+sentence: Whether these findings also apply to other monitoring technologies requires formal validation .
+
+ppatt:
+	?a also apply to ?b
+		?a: these findings
+		?b: other monitoring technologies
+	?a requires ?b
+		?a: SOMETHING := these findings also apply to other monitoring technologies
+		?b: formal validation
+
+
+label:    sent_7
+sentence: For their emotional stability , carers apply spiritual interventions and sharing of experiences .
+
+ppatt:
+	For ?a , ?b apply ?c
+		?a: their emotional stability
+		?b: carers
+		?c: spiritual interventions
+	For ?a , ?b apply ?c
+		?a: their emotional stability
+		?b: carers
+		?c: sharing of experiences
+
+
+label:    sent_8
+sentence: How to . . . apply the Bookmark standard-setting method to a machine-marked test .
+
+ppatt:
+	How to . apply ?a to ?b
+		?a: the Bookmark standard-setting method
+		?b: a machine-marked test
+
+
+label:    sent_9
+sentence: Depending on intended indication , specific pharmacokinetic considerations may also apply .
+
+ppatt:
+	Depending on intended indication ?a
+		?a: specific pharmacokinetic considerations
+	?a may also apply
+		?a: specific pharmacokinetic considerations
+
+
+label:    sent_10
+sentence: Electronic tools that rapidly apply the AUC are needed in clinical practice .
+
+ppatt:
+	?a rapidly apply ?b
+		?a: Electronic tools
+		?b: the AUC
+	?a are needed in ?b
+		?a: Electronic tools that rapidly apply the AUC
+		?b: clinical practice
+
+
+label:    sent_11
+sentence: We apply two methods for decomposing differences in e ( + ) . We apply it in a way that allows them to backreact .
+
+ppatt:
+	?a apply ?b
+		?a: We
+		?b: two methods for decomposing differences in e
+	?a apply ?b in ?c
+		?a: We
+		?b: it
+		?c: a way that allows them to backreact
+	?a allows ?b to ?c
+		?a: a way
+		?b: them
+		?c: backreact
+
+
+label:    sent_12
+sentence: The Rule of Five does appear to apply well to ophthalmic delivery .
+
+ppatt:
+	?a does appear to apply well to ?b
+		?a: The Rule of Five
+		?b: ophthalmic delivery
+
+
+label:    sent_13
+sentence: Our method is simple , robust and easy to apply in clinical practice .
+
+ppatt:
+	?a is simple , to apply in ?b
+		?a: Our method
+		?b: clinical practice
+	?a robust
+		?a: Our method
+	?a easy
+		?a: Our method
+
+
+label:    sent_14
+sentence: It should probably available to apply for screening and monitoring of CKD .
+
+ppatt:
+	?a should probably available to apply for ?b
+		?a: It
+		?b: screening of CKD
+	?a should probably available to apply for ?b
+		?a: It
+		?b: monitoring
+
+
+label:    sent_15
+sentence: Sunscreen users , however , typically apply sunscreen nonuniformly and in smaller amounts .
+
+ppatt:
+	?a however , typically apply ?b nonuniformly and in smaller amounts
+		?a: Sunscreen users
+		?b: sunscreen
+
+
+label:    sent_16
+sentence: This latter result implies that Haldane 's rule may apply .
+
+ppatt:
+	?a implies ?b
+		?a: This latter result
+		?b: SOMETHING := Haldane 's rule may apply
+	?a may apply
+		?a: Haldane 's rule
+
+
+label:    sent_17
+sentence: We then apply modeling approaches to explore further their dynamic properties .
+
+ppatt:
+	?a then apply ?b
+		?a: We
+		?b: modeling approaches to explore further their dynamic properties
+	?a explore further ?b
+		?a: modeling approaches
+		?b: their dynamic properties
+
+
+label:    sent_18
+sentence: Counterfactual causality tells us when and how to apply these heuristics .
+
+ppatt:
+	?a tells ?b when how to apply ?c
+		?a: Counterfactual causality
+		?b: us
+		?c: these heuristics
+
+
+label:    sent_19
+sentence: We limited searches to adults and humans but did not apply language restrictions .
+
+ppatt:
+	?a limited ?b
+		?a: We
+		?b: searches to adults and humans
+	?a did not apply ?b
+		?a: We
+		?b: language restrictions
+
+
+label:    sent_20
+sentence: [How to make an adhesive bridge and apply it clinically ] . In both sand and mud , peristaltic movements apply normal forces and reduce shear .
+
+ppatt:
+	?a make ?b
+		?a: [How
+		?b: an adhesive bridge
+	?a apply ?b clinically ?c In ?d
+		?a: [How
+		?b: it
+		?c: ]
+		?d: sand
+	?a apply ?b clinically ?c In ?d
+		?a: [How
+		?b: it
+		?c: ]
+		?d: mud
+	?a ?b apply ?c
+		?a: [How to make an adhesive bridge and apply it clinically ] . In both sand and mud
+		?b: peristaltic movements
+		?c: normal forces
+	?a reduce ?b
+		?a: [How to make an adhesive bridge and apply it clinically ] . In both sand and mud
+		?b: shear
+
+
+label:    sent_21
+sentence: We then apply it to crystals of arbitrary shape and discuss the convergence .
+
+ppatt:
+	?a then apply ?b to ?c
+		?a: We
+		?b: it
+		?c: crystals of arbitrary shape
+	?a discuss ?b
+		?a: We
+		?b: the convergence
+
+
+label:    sent_22
+sentence: We apply the method to simulated data and show that it is unbiased .
+
+ppatt:
+	?a apply ?b
+		?a: We
+		?b: the method to simulated data
+	?a show ?b
+		?a: We
+		?b: SOMETHING := it is unbiased
+	?a is unbiased
+		?a: it
+
+
+label:    sent_23
+sentence: As physicians , we apply and teach linear thinking .
+
+ppatt:
+	As ?a , ?b apply ?c
+		?a: physicians
+		?b: we
+		?c: linear thinking
+	?a teach
+		?a: we
+
+
+label:    sent_24
+sentence: The present results do not necessarily apply to compound X below pH 8 .
+
+ppatt:
+	?a do not necessarily apply to ?b below ?c
+		?a: The present results
+		?b: compound X
+		?c: pH 8
+
+
+label:    sent_25
+sentence: Other consideration may apply in hypoxic polycythaemia and these are discussed .
+
+ppatt:
+	?a may apply in ?b
+		?a: Other consideration
+		?b: hypoxic polycythaemia
+	?a are discussed
+		?a: these
+
+

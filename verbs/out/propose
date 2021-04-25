@@ -1,0 +1,311 @@
+label:    sent_1
+sentence: We propose to test three hypotheses in a stepwise sequence .
+
+ppatt:
+	?a propose to test ?b
+		?a: We
+		?b: three hypotheses in a stepwise sequence
+
+
+label:    sent_2
+sentence: We propose that border ownership selectivity reflects mechanisms that create object continuity .
+
+ppatt:
+	?a propose ?b
+		?a: We
+		?b: SOMETHING := border ownership selectivity reflects mechanisms that create object continuity
+	?a reflects ?b
+		?a: border ownership selectivity
+		?b: mechanisms that create object continuity
+	?a create ?b
+		?a: mechanisms
+		?b: object continuity
+
+
+label:    sent_3
+sentence: We propose a simple model that accounts quantitatively for many of the experimental observations .
+
+ppatt:
+	?a propose ?b
+		?a: We
+		?b: a simple model that accounts quantitatively for many of the experimental observations
+	?a accounts quantitatively for ?b
+		?a: a simple model
+		?b: many of the experimental observations
+
+
+label:    sent_4
+sentence: We here propose the concept of enhanced evanescent tunneling ( EET ) . We propose the term precursor plasma cell neoplasm for these tumors .
+
+ppatt:
+	?a here propose ?b
+		?a: We
+		?b: the concept of enhanced evanescent tunneling
+	?a is/are EET
+		?a: enhanced evanescent tunneling
+	?a propose ?b
+		?a: We
+		?b: the term precursor plasma cell neoplasm for these tumors
+
+
+label:    sent_5
+sentence: They then propose first steps aimed at remedying each domain .
+
+ppatt:
+	?a then propose ?b
+		?a: They
+		?b: first steps aimed at remedying each domain
+	?a aimed
+		?a: first steps
+	remedying ?a
+		?a: each domain
+
+
+label:    sent_6
+sentence: As a result , we propose another definition for VRE clearance .
+
+ppatt:
+	As ?a , ?b propose ?c
+		?a: a result
+		?b: we
+		?c: another definition for VRE clearance
+
+
+label:    sent_7
+sentence: In this paper we propose a new approach to on-line Takagi-Sugeno fuzzy model identification .
+
+ppatt:
+	In ?a ?b propose ?c
+		?a: this paper
+		?b: we
+		?c: a new approach to on-line Takagi-Sugeno fuzzy model identification
+	?a on-line ?b
+		?a: a new approach
+		?b: Takagi-Sugeno fuzzy model identification
+
+
+label:    sent_8
+sentence: Based on our simulations we propose analytical expressions for the interaction potentials .
+
+ppatt:
+	Based on ?a simulations ?b
+		?a: our
+		?b: we
+	?a propose ?b
+		?a: we
+		?b: analytical expressions for the interaction potentials
+
+
+label:    sent_9
+sentence: We discuss possible reasons for these inconsistent findings and propose new study designs .
+
+ppatt:
+	?a discuss ?b
+		?a: We
+		?b: possible reasons for these inconsistent findings
+	?a propose ?b
+		?a: We
+		?b: new study designs
+
+
+label:    sent_10
+sentence: We review the salient advances in the field and propose further directions of investigation .
+
+ppatt:
+	?a review ?b
+		?a: We
+		?b: the salient advances in the field
+	?a propose ?b
+		?a: We
+		?b: further directions of investigation
+
+
+label:    sent_11
+sentence: We were further able to propose a pathophysiologic explanation .
+
+ppatt:
+	?a were further able to propose ?b
+		?a: We
+		?b: a pathophysiologic explanation
+
+
+label:    sent_12
+sentence: In this chapter , we propose a hybrid solution that combines the above-mentioned methods .
+
+ppatt:
+	In ?a , ?b propose ?c
+		?a: this chapter
+		?b: we
+		?c: a hybrid solution that combines the above-mentioned methods
+	?a combines ?b
+		?a: a hybrid solution
+		?b: the above-mentioned methods
+
+
+label:    sent_13
+sentence: In this study , the investigators propose five preliminary criteria to establish the diagnosis .
+
+ppatt:
+	In ?a , ?b propose ?c
+		?a: this study
+		?b: the investigators
+		?c: five preliminary criteria to establish the diagnosis
+	?a establish ?b
+		?a: five preliminary criteria
+		?b: the diagnosis
+
+
+label:    sent_14
+sentence: In this paper , we propose that Zds1 / Zds2 primarily control Cdc55 localization .
+
+ppatt:
+	In ?a , ?b propose ?c
+		?a: this paper
+		?b: we
+		?c: SOMETHING := Zds1 / Zds2 primarily control Cdc55 localization
+	?a primarily control ?b
+		?a: Zds1
+		?b: Cdc55 localization
+	?a primarily control ?b
+		?a: Zds2
+		?b: Cdc55 localization
+
+
+label:    sent_15
+sentence: We propose and experimentally demonstrate an advanced method for chromatic dispersion measurement of fiber .
+
+ppatt:
+	?a propose
+		?a: We
+	?a experimentally demonstrate ?b
+		?a: We
+		?b: an advanced method for chromatic dispersion measurement of fiber
+
+
+label:    sent_16
+sentence: Shortfalls in our current system were identified and potential further development regimes were propose .
+
+ppatt:
+	?a were identified
+		?a: Shortfalls in our current system
+	?a were propose
+		?a: potential further development regimes
+
+
+label:    sent_17
+sentence: We propose and demonstrate a self-referencing alignment technique to conveniently enlarge fabricated grating area .
+
+ppatt:
+	?a propose ?b
+		?a: We
+		?b: a self-referencing alignment technique to conveniently enlarge fabricated grating area
+	?a demonstrate
+		?a: We
+	?a conveniently enlarge ?b
+		?a: a self-referencing alignment technique
+		?b: fabricated grating area
+
+
+label:    sent_18
+sentence: We propose an all-optical OFDM system with AWGs and demonstrate the simulation results .
+
+ppatt:
+	?a propose ?b
+		?a: We
+		?b: an all-optical OFDM system with AWGs
+	?a demonstrate ?b
+		?a: We
+		?b: the simulation results
+
+
+label:    sent_19
+sentence: We propose an appropriate method and evaluate its performance .
+
+ppatt:
+	?a propose ?b
+		?a: We
+		?b: an appropriate method
+	?a evaluate ?b
+		?a: We
+		?b: its performance
+
+
+label:    sent_20
+sentence: We propose several imputation procedures for this problem and compare different methods of estimation .
+
+ppatt:
+	?a propose ?b
+		?a: We
+		?b: several imputation procedures for this problem
+	?a compare ?b
+		?a: We
+		?b: different methods of estimation
+
+
+label:    sent_21
+sentence: We extract differential directed flow from these data and propose a new direct measurement .
+
+ppatt:
+	?a extract ?b
+		?a: We
+		?b: differential directed flow from these data
+	?a propose ?b
+		?a: We
+		?b: a new direct measurement
+
+
+label:    sent_22
+sentence: We identified why this jump occurs and propose a solution .
+
+ppatt:
+	?a identified ?b
+		?a: We
+		?b: SOMETHING := why this jump occurs
+	why ?a occurs
+		?a: this jump
+	?a propose ?b
+		?a: this jump
+		?b: a solution
+
+
+label:    sent_23
+sentence: To propose a simple classification system and define management recommendations .
+
+ppatt:
+	propose ?a
+		?a: a simple classification system
+	define ?a
+		?a: management recommendations
+
+
+label:    sent_24
+sentence: Our aim is to propose a selection procedure on the basis of motor abilities .
+
+ppatt:
+	?a is to propose ?b on ?c
+		?a: Our aim
+		?b: a selection procedure
+		?c: the basis of motor abilities
+
+
+label:    sent_25
+sentence: This enables to propose a new regard on the mechanism of temperature homeostasis maintenance .
+
+ppatt:
+	?a enables to propose ?b
+		?a: This
+		?b: a new regard on the mechanism of temperature homeostasis maintenance
+
+
+label:    sent_26
+sentence: The aim was to propose a scheme as immune as possible to analytical biases .
+
+ppatt:
+	?a was to propose ?b
+		?a: The aim
+		?b: a scheme as immune
+	?a as possible to ?b
+		?a: The aim
+		?b: analytical biases
+
+

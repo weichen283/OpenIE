@@ -1,0 +1,75 @@
+label:    sent_1
+sentence: Use of these methods will allow for better utilization of parental plants when both parents do not flower on the same days .
+
+ppatt:
+	?a will allow for ?b
+		?a: Use of these methods
+		?b: better utilization of parental plants
+	when ?a do not ?b on ?c
+		?a: both parents
+		?b: flower
+		?c: the same days
+
+
+label:    sent_2
+sentence: The mutation could not normally flower and produce bolls under natural conditions , and its mature height was only 10.5 cm . When treated with exogenous GA3 , it could normally flower and boll , and plant height could reach 57.8 cm finally .
+
+ppatt:
+	?a could not normally flower
+		?a: The mutation
+	?a produce ?b under ?c
+		?a: The mutation
+		?b: bolls
+		?c: natural conditions
+	?a was only 10.5 cm
+		?a: its mature height
+	?a When treated with ?b
+		?a: its mature height
+		?b: exogenous GA3
+	?a could normally flower
+		?a: it
+	?a boll
+		?a: it
+	?a could reach ?b finally
+		?a: plant height
+		?b: 57.8 cm
+
+
+label:    sent_3
+sentence: Some plant species are constrained to co-occur , for example parasitic plants and their hosts , and may overlap in their pollination niche if they flower at the same time and attract the same pollinators .
+
+ppatt:
+	?a are constrained to co-occur ?b
+		?a: Some plant species
+		?b: parasitic plants
+	?a are constrained to co-occur ?b
+		?a: Some plant species
+		?b: their hosts
+	?a may overlap in ?b
+		?a: Some plant species
+		?b: their pollination niche
+	?a flower
+		?a: they
+	?a at the same time
+		?a: Some plant species
+	?a attract ?b
+		?a: Some plant species
+		?b: the same pollinators
+
+
+label:    sent_4
+sentence: At present , there are results of only 6 spaceflight experiments with Arabidopsis thaliana , an ephemeral plant which will flower and fruit in orbit .
+
+ppatt:
+	At ?a , there are ?b
+		?a: present
+		?b: results of only 6 spaceflight experiments with Arabidopsis thaliana
+	?a is/are an ephemeral plant
+		?a: Arabidopsis thaliana
+	?a will flower in ?b
+		?a: an ephemeral plant
+		?b: orbit
+	?a fruit
+		?a: which
+
+

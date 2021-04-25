@@ -1,0 +1,216 @@
+label:    sent_1
+sentence: Thus , it is difficult to reproduce the results and pinpoint the bioactive metabolite .
+
+ppatt:
+	Thus , ?a is difficult to reproduce ?b
+		?a: it
+		?b: the results
+	Thus , ?a is difficult to pinpoint ?b
+		?a: it
+		?b: the bioactive metabolite
+
+
+label:    sent_2
+sentence: Subsequent fine mapping of these regions will be necessary to pinpoint the causal variants .
+
+ppatt:
+	?a will be necessary to pinpoint ?b
+		?a: Subsequent fine mapping of these regions
+		?b: the causal variants
+
+
+label:    sent_3
+sentence: To pinpoint grey-matter changes that are associated with primary blepharospasm .
+
+ppatt:
+	pinpoint ?a
+		?a: grey-matter changes that are associated with primary blepharospasm
+	?a are associated with ?b
+		?a: grey-matter changes
+		?b: primary blepharospasm
+
+
+label:    sent_4
+sentence: Honeybees visually pinpoint the location of a food source using landmarks .
+
+ppatt:
+	?a visually pinpoint ?b using ?c
+		?a: Honeybees
+		?b: the location of a food source
+		?c: landmarks
+
+
+label:    sent_5
+sentence: Taken from these reviews , we here pinpoint several topics fit for future attention .
+
+ppatt:
+	Taken from ?a ?b
+		?a: these reviews
+		?b: we
+	?a here pinpoint ?b ?c
+		?a: we
+		?b: several topics
+		?c: SOMETHING := fit for future attention
+	?a fit for ?b
+		?a: we
+		?b: future attention
+
+
+label:    sent_6
+sentence: The use of photographic film to pinpoint accelerator beam losses .
+
+ppatt:
+	?a pinpoint ?b
+		?a: The use of photographic film
+		?b: accelerator beam losses
+
+
+label:    sent_7
+sentence: Our results would support hypotheses that pinpoint the defect to the sarcoplasmic reticulum .
+
+ppatt:
+	?a would support ?b
+		?a: Our results
+		?b: hypotheses that pinpoint the defect to the sarcoplasmic reticulum
+	?a pinpoint ?b
+		?a: hypotheses
+		?b: the defect to the sarcoplasmic reticulum
+
+
+label:    sent_8
+sentence: To pinpoint angiogenesis- and lymphangiogenesis-related genes in nasopharyngeal carcinoma ( NPC ) . Studies show BBT method fails to pinpoint ovulation for one-fifth of U . Brain death and pinpoint pupils .
+
+ppatt:
+	pinpoint ?a ?b
+		?a: angiogenesis- in nasopharyngeal carcinoma
+		?b: Studies
+	pinpoint ?a ?b
+		?a: lymphangiogenesis-related
+		?b: Studies
+	?a is/are NPC
+		?a: nasopharyngeal carcinoma
+	?a show ?b
+		?a: Studies
+		?b: SOMETHING := BBT method fails to pinpoint ovulation for one-fifth of U . Brain death and pinpoint pupils
+	?a fails to pinpoint ?b
+		?a: BBT method
+		?b: ovulation for one-fifth of U . Brain death
+	?a fails to pinpoint ?b
+		?a: BBT method
+		?b: pupils
+
+
+label:    sent_9
+sentence: Results provide a descriptive profile of Kentucky public health educators and pinpoint competency deficiencies . Hypercalcemia .
+
+ppatt:
+	?a provide ?b
+		?a: Results
+		?b: a descriptive profile of Kentucky public health educators
+	?a pinpoint ?b
+		?a: Results
+		?b: competency deficiencies . Hypercalcemia
+
+
+label:    sent_10
+sentence: How to pinpoint the cause and customize treatment .
+
+ppatt:
+	How to pinpoint ?a
+		?a: the cause
+	customize ?a
+		?a: treatment
+
+
+label:    sent_11
+sentence: Clinical electrophysiology can pinpoint pathology in the visual pathway .
+
+ppatt:
+	?a can pinpoint ?b in ?c
+		?a: Clinical electrophysiology
+		?b: pathology
+		?c: the visual pathway
+
+
+label:    sent_12
+sentence: We pinpoint some undesirable features of these methods in this work . Mappers rush to pinpoint landslide risk in Nepal .
+
+ppatt:
+	?a pinpoint ?b ?c
+		?a: We
+		?b: some undesirable features of these methods in this work
+		?c: Mappers rush
+	?a pinpoint ?b
+		?a: We
+		?b: landslide risk in Nepal
+
+
+label:    sent_13
+sentence: Other optical techniques do not pinpoint D but provide useful pressure derivatives .
+
+ppatt:
+	?a do not pinpoint ?b
+		?a: Other optical techniques
+		?b: D
+	?a provide ?b
+		?a: Other optical techniques
+		?b: useful pressure derivatives
+
+
+label:    sent_14
+sentence: The majority of the second-site substitutions pinpoint highly conserved residues and were allele-specific .
+
+ppatt:
+	?a pinpoint ?b
+		?a: The majority of the second-site substitutions
+		?b: highly conserved residues
+
+
+label:    sent_15
+sentence: Widespread screening for CVD could pinpoint who 's vulnerable .
+
+ppatt:
+	?a could pinpoint 's ?b
+		?a: Widespread screening for CVD
+		?b: SOMETHING := who vulnerable
+	?a 's vulnerable
+		?a: who
+
+
+label:    sent_16
+sentence: We pinpoint several key features that assist successful experimental design and appropriate tool selection .
+
+ppatt:
+	?a pinpoint ?b
+		?a: We
+		?b: several key features that assist successful experimental design and appropriate tool selection
+	?a assist ?b
+		?a: several key features
+		?b: successful experimental design
+	?a assist ?b
+		?a: several key features
+		?b: appropriate tool selection
+
+
+label:    sent_17
+sentence: Study findings pinpoint spatial and temporal factors that contribute to infection .
+
+ppatt:
+	?a pinpoint ?b
+		?a: Study findings
+		?b: spatial and temporal factors that contribute to infection
+	?a contribute to ?b
+		?a: spatial and temporal factors
+		?b: infection
+
+
+label:    sent_18
+sentence: Several mechanisms have been proposed but are difficult to pinpoint in one particular patient .
+
+ppatt:
+	?a have been proposed
+		?a: Several mechanisms
+	pinpoint in ?a
+		?a: one particular patient
+
+

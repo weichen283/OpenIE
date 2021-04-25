@@ -1,0 +1,354 @@
+label:    sent_1
+sentence: The overall results provide a means of estimating dFRC at any PEEP levels .
+
+ppatt:
+	?a provide ?b
+		?a: The overall results
+		?b: a means of estimating dFRC at any PEEP levels
+	?a estimating ?b at ?c
+		?a: a means
+		?b: dFRC
+		?c: any PEEP levels
+
+
+label:    sent_2
+sentence: We provide a comprehensive analysis of a contemporary patient population .
+
+ppatt:
+	?a provide ?b
+		?a: We
+		?b: a comprehensive analysis of a contemporary patient population
+
+
+label:    sent_3
+sentence: The authors provide insights and recommendations on the development and delivery of the program .
+
+ppatt:
+	?a provide ?b
+		?a: The authors
+		?b: insights on the development and delivery of the program
+	?a provide ?b
+		?a: The authors
+		?b: recommendations
+
+
+label:    sent_4
+sentence: The second objective was to provide reliability and validity data supporting the DAS-O .
+
+ppatt:
+	?a was to provide ?b
+		?a: The second objective
+		?b: reliability supporting the DAS-O
+	?a was to provide ?b
+		?a: The second objective
+		?b: validity
+	?a was to provide ?b
+		?a: The second objective
+		?b: data
+	?a supporting ?b
+		?a: reliability
+		?b: the DAS-O
+	?a supporting ?b
+		?a: validity
+		?b: the DAS-O
+	?a supporting ?b
+		?a: data
+		?b: the DAS-O
+
+
+label:    sent_5
+sentence: A multifaceted approach was used to provide clarity regarding these three equally important concepts .
+
+ppatt:
+	?a was used to provide ?b
+		?a: A multifaceted approach
+		?b: clarity regarding these three equally important concepts
+
+
+label:    sent_6
+sentence: Labor epidural is commonly used to provide both regional anesthesia and postoperative pain relief .
+
+ppatt:
+	?a is commonly used to provide ?b
+		?a: Labor epidural
+		?b: regional anesthesia
+	?a is commonly used to provide ?b
+		?a: Labor epidural
+		?b: postoperative pain
+	?a is commonly used to provide ?b
+		?a: Labor epidural
+		?b: relief
+
+
+label:    sent_7
+sentence: Extensive experiments demonstrate the proposed techniques can provide faster reconstruction without compromising image quality .
+
+ppatt:
+	?a demonstrate ?b
+		?a: Extensive experiments
+		?b: SOMETHING := the proposed techniques can provide faster reconstruction without compromising image quality
+	?a can provide ?b
+		?a: the proposed techniques
+		?b: faster reconstruction
+	?a compromising ?b
+		?a: the proposed techniques
+		?b: image quality
+
+
+label:    sent_8
+sentence: Unsedated transnasal ultrathin esophagogastroduodenoscopy may provide better diagnostic performance in gastroesophageal reflux disease .
+
+ppatt:
+	?a may provide ?b
+		?a: Unsedated transnasal ultrathin esophagogastroduodenoscopy
+		?b: better diagnostic performance in gastroesophageal reflux disease
+
+
+label:    sent_9
+sentence: Social workers provide care to patients and families in the adult critical care unit .
+
+ppatt:
+	?a provide ?b
+		?a: Social workers
+		?b: care to patients and families in the adult critical care unit
+
+
+label:    sent_10
+sentence: When used effectively , portfolios provide evidence of continuous learning and promote reflective practice .
+
+ppatt:
+	When used effectively ?a
+		?a: portfolios
+	?a provide ?b
+		?a: portfolios
+		?b: evidence of continuous learning
+	?a promote ?b
+		?a: portfolios
+		?b: reflective practice
+
+
+label:    sent_11
+sentence: Medical doctors provide mostly curative services and have limited support from other health professionals .
+
+ppatt:
+	?a provide ?b
+		?a: Medical doctors
+		?b: mostly curative services
+	?a have ?b from ?c
+		?a: Medical doctors
+		?b: limited support
+		?c: other health professionals
+
+
+label:    sent_12
+sentence: These videos largely provide nonsuicidal self-injury information and/or express a hopeless or melancholic message . FTKs are low cost , provide fast results , and are commercially available .
+
+ppatt:
+	?a largely provide ?b
+		?a: These videos
+		?b: nonsuicidal self-injury information
+	?a express ?b
+		?a: These videos
+		?b: a hopeless or melancholic message
+	?a ?b provide ?c
+		?a: FTKs
+		?b: are low cost
+		?c: fast results
+
+
+label:    sent_13
+sentence: These procedures have proven to be highly efficient and provide a reliable outcome .
+
+ppatt:
+	?a have proven to be highly efficient
+		?a: These procedures
+	?a have proven to be provide ?b
+		?a: These procedures
+		?b: a reliable outcome
+
+
+label:    sent_14
+sentence: TI complexes have adjuvant properties and can provide protective properties to porin vaccine constructs .
+
+ppatt:
+	?a have ?b
+		?a: TI complexes
+		?b: adjuvant properties
+	?a can provide ?b
+		?a: TI complexes
+		?b: protective properties to porin vaccine constructs
+
+
+label:    sent_15
+sentence: NIRCs may provide very significant advantages against bleedings encountered during intraventricular operations .
+
+ppatt:
+	?a may provide ?b
+		?a: NIRCs
+		?b: very significant advantages against bleedings encountered during intraventricular operations
+	?a encountered during ?b
+		?a: bleedings
+		?b: intraventricular operations
+
+
+label:    sent_16
+sentence: Staff was encouraged to provide comments on prevention .
+
+ppatt:
+	?a was encouraged to provide ?b
+		?a: Staff
+		?b: comments on prevention
+
+
+label:    sent_17
+sentence: Dexmedetomidine is a suitable agent to provide sedation for EEG recording in children .
+
+ppatt:
+	?a is a suitable agent
+		?a: Dexmedetomidine
+	?a provide ?b
+		?a: a suitable agent
+		?b: sedation for EEG recording in children
+
+
+label:    sent_18
+sentence: IS10-left can also provide these functions but at a much reduced level .
+
+ppatt:
+	?a can also provide ?b
+		?a: IS10-left
+		?b: these functions
+
+
+label:    sent_19
+sentence: Of the 333 respondents , 195 provide prosthodontic treatment and function as general dentists .
+
+ppatt:
+	Of ?a , ?b provide ?c
+		?a: the 333 respondents
+		?b: 195
+		?c: prosthodontic treatment
+	?a function as ?b
+		?a: 195
+		?b: general dentists
+
+
+label:    sent_20
+sentence: In infectious syndromes and in patients with cancer , neopterin concentrations provide prognostic information .
+
+ppatt:
+	In ?a , ?b provide ?c
+		?a: infectious syndromes
+		?b: neopterin concentrations
+		?c: prognostic information
+	In ?a , ?b provide ?c
+		?a: patients with cancer
+		?b: neopterin concentrations
+		?c: prognostic information
+
+
+label:    sent_21
+sentence: The EPR results along with the simulation analysis provide elucidated SC lipid structure .
+
+ppatt:
+	?a provide ?b
+		?a: The EPR results along with the simulation analysis
+		?b: elucidated SC lipid structure
+
+
+label:    sent_22
+sentence: These spatiotemporal proteomics data provide leads to the further functional characterization of centrosomal proteins .
+
+ppatt:
+	leads to ?a
+		?a: the further functional characterization of centrosomal proteins
+
+
+label:    sent_23
+sentence: Mechanisms of perceptual organization provide auto-zoom and auto-localization for attention to objects .
+
+ppatt:
+	?a provide ?b
+		?a: Mechanisms of perceptual organization
+		?b: auto-zoom for attention to objects
+	?a provide ?b
+		?a: Mechanisms of perceptual organization
+		?b: auto-localization
+
+
+label:    sent_24
+sentence: Invasive plants are common and may provide resources through litter for container mosquito larvae .
+
+ppatt:
+	?a are common
+		?a: Invasive plants
+	?a may provide ?b
+		?a: Invasive plants
+		?b: resources through litter for container mosquito larvae
+
+
+label:    sent_25
+sentence: Safe harbor regulations are official , but provide little room to anchor .
+
+ppatt:
+	?a are official
+		?a: Safe harbor regulations
+	?a provide ?b to anchor
+		?a: Safe harbor regulations
+		?b: little room
+
+
+label:    sent_26
+sentence: The efforts of our predecessors are honored and provide us with inspiration .
+
+ppatt:
+	?a are honored
+		?a: The efforts of our predecessors
+	?a provide ?b with ?c
+		?a: The efforts of our predecessors
+		?b: us
+		?c: inspiration
+
+
+label:    sent_27
+sentence: Furthermore , we evaluate the information these quantities provide about the neural code .
+
+ppatt:
+	Furthermore , ?a evaluate ?b ?c
+		?a: we
+		?b: the information
+		?c: SOMETHING := these quantities provide about the neural code
+	?a provide about ?b
+		?a: these quantities
+		?b: the neural code
+
+
+label:    sent_28
+sentence: The simplicity and reliability of the assay provide for high-throughput applications and automation .
+
+ppatt:
+	?a provide for ?b
+		?a: The simplicity of the assay
+		?b: high-throughput applications
+	?a provide for ?b
+		?a: reliability
+		?b: high-throughput applications
+	?a provide for ?b
+		?a: The simplicity of the assay
+		?b: automation
+	?a provide for ?b
+		?a: reliability
+		?b: automation
+
+
+label:    sent_29
+sentence: How far does local competence in vaccine development and production provide that possibility ?
+
+ppatt:
+	How far does ?a
+		?a: local competence in vaccine and production
+	?a provide ?b
+		?a: local competence in vaccine and production
+		?b: possibility
+
+

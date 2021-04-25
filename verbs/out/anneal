@@ -1,0 +1,410 @@
+label:    sent_1
+sentence: A lobster-specific PNA oligomer ( 20 bases ) was designed to anneal to the sequence at the junction of the 18 S rDNA gene and the internal transcribed spacer 1 ( ITS1 ) of the lobster .
+
+ppatt:
+	?a is/are 20 bases
+		?a: A lobster-specific PNA oligomer
+	?a was designed to anneal to ?b at ?c
+		?a: A lobster-specific PNA oligomer
+		?b: the sequence
+		?c: the junction of the 18 S rDNA gene
+	?a was designed to anneal to ?b at ?c
+		?a: A lobster-specific PNA oligomer
+		?b: the sequence
+		?c: the internal transcribed spacer 1 of the lobster
+	?a is/are ITS1
+		?a: the internal transcribed spacer 1 of the lobster
+
+
+label:    sent_2
+sentence: Three primers ( CUB-P-loop F , CUB-Kin2 F and CUB-HD R ) were designed , from which CUB-Kin2 F and CUB-HD R were constructed to anneal selectively to the non-TIR sequences .
+
+ppatt:
+	?a were designed ?b
+		?a: Three primers
+		?b: SOMETHING := from which CUB-Kin2 F and CUB-HD R were constructed to anneal selectively to the non-TIR sequences
+	from ?a ?b were constructed to anneal selectively to ?c
+		?a: which
+		?b: CUB-Kin2 F
+		?c: the non-TIR sequences
+	from ?a ?b were constructed to anneal selectively to ?c
+		?a: which
+		?b: CUB-HD R
+		?c: the non-TIR sequences
+
+
+label:    sent_3
+sentence: Genomic DNA was isolated from the tumor cells , and primers that anneal to intronic regions were used to amplify and sequence all 65 coding exons of the FBN1 gene .
+
+ppatt:
+	?a was isolated from ?b
+		?a: Genomic DNA
+		?b: the tumor cells
+	?a anneal to ?b
+		?a: primers
+		?b: intronic regions
+	?a were used to amplify ?b
+		?a: primers that anneal to intronic regions
+		?b: all 65 coding exons of the FBN1 gene
+
+
+label:    sent_4
+sentence: We show that oligonucleotides ( ODNs ) designed to anneal to the lagging strand generate 100-fold greater ' editing ' efficiency than ' those that anneal to ' the leading strand .
+
+ppatt:
+	?a show ?b
+		?a: We
+		?b: SOMETHING := oligonucleotides designed to anneal to the lagging strand generate 100-fold greater ' editing ' efficiency than ' those that anneal to ' the leading strand
+	?a is/are ODNs
+		?a: oligonucleotides designed to anneal to the lagging strand
+	?a designed to anneal to ?b
+		?a: oligonucleotides
+		?b: the lagging strand
+	?a generate ?b than ?c
+		?a: oligonucleotides designed to anneal to the lagging strand
+		?b: 100-fold greater ' editing ' efficiency
+		?c: those that anneal to ' the leading strand
+	?a anneal to ?b
+		?a: those
+		?b: the leading strand
+
+
+label:    sent_5
+sentence: Newly synthesized complementary single-stranded extensions become ' sticky ends ' that anneal with high precision , joining together contiguous DNA fragments into long , linear , double-stranded intermediates .
+
+ppatt:
+	?a become ' sticky ends
+		?a: Newly synthesized complementary single-stranded extensions
+	?a anneal with ?b joining ?c into ?d
+		?a: sticky ends
+		?b: high precision
+		?c: together contiguous DNA fragments
+		?d: long , intermediates
+
+
+label:    sent_6
+sentence: The Eip28/29 gene is unique because the cloned genomic DNA hybridizes to both EIP 28 and 29 messenger RNAs under stringent conditions , but does not anneal detectably to other genomic sequences even under mild conditions .
+
+ppatt:
+	?a is unique
+		?a: The Eip28/29 gene
+	?a hybridizes to ?b under ?c
+		?a: the cloned genomic DNA
+		?b: EIP 28 and 29
+		?c: stringent conditions
+	?a does not anneal detectably to ?b under ?c
+		?a: the cloned genomic DNA
+		?b: other genomic sequences
+		?c: even mild conditions
+
+
+label:    sent_7
+sentence: The probe did not cross hybridize with the DNAs of molecular clones of ecotropic , mink cell focus-forming , or xenotropic MuLVs ; nor did it anneal to the proviral DNAs of four xenotropic or six mink cell focus-forming viral isolates grown in mink cells .
+
+ppatt:
+	?a did not cross hybridize with ?b
+		?a: The probe
+		?b: the DNAs of molecular clones of ecotropic , mink cell focus-forming , or xenotropic
+	did not cross did ?a anneal to ?b
+		?a: it
+		?b: the proviral DNAs of four xenotropic or six
+
+
+label:    sent_8
+sentence: This xenotropic envelope proviral DNA segment did not hybridize to ecotropic murine leukemia proviruses but did anneal to representative alpha and beta xenotropic and seven different mink cell focus-inducing proviral DNAs .
+
+ppatt:
+	?a did not hybridize to ?b
+		?a: This xenotropic envelope proviral DNA segment
+		?b: ecotropic murine leukemia proviruses
+	?a did anneal to ?b
+		?a: This xenotropic envelope proviral DNA segment
+		?b: representative alpha
+	?a did anneal to ?b
+		?a: This xenotropic envelope proviral DNA segment
+		?b: beta
+	?a did anneal to ?b
+		?a: This xenotropic envelope proviral DNA segment
+		?b: xenotropic
+	?a did anneal to ?b
+		?a: This xenotropic envelope proviral DNA segment
+		?b: seven different mink cell focus-inducing proviral DNAs
+
+
+label:    sent_9
+sentence: Arenavirus RNA genomes are initiated by a " prime and realign " mechanism , such that the initiating GTP is found as a single unpaired ( overhanging ) nucleotide when the complementary genome ends anneal to form double-stranded ( ds ) RNA panhandle structures .
+
+ppatt:
+	?a are initiated by ?b
+		?a: Arenavirus RNA genomes
+		?b: a " prime and realign " mechanism
+	?a is found as ?b
+		?a: the initiating GTP
+		?b: a single unpaired ( overhanging ) nucleotide
+	when ?a anneal to form ?b
+		?a: the complementary genome ends
+		?b: double-stranded RNA panhandle structures
+
+
+label:    sent_10
+sentence: Moreover we demonstrate that patterning the bilayer film generates localized surface agglomeration waves during the anneal that can be exploited to position the grown wires . One-dimensional-NMR data suggest that the peptide changes the population distribution of possible RNA structures to favor an annealing-prone RNA conformation , thereby increasing the fraction of colliding RNA molecules that successfully anneal .
+
+ppatt:
+	Moreover ?a demonstrate ?b
+		?a: we
+		?b: SOMETHING := that patterning the bilayer film generates localized surface agglomeration waves during the anneal that can be exploited to position the grown wires
+	patterning ?a
+		?a: the bilayer film
+	?a generates ?b during ?c
+		?a: SOMETHING := patterning the bilayer film
+		?b: localized surface agglomeration waves
+		?c: the anneal that can be exploited to position the grown wires
+	?a can be exploited to position ?b
+		?a: the anneal
+		?b: the grown wires
+	?a suggest ?b
+		?a: One-dimensional-NMR data
+		?b: SOMETHING := the peptide changes the population distribution of possible RNA structures to favor an annealing-prone RNA conformation , thereby increasing the fraction of colliding RNA molecules that successfully anneal
+	?a changes ?b to favor ?c
+		?a: the peptide
+		?b: the population distribution of possible RNA structures
+		?c: an annealing-prone RNA conformation
+	?a thereby increasing ?b
+		?a: the peptide
+		?b: the fraction of colliding RNA molecules that successfully anneal
+	?a successfully anneal
+		?a: colliding RNA molecules
+
+
+label:    sent_11
+sentence: We use an ex situ wet chemical process combined with an in situ anneal treatment followed by a homoepitaxial buffer layer grown by molecular beam epitaxy and a subsequent final thermal anneal .
+
+ppatt:
+	?a use ?b
+		?a: We
+		?b: an ex wet chemical process combined with an in anneal treatment followed by a homoepitaxial buffer layer grown by molecular beam epitaxy and a subsequent final thermal anneal
+	?a combined with ?b
+		?a: an ex wet chemical process
+		?b: an in anneal treatment followed by a homoepitaxial buffer layer grown by molecular beam epitaxy and a subsequent final thermal anneal
+	?a followed by ?b
+		?a: an in anneal treatment
+		?b: a homoepitaxial buffer layer grown by molecular beam epitaxy and a subsequent final thermal anneal
+	?a grown by ?b
+		?a: a homoepitaxial buffer layer
+		?b: molecular beam epitaxy
+	?a grown by ?b
+		?a: a homoepitaxial buffer layer
+		?b: a subsequent final thermal anneal
+
+
+label:    sent_12
+sentence: We have developed a method , termed restriction site polymerase chain reaction ( RS-PCR ) , that utilizes specially designed primers that recognize , anneal , and sustain PCR .
+
+ppatt:
+	?a have developed ?b
+		?a: We
+		?b: a method , termed restriction site polymerase chain reaction , that utilizes specially designed primers that recognize , anneal , and sustain PCR
+	?a termed restriction site polymerase chain reaction
+		?a: a method , that utilizes specially designed primers that recognize , anneal , and sustain PCR
+	?a is/are RS-PCR
+		?a: restriction site polymerase chain reaction
+	?a utilizes ?b
+		?a: a method , termed restriction site polymerase chain reaction
+		?b: specially designed primers that recognize , anneal and sustain PCR
+	?a recognize
+		?a: specially designed primers , anneal
+	?a anneal
+		?a: specially designed primers that recognize and sustain PCR
+	?a sustain ?b
+		?a: that
+		?b: PCR
+
+
+label:    sent_13
+sentence: A progressive blueshift in the emission wavelength of the device can clearly be observed in real time while high energy photons are delivered to anneal the device facet , hence enabling the control on the degree of intermixing required .
+
+ppatt:
+	?a can clearly be observed in ?b , hence enabling ?c
+		?a: A progressive blueshift in the emission wavelength of the device
+		?b: real time
+		?c: the control on the degree of intermixing required
+	?a are delivered to anneal ?b
+		?a: high energy photons
+		?b: the device facet
+	?a required
+		?a: intermixing
+
+
+label:    sent_14
+sentence: Chemical compositions of ZnTe and ZnTe : Cu polycrystalline films were obtained by using XPS , and the changes of chemical composition before and after anneal were analyzed .
+
+ppatt:
+	?a were obtained
+		?a: Chemical compositions of ZnTe and ZnTe : Cu polycrystalline films
+	?a using ?b
+		?a: Chemical compositions of ZnTe and ZnTe : Cu polycrystalline films
+		?b: XPS
+	?a were analyzed
+		?a: the changes of chemical composition before and after anneal
+
+
+label:    sent_15
+sentence: The primer do not anneal during symmethric stage but after decreasing of annealing temperature on asymmethric stage .
+
+ppatt:
+	?a do not anneal during ?b
+		?a: The primer
+		?b: symmethric stage
+	?a do not anneal during ?b
+		?a: The primer
+		?b: decreasing of annealing temperature on asymmethric stage
+
+
+label:    sent_16
+sentence: We designed one forward primer on a region conserved across all haplotypes , and three reverse primers that anneal to species-specific regions and amplify fragments of different lengths for R. prolixus ( 285 bp ) and for members of the two major R. robustus lineages : group I ( 349 bp ) and groups II-IV ( 239 bp ) . The alpha-conjugate did not anneal to native mRNA , possibly due to the interference of the 9-aminoellipticine with the cap structure and , unlike the beta-adduct , was practically inactive as inhibitor of translation in a cell-free system .
+
+ppatt:
+	?a designed ?b
+		?a: We
+		?b: one forward primer on a region conserved across all haplotypes , and three reverse primers that anneal to species-specific regions and amplify fragments of different lengths for R. prolixus and for members of the two major R. robustus lineages
+	?a conserved across ?b
+		?a: a region
+		?b: all haplotypes
+	conserved across ?a ?b
+		?a: all haplotypes
+		?b: three reverse primers that anneal to species-specific regions and amplify fragments of different lengths for R. prolixus and for members of the two major R. robustus lineages
+	?a anneal to ?b
+		?a: three reverse primers
+		?b: species-specific regions
+	?a amplify ?b
+		?a: that
+		?b: fragments of different lengths for R. prolixus
+	?a amplify ?b
+		?a: that
+		?b: members of the two major R. robustus lineages
+	?a is/are 285 bp
+		?a: R. prolixus
+	?a is/are 349 bp
+		?a: group I
+	?a is/are 349 bp
+		?a: groups II-IV
+	?a is/are 239 bp
+		?a: groups II-IV
+	?a did not anneal to ?b , possibly due to ?c
+		?a: The alpha-conjugate
+		?b: native mRNA
+		?c: the interference of the 9-aminoellipticine with the cap structure
+
+
+label:    sent_17
+sentence: The pPBS27 phage vector is linearized with XbaI using a restriction-site-directed fragment and used to anneal a mixture of poly ( A ) + RNA for cDNA synthesis by reverse transcriptase .
+
+ppatt:
+	?a is linearized with ?b using ?c
+		?a: The pPBS27 phage vector
+		?b: XbaI
+		?c: a restriction-site-directed fragment
+	?a used to anneal ?b by ?c
+		?a: The pPBS27 phage vector
+		?b: a mixture of poly + RNA for cDNA synthesis
+		?c: reverse transcriptase
+	?a is/are A
+		?a: poly
+	?a is/are A
+		?a: RNA
+
+
+label:    sent_18
+sentence: These results are consistent with a mechanism in which oligonucleotides anneal to single-stranded regions of DNA at a replication fork and serve as primers for DNA synthesis .
+
+ppatt:
+	?a are consistent with ?b
+		?a: These results
+		?b: a mechanism in which oligonucleotides anneal to single-stranded regions of DNA at a replication fork and serve as primers for DNA synthesis
+	?a in ?b anneal to ?c
+		?a: a mechanism
+		?b: oligonucleotides
+		?c: single-stranded regions of DNA at a replication fork
+	?a serve as ?b
+		?a: oligonucleotides
+		?b: primers for DNA synthesis
+
+
+label:    sent_19
+sentence: These results indicate that reverse transcriptase is able to anneal the exogenous primer tRNA at the ' primer-binding site ' near the 5'-end of the long terminal repeat ( LTR ) of AMV RNA .
+
+ppatt:
+	?a indicate ?b
+		?a: These results
+		?b: SOMETHING := reverse transcriptase is able to anneal the exogenous primer tRNA at the ' primer-binding site ' near the 5'-end of the long terminal repeat of AMV RNA
+	?a is able to anneal ?b at ?c near ?d
+		?a: reverse transcriptase
+		?b: the exogenous primer tRNA
+		?c: the ' primer-binding site
+		?d: the 5'-end of the long terminal repeat of AMV RNA
+	?a is/are LTR
+		?a: the long terminal repeat of AMV RNA
+
+
+label:    sent_20
+sentence: The R127A mutant had considerably decreased binding affinity for SSB and could not anneal SSB-coated ssDNAs .
+
+ppatt:
+	?a had considerably decreased ?b
+		?a: The R127A mutant
+		?b: binding affinity for SSB
+	?a could not anneal ?b
+		?a: The R127A mutant
+		?b: SSB-coated ssDNAs
+
+
+label:    sent_21
+sentence: Subsequently , repeated indentations are performed onto the sputtered cluster to mechanically anneal the tip apex and thus to ensure the stability of the tip . AcycloPrime-FP analysis showed specific anneal and incorporation without any cross-reaction .
+
+ppatt:
+	Subsequently , ?a are performed onto ?b to mechanically anneal ?c thus to ensure ?d
+		?a: repeated indentations
+		?b: the sputtered cluster
+		?c: the tip apex
+		?d: the stability of the tip
+	?a showed ?b
+		?a: AcycloPrime-FP analysis
+		?b: specific anneal without any cross-reaction
+	?a showed ?b
+		?a: AcycloPrime-FP analysis
+		?b: incorporation
+
+
+label:    sent_22
+sentence: Demagnetization does not anneal this model system into its antiferromagnetic ground state : the moments have a static disordered configuration similar to the frozen state of the spin ice materials . As an example , we anneal diphenyl-functionalized squaraine ( DPSQ ) / C ( 60 ) heterojunctions before or after the deposition of C ( 60 ) .
+
+ppatt:
+	?a does not anneal ?b into ?c
+		?a: Demagnetization
+		?b: this model system
+		?c: its antiferromagnetic ground state
+	?a have ?b
+		?a: the moments
+		?b: a static disordered configuration similar to the frozen state of the spin ice materials
+	As ?a , ?b anneal ?c ?d
+		?a: an example
+		?b: we
+		?c: diphenyl-functionalized squaraine ( DPSQ / C ( 60 ) heterojunctions
+		?d: before after the deposition of C
+	?a is/are 60
+		?a: C
+
+
+label:    sent_23
+sentence: The results indicated that our equipment can fully anneal the nanoDot OSL dosimeter with annealing times of approximately 20 hours .
+
+ppatt:
+	?a indicated ?b
+		?a: The results
+		?b: SOMETHING := our equipment can fully anneal the nanoDot OSL dosimeter with annealing times of approximately 20 hours
+	?a can fully anneal ?b with ?c
+		?a: our equipment
+		?b: the nanoDot OSL dosimeter
+		?c: annealing times of approximately 20 hours
+
+

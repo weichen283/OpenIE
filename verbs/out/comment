@@ -1,0 +1,184 @@
+label:    sent_1
+sentence: Editorial comment for San Francisco et al . We comment on possible implications for slow dendritic computation and information processing .
+
+ppatt:
+	?a ?b comment on ?c
+		?a: Editorial comment for San Francisco
+		?b: We
+		?c: possible implications for slow dendritic computation and information processing
+
+
+label:    sent_2
+sentence: Here we comment on three points in Chappell and Hollander 's lead article . Editorial comment . Editorial comment . Editorial comment .
+
+ppatt:
+	Here ?a comment on ?b
+		?a: we
+		?b: three points in Chappell
+	?a 's lead ?b
+		?a: Hollander
+		?b: article
+	?a ?b comment ?c
+		?a: Editorial comment
+		?b: Editorial
+		?c: Editorial comment
+
+
+label:    sent_3
+sentence: They review and comment on previous reports in the literature .
+
+ppatt:
+	?a review on ?b
+		?a: They
+		?b: previous reports in the literature
+	?a comment
+		?a: They
+
+
+label:    sent_4
+sentence: Our objective is to comment on a proposed mechanism for ' chemo-fog ' . Reexamining psychokinesis : comment on Bosch , Steinkamp , and Boller ( 2006 ) . Editorial comment : neonatology and perinatology .
+
+ppatt:
+	?a is to comment on ?b
+		?a: Our objective
+		?b: a proposed mechanism for . Reexamining psychokinesis
+	?a for . Reexamining ?b
+		?a: a proposed mechanism
+		?b: psychokinesis
+	?a is/are 2006
+		?a: Boller
+
+
+label:    sent_5
+sentence: Editorial comment : why do it the easy way ? Editorial comment : primary major airway tumors ; management and results .
+
+ppatt:
+
+
+
+label:    sent_6
+sentence: We comment on published guidelines and report a case of sustained remission with docetaxel .
+
+ppatt:
+	?a comment on ?b
+		?a: We
+		?b: published guidelines
+	?a report ?b
+		?a: We
+		?b: a case of sustained remission with docetaxel
+
+
+label:    sent_7
+sentence: We comment on the case and describe the skin-surface microscopy features .
+
+ppatt:
+	?a comment on ?b
+		?a: We
+		?b: the case
+	?a describe ?b
+		?a: We
+		?b: the skin-surface microscopy features
+
+
+label:    sent_8
+sentence: Editorial comment : From the left or from the right ? Editorial comment : hypogonadism among HIV-infected men --a common condition .
+
+ppatt:
+
+
+
+label:    sent_9
+sentence: Editorial comment : women and HIV --a population at risk . Keynote comment : Radiotherapy in the age of molecular oncology .
+
+ppatt:
+
+
+
+label:    sent_10
+sentence: We explicitly solve the expansion up to second order and comment on higher-order solutions .
+
+ppatt:
+	?a explicitly solve ?b up to ?c
+		?a: We
+		?b: the expansion
+		?c: second order
+	?a comment on ?b
+		?a: We
+		?b: higher-order solutions
+
+
+label:    sent_11
+sentence: Here we survey and comment on recent practice in the field . Voltolini had died in 1889 and could not comment on this .
+
+ppatt:
+	Here ?a survey on ?b ?c
+		?a: we
+		?b: recent practice in the field
+		?c: SOMETHING := Voltolini had died in 1889
+	?a comment
+		?a: we
+	?a had died in ?b
+		?a: Voltolini
+		?b: 1889
+	?a could not comment on ?b
+		?a: Voltolini
+		?b: this
+
+
+label:    sent_12
+sentence: In this paper we report and comment seven children affected of dermatitis herpetiformis .
+
+ppatt:
+	In ?a ?b report ?c
+		?a: this paper
+		?b: we
+		?c: seven children affected of dermatitis herpetiformis
+	?a comment
+		?a: we
+	?a affected of ?b
+		?a: seven children
+		?b: dermatitis herpetiformis
+
+
+label:    sent_13
+sentence: Four articles summarize and comment the results .
+
+ppatt:
+	?a summarize
+		?a: Four articles
+	?a comment ?b
+		?a: Four articles
+		?b: the results
+
+
+label:    sent_14
+sentence: The authors describe and comment the technique . Predictable stabilization of the lower denture : comment and reply . Request for comment and advance notice of proposed rulemaking .
+
+ppatt:
+	?a describe ?b
+		?a: The authors
+		?b: the technique
+	?a describe ?b
+		?a: The authors
+		?b: Predictable stabilization of the lower denture
+	?a comment
+		?a: The authors
+	?a reply
+		?a: The authors
+	?a advance ?b
+		?a: The authors
+		?b: notice of proposed rulemaking
+
+
+label:    sent_15
+sentence: Physicians did not comment or take action on the report in other patients .
+
+ppatt:
+	?a did not comment ?b on ?c
+		?a: Physicians
+		?b: action
+		?c: the report in other patients
+	?a take
+		?a: Physicians
+
+

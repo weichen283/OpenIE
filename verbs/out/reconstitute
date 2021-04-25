@@ -1,0 +1,272 @@
+label:    sent_1
+sentence: Here , we reveal that STIM1 and Orai1 expressed together reconstitute functional SOCs . HEK293 cells were used to reconstitute GJs and hemichannels in vitro .
+
+ppatt:
+	Here , ?a reveal ?b
+		?a: we
+		?b: SOMETHING := STIM1 and Orai1 expressed together reconstitute functional SOCs
+	?a expressed together
+		?a: STIM1
+	?a expressed together
+		?a: Orai1
+	?a reconstitute ?b
+		?a: STIM1 expressed together
+		?b: functional SOCs
+	?a reconstitute ?b
+		?a: Orai1
+		?b: functional SOCs
+	?a were used to reconstitute ?b in vitro
+		?a: HEK293 cells
+		?b: GJs
+	?a were used to reconstitute ?b in vitro
+		?a: HEK293 cells
+		?b: hemichannels
+
+
+label:    sent_2
+sentence: The adult liver contains hematopoietic stem cells that can reconstitute the bone marrow .
+
+ppatt:
+	?a contains ?b
+		?a: The adult liver
+		?b: hematopoietic stem cells that can reconstitute the bone marrow
+	?a can reconstitute ?b
+		?a: hematopoietic stem cells
+		?b: the bone marrow
+
+
+label:    sent_3
+sentence: Protocols to reconstitute channels into planar bilayers via fusion methods have now been developed .
+
+ppatt:
+	?a reconstitute ?b via ?c
+		?a: Protocols
+		?b: channels into planar bilayers
+		?c: fusion methods
+	?a have now been developed
+		?a: Protocols to reconstitute channels into planar bilayers via fusion methods
+
+
+label:    sent_4
+sentence: Thymosin fails to reconstitute normal estradiol levels into neonatally thymectomized rats . Photobleached cofactor no longer had the ability to reconstitute active Hmd from the apoenzyme .
+
+ppatt:
+	?a fails to reconstitute ?b into ?c
+		?a: Thymosin
+		?b: normal estradiol levels
+		?c: neonatally thymectomized rats
+	?a no longer had ?b
+		?a: Photobleached cofactor
+		?b: the ability to reconstitute active Hmd from the apoenzyme
+	?a reconstitute ?b from ?c
+		?a: the ability
+		?b: active Hmd
+		?c: the apoenzyme
+
+
+label:    sent_5
+sentence: A simplified procedure to reconstitute hair-producing skin . Orai1 and STIM reconstitute store-operated calcium channel function .
+
+ppatt:
+	?a reconstitute ?b
+		?a: A simplified procedure
+		?b: hair-producing skin
+	?a ?b reconstitute ?c
+		?a: A simplified procedure to reconstitute hair-producing skin
+		?b: Orai1
+		?c: store-operated calcium channel function
+	?a ?b reconstitute ?c
+		?a: A simplified procedure to reconstitute hair-producing skin
+		?b: STIM
+		?c: store-operated calcium channel function
+
+
+label:    sent_6
+sentence: An attempt to reconstitute the immune system .
+
+ppatt:
+	?a reconstitute ?b
+		?a: An attempt
+		?b: the immune system
+
+
+label:    sent_7
+sentence: Peripheral blood stem cells can reconstitute bone marrow function after high-dose chemo-/radiotherapy .
+
+ppatt:
+	?a can reconstitute ?b after ?c
+		?a: Peripheral blood stem cells
+		?b: bone marrow function
+		?c: high-dose chemo-/radiotherapy
+
+
+label:    sent_8
+sentence: However , circulating peripheral blood progenitor cells can also reconstitute hematopoiesis after dose-intensive therapy .
+
+ppatt:
+	However , ?a can also reconstitute ?b after ?c
+		?a: circulating peripheral blood progenitor cells
+		?b: hematopoiesis
+		?c: dose-intensive therapy
+
+
+label:    sent_9
+sentence: Repopulation by endogenous hepatocytes does not reconstitute liver mass in rats treated with retrorsine .
+
+ppatt:
+	?a does not reconstitute ?b in ?c
+		?a: Repopulation by endogenous hepatocytes
+		?b: liver mass
+		?c: rats treated with retrorsine
+	?a treated with ?b
+		?a: rats
+		?b: retrorsine
+
+
+label:    sent_10
+sentence: Such naturally occurring split inteins rapidly self-associate and reconstitute protein-splicing activity in trans .
+
+ppatt:
+	?a rapidly self-associate ?b
+		?a: Such naturally occurring split inteins
+		?b: protein-splicing activity in trans
+	?a reconstitute
+		?a: Such naturally occurring split inteins
+
+
+label:    sent_11
+sentence: However , HAART is unable to reconstitute HIV-specific immunity and eradicate the virus .
+
+ppatt:
+	However , ?a is unable to reconstitute ?b
+		?a: HAART
+		?b: HIV-specific immunity
+	However , ?a is unable to eradicate ?b
+		?a: HAART
+		?b: the virus
+
+
+label:    sent_12
+sentence: These particular cells have the ability to self-renew and reconstitute a heterogeneous tumor .
+
+ppatt:
+	?a have ?b
+		?a: These particular cells
+		?b: the ability to self-renew and reconstitute a heterogeneous tumor
+	?a self-renew ?b
+		?a: the ability
+		?b: a heterogeneous tumor
+	reconstitute ?a
+		?a: a heterogeneous tumor
+
+
+label:    sent_13
+sentence: Probiotics can reconstitute the intestinal mucosa and stimulate local and systemic immunity .
+
+ppatt:
+	?a can reconstitute ?b
+		?a: Probiotics
+		?b: the intestinal mucosa
+	?a stimulate ?b
+		?a: Probiotics
+		?b: local and systemic immunity
+
+
+label:    sent_14
+sentence: Idiotype-binding T cells reconstitute suppression and appear to be Lyt-1-2+ .
+
+ppatt:
+	?a reconstitute ?b
+		?a: Idiotype-binding T cells
+		?b: suppression
+	?a appear to be Lyt-1-2+
+		?a: Idiotype-binding T cells
+
+
+label:    sent_15
+sentence: Repaired subchondral bone does not reconstitute its native structure and exhibits atypical morphologic features . HIV-infected immunological nonresponders fail to immune reconstitute despite optimal treatment .
+
+ppatt:
+	?a does not reconstitute ?b
+		?a: Repaired subchondral bone
+		?b: its native structure
+	?a exhibits ?b
+		?a: Repaired subchondral bone
+		?b: atypical morphologic features
+	?a fail to ?b reconstitute despite ?c
+		?a: HIV-infected immunological nonresponders
+		?b: immune
+		?c: optimal treatment
+
+
+label:    sent_16
+sentence: The subunits of arachin I were allowed to reconstitute by removing SDS .
+
+ppatt:
+	?a were allowed to reconstitute
+		?a: The subunits of arachin I
+	?a removing ?b
+		?a: The subunits of arachin I
+		?b: SDS
+
+
+label:    sent_17
+sentence: The iodinated RNA was examined for its ability to reconstitute with total 30S proteins .
+
+ppatt:
+	?a was examined for ?b
+		?a: The iodinated RNA
+		?b: its ability to reconstitute with total 30S proteins
+	?a reconstitute with ?b
+		?a: its ability
+		?b: total 30S proteins
+
+
+label:    sent_18
+sentence: In contrast , nucleosomes reconstitute on a shorter 20-bp insert .
+
+ppatt:
+	In ?a , ?b reconstitute on ?c
+		?a: contrast
+		?b: nucleosomes
+		?c: a shorter 20-bp insert
+
+
+label:    sent_19
+sentence: It is likely that distinct cell lineages in the recipient reconstitute at different rates .
+
+ppatt:
+	?a is likely ?b
+		?a: It
+		?b: SOMETHING := distinct cell lineages in the recipient reconstitute at different rates
+	?a reconstitute at ?b
+		?a: distinct cell lineages in the recipient
+		?b: different rates
+
+
+label:    sent_20
+sentence: The apoproteins did not reconstitute with the dimethyl or diethyl esters of hemin IX .
+
+ppatt:
+	?a did not reconstitute with ?b ?c
+		?a: The apoproteins
+		?b: dimethyl of hemin IX
+		?c: the esters
+	?a did not reconstitute with ?b ?c
+		?a: The apoproteins
+		?b: diethyl
+		?c: the esters
+
+
+label:    sent_21
+sentence: These CFU-S are non-leukaemic and can reconstitute haempoiesis in irradiated mice .
+
+ppatt:
+	?a are non-leukaemic
+		?a: These CFU-S
+	?a can reconstitute ?b in ?c
+		?a: These CFU-S
+		?b: haempoiesis
+		?c: irradiated mice
+
+

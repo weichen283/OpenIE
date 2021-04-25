@@ -1,0 +1,262 @@
+label:    sent_1
+sentence: Further studies are needed to explore these possibilities .
+
+ppatt:
+	?a are needed to explore ?b
+		?a: Further studies
+		?b: these possibilities
+
+
+label:    sent_2
+sentence: Log-linear Poisson regression analysis was used to explore age , period and cohort trends .
+
+ppatt:
+	?a was used to explore ?b
+		?a: Log-linear Poisson regression analysis
+		?b: age
+	?a was used to explore ?b
+		?a: Log-linear Poisson regression analysis
+		?b: period
+	?a was used to explore ?b
+		?a: Log-linear Poisson regression analysis
+		?b: cohort
+	?a was used to explore ?b
+		?a: Log-linear Poisson regression analysis
+		?b: trends
+
+
+label:    sent_3
+sentence: Participant focus groups and facilitator interviews were conducted to explore perceptions of the program .
+
+ppatt:
+	?a were conducted to explore ?b
+		?a: Participant focus groups
+		?b: perceptions of the program
+	?a were conducted to explore ?b
+		?a: facilitator interviews
+		?b: perceptions of the program
+
+
+label:    sent_4
+sentence: Cost-cutting demands prompt trusts to ' explore all options ' . Use of sensor technology to explore the science of touch . It 's time to explore the role of emotion in medical students ' learning .
+
+ppatt:
+	?a prompt ?b
+		?a: Cost-cutting demands
+		?b: trusts
+	?a to ' explore ?b
+		?a: Cost-cutting demands
+		?b: all options ' . Use of sensor technology
+	?a explore ?b to explore ?c
+		?a: Cost-cutting demands
+		?b: the science of touch It 's time
+		?c: the role of emotion in medical students ' learning
+
+
+label:    sent_5
+sentence: To explore trends in teen birth rates by selected demographics .
+
+ppatt:
+	explore ?a
+		?a: trends in teen birth rates by selected demographics
+
+
+label:    sent_6
+sentence: To explore GPs ' considerations in decision-making regarding sick-listing of patients suffering from SHC .
+
+ppatt:
+	explore ?a
+		?a: GPs ' considerations in decision-making regarding sick-listing of patients suffering from SHC
+	?a suffering from ?b
+		?a: patients
+		?b: SHC
+
+
+label:    sent_7
+sentence: We began to explore therapeutic vaccine development to antigens associated with these signaling pathways .
+
+ppatt:
+	?a began to explore ?b
+		?a: We
+		?b: therapeutic vaccine development to antigens associated with these signaling pathways
+	?a associated with ?b
+		?a: antigens
+		?b: these signaling pathways
+
+
+label:    sent_8
+sentence: To explore the inflammatory changes and possible mechanisms during COPD exacerbation .
+
+ppatt:
+	explore ?a
+		?a: the inflammatory changes during COPD exacerbation
+	explore ?a
+		?a: possible mechanisms
+
+
+label:    sent_9
+sentence: Efforts are needed to further explore these results and expand research within this field .
+
+ppatt:
+	?a are needed to further explore ?b
+		?a: Efforts
+		?b: these results
+	?a are needed to expand ?b
+		?a: Efforts
+		?b: research within this field
+
+
+label:    sent_10
+sentence: To explore racial variation in treatment preferences and willingness to be randomized .
+
+ppatt:
+	explore ?a
+		?a: racial variation in treatment preferences and willingness
+
+
+label:    sent_11
+sentence: We explore this relationship in a large cohort of otherwise healthy subjects .
+
+ppatt:
+	?a explore ?b
+		?a: We
+		?b: this relationship in a large cohort of otherwise healthy subjects
+
+
+label:    sent_12
+sentence: In this paper I explore the place and relevance of heroism in contemporary nursing .
+
+ppatt:
+	In ?a ?b explore ?c
+		?a: this paper
+		?b: I
+		?c: the place of heroism in contemporary nursing
+	In ?a ?b explore ?c
+		?a: this paper
+		?b: I
+		?c: relevance
+
+
+label:    sent_13
+sentence: Here , we explore this issue in skin .
+
+ppatt:
+	Here , ?a explore ?b
+		?a: we
+		?b: this issue in skin
+
+
+label:    sent_14
+sentence: Thematic analysis was utilised to both explore and critique the collected data .
+
+ppatt:
+	?a was utilised to both explore ?b
+		?a: Thematic analysis
+		?b: the collected data
+	?a was utilised to critique
+		?a: Thematic analysis
+
+
+label:    sent_15
+sentence: Using workflows to explore and optimise named entity recognition for chemistry .
+
+ppatt:
+	Using ?a
+		?a: workflows to explore and optimise named entity recognition for chemistry
+	?a explore ?b
+		?a: workflows
+		?b: named entity recognition for chemistry
+	optimise ?a
+		?a: named entity recognition for chemistry
+
+
+label:    sent_16
+sentence: Thematic content analysis was used to explore and organize the data . Firstly , we explore various tissue movements that match experimental limb bud shape changes .
+
+ppatt:
+	?a was used to explore ?b
+		?a: Thematic content analysis
+		?b: the data
+	?a was used to organize
+		?a: Thematic content analysis
+	Firstly , ?a explore ?b
+		?a: we
+		?b: various tissue movements that match experimental limb bud shape changes
+	?a match ?b
+		?a: various tissue movements
+		?b: experimental limb bud shape changes
+
+
+label:    sent_17
+sentence: The authors explore how community colleges can serve immigrant students more effectively .
+
+ppatt:
+	?a explore ?b
+		?a: The authors
+		?b: SOMETHING := how community colleges can serve immigrant students more effectively
+	how ?a can serve ?b more effectively
+		?a: community colleges
+		?b: immigrant students
+
+
+label:    sent_18
+sentence: We explore whether time shifts in text comprehension are represented spatially .
+
+ppatt:
+	?a explore ?b
+		?a: We
+		?b: SOMETHING := time shifts in text comprehension are represented spatially
+	?a are represented spatially
+		?a: time shifts in text comprehension
+
+
+label:    sent_19
+sentence: We also explore the formalism as a tool to analyze and compare different techniques .
+
+ppatt:
+	?a also explore ?b as ?c
+		?a: We
+		?b: the formalism
+		?c: a tool to analyze and compare different techniques
+	?a analyze ?b
+		?a: a tool
+		?b: different techniques
+	compare ?a
+		?a: different techniques
+
+
+label:    sent_20
+sentence: Global health experts explore ways to slash vaccine prices and expand access .
+
+ppatt:
+	?a explore ?b
+		?a: Global health experts
+		?b: ways to slash vaccine prices and expand access
+	?a slash ?b
+		?a: ways
+		?b: vaccine prices
+	expand ?a
+		?a: access
+
+
+label:    sent_21
+sentence: This article will explore some of the current controversies and review the pertinent literature .
+
+ppatt:
+	?a will explore ?b
+		?a: This article
+		?b: some of the current controversies
+	?a review ?b
+		?a: This article
+		?b: the pertinent literature
+
+
+label:    sent_22
+sentence: We explore stochastic evolutionary dynamics under weak selection , but for any mutation rate .
+
+ppatt:
+	?a explore ?b
+		?a: We
+		?b: stochastic evolutionary dynamics under weak selection , but for any mutation rate
+
+

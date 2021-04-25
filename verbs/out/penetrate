@@ -1,0 +1,302 @@
+label:    sent_1
+sentence: Another nonenveloped virus , reovirus , requires catB to penetrate cell membranes .
+
+ppatt:
+	?a is/are reovirus
+		?a: Another nonenveloped virus
+	?a requires ?b to penetrate ?c
+		?a: Another nonenveloped virus
+		?b: catB
+		?c: cell membranes
+
+
+label:    sent_2
+sentence: A trocar with a peel-away sheath was used to penetrate the gastric wall .
+
+ppatt:
+	?a was used to penetrate ?b
+		?a: A trocar with a peel-away sheath
+		?b: the gastric wall
+
+
+label:    sent_3
+sentence: Roots were slow to penetrate anoxic biosolids in the bottom of the pots . Biodegradable nanoparticles composed entirely of safe materials that rapidly penetrate human mucus . Structurally perturbed CP allows solutes to penetrate the ventricles .
+
+ppatt:
+	?a were slow to penetrate ?b in ?c
+		?a: Roots
+		?b: anoxic biosolids
+		?c: the bottom of the pots
+	?a composed entirely of ?b
+		?a: Biodegradable nanoparticles
+		?b: safe materials that rapidly penetrate human mucus
+	?a rapidly penetrate ?b
+		?a: safe materials
+		?b: human mucus
+	?a ?b allows ?c to penetrate ?d
+		?a: Biodegradable nanoparticles composed entirely of safe materials that rapidly penetrate human mucus
+		?b: Structurally perturbed CP
+		?c: solutes
+		?d: the ventricles
+
+
+label:    sent_4
+sentence: However , finding selective BACE1 inhibitors that can penetrate the brain has proved challenging .
+
+ppatt:
+	finding ?a
+		?a: selective BACE1 inhibitors that can penetrate the brain
+	?a can penetrate ?b
+		?a: selective BACE1 inhibitors
+		?b: the brain
+	However , ?a has proved challenging
+		?a: SOMETHING := finding selective BACE1 inhibitors that can penetrate the brain
+
+
+label:    sent_5
+sentence: They originate in cytoplasm and penetrate into vacuole by pinocytosis with participation of tonoplast .
+
+ppatt:
+	?a originate in ?b
+		?a: They
+		?b: cytoplasm
+	?a penetrate into ?b by ?c
+		?a: They
+		?b: vacuole
+		?c: pinocytosis with participation of tonoplast
+
+
+label:    sent_6
+sentence: Previously , pollen allergens were shown to penetrate into the hair follicles .
+
+ppatt:
+	Previously , ?a were shown to penetrate into ?b
+		?a: pollen allergens
+		?b: the hair follicles
+
+
+label:    sent_7
+sentence: Photoacoustic tomography utilizes a short-pulsed laser beam to diffusively penetrate into tissue .
+
+ppatt:
+	?a utilizes ?b to diffusively penetrate into ?c
+		?a: Photoacoustic tomography
+		?b: a short-pulsed laser beam
+		?c: tissue
+
+
+label:    sent_8
+sentence: Bacteria could penetrate into dentine even at a distance from the perforation filling .
+
+ppatt:
+	?a could penetrate into ?b at ?c
+		?a: Bacteria
+		?b: dentine
+		?c: even a distance from the perforation filling
+
+
+label:    sent_9
+sentence: It can be dangerous when infestations penetrate into the brain .
+
+ppatt:
+	?a can be dangerous
+		?a: It
+	when ?a penetrate into ?b
+		?a: infestations
+		?b: the brain
+
+
+label:    sent_10
+sentence: They are small diffusible molecules that easily penetrate between cells .
+
+ppatt:
+	?a are small diffusible molecules
+		?a: They
+	?a easily penetrate between ?b
+		?a: small diffusible molecules
+		?b: cells
+
+
+label:    sent_11
+sentence: They penetrate the muscle fibre and surround the cell fragments . MAP can penetrate sickle erythrocytes and can acetylate intracellular HbS .
+
+ppatt:
+	?a penetrate ?b
+		?a: They
+		?b: the muscle fibre
+	?a surround ?b
+		?a: They
+		?b: the cell fragments
+	?a can penetrate ?b
+		?a: MAP
+		?b: sickle erythrocytes
+	?a can acetylate ?b
+		?a: MAP
+		?b: intracellular HbS
+
+
+label:    sent_12
+sentence: Stearic acid did penetrate the lens and was incorporated into triacyl-glycerides and phospholipids . NF200 ( + ) spinal cord axons approached but did not penetrate this boundary .
+
+ppatt:
+	?a did penetrate ?b
+		?a: Stearic acid
+		?b: the lens
+	?a was incorporated into ?b
+		?a: Stearic acid
+		?b: triacyl-glycerides
+	?a was incorporated into ?b
+		?a: Stearic acid
+		?b: phospholipids
+	?a ?b approached
+		?a: NF200
+		?b: spinal cord axons
+	?a did not penetrate ?b
+		?a: NF200
+		?b: this boundary
+
+
+label:    sent_13
+sentence: They are lipophilic molecules and easily penetrate the epidermis .
+
+ppatt:
+	?a are lipophilic molecules
+		?a: They
+	?a easily penetrate ?b
+		?a: They
+		?b: the epidermis
+
+
+label:    sent_14
+sentence: Gastric spirilla were associated closely with parietal cells and could penetrate their cytoplasm .
+
+ppatt:
+	?a were associated closely with ?b
+		?a: Gastric spirilla
+		?b: parietal cells
+	?a could penetrate ?b
+		?a: Gastric spirilla
+		?b: their cytoplasm
+
+
+label:    sent_15
+sentence: It arises when the tumor masses penetrate into the bronchial tree and are expectorated .
+
+ppatt:
+	?a arises
+		?a: It
+	when ?a penetrate into ?b
+		?a: the tumor masses
+		?b: the bronchial tree
+	?a are expectorated
+		?a: the tumor masses
+
+
+label:    sent_16
+sentence: HIV induces little cellular damages and it can penetrate into the cytoplasm by phagocytosis .
+
+ppatt:
+	?a induces ?b
+		?a: HIV
+		?b: little cellular damages
+	?a can penetrate into ?b by ?c
+		?a: it
+		?b: the cytoplasm
+		?c: phagocytosis
+
+
+label:    sent_17
+sentence: Erythrocytes penetrate into spaces between fibrin sheets and covered with fibrin network .
+
+ppatt:
+	?a penetrate into ?b
+		?a: Erythrocytes
+		?b: spaces between fibrin sheets
+	?a covered with ?b
+		?a: Erythrocytes
+		?b: fibrin network
+
+
+label:    sent_18
+sentence: Insect-pathogenic fungi penetrate their hosts directly through the cuticle . As in mouse skin , activated LCs penetrate TJs in human skin .
+
+ppatt:
+	?a penetrate ?b directly through ?c . As in ?d
+		?a: Insect-pathogenic fungi
+		?b: their hosts
+		?c: the cuticle
+		?d: mouse skin
+	?a penetrate ?b in ?c
+		?a: activated LCs
+		?b: TJs
+		?c: human skin
+
+
+label:    sent_19
+sentence: Fine , sharp metal fragments may penetrate the eye with little resistance . TAT-PTD-CSTB does not penetrate the cells despite initial evidence of time and concentration-dependent transduction .
+
+ppatt:
+	?a may penetrate ?b with ?c
+		?a: Fine , metal fragments
+		?b: the eye
+		?c: little resistance
+	?a does not penetrate ?b despite ?c
+		?a: TAT-PTD-CSTB
+		?b: the cells
+		?c: initial evidence of time and concentration-dependent transduction
+
+
+label:    sent_20
+sentence: Mammalian sperm can not penetrate the zona pellucida solely by force .
+
+ppatt:
+	?a can not penetrate ?b solely by ?c
+		?a: Mammalian sperm
+		?b: the zona pellucida
+		?c: force
+
+
+label:    sent_21
+sentence: Thus , the residue is found not to penetrate deep into the phospholipid bilayer .
+
+ppatt:
+	Thus , ?a is found not to penetrate ?b into ?c
+		?a: the residue
+		?b: deep
+		?c: the phospholipid bilayer
+
+
+label:    sent_22
+sentence: Endovenously administered oncolytic viruses extravasate and penetrate poorly into tumors .
+
+ppatt:
+	?a extravasate into ?b
+		?a: Endovenously administered oncolytic viruses
+		?b: tumors
+	?a penetrate poorly
+		?a: Endovenously administered oncolytic viruses
+
+
+label:    sent_23
+sentence: Some industrial carcinogens may pollute the natural environment and penetrate into food .
+
+ppatt:
+	?a may pollute ?b
+		?a: Some industrial carcinogens
+		?b: the natural environment
+	?a penetrate into ?b
+		?a: Some industrial carcinogens
+		?b: food
+
+
+label:    sent_24
+sentence: Both forms are hydrophobic and penetrate deeply into membranes .
+
+ppatt:
+	?a are hydrophobic
+		?a: Both forms
+	?a penetrate deeply into ?b
+		?a: Both forms
+		?b: membranes
+
+

@@ -1,0 +1,265 @@
+label:    sent_1
+sentence: Positional discrimination models claim that positional uncertainty accounts for accuracy and reaction time patterns .
+
+ppatt:
+	?a claim ?b
+		?a: Positional discrimination models
+		?b: SOMETHING := positional uncertainty accounts for accuracy and reaction time patterns
+	?a accounts for ?b
+		?a: positional uncertainty
+		?b: accuracy
+	?a accounts for ?b
+		?a: positional uncertainty
+		?b: reaction
+	?a accounts for ?b
+		?a: positional uncertainty
+		?b: time patterns
+
+
+label:    sent_2
+sentence: Dietary supplement companies claim that arginine supplements acutely enhance skeletal muscular endurance .
+
+ppatt:
+	?a claim ?b
+		?a: Dietary supplement companies
+		?b: SOMETHING := arginine supplements acutely enhance skeletal muscular endurance
+	?a acutely enhance ?b
+		?a: arginine supplements
+		?b: skeletal muscular endurance
+
+
+label:    sent_3
+sentence: More recently suggested approaches claim to improve parametric accuracy with retained spatial resolution .
+
+ppatt:
+	?a claim to improve ?b
+		?a: More recently suggested approaches
+		?b: parametric accuracy with retained spatial resolution
+
+
+label:    sent_4
+sentence: Discounting medical malpractice claim reserves for self-insured hospitals .
+
+ppatt:
+	Discounting ?a
+		?a: medical malpractice claim reserves for self-insured hospitals
+
+
+label:    sent_5
+sentence: Employees within the pharmaceutical industry claim a commitment to collaboration and QUM .
+
+ppatt:
+	?a claim ?b
+		?a: Employees within the pharmaceutical industry
+		?b: a commitment to collaboration and QUM
+
+
+label:    sent_6
+sentence: Few physicians would claim overt discrimination . New CMS1500 claim form . It then considers those applications that claim less-selective Itk inhibitors .
+
+ppatt:
+	?a would claim ?b
+		?a: Few physicians
+		?b: overt discrimination
+	?a claim ?b
+		?a: New CMS1500
+		?b: form
+	?a then considers ?b
+		?a: It
+		?b: those applications that claim less-selective Itk inhibitors
+	?a claim ?b
+		?a: those applications
+		?b: less-selective Itk inhibitors
+
+
+label:    sent_7
+sentence: Further clarification is required to claim the diagnostic potentials of saliva in diabetes . Health claim for barley products .
+
+ppatt:
+	?a is required to claim ?b ?c
+		?a: Further clarification
+		?b: the diagnostic potentials of saliva in diabetes
+		?c: Health claim for barley products
+
+
+label:    sent_8
+sentence: Our results claim for a mass screening for hepatitis B during pregnancy . Incorrect priority claim for the DNA-damage hypothesis .
+
+ppatt:
+	?a claim for ?b ?c
+		?a: Our results
+		?b: a mass screening for hepatitis B during pregnancy
+		?c: Incorrect priority claim for the DNA-damage hypothesis
+
+
+label:    sent_9
+sentence: Niche markets claim product differentiation by superior or unique product quality and social attributes . HMOs claim victory in review fight .
+
+ppatt:
+	?a claim ?b by ?c
+		?a: Niche markets
+		?b: product differentiation
+		?c: superior or unique product quality
+	?a claim ?b by ?c
+		?a: Niche markets
+		?b: product differentiation
+		?c: social attributes
+	?a claim ?b in ?c
+		?a: HMOs
+		?b: victory
+		?c: review fight
+
+
+label:    sent_10
+sentence: Some employers claim rights to discoveries made on the job .
+
+ppatt:
+	?a claim ?b to ?c
+		?a: Some employers
+		?b: rights
+		?c: discoveries made on the job
+	?a made on ?b
+		?a: discoveries
+		?b: the job
+
+
+label:    sent_11
+sentence: The CBMs claim to provide viable MSCs and are offered at a premium cost .
+
+ppatt:
+	?a claim to provide ?b
+		?a: The CBMs
+		?b: viable MSCs
+	?a claim to are offered at ?b
+		?a: The CBMs
+		?b: a premium cost
+
+
+label:    sent_12
+sentence: Leaders claim bullies thrive and middle managers are left to fail .
+
+ppatt:
+	?a claim
+		?a: Leaders
+	?a thrive
+		?a: bullies
+	?a are left to fail
+		?a: managers
+
+
+label:    sent_13
+sentence: Malpractice claim or lawsuit for performance of PRK or LASIK surgery .
+
+ppatt:
+
+
+
+label:    sent_14
+sentence: It should utilize policies to claim equity and consider the interests of all beneficiaries . Accidents claim 96,000 lives , but rate declining for some types .
+
+ppatt:
+	?a should utilize ?b to claim ?c
+		?a: It
+		?b: policies
+		?c: equity
+	?a consider ?b
+		?a: It
+		?b: the interests of all beneficiaries
+	?a claim ?b
+		?a: Accidents
+		?b: 96,000 lives
+	?a declining for ?b
+		?a: rate
+		?b: some types
+
+
+label:    sent_15
+sentence: PAs claim a membership of approximately 13 million and are structured and vertically organized .
+
+ppatt:
+	?a claim ?b
+		?a: PAs
+		?b: a membership of approximately 13 million
+	?a are structured
+		?a: PAs
+	?a vertically organized
+		?a: PAs
+
+
+label:    sent_16
+sentence: Noncommunicable diseases were estimated to claim more than 36 million lives worldwide in 2008 .
+
+ppatt:
+	?a were estimated to claim ?b worldwide in ?c
+		?a: Noncommunicable diseases
+		?b: more than 36 million lives
+		?c: 2008
+
+
+label:    sent_17
+sentence: Hispanics were 2.7 times more likely to claim receipt of vaccination compared to whites . Dismissal of informed consent claim upheld by California Appellate Court .
+
+ppatt:
+	?a were ?b more likely to claim ?c
+		?a: Hispanics
+		?b: 2.7 times
+		?c: receipt of vaccination
+	?a compared to whites
+		?a: Hispanics
+	?a upheld by ?b
+		?a: informed consent claim
+		?b: California Appellate Court
+
+
+label:    sent_18
+sentence: Certain authors are optimistic and claim that spontaneous regression of the polyps is possible .
+
+ppatt:
+	?a are optimistic
+		?a: Certain authors
+	?a claim ?b
+		?a: Certain authors
+		?b: SOMETHING := spontaneous regression of the polyps is possible
+	?a is possible
+		?a: spontaneous regression of the polyps
+
+
+label:    sent_19
+sentence: Treatment with mechanical assist devices is complicated and expensive but claim to improve survival . Historians have generally accepted that claim at face value . Disclosure .
+
+ppatt:
+	?a is complicated
+		?a: Treatment with mechanical assist devices
+	?a claim to improve ?b
+		?a: Treatment with mechanical assist devices
+		?b: survival
+	?a have generally accepted ?b
+		?a: Historians
+		?b: SOMETHING := that claim at face value . Disclosure
+	?a claim at ?b ?c
+		?a: that
+		?b: face value
+		?c: Disclosure
+
+
+label:    sent_20
+sentence: Inmate 's illegal HIV-disclosure claim on brink of dismissal .
+
+ppatt:
+	's ?a claim on ?b
+		?a: Inmate illegal HIV-disclosure
+		?b: brink of dismissal
+
+
+label:    sent_21
+sentence: Around 200 women launch claim for damages from trust that neglected warnings .
+
+ppatt:
+	Around ?a launch ?b
+		?a: 200 women
+		?b: claim for damages from trust
+	Around ?a that neglected ?b
+		?a: 200 women
+		?b: warnings
+
+

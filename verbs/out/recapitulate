@@ -1,0 +1,203 @@
+label:    sent_1
+sentence: Engineered three-dimensional liver mimics recapitulate critical rat-specific bile acid pathways .
+
+ppatt:
+	?a mimics recapitulate ?b
+		?a: Engineered three-dimensional liver
+		?b: critical rat-specific bile acid pathways
+
+
+label:    sent_2
+sentence: Both prok2-and prokr2-deficient mice recapitulate the human Kallmann syndrome phenotype .
+
+ppatt:
+	?a recapitulate ?b
+		?a: Both prok2-and prokr2-deficient mice
+		?b: the human Kallmann syndrome phenotype
+
+
+label:    sent_3
+sentence: These therapy-resistant models recapitulate a key feature of deregulated RB / E2F transcriptional control .
+
+ppatt:
+	?a recapitulate ?b
+		?a: These therapy-resistant models
+		?b: a key feature of deregulated RB / E2F transcriptional control
+
+
+label:    sent_4
+sentence: Tissue/organ printing aims to recapitulate the intrinsic complexity of native tissues . Hepatoblastomas ( HBs ) recapitulate liver development .
+
+ppatt:
+	?a aims to recapitulate ?b
+		?a: Tissue/organ printing
+		?b: the intrinsic complexity of native tissues
+	?a is/are HBs
+		?a: Hepatoblastomas
+	?a recapitulate ?b
+		?a: Hepatoblastomas
+		?b: liver development
+
+
+label:    sent_5
+sentence: During development of Dictyostelium discoideum , cells acquire the capacity to rapidly recapitulate morphogenesis .
+
+ppatt:
+	During ?a , ?b acquire ?c
+		?a: development of Dictyostelium discoideum
+		?b: cells
+		?c: the capacity to rapidly recapitulate morphogenesis
+	?a rapidly recapitulate ?b
+		?a: the capacity
+		?b: morphogenesis
+
+
+label:    sent_6
+sentence: Mouse models of dominant ACTA1 disease recapitulate human disease and provide insight into therapies . Stapled HIV-1 peptides recapitulate antigenic structures and engage broadly neutralizing antibodies .
+
+ppatt:
+	?a recapitulate ?b
+		?a: Mouse models of dominant ACTA1 disease
+		?b: human disease
+	?a provide ?b
+		?a: Mouse models of dominant ACTA1 disease
+		?b: insight into therapies
+	?a recapitulate ?b
+		?a: Stapled HIV-1 peptides
+		?b: antigenic structures
+	?a engage ?b
+		?a: Stapled HIV-1 peptides
+		?b: broadly neutralizing antibodies
+
+
+label:    sent_7
+sentence: Clonal lines recapitulate the expression pattern of parental ADSC cultures and are multipotent .
+
+ppatt:
+	?a recapitulate ?b
+		?a: Clonal lines
+		?b: the expression pattern of parental ADSC cultures
+
+
+label:    sent_8
+sentence: Most models of NEC recapitulate late-stage disease with gut necrosis and elevated inflammatory mediators .
+
+ppatt:
+	?a recapitulate ?b
+		?a: Most models of NEC
+		?b: late-stage disease with gut necrosis and elevated inflammatory mediators
+
+
+label:    sent_9
+sentence: These new models faithfully recapitulate human HNSCC at both the pathologic and molecular levels .
+
+ppatt:
+	?a faithfully recapitulate ?b ?c
+		?a: These new models
+		?b: human HNSCC
+		?c: at both pathologic and molecular levels
+
+
+label:    sent_10
+sentence: Longer muscle lengths recapitulate force suppression in swine carotid artery .
+
+ppatt:
+	?a recapitulate ?b
+		?a: Longer muscle lengths
+		?b: force suppression in swine carotid artery
+
+
+label:    sent_11
+sentence: This result helps to both recapitulate abiogenesis and optimize synthetic biology .
+
+ppatt:
+	?a helps to both recapitulate ?b
+		?a: This result
+		?b: abiogenesis
+	?a helps to both optimize ?b
+		?a: This result
+		?b: synthetic biology
+
+
+label:    sent_12
+sentence: Tryptophanyl-tRNA synthetase Urzyme : a model to recapitulate molecular evolution and investigate intramolecular complementation .
+
+ppatt:
+	?a recapitulate ?b
+		?a: a model
+		?b: molecular evolution
+	investigate ?a
+		?a: intramolecular complementation
+
+
+label:    sent_13
+sentence: Using stem and progenitor cells to recapitulate kidney development and restore renal function .
+
+ppatt:
+	Using ?a
+		?a: stem
+	Using ?a
+		?a: progenitor
+	recapitulate ?a
+		?a: kidney development
+	restore ?a
+		?a: renal function
+
+
+label:    sent_14
+sentence: Melanocytic matricoma is a rare neoplasm thought to recapitulate the hair follicle in anagen .
+
+ppatt:
+	?a is a rare neoplasm
+		?a: Melanocytic matricoma
+	?a thought to recapitulate ?b
+		?a: a rare neoplasm
+		?b: the hair follicle in anagen
+
+
+label:    sent_15
+sentence: An attempt was made to recapitulate the observations in a clinical trial .
+
+ppatt:
+	?a was made to recapitulate ?b
+		?a: An attempt
+		?b: the observations in a clinical trial
+
+
+label:    sent_16
+sentence: A skin explant model was used to recapitulate aging-induced dermal changes along culture extent .
+
+ppatt:
+	?a was used to recapitulate ?b along ?c
+		?a: A skin explant model
+		?b: aging-induced dermal changes
+		?c: culture extent
+
+
+label:    sent_17
+sentence: This chapter will recapitulate what is known about glomerular healing and repair . Let me recapitulate .
+
+ppatt:
+	?a will recapitulate ?b
+		?a: This chapter
+		?b: SOMETHING := what is known about glomerular healing and repair
+	?a is known about ?b
+		?a: what
+		?b: glomerular healing
+	?a is known about ?b
+		?a: what
+		?b: repair
+	Let ?a recapitulate
+		?a: me
+
+
+label:    sent_18
+sentence: However , whether it will recapitulate in vivo remains to be demonstrated .
+
+ppatt:
+	?a will recapitulate in vivo
+		?a: it
+	However , ?a remains to be demonstrated
+		?a: SOMETHING := it will recapitulate in vivo
+
+

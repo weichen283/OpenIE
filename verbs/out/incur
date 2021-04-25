@@ -1,0 +1,231 @@
+label:    sent_1
+sentence: IV-PCA did not further incur respiratory depression or miosis .
+
+ppatt:
+	?a did not further incur ?b
+		?a: IV-PCA
+		?b: respiratory depression
+	?a did not further incur ?b
+		?a: IV-PCA
+		?b: miosis
+
+
+label:    sent_2
+sentence: Therefore , they might incur DNA damage and oxidative stress .
+
+ppatt:
+	Therefore , ?a might incur ?b
+		?a: they
+		?b: DNA damage
+	Therefore , ?a might incur ?b
+		?a: they
+		?b: oxidative stress
+
+
+label:    sent_3
+sentence: Patients with bicuspid valve infectious endocarditis incur high risk of abscess formation .
+
+ppatt:
+	?a incur ?b
+		?a: Patients with bicuspid valve infectious endocarditis
+		?b: high risk of abscess formation
+
+
+label:    sent_4
+sentence: Results from this study indicate that LSVROs incur a substantial burden .
+
+ppatt:
+	?a indicate ?b
+		?a: Results from this study
+		?b: SOMETHING := LSVROs incur a substantial burden
+	?a incur ?b
+		?a: LSVROs
+		?b: a substantial burden
+
+
+label:    sent_5
+sentence: The patient group showed a statistically insignificant trend to incur more unique errors . Extra : HCFA list of 18 ways to incur PRO penalty points .
+
+ppatt:
+	?a showed ?b
+		?a: The patient group
+		?b: a statistically insignificant trend to incur more unique errors . Extra
+	?a incur ?b ?c
+		?a: a statistically insignificant trend
+		?b: more unique errors
+		?c: Extra
+	?a incur ?b
+		?a: HCFA list of 18 ways
+		?b: PRO penalty points
+
+
+label:    sent_6
+sentence: Existing research indicates that families incur significant variable costs throughout cancer treatment .
+
+ppatt:
+	?a indicates ?b
+		?a: Existing research
+		?b: SOMETHING := families incur significant variable costs throughout cancer treatment
+	?a incur ?b throughout ?c
+		?a: families
+		?b: significant variable costs
+		?c: cancer treatment
+
+
+label:    sent_7
+sentence: We hypothesized that left-shifted muscles would incur greater eccentric contraction-induced damage compared to controls .
+
+ppatt:
+	?a hypothesized ?b
+		?a: We
+		?b: SOMETHING := left-shifted muscles would incur greater eccentric contraction-induced damage compared to controls
+	?a would incur ?b
+		?a: left-shifted muscles
+		?b: greater eccentric contraction-induced damage
+	?a compared to controls
+		?a: left-shifted muscles
+
+
+label:    sent_8
+sentence: Safety incidents also incur costs through litigation and extra treatment .
+
+ppatt:
+	?a also incur ?b
+		?a: Safety incidents
+		?b: costs through litigation and extra treatment
+
+
+label:    sent_9
+sentence: Overall , reduction did not incur additional risk and had positive perioperative outcomes .
+
+ppatt:
+	Overall , ?a did not incur ?b
+		?a: reduction
+		?b: additional risk
+	?a had ?b
+		?a: reduction
+		?b: positive perioperative outcomes
+
+
+label:    sent_10
+sentence: Adults are at high risk for urachal cancer but children usually incur lower morbidity . NT-proBNP measurement would incur additional costs but can be measured quickly and objectively .
+
+ppatt:
+	?a are at high risk for ?b
+		?a: Adults
+		?b: urachal cancer
+	?a usually incur ?b
+		?a: children
+		?b: lower morbidity
+	?a would incur ?b
+		?a: NT-proBNP measurement
+		?b: additional costs
+	?a can be measured quickly and objectively
+		?a: NT-proBNP measurement
+
+
+label:    sent_11
+sentence: Superior mesenteric vein injuries are rare and incur high mortality .
+
+ppatt:
+	?a are rare
+		?a: Superior mesenteric vein injuries
+	?a incur ?b
+		?a: Superior mesenteric vein injuries
+		?b: high mortality
+
+
+label:    sent_12
+sentence: Hospitalised injuries generally are serious and incur high cost .
+
+ppatt:
+	?a generally are serious
+		?a: Hospitalised injuries
+	?a incur ?b
+		?a: Hospitalised injuries
+		?b: high cost
+
+
+label:    sent_13
+sentence: Some cells eventually escape the block but incur many errors in anaphase chromosome segregation .
+
+ppatt:
+	?a eventually escape ?b
+		?a: Some cells
+		?b: the block
+	?a incur ?b in ?c
+		?a: Some cells
+		?b: many errors
+		?c: anaphase chromosome segregation
+
+
+label:    sent_14
+sentence: Patients were allowed to incur symptomatic or asymptomatic transient cardiac dysfunction during trastuzumab administration .
+
+ppatt:
+	?a were allowed to incur ?b during ?c
+		?a: Patients
+		?b: symptomatic or asymptomatic transient cardiac dysfunction
+		?c: trastuzumab administration
+
+
+label:    sent_15
+sentence: A female patient what M3 was seen to incur marked hemorrhagic diathesis during therapy .
+
+ppatt:
+	?a ?b ?c was seen to incur ?d during ?e
+		?a: A female patient
+		?b: what
+		?c: M3
+		?d: marked hemorrhagic diathesis
+		?e: therapy
+
+
+label:    sent_16
+sentence: Handlers may incur inclusive fitness benefits from infant handling .
+
+ppatt:
+	?a may incur ?b from ?c
+		?a: Handlers
+		?b: inclusive fitness benefits
+		?c: infant handling
+
+
+label:    sent_17
+sentence: Burn injuries are among the most serious injuries man can incur . A quarter incur reconvictions .
+
+ppatt:
+	?a are among the most serious injuries
+		?a: Burn injuries
+	?a ?b can incur
+		?a: the most serious injuries
+		?b: man
+	?a incur ?b
+		?a: A quarter
+		?b: reconvictions
+
+
+label:    sent_18
+sentence: Theoretically , these ornaments incur differential production and/or maintenance costs that enforce their honesty . Radiotherapy can be considered , but in most cases it would incur unnecessary morbidity .
+
+ppatt:
+	Theoretically , ?a incur ?b
+		?a: these ornaments
+		?b: differential production that enforce their honesty
+	Theoretically , ?a incur ?b
+		?a: these ornaments
+		?b: maintenance costs
+	?a enforce ?b
+		?a: differential production
+		?b: their honesty
+	?a enforce ?b
+		?a: maintenance costs
+		?b: their honesty
+	?a can be considered
+		?a: Radiotherapy
+	in ?a ?b would incur ?c
+		?a: most cases
+		?b: it
+		?c: unnecessary morbidity
+
+

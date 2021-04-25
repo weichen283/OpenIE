@@ -1,0 +1,261 @@
+label:    sent_1
+sentence: Does a somatic causal attribution style qualify for a diagnostic criterion in somatoform disorders ? FDA action allows more obese patients to qualify for a bariatric procedure .
+
+ppatt:
+	?a qualify for ?b
+		?a: a somatic causal attribution style
+		?b: a diagnostic criterion in somatoform disorders
+	?a allows ?b to qualify for ?c
+		?a: FDA action
+		?b: more obese patients
+		?c: a bariatric procedure
+
+
+label:    sent_2
+sentence: Twenty-eight patients had adequate downstaging to qualify for LT under the Milan criteria .
+
+ppatt:
+	?a had ?b to qualify for ?c under ?d
+		?a: Twenty-eight patients
+		?b: adequate downstaging
+		?c: LT
+		?d: the Milan criteria
+
+
+label:    sent_3
+sentence: Why it 's tougher than ever to qualify for help . Patients who need dialysis for more than 2 years qualify for renal transplantation .
+
+ppatt:
+	Why ?a 's tougher than ?b to qualify
+		?a: it
+		?b: ever
+	?a 's for help
+		?a: it
+	?a need ?b for ?c
+		?a: Patients
+		?b: dialysis
+		?c: more than 2 years
+	?a qualify for ?b
+		?a: Patients who need dialysis for more than 2 years
+		?b: renal transplantation
+
+
+label:    sent_4
+sentence: Patients need not be malnourished to qualify for TPN .
+
+ppatt:
+	?a need
+		?a: Patients
+	not be malnourished to qualify for ?a
+		?a: TPN
+
+
+label:    sent_5
+sentence: These metabolite classes can be used to qualify berries collected in an undetermined environment .
+
+ppatt:
+	?a can be used to qualify ?b
+		?a: These metabolite classes
+		?b: berries collected in an undetermined environment
+	?a collected in ?b
+		?a: berries
+		?b: an undetermined environment
+
+
+label:    sent_6
+sentence: The Performance Index ( PI ) was used to qualify the different methods .
+
+ppatt:
+	?a is/are PI
+		?a: The Performance Index
+	?a was used to qualify ?b
+		?a: The Performance Index
+		?b: the different methods
+
+
+label:    sent_7
+sentence: More studies are needed to better qualify pain management for children under PDL treatment .
+
+ppatt:
+	?a are needed to better qualify ?b
+		?a: More studies
+		?b: pain management for children under PDL treatment
+
+
+label:    sent_8
+sentence: These findings qualify these compounds as new probes to investigate intracellular calcium homeostasis .
+
+ppatt:
+	?a qualify ?b as ?c to investigate ?d
+		?a: These findings
+		?b: these compounds
+		?c: new probes
+		?d: intracellular calcium homeostasis
+
+
+label:    sent_9
+sentence: These data qualify mesoangioblasts as candidates for future stem cell therapy for Duchenne patients .
+
+ppatt:
+	?a qualify ?b as ?c
+		?a: These data
+		?b: mesoangioblasts
+		?c: candidates for future stem cell therapy for Duchenne patients
+
+
+label:    sent_10
+sentence: Their frequency and morbidity qualify them as significant aquatic problems .
+
+ppatt:
+	?a qualify ?b as ?c
+		?a: Their frequency
+		?b: them
+		?c: significant aquatic problems
+	?a qualify ?b as ?c
+		?a: morbidity
+		?b: them
+		?c: significant aquatic problems
+
+
+label:    sent_11
+sentence: Additionally , the phantom may be applied to qualify assurance measurements in computer tomography .
+
+ppatt:
+	Additionally , ?a may be applied to qualify ?b
+		?a: the phantom
+		?b: assurance measurements in computer tomography
+
+
+label:    sent_12
+sentence: Aimed , special-pedagogic measures may contribute to qualify the behaviour as to spare time .
+
+ppatt:
+	?a may contribute to qualify ?b
+		?a: Aimed , measures
+		?b: the behaviour
+	?a spare ?b
+		?a: Aimed , measures
+		?b: time
+
+
+label:    sent_13
+sentence: A previously accepted criterion was used to qualify a paper as an epidemiologic work . EPA Superfund list and qualify for federal cleanup funds .
+
+ppatt:
+	?a was used to qualify ?b as ?c ?d
+		?a: A previously accepted criterion
+		?b: a paper
+		?c: an epidemiologic work
+		?d: EPA Superfund list
+	?a was used to qualify for ?b
+		?a: A previously accepted criterion
+		?b: federal cleanup funds
+
+
+label:    sent_14
+sentence: These trypanosomes are not monophyletic clades and do not qualify for species status .
+
+ppatt:
+	?a are not monophyletic clades
+		?a: These trypanosomes
+	?a do not qualify for ?b
+		?a: These trypanosomes
+		?b: species status
+
+
+label:    sent_15
+sentence: Thus Aboriginal infants are " otitis-prone " and might qualify for prophylactic antibiotics .
+
+ppatt:
+	Thus ?a are " otitis-prone "
+		?a: Aboriginal infants
+	?a might qualify for ?b
+		?a: Aboriginal infants
+		?b: prophylactic antibiotics
+
+
+label:    sent_16
+sentence: Algorithms to qualify respiratory data collected during the transport of trauma patients .
+
+ppatt:
+	?a qualify ?b
+		?a: Algorithms
+		?b: respiratory data collected during the transport of trauma patients
+	?a collected during ?b
+		?a: respiratory data
+		?b: the transport of trauma patients
+
+
+label:    sent_17
+sentence: Strange things happen when we never qualify the frequency .
+
+ppatt:
+	?a happen
+		?a: Strange things
+	when ?a never qualify ?b
+		?a: we
+		?b: the frequency
+
+
+label:    sent_18
+sentence: The results qualify past claims about the separation of locations and objects in VWM .
+
+ppatt:
+	?a qualify ?b
+		?a: The results
+		?b: past claims about the separation of locations and objects in VWM
+
+
+label:    sent_19
+sentence: Nine patients did not qualify for surgical therapy and were treated conservatively .
+
+ppatt:
+	?a did not qualify for ?b
+		?a: Nine patients
+		?b: surgical therapy
+	?a were treated conservatively
+		?a: Nine patients
+
+
+label:    sent_20
+sentence: Cardiovascular risk factors in chronic kidney disease : does phosphate qualify ? Regulations include inter-country reciprocal agreements and specific categories of individuals who qualify . Changing the Act : will I qualify ? To qualify or disqualify the radiological source material for further studies .
+
+ppatt:
+	?a include ?b
+		?a: Regulations
+		?b: inter-country reciprocal agreements of individuals who qualify Changing the Act
+	?a include ?b
+		?a: Regulations
+		?b: specific categories
+	?a qualify Changing ?b
+		?a: individuals
+		?b: the Act
+	?a will I qualify ? To qualify ?b for ?c
+		?a: Regulations
+		?b: the radiological source material
+		?c: further studies
+	will I qualify ? To disqualify ?a
+		?a: the radiological source material
+
+
+label:    sent_21
+sentence: How to qualify and validate wear simulation devices and methods .
+
+ppatt:
+	How to qualify ?a
+		?a: wear simulation devices
+	How to qualify ?a
+		?a: methods
+	validate ?a
+		?a: wear simulation devices
+	validate ?a
+		?a: methods
+
+
+label:    sent_22
+sentence: The $ 3600 exclusion : do you or do n't you qualify ?
+
+ppatt:
+
+
+

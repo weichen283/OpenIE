@@ -1,0 +1,336 @@
+label:    sent_1
+sentence: Therapeutic options to attenuate excessive mucus expression are sparse .
+
+ppatt:
+	?a attenuate ?b
+		?a: Therapeutic options
+		?b: excessive mucus expression
+	?a are sparse
+		?a: Therapeutic options to attenuate excessive mucus expression
+
+
+label:    sent_2
+sentence: We investigated whether premedication with gabapentin would prevent or attenuate this increase . TIS11b and SIK may combine to attenuate StAR expression when hormonal stimuli decline .
+
+ppatt:
+	?a investigated ?b ?c
+		?a: We
+		?b: SOMETHING := premedication with gabapentin would prevent this increase
+		?c: SOMETHING := TIS11b and SIK may combine to attenuate StAR expression when hormonal stimuli decline
+	?a would prevent ?b
+		?a: premedication with gabapentin
+		?b: this increase
+	?a attenuate
+		?a: premedication with gabapentin
+	?a may combine to attenuate ?b
+		?a: TIS11b
+		?b: StAR expression
+	?a may combine to attenuate ?b
+		?a: SIK
+		?b: StAR expression
+	when ?a decline
+		?a: hormonal stimuli
+
+
+label:    sent_3
+sentence: EPS-producing probiotic bacteria significantly attenuate oxidative stress in experimental colitis .
+
+ppatt:
+	?a significantly attenuate ?b in ?c
+		?a: EPS-producing probiotic bacteria
+		?b: oxidative stress
+		?c: experimental colitis
+
+
+label:    sent_4
+sentence: Dexamethasone and N-acetyl-cysteine attenuate Pseudomonas aeruginosa-induced mucus expression in human airways .
+
+ppatt:
+	?a attenuate ?b
+		?a: Dexamethasone
+		?b: Pseudomonas aeruginosa-induced mucus expression in human airways
+	?a attenuate ?b
+		?a: N-acetyl-cysteine
+		?b: Pseudomonas aeruginosa-induced mucus expression in human airways
+
+
+label:    sent_5
+sentence: Early proteins E6 and E7 of human papillomavirus may attenuate ischemia-reperfusion injury . gammadelta T cells attenuate bleomycin-induced fibrosis through the production of CXCL10 .
+
+ppatt:
+	?a may attenuate ?b
+		?a: Early proteins
+		?b: ischemia-reperfusion injury
+	?a attenuate ?b through ?c
+		?a: gammadelta T cells
+		?b: bleomycin-induced fibrosis
+		?c: the production of CXCL10
+
+
+label:    sent_6
+sentence: Nanoparticles attenuate P-glycoprotein / MDR1 function in A549 human alveolar epithelial cells .
+
+ppatt:
+	?a attenuate ?b
+		?a: Nanoparticles
+		?b: P-glycoprotein / MDR1 function in A549 human alveolar epithelial cells
+
+
+label:    sent_7
+sentence: Erythropoietin does not attenuate renal dysfunction or inflammation in a porcine model of endotoxemia .
+
+ppatt:
+	?a does not attenuate ?b
+		?a: Erythropoietin
+		?b: renal dysfunction in a porcine model of endotoxemia
+	?a does not attenuate ?b
+		?a: Erythropoietin
+		?b: inflammation
+
+
+label:    sent_8
+sentence: MiR-133a may attenuate apoptosis of myocardiocytes by targeting CASP9 .
+
+ppatt:
+	?a may attenuate ?b
+		?a: MiR-133a
+		?b: apoptosis of myocardiocytes
+	?a targeting ?b
+		?a: MiR-133a
+		?b: CASP9
+
+
+label:    sent_9
+sentence: It is known to attenuate abstinence syndrome in animal models of drug addiction .
+
+ppatt:
+	?a is known to attenuate ?b in ?c
+		?a: It
+		?b: abstinence syndrome
+		?c: animal models of drug addiction
+
+
+label:    sent_10
+sentence: Four-day antithrombin therapy does not seem to attenuate hypercoagulability in patients suffering from sepsis .
+
+ppatt:
+	?a does not seem to attenuate ?b
+		?a: Four-day antithrombin therapy
+		?b: hypercoagulability in patients suffering from sepsis
+	?a suffering from ?b
+		?a: patients
+		?b: sepsis
+
+
+label:    sent_11
+sentence: We hypothesized that lack of PEMT would attenuate atherosclerosis and improve myocardial function .
+
+ppatt:
+	?a hypothesized ?b
+		?a: We
+		?b: SOMETHING := lack of PEMT would attenuate atherosclerosis
+	?a would attenuate ?b
+		?a: lack of PEMT
+		?b: atherosclerosis
+	?a improve ?b
+		?a: lack of PEMT
+		?b: myocardial function
+
+
+label:    sent_12
+sentence: Systemic glucocorticoid therapy may effectively attenuate lung inflammation but also induce severe side-effects .
+
+ppatt:
+	?a may effectively attenuate ?b
+		?a: Systemic glucocorticoid therapy
+		?b: lung inflammation
+	?a also induce ?b
+		?a: Systemic glucocorticoid therapy
+		?b: severe side-effects
+
+
+label:    sent_13
+sentence: This will attenuate nucleotide mediated pro-inflammatory effect and stimulate protective mechanisms of adenosine .
+
+ppatt:
+	?a will attenuate ?b
+		?a: This
+		?b: nucleotide mediated pro-inflammatory effect
+	?a stimulate ?b
+		?a: This
+		?b: protective mechanisms of adenosine
+
+
+label:    sent_14
+sentence: Insulin has been shown to attenuate hepatic damage and to improve liver function .
+
+ppatt:
+	?a has been shown to attenuate ?b
+		?a: Insulin
+		?b: hepatic damage
+	?a has been shown to to improve ?b
+		?a: Insulin
+		?b: liver function
+
+
+label:    sent_15
+sentence: This tended to attenuate age groups differences and to exacerbate differences between deprivation groups .
+
+ppatt:
+	?a tended to attenuate ?b
+		?a: This
+		?b: age groups differences
+	?a tended to to exacerbate ?b
+		?a: This
+		?b: differences between deprivation groups
+
+
+label:    sent_16
+sentence: Specific kinase inhibitors are promising therapeutic agents to slow or attenuate progressive renal fibrosis .
+
+ppatt:
+	?a are promising therapeutic agents
+		?a: Specific kinase inhibitors
+	?a slow ?b
+		?a: promising therapeutic agents
+		?b: progressive renal fibrosis
+	?a attenuate
+		?a: Specific kinase inhibitors
+
+
+label:    sent_17
+sentence: These improvements , in turn , attenuate myocardial fibrosis and preserve post-MI cardiac function .
+
+ppatt:
+	?a in ?b , attenuate ?c
+		?a: These improvements
+		?b: turn
+		?c: myocardial fibrosis
+	?a preserve ?b
+		?a: These improvements
+		?b: post-MI cardiac function
+
+
+label:    sent_18
+sentence: These improvements , in turn , attenuate myocardial fibrosis and preserve post-MI cardiac function .
+
+ppatt:
+	?a in ?b , attenuate ?c
+		?a: These improvements
+		?b: turn
+		?c: myocardial fibrosis
+	?a preserve ?b
+		?a: These improvements
+		?b: post-MI cardiac function
+
+
+label:    sent_19
+sentence: Both intravenous and inhaled lidocaine attenuate reflex bronchoconstriction but at different plasma concentrations .
+
+ppatt:
+	?a attenuate ?b
+		?a: intravenous
+		?b: reflex bronchoconstriction
+	?a attenuate ?b
+		?a: inhaled
+		?b: reflex bronchoconstriction
+	?a attenuate ?b
+		?a: intravenous
+		?b: different plasma concentrations
+	?a attenuate ?b
+		?a: inhaled
+		?b: different plasma concentrations
+
+
+label:    sent_20
+sentence: They can attenuate or enhance the intensity of disease symptoms .
+
+ppatt:
+	?a can attenuate ?b
+		?a: They
+		?b: the intensity of disease symptoms
+	?a enhance
+		?a: They
+
+
+label:    sent_21
+sentence: Pharmacological experiments show that neuroleptics attenuate or abolish the rewarding effect .
+
+ppatt:
+	?a show ?b
+		?a: Pharmacological experiments
+		?b: SOMETHING := neuroleptics attenuate the rewarding effect
+	?a attenuate ?b
+		?a: neuroleptics
+		?b: the rewarding effect
+	?a abolish
+		?a: neuroleptics
+
+
+label:    sent_22
+sentence: Pharmacological experiments show that neuroleptics attenuate or abolish the rewarding effect .
+
+ppatt:
+	?a show ?b
+		?a: Pharmacological experiments
+		?b: SOMETHING := neuroleptics attenuate the rewarding effect
+	?a attenuate ?b
+		?a: neuroleptics
+		?b: the rewarding effect
+	?a abolish
+		?a: neuroleptics
+
+
+label:    sent_23
+sentence: Persistent vasospasm of the digits is difficult to attenuate or reverse .
+
+ppatt:
+	?a is difficult to attenuate
+		?a: Persistent vasospasm of the digits
+
+
+label:    sent_24
+sentence: They can transduce zinc and redox signals and thereby attenuate or amplify these signals .
+
+ppatt:
+	?a can transduce ?b
+		?a: They
+		?b: zinc
+	?a can transduce ?b
+		?a: They
+		?b: redox
+	?a thereby attenuate ?b
+		?a: They
+		?b: these signals
+	?a amplify
+		?a: They
+
+
+label:    sent_25
+sentence: Growth factors and cytokines may act synergistically to attenuate or boost chondrocyte responses .
+
+ppatt:
+	?a may act synergistically to attenuate ?b
+		?a: Growth factors
+		?b: chondrocyte responses
+	?a may act synergistically to attenuate ?b
+		?a: cytokines
+		?b: chondrocyte responses
+	?a may act synergistically to boost
+		?a: Growth factors
+	?a may act synergistically to boost
+		?a: cytokines
+
+
+label:    sent_26
+sentence: Flight helmets can be designed to distribute and attenuate crash forces to the head .
+
+ppatt:
+	?a can be designed to distribute ?b to ?c
+		?a: Flight helmets
+		?b: crash forces
+		?c: the head
+	?a can be designed to attenuate
+		?a: Flight helmets
+
+

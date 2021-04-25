@@ -1,0 +1,335 @@
+label:    sent_1
+sentence: This trial is powered to deliver more credible and durable results .
+
+ppatt:
+	?a is powered to deliver ?b
+		?a: This trial
+		?b: more credible and durable results
+
+
+label:    sent_2
+sentence: Recent developments enable to deliver rotational IMRT with standard C-arm gantry based linear accelerators .
+
+ppatt:
+	?a enable to deliver ?b with ?c
+		?a: Recent developments
+		?b: rotational IMRT
+		?c: standard C-arm gantry based linear accelerators
+
+
+label:    sent_3
+sentence: This electrode was used to deliver balanced biphasic trains of electrical pulses .
+
+ppatt:
+	?a was used to deliver ?b
+		?a: This electrode
+		?b: balanced biphasic trains of electrical pulses
+
+
+label:    sent_4
+sentence: Methods of delivery focused on how to deliver the teaching strategies .
+
+ppatt:
+	?a focused on how to deliver ?b
+		?a: Methods of delivery
+		?b: the teaching strategies
+
+
+label:    sent_5
+sentence: Salmonella has been employed to deliver therapeutic molecules against cancer and infectious diseases .
+
+ppatt:
+	?a has been employed to deliver ?b against ?c
+		?a: Salmonella
+		?b: therapeutic molecules
+		?c: cancer
+	?a has been employed to deliver ?b against ?c
+		?a: Salmonella
+		?b: therapeutic molecules
+		?c: infectious diseases
+
+
+label:    sent_6
+sentence: The results showed that dMNPs can efficiently deliver all vectors into 293T cells .
+
+ppatt:
+	?a showed ?b
+		?a: The results
+		?b: SOMETHING := dMNPs can efficiently deliver all vectors into 293T cells
+	?a can efficiently deliver ?b into ?c
+		?a: dMNPs
+		?b: all vectors
+		?c: 293T cells
+
+
+label:    sent_7
+sentence: Bacterial type III secretion systems deliver protein virulence factors to host cells .
+
+ppatt:
+	?a deliver ?b to ?c
+		?a: Bacterial type III secretion systems
+		?b: protein virulence factors
+		?c: host cells
+
+
+label:    sent_8
+sentence: Use of videophones to deliver a cognitive-behavioural therapy to hospice caregivers .
+
+ppatt:
+	?a deliver ?b
+		?a: Use of videophones
+		?b: a cognitive-behavioural therapy to hospice caregivers
+
+
+label:    sent_9
+sentence: George 's Hospital explain how they deliver top quality patient care after stroke .
+
+ppatt:
+	?a explain ?b
+		?a: George 's Hospital
+		?b: SOMETHING := how they deliver top quality patient care after stroke
+	how ?a deliver ?b after ?c
+		?a: they
+		?b: top quality patient care
+		?c: stroke
+
+
+label:    sent_10
+sentence: Ambulatory surgery centers ( ASCs ) potentially deliver care more efficiently than hospitals .
+
+ppatt:
+	?a is/are ASCs
+		?a: Ambulatory surgery centers
+	?a potentially deliver ?b more efficiently than ?c
+		?a: Ambulatory surgery centers
+		?b: care
+		?c: hospitals
+
+
+label:    sent_11
+sentence: Plant oil bodies : novel carriers to deliver lipophilic molecules .
+
+ppatt:
+	?a deliver ?b
+		?a: novel carriers
+		?b: lipophilic molecules
+
+
+label:    sent_12
+sentence: Prior studies suggest that PCPs and nephrologists deliver suboptimal CKD care .
+
+ppatt:
+	?a suggest ?b
+		?a: Prior studies
+		?b: SOMETHING := PCPs and nephrologists deliver suboptimal CKD care
+	?a deliver ?b
+		?a: PCPs
+		?b: suboptimal CKD care
+	?a deliver ?b
+		?a: nephrologists
+		?b: suboptimal CKD care
+
+
+label:    sent_13
+sentence: Wasp stings bypass the stratum corneum and deliver antigen to the dermis . SF matrices were demonstrated to successfully deliver protein drugs and preserve their potency .
+
+ppatt:
+	?a bypass ?b
+		?a: Wasp stings
+		?b: the stratum corneum
+	?a deliver ?b to ?c
+		?a: Wasp stings
+		?b: antigen
+		?c: the dermis
+	?a were demonstrated to successfully deliver ?b
+		?a: SF matrices
+		?b: protein drugs
+	?a were demonstrated to preserve ?b
+		?a: SF matrices
+		?b: their potency
+
+
+label:    sent_14
+sentence: Both techniques are simple to perform and deliver a good aesthetic result .
+
+ppatt:
+	?a are simple to perform ?b
+		?a: Both techniques
+		?b: a good aesthetic result
+	?a are simple to deliver
+		?a: Both techniques
+
+
+label:    sent_15
+sentence: Nurses deliver on urinary continence in primary care ! The remaining pregnant rats were allowed to deliver spontaneously at term .
+
+ppatt:
+	?a deliver on ?b
+		?a: Nurses
+		?b: urinary continence in primary care
+	?a were allowed to deliver spontaneously at ?b
+		?a: The remaining pregnant rats
+		?b: term
+
+
+label:    sent_16
+sentence: It also proves the feasibility of specific deliver of AmiRs using conjugated pRNA vehicles .
+
+ppatt:
+	?a also proves ?b using ?c
+		?a: It
+		?b: the feasibility of specific deliver of AmiRs
+		?c: conjugated pRNA vehicles
+
+
+label:    sent_17
+sentence: Intranasal administration can bypass blood-brain barrier and deliver drugs into the brain directly .
+
+ppatt:
+	?a can bypass ?b
+		?a: Intranasal administration
+		?b: blood-brain barrier
+	?a deliver ?b into ?c directly
+		?a: Intranasal administration
+		?b: drugs
+		?c: the brain
+
+
+label:    sent_18
+sentence: Transferrin-cisplatin specifically deliver cisplatin to HepG2 cells in vitro and enhance cisplatin cytotoxicity .
+
+ppatt:
+	?a specifically deliver ?b to ?c in vitro
+		?a: Transferrin-cisplatin
+		?b: cisplatin
+		?c: HepG2 cells
+	?a enhance ?b
+		?a: Transferrin-cisplatin
+		?b: cisplatin cytotoxicity
+
+
+label:    sent_19
+sentence: It can seal tissue as well as deliver drugs at predetermined rates .
+
+ppatt:
+	?a can seal ?b
+		?a: It
+		?b: tissue
+	?a deliver ?b at ?c
+		?a: It
+		?b: drugs
+		?c: predetermined rates
+
+
+label:    sent_20
+sentence: Particulate nanoscale delivery systems deliver antigens intracellularly and help in inducing T-cell responses .
+
+ppatt:
+	?a deliver ?b intracellularly
+		?a: Particulate nanoscale delivery systems
+		?b: antigens
+	?a help
+		?a: Particulate nanoscale delivery systems
+	?a inducing ?b
+		?a: Particulate nanoscale delivery systems
+		?b: T-cell responses
+
+
+label:    sent_21
+sentence: It can deliver the pure enantiomer and outperforms conventional technologies .
+
+ppatt:
+	?a can deliver ?b
+		?a: It
+		?b: the pure enantiomer
+	?a outperforms ?b
+		?a: It
+		?b: conventional technologies
+
+
+label:    sent_22
+sentence: Tobacco-free electronic cigarettes and cigars deliver nicotine and generate concern .
+
+ppatt:
+	?a deliver ?b
+		?a: Tobacco-free electronic cigarettes
+		?b: nicotine
+	?a deliver ?b
+		?a: cigars
+		?b: nicotine
+	?a generate ?b
+		?a: Tobacco-free electronic cigarettes
+		?b: concern
+	?a generate ?b
+		?a: cigars
+		?b: concern
+
+
+label:    sent_23
+sentence: In developing countries , most poor women deliver at home . Stillbirths : how can health systems deliver for mothers and babies ? Workforce .
+
+ppatt:
+	In ?a , ?b deliver at ?c ?d
+		?a: developing countries
+		?b: most poor women
+		?c: home
+		?d: Stillbirths
+	how can ?a deliver for ?b
+		?a: health systems
+		?b: mothers
+	how can ?a deliver for ?b
+		?a: health systems
+		?b: babies
+	how can ?a deliver for ?b
+		?a: health systems
+		?b: Workforce
+
+
+label:    sent_24
+sentence: Advanced paramedics deliver on the front line .
+
+ppatt:
+	?a deliver on ?b
+		?a: Advanced paramedics
+		?b: the front line
+
+
+label:    sent_25
+sentence: Resident bacteria deliver regulatory signals to the epithelium and instruct mucosal immune responses .
+
+ppatt:
+	?a deliver ?b to ?c
+		?a: Resident bacteria
+		?b: regulatory signals
+		?c: the epithelium
+	?a instruct ?b
+		?a: Resident bacteria
+		?b: mucosal immune responses
+
+
+label:    sent_26
+sentence: Baculoviruses deliver strong activation signals to dendritic cells and can promote potent immune responses .
+
+ppatt:
+	?a deliver ?b to ?c
+		?a: Baculoviruses
+		?b: strong activation signals
+		?c: dendritic cells
+	?a can promote ?b
+		?a: Baculoviruses
+		?b: potent immune responses
+
+
+label:    sent_27
+sentence: These delivery beacons efficiently deliver pDNA into cultured cells and do not exhibit toxicity .
+
+ppatt:
+	?a efficiently deliver ?b into ?c
+		?a: These delivery beacons
+		?b: pDNA
+		?c: cultured cells
+	?a do not exhibit ?b
+		?a: These delivery beacons
+		?b: toxicity
+
+

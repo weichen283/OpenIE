@@ -1,0 +1,282 @@
+label:    sent_1
+sentence: The factors that dictate annihilation ECL efficiency are interrelated .
+
+ppatt:
+	?a dictate ?b
+		?a: The factors
+		?b: annihilation ECL efficiency
+	?a are interrelated
+		?a: The factors that dictate annihilation ECL efficiency
+
+
+label:    sent_2
+sentence: These non-linear effects may dictate the effectiveness of a hydrostatic skeleton at different sizes .
+
+ppatt:
+	?a may dictate ?b
+		?a: These non-linear effects
+		?b: the effectiveness of a hydrostatic skeleton at different sizes
+
+
+label:    sent_3
+sentence: The appearance and acidity of the fluid dictate the need for drainage .
+
+ppatt:
+	?a dictate ?b
+		?a: The appearance of the fluid
+		?b: the need for drainage
+	?a dictate ?b
+		?a: acidity
+		?b: the need for drainage
+
+
+label:    sent_4
+sentence: These factors and events likely cooperate to dictate the mobility of particular proteins .
+
+ppatt:
+	?a likely cooperate to dictate ?b
+		?a: These factors
+		?b: the mobility of particular proteins
+	?a likely cooperate to dictate ?b
+		?a: events
+		?b: the mobility of particular proteins
+
+
+label:    sent_5
+sentence: Cornichon-2 modulates AMPA receptor-transmembrane AMPA receptor regulatory protein assembly to dictate gating and pharmacology .
+
+ppatt:
+	?a modulates ?b to dictate ?c
+		?a: Cornichon-2
+		?b: AMPA receptor-transmembrane AMPA receptor regulatory protein assembly
+		?c: gating
+	?a modulates ?b to dictate ?c
+		?a: Cornichon-2
+		?b: AMPA receptor-transmembrane AMPA receptor regulatory protein assembly
+		?c: pharmacology
+
+
+label:    sent_6
+sentence: Does the conformation of adsorbed fibrinogen dictate platelet interactions with artificial surfaces ? We report that metabolism and chromosome copy number dictate which fate is adopted .
+
+ppatt:
+	Does ?a
+		?a: the conformation of adsorbed fibrinogen
+	?a dictate ?b
+		?a: the conformation of adsorbed fibrinogen
+		?b: platelet interactions with artificial surfaces
+	?a report ?b
+		?a: We
+		?b: SOMETHING := metabolism and chromosome copy number dictate which fate is adopted
+	?a dictate ?b
+		?a: metabolism
+		?b: SOMETHING := which fate is adopted
+	?a dictate ?b
+		?a: chromosome copy number
+		?b: SOMETHING := which fate is adopted
+	?a ?b is adopted
+		?a: which
+		?b: fate
+
+
+label:    sent_7
+sentence: These phosphorylation-regulated properties dictate generalized and context-dependent IF functions that reflect their tissue-specific expression .
+
+ppatt:
+	?a dictate ?b IF ?c
+		?a: These phosphorylation-regulated properties
+		?b: generalized
+		?c: functions that reflect their tissue-specific expression
+	?a dictate ?b IF ?c
+		?a: These phosphorylation-regulated properties
+		?b: context-dependent
+		?c: functions that reflect their tissue-specific expression
+	?a reflect ?b
+		?a: functions
+		?b: their tissue-specific expression
+
+
+label:    sent_8
+sentence: Logistics dictate that hospice care can be implemented most effectively in the home environment .
+
+ppatt:
+	?a dictate ?b
+		?a: Logistics
+		?b: SOMETHING := hospice care can be implemented most effectively in the home environment
+	?a can be implemented most effectively in ?b
+		?a: hospice care
+		?b: the home environment
+
+
+label:    sent_9
+sentence: Sertoli cells dictate spermatogonial stem cell niches in the mouse testis .
+
+ppatt:
+	?a dictate ?b
+		?a: Sertoli cells
+		?b: spermatogonial stem cell niches in the mouse testis
+
+
+label:    sent_10
+sentence: Portable nanofiber meshes dictate cell orientation throughout three-dimensional hydrogels .
+
+ppatt:
+	?a dictate ?b throughout ?c
+		?a: Portable nanofiber meshes
+		?b: cell orientation
+		?c: three-dimensional hydrogels
+
+
+label:    sent_11
+sentence: Immune-neural interactions dictate both lesion formation and repair in multiple sclerosis ( MS ) . DCs also dictate the type and regulate the strength and duration of T-cell responses .
+
+ppatt:
+	?a dictate ?b
+		?a: Immune-neural interactions
+		?b: lesion in multiple sclerosis
+	?a is/are MS
+		?a: multiple sclerosis
+	?a also dictate ?b
+		?a: DCs
+		?b: the type
+	?a regulate ?b
+		?a: DCs
+		?b: the strength of T-cell responses
+	?a regulate ?b
+		?a: DCs
+		?b: duration
+
+
+label:    sent_12
+sentence: Should evidence dictate clinical practice or support it ? Yet imatinib rarely cures CML , and current recommendations dictate lifelong treatment with imatinib .
+
+ppatt:
+	Should ?a dictate ?b
+		?a: evidence
+		?b: clinical practice
+	?a support ?b
+		?a: evidence
+		?b: it
+	Yet ?a rarely cures ?b
+		?a: imatinib
+		?b: CML
+	?a dictate ?b
+		?a: current recommendations
+		?b: lifelong treatment with imatinib
+
+
+label:    sent_13
+sentence: Electrostatic interactions are ubiquitous in proteins and dictate stability and function .
+
+ppatt:
+	?a are ubiquitous in ?b
+		?a: Electrostatic interactions
+		?b: proteins
+	?a dictate ?b
+		?a: Electrostatic interactions
+		?b: stability
+	?a dictate ?b
+		?a: Electrostatic interactions
+		?b: function
+
+
+label:    sent_14
+sentence: These are early manifestations and dictate expeditious use of naloxone in endotoxic shock .
+
+ppatt:
+	?a are early manifestations
+		?a: These
+	?a dictate ?b
+		?a: These
+		?b: expeditious use of naloxone in endotoxic shock
+
+
+label:    sent_15
+sentence: The Ottawa knee rules are applied and dictate the need for additional evaluation .
+
+ppatt:
+	?a are applied
+		?a: The Ottawa knee rules
+	?a dictate ?b
+		?a: The Ottawa knee rules
+		?b: the need for additional evaluation
+
+
+label:    sent_16
+sentence: Interns are often required to dictate discharge summaries without formal training .
+
+ppatt:
+	?a are often required to dictate ?b without ?c
+		?a: Interns
+		?b: discharge summaries
+		?c: formal training
+
+
+label:    sent_17
+sentence: Chemokines modulate angiogenesis and metastasis that dictate cancer development in tumor microenvironment .
+
+ppatt:
+	?a modulate ?b
+		?a: Chemokines
+		?b: angiogenesis that dictate cancer development in tumor microenvironment
+	?a modulate ?b
+		?a: Chemokines
+		?b: metastasis
+	?a dictate ?b
+		?a: angiogenesis
+		?b: cancer development in tumor microenvironment
+	?a dictate ?b
+		?a: metastasis
+		?b: cancer development in tumor microenvironment
+
+
+label:    sent_18
+sentence: The doctors were able to directly dictate their reports to the unit . Financial incentives can be quantified , and present times dictate that they be enumerated .
+
+ppatt:
+	?a were able to directly dictate ?b
+		?a: The doctors
+		?b: their reports to the unit
+	?a can be quantified
+		?a: Financial incentives
+	?a dictate ?b
+		?a: present times
+		?b: SOMETHING := they be enumerated
+	?a be enumerated
+		?a: they
+
+
+label:    sent_19
+sentence: Cytokines are important soluble signalling molecules that dictate and coordinate inflammatory and immune responses .
+
+ppatt:
+	?a are important soluble signalling molecules
+		?a: Cytokines
+	?a dictate ?b
+		?a: important soluble signalling molecules
+		?b: inflammatory and immune responses
+	?a coordinate
+		?a: that
+
+
+label:    sent_20
+sentence: Seven reasons to dictate in the presence of your patients .
+
+ppatt:
+	?a dictate in ?b
+		?a: Seven reasons
+		?b: the presence of your patients
+
+
+label:    sent_21
+sentence: Responding patients may be retreated as symptoms dictate to good effect .
+
+ppatt:
+	?a may be retreated as ?b
+		?a: Responding patients
+		?b: symptoms
+	?a dictate to ?b
+		?a: Responding patients
+		?b: good effect
+
+

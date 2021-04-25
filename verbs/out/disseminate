@@ -1,0 +1,296 @@
+label:    sent_1
+sentence: Further work to evaluate and disseminate this tool is in progress .
+
+ppatt:
+	?a evaluate ?b
+		?a: Further work
+		?b: this tool
+	?a disseminate
+		?a: Further work
+	?a is in progress
+		?a: Further work to evaluate and disseminate this tool
+
+
+label:    sent_2
+sentence: Using the TRIP model to disseminate an IT-based pressure ulcer intervention .
+
+ppatt:
+	Using ?a
+		?a: the TRIP model
+	disseminate ?a
+		?a: an IT-based pressure ulcer intervention
+
+
+label:    sent_3
+sentence: A number of alternatives to disseminate achieved results are presented .
+
+ppatt:
+	?a disseminate ?b
+		?a: A number of alternatives
+		?b: achieved results
+	?a are presented
+		?a: A number of alternatives to disseminate achieved results
+
+
+label:    sent_4
+sentence: Newer treatment ( oxaliplatin , capecitabine ) started to disseminate in 2000 .
+
+ppatt:
+	?a is/are capecitabine
+		?a: oxaliplatin
+	?a started to disseminate in ?b
+		?a: Newer treatment
+		?b: 2000
+
+
+label:    sent_5
+sentence: These particles reach the lungs , and disseminate to virtually all organs . All are aggressive tumors with the tendency to disseminate throughout the central nervous system .
+
+ppatt:
+	?a reach ?b
+		?a: These particles
+		?b: the lungs
+	?a disseminate to ?b
+		?a: These particles
+		?b: virtually all organs
+	?a are aggressive tumors with ?b
+		?a: All
+		?b: the tendency to disseminate throughout the central nervous system
+	?a disseminate throughout ?b
+		?a: the tendency
+		?b: the central nervous system
+
+
+label:    sent_6
+sentence: The need to disseminate knowledge of resuscitation into the community . Students are required to disseminate their work through conference presentations and/or peer-reviewed publications .
+
+ppatt:
+	?a disseminate ?b
+		?a: The need
+		?b: knowledge of resuscitation into the community
+	?a ?b are required to disseminate ?c through ?d
+		?a: The need to disseminate knowledge of resuscitation into the community
+		?b: Students
+		?c: their work
+		?d: conference presentations
+	?a ?b are required to disseminate ?c through ?d
+		?a: The need to disseminate knowledge of resuscitation into the community
+		?b: Students
+		?c: their work
+		?d: peer-reviewed publications
+
+
+label:    sent_7
+sentence: We plan to disseminate the results through publications and presentation at relevant conferences .
+
+ppatt:
+	?a plan to disseminate ?b at ?c
+		?a: We
+		?b: the results through publications and presentation
+		?c: relevant conferences
+
+
+label:    sent_8
+sentence: We developed a plan to build department champions to disseminate information and provide mentorship .
+
+ppatt:
+	?a developed ?b
+		?a: We
+		?b: a plan to build department champions to disseminate information and provide mentorship
+	?a build ?b to disseminate ?c
+		?a: a plan
+		?b: department champions
+		?c: information
+	build to provide ?a
+		?a: mentorship
+
+
+label:    sent_9
+sentence: Further work to refine and disseminate the indications for third ventriculostomy is warranted .
+
+ppatt:
+	?a refine ?b
+		?a: Further work
+		?b: the indications for third ventriculostomy
+	?a disseminate
+		?a: Further work
+	?a is warranted
+		?a: Further work to refine and disseminate the indications for third ventriculostomy
+
+
+label:    sent_10
+sentence: She had a mild conjunctivitis and disseminate , not very prominent intraepithelial corneal opacities . 5 ml disseminate to unexpected and undesirable regions .
+
+ppatt:
+	?a had ?b
+		?a: She
+		?b: a mild conjunctivitis
+	?a disseminate ?b
+		?a: She
+		?b: not very prominent intraepithelial corneal opacities
+	?a disseminate to ?b
+		?a: 5 ml
+		?b: unexpected and undesirable regions
+
+
+label:    sent_11
+sentence: Persistent viruses disseminate from immune hosts . Pathogenic leptospires disseminate via the bloodstream to colonize the renal tubules of reservoir hosts .
+
+ppatt:
+	?a disseminate from ?b
+		?a: Persistent viruses
+		?b: immune hosts
+	?a disseminate via ?b to colonize ?c
+		?a: Pathogenic leptospires
+		?b: the bloodstream
+		?c: the renal tubules of reservoir hosts
+
+
+label:    sent_12
+sentence: The interventions themselves are easy to disseminate and deliver .
+
+ppatt:
+	?a are easy to disseminate
+		?a: The interventions themselves
+	?a are easy to deliver
+		?a: The interventions themselves
+
+
+label:    sent_13
+sentence: More work is needed to disseminate and clarify the CDC MEC .
+
+ppatt:
+	?a is needed to disseminate ?b
+		?a: More work
+		?b: the CDC MEC
+	?a is needed to clarify
+		?a: More work
+
+
+label:    sent_14
+sentence: MTb must drive host tissue destruction to disseminate and also to cause pulmonary cavitation .
+
+ppatt:
+	?a must drive ?b to disseminate to cause ?c
+		?a: MTb
+		?b: host tissue destruction
+		?c: pulmonary cavitation
+
+
+label:    sent_15
+sentence: Candida glabrata colonizes but does not often disseminate from the mouse caecum .
+
+ppatt:
+	?a colonizes
+		?a: Candida glabrata
+	?a does not often disseminate from ?b
+		?a: Candida glabrata
+		?b: the mouse caecum
+
+
+label:    sent_16
+sentence: These results suggest that H5N1 escapes viral-specific immunity , and could disseminate via DC .
+
+ppatt:
+	?a suggest ?b
+		?a: These results
+		?b: SOMETHING := H5N1 escapes viral-specific immunity
+	?a escapes ?b
+		?a: H5N1
+		?b: viral-specific immunity
+	?a could disseminate via ?b
+		?a: H5N1
+		?b: DC
+
+
+label:    sent_17
+sentence: The fungus usually affects lung parenchyma and may disseminate from there . An innovative communication model to disseminate information .
+
+ppatt:
+	?a usually affects ?b ?c
+		?a: The fungus
+		?b: lung parenchyma
+		?c: An innovative communication model to disseminate information
+	may disseminate ?a ?b
+		?a: from
+		?b: there
+	?a disseminate ?b
+		?a: An innovative communication model
+		?b: information
+
+
+label:    sent_18
+sentence: Obvious and not-so-obvious strategies to disseminate research .
+
+ppatt:
+	?a disseminate ?b
+		?a: Obvious and not-so-obvious strategies
+		?b: research
+
+
+label:    sent_19
+sentence: How to best disseminate those findings to nurses remains a challenge .
+
+ppatt:
+	How to best disseminate ?a
+		?a: those findings to nurses
+
+
+label:    sent_20
+sentence: Microsporidia species could disseminate to other organs and become systemic in severe immunocompromised cases .
+
+ppatt:
+	?a could disseminate to ?b
+		?a: Microsporidia species
+		?b: other organs
+	?a become systemic in ?b
+		?a: Microsporidia species
+		?b: severe immunocompromised cases
+
+
+label:    sent_21
+sentence: Viruses can disseminate via the bloodstream or through nerves .
+
+ppatt:
+	?a can disseminate via ?b
+		?a: Viruses
+		?b: the bloodstream
+	?a can disseminate via ?b
+		?a: Viruses
+		?b: nerves
+
+
+label:    sent_22
+sentence: In this model , cancer cells disseminate early but remain dormant for several weeks . Randomized pilot study to disseminate caries-control services in dentist offices .
+
+ppatt:
+	In ?a , ?b disseminate early ?c
+		?a: this model
+		?b: cancer cells
+		?c: Randomized pilot study to disseminate caries-control services in dentist offices
+	?a remain dormant for ?b
+		?a: cancer cells
+		?b: several weeks
+	?a disseminate ?b
+		?a: Randomized pilot study
+		?b: caries-control services in dentist offices
+
+
+label:    sent_23
+sentence: Investigators will disseminate findings via presentations and publications .
+
+ppatt:
+	?a will disseminate ?b
+		?a: Investigators
+		?b: findings via presentations and publications
+
+
+label:    sent_24
+sentence: We will also disseminate the main results to our participants in a letter .
+
+ppatt:
+	?a will also disseminate ?b
+		?a: We
+		?b: the main results to our participants in a letter
+
+

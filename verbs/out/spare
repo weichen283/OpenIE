@@ -1,0 +1,212 @@
+label:    sent_1
+sentence: Motor learning : spare the rod to benefit the child ? In the early stages we try to spare the reproductive functions of the patients .
+
+ppatt:
+	benefit ?a
+		?a: the child
+	?a ?b try to spare ?c
+		?a: Motor learning
+		?b: we
+		?c: the reproductive functions of the patients
+
+
+label:    sent_2
+sentence: This strategy may be a compensatory strategy to spare cognitive resources .
+
+ppatt:
+	?a may be a compensatory strategy
+		?a: This strategy
+	?a spare ?b
+		?a: a compensatory strategy
+		?b: cognitive resources
+
+
+label:    sent_3
+sentence: Thus targeting Mirk for intervention in sarcomas might spare most normal tissues . Laparoscopy may spare laparotomy and decrease morbidity for patients with nonresectable advanced disease .
+
+ppatt:
+	targeting ?a for ?b
+		?a: Mirk
+		?b: intervention in sarcomas
+	Thus ?a might spare ?b
+		?a: SOMETHING := targeting Mirk for intervention in sarcomas
+		?b: most normal tissues
+	?a may spare ?b
+		?a: Laparoscopy
+		?b: laparotomy
+	?a decrease ?b
+		?a: Laparoscopy
+		?b: morbidity for patients with nonresectable advanced disease
+
+
+label:    sent_4
+sentence: Age does not spare the liver .
+
+ppatt:
+	?a does not spare ?b
+		?a: Age
+		?b: the liver
+
+
+label:    sent_5
+sentence: Therefore , we need to spare the cord at an earlier dose limit .
+
+ppatt:
+	Therefore , ?a need to spare ?b at ?c
+		?a: we
+		?b: the cord
+		?c: an earlier dose limit
+
+
+label:    sent_6
+sentence: This is often based on the desire to spare children from being overwhelmed .
+
+ppatt:
+	?a is often based on ?b
+		?a: This
+		?b: the desire to spare children from being overwhelmed
+	?a spare ?b
+		?a: the desire
+		?b: children
+	?a being overwhelmed
+		?a: children
+
+
+label:    sent_7
+sentence: Conformal treatment delivery is used to spare adjacent normal tissue from receiving unnecessary dose .
+
+ppatt:
+	?a is used to spare ?b
+		?a: Conformal treatment delivery
+		?b: adjacent normal tissue
+	?a receiving ?b
+		?a: adjacent normal tissue
+		?b: unnecessary dose
+
+
+label:    sent_8
+sentence: How to mend the heart but spare the mind .
+
+ppatt:
+	How to mend ?a
+		?a: the heart
+	spare ?a
+		?a: the mind
+
+
+label:    sent_9
+sentence: The authors warned against to hastily and to spare operations instead of adnexectomy .
+
+ppatt:
+	?a warned against to hastily
+		?a: The authors
+	?a spare ?b
+		?a: The authors
+		?b: operations instead of adnexectomy
+
+
+label:    sent_10
+sentence: The procedure has negligible morbidity and can spare the patient considerable time and expense .
+
+ppatt:
+	?a has ?b
+		?a: The procedure
+		?b: negligible morbidity
+	?a can spare ?b
+		?a: The procedure
+		?b: the patient
+
+
+label:    sent_11
+sentence: Awareness of this condition could spare these children from straining , expensive tests .
+
+ppatt:
+	?a could spare ?b ?c
+		?a: Awareness of this condition
+		?b: these children
+		?c: from straining , tests
+
+
+label:    sent_12
+sentence: Endoscopic thoracotomy : how it can spare patients from major thoracic surgery .
+
+ppatt:
+
+
+
+label:    sent_13
+sentence: With this combination we spare surgical procedures .
+
+ppatt:
+	With ?a ?b spare ?c
+		?a: this combination
+		?b: we
+		?c: surgical procedures
+
+
+label:    sent_14
+sentence: This suggests that BCAA spare protein as in muscle and produce glutamine .
+
+ppatt:
+	?a suggests ?b
+		?a: This
+		?b: SOMETHING := BCAA spare protein as in muscle
+	?a spare ?b as in ?c
+		?a: BCAA
+		?b: protein
+		?c: muscle
+	?a produce ?b
+		?a: BCAA
+		?b: glutamine
+
+
+label:    sent_15
+sentence: Does training spare insulin secretion and diminish glucose levels in real life ? Unreamed nails spare the endosteal circulation , but provide a less stable fixation .
+
+ppatt:
+	Does ?a spare ?b
+		?a: training
+		?b: insulin secretion
+	?a diminish ?b in ?c
+		?a: training
+		?b: glucose levels
+		?c: real life
+	?a spare ?b
+		?a: Unreamed nails
+		?b: the endosteal circulation
+	?a provide ?b
+		?a: training
+		?b: a less stable fixation
+
+
+label:    sent_16
+sentence: Power to spare . Risk infection to spare bleeding ? It can spare patients invasive procedures that are not clearly of benefit .
+
+ppatt:
+	?a spare ?b to spare ?c
+		?a: Power
+		?b: Risk infection
+		?c: bleeding
+	?a ?b can spare ?c ?d
+		?a: Power to spare . Risk infection to spare bleeding
+		?b: It
+		?c: patients
+		?d: invasive procedures that are not clearly of benefit
+	?a are not clearly of benefit
+		?a: invasive procedures
+
+
+label:    sent_17
+sentence: Aging seems to spare the SBCO2T during sleep . Just enough cash , but little to spare for drive on inequalities .
+
+ppatt:
+	?a seems to spare ?b during ?c ?d
+		?a: Aging
+		?b: the SBCO2T
+		?c: sleep
+		?d: Just enough cash
+	seems to ?a to spare for ?b
+		?a: little
+		?b: drive on inequalities
+
+

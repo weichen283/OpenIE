@@ -1,0 +1,259 @@
+label:    sent_1
+sentence: Nonlinear dynamics of emotion-cognition interaction : when emotion does not destroy cognition ? Therefore , the identification of new antimicrobials that inhibit or destroy biofilms is needed .
+
+ppatt:
+	?a inhibit ?b
+		?a: new antimicrobials
+		?b: biofilms
+	?a destroy
+		?a: that
+
+
+label:    sent_2
+sentence: An oxygen-based plasma is then used to destroy the exposed oligonucleotide primers .
+
+ppatt:
+	?a is then used to destroy ?b
+		?a: An oxygen-based plasma
+		?b: the exposed oligonucleotide primers
+
+
+label:    sent_3
+sentence: The results indicated that cooking followed by quick freezing process destroy the WSSV DNA .
+
+ppatt:
+	?a indicated ?b
+		?a: The results
+		?b: SOMETHING := cooking followed by quick freezing process destroy the WSSV DNA
+	?a followed by ?b
+		?a: cooking
+		?b: quick freezing process
+	?a destroy ?b
+		?a: cooking followed by quick freezing process
+		?b: the WSSV DNA
+
+
+label:    sent_4
+sentence: We report that TMR-TAT acts as a photosensitizer that can destroy membranes .
+
+ppatt:
+	?a report ?b
+		?a: We
+		?b: SOMETHING := TMR-TAT acts as a photosensitizer that can destroy membranes
+	?a acts as ?b
+		?a: TMR-TAT
+		?b: a photosensitizer that can destroy membranes
+	?a can destroy ?b
+		?a: a photosensitizer
+		?b: membranes
+
+
+label:    sent_5
+sentence: Exposure of DBS to elevated heat and humidity can destroy enzyme functions rapidly .
+
+ppatt:
+	?a can destroy ?b rapidly
+		?a: Exposure of DBS to elevated heat and humidity
+		?b: enzyme functions
+
+
+label:    sent_6
+sentence: Both cell types are able to effectively ingest and destroy the fungus . Although histologically benign , they have the ability to expand and destroy bone .
+
+ppatt:
+	?a are able to effectively ingest ?b
+		?a: Both cell types
+		?b: the fungus
+	?a are able to destroy
+		?a: Both cell types
+	histologically benign ?a
+		?a: they
+	?a have ?b
+		?a: they
+		?b: the ability to expand and destroy bone
+	?a expand ?b
+		?a: the ability
+		?b: bone
+	destroy ?a
+		?a: bone
+
+
+label:    sent_7
+sentence: These high rates cause extensive environmental upheaval and worsen or destroy economic development .
+
+ppatt:
+	?a cause ?b
+		?a: These high rates
+		?b: extensive environmental upheaval
+	?a worsen ?b
+		?a: These high rates
+		?b: economic development
+	?a destroy
+		?a: These high rates
+
+
+label:    sent_8
+sentence: RFA uses percutaneously placed image-guided probes to destroy tissues through localized heating .
+
+ppatt:
+	?a uses ?b to destroy ?c through ?d
+		?a: RFA
+		?b: percutaneously placed image-guided probes
+		?c: tissues
+		?d: localized heating
+
+
+label:    sent_9
+sentence: This paper discusses the use of ultrasound to destroy estrogen compounds in water .
+
+ppatt:
+	?a discusses ?b
+		?a: This paper
+		?b: the use of ultrasound to destroy estrogen compounds in water
+	?a destroy ?b in ?c
+		?a: the use of ultrasound
+		?b: estrogen compounds
+		?c: water
+
+
+label:    sent_10
+sentence: Bcg affects the capacity of macrophages to destroy ingested intracellular parasites early during infection .
+
+ppatt:
+	?a affects ?b
+		?a: Bcg
+		?b: the capacity of macrophages to destroy ingested intracellular parasites early during infection
+	?a destroy ?b early during ?c
+		?a: the capacity of macrophages
+		?b: ingested intracellular parasites
+		?c: infection
+
+
+label:    sent_11
+sentence: PDT can effectively destroy a malignant tissue and induce an antitumor activity .
+
+ppatt:
+	?a can effectively destroy ?b
+		?a: PDT
+		?b: a malignant tissue
+	?a induce ?b
+		?a: PDT
+		?b: an antitumor activity
+
+
+label:    sent_12
+sentence: The major milk protein lactoferrin can destroy microbes and reduce inflammatory responses .
+
+ppatt:
+	?a can destroy ?b
+		?a: The major milk protein lactoferrin
+		?b: microbes
+	?a reduce ?b
+		?a: The major milk protein lactoferrin
+		?b: inflammatory responses
+
+
+label:    sent_13
+sentence: Antiangiogenic therapy could destroy tumor vasculature and inhibit tumor growth .
+
+ppatt:
+	?a could destroy ?b
+		?a: Antiangiogenic therapy
+		?b: tumor vasculature
+	?a inhibit ?b
+		?a: Antiangiogenic therapy
+		?b: tumor growth
+
+
+label:    sent_14
+sentence: In finite arrays free boundaries destroy this collective motion .
+
+ppatt:
+	In ?a ?b destroy ?c
+		?a: finite arrays
+		?b: free boundaries
+		?c: this collective motion
+
+
+label:    sent_15
+sentence: Osteoclasts destroy bone by secreting protons , thereby making adjacent microenvironment acidic .
+
+ppatt:
+	?a destroy ?b
+		?a: Osteoclasts
+		?b: bone
+	?a secreting ?b
+		?a: Osteoclasts
+		?b: protons
+	thereby making adjacent ?a acidic
+		?a: microenvironment
+
+
+label:    sent_16
+sentence: Aminopeptidases also destroy epitopes by trimming them to even shorter lengths . ' Heat and destroy ' : bronchoscopic-guided therapy of peripheral lung lesions .
+
+ppatt:
+	?a also destroy ?b
+		?a: Aminopeptidases
+		?b: epitopes
+	?a trimming ?b to ?c
+		?a: Aminopeptidases
+		?b: them
+		?c: even shorter lengths
+	?a is/are Heat
+		?a: even shorter lengths
+	?a destroy
+		?a: Aminopeptidases
+
+
+label:    sent_17
+sentence: Biodegradation by microorganisms offers unique opportunities to destroy or render phenolic compounds .
+
+ppatt:
+	?a offers ?b
+		?a: Biodegradation by microorganisms
+		?b: unique opportunities to destroy or render phenolic compounds
+	?a destroy ?b
+		?a: unique opportunities
+		?b: phenolic compounds
+	render ?a
+		?a: phenolic compounds
+
+
+label:    sent_18
+sentence: Search and destroy : recent research exploits adult stem cells ' attraction to cancer .
+
+ppatt:
+
+
+
+label:    sent_19
+sentence: Nonlinearity halts this growth and in some cases can destroy the intermittency .
+
+ppatt:
+	?a halts ?b
+		?a: Nonlinearity
+		?b: this growth
+	in ?a can destroy ?b
+		?a: some cases
+		?b: the intermittency
+
+
+label:    sent_20
+sentence: Why not destroy the remaining smallpox virus stocks ? A case for aggressive search and destroy .
+
+ppatt:
+	Why not destroy ?a
+		?a: the remaining smallpox virus stocks
+	?a destroy
+		?a: the remaining smallpox virus stocks
+
+
+label:    sent_21
+sentence: Seek and destroy : relating cancer drivers to therapies .
+
+ppatt:
+	relating ?a
+		?a: cancer drivers to therapies
+
+

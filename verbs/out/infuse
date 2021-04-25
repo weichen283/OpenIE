@@ -1,0 +1,163 @@
+label:    sent_1
+sentence: Intergenerational service-learning : an innovative teaching strategy to infuse gerontology content into foundation courses .
+
+ppatt:
+	?a infuse ?b into ?c
+		?a: an innovative teaching strategy
+		?b: gerontology content
+		?c: foundation courses
+
+
+label:    sent_2
+sentence: The other was to infuse TSH via an osmotic pump for 7 days .
+
+ppatt:
+	?a was to infuse ?b via ?c for ?d
+		?a: The other
+		?b: TSH
+		?c: an osmotic pump
+		?d: 7 days
+
+
+label:    sent_3
+sentence: Clinical controversies : should you infuse anything else through a TPN line ? Pediatric intravenous kits were used to infuse an average of 51.2 milliliters per plant .
+
+ppatt:
+	?a should you infuse anything else through ?b
+		?a: Clinical controversies
+		?b: a TPN line
+	?a ?b were used to infuse ?c
+		?a: Clinical controversies
+		?b: Pediatric intravenous kits
+		?c: an average of 51.2 milliliters per plant
+
+
+label:    sent_4
+sentence: These results suggest that it may be safe to infuse pentamidine slowly intravenously .
+
+ppatt:
+	?a suggest ?b
+		?a: These results
+		?b: SOMETHING := it may be safe to infuse pentamidine slowly intravenously
+	?a may be safe to infuse ?b slowly intravenously
+		?a: it
+		?b: pentamidine
+
+
+label:    sent_5
+sentence: How much GMP do we need to infuse contaminated HPC and DLI products ? Thiacloprid did not infuse to tea liquor from processed tea .
+
+ppatt:
+	How ?a do ?b need to infuse ?c
+		?a: much GMP
+		?b: we
+		?c: contaminated HPC
+	How ?a do ?b need to infuse ?c
+		?a: much GMP
+		?b: we
+		?c: DLI products
+	?a did not infuse to ?b
+		?a: Thiacloprid
+		?b: tea liquor from processed tea
+
+
+label:    sent_6
+sentence: The study drug and placebo infusions were set to infuse at the same rate .
+
+ppatt:
+	?a were set to infuse at ?b
+		?a: The study drug
+		?b: the same rate
+	?a were set to infuse at ?b
+		?a: placebo infusions
+		?b: the same rate
+
+
+label:    sent_7
+sentence: To conclude , DSCs are safe to infuse with no adverse effects .
+
+ppatt:
+	conclude ?a
+		?a: DSCs
+	?a are safe to infuse with ?b
+		?a: DSCs
+		?b: no adverse effects
+
+
+label:    sent_8
+sentence: Strategies to infuse trust in healthy work environments .
+
+ppatt:
+	?a infuse ?b in ?c
+		?a: Strategies
+		?b: trust
+		?c: healthy work environments
+
+
+label:    sent_9
+sentence: The cultural diversity they bring can infuse an operation with energy . Medical-waste laws infuse disposal industry .
+
+ppatt:
+	?a ?b bring ?c
+		?a: The cultural diversity
+		?b: they
+		?c: SOMETHING := can infuse an operation with energy . Medical-waste laws infuse disposal industry
+	?a can infuse ?b
+		?a: The cultural diversity
+		?b: an operation with energy
+	?a infuse ?b
+		?a: Medical-waste laws
+		?b: disposal industry
+
+
+label:    sent_10
+sentence: This report should infuse the awareness about this reemerging disease specifically in high-risk group .
+
+ppatt:
+	?a should infuse ?b specifically in ?c
+		?a: This report
+		?b: the awareness about this reemerging disease
+		?c: high-risk group
+
+
+label:    sent_11
+sentence: The routine treatment of hemorrhagic shock is to infuse blood or substitute .
+
+ppatt:
+	?a is to infuse ?b
+		?a: The routine treatment of hemorrhagic shock
+		?b: blood
+	?a is to substitute
+		?a: The routine treatment of hemorrhagic shock
+
+
+label:    sent_12
+sentence: Controversies in resuscitation : to infuse or not to infuse ( 1 ) Controversies in resuscitation : to infuse or not to infuse ( 2 ) Military fluid resuscitation : to infuse or transfer ? Infusion study indicated that thiacloprid did not infuse into tea liquor from processed tea .
+
+ppatt:
+	?a infuse ?b : to infuse ?c : to infuse
+		?a: Controversies in resuscitation
+		?b: Controversies in resuscitation
+		?c: Military fluid resuscitation
+	not to infuse ?a
+		?a: Controversies in resuscitation
+	infuse : to not to infuse ?a : to infuse
+		?a: Military fluid resuscitation
+	?a indicated ?b
+		?a: Infusion study
+		?b: SOMETHING := thiacloprid did not infuse into tea liquor from processed tea
+	?a did not infuse into ?b
+		?a: thiacloprid
+		?b: tea liquor from processed tea
+
+
+label:    sent_13
+sentence: How much alcohol should we infuse in the coronary artery of hypertrophic cardiomyopathy patients ?
+
+ppatt:
+	How ?a should ?b infuse in ?c
+		?a: much alcohol
+		?b: we
+		?c: the coronary artery of hypertrophic cardiomyopathy patients
+
+

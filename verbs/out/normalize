@@ -1,0 +1,277 @@
+label:    sent_1
+sentence: Insulin treatment failed to normalize glucagon levels .
+
+ppatt:
+	?a failed to normalize ?b
+		?a: Insulin treatment
+		?b: glucagon levels
+
+
+label:    sent_2
+sentence: Mechanical assistance to normalize the circulation is being investigated and holds some promise .
+
+ppatt:
+	?a normalize ?b
+		?a: Mechanical assistance
+		?b: the circulation
+	?a is being investigated
+		?a: Mechanical assistance to normalize the circulation
+	?a holds ?b
+		?a: Mechanical assistance to normalize the circulation
+		?b: some promise
+
+
+label:    sent_3
+sentence: Capsule volume was determined from alginate or PFC content and used to normalize measurements .
+
+ppatt:
+	?a was determined from ?b
+		?a: Capsule volume
+		?b: alginate
+	?a was determined from ?b
+		?a: Capsule volume
+		?b: PFC
+	?a used to normalize ?b
+		?a: Capsule volume
+		?b: measurements
+
+
+label:    sent_4
+sentence: It can normalize genes of different species simultaneously .
+
+ppatt:
+	?a can normalize ?b simultaneously
+		?a: It
+		?b: genes of different species
+
+
+label:    sent_5
+sentence: While it normalized movement peak speed , it did not normalize movement amplitude .
+
+ppatt:
+	?a normalized ?b
+		?a: it
+		?b: movement peak speed
+	?a did not normalize ?b
+		?a: it
+		?b: movement amplitude
+
+
+label:    sent_6
+sentence: Chronic insulin treatment of diabetes does not fully normalize alterations in the retinal transcriptome .
+
+ppatt:
+	?a does not fully normalize ?b
+		?a: Chronic insulin treatment of diabetes
+		?b: alterations in the retinal transcriptome
+
+
+label:    sent_7
+sentence: Methylprednisolone helped normalize her level of C1 INH and ameliorate the clinical course .
+
+ppatt:
+	?a helped normalize ?b
+		?a: Methylprednisolone
+		?b: her level of C1 INH
+	?a helped ameliorate ?b
+		?a: Methylprednisolone
+		?b: the clinical course
+
+
+label:    sent_8
+sentence: In these latter patients , desferrioxamine reduced but did not normalize the iron balance .
+
+ppatt:
+	In ?a , ?b reduced
+		?a: these latter patients
+		?b: desferrioxamine
+	?a did not normalize ?b
+		?a: desferrioxamine
+		?b: the iron balance
+
+
+label:    sent_9
+sentence: Topical minoxidil seems to normalize hair follicles and increase blood flow to the scalp . Left ventricular wall motion began to normalize 12 +/- 3 sec after balloon deflation .
+
+ppatt:
+	?a seems to normalize ?b
+		?a: Topical minoxidil
+		?b: hair follicles
+	?a seems to increase ?b
+		?a: Topical minoxidil
+		?b: blood flow to the scalp
+	?a began to normalize ?b
+		?a: Left ventricular wall motion
+		?b: 12 +/- 3 sec after balloon deflation
+
+
+label:    sent_10
+sentence: In fact , S100A1 seems to normalize cardiac function after myocardial infarction .
+
+ppatt:
+	In ?a , ?b seems to normalize ?c after ?d
+		?a: fact
+		?b: S100A1
+		?c: cardiac function
+		?d: myocardial infarction
+
+
+label:    sent_11
+sentence: The delta method was used to normalize the data before bivariant correlation analysis .
+
+ppatt:
+	?a was used to normalize ?b before ?c
+		?a: The delta method
+		?b: the data
+		?c: bivariant correlation analysis
+
+
+label:    sent_12
+sentence: The acute changes appear to normalize between three-six months post injury .
+
+ppatt:
+	?a appear to normalize between ?b
+		?a: The acute changes
+		?b: three-six months post injury
+
+
+label:    sent_13
+sentence: Both of these parameters tended to normalize between 96 and 120 hr after treatment .
+
+ppatt:
+	?a tended to normalize between ?b
+		?a: Both of these parameters
+		?b: 96 and 120 hr
+
+
+label:    sent_14
+sentence: The elevated enzyme activity tended to normalize during convalescence .
+
+ppatt:
+	?a tended to normalize during ?b
+		?a: The elevated enzyme activity
+		?b: convalescence
+
+
+label:    sent_15
+sentence: Those drugs transiently normalize tumor vessels and ultimately provoke vascular regression . EACA and clotting factors normalize the TEG and arrest PSC .
+
+ppatt:
+	?a transiently normalize ?b
+		?a: Those drugs
+		?b: tumor vessels
+	?a ultimately provoke ?b
+		?a: Those drugs
+		?b: vascular regression
+	?a ?b normalize ?c
+		?a: EACA
+		?b: factors
+		?c: TEG
+	?a ?b normalize ?c
+		?a: clotting
+		?b: factors
+		?c: TEG
+	?a ?b normalize ?c
+		?a: EACA
+		?b: factors
+		?c: arrest
+	?a ?b normalize ?c
+		?a: clotting
+		?b: factors
+		?c: arrest
+
+
+label:    sent_16
+sentence: The newer percutaneous VADs can normalize cardiac index and can be implanted without surgery . Biplane myocardial mechanics normalize after aortic valve replacement ( AVR ) . His prothrombin time did not normalize with intravenous vitamin K .
+
+ppatt:
+	?a can normalize ?b
+		?a: The newer percutaneous VADs
+		?b: cardiac index
+	?a can be implanted without ?b
+		?a: The newer percutaneous VADs
+		?b: surgery
+	?a normalize after ?b
+		?a: Biplane myocardial mechanics
+		?b: aortic valve replacement
+	?a is/are AVR
+		?a: aortic valve replacement
+	?a did not normalize with ?b
+		?a: His prothrombin time
+		?b: intravenous vitamin K
+
+
+label:    sent_17
+sentence: White matter abnormalities in dystonia normalize after botulinum toxin treatment .
+
+ppatt:
+	?a normalize after ?b
+		?a: White matter abnormalities in dystonia
+		?b: botulinum toxin treatment
+
+
+label:    sent_18
+sentence: A python module to normalize microarray data by the quantile adjustment method .
+
+ppatt:
+	?a normalize ?b by ?c
+		?a: A python module
+		?b: microarray data
+		?c: the quantile adjustment method
+
+
+label:    sent_19
+sentence: Nimodipine and verapamil normalize cerebral pH following middle cerebral artery occlusion in the rat . [ Pyridoxine can normalize oxaluria in idiopathic renal lithiasis ] . A Bayesian procedure was used to normalize and convert raw signals to expression ratios .
+
+ppatt:
+	?a normalize ?b following ?c
+		?a: Nimodipine
+		?b: cerebral pH
+		?c: middle cerebral artery occlusion in the rat
+	?a normalize ?b following ?c
+		?a: verapamil
+		?b: cerebral pH
+		?c: middle cerebral artery occlusion in the rat
+	?a can normalize ?b in ?c
+		?a: Pyridoxine
+		?b: oxaluria
+		?c: idiopathic renal lithiasis ]
+	?a was used to normalize ?b to ?c
+		?a: A Bayesian procedure
+		?b: raw signals
+		?c: expression ratios
+	?a was used to convert
+		?a: A Bayesian procedure
+
+
+label:    sent_20
+sentence: The body composition improved but did not normalize . Compliance improved but did not normalize .
+
+ppatt:
+	?a improved
+		?a: The body composition
+	?a did not normalize
+		?a: The body composition
+	?a improved
+		?a: Compliance
+	?a did not normalize
+		?a: Compliance
+
+
+label:    sent_21
+sentence: However , our data suggest that appearance does not fully " normalize . " Then , we normalize to get the best choice for the helical energy . MII patterns 10 weeks after surgery do not normalize .
+
+ppatt:
+	However , ?a suggest ?b ?c
+		?a: our data
+		?b: SOMETHING := appearance does not fully " normalize . Then
+		?c: SOMETHING := we normalize to get the best choice for the helical energy . MII patterns do not normalize
+	?a does not fully " normalize . Then
+		?a: appearance
+	?a normalize to get ?b
+		?a: we
+		?b: the best choice for the helical energy
+	?a do not normalize
+		?a: MII patterns
+
+

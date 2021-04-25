@@ -1,0 +1,20 @@
+label:    sent_1
+sentence: On day 3 and day 6 after infection the fish were dip-treated ( for 5 min/day ) with a tri-herbal concoction of Curcuma longa , Ocimum sanctum and Azadirachta indica ( 1 % ) .
+
+ppatt:
+	On ?a ?b were dip-treated with ?c
+		?a: day 3 after infection
+		?b: the fish
+		?c: a tri-herbal concoction of Curcuma longa , and Azadirachta indica
+	On ?a ?b were dip-treated with ?c
+		?a: day 6
+		?b: the fish
+		?c: a tri-herbal concoction of Curcuma longa , and Azadirachta indica
+	?a is/are Ocimum sanctum
+		?a: Curcuma longa
+	?a is/are Ocimum sanctum
+		?a: Azadirachta indica
+	?a is/are 1 %
+		?a: Azadirachta indica
+
+

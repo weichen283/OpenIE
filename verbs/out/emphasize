@@ -1,0 +1,313 @@
+label:    sent_1
+sentence: Intervention should emphasize teaching social skills .
+
+ppatt:
+	?a should emphasize ?b
+		?a: Intervention
+		?b: teaching social skills
+
+
+label:    sent_2
+sentence: Counseling messages should emphasize the importance of starting ART early .
+
+ppatt:
+	?a should emphasize ?b
+		?a: Counseling messages
+		?b: the importance of starting ART early
+	?a starting ?b early
+		?a: the importance
+		?b: ART
+
+
+label:    sent_3
+sentence: Various publications and studies emphasize the importance of these drugs in evidence-based medicine .
+
+ppatt:
+	?a emphasize ?b
+		?a: Various publications
+		?b: the importance of these drugs in evidence-based medicine
+	?a emphasize ?b
+		?a: studies
+		?b: the importance of these drugs in evidence-based medicine
+
+
+label:    sent_4
+sentence: During the remediation process , the remediation curriculum needs to emphasize self-reflection .
+
+ppatt:
+	During ?a , ?b needs to emphasize ?c
+		?a: the remediation process
+		?b: the remediation curriculum
+		?c: self-reflection
+
+
+label:    sent_5
+sentence: To describe the pathogenesis and emphasize prognosis of systemic inflammatory response during severe infection .
+
+ppatt:
+	describe ?a
+		?a: the pathogenesis
+	emphasize ?a during ?b
+		?a: prognosis of systemic inflammatory response
+		?b: severe infection
+
+
+label:    sent_6
+sentence: Clinicians need to emphasize wellness .
+
+ppatt:
+	?a need to emphasize ?b
+		?a: Clinicians
+		?b: wellness
+
+
+label:    sent_7
+sentence: Other explanations emphasize how virulence evolves in response to competition among pathogens within hosts .
+
+ppatt:
+	?a emphasize ?b
+		?a: Other explanations
+		?b: SOMETHING := how virulence evolves in response to competition among pathogens within hosts
+	how ?a evolves in ?b to ?c
+		?a: virulence
+		?b: response
+		?c: competition among pathogens within hosts
+
+
+label:    sent_8
+sentence: Most theories of categorization emphasize how continuous perceptual information is mapped to categories .
+
+ppatt:
+	?a emphasize ?b
+		?a: Most theories of categorization
+		?b: SOMETHING := how continuous perceptual information is mapped to categories
+	how ?a is mapped to ?b
+		?a: continuous perceptual information
+		?b: categories
+
+
+label:    sent_9
+sentence: Several studies emphasize that margin-free tumor resection is the most important predictor of LR .
+
+ppatt:
+	?a emphasize ?b
+		?a: Several studies
+		?b: SOMETHING := margin-free tumor resection is the most important predictor of LR
+	?a is the most important predictor of ?b
+		?a: margin-free tumor resection
+		?b: LR
+
+
+label:    sent_10
+sentence: Guidelines emphasize activity enhancement strategies as beneficial .
+
+ppatt:
+	?a emphasize ?b as ?c
+		?a: Guidelines
+		?b: activity enhancement strategies
+		?c: beneficial
+
+
+label:    sent_11
+sentence: Interventions to increase activity should emphasize behavioral strategies over cognitive strategies .
+
+ppatt:
+	?a increase ?b
+		?a: Interventions
+		?b: activity
+	?a should emphasize ?b over ?c
+		?a: Interventions to increase activity
+		?b: behavioral strategies
+		?c: cognitive strategies
+
+
+label:    sent_12
+sentence: Because of the unclear evidence , guidelines emphasize the importance of shared decision-making .
+
+ppatt:
+	Because of ?a , ?b emphasize ?c
+		?a: the unclear evidence
+		?b: guidelines
+		?c: the importance of shared decision-making
+
+
+label:    sent_13
+sentence: They emphasize the importance of staff cooperation and discuss ways it can be fostered .
+
+ppatt:
+	?a emphasize ?b
+		?a: They
+		?b: the importance of staff cooperation
+	?a discuss ?b
+		?a: They
+		?b: ways
+	?a can be fostered
+		?a: it
+
+
+label:    sent_14
+sentence: The findings emphasize the importance of screening and follow up monitoring of distress .
+
+ppatt:
+	?a emphasize ?b
+		?a: The findings
+		?b: the importance of screening
+	?a follow ?b
+		?a: The findings
+		?b: up monitoring of distress
+
+
+label:    sent_15
+sentence: They emphasize the mechanisms of thermoregulation and discuss the pathophysiology of such hypothermia incidents .
+
+ppatt:
+	?a emphasize ?b
+		?a: They
+		?b: the mechanisms of thermoregulation
+	?a discuss ?b
+		?a: They
+		?b: the pathophysiology of such hypothermia incidents
+
+
+label:    sent_16
+sentence: These examples will further broaden the scope and emphasize the significance of ISR .
+
+ppatt:
+	?a will further broaden ?b
+		?a: These examples
+		?b: the scope
+	?a emphasize ?b
+		?a: These examples
+		?b: the significance of ISR
+
+
+label:    sent_17
+sentence: All existing cortical eQTL studies are small and emphasize the need for a meta-analysis .
+
+ppatt:
+	?a are small
+		?a: All existing cortical eQTL studies
+	?a emphasize ?b
+		?a: All existing cortical eQTL studies
+		?b: the need for a meta-analysis
+
+
+label:    sent_18
+sentence: This article details the findings and emphasize the criteria for recognizing hepatic hydatid disease .
+
+ppatt:
+	?a details ?b
+		?a: This article
+		?b: the findings
+	?a emphasize ?b
+		?a: This article
+		?b: the criteria for recognizing hepatic hydatid disease
+	?a recognizing ?b
+		?a: the criteria
+		?b: hepatic hydatid disease
+
+
+label:    sent_19
+sentence: Charted records of dizzy patients suggest emergency physicians emphasize symptom quality in diagnostic assessment .
+
+ppatt:
+	?a suggest ?b
+		?a: Charted records of dizzy patients
+		?b: SOMETHING := emergency physicians emphasize symptom quality in diagnostic assessment
+	?a emphasize ?b
+		?a: emergency physicians
+		?b: symptom quality in diagnostic assessment
+
+
+label:    sent_20
+sentence: Nobelists emphasize interdependence in global science and technology . Hospitals begin to emphasize quality in devising strategic plans .
+
+ppatt:
+	?a emphasize ?b
+		?a: Nobelists
+		?b: interdependence in global science and technology
+	?a begin to emphasize ?b
+		?a: Hospitals
+		?b: quality
+	?a devising ?b
+		?a: Hospitals
+		?b: strategic plans
+
+
+label:    sent_21
+sentence: In this short review we emphasize what has actually been accomplished in this area .
+
+ppatt:
+	In ?a ?b emphasize ?c
+		?a: this short review
+		?b: we
+		?c: SOMETHING := what has actually been accomplished in this area
+	?a has actually been accomplished in ?b
+		?a: what
+		?b: this area
+
+
+label:    sent_22
+sentence: At the end we emphasize where one might productively proceed for the future research .
+
+ppatt:
+	At ?a ?b emphasize ?c
+		?a: the end
+		?b: we
+		?c: SOMETHING := where one might productively proceed for the future research
+	where ?a might productively proceed for ?b
+		?a: one
+		?b: the future research
+
+
+label:    sent_23
+sentence: For clarity , we emphasize that no mechanical stresses were considered .
+
+ppatt:
+	For ?a , ?b emphasize ?c
+		?a: clarity
+		?b: we
+		?c: SOMETHING := no mechanical stresses were considered
+	?a were considered
+		?a: no mechanical stresses
+
+
+label:    sent_24
+sentence: They emphasize responsible , rather than conscious family attitudes .
+
+ppatt:
+	?a emphasize ?b
+		?a: They
+		?b: responsible
+	?a emphasize ?b
+		?a: They
+		?b: conscious
+
+
+label:    sent_25
+sentence: To maximize benefit , clinicians should emphasize and encourage prevention strategies that are effective .
+
+ppatt:
+	maximize ?a ?b
+		?a: benefit
+		?b: clinicians
+	?a should emphasize ?b
+		?a: clinicians
+		?b: prevention strategies that are effective
+	?a encourage
+		?a: clinicians
+	?a are effective
+		?a: prevention strategies
+
+
+label:    sent_26
+sentence: Both courses emphasize and utilize cutting-edge technology .
+
+ppatt:
+	?a emphasize ?b
+		?a: Both courses
+		?b: cutting-edge technology
+	?a utilize
+		?a: Both courses
+
+

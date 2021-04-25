@@ -1,0 +1,270 @@
+label:    sent_1
+sentence: These pathways intersect on WNT4 , which is also necessary for proliferation .
+
+ppatt:
+	?a intersect on ?b
+		?a: These pathways
+		?b: WNT4 , which is also necessary for proliferation
+	?a is also necessary for ?b
+		?a: WNT4
+		?b: proliferation
+
+
+label:    sent_2
+sentence: Health care and higher education intersect in important fundamental ways . How these peptides intersect with MHC-I molecules remains poorly understood .
+
+ppatt:
+	?a intersect in ?b
+		?a: Health care
+		?b: important fundamental ways
+	?a intersect in ?b
+		?a: higher education
+		?b: important fundamental ways
+	How ?a intersect with ?b
+		?a: these peptides
+		?b: MHC-I molecules
+	?a remains poorly understood
+		?a: Health care
+	?a remains poorly understood
+		?a: higher education
+
+
+label:    sent_3
+sentence: Focal 6--12-nm densities are present where filaments intersect . Where support and education intersect .
+
+ppatt:
+	?a are present ?b
+		?a: Focal 6--12-nm densities
+		?b: SOMETHING := where filaments intersect . Where support and education intersect
+	where ?a intersect ?b
+		?a: filaments
+		?b: SOMETHING := Where support and education intersect
+	Where ?a intersect
+		?a: support
+	Where ?a intersect
+		?a: education
+
+
+label:    sent_4
+sentence: Here we discuss how the innate immune and ER-signalling pathways intersect .
+
+ppatt:
+	Here ?a discuss ?b
+		?a: we
+		?b: SOMETHING := how the innate immune and ER-signalling pathways intersect
+	how ?a intersect
+		?a: the innate immune and ER-signalling pathways
+
+
+label:    sent_5
+sentence: How inhibitory receptors intersect different signaling cascades is not fully understood .
+
+ppatt:
+	How ?a intersect ?b
+		?a: inhibitory receptors
+		?b: different signaling cascades
+
+
+label:    sent_6
+sentence: When ADHD and substance use disorders intersect : relationship and treatment implications .
+
+ppatt:
+	When ?a intersect ?b
+		?a: ADHD and substance use disorders
+		?b: relationship
+	When ?a intersect ?b
+		?a: ADHD and substance use disorders
+		?b: treatment
+
+
+label:    sent_7
+sentence: The overlapping spheres do not intersect the hard spheres .
+
+ppatt:
+	?a do not intersect ?b
+		?a: The overlapping spheres
+		?b: the hard spheres
+
+
+label:    sent_8
+sentence: When mental illness and the justice system intersect .
+
+ppatt:
+	When ?a intersect
+		?a: mental illness
+	When ?a intersect
+		?a: the justice system
+
+
+label:    sent_9
+sentence: We discuss anticancer peptides that intersect with pathological changes in the mitochondrion .
+
+ppatt:
+	?a discuss ?b
+		?a: We
+		?b: anticancer peptides that intersect with pathological changes in the mitochondrion
+	?a intersect with ?b
+		?a: anticancer peptides
+		?b: pathological changes in the mitochondrion
+
+
+label:    sent_10
+sentence: When medicine and culture intersect .
+
+ppatt:
+	When ?a intersect
+		?a: medicine
+	When ?a intersect
+		?a: culture
+
+
+label:    sent_11
+sentence: How specific microRNAs intersect with and modulate angiogenic signaling cascades is unknown .
+
+ppatt:
+	How ?a intersect ?b ?c
+		?a: specific microRNAs
+		?b: with
+		?c: angiogenic signaling cascades
+	?a modulate
+		?a: specific microRNAs
+	?a is unknown
+		?a: SOMETHING := How specific microRNAs intersect with angiogenic signaling cascades
+
+
+label:    sent_12
+sentence: These two approaches will intersect at many levels and should be considered complementary .
+
+ppatt:
+	?a will intersect at ?b
+		?a: These two approaches
+		?b: many levels
+	?a should be considered complementary
+		?a: These two approaches
+
+
+label:    sent_13
+sentence: The flat and circularly edged nanopetals intersect each other .
+
+ppatt:
+	?a intersect ?b
+		?a: The flat and circularly edged nanopetals
+		?b: each other
+
+
+label:    sent_14
+sentence: The ET was found to intersect the ICA .
+
+ppatt:
+	?a was found to intersect ?b
+		?a: The ET
+		?b: the ICA
+
+
+label:    sent_15
+sentence: Numerous arachnoid membranes were found to intersect the oculomotor nerves .
+
+ppatt:
+	?a were found to intersect ?b
+		?a: Numerous arachnoid membranes
+		?b: the oculomotor nerves
+
+
+label:    sent_16
+sentence: Globotriaosyl ceramide receptor function-where membrane structure and pathology intersect .
+
+ppatt:
+	?a intersect
+		?a: Globotriaosyl ceramide receptor function-where membrane structure
+	?a intersect
+		?a: pathology
+
+
+label:    sent_17
+sentence: These factors intersect and overlap in a multitude of ways to influence stakeholder alignment .
+
+ppatt:
+	?a intersect
+		?a: These factors
+	?a overlap in ?b
+		?a: These factors
+		?b: a multitude of ways to influence stakeholder alignment
+	?a influence ?b
+		?a: a multitude of ways
+		?b: stakeholder alignment
+
+
+label:    sent_18
+sentence: The acupoints are seen as the points where electromagnetic interfering striae intersect or converge .
+
+ppatt:
+	?a are seen as ?b
+		?a: The acupoints
+		?b: the points where electromagnetic interfering striae intersect or converge
+	?a where ?b intersect
+		?a: the points
+		?b: electromagnetic interfering striae
+	?a converge
+		?a: electromagnetic interfering striae
+
+
+label:    sent_19
+sentence: In fundic type both proximal and distal branches intersect fundic mucosa .
+
+ppatt:
+	In ?a ?b intersect ?c
+		?a: fundic type
+		?b: both proximal and distal branches
+		?c: fundic mucosa
+
+
+label:    sent_20
+sentence: Late endocytic multivesicular bodies intersect the chlamydial inclusion in the absence of CD63 .
+
+ppatt:
+	?a intersect ?b of ?c
+		?a: Late endocytic multivesicular bodies
+		?b: the chlamydial inclusion
+		?c: CD63
+
+
+label:    sent_21
+sentence: On preoperative lateral radiographs , the anterior humeral line did not intersect the capitellum .
+
+ppatt:
+	On ?a , ?b did not intersect ?c
+		?a: preoperative lateral radiographs
+		?b: the anterior humeral line
+		?c: the capitellum
+
+
+label:    sent_22
+sentence: Women describe bidirectional and cyclical ways through which IPV and health intersect over time .
+
+ppatt:
+	?a describe ?b
+		?a: Women
+		?b: bidirectional and cyclical ways through which IPV and health intersect over time
+	?a through ?b intersect over ?c
+		?a: bidirectional and cyclical ways
+		?b: IPV
+		?c: time
+	?a through ?b intersect over ?c
+		?a: bidirectional and cyclical ways
+		?b: health
+		?c: time
+
+
+label:    sent_23
+sentence: A method to estimate the point at which two lines intersect from noisy data .
+
+ppatt:
+	?a estimate ?b
+		?a: A method
+		?b: the point at which two lines intersect from noisy data
+	?a at ?b intersect from ?c
+		?a: the point
+		?b: two lines
+		?c: noisy data
+
+

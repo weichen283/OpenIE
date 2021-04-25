@@ -1,0 +1,341 @@
+label:    sent_1
+sentence: These stories represent narratives of heritability that are profoundly familial and cultural .
+
+ppatt:
+	?a represent ?b
+		?a: These stories
+		?b: narratives of heritability that are profoundly familial and cultural
+	?a are profoundly familial
+		?a: heritability
+	?a cultural
+		?a: that
+
+
+label:    sent_2
+sentence: Chronic chorioamnionitis and villitis of unknown etiology represent maternal anti-fetal cellular rejection .
+
+ppatt:
+	?a represent ?b
+		?a: Chronic chorioamnionitis of unknown etiology
+		?b: maternal anti-fetal cellular rejection
+	?a represent ?b
+		?a: villitis
+		?b: maternal anti-fetal cellular rejection
+
+
+label:    sent_3
+sentence: Thoracolumbar spine injuries represent the vast majority of unstable spine fractures .
+
+ppatt:
+	?a represent ?b
+		?a: Thoracolumbar spine injuries
+		?b: the vast majority of unstable spine fractures
+
+
+label:    sent_4
+sentence: Two sensored silicone breast models were configured to represent two different clinical presentations . PPB patients continue to represent a diagnostic challenge .
+
+ppatt:
+	?a were configured to represent ?b
+		?a: Two sensored silicone breast models
+		?b: two different clinical presentations
+	?a continue to represent ?b
+		?a: PPB patients
+		?b: a diagnostic challenge
+
+
+label:    sent_5
+sentence: How people process and represent magnitude has often been studied using number comparison tasks .
+
+ppatt:
+	How ?a process ?b
+		?a: people
+		?b: magnitude
+	?a represent
+		?a: people
+	has often been studied using ?a
+		?a: number comparison tasks
+
+
+label:    sent_6
+sentence: According to WHO Classification meningioma and craniopharyngioma represent two distinct pathological entities .
+
+ppatt:
+	According to ?a ?b represent ?c
+		?a: WHO
+		?b: Classification meningioma
+		?c: two distinct pathological entities
+	According to ?a ?b represent ?c
+		?a: WHO
+		?b: craniopharyngioma
+		?c: two distinct pathological entities
+
+
+label:    sent_7
+sentence: Among them , the immunosuppressant azathioprine could represent an effective and safe alternative .
+
+ppatt:
+	Among ?a , ?b could represent ?c
+		?a: them
+		?b: the immunosuppressant azathioprine
+		?c: an effective and safe alternative
+
+
+label:    sent_8
+sentence: Idiopathic CP and nonalcohol etiologies represent a large subgroup , particularly among women .
+
+ppatt:
+	?a represent ?b
+		?a: Idiopathic CP and nonalcohol etiologies
+		?b: a large subgroup , particularly among women
+
+
+label:    sent_9
+sentence: Other parts represent somatotopic processing and therefore reflect discriminative perceptive analysis .
+
+ppatt:
+	?a represent ?b
+		?a: Other parts
+		?b: somatotopic processing
+	?a therefore reflect ?b
+		?a: Other parts
+		?b: discriminative perceptive analysis
+
+
+label:    sent_10
+sentence: Earthworms represent the dominant macrofauna and enhance microbial activities in many soils . Keratinocytes represent 95 % of epidermal cells and can secrete several cytokines .
+
+ppatt:
+	?a represent ?b
+		?a: Earthworms
+		?b: the dominant macrofauna
+	?a enhance ?b in ?c
+		?a: Earthworms
+		?b: microbial activities
+		?c: many soils
+	?a represent ?b
+		?a: Keratinocytes
+		?b: 95 % of epidermal cells
+	?a can secrete ?b
+		?a: Keratinocytes
+		?b: several cytokines
+
+
+label:    sent_11
+sentence: The results are encouraging and represent a tribute to neurosurgical intervention .
+
+ppatt:
+	?a are encouraging
+		?a: The results
+	?a represent ?b
+		?a: The results
+		?b: a tribute to neurosurgical intervention
+
+
+label:    sent_12
+sentence: Low-density lipoproteins ( LDL ) are atherogenic and represent a strong cardiovascular risk factor .
+
+ppatt:
+	?a is/are LDL
+		?a: Low-density lipoproteins
+	?a are atherogenic
+		?a: Low-density lipoproteins
+	?a represent ?b
+		?a: Low-density lipoproteins
+		?b: a strong cardiovascular risk factor
+
+
+label:    sent_13
+sentence: The results showed that the transcripts were correctly assembled and represent actively expressed genes .
+
+ppatt:
+	?a showed ?b
+		?a: The results
+		?b: SOMETHING := the transcripts were correctly assembled
+	?a were correctly assembled
+		?a: the transcripts
+	?a represent ?b
+		?a: the transcripts
+		?b: actively expressed genes
+
+
+label:    sent_14
+sentence: In conclusion , hMPCs represent a promising cellular candidate for bone tissue engineering .
+
+ppatt:
+	In ?a , ?b represent ?c
+		?a: conclusion
+		?b: hMPCs
+		?c: a promising cellular candidate for bone tissue engineering
+
+
+label:    sent_15
+sentence: The prefrontal cortex is known to represent different types of information in working memory .
+
+ppatt:
+	?a is known to represent ?b
+		?a: The prefrontal cortex
+		?b: different types of information
+	?a working ?b
+		?a: The prefrontal cortex
+		?b: memory
+
+
+label:    sent_16
+sentence: The bone destruction was thought to represent metastasis from a bronchogenic carcinoma .
+
+ppatt:
+	?a was thought to represent ?b
+		?a: The bone destruction
+		?b: metastasis from a bronchogenic carcinoma
+
+
+label:    sent_17
+sentence: Survivin and p53 represent diametrically opposed signals that influence the apoptotic pathway .
+
+ppatt:
+	?a represent ?b
+		?a: Survivin
+		?b: diametrically opposed signals that influence the apoptotic pathway
+	?a represent ?b
+		?a: p53
+		?b: diametrically opposed signals that influence the apoptotic pathway
+	?a influence ?b
+		?a: diametrically opposed signals
+		?b: the apoptotic pathway
+
+
+label:    sent_18
+sentence: Recommendations represent systematically developed statements to help practitioners in reducing variability .
+
+ppatt:
+	?a represent ?b to help ?c
+		?a: Recommendations
+		?b: systematically developed statements
+		?c: practitioners
+	?a reducing ?b
+		?a: Recommendations
+		?b: variability
+
+
+label:    sent_19
+sentence: They represent an uncommon lesion that occurs mainly in craniofacial complex bones .
+
+ppatt:
+	?a represent ?b
+		?a: They
+		?b: an uncommon lesion that occurs mainly in craniofacial complex bones
+	?a occurs mainly in ?b
+		?a: an uncommon lesion
+		?b: craniofacial complex bones
+
+
+label:    sent_20
+sentence: In such cases and for nocturnal attacks , oxygen inhalations represent an alternative .
+
+ppatt:
+	In ?a , ?b represent ?c
+		?a: such cases
+		?b: oxygen inhalations
+		?c: an alternative
+	In ?a , ?b represent ?c
+		?a: nocturnal attacks
+		?b: oxygen inhalations
+		?c: an alternative
+
+
+label:    sent_21
+sentence: The minor may represent herself in court or may be provided with an attorney .
+
+ppatt:
+	?a may represent ?b in ?c
+		?a: The minor
+		?b: herself
+		?c: court
+	?a may be provided with ?b
+		?a: The minor
+		?b: an attorney
+
+
+label:    sent_22
+sentence: Endoleaks represent blood flow outside the stent-graft lumen but within the aneurysm sac .
+
+ppatt:
+	?a represent ?b
+		?a: Endoleaks
+		?b: blood flow outside the stent-graft lumen but within the aneurysm sac
+
+
+label:    sent_23
+sentence: These factors depend on technology and represent a standard on site .
+
+ppatt:
+	?a depend on ?b
+		?a: These factors
+		?b: technology
+	?a represent ?b
+		?a: These factors
+		?b: a standard on site
+
+
+label:    sent_24
+sentence: Fungal infections are rare but represent serious complications following organ transplantation .
+
+ppatt:
+	?a are rare
+		?a: Fungal infections
+	?a represent ?b following ?c
+		?a: Fungal infections
+		?b: serious complications
+		?c: organ transplantation
+
+
+label:    sent_25
+sentence: Most are asymptomatic and represent incidental findings at imaging .
+
+ppatt:
+	?a are asymptomatic
+		?a: Most
+	?a represent ?b at ?c
+		?a: Most
+		?b: incidental findings
+		?c: imaging
+
+
+label:    sent_26
+sentence: However , previous assumptions that Ia cells represent T-cell activation have to be questioned .
+
+ppatt:
+	?a represent ?b
+		?a: Ia cells
+		?b: T-cell activation
+	However , ?a have to be questioned
+		?a: previous assumptions that Ia cells represent T-cell activation
+
+
+label:    sent_27
+sentence: Longitudinal anatomical changes are reported , but it is uncertain what these changes represent .
+
+ppatt:
+	?a are reported
+		?a: Longitudinal anatomical changes
+	?a is uncertain ?b
+		?a: it
+		?b: SOMETHING := what these changes represent
+	?a ?b represent
+		?a: what
+		?b: these changes
+
+
+label:    sent_28
+sentence: We present arguments that these Type A electrocytes represent the plesiomorphic condition .
+
+ppatt:
+	?a present ?b
+		?a: We
+		?b: arguments that these Type A electrocytes represent the plesiomorphic condition
+	?a represent ?b
+		?a: these Type A electrocytes
+		?b: the plesiomorphic condition
+
+

@@ -1,0 +1,291 @@
+label:    sent_1
+sentence: Posttherapy monocytes retained the ability to mature into dendritic cells .
+
+ppatt:
+	?a retained ?b
+		?a: Posttherapy monocytes
+		?b: the ability to mature into dendritic cells
+	?a mature into ?b
+		?a: the ability
+		?b: dendritic cells
+
+
+label:    sent_2
+sentence: Larvae take 102-109 days to mature from egg to adult .
+
+ppatt:
+	?a take ?b
+		?a: Larvae
+		?b: 102-109 days
+	?a to mature from ?b to ?c
+		?a: Larvae
+		?b: egg
+		?c: adult
+
+
+label:    sent_3
+sentence: The purified monocytes were viable and retained their capacity to mature into macrophages .
+
+ppatt:
+	?a were viable
+		?a: The purified monocytes
+	?a retained ?b
+		?a: The purified monocytes
+		?b: their capacity to mature into macrophages
+	?a mature into ?b
+		?a: their capacity
+		?b: macrophages
+
+
+label:    sent_4
+sentence: Importantly , precursors mature into HB9 / ChAT-expressing functional MNs . GV spontaneously mature at the nuclear level .
+
+ppatt:
+	Importantly , ?a mature into ?b ?c
+		?a: precursors
+		?b: HB9
+		?c: ChAT-expressing functional MNs
+	?a spontaneously mature at ?b
+		?a: GV
+		?b: the nuclear level
+
+
+label:    sent_5
+sentence: Second , along any growth trajectory , individuals mature earlier when mortality is higher .
+
+ppatt:
+	along ?a when ?b is higher
+		?a: any growth trajectory
+		?b: mortality
+
+
+label:    sent_6
+sentence: However , these pathways do not mature simultaneously . Median disease-free survival is currently not mature .
+
+ppatt:
+	However , ?a do not mature simultaneously
+		?a: these pathways
+	?a is currently not mature
+		?a: Median disease-free survival
+
+
+label:    sent_7
+sentence: This suggested that eugenol converted into methyleugenol and linalool decreased as leaf mature .
+
+ppatt:
+	?a suggested ?b
+		?a: This
+		?b: SOMETHING := eugenol converted into methyleugenol and linalool decreased as leaf mature
+	?a converted into ?b
+		?a: eugenol
+		?b: methyleugenol
+	?a converted into ?b
+		?a: eugenol
+		?b: linalool
+	?a decreased as ?b
+		?a: eugenol converted into methyleugenol and linalool
+		?b: leaf mature
+
+
+label:    sent_8
+sentence: Alternatively , they may mature late and undergo delayed bone mineral accumulation .
+
+ppatt:
+	Alternatively , ?a may mature ?b ?c
+		?a: they
+		?b: late
+		?c: delayed bone mineral accumulation
+	?a undergo
+		?a: they
+
+
+label:    sent_9
+sentence: Both DC subsets mature and produce IFN-alpha upon interaction with recAd .
+
+ppatt:
+	?a mature ?b upon ?c
+		?a: Both DC subsets
+		?b: IFN-alpha
+		?c: interaction with recAd
+	?a produce
+		?a: Both DC subsets
+
+
+label:    sent_10
+sentence: We have found that oligodendrocyte precursors mature and synthesize myelin following transplantation .
+
+ppatt:
+	?a have found ?b
+		?a: We
+		?b: SOMETHING := oligodendrocyte precursors mature myelin following transplantation
+	?a mature ?b following ?c
+		?a: oligodendrocyte precursors
+		?b: myelin
+		?c: transplantation
+	?a synthesize
+		?a: oligodendrocyte precursors
+
+
+label:    sent_11
+sentence: They can not mature in humans , but die shortly after penetration .
+
+ppatt:
+	?a can not mature in ?b
+		?a: They
+		?b: humans
+	?a die shortly after ?b
+		?a: They
+		?b: penetration
+
+
+label:    sent_12
+sentence: Upon migration to various tissues , monocytes mature and differentiate into tissue macrophages .
+
+ppatt:
+	Upon ?a , ?b mature
+		?a: migration to various tissues
+		?b: monocytes
+	?a differentiate into ?b
+		?a: monocytes
+		?b: tissue macrophages
+
+
+label:    sent_13
+sentence: Under the effect of imprinting , receptors mature and reach their maximal binding capacity .
+
+ppatt:
+	Under ?a , ?b mature
+		?a: the effect of imprinting
+		?b: receptors
+	?a reach ?b
+		?a: receptors
+		?b: their maximal binding capacity
+
+
+label:    sent_14
+sentence: Drug information centers continue to mature and offer a useful service .
+
+ppatt:
+	?a continue to mature ?b
+		?a: Drug information centers
+		?b: a useful service
+	?a continue to offer
+		?a: Drug information centers
+
+
+label:    sent_15
+sentence: Progeny ascospores not carrying the killer element fail to mature and are inviable .
+
+ppatt:
+	?a not carrying ?b
+		?a: Progeny ascospores
+		?b: the killer element
+	?a fail to mature
+		?a: Progeny ascospores not carrying the killer element
+
+
+label:    sent_16
+sentence: Computational protein design continues to mature and advance .
+
+ppatt:
+	?a continues to mature
+		?a: Computational protein design
+	?a continues to advance
+		?a: Computational protein design
+
+
+label:    sent_17
+sentence: Human bone marrow-derived mesenchymal cells differentiate and mature into endocrine pancreatic lineage in vivo . T lymphocytes differentiate and mature in the thymus .
+
+ppatt:
+	?a differentiate into ?b in vivo
+		?a: Human bone marrow-derived mesenchymal cells
+		?b: endocrine pancreatic lineage
+	?a differentiate in ?b
+		?a: T lymphocytes
+		?b: the thymus
+
+
+label:    sent_18
+sentence: Newly formed bone was observed in all the groups and became mature with time .
+
+ppatt:
+	?a was observed in ?b
+		?a: Newly formed bone
+		?b: all the groups
+	?a became mature with ?b
+		?a: Newly formed bone
+		?b: time
+
+
+label:    sent_19
+sentence: Intrarenal mature cystic teratoma with renal dysplasia .
+
+ppatt:
+
+
+
+label:    sent_20
+sentence: The mature athlete with hip arthritis .
+
+ppatt:
+
+
+
+label:    sent_21
+sentence: The mature electrical properties of identified neurones in grasshopper embryos .
+
+ppatt:
+
+
+
+label:    sent_22
+sentence: Multifocal bigerminal mature teratomas of the head and neck .
+
+ppatt:
+
+
+
+label:    sent_23
+sentence: The pre-tRNAs are then processed to mature tRNA molecules . Cryotherapy --a mature ablation technique .
+
+ppatt:
+	?a are then processed to ?b ?c
+		?a: The pre-tRNAs
+		?b: mature tRNA molecules
+		?c: Cryotherapy --a mature ablation technique
+
+
+label:    sent_24
+sentence: Glucocorticoids are used to mature the fetal lung at times of threatened premature delivery .
+
+ppatt:
+	?a are used to mature ?b at ?c
+		?a: Glucocorticoids
+		?b: the fetal lung
+		?c: times of threatened premature delivery
+
+
+label:    sent_25
+sentence: Concatemers formed at 30 degrees were reconverted to mature DNA by packaging in vitro .
+
+ppatt:
+	?a formed at ?b
+		?a: Concatemers
+		?b: 30 degrees
+	?a were reconverted to ?b by ?c in vitro
+		?a: Concatemers formed at 30 degrees
+		?b: mature DNA
+		?c: packaging
+
+
+label:    sent_26
+sentence: Antenatal glucocorticoids are administered to mature the fetal lungs before preterm birth .
+
+ppatt:
+	?a are administered to mature ?b before ?c
+		?a: Antenatal glucocorticoids
+		?b: the fetal lungs
+		?c: preterm birth
+
+

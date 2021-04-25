@@ -1,0 +1,289 @@
+label:    sent_1
+sentence: The polypeptides do not unfold on the gold surface within the simulation time .
+
+ppatt:
+	?a do not unfold on ?b within ?c
+		?a: The polypeptides
+		?b: the gold surface
+		?c: the simulation time
+
+
+label:    sent_2
+sentence: They do not capture costs that unfold slowly over time , or seasonal variations .
+
+ppatt:
+	?a do not capture ?b
+		?a: They
+		?b: costs that unfold slowly over time , or seasonal variations
+	?a unfold slowly over ?b
+		?a: costs
+		?b: time
+	?a unfold slowly over ?b
+		?a: costs
+		?b: seasonal
+	?a unfold slowly over ?b
+		?a: costs
+		?b: variations
+
+
+label:    sent_3
+sentence: The impacts of malaria on household economic status unfold slowly over time .
+
+ppatt:
+	?a unfold slowly over ?b
+		?a: The impacts of malaria on household economic status
+		?b: time
+
+
+label:    sent_4
+sentence: The structure-function relationship has given insights to unfold the catalytic mechanism .
+
+ppatt:
+	?a has given ?b
+		?a: The structure-function relationship
+		?b: insights to unfold the catalytic mechanism
+	?a unfold ?b
+		?a: insights
+		?b: the catalytic mechanism
+
+
+label:    sent_5
+sentence: We used optical tweezers to unfold the pseudoknots .
+
+ppatt:
+	?a used ?b to unfold ?c
+		?a: We
+		?b: optical tweezers
+		?c: the pseudoknots
+
+
+label:    sent_6
+sentence: Evaluation of autism traits in Angelman syndrome : a resource to unfold autism genes .
+
+ppatt:
+	?a unfold ?b
+		?a: a resource
+		?b: autism genes
+
+
+label:    sent_7
+sentence: New imaging techniques allow us to watch neural activity patterns unfold in real time .
+
+ppatt:
+	?a allow ?b to watch ?c ?d
+		?a: New imaging techniques
+		?b: us
+		?c: neural activity patterns
+		?d: SOMETHING := unfold in real time
+	?a unfold in ?b
+		?a: New imaging techniques
+		?b: real time
+
+
+label:    sent_8
+sentence: Levels of integration are hypothesized to unfold separately but interdependently across levels of representation .
+
+ppatt:
+	?a are hypothesized to unfold separately across ?b
+		?a: Levels of integration
+		?b: interdependently levels of representation
+
+
+label:    sent_9
+sentence: How do proteins unfold upon adsorption on nanoparticle surfaces ? Once the categorization is determined , prognosis and therapeutic algorithms unfold .
+
+ppatt:
+	How do ?a unfold upon ?b
+		?a: proteins
+		?b: adsorption on nanoparticle surfaces
+	?a is determined
+		?a: the categorization
+	?a unfold
+		?a: prognosis
+	?a unfold
+		?a: therapeutic algorithms
+
+
+label:    sent_10
+sentence: Pregnancy and birth the physiological processes that usaully unfold normally .
+
+ppatt:
+	?a usaully unfold normally
+		?a: the physiological processes
+
+
+label:    sent_11
+sentence: Modification with benzonitrile labels caused the replicon RNA tertiary structure to partially unfold .
+
+ppatt:
+	?a caused ?b to partially unfold
+		?a: Modification with benzonitrile labels
+		?b: the replicon RNA tertiary structure
+
+
+label:    sent_12
+sentence: Use of fluorosilicone to unfold a giant retinal tear .
+
+ppatt:
+	?a unfold ?b
+		?a: Use of fluorosilicone
+		?b: a giant retinal tear
+
+
+label:    sent_13
+sentence: Here , we show that VCP can unfold polyubiquitinated proteins .
+
+ppatt:
+	Here , ?a show ?b
+		?a: we
+		?b: SOMETHING := VCP can unfold polyubiquitinated proteins
+	?a can unfold ?b
+		?a: VCP
+		?b: polyubiquitinated proteins
+
+
+label:    sent_14
+sentence: An assessment of gene-by-gene interactions as a tool to unfold missing heritability in dyslexia .
+
+ppatt:
+	?a unfold ?b
+		?a: a tool
+		?b: missing heritability in dyslexia
+
+
+label:    sent_15
+sentence: Methanol was found to unfold and water fold poly-L structure as a dielectric .
+
+ppatt:
+	?a was found to unfold ?b as ?c
+		?a: Methanol
+		?b: water fold poly-L structure
+		?c: a dielectric
+
+
+label:    sent_16
+sentence: Two-dimensional SENSE uses coil sensitivities to unfold aliasing in the phase/slice-encoding plane .
+
+ppatt:
+	?a uses ?b to unfold ?c
+		?a: Two-dimensional SENSE
+		?b: coil sensitivities
+		?c: aliasing in the phase/slice-encoding plane
+
+
+label:    sent_17
+sentence: The endocuticle , in contrast , does not unfold but rather is plastically deformed .
+
+ppatt:
+	?a in ?b , does not unfold
+		?a: The endocuticle
+		?b: contrast
+	?a rather is plastically deformed
+		?a: The endocuticle
+
+
+label:    sent_18
+sentence: For transmembrane translocation the colicins unfold and refold in the periplasm .
+
+ppatt:
+	For ?a ?b unfold in ?c
+		?a: transmembrane translocation
+		?b: the colicins
+		?c: the periplasm
+	?a refold
+		?a: the colicins
+
+
+label:    sent_19
+sentence: For larger coverages , proteins unfold and form beta-sheets .
+
+ppatt:
+	For ?a , ?b unfold ?c
+		?a: larger coverages
+		?b: proteins
+		?c: beta-sheets
+	?a form
+		?a: proteins
+
+
+label:    sent_20
+sentence: These proteases operate as powerful molecular machines that unfold stable native proteins before degradation .
+
+ppatt:
+	?a operate as ?b
+		?a: These proteases
+		?b: powerful molecular machines that unfold stable native proteins before degradation
+	?a unfold ?b before ?c
+		?a: powerful molecular machines
+		?b: stable native proteins
+		?c: degradation
+
+
+label:    sent_21
+sentence: Regulatory RNAs often unfold their action via RNA-RNA interaction .
+
+ppatt:
+	?a often unfold ?b via ?c
+		?a: Regulatory RNAs
+		?b: their action
+		?c: RNA-RNA interaction
+
+
+label:    sent_22
+sentence: Urea and guanidinium chloride denaturants unfold beta recombinase in a two-step process .
+
+ppatt:
+	?a unfold ?b in ?c
+		?a: Urea
+		?b: beta recombinase
+		?c: a two-step process
+	?a unfold ?b in ?c
+		?a: guanidinium
+		?b: beta recombinase
+		?c: a two-step process
+	?a unfold ?b in ?c
+		?a: chloride denaturants
+		?b: beta recombinase
+		?c: a two-step process
+
+
+label:    sent_23
+sentence: New renin inhibitor VTP-27999 alters renin immunoreactivity and does not unfold prorenin .
+
+ppatt:
+	?a alters ?b
+		?a: New renin inhibitor VTP-27999
+		?b: renin immunoreactivity
+	?a does not unfold ?b
+		?a: New renin inhibitor VTP-27999
+		?b: prorenin
+
+
+label:    sent_24
+sentence: ATP-dependent proteases engage , translocate , and unfold substrate proteins . EtOH additions promptly unfold and precipitate cpn10 .
+
+ppatt:
+	?a engage
+		?a: ATP-dependent proteases
+	?a translocate
+		?a: ATP-dependent proteases
+	?a unfold ?b
+		?a: ATP-dependent proteases
+		?b: substrate proteins
+	?a promptly unfold ?b
+		?a: EtOH additions
+		?b: cpn10
+	?a precipitate
+		?a: EtOH additions
+
+
+label:    sent_25
+sentence: Freshly prepared PDZ4 is largely folded , but the domain can spontaneously unfold .
+
+ppatt:
+	?a is largely folded
+		?a: Freshly prepared PDZ4
+	?a can spontaneously unfold
+		?a: the domain
+
+

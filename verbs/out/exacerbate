@@ -1,0 +1,313 @@
+label:    sent_1
+sentence: Iron-induced oxidative stress may exacerbate age-related macular degeneration ( AMD ) . Can a bowel preparation exacerbate heart failure ? Deficiency of haematopoietic-cell-derived IL-10 does not exacerbate high-fat-diet-induced inflammation or insulin resistance in mice .
+
+ppatt:
+	?a may exacerbate ?b
+		?a: Iron-induced oxidative stress
+		?b: age-related macular degeneration
+	?a is/are AMD
+		?a: age-related macular degeneration
+	Can ?a exacerbate ?b
+		?a: a bowel preparation
+		?b: heart failure
+	?a does not exacerbate ?b
+		?a: Deficiency of haematopoietic-cell-derived IL-10
+		?b: high-fat-diet-induced inflammation in mice
+	?a does not exacerbate ?b
+		?a: Deficiency of haematopoietic-cell-derived IL-10
+		?b: insulin resistance
+
+
+label:    sent_2
+sentence: Familial AD mutations in presenilin are known to exacerbate lysosomal pathology .
+
+ppatt:
+	?a are known to exacerbate ?b
+		?a: Familial AD mutations in presenilin
+		?b: lysosomal pathology
+
+
+label:    sent_3
+sentence: A wide variety of pharmacologic agents may induce or exacerbate these disorders .
+
+ppatt:
+	?a may induce ?b
+		?a: A wide variety of pharmacologic agents
+		?b: these disorders
+	?a exacerbate
+		?a: A wide variety of pharmacologic agents
+
+
+label:    sent_4
+sentence: Pregnancy can precipitate or exacerbate cardiac arrhythmias .
+
+ppatt:
+	?a can precipitate ?b
+		?a: Pregnancy
+		?b: cardiac arrhythmias
+	?a exacerbate
+		?a: Pregnancy
+
+
+label:    sent_5
+sentence: Exogenous granulocyte colony-stimulating factor exacerbate pain-related behaviors after peripheral nerve injury . Land application of manure can exacerbate nutrient and contaminant transfers to the aquatic environment .
+
+ppatt:
+	?a exacerbate ?b after ?c
+		?a: Exogenous granulocyte colony-stimulating factor
+		?b: pain-related behaviors
+		?c: peripheral nerve injury
+	?a can exacerbate ?b to ?c
+		?a: Land application of manure
+		?b: nutrient and contaminant transfers
+		?c: the aquatic environment
+
+
+label:    sent_6
+sentence: However platelets can also exacerbate liver damage , as in immune-mediated injury . Interleukin-1beta inhibition prevents choroidal neovascularization and does not exacerbate photoreceptor degeneration .
+
+ppatt:
+	However ?a can also exacerbate ?b , as in ?c
+		?a: platelets
+		?b: liver damage
+		?c: immune-mediated injury
+	?a prevents ?b
+		?a: Interleukin-1beta inhibition
+		?b: choroidal neovascularization
+	?a does not exacerbate ?b
+		?a: Interleukin-1beta inhibition
+		?b: photoreceptor degeneration
+
+
+label:    sent_7
+sentence: Neutrophils play a key role in the immune response but can undesirably exacerbate inflammation .
+
+ppatt:
+	?a play ?b in ?c
+		?a: Neutrophils
+		?b: a key role
+		?c: the immune response
+	?a can undesirably exacerbate ?b
+		?a: Neutrophils
+		?b: inflammation
+
+
+label:    sent_8
+sentence: Cannabis use appears to exacerbate psychotic symptoms and increase risk of psychotic relapse .
+
+ppatt:
+	?a appears to exacerbate ?b
+		?a: Cannabis use
+		?b: psychotic symptoms
+	?a appears to increase ?b
+		?a: Cannabis use
+		?b: risk of psychotic relapse
+
+
+label:    sent_9
+sentence: These symptoms exacerbate illness and make death more likely .
+
+ppatt:
+	?a exacerbate ?b
+		?a: These symptoms
+		?b: illness
+	?a make ?b more likely
+		?a: These symptoms
+		?b: death
+
+
+label:    sent_10
+sentence: The presence of these cysts may exacerbate glaucoma or complicate its management .
+
+ppatt:
+	?a may exacerbate ?b
+		?a: The presence of these cysts
+		?b: glaucoma
+	?a complicate ?b
+		?a: The presence of these cysts
+		?b: its management
+
+
+label:    sent_11
+sentence: Glomerular hypertension could exacerbate the sclerosing glomerulopathy of senescence and lead to renal insufficiency .
+
+ppatt:
+	?a could exacerbate ?b
+		?a: Glomerular hypertension
+		?b: the sclerosing glomerulopathy of senescence
+	?a lead to ?b
+		?a: Glomerular hypertension
+		?b: renal insufficiency
+
+
+label:    sent_12
+sentence: Thus , hyperactivity-impulsivity may serve to exacerbate inattentiveness over time .
+
+ppatt:
+	Thus , ?a may serve to exacerbate ?b over ?c
+		?a: hyperactivity-impulsivity
+		?b: inattentiveness
+		?c: time
+
+
+label:    sent_13
+sentence: Insufficient sleep quantity may facilitate and/or exacerbate pain through elevations of IL-6 .
+
+ppatt:
+	?a may facilitate ?b through ?c
+		?a: Insufficient sleep quantity
+		?b: pain
+		?c: elevations of IL-6
+	?a exacerbate
+		?a: Insufficient sleep quantity
+
+
+label:    sent_14
+sentence: A large number of chemicals induce or exacerbate autoimmune-like diseases in man . For example , small transducer weights exacerbate heat-dissipation problems and make design optimisation important .
+
+ppatt:
+	?a induce ?b
+		?a: A large number of chemicals
+		?b: autoimmune-like diseases in man
+	?a exacerbate
+		?a: A large number of chemicals
+	For ?a , ?b exacerbate ?c
+		?a: example
+		?b: small transducer weights
+		?c: heat-dissipation problems
+	?a make ?b important
+		?a: small transducer weights
+		?b: design optimisation
+
+
+label:    sent_15
+sentence: During prolonged exercise , postural-induced hypotension and hypocapnia exacerbate cerebral hypoperfusion and facilitate syncope .
+
+ppatt:
+	During ?a , ?b exacerbate ?c
+		?a: prolonged exercise
+		?b: postural-induced hypotension
+		?c: cerebral hypoperfusion
+	During ?a , ?b exacerbate ?c
+		?a: prolonged exercise
+		?b: hypocapnia
+		?c: cerebral hypoperfusion
+	?a facilitate ?b
+		?a: postural-induced hypotension
+		?b: syncope
+	?a facilitate ?b
+		?a: hypocapnia
+		?b: syncope
+
+
+label:    sent_16
+sentence: Signals between macrophages and fibroblasts can exacerbate , suppress , or reverse fibrosis .
+
+ppatt:
+	?a can exacerbate ?b
+		?a: Signals between macrophages and fibroblasts
+		?b: reverse fibrosis
+	?a suppress
+		?a: Signals between macrophages and fibroblasts
+
+
+label:    sent_17
+sentence: Pregnancy and the puerperium can exacerbate or initiate mental illness in susceptible women .
+
+ppatt:
+	?a can exacerbate ?b
+		?a: Pregnancy
+		?b: mental illness in susceptible women
+	?a can exacerbate ?b
+		?a: the puerperium
+		?b: mental illness in susceptible women
+	?a initiate
+		?a: Pregnancy
+	?a initiate
+		?a: the puerperium
+
+
+label:    sent_18
+sentence: Sleep loss may exacerbate and contribute to relapse of these conditions .
+
+ppatt:
+	?a may exacerbate to ?b
+		?a: Sleep loss
+		?b: relapse of these conditions
+	?a contribute
+		?a: Sleep loss
+
+
+label:    sent_19
+sentence: OCs may trigger migraine episodes and exacerbate or alleviate pre-existing headache .
+
+ppatt:
+	?a may trigger ?b
+		?a: OCs
+		?b: migraine episodes
+	?a exacerbate ?b
+		?a: OCs
+		?b: pre-existing headache
+	?a alleviate
+		?a: OCs
+
+
+label:    sent_20
+sentence: Anesthetic management can cause , exacerbate or ameliorate most of these injuries .
+
+ppatt:
+	?a can cause
+		?a: Anesthetic management
+	?a exacerbate ?b
+		?a: Anesthetic management
+		?b: most of these injuries
+	?a ameliorate
+		?a: Anesthetic management
+
+
+label:    sent_21
+sentence: Anesthetic management can cause , exacerbate , or ameliorate most of these injuries . ASM hyperreactivity occurs in postnatal CDH and may exacerbate barotrauma via impaired lung compliance .
+
+ppatt:
+	?a can cause
+		?a: Anesthetic management
+	?a exacerbate
+		?a: Anesthetic management
+	?a ameliorate ?b
+		?a: Anesthetic management
+		?b: most of these injuries
+	?a occurs in ?b
+		?a: ASM hyperreactivity
+		?b: postnatal CDH
+	?a may exacerbate ?b via ?c
+		?a: ASM hyperreactivity
+		?b: barotrauma
+		?c: impaired lung compliance
+
+
+label:    sent_22
+sentence: Conventional unimodal antidepressants may engender or exacerbate suicidality in susceptible individuals with BD .
+
+ppatt:
+	?a may engender ?b in ?c
+		?a: Conventional unimodal antidepressants
+		?b: suicidality
+		?c: susceptible individuals with BD
+	?a exacerbate
+		?a: Conventional unimodal antidepressants
+
+
+label:    sent_23
+sentence: Carer burden is excessive and may exacerbate patient distress and desire for hastening death .
+
+ppatt:
+	?a is excessive
+		?a: Carer burden
+	?a may exacerbate ?b
+		?a: Carer burden
+		?b: patient distress for hastening death
+	?a may exacerbate ?b
+		?a: Carer burden
+		?b: desire
+
+

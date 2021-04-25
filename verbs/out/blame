@@ -1,0 +1,241 @@
+label:    sent_1
+sentence: Is C difficile to blame for your patient 's diarrhea ? Flaws in financial risk assessments bear part of the blame for the financial collapse .
+
+ppatt:
+	Is ?a to blame for ?b
+		?a: C difficile
+		?b: your patient 's diarrhea
+	?a ?b bear ?c
+		?a: C difficile
+		?b: Flaws in financial risk assessments
+		?c: part of the blame for the financial collapse
+
+
+label:    sent_2
+sentence: Though often overlooked , CA could be to blame for that gut pain . Nursing home care-we only have ourselves to blame .
+
+ppatt:
+	often overlooked ?a
+		?a: CA
+	?a could be to blame ?b ?c
+		?a: CA
+		?b: for
+		?c: SOMETHING := gut pain . Nursing home care-we only have ourselves to blame
+	?a ?b only have ourselves to blame
+		?a: gut pain
+		?b: Nursing home care-we
+
+
+label:    sent_3
+sentence: Resting tremor in Parkinson disease : is the pallidum to blame ? Handling failure and blame is key to managerial success . Obesity --what we are doing is n't working ! What can we blame ? If you must blame someone , blame Herbert Spencer .
+
+ppatt:
+	?a is
+		?a: Resting tremor in Parkinson disease
+	?a blame ?b
+		?a: the pallidum
+		?b: Handling failure
+	?a is key to ?b ?c
+		?a: blame
+		?b: managerial success
+		?c: Obesity
+	?a are doing is n't working ?b
+		?a: we
+		?b: SOMETHING := What can we blame ? If you must blame someone , blame Herbert Spencer
+	?a can ?b blame
+		?a: What
+		?b: we
+	?a must blame ?b
+		?a: you
+		?b: someone
+	?a blame ?b
+		?a: you
+		?b: Herbert Spencer
+
+
+label:    sent_4
+sentence: Doctors blame air pollution for China 's asthma increases .
+
+ppatt:
+	?a blame ?b
+		?a: Doctors
+		?b: air pollution for China 's asthma increases
+
+
+label:    sent_5
+sentence: Benes with multiple conditions to blame for skyrocketing Medicare spending .
+
+ppatt:
+	?a blame
+		?a: multiple conditions
+	skyrocketing ?a
+		?a: Medicare spending
+
+
+label:    sent_6
+sentence: Vicarious retribution : the role of collective blame in intergroup aggression .
+
+ppatt:
+
+
+
+label:    sent_7
+sentence: Forces to blame for shortage of military doctors , young officers contend . Why blame butter ? Why blame the obstetrician ? The only significant finding was a gender difference on the societal blame factor .
+
+ppatt:
+	?a blame for ?b
+		?a: Forces
+		?b: shortage of military doctors young officers
+	?a contend
+		?a: Forces to blame for shortage of military doctors young officers
+	Why ?a Why blame ?b
+		?a: blame butter
+		?b: the obstetrician
+	?a was a gender difference on ?b
+		?a: The only significant finding
+		?b: the societal blame factor
+
+
+label:    sent_8
+sentence: Parents tended to blame their own linguistic limitation rather than those of the doctors .
+
+ppatt:
+	?a tended to blame ?b
+		?a: Parents
+		?b: their own linguistic limitation
+	?a tended to blame ?b
+		?a: Parents
+		?b: those of the doctors
+
+
+label:    sent_9
+sentence: Do n't blame it on the weather ! However , present literature mainly employs blame attribution as a dependent variable .
+
+ppatt:
+	Do n't blame ?a on ?b
+		?a: it
+		?b: the weather
+	However , ?a mainly employs ?b as ?c
+		?a: present literature
+		?b: blame attribution
+		?c: a dependent variable
+
+
+label:    sent_10
+sentence: Is ToM deployed differently for judgments of blame vs. praise ? Performance .
+
+ppatt:
+	Is ?a deployed differently for ?b
+		?a: ToM
+		?b: judgments of blame vs. praise ? Performance
+
+
+label:    sent_11
+sentence: ' We are not looking for blame but improvement ' . An informed culture is free of blame and open for information provided by incidents .
+
+ppatt:
+	?a are not looking for ?b
+		?a: We
+		?b: blame
+	?a are not looking for ?b
+		?a: We
+		?b: improvement
+	?a is free of ?b
+		?a: An informed culture
+		?b: blame
+	?a open for ?b
+		?a: An informed culture
+		?b: information provided by incidents
+	?a provided by ?b
+		?a: information
+		?b: incidents
+
+
+label:    sent_12
+sentence: The second experiment also distinguished between attributions of responsibility , causality , and blame .
+
+ppatt:
+	?a also distinguished between ?b
+		?a: The second experiment
+		?b: attributions of responsibility , causality , and blame
+
+
+label:    sent_13
+sentence: Urban subjects reported higher primary stigma and shame or blame .
+
+ppatt:
+	?a reported ?b
+		?a: Urban subjects
+		?b: higher primary stigma
+	?a reported ?b
+		?a: Urban subjects
+		?b: shame
+
+
+label:    sent_14
+sentence: Meningitis : tragedy , culture , and blame .
+
+ppatt:
+
+
+
+label:    sent_15
+sentence: Attributions of blame and responsibility in sexual harassment : reexamining a psychological model .
+
+ppatt:
+
+
+
+label:    sent_16
+sentence: Parents often blame themselves for the development of bipolar disorder in their child .
+
+ppatt:
+	?a often blame ?b for ?c
+		?a: Parents
+		?b: themselves
+		?c: the development of bipolar disorder in their child
+
+
+label:    sent_17
+sentence: In negligence actions against doctors no blame means no compensation .
+
+ppatt:
+	In ?a ?b means ?c
+		?a: negligence actions against doctors
+		?b: no blame
+		?c: no compensation
+
+
+label:    sent_18
+sentence: Residents tended to blame the system and remain more objective .
+
+ppatt:
+	?a tended to blame ?b
+		?a: Residents
+		?b: the system
+	?a remain more objective
+		?a: Residents
+
+
+label:    sent_19
+sentence: Ratings were made of intent , harm caused and blame motivation .
+
+ppatt:
+	?a were made of ?b
+		?a: Ratings
+		?b: intent
+	?a harm ?b
+		?a: Ratings
+		?b: caused
+	?a harm ?b
+		?a: Ratings
+		?b: blame
+
+
+label:    sent_20
+sentence: Personal responsibility antecedents of anger and blame reactions in children .
+
+ppatt:
+
+
+

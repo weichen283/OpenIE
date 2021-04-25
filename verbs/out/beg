@@ -1,0 +1,477 @@
+label:    sent_1
+sentence: Common ' themes ' in epidemiology related to cancer risk beg a comprehensive mechanistic explanation .
+
+ppatt:
+	?a ' beg a comprehensive mechanistic explanation
+		?a: Common ' themes in epidemiology related to cancer risk
+
+
+label:    sent_2
+sentence: In each pair , a nestling was forced to beg for about 30 s h ( -1 ) , whereas the other begged for only 2 s , both nestlings receiving the same quantity of food .
+
+ppatt:
+	In ?a , ?b was forced to beg for about 30 s h
+		?a: each pair
+		?b: a nestling
+	?a is/are -1
+		?a: about 30 s h
+	?a begged for ?b ?c receiving ?d
+		?a: the other
+		?b: only 2 s
+		?c: both nestlings
+		?d: the same quantity of food
+
+
+label:    sent_3
+sentence: Nestlings forced to beg for longer showed a reduction in growth rate and in immunocompetence when compared to control chicks .
+
+ppatt:
+	?a forced to beg for longer showed ?b
+		?a: Nestlings
+		?b: a reduction in growth rate and in immunocompetence
+	?a when compared to ?b
+		?a: Nestlings
+		?b: control chicks
+
+
+label:    sent_4
+sentence: Strategic planning for its exploration has been predicated on an extreme model in which the expected oceanic biosphere lies under a thick ice crust , buried too deep to be reached in the foreseeable future , which would beg the question of whether other active satellites might be more realistic objectives .
+
+ppatt:
+	?a has been predicated on ?b
+		?a: Strategic planning for its exploration
+		?b: an extreme model in which the expected oceanic biosphere lies under a thick ice crust , buried too deep to be reached in the foreseeable future , which would beg the question of whether other active satellites might be more realistic objectives
+	?a in ?b lies under ?c
+		?a: an extreme model
+		?b: the expected oceanic biosphere
+		?c: a thick ice crust , buried too deep to be reached in the foreseeable future
+	?a buried too deep to be reached in ?b
+		?a: a thick ice crust
+		?b: the foreseeable future
+	?a would beg the question
+		?a: which
+	?a ?b might be more realistic objectives
+		?a: the question
+		?b: other active satellites
+
+
+label:    sent_5
+sentence: Associations of reduced sleep with poorer school performance beg the question of how prelearning and posttraining sleep affect the learning process .
+
+ppatt:
+	?a beg the question
+		?a: Associations of reduced sleep with poorer school performance
+	how ?a ?b affect ?c
+		?a: prelearning
+		?b: sleep
+		?c: the learning process
+	how ?a ?b affect ?c
+		?a: posttraining
+		?b: sleep
+		?c: the learning process
+
+
+label:    sent_6
+sentence: Two sentence-comprehension time experiments replicated and extended previously reported research indicating that readers initially make a quick , heuristic assignment of fillers to gaps in temporarily ambiguous sentences such as " Who did John beg to sing ? " and " Who did John beg to sing for ? " The Most Recent Filler heuristic readers seemed to adopt made the former " distant filler " sentence harder to comprehend than the latter " recent filler " sentence .
+
+ppatt:
+	?a replicated ?b
+		?a: Two sentence-comprehension time experiments
+		?b: previously reported research indicating that readers initially make a quick , assignment of fillers to gaps in temporarily ambiguous sentences such as " Who did John beg to sing ? " and " Who did John beg to sing
+	?a extended
+		?a: Two sentence-comprehension time experiments
+	?a indicating ?b
+		?a: previously reported research
+		?b: SOMETHING := readers initially make a quick , assignment of fillers to gaps in temporarily ambiguous sentences such as " Who did John beg to sing ? " and " Who did John beg to sing
+	?a initially make ?b to ?c
+		?a: readers
+		?b: a quick , assignment of fillers
+		?c: gaps in temporarily ambiguous sentences such as " Who did John beg to sing ? " and " Who did John beg to sing
+	?a ?b did ?c beg to sing ?d
+		?a: "
+		?b: Who
+		?c: John
+		?d: " Who did John beg to sing
+	?a ?b did ?c beg to sing ?d
+		?a: "
+		?b: Who
+		?c: John
+		?d: "
+	?a ?b did ?c beg to sing
+		?a: "
+		?b: Who
+		?c: John
+	?a ?b did ?c beg to sing
+		?a: "
+		?b: Who
+		?c: John
+	for ? ?a ?b seemed to adopt made ?c
+		?a: "
+		?b: The Most Recent Filler heuristic readers
+		?c: the former " distant filler " sentence harder to comprehend than the latter " recent filler " sentence
+	comprehend than ?a
+		?a: the latter " recent filler " sentence
+
+
+label:    sent_7
+sentence: Barn swallow chicks beg more loudly when broodmates are unrelated .
+
+ppatt:
+	?a more loudly
+		?a: Barn swallow chicks
+	when ?a are unrelated
+		?a: broodmates
+
+
+label:    sent_8
+sentence: Rather than beg off the need to measure these teaching efforts , teachers in the humanities can embrace the demanding task of delineating how medicine changes when fortified by narrative competence and humanities-derived skills .
+
+ppatt:
+	?a measure ?b
+		?a: the need
+		?b: these teaching efforts
+	?a ?b can embrace ?c
+		?a: Rather than beg off the need to measure these teaching efforts
+		?b: teachers in the humanities
+		?c: the demanding task of delineating how medicine changes when fortified by narrative competence and humanities-derived skills
+	?a delineating
+		?a: the demanding task
+	how ?a when fortified by ?b
+		?a: medicine changes
+		?b: narrative competence
+	how ?a when fortified by ?b
+		?a: medicine changes
+		?b: humanities-derived skills
+
+
+label:    sent_9
+sentence: To beg , or not to beg ? Although I agree with most of the content and the essence of Marge Berer 's excellent paper , I beg to differ with her on whether there is a need for a feminist population policy .
+
+ppatt:
+	beg ?a
+		?a: I
+	not to beg ?a
+		?a: I
+	?a agree with ?b
+		?a: I
+		?b: most of the content
+	?a agree with ?b
+		?a: I
+		?b: the essence of Marge Berer 's excellent paper
+	?a beg to differ with ?b
+		?a: I
+		?b: her
+	?a there is ?b
+		?a: on
+		?b: a need for a feminist population policy
+
+
+label:    sent_10
+sentence: Although it has demonstrated efficacy in mild and moderate depression when compared with placebo or tricyclic antidepressants , several research areas beg to be explored .
+
+ppatt:
+	?a has demonstrated ?b
+		?a: it
+		?b: efficacy in mild and moderate depression
+	?a when compared with ?b
+		?a: it
+		?b: placebo
+	?a when compared with ?b
+		?a: it
+		?b: tricyclic antidepressants
+	?a beg to be explored
+		?a: several research areas
+
+
+label:    sent_11
+sentence: Recent such data in animals of particular phylogenetic importance beg us to take another look at whether similarities in developmental and genetic mechanisms in current animals are the product of a common inheritance ( homology ) or convergent evolution ( analogy ) . I beg to disagree with conclusions in both papers , for the underlying science is not as strong as it appears .
+
+ppatt:
+	?a beg us
+		?a: Recent such data in animals of particular phylogenetic importance
+	?a take ?b ?c
+		?a: us
+		?b: another look
+		?c: SOMETHING := at whether similarities in developmental and genetic mechanisms in current animals are the product of a common inheritance or convergent evolution
+	?a are the product of ?b
+		?a: at similarities in developmental and genetic mechanisms in current animals
+		?b: a common inheritance
+	?a are the product of ?b
+		?a: at similarities in developmental and genetic mechanisms in current animals
+		?b: convergent evolution
+	?a is/are homology
+		?a: a common inheritance
+	?a is/are homology
+		?a: convergent evolution
+	?a is/are analogy
+		?a: convergent evolution
+	?a beg to disagree with ?b
+		?a: at similarities in developmental and genetic mechanisms in current animals
+		?b: conclusions in both papers
+	for ?a is not as strong
+		?a: the underlying science
+	?a appears
+		?a: it
+
+
+label:    sent_12
+sentence: Mortality of 40 % to 86 % and good outcomes in only 13 % to 21 % of patients beg for treatment options for basilar occlusion .
+
+ppatt:
+	?a beg for treatment options for ?b
+		?a: Mortality of 40 % to 86 % in only 13 % 21 % of patients
+		?b: basilar occlusion
+	?a beg for treatment options for ?b
+		?a: good outcomes
+		?b: basilar occlusion
+
+
+label:    sent_13
+sentence: Much as early observations of disease associations with HLA polymorphism preceded a detailed knowledge of HLA recognition by T cell receptors , the recently reported disease associations with HLA-KIR gene combinations beg for a better understanding of the underlying mechanisms .
+
+ppatt:
+	Much as ?a preceded ?b
+		?a: early observations of disease associations with HLA polymorphism
+		?b: a detailed knowledge of HLA recognition by T cell receptors
+	?a beg for a better understanding of ?b
+		?a: the recently reported disease associations with HLA-KIR gene combinations
+		?b: the underlying mechanisms
+
+
+label:    sent_14
+sentence: They beg , steal , scavenge for food , and sell newspapers , cigarettes , and leis .
+
+ppatt:
+	?a steal
+		?a: They
+	?a beg , scavenge for ?b
+		?a: They
+		?b: food
+	?a sell ?b
+		?a: They
+		?b: newspapers
+	?a sell ?b
+		?a: They
+		?b: cigarettes
+	?a sell ?b
+		?a: They
+		?b: leis
+
+
+label:    sent_15
+sentence: These two traits-bauplan fidelity and elaboration of design-are inter-connected and striking , and beg a number of questions , including : Are all jaws made in the same manner and if not how not ? Children 's independent food-acquisition behaviors have been rarely studied outside of hunter-gatherer contexts , yet millions of children worldwide search , work , trade , or beg for food .
+
+ppatt:
+	?a made in ?b
+		?a: all jaws
+		?b: the same manner
+	made in ?a ?b
+		?a: the same manner
+		?b: not how not ? Children 's independent food-acquisition behaviors have been rarely studied outside of hunter-gatherer contexts
+	not how not ?a have been rarely studied outside of ?b
+		?a: Children 's independent food-acquisition behaviors
+		?b: hunter-gatherer contexts
+
+
+label:    sent_16
+sentence: These findings have major implications for understanding the significance of functional metagenomic data in experimental studies and beg the question ; what is being measured in animal experiments in which different strains are housed separately , nature or nurture ? These studies provide important insights into the pathogenesis of SLE and beg urgent questions about the development and use of immunosuppressive therapies in AGS and related phenotypes .
+
+ppatt:
+	?a have ?b
+		?a: These findings
+		?b: major implications for understanding the significance of functional metagenomic data in experimental studies
+	?a understanding ?b
+		?a: major implications
+		?b: the significance of functional metagenomic data in experimental studies
+	?a ?b is being measured in ?c
+		?a: the question
+		?b: what
+		?c: animal experiments in which different strains are housed separately , nature or nurture
+	?a in ?b are housed separately ?c
+		?a: animal experiments
+		?b: different strains
+		?c: nature
+	?a nurture
+		?a: different strains
+	?a provide ?b
+		?a: These studies
+		?b: important insights into the pathogenesis of SLE
+
+
+label:    sent_17
+sentence: Ongoing cohort studies of recent onset RA may aid in our understanding of RA prognosis , but may still beg the question , what is RA ?
+
+ppatt:
+	?a may aid in ?b
+		?a: Ongoing cohort studies of recent onset RA
+		?b: our understanding of RA prognosis
+	?a ?b is RA
+		?a: still the question
+		?b: what
+
+
+label:    sent_18
+sentence: Despite the null and negative cognitive findings , the numerous studies showing positive effects beg the question of what factors determine whether HT acts as a neuroprotectant or a risk factor for brain functioning .
+
+ppatt:
+	?a showing ?b
+		?a: the numerous studies
+		?b: positive effects
+	Despite ?a , ?b beg the question
+		?a: the null and negative cognitive findings
+		?b: the numerous studies showing positive effects
+	?a of ?b ?c determine ?d
+		?a: Despite the null and negative cognitive findings , the question
+		?b: what
+		?c: factors
+		?d: SOMETHING := HT acts as a neuroprotectant or a risk for brain functioning
+	?a acts as ?b
+		?a: HT
+		?b: a neuroprotectant for brain functioning
+	?a acts as ?b
+		?a: HT
+		?b: a risk
+
+
+label:    sent_19
+sentence: In the area of routing and sorting of dendritic traffic , the current phenomenological data beg questions about the cellular mechanisms utilized not only to transport material but also to modulate activity in a process , even apoptosis .
+
+ppatt:
+	In ?a , ?b beg questions about ?c
+		?a: the area of routing and sorting of dendritic traffic
+		?b: the current phenomenological data
+		?c: the cellular mechanisms utilized not only to transport material but also to modulate activity in a process , even apoptosis
+	?a utilized not only to transport ?b
+		?a: the cellular mechanisms
+		?b: material
+	utilized not only to also to modulate ?a in ?b ?c
+		?a: activity
+		?b: a process
+		?c: even apoptosis
+
+
+label:    sent_20
+sentence: In contrast , variability and attenuated findings with respect to symptom profiles beg the question of biological mechanisms with some degree of specificity .
+
+ppatt:
+	In ?a , ?b beg the question of ?c
+		?a: contrast
+		?b: variability with respect to symptom profiles
+		?c: biological mechanisms with some degree of specificity
+	In ?a , ?b beg the question of ?c
+		?a: contrast
+		?b: attenuated findings
+		?c: biological mechanisms with some degree of specificity
+
+
+label:    sent_21
+sentence: Current theory proposes that nestlings beg to signal hunger level to parents honestly , or that siblings compete by escalating begging to attract the attention of parents .
+
+ppatt:
+	?a proposes ?b
+		?a: Current theory
+		?b: SOMETHING := nestlings beg to signal hunger level to parents honestly
+	?a beg to signal ?b honestly
+		?a: nestlings
+		?b: hunger level to parents
+	?a compete
+		?a: siblings
+	?a escalating ?b
+		?a: siblings
+		?b: begging
+	?a attract ?b
+		?a: siblings
+		?b: the attention of parents
+
+
+label:    sent_22
+sentence: Although coronary artery bypass graft ( CABG ) surgery has been the mainstay of treatment , the steady pace of improvement in percutaneous coronary intervention ( PCI ) continues to beg the question as to whether PCI can perform as well as CABG for these patients .
+
+ppatt:
+	?a is/are CABG
+		?a: coronary artery bypass graft
+	?a has been the mainstay of ?b
+		?a: coronary artery bypass graft surgery
+		?b: treatment
+	?a is/are PCI
+		?a: percutaneous coronary intervention
+	?a continues to beg the question
+		?a: the steady pace of improvement in percutaneous coronary intervention
+	?a can perform ?b for ?c
+		?a: PCI
+		?b: CABG
+		?c: these patients
+
+
+label:    sent_23
+sentence: Recent significant improvements of the numerical solutions of the time-dependent Schrodinger equation beg the question as to whether these recent methods are comparable in efficacy ( in terms of accuracy and computational time ) to the current " method of choice , " i.e. , the Chebyshev expansion of the time-evolution operator and the fast-Fourier-transform method of determining the kinetic energy .
+
+ppatt:
+	?a beg the question as ?b
+		?a: Recent significant improvements of the numerical solutions of the time-dependent Schrodinger equation
+		?b: to
+	?a are comparable in ?b in ?c to ?d
+		?a: these recent methods
+		?b: efficacy of accuracy and computational
+		?c: terms
+		?d: the current " method of choice
+	?a are comparable in ?b in ?c to ?d
+		?a: these recent methods
+		?b: efficacy of accuracy and computational
+		?c: terms
+		?d: i.e. the Chebyshev expansion of the time-evolution operator
+	?a are comparable in ?b in ?c to ?d
+		?a: these recent methods
+		?b: efficacy of accuracy and computational
+		?c: terms
+		?d: the fast-Fourier-transform method of determining the kinetic energy
+	?a is/are "
+		?a: the current " method of choice
+	?a is/are "
+		?a: i.e. the Chebyshev expansion of the time-evolution operator
+	?a is/are "
+		?a: the fast-Fourier-transform method of determining the kinetic energy
+	?a determining ?b
+		?a: the fast-Fourier-transform method
+		?b: the kinetic energy
+
+
+label:    sent_24
+sentence: In some species , dependent offspring join foraging providers and beg for food .
+
+ppatt:
+	In ?a , ?b join ?c
+		?a: some species
+		?b: dependent offspring
+		?c: foraging providers
+
+
+label:    sent_25
+sentence: It will not take long for traditional health services research groups to beg , borrow , or steal the expertise that we now possess .
+
+ppatt:
+	?a will not take long for ?b ?c
+		?a: It
+		?b: traditional health services
+		?c: research groups
+	?a beg , borrow
+		?a: It
+	?a steal ?b
+		?a: It
+		?b: the expertise that we now possess
+	?a now possess
+		?a: we
+
+
+label:    sent_26
+sentence: The type of gesture was also recorded as either a food beg or whole hand point .
+
+ppatt:
+	?a was also recorded as ?b
+		?a: The type of gesture
+		?b: a food beg
+	?a was also recorded as ?b
+		?a: The type of gesture
+		?b: whole hand point
+
+

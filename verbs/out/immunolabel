@@ -1,0 +1,197 @@
+label:    sent_1
+sentence: Our previous study , utilizing anti-Uca beta-PDH polyclonal antibody ( pAb ) to immunolabel the optic lobe of the cricket Gryllus bimaculatus , suggested the existence of an alternative PDF-like peptide in the outer cells of the first neuropile , or lamina ( La ) , which were much less immunoreactive than the inner cells of the second neuropile , the medulla ( Me ) . Triple-immunofluorescence experiments with antibodies to cytochrome c oxidase , tubulin , and vimentin have been used to immunolabel the mitochondria , microtubules , and intermediate filaments inside the same cultured fibroblasts .
+
+ppatt:
+	?a utilizing ?b
+		?a: Our previous study , to immunolabel the optic lobe of the cricket Gryllus bimaculatus
+		?b: anti-Uca beta-PDH polyclonal antibody
+	?a is/are pAb
+		?a: anti-Uca beta-PDH polyclonal antibody
+	?a immunolabel ?b
+		?a: Our previous study , utilizing anti-Uca beta-PDH polyclonal antibody
+		?b: the optic lobe of the cricket Gryllus bimaculatus
+	?a suggested ?b
+		?a: Our previous study , utilizing anti-Uca beta-PDH polyclonal antibody to immunolabel the optic lobe of the cricket Gryllus bimaculatus
+		?b: the existence of an alternative PDF-like peptide in the outer cells of the first neuropile , or lamina , which were much less immunoreactive than the inner cells of the second neuropile , the medulla . Triple-immunofluorescence experiments with antibodies to cytochrome c oxidase , tubulin , and vimentin
+	?a is/are La
+		?a: lamina
+	?a were much less immunoreactive than ?b
+		?a: the outer cells of the first neuropile
+		?b: the inner cells of the second neuropile
+	?a were much less immunoreactive than ?b
+		?a: lamina
+		?b: the inner cells of the second neuropile
+	?a were much less immunoreactive than ?b
+		?a: the outer cells of the first neuropile
+		?b: the medulla
+	?a were much less immunoreactive than ?b
+		?a: lamina
+		?b: the medulla
+	?a were much less immunoreactive than ?b
+		?a: the outer cells of the first neuropile
+		?b: Triple-immunofluorescence experiments with antibodies to cytochrome c oxidase , tubulin , and vimentin
+	?a were much less immunoreactive than ?b
+		?a: lamina
+		?b: Triple-immunofluorescence experiments with antibodies to cytochrome c oxidase , tubulin , and vimentin
+	?a is/are Me
+		?a: the medulla
+	?a have been used to immunolabel ?b
+		?a: Our previous study , utilizing anti-Uca beta-PDH polyclonal antibody to immunolabel the optic lobe of the cricket Gryllus bimaculatus
+		?b: the mitochondria , inside the same cultured fibroblasts
+	?a have been used to immunolabel ?b
+		?a: Our previous study , utilizing anti-Uca beta-PDH polyclonal antibody to immunolabel the optic lobe of the cricket Gryllus bimaculatus
+		?b: microtubules
+	?a have been used to immunolabel ?b
+		?a: Our previous study , utilizing anti-Uca beta-PDH polyclonal antibody to immunolabel the optic lobe of the cricket Gryllus bimaculatus
+		?b: intermediate filaments
+
+
+label:    sent_2
+sentence: The neurons did not immunolabel with NF-H or MAP2 , which might suggest they had not reached the level of maturity of other neurons in culture .
+
+ppatt:
+	?a did not immunolabel with ?b ?c
+		?a: The neurons
+		?b: NF-H
+		?c: SOMETHING := which might suggest they had not reached the level of maturity of other neurons in culture
+	?a did not immunolabel with ?b ?c
+		?a: The neurons
+		?b: MAP2
+		?c: SOMETHING := which might suggest they had not reached the level of maturity of other neurons in culture
+	?a might suggest ?b
+		?a: which
+		?b: SOMETHING := they had not reached the level of maturity of other neurons in culture
+	?a had not reached ?b
+		?a: they
+		?b: the level of maturity of other neurons in culture
+
+
+label:    sent_3
+sentence: Specific anti-RS antibody was generated in rabbits and used to immunolabel the RS protein on the cells at different growth phases .
+
+ppatt:
+	?a was generated in ?b
+		?a: Specific anti-RS antibody
+		?b: rabbits
+	?a used to immunolabel ?b on ?c at ?d
+		?a: Specific anti-RS antibody
+		?b: the RS protein
+		?c: the cells
+		?d: different growth phases
+
+
+label:    sent_4
+sentence: In this chapter , we report a detailed description of how to isolate and culture retinal explants and how to immunolabel the outgrowing neurites .
+
+ppatt:
+	In ?a , ?b report ?c
+		?a: this chapter
+		?b: we
+		?c: a detailed description of how to isolate and culture retinal explants and how to immunolabel the outgrowing neurites
+	?a how to isolate ?b
+		?a: a detailed description
+		?b: culture retinal explants
+	how to immunolabel ?a
+		?a: the outgrowing neurites
+
+
+label:    sent_5
+sentence: In this chapter , I will describe how to dissect , fix , and immunolabel imaginal discs .
+
+ppatt:
+	In ?a , ?b will describe how to dissect ?c
+		?a: this chapter
+		?b: I
+		?c: immunolabel imaginal discs
+	?a will describe to fix
+		?a: I
+
+
+label:    sent_6
+sentence: In disease cases , antibodies for 20S , S4 , S6b , S7 , and ubiquitin intensely immunolabel neuronal nuclei of vulnerable cells in affected areas .
+
+ppatt:
+	In ?a , ?b intensely immunolabel ?c in ?d
+		?a: disease cases
+		?b: antibodies for 20S , S4 , S6b , S7 , and ubiquitin
+		?c: neuronal nuclei of vulnerable cells
+		?d: affected areas
+
+
+label:    sent_7
+sentence: Unlike the antibodies to the carboxyl and amino termini of p34Cdc2 , antibodies to an abundant brain Cdc2-related kinase PSSLARE / Cdk5 did not immunolabel Alzheimer 's disease neurofibrillary lesions .
+
+ppatt:
+	Unlike ?a , ?b did not immunolabel 's ?c
+		?a: the antibodies to carboxyl and amino termini of p34Cdc2
+		?b: antibodies to an abundant brain Cdc2-related kinase / Cdk5
+		?c: Alzheimer disease neurofibrillary lesions
+
+
+label:    sent_8
+sentence: It should be noted that these antibodies did not immunolabel the alpha-layer until hatching .
+
+ppatt:
+	?a should be noted ?b
+		?a: It
+		?b: SOMETHING := these antibodies did not immunolabel the alpha-layer until hatching
+	?a did not immunolabel ?b until ?c
+		?a: these antibodies
+		?b: the alpha-layer
+		?c: hatching
+
+
+label:    sent_9
+sentence: The major advantages of our method are ( i ) the possibility to correlate several hundreds of events at the same time , ( ii ) the possibility to perform three-dimensional ( 3D ) correlation , ( iii ) the possibility to immunolabel both endogenous and recombinantly expressed proteins at the same time and ( iv ) the possibility to combine the high data analysis capability of FLM with the high precision-accuracy of transmission electron microscopy in a CLEM hybrid morphometry analysis .
+
+ppatt:
+	?a are the possibility
+		?a: The major advantages of our method
+	?a correlate ?b ?c
+		?a: the possibility
+		?b: several hundreds of events at the same time
+		?c: the possibility to perform three-dimensional correlation , the possibility to immunolabel both endogenous and recombinantly expressed proteins at the same time and the possibility to combine the high data analysis capability of FLM with the high precision-accuracy of transmission electron microscopy in a CLEM hybrid morphometry analysis
+	?a perform ?b ?c
+		?a: the possibility
+		?b: three-dimensional correlation
+		?c: the possibility to immunolabel both endogenous and recombinantly expressed proteins at the same time
+	?a perform ?b ?c
+		?a: the possibility
+		?b: three-dimensional correlation
+		?c: the possibility to combine the high data analysis capability of FLM with the high precision-accuracy of transmission electron microscopy in a CLEM hybrid morphometry analysis
+	?a is/are 3D
+		?a: three-dimensional
+	?a immunolabel ?b at ?c
+		?a: the possibility
+		?b: both endogenous and recombinantly expressed proteins
+		?c: the same time
+	immunolabel ?a at ?b ?c
+		?a: both endogenous and recombinantly expressed proteins
+		?b: the same time
+		?c: the possibility to combine the high data analysis capability of FLM with the high precision-accuracy of transmission electron microscopy in a CLEM hybrid morphometry analysis
+	?a combine ?b
+		?a: the possibility
+		?b: the high data analysis capability of FLM with the high precision-accuracy of transmission electron microscopy in a CLEM hybrid morphometry analysis
+
+
+label:    sent_10
+sentence: Reporter-tagged neurons include all those that immunolabel for TrkC , a majority for TrkB , and a small proportion for TrkA .
+
+ppatt:
+	?a include ?b
+		?a: Reporter-tagged neurons
+		?b: those that immunolabel for TrkC , and a small proportion for TrkA
+	?a immunolabel for ?b
+		?a: those
+		?b: TrkC
+	?a immunolabel for ?b
+		?a: those
+		?b: a small proportion for TrkA
+	?a is/are a majority for ?b
+		?a: TrkC
+		?b: TrkB
+	?a is/are a majority for ?b
+		?a: TrkB
+		?b: a small proportion for TrkA
+
+

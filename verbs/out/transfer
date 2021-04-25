@@ -1,0 +1,265 @@
+label:    sent_1
+sentence: Further studies are needed to transfer these results into daily clinical practice .
+
+ppatt:
+	?a are needed to transfer ?b into ?c
+		?a: Further studies
+		?b: these results
+		?c: daily clinical practice
+
+
+label:    sent_2
+sentence: Protein-O-mannosyltransferases ( Pmt ) transfer mannosyl residues to secretory proteins .
+
+ppatt:
+	?a is/are Pmt
+		?a: Protein-O-mannosyltransferases
+	?a transfer ?b to ?c
+		?a: Protein-O-mannosyltransferases
+		?b: mannosyl residues
+		?c: secretory proteins
+
+
+label:    sent_3
+sentence: Various efforts have been made to transfer the clostridial 1-butanol pathway into other microorganisms .
+
+ppatt:
+	?a have been made to transfer ?b
+		?a: Various efforts
+		?b: the clostridial 1-butanol pathway into other microorganisms
+
+
+label:    sent_4
+sentence: Innovative methodology to transfer conventional GC-MS heroin profiling to UHPLC-MS/MS .
+
+ppatt:
+	?a transfer ?b
+		?a: Innovative methodology
+		?b: conventional GC-MS heroin profiling to UHPLC-MS/MS
+
+
+label:    sent_5
+sentence: We found that rAAV2 can successfully transfer the hBMP-7 gene into canine NP cells .
+
+ppatt:
+	?a found ?b
+		?a: We
+		?b: SOMETHING := rAAV2 can successfully transfer the hBMP-7 gene into canine NP cells
+	?a can successfully transfer ?b into ?c
+		?a: rAAV2
+		?b: the hBMP-7 gene
+		?c: canine NP cells
+
+
+label:    sent_6
+sentence: Str probably also transfer reduced sulfur onto substrates as large as peptides or proteins .
+
+ppatt:
+	?a probably also transfer ?b onto ?c
+		?a: Str
+		?b: reduced sulfur
+		?c: substrates as peptides or proteins
+
+
+label:    sent_7
+sentence: Importantly , B cells from tolerant recipients are able to transfer allograft tolerance .
+
+ppatt:
+	Importantly , ?a are able to transfer ?b
+		?a: B cells from tolerant recipients
+		?b: allograft tolerance
+
+
+label:    sent_8
+sentence: The elusive half-pole in the frequency domain transfer function of Peltier thermoelectric devices . Biceps-to-triceps transfer technique .
+
+ppatt:
+
+
+
+label:    sent_9
+sentence: Technology transfer at the University of Nebraska Medical Center .
+
+ppatt:
+
+
+
+label:    sent_10
+sentence: Noninvasive repetitive imaging of somatostatin receptor 2 gene transfer with positron emission tomography .
+
+ppatt:
+
+
+
+label:    sent_11
+sentence: Digital image correlation analysis of the load transfer by implant-supported restorations .
+
+ppatt:
+
+
+
+label:    sent_12
+sentence: Unified description of charge transfer mechanisms and vibronic dynamics in nanoscale junctions .
+
+ppatt:
+
+
+
+label:    sent_13
+sentence: The 2 systems thus apparently transfer comparable amounts of heat .
+
+ppatt:
+	?a thus apparently transfer ?b
+		?a: The 2 systems
+		?b: comparable amounts of heat
+
+
+label:    sent_14
+sentence: We transfer this species to the genus Lycodonomorphus Fitzinger , 1843 .
+
+ppatt:
+	?a transfer ?b to ?c
+		?a: We
+		?b: this species
+		?c: the genus Lycodonomorphus Fitzinger , 1843
+
+
+label:    sent_15
+sentence: Promicromonospora yunnanensis AS4.1333 was proposed to transfer into Cellulosimicrobium cellulans . UpDate : appropriate health care technology transfer to developing countries .
+
+ppatt:
+	?a was proposed to transfer into ?b ?c
+		?a: Promicromonospora yunnanensis AS4.1333
+		?b: Cellulosimicrobium cellulans
+		?c: UpDate
+
+
+label:    sent_16
+sentence: Such conditioned behaviour is difficult to transfer to an unconditioned or another conditioned response .
+
+ppatt:
+	?a is difficult to transfer to ?b
+		?a: Such conditioned behaviour
+		?b: an unconditioned
+	?a is difficult to transfer to ?b
+		?a: Such conditioned behaviour
+		?b: another conditioned
+
+
+label:    sent_17
+sentence: Both xylosyltransferases are Golgi-resident enzymes and transfer xylose to similar core proteins acceptors .
+
+ppatt:
+	?a are Golgi-resident enzymes
+		?a: Both xylosyltransferases
+	?a transfer ?b to ?c
+		?a: Both xylosyltransferases
+		?b: xylose
+		?c: similar core proteins acceptors
+
+
+label:    sent_18
+sentence: Caeruloplasmin and albumin re-activate and transfer copper to the enzyme in culture .
+
+ppatt:
+
+
+
+label:    sent_19
+sentence: Photosynthetic organisms have light-harvesting complexes that absorb and transfer energy efficiently to reaction centers .
+
+ppatt:
+	?a have ?b
+		?a: Photosynthetic organisms
+		?b: light-harvesting complexes that absorb and transfer energy efficiently to reaction centers
+	?a absorb ?b efficiently to ?c
+		?a: light-harvesting complexes
+		?b: energy
+		?c: reaction centers
+	?a transfer
+		?a: that
+
+
+label:    sent_20
+sentence: Changes in rat liver transfer RNA following growth hormone administration and in regenerating liver .
+
+ppatt:
+
+
+
+label:    sent_21
+sentence: Previously we reported that the Drosophila MTP transfers phospholipids but does not transfer triglycerides .
+
+ppatt:
+	Previously ?a reported ?b
+		?a: we
+		?b: SOMETHING := the Drosophila MTP transfers phospholipids
+	?a transfers ?b
+		?a: the Drosophila MTP
+		?b: phospholipids
+	?a does not transfer ?b
+		?a: the Drosophila MTP
+		?b: triglycerides
+
+
+label:    sent_22
+sentence: Elicitins trap and transfer sterols from micelles , liposomes and plant plasma membranes .
+
+ppatt:
+	?a trap ?b
+		?a: Elicitins
+		?b: transfer sterols from micelles , liposomes and plant plasma membranes
+
+
+label:    sent_23
+sentence: You have to define core processes , transfer power , and redesign work .
+
+ppatt:
+	?a have to define ?b
+		?a: You
+		?b: core processes
+	?a have to define ?b
+		?a: You
+		?b: transfer power
+	?a have to define ?b
+		?a: You
+		?b: redesign work
+
+
+label:    sent_24
+sentence: Seven cases did not transfer to the database and were eliminated from further study .
+
+ppatt:
+	?a did not transfer to ?b
+		?a: Seven cases
+		?b: the database
+	?a were eliminated from ?b
+		?a: Seven cases
+		?b: further study
+
+
+label:    sent_25
+sentence: Homeoproteins transcription factors can transfer between cells and play important roles in development .
+
+ppatt:
+	?a can transfer between ?b
+		?a: Homeoproteins transcription factors
+		?b: cells
+	?a play ?b in ?c
+		?a: Homeoproteins transcription factors
+		?b: important roles
+		?c: development
+
+
+label:    sent_26
+sentence: These residues could transfer to food products and accumulate in fat tissues .
+
+ppatt:
+	?a could transfer to ?b
+		?a: These residues
+		?b: food products
+	?a accumulate in ?b
+		?a: These residues
+		?b: fat tissues
+
+

@@ -1,0 +1,280 @@
+label:    sent_1
+sentence: In an ex-vivo model , intraluminal nifedipine has been shown to relax the ureter .
+
+ppatt:
+	In ?a , ?b has been shown to relax ?c
+		?a: an ex-vivo model
+		?b: intraluminal nifedipine
+		?c: the ureter
+
+
+label:    sent_2
+sentence: To relax this assumption , here we add a second locus influencing the trait .
+
+ppatt:
+	relax ?a ?b
+		?a: this assumption
+		?b: we
+	here ?a add ?b
+		?a: we
+		?b: a second locus influencing the trait
+	?a influencing ?b
+		?a: a second locus
+		?b: the trait
+
+
+label:    sent_3
+sentence: Conversely , methods to relax the muscles more modestly increased length and decreased stiffness .
+
+ppatt:
+	?a relax ?b
+		?a: methods
+		?b: the muscles
+	Conversely , ?a more modestly increased ?b
+		?a: methods to relax the muscles
+		?b: length
+	Conversely , ?a more modestly increased ?b
+		?a: methods to relax the muscles
+		?b: decreased
+
+
+label:    sent_4
+sentence: How does progesterone relax the uterus in pregnancy ? Terbutaline did not relax callus .
+
+ppatt:
+	How does ?a relax ?b in ?c
+		?a: progesterone
+		?b: the uterus
+		?c: pregnancy
+	?a did not relax ?b
+		?a: Terbutaline
+		?b: callus
+
+
+label:    sent_5
+sentence: This however , does not imply that we can relax now . It allows patients to breathe normally and relax comfortably during treatment .
+
+ppatt:
+	?a however , does not imply ?b ?c
+		?a: This
+		?b: SOMETHING := we can relax now
+		?c: SOMETHING := It allows patients to breathe normally and relax comfortably during treatment
+	?a can relax now
+		?a: we
+	?a allows ?b
+		?a: It
+		?b: patients to breathe normally and relax comfortably during treatment
+	?a breathe normally
+		?a: patients
+	relax comfortably during ?a
+		?a: treatment
+
+
+label:    sent_6
+sentence: Photocarriers of ZnOxNy films relax on two different time scales .
+
+ppatt:
+	?a relax on ?b
+		?a: Photocarriers of ZnOxNy films
+		?b: two different time scales
+
+
+label:    sent_7
+sentence: Women receiving CBSM reported greater increases in ability to relax than controls across time .
+
+ppatt:
+	?a receiving ?b
+		?a: Women
+		?b: CBSM
+	?a reported ?b
+		?a: Women receiving CBSM
+		?b: greater increases in ability to relax than controls across time
+	?a relax than ?b across ?c
+		?a: ability
+		?b: controls
+		?c: time
+
+
+label:    sent_8
+sentence: These contracted bonds relax to distances near that of bulk Pt upon hydrogen chemisorption .
+
+ppatt:
+	?a relax to ?b
+		?a: These contracted bonds
+		?b: distances near that of bulk Pt upon hydrogen chemisorption
+
+
+label:    sent_9
+sentence: The HS-LS photoexcited pairs relax with time back to the ground LS-LS configuration .
+
+ppatt:
+	?a relax with ?b back to ?c
+		?a: The HS-LS photoexcited pairs
+		?b: time
+		?c: the ground LS-LS configuration
+
+
+label:    sent_10
+sentence: Blood vessels denuded of endothelium did not relax in response to acetylcholine or A23187 .
+
+ppatt:
+	?a denuded of ?b
+		?a: Blood vessels
+		?b: endothelium
+	?a did not relax in ?b
+		?a: Blood vessels denuded of endothelium
+		?b: response to acetylcholine or A23187
+
+
+label:    sent_11
+sentence: Sympathomimetic bronchodilators relax bronchial smooth muscle via stimulation of the enzyme adenylcyclase .
+
+ppatt:
+	?a relax ?b via ?c
+		?a: Sympathomimetic bronchodilators
+		?b: bronchial smooth muscle
+		?c: stimulation of the enzyme adenylcyclase
+
+
+label:    sent_12
+sentence: These results indicate that levobunolol may relax rabbit ciliary artery by two different mechanisms . U.S. will relax disability rules in H.I.V. cases .
+
+ppatt:
+	?a indicate ?b
+		?a: These results
+		?b: SOMETHING := levobunolol may relax rabbit ciliary artery by two different mechanisms
+	?a may relax ?b by ?c
+		?a: levobunolol
+		?b: rabbit ciliary artery
+		?c: two different mechanisms
+	?a will relax ?b in ?c
+		?a: U.S.
+		?b: disability rules
+		?c: H.I.V. cases
+
+
+label:    sent_13
+sentence: Nitrovasodilators relax vascular smooth muscle by stimulating soluble guanylate cyclase ( GC ) . Vardenafil was reported to relax rat pulmonary artery through endothelium-dependent mechanisms .
+
+ppatt:
+	?a relax ?b
+		?a: Nitrovasodilators
+		?b: vascular smooth muscle
+	?a stimulating ?b
+		?a: Nitrovasodilators
+		?b: soluble guanylate cyclase
+	?a is/are GC
+		?a: soluble guanylate cyclase
+	?a was reported to relax ?b through ?c
+		?a: Vardenafil
+		?b: rat pulmonary artery
+		?c: endothelium-dependent mechanisms
+
+
+label:    sent_14
+sentence: With the knee joint stiffness , relax it by manipulate or operation .
+
+ppatt:
+	With ?a , relax ?b
+		?a: the knee joint stiffness
+		?b: it
+
+
+label:    sent_15
+sentence: The aim of MMIT was to relax the muscle and not paralyze it . Flavonoids are known to relax precontracted intestinal smooth muscle and to delay intestinal transit .
+
+ppatt:
+	?a was to relax ?b
+		?a: The aim of MMIT
+		?b: the muscle
+	?a was to not paralyze ?b
+		?a: The aim of MMIT
+		?b: it
+	?a are known to relax ?b
+		?a: Flavonoids
+		?b: precontracted intestinal smooth muscle
+	?a are known to to delay ?b
+		?a: Flavonoids
+		?b: intestinal transit
+
+
+label:    sent_16
+sentence: Insulin failed to relax the bladder or to increase cGMP in the obese group . Sit down , relax and unwind : structural insights into RecQ helicase mechanisms .
+
+ppatt:
+	?a failed to relax ?b
+		?a: Insulin
+		?b: the bladder
+	?a failed to to increase ?b in ?c
+		?a: Insulin
+		?b: cGMP
+		?c: the obese group
+	?a Sit down
+		?a: Insulin
+	?a relax
+		?a: Insulin
+	?a unwind
+		?a: Insulin
+
+
+label:    sent_17
+sentence: We relax this assumption and develop a semi-parametric mixed model for bioequivalence data . Why does halothane relax cardiac muscle but contract malignant hyperthermic skeletal muscle ? Heterochromatin and the DNA damage response : the need to relax .
+
+ppatt:
+	?a relax ?b
+		?a: We
+		?b: this assumption
+	?a develop ?b
+		?a: We
+		?b: a semi-parametric mixed model for bioequivalence data
+	?a Why does halothane relax ?b
+		?a: We
+		?b: cardiac muscle
+	?a contract ?b
+		?a: We
+		?b: malignant hyperthermic skeletal muscle ? Heterochromatin
+	?a contract ?b
+		?a: We
+		?b: the DNA damage response
+
+
+label:    sent_18
+sentence: These results suggest that vascular smooth muscle can relax even if MLC20 is phosphorylated .
+
+ppatt:
+	?a suggest ?b
+		?a: These results
+		?b: SOMETHING := vascular smooth muscle can relax even if MLC20 is phosphorylated
+	?a can relax
+		?a: vascular smooth muscle
+	even if ?a is phosphorylated
+		?a: MLC20
+
+
+label:    sent_19
+sentence: Opposite effects in flexion allow the cyst to relax . UPF1 learns to relax and unwind . Lanthanide discs chill well and relax slowly .
+
+ppatt:
+	?a allow ?b to relax
+		?a: Opposite effects in flexion
+		?b: the cyst
+	?a learns to relax ?b well
+		?a: UPF1
+		?b: Lanthanide discs
+	?a learns to unwind
+		?a: UPF1
+	?a learns to relax slowly
+		?a: UPF1
+
+
+label:    sent_20
+sentence: The subject was instructed to relax and not to generate voluntary force .
+
+ppatt:
+	?a was instructed to relax
+		?a: The subject
+	?a was instructed to not to generate ?b
+		?a: The subject
+		?b: voluntary force
+
+

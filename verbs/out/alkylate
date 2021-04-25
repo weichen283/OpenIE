@@ -1,0 +1,214 @@
+label:    sent_1
+sentence: This result adds to the evidence that NMPhA does not alkylate DNA .
+
+ppatt:
+	?a adds to ?b
+		?a: This result
+		?b: the evidence that NMPhA does not alkylate DNA
+	?a does not alkylate ?b
+		?a: NMPhA
+		?b: DNA
+
+
+label:    sent_2
+sentence: The PAH o-quinones are highly reactive molecules and have the potential to alkylate DNA .
+
+ppatt:
+	?a are highly reactive molecules
+		?a: The PAH o-quinones
+	?a have ?b
+		?a: The PAH o-quinones
+		?b: the potential to alkylate DNA
+	?a alkylate ?b
+		?a: the potential
+		?b: DNA
+
+
+label:    sent_3
+sentence: We have also used this photo-initiated reaction to alkylate a sulfhydryl group . AF and illudin S alkylate cellular macromolecules . 1-O-acyl glucuronides are reactive Phase II metabolites which can alkylate chemical nucleophiles .
+
+ppatt:
+	?a have also used ?b
+		?a: We
+		?b: this photo-initiated reaction
+	?a alkylate ?b ?c
+		?a: We
+		?b: sulfhydryl group
+		?c: a . AF
+	?a alkylate ?b ?c
+		?a: We
+		?b: sulfhydryl group
+		?c: illudin
+	?a alkylate ?b ?c
+		?a: We
+		?b: sulfhydryl group
+		?c: S alkylate cellular macromolecules
+	?a are reactive Phase II metabolites
+		?a: 1-O-acyl glucuronides
+	?a can alkylate ?b
+		?a: reactive Phase II metabolites
+		?b: chemical nucleophiles
+
+
+label:    sent_4
+sentence: Oxidation of vic-dihaloalkanes results in protein alkylation while glutathione conjugates alkylate DNA .
+
+ppatt:
+	?a results in ?b
+		?a: Oxidation of vic-dihaloalkanes
+		?b: protein alkylation
+	?a alkylate ?b
+		?a: glutathione conjugates
+		?b: DNA
+
+
+label:    sent_5
+sentence: This method employs 3-bromopropylamine to alkylate cysteines in proteins after reduction with dithiothreitol .
+
+ppatt:
+	?a employs ?b to ?c after ?d
+		?a: This method
+		?b: 3-bromopropylamine
+		?c: alkylate cysteines in proteins
+		?d: reduction with dithiothreitol
+
+
+label:    sent_6
+sentence: A new synthetic strategy to alkylate amino groups under mild conditions has been developed .
+
+ppatt:
+	?a alkylate ?b under ?c
+		?a: A new synthetic strategy
+		?b: amino groups
+		?c: mild conditions
+	?a has been developed
+		?a: A new synthetic strategy to alkylate amino groups under mild conditions
+
+
+label:    sent_7
+sentence: An attempt to alkylate the carrier by using methyl 3,4-anhydro-alpha-d-galactoside was unsuccessful .
+
+ppatt:
+	?a alkylate ?b
+		?a: An attempt
+		?b: the carrier
+	?a using ?b
+		?a: An attempt
+		?b: methyl 3,4-anhydro-alpha-d-galactoside
+	?a was unsuccessful
+		?a: An attempt to alkylate the carrier by using methyl 3,4-anhydro-alpha-d-galactoside
+
+
+label:    sent_8
+sentence: Synthesis of new bifunctional compounds which selectively alkylate guanines in DNA .
+
+ppatt:
+	?a selectively alkylate ?b
+		?a: new bifunctional compounds
+		?b: guanines in DNA
+
+
+label:    sent_9
+sentence: In contrast to amitraz , its metabolites alkylate DNA in the N3-position of adenine .
+
+ppatt:
+	In ?a , ?b alkylate ?c in ?d
+		?a: contrast to amitraz
+		?b: its metabolites
+		?c: DNA
+		?d: the N3-position of adenine
+
+
+label:    sent_10
+sentence: These compounds irreversibly alkylate the active site cysteine residue via conjugate addition .
+
+ppatt:
+	?a irreversibly alkylate ?b via ?c
+		?a: These compounds
+		?b: the active site cysteine residue
+		?c: conjugate addition
+
+
+label:    sent_11
+sentence: Each of these compounds has the capacity both to intercalate and alkylate DNA .
+
+ppatt:
+	?a has ?b both to intercalate ?c
+		?a: Each of these compounds
+		?b: the capacity
+		?c: DNA
+	?a has both to alkylate
+		?a: Each of these compounds
+
+
+label:    sent_12
+sentence: Isocoumarin reagents acylate , and may sometimes secondarily alkylate , serine protease active sites .
+
+ppatt:
+	?a acylate
+		?a: Isocoumarin reagents
+	?a may sometimes secondarily alkylate ?b
+		?a: Isocoumarin reagents
+		?b: serine protease active sites
+
+
+label:    sent_13
+sentence: The reactive metabolite can alkylate critical cellular macromolecules or induce oxidative stress .
+
+ppatt:
+	?a can alkylate ?b
+		?a: The reactive metabolite
+		?b: critical cellular macromolecules
+	?a induce ?b
+		?a: The reactive metabolite
+		?b: oxidative stress
+
+
+label:    sent_14
+sentence: Cyclophosphamide metabolites alkylate DNA bases and preferentially suppress immune responses mediated by B-lymphocytes .
+
+ppatt:
+	?a alkylate ?b
+		?a: Cyclophosphamide metabolites
+		?b: DNA bases
+	?a preferentially suppress ?b
+		?a: Cyclophosphamide metabolites
+		?b: immune responses mediated by B-lymphocytes
+	?a mediated by ?b
+		?a: immune responses
+		?b: B-lymphocytes
+
+
+label:    sent_15
+sentence: Both of these drugs can alkylate , crosslink and carbamoylate cellular macromolecules .
+
+ppatt:
+	?a can alkylate ?b ?c
+		?a: Both of these drugs
+		?b: crosslink
+		?c: carbamoylate cellular macromolecules
+
+
+label:    sent_16
+sentence: In addition , both isomers alkylate 3'-adenines in runs of adenines .
+
+ppatt:
+	In ?a , ?b alkylate ?c in ?d
+		?a: addition
+		?b: both isomers
+		?c: 3'-adenines
+		?d: runs of adenines
+
+
+label:    sent_17
+sentence: These reagents alkylate aldehydes to form secondary alcohols with enantioselectivities up to 91:9 er . Metabolism of linear alkylate sufonate and alkyl benzene sulfonate in albino rats .
+
+ppatt:
+	?a alkylate ?b to form ?c with ?d ?e
+		?a: These reagents
+		?b: aldehydes
+		?c: secondary alcohols
+		?d: enantioselectivities up 91:9 er
+		?e: Metabolism of linear alkylate sufonate and alkyl benzene sulfonate in albino rats
+
+

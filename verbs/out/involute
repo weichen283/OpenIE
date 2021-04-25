@@ -1,0 +1,188 @@
+label:    sent_1
+sentence: The disease seems to involute spontaneously in some patients .
+
+ppatt:
+	?a seems to involute spontaneously in ?b
+		?a: The disease
+		?b: some patients
+
+
+label:    sent_2
+sentence: They appear in childhood and adolescence and involute from middle age onwards .
+
+ppatt:
+	?a appear in ?b onwards
+		?a: They
+		?b: childhood
+	?a appear in ?b onwards
+		?a: They
+		?b: adolescence
+	?a appear in ?b onwards
+		?a: They
+		?b: involute from middle age
+
+
+label:    sent_3
+sentence: In addition , kitten NEB innervation appears to involute rapidly soon after birth .
+
+ppatt:
+	In ?a , ?b appears to involute rapidly soon after ?c
+		?a: addition
+		?b: kitten NEB innervation
+		?c: birth
+
+
+label:    sent_4
+sentence: Most cutaneous hemangiomas involute spontaneously . Presumably , sebaceous glands involute to become undifferentiated mantles . IH involute , sometimes resulting in fibrofatty , atrophic plaques .
+
+ppatt:
+	?a involute spontaneously . Presumably
+		?a: Most cutaneous hemangiomas
+	?a involute to become undifferentiated mantles . IH involute , sometimes resulting in ?b
+		?a: sebaceous glands
+		?b: fibrofatty , atrophic plaques
+
+
+label:    sent_5
+sentence: Lesions involute slowly over a period of 6 months .
+
+ppatt:
+	?a involute slowly over ?b
+		?a: Lesions
+		?b: a period of 6 months
+
+
+label:    sent_6
+sentence: Infantile hemangioma always involute in 5 to 7 years .
+
+ppatt:
+	?a always involute in ?b
+		?a: Infantile hemangioma
+		?b: 5 7 years
+
+
+label:    sent_7
+sentence: The lesions typically involute with some calcification .
+
+ppatt:
+	?a typically involute with ?b
+		?a: The lesions
+		?b: some calcification
+
+
+label:    sent_8
+sentence: Hemangiomas typically manifest at or soon after birth and subsequently involute .
+
+ppatt:
+	?a typically manifest at or soon after ?b
+		?a: Hemangiomas
+		?b: birth
+	?a subsequently involute
+		?a: Hemangiomas
+
+
+label:    sent_9
+sentence: Even following subtotal resection , these tumors frequently remain stable or involute .
+
+ppatt:
+	following ?a , ?b frequently remain stable
+		?a: Even subtotal resection
+		?b: these tumors
+	?a frequently remain involute
+		?a: these tumors
+
+
+label:    sent_10
+sentence: Once hemangiomas reach their maximum size , they begin to regress or involute .
+
+ppatt:
+	?a reach ?b
+		?a: hemangiomas
+		?b: their maximum size
+	?a begin to regress
+		?a: they
+	?a begin to involute
+		?a: they
+
+
+label:    sent_11
+sentence: Haemangiomas in children usually involute spontaneously and surgical treatment is exceptional .
+
+ppatt:
+	?a usually involute spontaneously and surgical
+		?a: Haemangiomas in children
+	?a is exceptional
+		?a: treatment
+
+
+label:    sent_12
+sentence: Follow-up is of utmost importance as lesions may involute or progress in utero .
+
+ppatt:
+	?a is of utmost importance
+		?a: Follow-up
+	?a may involute in ?b
+		?a: lesions
+		?b: utero
+	?a progress
+		?a: lesions
+
+
+label:    sent_13
+sentence: Subcutaneous hemangiomas never involute and always need treatment .
+
+ppatt:
+	?a never involute
+		?a: Subcutaneous hemangiomas
+	?a always need ?b
+		?a: Subcutaneous hemangiomas
+		?b: treatment
+
+
+label:    sent_14
+sentence: Keratoacanthomas usually involute spontaneously after several months but rarely progress to squamous cell carcinoma . Of MCDK , 60 % regress or involute within 3 years .
+
+ppatt:
+	?a usually involute spontaneously after ?b
+		?a: Keratoacanthomas
+		?b: several months
+	?a rarely progress to ?b Of ?c
+		?a: Keratoacanthomas
+		?b: squamous cell carcinoma
+		?c: MCDK
+	?a regress within ?b
+		?a: 60 %
+		?b: 3 years
+
+
+label:    sent_15
+sentence: Almost all aneurysms involute completely or substantially decrease in size . Circular involute stage .
+
+ppatt:
+	?a involute completely or substantially
+		?a: Almost all aneurysms
+	?a decrease in ?b
+		?a: Almost all aneurysms
+		?b: size . Circular involute stage
+
+
+label:    sent_16
+sentence: Failure of this duct to involute results in various anomalies .
+
+ppatt:
+	?a involute
+		?a: Failure of this duct
+	?a results in ?b
+		?a: Failure of this duct to involute
+		?b: various anomalies
+
+
+label:    sent_17
+sentence: This lesion was noted to dramatically involute beginning at 36 weeks ' gestation .
+
+ppatt:
+	?a was noted to dramatically involute beginning at ?b
+		?a: This lesion
+		?b: 36 weeks ' gestation
+
+

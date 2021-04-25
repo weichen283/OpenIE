@@ -1,0 +1,53 @@
+label:    sent_1
+sentence: Pastures can be managed to starve and desiccate vulnerable larvae questing on vegetation .
+
+ppatt:
+	?a can be managed to starve ?b
+		?a: Pastures
+		?b: vulnerable larvae questing on vegetation
+	?a can be managed to desiccate
+		?a: Pastures
+
+
+label:    sent_2
+sentence: By contrast , Indiana larvae do not desiccate in winter .
+
+ppatt:
+	By ?a , ?b do not desiccate in ?c
+		?a: contrast
+		?b: Indiana larvae
+		?c: winter
+
+
+label:    sent_3
+sentence: As the fecal pat dries out the larvae may desiccate and die . Bipolar forceps were used to compress and desiccate vessels .
+
+ppatt:
+	?a dries out ?b
+		?a: the fecal pat
+		?b: the larvae
+	may desiccate ?a
+		?a: Bipolar forceps
+	die ?a
+		?a: Bipolar forceps
+	?a were used to compress ?b
+		?a: Bipolar forceps
+		?b: vessels
+	?a were used to desiccate
+		?a: Bipolar forceps
+
+
+label:    sent_4
+sentence: Powder indoxacarb baits contained < 1 % water and did not desiccate or gain water .
+
+ppatt:
+	?a contained ?b
+		?a: Powder indoxacarb baits
+		?b: < 1 % water
+	?a did not desiccate ?b
+		?a: Powder indoxacarb baits
+		?b: water
+	?a gain
+		?a: Powder indoxacarb baits
+
+

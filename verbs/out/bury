@@ -1,0 +1,137 @@
+label:    sent_1
+sentence: Do n't bury your head in the nanostuff .
+
+ppatt:
+	Do n't bury ?a
+		?a: your head in the nanostuff
+
+
+label:    sent_2
+sentence: We have come to raise Medicare , not to bury it . [Stage I seminoma and radiotherapy : to bury it or not ? ] . Time to bury this idea ? Shall we bury the sword ? Funeral arrangements : time to bury the past .
+
+ppatt:
+	?a have come to raise ?b
+		?a: We
+		?b: Medicare
+	?a not to bury ?b ?c
+		?a: We
+		?b: it
+		?c: [Stage I seminoma
+	?a not to bury ?b ?c
+		?a: We
+		?b: it
+		?c: radiotherapy
+	?a bury ?b ?c to bury ?d
+		?a: We
+		?b: it
+		?c: Time
+		?d: this idea
+	?a bury ?b ?c to bury ?d
+		?a: We
+		?b: ]
+		?c: Time
+		?d: this idea
+	Shall ?a bury ?b
+		?a: we
+		?b: the sword ? Funeral arrangements
+	?a bury ?b
+		?a: time
+		?b: the past
+
+
+label:    sent_3
+sentence: Publication visibility of sensitive public health data : when scientists bury their results .
+
+ppatt:
+
+
+
+label:    sent_4
+sentence: We bury vertical free-standing core-shell GaAs / AlGaAs nanowires by a planar GaAs overgrowth .
+
+ppatt:
+	?a bury ?b by ?c
+		?a: We
+		?b: vertical free-standing core-shell GaAs
+		?c: a planar GaAs overgrowth
+
+
+label:    sent_5
+sentence: In oxyhaemoglobin these interfaces bury 700 A2 less protein surface than in deoxyhaemoglobin .
+
+ppatt:
+	In ?a ?b bury ?c than in ?d
+		?a: oxyhaemoglobin
+		?b: these interfaces
+		?c: 700 A2 less protein surface
+		?d: deoxyhaemoglobin
+
+
+label:    sent_6
+sentence: Surgeon-specific mortality data : bury your head in the sand . I come not to bury SAGE KE but to appraise It . Re : A time to bury tricyclic antidepressants or to praise them ? Is it better to burn or bury waste for clean electricity generation ? Appendicectomy stumps : ' to bury or not to bury ' . Ignore AIDS and it will bury the rest of you . A time to bury the tricyclic antidepressants or to praise them ? Phenotype-limited distributions : short-billed birds move away during times that prey bury deeply . Your words can bury you . Too costly to bury . Disposal of unwanted medications : throw , bury , burn or just ignore ? Ramsay Hunt syndrome : to bury or to praise .
+
+ppatt:
+	?a bury ?b
+		?a: Surgeon-specific mortality data
+		?b: your head in the sand
+	?a come not to bury ?b
+		?a: Surgeon-specific mortality data
+		?b: SAGE KE
+	?a appraise ?b ?c
+		?a: Surgeon-specific mortality data
+		?b: It
+		?c: A time to bury tricyclic antidepressants
+	?a bury ?b
+		?a: A time
+		?b: tricyclic antidepressants
+	?a praise ?b
+		?a: Surgeon-specific mortality data
+		?b: them
+	Is ?a better to bury
+		?a: it
+	bury ?a
+		?a: waste for clean electricity generation
+	?a is/are Appendicectomy stumps
+		?a: clean electricity generation
+	Is ?a better to not to bury
+		?a: it
+	?a Ignore ?b ?c
+		?a: Appendicectomy stumps
+		?b: AIDS
+		?c: A time to bury the tricyclic antidepressants
+	Is better to ?a will bury ?b
+		?a: it
+		?b: the rest of you
+	?a bury ?b
+		?a: A time
+		?b: the tricyclic antidepressants
+	?a praise ?b ?c
+		?a: it
+		?b: them
+		?c: Phenotype-limited distributions
+	?a move away during ?b
+		?a: short-billed birds
+		?b: times that prey bury deeply
+	?a ?b bury deeply
+		?a: times
+		?b: prey
+	?a can bury ?b Too costly to bury ?c
+		?a: Your words
+		?b: you
+		?c: Disposal of unwanted medications
+	?a is/are burn
+		?a: throw
+	?a can bury Too costly to just ignore
+		?a: Your words
+
+
+label:    sent_7
+sentence: It 's time to bury the hatchet --but not in each other .
+
+ppatt:
+	?a bury ?b --but in ?c
+		?a: It time
+		?b: the hatchet
+		?c: not each other
+
+

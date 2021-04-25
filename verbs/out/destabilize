@@ -1,0 +1,223 @@
+label:    sent_1
+sentence: Higher productivity environments are predicted to destabilize consumer-resource dynamics . RING-domain E3 ubiquitin ligases have been shown to destabilize PERIOD or TIMELESS .
+
+ppatt:
+	?a are predicted to destabilize ?b
+		?a: Higher productivity environments
+		?b: consumer-resource dynamics
+	?a have been shown to destabilize ?b
+		?a: RING-domain E3 ubiquitin ligases
+		?b: PERIOD
+	?a have been shown to destabilize ?b
+		?a: RING-domain E3 ubiquitin ligases
+		?b: TIMELESS
+
+
+label:    sent_2
+sentence: Improved method to evaluate the ability of compounds to destabilize the cellular plasma membrane .
+
+ppatt:
+	?a evaluate ?b
+		?a: Improved method
+		?b: the ability of compounds to destabilize the cellular plasma membrane
+	?a destabilize ?b
+		?a: the ability of compounds
+		?b: the cellular plasma membrane
+
+
+label:    sent_3
+sentence: Interchannel impurity scattering and interchannel Coulomb interactions do not destabilize this picture .
+
+ppatt:
+	?a do not destabilize ?b
+		?a: Interchannel impurity scattering
+		?b: this picture
+	?a do not destabilize ?b
+		?a: interchannel Coulomb
+		?b: this picture
+	?a do not destabilize ?b
+		?a: interactions
+		?b: this picture
+
+
+label:    sent_4
+sentence: Do metalloproteinases destabilize vulnerable atherosclerotic plaques ? Thus , residues unique to the B-isoform destabilize receptor assembly energetics .
+
+ppatt:
+	Do ?a destabilize ?b
+		?a: metalloproteinases
+		?b: vulnerable atherosclerotic plaques
+	Thus , ?a destabilize ?b
+		?a: residues unique to the B-isoform
+		?b: receptor assembly energetics
+
+
+label:    sent_5
+sentence: Mutations in the p53 DNA-binding core domain destabilize the structure and reduce DNA-binding activity .
+
+ppatt:
+	?a destabilize ?b
+		?a: Mutations in the p53 DNA-binding core domain
+		?b: the structure
+	?a reduce ?b
+		?a: Mutations in the p53 DNA-binding core domain
+		?b: DNA-binding activity
+
+
+label:    sent_6
+sentence: These ring structures greatly destabilize the protein and result in irreversible denaturation .
+
+ppatt:
+	?a greatly destabilize ?b
+		?a: These ring structures
+		?b: the protein
+	?a result in ?b
+		?a: These ring structures
+		?b: irreversible denaturation
+
+
+label:    sent_7
+sentence: Both drugs destabilize activated channels and stabilize nonactivated channels .
+
+ppatt:
+	?a destabilize ?b
+		?a: Both drugs
+		?b: activated channels
+	?a stabilize ?b
+		?a: Both drugs
+		?b: nonactivated channels
+
+
+label:    sent_8
+sentence: High concentrations of the compatible solute glycinebetaine destabilize model membranes under stress conditions .
+
+ppatt:
+	?a destabilize ?b under ?c
+		?a: High concentrations of the compatible solute glycinebetaine
+		?b: model membranes
+		?c: stress conditions
+
+
+label:    sent_9
+sentence: These studies indicate that repetitive DNAs can destabilize a gene through homologous recombination .
+
+ppatt:
+	?a indicate ?b
+		?a: These studies
+		?b: SOMETHING := repetitive DNAs can destabilize a gene through homologous recombination
+	?a can destabilize ?b through ?c
+		?a: repetitive DNAs
+		?b: a gene
+		?c: homologous recombination
+
+
+label:    sent_10
+sentence: Loss of Apc may destabilize the CARN population under regeneration conditions .
+
+ppatt:
+	?a may destabilize ?b under ?c
+		?a: Loss of Apc
+		?b: the CARN population
+		?c: regeneration conditions
+
+
+label:    sent_11
+sentence: Solar UV-B radiation is an environmental factor which damage and destabilize genomes .
+
+ppatt:
+	?a is an environmental factor
+		?a: Solar UV-B radiation
+	?a damage
+		?a: which
+	?a destabilize ?b
+		?a: which damage
+		?b: genomes
+
+
+label:    sent_12
+sentence: Ketanserin does not worsen glucose tolerance or destabilize diabetic control .
+
+ppatt:
+	?a does not worsen ?b
+		?a: Ketanserin
+		?b: glucose tolerance
+	?a destabilize ?b
+		?a: Ketanserin
+		?b: diabetic control
+
+
+label:    sent_13
+sentence: Prenatal influence of ethanol induces self-facilitation but destabilize 3H-NA secretion .
+
+ppatt:
+	?a induces ?b
+		?a: Prenatal influence of ethanol
+		?b: self-facilitation
+	?a destabilize ?b
+		?a: Prenatal influence of ethanol
+		?b: 3H-NA secretion
+
+
+label:    sent_14
+sentence: Structural characteristics that stabilize or destabilize different assembly levels of phycocyanin by urea .
+
+ppatt:
+	?a stabilize ?b
+		?a: Structural characteristics
+		?b: different assembly levels of phycocyanin by urea
+	?a destabilize
+		?a: that
+
+
+label:    sent_15
+sentence: On the other hand they are able to destabilize proteins in generation dependent manner .
+
+ppatt:
+	On ?a ?b are able to destabilize ?c in ?d
+		?a: the other hand
+		?b: they
+		?c: proteins
+		?d: generation dependent manner
+
+
+label:    sent_16
+sentence: Unsaturated fatty acids phosphorylate and destabilize ABCA1 through a protein kinase C delta pathway .
+
+ppatt:
+	?a phosphorylate ?b through ?c
+		?a: Unsaturated fatty acids
+		?b: ABCA1
+		?c: a protein kinase C delta pathway
+	?a destabilize
+		?a: Unsaturated fatty acids
+
+
+label:    sent_17
+sentence: Stochastic fluctuations tend to destabilize and thereby mask steady states with few molecules . DEAD-box proteins are ATPase enzymes that destabilize and unwind duplex RNA .
+
+ppatt:
+	?a tend to destabilize thereby
+		?a: Stochastic fluctuations
+	?a tend to mask ?b
+		?a: Stochastic fluctuations
+		?b: steady states with few molecules
+	?a are ATPase enzymes
+		?a: DEAD-box proteins
+	?a destabilize ?b
+		?a: ATPase enzymes
+		?b: duplex RNA
+	?a unwind
+		?a: that
+
+
+label:    sent_18
+sentence: Mutations in the dimerizers can either destabilize or significantly stabilize a standard 18-mer insert .
+
+ppatt:
+	?a can either destabilize
+		?a: Mutations in the dimerizers
+	?a significantly stabilize ?b
+		?a: Mutations in the dimerizers
+		?b: a standard 18-mer insert
+
+

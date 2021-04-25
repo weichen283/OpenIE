@@ -1,0 +1,202 @@
+label:    sent_1
+sentence: Study design should be optimized to equalize these effects among interventions .
+
+ppatt:
+	?a should be optimized to equalize ?b among ?c
+		?a: Study design
+		?b: these effects
+		?c: interventions
+
+
+label:    sent_2
+sentence: Only log-transformed measures were analyzed in order to equalize variance among groups .
+
+ppatt:
+	?a were analyzed
+		?a: Only log-transformed measures
+	?a order to equalize ?b
+		?a: Only log-transformed measures
+		?b: variance among groups
+
+
+label:    sent_3
+sentence: The ability to equalize negative pressure was found to be poor .
+
+ppatt:
+	?a equalize ?b
+		?a: The ability
+		?b: negative pressure
+	?a was found to be poor
+		?a: The ability to equalize negative pressure
+
+
+label:    sent_4
+sentence: It has tried to equalize women 's position in marriage and the economy .
+
+ppatt:
+	?a has tried to equalize ?b in ?c
+		?a: It
+		?b: women 's position
+		?c: marriage
+	?a has tried to equalize ?b in ?c
+		?a: It
+		?b: women 's position
+		?c: the economy
+
+
+label:    sent_5
+sentence: Control-group subjects were contacted weekly to equalize attention from health care providers .
+
+ppatt:
+	?a were contacted weekly to equalize ?b
+		?a: Control-group subjects
+		?b: attention from health care providers
+
+
+label:    sent_6
+sentence: Restricted rats were food restricted to equalize body weights to liraglutide-treated rats . ( 3 ) The interdomal suture approximates the domes and can equalize asymmetric domes .
+
+ppatt:
+	?a were ?b restricted to equalize ?c
+		?a: Restricted rats
+		?b: food
+		?c: body weights to liraglutide-treated rats
+	?a approximates ?b
+		?a: The interdomal suture
+		?b: the domes
+	?a can equalize ?b
+		?a: The interdomal suture
+		?b: asymmetric domes
+
+
+label:    sent_7
+sentence: If possible to attain , those charges may partially equalize losses .
+
+ppatt:
+	possible to attain ?a
+		?a: those charges
+	?a may partially equalize ?b
+		?a: those charges
+		?b: losses
+
+
+label:    sent_8
+sentence: Factors which equalize the representation of genome segments in recombinant libraries .
+
+ppatt:
+	?a equalize ?b
+		?a: Factors
+		?b: the representation of genome segments in recombinant libraries
+
+
+label:    sent_9
+sentence: However , preservation of anatomic structures does not equalize preservation of function .
+
+ppatt:
+	However , ?a does not equalize ?b
+		?a: preservation of anatomic structures
+		?b: preservation of function
+
+
+label:    sent_10
+sentence: A FLU system to equalize faculty assignments in a school of nursing .
+
+ppatt:
+	?a equalize ?b in ?c
+		?a: A FLU system
+		?b: faculty assignments
+		?c: a school of nursing
+
+
+label:    sent_11
+sentence: The results suggest that cells equalize flagellar length by constitutive control .
+
+ppatt:
+	?a suggest ?b
+		?a: The results
+		?b: SOMETHING := cells equalize flagellar length by constitutive control
+	?a equalize ?b by ?c
+		?a: cells
+		?b: flagellar length
+		?c: constitutive control
+
+
+label:    sent_12
+sentence: It does more than simply equalize sexual differences by feminization .
+
+ppatt:
+	?a does more than simply equalize ?b
+		?a: It
+		?b: sexual differences by feminization
+
+
+label:    sent_13
+sentence: Metal ion levels appear to equalize between groups after 3 years .
+
+ppatt:
+	?a appear to equalize between ?b after ?c
+		?a: Metal ion levels
+		?b: groups
+		?c: 3 years
+
+
+label:    sent_14
+sentence: The salt concentration in muscle water tended to equalize in all muscles .
+
+ppatt:
+	?a tended to equalize in ?b
+		?a: The salt concentration in muscle water
+		?b: all muscles
+
+
+label:    sent_15
+sentence: During the 3-year follow-up , patency rates tended to equalize between the two modalities .
+
+ppatt:
+	During ?a , ?b tended to equalize between ?c
+		?a: the 3-year follow-up
+		?b: patency rates
+		?c: the two modalities
+
+
+label:    sent_16
+sentence: However , these differences equalize as familiarity with the data increases .
+
+ppatt:
+	However , ?a equalize as ?b
+		?a: these differences
+		?b: familiarity with the data increases
+
+
+label:    sent_17
+sentence: Intracranial pressure did not equalize prior to brain death determination .
+
+ppatt:
+	?a did not equalize prior to ?b
+		?a: Intracranial pressure
+		?b: brain death determination
+
+
+label:    sent_18
+sentence: Thus drought did not equalize household inequalities but indeed exacerbated them . Optimize vs. equalize . Also , there is a need to equalize and improve healthcare quality across countries .
+
+ppatt:
+	Thus ?a did not equalize ?b
+		?a: drought
+		?b: household inequalities
+	?a indeed exacerbated ?b
+		?a: drought
+		?b: them
+	?a Optimize
+		?a: drought
+	?a equalize
+		?a: drought
+	Also , there is ?a
+		?a: a need to equalize and improve healthcare quality across countries
+	?a equalize ?b
+		?a: a need
+		?b: healthcare quality across countries
+	?a improve
+		?a: a need
+
+

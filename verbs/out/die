@@ -1,0 +1,280 @@
+label:    sent_1
+sentence: The right to die in the minimally conscious state .
+
+ppatt:
+	?a die in ?b
+		?a: The right
+		?b: the minimally conscious state
+
+
+label:    sent_2
+sentence: There is need for change to avoid the situation where patients die in solitude . Cardiomyocytes can die via necrosis , apoptosis , and autophagy .
+
+ppatt:
+	There is ?a
+		?a: need for change to avoid the situation where patients die in solitude . Cardiomyocytes can die via necrosis , apoptosis , and autophagy
+	?a avoid ?b
+		?a: need for change
+		?b: the situation where patients die in solitude . Cardiomyocytes can die via necrosis , apoptosis , and autophagy
+	?a where ?b die in ?c
+		?a: the situation . Cardiomyocytes can die via necrosis , apoptosis , and autophagy
+		?b: patients
+		?c: solitude
+	?a ?b can die via ?c
+		?a: the situation where patients die in solitude
+		?b: Cardiomyocytes
+		?c: necrosis
+	?a ?b can die via ?c
+		?a: the situation where patients die in solitude
+		?b: Cardiomyocytes
+		?c: apoptosis
+	?a ?b can die via ?c
+		?a: the situation where patients die in solitude
+		?b: Cardiomyocytes
+		?c: autophagy
+
+
+label:    sent_3
+sentence: Under normal conditions , most cells appear to die by apoptosis during ICD .
+
+ppatt:
+	Under ?a , ?b appear to die by ?c during ?d
+		?a: normal conditions
+		?b: most cells
+		?c: apoptosis
+		?d: ICD
+
+
+label:    sent_4
+sentence: Trematode parasites infect or die in snail hosts . HIV-infected individuals were more likely to die than HIV-uninfected individuals ( p<0.0001 ) . Virtue and vice in health and illness : the idea that would n't die . 31 patients ( 50.8 % ) was die .
+
+ppatt:
+	?a infect in ?b
+		?a: Trematode parasites
+		?b: snail hosts
+	?a die
+		?a: Trematode parasites
+	?a were more likely to die than ?b
+		?a: HIV-infected individuals
+		?b: HIV-uninfected individuals in health and illness
+	?a is/are p<0.0001
+		?a: HIV-uninfected individuals in health and illness
+	would n't die ?a
+		?a: 31 patients
+	?a is/are 50.8 %
+		?a: 31 patients
+
+
+label:    sent_5
+sentence: An appraisal of life 's terminal phases and euthanasia and the right to die .
+
+ppatt:
+	?a die
+		?a: An appraisal of life 's terminal phases and euthanasia and the right
+
+
+label:    sent_6
+sentence: Trophic eggs are obligate for nymphal survival , and first-instar nymphs die without them . MECP2 is X-linked , and males die soon after birth .
+
+ppatt:
+	?a are obligate for ?b
+		?a: Trophic eggs
+		?b: nymphal survival
+	?a die without ?b
+		?a: first-instar nymphs
+		?b: them
+	?a is X-linked
+		?a: MECP2
+	?a die soon after ?b
+		?a: males
+		?b: birth
+
+
+label:    sent_7
+sentence: Neutrophils constitutively die by apoptosis at inflamed sites , and are ingested by macrophages .
+
+ppatt:
+	?a constitutively die by ?b at ?c
+		?a: Neutrophils
+		?b: apoptosis
+		?c: inflamed sites
+	?a are ingested by ?b
+		?a: Neutrophils
+		?b: macrophages
+
+
+label:    sent_8
+sentence: Heavily infected lobsters become sedentary , cease feeding , and die of metabolic exhaustion .
+
+ppatt:
+	?a become sedentary
+		?a: Heavily infected lobsters
+	?a cease ?b
+		?a: Heavily infected lobsters
+		?b: feeding
+	?a die of ?b
+		?a: Heavily infected lobsters
+		?b: metabolic exhaustion
+
+
+label:    sent_9
+sentence: Actual stem cells have an intolerance of genotoxic damage and die via apoptosis .
+
+ppatt:
+	?a have ?b
+		?a: Actual stem cells
+		?b: an intolerance of genotoxic damage
+	?a die via ?b
+		?a: Actual stem cells
+		?b: apoptosis
+
+
+label:    sent_10
+sentence: However , most patients achieving CR eventually relapse and die from their disease .
+
+ppatt:
+	?a achieving ?b
+		?a: most patients
+		?b: CR
+	However , ?a eventually relapse
+		?a: most patients achieving CR and die from their disease
+	?a die from ?b
+		?a: most patients
+		?b: their disease
+
+
+label:    sent_11
+sentence: He presents a massive hemoptisis and die . Elderly , psychiatric patients admitted to a long-stay ward become physically ill and die . During development , all cells make the decision to live or die .
+
+ppatt:
+	?a presents ?b
+		?a: He
+		?b: a massive hemoptisis
+	?a presents ?b
+		?a: He
+		?b: Elderly
+	?a die
+		?a: He
+	?a admitted to ?b
+		?a: patients
+		?b: a long-stay ward
+	?a become physically ill
+		?a: patients admitted to a long-stay ward
+	?a die During ?b
+		?a: patients admitted to a long-stay ward
+		?b: development
+	?a make ?b
+		?a: all cells
+		?b: the decision to live or die
+	?a live
+		?a: the decision
+	?a die
+		?a: the decision
+
+
+label:    sent_12
+sentence: Cigarette smoke-exposed neutrophils die unconventionally but are rapidly phagocytosed by macrophages .
+
+ppatt:
+	?a die unconventionally
+		?a: Cigarette smoke-exposed neutrophils
+	?a are rapidly phagocytosed by ?b
+		?a: Cigarette smoke-exposed neutrophils
+		?b: macrophages
+
+
+label:    sent_13
+sentence: What happens to my practice if I die or become incapacitated ? Privacy rights never die and sometimes complications linger on . Two die casts were manufactured from a silicone impression .
+
+ppatt:
+	?a happens to ?b practice
+		?a: What
+		?b: my
+	?a die
+		?a: I
+	?a become incapacitated
+		?a: I
+	?a never die
+		?a: Privacy rights
+	?a sometimes linger
+		?a: Privacy rights
+	?a die
+		?a: Privacy rights
+	?a ?b were manufactured from ?c
+		?a: complications
+		?b: Two casts
+		?c: a silicone impression
+
+
+label:    sent_14
+sentence: The impression made with the polyvinylsiloxane was first poured to prepare the die cast .
+
+ppatt:
+	?a made with ?b
+		?a: The impression
+		?b: the polyvinylsiloxane
+	?a was first poured to prepare ?b
+		?a: The impression made with the polyvinylsiloxane
+		?b: the die cast
+
+
+label:    sent_15
+sentence: Born to live or born to die : the handicapped newborn in New Jersey .
+
+ppatt:
+
+
+
+label:    sent_16
+sentence: The infants die off pulmonary hypoplasia .
+
+ppatt:
+	?a die off ?b
+		?a: The infants
+		?b: pulmonary hypoplasia
+
+
+label:    sent_17
+sentence: Cultural stereotypes die hard : the case of transracial adoption .
+
+ppatt:
+	?a die hard ?b
+		?a: Cultural stereotypes
+		?b: the case of transracial adoption
+
+
+label:    sent_18
+sentence: Old habits die hard : chest radiography for screening purposes in primary care .
+
+ppatt:
+	?a die ?b ?c
+		?a: Old habits
+		?b: hard
+		?c: chest radiography for screening purposes in primary care
+
+
+label:    sent_19
+sentence: Suitability of a flat die press for the manufacture of pharmaceutical pellets by extrusion/spheronization .
+
+ppatt:
+
+
+
+label:    sent_20
+sentence: Children with mild xerophthalmia die at 4-16 times the rate of their nonxerophthalmic peers .
+
+ppatt:
+	?a die at ?b ?c
+		?a: Children with mild xerophthalmia
+		?b: 4-16 times
+		?c: the rate of their nonxerophthalmic peers
+
+
+label:    sent_21
+sentence: Out of the 3 , one neonate will die .
+
+ppatt:
+	Out of ?a will die
+		?a: the 3 , one neonate
+
+

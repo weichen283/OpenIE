@@ -1,0 +1,264 @@
+label:    sent_1
+sentence: The pain may radiate across the hip joint and the thigh bones .
+
+ppatt:
+	?a may radiate across ?b
+		?a: The pain
+		?b: the hip joint
+	?a may radiate across ?b
+		?a: The pain
+		?b: the thigh bones
+
+
+label:    sent_2
+sentence: A model is developed whereby cracks can radiate from an elliptical fluid filled void .
+
+ppatt:
+	?a is developed ?b
+		?a: A model
+		?b: SOMETHING := whereby cracks can radiate from an elliptical fluid filled void
+	whereby ?a can radiate from ?b
+		?a: cracks
+		?b: an elliptical fluid filled void
+
+
+label:    sent_3
+sentence: Prominent bundles of microfilaments radiate from the cell body into the cell processes .
+
+ppatt:
+	?a radiate from ?b into ?c
+		?a: Prominent bundles of microfilaments
+		?b: the cell body
+		?c: the cell processes
+
+
+label:    sent_4
+sentence: Long and branched reticulopodia radiate from the cell .
+
+ppatt:
+	?a radiate from ?b
+		?a: Long
+		?b: the cell
+	?a radiate from ?b
+		?a: branched
+		?b: the cell
+
+
+label:    sent_5
+sentence: The lasing emission was also found to radiate in all directions .
+
+ppatt:
+	?a was also found to radiate in ?b
+		?a: The lasing emission
+		?b: all directions
+
+
+label:    sent_6
+sentence: In some cases , filaments appeared to radiate from foci within the cell .
+
+ppatt:
+	In ?a , ?b appeared to radiate from ?c
+		?a: some cases
+		?b: filaments
+		?c: foci within the cell
+
+
+label:    sent_7
+sentence: Type III-cells are radiate multidendritic ( longdendritic , tapering ) uniaxonal neurons .
+
+ppatt:
+	?a are radiate ?b
+		?a: Type III-cells
+		?b: multidendritic uniaxonal neurons
+
+
+label:    sent_8
+sentence: The iris vessels demonstrate a radiate distribution of about 180-200 branches .
+
+ppatt:
+	?a demonstrate ?b
+		?a: The iris vessels
+		?b: a radiate distribution of about 180-200 branches
+
+
+label:    sent_9
+sentence: Emptying rate of gastric fluid was determined with radiate nuclide ( 99m ) Tc . Cardiac pain may radiate to the face and lead patients to seek dental care .
+
+ppatt:
+	?a was determined with radiate ?b
+		?a: Emptying rate of gastric fluid
+		?b: nuclide Tc
+	?a is/are 99m
+		?a: nuclide
+	?a may radiate to ?b
+		?a: Cardiac pain
+		?b: the face
+	?a lead ?b to seek ?c
+		?a: Cardiac pain
+		?b: patients
+		?c: dental care
+
+
+label:    sent_10
+sentence: Pain frequently radiate proximally into the forearm , and occasionally to the shoulder .
+
+ppatt:
+	?a frequently radiate proximally into ?b
+		?a: Pain
+		?b: the forearm
+	?a frequently radiate proximally into ?b
+		?a: Pain
+		?b: occasionally the shoulder
+
+
+label:    sent_11
+sentence: Cardiac pain may radiate to the face and lead patients to seek dental care .
+
+ppatt:
+	?a may radiate to ?b
+		?a: Cardiac pain
+		?b: the face
+	?a lead ?b to seek ?c
+		?a: Cardiac pain
+		?b: patients
+		?c: dental care
+
+
+label:    sent_12
+sentence: Unilaminar neurons with multipolar radiate , bitufted , and intermediate types of dendrites .
+
+ppatt:
+
+
+
+label:    sent_13
+sentence: Multilaminar neurons with multipolar radiate , bitufted , and intermediate types of dendrites .
+
+ppatt:
+
+
+
+label:    sent_14
+sentence: Some jewelry powders radiate far-infrared rays . At this pressure the pinch will not form so the plasma will not radiate .
+
+ppatt:
+	?a radiate ?b . At ?c
+		?a: Some jewelry powders
+		?b: far-infrared rays
+		?c: this pressure
+	?a will not form so
+		?a: the pinch
+	?a will not radiate
+		?a: the plasma
+
+
+label:    sent_15
+sentence: Structure of a radiate pseudocolony associated with an intrauterine contraceptive device .
+
+ppatt:
+	?a associated with ?b
+		?a: a radiate pseudocolony
+		?b: an intrauterine contraceptive device
+
+
+label:    sent_16
+sentence: However , balloons do not radiate omnidirectionally .
+
+ppatt:
+	However , ?a do not radiate omnidirectionally
+		?a: balloons
+
+
+label:    sent_17
+sentence: Each has neurons with radiate or weakly tufted dendritic arbors .
+
+ppatt:
+	?a has ?b with ?c
+		?a: Each
+		?b: neurons
+		?c: radiate
+	?a has ?b with ?c
+		?a: Each
+		?b: neurons
+		?c: weakly tufted
+
+
+label:    sent_18
+sentence: Tendrils of DNA , primarily duplex , radiate outward from these centers .
+
+ppatt:
+	?a is/are primarily duplex
+		?a: DNA
+	?a radiate outward from ?b
+		?a: Tendrils of DNA
+		?b: these centers
+
+
+label:    sent_19
+sentence: The iridian zone proper has one radiate artery for 3 or 4 veins . ( ii ) Particles can radiate a fraction of their energy during the process .
+
+ppatt:
+	?a has ?b
+		?a: The iridian zone proper
+		?b: artery for 3 or 4 veins
+	?a radiate
+		?a: The iridian zone proper
+	?a can radiate ?b during ?c
+		?a: Particles
+		?b: a fraction of their energy
+		?c: the process
+
+
+label:    sent_20
+sentence: With this technique many epithelial cells radiate a bright yellow fluorescence .
+
+ppatt:
+	With ?a ?b radiate ?c
+		?a: this technique
+		?b: many epithelial cells
+		?c: a bright yellow fluorescence
+
+
+label:    sent_21
+sentence: Beta-particle-emitting stents radiate enthusiasm in the search for effective prevention of restenosis .
+
+ppatt:
+	?a radiate ?b in ?c
+		?a: Beta-particle-emitting stents
+		?b: enthusiasm
+		?c: the search for effective prevention of restenosis
+
+
+label:    sent_22
+sentence: Based upon their dendritic morphology , two types were identified , radiate and fusiform .
+
+ppatt:
+	Based upon ?a dendritic morphology ?b
+		?a: their
+		?b: two types
+	?a were identified
+		?a: two types
+	?a radiate
+		?a: two types
+
+
+label:    sent_23
+sentence: The cells in layer 3 have the smallest soma and radiate dendrites .
+
+ppatt:
+	?a have ?b
+		?a: The cells in layer 3
+		?b: the smallest soma
+	?a radiate ?b
+		?a: The cells in layer 3
+		?b: dendrites
+
+
+label:    sent_24
+sentence: Brushite stones reveal radiate structure and are hard .
+
+ppatt:
+	radiate ?a
+		?a: structure
+
+

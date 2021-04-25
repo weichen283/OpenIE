@@ -1,0 +1,314 @@
+label:    sent_1
+sentence: Proteins purified from leucocytes form and deform an actin matrix .
+
+ppatt:
+	?a purified from ?b
+		?a: Proteins
+		?b: leucocytes
+	?a form
+		?a: Proteins purified from leucocytes
+	?a deform ?b
+		?a: Proteins purified from leucocytes
+		?b: an actin matrix
+
+
+label:    sent_2
+sentence: Electric fields were found to deform sickled erythrocytes .
+
+ppatt:
+	?a were found to deform ?b
+		?a: Electric fields
+		?b: sickled erythrocytes
+
+
+label:    sent_3
+sentence: The shaft of an actuator is used to deform the elastic rubber .
+
+ppatt:
+	?a is used to deform ?b
+		?a: The shaft of an actuator
+		?b: the elastic rubber
+
+
+label:    sent_4
+sentence: Face centered cubic metals deform mainly by propagating partial dislocations generating planar fault ribbons .
+
+ppatt:
+	?a deform mainly
+		?a: Face centered cubic metals
+	?a propagating ?b
+		?a: Face centered cubic metals
+		?b: partial dislocations generating planar fault ribbons
+	?a generating ?b
+		?a: partial dislocations
+		?b: planar fault ribbons
+
+
+label:    sent_5
+sentence: Conversely , the pristine material can deform near its theoretical strength limit .
+
+ppatt:
+	Conversely , ?a can deform near ?b
+		?a: the pristine material
+		?b: its theoretical strength limit
+
+
+label:    sent_6
+sentence: Crystalline materials deform in an intermittent way via dislocation-slip avalanches .
+
+ppatt:
+	?a deform in ?b via ?c
+		?a: Crystalline materials
+		?b: an intermittent way
+		?c: dislocation-slip avalanches
+
+
+label:    sent_7
+sentence: Elastic sheets with macroscopic dimensions are easy to deform by bending and stretching . Red cells slide as they form doublets and deform in rouleaux .
+
+ppatt:
+	?a are easy to deform by ?b
+		?a: Elastic sheets with macroscopic dimensions
+		?b: bending
+	?a are easy to deform by ?b
+		?a: Elastic sheets with macroscopic dimensions
+		?b: stretching
+	?a slide
+		?a: Red cells
+	?a form ?b
+		?a: they
+		?b: doublets
+	?a deform in ?b
+		?a: they
+		?b: rouleaux
+
+
+label:    sent_8
+sentence: High residual stresses of thin films make thin chip deform into designed three-dimensional shapes .
+
+ppatt:
+	?a make ?b
+		?a: High residual stresses of thin films
+		?b: SOMETHING := thin chip deform into designed three-dimensional shapes
+	?a deform into ?b
+		?a: thin chip
+		?b: designed three-dimensional shapes
+
+
+label:    sent_9
+sentence: Excessive force that may deform the blades should be avoided .
+
+ppatt:
+	?a may deform ?b
+		?a: Excessive force
+		?b: the blades
+	?a should be avoided
+		?a: Excessive force that may deform the blades
+
+
+label:    sent_10
+sentence: They deform nuclei and sarcoplasmic reticulum cisternae .
+
+ppatt:
+	?a deform ?b
+		?a: They
+		?b: nuclei
+	?a deform ?b
+		?a: They
+		?b: sarcoplasmic reticulum cisternae
+
+
+label:    sent_11
+sentence: Individual sperm deform the local mucus microstructure .
+
+ppatt:
+	?a deform ?b
+		?a: Individual sperm
+		?b: the local mucus microstructure
+
+
+label:    sent_12
+sentence: How do metals deform if the size is smaller than the fault ribbons ?
+
+ppatt:
+	How do ?a deform
+		?a: metals
+	?a is smaller than ?b
+		?a: the size
+		?b: the fault ribbons
+
+
+label:    sent_13
+sentence: The RBCs deform more easily as the intercellular interaction strength increases .
+
+ppatt:
+	?a deform more easily as ?b
+		?a: The RBCs
+		?b: the intercellular interaction strength increases
+
+
+label:    sent_14
+sentence: The cavity is most rigid , while other regions deform substantially .
+
+ppatt:
+	?a is most rigid
+		?a: The cavity
+	?a deform substantially
+		?a: other regions
+
+
+label:    sent_15
+sentence: The shear stresses tend to deform the plaque by pinching it . Nongelling experiments showed that shear forces are able to deform drops into ellipsoids .
+
+ppatt:
+	?a tend to deform ?b
+		?a: The shear stresses
+		?b: the plaque
+	?a pinching ?b
+		?a: The shear stresses
+		?b: it
+	?a showed ?b
+		?a: Nongelling experiments
+		?b: SOMETHING := shear forces are able to deform drops into ellipsoids
+	?a are able to deform ?b into ?c
+		?a: shear forces
+		?b: drops
+		?c: ellipsoids
+
+
+label:    sent_16
+sentence: The SiC NWs are found to deform linear elastically until brittle fracture .
+
+ppatt:
+	?a are found to deform linear elastically until ?b
+		?a: The SiC NWs
+		?b: brittle fracture
+
+
+label:    sent_17
+sentence: Such material is expected to deform and relax to larger extents .
+
+ppatt:
+	?a is expected to deform to ?b
+		?a: Such material
+		?b: larger extents
+	?a is expected to relax
+		?a: Such material
+
+
+label:    sent_18
+sentence: Bullets were not found to deform or fragment in tissue stimulant . Red Blood Cells ( RBCs ) need to deform and squeeze through narrow capillaries .
+
+ppatt:
+	?a were not found to deform in ?b
+		?a: Bullets
+		?b: tissue stimulant
+	?a is/are RBCs
+		?a: Red Blood Cells
+	?a need to deform through ?b
+		?a: Red Blood Cells
+		?b: narrow capillaries
+	?a need to squeeze
+		?a: Red Blood Cells
+
+
+label:    sent_19
+sentence: The jet impact was violent enough to puncture thin foils and deform metal plates .
+
+ppatt:
+	?a was violent enough to puncture ?b
+		?a: The jet impact
+		?b: thin foils
+	?a was violent enough to deform ?b
+		?a: The jet impact
+		?b: metal plates
+
+
+label:    sent_20
+sentence: In addition , an expanding tumor can also deflect and deform nearby tissue .
+
+ppatt:
+	In ?a , ?b can also deflect ?c
+		?a: addition
+		?b: an expanding tumor
+		?c: nearby tissue
+	?a deform
+		?a: an expanding tumor
+
+
+label:    sent_21
+sentence: Nonresonant probes of comparable sensitivity would melt and deform the sample surface .
+
+ppatt:
+	?a would melt ?b
+		?a: Nonresonant probes of comparable sensitivity
+		?b: the sample surface
+	?a deform
+		?a: Nonresonant probes of comparable sensitivity
+
+
+label:    sent_22
+sentence: This does not deform or irritate the nasal airway . alpha-Cyclodextrin ( alpha-CD ) causes the microcapsules to deform and even collapse .
+
+ppatt:
+	?a does not deform ?b
+		?a: This
+		?b: the nasal airway
+	?a irritate
+		?a: This
+	?a is/are alpha-CD
+		?a: alpha-Cyclodextrin
+	?a causes ?b to deform ?c
+		?a: alpha-Cyclodextrin
+		?b: the microcapsules
+		?c: even collapse
+
+
+label:    sent_23
+sentence: Dynamin-related proteins are large GTPases that deform and cause fission of membranes .
+
+ppatt:
+	?a are large GTPases
+		?a: Dynamin-related proteins
+	?a deform ?b
+		?a: large GTPases
+		?b: fission of membranes
+	?a cause
+		?a: that
+
+
+label:    sent_24
+sentence: Externally applied forces will deform the cells depending upon their mechanical properties .
+
+ppatt:
+	?a will deform ?b
+		?a: Externally applied forces
+		?b: the cells
+	?a depending upon ?b mechanical properties
+		?a: Externally applied forces
+		?b: their
+
+
+label:    sent_25
+sentence: To remedy this , we deform all scattering amplitudes by a spectral parameter .
+
+ppatt:
+	remedy ?a ?b
+		?a: this
+		?b: we
+	?a deform ?b by ?c
+		?a: we
+		?b: all scattering amplitudes
+		?c: a spectral parameter
+
+
+label:    sent_26
+sentence: The regions of high and low cation density deform DNA by electrostatic collapse .
+
+ppatt:
+	?a deform ?b by ?c
+		?a: The regions of high and low cation density
+		?b: DNA
+		?c: electrostatic collapse
+
+

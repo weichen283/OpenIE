@@ -1,0 +1,255 @@
+label:    sent_1
+sentence: Thus , CBP and p300 constitute likely candidates for transcriptional coactivators in memory formation . DesB may thus constitute a novel drug target .
+
+ppatt:
+	Thus , ?a constitute ?b
+		?a: CBP
+		?b: likely candidates for transcriptional coactivators in memory formation
+	Thus , ?a constitute ?b
+		?a: p300
+		?b: likely candidates for transcriptional coactivators in memory formation
+	?a may thus constitute ?b
+		?a: DesB
+		?b: a novel drug target
+
+
+label:    sent_2
+sentence: They therefore constitute crucial actors to understand pharmacology of these drugs . Bloodstains often constitute the major physical evidence in crime investigation .
+
+ppatt:
+	?a therefore constitute ?b
+		?a: They
+		?b: crucial actors to understand pharmacology of these drugs
+	?a understand ?b
+		?a: crucial actors
+		?b: pharmacology of these drugs
+	?a often constitute ?b
+		?a: Bloodstains
+		?b: the major physical evidence in crime investigation
+
+
+label:    sent_3
+sentence: Home injury is thought to constitute a major health burden in most developed countries .
+
+ppatt:
+	?a is thought to constitute ?b in ?c
+		?a: Home injury
+		?b: a major health burden
+		?c: most developed countries
+
+
+label:    sent_4
+sentence: Romanies constitute the largest minority group belonging to different subgroups in Hungary . Of these , five constitute a significant molecular cluster of infection .
+
+ppatt:
+	?a constitute ?b
+		?a: Romanies
+		?b: the largest minority group belonging to different subgroups in Hungary Of these
+	?a belonging to ?b
+		?a: the largest minority group
+		?b: different subgroups in Hungary Of these
+	?a constitute ?b
+		?a: five
+		?b: a significant molecular cluster of infection
+
+
+label:    sent_5
+sentence: In Arabidopsis thaliana , central circadian clock genes constitute several feedback loops . OCCCs constitute a heterogeneous disease at the genomic level despite having similar histological features .
+
+ppatt:
+	In ?a , ?b constitute ?c
+		?a: Arabidopsis thaliana
+		?b: central circadian clock genes
+		?c: several feedback loops
+	?a constitute ?b at ?c
+		?a: OCCCs
+		?b: a heterogeneous disease
+		?c: the genomic level
+	?a despite having ?b
+		?a: OCCCs
+		?b: similar histological features
+
+
+label:    sent_6
+sentence: Whether or not circumboreal lichen species really constitute monophyletic groups has seldom been tested .
+
+ppatt:
+	?a really constitute ?b
+		?a: not circumboreal lichen species
+		?b: monophyletic groups
+
+
+label:    sent_7
+sentence: Metallothioneins constitute a family of cysteine proteins and play a significant role as anti-oxidants .
+
+ppatt:
+	?a constitute ?b
+		?a: Metallothioneins
+		?b: a family of cysteine proteins
+	?a play ?b as ?c
+		?a: Metallothioneins
+		?b: a significant role
+		?c: anti-oxidants
+
+
+label:    sent_8
+sentence: Many resale practices are legitimate , but others may constitute illegal drug diversion .
+
+ppatt:
+	?a are legitimate
+		?a: Many resale practices
+	?a may constitute ?b
+		?a: others
+		?b: illegal drug diversion
+
+
+label:    sent_9
+sentence: Sixty-nine responded ( 38 % ) and constitute the subjects studied .
+
+ppatt:
+	?a responded
+		?a: Sixty-nine
+	?a constitute ?b
+		?a: Sixty-nine
+		?b: the subjects studied
+	?a studied
+		?a: the subjects
+
+
+label:    sent_10
+sentence: These Ago2 : pre-miRNA complexes are catalytically active in vitro and constitute non-canonical RISCs .
+
+ppatt:
+	?a are catalytically active in vitro
+		?a: These Ago2 : pre-miRNA complexes
+	?a constitute ?b
+		?a: These Ago2 : pre-miRNA complexes
+		?b: non-canonical RISCs
+
+
+label:    sent_11
+sentence: Bladder pheochromocytomas are extremely rare and constitute less than 5 % of bladder tumors .
+
+ppatt:
+	?a are extremely rare
+		?a: Bladder pheochromocytomas
+	?a constitute ?b
+		?a: Bladder pheochromocytomas
+		?b: less than 5 % of bladder tumors
+
+
+label:    sent_12
+sentence: Early stricture relapse may constitute ground for considering early surgical reconstruction .
+
+ppatt:
+	?a may constitute ?b
+		?a: Early stricture relapse
+		?b: ground
+	?a considering ?b
+		?a: ground
+		?b: early surgical reconstruction
+
+
+label:    sent_13
+sentence: The final 30 items constitute the CALIPSO .
+
+ppatt:
+	?a constitute ?b
+		?a: The final 30 items
+		?b: the CALIPSO
+
+
+label:    sent_14
+sentence: RGS proteins constitute a large family that modulates heterotrimeric G-protein signaling .
+
+ppatt:
+	?a constitute ?b
+		?a: RGS proteins
+		?b: a large family that modulates heterotrimeric G-protein signaling
+	?a modulates ?b
+		?a: a large family
+		?b: heterotrimeric G-protein signaling
+
+
+label:    sent_15
+sentence: This suggests that in the prepubertal phase juvenility may constitute a stress-sensitive period .
+
+ppatt:
+	?a suggests ?b
+		?a: This
+		?b: SOMETHING := in the prepubertal phase juvenility may constitute a stress-sensitive period
+	in ?a ?b may constitute ?c
+		?a: the prepubertal phase
+		?b: juvenility
+		?c: a stress-sensitive period
+
+
+label:    sent_16
+sentence: Together with the adrenergic cells , the interrenals constitute the adrenal homolog in teleosts .
+
+ppatt:
+	with ?a , ?b constitute ?c
+		?a: Together the adrenergic cells
+		?b: the interrenals
+		?c: the adrenal homolog in teleosts
+
+
+label:    sent_17
+sentence: In addition , region alpha 655-670 might constitute a minor antigenic site of HIR .
+
+ppatt:
+	In ?a , ?b might constitute ?c
+		?a: addition
+		?b: region alpha 655-670
+		?c: a minor antigenic site of HIR
+
+
+label:    sent_18
+sentence: These constitute a uncommon pathology , but with a mortality rate greater 70 % . However , there is no clear agreement on what key elements constitute CR .
+
+ppatt:
+	?a constitute ?b
+		?a: These
+		?b: a uncommon pathology
+	with ?a However , there is ?b
+		?a: a mortality rate greater 70 %
+		?b: no clear agreement on what key elements constitute CR
+	?a on ?b ?c constitute ?d
+		?a: no clear agreement
+		?b: what
+		?c: key elements
+		?d: CR
+
+
+label:    sent_19
+sentence: Some clusters constitute around 1 % of chromosomal DNA .
+
+ppatt:
+	?a constitute around ?b
+		?a: Some clusters
+		?b: 1 % of chromosomal DNA
+
+
+label:    sent_20
+sentence: Alterations of the ' native ' epigenetic imprint might constitute such a novel mechanism .
+
+ppatt:
+	?a might constitute ?b
+		?a: Alterations of the ' native ' epigenetic imprint
+		?b: such a novel mechanism
+
+
+label:    sent_21
+sentence: At this time , ammonium and urea each constitute about one-half of this excretion .
+
+ppatt:
+	At ?a , ?b constitute ?c
+		?a: this time
+		?b: ammonium each
+		?c: about one-half of this excretion
+	At ?a , ?b constitute ?c
+		?a: this time
+		?b: urea
+		?c: about one-half of this excretion
+
+

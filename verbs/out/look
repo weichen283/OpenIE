@@ -1,0 +1,521 @@
+label:    sent_1
+sentence: For those two reasons , extended inflammatory response and increasing antibiotic resistance , it is interesting to look at adjunctive non-antibiotic therapeutic strategies aimed at modulation of the inflammatory response or at the micro-organism itself .
+
+ppatt:
+	?a is/are extended inflammatory response
+		?a: those two reasons
+	For ?a , ?b is interesting to look at ?c
+		?a: those two reasons
+		?b: it
+		?c: adjunctive non-antibiotic therapeutic strategies aimed at modulation of the inflammatory response or at the micro-organism itself
+	?a aimed at ?b
+		?a: adjunctive non-antibiotic therapeutic strategies
+		?b: modulation of the inflammatory response or at the micro-organism itself
+
+
+label:    sent_2
+sentence: When searching for a threatening target , participants were more likely to look in the direction of eye gaze on a fearful compared to a happy face .
+
+ppatt:
+	When searching for ?a ?b
+		?a: a threatening target
+		?b: participants
+	?a were more likely to look in ?b
+		?a: participants
+		?b: the direction of eye gaze on a fearful
+	?a compared to a happy face
+		?a: participants
+
+
+label:    sent_3
+sentence: We also wanted to look into the relative effectiveness of low-fat diets and pharmacological interventions for acquired hypercholesterolaemia .
+
+ppatt:
+	?a also wanted to look into ?b
+		?a: We
+		?b: the relative effectiveness of low-fat diets and pharmacological interventions for acquired hypercholesterolaemia
+
+
+label:    sent_4
+sentence: Given the strength of our findings , governing bodies should look to integrate the 10-8-8-10 test into the fitness test protocols devised for ARs , with scores >= 9.67 being considered as a starting point for the empirical validation of minimum selection criteria for elite-level ARs .
+
+ppatt:
+	Given ?a , should look to integrate ?b into ?c
+		?a: the strength of our findings
+		?b: the 10-8-8-10 test
+		?c: the fitness test protocols devised for ARs with scores
+	?a devised for ?b
+		?a: the fitness test protocols with scores
+		?b: ARs
+	being considered as ?a
+		?a: a starting point for the empirical validation of minimum selection criteria for elite-level ARs
+
+
+label:    sent_5
+sentence: Whether we look at global or local problems , the international debate increasingly points to the importance of popular support for environmental protection by a broad spectrum of stakeholders .
+
+ppatt:
+	?a look at ?b
+		?a: we
+		?b: global
+	?a look at ?b
+		?a: we
+		?b: local
+	?a increasingly points to ?b
+		?a: the international debate
+		?b: the importance of popular support for environmental protection by a broad spectrum of stakeholders
+
+
+label:    sent_6
+sentence: What will the nursing profession look like in the future ? This article provides an in-depth look at the recommendations put forth by the IOM , offers discipline-specific recommendations consistent with those outlined in the IOM model , and introduces other models that may be of use as food and nutrition practitioners move forward with developing strategies to eliminate racial and ethnic health disparities .
+
+ppatt:
+	?a will ?b look like in ?c
+		?a: What
+		?b: the nursing profession
+		?c: the future
+	?a provides ?b at ?c
+		?a: This article
+		?b: an in-depth look
+		?c: the recommendations put forth by the IOM
+	?a put forth by ?b
+		?a: the recommendations
+		?b: the IOM
+	?a offers ?b
+		?a: This article
+		?b: discipline-specific recommendations consistent with those outlined in the IOM model
+	?a outlined in ?b
+		?a: those
+		?b: the IOM model
+	?a introduces ?b
+		?a: This article
+		?b: other models that may be of use as food and nutrition practitioners move forward with developing strategies to eliminate racial and ethnic health disparities
+	?a may be of use as ?b
+		?a: other models
+		?b: food
+	?a may be of use as ?b
+		?a: other models
+		?b: nutrition
+	?a move ?b with ?c
+		?a: practitioners
+		?b: forward
+		?c: developing strategies to eliminate racial and ethnic health disparities
+	?a eliminate ?b ?c
+		?a: developing strategies
+		?b: racial
+		?c: health disparities
+	?a eliminate ?b ?c
+		?a: developing strategies
+		?b: ethnic
+		?c: health disparities
+
+
+label:    sent_7
+sentence: In order to improve not only the reporting but also the planning , design , execution and thereby , the scientific quality of animal experiments , we strongly recommend to all scientists involved in animal experimentation and to editors of journals publishing animal studies to take a closer look at the contents of both the ARRIVE guidelines and GSPC , and select the set of guidelines which is most appropriate for their particular situation .
+
+ppatt:
+	order to improve not ?a ?b
+		?a: the reporting
+		?b: we
+	order to improve not ?a ?b
+		?a: the planning
+		?b: we
+	order to improve not ?a ?b
+		?a: design
+		?b: we
+	order to improve not ?a ?b
+		?a: execution
+		?b: we
+	order to improve not ?a ?b
+		?a: thereby
+		?b: we
+	order to improve not ?a ?b
+		?a: the scientific quality of animal experiments
+		?b: we
+	?a strongly recommend to ?b
+		?a: we
+		?b: all scientists involved in animal experimentation
+	?a strongly recommend to ?b
+		?a: we
+		?b: editors of journals publishing animal studies to take a closer look at the contents of both the ARRIVE guidelines and GSPC
+	?a involved in ?b
+		?a: all scientists
+		?b: animal experimentation
+	involved in ?a ?b
+		?a: animal experimentation
+		?b: editors of journals publishing animal studies to take a closer look at the contents of both the ARRIVE guidelines and GSPC
+	?a publishing ?b
+		?a: journals
+		?b: animal studies
+	?a take ?b at ?c
+		?a: editors of journals publishing animal studies
+		?b: a closer look
+		?c: the contents of both the ARRIVE guidelines and GSPC
+	?a select ?b
+		?a: we
+		?b: the set of guidelines which is most appropriate for their particular situation
+	?a is most appropriate for ?b
+		?a: guidelines
+		?b: their particular situation
+
+
+label:    sent_8
+sentence: This paper gathers information on informal e-waste management , takes a look at its particular manifestations in China and identifies some of the main difficulties of the current Chinese approach .
+
+ppatt:
+	?a gathers ?b
+		?a: This paper
+		?b: information on informal e-waste management
+	?a takes ?b at ?c
+		?a: This paper
+		?b: a look
+		?c: its particular manifestations in China
+	?a identifies ?b
+		?a: This paper
+		?b: some of the main difficulties of the current Chinese approach
+
+
+label:    sent_9
+sentence: Given the large number of possible causes of myoclonus , it is essential to take a good history , to clinically characterize myoclonus and to look for additional findings on examination in order to limit the list of possible investigations .
+
+ppatt:
+	Given ?a , ?b is essential to take ?c
+		?a: the large number of possible causes of myoclonus
+		?b: it
+		?c: a good history
+	?a clinically characterize ?b
+		?a: it
+		?b: myoclonus
+	?a is essential to to look for ?b
+		?a: it
+		?b: additional findings on examination
+	?a order to limit ?b
+		?a: it
+		?b: the list of possible investigations
+
+
+label:    sent_10
+sentence: On examination , it is important to see whether the myoclonus appears at rest , on keeping posture or during action , to note the distribution of jerks and to look for the stimulus sensitivity .
+
+ppatt:
+	On ?a , ?b is important to see ?c
+		?a: examination
+		?b: it
+		?c: SOMETHING := the myoclonus appears at rest , on keeping posture or during action , to note the distribution of jerks and to look for the stimulus sensitivity
+	?a appears at ?b , to note ?c
+		?a: the myoclonus
+		?b: rest
+		?c: the distribution of jerks
+	?a keeping ?b
+		?a: the myoclonus
+		?b: posture
+	?a keeping ?b
+		?a: the myoclonus
+		?b: action
+	?a appears , to to look for ?b
+		?a: the myoclonus
+		?b: the stimulus sensitivity
+
+
+label:    sent_11
+sentence: We compared demographic and risk factors for ischemic stroke across different TOAST ( Trial of ORG 10172 in Acute Stroke Treatment ) stroke subtypes to look for clinical differences between other subtypes and CS and subsequently performed periodic Holter monitoring and imaging studies in apparent CS patients .
+
+ppatt:
+	?a compared ?b across ?c ?d
+		?a: We
+		?b: demographic and risk factors for ischemic stroke
+		?c: different TOAST
+		?d: stroke subtypes
+	?a look for ?b
+		?a: We
+		?b: clinical differences between other subtypes and CS and subsequently performed periodic Holter monitoring and imaging studies in apparent CS patients
+
+
+label:    sent_12
+sentence: How to look after patients on anticoagulant therapy .
+
+ppatt:
+	How to look after ?a
+		?a: patients on anticoagulant therapy
+
+
+label:    sent_13
+sentence: Tissue properties will be added to the various anatomical structures to replicate a realistic look and feel .
+
+ppatt:
+	?a will be added to ?b to replicate ?c
+		?a: Tissue properties
+		?b: the various anatomical structures
+		?c: a realistic look
+	?a will be added to feel
+		?a: Tissue properties
+
+
+label:    sent_14
+sentence: The critical conclusions drawn will help the reader look past what is the most highlighted feature of the new anticoagulantion era : the non-necessity for monitoring .
+
+ppatt:
+	?a drawn
+		?a: The critical conclusions
+	?a will help ?b look past ?c
+		?a: The critical conclusions drawn
+		?b: the reader
+		?c: SOMETHING := what is the most highlighted feature of the new anticoagulantion era
+	?a is the most highlighted feature of ?b
+		?a: what
+		?b: the new anticoagulantion era
+
+
+label:    sent_15
+sentence: What does a " normal " human genome look like ?
+
+ppatt:
+	?a does ?b
+		?a: What
+		?b: a " normal " human genome
+	?a look like
+		?a: SOMETHING := What does a " normal " human genome
+
+
+label:    sent_16
+sentence: We will be continuing our efforts and look forward to contributing to this blossoming field in the next decade .
+
+ppatt:
+	?a will be continuing ?b
+		?a: We
+		?b: our efforts
+	?a look ?b
+		?a: We
+		?b: forward
+	?a contributing to ?b
+		?a: We
+		?b: this blossoming field in the next decade
+
+
+label:    sent_17
+sentence: Students look forward to their clinical practicum to learn within the context of reality nursing .
+
+ppatt:
+	?a look ?b to ?c to learn within ?d
+		?a: Students
+		?b: forward
+		?c: their clinical practicum
+		?d: the context of reality nursing
+
+
+label:    sent_18
+sentence: Here , we look at how understanding of the regulation of galactoglycerolipid biosynthesis in chloroplasts by these multiple enzyme sets is rapidly evolving and discuss the increasingly recognized role of lipid remodeling in response to diverse abiotic stresses .
+
+ppatt:
+	Here , ?a look ?b
+		?a: we
+		?b: SOMETHING := how understanding of the regulation of galactoglycerolipid biosynthesis in chloroplasts by these multiple enzyme sets is rapidly evolving
+	how ?a is rapidly evolving
+		?a: understanding of the regulation of galactoglycerolipid biosynthesis in chloroplasts by these multiple enzyme sets
+	?a discuss ?b
+		?a: understanding of the regulation of galactoglycerolipid biosynthesis in chloroplasts by these multiple enzyme sets
+		?b: the increasingly recognized role of lipid remodeling in response to diverse abiotic stresses
+
+
+label:    sent_19
+sentence: We match respondents in a way that helps us to distinguish those inequalities in mobility chances that are due to differences between children from those due to differences between the schools they attended ; we look at the effects of the school system on the mobility chances of all children , not merely those from less advantaged origins ; and we compare comprehensive- and selective-system schools , not merely comprehensive and grammar schools .
+
+ppatt:
+	?a match ?b in ?c
+		?a: We
+		?b: respondents
+		?c: a way that helps us to distinguish those inequalities in mobility chances that are due to differences between children from those due to differences between the schools they attended
+	?a helps ?b to distinguish ?c in ?d that are due to ?e
+		?a: a way
+		?b: us
+		?c: those inequalities
+		?d: mobility chances
+		?e: differences between children from those due to differences between the schools they attended
+	?a are due
+		?a: that
+	?a ?b attended
+		?a: the schools
+		?b: they
+	?a look at ?b
+		?a: we
+		?b: the effects of the school system on the mobility chances of all children
+	?a compare ?b
+		?a: we
+		?b: comprehensive- and selective-system schools
+	?a compare ?b
+		?a: we
+		?b: not merely comprehensive and grammar schools
+
+
+label:    sent_20
+sentence: Current search engines look for exact matches to the search term , but they do not differentiate between reports in which the search term appears in a positive context ( i.e. , being present ) from those in which the search term appears in the context of negation and uncertainty .
+
+ppatt:
+	?a look for ?b
+		?a: Current search engines
+		?b: exact matches to the search term
+	?a do not differentiate between ?b
+		?a: they
+		?b: reports in which the search term appears in a positive context , being present ) from those in which the search term appears in the context of negation and uncertainty
+	?a in ?b appears in ?c
+		?a: reports
+		?b: the search term
+		?c: a positive context from those in which the search term appears in the context of negation and uncertainty
+	?a in ?b appears in ?c
+		?a: those
+		?b: the search term
+		?c: the context of negation and uncertainty
+
+
+label:    sent_21
+sentence: The GM / CA-CAT beamline controls are based on the power of EPICS for distributed hardware control , the rich Java graphical user interface of Eclipse RCP and the task-oriented philosophy as well as the look and feel of the successful SSRL BluIce graphical user interface for crystallography .
+
+ppatt:
+	?a are based on ?b
+		?a: The GM / CA-CAT beamline controls
+		?b: the power of EPICS for distributed hardware control , and the task-oriented philosophy as well as the look
+	?a is/are the rich Java graphical user interface of ?b
+		?a: distributed hardware control
+		?b: Eclipse RCP
+	?a is/are the rich Java graphical user interface of ?b
+		?a: Eclipse RCP
+		?b: the task-oriented philosophy
+	?a is/are the rich Java graphical user interface of ?b
+		?a: Eclipse RCP
+		?b: the look
+	?a feel of ?b
+		?a: The GM / CA-CAT beamline controls
+		?b: the successful SSRL BluIce graphical user interface for crystallography
+
+
+label:    sent_22
+sentence: A closer and a broader look .
+
+ppatt:
+
+
+
+label:    sent_23
+sentence: Nonconvulsive seizures among critically ill children : look and you shall find . We used the Zollner illusion , in which parallel lines look non-parallel due to series of short crosshatches superimposed on the lines .
+
+ppatt:
+	?a shall find
+		?a: you
+	?a used ?b
+		?a: We
+		?b: the Zollner illusion , in which parallel lines look non-parallel due to series of short crosshatches superimposed on the lines
+	?a in ?b look ?c due to ?d
+		?a: the Zollner illusion
+		?b: parallel lines
+		?c: non-parallel
+		?d: series of short crosshatches superimposed on the lines
+	?a superimposed on ?b
+		?a: short crosshatches
+		?b: the lines
+
+
+label:    sent_24
+sentence: To do this , Kaiser Permanente Ohio needed to understand what its model of care would look like with NPs .
+
+ppatt:
+	do ?a ?b
+		?a: this
+		?b: Kaiser Permanente Ohio
+	?a needed to understand ?b
+		?a: Kaiser Permanente Ohio
+		?b: SOMETHING := what its model of care would look like with NPs
+	?a ?b would look like with ?c
+		?a: what
+		?b: its model of care
+		?c: NPs
+
+
+label:    sent_25
+sentence: You should decide what success and failure would look like before you start a project .
+
+ppatt:
+	?a should decide ?b ?c
+		?a: You
+		?b: SOMETHING := what success and failure would look
+		?c: SOMETHING := like before you start a project
+	?a ?b would look
+		?a: what
+		?b: success
+	?a ?b would look
+		?a: what
+		?b: failure
+	like before ?a start ?b
+		?a: you
+		?b: a project
+
+
+label:    sent_26
+sentence: Forty-seven Caucasian adult females , 18-29years of age ( average : 24 ) , underwent lateral skull radiographs in " natural head position " , obtained by having the subject look at a small mirror at eye level , and sEMG recordings for the following muscles : masseter , anterior temporal , digastric , posterior cervicals , sternocleidomastoid , and upper and lower trapezius .
+
+ppatt:
+	?a is/are 18-29years of ?b
+		?a: Forty-seven Caucasian adult females
+		?b: age
+	?a underwent ?b
+		?a: Forty-seven Caucasian adult females
+		?b: lateral skull radiographs in " natural head position "
+	?a obtained
+		?a: Forty-seven Caucasian adult females
+	?a having ?b at ?c
+		?a: Forty-seven Caucasian adult females
+		?b: the subject look
+		?c: a small mirror at eye level
+	?a having at ?b ?c
+		?a: Forty-seven Caucasian adult females
+		?b: a small mirror at eye level
+		?c: sEMG recordings for the following muscles
+	?a is/are posterior
+		?a: masseter
+	?a is/are posterior
+		?a: anterior temporal
+	?a is/are posterior
+		?a: digastric
+	?a is/are posterior
+		?a: cervicals
+	?a is/are posterior
+		?a: sternocleidomastoid
+	?a is/are posterior
+		?a: upper
+	?a is/are posterior
+		?a: trapezius
+
+
+label:    sent_27
+sentence: We used the deployment of visual attention as an index of the selection of movement targets and asked observers to reach and look to either the same location or separate locations .
+
+ppatt:
+	?a used ?b
+		?a: We
+		?b: the deployment of visual attention as an index of the selection of movement targets
+	?a asked ?b to reach to ?c
+		?a: We
+		?b: observers
+		?c: the same location
+	?a asked ?b to reach to ?c
+		?a: We
+		?b: observers
+		?c: separate locations
+	?a asked to look
+		?a: We
+
+
+label:    sent_28
+sentence: This work provides a complete look and profound insight into the multi-channel dissociation mechanisms of propenal .
+
+ppatt:
+	?a provides ?b
+		?a: This work
+		?b: a complete look into the multi-channel dissociation mechanisms of propenal
+	?a provides ?b
+		?a: This work
+		?b: profound
+	?a provides ?b
+		?a: This work
+		?b: insight
+
+

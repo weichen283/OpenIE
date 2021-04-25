@@ -1,0 +1,328 @@
+label:    sent_1
+sentence: Dependent functional status and peripheral vascular disease predispose to postoperative morbidity .
+
+ppatt:
+	?a predispose to ?b
+		?a: Dependent functional status
+		?b: postoperative morbidity
+	?a predispose to ?b
+		?a: peripheral vascular disease
+		?b: postoperative morbidity
+
+
+label:    sent_2
+sentence: Do risk factors for schizophrenia predispose to emigration ? Which malignancies predispose to melanoma ? Lower lingual strength in healthy adults may predispose them to aspiration .
+
+ppatt:
+	Do ?a predispose to ?b
+		?a: risk factors for schizophrenia
+		?b: emigration ? Which malignancies predispose to melanoma
+	?a ?b ?c predispose to ?d
+		?a: emigration
+		?b: Which
+		?c: malignancies
+		?d: melanoma
+	?a may predispose ?b to ?c
+		?a: Lower lingual strength in healthy adults
+		?b: them
+		?c: aspiration
+
+
+label:    sent_3
+sentence: Obesity : Maternal obesity may predispose offspring to IBD .
+
+ppatt:
+
+
+
+label:    sent_4
+sentence: This could predispose older persons to corneal stress and development of dry eye syndrome .
+
+ppatt:
+	?a could predispose ?b to ?c
+		?a: This
+		?b: older persons
+		?c: corneal stress
+	?a could predispose ?b to ?c
+		?a: This
+		?b: older persons
+		?c: development of dry eye syndrome
+
+
+label:    sent_5
+sentence: Both pregnancy and diabetes are thought to predispose to the impairment of oral health .
+
+ppatt:
+	?a are thought to predispose to ?b
+		?a: pregnancy
+		?b: the impairment of oral health
+	?a are thought to predispose to ?b
+		?a: diabetes
+		?b: the impairment of oral health
+
+
+label:    sent_6
+sentence: Elevated miR-499 levels affect cardiac gene expression and predispose to cardiac stress-induced dysfunction .
+
+ppatt:
+	?a affect ?b
+		?a: Elevated miR-499 levels
+		?b: cardiac gene expression
+	?a predispose to ?b
+		?a: Elevated miR-499 levels
+		?b: cardiac stress-induced dysfunction
+
+
+label:    sent_7
+sentence: We consider several clinical phenotypes for placental dysfunction that likely predispose to fetal programming .
+
+ppatt:
+	?a consider ?b
+		?a: We
+		?b: several clinical phenotypes for placental dysfunction that likely predispose to fetal programming
+	?a likely predispose to ?b
+		?a: placental dysfunction
+		?b: fetal programming
+
+
+label:    sent_8
+sentence: Stagnation is widely believed to predispose water systems to colonization by Legionella .
+
+ppatt:
+	?a is widely believed to predispose ?b to ?c
+		?a: Stagnation
+		?b: water systems
+		?c: colonization by Legionella
+
+
+label:    sent_9
+sentence: Our intent was to identify factors that may predispose children to these serious complications .
+
+ppatt:
+	?a was to identify ?b
+		?a: Our intent
+		?b: factors that may predispose children to these serious complications
+	?a may predispose ?b
+		?a: factors
+		?b: children to these serious complications
+
+
+label:    sent_10
+sentence: Sixteen percent of patients had testicular abnormalities that could predispose them to metachronous torsion .
+
+ppatt:
+	?a had ?b
+		?a: Sixteen percent of patients
+		?b: testicular abnormalities that could predispose them to metachronous torsion
+	?a could predispose ?b to ?c
+		?a: testicular abnormalities
+		?b: them
+		?c: metachronous torsion
+
+
+label:    sent_11
+sentence: Errors and violations are distinct , but violations often predispose to error .
+
+ppatt:
+	?a are distinct
+		?a: Errors
+	?a are distinct
+		?a: violations
+	?a often predispose to ?b
+		?a: violations
+		?b: error
+
+
+label:    sent_12
+sentence: Impulsivity can predispose to substance abuse or can result from it . Heterozygous germline mutations in PALB2 predispose to breast cancer and biallelic mutations cause FA .
+
+ppatt:
+	?a can predispose to ?b
+		?a: Impulsivity
+		?b: substance abuse
+	?a can result from ?b
+		?a: Impulsivity
+		?b: it
+	?a predispose to ?b
+		?a: Heterozygous germline mutations in PALB2
+		?b: breast cancer
+	?a cause ?b
+		?a: biallelic mutations
+		?b: FA
+
+
+label:    sent_13
+sentence: Neutralizing antibodies against interferon-beta do not predispose antibodies against natalizumab .
+
+ppatt:
+	?a do not predispose ?b
+		?a: Neutralizing antibodies against interferon-beta
+		?b: antibodies against natalizumab
+
+
+label:    sent_14
+sentence: Intrinsic factors may predispose an individual to infection or exaggerated inflammatory responses . Age and heart failure predispose multiple sources of thromboembolism .
+
+ppatt:
+	?a may predispose ?b
+		?a: Intrinsic factors
+		?b: an individual to infection or exaggerated inflammatory responses
+	?a predispose ?b
+		?a: Age
+		?b: multiple sources of thromboembolism
+	?a predispose ?b
+		?a: heart failure
+		?b: multiple sources of thromboembolism
+
+
+label:    sent_15
+sentence: Those mutations impair the dsRNA-induced IFN-alpha/beta and IFN-lambda production and predispose to HSE .
+
+ppatt:
+	?a impair ?b
+		?a: Those mutations
+		?b: dsRNA-induced IFN-alpha/beta
+	?a impair ?b
+		?a: Those mutations
+		?b: IFN-lambda
+	?a predispose to ?b
+		?a: Those mutations
+		?b: HSE
+
+
+label:    sent_16
+sentence: Anomalies of the deep and perforator venous system coexist and predispose to thromboembolic events .
+
+ppatt:
+	?a coexist
+		?a: Anomalies of the deep and perforator venous system
+	?a predispose to ?b
+		?a: Anomalies of the deep and perforator venous system
+		?b: thromboembolic events
+
+
+label:    sent_17
+sentence: Abnormal HDLs impair the ability to prevent LDL oxidation and may predispose to atherosclerosis .
+
+ppatt:
+	?a impair ?b
+		?a: Abnormal HDLs
+		?b: the ability to prevent LDL oxidation
+	?a prevent ?b
+		?a: the ability
+		?b: LDL oxidation
+	?a may predispose to ?b
+		?a: Abnormal HDLs
+		?b: atherosclerosis
+
+
+label:    sent_18
+sentence: Sinus disease may be either predispose a patient to or result from nasal polyps .
+
+ppatt:
+	?a may be either predispose ?b ?c
+		?a: Sinus disease
+		?b: a patient
+		?c: to
+	?a result from ?b
+		?a: Sinus disease
+		?b: nasal polyps
+
+
+label:    sent_19
+sentence: Inherited BRCA2 mutations predispose individuals to breast cancer and increase risk at other sites .
+
+ppatt:
+	?a predispose ?b
+		?a: Inherited BRCA2 mutations
+		?b: individuals to breast cancer
+	?a increase ?b at ?c
+		?a: Inherited BRCA2 mutations
+		?b: risk
+		?c: other sites
+
+
+label:    sent_20
+sentence: These primary immunodeficiencies predispose children to life-threatening infections and often remain undiagnosed .
+
+ppatt:
+	?a predispose ?b
+		?a: These primary immunodeficiencies
+		?b: children to life-threatening infections
+	?a often remain undiagnosed
+		?a: These primary immunodeficiencies
+
+
+label:    sent_21
+sentence: Genetic and environmental factors predispose to developing the allergic march .
+
+ppatt:
+	?a ?b predispose to ?c
+		?a: Genetic
+		?b: factors
+		?c: developing the allergic march
+	?a ?b predispose to ?c
+		?a: environmental
+		?b: factors
+		?c: developing the allergic march
+
+
+label:    sent_22
+sentence: Hypoalbuminemia-induced bowel edema may predispose to change the permeability of mucosal or serosal lymphatics .
+
+ppatt:
+	?a may predispose to change ?b
+		?a: Hypoalbuminemia-induced bowel edema
+		?b: the permeability of mucosal or serosal lymphatics
+
+
+label:    sent_23
+sentence: It is suggested that high levels of factor VIII might predispose for thrombosis/atherosclerosis .
+
+ppatt:
+	?a is suggested ?b
+		?a: It
+		?b: SOMETHING := high levels of factor VIII might predispose for thrombosis/atherosclerosis
+	?a might predispose for ?b
+		?a: high levels of factor VIII
+		?b: thrombosis/atherosclerosis
+
+
+label:    sent_24
+sentence: We investigated the circumstances that predispose a crash occupant to this particular injury .
+
+ppatt:
+	?a investigated ?b
+		?a: We
+		?b: the circumstances that predispose a crash occupant to this particular injury
+	?a predispose ?b to ?c
+		?a: the circumstances
+		?b: a crash occupant
+		?c: this particular injury
+
+
+label:    sent_25
+sentence: Infection may activate platelet function and predispose the patient to a cerebrovascular accident .
+
+ppatt:
+	?a may activate ?b
+		?a: Infection
+		?b: platelet function
+	?a predispose ?b to ?c
+		?a: Infection
+		?b: the patient
+		?c: a cerebrovascular accident
+
+
+label:    sent_26
+sentence: The factors found to predispose clinical outcome were similar in the two groups .
+
+ppatt:
+	?a found to predispose ?b
+		?a: The factors
+		?b: clinical outcome
+	?a were similar in ?b
+		?a: The factors found to predispose clinical outcome
+		?b: the two groups
+
+

@@ -1,0 +1,289 @@
+label:    sent_1
+sentence: In addition , several small compounds were found able to deactivate this opsin .
+
+ppatt:
+	In ?a , ?b were found able to deactivate ?c
+		?a: addition
+		?b: several small compounds
+		?c: this opsin
+
+
+label:    sent_2
+sentence: In end-of-life situations , decisions must be made about when to deactivate LVAD support .
+
+ppatt:
+	In ?a , ?b must be made about when to deactivate ?c
+		?a: end-of-life situations
+		?b: decisions
+		?c: LVAD support
+
+
+label:    sent_3
+sentence: Similarly , detoxifying enzymes exist and deactivate carcinogens as well as their intermediate by-products .
+
+ppatt:
+	Similarly , ?a exist ?b
+		?a: detoxifying enzymes
+		?b: carcinogens
+	Similarly , ?a exist ?b
+		?a: detoxifying enzymes
+		?b: their intermediate by-products
+	?a deactivate
+		?a: detoxifying enzymes
+
+
+label:    sent_4
+sentence: It has been confirmed that photodynamic therapy can efficiently deactivate malignant cells .
+
+ppatt:
+	?a has been confirmed ?b
+		?a: It
+		?b: SOMETHING := photodynamic therapy can efficiently deactivate malignant cells
+	?a can efficiently deactivate ?b
+		?a: photodynamic therapy
+		?b: malignant cells
+
+
+label:    sent_5
+sentence: During PII , factors which deactivate DNA-binding sites may also have been induced .
+
+ppatt:
+	?a deactivate ?b
+		?a: factors
+		?b: DNA-binding sites
+	During ?a , ?b may also have been induced
+		?a: PII
+		?b: factors which deactivate DNA-binding sites
+
+
+label:    sent_6
+sentence: Inability to deactivate sympathetic nervous system in brainstem infarct patients .
+
+ppatt:
+	?a deactivate ?b in ?c
+		?a: Inability
+		?b: sympathetic nervous system
+		?c: brainstem infarct patients
+
+
+label:    sent_7
+sentence: Phosphate substitution is found to deactivate sugar radical formation at the site of substitution .
+
+ppatt:
+	?a is found to deactivate ?b at ?c
+		?a: Phosphate substitution
+		?b: sugar radical formation
+		?c: the site of substitution
+
+
+label:    sent_8
+sentence: Ammonium ions are believed to deactivate available silanol sites on both phases . SRI can activate and deactivate a kinase , CheA , by the photochromic reaction .
+
+ppatt:
+	?a are believed to deactivate ?b on ?c
+		?a: Ammonium ions
+		?b: available silanol sites
+		?c: both phases
+	?a can activate ?b , by ?c
+		?a: SRI
+		?b: a kinase
+		?c: the photochromic reaction
+	?a deactivate
+		?a: SRI
+	?a is/are CheA
+		?a: a kinase
+
+
+label:    sent_9
+sentence: Inorganic salt composites deactivate and clear 90Sr and Sr +2 from water .
+
+ppatt:
+	?a deactivate ?b
+		?a: Inorganic salt composites
+		?b: 90Sr from water
+	?a deactivate ?b
+		?a: Inorganic salt composites
+		?b: Sr
+	?a deactivate ?b
+		?a: Inorganic salt composites
+		?b: +2
+	?a clear
+		?a: Inorganic salt composites
+
+
+label:    sent_10
+sentence: Finally , these agents deactivate macrophages by distinct mechanisms .
+
+ppatt:
+	Finally , ?a deactivate ?b by ?c
+		?a: these agents
+		?b: macrophages
+		?c: distinct mechanisms
+
+
+label:    sent_11
+sentence: However , males deactivate the pheromone within the first two days after emergence .
+
+ppatt:
+	However , ?a deactivate ?b within ?c after
+		?a: males
+		?b: the pheromone
+		?c: the first two days
+
+
+label:    sent_12
+sentence: BPs are analogues of PPi and can suppress bone turnover but also deactivate TNSALP .
+
+ppatt:
+	?a are analogues of ?b
+		?a: BPs
+		?b: PPi
+	?a can suppress ?b
+		?a: BPs
+		?b: bone turnover
+	?a also deactivate ?b
+		?a: BPs
+		?b: TNSALP
+
+
+label:    sent_13
+sentence: O-glucuronylation will deactivate alpha-hydroxytamoxifen and compete with sulphonation .
+
+ppatt:
+	?a will deactivate ?b
+		?a: O-glucuronylation
+		?b: alpha-hydroxytamoxifen
+	?a compete with ?b
+		?a: O-glucuronylation
+		?b: sulphonation
+
+
+label:    sent_14
+sentence: Unlike keratinocytes , fibroblasts lacked 11beta-HSD2 and could not effectively deactivate exogenously administered cortisol .
+
+ppatt:
+	Unlike ?a , ?b lacked ?c
+		?a: keratinocytes
+		?b: fibroblasts
+		?c: 11beta-HSD2
+	?a could not effectively deactivate ?b
+		?a: fibroblasts
+		?b: exogenously administered cortisol
+
+
+label:    sent_15
+sentence: The dipolar derivatives deactivate mostly via electron transfer ( eT ) under polar conditions .
+
+ppatt:
+	?a deactivate mostly via ?b under ?c
+		?a: The dipolar derivatives
+		?b: electron transfer
+		?c: polar conditions
+	?a is/are eT
+		?a: electron transfer
+
+
+label:    sent_16
+sentence: Our results support the notion that SARs deactivate due to overexcitation .
+
+ppatt:
+	?a support ?b
+		?a: Our results
+		?b: the notion that SARs deactivate due to overexcitation
+	?a deactivate due to ?b
+		?a: SARs
+		?b: overexcitation
+
+
+label:    sent_17
+sentence: Triplet PP-Xs deactivate to the ground state without photochemical reactions .
+
+ppatt:
+	?a deactivate to ?b without ?c
+		?a: Triplet PP-Xs
+		?b: the ground state
+		?c: photochemical reactions
+
+
+label:    sent_18
+sentence: Psychological defensive functioning can also deactivate these processes and allow psychosis to manifest .
+
+ppatt:
+	?a can also deactivate ?b
+		?a: Psychological defensive functioning
+		?b: these processes
+	?a allow ?b to manifest
+		?a: Psychological defensive functioning
+		?b: psychosis
+
+
+label:    sent_19
+sentence: Genes controlled by these regulons deactivate the oxidants and promote repair .
+
+ppatt:
+	?a controlled by ?b
+		?a: Genes
+		?b: these regulons
+	?a deactivate ?b
+		?a: Genes controlled by these regulons
+		?b: the oxidants
+	?a promote ?b
+		?a: Genes controlled by these regulons
+		?b: repair
+
+
+label:    sent_20
+sentence: Short-chain alkyl sulfonates and sulfates did not deactivate LADH or alter its structure .
+
+ppatt:
+	?a did not deactivate ?b
+		?a: Short-chain alkyl sulfonates
+		?b: LADH
+	?a did not deactivate ?b
+		?a: sulfates
+		?b: LADH
+	?a alter ?b
+		?a: Short-chain alkyl sulfonates
+		?b: its structure
+	?a alter ?b
+		?a: sulfates
+		?b: its structure
+
+
+label:    sent_21
+sentence: Astrocytic factors deactivate antigen presenting cells that invade the central nervous system .
+
+ppatt:
+	?a deactivate ?b
+		?a: Astrocytic factors
+		?b: antigen presenting cells that invade the central nervous system
+	?a invade ?b
+		?a: antigen presenting cells
+		?b: the central nervous system
+
+
+label:    sent_22
+sentence: They deactivate the HIV enzyme which allows HIV to attach to white blood cells .
+
+ppatt:
+	?a deactivate ?b
+		?a: They
+		?b: the HIV enzyme which allows HIV to attach to white blood cells
+	?a allows ?b to attach to ?c
+		?a: the HIV enzyme
+		?b: HIV
+		?c: white blood cells
+
+
+label:    sent_23
+sentence: This may deactivate those protein kinase C isoenzymes that inhibit insulin signalling .
+
+ppatt:
+	?a may deactivate ?b
+		?a: This
+		?b: those protein kinase C isoenzymes that inhibit insulin signalling
+	?a inhibit ?b
+		?a: those protein kinase C isoenzymes
+		?b: insulin signalling
+
+

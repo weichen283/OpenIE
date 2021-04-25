@@ -1,0 +1,14 @@
+label:    sent_1
+sentence: Our results suggest that the benefits of bystander CPR for adults who suddenly collapse outweigh the risk of injury for those not in cardiac arrest .
+
+ppatt:
+	?a suggest ?b
+		?a: Our results
+		?b: SOMETHING := the benefits of bystander CPR for adults who suddenly collapse outweigh the risk of injury for those not in cardiac arrest
+	?a suddenly collapse
+		?a: adults
+	?a outweigh ?b
+		?a: the benefits of bystander CPR for adults who suddenly collapse
+		?b: the risk of injury for those not in cardiac arrest
+
+

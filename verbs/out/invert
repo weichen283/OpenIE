@@ -1,0 +1,213 @@
+label:    sent_1
+sentence: Numerous natural and artificial ribozymes have been shown to facilitate reactions that invert stereochemistry .
+
+ppatt:
+	?a have been shown to facilitate ?b
+		?a: Numerous natural and artificial ribozymes
+		?b: reactions that invert stereochemistry
+	?a invert ?b
+		?a: reactions
+		?b: stereochemistry
+
+
+label:    sent_2
+sentence: These guide users on where to next invert the system .
+
+ppatt:
+	?a guide ?b
+		?a: These
+		?b: users on where to next invert the system
+	?a on where to next invert ?b
+		?a: users
+		?b: the system
+
+
+label:    sent_3
+sentence: But what if we were to invert the characteristics of p-zombies ? Further reductions of the external sodium did not invert the photoresponses .
+
+ppatt:
+	?a ?b were to invert ?c
+		?a: what
+		?b: we
+		?c: the characteristics of p-zombies
+	?a did not invert ?b
+		?a: Further reductions of the external sodium
+		?b: the photoresponses
+
+
+label:    sent_4
+sentence: Surgeon 1 would routinely invert the TF whereas surgeon 2 would not .
+
+ppatt:
+	?a would routinely invert ?b
+		?a: Surgeon 1
+		?b: the TF
+	?a would not
+		?a: surgeon 2
+
+
+label:    sent_5
+sentence: Bioactive ceramics prepared by sintering and crystallization of calcium phosphate invert glasses .
+
+ppatt:
+	?a prepared by ?b
+		?a: Bioactive ceramics
+		?b: sintering of calcium phosphate
+	?a prepared by ?b
+		?a: Bioactive ceramics
+		?b: crystallization
+	?a invert ?b
+		?a: Bioactive ceramics prepared by sintering and crystallization of calcium phosphate
+		?b: glasses
+
+
+label:    sent_6
+sentence: We have developed a method to invert DNA molecules in situ after completed synthesis .
+
+ppatt:
+	?a have developed ?b
+		?a: We
+		?b: a method to invert DNA molecules in situ after completed synthesis
+	?a invert ?b in situ after ?c
+		?a: a method
+		?b: DNA molecules
+		?c: completed synthesis
+
+
+label:    sent_7
+sentence: Furthermore , the long and short regions can invert relative to each other .
+
+ppatt:
+	Furthermore , ?a can invert relative to ?b
+		?a: the long and short regions
+		?b: each other
+
+
+label:    sent_8
+sentence: In many herpesviruses , genome segments flanked by inverted repeats invert during DNA replication .
+
+ppatt:
+	?a flanked by ?b
+		?a: genome segments
+		?b: inverted repeats
+	In ?a , ?b invert during ?c
+		?a: many herpesviruses
+		?b: genome segments flanked by inverted repeats
+		?c: DNA replication
+
+
+label:    sent_9
+sentence: These results were invert for homogeneity . We have found that FimB and FimE invert the switch through a common mechanism .
+
+ppatt:
+	?a were invert for ?b
+		?a: These results
+		?b: homogeneity
+	?a have found ?b
+		?a: We
+		?b: SOMETHING := FimB and FimE invert the switch through a common mechanism
+	?a invert ?b through ?c
+		?a: FimB
+		?b: the switch
+		?c: a common mechanism
+	?a invert ?b through ?c
+		?a: FimE
+		?b: the switch
+		?c: a common mechanism
+
+
+label:    sent_10
+sentence: Effect of degradation rates of resorbable phosphate invert glasses on in vitro osteoblast proliferation .
+
+ppatt:
+	?a invert ?b on ?c
+		?a: Effect of degradation rates of resorbable phosphate
+		?b: glasses
+		?c: in osteoblast proliferation
+
+
+label:    sent_11
+sentence: Improved projection algorithm to invert forward scattered light for particle sizing . PD/OB at high concentrations invert the normal depolarization-repolarization coupling and may therefore potentiate arrhythmias .
+
+ppatt:
+	?a invert ?b for ?c
+		?a: Improved projection algorithm
+		?b: forward scattered light
+		?c: particle sizing
+	?a ?b invert ?c
+		?a: Improved projection algorithm to invert forward scattered light for particle sizing
+		?b: PD/OB at high concentrations
+		?c: the normal depolarization-repolarization coupling
+	?a may therefore potentiate ?b
+		?a: Improved projection algorithm to invert forward scattered light for particle sizing
+		?b: arrhythmias
+
+
+label:    sent_12
+sentence: Three methods have been utilized to invert measurements and estimate the bubble population .
+
+ppatt:
+	?a have been utilized to invert ?b
+		?a: Three methods
+		?b: measurements
+	?a have been utilized to estimate ?b
+		?a: Three methods
+		?b: the bubble population
+
+
+label:    sent_13
+sentence: Initial hyperpolarizing GABA responses were observed to invert to depolarizations following the tetanic shock .
+
+ppatt:
+	?a were observed to invert to ?b following ?c
+		?a: Initial hyperpolarizing GABA responses
+		?b: depolarizations
+		?c: the tetanic shock
+
+
+label:    sent_14
+sentence: The foot is free to invert under influence of the external loads .
+
+ppatt:
+	?a is free to invert under ?b
+		?a: The foot
+		?b: influence of the external loads
+
+
+label:    sent_15
+sentence: The mineral is sensitive to x-ray irradiation and tends to invert to rutile .
+
+ppatt:
+	?a is sensitive to ?b
+		?a: The mineral
+		?b: x-ray irradiation
+	?a tends to invert to ?b
+		?a: The mineral
+		?b: rutile
+
+
+label:    sent_16
+sentence: The negative-positive transcallosal potentials as well as extracallosal responses did not invert .
+
+ppatt:
+	?a did not invert
+		?a: The negative-positive transcallosal potentials
+	?a did not invert
+		?a: extracallosal responses
+
+
+label:    sent_17
+sentence: Next we invert the pair function and extract the interaction potential .
+
+ppatt:
+	Next ?a invert ?b
+		?a: we
+		?b: the pair function
+	Next ?a invert ?b
+		?a: we
+		?b: extract
+	Next ?a invert ?b
+		?a: we
+		?b: the interaction potential
+
+

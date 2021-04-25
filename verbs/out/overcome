@@ -1,0 +1,298 @@
+label:    sent_1
+sentence: Specific standardized coding systems are needed to help overcome this difficulty . Stage-wise strategies are often used to overcome the computational difficulty . A novel and promising approach to overcome these problems is tissue engineering of skin .
+
+ppatt:
+	?a are needed to help overcome ?b
+		?a: Specific standardized coding systems
+		?b: this difficulty
+	?a are often used to overcome ?b
+		?a: Stage-wise strategies
+		?b: the computational difficulty
+	?a overcome ?b
+		?a: A novel and promising approach
+		?b: these problems
+	are often used to ?a is tissue engineering of ?b
+		?a: A novel and promising approach to overcome these problems
+		?b: skin
+
+
+label:    sent_2
+sentence: Therefore , the complication of these drugs must be overcome .
+
+ppatt:
+	Therefore , ?a must be overcome
+		?a: the complication of these drugs
+
+
+label:    sent_3
+sentence: The former has been overcome mainly by selection of a suitable disease-free source herd . [ Caring for patients with dementia , a challenge to overcome ] . Dose escalation might overcome this resistance if detected early .
+
+ppatt:
+	?a has been overcome mainly by ?b
+		?a: The former
+		?b: selection of a suitable disease-free source herd . [ Caring for patients with dementia
+	?a is/are a challenge
+		?a: Caring for patients with dementia
+	?a overcome ?b
+		?a: a challenge
+		?b: ]
+	?a might overcome ?b
+		?a: Dose escalation
+		?b: this resistance
+	?a detected early
+		?a: Dose escalation
+
+
+label:    sent_4
+sentence: This study has overcome the composition variation limitations of the soft-templating method .
+
+ppatt:
+	?a has overcome ?b
+		?a: This study
+		?b: the composition variation limitations of the soft-templating method
+
+
+label:    sent_5
+sentence: This strategy may overcome the limitations of analytic adjustment alone .
+
+ppatt:
+	?a may overcome ?b
+		?a: This strategy
+		?b: the limitations of analytic adjustment alone
+
+
+label:    sent_6
+sentence: Bacteria have developed mechanisms to overcome their toxicity by methylating them .
+
+ppatt:
+	?a have developed ?b
+		?a: Bacteria
+		?b: mechanisms to overcome their toxicity by methylating them
+	?a overcome ?b
+		?a: mechanisms
+		?b: their toxicity
+	methylating ?a
+		?a: them
+
+
+label:    sent_7
+sentence: Public data integration may help overcome challenges in clinical implementation of microarray profiles .
+
+ppatt:
+	?a may help overcome ?b
+		?a: Public data integration
+		?b: challenges in clinical implementation of microarray profiles
+
+
+label:    sent_8
+sentence: Extended schedules have been proven to overcome chemoresistance without any major toxicity .
+
+ppatt:
+	?a have been proven to overcome ?b without ?c
+		?a: Extended schedules
+		?b: chemoresistance
+		?c: any major toxicity
+
+
+label:    sent_9
+sentence: Treatments attempt to overcome the harmful autoimmune process , or improve residual neuromuscular transmission Training and the attentional blink : limits overcome or expectations raised ?
+
+ppatt:
+	?a attempt to overcome ?b
+		?a: Treatments
+		?b: the harmful autoimmune process
+	?a attempt to improve ?b
+		?a: Treatments
+		?b: residual neuromuscular transmission Training
+	?a attempt to improve ?b
+		?a: Treatments
+		?b: the attentional blink
+	?a overcome
+		?a: limits
+	?a raised
+		?a: limits
+
+
+label:    sent_10
+sentence: These fuel stores are necessary for long flights and to overcome ecological barriers .
+
+ppatt:
+	?a are necessary for ?b
+		?a: These fuel stores
+		?b: long flights
+	?a overcome ?b
+		?a: These fuel stores
+		?b: ecological barriers
+
+
+label:    sent_11
+sentence: Through research and education , these barriers can be overcome .
+
+ppatt:
+	Through ?a , ?b can be overcome
+		?a: research
+		?b: these barriers
+	Through ?a , ?b can be overcome
+		?a: education
+		?b: these barriers
+
+
+label:    sent_12
+sentence: These challenges must be overcome before scaling up . An unanswered question is how plants might overcome pathogen-suppression of PTI during ETI .
+
+ppatt:
+	?a must be overcome before ?b up
+		?a: These challenges
+		?b: scaling
+	?a is ?b
+		?a: An unanswered question
+		?b: SOMETHING := how plants might overcome pathogen-suppression of PTI during ETI
+	how ?a might overcome ?b
+		?a: plants
+		?b: pathogen-suppression of PTI during ETI
+
+
+label:    sent_13
+sentence: For electrically conducting nanoparticles , field activated sintering techniques overcome this problem .
+
+ppatt:
+	?a activated
+		?a: field
+	For ?a , ?b ?c overcome ?d
+		?a: electrically conducting nanoparticles
+		?b: SOMETHING := field activated
+		?c: sintering techniques
+		?d: this problem
+
+
+label:    sent_14
+sentence: This new construct allowed us to overcome several obstacles during sample preparation .
+
+ppatt:
+	?a allowed ?b to overcome ?c during ?d
+		?a: This new construct
+		?b: us
+		?c: several obstacles
+		?d: sample preparation
+
+
+label:    sent_15
+sentence: Important to overcome barriers in translating evidence based breast-feeding information into practice .
+
+ppatt:
+	Important to overcome ?a
+		?a: barriers
+	translating ?a
+		?a: evidence based breast-feeding information into practice
+
+
+label:    sent_16
+sentence: Our study could overcome these problems and would improve treatment of malignancies .
+
+ppatt:
+	?a could overcome ?b
+		?a: Our study
+		?b: these problems
+	?a would improve ?b
+		?a: Our study
+		?b: treatment of malignancies
+
+
+label:    sent_17
+sentence: Therapeutic targeting strategies can overcome abnormal epigenetic mechanisms and potently kill lymphoma cells .
+
+ppatt:
+	?a can overcome ?b
+		?a: Therapeutic targeting strategies
+		?b: abnormal epigenetic mechanisms
+	?a potently kill ?b
+		?a: Therapeutic targeting strategies
+		?b: lymphoma cells
+
+
+label:    sent_18
+sentence: New therapies that overcome resistance , lower toxicity and maintain remission are needed .
+
+ppatt:
+	?a overcome ?b
+		?a: New therapies
+		?b: resistance
+	?a overcome ?b
+		?a: New therapies
+		?b: lower toxicity
+	?a maintain ?b
+		?a: that
+		?b: remission
+	?a are needed
+		?a: New therapies that overcome resistance , lower toxicity and maintain remission
+
+
+label:    sent_19
+sentence: What are the barriers to diagnosis and treatment , and how can they overcome ? Knowledge about ADHD is low and barriers of referral are not usually overcome .
+
+ppatt:
+	?a are the barriers to ?b
+		?a: What
+		?b: diagnosis
+	?a are the barriers to ?b
+		?a: What
+		?b: treatment
+	how can ?a overcome
+		?a: they
+	?a is low
+		?a: Knowledge about ADHD
+	?a are not usually overcome
+		?a: barriers of referral
+
+
+label:    sent_20
+sentence: Difficulties must be overcome and a balance between these considerations must be reached .
+
+ppatt:
+	?a must be overcome
+		?a: Difficulties
+	?a must be reached
+		?a: a balance between these considerations
+
+
+label:    sent_21
+sentence: We detail building blocks already in place and major hurdles to overcome for completion .
+
+ppatt:
+	?a detail building ?b already in ?c
+		?a: We
+		?b: blocks
+		?c: place
+	?a detail building ?b already in ?c
+		?a: We
+		?b: blocks
+		?c: major
+	?a detail building ?b already in ?c
+		?a: We
+		?b: blocks
+		?c: hurdles to overcome for completion
+	?a overcome for ?b
+		?a: hurdles
+		?b: completion
+
+
+label:    sent_22
+sentence: There are several physiological barriers to overcome for effective systemic delivery of DNA .
+
+ppatt:
+	There are ?a
+		?a: several physiological barriers to overcome for effective systemic delivery of DNA
+	?a overcome for ?b
+		?a: several physiological barriers
+		?b: effective systemic delivery of DNA
+
+
+label:    sent_23
+sentence: These problems need to be overcome in functional tandem devices for photoelectrochemical water oxidation .
+
+ppatt:
+	?a need to be overcome in ?b
+		?a: These problems
+		?b: functional tandem devices for photoelectrochemical water oxidation
+
+

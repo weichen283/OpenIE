@@ -1,0 +1,286 @@
+label:    sent_1
+sentence: PDMP levels in individual patients did not fluctuate significantly over several months . ATBF1 protein levels fluctuate with estrogen levels .
+
+ppatt:
+	?a did not fluctuate significantly over ?b
+		?a: PDMP levels in individual patients
+		?b: several months
+	?a fluctuate with ?b
+		?a: ATBF1 protein levels
+		?b: estrogen levels
+
+
+label:    sent_2
+sentence: Additionally , visual field test results may fluctuate during pregnancy .
+
+ppatt:
+	Additionally , ?a may fluctuate during ?b
+		?a: visual field test results
+		?b: pregnancy
+
+
+label:    sent_3
+sentence: Expression levels of BSRPs seemed to fluctuate greatly during postnatal cerebellar maturation .
+
+ppatt:
+	?a seemed to fluctuate greatly during ?b
+		?a: Expression levels of BSRPs
+		?b: postnatal cerebellar maturation
+
+
+label:    sent_4
+sentence: The three transit times were found to fluctuate in pace with respiration . P4 was found to fluctuate in a pulsatile mode throughout the rat oestrous cycle .
+
+ppatt:
+	?a were found to fluctuate in ?b
+		?a: The three transit times
+		?b: pace with respiration
+	?a was found to fluctuate in ?b
+		?a: P4
+		?b: a pulsatile mode throughout the rat oestrous cycle
+
+
+label:    sent_5
+sentence: Leptin concentrations fluctuate during puberty , and may impact energy balance .
+
+ppatt:
+	?a fluctuate during ?b
+		?a: Leptin concentrations
+		?b: puberty
+	?a may impact ?b
+		?a: Leptin concentrations
+		?b: energy balance
+
+
+label:    sent_6
+sentence: These will fluctuate over time and national guidelines will require periodic re-assessment and revision .
+
+ppatt:
+	?a will fluctuate over ?b
+		?a: These
+		?b: time
+	?a will fluctuate over ?b
+		?a: These
+		?b: national
+	?a will require ?b
+		?a: guidelines
+		?b: periodic re-assessment
+	?a will require ?b
+		?a: guidelines
+		?b: revision
+
+
+label:    sent_7
+sentence: Among adults the condition can fluctuate , and so mimic multiple sclerosis .
+
+ppatt:
+	Among ?a ?b can fluctuate
+		?a: adults
+		?b: the condition
+	?a so mimic ?b
+		?a: the condition
+		?b: multiple sclerosis
+
+
+label:    sent_8
+sentence: Evolutionary processes become complex when environments and therefore fitnesses fluctuate .
+
+ppatt:
+	?a become complex
+		?a: Evolutionary processes
+	when ?a fluctuate
+		?a: environments
+	when ?a fluctuate
+		?a: therefore fitnesses
+
+
+label:    sent_9
+sentence: While the scores did fluctuate , the category remained essentially the same .
+
+ppatt:
+	?a did fluctuate
+		?a: the scores
+	?a remained essentially the same
+		?a: the category
+
+
+label:    sent_10
+sentence: However , the storage and use of the energetic substrates analyzed did fluctuate seasonally .
+
+ppatt:
+	?a analyzed
+		?a: the energetic substrates
+	However , ?a did fluctuate seasonally
+		?a: the storage of the energetic substrates analyzed
+	However , ?a did fluctuate seasonally
+		?a: use
+
+
+label:    sent_11
+sentence: The occurrence of severe hypoglycemia might be seasonal and might fluctuate with temperature changes .
+
+ppatt:
+	?a might be seasonal
+		?a: The occurrence of severe hypoglycemia
+	?a might fluctuate with ?b
+		?a: The occurrence of severe hypoglycemia
+		?b: temperature changes
+
+
+label:    sent_12
+sentence: Environmental concentrations of toxic substances are not necessarily constant but fluctuate over time .
+
+ppatt:
+	?a are not necessarily constant
+		?a: Environmental concentrations of toxic substances
+	?a fluctuate over ?b
+		?a: Environmental concentrations of toxic substances
+		?b: time
+
+
+label:    sent_13
+sentence: The comfort score was high and did not fluctuate significantly over time .
+
+ppatt:
+	?a was high
+		?a: The comfort score
+	?a did not fluctuate significantly over ?b
+		?a: The comfort score
+		?b: time
+
+
+label:    sent_14
+sentence: Circulating ghrelin concentrations fluctuate relative to nutritional status and influence feeding behavior in cattle .
+
+ppatt:
+	?a fluctuate relative to ?b
+		?a: Circulating ghrelin concentrations
+		?b: nutritional status
+	?a influence ?b
+		?a: Circulating ghrelin concentrations
+		?b: feeding behavior in cattle
+
+
+label:    sent_15
+sentence: Electrocardiographic signs may fluctuate , and occasionally progression or regression occurs .
+
+ppatt:
+	?a may fluctuate
+		?a: Electrocardiographic signs
+	?a occurs
+		?a: occasionally progression
+	?a occurs
+		?a: regression
+
+
+label:    sent_16
+sentence: Titers may fluctuate or even become negative .
+
+ppatt:
+	?a may fluctuate
+		?a: Titers
+	?a even become negative
+		?a: Titers
+
+
+label:    sent_17
+sentence: Leptin concentrations fluctuate according to the phase of the menstrual cycle .
+
+ppatt:
+	?a fluctuate according to ?b
+		?a: Leptin concentrations
+		?b: the phase of the menstrual cycle
+
+
+label:    sent_18
+sentence: Depending on the condition of the microcirculation , laboratory values can fluctuate considerably .
+
+ppatt:
+	Depending on the condition of ?a ?b
+		?a: the microcirculation
+		?b: laboratory values
+	?a can fluctuate considerably
+		?a: laboratory values
+
+
+label:    sent_19
+sentence: The number of births also fluctuate according to the lunar cycle .
+
+ppatt:
+	?a also fluctuate according to ?b
+		?a: The number of births
+		?b: the lunar cycle
+
+
+label:    sent_20
+sentence: Furthermore , environmental changes are not constant in time , but fluctuate . Our abilities , age and desirability can and do fluctuate .
+
+ppatt:
+	Furthermore , ?a are not constant in ?b
+		?a: environmental changes
+		?b: time
+	?a fluctuate ?b
+		?a: environmental changes
+		?b: Our abilities
+	?a is/are age
+		?a: Our abilities
+	?a desirability
+		?a: Our abilities
+	?a can do fluctuate
+		?a: environmental changes
+
+
+label:    sent_21
+sentence: The electric dipole moment was found to fluctuate strongly and to depend on polarisation .
+
+ppatt:
+	?a was found to fluctuate strongly
+		?a: The electric dipole moment
+	?a was found to to depend on ?b
+		?a: The electric dipole moment
+		?b: polarisation
+
+
+label:    sent_22
+sentence: CN is an autosomal dominant disorder in which neutrophil counts fluctuate with 21-day periodicity .
+
+ppatt:
+	?a is an autosomal dominant disorder
+		?a: CN
+	?a in ?b fluctuate with ?c
+		?a: an autosomal dominant disorder
+		?b: neutrophil counts
+		?c: 21-day periodicity
+
+
+label:    sent_23
+sentence: We assume discrete-generation population dynamics , in which some parameters fluctuate between years .
+
+ppatt:
+	?a assume ?b
+		?a: We
+		?b: discrete-generation population dynamics , in which some parameters fluctuate between years
+	?a in ?b fluctuate between ?c
+		?a: discrete-generation population dynamics
+		?b: some parameters
+		?c: years
+
+
+label:    sent_24
+sentence: Snail populations were found to fluctuate according to rainfall .
+
+ppatt:
+	?a were found to fluctuate according to ?b
+		?a: Snail populations
+		?b: rainfall
+
+
+label:    sent_25
+sentence: Mortality of the mutant and normal mice was shown to fluctuate depending on age .
+
+ppatt:
+	?a was shown to fluctuate depending on ?b
+		?a: Mortality of mutant and normal
+		?b: age
+
+

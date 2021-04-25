@@ -1,0 +1,328 @@
+label:    sent_1
+sentence: During solvent annealing , particles segregate to both polymer/substrate and air/polymer interfaces . Mg and Cu segregate strongly to the grain boundaries .
+
+ppatt:
+	During ?a , ?b segregate to ?c
+		?a: solvent annealing
+		?b: particles
+		?c: polymer/substrate
+	During ?a , ?b segregate to ?c
+		?a: solvent annealing
+		?b: particles
+		?c: air/polymer
+	?a segregate strongly to ?b
+		?a: Mg
+		?b: the grain boundaries
+	?a segregate strongly to ?b
+		?a: Cu
+		?b: the grain boundaries
+
+
+label:    sent_2
+sentence: These mutations segregate as autosomal dominant traits with high penetrance ( 90 % ) . The translocation chromosome in the heterozygous state was found to segregate evenly during meiosis .
+
+ppatt:
+	?a segregate as ?b
+		?a: These mutations
+		?b: autosomal dominant traits with high penetrance
+	?a is/are 90 %
+		?a: high penetrance
+	?a was found to segregate evenly during ?b
+		?a: The translocation chromosome in the heterozygous state
+		?b: meiosis
+
+
+label:    sent_3
+sentence: Furthermore , IVD12-reactivity was shown to segregate with HLA in three informative families .
+
+ppatt:
+	Furthermore , ?a was shown to segregate with ?b in ?c
+		?a: IVD12-reactivity
+		?b: HLA
+		?c: three informative families
+
+
+label:    sent_4
+sentence: Phylogenetically , the identified GmTsps segregate into three major clusters .
+
+ppatt:
+	Phylogenetically , ?a segregate into ?b
+		?a: the identified GmTsps
+		?b: three major clusters
+
+
+label:    sent_5
+sentence: The par genes help to segregate many plasmids and chromosomes .
+
+ppatt:
+	?a help to segregate ?b
+		?a: The par genes
+		?b: many plasmids
+	?a help to segregate ?b
+		?a: The par genes
+		?b: chromosomes
+
+
+label:    sent_6
+sentence: The cell biology of secondary endosymbiosis -- how parasites build , divide and segregate the apicoplast .
+
+ppatt:
+	?a how ?b build
+		?a: The cell biology of secondary endosymbiosis
+		?b: parasites
+	?a divide
+		?a: The cell biology of secondary endosymbiosis -- how parasites build
+	?a segregate ?b
+		?a: The cell biology of secondary endosymbiosis -- how parasites build
+		?b: the apicoplast
+
+
+label:    sent_7
+sentence: Capsular , periprostatic and extra-organ features helped to segregate carcinomas from benign diseases .
+
+ppatt:
+	?a helped to segregate ?b
+		?a: Capsular
+		?b: carcinomas from benign diseases
+	?a helped to segregate ?b
+		?a: periprostatic
+		?b: carcinomas from benign diseases
+	?a helped to segregate ?b
+		?a: extra-organ
+		?b: carcinomas from benign diseases
+
+
+label:    sent_8
+sentence: Attention-driven auditory cortex short-term plasticity helps segregate relevant sounds from noise . SDRFs segregate 1 :1 ( presence : absence ) in gametes of heterozygous plants .
+
+ppatt:
+	?a helps segregate ?b
+		?a: Attention-driven auditory cortex short-term plasticity
+		?b: relevant sounds from noise
+	?a segregate ?b in ?c
+		?a: SDRFs
+		?b: 1 :1
+		?c: gametes of heterozygous plants
+
+
+label:    sent_9
+sentence: Eukaryotic cells utilize a microtubular spindle to segregate chromosomes during mitosis .
+
+ppatt:
+	?a utilize ?b to segregate ?c during ?d
+		?a: Eukaryotic cells
+		?b: a microtubular spindle
+		?c: chromosomes
+		?d: mitosis
+
+
+label:    sent_10
+sentence: The correlated dimensions segregate in families and were found to be heritable .
+
+ppatt:
+	?a segregate in ?b
+		?a: The correlated dimensions
+		?b: families
+	?a were found to be heritable
+		?a: The correlated dimensions
+
+
+label:    sent_11
+sentence: Heterophile antibodies segregate in families and are associated with protection from type 1 diabetes .
+
+ppatt:
+	?a segregate in ?b
+		?a: Heterophile antibodies
+		?b: families
+	?a are associated with ?b
+		?a: Heterophile antibodies
+		?b: protection from type 1 diabetes
+
+
+label:    sent_12
+sentence: These genes did not segregate with the disease and were thus excluded .
+
+ppatt:
+	?a did not segregate with ?b
+		?a: These genes
+		?b: the disease
+	?a were thus excluded
+		?a: These genes
+
+
+label:    sent_13
+sentence: Centromere-like loci from bacteria segregate plasmids to progeny cells before cell division .
+
+ppatt:
+	?a segregate ?b to ?c before ?d
+		?a: Centromere-like loci from bacteria
+		?b: plasmids
+		?c: progeny cells
+		?d: cell division
+
+
+label:    sent_14
+sentence: Synopsis of Nekemias Raf . , a segregate genus from Ampelopsis Michx .
+
+ppatt:
+	?a is/are a segregate genus from ?b
+		?a: Raf
+		?b: Ampelopsis Michx
+
+
+label:    sent_15
+sentence: Monoclonal antibodies with neutralizing activity segregate isolates of bovine viral diarrhea virus into groups .
+
+ppatt:
+	?a segregate ?b
+		?a: Monoclonal antibodies with neutralizing activity
+		?b: isolates of bovine viral diarrhea virus into groups
+
+
+label:    sent_16
+sentence: Drosophila male germline stem cells do not asymmetrically segregate chromosome strands .
+
+ppatt:
+	?a do not asymmetrically segregate ?b
+		?a: Drosophila male germline stem cells
+		?b: chromosome strands
+
+
+label:    sent_17
+sentence: Cluster and dendrogram analyses could segregate garlic grown at different locations .
+
+ppatt:
+	?a ?b could segregate ?c
+		?a: Cluster
+		?b: analyses
+		?c: garlic grown at different locations
+	?a ?b could segregate ?c
+		?a: dendrogram
+		?b: analyses
+		?c: garlic grown at different locations
+	?a grown at ?b
+		?a: garlic
+		?b: different locations
+
+
+label:    sent_18
+sentence: Escherichia coli topoisomerase I can segregate replicating pBR322 daughter DNA molecules in vitro .
+
+ppatt:
+	?a can segregate ?b in vitro
+		?a: Escherichia coli topoisomerase I
+		?b: replicating pBR322 daughter DNA molecules
+
+
+label:    sent_19
+sentence: Specifically , there is no tendency for grazers and grass to segregate .
+
+ppatt:
+	Specifically , there is ?a to segregate
+		?a: no tendency for grazers and grass
+
+
+label:    sent_20
+sentence: The Lpr genes segregate independently of the Lpb5 and Lpu1 alleles .
+
+ppatt:
+	?a segregate independently of ?b
+		?a: The Lpr genes
+		?b: Lpb5
+	?a segregate independently of ?b
+		?a: The Lpr genes
+		?b: Lpu1
+
+
+label:    sent_21
+sentence: Human tumor cells segregate into radiosensitivity groups that associate with ATM and TP53 status .
+
+ppatt:
+	?a segregate into ?b
+		?a: Human tumor cells
+		?b: radiosensitivity groups that associate with ATM and TP53
+	?a associate with ?b
+		?a: radiosensitivity groups
+		?b: ATM
+	?a associate with ?b
+		?a: radiosensitivity groups
+		?b: TP53
+
+
+label:    sent_22
+sentence: White sharks are highly migratory and segregate by sex , age and size .
+
+ppatt:
+	?a are highly migratory
+		?a: White sharks
+	?a segregate by ?b
+		?a: White sharks
+		?b: sex
+	?a segregate by ?b
+		?a: White sharks
+		?b: age
+	?a segregate by ?b
+		?a: White sharks
+		?b: size
+
+
+label:    sent_23
+sentence: In Drosophila males , homologs pair and segregate without crossing over .
+
+ppatt:
+
+
+
+label:    sent_24
+sentence: In Drosophila males , homologs pair and segregate without recombining or forming chiasmata . Lgr5 intestinal stem cells have high telomerase activity and randomly segregate their chromosomes .
+
+ppatt:
+	recombining ?a
+		?a: chiasmata
+	forming ?a
+		?a: chiasmata
+	In ?a ?b . ?c have ?d
+		?a: Drosophila males
+		?b: homologs pair
+		?c: Lgr5 intestinal stem cells
+		?d: high telomerase activity
+	In ?a ?b . ?c have ?d
+		?a: Drosophila males
+		?b: segregate without recombining or forming chiasmata
+		?c: Lgr5 intestinal stem cells
+		?d: high telomerase activity
+	?a randomly segregate ?b
+		?a: homologs pair
+		?b: their chromosomes
+	?a randomly segregate ?b
+		?a: segregate without recombining or forming chiasmata
+		?b: their chromosomes
+
+
+label:    sent_25
+sentence: The F-genotes are unstable and segregate chromosomal markers at high frequencies . P1 bof double lysogens are unstable and segregate one or the other prophage .
+
+ppatt:
+	?a are unstable
+		?a: The F-genotes
+	?a segregate ?b
+		?a: The F-genotes
+		?b: chromosomal markers at high frequencies
+	?a are unstable
+		?a: P1
+	?a are unstable
+		?a: double lysogens
+	?a segregate ?b
+		?a: P1
+		?b: one
+	?a segregate ?b
+		?a: double lysogens
+		?b: one
+	?a segregate ?b
+		?a: P1
+		?b: the other prophage
+	?a segregate ?b
+		?a: double lysogens
+		?b: the other prophage
+
+

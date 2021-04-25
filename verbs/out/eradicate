@@ -1,0 +1,227 @@
+label:    sent_1
+sentence: The prevention program was expected to eradicate HBV-related hepatocellular carcinoma ( HCC ) . Early surgical treatment may be necessary to eradicate Cladophialophora species .
+
+ppatt:
+	?a was expected to eradicate ?b
+		?a: The prevention program
+		?b: HBV-related hepatocellular carcinoma
+	?a is/are HCC
+		?a: HBV-related hepatocellular carcinoma
+	?a may be necessary to eradicate ?b
+		?a: Early surgical treatment
+		?b: Cladophialophora species
+
+
+label:    sent_2
+sentence: Aminoglycosides are among the most potent antimicrobials to eradicate Pseudomonas aeruginosa .
+
+ppatt:
+	?a are among the most potent antimicrobials
+		?a: Aminoglycosides
+	?a eradicate ?b
+		?a: the most potent antimicrobials
+		?b: Pseudomonas aeruginosa
+
+
+label:    sent_3
+sentence: Recently , attempts have been made to eradicate this virus with interferon treatment .
+
+ppatt:
+	Recently , ?a have been made to eradicate ?b with ?c
+		?a: attempts
+		?b: this virus
+		?c: interferon treatment
+
+
+label:    sent_4
+sentence: More intensive immunization should be considered to eradicate CRS completely in Japan .
+
+ppatt:
+	?a should be considered to eradicate ?b completely in ?c
+		?a: More intensive immunization
+		?b: CRS
+		?c: Japan
+
+
+label:    sent_5
+sentence: Future drugs for HCV infection might make possible to eradicate HCV in future . Quadruple or triple therapy to eradicate H pylori .
+
+ppatt:
+	?a might make possible to eradicate ?b in ?c ?d to eradicate ?e
+		?a: Future drugs for HCV infection
+		?b: HCV
+		?c: future
+		?d: Quadruple or triple therapy
+		?e: H pylori
+
+
+label:    sent_6
+sentence: Can probiotic lactobacilli eradicate persistent carriage of meticillin-resistant Staphylococcus aureus ? Gene therapy strategies : can we eradicate HIV ? Metronidazole produced holes in the biofilm but did not eradicate the organisms .
+
+ppatt:
+	Can ?a eradicate ?b
+		?a: probiotic lactobacilli
+		?b: persistent carriage of meticillin-resistant Staphylococcus aureus ? Gene therapy strategies
+	can ?a eradicate ?b
+		?a: we
+		?b: HIV
+	?a produced ?b
+		?a: Metronidazole
+		?b: holes in the biofilm
+	?a did not eradicate ?b
+		?a: Metronidazole
+		?b: the organisms
+
+
+label:    sent_7
+sentence: Great care must be taken to eradicate disease and avoid complications .
+
+ppatt:
+	?a must be taken to eradicate ?b
+		?a: Great care
+		?b: disease
+	?a must be taken to avoid ?b
+		?a: Great care
+		?b: complications
+
+
+label:    sent_8
+sentence: A major challenge is to eradicate subclinical disease in remission and prevent leukemic relapse .
+
+ppatt:
+	?a is to eradicate ?b in ?c
+		?a: A major challenge
+		?b: subclinical disease
+		?c: remission
+	?a is to prevent ?b
+		?a: A major challenge
+		?b: leukemic relapse
+
+
+label:    sent_9
+sentence: Can we eradicate HIV by treatment intensification ? Targeting notch to eradicate pancreatic cancer stem cells for cancer therapy .
+
+ppatt:
+	Can ?a eradicate ?b by ?c
+		?a: we
+		?b: HIV
+		?c: treatment intensification
+	?a Targeting ?b to eradicate ?c for ?d
+		?a: we
+		?b: notch
+		?c: pancreatic cancer stem cells
+		?d: cancer therapy
+
+
+label:    sent_10
+sentence: In animal study , the combined treatment could eradicate the BEL7404 xenograft tumors .
+
+ppatt:
+	In ?a , ?b could eradicate ?c
+		?a: animal study
+		?b: the combined treatment
+		?c: the BEL7404 xenograft tumors
+
+
+label:    sent_11
+sentence: Appropriate parenteral antibiotics can eradicate intra-amniotic infection and potentially prolong pregnancy .
+
+ppatt:
+	?a can eradicate ?b
+		?a: Appropriate parenteral antibiotics
+		?b: intra-amniotic infection
+	?a potentially prolong ?b
+		?a: Appropriate parenteral antibiotics
+		?b: pregnancy
+
+
+label:    sent_12
+sentence: Cefazolin did not eradicate the biofilms but significantly reduced the biofilm of one strain .
+
+ppatt:
+	?a did not eradicate ?b
+		?a: Cefazolin
+		?b: the biofilms
+	?a significantly reduced ?b
+		?a: Cefazolin
+		?b: the biofilm of one strain
+
+
+label:    sent_13
+sentence: Immediate and adequate treatment can eradicate the infection and block subsequent complications .
+
+ppatt:
+	?a can eradicate ?b
+		?a: Immediate and adequate treatment
+		?b: the infection
+	?a block ?b
+		?a: Immediate and adequate treatment
+		?b: subsequent complications
+
+
+label:    sent_14
+sentence: Scabies is a common parasitic infestation and is very difficult to eradicate from institutions . C. pyloridis infection is difficult to eradicate with current therapies .
+
+ppatt:
+	?a is a common parasitic infestation
+		?a: Scabies
+	?a is very difficult to eradicate from ?b
+		?a: Scabies
+		?b: institutions
+	?a is difficult to eradicate with ?b
+		?a: C. pyloridis infection
+		?b: current therapies
+
+
+label:    sent_15
+sentence: Bacteriuria is difficult to eradicate in maintenance hemodialysis patients and may require bilateral nephrectomy .
+
+ppatt:
+	?a is difficult to eradicate in ?b
+		?a: Bacteriuria
+		?b: maintenance hemodialysis patients
+	?a may require ?b
+		?a: Bacteriuria
+		?b: bilateral nephrectomy
+
+
+label:    sent_16
+sentence: Helicobacter pylori chronic gastritis in children : to eradicate or not to eradicate ? They are difficult to eradicate and often recur .
+
+ppatt:
+	?a eradicate
+		?a: Helicobacter pylori chronic gastritis in children
+	?a not to eradicate
+		?a: Helicobacter pylori chronic gastritis in children
+	?a ?b are difficult to eradicate
+		?a: Helicobacter pylori chronic gastritis in children : to eradicate or not to eradicate
+		?b: They
+	?a are difficult to often recur
+		?a: Helicobacter pylori chronic gastritis in children : to eradicate or not to eradicate
+
+
+label:    sent_17
+sentence: New methods are needed to eradicate or prevent Chlamydia trachomatis infections .
+
+ppatt:
+	?a are needed to eradicate ?b
+		?a: New methods
+		?b: Chlamydia trachomatis infections
+	?a are needed to prevent
+		?a: New methods
+
+
+label:    sent_18
+sentence: It was decided to eradicate the disease by slaughter rather than use vaccine .
+
+ppatt:
+	?a was decided to eradicate ?b by ?c
+		?a: It
+		?b: the disease
+		?c: slaughter
+	?a was decided to eradicate ?b by ?c
+		?a: It
+		?b: the disease
+		?c: use vaccine
+
+

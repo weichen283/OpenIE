@@ -1,0 +1,161 @@
+label:    sent_1
+sentence: A quantitative approach to subtract the scattered neutron background is also reported .
+
+ppatt:
+	?a subtract ?b
+		?a: A quantitative approach
+		?b: the scattered neutron background
+	?a is also reported
+		?a: A quantitative approach to subtract the scattered neutron background
+
+
+label:    sent_2
+sentence: Cardiac output measurement using N2O uptake : a method to subtract cardiogenic oscillations .
+
+ppatt:
+	?a using ?b
+		?a: Cardiac output measurement
+		?b: N2O uptake
+	?a subtract ?b
+		?a: a method
+		?b: cardiogenic oscillations
+
+
+label:    sent_3
+sentence: The need to measure and subtract sample residual adenylate kinase activity was demosntrated .
+
+ppatt:
+	?a measure ?b
+		?a: The need
+		?b: sample residual adenylate kinase activity
+	?a subtract
+		?a: The need
+	?a was demosntrated
+		?a: The need to measure and subtract sample residual adenylate kinase activity
+
+
+label:    sent_4
+sentence: It also gives the option to subtract background noise before normalizing the data .
+
+ppatt:
+	?a also gives ?b
+		?a: It
+		?b: the option to subtract background noise before normalizing the data
+	?a subtract ?b
+		?a: the option
+		?b: background noise
+	normalizing ?a
+		?a: the data
+
+
+label:    sent_5
+sentence: The spectral discrimination method was applied to subtract Cerenkov light from the signal .
+
+ppatt:
+	?a was applied to subtract ?b
+		?a: The spectral discrimination method
+		?b: Cerenkov light from the signal
+
+
+label:    sent_6
+sentence: A blocked-field technique was used to subtract photon contamination in the beam .
+
+ppatt:
+	?a was used to subtract ?b
+		?a: A blocked-field technique
+		?b: photon contamination in the beam
+
+
+label:    sent_7
+sentence: We subtract this estimate from the second measurement to form a scatter-corrected image .
+
+ppatt:
+	?a subtract ?b from ?c
+		?a: We
+		?b: this estimate
+		?c: the second measurement to form a scatter-corrected image
+	?a form ?b
+		?a: the second measurement
+		?b: a scatter-corrected image
+
+
+label:    sent_8
+sentence: To extract the ionization dynamics we subtract the excitations to low-lying bound states explicitly .
+
+ppatt:
+	extract ?a ?b
+		?a: the ionization dynamics
+		?b: we
+	?a subtract ?b explicitly
+		?a: we
+		?b: the excitations to low-lying bound states
+
+
+label:    sent_9
+sentence: Lastly , we subtract the corresponding interference value from the real value . Add soy to your diet , but do n't subtract other healthy foods .
+
+ppatt:
+	Lastly , ?a subtract ?b
+		?a: we
+		?b: the corresponding interference value from the real value
+	?a Add to ?b
+		?a: we
+		?b: soy your diet
+	?a do n't subtract ?b
+		?a: we
+		?b: other healthy foods
+
+
+label:    sent_10
+sentence: Comparators would subtract current arousal from desired arousal , producing an error signal .
+
+ppatt:
+	?a would subtract ?b from ?c
+		?a: Comparators
+		?b: current arousal
+		?c: desired arousal
+	?a producing ?b
+		?a: Comparators
+		?b: an error signal
+
+
+label:    sent_11
+sentence: In addition , we artificially subtract angiograms from their background structures .
+
+ppatt:
+	In ?a , ?b artificially subtract ?c
+		?a: addition
+		?b: we
+		?c: angiograms from their background structures
+
+
+label:    sent_12
+sentence: The user can subtract parts and ask for annotations just by using the mouse . Subjects could subtract from others .
+
+ppatt:
+	?a can subtract ?b
+		?a: The user
+		?b: parts
+	?a ask for ?b
+		?a: The user
+		?b: annotations
+	?a just by using ?b ?c
+		?a: The user
+		?b: mouse
+		?c: the . Subjects
+	?a could subtract from ?b
+		?a: The user
+		?b: others
+
+
+label:    sent_13
+sentence: The deoxyribonucleotide C can not subtract with the copper ( Cu ) .
+
+ppatt:
+	?a can not subtract with ?b
+		?a: The deoxyribonucleotide C
+		?b: the copper
+	?a is/are Cu
+		?a: the copper
+
+

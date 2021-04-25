@@ -1,0 +1,33 @@
+label:    sent_1
+sentence: These findings challenge the idea that either a recognition task or descriptive task alone provides a complete account of landmark representation .
+
+ppatt:
+	?a challenge ?b
+		?a: These findings
+		?b: the idea that either a recognition task or descriptive task alone provides a complete account of landmark representation
+	?a provides ?b
+		?a: a recognition task alone
+		?b: a complete account of landmark representation
+	?a provides ?b
+		?a: descriptive task
+		?b: a complete account of landmark representation
+
+
+label:    sent_2
+sentence: These findings challenge the role of synbiotics in the treatment of childhood atopic dermatitis .
+
+ppatt:
+	?a challenge ?b
+		?a: These findings
+		?b: the role of synbiotics in the treatment of childhood atopic dermatitis
+
+
+label:    sent_3
+sentence: These findings challenge the actual guidelines .
+
+ppatt:
+	?a challenge ?b
+		?a: These findings
+		?b: the actual guidelines
+
+

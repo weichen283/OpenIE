@@ -1,0 +1,200 @@
+label:    sent_1
+sentence: We use Tg ( Pax2-Cre ) to delete floxed Atoh1 in the inner ear . Hence , the mutations seem to delete one of two separate current systems .
+
+ppatt:
+	?a use ?b
+		?a: We
+		?b: Tg
+	?a is/are Pax2-Cre
+		?a: Tg
+	?a delete ?b in ?c
+		?a: We
+		?b: floxed Atoh1
+		?c: the inner ear
+	Hence , ?a seem to delete ?b
+		?a: the mutations
+		?b: one of two separate current systems
+
+
+label:    sent_2
+sentence: These adjuvant treatments reduce or delete the functional benefits achieved by conservative surgery . Villin-Cre was used to delete Gata4 or Gata6 in the developing intestinal epithelium .
+
+ppatt:
+	?a reduce ?b
+		?a: These adjuvant treatments
+		?b: the functional benefits achieved by conservative surgery
+	?a delete
+		?a: These adjuvant treatments
+	?a achieved by ?b
+		?a: the functional benefits
+		?b: conservative surgery
+	?a was used to delete ?b in ?c
+		?a: Villin-Cre
+		?b: Gata4
+		?c: the developing intestinal epithelium
+	?a was used to delete ?b in ?c
+		?a: Villin-Cre
+		?b: Gata6
+		?c: the developing intestinal epithelium
+
+
+label:    sent_3
+sentence: The CreLoxP system was utilised to delete GLUT4 in muscle tIssue including heart . PCC 7806 but were unable to completely delete them from its genome .
+
+ppatt:
+	?a was utilised to delete ?b in ?c
+		?a: The CreLoxP system
+		?b: GLUT4
+		?c: muscle tIssue including heart . PCC 7806
+	completely delete ?a from ?b
+		?a: them
+		?b: its genome
+
+
+label:    sent_4
+sentence: Optimization of therapeutic proteins to delete T-cell epitopes while maintaining beneficial residue interactions .
+
+ppatt:
+	?a delete ?b
+		?a: Optimization of therapeutic proteins
+		?b: T-cell epitopes
+	maintaining ?a
+		?a: beneficial residue interactions
+
+
+label:    sent_5
+sentence: We would also delete the specific reference to the 1973 AHA guidelines .
+
+ppatt:
+	?a would also delete ?b to ?c
+		?a: We
+		?b: the specific reference
+		?c: the 1973 AHA guidelines
+
+
+label:    sent_6
+sentence: Interestingly , mutants that delete domains for c-Myc dimerization motifs enhanced differentiation .
+
+ppatt:
+	?a delete ?b
+		?a: mutants
+		?b: domains for c-Myc dimerization motifs
+	Interestingly , ?a enhanced ?b
+		?a: mutants that delete domains for c-Myc dimerization motifs
+		?b: differentiation
+
+
+label:    sent_7
+sentence: Mutations were made to insert or delete a nucleotide at position 920 .
+
+ppatt:
+	?a were made to insert ?b
+		?a: Mutations
+		?b: a nucleotide at position 920
+	?a were made to delete
+		?a: Mutations
+
+
+label:    sent_8
+sentence: Teaching increased patient knowledge , but did not delete patients ' prior notions . Classical splicing mutations ( type I ) delete entire exons during pre-mRNA splicing . Th1 CD4+ lymphocytes delete activated macrophages through the Fas / APO-1 antigen pathway .
+
+ppatt:
+	Teaching ?a
+		?a: increased patient knowledge
+	did not delete ?a
+		?a: patients ' prior notions
+	?a is/are type I
+		?a: Classical splicing mutations
+	?a delete ?b during ?c
+		?a: Classical splicing mutations
+		?b: entire exons
+		?c: pre-mRNA splicing
+	?a delete ?b through ?c
+		?a: Th1 CD4+ lymphocytes
+		?b: activated macrophages
+		?c: the Fas / APO-1 antigen pathway
+
+
+label:    sent_9
+sentence: We could delete one target gene in three days by using pCW611 .
+
+ppatt:
+	?a could delete ?b in ?c
+		?a: We
+		?b: one target gene
+		?c: three days
+	?a using ?b
+		?a: We
+		?b: pCW611
+
+
+label:    sent_10
+sentence: Why it pays for bacteria to delete disused DNA and to maintain megaplasmids . T ( REG ) delete autoreactive T-cells , induce tolerance , and dampen inflammation .
+
+ppatt:
+	Why ?a pays for ?b to delete ?c
+		?a: it
+		?b: bacteria
+		?c: disused DNA
+	Why ?a pays to to maintain ?b
+		?a: it
+		?b: megaplasmids
+	?a is/are REG
+		?a: T
+	?a delete ?b
+		?a: T
+		?b: autoreactive T-cells
+	?a induce ?b
+		?a: T
+		?b: tolerance
+	?a dampen ?b
+		?a: T
+		?b: inflammation
+
+
+label:    sent_11
+sentence: The majority of mutations delete functional moieties of side-chains or make isosteric changes .
+
+ppatt:
+	?a delete ?b
+		?a: The majority of mutations
+		?b: functional moieties of side-chains
+	?a make ?b
+		?a: The majority of mutations
+		?b: isosteric changes
+
+
+label:    sent_12
+sentence: Missing data in medical databases : impute , delete or classify ? Site-directed mutagenesis was exploited to delete or change this conserved sequence .
+
+ppatt:
+	?a was exploited to delete ?b
+		?a: Site-directed mutagenesis
+		?b: this conserved sequence
+	?a was exploited to change
+		?a: Site-directed mutagenesis
+
+
+label:    sent_13
+sentence: Therefore , central and peripheral tolerance mechanisms delete or inhibit tumor-reactive T cells .
+
+ppatt:
+	Therefore , ?a delete ?b
+		?a: central and peripheral tolerance mechanisms
+		?b: tumor-reactive T cells
+	?a inhibit
+		?a: central and peripheral tolerance mechanisms
+
+
+label:    sent_14
+sentence: CD4+ T cells disarm or delete cytotoxic T lymphocytes under IL-17-polarizing conditions .
+
+ppatt:
+	?a disarm ?b under ?c
+		?a: CD4+ T cells
+		?b: cytotoxic T lymphocytes
+		?c: IL-17-polarizing conditions
+	?a delete
+		?a: CD4+ T cells
+
+

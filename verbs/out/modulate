@@ -1,0 +1,349 @@
+label:    sent_1
+sentence: Such an arrangement may influence cytoplasmic streaming and as such modulate cell extension . N and C were able to modulate VEGF mRNA expression in HUVEC .
+
+ppatt:
+	?a may influence ?b
+		?a: Such an arrangement
+		?b: cytoplasmic streaming
+	as ?a modulate ?b
+		?a: such
+		?b: cell extension
+	?a were able to modulate ?b
+		?a: N
+		?b: VEGF mRNA expression in HUVEC
+	?a were able to modulate ?b
+		?a: C
+		?b: VEGF mRNA expression in HUVEC
+
+
+label:    sent_2
+sentence: Acetylcholine is an additional mediator to modulate activation of interacting T and B lymphocytes .
+
+ppatt:
+	?a is an additional mediator
+		?a: Acetylcholine
+	?a modulate ?b
+		?a: an additional mediator
+		?b: activation of interacting T and B
+
+
+label:    sent_3
+sentence: Corticosteroids modulate angiogenic soluble factors in ulcerative colitis patients . Visfatin did not modulate PPARgamma expression .
+
+ppatt:
+	?a modulate ?b
+		?a: Corticosteroids
+		?b: angiogenic soluble factors in ulcerative colitis patients
+	?a did not modulate ?b
+		?a: Visfatin
+		?b: PPARgamma expression
+
+
+label:    sent_4
+sentence: Certainly , 5-HT6 drugs modulate memory , which are accompanied with neural changes .
+
+ppatt:
+	Certainly , ?a modulate ?b
+		?a: 5-HT6 drugs
+		?b: memory , which are accompanied with neural changes
+	?a are accompanied with ?b
+		?a: memory
+		?b: neural changes
+
+
+label:    sent_5
+sentence: The rates of entering and exiting this intermediate state modulate pausing by RNAP .
+
+ppatt:
+	?a entering ?b
+		?a: The rates
+		?b: this intermediate state
+	?a exiting
+		?a: The rates
+	?a modulate ?b
+		?a: The rates of entering and exiting this intermediate state
+		?b: pausing by RNAP
+
+
+label:    sent_6
+sentence: Physiologically relevant divalent cations modulate citrate recognition by the McpS chemoreceptor .
+
+ppatt:
+	?a modulate ?b
+		?a: Physiologically relevant divalent cations
+		?b: citrate recognition by the McpS chemoreceptor
+
+
+label:    sent_7
+sentence: Both ITGalpha1 and DDR2 modulate MMP-13 expression after direct contact between chondrocytes and collagen .
+
+ppatt:
+	?a modulate ?b after ?c
+		?a: ITGalpha1
+		?b: MMP-13 expression
+		?c: direct contact between chondrocytes and collagen
+	?a modulate ?b after ?c
+		?a: DDR2
+		?b: MMP-13 expression
+		?c: direct contact between chondrocytes and collagen
+
+
+label:    sent_8
+sentence: Surfactants appear to modulate interfacial anion coverage via electrostatic interactions with charged headgroups .
+
+ppatt:
+	?a appear to modulate ?b via ?c
+		?a: Surfactants
+		?b: interfacial anion coverage
+		?c: electrostatic interactions with charged headgroups
+
+
+label:    sent_9
+sentence: The adhesive area is important to modulate cell behaviors on a substrate .
+
+ppatt:
+	?a is important to modulate ?b on ?c
+		?a: The adhesive area
+		?b: cell behaviors
+		?c: a substrate
+
+
+label:    sent_10
+sentence: Conversely , host factors can affect microbes , which in turn modulate disease susceptibility . MicroRNAs ( miRNAs ) negatively modulate gene expression and have been implicated in oncogenesis .
+
+ppatt:
+	Conversely , ?a can affect ?b
+		?a: host factors
+		?b: microbes , which in turn modulate disease susceptibility
+	?a in ?b modulate ?c
+		?a: microbes
+		?b: turn
+		?c: disease susceptibility
+	?a is/are miRNAs
+		?a: MicroRNAs
+	?a negatively modulate ?b
+		?a: MicroRNAs
+		?b: gene expression
+	?a have been implicated in ?b
+		?a: MicroRNAs
+		?b: oncogenesis
+
+
+label:    sent_11
+sentence: Cytokines modulate deriving immune processes and influence the local micro-environment .
+
+ppatt:
+	?a modulate ?b
+		?a: Cytokines
+		?b: deriving immune processes
+	?a influence ?b
+		?a: Cytokines
+		?b: the local micro-environment
+
+
+label:    sent_12
+sentence: Estrogen may modulate intracellular Ca2+ and prevent inflammation .
+
+ppatt:
+	?a may modulate ?b
+		?a: Estrogen
+		?b: intracellular Ca2+
+	?a prevent ?b
+		?a: Estrogen
+		?b: inflammation
+
+
+label:    sent_13
+sentence: Propofol causes less inflammatory mediator release and can also modulate the balance of cytokines .
+
+ppatt:
+	?a causes ?b
+		?a: Propofol
+		?b: less inflammatory mediator release
+	?a can also modulate ?b
+		?a: Propofol
+		?b: the balance of cytokines
+
+
+label:    sent_14
+sentence: Bisphosphonates are antiatherosclerotic , suppress monocyte-macrophages , and modulate proinflammatory mediators .
+
+ppatt:
+	?a are antiatherosclerotic
+		?a: Bisphosphonates
+	?a suppress ?b
+		?a: Bisphosphonates
+		?b: monocyte-macrophages
+	?a modulate ?b
+		?a: Bisphosphonates
+		?b: proinflammatory mediators
+
+
+label:    sent_15
+sentence: Alpha-fetoprotein ( AFP ) interacts with and may modulate fetal responses to estrogens .
+
+ppatt:
+	?a is/are AFP
+		?a: Alpha-fetoprotein
+	?a interacts ?b
+		?a: Alpha-fetoprotein
+		?b: with
+	?a may modulate ?b
+		?a: Alpha-fetoprotein
+		?b: fetal responses to estrogens
+
+
+label:    sent_16
+sentence: The hydrophilic cyclodextrin family also modulate drug flux through membranes but via different mechanisms .
+
+ppatt:
+	?a also modulate ?b through ?c
+		?a: The hydrophilic cyclodextrin family
+		?b: drug flux
+		?c: membranes
+	?a also modulate ?b through ?c
+		?a: The hydrophilic cyclodextrin family
+		?b: drug flux
+		?c: different mechanisms
+
+
+label:    sent_17
+sentence: First , NMDA receptors modulate neuronal plasticity during the development and even long after .
+
+ppatt:
+	First , ?a modulate ?b during ?c
+		?a: NMDA receptors
+		?b: neuronal plasticity
+		?c: the development
+
+
+label:    sent_18
+sentence: Dietary manipulations can modulate substrate use during exercise and can potentially affect exercise performance .
+
+ppatt:
+	?a can modulate ?b during ?c
+		?a: Dietary manipulations
+		?b: substrate use
+		?c: exercise
+	?a can potentially affect ?b
+		?a: Dietary manipulations
+		?b: exercise performance
+
+
+label:    sent_19
+sentence: Immunologic mechanisms by which pregnancy might modulate RA activity are described .
+
+ppatt:
+	?a by ?b might modulate ?c
+		?a: Immunologic mechanisms
+		?b: pregnancy
+		?c: RA activity
+	?a are described
+		?a: Immunologic mechanisms by which pregnancy might modulate RA activity
+
+
+label:    sent_20
+sentence: The signaling pathways by which mechanical forces modulate fetal lung development remain largely unknown .
+
+ppatt:
+	?a by ?b modulate ?c
+		?a: The signaling pathways
+		?b: mechanical forces
+		?c: fetal lung development
+	?a remain largely unknown
+		?a: The signaling pathways by which mechanical forces modulate fetal lung development
+
+
+label:    sent_21
+sentence: Our results present novel mechanisms by which Mesd and LRP6 modulate Wnt signaling .
+
+ppatt:
+	?a present ?b
+		?a: Our results
+		?b: novel mechanisms by which Mesd and LRP6 modulate Wnt signaling
+	?a by ?b modulate ?c
+		?a: novel mechanisms
+		?b: Mesd
+		?c: Wnt signaling
+	?a by ?b modulate ?c
+		?a: novel mechanisms
+		?b: LRP6
+		?c: Wnt signaling
+
+
+label:    sent_22
+sentence: Aerobes constantly make reactive species , but modulate their actions by synthesizing antioxidants .
+
+ppatt:
+	?a constantly make ?b
+		?a: Aerobes
+		?b: reactive species
+	?a modulate ?b
+		?a: Aerobes
+		?b: their actions
+	?a synthesizing ?b
+		?a: Aerobes
+		?b: antioxidants
+
+
+label:    sent_23
+sentence: Endocannabinoids function as retrograde messengers and modulate synaptic transmission through presynaptic cannabinoid CB1 receptors .
+
+ppatt:
+	?a function as ?b
+		?a: Endocannabinoids
+		?b: retrograde messengers
+	?a modulate ?b through ?c
+		?a: Endocannabinoids
+		?b: synaptic transmission
+		?c: presynaptic cannabinoid CB1 receptors
+
+
+label:    sent_24
+sentence: Using suggestion to modulate automatic processes : from Stroop to McGurk and beyond .
+
+ppatt:
+	Using ?a
+		?a: suggestion to modulate automatic processes from Stroop to McGurk and beyond
+	?a modulate ?b from ?c
+		?a: suggestion
+		?b: automatic processes
+		?c: Stroop to McGurk and beyond
+
+
+label:    sent_25
+sentence: It is appealing for targeted therapy , because it does not shed or modulate .
+
+ppatt:
+	?a is appealing for ?b
+		?a: It
+		?b: targeted therapy
+	?a does not shed
+		?a: it
+	?a modulate
+		?a: it
+
+
+label:    sent_26
+sentence: Using molecular adjuvants to modulate and skew immune responses .
+
+ppatt:
+	Using ?a
+		?a: molecular adjuvants
+	modulate ?a
+		?a: immune responses
+	skew ?a
+		?a: immune responses
+
+
+label:    sent_27
+sentence: This series of events may occur to modulate and activate the immune response .
+
+ppatt:
+	?a may occur to modulate ?b
+		?a: This series of events
+		?b: the immune response
+	?a may occur to activate
+		?a: This series of events
+
+

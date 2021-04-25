@@ -1,0 +1,230 @@
+label:    sent_1
+sentence: World Kidney Day 2011 : protect your kidneys , save your heart . World Kidney Day 2011 : protect your kidneys , save your heart . World Kidney Day 2011 : protect your kidneys , save your heart . 10 ways to save your life .
+
+ppatt:
+	?a protect ?b ?c
+		?a: World Kidney Day 2011
+		?b: your kidneys
+		?c: World Kidney Day 2011
+	?a save ?b
+		?a: World Kidney Day 2011
+		?b: your heart
+	?a protect ?b
+		?a: World Kidney Day 2011
+		?b: your kidneys
+	?a save ?b ?c
+		?a: World Kidney Day 2011
+		?b: your heart
+		?c: World Kidney Day 2011
+	?a protect ?b
+		?a: World Kidney Day 2011
+		?b: your kidneys
+	?a save ?b ?c
+		?a: World Kidney Day 2011
+		?b: your heart
+		?c: 10 ways to save your life
+	?a save ?b
+		?a: 10 ways
+		?b: your life
+
+
+label:    sent_2
+sentence: Can value-based design in pharmacy save money and cut heart attacks ? This technique may save precious organs .
+
+ppatt:
+	Can ?a save ?b
+		?a: value-based design in pharmacy
+		?b: money
+	Can ?a save ?b
+		?a: value-based design in pharmacy
+		?b: cut heart attacks
+	?a may save ?b
+		?a: This technique
+		?b: precious organs
+
+
+label:    sent_3
+sentence: They can shock a heart back into rhythm and save a life .
+
+ppatt:
+	?a can shock ?b
+		?a: They
+		?b: a heart back into rhythm
+	?a save ?b
+		?a: They
+		?b: a life
+
+
+label:    sent_4
+sentence: Spare the blood , but save the kidneys . Consequently , infection control policies are more rational and will save money . [Vasa praevia test can save lives in Swedish maternity wards ] . Can we save money by improving quality ? Prompt treatment with antitubercular therapy could save patients from this life-threatening condition .
+
+ppatt:
+	Spare ?a
+		?a: the blood
+	save ?a
+		?a: the kidneys
+	Consequently , ?a are more rational
+		?a: infection control policies
+	?a will save money
+		?a: infection control policies
+	?a can save ?b
+		?a: [Vasa praevia test
+		?b: lives in Swedish maternity wards
+	Can ?a save money
+		?a: we
+	?a improving ?b
+		?a: we
+		?b: quality
+	?a could save ?b
+		?a: Prompt treatment with antitubercular therapy
+		?b: patients from this life-threatening condition
+
+
+label:    sent_5
+sentence: How to save botulinum toxin A in the treatment of focal axillary hyperhidrosis .
+
+ppatt:
+	How to save ?a in ?b
+		?a: botulinum toxin A
+		?b: the treatment of focal axillary hyperhidrosis
+
+
+label:    sent_6
+sentence: [FTF 's opinion : Denmark can not save itself from crisis ] . [Laymen specially trained as ambulance personnel , can save lifes in circulatory collapse ] . 50 ways to save time and improve your nursing practice .
+
+ppatt:
+	?a specially trained as ?b
+		?a: [Laymen
+		?b: ambulance personnel
+	?a can save ?b in ?c ?d
+		?a: [FTF 's opinion
+		?b: lifes
+		?c: circulatory collapse ]
+		?d: 50 ways to save time and improve your nursing practice
+	?a save ?b
+		?a: 50 ways
+		?b: time
+	improve ?a
+		?a: your nursing practice
+
+
+label:    sent_7
+sentence: Telecommunications can provide the financial manager with opportunities to save money and produce income .
+
+ppatt:
+	?a can provide ?b
+		?a: Telecommunications
+		?b: the financial manager with opportunities to save money and produce income
+	?a save ?b
+		?a: opportunities
+		?b: money
+	produce ?a
+		?a: income
+
+
+label:    sent_8
+sentence: It would save dollars and make sense to pay me . The assumption and identification of save lives . GC had higher activities than EC , save for nonspecific esterase .
+
+ppatt:
+	?a would save ?b
+		?a: It
+		?b: dollars
+	?a make ?b to pay ?c
+		?a: It
+		?b: sense
+		?c: me
+	?a ?b had ?c than ?d
+		?a: The assumption of save lives
+		?b: GC
+		?c: higher activities
+		?d: EC
+	?a ?b had ?c than ?d
+		?a: identification
+		?b: GC
+		?c: higher activities
+		?d: EC
+	?a save for ?b
+		?a: The assumption of save lives
+		?b: nonspecific esterase
+	?a save for ?b
+		?a: identification
+		?b: nonspecific esterase
+
+
+label:    sent_9
+sentence: How to save on overhead costs . Knowledge that can save you . Conversion to thermal fluid system will save laundry $ 50,000 a year .
+
+ppatt:
+	How to save on ?a ?b
+		?a: overhead costs
+		?b: Knowledge that can save you
+	?a can save ?b
+		?a: Knowledge
+		?b: you
+	?a ?b will save ?c ?d
+		?a: Knowledge that can save you
+		?b: Conversion to thermal fluid system
+		?c: laundry $
+		?d: 50,000 a year
+
+
+label:    sent_10
+sentence: Nurse 's notes save the day . In other words , health workers save lives and improve health .
+
+ppatt:
+	?a save ?b . In ?c
+		?a: Nurse 's notes
+		?b: the day
+		?c: other words
+	?a save ?b
+		?a: health workers
+		?b: lives
+	?a improve ?b
+		?a: health workers
+		?b: health
+
+
+label:    sent_11
+sentence: In children , nasal irrigation can save antibiotics and reduce decongestant to nil .
+
+ppatt:
+	In ?a , ?b can save ?c
+		?a: children
+		?b: nasal irrigation
+		?c: antibiotics
+	?a reduce ?b
+		?a: nasal irrigation
+		?b: decongestant to nil
+
+
+label:    sent_12
+sentence: This will save time during the registration stage and help to improve accuracy . If applied nationally , it would save about $ 3.5 billion .
+
+ppatt:
+	?a will save ?b during ?c
+		?a: This
+		?b: time
+		?c: the registration stage
+	?a help to improve ?b
+		?a: This
+		?b: accuracy
+	?a applied nationally
+		?a: This
+	?a would save ?b
+		?a: it
+		?b: about $ 3.5 billion
+
+
+label:    sent_13
+sentence: The propensity to save among the elderly . [ Exciting reading save for the orthodox ] .
+
+ppatt:
+	?a save among ?b
+		?a: The propensity
+		?b: the elderly
+	?a ?b save for ?c
+		?a: The propensity to save among the elderly
+		?b: [ Exciting reading
+		?c: the orthodox ]
+
+

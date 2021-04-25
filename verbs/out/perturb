@@ -1,0 +1,253 @@
+label:    sent_1
+sentence: However , CR did not perturb the tertiary or secondary structure of cytochrome c . Atypical antipsychotic drugs perturb AMPK-dependent regulation of hepatic lipid metabolism .
+
+ppatt:
+	However , ?a did not perturb ?b
+		?a: CR
+		?b: the tertiary or secondary structure of cytochrome c
+	?a perturb ?b
+		?a: Atypical antipsychotic drugs
+		?b: AMPK-dependent regulation of hepatic lipid metabolism
+
+
+label:    sent_2
+sentence: Disease-associated N-terminal complement factor H mutations perturb cofactor and decay-accelerating activities .
+
+ppatt:
+	?a perturb ?b
+		?a: Disease-associated N-terminal complement factor H mutations
+		?b: cofactor and decay-accelerating activities
+
+
+label:    sent_3
+sentence: Both genetic approaches and small-molecule inhibitors can be used to perturb protein function .
+
+ppatt:
+	?a can be used to perturb ?b
+		?a: genetic approaches
+		?b: protein function
+	?a can be used to perturb ?b
+		?a: small-molecule inhibitors
+		?b: protein function
+
+
+label:    sent_4
+sentence: Any condition with acute or chronic oxidative stress is expected to perturb zinc homeostasis .
+
+ppatt:
+	?a is expected to perturb ?b
+		?a: Any condition with acute or chronic
+		?b: zinc homeostasis
+
+
+label:    sent_5
+sentence: Sporidesmin and gliotoxin induce cell detachment and perturb microfilament structure in cultured liver cells .
+
+ppatt:
+	?a induce ?b
+		?a: Sporidesmin
+		?b: cell detachment
+	?a induce ?b
+		?a: gliotoxin
+		?b: cell detachment
+	?a perturb ?b
+		?a: Sporidesmin
+		?b: microfilament structure in cultured liver cells
+	?a perturb ?b
+		?a: gliotoxin
+		?b: microfilament structure in cultured liver cells
+
+
+label:    sent_6
+sentence: Mutations in the tRNA body can perturb this process and affect fidelity . Radiation-generated short DNA fragments may perturb non-homologous end-joining and induce genomic instability .
+
+ppatt:
+	?a can perturb ?b
+		?a: Mutations in the tRNA body
+		?b: this process
+	?a affect ?b
+		?a: Mutations in the tRNA body
+		?b: fidelity
+	?a may perturb ?b
+		?a: Radiation-generated short DNA fragments
+		?b: non-homologous end-joining
+	?a induce ?b
+		?a: Radiation-generated short DNA fragments
+		?b: genomic instability
+
+
+label:    sent_7
+sentence: Some drugs perturb renal perfusion and induce loss of filtration capacity .
+
+ppatt:
+	?a perturb ?b
+		?a: Some drugs
+		?b: renal perfusion
+	?a induce ?b
+		?a: Some drugs
+		?b: loss of filtration capacity
+
+
+label:    sent_8
+sentence: Therefore , a better understanding of how chemicals perturb these pathways is warranted .
+
+ppatt:
+	?a how ?b perturb ?c
+		?a: a better understanding
+		?b: chemicals
+		?c: these pathways
+	Therefore , ?a is warranted
+		?a: a better understanding of how chemicals perturb these pathways
+
+
+label:    sent_9
+sentence: The mutant strains described here perturb the commitment to differentiation as ovules .
+
+ppatt:
+	?a described here
+		?a: The mutant strains
+	?a perturb ?b
+		?a: The mutant strains described here
+		?b: the commitment to differentiation as ovules
+
+
+label:    sent_10
+sentence: In static conditions , the compound did not perturb the architecture of the biofilm .
+
+ppatt:
+	In ?a , ?b did not perturb ?c
+		?a: static conditions
+		?b: the compound
+		?c: the architecture of the biofilm
+
+
+label:    sent_11
+sentence: Transcriptional inhibition prevents new pair formation but does not perturb existing pairs .
+
+ppatt:
+	?a prevents ?b
+		?a: Transcriptional inhibition
+		?b: new pair formation
+	?a does not perturb ?b
+		?a: Transcriptional inhibition
+		?b: existing pairs
+
+
+label:    sent_12
+sentence: Globular and pre-fibrillar prion aggregates are toxic to neuronal cells and perturb their electrophysiology .
+
+ppatt:
+	?a are toxic to ?b
+		?a: Globular and pre-fibrillar prion aggregates
+		?b: neuronal cells
+	?a perturb ?b
+		?a: Globular and pre-fibrillar prion aggregates
+		?b: their electrophysiology
+
+
+label:    sent_13
+sentence: The electrogoniometers were small and did not perturb walking . Ca2+ was able to perturb the fluorophore in the presence of Zn2+ .
+
+ppatt:
+	?a were small
+		?a: The electrogoniometers
+	?a did not perturb ?b
+		?a: The electrogoniometers
+		?b: walking
+	?a was able to perturb ?b in ?c
+		?a: Ca2+
+		?b: the fluorophore
+		?c: the presence of Zn2+
+
+
+label:    sent_14
+sentence: One common cancer chemotherapeutic strategy is to perturb cell division with anti-mitotic drugs . Cadmium is known to perturb ion balance in teleost fishes .
+
+ppatt:
+	?a is to perturb ?b
+		?a: One common cancer chemotherapeutic strategy
+		?b: cell division with anti-mitotic drugs
+	?a is known to perturb ?b
+		?a: Cadmium
+		?b: ion balance in teleost fishes
+
+
+label:    sent_15
+sentence: Mechanisms by which poly ( L-amino acids ) may perturb fibrin assembly are discussed .
+
+ppatt:
+	?a is/are L-amino acids
+		?a: poly
+	?a by ?b may perturb ?c
+		?a: Mechanisms
+		?b: poly
+		?c: fibrin assembly
+	?a are discussed
+		?a: Mechanisms by which poly may perturb fibrin assembly
+
+
+label:    sent_16
+sentence: The mode by which these drugs perturb metabolism is unknown .
+
+ppatt:
+	?a by ?b perturb ?c
+		?a: The mode
+		?b: these drugs
+		?c: metabolism
+	?a is unknown
+		?a: The mode by which these drugs perturb metabolism
+
+
+label:    sent_17
+sentence: There is a considerable disagreement about the extent to which solutes perturb water structure .
+
+ppatt:
+	There is ?a about ?b
+		?a: a considerable disagreement
+		?b: the extent to which solutes perturb water structure
+	?a to ?b perturb ?c
+		?a: the extent
+		?b: solutes
+		?c: water structure
+
+
+label:    sent_18
+sentence: Salient stimuli are characterized by their capability to perturb and seize available cognitive resources .
+
+ppatt:
+	?a are characterized by ?b
+		?a: Salient stimuli
+		?b: their capability to perturb and seize available cognitive resources
+	?a perturb ?b
+		?a: their capability
+		?b: available cognitive resources
+	seize ?a
+		?a: available cognitive resources
+
+
+label:    sent_19
+sentence: However , we lack strategies to selectively perturb or probe these basic biochemical mechanisms .
+
+ppatt:
+	However , ?a lack ?b
+		?a: we
+		?b: strategies to selectively perturb or probe these basic biochemical mechanisms
+	?a selectively perturb ?b
+		?a: strategies
+		?b: these basic biochemical mechanisms
+	probe ?a
+		?a: these basic biochemical mechanisms
+
+
+label:    sent_20
+sentence: The measurements were reproducible and did not perturb the tissue to any significant extent .
+
+ppatt:
+	?a were reproducible
+		?a: The measurements
+	?a did not perturb ?b to ?c
+		?a: The measurements
+		?b: the tissue
+		?c: any significant extent
+
+

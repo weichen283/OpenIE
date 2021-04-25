@@ -1,0 +1,282 @@
+label:    sent_1
+sentence: The primary outcome was return-to-work measured as either return-to-work rate or sick leave duration .
+
+ppatt:
+	?a was ?b measured as ?c
+		?a: The primary outcome
+		?b: return-to-work
+		?c: return-to-work rate
+	?a was ?b measured as ?c
+		?a: The primary outcome
+		?b: return-to-work
+		?c: sick
+	?a leave ?b
+		?a: The primary outcome
+		?b: duration
+
+
+label:    sent_2
+sentence: Do n't leave money on the table : take proactive approach to denials . Patient factors may influence the sick leave period .
+
+ppatt:
+	Do n't leave ?a on ?b
+		?a: money
+		?b: the table
+	take ?a
+		?a: proactive approach to denials
+	?a may influence ?b
+		?a: Patient factors
+		?b: the sick leave period
+
+
+label:    sent_3
+sentence: Intervention reduces coercion from male partners and may encourage women to leave unsafe relationships .
+
+ppatt:
+	?a reduces ?b
+		?a: Intervention
+		?b: coercion from male partners
+	?a may encourage ?b to leave ?c
+		?a: Intervention
+		?b: women
+		?c: unsafe relationships
+
+
+label:    sent_4
+sentence: Such mutations leave the ground-state structure unaffected .
+
+ppatt:
+	?a leave ?b
+		?a: Such mutations
+		?b: the ground-state structure unaffected
+
+
+label:    sent_5
+sentence: Savage cuts to student numbers leave lecturers facing job losses .
+
+ppatt:
+	?a leave ?b
+		?a: Savage cuts to student numbers
+		?b: lecturers facing job losses
+	?a facing ?b
+		?a: lecturers
+		?b: job losses
+
+
+label:    sent_6
+sentence: Under utilization of sick leave by the physicians-jeopardizing health care ? The threshold to enter DREAM is sick leave for two consecutive weeks .
+
+ppatt:
+	?a enter ?b
+		?a: The threshold
+		?b: DREAM
+	Under ?a ? ?b is sick leave for ?c
+		?a: utilization of sick leave by the physicians-jeopardizing health care
+		?b: The threshold to enter DREAM
+		?c: two consecutive weeks
+
+
+label:    sent_7
+sentence: Intention to leave of Asian nurses in US hospitals : does cultural orientation matter ?
+
+ppatt:
+	?a leave of ?b in ?c
+		?a: Intention
+		?b: Asian nurses
+		?c: US hospitals
+
+
+label:    sent_8
+sentence: The authors investigated the reasons why women leave careers in academic medicine .
+
+ppatt:
+	?a investigated ?b
+		?a: The authors
+		?b: the reasons why women leave careers in academic medicine
+	?a why ?b leave ?c
+		?a: the reasons
+		?b: women
+		?c: careers in academic medicine
+
+
+label:    sent_9
+sentence: Although powerful techniques , they leave many soluble , purified structurally uncharacterized protein samples .
+
+ppatt:
+	?a ?b leave ?c
+		?a: powerful techniques
+		?b: they
+		?c: many soluble , protein samples
+
+
+label:    sent_10
+sentence: Why we must leave our organs to others .
+
+ppatt:
+	Why ?a must leave ?b
+		?a: we
+		?b: our organs to others
+
+
+label:    sent_11
+sentence: Diabetics are particularly vulnerable to complications that can leave them at risk for amputation .
+
+ppatt:
+	?a are particularly vulnerable to ?b
+		?a: Diabetics
+		?b: complications that can leave them at risk for amputation
+	?a can leave ?b at ?c
+		?a: complications
+		?b: them
+		?c: risk for amputation
+
+
+label:    sent_12
+sentence: How fatty acids of different chain length enter and leave cells by free diffusion .
+
+ppatt:
+	How ?a enter ?b by ?c
+		?a: fatty acids of different chain length
+		?b: cells
+		?c: free diffusion
+	?a leave
+		?a: fatty acids of different chain length
+
+
+label:    sent_13
+sentence: Failing to treat SDB appears to leave children at risk for long-term neurobehavioral deficits .
+
+ppatt:
+	Failing to treat ?a
+		?a: SDB
+	?a appears to leave ?b for ?c
+		?a: SOMETHING := Failing to treat SDB
+		?b: children at risk
+		?c: long-term neurobehavioral deficits
+
+
+label:    sent_14
+sentence: Changes in HRQoL ; duration of sick leave .
+
+ppatt:
+
+
+
+label:    sent_15
+sentence: This study provides a more comprehensive understanding of factors that influence intent to leave . Parental leave . " Reforms will make cash tills ring and leave us all the poorer " . What to do with a failed renal allograft : take it or leave it ? The condition is self-limiting and does not leave permanent neurological sequelae .
+
+ppatt:
+	?a provides ?b
+		?a: This study
+		?b: a more comprehensive understanding of factors that influence intent to leave . Parental leave
+	?a influence ?b to leave ?c
+		?a: factors
+		?b: intent
+		?c: Parental leave
+	?a will make ?b
+		?a: " Reforms
+		?b: cash tills ring
+	leave ?a ?b ?c to do with ?d
+		?a: us
+		?b: all the poorer "
+		?c: What
+		?d: a failed renal allograft
+	?a take ?b
+		?a: " Reforms
+		?b: it
+	?a leave ?b
+		?a: " Reforms
+		?b: it
+	?a is self-limiting
+		?a: The condition
+	?a does not leave ?b
+		?a: The condition
+		?b: permanent neurological sequelae
+
+
+label:    sent_16
+sentence: The vascular theory of migraine : leave it or love it ? Some of them leave stable traces , and others fade away quickly .
+
+ppatt:
+	?a ?b leave ?c
+		?a: The vascular theory of migraine
+		?b: Some of them
+		?c: stable traces
+	?a fade away quickly
+		?a: others
+
+
+label:    sent_17
+sentence: The axons leave the nucleus from the medial side and join the lemniscus lateralis . 8.24 % nurses newly developed intention to leave during follow-up .
+
+ppatt:
+	?a leave ?b
+		?a: The axons
+		?b: the nucleus from the medial side
+	?a join ?b ?c
+		?a: The axons
+		?b: the lemniscus lateralis
+		?c: 8.24 % nurses newly developed intention to leave during follow-up
+	?a newly developed intention to leave during ?b
+		?a: 8.24 % nurses
+		?b: follow-up
+
+
+label:    sent_18
+sentence: Relation between perceived health and sick leave in employees with a chronic illness . Occupational factors and sick leave in Australian employees .
+
+ppatt:
+	?a leave in ?b
+		?a: Relation between perceived health and sick
+		?b: employees with a chronic illness
+	?a leave in ?b
+		?a: Occupational factors
+		?b: Australian employees
+	?a leave in ?b
+		?a: sick
+		?b: Australian employees
+
+
+label:    sent_19
+sentence: They leave the bone marrow as progenitors and complete their maturation at peripheral sites .
+
+ppatt:
+	?a leave ?b as ?c
+		?a: They
+		?b: the bone marrow
+		?c: progenitors
+	?a complete ?b
+		?a: They
+		?b: their maturation at peripheral sites
+
+
+label:    sent_20
+sentence: Many individuals leave the field prior to graduation or between graduation and placement . [Caring for depressed patients .
+
+ppatt:
+	?a leave ?b prior to ?c
+		?a: Many individuals
+		?b: the field
+		?c: graduation
+	?a leave ?b prior to ?c
+		?a: Many individuals
+		?b: the field
+		?c: graduation
+	?a [Caring for ?b
+		?a: Many individuals
+		?b: depressed patients
+
+
+label:    sent_21
+sentence: Should we leave them alone or activate them ? ] .
+
+ppatt:
+	Should ?a leave ?b
+		?a: we
+		?b: them alone
+	?a activate ?b ?c
+		?a: we
+		?b: them
+		?c: ]
+
+

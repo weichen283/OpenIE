@@ -1,0 +1,315 @@
+label:    sent_1
+sentence: Ontario family physician readiness to collaborate with community pharmacists on drug therapy management .
+
+ppatt:
+	?a collaborate with ?b on ?c
+		?a: Ontario family physician readiness
+		?b: community pharmacists
+		?c: drug therapy management
+
+
+label:    sent_2
+sentence: Bid and Bim collaborate during induction of T cell death in persistent infection .
+
+ppatt:
+	?a collaborate during ?b
+		?a: Bid
+		?b: induction of T cell death in persistent infection
+	?a collaborate during ?b
+		?a: Bim
+		?b: induction of T cell death in persistent infection
+
+
+label:    sent_3
+sentence: Hospital case managers frequently collaborate with home care liaisons when coordinating special discharge plans .
+
+ppatt:
+	?a frequently collaborate with ?b
+		?a: Hospital case managers
+		?b: home care liaisons
+	?a when coordinating ?b
+		?a: Hospital case managers
+		?b: special discharge plans
+
+
+label:    sent_4
+sentence: Both gastroenterologists and radiologists are invited to collaborate in diagnosing and treating many diseases .
+
+ppatt:
+	?a are invited to collaborate
+		?a: gastroenterologists
+	?a are invited to collaborate
+		?a: radiologists
+	?a diagnosing ?b
+		?a: gastroenterologists
+		?b: many diseases
+	?a diagnosing ?b
+		?a: radiologists
+		?b: many diseases
+	?a treating
+		?a: gastroenterologists
+	?a treating
+		?a: radiologists
+
+
+label:    sent_5
+sentence: Students in health care need to learn how to collaborate during their undergraduate education .
+
+ppatt:
+	?a need to learn how to collaborate during ?b
+		?a: Students in health care
+		?b: their undergraduate education
+
+
+label:    sent_6
+sentence: This unleashed a large movement of volunteers to collaborate in several cleaning tasks .
+
+ppatt:
+	?a unleashed ?b
+		?a: This
+		?b: a large movement of volunteers
+	?a collaborate in ?b
+		?a: This
+		?b: several cleaning tasks
+
+
+label:    sent_7
+sentence: Multiple mechanisms collaborate to repress nanos translation in the Drosophila ovary and embryo .
+
+ppatt:
+	?a collaborate to repress ?b
+		?a: Multiple mechanisms
+		?b: nanos translation in the Drosophila ovary and embryo
+
+
+label:    sent_8
+sentence: European institutes for disease prevention and control collaborate to improve public health surveillance .
+
+ppatt:
+	?a collaborate to improve ?b
+		?a: European institutes for disease prevention and control
+		?b: public health surveillance
+
+
+label:    sent_9
+sentence: The lineage-defining factors T-bet and Bcl-6 collaborate to regulate Th1 gene expression patterns .
+
+ppatt:
+	?a collaborate to regulate ?b
+		?a: The lineage-defining factors
+		?b: Th1 gene expression patterns
+
+
+label:    sent_10
+sentence: Radiation oncology nurses need to collaborate with colleagues and incorporate evidence into practice .
+
+ppatt:
+	?a need to collaborate with ?b
+		?a: Radiation oncology nurses
+		?b: colleagues
+	?a incorporate ?b
+		?a: Radiation oncology nurses
+		?b: evidence into practice
+
+
+label:    sent_11
+sentence: Appoint a team to champion the intervention and collaborate with administrators and ICU staff .
+
+ppatt:
+	Appoint ?a
+		?a: a team to champion the intervention and collaborate with administrators and ICU staff
+	?a champion ?b
+		?a: a team
+		?b: the intervention
+	collaborate with ?a
+		?a: administrators
+	collaborate with ?a
+		?a: ICU staff
+
+
+label:    sent_12
+sentence: Health care consumers increasingly confront and collaborate with medical providers .
+
+ppatt:
+	?a increasingly confront
+		?a: Health care consumers
+	?a collaborate with ?b
+		?a: Health care consumers
+		?b: medical providers
+
+
+label:    sent_13
+sentence: Children collaborate in interactive dialogues and manipulate personalized props .
+
+ppatt:
+	?a collaborate in ?b
+		?a: Children
+		?b: interactive dialogues
+	?a manipulate ?b
+		?a: Children
+		?b: personalized props
+
+
+label:    sent_14
+sentence: They should therefore actively seek opportunities to collaborate with and influence other sectors .
+
+ppatt:
+	?a should therefore actively seek ?b
+		?a: They
+		?b: opportunities to collaborate with and influence other sectors
+	?a collaborate ?b ?c
+		?a: opportunities
+		?b: with
+		?c: other sectors
+	influence ?a
+		?a: other sectors
+
+
+label:    sent_15
+sentence: Respondents were asked to indicate whether or not they collaborate with health care systems .
+
+ppatt:
+	?a were asked to indicate ?b
+		?a: Respondents
+		?b: SOMETHING := they collaborate with health care systems
+	?a collaborate with ?b
+		?a: they
+		?b: health care systems
+
+
+label:    sent_16
+sentence: Eighty neonatologists from 23 countries were invited to collaborate and participate in the event .
+
+ppatt:
+	?a were invited to collaborate in ?b
+		?a: Eighty neonatologists from 23 countries
+		?b: the event
+	?a were invited to participate
+		?a: Eighty neonatologists from 23 countries
+
+
+label:    sent_17
+sentence: They either had to collaborate or compete with each other .
+
+ppatt:
+	?a either had to collaborate with ?b
+		?a: They
+		?b: each other
+	?a either had to compete
+		?a: They
+
+
+label:    sent_18
+sentence: Scaling up public-private mix : collaborate or regulate ? Stakeholders should collaborate and work together .
+
+ppatt:
+	Scaling up ?a
+		?a: public-private mix
+	?a should collaborate
+		?a: Stakeholders
+	?a work together
+		?a: Stakeholders
+
+
+label:    sent_19
+sentence: The immune system is redundant , and B and T cells collaborate .
+
+ppatt:
+	?a is redundant
+		?a: The immune system
+	?a ?b collaborate
+		?a: B
+		?b: cells
+	?a ?b collaborate
+		?a: T
+		?b: cells
+
+
+label:    sent_20
+sentence: Unconsciously competing goals can collaborate or compromise as well as win or lose .
+
+ppatt:
+	?a can collaborate
+		?a: Unconsciously competing goals
+	?a compromise
+		?a: Unconsciously competing goals
+	?a win
+		?a: Unconsciously competing goals
+	?a lose
+		?a: Unconsciously competing goals
+
+
+label:    sent_21
+sentence: The mechanism by which these oncogenes collaborate is unclear .
+
+ppatt:
+	?a by ?b collaborate
+		?a: The mechanism
+		?b: these oncogenes
+	?a is unclear
+		?a: The mechanism by which these oncogenes collaborate
+
+
+label:    sent_22
+sentence: The mechanism by which BCR components collaborate to initiate signals is still unclear .
+
+ppatt:
+	?a by ?b collaborate to initiate ?c
+		?a: The mechanism
+		?b: BCR components
+		?c: signals
+	?a is still unclear
+		?a: The mechanism by which BCR components collaborate to initiate signals
+
+
+label:    sent_23
+sentence: The degree to which nurses and physicians collaborate greatly impacts patient care .
+
+ppatt:
+	?a to ?b collaborate
+		?a: The degree
+		?b: nurses
+	?a to ?b collaborate
+		?a: The degree
+		?b: physicians
+	?a greatly impacts ?b
+		?a: The degree to which nurses and physicians collaborate
+		?b: patient care
+
+
+label:    sent_24
+sentence: GPs have a deep feeling that hospital staff physicians do not collaborate with them .
+
+ppatt:
+	?a have ?b
+		?a: GPs
+		?b: a deep feeling that hospital staff physicians do not collaborate with them
+	?a do not collaborate with ?b
+		?a: hospital staff physicians
+		?b: them
+
+
+label:    sent_25
+sentence: Do professionals collaborate more within their own organization than with professionals from external organizations ? Physics and biology collaborate to color the world . WHO and WMO collaborate in global air pollution monitoring .
+
+ppatt:
+	Do ?a collaborate more within ?b than with ?c
+		?a: professionals
+		?b: their own organization
+		?c: professionals from external organizations
+	?a collaborate to color ?b
+		?a: Physics
+		?b: the world WHO and WMO collaborate in global air pollution monitoring
+	?a collaborate to color ?b
+		?a: biology
+		?b: the world WHO and WMO collaborate in global air pollution monitoring
+	?a ?b collaborate in ?c
+		?a: the world
+		?b: WHO
+		?c: global air pollution monitoring
+	?a ?b collaborate in ?c
+		?a: the world
+		?b: WMO
+		?c: global air pollution monitoring
+
+

@@ -1,0 +1,326 @@
+label:    sent_1
+sentence: To adapt to the temperature shift , phenotype variations , including virulence , occur .
+
+ppatt:
+	adapt to ?a ?b
+		?a: the temperature shift
+		?b: phenotype variations , including virulence
+	?a occur
+		?a: phenotype variations , including virulence
+
+
+label:    sent_2
+sentence: However , the described protocols for MVF are inadequate to adapt to clinical practice .
+
+ppatt:
+	However , ?a are inadequate to adapt to ?b
+		?a: the described protocols for MVF
+		?b: clinical practice
+
+
+label:    sent_3
+sentence: Wild organisms are under increasing pressure to adapt rapidly to environmental changes .
+
+ppatt:
+	?a are under increasing pressure
+		?a: Wild organisms
+	?a adapt rapidly to ?b
+		?a: increasing pressure
+		?b: environmental changes
+
+
+label:    sent_4
+sentence: Leaf traits in Paphiopedilum helped it adapt to arid and nutrient-poor karst habitats .
+
+ppatt:
+	?a helped ?b
+		?a: Leaf traits in Paphiopedilum
+		?b: SOMETHING := it adapt to arid and nutrient-poor
+	?a adapt to ?b
+		?a: it
+		?b: arid
+	?a adapt to ?b
+		?a: it
+		?b: nutrient-poor
+
+
+label:    sent_5
+sentence: Little is known about how migrants adapt to first-world public health systems .
+
+ppatt:
+	?a is known ?b
+		?a: Little
+		?b: SOMETHING := how migrants adapt to first-world public health systems
+	how ?a adapt to ?b
+		?a: migrants
+		?b: first-world public health systems
+
+
+label:    sent_6
+sentence: The DH6 and DH5 recombinants without introduced mutations did not adapt to culture .
+
+ppatt:
+	?a did not adapt to ?b
+		?a: DH6 without introduced mutations
+		?b: culture
+	?a did not adapt to ?b
+		?a: DH5
+		?b: culture
+
+
+label:    sent_7
+sentence: One child with TB infection developed TB disease due to failure to adapt prophylaxis .
+
+ppatt:
+	?a developed ?b due to ?c
+		?a: One child with TB infection
+		?b: TB disease
+		?c: failure to adapt prophylaxis
+	?a adapt ?b
+		?a: failure
+		?b: prophylaxis
+
+
+label:    sent_8
+sentence: Adaptation of one motor system may be related to the ability to adapt another .
+
+ppatt:
+	?a may be related to ?b
+		?a: Adaptation of one motor system
+		?b: the ability to adapt another
+	?a adapt ?b
+		?a: the ability
+		?b: another
+
+
+label:    sent_9
+sentence: One of these is the application of heat to adapt the implant .
+
+ppatt:
+	?a is the application of ?b
+		?a: One of these
+		?b: heat
+	?a adapt ?b
+		?a: the application of heat
+		?b: the implant
+
+
+label:    sent_10
+sentence: Chandler 's classification gives the opportunity to adapt management to the infection 's gravity .
+
+ppatt:
+	?a gives ?b
+		?a: Chandler 's classification
+		?b: the opportunity to adapt management to the infection 's gravity
+	?a adapt ?b
+		?a: the opportunity
+		?b: management to the infection 's gravity
+
+
+label:    sent_11
+sentence: How to cope with complexity and adapt new scenarios to patient care .
+
+ppatt:
+	How to cope with ?a
+		?a: complexity
+	adapt ?a
+		?a: new scenarios to patient care
+
+
+label:    sent_12
+sentence: We sought to adapt standard electronic monitors to commonly used medication tubes .
+
+ppatt:
+	?a sought to adapt ?b
+		?a: We
+		?b: standard electronic monitors to commonly used medication tubes
+
+
+label:    sent_13
+sentence: Additionally , we adapt 154 previously developed markers to the TaqMan platform .
+
+ppatt:
+	Additionally , ?a adapt ?b to ?c
+		?a: we
+		?b: 154 previously developed markers
+		?c: the TaqMan platform
+
+
+label:    sent_14
+sentence: Coronary microvessels may adapt their structure to various stimuli .
+
+ppatt:
+	?a may adapt ?b
+		?a: Coronary microvessels
+		?b: their structure to various stimuli
+
+
+label:    sent_15
+sentence: These modifications generally adapt the muscle to the new environmental requirements .
+
+ppatt:
+	?a generally adapt ?b to ?c
+		?a: These modifications
+		?b: the muscle
+		?c: the new environmental requirements
+
+
+label:    sent_16
+sentence: The responses were variable but did not consistently adapt over periods of 10 min .
+
+ppatt:
+	?a were variable
+		?a: The responses
+	?a did not consistently adapt over ?b
+		?a: The responses
+		?b: periods of 10 min
+
+
+label:    sent_17
+sentence: Animals need to adapt to these environmental changes and adjust their choices accordingly . Yeast cells are able to tolerate and adapt to a variety of environmental stresses .
+
+ppatt:
+	?a need to adapt to ?b
+		?a: Animals
+		?b: these environmental changes
+	?a adjust ?b accordingly
+		?a: Animals
+		?b: their choices
+	?a are able to tolerate to ?b
+		?a: Yeast cells
+		?b: a variety of environmental stresses
+	?a are able to adapt
+		?a: Yeast cells
+
+
+label:    sent_18
+sentence: Plants adapt their growth and development in response to perceived salt stress .
+
+ppatt:
+	?a adapt ?b in ?c
+		?a: Plants
+		?b: their growth
+		?c: response to perceived salt stress
+	?a adapt ?b in ?c
+		?a: Plants
+		?b: development
+		?c: response to perceived salt stress
+
+
+label:    sent_19
+sentence: Family planning researchers and practitioners could adapt the effective interventions .
+
+ppatt:
+	?a could adapt ?b
+		?a: Family planning researchers
+		?b: the effective interventions
+	?a could adapt ?b
+		?a: practitioners
+		?b: the effective interventions
+
+
+label:    sent_20
+sentence: Radiotherapy departments without 4D CT should adapt scan parameters for internal target volume definition .
+
+ppatt:
+	?a should adapt ?b for ?c
+		?a: Radiotherapy departments without 4D CT
+		?b: scan parameters
+		?c: internal target volume definition
+
+
+label:    sent_21
+sentence: During lag phases microbial cells adapt to their environment and prepare to proliferate .
+
+ppatt:
+	During ?a ?b adapt to ?c
+		?a: lag phases
+		?b: microbial cells
+		?c: their environment
+	?a prepare to proliferate
+		?a: microbial cells
+
+
+label:    sent_22
+sentence: This demands that specialty surgeons adapt to and develop new psychomotor abilities .
+
+ppatt:
+	?a demands ?b
+		?a: This
+		?b: SOMETHING := specialty surgeons adapt to
+	?a adapt ?b
+		?a: specialty surgeons
+		?b: to
+	?a develop ?b
+		?a: specialty surgeons
+		?b: new psychomotor abilities
+
+
+label:    sent_23
+sentence: Neither can adapt to changing circumstances and each has its own benefits and limitations .
+
+ppatt:
+	?a can adapt to ?b
+		?a: Neither
+		?b: changing circumstances
+	?a has ?b
+		?a: each
+		?b: its own benefits
+	?a has ?b
+		?a: each
+		?b: limitations
+
+
+label:    sent_24
+sentence: This article describes how to adapt and apply environmental scanning for remedial residents . Global CO2 emissions : time to mitigate and adapt .
+
+ppatt:
+	?a describes how to adapt ?b
+		?a: This article
+		?b: environmental scanning for remedial residents
+	?a describes to apply
+		?a: This article
+	?a is/are Global CO2 emissions
+		?a: remedial residents
+
+
+label:    sent_25
+sentence: [ Tuberculosis in the area of Lorca : to adapt or resist ] . Food-allergic patients need to be aware of this and adapt their behaviour accordingly .
+
+ppatt:
+	?a adapt ?b
+		?a: Tuberculosis in the area of Lorca
+		?b: ]
+	?a resist
+		?a: Tuberculosis in the area of Lorca
+	?a ?b need to be aware of ?c
+		?a: Tuberculosis in the area of Lorca : to adapt or resist ]
+		?b: Food-allergic patients
+		?c: this
+	?a need to be adapt ?b accordingly
+		?a: Tuberculosis in the area of Lorca : to adapt or resist ]
+		?b: their behaviour
+
+
+label:    sent_26
+sentence: To adapt the QLDS for use in Hungary and to evaluate its psychometric properties .
+
+ppatt:
+	adapt ?a for ?b
+		?a: the QLDS
+		?b: use in Hungary
+	evaluate ?a
+		?a: its psychometric properties
+
+
+label:    sent_27
+sentence: Translate and culturally adapt the RFS into Brazilian Portuguese and test its reliability .
+
+ppatt:
+	culturally adapt ?a into ?b
+		?a: the RFS
+		?b: Brazilian Portuguese
+	test ?a
+		?a: its reliability
+
+

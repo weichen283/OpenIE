@@ -1,0 +1,198 @@
+label:    sent_1
+sentence: Highly complex and specialized care plans sometimes overwhelm the comprehension of patients and families .
+
+ppatt:
+	?a sometimes overwhelm ?b
+		?a: Highly complex and specialized care plans
+		?b: the comprehension of patients and families
+
+
+label:    sent_2
+sentence: Heavy carcinogen exposure may overwhelm some of the genetic effects of MMP polymorphisms .
+
+ppatt:
+	?a may overwhelm ?b
+		?a: Heavy carcinogen exposure
+		?b: some of the genetic effects of MMP polymorphisms
+
+
+label:    sent_3
+sentence: Catastrophic disasters overwhelm the local medical care system .
+
+ppatt:
+	?a overwhelm ?b
+		?a: Catastrophic disasters
+		?b: the local medical care system
+
+
+label:    sent_4
+sentence: The health consequences of this epidemic threaten to overwhelm health-care systems in the region .
+
+ppatt:
+	?a threaten to overwhelm ?b
+		?a: The health consequences of this epidemic
+		?b: health-care systems in the region
+
+
+label:    sent_5
+sentence: Marketing the latest diagnostic technology with hospital design that does n't overwhelm the patient .
+
+ppatt:
+	Marketing ?a
+		?a: the latest diagnostic technology with hospital design that does n't overwhelm the patient
+	?a does n't overwhelm ?b
+		?a: hospital design
+		?b: the patient
+
+
+label:    sent_6
+sentence: Demand for healthcare services threatens to overwhelm the Australian healthcare system .
+
+ppatt:
+	?a threatens to overwhelm ?b
+		?a: Demand for healthcare services
+		?b: the Australian healthcare system
+
+
+label:    sent_7
+sentence: Therefore the toxin dose may overwhelm the pre-existing anti-toxin level and produce disease .
+
+ppatt:
+	Therefore ?a may overwhelm ?b
+		?a: the toxin dose
+		?b: the pre-existing anti-toxin level
+	?a produce ?b
+		?a: the toxin dose
+		?b: disease
+
+
+label:    sent_8
+sentence: High formaldehyde levels can overwhelm normal enzyme detoxification systems and cause DNA damage .
+
+ppatt:
+	?a can overwhelm ?b
+		?a: High formaldehyde levels
+		?b: normal enzyme detoxification systems
+	?a cause ?b
+		?a: High formaldehyde levels
+		?b: DNA damage
+
+
+label:    sent_9
+sentence: Excessive oxidative insults overwhelm their adaptive antioxidant capacity and trigger ROS-mediated cell death . Peptic ulcer develops when offensive factors overwhelm defensive processes in the gastroduodenal mucosa .
+
+ppatt:
+	?a overwhelm ?b
+		?a: Excessive oxidative insults
+		?b: their adaptive antioxidant capacity
+	?a trigger ?b
+		?a: Excessive oxidative insults
+		?b: ROS-mediated cell death
+	?a develops
+		?a: Peptic ulcer
+	when ?a overwhelm ?b
+		?a: offensive factors
+		?b: defensive processes in the gastroduodenal mucosa
+
+
+label:    sent_10
+sentence: We show that orphan MTs overwhelm R-M systems in their occurrence .
+
+ppatt:
+	?a show ?b
+		?a: We
+		?b: SOMETHING := orphan MTs overwhelm R-M systems in their occurrence
+	?a overwhelm ?b in ?c
+		?a: orphan MTs
+		?b: R-M systems
+		?c: their occurrence
+
+
+label:    sent_11
+sentence: In a pandemic , needs for ventilators might overwhelm the limited supply . Co-enrolment did not appear to jeopardise recruitment or overwhelm parents .
+
+ppatt:
+	In ?a , ?b might overwhelm ?c
+		?a: a pandemic
+		?b: needs for ventilators
+		?c: the limited supply
+	?a did not appear to jeopardise ?b
+		?a: Co-enrolment
+		?b: recruitment
+	?a did not appear to overwhelm ?b
+		?a: Co-enrolment
+		?b: parents
+
+
+label:    sent_12
+sentence: Blast injuries are often devastating and can overwhelm medical resources .
+
+ppatt:
+	?a are often devastating
+		?a: Blast injuries
+	?a can overwhelm ?b
+		?a: Blast injuries
+		?b: medical resources
+
+
+label:    sent_13
+sentence: However , these investigations are resource intensive , and frequently overwhelm health department resources .
+
+ppatt:
+	However , ?a are ?b intensive
+		?a: these investigations
+		?b: resource
+	?a frequently overwhelm ?b
+		?a: these investigations
+		?b: health department resources
+
+
+label:    sent_14
+sentence: Problems that the risk of using antiplatelet/anticoagulant may overwhelm its benefits have been raised .
+
+ppatt:
+	Problems ?a ?b
+		?a: Problems that the risk of using antiplatelet/anticoagulant may overwhelm its benefits
+		?b: SOMETHING := the risk of using antiplatelet/anticoagulant may overwhelm its benefits
+	?a using ?b
+		?a: the risk
+		?b: antiplatelet/anticoagulant
+	?a may overwhelm ?b
+		?a: the risk of using antiplatelet/anticoagulant
+		?b: its benefits
+	?a have been raised
+		?a: Problems that the risk of using antiplatelet/anticoagulant may overwhelm its benefits
+
+
+label:    sent_15
+sentence: The self- and cross-disproportionations overwhelm the water-independent self-disproportionation and the formaldehyde decarbonylation .
+
+ppatt:
+	?a overwhelm ?b
+		?a: The self-
+		?b: the water-independent self-disproportionation
+	?a overwhelm ?b
+		?a: cross-disproportionations
+		?b: the water-independent self-disproportionation
+	?a overwhelm ?b
+		?a: The self-
+		?b: the formaldehyde decarbonylation
+	?a overwhelm ?b
+		?a: cross-disproportionations
+		?b: the formaldehyde decarbonylation
+
+
+label:    sent_16
+sentence: " When tasks overwhelm , the human touch will be missing " . Four steps to beating overwhelm .
+
+ppatt:
+	When ?a overwhelm
+		?a: tasks
+	" , ?a will be missing ?b ?c
+		?a: the human touch
+		?b: "
+		?c: Four steps
+	?a beating overwhelm
+		?a: the human touch
+
+

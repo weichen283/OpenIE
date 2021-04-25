@@ -1,0 +1,143 @@
+label:    sent_1
+sentence: Plasmodium falciparum malaria elicits inflammatory responses that dysregulate placental amino acid transport .
+
+ppatt:
+	?a elicits ?b
+		?a: Plasmodium falciparum malaria
+		?b: inflammatory responses that dysregulate placental amino acid transport
+	?a dysregulate ?b
+		?a: inflammatory responses
+		?b: placental amino acid transport
+
+
+label:    sent_2
+sentence: Interferon gamma and sonic hedgehog signaling are required to dysregulate murine neural stem/precursor cells .
+
+ppatt:
+	?a are required to dysregulate ?b
+		?a: Interferon gamma
+		?b: murine neural stem/precursor cells
+	?a are required to dysregulate ?b
+		?a: sonic hedgehog signaling
+		?b: murine neural stem/precursor cells
+
+
+label:    sent_3
+sentence: Psychological stress has been shown to dysregulate healing in both humans and animals . Mast cells dysregulate apoptotic and cell cycle genes in mucosal squamous cell carcinoma .
+
+ppatt:
+	?a has been shown to dysregulate ?b
+		?a: Psychological stress
+		?b: healing in both humans and animals
+	?a dysregulate ?b in ?c
+		?a: Mast cells
+		?b: apoptotic
+		?c: mucosal squamous cell carcinoma
+	?a dysregulate ?b in ?c
+		?a: Mast cells
+		?b: cell
+		?c: mucosal squamous cell carcinoma
+
+
+label:    sent_4
+sentence: These chromosomal translocations commonly result in MLL fusion proteins that dysregulate transcription .
+
+ppatt:
+	?a commonly result in ?b
+		?a: These chromosomal translocations
+		?b: MLL fusion proteins that dysregulate transcription
+	?a dysregulate ?b
+		?a: MLL fusion proteins
+		?b: transcription
+
+
+label:    sent_5
+sentence: Thus , they can dysregulate the hypothalamic-pituitary-gonadal axis potentially affecting human puberty timing . Trans-10 , cis-12-CLA dysregulate lipid and glucose metabolism and induce hepatic NR4A receptors .
+
+ppatt:
+	Thus , ?a can dysregulate ?b
+		?a: they
+		?b: the hypothalamic-pituitary-gonadal axis potentially affecting human puberty timing . Trans-10 , cis-12-CLA dysregulate lipid and glucose metabolism
+	?a potentially affecting ?b
+		?a: the hypothalamic-pituitary-gonadal axis
+		?b: human puberty timing
+	?a potentially affecting ?b
+		?a: the hypothalamic-pituitary-gonadal axis
+		?b: Trans-10
+	?a induce ?b
+		?a: they
+		?b: hepatic NR4A receptors
+
+
+label:    sent_6
+sentence: Alterations on DNAs may dysregulate gene expressions and drive malignancy of tumors . HIV-1 may dysregulate B cells toward Bregs as an immune evasion strategy .
+
+ppatt:
+	?a may dysregulate ?b
+		?a: Alterations on DNAs
+		?b: gene expressions
+	?a drive ?b
+		?a: Alterations on DNAs
+		?b: malignancy of tumors
+	?a may dysregulate ?b toward ?c as ?d
+		?a: HIV-1
+		?b: B cells
+		?c: Bregs
+		?d: an immune evasion strategy
+
+
+label:    sent_7
+sentence: These results suggest that HIV may dysregulate endothelial barrier through the effects of Tat-1 .
+
+ppatt:
+	?a suggest ?b
+		?a: These results
+		?b: SOMETHING := HIV may dysregulate endothelial barrier through the effects of Tat-1
+	?a may dysregulate ?b through ?c
+		?a: HIV
+		?b: endothelial barrier
+		?c: the effects of Tat-1
+
+
+label:    sent_8
+sentence: We demonstrate that germline KLLN variants dysregulate the cell cycle at G2 .
+
+ppatt:
+	?a demonstrate ?b
+		?a: We
+		?b: SOMETHING := germline KLLN variants dysregulate the cell cycle at G2
+	?a dysregulate ?b at ?c
+		?a: germline KLLN variants
+		?b: the cell cycle
+		?c: G2
+
+
+label:    sent_9
+sentence: AKT collaborates with ERG and Gata1s to dysregulate megakaryopoiesis and promote AMKL .
+
+ppatt:
+	?a collaborates with ?b to dysregulate ?c
+		?a: AKT
+		?b: ERG
+		?c: megakaryopoiesis
+	?a collaborates with ?b to dysregulate ?c
+		?a: AKT
+		?b: Gata1s
+		?c: megakaryopoiesis
+	?a collaborates to promote ?b
+		?a: AKT
+		?b: AMKL
+
+
+label:    sent_10
+sentence: Genetics and the environment converge to dysregulate N-glycosylation in multiple sclerosis .
+
+ppatt:
+	?a converge to ?b
+		?a: Genetics
+		?b: dysregulate N-glycosylation in multiple sclerosis
+	?a converge to ?b
+		?a: the environment
+		?b: dysregulate N-glycosylation in multiple sclerosis
+
+

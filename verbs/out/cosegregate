@@ -1,0 +1,117 @@
+label:    sent_1
+sentence: However , these three changes did not cosegregate with the disease phenotype .
+
+ppatt:
+	However , ?a did not cosegregate with ?b
+		?a: these three changes
+		?b: the disease phenotype
+
+
+label:    sent_2
+sentence: The two disorders did not cosegregate in families . All mutations cosegregate with the clinical phenotype of Alport syndrome in affected family members .
+
+ppatt:
+	?a did not cosegregate in ?b
+		?a: The two disorders
+		?b: families
+	?a cosegregate with ?b
+		?a: All mutations
+		?b: the clinical phenotype of Alport syndrome in affected family members
+
+
+label:    sent_3
+sentence: This mutation was confirmed to cosegregate with the DA phenotype in affected individuals .
+
+ppatt:
+	?a was confirmed to cosegregate with ?b
+		?a: This mutation
+		?b: the DA phenotype in affected individuals
+
+
+label:    sent_4
+sentence: In each family the mutation was seen to cosegregate with the disease .
+
+ppatt:
+	In ?a ?b was seen to cosegregate with ?c
+		?a: each family
+		?b: the mutation
+		?c: the disease
+
+
+label:    sent_5
+sentence: The mutation was found to cosegregate with the disorder in the family .
+
+ppatt:
+	?a was found to cosegregate with ?b
+		?a: The mutation
+		?b: the disorder in the family
+
+
+label:    sent_6
+sentence: Psychiatric morbidity was common in the extended pedigree but did not cosegregate with epilepsy .
+
+ppatt:
+	?a was common in ?b
+		?a: Psychiatric morbidity
+		?b: the extended pedigree
+	?a did not cosegregate with ?b
+		?a: Psychiatric morbidity
+		?b: epilepsy
+
+
+label:    sent_7
+sentence: The 10 polymorphic sites cosegregate forming two haplotypes .
+
+ppatt:
+	?a cosegregate forming ?b
+		?a: The 10 polymorphic sites
+		?b: two haplotypes
+
+
+label:    sent_8
+sentence: Soybean seed lustre phenotype and surface protein cosegregate and map to linkage group E . Val104-to-ile does not cosegregate and is therefore unlikely to be related to retinal disease .
+
+ppatt:
+	?a does not cosegregate
+		?a: Soybean seed lustre phenotype
+	?a does not cosegregate
+		?a: protein
+	?a does not cosegregate
+		?a: surface cosegregate
+	?a does not cosegregate
+		?a: map
+	?a does not cosegregate
+		?a: linkage group E . Val104-to-ile
+	be related to ?a
+		?a: retinal disease
+
+
+label:    sent_9
+sentence: We describe a three-generation family in which TS and dystonias cosegregate .
+
+ppatt:
+	?a describe ?b
+		?a: We
+		?b: a three-generation family in which TS and dystonias cosegregate
+	?a in ?b cosegregate
+		?a: a three-generation family
+		?b: TS
+	?a in ?b cosegregate
+		?a: a three-generation family
+		?b: dystonias
+
+
+label:    sent_10
+sentence: Two larger families cosegregate lymphedema and GJC2 mutation ( LOD score = 6.5 ) .
+
+ppatt:
+	?a cosegregate ?b
+		?a: Two larger families
+		?b: lymphedema
+	?a cosegregate ?b
+		?a: Two larger families
+		?b: GJC2 mutation
+	= ?a
+		?a: 6.5
+
+

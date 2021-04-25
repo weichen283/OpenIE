@@ -1,0 +1,317 @@
+label:    sent_1
+sentence: Under select conditions , subventricular zone progenitors may be mobilized to replace lost neurons . HPV self-sampling has the potential to replace physician/nurse sampling .
+
+ppatt:
+	Under ?a , ?b may be mobilized to replace ?c
+		?a: select conditions
+		?b: subventricular zone progenitors
+		?c: lost neurons
+	?a has ?b
+		?a: HPV self-sampling
+		?b: the potential to replace physician/nurse sampling
+	?a replace ?b
+		?a: the potential
+		?b: physician/nurse sampling
+
+
+label:    sent_2
+sentence: Dermal substitutes are intended to replace damaged dermal tissue in severe burn injuries .
+
+ppatt:
+	?a are intended to replace ?b in ?c
+		?a: Dermal substitutes
+		?b: damaged dermal tissue
+		?c: severe burn injuries
+
+
+label:    sent_3
+sentence: If this approach fails , replace quetiapine by low-dose clozapine .
+
+ppatt:
+	?a fails , replace ?b by ?c
+		?a: this approach
+		?b: quetiapine
+		?c: low-dose clozapine
+
+
+label:    sent_4
+sentence: Propranolol is likely to replace steroid as the first-line treatment for problematic proliferating haemangioma .
+
+ppatt:
+	?a is likely to replace ?b as ?c
+		?a: Propranolol
+		?b: steroid
+		?c: the first-line treatment for problematic proliferating haemangioma
+
+
+label:    sent_5
+sentence: There is a strong demand to replace natural heparin with a synthetic counterpart .
+
+ppatt:
+	There is ?a
+		?a: a strong demand to replace natural heparin with a synthetic counterpart
+	?a replace ?b with ?c
+		?a: a strong demand
+		?b: natural heparin
+		?c: a synthetic counterpart
+
+
+label:    sent_6
+sentence: In the future , after further improvements it may replace invasive X-ray imaging .
+
+ppatt:
+	In ?a , after ?b ?c may replace ?d
+		?a: the future
+		?b: further improvements
+		?c: it
+		?d: invasive X-ray imaging
+
+
+label:    sent_7
+sentence: Terbutaline study doses can replace routine salbutamol during these studies when patients are studied .
+
+ppatt:
+	?a can replace ?b during ?c
+		?a: Terbutaline study doses
+		?b: routine salbutamol
+		?c: these studies
+	when ?a are studied
+		?a: patients
+
+
+label:    sent_8
+sentence: Milk DR : R may replace serum measurements during lactation .
+
+ppatt:
+	?a ?b may replace ?c during ?d
+		?a: Milk DR
+		?b: R
+		?c: serum measurements
+		?d: lactation
+
+
+label:    sent_9
+sentence: [82 Rubidium PET to replace myocardial scintigraphy ] . Thus , it can replace the conventional electrical heat digestion method . G ' ST and D do not replace FST .
+
+ppatt:
+	?a replace ?b
+		?a: [82 Rubidium PET
+		?b: myocardial scintigraphy ]
+	?a Thus , ?b can replace ?c
+		?a: [82 Rubidium PET to replace myocardial scintigraphy ]
+		?b: it
+		?c: the conventional electrical heat digestion method
+	' ?a do not replace ?b
+		?a: G ST
+		?b: FST
+	' ?a do not replace ?b
+		?a: D
+		?b: FST
+
+
+label:    sent_10
+sentence: NGO regulatory impact can complement but should not replace state action .
+
+ppatt:
+	?a can complement
+		?a: NGO regulatory impact
+	?a should not replace ?b
+		?a: NGO regulatory impact
+		?b: state action
+
+
+label:    sent_11
+sentence: Activated charcoal adsorbs colchicine but does not replace gastric lavage .
+
+ppatt:
+	?a adsorbs ?b
+		?a: Activated charcoal
+		?b: colchicine
+	?a does not replace ?b
+		?a: Activated charcoal
+		?b: gastric lavage
+
+
+label:    sent_12
+sentence: Accompanying osteoclasts start to resorb the bone trabeculae and gradually replace the bone .
+
+ppatt:
+	Accompanying ?a
+		?a: osteoclasts
+	?a start to resorb ?b
+		?a: SOMETHING := Accompanying osteoclasts
+		?b: the bone trabeculae
+	?a gradually replace ?b
+		?a: Accompanying osteoclasts
+		?b: the bone
+
+
+label:    sent_13
+sentence: It is unknown whether clonidine can effectively replace opioids and cause fewer side effects .
+
+ppatt:
+	?a is unknown ?b
+		?a: It
+		?b: SOMETHING := clonidine can effectively replace opioids
+	?a can effectively replace ?b
+		?a: clonidine
+		?b: opioids
+	?a cause ?b
+		?a: clonidine
+		?b: fewer side effects
+
+
+label:    sent_14
+sentence: Implantable devices to repair or replace the mitral valve off-pump and percutaneously are emerging .
+
+ppatt:
+	?a repair ?b
+		?a: Implantable devices
+		?b: the mitral valve off-pump
+	replace ?a
+		?a: the mitral valve off-pump
+	?a percutaneously are emerging
+		?a: the mitral valve off-pump
+
+
+label:    sent_15
+sentence: Cysteine could not replace glutathione , nor could glutathione S-transferase replace glutathione peroxidase .
+
+ppatt:
+	?a could not replace ?b
+		?a: Cysteine
+		?b: glutathione
+	could ?a replace ?b
+		?a: glutathione S-transferase
+		?b: glutathione peroxidase
+
+
+label:    sent_16
+sentence: Glutamine is effective in culturing anthers and can replace potato extract in the medium .
+
+ppatt:
+	?a is effective
+		?a: Glutamine
+	?a culturing ?b
+		?a: Glutamine
+		?b: anthers
+	?a can replace ?b in ?c
+		?a: Glutamine
+		?b: potato extract
+		?c: the medium
+
+
+label:    sent_17
+sentence: The cytologic alterations are unique and can replace the invasive procedure such as biopsy .
+
+ppatt:
+	?a are unique
+		?a: The cytologic alterations
+	?a can replace ?b
+		?a: The cytologic alterations
+		?b: the invasive procedure such as biopsy
+
+
+label:    sent_18
+sentence: It is accurate and might replace ERCP for diagnosis .
+
+ppatt:
+	?a is accurate
+		?a: It
+	?a might replace ?b for ?c
+		?a: It
+		?b: ERCP
+		?c: diagnosis
+
+
+label:    sent_19
+sentence: External lithium could replace sodium on the exchanger but abolished the differences between strains .
+
+ppatt:
+	?a could replace ?b on ?c
+		?a: External lithium
+		?b: sodium
+		?c: the exchanger
+	?a abolished ?b
+		?a: External lithium
+		?b: the differences between strains
+
+
+label:    sent_20
+sentence: This system could replace the more invasive catheterisation , and with excellent accuracy . Fat can replace larger volumes than off-the-shelf fillers and provides a potentially permanent solution .
+
+ppatt:
+	?a could replace ?b
+		?a: This system
+		?b: the more invasive catheterisation
+	with ?a . ?b can replace ?c than ?d
+		?a: excellent accuracy
+		?b: Fat
+		?c: larger volumes
+		?d: off-the-shelf fillers
+	?a provides ?b
+		?a: Fat
+		?b: a potentially permanent solution
+
+
+label:    sent_21
+sentence: Shock lead impedance alert : replace or reconsider ? Regenerative medicine will impact , but not replace , the medical device industry .
+
+ppatt:
+	?a lead ?b
+		?a: Shock
+		?b: impedance alert
+	?a will impact ?b
+		?a: Regenerative medicine
+		?b: the medical device industry
+	?a not replace
+		?a: Regenerative medicine
+
+
+label:    sent_22
+sentence: We discuss the potential of these approaches to replace or augment current screening .
+
+ppatt:
+	?a discuss ?b
+		?a: We
+		?b: the potential of these approaches to replace or augment current screening
+	?a replace ?b
+		?a: the potential of these approaches
+		?b: current screening
+	augment ?a
+		?a: current screening
+
+
+label:    sent_23
+sentence: Thus , HP1575 can functionally replace HP0770 ( CC ) in this background .
+
+ppatt:
+	Thus , ?a can functionally replace ?b in ?c
+		?a: HP1575
+		?b: HP0770
+		?c: this background
+	?a is/are CC
+		?a: HP0770
+
+
+label:    sent_24
+sentence: Is able to replace vma2 in a yeast null mutant .
+
+ppatt:
+	Is able to replace ?a in ?b
+		?a: vma2
+		?b: a yeast null mutant
+
+
+label:    sent_25
+sentence: They could be excellent candidates to replace Pd-organophosphanes for C-S coupling catalysis .
+
+ppatt:
+	?a could be excellent candidates
+		?a: They
+	?a replace ?b for ?c
+		?a: excellent candidates
+		?b: Pd-organophosphanes
+		?c: C-S coupling catalysis
+
+

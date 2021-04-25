@@ -1,0 +1,93 @@
+label:    sent_1
+sentence: Phospholipase activity II was found to deacylate specifically the 2-acyl moiety of phospholipids .
+
+ppatt:
+	?a was found to deacylate specifically ?b
+		?a: Phospholipase activity II
+		?b: the 2-acyl moiety of phospholipids
+
+
+label:    sent_2
+sentence: Ceramidases deacylate ceramides , important intermediates in the metabolic pathway of sphingolipids . AOAH can then be used by the recipient cells to deacylate LPS .
+
+ppatt:
+	?a deacylate ?b
+		?a: Ceramidases
+		?b: ceramides
+	?a is/are important intermediates in ?b
+		?a: ceramides
+		?b: the metabolic pathway of sphingolipids
+	?a can then be used by ?b to deacylate ?c
+		?a: AOAH
+		?b: the recipient cells
+		?c: LPS
+
+
+label:    sent_3
+sentence: Lysosomal enzymes can also totally deacylate phosphatidylinositol , producing glycerophosphorylinositol .
+
+ppatt:
+	?a can also totally deacylate ?b
+		?a: Lysosomal enzymes
+		?b: phosphatidylinositol
+	?a producing ?b
+		?a: Lysosomal enzymes
+		?b: glycerophosphorylinositol
+
+
+label:    sent_4
+sentence: Only two of five purified esterases from rat liver endoplasmic reticulum deacylate TPA .
+
+ppatt:
+	?a deacylate ?b
+		?a: Only two of five purified esterases from rat liver endoplasmic reticulum
+		?b: TPA
+
+
+label:    sent_5
+sentence: However , enzymes R233Q , R233A , and D52A did not deacylate Met-tRNA .
+
+ppatt:
+	However , ?a did not deacylate ?b
+		?a: enzymes
+		?b: Met-tRNA
+
+
+label:    sent_6
+sentence: It is concluded that animal tissues deacylate SQDG in a stepwise manner to SQG .
+
+ppatt:
+	?a is concluded ?b
+		?a: It
+		?b: SOMETHING := animal tissues deacylate SQDG in a stepwise manner to SQG
+	?a deacylate ?b in ?c to ?d
+		?a: animal tissues
+		?b: SQDG
+		?c: a stepwise manner
+		?d: SQG
+
+
+label:    sent_7
+sentence: In contrast , ValRS can deacylate non-cognate amino acids from the 2'-OH .
+
+ppatt:
+	In ?a , ?b can deacylate ?c
+		?a: contrast
+		?b: ValRS
+		?c: non-cognate amino acids from the 2'-OH
+
+
+label:    sent_8
+sentence: The human enzyme was found to deacylate phospholipids and lysophospholipids at different rates .
+
+ppatt:
+	?a was found to deacylate ?b at ?c
+		?a: The human enzyme
+		?b: phospholipids
+		?c: different rates
+	?a was found to deacylate ?b at ?c
+		?a: The human enzyme
+		?b: lysophospholipids
+		?c: different rates
+
+

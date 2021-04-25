@@ -1,0 +1,335 @@
+label:    sent_1
+sentence: Furthermore , the ability to acquire high-quality pCLE images is also quickly learned .
+
+ppatt:
+	?a acquire ?b
+		?a: the ability
+		?b: high-quality pCLE images
+	Furthermore , ?a is also quickly learned
+		?a: the ability to acquire high-quality pCLE images
+
+
+label:    sent_2
+sentence: The purpose of the study was to acquire research-based knowledge to improve practice .
+
+ppatt:
+	?a was to acquire ?b
+		?a: The purpose of the study
+		?b: research-based knowledge to improve practice
+	?a improve ?b
+		?a: research-based knowledge
+		?b: practice
+
+
+label:    sent_3
+sentence: However , whether or not tether cells acquire hair bundles and mechanosensitivity remains unknown .
+
+ppatt:
+	However , whether ?a acquire ?b
+		?a: tether cells
+		?b: hair bundles
+	?a remains unknown
+		?a: mechanosensitivity
+
+
+label:    sent_4
+sentence: How receptive endings acquire their remodeled shapes is not well understood . NSCLC drug targets acquire new visibility .
+
+ppatt:
+	How ?a acquire ?b
+		?a: receptive endings
+		?b: their remodeled shapes
+	?a acquire ?b
+		?a: NSCLC drug targets
+		?b: new visibility
+
+
+label:    sent_5
+sentence: Thus , hiPS cells acquire genetic modifications in addition to epigenetic modifications .
+
+ppatt:
+	Thus , ?a acquire ?b in ?c
+		?a: hiPS cells
+		?b: genetic modifications
+		?c: addition to epigenetic modifications
+
+
+label:    sent_6
+sentence: Field reports suggest that orangutans acquire local traditions by observing neighbouring conspecifics .
+
+ppatt:
+	?a suggest ?b
+		?a: Field reports
+		?b: SOMETHING := orangutans acquire local traditions by observing neighbouring conspecifics
+	?a acquire ?b
+		?a: orangutans
+		?b: local traditions
+	?a observing ?b
+		?a: orangutans
+		?b: neighbouring conspecifics
+
+
+label:    sent_7
+sentence: This haem auxotroph must acquire haem from its host to sustain aerobic growth .
+
+ppatt:
+	?a must acquire ?b from ?c to sustain ?d
+		?a: This haem auxotroph
+		?b: haem
+		?c: its host
+		?d: aerobic growth
+
+
+label:    sent_8
+sentence: After infections during pregnancy women acquire immunity to PM conferred by antibodies against VAR2CSA .
+
+ppatt:
+	After ?a acquire ?b
+		?a: infections during pregnancy women
+		?b: immunity to PM conferred by antibodies against VAR2CSA
+	?a conferred by ?b
+		?a: PM
+		?b: antibodies against VAR2CSA
+
+
+label:    sent_9
+sentence: Tip enhancement was sufficient to acquire useful Raman spectra in 50-100 ms . Pseudogenes have been shown to acquire unique regulatory roles from more and more organisms .
+
+ppatt:
+	?a was sufficient to acquire ?b in ?c
+		?a: Tip enhancement
+		?b: useful Raman spectra
+		?c: 50-100 ms
+	?a have been shown to acquire ?b from ?c
+		?a: Pseudogenes
+		?b: unique regulatory roles
+		?c: more and more organisms
+
+
+label:    sent_10
+sentence: Humans reach to and acquire objects by transforming visual targets into action commands .
+
+ppatt:
+	?a reach ?b ?c
+		?a: Humans
+		?b: to
+		?c: objects
+	?a acquire
+		?a: Humans
+	?a transforming ?b into ?c
+		?a: Humans
+		?b: visual targets
+		?c: action commands
+
+
+label:    sent_11
+sentence: In cell senescence , cultured cells cease proliferating and acquire aberrant gene expression patterns .
+
+ppatt:
+	In ?a , ?b cease ?c
+		?a: cell senescence
+		?b: cultured cells
+		?c: proliferating
+	?a acquire ?b
+		?a: cultured cells
+		?b: aberrant gene expression patterns
+
+
+label:    sent_12
+sentence: It should be possible to analyze previous recordings and acquire additional recordings simultaneously .
+
+ppatt:
+	?a should be possible to analyze ?b
+		?a: It
+		?b: previous recordings
+	?a should be possible to acquire ?b simultaneously
+		?a: It
+		?b: additional recordings
+
+
+label:    sent_13
+sentence: Such cells subsequently differentiate and acquire the properties of inflammatory macrophages .
+
+ppatt:
+	?a subsequently differentiate
+		?a: Such cells
+	?a acquire ?b
+		?a: Such cells
+		?b: the properties of inflammatory macrophages
+
+
+label:    sent_14
+sentence: Organisms must acquire iron but must protect against oxidative damage .
+
+ppatt:
+	?a must acquire ?b
+		?a: Organisms
+		?b: iron
+	?a must protect against ?b
+		?a: Organisms
+		?b: oxidative damage
+
+
+label:    sent_15
+sentence: NSPCs thus acquire an immature morphology and display markers for both neurons and glia .
+
+ppatt:
+	?a thus acquire ?b
+		?a: NSPCs
+		?b: an immature morphology
+	?a display ?b
+		?a: NSPCs
+		?b: markers for both neurons and glia
+
+
+label:    sent_16
+sentence: Only when stimulated , the naive cells acquire pathogenic capacity and induce ocular inflammation .
+
+ppatt:
+	Only when stimulated ?a
+		?a: the naive cells
+	?a acquire ?b
+		?a: the naive cells
+		?b: pathogenic capacity
+	?a induce ?b
+		?a: the naive cells
+		?b: ocular inflammation
+
+
+label:    sent_17
+sentence: In these low-lying areas people acquire substantial antimalarial immunity and most infections are asymptomatic .
+
+ppatt:
+	In ?a ?b acquire ?c
+		?a: these low-lying areas
+		?b: people
+		?c: substantial antimalarial immunity
+	?a are asymptomatic
+		?a: most infections
+
+
+label:    sent_18
+sentence: Most HIV-infected children acquire HIV in utero , during birth , or after birth . Further , they acquire images rapidly and with low-level illumination .
+
+ppatt:
+	?a acquire ?b in ?c , during ?d , after ?e
+		?a: Most HIV-infected children
+		?b: HIV
+		?c: utero
+		?d: birth
+		?e: birth
+	Further , ?a acquire ?b rapidly and with low-level illumination
+		?a: they
+		?b: images
+
+
+label:    sent_19
+sentence: Next , an experiment carried out to acquire and display 3D images is described .
+
+ppatt:
+	?a carried out to acquire ?b
+		?a: an experiment
+		?b: 3D images
+	?a carried out to display
+		?a: an experiment
+	Next , ?a is described
+		?a: an experiment carried out to acquire and display 3D images
+
+
+label:    sent_20
+sentence: These cells become numerous in the ensuing weeks and gradually acquire large melanophagosomes .
+
+ppatt:
+	?a become numerous in ?b
+		?a: These cells
+		?b: the ensuing weeks
+	?a gradually acquire ?b
+		?a: These cells
+		?b: large melanophagosomes
+
+
+label:    sent_21
+sentence: A general strategy and some tactics are presented to acquire and maintain behavioral skills .
+
+ppatt:
+	?a are presented to acquire ?b
+		?a: A general strategy
+		?b: behavioral skills
+	?a are presented to acquire ?b
+		?a: some tactics
+		?b: behavioral skills
+	?a are presented to maintain
+		?a: A general strategy
+	?a are presented to maintain
+		?a: some tactics
+
+
+label:    sent_22
+sentence: Does the manner in which people acquire information affect their choices ? Physicians are required to act reasonably in accordance with the information that they acquire .
+
+ppatt:
+	Does ?a
+		?a: the manner in which people acquire information affect their choices
+	?a in ?b acquire ?c
+		?a: the manner affect their choices
+		?b: people
+		?c: information
+	?a affect ?b
+		?a: the manner in which people acquire information
+		?b: their choices
+	?a are required to act reasonably in ?b with ?c
+		?a: Physicians
+		?b: accordance
+		?c: the information that they acquire
+	?a acquire
+		?a: they
+
+
+label:    sent_23
+sentence: The molecular mechanisms by which vascular tissues acquire their identities are largely unknown .
+
+ppatt:
+	?a by ?b acquire ?c
+		?a: The molecular mechanisms
+		?b: vascular tissues
+		?c: their identities
+	?a are largely unknown
+		?a: The molecular mechanisms by which vascular tissues acquire their identities
+
+
+label:    sent_24
+sentence: Affected cats are usually adult and acquire the parasite by feeding on infected lizards .
+
+ppatt:
+	?a are usually adult
+		?a: Affected cats
+	?a acquire ?b by ?c
+		?a: Affected cats
+		?b: the parasite
+		?c: feeding on infected lizards
+
+
+label:    sent_25
+sentence: Thus , A. phagocytophilum needs to usurp and acquire various compounds from its host .
+
+ppatt:
+	Thus , ?a needs to usurp ?b
+		?a: A. phagocytophilum
+		?b: various compounds from its host
+	Thus , ?a needs to acquire
+		?a: A. phagocytophilum
+
+
+label:    sent_26
+sentence: Many of these cancers are intrinsically resistant to tamoxifen or acquire resistance during treatment .
+
+ppatt:
+	?a are intrinsically resistant to ?b
+		?a: Many of these cancers
+		?b: tamoxifen
+	?a acquire ?b during ?c
+		?a: Many of these cancers
+		?b: resistance
+		?c: treatment
+
+

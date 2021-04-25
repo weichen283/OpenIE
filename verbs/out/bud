@@ -1,0 +1,245 @@
+label:    sent_1
+sentence: In contrast to many well-studied enveloped viruses that assemble and bud at the plasma membrane , coronaviruses assemble by budding into the lumen of the endoplasmic reticulum-Golgi intermediate compartment and are released from the cell by exocytosis .
+
+ppatt:
+	?a assemble at ?b
+		?a: many well-studied enveloped viruses
+		?b: the plasma membrane
+	In to ?a , ?b assemble
+		?a: many well-studied enveloped viruses that assemble and bud at the plasma membrane
+		?b: coronaviruses
+	?a budding into ?b
+		?a: coronaviruses
+		?b: the lumen of the endoplasmic reticulum-Golgi intermediate compartment
+	?a are released from ?b by ?c
+		?a: coronaviruses
+		?b: the cell
+		?c: exocytosis
+
+
+label:    sent_2
+sentence: In general , gammaretroviruses are produced as immature viral particles by accumulation of the Gag polyproteins at the plasma membrane , which subsequently bud from the cell surface .
+
+ppatt:
+	In ?a , ?b are produced as ?c by ?d
+		?a: general
+		?b: gammaretroviruses
+		?c: immature viral particles
+		?d: accumulation of the Gag polyproteins at the plasma membrane , which subsequently bud from the cell surface
+	?a subsequently bud from ?b
+		?a: the plasma membrane
+		?b: the cell surface
+
+
+label:    sent_3
+sentence: Based on quantitative RT-PCR and in situ hybridization , branching morphogenesis at E15.5 in the Lgr4 ( -/- ) was arrested earlier , and both DBA-lectin staining and immunohistochemical analysis using Aqp3 antibodies showed that the ureteric bud ( UB ) of Lgr4 ( -/- ) kidneys underwent premature differentiation .
+
+ppatt:
+	Based on quantitative RT-PCR ?a
+		?a: branching morphogenesis at E15.5 in the Lgr4
+	in hybridization ?a
+		?a: branching morphogenesis at E15.5 in the Lgr4
+	?a was arrested earlier
+		?a: branching morphogenesis at E15.5 in the Lgr4
+	?a using ?b
+		?a: DBA-lectin staining
+		?b: Aqp3 antibodies
+	?a using ?b
+		?a: immunohistochemical analysis
+		?b: Aqp3 antibodies
+	?a showed ?b
+		?a: DBA-lectin staining using Aqp3 antibodies
+		?b: SOMETHING := the ureteric bud of Lgr4 kidneys underwent premature differentiation
+	?a showed ?b
+		?a: immunohistochemical analysis
+		?b: SOMETHING := the ureteric bud of Lgr4 kidneys underwent premature differentiation
+	?a is/are UB
+		?a: the ureteric bud of Lgr4 kidneys
+	?a underwent ?b
+		?a: the ureteric bud of Lgr4 kidneys
+		?b: premature differentiation
+
+
+label:    sent_4
+sentence: The Sec23p / Sec24p coat complex sorts the fusion machinery ( SNAREs ) into vesicles as they bud from the endoplasmic reticulum ( ER ) .
+
+ppatt:
+	?a sorts ?b into ?c
+		?a: The Sec23p / Sec24p coat complex
+		?b: the fusion machinery
+		?c: vesicles
+	?a is/are SNAREs
+		?a: the fusion machinery
+	?a bud from ?b
+		?a: they
+		?b: the endoplasmic reticulum
+	?a is/are ER
+		?a: the endoplasmic reticulum
+
+
+label:    sent_5
+sentence: These virus-like particles bud from cells like native virus , are similar in size to the native virus , and can enter cells to release the contents of the core-like particle into the cytoplasm of the cell .
+
+ppatt:
+	?a are similar in ?b
+		?a: These virus-like particles bud from cells like native virus
+		?b: size to the native virus
+	?a can enter ?b to release ?c
+		?a: These virus-like particles bud from cells like native virus
+		?b: cells
+		?c: the contents of the core-like particle into the cytoplasm of the cell
+
+
+label:    sent_6
+sentence: On raffinose , the mutant cells can bud and divide but in each cycle there is a chance that a cell will fail to divide ( telophase arrest ) , causing it to exit the cell cycle .
+
+ppatt:
+	On ?a , ?b can bud
+		?a: raffinose
+		?b: the mutant cells
+	?a divide in ?b
+		?a: the mutant cells
+		?b: each cycle
+	there is ?a
+		?a: a chance that a cell will fail to divide ( telophase arrest , causing it to exit the cell cycle
+	?a will fail to divide ?b , causing ?c to exit ?d
+		?a: a cell
+		?b: telophase arrest
+		?c: it
+		?d: the cell cycle
+
+
+label:    sent_7
+sentence: Besides the mesenchyme cells , the epithelial ureteric bud and more mature ureteric bud derivatives in the medulla and the papilla tip express the Dkk1 gene .
+
+ppatt:
+	Besides ?a , ?b express ?c
+		?a: the mesenchyme cells
+		?b: the epithelial ureteric bud in the medulla and the papilla tip
+		?c: the Dkk1 gene
+	Besides ?a , ?b express ?c
+		?a: the mesenchyme cells
+		?b: more mature ureteric bud derivatives
+		?c: the Dkk1 gene
+
+
+label:    sent_8
+sentence: In six patients with retrovesical complex formations ( suspicious for an ectopic cystic renal bud or a cystic genital structure ) the 3D-CISS showed increased conspicuity scores for image quality .
+
+ppatt:
+	In ?a ?b showed ?c
+		?a: six patients with retrovesical complex formations
+		?b: the 3D-CISS
+		?c: increased conspicuity scores for image quality
+
+
+label:    sent_9
+sentence: Half of the rats were killed on day 35 to analyze the terminal end bud ( TEB ) , terminal duct ( TD ) and alveolar bud ( AB ) of the mammary tissue .
+
+ppatt:
+	?a were killed on ?b to analyze ?c
+		?a: Half of the rats
+		?b: day 35
+		?c: the terminal end bud , of the mammary tissue
+	?a were killed on ?b to analyze ?c
+		?a: Half of the rats
+		?b: day 35
+		?c: terminal duct
+	?a were killed on ?b to analyze ?c
+		?a: Half of the rats
+		?b: day 35
+		?c: alveolar bud
+	?a is/are TEB
+		?a: the terminal end bud , of the mammary tissue
+	?a is/are TEB
+		?a: terminal duct
+	?a is/are TEB
+		?a: alveolar bud
+	?a is/are TD
+		?a: terminal duct
+	?a is/are AB
+		?a: alveolar bud
+
+
+label:    sent_10
+sentence: Aberrant apoptosis in salt-stressed BdkrB2 -/- mice was triggered on embryonic day E15.5 and involved both ureteric bud ( UB ) and metanephric mesenchyme-derived nephron elements .
+
+ppatt:
+	?a was triggered on ?b
+		?a: Aberrant apoptosis in salt-stressed BdkrB2 -/- mice
+		?b: embryonic day E15.5
+	?a involved ?b
+		?a: Aberrant apoptosis in salt-stressed BdkrB2 -/- mice
+		?b: ureteric bud
+	?a involved ?b
+		?a: Aberrant apoptosis in salt-stressed BdkrB2 -/- mice
+		?b: metanephric mesenchyme-derived nephron elements
+	?a is/are UB
+		?a: ureteric bud
+	?a is/are UB
+		?a: metanephric mesenchyme-derived nephron elements
+
+
+label:    sent_11
+sentence: The buds , after separating from their parent cells , either bud or enlarge and divide internally by septations laid down in different planes to become muriform .
+
+ppatt:
+	?a either bud
+		?a: The buds
+	?a enlarge
+		?a: The buds
+	?a divide internally by ?b to become muriform
+		?a: The buds
+		?b: septations laid down in different planes
+	?a laid down in ?b
+		?a: septations
+		?b: different planes
+
+
+label:    sent_12
+sentence: Currently the chick leg bud or its components are being used extensively to study questions in development .
+
+ppatt:
+	Currently ?a are being used extensively to study ?b
+		?a: the chick leg bud
+		?b: questions in development
+	Currently ?a are being used extensively to study ?b
+		?a: its components
+		?b: questions in development
+
+
+label:    sent_13
+sentence: The total amount of the four triterpenic acids in the loquat leaves collected in the different phenological stages of sprout , flower bud , blossom and fruit varied between 17.8 and 26.2 mg x g ( -1 ) ( defoliation ) , 16.5 and 23.5 mg x g ( -1 ) ( mature leaves ) , 14.7 and 21.5 mg x g ( -1 ) ( young leaves ) , respectively .
+
+ppatt:
+	?a collected in ?b
+		?a: the loquat leaves
+		?b: the different phenological stages of sprout , flower bud , blossom and fruit
+	?a varied between ?b , respectively
+		?a: The total amount of the four triterpenic acids in the loquat leaves collected in the different phenological stages of sprout , flower bud , blossom and fruit
+		?b: 17.8 and 26.2 mg x g
+	?a varied between ?b , respectively
+		?a: The total amount of the four triterpenic acids in the loquat leaves collected in the different phenological stages of sprout , flower bud , blossom and fruit
+		?b: 16.5 and 23.5 mg x g
+	?a is/are -1
+		?a: 17.8 and 26.2 mg x g
+	?a is/are -1
+		?a: 16.5 and 23.5 mg x g
+	?a is/are defoliation
+		?a: 17.8 and 26.2 mg x g
+	?a is/are defoliation
+		?a: 16.5 and 23.5 mg x g
+	?a is/are -1
+		?a: 16.5 and 23.5 mg x g
+	?a is/are -1
+		?a: 14.7 and 21.5 mg
+	?a is/are mature leaves
+		?a: 16.5 and 23.5 mg x g
+	?a is/are mature leaves
+		?a: 14.7 and 21.5 mg
+	?a is/are -1
+		?a: g
+	?a is/are young leaves
+		?a: g
+
+

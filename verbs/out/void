@@ -1,0 +1,211 @@
+label:    sent_1
+sentence: After caffeine ingestion , the mean volume at bladder filling phase decreased at first desire to void and normal desire to void ( P<0.05 ) , compared to the mean volume after taking water ( control ) drink . Success was defined as follows : when TUS placement allowed patients to void spontaneously and/or when surgery was made feasible after the period of relative contraindication ( therapeutic group ) or when TUS placement allowed physicians to define the role of prostate obstruction in the patients ' voiding disorders and therefore to make an appropriate therapeutic decision ( diagnosis group ) . The mean volume at strong desire to void , urgency and maximum cystometric capacity also tended to decrease .
+
+ppatt:
+	After ?a , ?b decreased at ?c to void ?d
+		?a: caffeine ingestion
+		?b: the mean volume at bladder filling phase
+		?c: first desire
+		?d: normal desire to void ( P<0.05
+	?a void ?b
+		?a: normal desire
+		?b: P<0.05
+	?a compared to the mean volume
+		?a: the mean volume at bladder filling phase
+	?a taking ?b
+		?a: the mean volume at bladder filling phase
+		?b: water ( control ) drink
+	?a was defined as ?b
+		?a: Success
+		?b: follows
+	when ?a allowed ?b to void spontaneously
+		?a: TUS placement
+		?b: patients
+	when ?a was made feasible after ?b
+		?a: surgery
+		?b: the period of relative contraindication
+	?a is/are therapeutic group
+		?a: relative contraindication
+	when ?a allowed ?b to define ?c
+		?a: TUS placement
+		?b: physicians
+		?c: the role of prostate obstruction in the patients ' voiding disorders
+	when ?a allowed to therefore to make ?b
+		?a: TUS placement
+		?b: an appropriate therapeutic decision
+	?a is/are diagnosis group
+		?a: an appropriate therapeutic decision
+	?a void ?b
+		?a: strong desire
+		?b: urgency
+	?a void ?b
+		?a: strong desire
+		?b: maximum cystometric capacity
+	?a at ?b , also tended to decrease
+		?a: The mean volume
+		?b: strong desire to void urgency and maximum cystometric capacity
+
+
+label:    sent_2
+sentence: Measures of first urge to void and bladder capacity were decreased ( one study ; 128 women ; mean difference respectively 41.50 ml , 95 % CI 8.40-74.60 , and 54.60 ml , 95 % CI 13.31-95.89 ) . PV seminal plasma samples are void of proteins originating from the testis and the epididymis due to ligation of the vas deferens , and hence , comparative analysis of Control and PV data sets allows for identification of proteins originating from these tissues .
+
+ppatt:
+	?a void ?b
+		?a: Measures of first urge
+		?b: bladder capacity
+	?a were decreased
+		?a: Measures of first urge to void and bladder capacity
+	?a is/are CI 13.31-95.89
+		?a: 54.60 ml
+	?a are void of ?b due to ?c
+		?a: PV seminal plasma samples
+		?b: proteins originating from the testis and the epididymis
+		?c: ligation of the vas deferens
+	?a originating from ?b
+		?a: proteins
+		?b: the testis
+	?a originating from ?b
+		?a: proteins
+		?b: the epididymis
+	hence , ?a allows for ?b
+		?a: comparative analysis of Control and PV data sets
+		?b: identification of proteins originating from these tissues
+	?a originating from ?b
+		?a: proteins
+		?b: these tissues
+
+
+label:    sent_3
+sentence: Biomarkers in morning urine samples may be erroneous if the study subjects void during the night or if samples are not taken from the very first morning urine .
+
+ppatt:
+	?a may be erroneous
+		?a: Biomarkers in morning urine samples
+	?a void during ?b
+		?a: the study subjects
+		?b: the night
+	?a are not taken from ?b
+		?a: samples
+		?b: the very first morning urine
+
+
+label:    sent_4
+sentence: LUTS and QoL indices improved by > 30 % in 31 of the 41 men ( 76 % ) , and four of five men with urinary retention for > 1 month could void spontaneously at 1 week to 1 month after the BoNT-A injection . Up to 84 % of children can void , but there is some evidence that this function is lost with time in 70 % . The lesions in the bovine hearts were single to multiple , well circumscribed , found in the left ventricle wall , and composed of squamous to cuboidal epithelial cells that formed tubular , ductular , and acinar structures with lumens that were void or filled with amorphous protein globules .
+
+ppatt:
+	?a improved by ?b
+		?a: LUTS and QoL indices
+		?b: > 30 % in 31 of the 41 men
+	?a is/are 76 %
+		?a: the 41 men
+	?a could void spontaneously at ?b to ?c
+		?a: four of five men with urinary retention for > 1 month
+		?b: 1 week
+		?c: 1 month after the BoNT-A injection
+	?a can void
+		?a: Up 84 % of children
+	there is ?a
+		?a: some evidence that this function is lost with time in 70 %
+	?a is lost with ?b in ?c
+		?a: this function
+		?b: time
+		?c: 70 %
+	?a were single to ?b
+		?a: The lesions in the bovine hearts
+		?b: multiple
+	?a composed of ?b ?c
+		?a: The lesions in the bovine hearts
+		?b: squamous
+		?c: to cuboidal epithelial cells that formed tubular , ductular , and acinar structures with lumens that were void or filled with amorphous protein globules
+	?a formed ?b
+		?a: to cuboidal epithelial cells
+		?b: tubular , ductular , and acinar structures with lumens that were void or filled with amorphous protein globules
+	?a were void with ?b
+		?a: lumens
+		?b: amorphous protein globules
+	?a filled
+		?a: that
+
+
+label:    sent_5
+sentence: The remaining 87 % of the patients void well and are continent , and there is no worsening of the preexisting potency status .
+
+ppatt:
+	?a void well
+		?a: The remaining 87 % of the patients
+	there is ?a
+		?a: no worsening of the preexisting potency status
+
+
+label:    sent_6
+sentence: All the other patients could void the bladder spontaneously .
+
+ppatt:
+	?a could void ?b spontaneously
+		?a: All the other patients
+		?b: the bladder
+
+
+label:    sent_7
+sentence: In opposition to criminalization are the arguments that civil and administrative measures already exist to deal with the problem , it may have a chilling effect on the reporting of misconduct , it may void malpractice insurance , it makes guilty psychotherapists place themselves in jeopardy if they acknowledge their wrongdoing in attempting to make amends , it removes control of the legal process from the victim , it fails to offer rehabilitation , and it singles out psychotherapists from other fiduciaries for more stringent treatment .
+
+ppatt:
+	are the arguments ?a ?b
+		?a: SOMETHING := civil and administrative measures already exist to deal with the problem
+		?b: SOMETHING := it may have a chilling effect on the reporting of misconduct
+	?a ?b already exist to deal with ?c
+		?a: civil
+		?b: measures
+		?c: the problem
+	?a ?b already exist to deal with ?c
+		?a: administrative
+		?b: measures
+		?c: the problem
+	?a may have ?b on ?c
+		?a: it
+		?b: a chilling effect
+		?c: the reporting of misconduct
+	?a may void ?b
+		?a: it
+		?b: malpractice insurance
+	?a makes ?b ?c in ?d
+		?a: it
+		?b: guilty psychotherapists
+		?c: themselves
+		?d: jeopardy
+	?a acknowledge ?b
+		?a: they
+		?b: their wrongdoing
+	?a attempting to make ?b
+		?a: they
+		?b: amends
+	?a removes ?b
+		?a: it
+		?b: control of the legal process from the victim
+	?a fails to offer ?b
+		?a: it
+		?b: rehabilitation
+	?a singles out ?b for ?c
+		?a: it
+		?b: psychotherapists from other fiduciaries
+		?c: more stringent treatment
+
+
+label:    sent_8
+sentence: The study demonstrated that Cryptosporidium infections in snakes maintained on the diet of rodents or birds can not be initiated via ingestion of an infected food item ; however , snakes can void ingested oocysts .
+
+ppatt:
+	?a demonstrated ?b
+		?a: The study
+		?b: SOMETHING := Cryptosporidium infections in snakes maintained on the diet of rodents or birds can not be initiated via ingestion of an infected food item
+	?a maintained on ?b
+		?a: snakes
+		?b: the diet of rodents or birds
+	?a can not be initiated via ?b
+		?a: Cryptosporidium infections in snakes maintained on the diet of rodents or birds
+		?b: ingestion of an infected food item
+	however , ?a can void ?b
+		?a: snakes
+		?b: ingested oocysts
+
+

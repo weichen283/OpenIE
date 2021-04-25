@@ -1,0 +1,307 @@
+label:    sent_1
+sentence: What to add in with metformin in type 2 diabetes ?
+
+ppatt:
+	?a add in with ?b
+		?a: What
+		?b: metformin in type 2 diabetes
+
+
+label:    sent_2
+sentence: The DAST did not add to prediction over the use of the SORAG alone .
+
+ppatt:
+	?a did not add to ?b
+		?a: The DAST
+		?b: prediction over the use of the SORAG alone
+
+
+label:    sent_3
+sentence: Moreover , they add to the clinical spectrum of N. glauca intoxication .
+
+ppatt:
+	Moreover , ?a add to ?b
+		?a: they
+		?b: the clinical spectrum of N. glauca intoxication
+
+
+label:    sent_4
+sentence: This efficient method can add insights to traditional genome-based phylogenetic reconstruction .
+
+ppatt:
+	?a can add ?b
+		?a: This efficient method
+		?b: insights to traditional genome-based phylogenetic reconstruction
+
+
+label:    sent_5
+sentence: Antioxidants add protection to a broad-spectrum sunscreen .
+
+ppatt:
+	?a add ?b
+		?a: Antioxidants
+		?b: protection to a broad-spectrum sunscreen
+
+
+label:    sent_6
+sentence: Identification and recruitment of eligible participants add substantial costs to outreach screening promotion interventions .
+
+ppatt:
+	?a add ?b
+		?a: Identification of eligible participants
+		?b: substantial costs to outreach screening promotion interventions
+	?a add ?b
+		?a: recruitment
+		?b: substantial costs to outreach screening promotion interventions
+	?a outreach ?b
+		?a: substantial costs
+		?b: screening promotion interventions
+
+
+label:    sent_7
+sentence: The need to add a lead ( s ) despite subclavian/innominate obstruction is increasing .
+
+ppatt:
+	?a add ?b despite ?c
+		?a: The need
+		?b: a lead ( s
+		?c: subclavian/innominate obstruction
+	?a is increasing
+		?a: The need to add a lead ( s ) despite subclavian/innominate obstruction
+
+
+label:    sent_8
+sentence: The clinical study included pediatric drug resistant epileptic subjects receiving add on GC treatments .
+
+ppatt:
+	?a included ?b
+		?a: The clinical study
+		?b: pediatric drug resistant epileptic subjects receiving
+	?a receiving
+		?a: pediatric drug resistant epileptic subjects
+	?a add on ?b
+		?a: The clinical study
+		?b: GC treatments
+
+
+label:    sent_9
+sentence: To confirm and add credibility to the study , uncertainty analysis was conducted .
+
+ppatt:
+	confirm ?a ?b
+		?a: credibility to the study
+		?b: uncertainty analysis
+	add ?a
+		?a: uncertainty analysis
+	?a was conducted
+		?a: uncertainty analysis
+
+
+label:    sent_10
+sentence: Glioma models : new GEMMs add " class " with genomic and expression correlations .
+
+ppatt:
+
+
+
+label:    sent_11
+sentence: Recent findings with regard to the endothelial glycocalyx add an additional level of complexity .
+
+ppatt:
+	?a add ?b
+		?a: Recent findings with regard to the endothelial glycocalyx
+		?b: an additional level of complexity
+
+
+label:    sent_12
+sentence: To relax this assumption , here we add a second locus influencing the trait .
+
+ppatt:
+	relax ?a ?b
+		?a: this assumption
+		?b: we
+	here ?a add ?b
+		?a: we
+		?b: a second locus influencing the trait
+	?a influencing ?b
+		?a: a second locus
+		?b: the trait
+
+
+label:    sent_13
+sentence: It was not necessary to add copper .
+
+ppatt:
+	?a was not necessary to add ?b
+		?a: It
+		?b: copper
+
+
+label:    sent_14
+sentence: If there is no adequate response regarding psychotic symptoms , add quetiapine .
+
+ppatt:
+	there is ?a regarding ?b
+		?a: no adequate response
+		?b: psychotic symptoms
+	add ?a
+		?a: quetiapine
+
+
+label:    sent_15
+sentence: It is necessary to add FBS for the formation of pseudopodium .
+
+ppatt:
+	?a is necessary to add ?b for ?c
+		?a: It
+		?b: FBS
+		?c: the formation of pseudopodium
+
+
+label:    sent_16
+sentence: Legal challenges to federal health reform add to uncertainty .
+
+ppatt:
+	?a add to ?b
+		?a: Legal challenges to federal health reform
+		?b: uncertainty
+
+
+label:    sent_17
+sentence: Why add complexity/confusion to a simple issue ? Poor intrauterine growth and accelerated postnatal growth are believed to add to these risks .
+
+ppatt:
+	Why add ?a to ?b ?c
+		?a: complexity/confusion
+		?b: a simple issue
+		?c: Poor intrauterine growth
+	Why add ?a to ?b ?c
+		?a: complexity/confusion
+		?b: a simple issue
+		?c: accelerated postnatal growth
+	?a are believed to add to ?b
+		?a: Poor intrauterine growth
+		?b: these risks
+	?a are believed to add to ?b
+		?a: accelerated postnatal growth
+		?b: these risks
+
+
+label:    sent_18
+sentence: Various monitoring technologies add to the clinical monitoring but can not replace clinical monitoring .
+
+ppatt:
+	?a add to ?b
+		?a: Various monitoring technologies
+		?b: the clinical monitoring
+	?a can not replace ?b
+		?a: Various monitoring technologies
+		?b: clinical monitoring
+
+
+label:    sent_19
+sentence: Aside from 2-pyridone , amides generally add reversibly and bind to Ir through N . Day surgery : does it add to or replace inpatient surgery ? What 's known on the subject ? and What does the study add ? What 's known on the subject ? and What does the study add ? What 's known on the subject ? and What does the study add ? Contagious infectious diseases add a new dimension to radiology and pose many unanswered questions .
+
+ppatt:
+	Aside from ?a , ?b generally add reversibly through ?c ?d
+		?a: 2-pyridone
+		?b: amides
+		?c: N
+		?d: Day surgery
+	?a bind to ?b
+		?a: amides
+		?b: Ir
+	does ?a add ?b ?c
+		?a: it
+		?b: to
+		?c: inpatient surgery
+	?a replace
+		?a: it
+	?a known on ?b
+		?a: What
+		?b: the subject
+	?a does ?b add
+		?a: What
+		?b: the study
+	?a known on ?b
+		?a: What
+		?b: the subject
+	?a does ?b add
+		?a: What
+		?b: the study
+	?a known on ?b
+		?a: What
+		?b: the subject
+	?a does ?b
+		?a: What
+		?b: the study
+	?a add
+		?a: What
+	?a add ?b
+		?a: Contagious infectious diseases
+		?b: a new dimension to radiology
+	?a pose ?b
+		?a: Contagious infectious diseases
+		?b: many unanswered questions
+
+
+label:    sent_20
+sentence: These themes add richness to the health status data and inform our understanding .
+
+ppatt:
+	?a add ?b
+		?a: These themes
+		?b: richness to the health status data
+	?a inform ?b
+		?a: These themes
+		?b: our understanding
+
+
+label:    sent_21
+sentence: This prompted us to add thrombolysis to his treatment , but with no effect .
+
+ppatt:
+	?a prompted ?b to add ?c to ?d
+		?a: This
+		?b: us
+		?c: thrombolysis
+		?d: his treatment
+
+
+label:    sent_22
+sentence: These changes both complement and add to previous histologic analyses .
+
+ppatt:
+	?a both complement
+		?a: These changes
+	?a add to ?b
+		?a: These changes
+		?b: previous histologic analyses
+
+
+label:    sent_23
+sentence: Newer imaging modalities are now available and add to information gained from conventional radiography .
+
+ppatt:
+	?a are now available
+		?a: Newer imaging modalities
+	?a add to ?b
+		?a: Newer imaging modalities
+		?b: information gained from conventional radiography
+	?a gained from ?b
+		?a: information
+		?b: conventional radiography
+
+
+label:    sent_24
+sentence: Do these studies provide more clarity or just add to the noise ?
+
+ppatt:
+	Do ?a provide ?b
+		?a: these studies
+		?b: more clarity
+	?a just add to ?b
+		?a: these studies
+		?b: the noise
+
+

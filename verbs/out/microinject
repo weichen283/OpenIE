@@ -1,0 +1,51 @@
+label:    sent_1
+sentence: This article describes how to microinject embryos using a versatile homemade pressure injection system .
+
+ppatt:
+	?a describes how to microinject ?b using ?c
+		?a: This article
+		?b: embryos
+		?c: a versatile homemade pressure injection system
+
+
+label:    sent_2
+sentence: Hollow microneedles have also been developed and shown to microinject insulin to diabetic rats . It is now possible to microinject interphase cells with aqueous and nonaqueous fluids intracytoplasmically .
+
+ppatt:
+	?a have also been developed
+		?a: Hollow microneedles
+	?a shown to microinject ?b to ?c
+		?a: Hollow microneedles
+		?b: insulin
+		?c: diabetic rats
+	?a is now possible to microinject ?b with ?c intracytoplasmically
+		?a: It
+		?b: interphase cells
+		?c: aqueous
+	?a is now possible to microinject ?b with ?c intracytoplasmically
+		?a: It
+		?b: interphase cells
+		?c: nonaqueous
+
+
+label:    sent_3
+sentence: This method made it possible for us to quantitatively microinject antibodies into B lymphocytes .
+
+ppatt:
+	?a made ?b possible for ?c to quantitatively microinject ?d
+		?a: This method
+		?b: it
+		?c: us
+		?d: antibodies into B lymphocytes
+
+
+label:    sent_4
+sentence: A simple method to microinject solid neural tracers into deep structures of the brain .
+
+ppatt:
+	?a microinject ?b into ?c
+		?a: A simple method
+		?b: solid neural tracers
+		?c: deep structures of the brain
+
+

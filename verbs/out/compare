@@ -1,0 +1,315 @@
+label:    sent_1
+sentence: We calculated Cohen 's kappas to compare patient/physician perspectives .
+
+ppatt:
+	?a calculated ?b
+		?a: We
+		?b: Cohen 's kappas
+	?a compare ?b
+		?a: We
+		?b: patient/physician perspectives
+
+
+label:    sent_2
+sentence: To compare the prevalence of blastocyst development and euploidy in XX versus XY embryos .
+
+ppatt:
+	compare ?a
+		?a: the prevalence of blastocyst in XX versus XY embryos
+
+
+label:    sent_3
+sentence: To compare histopathological characteristics of peri-implantitis and periodontitis lesions .
+
+ppatt:
+	compare ?a
+		?a: histopathological characteristics of peri-implantitis and periodontitis lesions
+
+
+label:    sent_4
+sentence: To compare adverse effects with the different treatments .
+
+ppatt:
+	compare ?a
+		?a: adverse effects with the different treatments
+
+
+label:    sent_5
+sentence: Additional studies are needed to compare this approach with conventional laparoscopic treatment .
+
+ppatt:
+	?a are needed to compare ?b
+		?a: Additional studies
+		?b: this approach with conventional laparoscopic treatment
+
+
+label:    sent_6
+sentence: Nonparametric tests were used to compare outcomes before and after the intervention .
+
+ppatt:
+	?a were used to compare ?b ?c
+		?a: Nonparametric tests
+		?b: outcomes
+		?c: before and after the intervention
+
+
+label:    sent_7
+sentence: Standardization of protocols is key to compare studies and minimize animal use .
+
+ppatt:
+	?a is key to compare ?b
+		?a: Standardization of protocols
+		?b: studies
+	?a is key to minimize ?b
+		?a: Standardization of protocols
+		?b: animal use
+
+
+label:    sent_8
+sentence: To compare the evidence base and systemic treatment strategies for sarcoidosis .
+
+ppatt:
+	compare ?a
+		?a: the evidence base for sarcoidosis
+	compare ?a
+		?a: systemic
+
+
+label:    sent_9
+sentence: To compare outcomes of unipolar versus bipolar uncemented hemiarthroplasty and determine factors affecting outcomes .
+
+ppatt:
+	compare ?a
+		?a: outcomes of unipolar versus bipolar uncemented hemiarthroplasty
+	determine ?a
+		?a: factors affecting outcomes
+	?a affecting ?b
+		?a: factors
+		?b: outcomes
+
+
+label:    sent_10
+sentence: We compare experimental results with numerical solutions to the convection diffusion equation .
+
+ppatt:
+	?a compare ?b
+		?a: We
+		?b: experimental results with numerical solutions to the convection diffusion equation
+
+
+label:    sent_11
+sentence: In this letter , we compare the GSPC checklist with the ARRIVE Guidelines . A prospective non-randomised study to compare oral trauma from laryngoscope versus laryngeal mask insertion .
+
+ppatt:
+	In ?a , ?b compare ?c ?d
+		?a: this letter
+		?b: we
+		?c: the GSPC checklist with the ARRIVE Guidelines
+		?d: A prospective non-randomised study to compare oral trauma from laryngoscope versus laryngeal
+	?a compare ?b
+		?a: A prospective non-randomised study
+		?b: oral trauma from laryngoscope versus laryngeal
+
+
+label:    sent_12
+sentence: We compare them to an open source application ITK-SNAP which provides similar approaches .
+
+ppatt:
+	?a compare ?b to ?c
+		?a: We
+		?b: them
+		?c: an open source application which provides similar approaches
+	?a provides ?b
+		?a: an open source application
+		?b: similar approaches
+
+
+label:    sent_13
+sentence: To compare the perinatal outcome of singleton siblings conceived differently .
+
+ppatt:
+	compare ?a
+		?a: the perinatal outcome of singleton siblings conceived differently
+	?a conceived differently
+		?a: singleton siblings
+
+
+label:    sent_14
+sentence: We compare two-dimensional imaging of the phantom based on transmission and reflection data . We constrain the model with and compare its results to available observations .
+
+ppatt:
+	?a compare ?b
+		?a: We
+		?b: two-dimensional imaging of the phantom based on transmission and reflection data
+	?a constrain ?b ?c
+		?a: We
+		?b: the model
+		?c: with
+	?a compare ?b
+		?a: We
+		?b: its results to available observations
+
+
+label:    sent_15
+sentence: To compare clinical and hormonal status in thyrotoxicosis with- or without comorbid resistant depression .
+
+ppatt:
+	compare ?a ?b in ?c
+		?a: clinical
+		?b: status
+		?c: thyrotoxicosis with-
+	compare ?a ?b in ?c
+		?a: hormonal
+		?b: status
+		?c: thyrotoxicosis with-
+	compare ?a ?b in ?c
+		?a: clinical
+		?b: status
+		?c: comorbid resistant depression
+	compare ?a ?b in ?c
+		?a: hormonal
+		?b: status
+		?c: comorbid resistant depression
+
+
+label:    sent_16
+sentence: Classification for cutaneous lymphomas , and compare it with the newly proposed EORTC system .
+
+ppatt:
+	compare ?a with ?b
+		?a: it
+		?b: the newly proposed EORTC system
+
+
+label:    sent_17
+sentence: uA levels of adult breeding males were also measured to compare to adult-aged sons . Morphological and histological evaluations were performed to compare between compound odontomas and normal premolars .
+
+ppatt:
+	?a were also measured to compare to ?b
+		?a: uA levels of adult breeding males
+		?b: adult-aged sons
+	?a ?b were performed to compare between ?c
+		?a: Morphological
+		?b: evaluations
+		?c: compound odontomas
+	?a ?b were performed to compare between ?c
+		?a: histological
+		?b: evaluations
+		?c: compound odontomas
+	?a ?b were performed to compare between ?c
+		?a: Morphological
+		?b: evaluations
+		?c: normal premolars
+	?a ?b were performed to compare between ?c
+		?a: histological
+		?b: evaluations
+		?c: normal premolars
+
+
+label:    sent_18
+sentence: These results provide a benchmark of physician practice to compare with guidelines .
+
+ppatt:
+	?a provide ?b
+		?a: These results
+		?b: a benchmark of physician practice to compare with guidelines
+	?a compare with ?b
+		?a: a benchmark of physician practice
+		?b: guidelines
+
+
+label:    sent_19
+sentence: These data compare favorably with the limited number of alternative treatments .
+
+ppatt:
+	?a compare favorably with ?b
+		?a: These data
+		?b: the limited number of alternative treatments
+
+
+label:    sent_20
+sentence: The rapid assays ' performance compare very closely to their ELISA counterparts ' . The results compare favourably with experimental observations .
+
+ppatt:
+	?a compare very closely to ?b '
+		?a: The rapid assays ' performance
+		?b: their ELISA counterparts
+	?a compare favourably with ?b
+		?a: The results
+		?b: experimental observations
+
+
+label:    sent_21
+sentence: We compare our theoretical results with experimental ones and discuss the difference between them .
+
+ppatt:
+	?a compare ?b
+		?a: We
+		?b: our theoretical results with experimental ones
+	?a discuss ?b
+		?a: We
+		?b: the difference between them
+
+
+label:    sent_22
+sentence: We compare theoretical results with experimental data , and find a stage-dependent density effect .
+
+ppatt:
+	?a compare ?b
+		?a: We
+		?b: theoretical results with experimental data
+	?a find ?b
+		?a: We
+		?b: a stage-dependent density effect
+
+
+label:    sent_23
+sentence: It also allows us to compare different views and perform rendering budget control .
+
+ppatt:
+	?a also allows ?b to compare ?c
+		?a: It
+		?b: us
+		?c: different views
+	?a also allows to perform rendering ?b
+		?a: It
+		?b: budget control
+
+
+label:    sent_24
+sentence: We compare our results with existing techniques and show better decomposition and enhancement .
+
+ppatt:
+	?a compare ?b
+		?a: We
+		?b: our results with existing techniques
+	?a show ?b
+		?a: We
+		?b: better
+
+
+label:    sent_25
+sentence: We compare the results with similar data for cyclovergence and discuss their ecological implications .
+
+ppatt:
+	?a compare ?b
+		?a: We
+		?b: the results with similar data for cyclovergence
+	?a discuss ?b
+		?a: We
+		?b: their ecological implications
+
+
+label:    sent_26
+sentence: By simulation we compare some common algorithms and discuss their feasibility for drug dosing .
+
+ppatt:
+	By ?a ?b compare ?c
+		?a: simulation
+		?b: we
+		?c: some common algorithms
+	?a discuss ?b
+		?a: we
+		?b: their feasibility for drug dosing
+
+

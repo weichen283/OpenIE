@@ -1,0 +1,322 @@
+label:    sent_1
+sentence: The receptors possess intracellular serine/threonine kinase domains .
+
+ppatt:
+	?a possess ?b
+		?a: The receptors
+		?b: intracellular serine/threonine kinase domains
+
+
+label:    sent_2
+sentence: Aminoacyl-tRNA synthetases are key enzymes of protein biosynthesis which usually possess multidomain structures . C57BL/6J mice possess a single intelectin ( Itln ) gene on chromosome 1 .
+
+ppatt:
+	?a are key enzymes of ?b
+		?a: Aminoacyl-tRNA synthetases
+		?b: protein biosynthesis which usually possess multidomain structures
+	?a usually possess ?b
+		?a: protein biosynthesis
+		?b: multidomain structures
+	?a possess ?b
+		?a: C57BL/6J mice
+		?b: a single intelectin ( Itln ) gene on chromosome 1
+
+
+label:    sent_3
+sentence: Almost all the tested compounds were found to possess variable degrees of antimicrobial activities .
+
+ppatt:
+	?a were found to possess ?b
+		?a: Almost all the tested compounds
+		?b: variable degrees of antimicrobial activities
+
+
+label:    sent_4
+sentence: Among plant compounds , only a few have shown to possess anti-STAT1 activity .
+
+ppatt:
+	Among ?a , ?b have shown to possess ?c
+		?a: plant compounds
+		?b: only a few
+		?c: anti-STAT1 activity
+
+
+label:    sent_5
+sentence: Ergone has been demonstrated to possess cytotoxic activity .
+
+ppatt:
+	?a has been demonstrated to possess ?b
+		?a: Ergone
+		?b: cytotoxic activity
+
+
+label:    sent_6
+sentence: Fungi possess robust cell walls and do not engulf prey cells by phagotrophy .
+
+ppatt:
+	?a possess ?b
+		?a: Fungi
+		?b: robust cell walls
+	?a do not engulf ?b by ?c
+		?a: Fungi
+		?b: prey cells
+		?c: phagotrophy
+
+
+label:    sent_7
+sentence: Plants also possess ATM and ATR orthologs but lack obvious counterparts of downstream regulators .
+
+ppatt:
+	?a also possess ?b
+		?a: Plants
+		?b: ATM and ATR orthologs
+	?a lack ?b
+		?a: Plants
+		?b: obvious counterparts of downstream regulators
+
+
+label:    sent_8
+sentence: All species possess fast-contracting muscles and have the same kind of sound producing mechanism .
+
+ppatt:
+	?a possess ?b
+		?a: All species
+		?b: fast-contracting muscles
+	?a have ?b
+		?a: All species
+		?b: the same kind of sound producing mechanism
+
+
+label:    sent_9
+sentence: Mulberry leaf polyphenols possess antiatherogenesis effect via inhibiting LDL oxidation and foam cell formation .
+
+ppatt:
+	?a possess ?b
+		?a: Mulberry leaf polyphenols
+		?b: antiatherogenesis effect
+	?a inhibiting ?b
+		?a: Mulberry leaf polyphenols
+		?b: LDL oxidation
+	?a inhibiting ?b
+		?a: Mulberry leaf polyphenols
+		?b: foam cell formation
+
+
+label:    sent_10
+sentence: Besides boron , all monomeric species possess singlet ground states .
+
+ppatt:
+	Besides ?a , ?b possess ?c
+		?a: boron
+		?b: all monomeric species
+		?c: singlet ground states
+
+
+label:    sent_11
+sentence: As a family , these complexes possess fascinating biological activity .
+
+ppatt:
+	As ?a , ?b possess ?c
+		?a: a family
+		?b: these complexes
+		?c: fascinating biological activity
+
+
+label:    sent_12
+sentence: The JAMAR was found to be feasible and to possess face and content validity .
+
+ppatt:
+	?a was found to be feasible
+		?a: The JAMAR
+	?a was found to be to possess ?b
+		?a: The JAMAR
+		?b: face
+	?a was found to be to possess ?b
+		?a: The JAMAR
+		?b: content
+	?a was found to be to possess ?b
+		?a: The JAMAR
+		?b: validity
+
+
+label:    sent_13
+sentence: PBDs are sequence-specific DNA-alkylating agents and possess significant antitumor properties . dcp-1-null mutants are healthy and possess few defects in normally occurring cell death .
+
+ppatt:
+	?a are sequence-specific DNA-alkylating agents
+		?a: PBDs
+	?a possess ?b
+		?a: PBDs
+		?b: significant antitumor properties
+	?a are healthy
+		?a: dcp-1-null mutants
+	?a possess ?b
+		?a: dcp-1-null mutants
+		?b: few defects
+	?a normally occurring ?b
+		?a: dcp-1-null mutants
+		?b: cell death
+
+
+label:    sent_14
+sentence: Dietary fenugreek seed has been recently observed to possess anti-lithogenic potential in experimental mice .
+
+ppatt:
+	?a has been recently observed to possess ?b in ?c
+		?a: Dietary fenugreek seed
+		?b: anti-lithogenic potential
+		?c: experimental mice
+
+
+label:    sent_15
+sentence: Like Sciuridae , Gliridae possess some chromosomes easily comparable with those of Primates .
+
+ppatt:
+	Like ?a , ?b possess ?c
+		?a: Sciuridae
+		?b: Gliridae
+		?c: some chromosomes easily comparable with those of Primates
+
+
+label:    sent_16
+sentence: Halecidae possess a new composition , with the exclusion of Hemisaurida . Oxysterols possess pro-oxidative and pro-inflammatory properties that can contribute to carcinogenesis .
+
+ppatt:
+	?a possess ?b , with ?c
+		?a: Halecidae
+		?b: a new composition
+		?c: the exclusion of Hemisaurida
+	?a possess ?b
+		?a: Oxysterols
+		?b: pro-oxidative and pro-inflammatory properties that can contribute to carcinogenesis
+	?a can contribute to ?b
+		?a: pro-oxidative and pro-inflammatory properties
+		?b: carcinogenesis
+
+
+label:    sent_17
+sentence: The findings revealed that synthesized AgNPs possess excellent anti-lice and mosquito larvicidal activity .
+
+ppatt:
+	?a revealed ?b
+		?a: The findings
+		?b: SOMETHING := that synthesized AgNPs possess excellent anti-lice and mosquito larvicidal activity
+	?a possess ?b
+		?a: synthesized AgNPs
+		?b: excellent anti-lice and mosquito larvicidal activity
+
+
+label:    sent_18
+sentence: Magnetotransport experiments reveal that the nanodot arrays possess giant magneto-resistance associated with geometrical effects .
+
+ppatt:
+	?a reveal ?b
+		?a: Magnetotransport experiments
+		?b: SOMETHING := the nanodot arrays possess giant magneto-resistance associated with geometrical effects
+	?a possess ?b
+		?a: the nanodot arrays
+		?b: giant magneto-resistance associated with geometrical effects
+	?a associated with ?b
+		?a: giant magneto-resistance
+		?b: geometrical effects
+
+
+label:    sent_19
+sentence: The synthesized particles possess photocatalytic activity under visible light and exhibited excellent antimicrobial effect .
+
+ppatt:
+	?a possess ?b under ?c
+		?a: The synthesized particles
+		?b: photocatalytic activity
+		?c: visible light
+	?a exhibited ?b
+		?a: The synthesized particles
+		?b: excellent antimicrobial effect
+
+
+label:    sent_20
+sentence: Chaplains possess an important role with these older adults and in these settings .
+
+ppatt:
+	?a possess ?b with ?c
+		?a: Chaplains
+		?b: an important role
+		?c: these older adults
+	?a possess ?b with ?c
+		?a: Chaplains
+		?b: an important role
+		?c: these settings
+
+
+label:    sent_21
+sentence: For example , lampreys possess hypobranchial muscles , and may also possess the cucullaris . Nocturnal insects possess in general superposition compound eyes .
+
+ppatt:
+	For ?a , ?b possess ?c
+		?a: example
+		?b: lampreys
+		?c: hypobranchial muscles
+	?a may also possess
+		?a: lampreys
+	?a possess in ?b
+		?a: the cucullaris . Nocturnal insects
+		?b: general superposition compound eyes
+
+
+label:    sent_22
+sentence: In addition to Abi-1 , mammals possess Abi-2 and NESH ( Abi-3 ) . Below the flow limit the dressing possess in properties of on elastic body .
+
+ppatt:
+	In ?a , ?b possess ?c . Below ?d
+		?a: addition to Abi-1
+		?b: mammals
+		?c: Abi-2
+		?d: the flow limit
+	In ?a , ?b possess ?c . Below ?d
+		?a: addition to Abi-1
+		?b: mammals
+		?c: NESH
+		?d: the flow limit
+	?a is/are Abi-3
+		?a: Abi-2
+	?a is/are Abi-3
+		?a: NESH
+	?a possess in ?b
+		?a: the dressing
+		?b: properties of on elastic body
+
+
+label:    sent_23
+sentence: Innate immunity is a universal prophylactic system which all multi-cellular animals possess .
+
+ppatt:
+	?a is a universal prophylactic system
+		?a: Innate immunity
+	?a ?b possess
+		?a: a universal prophylactic system
+		?b: all multi-cellular animals
+
+
+label:    sent_24
+sentence: The latter findings support observations that some RF possess antinuclear properties .
+
+ppatt:
+	?a support ?b
+		?a: The latter findings
+		?b: observations that some RF possess antinuclear properties
+	?a possess ?b
+		?a: some RF
+		?b: antinuclear properties
+
+
+label:    sent_25
+sentence: The inbuilt injury protection which some costumes possess is also discussed .
+
+ppatt:
+	?a ?b possess
+		?a: The inbuilt injury protection
+		?b: some costumes
+	?a is also discussed
+		?a: The inbuilt injury protection which some costumes possess
+
+

@@ -1,0 +1,188 @@
+label:    sent_1
+sentence: Smoking ban in the Alps--any wonder ? We wonder whether this exceedingly rare observation might herald a distinct entity . Golden wonder . Prescribing in an age of " wonder drugs " . My little yellow wonder pill .
+
+ppatt:
+	?a wonder
+		?a: Smoking ban in the Alps--any
+	?a wonder ?b
+		?a: We
+		?b: SOMETHING := this exceedingly rare observation might herald a distinct entity
+	?a might herald ?b
+		?a: this exceedingly rare observation
+		?b: a distinct entity
+	?a wonder
+		?a: Golden
+	?a wonder ?b
+		?a: Prescribing in an age of "
+		?b: drugs
+	?a wonder ?b
+		?a: My little yellow
+		?b: pill
+
+
+label:    sent_2
+sentence: Interferon-new wonder drug or old laboratory curiosity ? [A wonder about Tidskriftet 's prioritization ] . Presidential address : the wonder of our presence here .
+
+ppatt:
+	?a wonder ?b ? about ?c
+		?a: Interferon-new
+		?b: drug
+		?c: Tidskriftet 's prioritization ] Presidential address
+	?a wonder ?b ? about ?c
+		?a: Interferon-new
+		?b: old
+		?c: Tidskriftet 's prioritization ] Presidential address
+	?a wonder
+		?a: [A
+
+
+label:    sent_3
+sentence: The wonder of water . From poison to medical wonder . Therapy .
+
+ppatt:
+	?a wonder ?b
+		?a: The wonder of water . From poison to medical
+		?b: Therapy
+
+
+label:    sent_4
+sentence: Statins and liver disease : from concern to ' wonder ' drugs ? Honey --the wonder of ' liquid gold ' . I take Lipitor and wonder if I should be concerned .
+
+ppatt:
+	?a from ?b to ' wonder ?c
+		?a: Statins
+		?b: concern
+		?c: drugs
+	?a from ?b to ' wonder ?c
+		?a: liver disease
+		?b: concern
+		?c: drugs
+	?a is/are Honey
+		?a: drugs
+	?a wonder of ?b
+		?a: Statins
+		?b: liquid gold
+	?a wonder of ?b
+		?a: liver disease
+		?b: liquid gold
+	?a take ?b
+		?a: Statins
+		?b: Lipitor
+	?a take ?b
+		?a: liver disease
+		?b: Lipitor
+	?a wonder
+		?a: Lipitor
+	?a should be concerned
+		?a: I
+
+
+label:    sent_5
+sentence: The grand parents may feel guilty and wonder how to help the parents . [ Hospitals , a place for learning , growth and wonder ] . I read that spirulina is the next wonder vitamin .
+
+ppatt:
+	?a may feel ?b
+		?a: The grand parents
+		?b: guilty
+	?a wonder how to help ?b ?c
+		?a: The grand parents
+		?b: the parents
+		?c: Hospitals
+	?a wonder how to help ?b ?c
+		?a: The grand parents
+		?b: the parents
+		?c: growth
+	?a is/are a place for ?b
+		?a: Hospitals
+		?b: learning
+	?a is/are a place for ?b
+		?a: learning
+		?b: growth
+	?a wonder ?b
+		?a: The grand parents
+		?b: ]
+	?a read ?b
+		?a: The grand parents
+		?b: SOMETHING := spirulina is the next wonder vitamin
+	?a is the next wonder vitamin
+		?a: spirulina
+
+
+label:    sent_6
+sentence: Are they the wonder drugs of the 1980s ? Down under wonder .
+
+ppatt:
+	Are ?a the wonder ?b
+		?a: they
+		?b: drugs of the 1980s ? Down
+	?a under wonder
+		?a: they
+
+
+label:    sent_7
+sentence: Registration may be streamlined , but some wonder if it 's worth the cost .
+
+ppatt:
+	?a may be streamlined
+		?a: Registration
+	?a wonder
+		?a: some
+	?a worth ?b
+		?a: it
+		?b: the cost
+
+
+label:    sent_8
+sentence: Higher order multiple births : natural wonder or failure of therapy ? The public web-based biological database infrastructure is a source of both wonder and worry . A career in science is a journey of wonder and discovery .
+
+ppatt:
+	?a ?b is a source
+		?a: Higher order multiple births
+		?b: The public web-based biological database infrastructure
+	?a is a journey
+		?a: career in science
+	?a of wonder
+		?a: a journey
+
+
+label:    sent_9
+sentence: Because of these results the authors wonder whether ultrasounds are harmful for ovulation .
+
+ppatt:
+	Because of ?a ?b wonder ?c
+		?a: these results
+		?b: the authors
+		?c: SOMETHING := ultrasounds are harmful for ovulation
+	?a are harmful for ?b
+		?a: ultrasounds
+		?b: ovulation
+
+
+label:    sent_10
+sentence: Influenza A ( H1N1 ) --past season 's wonder flu in Vojvodina .
+
+ppatt:
+	?a 's wonder ?b in ?c
+		?a: Influenza A ( H1N1 ) --past season
+		?b: flu
+		?c: Vojvodina
+
+
+label:    sent_11
+sentence: Much has been achieved by exploiting this wonder ligand in the area of CPs .
+
+ppatt:
+	exploiting ?a in ?b
+		?a: this wonder ligand
+		?b: the area of CPs
+
+
+label:    sent_12
+sentence: From poison gas to wonder drug .
+
+ppatt:
+	?a wonder ?b
+		?a: poison gas
+		?b: drug
+
+

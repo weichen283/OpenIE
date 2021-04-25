@@ -1,0 +1,312 @@
+label:    sent_1
+sentence: Cancer cells utilize complex mechanisms to remodel their bioenergetic properties .
+
+ppatt:
+	?a utilize ?b
+		?a: Cancer cells
+		?b: complex mechanisms to remodel their bioenergetic properties
+	?a remodel ?b
+		?a: complex mechanisms
+		?b: their bioenergetic properties
+
+
+label:    sent_2
+sentence: Both systems utilise chromatin-modifying enzymes to remodel large domains of a chromosome .
+
+ppatt:
+	?a utilise ?b to remodel ?c
+		?a: Both systems
+		?b: chromatin-modifying enzymes
+		?c: large domains of a chromosome
+
+
+label:    sent_3
+sentence: Matrix metalloproteinases ( MMPs ) degregade and remodel the extracellular matrix .
+
+ppatt:
+	?a is/are MMPs
+		?a: Matrix metalloproteinases
+	?a degregade
+		?a: Matrix metalloproteinases
+	?a remodel ?b
+		?a: Matrix metalloproteinases
+		?b: the extracellular matrix
+
+
+label:    sent_4
+sentence: Natural osmolytes remodel the aggregation pathway of mutant huntingtin exon 1 . MicroRNAs dynamically remodel gastrointestinal smooth muscle cells .
+
+ppatt:
+	?a remodel ?b
+		?a: Natural osmolytes
+		?b: the aggregation pathway of mutant huntingtin exon 1
+	?a dynamically remodel ?b
+		?a: MicroRNAs
+		?b: gastrointestinal smooth muscle cells
+
+
+label:    sent_5
+sentence: Thus , interventions that favorably remodel fibrotic healing may benefit stem cell therapies .
+
+ppatt:
+	?a favorably remodel ?b
+		?a: interventions
+		?b: fibrotic healing
+	Thus , ?a may benefit ?b
+		?a: interventions that favorably remodel fibrotic healing
+		?b: stem cell therapies
+
+
+label:    sent_6
+sentence: Membrane-bound receptors induce biochemical signals to remodel the actin cytoskeleton and mediate cell motility .
+
+ppatt:
+	?a induce ?b to remodel ?c
+		?a: Membrane-bound receptors
+		?b: biochemical signals
+		?c: the actin cytoskeleton
+	?a induce to mediate ?b
+		?a: Membrane-bound receptors
+		?b: cell motility
+
+
+label:    sent_7
+sentence: Centriolar kinesin Kif24 interacts with CP110 to remodel microtubules and regulate ciliogenesis .
+
+ppatt:
+	?a interacts with ?b to remodel ?c
+		?a: Centriolar kinesin Kif24
+		?b: CP110
+		?c: microtubules
+	?a interacts to regulate ?b
+		?a: Centriolar kinesin Kif24
+		?b: ciliogenesis
+
+
+label:    sent_8
+sentence: Neurospora WC-1 recruits SWI / SNF to remodel frequency and initiate a circadian cycle .
+
+ppatt:
+	?a recruits ?b to remodel ?c
+		?a: Neurospora WC-1
+		?b: SWI / SNF
+		?c: frequency
+	?a recruits to initiate ?b
+		?a: Neurospora WC-1
+		?b: a circadian cycle
+
+
+label:    sent_9
+sentence: Placental trophoblasts ( TBs ) invade and remodel uterine vessels with an arterial bias .
+
+ppatt:
+	?a is/are TBs
+		?a: Placental trophoblasts
+	?a invade ?b with ?c
+		?a: Placental trophoblasts
+		?b: uterine vessels
+		?c: an arterial bias
+	?a remodel
+		?a: Placental trophoblasts
+
+
+label:    sent_10
+sentence: Those mechanisms allow the ligament to adapt and remodel itself to different stimuli .
+
+ppatt:
+	?a allow ?b to adapt ?c to ?d
+		?a: Those mechanisms
+		?b: the ligament
+		?c: itself
+		?d: different stimuli
+	?a allow to remodel
+		?a: Those mechanisms
+
+
+label:    sent_11
+sentence: Bone has the unique ability to regenerate and continuously remodel itself throughout life .
+
+ppatt:
+	?a has ?b
+		?a: Bone
+		?b: the unique ability to regenerate and continuously remodel itself throughout life
+	?a regenerate throughout ?b
+		?a: the unique ability
+		?b: life
+	continuously remodel ?a
+		?a: itself
+
+
+label:    sent_12
+sentence: Herpesviruses remodel host membranes for virus egress .
+
+ppatt:
+	?a remodel ?b for ?c
+		?a: Herpesviruses
+		?b: host membranes
+		?c: virus egress
+
+
+label:    sent_13
+sentence: In the absence of ClpP , ClpA can remodel protein complexes .
+
+ppatt:
+	In of ?a , ?b can remodel ?c
+		?a: ClpP
+		?b: ClpA
+		?c: protein complexes
+
+
+label:    sent_14
+sentence: Neurons remodel their connectivity in response to various insults , including microtubule disruption .
+
+ppatt:
+	?a remodel ?b in to ?c
+		?a: Neurons
+		?b: their connectivity
+		?c: various insults , including microtubule disruption
+
+
+label:    sent_15
+sentence: Both of these conformers were found to remodel into non-toxic aggregates .
+
+ppatt:
+	?a were found to remodel into ?b
+		?a: Both of these conformers
+		?b: non-toxic aggregates
+
+
+label:    sent_16
+sentence: The facial skeleton appears to remodel throughout adulthood .
+
+ppatt:
+	?a appears to remodel throughout ?b
+		?a: The facial skeleton
+		?b: adulthood
+
+
+label:    sent_17
+sentence: Five swine underwent posterolateral MI and were allowed to remodel for 12 weeks .
+
+ppatt:
+	?a underwent ?b
+		?a: Five swine
+		?b: posterolateral MI
+	?a were allowed to remodel for ?b
+		?a: Five swine
+		?b: 12 weeks
+
+
+label:    sent_18
+sentence: Matrix metalloproteinases ( MMPs ) remodel tumor microenvironment and promote cancer metastasis .
+
+ppatt:
+	?a is/are MMPs
+		?a: Matrix metalloproteinases
+	?a remodel ?b
+		?a: Matrix metalloproteinases
+		?b: tumor microenvironment
+	?a promote ?b
+		?a: Matrix metalloproteinases
+		?b: cancer metastasis
+
+
+label:    sent_19
+sentence: Microvascular endothelial cells remodel cultured adult cardiomyocytes and increase their survival . Glucocorticoids dose-dependently remodel energy stores and amplify incentive relativity effects .
+
+ppatt:
+	?a remodel ?b
+		?a: Microvascular endothelial cells
+		?b: cultured adult cardiomyocytes
+	?a increase ?b
+		?a: Microvascular endothelial cells
+		?b: their survival
+	?a dose-dependently remodel ?b
+		?a: Glucocorticoids
+		?b: energy stores
+	?a amplify ?b
+		?a: Glucocorticoids
+		?b: incentive relativity effects
+
+
+label:    sent_20
+sentence: During physiological growth , myocytes adaptively remodel to mechanical loads .
+
+ppatt:
+	During ?a , ?b adaptively remodel to ?c
+		?a: physiological growth
+		?b: myocytes
+		?c: mechanical loads
+
+
+label:    sent_21
+sentence: Tissues also remodel in both development and disease , changing their mechanical properties .
+
+ppatt:
+	?a also remodel in ?b
+		?a: Tissues
+		?b: development
+	?a also remodel in ?b
+		?a: Tissues
+		?b: disease
+	?a changing ?b
+		?a: Tissues
+		?b: their mechanical properties
+
+
+label:    sent_22
+sentence: Simultaneously , the cushions remodel into valve leaflets and chordae .
+
+ppatt:
+	Simultaneously , ?a remodel into ?b
+		?a: the cushions
+		?b: valve leaflets
+	Simultaneously , ?a remodel into ?b
+		?a: the cushions
+		?b: chordae
+
+
+label:    sent_23
+sentence: The data suggest that virtually all foci persist rather than regress or remodel .
+
+ppatt:
+	?a suggest ?b
+		?a: The data
+		?b: SOMETHING := virtually all foci persist rather than regress or remodel
+	?a persist
+		?a: virtually all foci
+	?a rather than regress
+		?a: virtually all foci
+	?a remodel
+		?a: virtually all foci
+
+
+label:    sent_24
+sentence: Build or remodel ? Failing heart ; remodel , replace or repair ? Barrier proteins remodel and modify chromatin to restrict silenced domains .
+
+ppatt:
+	Build ?a
+		?a: Failing heart
+	remodel ?a
+		?a: Failing heart
+	?a replace
+		?a: Failing heart
+	?a remodel ?b to restrict ?c
+		?a: Barrier proteins
+		?b: chromatin
+		?c: silenced domains
+	?a modify
+		?a: Barrier proteins
+
+
+label:    sent_25
+sentence: These fractures are prone to nonunion , and initial deformities do not remodel well .
+
+ppatt:
+	?a are prone to ?b
+		?a: These fractures
+		?b: nonunion
+	?a do not remodel well
+		?a: initial deformities
+
+

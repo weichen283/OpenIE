@@ -1,0 +1,218 @@
+label:    sent_1
+sentence: CBP was used to resect diminutive polyps until no polyp tissue was visible .
+
+ppatt:
+	?a was used to resect ?b
+		?a: CBP
+		?b: diminutive polyps
+	?a was visible
+		?a: no polyp tissue
+
+
+label:    sent_2
+sentence: Skillful microsurgical techniques are key to resect SMs while getting the desired visual outcome .
+
+ppatt:
+	?a are key to resect ?b
+		?a: Skillful microsurgical techniques
+		?b: SMs
+	?a getting ?b
+		?a: Skillful microsurgical techniques
+		?b: the desired visual outcome
+
+
+label:    sent_3
+sentence: Surgery is an effective means to resect lesions which had obviously clinical symptoms .
+
+ppatt:
+	?a is an effective means
+		?a: Surgery
+	?a resect ?b
+		?a: an effective means
+		?b: lesions which had obviously clinical symptoms
+	?a had ?b
+		?a: lesions
+		?b: obviously clinical symptoms
+
+
+label:    sent_4
+sentence: We were able to resect the tumor without leaving any tumor tissue behind .
+
+ppatt:
+	?a were able to resect ?b
+		?a: We
+		?b: the tumor
+	?a leaving ?b
+		?a: We
+		?b: any tumor tissue behind
+
+
+label:    sent_5
+sentence: It was not possible to resect the tumor without sacrificing the ipsilateral vagal nerve .
+
+ppatt:
+	?a was not possible to resect ?b
+		?a: It
+		?b: the tumor
+	?a sacrificing ?b
+		?a: It
+		?b: the ipsilateral vagal nerve
+
+
+label:    sent_6
+sentence: A laparoscopic linear cutting stapler was used to resect the mass at its stalk .
+
+ppatt:
+	?a was used to resect ?b at ?c
+		?a: A laparoscopic linear cutting stapler
+		?b: the mass
+		?c: its stalk
+
+
+label:    sent_7
+sentence: An anterolateral partial vertebrectomy was performed to surgically approach and successfully resect these lesions .
+
+ppatt:
+	?a was performed to surgically approach
+		?a: An anterolateral partial vertebrectomy
+	?a was performed to and successfully resect ?b
+		?a: An anterolateral partial vertebrectomy
+		?b: these lesions
+
+
+label:    sent_8
+sentence: Congenital cyst adenomatoid malformations : resect some and observe all ? An endostapler was used to resect the tumor and close the anterior wall .
+
+ppatt:
+	observe ?a
+		?a: all
+	?a was used to resect ?b
+		?a: An endostapler
+		?b: the tumor
+	?a was used to resect ?b
+		?a: An endostapler
+		?b: close the anterior wall
+
+
+label:    sent_9
+sentence: Shall we resect the tip of manubrium mallei in tympanoplasty ? [ Should we resect all premalignant breast lesions ? ] . However , we could not curatively resect the residual tumor .
+
+ppatt:
+	Shall ?a resect ?b
+		?a: we
+		?b: the tip of manubrium mallei in tympanoplasty
+	Should ?a resect ?b ?c
+		?a: we
+		?b: all premalignant breast lesions
+		?c: ]
+	However , ?a could not curatively resect ?b
+		?a: we
+		?b: the residual tumor
+
+
+label:    sent_10
+sentence: Subglottic stenosis in children is difficult to resect even with the CO2 laser .
+
+ppatt:
+	?a is difficult to resect with ?b
+		?a: Subglottic stenosis in children
+		?b: even the CO2 laser
+
+
+label:    sent_11
+sentence: Gliomas are very difficult to completely resect due to their invasiveness .
+
+ppatt:
+	?a are very difficult to completely resect due to ?b
+		?a: Gliomas
+		?b: their invasiveness
+
+
+label:    sent_12
+sentence: We were able to curatively resect after treatment with imatinib .
+
+ppatt:
+	?a were able to curatively resect after ?b
+		?a: We
+		?b: treatment with imatinib
+
+
+label:    sent_13
+sentence: The usual procedure is to resect when feasible and to transplant in other cases .
+
+ppatt:
+	?a is to resect
+		?a: The usual procedure
+	?a when feasible
+		?a: The usual procedure
+	?a to transplant in ?b
+		?a: The usual procedure
+		?b: other cases
+
+
+label:    sent_14
+sentence: Giant cell tumor with pathologic fracture : should we curette or resect ? Incidentally detected Meckel diverticulum : to resect or not to resect ? At surgery we resect all the tumors and their attachment bases .
+
+ppatt:
+	?a should ?b curette ?c
+		?a: Giant cell tumor with pathologic fracture
+		?b: we
+		?c: Incidentally detected Meckel diverticulum
+	?a resect
+		?a: Giant cell tumor with pathologic fracture
+	?a resect
+		?a: Giant cell tumor with pathologic fracture
+	?a not to resect At ?b
+		?a: Giant cell tumor with pathologic fracture
+		?b: surgery
+	?a resect ?b
+		?a: we
+		?b: the tumors
+	?a resect ?b
+		?a: we
+		?b: their attachment bases
+
+
+label:    sent_15
+sentence: For more accurate diagnosis , we must resect deep and multiple biopsy specimens .
+
+ppatt:
+	For ?a , ?b must resect ?c
+		?a: more accurate diagnosis
+		?b: we
+		?c: deep
+	For ?a , ?b must resect ?c
+		?a: more accurate diagnosis
+		?b: we
+		?c: multiple
+
+
+label:    sent_16
+sentence: Transoral robotic surgery to resect skull base tumors via transpalatal and lateral pharyngeal approaches . upper partial gastrectomy can resect focus of ulcer and decrease secretion of stomach acid .
+
+ppatt:
+	?a resect ?b ?c
+		?a: Transoral robotic surgery
+		?b: skull base tumors
+		?c: via transpalatal and lateral pharyngeal approaches
+	?a ?b can resect ?c
+		?a: Transoral robotic surgery to resect skull base tumors via transpalatal and lateral pharyngeal approaches
+		?b: upper partial gastrectomy
+		?c: focus of ulcer
+	?a decrease ?b
+		?a: Transoral robotic surgery to resect skull base tumors via transpalatal and lateral pharyngeal approaches
+		?b: secretion of stomach acid
+
+
+label:    sent_17
+sentence: This operation can effectively resect the breast tumor and remodel the breast simultaneously .
+
+ppatt:
+	?a can effectively resect ?b
+		?a: This operation
+		?b: the breast tumor
+	?a remodel ?b simultaneously
+		?a: This operation
+		?b: the breast
+
+

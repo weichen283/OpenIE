@@ -1,0 +1,300 @@
+label:    sent_1
+sentence: This method allows to simultaneously transcribe graphically the responses of the patient .
+
+ppatt:
+	?a allows to simultaneously transcribe graphically ?b
+		?a: This method
+		?b: the responses of the patient
+
+
+label:    sent_2
+sentence: It was unable to transcribe poly ( rU ) .
+
+ppatt:
+	?a was unable to transcribe ?b
+		?a: It
+		?b: poly
+	?a is/are rU
+		?a: poly
+
+
+label:    sent_3
+sentence: The enzyme 's ability to transcribe DNA immobilized on hydrazide-sepharose was revealed .
+
+ppatt:
+	?a transcribe ?b
+		?a: The enzyme 's ability
+		?b: DNA immobilized on hydrazide-sepharose
+	?a immobilized on ?b
+		?a: DNA
+		?b: hydrazide-sepharose
+	?a was revealed
+		?a: The enzyme 's ability to transcribe DNA immobilized on hydrazide-sepharose
+
+
+label:    sent_4
+sentence: Both KG1 and KG1a transcribe unrearranged IgH genes .
+
+ppatt:
+	?a transcribe ?b
+		?a: KG1
+		?b: unrearranged IgH genes
+	?a transcribe ?b
+		?a: KG1a
+		?b: unrearranged IgH genes
+
+
+label:    sent_5
+sentence: The in vitro transcription extract does not transcribe yeast tRNA genes .
+
+ppatt:
+	?a does not transcribe ?b
+		?a: The in transcription extract
+		?b: yeast tRNA genes
+
+
+label:    sent_6
+sentence: One of these clones does not transcribe TCR-beta chain mRNA .
+
+ppatt:
+	?a does not transcribe ?b
+		?a: One of these clones
+		?b: TCR-beta chain mRNA
+
+
+label:    sent_7
+sentence: Here a method is proposed to transcribe drawn depsipeptide structures in one-line text .
+
+ppatt:
+	Here ?a is proposed to transcribe ?b in ?c
+		?a: a method
+		?b: drawn depsipeptide structures
+		?c: one-line text
+
+
+label:    sent_8
+sentence: Physicians had to transcribe all BP measurements onto case report forms .
+
+ppatt:
+	?a had to transcribe ?b onto ?c
+		?a: Physicians
+		?b: all BP measurements
+		?c: case report forms
+
+
+label:    sent_9
+sentence: These viruses replicate and transcribe their genomes in the nuclei of infected cells .
+
+ppatt:
+	?a replicate
+		?a: These viruses
+	?a transcribe ?b
+		?a: These viruses
+		?b: their genomes in the nuclei of infected cells
+
+
+label:    sent_10
+sentence: Brattleboro rat hypothalamic neurons transcribe vasopressin gene : evidence from in situ hybridization .
+
+ppatt:
+	?a transcribe ?b
+		?a: Brattleboro rat hypothalamic neurons
+		?b: vasopressin gene
+
+
+label:    sent_11
+sentence: In addition , PEER and Lyon-1 cells transcribe a productively rearranged TCR-beta gene .
+
+ppatt:
+	In ?a , ?b transcribe ?c
+		?a: addition
+		?b: PEER
+		?c: a productively rearranged TCR-beta gene
+	In ?a , ?b transcribe ?c
+		?a: addition
+		?b: Lyon-1
+		?c: a productively rearranged TCR-beta gene
+	In ?a , ?b transcribe ?c
+		?a: addition
+		?b: cells
+		?c: a productively rearranged TCR-beta gene
+
+
+label:    sent_12
+sentence: Distal V beta promoters transcribe novel T-cell receptor-beta transcripts in early development .
+
+ppatt:
+	?a transcribe ?b in ?c
+		?a: Distal V beta promoters
+		?b: novel T-cell receptor-beta transcripts
+		?c: early development
+
+
+label:    sent_13
+sentence: We have found that such roots transcribe rbcS genes and contain rbcS mRNA .
+
+ppatt:
+	?a have found ?b
+		?a: We
+		?b: SOMETHING := such roots transcribe rbcS genes
+	?a transcribe ?b
+		?a: such roots
+		?b: rbcS genes
+	?a contain ?b
+		?a: such roots
+		?b: rbcS mRNA
+
+
+label:    sent_14
+sentence: Students transcribe the interviews verbatim and write reflective papers .
+
+ppatt:
+	?a transcribe ?b verbatim
+		?a: Students
+		?b: the interviews
+	?a write ?b
+		?a: Students
+		?b: reflective papers
+
+
+label:    sent_15
+sentence: Xenopus oocytes transcribe cloned yeast tyrosine tRNA genes and process the RNA .
+
+ppatt:
+	?a transcribe ?b
+		?a: Xenopus oocytes
+		?b: cloned yeast tyrosine tRNA genes
+	?a process ?b
+		?a: Xenopus oocytes
+		?b: the RNA
+
+
+label:    sent_16
+sentence: They contain their own genome and are able to transcribe and to translate it . The researcher used Heideggerian hermeneutical methodology to transcribe and analyze interview texts .
+
+ppatt:
+	?a contain ?b
+		?a: They
+		?b: their own genome
+	translate ?a ?b
+		?a: it
+		?b: The researcher used Heideggerian hermeneutical methodology to transcribe and analyze interview texts
+	?a used ?b
+		?a: The researcher
+		?b: Heideggerian hermeneutical methodology to transcribe and analyze interview texts
+	?a transcribe ?b
+		?a: Heideggerian hermeneutical methodology
+		?b: interview texts
+	analyze ?a
+		?a: interview texts
+
+
+label:    sent_17
+sentence: Conversation analysis was used to transcribe and analyse the data . We will record and transcribe focus groups and interviews and analyse them thematically .
+
+ppatt:
+	?a was used to transcribe ?b
+		?a: Conversation analysis
+		?b: the data
+	?a was used to analyse
+		?a: Conversation analysis
+	?a will record ?b
+		?a: We
+		?b: focus groups
+	?a will record ?b
+		?a: We
+		?b: interviews
+	?a transcribe
+		?a: We
+	?a analyse ?b thematically
+		?a: We
+		?b: them
+
+
+label:    sent_18
+sentence: Furthermore , objective tumour response does not automatically transcribe into better survival . Nucleolar organizer regions [ NORs ] are loops of DNA that transcribe to ribosomal RNA .
+
+ppatt:
+	Furthermore , ?a does not automatically transcribe into ?b
+		?a: objective tumour response
+		?b: better survival
+	?a is/are NORs
+		?a: Nucleolar organizer regions
+	?a are loops of ?b
+		?a: Nucleolar organizer regions
+		?b: DNA that transcribe to ribosomal RNA
+	?a transcribe to ?b
+		?a: DNA
+		?b: ribosomal RNA
+
+
+label:    sent_19
+sentence: Nucleolar organizer regions [ NORS ] are loops of DNA that transcribe to ribosomal RNA .
+
+ppatt:
+	?a are loops of ?b
+		?a: Nucleolar organizer regions [ NORS ]
+		?b: DNA that transcribe to ribosomal RNA
+	?a transcribe to ?b
+		?a: DNA
+		?b: ribosomal RNA
+
+
+label:    sent_20
+sentence: Monocytes transcribe and correctly process transcripts encoding the constituent proteins of the ASGPR .
+
+ppatt:
+	?a transcribe
+		?a: Monocytes
+	?a correctly process ?b
+		?a: Monocytes
+		?b: transcripts encoding the constituent proteins of the ASGPR
+	?a encoding ?b
+		?a: transcripts
+		?b: the constituent proteins of the ASGPR
+
+
+label:    sent_21
+sentence: The gene was subcloned so that antisense will transcribe and called pcDNA-rPTR .
+
+ppatt:
+	?a was subcloned so ?b
+		?a: The gene
+		?b: SOMETHING := antisense will transcribe
+	?a will transcribe
+		?a: antisense
+	?a called pcDNA-rPTR
+		?a: antisense
+
+
+label:    sent_22
+sentence: These cells transcribe but do not express globin genes prior to induction .
+
+ppatt:
+	?a transcribe
+		?a: These cells
+	?a do not express ?b prior to ?c
+		?a: These cells
+		?b: globin genes
+		?c: induction
+
+
+label:    sent_23
+sentence: Yeast cells unable to transcribe tcm1 or cyh2 without galactose did not grow . HIV also possesses the unusual capacity to transcribe from non-integrated DNA .
+
+ppatt:
+	transcribe ?a without ?b
+		?a: tcm1
+		?b: galactose
+	transcribe ?a without ?b
+		?a: cyh2
+		?b: galactose
+	?a ?b also possesses ?c
+		?a: Yeast cells unable to transcribe tcm1 or cyh2 without galactose
+		?b: HIV
+		?c: the unusual capacity to transcribe from non-integrated DNA
+	?a transcribe from ?b
+		?a: the unusual capacity
+		?b: non-integrated DNA
+
+

@@ -1,0 +1,205 @@
+label:    sent_1
+sentence: Active brain stimulation to abate epileptic seizures has shown mixed success .
+
+ppatt:
+	?a abate ?b
+		?a: Active brain stimulation
+		?b: epileptic seizures
+	?a has shown ?b
+		?a: Active brain stimulation to abate epileptic seizures
+		?b: mixed success
+
+
+label:    sent_2
+sentence: A single 200-mg dose of pramiconazole appears to abate seborrheic dermatitis .
+
+ppatt:
+	?a appears to abate ?b
+		?a: A single 200-mg dose of pramiconazole
+		?b: seborrheic dermatitis
+
+
+label:    sent_3
+sentence: ESTs are clustered and assembled to elongate the sequence length and abate redundancy .
+
+ppatt:
+	?a are clustered to elongate ?b
+		?a: ESTs
+		?b: the sequence length
+	?a assembled
+		?a: ESTs
+	?a abate ?b
+		?a: ESTs
+		?b: redundancy
+
+
+label:    sent_4
+sentence: In patients without a prior history of reflux , symptoms usually abate after delivery .
+
+ppatt:
+	In ?a , ?b usually abate after ?c
+		?a: patients without a prior history of reflux
+		?b: symptoms
+		?c: delivery
+
+
+label:    sent_5
+sentence: The disease did not abate for from one to several years .
+
+ppatt:
+	?a did not abate for from ?b ?c
+		?a: The disease
+		?b: one
+		?c: to several years
+
+
+label:    sent_6
+sentence: These adverse effects usually abate with time . Hyperactive-impulsive symptoms were more likely to abate than inattentive symptoms .
+
+ppatt:
+	?a usually abate with ?b
+		?a: These adverse effects
+		?b: time
+	?a were more likely to abate than ?b
+		?a: Hyperactive-impulsive symptoms
+		?b: inattentive symptoms
+
+
+label:    sent_7
+sentence: These changes tended to abate with time .
+
+ppatt:
+	?a tended to abate with ?b
+		?a: These changes
+		?b: time
+
+
+label:    sent_8
+sentence: Her symptoms failed to abate with outpatient azithromycin for a diagnosis of community-acquired pneumonia .
+
+ppatt:
+	?a failed to abate with ?b for ?c
+		?a: Her symptoms
+		?b: outpatient azithromycin
+		?c: a diagnosis of community-acquired pneumonia
+
+
+label:    sent_9
+sentence: Pharmacological augmentation of this pathway could abate pathological glomerular remodeling . MHV persistence selects for resistant host cell populations which abate virus replication .
+
+ppatt:
+	?a could abate ?b
+		?a: Pharmacological augmentation of this pathway
+		?b: pathological glomerular remodeling
+	?a selects for ?b
+		?a: MHV persistence
+		?b: resistant host cell populations which abate virus replication
+	?a abate ?b
+		?a: resistant host cell populations
+		?b: virus replication
+
+
+label:    sent_10
+sentence: It is inferred that IVIg and CsA do not completely abate the TEN process .
+
+ppatt:
+	?a is inferred ?b
+		?a: It
+		?b: SOMETHING := IVIg and CsA do not completely abate the TEN process
+	?a do not completely abate ?b
+		?a: IVIg
+		?b: the TEN process
+	?a do not completely abate ?b
+		?a: CsA
+		?b: the TEN process
+
+
+label:    sent_11
+sentence: Cost pressures on system will not soon abate .
+
+ppatt:
+	?a will not soon abate
+		?a: Cost pressures on system
+
+
+label:    sent_12
+sentence: Panic disorder : residual symptoms after the acute attacks abate .
+
+ppatt:
+
+
+
+label:    sent_13
+sentence: Symptoms abate when the protease inhibitors are discontinued .
+
+ppatt:
+	?a abate
+		?a: Symptoms
+	when ?a are discontinued
+		?a: the protease inhibitors
+
+
+label:    sent_14
+sentence: Etidronate was serendipitously found to abate calcification in a child with myositis ossificans progressiva . Antibiotic treatment eliminated detectable levels of enteric pathogens but did not abate symptoms .
+
+ppatt:
+	?a was serendipitously found to abate ?b in ?c
+		?a: Etidronate
+		?b: calcification
+		?c: a child with myositis ossificans progressiva
+	?a eliminated ?b
+		?a: Antibiotic treatment
+		?b: detectable levels of enteric pathogens
+	?a did not abate ?b
+		?a: Antibiotic treatment
+		?b: symptoms
+
+
+label:    sent_15
+sentence: Posaconazole may abate onychomycosis and dermatophytes , but clinical trial data is lacking .
+
+ppatt:
+	?a may abate ?b
+		?a: Posaconazole
+		?b: onychomycosis
+	?a may abate ?b
+		?a: Posaconazole
+		?b: dermatophytes
+	?a is lacking
+		?a: clinical trial data
+
+
+label:    sent_16
+sentence: The high fevers of presenting patients spontaneously abate and then recur .
+
+ppatt:
+	?a spontaneously abate
+		?a: The high fevers of presenting patients
+	?a then recur
+		?a: The high fevers of presenting patients
+
+
+label:    sent_17
+sentence: However , malaise and digestive symptoms did not abate and the patient died .
+
+ppatt:
+	However , ?a did not abate
+		?a: malaise
+	However , ?a did not abate
+		?a: digestive
+	?a died
+		?a: the patient
+
+
+label:    sent_18
+sentence: Proteinuria : abate or applaud abatacept in proteinuric kidney disease ? Most of the reactions are uneventful and abate with drug discontinuation .
+
+ppatt:
+	?a ?b are uneventful
+		?a: Proteinuria
+		?b: Most of the reactions
+	?a abate with ?b
+		?a: Proteinuria
+		?b: drug discontinuation
+
+

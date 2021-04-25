@@ -1,0 +1,153 @@
+label:    sent_1
+sentence: Wasps , hornets , and yellow jackets can sting multiple times . Group insurance losses sting hospitals .
+
+ppatt:
+	?a can sting ?b ?c
+		?a: Wasps
+		?b: multiple times . Group insurance losses
+		?c: sting hospitals
+	?a can sting ?b ?c
+		?a: hornets
+		?b: multiple times . Group insurance losses
+		?c: sting hospitals
+	?a can sting ?b ?c
+		?a: yellow jackets
+		?b: multiple times . Group insurance losses
+		?c: sting hospitals
+
+
+label:    sent_2
+sentence: Insect sting allergy . BBA cuts to sting hospital finances more than anticipated , yet another study shows .
+
+ppatt:
+	?a ?b cuts to ?c more
+		?a: Insect sting allergy
+		?b: BBA
+		?c: sting hospital finances
+	?a than anticipated
+		?a: Insect sting allergy
+	?a shows
+		?a: another study
+
+
+label:    sent_3
+sentence: The patient reported a wasp sting a few minutes before the accident .
+
+ppatt:
+	?a reported ?b
+		?a: The patient
+		?b: a wasp sting a few minutes before the accident
+	?a sting ?b before ?c
+		?a: a wasp
+		?b: a few minutes
+		?c: the accident
+
+
+label:    sent_4
+sentence: To report a case of chronic keratouveitis caused by a missed bee sting injury . Nitroglycerine in scorpion sting with decompensated shock .
+
+ppatt:
+	report ?a
+		?a: a case of chronic keratouveitis caused by a missed bee sting injury
+	?a caused by ?b
+		?a: chronic keratouveitis
+		?b: a missed bee sting injury
+
+
+label:    sent_5
+sentence: Corneal injury by bee sting with retained stinger --a case report .
+
+ppatt:
+
+
+
+label:    sent_6
+sentence: Scorpion sting on the penis .
+
+ppatt:
+
+
+
+label:    sent_7
+sentence: Survival after anaphylaxis induced by a bumblebee sting in a dog . Acute optic neuropathy may follow Hymenoptera sting to the face .
+
+ppatt:
+	?a induced by ?b
+		?a: anaphylaxis
+		?b: a bumblebee sting in a dog . Acute optic neuropathy
+	?a may follow ?b to ?c
+		?a: Survival after anaphylaxis induced by a bumblebee sting in a dog . Acute optic neuropathy
+		?b: Hymenoptera sting
+		?c: the face
+
+
+label:    sent_8
+sentence: Fire ants were unable to sting through all socks tested .
+
+ppatt:
+	?a were unable to sting through ?b
+		?a: Fire ants
+		?b: all socks tested
+	?a tested
+		?a: all socks
+
+
+label:    sent_9
+sentence: Bee sting nephropathy in a transplant patient .
+
+ppatt:
+
+
+
+label:    sent_10
+sentence: Impact of fire ant sting morbidity in South Carolina .
+
+ppatt:
+
+
+
+label:    sent_11
+sentence: Infantile multicystic encephalomalacia after maternal bee sting anaphylaxis during pregnancy . Snake-bites and scorpion sting . The sting . The sting . This paper reports a case of spontaneous fire ant sting dermatitis in canine .
+
+ppatt:
+	?a is/are The sting
+		?a: The sting
+	?a ?b reports ?c
+		?a: Infantile multicystic encephalomalacia after maternal bee sting anaphylaxis during pregnancy
+		?b: This paper
+		?c: a case of spontaneous fire ant sting dermatitis in canine
+	?a ?b reports ?c
+		?a: Snake-bites
+		?b: This paper
+		?c: a case of spontaneous fire ant sting dermatitis in canine
+
+
+label:    sent_12
+sentence: [Hymenoptera sting arthropathy as an occupational injury : a case report ] . [ The sting method in the treatment of ureteral reflux ] . Most animals can bite or sting . To sting or be stung : bacteria-induced apoptosis .
+
+ppatt:
+	?a ?b can bite ?c
+		?a: a case report . [ The sting method in the treatment of ureteral reflux ]
+		?b: Most animals
+		?c: bacteria-induced apoptosis
+	?a sting
+		?a: Most animals
+	?a To sting
+		?a: Most animals
+
+
+label:    sent_13
+sentence: The injections sting and leave marks that last more than a week ' .
+
+ppatt:
+	?a sting ?b than ?c
+		?a: The injections
+		?b: marks
+		?c: a week
+	?a leave
+		?a: The injections
+	?a last more than ?b
+		?a: that
+		?b: a week
+
+

@@ -1,0 +1,291 @@
+label:    sent_1
+sentence: [Does trauma help teenagers to " grow up " ? ] . The isolate was able to grow on various carbohydrates or complex proteinaceous substances . B. bronchiseptica was investigated because it is easier to grow than B. pertussis .
+
+ppatt:
+	?a help ?b to " grow ?c ?d
+		?a: [Does trauma
+		?b: teenagers
+		?c: "
+		?d: ]
+	?a was able to grow on ?b
+		?a: The isolate
+		?b: various carbohydrates
+	?a was able to grow on ?b
+		?a: The isolate
+		?b: complex proteinaceous substances
+	?a was investigated
+		?a: B. bronchiseptica
+	?a is easier to grow than ?b
+		?a: it
+		?b: B. pertussis
+
+
+label:    sent_2
+sentence: Two trials suggested that LCPUFA supplemented infants grow less well than controls .
+
+ppatt:
+	?a suggested ?b
+		?a: Two trials
+		?b: SOMETHING := LCPUFA supplemented infants grow less well than controls
+	?a grow less well than ?b
+		?a: LCPUFA supplemented infants
+		?b: controls
+
+
+label:    sent_3
+sentence: Microorganisms did not grow in soda-lime cultures . Strain N75 ( T ) did not grow in medium containing NaCl .
+
+ppatt:
+	?a did not grow in ?b
+		?a: Microorganisms
+		?b: soda-lime cultures
+	?a is/are T
+		?a: N75
+	?a did not grow in ?b
+		?a: Strain
+		?b: medium containing NaCl
+	?a containing ?b
+		?a: medium
+		?b: NaCl
+
+
+label:    sent_4
+sentence: Despite this specific expression , ECAT11-null mice grow normally and are fertile . SSPs are a minority but they grow with proteome size .
+
+ppatt:
+	Despite ?a , ?b grow normally
+		?a: this specific expression
+		?b: ECAT11-null mice
+	?a are a minority
+		?a: SSPs
+	?a grow with ?b
+		?a: they
+		?b: proteome size
+
+
+label:    sent_5
+sentence: Yeasts in culture media grow exponentially in early period but eventually stop growing .
+
+ppatt:
+	?a grow exponentially in ?b
+		?a: Yeasts in culture media
+		?b: early period
+	?a eventually stop growing
+		?a: Yeasts in culture media
+
+
+label:    sent_6
+sentence: Issatchenkia orientalis could only grow when enough oxygen was available .
+
+ppatt:
+	?a could only grow
+		?a: Issatchenkia orientalis
+	when ?a was available
+		?a: enough oxygen
+
+
+label:    sent_7
+sentence: The thermal motion of atoms causes the average particle speed to grow . Alga-free paramecia and symbiotic algae can grow independently .
+
+ppatt:
+	?a causes ?b to grow
+		?a: The thermal motion of atoms
+		?b: the average particle speed
+	?a can grow independently
+		?a: Alga-free paramecia
+	?a can grow independently
+		?a: symbiotic algae
+
+
+label:    sent_8
+sentence: They are single crystals with monoclinic structure and grow along the [010 ] direction .
+
+ppatt:
+	?a are single crystals with ?b
+		?a: They
+		?b: monoclinic structure
+	?a grow along ?b
+		?a: They
+		?b: the [010 ] direction
+
+
+label:    sent_9
+sentence: Cells adhered poorly to and did not grow on untreated Dacron and PTFE .
+
+ppatt:
+	?a adhered poorly ?b
+		?a: Cells
+		?b: to
+	?a did not grow on ?b
+		?a: Cells
+		?b: untreated Dacron
+	?a did not grow on ?b
+		?a: Cells
+		?b: PTFE
+
+
+label:    sent_10
+sentence: Thirty minutes CTC-treatment cause growing tubes to bend and grow back toward the grain .
+
+ppatt:
+	?a cause ?b to bend
+		?a: Thirty minutes CTC-treatment
+		?b: growing tubes
+	?a cause to grow back toward ?b
+		?a: Thirty minutes CTC-treatment
+		?b: the grain
+
+
+label:    sent_11
+sentence: Nurse-leaders use mentorship to grow and develop leadership potential in other nurses .
+
+ppatt:
+	?a use ?b to grow ?c
+		?a: Nurse-leaders
+		?b: mentorship
+		?c: leadership potential in other nurses
+	?a use to develop
+		?a: Nurse-leaders
+
+
+label:    sent_12
+sentence: It is possible to isolate mutants that grow and replicate outside prey bacteria .
+
+ppatt:
+	?a is possible to isolate ?b
+		?a: It
+		?b: mutants that grow and replicate outside prey bacteria
+	?a grow
+		?a: mutants
+	?a replicate outside ?b
+		?a: that
+		?b: prey bacteria
+
+
+label:    sent_13
+sentence: The pulmonary system continues to grow and develop until linear growth is completed .
+
+ppatt:
+	?a continues to grow until ?b
+		?a: The pulmonary system
+		?b: linear growth
+	?a continues to develop
+		?a: The pulmonary system
+	?a is completed
+		?a: The pulmonary system
+
+
+label:    sent_14
+sentence: Three mutants were saprophytic , and two mutants could grow axenically . Smaller SAAs ( <2 cm ) grow slowly and carry a negligible rupture risk .
+
+ppatt:
+	?a were saprophytic
+		?a: Three mutants
+	?a could grow axenically
+		?a: two mutants
+	?a is/are <2 cm
+		?a: Smaller SAAs
+	?a grow slowly
+		?a: Smaller SAAs
+	?a carry ?b
+		?a: Smaller SAAs
+		?b: a negligible rupture risk
+
+
+label:    sent_15
+sentence: We confirm that most renal masses grow slowly and carry a low metastatic potential .
+
+ppatt:
+	?a confirm ?b
+		?a: We
+		?b: SOMETHING := most renal masses grow slowly
+	?a grow slowly
+		?a: most renal masses
+	?a carry ?b
+		?a: most renal masses
+		?b: a low metastatic potential
+
+
+label:    sent_16
+sentence: How to grow a mind : statistics , structure , and abstraction .
+
+ppatt:
+	How to grow ?a
+		?a: a mind
+
+
+label:    sent_17
+sentence: Magnetic field-magnetic nanoparticle culture system used to grow in vitro murine embryonic stem cells .
+
+ppatt:
+	?a used to grow ?b
+		?a: Magnetic field-magnetic nanoparticle culture system
+		?b: in murine embryonic stem cells
+
+
+label:    sent_18
+sentence: Samples from suspected cases often fail to grow Mucorales in microbiologic cultures .
+
+ppatt:
+	?a often fail to grow ?b in ?c
+		?a: Samples from suspected cases
+		?b: Mucorales
+		?c: microbiologic cultures
+
+
+label:    sent_19
+sentence: Our aim was to grow an endothelial layer on a substratum suitable for transplant .
+
+ppatt:
+	?a was to grow ?b on ?c
+		?a: Our aim
+		?b: an endothelial layer
+		?c: a substratum suitable for transplant
+
+
+label:    sent_20
+sentence: Many attempts have been made to grow immature oocytes in vitro during recent decades .
+
+ppatt:
+	?a have been made to grow ?b in vitro during ?c
+		?a: Many attempts
+		?b: immature oocytes
+		?c: recent decades
+
+
+label:    sent_21
+sentence: An attempt to grow those diploid cells on microcarriers resulted in a failure .
+
+ppatt:
+	?a grow ?b on ?c
+		?a: An attempt
+		?b: those diploid cells
+		?c: microcarriers
+	?a resulted in ?b
+		?a: An attempt to grow those diploid cells on microcarriers
+		?b: a failure
+
+
+label:    sent_22
+sentence: This is the direct substratum that pioneer axons follow as they grow . Can amorphous nuclei grow crystalline clathrates ? Stimulation of beta cells : trying to reap what we grow .
+
+ppatt:
+	?a is the direct substratum ?b
+		?a: This
+		?b: SOMETHING := pioneer axons follow as they grow
+	?a follow
+		?a: pioneer axons
+	?a grow
+		?a: they
+	Can ?a grow ?b ?c
+		?a: amorphous nuclei
+		?b: crystalline clathrates
+		?c: Stimulation of beta cells
+	?a trying to reap ?b
+		?a: This
+		?b: SOMETHING := what we grow
+	?a ?b grow
+		?a: what
+		?b: we
+
+

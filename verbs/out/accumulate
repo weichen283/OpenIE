@@ -1,0 +1,320 @@
+label:    sent_1
+sentence: How organic anions accumulate in hepatocytes lacking Mrp2 : evidence in rat liver .
+
+ppatt:
+	How ?a accumulate in ?b
+		?a: organic anions
+		?b: hepatocytes lacking Mrp2
+	?a lacking ?b
+		?a: hepatocytes
+		?b: Mrp2
+
+
+label:    sent_2
+sentence: Potentially , atherogenic remnants of TG-rich lipoproteins accumulate in the postprandial state .
+
+ppatt:
+	Potentially , ?a accumulate in ?b
+		?a: atherogenic remnants of TG-rich lipoproteins
+		?b: the postprandial state
+
+
+label:    sent_3
+sentence: This may suggest that higher chlorinated congeners accumulate more readily in meat tissues .
+
+ppatt:
+	?a may suggest ?b
+		?a: This
+		?b: SOMETHING := higher chlorinated congeners accumulate more readily in meat tissues
+	?a accumulate more readily in ?b
+		?a: higher chlorinated congeners
+		?b: meat tissues
+
+
+label:    sent_4
+sentence: When released into an aquatic environment , SiCNW would likely accumulate in sediment .
+
+ppatt:
+	When released into ?a ?b
+		?a: an aquatic environment
+		?b: SiCNW
+	?a would likely accumulate in ?b
+		?a: SiCNW
+		?b: sediment
+
+
+label:    sent_5
+sentence: In plants , GABA is known to accumulate under a variety of stresses .
+
+ppatt:
+	In ?a , ?b is known to accumulate under ?c
+		?a: plants
+		?b: GABA
+		?c: a variety of stresses
+
+
+label:    sent_6
+sentence: Our results show that CLL cells with genetic alterations tend to accumulate in PCs .
+
+ppatt:
+	?a show ?b
+		?a: Our results
+		?b: SOMETHING := CLL cells with genetic alterations tend to accumulate in PCs
+	?a tend to accumulate in ?b
+		?a: CLL cells with genetic alterations
+		?b: PCs
+
+
+label:    sent_7
+sentence: Predatory fish tend to accumulate high levels of mercury ( Hg ) . Recent data indicate that bacteria--although short lived -- produce , metabolize and accumulate AGEs .
+
+ppatt:
+	?a tend to accumulate ?b
+		?a: Predatory fish
+		?b: high levels of mercury
+	?a is/are Hg
+		?a: mercury
+	?a indicate ?b
+		?a: Recent data
+		?b: SOMETHING := that produce
+	?a produce
+		?a: Recent data
+	?a metabolize ?b
+		?a: Recent data
+		?b: AGEs
+	?a accumulate
+		?a: Recent data
+
+
+label:    sent_8
+sentence: A better phytoremediation strategy would be to accumulate mercury inside plants for subsequent retrieval .
+
+ppatt:
+	?a would be to accumulate ?b inside ?c for ?d
+		?a: A better phytoremediation strategy
+		?b: mercury
+		?c: plants
+		?d: subsequent retrieval
+
+
+label:    sent_9
+sentence: In hyperlipidemia , oxidized lipids accumulate in vascular tissues and trigger atherosclerosis .
+
+ppatt:
+	In ?a , ?b accumulate in ?c
+		?a: hyperlipidemia
+		?b: oxidized lipids
+		?c: vascular tissues
+	?a trigger ?b
+		?a: oxidized lipids
+		?b: atherosclerosis
+
+
+label:    sent_10
+sentence: On loss of E-cadherin , cytoplasmic p120ctn might accumulate and contribute to tumor malignancy .
+
+ppatt:
+	On ?a , ?b might accumulate
+		?a: loss of E-cadherin
+		?b: cytoplasmic p120ctn
+	?a contribute to ?b
+		?a: cytoplasmic p120ctn
+		?b: tumor malignancy
+
+
+label:    sent_11
+sentence: During aging , the products of oxidative processes accumulate and might disturb cellular metabolism .
+
+ppatt:
+	During ?a , ?b accumulate
+		?a: aging
+		?b: the products of oxidative processes
+	?a might disturb ?b
+		?a: the products of oxidative processes
+		?b: cellular metabolism
+
+
+label:    sent_12
+sentence: Human breast tumors accumulate abnormally high levels of zinc ( Zn ) . Macrophages in arterial walls accumulate lipids leading to the development of atherosclerotic plaques .
+
+ppatt:
+	?a accumulate ?b
+		?a: Human breast tumors
+		?b: abnormally high levels of zinc
+	?a is/are Zn
+		?a: zinc
+	?a accumulate ?b
+		?a: Macrophages in arterial walls
+		?b: lipids leading to the development of atherosclerotic plaques
+	?a leading to ?b
+		?a: lipids
+		?b: the development of atherosclerotic plaques
+
+
+label:    sent_13
+sentence: Emergency physicians accumulate more stress factors than other physicians-results from the French SESMAT study .
+
+ppatt:
+	?a accumulate ?b than ?c
+		?a: Emergency physicians
+		?b: more stress factors
+		?c: other physicians-results from the French SESMAT study
+
+
+label:    sent_14
+sentence: The protocells do not accumulate virus during the inactivation process . Rainbow smelt accumulate high amounts of glycerol in winter .
+
+ppatt:
+	?a do not accumulate ?b during ?c
+		?a: The protocells
+		?b: virus
+		?c: the inactivation process
+	?a accumulate ?b
+		?a: Rainbow smelt
+		?b: high amounts of glycerol in winter
+
+
+label:    sent_15
+sentence: Sorbus aucuparia cell cultures accumulate biphenyl and dibenzofuran phytoalexins in response to elicitor treatment .
+
+ppatt:
+	?a accumulate ?b to ?c
+		?a: Sorbus aucuparia cell cultures
+		?b: biphenyl
+		?c: elicitor treatment
+	?a accumulate ?b to ?c
+		?a: Sorbus aucuparia cell cultures
+		?b: dibenzofuran
+		?c: elicitor treatment
+	?a accumulate ?b to ?c
+		?a: Sorbus aucuparia cell cultures
+		?b: phytoalexins
+		?c: elicitor treatment
+
+
+label:    sent_16
+sentence: Control cultures were able to accumulate polyphosphate under the conditions used . A 0.1 % CLA diet was not sufficient to accumulate CLA in the silkworms .
+
+ppatt:
+	?a were able to accumulate ?b under ?c
+		?a: Control cultures
+		?b: polyphosphate
+		?c: the conditions used
+	?a used
+		?a: the conditions
+	?a was not sufficient to accumulate ?b in ?c
+		?a: A 0.1 % CLA diet
+		?b: CLA
+		?c: the silkworms
+
+
+label:    sent_17
+sentence: The cells treated with ethanol started to accumulate triglyceride vesicles at day seven .
+
+ppatt:
+	?a treated with ?b
+		?a: The cells
+		?b: ethanol
+	?a started to accumulate ?b at ?c
+		?a: The cells treated with ethanol
+		?b: triglyceride vesicles
+		?c: day seven
+
+
+label:    sent_18
+sentence: Mutant protein is rapidly cleared and does not accumulate in oligodendroglial cells .
+
+ppatt:
+	?a is rapidly cleared
+		?a: Mutant protein
+	?a does not accumulate in ?b
+		?a: Mutant protein
+		?b: oligodendroglial cells
+
+
+label:    sent_19
+sentence: Ultimately , genetic changes are produced indirectly or accumulate from endogenous genotoxic agents .
+
+ppatt:
+	Ultimately , ?a are produced indirectly
+		?a: genetic changes
+	?a accumulate from ?b
+		?a: genetic changes
+		?b: endogenous genotoxic agents
+
+
+label:    sent_20
+sentence: Within cells they are transferred to and accumulate in nuclei by a temperature-dependent process .
+
+ppatt:
+	Within ?a ?b are transferred ?c by ?d
+		?a: cells
+		?b: they
+		?c: to
+		?d: a temperature-dependent process
+	?a accumulate in ?b
+		?a: they
+		?b: nuclei
+
+
+label:    sent_21
+sentence: Because they accumulate , these adducts provide a dosimeter of oxidative injury . As toxic species accumulate , autophagy-lysosomal protein degradation pathways are activated .
+
+ppatt:
+	?a accumulate
+		?a: they
+	?a provide ?b
+		?a: these adducts
+		?b: a dosimeter of oxidative injury
+	?a accumulate
+		?a: toxic species
+	?a are activated
+		?a: autophagy-lysosomal protein degradation pathways
+
+
+label:    sent_22
+sentence: Data accumulate suggesting a link between physical activity and cancer survival .
+
+ppatt:
+	?a accumulate suggesting ?b
+		?a: Data
+		?b: a link between physical activity and cancer survival
+
+
+label:    sent_23
+sentence: If EPCs accumulate more and stay longer there , neovascularization will be augmented .
+
+ppatt:
+	?a accumulate ?b
+		?a: EPCs
+		?b: more
+	?a stay longer
+		?a: EPCs
+	there , ?a will be augmented
+		?a: neovascularization
+
+
+label:    sent_24
+sentence: All organs accumulate isoaspartyl proteins , but only the brain manifests an overt pathology .
+
+ppatt:
+	?a accumulate ?b
+		?a: All organs
+		?b: isoaspartyl proteins
+	?a manifests ?b
+		?a: only the brain
+		?b: an overt pathology
+
+
+label:    sent_25
+sentence: Subendothelial macrophages accumulate cholesteryl ester and become the foam cells of the fatty streak .
+
+ppatt:
+	?a accumulate ?b
+		?a: Subendothelial macrophages
+		?b: cholesteryl ester
+	?a become the foam cells of ?b
+		?a: Subendothelial macrophages
+		?b: the fatty streak
+
+

@@ -1,0 +1,332 @@
+label:    sent_1
+sentence: Multivariable models were used to derive relative risks and 95 % confidence intervals .
+
+ppatt:
+	?a were used to derive ?b
+		?a: Multivariable models
+		?b: relative risks
+	?a were used to derive ?b
+		?a: Multivariable models
+		?b: 95 % confidence intervals
+
+
+label:    sent_2
+sentence: To derive a more precise estimation of the relationship , a meta-analysis was performed .
+
+ppatt:
+	derive ?a ?b
+		?a: a more precise estimation of the relationship
+		?b: a meta-analysis
+	?a was performed
+		?a: a meta-analysis
+
+
+label:    sent_3
+sentence: Verbatim reports of issues that hindered workforce participation were analysed qualitatively to derive themes . Data derive from the National Health and Nutrition Examination Survey ( NHANES ) 1999-2004 .
+
+ppatt:
+	?a hindered ?b
+		?a: issues
+		?b: workforce participation
+	?a were analysed qualitatively to derive ?b
+		?a: Verbatim reports of issues that hindered workforce participation
+		?b: themes
+	?a derive from ?b
+		?a: Data
+		?b: the National Health
+	?a derive from ?b
+		?a: Data
+		?b: Nutrition Examination Survey ( NHANES ) 1999-2004
+
+
+label:    sent_4
+sentence: Diverse cellular activities may derive from the interaction of cortactin with site-specific binding partners .
+
+ppatt:
+	?a may derive from ?b
+		?a: Diverse cellular activities
+		?b: the interaction of cortactin with site-specific binding partners
+
+
+label:    sent_5
+sentence: Mammalian oocytes and spermatozoa derive from fetal cells shared by the sexes .
+
+ppatt:
+	?a derive from ?b
+		?a: Mammalian oocytes
+		?b: fetal cells shared by the sexes
+	?a derive from ?b
+		?a: spermatozoa
+		?b: fetal cells shared by the sexes
+	?a shared by ?b
+		?a: fetal cells
+		?b: the sexes
+
+
+label:    sent_6
+sentence: We derive analytical conditions that characterize this optimal amount of delay .
+
+ppatt:
+	?a derive ?b
+		?a: We
+		?b: analytical conditions that characterize this optimal amount of delay
+	?a characterize ?b
+		?a: analytical conditions
+		?b: this optimal amount of delay
+
+
+label:    sent_7
+sentence: We derive an easily calculated condition to determine an effective constant control .
+
+ppatt:
+	?a derive ?b
+		?a: We
+		?b: an easily calculated condition
+	?a determine ?b
+		?a: We
+		?b: an effective constant control
+
+
+label:    sent_8
+sentence: Thus , we could derive a new parameter : diffusion per unit volume .
+
+ppatt:
+	Thus , ?a could derive ?b
+		?a: we
+		?b: a new parameter
+
+
+label:    sent_9
+sentence: For small effect sizes , we derive simple approximations in analytically closed form . Highly angiogenic tumors may not derive sufficient benefit from dose intensification of chemotherapy alone .
+
+ppatt:
+	For ?a , ?b derive ?c
+		?a: small effect sizes
+		?b: we
+		?c: simple approximations in analytically closed form
+	?a may not derive ?b from ?c
+		?a: Highly angiogenic tumors
+		?b: sufficient benefit
+		?c: dose intensification of chemotherapy alone
+
+
+label:    sent_10
+sentence: We then derive the formula without any phenomenological assumptions .
+
+ppatt:
+	?a then derive ?b without ?c
+		?a: We
+		?b: the formula
+		?c: any phenomenological assumptions
+
+
+label:    sent_11
+sentence: Fortunately , some microorganisms are able to derive energy from acrylamide .
+
+ppatt:
+	Fortunately , ?a are able to derive ?b
+		?a: some microorganisms
+		?b: energy from acrylamide
+
+
+label:    sent_12
+sentence: A correction factor was calculated to derive real values from measured values .
+
+ppatt:
+	?a was calculated to derive ?b
+		?a: A correction factor
+		?b: real values from measured values
+
+
+label:    sent_13
+sentence: A method is presented to derive the internal forces from the potential energy distribution .
+
+ppatt:
+	?a is presented to derive ?b
+		?a: A method
+		?b: the internal forces from the potential energy distribution
+
+
+label:    sent_14
+sentence: Human platelets express mRNA for the G protein-coupled receptors LPA1-7 that derive from megakaryocytes .
+
+ppatt:
+	?a express ?b
+		?a: Human platelets
+		?b: mRNA for the G protein-coupled receptors that derive from megakaryocytes
+	?a derive from ?b
+		?a: the G protein-coupled receptors
+		?b: megakaryocytes
+
+
+label:    sent_15
+sentence: One appeared to derive from actinomycetes , and the other from non-actinomycetes .
+
+ppatt:
+	?a appeared to derive from ?b
+		?a: One
+		?b: actinomycetes
+
+
+label:    sent_16
+sentence: So we supposed the S2121 ( 900 ) may also derive from mitochondrial genome .
+
+ppatt:
+	So ?a supposed ?b ?c
+		?a: we
+		?b: the S2121
+		?c: SOMETHING := may also derive from mitochondrial genome
+	?a is/are 900
+		?a: the S2121
+	?a may also derive from ?b
+		?a: we
+		?b: mitochondrial genome
+
+
+label:    sent_17
+sentence: We derive the optimality system and solve it numerically .
+
+ppatt:
+	?a derive ?b
+		?a: We
+		?b: the optimality system
+	?a solve ?b numerically
+		?a: We
+		?b: it
+
+
+label:    sent_18
+sentence: We derive the general form of this ratio and approximate it in realistic cases .
+
+ppatt:
+	?a derive ?b
+		?a: We
+		?b: the general form of this ratio
+	?a approximate ?b in ?c
+		?a: We
+		?b: it
+		?c: realistic cases
+
+
+label:    sent_19
+sentence: We derive a test statistic for the RVM and compare it with other methods .
+
+ppatt:
+	?a derive ?b
+		?a: We
+		?b: a test statistic for the RVM
+	?a compare ?b with ?c
+		?a: We
+		?b: it
+		?c: other methods
+
+
+label:    sent_20
+sentence: To empirically derive dietary patterns and examine their association with incident type 2 diabetes .
+
+ppatt:
+	empirically derive ?a
+		?a: dietary patterns
+	examine ?a
+		?a: their association with incident type 2 diabetes
+
+
+label:    sent_21
+sentence: The findings were then used to derive requirements and design a TSA augmentative display .
+
+ppatt:
+	?a were then used to derive ?b
+		?a: The findings
+		?b: requirements
+	?a were then used to design ?b
+		?a: The findings
+		?b: a TSA augmentative display
+
+
+label:    sent_22
+sentence: A Bayesian meta-regression method was used to pool prevalence and derive missing age/sex/region/year values .
+
+ppatt:
+	?a was used to pool ?b
+		?a: A Bayesian meta-regression method
+		?b: prevalence
+	?a was used to derive ?b
+		?a: A Bayesian meta-regression method
+		?b: missing age/sex/region/year values
+
+
+label:    sent_23
+sentence: Secondary response clones derive from IgG1 precursors and express highly mutated V regions .
+
+ppatt:
+	?a derive from ?b
+		?a: Secondary response clones
+		?b: IgG1 precursors
+	?a express ?b
+		?a: Secondary response clones
+		?b: highly mutated V regions
+
+
+label:    sent_24
+sentence: Liver dysfunction can derive from severe sepsis and might be associated with poor prognosis .
+
+ppatt:
+	?a can derive from ?b
+		?a: Liver dysfunction
+		?b: severe sepsis
+	?a might be associated with ?b
+		?a: Liver dysfunction
+		?b: poor prognosis
+
+
+label:    sent_25
+sentence: These tumors derive from the melanocyte lineage and remain incurable after metastasis .
+
+ppatt:
+	?a derive from ?b
+		?a: These tumors
+		?b: the melanocyte lineage
+	?a remain incurable after ?b
+		?a: These tumors
+		?b: metastasis
+
+
+label:    sent_26
+sentence: Existing techniques differ in assumptions , manipulations of data and the quantities they derive .
+
+ppatt:
+	?a differ in ?b
+		?a: Existing techniques
+		?b: assumptions
+	?a ?b derive
+		?a: manipulations of data and the quantities
+		?b: they
+
+
+label:    sent_27
+sentence: We derive a dynamical model that reproduces the trends observed in the experiment .
+
+ppatt:
+	?a derive ?b
+		?a: We
+		?b: a dynamical model that reproduces the trends observed in the experiment
+	?a reproduces ?b
+		?a: a dynamical model
+		?b: the trends observed in the experiment
+	?a observed in ?b
+		?a: the trends
+		?b: the experiment
+
+
+label:    sent_28
+sentence: We derive a confidence interval that includes these sources of variability .
+
+ppatt:
+	?a derive ?b
+		?a: We
+		?b: a confidence interval that includes these sources of variability
+	?a includes ?b
+		?a: a confidence interval
+		?b: these sources of variability
+
+

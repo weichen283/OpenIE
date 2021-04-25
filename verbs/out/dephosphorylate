@@ -1,0 +1,287 @@
+label:    sent_1
+sentence: A PP2C-type phosphatase serves to dephosphorylate HPr ( Ser-P ) . PP1 but not PP2A is able to dephosphorylate precipitated integrin alpha3beta1 in vitro .
+
+ppatt:
+	?a serves to dephosphorylate ?b
+		?a: A PP2C-type phosphatase
+		?b: HPr
+	?a serves to dephosphorylate ?b
+		?a: A PP2C-type phosphatase
+		?b: PP1
+	?a is/are Ser-P
+		?a: HPr
+	?a is/are Ser-P
+		?a: PP1
+	dephosphorylate ?a in vitro
+		?a: precipitated integrin alpha3beta1
+
+
+label:    sent_2
+sentence: Our thin-filament preparations also contain enzymes that phosphorylate and dephosphorylate a specific protein .
+
+ppatt:
+	?a also contain ?b
+		?a: Our thin-filament preparations
+		?b: enzymes that phosphorylate and dephosphorylate a specific protein
+	?a phosphorylate ?b
+		?a: enzymes
+		?b: a specific protein
+	?a dephosphorylate
+		?a: that
+
+
+label:    sent_3
+sentence: Ectonucleotidases dephosphorylate nucleotides and thus regulate ligand exposure to P2X and P2Y purinergic receptors .
+
+ppatt:
+	?a dephosphorylate ?b
+		?a: Ectonucleotidases
+		?b: nucleotides
+	?a thus regulate ?b
+		?a: Ectonucleotidases
+		?b: ligand exposure to P2X and P2Y purinergic receptors
+
+
+label:    sent_4
+sentence: Here , we show that human Cdc14A can dephosphorylate Cdc25A in vitro .
+
+ppatt:
+	Here , ?a show ?b
+		?a: we
+		?b: SOMETHING := human Cdc14A can dephosphorylate Cdc25A in vitro
+	?a can dephosphorylate ?b in vitro
+		?a: human Cdc14A
+		?b: Cdc25A
+
+
+label:    sent_5
+sentence: Alkaline phosphatase could completely dephosphorylate glycogen synthase while phosphorylase was unchanged . MAPK phosphatase-1 ( MKP-1 ) has been shown to dephosphorylate MAPKs in several cells .
+
+ppatt:
+	?a could completely dephosphorylate ?b
+		?a: Alkaline phosphatase
+		?b: glycogen synthase
+	?a was unchanged
+		?a: phosphorylase
+	?a is/are MKP-1
+		?a: MAPK phosphatase-1
+	?a has been shown to dephosphorylate ?b in ?c
+		?a: MAPK phosphatase-1
+		?b: MAPKs
+		?c: several cells
+
+
+label:    sent_6
+sentence: SMP-IV has previously been shown to dephosphorylate light chains on myosin .
+
+ppatt:
+	?a has previously been shown to dephosphorylate ?b
+		?a: SMP-IV
+		?b: light chains on myosin
+
+
+label:    sent_7
+sentence: Endostatin activated PP2A , which is known to directly dephosphorylate eNOS at Ser1177 .
+
+ppatt:
+	?a activated ?b
+		?a: Endostatin
+		?b: PP2A , which is known to directly dephosphorylate eNOS at Ser1177
+	?a is known to directly dephosphorylate ?b at ?c
+		?a: PP2A
+		?b: eNOS
+		?c: Ser1177
+
+
+label:    sent_8
+sentence: SMP-II does not dephosphorylate myosin and has low activity toward MLCK .
+
+ppatt:
+	?a does not dephosphorylate ?b
+		?a: SMP-II
+		?b: myosin
+	?a has ?b
+		?a: SMP-II
+		?b: low activity toward MLCK
+
+
+label:    sent_9
+sentence: Protein serine/threonine phosphatase 1 and 2A associate with and dephosphorylate neurofilaments .
+
+ppatt:
+	?a associate ?b
+		?a: Protein serine/threonine phosphatase 1 and 2A
+		?b: with neurofilaments
+	?a dephosphorylate
+		?a: Protein serine/threonine phosphatase 1 and 2A
+
+
+label:    sent_10
+sentence: Like NrnA , these enzymes degrade nanoRNA and dephosphorylate pAp in vitro .
+
+ppatt:
+	Like ?a , ?b degrade ?c
+		?a: NrnA
+		?b: these enzymes
+		?c: nanoRNA
+	?a dephosphorylate ?b in vitro
+		?a: these enzymes
+		?b: pAp
+
+
+label:    sent_11
+sentence: PDXP and PP2A dephosphorylate SRC-3 and inhibit its ligand-dependent association with estrogen receptor .
+
+ppatt:
+	?a dephosphorylate ?b
+		?a: PDXP
+		?b: SRC-3
+	?a dephosphorylate ?b
+		?a: PP2A
+		?b: SRC-3
+	?a inhibit ?b
+		?a: PDXP
+		?b: its ligand-dependent association with estrogen receptor
+	?a inhibit ?b
+		?a: PP2A
+		?b: its ligand-dependent association with estrogen receptor
+
+
+label:    sent_12
+sentence: MKPs dephosphorylate MAPKs and are part of the dual-specificity family of phosphatases . HRB1 is phosphorylated in vivo , and PP7 can dephosphorylate HRB1 .
+
+ppatt:
+	?a dephosphorylate ?b
+		?a: MKPs
+		?b: MAPKs
+	?a is phosphorylated in vivo
+		?a: HRB1
+	?a can dephosphorylate ?b
+		?a: PP7
+		?b: HRB1
+
+
+label:    sent_13
+sentence: In addition , demethylated PP2A would no longer dephosphorylate these enzymes .
+
+ppatt:
+	In ?a , ?b would no longer dephosphorylate ?c
+		?a: addition
+		?b: demethylated PP2A
+		?c: these enzymes
+
+
+label:    sent_14
+sentence: LPPs dephosphorylate their substrates through extracellular catalytic domains , thus making them ecto-phosphatases . Dual-specificity protein phosphatases ( DSPs ) dephosphorylate proteins at Ser / Thr and Tyr .
+
+ppatt:
+	?a dephosphorylate ?b through ?c
+		?a: LPPs
+		?b: their substrates
+		?c: extracellular catalytic domains
+	?a thus making ?b
+		?a: LPPs
+		?b: them ecto-phosphatases
+	?a is/are DSPs
+		?a: Dual-specificity protein phosphatases
+	?a dephosphorylate ?b at ?c
+		?a: Dual-specificity protein phosphatases
+		?b: proteins
+		?c: Ser
+	?a dephosphorylate ?b at ?c
+		?a: Dual-specificity protein phosphatases
+		?b: proteins
+		?c: Thr
+	?a dephosphorylate ?b at ?c
+		?a: Dual-specificity protein phosphatases
+		?b: proteins
+		?c: Tyr
+
+
+label:    sent_15
+sentence: The only protein phosphatase known to dephosphorylate and inactivate Pmk1p is Pmp1p . PP1 cooperates with ASPP2 to dephosphorylate and activate TAZ .
+
+ppatt:
+	?a known to dephosphorylate ?b
+		?a: The only protein phosphatase
+		?b: Pmk1p
+	?a known to inactivate
+		?a: The only protein phosphatase
+	?a ?b cooperates with ?c to dephosphorylate ?d
+		?a: The only protein phosphatase known to dephosphorylate and inactivate Pmk1p
+		?b: PP1
+		?c: ASPP2
+		?d: TAZ
+	?a cooperates to activate
+		?a: The only protein phosphatase known to dephosphorylate and inactivate Pmk1p
+
+
+label:    sent_16
+sentence: Alternatively , other PTPs dephosphorylate and activate PTKs , and are themselves oncogenic .
+
+ppatt:
+	Alternatively , ?a dephosphorylate ?b
+		?a: other PTPs
+		?b: PTKs
+	?a activate
+		?a: other PTPs
+
+
+label:    sent_17
+sentence: Meanwhile , phosphatases dephosphorylate and inactivate ERK thereby shutting off the pathway .
+
+ppatt:
+	Meanwhile , ?a dephosphorylate ?b
+		?a: phosphatases
+		?b: ERK
+	?a inactivate
+		?a: phosphatases
+	?a thereby shutting off ?b
+		?a: phosphatases
+		?b: the pathway
+
+
+label:    sent_18
+sentence: Alkaline phosphatases can dephosphorylate and detoxify the endotoxin component of LPS .
+
+ppatt:
+	?a can dephosphorylate ?b
+		?a: Alkaline phosphatases
+		?b: the endotoxin component of LPS
+	?a detoxify
+		?a: Alkaline phosphatases
+
+
+label:    sent_19
+sentence: Lastly , HCP can dephosphorylate autophosphorylated c-Kit and c-Fms in in vitro reactions . High NaCl and high urea dephosphorylate GDPD5-T587 .
+
+ppatt:
+	Lastly , ?a can dephosphorylate ?b in ?c
+		?a: HCP
+		?b: autophosphorylated c-Kit
+		?c: in reactions
+	Lastly , ?a can dephosphorylate ?b in ?c
+		?a: HCP
+		?b: c-Fms
+		?c: in reactions
+	?a dephosphorylate ?b
+		?a: High NaCl
+		?b: GDPD5-T587
+	?a dephosphorylate ?b
+		?a: high urea
+		?b: GDPD5-T587
+
+
+label:    sent_20
+sentence: We show here that this phosphorylation also specifically enables PTPalpha to dephosphorylate pTyr527 .
+
+ppatt:
+	?a show here ?b
+		?a: We
+		?b: SOMETHING := this phosphorylation also specifically enables PTPalpha to dephosphorylate pTyr527
+	?a also specifically enables ?b to dephosphorylate ?c
+		?a: this phosphorylation
+		?b: PTPalpha
+		?c: pTyr527
+
+

@@ -1,0 +1,86 @@
+label:    sent_1
+sentence: Just swap it out . Interchangeable allies : exploiting development and selection to swap symbionts .
+
+ppatt:
+	Just swap ?a out ?b
+		?a: it
+		?b: Interchangeable allies
+	exploiting ?a
+		?a: development to swap symbionts
+	exploiting ?a
+		?a: selection
+
+
+label:    sent_2
+sentence: Would you swap your Yuletide log for textbooks ? Trustee swap knits hospitals together .
+
+ppatt:
+	Would you swap your ?a for ?b ? ?c together
+		?a: Yuletide log
+		?b: textbooks
+		?c: Trustee swap knits hospitals
+
+
+label:    sent_3
+sentence: Conformational dynamics in loop swap mutants of homologous fibronectin type III domains .
+
+ppatt:
+
+
+
+label:    sent_4
+sentence: Columbia-Alexian Brothers swap hits antitrust snag . Researchers swap material evidence in Boston . AHM to swap stock for debt .
+
+ppatt:
+	?a swap ?b
+		?a: Columbia-Alexian Brothers
+		?b: hits
+	?a swap ?b in ?c
+		?a: Researchers
+		?b: material evidence
+		?c: Boston . AHM
+	?a swap ?b
+		?a: Researchers
+		?b: stock for debt
+
+
+label:    sent_5
+sentence: Teenagers swap pill for condom . Salt swap . Knowledge swap . Job swap . Self-self hybridization as an alternative experiment design to dye swap for two-color microarrays .
+
+ppatt:
+	?a swap ?b ?c as ?d
+		?a: Teenagers
+		?b: pill for condom . Salt swap
+		?c: Knowledge swap . Job swap . Self-self hybridization
+		?d: an alternative experiment design to dye swap for two-color microarrays
+
+
+label:    sent_6
+sentence: Columbia calls off hospital swap after judge 's injunction .
+
+ppatt:
+	?a calls off ?b after ?c
+		?a: Columbia
+		?b: hospital swap
+		?c: judge 's injunction
+
+
+label:    sent_7
+sentence: The effect of a side chain-backbone swap on protein stability .
+
+ppatt:
+
+
+
+label:    sent_8
+sentence: Reassortment is the process by which influenza viruses swap gene segments .
+
+ppatt:
+	?a is the process
+		?a: Reassortment
+	?a by ?b swap ?c
+		?a: the process
+		?b: influenza viruses
+		?c: gene segments
+
+

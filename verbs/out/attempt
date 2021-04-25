@@ -1,0 +1,176 @@
+label:    sent_1
+sentence: Treatments attempt to overcome the harmful autoimmune process , or improve residual neuromuscular transmission To analyze sonographic findings of RVT and their evolution in a large series of patients and to attempt to identify features that might predict outcome .
+
+ppatt:
+	?a attempt to overcome ?b
+		?a: Treatments
+		?b: the harmful autoimmune process
+	?a improve ?b To analyze ?c
+		?a: Treatments
+		?b: residual neuromuscular transmission
+		?c: sonographic findings of RVT
+	?a improve ?b To analyze ?c
+		?a: Treatments
+		?b: residual neuromuscular transmission
+		?c: their evolution in a large series of patients
+	?a improve To to attempt to identify ?b
+		?a: Treatments
+		?b: features that might predict outcome
+	?a might predict ?b
+		?a: features
+		?b: outcome
+
+
+label:    sent_2
+sentence: This model provides a good approach to attempt novel therapeutic interventions directed to augmenting host immunity during late sepsis .
+
+ppatt:
+	?a provides ?b
+		?a: This model
+		?b: a good approach to attempt novel therapeutic interventions directed to augmenting host immunity during late sepsis
+	?a attempt ?b
+		?a: a good approach
+		?b: novel therapeutic interventions directed to augmenting host immunity during late sepsis
+	?a directed
+		?a: novel therapeutic interventions
+	augmenting ?a during ?b
+		?a: host immunity
+		?b: late sepsis
+
+
+label:    sent_3
+sentence: This paper will attempt to explain the nature of paraoesophageal hiatus herniae and reviews the recommended pre-operative investigations and operative strategies available .
+
+ppatt:
+	?a will attempt to explain ?b
+		?a: This paper
+		?b: the nature of paraoesophageal hiatus herniae
+	?a reviews ?b
+		?a: This paper
+		?b: the recommended pre-operative investigations available
+	?a reviews ?b
+		?a: This paper
+		?b: operative strategies
+
+
+label:    sent_4
+sentence: This overview does not attempt to summarize the diversity of activities that are covered during the PAG through workshops , posters and the suppliers of cutting-edge technologies , but reviews major advances in specific research areas .
+
+ppatt:
+	?a does not attempt to summarize ?b
+		?a: This overview
+		?b: the diversity of activities that are covered during the PAG through workshops , posters and the suppliers of cutting-edge technologies
+	?a are covered during ?b through ?c
+		?a: activities
+		?b: the PAG
+		?c: workshops
+	?a are covered during ?b through ?c
+		?a: activities
+		?b: the PAG
+		?c: posters
+	?a are covered during ?b through ?c
+		?a: activities
+		?b: the PAG
+		?c: the suppliers of cutting-edge technologies
+	?a reviews ?b
+		?a: This overview
+		?b: major advances in specific research areas
+
+
+label:    sent_5
+sentence: The field of convergence technologies already amounts to a worldwide market extending to tens of billions of dollars and this article will attempt to summarize some of the key elements of this continued push for added value and more personalized medicine .
+
+ppatt:
+	?a extending to ?b of ?c
+		?a: a worldwide market
+		?b: tens
+		?c: billions of dollars
+	?a ?b will attempt to summarize ?c
+		?a: The field of convergence technologies already amounts to a worldwide market extending to tens of billions of dollars
+		?b: this article
+		?c: some of the key elements of this continued push for added value and more personalized medicine
+
+
+label:    sent_6
+sentence: We set out to identify factors that are predictive of major morbidity in women who attempt VBAC .
+
+ppatt:
+	?a set out to identify ?b
+		?a: We
+		?b: factors that are predictive of major morbidity in women who attempt VBAC
+	?a are predictive of ?b
+		?a: factors
+		?b: major morbidity in women who attempt VBAC
+	?a attempt ?b
+		?a: women
+		?b: VBAC
+
+
+label:    sent_7
+sentence: While concern over adverse effects such as hepatotoxicity and hemolytic anemia can not be ignored and there has yet to be a prospective randomized trial for its use in transplantation , its careful usage under close monitoring may provide the best chance for patients who risk allograft rejection during the time of immunosuppressive reduction as they attempt to eradicate BK virus or cytomegalovirus .
+
+ppatt:
+	?a can not be ignored
+		?a: concern over adverse effects such as hepatotoxicity and hemolytic anemia
+	?a there has yet to be a prospective randomized trial for ?b
+		?a: concern over adverse effects such as hepatotoxicity and hemolytic anemia
+		?b: its use in transplantation
+	?a may provide ?b
+		?a: its careful usage under close monitoring
+		?b: the best chance for patients who risk allograft rejection during the time of immunosuppressive reduction
+	?a risk allograft rejection during ?b
+		?a: patients
+		?b: the time of immunosuppressive reduction
+	?a attempt to eradicate ?b
+		?a: they
+		?b: BK virus
+	?a attempt to eradicate ?b
+		?a: they
+		?b: cytomegalovirus
+
+
+label:    sent_8
+sentence: Of those who did not attempt any sports activity by 12 months , 47 % indicated that they were planning to return .
+
+ppatt:
+	?a did not attempt ?b by ?c
+		?a: those
+		?b: any sports activity
+		?c: 12 months
+	Of ?a , ?b indicated ?c
+		?a: those who did not attempt any sports activity by 12 months
+		?b: 47 %
+		?c: SOMETHING := they were planning to return
+	?a were planning to return
+		?a: they
+
+
+label:    sent_9
+sentence: In such a case , we attempt treatment by the administration of antidepressants or second-generation antipsychotics .
+
+ppatt:
+	In ?a , ?b attempt ?c
+		?a: such a case
+		?b: we
+		?c: treatment by the administration of antidepressants or second-generation antipsychotics
+
+
+label:    sent_10
+sentence: This article responds to Wallerstein 's ( 1991 ) challenge to find common ground in psychoanalytic practice : We attempt this by avoiding metapsychological jargon and relying on more experience-near terms , such as clarity and ambiguity .
+
+ppatt:
+	?a responds to 's ?b to find ?c
+		?a: This article
+		?b: Wallerstein ( 1991 ) challenge
+		?c: common ground in psychoanalytic practice
+	?a attempt ?b
+		?a: We
+		?b: this
+	?a avoiding ?b
+		?a: We
+		?b: metapsychological jargon
+	?a relying on ?b
+		?a: We
+		?b: more experience-near terms , such as clarity and ambiguity
+
+

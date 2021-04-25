@@ -1,0 +1,274 @@
+label:    sent_1
+sentence: New strategies to prevent and manage bone complications in cancer .
+
+ppatt:
+	?a prevent ?b
+		?a: New strategies
+		?b: bone complications in cancer
+	manage ?a
+		?a: bone complications in cancer
+
+
+label:    sent_2
+sentence: People depend on high awareness to take precautions to manage risk .
+
+ppatt:
+	?a depend on ?b
+		?a: People
+		?b: high awareness to take precautions to manage risk
+	?a take ?b to manage ?c
+		?a: high awareness
+		?b: precautions
+		?c: risk
+
+
+label:    sent_3
+sentence: Does an MBA enhance a physician 's ability to manage a medical practice ? A low-cost simulator for learning to manage postpartum hemorrhage in rural Africa . A unified program to manage biologics .
+
+ppatt:
+	?a enhance ?b ?c
+		?a: an MBA
+		?b: a physician 's ability to manage a medical practice
+		?c: A low-cost simulator for learning to manage postpartum hemorrhage in rural Africa
+	?a manage ?b
+		?a: a physician 's ability
+		?b: a medical practice
+	?a learning to manage ?b
+		?a: A low-cost simulator
+		?b: postpartum hemorrhage in rural Africa
+	?a manage ?b
+		?a: A unified program
+		?b: biologics
+
+
+label:    sent_4
+sentence: Optometrists are regularly using computers to manage their practices and medical record keeping .
+
+ppatt:
+	?a are regularly using ?b to manage ?c
+		?a: Optometrists
+		?b: computers
+		?c: their practices
+	?a are regularly using ?b to manage ?c
+		?a: Optometrists
+		?b: computers
+		?c: medical record keeping
+
+
+label:    sent_5
+sentence: How to manage the left subclavian artery during endovascular stenting of the thoracic aorta .
+
+ppatt:
+	How to manage ?a during ?b
+		?a: the left subclavian artery
+		?b: endovascular stenting of the thoracic aorta
+
+
+label:    sent_6
+sentence: Impact of interventions to prevent and manage preeclampsia and eclampsia on stillbirths .
+
+ppatt:
+	?a prevent ?b on ?c
+		?a: Impact of interventions
+		?b: preeclampsia
+		?c: stillbirths
+	?a prevent ?b on ?c
+		?a: Impact of interventions
+		?b: eclampsia
+		?c: stillbirths
+	manage ?a
+		?a: preeclampsia
+	manage ?a
+		?a: eclampsia
+
+
+label:    sent_7
+sentence: Evolution of how best to manage primary aldosteronism .
+
+ppatt:
+
+
+
+label:    sent_8
+sentence: Foreword . PHC staff require skills to correctly manage these conditions and undertake HIV testing .
+
+ppatt:
+	?a require ?b to correctly manage ?c
+		?a: Foreword . PHC staff
+		?b: skills
+		?c: these conditions
+	?a undertake ?b
+		?a: Foreword . PHC staff
+		?b: HIV testing
+
+
+label:    sent_9
+sentence: Capacities in the public health system are inadequate to design and manage PPPs .
+
+ppatt:
+	?a are inadequate to design ?b
+		?a: Capacities in the public health system
+		?b: PPPs
+	?a are inadequate to manage
+		?a: Capacities in the public health system
+
+
+label:    sent_10
+sentence: Acute urinary retention : who is at risk and how best to manage it ? Equipment to manage a difficult airway during anaesthesia .
+
+ppatt:
+	?a is at risk
+		?a: Acute urinary retention
+	?a how best to manage ?b ?c to manage ?d during ?e
+		?a: who
+		?b: it
+		?c: Equipment
+		?d: a difficult airway
+		?e: anaesthesia
+
+
+label:    sent_11
+sentence: Consequently , we can safety manage anesthesia without episode of anaphylactic shock .
+
+ppatt:
+	Consequently , ?a can safety manage ?b without ?c
+		?a: we
+		?b: anesthesia
+		?c: episode of anaphylactic shock
+
+
+label:    sent_12
+sentence: Narrative means to manage responsibility in life narratives across adolescence .
+
+ppatt:
+	?a manage ?b
+		?a: Narrative means
+		?b: responsibility in life narratives across adolescence
+
+
+label:    sent_13
+sentence: Persistent hypertension can be difficult to manage and have detrimental effect on vital organs .
+
+ppatt:
+	?a can be difficult to manage ?b on ?c
+		?a: Persistent hypertension
+		?b: detrimental effect
+		?c: vital organs
+	?a can be difficult to have
+		?a: Persistent hypertension
+
+
+label:    sent_14
+sentence: Established anticoagulants have drawbacks that make their use difficult to manage and sustain . Identify and manage unbilled accounts receivable .
+
+ppatt:
+	?a have ?b
+		?a: Established anticoagulants
+		?b: drawbacks that make their use difficult to manage and sustain . Identify and manage unbilled accounts receivable
+	?a make ?b
+		?a: drawbacks
+		?b: their use difficult to manage and sustain
+	?a Identify
+		?a: that
+	?a manage ?b
+		?a: that
+		?b: unbilled accounts receivable
+
+
+label:    sent_15
+sentence: Accidentally swallowed foreign objects are not uncommon but difficult to manage without complications . Why Mr Paige could n't manage . How to manage under prospective payment .
+
+ppatt:
+	?a are not uncommon
+		?a: Accidentally swallowed foreign objects
+	?a difficult to manage without ?b
+		?a: Accidentally swallowed foreign objects
+		?b: complications
+	Why ?a could n't manage How to manage under ?b
+		?a: Mr Paige
+		?b: prospective payment
+
+
+label:    sent_16
+sentence: How will we manage ? Optic nerve sheath meningiomas are challenging lesions to manage .
+
+ppatt:
+	How will ?a manage
+		?a: we
+	?a are challenging lesions
+		?a: Optic nerve sheath meningiomas
+	?a manage
+		?a: challenging lesions
+
+
+label:    sent_17
+sentence: How did the group manage to survive ? Antiemetic guidelines help clinicians manage CINV and are updated frequently .
+
+ppatt:
+	How did ?a
+		?a: the group
+	?a manage to survive
+		?a: the group
+	?a help
+		?a: Antiemetic guidelines
+	?a manage ?b
+		?a: clinicians
+		?b: CINV
+	?a are updated frequently
+		?a: clinicians
+
+
+label:    sent_18
+sentence: Harnessing computers to manage energy and contain costs . [What does old age bring us and how do we manage it ? ] . The patient could not manage by herself so dietary- and exercise-based treatment was difficult .
+
+ppatt:
+	Harnessing ?a
+		?a: computers
+	manage ?a
+		?a: energy
+	contain ?a
+		?a: costs
+	?a does
+		?a: [What
+	?a ?b bring ?c
+		?a: SOMETHING := Harnessing computers to manage energy and contain costs
+		?b: old age
+		?c: us
+	how do ?a manage ?b ?c
+		?a: we
+		?b: it
+		?c: ]
+	?a could not manage by ?b
+		?a: The patient
+		?b: herself
+	so ?a ?b was difficult
+		?a: dietary-
+		?b: treatment
+	so ?a ?b was difficult
+		?a: exercise-based
+		?b: treatment
+
+
+label:    sent_19
+sentence: GPs reported finding such patients difficult to manage due to lack of knowledge .
+
+ppatt:
+	?a reported finding ?b
+		?a: GPs
+		?b: such patients difficult to manage due to lack of knowledge
+	manage due to ?a
+		?a: lack of knowledge
+
+
+label:    sent_20
+sentence: Such conditions can be burdensome for physicians and caregivers to manage .
+
+ppatt:
+	?a can be burdensome for ?b to manage
+		?a: Such conditions
+		?b: physicians
+	?a can be burdensome for ?b to manage
+		?a: Such conditions
+		?b: caregivers
+
+

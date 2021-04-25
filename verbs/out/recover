@@ -1,0 +1,307 @@
+label:    sent_1
+sentence: Multiplanar reconstruction was applied to maloriented scans to recover double bull's-eye orientation .
+
+ppatt:
+	?a was applied to ?b to recover ?c
+		?a: Multiplanar reconstruction
+		?b: maloriented scans
+		?c: double bull's-eye orientation
+
+
+label:    sent_2
+sentence: Multiplanar reconstruction can correct malorientated scans and recover precision losses .
+
+ppatt:
+	?a can correct ?b
+		?a: Multiplanar reconstruction
+		?b: malorientated scans
+	?a recover ?b
+		?a: Multiplanar reconstruction
+		?b: precision losses
+
+
+label:    sent_3
+sentence: It took 7.3 +/- 2.8 months for the patients to recover menstruation .
+
+ppatt:
+	?a took ?b to recover ?c
+		?a: It
+		?b: 7.3 +/- 2.8 months for the patients
+		?c: menstruation
+
+
+label:    sent_4
+sentence: In order to recover from anemia , the process of erythropoiesis is essential .
+
+ppatt:
+	order to recover from ?a ?b
+		?a: anemia
+		?b: the process of erythropoiesis
+	?a is essential
+		?a: the process of erythropoiesis
+
+
+label:    sent_5
+sentence: The adult human heart lacks sufficient regenerative capacity to recover after a myocardial infarction .
+
+ppatt:
+	?a lacks ?b
+		?a: The adult human heart
+		?b: sufficient regenerative capacity to recover after a myocardial infarction
+	?a recover after ?b
+		?a: sufficient regenerative capacity
+		?b: a myocardial infarction
+
+
+label:    sent_6
+sentence: A riderless bicycle can automatically steer itself so as to recover from falls .
+
+ppatt:
+	?a can automatically steer ?b so as to recover from ?c
+		?a: A riderless bicycle
+		?b: itself
+		?c: falls
+
+
+label:    sent_7
+sentence: Renal function can recover completely in most of the patients .
+
+ppatt:
+	?a can recover completely in ?b
+		?a: Renal function
+		?b: most of the patients
+
+
+label:    sent_8
+sentence: The majority of women recover from pregnancy-related lumbopelvic pain within 3 months of delivery .
+
+ppatt:
+	?a recover from ?b within ?c
+		?a: The majority of women
+		?b: pregnancy-related lumbopelvic pain
+		?c: 3 months of delivery
+
+
+label:    sent_9
+sentence: Children with Rasmussen encephalitis did not recover from the significant presurgical deterioration of intelligence .
+
+ppatt:
+	?a did not recover from ?b
+		?a: Children with Rasmussen encephalitis
+		?b: the significant presurgical deterioration of intelligence
+
+
+label:    sent_10
+sentence: Third , we investigated the ability to recover Arcobacter spp. from frozen fecal samples .
+
+ppatt:
+	Third , ?a investigated ?b
+		?a: we
+		?b: the ability to recover Arcobacter spp. from frozen fecal samples
+	?a recover ?b from ?c
+		?a: the ability
+		?b: Arcobacter spp.
+		?c: frozen fecal samples
+
+
+label:    sent_11
+sentence: Hamsters were fed viable cysticerci to recover adult parasites after one month of infection .
+
+ppatt:
+	?a were fed ?b to recover ?c after ?d
+		?a: Hamsters
+		?b: viable cysticerci
+		?c: adult parasites
+		?d: one month of infection
+
+
+label:    sent_12
+sentence: An integrated biosorption-pyrolysis technology was employed to recover Pb from aqueous solution .
+
+ppatt:
+	?a was employed to recover ?b
+		?a: An integrated biosorption-pyrolysis technology
+		?b: Pb from aqueous solution
+
+
+label:    sent_13
+sentence: Regeneration with H2O2 can completely recover the catalytic activity of the deactivated catalyst .
+
+ppatt:
+	?a can completely recover ?b
+		?a: Regeneration with H2O2
+		?b: the catalytic activity of the deactivated catalyst
+
+
+label:    sent_14
+sentence: They could recover either their preferred food or the one that remained present .
+
+ppatt:
+	?a could recover ?b
+		?a: They
+		?b: their preferred food that remained present
+	?a could recover ?b
+		?a: They
+		?b: the one
+	?a remained present
+		?a: their preferred food
+	?a remained present
+		?a: the one
+
+
+label:    sent_15
+sentence: The compound does not recover its crystallinity on decompression .
+
+ppatt:
+	?a does not recover ?b
+		?a: The compound
+		?b: its crystallinity on decompression
+
+
+label:    sent_16
+sentence: At the classical level we recover standard cosmological perturbation theory , with illuminating insights .
+
+ppatt:
+	At ?a ?b recover ?c , with ?d
+		?a: the classical level
+		?b: we
+		?c: standard cosmological perturbation theory
+		?d: illuminating insights
+
+
+label:    sent_17
+sentence: We recover known models in some particular cases of our general description .
+
+ppatt:
+	?a recover ?b in ?c
+		?a: We
+		?b: known models
+		?c: some particular cases of our general description
+
+
+label:    sent_18
+sentence: Membrane dialysis can recover these metallodendritic assemblies due to their nanoscopic size .
+
+ppatt:
+	?a can recover ?b due to ?c
+		?a: Membrane dialysis
+		?b: these metallodendritic assemblies
+		?c: their nanoscopic size
+
+
+label:    sent_19
+sentence: Bone loss may never recover completely even once weight is restored .
+
+ppatt:
+	?a may never recover completely
+		?a: Bone loss
+	even once ?a is restored
+		?a: weight
+
+
+label:    sent_20
+sentence: Even after cyclosporin A was started against HLH , she did not recover .
+
+ppatt:
+	Even after ?a was started against ?b
+		?a: cyclosporin A
+		?b: HLH
+	?a did not recover
+		?a: she
+
+
+label:    sent_21
+sentence: Patients can recover to work early .
+
+ppatt:
+	?a can recover to work early
+		?a: Patients
+
+
+label:    sent_22
+sentence: The prognosis is generally excellent and the majority of patients recover without sequelae .
+
+ppatt:
+	?a is generally excellent
+		?a: The prognosis
+	?a recover without ?b
+		?a: the majority of patients
+		?b: sequelae
+
+
+label:    sent_23
+sentence: Damaged trees can quickly recover from disturbance and out-compete seedlings . LVDP also did not recover upon reperfusion and the infarct size was 47 % . Diplopia improved in four patients , and did not recover in another case . SKase activity declined 61 % during ischemia and did not recover upon reperfusion .
+
+ppatt:
+	?a can quickly recover from ?b
+		?a: Damaged trees
+		?b: disturbance
+	?a can quickly recover from ?b
+		?a: Damaged trees
+		?b: out-compete seedlings
+	?a also did not recover upon ?b
+		?a: LVDP
+		?b: reperfusion
+	?a ?b improved in ?c
+		?a: the infarct size
+		?b: Diplopia
+		?c: four patients
+	?a did not recover in ?b
+		?a: the infarct size
+		?b: another case
+	?a declined ?b during ?c
+		?a: SKase activity
+		?b: 61 %
+		?c: ischemia
+	?a did not recover upon ?b
+		?a: SKase activity
+		?b: reperfusion
+
+
+label:    sent_24
+sentence: The potential difference dropped after mucosal injury and did not recover despite morphologic repair .
+
+ppatt:
+	?a dropped after ?b
+		?a: The potential difference
+		?b: mucosal injury
+	?a did not recover despite ?b
+		?a: The potential difference
+		?b: morphologic repair
+
+
+label:    sent_25
+sentence: Gonadectomy in old mice induces thymus regeneration but does not recover mitotic responsiveness .
+
+ppatt:
+	?a induces ?b
+		?a: Gonadectomy in old mice
+		?b: thymus regeneration
+	?a does not recover ?b
+		?a: Gonadectomy in old mice
+		?b: mitotic responsiveness
+
+
+label:    sent_26
+sentence: It then slowly declined and did not recover completely up to 96 hours .
+
+ppatt:
+	?a then slowly declined
+		?a: It
+	?a did not recover completely ?b
+		?a: It
+		?b: up 96 hours
+
+
+label:    sent_27
+sentence: This technique can alleviate pain rapidly and recover the height of vertebral body .
+
+ppatt:
+	?a can alleviate ?b rapidly
+		?a: This technique
+		?b: pain
+	?a recover ?b
+		?a: This technique
+		?b: the height of vertebral body
+
+

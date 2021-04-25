@@ -1,0 +1,65 @@
+label:    sent_1
+sentence: Bromelain treatment was found to deglycosylate the Rh glycoprotein .
+
+ppatt:
+	?a was found to deglycosylate ?b
+		?a: Bromelain treatment
+		?b: the Rh glycoprotein
+
+
+label:    sent_2
+sentence: We used both trifluoromethanesulfonic acid and N-glycanase to deglycosylate ovalbumin and tested the effect .
+
+ppatt:
+	?a used ?b
+		?a: We
+		?b: trifluoromethanesulfonic acid to deglycosylate ovalbumin
+	?a used ?b
+		?a: We
+		?b: N-glycanase
+	?a tested ?b
+		?a: We
+		?b: the effect
+
+
+label:    sent_3
+sentence: The pure enzyme was indeed found to deglycosylate various flavonoid glycosides .
+
+ppatt:
+	?a was indeed found to deglycosylate various flavonoid glycosides
+		?a: The pure enzyme
+
+
+label:    sent_4
+sentence: Viral neuraminidase may deglycosylate the M2 receptor , decreasing acetylcholine affinity . Viral neuraminidase may deglycosylate the M2 receptor , decreasing acetylcholine affinity .
+
+ppatt:
+	?a may deglycosylate ?b
+		?a: Viral neuraminidase
+		?b: the M2 receptor
+	?a decreasing ?b
+		?a: Viral neuraminidase
+		?b: acetylcholine affinity
+	?a may deglycosylate ?b
+		?a: Viral neuraminidase
+		?b: the M2 receptor
+	?a decreasing ?b
+		?a: Viral neuraminidase
+		?b: acetylcholine affinity
+
+
+label:    sent_5
+sentence: It has been suggested that the enzyme cytosolic beta-glucosidase could deglycosylate certain flavonoid glycosides . C2C12 cells did not deglycosylate 3G-RSV .
+
+ppatt:
+	?a has been suggested ?b ?c
+		?a: It
+		?b: SOMETHING := the enzyme cytosolic beta-glucosidase could deglycosylate certain flavonoid glycosides
+		?c: SOMETHING := C2C12 cells did not deglycosylate 3G-RSV
+	?a could deglycosylate ?b
+		?a: the enzyme cytosolic beta-glucosidase
+		?b: certain flavonoid glycosides
+	?a did not deglycosylate 3G-RSV
+		?a: C2C12 cells
+
+

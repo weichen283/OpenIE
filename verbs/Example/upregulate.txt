@@ -1,0 +1,36 @@
+obj	Beraprost required BCR and CD40 signals to upregulate CD86 expression levels .	obj@levels
+obj	beta-Catenin has most recently been shown to upregulate the Na+/K+ ATPase .	obj@ATPase
+obj	Cyclophosphamide and acrolein appear to upregulate procoagulant pathways , while impairing endogenous anticoagulant pathways .	obj@pathways
+
+subj#obj	Nephronectin induces alpha8 integrin - positive mesenchymal cells to upregulate smooth muscle markers .	subj@cells obj@markers
+subj#obj	Th17 cells upregulate neutrophil chemokines , antimicrobial peptides , and other pro-inflammatory cytokines .	subj@cells obj@chemokines
+subj#obj	Immunosuppressive treatment can also significantly upregulate Qa-2 .	subj@treatment obj@Qa-2
+
+subj#obj#prep	In contrast , T cell populations only upregulate LDLR on activation .	subj@populations obj@LDLR prep_in@contrast prep_on@activation
+subj#obj#prep	In contrast , EBNA3C can upregulate alpha V integrin expression .	subj@EBNA3C obj@expression prep_in@contrast
+subj#obj#prep	We reported that cancer cells upregulate autophagy as a survival mechanism to acidic stress .	subj@cells obj@autophagy prep_as@mechanism
+
+subj#obj#conj	Astrocytes upregulate survival genes in tumor cells and induce protection from chemotherapy .	subj@Astrocytes obj@genes conj_and@induce
+subj#obj#conj	Histone deacetylase inhibitors upregulate Rap1GAP and inhibit Rap activity in thyroid tumor cells .	subj@inhibitors obj@Rap1GAP conj_and@inhibit
+subj#obj#conj	HIV-1 Nef can upregulate DC-SIGN expression and promote DC-T-cell clustering and HIV-1 spread .	subj@Nef obj@expression conj_and@promote
+
+obj#prep	Oxfenicine did not further upregulate PPARalpha target genes within each dietary treatment group .	obj@genes prep_within@group
+obj#prep	The ability to precisely upregulate genes in inflamed brain holds great therapeutic promise .	obj@genes prep_in@brain
+obj#prep	BAY11-7082 pretreated EC failed to upregulate CD62E after interaction with D1.1 cells .	obj@CD62E prep_after@interaction
+
+obj#conj	T-2 toxin is able to down- or upregulate cytochrome P-450 enzymes in different species .	obj@enzymes conj_or@able
+obj#conj	Axon regeneration requires that injured neurons reinitiate long-distance growth and upregulate specific genes .	obj@genes conj_and@reinitiate
+obj#conj	IL-17A synergizes with IFN-gamma to upregulate iNOS and NO production and inhibit chlamydial growth .	obj@iNOS conj_and@inhibit
+
+subj#obj#prep#conj	In glioma cells , both NSAIDS upregulate GRP78 and activate ER-associated caspase-4 and caspase-3 .	subj@NSAIDS obj@GRP78 prep_in@cells conj_and@activate
+subj#obj#prep#conj	Myeloma cells upregulate interleukin-6 secretion in osteoblastic cells through cell-to-cell contact but downregulate osteocalcin .	subj@cells obj@secretion prep_in@cells prep_through@contact conj_but@downregulate
+subj#obj#prep#conj	Depending on the supplemented CSF , TNF could upregulate or suppress AML blast proliferation .	subj@TNF obj@CSF prepc_depending_on@on conj_or@suppress
+
+obj#prep#conj	Upon activation , qNSCs upregulate Nestin and EGFR and become highly proliferative .	obj@Nestin prep_upon@activation conj_and@proliferative
+
+subj#conj	It appears that Ras can upregulate or downregulate autophagy through several signaling pathways .	subj@Ras conj_or@downregulate
+subj#conj	Furthermore , HDAC4 and MEF2C individually upregulate but together downmodulate c-jun promoter activity .	subj@HDAC4 conj_but@downmodulate
+subj#conj	Rational antigen modification as a strategy to upregulate or downregulate antigen recognition .	subj@modification conj_or@downregulate
+
+conj	Transcription factors cooperate with the basal machinery to upregulate or downregulate transcription .	conj_or@downregulate
+

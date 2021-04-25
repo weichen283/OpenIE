@@ -1,0 +1,197 @@
+label:    sent_1
+sentence: Neuroanatomical abnormalities that predate the onset of psychosis : a multicenter study .
+
+ppatt:
+	?a predate ?b
+		?a: Neuroanatomical abnormalities
+		?b: the onset of psychosis
+
+
+label:    sent_2
+sentence: Preliminary evidence suggests that daytime sleepiness may predate clinical diagnosis of Parkinson disease .
+
+ppatt:
+	?a suggests ?b
+		?a: Preliminary evidence
+		?b: SOMETHING := daytime sleepiness may predate clinical diagnosis of Parkinson disease
+	?a may predate ?b
+		?a: daytime sleepiness
+		?b: clinical diagnosis of Parkinson disease
+
+
+label:    sent_3
+sentence: It may predate the onset of clinically apparent hypertension .
+
+ppatt:
+	?a may predate ?b
+		?a: It
+		?b: the onset of clinically apparent hypertension
+
+
+label:    sent_4
+sentence: Centromeric retrotransposon lineages predate the maize/rice divergence and differ in abundance and activity .
+
+ppatt:
+	?a predate ?b
+		?a: Centromeric retrotransposon lineages
+		?b: the maize/rice divergence
+	?a differ in ?b
+		?a: Centromeric retrotransposon lineages
+		?b: abundance
+	?a differ in ?b
+		?a: Centromeric retrotransposon lineages
+		?b: activity
+
+
+label:    sent_5
+sentence: Neuropsychological deficits predate overt psychosis and overlap with the impairments in the established disease .
+
+ppatt:
+	?a predate ?b
+		?a: Neuropsychological deficits
+		?b: overt psychosis
+	?a overlap with ?b
+		?a: Neuropsychological deficits
+		?b: the impairments in the established disease
+
+
+label:    sent_6
+sentence: Oral involvement may predate systemic manifestations or mimic infectious/inflammatory disorders .
+
+ppatt:
+	?a may predate ?b
+		?a: Oral involvement
+		?b: systemic manifestations
+	?a mimic ?b
+		?a: Oral involvement
+		?b: infectious/inflammatory disorders
+
+
+label:    sent_7
+sentence: The capacity of Acanthamoeba to predate Cryptosporidium oocysts was demonstrated .
+
+ppatt:
+	?a predate ?b
+		?a: The capacity of Acanthamoeba
+		?b: Cryptosporidium oocysts
+	?a was demonstrated
+		?a: The capacity of Acanthamoeba to predate Cryptosporidium oocysts
+
+
+label:    sent_8
+sentence: Does increased peripheral C-reactive protein predate the occurrence of a short cervical length ? Did the prey predate the parasite ? It has also been suggested that viruses are ancient and possibly predate modern cells .
+
+ppatt:
+	Does ?a predate ?b
+		?a: increased peripheral C-reactive protein
+		?b: the occurrence of a short cervical length
+	?a Did
+		?a: increased peripheral C-reactive protein
+	?a predate ?b
+		?a: the prey
+		?b: the parasite
+	?a has also been suggested ?b
+		?a: It
+		?b: SOMETHING := viruses are ancient
+	?a are ancient
+		?a: viruses
+	?a possibly predate ?b
+		?a: viruses
+		?b: modern cells
+
+
+label:    sent_9
+sentence: Brain structural alterations are present early in the illness and may predate symptom onset .
+
+ppatt:
+	?a are present early in ?b
+		?a: Brain structural alterations
+		?b: the illness
+	?a may predate ?b
+		?a: Brain structural alterations
+		?b: symptom onset
+
+
+label:    sent_10
+sentence: Whether patterns of adiposity coexist or predate clinical PD is unknown .
+
+ppatt:
+	?a coexist ?b
+		?a: patterns of adiposity
+		?b: clinical PD
+	?a predate
+		?a: patterns of adiposity
+
+
+label:    sent_11
+sentence: Multilocus hybrid zone ( HZ ) studies predate genomics by decades .
+
+ppatt:
+	?a is/are HZ
+		?a: Multilocus hybrid zone
+	?a predate ?b by ?c
+		?a: Multilocus hybrid zone studies
+		?b: genomics
+		?c: decades
+
+
+label:    sent_12
+sentence: In addition , psychiatric disorders in adolescents often predate the substance use disorder .
+
+ppatt:
+	In ?a , ?b often predate ?c
+		?a: addition
+		?b: psychiatric disorders in adolescents
+		?c: the substance use disorder
+
+
+label:    sent_13
+sentence: Alterations of PKC predate neuronal death following ischemia .
+
+ppatt:
+	?a predate ?b following ?c
+		?a: Alterations of PKC
+		?b: neuronal death
+		?c: ischemia
+
+
+label:    sent_14
+sentence: Medical problems may predate or arise de novo in pregnancy .
+
+ppatt:
+	?a may predate de novo in ?b
+		?a: Medical problems
+		?b: pregnancy
+	?a arise
+		?a: Medical problems
+
+
+label:    sent_15
+sentence: These debates predate and invoke different arguments than do debates about euthanasia in Germany .
+
+ppatt:
+	?a predate ?b
+		?a: These debates
+		?b: different arguments
+	?a invoke
+		?a: These debates
+	do ?a
+		?a: debates about euthanasia in Germany
+
+
+label:    sent_16
+sentence: The Argentinean cryptospores predate other cryptospore occurrences by c . Mutations in PRNP may cause neuropsychiatric disorders that predate dementia by many years .
+
+ppatt:
+	?a predate ?b
+		?a: The Argentinean cryptospores
+		?b: other cryptospore occurrences by c
+	?a may cause ?b
+		?a: Mutations in PRNP
+		?b: neuropsychiatric disorders that predate dementia by many years
+	?a predate ?b by ?c
+		?a: neuropsychiatric disorders
+		?b: dementia
+		?c: many years
+
+

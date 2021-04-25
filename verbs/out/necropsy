@@ -1,0 +1,18 @@
+label:    sent_1
+sentence: The study director decided that the necropsy should be postponed at least 1 week until he could secure the number of researchers needed to conduct the necropsy .
+
+ppatt:
+	?a director decided ?b
+		?a: The study
+		?b: SOMETHING := the necropsy should be postponed at least 1 week until he could secure the number of researchers needed to conduct the necropsy
+	?a should be postponed ?b
+		?a: the necropsy
+		?b: at least 1 week
+	?a could secure ?b
+		?a: he
+		?b: the number of researchers needed to conduct the necropsy
+	?a needed to conduct ?b
+		?a: researchers
+		?b: the necropsy
+
+

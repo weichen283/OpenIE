@@ -1,0 +1,176 @@
+label:    sent_1
+sentence: In this paper , we investigated the role of snow depth and melt out date on the phenological development and reproductive success of vascular plants in Adventdalen , Svalbard ( 78degrees 10 'N , 16degrees 06 ' E ) . Keratitis and corneal melt with ketorolac tromethamine after conductive keratoplasty .
+
+ppatt:
+	In ?a , ?b investigated ?c
+		?a: this paper
+		?b: we
+		?c: the role of snow depth and melt out date on the phenological development and reproductive success of vascular plants in Adventdalen , Svalbard . Keratitis and corneal melt with ketorolac tromethamine after conductive keratoplasty
+	?a is/are 16degrees
+		?a: 78degrees 10 'N
+	?a is/are 06 ' E
+		?a: 78degrees 10 'N
+
+
+label:    sent_2
+sentence: Thick films ( >4 layers ) are observed to melt heterogeneously , while thin films ( < =4 layers ) melt homogeneously , even for polycrystalline films .
+
+ppatt:
+	?a is/are >4 layers
+		?a: Thick films
+	?a are observed to melt heterogeneously
+		?a: Thick films
+	?a melt homogeneously , for ?b
+		?a: thin films
+		?b: even polycrystalline films
+
+
+label:    sent_3
+sentence: Thin film melting is qualitatively different : thin films homogeneously melt by generating many small defects which need not nucleate at grain boundaries or dislocations .
+
+ppatt:
+	?a is qualitatively different
+		?a: Thin film melting
+	?a homogeneously melt
+		?a: thin films
+	?a generating ?b
+		?a: thin films
+		?b: many small defects which need not nucleate at grain boundaries or dislocations
+	?a need not nucleate at ?b
+		?a: many small defects
+		?b: grain boundaries
+	?a need not nucleate at ?b
+		?a: many small defects
+		?b: dislocations
+
+
+label:    sent_4
+sentence: For example , a DNA helicase could in principle accelerate branch migration rates by helping to melt the helix at the branch point .
+
+ppatt:
+	For ?a , ?b could in ?c accelerate ?d
+		?a: example
+		?b: a DNA helicase
+		?c: principle
+		?d: branch migration rates
+	?a helping to melt ?b at ?c
+		?a: a DNA helicase
+		?b: the helix
+		?c: the branch point
+
+
+label:    sent_5
+sentence: Increased electron dosage appeared to melt the polymer with subsequent movement and attraction toward preferred electron concentrations within the beam .
+
+ppatt:
+	?a appeared to melt ?b with ?c
+		?a: Increased electron dosage
+		?b: the polymer
+		?c: subsequent movement toward preferred electron concentrations within the beam
+	?a appeared to melt ?b with ?c
+		?a: Increased electron dosage
+		?b: the polymer
+		?c: attraction
+
+
+label:    sent_6
+sentence: Heating to 58 degrees C was necessary to melt all the crystallized triglyceride and to restore the spherical lipoprotein shape .
+
+ppatt:
+	?a was necessary to melt ?b
+		?a: Heating to 58 degrees C
+		?b: the crystallized triglyceride
+	?a was necessary to to restore ?b
+		?a: Heating to 58 degrees C
+		?b: the spherical lipoprotein shape
+
+
+label:    sent_7
+sentence: After being exposed to microwave ( MW ) plasma irradiation , the anchored Au NPs melt and fuse , leading to larger aggregates ( 34 nm ) that can connect the MWCNT forming a three-dimensional conducting network .
+
+ppatt:
+	being exposed to ?a
+		?a: microwave plasma irradiation
+	?a is/are MW
+		?a: microwave
+	fuse , leading to ?a
+		?a: larger aggregates that can connect the MWCNT forming a three-dimensional conducting network
+	?a is/are 34 nm
+		?a: larger aggregates that can connect the MWCNT forming a three-dimensional conducting network
+	?a can connect ?b
+		?a: larger aggregates
+		?b: the MWCNT forming a three-dimensional conducting network
+	?a forming ?b
+		?a: the MWCNT
+		?b: a three-dimensional conducting network
+
+
+label:    sent_8
+sentence: These chains melt on heating over a temperature range which is solution composition dependent ( ca. 51 to 67 degrees C ) , but in all cases leading to a liquid-like disordered hydrocarbon regime whilst retaining the overall lamellar structure ( and in this state is termed L ( alpha ) ) . A deep-seated melt or fluid layer on top of the 410-km-deep seismic discontinuity in Earth 's upper mantle , as proposed in the transition-zone ' water filter ' hypothesis , may have significant bearing on mantle dynamics and chemical differentiation .
+
+ppatt:
+	?a melt on ?b over ?c
+		?a: These chains
+		?b: heating
+		?c: a temperature range which is solution composition dependent
+	?a is ?b ?c dependent
+		?a: a temperature range
+		?b: solution
+		?c: composition
+	?a leading to ?b
+		?a: all cases
+		?b: a liquid-like disordered hydrocarbon regime
+	retaining ?a
+		?a: the overall lamellar structure
+	in ?a is termed L ?b
+		?a: this state
+		?b: A deep-seated melt on top of the 410-km-deep seismic discontinuity in Earth 's upper mantle
+	in ?a is termed L ?b
+		?a: this state
+		?b: fluid layer
+	?a is/are alpha
+		?a: L
+	?a may have ?b on ?c
+		?a: These chains
+		?b: significant bearing
+		?c: mantle dynamics
+	?a may have ?b on ?c
+		?a: These chains
+		?b: significant bearing
+		?c: chemical differentiation
+
+
+label:    sent_9
+sentence: All the three compounds melt well below 100 degrees C and could be classified as ionic liquids .
+
+ppatt:
+	?a melt well below ?b
+		?a: All the three compounds
+		?b: 100 degrees C
+	?a could be classified as ?b
+		?a: All the three compounds
+		?b: ionic liquids
+
+
+label:    sent_10
+sentence: When exposed to direct heating or HIFU , the PCM will melt and escape from the interiors of nanocages through small pores on the surface , concurrently releasing the encapsulated molecules into the surrounding medium .
+
+ppatt:
+	When exposed to ?a ?b
+		?a: direct heating
+		?b: the PCM
+	When exposed to ?a ?b
+		?a: HIFU
+		?b: the PCM
+	?a will melt from ?b through ?c
+		?a: the PCM
+		?b: the interiors of nanocages
+		?c: small pores on the surface
+	?a escape
+		?a: the PCM
+	?a concurrently releasing ?b into ?c
+		?a: the PCM
+		?b: the encapsulated molecules
+		?c: the surrounding medium
+
+

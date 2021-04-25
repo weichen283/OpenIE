@@ -1,0 +1,267 @@
+label:    sent_1
+sentence: Waiting to inhale : HIF-1 modulates aerobic respiration .
+
+ppatt:
+	?a ?b modulates ?c
+		?a: SOMETHING := Waiting to inhale
+		?b: HIF-1
+		?c: aerobic respiration
+
+
+label:    sent_2
+sentence: Lung oxidative injury model mice were established by making them inhale O3 .
+
+ppatt:
+	?a were established
+		?a: Lung oxidative injury model mice
+	?a making
+		?a: Lung oxidative injury model mice
+	?a inhale ?b
+		?a: them
+		?b: O3
+
+
+label:    sent_3
+sentence: Subjects were randomized to inhale isopropyl alcohol or saline .
+
+ppatt:
+	?a were randomized to inhale ?b
+		?a: Subjects
+		?b: isopropyl alcohol
+	?a were randomized to inhale ?b
+		?a: Subjects
+		?b: saline
+
+
+label:    sent_4
+sentence: Botulism in patients who inhale cocaine : the first cases in France .
+
+ppatt:
+	?a inhale ?b
+		?a: patients
+		?b: cocaine
+
+
+label:    sent_5
+sentence: Recently , we described chromosome damage in children who chronically inhale volatile agents .
+
+ppatt:
+	Recently , ?a described ?b
+		?a: we
+		?b: chromosome damage in children who chronically inhale volatile agents
+	?a chronically inhale ?b
+		?a: children
+		?b: volatile agents
+
+
+label:    sent_6
+sentence: The disease is observed in drug addicts who inhale pre-heated heroin .
+
+ppatt:
+	?a is observed in ?b
+		?a: The disease
+		?b: drug addicts who inhale pre-heated heroin
+	?a inhale ?b
+		?a: drug addicts
+		?b: pre-heated heroin
+
+
+label:    sent_7
+sentence: People have the opportunity to inhale inorganic dusts under various environments .
+
+ppatt:
+	?a have ?b
+		?a: People
+		?b: the opportunity to inhale inorganic dusts under various environments
+	?a inhale ?b under ?c
+		?a: the opportunity
+		?b: inorganic dusts
+		?c: various environments
+
+
+label:    sent_8
+sentence: Animals were allowed to inhale smoke for 3 sessions of 2 to 3 minutes .
+
+ppatt:
+	?a were allowed to inhale ?b for ?c
+		?a: Animals
+		?b: smoke
+		?c: 3 sessions of 2 3 minutes
+
+
+label:    sent_9
+sentence: The animals were made to inhale benzene vapors for 2 min .
+
+ppatt:
+	?a were made to inhale ?b for ?c
+		?a: The animals
+		?b: benzene vapors
+		?c: 2 min
+
+
+label:    sent_10
+sentence: Humans inhale hundreds of Aspergillus conidia without adverse consequences .
+
+ppatt:
+	?a inhale ?b without ?c
+		?a: Humans
+		?b: hundreds of Aspergillus conidia
+		?c: adverse consequences
+
+
+label:    sent_11
+sentence: The effect of loaded deep inhale training on mild and moderate COPD smokers .
+
+ppatt:
+	?a inhale ?b on ?c
+		?a: The effect of loaded deep
+		?b: training
+		?c: mild and moderate COPD smokers
+
+
+label:    sent_12
+sentence: Should children inhale beta-agonists before exercise ? Children using a TS should be taught to inhale as slowly as possible .
+
+ppatt:
+	Should ?a inhale ?b before ?c
+		?a: children
+		?b: beta-agonists
+		?c: exercise
+	?a using ?b
+		?a: Children
+		?b: a TS
+	?a should be taught to inhale as slowly
+		?a: Children using a TS
+	?a as possible
+		?a: Children using a TS
+
+
+label:    sent_13
+sentence: Trainees were asked to volitionally inhale during exposure .
+
+ppatt:
+	?a were asked to volitionally inhale during ?b
+		?a: Trainees
+		?b: exposure
+
+
+label:    sent_14
+sentence: OSA occurs when a sleeping patient attempts to inhale against an obstructed airway .
+
+ppatt:
+	?a occurs
+		?a: OSA
+	when ?a attempts to inhale against ?b
+		?a: a sleeping patient
+		?b: an obstructed airway
+
+
+label:    sent_15
+sentence: Use of a TS makes it easier for children to inhale slowly .
+
+ppatt:
+	?a makes ?b easier for ?c to inhale slowly
+		?a: Use of a TS
+		?b: it
+		?c: children
+
+
+label:    sent_16
+sentence: The exception is in cigarette smokers who actively inhale .
+
+ppatt:
+	?a is in cigarette smokers
+		?a: The exception
+	?a actively inhale
+		?a: cigarette smokers
+
+
+label:    sent_17
+sentence: Ozone is one of the most common air pollutants humans routinely inhale . Just click and inhale .
+
+ppatt:
+	?a is one of ?b
+		?a: Ozone
+		?b: the most common air pollutants humans routinely inhale . Just click and inhale
+	?a ?b routinely inhale ?c
+		?a: the most common air pollutants
+		?b: humans
+		?c: Just click
+	?a inhale
+		?a: humans
+
+
+label:    sent_18
+sentence: Nitric oxide : to inhale or not to inhale .
+
+ppatt:
+	?a inhale
+		?a: Nitric oxide
+
+
+label:    sent_19
+sentence: Each subject was asked to sustain the vowel /a/ and then to inhale slowly .
+
+ppatt:
+	?a was asked to sustain ?b
+		?a: Each subject
+		?b: the vowel /a/
+	?a was asked to then to inhale slowly
+		?a: Each subject
+
+
+label:    sent_20
+sentence: Registrations were performed between the inhale and exhale phases for five patients .
+
+ppatt:
+	?a were performed between ?b
+		?a: Registrations
+		?b: inhale for five patients
+	?a were performed between ?b
+		?a: Registrations
+		?b: exhale
+
+
+label:    sent_21
+sentence: The signals to inhale and exhale are derived from the ECG .
+
+ppatt:
+	?a inhale
+		?a: The signals
+	?a are derived from ?b
+		?a: The signals to inhale and exhale
+		?b: the ECG
+
+
+label:    sent_22
+sentence: In addition , deformation of nodal regions between inhale and exhale occurs .
+
+ppatt:
+	In ?a , ?b occurs
+		?a: addition
+		?b: deformation of nodal regions between inhale and exhale
+
+
+label:    sent_23
+sentence: They inhale on average 8.21 m3 more air per day than normal-weight adults . Once again , it 's okay to inhale .
+
+ppatt:
+	?a inhale on ?b per ?c than ?d . Once again , to inhale
+		?a: They
+		?b: average 8.21 m3 more air
+		?c: day
+		?d: normal-weight adults
+
+
+label:    sent_24
+sentence: This is done by the air patients inhale through the inhaler .
+
+ppatt:
+	?a is done ?b
+		?a: This
+		?b: SOMETHING := by the air patients inhale through the inhaler
+	by ?a inhale through ?b
+		?a: the air patients
+		?b: the inhaler
+
+

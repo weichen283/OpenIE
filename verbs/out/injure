@@ -1,0 +1,283 @@
+label:    sent_1
+sentence: This causes a decrease in blood flow that can injure nerves and other tissues .
+
+ppatt:
+	?a causes ?b
+		?a: This
+		?b: a decrease in blood flow that can injure nerves and other tissues
+	?a can injure ?b
+		?a: blood flow
+		?b: nerves
+	?a can injure ?b
+		?a: blood flow
+		?b: other tissues
+
+
+label:    sent_2
+sentence: Ethoxycoumarin was found , nevertheless , to injure cultured rat hepatocytes . 14 other medications have been reported to injure the oesophagus .
+
+ppatt:
+	?a was found , nevertheless , to injure ?b
+		?a: Ethoxycoumarin
+		?b: cultured rat hepatocytes
+	?a have been reported to injure ?b
+		?a: 14 other medications
+		?b: the oesophagus
+
+
+label:    sent_3
+sentence: Excessive fatigue and restraint stress can injure the structure and function of endothelial cell .
+
+ppatt:
+	?a can injure ?b
+		?a: Excessive fatigue
+		?b: the structure of endothelial cell
+	?a can injure ?b
+		?a: restraint stress
+		?b: the structure of endothelial cell
+	?a can injure ?b
+		?a: Excessive fatigue
+		?b: function
+	?a can injure ?b
+		?a: restraint stress
+		?b: function
+
+
+label:    sent_4
+sentence: Foldable wheelchairs injure patients ' fingers . This procedure may injure the facial skin .
+
+ppatt:
+	?a injure ?b
+		?a: Foldable wheelchairs
+		?b: patients ' fingers
+	?a may injure ?b
+		?a: This procedure
+		?b: the facial skin
+
+
+label:    sent_5
+sentence: In this case , laser pulses may injure biological tissue due to energy accumulation .
+
+ppatt:
+	In ?a , ?b may injure ?c due to ?d
+		?a: this case
+		?b: laser pulses
+		?c: biological tissue
+		?d: energy accumulation
+
+
+label:    sent_6
+sentence: PMN can injure target tissues by oxidative and nonoxidative mechanisms .
+
+ppatt:
+	?a can injure ?b ?c
+		?a: PMN
+		?b: target tissues
+		?c: by oxidative and nonoxidative mechanisms
+
+
+label:    sent_7
+sentence: Cytopathic viruses injure cells by a number of different mechanisms . Stx2 may injure podocytes and induce proteinuria .
+
+ppatt:
+	?a injure ?b by ?c
+		?a: Cytopathic viruses
+		?b: cells
+		?c: a number of different mechanisms
+	?a may injure ?b
+		?a: Stx2
+		?b: podocytes
+	?a induce ?b
+		?a: Stx2
+		?b: proteinuria
+
+
+label:    sent_8
+sentence: These mediators injure endothelial cells and induce microcirculatory dysfunction .
+
+ppatt:
+	?a injure ?b
+		?a: These mediators
+		?b: endothelial cells
+	?a induce ?b
+		?a: These mediators
+		?b: microcirculatory dysfunction
+
+
+label:    sent_9
+sentence: Aortic cross-clamping during cardiac operations may injure the vessel wall and cause tissue lesions .
+
+ppatt:
+	?a may injure ?b
+		?a: Aortic cross-clamping during cardiac operations
+		?b: the vessel wall
+	?a cause ?b
+		?a: Aortic cross-clamping during cardiac operations
+		?b: tissue lesions
+
+
+label:    sent_10
+sentence: Phagocyte-derived reactive species are known to injure human tissues and to contribute to inflammation .
+
+ppatt:
+	?a are known to injure ?b
+		?a: Phagocyte-derived reactive species
+		?b: human tissues
+	?a are known to to contribute to ?b
+		?a: Phagocyte-derived reactive species
+		?b: inflammation
+
+
+label:    sent_11
+sentence: The puncture technique is simple and rapid and does not injure the experimental animal .
+
+ppatt:
+	?a is simple
+		?a: The puncture technique
+	?a rapid
+		?a: The puncture technique
+	?a does not injure ?b
+		?a: The puncture technique
+		?b: the experimental animal
+
+
+label:    sent_12
+sentence: Surgeons often can not see major vessels embedded in adipose tissue and inadvertently injure them .
+
+ppatt:
+	?a often can not see ?b
+		?a: Surgeons
+		?b: major vessels embedded in adipose tissue
+	?a inadvertently injure ?b
+		?a: Surgeons
+		?b: them
+
+
+label:    sent_13
+sentence: Players were 20 times more likely to injure themselves during a game than practice .
+
+ppatt:
+	?a were ?b more likely to injure ?c during ?d
+		?a: Players
+		?b: 20 times
+		?c: themselves
+		?d: a game than practice
+
+
+label:    sent_14
+sentence: If you injure your back on the job . Lead nitrate was shown to injure hepatocytes through an increased lipid peroxidation .
+
+ppatt:
+	?a injure ?b back on ?c
+		?a: you
+		?b: your
+		?c: the job
+	?a Lead ?b
+		?a: you
+		?b: nitrate
+	was shown to injure ?a through ?b
+		?a: hepatocytes
+		?b: an increased lipid peroxidation
+
+
+label:    sent_15
+sentence: In girls , diagnostic interventions may injure the developing breast and cause subsequent disfigurement .
+
+ppatt:
+	In ?a , ?b may injure ?c
+		?a: girls
+		?b: diagnostic interventions
+		?c: the developing breast
+	?a cause ?b
+		?a: diagnostic interventions
+		?b: subsequent disfigurement
+
+
+label:    sent_16
+sentence: There was an intent to injure in 11 % . Snowblowers injure approximately 5000 people a year and can cause devastating hand injuries .
+
+ppatt:
+	There was ?a
+		?a: an intent to injure in 11 %
+	?a injure in ?b
+		?a: an intent
+		?b: 11 %
+	?a injure ?b ?c
+		?a: Snowblowers
+		?b: approximately 5000 people
+		?c: a year
+	?a can cause ?b
+		?a: Snowblowers
+		?b: devastating hand injuries
+
+
+label:    sent_17
+sentence: Intent to harm or injure ? Pile-driving and other impulsive sound sources have the potential to injure or kill fishes .
+
+ppatt:
+	?a harm ?b
+		?a: Intent
+		?b: Pile-driving
+	?a harm ?b
+		?a: Intent
+		?b: other impulsive
+	?a injure
+		?a: Intent
+	?a have ?b
+		?a: Intent to harm or injure ? Pile-driving and other impulsive
+		?b: the potential to injure or kill fishes
+	?a injure ?b
+		?a: the potential
+		?b: fishes
+	kill ?a
+		?a: fishes
+
+
+label:    sent_18
+sentence: Experimental and clinical studies would unravel the mechanism by which NSAIDs injure intestinal mucosa .
+
+ppatt:
+	?a ?b would unravel ?c
+		?a: Experimental
+		?b: studies
+		?c: the mechanism by which NSAIDs injure intestinal mucosa
+	?a ?b would unravel ?c
+		?a: clinical
+		?b: studies
+		?c: the mechanism by which NSAIDs injure intestinal mucosa
+	?a by ?b injure ?c
+		?a: the mechanism
+		?b: NSAIDs
+		?c: intestinal mucosa
+
+
+label:    sent_19
+sentence: The mechanism by which freebase cocaine can injure the lung is not well defined .
+
+ppatt:
+	?a by ?b can injure ?c
+		?a: The mechanism
+		?b: freebase cocaine
+		?c: the lung
+	?a is not well defined
+		?a: The mechanism by which freebase cocaine can injure the lung
+
+
+label:    sent_20
+sentence: Mechanisms and circumstances in which drugs injure hepatocytes are not clear .
+
+ppatt:
+	?a in ?b injure ?c
+		?a: Mechanisms
+		?b: drugs
+		?c: hepatocytes
+	?a in ?b injure ?c
+		?a: circumstances
+		?b: drugs
+		?c: hepatocytes
+	?a are not clear
+		?a: Mechanisms in which drugs injure hepatocytes
+	?a are not clear
+		?a: circumstances
+
+

@@ -1,0 +1,433 @@
+label:    sent_1
+sentence: They sample their surroundings , internalizing , processing and presenting antigens to T cells .
+
+ppatt:
+	?a sample ?b
+		?a: They
+		?b: their surroundings , to T cells
+	?a sample ?b
+		?a: They
+		?b: internalizing
+	?a sample ?b
+		?a: They
+		?b: processing
+	?a sample ?b
+		?a: They
+		?b: antigens
+	?a presenting
+		?a: They
+
+
+label:    sent_2
+sentence: The conflicting structural requirements can be resolved by a flexible active center that can sample both open and closed conformational states .
+
+ppatt:
+	?a can be resolved by ?b
+		?a: The conflicting structural requirements
+		?b: a flexible active center that can sample both open and closed conformational states
+	?a can sample ?b
+		?a: a flexible active center
+		?b: both open and closed conformational states
+
+
+label:    sent_3
+sentence: Growing experimental data over several decades show that proteins are not rigid objects , but they may sample more or less wide ranges of different conformations .
+
+ppatt:
+	?a show ?b
+		?a: Growing experimental data over several decades
+		?b: SOMETHING := proteins are not rigid objects
+	?a are not rigid objects
+		?a: proteins
+	?a may sample ?b
+		?a: they
+		?b: more or less wide ranges of different conformations
+
+
+label:    sent_4
+sentence: However , if predators sample aposematic prey and selectively reject individuals on the basis of their chemical investment , aposematism could become evolutionarily stable .
+
+ppatt:
+	?a sample ?b
+		?a: predators
+		?b: aposematic prey
+	?a selectively reject ?b ?c
+		?a: predators
+		?b: individuals
+		?c: on basis of their chemical investment
+	However , ?a could become evolutionarily stable
+		?a: aposematism
+
+
+label:    sent_5
+sentence: Many organisms sample their environment through multiple sensory systems and the integration of multisensory information enhances learning .
+
+ppatt:
+	?a sample ?b through ?c
+		?a: Many organisms
+		?b: their environment
+		?c: multiple sensory systems
+	?a enhances ?b
+		?a: the integration of multisensory information
+		?b: learning
+
+
+label:    sent_6
+sentence: These methods sample the stimulus ( or mental-state ) space more richly , estimate a separate response pattern for each stimulus , and can generalize from the stimulus sample to a stimulus population .
+
+ppatt:
+	?a sample ?b
+		?a: These methods
+		?b: the stimulus
+	?a sample ?b
+		?a: These methods
+		?b: mental-state
+	?a more richly estimate ?b
+		?a: These methods
+		?b: a separate response pattern for each stimulus
+	?a can generalize from ?b to ?c
+		?a: These methods
+		?b: the stimulus sample
+		?c: a stimulus population
+
+
+label:    sent_7
+sentence: Taken together with the observation that PFs often protrude from NFPs , our data suggest that PFs form by a random nucleation mechanism in which the polypeptide chains sample many different aggregated conformations .
+
+ppatt:
+	Taken together with ?a ?b
+		?a: the observation that PFs often protrude from NFPs
+		?b: our data
+	?a often protrude from ?b
+		?a: PFs
+		?b: NFPs
+	?a suggest ?b
+		?a: our data
+		?b: SOMETHING := PFs form by a random nucleation mechanism in which the polypeptide chains sample many different aggregated conformations
+	?a form by ?b
+		?a: PFs
+		?b: a random nucleation mechanism in which the polypeptide chains sample many different aggregated conformations
+	?a in ?b sample ?c
+		?a: a random nucleation mechanism
+		?b: the polypeptide chains
+		?c: many different aggregated conformations
+
+
+label:    sent_8
+sentence: Transmembranal water transport permits solvent protons in the extravesicular water space , in which most of the observed NMR signal orginates , to sample the highly relaxive environment of the chromaffin granule matrix .
+
+ppatt:
+	?a permits ?b
+		?a: Transmembranal water transport
+		?b: solvent protons in the extravesicular water space , in which most of the observed NMR signal orginates , to sample the highly relaxive environment of the chromaffin granule matrix
+	?a in ?b orginates , to sample ?c
+		?a: the extravesicular water space
+		?b: most of the observed NMR signal
+		?c: the highly relaxive environment of the chromaffin granule matrix
+
+
+label:    sent_9
+sentence: The importance of exploratory behaviors by which agents actively sample information has been long appreciated in a wide range of disciplines ranging from machine and robot learning to neuroscience and psychology .
+
+ppatt:
+	?a by ?b actively sample ?c
+		?a: exploratory behaviors
+		?b: agents
+		?c: information
+	?a has been long appreciated in ?b
+		?a: The importance of exploratory behaviors by which agents actively sample information
+		?b: a wide range of disciplines ranging from machine and robot learning to neuroscience and psychology
+	?a ranging from ?b ?c
+		?a: disciplines
+		?b: machine
+		?c: learning to neuroscience and psychology
+	?a ranging from ?b ?c
+		?a: disciplines
+		?b: robot
+		?c: learning to neuroscience and psychology
+
+
+label:    sent_10
+sentence: Here we describe two approximate methods for generating informative stimulus sequences : the first approach provides a fast method for scoring the informativeness of a batch of specific potential stimulus sequences , while the second method attempts to compute an optimal stimulus distribution from which the experimenter may easily sample .
+
+ppatt:
+	Here ?a describe ?b
+		?a: we
+		?b: two approximate methods for generating informative stimulus sequences
+	?a generating ?b
+		?a: two approximate methods
+		?b: informative stimulus sequences
+	?a provides ?b
+		?a: the first approach
+		?b: a fast method for scoring the informativeness of a batch of specific potential stimulus sequences
+	?a scoring ?b
+		?a: a fast method
+		?b: the informativeness of a batch of specific potential stimulus sequences
+	?a attempts to compute ?b
+		?a: the second method
+		?b: an optimal stimulus distribution from which the experimenter may easily sample
+	?a from ?b may easily sample
+		?a: an optimal stimulus distribution
+		?b: the experimenter
+
+
+label:    sent_11
+sentence: Competition between intra- and interchain interactions greatly affects the diffusivity of peptide molecules and the conformational space that they can sample , ultimately controlling the shape , size , and distribution of the aggregate configurations .
+
+ppatt:
+	?a greatly affects ?b
+		?a: Competition between intra- and interchain interactions
+		?b: the diffusivity of peptide molecules
+	?a greatly affects ?b
+		?a: Competition between intra- and interchain interactions
+		?b: the conformational space that they can sample , ultimately controlling the shape , size , and distribution of the aggregate configurations
+	?a can sample , ultimately controlling ?b
+		?a: they
+		?b: the shape , of the aggregate configurations
+	?a can sample , ultimately controlling ?b
+		?a: they
+		?b: size
+	?a can sample , ultimately controlling ?b
+		?a: they
+		?b: distribution
+
+
+label:    sent_12
+sentence: In the study of depression , most randomized clinical trials have design features that attempt to sample from a stable patient population .
+
+ppatt:
+	In ?a , ?b have design ?c
+		?a: the study of depression
+		?b: most randomized clinical trials
+		?c: features that attempt to sample from a stable patient population
+	?a attempt to sample from ?b
+		?a: features
+		?b: a stable patient population
+
+
+label:    sent_13
+sentence: They negotiate their cluttered environment by radiating sound in a narrow 20degrees field of view which they sample with 1.5-3 clicks per metre travelled requiring only some 60 clicks to locate , select and approach each prey .
+
+ppatt:
+	?a negotiate ?b
+		?a: They
+		?b: their cluttered environment
+	?a radiating ?b in ?c
+		?a: They
+		?b: sound
+		?c: a narrow 20degrees field of view which they sample with 1.5-3 clicks per metre
+	?a ?b sample with ?c
+		?a: a narrow 20degrees field of view
+		?b: they
+		?c: 1.5-3 clicks per metre
+	?a travelled requiring ?b
+		?a: They
+		?b: only some 60 clicks
+	?a locate , select
+		?a: They
+	?a approach ?b
+		?a: They
+		?b: each prey
+
+
+label:    sent_14
+sentence: Saccadic eye movements and fixations are the behavioral means by which we visually sample text during reading .
+
+ppatt:
+	?a are the behavioral means
+		?a: Saccadic eye movements
+	?a are the behavioral means
+		?a: fixations
+	?a by ?b visually sample ?c during ?d
+		?a: the behavioral means
+		?b: we
+		?c: text
+		?d: reading
+
+
+label:    sent_15
+sentence: One of the key ingredients of our method , to build a three-dimensional structure from a random sequence of amino acids , is to work directly on torsional angles of the chain which we sample from a von Mises distribution .
+
+ppatt:
+	?a build ?b
+		?a: One of the key ingredients of our method
+		?b: a three-dimensional structure from a random sequence of amino acids
+	?a is to work directly on ?b
+		?a: One of the key ingredients of our method , to build a three-dimensional structure from a random sequence of amino acids
+		?b: torsional angles of the chain which we sample from a von Mises distribution
+	?a ?b sample from ?c
+		?a: the chain
+		?b: we
+		?c: a von Mises distribution
+
+
+label:    sent_16
+sentence: Our results provide evidence that : ( i ) the carbons that participate in the glycosidic linkage are the most sensitive probes with which to sense conformational changes of disaccharides ; ( ii ) the rotation of the hydroxyl groups closest to the glycosidic linkage significantly affects the computation of the shieldings of the carbons that participate in the glycosidic linkage ; ( iii ) it is not possible to obtain the shieldings of one disaccharide from the computed values of a different disaccharide or from those disaccharides that differ in the anomeric state ; and ( iv ) a proper basis set distribution , a functional , and a step size , with which to sample the conformational space , are necessary to compute shieldings accurately and rapidly . Often , the only practical site from which to sample the cellular responses is the peripheral blood .
+
+ppatt:
+	?a provide ?b
+		?a: Our results
+		?b: evidence that : the carbons that participate in the glycosidic linkage are the most sensitive probes with which to sense conformational changes of disaccharides ; the rotation of the hydroxyl groups closest to the glycosidic linkage significantly affects the computation of the shieldings of the carbons that participate in the glycosidic linkage ; it is not possible to obtain the shieldings of one disaccharide from the computed values of a different disaccharide or from those disaccharides that differ in the anomeric state ; and a proper basis set distribution , a functional , and a step , with which to sample the conformational space , are necessary to compute shieldings accurately and rapidly . Often , the only practical site from which to sample the cellular responses is the peripheral blood
+	?a participate in ?b
+		?a: the carbons
+		?b: the glycosidic linkage
+	?a are the most sensitive probes
+		?a: the carbons that participate in the glycosidic linkage
+	?a with to sense ?b
+		?a: the most sensitive probes
+		?b: conformational changes of disaccharides
+	?a significantly affects ?b
+		?a: the rotation of the hydroxyl groups closest to the glycosidic linkage
+		?b: the computation of the shieldings of the carbons that participate in the glycosidic linkage
+	?a participate in ?b
+		?a: the carbons
+		?b: the glycosidic linkage
+	?a is not possible to obtain ?b
+		?a: it
+		?b: the shieldings of one disaccharide from the computed values of a different disaccharide or from those disaccharides that differ in the anomeric state
+	?a differ in ?b
+		?a: those disaccharides
+		?b: the anomeric state
+	?a with to sample ?b
+		?a: a proper basis set distribution , a functional
+		?b: the conformational space
+	?a with to sample ?b
+		?a: a step
+		?b: the conformational space
+	?a are necessary to compute ?b accurately and rapidly
+		?a: a proper basis set distribution , a functional , with which to sample the conformational space
+		?b: shieldings
+	?a are necessary to compute ?b accurately and rapidly
+		?a: a step
+		?b: shieldings
+	?a from to sample ?b
+		?a: the only practical site
+		?b: the cellular responses
+	Often , ?a is the peripheral blood
+		?a: the only practical site from which to sample the cellular responses
+
+
+label:    sent_17
+sentence: Yet , the appropriate ratio in which to sample cases and controls has never been determined .
+
+ppatt:
+	Yet , ?a in ?b has never been determined
+		?a: the appropriate ratio to sample cases and controls
+		?b: which
+
+
+label:    sent_18
+sentence: Second , no census is available of these facilities from which to sample in order to implement a survey .
+
+ppatt:
+	Second , ?a is available of ?b
+		?a: no census
+		?b: these facilities to sample
+	?a from ?b in order to implement ?c
+		?a: no census
+		?b: which
+		?c: a survey
+
+
+label:    sent_19
+sentence: The perturbation analysis provides a reduced master equation in which the highly reactive species can sample only zero , and are effectively removed from the model .
+
+ppatt:
+	?a provides ?b
+		?a: The perturbation analysis
+		?b: a reduced master equation in which the highly reactive species can sample only zero , and are effectively removed from the model
+	?a in ?b can sample ?c
+		?a: a reduced master equation
+		?b: the highly reactive species
+		?c: only zero
+	?a are effectively removed from ?b
+		?a: the highly reactive species
+		?b: the model
+
+
+label:    sent_20
+sentence: Endobronchial ultrasound-guided transbronchial fine-needle aspiration ( EBUS-FNA ) has gained acceptance as the diagnostic procedure of choice with which to sample hilar and mediastinal lymph nodes ( LNs ) for diagnosing and staging patients with lung cancer .
+
+ppatt:
+	?a is/are EBUS-FNA
+		?a: Endobronchial ultrasound-guided transbronchial fine-needle aspiration
+	?a has gained ?b
+		?a: Endobronchial ultrasound-guided transbronchial fine-needle aspiration
+		?b: acceptance as the diagnostic procedure of choice with which to sample hilar and mediastinal lymph nodes for diagnosing and staging patients with lung cancer
+	?a with to sample ?b ?c
+		?a: the diagnostic procedure of choice
+		?b: hilar
+		?c: lymph nodes
+	?a with to sample ?b ?c
+		?a: the diagnostic procedure of choice
+		?b: mediastinal
+		?c: lymph nodes
+	?a is/are LNs
+		?a: lymph nodes
+	for diagnosing ?a
+		?a: patients with lung cancer
+	staging ?a
+		?a: patients with lung cancer
+
+
+label:    sent_21
+sentence: The sequential search strategy is a prominent model of searcher behavior , derived as a rule by which females might sample and choose a mate from a distribution of prospective partners .
+
+ppatt:
+	?a is a prominent model of ?b
+		?a: The sequential search strategy
+		?b: searcher behavior derived as a rule by which females might sample and choose a mate from a distribution of prospective partners
+	?a derived as ?b
+		?a: searcher behavior
+		?b: a rule by which females might sample and choose a mate from a distribution of prospective partners
+	?a by ?b might sample
+		?a: a rule
+		?b: females
+	?a choose ?b from ?c
+		?a: females
+		?b: a mate
+		?c: a distribution of prospective partners
+
+
+label:    sent_22
+sentence: Both experiments utilized the latent cue preference ( LCP ) task , in which water-replete rats sample water in one compartment of a three-compartment box , and are subsequently given a compartment preference test when water-deprived to determine if they remember the compartment cue previously associated with water .
+
+ppatt:
+	?a utilized ?b
+		?a: Both experiments
+		?b: the latent cue preference ( LCP ) task , in which water-replete rats sample water in one compartment of a three-compartment box
+	?a in ?b sample ?c in ?d
+		?a: the latent cue preference ( LCP ) task
+		?b: water-replete rats
+		?c: water
+		?d: one compartment of a three-compartment box
+	?a are subsequently given ?b
+		?a: Both experiments
+		?b: a compartment preference test
+	?a when water-deprived to determine
+		?a: Both experiments
+	?a remember ?b
+		?a: they
+		?b: the compartment cue previously associated with water
+	?a previously associated with ?b
+		?a: the compartment cue
+		?b: water
+
+
+label:    sent_23
+sentence: This is especially important for clinical registries that sample rather than collect 100 % of cases , which can limit hospital case accrual .
+
+ppatt:
+	?a is especially important for ?b
+		?a: This
+		?b: clinical registries that sample rather than collect 100 % of cases , which can limit hospital case accrual
+	?a sample
+		?a: clinical registries
+	?a collect ?b
+		?a: that
+		?b: 100 % of cases which can limit hospital case accrual
+	?a can limit ?b
+		?a: cases
+		?b: hospital case accrual
+
+

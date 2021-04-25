@@ -1,0 +1,33 @@
+label:    sent_1
+sentence: Hydrogen bonding sometimes results in one- , two- or three-dimensional supramolecular assemblies , a common feature of which is positional disorder of H atoms related to space-group symmetry .
+
+ppatt:
+	?a sometimes results in ?b
+		?a: Hydrogen bonding
+		?b: one- , is positional disorder of H atoms related to space-group symmetry
+	?a sometimes results in ?b
+		?a: Hydrogen bonding
+		?b: two-
+	?a sometimes results in ?b
+		?a: Hydrogen bonding
+		?b: three-dimensional
+	?a is/are a common feature of ?b
+		?a: one- , is positional disorder of H atoms related to space-group symmetry
+		?b: which
+	?a is/are a common feature of ?b
+		?a: two-
+		?b: which
+	?a is/are a common feature of ?b
+		?a: three-dimensional
+		?b: which
+	?a is positional disorder of ?b
+		?a: one-
+		?b: H atoms related to space-group symmetry
+	?a is positional disorder of ?b
+		?a: two-
+		?b: H atoms related to space-group symmetry
+	?a is positional disorder of ?b
+		?a: three-dimensional
+		?b: H atoms related to space-group symmetry
+
+

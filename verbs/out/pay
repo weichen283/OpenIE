@@ -1,0 +1,250 @@
+label:    sent_1
+sentence: Thus , older population pay more attention to their health . Health care providers must pay more attention to patient-centred information provision .
+
+ppatt:
+	Thus , ?a pay ?b to ?c
+		?a: older population
+		?b: more attention
+		?c: their health
+	?a must pay ?b to ?c
+		?a: Health care providers
+		?b: more attention
+		?c: patient-centred information provision
+
+
+label:    sent_2
+sentence: Researchers should pay significant attention to the lifespan issues of autism in Taiwanese families .
+
+ppatt:
+	?a should pay ?b to ?c
+		?a: Researchers
+		?b: significant attention
+		?c: the lifespan issues of autism in Taiwanese families
+
+
+label:    sent_3
+sentence: Clinicians and investigators need to pay attention to non-obese patients with fatty liver .
+
+ppatt:
+	?a need to pay ?b to ?c
+		?a: Clinicians
+		?b: attention
+		?c: non-obese patients with fatty liver
+	?a need to pay ?b to ?c
+		?a: investigators
+		?b: attention
+		?c: non-obese patients with fatty liver
+
+
+label:    sent_4
+sentence: Medline agrees to pay up in whistle-blower case . I need to pay more attention to mild haemophilia patients .
+
+ppatt:
+	?a agrees to pay up in ?b
+		?a: Medline
+		?b: whistle-blower case
+	?a need to pay ?b to ?c
+		?a: Medline
+		?b: more attention
+		?c: mild haemophilia patients
+
+
+label:    sent_5
+sentence: You get what you pay for . Are practices required to pay for an interpreter for deaf patients ? When patients do n't pay . Dental insurance is insurance designed to pay the costs associated with dental care .
+
+ppatt:
+	?a get ?b for ?c
+		?a: You
+		?b: SOMETHING := what you pay
+		?c: SOMETHING := Are practices required to pay for an interpreter for deaf patients
+	?a ?b pay
+		?a: what
+		?b: you
+	?a for Are practices
+		?a: You
+	?a required to pay for ?b
+		?a: practices
+		?b: an interpreter for deaf patients
+	When ?a do n't pay
+		?a: patients
+	?a is ?b designed to pay ?c
+		?a: Dental insurance
+		?b: insurance
+		?c: the costs associated with dental care
+	?a associated with ?b
+		?a: the costs
+		?b: dental care
+
+
+label:    sent_6
+sentence: In addition , grant support may be available to help pay software licensing costs .
+
+ppatt:
+	In ?a , ?b may be available to help pay ?c
+		?a: addition
+		?b: grant support
+		?c: software licensing costs
+
+
+label:    sent_7
+sentence: Proceeds pay a health worker 's salary . Almost 37,000 dentists pay ARF . [ Neglected disinfection .
+
+ppatt:
+	?a pay ?b
+		?a: Proceeds
+		?b: a health worker 's salary
+	?a pay ?b . [ ?c
+		?a: Almost 37,000 dentists
+		?b: ARF
+		?c: Neglected disinfection
+
+
+label:    sent_8
+sentence: Physician must pay 17,000 euros ] . Providers likely to pay up , regardless of budget-deficit compromise .
+
+ppatt:
+	?a must pay ?b ?c
+		?a: Physician
+		?b: 17,000 euros ]
+		?c: Providers likely to pay up , regardless of budget-deficit compromise
+	pay up , regardless of ?a
+		?a: budget-deficit compromise
+
+
+label:    sent_9
+sentence: Parents ' willingness to pay for coeliac disease screening of their child .
+
+ppatt:
+	?a pay for ?b
+		?a: Parents ' willingness
+		?b: coeliac disease screening of their child
+
+
+label:    sent_10
+sentence: Better home care and better pay for doctors urged at CMA town hall . Governments must pay for clean-energy innovation .
+
+ppatt:
+	?a urged at ?b
+		?a: doctors
+		?b: CMA town hall
+	?a ?b must pay for ?c
+		?a: Better home care
+		?b: Governments
+		?c: clean-energy innovation
+	?a ?b must pay for ?c
+		?a: better pay for doctors urged at CMA town hall
+		?b: Governments
+		?c: clean-energy innovation
+
+
+label:    sent_11
+sentence: Performing well on nursing home report cards : does it pay off ? Does fellowship pay ? Overtime and protected pay threatened by cost-cutting .
+
+ppatt:
+	Performing well on ?a
+		?a: nursing home report cards
+	does ?a pay off
+		?a: it
+	Does ?a pay ?b
+		?a: fellowship
+		?b: Overtime
+	?a protected
+		?a: fellowship
+	?a pay threatened by ?b
+		?a: fellowship
+		?b: cost-cutting
+
+
+label:    sent_12
+sentence: We should pay attention to surveillance and to prevent epidemic outbreak again .
+
+ppatt:
+	?a should pay ?b to ?c
+		?a: We
+		?b: attention
+		?c: surveillance
+	?a prevent ?b again
+		?a: We
+		?b: epidemic outbreak
+
+
+label:    sent_13
+sentence: Anesthesiologists should pay attention to the occurence of asystole and prepare for resuscitation .
+
+ppatt:
+	?a should pay ?b to ?c
+		?a: Anesthesiologists
+		?b: attention
+		?c: the occurence of asystole
+	?a prepare for ?b
+		?a: Anesthesiologists
+		?b: resuscitation
+
+
+label:    sent_14
+sentence: Surgeons should pay more attention to these patients and initiate emergency surgery without delay .
+
+ppatt:
+	?a should pay ?b to ?c
+		?a: Surgeons
+		?b: more attention
+		?c: these patients
+	?a initiate ?b without ?c
+		?a: Surgeons
+		?b: emergency surgery
+		?c: delay
+
+
+label:    sent_15
+sentence: Congress says pay less , but can n't agree how . We pay special attention to preferential selection and derive exact formulas . Nauruans pay no taxes , and there is no foreign aid . Members vote for peace and pay review promise .
+
+ppatt:
+	?a says pay less
+		?a: Congress
+	?a can n't agree
+		?a: Congress
+	how . ?a pay ?b to ?c
+		?a: We
+		?b: special attention
+		?c: preferential selection
+	?a derive ?b
+		?a: We
+		?b: exact formulas
+	?a pay ?b
+		?a: Nauruans
+		?b: no taxes
+	there is ?a ?b
+		?a: no foreign aid
+		?b: Members vote for peace
+	?a pay ?b
+		?a: no foreign aid
+		?b: review promise
+
+
+label:    sent_16
+sentence: Physicians must slow down and pay attention .
+
+ppatt:
+	?a must slow ?b ?c
+		?a: Physicians
+		?b: down
+		?c: attention
+	?a must slow ?b ?c
+		?a: Physicians
+		?b: pay
+		?c: attention
+
+
+label:    sent_17
+sentence: Radiologists should be aware of this phenomenon and pay particular attention to this zone .
+
+ppatt:
+	?a should be aware of ?b
+		?a: Radiologists
+		?b: this phenomenon
+	?a pay ?b to ?c
+		?a: Radiologists
+		?b: particular attention
+		?c: this zone
+
+

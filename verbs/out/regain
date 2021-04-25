@@ -1,0 +1,314 @@
+label:    sent_1
+sentence: Metal ions helped to regain activity of EDTA pretreated enzyme .
+
+ppatt:
+	?a helped to regain ?b
+		?a: Metal ions
+		?b: activity of EDTA pretreated enzyme
+
+
+label:    sent_2
+sentence: Provider practices may need to change to regain community confidence in quality improvement processes .
+
+ppatt:
+	?a may need to change to regain ?b
+		?a: Provider practices
+		?b: community confidence in quality improvement processes
+
+
+label:    sent_3
+sentence: Pain and disability are motivating factors in finding ways to regain their health .
+
+ppatt:
+	?a are motivating factors in ?b
+		?a: Pain
+		?b: finding ways to regain their health
+	?a are motivating factors in ?b
+		?a: disability
+		?b: finding ways to regain their health
+	?a regain ?b
+		?a: finding ways
+		?b: their health
+
+
+label:    sent_4
+sentence: To estimate , from the literature , when nonlactating postpartum women regain fertility .
+
+ppatt:
+	estimate , from ?a
+		?a: the literature
+	when ?a regain ?b
+		?a: nonlactating postpartum women
+		?b: fertility
+
+
+label:    sent_5
+sentence: It can help patients regain integrity of anatomical structure and functions of pelvic floor .
+
+ppatt:
+	?a can help ?b
+		?a: It
+		?b: SOMETHING := patients regain integrity of anatomical structure and functions of pelvic floor
+	?a ?b regain ?c
+		?a: It
+		?b: patients
+		?c: integrity of anatomical structure and functions of pelvic floor
+
+
+label:    sent_6
+sentence: However , the defeated male does not regain aggressiveness if repeated fighting occurs . Neither inorganic ions nor calcium chelators cause regain of ideal colligative behavior .
+
+ppatt:
+	However , ?a does not regain ?b
+		?a: the defeated male
+		?b: aggressiveness
+	?a occurs
+		?a: repeated fighting
+	?a cause regain of ?b
+		?a: inorganic ions
+		?b: ideal colligative behavior
+	?a cause regain of ?b
+		?a: calcium chelators
+		?b: ideal colligative behavior
+
+
+label:    sent_7
+sentence: Castrates treated with testosterone regain motivation and sex behaviors over time .
+
+ppatt:
+	?a treated with ?b
+		?a: Castrates
+		?b: testosterone
+	?a regain ?b over ?c
+		?a: Castrates treated with testosterone
+		?b: motivation
+		?c: time
+	?a regain ?b over ?c
+		?a: Castrates treated with testosterone
+		?b: sex
+		?c: time
+	?a regain ?b over ?c
+		?a: Castrates treated with testosterone
+		?b: behaviors
+		?c: time
+
+
+label:    sent_8
+sentence: Three patients with otitic facial palsy failed to regain full facial function despite surgery . Weight regain after weight loss is common .
+
+ppatt:
+	?a failed to regain ?b despite ?c
+		?a: Three patients with otitic facial palsy
+		?b: full facial function
+		?c: surgery
+	?a regain after ?b
+		?a: Weight
+		?b: weight loss
+
+
+label:    sent_9
+sentence: However , noncompliance and rebound weight regain after noncompliance are considerable problems .
+
+ppatt:
+	?a regain after ?b
+		?a: noncompliance
+		?b: noncompliance
+	?a regain after ?b
+		?a: rebound weight
+		?b: noncompliance
+	However , ?a are considerable problems
+		?a: noncompliance regain after noncompliance
+	However , ?a are considerable problems
+		?a: rebound weight
+
+
+label:    sent_10
+sentence: Addressing the big challenge of obesity : how to prevent regain of lost weight . Patients regain excellent function following surgery and adjuvant therapy .
+
+ppatt:
+	Addressing ?a
+		?a: the big challenge of obesity
+	how to prevent regain of ?a
+		?a: lost weight
+	?a ?b regain ?c following ?d
+		?a: SOMETHING := Addressing the big challenge of obesity : how to prevent regain of lost weight
+		?b: Patients
+		?c: excellent function
+		?d: surgery
+	?a ?b regain ?c following ?d
+		?a: SOMETHING := Addressing the big challenge of obesity : how to prevent regain of lost weight
+		?b: Patients
+		?c: excellent function
+		?d: adjuvant therapy
+
+
+label:    sent_11
+sentence: Only those animals who regain weight to pre-surgery levels are used for experiments .
+
+ppatt:
+	?a regain ?b
+		?a: Only those animals
+		?b: weight to pre-surgery levels
+	?a are used for ?b
+		?a: Only those animals who regain weight to pre-surgery levels
+		?b: experiments
+
+
+label:    sent_12
+sentence: One patient did not regain normal urinary voidings until the fourth week after surgery .
+
+ppatt:
+	?a did not regain ?b until ?c
+		?a: One patient
+		?b: normal urinary voidings
+		?c: the fourth week after surgery
+
+
+label:    sent_13
+sentence: Is it possible to regain epithelial attachment and rebuild the bone architecture ? Physical therapy promotes strengthening of local musculature and regain range of motion .
+
+ppatt:
+	Is ?a possible to regain ?b
+		?a: it
+		?b: epithelial attachment
+	Is ?a possible to rebuild ?b
+		?a: it
+		?b: the bone architecture
+	?a promotes ?b
+		?a: Physical therapy
+		?b: strengthening of local musculature
+	?a regain ?b
+		?a: Physical therapy
+		?b: range of motion
+
+
+label:    sent_14
+sentence: Physical activity was seen as a way to regain control and reduce distress .
+
+ppatt:
+	?a was seen as ?b
+		?a: Physical activity
+		?b: a way to regain control and reduce distress
+	?a regain ?b
+		?a: a way
+		?b: control
+	reduce ?a
+		?a: distress
+
+
+label:    sent_15
+sentence: The hematoma was drained , but the patient did not regain vision .
+
+ppatt:
+	?a was drained
+		?a: The hematoma
+	?a did not regain ?b
+		?a: the patient
+		?b: vision
+
+
+label:    sent_16
+sentence: She did not regain consciousness and died 12 days after the incident .
+
+ppatt:
+	?a did not regain ?b
+		?a: She
+		?b: consciousness
+	?a died ?b
+		?a: She
+		?b: 12 days
+
+
+label:    sent_17
+sentence: However , the patient did not regain renal function and remained on hemodialysis .
+
+ppatt:
+	However , ?a did not regain ?b
+		?a: the patient
+		?b: renal function
+	?a remained on ?b
+		?a: the patient
+		?b: hemodialysis
+
+
+label:    sent_18
+sentence: Surgery is able to relieve pain and to regain or to preserve mobility .
+
+ppatt:
+	?a is able to relieve ?b
+		?a: Surgery
+		?b: pain
+	?a is able to to regain
+		?a: Surgery
+	?a preserve ?b
+		?a: Surgery
+		?b: mobility
+
+
+label:    sent_19
+sentence: This cycle of weight loss and regain may affect their resting metabolism .
+
+ppatt:
+	?a may affect ?b
+		?a: This cycle of weight loss and regain
+		?b: their resting metabolism
+
+
+label:    sent_20
+sentence: Levelling of SPECT uptake may indicate a new balance between bone loss and regain .
+
+ppatt:
+	?a may indicate ?b
+		?a: Levelling of SPECT uptake
+		?b: a new balance between bone loss
+	?a regain
+		?a: Levelling of SPECT uptake
+
+
+label:    sent_21
+sentence: Unexpected weight regain following successful jaw wiring .
+
+ppatt:
+	?a regain following ?b
+		?a: Unexpected weight
+		?b: successful jaw wiring
+
+
+label:    sent_22
+sentence: The effects of repeated cycles of weight loss and regain in rats . By passage in intestinal loops , strains of A. hydrophila could regain lost enterotoxicity .
+
+ppatt:
+	?a ?b could regain ?c
+		?a: The effects of repeated cycles of weight loss
+		?b: strains of A. hydrophila
+		?c: lost enterotoxicity
+	?a ?b could regain ?c
+		?a: regain in rats By passage in intestinal loops
+		?b: strains of A. hydrophila
+		?c: lost enterotoxicity
+
+
+label:    sent_23
+sentence: After operation , the infants regain conscious quickly and no accident occurred .
+
+ppatt:
+	After ?a , ?b regain conscious quickly
+		?a: operation
+		?b: the infants
+	?a occurred
+		?a: no accident
+
+
+label:    sent_24
+sentence: Upon removal of cytochalasin , epithelia regain normal shape and resume morphogenesis .
+
+ppatt:
+	Upon ?a , ?b regain ?c
+		?a: removal of cytochalasin
+		?b: epithelia
+		?c: normal shape
+	?a resume ?b
+		?a: epithelia
+		?b: morphogenesis
+
+

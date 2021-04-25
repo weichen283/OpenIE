@@ -1,0 +1,279 @@
+label:    sent_1
+sentence: Authors of clinical trial reports should be encouraged to consult the CONSORT statement .
+
+ppatt:
+	?a should be encouraged to consult ?b
+		?a: Authors of clinical trial reports
+		?b: the CONSORT statement
+
+
+label:    sent_2
+sentence: Patients vary widely when making decisions to consult primary care .
+
+ppatt:
+	?a vary widely
+		?a: Patients
+	?a when making ?b to consult ?c
+		?a: Patients
+		?b: decisions
+		?c: primary care
+
+
+label:    sent_3
+sentence: Dentists encouraged to consult reliable sources in potential influenza pandemic .
+
+ppatt:
+	?a encouraged to consult ?b
+		?a: Dentists
+		?b: reliable sources in potential influenza pandemic
+
+
+label:    sent_4
+sentence: A high proportion of teenagers and young adults consult their GP .
+
+ppatt:
+	?a consult ?b
+		?a: A high proportion of teenagers and young adults
+		?b: their GP
+
+
+label:    sent_5
+sentence: One of the most common reasons why students consult counselling centres is depression .
+
+ppatt:
+	?a why ?b consult ?c
+		?a: the most common reasons
+		?b: students
+		?c: counselling centres
+	?a is depression
+		?a: One of the most common reasons why students consult counselling centres
+
+
+label:    sent_6
+sentence: Vaginal discharge was frequent and incited patients to consult a gynecologist .
+
+ppatt:
+	?a was frequent
+		?a: Vaginal discharge
+	?a incited ?b to consult ?c
+		?a: Vaginal discharge
+		?b: patients
+		?c: a gynecologist
+
+
+label:    sent_7
+sentence: They were instructed to consult with a gynecologist after any positive result .
+
+ppatt:
+	?a were instructed to consult with ?b after ?c
+		?a: They
+		?b: a gynecologist
+		?c: any positive result
+
+
+label:    sent_8
+sentence: It is unclear whom patients prefer to consult about their problems following cancer treatment .
+
+ppatt:
+	?a is unclear ?b
+		?a: It
+		?b: SOMETHING := whom patients prefer to consult about their problems following cancer treatment
+	?a ?b prefer to consult about ?c
+		?a: whom
+		?b: patients
+		?c: their problems following cancer treatment
+
+
+label:    sent_9
+sentence: Medical imaging : how to get the best radiological consult in 1986 .
+
+ppatt:
+	?a how to get ?b
+		?a: Medical imaging
+		?b: the best radiological consult in 1986
+
+
+label:    sent_10
+sentence: [ Evaluation of the off-site preanaesthetic consult in Lorraine ] . Expectations and experience of people who consult in training practice .
+
+ppatt:
+	?a consult in ?b
+		?a: people
+		?b: training practice
+
+
+label:    sent_11
+sentence: Ethical consideration in the medical care of adolescents who consult for treatment of gonorrhea .
+
+ppatt:
+	?a consult for ?b
+		?a: adolescents
+		?b: treatment of gonorrhea
+
+
+label:    sent_12
+sentence: Policy-makers rarely consult adolescents during development of health policies .
+
+ppatt:
+	?a rarely consult ?b during ?c
+		?a: Policy-makers
+		?b: adolescents
+		?c: development of health policies
+
+
+label:    sent_13
+sentence: Forensic pathologists frequently consult anthropologists for the identification of skeletonized human remains .
+
+ppatt:
+	?a frequently consult ?b
+		?a: Forensic pathologists
+		?b: anthropologists for the identification of skeletonized human
+	?a remains
+		?a: Forensic pathologists
+
+
+label:    sent_14
+sentence: Parents may consult family physicians about the safety of dance training for their children .
+
+ppatt:
+	?a may consult ?b about ?c
+		?a: Parents
+		?b: family physicians
+		?c: the safety of dance training for their children
+
+
+label:    sent_15
+sentence: When in doubt , consult a dentist as soon as possible .
+
+ppatt:
+	in ?a , consult ?b
+		?a: When doubt
+		?b: a dentist
+
+
+label:    sent_16
+sentence: Do as suggested , send your consult along with a harsh letter .
+
+ppatt:
+	?a consult along with ?b
+		?a: your
+		?b: a harsh letter
+
+
+label:    sent_17
+sentence: [Accelerating consult letter time in inpatient psychiatric and psychotherapeutic care ] . Most South African urban Blacks consult witchdoctors .
+
+ppatt:
+	?a consult ?b
+		?a: [Accelerating
+		?b: letter time in inpatient psychiatric and psychotherapeutic
+	?a consult ?b
+		?a: Most South African urban Blacks
+		?b: witchdoctors
+
+
+label:    sent_18
+sentence: Infection consult . Infection consult .
+
+ppatt:
+	?a consult
+		?a: Infection
+	?a consult
+		?a: Infection
+
+
+label:    sent_19
+sentence: The patient should be well informed and must consult the dermatologist weekly . All patients undergone neurologic consult and brain computed tomography .
+
+ppatt:
+	?a should be well informed
+		?a: The patient
+	?a must consult ?b weekly
+		?a: The patient
+		?b: the dermatologist
+	?a undergone ?b
+		?a: All patients
+		?b: neurologic consult
+	?a undergone ?b
+		?a: All patients
+		?b: brain computed tomography
+
+
+label:    sent_20
+sentence: Subscales were compared between parents who did and did not consult a clinician . Women value interdependence , and they consult friends and readily accept help .
+
+ppatt:
+	?a were compared between ?b
+		?a: Subscales
+		?b: parents who did and did not consult a clinician . Women value interdependence
+	?a did did not consult ?b ?c
+		?a: parents
+		?b: a clinician . Women
+		?c: value interdependence
+	?a consult ?b
+		?a: they
+		?b: friends
+	?a readily accept help
+		?a: they
+
+
+label:    sent_21
+sentence: Please consult an attorney concerning your compliance with HIPAA and the regulations promulgated thereunder .
+
+ppatt:
+	?a consult ?b
+		?a: Please
+		?b: an attorney concerning your compliance with HIPAA and the regulations promulgated thereunder
+	?a promulgated thereunder
+		?a: the regulations
+
+
+label:    sent_22
+sentence: Please consult an attorney concerning your compliance with HIPAA and the regulations promulgated thereunder .
+
+ppatt:
+	?a consult ?b
+		?a: Please
+		?b: an attorney concerning your compliance with HIPAA and the regulations promulgated thereunder
+	?a promulgated thereunder
+		?a: the regulations
+
+
+label:    sent_23
+sentence: The involved patients were followed up via telephone contact and consult of medical recording .
+
+ppatt:
+	?a were followed up via ?b
+		?a: The involved patients
+		?b: telephone contact of medical recording
+	?a were followed up via ?b
+		?a: The involved patients
+		?b: consult
+
+
+label:    sent_24
+sentence: They have less access to prenatal care and consult later in pregnancy than controls .
+
+ppatt:
+	?a have ?b to ?c
+		?a: They
+		?b: less access
+		?c: prenatal care
+	?a consult later in ?b than ?c
+		?a: They
+		?b: pregnancy
+		?c: controls
+
+
+label:    sent_25
+sentence: Take your time , consult with respected professionals and insist on the best .
+
+ppatt:
+	Take ?a
+		?a: your time
+	consult with ?a
+		?a: respected professionals
+	insist on ?a
+		?a: the best
+
+

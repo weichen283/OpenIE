@@ -1,0 +1,24 @@
+prep	STITCH : algorithm to splice , trim , identify , track , and capture the uniqueness of 16S rRNAs sequence pairs using public or in-house database .	prep_to@algorithm
+prep	Previously we evolved inteins that splice efficiently in Saccharomyces cerevisiae only in the presence of the cell-permeable small molecule 4-hydroxytamoxifen ( 4-HT ) .	prep_that@inteins
+prep	Each pre-mRNA molecule is predicted to require a similar time to splice , reducing kinetic noise and improving the regulation of alternative splicing .	prep_to@time
+
+conj	Other mutations are frameshift , splice and nonsense mutations .	conj_and@frameshift
+conj	Transcriptional units were constructed consisting of a steroid - inducible mouse mammary tumor virus ( MMTV ) promoter , mouse or human 5 ' c-fos gene fragments in either the sense ( 5 ' to 3 ' ) or antisense ( 3 ' to 5 ' ) orientation , and splice and poly ( A ) signals from the human beta-globin gene .	conj_and@poly
+conj	A method for mapping RNA initiation , termination , splice , and protein binding sites .	conj_and@initiation
+
+obj	( Moreover , the aI1 maturase , which accumulates in some mutants , can efficiently splice aI2 IVS when the translation of the latter 's proper maturase cannot occur ) .	obj@IVS
+
+prep#conj	Strikingly , ~15 % of upregulated genes are induced in association with derepression of promoter-proximal ERVs , half in the context of " chimeric " transcripts that initiate within these retroelements and splice to genic exons .	prep_to@exons conj_and@initiate
+
+obj#prep	Int-n and Int-c fragments in the separate precursors catalyze , in concert , a protein trans-splicing process to splice the flanking DnaE-n and DnaE-c into a functional catalytic subunit of DNA polymerase III .	obj@DnaE-n prep_into@subunit
+obj#prep	The alterations at the 3 ' end are caused by an aberrant splicing event in which additional splice-donor and -acceptor sequences within intronic sequences are used to splice an additional 363 nucleotides into the myb transcripts .	obj@nucleotides prep_into@transcripts
+
+obj#conj	Moreover , the SmN mRNA shows a widespread distribution within the brain and spinal ganglia being present in neuronal cells in all regions which naturally produce CGRP as well as in those areas which do not naturally express the calcitonin / CGRP gene but which can correctly splice the CGRP mRNA in transgenic mice expressing the calcitonin / CGRP gene in all cell types .	obj@mRNA conj_but@express
+
+subj#obj	These results indicate that both the stem cells and their differentiated progeny can efficiently splice the precursor RNAs for these influenza virus messengers .	subj@cells subj@progeny obj@RNAs
+subj#obj	These results show that a U4 / U6atac di-snRNP can correctly splice a U12 - dependent intron and suggest that the specificity for spliceosome type resides in the U6 and U6atac small nuclear ribonucleoproteins .	subj@di-snRNP obj@intron
+
+subj#obj#prep	The most well-characterized family of split inteins , the cyanobacterial DnaE inteins , show particular promise , as many of these can splice proteins in less than 1 min .	subj@many obj@proteins prep_in@min
+subj#obj#prep	However , mRNA processing in children may preferentially splice Mbcr exon 2 to ABL exon II .	subj@processing obj@exon prep_to@exon
+subj#obj#prep	More than one way to splice an RNA : branching without a bulge and splicing without branching in group II introns .	subj@way obj@branching prep_without@bulge prepc_without@branching
+

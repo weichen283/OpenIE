@@ -1,0 +1,263 @@
+label:    sent_1
+sentence: All IPLs assessed emit different spectra because of different filter technologies .
+
+ppatt:
+	?a assessed
+		?a: All IPLs
+	?a emit ?b because of ?c
+		?a: All IPLs assessed
+		?b: different spectra
+		?c: different filter technologies
+
+
+label:    sent_2
+sentence: Consequently some ( but not all ) bats emit species-specific echolocation pulses .
+
+ppatt:
+	Consequently ?a ?b emit ?c
+		?a: some
+		?b: bats
+		?c: species-specific echolocation pulses
+	Consequently ?a ?b emit ?c
+		?a: all
+		?b: bats
+		?c: species-specific echolocation pulses
+
+
+label:    sent_3
+sentence: All fluorinated metal chelates emit a single ( 19 ) F signal . SYBR Green I can then bind to the hairpin to emit green fluorescence .
+
+ppatt:
+	?a emit ?b
+		?a: All fluorinated metal chelates
+		?b: a single ( 19 ) F signal
+	?a can then bind to ?b to emit ?c
+		?a: SYBR Green I
+		?b: the hairpin
+		?c: green fluorescence
+
+
+label:    sent_4
+sentence: The present study proves that also estrone is able to emit electrons .
+
+ppatt:
+	?a proves ?b
+		?a: The present study
+		?b: SOMETHING := also estrone is able to emit electrons
+	also ?a is able to emit ?b
+		?a: estrone
+		?b: electrons
+
+
+label:    sent_5
+sentence: They were sometimes seen to emit a single long protrusion .
+
+ppatt:
+	?a were sometimes seen to emit ?b
+		?a: They
+		?b: a single long protrusion
+
+
+label:    sent_6
+sentence: Hawking argued that black holes emit thermal radiation via a quantum spontaneous emission .
+
+ppatt:
+	?a argued ?b
+		?a: Hawking
+		?b: SOMETHING := black holes emit thermal radiation via a quantum spontaneous emission
+	?a emit ?b via ?c
+		?a: black holes
+		?b: thermal radiation
+		?c: a quantum spontaneous emission
+
+
+label:    sent_7
+sentence: In particular , some CFLs emit short wavelength UV radiation at 253.7 nm . Male field crickets emit pure-tone mating calls by rubbing their wings together .
+
+ppatt:
+	In ?a , ?b emit ?c at ?d
+		?a: particular
+		?b: some CFLs
+		?c: short wavelength UV radiation
+		?d: 253.7 nm
+	?a emit ?b
+		?a: Male field crickets
+		?b: pure-tone mating calls
+	?a rubbing ?b together
+		?a: Male field crickets
+		?b: their wings
+
+
+label:    sent_8
+sentence: Many nanoscale systems are known to emit light intermittently under continuous illumination . PYY-immunoreactive cells were seen to emit cytoplasmic processes to the neighbouring goblet cells .
+
+ppatt:
+	?a are known to emit ?b intermittently under ?c
+		?a: Many nanoscale systems
+		?b: light
+		?c: continuous illumination
+	?a were seen to emit ?b to ?c
+		?a: PYY-immunoreactive cells
+		?b: cytoplasmic processes
+		?c: the neighbouring goblet cells
+
+
+label:    sent_9
+sentence: The chromophore has a chemical structure that can emit light in a photoprotein .
+
+ppatt:
+	?a has ?b
+		?a: The chromophore
+		?b: a chemical structure that can emit light in a photoprotein
+	?a can emit ?b in ?c
+		?a: a chemical structure
+		?b: light
+		?c: a photoprotein
+
+
+label:    sent_10
+sentence: Such ceramic materials emit in the FIR when subjected to body temperature . At 100 K , both monomers and polymers emit only at 450 nm . All complexes emit at 77 K with lifetimes on the order of 4 mus .
+
+ppatt:
+	?a emit in ?b
+		?a: Such ceramic materials
+		?b: the FIR
+	?a when subjected to ?b At ?c
+		?a: Such ceramic materials
+		?b: body temperature
+		?c: 100 K
+	?a emit at ?b
+		?a: monomers
+		?b: only 450 nm
+	?a emit at ?b
+		?a: polymers
+		?b: only 450 nm
+	?a emit at ?b with ?c on ?d
+		?a: All complexes
+		?b: 77 K
+		?c: lifetimes
+		?d: the order of 4 mus
+
+
+label:    sent_11
+sentence: Echolocating dolphins emit trains of clicks and receive echoes from ocean targets .
+
+ppatt:
+	?a emit ?b
+		?a: Echolocating dolphins
+		?b: trains of clicks
+	?a receive ?b
+		?a: Echolocating dolphins
+		?b: echoes from ocean targets
+
+
+label:    sent_12
+sentence: Echolocating bats emit sound signals and analyse the returning echoes to sense their environment .
+
+ppatt:
+	?a emit ?b
+		?a: Echolocating bats
+		?b: sound signals
+	?a analyse ?b to sense ?c
+		?a: Echolocating bats
+		?b: the returning echoes
+		?c: their environment
+
+
+label:    sent_13
+sentence: The transistors emit blue electroluminescence and are stable during operation and storage .
+
+ppatt:
+	?a emit ?b
+		?a: The transistors
+		?b: blue electroluminescence
+
+
+label:    sent_14
+sentence: In these conditions the cell bodies tended to emit neurites and to interconnect .
+
+ppatt:
+	In ?a ?b tended to emit ?c
+		?a: these conditions
+		?b: the cell bodies
+		?c: neurites
+	?a tended to to interconnect
+		?a: the cell bodies
+
+
+label:    sent_15
+sentence: Yttrium-90 is widely used in radioimmunotherapy but does not emit photons for imaging .
+
+ppatt:
+	?a is widely used in ?b
+		?a: Yttrium-90
+		?b: radioimmunotherapy
+	?a does not emit ?b for ?c
+		?a: Yttrium-90
+		?b: photons
+		?c: imaging
+
+
+label:    sent_16
+sentence: These objects swallow up whatever comes near and emit nothing . The 0.5MgF2.3.5MgO .
+
+ppatt:
+	?a swallow up ?b
+		?a: These objects
+		?b: SOMETHING := whatever comes near
+	?a comes ?b
+		?a: whatever
+		?b: near
+	?a emit ?b ?c
+		?a: whatever
+		?b: nothing
+		?c: The 0.5MgF2.3.5MgO
+
+
+label:    sent_17
+sentence: GeO2 : Mn phosphor did not emit enough . Herbivore-damaged plants emit volatile organic compounds that attract natural enemies of the herbivores .
+
+ppatt:
+	?a did not emit enough
+		?a: GeO2 Mn phosphor
+	?a emit ?b
+		?a: Herbivore-damaged plants
+		?b: volatile organic compounds that attract natural enemies of the herbivores
+	?a attract ?b
+		?a: volatile organic compounds
+		?b: natural enemies of the herbivores
+
+
+label:    sent_18
+sentence: Quantitative PET with positron emitters that emit prompt gamma rays .
+
+ppatt:
+	?a emit ?b
+		?a: positron emitters
+		?b: prompt gamma rays
+
+
+label:    sent_19
+sentence: Live LFCs are transparent , but emit autofluorescence after formaldehyde fixation .
+
+ppatt:
+	?a are transparent
+		?a: Live LFCs
+	?a emit ?b after ?c
+		?a: Live LFCs
+		?b: autofluorescence
+		?c: formaldehyde fixation
+
+
+label:    sent_20
+sentence: Single atoms absorb and emit light from a resonant laser beam photon by photon .
+
+ppatt:
+	?a absorb ?b by ?c
+		?a: Single atoms
+		?b: light from a resonant laser beam photon
+		?c: photon
+	?a emit
+		?a: Single atoms
+
+

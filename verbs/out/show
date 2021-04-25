@@ -1,0 +1,331 @@
+label:    sent_1
+sentence: Our findings show that the rs8192284 polymorphism is operative in patients with RA .
+
+ppatt:
+	?a show ?b
+		?a: Our findings
+		?b: SOMETHING := the rs8192284 polymorphism is operative in patients with RA
+	?a is operative in ?b
+		?a: the rs8192284 polymorphism
+		?b: patients with RA
+
+
+label:    sent_2
+sentence: Furthermore , our data show that ROSC can be combined with anti-estrogen therapy .
+
+ppatt:
+	Furthermore , ?a show ?b
+		?a: our data
+		?b: SOMETHING := ROSC can be combined with anti-estrogen therapy
+	?a can be combined with ?b
+		?a: ROSC
+		?b: anti-estrogen therapy
+
+
+label:    sent_3
+sentence: Several studies show that high-technology AAC can be used to support off-line communication .
+
+ppatt:
+	?a show ?b
+		?a: Several studies
+		?b: SOMETHING := high-technology AAC can be used to support off-line communication
+	?a can be used to support ?b
+		?a: high-technology AAC
+		?b: off-line communication
+
+
+label:    sent_4
+sentence: The PET-scan did not show any abnormal fixation .
+
+ppatt:
+	?a did not show ?b
+		?a: The PET-scan
+		?b: any abnormal fixation
+
+
+label:    sent_5
+sentence: The butanol fractions , however , did not show antitumorigenic activity . Men did not show any significant brain volume alterations .
+
+ppatt:
+	?a however , did not show ?b
+		?a: The butanol fractions
+		?b: antitumorigenic activity
+	?a did not show ?b
+		?a: Men
+		?b: any significant brain volume alterations
+
+
+label:    sent_6
+sentence: The TGF-beta3 group did not show any differences compared to the paired control shoulders .
+
+ppatt:
+	?a did not show ?b
+		?a: The TGF-beta3 group
+		?b: any differences
+	?a compared to the paired control shoulders
+		?a: The TGF-beta3 group
+
+
+label:    sent_7
+sentence: In the absence of SPARC , mice show enhanced DIO .
+
+ppatt:
+	of ?a , ?b show ?c
+		?a: SPARC
+		?b: mice
+		?c: enhanced DIO
+
+
+label:    sent_8
+sentence: Patients without evident tumor mass did not show further recurrence after re-excision .
+
+ppatt:
+	?a did not show ?b
+		?a: Patients without evident tumor mass
+		?b: further recurrence after re-excision
+
+
+label:    sent_9
+sentence: In summary , we show that quercetin supports AhR mediated effects .
+
+ppatt:
+	In ?a , ?b show ?c
+		?a: summary
+		?b: we
+		?c: SOMETHING := quercetin supports AhR mediated effects
+	?a supports ?b
+		?a: quercetin
+		?b: AhR mediated effects
+
+
+label:    sent_10
+sentence: The less affected hand did not show such anticipation .
+
+ppatt:
+	?a did not show ?b
+		?a: The less affected hand
+		?b: such anticipation
+
+
+label:    sent_11
+sentence: We show by theory and simulation that the method is unbiased .
+
+ppatt:
+	?a show by ?b ?c
+		?a: We
+		?b: theory
+		?c: SOMETHING := the method is unbiased
+	?a show by ?b ?c
+		?a: We
+		?b: simulation
+		?c: SOMETHING := the method is unbiased
+	?a is unbiased
+		?a: the method
+
+
+label:    sent_12
+sentence: The motion area loss was firstly adopted to show statistically significance with RTW outcomes .
+
+ppatt:
+	?a was firstly adopted to show ?b
+		?a: The motion area loss
+		?b: statistically significance with RTW outcomes
+
+
+label:    sent_13
+sentence: Other telencephalic nuclei that were measured did not show any sex difference in size .
+
+ppatt:
+	?a were measured
+		?a: Other telencephalic nuclei
+	?a did not show ?b
+		?a: Other telencephalic nuclei that were measured
+		?b: any sex difference in size
+
+
+label:    sent_14
+sentence: Almost all of these trials failed to show superiority of stenting to CEA .
+
+ppatt:
+	?a failed to show ?b
+		?a: Almost all of these trials
+		?b: superiority of stenting to CEA
+
+
+label:    sent_15
+sentence: Autopsy did not show signs of subarachnoid hemorrhage , but revealed extensive cerebral edema .
+
+ppatt:
+	?a did not show ?b
+		?a: Autopsy
+		?b: signs of subarachnoid hemorrhage
+	?a revealed ?b
+		?a: Autopsy
+		?b: extensive cerebral edema
+
+
+label:    sent_16
+sentence: Molecular analysis of GHSR did not show any mutations , but showed some polymorphisms .
+
+ppatt:
+	?a did not show ?b
+		?a: Molecular analysis of GHSR
+		?b: any mutations
+	?a showed ?b
+		?a: Molecular analysis of GHSR
+		?b: some polymorphisms
+
+
+label:    sent_17
+sentence: Analysts show higher value , but Community still determined to complete deal .
+
+ppatt:
+	?a show ?b
+		?a: Analysts
+		?b: higher value
+	?a still determined to ?b
+		?a: Community
+		?b: complete deal
+
+
+label:    sent_18
+sentence: Mice lacking Ran binding protein 1 are viable and show male infertility .
+
+ppatt:
+	?a lacking ?b
+		?a: Mice
+		?b: Ran binding protein 1
+	?a are viable
+		?a: Mice lacking Ran binding protein 1
+	?a show ?b
+		?a: Mice lacking Ran binding protein 1
+		?b: male infertility
+
+
+label:    sent_19
+sentence: The molecules are not strictly planar and show distortion of the annulene moieties .
+
+ppatt:
+	?a are not strictly planar
+		?a: The molecules
+	?a show ?b
+		?a: The molecules
+		?b: distortion of the annulene moieties
+
+
+label:    sent_20
+sentence: The protein-TiO2 composites are similar to nanocrystalline anatase and show photocatalytic activity .
+
+ppatt:
+	?a are similar to ?b
+		?a: The protein-TiO2 composites
+		?b: nanocrystalline anatase
+	?a show ?b
+		?a: The protein-TiO2 composites
+		?b: photocatalytic activity
+
+
+label:    sent_21
+sentence: We show how mixing advection affects the processes of reaction-diffusion and discuss mixing-induced instabilities .
+
+ppatt:
+	?a show ?b
+		?a: We
+		?b: SOMETHING := how mixing advection affects the processes of reaction-diffusion
+	how ?a affects ?b
+		?a: mixing advection
+		?b: the processes of reaction-diffusion
+	?a discuss ?b
+		?a: mixing advection
+		?b: mixing-induced instabilities
+
+
+label:    sent_22
+sentence: Heterozygotes show also elevated radiosensitivity and have an increased cancer risk in adult age .
+
+ppatt:
+	?a show ?b
+		?a: Heterozygotes
+		?b: also elevated radiosensitivity
+	?a have ?b
+		?a: Heterozygotes
+		?b: an increased cancer risk in adult age
+
+
+label:    sent_23
+sentence: We also show and discuss typical results and their interpretation .
+
+ppatt:
+	?a also show ?b
+		?a: We
+		?b: typical results
+	?a also show ?b
+		?a: We
+		?b: their interpretation
+	?a discuss
+		?a: We
+
+
+label:    sent_24
+sentence: Patients of group 1 tended to show up with infection requiring urgent surgery .
+
+ppatt:
+	?a tended to show up with ?b
+		?a: Patients of group 1
+		?b: infection requiring urgent surgery
+	?a requiring ?b
+		?a: infection
+		?b: urgent surgery
+
+
+label:    sent_25
+sentence: The pentaalkynylpyridines show promising fluorescence properties because of their high quantum yields .
+
+ppatt:
+	?a show ?b because of ?c
+		?a: The pentaalkynylpyridines
+		?b: promising fluorescence properties
+		?c: their high quantum yields
+
+
+label:    sent_26
+sentence: In contrast , Au-NP did not show any indication of toxicity .
+
+ppatt:
+	In ?a , ?b did not show ?c
+		?a: contrast
+		?b: Au-NP
+		?c: any indication of toxicity
+
+
+label:    sent_27
+sentence: These hybrids show high activity as base catalysts and can be recycled .
+
+ppatt:
+	?a show ?b as ?c
+		?a: These hybrids
+		?b: high activity
+		?c: base catalysts
+	?a can be recycled
+		?a: These hybrids
+
+
+label:    sent_28
+sentence: Attitudes toward lesbians generally show a similar pattern , but to a weaker extent .
+
+ppatt:
+	?a generally show ?b
+		?a: Attitudes toward lesbians
+		?b: a similar pattern
+
+
+label:    sent_29
+sentence: Previous studies show promising results with regard to survival and clinical outcome .
+
+ppatt:
+	?a show ?b with ?c
+		?a: Previous studies
+		?b: promising results
+		?c: regard to survival and clinical outcome
+
+

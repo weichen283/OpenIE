@@ -1,0 +1,101 @@
+label:    sent_1
+sentence: Two of these proteins comigrate with subunits of yeast initiation factor eIF2 .
+
+ppatt:
+	?a comigrate with ?b
+		?a: Two of these proteins
+		?b: subunits of yeast initiation factor eIF2
+
+
+label:    sent_2
+sentence: By contrast , all three comigrate with casein kinase activity . The 83- , 72- , and 69-kdalton proteins comigrate in all species examined .
+
+ppatt:
+	By ?a , ?b comigrate in ?c
+		?a: contrast
+		?b: all three comigrate with casein kinase activity
+		?c: all species examined
+	By ?a , ?b comigrate in ?c
+		?a: contrast
+		?b: The 83- , 72- , and 69-kdalton proteins
+		?c: all species examined
+	?a examined
+		?a: all species
+
+
+label:    sent_3
+sentence: The predominant product of 16-17 kDa frequently appears to comigrate with TMV coat protein .
+
+ppatt:
+	?a frequently appears to comigrate with ?b
+		?a: The predominant product of 16-17 kDa
+		?b: TMV coat protein
+
+
+label:    sent_4
+sentence: NikA was found to comigrate with both hemin and protoporphyrin IX during gel filtration .
+
+ppatt:
+	?a was found to comigrate with ?b during ?c
+		?a: NikA
+		?b: hemin
+		?c: gel filtration
+	?a was found to comigrate with ?b during ?c
+		?a: NikA
+		?b: protoporphyrin IX
+		?c: gel filtration
+
+
+label:    sent_5
+sentence: This allowed the anions to comigrate with the EOF and yielded a rapid separation .
+
+ppatt:
+	?a allowed ?b
+		?a: This
+		?b: the anions
+	?a comigrate with ?b
+		?a: This
+		?b: the EOF
+	?a yielded ?b
+		?a: This
+		?b: a rapid separation
+
+
+label:    sent_6
+sentence: The two activities are included in and comigrate on Sephadex G-200 .
+
+ppatt:
+	?a are included ?b on ?c
+		?a: The two activities
+		?b: in
+		?c: Sephadex G-200
+	?a are included ?b on ?c
+		?a: The two activities
+		?b: comigrate
+		?c: Sephadex G-200
+
+
+label:    sent_7
+sentence: Polyacrylamide gels stained specifically for the 2 enzymes reveal that the two activities comigrate .
+
+ppatt:
+	?a stained specifically for ?b
+		?a: Polyacrylamide gels
+		?b: the 2 enzymes
+	?a reveal ?b
+		?a: Polyacrylamide gels stained specifically for the 2 enzymes
+		?b: SOMETHING := the two activities comigrate
+	?a comigrate
+		?a: the two activities
+
+
+label:    sent_8
+sentence: Surprisingly , the tryptic and synthetic phosphopeptides did not comigrate electrophoretically .
+
+ppatt:
+	Surprisingly , ?a did not comigrate electrophoretically
+		?a: tryptic
+	Surprisingly , ?a did not comigrate electrophoretically
+		?a: synthetic
+
+

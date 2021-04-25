@@ -1,0 +1,285 @@
+label:    sent_1
+sentence: Frequent open air baths may contribute to decreased melatonin levels .
+
+ppatt:
+	?a may contribute to ?b
+		?a: Frequent open air baths
+		?b: decreased melatonin levels
+
+
+label:    sent_2
+sentence: Can the patient perspective contribute to quality of nutritional care ? CD40-activated B cells contribute to mesothelioma tumor regression .
+
+ppatt:
+	Can ?a contribute to ?b
+		?a: the patient perspective
+		?b: quality of nutritional care
+	?a contribute to ?b
+		?a: CD40-activated B cells
+		?b: mesothelioma tumor regression
+
+
+label:    sent_3
+sentence: A biobehavioral framework guides this discussion of factors that may contribute to SCD fatigue .
+
+ppatt:
+	?a guides ?b
+		?a: A biobehavioral framework
+		?b: this discussion of factors that may contribute to SCD fatigue
+	?a may contribute to ?b
+		?a: factors
+		?b: SCD fatigue
+
+
+label:    sent_4
+sentence: Conversely , greater heterogeneity in resource productivity is expected to contribute to stability .
+
+ppatt:
+	Conversely , ?a is expected to contribute to ?b
+		?a: greater heterogeneity in resource productivity
+		?b: stability
+
+
+label:    sent_5
+sentence: This approach is not likely to contribute to an increase in resistance rates .
+
+ppatt:
+	?a is not likely to contribute to ?b
+		?a: This approach
+		?b: an increase in resistance rates
+
+
+label:    sent_6
+sentence: Mechanisms underlying these abnormalities are complicated , and several factors contribute to their pathogenesis .
+
+ppatt:
+	?a underlying ?b
+		?a: Mechanisms
+		?b: these abnormalities
+	?a are complicated
+		?a: Mechanisms underlying these abnormalities
+	?a contribute to ?b
+		?a: several factors
+		?b: their pathogenesis
+
+
+label:    sent_7
+sentence: This stimulation might contribute in part to HSC senescence and ultimately compromise immunity . Relapses contribute to increased morbidity , and complicate malaria elimination programs .
+
+ppatt:
+	?a might contribute in ?b to ?c
+		?a: This stimulation
+		?b: part
+		?c: HSC senescence
+	?a ultimately compromise ?b
+		?a: This stimulation
+		?b: immunity
+	?a contribute to ?b
+		?a: Relapses
+		?b: increased morbidity
+	?a complicate ?b
+		?a: Relapses
+		?b: malaria elimination programs
+
+
+label:    sent_8
+sentence: ADE is associated with phenotypic variability and may contribute to complex genetic diseases .
+
+ppatt:
+	?a is associated with ?b
+		?a: ADE
+		?b: phenotypic variability
+	?a may contribute to ?b
+		?a: ADE
+		?b: complex genetic diseases
+
+
+label:    sent_9
+sentence: Secretion of ovarian hormones is reduced post-menopause and may contribute to cognitive function .
+
+ppatt:
+	?a is reduced post-menopause
+		?a: Secretion of ovarian hormones
+	?a may contribute to ?b
+		?a: Secretion of ovarian hormones
+		?b: cognitive function
+
+
+label:    sent_10
+sentence: Did premature extubation cause or contribute to death ? M2 polarized macrophages and giant cells contribute to myofibrosis in neuromuscular sarcoidosis .
+
+ppatt:
+	?a cause to ?b
+		?a: premature extubation
+		?b: death M2 polarized macrophages and giant cells
+	?a contribute
+		?a: premature extubation
+	?a contribute to ?b
+		?a: premature extubation
+		?b: myofibrosis in neuromuscular sarcoidosis
+
+
+label:    sent_11
+sentence: Racial disparity in death from colorectal cancer : does vitamin D deficiency contribute ?
+
+ppatt:
+
+
+
+label:    sent_12
+sentence: The shrinkage and contraction of apoptotic cells contribute little to the extrusion process . For divalent ions , they contribute a small , albeit significant , correction .
+
+ppatt:
+	?a contribute ?b to ?c . For ?d
+		?a: shrinkage of apoptotic cells
+		?b: little
+		?c: the extrusion process
+		?d: divalent ions
+	?a contribute ?b to ?c . For ?d
+		?a: contraction
+		?b: little
+		?c: the extrusion process
+		?d: divalent ions
+	?a contribute ?b
+		?a: they
+		?b: a small , correction
+
+
+label:    sent_13
+sentence: In summary , processed herbs contribute significant amounts of AC to the diet .
+
+ppatt:
+	In ?a , ?b contribute ?c
+		?a: summary
+		?b: processed herbs
+		?c: significant amounts of AC to the diet
+
+
+label:    sent_14
+sentence: Multiple telencephalic and extratelencephalic embryonic domains contribute neurons to the medial extended amygdala .
+
+ppatt:
+	?a contribute ?b to ?c
+		?a: Multiple telencephalic and extratelencephalic embryonic domains
+		?b: neurons
+		?c: the medial extended amygdala
+
+
+label:    sent_15
+sentence: The extent to which other genes contribute to this process is unclear .
+
+ppatt:
+	?a to ?b contribute to ?c
+		?a: The extent
+		?b: other genes
+		?c: this process
+	?a is unclear
+		?a: The extent to which other genes contribute to this process
+
+
+label:    sent_16
+sentence: We examined the ways in which non-native species currently contribute to conservation objectives .
+
+ppatt:
+	?a examined ?b
+		?a: We
+		?b: the ways in which non-native species currently contribute to conservation objectives
+	?a in ?b currently contribute to ?c
+		?a: the ways
+		?b: non-native species
+		?c: conservation objectives
+
+
+label:    sent_17
+sentence: It is a complex disease in which genetic and environmental factors contribute to susceptibility .
+
+ppatt:
+	?a is a complex disease
+		?a: It
+	?a in ?b contribute to ?c
+		?a: a complex disease
+		?b: genetic and environmental factors
+		?c: susceptibility
+
+
+label:    sent_18
+sentence: The mitochondrial haplogroup may contribute some genetic risk for coronary heart disease .
+
+ppatt:
+	?a may contribute ?b
+		?a: The mitochondrial haplogroup
+		?b: some genetic risk for coronary heart disease
+
+
+label:    sent_19
+sentence: Routine SIS for patients with normal TVS did not contribute additional findings .
+
+ppatt:
+	?a did not contribute ?b
+		?a: Routine SIS for patients with normal TVS
+		?b: additional findings
+
+
+label:    sent_20
+sentence: Genetic factors contribute approximately half of the total risk for urgency incontinence .
+
+ppatt:
+	?a contribute ?b
+		?a: Genetic factors
+		?b: approximately half of the total risk for urgency incontinence
+
+
+label:    sent_21
+sentence: Noncholinergic neurons also contribute and comprise GABAergic neurons and other possibly glutamatergic neurons .
+
+ppatt:
+	?a also contribute ?b
+		?a: Noncholinergic neurons
+		?b: GABAergic neurons
+	?a also contribute ?b
+		?a: Noncholinergic neurons
+		?b: other possibly glutamatergic neurons
+	?a comprise
+		?a: Noncholinergic neurons
+
+
+label:    sent_22
+sentence: The cause of headache is likely multifactorial , and SCD-specific factors may contribute . BV adjustments contribute , but are not key , to altitude acclimatization .
+
+ppatt:
+	?a is likely multifactorial
+		?a: The cause of headache
+	?a may contribute
+		?a: SCD-specific factors
+	?a contribute , to ?b
+		?a: BV adjustments
+		?b: altitude acclimatization
+
+
+label:    sent_23
+sentence: Throughout , subcortical structures such as the amygdala are likely to contribute these enhancements .
+
+ppatt:
+	Throughout , ?a are likely to contribute ?b
+		?a: subcortical structures such as the amygdala
+		?b: these enhancements
+
+
+label:    sent_24
+sentence: Such an abnormal distribution could be involved in--or contribute to--the initiation of cholestasis .
+
+ppatt:
+	?a could be involved in--or contribute to--the ?b
+		?a: Such an abnormal distribution
+		?b: initiation of cholestasis
+
+
+label:    sent_25
+sentence: DNA extraction protocols themselves were not found to contribute significant variation .
+
+ppatt:
+	?a were not found to contribute ?b
+		?a: DNA extraction protocols themselves
+		?b: significant variation
+
+

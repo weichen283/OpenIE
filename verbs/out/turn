@@ -1,0 +1,378 @@
+label:    sent_1
+sentence: After making a description of these foundational issues , we turn to a series of case studies primarily focused on binding that are intended to illustrate the broad biological reach of equilibrium thinking in biology .
+
+ppatt:
+	making ?a ?b
+		?a: a description of these foundational issues
+		?b: we
+	?a turn to ?b
+		?a: we
+		?b: a series of case studies primarily focused on binding that are intended to illustrate the broad biological reach of equilibrium thinking in biology
+	?a primarily focused on ?b
+		?a: case studies that are intended to illustrate the broad biological reach of equilibrium thinking in biology
+		?b: binding
+	?a are intended to illustrate ?b
+		?a: case studies primarily focused on binding
+		?b: the broad biological reach of equilibrium thinking in biology
+
+
+label:    sent_2
+sentence: However , alpha-hemolysis did not turn to beta-hemolysis following further enlargement of the colony .
+
+ppatt:
+	However , ?a did not ?b to ?c following ?d
+		?a: alpha-hemolysis
+		?b: turn
+		?c: beta-hemolysis
+		?d: further enlargement of the colony
+
+
+label:    sent_3
+sentence: The monomers turn to a random coil state at high temperatures only below ca . We postulate that hypervigilance , mediated by hyperactivity in corticolimbic structures , may be the common denominator in the anxiety-related traits and ( social ) cognitive superiority of s-allele carriers and that environmental conditions determine whether a response will turn out to be negative ( emotional ) or positive ( cognitive , in conformity with the social group ) . Hence , the alcohol driving experience intervention program might turn out to be effective and successful in decreasing driving under the influence of alcohol .
+
+ppatt:
+	?a ?b postulate ?c
+		?a: The monomers to a random coil state at high temperatures only below ca
+		?b: We
+		?c: SOMETHING := hypervigilance , mediated by hyperactivity in corticolimbic structures , may be the common denominator in the anxiety-related traits
+	?a mediated by ?b in ?c
+		?a: hypervigilance
+		?b: hyperactivity
+		?c: corticolimbic structures
+	?a may be the common denominator in ?b
+		?a: hypervigilance , mediated by hyperactivity in corticolimbic structures
+		?b: the anxiety-related traits
+	?a cognitive superiority of ?b
+		?a: hypervigilance , mediated by hyperactivity in corticolimbic structures
+		?b: s-allele carriers
+	?a determine ?b ?c
+		?a: environmental conditions
+		?b: SOMETHING := a response will turn
+		?c: SOMETHING := to be negative Hence
+	?a will turn
+		?a: a response
+	?a out to be negative Hence
+		?a: environmental conditions
+	?a positive
+		?a: environmental conditions
+	?a might turn out to be effective
+		?a: the alcohol driving experience intervention program
+	?a might turn out to be successful
+		?a: the alcohol driving experience intervention program
+	?a decreasing under ?b
+		?a: the alcohol driving experience intervention program
+		?b: the influence of alcohol
+	?a driving
+		?a: the alcohol driving experience intervention program
+
+
+label:    sent_4
+sentence: Clinically , serum INSL3 levels can turn out to be a usable tool to monitor basal Leydig cell function in patients with various disorders affecting Leydig cell function .
+
+ppatt:
+	Clinically , ?a can turn to be a usable tool
+		?a: serum INSL3 levels
+	?a monitor ?b
+		?a: a usable tool
+		?b: basal Leydig cell function in patients with various disorders affecting Leydig cell function
+	?a affecting ?b
+		?a: various disorders
+		?b: Leydig cell function
+
+
+label:    sent_5
+sentence: Nurses in the home-care service felt a loss of knowledge with regard to the patients ' medications and in turn experienced reduced ability to give medical information to patients and to observe the effects of the drugs .
+
+ppatt:
+	?a felt ?b
+		?a: Nurses in the home-care service
+		?b: a loss of knowledge with regard to the patients ' medications
+	?a in ?b experienced ?c
+		?a: Nurses in the home-care service
+		?b: turn
+		?c: reduced ability to give medical information to patients and to observe the effects of the drugs
+	?a give ?b
+		?a: reduced ability
+		?b: medical information to patients
+	observe ?a
+		?a: the effects of the drugs
+
+
+label:    sent_6
+sentence: It significantly reduces total turn around time of the test result , thereby having the potential to be cost-effective , both for the patient and the hospital .
+
+ppatt:
+	?a significantly reduces ?b around ?c
+		?a: It
+		?b: total turn
+		?c: time of the test result
+	?a thereby having ?b
+		?a: It
+		?b: the potential to be cost-effective , both for the patient and the hospital
+	?a be cost-effective , for ?b
+		?a: the potential
+		?b: the patient
+	?a be cost-effective , for ?b
+		?a: the potential
+		?b: the hospital
+
+
+label:    sent_7
+sentence: The therapy took a turn only after biologic therapy with anakinra ( interleukin-1 receptor antagonist ) had started , which minimized the Schnitzler symptoms with very good drug tolerance .
+
+ppatt:
+	?a took ?b after ?c
+		?a: The therapy
+		?b: a turn
+		?c: only biologic therapy with anakinra
+	?a is/are interleukin-1 receptor antagonist
+		?a: anakinra
+	?a had started ?b
+		?a: The therapy
+		?b: SOMETHING := which minimized the Schnitzler symptoms with very good drug tolerance
+	?a minimized ?b
+		?a: which
+		?b: the Schnitzler symptoms with very good drug tolerance
+
+
+label:    sent_8
+sentence: Rapidly , laboratory technicians and biologists are able to turn the system after a few days of training .
+
+ppatt:
+	Rapidly , ?a are able to turn ?b after ?c
+		?a: laboratory technicians
+		?b: the system
+		?c: a few days of training
+	Rapidly , ?a are able to turn ?b after ?c
+		?a: biologists
+		?b: the system
+		?c: a few days of training
+
+
+label:    sent_9
+sentence: Our results indicate that Derlin-1 regulates the turn over of SOD1 by promoting the proteasomal and autophagosomal degradation of SOD1 protein , but not by decreasing mutant SOD1 mRNA levels .
+
+ppatt:
+	?a indicate ?b
+		?a: Our results
+		?b: SOMETHING := Derlin-1 regulates the turn over of SOD1 by promoting the proteasomal and autophagosomal degradation of SOD1 protein , but not by decreasing mutant SOD1 mRNA levels
+	?a regulates ?b over of ?c
+		?a: Derlin-1
+		?b: the turn
+		?c: SOD1
+	?a promoting ?b
+		?a: Derlin-1
+		?b: the proteasomal and autophagosomal degradation of SOD1 protein
+	?a not by decreasing ?b
+		?a: Derlin-1
+		?b: mutant SOD1 mRNA levels
+
+
+label:    sent_10
+sentence: In contrast , the cells destined to become mesoderm activate Tbx6 and turn off enhancer N1 before migrating into the paraxial mesoderm compartment .
+
+ppatt:
+	?a destined to become mesoderm
+		?a: the cells
+	In ?a , ?b activate ?c off ?d
+		?a: contrast
+		?b: the cells destined to become mesoderm before migrating into the paraxial mesoderm compartment
+		?c: Tbx6
+		?d: enhancer N1
+	In ?a , ?b activate ?c off ?d
+		?a: contrast
+		?b: the cells destined to become mesoderm before migrating into the paraxial mesoderm compartment
+		?c: turn
+		?d: enhancer N1
+	?a migrating into ?b
+		?a: the cells
+		?b: the paraxial mesoderm compartment
+
+
+label:    sent_11
+sentence: A novel technique has been described for repairing penile urethrocutaneous fistula : the PATIO ( ' preserve the tract and turn it inside out ' ) repair .
+
+ppatt:
+	?a has been described
+		?a: A novel technique
+	?a repairing ?b
+		?a: A novel technique
+		?b: penile urethrocutaneous fistula
+	?a preserve ?b inside out ?c
+		?a: the PATIO
+		?b: the tract
+		?c: it ) repair
+
+
+label:    sent_12
+sentence: Alexithymia traits were significantly positively correlated with insecure attachment styles , with psychopathological symptoms , and with the defense mechanism turn against self .
+
+ppatt:
+	?a were significantly positively correlated with ?b with ?c
+		?a: Alexithymia traits
+		?b: insecure attachment styles
+		?c: psychopathological symptoms
+	?a were significantly positively correlated with with ?b ?c
+		?a: Alexithymia traits
+		?b: psychopathological symptoms
+		?c: the defense mechanism turn against self
+
+
+label:    sent_13
+sentence: Cathepsins are lysosomal cysteine proteases of the papain family that play an important role in intracellular protein degradation and turn over within the lysosomal system .
+
+ppatt:
+	?a are lysosomal cysteine proteases of ?b
+		?a: Cathepsins
+		?b: the papain family that play an important role in intracellular protein degradation and turn over within the lysosomal system
+	?a play ?b in ?c
+		?a: the papain family
+		?b: an important role
+		?c: intracellular protein degradation
+	?a play ?b in ?c
+		?a: the papain family
+		?b: an important role
+		?c: turn
+	?a play ?b in ?c
+		?a: the papain family
+		?b: an important role
+		?c: the lysosomal system
+
+
+label:    sent_14
+sentence: We then turn our attention to the identified substrates of eSTKs and eSTPs for a number of species and to the implications of these findings for understanding their physiological roles in these organisms .
+
+ppatt:
+	?a then turn ?b
+		?a: We
+		?b: our attention to the identified substrates of eSTKs and eSTPs for a number of species and to the implications of these findings for understanding their physiological roles in these organisms
+	?a understanding ?b
+		?a: the implications of these findings
+		?b: their physiological roles in these organisms
+
+
+label:    sent_15
+sentence: For others , autonomy in the widest sense presupposes information , because one can not be in control of one 's life without at least some insight into what it could turn out to contain .
+
+ppatt:
+	For ?a , ?b presupposes ?c
+		?a: others
+		?b: autonomy in the widest sense
+		?c: information
+	?a can not be in control of ?b without ?c
+		?a: one
+		?b: one 's life
+		?c: at least some insight into what it could turn out to contain
+	?a into ?b ?c could turn
+		?a: at least some insight
+		?b: what
+		?c: it
+	?a out to contain
+		?a: into what turn
+
+
+label:    sent_16
+sentence: How do you turn this idea into a business ? Changes in protein secondary structures turn out to be the driving mechanism of the observed aggregation and they progress in parallel with the growth of Thioflavin T emission intensity and scattering signal .
+
+ppatt:
+	?a turn out to be the driving mechanism of ?b
+		?a: How do you turn this idea into a business ? Changes in protein secondary structures
+		?b: the observed aggregation
+	turn to be the driving ?a progress in ?b
+		?a: they
+		?b: parallel with the growth of Thioflavin T emission intensity and scattering signal
+
+
+label:    sent_17
+sentence: In the third section , we turn to several forms of implicit emotion regulation , and integrate the burgeoning literature in this area .
+
+ppatt:
+	In ?a , ?b turn to ?c
+		?a: the third section
+		?b: we
+		?c: several forms of implicit emotion regulation
+	?a integrate ?b
+		?a: we
+		?b: the burgeoning literature in this area
+
+
+label:    sent_18
+sentence: This involved analyzing 3D stacks of images over time and uncovered several novel aspects of SVZ migration : chains remain stable , cells can be immotile for extensive periods , morphology does not necessarily correlate with motility , neuroblasts exhibit local exploratory motility , dorsoventral migration occurs throughout the striatal SVZ , and neuroblasts turn at distinctive angles .
+
+ppatt:
+	?a involved analyzing ?b
+		?a: This
+		?b: 3D stacks of images over time
+	?a uncovered ?b
+		?a: This
+		?b: several novel aspects of SVZ migration
+	?a remain stable
+		?a: chains
+	?a can be immotile for ?b
+		?a: cells
+		?b: extensive periods
+	?a does not necessarily correlate with ?b
+		?a: morphology
+		?b: motility
+	?a exhibit ?b
+		?a: neuroblasts
+		?b: local exploratory motility
+	?a occurs throughout ?b
+		?a: dorsoventral migration
+		?b: the striatal SVZ
+
+
+label:    sent_19
+sentence: Weight loss via gastric bypass surgery can " turn off " and/or correct components of this metabolic program as insulin sensitivity is restored ; however , the impairment in FAO in skeletal muscle remains evident .
+
+ppatt:
+	?a can " ?b ?c
+		?a: Weight loss via gastric bypass surgery
+		?b: turn
+		?c: "
+	?a can " ?b ?c
+		?a: Weight loss via gastric bypass surgery
+		?b: turn
+		?c: correct
+	?a can " ?b ?c
+		?a: Weight loss via gastric bypass surgery
+		?b: turn
+		?c: components of this metabolic program
+	?a is restored
+		?a: insulin sensitivity
+	however , ?a remains evident
+		?a: the impairment in FAO in skeletal muscle
+
+
+label:    sent_20
+sentence: Zeeman mixing of singlet and triplet 2P states of positronium ( Ps ) atoms , followed by decay back to the ground state , can effectively turn a long-lived triplet atom into a short-lived singlet state , which would seem to preclude laser cooling of Ps in a magnetic field .
+
+ppatt:
+	?a followed by ?b
+		?a: Zeeman mixing of singlet and triplet 2P states of positronium ( Ps ) atoms
+		?b: decay back to the ground state
+	?a can effectively turn ?b into ?c
+		?a: Zeeman mixing of singlet and triplet 2P states of positronium ( Ps ) atoms , followed by decay back to the ground state
+		?b: a long-lived triplet atom
+		?c: a short-lived singlet state , which would seem to preclude laser cooling of Ps in a magnetic field
+	?a would seem to preclude ?b
+		?a: a short-lived singlet state
+		?b: laser cooling of Ps in a magnetic field
+
+
+label:    sent_21
+sentence: Two experiments were conducted with an eye-tracker in order to determine to what the participants turn their gaze .
+
+ppatt:
+	?a were conducted with ?b
+		?a: Two experiments
+		?b: an eye-tracker
+	?a order to determine ?b
+		?a: Two experiments
+		?b: SOMETHING := to what the participants turn their gaze
+	to ?a ?b turn ?c
+		?a: what
+		?b: the participants
+		?c: their gaze
+
+

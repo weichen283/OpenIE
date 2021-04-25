@@ -1,0 +1,48 @@
+label:    sent_1
+sentence: This review provides an update on some emerging drugs with therapeutic potential for muscle injury including those that could attenuate damage or improve regeneration .
+
+ppatt:
+	?a provides ?b
+		?a: This review
+		?b: an update on some emerging drugs with therapeutic potential for muscle injury including those that could attenuate damage or improve regeneration
+	?a could attenuate ?b
+		?a: those
+		?b: damage
+	?a improve ?b
+		?a: that
+		?b: regeneration
+
+
+label:    sent_2
+sentence: Poor communication can have serious consequences for patients and damage the nurse-patient relationship .
+
+ppatt:
+	?a can have ?b
+		?a: Poor communication
+		?b: serious consequences for patients and damage the nurse-patient relationship
+
+
+label:    sent_3
+sentence: However , this technique may also damage the parasite .
+
+ppatt:
+	However , ?a may also damage ?b
+		?a: this technique
+		?b: the parasite
+
+
+label:    sent_4
+sentence: Ethanol metabolism is connected with generation of free radicals which can damage cell components especially when antioxidant mechanisms are not able to neutralize them .
+
+ppatt:
+	?a is connected with ?b
+		?a: Ethanol metabolism
+		?b: generation of free radicals which can damage cell components especially when antioxidant mechanisms are not able to neutralize them
+	?a can damage cell components
+		?a: free radicals
+	?a especially when ?b are not able to neutralize ?c
+		?a: damage cell components
+		?b: antioxidant mechanisms
+		?c: them
+
+

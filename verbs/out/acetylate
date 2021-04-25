@@ -1,0 +1,238 @@
+label:    sent_1
+sentence: Only strains of Bacillus cereus were able to acetylate 4-nitroaniline and 3,5-dimethyl-4-nitroaniline .
+
+ppatt:
+	?a were able to acetylate ?b
+		?a: Only strains of Bacillus cereus
+		?b: 4-nitroaniline
+	?a were able to acetylate ?b
+		?a: Only strains of Bacillus cereus
+		?b: 3,5-dimethyl-4-nitroaniline
+
+
+label:    sent_2
+sentence: MAP can penetrate sickle erythrocytes and can acetylate intracellular HbS .
+
+ppatt:
+	?a can penetrate ?b
+		?a: MAP
+		?b: sickle erythrocytes
+	?a can acetylate ?b
+		?a: MAP
+		?b: intracellular HbS
+
+
+label:    sent_3
+sentence: The acetylator phenotype of each patient was estimated on the capacity to acetylate isoniazid .
+
+ppatt:
+	?a was estimated on ?b
+		?a: The acetylator phenotype of each patient
+		?b: the capacity to acetylate isoniazid
+	?a acetylate ?b
+		?a: the capacity
+		?b: isoniazid
+
+
+label:    sent_4
+sentence: Our results demonstrate that BRCA2 proteins acetylate primarily H3 and H4 of free histones . CBP and p300 acetylate PCNA to link its degradation with nucleotide excision repair synthesis .
+
+ppatt:
+	?a demonstrate ?b
+		?a: Our results
+		?b: SOMETHING := BRCA2 proteins acetylate primarily H3 and H4 of free histones
+	?a acetylate primarily ?b
+		?a: BRCA2 proteins
+		?b: H3 of free histones
+	?a acetylate primarily ?b
+		?a: BRCA2 proteins
+		?b: H4
+	?a acetylate ?b to link ?c
+		?a: CBP
+		?b: PCNA
+		?c: its degradation with nucleotide excision repair synthesis
+	?a acetylate ?b to link ?c
+		?a: p300
+		?b: PCNA
+		?c: its degradation with nucleotide excision repair synthesis
+
+
+label:    sent_5
+sentence: ARD1 may also acetylate the internal lysine residues of proteins .
+
+ppatt:
+	?a may also acetylate ?b
+		?a: ARD1
+		?b: the internal lysine residues of proteins
+
+
+label:    sent_6
+sentence: An acetyl-CoA-dependent catalytic switch causes p300 to acetylate chromatin and then dissociate .
+
+ppatt:
+	?a causes ?b to acetylate ?c
+		?a: An acetyl-CoA-dependent catalytic switch
+		?b: p300
+		?c: chromatin
+	?a then dissociate
+		?a: An acetyl-CoA-dependent catalytic switch
+
+
+label:    sent_7
+sentence: The patient was found to acetylate dapsone at a slow rate .
+
+ppatt:
+	?a was found to acetylate ?b at ?c
+		?a: The patient
+		?b: dapsone
+		?c: a slow rate
+
+
+label:    sent_8
+sentence: The HAT domain was shown to acetylate histones with a marked activity toward H4 .
+
+ppatt:
+	?a was shown to acetylate ?b with ?c
+		?a: The HAT domain
+		?b: histones
+		?c: a marked activity toward H4
+
+
+label:    sent_9
+sentence: Both lymphocytes and monocytes were able to acetylate arylamines during 18 h of culture .
+
+ppatt:
+	?a were able to acetylate ?b during ?c
+		?a: lymphocytes
+		?b: arylamines
+		?c: 18 h of culture
+	?a were able to acetylate ?b during ?c
+		?a: monocytes
+		?b: arylamines
+		?c: 18 h of culture
+
+
+label:    sent_10
+sentence: However , HDACs can also acetylate proteins other than histones in nucleosomes .
+
+ppatt:
+	However , ?a can also acetylate ?b
+		?a: HDACs
+		?b: proteins other than histones in nucleosomes
+
+
+label:    sent_11
+sentence: Furthermore , p300 can acetylate Nkx2.5 and display an acetyltransferase-independent mechanism to coactivate Nkx2.5 .
+
+ppatt:
+	Furthermore , ?a can acetylate ?b
+		?a: p300
+		?b: Nkx2.5
+	?a display ?b
+		?a: p300
+		?b: an acetyltransferase-independent mechanism to coactivate Nkx2.5
+	?a coactivate ?b
+		?a: an acetyltransferase-independent mechanism
+		?b: Nkx2.5
+
+
+label:    sent_12
+sentence: Aspirin can acetylate platelets and inhibit aggregation directly .
+
+ppatt:
+	?a can acetylate ?b
+		?a: Aspirin
+		?b: platelets
+	?a inhibit ?b directly
+		?a: Aspirin
+		?b: aggregation
+
+
+label:    sent_13
+sentence: Activator complexes acetylate histones and disrupt nucleosomes .
+
+ppatt:
+	?a acetylate ?b
+		?a: Activator complexes
+		?b: histones
+	?a disrupt ?b
+		?a: Activator complexes
+		?b: nucleosomes
+
+
+label:    sent_14
+sentence: Arylamine N-acetyltransferases ( NAT1 and NAT2 ) acetylate and detoxify arylamine carcinogens .
+
+ppatt:
+	?a acetylate ?b
+		?a: Arylamine N-acetyltransferases
+		?b: arylamine carcinogens
+	?a detoxify
+		?a: Arylamine N-acetyltransferases
+
+
+label:    sent_15
+sentence: Here , aspirin-like molecules were designed that preferentially acetylate and irreversibly inactivate COX-2 .
+
+ppatt:
+	Here , ?a were designed ?b
+		?a: aspirin-like molecules
+		?b: SOMETHING := that preferentially acetylate
+	?a preferentially acetylate
+		?a: that
+	?a inactivate ?b
+		?a: that
+		?b: COX-2
+
+
+label:    sent_16
+sentence: Moreover , hARD1 does not acetylate and destabilize HIF-1 alpha .
+
+ppatt:
+	Moreover , ?a does not acetylate ?b
+		?a: hARD1
+		?b: HIF-1 alpha
+	?a destabilize
+		?a: hARD1
+
+
+label:    sent_17
+sentence: Acetyltransferase competent strains can acetylate 1,8-diaminopyrene , forming 1-N-acetylamino-8-aminopyrene and 1,8-N , N'-diacetyldiaminopyrene .
+
+ppatt:
+	?a can acetylate ?b
+		?a: Acetyltransferase competent strains
+		?b: 1,8-diaminopyrene
+	?a forming ?b
+		?a: Acetyltransferase competent strains
+		?b: 1-N-acetylamino-8-aminopyrene
+	?a forming ?b
+		?a: Acetyltransferase competent strains
+		?b: 1,8-N
+	?a is/are N'-diacetyldiaminopyrene
+		?a: 1-N-acetylamino-8-aminopyrene
+	?a is/are N'-diacetyldiaminopyrene
+		?a: 1,8-N
+
+
+label:    sent_18
+sentence: Human NAT1 and its murine equivalent specifically acetylate the folate catabolite p-aminobenzoylglutamate .
+
+ppatt:
+	?a specifically acetylate ?b
+		?a: Human NAT1
+		?b: the folate catabolite p-aminobenzoylglutamate
+	?a specifically acetylate ?b
+		?a: its murine equivalent
+		?b: the folate catabolite p-aminobenzoylglutamate
+
+
+label:    sent_19
+sentence: The enzyme did not acetylate the HS-lyases from R. gelatinosa and K. aerogenes .
+
+ppatt:
+	?a did not acetylate ?b
+		?a: The enzyme
+		?b: the HS-lyases from R. gelatinosa and K. aerogenes
+
+

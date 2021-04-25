@@ -1,0 +1,240 @@
+label:    sent_1
+sentence: Various carriers transport hydrophilic compounds and extrude potentially toxic xenobiotics .
+
+ppatt:
+	?a transport ?b
+		?a: Various carriers
+		?b: hydrophilic compounds
+	?a extrude ?b
+		?a: Various carriers
+		?b: potentially toxic xenobiotics
+
+
+label:    sent_2
+sentence: It rotates during anaphase and telophase to extrude the first polar body . Bacterial plasmids conferring arsenic resistance encode specific pumps that extrude arsenite ( AsIII ) . Thermafil tended to extrude significantly more material beyond the apex ( P <.05 ) .
+
+ppatt:
+	?a rotates during ?b to extrude ?c
+		?a: It
+		?b: anaphase
+		?c: the first polar body
+	?a rotates during ?b to extrude ?c
+		?a: It
+		?b: telophase
+		?c: the first polar body
+	?a conferring ?b
+		?a: Bacterial plasmids
+		?b: arsenic resistance
+	?a encode ?b
+		?a: Bacterial plasmids conferring arsenic resistance
+		?b: specific pumps that extrude arsenite
+	?a extrude ?b
+		?a: specific pumps
+		?b: arsenite
+	?a is/are AsIII
+		?a: arsenite
+	?a tended to extrude ?b beyond ?c
+		?a: Thermafil
+		?b: significantly more material
+		?c: the apex
+	?a is/are P <.05
+		?a: the apex
+
+
+label:    sent_3
+sentence: Thus they function to extrude acid from cells .
+
+ppatt:
+	Thus ?a function to extrude ?b from ?c
+		?a: they
+		?b: acid
+		?c: cells
+
+
+label:    sent_4
+sentence: All transport systems are able to extrude Na during K uptake .
+
+ppatt:
+	?a are able to extrude ?b during ?c
+		?a: All transport systems
+		?b: Na
+		?c: K uptake
+
+
+label:    sent_5
+sentence: A removable appliance to extrude teeth . P-glycoprotein can extrude a variety of structurally diverse , toxic xenobiotic compounds from cells .
+
+ppatt:
+	?a extrude ?b
+		?a: A removable appliance
+		?b: teeth
+	?a ?b can extrude ?c
+		?a: A removable appliance to extrude teeth
+		?b: P-glycoprotein
+		?c: a variety of structurally diverse , xenobiotic compounds from cells
+
+
+label:    sent_6
+sentence: Glial cells extrude acid equivalents to maintain pHi .
+
+ppatt:
+	?a extrude ?b to maintain ?c
+		?a: Glial cells
+		?b: acid equivalents
+		?c: pHi
+
+
+label:    sent_7
+sentence: Both extrude excess Ca2+ from the cytosol .
+
+ppatt:
+	?a extrude ?b
+		?a: Both
+		?b: excess Ca2+ from the cytosol
+
+
+label:    sent_8
+sentence: In addition , chemically activated oocytes did not extrude the second polar body .
+
+ppatt:
+	In ?a , ?b did not extrude ?c
+		?a: addition
+		?b: chemically activated oocytes
+		?c: the second polar body
+
+
+label:    sent_9
+sentence: The MDR pumps extrude synthetic and natural antimicrobials from bacterial cells .
+
+ppatt:
+	?a extrude ?b
+		?a: The MDR pumps
+		?b: synthetic from bacterial cells
+	?a extrude ?b
+		?a: The MDR pumps
+		?b: natural
+
+
+label:    sent_10
+sentence: Furthermore , they extrude anterior teeth and depress posterior teeth .
+
+ppatt:
+	Furthermore , ?a extrude ?b
+		?a: they
+		?b: anterior teeth
+	?a depress ?b
+		?a: they
+		?b: posterior teeth
+
+
+label:    sent_11
+sentence: This suggests that the strands would extrude with similar kinetics .
+
+ppatt:
+	?a suggests ?b
+		?a: This
+		?b: SOMETHING := the strands would extrude with similar kinetics
+	?a would extrude with ?b
+		?a: the strands
+		?b: similar kinetics
+
+
+label:    sent_12
+sentence: Thus , transplanted lateral menisci extrude more significantly than transplanted medial menisci .
+
+ppatt:
+	Thus , ?a extrude more significantly than ?b
+		?a: transplanted lateral menisci
+		?b: transplanted medial menisci
+
+
+label:    sent_13
+sentence: After resumption of ambulation , crescentic fragments may extrude into the pseudocapsule .
+
+ppatt:
+	After ?a , ?b may extrude into ?c
+		?a: resumption of ambulation
+		?b: crescentic fragments
+		?c: the pseudocapsule
+
+
+label:    sent_14
+sentence: Mutant strains also have a reduced capacity to extrude protons and take up potassium .
+
+ppatt:
+	?a also have ?b
+		?a: Mutant strains
+		?b: a reduced capacity to extrude protons
+	?a extrude ?b
+		?a: a reduced capacity
+		?b: protons
+	?a take ?b
+		?a: Mutant strains
+		?b: potassium
+
+
+label:    sent_15
+sentence: It is also less likely to extrude like the Blount staple .
+
+ppatt:
+	?a is also less likely to extrude like ?b
+		?a: It
+		?b: the Blount staple
+
+
+label:    sent_16
+sentence: This protein is able to extrude from cytoplasm drugs with various structures and mechanisms .
+
+ppatt:
+	?a is able to extrude from ?b with ?c
+		?a: This protein
+		?b: cytoplasm drugs
+		?c: various structures
+	?a is able to extrude from ?b with ?c
+		?a: This protein
+		?b: cytoplasm drugs
+		?c: mechanisms
+
+
+label:    sent_17
+sentence: A per-cervical pin was allowed to extrude from the head of a dried femur .
+
+ppatt:
+	?a was allowed to extrude from ?b
+		?a: A per-cervical pin
+		?b: the head of a dried femur
+
+
+label:    sent_18
+sentence: Implanted PTFE will extrude if not entirely covered with a layer of conjunctival epithelium .
+
+ppatt:
+	?a will extrude
+		?a: Implanted PTFE
+	?a not entirely covered with ?b
+		?a: Implanted PTFE
+		?b: a layer of conjunctival epithelium
+
+
+label:    sent_19
+sentence: Explants used in retinal reattachment surgery occasionally extrude .
+
+ppatt:
+	?a used in ?b
+		?a: Explants
+		?b: retinal reattachment surgery
+	?a occasionally extrude
+		?a: Explants used in retinal reattachment surgery
+
+
+label:    sent_20
+sentence: Although most apoptotic cells extrude apically , we find that some exit basally .
+
+ppatt:
+	?a extrude apically
+		?a: most apoptotic cells
+	?a find ?b basally
+		?a: we
+		?b: some exit
+
+

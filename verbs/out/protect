@@ -1,0 +1,312 @@
+label:    sent_1
+sentence: Accordingly , antioxidant drugs have been shown to protect the myocardium against ischemia/reperfusion injury .
+
+ppatt:
+	Accordingly , ?a have been shown to protect ?b against ?c
+		?a: antioxidant drugs
+		?b: the myocardium
+		?c: ischemia/reperfusion injury
+
+
+label:    sent_2
+sentence: These two bisphoshonates protect FGF2 from tryptic digestion in vitro .
+
+ppatt:
+	?a protect ?b from ?c in vitro
+		?a: These two bisphoshonates
+		?b: FGF2
+		?c: tryptic digestion
+
+
+label:    sent_3
+sentence: Maintenance of IKKbeta activity is necessary to protect lung grafts from acute injury .
+
+ppatt:
+	?a is necessary to protect ?b
+		?a: Maintenance of IKKbeta activity
+		?b: lung grafts from acute injury
+
+
+label:    sent_4
+sentence: The results suggest that DAS may protect cartilage in the development of OA . TJ could protect HUVECs against oxidative injury induced by H2O2 .
+
+ppatt:
+	?a suggest ?b
+		?a: The results
+		?b: SOMETHING := DAS may protect cartilage in the development of OA
+	?a may protect ?b in ?c
+		?a: DAS
+		?b: cartilage
+		?c: the development of OA
+	?a could protect ?b against ?c
+		?a: TJ
+		?b: HUVECs
+		?c: oxidative injury induced by H2O2
+	?a induced by ?b
+		?a: oxidative injury
+		?b: H2O2
+
+
+label:    sent_5
+sentence: In contrast , Wnt3a did not protect RGC-5 cells from oxidative stress or hypoxia . World Kidney Day 2011 : protect your kidneys , save your heart .
+
+ppatt:
+	In ?a , ?b did not protect ?c from ?d
+		?a: contrast
+		?b: Wnt3a
+		?c: RGC-5 cells
+		?d: oxidative stress
+	In ?a , ?b did not protect ?c from ?d
+		?a: contrast
+		?b: Wnt3a
+		?c: RGC-5 cells
+		?d: hypoxia
+	?a is/are World Kidney Day 2011
+		?a: oxidative stress
+	?a is/are World Kidney Day 2011
+		?a: hypoxia
+	?a protect ?b
+		?a: Wnt3a
+		?b: your kidneys
+	?a save ?b
+		?a: Wnt3a
+		?b: your heart
+
+
+label:    sent_6
+sentence: Effective collaborations : how to protect yourself , your collaborators , and your data . All names have been changed to protect patient anonymity .
+
+ppatt:
+	?a how to protect ?b
+		?a: Effective collaborations
+		?b: yourself
+	?a how to protect ?b
+		?a: Effective collaborations
+		?b: your collaborators
+	?a how to protect ?b
+		?a: Effective collaborations
+		?b: your data
+	?a ?b have been changed to protect ?c
+		?a: Effective collaborations : how to protect yourself , your collaborators , and your data
+		?b: All names
+		?c: patient anonymity
+
+
+label:    sent_7
+sentence: Higher intakes of fluid appear to protect against CKD .
+
+ppatt:
+	?a appear to protect against ?b
+		?a: Higher intakes of fluid
+		?b: CKD
+
+
+label:    sent_8
+sentence: Most successful vaccines elicit antibodies that protect against infection .
+
+ppatt:
+	?a elicit ?b
+		?a: Most successful vaccines
+		?b: antibodies that protect against infection
+	?a protect against ?b
+		?a: antibodies
+		?b: infection
+
+
+label:    sent_9
+sentence: Influenza vaccination is known to protect against AOM by preventing influenza illness . Bisoprolol can also protect against AMI because it increases APN expression .
+
+ppatt:
+	?a is known to protect against ?b
+		?a: Influenza vaccination
+		?b: AOM
+	?a preventing ?b
+		?a: Influenza vaccination
+		?b: influenza illness
+	?a can also protect against ?b
+		?a: Bisoprolol
+		?b: AMI
+	?a increases ?b
+		?a: it
+		?b: APN expression
+
+
+label:    sent_10
+sentence: Avoiding cardiopulmonary bypass does not protect against neuropsychiatric complications in elderly patients .
+
+ppatt:
+	Avoiding ?a
+		?a: cardiopulmonary bypass
+	?a does not protect against ?b
+		?a: SOMETHING := Avoiding cardiopulmonary bypass
+		?b: neuropsychiatric complications in elderly patients
+
+
+label:    sent_11
+sentence: These changes may protect against development of salt-sensitive hypertension .
+
+ppatt:
+	?a may protect against ?b
+		?a: These changes
+		?b: development of salt-sensitive hypertension
+
+
+label:    sent_12
+sentence: Would mandatory vaccines protect nurses and patients ? Strong support for campaigns to protect pay , terms and conditions .
+
+ppatt:
+	Would ?a protect ?b ?c
+		?a: mandatory vaccines
+		?b: nurses
+		?c: Strong support for campaigns to protect pay , terms and conditions
+	Would ?a protect ?b ?c
+		?a: mandatory vaccines
+		?b: patients
+		?c: Strong support for campaigns to protect pay , terms and conditions
+	?a protect pay
+		?a: Strong support for campaigns
+
+
+label:    sent_13
+sentence: Exogenous H2S replacement therapy can protect important organs of rats with severe burn .
+
+ppatt:
+	?a can protect ?b
+		?a: Exogenous H2S replacement therapy
+		?b: important organs of rats with severe burn
+
+
+label:    sent_14
+sentence: Inflammatory pathways protect the body from infection and promote healing following injury .
+
+ppatt:
+	?a protect ?b from ?c
+		?a: Inflammatory pathways
+		?b: the body
+		?c: infection
+	?a promote ?b
+		?a: Inflammatory pathways
+		?b: healing following injury
+
+
+label:    sent_15
+sentence: In animal models HDLs protect LDL from oxidation and blunt platelet activation .
+
+ppatt:
+	In ?a ?b protect ?c from ?d
+		?a: animal models
+		?b: HDLs
+		?c: LDL
+		?d: oxidation
+	In ?a ?b protect ?c from ?d
+		?a: animal models
+		?b: HDLs
+		?c: LDL
+		?d: blunt platelet activation
+
+
+label:    sent_16
+sentence: This will protect endogenous bradykinin from breakdown and prolong its action on endothelial receptors .
+
+ppatt:
+	?a will protect ?b from ?c
+		?a: This
+		?b: endogenous bradykinin
+		?c: breakdown
+	?a prolong ?b
+		?a: This
+		?b: its action on endothelial receptors
+
+
+label:    sent_17
+sentence: How these cells function and protect themselves from injury is unknown . Catalases are efficient scavengers of H2O2 and protect cells against H2O2 stress .
+
+ppatt:
+	How ?a function ?b
+		?a: these cells
+		?b: themselves from injury
+	?a protect
+		?a: these cells
+	is unknown ?a
+		?a: Catalases
+	?a are efficient scavengers of ?b
+		?a: Catalases
+		?b: H2O2
+	?a protect ?b against ?c
+		?a: Catalases
+		?b: cells
+		?c: H2O2 stress
+
+
+label:    sent_18
+sentence: The intestinal epithelium functions to absorb nutrients and to protect the organism against microbes .
+
+ppatt:
+	?a functions to absorb ?b
+		?a: The intestinal epithelium
+		?b: nutrients
+	?a functions to to protect ?b against ?c
+		?a: The intestinal epithelium
+		?b: the organism
+		?c: microbes
+
+
+label:    sent_19
+sentence: It has been suggested to have beneficial anti-inflammatory properties and to protect kidney function .
+
+ppatt:
+	?a has been suggested to have ?b
+		?a: It
+		?b: beneficial anti-inflammatory properties
+	?a has been suggested to to protect ?b
+		?a: It
+		?b: kidney function
+
+
+label:    sent_20
+sentence: Using contract provisions to protect your organization and create successful vendor partnerships .
+
+ppatt:
+	Using ?a
+		?a: contract provisions to protect your organization and create successful vendor partnerships
+	?a protect ?b
+		?a: contract provisions
+		?b: your organization
+	create ?a
+		?a: successful vendor partnerships
+
+
+label:    sent_21
+sentence: Save a life and protect your own . Close supportive relationships protect against psychological disorders and also facilitate recovery . HLA-B * 0702 allele may protect against severe CBZ hypersensitivity but warrants further study .
+
+ppatt:
+	Save ?a
+		?a: a life
+	protect ?a
+		?a: your own
+	?a protect against ?b
+		?a: Close supportive relationships
+		?b: psychological disorders
+	?a also facilitate ?b
+		?a: Close supportive relationships
+		?b: recovery
+	?a may protect against ?b
+		?a: HLA-B * 0702 allele
+		?b: severe CBZ hypersensitivity
+	?a warrants ?b
+		?a: HLA-B * 0702 allele
+		?b: further study
+
+
+label:    sent_22
+sentence: Exogenous thiols protect against inactivation , but oxidized thiols accelerate inactivation .
+
+ppatt:
+	?a protect against ?b
+		?a: Exogenous thiols
+		?b: inactivation
+	?a accelerate ?b
+		?a: oxidized thiols
+		?b: inactivation
+
+

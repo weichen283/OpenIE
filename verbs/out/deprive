@@ -1,0 +1,94 @@
+label:    sent_1
+sentence: Do not deprive them of this opportunity . Do n't deprive yourself .
+
+ppatt:
+	Do not deprive ?a
+		?a: them of this opportunity
+	Do n't deprive ?a
+		?a: yourself
+
+
+label:    sent_2
+sentence: Age alone should not exclude fit patients and deprive them of the standard treatment .
+
+ppatt:
+	?a should not exclude ?b
+		?a: Age alone
+		?b: fit patients
+	?a deprive ?b
+		?a: Age alone
+		?b: them of the standard treatment
+
+
+label:    sent_3
+sentence: However , current islet isolation procedures deprive the islets of endothelial tubulets .
+
+ppatt:
+	However , ?a deprive ?b
+		?a: current islet isolation procedures
+		?b: the islets of endothelial tubulets
+
+
+label:    sent_4
+sentence: Only 5 % would deprive HIV-infected physicians of their livelihood as physicians .
+
+ppatt:
+	?a would deprive ?b
+		?a: Only 5 %
+		?b: HIV-infected physicians of their livelihood as physicians
+
+
+label:    sent_5
+sentence: Thus , spinal cord stimulation does not deprive the patient of a warning signal .
+
+ppatt:
+	Thus , ?a does not deprive ?b
+		?a: spinal cord stimulation
+		?b: the patient of a warning signal
+
+
+label:    sent_6
+sentence: People often sleep deprive themselves voluntarily for social and lifestyle reasons .
+
+ppatt:
+	?a ?b deprive ?c voluntarily ?d
+		?a: People
+		?b: often sleep
+		?c: themselves
+		?d: for social and lifestyle reasons
+
+
+label:    sent_7
+sentence: Will the crisis in healthcare deprive us of its opportunities ? It would deprive man from the most important of his key functions .
+
+ppatt:
+	Will ?a deprive ?b
+		?a: the crisis in healthcare
+		?b: us of its opportunities
+	?a would deprive ?b from ?c
+		?a: It
+		?b: man
+		?c: the most important of his key functions
+
+
+label:    sent_8
+sentence: American Pain Society : curb medication abuse but do n't deprive patients .
+
+ppatt:
+	?a curb ?b
+		?a: American Pain Society
+		?b: medication abuse
+	?a do n't deprive ?b
+		?a: American Pain Society
+		?b: patients
+
+
+label:    sent_9
+sentence: We must not deprive dying people of the most important protection .
+
+ppatt:
+	?a must not deprive ?b
+		?a: We
+		?b: dying people of the most important protection
+
+

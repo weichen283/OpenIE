@@ -1,0 +1,244 @@
+label:    sent_1
+sentence: New reliable and accurate stent grafts are emerging to widen the endovascular treatment options .
+
+ppatt:
+	?a are emerging to widen ?b
+		?a: New reliable and accurate stent grafts
+		?b: the endovascular treatment options
+
+
+label:    sent_2
+sentence: Simple presbyotic systems use uncorrected optical aberration to widen depth perception .
+
+ppatt:
+	?a use ?b to widen ?c
+		?a: Simple presbyotic systems
+		?b: uncorrected optical aberration
+		?c: depth perception
+
+
+label:    sent_3
+sentence: The present study aims to widen the knowledge based on patients in China . Feds widen probe . To forage for nutriments , a patch must continuously widen its habitat .
+
+ppatt:
+	?a aims to widen ?b based on ?c
+		?a: The present study
+		?b: the knowledge
+		?c: patients in China
+	?a widen ?b . To ?c
+		?a: Feds
+		?b: probe
+		?c: forage for nutriments
+	?a must continuously widen ?b
+		?a: a patch
+		?b: its habitat
+
+
+label:    sent_4
+sentence: The approach described here could significantly widen the potential application of Smith-Waterman searches .
+
+ppatt:
+	?a described here
+		?a: The approach
+	?a could significantly widen ?b
+		?a: The approach described here
+		?b: the potential application of Smith-Waterman searches
+
+
+label:    sent_5
+sentence: Atypical antipsychotics were developed to widen the therapeutic index and to reduce EPS .
+
+ppatt:
+	?a were developed to widen ?b
+		?a: Atypical antipsychotics
+		?b: the therapeutic index
+	?a were developed to to reduce ?b
+		?a: Atypical antipsychotics
+		?b: EPS
+
+
+label:    sent_6
+sentence: Immigrant-native differences in child health : does maternal education narrow or widen the gap ? Do social inequalities in health widen or converge with age ? Coronoidectomies were performed concurrently to widen the mouth opening in all cases .
+
+ppatt:
+	widen ?a
+		?a: the gap
+	Do ?a
+		?a: social inequalities
+	in ?a widen with ?b
+		?a: health
+		?b: age
+	in ?a converge
+		?a: health
+	?a ?b were performed concurrently to widen ?c
+		?a: Immigrant-native differences in child health
+		?b: Coronoidectomies
+		?c: the mouth opening in all cases
+
+
+label:    sent_7
+sentence: Future studies are needed to widen the therapeutic window by minimizing late GI toxicity .
+
+ppatt:
+	?a are needed to widen ?b
+		?a: Future studies
+		?b: the therapeutic window
+	?a minimizing ?b
+		?a: Future studies
+		?b: late GI toxicity
+
+
+label:    sent_8
+sentence: It is critically needed to widen therapeutic windows in the treatment of AD .
+
+ppatt:
+	?a is critically needed to widen ?b in ?c
+		?a: It
+		?b: therapeutic windows
+		?c: the treatment of AD
+
+
+label:    sent_9
+sentence: The intervention procedures widen modern approaches but could not eliminate the traditional notions altogether .
+
+ppatt:
+	?a widen ?b
+		?a: The intervention procedures
+		?b: modern approaches
+	?a could not eliminate ?b altogether
+		?a: The intervention procedures
+		?b: the traditional notions
+
+
+label:    sent_10
+sentence: Future technological developments will widen its clinical application and minimize its shortcomings .
+
+ppatt:
+	?a will widen ?b
+		?a: Future technological developments
+		?b: its clinical application
+	?a minimize ?b
+		?a: Future technological developments
+		?b: its shortcomings
+
+
+label:    sent_11
+sentence: By using this modification , we may widen the " safe " reconstructive possibilities .
+
+ppatt:
+	using ?a ?b
+		?a: this modification
+		?b: we
+	?a may widen ?b
+		?a: we
+		?b: the " safe " reconstructive possibilities
+
+
+label:    sent_12
+sentence: Along with the development of interventional radiological techniques the indications for surgery widen .
+
+ppatt:
+	Along with ?a ?b widen
+		?a: the development of interventional radiological techniques
+		?b: the indications for surgery
+
+
+label:    sent_13
+sentence: Little is known about whether economic crises widen health inequalities .
+
+ppatt:
+	?a is known about ?b
+		?a: Little
+		?b: SOMETHING := economic crises widen health inequalities
+	?a widen ?b
+		?a: economic crises
+		?b: health inequalities
+
+
+label:    sent_14
+sentence: The disparity appeared to widen for lung cancer in males .
+
+ppatt:
+	?a appeared to widen for ?b
+		?a: The disparity
+		?b: lung cancer in males
+
+
+label:    sent_15
+sentence: Such differences tended to further widen with increasing elevation .
+
+ppatt:
+	?a tended to further widen with ?b
+		?a: Such differences
+		?b: increasing elevation
+
+
+label:    sent_16
+sentence: The mid-carpal joint also began to widen at this level of distraction .
+
+ppatt:
+	?a also began to widen at ?b
+		?a: The mid-carpal joint
+		?b: this level of distraction
+
+
+label:    sent_17
+sentence: However , it is still poorly understood how FN fibrils widen while elongating .
+
+ppatt:
+	However , ?a is still poorly understood ?b
+		?a: it
+		?b: SOMETHING := how FN fibrils widen while elongating
+	how ?a widen ?b
+		?a: FN fibrils
+		?b: elongating
+
+
+label:    sent_18
+sentence: These effects widen with increasing physical development .
+
+ppatt:
+	?a widen with ?b
+		?a: These effects
+		?b: increasing physical development
+
+
+label:    sent_19
+sentence: The striations of male and female A. galeopteri are widen towards outside and wavy . Lateral radiograph revealed that the diameter of oral pharynx widen nearly 5 mm . Outlier probe may widen .
+
+ppatt:
+	?a are widen towards ?b
+		?a: The striations of male and female
+		?b: outside
+	?a are widen towards ?b
+		?a: The striations of male and female
+		?b: wavy
+	?a revealed ?b
+		?a: Lateral radiograph
+		?b: SOMETHING := the diameter of oral pharynx widen nearly 5 mm
+	?a widen ?b
+		?a: the diameter of oral pharynx
+		?b: nearly 5 mm
+	?a may widen
+		?a: Outlier probe
+
+
+label:    sent_20
+sentence: The disparity between the " haves " and the " have-nots " will widen .
+
+ppatt:
+	?a will widen
+		?a: The disparity between the " haves " and the " have-nots "
+
+
+label:    sent_21
+sentence: These inequalities were apparent very early in life and did not widen thereafter .
+
+ppatt:
+	?a were apparent very early in ?b
+		?a: These inequalities
+		?b: life
+	?a did not widen thereafter
+		?a: These inequalities
+
+

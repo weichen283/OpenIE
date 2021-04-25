@@ -1,0 +1,275 @@
+label:    sent_1
+sentence: Spin coating has been used to deposit uniform pesticide layers on to each platform .
+
+ppatt:
+	?a has been used to deposit ?b on to ?c
+		?a: Spin coating
+		?b: uniform pesticide layers
+		?c: each platform
+
+
+label:    sent_2
+sentence: The basal cells synthesize laminin and deposit it at the cell base .
+
+ppatt:
+	?a synthesize ?b
+		?a: The basal cells
+		?b: laminin
+	?a deposit ?b at ?c
+		?a: The basal cells
+		?b: it
+		?c: the cell base
+
+
+label:    sent_3
+sentence: It is therefore challenging to deposit dielectrics on graphene without affecting its electronic properties .
+
+ppatt:
+	?a is therefore challenging to deposit ?b
+		?a: It
+		?b: dielectrics on graphene
+	?a affecting ?b
+		?a: It
+		?b: its electronic properties
+
+
+label:    sent_4
+sentence: Dental papilla cells synthesize but do not deposit fibronectin in culture .
+
+ppatt:
+	?a synthesize
+		?a: Dental papilla cells
+	?a do not deposit ?b in ?c
+		?a: Dental papilla cells
+		?b: fibronectin
+		?c: culture
+
+
+label:    sent_5
+sentence: We conclude that cultured neuroblastoma cells both synthesize , secrete and deposit laminin .
+
+ppatt:
+	?a conclude ?b
+		?a: We
+		?b: SOMETHING := that cultured neuroblastoma cells both synthesize
+	?a both synthesize
+		?a: cultured neuroblastoma cells
+	?a secrete ?b
+		?a: cultured neuroblastoma cells
+		?b: laminin
+	?a deposit
+		?a: cultured neuroblastoma cells
+
+
+label:    sent_6
+sentence: Control HEK293 cells secreted Lm511 but failed to deposit it . These waters infiltrated into the tailings deposit at the shelf-tailings interface .
+
+ppatt:
+	?a secreted ?b
+		?a: Control HEK293 cells
+		?b: Lm511
+	?a failed to deposit ?b
+		?a: Control HEK293 cells
+		?b: it
+	?a infiltrated into ?b
+		?a: These waters
+		?b: the tailings
+	?a deposit at ?b
+		?a: These waters infiltrated into the tailings
+		?b: the shelf-tailings interface
+
+
+label:    sent_7
+sentence: Such lipids also deposit in bone tissues , where they may promote osteoporosis .
+
+ppatt:
+	?a also deposit in ?b
+		?a: Such lipids
+		?b: bone tissues , where they may promote osteoporosis
+	?a where ?b may promote ?c
+		?a: bone tissues
+		?b: they
+		?c: osteoporosis
+
+
+label:    sent_8
+sentence: Nano-structured particles are potentially hazardous when they deposit in the respiratory system .
+
+ppatt:
+	?a are potentially hazardous
+		?a: Nano-structured particles
+	when ?a deposit in ?b
+		?a: they
+		?b: the respiratory system
+
+
+label:    sent_9
+sentence: Mesostructured silica aerosol particles : comparison of gas-phase and powder deposit X-ray diffraction data . [ The shoulder in basic calcium phosphate microcrystal deposit disease ] . Mechanisms of immune deposit formation in renal glomeruli .
+
+ppatt:
+
+
+
+label:    sent_10
+sentence: Poststreptococcal acute glomerulonephritis and dense deposit disease after pediatric liver transplantation .
+
+ppatt:
+
+
+
+label:    sent_11
+sentence: All of 7 patients have excessive subcutaneous fat deposit predominantly around neck .
+
+ppatt:
+	?a have ?b
+		?a: All of 7 patients
+		?b: excessive subcutaneous fat
+	?a deposit predominantly around ?b
+		?a: All of 7 patients
+		?b: neck
+
+
+label:    sent_12
+sentence: Both cell lines deposit EMMPRIN on the cell membranes .
+
+ppatt:
+	?a deposit ?b on ?c
+		?a: Both cell lines
+		?b: EMMPRIN
+		?c: the cell membranes
+
+
+label:    sent_13
+sentence: Direct smears were prepared from ascitic fluid deposit for Gram and Zheil-Nelson staining .
+
+ppatt:
+	?a were prepared from ?b
+		?a: Direct smears
+		?b: ascitic fluid deposit for Gram and Zheil-Nelson
+
+
+label:    sent_14
+sentence: Silver nanoparticles are found to deposit uniformly onto the exposed sphere surfaces .
+
+ppatt:
+	?a are found to deposit uniformly onto ?b
+		?a: Silver nanoparticles
+		?b: the exposed sphere surfaces
+
+
+label:    sent_15
+sentence: Thus , colloid AgSCN grains are made to deposit in the protoplasmic astrocytes .
+
+ppatt:
+	Thus , ?a are made to deposit in ?b
+		?a: colloid AgSCN grains
+		?b: the protoplasmic astrocytes
+
+
+label:    sent_16
+sentence: They excavate burrows in mudflats and deposit eggs in them .
+
+ppatt:
+	?a excavate ?b
+		?a: They
+		?b: burrows in mudflats
+	?a deposit ?b
+		?a: They
+		?b: eggs in them
+
+
+label:    sent_17
+sentence: The myofibroblasts produce and deposit connective tissue matrix , resulting in morphologically visible scarring .
+
+ppatt:
+	?a produce ?b
+		?a: The myofibroblasts
+		?b: connective tissue matrix
+	?a deposit
+		?a: The myofibroblasts
+	?a resulting in ?b
+		?a: The myofibroblasts
+		?b: morphologically visible scarring
+
+
+label:    sent_18
+sentence: Head lice live in the scalp hair and deposit their ova on hair shafts .
+
+ppatt:
+	?a live in ?b
+		?a: Head lice
+		?b: the scalp hair
+	?a deposit ?b on ?c
+		?a: Head lice
+		?b: their ova
+		?c: hair shafts
+
+
+label:    sent_19
+sentence: Monoclonal proteins can also deposit in the kidney as crystals and cause tissue damage .
+
+ppatt:
+	?a can also deposit in ?b as ?c
+		?a: Monoclonal proteins
+		?b: the kidney
+		?c: crystals
+	?a cause ?b
+		?a: Monoclonal proteins
+		?b: tissue damage
+
+
+label:    sent_20
+sentence: Particles <7 mum can deposit in the airways and cause symptoms of asthma .
+
+ppatt:
+	?a can deposit in ?b
+		?a: Particles <7 mum
+		?b: the airways
+	?a cause ?b
+		?a: Particles <7 mum
+		?b: symptoms of asthma
+
+
+label:    sent_21
+sentence: Human IgG anti-DNA antibodies deposit in kidneys and induce proteinuria in SCID mice .
+
+ppatt:
+	?a deposit in ?b
+		?a: Human IgG anti-DNA antibodies
+		?b: kidneys
+	?a induce ?b
+		?a: Human IgG anti-DNA antibodies
+		?b: proteinuria in SCID mice
+
+
+label:    sent_22
+sentence: In vivo visualization of single-unit recording sites using MRI-detectable elgiloy deposit marking .
+
+ppatt:
+	?a using ?b
+		?a: In visualization of single-unit recording sites
+		?b: MRI-detectable elgiloy
+	?a deposit ?b
+		?a: In visualization of single-unit recording sites using MRI-detectable elgiloy
+		?b: marking
+
+
+label:    sent_23
+sentence: Artificial ants deposit pheromone to search for regulatory DNA elements .
+
+ppatt:
+	?a deposit ?b to search for ?c
+		?a: Artificial ants
+		?b: pheromone
+		?c: regulatory DNA elements
+
+
+label:    sent_24
+sentence: Morphological and chemical characterization of a starch granule-like polyglucosan deposit isolated from human brain .
+
+ppatt:
+	?a isolated from ?b
+		?a: a starch granule-like polyglucosan deposit
+		?b: human brain
+
+

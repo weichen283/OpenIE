@@ -1,0 +1,197 @@
+label:    sent_1
+sentence: Screening for pancreatic cancer : what can cyst fluid analysis tell us ? Does the insula tell our brain that we are in pain ? Converging evidence for diverging pathways : neuropsychology and psychophysics tell the same story . MRI for the assessment and monitoring of RA --what can it tell us ? What can eye movements tell us about Symbol Digit substitution by patients with schizophrenia ? How much can parentage analyses tell us about precapture dispersal ? Disorders of sex development-when and how to tell the patient .
+
+ppatt:
+	?a ?b can cyst ?c
+		?a: Screening for pancreatic cancer
+		?b: what
+		?c: fluid analysis
+	?a tell ?b
+		?a: Screening for pancreatic cancer : what can cyst fluid analysis
+		?b: us
+	?a Does
+		?a: Screening for pancreatic cancer : what can cyst fluid analysis
+	?a tell ?b
+		?a: the insula
+		?b: our brain
+	?a are in pain
+		?a: we
+	?a Converging evidence for ?b
+		?a: we
+		?b: diverging pathways
+	?a tell ?b
+		?a: neuropsychology
+		?b: the same story
+	?a tell ?b
+		?a: psychophysics
+		?b: the same story
+	?a for ?b --what can ?c tell ?d ?e
+		?a: MRI
+		?b: the assessment of RA
+		?c: it
+		?d: us
+		?e: SOMETHING := What can eye movements tell us about Symbol Digit substitution by patients with schizophrenia
+	?a for ?b --what can ?c tell ?d ?e
+		?a: MRI
+		?b: monitoring
+		?c: it
+		?d: us
+		?e: SOMETHING := What can eye movements tell us about Symbol Digit substitution by patients with schizophrenia
+	?a can ?b tell ?c about ?d
+		?a: What
+		?b: eye movements
+		?c: us
+		?d: Symbol Digit substitution by patients with schizophrenia
+	How much can ?a tell ?b about ?c
+		?a: parentage analyses
+		?b: us
+		?c: precapture dispersal ? Disorders of sex development-when and how to tell the patient
+	how to tell ?a
+		?a: the patient
+
+
+label:    sent_2
+sentence: How do you tell a student that they smell ? Participants were interviewed twice and asked to tell the story of their lives .
+
+ppatt:
+	How do you tell ?a
+		?a: a student that they smell ? Participants were interviewed twice and asked to tell the story of their lives
+	?a ?b were interviewed twice
+		?a: smell
+		?b: they ? Participants
+	?a asked to tell ?b
+		?a: smell
+		?b: the story of their lives
+
+
+label:    sent_3
+sentence: How can I tell if a patient has obstructive sleep apnea ? How can doctors tell if a patient needs a bypass operation or an angioplasty ? Fifty years of the parietal cortex : What could we tell Critchley today ? Is there any way to tell a migraine from a " stroke headache " ? Demonstrations of spatiotemporal integration and what they tell us about the visual system .
+
+ppatt:
+	How can I tell ?a
+		?a: SOMETHING := How can doctors tell if a patient needs a bypass operation or an angioplasty ? Fifty years of the parietal cortex : What could we tell Critchley today ? Is there any way to tell a migraine from a " stroke headache "
+	?a has ?b
+		?a: a patient
+		?b: obstructive sleep apnea
+	How can ?a tell
+		?a: doctors
+	?a needs ?b
+		?a: a patient
+		?b: a bypass operation
+	?a needs ?b
+		?a: a patient
+		?b: an angioplasty
+	?a needs ?b
+		?a: a patient
+		?b: Fifty years of the parietal cortex
+	?a could ?b tell ?c today
+		?a: What
+		?b: we
+		?c: Critchley
+	Is ?a
+		?a: there any way to tell a migraine from a " stroke headache "
+	?a tell ?b
+		?a: there any way
+		?b: a migraine from a " stroke headache "
+	?a ?b tell ?c about ?d
+		?a: Demonstrations of spatiotemporal integration
+		?b: they
+		?c: us
+		?d: the visual system
+
+
+label:    sent_4
+sentence: The Amberson lecture : tell it like it was . Who invented the modern hospital and who should tell the story ? How do hyperactive children feel about taking stimulants and will they tell the doctor ? What HMOs should tell their subscribers , and what you can do about it . What your physician does n't tell you about cholesterol .
+
+ppatt:
+	?a tell ?b like ?c was ?d
+		?a: The Amberson lecture
+		?b: it
+		?c: it
+		?d: SOMETHING := Who invented the modern hospital
+	?a invented ?b
+		?a: Who
+		?b: the modern hospital
+	?a should tell ?b
+		?a: who
+		?b: the story
+	?a feel
+		?a: who
+	?a taking ?b
+		?a: who
+		?b: stimulants
+	will ?a tell ?b
+		?a: they
+		?b: the doctor
+	?a ?b can do about ?c
+		?a: what
+		?b: you
+		?c: it
+	?a ?b does n't tell ?c about ?d
+		?a: What
+		?b: your physician
+		?c: you
+		?d: cholesterol
+
+
+label:    sent_5
+sentence: What neuroscience can tell about intuitive processes in the context of perceptual discovery .
+
+ppatt:
+	?a can tell about ?b in ?c
+		?a: What neuroscience
+		?b: intuitive processes
+		?c: the context of perceptual discovery
+
+
+label:    sent_6
+sentence: If it 's AIDS , please do n't tell . ' Go and tell people what it 's like here ' . Should we stop teaching and just tell stories ? To tell or not to tell the diagnosis of schizophrenia . To tell or not to tell .
+
+ppatt:
+	's ?a , ?b do n't tell
+		?a: it AIDS
+		?b: please
+	tell ?a
+		?a: people
+	?a ?b 's like here . Should ?c stop ?d
+		?a: what
+		?b: it
+		?c: we
+		?d: teaching
+	?a 's just tell ?b ? To tell . To tell not to tell
+		?a: it
+		?b: stories
+	?a 's just tell ? To not to tell ?b . To tell not to tell
+		?a: it
+		?b: the diagnosis of schizophrenia
+
+
+label:    sent_7
+sentence: To tell or not to tell : disclosing medical error .
+
+ppatt:
+	disclosing ?a
+		?a: medical error
+
+
+label:    sent_8
+sentence: To tell or not to tell ? What can you tell me about it , and what are the advantages ? Studies tell us about populations but we treat individuals .
+
+ppatt:
+	tell ?a
+		?a: SOMETHING := What can you tell me about it
+	?a can you tell ?b about ?c
+		?a: What
+		?b: me
+		?c: it
+	?a are the advantages
+		?a: what
+	?a tell ?b about ?c
+		?a: Studies
+		?b: us
+		?c: populations
+	?a treat ?b
+		?a: we
+		?b: individuals
+
+

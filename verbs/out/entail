@@ -1,0 +1,290 @@
+label:    sent_1
+sentence: Predictions provided by action-outcome probabilities entail a degree of ( first-order ) uncertainty .
+
+ppatt:
+	?a provided by ?b
+		?a: Predictions
+		?b: action-outcome probabilities
+	?a entail ?b
+		?a: Predictions provided by action-outcome probabilities
+		?b: a degree of ( first-order ) uncertainty
+
+
+label:    sent_2
+sentence: Such improvement would entail a stricter adherence to International Diabetes Federation recommendations .
+
+ppatt:
+	?a would entail ?b to ?c
+		?a: Such improvement
+		?b: a stricter adherence
+		?c: International Diabetes Federation recommendations
+
+
+label:    sent_3
+sentence: This assessment should entail stratification of patients- and mechanisms-at-risk for VQM .
+
+ppatt:
+	?a should entail ?b
+		?a: This assessment
+		?b: stratification of patients- and mechanisms-at-risk for VQM
+
+
+label:    sent_4
+sentence: This may affect screening performance and entail unnecessary anxiety in these women .
+
+ppatt:
+	?a may affect ?b
+		?a: This
+		?b: screening performance
+	?a entail ?b in ?c
+		?a: This
+		?b: unnecessary anxiety
+		?c: these women
+
+
+label:    sent_5
+sentence: Vaginism may even entail psychosocial advantages for the women in some cases .
+
+ppatt:
+	?a may even entail ?b
+		?a: Vaginism
+		?b: psychosocial advantages for the women in some cases
+
+
+label:    sent_6
+sentence: A variety of other medications have been found or suspected to entail risks . Its assessment should entail echocardiography rather than measurement of the QRS duration .
+
+ppatt:
+	?a have been found
+		?a: A variety of other medications
+	?a suspected to entail ?b
+		?a: A variety of other medications
+		?b: risks
+	?a should entail ?b
+		?a: Its assessment
+		?b: echocardiography
+	?a should entail ?b
+		?a: Its assessment
+		?b: measurement of the QRS duration
+
+
+label:    sent_7
+sentence: Recently , considerable debate has emerged about whether hippocampal-dependent tasks necessarily entail task awareness .
+
+ppatt:
+	Recently , ?a has emerged about ?b
+		?a: considerable debate
+		?b: SOMETHING := hippocampal-dependent tasks necessarily entail task awareness
+	?a necessarily entail ?b
+		?a: hippocampal-dependent tasks
+		?b: task awareness
+
+
+label:    sent_8
+sentence: Besides their beneficial effect on survival , these behaviours also entail various costs .
+
+ppatt:
+	Besides ?a , ?b also entail ?c
+		?a: their beneficial effect on survival
+		?b: these behaviours
+		?c: various costs
+
+
+label:    sent_9
+sentence: The new concepts entail fewer complications and are better accepted by the patients .
+
+ppatt:
+	?a entail ?b
+		?a: The new concepts
+		?b: fewer complications
+	?a are better accepted by ?b
+		?a: The new concepts
+		?b: the patients
+
+
+label:    sent_10
+sentence: Complete resection is curative , but incomplete resections entail the risk of relapse . Reoperations entail an excess risk of surgical morbidity and may be avoidable .
+
+ppatt:
+	?a is curative
+		?a: Complete resection
+	?a entail ?b
+		?a: incomplete resections
+		?b: the risk of relapse
+	?a entail ?b
+		?a: Reoperations
+		?b: an excess risk of surgical morbidity
+
+
+label:    sent_11
+sentence: These strategies entail jointly modeling the mean and dispersion structures in hierarchical models .
+
+ppatt:
+	?a entail jointly modeling ?b in ?c
+		?a: These strategies
+		?b: mean
+		?c: hierarchical models
+	?a entail jointly modeling ?b in ?c
+		?a: These strategies
+		?b: dispersion
+		?c: hierarchical models
+
+
+label:    sent_12
+sentence: These techniques entail passing an electron beam through a thin specimen .
+
+ppatt:
+	?a entail passing ?b through ?c
+		?a: These techniques
+		?b: an electron beam
+		?c: a thin specimen
+
+
+label:    sent_13
+sentence: However , these methods provide very little information for the material cost they entail .
+
+ppatt:
+	However , ?a provide ?b
+		?a: these methods
+		?b: very little information for the material cost
+	?a entail
+		?a: they
+
+
+label:    sent_14
+sentence: Nine of them are fixed in chromosome 2 and entail two breakpoint reuses .
+
+ppatt:
+	?a are fixed in ?b
+		?a: Nine of them
+		?b: chromosome 2
+	?a entail ?b
+		?a: Nine of them
+		?b: two breakpoint reuses
+
+
+label:    sent_15
+sentence: These restrictions are extremely trade disruptive and entail significant losses to the poultry industry .
+
+ppatt:
+	?a are extremely ?b disruptive
+		?a: These restrictions
+		?b: trade
+	?a entail ?b
+		?a: These restrictions
+		?b: significant losses to the poultry industry
+
+
+label:    sent_16
+sentence: These are not equivalent and entail assumptions or approximations that may be not appreciated .
+
+ppatt:
+	?a are not equivalent
+		?a: These
+	?a entail ?b
+		?a: These
+		?b: assumptions that may be not appreciated
+	?a entail ?b
+		?a: These
+		?b: approximations
+	?a may be not appreciated
+		?a: assumptions
+	?a may be not appreciated
+		?a: approximations
+
+
+label:    sent_17
+sentence: The decrease in estrogen doses appears overall to entail more benefits than disadvantages .
+
+ppatt:
+	?a appears overall to entail ?b than ?c
+		?a: The decrease in estrogen doses
+		?b: more benefits
+		?c: disadvantages
+
+
+label:    sent_18
+sentence: However , these procedures are quite elaborate and entail risks and dangers in themselves .
+
+ppatt:
+	However , ?a are quite elaborate
+		?a: these procedures
+	?a entail ?b
+		?a: these procedures
+		?b: risks in themselves
+	?a entail ?b
+		?a: these procedures
+		?b: dangers
+
+
+label:    sent_19
+sentence: During pregnancy infections can entail disorders in many different ways . Men argued that not breastfeeding could entail sanctions by kin or in court .
+
+ppatt:
+	During ?a can entail ?b in ?c
+		?a: pregnancy infections
+		?b: disorders
+		?c: many different ways
+	?a argued ?b
+		?a: Men
+		?b: SOMETHING := not breastfeeding could entail sanctions by kin or in court
+	?a could entail ?b by ?c
+		?a: not breastfeeding
+		?b: sanctions
+		?c: kin
+	?a could entail ?b by ?c
+		?a: not breastfeeding
+		?b: sanctions
+		?c: court
+
+
+label:    sent_20
+sentence: Clinical decisions often entail in intertemporal trade-off .
+
+ppatt:
+	?a often entail in ?b
+		?a: Clinical decisions
+		?b: intertemporal trade-off
+
+
+label:    sent_21
+sentence: We examine here what these entail regarding nursing care .
+
+ppatt:
+	?a examine here ?b
+		?a: We
+		?b: SOMETHING := what these entail regarding nursing care
+	?a ?b entail regarding ?c
+		?a: what
+		?b: these
+		?c: nursing care
+
+
+label:    sent_22
+sentence: They fear the threat to their relationship with clients that managed care might entail .
+
+ppatt:
+	?a fear ?b
+		?a: They
+		?b: the threat to their relationship with clients that managed care
+	?a managed ?b
+		?a: clients
+		?b: care
+	?a might entail
+		?a: They
+
+
+label:    sent_23
+sentence: Practical legislation is feasible and a proposal of what this should entail is presented .
+
+ppatt:
+	?a is feasible
+		?a: Practical legislation
+	?a ?b ?c should entail
+		?a: a proposal
+		?b: what
+		?c: this
+	?a is presented
+		?a: a proposal of what this should entail
+
+

@@ -1,0 +1,298 @@
+label:    sent_1
+sentence: We used steroids to abort recurrent crises .
+
+ppatt:
+	?a used ?b to abort ?c
+		?a: We
+		?b: steroids
+		?c: recurrent crises
+
+
+label:    sent_2
+sentence: Migraine headache is routinely managed using medications that abort attacks as they occur .
+
+ppatt:
+	?a is routinely managed using ?b
+		?a: Migraine headache
+		?b: medications that abort attacks as they occur
+	?a abort ?b
+		?a: medications
+		?b: attacks
+	?a occur
+		?a: they
+
+
+label:    sent_3
+sentence: Those who chose to abort their pregnancies had higher baseline self-image .
+
+ppatt:
+	?a chose to abort ?b
+		?a: Those
+		?b: their pregnancies
+	?a had ?b
+		?a: Those who chose to abort their pregnancies
+		?b: higher baseline self-image
+
+
+label:    sent_4
+sentence: They could not abort a cluster by immediately restarting OC .
+
+ppatt:
+	?a could not abort ?b
+		?a: They
+		?b: a cluster
+	?a immediately restarting ?b
+		?a: They
+		?b: OC
+
+
+label:    sent_5
+sentence: Metoclopramide ( MTCL ) can abort attacks of migraine headache .
+
+ppatt:
+	?a is/are MTCL
+		?a: Metoclopramide
+	?a can abort ?b
+		?a: Metoclopramide
+		?b: attacks of migraine headache
+
+
+label:    sent_6
+sentence: Approximately 50 % bear their children , while 40 % abort their fetuses .
+
+ppatt:
+	?a bear ?b
+		?a: Approximately 50 %
+		?b: their children
+	?a abort ?b
+		?a: 40 %
+		?b: their fetuses
+
+
+label:    sent_7
+sentence: Bitches that failed to abort following treatment with bromocryptine whelped normally at term .
+
+ppatt:
+	?a failed to abort following ?b
+		?a: Bitches
+		?b: treatment with bromocryptine
+	?a whelped normally at ?b
+		?a: Bitches that failed to abort following treatment with bromocryptine
+		?b: term
+
+
+label:    sent_8
+sentence: However , paternally derived trisomies tended to abort earlier than maternally derived trisomies .
+
+ppatt:
+	However , ?a tended to abort earlier than ?b
+		?a: paternally derived trisomies
+		?b: maternally derived trisomies
+
+
+label:    sent_9
+sentence: Homozygous toc75-III embryos were found to abort at the two-cell stage .
+
+ppatt:
+	?a were found to abort at ?b
+		?a: Homozygous toc75-III embryos
+		?b: the two-cell stage
+
+
+label:    sent_10
+sentence: Failure to abort completely , side-effects and acceptability were the main outcomes of interest . Sixteen subjects ( 40 % ) did not abort .
+
+ppatt:
+	?a abort completely , side-effects and acceptability
+		?a: Failure
+	?a were the main outcomes of ?b
+		?a: Failure to abort completely , side-effects and acceptability
+		?b: interest
+	?a is/are 40 %
+		?a: Sixteen subjects
+	?a did not abort
+		?a: Sixteen subjects
+
+
+label:    sent_11
+sentence: Research has verified field observations that cows grazing ponderosa pine needles may abort .
+
+ppatt:
+	?a has verified ?b
+		?a: Research
+		?b: field observations that cows grazing ponderosa pine needles may abort
+	?a grazing ?b
+		?a: cows
+		?b: ponderosa pine needles
+	?a may abort
+		?a: cows grazing ponderosa pine needles
+
+
+label:    sent_12
+sentence: Seropositive cattle were 9.2 times more likely to abort compared to seronegative cows .
+
+ppatt:
+	?a were ?b more likely to abort compared to ?c
+		?a: Seropositive cattle
+		?b: 9.2 times
+		?c: seronegative cows
+
+
+label:    sent_13
+sentence: We administered pentobarbital 50 mg/kg to abort seizures after 1 h . The lld mutation was observed to abort pinna development at almost all morphogenetic stages .
+
+ppatt:
+	?a administered ?b
+		?a: We
+		?b: pentobarbital 50 mg/kg
+	?a abort ?b after ?c
+		?a: We
+		?b: seizures
+		?c: 1 h
+	?a was observed to abort ?b at ?c
+		?a: The lld mutation
+		?b: pinna development
+		?c: almost all morphogenetic stages
+
+
+label:    sent_14
+sentence: Brooders could also selectively abort defective embryos , and replace them with minimal cost . And for many women , if the test indicates a female , they abort .
+
+ppatt:
+	?a could also selectively abort ?b
+		?a: Brooders
+		?b: defective embryos
+	?a replace ?b with ?c for ?d
+		?a: Brooders
+		?b: them
+		?c: minimal cost
+		?d: many women
+	?a indicates ?b
+		?a: the test
+		?b: a female
+	?a abort
+		?a: they
+
+
+label:    sent_15
+sentence: The microspores of the MDGMS abort before the degradation of the tapetal cell layer .
+
+ppatt:
+	?a abort before ?b
+		?a: The microspores of the MDGMS
+		?b: the degradation of the tapetal cell layer
+
+
+label:    sent_16
+sentence: After recovery from EEC , pregnant mares may abort .
+
+ppatt:
+	After ?a , ?b may abort
+		?a: recovery from EEC
+		?b: pregnant mares
+
+
+label:    sent_17
+sentence: To abort or not to abort : that is the question .
+
+ppatt:
+
+
+
+label:    sent_18
+sentence: Ergotamine is used to abort or prevent vascular headache .
+
+ppatt:
+	?a is used to abort ?b
+		?a: Ergotamine
+		?b: vascular headache
+	?a is used to prevent
+		?a: Ergotamine
+
+
+label:    sent_19
+sentence: Physical maneuvers can be applied to abort or delay an impending vasovagal faint .
+
+ppatt:
+	?a can be applied to abort ?b
+		?a: Physical maneuvers
+		?b: an impending vasovagal faint
+	?a can be applied to delay
+		?a: Physical maneuvers
+
+
+label:    sent_20
+sentence: Cyclophosphamide therapy may abort progression and induce remission of this acute fulminant phase .
+
+ppatt:
+	?a may abort ?b
+		?a: Cyclophosphamide therapy
+		?b: progression
+	?a induce ?b
+		?a: Cyclophosphamide therapy
+		?b: remission of this acute fulminant phase
+
+
+label:    sent_21
+sentence: Benzodiazepines given intravenously abort status epilepticus , and abolish paroxysmal EEG discharges .
+
+ppatt:
+	?a given intravenously
+		?a: Benzodiazepines
+	?a abort ?b
+		?a: Benzodiazepines given intravenously
+		?b: status epilepticus
+	?a abolish ?b
+		?a: Benzodiazepines given intravenously
+		?b: paroxysmal EEG discharges
+
+
+label:    sent_22
+sentence: Moreover , early reperfusion can abort the infarct and avoid significant myocardial necrosis .
+
+ppatt:
+	Moreover , ?a can abort ?b
+		?a: early reperfusion
+		?b: the infarct
+	?a avoid ?b
+		?a: early reperfusion
+		?b: significant myocardial necrosis
+
+
+label:    sent_23
+sentence: Two Neospora dams did not abort but gave birth to subclinically infected calves .
+
+ppatt:
+	?a did not abort
+		?a: Two Neospora dams
+	?a gave ?b
+		?a: Two Neospora dams
+		?b: birth to subclinically infected calves
+
+
+label:    sent_24
+sentence: Fetuses of rbSt-treated cows were normal , and cows did not abort .
+
+ppatt:
+	?a were normal
+		?a: Fetuses of rbSt-treated cows
+	?a did not abort
+		?a: cows
+
+
+label:    sent_25
+sentence: Eight women ( 16 percent ) did not abort and underwent dilation and curettage .
+
+ppatt:
+	?a is/are 16 percent
+		?a: Eight women
+	?a did not abort ?b
+		?a: Eight women
+		?b: dilation
+	?a did not abort ?b
+		?a: Eight women
+		?b: curettage
+	?a underwent
+		?a: Eight women
+
+

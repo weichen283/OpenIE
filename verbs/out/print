@@ -1,0 +1,172 @@
+label:    sent_1
+sentence: To this end , the authors examined the relative contributions of rapid automatic naming , exposure to print , and visual processing to a composite measure of orthographic functioning in a heterogeneous group of 8- to 12-year-old children .
+
+ppatt:
+	To ?a , ?b examined ?c
+		?a: this end
+		?b: the authors
+		?c: the relative contributions of rapid automatic naming , exposure to print , and visual processing to a composite measure of orthographic functioning in a heterogeneous group of 8- to 12-year-old children
+	?a of ?b functioning in ?c
+		?a: a composite measure
+		?b: orthographic
+		?c: a heterogeneous group of 8- to 12-year-old children
+
+
+label:    sent_2
+sentence: Hierarchical regression analyses revealed that rapid naming , exposure to print , and visual processing were each predictive of orthographic functioning when controlling for the other variables as well as vocabulary knowledge and phonological awareness .
+
+ppatt:
+	?a revealed ?b
+		?a: Hierarchical regression analyses
+		?b: SOMETHING := rapid naming , exposure to print , and visual processing were each predictive of orthographic functioning when controlling for the other variables as well as vocabulary knowledge and phonological awareness
+	?a were each predictive of ?b
+		?a: rapid naming
+		?b: orthographic functioning
+	?a were each predictive of ?b
+		?a: exposure
+		?b: orthographic functioning
+	?a were each predictive of ?b
+		?a: print
+		?b: orthographic functioning
+	?a were each predictive of ?b
+		?a: visual processing
+		?b: orthographic functioning
+	?a when controlling for ?b
+		?a: rapid naming
+		?b: the other variables
+	?a when controlling for ?b
+		?a: exposure
+		?b: the other variables
+	?a when controlling for ?b
+		?a: print
+		?b: the other variables
+	?a when controlling for ?b
+		?a: visual processing
+		?b: the other variables
+	?a when controlling for ?b
+		?a: rapid naming
+		?b: vocabulary knowledge
+	?a when controlling for ?b
+		?a: exposure
+		?b: vocabulary knowledge
+	?a when controlling for ?b
+		?a: print
+		?b: vocabulary knowledge
+	?a when controlling for ?b
+		?a: visual processing
+		?b: vocabulary knowledge
+
+
+label:    sent_3
+sentence: The inability to store all of the messages or to print them out were seen as major disadvantages .
+
+ppatt:
+	?a store ?b
+		?a: The inability
+		?b: all of the messages
+	?a print ?b out
+		?a: The inability
+		?b: them
+	?a were seen as ?b
+		?a: The inability to store all of the messages or to print them out
+		?b: major disadvantages
+
+
+label:    sent_4
+sentence: Group 2 was asked to print their name in block capitals after their signature and Group 3 was given pens with a personal self inking stamp to be used in addition to signing the notes .
+
+ppatt:
+	?a was asked to print ?b in ?c
+		?a: Group 2
+		?b: their name
+		?c: block capitals after their signature and Group 3
+	?a was given ?b with ?c to be used in ?d
+		?a: Group 2
+		?b: pens
+		?c: a personal self inking stamp
+		?d: addition
+	?a signing ?b
+		?a: Group 2
+		?b: the notes
+
+
+label:    sent_5
+sentence: The 3D wax printer has been modified to print the mold from biocompatible materials .
+
+ppatt:
+	?a has been modified to print ?b
+		?a: The 3D wax printer
+		?b: the mold from biocompatible materials
+
+
+label:    sent_6
+sentence: Most participants wanted easy access to educational materials they could print for patients .
+
+ppatt:
+	?a wanted ?b
+		?a: Most participants
+		?b: easy access to educational materials
+	?a could print for ?b
+		?a: they
+		?b: patients
+
+
+label:    sent_7
+sentence: Approximately 160 removable partial denture designs are provided in the program , as well as the ability to modify the drawings and text to reflect various other clinical situations and to print the work authorization for submission to the dental laboratory .
+
+ppatt:
+	?a are provided in ?b
+		?a: Approximately 160 removable partial denture designs
+		?b: the program
+	?a are provided in ?b
+		?a: Approximately 160 removable partial denture designs
+		?b: the ability to modify the drawings and text to reflect various other clinical situations and to print the work authorization for submission to the dental laboratory
+	?a modify ?b to reflect ?c
+		?a: the ability
+		?b: the drawings
+		?c: various other clinical situations
+	?a modify ?b to reflect ?c
+		?a: the ability
+		?b: text
+		?c: various other clinical situations
+	print ?a
+		?a: the work authorization for submission to the dental laboratory
+
+
+label:    sent_8
+sentence: In this series , we print evaluation instruments , questionnaires , rating scales and similar resource materials useful to teachers , evaluators and planners .
+
+ppatt:
+	In ?a , ?b print ?c
+		?a: this series
+		?b: we
+		?c: evaluation instruments , rating scales and similar resource materials useful to teachers , evaluators and planners
+	In ?a , ?b print ?c
+		?a: this series
+		?b: we
+		?c: questionnaires
+	?a rating ?b
+		?a: evaluation instruments
+		?b: scales
+	?a rating ?b
+		?a: questionnaires
+		?b: scales
+	?a rating ?b
+		?a: evaluation instruments
+		?b: similar resource materials useful to teachers , evaluators and planners
+	?a rating ?b
+		?a: questionnaires
+		?b: similar resource materials useful to teachers , evaluators and planners
+
+
+label:    sent_9
+sentence: After the ventilation session is complete , the clinician can print the final report in hard copy or to disk .
+
+ppatt:
+	After ?a is complete
+		?a: the ventilation session
+	?a can print ?b
+		?a: the clinician
+		?b: the final report in hard copy or to disk
+
+

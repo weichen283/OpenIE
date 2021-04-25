@@ -1,0 +1,300 @@
+label:    sent_1
+sentence: Bacteria are known to communicate primarily via secreted extracellular factors .
+
+ppatt:
+	?a are known to communicate primarily via ?b
+		?a: Bacteria
+		?b: secreted extracellular factors
+
+
+label:    sent_2
+sentence: Knowing how to communicate effectively with patients includes an understanding oflanguage .
+
+ppatt:
+	how to communicate effectively with ?a
+		?a: patients
+	?a includes ?b
+		?a: SOMETHING := Knowing how to communicate effectively with patients
+		?b: an understanding oflanguage
+
+
+label:    sent_3
+sentence: We show that homesigners use gestures to communicate about number .
+
+ppatt:
+	?a show ?b
+		?a: We
+		?b: SOMETHING := homesigners use gestures to communicate about number
+	?a use ?b to communicate about ?c
+		?a: homesigners
+		?b: gestures
+		?c: number
+
+
+label:    sent_4
+sentence: Internet- and telephone-based strategies to communicate risk were not utilized by survivors or physicians .
+
+ppatt:
+	?a communicate ?b
+		?a: Internet- and telephone-based strategies
+		?b: risk
+	?a were not utilized by ?b
+		?a: Internet- and telephone-based strategies to communicate risk
+		?b: survivors
+	?a were not utilized by ?b
+		?a: Internet- and telephone-based strategies to communicate risk
+		?b: physicians
+
+
+label:    sent_5
+sentence: They are designed to help communicate ideas efficiently .
+
+ppatt:
+	?a are designed to help communicate ?b efficiently
+		?a: They
+		?b: ideas
+
+
+label:    sent_6
+sentence: We would like to communicate a recent case attended at our institution .
+
+ppatt:
+	?a would like to communicate ?b
+		?a: We
+		?b: a recent case attended at our institution
+	?a attended at ?b
+		?a: a recent case
+		?b: our institution
+
+
+label:    sent_7
+sentence: Many factors influence what and how we communicate with patients after stroke . Brain-computer interfaces ( BCIs ) enable people with paralysis to communicate with their environment .
+
+ppatt:
+	?a influence ?b ?c
+		?a: Many factors
+		?b: what
+		?c: SOMETHING := Brain-computer interfaces enable people with paralysis to communicate with their environment
+	how ?a communicate with ?b
+		?a: we
+		?b: patients after stroke
+	?a is/are BCIs
+		?a: Brain-computer interfaces
+	?a enable ?b to communicate with ?c
+		?a: Brain-computer interfaces
+		?b: people with paralysis
+		?c: their environment
+
+
+label:    sent_8
+sentence: How do family physicians communicate about cardiovascular risk ? Astrocytes appear to communicate with each other as well as with neurons via ATP .
+
+ppatt:
+	How do ?a communicate about ?b
+		?a: family physicians
+		?b: cardiovascular risk
+	?a appear to communicate with ?b
+		?a: Astrocytes
+		?b: each other
+	?a appear to communicate with ?b
+		?a: Astrocytes
+		?b: neurons via ATP
+
+
+label:    sent_9
+sentence: The Passy-Muir unidirectional valve allows ventilator-dependent patients to talk and communicate without assistance .
+
+ppatt:
+	?a allows ?b to talk without ?c
+		?a: The Passy-Muir unidirectional valve
+		?b: ventilator-dependent patients
+		?c: assistance
+	?a allows to communicate
+		?a: The Passy-Muir unidirectional valve
+
+
+label:    sent_10
+sentence: The cisterna is avascular and does not communicate with the SE .
+
+ppatt:
+	?a is avascular
+		?a: The cisterna
+	?a does not communicate with ?b
+		?a: The cisterna
+		?b: the SE
+
+
+label:    sent_11
+sentence: Patient use of smartphones to communicate subjective data in clinical trials . Patients ' preferences for ways to communicate benefits of cardiovascular medication .
+
+ppatt:
+	?a communicate ?b ?c
+		?a: Patient use of smartphones
+		?b: subjective data in clinical trials
+		?c: Patients ' preferences for ways to communicate benefits of cardiovascular medication
+	?a communicate ?b
+		?a: Patients ' preferences for ways
+		?b: benefits of cardiovascular medication
+
+
+label:    sent_12
+sentence: Noise may drive changes in the composition and abundance of animals that communicate vocally . [Quick guide to communicate important news to terminally ill patients ] . Neurons are generally considered to communicate information by increasing or decreasing their firing rate .
+
+ppatt:
+	?a may drive ?b
+		?a: Noise
+		?b: changes in the composition and abundance of animals that communicate vocally [Quick guide to communicate important news to terminally ill patients
+	?a communicate vocally ?b to communicate ?c
+		?a: animals
+		?b: [Quick guide
+		?c: important news to terminally ill patients
+	?a are generally considered to communicate ?b
+		?a: Neurons
+		?b: information
+	?a increasing ?b
+		?a: Neurons
+		?b: their firing rate
+	?a decreasing
+		?a: Neurons
+
+
+label:    sent_13
+sentence: Visual displays are often used to communicate important medical information to patients .
+
+ppatt:
+	?a ?b are often used to communicate ?c
+		?a: Visual
+		?b: displays
+		?c: important medical information to patients
+
+
+label:    sent_14
+sentence: These deaf individuals develop their own gestures , called homesigns , to communicate . When do gestures communicate ? A meta-analysis .
+
+ppatt:
+	?a develop ?b
+		?a: These deaf individuals
+		?b: their own gestures , called homesigns
+	?a called homesigns
+		?a: their own gestures
+	?a communicate
+		?a: These deaf individuals
+	When do ?a communicate ?b
+		?a: gestures
+		?b: A meta-analysis
+
+
+label:    sent_15
+sentence: How the British and the Dutch communicate .
+
+ppatt:
+	How ?a communicate
+		?a: the British
+	How ?a communicate
+		?a: the Dutch
+
+
+label:    sent_16
+sentence: The physician 's duty to stop , look , listen , and communicate .
+
+ppatt:
+	?a stop
+		?a: The physician 's duty
+	?a look
+		?a: The physician 's duty to stop
+	?a listen
+		?a: The physician 's duty to stop
+	?a communicate
+		?a: The physician 's duty to stop
+
+
+label:    sent_17
+sentence: Dysarthria affects the ability of individuals to communicate and to participate in society .
+
+ppatt:
+	?a affects ?b
+		?a: Dysarthria
+		?b: the ability of individuals to communicate and to participate in society
+	?a communicate
+		?a: the ability of individuals
+	participate in ?a
+		?a: society
+
+
+label:    sent_18
+sentence: To avoid a mating mishap , yeast focus and communicate .
+
+ppatt:
+	avoid ?a ?b
+		?a: a mating mishap
+		?b: yeast
+	?a focus
+		?a: yeast
+	?a communicate
+		?a: yeast
+
+
+label:    sent_19
+sentence: Pudendal nerve branches communicate with the cavernous nerves and are nitric oxide synthase positive .
+
+ppatt:
+	?a communicate with ?b
+		?a: Pudendal nerve branches
+		?b: the cavernous nerves
+
+
+label:    sent_20
+sentence: In their daily teaching and classroom management , teachers inevitably communicate and represent values .
+
+ppatt:
+	In ?a , ?b inevitably communicate
+		?a: their daily teaching
+		?b: teachers
+	In ?a , ?b inevitably communicate
+		?a: classroom management
+		?b: teachers
+	?a represent ?b
+		?a: teachers
+		?b: values
+
+
+label:    sent_21
+sentence: In some places they communicate with the vessels or are lined with endothelium .
+
+ppatt:
+	In ?a ?b communicate with ?c
+		?a: some places
+		?b: they
+		?c: the vessels
+	?a are lined with ?b
+		?a: they
+		?b: endothelium
+
+
+label:    sent_22
+sentence: How well do medical students rate and communicate clinical empathy ? Follow current diagnostic criteria , and clearly communicate findings to patients .
+
+ppatt:
+	How well do ?a
+		?a: medical students rate
+	?a communicate ?b
+		?a: medical students rate
+		?b: clinical empathy
+	?a Follow ?b
+		?a: medical students rate
+		?b: current diagnostic criteria
+	?a clearly communicate ?b
+		?a: medical students rate
+		?b: findings to patients
+
+
+label:    sent_23
+sentence: Understand and communicate the treatment alternatives to the patient .
+
+ppatt:
+	Understand ?a
+		?a: the treatment alternatives to the patient
+	communicate ?a
+		?a: the treatment alternatives to the patient
+
+

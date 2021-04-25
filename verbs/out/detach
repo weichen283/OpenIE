@@ -1,0 +1,327 @@
+label:    sent_1
+sentence: The force needed to detach AHPM from its origin was 23.5+/-12.0 N .
+
+ppatt:
+	?a needed to detach ?b from ?c
+		?a: The force
+		?b: AHPM
+		?c: its origin
+	?a was 23.5+/-12.0 N
+		?a: The force needed to detach AHPM from its origin
+
+
+label:    sent_2
+sentence: Cells started to detach from plates and the adherent cells exhibited nuclear condensation .
+
+ppatt:
+	?a started to detach from ?b
+		?a: Cells
+		?b: plates
+	?a exhibited ?b
+		?a: the adherent cells
+		?b: nuclear condensation
+
+
+label:    sent_3
+sentence: In vitro these iccosomes detach from one another with ease . Subsequently , the vacuoles detach from the host cell cortex .
+
+ppatt:
+	In vitro ?a detach from ?b ?c . Subsequently
+		?a: these iccosomes
+		?b: one
+		?c: another with ease
+	?a detach from ?b
+		?a: the vacuoles
+		?b: the host cell cortex
+
+
+label:    sent_4
+sentence: Instead , large tails which did not detach from the cell body were seen .
+
+ppatt:
+	?a did not detach from ?b
+		?a: large tails
+		?b: the cell body
+	Instead , ?a were seen
+		?a: large tails which did not detach from the cell body
+
+
+label:    sent_5
+sentence: When ATP is added , most arms detach from doublet N + 1 . Kgp and HRgpA work together to quickly detach endothelial cells .
+
+ppatt:
+	When ?a is added
+		?a: ATP
+	?a detach from ?b
+		?a: most arms
+		?b: doublet N
+	?a detach from ?b
+		?a: most arms
+		?b: 1
+	?a work together to quickly detach ?b
+		?a: Kgp
+		?b: endothelial cells
+	?a work together to quickly detach ?b
+		?a: HRgpA
+		?b: endothelial cells
+
+
+label:    sent_6
+sentence: IA is qualified to detach these fixed AB .
+
+ppatt:
+	?a is qualified to detach ?b
+		?a: IA
+		?b: these fixed AB
+
+
+label:    sent_7
+sentence: Multivalent sugar receptor analogs have been used to both prevent and detach adherent bacteria .
+
+ppatt:
+	?a have been used to both prevent ?b
+		?a: Multivalent sugar receptor analogs
+		?b: adherent bacteria
+	?a have been used to both detach
+		?a: Multivalent sugar receptor analogs
+
+
+label:    sent_8
+sentence: Geckos are easily and rapidly able to detach their toes as they climb .
+
+ppatt:
+	?a are easily and rapidly able to detach ?b
+		?a: Geckos
+		?b: their toes
+	?a climb
+		?a: they
+
+
+label:    sent_9
+sentence: A method was proposed to detach aortic intima for its immunoperoxidase study .
+
+ppatt:
+	?a was proposed to detach ?b for ?c
+		?a: A method
+		?b: aortic intima
+		?c: its immunoperoxidase study
+
+
+label:    sent_10
+sentence: Trypsin is often used to detach adhered cell subculture from a substrate .
+
+ppatt:
+	?a is often used to detach ?b
+		?a: Trypsin
+		?b: adhered cell subculture from a substrate
+
+
+label:    sent_11
+sentence: Thereafter , cells detach from the otocyst and migrate medially toward the hind-brain .
+
+ppatt:
+	Thereafter , ?a detach from ?b
+		?a: cells
+		?b: the otocyst
+	?a migrate medially toward ?b
+		?a: cells
+		?b: the hind-brain
+
+
+label:    sent_12
+sentence: Eggs detach from the female , and immobile larvae hatch prematurely .
+
+ppatt:
+	?a detach from ?b
+		?a: Eggs
+		?b: the female
+	?a hatch prematurely
+		?a: immobile larvae
+
+
+label:    sent_13
+sentence: Cells detach from plastic substrates and proliferate to form large clusters of undifferentiated cells .
+
+ppatt:
+	?a detach from ?b
+		?a: Cells
+		?b: plastic substrates
+	?a proliferate to form ?b
+		?a: Cells
+		?b: large clusters of undifferentiated cells
+
+
+label:    sent_14
+sentence: Endotoxin plus neutrophils caused cells to become round and detach from the growth substrate .
+
+ppatt:
+	?a caused ?b to become round
+		?a: Endotoxin
+		?b: cells
+	?a caused ?b to become round
+		?a: neutrophils
+		?b: cells
+	?a caused to round detach from ?b
+		?a: Endotoxin
+		?b: the growth substrate
+	?a caused to round detach from ?b
+		?a: neutrophils
+		?b: the growth substrate
+
+
+label:    sent_15
+sentence: The nodules may enlarge and detach from the synovium . During AFM imaging , these cells sometimes round up and detach from the substrate .
+
+ppatt:
+	?a may enlarge from ?b . During ?c
+		?a: The nodules
+		?b: the synovium
+		?c: AFM imaging
+	?a detach
+		?a: The nodules
+	?a sometimes round up
+		?a: these cells
+	?a detach from ?b
+		?a: these cells
+		?b: the substrate
+
+
+label:    sent_16
+sentence: In skeletal remodeling , osteoclasts degrade bone , detach and move to new locations .
+
+ppatt:
+	In ?a , ?b degrade ?c
+		?a: skeletal remodeling
+		?b: osteoclasts
+		?c: bone
+	?a detach
+		?a: osteoclasts
+	?a move to ?b
+		?a: osteoclasts
+		?b: new locations
+
+
+label:    sent_17
+sentence: Sheaths were advanced over the lead to detach and dilate fibrous encapsulation .
+
+ppatt:
+	?a were advanced over ?b
+		?a: Sheaths
+		?b: the lead to detach and dilate fibrous encapsulation
+	?a detach ?b
+		?a: the lead
+		?b: fibrous encapsulation
+	dilate ?a
+		?a: fibrous encapsulation
+
+
+label:    sent_18
+sentence: The attempts to detach and unfold the retina appeared minimally successful intraoperatively .
+
+ppatt:
+	?a detach ?b
+		?a: The attempts
+		?b: the retina
+	?a unfold
+		?a: The attempts
+	?a appeared minimally successful intraoperatively
+		?a: The attempts to detach and unfold the retina
+
+
+label:    sent_19
+sentence: We also show that mesothelial cells progressively detach and lose cytokeratin expression .
+
+ppatt:
+	?a also show ?b
+		?a: We
+		?b: SOMETHING := mesothelial cells progressively detach cytokeratin expression
+	?a progressively detach ?b
+		?a: mesothelial cells
+		?b: cytokeratin expression
+	?a lose
+		?a: mesothelial cells
+
+
+label:    sent_20
+sentence: The Listeria can detach and , therefore , have the potential to contaminate product .
+
+ppatt:
+	?a can detach
+		?a: The Listeria
+	?a therefore , have ?b
+		?a: The Listeria
+		?b: the potential to contaminate product
+	?a contaminate ?b
+		?a: the potential
+		?b: product
+
+
+label:    sent_21
+sentence: A fatal complication occurs when the thrombi detach and create a pulmonary embolism .
+
+ppatt:
+	?a occurs
+		?a: A fatal complication
+	when ?a detach
+		?a: the thrombi
+	?a create ?b
+		?a: the thrombi
+		?b: a pulmonary embolism
+
+
+label:    sent_22
+sentence: Doxorubicin treatment of the adherent SW620 cells caused cells committed to apoptosis to detach .
+
+ppatt:
+	?a caused ?b
+		?a: Doxorubicin treatment of the adherent SW620 cells
+		?b: cells committed to apoptosis to detach
+	?a committed to ?b to detach
+		?a: cells
+		?b: apoptosis
+
+
+label:    sent_23
+sentence: Apoptotic endothelial cells detach , potentially forming both local and circulating microthrombi in vivo .
+
+ppatt:
+	?a detach , potentially forming ?b in vivo
+		?a: Apoptotic endothelial cells
+		?b: local
+	?a detach , potentially forming ?b in vivo
+		?a: Apoptotic endothelial cells
+		?b: circulating
+
+
+label:    sent_24
+sentence: Initially successfully attached retinas can detach . Fimbria-specific antibodies detach Escherichia coli from human cells .
+
+ppatt:
+	?a can detach
+		?a: Initially successfully attached retinas
+	?a detach ?b from ?c
+		?a: Fimbria-specific antibodies
+		?b: Escherichia coli
+		?c: human cells
+
+
+label:    sent_25
+sentence: They have a characteristic shape which patients themselves can detach easily without any pain . Viable podocytes detach in experimental diabetic nephropathy : potential mechanism underlying glomerulosclerosis .
+
+ppatt:
+	?a have ?b
+		?a: They
+		?b: a characteristic shape which patients themselves can detach easily without any pain
+	?a ?b ?c can detach easily without ?d
+		?a: a characteristic shape
+		?b: patients
+		?c: themselves
+		?d: any pain
+	?a detach in ?b
+		?a: Viable podocytes
+		?b: experimental diabetic nephropathy
+	?a underlying ?b
+		?a: potential mechanism
+		?b: glomerulosclerosis
+
+

@@ -1,0 +1,236 @@
+label:    sent_1
+sentence: These cells coexpress markers for radial glia like GFAPdelta , nestin , and vimentin .
+
+ppatt:
+	?a coexpress ?b like ?c
+		?a: These cells
+		?b: markers for radial glia
+		?c: GFAPdelta
+	?a coexpress ?b like ?c
+		?a: These cells
+		?b: markers for radial glia
+		?c: nestin
+	?a coexpress ?b like ?c
+		?a: These cells
+		?b: markers for radial glia
+		?c: vimentin
+
+
+label:    sent_2
+sentence: The majority of stimulated CD4+ and CD8+ human T cells coexpress CTLA-4 and TIRC7 .
+
+ppatt:
+	?a coexpress ?b
+		?a: The majority of stimulated CD4+ and CD8+ human T cells
+		?b: CTLA-4
+	?a coexpress ?b
+		?a: The majority of stimulated CD4+ and CD8+ human T cells
+		?b: TIRC7
+
+
+label:    sent_3
+sentence: A substantial proportion of the catecholamine fibers did not coexpress NPY .
+
+ppatt:
+	?a did not coexpress ?b
+		?a: A substantial proportion of the catecholamine fibers
+		?b: NPY
+
+
+label:    sent_4
+sentence: We also found B cells that coexpress kappa and lambda L chain . All tumors were found to coexpress keratin and vimentin .
+
+ppatt:
+	?a also found ?b
+		?a: We
+		?b: B cells that coexpress kappa and lambda L chain
+	?a coexpress ?b
+		?a: B cells
+		?b: kappa
+	?a coexpress ?b
+		?a: B cells
+		?b: lambda L chain
+	?a were found to coexpress ?b
+		?a: All tumors
+		?b: keratin
+	?a were found to coexpress ?b
+		?a: All tumors
+		?b: vimentin
+
+
+label:    sent_5
+sentence: In particular , essentially all intra-epithelial T cells appeared to coexpress TSAd . Epithelial cells may also coexpress other cadherins , but their roles are less clear .
+
+ppatt:
+	In ?a , ?b appeared to coexpress ?c
+		?a: particular
+		?b: essentially all intra-epithelial T cells
+		?c: TSAd
+	?a may also coexpress ?b
+		?a: Epithelial cells
+		?b: other cadherins
+	?a are less clear
+		?a: their roles
+
+
+label:    sent_6
+sentence: Immunocytochemical evidence shows that ORNs coexpress vimentin and peripherin but distribute them differently .
+
+ppatt:
+	?a shows ?b
+		?a: Immunocytochemical evidence
+		?b: SOMETHING := ORNs coexpress vimentin and peripherin
+	?a coexpress ?b
+		?a: ORNs
+		?b: vimentin
+	?a coexpress ?b
+		?a: ORNs
+		?b: peripherin
+	?a distribute ?b differently
+		?a: ORNs
+		?b: them
+
+
+label:    sent_7
+sentence: The My4+ cells coexpress the CD16 antigen and comprise a unique monocyte subset .
+
+ppatt:
+	?a coexpress ?b
+		?a: The My4+ cells
+		?b: the CD16 antigen
+	?a comprise ?b
+		?a: The My4+ cells
+		?b: a unique monocyte subset
+
+
+label:    sent_8
+sentence: During EMT , cells coexpress epithelial and mesenchymal cell markers .
+
+ppatt:
+	During ?a , ?b coexpress ?c ?d
+		?a: EMT
+		?b: cells
+		?c: epithelial
+		?d: cell markers
+	During ?a , ?b coexpress ?c ?d
+		?a: EMT
+		?b: cells
+		?c: mesenchymal
+		?d: cell markers
+
+
+label:    sent_9
+sentence: PDGFR-alpha-positive OPCs did not coexpress leptin receptor in the cerebral cortex .
+
+ppatt:
+	?a did not coexpress ?b in ?c
+		?a: PDGFR-alpha-positive OPCs
+		?b: leptin receptor
+		?c: the cerebral cortex
+
+
+label:    sent_10
+sentence: Beside GFAP , subpopulations of these astroglial cells coexpress neural progenitor markers like Nestin .
+
+ppatt:
+	Beside ?a , ?b coexpress ?c like ?d
+		?a: GFAP
+		?b: subpopulations of these astroglial cells
+		?c: neural progenitor markers
+		?d: Nestin
+
+
+label:    sent_11
+sentence: We were also able to coexpress the AChET subunit with the collagenic Q subunit .
+
+ppatt:
+	?a were also able to coexpress ?b with ?c
+		?a: We
+		?b: the AChET subunit
+		?c: the collagenic Q subunit
+
+
+label:    sent_12
+sentence: Are neuronal precursor cells committed to coexpress different neuroactive substances in early amphibian neurulae ? Thus , the majority of catecholaminergic neurons are gad1b/2-positive and coexpress GABA .
+
+ppatt:
+	?a committed to coexpress ?b in ?c
+		?a: neuronal precursor cells
+		?b: different neuroactive substances
+		?c: early amphibian neurulae
+	?a Thus , ?b are gad1b/2-positive
+		?a: Are neuronal precursor cells committed to coexpress different neuroactive substances in early amphibian neurulae
+		?b: the majority of catecholaminergic neurons
+	?a coexpress ?b
+		?a: Are neuronal precursor cells committed to coexpress different neuroactive substances in early amphibian neurulae
+		?b: GABA
+
+
+label:    sent_13
+sentence: fMaSCs are self-renewing , multipotent , and coexpress multiple mammary lineage markers .
+
+ppatt:
+	?a are self-renewing
+		?a: fMaSCs
+	?a multipotent
+		?a: fMaSCs
+	?a coexpress ?b
+		?a: fMaSCs
+		?b: multiple mammary lineage markers
+
+
+label:    sent_14
+sentence: The liver and pancreas share a common origin and coexpress several transcription factors .
+
+ppatt:
+	?a share ?b
+		?a: The liver
+		?b: a common origin
+	?a share ?b
+		?a: pancreas
+		?b: a common origin
+	?a coexpress ?b
+		?a: The liver
+		?b: several transcription factors
+	?a coexpress ?b
+		?a: pancreas
+		?b: several transcription factors
+
+
+label:    sent_15
+sentence: Mature B cells coexpress on their surface IgM and IgD .
+
+ppatt:
+	?a coexpress on ?b ?c
+		?a: Mature B cells
+		?b: surface
+		?c: their IgM
+	?a coexpress on ?b ?c
+		?a: Mature B cells
+		?b: surface
+		?c: IgD
+
+
+label:    sent_16
+sentence: In cultures of primary oligodendrocytes , cells coexpress GluRB and NG2 .
+
+ppatt:
+	In ?a , ?b coexpress ?c
+		?a: cultures of primary oligodendrocytes
+		?b: cells
+		?c: GluRB
+	In ?a , ?b coexpress ?c
+		?a: cultures of primary oligodendrocytes
+		?b: cells
+		?c: NG2
+
+
+label:    sent_17
+sentence: Trax is shown to coexpress with growth-associated protein GAP-43 .
+
+ppatt:
+	?a is shown to coexpress with ?b
+		?a: Trax
+		?b: growth-associated protein GAP-43
+
+

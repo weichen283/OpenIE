@@ -1,0 +1,72 @@
+label:    sent_1
+sentence: Twelve birds were found to be intermittently shedding ABV , predominantly genotype 4 .
+
+ppatt:
+	?a were found to be intermittently shedding ABV
+		?a: Twelve birds
+	?a is/are predominantly genotype 4
+		?a: intermittently shedding ABV
+
+
+label:    sent_2
+sentence: We genotype these and 42 other top CT hepatic steatosis-associated SNPs in 592 subjects with biopsy-proven NAFLD from the NASH Clinical Research Network ( NASH CRN ) . We genotype S-RNase alleles from Mauritian endemic Coffea , and using S-allele gene genealogies , we show that the Mauritian allelic diversity is confined to just seven deeply divergent Coffea S-RNase allelic lineages .
+
+ppatt:
+	?a genotype ?b
+		?a: We
+		?b: these in 592 subjects with biopsy-proven NAFLD from the NASH Clinical Research Network
+	?a is/are NASH CRN
+		?a: the NASH Clinical Research Network
+	?a genotype ?b
+		?a: We
+		?b: S-RNase alleles from Mauritian endemic Coffea
+	?a using ?b
+		?a: We
+		?b: S-allele gene genealogies
+	?a show ?b
+		?a: we
+		?b: SOMETHING := the Mauritian allelic diversity is confined to just seven deeply divergent Coffea S-RNase allelic lineages
+	?a is confined to ?b
+		?a: the Mauritian allelic diversity
+		?b: just seven deeply divergent Coffea S-RNase allelic lineages
+
+
+label:    sent_3
+sentence: To aid in study design , we evaluate the power of strategies that genotype different subsets of individuals in each pedigree and make recommendations about which individuals should be genotyped at a high density .
+
+ppatt:
+	aid in ?a ?b
+		?a: study design
+		?b: we
+	?a evaluate ?b
+		?a: we
+		?b: the power of strategies that genotype different subsets of individuals in each pedigree
+	?a genotype ?b
+		?a: strategies
+		?b: different subsets of individuals in each pedigree
+	?a make ?b
+		?a: we
+		?b: recommendations about which individuals should be genotyped at a high density
+	?a about ?b should be genotyped at ?c
+		?a: recommendations
+		?b: individuals
+		?c: a high density
+
+
+label:    sent_4
+sentence: The polymorphism was used to design allele-specific primers with which to genotype the backcross panel and place genes on the chicken linkage map .
+
+ppatt:
+	?a was used to design ?b
+		?a: The polymorphism
+		?b: allele-specific primers with which to genotype the backcross panel and place genes on the chicken linkage map
+	?a with to genotype ?b on ?c
+		?a: allele-specific primers
+		?b: the backcross panel
+		?c: the chicken linkage map
+	?a with to genotype ?b on ?c
+		?a: allele-specific primers
+		?b: place genes
+		?c: the chicken linkage map
+
+

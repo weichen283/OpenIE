@@ -1,0 +1,163 @@
+label:    sent_1
+sentence: They were found to evaporate cleanly without decomposition .
+
+ppatt:
+	?a were found to evaporate cleanly without ?b
+		?a: They
+		?b: decomposition
+
+
+label:    sent_2
+sentence: Acetone-based products exhibited a remarkable capacity to evaporate spontaneously over time .
+
+ppatt:
+	?a exhibited ?b
+		?a: Acetone-based products
+		?b: a remarkable capacity to evaporate spontaneously over time
+	?a evaporate spontaneously over ?b
+		?a: a remarkable capacity
+		?b: time
+
+
+label:    sent_3
+sentence: Christmas puddings contain ethanol that does not all evaporate during the cooking process .
+
+ppatt:
+	?a contain ?b
+		?a: Christmas puddings
+		?b: ethanol that does not all evaporate during the cooking process
+	?a does not all evaporate during ?b
+		?a: ethanol
+		?b: the cooking process
+
+
+label:    sent_4
+sentence: Wineries precipitate tartaric acid using calcium hydroxide and then evaporate the mixture .
+
+ppatt:
+	?a precipitate ?b using ?c
+		?a: Wineries
+		?b: tartaric acid
+		?c: calcium hydroxide
+	?a then evaporate ?b
+		?a: Wineries
+		?b: the mixture
+
+
+label:    sent_5
+sentence: The solution is autoclaved for ten minutes to evaporate the acetone .
+
+ppatt:
+	?a is autoclaved for ?b to evaporate ?c
+		?a: The solution
+		?b: ten minutes
+		?c: the acetone
+
+
+label:    sent_6
+sentence: An argon beam coagulator was used to evaporate the myometrium tissue surrounding the lesion .
+
+ppatt:
+	?a was used to evaporate ?b
+		?a: An argon beam coagulator
+		?b: the myometrium tissue surrounding the lesion
+	?a surrounding ?b
+		?a: the myometrium tissue
+		?b: the lesion
+
+
+label:    sent_7
+sentence: How water droplets evaporate on a superhydrophobic substrate .
+
+ppatt:
+	How ?a evaporate on ?b
+		?a: water droplets
+		?b: a superhydrophobic substrate
+
+
+label:    sent_8
+sentence: Volatile solvents may evaporate during cone/plate viscometry so that false rheograms develop .
+
+ppatt:
+	?a may evaporate during ?b so
+		?a: Volatile solvents
+		?b: cone/plate viscometry
+	?a develop
+		?a: false rheograms
+
+
+label:    sent_9
+sentence: In contrast , surface-adsorbed PAHs rapidly evaporate leaving no trace . Great Lakes evaporate away . Dreams of water on Mars evaporate .
+
+ppatt:
+	In ?a , ?b rapidly evaporate leaving ?c
+		?a: contrast
+		?b: surface-adsorbed PAHs
+		?c: no trace
+	?a evaporate away
+		?a: Great Lakes
+	?a evaporate
+		?a: Dreams of water on Mars
+
+
+label:    sent_10
+sentence: For water to evaporate , it must first pass through the tight lipid-lipid barrier .
+
+ppatt:
+	evaporate ?a
+		?a: it
+	For ?a , ?b must first pass through ?c
+		?a: water
+		?b: it
+		?c: the tight lipid-lipid barrier
+
+
+label:    sent_11
+sentence: NBs readily thermally evaporate and integrate well into the vacuum deposited OLED fabrication .
+
+ppatt:
+	?a readily thermally evaporate into ?b
+		?a: NBs
+		?b: the vacuum deposited OLED fabrication
+	?a integrate well
+		?a: NBs
+
+
+label:    sent_12
+sentence: A droplet is assumed to evaporate and move in this non-isothermal jet . Volatile heavy metal compounds are formed and evaporate .
+
+ppatt:
+	?a is assumed to evaporate in ?b
+		?a: A droplet
+		?b: this non-isothermal jet
+	?a is assumed to move
+		?a: A droplet
+	?a are formed
+		?a: Volatile heavy metal compounds
+	?a evaporate
+		?a: Volatile heavy metal compounds
+
+
+label:    sent_13
+sentence: The second is a powerful pulsed laser that can evaporate the selected area . Wetting properties : When larger drops evaporate faster .
+
+ppatt:
+	?a is a powerful pulsed laser
+		?a: The second
+	?a can evaporate ?b ?c
+		?a: a powerful pulsed laser
+		?b: the selected area
+		?c: Wetting properties
+	When ?a evaporate faster
+		?a: larger drops
+
+
+label:    sent_14
+sentence: Margins evaporate ; agencies in financial jeopardy .
+
+ppatt:
+	?a evaporate ?b
+		?a: Margins
+		?b: agencies in financial jeopardy
+
+

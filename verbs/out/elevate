@@ -1,0 +1,270 @@
+label:    sent_1
+sentence: Forskolin ( Fsk ) and rolipram were used to elevate cAMP levels .
+
+ppatt:
+	?a is/are Fsk
+		?a: Forskolin
+	?a is/are Fsk
+		?a: rolipram
+	?a were used to elevate ?b
+		?a: Forskolin
+		?b: cAMP levels
+	?a were used to elevate ?b
+		?a: rolipram
+		?b: cAMP levels
+
+
+label:    sent_2
+sentence: Exposure to American culture appeared to elevate ethnic minority women 's likelihood for PMDD .
+
+ppatt:
+	?a appeared to elevate ?b
+		?a: Exposure to American culture
+		?b: ethnic minority women 's likelihood for PMDD
+
+
+label:    sent_3
+sentence: Tacrolimus ointment in atopic blepharoconjunctivitis does not seem to elevate intraocular pressure .
+
+ppatt:
+	?a does not seem to elevate ?b
+		?a: Tacrolimus ointment in atopic blepharoconjunctivitis
+		?b: intraocular pressure
+
+
+label:    sent_4
+sentence: Increased muscle activity to support these large moments may further elevate articular loads .
+
+ppatt:
+	?a support ?b
+		?a: Increased muscle activity
+		?b: these large moments
+	?a may further elevate ?b
+		?a: Increased muscle activity to support these large moments
+		?b: articular loads
+
+
+label:    sent_5
+sentence: Co-stimulation with both MCP-1 and IL-6 did not elevate collagen accumulation further .
+
+ppatt:
+	?a did not elevate ?b further
+		?a: Co-stimulation with both MCP-1 and IL-6
+		?b: collagen accumulation
+
+
+label:    sent_6
+sentence: Taking risks or impulsivity may further elevate falls risk . Enterosorbents elevate total protein and sugar in the blood .
+
+ppatt:
+	Taking ?a
+		?a: risks
+	Taking ?a
+		?a: impulsivity
+	?a may further elevate ?b ?c
+		?a: SOMETHING := Taking risks or impulsivity
+		?b: falls
+		?c: risk
+	?a elevate ?b
+		?a: Enterosorbents
+		?b: total protein in the blood
+	?a elevate ?b
+		?a: Enterosorbents
+		?b: sugar
+
+
+label:    sent_7
+sentence: A low energy intake tended to elevate UN concentrations in milk .
+
+ppatt:
+	?a tended to elevate ?b
+		?a: A low energy intake
+		?b: UN concentrations in milk
+
+
+label:    sent_8
+sentence: Phenylephrine was given iv to elevate systolic arterial pressure by 30 mm Hg .
+
+ppatt:
+	?a was given ?b to elevate ?c by ?d
+		?a: Phenylephrine
+		?b: iv
+		?c: systolic arterial pressure
+		?d: 30 mm Hg
+
+
+label:    sent_9
+sentence: Such endeavors substantially elevate the perception of the value of simulation within an institution .
+
+ppatt:
+	?a substantially elevate ?b
+		?a: Such endeavors
+		?b: the perception of the value of simulation within an institution
+
+
+label:    sent_10
+sentence: Clozapine and PD149163 elevate prepulse inhibition in Brown Norway rats .
+
+ppatt:
+	?a elevate ?b
+		?a: Clozapine
+		?b: prepulse inhibition in Brown Norway rats
+	?a elevate ?b
+		?a: PD149163
+		?b: prepulse inhibition in Brown Norway rats
+
+
+label:    sent_11
+sentence: Those with ISA may elevate HDL unlike those beta-blocking agents without this property .
+
+ppatt:
+	?a may elevate ?b unlike ?c without ?d
+		?a: Those with ISA
+		?b: HDL
+		?c: those beta-blocking agents
+		?d: this property
+
+
+label:    sent_12
+sentence: Honey was found to lower prostaglandin levels and elevate nitric oxide end products .
+
+ppatt:
+	?a was found to ?b
+		?a: Honey
+		?b: lower prostaglandin levels
+	?a elevate ?b
+		?a: Honey
+		?b: nitric oxide end products
+
+
+label:    sent_13
+sentence: Conditions under which arousal does and does not elevate height estimates .
+
+ppatt:
+	?a under ?b does does not elevate ?c
+		?a: Conditions
+		?b: arousal
+		?c: height estimates
+
+
+label:    sent_14
+sentence: Are phosphate dusts able to trigger systemic inflammatory reaction and elevate inflammatory markers ? However , repeated administration of RXR agonists can elevate blood triglyceride and induce hypothyroidism .
+
+ppatt:
+	trigger ?a
+		?a: systemic inflammatory reaction
+	elevate ?a
+		?a: inflammatory markers
+	However , ?a can elevate ?b
+		?a: repeated administration of RXR agonists
+		?b: blood triglyceride
+	?a induce ?b
+		?a: repeated administration of RXR agonists
+		?b: hypothyroidism
+
+
+label:    sent_15
+sentence: Sepsis or malignancy may elevate FPA levels and coexist with thromboembolism . ex mutations elevate Wg signaling , but Dpp signaling antagonizes patterning effects of Wg . In contrast , oxytocin did not elevate cGMP , but rapidly decreased cAMP levels .
+
+ppatt:
+	?a may elevate ?b
+		?a: Sepsis
+		?b: FPA levels
+	?a may elevate ?b
+		?a: malignancy
+		?b: FPA levels
+	?a coexist with ?b
+		?a: Sepsis
+		?b: thromboembolism
+	?a coexist with ?b
+		?a: malignancy
+		?b: thromboembolism
+	?a elevate ?b
+		?a: ex mutations
+		?b: Wg signaling
+	?a antagonizes ?b
+		?a: Dpp signaling
+		?b: patterning effects of Wg
+	In ?a , ?b did not elevate ?c
+		?a: contrast
+		?b: oxytocin
+		?c: cGMP
+	?a rapidly decreased ?b
+		?a: oxytocin
+		?b: cAMP levels
+
+
+label:    sent_16
+sentence: Thus MSG can successfully elevate plasma glutamate , both at rest and during exercise .
+
+ppatt:
+	Thus ?a can successfully elevate ?b , at ?c
+		?a: MSG
+		?b: plasma glutamate
+		?c: rest
+	Thus ?a can successfully elevate ?b , at ?c
+		?a: MSG
+		?b: plasma glutamate
+		?c: exercise
+
+
+label:    sent_17
+sentence: The FBG level had a tendency to elevate as the grade of DM advanced .
+
+ppatt:
+	?a had ?b
+		?a: The FBG level
+		?b: a tendency to elevate as the grade of DM advanced
+	?a elevate as ?b
+		?a: a tendency
+		?b: the grade of DM advanced
+
+
+label:    sent_18
+sentence: The figures tended to elevate with the advance of age . PSA values tended to transiently and mildly elevate during XRT .
+
+ppatt:
+	?a tended to elevate with ?b
+		?a: The figures
+		?b: the advance of age
+	?a tended to transiently and mildly elevate during ?b
+		?a: PSA values
+		?b: XRT
+
+
+label:    sent_19
+sentence: We asses the extremity function by the ability to elevate and abduct it straight .
+
+ppatt:
+	?a asses ?b by ?c
+		?a: We
+		?b: the extremity function
+		?c: the ability to elevate and abduct it straight
+	?a elevate ?b straight
+		?a: the ability
+		?b: it
+	abduct ?a
+		?a: it
+
+
+label:    sent_20
+sentence: Phytochemicals have the potential to both elevate and suppress cytochrome P450 activity .
+
+ppatt:
+	?a have ?b
+		?a: Phytochemicals
+		?b: the potential to both elevate and suppress cytochrome P450 activity
+	?a both elevate ?b
+		?a: the potential
+		?b: cytochrome P450 activity
+	suppress ?a
+		?a: cytochrome P450 activity
+
+
+label:    sent_21
+sentence: An ergonomic evaluation of a patient handling device : the elevate and transfer vehicle .
+
+ppatt:
+
+
+

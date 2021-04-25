@@ -1,0 +1,174 @@
+label:    sent_1
+sentence: This has caused a disconnect between clinical trials and practice .
+
+ppatt:
+	?a has caused ?b
+		?a: This
+		?b: a disconnect between clinical trials and practice
+
+
+label:    sent_2
+sentence: Disengagement represents an unnecessary disconnect from previously valued relationships .
+
+ppatt:
+	?a represents ?b
+		?a: Disengagement
+		?b: an unnecessary disconnect from previously valued relationships
+
+
+label:    sent_3
+sentence: Hypoxic-ischemic brain injury : addressing the disconnect between pathophysiology and public policy . A transcallosal , interforniceal approach was used to remove and/or disconnect the hamartoma .
+
+ppatt:
+	?a addressing ?b
+		?a: Hypoxic-ischemic brain injury
+		?b: the disconnect between pathophysiology and public policy
+	?a ?b was used to remove ?c
+		?a: Hypoxic-ischemic brain injury : addressing the disconnect between pathophysiology and public policy
+		?b: A transcallosal , approach
+		?c: the hamartoma
+	?a was used to disconnect
+		?a: Hypoxic-ischemic brain injury : addressing the disconnect between pathophysiology and public policy
+
+
+label:    sent_4
+sentence: Nursing informatics and nursing ethics : addressing their disconnect through an enhanced TIGER-vision .
+
+ppatt:
+
+
+
+label:    sent_5
+sentence: Direct surgery to disconnect venous reflux has been favored .
+
+ppatt:
+	?a disconnect ?b
+		?a: Direct surgery
+		?b: venous reflux
+	?a has been favored
+		?a: Direct surgery to disconnect venous reflux
+
+
+label:    sent_6
+sentence: The EMR installation disconnect . Gene expression : The autism disconnect .
+
+ppatt:
+
+
+
+label:    sent_7
+sentence: When the capillaries are within reach of the next artery , the arterioles disconnect .
+
+ppatt:
+	When ?a are within reach of ?b
+		?a: the capillaries
+		?b: the next artery
+	?a disconnect
+		?a: the arterioles
+
+
+label:    sent_8
+sentence: The disconnect between animal models of sepsis and human sepsis .
+
+ppatt:
+
+
+
+label:    sent_9
+sentence: The disconnect between phase II and phase III trials of drugs for heart failure . Diabetes .
+
+ppatt:
+
+
+
+label:    sent_10
+sentence: Cognitive decline and T2DM --a disconnect in the evidence ? For this reason disconnect systems were not considered .
+
+ppatt:
+	?a For ?b ?c were not considered
+		?a: Cognitive decline in the evidence
+		?b: this reason
+		?c: disconnect systems
+	?a For ?b ?c were not considered
+		?a: T2DM --a disconnect
+		?b: this reason
+		?c: disconnect systems
+
+
+label:    sent_11
+sentence: Bridge to recovery : understanding the disconnect between clinical and biological outcomes .
+
+ppatt:
+	?a understanding ?b
+		?a: Bridge to recovery
+		?b: the disconnect between clinical and biological outcomes
+
+
+label:    sent_12
+sentence: Peritonitis rates differed among disconnect systems .
+
+ppatt:
+	?a differed among ?b
+		?a: Peritonitis rates
+		?b: disconnect systems
+
+
+label:    sent_13
+sentence: Health care disconnect : gaps in coverage and care for minority adults .
+
+ppatt:
+
+
+
+label:    sent_14
+sentence: These profound alterations effectively disconnect the hippocampal formation from the association and limbic cortices .
+
+ppatt:
+	?a effectively disconnect ?b from ?c
+		?a: These profound alterations
+		?b: the hippocampal formation
+		?c: the association
+	?a effectively disconnect ?b from ?c
+		?a: These profound alterations
+		?b: the hippocampal formation
+		?c: limbic cortices
+
+
+label:    sent_15
+sentence: Effectiveness of the flush technique in CAPD disconnect systems .
+
+ppatt:
+
+
+
+label:    sent_16
+sentence: In parallel , an increasing impairment of axons may disconnect neuronal networks .
+
+ppatt:
+	In ?a , ?b may disconnect ?c
+		?a: parallel
+		?b: an increasing impairment of axons
+		?c: neuronal networks
+
+
+label:    sent_17
+sentence: Comparison of double-bag and Y-set disconnect systems in CAPD .
+
+ppatt:
+
+
+
+label:    sent_18
+sentence: Both deafness and dissociation disconnect people from certain aspects of the external environment .
+
+ppatt:
+	?a disconnect ?b from ?c
+		?a: deafness
+		?b: people
+		?c: certain aspects of the external environment
+	?a disconnect ?b from ?c
+		?a: dissociation
+		?b: people
+		?c: certain aspects of the external environment
+
+

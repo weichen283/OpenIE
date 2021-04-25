@@ -1,0 +1,203 @@
+label:    sent_1
+sentence: It also appears to replenish iron stores more rapidly . High-frequency firing helps replenish the readily releasable pool of synaptic vesicles .
+
+ppatt:
+	?a also appears to replenish ?b more rapidly
+		?a: It
+		?b: iron stores
+	?a helps replenish ?b
+		?a: High-frequency firing
+		?b: the readily releasable pool of synaptic vesicles
+
+
+label:    sent_2
+sentence: Thus , it is necessary to replenish muscle satellite cells continuously . NAMPT provides the mechanism to replenish the NAD pool in human metabolism .
+
+ppatt:
+	Thus , ?a is necessary to replenish ?b continuously
+		?a: it
+		?b: muscle satellite cells
+	?a provides ?b
+		?a: NAMPT
+		?b: the mechanism to replenish the NAD pool in human metabolism
+	?a replenish ?b
+		?a: the mechanism
+		?b: the NAD pool in human metabolism
+
+
+label:    sent_3
+sentence: It may be important to replenish these thiols in patients hospitalized with alcoholic hepatitis .
+
+ppatt:
+	?a may be important to replenish ?b in ?c
+		?a: It
+		?b: these thiols
+		?c: patients hospitalized with alcoholic hepatitis
+	?a hospitalized with ?b
+		?a: patients
+		?b: alcoholic hepatitis
+
+
+label:    sent_4
+sentence: Hospitals could expect to replenish their inventory reserves after the first quarter of 2012 .
+
+ppatt:
+	?a could expect to replenish ?b after ?c
+		?a: Hospitals
+		?b: their inventory reserves
+		?c: the first quarter of 2012
+
+
+label:    sent_5
+sentence: Individuals then act to fortify or replenish their thwarted need or needs . ( pure ginseng decoction ) is to replenish Qi and prevent exhaustion .
+
+ppatt:
+	?a then act to fortify ?b
+		?a: Individuals
+		?b: their thwarted need
+	?a then act to replenish
+		?a: Individuals
+	?a then act to needs
+		?a: Individuals
+	?a is to replenish ?b
+		?a: Individuals
+		?b: Qi
+	?a is to prevent ?b
+		?a: Individuals
+		?b: exhaustion
+
+
+label:    sent_6
+sentence: Thus , grafted T cells expand and replenish T cell compartments in lymphopenic hosts . Pipeline to replenish vanishing Dead Sea .
+
+ppatt:
+	Thus , ?a expand ?b ?c
+		?a: grafted T cells
+		?b: T cell compartments in lymphopenic hosts
+		?c: Pipeline to replenish vanishing Dead Sea
+	?a replenish
+		?a: grafted T cells
+	?a replenish ?b
+		?a: Pipeline
+		?b: vanishing Dead Sea
+
+
+label:    sent_7
+sentence: Severe iron deficiency requires intravenous iron supplementation to replenish iron stores .
+
+ppatt:
+	?a requires ?b to replenish ?c
+		?a: Severe iron deficiency
+		?b: intravenous iron supplementation
+		?c: iron stores
+
+
+label:    sent_8
+sentence: Hematopoietic stem cells ( HSC ) continuously replenish the blood and immune systems .
+
+ppatt:
+	?a is/are HSC
+		?a: Hematopoietic stem cells
+	?a continuously replenish ?b
+		?a: Hematopoietic stem cells
+		?b: the blood
+	?a continuously replenish ?b
+		?a: Hematopoietic stem cells
+		?b: immune
+
+
+label:    sent_9
+sentence: It may replenish important circulating proteins , particularly the naturally occurring anti-protease system .
+
+ppatt:
+	?a may replenish ?b
+		?a: It
+		?b: important circulating proteins
+	?a is/are particularly the naturally occurring anti-protease system
+		?a: important circulating proteins
+
+
+label:    sent_10
+sentence: First , they can replenish their numbers for long periods through cell division .
+
+ppatt:
+	First , ?a can replenish ?b through ?c
+		?a: they
+		?b: their numbers for long periods
+		?c: cell division
+
+
+label:    sent_11
+sentence: Glutathione precursors replenish decreased glutathione pool in cystinotic cell lines .
+
+ppatt:
+	?a replenish ?b in ?c
+		?a: Glutathione precursors
+		?b: decreased glutathione pool
+		?c: cystinotic cell lines
+
+
+label:    sent_12
+sentence: Wetlands replenish ground water and serve as natural irrigation . L-NAME reduced lymph nitrosothiol concentrations , but inhaled NO could not replenish these levels .
+
+ppatt:
+	?a replenish ?b
+		?a: Wetlands
+		?b: ground water
+	?a serve as ?b
+		?a: Wetlands
+		?b: natural irrigation
+	?a reduced ?b
+		?a: L-NAME
+		?b: lymph nitrosothiol concentrations
+	?a could not replenish ?b
+		?a: inhaled NO
+		?b: these levels
+
+
+label:    sent_13
+sentence: Similar to adult experience , PEx can replenish ADAMTS-13 activity and reverse organ failure .
+
+ppatt:
+	Similar to ?a , ?b can replenish ?c
+		?a: adult experience
+		?b: PEx
+		?c: ADAMTS-13 activity
+	Similar to ?a , ?b can replenish ?c
+		?a: adult experience
+		?b: PEx
+		?c: reverse organ failure
+
+
+label:    sent_14
+sentence: A Catholic system develops a way to replenish and expand its ranks of chaplains .
+
+ppatt:
+	?a develops ?b
+		?a: A Catholic system
+		?b: a way to replenish and expand its ranks of chaplains
+	?a replenish ?b
+		?a: a way
+		?b: its ranks of chaplains
+	expand ?a
+		?a: its ranks of chaplains
+
+
+label:    sent_15
+sentence: All these processes act to replenish or restore telomeres .
+
+ppatt:
+	?a act to replenish ?b
+		?a: All these processes
+		?b: telomeres
+	?a act to restore
+		?a: All these processes
+
+
+label:    sent_16
+sentence: Be fruitful , multiply , and replenish .
+
+ppatt:
+
+
+

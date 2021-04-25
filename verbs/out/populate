@@ -1,0 +1,211 @@
+label:    sent_1
+sentence: The reactions appear to populate different reaction intermediates .
+
+ppatt:
+	?a appear to populate ?b
+		?a: The reactions
+		?b: different reaction intermediates
+
+
+label:    sent_2
+sentence: Data to populate the model were obtained from multiple administrative databases and key informants .
+
+ppatt:
+	?a populate ?b
+		?a: Data
+		?b: the model
+	?a were obtained from ?b
+		?a: Data to populate the model
+		?b: multiple administrative databases
+	?a were obtained from ?b
+		?a: Data to populate the model
+		?b: key informants
+
+
+label:    sent_3
+sentence: First , SHH is required for CNCCs to survive and populate the OFT cushions .
+
+ppatt:
+	First , ?a is required for ?b to survive ?c
+		?a: SHH
+		?b: CNCCs
+		?c: the OFT cushions
+	First , ?a is required to populate
+		?a: SHH
+
+
+label:    sent_4
+sentence: More than 230,000 known species representing 31 metazoan phyla populate the world 's oceans .
+
+ppatt:
+	?a representing ?b
+		?a: More than 230,000 known species
+		?b: 31 metazoan phyla
+	?a populate ?b
+		?a: More than 230,000 known species representing 31 metazoan phyla
+		?b: the world 's oceans
+
+
+label:    sent_5
+sentence: Although DHHC2 is closely related to DHHC15 , these proteins populate distinct membrane compartments .
+
+ppatt:
+	?a is closely related to ?b
+		?a: DHHC2
+		?b: DHHC15
+	?a populate ?b
+		?a: these proteins
+		?b: distinct membrane compartments
+
+
+label:    sent_6
+sentence: Lymphocyte-independent connective tissue mast cells populate murine synovium .
+
+ppatt:
+	?a populate ?b
+		?a: Lymphocyte-independent connective tissue mast cells
+		?b: murine synovium
+
+
+label:    sent_7
+sentence: Benign melanocytes and Langerhans cells may populate BCC according to previous histological studies .
+
+ppatt:
+	?a may populate ?b according to ?c
+		?a: Benign melanocytes
+		?b: BCC
+		?c: previous histological studies
+	?a may populate ?b according to ?c
+		?a: Langerhans cells
+		?b: BCC
+		?c: previous histological studies
+
+
+label:    sent_8
+sentence: Intrinsically disordered p53 and its complexes populate compact conformations in the gas phase .
+
+ppatt:
+	?a populate ?b in ?c
+		?a: Intrinsically disordered p53
+		?b: compact conformations
+		?c: the gas phase
+	?a populate ?b in ?c
+		?a: its complexes
+		?b: compact conformations
+		?c: the gas phase
+
+
+label:    sent_9
+sentence: Many residues in cytochrome c populate alternative states under equilibrium conditions . Crest-derived cells , however , populate sites of SNS development and proliferate normally .
+
+ppatt:
+	?a populate ?b under ?c
+		?a: Many residues in cytochrome c
+		?b: alternative states
+		?c: equilibrium conditions
+	?a however , populate ?b
+		?a: Crest-derived cells
+		?b: sites of SNS development
+	?a proliferate normally
+		?a: Crest-derived cells
+
+
+label:    sent_10
+sentence: Nearly one-half populate only the inner nuclear layer and are enriched in amacrine cells .
+
+ppatt:
+	Nearly one-half populate ?a
+		?a: only the inner nuclear layer
+	are enriched in ?a
+		?a: amacrine cells
+
+
+label:    sent_11
+sentence: Switch-like genes populate cell communication pathways and are enriched for extracellular proteins .
+
+ppatt:
+	?a populate ?b
+		?a: Switch-like genes
+		?b: cell communication pathways
+
+
+label:    sent_12
+sentence: Lymphocytes also begin to populate the thymic organs by 7.5 dpf .
+
+ppatt:
+	?a also begin to populate ?b by ?c
+		?a: Lymphocytes
+		?b: the thymic organs
+		?c: 7.5 dpf
+
+
+label:    sent_13
+sentence: Participants were asked to populate it with essential health data . Proteins are flexible systems and commonly populate several functionally important states .
+
+ppatt:
+	?a were asked to populate ?b with ?c
+		?a: Participants
+		?b: it
+		?c: essential health data
+	?a are flexible systems
+		?a: Proteins
+	?a commonly populate ?b
+		?a: Proteins
+		?b: several functionally important states
+
+
+label:    sent_14
+sentence: Point mutations in membrane proteins reshape energy landscape and populate different unfolding pathways .
+
+ppatt:
+	?a reshape ?b
+		?a: Point mutations in membrane proteins
+		?b: energy landscape
+	?a populate ?b
+		?a: Point mutations in membrane proteins
+		?b: different unfolding pathways
+
+
+label:    sent_15
+sentence: Tumor cells shed gangliosides and populate their microenvironment with these biologically active membrane glycosphingolipids . Langerhans cells also populate in the hair canal before its opening .
+
+ppatt:
+	?a shed ?b
+		?a: Tumor cells
+		?b: gangliosides
+	?a populate ?b
+		?a: Tumor cells
+		?b: their microenvironment with these biologically active membrane glycosphingolipids
+	?a also populate in ?b before ?c
+		?a: Langerhans cells
+		?b: the hair canal
+		?c: its opening
+
+
+label:    sent_16
+sentence: Mucoid strains with mucA mutations predominantly populate in chronically-infected patients .
+
+ppatt:
+	?a predominantly populate in ?b
+		?a: Mucoid strains with mucA mutations
+		?b: chronically-infected patients
+
+
+label:    sent_17
+sentence: Morphologically , small round or oval cells populate the VeR and VeI .
+
+ppatt:
+	Morphologically , ?a populate ?b
+		?a: small round
+		?b: the VeR
+	Morphologically , ?a populate ?b
+		?a: oval
+		?b: the VeR
+	Morphologically , ?a populate ?b
+		?a: small round
+		?b: VeI
+	Morphologically , ?a populate ?b
+		?a: oval
+		?b: VeI
+
+

@@ -1,0 +1,265 @@
+label:    sent_1
+sentence: Efforts to clean MCE and GF filters were unfeasible or unsuccessful .
+
+ppatt:
+	?a clean ?b
+		?a: Efforts
+		?b: MCE
+	?a clean ?b
+		?a: Efforts
+		?b: GF
+	?a were unfeasible
+		?a: Efforts to clean MCE and GF
+	?a unsuccessful
+		?a: Efforts to clean MCE and GF
+
+
+label:    sent_2
+sentence: We also propose to clean the noisy sensor data using a Bayesian approach .
+
+ppatt:
+	?a also propose to clean ?b using ?c
+		?a: We
+		?b: the noisy sensor data
+		?c: a Bayesian approach
+
+
+label:    sent_3
+sentence: There were no signs of recovery after removal to clean water for 48 h .
+
+ppatt:
+	There were ?a for ?b
+		?a: no signs of recovery after removal to clean water
+		?b: 48 h
+
+
+label:    sent_4
+sentence: Come clean if you do n't know . Protecting workers who clean up hazardous waste sites .
+
+ppatt:
+	?a do n't know . Protecting ?b
+		?a: you
+		?b: workers who clean up hazardous waste sites
+	?a clean ?b
+		?a: workers
+		?b: up hazardous waste sites
+
+
+label:    sent_5
+sentence: These materials are difficult to clean from the denture base . How to clean the tooth surface before sealant application .
+
+ppatt:
+	?a are difficult to clean from ?b
+		?a: These materials
+		?b: the denture base
+	?a How to clean ?b before ?c
+		?a: These materials
+		?b: the tooth surface
+		?c: sealant application
+
+
+label:    sent_6
+sentence: Moreover , one-third of subjects did not attempt to clean surfaces during food preparation .
+
+ppatt:
+	Moreover , ?a did not attempt to clean ?b during ?c
+		?a: one-third of subjects
+		?b: surfaces
+		?c: food preparation
+
+
+label:    sent_7
+sentence: Ultrasound is sometimes used to clean jewelry or break up kidney stones .
+
+ppatt:
+	?a is sometimes used to clean ?b
+		?a: Ultrasound
+		?b: jewelry
+	?a is sometimes used to break up ?b
+		?a: Ultrasound
+		?b: kidney stones
+
+
+label:    sent_8
+sentence: Standardize and clean up your data for current and future success .
+
+ppatt:
+	Standardize ?a for ?b
+		?a: your data
+		?b: current and future success
+
+
+label:    sent_9
+sentence: They usually make breakfast and clean the house before boys awake .
+
+ppatt:
+	?a usually make ?b
+		?a: They
+		?b: breakfast
+	?a clean ?b before ?c
+		?a: They
+		?b: the house
+		?c: boys
+
+
+label:    sent_10
+sentence: The patients failed or could not tolerate alpha-blockers or clean intermittent catheterization .
+
+ppatt:
+	?a failed
+		?a: The patients
+	?a could not tolerate ?b
+		?a: The patients
+		?b: alpha-blockers
+	?a could not tolerate ?b
+		?a: The patients
+		?b: clean intermittent catheterization
+
+
+label:    sent_11
+sentence: To clean or not to clean ? Cafeteria workers reported that the water jets were simple to clean and operate .
+
+ppatt:
+	?a were simple to clean
+		?a: the water jets
+	?a were simple to operate
+		?a: the water jets
+
+
+label:    sent_12
+sentence: Collection of urine specimens in general practice : to clean or not to clean ? Best ways to clean kitchen sponges .
+
+ppatt:
+	?a clean ?b
+		?a: Best ways
+		?b: kitchen sponges
+
+
+label:    sent_13
+sentence: Evaluation of different methods to clean titanium abutments .
+
+ppatt:
+	?a clean ?b
+		?a: Evaluation of different methods
+		?b: titanium abutments
+
+
+label:    sent_14
+sentence: Hand scrubbing and spray washing could not thoroughly clean these areas . Oceanic sharks clean at coastal seamount .
+
+ppatt:
+	?a ?b could not thoroughly clean ?c
+		?a: Hand
+		?b: scrubbing
+		?c: these areas
+	?a ?b could not thoroughly clean ?c
+		?a: Hand
+		?b: spray
+		?c: these areas
+	?a ?b could not thoroughly clean ?c
+		?a: Hand
+		?b: washing
+		?c: these areas
+	?a clean at ?b
+		?a: Oceanic sharks
+		?b: coastal seamount
+
+
+label:    sent_15
+sentence: Is China coming clean on bird flu ? Let 's clean up our language .
+
+ppatt:
+	Is ?a
+		?a: China coming clean on bird flu ? Let 's clean up our language
+	?a coming clean on ?b 's ?c
+		?a: China
+		?b: bird flu
+		?c: Let clean up our language
+
+
+label:    sent_16
+sentence: Does the decontamination system clean the item in a timely manner ? Trusts must clean up in fear of harsh penalties .
+
+ppatt:
+	Does ?a clean ?b in ?c
+		?a: the decontamination system
+		?b: the item
+		?c: a timely manner
+	?a must clean up in ?b
+		?a: Trusts
+		?b: fear of harsh penalties
+
+
+label:    sent_17
+sentence: Teaching children clean intermittent self-catheterization ( CISC ) in a group setting .
+
+ppatt:
+	?a clean ?b in ?c
+		?a: Teaching children
+		?b: intermittent self-catheterization
+		?c: a group setting
+	?a is/are CISC
+		?a: intermittent self-catheterization
+
+
+label:    sent_18
+sentence: Arsenic-eating bacteria may clean mines and save lives .
+
+ppatt:
+	?a may clean ?b
+		?a: Arsenic-eating bacteria
+		?b: mines
+	?a save ?b
+		?a: Arsenic-eating bacteria
+		?b: lives
+
+
+label:    sent_19
+sentence: Subepithelial mucous gland secretions functionally clean the valvular crypts and protect the epithelium .
+
+ppatt:
+	?a functionally clean ?b
+		?a: Subepithelial mucous gland secretions
+		?b: the valvular crypts
+	?a protect ?b
+		?a: Subepithelial mucous gland secretions
+		?b: the epithelium
+
+
+label:    sent_20
+sentence: They were completely clean day and night and were relieved of symptoms of constipation .
+
+ppatt:
+	?a were completely clean day
+		?a: They
+	?a night
+		?a: They
+	?a were relieved of ?b
+		?a: They
+		?b: symptoms of constipation
+
+
+label:    sent_21
+sentence: Keep the animals clean and aid their bowel movements and urination if necessary .
+
+ppatt:
+	Keep ?a
+		?a: the animals
+	aid ?a
+		?a: their bowel movements
+	aid ?a
+		?a: urination
+
+
+label:    sent_22
+sentence: They clean well , washer-disinfectors excellently so , and disinfect reliably . Reusable invasive medical devices : clean and prepare .
+
+ppatt:
+	?a clean well , ?b excellently so
+		?a: They
+		?b: washer-disinfectors
+	?a disinfect reliably ?b
+		?a: They
+		?b: Reusable invasive medical devices
+
+

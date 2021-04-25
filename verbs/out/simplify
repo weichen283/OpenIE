@@ -1,0 +1,263 @@
+label:    sent_1
+sentence: We also introduce a spin transformation to simplify treatment of spin polarized problems .
+
+ppatt:
+	?a also introduce ?b
+		?a: We
+		?b: a spin transformation
+	?a simplify ?b
+		?a: We
+		?b: treatment of spin polarized problems
+
+
+label:    sent_2
+sentence: This work was targeted to simplify lignin quantification .
+
+ppatt:
+	?a was targeted to simplify ?b
+		?a: This work
+		?b: lignin quantification
+
+
+label:    sent_3
+sentence: This instrument has the potential to simplify the current ROP screening procedure .
+
+ppatt:
+	?a has ?b
+		?a: This instrument
+		?b: the potential to simplify the current ROP screening procedure
+	?a simplify ?b
+		?a: the potential
+		?b: the current ROP screening procedure
+
+
+label:    sent_4
+sentence: A combination of five baseline biomarkers could simplify the baseline prediction of SVR .
+
+ppatt:
+	?a could simplify ?b
+		?a: A combination of five baseline biomarkers
+		?b: the baseline prediction of SVR
+
+
+label:    sent_5
+sentence: This implementation will simplify the detection side considerably . It predicts that individuals simplify the models of instances of concepts .
+
+ppatt:
+	?a will simplify ?b considerably
+		?a: This implementation
+		?b: the detection side
+	?a predicts ?b
+		?a: It
+		?b: SOMETHING := individuals simplify the models of instances of concepts
+	?a simplify ?b
+		?a: individuals
+		?b: the models of instances of concepts
+
+
+label:    sent_6
+sentence: This approach is versatile and will simplify the production of such materials .
+
+ppatt:
+	?a is versatile
+		?a: This approach
+	?a will simplify ?b
+		?a: This approach
+		?b: the production of such materials
+
+
+label:    sent_7
+sentence: Standardized templates were developed to simplify documentation and optimize billing of critical care .
+
+ppatt:
+	?a were developed to simplify ?b
+		?a: Standardized templates
+		?b: documentation
+	?a were developed to optimize ?b
+		?a: Standardized templates
+		?b: billing of critical care
+
+
+label:    sent_8
+sentence: The transducers use a row-column addressing scheme to simplify the fabrication process and beamformer .
+
+ppatt:
+	?a use ?b to simplify ?c ?d
+		?a: The transducers
+		?b: a row-column addressing scheme
+		?c: fabrication
+		?d: the process
+	?a use ?b to simplify ?c ?d
+		?a: The transducers
+		?b: a row-column addressing scheme
+		?c: fabrication
+		?d: beamformer
+
+
+label:    sent_9
+sentence: The new rules simplify the staging but increase the time of electrodes application .
+
+ppatt:
+	?a simplify ?b
+		?a: The new rules
+		?b: the staging
+	?a increase ?b
+		?a: The new rules
+		?b: the time of electrodes application
+
+
+label:    sent_10
+sentence: New multivalent vaccines simplify childhood immunisation schedules and can increase vaccination coverage .
+
+ppatt:
+	?a simplify ?b
+		?a: New multivalent vaccines
+		?b: childhood immunisation schedules
+	?a can increase ?b
+		?a: New multivalent vaccines
+		?b: vaccination coverage
+
+
+label:    sent_11
+sentence: Resulting aspects may simplify therapy in special cases and permit a more reliable prognosis .
+
+ppatt:
+	?a may simplify ?b in ?c
+		?a: Resulting aspects
+		?b: therapy
+		?c: special cases
+	?a permit ?b
+		?a: Resulting aspects
+		?b: a more reliable prognosis
+
+
+label:    sent_12
+sentence: Few ethics committees have embraced attempts to simplify the application process for multi-centre trials .
+
+ppatt:
+	?a have embraced ?b
+		?a: Few ethics committees
+		?b: attempts to simplify the application process for multi-centre trials
+	?a simplify ?b
+		?a: attempts
+		?b: the application process for multi-centre trials
+
+
+label:    sent_13
+sentence: This easy-to-use method has the potential to simplify screening during the first trimester .
+
+ppatt:
+	?a has ?b
+		?a: This easy-to-use method
+		?b: the potential to simplify screening during the first trimester
+	?a simplify ?b during ?c
+		?a: the potential
+		?b: screening
+		?c: the first trimester
+
+
+label:    sent_14
+sentence: By limiting the area of origin of fluorescence signal CMXRF can simplify quantitative approaches .
+
+ppatt:
+	limiting ?a
+		?a: the area of origin of fluorescence signal CMXRF
+	can simplify ?a
+		?a: quantitative approaches
+
+
+label:    sent_15
+sentence: Decision makers often simplify decision problems by ignoring readily available information .
+
+ppatt:
+	?a often simplify ?b
+		?a: Decision makers
+		?b: decision problems
+	?a ignoring ?b
+		?a: Decision makers
+		?b: readily available information
+
+
+label:    sent_16
+sentence: In comparison , utilizing functional biomarker melanin can greatly simplify the building process .
+
+ppatt:
+	utilizing ?a
+		?a: functional biomarker melanin
+	In ?a , ?b can greatly simplify ?c
+		?a: comparison
+		?b: SOMETHING := utilizing functional biomarker melanin
+		?c: the building process
+
+
+label:    sent_17
+sentence: Dosing QM may simplify anaemia management for patients and health-care providers .
+
+ppatt:
+	?a may simplify ?b
+		?a: Dosing QM
+		?b: anaemia management for patients and health-care providers
+
+
+label:    sent_18
+sentence: Ideologies simplify and fudge issues .
+
+ppatt:
+	?a simplify ?b
+		?a: Ideologies
+		?b: issues
+
+
+label:    sent_19
+sentence: The evolutionary approach has the potential to drastically simplify and accelerate small-molecule discovery . A didactically written chart will be presented to simplify and allow early diagnosis .
+
+ppatt:
+	?a has ?b
+		?a: The evolutionary approach
+		?b: the potential to drastically simplify and accelerate small-molecule discovery
+	?a drastically simplify ?b
+		?a: the potential
+		?b: small-molecule discovery
+	accelerate ?a
+		?a: small-molecule discovery
+	?a will be presented to simplify ?b
+		?a: A didactically written chart
+		?b: early diagnosis
+	?a will be presented to allow
+		?a: A didactically written chart
+
+
+label:    sent_20
+sentence: Design strategies to simplify and miniaturize imaging systems .
+
+ppatt:
+	?a simplify ?b
+		?a: Design strategies
+		?b: imaging systems
+	miniaturize ?a
+		?a: imaging systems
+
+
+label:    sent_21
+sentence: Helping patients simplify and safely use complex prescription regimens .
+
+ppatt:
+	?a ?b simplify
+		?a: SOMETHING := Helping
+		?b: patients
+	?a safely use ?b
+		?a: Helping
+		?b: complex prescription regimens
+
+
+label:    sent_22
+sentence: Prefabricated post systems in many instances can simplify and expedite restorative dentistry .
+
+ppatt:
+	?a can simplify ?b
+		?a: Prefabricated post systems in many instances
+		?b: restorative dentistry
+	?a expedite
+		?a: Prefabricated post systems in many instances
+
+

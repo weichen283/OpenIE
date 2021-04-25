@@ -1,0 +1,174 @@
+label:    sent_1
+sentence: CFTR : helping to acidify macrophage lysosomes .
+
+ppatt:
+	?a helping to acidify ?b
+		?a: CFTR
+		?b: macrophage lysosomes
+
+
+label:    sent_2
+sentence: Three times more acid was required to acidify yogurt than to acidify milk .
+
+ppatt:
+	?a was required to acidify ?b than ?c
+		?a: Three times more acid
+		?b: yogurt
+		?c: to acidify milk
+
+
+label:    sent_3
+sentence: We conclude that the split skin maintains the capacity to acidify the mucosal fluid .
+
+ppatt:
+	?a conclude ?b
+		?a: We
+		?b: SOMETHING := the split skin maintains the capacity to acidify the mucosal fluid
+	?a maintains ?b
+		?a: the split skin
+		?b: the capacity to acidify the mucosal fluid
+	?a acidify ?b
+		?a: the capacity
+		?b: the mucosal fluid
+
+
+label:    sent_4
+sentence: Serum stimulated cells to acidify the media , partly by lactate generation .
+
+ppatt:
+	?a acidify ?b , partly by ?c
+		?a: Serum stimulated cells
+		?b: the media
+		?c: lactate generation
+
+
+label:    sent_5
+sentence: V-ATPases are conserved ATP-driven proton pumps that acidify organelles .
+
+ppatt:
+	?a are conserved ?b
+		?a: V-ATPases
+		?b: ATP-driven proton pumps that acidify organelles
+	?a acidify ?b
+		?a: ATP-driven proton pumps
+		?b: organelles
+
+
+label:    sent_6
+sentence: Proton-transporting cells are located in several tissues where they acidify the extracellular environment .
+
+ppatt:
+	?a are located in ?b
+		?a: Proton-transporting cells
+		?b: several tissues where they acidify the extracellular environment
+	?a where ?b acidify ?c
+		?a: several tissues
+		?b: they
+		?c: the extracellular environment
+
+
+label:    sent_7
+sentence: Osteoclasts are proton-secreting cells and acidify extracellular bone microenvironment .
+
+ppatt:
+	?a are proton-secreting cells
+		?a: Osteoclasts
+	?a acidify ?b
+		?a: Osteoclasts
+		?b: extracellular bone microenvironment
+
+
+label:    sent_8
+sentence: Most were then able to acidify their urine despite persistent urinary infection .
+
+ppatt:
+	?a were then able to acidify ?b despite ?c
+		?a: Most
+		?b: their urine
+		?c: persistent urinary infection
+
+
+label:    sent_9
+sentence: Vacuolar proton pumps acidify several intracellular membrane compartments in the endocytic pathway .
+
+ppatt:
+	?a acidify ?b in ?c
+		?a: Vacuolar proton pumps
+		?b: several intracellular membrane compartments
+		?c: the endocytic pathway
+
+
+label:    sent_10
+sentence: Lactobacilli acidify CVM to pH approximately 4 by continuously producing lactic acid .
+
+ppatt:
+	?a acidify ?b to ?c ?d
+		?a: Lactobacilli
+		?b: CVM
+		?c: pH
+		?d: approximately 4
+	?a continuously producing ?b
+		?a: Lactobacilli
+		?b: lactic acid
+
+
+label:    sent_11
+sentence: Virtually all vertebrates acidify their gastric contents to a pH between 0.8 and 2.0 .
+
+ppatt:
+	Virtually ?a acidify ?b to ?c
+		?a: all vertebrates
+		?b: their gastric contents
+		?c: a pH between 0.8 and 2.0
+
+
+label:    sent_12
+sentence: In contrast , Mycobacterium avium-containing vacuoles failed to acidify even at later time points .
+
+ppatt:
+	In ?a , ?b failed to acidify at ?c
+		?a: contrast
+		?b: Mycobacterium avium-containing vacuoles
+		?c: even later time points
+
+
+label:    sent_13
+sentence: The ability to acidify and to concentrate the urine did not change .
+
+ppatt:
+	?a acidify
+		?a: The ability
+	?a concentrate ?b
+		?a: The ability
+		?b: the urine
+	?a did not change
+		?a: The ability to acidify and to concentrate the urine
+
+
+label:    sent_14
+sentence: Is the patient able to acidify and concentrate urine ? An important function of the gallbladder is to acidify and concentrate bile .
+
+ppatt:
+	acidify ?a
+		?a: urine
+	concentrate ?a
+		?a: urine
+	?a ?b is to acidify ?c
+		?a: Is the patient able to acidify and concentrate urine
+		?b: An important function of the gallbladder
+		?c: bile
+	?a is to concentrate
+		?a: Is the patient able to acidify and concentrate urine
+
+
+label:    sent_15
+sentence: Thick soil profiles ( 2-4 m ) acidify from the top down .
+
+ppatt:
+	?a is/are 2-4 m
+		?a: Thick soil profiles
+	?a acidify from ?b
+		?a: Thick soil profiles
+		?b: the top down
+
+

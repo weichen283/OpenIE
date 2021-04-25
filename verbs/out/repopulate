@@ -1,0 +1,260 @@
+label:    sent_1
+sentence: decHOX-treated cells were also able to repopulate secondary recipients .
+
+ppatt:
+	?a were also able to repopulate ?b
+		?a: decHOX-treated cells
+		?b: secondary recipients
+
+
+label:    sent_2
+sentence: Such cells display enhanced resistance to standard chemotherapeutic agents and repopulate tumours after therapy .
+
+ppatt:
+	?a display ?b
+		?a: Such cells
+		?b: enhanced resistance to standard chemotherapeutic agents
+	?a repopulate ?b after ?c
+		?a: Such cells
+		?b: tumours
+		?c: therapy
+
+
+label:    sent_3
+sentence: Cultured hepatocytes adopt progenitor characteristics and display bipotent capacity to repopulate the liver .
+
+ppatt:
+	?a adopt ?b
+		?a: Cultured hepatocytes
+		?b: progenitor characteristics
+	?a display ?b
+		?a: Cultured hepatocytes
+		?b: bipotent capacity to repopulate the liver
+	?a repopulate ?b
+		?a: bipotent capacity
+		?b: the liver
+
+
+label:    sent_4
+sentence: [ Human umbilical cord blood-derived mononuclear cells repopulate injured mouse liver ] . Transplanted hepatocytes over-expressing FoxM1B efficiently repopulate chronically injured mouse liver independent of donor age .
+
+ppatt:
+	?a repopulate ?b
+		?a: Human umbilical cord blood-derived mononuclear cells
+		?b: injured mouse liver ]
+	?a over-expressing ?b
+		?a: Transplanted hepatocytes
+		?b: FoxM1B
+	?a efficiently repopulate ?b
+		?a: Transplanted hepatocytes over-expressing FoxM1B
+		?b: chronically injured mouse liver independent of donor age
+
+
+label:    sent_5
+sentence: Pluripotent hematopoietic stem cells of low and high density can repopulate W/Wv mice .
+
+ppatt:
+	?a can repopulate ?b
+		?a: Pluripotent hematopoietic stem cells of low and high density
+		?b: W/Wv mice
+
+
+label:    sent_6
+sentence: New approaches may soon be designed to repopulate injured nervous tissue with appropriate cells .
+
+ppatt:
+	?a may soon be designed to repopulate ?b with ?c
+		?a: New approaches
+		?b: injured nervous tissue
+		?c: appropriate cells
+
+
+label:    sent_7
+sentence: Recently , it has become possible to repopulate tissue compartments with stem cells .
+
+ppatt:
+	Recently , ?a has become possible to repopulate ?b
+		?a: it
+		?b: tissue compartments with stem cells
+
+
+label:    sent_8
+sentence: They then also migrate to repopulate the stroma under the wound area .
+
+ppatt:
+	?a then also migrate to repopulate ?b under ?c
+		?a: They
+		?b: the stroma
+		?c: the wound area
+
+
+label:    sent_9
+sentence: In both cases the grafted precursors home and repopulate the thymus . CD8+ recent thymic emigrants home to and efficiently repopulate the small intestine epithelium .
+
+ppatt:
+	In ?a ?b home ?c
+		?a: both cases
+		?b: the grafted precursors
+		?c: the thymus
+	?a repopulate
+		?a: the grafted precursors
+	?a home
+		?a: CD8+ recent thymic emigrants
+	?a efficiently repopulate ?b
+		?a: CD8+ recent thymic emigrants
+		?b: the small intestine epithelium
+
+
+label:    sent_10
+sentence: Hepatocytes and other liver cells are able to proliferate and repopulate the liver .
+
+ppatt:
+	?a are able to proliferate ?b
+		?a: Hepatocytes
+		?b: the liver
+	?a are able to proliferate ?b
+		?a: other liver cells
+		?b: the liver
+	?a are able to repopulate
+		?a: Hepatocytes
+	?a are able to repopulate
+		?a: other liver cells
+
+
+label:    sent_11
+sentence: Circulating cells repopulate the heart at a very low rate in adult humans .
+
+ppatt:
+	?a repopulate ?b at ?c
+		?a: Circulating cells
+		?b: the heart
+		?c: a very low rate in adult humans
+
+
+label:    sent_12
+sentence: By contrast early human hepatoblasts repopulate mouse livers more efficiently .
+
+ppatt:
+	By ?a ?b repopulate ?c more efficiently
+		?a: contrast
+		?b: early human hepatoblasts
+		?c: mouse livers
+
+
+label:    sent_13
+sentence: The ex vivo-expanded HSCs could repopulate hosts after secondary transplantations .
+
+ppatt:
+	?a could repopulate ?b after ?c
+		?a: The ex vivo-expanded HSCs
+		?b: hosts
+		?c: secondary transplantations
+
+
+label:    sent_14
+sentence: Ovarian cystocytes can repopulate the embryonic germ line and produce functional gametes .
+
+ppatt:
+	?a can repopulate ?b
+		?a: Ovarian cystocytes
+		?b: the embryonic germ line
+	?a produce ?b
+		?a: Ovarian cystocytes
+		?b: functional gametes
+
+
+label:    sent_15
+sentence: Moreover , engrafted myoblasts could repopulate post-infarction scar and improve cardiac function .
+
+ppatt:
+	Moreover , ?a could repopulate ?b
+		?a: engrafted myoblasts
+		?b: post-infarction scar
+	?a improve ?b
+		?a: engrafted myoblasts
+		?b: cardiac function
+
+
+label:    sent_16
+sentence: Pluripotential mesenchymal cells repopulate bone marrow and retain osteogenic properties .
+
+ppatt:
+	?a repopulate ?b
+		?a: Pluripotential mesenchymal cells
+		?b: bone marrow
+	?a retain ?b
+		?a: Pluripotential mesenchymal cells
+		?b: osteogenic properties
+
+
+label:    sent_17
+sentence: We intended to search for a cell source to repopulate and regenerate corneal stroma . NSCs may attempt to repopulate and reconstitute ablated regions .
+
+ppatt:
+	?a intended to search for ?b to repopulate ?c ?d
+		?a: We
+		?b: a cell source
+		?c: corneal stroma
+		?d: SOMETHING := NSCs may attempt to repopulate and reconstitute ablated regions
+	?a intended to search to regenerate
+		?a: We
+	?a may attempt to repopulate ?b
+		?a: NSCs
+		?b: ablated regions
+	?a may attempt to reconstitute
+		?a: NSCs
+
+
+label:    sent_18
+sentence: However , tumors rapidly repopulate after treatment with such compounds . Fibroblasts from affected individuals do not repopulate after chemically induced mtDNA depletion .
+
+ppatt:
+	However , ?a rapidly repopulate after ?b
+		?a: tumors
+		?b: treatment with such compounds
+	?a do not repopulate after ?b
+		?a: Fibroblasts from affected individuals
+		?b: chemically induced mtDNA depletion
+
+
+label:    sent_19
+sentence: Non-small cell lung tumors repopulate rapidly during radiation therapy .
+
+ppatt:
+	?a repopulate rapidly during ?b
+		?a: Non-small cell lung tumors
+		?b: radiation therapy
+
+
+label:    sent_20
+sentence: The keratocytes were seen to repopulate in the posterior-to-anterior direction .
+
+ppatt:
+	?a were seen to repopulate in ?b
+		?a: The keratocytes
+		?b: the posterior-to-anterior direction
+
+
+label:    sent_21
+sentence: Diabetic mice failed to recover and repopulate from 5-FU injection .
+
+ppatt:
+	?a failed to recover from ?b
+		?a: Diabetic mice
+		?b: 5-FU injection
+	?a failed to repopulate
+		?a: Diabetic mice
+
+
+label:    sent_22
+sentence: However , all species showed a trend to repopulate between 3 and 6 months .
+
+ppatt:
+	However , ?a showed ?b
+		?a: all species
+		?b: a trend to repopulate between 3 and 6 months
+	?a repopulate between ?b
+		?a: a trend
+		?b: 3 and 6 months
+
+

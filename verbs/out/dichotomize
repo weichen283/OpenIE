@@ -1,0 +1,88 @@
+label:    sent_1
+sentence: The positive and negative expression of p53 was used to dichotomize the group .
+
+ppatt:
+	?a was used to dichotomize ?b
+		?a: The positive and negative expression of p53
+		?b: the group
+
+
+label:    sent_2
+sentence: This finding persisted when different distances were used to dichotomize distant and local patients .
+
+ppatt:
+	?a persisted
+		?a: This finding
+	when ?a were used to dichotomize ?b
+		?a: different distances
+		?b: distant and local patients
+
+
+label:    sent_3
+sentence: Normative data were used to dichotomize abnormal beta-amyloid uptake or cholinergic deficits .
+
+ppatt:
+	?a were used to dichotomize ?b
+		?a: Normative data
+		?b: abnormal beta-amyloid uptake
+	?a were used to dichotomize ?b
+		?a: Normative data
+		?b: cholinergic deficits
+
+
+label:    sent_4
+sentence: Antibody reference ranges were used to dichotomize subjects into seropositive and seronegative groups .
+
+ppatt:
+	?a were used to dichotomize ?b into ?c
+		?a: Antibody reference ranges
+		?b: subjects
+		?c: seropositive and seronegative groups
+
+
+label:    sent_5
+sentence: Receiver operating characteristic analysis was used to dichotomize PET/CT parameters into high and low . We therefore propose to dichotomize AOSD according to its clinical presentation .
+
+ppatt:
+	?a was used to dichotomize ?b into ?c
+		?a: Receiver operating characteristic analysis
+		?b: PET/CT parameters
+		?c: high
+	?a was used to dichotomize ?b into ?c
+		?a: Receiver operating characteristic analysis
+		?b: PET/CT parameters
+		?c: low
+	?a therefore propose to dichotomize ?b according to ?c
+		?a: We
+		?b: AOSD
+		?c: its clinical presentation
+
+
+label:    sent_6
+sentence: The capillaries form arcades and dichotomize with Y- and psi-shaped branches .
+
+ppatt:
+	?a form ?b with ?c
+		?a: The capillaries
+		?b: arcades
+		?c: Y- and psi-shaped branches
+	?a form ?b with ?c
+		?a: The capillaries
+		?b: dichotomize
+		?c: Y- and psi-shaped branches
+
+
+label:    sent_7
+sentence: To dichotomize or not to dichotomize ? Traditional LSM cutoffs dichotomize patients and do not clearly indicate the confidence of diagnosis .
+
+ppatt:
+	dichotomize ?a
+		?a: Traditional LSM cutoffs
+	?a dichotomize ?b
+		?a: Traditional LSM cutoffs
+		?b: patients
+	?a do not clearly indicate ?b
+		?a: Traditional LSM cutoffs
+		?b: the confidence of diagnosis
+
+

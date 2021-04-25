@@ -1,0 +1,246 @@
+label:    sent_1
+sentence: The CORG pipeline detects and exploits patterns of local similarity to annotate promoter regions .
+
+ppatt:
+	?a detects ?b
+		?a: The CORG pipeline
+		?b: patterns of local similarity to annotate promoter regions
+	?a exploits
+		?a: The CORG pipeline
+	?a annotate ?b
+		?a: local similarity
+		?b: promoter regions
+
+
+label:    sent_2
+sentence: Using ontologies to annotate microarray experiments .
+
+ppatt:
+	Using ?a
+		?a: ontologies
+	annotate ?a
+		?a: microarray experiments
+
+
+label:    sent_3
+sentence: Computational techniques are very necessary to annotate the transporter functions .
+
+ppatt:
+	?a are very necessary to annotate ?b
+		?a: Computational techniques
+		?b: the transporter functions
+
+
+label:    sent_4
+sentence: These databases reorganize and annotate the data or provide predictions .
+
+ppatt:
+	?a reorganize ?b
+		?a: These databases
+		?b: the data
+	?a annotate
+		?a: These databases
+	?a provide ?b
+		?a: These databases
+		?b: predictions
+
+
+label:    sent_5
+sentence: These databases reorganize and annotate the data or provide predictions .
+
+ppatt:
+	?a reorganize ?b
+		?a: These databases
+		?b: the data
+	?a annotate
+		?a: These databases
+	?a provide ?b
+		?a: These databases
+		?b: predictions
+
+
+label:    sent_6
+sentence: These databases reorganize and annotate the data or provide predictions .
+
+ppatt:
+	?a reorganize ?b
+		?a: These databases
+		?b: the data
+	?a annotate
+		?a: These databases
+	?a provide ?b
+		?a: These databases
+		?b: predictions
+
+
+label:    sent_7
+sentence: We also developed dedicated bioinformatics tools and databases to annotate mRNA tags as transcripts .
+
+ppatt:
+	?a also developed ?b ?c
+		?a: We
+		?b: bioinformatics
+		?c: dedicated tools
+	?a also developed ?b ?c
+		?a: We
+		?b: bioinformatics
+		?c: databases
+	?a annotate ?b as ?c
+		?a: We
+		?b: mRNA tags
+		?c: transcripts
+
+
+label:    sent_8
+sentence: We also annotate items in the clinical research report with the microdata . Our method can be used to annotate features at interactive frame rates .
+
+ppatt:
+	?a also annotate ?b
+		?a: We
+		?b: items in the clinical research report with the microdata
+	?a can be used to annotate ?b at ?c
+		?a: Our method
+		?b: features
+		?c: interactive frame rates
+
+
+label:    sent_9
+sentence: Specifically , we first annotate distinctive landmarks in the training images .
+
+ppatt:
+	Specifically , ?a first annotate ?b
+		?a: we
+		?b: distinctive landmarks in the training images
+
+
+label:    sent_10
+sentence: We annotate a total of 59 pri-miRNA structures , which include 82 pre-miRNAs .
+
+ppatt:
+	?a annotate ?b
+		?a: We
+		?b: a total of 59 pri-miRNA structures , which include 82 pre-miRNAs
+	?a include ?b
+		?a: 59 pri-miRNA structures
+		?b: 82 pre-miRNAs
+
+
+label:    sent_11
+sentence: Extracting subsets to annotate discharge summaries is challenging when no previous corpus exists .
+
+ppatt:
+	Extracting ?a
+		?a: subsets to annotate discharge summaries
+	?a annotate ?b
+		?a: subsets
+		?b: discharge summaries
+	?a is challenging
+		?a: SOMETHING := Extracting subsets to annotate discharge summaries
+	when ?a exists
+		?a: no previous corpus
+
+
+label:    sent_12
+sentence: We report a computational framework , FunSeq2 , to annotate and prioritize these mutations .
+
+ppatt:
+	?a report ?b
+		?a: We
+		?b: a computational framework
+	?a is/are FunSeq2
+		?a: a computational framework
+	?a annotate ?b
+		?a: We
+		?b: these mutations
+	?a prioritize
+		?a: We
+
+
+label:    sent_13
+sentence: This study describes the first specialized portal to collaboratively annotate and analyze gene-phenotype networks .
+
+ppatt:
+	?a describes ?b to collaboratively annotate ?c
+		?a: This study
+		?b: the first specialized portal
+		?c: gene-phenotype networks
+	?a describes to analyze
+		?a: This study
+
+
+label:    sent_14
+sentence: Using semantic web technologies to annotate and align microarray designs .
+
+ppatt:
+	Using ?a
+		?a: semantic web technologies
+	annotate ?a
+		?a: microarray designs
+	align ?a
+		?a: microarray designs
+
+
+label:    sent_15
+sentence: Next , we annotate this with concepts from a domain specific ontology .
+
+ppatt:
+	Next , ?a annotate ?b with ?c
+		?a: we
+		?b: this
+		?c: concepts from a domain specific ontology
+
+
+label:    sent_16
+sentence: Bioinformaticians are developing extensive resources to annotate and mine biological features from high-throughput data . Computational methods to annotate these genes and proteins are even more indispensable .
+
+ppatt:
+	?a are developing ?b to annotate ?c from ?d
+		?a: Bioinformaticians
+		?b: extensive resources
+		?c: mine biological features
+		?d: high-throughput data
+	?a annotate ?b
+		?a: Computational methods
+		?b: these genes
+	?a annotate ?b
+		?a: Computational methods
+		?b: proteins
+	?a are even more indispensable
+		?a: Computational methods to annotate these genes and proteins
+
+
+label:    sent_17
+sentence: This observation was used to also annotate over 1500 DNA-binding proteins .
+
+ppatt:
+	?a was used to also annotate over ?b
+		?a: This observation
+		?b: 1500 DNA-binding proteins
+
+
+label:    sent_18
+sentence: Functional genomics aid to annotate based on gene ontology .
+
+ppatt:
+	?a aid to annotate based on ?b
+		?a: Functional genomics
+		?b: gene ontology
+
+
+label:    sent_19
+sentence: Practical application of ontologies to annotate and analyse large scale raw mouse phenotype data . PipTools : a computational toolkit to annotate and analyze pairwise comparisons of genomic sequences .
+
+ppatt:
+	?a annotate ?b ?c
+		?a: Practical application of ontologies
+		?b: large scale raw mouse phenotype data
+		?c: PipTools
+	analyse ?a
+		?a: large scale raw mouse phenotype data
+	?a annotate ?b
+		?a: a computational toolkit
+		?b: pairwise comparisons of genomic sequences
+	analyze ?a
+		?a: pairwise comparisons of genomic sequences
+
+

@@ -1,0 +1,78 @@
+label:    sent_1
+sentence: Calves received ad libitum amounts of corn silage top-dressed with the respective supplement ( .81 kg/head ) . Treatments included 1 ) a roughage-based diet fed at 2.75 % of BW , 2 ) a corn-based diet fed at 1.5 % of BW , 3 ) a corn-based diet fed at 2.25 % of BW , 4 ) a soybean hull-based diet fed at 1.5 % of BW ( SH1.5 ) , 5 ) a soybean hull-based diet fed at 2.25 % of BW ( SH2.25 ) , 6 ) SH1.5 top-dressed with 11.4 g/d Alimet ( 10 g/d MHA ) , 7 ) SH2.25 top-dressed with 11.4 g/d Alimet , 8 ) SH2.25 top-dressed with 7 g/d of a lipid-coated betaine product ( 4.2 g/d betaine ) , and 9 ) SH2.25 top-dressed with 250 g/d CSB ( 15.5 g/d betaine ) . These results suggest that feeding POMx top-dressed onto the grain suppresses intake of grain and digestibility of fat and protein , likely because of the high tannin content .
+
+ppatt:
+	?a received ?b
+		?a: Calves
+		?b: ad libitum amounts of corn silage top-dressed with the respective supplement
+	?a is/are .81 kg/head
+		?a: the respective supplement
+	?a included ?b
+		?a: Treatments
+		?b: a roughage-based diet fed at 2.75 % of BW
+	?a included ?b
+		?a: Treatments
+		?b: a corn-based diet fed at 1.5 % of BW
+	?a included ?b
+		?a: Treatments
+		?b: a corn-based diet fed at 2.25 % of BW
+	?a fed at ?b
+		?a: a roughage-based diet
+		?b: 2.75 % of BW
+	fed at ?a ?b
+		?a: 2.75 % of BW
+		?b: a corn-based diet fed at 1.5 % of BW
+	fed at ?a ?b
+		?a: 2.75 % of BW
+		?b: a corn-based diet fed at 2.25 % of BW
+	?a fed at ?b
+		?a: a corn-based diet
+		?b: 1.5 % of BW
+	?a fed at ?b
+		?a: a corn-based diet
+		?b: 2.25 % of BW
+	fed at ?a ?b
+		?a: 2.25 % of BW
+		?b: a soybean hull-based diet fed at 1.5 % of BW
+	?a fed at ?b
+		?a: a soybean hull-based diet
+		?b: 1.5 % of BW
+	fed at ?a ?b
+		?a: 1.5 % of BW
+		?b: a soybean hull-based diet fed at 2.25 % of BW ) SH1.5 top-dressed with 11.4 g/d Alimet , 7 ) SH2.25 top-dressed with 11.4 g/d Alimet , 8
+	?a is/are SH1.5
+		?a: BW
+	?a fed at ?b
+		?a: a soybean hull-based diet
+		?b: 2.25 % of BW
+	?a fed at ?b
+		?a: a soybean hull-based diet
+		?b: SH1.5 top-dressed with 11.4 g/d Alimet , 7 ) SH2.25 top-dressed with 11.4 g/d Alimet , 8
+	?a is/are SH2.25
+		?a: BW
+	top-dressed with ?a ?b
+		?a: 11.4 g/d Alimet
+		?b: 7 ) SH2.25 top-dressed with 11.4 g/d Alimet , 8
+	?a is/are 10 g/d MHA
+		?a: 11.4 g/d Alimet
+	?a is/are SH2.25 top-dressed with 7 g/d of a lipid-coated betaine product
+		?a: 11.4 g/d Alimet 8
+	?a is/are 4.2 g/d betaine
+		?a: a lipid-coated betaine product
+	?a is/are 15.5 g/d betaine
+		?a: 250 g/d CSB
+	?a suggest ?b
+		?a: These results
+		?b: SOMETHING := SH2.25 top-dressed with 250 g/d CSB that feeding POMx top-dressed onto the grain suppresses intake of grain and digestibility of fat and protein , likely because of the high tannin content
+	?a ?b suppresses ?c , likely because of ?d
+		?a: SH2.25 top-dressed with 250 g/d CSB
+		?b: feeding POMx top-dressed onto the grain
+		?c: intake of grain of fat and protein
+		?d: the high tannin content
+	?a ?b suppresses ?c , likely because of ?d
+		?a: SH2.25 top-dressed with 250 g/d CSB
+		?b: feeding POMx top-dressed onto the grain
+		?c: digestibility
+		?d: the high tannin content
+
+

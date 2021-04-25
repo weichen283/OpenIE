@@ -1,0 +1,26 @@
+label:    sent_1
+sentence: An annual report you can stamp your feet to . Postage stamp multiple anterior capsulorhexisotomies in pediatric cataract surgery . Postage stamp for pharmacy . Letter : How to stamp out creativity . Reliability of the tissue stamp smear cytology .
+
+ppatt:
+	?a ?b can stamp ?c to ?d
+		?a: An annual report
+		?b: you
+		?c: your feet
+		?d: Postage stamp multiple anterior capsulorhexisotomies in pediatric cataract surgery
+	?a How to stamp ?b ?c
+		?a: An annual report
+		?b: out creativity
+		?c: Reliability of the tissue stamp smear cytology
+
+
+label:    sent_2
+sentence: Should we stamp out or give a hand to new journals ?
+
+ppatt:
+	Should ?a stamp out ?b
+		?a: we
+		?b: a hand to new journals
+	?a give
+		?a: we
+
+

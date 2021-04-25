@@ -1,0 +1,232 @@
+label:    sent_1
+sentence: The results of our study underline the usefulness of morphometric techniques in tumour research .
+
+ppatt:
+	?a underline ?b
+		?a: The results of our study
+		?b: the usefulness of morphometric techniques in tumour research
+
+
+label:    sent_2
+sentence: The authors underline the difficulty of differential diagnosis with nephroblastoma .
+
+ppatt:
+	?a underline ?b
+		?a: The authors
+		?b: the difficulty of differential diagnosis with nephroblastoma
+
+
+label:    sent_3
+sentence: Analyses generally underline the direct link between participatory approaches and this type of result .
+
+ppatt:
+	?a generally underline ?b
+		?a: Analyses
+		?b: the direct link between participatory approaches and this type of result
+
+
+label:    sent_4
+sentence: Advantages and inconveniences of this approach are exposed before underline its indications .
+
+ppatt:
+	?a are exposed
+		?a: Advantages of this approach
+	?a are exposed
+		?a: inconveniences
+	?a underline ?b
+		?a: Advantages of this approach
+		?b: its indications
+	?a underline ?b
+		?a: inconveniences
+		?b: its indications
+
+
+label:    sent_5
+sentence: This seems to underline the importance of contrast media to follow up colorectal resections .
+
+ppatt:
+	?a seems to underline ?b
+		?a: This
+		?b: the importance of contrast media to follow up colorectal resections
+	?a follow up ?b
+		?a: the importance of contrast media
+		?b: colorectal resections
+
+
+label:    sent_6
+sentence: Second , the collected data are analyzed to underline the emerging development challenges .
+
+ppatt:
+	Second , ?a are analyzed to underline ?b
+		?a: the collected data
+		?b: the emerging development challenges
+
+
+label:    sent_7
+sentence: Respondents with smoking habits underline the influence of chance on health as well .
+
+ppatt:
+	?a underline ?b as well
+		?a: Respondents with smoking habits
+		?b: the influence of chance on health
+
+
+label:    sent_8
+sentence: The authors underline the importance of differential diagnosis because of the different therapeutic approach .
+
+ppatt:
+	?a underline ?b
+		?a: The authors
+		?b: the importance of differential diagnosis because of the different therapeutic approach
+
+
+label:    sent_9
+sentence: In this review , we will underline all these aspects of MM CSCs .
+
+ppatt:
+	In ?a , ?b will underline ?c
+		?a: this review
+		?b: we
+		?c: all these aspects of MM CSCs
+
+
+label:    sent_10
+sentence: These findings underline the importance of psychological factors and provide rationale for behavioral therapy .
+
+ppatt:
+	?a underline ?b
+		?a: These findings
+		?b: the importance of psychological factors
+	?a provide ?b
+		?a: These findings
+		?b: rationale for behavioral therapy
+
+
+label:    sent_11
+sentence: They underline the advantages and inconvenience of this route and discuss the indications .
+
+ppatt:
+	?a underline ?b
+		?a: They
+		?b: the advantages of this route
+	?a underline ?b
+		?a: They
+		?b: inconvenience
+	?a discuss ?b
+		?a: They
+		?b: the indications
+
+
+label:    sent_12
+sentence: We underline ultrasound patterns and examine clinical features .
+
+ppatt:
+	?a underline ?b
+		?a: We
+		?b: ultrasound patterns
+	?a examine ?b
+		?a: We
+		?b: clinical features
+
+
+label:    sent_13
+sentence: Present results underline that not all antidepressant drugs are appropriate after ischemic stroke .
+
+ppatt:
+	?a underline ?b
+		?a: Present results
+		?b: SOMETHING := not all antidepressant drugs are appropriate after ischemic stroke
+	?a are appropriate after ?b
+		?a: not all antidepressant drugs
+		?b: ischemic stroke
+
+
+label:    sent_14
+sentence: Our experiments also underline that SCE counts should include the centromere exchanges .
+
+ppatt:
+	?a also underline ?b
+		?a: Our experiments
+		?b: SOMETHING := SCE counts should include the centromere exchanges
+	?a should include ?b
+		?a: SCE counts
+		?b: the centromere exchanges
+
+
+label:    sent_15
+sentence: The determined molecular weights underline the R-character of the LPS .
+
+ppatt:
+	?a underline ?b
+		?a: The determined molecular weights
+		?b: the R-character of the LPS
+
+
+label:    sent_16
+sentence: Here we give a critical appraisal of this finding and underline its clinical impact .
+
+ppatt:
+	Here ?a give ?b
+		?a: we
+		?b: a critical appraisal of this finding
+	?a underline ?b
+		?a: we
+		?b: its clinical impact
+
+
+label:    sent_17
+sentence: Thus , these findings are equivocal but underline the immunologic aspects of the pathogenesis .
+
+ppatt:
+	Thus , ?a are equivocal
+		?a: these findings
+	?a underline ?b
+		?a: these findings
+		?b: the immunologic aspects of the pathogenesis
+
+
+label:    sent_18
+sentence: To underline the severity of instrumental esophageal perforations and to discuss their management .
+
+ppatt:
+	underline ?a
+		?a: the severity of instrumental esophageal perforations
+	discuss ?a
+		?a: their management
+
+
+label:    sent_19
+sentence: In conclusion , our findings underline that each application demands a specific assay system .
+
+ppatt:
+	In ?a , ?b underline ?c
+		?a: conclusion
+		?b: our findings
+		?c: SOMETHING := each application demands a specific assay system
+	?a demands ?b
+		?a: each application
+		?b: a specific assay system
+
+
+label:    sent_20
+sentence: After the definition , they underline the main elements that characterise this syndrome .
+
+ppatt:
+	After ?a , ?b underline ?c
+		?a: the definition
+		?b: they
+		?c: the main elements that characterise this syndrome
+	?a characterise ?b
+		?a: the main elements
+		?b: this syndrome
+
+
+label:    sent_21
+sentence: Those pathologic changes were underline of shrinkage of spleen .
+
+ppatt:
+	?a were underline of ?b
+		?a: Those pathologic changes
+		?b: shrinkage of spleen
+
+

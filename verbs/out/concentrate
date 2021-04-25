@@ -1,0 +1,312 @@
+label:    sent_1
+sentence: Fixed versus variable dose of prothrombin complex concentrate for counteracting vitamin K antagonist therapy .
+
+ppatt:
+	?a ?b concentrate
+		?a: Fixed
+		?b: dose of prothrombin complex
+	?a ?b concentrate
+		?a: variable
+		?b: dose of prothrombin complex
+	?a counteracting ?b
+		?a: Fixed
+		?b: vitamin K antagonist therapy
+	?a counteracting ?b
+		?a: variable
+		?b: vitamin K antagonist therapy
+
+
+label:    sent_2
+sentence: We conclude that fluorescent membrane lipids spontaneously concentrate into distinct micrometric assemblies .
+
+ppatt:
+	?a conclude ?b
+		?a: We
+		?b: SOMETHING := fluorescent membrane lipids spontaneously concentrate into distinct micrometric assemblies
+	?a spontaneously concentrate into ?b
+		?a: fluorescent membrane lipids
+		?b: distinct micrometric assemblies
+
+
+label:    sent_3
+sentence: We will concentrate on the four so-called HDL syndromes mentioned above .
+
+ppatt:
+	?a will concentrate on ?b
+		?a: We
+		?b: the four so-called HDL syndromes mentioned above
+	?a mentioned above
+		?a: the four so-called HDL syndromes
+
+
+label:    sent_4
+sentence: Some pupils were able to concentrate for only approximately 10 s . However , most of the research tends to concentrate on the nursing home setting .
+
+ppatt:
+	?a were able to concentrate for ?b
+		?a: Some pupils
+		?b: only approximately 10 s
+	However , ?a tends to concentrate on ?b
+		?a: most of the research
+		?b: the nursing home setting
+
+
+label:    sent_5
+sentence: They tend to concentrate on a few subjects , mainly on clinical procedures .
+
+ppatt:
+	?a tend to concentrate on ?b , on ?c
+		?a: They
+		?b: a few subjects
+		?c: mainly clinical procedures
+
+
+label:    sent_6
+sentence: The animals were fed on a diet containing forage to concentrate ratio of 1 :1 .
+
+ppatt:
+	?a were fed on ?b
+		?a: The animals
+		?b: a diet containing forage to concentrate ratio of 1 :1
+	?a containing ?b
+		?a: a diet
+		?b: forage
+	concentrate ?a
+		?a: ratio of 1 :1
+
+
+label:    sent_7
+sentence: Terrestrial life would be miserable without the ability to concentrate urine .
+
+ppatt:
+	?a would be miserable without ?b
+		?a: Terrestrial life
+		?b: the ability to concentrate urine
+	?a concentrate ?b
+		?a: the ability
+		?b: urine
+
+
+label:    sent_8
+sentence: Injecting through a small-gauge needle appears to concentrate the remaining suspension .
+
+ppatt:
+	Injecting through ?a
+		?a: a small-gauge needle
+	?a appears to concentrate ?b
+		?a: SOMETHING := Injecting through a small-gauge needle
+		?b: the remaining suspension
+
+
+label:    sent_9
+sentence: It is challenging to continuously concentrate sample solutes in microfluidic channels .
+
+ppatt:
+	?a is challenging to continuously concentrate ?b in ?c
+		?a: It
+		?b: sample solutes
+		?c: microfluidic channels
+
+
+label:    sent_10
+sentence: AMI reorganizes to concentrate efforts on its core business -- acute care hospitals .
+
+ppatt:
+	?a reorganizes to concentrate ?b
+		?a: AMI
+		?b: efforts on its core business
+
+
+label:    sent_11
+sentence: An ultracentrifugation procedure is described to concentrate protein solutions on the microliter scale .
+
+ppatt:
+	?a is described to concentrate ?b on ?c
+		?a: An ultracentrifugation procedure
+		?b: protein solutions
+		?c: the microliter scale
+
+
+label:    sent_12
+sentence: Long-term prophylaxis of hereditary angioedema with a pasteurized C1 inhibitor concentrate .
+
+ppatt:
+
+
+
+label:    sent_13
+sentence: Blood safety and the choice of anti-hemophilic factor concentrate .
+
+ppatt:
+
+
+
+label:    sent_14
+sentence: Efficacy of fibrinogen and prothrombin complex concentrate used to reverse dilutional coagulopathy -- a porcine model .
+
+ppatt:
+	?a concentrate used to reverse ?b ?c
+		?a: Efficacy of fibrinogen and prothrombin complex
+		?b: dilutional coagulopathy
+		?c: a porcine model
+
+
+label:    sent_15
+sentence: Chemical and physical changes in milk protein concentrate ( MPC80 ) powder during storage .
+
+ppatt:
+	?a concentrate ?b during ?c
+		?a: Chemical and physical changes in milk protein
+		?b: MPC80 ) powder
+		?c: storage
+
+
+label:    sent_16
+sentence: Proton beam therapy can concentrate the dose on a tumour . Factor VIII concentrate for hemophilia : comparison of two heat-treated products .
+
+ppatt:
+	?a can concentrate ?b on ?c
+		?a: Proton beam therapy
+		?b: the dose
+		?c: a tumour . Factor
+	?a concentrate for ?b
+		?a: VIII
+		?b: hemophilia
+
+
+label:    sent_17
+sentence: Further research should concentrate on the health and needs of these co-residents .
+
+ppatt:
+	?a should concentrate on ?b
+		?a: Further research
+		?b: the health
+	?a needs of ?b
+		?a: Further research
+		?b: these co-residents
+
+
+label:    sent_18
+sentence: Similarities concentrate in the C-terminal parts , and gaps in the middle . AG does not concentrate in the tumour , but distributes throughout the body .
+
+ppatt:
+	?a concentrate in ?b
+		?a: Similarities
+		?b: the C-terminal parts
+	?a does not concentrate in ?b
+		?a: gaps in the middle . AG
+		?b: the tumour
+	?a distributes throughout ?b
+		?a: gaps in the middle . AG
+		?b: the body
+
+
+label:    sent_19
+sentence: Only seven countries concentrate 60 % of the papers led by developing country institutions .
+
+ppatt:
+	?a concentrate ?b
+		?a: Only seven countries
+		?b: 60 % of the papers
+	?a led by ?b
+		?a: Only seven countries
+		?b: developing country institutions
+
+
+label:    sent_20
+sentence: Unstable angina associated with factor VIII concentrate therapy for hemophilia A . Factor IX concentrate therapy and thrombosis : relation to changes in plasma antithrombin III .
+
+ppatt:
+	?a associated with ?b
+		?a: Unstable angina
+		?b: factor VIII
+	?a concentrate ?b
+		?a: Unstable angina associated with factor VIII
+		?b: therapy for hemophilia A . Factor IX
+	?a concentrate ?b
+		?a: Unstable angina associated with factor VIII
+		?b: therapy
+	?a concentrate ?b
+		?a: Unstable angina associated with factor VIII
+		?b: thrombosis
+
+
+label:    sent_21
+sentence: We show that autophagosomes associate with microtubules and concentrate near the microtubule-organizing center .
+
+ppatt:
+	?a show ?b
+		?a: We
+		?b: SOMETHING := autophagosomes associate with microtubules
+	?a associate with ?b
+		?a: autophagosomes
+		?b: microtubules
+	?a concentrate near ?b
+		?a: autophagosomes
+		?b: the microtubule-organizing center
+
+
+label:    sent_22
+sentence: The device needs no tracking system and will concentrate on a cloudy day .
+
+ppatt:
+	?a needs ?b
+		?a: The device
+		?b: no tracking system
+	?a will concentrate on ?b
+		?a: The device
+		?b: a cloudy day
+
+
+label:    sent_23
+sentence: We suggest them to be as specific as possible and concentrate on fiber-related behavior .
+
+ppatt:
+	?a suggest ?b to be as specific as ?c
+		?a: We
+		?b: them
+		?c: possible
+	?a suggest to be concentrate on ?b
+		?a: We
+		?b: fiber-related behavior
+
+
+label:    sent_24
+sentence: Vasopressin acts in the kidneys to concentrate urine and reduce plasma osmolality .
+
+ppatt:
+	?a acts in ?b to concentrate ?c
+		?a: Vasopressin
+		?b: the kidneys
+		?c: urine
+	?a acts to reduce ?b
+		?a: Vasopressin
+		?b: plasma osmolality
+
+
+label:    sent_25
+sentence: Using trichloroacetic Acid to concentrate proteins and remove interfering substances .
+
+ppatt:
+	Using ?a
+		?a: trichloroacetic Acid
+	concentrate ?a
+		?a: proteins
+	remove ?a
+		?a: interfering substances
+
+
+label:    sent_26
+sentence: Using deoxycholate and trichloroacetic Acid to concentrate proteins and remove interfering substances .
+
+ppatt:
+	Using ?a
+		?a: deoxycholate
+	Using ?a
+		?a: trichloroacetic Acid
+	concentrate ?a
+		?a: proteins
+	remove ?a
+		?a: interfering substances
+
+

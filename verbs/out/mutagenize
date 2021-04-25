@@ -1,0 +1,40 @@
+label:    sent_1
+sentence: There are different ways to mutagenize flies .
+
+ppatt:
+	There are ?a
+		?a: different ways to mutagenize flies
+	?a mutagenize ?b
+		?a: different ways
+		?b: flies
+
+
+label:    sent_2
+sentence: To mutagenize rice genomes , a two-element system is utilized .
+
+ppatt:
+	mutagenize ?a ?b
+		?a: rice genomes
+		?b: a two-element system
+	?a is utilized
+		?a: a two-element system
+
+
+label:    sent_3
+sentence: Transposable elements with potential application to mutagenize pathogenic nocardioform actinomycetes are described .
+
+ppatt:
+	?a are described
+		?a: Transposable elements with potential application to mutagenize pathogenic nocardioform actinomycetes
+
+
+label:    sent_4
+sentence: Transposon Tn10 was used to mutagenize the fadR gene in Escherichia coli .
+
+ppatt:
+	?a was used to mutagenize ?b in ?c
+		?a: Transposon Tn10
+		?b: the fadR gene
+		?c: Escherichia coli
+
+

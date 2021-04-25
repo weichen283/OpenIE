@@ -1,0 +1,292 @@
+label:    sent_1
+sentence: Myosin IIA/IIB restrict adhesive and protrusive signaling to generate front-back polarity in migrating cells .
+
+ppatt:
+	?a restrict ?b
+		?a: Myosin IIA/IIB
+		?b: adhesive and protrusive signaling
+	?a generate ?b
+		?a: Myosin IIA/IIB
+		?b: front-back polarity in migrating cells
+
+
+label:    sent_2
+sentence: Attempts to reduce or restrict supply in one area may increase demand in others .
+
+ppatt:
+	?a reduce ?b
+		?a: Attempts
+		?b: supply in one area
+	?a restrict
+		?a: Attempts
+	?a may increase ?b
+		?a: Attempts to reduce or restrict supply in one area
+		?b: demand in others
+
+
+label:    sent_3
+sentence: Prophylactic ankle taping with nonelastic sports tape has been used to restrict ankle inversion .
+
+ppatt:
+	?a has been used to restrict ?b
+		?a: Prophylactic ankle taping with nonelastic sports tape
+		?b: ankle inversion
+
+
+label:    sent_4
+sentence: The focus on employer-provided health insurance in the United States may restrict business creation .
+
+ppatt:
+	?a may restrict ?b
+		?a: The focus on employer-provided health insurance in the United States
+		?b: business creation
+
+
+label:    sent_5
+sentence: Extreme caution should restrict the application of such results to clinical decision-making .
+
+ppatt:
+	?a should restrict ?b
+		?a: Extreme caution
+		?b: the application of such results to clinical decision-making
+
+
+label:    sent_6
+sentence: Most plant-microbe interactions do not result in disease ; natural products restrict non-host pathogens .
+
+ppatt:
+	?a do not result in ?b
+		?a: Most plant-microbe interactions
+		?b: disease
+	?a restrict ?b
+		?a: natural products
+		?b: non-host pathogens
+
+
+label:    sent_7
+sentence: It would be an oversimplification to restrict IL-17 to Th17 cells .
+
+ppatt:
+	?a would be an oversimplification
+		?a: It
+	?a restrict ?b to ?c
+		?a: an oversimplification
+		?b: IL-17
+		?c: Th17 cells
+
+
+label:    sent_8
+sentence: Mid-urethral slings support the mid-urethra and restrict downward movement during different activities . U.S. seeks to more tightly restrict doctors ' billings for medical tests .
+
+ppatt:
+	?a support ?b
+		?a: Mid-urethral slings
+		?b: the mid-urethra
+	?a restrict ?b during ?c
+		?a: Mid-urethral slings
+		?b: downward movement
+		?c: different activities
+	?a seeks to more tightly restrict ?b for ?c
+		?a: U.S.
+		?b: doctors ' billings
+		?c: medical tests
+
+
+label:    sent_9
+sentence: This provides the rationale for recommendations to restrict dietary phosphate intake to 800 mg/d .
+
+ppatt:
+	?a provides ?b
+		?a: This
+		?b: the rationale for recommendations to restrict dietary phosphate intake to 800 mg/d
+	?a restrict ?b to ?c
+		?a: recommendations
+		?b: dietary phosphate intake
+		?c: 800 mg/d
+
+
+label:    sent_10
+sentence: Concerns about NAS should not restrict the methadone dosing during pregnancy .
+
+ppatt:
+	?a should not restrict ?b during ?c
+		?a: Concerns about NAS
+		?b: the methadone dosing
+		?c: pregnancy
+
+
+label:    sent_11
+sentence: Throughout this review we restrict our attention to epidemiological issues .
+
+ppatt:
+	Throughout ?a ?b restrict ?c to ?d
+		?a: this review
+		?b: we
+		?c: our attention
+		?d: epidemiological issues
+
+
+label:    sent_12
+sentence: These behaviors may represent a successful strategy to restrict calories and maximize satiety .
+
+ppatt:
+	?a may represent ?b
+		?a: These behaviors
+		?b: a successful strategy to restrict calories and maximize satiety
+	?a restrict ?b
+		?a: a successful strategy
+		?b: calories
+	maximize ?a
+		?a: satiety
+
+
+label:    sent_13
+sentence: This pathway has been shown to restrict cell division and promote apoptosis .
+
+ppatt:
+	?a has been shown to restrict ?b
+		?a: This pathway
+		?b: cell division
+	?a has been shown to promote ?b
+		?a: This pathway
+		?b: apoptosis
+
+
+label:    sent_14
+sentence: In normal tissues , TGF-beta generally acts to restrict growth and maintain differentiation .
+
+ppatt:
+	In ?a , ?b generally acts to restrict ?c
+		?a: normal tissues
+		?b: TGF-beta
+		?c: growth
+	?a generally acts to maintain ?b
+		?a: TGF-beta
+		?b: differentiation
+
+
+label:    sent_15
+sentence: Evidence-based guidelines are recommendations for therapy , but they do not restrict therapeutic freedom .
+
+ppatt:
+	?a are recommendations for ?b
+		?a: Evidence-based guidelines
+		?b: therapy
+	?a do not restrict ?b
+		?a: they
+		?b: therapeutic freedom
+
+
+label:    sent_16
+sentence: Neglect may restrict the activities of patients and reduce their quality of life .
+
+ppatt:
+	?a may restrict ?b
+		?a: Neglect
+		?b: the activities of patients
+	?a reduce ?b
+		?a: Neglect
+		?b: their quality of life
+
+
+label:    sent_17
+sentence: Patients with bilateral dysfunction often restrict their activities and tend to be unsocial .
+
+ppatt:
+	?a often restrict ?b
+		?a: Patients with bilateral dysfunction
+		?b: their activities
+	?a tend to be unsocial
+		?a: Patients with bilateral dysfunction
+
+
+label:    sent_18
+sentence: These capacity bottlenecks restrict our ability to process and act on environmental information .
+
+ppatt:
+	?a restrict ?b
+		?a: These capacity bottlenecks
+		?b: our ability to process and act on environmental information
+	?a process
+		?a: our ability
+	act on ?a
+		?a: environmental information
+
+
+label:    sent_19
+sentence: Promoters can be cell specific and restrict transgene expression to certain tissue and organs .
+
+ppatt:
+	?a can be ?b specific
+		?a: Promoters
+		?b: cell
+	?a restrict ?b
+		?a: Promoters
+		?b: transgene expression to certain tissue and organs
+
+
+label:    sent_20
+sentence: They are impractical to handle and restrict classifying pain as either somatogenic or psychogenic .
+
+ppatt:
+	?a are impractical to handle ?b as ?c
+		?a: They
+		?b: pain
+		?c: somatogenic
+	?a are impractical to handle ?b as ?c
+		?a: They
+		?b: pain
+		?c: psychogenic
+	?a are impractical to restrict
+		?a: They
+	?a are impractical to classifying
+		?a: They
+
+
+label:    sent_21
+sentence: The need for coronary artery surgery : expand or restrict ? A European view . Competition and coexistence : exploring mechanisms that restrict and maintain diversity within mutualist guilds .
+
+ppatt:
+	exploring ?a
+		?a: mechanisms that restrict and maintain diversity within mutualist guilds
+	?a restrict ?b
+		?a: mechanisms
+		?b: diversity within mutualist guilds
+	?a maintain
+		?a: that
+
+
+label:    sent_22
+sentence: To restrict or not to restrict ? The serologically cross-reacting antigens A2 and A28 did not restrict mutually .
+
+ppatt:
+	restrict ?a
+		?a: The serologically cross-reacting antigens
+	not to restrict ?a
+		?a: The serologically cross-reacting antigens
+	?a did not restrict mutually
+		?a: The serologically cross-reacting antigens
+
+
+label:    sent_23
+sentence: The mechanisms that restrict selfrenewal are likely to play a role during aging .
+
+ppatt:
+	?a restrict ?b
+		?a: The mechanisms
+		?b: selfrenewal
+	?a are likely to play ?b during ?c
+		?a: The mechanisms that restrict selfrenewal
+		?b: a role
+		?c: aging
+
+
+label:    sent_24
+sentence: Monogamous societies do not always restrict a husband 's waywardness .
+
+ppatt:
+	?a do not always restrict ?b
+		?a: Monogamous societies
+		?b: a husband 's waywardness
+
+

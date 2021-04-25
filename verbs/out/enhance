@@ -1,0 +1,334 @@
+label:    sent_1
+sentence: This might be a promising way to enhance biodegradation of PAHs .
+
+ppatt:
+	?a might be a promising way
+		?a: This
+	?a enhance ?b
+		?a: a promising way
+		?b: biodegradation of PAHs
+
+
+label:    sent_2
+sentence: Strategies are suggested to enhance the accessibility of services .
+
+ppatt:
+	?a are suggested to enhance ?b
+		?a: Strategies
+		?b: the accessibility of services
+
+
+label:    sent_3
+sentence: Many meditation practices are explicitly designed to enhance specific , well-defined core cognitive processes .
+
+ppatt:
+	?a are explicitly designed to enhance ?b
+		?a: Many meditation practices
+		?b: specific , core cognitive processes
+
+
+label:    sent_4
+sentence: Neurotrophin gradients distal to the bridge greatly enhance axon outgrowth . Interventions to enhance return-to-work for cancer patients .
+
+ppatt:
+	?a greatly enhance ?b ?c
+		?a: Neurotrophin gradients distal to the bridge
+		?b: axon outgrowth
+		?c: Interventions to enhance return-to-work for cancer patients
+	?a enhance ?b
+		?a: Interventions
+		?b: return-to-work for cancer patients
+
+
+label:    sent_5
+sentence: Use of peer teaching to enhance student and patient education .
+
+ppatt:
+	?a enhance ?b
+		?a: Use of peer teaching
+		?b: student
+	?a enhance ?b
+		?a: Use of peer teaching
+		?b: patient
+	?a enhance ?b
+		?a: Use of peer teaching
+		?b: education
+
+
+label:    sent_6
+sentence: Novel materials to enhance corneal epithelial cell migration on keratoprosthesis .
+
+ppatt:
+	?a enhance ?b
+		?a: Novel materials
+		?b: corneal epithelial cell migration on keratoprosthesis
+
+
+label:    sent_7
+sentence: All the three phytochemicals enhance 2DG uptake both in time- and dose-dependent manner .
+
+ppatt:
+	?a enhance ?b in ?c
+		?a: All the three phytochemicals
+		?b: 2DG uptake
+		?c: time- and dose-dependent manner
+
+
+label:    sent_8
+sentence: Comparison of five different targeting ligands to enhance accumulation of liposomes into the brain .
+
+ppatt:
+	?a enhance ?b
+		?a: Comparison of five different targeting ligands
+		?b: accumulation of liposomes into the brain
+
+
+label:    sent_9
+sentence: Plasmonic nanostructures offer a great potential to enhance light-matter interaction at the nanometer scale .
+
+ppatt:
+	?a offer ?b
+		?a: Plasmonic nanostructures
+		?b: a great potential to enhance light-matter interaction at the nanometer scale
+	?a enhance ?b at ?c
+		?a: a great potential
+		?b: light-matter interaction
+		?c: the nanometer scale
+
+
+label:    sent_10
+sentence: Towards a strategy to enhance access to microbial diversity .
+
+ppatt:
+	?a enhance ?b
+		?a: a strategy
+		?b: access to microbial diversity
+
+
+label:    sent_11
+sentence: The Performance Enhancement Training Model was developed to enhance performance with this non-patient population .
+
+ppatt:
+	?a was developed to enhance ?b
+		?a: The Performance Enhancement Training Model
+		?b: performance with this non-patient population
+
+
+label:    sent_12
+sentence: These stressors could undermine rather than enhance clinical confidence .
+
+ppatt:
+	?a could undermine
+		?a: These stressors
+	?a enhance ?b
+		?a: These stressors
+		?b: clinical confidence
+
+
+label:    sent_13
+sentence: The reporting time serves to enhance group identity , reduce anxieties and relieve isolation .
+
+ppatt:
+	?a serves to enhance ?b
+		?a: The reporting time
+		?b: group identity
+	?a reduce ?b
+		?a: The reporting time
+		?b: anxieties
+	?a relieve ?b
+		?a: The reporting time
+		?b: isolation
+
+
+label:    sent_14
+sentence: Targeted programming to enhance body image and address teasing/bullying behaviors is strongly recommended .
+
+ppatt:
+	?a enhance ?b
+		?a: Targeted programming
+		?b: body image
+	?a address ?b
+		?a: Targeted programming
+		?b: teasing/bullying behaviors
+	?a is strongly recommended
+		?a: Targeted programming to enhance body image and address teasing/bullying behaviors
+
+
+label:    sent_15
+sentence: Carbon nanotubes enhance CpG uptake and potentiate antiglioma immunity .
+
+ppatt:
+	?a enhance ?b
+		?a: Carbon nanotubes
+		?b: CpG uptake
+	?a potentiate ?b
+		?a: Carbon nanotubes
+		?b: antiglioma immunity
+
+
+label:    sent_16
+sentence: Greater standardization could enhance patient care and reduce health care costs .
+
+ppatt:
+	?a could enhance ?b
+		?a: Greater standardization
+		?b: patient care
+	?a reduce ?b
+		?a: Greater standardization
+		?b: health care costs
+
+
+label:    sent_17
+sentence: Both strategies enhance model predictability and will be elucidated by an example application .
+
+ppatt:
+	?a enhance ?b
+		?a: Both strategies
+		?b: model predictability
+	?a will be elucidated by ?b
+		?a: Both strategies
+		?b: an example application
+
+
+label:    sent_18
+sentence: BHT can either enhance or inhibit mutagenic potency , depending on the substance tested .
+
+ppatt:
+	?a can either enhance ?b
+		?a: BHT
+		?b: mutagenic potency
+	?a inhibit
+		?a: BHT
+	?a depending on the substance
+		?a: BHT
+	?a tested
+		?a: the substance
+
+
+label:    sent_19
+sentence: Unlike TBOA , DHK did not enhance the tail current but rather inhibited it . In addition , these systems enhance reproducibility and significantly reduce reaction times .
+
+ppatt:
+	Unlike ?a , ?b did not enhance ?c
+		?a: TBOA
+		?b: DHK
+		?c: the tail current
+	?a inhibited ?b
+		?a: DHK
+		?b: it
+	In ?a , ?b enhance ?c
+		?a: addition
+		?b: these systems
+		?c: reproducibility
+	?a significantly reduce ?b
+		?a: these systems
+		?b: reaction times
+
+
+label:    sent_20
+sentence: Health festivals were held annually to enhance health consciousnesses and to improve health behavior .
+
+ppatt:
+	?a were held annually to enhance ?b
+		?a: Health festivals
+		?b: health consciousnesses
+	?a were held annually to to improve ?b
+		?a: Health festivals
+		?b: health behavior
+
+
+label:    sent_21
+sentence: The results also highlighted factors that enhance and hinder the smooth delivery of care .
+
+ppatt:
+	?a also highlighted ?b
+		?a: The results
+		?b: factors that enhance and hinder the smooth delivery of care
+	?a enhance ?b
+		?a: factors
+		?b: the smooth delivery of care
+	?a hinder
+		?a: that
+
+
+label:    sent_22
+sentence: Mycobacteria have the ability to enhance or depress immune responses .
+
+ppatt:
+	?a have ?b
+		?a: Mycobacteria
+		?b: the ability to enhance or depress immune responses
+	?a enhance ?b
+		?a: the ability
+		?b: immune responses
+	depress ?a
+		?a: immune responses
+
+
+label:    sent_23
+sentence: Antiphlogistics were found to enhance the membrane viscosity both in control and under inflammation .
+
+ppatt:
+	?a were found to enhance ?b in ?c
+		?a: Antiphlogistics
+		?b: the membrane viscosity
+		?c: control
+	?a were found to enhance ?b in ?c
+		?a: Antiphlogistics
+		?b: the membrane viscosity
+		?c: inflammation
+
+
+label:    sent_24
+sentence: Lactobacillus reuteri supplementation decreases allergen responsiveness and may enhance immunoregulatory capacity during infancy . GH treatment increases height velocity and may enhance bone mineralization in children with CD .
+
+ppatt:
+	?a decreases ?b
+		?a: Lactobacillus reuteri supplementation
+		?b: allergen responsiveness
+	?a may enhance ?b during ?c
+		?a: Lactobacillus reuteri supplementation
+		?b: immunoregulatory capacity
+		?c: infancy
+	?a increases ?b
+		?a: GH treatment
+		?b: height velocity
+	?a may enhance ?b in ?c
+		?a: GH treatment
+		?b: bone mineralization
+		?c: children with CD
+
+
+label:    sent_25
+sentence: Alone , they did not enhance or inhibit apoptosis .
+
+ppatt:
+	Alone , ?a did not enhance ?b
+		?a: they
+		?b: apoptosis
+	?a inhibit
+		?a: they
+
+
+label:    sent_26
+sentence: Novel mutations that enhance or repress the aggregation potential of SOD1 .
+
+ppatt:
+	?a enhance ?b
+		?a: Novel mutations
+		?b: the aggregation potential of SOD1
+	?a repress
+		?a: that
+
+
+label:    sent_27
+sentence: Furthermore , oxidants enhance and antioxidants diminish radiation-induced instability .
+
+ppatt:
+	Furthermore , ?a enhance
+		?a: oxidants
+	?a diminish ?b
+		?a: antioxidants
+		?b: radiation-induced instability
+
+

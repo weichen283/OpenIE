@@ -1,0 +1,297 @@
+label:    sent_1
+sentence: Rupture of dormant cysts in the retina is the accepted hypothesis to explain recurrence .
+
+ppatt:
+	?a is the accepted hypothesis
+		?a: Rupture of dormant cysts in the retina
+	?a explain ?b
+		?a: the accepted hypothesis
+		?b: recurrence
+
+
+label:    sent_2
+sentence: The electrical shock itself did not seem to explain this phenomenon .
+
+ppatt:
+	?a did not seem to explain ?b
+		?a: The electrical shock itself
+		?b: this phenomenon
+
+
+label:    sent_3
+sentence: Current models to explain this genetic instability invoke erroneous DNA repair or aberrant replication .
+
+ppatt:
+	?a explain ?b
+		?a: Current models
+		?b: this genetic instability
+	?a invoke ?b
+		?a: Current models to explain this genetic instability
+		?b: erroneous DNA repair
+	?a invoke ?b
+		?a: Current models to explain this genetic instability
+		?b: aberrant replication
+
+
+label:    sent_4
+sentence: Can personal and environmental factors explain dimensions of child participation ? However , harmful behaviour did not explain this relationship .
+
+ppatt:
+	Can ?a explain ?b
+		?a: personal
+		?b: dimensions of child participation
+	Can ?a explain ?b
+		?a: environmental
+		?b: dimensions of child participation
+	However , ?a did not explain ?b
+		?a: harmful behaviour
+		?b: this relationship
+
+
+label:    sent_5
+sentence: Nor , were there data to explain the differences in insulin secretion .
+
+ppatt:
+	were there ?a
+		?a: data to explain the differences in insulin secretion
+	?a explain ?b
+		?a: data
+		?b: the differences in insulin secretion
+
+
+label:    sent_6
+sentence: The phenotypic observations might in part explain unanticipated ( side- ) effects of tramadol .
+
+ppatt:
+	?a might in ?b explain ?c
+		?a: The phenotypic observations
+		?b: part
+		?c: unanticipated effects of tramadol
+
+
+label:    sent_7
+sentence: Incretin hormones could explain at least in part this impaired glucose homeostasis .
+
+ppatt:
+	?a could explain in ?b ?c
+		?a: Incretin hormones
+		?b: at least part
+		?c: this impaired glucose homeostasis
+
+
+label:    sent_8
+sentence: In moderator analyses , parenthood could not explain variability in effect sizes . They explain why nitric acid promotes the Tc ( VII ) extraction .
+
+ppatt:
+	In ?a , ?b could not explain ?c
+		?a: moderator analyses
+		?b: parenthood
+		?c: variability in effect sizes
+	?a explain ?b
+		?a: They
+		?b: SOMETHING := why nitric acid promotes the Tc extraction
+	why ?a promotes ?b
+		?a: nitric acid
+		?b: the Tc extraction
+	?a is/are VII
+		?a: Tc
+
+
+label:    sent_9
+sentence: These findings explain why spontaneous correction of hypotelorism occurs postoperatively in trigonocephaly .
+
+ppatt:
+	?a explain ?b
+		?a: These findings
+		?b: SOMETHING := why spontaneous correction of hypotelorism occurs postoperatively in trigonocephaly
+	why ?a occurs postoperatively in ?b
+		?a: spontaneous correction of hypotelorism
+		?b: trigonocephaly
+
+
+label:    sent_10
+sentence: This redundancy may explain why an Y332C variant did not alter STAT5b signaling .
+
+ppatt:
+	?a may explain
+		?a: This redundancy
+	why ?a did not alter ?b
+		?a: an Y332C variant
+		?b: STAT5b signaling
+
+
+label:    sent_11
+sentence: Implementation of ACT varies and these differences may explain variability in reported efficacy .
+
+ppatt:
+	?a varies
+		?a: Implementation of ACT
+	?a may explain ?b
+		?a: these differences
+		?b: variability in reported efficacy
+
+
+label:    sent_12
+sentence: We explain the principle of operation and present experimental results .
+
+ppatt:
+	?a explain ?b
+		?a: We
+		?b: the principle of operation and present experimental results
+
+
+label:    sent_13
+sentence: This may explain the protective effect of ALA against cardiovascular diseases and sudden death . Is it possible to explain complex mental disorders at the biological level ? Our results may help explain discrepant findings across NH studies .
+
+ppatt:
+	?a may explain ?b
+		?a: This
+		?b: the protective effect of ALA against cardiovascular diseases and sudden death
+	Is ?a possible to explain ?b at ?c
+		?a: it
+		?b: complex mental disorders
+		?c: the biological level
+	?a may help explain ?b
+		?a: Our results
+		?b: discrepant findings across NH studies
+
+
+label:    sent_14
+sentence: Several theories have been proposed to explain age-related declines in immune responses . PRT is delayed in blacks but does not explain differences in survival . Washed cycad flour contains beta-N-methyl amino-L-alanine and may explain parkinsonism symptoms .
+
+ppatt:
+	?a have been proposed to explain ?b
+		?a: Several theories
+		?b: age-related declines in immune responses
+	?a is delayed in ?b
+		?a: PRT
+		?b: blacks
+	?a have been proposed to does not explain ?b
+		?a: Several theories
+		?b: differences in survival
+	?a contains ?b
+		?a: Washed cycad flour
+		?b: beta-N-methyl amino-L-alanine
+	?a may explain ?b
+		?a: Washed cycad flour
+		?b: parkinsonism symptoms
+
+
+label:    sent_15
+sentence: Mechanisms so far considered are site specific and do not explain multiple associations .
+
+ppatt:
+	?a so far considered
+		?a: Mechanisms
+	?a are ?b specific
+		?a: Mechanisms so far considered
+		?b: site
+	?a do not explain ?b
+		?a: Mechanisms so far considered
+		?b: multiple associations
+
+
+label:    sent_16
+sentence: The medium stratum shows atypical behavior which it was difficult to explain and understand .
+
+ppatt:
+	?a shows ?b
+		?a: The medium stratum
+		?b: atypical behavior which it was difficult to explain and understand
+	?a ?b was difficult to explain
+		?a: atypical behavior
+		?b: it
+	?a was difficult to understand
+		?a: it
+
+
+label:    sent_17
+sentence: The model is able to both explain and predict experimental data . The Integrated Change Model is valid to explain and predict the continuation of breast-feeding .
+
+ppatt:
+	?a is able to both explain ?b
+		?a: The model
+		?b: experimental data
+	?a is able to both predict
+		?a: The model
+	?a is valid to explain ?b
+		?a: The Integrated Change Model
+		?b: the continuation of breast-feeding
+	?a is valid to predict
+		?a: The Integrated Change Model
+
+
+label:    sent_18
+sentence: Soil does not explain monodominance in a Central African tropical forest . This may explain , in part , how VPA disrupts development .
+
+ppatt:
+	?a does not explain ?b in ?c
+		?a: Soil
+		?b: monodominance
+		?c: a Central African tropical forest
+	?a may explain , in ?b ?c
+		?a: This
+		?b: part
+		?c: SOMETHING := how VPA disrupts development
+	how ?a disrupts ?b
+		?a: VPA
+		?b: development
+
+
+label:    sent_19
+sentence: In the remainder , technical factors or artefacts could explain the non-visualisation .
+
+ppatt:
+	In ?a , ?b could explain ?c
+		?a: the remainder
+		?b: technical factors
+		?c: the non-visualisation
+	In ?a , ?b could explain ?c
+		?a: the remainder
+		?b: artefacts
+		?c: the non-visualisation
+
+
+label:    sent_20
+sentence: Hypotheses that might explain urinary incontinence during pregnancy and after childbirth have been examined .
+
+ppatt:
+	?a might explain ?b during ?c
+		?a: Hypotheses
+		?b: urinary incontinence
+		?c: pregnancy
+	?a might explain ?b during ?c
+		?a: Hypotheses
+		?b: urinary incontinence
+		?c: childbirth
+	?a have been examined
+		?a: Hypotheses that might explain urinary incontinence during pregnancy and after childbirth
+
+
+label:    sent_21
+sentence: During the consultation , investigators explain their project and identify challenges .
+
+ppatt:
+	During ?a , ?b explain ?c
+		?a: the consultation
+		?b: investigators
+		?c: their project
+	?a identify ?b
+		?a: investigators
+		?b: challenges
+
+
+label:    sent_22
+sentence: Different mechanisms could explain such desensitization phenomena at the receptor and post receptor level .
+
+ppatt:
+	?a could explain ?b at ?c
+		?a: Different mechanisms
+		?b: such desensitization phenomena
+		?c: receptor
+	?a could explain ?b at ?c
+		?a: Different mechanisms
+		?b: such desensitization phenomena
+		?c: post
+
+

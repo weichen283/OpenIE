@@ -1,0 +1,373 @@
+label:    sent_1
+sentence: Ba109 induced smaller lesions and a mixed inflammatory infiltrate without necrosis or ulceration .
+
+ppatt:
+	?a induced ?b without ?c
+		?a: Ba109
+		?b: smaller lesions
+		?c: necrosis
+	?a induced ?b without ?c
+		?a: Ba109
+		?b: a mixed inflammatory infiltrate
+		?c: necrosis
+	?a induced ?b without ?c
+		?a: Ba109
+		?b: smaller lesions
+		?c: ulceration
+	?a induced ?b without ?c
+		?a: Ba109
+		?b: a mixed inflammatory infiltrate
+		?c: ulceration
+
+
+label:    sent_2
+sentence: Peripheral blood mononuclear cells ( PBMCs ) increase after acute myocardial infarction ( AMI ) and infiltrate to the infarct region .
+
+ppatt:
+	?a is/are PBMCs
+		?a: Peripheral blood mononuclear cells
+	?a increase after ?b
+		?a: Peripheral blood mononuclear cells
+		?b: acute myocardial infarction to the infarct region
+	?a increase after ?b
+		?a: Peripheral blood mononuclear cells
+		?b: infiltrate
+	?a is/are AMI
+		?a: acute myocardial infarction to the infarct region
+	?a is/are AMI
+		?a: infiltrate
+
+
+label:    sent_3
+sentence: Mice infected with Ba125 and Ba276 progressed rapidly and lesions displayed an infiltrate rich in parasitized macrophages and were necrotic and ulcerated .
+
+ppatt:
+	?a infected with ?b
+		?a: Mice
+		?b: Ba125
+	?a infected with ?b
+		?a: Mice
+		?b: Ba276
+	?a progressed rapidly
+		?a: Mice infected with Ba125 and Ba276
+	?a displayed ?b
+		?a: lesions
+		?b: an infiltrate rich in parasitized macrophages
+
+
+label:    sent_4
+sentence: These functional properties enable reactive cholangiocytes to establish intimate contacts and to mutually exchange a variety of paracrine signals with the different mesenchymal cell types populating the portal infiltrate .
+
+ppatt:
+	?a enable ?b to establish ?c
+		?a: These functional properties
+		?b: reactive cholangiocytes
+		?c: intimate contacts
+	?a enable to to mutually exchange ?b
+		?a: These functional properties
+		?b: a variety of paracrine signals with the different mesenchymal cell types populating the portal infiltrate
+	?a populating ?b
+		?a: the different mesenchymal cell types
+		?b: the portal infiltrate
+
+
+label:    sent_5
+sentence: A graft biopsy in patient 2 excluded acute graft rejection , but showed a focal inflammatory infiltrate , mostly granulocytes .
+
+ppatt:
+	?a excluded ?b
+		?a: A graft biopsy in patient 2
+		?b: acute graft rejection
+	?a showed ?b
+		?a: A graft biopsy in patient 2
+		?b: a focal inflammatory infiltrate
+	?a is/are mostly granulocytes
+		?a: a focal inflammatory infiltrate
+
+
+label:    sent_6
+sentence: Histology showed epidermal spongiosis with subcorneal pustules and a dermal infiltrate with eosinophils and neutrophils .
+
+ppatt:
+	?a showed ?b
+		?a: Histology
+		?b: epidermal spongiosis with subcorneal pustules and a dermal infiltrate with eosinophils and neutrophils
+
+
+label:    sent_7
+sentence: Several skin biopsies showed a neutrophilic infiltrate throughout the fatty tissue lobules , without vasculitis and without any evidence of bacterial infection .
+
+ppatt:
+	?a showed ?b throughout ?c , without ?d
+		?a: Several skin biopsies
+		?b: a neutrophilic infiltrate
+		?c: the fatty tissue lobules
+		?d: vasculitis
+	?a showed ?b throughout ?c , without ?d
+		?a: Several skin biopsies
+		?b: a neutrophilic infiltrate
+		?c: the fatty tissue lobules
+		?d: any evidence of bacterial infection
+
+
+label:    sent_8
+sentence: We developed experimental autoimmune orchitis ( EAO ) in rats by active immunization with spermatic antigens and adjuvants characterized by interstitial inflammatory cell infiltrate , apoptosis and sloughing of germ cells .
+
+ppatt:
+	?a developed ?b by ?c
+		?a: We
+		?b: experimental autoimmune orchitis in rats
+		?c: active immunization with spermatic antigens and adjuvants characterized by interstitial inflammatory cell infiltrate , apoptosis and sloughing of germ cells
+	?a is/are EAO
+		?a: experimental autoimmune orchitis in rats
+	?a characterized by ?b
+		?a: active immunization with spermatic antigens and adjuvants
+		?b: interstitial inflammatory cell infiltrate , of germ cells
+	?a characterized by ?b
+		?a: active immunization with spermatic antigens and adjuvants
+		?b: apoptosis
+	?a characterized by ?b
+		?a: active immunization with spermatic antigens and adjuvants
+		?b: sloughing
+
+
+label:    sent_9
+sentence: Biopsy specimens from paediatric ( <10 years , n=14 ; >12 years , n=15 ) and adult ( n=27 ) IgAN showed a significant infiltrate of CD68 ( + ) macrophages .
+
+ppatt:
+	?a is/are n=15
+		?a: >12 years
+	?a is/are n=27
+		?a: adult
+	?a showed ?b
+		?a: Biopsy specimens from paediatric and adult IgAN
+		?b: a significant infiltrate of CD68 ( + ) macrophages
+
+
+label:    sent_10
+sentence: Pathological analysis of the tumor mass showed an infiltrate of immature cells which were positive for CD13 , CD33 , CD15 , CD11b , and CD64 , and negative for CD34 , CD117 , and HLA-DR .
+
+ppatt:
+	?a showed ?b
+		?a: Pathological analysis of the tumor mass
+		?b: an infiltrate of immature cells which were positive for CD13 , CD33 , CD15 , CD11b , and CD64 , and negative for CD34 , CD117 , and HLA-DR
+	?a were positive for ?b
+		?a: an infiltrate of immature cells
+		?b: CD13
+	?a were positive for ?b
+		?a: an infiltrate of immature cells
+		?b: CD33
+	?a were positive for ?b
+		?a: an infiltrate of immature cells
+		?b: CD15
+	?a were positive for ?b
+		?a: an infiltrate of immature cells
+		?b: CD11b
+	?a were positive for ?b
+		?a: an infiltrate of immature cells
+		?b: CD64
+	?a negative for ?b
+		?a: which
+		?b: CD34
+	?a negative for ?b
+		?a: which
+		?b: CD117
+	?a negative for ?b
+		?a: which
+		?b: HLA-DR
+
+
+label:    sent_11
+sentence: Histologically , mycosis fungoids ( MF ) usually show a superficial perivascular or band-like lymphocytic infiltrate with epidermotropism .
+
+ppatt:
+	?a is/are MF
+		?a: mycosis fungoids
+	Histologically , ?a usually show ?b
+		?a: mycosis fungoids
+		?b: a superficial perivascular or band-like lymphocytic infiltrate with epidermotropism
+
+
+label:    sent_12
+sentence: There was an adjacent perivascular chronic inflammatory cell infiltrate with occasional eosinophils .
+
+ppatt:
+	There was ?a
+		?a: an adjacent perivascular chronic inflammatory cell infiltrate with occasional eosinophils
+
+
+label:    sent_13
+sentence: The histological findings confirmed that the lower amounts of inflammatory cells and fibroblasts infiltrate in SD208-C / GP group .
+
+ppatt:
+	?a confirmed ?b
+		?a: The histological findings
+		?b: SOMETHING := the lower amounts of inflammatory cells and fibroblasts infiltrate in SD208-C / GP group
+	?a infiltrate in ?b
+		?a: the lower amounts of inflammatory cells and fibroblasts
+		?b: SD208-C / GP group
+
+
+label:    sent_14
+sentence: Over a short period of time , these symptoms become indolent , whereas inflammatory and immune cell infiltrate , including eosinophils , basophils , neutrophils , T lymphocytes , and monocytes , characterizes the late stages of the allergic response .
+
+ppatt:
+	Over ?a , ?b become indolent
+		?a: a short period of time
+		?b: these symptoms
+	?a characterizes ?b
+		?a: inflammatory and immune cell infiltrate , including eosinophils , basophils , neutrophils , T lymphocytes , and monocytes
+		?b: the late stages of the allergic response
+
+
+label:    sent_15
+sentence: Histological examination of the liver revealed inflammatory infiltrate and fibrosis , and the hepatic copper concentration was 444.4 microg/g dry weight .
+
+ppatt:
+	?a revealed ?b
+		?a: Histological examination of the liver
+		?b: inflammatory infiltrate
+	?a revealed ?b
+		?a: Histological examination of the liver
+		?b: fibrosis
+	?a was 444.4 microg/g dry weight
+		?a: the hepatic copper concentration
+
+
+label:    sent_16
+sentence: Understanding how pathogens exploit host receptor crosstalk mechanisms and infiltrate the host signalling network is essential for developing interventions to redirect the host response and achieve protective immunity .
+
+ppatt:
+	Understanding ?a
+		?a: SOMETHING := how pathogens exploit host receptor crosstalk mechanisms
+	how ?a exploit ?b
+		?a: pathogens
+		?b: host receptor crosstalk mechanisms
+	?a infiltrate ?b
+		?a: pathogens
+		?b: the host signalling network
+	?a is essential for ?b
+		?a: SOMETHING := Understanding how pathogens exploit host receptor crosstalk mechanisms and infiltrate the host signalling network
+		?b: developing interventions to redirect the host response and achieve protective immunity
+	?a redirect ?b
+		?a: developing interventions
+		?b: the host response
+	achieve ?a
+		?a: protective immunity
+
+
+label:    sent_17
+sentence: Absence of PAF receptor alters cellular infiltrate but not rolling and adhesion of leukocytes in experimental autoimmune encephalomyelitis .
+
+ppatt:
+	?a alters ?b in ?c
+		?a: Absence of PAF receptor
+		?b: cellular infiltrate
+		?c: experimental autoimmune encephalomyelitis
+	?a alters ?b in ?c
+		?a: Absence of PAF receptor
+		?b: rolling of leukocytes
+		?c: experimental autoimmune encephalomyelitis
+	?a alters ?b in ?c
+		?a: Absence of PAF receptor
+		?b: adhesion
+		?c: experimental autoimmune encephalomyelitis
+
+
+label:    sent_18
+sentence: Despite the impaired cytotoxicity of peripheral NK cells in human SLE patients and mouse SLE models , we provide evidence that CD226 ( + ) NK cells infiltrate the kidneys of predisease MRL-lpr / lpr mice .
+
+ppatt:
+	Despite ?a , ?b provide ?c
+		?a: the impaired cytotoxicity of peripheral NK cells in human SLE patients and mouse SLE models
+		?b: we
+		?c: evidence that CD226 ( + ) NK cells infiltrate the kidneys of predisease MRL-lpr / lpr mice
+	?a infiltrate ?b
+		?a: CD226 ) NK cells
+		?b: the kidneys of predisease MRL-lpr / lpr mice
+
+
+label:    sent_19
+sentence: Low-grade gliomas ( LGGs ) frequently infiltrate highly functional or " eloquent " brain areas .
+
+ppatt:
+	?a is/are LGGs
+		?a: Low-grade gliomas
+	?a frequently infiltrate ?b
+		?a: Low-grade gliomas
+		?b: highly functional or " eloquent " brain areas
+
+
+label:    sent_20
+sentence: There is a deficiency of SOCS-1 and SOCS-3 mRNA expression in CD4 ( + ) T cells that infiltrate the CNS , reflecting a deficiency in regulation .
+
+ppatt:
+	There is ?a , reflecting ?b
+		?a: a deficiency of SOCS-1 and SOCS-3 mRNA expression in CD4 ( + ) T cells that infiltrate the CNS
+		?b: a deficiency in regulation
+	?a infiltrate ?b
+		?a: CD4 ) T cells
+		?b: the CNS
+
+
+label:    sent_21
+sentence: Isolation of immune cells that infiltrate the central nervous system ( CNS ) during infection , trauma , autoimmunity or neurodegeneration , is often required to define their phenotype and effector functions .
+
+ppatt:
+	?a infiltrate ?b during ?c
+		?a: immune cells
+		?b: the central nervous system
+		?c: infection
+	?a infiltrate ?b during ?c
+		?a: immune cells
+		?b: the central nervous system
+		?c: trauma
+	?a infiltrate ?b during ?c
+		?a: immune cells
+		?b: the central nervous system
+		?c: autoimmunity
+	?a infiltrate ?b during ?c
+		?a: immune cells
+		?b: the central nervous system
+		?c: neurodegeneration
+	?a is/are CNS
+		?a: the central nervous system
+	?a is often required to define ?b
+		?a: Isolation of immune cells that infiltrate the central nervous system during infection , trauma , autoimmunity or neurodegeneration
+		?b: their phenotype
+	?a is often required to define ?b
+		?a: Isolation of immune cells that infiltrate the central nervous system during infection , trauma , autoimmunity or neurodegeneration
+		?b: effector functions
+
+
+label:    sent_22
+sentence: After skeletal muscle injury , neutrophils , monocytes , and macrophages infiltrate the damaged area ; this is followed by rapid proliferation of myoblasts derived from muscle stem cells ( also called satellite cells ) . Neutrophilic dermatoses are inflammatory disorders where normal neutrophils infiltrate the skin without infection .
+
+ppatt:
+	After ?a , ?b infiltrate ?c
+		?a: skeletal muscle injury
+		?b: neutrophils
+		?c: the damaged area
+	After ?a , ?b infiltrate ?c
+		?a: skeletal muscle injury
+		?b: monocytes
+		?c: the damaged area
+	After ?a , ?b infiltrate ?c
+		?a: skeletal muscle injury
+		?b: macrophages
+		?c: the damaged area
+	?a is followed by ?b
+		?a: this
+		?b: rapid proliferation of myoblasts derived from muscle stem cells
+	?a derived from ?b
+		?a: myoblasts
+		?b: muscle stem cells
+	?a are inflammatory disorders
+		?a: Neutrophilic dermatoses
+	?a where ?b infiltrate ?c without ?d
+		?a: inflammatory disorders
+		?b: normal neutrophils
+		?c: the skin
+		?d: infection
+
+

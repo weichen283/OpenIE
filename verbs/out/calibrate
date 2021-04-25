@@ -1,0 +1,266 @@
+label:    sent_1
+sentence: The phantom was used to calibrate the SCK * CEN WBC setup .
+
+ppatt:
+	?a was used to calibrate ?b
+		?a: The phantom
+		?b: the SCK * CEN WBC setup
+
+
+label:    sent_2
+sentence: Few have examined the accuracy of mechanical calibrators used to calibrate metabolic monitors .
+
+ppatt:
+	?a have examined ?b
+		?a: Few
+		?b: the accuracy of mechanical calibrators used to calibrate metabolic monitors
+	?a used to calibrate ?b
+		?a: mechanical calibrators
+		?b: metabolic monitors
+
+
+label:    sent_3
+sentence: Three fossil records were used to calibrate a molecular clock .
+
+ppatt:
+	?a were used to calibrate ?b
+		?a: Three fossil records
+		?b: a molecular clock
+
+
+label:    sent_4
+sentence: Developing practical wisdom requires researchers to calibrate their own intuitions about right and wrong .
+
+ppatt:
+	Developing ?a
+		?a: practical wisdom
+	?a requires ?b to calibrate ?c about ?d
+		?a: SOMETHING := Developing practical wisdom
+		?b: researchers
+		?c: their own intuitions
+		?d: right
+	?a requires ?b to calibrate ?c about ?d
+		?a: SOMETHING := Developing practical wisdom
+		?b: researchers
+		?c: their own intuitions
+		?d: wrong
+
+
+label:    sent_5
+sentence: We demonstrate a method to calibrate a Shack-Hartmann sensor as an orthographic camera .
+
+ppatt:
+	?a demonstrate ?b
+		?a: We
+		?b: a method to calibrate a Shack-Hartmann sensor as an orthographic camera
+	?a calibrate ?b as ?c
+		?a: a method
+		?b: a Shack-Hartmann sensor
+		?c: an orthographic camera
+
+
+label:    sent_6
+sentence: A procedure to calibrate capacitance-resistance probes in saline conditions was implemented in contrasting soils .
+
+ppatt:
+	?a calibrate ?b
+		?a: A procedure
+		?b: capacitance-resistance probes in saline conditions
+	?a was implemented in ?b
+		?a: A procedure to calibrate capacitance-resistance probes in saline conditions
+		?b: contrasting soils
+
+
+label:    sent_7
+sentence: The experimental results were used to calibrate a pore-network model and test its validity . Estimate and calibrate the magnification of images .
+
+ppatt:
+	?a were used to calibrate ?b
+		?a: The experimental results
+		?b: a pore-network model
+	?a were used to test ?b Estimate
+		?a: The experimental results
+		?b: its validity
+	?a were used to test calibrate ?b
+		?a: The experimental results
+		?b: the magnification of images
+
+
+label:    sent_8
+sentence: The Isokin 4.0 does not warm up and calibrate the isokinetic apparatus daily . Pot and plot experiments were used to calibrate and validate the simulations .
+
+ppatt:
+	?a does not warm the isokinetic apparatus daily
+		?a: The Isokin 4.0
+	?a calibrate
+		?a: The Isokin 4.0
+	?a ?b were used to calibrate ?c
+		?a: Pot
+		?b: experiments
+		?c: the simulations
+	?a ?b were used to calibrate ?c
+		?a: plot
+		?b: experiments
+		?c: the simulations
+	?a were used to validate
+		?a: Pot
+	?a were used to validate
+		?a: plot
+
+
+label:    sent_9
+sentence: Field data on pyrimethamine resistance are used to calibrate and test the model .
+
+ppatt:
+	?a are used to calibrate ?b
+		?a: Field data on pyrimethamine resistance
+		?b: the model
+	?a are used to test
+		?a: Field data on pyrimethamine resistance
+
+
+label:    sent_10
+sentence: Regulatory and monitoring data were used to calibrate and evaluate the model .
+
+ppatt:
+	?a were used to calibrate ?b
+		?a: Regulatory and monitoring data
+		?b: the model
+	?a were used to evaluate
+		?a: Regulatory and monitoring data
+
+
+label:    sent_11
+sentence: Challenges when using real-world bio-data to calibrate simulation systems .
+
+ppatt:
+	?a when using ?b
+		?a: Challenges
+		?b: real-world bio-data
+	calibrate ?a
+		?a: simulation systems
+
+
+label:    sent_12
+sentence: A practical method to calibrate self-reported adherence to antiretroviral therapy .
+
+ppatt:
+	?a calibrate ?b
+		?a: A practical method
+		?b: self-reported adherence to antiretroviral therapy
+
+
+label:    sent_13
+sentence: We calibrate our model using magnetic resonance images from very preterm neonates .
+
+ppatt:
+	?a calibrate ?b
+		?a: We
+		?b: our model using magnetic resonance images from very preterm neonates
+	?a using ?b
+		?a: our model
+		?b: magnetic resonance images from very preterm neonates
+
+
+label:    sent_14
+sentence: SdFFF cell sorting was associated with cellular characterization methods to calibrate specific elution profiles .
+
+ppatt:
+	?a was associated with ?b to calibrate ?c
+		?a: SdFFF cell sorting
+		?b: cellular characterization methods
+		?c: specific elution profiles
+
+
+label:    sent_15
+sentence: With this data set , users can trivially calibrate cantilevers of the same type .
+
+ppatt:
+	With ?a , ?b can trivially calibrate ?c
+		?a: this data set
+		?b: users
+		?c: cantilevers of the same type
+
+
+label:    sent_16
+sentence: Decision makers calibrate behavioral persistence on the basis of time-interval experience .
+
+ppatt:
+	?a calibrate ?b on ?c of ?d
+		?a: Decision makers
+		?b: behavioral persistence
+		?c: the basis
+		?d: time-interval experience
+
+
+label:    sent_17
+sentence: Accordingly , it was necessary to calibrate for the former first .
+
+ppatt:
+	Accordingly , ?a was necessary to calibrate for ?b
+		?a: it
+		?b: the former first
+
+
+label:    sent_18
+sentence: Subjects underwent training to calibrate to their range of shoulder strength capability .
+
+ppatt:
+	?a underwent ?b to calibrate to ?c
+		?a: Subjects
+		?b: training
+		?c: their range of shoulder strength capability
+
+
+label:    sent_19
+sentence: It is not possible to calibrate in this plane without the third plate .
+
+ppatt:
+	?a is not possible to calibrate in ?b without ?c
+		?a: It
+		?b: this plane
+		?c: the third plate
+
+
+label:    sent_20
+sentence: We calibrate our optical tweezers and compare the results with quadrant photo diode measurements .
+
+ppatt:
+	?a calibrate ?b
+		?a: We
+		?b: our optical tweezers
+	?a compare ?b
+		?a: We
+		?b: the results with quadrant photo diode measurements
+
+
+label:    sent_21
+sentence: Use of inexpensive dyes to calibrate and adjust your microarray printer .
+
+ppatt:
+	?a calibrate ?b
+		?a: Use of inexpensive dyes
+		?b: your microarray printer
+	adjust ?a
+		?a: your microarray printer
+
+
+label:    sent_22
+sentence: Multiplexed method to calibrate and quantitate fluorescence signal for allergen-specific IgE .
+
+ppatt:
+	?a calibrate ?b
+		?a: Multiplexed method
+		?b: fluorescence signal for allergen-specific IgE
+	quantitate ?a
+		?a: fluorescence signal for allergen-specific IgE
+
+
+label:    sent_23
+sentence: We say calibrate .
+
+ppatt:
+	?a say calibrate
+		?a: We
+
+

@@ -1,0 +1,183 @@
+label:    sent_1
+sentence: He was confronted with finding new strategies in order to counterbalance the growing decompensation .
+
+ppatt:
+	?a was confronted ?b
+		?a: He
+		?b: new strategies
+	?a with finding
+		?a: He
+	?a order to counterbalance ?b
+		?a: He
+		?b: the growing decompensation
+
+
+label:    sent_2
+sentence: Order of questionnaire presentation was randomised to counterbalance order effects .
+
+ppatt:
+	?a was randomised to counterbalance ?b
+		?a: Order of questionnaire presentation
+		?b: order effects
+
+
+label:    sent_3
+sentence: Methionine was employed to counterbalance the toxic effects of cyanide .
+
+ppatt:
+	?a was employed to counterbalance ?b
+		?a: Methionine
+		?b: the toxic effects of cyanide
+
+
+label:    sent_4
+sentence: These indirect inputs counterbalance the directional asymmetry of the primitive mechanism .
+
+ppatt:
+	?a counterbalance ?b
+		?a: These indirect inputs
+		?b: the directional asymmetry of the primitive mechanism
+
+
+label:    sent_5
+sentence: It is concluded that the advantages more than counterbalance the disadvantages .
+
+ppatt:
+	?a is concluded ?b
+		?a: It
+		?b: SOMETHING := the advantages more than counterbalance the disadvantages
+	?a more than counterbalance ?b
+		?a: the advantages
+		?b: the disadvantages
+
+
+label:    sent_6
+sentence: These might counterbalance the potential beneficial hemodynamic effects .
+
+ppatt:
+	?a might counterbalance ?b
+		?a: These
+		?b: the potential beneficial hemodynamic effects
+
+
+label:    sent_7
+sentence: The low cytosolic Cl-concentrations counterbalance the excess cellular osmolarity by organic substances .
+
+ppatt:
+	?a counterbalance ?b
+		?a: The low cytosolic Cl-concentrations
+		?b: the excess cellular osmolarity by organic substances
+
+
+label:    sent_8
+sentence: Dose dependency of disposition and absorption counterbalance each other in the usual dose range . IL-4 and TGF-beta 1 counterbalance one another while regulating mast cell homeostasis .
+
+ppatt:
+	?a counterbalance ?b in ?c
+		?a: Dose dependency of disposition and absorption
+		?b: each other
+		?c: the usual dose range
+	?a counterbalance ?b
+		?a: IL-4
+		?b: one another
+	?a counterbalance ?b
+		?a: TGF-beta 1
+		?b: one another
+	?a regulating ?b
+		?a: IL-4
+		?b: mast cell homeostasis
+	?a regulating ?b
+		?a: TGF-beta 1
+		?b: mast cell homeostasis
+
+
+label:    sent_9
+sentence: Instead , Th17 cells may counterbalance inflammation and maintain gut homeostasis .
+
+ppatt:
+	Instead , ?a may counterbalance ?b
+		?a: Th17 cells
+		?b: inflammation
+	?a maintain ?b
+		?a: Th17 cells
+		?b: gut homeostasis
+
+
+label:    sent_10
+sentence: Both effects are due to destabilization of the quinonoid and they counterbalance each other .
+
+ppatt:
+	?a are due to ?b
+		?a: Both effects
+		?b: destabilization of the quinonoid
+	?a counterbalance ?b
+		?a: they
+		?b: each other
+
+
+label:    sent_11
+sentence: Endogenous and exogenous antioxidants counterbalance the oxidative processes and so maintain the oxidant/antioxidant equilibrium .
+
+ppatt:
+	?a ?b counterbalance ?c
+		?a: Endogenous
+		?b: antioxidants
+		?c: the oxidative processes
+	?a ?b counterbalance ?c
+		?a: exogenous
+		?b: antioxidants
+		?c: the oxidative processes
+	?a so maintain ?b
+		?a: Endogenous
+		?b: the oxidant/antioxidant equilibrium
+	?a so maintain ?b
+		?a: exogenous
+		?b: the oxidant/antioxidant equilibrium
+
+
+label:    sent_12
+sentence: Kv1.3 is a critical potassium channel to counterbalance calcium influx at T-cell receptor activation .
+
+ppatt:
+	?a is a critical potassium channel
+		?a: Kv1.3
+	?a counterbalance ?b at ?c
+		?a: a critical potassium channel
+		?b: calcium influx
+		?c: T-cell receptor activation
+
+
+label:    sent_13
+sentence: Several factors combined to counterbalance these changes in marital behavior .
+
+ppatt:
+	?a combined to counterbalance ?b in ?c
+		?a: Several factors
+		?b: these changes
+		?c: marital behavior
+
+
+label:    sent_14
+sentence: It enables re-establishing retinal contact and to counterbalance vitreal tractions . Salivary gland counterbalance .
+
+ppatt:
+	?a enables re-establishing ?b
+		?a: It
+		?b: retinal contact
+	?a enables to counterbalance ?b ?c
+		?a: It
+		?b: vitreal tractions
+		?c: Salivary gland counterbalance
+
+
+label:    sent_15
+sentence: Phosphorylation-induced decreases in NOS activity may counterbalance and modulate NOS activating signals .
+
+ppatt:
+	?a may counterbalance ?b
+		?a: Phosphorylation-induced decreases in NOS activity
+		?b: NOS activating signals
+	?a modulate
+		?a: Phosphorylation-induced decreases in NOS activity
+
+

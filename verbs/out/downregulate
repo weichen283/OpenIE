@@ -1,0 +1,276 @@
+label:    sent_1
+sentence: The Nur77 siRNA was used to downregulate the Nur77 expression .
+
+ppatt:
+	?a was used to downregulate ?b
+		?a: The Nur77 siRNA
+		?b: the Nur77 expression
+
+
+label:    sent_2
+sentence: It could activate primary immune response , and also downregulate immune response .
+
+ppatt:
+	?a could activate ?b
+		?a: It
+		?b: primary immune response
+	?a also downregulate ?b
+		?a: It
+		?b: immune response
+
+
+label:    sent_3
+sentence: This effect correlated with their abilities to downregulate survivin .
+
+ppatt:
+	?a correlated with ?b
+		?a: This effect
+		?b: their abilities to downregulate survivin
+	?a downregulate ?b
+		?a: their abilities
+		?b: survivin
+
+
+label:    sent_4
+sentence: Alpinia galanga extracts downregulate interleukin-1beta-induced matrix metalloproteinases expression in human synovial fibroblasts .
+
+ppatt:
+	?a downregulate ?b
+		?a: Alpinia galanga extracts
+		?b: interleukin-1beta-induced matrix metalloproteinases expression in human synovial fibroblasts
+
+
+label:    sent_5
+sentence: Reactive oxygen species downregulate glucose transport system in retinal endothelial cells .
+
+ppatt:
+	?a downregulate ?b
+		?a: Reactive oxygen species
+		?b: glucose transport system in retinal endothelial cells
+
+
+label:    sent_6
+sentence: Statins downregulate K6a promoter activity : a possible therapeutic avenue for pachyonychia congenita . By comparison , SAHA could downregulate the mRNA expression of bcl-2 .
+
+ppatt:
+	?a downregulate ?b
+		?a: Statins
+		?b: K6a promoter activity
+	By ?a , ?b could downregulate ?c
+		?a: comparison
+		?b: SAHA
+		?c: the mRNA expression of bcl-2
+
+
+label:    sent_7
+sentence: BA downregulate hepatic lipogenesis by activating the FXR-small heterodimer partner ( SHP ) pathway .
+
+ppatt:
+	?a downregulate ?b
+		?a: BA
+		?b: hepatic lipogenesis
+	?a activating ?b
+		?a: BA
+		?b: the FXR-small heterodimer partner pathway
+	?a is/are SHP
+		?a: FXR-small heterodimer partner
+
+
+label:    sent_8
+sentence: Folic acid can downregulate tau protein phosphorylation by inhibiting the demethylation reactions of PP2A .
+
+ppatt:
+	?a can downregulate ?b
+		?a: Folic acid
+		?b: tau protein phosphorylation
+	?a inhibiting ?b
+		?a: Folic acid
+		?b: the demethylation reactions of PP2A
+
+
+label:    sent_9
+sentence: Therefore , D-CblS and D-CblL may downregulate Egfr through distinct mechanisms .
+
+ppatt:
+	Therefore , ?a may downregulate ?b through ?c
+		?a: D-CblS
+		?b: Egfr
+		?c: distinct mechanisms
+	Therefore , ?a may downregulate ?b through ?c
+		?a: D-CblL
+		?b: Egfr
+		?c: distinct mechanisms
+
+
+label:    sent_10
+sentence: It appears that Ras can upregulate or downregulate autophagy through several signaling pathways .
+
+ppatt:
+	?a appears ?b
+		?a: It
+		?b: SOMETHING := Ras can upregulate autophagy through several signaling pathways
+	?a can upregulate ?b through ?c
+		?a: Ras
+		?b: autophagy
+		?c: several signaling pathways
+	?a downregulate
+		?a: Ras
+
+
+label:    sent_11
+sentence: To downregulate the expression of mdr1 gene in K562/A02 cell line by RNA interference .
+
+ppatt:
+	downregulate ?a by ?b
+		?a: the expression of mdr1 gene in K562/A02 cell line
+		?b: RNA interference
+
+
+label:    sent_12
+sentence: Knockdown of SIRT1 could downregulate expression of SREBP1 and suppress cell proliferation .
+
+ppatt:
+	?a could downregulate ?b
+		?a: Knockdown of SIRT1
+		?b: expression of SREBP1
+	?a suppress ?b
+		?a: Knockdown of SIRT1
+		?b: cell proliferation
+
+
+label:    sent_13
+sentence: Adrenomedullin and adrenomedullin-binding protein-1 downregulate inflammatory cytokines and attenuate tissue injury after gut ischemia-reperfusion .
+
+ppatt:
+	?a downregulate ?b
+		?a: Adrenomedullin
+		?b: inflammatory cytokines
+	?a downregulate ?b
+		?a: adrenomedullin-binding protein-1
+		?b: inflammatory cytokines
+	?a attenuate ?b after ?c
+		?a: Adrenomedullin
+		?b: tissue injury
+		?c: gut ischemia-reperfusion
+	?a attenuate ?b after ?c
+		?a: adrenomedullin-binding protein-1
+		?b: tissue injury
+		?c: gut ischemia-reperfusion
+
+
+label:    sent_14
+sentence: Antidepressants downregulate beta AR density and induce uncoupling from Gs protein in PD .
+
+ppatt:
+	?a downregulate ?b
+		?a: Antidepressants
+		?b: beta AR density
+	?a induce ?b
+		?a: Antidepressants
+		?b: uncoupling from Gs protein in PD
+
+
+label:    sent_15
+sentence: Anti-LUNX could downregulate LUNX and reduce lung cancer cell proliferation and migration in vitro .
+
+ppatt:
+	?a could downregulate ?b in vitro
+		?a: Anti-LUNX
+		?b: LUNX
+	?a reduce ?b
+		?a: Anti-LUNX
+		?b: lung cancer cell
+
+
+label:    sent_16
+sentence: Matrine could up-regulate Fas protein expression and downregulate VEGF protein expression of MCF-7 cells .
+
+ppatt:
+	?a could up-regulate ?b
+		?a: Matrine
+		?b: Fas protein expression
+	?a downregulate ?b
+		?a: Matrine
+		?b: VEGF protein expression of MCF-7 cells
+
+
+label:    sent_17
+sentence: Interestingly , miR-101 synergized with decitabine to downregulate DNMT3a and to reduce DNA methylation .
+
+ppatt:
+	Interestingly , ?a synergized with ?b to downregulate ?c
+		?a: miR-101
+		?b: decitabine
+		?c: DNMT3a
+	Interestingly , ?a synergized to to reduce ?b
+		?a: miR-101
+		?b: DNA methylation
+
+
+label:    sent_18
+sentence: Under anoxia , Artemia franciscana embryos downregulate metabolic processes and approach an ametabolic state .
+
+ppatt:
+	Under ?a , ?b downregulate ?c
+		?a: anoxia
+		?b: Artemia franciscana embryos
+		?c: metabolic processes
+	?a approach ?b
+		?a: Artemia franciscana embryos
+		?b: an ametabolic state
+
+
+label:    sent_19
+sentence: Autoantibodies and drug-induced platelet antibodies have been demonstrated to downregulate or enhance platelet function .
+
+ppatt:
+	?a have been demonstrated to downregulate ?b
+		?a: Autoantibodies
+		?b: platelet function
+	?a have been demonstrated to downregulate ?b
+		?a: drug-induced platelet antibodies
+		?b: platelet function
+	?a have been demonstrated to enhance
+		?a: Autoantibodies
+	?a have been demonstrated to enhance
+		?a: drug-induced platelet antibodies
+
+
+label:    sent_20
+sentence: In primary cultures of glioblastoma , tumor cells maintain Shc1 expression but downregulate Shc3 .
+
+ppatt:
+	In ?a , ?b maintain ?c
+		?a: primary cultures of glioblastoma
+		?b: tumor cells
+		?c: Shc1 expression
+	?a downregulate ?b
+		?a: tumor cells
+		?b: Shc3
+
+
+label:    sent_21
+sentence: This phenomenon may represent one mechanism by which tumour cells downregulate immune surveillance .
+
+ppatt:
+	?a may represent ?b
+		?a: This phenomenon
+		?b: one mechanism by which tumour cells downregulate immune surveillance
+	?a by ?b downregulate ?c
+		?a: one mechanism
+		?b: tumour cells
+		?c: immune surveillance
+
+
+label:    sent_22
+sentence: The mechanism by which human NK cells downregulate their production of IFN-gamma is unknown .
+
+ppatt:
+	?a by ?b downregulate ?c
+		?a: The mechanism
+		?b: human NK cells
+		?c: their production of IFN-gamma
+	?a is unknown
+		?a: The mechanism by which human NK cells downregulate their production of IFN-gamma
+
+

@@ -1,0 +1,348 @@
+label:    sent_1
+sentence: TBI often has a profound impact on a survivor 's ability to return to previous level of functioning and significantly reduces the overall quality of life for survivors and caregivers .
+
+ppatt:
+	?a often has ?b on ?c
+		?a: TBI
+		?b: a profound impact
+		?c: a survivor 's ability to return to previous level of functioning
+	?a return to ?b
+		?a: a survivor 's ability
+		?b: previous level
+	?a significantly reduces ?b
+		?a: TBI
+		?b: the overall quality of life for survivors and caregivers
+
+
+label:    sent_2
+sentence: Hand impairment is a common and serious occupational injury among workers because it can affect the outcome to return to work ( RTW ) and even cause permanent dysfunction .
+
+ppatt:
+	?a is a common and serious occupational injury among ?b
+		?a: Hand impairment
+		?b: workers
+	?a can affect ?b
+		?a: it
+		?b: the outcome to return to work
+	?a return to ?b
+		?a: the outcome
+		?b: work
+	?a is/are RTW
+		?a: work
+	?a even cause ?b
+		?a: it
+		?b: permanent dysfunction
+
+
+label:    sent_3
+sentence: Twelve months postoperatively , the fracture was radiographically healed and the patient was pain free with restoration of full knee motion and return to sporting activity .
+
+ppatt:
+	?a ?b was radiographically healed
+		?a: Twelve months postoperatively
+		?b: the fracture
+	?a was ?b free with ?c
+		?a: the patient
+		?b: pain
+		?c: restoration of full knee motion
+	?a return to ?b
+		?a: the patient
+		?b: sporting activity
+
+
+label:    sent_4
+sentence: The aims of this study were to investigate the beliefs and attitudes of managers and employees with musculoskeletal pain about sickness absence , presenteeism , and return to work and to identify areas of consensus and conflict .
+
+ppatt:
+	?a were to investigate ?b
+		?a: The aims of this study
+		?b: the beliefs of managers with musculoskeletal pain about sickness absence , presenteeism
+	?a were to investigate ?b
+		?a: The aims of this study
+		?b: attitudes
+	?a were to investigate ?b
+		?a: The aims of this study
+		?b: employees
+	?a were to return to work
+		?a: The aims of this study
+	?a identify ?b
+		?a: The aims of this study
+		?b: areas of consensus and conflict
+
+
+label:    sent_5
+sentence: The treatment of most injuries tends to have similar goals : to minimize initial pain and swelling , restore full range of motion , and return to full strength .
+
+ppatt:
+	?a tends to have ?b
+		?a: The treatment of most injuries
+		?b: similar goals
+	?a minimize ?b
+		?a: The treatment of most injuries
+		?b: initial pain
+	?a minimize ?b
+		?a: The treatment of most injuries
+		?b: swelling
+	?a restore ?b
+		?a: The treatment of most injuries
+		?b: full range of motion
+	?a return to ?b
+		?a: The treatment of most injuries
+		?b: full strength
+
+
+label:    sent_6
+sentence: Resolution of inflammation is an active , agonist-mediated , programmed return to tissue homeostasis .
+
+ppatt:
+	?a is an active , return to ?b
+		?a: Resolution of inflammation
+		?b: tissue homeostasis
+
+
+label:    sent_7
+sentence: Of these 80 instances , on 58 occasions the hen returned to a nest-box to lay her egg ; on 12 the hen returned to the nest-box but laid no egg ; on 7 the hen did not return to the nest box and laid no egg ; and on three the hen laid her egg on the floor .
+
+ppatt:
+	Of ?a , on ?b ?c returned to ?d to lay ?e
+		?a: these 80 instances
+		?b: 58 occasions
+		?c: the hen
+		?d: a nest-box
+		?e: her egg
+	on ?a ?b returned to ?c
+		?a: 12
+		?b: the hen
+		?c: the nest-box
+	?a laid ?b
+		?a: the hen
+		?b: no egg
+	on ?a ?b did not return to ?c
+		?a: 7
+		?b: the hen
+		?c: the nest box
+	?a laid ?b
+		?a: the hen
+		?b: no egg
+	on ?a laid ?b on ?c
+		?a: three the hen
+		?b: her egg
+		?c: the floor
+
+
+label:    sent_8
+sentence: With regard to the duty of the researcher the question of whether researchers have a more stringent duty to return important health information when their research subjects are children is more difficult to answer .
+
+ppatt:
+	?a ?b have ?c
+		?a: the question
+		?b: researchers
+		?c: a more stringent duty to return important health information
+	?a return ?b
+		?a: a more stringent duty
+		?b: important health information
+	when ?a ?b is more difficult to answer
+		?a: their research subjects
+		?b: are children
+
+
+label:    sent_9
+sentence: The results reported here are valid for satellites of small physical cross section , or else those with retroreflectors that dominate the signal return .
+
+ppatt:
+	?a reported here
+		?a: The results
+	?a are valid for ?b
+		?a: The results reported here
+		?b: satellites of small physical cross section
+	?a are valid for ?b
+		?a: The results reported here
+		?b: else those with retroreflectors that dominate the signal return
+	?a dominate ?b
+		?a: retroreflectors
+		?b: the signal return
+
+
+label:    sent_10
+sentence: Since the dorsolateral telencephalon has been considered a teleost homologue of the mammalian hippocampus , we predicted that the spatial abilities required for females to locate and return accurately to nests of males may have produced a sex difference in the size of the telencephalic nuclei involved in spatial abilities , biased towards females .
+
+ppatt:
+	?a has been considered a teleost homologue of ?b
+		?a: the dorsolateral telencephalon
+		?b: the mammalian hippocampus
+	?a predicted ?b
+		?a: we
+		?b: SOMETHING := the spatial abilities required for females to locate and return accurately to nests of males may have produced a sex difference in the size of the telencephalic nuclei involved in spatial abilities , biased towards females
+	?a required for ?b to locate accurately to ?c
+		?a: the spatial abilities
+		?b: females
+		?c: nests of males
+	?a required to return
+		?a: the spatial abilities
+	?a may have produced ?b
+		?a: the spatial abilities required for females to locate and return accurately to nests of males
+		?b: a sex difference in the size of the telencephalic nuclei involved in spatial abilities , biased towards females
+	?a involved in ?b
+		?a: the telencephalic nuclei
+		?b: spatial abilities biased towards females
+	?a biased towards ?b
+		?a: spatial abilities
+		?b: females
+
+
+label:    sent_11
+sentence: Influenza vaccination in healthy working adults in Russia : observational study of effectiveness and return on investment for the employer .
+
+ppatt:
+
+
+
+label:    sent_12
+sentence: In addition , this review will provide recommendations regarding fluoroquinolone use in athletes and return to play after fluoroquinolone exposure .
+
+ppatt:
+	In ?a , ?b will provide ?c
+		?a: addition
+		?b: this review
+		?c: recommendations regarding fluoroquinolone use in athletes
+	?a return to play after ?b
+		?a: this review
+		?b: fluoroquinolone exposure
+
+
+label:    sent_13
+sentence: To explain the regression of aperistalsis , 2 non-excluding hypothesis were postulated : the intramural inflammatory process , established during the acute phase , could interfere with esophageal motility by weakening the peristaltic waves ; with the remission of the inflammatory reaction , the peristaltic activity of the esophagus would return to normal , as long as no extensive denervation occurred ; and/or a definitive reinnervation is responsible for the recuperation of the normal esophageal peristaltic activity .
+
+ppatt:
+	explain ?a ?b
+		?a: the regression of aperistalsis
+		?b: 2 non-excluding hypothesis
+	?a were postulated
+		?a: 2 non-excluding hypothesis
+	?a established during ?b
+		?a: the intramural inflammatory process
+		?b: the acute phase
+	?a could interfere with ?b
+		?a: the intramural inflammatory process , established during the acute phase
+		?b: esophageal motility
+	?a weakening ?b with ?c
+		?a: the intramural inflammatory process , established during the acute phase
+		?b: the peristaltic waves
+		?c: the remission of the inflammatory reaction
+	?a would return to ?b
+		?a: the peristaltic activity of the esophagus
+		?b: normal
+	?a occurred
+		?a: no extensive denervation
+	?a is responsible for ?b
+		?a: a definitive reinnervation
+		?b: the recuperation of the normal esophageal peristaltic activity
+
+
+label:    sent_14
+sentence: It was found that CO ( 2 ) can induce the micellization of Pluronics in water , and the micelle can return to the initial state of molecular dispersion after depressurization .
+
+ppatt:
+	?a was found ?b
+		?a: It
+		?b: SOMETHING := CO can induce the micellization of Pluronics in water
+	?a is/are 2
+		?a: CO
+	?a can induce ?b
+		?a: CO
+		?b: the micellization of Pluronics in water
+	?a can return to ?b
+		?a: the micelle
+		?b: the initial state of molecular dispersion after depressurization
+
+
+label:    sent_15
+sentence: This study examines ( 1 ) return to work ( RTW ) and ability to work ( ATW ) rates , and the association with ( 2 ) psychiatric comorbidity and ( 3 ) socio-demographic , illness-related , vocational and rehabilitation-related characteristics in herniated disc surgery patients .
+
+ppatt:
+	?a examines ?b
+		?a: This study
+		?b: SOMETHING := return to work and ability to work rates , and the association with psychiatric comorbidity and socio-demographic , illness-related , vocational and rehabilitation-related characteristics in herniated disc surgery patients
+	?a return to ?b
+		?a: This study
+		?b: work
+	?a return to ?b
+		?a: This study
+		?b: ability to work rates
+	?a return to ?b
+		?a: This study
+		?b: the association with psychiatric comorbidity and socio-demographic , illness-related , vocational and rehabilitation-related characteristics in herniated disc surgery patients
+	?a is/are RTW
+		?a: work
+	?a is/are RTW
+		?a: ability to work rates
+	?a is/are RTW
+		?a: the association with psychiatric comorbidity and socio-demographic , illness-related , vocational and rehabilitation-related characteristics in herniated disc surgery patients
+	?a work ?b
+		?a: ability
+		?b: rates
+
+
+label:    sent_16
+sentence: Although a certain degree of restriction in interphalangeal joint motion occurred , this was nearly negligible and did not deter return to normal daily living activity , work , and recreation .
+
+ppatt:
+	?a occurred
+		?a: a certain degree of restriction in interphalangeal joint motion
+	?a was nearly negligible
+		?a: this
+	?a did not deter ?b
+		?a: this
+		?b: return to normal daily living activity , work , and recreation
+
+
+label:    sent_17
+sentence: The curation of such databases can be facilitated by employing text-mining systems to identify genes which play the interactor role in PPIs and to map these genes to unique database identifiers ( interactor normalization task or INT ) and then to return a list of interaction pairs for each article ( interaction pair task or IPT ) . Whether to return individual research results from cancer genetics studies is widely debated , but little is known about how participants respond to results disclosure or about its time and cost burdens on investigators .
+
+ppatt:
+	?a can be facilitated
+		?a: The curation of such databases
+	?a employing ?b
+		?a: The curation of such databases
+		?b: text-mining systems
+	?a identify ?b
+		?a: The curation of such databases
+		?b: genes which play the interactor role in PPIs and to map these genes to unique database identifiers and then to return a list of interaction pairs for each article
+	?a play ?b in ?c
+		?a: genes
+		?b: the interactor role
+		?c: PPIs
+	?a map ?b to ?c then to return ?d
+		?a: which
+		?b: these genes
+		?c: unique database identifiers
+		?d: a list of interaction pairs for each article
+	?a return ?b is widely debated
+		?a: The curation of such databases
+		?b: individual research results from cancer genetics studies
+	?a is known
+		?a: little
+	how ?a respond to ?b
+		?a: participants
+		?b: results disclosure
+	how ?a respond to ?b
+		?a: participants
+		?b: its time on investigators
+
+
+label:    sent_18
+sentence: WBCS has proven to be a useful test for detecting septic activity in the jaw bone , being more effective than BS alone , which under certain circumstances , can return a very high false-positive rate .
+
+ppatt:
+	?a has proven to be a useful test , being more effective than ?b
+		?a: WBCS
+		?b: BS alone , which under certain circumstances , can return a very high false-positive rate
+	?a detecting ?b
+		?a: a useful test
+		?b: septic activity in the jaw bone
+	?a under ?b , can return ?c
+		?a: BS alone
+		?b: certain circumstances
+		?c: a very high false-positive rate
+
+

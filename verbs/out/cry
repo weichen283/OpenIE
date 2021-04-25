@@ -1,0 +1,129 @@
+label:    sent_1
+sentence: As crying and attempting to cry are similar , we propose that at least two of the following five behaviors are present to consider a neonate awake after anesthesia : ( i ) crying or attempting to cry , ( ii ) vigorous limb movements , ( iii ) gagging on a tracheal tube , ( iv ) eyes open , and ( v ) looking around .
+
+ppatt:
+	?a cry
+		?a: crying
+	?a cry
+		?a: attempting
+	?a are similar
+		?a: crying to cry
+	?a are similar
+		?a: attempting
+	?a propose ?b
+		?a: we
+		?b: SOMETHING := at least two of the following five behaviors are present to consider a neonate awake after anesthesia : and looking around
+	?a are present to consider ?b after ?c
+		?a: at least two of the following five behaviors
+		?b: a neonate awake
+		?c: anesthesia
+	?a gagging on ?b ?c
+		?a: vigorous limb movements
+		?b: a tracheal tube
+		?c: eyes open
+	?a are present to looking around
+		?a: at least two of the following five behaviors
+
+
+label:    sent_2
+sentence: This article describes the findings of a survey of blood and marrow transplant physicians who were asked whether it is OK to cry in front of patients .
+
+ppatt:
+	?a describes ?b
+		?a: This article
+		?b: the findings of a survey of blood and marrow transplant physicians who were asked whether it is OK to cry in front of patients
+	?a were asked ?b
+		?a: the findings of a survey of blood and marrow transplant physicians
+		?b: SOMETHING := it is OK to cry in front of patients
+	?a is OK to cry in ?b
+		?a: it
+		?b: front of patients
+
+
+label:    sent_3
+sentence: To cry or not to cry : physicians and emotions at the bedside .
+
+ppatt:
+	cry to ?a
+		?a: not cry
+
+
+label:    sent_4
+sentence: Diary data showed that infants who scored high on fear tended to cry a lot , while infants with high scores on distress to limitations tended to sleep less and cry and fuss more .
+
+ppatt:
+	?a showed ?b
+		?a: Diary data
+		?b: SOMETHING := infants who scored high on fear tended to cry a lot , while infants with high scores on distress to limitations tended to sleep less and cry and fuss more
+	?a scored ?b on ?c
+		?a: infants
+		?b: high
+		?c: fear
+	?a tended to cry ?b
+		?a: infants who scored high on fear
+		?b: a lot
+	?a tended to ?b
+		?a: infants with high scores on distress to limitations
+		?b: sleep less and cry
+	?a fuss more
+		?a: infants with high scores on distress to limitations
+
+
+label:    sent_5
+sentence: When victims do n't cry : children 's understandings of victimization , compliance , and subversion .
+
+ppatt:
+	When ?a do n't cry ?b
+		?a: victims
+		?b: children 's understandings of victimization , compliance , and subversion
+
+
+label:    sent_6
+sentence: Consequently , it is important to have the condition in mind in infants who cry for no obvious reason , and in infants presenting with oedema on fingers , toes or genitalia . [Grinding one 's teeth .
+
+ppatt:
+	Consequently , ?a is important to have ?b
+		?a: it
+		?b: the condition in mind in infants who cry for no obvious reason and in infants presenting with oedema on fingers , toes or genitalia . [Grinding one 's teeth
+	?a cry for ?b
+		?a: infants
+		?b: no obvious reason
+	cry for ?a ?b
+		?a: no obvious reason
+		?b: infants presenting with oedema on fingers , toes or genitalia . [Grinding one 's teeth
+	?a presenting with ?b
+		?a: infants
+		?b: oedema on fingers , toes or genitalia . [Grinding one 's teeth
+	?a [Grinding ?b
+		?a: fingers
+		?b: one 's teeth
+	?a [Grinding ?b
+		?a: toes
+		?b: one 's teeth
+	?a [Grinding ?b
+		?a: genitalia
+		?b: one 's teeth
+
+
+label:    sent_7
+sentence: " .. . they will cry and gnash their teeth " ( Math.8 , 12 ) ] . Subjects were assigned to either a high or low abuse potential group and were then randomly assigned to hear either an infant cry or a smoke alarm .
+
+ppatt:
+	?a will cry ?b
+		?a: they
+		?b: their teeth "
+	?a gnash
+		?a: they
+	?a is/are Math.8 , 12 ) ]
+		?a: their teeth "
+	?a were assigned to ?b
+		?a: Subjects
+		?b: a high or low abuse potential group
+	?a were then randomly assigned to hear ?b
+		?a: Subjects
+		?b: an infant cry
+	?a were then randomly assigned to hear ?b
+		?a: Subjects
+		?b: a smoke alarm
+
+

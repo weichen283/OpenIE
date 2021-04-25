@@ -1,0 +1,272 @@
+label:    sent_1
+sentence: Here we present an echographic method to withdraw amniotic fluid from pregnant rats . Group A received only intensive advice to withdraw the overused medication .
+
+ppatt:
+	Here ?a present ?b
+		?a: we
+		?b: an echographic method to withdraw amniotic fluid from pregnant rats
+	?a withdraw ?b
+		?a: an echographic method
+		?b: amniotic fluid from pregnant rats
+	?a received ?b to withdraw ?c
+		?a: Group A
+		?b: only intensive advice
+		?c: the overused medication
+
+
+label:    sent_2
+sentence: Once it is started , the professionals can not withdraw it . Reevaluating the right to withdraw from research without penalty . c-myc mRNA is elevated as differentiating lens cells withdraw from the cell cycle .
+
+ppatt:
+	?a is started
+		?a: it
+	?a can not withdraw ?b
+		?a: the professionals
+		?b: it
+	?a Reevaluating ?b
+		?a: the professionals
+		?b: the right
+	?a withdraw from ?b
+		?a: the professionals
+		?b: research without penalty
+	?a is elevated
+		?a: c-myc mRNA
+	differentiating ?a
+		?a: lens cells
+	?a withdraw from ?b
+		?a: lens cells
+		?b: the cell cycle
+
+
+label:    sent_3
+sentence: He was able to withdraw from all medications .
+
+ppatt:
+	?a was able to withdraw from ?b
+		?a: He
+		?b: all medications
+
+
+label:    sent_4
+sentence: This shift caused society to withdraw its formerly strong trust in psychiatry .
+
+ppatt:
+	?a caused ?b to withdraw ?c
+		?a: This shift
+		?b: society
+		?c: its formerly strong trust in psychiatry
+
+
+label:    sent_5
+sentence: The family agreed to withdraw him from ventilator support the following day . Is it safe to withdraw steroids within seven days of renal transplantation ?
+
+ppatt:
+	?a agreed to withdraw ?b from ?c
+		?a: The family
+		?b: him
+		?c: ventilator
+	?a support following ?b
+		?a: The family
+		?b: the day
+	?a Is ?b safe to withdraw ?c within ?d
+		?a: The family agreed to withdraw him from ventilator support the following day
+		?b: it
+		?c: steroids
+		?d: seven days of renal transplantation
+
+
+label:    sent_6
+sentence: However , CDI eradication therapy allowed some refractory patients to withdraw from steroids .
+
+ppatt:
+	However , ?a allowed ?b to withdraw from ?c
+		?a: CDI eradication therapy
+		?b: some refractory patients
+		?c: steroids
+
+
+label:    sent_7
+sentence: [How to withdraw from multi-high-dose drug therapy for schizophrenia ] . Total splenectomy should withdraw from nonoperative or partial operative management of spleen diseases .
+
+ppatt:
+	?a withdraw from ?b
+		?a: [How
+		?b: multi-high-dose drug therapy for schizophrenia ]
+	?a ?b should withdraw from ?c
+		?a: [How to withdraw from multi-high-dose drug therapy for schizophrenia ]
+		?b: Total splenectomy
+		?c: nonoperative
+	?a ?b should withdraw from ?c
+		?a: [How to withdraw from multi-high-dose drug therapy for schizophrenia ]
+		?b: Total splenectomy
+		?c: partial
+
+
+label:    sent_8
+sentence: The decision whether or not to withhold or withdraw hydration should be discussed separately .
+
+ppatt:
+	?a not to withhold ?b
+		?a: The decision
+		?b: hydration
+	?a withdraw
+		?a: The decision
+	?a should be discussed separately
+		?a: The decision whether or not to withhold or withdraw hydration
+
+
+label:    sent_9
+sentence: Decision to withhold or withdraw support .
+
+ppatt:
+	?a withhold ?b
+		?a: Decision
+		?b: support
+	withdraw ?a
+		?a: support
+
+
+label:    sent_10
+sentence: Demand and withdraw communication among couples experiencing husband violence .
+
+ppatt:
+	?a experiencing ?b
+		?a: couples
+		?b: husband violence
+
+
+label:    sent_11
+sentence: Science asks researchers to withdraw paper on chronic fatigue syndrome and infectious retrovirus . HCA asking FTC to withdraw order to sell 2 facilities .
+
+ppatt:
+	?a asks ?b to withdraw ?c
+		?a: Science
+		?b: researchers
+		?c: paper on chronic fatigue syndrome and infectious retrovirus HCA asking FTC to withdraw order to sell 2 facilities
+	?a asking ?b to withdraw ?c to sell ?d
+		?a: HCA
+		?b: FTC
+		?c: order
+		?d: 2 facilities
+
+
+label:    sent_12
+sentence: We could withdraw the stent with twisting two wires . [Do n't withdraw all blood platelet inhibitors ] . Quebec specialists withdraw teaching services .
+
+ppatt:
+	?a could withdraw ?b with ?c
+		?a: We
+		?b: the stent
+		?c: twisting two wires
+	?a n't withdraw ?b
+		?a: [Do
+		?b: all blood platelet inhibitors
+	?a withdraw ?b
+		?a: Quebec specialists
+		?b: teaching services
+
+
+label:    sent_13
+sentence: Court authorizes parents to withdraw life support .
+
+ppatt:
+	?a authorizes ?b to withdraw ?c
+		?a: Court
+		?b: parents
+		?c: life support
+
+
+label:    sent_14
+sentence: Ethics of refusing parental requests to withhold or withdraw treatment from their premature baby .
+
+ppatt:
+	?a withhold ?b
+		?a: Ethics of refusing parental requests
+		?b: treatment from their premature baby
+	withdraw ?a
+		?a: treatment from their premature baby
+
+
+label:    sent_15
+sentence: Clinicians often decide either to withhold or to withdraw lifesaving treatment in elderly patients .
+
+ppatt:
+	?a often decide either to withhold
+		?a: Clinicians
+	?a often decide either to to withdraw ?b
+		?a: Clinicians
+		?b: lifesaving treatment in elderly patients
+
+
+label:    sent_16
+sentence: Decisions to withhold or withdraw life-sustaining treatment in a Norwegian intensive care unit .
+
+ppatt:
+	?a withhold ?b in ?c
+		?a: Decisions
+		?b: life-sustaining treatment
+		?c: a Norwegian intensive care unit
+	withdraw ?a
+		?a: life-sustaining treatment
+
+
+label:    sent_17
+sentence: Children may be absent from school and withdraw from their friends .
+
+ppatt:
+	?a may be absent from ?b
+		?a: Children
+		?b: school
+	?a withdraw from ?b
+		?a: Children
+		?b: their friends
+
+
+label:    sent_18
+sentence: Decisions to withdraw or withhold treatment from infants and children are continuing concerns . Untrained Pleurobranchaea feed voraciously when presented food and withdraw from electrical shocks .
+
+ppatt:
+	?a withdraw ?b
+		?a: Decisions
+		?b: treatment from infants and children
+	?a withhold
+		?a: Decisions
+	?a are continuing concerns ?b
+		?a: Decisions to withdraw or withhold treatment from infants and children
+		?b: Untrained Pleurobranchaea feed
+	?a voraciously when presented ?b
+		?a: Decisions to withdraw or withhold treatment from infants and children
+		?b: food
+	?a withdraw from ?b
+		?a: Decisions to withdraw or withhold treatment from infants and children
+		?b: electrical shocks
+
+
+label:    sent_19
+sentence: Chronic ( transformed ) migraine and medication overuse : to withdraw or not ? A process for determining when to withdraw or continue life-sustaining medical treatment .
+
+ppatt:
+	?a withdraw ?b
+		?a: Chronic migraine
+		?b: A process for determining when to withdraw or continue life-sustaining medical treatment
+	?a withdraw ?b
+		?a: medication overuse
+		?b: A process for determining when to withdraw or continue life-sustaining medical treatment
+	?a determining
+		?a: A process
+	when to withdraw ?a
+		?a: life-sustaining medical treatment
+	continue ?a
+		?a: life-sustaining medical treatment
+
+
+label:    sent_20
+sentence: The catheter was impossible to withdraw and irrigate .
+
+ppatt:
+	?a was impossible to withdraw
+		?a: The catheter
+	?a was impossible to irrigate
+		?a: The catheter
+
+

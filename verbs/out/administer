@@ -1,0 +1,289 @@
+label:    sent_1
+sentence: Jet nebulizers are commonly used to administer aerosolized tobramycin to CF patients .
+
+ppatt:
+	?a are commonly used to administer ?b to ?c
+		?a: Jet nebulizers
+		?b: aerosolized tobramycin
+		?c: CF patients
+
+
+label:    sent_2
+sentence: Treatment providers need to administer evidence-based interventions to help people quit successfully .
+
+ppatt:
+	?a need to administer ?b to help ?c ?d
+		?a: Treatment providers
+		?b: evidence-based interventions
+		?c: people
+		?d: SOMETHING := quit successfully
+	?a quit successfully
+		?a: Treatment providers
+
+
+label:    sent_3
+sentence: The most effective technique to administer SWI is yet to be determined .
+
+ppatt:
+	?a administer ?b
+		?a: The most effective technique
+		?b: SWI
+	?a is yet to be determined
+		?a: The most effective technique to administer SWI
+
+
+label:    sent_4
+sentence: Caregivers should be advised not to administer over-the-counter laxatives to infants without physician supervision .
+
+ppatt:
+	?a should be advised not to administer ?b to ?c without ?d
+		?a: Caregivers
+		?b: over-the-counter laxatives
+		?c: infants
+		?d: physician supervision
+
+
+label:    sent_5
+sentence: It is possible to administer these capsules postoperatively by the stereotactic method .
+
+ppatt:
+	?a is possible to administer ?b postoperatively by ?c
+		?a: It
+		?b: these capsules
+		?c: the stereotactic method
+
+
+label:    sent_6
+sentence: Would you administer placebos for pain ? Any qualified dermatologist may administer fractional laser treatment .
+
+ppatt:
+	Would you administer ?a for ?b
+		?a: placebos
+		?b: pain
+	?a may administer ?b
+		?a: Any qualified dermatologist
+		?b: fractional laser treatment
+
+
+label:    sent_7
+sentence: A second purpose was to evaluate if herdsmen can effectively administer anaesthesia .
+
+ppatt:
+	?a was to evaluate
+		?a: A second purpose
+	?a can effectively administer ?b
+		?a: herdsmen
+		?b: anaesthesia
+
+
+label:    sent_8
+sentence: An easy way to administer sublingual nifedipine .
+
+ppatt:
+	?a administer ?b
+		?a: An easy way
+		?b: sublingual nifedipine
+
+
+label:    sent_9
+sentence: Pegaspargase was equally effective and easier to administer than L-asparaginase .
+
+ppatt:
+	?a was equally effective
+		?a: Pegaspargase
+	?a easier to administer than ?b
+		?a: Pegaspargase
+		?b: L-asparaginase
+
+
+label:    sent_10
+sentence: The HAQ is simpler and easier to administer than the WAI .
+
+ppatt:
+	?a is simpler to administer than ?b
+		?a: The HAQ
+		?b: the WAI
+	?a easier
+		?a: The HAQ
+
+
+label:    sent_11
+sentence: These nutrients are safe to administer to dogs .
+
+ppatt:
+	?a are safe to administer to ?b
+		?a: These nutrients
+		?b: dogs
+
+
+label:    sent_12
+sentence: Therefore , owners should not administer this synbiotic in this manner .
+
+ppatt:
+	Therefore , ?a should not administer ?b in ?c
+		?a: owners
+		?b: this synbiotic
+		?c: this manner
+
+
+label:    sent_13
+sentence: In conclusion , radiologists administer significant amount of fluid and heparin during interventional procedures .
+
+ppatt:
+	In ?a , ?b administer ?c during ?d
+		?a: conclusion
+		?b: radiologists
+		?c: significant amount of fluid and heparin
+		?d: interventional procedures
+
+
+label:    sent_14
+sentence: Florida and some other states administer AIDS tests to all individuals arrested for prostitution .
+
+ppatt:
+	?a administer ?b to ?c
+		?a: Florida
+		?b: AIDS tests
+		?c: all individuals arrested for prostitution
+	?a administer ?b to ?c
+		?a: some other states
+		?b: AIDS tests
+		?c: all individuals arrested for prostitution
+	?a arrested for ?b
+		?a: all individuals
+		?b: prostitution
+
+
+label:    sent_15
+sentence: How to effectively plan and administer a major hospital expansion project .
+
+ppatt:
+	How to effectively plan ?a
+		?a: a major hospital expansion project
+	administer ?a
+		?a: a major hospital expansion project
+
+
+label:    sent_16
+sentence: Research is needed to expand the database and administer the task to clinical groups .
+
+ppatt:
+	?a is needed to expand ?b
+		?a: Research
+		?b: the database
+	?a is needed to administer ?b
+		?a: Research
+		?b: the task to clinical groups
+
+
+label:    sent_17
+sentence: How to administer an academic medical center and survive .
+
+ppatt:
+	How to administer ?a
+		?a: an academic medical center
+	?a survive
+		?a: an academic medical center
+
+
+label:    sent_18
+sentence: Psychologists have received the training necessary to administer and interpret psychological tests .
+
+ppatt:
+	?a have received ?b
+		?a: Psychologists
+		?b: the training necessary to administer and interpret psychological tests
+	administer ?a
+		?a: psychological tests
+	interpret ?a
+		?a: psychological tests
+
+
+label:    sent_19
+sentence: IntegNeuro was easy to administer and acceptable to young women .
+
+ppatt:
+	?a was easy to administer to ?b
+		?a: IntegNeuro
+		?b: young women
+
+
+label:    sent_20
+sentence: Many neuropsychological test batteries are comprehensive and require specialized training to administer and interpret .
+
+ppatt:
+	?a are comprehensive
+		?a: Many neuropsychological test batteries
+	?a require ?b to administer
+		?a: Many neuropsychological test batteries
+		?b: specialized training
+	?a require to interpret
+		?a: Many neuropsychological test batteries
+
+
+label:    sent_21
+sentence: Should we administer anti-inflammatory treatments , or should we induce self-reactive T cells ? [Anxiety is our heritage and we should administer it well ] . We did not administer vitamin K and initiated feeding after the seventh postoperative day .
+
+ppatt:
+	Should ?a administer ?b
+		?a: we
+		?b: anti-inflammatory treatments
+	should ?a induce ?b
+		?a: we
+		?b: self-reactive T cells
+	?a is ?b heritage
+		?a: [Anxiety
+		?b: our
+	?a should administer well ?b
+		?a: we
+		?b: it ]
+	?a did not administer ?b
+		?a: We
+		?b: vitamin K
+	?a initiated ?b after ?c
+		?a: We
+		?b: feeding
+		?c: the seventh postoperative day
+
+
+label:    sent_22
+sentence: Establish a progressive discipline schedule and administer it consistently to all employees .
+
+ppatt:
+	Establish ?a
+		?a: a progressive discipline schedule
+	administer ?a consistently to ?b
+		?a: it
+		?b: all employees
+
+
+label:    sent_23
+sentence: Future trials should consider gender when deciding how many treatments to administer .
+
+ppatt:
+	?a should consider ?b
+		?a: Future trials
+		?b: gender
+	when deciding how ?a to administer
+		?a: many treatments
+
+
+label:    sent_24
+sentence: Many clinicians administer thyroid hormones to improve the transplantation outcomes .
+
+ppatt:
+	?a administer ?b to improve ?c
+		?a: Many clinicians
+		?b: thyroid hormones
+		?c: the transplantation outcomes
+
+
+label:    sent_25
+sentence: The CRS requires , at most , 45 minutes to administer .
+
+ppatt:
+	?a requires , at ?b to administer
+		?a: The CRS
+		?b: most , 45 minutes
+
+

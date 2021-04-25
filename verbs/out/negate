@@ -1,0 +1,208 @@
+label:    sent_1
+sentence: Biomechanical optimization models that apply efficiency-based objective functions often underestimate or negate antagonist co-activation .
+
+ppatt:
+	?a apply ?b
+		?a: Biomechanical optimization models
+		?b: efficiency-based objective functions
+	?a often underestimate ?b
+		?a: Biomechanical optimization models that apply efficiency-based objective functions
+		?b: antagonist co-activation
+	?a negate
+		?a: Biomechanical optimization models that apply efficiency-based objective functions
+
+
+label:    sent_2
+sentence: The addition of P appeared to negate this effect .
+
+ppatt:
+	?a appeared to negate ?b
+		?a: The addition of P
+		?b: this effect
+
+
+label:    sent_3
+sentence: On the other hand , the purified high-density lipoproteins failed to negate either activity . Breakthrough bleeding ( BTB ) can negate the utility of this treatment .
+
+ppatt:
+	On ?a , ?b failed to negate ?c
+		?a: the other hand
+		?b: the purified high-density lipoproteins
+		?c: either activity
+	?a is/are BTB
+		?a: Breakthrough bleeding
+	?a can negate ?b
+		?a: Breakthrough bleeding
+		?b: the utility of this treatment
+
+
+label:    sent_4
+sentence: Proper closure of most wounds will negate the need for later scar revision .
+
+ppatt:
+	?a will negate ?b
+		?a: Proper closure of most wounds
+		?b: the need for later scar revision
+
+
+label:    sent_5
+sentence: Athletic training can negate the differences in body composition and RMR per unit weight .
+
+ppatt:
+	?a can negate ?b
+		?a: Athletic training
+		?b: the differences in body composition and RMR per unit weight
+
+
+label:    sent_6
+sentence: Complications such as postsurgical infection can negate benefits and increase patient morbidity .
+
+ppatt:
+	?a can negate ?b
+		?a: Complications such as postsurgical infection
+		?b: benefits
+	?a increase ?b
+		?a: Complications such as postsurgical infection
+		?b: patient morbidity
+
+
+label:    sent_7
+sentence: Such compensatory behaviors may negate any potential cessation and/or harm reduction benefits .
+
+ppatt:
+	?a may negate ?b
+		?a: Such compensatory behaviors
+		?b: any potential cessation
+	?a may negate ?b
+		?a: Such compensatory behaviors
+		?b: harm
+	?a may negate ?b
+		?a: Such compensatory behaviors
+		?b: reduction benefits
+
+
+label:    sent_8
+sentence: We further theorized that agmatine would negate the IBMX action and improve ureagenesis .
+
+ppatt:
+	?a further theorized ?b
+		?a: We
+		?b: SOMETHING := agmatine would negate the IBMX action
+	?a would negate ?b
+		?a: agmatine
+		?b: the IBMX action
+	?a improve ?b
+		?a: agmatine
+		?b: ureagenesis
+
+
+label:    sent_9
+sentence: Shock and neurologic impairment are poor prognostic factors but should not negate repair .
+
+ppatt:
+	?a are poor prognostic factors
+		?a: Shock
+	?a are poor prognostic factors
+		?a: neurologic impairment
+	?a should not negate ?b
+		?a: Shock
+		?b: repair
+	?a should not negate ?b
+		?a: neurologic impairment
+		?b: repair
+
+
+label:    sent_10
+sentence: Early treatment of meningococcal meningitis is mandatory but may negate the cerebrospinal fluid culture .
+
+ppatt:
+	?a is mandatory
+		?a: Early treatment of meningococcal meningitis
+	?a may negate ?b
+		?a: Early treatment of meningococcal meningitis
+		?b: the cerebrospinal fluid culture
+
+
+label:    sent_11
+sentence: Other care practices at subsequent feeds may negate benefits of care at earlier feeds . A case study of how cross-cultural misunderstandings can negate research .
+
+ppatt:
+	?a may negate ?b ?c
+		?a: Other care practices at subsequent feeds
+		?b: benefits of care at earlier feeds
+		?c: A case study of how cross-cultural misunderstandings can negate research
+	?a how ?b can negate ?c
+		?a: A case study
+		?b: cross-cultural misunderstandings
+		?c: research
+
+
+label:    sent_12
+sentence: Slow temperature response times negate its use during hypothermic surgery .
+
+ppatt:
+	?a negate ?b during ?c
+		?a: Slow temperature response times
+		?b: its use
+		?c: hypothermic surgery
+
+
+label:    sent_13
+sentence: Folic acid supplementation can help negate these detrimental effects by reducing tHcy .
+
+ppatt:
+	?a can help ?b
+		?a: Folic acid supplementation
+		?b: SOMETHING := negate these detrimental effects by reducing tHcy
+	?a negate ?b
+		?a: Folic acid supplementation
+		?b: these detrimental effects
+	?a reducing ?b
+		?a: Folic acid supplementation
+		?b: tHcy
+
+
+label:    sent_14
+sentence: This is undesirable because it may delay or negate switch over to alternate therapy .
+
+ppatt:
+	?a is undesirable
+		?a: This
+	?a may delay ?b over to ?c
+		?a: it
+		?b: switch
+		?c: alternate therapy
+	?a negate
+		?a: it
+
+
+label:    sent_15
+sentence: These are sufficiently robust to negate routine measurement in early drug discovery .
+
+ppatt:
+	?a are sufficiently robust to negate ?b
+		?a: These
+		?b: routine measurement in early drug discovery
+
+
+label:    sent_16
+sentence: We can expect CVA/AMPC to negate or decrease the influence of indirect pathogenicity .
+
+ppatt:
+	?a can expect ?b to negate ?c
+		?a: We
+		?b: CVA/AMPC
+		?c: the influence of indirect pathogenicity
+	?a can expect to decrease
+		?a: We
+
+
+label:    sent_17
+sentence: Will GPO reforms negate Senate showdown ?
+
+ppatt:
+	Will ?a negate ?b
+		?a: GPO reforms
+		?b: Senate showdown
+
+

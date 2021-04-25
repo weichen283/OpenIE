@@ -1,0 +1,279 @@
+label:    sent_1
+sentence: To study the prevalence of testicular adrenal rests in non-CAH neonates .
+
+ppatt:
+	study ?a ?b
+		?a: the prevalence of testicular adrenal
+		?b: SOMETHING := rests in non-CAH neonates
+	rests in ?a
+		?a: non-CAH neonates
+
+
+label:    sent_2
+sentence: Here , we give an overview of current technologies to study signal transduction .
+
+ppatt:
+	Here , ?a give ?b
+		?a: we
+		?b: an overview of current technologies to study signal transduction
+	?a study ?b
+		?a: an overview of current technologies
+		?b: signal transduction
+
+
+label:    sent_3
+sentence: Cellular models are an interesting tool to study human heart diseases .
+
+ppatt:
+	?a are an interesting tool
+		?a: Cellular models
+	?a study ?b
+		?a: an interesting tool
+		?b: human heart diseases
+
+
+label:    sent_4
+sentence: We recommend to further study nanoparticles in the characterisation of cigarette smoke .
+
+ppatt:
+	?a recommend to further study ?b in ?c
+		?a: We
+		?b: nanoparticles
+		?c: the characterisation of cigarette smoke
+
+
+label:    sent_5
+sentence: To study the effect of INR on intraprocedural anticoagulation during ablation of AF .
+
+ppatt:
+	study ?a
+		?a: the effect of INR on intraprocedural anticoagulation during ablation of AF
+
+
+label:    sent_6
+sentence: This system will be useful to study JSRV Env in the targets of transformation .
+
+ppatt:
+	?a will be useful to study ?b in ?c
+		?a: This system
+		?b: JSRV Env
+		?c: the targets of transformation
+
+
+label:    sent_7
+sentence: Multiple wavelength reflectance microscopy to study the multiphysical behavior of microelectromechanical systems .
+
+ppatt:
+	?a study ?b
+		?a: Multiple wavelength reflectance microscopy
+		?b: the multiphysical behavior of microelectromechanical systems
+
+
+label:    sent_8
+sentence: We also study the dynamics of the system .
+
+ppatt:
+	?a also study ?b
+		?a: We
+		?b: the dynamics of the system
+
+
+label:    sent_9
+sentence: We study magnetism and electronic structures of armchair BCN-hybrid nanoribbons from density functional theory . An experimental study in Wistar rats .
+
+ppatt:
+	?a study ?b from ?c
+		?a: We
+		?b: magnetism of armchair BCN-hybrid nanoribbons
+		?c: density functional theory
+	?a study ?b from ?c
+		?a: We
+		?b: electronic
+		?c: density functional theory
+	?a study ?b from ?c
+		?a: We
+		?b: structures
+		?c: density functional theory
+
+
+label:    sent_10
+sentence: The hyperoxygenation test merits further study in expectantly managed cases . A planning study for palliative spine treatment using StatRT and megavoltage CT simulation .
+
+ppatt:
+	?a merits ?b . ?c using ?d
+		?a: The hyperoxygenation test
+		?b: further study in expectantly managed cases
+		?c: A planning study for palliative spine treatment
+		?d: StatRT
+	?a merits ?b . ?c using ?d
+		?a: The hyperoxygenation test
+		?b: further study in expectantly managed cases
+		?c: A planning study for palliative spine treatment
+		?d: megavoltage
+
+
+label:    sent_11
+sentence: To study neck and shoulder work-related muscle fatigue of female sewing machine operators .
+
+ppatt:
+	study ?a
+		?a: neck of female sewing machine operators
+	study ?a
+		?a: shoulder
+	study ?a
+		?a: work-related muscle fatigue
+
+
+label:    sent_12
+sentence: This study attempts to profile these nonseekers and study possible determinants of nonseeking behaviors .
+
+ppatt:
+	?a attempts to profile ?b
+		?a: This study
+		?b: these nonseekers
+	?a attempts to study ?b
+		?a: This study
+		?b: possible determinants of nonseeking behaviors
+
+
+label:    sent_13
+sentence: To study the health and needs of geriatric patients Qualitative research study . An intervention study using a ' before-after ' design . Prospective cohort study . Clonal analysis and fate mappings are popular experiments to study tissue movement during morphogenesis .
+
+ppatt:
+	study ?a ?b ?c
+		?a: the health of geriatric patients
+		?b: Qualitative research study
+		?c: An intervention study using a ' before-after ' design . Prospective cohort study
+	study ?a ?b ?c
+		?a: needs
+		?b: Qualitative research study
+		?c: An intervention study using a ' before-after ' design . Prospective cohort study
+	?a using ?b ?c
+		?a: An intervention study
+		?b: a ' before-after ' design
+		?c: Prospective cohort study
+	?a ?b are popular experiments
+		?a: An intervention study using a ' before-after ' design . Prospective cohort study
+		?b: Clonal analysis
+	?a ?b are popular experiments
+		?a: An intervention study using a ' before-after ' design . Prospective cohort study
+		?b: fate mappings
+	?a study ?b during ?c
+		?a: popular experiments
+		?b: tissue movement
+		?c: morphogenesis
+
+
+label:    sent_14
+sentence: In this report , we study glycated histones and its in vitro oxidation .
+
+ppatt:
+	In ?a , ?b study ?c
+		?a: this report
+		?b: we
+		?c: glycated histones
+	In ?a , ?b study ?c
+		?a: this report
+		?b: we
+		?c: its in oxidation
+
+
+label:    sent_15
+sentence: Student use of out-of-class study groups in an introductory undergraduate biology course .
+
+ppatt:
+
+
+
+label:    sent_16
+sentence: This dataset is several times larger than the largest autism study to date .
+
+ppatt:
+	?a is ?b larger than ?c
+		?a: This dataset
+		?b: several times
+		?c: the largest autism study to date
+
+
+label:    sent_17
+sentence: The aim was to study for any association of vitiligo with serum Hcy level .
+
+ppatt:
+	?a was to study for ?b
+		?a: The aim
+		?b: any association of vitiligo with serum Hcy level
+
+
+label:    sent_18
+sentence: In vitro study with human immortalized epithelial endometriotic cells .
+
+ppatt:
+
+
+
+label:    sent_19
+sentence: A brain function diagnostic and study unit for psychotropic drug development and psychopharmacology research .
+
+ppatt:
+	?a diagnostic
+		?a: A brain function
+	?a study ?b
+		?a: A brain function
+		?b: unit for psychotropic drug development and psychopharmacology research
+
+
+label:    sent_20
+sentence: To study age-related hearing degeneration by means of higher thresholds and hearing sensitivity measures .
+
+ppatt:
+	study ?a by of ?b
+		?a: age-related hearing degeneration
+		?b: higher thresholds
+	study ?a by of ?b
+		?a: age-related hearing degeneration
+		?b: hearing sensitivity measures
+
+
+label:    sent_21
+sentence: Predictions of recall and study strategy decisions after diffuse brain injury .
+
+ppatt:
+	study ?a after ?b
+		?a: strategy decisions
+		?b: diffuse brain injury
+
+
+label:    sent_22
+sentence: Either type of pouch is a useful system in which to study inflammation .
+
+ppatt:
+	?a is a useful system
+		?a: Either type of pouch
+	?a in to study ?b
+		?a: a useful system
+		?b: inflammation
+
+
+label:    sent_23
+sentence: Properly selected clinicopathological conferences are excellent windows through which to study diagnostic reasoning .
+
+ppatt:
+	?a are excellent windows
+		?a: Properly selected clinicopathological conferences
+	?a through to study ?b
+		?a: excellent windows
+		?b: diagnostic reasoning
+
+
+label:    sent_24
+sentence: This model offers a platform from which to study therapeutic interventions for rmTBI .
+
+ppatt:
+	?a offers ?b
+		?a: This model
+		?b: a platform from which to study therapeutic interventions for rmTBI
+	?a from to study ?b
+		?a: a platform
+		?b: therapeutic interventions for rmTBI
+
+

@@ -1,0 +1,324 @@
+label:    sent_1
+sentence: Successful mitosis requires that kinetochores stably attach to the plus ends of spindle microtubules .
+
+ppatt:
+	?a requires ?b
+		?a: Successful mitosis
+		?b: SOMETHING := kinetochores stably attach to the plus ends of spindle microtubules
+	?a stably attach to ?b
+		?a: kinetochores
+		?b: the of spindle microtubules
+	?a stably attach to ?b
+		?a: kinetochores
+		?b: ends
+
+
+label:    sent_2
+sentence: Immediately after hatching , early brachiolariae attach by the arms .
+
+ppatt:
+	Immediately after ?a , ?b attach by ?c
+		?a: hatching
+		?b: early brachiolariae
+		?c: the arms
+
+
+label:    sent_3
+sentence: The ability of macrophages to attach to a surface was not affected by exposure .
+
+ppatt:
+	?a attach to ?b
+		?a: The ability of macrophages
+		?b: a surface
+	?a was not affected by ?b
+		?a: The ability of macrophages to attach to a surface
+		?b: exposure
+
+
+label:    sent_4
+sentence: This indicated MG63 cells attach mostly via fibronectin specific integrins .
+
+ppatt:
+	?a indicated ?b
+		?a: This
+		?b: SOMETHING := MG63 cells attach mostly via fibronectin specific integrins
+	?a attach mostly via ?b
+		?a: MG63 cells
+		?b: fibronectin specific integrins
+
+
+label:    sent_5
+sentence: Bacteria attach to their appropriate environmental niche by using adhesins . MID764-913 functions as an adhesin and promotes the bacteria to attach to epithelial cells .
+
+ppatt:
+	?a attach to ?b
+		?a: Bacteria
+		?b: their appropriate environmental niche
+	?a using ?b
+		?a: Bacteria
+		?b: adhesins
+	?a functions as ?b
+		?a: MID764-913
+		?b: an adhesin
+	?a promotes ?b to attach to ?c
+		?a: MID764-913
+		?b: the bacteria
+		?c: epithelial cells
+
+
+label:    sent_6
+sentence: Socially anxious children tend to attach great importance to others ' evaluations of them .
+
+ppatt:
+	?a tend to attach ?b
+		?a: Socially anxious children
+		?b: great importance to others ' evaluations of them
+
+
+label:    sent_7
+sentence: It is a common practice to attach multiple patch tests at the same time .
+
+ppatt:
+	?a is a common practice
+		?a: It
+	?a attach ?b at ?c
+		?a: a common practice
+		?b: multiple patch tests
+		?c: the same time
+
+
+label:    sent_8
+sentence: Experiments have been initiated to attach 67Cu to monoclonal antibodies for immunotherapy applications .
+
+ppatt:
+	?a have been initiated to attach ?b to ?c for ?d
+		?a: Experiments
+		?b: 67Cu
+		?c: monoclonal antibodies
+		?d: immunotherapy applications
+
+
+label:    sent_9
+sentence: The virus can attach to and enter resting B cells .
+
+ppatt:
+	?a can attach ?b ?c
+		?a: The virus
+		?b: to
+		?c: resting B cells
+	?a enter
+		?a: The virus
+
+
+label:    sent_10
+sentence: They did attach to and migrate in hydrated 3-D collagen lattices .
+
+ppatt:
+	?a did attach ?b in ?c
+		?a: They
+		?b: to
+		?c: hydrated 3-D collagen lattices
+	?a migrate
+		?a: They
+
+
+label:    sent_11
+sentence: Additional fibers attach to the ischiopubic rami and constitute a compressor of the urethra .
+
+ppatt:
+	?a attach to ?b
+		?a: Additional fibers
+		?b: the ischiopubic rami
+	?a constitute ?b
+		?a: Additional fibers
+		?b: a compressor of the urethra
+
+
+label:    sent_12
+sentence: Both attach to bovine cells but vary in their invasiveness .
+
+ppatt:
+	?a attach to ?b
+		?a: Both
+		?b: bovine cells
+	?a vary in ?b
+		?a: Both
+		?b: their invasiveness
+
+
+label:    sent_13
+sentence: Invariably , the microconjugants attach to and penetrate the lateral side of the macroconjugants .
+
+ppatt:
+	Invariably , ?a attach ?b
+		?a: the microconjugants
+		?b: to
+	?a penetrate ?b
+		?a: the microconjugants
+		?b: the lateral side of the macroconjugants
+
+
+label:    sent_14
+sentence: They may insert into the shoe or attach to the shoe . Acrylic cements are commonly used to attach prosthetic components in joint replacement surgery . All DD-IM exhibited similar abilities to attach complement-coated SRBC .
+
+ppatt:
+	?a may insert into ?b
+		?a: They
+		?b: the shoe
+	?a attach to ?b
+		?a: They
+		?b: the shoe
+	?a are commonly used to attach ?b
+		?a: Acrylic cements
+		?b: prosthetic components in joint replacement surgery
+	?a exhibited ?b
+		?a: All DD-IM
+		?b: similar abilities to attach complement-coated SRBC
+	?a attach ?b
+		?a: similar abilities
+		?b: complement-coated SRBC
+
+
+label:    sent_15
+sentence: [Why is it necessary to attach Latin names for Chinese medicinal herbs ? ] . CLASPs attach microtubule plus ends to the cell cortex through a complex with LL5beta .
+
+ppatt:
+	?a is ?b necessary to attach ?c
+		?a: [Why
+		?b: it
+		?c: Latin names for Chinese medicinal herbs
+	?a is/are ]
+		?a: Chinese medicinal herbs
+	?a attach ?b through ?c
+		?a: CLASPs
+		?b: microtubule to the cell cortex
+		?c: a complex with LL5beta
+	?a attach ?b through ?c
+		?a: CLASPs
+		?b: ends
+		?c: a complex with LL5beta
+
+
+label:    sent_16
+sentence: But HTA and health authorities attach different importance to quality of life .
+
+ppatt:
+	?a attach ?b to ?c
+		?a: HTA and health authorities
+		?b: different importance
+		?c: quality of life
+
+
+label:    sent_17
+sentence: It reminds us to attach importance to the immunosuppressive diseases after long-term hormone treatment .
+
+ppatt:
+	?a reminds ?b to attach ?c after ?d
+		?a: It
+		?b: us
+		?c: importance to the immunosuppressive diseases
+		?d: long-term hormone treatment
+
+
+label:    sent_18
+sentence: Chondrocytes were observed to attach and proliferate on the MBCP scaffold . hRPCs were more difficult to attach and had only short dendrites .
+
+ppatt:
+	?a were observed to attach on ?b
+		?a: Chondrocytes
+		?b: the MBCP scaffold
+	?a were observed to proliferate
+		?a: Chondrocytes
+	?a were more difficult to attach ?b
+		?a: hRPCs
+		?b: only short dendrites
+	?a were more difficult to had
+		?a: hRPCs
+
+
+label:    sent_19
+sentence: Hemocytes of G. mellonella showed a high ability to attach and encapsulate fungal structures .
+
+ppatt:
+	?a showed ?b
+		?a: Hemocytes of G. mellonella
+		?b: a high ability to attach and encapsulate fungal structures
+	?a attach ?b
+		?a: a high ability
+		?b: fungal structures
+	encapsulate ?a
+		?a: fungal structures
+
+
+label:    sent_20
+sentence: Primary human osteoblasts attach , spread and proliferate well on both types of coatings .
+
+ppatt:
+	?a attach
+		?a: Primary human osteoblasts
+	?a spread
+		?a: Primary human osteoblasts
+	?a proliferate well on ?b
+		?a: Primary human osteoblasts
+		?b: both types of coatings
+
+
+label:    sent_21
+sentence: Cells attach and proliferate on the outer surface of the fibers . Cells attach and grow on planed root surfaces .
+
+ppatt:
+	?a attach on ?b
+		?a: Cells
+		?b: the outer surface of the fibers
+	?a proliferate
+		?a: Cells
+	?a attach
+		?a: Cells
+	?a grow on ?b
+		?a: Cells
+		?b: planed root surfaces
+
+
+label:    sent_22
+sentence: Cells incubated on these filters attach to those proteins that have adhesive properties .
+
+ppatt:
+	?a incubated on ?b
+		?a: Cells
+		?b: these filters
+	?a attach to ?b
+		?a: Cells incubated on these filters
+		?b: those proteins that have adhesive properties
+	?a have ?b
+		?a: those proteins
+		?b: adhesive properties
+
+
+label:    sent_23
+sentence: Cells that attach show micronuclear migration while unattached cells do not .
+
+ppatt:
+	?a attach
+		?a: Cells
+	?a show ?b
+		?a: Cells that attach
+		?b: micronuclear migration
+	?a do not
+		?a: unattached cells
+
+
+label:    sent_24
+sentence: We observe HUVEC to attach , spread , and lose circularity on all surfaces .
+
+ppatt:
+	?a observe ?b to attach
+		?a: We
+		?b: HUVEC
+	?a observe to spread
+		?a: We
+	?a observe to lose ?b on ?c
+		?a: We
+		?b: circularity
+		?c: all surfaces
+
+

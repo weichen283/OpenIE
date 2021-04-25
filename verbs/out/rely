@@ -1,0 +1,250 @@
+label:    sent_1
+sentence: Clinicians rely on many tools , including guidelines , to make these treatment decisions .
+
+ppatt:
+	?a rely on ?b to make ?c
+		?a: Clinicians
+		?b: many tools , including guidelines
+		?c: these treatment decisions
+
+
+label:    sent_2
+sentence: Clinicians should instead rely on clinical impression and laboratory diagnosis by rRT-PCR .
+
+ppatt:
+	?a should instead rely on ?b
+		?a: Clinicians
+		?b: clinical impression by rRT-PCR
+	?a should instead rely on ?b
+		?a: Clinicians
+		?b: laboratory diagnosis
+
+
+label:    sent_3
+sentence: Therefore , vaccine safety monitoring should rely on different types of data sources .
+
+ppatt:
+	Therefore , ?a should rely on ?b
+		?a: vaccine safety monitoring
+		?b: different types of data sources
+
+
+label:    sent_4
+sentence: These ants are known to rely on both visual landmark learning and path integration .
+
+ppatt:
+	?a are known to rely on ?b
+		?a: These ants
+		?b: visual landmark learning
+	?a are known to rely on ?b
+		?a: These ants
+		?b: path integration
+
+
+label:    sent_5
+sentence: Team members tend to rely on expected role behaviours to bridge lack of familiarity .
+
+ppatt:
+	?a tend to rely on ?b to bridge ?c
+		?a: Team members
+		?b: expected role behaviours
+		?c: lack of familiarity
+
+
+label:    sent_6
+sentence: Behavioral exposure therapy of anxiety disorders is believed to rely on fear extinction .
+
+ppatt:
+	?a is believed to rely on ?b
+		?a: Behavioral exposure therapy of anxiety disorders
+		?b: fear extinction
+
+
+label:    sent_7
+sentence: Clinical examination is limited and we often rely on imaging . Urban populations still rely on ecosystems , but prioritize non-ecosystem services ( socioeconomic ) . Breast cancer stem cells rely on fermentative glycolysis and are sensitive to 2-deoxyglucose treatment .
+
+ppatt:
+	?a is limited
+		?a: Clinical examination
+	?a often rely on ?b
+		?a: we
+		?b: imaging
+	?a still rely on ?b
+		?a: Urban populations
+		?b: ecosystems
+	?a prioritize ?b
+		?a: Urban populations
+		?b: non-ecosystem services
+	?a rely on ?b
+		?a: Breast cancer stem cells
+		?b: fermentative glycolysis
+
+
+label:    sent_8
+sentence: Morphofunctional changes in hypothalamic neurons are highly energy dependent and rely on mitochondrial metabolism .
+
+ppatt:
+	?a are highly ?b dependent
+		?a: Morphofunctional changes in hypothalamic neurons
+		?b: energy
+	?a rely on ?b
+		?a: Morphofunctional changes in hypothalamic neurons
+		?b: mitochondrial metabolism
+
+
+label:    sent_9
+sentence: The judge has no recourse but to rely on Expert Evidence .
+
+ppatt:
+	?a has ?b
+		?a: The judge
+		?b: no recourse
+	?a rely on ?b
+		?a: The judge
+		?b: Expert Evidence
+
+
+label:    sent_10
+sentence: Users are educated and self-empowered and rely on information sources beyond mainstream medical practitioners .
+
+ppatt:
+	?a are educated
+		?a: Users
+	?a rely on ?b
+		?a: Users
+		?b: information sources beyond mainstream medical practitioners
+
+
+label:    sent_11
+sentence: Currently available fetal intervention techniques rely on invasive procedures that carry inherent risks . Metazoans rely on aerobic energy production , which requires an adequate oxygen supply .
+
+ppatt:
+	?a rely on ?b
+		?a: Currently available fetal intervention techniques
+		?b: invasive procedures that carry inherent risks
+	?a carry ?b
+		?a: invasive procedures
+		?b: inherent risks
+	?a rely on ?b
+		?a: Metazoans
+		?b: aerobic energy production , which requires an adequate oxygen supply
+	?a requires ?b
+		?a: aerobic energy production
+		?b: an adequate oxygen supply
+
+
+label:    sent_12
+sentence: State-of-the-art approaches rely on classical sequence models that are adapted to the studied dataset .
+
+ppatt:
+	?a rely on ?b
+		?a: State-of-the-art approaches
+		?b: classical sequence models that are adapted to the studied dataset
+	?a are adapted to ?b
+		?a: classical sequence models
+		?b: the studied dataset
+
+
+label:    sent_13
+sentence: They rely on emotional and physical support from informal carers , typically family members .
+
+ppatt:
+	?a rely on ?b
+		?a: They
+		?b: emotional and physical support from informal carers
+	?a is/are typically family members
+		?a: informal carers
+
+
+label:    sent_14
+sentence: What resources can medical examiners rely on to better manage the news media ? A previous finding that clinicians rely largely on the dangerousness criteria was replicated .
+
+ppatt:
+	?a can rely on to better manage ?b
+		?a: What resources medical examiners
+		?b: the news media
+	A previous finding ?a ?b
+		?a: A previous finding that clinicians rely largely on the dangerousness criteria
+		?b: SOMETHING := clinicians rely largely on the dangerousness criteria
+	?a rely largely on ?b
+		?a: clinicians
+		?b: the dangerousness criteria
+	?a was replicated
+		?a: A previous finding that clinicians rely largely on the dangerousness criteria
+
+
+label:    sent_15
+sentence: These outcomes emphasize the relative safety which patients using cimetidine in self-medication rely on . 1,3-Butadiene is an important constituent of many products that we rely upon . Recent genetic data suggest two physiopathological hypotheses , which both rely on NF-Kb dysfunction .
+
+ppatt:
+	?a emphasize ?b
+		?a: These outcomes
+		?b: the relative safety which patients using cimetidine in self-medication rely on . 1,3-Butadiene is an important constituent of many products that we rely
+	?a using ?b
+		?a: patients
+		?b: cimetidine
+	?a in ?b rely
+		?a: the relative safety
+		?b: self-medication
+	?a on ?b is an important constituent of ?c
+		?a: patients using cimetidine
+		?b: 1,3-Butadiene
+		?c: many products that we rely
+	?a ?b rely
+		?a: many products
+		?b: we
+	upon . ?a suggest ?b
+		?a: Recent genetic data
+		?b: two physiopathological hypotheses , which both rely on NF-Kb dysfunction
+	?a ?b rely on ?c
+		?a: two physiopathological hypotheses
+		?b: both
+		?c: NF-Kb dysfunction
+
+
+label:    sent_16
+sentence: Protecting critical infrastructures on which vulnerable populations and the general public rely ; 6 .
+
+ppatt:
+	Protecting ?a
+		?a: critical infrastructures on which vulnerable populations and the general public rely ; 6
+	?a on ?b rely ?c
+		?a: critical infrastructures
+		?b: vulnerable populations
+		?c: 6
+	?a on ?b rely ?c
+		?a: critical infrastructures
+		?b: the general public
+		?c: 6
+
+
+label:    sent_17
+sentence: It is a service on which many children , and parents , still rely . [When hardship strikes welfare recipients .
+
+ppatt:
+	?a is a service
+		?a: It
+	?a on ?b still rely
+		?a: a service . [When hardship strikes welfare recipients
+		?b: many children
+	?a on ?b still rely
+		?a: a service . [When hardship strikes welfare recipients
+		?b: parents
+	?a ?b strikes ?c
+		?a: a service on which many children , and parents , still rely
+		?b: [When hardship
+		?c: welfare recipients
+
+
+label:    sent_18
+sentence: On who can they rely ? ] . The spatial colinearity is considered to rely both on local and long-range cis regulation .
+
+ppatt:
+	?a can ?b rely
+		?a: who
+		?b: they
+	?a is considered to rely on ?b
+		?a: The spatial colinearity
+		?b: local and long-range cis regulation
+
+

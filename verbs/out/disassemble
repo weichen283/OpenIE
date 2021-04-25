@@ -1,0 +1,251 @@
+label:    sent_1
+sentence: Aip1p interacts with cofilin to disassemble actin filaments .
+
+ppatt:
+	?a interacts with ?b to disassemble ?c
+		?a: Aip1p
+		?b: cofilin
+		?c: actin filaments
+
+
+label:    sent_2
+sentence: It is also very easy to assemble and disassemble the working electrode when needed .
+
+ppatt:
+	?a is also very easy to assemble ?b
+		?a: It
+		?b: the working electrode
+	?a is also very easy to disassemble
+		?a: It
+	?a when needed
+		?a: It
+
+
+label:    sent_3
+sentence: Force required to disassemble block copolymer micelles in water .
+
+ppatt:
+	?a required to disassemble block ?b
+		?a: Force
+		?b: copolymer micelles in water
+
+
+label:    sent_4
+sentence: Already formed fibrils did not disassemble in the presence of high concentrations of LPFFD .
+
+ppatt:
+	?a did not disassemble in ?b
+		?a: Already formed fibrils
+		?b: the presence of high concentrations of LPFFD
+
+
+label:    sent_5
+sentence: As biofilms age they disassemble because the cells release the amyloid fibres .
+
+ppatt:
+	?a ?b ?c disassemble
+		?a: biofilms
+		?b: age
+		?c: they
+	?a release ?b
+		?a: the cells
+		?b: the amyloid fibres
+
+
+label:    sent_6
+sentence: During cell entry , reovirus particles disassemble to generate ISVPs .
+
+ppatt:
+	During ?a , ?b disassemble to generate ?c
+		?a: cell entry
+		?b: reovirus particles
+		?c: ISVPs
+
+
+label:    sent_7
+sentence: Furthermore , redox-responsive replica particles could be engineered to disassemble in a reducing environment .
+
+ppatt:
+	Furthermore , ?a could be engineered to disassemble in ?b
+		?a: redox-responsive replica particles
+		?b: a reducing environment
+
+
+label:    sent_8
+sentence: These structures can be designed to assemble and disassemble under controlled environmental conditions .
+
+ppatt:
+	?a can be designed to assemble under ?b
+		?a: These structures
+		?b: controlled environmental conditions
+	?a can be designed to disassemble
+		?a: These structures
+
+
+label:    sent_9
+sentence: Bacteria form communities known as biofilms , which disassemble over time .
+
+ppatt:
+	?a form ?b
+		?a: Bacteria
+		?b: communities known as biofilms , which disassemble over time
+	?a known as ?b
+		?a: communities
+		?b: biofilms , which disassemble over time
+	?a disassemble over ?b
+		?a: biofilms
+		?b: time
+
+
+label:    sent_10
+sentence: Drugs with colchicine-like effects that specifically disassemble plant but not animal microtubules .
+
+ppatt:
+	?a specifically disassemble ?b
+		?a: colchicine-like effects
+		?b: plant
+	?a specifically disassemble ?b
+		?a: colchicine-like effects
+		?b: animal
+	?a specifically disassemble ?b
+		?a: colchicine-like effects
+		?b: microtubules
+
+
+label:    sent_11
+sentence: Ubiquitin carboxyl terminal hydrolyses ( UCTH ) disassemble the polyubiquitin chains .
+
+ppatt:
+	?a is/are UCTH
+		?a: Ubiquitin carboxyl terminal hydrolyses
+	?a disassemble ?b
+		?a: Ubiquitin carboxyl terminal hydrolyses
+		?b: the polyubiquitin chains
+
+
+label:    sent_12
+sentence: Mutants of the protein serine kinase PSKH1 disassemble the Golgi apparatus .
+
+ppatt:
+	?a disassemble ?b
+		?a: Mutants of the protein serine kinase PSKH1
+		?b: the Golgi apparatus
+
+
+label:    sent_13
+sentence: Most mammalian microtubules disassemble at low temperature , but some are cold stable .
+
+ppatt:
+	?a disassemble at ?b
+		?a: Most mammalian microtubules
+		?b: low temperature
+	?a are cold stable
+		?a: some
+
+
+label:    sent_14
+sentence: Prior to exocytosis , the dense actin network must disassemble or largely be organized .
+
+ppatt:
+	Prior to ?a , ?b must disassemble
+		?a: exocytosis
+		?b: the dense actin network
+	?a largely be organized
+		?a: the dense actin network
+
+
+label:    sent_15
+sentence: All except Deltagim4 are cold-sensitive and their microtubules disassemble at 14 degrees C .
+
+ppatt:
+	?a are cold-sensitive
+		?a: All except Deltagim4
+	?a disassemble at ?b
+		?a: their microtubules
+		?b: 14 degrees C
+
+
+label:    sent_16
+sentence: Evidence that tobacco mosaic virus particles disassemble contranslationally in vivo .
+
+ppatt:
+
+
+
+label:    sent_17
+sentence: Concomitantly other components of the cytoskeleton , such as actin and cytokeratins disassemble .
+
+ppatt:
+	?a disassemble
+		?a: Concomitantly other components of the cytoskeleton , such as actin and cytokeratins
+
+
+label:    sent_18
+sentence: These fibers move centripetally towards the perinuclear region where they disassemble .
+
+ppatt:
+	?a move centripetally towards ?b
+		?a: These fibers
+		?b: the perinuclear region where they disassemble
+	?a where ?b disassemble
+		?a: the perinuclear region
+		?b: they
+
+
+label:    sent_19
+sentence: A rapid procedure was developed to disassemble SRP into native protein and RNA components .
+
+ppatt:
+	?a was developed to disassemble ?b into ?c
+		?a: A rapid procedure
+		?b: SRP
+		?c: native protein
+	?a was developed to disassemble ?b into ?c
+		?a: A rapid procedure
+		?b: SRP
+		?c: RNA
+	?a was developed to disassemble ?b into ?c
+		?a: A rapid procedure
+		?b: SRP
+		?c: components
+
+
+label:    sent_20
+sentence: VASP inhibited gelsolin 's ability to disassemble actin filaments in a dose-dependent fashion . Jasplakinolide disaggregated actin filaments but did not disassemble stress fibers .
+
+ppatt:
+	?a inhibited ?b
+		?a: VASP
+		?b: gelsolin 's ability to disassemble actin filaments in a dose-dependent fashion
+	?a disassemble ?b in ?c
+		?a: gelsolin 's ability
+		?b: actin filaments
+		?c: a dose-dependent fashion
+	?a disaggregated ?b
+		?a: Jasplakinolide
+		?b: actin filaments
+	?a did not disassemble ?b
+		?a: Jasplakinolide
+		?b: stress fibers
+
+
+label:    sent_21
+sentence: Temperature-sensitive B mutants of SV40 disassemble intracellular encapsidation particles at elevated temperature .
+
+ppatt:
+	?a disassemble ?b at ?c
+		?a: Temperature-sensitive B mutants of SV40
+		?b: intracellular encapsidation particles
+		?c: elevated temperature
+
+
+label:    sent_22
+sentence: Upon wounding , basal cells of the corneal epithelium disassemble their hemidesmosomes .
+
+ppatt:
+	Upon ?a , ?b disassemble ?c
+		?a: wounding
+		?b: basal cells of the corneal epithelium
+		?c: their hemidesmosomes
+
+

@@ -1,0 +1,330 @@
+label:    sent_1
+sentence: The inter-trial interval was varied in 1,100-1,500 ms range to avoid expectancy effects .
+
+ppatt:
+	?a was varied in ?b to avoid ?c
+		?a: The inter-trial interval
+		?b: 1,100-1,500 ms range
+		?c: expectancy effects
+
+
+label:    sent_2
+sentence: To avoid distributional assumptions , the nonparametric bootstrap was applied .
+
+ppatt:
+	avoid ?a ?b
+		?a: distributional assumptions
+		?b: the nonparametric bootstrap
+	?a was applied
+		?a: the nonparametric bootstrap
+
+
+label:    sent_3
+sentence: These microcosms are designed to avoid block contact with agar or Petri dish walls .
+
+ppatt:
+	?a are designed to avoid block ?b
+		?a: These microcosms
+		?b: contact with agar or Petri dish walls
+
+
+label:    sent_4
+sentence: Accurate diagnosis is crucial to avoid bladder injury during surgery and other complications .
+
+ppatt:
+	?a is crucial to avoid ?b during ?c
+		?a: Accurate diagnosis
+		?b: bladder injury
+		?c: surgery
+	?a is crucial to avoid ?b during ?c
+		?a: Accurate diagnosis
+		?b: bladder injury
+		?c: other complications
+
+
+label:    sent_5
+sentence: Many older drivers self-restrict or avoid driving under high-risk conditions .
+
+ppatt:
+	?a self-restrict ?b under ?c
+		?a: Many older drivers
+		?b: driving
+		?c: high-risk conditions
+	?a avoid
+		?a: Many older drivers
+
+
+label:    sent_6
+sentence: They help avoid unnecessary repeat biopsy in men with increased prostate specific antigen .
+
+ppatt:
+	?a help avoid ?b
+		?a: They
+		?b: unnecessary repeat biopsy in men with increased prostate specific antigen
+
+
+label:    sent_7
+sentence: Comprehensive review of TIPS technical complications and how to avoid them .
+
+ppatt:
+	?a how to avoid ?b
+		?a: Comprehensive review of TIPS technical complications
+		?b: them
+
+
+label:    sent_8
+sentence: Patients with OSAS if not effectively treated should avoid nighttime work .
+
+ppatt:
+	?a not effectively treated
+		?a: Patients with OSAS
+	?a should avoid ?b
+		?a: Patients with OSAS
+		?b: nighttime work
+
+
+label:    sent_9
+sentence: Minimally invasive approaches in less-complex cardiac procedures can avoid unpleasant cosmetic results .
+
+ppatt:
+	?a can avoid ?b
+		?a: Minimally invasive approaches in less-complex cardiac procedures
+		?b: unpleasant cosmetic results
+
+
+label:    sent_10
+sentence: Genital repositioning is mandatory to avoid torsion and preserve ovarian function .
+
+ppatt:
+	?a is mandatory to avoid ?b
+		?a: Genital repositioning
+		?b: torsion
+	?a is mandatory to preserve ?b
+		?a: Genital repositioning
+		?b: ovarian function
+
+
+label:    sent_11
+sentence: To avoid diagnostic errors and improve genetic counseling .
+
+ppatt:
+	avoid ?a
+		?a: diagnostic errors
+	improve ?a
+		?a: genetic counseling
+
+
+label:    sent_12
+sentence: The platelets were concentrated , to avoid post-thaw washing , and frozen at -80degreesC .
+
+ppatt:
+	?a were concentrated , to avoid ?b
+		?a: The platelets
+		?b: post-thaw washing
+	?a frozen at ?b
+		?a: The platelets
+		?b: -80degreesC
+
+
+label:    sent_13
+sentence: Hybrid aortoiliac revascularization to avoid nonautogenous groin reconstruction in an intravenous drug abuser .
+
+ppatt:
+	?a avoid ?b
+		?a: Hybrid aortoiliac revascularization
+		?b: nonautogenous groin reconstruction in an intravenous drug abuser
+
+
+label:    sent_14
+sentence: Guidelines should avoid too strict criteria , particularly in relation to age .
+
+ppatt:
+	?a should avoid ?b , in ?c
+		?a: Guidelines
+		?b: too strict criteria
+		?c: particularly relation to age
+
+
+label:    sent_15
+sentence: Bony anatomic landmarks to avoid injury to the marginal mandibular nerve .
+
+ppatt:
+	?a avoid ?b
+		?a: Bony anatomic landmarks
+		?b: injury to the marginal mandibular nerve
+
+
+label:    sent_16
+sentence: Malodour can have a distressing effect and the affected person may avoid socialising .
+
+ppatt:
+	?a can have ?b
+		?a: Malodour
+		?b: a distressing effect
+	?a may avoid ?b
+		?a: the affected person
+		?b: socialising
+
+
+label:    sent_17
+sentence: Overall survival is excellent , and most patients avoid the morbidity of open debridement .
+
+ppatt:
+	?a is excellent
+		?a: Overall survival
+	?a avoid ?b
+		?a: most patients
+		?b: the morbidity of open debridement
+
+
+label:    sent_18
+sentence: Artificial bones avoid these , but tailoring them to specific studies may be difficult .
+
+ppatt:
+	?a avoid ?b
+		?a: Artificial bones
+		?b: these
+	tailoring ?a ?b to ?c
+		?a: tailoring them to specific studies
+		?b: them
+		?c: specific studies
+	?a may be difficult
+		?a: tailoring them to specific studies
+
+
+label:    sent_19
+sentence: Physicians may be unfamiliar with methods to avoid or limit this problem .
+
+ppatt:
+	?a may be unfamiliar with ?b
+		?a: Physicians
+		?b: methods to avoid or limit this problem
+	?a avoid ?b
+		?a: methods
+		?b: this problem
+	limit ?a
+		?a: this problem
+
+
+label:    sent_20
+sentence: Using endoscopic balloon dilation , it may be possible to avoid or postpone surgery .
+
+ppatt:
+	Using ?a ?b
+		?a: endoscopic balloon dilation
+		?b: it
+	?a may be possible to avoid ?b
+		?a: it
+		?b: surgery
+	?a may be possible to postpone
+		?a: it
+
+
+label:    sent_21
+sentence: Preventive measures usually involve careful decompression procedures to avoid or reduce bubble formation .
+
+ppatt:
+	?a usually involve ?b to avoid ?c
+		?a: Preventive measures
+		?b: careful decompression procedures
+		?c: bubble formation
+	?a usually involve to reduce
+		?a: Preventive measures
+
+
+label:    sent_22
+sentence: Physicians may avoid code status discussions for fear of decreasing patient or surrogate satisfaction .
+
+ppatt:
+	?a may avoid ?b
+		?a: Physicians
+		?b: code status discussions for fear
+	?a decreasing ?b
+		?a: Physicians
+		?b: patient
+	?a decreasing ?b
+		?a: Physicians
+		?b: surrogate satisfaction
+
+
+label:    sent_23
+sentence: Research has shown that individuals in romantic relationships often avoid discussing past sexual experiences . Drugs to avoid . Early functional therapy is possible and can avoid limitations in postoperative shoulder function .
+
+ppatt:
+	?a has shown ?b ?c
+		?a: Research
+		?b: SOMETHING := individuals in romantic relationships often avoid discussing past sexual experiences . to avoid
+		?c: SOMETHING := Drugs . Early functional therapy is possible
+	?a often avoid discussing ?b . to avoid
+		?a: individuals in romantic relationships
+		?b: past sexual experiences
+	?a ?b is possible
+		?a: Drugs
+		?b: Early functional therapy
+	?a can avoid ?b
+		?a: Drugs
+		?b: limitations in postoperative shoulder function
+
+
+label:    sent_24
+sentence: Women must be aware of and avoid these hazards in their clinical environment .
+
+ppatt:
+	?a must be aware ?b in ?c
+		?a: Women
+		?b: of
+		?c: their clinical environment
+	?a avoid
+		?a: Women
+
+
+label:    sent_25
+sentence: MFC-cascade stacks maximise COD reduction and avoid voltage reversal under adverse conditions .
+
+ppatt:
+	?a maximise ?b
+		?a: MFC-cascade stacks
+		?b: COD reduction
+	?a avoid ?b under ?c
+		?a: MFC-cascade stacks
+		?b: voltage reversal
+		?c: adverse conditions
+
+
+label:    sent_26
+sentence: Diagnostic categories to employ and to avoid in daily practice have furthermore been stressed .
+
+ppatt:
+	?a employ
+		?a: Diagnostic categories
+	?a avoid in ?b
+		?a: Diagnostic categories
+		?b: daily practice
+	?a have furthermore been stressed
+		?a: Diagnostic categories to employ and to avoid in daily practice
+
+
+label:    sent_27
+sentence: Issues to avoid with " at will " employees .
+
+ppatt:
+	?a avoid with ?b
+		?a: Issues
+		?b: "
+	?a at will " ?b
+		?a: Issues to avoid with "
+		?b: employees
+
+
+label:    sent_28
+sentence: [ The tooth that moves : various pitfalls to avoid ] .
+
+ppatt:
+	?a moves ?b
+		?a: The tooth
+		?b: various pitfalls to avoid ]
+	?a avoid ?b
+		?a: various pitfalls
+		?b: ]
+
+

@@ -1,0 +1,207 @@
+label:    sent_1
+sentence: Uroepithelial cells were washed and lysed to enumerate adhered uropathogenic E. coli populations .
+
+ppatt:
+	?a were washed
+		?a: Uroepithelial cells
+	?a lysed to enumerate ?b
+		?a: Uroepithelial cells
+		?b: adhered uropathogenic E. coli populations
+
+
+label:    sent_2
+sentence: Cancer prevalence statistics enumerate cancer survivors -- those currently living with cancer .
+
+ppatt:
+	?a enumerate ?b ?c
+		?a: Cancer prevalence statistics
+		?b: cancer survivors
+		?c: those currently living with cancer
+	?a currently living with ?b
+		?a: those
+		?b: cancer
+
+
+label:    sent_3
+sentence: They were plated on OOPS medium to enumerate the VSC-producing bacteria . DAPI staining was used to enumerate total number of cells in the samples .
+
+ppatt:
+	?a were plated on ?b to enumerate ?c
+		?a: They
+		?b: OOPS medium
+		?c: the VSC-producing bacteria
+	?a was used to enumerate ?b
+		?a: DAPI staining
+		?b: total number of cells in the samples
+
+
+label:    sent_4
+sentence: A clonogenic assay was utilised to enumerate residual cells after in vitro treatment .
+
+ppatt:
+	?a was utilised to enumerate ?b after ?c
+		?a: A clonogenic assay
+		?b: residual cells
+		?c: in treatment
+
+
+label:    sent_5
+sentence: The technique was also used to enumerate L. monocytogenes in artificially contaminated foods .
+
+ppatt:
+	?a was also used to enumerate ?b in ?c
+		?a: The technique
+		?b: L. monocytogenes
+		?c: artificially contaminated foods
+
+
+label:    sent_6
+sentence: An experimental approach to enumerate the genes coding for immunoglobulin variable-regions .
+
+ppatt:
+	?a enumerate ?b
+		?a: An experimental approach
+		?b: the genes coding for immunoglobulin variable-regions
+	?a coding for ?b
+		?a: the genes
+		?b: immunoglobulin variable-regions
+
+
+label:    sent_7
+sentence: We then enumerate Boolean activation-inhibition networks to match the discretized data . They enumerate also the inclusion and exclusion criteria for transplantation .
+
+ppatt:
+	?a then enumerate ?b to match ?c
+		?a: We
+		?b: Boolean activation-inhibition networks
+		?c: the discretized data
+	?a enumerate also ?b
+		?a: They
+		?b: the inclusion for transplantation
+	?a enumerate also ?b
+		?a: They
+		?b: exclusion
+	?a enumerate also ?b
+		?a: They
+		?b: criteria
+
+
+label:    sent_8
+sentence: Free-ranging rhesus monkeys spontaneously individuate and enumerate small numbers of non-solid portions .
+
+ppatt:
+	?a spontaneously individuate ?b
+		?a: Free-ranging rhesus monkeys
+		?b: small numbers of non-solid portions
+	?a enumerate
+		?a: Free-ranging rhesus monkeys
+
+
+label:    sent_9
+sentence: The CellSearch system was used to enrich and enumerate CTCs from peripheral blood .
+
+ppatt:
+	?a was used to enrich ?b
+		?a: The CellSearch system
+		?b: CTCs from peripheral blood
+	?a was used to enumerate
+		?a: The CellSearch system
+
+
+label:    sent_10
+sentence: Flow cytometry and sorting are used to enumerate and purify variant cells .
+
+ppatt:
+	?a are used to enumerate ?b
+		?a: Flow cytometry
+		?b: variant cells
+	?a are used to enumerate ?b
+		?a: sorting
+		?b: variant cells
+	?a are used to purify
+		?a: Flow cytometry
+	?a are used to purify
+		?a: sorting
+
+
+label:    sent_11
+sentence: Various detection technologies and devices have been developed to enumerate and characterize CTCs .
+
+ppatt:
+	?a have been developed to enumerate ?b
+		?a: Various detection technologies
+		?b: CTCs
+	?a have been developed to enumerate ?b
+		?a: devices
+		?b: CTCs
+	?a have been developed to characterize
+		?a: Various detection technologies
+	?a have been developed to characterize
+		?a: devices
+
+
+label:    sent_12
+sentence: Cultural procedures included techniques to enumerate and isolate facultative and obligate anaerobic bacteria .
+
+ppatt:
+	?a included ?b
+		?a: Cultural procedures
+		?b: techniques to enumerate and isolate facultative and obligate anaerobic bacteria
+	?a enumerate ?b
+		?a: techniques
+		?b: facultative and obligate anaerobic bacteria
+	isolate ?a
+		?a: facultative and obligate anaerobic bacteria
+
+
+label:    sent_13
+sentence: Comparison of four methods to enumerate probiotic bifidobacteria in a fermented food product .
+
+ppatt:
+	?a enumerate ?b in ?c
+		?a: Comparison of four methods
+		?b: probiotic bifidobacteria
+		?c: a fermented food product
+
+
+label:    sent_14
+sentence: Evaluation of carcass scraping to enumerate bacteria on prechill broiler carcasses .
+
+ppatt:
+	?a enumerate ?b on ?c
+		?a: Evaluation of carcass scraping
+		?b: bacteria
+		?c: prechill broiler carcasses
+
+
+label:    sent_15
+sentence: Application of the disector method to enumerate cells in the testis . Several methods enumerate antigen specific T-cells and measure their functions .
+
+ppatt:
+	?a enumerate ?b
+		?a: Application of the disector method
+		?b: cells in the testis
+	?a ?b enumerate ?c
+		?a: Application of the disector method to enumerate cells in the testis
+		?b: Several methods
+		?c: antigen specific T-cells
+	?a measure ?b
+		?a: Application of the disector method to enumerate cells in the testis
+		?b: their functions
+
+
+label:    sent_16
+sentence: They enumerate the factors predisposing to the DIC syndrome and causing it .
+
+ppatt:
+	?a enumerate ?b
+		?a: They
+		?b: the factors predisposing to the DIC syndrome
+	?a predisposing to ?b
+		?a: the factors
+		?b: the DIC syndrome
+	?a causing ?b
+		?a: They
+		?b: it
+
+

@@ -1,0 +1,315 @@
+label:    sent_1
+sentence: An adverse pattern of blood lipids and atherosclerosis begin in childhood .
+
+ppatt:
+	?a begin in ?b
+		?a: An adverse pattern of blood lipids and atherosclerosis
+		?b: childhood
+
+
+label:    sent_2
+sentence: We begin by discussing the dynamic kinetic resolution reactions developed with azlactones .
+
+ppatt:
+	?a begin
+		?a: We
+	?a discussing ?b
+		?a: We
+		?b: the dynamic kinetic resolution reactions developed with azlactones
+	?a developed with ?b
+		?a: the dynamic kinetic resolution reactions
+		?b: azlactones
+
+
+label:    sent_3
+sentence: Preparation for hospital discharge should begin at or prior to admission .
+
+ppatt:
+	?a should begin ?b ?c
+		?a: Preparation for hospital discharge
+		?b: at
+		?c: admission
+	?a should begin ?b ?c
+		?a: Preparation for hospital discharge
+		?b: prior to
+		?c: admission
+
+
+label:    sent_4
+sentence: Our findings begin to delineate B-cell homeostatic mechanisms important for human immune tolerance .
+
+ppatt:
+	?a begin to delineate ?b
+		?a: Our findings
+		?b: B-cell homeostatic mechanisms important for human immune tolerance
+
+
+label:    sent_5
+sentence: Most individuals begin using such drugs during adolescence and within a social context .
+
+ppatt:
+	?a begin using ?b during ?c
+		?a: Most individuals
+		?b: such drugs
+		?c: adolescence
+	?a begin using ?b during ?c
+		?a: Most individuals
+		?b: such drugs
+		?c: a social context
+
+
+label:    sent_6
+sentence: Cancer in developing countries : can the revolution begin ? IPS typically provides support for 1 year or more after clients begin the job . Students were able to transcend emotions to begin reflection .
+
+ppatt:
+	?a typically provides ?b
+		?a: IPS
+		?b: support for 1 year
+	more after ?a begin ?b
+		?a: clients
+		?b: the job
+	?a ?b were able to transcend ?c to begin ?d
+		?a: Cancer in developing countries
+		?b: Students
+		?c: emotions
+		?d: reflection
+
+
+label:    sent_7
+sentence: When and which antibiotics are appropriate to begin treatment ?
+
+ppatt:
+	When ?a ?b are appropriate to begin ?c
+		?a: which
+		?b: antibiotics
+		?c: treatment
+
+
+label:    sent_8
+sentence: This will begin with sub-orbital missions and then progress to orbital flights .
+
+ppatt:
+	?a will begin with ?b
+		?a: This
+		?b: sub-orbital missions
+	?a then progress to ?b
+		?a: This
+		?b: orbital flights
+
+
+label:    sent_9
+sentence: Brain disease can begin early in life and often leads to neurocognitive dysfunction .
+
+ppatt:
+	?a can begin early in ?b
+		?a: Brain disease
+		?b: life
+	?a often leads to ?b
+		?a: Brain disease
+		?b: neurocognitive dysfunction
+
+
+label:    sent_10
+sentence: The epithelial cells begin to evaginate into subepithelial stroma and form tubular glands .
+
+ppatt:
+	?a begin to evaginate into ?b
+		?a: The epithelial cells
+		?b: subepithelial stroma
+	?a form ?b
+		?a: The epithelial cells
+		?b: tubular glands
+
+
+label:    sent_11
+sentence: To begin with , the probabilities to be discussed are small .
+
+ppatt:
+	begin with ?a
+		?a: the probabilities to be discussed
+	?a be discussed
+		?a: the probabilities
+	?a are small
+		?a: the probabilities to be discussed
+
+
+label:    sent_12
+sentence: To begin with , they have different meanings in different situations .
+
+ppatt:
+	begin with ?a
+		?a: they
+	?a have ?b in ?c
+		?a: they
+		?b: different meanings
+		?c: different situations
+
+
+label:    sent_13
+sentence: Layer dissolution and grain coarsening appear to begin at the surface .
+
+ppatt:
+	?a appear to begin at ?b
+		?a: Layer dissolution
+		?b: the surface
+	?a appear to begin at ?b
+		?a: grain coarsening
+		?b: the surface
+
+
+label:    sent_14
+sentence: We begin our HCM using k-means clustering for background removal . Many children begin school lacking needed EF skills .
+
+ppatt:
+	?a begin ?b using ?c
+		?a: We
+		?b: our HCM
+		?c: k-means clustering for background removal
+	?a clustering for ?b
+		?a: k-means
+		?b: background removal
+	?a begin ?b
+		?a: Many children
+		?b: school lacking needed EF skills
+	?a lacking ?b
+		?a: school
+		?b: needed EF skills
+
+
+label:    sent_15
+sentence: To begin comprehensive interviews were carried out with the inhabitants and collaborators .
+
+ppatt:
+	begin ?a
+		?a: comprehensive interviews
+	were carried out with ?a
+		?a: the inhabitants
+	were carried out with ?a
+		?a: collaborators
+
+
+label:    sent_16
+sentence: Diagnosis must be determined immediately within days after birth and effective treatment must begin .
+
+ppatt:
+	?a must be determined immediately within ?b
+		?a: Diagnosis
+		?b: days after birth
+	?a must begin
+		?a: effective treatment
+
+
+label:    sent_17
+sentence: However , safety methods development does not begin and end with ventricular repolarization .
+
+ppatt:
+	However , ?a does not begin with ?b
+		?a: safety methods development
+		?b: ventricular repolarization
+	?a end
+		?a: safety methods development
+
+
+label:    sent_18
+sentence: Frontal lobe CPSs are brief , frequent attacks that begin and end suddenly .
+
+ppatt:
+	?a are brief , attacks
+		?a: Frontal lobe CPSs
+	?a begin
+		?a: brief , attacks
+	?a end suddenly
+		?a: that
+
+
+label:    sent_19
+sentence: Bumblebees , as other adult insects , thus begin flights prior to fully maturing .
+
+ppatt:
+	?a thus begin ?b
+		?a: Bumblebees , as other adult insects
+		?b: flights
+	?a prior to fully maturing
+		?a: Bumblebees , as other adult insects
+
+
+label:    sent_20
+sentence: American Indians begin smoking in early adolescence ( age 14.7 ) . Few begin care in the first trimester ( 8.5 % ) . Pathways to youth violence are complex and may begin early .
+
+ppatt:
+	?a begin ?b
+		?a: American Indians
+		?b: smoking in early adolescence
+	?a is/are age 14.7
+		?a: early adolescence
+	?a begin ?b
+		?a: Few
+		?b: care in the first trimester
+	?a is/are 8.5 %
+		?a: the first trimester
+	?a are complex
+		?a: Pathways to youth violence
+	?a may begin early
+		?a: Pathways to youth violence
+
+
+label:    sent_21
+sentence: Elementary school enrollments will soon stop decreasing and begin to increase again .
+
+ppatt:
+	?a will soon stop decreasing
+		?a: Elementary school enrollments
+	?a begin to increase again
+		?a: Elementary school enrollments
+
+
+label:    sent_22
+sentence: Nonprofits begin '82 stable but uneasy .. . while for-profits expect more growth .
+
+ppatt:
+	?a begin ?b
+		?a: Nonprofits
+		?b: '82 stable
+	?a begin ?b
+		?a: Nonprofits
+		?b: uneasy ..
+	?a expect ?b
+		?a: for-profits
+		?b: more growth
+
+
+label:    sent_23
+sentence: Reaction times to begin the movement after stimulus appearance were constant across conditions .
+
+ppatt:
+	?a begin ?b
+		?a: Reaction times
+		?b: the movement after stimulus appearance
+	?a were constant across ?b
+		?a: Reaction times to begin the movement after stimulus appearance
+		?b: conditions
+
+
+label:    sent_24
+sentence: Hypothyroid pups failed to begin nibbling chow while littermates injected with T4 weaned normally .
+
+ppatt:
+	?a failed to begin ?b
+		?a: Hypothyroid pups
+		?b: nibbling chow
+	?a injected with ?b
+		?a: littermates
+		?b: T4
+	?a weaned normally
+		?a: littermates injected with T4
+
+
+label:    sent_25
+sentence: When did " scientific psychology " begin in Russia ?
+
+ppatt:
+	When did " ?a begin in ?b
+		?a: scientific psychology "
+		?b: Russia
+
+

@@ -1,0 +1,273 @@
+label:    sent_1
+sentence: Nurses are in an ideal position to educate patients .
+
+ppatt:
+	?a are in an ideal position
+		?a: Nurses
+	?a educate ?b
+		?a: an ideal position
+		?b: patients
+
+
+label:    sent_2
+sentence: Interventions designed to educate women about dilator use benefit may increase adherence .
+
+ppatt:
+	?a designed to educate ?b
+		?a: Interventions
+		?b: women about dilator use benefit
+	?a may increase ?b
+		?a: Interventions designed to educate women about dilator use benefit
+		?b: adherence
+
+
+label:    sent_3
+sentence: Thus , there is a need to educate the public about these side effects .
+
+ppatt:
+	Thus , there is ?a
+		?a: a need to educate the public about these side effects
+	?a educate ?b
+		?a: a need
+		?b: the public about these side effects
+
+
+label:    sent_4
+sentence: Mobile phones have the potential to motivate and educate obese children as well .
+
+ppatt:
+	?a have ?b
+		?a: Mobile phones
+		?b: the potential to motivate and educate obese children as well
+	?a motivate ?b
+		?a: the potential
+		?b: obese children
+	educate ?a as well
+		?a: obese children
+
+
+label:    sent_5
+sentence: To educate pharmacists about the application of laboratory values in oncology .
+
+ppatt:
+	educate ?a
+		?a: pharmacists about the application of laboratory values in oncology
+
+
+label:    sent_6
+sentence: To educate members of public services about basic principles of cardiopulmonary reanimation .
+
+ppatt:
+	educate ?a
+		?a: members of public services about basic principles of cardiopulmonary reanimation
+
+
+label:    sent_7
+sentence: There are wide variations in how centers care for and educate donors with anemia .
+
+ppatt:
+	There are ?a
+		?a: wide variations
+	how ?a care ?b ?c
+		?a: centers
+		?b: for
+		?c: donors with anemia
+	?a educate
+		?a: centers
+
+
+label:    sent_8
+sentence: Implementation often requires additional personnel to educate providers and collect the data . Medical workers should publicize these facts and educate the public . National Home Care Week : your opportunity to educate and inform .
+
+ppatt:
+	?a often requires ?b to educate ?c
+		?a: Implementation
+		?b: additional personnel
+		?c: providers
+	?a often requires to collect ?b
+		?a: Implementation
+		?b: the data
+	?a should publicize ?b
+		?a: Medical workers
+		?b: these facts
+	?a educate ?b
+		?a: Medical workers
+		?b: the public . National Home Care Week
+
+
+label:    sent_9
+sentence: This study demonstrates the efficacy of drama as a mechanism to educate and motivate .
+
+ppatt:
+	?a demonstrates ?b
+		?a: This study
+		?b: the efficacy of drama as a mechanism to educate and motivate
+	?a educate
+		?a: a mechanism
+
+
+label:    sent_10
+sentence: To educate or not to educate : is that the question ? Physical therapy educators seek teaching methodologies to efficiently educate students .
+
+ppatt:
+	is ?a
+		?a: SOMETHING := the question ? Physical therapy educators seek teaching methodologies to efficiently educate students
+	?a ?b seek ?c to efficiently educate ?d
+		?a: the question
+		?b: Physical therapy educators
+		?c: teaching methodologies
+		?d: students
+
+
+label:    sent_11
+sentence: An interactive computer program can effectively educate potential users of cystic fibrosis carrier tests . MyD88-dependent TLR1/2 signals educate dendritic cells with gut-specific imprinting properties .
+
+ppatt:
+	?a can effectively educate ?b
+		?a: An interactive computer program
+		?b: potential users of cystic fibrosis carrier tests
+	?a educate ?b with ?c
+		?a: MyD88-dependent TLR1/2 signals
+		?b: dendritic cells
+		?c: gut-specific imprinting properties
+
+
+label:    sent_12
+sentence: The computer program under evaluation can successfully educate individuals considering genetic testing for CF .
+
+ppatt:
+	?a can successfully educate ?b
+		?a: The computer program under evaluation
+		?b: individuals considering genetic testing for CF
+	?a considering ?b
+		?a: individuals
+		?b: genetic testing for CF
+
+
+label:    sent_13
+sentence: Dentists must educate themselves and their young patients about the prevention of such injuries .
+
+ppatt:
+	?a must educate ?b about ?c
+		?a: Dentists
+		?b: themselves
+		?c: the prevention of such injuries
+	?a must educate ?b about ?c
+		?a: Dentists
+		?b: their young patients
+		?c: the prevention of such injuries
+
+
+label:    sent_14
+sentence: Knowing that you can educate patients without seeing a doctor or nurse seems promising .
+
+ppatt:
+	Knowing ?a
+		?a: SOMETHING := you can educate patients without seeing a doctor or nurse
+	?a can educate ?b
+		?a: you
+		?b: patients
+	?a seeing ?b
+		?a: you
+		?b: a doctor
+	?a seeing ?b
+		?a: you
+		?b: nurse
+
+
+label:    sent_15
+sentence: Opportunities to educate patients and obstetric providers on UCBB should be pursued .
+
+ppatt:
+	?a educate ?b
+		?a: Opportunities
+		?b: patients on UCBB
+	?a educate ?b
+		?a: Opportunities
+		?b: obstetric providers
+	?a should be pursued
+		?a: Opportunities to educate patients and obstetric providers on UCBB
+
+
+label:    sent_16
+sentence: Multi-media efforts are described that educate patients and restore competence to stand trial .
+
+ppatt:
+	?a are described ?b
+		?a: Multi-media efforts
+		?b: SOMETHING := that educate patients
+	?a educate ?b
+		?a: that
+		?b: patients
+	?a restore ?b to stand ?c
+		?a: that
+		?b: competence
+		?c: trial
+
+
+label:    sent_17
+sentence: Patients are advising each other to " educate yourself and ask questions " . Should society educate or legislate for health ? In order to prevent lawsuits , physicians should educate and inform their patients .
+
+ppatt:
+	?a are advising ?b to ?c educate ?d
+		?a: Patients
+		?b: each other
+		?c: "
+		?d: yourself
+	?a ask ?b ?c
+		?a: Patients
+		?b: questions
+		?c: SOMETHING := Should society educate or legislate for health In order to prevent lawsuits
+	?a Should society educate for ?b
+		?a: Patients
+		?b: health
+	?a Should society legislate
+		?a: Patients
+	?a order to prevent ?b
+		?a: Patients
+		?b: lawsuits
+	?a should educate
+		?a: physicians
+	?a inform ?b
+		?a: physicians
+		?b: their patients
+
+
+label:    sent_18
+sentence: [To educate and to inform the population about population ] . Go tell it : using media to educate about birth .
+
+ppatt:
+	?a educate
+		?a: [To
+	?a inform ?b
+		?a: [To
+		?b: the population about population ]
+	?a Go tell ?b
+		?a: [To
+		?b: it
+	?a using ?b to educate about ?c
+		?a: [To
+		?b: media
+		?c: birth
+
+
+label:    sent_19
+sentence: The need to educate physician-scholars for leadership in the health care system .
+
+ppatt:
+	?a educate ?b for ?c
+		?a: The need
+		?b: physician-scholars
+		?c: leadership in the health care system
+
+
+label:    sent_20
+sentence: Under new Medicare regulations , can we still educate for uncertainty ?
+
+ppatt:
+	Under ?a , can ?b still educate for ?c
+		?a: new Medicare regulations
+		?b: we
+		?c: uncertainty
+
+

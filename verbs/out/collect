@@ -1,0 +1,286 @@
+label:    sent_1
+sentence: Digital scanners have been widely used more recently to collect such data . Case report forms ( CRFs ) are used to collect data in clinical research . a survey quota sampling design was used to collect cross-cultural data . Tape-strips were used to collect five samples from two different sites on each forearm .
+
+ppatt:
+	?a have been widely used more recently to collect ?b
+		?a: Digital scanners
+		?b: such data
+	?a is/are CRFs
+		?a: Case report forms
+	?a are used to collect ?b in ?c
+		?a: Case report forms
+		?b: data
+		?c: clinical research
+	?a was used to collect ?b
+		?a: a survey quota sampling design
+		?b: cross-cultural data
+	?a were used to collect ?b from ?c
+		?a: Tape-strips
+		?b: five samples
+		?c: two different sites on each forearm
+
+
+label:    sent_2
+sentence: The 2-sample group was instructed to collect fecal samples on 2 consecutive days .
+
+ppatt:
+	?a was instructed to collect ?b on ?c
+		?a: The 2-sample group
+		?b: fecal samples
+		?c: 2 consecutive days
+
+
+label:    sent_3
+sentence: Diary cards were used to collect solicited symptoms for 4 days after vaccination .
+
+ppatt:
+	?a were used to collect ?b for ?c after
+		?a: Diary cards
+		?b: solicited symptoms
+		?c: 4 days
+
+
+label:    sent_4
+sentence: Participatory techniques were used to collect and validate information from the key informants .
+
+ppatt:
+	?a were used to collect ?b
+		?a: Participatory techniques
+		?b: information from the key informants
+	?a were used to validate
+		?a: Participatory techniques
+
+
+label:    sent_5
+sentence: An appliance is used to collect and contain the stomal output .
+
+ppatt:
+	?a is used to collect ?b
+		?a: An appliance
+		?b: the stomal output
+	?a is used to contain
+		?a: An appliance
+
+
+label:    sent_6
+sentence: A midwife at the hospital was trained to collect and input data monthly .
+
+ppatt:
+	?a was trained to collect ?b monthly
+		?a: A midwife at the hospital
+		?b: data
+	?a was trained to input
+		?a: A midwife at the hospital
+
+
+label:    sent_7
+sentence: Every effort should be made to collect appropriate specimens as quickly as possible .
+
+ppatt:
+	?a should be made to collect ?b
+		?a: Every effort
+		?b: appropriate specimens
+
+
+label:    sent_8
+sentence: An electrical field of 40 V/cm was used to separate and collect the proteins .
+
+ppatt:
+	?a was used to separate ?b
+		?a: An electrical field of 40 V/cm
+		?b: the proteins
+	?a was used to collect
+		?a: An electrical field of 40 V/cm
+
+
+label:    sent_9
+sentence: Infection control : how to collect specimens and evaluate results .
+
+ppatt:
+	?a how to collect ?b
+		?a: Infection control
+		?b: specimens
+	evaluate ?a
+		?a: results
+
+
+label:    sent_10
+sentence: Fellowships collect limited programme evaluation data , indicating a need for better outcome data .
+
+ppatt:
+	?a collect ?b
+		?a: Fellowships
+		?b: limited programme evaluation data
+	?a indicating ?b
+		?a: Fellowships
+		?b: a need for better outcome data
+
+
+label:    sent_11
+sentence: International comparisons in incidence are limited because few registries collect comprehensive population-based data .
+
+ppatt:
+	?a are limited
+		?a: International comparisons in incidence
+	?a collect ?b
+		?a: few registries
+		?b: comprehensive population-based data
+
+
+label:    sent_12
+sentence: There are currently several databases that collect sRNA data . Animals collect sensory information through self-generated movements . UNRWA does not collect its statistics under the best of circumstances .
+
+ppatt:
+	There are ?a
+		?a: currently several databases that collect sRNA data
+	?a collect ?b
+		?a: currently several databases
+		?b: sRNA data
+	?a collect ?b through ?c
+		?a: Animals
+		?b: sensory information
+		?c: self-generated movements
+	?a does not collect ?b under ?c
+		?a: UNRWA
+		?b: its statistics
+		?c: the best of circumstances
+
+
+label:    sent_13
+sentence: The modified monitor will collect up to fourteen 12-min samples per work shift .
+
+ppatt:
+	?a will collect ?b per ?c
+		?a: The modified monitor
+		?b: up fourteen 12-min samples
+		?c: work shift
+
+
+label:    sent_14
+sentence: Venules collect capillary effluent and converge as they return deoxygenated blood towards the heart .
+
+ppatt:
+	?a collect ?b
+		?a: Venules
+		?b: capillary effluent
+	?a converge
+		?a: Venules
+	?a return ?b
+		?a: they
+		?b: deoxygenated blood towards the heart
+
+
+label:    sent_15
+sentence: Patients can collect their own samples and mail or bring them to the laboratory . Jugular bulb catheters collect pure brain venous blood and are sometimes placed for neuromonitoring .
+
+ppatt:
+	?a can collect ?b
+		?a: Patients
+		?b: their own samples
+	?a mail ?b to ?c
+		?a: Patients
+		?b: them
+		?c: the laboratory
+	?a bring
+		?a: Patients
+	?a collect ?b
+		?a: Jugular bulb catheters
+		?b: pure brain venous blood
+	?a are sometimes placed for ?b
+		?a: Jugular bulb catheters
+		?b: neuromonitoring
+
+
+label:    sent_16
+sentence: An attempt was made to collect species , but without proper identification .
+
+ppatt:
+	?a was made to collect ?b
+		?a: An attempt
+		?b: species
+	?a was made to collect ?b
+		?a: An attempt
+		?b: proper identification
+
+
+label:    sent_17
+sentence: Discuss copays at registration , but collect them only at discharge .
+
+ppatt:
+	Discuss ?a at ?b
+		?a: copays
+		?b: registration
+	collect ?a at ?b
+		?a: them
+		?b: only discharge
+
+
+label:    sent_18
+sentence: Wetlands can collect contaminated runoff from agricultural catchments and retain dissolved and particle-laden pesticides .
+
+ppatt:
+	?a can collect ?b
+		?a: Wetlands
+		?b: contaminated runoff from agricultural catchments
+	?a retain ?b
+		?a: Wetlands
+		?b: dissolved and particle-laden pesticides
+
+
+label:    sent_19
+sentence: The mucosa is seldom perforated and haematoma does not collect .
+
+ppatt:
+	?a is seldom perforated
+		?a: The mucosa
+	?a does not collect
+		?a: haematoma
+
+
+label:    sent_20
+sentence: Here we collect together and review these past experiences and the studies currently underway .
+
+ppatt:
+	Here ?a collect together
+		?a: we
+	?a review ?b
+		?a: we
+		?b: these past experiences
+	?a currently underway
+		?a: the studies
+
+
+label:    sent_21
+sentence: A standard traffic counter was used to collect for a period of 8 days .
+
+ppatt:
+	?a was used to collect for ?b
+		?a: A standard traffic counter
+		?b: a period of 8 days
+
+
+label:    sent_22
+sentence: Most notably , it is noninvasive and easier to collect than serum or urine .
+
+ppatt:
+	Most notably , ?a is noninvasive
+		?a: it
+	?a easier to collect than ?b
+		?a: it
+		?b: serum
+	?a easier to collect than ?b
+		?a: it
+		?b: urine
+
+
+label:    sent_23
+sentence: Light traps were used to collect ceratopogonids in East Baton Rouge parish , Louisiana .
+
+ppatt:
+	?a were used to collect ?b
+		?a: Light traps
+		?b: ceratopogonids in East Baton Rouge parish
+	?a is/are Louisiana
+		?a: East Baton Rouge parish
+
+

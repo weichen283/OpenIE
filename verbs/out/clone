@@ -1,0 +1,181 @@
+label:    sent_1
+sentence: To clone the related degrading gene , genomic library of TP-D1 was constructed using Escherichia coli DH10B and two positive clones 889 and 838 were gained .
+
+ppatt:
+	?a ?b was constructed using ?c
+		?a: clone
+		?b: genomic library of TP-D1
+		?c: Escherichia coli DH10B
+	?a were gained
+		?a: two positive clones
+
+
+label:    sent_2
+sentence: Degenerate primers were designed based on comparative analysis of publicly available Aedes aegypti and An. gambiae gene sequences and used to clone putative homologs in the neotropical species .
+
+ppatt:
+	?a were designed
+		?a: Degenerate primers
+	?a based on comparative analysis of ?b
+		?a: Degenerate primers
+		?b: publicly available Aedes aegypti
+	?a based on comparative analysis of ?b
+		?a: Degenerate primers
+		?b: An.
+	?a based on comparative analysis of ?b
+		?a: Degenerate primers
+		?b: gambiae
+	?a used ?b
+		?a: Degenerate primers
+		?b: clone putative homologs in the neotropical species
+
+
+label:    sent_3
+sentence: The aim of this work was to clone the Che a 1 in Escherichia coli to establish a system for overproduction of the recombinant Che a 1 ( rChe a 1 ) .
+
+ppatt:
+	?a was to clone ?b
+		?a: The aim of this work
+		?b: the Che a 1 in Escherichia coli
+	?a establish ?b
+		?a: The aim of this work
+		?b: a system for overproduction of the recombinant Che a 1
+	?a is/are rChe a 1
+		?a: the recombinant Che a 1
+
+
+label:    sent_4
+sentence: Multilocus sequence typing showed that 20 isolates belonged to the ST-11 clonal complex ( 8 to clone ET-15 and 12 to clone ET-37 ) and 1 to the ST-8 clonal complex .
+
+ppatt:
+	?a showed ?b
+		?a: Multilocus sequence typing
+		?b: SOMETHING := 20 isolates belonged to the ST-11 clonal complex and 1 to the ST-8 clonal complex
+	?a belonged to ?b
+		?a: 20 isolates
+		?b: the ST-11 clonal complex
+	?a belonged to ?b
+		?a: 20 isolates
+		?b: 1 to the ST-8 clonal complex
+
+
+label:    sent_5
+sentence: The results of RAPD analysis indicated an exogenous spread from two clones for C.albicans , one clone for C.glabrata and one clone for C.tropicalis .
+
+ppatt:
+	?a indicated ?b
+		?a: The results of RAPD analysis
+		?b: an exogenous spread from two clones for C.albicans , and one clone for C.tropicalis
+	?a is/are one clone for ?b
+		?a: two clones for C.albicans
+		?b: C.glabrata
+	?a is/are one clone for ?b
+		?a: C.glabrata
+		?b: one clone for C.tropicalis
+
+
+label:    sent_6
+sentence: Mitral valvular endothelial clones showed a propensity for osteogenic , as well as chondrogenic differentiation that was comparable to a mitral valvular VIC clone and to bone marrow-derived mesenchymal stem cells .
+
+ppatt:
+	?a showed ?b
+		?a: Mitral valvular endothelial clones
+		?b: a propensity for osteogenic , as well as chondrogenic that was comparable to a mitral valvular VIC clone and to bone marrow-derived mesenchymal stem cells
+	?a was comparable to ?b
+		?a: a propensity for osteogenic , as well as chondrogenic
+		?b: a mitral valvular VIC clone
+	?a was comparable to ?b
+		?a: a propensity for osteogenic , as well as chondrogenic
+		?b: bone marrow-derived mesenchymal stem cells
+
+
+label:    sent_7
+sentence: We also describe protocols to clone , express , and refold metal-loaded soluble domain constructs of the pmoB subunit .
+
+ppatt:
+	?a also describe ?b
+		?a: We
+		?b: protocols to clone , express and refold metal-loaded soluble domain constructs of the pmoB subunit
+	?a express
+		?a: protocols to clone
+	refold ?a
+		?a: metal-loaded soluble domain constructs of the pmoB subunit
+
+
+label:    sent_8
+sentence: To clone Xenopus laevis beta-synuclein gene ( xSYNB ) and study the subcellular localization of xSYNB protein .
+
+ppatt:
+	?a is/are xSYNB
+		?a: clone Xenopus laevis beta-synuclein gene
+	?a is/are xSYNB
+		?a: study the subcellular localization of xSYNB protein
+	study ?a
+		?a: the subcellular localization of xSYNB protein
+
+
+label:    sent_9
+sentence: This shuttle BAC vector can be utilized to clone genomic DNA from diverse sources , and then transfer it into diverse Gram-negative bacterial species to facilitate heterologous expression of recombinant pathways .
+
+ppatt:
+	?a can be utilized to ?b
+		?a: This shuttle BAC vector
+		?b: clone genomic DNA from diverse sources
+	?a then transfer ?b into ?c to facilitate ?d
+		?a: This shuttle BAC vector
+		?b: it
+		?c: diverse Gram-negative bacterial species
+		?d: heterologous expression of recombinant pathways
+
+
+label:    sent_10
+sentence: We detail how to clone candidate genes into this vector and test its functionality in Drosophila by targeting a gene coding for the fluorescent protein DsRed .
+
+ppatt:
+	?a detail how to ?b
+		?a: We
+		?b: clone candidate genes into this vector
+	?a test ?b
+		?a: We
+		?b: its functionality in Drosophila
+	?a targeting ?b
+		?a: We
+		?b: a gene coding for the fluorescent protein DsRed
+	?a coding for ?b
+		?a: a gene
+		?b: the fluorescent protein DsRed
+
+
+label:    sent_11
+sentence: We describe several technologies in widespread use to clone genes on a genome-wide scale , and to express and purify the proteins encoded by these genes .
+
+ppatt:
+	?a describe ?b
+		?a: We
+		?b: several technologies in widespread use to clone genes on a genome-wide scale
+	?a express ?b
+		?a: We
+		?b: the proteins encoded by these genes
+	?a purify
+		?a: We
+	?a encoded by ?b
+		?a: the proteins
+		?b: these genes
+
+
+label:    sent_12
+sentence: The main objectives of this study were to clone and characterize the chicken selenoprotein W ( SeW ) gene and investigate SeW mRNA expression in chicken tissues .
+
+ppatt:
+	?a were to clone
+		?a: The main objectives of this study
+	?a characterize ?b
+		?a: The main objectives of this study
+		?b: the chicken selenoprotein W ) gene
+	?a is/are SeW
+		?a: selenoprotein W
+	?a investigate ?b
+		?a: The main objectives of this study
+		?b: SeW mRNA expression in chicken tissues
+
+

@@ -1,0 +1,276 @@
+label:    sent_1
+sentence: Interneurons usually innervate distinct domains of the surface of their target cell .
+
+ppatt:
+	?a usually innervate ?b
+		?a: Interneurons
+		?b: distinct domains of the surface of their target cell
+
+
+label:    sent_2
+sentence: Our results demonstrate that PPG neurons innervate primarily brain regions involved in autonomic control .
+
+ppatt:
+	?a demonstrate ?b
+		?a: Our results
+		?b: SOMETHING := PPG neurons innervate primarily brain regions involved in autonomic control
+	?a innervate ?b
+		?a: PPG neurons
+		?b: primarily brain regions involved in autonomic control
+	?a involved in ?b
+		?a: primarily brain regions
+		?b: autonomic control
+
+
+label:    sent_3
+sentence: The ophthalmic and maxillary branches of the trigeminal nerve innervate the pit membrane .
+
+ppatt:
+	?a innervate ?b
+		?a: ophthalmic of the trigeminal nerve
+		?b: the pit membrane
+	?a innervate ?b
+		?a: maxillary
+		?b: the pit membrane
+
+
+label:    sent_4
+sentence: Monoaminergic projections are among the first supraspinal inputs to innervate spinal networks .
+
+ppatt:
+	?a are among the first supraspinal inputs
+		?a: Monoaminergic projections
+	?a innervate ?b
+		?a: the first supraspinal inputs
+		?b: spinal networks
+
+
+label:    sent_5
+sentence: Conversely , skin afferents made to innervate muscle showed reduced levels of peptide staining .
+
+ppatt:
+	?a made to innervate ?b
+		?a: skin afferents
+		?b: muscle
+	Conversely , ?a showed ?b
+		?a: skin afferents made to innervate muscle
+		?b: reduced levels of peptide staining
+
+
+label:    sent_6
+sentence: Silencing normal input permits regenerating foreign afferents to innervate an identified crayfish sensory interneuron .
+
+ppatt:
+	Silencing ?a
+		?a: normal input
+	?a permits ?b to innervate ?c
+		?a: SOMETHING := Silencing normal input
+		?b: regenerating foreign afferents
+		?c: an identified crayfish sensory interneuron
+
+
+label:    sent_7
+sentence: Embryonic substantia nigra grafts innervate embryonic striatal co-grafts in preference to mature host striatum .
+
+ppatt:
+	?a innervate ?b in ?c
+		?a: Embryonic substantia nigra grafts
+		?b: embryonic striatal co-grafts
+		?c: preference to mature host striatum
+
+
+label:    sent_8
+sentence: Trigeminal motoneurons with disparate dendritic geometry innervate different muscle groups in the frog .
+
+ppatt:
+	?a innervate ?b
+		?a: Trigeminal motoneurons with disparate dendritic geometry
+		?b: different muscle groups in the frog
+
+
+label:    sent_9
+sentence: In addition , A5 neurons may innervate the ventrolateral reticular formation of the medulla .
+
+ppatt:
+	In ?a , ?b may innervate ?c
+		?a: addition
+		?b: A5 neurons
+		?c: the ventrolateral reticular formation of the medulla
+
+
+label:    sent_10
+sentence: These neurons innervate the central body neuropil and send processes into the central neuropil .
+
+ppatt:
+	?a innervate ?b
+		?a: These neurons
+		?b: the central body neuropil
+	?a send ?b
+		?a: These neurons
+		?b: processes into the central neuropil
+
+
+label:    sent_11
+sentence: These subdivisions may innervate specific targets and may receive peptide-specific neuronal inputs .
+
+ppatt:
+	?a may innervate ?b
+		?a: These subdivisions
+		?b: specific targets
+	?a may receive ?b
+		?a: These subdivisions
+		?b: peptide-specific neuronal inputs
+
+
+label:    sent_12
+sentence: They innervate the same muscle and control its contraction together .
+
+ppatt:
+	?a innervate ?b
+		?a: They
+		?b: the same muscle
+	?a control ?b together
+		?a: They
+		?b: its contraction
+
+
+label:    sent_13
+sentence: The nerve fibres are varicose and innervate both the muscle and many blood vessels .
+
+ppatt:
+	?a are varicose
+		?a: The nerve fibres
+	?a innervate ?b
+		?a: The nerve fibres
+		?b: the muscle
+	?a innervate ?b
+		?a: The nerve fibres
+		?b: many blood vessels
+
+
+label:    sent_14
+sentence: Single gustatory nerve fibers branch and innervate several taste buds . Serotonergic neurons are located in the raphe nuclei and densely innervate the whole brain .
+
+ppatt:
+	?a branch ?b
+		?a: Single gustatory nerve fibers
+		?b: several taste buds
+	?a innervate
+		?a: Single gustatory nerve fibers
+	?a are located in ?b
+		?a: Serotonergic neurons
+		?b: the raphe nuclei
+	?a densely innervate ?b
+		?a: Serotonergic neurons
+		?b: the whole brain
+
+
+label:    sent_15
+sentence: Within each zone , JONs innervate various combinations of subareas .
+
+ppatt:
+	Within ?a , ?b innervate ?c
+		?a: each zone
+		?b: JONs
+		?c: various combinations of subareas
+
+
+label:    sent_16
+sentence: These neuron populations seemed to innervate different tissues with some target specificity . Sympathetics innervate ocular structures via the posterior ciliary nerves .
+
+ppatt:
+	?a seemed to innervate ?b with ?c
+		?a: These neuron populations
+		?b: different tissues
+		?c: some target specificity
+	?a innervate ?b via ?c
+		?a: Sympathetics
+		?b: ocular structures
+		?c: the posterior ciliary nerves
+
+
+label:    sent_17
+sentence: These superficial nerves may innervate more than one F-SC .
+
+ppatt:
+	?a may innervate ?b
+		?a: These superficial nerves
+		?b: more than one F-SC
+
+
+label:    sent_18
+sentence: We rigorously identified the motor neurons according to the muscles they innervate .
+
+ppatt:
+	?a rigorously identified ?b
+		?a: We
+		?b: the motor neurons according to the muscles
+	?a innervate
+		?a: they
+
+
+label:    sent_19
+sentence: The SGC cells first innervate ipsilaterally the SP/IPS and then the Rt/PV .
+
+ppatt:
+	?a first innervate ipsilaterally ?b
+		?a: The SGC cells
+		?b: the SP/IPS
+	?a first innervate ipsilaterally ?b
+		?a: The SGC cells
+		?b: then the Rt/PV
+
+
+label:    sent_20
+sentence: This output is geared to the mechanical advantage of the muscles that they innervate .
+
+ppatt:
+	?a is geared to ?b
+		?a: This output
+		?b: the mechanical advantage of the muscles
+	?a innervate
+		?a: they
+
+
+label:    sent_21
+sentence: Possible mechanisms by which regenerating axons may eventually innervate their correct targets are discussed .
+
+ppatt:
+	?a by ?b may eventually innervate ?c
+		?a: Possible mechanisms
+		?b: regenerating axons
+		?c: their correct targets
+	?a are discussed
+		?a: Possible mechanisms by which regenerating axons may eventually innervate their correct targets
+
+
+label:    sent_22
+sentence: Some efferent neurons whose axon innervate into each nerve root were strongly stained .
+
+ppatt:
+	?a ?b innervate into ?c
+		?a: Some efferent neurons
+		?b: whose axon
+		?c: each nerve root
+	?a were strongly stained
+		?a: Some efferent neurons whose axon innervate into each nerve root
+
+
+label:    sent_23
+sentence: The renal sympathetic nerves innervate to the basement membranes of almost all nephron segments .
+
+ppatt:
+	?a innervate to ?b
+		?a: The renal sympathetic nerves
+		?b: the basement membranes of almost all nephron segments
+
+
+label:    sent_24
+sentence: The former two innervate dorsally with the dorsal compartment of the myotome .
+
+ppatt:
+	?a innervate dorsally with ?b
+		?a: The former two
+		?b: the dorsal compartment of the myotome
+
+

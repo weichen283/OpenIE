@@ -1,0 +1,442 @@
+label:    sent_1
+sentence: This article is a call for those who design social work courses to recognize the complexity and richness of aged care social work in health care and to social workers to shake off ageist attitudes and consider working with older people as a positive option in this rapidly expanding area of social work practice .
+
+ppatt:
+	?a is a call for ?b
+		?a: This article
+		?b: those who design social work courses to recognize the complexity and richness of aged care social work in health care and to social workers to shake off ageist attitudes
+	?a design ?b to recognize ?c
+		?a: those
+		?b: social work courses
+		?c: the complexity of aged care social work in health care
+	?a design ?b to recognize ?c
+		?a: those
+		?b: social work courses
+		?c: richness
+	?a design ?b to recognize ?c
+		?a: those
+		?b: social work courses
+		?c: social workers to shake off ageist attitudes
+	?a consider working with ?b as ?c
+		?a: This article
+		?b: older people
+		?c: a positive option in this rapidly expanding area of social work practice
+
+
+label:    sent_2
+sentence: The authors outline several steps that individuals can take to shake off fear and paralysis , including looking at past negative experiences from somebody else 's point of view and seeking out safe ways to allow themselves to become vulnerable .
+
+ppatt:
+	?a outline ?b
+		?a: The authors
+		?b: several steps that individuals can take to shake off fear and paralysis , including looking at past negative experiences from somebody else 's point of view and seeking out safe ways to allow themselves to become vulnerable
+	?a can take to ?b
+		?a: individuals
+		?b: shake off fear and paralysis
+	including looking at ?a
+		?a: past negative experiences from somebody else 's point of view
+	seeking ?a to allow ?b to become vulnerable
+		?a: out safe ways
+		?b: themselves
+
+
+label:    sent_3
+sentence: The recent debate on the presence in food of acrylamide , a possible human carcinogen , is likely to shake up the traditional paradigm held by regulatory agencies on chemical health risks .
+
+ppatt:
+	?a is/are a possible human carcinogen
+		?a: acrylamide
+	?a is likely to shake up ?b
+		?a: The recent debate on the presence in food of acrylamide
+		?b: the traditional paradigm held by regulatory agencies on chemical health risks
+	?a held by ?b
+		?a: the traditional paradigm
+		?b: regulatory agencies on chemical health risks
+
+
+label:    sent_4
+sentence: Side-effects , especially those severe or those manifested through dramatic clinical presentations such as panic attacks , make the treatment far more difficult and shake patients ' trust in both the treatment and the treating physician .
+
+ppatt:
+	?a is/are especially those severe or those
+		?a: Side-effects
+	?a manifested through ?b
+		?a: especially those severe or those
+		?b: dramatic clinical presentations such as panic attacks
+	?a make ?b
+		?a: Side-effects
+		?b: the treatment far more difficult and shake patients ' trust in both the treatment and the treating physician
+
+
+label:    sent_5
+sentence: Rats in stress group were stressed everyday by one of the seven stressors including cold exposure , foot shock , white noise , restraint , tail hung up , sleep deprivation , and level shake , and then the ability of learning and memory was determined by Morris water maze test .
+
+ppatt:
+	?a were stressed everyday by ?b
+		?a: Rats in stress group
+		?b: one of the seven stressors including cold exposure , foot shock , white noise , restraint , tail hung up , sleep deprivation , and level shake
+	?a hung
+		?a: cold exposure
+	?a hung
+		?a: foot shock
+	?a hung
+		?a: white noise
+	?a hung
+		?a: restraint
+	?a hung
+		?a: tail
+	hung ?a
+		?a: sleep deprivation
+	hung ?a
+		?a: level shake
+	then ?a was determined by ?b
+		?a: the ability of learning and memory
+		?b: Morris water maze test
+
+
+label:    sent_6
+sentence: In a headphones test , participants were required to listen to music and to either nod or shake their heads .
+
+ppatt:
+	In ?a , ?b were required to listen to ?c
+		?a: a headphones test
+		?b: participants
+		?c: music
+
+
+label:    sent_7
+sentence: Poll : do you give internal customers a fair shake ? At the same time they shake the opinion of relative diagnostic specificity of the test because several similar abnormalities were found in patients with endogenous depression . Tradimus .
+
+ppatt:
+	?a is/are a fair shake
+		?a: internal customers
+	?a were found in ?b
+		?a: several similar abnormalities
+		?b: patients with endogenous depression . Tradimus
+
+
+label:    sent_8
+sentence: Nursing class heroes : shake some action .
+
+ppatt:
+
+
+
+label:    sent_9
+sentence: Essential tremor -- not just a shake . Early in the swing phase , when the flexor muscles were still active ( F phase ) , the paw shake was initiated by an early onset of knee extensor activity , which preceded extensor activity at the hip and ankle .
+
+ppatt:
+	?a is/are a shake
+		?a: Essential tremor -- not just . Early in the swing phase
+	when ?a were still active
+		?a: the flexor muscles
+	?a ?b was initiated by ?c
+		?a: Essential tremor -- not just . Early in the swing phase
+		?b: the paw shake
+		?c: an early onset of knee extensor activity , which preceded extensor activity at the hip and ankle
+	?a preceded ?b at ?c
+		?a: an early onset of knee extensor activity
+		?b: extensor activity
+		?c: the hip
+	?a preceded ?b at ?c
+		?a: an early onset of knee extensor activity
+		?b: extensor activity
+		?c: ankle
+
+
+label:    sent_10
+sentence: Further , hip motion was variable when the paw shake was combined with swing , and sometimes the hip failed to oscillate and its trajectory was similar to that of an unperturbed swing phase .
+
+ppatt:
+	Further , ?a was variable
+		?a: hip motion
+	when ?a was combined with ?b
+		?a: the paw shake
+		?b: swing
+	sometimes ?a failed to oscillate
+		?a: the hip
+	?a was similar to ?b
+		?a: its trajectory
+		?b: that of an unperturbed swing phase
+
+
+label:    sent_11
+sentence: The patient , a Catholic priest , could only communicate through a squeeze of the hand or a shake of the head .
+
+ppatt:
+	?a is/are a Catholic priest
+		?a: The patient
+	?a could only communicate through ?b
+		?a: The patient
+		?b: a squeeze of the hand
+	?a could only communicate through ?b
+		?a: The patient
+		?b: a shake of the head
+
+
+label:    sent_12
+sentence: Comparison of the isopropanol precipitation test with the mechanical shake and heat denaturation tests reveals that the mechanical shake test is the easiest method to study the stability of Hbs A and S .
+
+ppatt:
+	?a reveals ?b
+		?a: Comparison of the isopropanol precipitation test with the mechanical shake and heat denaturation tests
+		?b: SOMETHING := the mechanical shake test is the easiest method to study the stability of Hbs
+	?a is the easiest method
+		?a: the mechanical shake test
+	?a study ?b
+		?a: the easiest method
+		?b: the stability of Hbs
+
+
+label:    sent_13
+sentence: Each of the tests may measure different parameters of stability .
+
+ppatt:
+	?a may measure ?b
+		?a: Each of the tests
+		?b: different parameters of stability
+
+
+label:    sent_14
+sentence: It is suggested that central catecholaminergic , in particular , noradrenergic system is involved in TRH-induced body shake and struggle in 6-OHDOPA-treated , infant rats . A gentle touch to infant pig ears elicited a head shake of several revolutions .
+
+ppatt:
+	?a is suggested ?b ?c
+		?a: It
+		?b: SOMETHING := central catecholaminergic , in particular , noradrenergic system is involved in TRH-induced body shake and struggle in 6-OHDOPA-treated , rats
+		?c: SOMETHING := A gentle touch to infant pig ears elicited a head shake of several revolutions
+	?a ?b is involved in ?c
+		?a: central catecholaminergic
+		?b: system
+		?c: TRH-induced body shake in 6-OHDOPA-treated , rats
+	?a ?b is involved in ?c
+		?a: particular
+		?b: system
+		?c: TRH-induced body shake in 6-OHDOPA-treated , rats
+	?a ?b is involved in ?c
+		?a: noradrenergic
+		?b: system
+		?c: TRH-induced body shake in 6-OHDOPA-treated , rats
+	?a ?b is involved in ?c
+		?a: central catecholaminergic
+		?b: system
+		?c: struggle
+	?a ?b is involved in ?c
+		?a: particular
+		?b: system
+		?c: struggle
+	?a ?b is involved in ?c
+		?a: noradrenergic
+		?b: system
+		?c: struggle
+	?a elicited ?b
+		?a: A gentle touch to infant pig ears
+		?b: a head shake of several revolutions
+
+
+label:    sent_15
+sentence: As far as the quantitative detection is involved , it is however necessary to shake the chloroform phase in the presence of 1 mol L ( -1 ) NaClO ( 4 ) aqueous solution because of the fast adsorption of the ion pair on the walls of the glass cell .
+
+ppatt:
+	?a is involved
+		?a: the quantitative detection
+	As far , ?a is however necessary to shake ?b in ?c because of ?d
+		?a: it
+		?b: the chloroform phase
+		?c: the presence of 1 mol L ( -1 ) NaClO ( 4 ) aqueous solution
+		?d: the fast adsorption of the ion pair on the walls of the glass cell
+
+
+label:    sent_16
+sentence: Future research should focus on physicians ' time allocation since the topic will remain relevant as the European Union 's ( EU 's ) Working Time Directive continues to shake the European healthcare systems with traditions for long workdays .
+
+ppatt:
+	?a should focus on ?b
+		?a: Future research
+		?b: physicians ' time allocation
+	?a will remain relevant
+		?a: the topic
+	as 's ?a continues to shake ?b with ?c
+		?a: the European Union 's ( EU ) Working Time Directive
+		?b: the European healthcare systems
+		?c: traditions for long workdays
+
+
+label:    sent_17
+sentence: Spider monkeys shake their heads so as to facilitate amicable social contact . [GEZ will shake physicians , too -- protest action runs already .
+
+ppatt:
+	?a so as to facilitate ?b
+		?a: shake their heads
+		?b: amicable social contact
+	?a will shake physicians
+		?a: [GEZ
+	?a ?b too -- ?c runs already
+		?a: Spider monkeys shake their heads so as to facilitate amicable social contact
+		?b: [GEZ will shake physicians
+		?c: protest action
+
+
+label:    sent_18
+sentence: From January on one more radio charge ! ] . Generics , private-labels may shake stagnant cephalosporin prices .
+
+ppatt:
+	?a is/are ]
+		?a: one more radio charge . Generics
+	From ?a , ?b may shake stagnant ?c
+		?a: January on one more radio charge . Generics
+		?b: private-labels
+		?c: cephalosporin prices
+
+
+label:    sent_19
+sentence: Most also shake up the power structure so that people who are closest to customers have the authority to act on their behalf .
+
+ppatt:
+	?a are closest to ?b
+		?a: people
+		?b: customers
+	?a so that ?b have ?c
+		?a: Most also shake the power structure
+		?b: people who are closest to customers
+		?c: the authority to act on their behalf
+	?a act on ?b
+		?a: the authority
+		?b: their behalf
+
+
+label:    sent_20
+sentence: Health hackers and citizen scientists shake up medical research .
+
+ppatt:
+
+
+
+label:    sent_21
+sentence: The highly political opinions of two federal district judges-carefully chosen by challenging plaintiffs-of no particular distinction did not shake that confidence that the act was constitutional .
+
+ppatt:
+	?a judges-carefully chosen
+		?a: two federal district
+	challenging ?a ?b
+		?a: plaintiffs-of
+		?b: no particular distinction
+	?a did not shake ?b
+		?a: The highly political opinions of two federal district judges-carefully chosen by challenging plaintiffs-of no particular distinction
+		?b: SOMETHING := confidence that the act was constitutional
+	?a ?b was constitutional
+		?a: confidence
+		?b: the act
+
+
+label:    sent_22
+sentence: Administration of L-5-hydroxytryptophan ( 7.5-12.5 mg/kg ) to rats 30 min following pretreatment with pargyline induced wet-dog shakes which included head shake and whole body shake . Additionally , and in contrast to control rats , methadone-exposed animals at most ages displayed head shake and wet-dog shake behaviors .
+
+ppatt:
+	?a is/are 7.5-12.5 mg/kg
+		?a: L-5-hydroxytryptophan
+	?a induced ?b . Additionally
+		?a: Administration of L-5-hydroxytryptophan to rats 30 min following pretreatment with pargyline
+		?b: wet-dog shakes which included head shake and whole body shake
+	?a included ?b
+		?a: wet-dog shakes
+		?b: head shake
+	?a included ?b
+		?a: wet-dog shakes
+		?b: whole body shake
+	in ?a to ?b , ?c displayed ?d
+		?a: contrast
+		?b: control rats
+		?c: methadone-exposed animals at most ages
+		?d: head shake
+	in ?a to ?b , ?c displayed ?d
+		?a: contrast
+		?b: control rats
+		?c: methadone-exposed animals at most ages
+		?d: wet-dog shake behaviors
+
+
+label:    sent_23
+sentence: Intrathecal or intraperitoneal pretreatment with prazosin ( 0.5 microgram and 1 or 2 mg/kg , respectively ) attenuated both the wet-dog shake and forepaw-licking behaviours normally produced by the thyrotrophin-releasing hormone peptides .
+
+ppatt:
+	?a attenuated ?b
+		?a: Intrathecal or intraperitoneal pretreatment with prazosin
+		?b: wet-dog shake normally produced by the thyrotrophin-releasing hormone peptides
+	?a attenuated ?b
+		?a: Intrathecal or intraperitoneal pretreatment with prazosin
+		?b: forepaw-licking
+	?a attenuated ?b
+		?a: Intrathecal or intraperitoneal pretreatment with prazosin
+		?b: behaviours
+	?a normally produced by ?b
+		?a: wet-dog shake
+		?b: the thyrotrophin-releasing hormone peptides
+	?a normally produced by ?b
+		?a: forepaw-licking
+		?b: the thyrotrophin-releasing hormone peptides
+	?a normally produced by ?b
+		?a: behaviours
+		?b: the thyrotrophin-releasing hormone peptides
+
+
+label:    sent_24
+sentence: Patients stating that they always wash their hands increased significantly from 64 % ( 13 participants ) to 92 % ( 23 participants ) ( P=0.029 ) , and those who always shake the bottle improved from 40 % ( 10 ) to 84 % ( 21 ) ( P=0.001 ) . ( Am J Epidemiol .
+
+ppatt:
+	?a stating ?b
+		?a: Patients
+		?b: SOMETHING := they always wash their hands
+	?a always wash ?b
+		?a: they
+		?b: their hands
+	?a increased significantly from ?b to ?c
+		?a: Patients stating that they always wash their hands
+		?b: 64 %
+		?c: 92 %
+	?a is/are 13 participants
+		?a: 64 %
+	?a is/are 23 participants
+		?a: 92 %
+	?a is/are P=0.029
+		?a: 92 %
+	?a ?b ?c improved from ?d to ?e
+		?a: those
+		?b: who
+		?c: always shake the bottle
+		?d: 40 %
+		?e: 84 %
+	?a is/are 10
+		?a: 40 %
+	?a is/are 21
+		?a: 84 %
+	?a is/are P=0.001
+		?a: 84 %
+
+
+label:    sent_25
+sentence: 2012 ; 175 ( 7 ) : 609-619 ) shake this belief by presenting prospective associations between high decision authority at work and increased all-cause , cardiovascular , and alcohol-related mortality among Finnish forest company employees followed through 2005 .
+
+ppatt:
+	?a shake ?b
+		?a: 2012 ; 175
+		?b: this belief
+	?a presenting ?b between ?c
+		?a: 2012 ; 175
+		?b: prospective associations
+		?c: high decision authority at work and increased all-cause , cardiovascular , and alcohol-related mortality among Finnish forest company employees followed through 2005
+	?a followed through ?b
+		?a: Finnish forest company employees
+		?b: 2005
+
+
+label:    sent_26
+sentence: The amniotic fluid shake test , L/S ratio and lecithin concentration in the evaluation of lung maturity .
+
+ppatt:
+	?a is/are L/S ratio
+		?a: The amniotic fluid shake test , in the evaluation of lung maturity
+	?a is/are L/S ratio
+		?a: lecithin concentration
+
+

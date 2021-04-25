@@ -1,0 +1,178 @@
+label:    sent_1
+sentence: Awareness that this tumor may resemble meningioma may avoid misdiagnosis and aid surgical planning .
+
+ppatt:
+	?a may resemble meningioma
+		?a: this tumor
+	?a may avoid ?b
+		?a: Awareness that this tumor may resemble meningioma
+		?b: misdiagnosis
+	?a aid ?b
+		?a: Awareness that this tumor may resemble meningioma
+		?b: surgical planning
+
+
+label:    sent_2
+sentence: These responses resemble that obtained with extracellular ATP .
+
+ppatt:
+	?a resemble that
+		?a: These responses
+	obtained with ?a
+		?a: extracellular ATP
+
+
+label:    sent_3
+sentence: However , these cells could also resemble " hyperactive foci " . This tendency is quite resemble to the morphological change of osteoporosis .
+
+ppatt:
+	However , ?a could also resemble " hyperactive foci ?b
+		?a: these cells
+		?b: "
+	?a is quite resemble to ?b
+		?a: This tendency
+		?b: the morphological change of osteoporosis
+
+
+label:    sent_4
+sentence: Aggressive behaviors of trophoblasts during embryo implantation resemble to those of malignant tumor cells .
+
+ppatt:
+	?a resemble to ?b
+		?a: Aggressive behaviors of trophoblasts during embryo implantation
+		?b: those of malignant tumor cells
+
+
+label:    sent_5
+sentence: In no case do these distributions resemble that predicted by the organic-functional/hardware-software dichotomy .
+
+ppatt:
+	do ?a
+		?a: these distributions
+	In ?a ?b resemble that
+		?a: no case
+		?b: these distributions
+	predicted by ?a
+		?a: the organic-functional/hardware-software dichotomy
+
+
+label:    sent_6
+sentence: The side effects of both cytokines are resemble , but all are tolerable .
+
+ppatt:
+	?a are resemble
+		?a: The side effects of both cytokines
+	?a are tolerable
+		?a: all
+
+
+label:    sent_7
+sentence: These resemble , and are often indistinguishable from , similar lesions from different origins .
+
+ppatt:
+	?a resemble
+		?a: These
+
+
+label:    sent_8
+sentence: These malignant vascular neoplasms histologically resemble , and may be mistaken for , carcinomas .
+
+ppatt:
+	?a histologically resemble
+		?a: These malignant vascular neoplasms
+	?a may be mistaken for ?b
+		?a: These malignant vascular neoplasms
+		?b: carcinomas
+
+
+label:    sent_9
+sentence: Antimony compounds are supposed to resemble to arsenicals in some toxicological features . E-DCIS and intraductal papilloma ( IDP ) resemble in their clinical features .
+
+ppatt:
+	?a are supposed to resemble to ?b in ?c
+		?a: Antimony compounds
+		?b: arsenicals
+		?c: some toxicological features
+	?a is/are IDP
+		?a: intraductal papilloma
+	?a resemble in ?b
+		?a: E-DCIS
+		?b: their clinical features
+	?a resemble in ?b
+		?a: intraductal papilloma
+		?b: their clinical features
+
+
+label:    sent_10
+sentence: They seem to resemble histologically and more so ultrastructurally B-type lymphocytes .
+
+ppatt:
+	?a seem to resemble histologically ?b
+		?a: They
+		?b: more so ultrastructurally B-type lymphocytes
+
+
+label:    sent_11
+sentence: Both coexisted with uterine leiomyomas , which they resemble morphologically .
+
+ppatt:
+	?a coexisted with ?b
+		?a: Both
+		?b: uterine leiomyomas , which they resemble morphologically
+	?a ?b resemble morphologically
+		?a: uterine leiomyomas
+		?b: they
+
+
+label:    sent_12
+sentence: We have hence determined the bulk alumina phases that the nanoscale films most resemble .
+
+ppatt:
+	?a have hence determined ?b ?c
+		?a: We
+		?b: the bulk alumina phases
+		?c: SOMETHING := the nanoscale films most resemble
+	?a most resemble
+		?a: the nanoscale films
+
+
+label:    sent_13
+sentence: The disorder must be carefully distinguished from a lymphoma which it may resemble closely .
+
+ppatt:
+	?a must be carefully distinguished from ?b
+		?a: The disorder
+		?b: a lymphoma which it may resemble closely
+	?a ?b may resemble closely
+		?a: a lymphoma
+		?b: it
+
+
+label:    sent_14
+sentence: Concomitance of bacterial and viral agents is frequent and resemble with bacterial infections alone .
+
+ppatt:
+	?a is frequent
+		?a: Concomitance of bacterial and viral
+	?a resemble with ?b
+		?a: Concomitance of bacterial and viral
+		?b: bacterial infections alone
+
+
+label:    sent_15
+sentence: Subjects were asked which man the boy would resemble when he grew up .
+
+ppatt:
+	?a were asked ?b ?c
+		?a: Subjects
+		?b: SOMETHING := which man the boy
+		?c: SOMETHING := would resemble when he grew up
+	?a man ?b
+		?a: which
+		?b: the boy
+	?a would resemble
+		?a: Subjects
+	when ?a grew up
+		?a: he
+
+

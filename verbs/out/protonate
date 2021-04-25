@@ -1,0 +1,126 @@
+label:    sent_1
+sentence: Simultaneously , Zn2 activates a water molecule to protonate the leaving group .
+
+ppatt:
+	Simultaneously , ?a activates ?b to protonate ?c
+		?a: Zn2
+		?b: a water molecule
+		?c: the leaving group
+
+
+label:    sent_2
+sentence: Tyrosine 234 is a candidate to protonate the leaving group .
+
+ppatt:
+	?a is a candidate
+		?a: Tyrosine 234
+	?a protonate ?b
+		?a: a candidate
+		?b: the leaving group
+
+
+label:    sent_3
+sentence: This intervening water ligand may polarize or protonate the carboxyl group .
+
+ppatt:
+	?a may polarize ?b
+		?a: This intervening water ligand
+		?b: the carboxyl group
+	?a protonate
+		?a: This intervening water ligand
+
+
+label:    sent_4
+sentence: According to literature data published so far pyrimidines protonate at the ring nitrogen . They protonate with pKa = 2.9 .
+
+ppatt:
+	?a published so far
+		?a: literature data
+	According to ?a ?b protonate at ?c
+		?a: literature data published so far
+		?b: pyrimidines
+		?c: the ring nitrogen
+	?a protonate with ?b
+		?a: They
+		?b: pKa = 2.9
+	= ?a
+		?a: 2.9
+
+
+label:    sent_5
+sentence: Chitin is expected to dock first near Glu212 , which will protonate it . This is also accomplished by the addition of inorganic acids which protonate the phosphonates .
+
+ppatt:
+	?a is expected to dock first near ?b
+		?a: Chitin
+		?b: Glu212 , which will protonate it
+	?a will protonate ?b
+		?a: Glu212
+		?b: it
+	?a is also accomplished by ?b
+		?a: This
+		?b: the addition of inorganic acids which protonate the phosphonates
+	?a protonate ?b
+		?a: inorganic acids
+		?b: the phosphonates
+
+
+label:    sent_6
+sentence: Nitric acid is a byproduct , which may protonate the residual emeraldine and pernigraniline .
+
+ppatt:
+	?a is a byproduct
+		?a: Nitric acid
+	?a may protonate ?b
+		?a: a byproduct
+		?b: the residual emeraldine
+	?a may protonate ?b
+		?a: a byproduct
+		?b: pernigraniline
+
+
+label:    sent_7
+sentence: It may fully or partially protonate that atom as part of the hydrolysis mechanism .
+
+ppatt:
+	?a may fully or partially protonate ?b
+		?a: It
+		?b: atom as part of the hydrolysis mechanism
+
+
+label:    sent_8
+sentence: After acetylation , the amino groups can not protonate at acidic pH .
+
+ppatt:
+	After ?a , ?b can not protonate at ?c
+		?a: acetylation
+		?b: the amino groups
+		?c: acidic pH
+
+
+label:    sent_9
+sentence: To protonate or alkylate ? Upon TyrD * formation , formate does not protonate but its binding interaction weakens .
+
+ppatt:
+	protonate ? Upon ?a ?b
+		?a: TyrD * formation
+		?b: formate
+	?a does not protonate
+		?a: formate
+	?a weakens
+		?a: its binding interaction
+
+
+label:    sent_10
+sentence: H+ ions protonate PE- and promote vesicle aggregation in a cooperative fashion .
+
+ppatt:
+	?a protonate ?b in ?c
+		?a: H+ ions
+		?b: PE-
+		?c: a cooperative fashion
+	?a promote ?b
+		?a: H+ ions
+		?b: vesicle aggregation
+
+

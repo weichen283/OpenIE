@@ -1,0 +1,244 @@
+label:    sent_1
+sentence: Students enthusiastically request additional simulated learning opportunities .
+
+ppatt:
+	?a enthusiastically request ?b
+		?a: Students
+		?b: additional simulated learning opportunities
+
+
+label:    sent_2
+sentence: Quality of death and dying in patients who request physician-assisted death . Parents in 5 states may request the destruction of their child 's residual sample .
+
+ppatt:
+	?a request ?b ?c
+		?a: patients
+		?b: physician-assisted death
+		?c: Parents in 5 states
+	?a may request ?b
+		?a: Quality of death in patients who request physician-assisted death . Parents in 5 states
+		?b: the destruction of their child 's residual sample
+	?a may request ?b
+		?a: dying
+		?b: the destruction of their child 's residual sample
+
+
+label:    sent_3
+sentence: Study authors were contacted to request additional information or missing data . It may be necessary to request the assistance of the stoma specialist nurse .
+
+ppatt:
+	?a were contacted to request ?b
+		?a: Study authors
+		?b: additional information
+	?a were contacted to request ?b
+		?a: Study authors
+		?b: missing
+	?a were contacted to request ?b
+		?a: Study authors
+		?b: data
+	?a may be necessary to request ?b
+		?a: It
+		?b: the assistance of the stoma specialist nurse
+
+
+label:    sent_4
+sentence: Study authors were contacted to request additional information or missing data . Thus , clinicians request pathologists to genotype KRAS before treatment .
+
+ppatt:
+	?a were contacted to request ?b
+		?a: Study authors
+		?b: additional information
+	?a were contacted to request ?b
+		?a: Study authors
+		?b: missing
+	?a were contacted to request ?b
+		?a: Study authors
+		?b: data
+	Thus , ?a request ?b before ?c
+		?a: clinicians
+		?b: pathologists to genotype KRAS
+		?c: treatment
+
+
+label:    sent_5
+sentence: Clinical outcome indicators , disease prevalence and test request variability in primary care .
+
+ppatt:
+
+
+
+label:    sent_6
+sentence: The appropriateness of the CT request according to local criteria .
+
+ppatt:
+
+
+
+label:    sent_7
+sentence: It is advisable to request a histopathologic examination in all cases of primary HL .
+
+ppatt:
+	?a is advisable to request ?b
+		?a: It
+		?b: a histopathologic examination in all cases of primary HL
+
+
+label:    sent_8
+sentence: The patient 's identifying number was used to request blood tests in 86 % . When patients request the impotence pill . Pharmacokinetic and drug metabolism studies first request that good analytical data are available .
+
+ppatt:
+	?a was used to request ?b in ?c
+		?a: The patient 's identifying number
+		?b: blood tests
+		?c: 86 %
+	When ?a request ?b
+		?a: patients
+		?b: the impotence pill
+	?a first request ?b
+		?a: Pharmacokinetic and drug metabolism studies
+		?b: SOMETHING := good analytical data are available
+	?a are available
+		?a: good analytical data
+
+
+label:    sent_9
+sentence: The therapeutic value in the autopsy request .
+
+ppatt:
+
+
+
+label:    sent_10
+sentence: Maternal request CS--role of hospital teaching status and for-profit ownership .
+
+ppatt:
+
+
+
+label:    sent_11
+sentence: Patients requesting abdominoplasty often have concomitant umbilical hernias and may request simultaneous treatment .
+
+ppatt:
+	?a requesting ?b
+		?a: Patients
+		?b: abdominoplasty
+	?a often have ?b
+		?a: Patients requesting abdominoplasty
+		?b: concomitant umbilical hernias
+	?a may request ?b
+		?a: Patients requesting abdominoplasty
+		?b: simultaneous treatment
+
+
+label:    sent_12
+sentence: All parents continued to have or request meetings with the oncologist and investigative procedures .
+
+ppatt:
+	?a continued to have ?b
+		?a: All parents
+		?b: meetings with oncologist and investigative procedures
+	?a continued to request
+		?a: All parents
+
+
+label:    sent_13
+sentence: Respondents were encouraged to request further information and then were asked for recommendations .
+
+ppatt:
+	?a were encouraged to request ?b
+		?a: Respondents
+		?b: further information
+	?a were encouraged to then were asked for ?b
+		?a: Respondents
+		?b: recommendations
+
+
+label:    sent_14
+sentence: Clinical staff request training , but no one has time to attend training sessions .
+
+ppatt:
+	?a request ?b
+		?a: Clinical staff
+		?b: training
+	?a has ?b to attend ?c
+		?a: no one
+		?b: time
+		?c: training sessions
+
+
+label:    sent_15
+sentence: Women may request condom use , but men may refuse .
+
+ppatt:
+	?a may request ?b
+		?a: Women
+		?b: condom use
+	?a may refuse
+		?a: men
+
+
+label:    sent_16
+sentence: The authors request the replacement of the specific epithet aurantiaca and they suggest sandarakina . Handling request for non-disclosure of clinical information in paediatrics . Facebook friend request from a patient ? A family 's request for deception .
+
+ppatt:
+	?a request ?b
+		?a: The authors
+		?b: the replacement of the specific epithet aurantiaca
+	?a suggest ?b
+		?a: they
+		?b: sandarakina
+	?a suggest ?b
+		?a: they
+		?b: Handling request for non-disclosure of clinical information in paediatrics
+	?a request from ?b ?c
+		?a: Facebook friend
+		?b: a patient
+		?c: A family 's request for deception
+
+
+label:    sent_17
+sentence: They request and titrate drug levels according to their own identification of symptom distress .
+
+ppatt:
+	?a request ?b according to ?c
+		?a: They
+		?b: drug levels
+		?c: their own identification of symptom distress
+	?a titrate
+		?a: They
+
+
+label:    sent_18
+sentence: Who should request and interpret tests for heritable thrombophilia ? Spinal surgeons request blood-based on historical practice and not evidence .
+
+ppatt:
+	?a should request ?b
+		?a: Who
+		?b: tests for heritable thrombophilia
+	?a interpret
+		?a: Who
+	?a ?b request ?c on ?d
+		?a: SOMETHING := Who should request tests for heritable thrombophilia
+		?b: Spinal surgeons
+		?c: blood-based
+		?d: historical practice
+	?a ?b request ?c on ?d
+		?a: SOMETHING := Who should request tests for heritable thrombophilia
+		?b: Spinal surgeons
+		?c: blood-based
+		?d: evidence
+
+
+label:    sent_19
+sentence: Physicians should request AST before treatment and reconsider first-line use of ciprofloxacin .
+
+ppatt:
+	?a should request ?b before ?c
+		?a: Physicians
+		?b: AST
+		?c: treatment
+	?a reconsider ?b
+		?a: Physicians
+		?b: first-line use of ciprofloxacin
+
+

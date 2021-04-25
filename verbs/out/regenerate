@@ -1,0 +1,283 @@
+label:    sent_1
+sentence: To regenerate this matrix , fibroblasts need to be stimulated into synthesizing new collagen .
+
+ppatt:
+	regenerate ?a ?b
+		?a: this matrix
+		?b: fibroblasts
+	?a need to be stimulated
+		?a: fibroblasts
+	?a synthesizing ?b
+		?a: fibroblasts
+		?b: new collagen
+
+
+label:    sent_2
+sentence: The zebrafish has the potential to regenerate many of its tissues .
+
+ppatt:
+	?a has ?b
+		?a: The zebrafish
+		?b: the potential to regenerate many of its tissues
+	?a regenerate ?b
+		?a: the potential
+		?b: many of its tissues
+
+
+label:    sent_3
+sentence: However , this discrete bone-forming stimulation was unable to regenerate the bone defect .
+
+ppatt:
+	However , ?a was unable to regenerate ?b
+		?a: this discrete bone-forming stimulation
+		?b: the bone defect
+
+
+label:    sent_4
+sentence: Many multicellular organisms have remarkable capability to regenerate new organs after wounding .
+
+ppatt:
+	?a have ?b
+		?a: Many multicellular organisms
+		?b: remarkable capability to regenerate new organs after wounding
+	?a regenerate ?b after ?c
+		?a: remarkable capability
+		?b: new organs
+		?c: wounding
+
+
+label:    sent_5
+sentence: Unlike mammals , fish are able to regenerate axons in their central nervous system .
+
+ppatt:
+	Unlike ?a , ?b are able to regenerate ?c in ?d
+		?a: mammals
+		?b: fish
+		?c: axons
+		?d: their central nervous system
+
+
+label:    sent_6
+sentence: Articular cartilage of the mandibular condyle has limited ability to regenerate itself after injury . NRG1-deficient axons were also found to regenerate at a slower rate .
+
+ppatt:
+	?a has ?b
+		?a: Articular cartilage of the mandibular condyle
+		?b: limited ability to regenerate itself after injury
+	?a regenerate ?b after ?c
+		?a: limited ability
+		?b: itself
+		?c: injury
+	?a were also found to regenerate at ?b
+		?a: NRG1-deficient axons
+		?b: a slower rate
+
+
+label:    sent_7
+sentence: Oligodendrocyte-derived myelin retards the ability of CNS axons to regenerate following transection .
+
+ppatt:
+	?a retards ?b
+		?a: Oligodendrocyte-derived myelin
+		?b: the ability of CNS axons to regenerate following transection
+	?a regenerate following ?b
+		?a: the ability of CNS axons
+		?b: transection
+
+
+label:    sent_8
+sentence: The zebrafish heart has the capacity to regenerate after ventricular resection .
+
+ppatt:
+	?a has ?b
+		?a: The zebrafish heart
+		?b: the capacity to regenerate after ventricular resection
+	?a regenerate after ?b
+		?a: the capacity
+		?b: ventricular resection
+
+
+label:    sent_9
+sentence: It is well known that CNS fibers poorly regenerate after traumatic injuries .
+
+ppatt:
+	?a is well known ?b
+		?a: It
+		?b: SOMETHING := CNS fibers poorly regenerate after traumatic injuries
+	?a poorly regenerate after ?b
+		?a: CNS fibers
+		?b: traumatic injuries
+
+
+label:    sent_10
+sentence: Normal kidneys regenerate after acute injury with little development of chronic fibrosis .
+
+ppatt:
+	?a regenerate after ?b with ?c
+		?a: Normal kidneys
+		?b: acute injury
+		?c: little development of chronic fibrosis
+
+
+label:    sent_11
+sentence: In contrast , adult ctenophores regenerate readily . Nonmammalian vertebrates such as birds can regenerate hair cells after injury .
+
+ppatt:
+	In ?a , ?b regenerate readily
+		?a: contrast
+		?b: adult ctenophores
+	?a can regenerate ?b after ?c
+		?a: Nonmammalian vertebrates such as birds
+		?b: hair cells
+		?c: injury
+
+
+label:    sent_12
+sentence: The holothuroid echinoderm Holothuria glaberrima can regenerate its intestine after a process of evisceration .
+
+ppatt:
+	?a can regenerate ?b after ?c
+		?a: The holothuroid echinoderm Holothuria glaberrima
+		?b: its intestine
+		?c: a process of evisceration
+
+
+label:    sent_13
+sentence: Adult zebra fish completely regenerate their caudal ( tail ) fin following partial amputation .
+
+ppatt:
+	?a completely regenerate ?b following ?c
+		?a: Adult zebra fish
+		?b: their caudal fin
+		?c: partial amputation
+	?a is/are tail
+		?a: caudal
+
+
+label:    sent_14
+sentence: Current treatments do not predictably regenerate damaged PDL .
+
+ppatt:
+	?a do not predictably regenerate ?b
+		?a: Current treatments
+		?b: damaged PDL
+
+
+label:    sent_15
+sentence: Can bone marrow-derived multipotent adult progenitor cells regenerate infarcted myocardium ? Newts can regenerate their organs even as adults .
+
+ppatt:
+	Can ?a regenerate ?b
+		?a: bone marrow-derived multipotent adult progenitor cells
+		?b: infarcted myocardium
+	?a can regenerate ?b as ?c
+		?a: Newts
+		?b: their organs
+		?c: even adults
+
+
+label:    sent_16
+sentence: The use of electrolysis enables to regenerate chitosan and to reuse it . Diafiltration technique was further performed to regenerate complexation agents and recover nickel .
+
+ppatt:
+	?a enables to regenerate ?b
+		?a: The use of electrolysis
+		?b: chitosan
+	?a enables to to reuse ?b
+		?a: The use of electrolysis
+		?b: it
+	?a was further performed to regenerate ?b
+		?a: Diafiltration technique
+		?b: complexation agents
+	?a was further performed to recover ?b
+		?a: Diafiltration technique
+		?b: nickel
+
+
+label:    sent_17
+sentence: Tissue engineering is an attractive approach to make artificial tissue or regenerate lost tissues .
+
+ppatt:
+	?a is an attractive approach
+		?a: Tissue engineering
+	?a make ?b
+		?a: an attractive approach
+		?b: artificial tissue
+	?a make ?b
+		?a: an attractive approach
+		?b: lost tissues
+	?a regenerate
+		?a: Tissue engineering
+
+
+label:    sent_18
+sentence: Tooth movement into distraction regenerate : when should we start ? If a neuron is damaged by injury or disease , it may regenerate . Articular cartilage defects do not regenerate .
+
+ppatt:
+	?a regenerate
+		?a: Tooth movement into distraction
+	when should ?a start
+		?a: we
+	?a is damaged by ?b
+		?a: a neuron
+		?b: injury
+	?a is damaged by ?b
+		?a: a neuron
+		?b: disease
+	?a may regenerate
+		?a: it
+	?a do not regenerate
+		?a: Articular cartilage defects
+
+
+label:    sent_19
+sentence: Clinically , it is difficult to regenerate or reconstruct adipose tissue .
+
+ppatt:
+	Clinically , ?a is difficult to regenerate ?b
+		?a: it
+		?b: adipose tissue
+	Clinically , ?a is difficult to reconstruct
+		?a: it
+
+
+label:    sent_20
+sentence: Thus the small infarcts were found to be able to regenerate and revascularize . [To repair or to regenerate , it is necessary to choose ... ] . These species regenerate sexually in the same habitat but differ in seed mass . After peripheral nerve injury , axons regenerate and become remyelinated by resident Schwann cells .
+
+ppatt:
+	Thus ?a were found to be able to regenerate ?b
+		?a: the small infarcts
+		?b: [To repair
+	Thus ?a were found to be able to revascularize
+		?a: the small infarcts
+	Thus ?a were found to be able to to regenerate
+		?a: the small infarcts
+	?a is necessary to choose ... ?b
+		?a: it
+		?b: ]
+	?a regenerate sexually in ?b
+		?a: These species
+		?b: the same habitat
+	?a differ in ?b After ?c
+		?a: These species
+		?b: seed mass
+		?c: peripheral nerve injury
+	?a regenerate
+		?a: axons
+	?a become remyelinated by ?b
+		?a: axons
+		?b: resident Schwann cells
+
+
+label:    sent_21
+sentence: In addition , the proposed scheme can also regenerate and reshape distorted pulses all-optically .
+
+ppatt:
+	In ?a , ?b can also regenerate ?c all-optically
+		?a: addition
+		?b: the proposed scheme
+		?c: distorted pulses
+	?a reshape
+		?a: the proposed scheme
+
+

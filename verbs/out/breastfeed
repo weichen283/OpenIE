@@ -1,0 +1,238 @@
+label:    sent_1
+sentence: Mothers today are encouraged to breastfeed for up to 6 months .
+
+ppatt:
+	?a today are encouraged to breastfeed for ?b
+		?a: Mothers
+		?b: up 6 months
+
+
+label:    sent_2
+sentence: All except one child continued to breastfeed for many months after relactation .
+
+ppatt:
+	?a continued to breastfeed for ?b
+		?a: All except one child
+		?b: many months after relactation
+
+
+label:    sent_3
+sentence: All subjects studied were highly motivated to breastfeed for prolonged periods .
+
+ppatt:
+	?a studied
+		?a: All subjects
+	?a were highly motivated to breastfeed for ?b
+		?a: All subjects studied
+		?b: prolonged periods
+
+
+label:    sent_4
+sentence: Mass media content likely influences the decision of women to breastfeed their newborn children .
+
+ppatt:
+	?a likely influences ?b to breastfeed ?c
+		?a: Mass media content
+		?b: the decision of women
+		?c: their newborn children
+
+
+label:    sent_5
+sentence: Recipients are generally ill and premature infants whose mothers are unable to breastfeed them .
+
+ppatt:
+	?a are generally ill
+		?a: Recipients
+	?a premature
+		?a: Recipients
+	?a ?b are unable to breastfeed ?c
+		?a: infants
+		?b: whose mothers
+		?c: them
+
+
+label:    sent_6
+sentence: Special concerns arise when a chemically dependent woman chooses to breastfeed her infant .
+
+ppatt:
+	?a arise
+		?a: Special concerns
+	when ?a chooses to breastfeed ?b
+		?a: a chemically dependent woman
+		?b: her infant
+
+
+label:    sent_7
+sentence: Spoiled milk : an experimental examination of bias against mothers who breastfeed .
+
+ppatt:
+	?a breastfeed
+		?a: mothers
+
+
+label:    sent_8
+sentence: Cultural variations exist in the proportion of women who breastfeed .
+
+ppatt:
+	?a exist in ?b
+		?a: Cultural variations
+		?b: the proportion of women who breastfeed
+	?a breastfeed
+		?a: women
+
+
+label:    sent_9
+sentence: However , low-income mothers breastfeed less often and for shorter periods of time .
+
+ppatt:
+	However , ?a breastfeed less often and for shorter periods of time
+		?a: low-income mothers
+
+
+label:    sent_10
+sentence: Similarities and differences between women who breastfeed for short and long duration .
+
+ppatt:
+	?a breastfeed for ?b
+		?a: women
+		?b: short
+	?a breastfeed for ?b
+		?a: women
+		?b: long
+
+
+label:    sent_11
+sentence: Women with more education and those living in urban areas breastfeed for shorter periods .
+
+ppatt:
+	?a living in ?b
+		?a: those
+		?b: urban areas
+	?a breastfeed for ?b
+		?a: Women with more education and those living in urban areas
+		?b: shorter periods
+
+
+label:    sent_12
+sentence: These women were able to successfully breastfeed within one week . Working mothers breastfeed babies more than housewives .
+
+ppatt:
+	?a were able to successfully breastfeed within ?b
+		?a: These women
+		?b: one week
+	?a breastfeed ?b ?c than ?d
+		?a: Working mothers
+		?b: babies
+		?c: more
+		?d: housewives
+
+
+label:    sent_13
+sentence: Mothers with Type 1 diabetes breastfeed their children less than international recommendations . [Report from Argentina .
+
+ppatt:
+	?a breastfeed ?b ?c
+		?a: Mothers with Type 1 diabetes
+		?b: their children less than international recommendations
+		?c: [Report from Argentina
+
+
+label:    sent_14
+sentence: Adoptive mothers can also breastfeed ! ] . Women who smoke are less likely to breastfeed their children than nonsmokers .
+
+ppatt:
+	?a can also breastfeed ?b ?c
+		?a: Adoptive mothers
+		?b: ! ]
+		?c: Women who smoke are less likely to breastfeed their children than nonsmokers
+	?a ?b are less likely to breastfeed ?c
+		?a: Women
+		?b: smoke
+		?c: their children than nonsmokers
+
+
+label:    sent_15
+sentence: Experiences of HIV positive mothers who chose not to breastfeed their babies in Nigeria .
+
+ppatt:
+	?a chose not to breastfeed ?b
+		?a: HIV positive mothers
+		?b: their babies in Nigeria
+
+
+label:    sent_16
+sentence: Women who smoke are less likely to breastfeed their children than nonsmokers . 98 % of Bangladesh mothers breastfeed their children from birth .
+
+ppatt:
+	?a ?b are less likely to breastfeed ?c
+		?a: Women
+		?b: smoke
+		?c: their children than nonsmokers
+	?a ?b breastfeed ?c
+		?a: Women who smoke are less likely to breastfeed their children than nonsmokers
+		?b: 98 % of Bangladesh mothers
+		?c: their children from birth
+
+
+label:    sent_17
+sentence: Intention to breastfeed and other important health-related behaviour and beliefs during pregnancy .
+
+ppatt:
+	?a breastfeed ?b during ?c
+		?a: Intention
+		?b: other important health-related behaviour
+		?c: pregnancy
+	?a breastfeed ?b during ?c
+		?a: Intention
+		?b: beliefs
+		?c: pregnancy
+
+
+label:    sent_18
+sentence: Traditionally , most IndoChinese women breastfeed their children for a prolonged period .
+
+ppatt:
+	Traditionally , ?a breastfeed ?b for ?c
+		?a: most IndoChinese women
+		?b: their children
+		?c: a prolonged period
+
+
+label:    sent_19
+sentence: Women experiencing uncomplicated pregnancies who planned to have epidural analgesia and to breastfeed .
+
+ppatt:
+	?a experiencing ?b
+		?a: Women
+		?b: uncomplicated pregnancies who planned to have epidural analgesia and to breastfeed
+	?a planned to have ?b
+		?a: uncomplicated pregnancies
+		?b: epidural analgesia
+	?a planned to to breastfeed
+		?a: who
+
+
+label:    sent_20
+sentence: Each woman was assisted to either use breast milk substitutes or breastfeed exclusively .
+
+ppatt:
+	?a was assisted to either use ?b
+		?a: Each woman
+		?b: breast milk substitutes
+	?a was assisted to either breastfeed exclusively
+		?a: Each woman
+
+
+label:    sent_21
+sentence: To breastfeed or not to breastfeed ? Seventy-five percent of mothers planned to express breast milk or breastfeed before delivery .
+
+ppatt:
+	not to breastfeed ?a
+		?a: Seventy-five percent of mothers planned to express breast milk or breastfeed before delivery
+	?a planned to express ?b
+		?a: mothers
+		?b: breast milk
+	planned to breastfeed before ?a
+		?a: delivery
+
+

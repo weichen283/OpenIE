@@ -1,0 +1,319 @@
+label:    sent_1
+sentence: Finally , several examples are present to illustrate the application of the prediction tools .
+
+ppatt:
+	Finally , ?a are present to illustrate ?b
+		?a: several examples
+		?b: the application of the prediction tools
+
+
+label:    sent_2
+sentence: We applied the method to two proteins to illustrate the protocol and its results .
+
+ppatt:
+	?a applied ?b
+		?a: We
+		?b: the method to two proteins
+	?a illustrate ?b
+		?a: We
+		?b: the protocol
+	?a illustrate ?b
+		?a: We
+		?b: its results
+
+
+label:    sent_3
+sentence: We preferred the self-catalyzing vapor-liquid-solid ( VLS ) mechanism to illustrate their growth process .
+
+ppatt:
+	?a preferred ?b
+		?a: We
+		?b: the self-catalyzing vapor-liquid-solid mechanism
+	?a is/are VLS
+		?a: vapor-liquid-solid
+	?a illustrate ?b
+		?a: We
+		?b: their growth process
+
+
+label:    sent_4
+sentence: Our numerical experiments illustrate the metastatic ability of tumour cells .
+
+ppatt:
+	?a illustrate ?b
+		?a: Our numerical experiments
+		?b: the metastatic ability of tumour cells
+
+
+label:    sent_5
+sentence: This case may illustrate another possible complication following bariatric surgery .
+
+ppatt:
+	?a may illustrate ?b following ?c
+		?a: This case
+		?b: another possible complication
+		?c: bariatric surgery
+
+
+label:    sent_6
+sentence: These findings illustrate a possible mechanistic link between vitamin E and insulin sensitivity .
+
+ppatt:
+	?a illustrate ?b
+		?a: These findings
+		?b: a possible mechanistic link between vitamin E and insulin sensitivity
+
+
+label:    sent_7
+sentence: Our results illustrate that similar mechanisms of burrowing are used by morphologically different burrowers .
+
+ppatt:
+	?a illustrate ?b
+		?a: Our results
+		?b: SOMETHING := similar mechanisms of burrowing are used by morphologically different burrowers
+	?a are used by ?b
+		?a: similar mechanisms of burrowing
+		?b: morphologically different burrowers
+
+
+label:    sent_8
+sentence: These data illustrate that FSHR couples to multiple signaling pathways in vivo .
+
+ppatt:
+	?a illustrate ?b
+		?a: These data
+		?b: SOMETHING := FSHR couples to multiple signaling pathways in vivo
+	?a couples to ?b in vivo
+		?a: FSHR
+		?b: multiple signaling pathways
+
+
+label:    sent_9
+sentence: These results illustrate how a conserved tRNA recognition pattern changed during evolution .
+
+ppatt:
+	?a illustrate ?b
+		?a: These results
+		?b: SOMETHING := how a conserved tRNA recognition pattern changed during evolution
+	how ?a changed during ?b
+		?a: a conserved tRNA recognition pattern
+		?b: evolution
+
+
+label:    sent_10
+sentence: Our results illustrate an etiological diagnosis of acute kidney injury through analysis of urine .
+
+ppatt:
+	?a illustrate ?b through ?c
+		?a: Our results
+		?b: an etiological diagnosis of acute kidney injury
+		?c: analysis of urine
+
+
+label:    sent_11
+sentence: These results illustrate the rapid discovery of new markers through synteny mapping . Finally we illustrate our results with a concrete model of n spins .
+
+ppatt:
+	?a illustrate ?b
+		?a: These results
+		?b: the rapid discovery of new markers through synteny mapping
+	Finally ?a illustrate ?b
+		?a: we
+		?b: our results with a concrete model of n spins
+
+
+label:    sent_12
+sentence: We illustrate UK practice with clinical cases and describe worldwide variations .
+
+ppatt:
+	?a illustrate ?b
+		?a: We
+		?b: UK practice with clinical cases
+	?a describe ?b
+		?a: We
+		?b: worldwide variations
+
+
+label:    sent_13
+sentence: We illustrate the phenomenon , and present analytical results for paradigmatic nonlinear systems .
+
+ppatt:
+	?a illustrate ?b
+		?a: We
+		?b: the phenomenon
+	?a present ?b for ?c
+		?a: We
+		?b: analytical results
+		?c: paradigmatic nonlinear systems
+
+
+label:    sent_14
+sentence: The authors empirically illustrate this framework and give step-by-step instructions for estimation and interpretation .
+
+ppatt:
+	?a empirically illustrate ?b
+		?a: The authors
+		?b: this framework
+	?a give ?b
+		?a: The authors
+		?b: step-by-step instructions for estimation and interpretation
+
+
+label:    sent_15
+sentence: To illustrate a clinical presentation of GBS in an individual with chronic SCI .
+
+ppatt:
+	illustrate ?a
+		?a: a clinical presentation of GBS in an individual with chronic SCI
+
+
+label:    sent_16
+sentence: To illustrate imaging findings of granulocytic sarcoma in an unusual location ; maxillary sinus . Framework analysis was used to illustrate key themes in the data .
+
+ppatt:
+	illustrate ?a
+		?a: imaging findings of granulocytic sarcoma in an unusual location
+	?a ?b was used to illustrate ?c
+		?a: maxillary sinus
+		?b: Framework analysis
+		?c: key themes in the data
+
+
+label:    sent_17
+sentence: Then we give details of the graph-based normalization algorithm and illustrate some results . Statistical data for precision and accuracy are given and illustrate reliable quantification .
+
+ppatt:
+	Then ?a give ?b
+		?a: we
+		?b: details of the graph-based normalization algorithm
+	?a illustrate ?b
+		?a: we
+		?b: some results
+	?a are given
+		?a: Statistical data for precision and accuracy
+	?a illustrate ?b
+		?a: Statistical data for precision and accuracy
+		?b: reliable quantification
+
+
+label:    sent_18
+sentence: Two contrasting pathosystems are implemented using the framework and illustrate its generic utility .
+
+ppatt:
+	?a are implemented using ?b
+		?a: Two contrasting pathosystems
+		?b: the framework
+	?a illustrate ?b
+		?a: Two contrasting pathosystems
+		?b: its generic utility
+
+
+label:    sent_19
+sentence: We illustrate , with a simple example , how this occurs . We then illustrate with numerical examples how conflicting demands may be resolved .
+
+ppatt:
+	?a illustrate , with ?b
+		?a: We
+		?b: a simple example
+	how ?a occurs
+		?a: this
+	?a then illustrate with ?b
+		?a: We
+		?b: numerical examples how conflicting demands may be resolved
+	?a how ?b may be resolved
+		?a: numerical examples
+		?b: conflicting demands
+
+
+label:    sent_20
+sentence: In conclusion , our data illustrate that epidermal KCs express functional C3aR .
+
+ppatt:
+	In ?a , ?b illustrate ?c
+		?a: conclusion
+		?b: our data
+		?c: SOMETHING := epidermal KCs express functional C3aR
+	?a express ?b
+		?a: epidermal KCs
+		?b: functional C3aR
+
+
+label:    sent_21
+sentence: Calculations are performed on model potentials to illustrate and interpret the FSRS spectra .
+
+ppatt:
+	?a are performed on ?b to illustrate ?c
+		?a: Calculations
+		?b: model potentials
+		?c: the FSRS spectra
+	?a are performed to interpret
+		?a: Calculations
+
+
+label:    sent_22
+sentence: Practical problem cases are used to illustrate and emphasize specific areas of interpretation difficulties .
+
+ppatt:
+	?a are used to illustrate ?b
+		?a: Practical problem cases
+		?b: specific areas of interpretation difficulties
+	?a are used to emphasize
+		?a: Practical problem cases
+
+
+label:    sent_23
+sentence: Table 5 attempts to illustrate what is known and provide estimates for circulating variants .
+
+ppatt:
+	?a attempts to illustrate ?b
+		?a: Table 5
+		?b: SOMETHING := what is known
+	?a is known
+		?a: what
+	?a provide ?b
+		?a: what
+		?b: estimates for circulating variants
+
+
+label:    sent_24
+sentence: They illustrate with examples the rituals employed in therapy and discuss their classification .
+
+ppatt:
+	?a illustrate with ?b
+		?a: They
+		?b: examples the rituals employed in therapy
+	?a employed in ?b
+		?a: the rituals
+		?b: therapy
+	?a discuss ?b
+		?a: They
+		?b: their classification
+
+
+label:    sent_25
+sentence: We illustrate these properties by numerical simulations and suggest experiments to test these findings .
+
+ppatt:
+	?a illustrate ?b by ?c
+		?a: We
+		?b: these properties
+		?c: numerical simulations
+	?a suggest ?b to test ?c
+		?a: We
+		?b: experiments
+		?c: these findings
+
+
+label:    sent_26
+sentence: We illustrate the method on simulated examples and apply it to real datasets .
+
+ppatt:
+	?a illustrate ?b
+		?a: We
+		?b: the method on simulated examples
+	?a apply ?b to ?c
+		?a: We
+		?b: it
+		?c: real datasets
+
+

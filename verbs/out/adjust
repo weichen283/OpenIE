@@ -1,0 +1,312 @@
+label:    sent_1
+sentence: Multivariable logistic regressions were used to adjust for other factors .
+
+ppatt:
+	?a were used to adjust for ?b
+		?a: Multivariable logistic regressions
+		?b: other factors
+
+
+label:    sent_2
+sentence: Cox regression models were used to adjust for confounding factors .
+
+ppatt:
+	?a were used to adjust for ?b
+		?a: Cox regression models
+		?b: confounding factors
+
+
+label:    sent_3
+sentence: Multivariate models were done to adjust for possible confounders .
+
+ppatt:
+	?a were done to adjust for ?b
+		?a: Multivariate models
+		?b: possible confounders
+
+
+label:    sent_4
+sentence: Determining reliable markers of clinical outcome for psychosis is essential to adjust intervention efforts .
+
+ppatt:
+	Determining ?a
+		?a: reliable markers of clinical outcome for psychosis
+	?a is essential to adjust ?b
+		?a: SOMETHING := Determining reliable markers of clinical outcome for psychosis
+		?b: intervention efforts
+
+
+label:    sent_5
+sentence: During speaking , auditory feedback is used to adjust vocalizations .
+
+ppatt:
+	During ?a , ?b is used to adjust ?c
+		?a: speaking
+		?b: auditory feedback
+		?c: vocalizations
+
+
+label:    sent_6
+sentence: Conversion factors were also considered to adjust the ECD values .
+
+ppatt:
+	?a were also considered to adjust ?b
+		?a: Conversion factors
+		?b: the ECD values
+
+
+label:    sent_7
+sentence: Seven mathematical models were tested to adjust UHPLC-MS/MS data to GC-MS data . XVI data was used to adjust patient setups before treatment delivery .
+
+ppatt:
+	?a were tested to adjust ?b to ?c
+		?a: Seven mathematical models
+		?b: UHPLC-MS/MS data
+		?c: GC-MS data
+	?a was used to adjust ?b before ?c
+		?a: XVI data
+		?b: patient setups
+		?c: treatment delivery
+
+
+label:    sent_8
+sentence: Animals use rules to adjust their level of investment in a contest .
+
+ppatt:
+	?a use ?b to adjust ?c
+		?a: Animals
+		?b: rules
+		?c: their level of investment in a contest
+
+
+label:    sent_9
+sentence: We further develop two novel association tests that adjust for local ancestry .
+
+ppatt:
+	?a further develop ?b
+		?a: We
+		?b: two novel association tests that adjust for local ancestry
+	?a adjust for ?b
+		?a: two novel association tests
+		?b: local ancestry
+
+
+label:    sent_10
+sentence: How do adolescents adjust to their parent 's multiple sclerosis ? All analyses adjust for disease severity , hospitalization history , and resources .
+
+ppatt:
+	How do ?a adjust to ?b
+		?a: adolescents
+		?b: their parent 's multiple sclerosis
+	?a adjust for ?b
+		?a: All analyses
+		?b: disease severity
+	?a adjust for ?b
+		?a: All analyses
+		?b: hospitalization history
+	?a adjust for ?b
+		?a: All analyses
+		?b: resources
+
+
+label:    sent_11
+sentence: Chronic treatments with these drugs likely adjust altered dopaminergic neurotransmission in sensitized animals .
+
+ppatt:
+	?a likely adjust ?b
+		?a: Chronic treatments with these drugs
+		?b: altered dopaminergic neurotransmission in sensitized animals
+
+
+label:    sent_12
+sentence: Plants adjust their growth and development in response to the ambient light environment .
+
+ppatt:
+	?a adjust ?b to ?c
+		?a: Plants
+		?b: their growth
+		?c: the ambient light environment
+	?a adjust ?b to ?c
+		?a: Plants
+		?b: development
+		?c: the ambient light environment
+
+
+label:    sent_13
+sentence: Thereafter , patients could adjust the dose ( either 7.5 or 15 mg ) . Theory also predicts that parasites should adjust sex allocation in response to host immunity .
+
+ppatt:
+	Thereafter , ?a could adjust ?b
+		?a: patients
+		?b: the dose
+	?a is/are either 7.5 or 15 mg
+		?a: the dose
+	?a also predicts ?b
+		?a: Theory
+		?b: SOMETHING := parasites should adjust sex allocation in response to host immunity
+	?a should adjust ?b in ?c
+		?a: parasites
+		?b: sex allocation
+		?c: response to host immunity
+
+
+label:    sent_14
+sentence: Prey usually adjust anti-predator behavior to subtle variations in perceived risk .
+
+ppatt:
+	?a usually adjust ?b
+		?a: Prey
+		?b: anti-predator behavior to subtle variations in perceived risk
+
+
+label:    sent_15
+sentence: The CD head can adjust its conformation to the available area per molecule .
+
+ppatt:
+	?a can adjust ?b
+		?a: The CD head
+		?b: its conformation to the available area per molecule
+
+
+label:    sent_16
+sentence: Continuous Tac monitoring is necessary to adjust the dose and prevent toxicity or rejection .
+
+ppatt:
+	?a is necessary to adjust ?b
+		?a: Continuous Tac monitoring
+		?b: the dose
+	?a is necessary to prevent ?b
+		?a: Continuous Tac monitoring
+		?b: toxicity
+	?a is necessary to prevent ?b
+		?a: Continuous Tac monitoring
+		?b: rejection
+
+
+label:    sent_17
+sentence: Use of computed tomography scanning to guide lung recruitment and adjust positive-end expiratory pressure .
+
+ppatt:
+	?a guide ?b
+		?a: Use of computed tomography scanning
+		?b: lung recruitment
+	adjust ?a
+		?a: positive-end expiratory pressure
+
+
+label:    sent_18
+sentence: This information can be used to adjust staffing and to establish variable billing procedures .
+
+ppatt:
+	?a can be used to adjust ?b
+		?a: This information
+		?b: staffing
+	?a can be used to to establish ?b
+		?a: This information
+		?b: variable billing procedures
+
+
+label:    sent_19
+sentence: In their clinical work GPs have to adjust to and integrate alternative perspectives .
+
+ppatt:
+	In ?a ?b have to adjust ?c ?d
+		?a: their clinical work
+		?b: GPs
+		?c: to
+		?d: alternative perspectives
+	?a have to integrate
+		?a: GPs
+
+
+label:    sent_20
+sentence: Multivariate logistic regression models were used to adjust for confounders and test for interactions .
+
+ppatt:
+	?a were used to adjust for ?b
+		?a: Multivariate logistic regression models
+		?b: confounders
+	?a were used to test for ?b
+		?a: Multivariate logistic regression models
+		?b: interactions
+
+
+label:    sent_21
+sentence: We address the questions , How do physicians adjust to and enjoy their retirement ? A thin flexible foil is inserted into the joint and adjust itself to curvatures .
+
+ppatt:
+	?a address ?b
+		?a: We
+		?b: the questions , How do physicians adjust to and enjoy their retirement
+	?a How do ?b adjust ?c
+		?a: the questions
+		?b: physicians
+		?c: to
+	?a enjoy ?b
+		?a: physicians
+		?b: their retirement
+	?a is inserted into ?b
+		?a: A thin flexible foil
+		?b: the joint
+	?a adjust ?b to ?c
+		?a: A thin flexible foil
+		?b: itself
+		?c: curvatures
+
+
+label:    sent_22
+sentence: Uncertainties exist about when and how best to adjust performance measures for case mix .
+
+ppatt:
+	?a exist
+		?a: Uncertainties
+	about when to adjust ?a
+		?a: performance measures for case mix
+
+
+label:    sent_23
+sentence: Salmonella changes the metabolism and adjust the plant host by suppressing the defense mechanisms .
+
+ppatt:
+	?a changes ?b
+		?a: Salmonella
+		?b: the metabolism
+	?a adjust ?b
+		?a: Salmonella
+		?b: the plant host
+	?a suppressing ?b
+		?a: Salmonella
+		?b: the defense mechanisms
+
+
+label:    sent_24
+sentence: [To adjust or not to adjust census data ? ] . The Recreational players did not adjust their forehand drive , and spatial accuracy deteriorated .
+
+ppatt:
+	?a adjust
+		?a: [To
+	?a not to adjust ?b
+		?a: [To
+		?b: census data
+	?a is/are ]
+		?a: census data
+	?a did not adjust ?b
+		?a: The Recreational players
+		?b: their forehand drive
+	?a deteriorated
+		?a: spatial accuracy
+
+
+label:    sent_25
+sentence: Kissing balloon technique can adjust carina shift but can not improve plaque shift .
+
+ppatt:
+	?a ?b can adjust ?c
+		?a: SOMETHING := Kissing
+		?b: balloon technique
+		?c: carina shift
+	?a can not improve ?b
+		?a: Kissing
+		?b: plaque shift
+
+

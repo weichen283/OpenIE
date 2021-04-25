@@ -1,0 +1,229 @@
+label:    sent_1
+sentence: Smaller deviation values signify greater concordance between compared databases .
+
+ppatt:
+	?a signify ?b between ?c
+		?a: Smaller deviation values
+		?b: greater concordance
+		?c: compared databases
+
+
+label:    sent_2
+sentence: This type of seizure can signify the existence of a giant bronchogenic cyst .
+
+ppatt:
+	?a can signify ?b
+		?a: This type of seizure
+		?b: the existence of a giant bronchogenic cyst
+
+
+label:    sent_3
+sentence: These results signify the fundamental role of epigenetic alterations in genotoxic liver carcinogenesis .
+
+ppatt:
+	?a signify ?b
+		?a: These results
+		?b: the fundamental role of epigenetic alterations in genotoxic liver carcinogenesis
+
+
+label:    sent_4
+sentence: These calculated correlations were considered to signify measures of functional connectivity .
+
+ppatt:
+	?a were considered to signify ?b
+		?a: These calculated correlations
+		?b: measures of functional connectivity
+
+
+label:    sent_5
+sentence: The aim is to signify the importance of sampling to the overall analytical procedure .
+
+ppatt:
+	?a is to signify ?b
+		?a: The aim
+		?b: the importance of sampling to the overall analytical procedure
+	?a sampling to ?b
+		?a: the importance
+		?b: the overall analytical procedure
+
+
+label:    sent_6
+sentence: Traditionally it was worn by only Hindu women to signify their marital status .
+
+ppatt:
+	Traditionally ?a was worn by ?b to signify ?c
+		?a: it
+		?b: only Hindu women
+		?c: their marital status
+
+
+label:    sent_7
+sentence: Results signify that adolescents with CH show abnormal hippocampal functioning during verbal memory processing .
+
+ppatt:
+	?a signify ?b
+		?a: Results
+		?b: SOMETHING := adolescents with CH show abnormal hippocampal functioning during verbal memory processing
+	?a show ?b during ?c
+		?a: adolescents with CH
+		?b: abnormal hippocampal functioning
+		?c: verbal memory processing
+
+
+label:    sent_8
+sentence: It may also signify systemic endothelial dysfunction that predisposes to future cardiovascular events .
+
+ppatt:
+	?a may also signify ?b
+		?a: It
+		?b: systemic endothelial dysfunction that predisposes to future cardiovascular events
+	?a predisposes to ?b
+		?a: systemic endothelial dysfunction
+		?b: future cardiovascular events
+
+
+label:    sent_9
+sentence: The results signify that beta-alanine may have a functional role in cerebellar granule cells .
+
+ppatt:
+	?a signify ?b
+		?a: The results
+		?b: SOMETHING := beta-alanine may have a functional role in cerebellar granule cells
+	?a may have ?b in ?c
+		?a: beta-alanine
+		?b: a functional role
+		?c: cerebellar granule cells
+
+
+label:    sent_10
+sentence: Microvilli do not , by themselves , signify any specific primary organ site .
+
+ppatt:
+	signify ?a
+		?a: any specific primary organ site
+
+
+label:    sent_11
+sentence: Bacterial contamination may not signify clinical peritonitis during this period .
+
+ppatt:
+	?a may not signify ?b during ?c
+		?a: Bacterial contamination
+		?b: clinical peritonitis
+		?c: this period
+
+
+label:    sent_12
+sentence: In the proposed classification higher grades signify increasing levels of expected intraoperative difficulty .
+
+ppatt:
+	In ?a ?b signify ?c
+		?a: the proposed classification
+		?b: higher grades
+		?c: increasing levels of expected intraoperative difficulty
+
+
+label:    sent_13
+sentence: Discordant lateralizations signify an undetermined epileptogenic hemisphere and contraindicate surgery without further testing .
+
+ppatt:
+	?a signify ?b without ?c
+		?a: Discordant lateralizations
+		?b: an undetermined epileptogenic hemisphere
+		?c: further testing
+	?a signify ?b without ?c
+		?a: Discordant lateralizations
+		?b: contraindicate surgery
+		?c: further testing
+
+
+label:    sent_14
+sentence: Cutaneous metastases from MTC generally signify widespread disease and carry a poor prognosis .
+
+ppatt:
+	?a generally signify ?b
+		?a: Cutaneous metastases from MTC
+		?b: widespread disease
+	?a carry ?b
+		?a: Cutaneous metastases from MTC
+		?b: a poor prognosis
+
+
+label:    sent_15
+sentence: Cutaneous metastases are rare and usually signify a poor prognosis .
+
+ppatt:
+	?a are rare
+		?a: Cutaneous metastases
+	?a usually signify ?b
+		?a: Cutaneous metastases
+		?b: a poor prognosis
+
+
+label:    sent_16
+sentence: Mediastinal lymphadenopathy and cutaneous metastases are uncommon and signify well-advanced disease .
+
+ppatt:
+	?a are uncommon
+		?a: Mediastinal lymphadenopathy
+	?a are uncommon
+		?a: cutaneous metastases
+	?a signify ?b
+		?a: Mediastinal lymphadenopathy
+		?b: well-advanced disease
+	?a signify ?b
+		?a: cutaneous metastases
+		?b: well-advanced disease
+
+
+label:    sent_17
+sentence: Symptoms that occur after meals usually are mild and rarely signify serious disease .
+
+ppatt:
+	?a occur after ?b
+		?a: Symptoms
+		?b: meals
+	?a usually are mild
+		?a: Symptoms that occur after meals
+	?a rarely signify ?b
+		?a: Symptoms that occur after meals
+		?b: serious disease
+
+
+label:    sent_18
+sentence: We designated this regulator FarR to signify its role in regulating the farAB operon .
+
+ppatt:
+	?a designated ?b ?c
+		?a: We
+		?b: regulator
+		?c: this FarR
+	?a signify ?b
+		?a: We
+		?b: its role
+	?a regulating ?b
+		?a: We
+		?b: the farAB operon
+
+
+label:    sent_19
+sentence: Descriptors to signify grounded theory components in the studies greatly varied .
+
+ppatt:
+	?a signify ?b
+		?a: Descriptors
+		?b: grounded theory components in the studies
+	?a greatly varied
+		?a: Descriptors to signify grounded theory components in the studies
+
+
+label:    sent_20
+sentence: These were normalized to quartiles to signify least to most crowded .
+
+ppatt:
+	?a were normalized to ?b to signify to ?c
+		?a: These
+		?b: quartiles
+		?c: least most crowded
+
+

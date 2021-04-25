@@ -1,0 +1,116 @@
+label:    sent_1
+sentence: [
+
+ppatt:
+
+
+
+label:    sent_2
+sentence: Studies on coprecipitate of anordrin-PVP ] . Purified 32-KDa protein was shown to coprecipitate with skeletal muscle actin under polymerizing conditions .
+
+ppatt:
+	?a ?b was shown to coprecipitate with ?c under ?d
+		?a: Studies on coprecipitate of anordrin-PVP ]
+		?b: Purified 32-KDa protein
+		?c: skeletal muscle actin
+		?d: polymerizing conditions
+
+
+label:    sent_3
+sentence: [Studies on hydroxyapatite applicatied in coprecipitate of total salvianolic acids phospholipid complex ] . These complexes coprecipitate with proteins on centrifugation . Kir2.1 and Kir2.3 subunits on the other hand coprecipitate with PSD-95 .
+
+ppatt:
+	?a applicatied in ?b
+		?a: [Studies on hydroxyapatite
+		?b: coprecipitate of total salvianolic acids
+	?a is/are phospholipid complex ]
+		?a: total salvianolic acids
+	?a coprecipitate with ?b ?c
+		?a: These complexes
+		?b: proteins on centrifugation
+		?c: Kir2.1
+	?a coprecipitate with ?b ?c
+		?a: These complexes
+		?b: proteins on centrifugation
+		?c: Kir2.3
+	?a on ?b coprecipitate with ?c
+		?a: [Studies on hydroxyapatite
+		?b: the other hand
+		?c: PSD-95
+
+
+label:    sent_4
+sentence: Chitin-silicon dioxide coprecipitate as a novel superdisintegrant .
+
+ppatt:
+
+
+
+label:    sent_5
+sentence: Preparation and characterization of baicalin-poly -vinylpyrrolidone coprecipitate .
+
+ppatt:
+
+
+
+label:    sent_6
+sentence: Dissolution and bioavailability of phenytoin in phenytoin-polyvinylpyrrolidone-sodium deoxycholate coprecipitate .
+
+ppatt:
+
+
+
+label:    sent_7
+sentence: [ Spermicidal effects in vitro of gossypol acetic acid-povidone coprecipitate ] . We were also able to coprecipitate alpha-actinin from rat brain homogenate .
+
+ppatt:
+	?a ?b were also able to coprecipitate ?c
+		?a: Spermicidal effects in vitro of gossypol acetic acid-povidone coprecipitate ]
+		?b: We
+		?c: alpha-actinin from rat brain homogenate
+
+
+label:    sent_8
+sentence: Anticalnexin antibody , however , failed to coprecipitate any form of the chimaeric protein .
+
+ppatt:
+	?a however , failed to coprecipitate ?b
+		?a: Anticalnexin antibody
+		?b: any form of the chimaeric protein
+
+
+label:    sent_9
+sentence: Characterization of cimetidine-piroxicam coprecipitate interaction using experimental studies and molecular dynamic simulations .
+
+ppatt:
+	?a using ?b
+		?a: Characterization of cimetidine-piroxicam coprecipitate interaction
+		?b: experimental studies
+	?a using ?b
+		?a: Characterization of cimetidine-piroxicam coprecipitate interaction
+		?b: molecular dynamic simulations
+
+
+label:    sent_10
+sentence: Specific antisera for plasminogen activator inhibitor-1 can coprecipitate IGFBP-5 .
+
+ppatt:
+	?a can coprecipitate ?b
+		?a: Specific antisera for plasminogen activator inhibitor-1
+		?b: IGFBP-5
+
+
+label:    sent_11
+sentence: [ The luminescence characteristic of a new novel coprecipitate rare earths complexes ] . These compounds coprecipitate with the DNA during extraction and strongly inhibit the PCR reaction .
+
+ppatt:
+	?a ?b coprecipitate with ?c during ?d
+		?a: The luminescence characteristic of a new novel coprecipitate rare earths complexes
+		?b: These compounds
+		?c: the DNA
+		?d: extraction
+	?a strongly inhibit ?b
+		?a: These compounds
+		?b: the PCR reaction
+
+

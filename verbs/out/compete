@@ -1,0 +1,306 @@
+label:    sent_1
+sentence: Companies compete over mutation-specific melanoma drugs .
+
+ppatt:
+	?a compete over ?b
+		?a: Companies
+		?b: mutation-specific melanoma drugs
+
+
+label:    sent_2
+sentence: The athlete wishes to compete in a rodeo event in 4 d . GINS and Sld3 compete with one another for Mcm2-7 and Cdc45 binding .
+
+ppatt:
+	?a wishes to compete in ?b
+		?a: The athlete
+		?b: a rodeo event in 4 d
+	?a compete with ?b
+		?a: GINS
+		?b: one another for Mcm2-7 and Cdc45 binding
+	?a compete with ?b
+		?a: Sld3
+		?b: one another for Mcm2-7 and Cdc45 binding
+
+
+label:    sent_3
+sentence: On the other hand , chemical lipolysis can not compete with liposuction .
+
+ppatt:
+	On ?a , ?b can not compete with ?c
+		?a: the other hand
+		?b: chemical lipolysis
+		?c: liposuction
+
+
+label:    sent_4
+sentence: Intersystem crossing is likely to compete for S ( 1 ) relaxation .
+
+ppatt:
+	?a is likely to compete for ?b
+		?a: Intersystem crossing
+		?b: S relaxation
+	?a is/are 1
+		?a: S
+
+
+label:    sent_5
+sentence: During binocular rivalry , incompatible images presented dichoptically compete for perceptual dominance .
+
+ppatt:
+	?a presented dichoptically
+		?a: incompatible images
+	During ?a , ?b compete for ?c
+		?a: binocular rivalry
+		?b: incompatible images presented dichoptically
+		?c: perceptual dominance
+
+
+label:    sent_6
+sentence: Both proteases compete for APP cleavage , but have opposite effects on Abeta generation .
+
+ppatt:
+	?a compete for ?b
+		?a: Both proteases
+		?b: APP cleavage
+	?a have ?b on ?c
+		?a: Both proteases
+		?b: opposite effects
+		?c: Abeta generation
+
+
+label:    sent_7
+sentence: Males would compete for females , and females would choose between males .
+
+ppatt:
+	?a would compete for ?b
+		?a: Males
+		?b: females
+	?a would choose between ?b
+		?a: females
+		?b: males
+
+
+label:    sent_8
+sentence: Thus the two techniques do not compete with each other but are complementary .
+
+ppatt:
+	Thus ?a do not compete with ?b
+		?a: the two techniques
+		?b: each other
+
+
+label:    sent_9
+sentence: Rofecoxib is uniquely metabolized by cytosol reductase and may compete with aldosterone for metabolism .
+
+ppatt:
+	?a is uniquely metabolized by ?b
+		?a: Rofecoxib
+		?b: cytosol reductase
+	?a may compete with ?b for ?c
+		?a: Rofecoxib
+		?b: aldosterone
+		?c: metabolism
+
+
+label:    sent_10
+sentence: Myricetin directly bound with glutathione S-transferase-MEK1 but did not compete with ATP .
+
+ppatt:
+	?a directly bound with ?b
+		?a: Myricetin
+		?b: glutathione S-transferase-MEK1
+	?a did not compete with ?b
+		?a: Myricetin
+		?b: ATP
+
+
+label:    sent_11
+sentence: The results with CBA appear persistent and compete favorably with results from surgical repair .
+
+ppatt:
+	?a appear persistent
+		?a: The results with CBA
+	?a compete favorably with ?b
+		?a: The results with CBA
+		?b: results from surgical repair
+
+
+label:    sent_12
+sentence: Once more techniques do not compete . 13 candidates compete to be next WHO Director-General .
+
+ppatt:
+	?a do not compete
+		?a: Once more techniques
+	?a compete ?b
+		?a: 13 candidates
+		?b: SOMETHING := to be next WHO Director-General
+	be next ?a Director-General
+		?a: WHO
+
+
+label:    sent_13
+sentence: In a mesoscopic limit where both dynamics compete we identify bulk-driven phase transitions . Yet , the precise means through which individuals compete for social standing remains unclear .
+
+ppatt:
+	?a where ?b compete
+		?a: a mesoscopic limit
+		?b: both dynamics
+	?a identify ?b
+		?a: we
+		?b: bulk-driven phase transitions
+	?a through ?b compete for ?c
+		?a: the precise means
+		?b: individuals
+		?c: social standing
+	In ?a Yet , ?b remains unclear
+		?a: a mesoscopic limit where both dynamics compete
+		?b: the precise means through which individuals compete for social standing
+
+
+label:    sent_14
+sentence: However the mechanisms by which pathogens compete for access to hosts are poorly understood .
+
+ppatt:
+	?a by ?b compete for ?c
+		?a: the mechanisms
+		?b: pathogens
+		?c: access to hosts
+	However ?a are poorly understood
+		?a: the mechanisms by which pathogens compete for access to hosts
+
+
+label:    sent_15
+sentence: Thus it is a limiting resource for which microbes must compete in natural habitats . Microorganisms compete , cooperate , and communicate with each other in multi-species biofilms .
+
+ppatt:
+	Thus ?a is a limiting resource
+		?a: it
+	?a for ?b must compete in ?c
+		?a: Thus a limiting resource . Microorganisms compete , cooperate , and communicate with each other in multi-species biofilms
+		?b: microbes
+		?c: natural habitats
+	?a ?b compete
+		?a: Thus a limiting resource for which microbes must compete in natural habitats
+		?b: Microorganisms
+	?a cooperate
+		?a: Microorganisms
+	?a communicate with ?b
+		?a: Microorganisms
+		?b: each other in multi-species biofilms
+
+
+label:    sent_16
+sentence: One contributing factor to overtraining may be parental pressure to compete and succeed .
+
+ppatt:
+	?a may be parental pressure
+		?a: One contributing factor to overtraining
+	?a compete
+		?a: parental pressure
+	?a succeed
+		?a: One contributing factor to overtraining
+
+
+label:    sent_17
+sentence: Vinblastine does not compete , but azidopine blocks the labeling using 3H-azidopine .
+
+ppatt:
+	?a does not compete
+		?a: Vinblastine
+	?a blocks ?b using ?c
+		?a: azidopine
+		?b: the labeling
+		?c: 3H-azidopine
+
+
+label:    sent_18
+sentence: Paradigms applied to chronic pain appear to compete and lack an integrative framework .
+
+ppatt:
+	?a applied to ?b
+		?a: Paradigms
+		?b: chronic pain
+	?a appear to compete ?b
+		?a: Paradigms applied to chronic pain
+		?b: an integrative framework
+	?a appear to lack
+		?a: Paradigms applied to chronic pain
+
+
+label:    sent_19
+sentence: An icon in distress ponders the future : compete or collaborate ? IBM .
+
+ppatt:
+	?a ponders ?b
+		?a: An icon in distress
+		?b: the future
+	?a compete ?b
+		?a: An icon in distress
+		?b: IBM
+	?a collaborate
+		?a: An icon in distress
+
+
+label:    sent_20
+sentence: Conspecifics of many animal species physically compete to gain reproductive resources and thus fitness .
+
+ppatt:
+	?a physically compete to gain ?b
+		?a: Conspecifics of many animal species
+		?b: reproductive resources
+	?a physically compete to gain ?b
+		?a: Conspecifics of many animal species
+		?b: thus fitness
+
+
+label:    sent_21
+sentence: However , this will depend on the spatial scale over which individuals compete .
+
+ppatt:
+	However , ?a will depend on ?b
+		?a: this
+		?b: the spatial scale over which individuals compete
+	?a over ?b compete
+		?a: the spatial scale
+		?b: individuals
+
+
+label:    sent_22
+sentence: These results suggest a model in which NuA4 and Rpd3 ( S ) compete .
+
+ppatt:
+	?a suggest ?b
+		?a: These results
+		?b: a model in which NuA4 and Rpd3 ( S ) compete
+	?a in ?b compete
+		?a: a model
+		?b: NuA4
+	?a in ?b compete
+		?a: a model
+		?b: Rpd3 ( S
+
+
+label:    sent_23
+sentence: Subsequent hepatic scintiscans documented compete resolution of the tumor over a 12-month period .
+
+ppatt:
+	?a documented compete ?b over ?c
+		?a: Subsequent hepatic scintiscans
+		?b: resolution of the tumor
+		?c: a 12-month period
+
+
+label:    sent_24
+sentence: [Let us compete according to individual creative plans ] . Because of thermodynamic constraints , homoacetogenesis could not compete with hydrogenotrophic methanogenesis .
+
+ppatt:
+	?a ?b compete according to ?c . Because of ?d
+		?a: [Let
+		?b: us
+		?c: individual creative plans
+		?d: thermodynamic constraints
+	?a could not compete with ?b
+		?a: homoacetogenesis
+		?b: hydrogenotrophic methanogenesis
+
+

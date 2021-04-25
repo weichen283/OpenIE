@@ -1,0 +1,322 @@
+label:    sent_1
+sentence: A single-step environmental friendly approach is employed to synthesize silver nanoparticles .
+
+ppatt:
+	?a is employed to synthesize ?b
+		?a: A single-step environmental friendly approach
+		?b: silver nanoparticles
+
+
+label:    sent_2
+sentence: Microwave protocol as an ecologically new method was used to synthesize the target compounds .
+
+ppatt:
+	?a was used to synthesize ?b
+		?a: Microwave protocol as an ecologically new method
+		?b: the target compounds
+
+
+label:    sent_3
+sentence: A facile route to synthesize silver nanoparticles in polyelectrolyte capsules .
+
+ppatt:
+	?a synthesize ?b in ?c
+		?a: A facile route
+		?b: silver nanoparticles
+		?c: polyelectrolyte capsules
+
+
+label:    sent_4
+sentence: Soluble and single-membrane-spanning enzymes called guanylyl cyclases ( GC ) synthesize cGMP .
+
+ppatt:
+	?a called guanylyl cyclases
+		?a: Soluble and single-membrane-spanning enzymes
+	?a is/are GC
+		?a: guanylyl cyclases
+	?a synthesize ?b
+		?a: Soluble and single-membrane-spanning enzymes called guanylyl cyclases
+		?b: cGMP
+
+
+label:    sent_5
+sentence: An innovative approach to synthesize highly-ordered TiO2 nanotubes .
+
+ppatt:
+	?a synthesize ?b
+		?a: An innovative approach
+		?b: highly-ordered TiO2 nanotubes
+
+
+label:    sent_6
+sentence: Though widespread in plants , urochordates are the only animals that synthesize cellulose .
+
+ppatt:
+	widespread in ?a ?b
+		?a: plants
+		?b: urochordates
+	?a are the only animals
+		?a: urochordates
+	?a synthesize ?b
+		?a: the only animals
+		?b: cellulose
+
+
+label:    sent_7
+sentence: Males are unable to synthesize VTG except after E2 treatment .
+
+ppatt:
+	?a are unable to synthesize ?b except after ?c
+		?a: Males
+		?b: VTG
+		?c: E2 treatment
+
+
+label:    sent_8
+sentence: A meta-analysis was undertaken to synthesize the enrollment rates by referral strategy .
+
+ppatt:
+	?a was undertaken to synthesize ?b by ?c
+		?a: A meta-analysis
+		?b: the enrollment rates
+		?c: referral strategy
+
+
+label:    sent_9
+sentence: These results indicate that growing oocytes are able to synthesize HSP70 after heat shock .
+
+ppatt:
+	?a indicate ?b
+		?a: These results
+		?b: SOMETHING := that growing oocytes are able to synthesize HSP70 after heat shock
+	?a are able to synthesize ?b after ?c
+		?a: growing oocytes
+		?b: HSP70
+		?c: heat shock
+
+
+label:    sent_10
+sentence: Osteoblasts synthesize bone in polarized groups of cells sealed by tight junctions .
+
+ppatt:
+	?a synthesize ?b in ?c
+		?a: Osteoblasts
+		?b: bone
+		?c: polarized groups of cells sealed by tight junctions
+	?a sealed by ?b
+		?a: cells
+		?b: tight junctions
+
+
+label:    sent_11
+sentence: Foamy viruses ( FVs ) synthesize the Pol precursor protein from a specific transcript .
+
+ppatt:
+	?a is/are FVs
+		?a: Foamy viruses
+	?a synthesize ?b from ?c
+		?a: Foamy viruses
+		?b: the Pol precursor protein
+		?c: a specific transcript
+
+
+label:    sent_12
+sentence: Plants subjected to postharvest abiotic stresses synthesize secondary metabolites with health-promoting properties .
+
+ppatt:
+	?a subjected to ?b
+		?a: Plants
+		?b: postharvest abiotic stresses
+	?a synthesize ?b
+		?a: Plants subjected to postharvest abiotic stresses
+		?b: secondary metabolites with health-promoting properties
+
+
+label:    sent_13
+sentence: Therefore , skin expresses multiple enzymes that synthesize and metabolize lipids .
+
+ppatt:
+	Therefore , ?a expresses ?b
+		?a: skin
+		?b: multiple enzymes that synthesize and metabolize lipids
+	?a synthesize ?b
+		?a: multiple enzymes
+		?b: lipids
+	?a metabolize
+		?a: that
+
+
+label:    sent_14
+sentence: The probe is easy to design and synthesize . A review was conducted to synthesize and critique studies of coping in AWC .
+
+ppatt:
+	?a is easy to design
+		?a: The probe
+	?a is easy to synthesize
+		?a: The probe
+	?a was conducted to synthesize ?b
+		?a: A review
+		?b: studies of coping in AWC
+	?a was conducted to critique
+		?a: A review
+
+
+label:    sent_15
+sentence: Keratinocytes synthesize and activate cortisol . Parathyroid cells synthesize and release endothelin-1 ( ET-1 ) . Pulmonary alveolar type II cells synthesize and secrete phospholipids and surfactant proteins .
+
+ppatt:
+	?a synthesize ?b
+		?a: Keratinocytes
+		?b: cortisol
+	?a activate
+		?a: Keratinocytes
+	?a synthesize ?b
+		?a: Parathyroid cells
+		?b: endothelin-1
+	?a release
+		?a: Parathyroid cells
+	?a is/are ET-1
+		?a: endothelin-1
+	?a synthesize ?b
+		?a: Pulmonary alveolar type II cells
+		?b: phospholipids
+	?a synthesize ?b
+		?a: Pulmonary alveolar type II cells
+		?b: surfactant proteins
+	?a secrete
+		?a: Pulmonary alveolar type II cells
+
+
+label:    sent_16
+sentence: Hepatic stellate cells are activated and synthesize connective tissue ( fibrosis ) . To synthesize cyclin-dependent kinase ( CDKs ) inhibitors and assay their antitumor activities .
+
+ppatt:
+	?a are activated . To synthesize ?b
+		?a: Hepatic stellate cells
+		?b: cyclin-dependent kinase inhibitors
+	?a synthesize ?b
+		?a: Hepatic stellate cells
+		?b: connective tissue
+	?a is/are fibrosis
+		?a: connective tissue
+	?a is/are CDKs
+		?a: cyclin-dependent kinase
+	?a are activated . To assay ?b
+		?a: Hepatic stellate cells
+		?b: their antitumor activities
+
+
+label:    sent_17
+sentence: However , humans do not have a PCS gene and do not synthesize phytochelatins .
+
+ppatt:
+	However , ?a do not have ?b
+		?a: humans
+		?b: a PCS gene
+	?a do not synthesize ?b
+		?a: humans
+		?b: phytochelatins
+
+
+label:    sent_18
+sentence: Neurons and astrocytes both synthesize retinyl esters and reduce retinal into retinol .
+
+ppatt:
+	?a synthesize ?b
+		?a: Neurons both
+		?b: retinyl esters
+	?a synthesize ?b
+		?a: astrocytes
+		?b: retinyl esters
+	?a reduce ?b into ?c
+		?a: Neurons both
+		?b: retinal
+		?c: retinol
+	?a reduce ?b into ?c
+		?a: astrocytes
+		?b: retinal
+		?c: retinol
+
+
+label:    sent_19
+sentence: We synthesize literatures from multiple disciplines and critically review the evidence for each pathway .
+
+ppatt:
+	?a synthesize ?b
+		?a: We
+		?b: literatures from multiple disciplines
+	?a critically review ?b
+		?a: We
+		?b: the evidence for each pathway
+
+
+label:    sent_20
+sentence: Pancreatic beta cells synthesize neuropeptide Y and can rapidly release peptide co-transmitters .
+
+ppatt:
+	?a synthesize ?b
+		?a: Pancreatic beta cells
+		?b: neuropeptide Y
+	?a can rapidly release ?b
+		?a: Pancreatic beta cells
+		?b: peptide co-transmitters
+
+
+label:    sent_21
+sentence: In contrast , these cells did not synthesize DNA , nor did they replicate . Airway smooth muscle cells can also synthesize 5-oxo-ETE , but to a lesser extent .
+
+ppatt:
+	In ?a , ?b did not synthesize ?c
+		?a: contrast
+		?b: these cells
+		?c: DNA
+	did ?a replicate
+		?a: they
+	?a can also synthesize ?b
+		?a: Airway smooth muscle cells
+		?b: 5-oxo-ETE
+
+
+label:    sent_22
+sentence: In particular , human keratinocytes synthesize neurotrophins and endorphins and express their receptors .
+
+ppatt:
+	In ?a , ?b synthesize ?c
+		?a: particular
+		?b: human keratinocytes
+		?c: neurotrophins
+	In ?a , ?b synthesize ?c
+		?a: particular
+		?b: human keratinocytes
+		?c: endorphins
+	?a express ?b
+		?a: human keratinocytes
+		?b: their receptors
+
+
+label:    sent_23
+sentence: A fungal nonribosomal peptide synthetase module that can synthesize thiopyrazines .
+
+ppatt:
+	?a can synthesize ?b
+		?a: A fungal nonribosomal peptide synthetase module
+		?b: thiopyrazines
+
+
+label:    sent_24
+sentence: Forearm diaphyseal fractures : which bone to synthesize first ? The data indicate that endothelial cells synthesize LTC4 from LTA4 .
+
+ppatt:
+	?a ?b synthesize first
+		?a: Forearm diaphyseal fractures
+		?b: bone
+	?a ?b indicate ?c
+		?a: Forearm diaphyseal fractures : which bone to synthesize first
+		?b: The data
+		?c: SOMETHING := endothelial cells synthesize LTC4 from LTA4
+	?a synthesize ?b from ?c
+		?a: endothelial cells
+		?b: LTC4
+		?c: LTA4
+
+

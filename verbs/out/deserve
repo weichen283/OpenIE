@@ -1,0 +1,282 @@
+label:    sent_1
+sentence: Online drug pricing tools deserve more attention .
+
+ppatt:
+	?a deserve ?b
+		?a: Online drug pricing tools
+		?b: more attention
+
+
+label:    sent_2
+sentence: The practical and biological implications of these findings deserve rigorous evaluation in clinical trials .
+
+ppatt:
+	?a deserve ?b
+		?a: The practical and biological implications of these findings
+		?b: rigorous evaluation in clinical trials
+
+
+label:    sent_3
+sentence: Associations between RTEC consumption , dietary patterns , and cognitive function deserve further study .
+
+ppatt:
+	?a deserve ?b
+		?a: Associations between RTEC consumption , dietary patterns , and cognitive function
+		?b: further study
+
+
+label:    sent_4
+sentence: These findings deserve consideration in the context of diagnosis and enrolment in clinical trials .
+
+ppatt:
+	?a deserve ?b
+		?a: These findings
+		?b: consideration in the context of diagnosis and enrolment in clinical trials
+
+
+label:    sent_5
+sentence: This species may deserve continued investigation in both experimental and therapeutic contexts .
+
+ppatt:
+	?a may deserve ?b in ?c
+		?a: This species
+		?b: continued investigation
+		?c: both experimental and therapeutic contexts
+
+
+label:    sent_6
+sentence: Currently , these characteristics deserve more attention in training in sonography . I also identify three areas in SDA research that deserve more detailed investigation .
+
+ppatt:
+	Currently , ?a deserve ?b in ?c
+		?a: these characteristics
+		?b: more attention
+		?c: training in sonography
+	?a also identify ?b
+		?a: these characteristics
+		?b: three areas in SDA research that deserve more detailed investigation
+	?a deserve ?b
+		?a: SDA research
+		?b: more detailed investigation
+
+
+label:    sent_7
+sentence: These two pools may serve unique functions and therefore deserve individual attention .
+
+ppatt:
+	?a may serve ?b
+		?a: These two pools
+		?b: unique functions
+	?a therefore deserve ?b
+		?a: These two pools
+		?b: individual attention
+
+
+label:    sent_8
+sentence: Most survivors can achieve independence and deserve aggression rehabilitation efforts .
+
+ppatt:
+	?a can achieve ?b
+		?a: Most survivors
+		?b: independence
+	?a deserve ?b
+		?a: Most survivors
+		?b: aggression rehabilitation efforts
+
+
+label:    sent_9
+sentence: The comparator antibiotics were superior to streptomycin against Y. pestis and deserve further evaluation .
+
+ppatt:
+	?a were superior to ?b
+		?a: The comparator antibiotics
+		?b: streptomycin against Y. pestis
+	?a deserve ?b
+		?a: The comparator antibiotics
+		?b: further evaluation
+
+
+label:    sent_10
+sentence: Results of the program are promising and deserve further study . Preventive regimens are common and deserve further study .
+
+ppatt:
+	?a are promising
+		?a: Results of the program
+	?a deserve ?b
+		?a: Results of the program
+		?b: further study
+	?a are common
+		?a: Preventive regimens
+	?a deserve ?b
+		?a: Preventive regimens
+		?b: further study
+
+
+label:    sent_11
+sentence: This concept and its limits deserve to be studied in greater depth .
+
+ppatt:
+	?a deserve to be studied in ?b
+		?a: This concept
+		?b: greater depth
+	?a deserve to be studied in ?b
+		?a: its limits
+		?b: greater depth
+
+
+label:    sent_12
+sentence: Combined therapies offer even broader possibilities that deserve to be fully explored .
+
+ppatt:
+	?a offer ?b
+		?a: Combined therapies
+		?b: even broader possibilities that deserve to be fully explored
+	?a deserve to be fully explored
+		?a: even broader possibilities
+
+
+label:    sent_13
+sentence: The morphological peculiarities of pneumonia in myelodepressed oncohematological patients deserve to be studied .
+
+ppatt:
+	?a deserve to be studied
+		?a: The morphological peculiarities of pneumonia in myelodepressed oncohematological patients
+
+
+label:    sent_14
+sentence: All nurses deserve the very best education and training-our patients demand it . Novel therapies deserve further investigation but remain without proven benefit to date .
+
+ppatt:
+	?a deserve ?b
+		?a: All nurses
+		?b: the very best education
+	?a deserve ?b
+		?a: All nurses
+		?b: training-our
+	?a demand ?b
+		?a: patients
+		?b: it
+	?a deserve ?b
+		?a: Novel therapies
+		?b: further investigation
+	?a remain without ?b
+		?a: Novel therapies
+		?b: proven benefit to date
+
+
+label:    sent_15
+sentence: There are many potential causes for this condition and they deserve study . Salt substitutes deserve a place at the table .
+
+ppatt:
+	There are ?a
+		?a: many potential causes for this condition
+	?a deserve ?b ?c
+		?a: they
+		?b: study
+		?c: SOMETHING := Salt substitutes deserve a place at the table
+	?a deserve ?b
+		?a: Salt substitutes
+		?b: a place at the table
+
+
+label:    sent_16
+sentence: Such drug toxicity seems to deserve greater clinical concern than opportunistic infections or neoplasms . Why women deserve privacy .
+
+ppatt:
+	?a seems to deserve ?b
+		?a: Such drug toxicity
+		?b: greater clinical concern than opportunistic infections or neoplasms
+	Why ?a deserve ?b
+		?a: women
+		?b: privacy
+
+
+label:    sent_17
+sentence: These results seem promising and deserve confirmation with further research .
+
+ppatt:
+	?a seem promising
+		?a: These results
+	?a deserve ?b
+		?a: These results
+		?b: confirmation with further research
+
+
+label:    sent_18
+sentence: Systemic abnormalities are common and deserve full evaluation before treatment .
+
+ppatt:
+	?a are common
+		?a: Systemic abnormalities
+	?a deserve ?b
+		?a: Systemic abnormalities
+		?b: full evaluation before treatment
+
+
+label:    sent_19
+sentence: TGF-beta3 mouthwashes were well tolerated and deserve further study in preventing chemotherapy-induced mucositis .
+
+ppatt:
+	?a were well tolerated
+		?a: TGF-beta3 mouthwashes
+	?a deserve ?b
+		?a: TGF-beta3 mouthwashes
+		?b: further study
+	?a preventing ?b
+		?a: TGF-beta3 mouthwashes
+		?b: chemotherapy-induced mucositis
+
+
+label:    sent_20
+sentence: Immunologic and cytotoxic drug therapies deserve further investigation but on a smaller scale .
+
+ppatt:
+	?a deserve ?b
+		?a: Immunologic and cytotoxic drug therapies
+		?b: further investigation
+	?a deserve ?b
+		?a: Immunologic and cytotoxic drug therapies
+		?b: a smaller scale
+
+
+label:    sent_21
+sentence: These factors deserve attention in CRILD/HBV+ patients , and the underlying pathogenesis warrants investigation .
+
+ppatt:
+	?a deserve ?b in ?c
+		?a: These factors
+		?b: attention
+		?c: CRILD/HBV+ patients
+	?a warrants ?b
+		?a: the underlying pathogenesis
+		?b: investigation
+
+
+label:    sent_22
+sentence: These patients indeed deserve better than allergen avoidance .
+
+ppatt:
+	?a indeed deserve ?b ?c
+		?a: These patients
+		?b: better than
+		?c: allergen avoidance
+
+
+label:    sent_23
+sentence: Patients deserve better from the NHS complaints system .
+
+ppatt:
+	?a deserve ?b
+		?a: Patients
+		?b: better from the NHS complaints system
+
+
+label:    sent_24
+sentence: Hypopigmented foci within such " black thyroid " deserve through pathologic examination .
+
+ppatt:
+	?a deserve through ?b
+		?a: Hypopigmented foci within such " black thyroid "
+		?b: pathologic examination
+
+

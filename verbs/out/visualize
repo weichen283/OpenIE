@@ -1,0 +1,307 @@
+label:    sent_1
+sentence: This study attempted to visualize the RVS with transvaginal three-dimensional ( 3D ) ultrasound .
+
+ppatt:
+	?a attempted to visualize ?b
+		?a: This study
+		?b: the RVS with transvaginal three-dimensional ultrasound
+	?a is/are 3D
+		?a: transvaginal three-dimensional
+
+
+label:    sent_2
+sentence: To visualize F-actin , fixed HEK293T cells were stained with rhodamine-phalloidin .
+
+ppatt:
+	visualize ?a ?b
+		?a: F-actin
+		?b: fixed HEK293T cells
+	?a were stained with ?b
+		?a: fixed HEK293T cells
+		?b: rhodamine-phalloidin
+
+
+label:    sent_3
+sentence: GBrowse is widely used by biologists to visualize genome annotation .
+
+ppatt:
+	?a is widely used by ?b
+		?a: GBrowse
+		?b: biologists to visualize genome annotation
+	?a visualize ?b
+		?a: biologists
+		?b: genome annotation
+
+
+label:    sent_4
+sentence: To visualize ELH after routine administration of an intravenous GBCA .
+
+ppatt:
+	visualize ?a after ?b
+		?a: ELH
+		?b: routine administration of an intravenous GBCA
+
+
+label:    sent_5
+sentence: A new technique to visualize cereal cell walls by fluorescence microscopy was developed .
+
+ppatt:
+	?a visualize ?b by ?c
+		?a: A new technique
+		?b: cereal cell walls
+		?c: fluorescence microscopy
+	?a was developed
+		?a: A new technique to visualize cereal cell walls by fluorescence microscopy
+
+
+label:    sent_6
+sentence: Colloidal gold particles were used to visualize the PPO by immunoelectron microscopy .
+
+ppatt:
+	?a were used to visualize ?b by ?c
+		?a: Colloidal gold particles
+		?b: the PPO
+		?c: immunoelectron microscopy
+
+
+label:    sent_7
+sentence: The SD-OCT fundus image can be used to visualize and quantify GA .
+
+ppatt:
+	?a can be used to visualize ?b
+		?a: The SD-OCT fundus image
+		?b: GA
+	?a can be used to quantify
+		?a: The SD-OCT fundus image
+
+
+label:    sent_8
+sentence: A variety of assays have been used to visualize and quantify chemotactic movement .
+
+ppatt:
+	?a have been used to visualize ?b
+		?a: A variety of assays
+		?b: chemotactic movement
+	?a have been used to quantify
+		?a: A variety of assays
+
+
+label:    sent_9
+sentence: CytoCom : a Cytoscape app to visualize , query and analyse disease comorbidity networks .
+
+ppatt:
+	?a visualize ?b
+		?a: a Cytoscape app
+		?b: query
+	analyse ?a
+		?a: disease comorbidity networks
+
+
+label:    sent_10
+sentence: Cardiovascular magnetic resonance ( CMR ) using T2-weighted sequences can visualize myocardial edema .
+
+ppatt:
+	?a is/are CMR
+		?a: Cardiovascular magnetic resonance using T2-weighted sequences
+	?a using ?b
+		?a: Cardiovascular magnetic resonance
+		?b: T2-weighted sequences
+	?a can visualize ?b
+		?a: Cardiovascular magnetic resonance using T2-weighted sequences
+		?b: myocardial edema
+
+
+label:    sent_11
+sentence: However , only some imaging modalities can visualize interaction between nanoparticles and living cells .
+
+ppatt:
+	However , ?a can visualize ?b
+		?a: only some imaging modalities
+		?b: interaction between nanoparticles and living cells
+
+
+label:    sent_12
+sentence: Conventional radiographic methods allow physicians to visualize bone structure .
+
+ppatt:
+	?a allow ?b to visualize ?c
+		?a: Conventional radiographic methods
+		?b: physicians
+		?c: bone structure
+
+
+label:    sent_13
+sentence: Its permits to visualize subcortical neoplasms and thus to aim them with accuracy .
+
+ppatt:
+	?a permits to visualize ?b
+		?a: Its
+		?b: subcortical neoplasms
+	?a permits to thus to aim ?b with ?c
+		?a: Its
+		?b: them
+		?c: accuracy
+
+
+label:    sent_14
+sentence: Retrofacial approach to access the posterior mesotympanum and visualize the round window . All imaging modalities were able to visualize the grafts and confirm patency .
+
+ppatt:
+	?a access ?b
+		?a: Retrofacial approach
+		?b: the posterior mesotympanum
+	?a visualize ?b
+		?a: Retrofacial approach
+		?b: the round window
+	?a ?b were able to visualize ?c
+		?a: Retrofacial approach to access the posterior mesotympanum and visualize the round window
+		?b: All imaging modalities
+		?c: the grafts
+	?a were able to confirm ?b
+		?a: Retrofacial approach to access the posterior mesotympanum and visualize the round window
+		?b: patency
+
+
+label:    sent_15
+sentence: In this paper , we directly visualize their performance using photorealistic ray-tracing simulations .
+
+ppatt:
+	In ?a , ?b directly visualize ?c using ?d
+		?a: this paper
+		?b: we
+		?c: their performance
+		?d: photorealistic ray-tracing simulations
+
+
+label:    sent_16
+sentence: We could visualize this dissection via echocardiography and computed tomography .
+
+ppatt:
+	?a could visualize ?b via ?c
+		?a: We
+		?b: this dissection
+		?c: echocardiography
+	?a could visualize ?b via ?c
+		?a: We
+		?b: this dissection
+		?c: computed tomography
+
+
+label:    sent_17
+sentence: The new endoscope could visualize the target under ultralow illumination of approximately 100 lx . OCT can visualize microstructural irregularities and perform an initial morphological analysis of the lesion .
+
+ppatt:
+	?a could visualize ?b under ?c
+		?a: The new endoscope
+		?b: the target
+		?c: ultralow illumination of approximately 100 lx
+	?a can visualize ?b
+		?a: OCT
+		?b: microstructural irregularities
+	?a perform ?b
+		?a: OCT
+		?b: an initial morphological analysis of the lesion
+
+
+label:    sent_18
+sentence: Intraoperative ultrasonographic localization may visualize nonpalpable tumors and exclude multiple tumors .
+
+ppatt:
+	?a may visualize ?b
+		?a: Intraoperative ultrasonographic localization
+		?b: nonpalpable tumors
+	?a exclude ?b
+		?a: Intraoperative ultrasonographic localization
+		?b: multiple tumors
+
+
+label:    sent_19
+sentence: Elemental maps enabled us to visualize optic tectum layers and identify cellular arrangements .
+
+ppatt:
+	?a enabled ?b to visualize ?c
+		?a: Elemental maps
+		?b: us
+		?c: optic tectum layers
+	?a enabled to identify ?b
+		?a: Elemental maps
+		?b: cellular arrangements
+
+
+label:    sent_20
+sentence: The system is applied to visualize fiber/matrix debondings or matrix crackings in CFRP plates .
+
+ppatt:
+	?a is applied to visualize ?b
+		?a: The system
+		?b: fiber/matrix debondings in CFRP plates
+	?a is applied to visualize ?b
+		?a: The system
+		?b: matrix crackings
+
+
+label:    sent_21
+sentence: However , such small cerebral vessels are difficult to visualize by using conventional methods .
+
+ppatt:
+	However , ?a are difficult to visualize
+		?a: such small cerebral vessels
+	?a using ?b
+		?a: such small cerebral vessels
+		?b: conventional methods
+
+
+label:    sent_22
+sentence: Thrombosed aneurysms are difficult to visualize with digital subtraction angiography .
+
+ppatt:
+	?a are difficult to visualize with ?b
+		?a: Thrombosed aneurysms
+		?b: digital subtraction angiography
+
+
+label:    sent_23
+sentence: The system users can retrieve and visualize health information according to their interests .
+
+ppatt:
+	?a can retrieve ?b according to ?c
+		?a: The system users
+		?b: health information
+		?c: their interests
+	?a visualize
+		?a: The system users
+
+
+label:    sent_24
+sentence: Results confirmed that the filter can visualize and nondestructively inspect the foundation distribution .
+
+ppatt:
+	?a confirmed ?b
+		?a: Results
+		?b: SOMETHING := the filter can visualize
+	?a can visualize
+		?a: the filter
+	?a nondestructively inspect ?b
+		?a: the filter
+		?b: the foundation distribution
+
+
+label:    sent_25
+sentence: Results confirm that the proposed filter could visualize and nondestructively inspect the foundation distributions . CE-MRA can visualize and localize the level of the AKA correctly .
+
+ppatt:
+	?a confirm ?b
+		?a: Results
+		?b: SOMETHING := the proposed filter could visualize
+	?a could visualize
+		?a: the proposed filter
+	?a nondestructively inspect ?b
+		?a: the proposed filter
+		?b: the foundation distributions
+	?a can visualize ?b correctly
+		?a: CE-MRA
+		?b: the level of the AKA
+	?a localize
+		?a: CE-MRA
+
+

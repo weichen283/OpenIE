@@ -1,0 +1,436 @@
+label:    sent_1
+sentence: Kinematic studies have shown that when pretending to pick up imagined objects ( pantomimed actions ) , we move and shape our hands quite differently from when grasping real ones .
+
+ppatt:
+	?a have shown ?b
+		?a: Kinematic studies
+		?b: SOMETHING := when pretending to pick up imagined objects , we move our hands quite differently from when grasping real ones
+	when pretending to pick ?a ?b
+		?a: up imagined objects
+		?b: we
+	?a is/are pantomimed actions
+		?a: up imagined objects
+	?a move ?b quite differently
+		?a: we
+		?b: our hands
+	?a shape
+		?a: we
+	?a when grasping ?b
+		?a: our hands
+		?b: real ones
+
+
+label:    sent_2
+sentence: Flexing forward to pick up an object between the feet .
+
+ppatt:
+	?a pick up ?b
+		?a: Flexing forward
+		?b: an object between the feet
+
+
+label:    sent_3
+sentence: Flexing to pick up an object lateral to the foot .
+
+ppatt:
+	?a pick up ?b to ?c
+		?a: Flexing
+		?b: an object lateral
+		?c: the foot
+
+
+label:    sent_4
+sentence: Fishes were pre-exposed in the experimental apparatus and trained to pick food from the tray in a rectangular-shaped arena .
+
+ppatt:
+	?a were pre-exposed in ?b
+		?a: Fishes
+		?b: the experimental apparatus
+	?a trained to pick ?b from ?c in ?d
+		?a: Fishes
+		?b: food
+		?c: the tray
+		?d: a rectangular-shaped arena
+
+
+label:    sent_5
+sentence: In each profile , respondents were asked to pick the best and worst attribute level from the profiles .
+
+ppatt:
+	In ?a , ?b were asked to pick ?c
+		?a: each profile
+		?b: respondents
+		?c: the best and worst attribute level from the profiles
+
+
+label:    sent_6
+sentence: In the first study , we asked patient DF to reach out and pick up a target object in the presence of obstacles placed at varying distances to the left or right of the target .
+
+ppatt:
+	In ?a , ?b asked ?c
+		?a: the first study
+		?b: we
+		?c: patient DF
+	?a reach out ?b in of ?c
+		?a: we
+		?b: a target object
+		?c: obstacles placed at varying distances to the left or right of the target
+	?a pick up
+		?a: we
+	?a placed at ?b
+		?a: obstacles
+		?b: varying distances to the left or right of the target
+
+
+label:    sent_7
+sentence: Active surveillance aims to pick out from the wide group of prostatic cancer patients those , who present sings of progressive disease , and to provide the curative treatment later , whereby harm-free lifetime will be extended .
+
+ppatt:
+	?a aims to pick out from ?b
+		?a: Active surveillance
+		?b: the wide group of prostatic cancer patients , who present sings of progressive disease
+	?a present ?b
+		?a: prostatic cancer patients
+		?b: sings of progressive disease
+	?a aims to out to provide ?b later
+		?a: Active surveillance
+		?b: the curative treatment , whereby harm-free lifetime will be extended
+	?a whereby ?b will be extended
+		?a: the curative treatment
+		?b: harm-free lifetime
+
+
+label:    sent_8
+sentence: Field walks were done to pick and voucher the plants , for taxonomical identification and storage .
+
+ppatt:
+	?a were done to pick ?b , for ?c
+		?a: Field walks
+		?b: the plants
+		?c: taxonomical identification
+	?a were done to pick ?b , for ?c
+		?a: Field walks
+		?b: the plants
+		?c: storage
+	?a were done to voucher
+		?a: Field walks
+
+
+label:    sent_9
+sentence: Current orthopaedic scores ( OJS ) in haemophilia miss mild joint impairments and only pick up severe alterations .
+
+ppatt:
+	?a is/are OJS
+		?a: Current orthopaedic scores in haemophilia
+	?a miss ?b
+		?a: Current orthopaedic scores in haemophilia
+		?b: mild joint impairments
+	?a only pick ?b
+		?a: Current orthopaedic scores in haemophilia
+		?b: up severe alterations
+
+
+label:    sent_10
+sentence: Our experiments confirm the ability of our approach to pick the important text portions .
+
+ppatt:
+	?a confirm ?b
+		?a: Our experiments
+		?b: the ability of our approach to pick the important text portions
+	?a pick ?b
+		?a: our approach
+		?b: the important text portions
+
+
+label:    sent_11
+sentence: Which implant do I pick ? A glossary of promises .
+
+ppatt:
+	?a do ?b pick ?c
+		?a: Which implant
+		?b: I
+		?c: A glossary
+	?a of promises
+		?a: Which implant
+
+
+label:    sent_12
+sentence: The clinical nurse specialist and nurse practitioner roles : room for both or take your pick ? Consortia pick up PCT savings burden .
+
+ppatt:
+	?a ?b ?c pick
+		?a: The clinical nurse specialist
+		?b: room
+		?c: your
+	?a ?b ?c pick
+		?a: nurse practitioner
+		?b: room
+		?c: your
+	?a ?b ?c pick
+		?a: The clinical nurse specialist
+		?b: take
+		?c: your
+	?a ?b ?c pick
+		?a: nurse practitioner
+		?b: take
+		?c: your
+	?a pick ?b
+		?a: Consortia
+		?b: PCT savings burden
+
+
+label:    sent_13
+sentence: The pick of the sacral flexure in the masculine pelvis is at the level of the II sacral vertebra , that of the feminine pelvis --at the level of the I sacral vertebra .
+
+ppatt:
+	?a is at the level of ?b
+		?a: The pick of the sacral flexure in the masculine pelvis
+		?b: the II sacral vertebra
+	?a is/are that of ?b --at ?c
+		?a: the II sacral vertebra
+		?b: the feminine pelvis
+		?c: the level of the I sacral vertebra
+
+
+label:    sent_14
+sentence: The PRL profile curve is flatted and there was no night pick of PRL secretion in the patients .
+
+ppatt:
+	?a is flatted
+		?a: The PRL profile curve
+	there was ?a
+		?a: no night pick of PRL secretion in the patients
+
+
+label:    sent_15
+sentence: Do children pick and choose ? Another part of the interview involved a behavioral task in which the patient was asked to walk , bend and pick up a small object .
+
+ppatt:
+	Do ?a pick
+		?a: children
+	?a choose
+		?a: children
+	?a involved ?b
+		?a: Another part of the interview
+		?b: a behavioral task in which the patient was asked to walk , bend and pick up a small object
+	?a in ?b was asked to walk
+		?a: a behavioral task
+		?b: the patient
+	?a was asked to pick up ?b
+		?a: the patient
+		?b: a small object
+
+
+label:    sent_16
+sentence: Comparing " pick and place " task in spatial Augmented Reality versus non-immersive Virtual Reality for rehabilitation setting .
+
+ppatt:
+	Comparing ?a in ?b for ?c
+		?a: " pick " task
+		?b: spatial Augmented Reality
+		?c: rehabilitation setting
+	Comparing ?a in ?b for ?c
+		?a: place
+		?b: spatial Augmented Reality
+		?c: rehabilitation setting
+	Comparing ?a in ?b for ?c
+		?a: " pick " task
+		?b: non-immersive Virtual Reality
+		?c: rehabilitation setting
+	Comparing ?a in ?b for ?c
+		?a: place
+		?b: non-immersive Virtual Reality
+		?c: rehabilitation setting
+
+
+label:    sent_17
+sentence: Hummingbird tongues pick up a liquid , calorie-dense food that can not be grasped , a physical challenge that has long inspired the study of nectar-transport mechanics .
+
+ppatt:
+	?a pick ?b
+		?a: Hummingbird tongues
+		?b: up a liquid , food that can not be grasped a physical challenge that has long inspired the study of nectar-transport mechanics
+	?a can not be grasped ?b
+		?a: up a liquid , food
+		?b: a physical challenge that has long inspired the study of nectar-transport mechanics
+	?a has long inspired ?b
+		?a: a physical challenge
+		?b: the study of nectar-transport mechanics
+
+
+label:    sent_18
+sentence: Finally , 17 cephalometric items were pick out to provide references for clinical work .
+
+ppatt:
+	Finally , ?a were pick out to provide ?b
+		?a: 17 cephalometric items
+		?b: references for clinical work
+
+
+label:    sent_19
+sentence: A salient aspect of this finding was the observation that food pick up was not blocked , showing that the FL is not necessary for this feeding step .
+
+ppatt:
+	?a was the observation ?b ?c showing ?d
+		?a: A salient aspect of this finding
+		?b: SOMETHING := food pick
+		?c: SOMETHING := up was not blocked
+		?d: SOMETHING := the FL is not necessary for this feeding step
+	?a pick
+		?a: food
+	?a up was not blocked
+		?a: A salient aspect of this finding
+	?a is not necessary for ?b
+		?a: the FL
+		?b: this feeding step
+
+
+label:    sent_20
+sentence: Specifically , it focuses on a communication service ( location-based virtual notes ) that allows hospital workers to leave short digital messages at relevant physical locations ( e.g. by a patient bed ) , so that intended colleagues can pick them up later when entering such a location .
+
+ppatt:
+	Specifically , ?a focuses on ?b
+		?a: it
+		?b: a communication service that allows hospital workers to leave short digital messages at relevant physical locations ( e.g. by a patient bed ) so that intended colleagues can pick them up later when entering such a location
+	?a is/are location-based virtual notes
+		?a: a communication service that allows hospital workers to leave short digital messages at relevant physical locations ( e.g. by a patient bed ) so that intended colleagues can pick them up later when entering such a location
+	?a allows ?b to leave ?c at ?d
+		?a: a communication service
+		?b: hospital workers
+		?c: short digital messages
+		?d: relevant physical locations ( e.g. by a patient bed
+	so that ?a can pick ?b
+		?a: intended colleagues
+		?b: them
+	?a up later when entering ?b
+		?a: intended colleagues
+		?b: such a location
+
+
+label:    sent_21
+sentence: Let employees pick their own fringe benefits ? When fitting an econometric model , it is well known that we pick up part of the idiosyncratic characteristics of the data along with the systematic relationship between dependent and explanatory variables .
+
+ppatt:
+	?a pick ?b
+		?a: employees
+		?b: their own fringe benefits
+	?a When fitting ?b
+		?a: employees
+		?b: an econometric model
+	?a is well known ?b
+		?a: it
+		?b: SOMETHING := we pick up part of the idiosyncratic characteristics of the data along with the systematic relationship between dependent and explanatory variables
+	?a pick ?b along with ?c
+		?a: we
+		?b: up part of the idiosyncratic characteristics of the data
+		?c: the systematic relationship between dependent and explanatory variables
+
+
+label:    sent_22
+sentence: Here , the ants apparently pick up odour plumes emanating from the food source and follow these by steering an upwind course until they reach the feeder .
+
+ppatt:
+	Here , ?a apparently pick ?b
+		?a: the ants
+		?b: up odour plumes emanating from the food source
+	?a emanating from ?b
+		?a: up odour plumes
+		?b: the food source
+	?a follow ?b
+		?a: the ants
+		?b: these
+	?a steering ?b
+		?a: the ants
+		?b: an upwind course
+	?a reach ?b
+		?a: they
+		?b: the feeder
+
+
+label:    sent_23
+sentence: Instead of performing an encyclopedic laundry list of tests , clinicians can pick and choose carefully among them , which maximizes efficiency and cost-effectiveness .
+
+ppatt:
+	Instead of performing ?a ?b
+		?a: an encyclopedic laundry list of tests
+		?b: clinicians
+	?a can pick among ?b
+		?a: clinicians
+		?b: them , which maximizes efficiency and cost-effectiveness
+	?a choose carefully
+		?a: clinicians
+	?a maximizes ?b
+		?a: them
+		?b: efficiency
+	?a maximizes ?b
+		?a: them
+		?b: cost-effectiveness
+
+
+label:    sent_24
+sentence: They pick up eggs at the age of 2 to 4 weeks and the metacestodes are present in the liver .
+
+ppatt:
+	?a pick ?b at ?c
+		?a: They
+		?b: up eggs
+		?c: the age of 2 4 weeks
+	?a are present in ?b
+		?a: the metacestodes
+		?b: the liver
+
+
+label:    sent_25
+sentence: The challenge we now face is how to pick the targets and how to improve the efficiency of designed partially-specific multi-target drugs that would block parallel pathways in the network .
+
+ppatt:
+	?a face
+		?a: we
+	?a now is how to pick ?b
+		?a: The challenge
+		?b: the targets
+	?a now is to how to improve ?b
+		?a: The challenge
+		?b: the efficiency of designed partially-specific multi-target drugs that would block parallel pathways in the network
+	?a would block ?b
+		?a: designed partially-specific multi-target drugs
+		?b: parallel pathways in the network
+
+
+label:    sent_26
+sentence: Lesions of the rPAG , however , greatly impaired the dams ' ability to rapidly release pups held in the mouth , but not to pick them up or carry them directly to the nest during retrieval .
+
+ppatt:
+	?a however , greatly impaired ?b
+		?a: Lesions of the rPAG
+		?b: the dams ' ability to rapidly release pups held in the mouth but not to pick them up or carry them directly to the nest during retrieval
+	?a rapidly release ?b
+		?a: the dams ' ability
+		?b: pups held in the mouth
+	?a held in ?b
+		?a: pups
+		?b: the mouth
+	not to pick ?a up
+		?a: them
+	carry ?a directly to ?b during ?c
+		?a: them
+		?b: the nest
+		?c: retrieval
+
+
+label:    sent_27
+sentence: The real issue is not whether or not to use new communication technologies , but how to pick and choose them to maximize returns on the nations ' scarce resources .
+
+ppatt:
+	?a is not whether or not to use ?b
+		?a: The real issue
+		?b: new communication technologies
+	?a is not whether or to how to pick ?b to maximize ?c on ?d
+		?a: The real issue
+		?b: them
+		?c: returns
+		?d: the nations ' scarce resources
+	?a choose
+		?a: The real issue
+
+

@@ -1,0 +1,133 @@
+label:    sent_1
+sentence: BAF downregulation also caused lamin A to mislocalize away from the nuclear envelope .
+
+ppatt:
+	?a also caused ?b to mislocalize away from ?c
+		?a: BAF downregulation
+		?b: lamin A
+		?c: the nuclear envelope
+
+
+label:    sent_2
+sentence: Of the 25 mutant proteins , 15 mislocalize at least partially to the cytoplasm . A number of Best1 mutants mislocalize in Madin-Darby canine kidney ( MDCK ) cells .
+
+ppatt:
+	Of ?a , ?b mislocalize at least partially to ?c
+		?a: the 25 mutant proteins
+		?b: 15
+		?c: the cytoplasm
+	?a mislocalize in ?b
+		?a: A number of Best1 mutants
+		?b: Madin-Darby canine kidney ( cells
+	?a is/are MDCK
+		?a: canine kidney
+
+
+label:    sent_3
+sentence: Rhesus monkeys mislocalize saccade targets flashed for 100ms around the time of a saccade .
+
+ppatt:
+	?a mislocalize ?b
+		?a: Rhesus monkeys
+		?b: saccade targets flashed for 100ms around the time of a saccade
+	?a flashed for ?b around ?c
+		?a: saccade targets
+		?b: 100ms
+		?c: the time of a saccade
+
+
+label:    sent_4
+sentence: Humans and monkeys mislocalize targets flashed around the time of a saccade .
+
+ppatt:
+	?a mislocalize ?b
+		?a: Humans
+		?b: targets flashed around the time of a saccade
+	?a mislocalize ?b
+		?a: monkeys
+		?b: targets flashed around the time of a saccade
+	?a flashed around ?b
+		?a: targets
+		?b: the time of a saccade
+
+
+label:    sent_5
+sentence: In the present work mutants which mislocalize the Mod5p-I enzyme were isolated .
+
+ppatt:
+	?a mislocalize ?b
+		?a: the present mutants
+		?b: the Mod5p-I enzyme
+	In ?a ?b were isolated
+		?a: work
+		?b: the present mutants which mislocalize the Mod5p-I enzyme
+
+
+label:    sent_6
+sentence: Various studies have shown subjects to mislocalize cutaneous stimuli in an idiosyncratic manner .
+
+ppatt:
+	?a have shown ?b
+		?a: Various studies
+		?b: subjects to mislocalize cutaneous stimuli in an idiosyncratic manner
+	?a mislocalize ?b in ?c
+		?a: subjects
+		?b: cutaneous stimuli
+		?c: an idiosyncratic manner
+
+
+label:    sent_7
+sentence: Mutations in this targeting motif mislocalize PEX2 to the cytosol .
+
+ppatt:
+	?a mislocalize ?b to ?c
+		?a: Mutations in this targeting motif
+		?b: PEX2
+		?c: the cytosol
+
+
+label:    sent_8
+sentence: Furthermore , pex5 cells mislocalize a fluorescent PTS1 reporter protein to the cytosol .
+
+ppatt:
+	Furthermore , ?a mislocalize ?b to ?c
+		?a: pex5 cells
+		?b: a fluorescent PTS1 reporter protein
+		?c: the cytosol
+
+
+label:    sent_9
+sentence: Disruption of this system causes a subset of TA proteins to mislocalize to mitochondria . PATJ missing the 6th PDZ domain was found to mislocalize away from cell contacts .
+
+ppatt:
+	?a causes ?b
+		?a: Disruption of this system
+		?b: a subset of TA proteins to mislocalize to mitochondria
+	?a mislocalize to ?b
+		?a: a subset of TA proteins
+		?b: mitochondria
+	?a missing ?b
+		?a: PATJ
+		?b: the 6th PDZ domain
+	?a was found to mislocalize away from ?b
+		?a: PATJ missing the 6th PDZ domain
+		?b: cell contacts
+
+
+label:    sent_10
+sentence: Staurosporines disrupt phosphatidylserine trafficking and mislocalize Ras proteins . HGPS cells have reduced ING1 levels that mislocalize .
+
+ppatt:
+	?a disrupt ?b
+		?a: Staurosporines
+		?b: phosphatidylserine trafficking
+	?a disrupt ?b
+		?a: Staurosporines
+		?b: mislocalize Ras proteins
+	?a have reduced ?b
+		?a: HGPS cells
+		?b: ING1 levels that mislocalize
+	?a mislocalize
+		?a: ING1 levels
+
+

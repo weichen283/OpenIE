@@ -1,0 +1,282 @@
+label:    sent_1
+sentence: Escherichia coli proteins that routinely contaminate IMAC purifications have been characterized to date .
+
+ppatt:
+	?a routinely contaminate ?b
+		?a: Escherichia coli proteins
+		?b: IMAC purifications
+	?a have been characterized to ?b
+		?a: Escherichia coli proteins that routinely contaminate IMAC purifications
+		?b: date
+
+
+label:    sent_2
+sentence: Procedures that contaminate multidose vials may accelerate transmission efficiency .
+
+ppatt:
+	?a contaminate ?b
+		?a: Procedures
+		?b: multidose vials
+	?a may accelerate ?b
+		?a: Procedures that contaminate multidose vials
+		?b: transmission efficiency
+
+
+label:    sent_3
+sentence: Perfluorinated surfactants contaminate German waters .
+
+ppatt:
+	?a contaminate ?b
+		?a: Perfluorinated surfactants
+		?b: German waters
+
+
+label:    sent_4
+sentence: However , such strategies often deteriorate or contaminate the functional carbon surfaces .
+
+ppatt:
+	However , ?a often deteriorate ?b
+		?a: such strategies
+		?b: the functional carbon surfaces
+	?a contaminate
+		?a: such strategies
+
+
+label:    sent_5
+sentence: However , Lm may survive the treatment and then contaminate food products .
+
+ppatt:
+	However , ?a may survive ?b
+		?a: Lm
+		?b: the treatment
+	?a then contaminate ?b
+		?a: Lm
+		?b: food products
+
+
+label:    sent_6
+sentence: Aluminum is a toxic element known to contaminate parenteral nutrition .
+
+ppatt:
+	?a is a toxic element
+		?a: Aluminum
+	?a known to contaminate ?b
+		?a: a toxic element
+		?b: parenteral nutrition
+
+
+label:    sent_7
+sentence: Second , personnel may contaminate the patients , but rarely do so . PMA may contaminate lymphokine preparations and can interfere with interleukin bioassays . HBCD and TBBPA contaminate the environment and are found in human blood samples .
+
+ppatt:
+	Second , ?a may contaminate ?b
+		?a: personnel
+		?b: the patients
+	?a rarely do so
+		?a: personnel
+	?a may contaminate ?b
+		?a: PMA
+		?b: lymphokine preparations
+	?a can interfere with ?b
+		?a: PMA
+		?b: interleukin bioassays
+	?a contaminate ?b
+		?a: HBCD
+		?b: the environment
+	?a contaminate ?b
+		?a: TBBPA
+		?b: the environment
+	?a are found in ?b
+		?a: HBCD
+		?b: human blood samples
+	?a are found in ?b
+		?a: TBBPA
+		?b: human blood samples
+
+
+label:    sent_8
+sentence: Motion artefact and/or poor peripheral perfusion can contaminate the PPG during monitoring .
+
+ppatt:
+	?a can contaminate ?b during ?c
+		?a: Motion artefact
+		?b: the PPG
+		?c: monitoring
+	?a can contaminate ?b during ?c
+		?a: poor peripheral perfusion
+		?b: the PPG
+		?c: monitoring
+
+
+label:    sent_9
+sentence: Because of this damage most of the eggs contaminate the perianal tract .
+
+ppatt:
+	Because of ?a ?b contaminate ?c
+		?a: this damage
+		?b: most of the eggs
+		?c: the perianal tract
+
+
+label:    sent_10
+sentence: Due to their presence in the air they can contaminate test samples .
+
+ppatt:
+	Due to ?a ?b can contaminate ?c
+		?a: their presence in the air
+		?b: they
+		?c: test samples
+
+
+label:    sent_11
+sentence: The organism is excreted in animal faeces and can contaminate water catchment areas .
+
+ppatt:
+	?a is excreted in ?b
+		?a: The organism
+		?b: animal faeces
+	?a can contaminate ?b
+		?a: The organism
+		?b: water catchment areas
+
+
+label:    sent_12
+sentence: Copper is transported to deeper soils ' horizons and can potentially contaminate groundwater .
+
+ppatt:
+	?a is transported to ?b
+		?a: Copper
+		?b: deeper soils ' horizons
+	?a can potentially contaminate ?b
+		?a: Copper
+		?b: groundwater
+
+
+label:    sent_13
+sentence: This procedure becomes error-prone between more divergent sequences and can contaminate biomolecular databases .
+
+ppatt:
+	?a becomes error-prone between ?b
+		?a: This procedure
+		?b: more divergent sequences
+	?a can contaminate ?b
+		?a: This procedure
+		?b: biomolecular databases
+
+
+label:    sent_14
+sentence: Especially worrisome is its capacity to contaminate humans in close contact with affected animals .
+
+ppatt:
+	is ?a
+		?a: its capacity to contaminate humans in close contact with affected animals
+	?a contaminate ?b in ?c
+		?a: its capacity
+		?b: humans
+		?c: close contact with affected animals
+
+
+label:    sent_15
+sentence: Naturally infected calves were allowed to contaminate 16 plots on monthly basis .
+
+ppatt:
+	?a were allowed to contaminate ?b on ?c
+		?a: Naturally infected calves
+		?b: 16 plots
+		?c: monthly basis
+
+
+label:    sent_16
+sentence: This lack is found to contaminate existing theory regarding selective attention and brain function .
+
+ppatt:
+	?a is found to contaminate ?b regarding ?c
+		?a: This lack
+		?b: existing theory
+		?c: selective attention
+	?a is found to contaminate ?b regarding ?c
+		?a: This lack
+		?b: existing theory
+		?c: brain
+	?a is found to contaminate ?b regarding ?c
+		?a: This lack
+		?b: existing theory
+		?c: function
+
+
+label:    sent_17
+sentence: Pathogens may contaminate ready-to-eat meat products after cooking but before packaging .
+
+ppatt:
+	?a may contaminate ?b after ?c
+		?a: Pathogens
+		?b: ready-to-eat meat products
+		?c: cooking
+	?a may contaminate ?b after ?c
+		?a: Pathogens
+		?b: ready-to-eat meat products
+		?c: packaging
+
+
+label:    sent_18
+sentence: Bacteria contaminate the uterus of most dairy cattle after parturition and endometritis causes infertility .
+
+ppatt:
+	?a contaminate ?b after ?c
+		?a: Bacteria
+		?b: the uterus of most dairy cattle
+		?c: parturition
+	?a contaminate ?b after ?c
+		?a: Bacteria
+		?b: the uterus of most dairy cattle
+		?c: endometritis
+	?a causes ?b
+		?a: Bacteria
+		?b: infertility
+
+
+label:    sent_19
+sentence: Biofilms trap these pathogens and can contaminate water supplies through subsequent release .
+
+ppatt:
+	?a trap ?b
+		?a: Biofilms
+		?b: these pathogens
+	?a can contaminate ?b through ?c
+		?a: Biofilms
+		?b: water supplies
+		?c: subsequent release
+
+
+label:    sent_20
+sentence: Fusarium spp. in maize can contaminate grain with mycotoxins harmful to humans and animals .
+
+ppatt:
+	?a can contaminate ?b with ?c
+		?a: Fusarium spp. in maize
+		?b: grain
+		?c: mycotoxins harmful to humans and animals
+
+
+label:    sent_21
+sentence: Fungi contaminate natural and processed olives which support AFB1 and OTA production .
+
+ppatt:
+	?a contaminate ?b
+		?a: Fungi
+		?b: natural and processed olives which support AFB1 and OTA production
+	?a support ?b
+		?a: natural and processed olives
+		?b: AFB1 and OTA production
+
+
+label:    sent_22
+sentence: TT virus does not contaminate first-generation recombinant factor VIII concentrate .
+
+ppatt:
+	?a does not contaminate
+		?a: TT virus
+	?a concentrate
+		?a: first-generation recombinant factor VIII
+
+

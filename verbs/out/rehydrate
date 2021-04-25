@@ -1,0 +1,112 @@
+label:    sent_1
+sentence: The mucilage has the ability to rehydrate after daytime dehydration .
+
+ppatt:
+	?a has ?b
+		?a: The mucilage
+		?b: the ability to rehydrate after daytime dehydration
+	?a rehydrate after ?b
+		?a: the ability
+		?b: daytime dehydration
+
+
+label:    sent_2
+sentence: The runners were not allowed to rehydrate after the race .
+
+ppatt:
+	?a were not allowed to rehydrate after ?b
+		?a: The runners
+		?b: the race
+
+
+label:    sent_3
+sentence: Between measurements , the teeth were allowed to rehydrate for 2 weeks .
+
+ppatt:
+	Between ?a , ?b were allowed to rehydrate for ?c
+		?a: measurements
+		?b: the teeth
+		?c: 2 weeks
+
+
+label:    sent_4
+sentence: Dentin-bonding systems with water as a solvent are found to rehydrate the collapsed collagen .
+
+ppatt:
+	?a are found to rehydrate ?b
+		?a: Dentin-bonding systems with water as a solvent
+		?b: the collapsed collagen
+
+
+label:    sent_5
+sentence: Using subcutaneous fluids to rehydrate older people : current practices and future challenges .
+
+ppatt:
+	Using ?a
+		?a: subcutaneous fluids
+	rehydrate ?a
+		?a: older people
+
+
+label:    sent_6
+sentence: Comparison of commercial isotonic fluids intravenously administered to rehydrate fasted bullocks .
+
+ppatt:
+	?a intravenously administered to rehydrate ?b
+		?a: commercial isotonic fluids
+		?b: fasted bullocks
+
+
+label:    sent_7
+sentence: The fully mature oocytes were rehydrate in ovaries .
+
+ppatt:
+	?a were rehydrate in ?b
+		?a: The fully mature oocytes
+		?b: ovaries
+
+
+label:    sent_8
+sentence: The dispersed secondary conidia can rehydrate and germinate normally .
+
+ppatt:
+	?a can rehydrate
+		?a: The dispersed secondary conidia
+	?a germinate normally
+		?a: The dispersed secondary conidia
+
+
+label:    sent_9
+sentence: When water again becomes available , they rapidly rehydrate and resume active life .
+
+ppatt:
+	When ?a again becomes available
+		?a: water
+	?a rapidly rehydrate ?b
+		?a: they
+		?b: active life
+	?a resume
+		?a: they
+
+
+label:    sent_10
+sentence: The proteins then rehydrate the DNA , which converts back to the B form .
+
+ppatt:
+	?a then rehydrate ?b
+		?a: The proteins
+		?b: the DNA , which converts back to the B form
+	?a converts back to ?b
+		?a: the DNA
+		?b: the B form
+
+
+label:    sent_11
+sentence: It can safely and effectively rehydrate children with acute diarrhea and dehydration .
+
+ppatt:
+	?a can safely and effectively rehydrate ?b
+		?a: It
+		?b: children with acute diarrhea and dehydration
+
+

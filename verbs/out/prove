@@ -1,0 +1,305 @@
+label:    sent_1
+sentence: Understanding school facilitators and barriers to PE should prove useful to EBPE dissemination efforts .
+
+ppatt:
+	Understanding ?a
+		?a: school facilitators
+	Understanding ?a
+		?a: barriers to PE
+	?a should prove useful to ?b
+		?a: SOMETHING := Understanding school facilitators and barriers to PE
+		?b: EBPE dissemination efforts
+
+
+label:    sent_2
+sentence: These results suggest that Rac1 may prove to be a therapeutic target .
+
+ppatt:
+	?a suggest ?b
+		?a: These results
+		?b: SOMETHING := Rac1 may prove to be a therapeutic target
+	?a may prove to be a therapeutic target
+		?a: Rac1
+
+
+label:    sent_3
+sentence: These cells will prove valuable for functional human MC studies .
+
+ppatt:
+	?a will prove valuable for ?b
+		?a: These cells
+		?b: functional human MC studies
+
+
+label:    sent_4
+sentence: In this environment , the device can prove to be large and cumbersome .
+
+ppatt:
+	In ?a , ?b can prove to be large
+		?a: this environment
+		?b: the device
+	?a can prove to be cumbersome
+		?a: the device
+
+
+label:    sent_5
+sentence: Investigation of novel penalty functions may prove fruitful in further refining psychiatric phenotypes .
+
+ppatt:
+	?a may prove fruitful
+		?a: Investigation of novel penalty functions
+	?a further refining ?b
+		?a: Investigation of novel penalty functions
+		?b: psychiatric phenotypes
+
+
+label:    sent_6
+sentence: Therefore parthenolide may prove as a useful therapy for certain cardiovascular disease .
+
+ppatt:
+	Therefore ?a may prove as ?b
+		?a: parthenolide
+		?b: a useful therapy for certain cardiovascular disease
+
+
+label:    sent_7
+sentence: These drugs need more investigation to prove their function as chemoprevention of prostatic disease .
+
+ppatt:
+	?a need ?b
+		?a: These drugs
+		?b: more investigation to prove their function as chemoprevention of prostatic disease
+	?a prove ?b
+		?a: more investigation
+		?b: their function as chemoprevention of prostatic disease
+
+
+label:    sent_8
+sentence: Too few participants used the additional bupropion-SR to prove its effectiveness .
+
+ppatt:
+	?a used ?b to prove ?c
+		?a: Too few participants
+		?b: the additional bupropion-SR
+		?c: its effectiveness
+
+
+label:    sent_9
+sentence: The Kolmogorov-Smirnov test was used to prove normal distribution .
+
+ppatt:
+	?a was used to prove normal distribution
+		?a: The Kolmogorov-Smirnov test
+
+
+label:    sent_10
+sentence: Parks are the answer : help us prove it . Psychological programmes prove as well effectiveness , if they include cognitive behaviour therapy .
+
+ppatt:
+	?a are the answer
+		?a: Parks
+	?a ?b prove ?c ?d
+		?a: the answer
+		?b: us
+		?c: it
+		?d: SOMETHING := Psychological programmes prove , if they include cognitive behaviour therapy
+	?a prove
+		?a: Psychological programmes
+	?a include ?b
+		?a: they
+		?b: cognitive behaviour therapy
+
+
+label:    sent_11
+sentence: Culture negative endocarditis and aortic root abscess can prove difficult diagnostic challenges .
+
+ppatt:
+	?a can prove difficult diagnostic challenges
+		?a: Culture negative endocarditis
+	?a can prove difficult diagnostic challenges
+		?a: aortic root abscess
+
+
+label:    sent_12
+sentence: Telemedicine have a role for Icelandic healthcare and may prove to be very useful .
+
+ppatt:
+	?a have ?b
+		?a: Telemedicine
+		?b: a role for Icelandic healthcare
+	?a may prove to be very useful
+		?a: Telemedicine
+
+
+label:    sent_13
+sentence: Nutrition support in this stage is unproven and may ultimately prove detrimental .
+
+ppatt:
+	?a is unproven
+		?a: Nutrition support in this stage
+	?a may ultimately prove detrimental
+		?a: Nutrition support in this stage
+
+
+label:    sent_14
+sentence: A therapy with L-carnitine should be undertaken , but does not always prove effective .
+
+ppatt:
+	?a should be undertaken
+		?a: A therapy with L-carnitine
+	?a does not always prove effective
+		?a: A therapy with L-carnitine
+
+
+label:    sent_15
+sentence: Whether or not they prove accurate , these ideas are an untapped psychoanalytic resource .
+
+ppatt:
+	not ?a prove accurate
+		?a: they
+	?a are an untapped psychoanalytic resource
+		?a: these ideas
+
+
+label:    sent_16
+sentence: Such complication can prove embarrassing to the surgeon and worry some for the patient .
+
+ppatt:
+	?a can prove embarrassing to ?b
+		?a: Such complication
+		?b: the surgeon
+	?a worry ?b
+		?a: Such complication
+		?b: some for the patient
+
+
+label:    sent_17
+sentence: Cardiac hypertrophy leads to heart failure , and both conditions can ultimately prove lethal .
+
+ppatt:
+	?a leads to ?b
+		?a: Cardiac hypertrophy
+		?b: heart failure
+	?a can ultimately prove lethal
+		?a: both conditions
+
+
+label:    sent_18
+sentence: Due to varying symptomatology , its diagnosis can prove difficult .
+
+ppatt:
+	Due to ?a , ?b can prove difficult
+		?a: varying symptomatology
+		?b: its diagnosis
+
+
+label:    sent_19
+sentence: We prove this in a simple , transparent manner .
+
+ppatt:
+	?a prove ?b in ?c
+		?a: We
+		?b: this
+		?c: a simple , manner
+
+
+label:    sent_20
+sentence: Numerous studies could prove their efficiency within the endodontic procedure .
+
+ppatt:
+	?a could prove ?b
+		?a: Numerous studies
+		?b: their efficiency within the endodontic procedure
+
+
+label:    sent_21
+sentence: Agents that inhibit MMP may prove useful in treating GTD .
+
+ppatt:
+	?a inhibit ?b
+		?a: Agents
+		?b: MMP
+	?a may prove useful
+		?a: Agents that inhibit MMP
+	?a treating ?b
+		?a: Agents that inhibit MMP
+		?b: GTD
+
+
+label:    sent_22
+sentence: This arises in part because the premise is so difficult to prove in people .
+
+ppatt:
+	?a arises in ?b
+		?a: This
+		?b: part
+	?a is so difficult to prove in ?b
+		?a: the premise
+		?b: people
+
+
+label:    sent_23
+sentence: Diagnosis is difficult to prove without a biopsy .
+
+ppatt:
+	?a is difficult to prove without ?b
+		?a: Diagnosis
+		?b: a biopsy
+
+
+label:    sent_24
+sentence: However , further studies are necessary to prove these biomechanical results in composite bone .
+
+ppatt:
+	However , ?a are necessary to prove ?b
+		?a: further studies
+		?b: these biomechanical results in composite bone
+
+
+label:    sent_25
+sentence: Definitive biopsies are required to prove cancer irrespective of the maxSUV value .
+
+ppatt:
+	?a are required to prove ?b irrespective of ?c
+		?a: Definitive biopsies
+		?b: cancer
+		?c: the maxSUV value
+
+
+label:    sent_26
+sentence: Mould-induced histamine release failed to prove sensitization in only two patients .
+
+ppatt:
+	?a failed to prove ?b
+		?a: Mould-induced histamine release
+		?b: sensitization in only two patients
+
+
+label:    sent_27
+sentence: All of our results are consistent with this possibility but do not prove it . These results are consistent with , but do not prove , pump electrogenicity .
+
+ppatt:
+	?a are consistent with ?b
+		?a: All of our results
+		?b: this possibility
+	?a do not prove ?b
+		?a: All of our results
+		?b: it
+	?a are consistent ?b
+		?a: These results
+		?b: with
+	?a do not prove ?b
+		?a: These results
+		?b: pump electrogenicity
+
+
+label:    sent_28
+sentence: The initial results are encouraging and clearly prove feasibility .
+
+ppatt:
+	?a are encouraging
+		?a: The initial results
+	?a clearly prove feasibility
+		?a: The initial results
+
+

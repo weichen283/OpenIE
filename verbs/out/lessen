@@ -1,0 +1,245 @@
+label:    sent_1
+sentence: Sharpen communication skills to lessen lawsuit risk .
+
+ppatt:
+	Sharpen ?a
+		?a: communication skills to lessen lawsuit risk
+	?a lessen ?b
+		?a: communication skills
+		?b: lawsuit risk
+
+
+label:    sent_2
+sentence: High pH scald was not more effective than standard scald to lessen Salmonella prevalence .
+
+ppatt:
+	?a was not more effective than ?b to lessen ?c
+		?a: High pH scald
+		?b: standard scald
+		?c: Salmonella prevalence
+
+
+label:    sent_3
+sentence: Previous vitrectomy does not appear to lessen rates of postcataract surgery MO .
+
+ppatt:
+	?a does not appear to lessen ?b
+		?a: Previous vitrectomy
+		?b: rates of postcataract surgery MO
+
+
+label:    sent_4
+sentence: Pulsed immunosuppressive dosing can lessen these risks . Peri-surgical statins lessen acute kidney injury . Uncemented prostheses may lessen this risk . Hydroquinone seems to partially lessen the acetic acid and amplify formic acid effects .
+
+ppatt:
+	?a can lessen ?b
+		?a: Pulsed immunosuppressive dosing
+		?b: these risks
+	?a lessen ?b
+		?a: Peri-surgical statins
+		?b: acute kidney injury
+	?a may lessen ?b
+		?a: Uncemented prostheses
+		?b: this risk
+	?a seems to partially lessen ?b
+		?a: Hydroquinone
+		?b: the acetic acid
+	?a seems to amplify ?b
+		?a: Hydroquinone
+		?b: formic acid effects
+
+
+label:    sent_5
+sentence: Future studies will attempt to lessen toxicity and to maximize the response rate .
+
+ppatt:
+	?a will attempt to lessen ?b
+		?a: Future studies
+		?b: toxicity
+	?a will attempt to to maximize ?b
+		?a: Future studies
+		?b: the response rate
+
+
+label:    sent_6
+sentence: Cold air may worsen asthmatic bronchoconstriction but can lessen breathlessness in normal individuals .
+
+ppatt:
+	?a may worsen ?b
+		?a: Cold air
+		?b: asthmatic bronchoconstriction
+	?a can lessen ?b
+		?a: Cold air
+		?b: breathlessness in normal individuals
+
+
+label:    sent_7
+sentence: These lessen their stress and connect them to hold on to hope . A proactive stance can lessen the pain and give the best chance of recovery .
+
+ppatt:
+	?a lessen ?b
+		?a: These
+		?b: their stress
+	?a connect ?b to hold ?c to hope
+		?a: These
+		?b: them
+		?c: on
+	?a can lessen ?b
+		?a: A proactive stance
+		?b: the pain
+	?a give ?b
+		?a: A proactive stance
+		?b: the best chance of recovery
+
+
+label:    sent_8
+sentence: Careful application of simple guidelines may lessen associated risks and improve safety .
+
+ppatt:
+	?a may lessen ?b
+		?a: Careful application of simple guidelines
+		?b: associated risks
+	?a improve ?b
+		?a: Careful application of simple guidelines
+		?b: safety
+
+
+label:    sent_9
+sentence: In conclusion , omalizumab can lessen the intensity of the symptoms of systemic MCAD .
+
+ppatt:
+	In ?a , ?b can lessen ?c
+		?a: conclusion
+		?b: omalizumab
+		?c: the intensity of the symptoms of systemic MCAD
+
+
+label:    sent_10
+sentence: In select patients , early surgical intervention may lessen attending neurologic sequelae . Mig-6 modification could lessen degenerative disease development after this type of injury . Opportunity exists to lessen overreliance on SABAs .
+
+ppatt:
+	In ?a , ?b may lessen ?c
+		?a: select patients
+		?b: early surgical intervention
+		?c: attending neurologic sequelae
+	?a could lessen ?b after ?c
+		?a: Mig-6 modification
+		?b: degenerative disease development
+		?c: this type of injury
+	?a exists to lessen ?b
+		?a: Opportunity
+		?b: overreliance on SABAs
+
+
+label:    sent_11
+sentence: Chronic l-dopa fails to lessen rebound enhancement of self-stimulation after chronic haloperidol .
+
+ppatt:
+	?a fails to lessen ?b
+		?a: Chronic l-dopa
+		?b: rebound enhancement of self-stimulation after chronic haloperidol
+
+
+label:    sent_12
+sentence: Erythropoietin ( Epo ) has potential to lessen neurologic sequelae due to hypoxia-ischemia .
+
+ppatt:
+	?a is/are Epo
+		?a: Erythropoietin
+	?a has ?b
+		?a: Erythropoietin
+		?b: potential to lessen neurologic sequelae due to hypoxia-ischemia
+	?a lessen ?b due to ?c
+		?a: potential
+		?b: neurologic sequelae
+		?c: hypoxia-ischemia
+
+
+label:    sent_13
+sentence: These effects tend to lessen with time and are not harmful .
+
+ppatt:
+	?a tend to lessen with ?b
+		?a: These effects
+		?b: time
+
+
+label:    sent_14
+sentence: Hypoxemia persisted longer , but tended to lessen after 2 days of infusion .
+
+ppatt:
+	?a persisted longer
+		?a: Hypoxemia
+	?a tended to lessen after ?b
+		?a: Hypoxemia
+		?b: 2 days of infusion
+
+
+label:    sent_15
+sentence: These differences tended to lessen by the end of the course .
+
+ppatt:
+	?a tended to lessen by ?b
+		?a: These differences
+		?b: the end of the course
+
+
+label:    sent_16
+sentence: In such patients NCPAP can lessen morbidity and can improve the quality of life .
+
+ppatt:
+	In ?a ?b can lessen ?c
+		?a: such patients
+		?b: NCPAP
+		?c: morbidity
+	?a can improve ?b
+		?a: NCPAP
+		?b: the quality of life
+
+
+label:    sent_17
+sentence: Early detection and therapeutic intervention may lessen or prevent subsequent deformities .
+
+ppatt:
+	?a may lessen ?b
+		?a: Early detection
+		?b: subsequent deformities
+	?a may lessen ?b
+		?a: therapeutic intervention
+		?b: subsequent deformities
+	?a prevent
+		?a: Early detection
+	?a prevent
+		?a: therapeutic intervention
+
+
+label:    sent_18
+sentence: The use of alternative degreasers may lessen or eliminate this hazard . Gradual ascent to allow acclimatization can lessen or prevent symptoms .
+
+ppatt:
+	?a may lessen ?b
+		?a: The use of alternative degreasers
+		?b: this hazard
+	?a eliminate
+		?a: The use of alternative degreasers
+	?a allow ?b
+		?a: Gradual ascent
+		?b: acclimatization
+	?a can lessen ?b
+		?a: Gradual ascent to allow acclimatization
+		?b: symptoms
+	?a prevent
+		?a: Gradual ascent to allow acclimatization
+
+
+label:    sent_19
+sentence: Further health care reforms should aim to lessen or even remove these barriers .
+
+ppatt:
+	?a should aim to lessen
+		?a: Further health care reforms
+	?a should aim to or even remove ?b
+		?a: Further health care reforms
+		?b: these barriers
+
+

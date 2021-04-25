@@ -1,0 +1,145 @@
+label:    sent_1
+sentence: This lack of alignment in fitness interests between plants and ants drives a conflict between them : ants can attack pollinators that cross-fertilize the host plants .
+
+ppatt:
+	?a drives ?b
+		?a: This lack of alignment in fitness interests between plants and ants
+		?b: a conflict between them
+	?a can attack ?b
+		?a: ants
+		?b: pollinators that cross-fertilize the host plants
+	?a cross-fertilize ?b
+		?a: pollinators
+		?b: the host plants
+
+
+label:    sent_2
+sentence: These excess of free radicals will attack cellular macromolecules leading to cell damage , function impairment or death .
+
+ppatt:
+	?a will attack ?b
+		?a: These excess of free radicals
+		?b: cellular macromolecules leading to cell damage
+	?a leading to ?b
+		?a: cellular macromolecules
+		?b: cell damage
+	?a function ?b
+		?a: These excess of free radicals
+		?b: impairment
+	?a function ?b
+		?a: These excess of free radicals
+		?b: death
+
+
+label:    sent_3
+sentence: However , the question as to whether PDI and PDIp can directly attack the native disulfide bonds in substrate proteins is still not answered , which is the subject of the present study .
+
+ppatt:
+	?a ?b can directly attack ?c in ?d
+		?a: the question
+		?b: PDI
+		?c: the native disulfide bonds
+		?d: substrate proteins
+	?a ?b can directly attack ?c in ?d
+		?a: the question
+		?b: PDIp
+		?c: the native disulfide bonds
+		?d: substrate proteins
+	However , ?a as ?b is still not answered ?c
+		?a: the question whether PDI and PDIp can directly attack the native disulfide bonds in substrate proteins
+		?b: to
+		?c: SOMETHING := which is the subject of the present study
+	?a is the subject of ?b
+		?a: which
+		?b: the present study
+
+
+label:    sent_4
+sentence: We then attack these constrained versions in an AL framework using an alternating minimization method , leading to algorithms that can be implemented easily .
+
+ppatt:
+	?a then attack ?b in ?c using ?d
+		?a: We
+		?b: these constrained versions
+		?c: an AL framework
+		?d: an alternating minimization method
+	?a leading to ?b
+		?a: We
+		?b: algorithms that can be implemented easily
+	?a can be implemented easily
+		?a: algorithms
+
+
+label:    sent_5
+sentence: After protonation of H ( + ) , organic ligands can attack the OH and OH ( 2 ) groups in the minerals easily , to form complexes with surface structure cations , such as Al and Fe .
+
+ppatt:
+	After ?a , ?b can attack ?c in ?d easily , to form ?e
+		?a: protonation of H
+		?b: organic ligands
+		?c: the OH and OH groups
+		?d: the minerals
+		?e: complexes with surface structure cations , such as Al and Fe
+	?a is/are 2
+		?a: OH
+
+
+label:    sent_6
+sentence: We tested whether up to 13 different monoterpenes in Scots pine were inhibitory to herbivory by slugs ( Arion ater ) , bank voles ( Clethrionomys glareolus ) , red deer ( Cervus elaphus ) and capercaillie ( Tetrao urogallus ) , each of which attack trees at a different life stage .
+
+ppatt:
+	?a tested ?b
+		?a: We
+		?b: SOMETHING := up 13 different monoterpenes in Scots pine were inhibitory to herbivory by slugs , bank voles , red deer and capercaillie , each of which attack trees at a different life stage
+	?a were inhibitory to ?b by ?c
+		?a: up 13 different monoterpenes in Scots pine
+		?b: herbivory
+		?c: slugs , each of which attack trees at a different life stage
+	?a were inhibitory to ?b by ?c
+		?a: up 13 different monoterpenes in Scots pine
+		?b: herbivory
+		?c: bank voles
+	?a were inhibitory to ?b by ?c
+		?a: up 13 different monoterpenes in Scots pine
+		?b: herbivory
+		?c: red deer
+	?a were inhibitory to ?b by ?c
+		?a: up 13 different monoterpenes in Scots pine
+		?b: herbivory
+		?c: capercaillie
+	?a is/are Arion ater
+		?a: slugs , each of which attack trees at a different life stage
+	?a is/are Arion ater
+		?a: bank voles
+	?a is/are Arion ater
+		?a: red deer
+	?a is/are Arion ater
+		?a: capercaillie
+	?a is/are Clethrionomys glareolus
+		?a: bank voles
+	?a is/are Cervus elaphus
+		?a: red deer
+	?a is/are Tetrao urogallus
+		?a: capercaillie
+	?a ?b attack ?c at ?d
+		?a: slugs
+		?b: each of which
+		?c: trees
+		?d: a different life stage
+	?a ?b attack ?c at ?d
+		?a: bank voles
+		?b: each of which
+		?c: trees
+		?d: a different life stage
+	?a ?b attack ?c at ?d
+		?a: red deer
+		?b: each of which
+		?c: trees
+		?d: a different life stage
+	?a ?b attack ?c at ?d
+		?a: capercaillie
+		?b: each of which
+		?c: trees
+		?d: a different life stage
+
+

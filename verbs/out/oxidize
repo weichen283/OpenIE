@@ -1,0 +1,315 @@
+label:    sent_1
+sentence: The capacity of laboratory-scale aerated biofilters to oxidize methane was investigated .
+
+ppatt:
+	?a oxidize ?b
+		?a: The capacity of laboratory-scale aerated biofilters
+		?b: methane
+	?a was investigated
+		?a: The capacity of laboratory-scale aerated biofilters to oxidize methane
+
+
+label:    sent_2
+sentence: Tyrosinase was able to oxidize 10-11 % of the tyrosine residues of silk gels .
+
+ppatt:
+	?a was able to oxidize ?b
+		?a: Tyrosinase
+		?b: 10-11 % of the tyrosine residues of silk gels
+
+
+label:    sent_3
+sentence: Fenton 's reagent was found to oxidize preferably biodegradable organic matter of leachate .
+
+ppatt:
+	's ?a was found to oxidize ?b
+		?a: Fenton reagent
+		?b: preferably biodegradable organic matter of leachate
+
+
+label:    sent_4
+sentence: Strain D3 was able to oxidize ammonia under anaerobic condition .
+
+ppatt:
+	?a was able to oxidize ?b under ?c
+		?a: Strain D3
+		?b: ammonia
+		?c: anaerobic condition
+
+
+label:    sent_5
+sentence: Their capacity to oxidize lactate to CO2 was not affected .
+
+ppatt:
+	?a oxidize ?b to ?c
+		?a: Their capacity
+		?b: lactate
+		?c: CO2
+	?a was not affected
+		?a: Their capacity to oxidize lactate to CO2
+
+
+label:    sent_6
+sentence: This occurred at a H2O2 concentration too low to oxidize GSH by itself .
+
+ppatt:
+	?a occurred at ?b
+		?a: This
+		?b: a H2O2 concentration too low to oxidize GSH by itself
+	oxidize ?a by ?b
+		?a: GSH
+		?b: itself
+
+
+label:    sent_7
+sentence: Reactive oxygen species ( ROS ) are harmful because they can oxidize biological macromolecules .
+
+ppatt:
+	?a is/are ROS
+		?a: Reactive oxygen species
+	?a are harmful
+		?a: Reactive oxygen species
+	?a can oxidize ?b
+		?a: they
+		?b: biological macromolecules
+
+
+label:    sent_8
+sentence: They oxidize their substrates using NAD or NADP as cofactors .
+
+ppatt:
+	?a oxidize ?b using ?c
+		?a: They
+		?b: their substrates
+		?c: NAD as cofactors
+	?a oxidize ?b using ?c
+		?a: They
+		?b: their substrates
+		?c: NADP
+
+
+label:    sent_9
+sentence: These could oxidize membrane lipids and proteins .
+
+ppatt:
+	?a could oxidize ?b
+		?a: These
+		?b: membrane lipids
+	?a could oxidize ?b
+		?a: These
+		?b: proteins
+
+
+label:    sent_10
+sentence: The luciferase can oxidize this reduced molecule with a light emission at 480 nm .
+
+ppatt:
+	?a can oxidize ?b with ?c at ?d
+		?a: The luciferase
+		?b: this reduced molecule
+		?c: a light emission
+		?d: 480 nm
+
+
+label:    sent_11
+sentence: Two different isoenzymes of ALDH have been purified which will oxidize acetaldehyde to acetate . Facts and fancies on how plants oxidize water .
+
+ppatt:
+	?a have been purified ?b
+		?a: Two different isoenzymes of ALDH
+		?b: SOMETHING := which will oxidize acetaldehyde to acetate Facts and fancies on how plants oxidize water
+	?a will oxidize ?b to ?c ?d
+		?a: which
+		?b: acetaldehyde
+		?c: acetate
+		?d: Facts
+	?a will oxidize ?b to ?c ?d
+		?a: which
+		?b: acetaldehyde
+		?c: acetate
+		?d: fancies
+	how ?a oxidize ?b
+		?a: plants
+		?b: water
+
+
+label:    sent_12
+sentence: The two isolates were non-motile and did not oxidize either acetate or lactate .
+
+ppatt:
+	?a were non-motile
+		?a: The two isolates
+	?a did not oxidize ?b
+		?a: The two isolates
+		?b: acetate
+	?a did not oxidize ?b
+		?a: The two isolates
+		?b: lactate
+
+
+label:    sent_13
+sentence: Cells were able to degrade gelatin and oxidize thiosulfate but did not reduce nitrate . IGF-1 suppressed THP-1 macrophage ability to oxidize lipids and form foam cells .
+
+ppatt:
+	?a were able to degrade ?b
+		?a: Cells
+		?b: gelatin
+	?a were able to oxidize ?b
+		?a: Cells
+		?b: thiosulfate
+	?a did not reduce ?b
+		?a: Cells
+		?b: nitrate
+	?a suppressed ?b
+		?a: IGF-1
+		?b: THP-1 macrophage ability to oxidize lipids and form foam cells
+	?a oxidize ?b
+		?a: THP-1 macrophage ability
+		?b: lipids
+	form ?a
+		?a: foam cells
+
+
+label:    sent_14
+sentence: Nitrite can oxidize dithionite-reduced NIR but can not reduce oxidized NIR .
+
+ppatt:
+	?a can oxidize ?b
+		?a: Nitrite
+		?b: dithionite-reduced NIR
+	?a can not reduce ?b
+		?a: Nitrite
+		?b: oxidized NIR
+
+
+label:    sent_15
+sentence: Horseradish peroxidase does not oxidize styrene but does oxidize 2,4,6-trimethylphenol to 2,6-dimethyl-4-hydroxymethylphenol .
+
+ppatt:
+	?a does not oxidize ?b
+		?a: Horseradish peroxidase
+		?b: styrene
+	?a does oxidize ?b to ?c
+		?a: Horseradish peroxidase
+		?b: 2,4,6-trimethylphenol
+		?c: 2,6-dimethyl-4-hydroxymethylphenol
+
+
+label:    sent_16
+sentence: Isolated mitochondria oxidize a wide variety of substrates and have high respiratory control ratios . Do first-generation highly crosslinked polyethylenes oxidize in vivo ?
+
+ppatt:
+	?a oxidize ?b
+		?a: Isolated mitochondria
+		?b: a wide variety of substrates
+	?a have ?b
+		?a: Isolated mitochondria
+		?b: high respiratory control ratios
+	Do ?a oxidize in vivo
+		?a: first-generation highly crosslinked polyethylenes
+
+
+label:    sent_17
+sentence: This function is important since DA can oxidize rapidly to form highly reactive species .
+
+ppatt:
+	?a is important
+		?a: This function
+	?a can oxidize rapidly to form ?b
+		?a: DA
+		?b: highly reactive species
+
+
+label:    sent_18
+sentence: This culture could not only rapidly oxidize dimethyl-sulphoxide but also dimethyl-sulphide .
+
+ppatt:
+	?a could not only rapidly oxidize ?b
+		?a: This culture
+		?b: dimethyl-sulphoxide
+	?a could not only rapidly oxidize ?b
+		?a: This culture
+		?b: also dimethyl-sulphide
+
+
+label:    sent_19
+sentence: Women oxidize less protein compared with men and show lower leucine oxidation during exercise .
+
+ppatt:
+	?a oxidize ?b
+		?a: Women
+		?b: less protein
+	?a compared with men
+		?a: Women
+	?a show ?b during ?c
+		?a: Women
+		?b: lower leucine oxidation
+		?c: exercise
+
+
+label:    sent_20
+sentence: A wide range of transmitters is shown to oxidize readily on the electrodes .
+
+ppatt:
+	?a is shown to oxidize readily on ?b
+		?a: A wide range of transmitters
+		?b: the electrodes
+
+
+label:    sent_21
+sentence: OSRT was shown to oxidize Gly-l-Tyr most effectively among four peptide substrates tested .
+
+ppatt:
+	?a was shown to oxidize ?b most effectively among ?c
+		?a: OSRT
+		?b: Gly-l-Tyr
+		?c: four peptide substrates tested
+	?a tested
+		?a: four peptide substrates
+
+
+label:    sent_22
+sentence: It was unable , however , to further oxidize these acetoins to diacetyl .
+
+ppatt:
+	?a was unable , however , to further oxidize ?b to ?c
+		?a: It
+		?b: these acetoins
+		?c: diacetyl
+
+
+label:    sent_23
+sentence: In addition to these effects , sulfites oxidize to sulfite radicals initiating lipid peroxidation .
+
+ppatt:
+	In ?a , ?b oxidize to ?c
+		?a: addition to these effects
+		?b: sulfites
+		?c: sulfite radicals initiating lipid peroxidation
+	?a initiating ?b
+		?a: sulfite radicals
+		?b: lipid peroxidation
+
+
+label:    sent_24
+sentence: These results demonstrate that tyrosinase can oxidize phenylhydrazides indirectly through o-quinones .
+
+ppatt:
+	?a demonstrate ?b
+		?a: These results
+		?b: SOMETHING := tyrosinase can oxidize phenylhydrazides indirectly through o-quinones
+	?a can oxidize ?b indirectly through ?c
+		?a: tyrosinase
+		?b: phenylhydrazides
+		?c: o-quinones
+
+
+label:    sent_25
+sentence: Sediment around burrows may oxidize during low tides .
+
+ppatt:
+	?a may oxidize during ?b
+		?a: Sediment around burrows
+		?b: low tides
+
+

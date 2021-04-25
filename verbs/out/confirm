@@ -1,0 +1,326 @@
+label:    sent_1
+sentence: * Further prospective studies should be performed to confirm the benefit of DHCA .
+
+ppatt:
+	?a should be performed to confirm ?b
+		?a: Further prospective studies
+		?b: the benefit of DHCA
+
+
+label:    sent_2
+sentence: A larger trial is needed to confirm this observation .
+
+ppatt:
+	?a is needed to confirm ?b
+		?a: A larger trial
+		?b: this observation
+
+
+label:    sent_3
+sentence: Randomised , prospective studies should be undertaken in order to confirm these findings .
+
+ppatt:
+	Randomised ?a
+		?a: prospective studies
+	?a should be undertaken
+		?a: prospective studies
+	?a order to confirm ?b
+		?a: prospective studies
+		?b: these findings
+
+
+label:    sent_4
+sentence: They confirm the dynamic and multidimensional nature of causal illness attributions .
+
+ppatt:
+	?a confirm ?b
+		?a: They
+		?b: the dynamic and multidimensional nature of causal illness attributions
+
+
+label:    sent_5
+sentence: Findings confirm the existence of specific pathways in PC health use .
+
+ppatt:
+	?a confirm ?b
+		?a: Findings
+		?b: the existence of specific pathways in PC health use
+
+
+label:    sent_6
+sentence: The simulation results confirm the mechanism for concentration and separation originally proposed .
+
+ppatt:
+	?a confirm ?b
+		?a: The simulation results
+		?b: the mechanism for concentration and separation originally proposed
+	?a originally proposed
+		?a: concentration
+	?a originally proposed
+		?a: separation
+
+
+label:    sent_7
+sentence: Our findings confirm that short-term HUT increases plasma adrenomedullin .
+
+ppatt:
+	?a confirm ?b
+		?a: Our findings
+		?b: SOMETHING := short-term HUT increases plasma adrenomedullin
+	?a increases ?b
+		?a: short-term HUT
+		?b: plasma adrenomedullin
+
+
+label:    sent_8
+sentence: Our data confirm that PMME is a highly aggressive disease with a poor prognosis .
+
+ppatt:
+	?a confirm ?b
+		?a: Our data
+		?b: SOMETHING := PMME is a highly aggressive disease with a poor prognosis
+	?a is a highly aggressive disease with ?b
+		?a: PMME
+		?b: a poor prognosis
+
+
+label:    sent_9
+sentence: EMSA-Western blot combination experiments confirm that YB1 is a BMP7 promoter-binding protein .
+
+ppatt:
+	?a confirm ?b
+		?a: EMSA-Western blot combination experiments
+		?b: SOMETHING := YB1 is a BMP7 promoter-binding protein
+	?a is a BMP7 promoter-binding protein
+		?a: YB1
+
+
+label:    sent_10
+sentence: DFT calculations confirm this mechanistic proposal and provide a rationale for the observed diastereoselectivity .
+
+ppatt:
+	?a confirm ?b
+		?a: DFT calculations
+		?b: this mechanistic proposal
+	?a provide ?b
+		?a: DFT calculations
+		?b: a rationale for the observed diastereoselectivity
+
+
+label:    sent_11
+sentence: Core biopsy will confirm the diagnosis and tailor subsequent management .
+
+ppatt:
+	?a will confirm ?b
+		?a: Core biopsy
+		?b: the diagnosis
+	?a tailor ?b
+		?a: Core biopsy
+		?b: subsequent management
+
+
+label:    sent_12
+sentence: These results confirm the safety and suggest a sustained effectiveness of i.m .
+
+ppatt:
+	?a confirm ?b
+		?a: These results
+		?b: the safety
+	?a suggest ?b
+		?a: These results
+		?b: a sustained effectiveness of i.m
+
+
+label:    sent_13
+sentence: Radiograph control was used to confirm postexposure pump rotor movement and detect system dislocations .
+
+ppatt:
+	?a was used to confirm ?b
+		?a: Radiograph control
+		?b: postexposure pump rotor movement
+	?a was used to detect ?b
+		?a: Radiograph control
+		?b: system dislocations
+
+
+label:    sent_14
+sentence: Further studies are needed to confirm these results and improve statistical accuracy .
+
+ppatt:
+	?a are needed to confirm ?b
+		?a: Further studies
+		?b: these results
+	?a are needed to improve ?b
+		?a: Further studies
+		?b: statistical accuracy
+
+
+label:    sent_15
+sentence: Core biopsies were reviewed to confirm the diagnosis and verify previous biopsy site .
+
+ppatt:
+	?a were reviewed to confirm ?b
+		?a: Core biopsies
+		?b: the diagnosis
+	?a were reviewed to verify ?b
+		?a: Core biopsies
+		?b: previous biopsy site
+
+
+label:    sent_16
+sentence: The preliminary results of primary prophylaxis confirm its effectiveness in preventing haemophilic arthropathy .
+
+ppatt:
+	?a confirm ?b
+		?a: The preliminary results of primary prophylaxis
+		?b: its effectiveness in preventing haemophilic arthropathy
+	?a preventing ?b
+		?a: its effectiveness
+		?b: haemophilic arthropathy
+
+
+label:    sent_17
+sentence: The findings confirm the occurrence of anaerobic local glucose metabolism early after TBI .
+
+ppatt:
+	?a confirm ?b
+		?a: The findings
+		?b: the occurrence of anaerobic local glucose metabolism early after TBI
+
+
+label:    sent_18
+sentence: In addition , we did confirm expression of the Notch-ligand Jagged-1 by keratinocytes .
+
+ppatt:
+	In ?a , ?b did confirm ?c
+		?a: addition
+		?b: we
+		?c: expression of the Notch-ligand Jagged-1 by keratinocytes
+
+
+label:    sent_19
+sentence: Further follow-up is needed to confirm fertility after TT .
+
+ppatt:
+	?a is needed to confirm ?b
+		?a: Further follow-up
+		?b: fertility after TT
+
+
+label:    sent_20
+sentence: Prospective randomized trials are needed to confirm our findings in similar settings .
+
+ppatt:
+	?a are needed to confirm ?b
+		?a: Prospective randomized trials
+		?b: our findings in similar settings
+
+
+label:    sent_21
+sentence: The SHS 2006 introduces sufficient variations to confirm its improvement from a gender perspective .
+
+ppatt:
+	?a introduces ?b to confirm ?c
+		?a: The SHS 2006
+		?b: sufficient variations
+		?c: its improvement from a gender perspective
+
+
+label:    sent_22
+sentence: The ALIAS Part 2 Trial will confirm or refute these results .
+
+ppatt:
+	?a will confirm ?b
+		?a: The ALIAS Part 2 Trial
+		?b: these results
+	?a refute
+		?a: The ALIAS Part 2 Trial
+
+
+label:    sent_23
+sentence: Results confirm and extend sex differences in maternal care with modest LGC effects .
+
+ppatt:
+	?a confirm ?b
+		?a: Results
+		?b: sex differences in maternal care with modest LGC effects
+	?a extend
+		?a: Results
+
+
+label:    sent_24
+sentence: Future studies involving larger sample sizes should confirm or refute these findings . High-quality and large-scale randomised controlled trials are needed to confirm or refute these results .
+
+ppatt:
+	?a involving ?b
+		?a: Future studies
+		?b: larger sample sizes
+	?a should confirm ?b
+		?a: Future studies involving larger sample sizes
+		?b: these findings
+	?a refute
+		?a: Future studies involving larger sample sizes
+	?a are needed to confirm ?b
+		?a: High-quality and large-scale randomised controlled trials
+		?b: these results
+	?a are needed to refute
+		?a: High-quality and large-scale randomised controlled trials
+
+
+label:    sent_25
+sentence: A further study was conducted to confirm or refute these results .
+
+ppatt:
+	?a was conducted to confirm ?b
+		?a: A further study
+		?b: these results
+	?a was conducted to refute
+		?a: A further study
+
+
+label:    sent_26
+sentence: Further studies are necessary to confirm or refute these preliminary findings .
+
+ppatt:
+	?a are necessary to confirm ?b
+		?a: Further studies
+		?b: these preliminary findings
+	?a are necessary to refute
+		?a: Further studies
+
+
+label:    sent_27
+sentence: In the present study we confirm the previous findings and report two new responses .
+
+ppatt:
+	In ?a ?b confirm ?c
+		?a: the present study
+		?b: we
+		?c: the previous findings
+	?a report ?b
+		?a: we
+		?b: two new responses
+
+
+label:    sent_28
+sentence: These methods confirm some potential risk groups for YEL-AVD and cast doubt on another .
+
+ppatt:
+	?a confirm ?b
+		?a: These methods
+		?b: some potential risk groups for YEL-AVD and cast
+
+
+label:    sent_29
+sentence: Based on this , further tests will confirm or exclude an underlying immunodeficiency .
+
+ppatt:
+	Based on this ?a
+		?a: further tests
+	?a will confirm ?b
+		?a: further tests
+		?b: an underlying immunodeficiency
+	?a exclude
+		?a: further tests
+
+

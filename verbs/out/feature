@@ -1,0 +1,49 @@
+label:    sent_1
+sentence: Penicitides A and B ( 1 and 2 ) feature a unique 10-hydroxy- or 7,10-dihydroxy-5,7-dimethylundecyl moiety substituting at C-5 of the alpha-tetrahydropyrone ring , which is not reported previously among natural products .
+
+ppatt:
+	?a feature ?b
+		?a: Penicitides
+		?b: a unique 10-hydroxy- substituting at C-5 of the alpha-tetrahydropyrone ring , which is not reported previously among natural products
+	?a feature ?b
+		?a: Penicitides
+		?b: 7,10-dihydroxy-5,7-dimethylundecyl
+	?a feature ?b
+		?a: Penicitides
+		?b: moiety
+	?a substituting at ?b
+		?a: a unique 10-hydroxy-
+		?b: C-5 of the alpha-tetrahydropyrone ring , which is not reported previously among natural products
+	?a substituting at ?b
+		?a: 7,10-dihydroxy-5,7-dimethylundecyl
+		?b: C-5 of the alpha-tetrahydropyrone ring , which is not reported previously among natural products
+	?a substituting at ?b
+		?a: moiety
+		?b: C-5 of the alpha-tetrahydropyrone ring , which is not reported previously among natural products
+	?a is not reported previously among ?b
+		?a: the alpha-tetrahydropyrone ring
+		?b: natural products
+
+
+label:    sent_2
+sentence: Pim-2 inhibitors from a recently reported high-throughput screening campaign also feature a cinnamic acid moiety .
+
+ppatt:
+	?a also feature ?b
+		?a: Pim-2 inhibitors from a recently reported high-throughput screening campaign
+		?b: a cinnamic acid moiety
+
+
+label:    sent_3
+sentence: The results feature the concept of a living network , produced actively by building relations between the health workers in the different services .
+
+ppatt:
+	?a feature ?b
+		?a: The results
+		?b: the concept of a living network , produced actively by building relations between the health workers in the different services
+	?a produced actively
+		?a: a living network
+	building ?a
+		?a: relations between the health workers in the different services
+
+

@@ -1,0 +1,309 @@
+label:    sent_1
+sentence: Our findings reinforce the need for a decentralised system capable of providing timely prophylaxis .
+
+ppatt:
+	?a reinforce ?b
+		?a: Our findings
+		?b: the need for a decentralised system capable of providing timely prophylaxis
+	providing timely ?a
+		?a: prophylaxis
+
+
+label:    sent_2
+sentence: Our data reinforce the role of ET-1 and associated signaling pathways in leiomyoma pathology .
+
+ppatt:
+	?a reinforce ?b
+		?a: Our data
+		?b: the role of ET-1 and associated signaling pathways in leiomyoma pathology
+
+
+label:    sent_3
+sentence: Drugs that reinforce any of these effects may boost the cytotoxicity of 5FU .
+
+ppatt:
+	?a reinforce ?b
+		?a: Drugs
+		?b: any of these effects
+	?a may boost ?b
+		?a: Drugs that reinforce any of these effects
+		?b: the cytotoxicity of 5FU
+
+
+label:    sent_4
+sentence: The meditation program consisted of 15 computer sessions that used biofeedback to reinforce training .
+
+ppatt:
+	?a consisted of ?b
+		?a: The meditation program
+		?b: 15 computer sessions that used biofeedback to reinforce training
+	?a used ?b to reinforce ?c
+		?a: 15 computer sessions
+		?b: biofeedback
+		?c: training
+
+
+label:    sent_5
+sentence: It has the potential to promote and reinforce collaborative relationships between clinicians and patients .
+
+ppatt:
+	?a has ?b
+		?a: It
+		?b: the potential to promote and reinforce collaborative relationships between clinicians and patients
+	?a promote ?b
+		?a: the potential
+		?b: collaborative relationships between clinicians and patients
+	reinforce ?a
+		?a: collaborative relationships between clinicians and patients
+
+
+label:    sent_6
+sentence: Thereby , it aims to improve skin care and to reinforce the best practices .
+
+ppatt:
+	Thereby , ?a aims to improve ?b
+		?a: it
+		?b: skin care
+	Thereby , ?a aims to to reinforce ?b
+		?a: it
+		?b: the best practices
+
+
+label:    sent_7
+sentence: They are used to bridge a defect or reinforce the abdominal wall .
+
+ppatt:
+	?a are used to bridge ?b
+		?a: They
+		?b: a defect
+	?a are used to reinforce ?b
+		?a: They
+		?b: the abdominal wall
+
+
+label:    sent_8
+sentence: Nurses work with patients to reinforce hospital teaching and determine the causes of exacerbation .
+
+ppatt:
+	?a work with ?b to reinforce ?c
+		?a: Nurses
+		?b: patients
+		?c: hospital teaching
+	?a determine ?b
+		?a: Nurses
+		?b: the causes of exacerbation
+
+
+label:    sent_9
+sentence: High stress jobs favour repeated smoking and further reinforce addictive behaviours .
+
+ppatt:
+	?a favour ?b
+		?a: High stress jobs
+		?b: repeated smoking
+	?a further reinforce ?b
+		?a: High stress jobs
+		?b: addictive behaviours
+
+
+label:    sent_10
+sentence: Augmentation with a surgical mesh may permanently reinforce the repair and decrease failure rates .
+
+ppatt:
+	?a may permanently reinforce ?b
+		?a: Augmentation with a surgical mesh
+		?b: the repair
+	?a may permanently reinforce ?b
+		?a: Augmentation with a surgical mesh
+		?b: decrease
+	?a may permanently reinforce ?b
+		?a: Augmentation with a surgical mesh
+		?b: failure rates
+
+
+label:    sent_11
+sentence: Local government should reinforce controls of the ceramic industry and implement effective countermeasures .
+
+ppatt:
+	?a should reinforce ?b
+		?a: Local government
+		?b: controls of the ceramic industry
+	?a implement ?b
+		?a: Local government
+		?b: effective countermeasures
+
+
+label:    sent_12
+sentence: However , reward does not equally reinforce everybody but depends on interindividual motivational dispositions .
+
+ppatt:
+	However , ?a does not equally reinforce ?b
+		?a: reward
+		?b: everybody
+	?a depends on ?b
+		?a: reward
+		?b: interindividual motivational dispositions
+
+
+label:    sent_13
+sentence: These results reinforce the potential of Sm-p80 as a viable vaccine candidate .
+
+ppatt:
+	?a reinforce ?b
+		?a: These results
+		?b: the potential of Sm-p80 as a viable vaccine candidate
+
+
+label:    sent_14
+sentence: These findings reinforce the importance of oncological follow-up after surgery of basal cell carcinoma .
+
+ppatt:
+	?a reinforce ?b
+		?a: These findings
+		?b: the importance of oncological follow-up after surgery of basal cell carcinoma
+
+
+label:    sent_15
+sentence: Our findings reinforce the role of smoking in lung carcinogenesis through oxidative stress .
+
+ppatt:
+	?a reinforce ?b
+		?a: Our findings
+		?b: the role of smoking in lung carcinogenesis through oxidative stress
+
+
+label:    sent_16
+sentence: The use of mesh to reinforce crural closure during hiatal hernia repair is controversial . A film can be used to reinforce medical education in the affective domain .
+
+ppatt:
+	?a reinforce ?b during ?c
+		?a: The use of mesh
+		?b: crural closure
+		?c: hiatal hernia repair
+	?a is controversial
+		?a: The use of mesh to reinforce crural closure during hiatal hernia repair
+	?a can be used to reinforce ?b
+		?a: A film
+		?b: medical education in the affective domain
+
+
+label:    sent_17
+sentence: The use of intra-SMAS absorbable barbed sutures to reinforce a high-vector pull during rhytidectomy .
+
+ppatt:
+	?a reinforce ?b during ?c
+		?a: The use of intra-SMAS absorbable barbed sutures
+		?b: a high-vector pull
+		?c: rhytidectomy
+
+
+label:    sent_18
+sentence: The results also reinforce concerns as to the appropriateness of present occupational exposure standards .
+
+ppatt:
+	?a also reinforce ?b
+		?a: The results
+		?b: concerns as to the appropriateness of present occupational exposure standards
+
+
+label:    sent_19
+sentence: Finally , these results reinforce that NPY increases food intake independent of diet .
+
+ppatt:
+	Finally , ?a reinforce ?b
+		?a: these results
+		?b: SOMETHING := NPY increases food intake independent of diet
+	?a increases ?b
+		?a: NPY
+		?b: food intake independent of diet
+
+
+label:    sent_20
+sentence: Construction of Bland-Altman plots reinforce that measurements have good repeatability .
+
+ppatt:
+	?a reinforce ?b
+		?a: Construction of Bland-Altman plots
+		?b: SOMETHING := measurements have good repeatability
+	?a have ?b
+		?a: measurements
+		?b: good repeatability
+
+
+label:    sent_21
+sentence: Thus , 15 additional compounds were synthesized to reinforce and confirm the correlation .
+
+ppatt:
+	Thus , ?a were synthesized to reinforce
+		?a: 15 additional compounds
+	Thus , ?a were synthesized to confirm ?b
+		?a: 15 additional compounds
+		?b: the correlation
+
+
+label:    sent_22
+sentence: Its major impact lies in its ability to help reinforce or lessen diagnostic probabilities .
+
+ppatt:
+	?a lies in ?b
+		?a: Its major impact
+		?b: its ability to help reinforce or lessen diagnostic probabilities
+	?a help
+		?a: its ability reinforce or lessen diagnostic probabilities
+	?a reinforce ?b
+		?a: its ability to help
+		?b: diagnostic probabilities
+	lessen ?a
+		?a: diagnostic probabilities
+
+
+label:    sent_23
+sentence: Recommendations were made to reinforce and strengthen this dynamic .
+
+ppatt:
+	?a were made to reinforce ?b
+		?a: Recommendations
+		?b: this dynamic
+	?a were made to strengthen
+		?a: Recommendations
+
+
+label:    sent_24
+sentence: These cues may reinforce or interfere with each other depending on their relative orientation .
+
+ppatt:
+	?a may reinforce with ?b
+		?a: These cues
+		?b: each other
+	?a interfere
+		?a: These cues
+	?a depending on ?b relative orientation
+		?a: These cues
+		?b: their
+
+
+label:    sent_25
+sentence: Health personnel should rather reinforce and support existing services .
+
+ppatt:
+	?a should rather reinforce ?b
+		?a: Health personnel
+		?b: existing services
+	?a support
+		?a: Health personnel
+
+
+label:    sent_26
+sentence: The two methods reinforce and verify the results observed with chromosome aberration analysis .
+
+ppatt:
+	?a reinforce
+		?a: The two methods
+	?a verify ?b
+		?a: The two methods
+		?b: the results observed with chromosome aberration analysis
+	?a observed with ?b
+		?a: the results
+		?b: chromosome aberration analysis
+
+

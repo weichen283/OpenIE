@@ -1,0 +1,262 @@
+label:    sent_1
+sentence: Treatments to remove or occlude DVAs are consequently unnecessary . A vascular clamp is introduced through those incisions to occlude segment 4 Glissonian sheath . Indomethacin is used to pharmacologically occlude patent ductus arteriosus in preterm infants . CP swelling by vacuolation may occlude CSF flow . Blocking diacylglycerol lipase with RHC-80267 also does not occlude muscarinic modulation of current .
+
+ppatt:
+	?a remove ?b
+		?a: Treatments
+		?b: DVAs
+	?a occlude
+		?a: Treatments
+	?a are consequently unnecessary
+		?a: Treatments to remove or occlude DVAs
+	?a is introduced through ?b to occlude ?c
+		?a: A vascular clamp
+		?b: those incisions
+		?c: segment 4 Glissonian sheath
+	?a is used to pharmacologically occlude ?b in ?c
+		?a: Indomethacin
+		?b: patent ductus arteriosus
+		?c: preterm infants
+	?a may occlude ?b
+		?a: CP swelling by vacuolation
+		?b: CSF flow
+	?a Blocking ?b with ?c
+		?a: CP swelling by vacuolation
+		?b: diacylglycerol lipase
+		?c: RHC-80267
+	?a also does not occlude ?b
+		?a: CP swelling by vacuolation
+		?b: muscarinic modulation of current
+
+
+label:    sent_2
+sentence: Effects of D2O on kinetic properties of drugs that occlude channels .
+
+ppatt:
+	?a occlude ?b
+		?a: drugs
+		?b: channels
+
+
+label:    sent_3
+sentence: We used detachable coils to occlude this aneurysm for more precise embolization .
+
+ppatt:
+	?a used ?b
+		?a: We
+		?b: detachable coils
+	?a occlude ?b for ?c
+		?a: We
+		?b: this aneurysm
+		?c: more precise embolization
+
+
+label:    sent_4
+sentence: Gelfoam was injected to occlude the fistula at its enteric opening .
+
+ppatt:
+	?a was injected to occlude ?b at ?c
+		?a: Gelfoam
+		?b: the fistula
+		?c: its enteric opening
+
+
+label:    sent_5
+sentence: This position can be demonstrated venographically to further occlude collateral vessels in thoracic outlet .
+
+ppatt:
+	?a can be demonstrated venographically to further occlude ?b
+		?a: This position
+		?b: collateral vessels in thoracic outlet
+
+
+label:    sent_6
+sentence: Fragments of atheromatous plaques may embolize and occlude arterial vessels in different organs .
+
+ppatt:
+	?a may embolize ?b
+		?a: Fragments of atheromatous plaques
+		?b: arterial vessels in different organs
+	?a occlude
+		?a: Fragments of atheromatous plaques
+
+
+label:    sent_7
+sentence: Tamoxifen also reduced Ba2+ currents but did not occlude the effect of 17 beta-estradiol .
+
+ppatt:
+	?a also reduced ?b
+		?a: Tamoxifen
+		?b: Ba2+ currents
+	?a did not occlude ?b
+		?a: Tamoxifen
+		?b: the effect of 17 beta-estradiol
+
+
+label:    sent_8
+sentence: These bubbles have the potential to occlude blood vessels and damage the vascular endothelium .
+
+ppatt:
+	?a have ?b
+		?a: These bubbles
+		?b: the potential to occlude blood vessels and damage the vascular endothelium
+	?a occlude ?b
+		?a: the potential
+		?b: blood vessels
+	?a occlude ?b
+		?a: the potential
+		?b: damage
+	?a occlude ?b
+		?a: the potential
+		?b: the vascular endothelium
+
+
+label:    sent_9
+sentence: Dentifrice containing PVM / MA could effectively occlude dentin tubules and prevent dentin erosion .
+
+ppatt:
+	?a containing ?b ?c
+		?a: Dentifrice
+		?b: PVM
+		?c: MA
+	?a could effectively occlude ?b
+		?a: Dentifrice containing PVM / MA
+		?b: dentin tubules
+	?a prevent ?b
+		?a: Dentifrice containing PVM / MA
+		?b: dentin erosion
+
+
+label:    sent_10
+sentence: Such a system applied to exposed dentine could occlude dentinal tubules and reduce sensitivity .
+
+ppatt:
+	?a applied to ?b
+		?a: Such a system
+		?b: exposed dentine
+	?a could occlude ?b
+		?a: Such a system applied to exposed dentine
+		?b: dentinal tubules
+	?a reduce ?b
+		?a: Such a system applied to exposed dentine
+		?b: sensitivity
+
+
+label:    sent_11
+sentence: Rods can occlude neurites and block vesicle transport .
+
+ppatt:
+	?a can occlude ?b
+		?a: Rods
+		?b: neurites
+	?a block ?b
+		?a: Rods
+		?b: vesicle transport
+
+
+label:    sent_12
+sentence: In the hemolytic-uremic syndrome , platelet-fibrin thrombi occlude predominantly the renal circulation .
+
+ppatt:
+	In ?a , ?b occlude predominantly ?c
+		?a: the hemolytic-uremic syndrome
+		?b: platelet-fibrin thrombi
+		?c: the renal circulation
+
+
+label:    sent_13
+sentence: Polymorphonuclear leukocytes occlude capillaries following middle cerebral artery occlusion and reperfusion in baboons .
+
+ppatt:
+	?a occlude ?b following ?c
+		?a: Polymorphonuclear leukocytes
+		?b: capillaries
+		?c: middle cerebral artery occlusion in baboons
+	?a occlude ?b following ?c
+		?a: Polymorphonuclear leukocytes
+		?b: capillaries
+		?c: reperfusion
+
+
+label:    sent_14
+sentence: We therefore occlude all significant collaterals during cardiac catheterization .
+
+ppatt:
+	?a therefore occlude ?b during ?c
+		?a: We
+		?b: all significant collaterals
+		?c: cardiac catheterization
+
+
+label:    sent_15
+sentence: On the contrary , grafts to endarterectomized vessels occlude more frequently . Perforated SVGs frequently occlude within 2 years post PCI .
+
+ppatt:
+	On ?a , ?b occlude more frequently
+		?a: the contrary
+		?b: grafts to endarterectomized vessels
+	?a frequently occlude within ?b post ?c
+		?a: Perforated SVGs
+		?b: 2 years
+		?c: PCI
+
+
+label:    sent_16
+sentence: The stenosed bilateral MCA may occlude within one to three years without intervention .
+
+ppatt:
+	?a may occlude within ?b
+		?a: The stenosed bilateral MCA
+		?b: one three years
+
+
+label:    sent_17
+sentence: A fully biodegradable patent ductus arteriosus occlude .
+
+ppatt:
+	?a occlude
+		?a: A fully biodegradable patent ductus arteriosus
+
+
+label:    sent_18
+sentence: When standard access sites occlude , unconventional access methods become necessary . Satisfactory vein grafts do not commonly occlude unless inadequate inflow or outflow exists .
+
+ppatt:
+	When ?a occlude
+		?a: standard access sites
+	?a become necessary
+		?a: unconventional access methods
+	?a do not commonly occlude
+		?a: Satisfactory vein grafts
+	?a exists
+		?a: inadequate inflow
+	?a exists
+		?a: outflow
+
+
+label:    sent_19
+sentence: Unfortunately , these stents tend to occlude with time .
+
+ppatt:
+	Unfortunately , ?a tend to occlude with ?b
+		?a: these stents
+		?b: time
+
+
+label:    sent_20
+sentence: Close to one-fifth of aneurysms , however , fail to occlude after PED placement .
+
+ppatt:
+	Close to ?a , however , fail to occlude after ?b
+		?a: one-fifth of aneurysms
+		?b: PED placement
+
+
+label:    sent_21
+sentence: One artery went on to occlude asymptomatically .
+
+ppatt:
+	?a went on to occlude asymptomatically
+		?a: One artery
+
+

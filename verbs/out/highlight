@@ -1,0 +1,304 @@
+label:    sent_1
+sentence: Finally , the authors highlight uses of the comparative table within multiple settings .
+
+ppatt:
+	Finally , ?a highlight ?b
+		?a: the authors
+		?b: uses of the comparative table within multiple settings
+
+
+label:    sent_2
+sentence: Several reports highlight the relationship between blood NK cytotoxic activity and life style .
+
+ppatt:
+	?a highlight ?b
+		?a: Several reports
+		?b: the relationship between blood NK cytotoxic activity and life style
+
+
+label:    sent_3
+sentence: These observations highlight the variable use of a common signalling module in filamentous fungi .
+
+ppatt:
+	?a highlight ?b
+		?a: These observations
+		?b: the variable use of a common signalling module in filamentous fungi
+
+
+label:    sent_4
+sentence: We briefly review the other available data and highlight the need for future work .
+
+ppatt:
+	?a briefly review ?b
+		?a: We
+		?b: the other available data
+	?a highlight ?b
+		?a: We
+		?b: the need for future work
+
+
+label:    sent_5
+sentence: It enables to highlight conserved gene signatures between multiple independent studies .
+
+ppatt:
+	?a enables to highlight ?b between ?c
+		?a: It
+		?b: conserved gene signatures
+		?c: multiple independent studies
+
+
+label:    sent_6
+sentence: A brief case is used to highlight the variable presentation of PRES .
+
+ppatt:
+	?a is used to highlight ?b
+		?a: A brief case
+		?b: the variable presentation of PRES
+
+
+label:    sent_7
+sentence: Our results highlight the peculiarities of fullerenes as guests in molecular recognition .
+
+ppatt:
+	?a highlight ?b
+		?a: Our results
+		?b: the peculiarities of fullerenes as guests in molecular recognition
+
+
+label:    sent_8
+sentence: In the current study we highlight the involvement of PARP during D. discoideum development .
+
+ppatt:
+	In ?a ?b highlight ?c
+		?a: the current study
+		?b: we
+		?c: the involvement of PARP during D. discoideum development
+
+
+label:    sent_9
+sentence: Results highlight the bioSiC potential as component of medicated medical devices .
+
+ppatt:
+	?a highlight ?b
+		?a: Results
+		?b: the bioSiC potential as component of medicated medical devices
+
+
+label:    sent_10
+sentence: We further highlight major challenges and promises in this area .
+
+ppatt:
+	?a further highlight ?b
+		?a: We
+		?b: major challenges
+	?a promises in ?b
+		?a: We
+		?b: this area
+
+
+label:    sent_11
+sentence: Genome-scale techniques highlight the epigenome and redefine fundamental principles of gene regulation .
+
+ppatt:
+	?a highlight ?b
+		?a: Genome-scale techniques
+		?b: the epigenome
+	?a redefine ?b
+		?a: Genome-scale techniques
+		?b: fundamental principles of gene regulation
+
+
+label:    sent_12
+sentence: This article will highlight the technique and results associated with fallopian tube embolization .
+
+ppatt:
+	?a will highlight ?b
+		?a: This article
+		?b: the technique associated with fallopian tube embolization
+	?a will highlight ?b
+		?a: This article
+		?b: results
+	?a associated with ?b
+		?a: the technique
+		?b: fallopian tube embolization
+	?a associated with ?b
+		?a: results
+		?b: fallopian tube embolization
+
+
+label:    sent_13
+sentence: Here we summarise the progress to date and highlight topics for future research .
+
+ppatt:
+	Here ?a summarise ?b
+		?a: we
+		?b: the progress to date
+	?a date
+		?a: the progress
+	?a highlight ?b
+		?a: we
+		?b: topics for future research
+
+
+label:    sent_14
+sentence: We present several cases that highlight these issues and review the relevant forensic literature .
+
+ppatt:
+	?a present ?b
+		?a: We
+		?b: several cases that highlight these issues and review the relevant forensic literature
+	?a highlight ?b
+		?a: several cases
+		?b: these issues
+	?a review ?b
+		?a: that
+		?b: the relevant forensic literature
+
+
+label:    sent_15
+sentence: These QSTRs are different enough and highlight opposite influences of certain descriptors on toxicity . Our data highlight that non-MenB meningococcal isolates also harbor fHBP .
+
+ppatt:
+	?a are different enough
+		?a: These QSTRs
+	?a highlight ?b
+		?a: These QSTRs
+		?b: opposite influences of certain descriptors on toxicity
+	?a highlight ?b
+		?a: Our data
+		?b: SOMETHING := non-MenB meningococcal isolates also harbor fHBP
+	?a also harbor ?b
+		?a: non-MenB meningococcal isolates
+		?b: fHBP
+
+
+label:    sent_16
+sentence: Our data also highlight that immunohistochemistry improves detection of neurons expressing YFP .
+
+ppatt:
+	?a also highlight ?b
+		?a: Our data
+		?b: SOMETHING := immunohistochemistry improves detection of neurons expressing YFP
+	?a improves ?b
+		?a: immunohistochemistry
+		?b: detection of neurons expressing YFP
+	?a expressing ?b
+		?a: neurons
+		?b: YFP
+
+
+label:    sent_17
+sentence: These results highlight the rich functional heterogeneity that exists within right VLPFC .
+
+ppatt:
+	?a highlight ?b
+		?a: These results
+		?b: the rich functional heterogeneity that exists within right VLPFC
+	?a exists within ?b
+		?a: the rich functional heterogeneity
+		?b: right VLPFC
+
+
+label:    sent_18
+sentence: Active research is ongoing to highlight more on the etiopathogenesis of this entity .
+
+ppatt:
+	?a is ongoing to highlight ?b on ?c
+		?a: Active research
+		?b: more
+		?c: the etiopathogenesis of this entity
+
+
+label:    sent_19
+sentence: To highlight complexities in defining vitamin D sufficiency in children .
+
+ppatt:
+	highlight ?a
+		?a: complexities in defining vitamin D sufficiency in children
+	?a defining ?b
+		?a: complexities
+		?b: vitamin D sufficiency in children
+
+
+label:    sent_20
+sentence: This review aims to highlight the agents furthest along in their development .
+
+ppatt:
+	?a aims to highlight ?b
+		?a: This review
+		?b: the agents furthest along in their development
+
+
+label:    sent_21
+sentence: In this report , we highlight these events and the main themes we identified .
+
+ppatt:
+	In ?a , ?b highlight ?c
+		?a: this report
+		?b: we
+		?c: these events
+	In ?a , ?b highlight ?c
+		?a: this report
+		?b: we
+		?c: the main themes
+	?a identified
+		?a: we
+
+
+label:    sent_22
+sentence: In this article , we highlight these challenges and discuss potential solutions .
+
+ppatt:
+	In ?a , ?b highlight ?c
+		?a: this article
+		?b: we
+		?c: these challenges
+	?a discuss ?b
+		?a: we
+		?b: potential solutions
+
+
+label:    sent_23
+sentence: The cases highlight management principles in these injuries , and treatment options are discussed .
+
+ppatt:
+	?a highlight ?b
+		?a: The cases
+		?b: management principles in these injuries
+	?a are discussed
+		?a: treatment options
+
+
+label:    sent_24
+sentence: Chemical ecology of marine organisms is the highlight of chemical ecology in recent years .
+
+ppatt:
+	?a is the highlight of ?b in ?c
+		?a: Chemical ecology of marine organisms
+		?b: chemical ecology
+		?c: recent years
+
+
+label:    sent_25
+sentence: In addition , these findings highlight how behavioral states can affect basal ganglia interactions . [New highlight of acute interstitial pneumonia ] . We identified 105 articles for full review and highlight 5 articles in our report .
+
+ppatt:
+	In ?a , ?b highlight ?c
+		?a: addition
+		?b: these findings
+		?c: SOMETHING := how behavioral states can affect basal ganglia interactions
+	how ?a can affect ?b
+		?a: behavioral states
+		?b: basal ganglia interactions
+	?a highlight of ?b
+		?a: [New
+		?b: acute interstitial pneumonia ]
+	?a identified ?b
+		?a: We
+		?b: 105 articles for full review
+	?a highlight ?b in ?c
+		?a: We
+		?b: 5 articles
+		?c: our report
+
+

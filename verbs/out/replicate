@@ -1,0 +1,323 @@
+label:    sent_1
+sentence: The eZLS demonstrated the ability to replicate reduced gravity environments .
+
+ppatt:
+	?a demonstrated ?b
+		?a: The eZLS
+		?b: the ability to replicate reduced gravity environments
+	?a replicate ?b
+		?a: the ability
+		?b: reduced gravity environments
+
+
+label:    sent_2
+sentence: A Windows-based software program using NWHC to replicate a dual-beam timing gate was created .
+
+ppatt:
+	?a using ?b
+		?a: A Windows-based software program
+		?b: NWHC
+	?a replicate ?b
+		?a: A Windows-based software program
+		?b: a dual-beam timing gate
+	?a was created
+		?a: A Windows-based software program using NWHC to replicate a dual-beam timing gate
+
+
+label:    sent_3
+sentence: Further studies are required to replicate these findings .
+
+ppatt:
+	?a are required to replicate ?b
+		?a: Further studies
+		?b: these findings
+
+
+label:    sent_4
+sentence: It is possible to isolate mutants that grow and replicate outside prey bacteria .
+
+ppatt:
+	?a is possible to isolate ?b
+		?a: It
+		?b: mutants that grow and replicate outside prey bacteria
+	?a grow
+		?a: mutants
+	?a replicate outside ?b
+		?a: that
+		?b: prey bacteria
+
+
+label:    sent_5
+sentence: Such mice can be used to study human pathogens that replicate in leukocytes .
+
+ppatt:
+	?a can be used to study ?b
+		?a: Such mice
+		?b: human pathogens that replicate in leukocytes
+	?a replicate in ?b
+		?a: human pathogens
+		?b: leukocytes
+
+
+label:    sent_6
+sentence: Experiments to test quenching efficiency were performed in replicate using Escherichia coli lysate .
+
+ppatt:
+	?a test ?b
+		?a: Experiments
+		?b: quenching efficiency
+	?a were performed in replicate using ?b
+		?a: Experiments to test quenching efficiency
+		?b: Escherichia coli lysate
+
+
+label:    sent_7
+sentence: Both minicircles and maxicircles replicate from specific replication origins by unidirectional theta-type intermediates .
+
+ppatt:
+	?a replicate from ?b by ?c
+		?a: minicircles
+		?b: specific replication origins
+		?c: unidirectional theta-type intermediates
+	?a replicate from ?b by ?c
+		?a: maxicircles
+		?b: specific replication origins
+		?c: unidirectional theta-type intermediates
+
+
+label:    sent_8
+sentence: Unlike dormant spores of P. dendritiformis , the cocci replicate .
+
+ppatt:
+	Unlike ?a , ?b replicate
+		?a: dormant spores of P. dendritiformis
+		?b: the cocci
+
+
+label:    sent_9
+sentence: These viruses replicate selectively in cells with activation of the Wnt pathway .
+
+ppatt:
+	?a replicate selectively in ?b
+		?a: These viruses
+		?b: cells with activation of the Wnt pathway
+
+
+label:    sent_10
+sentence: However , two follow-up studies could not replicate this association . I replicate the test with data from England and Wales .
+
+ppatt:
+	However , ?a could not replicate ?b
+		?a: two follow-up studies
+		?b: this association
+	?a replicate ?b
+		?a: two follow-up studies
+		?b: the test with data from England and Wales
+
+
+label:    sent_11
+sentence: We did not replicate the previously identified association with rs12861247 .
+
+ppatt:
+	?a did not replicate ?b
+		?a: We
+		?b: the previously identified association with rs12861247
+
+
+label:    sent_12
+sentence: The aim of the study was to replicate the previous findings in this area .
+
+ppatt:
+	?a was to replicate ?b
+		?a: The aim of the study
+		?b: the previous findings in this area
+
+
+label:    sent_13
+sentence: To replicate this association in an independent population with a different genetic background .
+
+ppatt:
+	replicate ?a in ?b
+		?a: this association
+		?b: an independent population with a different genetic background
+
+
+label:    sent_14
+sentence: The 8-mg DST seems to replicate by large the results of the 1-mg DST .
+
+ppatt:
+	?a seems to replicate by ?b
+		?a: The 8-mg DST
+		?b: large the results of the 1-mg DST
+
+
+label:    sent_15
+sentence: Further research is needed to replicate and expand upon these findings . Our aim was to replicate and extend these promising findings .
+
+ppatt:
+	?a is needed to replicate upon ?b
+		?a: Further research
+		?b: these findings
+	?a is needed to expand
+		?a: Further research
+	?a was to replicate ?b
+		?a: Our aim
+		?b: these promising findings
+	?a was to extend
+		?a: Our aim
+
+
+label:    sent_16
+sentence: Future MCMI-III studies with the Amish are needed to replicate and generalize our findings .
+
+ppatt:
+	?a are needed to replicate ?b
+		?a: Future MCMI-III studies with the Amish
+		?b: our findings
+	?a are needed to generalize
+		?a: Future MCMI-III studies with the Amish
+
+
+label:    sent_17
+sentence: We discuss the various possibilities to enrich and to replicate this program .
+
+ppatt:
+	?a discuss ?b
+		?a: We
+		?b: the various possibilities to enrich and to replicate this program
+	?a enrich
+		?a: the various possibilities
+	replicate ?a
+		?a: this program
+
+
+label:    sent_18
+sentence: Further studies are necessary to replicate our results and understand the mechanism .
+
+ppatt:
+	?a are necessary to replicate ?b
+		?a: Further studies
+		?b: our results
+	?a are necessary to understand ?b
+		?a: Further studies
+		?b: the mechanism
+
+
+label:    sent_19
+sentence: Sample preparation composite and replicate strategy for assay of solid oral drug products .
+
+ppatt:
+	?a ?b composite
+		?a: Sample
+		?b: preparation
+	?a replicate ?b
+		?a: preparation
+		?b: strategy for assay of solid oral drug products
+
+
+label:    sent_20
+sentence: Oncolytic adenoviruses replicate selectively within and lyse malignant cells .
+
+ppatt:
+	?a replicate selectively ?b
+		?a: Oncolytic adenoviruses
+		?b: within malignant cells
+	?a lyse
+		?a: Oncolytic adenoviruses
+
+
+label:    sent_21
+sentence: Oncolytic adenoviruses preferentially replicate in and lyse tumor cells .
+
+ppatt:
+	?a preferentially replicate ?b ?c
+		?a: Oncolytic adenoviruses
+		?b: in
+		?c: tumor cells
+	?a lyse
+		?a: Oncolytic adenoviruses
+
+
+label:    sent_22
+sentence: C2C12 cells replicate as myoblasts but can be differentiated into myotubes .
+
+ppatt:
+	?a replicate as ?b
+		?a: C2C12 cells
+		?b: myoblasts
+	?a can be differentiated into ?b
+		?a: C2C12 cells
+		?b: myotubes
+
+
+label:    sent_23
+sentence: In contrast , ADV-G replicates in CrFK cells but does not replicate in mink .
+
+ppatt:
+
+
+
+label:    sent_24
+sentence: The mutant survived intracellularly but did not replicate in the phagolysosome .
+
+ppatt:
+	?a survived intracellularly
+		?a: The mutant
+	?a did not replicate in ?b
+		?a: The mutant
+		?b: the phagolysosome
+
+
+label:    sent_25
+sentence: The present results indicate that influenza virus may persist and replicate in placental cells .
+
+ppatt:
+	?a indicate ?b
+		?a: The present results
+		?b: SOMETHING := influenza virus may persist in placental cells
+	?a may persist in ?b
+		?a: influenza virus
+		?b: placental cells
+	?a replicate
+		?a: influenza virus
+
+
+label:    sent_26
+sentence: These associations replicate or resemble findings reported in other African and European populations .
+
+ppatt:
+	?a replicate ?b
+		?a: These associations
+		?b: findings reported in other African and European populations
+	?a resemble
+		?a: These associations
+	?a reported in ?b
+		?a: findings
+		?b: other African and European populations
+
+
+label:    sent_27
+sentence: These findings replicate and extend findings from previous studies .
+
+ppatt:
+	?a replicate ?b
+		?a: These findings
+		?b: findings from previous studies
+	?a extend
+		?a: These findings
+
+
+label:    sent_28
+sentence: Three studies reported in this article replicate and extend past CSSES research .
+
+ppatt:
+	?a reported in ?b
+		?a: Three studies
+		?b: this article
+	?a replicate
+		?a: Three studies reported in this article
+	?a extend ?b
+		?a: Three studies reported in this article
+		?b: past CSSES research
+
+

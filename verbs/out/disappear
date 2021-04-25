@@ -1,0 +1,313 @@
+label:    sent_1
+sentence: At the same time , cold climate species of Euro-Siberian and Palaearctic origin disappear .
+
+ppatt:
+	At ?a , ?b disappear
+		?a: the same time
+		?b: cold climate species of Euro-Siberian and Palaearctic origin
+
+
+label:    sent_2
+sentence: This mass did not disappear on urinary bladder decompression .
+
+ppatt:
+	?a did not disappear on ?b
+		?a: This mass
+		?b: urinary bladder decompression
+
+
+label:    sent_3
+sentence: Signs and symptoms of adverse effects usually disappear on stopping the medicine .
+
+ppatt:
+	?a usually disappear
+		?a: Signs of adverse effects
+	?a usually disappear
+		?a: symptoms
+	?a stopping ?b
+		?a: Signs of adverse effects
+		?b: the medicine
+	?a stopping ?b
+		?a: symptoms
+		?b: the medicine
+
+
+label:    sent_4
+sentence: It is likely to disappear in the complete basis set limit .
+
+ppatt:
+	?a is likely to disappear in ?b
+		?a: It
+		?b: the complete basis set limit
+
+
+label:    sent_5
+sentence: Vortices are found to disappear as a prelude to final thermalization .
+
+ppatt:
+	?a are found to disappear as ?b
+		?a: Vortices
+		?b: a prelude to final thermalization
+
+
+label:    sent_6
+sentence: Compound 1 was found to rapidly disappear from plasma ( t/2 =0.36 min ) . Do adolescent developmental issues disappear overnight ? These disappear when the exponent is larger than one . PLLA biodegradable ACL screws eventually disappear completely .
+
+ppatt:
+	?a was found to rapidly disappear from ?b
+		?a: Compound 1
+		?b: plasma
+	?a is/are t/2 =0.36 min
+		?a: plasma
+	Do ?a
+		?a: adolescent developmental issues
+	?a disappear overnight
+		?a: adolescent developmental issues
+	?a disappear
+		?a: These
+	when ?a is larger than ?b
+		?a: the exponent
+		?b: one
+	?a eventually disappear completely
+		?a: PLLA biodegradable ACL screws
+
+
+label:    sent_7
+sentence: These usually disappear with age and do not require any treatment .
+
+ppatt:
+	?a usually disappear with ?b
+		?a: These
+		?b: age
+	?a do not require ?b
+		?a: These
+		?b: any treatment
+
+
+label:    sent_8
+sentence: They disappear with growth and there is no complication .
+
+ppatt:
+	?a disappear with ?b
+		?a: They
+		?b: growth
+	there is ?a
+		?a: no complication
+
+
+label:    sent_9
+sentence: In Hashimoto 's thyroiditis , crystals disappear but occasionally remain with giant cell reaction .
+
+ppatt:
+	In 's ?a , ?b disappear
+		?a: Hashimoto thyroiditis
+		?b: crystals
+	?a occasionally remain with ?b
+		?a: crystals
+		?b: giant cell reaction
+
+
+label:    sent_10
+sentence: This gap was reduced but did not disappear over the first academic year .
+
+ppatt:
+	?a was reduced
+		?a: This gap
+	?a did not disappear over ?b
+		?a: This gap
+		?b: the first academic year
+
+
+label:    sent_11
+sentence: Hypoglycosylation , improves but does not completely disappear with dietary treatment .
+
+ppatt:
+	?a improves
+		?a: Hypoglycosylation
+	?a does not completely disappear with ?b
+		?a: Hypoglycosylation
+		?b: dietary treatment
+
+
+label:    sent_12
+sentence: Symptoms will be less serious or disappear if patient away from house .
+
+ppatt:
+	?a will be less serious
+		?a: Symptoms
+	?a disappear from ?b
+		?a: Symptoms
+		?b: house
+	?a away from ?b
+		?a: patient
+		?b: house
+
+
+label:    sent_13
+sentence: These symptoms generally disappear spontaneously , and surgery rarely becomes necessary . Elschnig pearls disappear and appear within days .
+
+ppatt:
+	?a generally disappear spontaneously
+		?a: These symptoms
+	?a rarely becomes necessary
+		?a: surgery
+	?a disappear
+		?a: Elschnig pearls
+	?a appear within ?b
+		?a: Elschnig pearls
+		?b: days
+
+
+label:    sent_14
+sentence: Will screening colonoscopy disappear and transform gastroenterology practice ? Some of them are random and disappear when the experiment is repeated .
+
+ppatt:
+	screening ?a
+		?a: colonoscopy
+	Will ?a disappear ?b
+		?a: SOMETHING := screening colonoscopy
+		?b: gastroenterology practice
+	?a transform
+		?a: screening colonoscopy
+	?a are random
+		?a: Some of them
+	?a disappear
+		?a: Some of them
+	when ?a is repeated
+		?a: the experiment
+
+
+label:    sent_15
+sentence: During intravenous therapy with penicillin G the skin alterations faded but did not disappear .
+
+ppatt:
+	During ?a ?b faded
+		?a: intravenous therapy with penicillin G
+		?b: the skin alterations
+	?a did not disappear
+		?a: the skin alterations
+
+
+label:    sent_16
+sentence: When out of phase , these dry-wet variations weaken or even disappear .
+
+ppatt:
+	of ?a , ?b weaken
+		?a: When out phase
+		?b: these dry-wet variations
+	?a even disappear
+		?a: these dry-wet variations
+
+
+label:    sent_17
+sentence: However , the precise mechanism by which symptoms disappear remains unknown .
+
+ppatt:
+	?a by ?b disappear
+		?a: the precise mechanism
+		?b: symptoms
+	However , ?a remains unknown
+		?a: the precise mechanism by which symptoms disappear
+
+
+label:    sent_18
+sentence: However , Rh genes are prominent in vertebrates , in which Amt genes disappear .
+
+ppatt:
+	However , ?a are prominent in ?b
+		?a: Rh genes
+		?b: vertebrates , in which Amt genes disappear
+	?a in ?b disappear
+		?a: vertebrates
+		?b: Amt genes
+
+
+label:    sent_19
+sentence: The mechanism by which skin melanocytes disappear can also affect other melanocytic organs .
+
+ppatt:
+	?a by ?b disappear
+		?a: The mechanism
+		?b: skin melanocytes
+	?a can also affect ?b
+		?a: The mechanism by which skin melanocytes disappear
+		?b: other melanocytic organs
+
+
+label:    sent_20
+sentence: Only after corticosteroids were given did the symptoms and laboratory abnormalities disappear .
+
+ppatt:
+	after ?a given
+		?a: Only corticosteroids
+	after ?a were did ?b
+		?a: Only corticosteroids
+		?b: the symptoms
+	after ?a were did ?b
+		?a: Only corticosteroids
+		?b: laboratory abnormalities
+	after ?a disappear
+		?a: Only corticosteroids
+
+
+label:    sent_21
+sentence: Only when the platelet life-span normalized did the thrombocytopenia and bleeding tendency disappear .
+
+ppatt:
+	?a normalized
+		?a: the platelet life-span
+	Only when did ?a
+		?a: the thrombocytopenia
+	Only when did ?a
+		?a: bleeding
+	Only when did ?a
+		?a: tendency
+	?a disappear
+		?a: the thrombocytopenia
+	?a disappear
+		?a: bleeding
+	?a disappear
+		?a: tendency
+
+
+label:    sent_22
+sentence: Only after the immune system had recovered did the infection disappear .
+
+ppatt:
+	after ?a recovered
+		?a: Only the immune system
+	had did ?a disappear
+		?a: the infection
+
+
+label:    sent_23
+sentence: It was also discovered that certain Raman features disappear compared to a natural sample .
+
+ppatt:
+	?a was also discovered ?b
+		?a: It
+		?b: SOMETHING := certain Raman features disappear compared to a natural sample
+	?a disappear
+		?a: certain Raman features
+	?a compared to a natural sample
+		?a: certain Raman features
+
+
+label:    sent_24
+sentence: Not all symptoms disappear after vascular ring division : a pathophysiological interpretation .
+
+ppatt:
+	?a disappear after ?b
+		?a: Not all symptoms
+		?b: vascular ring division
+
+
+label:    sent_25
+sentence: The risk of VAPP will disappear worldwide with the cessation of use of OPV .
+
+ppatt:
+	?a will disappear worldwide with ?b
+		?a: The risk of VAPP
+		?b: the cessation of use of OPV
+
+

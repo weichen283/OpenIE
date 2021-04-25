@@ -1,0 +1,147 @@
+label:    sent_1
+sentence: These four processes appear to demarcate the upper limit of thermostability of enzymes .
+
+ppatt:
+	?a appear to demarcate ?b
+		?a: These four processes
+		?b: the upper limit of thermostability of enzymes
+
+
+label:    sent_2
+sentence: Infarct size was quantitated using nitroblue tetrazolium to demarcate the necrotic myocardium .
+
+ppatt:
+	?a was quantitated using ?b
+		?a: Infarct size
+		?b: nitroblue tetrazolium
+	?a demarcate ?b
+		?a: Infarct size
+		?b: the necrotic myocardium
+
+
+label:    sent_3
+sentence: Notches were prepared in the roots to demarcate the denuded root portion .
+
+ppatt:
+	?a were prepared in ?b to demarcate ?c
+		?a: Notches
+		?b: the roots
+		?c: the denuded root portion
+
+
+label:    sent_4
+sentence: These findings demarcate key landmarks in the hitherto uncharted research domain of nostalgia .
+
+ppatt:
+	?a demarcate ?b
+		?a: These findings
+		?b: key landmarks in the hitherto uncharted research domain of nostalgia
+
+
+label:    sent_5
+sentence: Lectins demarcate the barrel subfield in the somatosensory cortex of the early postnatal mouse .
+
+ppatt:
+	?a demarcate ?b in ?c
+		?a: Lectins
+		?b: the barrel subfield
+		?c: the somatosensory cortex of the early postnatal mouse
+
+
+label:    sent_6
+sentence: Sharp boundaries demarcate the chromatin structure of a yeast heat-shock gene .
+
+ppatt:
+	?a demarcate ?b
+		?a: Sharp boundaries
+		?b: the chromatin structure of a yeast heat-shock gene
+
+
+label:    sent_7
+sentence: We were unable to demarcate hemorrhage and calcium following histology processing .
+
+ppatt:
+	?a were unable to demarcate ?b
+		?a: We
+		?b: hemorrhage following histology processing
+	?a were unable to demarcate ?b
+		?a: We
+		?b: calcium
+
+
+label:    sent_8
+sentence: On the feasibility of MRI-guided navigation to demarcate breast cancer for breast-conserving surgery .
+
+ppatt:
+	?a demarcate ?b for ?c
+		?a: the feasibility of MRI-guided navigation
+		?b: breast cancer
+		?c: breast-conserving surgery
+
+
+label:    sent_9
+sentence: Borders are important as they demarcate developing tissue into distinct functional units . Eph receptors and ephrins demarcate cerebellar lobules before and during their formation .
+
+ppatt:
+	?a are important
+		?a: Borders
+	?a demarcate ?b into ?c
+		?a: they
+		?b: developing tissue
+		?c: distinct functional units
+	?a demarcate ?b ?c
+		?a: Eph receptors
+		?b: cerebellar lobules
+		?c: before and during their formation
+	?a demarcate ?b ?c
+		?a: ephrins
+		?b: cerebellar lobules
+		?c: before and during their formation
+
+
+label:    sent_10
+sentence: Two nested developmental waves demarcate a compartment boundary in the mouse lung . Local microglia and infiltrating macrophages demarcate infarcts and rapidly remove debris .
+
+ppatt:
+	?a demarcate ?b
+		?a: Two nested developmental waves
+		?b: a compartment boundary in the mouse lung
+	?a demarcate ?b
+		?a: Local microglia
+		?b: infarcts
+	?a demarcate ?b
+		?a: infiltrating macrophages
+		?b: infarcts
+	?a rapidly remove ?b
+		?a: Local microglia
+		?b: debris
+	?a rapidly remove ?b
+		?a: infiltrating macrophages
+		?b: debris
+
+
+label:    sent_11
+sentence: These loops demarcate topological domains and form intricate internal structures within them .
+
+ppatt:
+	?a demarcate ?b
+		?a: These loops
+		?b: topological domains
+	?a form ?b within ?c
+		?a: These loops
+		?b: intricate internal structures
+		?c: them
+
+
+label:    sent_12
+sentence: Furthermore , we identified the available signals that demarcate workers to be policed physically .
+
+ppatt:
+	Furthermore , ?a identified ?b
+		?a: we
+		?b: the available signals that demarcate workers to be policed physically
+	?a demarcate ?b to be policed physically
+		?a: the available signals
+		?b: workers
+
+

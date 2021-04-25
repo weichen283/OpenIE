@@ -1,0 +1,204 @@
+label:    sent_1
+sentence: We modified our reference ranges to rectify the systematic bias found during validation .
+
+ppatt:
+	?a modified ?b
+		?a: We
+		?b: our reference ranges
+	?a rectify ?b
+		?a: We
+		?b: the systematic bias found during validation
+	?a found during ?b
+		?a: the systematic bias
+		?b: validation
+
+
+label:    sent_2
+sentence: This paper will start to rectify this oversight . Major health system reform is needed in Australia to rectify this problem .
+
+ppatt:
+	?a will start to rectify ?b ?c
+		?a: This paper
+		?b: this oversight
+		?c: SOMETHING := Major health system reform is needed in Australia to rectify this problem
+	?a is needed in ?b to rectify ?c
+		?a: Major health system reform
+		?b: Australia
+		?c: this problem
+
+
+label:    sent_3
+sentence: We propose a mechanism to rectify charge transport in the semiclassical Holstein model .
+
+ppatt:
+	?a propose ?b
+		?a: We
+		?b: a mechanism to rectify charge transport in the semiclassical Holstein model
+	?a rectify ?b
+		?a: a mechanism
+		?b: charge transport in the semiclassical Holstein model
+
+
+label:    sent_4
+sentence: Retrospective action should be considered to rectify this problem in former hospital patients .
+
+ppatt:
+	?a should be considered to rectify ?b
+		?a: Retrospective action
+		?b: this problem in former hospital patients
+
+
+label:    sent_5
+sentence: This study tries to rectify this with a study of Turkish university students . A submicron device to rectify a square-wave angular velocity .
+
+ppatt:
+	?a tries to rectify ?b with ?c ?d
+		?a: This study
+		?b: this
+		?c: a study of Turkish university students
+		?d: A submicron device to rectify a square-wave angular velocity
+	?a rectify ?b
+		?a: A submicron device
+		?b: a square-wave angular velocity
+
+
+label:    sent_6
+sentence: However , cotinine assay can rectify this misclassification .
+
+ppatt:
+	However , ?a can rectify ?b
+		?a: cotinine assay
+		?b: this misclassification
+
+
+label:    sent_7
+sentence: The millimetre-sized diodes rectify the voltage induced between their electrodes .
+
+ppatt:
+	?a rectify ?b
+		?a: The millimetre-sized diodes
+		?b: the voltage induced between their electrodes
+	?a induced between ?b
+		?a: the voltage
+		?b: their electrodes
+
+
+label:    sent_8
+sentence: Current therapies aim to rectify underlying hormonal imbalances and improve cosmetic appearance .
+
+ppatt:
+	?a rectify underlying ?b
+		?a: Current therapies aim
+		?b: hormonal imbalances
+	improve ?a
+		?a: cosmetic appearance
+
+
+label:    sent_9
+sentence: They rectify generally accepted views and represent a basis for further clinical research .
+
+ppatt:
+	?a rectify ?b
+		?a: They
+		?b: generally accepted views
+	?a represent ?b
+		?a: They
+		?b: a basis for further clinical research
+
+
+label:    sent_10
+sentence: Surgical procedures can rectify the condition , but continuing maintenance haemodialysis sometimes causes recurrence .
+
+ppatt:
+	?a can rectify ?b
+		?a: Surgical procedures
+		?b: the condition
+	?a sometimes causes ?b
+		?a: continuing maintenance haemodialysis
+		?b: recurrence
+
+
+label:    sent_11
+sentence: Perianal abscess was first evoked , but per-operatory findings and histology rectify the diagnosis .
+
+ppatt:
+	?a was first evoked
+		?a: Perianal abscess
+	?a rectify ?b
+		?a: per-operatory findings
+		?b: the diagnosis
+	?a rectify ?b
+		?a: histology
+		?b: the diagnosis
+
+
+label:    sent_12
+sentence: We rectify this by quantifying the numbers and proportion of parasitic species .
+
+ppatt:
+	?a rectify ?b
+		?a: We
+		?b: this
+	?a quantifying ?b
+		?a: We
+		?b: the numbers of parasitic species
+	?a quantifying ?b
+		?a: We
+		?b: proportion
+
+
+label:    sent_13
+sentence: Glucocorticoid treatment can rectify Th17 / Treg dysregulation in patients with SHB .
+
+ppatt:
+	?a can rectify ?b
+		?a: Glucocorticoid treatment
+		?b: Th17 / Treg dysregulation in patients with SHB
+
+
+label:    sent_14
+sentence: Can arousing feedback rectify lapses in driving ? Postoperatively the patient suffered from recalcitrant hypocalcemia which necessitated multiple medical maneuvers to rectify .
+
+ppatt:
+	Can ?a rectify ?b
+		?a: arousing feedback
+		?b: lapses
+	?a driving Postoperatively
+		?a: arousing feedback
+	?a suffered from ?b
+		?a: the patient
+		?b: recalcitrant hypocalcemia which necessitated multiple medical maneuvers to rectify
+	?a necessitated ?b to rectify
+		?a: recalcitrant hypocalcemia
+		?b: multiple medical maneuvers
+
+
+label:    sent_15
+sentence: The eventually associated scoliosis often rectify too .
+
+ppatt:
+	?a often rectify too
+		?a: The eventually associated scoliosis
+
+
+label:    sent_16
+sentence: The channels have two main conductance states the current-voltage curves of which rectify .
+
+ppatt:
+	?a have ?b
+		?a: The channels
+		?b: two main conductance states the current-voltage curves of which rectify
+	?a ?b rectify
+		?a: two main conductance states
+		?b: the current-voltage curves of which
+
+
+label:    sent_17
+sentence: This paper helps to rectify that omission .
+
+ppatt:
+	?a helps to rectify ?b
+		?a: This paper
+		?b: omission
+
+

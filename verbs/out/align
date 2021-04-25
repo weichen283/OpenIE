@@ -1,0 +1,305 @@
+label:    sent_1
+sentence: They tend to align parallel to each other forming needlelike structures .
+
+ppatt:
+	?a tend to align ?b
+		?a: They
+		?b: parallel to each other forming needlelike structures
+
+
+label:    sent_2
+sentence: Participants were required to align the figure parallel to their median trunk axis .
+
+ppatt:
+	?a were required to align ?b to ?c
+		?a: Participants
+		?b: the figure parallel
+		?c: their median trunk axis
+
+
+label:    sent_3
+sentence: We apply this algorithm to align magnetic resonance brain data . Submit sequences to Genome VISTA to align them to whole genomes .
+
+ppatt:
+	?a apply ?b
+		?a: We
+		?b: this algorithm to align magnetic resonance brain data
+	?a align ?b
+		?a: this algorithm
+		?b: magnetic resonance brain data
+	?a Submit ?b to align ?c to ?d
+		?a: We
+		?b: sequences to Genome VISTA
+		?c: them
+		?d: whole genomes
+
+
+label:    sent_4
+sentence: One , it is easier to align the transducer with the reflected beam .
+
+ppatt:
+	?a ?b is easier to align ?c
+		?a: One
+		?b: it
+		?c: the transducer with the reflected beam
+
+
+label:    sent_5
+sentence: An optimized algorithm was employed to align the x-ray image to the three-dimensional model .
+
+ppatt:
+	?a was employed to align ?b to ?c
+		?a: An optimized algorithm
+		?b: the x-ray image
+		?c: the three-dimensional model
+
+
+label:    sent_6
+sentence: Our theoretical calculations align well with current device performance data . Chloroplasts in higher magnetic fields align with their equatorial plane perpendicular to the field .
+
+ppatt:
+	?a align well with ?b
+		?a: Our theoretical calculations
+		?b: current device performance data
+	?a align with ?b
+		?a: Chloroplasts in higher magnetic fields
+		?b: their equatorial plane perpendicular to the field
+
+
+label:    sent_7
+sentence: These prevalence estimates align with those reported in prior literature .
+
+ppatt:
+	?a align with ?b
+		?a: These prevalence estimates
+		?b: those reported in prior literature
+	?a reported in ?b
+		?a: those
+		?b: prior literature
+
+
+label:    sent_8
+sentence: The robotic arm is driven into place to align with predetermined coordinates .
+
+ppatt:
+	?a is driven into ?b to align with ?c
+		?a: The robotic arm
+		?b: place
+		?c: predetermined coordinates
+
+
+label:    sent_9
+sentence: Nonlinear optics : Dipoles align inside a nanotube .
+
+ppatt:
+
+
+
+label:    sent_10
+sentence: Two difficult functional items tended to align with pain items .
+
+ppatt:
+	?a tended to align with ?b
+		?a: Two difficult functional items
+		?b: pain items
+
+
+label:    sent_11
+sentence: This identification allowed us to align the restriction map with the BaEV genetic map .
+
+ppatt:
+	?a allowed ?b to align ?c
+		?a: This identification
+		?b: us
+		?c: the restriction map with the BaEV genetic map
+
+
+label:    sent_12
+sentence: Histone H5 can correctly align randomly arranged nucleosomes in a defined in vitro system .
+
+ppatt:
+	?a can correctly align ?b in ?c
+		?a: Histone H5
+		?b: randomly arranged nucleosomes
+		?c: a defined in system
+
+
+label:    sent_13
+sentence: Other cell types , specifically fibroblasts , align their ECM in response to CS .
+
+ppatt:
+	?a is/are specifically fibroblasts
+		?a: Other cell types
+	?a align ?b in ?c
+		?a: Other cell types
+		?b: their ECM
+		?c: response to CS
+
+
+label:    sent_14
+sentence: Then steps can be taken to align incentives and improve operating results .
+
+ppatt:
+	Then ?a can be taken to align ?b
+		?a: steps
+		?b: incentives
+	Then ?a can be taken to improve ?b
+		?a: steps
+		?b: operating results
+
+
+label:    sent_15
+sentence: Using cylindrical domains of block copolymers to self-assemble and align metallic nanowires .
+
+ppatt:
+	Using ?a
+		?a: cylindrical domains of block copolymers
+	self-assemble ?a
+		?a: metallic nanowires
+	align ?a
+		?a: metallic nanowires
+
+
+label:    sent_16
+sentence: Precise instrumentation is necessary to consistently balance and align a mobile-bearing implant .
+
+ppatt:
+	?a is necessary to consistently balance ?b
+		?a: Precise instrumentation
+		?b: a mobile-bearing implant
+	?a is necessary to align
+		?a: Precise instrumentation
+
+
+label:    sent_17
+sentence: Atomic force and optical microscopy align themselves .
+
+ppatt:
+	?a align ?b
+		?a: Atomic force
+		?b: themselves
+	?a align ?b
+		?a: optical microscopy
+		?b: themselves
+
+
+label:    sent_18
+sentence: An intramedullary instrument to align bone fragments in closed Kuntscher nailing .
+
+ppatt:
+	?a align ?b in ?c
+		?a: An intramedullary instrument
+		?b: bone fragments
+		?c: closed Kuntscher nailing
+
+
+label:    sent_19
+sentence: Sex-specific interventions for CJ populations with HIV effectively align public health and safety goals .
+
+ppatt:
+	?a effectively align ?b
+		?a: Sex-specific interventions for CJ populations with HIV
+		?b: public health
+	?a effectively align ?b
+		?a: Sex-specific interventions for CJ populations with HIV
+		?b: safety
+
+
+label:    sent_20
+sentence: Diabetes and depression align in a non-accidental way and complicate one another .
+
+ppatt:
+	?a align in ?b
+		?a: Diabetes
+		?b: a non-accidental way
+	?a align in ?b
+		?a: depression
+		?b: a non-accidental way
+	?a complicate ?b
+		?a: Diabetes
+		?b: one another
+	?a complicate ?b
+		?a: depression
+		?b: one another
+
+
+label:    sent_21
+sentence: These deposits align with chitin microfibrils and exhibit a helicoidal pattern .
+
+ppatt:
+	?a align with ?b
+		?a: These deposits
+		?b: chitin microfibrils
+	?a exhibit ?b
+		?a: These deposits
+		?b: a helicoidal pattern
+
+
+label:    sent_22
+sentence: We examined how surgeon preferences align with guidelines or vary by training .
+
+ppatt:
+	?a examined ?b
+		?a: We
+		?b: SOMETHING := how surgeon preferences align with guidelines
+	how ?a align with ?b
+		?a: surgeon preferences
+		?b: guidelines
+	?a vary by ?b
+		?a: surgeon preferences
+		?b: training
+
+
+label:    sent_23
+sentence: Multiple latent failures align to allow a serious drug interaction to harm a patient .
+
+ppatt:
+	?a align to allow ?b
+		?a: Multiple latent failures
+		?b: a serious drug interaction to harm a patient
+	?a harm ?b
+		?a: a serious drug interaction
+		?b: a patient
+
+
+label:    sent_24
+sentence: Multiple latent failures align to harm a patient seriously . Active ageing and occupational therapy align .
+
+ppatt:
+	?a align to harm ?b seriously
+		?a: Multiple latent failures
+		?b: a patient
+	?a align
+		?a: Active ageing
+	?a align
+		?a: occupational therapy
+
+
+label:    sent_25
+sentence: Our design is significantly easier to align and tune compared with previous designs . Dataset was elaborated to align and normalize the spectra .
+
+ppatt:
+	?a is significantly easier to align
+		?a: Our design
+	?a is significantly easier to tune
+		?a: Our design
+	?a compared with previous designs
+		?a: Our design
+	?a was elaborated to align ?b
+		?a: Dataset
+		?b: the spectra
+	?a was elaborated to normalize
+		?a: Dataset
+
+
+label:    sent_26
+sentence: Then fixed appliances were used to align and level the dentition .
+
+ppatt:
+	?a were used to align ?b
+		?a: Then fixed appliances
+		?b: the dentition
+	?a were used to level
+		?a: Then fixed appliances
+
+

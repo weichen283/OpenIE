@@ -1,0 +1,293 @@
+label:    sent_1
+sentence: How to identify and mobilize a retracted subscapularis tear .
+
+ppatt:
+	How to identify ?a
+		?a: a retracted subscapularis tear
+	mobilize ?a
+		?a: a retracted subscapularis tear
+
+
+label:    sent_2
+sentence: A washing procedure to mobilize mixed contaminants from soil : I . Its capability to mobilize HSCs suggests potential clinical applications in HSC transplantation .
+
+ppatt:
+	?a mobilize ?b
+		?a: A washing procedure
+		?b: mixed contaminants from soil
+	?a mobilize ?b
+		?a: Its capability
+		?b: HSCs
+	?a ?b suggests ?c
+		?a: A washing procedure to mobilize mixed contaminants from soil
+		?b: Its capability to mobilize HSCs
+		?c: potential clinical applications in HSC transplantation
+
+
+label:    sent_3
+sentence: A washing procedure to mobilize mixed contaminants from soil : II .
+
+ppatt:
+	?a mobilize ?b
+		?a: A washing procedure
+		?b: mixed contaminants from soil : II
+
+
+label:    sent_4
+sentence: Xanthine oxidase is able to mobilize iron from ferritin .
+
+ppatt:
+	?a is able to mobilize ?b from ?c
+		?a: Xanthine oxidase
+		?b: iron
+		?c: ferritin
+
+
+label:    sent_5
+sentence: The F-factor was found to mobilize pMB1 efficiently for conjugal transfer .
+
+ppatt:
+	?a was found to mobilize ?b efficiently for ?c
+		?a: The F-factor
+		?b: pMB1
+		?c: conjugal transfer
+
+
+label:    sent_6
+sentence: Cytotoxic T cells mobilize effector proteins from prestored lysosomal compartments .
+
+ppatt:
+	?a mobilize ?b from ?c
+		?a: Cytotoxic T cells
+		?b: effector proteins
+		?c: prestored lysosomal compartments
+
+
+label:    sent_7
+sentence: However , phosphate addition can mobilize arsenic ( As ) from the tailings . It has been proposed that transposases of related transposons could mobilize MITEs in trans .
+
+ppatt:
+	However , ?a can mobilize ?b
+		?a: phosphate addition
+		?b: arsenic from the tailings
+	?a is/are As
+		?a: arsenic from the tailings
+	?a has been proposed ?b
+		?a: It
+		?b: SOMETHING := transposases of related transposons could mobilize MITEs in trans
+	?a could mobilize ?b in ?c
+		?a: transposases of related transposons
+		?b: MITEs
+		?c: trans
+
+
+label:    sent_8
+sentence: Cells mobilize diverse signaling cascades to protect against stress-mediated injury . Parent-buddies helped non-English-speaking mothers mobilize their strengths .
+
+ppatt:
+	?a mobilize ?b to protect against ?c
+		?a: Cells
+		?b: diverse signaling cascades
+		?c: stress-mediated injury
+	?a helped
+		?a: Parent-buddies
+	?a mobilize ?b
+		?a: non-English-speaking mothers
+		?b: their strengths
+
+
+label:    sent_9
+sentence: Most of the elicitors mobilize the second messenger calcium , to trigger plant defences .
+
+ppatt:
+	?a mobilize ?b , to trigger ?c
+		?a: Most of the elicitors
+		?b: the second messenger calcium
+		?c: plant defences
+
+
+label:    sent_10
+sentence: The consortium was also shown to desorb and mobilize 2,4,6-TCP in soils .
+
+ppatt:
+	?a was also shown to desorb ?b
+		?a: The consortium
+		?b: 2,4,6-TCP in soils
+	?a was also shown to mobilize
+		?a: The consortium
+
+
+label:    sent_11
+sentence: Patients who have less pain may mobilize secretions , heal , and recover faster .
+
+ppatt:
+	?a have ?b
+		?a: Patients
+		?b: less pain
+	may mobilize ?a
+		?a: secretions
+	?a heal
+		?a: Patients who have less pain
+	?a recover faster
+		?a: Patients who have less pain
+
+
+label:    sent_12
+sentence: They are released upon lack of energy and mobilize internal fuel reserves .
+
+ppatt:
+	?a are released upon ?b
+		?a: They
+		?b: lack of energy
+	?a mobilize ?b
+		?a: They
+		?b: internal fuel reserves
+
+
+label:    sent_13
+sentence: This helped to mobilize and further retract the trigeminal root .
+
+ppatt:
+	?a helped to mobilize
+		?a: This
+	?a helped to and further retract ?b
+		?a: This
+		?b: the trigeminal root
+
+
+label:    sent_14
+sentence: It is intended to minimize complications and to mobilize and motivate the patients early .
+
+ppatt:
+	?a is intended to minimize ?b
+		?a: It
+		?b: complications
+	?a is intended to to mobilize ?b early
+		?a: It
+		?b: the patients
+	?a motivate
+		?a: It
+
+
+label:    sent_15
+sentence: Nigeria set up Partners-in-Health to mobilize and motivate mothers to accept the programme .
+
+ppatt:
+	?a set up ?b to mobilize ?c to accept ?d
+		?a: Nigeria
+		?b: Partners-in-Health
+		?c: mothers
+		?d: the programme
+	?a set to motivate to accept
+		?a: Nigeria
+
+
+label:    sent_16
+sentence: Mutant seedlings mobilize their triacylglycerol very slowly and growth is insensitive to 2,4-dichlorophenoxybutyric acid .
+
+ppatt:
+	?a mobilize ?b very slowly and growth
+		?a: Mutant seedlings
+		?b: their triacylglycerol
+
+
+label:    sent_17
+sentence: Lysophospholipids of different classes mobilize neutrophil secretory vesicles and induce redundant signaling through G2A .
+
+ppatt:
+	?a mobilize ?b
+		?a: Lysophospholipids of different classes
+		?b: neutrophil secretory vesicles
+	?a induce ?b through ?c
+		?a: Lysophospholipids of different classes
+		?b: redundant signaling
+		?c: G2A
+
+
+label:    sent_18
+sentence: Adenine nucleotides mobilize cellular Ca2+ and inhibit parathyroid hormone secretion .
+
+ppatt:
+	?a mobilize ?b
+		?a: Adenine nucleotides
+		?b: cellular Ca2+
+	?a inhibit ?b
+		?a: Adenine nucleotides
+		?b: parathyroid hormone secretion
+
+
+label:    sent_19
+sentence: Patients were kept flat for 15min and allowed to fully mobilize at 60min .
+
+ppatt:
+	?a were kept flat for ?b
+		?a: Patients
+		?b: 15min
+	?a allowed to fully mobilize at ?b
+		?a: Patients
+		?b: 60min
+
+
+label:    sent_20
+sentence: The flap is ease to mobilize with no harmful effects on the testicles .
+
+ppatt:
+	?a is ease
+		?a: The flap
+	?a mobilize with ?b
+		?a: ease
+		?b: no harmful effects on the testicles
+
+
+label:    sent_21
+sentence: Feminists can also mobilize against the indifference with which policy-makers consider population policies .
+
+ppatt:
+	?a can also mobilize against ?b
+		?a: Feminists
+		?b: the indifference with which policy-makers consider population policies
+	?a with ?b consider ?c
+		?a: the indifference
+		?b: policy-makers
+		?c: population policies
+
+
+label:    sent_22
+sentence: Keeping physically active is important for people who mobilize using a wheelchair .
+
+ppatt:
+	?a is important for ?b
+		?a: SOMETHING := Keeping
+		?b: people who mobilize using a wheelchair
+	?a mobilize using ?b
+		?a: people
+		?b: a wheelchair
+
+
+label:    sent_23
+sentence: Plerixafor has been recently introduced combined with G-CSF in patients who mobilize poorly . Hospitals must mobilize again .
+
+ppatt:
+	?a has been recently introduced combined with ?b in ?c
+		?a: Plerixafor
+		?b: G-CSF
+		?c: patients who mobilize poorly
+	?a mobilize poorly
+		?a: patients
+	?a must mobilize again
+		?a: Hospitals
+
+
+label:    sent_24
+sentence: They also counsel the rural and tribal women and mobilize them for collective action .
+
+ppatt:
+	?a also counsel ?b
+		?a: They
+		?b: the rural and tribal women
+	?a mobilize ?b for ?c
+		?a: They
+		?b: them
+		?c: collective action
+
+

@@ -1,0 +1,321 @@
+label:    sent_1
+sentence: SPARC-null mice exhibit an increased accumulation of adipose tissue . Natural populations , on the other hand , exhibit wide genetic and environmental diversity .
+
+ppatt:
+	?a exhibit ?b
+		?a: SPARC-null mice
+		?b: an increased accumulation of adipose tissue
+	?a on ?b , exhibit ?c
+		?a: Natural populations
+		?b: the other hand
+		?c: wide genetic and environmental diversity
+
+
+label:    sent_2
+sentence: Blenniid fish exhibit a polygynandric mating system with parental care restricted to males .
+
+ppatt:
+	?a exhibit ?b with ?c
+		?a: Blenniid fish
+		?b: a polygynandric mating system
+		?c: parental care restricted to males
+
+
+label:    sent_3
+sentence: At birth , these tissues exhibit the effects of residual maternal estrogens .
+
+ppatt:
+	At ?a , ?b exhibit ?c
+		?a: birth
+		?b: these tissues
+		?c: the effects of residual maternal estrogens
+
+
+label:    sent_4
+sentence: Children of teen mothers exhibit adverse outcomes through adolescence .
+
+ppatt:
+	?a exhibit ?b through ?c
+		?a: Children of teen mothers
+		?b: adverse outcomes
+		?c: adolescence
+
+
+label:    sent_5
+sentence: As a result the bionanocomposites exhibit higher antibacterial activity than any component acting alone .
+
+ppatt:
+	?a ?b exhibit ?c than ?d
+		?a: a result
+		?b: the bionanocomposites
+		?c: higher antibacterial activity
+		?d: any component acting alone
+	?a acting alone
+		?a: any component
+
+
+label:    sent_6
+sentence: Hispanic respondents in comparison to white respondents were more likely to exhibit PPG .
+
+ppatt:
+	?a were more likely to exhibit ?b
+		?a: Hispanic respondents in comparison to white respondents
+		?b: PPG
+
+
+label:    sent_7
+sentence: Biominerals exhibit complex hierarchical structures derived from bottom-up self-assembly mechanisms .
+
+ppatt:
+	?a exhibit ?b
+		?a: Biominerals
+		?b: complex hierarchical structures derived from bottom-up self-assembly mechanisms
+	?a derived from ?b
+		?a: complex hierarchical structures
+		?b: bottom-up self-assembly mechanisms
+
+
+label:    sent_8
+sentence: The direct renin inhibitor aliskiren is known to exhibit a strong antihypertensive effect .
+
+ppatt:
+	?a ?b is known to exhibit ?c
+		?a: direct inhibitor
+		?b: The renin aliskiren
+		?c: a strong antihypertensive effect
+
+
+label:    sent_9
+sentence: Zoos and aquariums exhibit many rare species , but sustain few for long periods . DIF derivatives exhibit antiproliferative activities and promote glucose consumption in mammalian cells in vitro .
+
+ppatt:
+	?a exhibit ?b
+		?a: Zoos
+		?b: many rare species
+	?a exhibit ?b
+		?a: aquariums
+		?b: many rare species
+	?a sustain ?b for ?c
+		?a: Zoos
+		?b: few
+		?c: long periods
+	?a sustain ?b for ?c
+		?a: aquariums
+		?b: few
+		?c: long periods
+	?a exhibit ?b
+		?a: DIF derivatives
+		?b: antiproliferative activities
+	?a promote ?b in ?c in vitro
+		?a: DIF derivatives
+		?b: glucose consumption
+		?c: mammalian cells
+
+
+label:    sent_10
+sentence: They may exhibit a variety of novel properties and behave as adaptive materials .
+
+ppatt:
+	?a may exhibit ?b
+		?a: They
+		?b: a variety of novel properties
+	?a behave as ?b
+		?a: They
+		?b: adaptive materials
+
+
+label:    sent_11
+sentence: MOFs have tunable pores and functionalities , and usually exhibit very high surface areas .
+
+ppatt:
+	?a have ?b
+		?a: MOFs
+		?b: tunable pores
+	?a have ?b
+		?a: MOFs
+		?b: functionalities
+	?a usually exhibit ?b
+		?a: MOFs
+		?b: very high surface areas
+
+
+label:    sent_12
+sentence: The nanoparticles are polycrystalline and exhibit anatase as well as rutile phases .
+
+ppatt:
+	?a are polycrystalline
+		?a: The nanoparticles
+	?a exhibit ?b
+		?a: The nanoparticles
+		?b: anatase
+	?a exhibit ?b
+		?a: The nanoparticles
+		?b: rutile phases
+
+
+label:    sent_13
+sentence: Agonist-sensitive intracellular Ca2+ stores may be heterogeneous and exhibit distinct functional features .
+
+ppatt:
+	?a may be heterogeneous
+		?a: Agonist-sensitive intracellular Ca2+ stores
+	?a exhibit ?b
+		?a: Agonist-sensitive intracellular Ca2+ stores
+		?b: distinct functional features
+
+
+label:    sent_14
+sentence: These bacteria are able to exhibit multiple resistance mechanisms towards various families of antibiotics .
+
+ppatt:
+	?a are able to exhibit ?b
+		?a: These bacteria
+		?b: multiple resistance mechanisms towards various families of antibiotics
+
+
+label:    sent_15
+sentence: Metallocenes of second-row transition metals exhibit better binding with pyrimidine-base nucleotides .
+
+ppatt:
+	?a exhibit ?b
+		?a: Metallocenes of second-row transition metals
+		?b: better binding with pyrimidine-base nucleotides
+
+
+label:    sent_16
+sentence: Recently , soy isoflavones with L-carnitine were reported to exhibit anti-obesity effects in mice .
+
+ppatt:
+	Recently , ?a were reported to exhibit ?b
+		?a: soy isoflavones with L-carnitine
+		?b: anti-obesity effects in mice
+
+
+label:    sent_17
+sentence: OPNs exhibit sustained discharge during fixations and cease firing before and during saccades .
+
+ppatt:
+	?a exhibit ?b during ?c
+		?a: OPNs
+		?b: sustained discharge
+		?c: fixations
+	?a cease ?b ?c
+		?a: OPNs
+		?b: firing
+		?c: before and during saccades
+
+
+label:    sent_18
+sentence: At hatching , the forelimbs exhibit clawed digits and are capable of digitopalmar prehension .
+
+ppatt:
+	At ?a , ?b exhibit ?c
+		?a: hatching
+		?b: the forelimbs
+		?c: clawed digits
+
+
+label:    sent_19
+sentence: They exhibit detectable proteinuria on day 1 and die within a week . Remarkably , the STs exhibit little if any dairy biotope specialization .
+
+ppatt:
+	?a exhibit ?b on ?c
+		?a: They
+		?b: detectable proteinuria
+		?c: day 1
+	?a die within ?b
+		?a: They
+		?b: a week
+	Remarkably , ?a exhibit ?b ?c
+		?a: the STs
+		?b: little
+		?c: any dairy biotope specialization
+
+
+label:    sent_20
+sentence: Cells exhibit propagating membrane waves which involve the actin cytoskeleton .
+
+ppatt:
+	?a exhibit ?b
+		?a: Cells
+		?b: propagating membrane waves which involve the actin cytoskeleton
+	?a involve ?b
+		?a: propagating membrane waves
+		?b: the actin cytoskeleton
+
+
+label:    sent_21
+sentence: Patients with BDD did exhibit higher delusionality than the patients with OCD .
+
+ppatt:
+	?a did exhibit ?b than ?c
+		?a: Patients with BDD
+		?b: higher delusionality
+		?c: the patients with OCD
+
+
+label:    sent_22
+sentence: L-G6pc ( -/- ) mice are viable and exhibit normoglycemia in the fed state .
+
+ppatt:
+	?a are viable
+		?a: L-G6pc mice
+	?a exhibit ?b
+		?a: L-G6pc mice
+		?b: normoglycemia in the fed state
+
+
+label:    sent_23
+sentence: The materials are chemically stable and exhibit nematic phase behavior at room temperature .
+
+ppatt:
+	?a are chemically stable
+		?a: The materials
+	?a exhibit ?b at ?c
+		?a: The materials
+		?b: nematic phase behavior
+		?c: room temperature
+
+
+label:    sent_24
+sentence: Allovectin-7 was shown to be safe and exhibit biological activity at this dose .
+
+ppatt:
+	?a was shown to be safe
+		?a: Allovectin-7
+	?a was shown to be exhibit ?b at ?c
+		?a: Allovectin-7
+		?b: biological activity
+		?c: this dose
+
+
+label:    sent_25
+sentence: A set of over 600 transcripts exhibit two-fold to >100-fold daily differences in abundance .
+
+ppatt:
+	?a exhibit ?b
+		?a: A set of over 600 transcripts
+		?b: two-fold to >100-fold daily differences in abundance
+
+
+label:    sent_26
+sentence: Histologically , these are deep lesions which exhibit ' pseudoinvasion ' into skeletal muscle .
+
+ppatt:
+	Histologically , ?a are deep lesions
+		?a: these
+	?a exhibit ?b into ?c
+		?a: Histologically , deep lesions
+		?b: pseudoinvasion
+		?c: skeletal muscle
+
+
+label:    sent_27
+sentence: Netter exhibit in New Jersey .
+
+ppatt:
+	?a exhibit in ?b
+		?a: Netter
+		?b: New Jersey
+
+

@@ -1,0 +1,227 @@
+label:    sent_1
+sentence: This would prevent over-sequencing and would further leverage the pyrosequencing method . PhD trainees should be empowered to leverage dueling priorities .
+
+ppatt:
+	?a would prevent ?b
+		?a: This
+		?b: over-sequencing
+	?a would further leverage ?b
+		?a: This
+		?b: the pyrosequencing method
+	?a should be empowered to leverage ?b
+		?a: PhD trainees
+		?b: dueling priorities
+
+
+label:    sent_2
+sentence: Program aims to leverage the skills of community pharmacists to boost diabetes care .
+
+ppatt:
+	?a aims to leverage ?b to boost ?c
+		?a: Program
+		?b: the skills of community pharmacists
+		?c: diabetes care
+
+
+label:    sent_3
+sentence: Ideally , a potency assay will leverage the product 's mechanism of action .
+
+ppatt:
+	Ideally , ?a will leverage ?b
+		?a: a potency assay
+		?b: the product 's mechanism of action
+
+
+label:    sent_4
+sentence: Clinical librarian services should leverage structured training opportunities such as journal clubs .
+
+ppatt:
+	?a should leverage ?b
+		?a: Clinical librarian services
+		?b: structured training opportunities such as journal clubs
+
+
+label:    sent_5
+sentence: Change can leverage the introduction of innovations that improve the quality of care delivery . A voucher appeared to leverage acceptability by GPs of follow up bulk billed consultations .
+
+ppatt:
+	?a can leverage ?b
+		?a: Change
+		?b: the introduction of innovations that improve the quality of care delivery
+	?a improve ?b
+		?a: innovations
+		?b: the quality of care delivery
+	?a appeared to leverage ?b
+		?a: A voucher
+		?b: acceptability by GPs
+	?a follow ?b
+		?a: A voucher
+		?b: up bulk billed consultations
+
+
+label:    sent_6
+sentence: Nutrition scientists are encouraged to leverage ongoing efforts in nanomedicine through collaborations .
+
+ppatt:
+	?a are encouraged to leverage ?b through ?c
+		?a: Nutrition scientists
+		?b: ongoing efforts in nanomedicine
+		?c: collaborations
+
+
+label:    sent_7
+sentence: These tools leverage Biological Networks as a formal model to encode molecular interactions .
+
+ppatt:
+	?a leverage ?b as ?c
+		?a: These tools
+		?b: Biological Networks
+		?c: a formal model to encode molecular interactions
+	?a encode ?b
+		?a: a formal model
+		?b: molecular interactions
+
+
+label:    sent_8
+sentence: Can data mining leverage them to build models of cognition ? NHS librarians working together can leverage collective benefits for users through collaborative purchasing .
+
+ppatt:
+	?a mining
+		?a: data leverage them to build models of cognition
+	?a leverage ?b to build ?c
+		?a: data mining
+		?b: them
+		?c: models of cognition
+	?a working together
+		?a: NHS librarians
+	Can ?a ?b can leverage ?c through ?d
+		?a: data mining leverage them to build models of cognition
+		?b: NHS librarians working together
+		?c: collective benefits for users
+		?d: collaborative purchasing
+
+
+label:    sent_9
+sentence: Research policies should seek to disentangle the two modes and leverage their complementarity .
+
+ppatt:
+	?a should seek to disentangle ?b
+		?a: Research policies
+		?b: the two modes
+	?a should seek to leverage ?b
+		?a: Research policies
+		?b: their complementarity
+
+
+label:    sent_10
+sentence: A recent meeting discussed how to coordinate and leverage current efforts .
+
+ppatt:
+	?a discussed how to coordinate ?b
+		?a: A recent meeting
+		?b: current efforts
+	?a discussed to leverage
+		?a: A recent meeting
+
+
+label:    sent_11
+sentence: Robustness of fit indices to outliers and leverage observations in structural equation modeling .
+
+ppatt:
+	leverage ?a
+		?a: observations in structural equation modeling
+
+
+label:    sent_12
+sentence: Increased knowledge translation potential may leverage research resources and promote knowledge-sharing .
+
+ppatt:
+	?a may leverage ?b
+		?a: Increased knowledge translation potential
+		?b: research resources
+	?a promote ?b
+		?a: Increased knowledge translation potential
+		?b: knowledge-sharing
+
+
+label:    sent_13
+sentence: Service Oriented Architecture can leverage granular services to create complex services and business processes . Government procurement leverage .
+
+ppatt:
+	?a can leverage ?b to create ?c
+		?a: Service Oriented Architecture
+		?b: granular services
+		?c: complex services
+	?a can leverage ?b to create ?c
+		?a: Service Oriented Architecture
+		?b: granular services
+		?c: business processes
+	?a leverage
+		?a: Government procurement
+
+
+label:    sent_14
+sentence: The myth of group buying leverage .
+
+ppatt:
+	?a leverage
+		?a: The myth of group buying
+
+
+label:    sent_15
+sentence: Legislation to control smoking : leverage for effective policy .
+
+ppatt:
+	?a control ?b
+		?a: Legislation
+		?b: smoking
+
+
+label:    sent_16
+sentence: Both methods leverage on recent achievements in matrix rank minimization and sparse signal recovery .
+
+ppatt:
+	?a leverage on ?b
+		?a: Both methods
+		?b: recent achievements in matrix rank minimization and sparse signal recovery
+
+
+label:    sent_17
+sentence: Internally , these modules leverage from functionality developed in R/BioConductor .
+
+ppatt:
+	Internally , ?a leverage from ?b
+		?a: these modules
+		?b: functionality developed in R/BioConductor
+	?a developed in ?b
+		?a: functionality
+		?b: R/BioConductor
+
+
+label:    sent_18
+sentence: We have highlighted critical residues that leverage Phe-336 as a relay .
+
+ppatt:
+	?a have highlighted ?b
+		?a: We
+		?b: critical residues that leverage Phe-336 as a relay
+	?a leverage ?b as ?c
+		?a: critical residues
+		?b: Phe-336
+		?c: a relay
+
+
+label:    sent_19
+sentence: Pathologists hope HHS clarification will give them leverage with hospitals .
+
+ppatt:
+	?a hope ?b
+		?a: Pathologists
+		?b: SOMETHING := HHS clarification will give
+	?a will give
+		?a: HHS clarification
+	?a leverage with ?b
+		?a: them
+		?b: hospitals
+
+

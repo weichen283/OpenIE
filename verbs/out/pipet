@@ -1,0 +1,29 @@
+label:    sent_1
+sentence: Then we pipet at t = 0 s , 100 microliters diluted plasma + 100 microliters reagent 1 in a reaction tube ; at t = 30 s , 100 microliters reagent 2 in the same tube and at t = 90 s , 200 microliters of the reaction mixture in a cuvette with 700 microliters EDTA buffer ( stop buffer ) and the formed factor Xa is measured with a chromogenic substrate .
+
+ppatt:
+	Then ?a pipet at ?b ?c ; at ?d
+		?a: we
+		?b: t
+		?c: = 0 s
+		?d: t
+	Then ?a pipet at ?b ?c ; at ?d
+		?a: we
+		?b: t
+		?c: diluted plasma
+		?d: t
+	?a is/are 100 microliters
+		?a: = 0 s
+	?a is/are 100 microliters
+		?a: diluted plasma
+	= ?a
+		?a: 90 s
+	?a is/are stop buffer
+		?a: 700 microliters EDTA buffer
+	?a is/are stop buffer
+		?a: the formed factor Xa
+	?a is measured with ?b
+		?a: 200 microliters of the reaction mixture in a cuvette with 700 microliters EDTA buffer and the formed factor Xa
+		?b: a chromogenic substrate
+
+

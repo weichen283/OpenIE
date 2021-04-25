@@ -1,0 +1,84 @@
+label:    sent_1
+sentence: We question the evolutionary origin of pattern information for the dentition driven by new morphological data on spatial initiation of skin denticles in the catshark .
+
+ppatt:
+	?a question ?b
+		?a: We
+		?b: the evolutionary origin of pattern information for the dentition driven by new morphological data on spatial initiation of skin denticles in the catshark
+	?a driven by ?b
+		?a: the dentition
+		?b: new morphological data on spatial initiation of skin denticles in the catshark
+
+
+label:    sent_2
+sentence: Because of increasing evidence for the obesity paradox , some physicians question whether obesity should be treated when it is associated with heart failure .
+
+ppatt:
+	Because of ?a , ?b question ?c
+		?a: increasing evidence for the obesity paradox
+		?b: some physicians
+		?c: SOMETHING := obesity should be treated when it is associated with heart failure
+	?a should be treated
+		?a: obesity
+	when ?a is associated with ?b
+		?a: it
+		?b: heart failure
+
+
+label:    sent_3
+sentence: These findings question the validity of MRI in the assessment of lateral epicondylitis .
+
+ppatt:
+	?a question ?b
+		?a: These findings
+		?b: the validity of MRI in the assessment of lateral epicondylitis
+
+
+label:    sent_4
+sentence: This may lead to prolonged postoperative rehabilitation time or may question the success of conservative treatment completely .
+
+ppatt:
+	?a may lead to ?b
+		?a: This
+		?b: prolonged postoperative rehabilitation time
+	?a may question ?b completely
+		?a: This
+		?b: the success of conservative treatment
+
+
+label:    sent_5
+sentence: These results indicate that CCR3 plays no significant role in CNV development and question the therapeutic approach of CCR3 targeting to suppress CNV .
+
+ppatt:
+	?a indicate ?b
+		?a: These results
+		?b: SOMETHING := CCR3 plays no significant role in CNV development
+	?a plays ?b in ?c
+		?a: CCR3
+		?b: no significant role
+		?c: CNV development
+	?a question ?b
+		?a: CCR3
+		?b: the therapeutic approach of CCR3 targeting to suppress CNV
+	?a suppress ?b
+		?a: the therapeutic approach of CCR3 targeting
+		?b: CNV
+
+
+label:    sent_6
+sentence: When studies of postmenopausal women with hair loss failed to reveal a response to the 5 alpha reductase inhibitor , finasteride , researchers began to question the existence of androgenetic alopecia in women and renamed the clinical entity female pattern hair loss .
+
+ppatt:
+	When ?a failed to reveal ?b
+		?a: studies of postmenopausal women with hair loss
+		?b: a response to the 5 alpha reductase inhibitor
+	?a is/are finasteride
+		?a: the 5 alpha reductase inhibitor
+	?a began to question ?b
+		?a: researchers
+		?b: the existence of androgenetic alopecia in women
+	?a began to renamed ?b
+		?a: researchers
+		?b: the clinical entity female pattern hair loss
+
+

@@ -1,0 +1,271 @@
+label:    sent_1
+sentence: To succeed in eliciting real emotions , we used a novel social interaction task . Students are not getting enough out of school to succeed in the workforce .
+
+ppatt:
+	succeed ?a
+		?a: we
+	eliciting ?a ?b
+		?a: real emotions
+		?b: we
+	?a used ?b
+		?a: we
+		?b: a novel social interaction task
+	?a are not getting enough out of ?b to succeed in ?c
+		?a: Students
+		?b: school
+		?c: the workforce
+
+
+label:    sent_2
+sentence: How to succeed in academic gastroenterology .
+
+ppatt:
+	How to succeed in ?a
+		?a: academic gastroenterology
+
+
+label:    sent_3
+sentence: Mothers can succeed with breastfeeding the premature infant .
+
+ppatt:
+	?a can succeed with ?b
+		?a: Mothers
+		?b: breastfeeding the premature infant
+
+
+label:    sent_4
+sentence: However , some experienced care workers succeed in establishing effective relationships .
+
+ppatt:
+	However , ?a succeed
+		?a: some experienced care workers
+	?a establishing ?b
+		?a: some experienced care workers
+		?b: effective relationships
+
+
+label:    sent_5
+sentence: A standard will not succeed without support from the wider bioscience research community .
+
+ppatt:
+	?a will not succeed without ?b
+		?a: A standard
+		?b: support from the wider bioscience research community
+
+
+label:    sent_6
+sentence: If at first you do n't succeed .
+
+ppatt:
+	at ?a do n't succeed
+		?a: first you
+
+
+label:    sent_7
+sentence: If so , what requirements must be satisfied in order for it to succeed ? Among them , 77.4 % tried to quit smoking while 55.4 % succeed .
+
+ppatt:
+	so , ?a must be satisfied in order for ?b to succeed ? Among ?c
+		?a: what requirements
+		?b: it
+		?c: them
+	?a tried to quit ?b
+		?a: 77.4 %
+		?b: smoking
+	?a succeed
+		?a: 55.4 %
+
+
+label:    sent_8
+sentence: Knowledge about why these programs succeed or fail is limited .
+
+ppatt:
+	?a about why ?b succeed
+		?a: Knowledge
+		?b: these programs
+	?a fail
+		?a: these programs
+	?a is limited
+		?a: Knowledge about why these programs succeed or fail
+
+
+label:    sent_9
+sentence: Closed treatment did not succeed in vertical repositioning but also evinced less remodeling .
+
+ppatt:
+	?a did not succeed in ?b
+		?a: Closed treatment
+		?b: vertical repositioning
+	?a also evinced ?b
+		?a: Closed treatment
+		?b: less remodeling
+
+
+label:    sent_10
+sentence: Under certain circumstances , it does not succeed ; and nutritional deficiency is produced .
+
+ppatt:
+	Under ?a , ?b does not succeed
+		?a: certain circumstances
+		?b: it
+	?a is produced
+		?a: nutritional deficiency
+
+
+label:    sent_11
+sentence: IAPT will succeed or fail on the extent to which it enables partnerships .
+
+ppatt:
+	?a will succeed on ?b
+		?a: IAPT
+		?b: the extent to which it enables partnerships
+	?a fail
+		?a: IAPT
+	?a to ?b enables ?c
+		?a: the extent
+		?b: it
+		?c: partnerships
+
+
+label:    sent_12
+sentence: Treatment with vasodilators did not succeed , and the gangrene continued to spread .
+
+ppatt:
+	?a did not succeed
+		?a: Treatment with vasodilators
+	?a continued to spread
+		?a: the gangrene
+
+
+label:    sent_13
+sentence: Marketing factors often explain why mergers and acquisitions subsequently succeed or fail .
+
+ppatt:
+	?a often explain ?b
+		?a: Marketing factors
+		?b: SOMETHING := why mergers and acquisitions subsequently succeed
+	why ?a subsequently succeed
+		?a: mergers
+	why ?a subsequently succeed
+		?a: acquisitions
+	?a fail
+		?a: mergers
+	?a fail
+		?a: acquisitions
+
+
+label:    sent_14
+sentence: How to succeed in patient-centered aphasia therapy and measure results .
+
+ppatt:
+	How to succeed in ?a
+		?a: patient-centered aphasia therapy
+	measure ?a
+		?a: results
+
+
+label:    sent_15
+sentence: Children may or may not succeed in acquiring exactly the language of their parents .
+
+ppatt:
+	?a may may not succeed
+		?a: Children
+	?a acquiring exactly ?b
+		?a: Children
+		?b: the language of their parents
+
+
+label:    sent_16
+sentence: Treatment was restricted to detoxification and did not succeed in reducing fatal overdoses .
+
+ppatt:
+	?a was restricted to ?b
+		?a: Treatment
+		?b: detoxification
+	?a did not succeed
+		?a: Treatment
+	?a reducing ?b
+		?a: Treatment
+		?b: fatal overdoses
+
+
+label:    sent_17
+sentence: She wanted to send the whole artefact off secretly but obviously did not succeed .
+
+ppatt:
+	?a wanted to send ?b
+		?a: She
+		?b: the whole artefact
+	?a wanted to off secretly obviously did not succeed
+		?a: She
+
+
+label:    sent_18
+sentence: Postoperative enterocutaneous fistula : when to reoperate and how to succeed .
+
+ppatt:
+	?a how to succeed
+		?a: Postoperative enterocutaneous fistula
+
+
+label:    sent_19
+sentence: Therapy of carcinoma of the oesophagus : either attempt it not or succeed .
+
+ppatt:
+
+
+
+label:    sent_20
+sentence: Alfimeprase to succeed Genentech 's alteplase ? Ending polio--if at first you do n't succeed . . . Preventive and curative management needs to succeed the current palliative approach to therapy . Baltimore to succeed Lederberg ? If at first you do n't succeed .. . Canadian nurses succeed again ! This area might succeed the hippocampus in linking distributed neocortical representations .
+
+ppatt:
+	?a succeed ?b
+		?a: Alfimeprase
+		?b: Genentech 's alteplase
+	?a Ending ?b
+		?a: Alfimeprase
+		?b: polio--if
+	?a at ?b do n't succeed
+		?a: Alfimeprase to succeed Genentech 's alteplase ? Ending polio--if
+		?b: first you
+	?a needs to succeed ?b ?c
+		?a: Preventive and curative management
+		?b: the current palliative approach to therapy
+		?c: Baltimore
+	?a needs to to succeed ?b
+		?a: Preventive and curative management
+		?b: Lederberg
+	at ?a ?b do n't succeed ?c
+		?a: first
+		?b: you
+		?c: ..
+	?a succeed again
+		?a: Canadian nurses
+	?a might succeed ?b
+		?a: This area
+		?b: the hippocampus
+	?a linking ?b
+		?a: This area
+		?b: distributed neocortical representations
+
+
+label:    sent_21
+sentence: How managers succeed in receivables : studies from the field .
+
+ppatt:
+	How ?a succeed in ?b
+		?a: managers
+		?b: receivables
+
+
+label:    sent_22
+sentence: To succeed in sphincteroplasty the proper qualification to the procedure should be crucial .
+
+ppatt:
+	succeed in ?a ?b
+		?a: sphincteroplasty
+		?b: the proper qualification to the procedure
+	?a should be crucial
+		?a: the proper qualification to the procedure
+
+

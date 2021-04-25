@@ -1,0 +1,129 @@
+label:    sent_1
+sentence: The Y202A mutant gained the ability to glycosylate the 5-hydroxyl of genistein .
+
+ppatt:
+	?a gained ?b
+		?a: The Y202A mutant
+		?b: the ability to glycosylate the 5-hydroxyl of genistein
+	?a glycosylate ?b
+		?a: the ability
+		?b: the 5-hydroxyl of genistein
+
+
+label:    sent_2
+sentence: All5341 appears to be the transferase required to glycosylate the glycolipid aglycone .
+
+ppatt:
+	?a appears to be the transferase
+		?a: All5341
+	?a required to glycosylate ?b
+		?a: the transferase
+		?b: the glycolipid aglycone
+
+
+label:    sent_3
+sentence: The colorimeter method of defining glycosylate proteins is used in the test .
+
+ppatt:
+	?a defining ?b
+		?a: The colorimeter method
+		?b: glycosylate proteins
+	?a is used in ?b
+		?a: The colorimeter method of defining glycosylate proteins
+		?b: the test
+
+
+label:    sent_4
+sentence: To date , glycosyltransferases that glycosylate AGP backbone have remained largely unknown .
+
+ppatt:
+	?a glycosylate ?b
+		?a: glycosyltransferases
+		?b: AGP backbone
+	To ?a , ?b have remained largely unknown
+		?a: date
+		?b: glycosyltransferases that glycosylate AGP backbone
+
+
+label:    sent_5
+sentence: Surprise ? Bacteria glycosylate proteins too . A number of enzymes that glycosylate WTA in Staphylococcus aureus have recently been identified .
+
+ppatt:
+	?a ?b glycosylate ?c too
+		?a: Surprise
+		?b: Bacteria
+		?c: proteins
+	?a glycosylate ?b in ?c
+		?a: A number of enzymes
+		?b: WTA
+		?c: Staphylococcus aureus
+	?a have recently been identified
+		?a: A number of enzymes that glycosylate WTA in Staphylococcus aureus
+
+
+label:    sent_6
+sentence: Sperm are also able to glycosylate intact zona pellucida with UDP-galactose .
+
+ppatt:
+	?a are also able to glycosylate ?b
+		?a: Sperm
+		?b: intact zona pellucida with UDP-galactose
+
+
+label:    sent_7
+sentence: Both cell types similarly glycosylate synaptophysin and sort it into indistinguishable microvesicles .
+
+ppatt:
+	?a similarly glycosylate ?b
+		?a: Both cell types
+		?b: synaptophysin
+	?a sort ?b into ?c
+		?a: Both cell types
+		?b: it
+		?c: indistinguishable microvesicles
+
+
+label:    sent_8
+sentence: These glycosyltransferases are active , and intact platelets glycosylate large exogenous substrates .
+
+ppatt:
+	?a are active
+		?a: These glycosyltransferases
+	?a glycosylate ?b
+		?a: intact platelets
+		?b: large exogenous substrates
+
+
+label:    sent_9
+sentence: Whiteflies glycosylate salicylic acid and secrete the conjugate via their honeydew .
+
+ppatt:
+	?a glycosylate ?b
+		?a: Whiteflies
+		?b: salicylic acid
+	?a secrete ?b via ?c
+		?a: Whiteflies
+		?b: the conjugate
+		?c: their honeydew
+
+
+label:    sent_10
+sentence: Two soluble glycosyltransferases glycosylate less efficiently in vivo than their membrane bound counterparts .
+
+ppatt:
+	?a glycosylate less efficiently in vivo than ?b
+		?a: Two soluble glycosyltransferases
+		?b: their membrane bound counterparts
+
+
+label:    sent_11
+sentence: It was found that none of these enzymes could glycosylate .
+
+ppatt:
+	?a was found ?b
+		?a: It
+		?b: SOMETHING := none of these enzymes could glycosylate
+	?a could glycosylate
+		?a: none of these enzymes
+
+

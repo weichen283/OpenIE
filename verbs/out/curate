@@ -1,0 +1,68 @@
+label:    sent_1
+sentence: Using binary classification to prioritize and curate articles for the Comparative Toxicogenomics Database .
+
+ppatt:
+	Using ?a
+		?a: binary classification to prioritize and curate articles for the Comparative Toxicogenomics Database
+	?a prioritize ?b
+		?a: binary classification
+		?b: articles for the Comparative Toxicogenomics Database
+	curate ?a
+		?a: articles for the Comparative Toxicogenomics Database
+
+
+label:    sent_2
+sentence: We seek scientists to adopt and curate individual PGDBs within the BioCyc collection .
+
+ppatt:
+	?a seek ?b to adopt ?c within ?d
+		?a: We
+		?b: scientists
+		?c: individual PGDBs
+		?d: the BioCyc collection
+	?a seek to curate
+		?a: We
+
+
+label:    sent_3
+sentence: Currently , over a hundred community annotators help curate the database .
+
+ppatt:
+	Currently , over ?a help curate ?b
+		?a: a hundred community annotators
+		?b: the database
+
+
+label:    sent_4
+sentence: Data visualization tools were developed to curate , display and query the data . Use of a global metabolic network to curate organismal metabolic networks . How to .. . curate online resources .
+
+ppatt:
+	?a were developed to curate ?b
+		?a: Data visualization tools
+		?b: Use of a global metabolic network to curate organismal metabolic networks
+	?a were developed to display
+		?a: Data visualization tools
+	?a were developed to query ?b
+		?a: Data visualization tools
+		?b: the data
+	?a curate ?b
+		?a: Use of a global metabolic network
+		?b: organismal metabolic networks
+	?a How to ?b . curate ?c
+		?a: Data visualization tools
+		?b: ..
+		?c: online resources
+
+
+label:    sent_5
+sentence: This collection is consolidated from 14 major public databases that curate the scientific literature .
+
+ppatt:
+	?a is consolidated from ?b
+		?a: This collection
+		?b: 14 major public databases that curate the scientific literature
+	?a curate ?b
+		?a: 14 major public databases
+		?b: the scientific literature
+
+

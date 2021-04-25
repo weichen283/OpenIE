@@ -1,0 +1,220 @@
+label:    sent_1
+sentence: Earthquakes can result in collapsed structures with the potential to entrap individuals .
+
+ppatt:
+	?a can result in ?b
+		?a: Earthquakes
+		?b: collapsed structures with the potential to entrap individuals
+	?a entrap ?b
+		?a: the potential
+		?b: individuals
+
+
+label:    sent_2
+sentence: The disorganized neurofilaments appear to entrap mitochondria and other particular organelles .
+
+ppatt:
+	?a appear to entrap ?b
+		?a: The disorganized neurofilaments
+		?b: mitochondria
+	?a appear to entrap ?b
+		?a: The disorganized neurofilaments
+		?b: other particular organelles
+
+
+label:    sent_3
+sentence: Most failures result from inability to entrap the stone in the lithotripsy basket .
+
+ppatt:
+	?a result from ?b
+		?a: Most failures
+		?b: inability to entrap the stone in the lithotripsy basket
+	?a entrap ?b
+		?a: inability
+		?b: the stone in the lithotripsy basket
+
+
+label:    sent_4
+sentence: The dehydration-rehydration vesicles technique was used to entrap antibiotics in liposomes .
+
+ppatt:
+	?a was used to entrap ?b
+		?a: The dehydration-rehydration vesicles technique
+		?b: antibiotics in liposomes
+
+
+label:    sent_5
+sentence: We used non-invasive approaches to entrap exogen scalp hair into silicon-based polymers .
+
+ppatt:
+	?a used ?b
+		?a: We
+		?b: non-invasive approaches to entrap exogen scalp hair into silicon-based polymers
+	?a entrap ?b into ?c
+		?a: non-invasive approaches
+		?b: exogen scalp hair
+		?c: silicon-based polymers
+
+
+label:    sent_6
+sentence: SeaPlaque agarose plugs are used to entrap open-circular forms of recombinant plasmids during electrophoresis .
+
+ppatt:
+	?a are used to entrap ?b during ?c
+		?a: SeaPlaque agarose plugs
+		?b: open-circular forms of recombinant plasmids
+		?c: electrophoresis
+
+
+label:    sent_7
+sentence: Large unilamellar vesicles , prepared with dioctadecyldimethylammonium chloride , entrap nitroblue tetrazolium .
+
+ppatt:
+	?a prepared with ?b
+		?a: Large unilamellar vesicles
+		?b: dioctadecyldimethylammonium chloride
+	?a is/are entrap nitroblue tetrazolium
+		?a: dioctadecyldimethylammonium chloride
+
+
+label:    sent_8
+sentence: These polymeric vesicles efficiently entrap water-soluble drugs . Liposomes are microscopic phospholipid vesicles that can entrap drug molecules .
+
+ppatt:
+	?a efficiently entrap ?b
+		?a: These polymeric vesicles
+		?b: water-soluble drugs
+	?a are microscopic phospholipid vesicles
+		?a: Liposomes
+	?a can entrap ?b
+		?a: microscopic phospholipid vesicles
+		?b: drug molecules
+
+
+label:    sent_9
+sentence: These electrostatically-charged adhesive networks trigger intrinsic coagulation , limit dispersion and entrap the pathogens .
+
+ppatt:
+	?a trigger ?b
+		?a: These electrostatically-charged adhesive networks
+		?b: intrinsic coagulation
+	?a limit ?b
+		?a: These electrostatically-charged adhesive networks
+		?b: dispersion
+	?a entrap ?b
+		?a: These electrostatically-charged adhesive networks
+		?b: the pathogens
+
+
+label:    sent_10
+sentence: Pyridoxamine has potent ability to entrap RCOs and prevent their toxicity . Metal-assembled resorcinarene-based cages enclose space and entrap organic molecules from water .
+
+ppatt:
+	?a has ?b
+		?a: Pyridoxamine
+		?b: potent ability to entrap RCOs and prevent their toxicity
+	?a entrap ?b
+		?a: potent ability
+		?b: RCOs
+	prevent ?a
+		?a: their toxicity
+	?a enclose ?b
+		?a: Metal-assembled resorcinarene-based cages
+		?b: space from water
+	?a enclose ?b
+		?a: Metal-assembled resorcinarene-based cages
+		?b: entrap organic molecules
+
+
+label:    sent_11
+sentence: Neutrophils expel extracellular traps ( NETs ) to entrap and exterminate the invaded micro-organisms .
+
+ppatt:
+	?a expel ?b
+		?a: Neutrophils
+		?b: extracellular traps to entrap
+	?a is/are NETs
+		?a: extracellular traps to entrap
+	?a exterminate ?b
+		?a: Neutrophils
+		?b: the invaded micro-organisms
+
+
+label:    sent_12
+sentence: The copolymers tested can entrap 35 % of paclitaxel by weight on the average .
+
+ppatt:
+	?a tested
+		?a: The copolymers
+	?a can entrap ?b by ?c on ?d
+		?a: The copolymers tested
+		?b: 35 % of paclitaxel
+		?c: weight
+		?d: the average
+
+
+label:    sent_13
+sentence: Self-assembled reverse micelles in supercritical CO2 entrap protein in native state .
+
+ppatt:
+
+
+
+label:    sent_14
+sentence: Hollow spheres can entrap guest molecules within their internal spaces .
+
+ppatt:
+	?a can entrap ?b within ?c
+		?a: Hollow spheres
+		?b: guest molecules
+		?c: their internal spaces
+
+
+label:    sent_15
+sentence: They can entrap drugs and have been used experimentally as sustained drug delivery systems .
+
+ppatt:
+	?a can entrap ?b
+		?a: They
+		?b: drugs
+	?a have been used experimentally as ?b
+		?a: They
+		?b: sustained drug delivery systems
+
+
+label:    sent_16
+sentence: Various anatomic structures may entrap and potentially compress the mandibular nerve branches .
+
+ppatt:
+	?a may entrap
+		?a: Various anatomic structures
+	?a potentially compress ?b
+		?a: Various anatomic structures
+		?b: the mandibular nerve branches
+
+
+label:    sent_17
+sentence: The structures entrap and kill insects and therefore are most probably protective .
+
+ppatt:
+	?a entrap ?b
+		?a: The structures
+		?b: insects
+	?a kill
+		?a: The structures
+
+
+label:    sent_18
+sentence: It is concluded that NETs entrap but do not kill microbes .
+
+ppatt:
+	?a is concluded ?b
+		?a: It
+		?b: SOMETHING := NETs entrap
+	?a entrap
+		?a: NETs
+	?a do not kill ?b
+		?a: NETs
+		?b: microbes
+
+

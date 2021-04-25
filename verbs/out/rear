@@ -1,0 +1,185 @@
+label:    sent_1
+sentence: The temperature range of 23-27degreesC was initially selected to rear the insects and plants .
+
+ppatt:
+	?a was initially selected to rear ?b
+		?a: The temperature range of 23-27degreesC
+		?b: the insects
+	?a was initially selected to rear ?b
+		?a: The temperature range of 23-27degreesC
+		?b: plants
+
+
+label:    sent_2
+sentence: The animals were then mated and allowed to rear their litters .
+
+ppatt:
+	?a were then mated
+		?a: The animals
+	?a allowed to rear ?b
+		?a: The animals
+		?b: their litters
+
+
+label:    sent_3
+sentence: Regardless of paternity , all males in a pack help rear the pups . Females did not accept and rear the young after caesarian section .
+
+ppatt:
+	Regardless of ?a , ?b help ?c ?d
+		?a: paternity
+		?b: all males in a pack
+		?c: rear
+		?d: the pups
+	?a did not accept ?b after ?c
+		?a: Females
+		?b: the young
+		?c: caesarian section
+	?a rear
+		?a: Females
+
+
+label:    sent_4
+sentence: Rats reproduce and rear litters during chronic exposure to 150-kV/m , 60-Hz electric fields .
+
+ppatt:
+	?a reproduce ?b during ?c
+		?a: Rats
+		?b: rear litters
+		?c: chronic exposure to 150-kV/m , electric fields
+
+
+label:    sent_5
+sentence: The females were allowed to deliver and rear their offspring until Postpartum Day 21 .
+
+ppatt:
+	?a were allowed to deliver ?b
+		?a: The females
+		?b: their offspring until Postpartum Day 21
+	?a were allowed to rear
+		?a: The females
+
+
+label:    sent_6
+sentence: Test road experiment on imminent warning rear lighting and signaling .
+
+ppatt:
+	Test ?a on ?b
+		?a: road experiment
+		?b: imminent warning rear
+
+
+label:    sent_7
+sentence: Workers rear mainly queens in monogynous colonies and males in polygynous colonies .
+
+ppatt:
+	?a ?b mainly queens in ?c
+		?a: Workers
+		?b: rear
+		?c: monogynous colonies in polygynous colonies
+	?a ?b mainly queens in ?c
+		?a: Workers
+		?b: rear
+		?c: males
+
+
+label:    sent_8
+sentence: Human subject rear passenger symptom response to frontal car-to-car low-speed crash tests .
+
+ppatt:
+
+
+
+label:    sent_9
+sentence: Cervical spine fractures and rear car seat restraints .
+
+ppatt:
+
+
+
+label:    sent_10
+sentence: Dams were allowed to give birth and rear their litters .
+
+ppatt:
+	?a were allowed to give ?b
+		?a: Dams
+		?b: birth
+	?a were allowed to give ?b
+		?a: Dams
+		?b: rear
+	?a were allowed to give ?b
+		?a: Dams
+		?b: their litters
+
+
+label:    sent_11
+sentence: Other dams were allowed to give birth and rear their litters .
+
+ppatt:
+	?a were allowed to give ?b
+		?a: Other dams
+		?b: birth
+	?a were allowed to give ?b
+		?a: Other dams
+		?b: rear
+	?a were allowed to give ?b
+		?a: Other dams
+		?b: their litters
+
+
+label:    sent_12
+sentence: In only 2 of 68 triplet births did the parents rear the young unaided .
+
+ppatt:
+	In ?a did
+		?a: only 2 of 68 triplet births
+	?a rear ?b
+		?a: the parents
+		?b: the young unaided
+
+
+label:    sent_13
+sentence: Only two facilities still rear both fish species in neighbouring cages in monoculture .
+
+ppatt:
+	?a still rear ?b
+		?a: Only two facilities
+		?b: fish species in neighbouring cages in monoculture
+
+
+label:    sent_14
+sentence: Unlike robins , we knowingly rear strange young .
+
+ppatt:
+	Unlike ?a , ?b knowingly rear ?c
+		?a: robins
+		?b: we
+		?c: strange young
+
+
+label:    sent_15
+sentence: Thus , it can walk , rear by limbs and groom its body . Attempts were also made to rear P. maculata in captivity .
+
+ppatt:
+	Thus , ?a can walk ?b
+		?a: it
+		?b: rear by limbs
+	?a groom ?b
+		?a: it
+		?b: its body
+	?a were also made to rear P. maculata in ?b
+		?a: Attempts
+		?b: captivity
+
+
+label:    sent_16
+sentence: Next we fold from the rear the antehelix and hide the concha .
+
+ppatt:
+	Next ?a fold from ?b
+		?a: we
+		?b: the rear the antehelix
+	?a hide ?b
+		?a: we
+		?b: the concha
+
+

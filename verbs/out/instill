@@ -1,0 +1,129 @@
+label:    sent_1
+sentence: How to instill nose drops . Pressure exerted to instill the BCG may have favored dissemination .
+
+ppatt:
+	How to instill ?a ?b
+		?a: nose drops
+		?b: Pressure exerted to instill the BCG
+	?a exerted to instill ?b
+		?a: Pressure
+		?b: the BCG
+	?a may have ?b
+		?a: Pressure exerted to instill the BCG
+		?b: favored dissemination
+
+
+label:    sent_2
+sentence: The intervention aimed to motivate and instill confidence in using condoms consistently .
+
+ppatt:
+	?a aimed to motivate ?b
+		?a: The intervention
+		?b: confidence
+	aimed to instill ?a
+		?a: confidence
+	using ?a consistently
+		?a: condoms
+
+
+label:    sent_3
+sentence: Group A patients were advised to instill clotrimazole ear drops by themselves .
+
+ppatt:
+	?a were advised to instill ?b by ?c
+		?a: Group A patients
+		?b: clotrimazole ear drops
+		?c: themselves
+
+
+label:    sent_4
+sentence: Measures that can be used to instill critical thinking skills in nurse prescribers .
+
+ppatt:
+	?a can be used to instill ?b
+		?a: Measures
+		?b: critical thinking skills in nurse prescribers
+
+
+label:    sent_5
+sentence: How to instill compassion in a healthcare organization ? Heroic measures merely instill false hopes .
+
+ppatt:
+	How to instill ?a in ?b ?c
+		?a: compassion
+		?b: a healthcare organization
+		?c: Heroic measures
+	?a merely instill ?b
+		?a: Heroic measures
+		?b: false hopes
+
+
+label:    sent_6
+sentence: Ophthalmic nurses and technicians often instill the dilating eyedrops before patients undergo ocular examination .
+
+ppatt:
+	?a often instill ?b
+		?a: Ophthalmic nurses
+		?b: the dilating eyedrops
+	?a often instill ?b
+		?a: technicians
+		?b: the dilating eyedrops
+	?a before ?b undergo ?c
+		?a: Ophthalmic nurses
+		?b: patients
+		?c: ocular examination
+	?a before ?b undergo ?c
+		?a: technicians
+		?b: patients
+		?c: ocular examination
+
+
+label:    sent_7
+sentence: Classical conditioning procedures instill knowledge about the temporal relationships between events .
+
+ppatt:
+	?a instill ?b
+		?a: Classical conditioning procedures
+		?b: knowledge about the temporal relationships between events
+
+
+label:    sent_8
+sentence: Our results should instill caution in those considering similarly designed studies .
+
+ppatt:
+	?a should instill ?b
+		?a: Our results
+		?b: caution in those considering similarly designed studies
+	?a considering ?b
+		?a: those
+		?b: similarly designed studies
+
+
+label:    sent_9
+sentence: Its basic cost-capturing systems can instill accountability and behavior modification in those directly responsible .
+
+ppatt:
+	?a can instill ?b
+		?a: Its basic cost-capturing systems
+		?b: accountability in those directly responsible
+	?a can instill ?b
+		?a: Its basic cost-capturing systems
+		?b: behavior
+	?a can instill ?b
+		?a: Its basic cost-capturing systems
+		?b: modification
+
+
+label:    sent_10
+sentence: We lack data on how physicians can instill confidence in patients .
+
+ppatt:
+	?a lack ?b
+		?a: We
+		?b: data on how physicians can instill confidence in patients
+	?a how ?b can instill ?c
+		?a: data
+		?b: physicians
+		?c: confidence in patients
+
+

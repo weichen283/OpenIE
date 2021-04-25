@@ -1,0 +1,147 @@
+label:    sent_1
+sentence: Plant lipoxygenases are well known for their ability to bleach beta-carotene .
+
+ppatt:
+	?a are well known for ?b
+		?a: Plant lipoxygenases
+		?b: their ability to bleach beta-carotene
+	?a bleach ?b
+		?a: their ability
+		?b: beta-carotene
+
+
+label:    sent_2
+sentence: A step-by-step diagram on how to bleach needles was provided .
+
+ppatt:
+	?a how was provided
+		?a: A step-by-step diagram on to bleach needles
+
+
+label:    sent_3
+sentence: Light sources are unnecessary to bleach teeth . Household bleach as disinfectant for use by injecting drug users .
+
+ppatt:
+	?a are unnecessary to bleach ?b . ?c as ?d for ?e
+		?a: Light sources
+		?b: teeth
+		?c: Household bleach
+		?d: disinfectant
+		?e: use
+	?a injecting ?b
+		?a: Light sources
+		?b: drug users
+
+
+label:    sent_4
+sentence: Household bleach as disinfectant for use by injecting drug users .
+
+ppatt:
+	?a injecting ?b
+		?a: Household bleach as disinfectant for use
+		?b: drug users
+
+
+label:    sent_5
+sentence: Household bleach as disinfectant for use by injecting drug users .
+
+ppatt:
+	?a injecting ?b
+		?a: Household bleach as disinfectant for use
+		?b: drug users
+
+
+label:    sent_6
+sentence: Will bleach decontaminate needles during cocaine binges in shooting galleries ? Pulmonary effects of household bleach ingestion in children .
+
+ppatt:
+	Will bleach ?a during ?b
+		?a: decontaminate needles
+		?b: cocaine binges in shooting galleries
+
+
+label:    sent_7
+sentence: An increasing number of patients are demanding faster ways to bleach their teeth . ( 2 ) visible radiation to bleach the guide .
+
+ppatt:
+	?a are demanding faster ways
+		?a: An increasing number of patients
+	?a bleach ?b
+		?a: demanding faster ways
+		?b: their teeth
+	bleach ?a ?b
+		?a: their teeth
+		?b: visible radiation to bleach the guide
+	?a visible radiation
+		?a: An increasing number of patients
+	?a bleach ?b
+		?a: visible radiation
+		?b: the guide
+
+
+label:    sent_8
+sentence: Dealers ' homes were also visited to distribute risk reduction information and bleach kits . Placebo control treatments did not bleach . ( 1 ) Light causes vertebrate visual pigments to bleach , liberating the chromophore .
+
+ppatt:
+	' ?a were also visited to distribute ?b
+		?a: Dealers homes
+		?b: risk reduction information
+	' ?a were also visited to distribute ?b
+		?a: Dealers homes
+		?b: bleach kits
+	?a did not bleach
+		?a: Placebo control treatments
+	?a causes ?b to ?c
+		?a: Light
+		?b: vertebrate visual pigments
+		?c: bleach
+	?a liberating ?b
+		?a: Light
+		?b: the chromophore
+
+
+label:    sent_9
+sentence: These tissues turned olive-green but did not bleach .
+
+ppatt:
+	?a turned olive-green
+		?a: These tissues
+	?a did not bleach
+		?a: These tissues
+
+
+label:    sent_10
+sentence: To bleach or not to bleach ? Like reef-building corals , some sponges have been reported to bleach and die .
+
+ppatt:
+	bleach to ?a ? Like ?b ?c
+		?a: not bleach
+		?b: reef-building corals
+		?c: some sponges
+	?a have been reported to bleach
+		?a: some sponges
+	?a have been reported to die
+		?a: some sponges
+
+
+label:    sent_11
+sentence: Degradation of organochlorine compounds in spent sulfite bleach plant effluents by actinomycetes .
+
+ppatt:
+
+
+
+label:    sent_12
+sentence: Compliance to bleach disinfection protocols among injecting drug users in Miami .
+
+ppatt:
+
+
+
+label:    sent_13
+sentence: Hydrogen peroxide bleach technique in the diagnosis of malignant melanoma .
+
+ppatt:
+
+
+

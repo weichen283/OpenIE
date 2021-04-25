@@ -1,0 +1,15 @@
+label:    sent_1
+sentence: To investigate this possibility , we developed methods to precisely stage , sex , and characterize the transcriptomes of individual embryos .
+
+ppatt:
+	investigate ?a ?b
+		?a: this possibility
+		?b: we
+	?a developed ?b
+		?a: we
+		?b: methods to precisely stage , sex
+	?a characterize ?b
+		?a: we
+		?b: the transcriptomes of individual embryos
+
+

@@ -1,0 +1,63 @@
+label:    sent_1
+sentence: There was no visible tumour relapse .
+
+ppatt:
+	There was ?a
+		?a: no visible tumour relapse
+
+
+label:    sent_2
+sentence: Although fewer than 10 % of patients show metastatic disease at diagnosis , approximately one in every five patients will relapse .
+
+ppatt:
+	?a show ?b at ?c
+		?a: fewer than 10 % of patients
+		?b: metastatic disease
+		?c: diagnosis
+	?a will relapse
+		?a: approximately one in every five patients
+
+
+label:    sent_3
+sentence: Those who relapse and are resistant to steroids should be placed on long-term immunosuppressive agents .
+
+ppatt:
+	?a ?b are resistant to ?c
+		?a: Those
+		?b: relapse
+		?c: steroids
+	?a should be placed on ?b
+		?a: Those who relapse and are resistant to steroids
+		?b: long-term immunosuppressive agents
+
+
+label:    sent_4
+sentence: Alkylators or nucleosides analogs , often in combination with rituximab , are the most commonly used drugs , but WM will relapse and even salvage treatments may fail .
+
+ppatt:
+	?a are the most commonly used drugs
+		?a: Alkylators , often in combination with rituximab
+	?a are the most commonly used drugs
+		?a: nucleosides analogs
+	?a will ?b may fail
+		?a: WM
+		?b: relapse
+	?a will ?b may fail
+		?a: WM
+		?b: even salvage treatments
+
+
+label:    sent_5
+sentence: The capacity of an intervention such as the administration of a mAb may initially protect an animal from disease , but the disease can relapse which would not be realized in short CFU experiments .
+
+ppatt:
+	?a may initially protect ?b
+		?a: The capacity of an intervention such as the administration of a mAb
+		?b: an animal from disease
+	?a can relapse
+		?a: the disease
+	?a would not be realized in ?b
+		?a: relapse
+		?b: short CFU experiments
+
+

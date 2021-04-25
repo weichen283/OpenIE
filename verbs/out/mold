@@ -1,0 +1,22 @@
+label:    sent_1
+sentence: Although much about a child 's sleep is biologically determined , extrinsic factors , usually through the parents , also mold the child 's sleep behavior .
+
+ppatt:
+	much about ?a is biologically determined
+		?a: a child 's sleep
+	?a also mold ?b
+		?a: extrinsic factors , usually through the parents
+		?b: the child 's sleep behavior
+
+
+label:    sent_2
+sentence: ForSim is a flexible forward evolutionary simulation tool for exploring the consequences of evolution by phenotype , whereby demographic , chance , behavioral and selective effects mold genetic architecture .
+
+ppatt:
+	?a is a flexible forward evolutionary simulation tool
+		?a: ForSim
+	?a exploring ?b
+		?a: a flexible forward evolutionary simulation tool
+		?b: the consequences of evolution by phenotype , demographic , chance , behavioral and selective
+
+

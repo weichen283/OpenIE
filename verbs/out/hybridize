@@ -1,0 +1,261 @@
+label:    sent_1
+sentence: However , the presence of target ssDNA will hybridize with the probe . Sequences in the proximal IRL of herpes simplex virus DNA hybridize to human DNA .
+
+ppatt:
+	However , ?a will hybridize with ?b
+		?a: the presence of target ssDNA
+		?b: the probe
+	?a hybridize to ?b
+		?a: Sequences in the proximal IRL of herpes simplex virus DNA
+		?b: human DNA
+
+
+label:    sent_2
+sentence: The mPL-II cDNA clones hybridize to a 1.0-kilobase placental-specific mRNA .
+
+ppatt:
+	?a hybridize to ?b
+		?a: The mPL-II cDNA clones
+		?b: a 1.0-kilobase placental-specific mRNA
+
+
+label:    sent_3
+sentence: Specific primers were designed to hybridize to CS gene-specific regions .
+
+ppatt:
+	?a were designed to hybridize to ?b
+		?a: Specific primers
+		?b: CS gene-specific regions
+
+
+label:    sent_4
+sentence: Analysis of these features often employs oligonucleotides that hybridize at defined locations .
+
+ppatt:
+	?a often employs ?b
+		?a: Analysis of these features
+		?b: oligonucleotides that hybridize at defined locations
+	?a hybridize at ?b
+		?a: oligonucleotides
+		?b: defined locations
+
+
+label:    sent_5
+sentence: Recombinant phages were used to hybridize with a family of mung bean repetitive DNA .
+
+ppatt:
+	?a were used to hybridize with ?b
+		?a: Recombinant phages
+		?b: a family of mung bean repetitive DNA
+
+
+label:    sent_6
+sentence: Both races do not freely hybridize in nature and their populations are genetically differentiated .
+
+ppatt:
+	?a do not freely hybridize in ?b
+		?a: Both races
+		?b: nature
+	?a are genetically differentiated
+		?a: their populations
+
+
+label:    sent_7
+sentence: Ecotypes hybridize in contact zones , but gene flow is impeded by assortative mating .
+
+ppatt:
+	?a hybridize in ?b
+		?a: Ecotypes
+		?b: contact zones
+	?a is impeded by ?b
+		?a: gene flow
+		?b: assortative mating
+
+
+label:    sent_8
+sentence: For two nearby parallel Mn moments the acceptor states hybridize and split in energy . B-G cDNA clones have multiple small repeats and hybridize to both chicken MHC regions . PCC 7120 genomic DNA , but did hybridize to Oenothera chloroplast DNA .
+
+ppatt:
+	For ?a ?b hybridize in ?c
+		?a: two nearby parallel Mn moments
+		?b: the acceptor states
+		?c: energy
+	?a split
+		?a: the acceptor states
+	?a have ?b
+		?a: B-G cDNA clones
+		?b: multiple small repeats
+	?a hybridize to ?b
+		?a: B-G cDNA clones
+		?b: both chicken MHC regions
+	?a hybridize to ?b
+		?a: B-G cDNA clones
+		?b: PCC 7120 genomic DNA
+	?a did hybridize to ?b
+		?a: B-G cDNA clones
+		?b: Oenothera chloroplast DNA
+
+
+label:    sent_9
+sentence: These conjugates were able to hybridize with complementary oligonucleotide and bind biotin , respectively .
+
+ppatt:
+	?a were able to hybridize with ?b
+		?a: These conjugates
+		?b: complementary oligonucleotide
+	?a were able to bind ?b respectively
+		?a: These conjugates
+		?b: biotin
+
+
+label:    sent_10
+sentence: They hybridize with two mRNAs that differ in size by about 300 nucleotides .
+
+ppatt:
+	?a hybridize with ?b
+		?a: They
+		?b: two mRNAs that differ in size by about 300 nucleotides
+	?a differ in ?b
+		?a: two mRNAs
+		?b: size by about 300 nucleotides
+
+
+label:    sent_11
+sentence: Total RNA from rat spleen did not hybridize .
+
+ppatt:
+	?a did not hybridize
+		?a: Total RNA from rat spleen
+
+
+label:    sent_12
+sentence: The sequences of two cloned genes from Drosophila which hybridize with tRNALys5 are reported .
+
+ppatt:
+	?a hybridize with ?b
+		?a: two cloned genes from Drosophila
+		?b: tRNALys5
+	?a are reported
+		?a: The sequences of two cloned genes from Drosophila which hybridize with tRNALys5
+
+
+label:    sent_13
+sentence: SEM revealed that the nano-primer was unable to decalcify and hybridize the dentin surface . siRNAs designed to reside within siRNA seats are less likely to hybridize off-target .
+
+ppatt:
+	?a revealed ?b
+		?a: SEM
+		?b: SOMETHING := the nano-primer was unable to decalcify and hybridize the dentin surface
+	?a was unable to decalcify ?b
+		?a: the nano-primer
+		?b: the dentin surface
+	?a was unable to hybridize
+		?a: the nano-primer
+	?a designed to reside within ?b
+		?a: siRNAs
+		?b: siRNA seats
+	?a are less likely to hybridize off-target
+		?a: siRNAs designed to reside within siRNA seats
+
+
+label:    sent_14
+sentence: The two cDNA inserts did not cross hybridize and had distinct restriction maps .
+
+ppatt:
+	?a did not cross hybridize
+		?a: The two cDNA inserts
+	?a did not cross had ?b
+		?a: The two cDNA inserts
+		?b: distinct restriction maps
+
+
+label:    sent_15
+sentence: They can hybridize and thereby link up modules containing complementary sequences .
+
+ppatt:
+	?a can hybridize
+		?a: They
+	?a thereby link ?b
+		?a: They
+		?b: up modules containing complementary sequences
+	?a containing ?b
+		?a: up modules
+		?b: complementary sequences
+
+
+label:    sent_16
+sentence: They hybridize frequently and likely share a significant portion of their genomes through introgression .
+
+ppatt:
+	?a hybridize frequently
+		?a: They
+	?a likely share ?b through ?c
+		?a: They
+		?b: a significant portion of their genomes
+		?c: introgression
+
+
+label:    sent_17
+sentence: Signal probes were applied to hybridize and protect the rRNA target .
+
+ppatt:
+	?a were applied to hybridize ?b
+		?a: Signal probes
+		?b: the rRNA target
+	?a were applied to protect
+		?a: Signal probes
+
+
+label:    sent_18
+sentence: Oligonucleotide probes longer than 22 residues were also used but did not hybridize .
+
+ppatt:
+	?a were also used
+		?a: Oligonucleotide probes longer than 22 residues
+	?a did not hybridize
+		?a: Oligonucleotide probes longer than 22 residues
+
+
+label:    sent_19
+sentence: The Odocoileus species are known to hybridize and sharing of mtDNA haplotypes was observed .
+
+ppatt:
+	?a are known to hybridize
+		?a: The Odocoileus species
+	?a was observed
+		?a: sharing of mtDNA haplotypes
+
+
+label:    sent_20
+sentence: Antigene sequences hybridize double-stranded DNA in the nucleus , forming triple helixes .
+
+ppatt:
+	?a hybridize ?b in ?c
+		?a: Antigene sequences
+		?b: double-stranded DNA
+		?c: the nucleus
+	?a forming ?b
+		?a: Antigene sequences
+		?b: triple helixes
+
+
+label:    sent_21
+sentence: In addition , we hybridize the niching method with the k-means algorithm .
+
+ppatt:
+	In ?a , ?b hybridize ?c with ?d
+		?a: addition
+		?b: we
+		?c: the niching method
+		?d: the k-means algorithm
+
+
+label:    sent_22
+sentence: However , DNAs from these S. hyicus isolates did cross hybridize with each other .
+
+ppatt:
+	However , ?a did cross hybridize with ?b
+		?a: DNAs from these S. hyicus isolates
+		?b: each other
+
+

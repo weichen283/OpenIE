@@ -1,0 +1,288 @@
+label:    sent_1
+sentence: However , this advantage did not generalize to the visual domain .
+
+ppatt:
+	However , ?a did not generalize to ?b
+		?a: this advantage
+		?b: the visual domain
+
+
+label:    sent_2
+sentence: However , the effect did not generalize to insight into numbers 21-100 .
+
+ppatt:
+	However , ?a did not generalize to ?b
+		?a: the effect
+		?b: insight into numbers 21-100
+
+
+label:    sent_3
+sentence: However , the effect did not generalize to insight into numbers 21-100 .
+
+ppatt:
+	However , ?a did not generalize to ?b
+		?a: the effect
+		?b: insight into numbers 21-100
+
+
+label:    sent_4
+sentence: Small sample sizes and inconsistencies in outcome measurement limit the ability to generalize findings .
+
+ppatt:
+	?a limit ?b
+		?a: Small sample sizes in outcome measurement
+		?b: the ability to generalize findings
+	?a limit ?b
+		?a: inconsistencies
+		?b: the ability to generalize findings
+	?a generalize ?b
+		?a: the ability
+		?b: findings
+
+
+label:    sent_5
+sentence: Additional research is needed to validate and generalize our findings .
+
+ppatt:
+	?a is needed to validate ?b
+		?a: Additional research
+		?b: our findings
+	?a is needed to generalize
+		?a: Additional research
+
+
+label:    sent_6
+sentence: Attempts to generalize the design approach used in this single successful case have failed .
+
+ppatt:
+	?a generalize ?b
+		?a: Attempts
+		?b: the design approach used in this single successful case
+	?a used in ?b
+		?a: the design approach
+		?b: this single successful case
+	?a have failed
+		?a: Attempts to generalize the design approach used in this single successful case
+
+
+label:    sent_7
+sentence: However , this algorithm does not seem to generalize to mutual capacitance problems .
+
+ppatt:
+	However , ?a does not seem to generalize to ?b
+		?a: this algorithm
+		?b: mutual capacitance problems
+
+
+label:    sent_8
+sentence: Countering fear renewal : changes in the UCS representation generalize across contexts .
+
+ppatt:
+	Countering ?a
+		?a: fear renewal
+	?a generalize across ?b
+		?a: changes in the UCS representation
+		?b: contexts
+
+
+label:    sent_9
+sentence: Similarly , nicotine failed to generalize with physostigmine at doses up to 1.0 mg/kg .
+
+ppatt:
+	Similarly , ?a failed to generalize with ?b at ?c
+		?a: nicotine
+		?b: physostigmine
+		?c: doses up 1.0 mg/kg
+
+
+label:    sent_10
+sentence: We also generalize some known results from the real-valued case to the complex-valued one . We generalize their triad dynamics to k-cycle dynamics for arbitrary integer k . Multi-state models generalize competing risks models by also describing transitions to intermediate events .
+
+ppatt:
+	?a also generalize ?b
+		?a: We
+		?b: some known results from the real-valued case to the complex-valued one
+	?a generalize ?b
+		?a: We
+		?b: their triad dynamics to k-cycle dynamics for arbitrary integer k
+	?a generalize competing ?b
+		?a: Multi-state models
+		?b: risks models
+	?a also describing ?b
+		?a: Multi-state models
+		?b: transitions to intermediate events
+
+
+label:    sent_11
+sentence: We also generalize the concept of saddle trajectory and the corresponding reconstruction algorithm .
+
+ppatt:
+	?a also generalize ?b
+		?a: We
+		?b: the concept of saddle trajectory and the corresponding reconstruction algorithm
+
+
+label:    sent_12
+sentence: These formulas generalize the known results for n < or = 4 .
+
+ppatt:
+	?a generalize ?b
+		?a: These formulas
+		?b: the known results for n < or = 4
+	= ?a
+		?a: 4
+
+
+label:    sent_13
+sentence: The methods generalize earlier approaches where undesirable events and therapeutic benefit are both binary .
+
+ppatt:
+	?a generalize ?b
+		?a: The methods
+		?b: earlier approaches where undesirable events and therapeutic benefit are both binary
+	?a where ?b are both binary
+		?a: earlier approaches
+		?b: undesirable events
+	?a where ?b are both binary
+		?a: earlier approaches
+		?b: therapeutic benefit
+
+
+label:    sent_14
+sentence: The equations are found to generalize those of Kuramoto to frequency- and position-dependent coupling .
+
+ppatt:
+	?a are found to generalize ?b
+		?a: The equations
+		?b: those of Kuramoto to frequency- and position-dependent coupling
+
+
+label:    sent_15
+sentence: Clinical data are needed to generalize prolapse mesh repair by the vaginal route .
+
+ppatt:
+	?a are needed to generalize ?b by ?c
+		?a: Clinical data
+		?b: prolapse mesh repair
+		?c: the vaginal route
+
+
+label:    sent_16
+sentence: Mapping was independent of the tendency to generalize according to shape .
+
+ppatt:
+	?a was independent of ?b
+		?a: Mapping
+		?b: the tendency to generalize according to shape
+	?a generalize according to ?b
+		?a: the tendency
+		?b: shape
+
+
+label:    sent_17
+sentence: In this paper we generalize and refine these preliminary results .
+
+ppatt:
+	In ?a ?b generalize ?c
+		?a: this paper
+		?b: we
+		?c: these preliminary results
+	?a refine
+		?a: we
+
+
+label:    sent_18
+sentence: Do deficits generalize across multiple emotional expressions or are they limited to specific emotions ? At low visitation , plants generalize and allocate more to female function .
+
+ppatt:
+	Do ?a generalize across ?b
+		?a: deficits
+		?b: multiple emotional expressions
+	are ?a limited to ?b At ?c
+		?a: they
+		?b: specific emotions
+		?c: low visitation
+	?a generalize
+		?a: plants
+	?a allocate more to ?b
+		?a: plants
+		?b: female function
+
+
+label:    sent_19
+sentence: Data were limited to 52 weeks and may not generalize to nonplaque psoriasis .
+
+ppatt:
+	?a were limited to ?b
+		?a: Data
+		?b: 52 weeks
+	?a may not generalize to ?b
+		?a: Data
+		?b: nonplaque psoriasis
+
+
+label:    sent_20
+sentence: They must discriminate linguistically-relevant acoustic variability and generalize across irrelevant variability .
+
+ppatt:
+	?a must discriminate ?b
+		?a: They
+		?b: linguistically-relevant acoustic variability
+	?a generalize across ?b
+		?a: They
+		?b: irrelevant variability
+
+
+label:    sent_21
+sentence: The results were specific for IU and did not generalize to self-reported trait anxiety .
+
+ppatt:
+	?a were specific for ?b
+		?a: The results
+		?b: IU
+	?a did not generalize to ?b
+		?a: The results
+		?b: self-reported trait anxiety
+
+
+label:    sent_22
+sentence: We generalize this algorithm to accommodate noise . Study 1 results did not generalize . Its results may only generalize narrowly .
+
+ppatt:
+	?a generalize ?b
+		?a: We
+		?b: this algorithm to accommodate noise
+	?a accommodate ?b
+		?a: this algorithm
+		?b: noise
+	?a did not generalize
+		?a: Study 1 results
+	?a may only generalize narrowly
+		?a: Its results
+
+
+label:    sent_23
+sentence: Triangular shape of membership functions is supposed , but we generalize the results obtained .
+
+ppatt:
+	?a is supposed
+		?a: Triangular shape of membership functions
+	?a generalize ?b
+		?a: we
+		?b: the results obtained
+	?a obtained
+		?a: the results
+
+
+label:    sent_24
+sentence: Our findings further generalize the bimodality phenomenon and support the NDDG criteria .
+
+ppatt:
+	?a further generalize ?b
+		?a: Our findings
+		?b: the bimodality phenomenon
+	?a support ?b
+		?a: Our findings
+		?b: the NDDG criteria
+
+

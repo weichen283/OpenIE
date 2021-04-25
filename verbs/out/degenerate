@@ -1,0 +1,418 @@
+label:    sent_1
+sentence: As a result , Y chromosomes are unable to respond efficiently to selection , and newly formed Y chromosomes degenerate until few genes remain .
+
+ppatt:
+	As ?a , ?b are unable to respond efficiently to ?c
+		?a: a result
+		?b: Y chromosomes
+		?c: selection
+	?a degenerate until ?b
+		?a: newly formed Y chromosomes
+		?b: few genes
+	?a remain
+		?a: newly formed Y chromosomes degenerate until few genes
+
+
+label:    sent_2
+sentence: Three hours after metamorphic induction , the velar lobes are lost , the serotonergic axons begin to break apart , the five parampullary neurons begin to degenerate , and the five ampullary neurons retract away from the epidermal surface .
+
+ppatt:
+	?a ?b are lost
+		?a: Three hours after metamorphic induction
+		?b: the velar lobes
+	?a begin to break apart
+		?a: the serotonergic axons
+	?a begin to degenerate
+		?a: the five parampullary neurons
+	?a retract away from ?b
+		?a: the five ampullary neurons
+		?b: the epidermal surface
+
+
+label:    sent_3
+sentence: Pathological studies showed both pontine transverse ( cortico-ponto-cerebellar ) and longitudinal ( corticospinal ) fibers degenerate in MSA .
+
+ppatt:
+	?a showed ?b
+		?a: Pathological studies
+		?b: SOMETHING := both pontine transverse and longitudinal fibers degenerate in MSA
+	?a ?b degenerate in ?c
+		?a: Pathological studies
+		?b: both pontine transverse and longitudinal fibers
+		?c: MSA
+
+
+label:    sent_4
+sentence: Consequently , Sertoli cells degenerate due to a decrease in testosterone and detachment from the basal lamina .
+
+ppatt:
+	Consequently , ?a degenerate due to ?b
+		?a: Sertoli cells
+		?b: a decrease in testosterone and detachment from the basal lamina
+
+
+label:    sent_5
+sentence: Outer hair cells of Myo3a ( KI/KI ) mice degenerate with age in a pattern consistent with their progressive hearing loss . Here , using a combination of anatomic , cellular , transgenic labeling , and newly available neuronal subtype-specific molecular analyses , we identify that CSMN and related nonmotor SCPN specifically and progressively degenerate in hSOD1 ( G93A ) mice .
+
+ppatt:
+	?a is/are KI/KI
+		?a: Myo3a
+	?a degenerate with ?b in ?c . Here , using ?d
+		?a: Outer hair cells of Myo3a mice
+		?b: age
+		?c: a pattern consistent with their progressive hearing loss
+		?d: a combination of anatomic , cellular , labeling
+	?a identify ?b
+		?a: we
+		?b: SOMETHING := CSMN and related nonmotor SCPN specifically and progressively degenerate in hSOD1 mice
+	?a specifically and progressively degenerate in ?b
+		?a: CSMN
+		?b: hSOD1 mice
+	?a specifically and progressively degenerate in ?b
+		?a: related nonmotor SCPN
+		?b: hSOD1 mice
+	?a is/are G93A
+		?a: hSOD1
+
+
+label:    sent_6
+sentence: Surprisingly , while Ezh1/2-null hair follicles ( HFs ) arrest morphogenesis and degenerate due to defective proliferation and increased apoptosis , epidermis hyperproliferates and survives engraftment .
+
+ppatt:
+	?a is/are HFs
+		?a: Ezh1/2-null hair follicles
+	survives ?a
+		?a: engraftment
+
+
+label:    sent_7
+sentence: During the regenerative process , their existing sexual organs degenerate and new ones develop .
+
+ppatt:
+	During ?a , ?b develop
+		?a: the regenerative process
+		?b: their existing sexual organs degenerate
+	During ?a , ?b develop
+		?a: the regenerative process
+		?b: new ones
+
+
+label:    sent_8
+sentence: Under continuous stress ( CS ) in rats , melanotrophs , the predominant cell-type in the intermediate lobe ( IL ) of the pituitary , are hyperactivated to secrete alpha-melanocyte-stimulating hormone and thereafter degenerate .
+
+ppatt:
+	?a is/are CS
+		?a: continuous stress in rats
+	?a is/are the predominant cell-type in ?b
+		?a: melanotrophs
+		?b: the intermediate lobe of the pituitary
+	?a is/are IL
+		?a: the intermediate lobe of the pituitary
+	Under ?a , ?b are hyperactivated to secrete ?c
+		?a: continuous stress in rats
+		?b: melanotrophs
+		?c: alpha-melanocyte-stimulating hormone
+
+
+label:    sent_9
+sentence: Because the DNA binding site of SoxS is highly degenerate , SoxS efficiently activates transcription by the mechanism of prerecruitment .
+
+ppatt:
+	?a is highly degenerate
+		?a: the DNA binding site of SoxS
+	?a efficiently activates ?b by ?c
+		?a: SoxS
+		?b: transcription
+		?c: the mechanism of prerecruitment
+
+
+label:    sent_10
+sentence: Typically , rod photoreceptors degenerate first , resulting in loss of night and peripheral vision .
+
+ppatt:
+	Typically , ?a degenerate first
+		?a: rod photoreceptors
+	?a resulting in ?b
+		?a: rod photoreceptors
+		?b: loss of night and peripheral vision
+
+
+label:    sent_11
+sentence: Time-resolved studies of J-aggregate-Au nanoshell complexes when the nanoshell plasmon and J-aggregate exciton energies are degenerate probe the dynamical behavior of this coupled system .
+
+ppatt:
+	?a when degenerate
+		?a: Time-resolved studies of J-aggregate-Au nanoshell complexes
+	?a ?b are probe ?c
+		?a: Time-resolved studies of J-aggregate-Au nanoshell complexes
+		?b: the nanoshell plasmon
+		?c: the dynamical behavior of this coupled system
+	?a ?b are probe ?c
+		?a: Time-resolved studies of J-aggregate-Au nanoshell complexes
+		?b: J-aggregate exciton energies
+		?c: the dynamical behavior of this coupled system
+
+
+label:    sent_12
+sentence: We further show that all optical modes are degenerate and flat , giving rise to almost perfect realizations of Einstein crystals .
+
+ppatt:
+	?a further show ?b
+		?a: We
+		?b: SOMETHING := all optical modes are degenerate , giving rise to almost perfect realizations of Einstein crystals
+	?a are degenerate , giving ?b to ?c
+		?a: all optical modes
+		?b: rise
+		?c: almost perfect realizations of Einstein crystals
+	?a flat
+		?a: all optical modes
+
+
+label:    sent_13
+sentence: The analysis also provides specific examples of interaction potentials whose classical ground states are configurationally degenerate and disordered .
+
+ppatt:
+	?a also provides ?b
+		?a: The analysis
+		?b: specific examples of interaction potentials whose classical ground states are configurationally degenerate and disordered
+	?a ?b are configurationally degenerate
+		?a: interaction potentials
+		?b: whose classical ground states
+	?a disordered
+		?a: whose classical ground states
+
+
+label:    sent_14
+sentence: Each member of these libraries had intact TGG and GCCAA motifs , but the sequence of the spacer and the 3bp next to each motif was degenerate .
+
+ppatt:
+	?a had ?b
+		?a: Each member of these libraries
+		?b: intact TGG
+	?a had ?b
+		?a: Each member of these libraries
+		?b: GCCAA
+	?a had ?b
+		?a: Each member of these libraries
+		?b: motifs
+	?a next was degenerate
+		?a: the sequence of the spacer and the 3bp to each motif
+
+
+label:    sent_15
+sentence: In chronic Mn exposure , dopamine neurons in the substantia nigra ( SN ) do not degenerate but they appear to be dysfunctional .
+
+ppatt:
+	?a is/are SN
+		?a: the substantia nigra
+	In ?a , ?b do not degenerate
+		?a: chronic Mn exposure
+		?b: dopamine neurons in the substantia nigra
+	?a appear to be dysfunctional
+		?a: they
+
+
+label:    sent_16
+sentence: Studies have shown that cones degenerate in chromophore-deficient mouse models for Leber Congenital Amaurosis ( LCA ) , but exogenous supplementation of the native 11-cis retinal chromophore can inhibit this degeneration , suggesting that 11-cis retinal could be used as a therapeutic agent for preserving functional cones in patients with LCA .
+
+ppatt:
+	?a have shown ?b
+		?a: Studies
+		?b: SOMETHING := cones degenerate in chromophore-deficient mouse models for Leber Congenital Amaurosis , suggesting that 11-cis retinal could be used as a therapeutic agent for preserving functional cones in patients with LCA
+	?a degenerate in ?b
+		?a: cones
+		?b: chromophore-deficient mouse models for Leber Congenital Amaurosis
+	?a is/are LCA
+		?a: Leber Congenital Amaurosis
+	?a can inhibit ?b
+		?a: exogenous supplementation of the native 11-cis retinal chromophore
+		?b: this degeneration
+	?a suggesting ?b
+		?a: cones
+		?b: SOMETHING := 11-cis retinal could be used as a therapeutic agent for preserving functional cones in patients with LCA
+	?a could be used as ?b
+		?a: 11-cis retinal
+		?b: a therapeutic agent for preserving functional cones in patients with LCA
+	?a preserving ?b in ?c
+		?a: a therapeutic agent
+		?b: functional cones
+		?c: patients with LCA
+
+
+label:    sent_17
+sentence: The folded and unfolded populations do not change significantly as the temperature is increased from 1 to 60 degrees C , suggesting a unique energy landscape where the folded and unfolded conformations are essentially degenerate in energy and exhibit identical temperature dependences .
+
+ppatt:
+	?a do not change significantly , suggesting ?b
+		?a: The folded and unfolded populations
+		?b: a unique energy landscape where the folded and unfolded conformations are essentially degenerate in energy and exhibit identical temperature dependences
+	?a is increased from ?b
+		?a: the temperature
+		?b: 1 60 degrees C
+	?a where ?b are essentially degenerate in ?c
+		?a: a unique energy landscape
+		?b: the folded and unfolded conformations
+		?c: energy
+	?a exhibit ?b
+		?a: the folded and unfolded conformations
+		?b: identical temperature dependences
+
+
+label:    sent_18
+sentence: Do clones degenerate over time ? Parenchymal hepatocytes lose the epithelial cell morphology within a few days in culture , degenerate or transform into fibroblast-like cells ( Figure 2 ) . Here , we examine the hypotheses for neuron loss in AD and pose the argument that the means by which neurons degenerate is irrelevant for cognitive decline .
+
+ppatt:
+	Do ?a degenerate over ?b
+		?a: clones
+		?b: time
+	?a lose ?b within ?c
+		?a: Parenchymal hepatocytes
+		?b: the epithelial cell morphology
+		?c: a few days in culture
+	?a is/are Figure 2
+		?a: fibroblast-like cells
+	Here , ?a examine ?b
+		?a: we
+		?b: the hypotheses for neuron loss in AD
+	?a pose ?b
+		?a: we
+		?b: the argument that the means by which neurons degenerate is irrelevant for cognitive decline
+	?a by ?b degenerate
+		?a: the means
+		?b: neurons
+	?a is irrelevant for ?b
+		?a: the means by which neurons degenerate
+		?b: cognitive decline
+
+
+label:    sent_19
+sentence: In this cubic , time-reversal and inversion symmetric system , a transition from trivial insulator to topological point Fermi surface system occurs through a critical point in which massless ( Dirac ) bands appear , and moreover are degenerate with massive bands . TdP usually terminates spontaneously but frequently recurs and may degenerate to ventricular fibrillation . 1 kcal mol ( -1 ) and nearly degenerate with the alternative open-chain isomer H3Ge-GeH-Ge (-) . By deriving analytic solutions for the periodic orbits of this system , we show that there are a countable infinity of critical mass ratios at which the particle dynamics become highly degenerate in the following sense .
+
+ppatt:
+	In ?a , ?b occurs through ?c
+		?a: this cubic , time-reversal and inversion symmetric system
+		?b: a transition from trivial insulator to topological point Fermi surface system
+		?c: a critical point in which massless ( Dirac ) bands appear . TdP usually terminates spontaneously but frequently recurs and may degenerate to ventricular fibrillation
+	?a in ?b appear
+		?a: a critical point
+		?b: massless ( Dirac ) bands
+	?a usually terminates spontaneously
+		?a: TdP
+	?a frequently recurs
+		?a: TdP
+	?a may degenerate to ?b
+		?a: TdP
+		?b: ventricular fibrillation
+	?a is/are -1
+		?a: 1 kcal mol
+	?a deriving ?b
+		?a: a transition from trivial insulator to topological point Fermi surface system
+		?b: analytic solutions for the periodic orbits of this system
+	?a show ?b
+		?a: we
+		?b: SOMETHING := there are a countable infinity of critical mass ratios at which the particle dynamics become highly degenerate in the following sense
+	there are ?a
+		?a: a countable infinity of critical mass ratios at which the particle dynamics become highly degenerate in the following sense
+	?a at ?b become highly degenerate in ?c
+		?a: critical mass ratios
+		?b: the particle dynamics
+		?c: the following sense
+
+
+label:    sent_20
+sentence: Understanding the molecular mechanisms by which mutations in familial-linked genes cause PD holds great promise for unraveling the mechanisms by which DA neurons degenerate in PD .
+
+ppatt:
+	Understanding ?a
+		?a: the molecular mechanisms by which mutations in familial-linked genes cause PD
+	?a by ?b cause ?c
+		?a: the molecular mechanisms
+		?b: mutations in familial-linked genes
+		?c: PD
+	?a holds ?b
+		?a: SOMETHING := Understanding the molecular mechanisms by which mutations in familial-linked genes cause PD
+		?b: great promise for unraveling the mechanisms by which DA neurons degenerate in PD
+	?a unraveling ?b
+		?a: great promise
+		?b: the mechanisms by which DA neurons degenerate in PD
+	?a by ?b degenerate in ?c
+		?a: the mechanisms
+		?b: DA neurons
+		?c: PD
+
+
+label:    sent_21
+sentence: Evidence was obtained , by direct binding assays ( radioimmunoassays ) and by inhibition of binding assays , that after immunization some of the antibody molecules produced are degenerate in that they bind not only the immunizing antigen , but also unrelated ligands .
+
+ppatt:
+	?a was obtained , by ?b
+		?a: Evidence
+		?b: direct binding assays
+	?a was obtained , by ?b
+		?a: Evidence
+		?b: inhibition of binding assays
+	?a is/are radioimmunoassays
+		?a: direct binding assays
+	?a is/are radioimmunoassays
+		?a: inhibition of binding assays
+	?a produced
+		?a: the antibody molecules
+	after ?a ?b are degenerate ?c
+		?a: immunization
+		?b: some of the antibody molecules produced
+		?c: SOMETHING := they bind not only the immunizing antigen , but also unrelated ligands
+	?a bind ?b
+		?a: they
+		?b: the immunizing antigen
+	?a bind ?b
+		?a: they
+		?b: also unrelated ligands
+
+
+label:    sent_22
+sentence: RGC apoptosis has a characteristic time-course whereby cell death is delayed 3-4 days postaxotomy , after which the cells rapidly degenerate .
+
+ppatt:
+	?a has ?b
+		?a: RGC apoptosis
+		?b: a characteristic time-course whereby cell death is delayed 3-4 days postaxotomy , after which the cells rapidly degenerate
+	?a whereby ?b is delayed ?c ?d
+		?a: a characteristic time-course , after which the cells rapidly degenerate
+		?b: cell death
+		?c: 3-4 days
+		?d: postaxotomy
+	?a after ?b rapidly degenerate
+		?a: a characteristic time-course whereby cell death is delayed 3-4 days postaxotomy
+		?b: the cells
+
+
+label:    sent_23
+sentence: RGC apoptosis has a characteristic time-course whereby cell death is delayed 3-4 days postaxotomy , after which the cells rapidly degenerate .
+
+ppatt:
+	?a has ?b
+		?a: RGC apoptosis
+		?b: a characteristic time-course whereby cell death is delayed 3-4 days postaxotomy , after which the cells rapidly degenerate
+	?a whereby ?b is delayed ?c ?d
+		?a: a characteristic time-course , after which the cells rapidly degenerate
+		?b: cell death
+		?c: 3-4 days
+		?d: postaxotomy
+	?a after ?b rapidly degenerate
+		?a: a characteristic time-course whereby cell death is delayed 3-4 days postaxotomy
+		?b: the cells
+
+
+label:    sent_24
+sentence: This idea is based on the assumption that , after a structure is lost , the genes related to its development will degenerate .
+
+ppatt:
+	?a is based on ?b
+		?a: This idea
+		?b: the assumption that after a structure is lost
+	after ?a is lost
+		?a: a structure
+	?a will degenerate
+		?a: the genes related to its development
+
+

@@ -1,0 +1,294 @@
+label:    sent_1
+sentence: The model is able to capture the force response to a range of inputs . A calculational method is devised to capture the divergence approximately .
+
+ppatt:
+	?a is able to capture ?b
+		?a: The model
+		?b: the force response to a range of inputs
+	?a is devised to capture ?b approximately
+		?a: A calculational method
+		?b: the divergence
+
+
+label:    sent_2
+sentence: A phenomenographic design was used to capture different perception of using khat .
+
+ppatt:
+	?a was used to capture ?b
+		?a: A phenomenographic design
+		?b: different perception
+	?a using ?b
+		?a: A phenomenographic design
+		?b: khat
+
+
+label:    sent_3
+sentence: Genotyping and contact tracing alone did not capture the true dynamics of the outbreak .
+
+ppatt:
+	?a did not capture ?b
+		?a: Genotyping alone
+		?b: the true dynamics of the outbreak
+	?a did not capture ?b
+		?a: contact tracing
+		?b: the true dynamics of the outbreak
+
+
+label:    sent_4
+sentence: Neural population modes capture biologically realistic large scale network dynamics .
+
+ppatt:
+	?a capture ?b
+		?a: Neural population modes
+		?b: biologically realistic large scale network dynamics
+
+
+label:    sent_5
+sentence: The VPF system can capture unique details about the hand-off interchange .
+
+ppatt:
+	?a can capture ?b about ?c
+		?a: The VPF system
+		?b: unique details
+		?c: the hand-off interchange
+
+
+label:    sent_6
+sentence: Cine MRI is able to capture tumor motion during deglutition .
+
+ppatt:
+	?a is able to capture ?b during ?c
+		?a: Cine MRI
+		?b: tumor motion
+		?c: deglutition
+
+
+label:    sent_7
+sentence: Polymeric ultra- and nano-membranes can be used to capture these microorganisms from CSOs .
+
+ppatt:
+	?a can be used to capture ?b from ?c
+		?a: Polymeric ultra-
+		?b: these microorganisms
+		?c: CSOs
+	?a can be used to capture ?b from ?c
+		?a: nano-membranes
+		?b: these microorganisms
+		?c: CSOs
+
+
+label:    sent_8
+sentence: Voluntary reporting appears inadequate to capture complications from feeding tube insertion .
+
+ppatt:
+	?a appears inadequate to capture ?b
+		?a: Voluntary reporting
+		?b: complications from feeding tube insertion
+
+
+label:    sent_9
+sentence: Here we capture this result analytically in a simple case .
+
+ppatt:
+	Here ?a capture ?b analytically in ?c
+		?a: we
+		?b: this result
+		?c: a simple case
+
+
+label:    sent_10
+sentence: The selected graph theoretic methods can capture the structural changes during growth .
+
+ppatt:
+	?a can capture ?b during ?c
+		?a: The selected graph theoretic methods
+		?b: the structural changes
+		?c: growth
+
+
+label:    sent_11
+sentence: Human telomerase domain interactions capture DNA for TEN domain-dependent processive elongation .
+
+ppatt:
+	?a capture ?b for ?c
+		?a: Human telomerase domain interactions
+		?b: DNA
+		?c: TEN domain-dependent processive elongation
+
+
+label:    sent_12
+sentence: We conclude that threat prioritizes , but does not capture attention .
+
+ppatt:
+	?a conclude ?b
+		?a: We
+		?b: SOMETHING := threat prioritizes
+	?a threat prioritizes
+		?a: We
+	?a does not capture ?b
+		?a: We
+		?b: attention
+
+
+label:    sent_13
+sentence: The retina has evolved to capture photons efficiently and initiate visual transduction .
+
+ppatt:
+	?a has evolved to capture ?b efficiently
+		?a: The retina
+		?b: photons
+	?a has evolved to initiate ?b
+		?a: The retina
+		?b: visual transduction
+
+
+label:    sent_14
+sentence: The resulting parameter updating is not globally Bayesian but can better capture human behavior .
+
+ppatt:
+	?a is not globally Bayesian
+		?a: The resulting parameter updating
+	?a can better capture ?b
+		?a: The resulting parameter updating
+		?b: human behavior
+
+
+label:    sent_15
+sentence: NETs can capture platelets and increase fibrin deposition .
+
+ppatt:
+	?a can capture ?b
+		?a: NETs
+		?b: platelets
+	?a increase ?b
+		?a: NETs
+		?b: fibrin deposition
+
+
+label:    sent_16
+sentence: Interviews are often used but they do n't always capture important details .
+
+ppatt:
+	?a are often used
+		?a: Interviews
+	?a do n't always capture ?b
+		?a: they
+		?b: important details
+
+
+label:    sent_17
+sentence: Immigrating monocytes capture LDL and accumulate its cholesterol as ester droplets becoming foam cells .
+
+ppatt:
+	?a capture ?b
+		?a: Immigrating monocytes
+		?b: LDL
+	?a accumulate ?b as ?c
+		?a: Immigrating monocytes
+		?b: its cholesterol
+		?c: ester droplets
+	?a becoming foam cells
+		?a: Immigrating monocytes
+
+
+label:    sent_18
+sentence: Double antibody sandwich immunoassay was used to specifically capture and label AFP antigen .
+
+ppatt:
+	?a was used to specifically capture ?b
+		?a: Double antibody sandwich immunoassay
+		?b: AFP antigen
+	?a was used to label
+		?a: Double antibody sandwich immunoassay
+
+
+label:    sent_19
+sentence: Programs plan to use multiple tools to capture and report milestone data . MSCs have the ability to capture and release antigens .
+
+ppatt:
+	?a plan to use ?b to capture ?c
+		?a: Programs
+		?b: multiple tools
+		?c: milestone data
+	?a plan to use to report
+		?a: Programs
+	?a have ?b
+		?a: MSCs
+		?b: the ability to capture and release antigens
+	?a capture ?b
+		?a: the ability
+		?b: antigens
+	release ?a
+		?a: antigens
+
+
+label:    sent_20
+sentence: Economic analysis of centralized vs. decentralized electronic data capture in multi-center clinical studies . Amodal causal capture in the tunnel effect .
+
+ppatt:
+	?a capture in ?b ?c
+		?a: Economic analysis of centralized vs. decentralized electronic data
+		?b: multi-center clinical studies
+		?c: Amodal causal capture in the tunnel effect
+
+
+label:    sent_21
+sentence: Carbon dioxide capture by functionalized solid amine sorbents with simulated flue gas conditions .
+
+ppatt:
+
+
+
+label:    sent_22
+sentence: Resonant enhancement of neutrinoless double-electron capture in 152Gd .
+
+ppatt:
+
+
+
+label:    sent_23
+sentence: Metal-organic frameworks as adsorbents for hydrogen purification and precombustion carbon dioxide capture .
+
+ppatt:
+
+
+
+label:    sent_24
+sentence: Failure of VVI cardiac pacemaker capture .
+
+ppatt:
+
+
+
+label:    sent_25
+sentence: Electronic data capture-Narrowing the gap between clinical and data management .
+
+ppatt:
+	?a capture-Narrowing ?b
+		?a: Electronic data
+		?b: the gap between clinical and data
+
+
+label:    sent_26
+sentence: An evidence-based toolset to capture , measure and assess emotional health .
+
+ppatt:
+	?a capture
+		?a: An evidence-based toolset , measure and assess emotional health
+	?a measure ?b
+		?a: An evidence-based toolset to capture
+		?b: emotional health
+	assess ?a
+		?a: emotional health
+
+
+label:    sent_27
+sentence: Surface-bound chemokines capture and prime T cells for synapse formation .
+
+ppatt:
+	?a capture ?b for ?c
+		?a: Surface-bound chemokines
+		?b: T cells
+		?c: synapse formation
+
+

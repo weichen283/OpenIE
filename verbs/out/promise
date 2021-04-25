@@ -1,0 +1,255 @@
+label:    sent_1
+sentence: Cancer-associated autoantibodies hold promise as sensitive biomarkers for early detection of cancer .
+
+ppatt:
+	?a hold ?b as ?c
+		?a: Cancer-associated autoantibodies
+		?b: promise
+		?c: sensitive biomarkers for early detection of cancer
+
+
+label:    sent_2
+sentence: Advanced MRI techniques hold promise for filling this void .
+
+ppatt:
+	?a hold ?b
+		?a: Advanced MRI techniques
+		?b: promise for filling this void
+	?a filling ?b
+		?a: promise
+		?b: this void
+
+
+label:    sent_3
+sentence: These findings hold promise for practical use in future mass transport in complex circuits .
+
+ppatt:
+	?a hold ?b
+		?a: These findings
+		?b: promise for practical use in future mass transport in complex circuits
+
+
+label:    sent_4
+sentence: New technical advances promise to facilitate future progress .
+
+ppatt:
+	?a promise to facilitate ?b
+		?a: New technical advances
+		?b: future progress
+
+
+label:    sent_5
+sentence: Technology advances hold promise to minimize the challenging technical nature of scarless surgery . New technologies promise to improve blood supply safety .
+
+ppatt:
+	?a hold ?b
+		?a: Technology advances
+		?b: promise to minimize the challenging technical nature of scarless surgery
+	?a minimize ?b
+		?a: promise
+		?b: the challenging technical nature of scarless surgery
+	?a promise to improve ?b
+		?a: New technologies
+		?b: blood supply safety
+
+
+label:    sent_6
+sentence: Also feature or dimension reduction techniques based on statistical models promise only limited success .
+
+ppatt:
+	Also ?a promise ?b
+		?a: feature based on statistical models
+		?b: only limited success
+	Also ?a promise ?b
+		?a: dimension reduction techniques
+		?b: only limited success
+
+
+label:    sent_7
+sentence: The results indicate that the PHEMAH cryogel disks promise high selectivity for pDNA .
+
+ppatt:
+	?a indicate ?b
+		?a: The results
+		?b: SOMETHING := the PHEMAH cryogel disks promise high selectivity for pDNA
+	?a promise ?b
+		?a: the PHEMAH cryogel disks
+		?b: high selectivity for pDNA
+
+
+label:    sent_8
+sentence: ZnPc-loaded PCL NPs are the release systems that promise photodynamic therapy use . A promise : experiences during a Bara elective .
+
+ppatt:
+	?a are the release systems
+		?a: ZnPc-loaded PCL NPs
+	?a promise ?b
+		?a: the release systems use . A promise
+		?b: photodynamic therapy
+	?a use ?b
+		?a: the release systems that promise photodynamic therapy
+		?b: A promise
+
+
+label:    sent_9
+sentence: These new developments promise more specific and successful arrhythmia management in the future .
+
+ppatt:
+	?a promise ?b in ?c
+		?a: These new developments
+		?b: more specific and successful arrhythmia management
+		?c: the future
+
+
+label:    sent_10
+sentence: Further technological developments promise better assessments than can presently be offered .
+
+ppatt:
+	?a promise ?b
+		?a: Further technological developments
+		?b: better assessments
+	?a can presently be offered
+		?a: Further technological developments
+
+
+label:    sent_11
+sentence: From promise to reality : achieving the value of an EHR .
+
+ppatt:
+	?a achieving ?b
+		?a: promise to reality
+		?b: the value of an EHR
+
+
+label:    sent_12
+sentence: Nursing science : more promise than threat . Tories ' promise for the NHS .
+
+ppatt:
+
+
+
+label:    sent_13
+sentence: Such interventions hold promise for increasing vaccination rates annually and in pandemic situations .
+
+ppatt:
+	?a hold ?b
+		?a: Such interventions
+		?b: promise for increasing vaccination rates annually and in pandemic situations
+	?a increasing ?b annually and in pandemic situations
+		?a: promise
+		?b: vaccination rates
+
+
+label:    sent_14
+sentence: Anti-tumor mAbs hold promise for cancer therapy , but are relatively inefficient .
+
+ppatt:
+	?a hold ?b
+		?a: Anti-tumor mAbs
+		?b: promise for cancer therapy
+
+
+label:    sent_15
+sentence: The promise and obstacles of asthma genetics research . Trazodone , mirtazapine , and ramelteon hold promise but require further study . Legacy interventions hold promise and are simple to implement .
+
+ppatt:
+	?a hold ?b
+		?a: The promise of asthma genetics research
+		?b: promise
+	?a hold ?b
+		?a: obstacles
+		?b: promise
+	?a require ?b
+		?a: The promise of asthma genetics research
+		?b: further study
+	?a require ?b
+		?a: obstacles
+		?b: further study
+	?a hold ?b
+		?a: Legacy interventions
+		?b: promise
+
+
+label:    sent_16
+sentence: Antiangiogenic therapy : more promise and , yet again , more questions . Opinion exchange : how much can you promise a patient ? New fluorophobes now promise better clinical applicability .
+
+ppatt:
+	?a now promise ?b
+		?a: New fluorophobes
+		?b: better clinical applicability
+
+
+label:    sent_17
+sentence: These molecular medicines seem to promise clues for curing cancers , including pancreatic cancer .
+
+ppatt:
+	?a seem to promise ?b
+		?a: These molecular medicines
+		?b: clues for curing cancers , including pancreatic cancer
+
+
+label:    sent_18
+sentence: More recent versions of AIMS promise improved capabilities and will require similar evaluation .
+
+ppatt:
+	?a promise ?b
+		?a: More recent versions of AIMS
+		?b: improved capabilities
+	?a will require ?b
+		?a: More recent versions of AIMS
+		?b: similar evaluation
+
+
+label:    sent_19
+sentence: The new discoveries concerning mammary carcinoma promise hope and offer surgeons a demanding challenge .
+
+ppatt:
+	?a hope
+		?a: The new discoveries concerning mammary carcinoma promise
+	?a offer ?b ?c
+		?a: The new discoveries concerning mammary carcinoma promise
+		?b: surgeons
+		?c: a demanding challenge
+
+
+label:    sent_20
+sentence: Therapeutic approaches using gene-based medicines promise alternatives or adjuncts to conventional cancer treatment .
+
+ppatt:
+	?a using ?b
+		?a: Therapeutic approaches
+		?b: gene-based medicines
+	?a promise ?b
+		?a: Therapeutic approaches using gene-based medicines
+		?b: alternatives to conventional cancer treatment
+	?a promise ?b
+		?a: Therapeutic approaches using gene-based medicines
+		?b: adjuncts
+
+
+label:    sent_21
+sentence: Intracranial posterior circulation stenting : promise but still without evidence .
+
+ppatt:
+
+
+
+label:    sent_22
+sentence: Techniques for measuring ventricular function are evolving and promise to provide clinically useful accuracy .
+
+ppatt:
+	?a measuring ?b
+		?a: Techniques
+		?b: ventricular function
+	?a are evolving to provide ?b
+		?a: Techniques for measuring ventricular function
+		?b: clinically useful accuracy
+
+
+label:    sent_23
+sentence: The placebo : promise and compromise .
+
+ppatt:
+
+
+

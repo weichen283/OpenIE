@@ -1,0 +1,175 @@
+label:    sent_1
+sentence: We envision this technology to be important for the functional screening of protein interactions .
+
+ppatt:
+	?a envision ?b to be important for ?c
+		?a: We
+		?b: this technology
+		?c: the functional screening of protein interactions
+
+
+label:    sent_2
+sentence: We envision applying the collective effects described here in microwave photonic devices .
+
+ppatt:
+	?a envision applying ?b
+		?a: We
+		?b: the collective effects described here in microwave photonic devices
+	?a described here in ?b
+		?a: the collective effects
+		?b: microwave photonic devices
+
+
+label:    sent_3
+sentence: We envision this practice will continue in the future .
+
+ppatt:
+	?a envision ?b
+		?a: We
+		?b: SOMETHING := this practice will continue in the future
+	?a will continue in ?b
+		?a: this practice
+		?b: the future
+
+
+label:    sent_4
+sentence: We also envision the devices to have immediate relevance in the educational field .
+
+ppatt:
+	?a also envision ?b
+		?a: We
+		?b: the devices to have immediate relevance in the educational field
+	?a have ?b in ?c
+		?a: the devices
+		?b: immediate relevance
+		?c: the educational field
+
+
+label:    sent_5
+sentence: We may envision a scale of developmental flexibility . 3 Blues plans in Midwest envision merger to gain strength for reform .
+
+ppatt:
+	?a may envision ?b
+		?a: We
+		?b: a scale of developmental flexibility
+	?a envision ?b
+		?a: 3 Blues plans in Midwest
+		?b: merger to gain strength for reform
+	?a gain ?b
+		?a: merger
+		?b: strength for reform
+
+
+label:    sent_6
+sentence: Industry and governments clearly are beginning to envision nanomedicine 's enormous potential .
+
+ppatt:
+	?a clearly are beginning to envision ?b
+		?a: Industry
+		?b: nanomedicine 's enormous potential
+	?a clearly are beginning to envision ?b
+		?a: governments
+		?b: nanomedicine 's enormous potential
+
+
+label:    sent_7
+sentence: As for the future , there is reason to envision a continuing alcoholism rapprochement .
+
+ppatt:
+	As for ?a , there is ?b
+		?a: the future
+		?b: reason to envision a continuing alcoholism rapprochement
+	?a envision ?b
+		?a: reason
+		?b: a continuing alcoholism rapprochement
+
+
+label:    sent_8
+sentence: We also try to envision the first steps of a future phenotype-oriented diabetes therapy .
+
+ppatt:
+	?a also try to envision ?b
+		?a: We
+		?b: the first steps of a future phenotype-oriented diabetes therapy
+
+
+label:    sent_9
+sentence: We envision three principal uses for the system .
+
+ppatt:
+	?a envision ?b
+		?a: We
+		?b: three principal uses for the system
+
+
+label:    sent_10
+sentence: We envision this approach as a promising tool for RNA structural and functional analyses .
+
+ppatt:
+	?a envision ?b as ?c
+		?a: We
+		?b: this approach
+		?c: a promising tool for RNA structural and functional analyses
+
+
+label:    sent_11
+sentence: Furthermore , we envision miR-150 restoration as a future therapeutic option in sepsis patients .
+
+ppatt:
+	Furthermore , ?a envision ?b as ?c
+		?a: we
+		?b: miR-150 restoration
+		?c: a future therapeutic option in sepsis patients
+
+
+label:    sent_12
+sentence: We envision i2b2-SSR as a scalable , reusable solution facilitating interdisciplinary research across diseases .
+
+ppatt:
+	?a envision ?b as ?c
+		?a: We
+		?b: i2b2-SSR
+		?c: a scalable , solution facilitating interdisciplinary research across diseases
+	?a facilitating ?b
+		?a: a scalable , solution
+		?b: interdisciplinary research across diseases
+
+
+label:    sent_13
+sentence: How do you envision the practice of periodontics in the year 2000 ?
+
+ppatt:
+	How do you envision ?a
+		?a: the practice of periodontics in the year 2000
+
+
+label:    sent_14
+sentence: Successful leaders envision and create the organizations of the future . Emulate , envision , engage , and expand .
+
+ppatt:
+	?a envision ?b
+		?a: Successful leaders
+		?b: the organizations of the future
+	?a create
+		?a: Successful leaders
+	?a Emulate
+		?a: Successful leaders
+	?a envision
+		?a: Successful leaders
+	?a engage
+		?a: Successful leaders
+	?a expand
+		?a: Successful leaders
+
+
+label:    sent_15
+sentence: Spiritlinking leaders are able to envision and promote the paradox of disequilibrium .
+
+ppatt:
+	?a are able to envision ?b
+		?a: Spiritlinking leaders
+		?b: the paradox of disequilibrium
+	?a are able to promote
+		?a: Spiritlinking leaders
+
+

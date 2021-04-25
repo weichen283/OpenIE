@@ -1,0 +1,200 @@
+label:    sent_1
+sentence: The use of cold solutions to distend veins was especially harmful .
+
+ppatt:
+	?a distend ?b
+		?a: The use of cold solutions
+		?b: veins
+	?a was especially harmful
+		?a: The use of cold solutions to distend veins
+
+
+label:    sent_2
+sentence: This catheter was used to distend the gall bladder .
+
+ppatt:
+	?a was used to distend ?b
+		?a: This catheter
+		?b: the gall bladder
+
+
+label:    sent_3
+sentence: In order to distend the larynx , redressment of the cricoid cartilage is needed .
+
+ppatt:
+	order distend ?a ?b
+		?a: the larynx
+		?b: redressment of the cricoid cartilage
+	?a is needed
+		?a: redressment of the cricoid cartilage
+
+
+label:    sent_4
+sentence: Gamonts did not distend host cells but laterally displaced their nuclei .
+
+ppatt:
+	?a did not distend ?b
+		?a: Gamonts
+		?b: host cells
+	?a laterally displaced ?b
+		?a: Gamonts
+		?b: their nuclei
+
+
+label:    sent_5
+sentence: Air was used to distend the entire gastrointestinal tract via an antegrade method .
+
+ppatt:
+	?a was used to distend ?b via ?c
+		?a: Air
+		?b: the entire gastrointestinal tract
+		?c: an antegrade method
+
+
+label:    sent_6
+sentence: Polyethylene glycol and LCB distend small bowel better than water and methylcellulose .
+
+ppatt:
+	?a distend ?b
+		?a: Polyethylene glycol
+		?b: small bowel better than water and methylcellulose
+	?a distend ?b
+		?a: LCB
+		?b: small bowel better than water and methylcellulose
+
+
+label:    sent_7
+sentence: A lesion would distend the space .
+
+ppatt:
+	?a would distend ?b
+		?a: A lesion
+		?b: the space
+
+
+label:    sent_8
+sentence: Maneuvers that distend a lumen facilitate radiographic examinations .
+
+ppatt:
+	?a distend ?b
+		?a: Maneuvers
+		?b: a lumen
+	?a facilitate ?b
+		?a: Maneuvers that distend a lumen
+		?b: radiographic examinations
+
+
+label:    sent_9
+sentence: A hemangioma can be made to distend by blocking its venous outflow .
+
+ppatt:
+	?a can be made to distend
+		?a: A hemangioma
+	?a blocking ?b
+		?a: A hemangioma
+		?b: its venous outflow
+
+
+label:    sent_10
+sentence: Paradoxically , bile ducts continuously distend throughout the ligation period despite increased fibroplasia .
+
+ppatt:
+	Paradoxically , ?a continuously distend throughout ?b despite ?c
+		?a: bile ducts
+		?b: the ligation period
+		?c: increased fibroplasia
+
+
+label:    sent_11
+sentence: The saccule can distend into the lateral semicircular canal .
+
+ppatt:
+	?a can distend into ?b
+		?a: The saccule
+		?b: the lateral semicircular canal
+
+
+label:    sent_12
+sentence: The saccule can distend into the lateral semicircular canal .
+
+ppatt:
+	?a can distend into ?b
+		?a: The saccule
+		?b: the lateral semicircular canal
+
+
+label:    sent_13
+sentence: Antegrade or retrograde air introduction was employed to distend and mark the gastrointestinal tract .
+
+ppatt:
+	?a was employed to distend ?b
+		?a: Antegrade
+		?b: the gastrointestinal tract
+	?a was employed to distend ?b
+		?a: retrograde
+		?b: the gastrointestinal tract
+	?a was employed to distend ?b
+		?a: air introduction
+		?b: the gastrointestinal tract
+	?a was employed to mark
+		?a: Antegrade
+	?a was employed to mark
+		?a: retrograde
+	?a was employed to mark
+		?a: air introduction
+
+
+label:    sent_14
+sentence: The glands degenerate and distend . Blood vessels in the lungs are filled and distend .
+
+ppatt:
+	?a degenerate
+		?a: The glands
+	?a are filled
+		?a: Blood vessels in the lungs
+	?a distend
+		?a: Blood vessels in the lungs
+
+
+label:    sent_15
+sentence: When six to eight eggs accumulate , the animals distend , burst and die .
+
+ppatt:
+	When ?a accumulate
+		?a: six eight eggs
+	?a distend ?b
+		?a: the animals
+		?b: burst
+	?a die
+		?a: the animals
+
+
+label:    sent_16
+sentence: These lipids specifically distend a subset of capillaries in a dose- and development-dependent manner .
+
+ppatt:
+	?a specifically distend ?b in ?c
+		?a: These lipids
+		?b: a subset of capillaries
+		?c: a dose- and development-dependent manner
+
+
+label:    sent_17
+sentence: Some embolectomy balloons distend eccentrically .
+
+ppatt:
+	?a distend eccentrically
+		?a: Some embolectomy balloons
+
+
+label:    sent_18
+sentence: Pulmonary arteries ( PAs ) distend to accommodate increases in cardiac output .
+
+ppatt:
+	?a is/are PAs
+		?a: Pulmonary arteries
+	?a distend to accommodate ?b
+		?a: Pulmonary arteries
+		?b: increases in cardiac output
+
+

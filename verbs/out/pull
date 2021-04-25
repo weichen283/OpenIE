@@ -1,0 +1,182 @@
+label:    sent_1
+sentence: [
+
+ppatt:
+
+
+
+label:    sent_2
+sentence: Politics : go there , pull the cord ] . Amalgam : has junk science caused dentists to pull it ? If you 're asked to pull out a feeding tube .
+
+ppatt:
+	has ?a to pull ?b
+		?a: junk science caused dentists
+		?b: it
+	?a 're asked to pull out ?b
+		?a: you
+		?b: a feeding tube
+
+
+label:    sent_3
+sentence: The wire was used to pull rigid dilators through the occluded segment .
+
+ppatt:
+	?a was used to pull ?b through ?c
+		?a: The wire
+		?b: rigid dilators
+		?c: the occluded segment
+
+
+label:    sent_4
+sentence: The casing was used to pull SPION through a three-layer cell culture RWM model .
+
+ppatt:
+	?a was used to pull ?b through ?c
+		?a: The casing
+		?b: SPION
+		?c: a three-layer cell culture RWM model
+
+
+label:    sent_5
+sentence: Force data were recorded to pull the LHBT through the bicipital groove .
+
+ppatt:
+	?a were recorded to pull ?b through ?c
+		?a: Force data
+		?b: the LHBT
+		?c: the bicipital groove
+
+
+label:    sent_6
+sentence: Biophysics : Push it , pull it . Footprints pull origin and diversification of dinosaur stem lineage deep into Early Triassic .
+
+ppatt:
+	pull ?a
+		?a: it
+
+
+label:    sent_7
+sentence: Primary endpoint was pull away strength . [We are stronger when we pull on one rope ] . The surgical humanitarian community should pull together before the next disaster strikes .
+
+ppatt:
+	?a was pull away ?b
+		?a: Primary endpoint
+		?b: strength
+	?a are stronger
+		?a: [We
+	when ?a pull on ?b
+		?a: we
+		?b: one rope ]
+	?a should pull together before ?b
+		?a: The surgical humanitarian community
+		?b: the next disaster strikes
+
+
+label:    sent_8
+sentence: Time to pull in the reins . Regulators pull contract for chemical review . Interdisciplinary research could pull cash into science . [They come from 4 sections .
+
+ppatt:
+	?a pull in ?b
+		?a: Time
+		?b: the reins
+	?a ?b pull ?c for ?d
+		?a: Time to pull in the reins
+		?b: Regulators
+		?c: contract
+		?d: chemical review
+	?a could pull ?b into ?c
+		?a: Interdisciplinary research
+		?b: cash
+		?c: science
+	?a come from ?b
+		?a: [They
+		?b: 4 sections
+
+
+label:    sent_9
+sentence: We pull in the same direction ! ] . Filopodia act as phagocytic tentacles and pull with discrete steps and a load-dependent velocity . Starting-point pull in configuration tasks . Private hospitals threaten to pull out of model health insurance programme in India .
+
+ppatt:
+	?a pull in ?b ?c
+		?a: We
+		?b: the same direction
+		?c: SOMETHING := Filopodia act as phagocytic tentacles
+	?a is/are ! ]
+		?a: the same direction
+	?a act as ?b
+		?a: Filopodia
+		?b: phagocytic tentacles
+	?a pull with ?b
+		?a: Filopodia
+		?b: discrete steps
+	?a pull with ?b
+		?a: Filopodia
+		?b: a load-dependent velocity
+	?a pull with ?b
+		?a: Filopodia
+		?b: Starting-point pull in configuration tasks
+	?a threaten to pull out of ?b
+		?a: Private hospitals
+		?b: model health insurance programme in India
+
+
+label:    sent_10
+sentence: The deformity required an internal device to expand and to pull the orbit laterally .
+
+ppatt:
+	?a required ?b to expand
+		?a: The deformity
+		?b: an internal device
+	?a required to to pull ?b laterally
+		?a: The deformity
+		?b: the orbit
+
+
+label:    sent_11
+sentence: Do you have what it takes to make the change and pull it off ? Subsequently their ability to push and pull the carts was tested with maximum exertions .
+
+ppatt:
+	Do ?a have ?b
+		?a: you
+		?b: SOMETHING := what it takes to make the change and pull it off
+	?a ?b takes to make ?c
+		?a: what
+		?b: it
+		?c: the change
+	?a takes to pull ?b ?c
+		?a: it
+		?b: it
+		?c: off
+	?a push ?b
+		?a: Subsequently their ability
+		?b: the carts
+	?a pull
+		?a: Subsequently their ability
+	?a was tested with ?b
+		?a: Subsequently their ability to push and pull the carts
+		?b: maximum exertions
+
+
+label:    sent_12
+sentence: Nurses in the community pull together to help the injured .
+
+ppatt:
+	?a pull together to help the injured
+		?a: Nurses in the community
+
+
+label:    sent_13
+sentence: The magnetic pull . Health systems agencies : the feds pull out . Axons pull on the brain , but tension does not drive cortical folding .
+
+ppatt:
+	?a ?b pull out
+		?a: The magnetic pull . Health systems agencies
+		?b: the feds
+	?a pull on ?b
+		?a: Axons
+		?b: the brain
+	?a does not drive ?b
+		?a: tension
+		?b: cortical folding
+
+

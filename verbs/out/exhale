@@ -1,0 +1,116 @@
+label:    sent_1
+sentence: Patients exhale I-131 after radioiodine therapy .
+
+ppatt:
+
+
+
+label:    sent_2
+sentence: Chronic HD patients exhale more H2O2 than healthy subjects .
+
+ppatt:
+	?a exhale ?b than ?c
+		?a: Chronic HD patients
+		?b: more H2O2
+		?c: healthy subjects
+
+
+label:    sent_3
+sentence: Interestingly , preeclamptic women exhale less CO compared with women with healthy pregnancies .
+
+ppatt:
+	Interestingly , ?a exhale ?b
+		?a: preeclamptic women
+		?b: less CO
+	?a compared with women with ?b
+		?a: preeclamptic women
+		?b: healthy pregnancies
+
+
+label:    sent_4
+sentence: Like adults , asthmatic children exhale more NO than their controls .
+
+ppatt:
+	Like ?a , ?b exhale ?c than ?d
+		?a: adults
+		?b: asthmatic children
+		?c: more NO
+		?d: their controls
+
+
+label:    sent_5
+sentence: Subjects exhale in a homemade device for collection of the alveolar fraction .
+
+ppatt:
+	?a exhale in ?b
+		?a: Subjects
+		?b: a homemade device for collection of the alveolar fraction
+
+
+label:    sent_6
+sentence: Does it really matter what volume to exhale before using asthma inhalation devices ? Waiting to exhale ! Patients undergo cough-inducing procedures and exhale waste anesthesia gases .
+
+ppatt:
+	Does ?a really matter
+		?a: it
+	?a using ?b
+		?a: volume to exhale
+		?b: asthma inhalation devices
+	?a Waiting to ?b
+		?a: really matter
+		?b: exhale ! Patients
+	?a ?b ?c undergo ?d
+		?a: Does it really matter ? Waiting to exhale ! Patients
+		?b: what
+		?c: volume to exhale before using asthma inhalation devices
+		?d: cough-inducing procedures
+	?a ?b ?c undergo ?d
+		?a: Does it really matter ? Waiting to exhale ! Patients
+		?b: what
+		?c: volume to exhale before using asthma inhalation devices
+		?d: exhale waste anesthesia gases
+
+
+label:    sent_7
+sentence: Thorotrast-administered patients also perpetually exhale 220Rn , a 232Th-daughter .
+
+ppatt:
+	?a also perpetually exhale ?b
+		?a: Thorotrast-administered patients
+		?b: 220Rn
+	?a is/are a 232Th-daughter
+		?a: 220Rn
+
+
+label:    sent_8
+sentence: Humans commonly exhale aerosols comprised of small droplets of airway-lining fluid during normal breathing . Municipal landfills exhale newly formed organotins .
+
+ppatt:
+	?a commonly exhale ?b ?c
+		?a: Humans
+		?b: aerosols comprised of small droplets of airway-lining fluid during normal breathing
+		?c: Municipal landfills exhale newly formed organotins
+	?a comprised of ?b
+		?a: aerosols
+		?b: small droplets of airway-lining fluid during normal breathing
+
+
+label:    sent_9
+sentence: We can finally exhale . Postoperatively , patients were asked to exhale into a 20-ml syringe every 10 min .
+
+ppatt:
+	?a can finally exhale . Postoperatively
+		?a: We
+	?a were asked to exhale into ?b every ?c
+		?a: patients
+		?b: a 20-ml syringe
+		?c: 10 min
+
+
+label:    sent_10
+sentence: Between inhale and exhale : yoga as an intervention in smoking cessation .
+
+ppatt:
+
+
+

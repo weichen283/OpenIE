@@ -1,0 +1,321 @@
+label:    sent_1
+sentence: Nerve repair did not influence overall patient satisfaction .
+
+ppatt:
+	?a did not influence ?b
+		?a: Nerve repair
+		?b: overall patient satisfaction
+
+
+label:    sent_2
+sentence: Does electrode placement influence quality of intraoperative monitoring in vestibular schwannoma surgery ? However , some studies suggested that p53 may also influence response to antihormone treatments .
+
+ppatt:
+	Does ?a influence ?b ? However
+		?a: electrode placement
+		?b: quality of intraoperative monitoring in vestibular schwannoma surgery
+	?a suggested ?b
+		?a: some studies
+		?b: SOMETHING := p53 may also influence response to antihormone treatments
+	?a may also influence ?b
+		?a: p53
+		?b: response to antihormone treatments
+
+
+label:    sent_3
+sentence: Cigarette dependence was found to significantly influence the success of attempts to quit .
+
+ppatt:
+	?a was found to significantly influence ?b
+		?a: Cigarette dependence
+		?b: the success of attempts to quit
+	?a quit
+		?a: the success of attempts
+
+
+label:    sent_4
+sentence: Canadian oncologists were surveyed regarding characteristics that may influence error propagation .
+
+ppatt:
+	?a were surveyed regarding ?b
+		?a: Canadian oncologists
+		?b: characteristics that may influence error propagation
+	?a may influence ?b
+		?a: characteristics
+		?b: error propagation
+
+
+label:    sent_5
+sentence: Complete perioperative results describe important treatment ends that can not influence primary outcomes .
+
+ppatt:
+	?a describe ?b
+		?a: Complete perioperative results
+		?b: important treatment ends that can not influence primary outcomes
+	?a can not influence ?b
+		?a: important treatment ends
+		?b: primary outcomes
+
+
+label:    sent_6
+sentence: To review the literature on how implant surface characteristics influence peri-implant disease .
+
+ppatt:
+	review ?a
+		?a: the literature on how implant surface characteristics influence peri-implant disease
+	?a how ?b influence ?c
+		?a: the literature
+		?b: implant surface characteristics
+		?c: peri-implant disease
+
+
+label:    sent_7
+sentence: Patient and physician attributes influence medical decisions as non-medical factors .
+
+ppatt:
+	?a influence ?b as ?c
+		?a: Patient
+		?b: medical decisions
+		?c: non-medical factors
+	?a influence ?b as ?c
+		?a: physician
+		?b: medical decisions
+		?c: non-medical factors
+	?a influence ?b as ?c
+		?a: attributes
+		?b: medical decisions
+		?c: non-medical factors
+
+
+label:    sent_8
+sentence: There is increasing awareness that childhood circumstances influence disease risk in adulthood .
+
+ppatt:
+	There is ?a
+		?a: increasing awareness that childhood circumstances influence disease risk in adulthood
+	?a influence ?b
+		?a: childhood circumstances
+		?b: disease risk in adulthood
+
+
+label:    sent_9
+sentence: Inflammation and coagulation constantly influence each other and are constantly in balance .
+
+ppatt:
+	?a constantly influence ?b
+		?a: Inflammation
+		?b: each other
+	?a constantly influence ?b
+		?a: coagulation
+		?b: each other
+
+
+label:    sent_10
+sentence: These results confirm that music can influence behaviour but is contrary to previous results .
+
+ppatt:
+	?a confirm ?b
+		?a: These results
+		?b: SOMETHING := music can influence behaviour
+	?a can influence ?b
+		?a: music
+		?b: behaviour
+
+
+label:    sent_11
+sentence: The presence of radiation pneumonitis can influence tumor FLT uptake and needs special attention .
+
+ppatt:
+	?a can influence ?b
+		?a: The presence of radiation pneumonitis
+		?b: tumor FLT uptake
+	?a needs ?b
+		?a: The presence of radiation pneumonitis
+		?b: special attention
+
+
+label:    sent_12
+sentence: Tumor necrosis factor-alpha ( TNF-alpha ) induces MMPs and may influence anastomosis repair .
+
+ppatt:
+	?a is/are TNF-alpha
+		?a: Tumor necrosis factor-alpha
+	?a induces ?b
+		?a: Tumor necrosis factor-alpha
+		?b: MMPs
+	?a may influence ?b
+		?a: Tumor necrosis factor-alpha
+		?b: anastomosis repair
+
+
+label:    sent_13
+sentence: Seizures are common and may influence survival in patients with oligodendogliomas .
+
+ppatt:
+	?a are common
+		?a: Seizures
+	?a may influence ?b
+		?a: Seizures
+		?b: survival in patients with oligodendogliomas
+
+
+label:    sent_14
+sentence: In particular , CHFR is frequently methylated in NSCLC and may influence outcome .
+
+ppatt:
+	In ?a , ?b is frequently methylated in ?c
+		?a: particular
+		?b: CHFR
+		?c: NSCLC
+	?a may influence ?b
+		?a: CHFR
+		?b: outcome
+
+
+label:    sent_15
+sentence: Matrix metalloproteinases 2 and 9 fail to influence drug-induced neuroapoptosis in developing rat brain .
+
+ppatt:
+	?a fail to influence ?b in ?c
+		?a: Matrix metalloproteinases
+		?b: drug-induced neuroapoptosis
+		?c: developing rat brain
+
+
+label:    sent_16
+sentence: Donor-pretreatment with ulinastatin may influence the liver graft during cold preservation .
+
+ppatt:
+	?a may influence ?b during ?c
+		?a: Donor-pretreatment with ulinastatin
+		?b: the liver graft
+		?c: cold preservation
+
+
+label:    sent_17
+sentence: Depression and functional status are known to influence dyspnea in patients with COPD .
+
+ppatt:
+	?a are known to influence ?b
+		?a: Depression
+		?b: dyspnea in patients with COPD
+	?a are known to influence ?b
+		?a: functional status
+		?b: dyspnea in patients with COPD
+
+
+label:    sent_18
+sentence: Such an arrangement may influence cytoplasmic streaming and as such modulate cell extension .
+
+ppatt:
+	?a may influence ?b
+		?a: Such an arrangement
+		?b: cytoplasmic streaming
+	as ?a modulate ?b
+		?a: such
+		?b: cell extension
+
+
+label:    sent_19
+sentence: SDB may influence children 's behavior , but with no relation to post-operative pain .
+
+ppatt:
+	?a may influence ?b
+		?a: SDB
+		?b: children 's behavior
+
+
+label:    sent_20
+sentence: Entacapone did not influence haemodynamics or ECG at rest or during exercise .
+
+ppatt:
+	?a did not influence ?b
+		?a: Entacapone
+		?b: haemodynamics at rest or during exercise
+	?a did not influence ?b
+		?a: Entacapone
+		?b: ECG
+
+
+label:    sent_21
+sentence: These findings add to the growing evidence of mechanisms by which cytokines influence depression .
+
+ppatt:
+	?a add to ?b
+		?a: These findings
+		?b: the growing evidence of mechanisms by which cytokines influence depression
+	?a by ?b influence ?c
+		?a: mechanisms
+		?b: cytokines
+		?c: depression
+
+
+label:    sent_22
+sentence: However , there still lacks evidences that JVR could influence cerebral circulation .
+
+ppatt:
+	However , ?a still lacks ?b
+		?a: there
+		?b: evidences that JVR could influence cerebral circulation
+	?a could influence ?b
+		?a: JVR
+		?b: cerebral circulation
+
+
+label:    sent_23
+sentence: Limited information is available on the mechanisms by which methamphetamine may influence immune function .
+
+ppatt:
+	?a is available on ?b
+		?a: Limited information
+		?b: the mechanisms by which methamphetamine may influence immune function
+	?a by ?b may influence ?c
+		?a: the mechanisms
+		?b: methamphetamine
+		?c: immune function
+
+
+label:    sent_24
+sentence: Genetic and environmental influence on diabetic rat embryopathy .
+
+ppatt:
+
+
+
+label:    sent_25
+sentence: Meteorological and pedological influence on the PCBs distribution in mountain soils .
+
+ppatt:
+
+
+
+label:    sent_26
+sentence: Emotion 's influence on memory for spatial and temporal context .
+
+ppatt:
+
+
+
+label:    sent_27
+sentence: Does living setting influence training adaptations in young girls ? Many factors influence what and how we communicate with patients after stroke .
+
+ppatt:
+	Does living ?a ?b
+		?a: setting influence training adaptations in young girls
+		?b: Many factors
+	?a influence ?b
+		?a: Many factors
+		?b: what
+	how ?a communicate with ?b
+		?a: we
+		?b: patients after stroke
+
+
+label:    sent_28
+sentence: Does the transition to parenthood influence driving ?
+
+ppatt:
+	Does ?a
+		?a: the transition to parenthood influence driving
+
+

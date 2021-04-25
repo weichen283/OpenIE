@@ -1,0 +1,276 @@
+label:    sent_1
+sentence: Six buffers were used to solubilize the proteins .
+
+ppatt:
+	?a were used to solubilize ?b
+		?a: Six buffers
+		?b: the proteins
+
+
+label:    sent_2
+sentence: The ability of nonionic surfactants to solubilize the pesticide alachlor was studied .
+
+ppatt:
+	?a solubilize ?b
+		?a: The ability of nonionic surfactants
+		?b: the pesticide alachlor
+	?a was studied
+		?a: The ability of nonionic surfactants to solubilize the pesticide alachlor
+
+
+label:    sent_3
+sentence: Moreover , amount of detergent needed to completely solubilize membrane was also increased .
+
+ppatt:
+	?a needed to completely solubilize ?b
+		?a: detergent
+		?b: membrane
+	Moreover , ?a was also increased
+		?a: amount of detergent needed to completely solubilize membrane
+
+
+label:    sent_4
+sentence: Attempts were made to solubilize AChE from microsomal membranes by proteolytic treatment .
+
+ppatt:
+	?a were made to solubilize ?b by ?c
+		?a: Attempts
+		?b: AChE from microsomal membranes
+		?c: proteolytic treatment
+
+
+label:    sent_5
+sentence: Buffer choice is critical to completely solubilize all proteins in the sample .
+
+ppatt:
+	?a is critical to completely solubilize ?b in ?c
+		?a: Buffer choice
+		?b: all proteins
+		?c: the sample
+
+
+label:    sent_6
+sentence: The cyclodextrins were able to solubilize paclitaxel to levels as high as 2 mg/mL .
+
+ppatt:
+	?a were able to solubilize ?b to ?c
+		?a: The cyclodextrins
+		?b: paclitaxel
+		?c: levels
+	?a as high as ?b
+		?a: The cyclodextrins
+		?b: 2 mg/mL
+
+
+label:    sent_7
+sentence: Bile acids solubilize proteins from liver plasma membrane both in vivo and in vitro .
+
+ppatt:
+	?a solubilize ?b both in vivo and in vitro
+		?a: Bile acids
+		?b: proteins from liver plasma membrane
+
+
+label:    sent_8
+sentence: Several chaotropic agents less potent than trichloroacetate and tribromoacetate did not solubilize egg PC .
+
+ppatt:
+	?a did not solubilize ?b
+		?a: Several chaotropic agents less potent than trichloroacetate and tribromoacetate
+		?b: egg PC
+
+
+label:    sent_9
+sentence: High CHAPS concentrations solubilize many proteins .
+
+ppatt:
+	?a solubilize ?b
+		?a: High CHAPS concentrations
+		?b: many proteins
+
+
+label:    sent_10
+sentence: These ionic liquids are strong Bronsted acids and can solubilize metal oxides .
+
+ppatt:
+	?a are strong Bronsted acids
+		?a: These ionic liquids
+	?a can solubilize ?b
+		?a: These ionic liquids
+		?b: metal oxides
+
+
+label:    sent_11
+sentence: This assay utilizes surfactant and phospholipase-D to selectively degrade and solubilize remnant lipoprotein .
+
+ppatt:
+	?a utilizes ?b to selectively degrade ?c
+		?a: This assay
+		?b: surfactant
+		?c: remnant lipoprotein
+	?a utilizes ?b to selectively degrade ?c
+		?a: This assay
+		?b: phospholipase-D
+		?c: remnant lipoprotein
+	?a utilizes to solubilize
+		?a: This assay
+
+
+label:    sent_12
+sentence: The bacterium was unable to solubilize phosphate or produce indole acetic acid .
+
+ppatt:
+	?a was unable to solubilize ?b
+		?a: The bacterium
+		?b: phosphate
+	?a was unable to produce ?b
+		?a: The bacterium
+		?b: indole acetic acid
+
+
+label:    sent_13
+sentence: The complement system is known to solubilize and render IC innocuous .
+
+ppatt:
+	?a is known to solubilize ?b innocuous
+		?a: The complement system
+		?b: IC
+	?a is known to render innocuous
+		?a: The complement system
+
+
+label:    sent_14
+sentence: This unit describes the use of detergents to solubilize and purify membrane proteins .
+
+ppatt:
+	?a describes ?b
+		?a: This unit
+		?b: the use of detergents to solubilize and purify membrane proteins
+	?a solubilize ?b
+		?a: the use of detergents
+		?b: membrane proteins
+	purify ?a
+		?a: membrane proteins
+
+
+label:    sent_15
+sentence: They are environmentally important because they are known to solubilize and transport organic pollutants .
+
+ppatt:
+	?a are environmentally important
+		?a: They
+	?a are known to solubilize ?b
+		?a: they
+		?b: organic pollutants
+	?a are known to transport
+		?a: they
+
+
+label:    sent_16
+sentence: Decreased capacity to solubilize immune complexes in sera from patients with systemic lupus erythematosus .
+
+ppatt:
+	?a solubilize ?b in ?c
+		?a: Decreased capacity
+		?b: immune complexes
+		?c: sera from patients with systemic lupus erythematosus
+
+
+label:    sent_17
+sentence: Use of detergents to solubilize the Ca2+-pump protein as monomers and defined oligomers .
+
+ppatt:
+	?a solubilize ?b as ?c
+		?a: Use of detergents
+		?b: the Ca2+-pump protein
+		?c: monomers
+	?a solubilize ?b as ?c
+		?a: Use of detergents
+		?b: the Ca2+-pump protein
+		?c: defined oligomers
+
+
+label:    sent_18
+sentence: This enables cyclodextrins to solubilize hydrophobic molecules in aqueous media .
+
+ppatt:
+	?a enables ?b to solubilize ?c
+		?a: This
+		?b: cyclodextrins
+		?c: hydrophobic molecules in aqueous media
+
+
+label:    sent_19
+sentence: This strain could solubilize phosphate molecules and fixes atmospheric nitrogen .
+
+ppatt:
+	?a could solubilize ?b
+		?a: This strain
+		?b: phosphate molecules
+	?a fixes ?b
+		?a: This strain
+		?b: atmospheric nitrogen
+
+
+label:    sent_20
+sentence: Chondroitin sulphate did not solubilize AChE activity , and protamine eliminated the solubilizing effect .
+
+ppatt:
+	?a did not solubilize ?b
+		?a: Chondroitin sulphate
+		?b: AChE activity
+	?a eliminated ?b
+		?a: protamine
+		?b: the solubilizing effect
+
+
+label:    sent_21
+sentence: Protopectinase-T : a rhamnogalacturonase able to solubilize protopectin from sugar beet .
+
+ppatt:
+	solubilize ?a
+		?a: protopectin from sugar beet
+
+
+label:    sent_22
+sentence: Actinomycetes degrade cellulose and solubilize lignin during composting .
+
+ppatt:
+	?a degrade ?b
+		?a: Actinomycetes
+		?b: cellulose
+	?a solubilize ?b during ?c
+		?a: Actinomycetes
+		?b: lignin
+		?c: composting
+
+
+label:    sent_23
+sentence: Thermo-chemical pre-treatment to solubilize and improve anaerobic biodegradability of press mud . ADP did not solubilize 110K-CM , but could partially inhibit ATP-dependent solubilization .
+
+ppatt:
+	?a solubilize ?b
+		?a: Thermo-chemical pre-treatment
+		?b: anaerobic biodegradability of press mud
+	?a improve
+		?a: Thermo-chemical pre-treatment
+	?a ?b did not solubilize ?c
+		?a: Thermo-chemical pre-treatment to solubilize and improve anaerobic biodegradability of press mud
+		?b: ADP
+		?c: 110K-CM
+	?a could partially inhibit ?b
+		?a: Thermo-chemical pre-treatment to solubilize and improve anaerobic biodegradability of press mud
+		?b: ATP-dependent solubilization
+
+
+label:    sent_24
+sentence: Evaluation of methods to solubilize and analyze cell-associated ectoenzymes .
+
+ppatt:
+	?a solubilize ?b
+		?a: Evaluation of methods
+		?b: cell-associated ectoenzymes
+	analyze ?a
+		?a: cell-associated ectoenzymes
+
+

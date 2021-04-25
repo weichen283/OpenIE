@@ -1,0 +1,368 @@
+label:    sent_1
+sentence: Specific intervention strategies for overweight children may be needed to promote PA .
+
+ppatt:
+	?a may be needed to promote ?b
+		?a: Specific intervention strategies for overweight children
+		?b: PA
+
+
+label:    sent_2
+sentence: When used effectively , portfolios provide evidence of continuous learning and promote reflective practice .
+
+ppatt:
+	When used effectively ?a
+		?a: portfolios
+	?a provide ?b
+		?a: portfolios
+		?b: evidence of continuous learning
+	?a promote ?b
+		?a: portfolios
+		?b: reflective practice
+
+
+label:    sent_3
+sentence: This will facilitate early diagnostic clarification and promote efficient treatment strategies .
+
+ppatt:
+	?a will facilitate ?b
+		?a: This
+		?b: early diagnostic clarification
+	?a promote ?b
+		?a: This
+		?b: efficient treatment strategies
+
+
+label:    sent_4
+sentence: Preanesthesia clinics promote safety and cost savings . Asymmetric cell divisions promote Notch-dependent epidermal differentiation .
+
+ppatt:
+	?a promote ?b
+		?a: Preanesthesia clinics
+		?b: safety
+	?a promote ?b
+		?a: Preanesthesia clinics
+		?b: cost
+	?a promote ?b
+		?a: Asymmetric cell divisions
+		?b: Notch-dependent epidermal differentiation
+
+
+label:    sent_5
+sentence: Agency aims to inform girls about contraception to promote development .
+
+ppatt:
+	?a aims to inform ?b about ?c to promote ?d
+		?a: Agency
+		?b: girls
+		?c: contraception
+		?d: development
+
+
+label:    sent_6
+sentence: Construction of pathways to promote axon growth within the adult central nervous system .
+
+ppatt:
+	?a promote ?b
+		?a: Construction of pathways
+		?b: axon growth within the adult central nervous system
+
+
+label:    sent_7
+sentence: The potential of communities of practice to promote evidence-informed practice within nursing homes .
+
+ppatt:
+	?a promote ?b
+		?a: The potential of communities of practice
+		?b: evidence-informed practice within nursing homes
+
+
+label:    sent_8
+sentence: Seasonal rainfall and runoff promote coral disease on an inshore reef . Inflammation and oxidative stress are thought to promote tissue damage in multiple sclerosis .
+
+ppatt:
+	?a promote ?b on ?c ?d
+		?a: Seasonal rainfall
+		?b: coral disease
+		?c: an inshore reef
+		?d: Inflammation
+	?a promote ?b on ?c ?d
+		?a: runoff
+		?b: coral disease
+		?c: an inshore reef
+		?d: Inflammation
+	?a promote ?b on ?c ?d
+		?a: Seasonal rainfall
+		?b: coral disease
+		?c: an inshore reef
+		?d: oxidative stress
+	?a promote ?b on ?c ?d
+		?a: runoff
+		?b: coral disease
+		?c: an inshore reef
+		?d: oxidative stress
+	?a are thought to promote ?b
+		?a: Seasonal rainfall
+		?b: tissue damage in multiple sclerosis
+	?a are thought to promote ?b
+		?a: runoff
+		?b: tissue damage in multiple sclerosis
+
+
+label:    sent_9
+sentence: In addition , Mms1 appears to specifically promote chromosomal rearrangements in a recombination assay .
+
+ppatt:
+	In ?a , ?b appears to specifically promote ?c in ?d
+		?a: addition
+		?b: Mms1
+		?c: chromosomal rearrangements
+		?d: a recombination assay
+
+
+label:    sent_10
+sentence: I also outline three possible approaches to promote research integrity in bioethics . ERbeta and PEA3 co-activate IL-8 expression and promote the invasion of breast cancer cells .
+
+ppatt:
+	?a also outline ?b
+		?a: I
+		?b: three possible approaches to promote research integrity in bioethics
+	?a promote ?b
+		?a: three possible approaches
+		?b: research integrity in bioethics
+	?a co-activate ?b
+		?a: ERbeta
+		?b: IL-8 expression
+	?a co-activate ?b
+		?a: PEA3
+		?b: IL-8 expression
+	?a promote ?b
+		?a: ERbeta
+		?b: the invasion of breast cancer cells
+	?a promote ?b
+		?a: PEA3
+		?b: the invasion of breast cancer cells
+
+
+label:    sent_11
+sentence: Public policies aim to promote well-being , and ultimately the quality of later life .
+
+ppatt:
+	?a aim to promote ?b
+		?a: Public policies
+		?b: well-being , of later life
+	?a aim to promote ?b
+		?a: Public policies
+		?b: ultimately the quality
+
+
+label:    sent_12
+sentence: Histone deacetylase ( HDAC ) inhibitors are neuroprotective and also promote neurogenesis .
+
+ppatt:
+	?a is/are HDAC
+		?a: Histone deacetylase
+	?a are neuroprotective
+		?a: Histone deacetylase inhibitors
+	?a also promote ?b
+		?a: Histone deacetylase inhibitors
+		?b: neurogenesis
+
+
+label:    sent_13
+sentence: Multiple studies have shown that phenytoin can promote wound healing and induce faster fibrosis .
+
+ppatt:
+	?a have shown ?b
+		?a: Multiple studies
+		?b: SOMETHING := phenytoin can promote wound healing
+	?a can promote ?b
+		?a: phenytoin
+		?b: wound healing
+	?a induce ?b
+		?a: phenytoin
+		?b: faster fibrosis
+
+
+label:    sent_14
+sentence: Arbuscular mycorrhizal fungi ( AMF ) can promote plant growth and affect plant form . A novel program to promote competency and hospice and palliative medicine board certification .
+
+ppatt:
+	?a is/are AMF
+		?a: Arbuscular mycorrhizal fungi
+	?a can promote ?b ?c
+		?a: Arbuscular mycorrhizal fungi
+		?b: plant growth
+		?c: A novel program to promote competency and hospice and palliative medicine board certification
+	?a affect ?b
+		?a: Arbuscular mycorrhizal fungi
+		?b: plant form
+	?a promote ?b
+		?a: A novel program
+		?b: competency
+	?a promote ?b
+		?a: A novel program
+		?b: hospice
+	?a promote ?b
+		?a: A novel program
+		?b: medicine board certification
+
+
+label:    sent_15
+sentence: Hypothermia impairs but hyperthermia does not promote inert gas elimination in the rat . In addition , constant re-evaluation and assessment will promote further improvement and increase reliability .
+
+ppatt:
+	?a impairs
+		?a: Hypothermia
+	?a does not promote ?b
+		?a: hyperthermia
+		?b: inert gas elimination in the rat
+	In ?a , ?b will promote ?c
+		?a: addition
+		?b: constant re-evaluation
+		?c: further improvement
+	In ?a , ?b will promote ?c
+		?a: addition
+		?b: assessment
+		?c: further improvement
+	?a increase ?b
+		?a: constant re-evaluation
+		?b: reliability
+	?a increase ?b
+		?a: assessment
+		?b: reliability
+
+
+label:    sent_16
+sentence: In vitro , paxillin may promote cell proliferation and inhibit apoptosis in SW480 cells .
+
+ppatt:
+	In vitro , ?a may promote ?b
+		?a: paxillin
+		?b: cell proliferation
+	?a inhibit ?b
+		?a: paxillin
+		?b: apoptosis in SW480 cells
+
+
+label:    sent_17
+sentence: Ibogaine --be informed before you promote or prescribe .
+
+ppatt:
+	?a --be informed
+		?a: Ibogaine
+	before ?a promote
+		?a: you
+	before ?a prescribe
+		?a: you
+
+
+label:    sent_18
+sentence: It has the potential to promote and reinforce collaborative relationships between clinicians and patients .
+
+ppatt:
+	?a has ?b
+		?a: It
+		?b: the potential to promote and reinforce collaborative relationships between clinicians and patients
+	?a promote ?b
+		?a: the potential
+		?b: collaborative relationships between clinicians and patients
+	reinforce ?a
+		?a: collaborative relationships between clinicians and patients
+
+
+label:    sent_19
+sentence: Third , patient-based efforts to promote and participate in evidence-based practice are explored .
+
+ppatt:
+	?a promote in ?b
+		?a: patient-based efforts
+		?b: evidence-based practice
+	?a participate
+		?a: patient-based efforts
+	Third , ?a are explored
+		?a: patient-based efforts to promote and participate in evidence-based practice
+
+
+label:    sent_20
+sentence: Chemokine receptors are found on cell surfaces and promote cellular migration by chemotaxis .
+
+ppatt:
+	?a are found on ?b
+		?a: Chemokine receptors
+		?b: cell surfaces
+	?a promote ?b by ?c
+		?a: Chemokine receptors
+		?b: cellular migration
+		?c: chemotaxis
+
+
+label:    sent_21
+sentence: Bisphosphonates are promising agents to maintain and/or promote bone mass in this patient group .
+
+ppatt:
+	?a are promising agents
+		?a: Bisphosphonates
+	?a maintain ?b in ?c
+		?a: promising agents
+		?b: bone mass
+		?c: this patient group
+	?a promote
+		?a: Bisphosphonates
+
+
+label:    sent_22
+sentence: Studying processes that hinder or promote identity development in later life is of importance .
+
+ppatt:
+	Studying ?a
+		?a: processes that hinder or promote identity development in later life
+	?a hinder ?b
+		?a: processes
+		?b: identity development in later life
+	?a promote
+		?a: that
+	?a is of importance
+		?a: SOMETHING := Studying processes that hinder or promote identity development in later life
+
+
+label:    sent_23
+sentence: Transmembrane protein tetraspanins either promote or suppress tumor invasion and metastasis .
+
+ppatt:
+	?a either promote ?b
+		?a: Transmembrane protein tetraspanins
+		?b: tumor invasion
+	?a either promote ?b
+		?a: Transmembrane protein tetraspanins
+		?b: metastasis
+	?a suppress
+		?a: Transmembrane protein tetraspanins
+
+
+label:    sent_24
+sentence: Previous cross-sectional research has suggested single cigarettes could either promote or inhibit consumption .
+
+ppatt:
+	?a has suggested ?b ?c
+		?a: Previous cross-sectional research
+		?b: single cigarettes
+		?c: SOMETHING := could promote consumption
+	?a could either promote ?b
+		?a: Previous cross-sectional research
+		?b: consumption
+	?a inhibit
+		?a: Previous cross-sectional research
+
+
+label:    sent_25
+sentence: The immune system can both promote and suppress cancer .
+
+ppatt:
+	?a can both promote ?b
+		?a: The immune system
+		?b: cancer
+	?a suppress
+		?a: The immune system
+
+

@@ -1,0 +1,244 @@
+label:    sent_1
+sentence: This study uses computational grammar inference methods to automate LGS discovery .
+
+ppatt:
+	?a uses ?b to automate ?c
+		?a: This study
+		?b: computational grammar inference methods
+		?c: LGS discovery
+
+
+label:    sent_2
+sentence: This can be used to automate the detection of these defects .
+
+ppatt:
+	?a can be used to automate ?b
+		?a: This
+		?b: the detection of these defects
+
+
+label:    sent_3
+sentence: There is an increasing need to automate the process of establishing patterns .
+
+ppatt:
+	There is ?a
+		?a: an increasing need to automate the process of establishing patterns
+	?a automate ?b
+		?a: an increasing need
+		?b: the process of establishing patterns
+	?a establishing ?b
+		?a: the process
+		?b: patterns
+
+
+label:    sent_4
+sentence: The system was designed to automate web-based self-screening into the trial .
+
+ppatt:
+	?a was designed to automate ?b into ?c
+		?a: The system
+		?b: web-based self-screening
+		?c: the trial
+
+
+label:    sent_5
+sentence: Here , we discuss several methodological approaches to automate longevity assays in the nematode .
+
+ppatt:
+	Here , ?a discuss ?b
+		?a: we
+		?b: several methodological approaches to automate longevity assays in the nematode
+	?a automate ?b
+		?a: several methodological approaches
+		?b: longevity assays in the nematode
+
+
+label:    sent_6
+sentence: Techniques have been developed to automate IP analysis with and without force monitoring .
+
+ppatt:
+	?a have been developed to automate ?b ?c
+		?a: Techniques
+		?b: IP analysis
+		?c: with and without force monitoring
+
+
+label:    sent_7
+sentence: A method to automate probabilistic sensitivity analyses of misclassified binary variables .
+
+ppatt:
+	?a automate ?b
+		?a: A method
+		?b: probabilistic sensitivity analyses of misclassified binary variables
+
+
+label:    sent_8
+sentence: Perl scripts automate these processes , allowing compatibility with high-throughput genetic screens .
+
+ppatt:
+	?a automate ?b
+		?a: Perl scripts
+		?b: these processes
+	?a allowing ?b
+		?a: Perl scripts
+		?b: compatibility with high-throughput genetic screens
+
+
+label:    sent_9
+sentence: It stresses the need for computer vision methods that automate image classification tasks . A project manager is provided to organize and automate the analysis of multi-genome groups . Integrate and automate RCM .
+
+ppatt:
+	?a stresses ?b
+		?a: It
+		?b: the need for computer vision methods that automate image classification tasks
+	?a automate ?b
+		?a: computer vision methods
+		?b: image classification tasks
+	?a is provided to organize ?b
+		?a: A project manager
+		?b: the analysis of multi-genome groups
+	?a is provided to automate
+		?a: A project manager
+	?a Integrate
+		?a: It
+	?a automate ?b
+		?a: It
+		?b: RCM
+
+
+label:    sent_10
+sentence: Algorithms have been created to automate the data analysis and review process .
+
+ppatt:
+	?a have been created to automate ?b
+		?a: Algorithms
+		?b: the data analysis
+	?a have been created to automate ?b
+		?a: Algorithms
+		?b: review process
+
+
+label:    sent_11
+sentence: However , MS is much easier to automate and use as a large-scale technique .
+
+ppatt:
+	However , ?a is much easier to automate as ?b
+		?a: MS
+		?b: a large-scale technique
+	However , ?a is much easier to use
+		?a: MS
+
+
+label:    sent_12
+sentence: NECEEM is easy to automate and parallelize .
+
+ppatt:
+	?a is easy to automate
+		?a: NECEEM
+	?a is easy to parallelize
+		?a: NECEEM
+
+
+label:    sent_13
+sentence: Therefore , it is necessary to automate and parallelize electrophysiology measurement in artificial membranes .
+
+ppatt:
+	Therefore , ?a is necessary to automate ?b
+		?a: it
+		?b: electrophysiology measurement in artificial membranes
+	Therefore , ?a is necessary to parallelize
+		?a: it
+
+
+label:    sent_14
+sentence: A practical approach to automate randomized design of experiments for ligand-binding assays .
+
+ppatt:
+	?a automate ?b
+		?a: A practical approach
+		?b: randomized design of experiments for ligand-binding assays
+
+
+label:    sent_15
+sentence: ADAM can potentially automate daily symptom monitoring with minimal intrusiveness and maximal objectivity .
+
+ppatt:
+	?a can potentially automate ?b with ?c
+		?a: ADAM
+		?b: daily symptom monitoring
+		?c: minimal intrusiveness
+	?a can potentially automate ?b with ?c
+		?a: ADAM
+		?b: daily symptom monitoring
+		?c: maximal objectivity
+
+
+label:    sent_16
+sentence: Expert clinical rules automate steps in delivering evidence-based care in the electronic health record .
+
+ppatt:
+	?a automate ?b
+		?a: Expert clinical rules
+		?b: steps
+	?a delivering ?b
+		?a: Expert clinical rules
+		?b: evidence-based care in the electronic health record
+
+
+label:    sent_17
+sentence: The process is simple , efficacious , easy to automate , and economical . Systems used to automate medical libraries -- analysis by type of library .
+
+ppatt:
+	?a is simple
+		?a: The process
+	?a efficacious
+		?a: The process
+	?a used to automate ?b
+		?a: Systems
+		?b: medical libraries
+
+
+label:    sent_18
+sentence: The methods are easy to automate for routine analysis .
+
+ppatt:
+	?a are easy to automate for ?b
+		?a: The methods
+		?b: routine analysis
+
+
+label:    sent_19
+sentence: A molecular scanner to automate proteomic research and to display proteome images .
+
+ppatt:
+	?a automate ?b
+		?a: A molecular scanner
+		?b: proteomic research
+	display ?a
+		?a: proteome images
+
+
+label:    sent_20
+sentence: Blood banks automate using multi-user computers .
+
+ppatt:
+	?a automate using ?b
+		?a: Blood banks
+		?b: multi-user computers
+
+
+label:    sent_21
+sentence: The decision to automate : how to make it . Ready , set , automate .
+
+ppatt:
+	?a automate
+		?a: The decision
+	?a how to make ?b ?c ?d
+		?a: The decision
+		?b: it
+		?c: Ready
+		?d: set
+	?a automate
+		?a: The decision to automate : how to make it . Ready , set
+
+

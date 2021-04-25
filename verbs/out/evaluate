@@ -1,0 +1,306 @@
+label:    sent_1
+sentence: Postoperative CT scans were used to evaluate the radiographic change in the symphyseal area .
+
+ppatt:
+	?a were used to evaluate ?b
+		?a: Postoperative CT scans
+		?b: the radiographic change in the symphyseal area
+
+
+label:    sent_2
+sentence: Further evaluation may be needed to evaluate the progress of remineralization and long-term results .
+
+ppatt:
+	?a may be needed to evaluate ?b
+		?a: Further evaluation
+		?b: the progress of remineralization and long-term results
+
+
+label:    sent_3
+sentence: Participants completed questionnaires to evaluate screening behaviors , health literacy , and demographic characteristics . SEM was used to evaluate cell distribution throughout the constructs .
+
+ppatt:
+	?a completed ?b
+		?a: Participants
+		?b: questionnaires to evaluate screening behaviors , health literacy , and demographic characteristics
+	?a evaluate ?b
+		?a: questionnaires
+		?b: screening behaviors
+	?a evaluate ?b
+		?a: questionnaires
+		?b: health literacy
+	?a evaluate ?b
+		?a: questionnaires
+		?b: demographic characteristics
+	?a was used to evaluate ?b throughout ?c
+		?a: SEM
+		?b: cell distribution
+		?c: the constructs
+
+
+label:    sent_4
+sentence: The objective of this study was to evaluate breast MRI after bilateral mastectomy .
+
+ppatt:
+	?a was to evaluate ?b after ?c
+		?a: The objective of this study
+		?b: breast MRI
+		?c: bilateral mastectomy
+
+
+label:    sent_5
+sentence: To evaluate the costs of PD in an outpatient cohort in Portugal .
+
+ppatt:
+	evaluate ?a
+		?a: the costs of PD in an outpatient cohort in Portugal
+
+
+label:    sent_6
+sentence: To evaluate the left ventricular structure and function in isolated metabolic syndrome .
+
+ppatt:
+	evaluate ?a
+		?a: the left ventricular structure in isolated metabolic syndrome
+	evaluate ?a
+		?a: function
+
+
+label:    sent_7
+sentence: It is to devise and evaluate arguments intended to persuade .
+
+ppatt:
+	?a is to devise ?b
+		?a: It
+		?b: arguments intended to persuade
+	?a is to evaluate
+		?a: It
+	?a intended to persuade
+		?a: arguments
+
+
+label:    sent_8
+sentence: To evaluate ocular wavefront aberrations in keratoconus and describe their effect on visual quality .
+
+ppatt:
+	evaluate ?a
+		?a: ocular wavefront aberrations in keratoconus
+	describe ?a
+		?a: their effect on visual quality
+
+
+label:    sent_9
+sentence: We will also evaluate the acceptance of the telemedical care concept by the patients . ( 1 ) To evaluate feasibility and safety of hybrid transgastric NOTES cholecystectomy .
+
+ppatt:
+	?a will also evaluate ?b
+		?a: We
+		?b: the acceptance of the telemedical care concept by the patients
+	?a evaluate ?b
+		?a: We
+		?b: feasibility of hybrid transgastric NOTES cholecystectomy
+	?a evaluate ?b
+		?a: We
+		?b: safety
+
+
+label:    sent_10
+sentence: A biomechanical assessment to evaluate breed differences in normal porcine medial collateral ligaments .
+
+ppatt:
+	?a evaluate ?b
+		?a: A biomechanical assessment
+		?b: breed differences in normal porcine medial collateral ligaments
+
+
+label:    sent_11
+sentence: Replication studies evaluate technologies in usual use settings .
+
+ppatt:
+	?a evaluate ?b
+		?a: Replication studies
+		?b: technologies in usual use settings
+
+
+label:    sent_12
+sentence: We evaluate treatment efficacy in the hands of novice versus experienced operators .
+
+ppatt:
+	?a evaluate ?b
+		?a: We
+		?b: treatment efficacy in the hands of novice versus experienced operators
+
+
+label:    sent_13
+sentence: Additional research will evaluate the model 's efficacy in clinical practice .
+
+ppatt:
+	?a will evaluate ?b
+		?a: Additional research
+		?b: the model 's efficacy in clinical practice
+
+
+label:    sent_14
+sentence: To summarise and evaluate the current evidence for acupuncture as a treatment for PMS .
+
+ppatt:
+	summarise ?a as ?b
+		?a: the current evidence for acupuncture
+		?b: a treatment for PMS
+	evaluate ?a
+		?a: the current evidence for acupuncture
+
+
+label:    sent_15
+sentence: To evaluate renal colic frequency in different seasons and around full moon .
+
+ppatt:
+	evaluate ?a
+		?a: renal colic frequency in different seasons and around full moon
+
+
+label:    sent_16
+sentence: We analyzed fracture healing and evaluate function by observation of the postoperative X-ray films .
+
+ppatt:
+	?a analyzed ?b
+		?a: We
+		?b: fracture healing
+	?a evaluate ?b by ?c
+		?a: We
+		?b: function
+		?c: observation of the postoperative X-ray films
+
+
+label:    sent_17
+sentence: A large number of patients is required to evaluate and validate these findings .
+
+ppatt:
+	?a is required to evaluate ?b
+		?a: A large number of patients
+		?b: these findings
+	?a is required to validate
+		?a: A large number of patients
+
+
+label:    sent_18
+sentence: To evaluate and/or design bioremediated systems , quantitative reactive transport models are needed .
+
+ppatt:
+	evaluate ?a ?b
+		?a: bioremediated systems
+		?b: quantitative reactive transport models
+	design ?a
+		?a: quantitative reactive transport models
+	?a are needed
+		?a: quantitative reactive transport models
+
+
+label:    sent_19
+sentence: Further work to evaluate and disseminate this tool is in progress . MRI examinations performed to evaluate for secondary avascular necrosis were excluded .
+
+ppatt:
+	?a evaluate ?b
+		?a: Further work
+		?b: this tool
+	?a disseminate
+		?a: Further work
+	?a is in progress
+		?a: Further work to evaluate and disseminate this tool
+	?a performed to evaluate for ?b
+		?a: MRI examinations
+		?b: secondary avascular necrosis
+	?a were excluded
+		?a: MRI examinations performed to evaluate for secondary avascular necrosis
+
+
+label:    sent_20
+sentence: Match paired t tests were used to evaluate for dyadic differences .
+
+ppatt:
+	?a were used to evaluate for ?b
+		?a: Match paired t tests
+		?b: dyadic differences
+
+
+label:    sent_21
+sentence: Pedicle wall breakthrough has been reported to be difficult to evaluate by radiographs .
+
+ppatt:
+	?a has been reported to be difficult to evaluate by ?b
+		?a: Pedicle wall breakthrough
+		?b: radiographs
+
+
+label:    sent_22
+sentence: MR imaging methods can both evaluate the lumen and directly image the vessel wall .
+
+ppatt:
+	?a can both evaluate ?b
+		?a: MR imaging methods
+		?b: the lumen
+	?a directly image ?b
+		?a: MR imaging methods
+		?b: the vessel wall
+
+
+label:    sent_23
+sentence: Carotid ultrasound to evaluate IMT , and retinography to evaluate the arteriovenous index .
+
+ppatt:
+	?a ultrasound to evaluate ?b
+		?a: Carotid
+		?b: IMT
+	?a ultrasound to evaluate ?b
+		?a: Carotid
+		?b: retinography
+	?a evaluate ?b
+		?a: Carotid
+		?b: the arteriovenous index
+
+
+label:    sent_24
+sentence: Therefore , we should not evaluate the neurological loss but instead provide adequate information .
+
+ppatt:
+	Therefore , ?a should not evaluate ?b
+		?a: we
+		?b: the neurological loss
+	?a instead provide ?b
+		?a: we
+		?b: adequate information
+
+
+label:    sent_25
+sentence: We also evaluate whether these differences can be attributed to physiology or methodology .
+
+ppatt:
+	?a also evaluate ?b
+		?a: We
+		?b: SOMETHING := these differences can be attributed to physiology or methodology
+	?a can be attributed to ?b
+		?a: these differences
+		?b: physiology
+	?a can be attributed to ?b
+		?a: these differences
+		?b: methodology
+
+
+label:    sent_26
+sentence: Two hundred patients were given five hand hygiene products to evaluate .
+
+ppatt:
+	?a were given ?b to evaluate
+		?a: Two hundred patients
+		?b: five hand hygiene products
+
+
+label:    sent_27
+sentence: Future studies should evaluate who benefits more from surgery and who from conservative care .
+
+ppatt:
+	?a should evaluate ?b
+		?a: Future studies
+		?b: who benefits more from surgery and who from conservative care
+
+

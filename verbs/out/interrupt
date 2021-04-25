@@ -1,0 +1,296 @@
+label:    sent_1
+sentence: The naturally occurring temperature gradient within the cushion appeared to interrupt ice propagation thermally .
+
+ppatt:
+	?a appeared to interrupt ?b thermally
+		?a: The naturally occurring temperature gradient within the cushion
+		?b: ice propagation
+
+
+label:    sent_2
+sentence: Intensive and targeted efforts delivered locally are required to interrupt further transmission .
+
+ppatt:
+	?a delivered locally
+		?a: efforts
+	?a ?b are required to interrupt ?c
+		?a: Intensive
+		?b: efforts delivered locally
+		?c: further transmission
+	?a ?b are required to interrupt ?c
+		?a: targeted
+		?b: efforts delivered locally
+		?c: further transmission
+
+
+label:    sent_3
+sentence: Thus , it has great appeal as a tool to interrupt antibody-mediated autoimmune disease .
+
+ppatt:
+	Thus , ?a has ?b as ?c
+		?a: it
+		?b: great appeal
+		?c: a tool to interrupt antibody-mediated autoimmune disease
+	?a interrupt ?b
+		?a: a tool
+		?b: antibody-mediated autoimmune disease
+
+
+label:    sent_4
+sentence: Uncontrolled ERAD activity might prematurely interrupt ongoing folding programs .
+
+ppatt:
+	?a might prematurely interrupt ?b
+		?a: Uncontrolled ERAD activity
+		?b: ongoing folding programs
+
+
+label:    sent_5
+sentence: Emergent vaccination of MV could interrupt the transmission of the disease .
+
+ppatt:
+	?a could interrupt ?b
+		?a: Emergent vaccination of MV
+		?b: the transmission of the disease
+
+
+label:    sent_6
+sentence: Therefore , identification of secondary cases and their prompt treatment may interrupt further transmission .
+
+ppatt:
+	Therefore , ?a may interrupt ?b
+		?a: identification of secondary cases and their prompt treatment
+		?b: further transmission
+
+
+label:    sent_7
+sentence: No patient had to interrupt the treatment as a consequence of side effects .
+
+ppatt:
+	?a had to interrupt ?b as ?c
+		?a: No patient
+		?b: the treatment
+		?c: a consequence of side effects
+
+
+label:    sent_8
+sentence: Integrative plasmids were constructed to interrupt transcription through this region .
+
+ppatt:
+	?a were constructed to interrupt ?b through ?c
+		?a: Integrative plasmids
+		?b: transcription
+		?c: this region
+
+
+label:    sent_9
+sentence: There is no need to interrupt the pregnancies except for obstetric reasons .
+
+ppatt:
+	There is ?a
+		?a: no need to interrupt the pregnancies except for obstetric reasons
+	?a interrupt ?b except for ?c
+		?a: no need
+		?b: the pregnancies
+		?c: obstetric reasons
+
+
+label:    sent_10
+sentence: Most women interrupt their work activities during the treatment of cancer .
+
+ppatt:
+	?a interrupt ?b during ?c
+		?a: Most women
+		?b: their work activities
+		?c: the treatment of cancer
+
+
+label:    sent_11
+sentence: Rods can also interrupt vesicular transport by occluding the neurite within which they form .
+
+ppatt:
+	?a can also interrupt ?b
+		?a: Rods
+		?b: vesicular transport
+	?a occluding ?b
+		?a: Rods
+		?b: the neurite within which they form
+	?a within ?b form
+		?a: the neurite
+		?b: they
+
+
+label:    sent_12
+sentence: Thus , both drugs interrupt reentrant flutter mainly by reducing excitability .
+
+ppatt:
+	Thus , ?a interrupt ?b
+		?a: both drugs
+		?b: reentrant flutter
+	?a mainly by reducing ?b
+		?a: both drugs
+		?b: excitability
+
+
+label:    sent_13
+sentence: These neutral lipids can disorder membranes and interrupt mitochondrial function .
+
+ppatt:
+	?a can disorder membranes
+		?a: These neutral lipids
+	?a interrupt ?b
+		?a: These neutral lipids
+		?b: mitochondrial function
+
+
+label:    sent_14
+sentence: To interrupt tuberculosis transmission and evaluate the utility of spot sputum screening .
+
+ppatt:
+	interrupt ?a
+		?a: tuberculosis transmission
+	evaluate ?a
+		?a: the utility of spot sputum screening
+
+
+label:    sent_15
+sentence: Large deposits , primarily extracellular , displaced but did not interrupt the stromal lamellae .
+
+ppatt:
+	?a displaced
+		?a: Large deposits , primarily extracellular
+	?a did not interrupt ?b
+		?a: Large deposits , primarily extracellular
+		?b: the stromal lamellae
+
+
+label:    sent_16
+sentence: Nasoenteral tube obstruction may interrupt nutritional support and prohibit drug administration .
+
+ppatt:
+	?a may interrupt ?b
+		?a: Nasoenteral tube obstruction
+		?b: nutritional support
+	?a prohibit ?b
+		?a: Nasoenteral tube obstruction
+		?b: drug administration
+
+
+label:    sent_17
+sentence: Discontinuation of antipsychotic treatment for schizophrenia can interrupt improvement and exacerbate the illness .
+
+ppatt:
+	?a can interrupt ?b
+		?a: Discontinuation of antipsychotic treatment for schizophrenia
+		?b: improvement
+	?a exacerbate ?b
+		?a: Discontinuation of antipsychotic treatment for schizophrenia
+		?b: the illness
+
+
+label:    sent_18
+sentence: Highway work zones interrupt regular traffic flows and create safety problems .
+
+ppatt:
+	?a interrupt ?b
+		?a: Highway work zones
+		?b: regular traffic flows
+	?a create ?b
+		?a: Highway work zones
+		?b: safety problems
+
+
+label:    sent_19
+sentence: Renoprotection is a strategy that aims to interrupt or reverse this process .
+
+ppatt:
+	?a is a strategy
+		?a: Renoprotection
+	?a aims to interrupt ?b
+		?a: a strategy
+		?b: this process
+	?a aims to reverse
+		?a: that
+
+
+label:    sent_20
+sentence: The deflation reflex functions to interrupt or terminate the act of defecation .
+
+ppatt:
+	?a functions to interrupt ?b
+		?a: The deflation reflex
+		?b: the act of defecation
+	?a functions to terminate
+		?a: The deflation reflex
+
+
+label:    sent_21
+sentence: There was no need to interrupt or to change HCV treatment .
+
+ppatt:
+	There was ?a
+		?a: no need to interrupt or to change HCV treatment
+	?a interrupt
+		?a: no need
+	?a change ?b
+		?a: no need
+		?b: HCV treatment
+
+
+label:    sent_22
+sentence: Similarly , brief swim stimulation could interrupt and reset an ongoing fictive rostral scratch .
+
+ppatt:
+	Similarly , ?a could interrupt ?b
+		?a: brief swim stimulation
+		?b: an ongoing fictive rostral scratch
+	?a reset
+		?a: brief swim stimulation
+
+
+label:    sent_23
+sentence: Physical interventions to interrupt or reduce the spread of respiratory viruses : systematic review .
+
+ppatt:
+	?a interrupt ?b
+		?a: Physical interventions
+		?b: the spread of respiratory viruses
+	reduce ?a
+		?a: the spread of respiratory viruses
+
+
+label:    sent_24
+sentence: Physical interventions to interrupt or reduce the spread of respiratory viruses .
+
+ppatt:
+	?a interrupt ?b
+		?a: Physical interventions
+		?b: the spread of respiratory viruses
+	reduce ?a
+		?a: the spread of respiratory viruses
+
+
+label:    sent_25
+sentence: Adverse events were predominantly nonserious and did not interrupt patient continuation in the study .
+
+ppatt:
+	?a were predominantly nonserious
+		?a: Adverse events
+	?a did not interrupt ?b in ?c
+		?a: Adverse events
+		?b: patient continuation
+		?c: the study
+
+
+label:    sent_26
+sentence: Adverse events were predominantly nonserious and did not interrupt patient continuation in the study .
+
+ppatt:
+	?a were predominantly nonserious
+		?a: Adverse events
+	?a did not interrupt ?b in ?c
+		?a: Adverse events
+		?b: patient continuation
+		?c: the study
+
+

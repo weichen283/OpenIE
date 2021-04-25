@@ -1,0 +1,236 @@
+label:    sent_1
+sentence: This study reveals a bias to omit psychotropic medications such as antidepressants and anxiolytics .
+
+ppatt:
+	?a reveals ?b
+		?a: This study
+		?b: a bias to omit psychotropic medications such as antidepressants and anxiolytics
+	?a omit ?b
+		?a: a bias
+		?b: psychotropic medications such as antidepressants and anxiolytics
+
+
+label:    sent_2
+sentence: Cavernous sinus invasion should not be a reason to omit operation .
+
+ppatt:
+	?a should not be a reason
+		?a: Cavernous sinus invasion
+	?a omit ?b
+		?a: not a reason
+		?b: operation
+
+
+label:    sent_3
+sentence: Psychopaths also were more likely to omit major details of their offenses .
+
+ppatt:
+	?a also were more likely to omit ?b
+		?a: Psychopaths
+		?b: major details of their offenses
+
+
+label:    sent_4
+sentence: This association remained significant in two additional frailty indexes that omit gait velocity criterion .
+
+ppatt:
+	?a remained significant in ?b
+		?a: This association
+		?b: two additional frailty indexes that omit gait velocity criterion
+	?a omit ?b
+		?a: two additional frailty indexes
+		?b: gait velocity criterion
+
+
+label:    sent_5
+sentence: " If consortia omit nurses , they will miss a wealth of expertise " . If there are no alarming symptoms , you can omit endoscopy in younger patients .
+
+ppatt:
+	?a omit ?b
+		?a: consortia
+		?b: nurses
+	" , ?a will miss ?b
+		?a: they
+		?b: a wealth of expertise "
+	there are ?a
+		?a: no alarming symptoms
+	?a can omit ?b in ?c
+		?a: you
+		?b: endoscopy
+		?c: younger patients
+
+
+label:    sent_6
+sentence: It is reasonable to omit ALND for a low-risk subset of SLN-positive patients .
+
+ppatt:
+	?a is reasonable to omit ?b for ?c
+		?a: It
+		?b: ALND
+		?c: a low-risk subset of SLN-positive patients
+
+
+label:    sent_7
+sentence: Do n't omit manual steps in automated endoscope cleaning .
+
+ppatt:
+	Do n't omit ?a in ?b
+		?a: manual steps
+		?b: automated endoscope cleaning
+
+
+label:    sent_8
+sentence: An alternative , wherever possible , would be to omit bisulfite in the solutions .
+
+ppatt:
+	?a would be to omit ?b
+		?a: An alternative
+		?b: bisulfite in the solutions
+
+
+label:    sent_9
+sentence: Dentists should be very careful on clinical examination and should not omit any details .
+
+ppatt:
+	?a should be very careful on ?b
+		?a: Dentists
+		?b: clinical examination
+	?a should not omit ?b
+		?a: Dentists
+		?b: any details
+
+
+label:    sent_10
+sentence: Among the common features were the tendencies to substitute and omit phonemes .
+
+ppatt:
+	Among ?a were the tendencies
+		?a: the common features
+	?a substitute ?b
+		?a: the tendencies
+		?b: phonemes
+	Among ?a omit
+		?a: the common features
+
+
+label:    sent_11
+sentence: The Nobel process for science are often somewhat controversial for who they omit .
+
+ppatt:
+	?a are often somewhat controversial ?b
+		?a: The Nobel process for science
+		?b: SOMETHING := who they omit
+	?a ?b omit
+		?a: who
+		?b: they
+
+
+label:    sent_12
+sentence: In addition , virtual non-contrast imaging can omit pre-contrast scanning . Development did not omit surgical techniques , in particular intraoperative imaging and electrostimulation .
+
+ppatt:
+	In ?a , ?b can omit ?c
+		?a: addition
+		?b: virtual non-contrast imaging
+		?c: pre-contrast scanning
+	?a did not omit ?b , in ?c
+		?a: Development
+		?b: surgical techniques
+		?c: particular intraoperative imaging
+	?a did not omit ?b , in ?c
+		?a: Development
+		?b: surgical techniques
+		?c: electrostimulation
+
+
+label:    sent_13
+sentence: They usually omit crucial information or would use strict technical language .
+
+ppatt:
+	?a usually omit ?b
+		?a: They
+		?b: crucial information
+	?a would use ?b
+		?a: They
+		?b: strict technical language
+
+
+label:    sent_14
+sentence: However , RCT reports often omit , or inadequately report , this information . [What should we strive for and what should we omit ? ] . Low-risk women may omit the 12 months visit , resulting in cost reduction .
+
+ppatt:
+	However , ?a often omit ?b
+		?a: RCT reports
+		?b: this information
+	?a inadequately report
+		?a: RCT reports
+	?a should ?b strive ?c
+		?a: [What
+		?b: we
+		?c: for
+	?a should ?b omit ?c
+		?a: what
+		?b: we
+		?c: ]
+	?a may omit ?b
+		?a: Low-risk women
+		?b: the 12 months visit
+	?a resulting in ?b
+		?a: Low-risk women
+		?b: cost reduction
+
+
+label:    sent_15
+sentence: Unilateral neglect patients typically omit to cancel contralesional targets .
+
+ppatt:
+	?a typically omit to cancel ?b
+		?a: Unilateral neglect patients
+		?b: contralesional targets
+
+
+label:    sent_16
+sentence: [ Veterinary practice and the environment : what to do and what to omit ] . In these patients , it is advisable to omit or reduce the loading dose .
+
+ppatt:
+	?a ?b do
+		?a: Veterinary practice
+		?b: what
+	?a ?b do
+		?a: the environment
+		?b: what
+	?a omit ?b In ?c
+		?a: what
+		?b: ]
+		?c: these patients
+	[ ?a , ?b is advisable to omit ?c
+		?a: Veterinary practice : what to do and what to omit ] . In these patients
+		?b: it
+		?c: the loading dose
+	[ ?a , ?b is advisable to omit ?c
+		?a: the environment
+		?b: it
+		?c: the loading dose
+	?a is advisable to reduce
+		?a: it
+
+
+label:    sent_17
+sentence: The reporting of laboratory data interpretations : to omit or commit ? Patients may omit or reduce their insulin dosages , which will induce glycosuria .
+
+ppatt:
+	?a omit
+		?a: The reporting of laboratory data interpretations
+	?a commit
+		?a: The reporting of laboratory data interpretations
+	?a ?b may omit ?c
+		?a: The reporting of laboratory data interpretations : to omit or commit
+		?b: Patients
+		?c: their insulin dosages , which will induce glycosuria
+	?a reduce
+		?a: The reporting of laboratory data interpretations : to omit or commit
+	?a will induce ?b
+		?a: their insulin dosages
+		?b: glycosuria
+
+

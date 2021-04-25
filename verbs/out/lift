@@ -1,0 +1,103 @@
+label:    sent_1
+sentence: A piece of sterile filter paper was used to lift the neural retina off from each explant .
+
+ppatt:
+	?a was used to lift ?b off from ?c
+		?a: A piece of sterile filter paper
+		?b: the neural retina
+		?c: each explant
+
+
+label:    sent_2
+sentence: The method presented uses black gelatine lifter slabs to lift the paper dust image off the surface of the paper .
+
+ppatt:
+	?a presented
+		?a: The method
+	?a uses ?b
+		?a: The method presented
+		?b: black gelatine lifter slabs
+	?a lift ?b ?c off ?d
+		?a: The method presented
+		?b: paper
+		?c: the dust image
+		?d: the surface of the paper
+
+
+label:    sent_3
+sentence: Asymmetric vibrational coordinates that lift the degeneracy control the electronic energy gap and off-diagonal coupling between electronic states .
+
+ppatt:
+	?a lift ?b
+		?a: Asymmetric vibrational coordinates
+		?b: the degeneracy
+	?a control ?b
+		?a: Asymmetric vibrational coordinates that lift the degeneracy
+		?b: the electronic energy gap between electronic states
+	?a control ?b
+		?a: Asymmetric vibrational coordinates that lift the degeneracy
+		?b: off-diagonal coupling
+
+
+label:    sent_4
+sentence: Patients in the relaxant group had a mean of only 29 % of initial hand grip force when they could lift their heads .
+
+ppatt:
+	?a had ?b
+		?a: Patients in the relaxant group
+		?b: a mean of only 29 % of initial hand grip force
+	when ?a could lift ?b
+		?a: they
+		?b: their heads
+
+
+label:    sent_5
+sentence: This first movement is evidently a passive one and induced by the muscles that lift the hyoid bone .
+
+ppatt:
+	?a is evidently a passive one by ?b
+		?a: This first movement
+		?b: the muscles that lift the hyoid bone
+	?a induced
+		?a: This first movement
+	?a lift ?b
+		?a: the muscles
+		?b: the hyoid bone
+
+
+label:    sent_6
+sentence: Participants either prepared to grasp and use an object ( e.g. , to drink from a cup ) or to lift a finger in association with the object 's position following a go/no-go lexical-decision task .
+
+ppatt:
+	?a prepared to grasp ?b
+		?a: Participants
+		?b: an object ( e.g. , to drink from a cup
+	?a prepared to use
+		?a: Participants
+	?a prepared to to lift ?b in ?c
+		?a: Participants
+		?b: a finger
+		?c: association with the object 's position following a go/no-go lexical-decision task
+
+
+label:    sent_7
+sentence: More than 96 percent of patients in group 3 were able to return to normal activities , lift their arms above their heads , lift normal-weight objects , and drive their car within 24 hours after their partial retropectoral breast augmentation .
+
+ppatt:
+	?a were able to return to ?b
+		?a: More than 96 percent of patients in group 3
+		?b: normal activities
+	?a lift ?b above ?c
+		?a: More than 96 percent of patients in group 3
+		?b: their arms
+		?c: their heads
+	?a lift ?b
+		?a: More than 96 percent of patients in group 3
+		?b: normal-weight objects
+	?a drive ?b within ?c after ?d
+		?a: More than 96 percent of patients in group 3
+		?b: their car
+		?c: 24 hours
+		?d: their partial retropectoral breast augmentation
+
+

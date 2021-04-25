@@ -1,0 +1,107 @@
+label:    sent_1
+sentence: IHH and FGF8 coregulate elongation of digit primordia .
+
+ppatt:
+	?a coregulate ?b
+		?a: IHH
+		?b: elongation of digit primordia
+	?a coregulate ?b
+		?a: FGF8
+		?b: elongation of digit primordia
+
+
+label:    sent_2
+sentence: Adenosine and dopamine receptors coregulate photoreceptor coupling via gap junction phosphorylation in mouse retina .
+
+ppatt:
+	?a coregulate ?b via ?c
+		?a: Adenosine and dopamine receptors
+		?b: photoreceptor coupling
+		?c: gap junction phosphorylation in mouse retina
+
+
+label:    sent_3
+sentence: The second network consists of miR-TF pairs that coregulate large sets of common targets .
+
+ppatt:
+	?a consists of ?b
+		?a: The second network
+		?b: miR-TF pairs that coregulate large sets of common targets
+	?a coregulate ?b
+		?a: miR-TF pairs
+		?b: large sets of common targets
+
+
+label:    sent_4
+sentence: Meis1 and Prep1 nonetheless coregulate a subset of genes , predominantly through opposing effects . Akt and CHIP coregulate tau degradation through coordinated interactions .
+
+ppatt:
+	?a nonetheless coregulate ?b through ?c through ?d
+		?a: Meis1
+		?b: a subset of genes
+		?c: predominantly opposing effects . Akt and CHIP coregulate tau degradation
+		?d: coordinated interactions
+	?a nonetheless coregulate ?b through ?c through ?d
+		?a: Prep1
+		?b: a subset of genes
+		?c: predominantly opposing effects . Akt and CHIP coregulate tau degradation
+		?d: coordinated interactions
+
+
+label:    sent_5
+sentence: Indian hedgehog and syndecans-3 coregulate chondrocyte proliferation and function during chick limb skeletogenesis .
+
+ppatt:
+	?a coregulate ?b
+		?a: Indian hedgehog
+		?b: chondrocyte during chick limb skeletogenesis
+	?a coregulate ?b
+		?a: syndecans-3
+		?b: chondrocyte during chick limb skeletogenesis
+	?a coregulate ?b
+		?a: Indian hedgehog
+		?b: function
+	?a coregulate ?b
+		?a: syndecans-3
+		?b: function
+
+
+label:    sent_6
+sentence: We addressed whether these miRNAs have functional targets beyond RUNX2 that coregulate skeletal development .
+
+ppatt:
+	?a addressed ?b
+		?a: We
+		?b: SOMETHING := these miRNAs have functional targets beyond RUNX2 that coregulate skeletal development
+	?a have ?b beyond ?c
+		?a: these miRNAs
+		?b: functional targets
+		?c: RUNX2 that coregulate skeletal development
+	?a coregulate ?b
+		?a: RUNX2
+		?b: skeletal development
+
+
+label:    sent_7
+sentence: What factors regulate and coregulate the periosteal and endocortical modeling and remodeling ? We therefore hypothesize that the siderophore and ferritin coregulate cellular iron metabolism/homeostasis in eukaryotes .
+
+ppatt:
+	?a regulate ?b
+		?a: What factors
+		?b: the periosteal and endocortical modeling
+	?a regulate ?b
+		?a: What factors
+		?b: remodeling
+	?a coregulate
+		?a: What factors
+	?a therefore hypothesize ?b
+		?a: We
+		?b: SOMETHING := the siderophore and ferritin coregulate cellular iron metabolism/homeostasis in eukaryotes
+	?a coregulate ?b
+		?a: the siderophore
+		?b: cellular iron metabolism/homeostasis in eukaryotes
+	?a coregulate ?b
+		?a: ferritin
+		?b: cellular iron metabolism/homeostasis in eukaryotes
+
+

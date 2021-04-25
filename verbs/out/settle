@@ -1,0 +1,253 @@
+label:    sent_1
+sentence: A mouse 's tail : how to settle an insurance dispute .
+
+ppatt:
+	?a how to settle ?b
+		?a: A mouse 's tail
+		?b: an insurance dispute
+
+
+label:    sent_2
+sentence: Serono pays $ 44m to settle promotion of multiple sclerosis drug . Should you sign a " consent to settle " ? Do n't settle for " meaningful abuse " . To litigate or settle out of court ?
+
+ppatt:
+	?a pays ?b to settle ?c
+		?a: Serono
+		?b: $ 44m
+		?c: promotion of multiple sclerosis drug
+	?a Should you sign ?b to settle ?c
+		?a: Serono
+		?b: a " consent
+		?c: "
+	?a Do n't settle for ?b . To litigate of ?c
+		?a: Serono
+		?b: " meaningful abuse "
+		?c: court
+	?a Do n't settle . To settle out
+		?a: Serono
+
+
+label:    sent_3
+sentence: The severe degrees of renal injury did not all settle by themselves .
+
+ppatt:
+	?a did not all settle by ?b
+		?a: The severe degrees of renal injury
+		?b: themselves
+
+
+label:    sent_4
+sentence: Most detected parasites settle together with their hosts within and outside this area .
+
+ppatt:
+	?a settle together with ?b
+		?a: Most detected parasites
+		?b: their hosts
+	?a settle together with ?b
+		?a: Most detected parasites
+		?b: within this area
+
+
+label:    sent_5
+sentence: Post-treatment edema and redness settle in a few hours to a few days .
+
+ppatt:
+	?a settle in ?b to ?c
+		?a: Post-treatment edema
+		?b: a few hours
+		?c: a few days
+	?a settle in ?b to ?c
+		?a: redness
+		?b: a few hours
+		?c: a few days
+
+
+label:    sent_6
+sentence: Post-treatment edema and redness settle in a few hours to a few days . Kansas IPAs settle FTC price-fixing case .
+
+ppatt:
+	?a settle in ?b to ?c
+		?a: Post-treatment edema
+		?b: a few hours
+		?c: a few days
+	?a settle in ?b to ?c
+		?a: redness
+		?b: a few hours
+		?c: a few days
+	?a settle ?b
+		?a: Kansas IPAs
+		?b: FTC price-fixing case
+
+
+label:    sent_7
+sentence: The clinical trials could also settle the century-old debate about causality .
+
+ppatt:
+	?a could also settle ?b
+		?a: The clinical trials
+		?b: the century-old debate about causality
+
+
+label:    sent_8
+sentence: Necessity to settle a quality control of slit skin smears .
+
+ppatt:
+	?a settle ?b
+		?a: Necessity
+		?b: a quality control of slit skin smears
+
+
+label:    sent_9
+sentence: Do palliative care health professionals settle for low-level evidence ? Consensus statement on ovarian cancer aims to settle dispute over symptoms .
+
+ppatt:
+	?a settle for ?b
+		?a: palliative care health professionals
+		?b: low-level evidence
+	?a aims to settle ?b over ?c
+		?a: Consensus statement on ovarian cancer
+		?b: dispute
+		?c: symptoms
+
+
+label:    sent_10
+sentence: Mayo Clinic plays $ 1.26m fine to settle billing error over pathology work . Complementary investigations did not settle the question . surgical excision was decided on . However , previous work indicates that males settle preferentially close to male kin .
+
+ppatt:
+	?a plays ?b fine to settle ?c over ?d
+		?a: Mayo Clinic
+		?b: $ 1.26m
+		?c: billing error
+		?d: pathology work
+	?a did not settle ?b
+		?a: Complementary investigations
+		?b: the question
+	?a was decided on
+		?a: surgical excision
+	However , ?a indicates ?b
+		?a: previous work
+		?b: SOMETHING := males settle preferentially close to male kin
+	?a settle preferentially close to ?b
+		?a: males
+		?b: male kin
+
+
+label:    sent_11
+sentence: The final decision to settle requires individuals to integrate both environmental and social cues .
+
+ppatt:
+	?a settle
+		?a: The final decision
+	?a requires ?b to integrate ?c
+		?a: The final decision to settle
+		?b: individuals
+		?c: both environmental and social cues
+
+
+label:    sent_12
+sentence: They usually settle in the skeletal muscles and develop further .
+
+ppatt:
+	?a usually settle in ?b
+		?a: They
+		?b: the skeletal muscles
+	?a develop further
+		?a: They
+
+
+label:    sent_13
+sentence: In a few cases it does n't settle and warrants further investigation and treatment .
+
+ppatt:
+	In ?a ?b does n't settle
+		?a: a few cases
+		?b: it
+	?a warrants ?b
+		?a: it
+		?b: further investigation
+	?a warrants ?b
+		?a: it
+		?b: treatment
+
+
+label:    sent_14
+sentence: They typically settle in the dependent posterior canal and render it sensitive to gravity .
+
+ppatt:
+	?a typically settle in ?b
+		?a: They
+		?b: the dependent posterior canal
+	render ?a sensitive to ?b
+		?a: it
+		?b: gravity
+
+
+label:    sent_15
+sentence: In the majority , bleeding is self limiting and will settle with nonoperative means .
+
+ppatt:
+	In ?a , ?b is ?c limiting
+		?a: the majority
+		?b: bleeding
+		?c: self
+	?a will settle with ?b
+		?a: bleeding
+		?b: nonoperative means
+
+
+label:    sent_16
+sentence: The eruption usually flared during winter and would settle spontaneously within a few months . Malpractice insurance : consent to settle and entity coverage .
+
+ppatt:
+	?a usually flared during ?b within ?c
+		?a: The eruption
+		?b: winter
+		?c: Malpractice insurance
+	?a would settle spontaneously ?b
+		?a: The eruption
+		?b: a few months
+	?a settle ?b
+		?a: consent
+		?b: entity coverage
+
+
+label:    sent_17
+sentence: In the absence of any additives , kaolinite platelets quickly aggregate and settle . Age did not affect time to settle or settling location .
+
+ppatt:
+	In of ?a , ?b quickly aggregate
+		?a: any additives
+		?b: kaolinite platelets
+	?a settle
+		?a: kaolinite platelets
+	?a did not affect ?b to settle ?c
+		?a: Age
+		?b: time
+		?c: location
+	?a did not affect to settling
+		?a: Age
+
+
+label:    sent_18
+sentence: To settle or to move ? Genetic regulations : US to settle dispute over agency jurisdiction . May the Health Care Stabilization Fund settle a claim over a physician 's objection ? Adventist donation to settle Fla. lawsuit on asset transfer .
+
+ppatt:
+	settle ?a
+		?a: Genetic regulations
+	move ?a
+		?a: Genetic regulations
+	settle ?a over ?b
+		?a: dispute
+		?b: agency jurisdiction
+	May ?a settle ?b over ?c
+		?a: the Health Care Stabilization Fund
+		?b: a claim
+		?c: a physician 's objection
+	?a settle ?b
+		?a: Adventist donation
+		?b: Fla.
+	?a lawsuit on ?b
+		?a: Adventist donation to settle Fla.
+		?b: asset transfer
+
+

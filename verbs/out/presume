@@ -1,0 +1,168 @@
+label:    sent_1
+sentence: We presume that biochemical factors may play an important role in the pathogenesis .
+
+ppatt:
+	?a presume ?b
+		?a: We
+		?b: SOMETHING := biochemical factors may play an important role in the pathogenesis
+	?a may play ?b in ?c
+		?a: biochemical factors
+		?b: an important role
+		?c: the pathogenesis
+
+
+label:    sent_2
+sentence: Some theories presume that local hypoxia of the soft tissue causes HO .
+
+ppatt:
+	?a presume ?b
+		?a: Some theories
+		?b: SOMETHING := local hypoxia of the soft tissue causes HO
+	?a causes ?b
+		?a: local hypoxia of the soft tissue
+		?b: HO
+
+
+label:    sent_3
+sentence: We presume that the origin of rugae is dependent upon inductive epithelial-mesenchymal interactions .
+
+ppatt:
+	?a presume ?b
+		?a: We
+		?b: SOMETHING := the origin of rugae is dependent upon inductive epithelial-mesenchymal interactions
+	?a is dependent upon ?b
+		?a: the origin of rugae
+		?b: inductive epithelial-mesenchymal interactions
+
+
+label:    sent_4
+sentence: We presume cardiac arrhythmia was the most likely cause of his death . We presume the better matching of ventilation to perfusion accounted for our results .
+
+ppatt:
+	?a presume ?b
+		?a: We
+		?b: SOMETHING := cardiac arrhythmia was the most likely cause of his death
+	?a was the most likely cause of ?b
+		?a: cardiac arrhythmia
+		?b: his death
+	?a presume ?b
+		?a: We
+		?b: the better matching of ventilation to perfusion accounted for our results
+	?a accounted for ?b
+		?a: perfusion
+		?b: our results
+
+
+label:    sent_5
+sentence: Some changes presume the formation of new intramural ganglia .
+
+ppatt:
+	?a presume ?b
+		?a: Some changes
+		?b: the formation of new intramural ganglia
+
+
+label:    sent_6
+sentence: We presume from our own material that the latter findings can be easily ignored .
+
+ppatt:
+	?a presume from ?b
+		?a: We
+		?b: our own material that the latter findings can be easily ignored
+	?a can be easily ignored
+		?a: the latter findings
+
+
+label:    sent_7
+sentence: There are evidences to presume a wider spectrum of antiviral activity of SMGGT .
+
+ppatt:
+	There are ?a
+		?a: evidences to presume a wider spectrum of antiviral activity of SMGGT
+	?a presume ?b
+		?a: evidences
+		?b: a wider spectrum of antiviral activity of SMGGT
+
+
+label:    sent_8
+sentence: A new classification was recommended to presume postoperative complications and long outcome of patients . SE images were necessary to presume the type of magnetic substances .
+
+ppatt:
+	?a was recommended to presume ?b
+		?a: A new classification
+		?b: postoperative complications
+	?a was recommended to presume ?b
+		?a: A new classification
+		?b: long outcome of patients
+	?a were necessary to presume ?b
+		?a: SE images
+		?b: the type of magnetic substances
+
+
+label:    sent_9
+sentence: In these cases one can presume a common pathogenetic mechanism .
+
+ppatt:
+	In ?a ?b can presume ?c
+		?a: these cases
+		?b: one
+		?c: a common pathogenetic mechanism
+
+
+label:    sent_10
+sentence: We presume several possible ways for the social average .
+
+ppatt:
+	?a presume ?b
+		?a: We
+		?b: several possible ways for the social average
+
+
+label:    sent_11
+sentence: We presume in these patients a predominance of hydrogen consuming gut flora . Adequate and rapid treatments presume an accurate and prompt diagnosis .
+
+ppatt:
+	?a presume in ?b
+		?a: We
+		?b: these patients
+	?a ?b presume ?c
+		?a: a predominance of hydrogen consuming gut flora
+		?b: Adequate and rapid treatments
+		?c: an accurate and prompt diagnosis
+
+
+label:    sent_12
+sentence: By epidemiologic survey we were unable to presume with certainty the source of infection .
+
+ppatt:
+	By ?a ?b were unable to presume with ?c ?d
+		?a: epidemiologic survey
+		?b: we
+		?c: certainty
+		?d: the source of infection
+
+
+label:    sent_13
+sentence: It is possible to presume one 's life manner during recent several months .
+
+ppatt:
+	?a is possible to presume ?b during ?c
+		?a: It
+		?b: one 's life manner
+		?c: recent several months
+
+
+label:    sent_14
+sentence: Transmission electron microscopy showed needle-like electron-dense extracellular particles which we presume are immunoglobulins .
+
+ppatt:
+	?a showed ?b
+		?a: Transmission electron microscopy
+		?b: needle-like electron-dense extracellular particles which we presume are immunoglobulins
+	?a ?b presume
+		?a: needle-like electron-dense extracellular particles are immunoglobulins
+		?b: we
+	?a are immunoglobulins
+		?a: needle-like electron-dense extracellular particles which we presume
+
+

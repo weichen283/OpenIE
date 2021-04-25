@@ -1,0 +1,254 @@
+label:    sent_1
+sentence: They were found to satisfy the required U.S .
+
+ppatt:
+	?a were found to satisfy ?b
+		?a: They
+		?b: the required U.S
+
+
+label:    sent_2
+sentence: Computed 2-RDMs nearly satisfy necessary N-representability conditions . Can low-income Americans afford to satisfy MyPyramid fruit and vegetable guidelines ? Currently available physical phantoms do not satisfy this requirement .
+
+ppatt:
+	?a nearly satisfy ?b
+		?a: Computed 2-RDMs
+		?b: necessary N-representability conditions
+	Can ?a afford to satisfy ?b
+		?a: low-income Americans
+		?b: MyPyramid fruit
+	Can ?a afford to satisfy ?b
+		?a: low-income Americans
+		?b: vegetable
+	Can ?a afford to satisfy ?b
+		?a: low-income Americans
+		?b: guidelines
+	Currently ?a do not satisfy ?b
+		?a: available physical phantoms
+		?b: this requirement
+
+
+label:    sent_3
+sentence: We propose corrected expressions for the null-scattering conditions that satisfy the optical theorem .
+
+ppatt:
+	?a propose ?b
+		?a: We
+		?b: corrected expressions for the null-scattering conditions that satisfy the optical theorem
+	?a satisfy ?b
+		?a: the null-scattering conditions
+		?b: the optical theorem
+
+
+label:    sent_4
+sentence: We call the class of system-environment states that satisfy this condition lazy states .
+
+ppatt:
+	?a call ?b
+		?a: We
+		?b: the class of system-environment states that satisfy this condition lazy states
+	?a satisfy ?b
+		?a: system-environment states
+		?b: this condition lazy states
+
+
+label:    sent_5
+sentence: These data did not satisfy the pre-planned hypothesis and the study was stopped .
+
+ppatt:
+	?a did not satisfy ?b
+		?a: These data
+		?b: the pre-planned hypothesis
+	?a was stopped
+		?a: the study
+
+
+label:    sent_6
+sentence: These premises satisfy a number of needs but are not optimal .
+
+ppatt:
+	?a satisfy ?b
+		?a: These premises
+		?b: a number of needs
+
+
+label:    sent_7
+sentence: How can we satisfy such hopes and innovate in this domain today ? Of the 40 subjects , 6 did not satisfy the verification criterion .
+
+ppatt:
+	How can ?a satisfy ?b
+		?a: we
+		?b: such hopes
+	?a innovate in ?b today
+		?a: we
+		?b: this domain Of the 40 subjects
+	?a did not satisfy ?b
+		?a: 6
+		?b: the verification criterion
+
+
+label:    sent_8
+sentence: [ Nurses should satisfy need for current technology in nursing ] . Neurotransmitters , by themselves , do not satisfy any longer the curiosity of biologists .
+
+ppatt:
+	?a should satisfy ?b
+		?a: Nurses
+		?b: need for current technology in nursing ] . Neurotransmitters
+	?a by ?b , do not satisfy ?c
+		?a: Nurses
+		?b: themselves
+		?c: any longer the curiosity of biologists
+
+
+label:    sent_9
+sentence: The results reveal that the algorithm is accurate and can satisfy the throughput demand .
+
+ppatt:
+	?a reveal ?b
+		?a: The results
+		?b: SOMETHING := the algorithm is accurate
+	?a is accurate
+		?a: the algorithm
+	?a can satisfy ?b
+		?a: the algorithm
+		?b: the throughput demand
+
+
+label:    sent_10
+sentence: Dural tenting sutures were never placed for prophylaxis or to satisfy a routine .
+
+ppatt:
+	?a were never placed for ?b
+		?a: Dural tenting sutures
+		?b: prophylaxis
+	?a satisfy ?b
+		?a: Dural tenting sutures
+		?b: a routine
+
+
+label:    sent_11
+sentence: How to satisfy patients and compete with the entrepreneurs .
+
+ppatt:
+	How to satisfy ?a
+		?a: patients
+	compete with ?a
+		?a: the entrepreneurs
+
+
+label:    sent_12
+sentence: It is designed to satisfy the requirements of students with varied , non-scientific backgrounds .
+
+ppatt:
+	?a is designed to satisfy ?b
+		?a: It
+		?b: the requirements of students with varied , backgrounds
+
+
+label:    sent_13
+sentence: The Ventimasks satisfy their specifications under all test conditions .
+
+ppatt:
+	?a satisfy ?b under ?c
+		?a: The Ventimasks
+		?b: their specifications
+		?c: all test conditions
+
+
+label:    sent_14
+sentence: Such cells are presumed to satisfy their ATP needs by glycolysis .
+
+ppatt:
+	?a are presumed to satisfy ?b
+		?a: Such cells
+		?b: their ATP
+	?a are presumed to needs by ?b
+		?a: Such cells
+		?b: glycolysis
+
+
+label:    sent_15
+sentence: Most water sources did n't satisfy the turbidity values recommended by WHO .
+
+ppatt:
+	?a did n't satisfy ?b
+		?a: Most water sources
+		?b: the turbidity values recommended by WHO
+	?a recommended by ?b
+		?a: the turbidity values
+		?b: WHO
+
+
+label:    sent_16
+sentence: We consider latent class models for the joint classification that satisfy quasi-symmetry .
+
+ppatt:
+	?a consider ?b
+		?a: We
+		?b: latent class models for the joint classification that satisfy quasi-symmetry
+	?a satisfy ?b
+		?a: the joint classification
+		?b: quasi-symmetry
+
+
+label:    sent_17
+sentence: There was often found that data of anamnesis and documents extracts did not satisfy .
+
+ppatt:
+	?a was often found ?b
+		?a: There
+		?b: SOMETHING := data of anamnesis and documents extracts did not satisfy
+	?a did not satisfy
+		?a: data of anamnesis and documents extracts
+
+
+label:    sent_18
+sentence: This paper addresses ways in which communication practitioners can satisfy this crucial audience .
+
+ppatt:
+	?a addresses ?b
+		?a: This paper
+		?b: ways in which communication practitioners can satisfy this crucial audience
+	?a in ?b can satisfy ?c
+		?a: ways
+		?b: communication practitioners
+		?c: this crucial audience
+
+
+label:    sent_19
+sentence: This raises the question of which non-Anosov systems satisfy the fluctuation relation .
+
+ppatt:
+	?a raises ?b
+		?a: This
+		?b: the question of which non-Anosov systems satisfy the fluctuation relation
+	?a of ?b satisfy ?c
+		?a: the question
+		?b: non-Anosov systems
+		?c: the fluctuation relation
+
+
+label:    sent_20
+sentence: General expressions that the coordinate transformations must satisfy are described .
+
+ppatt:
+	General expressions ?a ?b
+		?a: General expressions that the coordinate transformations must satisfy
+		?b: SOMETHING := the coordinate transformations must satisfy
+	?a must satisfy
+		?a: the coordinate transformations
+	?a are described
+		?a: General expressions that the coordinate transformations must satisfy
+
+
+label:    sent_21
+sentence: Special attention is paid to the conditions that a thermodynamically consistent formulation should satisfy .
+
+ppatt:
+	?a is paid to ?b
+		?a: Special attention
+		?b: the conditions that a thermodynamically consistent formulation should satisfy
+	?a should satisfy
+		?a: a thermodynamically consistent formulation
+
+

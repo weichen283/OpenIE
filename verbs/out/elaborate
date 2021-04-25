@@ -1,0 +1,277 @@
+label:    sent_1
+sentence: However more research is needed to further elaborate the relatively higher prevalence .
+
+ppatt:
+	However ?a is needed to further elaborate ?b
+		?a: more research
+		?b: the relatively higher prevalence
+
+
+label:    sent_2
+sentence: Our findings point to an elaborate cytoplasmic access to compact CNS myelin .
+
+ppatt:
+	?a point to ?b
+		?a: Our findings
+		?b: an elaborate cytoplasmic access to compact CNS myelin
+
+
+label:    sent_3
+sentence: Investigation of this phenomenon creates opportunity to elaborate new tool of prenatal diagnosis .
+
+ppatt:
+	?a creates ?b
+		?a: Investigation of this phenomenon
+		?b: opportunity to elaborate new tool of prenatal diagnosis
+	?a elaborate ?b
+		?a: opportunity
+		?b: new tool of prenatal diagnosis
+
+
+label:    sent_4
+sentence: Most societies elaborate ways to contain increasing health care expenditures .
+
+ppatt:
+	?a elaborate ?b
+		?a: Most societies
+		?b: ways to contain increasing health care expenditures
+	?a contain ?b
+		?a: ways
+		?b: increasing health care expenditures
+
+
+label:    sent_5
+sentence: We elaborate the scheme with several examples of transformation matrices .
+
+ppatt:
+	?a elaborate ?b
+		?a: We
+		?b: the scheme with several examples of transformation matrices
+
+
+label:    sent_6
+sentence: Here we elaborate potential experimental difficulties that might result in false-negative results .
+
+ppatt:
+	Here ?a elaborate ?b
+		?a: we
+		?b: potential experimental difficulties that might result in false-negative results
+	?a might result in ?b
+		?a: potential experimental difficulties
+		?b: false-negative results
+
+
+label:    sent_7
+sentence: This article aims to elaborate on the few connections worked out in these investigations .
+
+ppatt:
+	?a aims to elaborate on ?b
+		?a: This article
+		?b: the few connections worked out in these investigations
+	?a worked out in ?b
+		?a: the few connections
+		?b: these investigations
+
+
+label:    sent_8
+sentence: Further randomized trials are needed to elaborate on our findings .
+
+ppatt:
+	?a are needed to elaborate on ?b
+		?a: Further randomized trials
+		?b: our findings
+
+
+label:    sent_9
+sentence: Many such matrices could be developed , some much more elaborate than others .
+
+ppatt:
+	?a could be developed , some much more elaborate than ?b
+		?a: Many such matrices
+		?b: others
+
+
+label:    sent_10
+sentence: * Free-text entry responses allowed participants to elaborate on specific points as appropriate .
+
+ppatt:
+	?a allowed ?b to elaborate on ?c
+		?a: * Free-text entry responses
+		?b: participants
+		?c: specific points as appropriate
+
+
+label:    sent_11
+sentence: We will elaborate on possible explanations for this lack of clinical effectiveness .
+
+ppatt:
+	?a will elaborate on ?b
+		?a: We
+		?b: possible explanations for this lack of clinical effectiveness
+
+
+label:    sent_12
+sentence: We elaborate on the importance of non-Markovian organizations in topographic maps of sequential data . Sexual selection is a major force driving the evolution of elaborate male sexual traits .
+
+ppatt:
+	?a elaborate on ?b
+		?a: We
+		?b: the importance of non-Markovian organizations in topographic maps of sequential data
+	?a is a major force
+		?a: Sexual selection
+	?a driving ?b
+		?a: a major force
+		?b: the evolution of elaborate male sexual traits
+
+
+label:    sent_13
+sentence: Hyperthermophiles have elaborate molecular mechanisms of adaptation to extremely high temperature .
+
+ppatt:
+	?a have elaborate ?b
+		?a: Hyperthermophiles
+		?b: molecular mechanisms of adaptation to extremely high temperature
+
+
+label:    sent_14
+sentence: Cells carrying the F ' mutation failed to elaborate F pili at all temperatures .
+
+ppatt:
+	?a carrying ' ?b
+		?a: Cells
+		?b: the F mutation
+	?a failed to elaborate ?b at ?c
+		?a: Cells carrying the F ' mutation
+		?b: F pili
+		?c: all temperatures
+
+
+label:    sent_15
+sentence: Getting good photographic results in endophotography is no longer a time-consuming and elaborate procedure .
+
+ppatt:
+	Getting ?a
+		?a: good photographic results in endophotography
+	?a is no longer a time-consuming and elaborate procedure
+		?a: SOMETHING := Getting good photographic results in endophotography
+
+
+label:    sent_16
+sentence: For 1 year she experienced daily sudden , unexpected , vivid and elaborate hallucinations .
+
+ppatt:
+	For ?a ?b experienced ?c
+		?a: 1 year
+		?b: she
+		?c: daily sudden , unexpected , vivid and elaborate hallucinations
+
+
+label:    sent_17
+sentence: Factors affecting health club attendance : a comparison of simple and elaborate settings .
+
+ppatt:
+	?a affecting ?b
+		?a: Factors
+		?b: health club attendance
+
+
+label:    sent_18
+sentence: We elaborate on the different reasons that could explain these findings . Some are more elaborate to use in clinical practice .
+
+ppatt:
+	?a elaborate on ?b ?c
+		?a: We
+		?b: the different reasons that could explain these findings
+		?c: SOMETHING := Some are more elaborate to use in clinical practice
+	?a could explain ?b
+		?a: the different reasons
+		?b: these findings
+	?a are more elaborate to use in ?b
+		?a: Some
+		?b: clinical practice
+
+
+label:    sent_19
+sentence: Less elaborate folds originate from the opposite sides of the cells .
+
+ppatt:
+	?a originate from ?b
+		?a: Less elaborate folds
+		?b: the opposite sides of the cells
+
+
+label:    sent_20
+sentence: This mini-review elaborate on details its health benefits . Internal sensory receptors have more elaborate termini than those of C. elegans . [How to elaborate a protocol on health research ] . To elaborate and to validate a test to detect teenagers ' suicide behaviour .
+
+ppatt:
+	?a elaborate on ?b ?c
+		?a: This mini-review
+		?b: details
+		?c: SOMETHING := its health benefits Internal sensory receptors have more elaborate termini than those of C. elegans . [How to elaborate a protocol on health research ] . To elaborate and to validate a test to detect teenagers ' suicide behaviour
+	?a ?b have ?c than ?d . ?e to elaborate ?f . To elaborate
+		?a: its health benefits
+		?b: Internal sensory receptors
+		?c: more elaborate termini
+		?d: those of C. elegans
+		?e: [How
+		?f: a protocol on health research ]
+	?a have . to elaborate . To to validate ?b
+		?a: Internal sensory receptors
+		?b: a test to detect teenagers ' suicide behaviour
+	?a detect ?b
+		?a: a test
+		?b: teenagers ' suicide behaviour
+
+
+label:    sent_21
+sentence: To elaborate and to validate a test to detect teenagers ' suicide behaviour .
+
+ppatt:
+	validate ?a
+		?a: a test to detect teenagers ' suicide behaviour
+	?a detect ?b
+		?a: a test
+		?b: teenagers ' suicide behaviour
+
+
+label:    sent_22
+sentence: The decision-making process appeared to be careful and elaborate .
+
+ppatt:
+	?a appeared to be careful
+		?a: The decision-making process
+	?a appeared to be elaborate
+		?a: The decision-making process
+
+
+label:    sent_23
+sentence: They elaborate the physiopathological basis and specify all details of this technique . WHO assisted Georgia to elaborate and implement its first 1994-95 National Workplan on HIV/AIDS .
+
+ppatt:
+	?a elaborate ?b
+		?a: They
+		?b: the physiopathological basis
+	?a specify ?b
+		?a: They
+		?b: all details of this technique WHO assisted Georgia to elaborate and implement its first 1994-95 National Workplan on HIV/AIDS
+	?a ?b assisted ?c to elaborate
+		?a: this technique
+		?b: WHO
+		?c: Georgia
+	?a assisted to implement ?b
+		?a: WHO
+		?b: its first 1994-95 National Workplan on HIV/AIDS
+
+
+label:    sent_24
+sentence: Patients with HYP can be characterized by attentional bias and more elaborate verbal processing .
+
+ppatt:
+	?a can be characterized by ?b
+		?a: Patients with HYP
+		?b: attentional bias
+	?a can be characterized by ?b
+		?a: Patients with HYP
+		?b: more elaborate verbal processing
+
+

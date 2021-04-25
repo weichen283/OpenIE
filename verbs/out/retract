@@ -1,0 +1,328 @@
+label:    sent_1
+sentence: A Mini Loop Retractor was applied to retract the fundus of the gallbladder .
+
+ppatt:
+	?a was applied to retract ?b
+		?a: A Mini Loop Retractor
+		?b: the fundus of the gallbladder
+
+
+label:    sent_2
+sentence: This helped to mobilize and further retract the trigeminal root .
+
+ppatt:
+	?a helped to mobilize
+		?a: This
+	?a helped to and further retract ?b
+		?a: This
+		?b: the trigeminal root
+
+
+label:    sent_3
+sentence: Hyoid and gular muscles were manually employed to depress and retract the tongue .
+
+ppatt:
+	?a were manually employed to depress ?b
+		?a: Hyoid
+		?b: the tongue
+	?a were manually employed to depress ?b
+		?a: gular
+		?b: the tongue
+	?a were manually employed to depress ?b
+		?a: muscles
+		?b: the tongue
+	?a were manually employed to retract
+		?a: Hyoid
+	?a were manually employed to retract
+		?a: gular
+	?a were manually employed to retract
+		?a: muscles
+
+
+label:    sent_4
+sentence: Upon release of transpulmonary pressure the lungs retract by an indeterminable amount .
+
+ppatt:
+	Upon ?a ?b retract by ?c
+		?a: release of transpulmonary pressure
+		?b: the lungs
+		?c: an indeterminable amount
+
+
+label:    sent_5
+sentence: During the injury event , the tendon ends may retract towards the palm .
+
+ppatt:
+	During ?a , ?b may retract towards ?c
+		?a: the injury event
+		?b: the tendon ends
+		?c: the palm
+
+
+label:    sent_6
+sentence: Also , the input axons do not retract after binocular deprivation .
+
+ppatt:
+	Also , ?a do not retract after ?b
+		?a: the input axons
+		?b: binocular deprivation
+
+
+label:    sent_7
+sentence: The donor ureter was allowed to retract inside the bladder .
+
+ppatt:
+	?a was allowed to retract inside ?b
+		?a: The donor ureter
+		?b: the bladder
+
+
+label:    sent_8
+sentence: Commonly , filopodia grow and retract after their initiation , exhibiting rich dynamical behaviors .
+
+ppatt:
+	Commonly , ?a grow after ?b
+		?a: filopodia
+		?b: their initiation
+	?a retract
+		?a: filopodia
+	?a exhibiting ?b
+		?a: filopodia
+		?b: rich dynamical behaviors
+
+
+label:    sent_9
+sentence: Spines can grow and retract within hours of activity perturbation .
+
+ppatt:
+	?a can grow within ?b
+		?a: Spines
+		?b: hours of activity perturbation
+	?a retract
+		?a: Spines
+
+
+label:    sent_10
+sentence: The authors would like to retract the article as the published versions of Figs .
+
+ppatt:
+	?a would like to retract ?b as ?c
+		?a: The authors
+		?b: the article
+		?c: the published versions of Figs
+
+
+label:    sent_11
+sentence: Editors have a responsibility to retract seriously flawed articles from their journals .
+
+ppatt:
+	?a have ?b
+		?a: Editors
+		?b: a responsibility to retract seriously flawed articles from their journals
+	?a retract ?b from ?c
+		?a: a responsibility
+		?b: seriously flawed articles
+		?c: their journals
+
+
+label:    sent_12
+sentence: It can hold and retract the lung freely like forceps .
+
+ppatt:
+	?a can hold ?b freely like ?c
+		?a: It
+		?b: the lung
+		?c: forceps
+	?a retract
+		?a: It
+
+
+label:    sent_13
+sentence: We can no longer stand behind the article and hereby retract it . We show that B66 stimulation does not close or retract the radula .
+
+ppatt:
+	?a can no longer stand behind ?b
+		?a: We
+		?b: the article
+	?a hereby retract ?b
+		?a: We
+		?b: it
+	?a show ?b
+		?a: We
+		?b: SOMETHING := B66 stimulation does not close or retract the radula
+	?a does not close
+		?a: B66 stimulation
+	?a does retract ?b
+		?a: B66 stimulation
+		?b: the radula
+
+
+label:    sent_14
+sentence: Two hooks are also introduced to retract the lung and dissect the ductal region .
+
+ppatt:
+	?a are also introduced to retract ?b
+		?a: Two hooks
+		?b: the lung
+	?a are also introduced to dissect ?b
+		?a: Two hooks
+		?b: the ductal region
+
+
+label:    sent_15
+sentence: In group D , the tendon was allowed to retract and undergo fibrosis .
+
+ppatt:
+	In ?a , ?b was allowed to retract ?c
+		?a: group D
+		?b: the tendon
+		?c: fibrosis
+	?a was allowed to undergo
+		?a: the tendon
+
+
+label:    sent_16
+sentence: During that time we trained the parent to retract and clean the foreskin only .
+
+ppatt:
+	During ?a ?b trained ?c to retract ?d
+		?a: that time
+		?b: we
+		?c: the parent
+		?d: the foreskin only
+	?a trained to clean
+		?a: we
+
+
+label:    sent_17
+sentence: Neurones that lose their presynaptic partners because of injury usually retract or die . Harvard researchers retract data in immunology paper .
+
+ppatt:
+	?a lose ?b because of ?c
+		?a: Neurones
+		?b: their presynaptic partners
+		?c: injury
+	?a ?b retract ?c
+		?a: Neurones that lose their presynaptic partners because of injury
+		?b: Harvard researchers
+		?c: data in immunology paper
+
+
+label:    sent_18
+sentence: We retract our earlier suggestion of a mitochondrial site of [14C ] formate oxidation .
+
+ppatt:
+	?a retract ?b
+		?a: We
+		?b: our earlier suggestion of a mitochondrial site of [14C ] formate oxidation
+
+
+label:    sent_19
+sentence: Physicians retract opinion : nurses not negligent .
+
+ppatt:
+	?a retract ?b
+		?a: Physicians
+		?b: opinion
+
+
+label:    sent_20
+sentence: The still-frozen specimens were thawed during fixation to allow elastic filaments to retract .
+
+ppatt:
+	?a were thawed during ?b to allow ?c to retract
+		?a: The still-frozen specimens
+		?b: fixation
+		?c: elastic filaments
+
+
+label:    sent_21
+sentence: When these cells are deleted , terminal climbing fibre branches retract .
+
+ppatt:
+	When ?a are deleted
+		?a: these cells
+	?a retract
+		?a: terminal climbing fibre branches
+
+
+label:    sent_22
+sentence: When they retract , new ingested particles are drawn into the grinder .
+
+ppatt:
+	When ?a retract
+		?a: they
+	?a are drawn into ?b
+		?a: new ingested particles
+		?b: the grinder
+
+
+label:    sent_23
+sentence: Then , endothelial cells retract rapidly and cancer cells bind to hepatocytes .
+
+ppatt:
+	Then , ?a retract rapidly
+		?a: endothelial cells
+	?a bind to ?b
+		?a: cancer cells
+		?b: hepatocytes
+
+
+label:    sent_24
+sentence: Most anurans retract and close their eyes repeatedly during swallowing .
+
+ppatt:
+	?a retract ?b repeatedly during ?c
+		?a: Most anurans
+		?b: their eyes
+		?c: swallowing
+
+
+label:    sent_25
+sentence: Anterior dislocation is due to forces which retract and depress the clavicle .
+
+ppatt:
+	?a is due to forces
+		?a: Anterior dislocation
+	?a retract ?b
+		?a: forces
+		?b: the clavicle
+	?a depress
+		?a: which
+
+
+label:    sent_26
+sentence: Subsequently , many of these neurons retract callosal collaterals while maintaining ipsilateral projections .
+
+ppatt:
+	Subsequently , ?a retract ?b
+		?a: many of these neurons
+		?b: callosal collaterals
+	?a maintaining ?b
+		?a: many of these neurons
+		?b: ipsilateral projections
+
+
+label:    sent_27
+sentence: In light of these findings , we retract our previous conclusions .
+
+ppatt:
+	In ?a of ?b , ?c retract ?d
+		?a: light
+		?b: these findings
+		?c: we
+		?d: our previous conclusions
+
+
+label:    sent_28
+sentence: Anaesthetics journals retract further articles after ethics approval is found lacking .
+
+ppatt:
+	?a retract ?b after ?c
+		?a: Anaesthetics journals
+		?b: further articles
+		?c: ethics approval
+	?a is found lacking
+		?a: Anaesthetics journals
+
+

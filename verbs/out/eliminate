@@ -1,0 +1,310 @@
+label:    sent_1
+sentence: Aqueous BWE was prepared and processed to eliminate contamination with particulates and microbes .
+
+ppatt:
+	?a was prepared
+		?a: Aqueous BWE
+	?a processed to eliminate ?b
+		?a: Aqueous BWE
+		?b: contamination with particulates and microbes
+
+
+label:    sent_2
+sentence: Propensity score analysis was performed in attempt to eliminate this selection bias . Currently , there is no effective method to eliminate the viruses from fresh produce .
+
+ppatt:
+	?a was performed in ?b
+		?a: Propensity score analysis
+		?b: attempt to eliminate this selection bias
+	?a eliminate ?b
+		?a: attempt
+		?b: this selection bias
+	Currently , there is ?a
+		?a: no effective method to eliminate the viruses from fresh produce
+	?a eliminate ?b
+		?a: no effective method
+		?b: the viruses from fresh produce
+
+
+label:    sent_3
+sentence: Simulation : can it eliminate failure to rescue ? Adjustments for socio-demographic predictors did not eliminate state differences in oral health .
+
+ppatt:
+	?a rescue
+		?a: failure
+	?a did not eliminate ?b
+		?a: Adjustments for socio-demographic predictors
+		?b: state differences in oral health
+
+
+label:    sent_4
+sentence: Even mucosectomy does not completely eliminate the risk . Aspirin reduces but does not completely eliminate these side effects .
+
+ppatt:
+	?a does not completely eliminate ?b
+		?a: Even mucosectomy
+		?b: the risk
+	?a reduces
+		?a: Aspirin
+	?a does not completely eliminate ?b
+		?a: Aspirin
+		?b: these side effects
+
+
+label:    sent_5
+sentence: Part D coverage reduced but did not eliminate CRN for newly insured beneficiaries .
+
+ppatt:
+	?a reduced
+		?a: Part D coverage
+	?a did not eliminate ?b for ?c
+		?a: Part D coverage
+		?b: CRN
+		?c: newly insured beneficiaries
+
+
+label:    sent_6
+sentence: Inclusion of these measures attenuated but did not eliminate the significant race differences .
+
+ppatt:
+	?a attenuated
+		?a: Inclusion of these measures
+	?a did not eliminate ?b
+		?a: Inclusion of these measures
+		?b: the significant race differences
+
+
+label:    sent_7
+sentence: Peritoneal dialysis is a less efficient way to eliminate cefepime than hemodialysis .
+
+ppatt:
+	?a is a less efficient way
+		?a: Peritoneal dialysis
+	?a eliminate ?b than ?c
+		?a: a less efficient way
+		?b: cefepime
+		?c: hemodialysis
+
+
+label:    sent_8
+sentence: Disposable electrocardiography leads eliminate risk of infection through these pathways .
+
+ppatt:
+	?a leads eliminate ?b
+		?a: Disposable electrocardiography
+		?b: risk of infection through these pathways
+
+
+label:    sent_9
+sentence: Use of an intervention bundle to eliminate pressure ulcers in critical care . CPFA can eliminate sE-selectin and sTM and improve the secretion function of ECs .
+
+ppatt:
+	?a eliminate ?b in ?c
+		?a: Use of an intervention bundle
+		?b: pressure ulcers
+		?c: critical care
+	?a ?b can eliminate ?c
+		?a: Use of an intervention bundle to eliminate pressure ulcers in critical care
+		?b: CPFA
+		?c: sE-selectin
+	?a ?b can eliminate ?c
+		?a: Use of an intervention bundle to eliminate pressure ulcers in critical care
+		?b: CPFA
+		?c: sTM
+	?a improve ?b
+		?a: Use of an intervention bundle to eliminate pressure ulcers in critical care
+		?b: the secretion function of ECs
+
+
+label:    sent_10
+sentence: These circuits eliminate volume storage reservoirs and bubble traps to minimize the circuit .
+
+ppatt:
+	?a eliminate ?b to minimize ?c
+		?a: These circuits
+		?b: volume storage reservoirs
+		?c: the circuit
+	?a eliminate ?b to minimize ?c
+		?a: These circuits
+		?b: bubble traps
+		?c: the circuit
+
+
+label:    sent_11
+sentence: These ablative operations eliminate the gastric reservoir and severely alter digestive physiology .
+
+ppatt:
+	?a eliminate ?b
+		?a: These ablative operations
+		?b: the gastric reservoir
+	?a severely alter ?b
+		?a: These ablative operations
+		?b: digestive physiology
+
+
+label:    sent_12
+sentence: The results demonstrate our reconstructed volume can eliminate undesirable artifacts like blurring .
+
+ppatt:
+	?a demonstrate ?b ?c
+		?a: The results
+		?b: our reconstructed volume
+		?c: SOMETHING := can eliminate undesirable artifacts like blurring
+	?a can eliminate ?b like ?c
+		?a: The results
+		?b: undesirable artifacts
+		?c: blurring
+
+
+label:    sent_13
+sentence: One must eliminate any allergy to one of its components before use . Is it time to eliminate CT after EVAR as routine follow-up ? UNSM process is expected to eliminate or significantly retard the formation of fretting wear .
+
+ppatt:
+	?a must eliminate ?b to ?c
+		?a: One
+		?b: any allergy
+		?c: one of its components before use
+	?a eliminate ?b after ?c
+		?a: it time
+		?b: CT
+		?c: EVAR
+	?a is expected to eliminate
+		?a: as routine follow-up UNSM process
+	?a is expected to retard ?b
+		?a: as routine follow-up UNSM process
+		?b: the formation of fretting wear
+
+
+label:    sent_14
+sentence: Radial keratotomy is a controversial procedure to eliminate or reduce myopia .
+
+ppatt:
+	?a is a controversial procedure
+		?a: Radial keratotomy
+	?a eliminate ?b
+		?a: a controversial procedure
+		?b: myopia
+	?a reduce
+		?a: Radial keratotomy
+
+
+label:    sent_15
+sentence: An investigation was designed to eliminate or reduce the incidence of chymopapain anaphylaxis .
+
+ppatt:
+	?a was designed to eliminate ?b
+		?a: An investigation
+		?b: the incidence of chymopapain anaphylaxis
+	?a was designed to reduce
+		?a: An investigation
+
+
+label:    sent_16
+sentence: In addition , injection by micro injector eliminate sample biasing and increase reproductivity .
+
+ppatt:
+	In ?a , ?b eliminate ?c
+		?a: addition
+		?b: injection by micro injector
+		?c: sample biasing
+	?a increase ?b
+		?a: injection by micro injector
+		?b: reproductivity
+
+
+label:    sent_17
+sentence: Chloramphenicol did not eliminate secretion , but under certain circumstances reduced its rate .
+
+ppatt:
+	?a did not eliminate ?b
+		?a: Chloramphenicol
+		?b: secretion
+	?a under ?b reduced ?c
+		?a: Chloramphenicol
+		?b: certain circumstances
+		?c: its rate
+
+
+label:    sent_18
+sentence: Macrophages eliminate opsonized trypanosomes from the bloodstream and are involved in immunosuppression .
+
+ppatt:
+	?a eliminate ?b
+		?a: Macrophages
+		?b: opsonized trypanosomes from the bloodstream
+	?a are involved in ?b
+		?a: Macrophages
+		?b: immunosuppression
+
+
+label:    sent_19
+sentence: This repositioning reduces or eliminate wrinkles by preventing hyperfunction of the frontal muscle .
+
+ppatt:
+	?a reduces ?b
+		?a: This repositioning
+		?b: wrinkles
+	?a eliminate
+		?a: This repositioning
+	?a preventing ?b
+		?a: This repositioning
+		?b: hyperfunction of the frontal muscle
+
+
+label:    sent_20
+sentence: JHAs are slow acting and eliminate ant colonies at a relatively slow rate .
+
+ppatt:
+	?a are slow acting
+		?a: JHAs
+	?a are slow eliminate ?b at ?c
+		?a: JHAs
+		?b: ant colonies
+		?c: a relatively slow rate
+
+
+label:    sent_21
+sentence: Pasteurization reduced the activity , but did not eliminate it in skim milk . Gaviscon can eliminate or displace the ' acid pocket ' in GERD patients .
+
+ppatt:
+	?a reduced ?b
+		?a: Pasteurization
+		?b: the activity
+	?a did not eliminate ?b in ?c
+		?a: Pasteurization
+		?b: it
+		?c: skim milk
+	?a can eliminate ?b in ?c
+		?a: Gaviscon
+		?b: the ' acid pocket
+		?c: GERD patients
+	?a displace
+		?a: Gaviscon
+
+
+label:    sent_22
+sentence: Preservation of the space can eliminate or reduce the needforprolonged orthodontic treatment .
+
+ppatt:
+	?a can eliminate ?b
+		?a: Preservation of the space
+		?b: the needforprolonged orthodontic treatment
+	?a reduce
+		?a: Preservation of the space
+
+
+label:    sent_23
+sentence: Silver carp might eliminate or lessen cell damage caused by MC through lysosome activation .
+
+ppatt:
+	?a might eliminate ?b
+		?a: Silver carp
+		?b: cell damage caused by MC through lysosome activation
+	?a lessen
+		?a: Silver carp
+	?a caused by ?b through ?c
+		?a: cell damage
+		?b: MC
+		?c: lysosome activation
+
+

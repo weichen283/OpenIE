@@ -1,0 +1,315 @@
+label:    sent_1
+sentence: Sufficiently suppressing SDB by adequate therapies seems to ameliorate its arrhythmogenic impact .
+
+ppatt:
+	?a seems to ameliorate ?b
+		?a: Sufficiently suppressing SDB by adequate therapies
+		?b: its arrhythmogenic impact
+
+
+label:    sent_2
+sentence: Rumex patientia ( RP ) could exert beneficial health effects to ameliorate metabolic diseases .
+
+ppatt:
+	?a is/are RP
+		?a: Rumex patientia
+	?a could exert ?b to ameliorate ?c
+		?a: Rumex patientia
+		?b: beneficial health effects
+		?c: metabolic diseases
+
+
+label:    sent_3
+sentence: Treatment should prevent rupture and ameliorate cardiovascular risk .
+
+ppatt:
+	?a should prevent ?b
+		?a: Treatment
+		?b: rupture
+	?a ameliorate ?b
+		?a: Treatment
+		?b: cardiovascular risk
+
+
+label:    sent_4
+sentence: Antisense oligonucleotides delivered to the mouse CNS ameliorate symptoms of severe spinal muscular atrophy .
+
+ppatt:
+	?a delivered to ?b
+		?a: Antisense oligonucleotides
+		?b: the mouse CNS
+	?a ameliorate ?b
+		?a: Antisense oligonucleotides delivered to the mouse CNS
+		?b: symptoms of severe spinal muscular atrophy
+
+
+label:    sent_5
+sentence: Anti-FGF-23 neutralizing antibodies ameliorate muscle weakness and decreased spontaneous movement of Hyp mice .
+
+ppatt:
+	?a ameliorate ?b
+		?a: Anti-FGF-23 neutralizing antibodies
+		?b: muscle weakness of Hyp mice
+	?a ameliorate ?b
+		?a: Anti-FGF-23 neutralizing antibodies
+		?b: decreased spontaneous movement
+
+
+label:    sent_6
+sentence: Controlling the expression of these pathways could ameliorate human health .
+
+ppatt:
+	Controlling ?a
+		?a: the expression of these pathways
+	?a could ameliorate ?b
+		?a: SOMETHING := Controlling the expression of these pathways
+		?b: human health
+
+
+label:    sent_7
+sentence: It has been reported that Tanshinone IIA can ameliorate fibrosis in various tissues .
+
+ppatt:
+	?a has been reported ?b
+		?a: It
+		?b: SOMETHING := Tanshinone IIA can ameliorate fibrosis in various tissues
+	?a can ameliorate ?b in ?c
+		?a: Tanshinone IIA
+		?b: fibrosis
+		?c: various tissues
+
+
+label:    sent_8
+sentence: Moreover , HSP70 could ameliorate oxidative stress following I/R injury . Phytosterols ameliorate clinical manifestations and inflammation in experimental autoimmune encephalomyelitis .
+
+ppatt:
+	Moreover , ?a could ameliorate ?b following ?c
+		?a: HSP70
+		?b: oxidative stress
+		?c: I/R injury
+	?a ameliorate ?b
+		?a: Phytosterols
+		?b: clinical manifestations in experimental autoimmune encephalomyelitis
+	?a ameliorate ?b
+		?a: Phytosterols
+		?b: inflammation
+
+
+label:    sent_9
+sentence: We discuss potency to use EGCG to ameliorate redox balance after HD exposure .
+
+ppatt:
+	?a discuss ?b
+		?a: We
+		?b: potency to use EGCG to ameliorate redox balance after HD exposure
+	?a use ?b to ameliorate ?c after ?d
+		?a: potency
+		?b: EGCG
+		?c: redox balance
+		?d: HD exposure
+
+
+label:    sent_10
+sentence: TN-2 may ameliorate memory and learning deficits by activating the CREB-BDNF pathway .
+
+ppatt:
+	?a may ameliorate ?b
+		?a: TN-2
+		?b: memory and learning deficits
+	?a activating ?b
+		?a: TN-2
+		?b: the CREB-BDNF pathway
+
+
+label:    sent_11
+sentence: Glutamine contributes to ameliorate inflammation after renal ischemia/reperfusion injury in rats . Dietary strategies can ameliorate symptoms , but this approach is not always foolproof .
+
+ppatt:
+	?a contributes to ameliorate ?b after ?c
+		?a: Glutamine
+		?b: inflammation
+		?c: renal ischemia/reperfusion injury in rats
+	?a can ameliorate ?b
+		?a: Dietary strategies
+		?b: symptoms
+	?a is not always foolproof
+		?a: this approach
+
+
+label:    sent_12
+sentence: Ligustrazine can ameliorate microcirculatory disorder and alleviate the damage to the lung . Peri-procedual Danhong injection can ameliorate myocardial injury and improve segmental systolic function .
+
+ppatt:
+	?a can ameliorate ?b
+		?a: Ligustrazine
+		?b: microcirculatory disorder
+	?a alleviate ?b
+		?a: Ligustrazine
+		?b: the damage to the lung
+	?a can ameliorate ?b
+		?a: Peri-procedual Danhong injection
+		?b: myocardial injury
+	?a improve ?b
+		?a: Peri-procedual Danhong injection
+		?b: segmental systolic function
+
+
+label:    sent_13
+sentence: Contractors can become immediately aware of contributing factors and ameliorate them quickly .
+
+ppatt:
+	?a can become immediately aware of ?b
+		?a: Contractors
+		?b: contributing factors
+	?a ameliorate ?b quickly
+		?a: Contractors
+		?b: them
+
+
+label:    sent_14
+sentence: These qualities enable PUFA n3 to ameliorate stroke outcome and limit neuronal damage .
+
+ppatt:
+	?a enable ?b to ameliorate ?c
+		?a: These qualities
+		?b: PUFA n3
+		?c: stroke outcome
+	?a enable to limit ?b
+		?a: These qualities
+		?b: neuronal damage
+
+
+label:    sent_15
+sentence: In contrast , LFS enhanced VF but did not ameliorate tremor .
+
+ppatt:
+	In ?a , ?b enhanced ?c
+		?a: contrast
+		?b: LFS
+		?c: VF
+	?a did not ameliorate ?b
+		?a: LFS
+		?b: tremor
+
+
+label:    sent_16
+sentence: Depending on their chemical nature , retinoids can either ameliorate or exacerbate stress-related damage .
+
+ppatt:
+	Depending on ?a chemical nature ?b
+		?a: their
+		?b: retinoids
+	?a can either ameliorate ?b
+		?a: retinoids
+		?b: stress-related damage
+	?a exacerbate
+		?a: retinoids
+
+
+label:    sent_17
+sentence: Increasing autophagy might ameliorate liver damage and restore mitochondrial function after I/R .
+
+ppatt:
+	?a might ameliorate ?b
+		?a: Increasing autophagy
+		?b: liver damage
+	?a restore ?b after ?c
+		?a: Increasing autophagy
+		?b: mitochondrial function
+		?c: I/R
+
+
+label:    sent_18
+sentence: Lifestyle interventions have been shown to ameliorate or prevent individual components of MetS .
+
+ppatt:
+	?a have been shown to ameliorate ?b
+		?a: Lifestyle interventions
+		?b: individual components of MetS
+	?a have been shown to prevent
+		?a: Lifestyle interventions
+
+
+label:    sent_19
+sentence: Early treatment of hormonal dysfunction generally allows to ameliorate or normalize the weight gain . YHCD can ameliorate hypoestrinemia induced by clomiphene and increase the pregnant rate in patients .
+
+ppatt:
+	?a generally allows to ameliorate ?b
+		?a: Early treatment of hormonal dysfunction
+		?b: the weight gain
+	?a generally allows to normalize
+		?a: Early treatment of hormonal dysfunction
+	?a can ameliorate ?b
+		?a: YHCD
+		?b: hypoestrinemia induced by clomiphene
+	?a induced by ?b
+		?a: hypoestrinemia
+		?b: clomiphene
+	?a increase ?b
+		?a: YHCD
+		?b: the pregnant rate in patients
+
+
+label:    sent_20
+sentence: Nonselective beta-adrenergic blockers can ameliorate and prevent recurrence of the paralytic attacks .
+
+ppatt:
+	?a can ameliorate ?b
+		?a: Nonselective beta-adrenergic blockers
+		?b: recurrence of the paralytic attacks
+	?a prevent
+		?a: Nonselective beta-adrenergic blockers
+
+
+label:    sent_21
+sentence: Mesna can ameliorate or even prevent intestinal I/R injury by reducing oxidative stress .
+
+ppatt:
+	?a can ameliorate
+		?a: Mesna
+	?a even prevent ?b
+		?a: Mesna
+		?b: intestinal I/R injury
+	?a reducing ?b
+		?a: Mesna
+		?b: oxidative stress
+
+
+label:    sent_22
+sentence: Why can immunosuppression ameliorate , even stop , but not cure chronic inflammation ? Melatonin improves bladder symptoms and may ameliorate bladder damage via increasing HO-1 in rats .
+
+ppatt:
+	Why can ?a ameliorate
+		?a: immunosuppression
+	?a improves ?b
+		?a: even stop
+		?b: bladder symptoms
+	?a improves ?b
+		?a: cure
+		?b: bladder symptoms
+	?a improves ?b
+		?a: Melatonin
+		?b: bladder symptoms
+	?a may ameliorate ?b
+		?a: even stop
+		?b: bladder damage
+	?a may ameliorate ?b
+		?a: cure
+		?b: bladder damage
+	?a may ameliorate ?b
+		?a: Melatonin
+		?b: bladder damage
+	?a increasing ?b in ?c
+		?a: even stop
+		?b: HO-1
+		?c: rats
+	?a increasing ?b in ?c
+		?a: cure
+		?b: HO-1
+		?c: rats
+	?a increasing ?b in ?c
+		?a: Melatonin
+		?b: HO-1
+		?c: rats
+
+

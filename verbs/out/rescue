@@ -1,0 +1,240 @@
+label:    sent_1
+sentence: The mouse may be the way to rescue the trapped elephant ! GGOH cell-treatment can rescue the negative effect of bisphosphonates .
+
+ppatt:
+	?a may be the way
+		?a: The mouse
+	?a rescue ?b
+		?a: the way GGOH cell-treatment can rescue the negative effect of bisphosphonates
+		?b: the trapped elephant !
+	?a ?b can rescue ?c
+		?a: the way to rescue the trapped elephant !
+		?b: GGOH cell-treatment
+		?c: the negative effect of bisphosphonates
+
+
+label:    sent_2
+sentence: A mutant lacking the C-terminal 25 residues can not rescue these defects .
+
+ppatt:
+	?a lacking ?b
+		?a: A mutant
+		?b: the C-terminal 25 residues
+	?a can not rescue ?b
+		?a: A mutant lacking the C-terminal 25 residues
+		?b: these defects
+
+
+label:    sent_3
+sentence: Nonetheless , PER induction in pacemaker neurons can rescue tyf mutant rhythms .
+
+ppatt:
+	Nonetheless , ?a can rescue ?b
+		?a: PER induction in pacemaker neurons
+		?b: tyf mutant rhythms
+
+
+label:    sent_4
+sentence: Ectopic expression of RLIN1 could rescue rlin1 lesion mimic phenotype .
+
+ppatt:
+	?a could rescue
+		?a: Ectopic expression of RLIN1
+	?a ?b mimic ?c
+		?a: Ectopic expression of RLIN1
+		?b: rlin1 lesion
+		?c: phenotype
+
+
+label:    sent_5
+sentence: Social peers rescue autism-relevant sociability deficits in adolescent mice .
+
+ppatt:
+	?a rescue ?b
+		?a: Social peers
+		?b: autism-relevant sociability deficits in adolescent mice
+
+
+label:    sent_6
+sentence: Light-scattering signal may indicate critical time zone to rescue brain tissue after hypoxia .
+
+ppatt:
+	?a may indicate ?b
+		?a: Light-scattering signal
+		?b: critical time zone to rescue brain tissue after hypoxia
+	?a rescue ?b after ?c
+		?a: critical time zone
+		?b: brain tissue
+		?c: hypoxia
+
+
+label:    sent_7
+sentence: Injection pentazocine lactate was administered as rescue medication in case of uncontrolled pain . Steps taken to protect and rescue cryopreserved embryos during Hurricane Katrina . Ectopic telomerase expression can rescue human and macaque antigen-specific T cells from senescence .
+
+ppatt:
+	?a ?b was administered as ?c in ?d ?e
+		?a: Injection
+		?b: pentazocine lactate
+		?c: rescue medication
+		?d: case of uncontrolled pain
+		?e: Steps taken to protect and rescue cryopreserved embryos during Hurricane Katrina
+	?a taken to protect ?b during ?c
+		?a: Steps
+		?b: cryopreserved embryos
+		?c: Hurricane Katrina
+	taken to rescue ?a
+		?a: cryopreserved embryos
+	?a can rescue ?b
+		?a: Ectopic telomerase expression
+		?b: human and macaque antigen-specific T cells from senescence
+
+
+label:    sent_8
+sentence: Unique vascular intervention to rescue a pancreas allograft after technical SMA occlusion .
+
+ppatt:
+	?a rescue ?b after ?c
+		?a: Unique vascular intervention
+		?b: a pancreas allograft
+		?c: technical SMA occlusion
+
+
+label:    sent_9
+sentence: Previous studies have found that spatial tasks can rescue newly born neurons from death . Cells possess protein repair pathways to rescue oxidized proteins and restore their functions .
+
+ppatt:
+	?a have found ?b ?c
+		?a: Previous studies
+		?b: SOMETHING := spatial tasks can rescue newly born neurons from death
+		?c: SOMETHING := Cells possess protein repair pathways to rescue oxidized proteins and restore their functions
+	?a can rescue ?b
+		?a: spatial tasks
+		?b: newly born neurons from death
+	?a possess ?b to rescue ?c
+		?a: Cells
+		?b: protein repair pathways
+		?c: oxidized proteins
+	?a possess to restore ?b
+		?a: Cells
+		?b: their functions
+
+
+label:    sent_10
+sentence: Penicillin is effective and can rescue multiple organ failure if administered early .
+
+ppatt:
+	?a is effective
+		?a: Penicillin
+	?a can rescue ?b
+		?a: Penicillin
+		?b: multiple organ failure
+	?a administered early
+		?a: Penicillin
+
+
+label:    sent_11
+sentence: Prophylactic vs rescue surfactant and antenatal corticosteroids .
+
+ppatt:
+
+
+
+label:    sent_12
+sentence: Ectopic ligand expression can rescue the daw phenotype , but has no deleterious effects .
+
+ppatt:
+	?a can rescue ?b
+		?a: Ectopic ligand expression
+		?b: the daw phenotype
+	?a has ?b
+		?a: Ectopic ligand expression
+		?b: no deleterious effects
+
+
+label:    sent_13
+sentence: Human adult olfactory neural progenitors rescue axotomized rodent rubrospinal neurons and promote functional recovery . Neurotrophic factors can rescue PC12 cells from cell death , and induce neuronal differentiation .
+
+ppatt:
+	?a rescue ?b
+		?a: Human adult olfactory neural progenitors
+		?b: axotomized rodent rubrospinal neurons
+	?a promote ?b
+		?a: Human adult olfactory neural progenitors
+		?b: functional recovery
+	?a can rescue ?b from ?c
+		?a: Neurotrophic factors
+		?b: PC12 cells
+		?c: cell death
+	?a induce ?b
+		?a: Neurotrophic factors
+		?b: neuronal differentiation
+
+
+label:    sent_14
+sentence: Pediatric Airtraq for airway rescue in a developing world setting .
+
+ppatt:
+
+
+
+label:    sent_15
+sentence: Adaptation and evolutionary rescue in metapopulations experiencing environmental deterioration .
+
+ppatt:
+	?a experiencing ?b
+		?a: metapopulations
+		?b: environmental deterioration
+
+
+label:    sent_16
+sentence: Glucocorticoid rescue for late-phase acute respiratory distress syndrome in trauma/surgical critical care patients .
+
+ppatt:
+
+
+
+label:    sent_17
+sentence: Mutations to the rescue .
+
+ppatt:
+
+
+
+label:    sent_18
+sentence: The impact of nursing surveillance on failure to rescue . A biochemical basis of the selectivity of leucovorin rescue .
+
+ppatt:
+	?a rescue ?b
+		?a: failure
+		?b: A biochemical basis of the selectivity of leucovorin rescue
+
+
+label:    sent_19
+sentence: Glucarpidase rescue in a patient with high-dose methotrexate-induced nephrotoxicity .
+
+ppatt:
+
+
+
+label:    sent_20
+sentence: The emergence of failure to rescue as an outcome measure will be initially discussed .
+
+ppatt:
+	?a rescue as ?b
+		?a: The emergence of failure
+		?b: an outcome measure
+	?a will be initially discussed
+		?a: The emergence of failure to rescue as an outcome measure
+
+
+label:    sent_21
+sentence: In contrast , the valine signal was unable to rescue CFTR-deltaF508 from ER-associated degradation .
+
+ppatt:
+	In ?a , ?b was unable to rescue ?c from ?d
+		?a: contrast
+		?b: the valine signal
+		?c: CFTR-deltaF508
+		?d: ER-associated degradation
+
+

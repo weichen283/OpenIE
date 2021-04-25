@@ -1,0 +1,122 @@
+label:    sent_1
+sentence: The half-range central value transformation was used as data pre-treatment to homogenize data . It can partly ablate and homogenize the stratum corneum ( SC ) layers .
+
+ppatt:
+	?a was used as ?b
+		?a: The half-range central value transformation
+		?b: data
+	?a can partly ablate ?b
+		?a: It
+		?b: the stratum corneum layers
+	?a homogenize
+		?a: It
+	?a is/are SC
+		?a: stratum corneum
+
+
+label:    sent_2
+sentence: An oocyte-donation model , used to homogenize the female factor .
+
+ppatt:
+	?a used to homogenize ?b
+		?a: An oocyte-donation model
+		?b: the female factor
+
+
+label:    sent_3
+sentence: First , we use a cluster analysis to homogenize the units under study . A rapid mechanism to remobilize and homogenize highly crystalline magma bodies .
+
+ppatt:
+	First , ?a use ?b ?c
+		?a: we
+		?b: a cluster analysis
+		?c: A rapid mechanism to remobilize and homogenize highly crystalline magma bodies
+	?a homogenize ?b under ?c
+		?a: we
+		?b: the units
+		?c: study
+	?a remobilize ?b
+		?a: A rapid mechanism
+		?b: highly crystalline magma bodies
+	homogenize ?a
+		?a: highly crystalline magma bodies
+
+
+label:    sent_4
+sentence: Intensive fire and grazing denude and homogenize vegetation whereas their suppression increases woody cover .
+
+ppatt:
+
+
+
+label:    sent_5
+sentence: They are commonly used to homogenize light beams and to create particular intensity distributions .
+
+ppatt:
+	?a are commonly used to homogenize ?b
+		?a: They
+		?b: light beams
+	?a are commonly used to to create ?b
+		?a: They
+		?b: particular intensity distributions
+
+
+label:    sent_6
+sentence: Provisions of OBRA 1990 will homogenize this coverage even more .
+
+ppatt:
+	?a will homogenize ?b even more
+		?a: Provisions of OBRA 1990
+		?b: this coverage
+
+
+label:    sent_7
+sentence: Interlocus gene conversion can homogenize DNA sequences of duplicated regions with high homology .
+
+ppatt:
+	?a can homogenize ?b
+		?a: Interlocus gene conversion
+		?b: DNA sequences of duplicated regions with high homology
+
+
+label:    sent_8
+sentence: Sea otters homogenize mussel beds and reduce habitat provisioning in a rocky intertidal ecosystem .
+
+ppatt:
+	?a homogenize ?b
+		?a: Sea otters
+		?b: mussel beds
+	?a reduce ?b in ?c
+		?a: Sea otters
+		?b: habitat provisioning
+		?c: a rocky intertidal ecosystem
+
+
+label:    sent_9
+sentence: They homogenize care and increase the involvement of professionals . A simple method to homogenize multiple tissue samples in small sizes without cross contamination .
+
+ppatt:
+	?a homogenize ?b ?c
+		?a: They
+		?b: care
+		?c: A simple method to homogenize multiple tissue samples in small sizes without cross contamination
+	?a increase ?b
+		?a: They
+		?b: the involvement of professionals
+	?a homogenize ?b in ?c
+		?a: A simple method
+		?b: multiple tissue samples
+		?c: small sizes without cross contamination
+
+
+label:    sent_10
+sentence: International consensus guidelines are needed to homogenize and rationalize current use of MAL-PDT .
+
+ppatt:
+	?a are needed to homogenize ?b
+		?a: International consensus guidelines
+		?b: current use of MAL-PDT
+	?a are needed to rationalize
+		?a: International consensus guidelines
+
+

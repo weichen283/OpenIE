@@ -1,0 +1,312 @@
+label:    sent_1
+sentence: Such SS-PGEADMs can effectively condense pDNA .
+
+ppatt:
+	?a can effectively condense ?b
+		?a: Such SS-PGEADMs
+		?b: pDNA
+
+
+label:    sent_2
+sentence: The copolymer could bind and condense DNA tightly .
+
+ppatt:
+	?a could bind ?b tightly
+		?a: The copolymer
+		?b: DNA
+	?a condense
+		?a: The copolymer
+
+
+label:    sent_3
+sentence: The pre-modification of PEI did not affect its ability to condense DNA .
+
+ppatt:
+	?a did not affect ?b
+		?a: The pre-modification of PEI
+		?b: its ability to condense DNA
+	?a condense ?b
+		?a: its ability
+		?b: DNA
+
+
+label:    sent_4
+sentence: A basic principle of cell physiology is that chromosomes condense during mitosis .
+
+ppatt:
+	?a is ?b
+		?a: A basic principle of cell physiology
+		?b: SOMETHING := chromosomes condense during mitosis
+	?a condense during ?b
+		?a: chromosomes
+		?b: mitosis
+
+
+label:    sent_5
+sentence: Chromosomes condense during mitotic entry to facilitate their segregation .
+
+ppatt:
+	?a condense during ?b to facilitate ?c
+		?a: Chromosomes
+		?b: mitotic entry
+		?c: their segregation
+
+
+label:    sent_6
+sentence: During E 10.5 migrating epitheloid cells condense to form a funnel-shaped configuration .
+
+ppatt:
+	During ?a condense to form ?b
+		?a: E 10.5 migrating epitheloid cells
+		?b: a funnel-shaped configuration
+
+
+label:    sent_7
+sentence: These PTns can effectively condense nucleic acids into nanosized particles with positive surface charges .
+
+ppatt:
+	?a can effectively condense ?b into ?c
+		?a: These PTns
+		?b: nucleic acids
+		?c: nanosized particles with positive surface charges
+
+
+label:    sent_8
+sentence: Cyanogen bromide was found to condense oligodeoxyribonucleotides on a complementary template in aqueous solution .
+
+ppatt:
+	?a was found to condense ?b on ?c
+		?a: Cyanogen bromide
+		?b: oligodeoxyribonucleotides
+		?c: a complementary template in aqueous solution
+
+
+label:    sent_9
+sentence: They were able to condense DNA at N/P ratio < 5 .
+
+ppatt:
+	?a were able to condense ?b at ?c
+		?a: They
+		?b: DNA
+		?c: N/P ratio < 5
+
+
+label:    sent_10
+sentence: In this way pluripotential blast-cells condense into motile lymphocytes which are committed to pluripotentiality .
+
+ppatt:
+	In ?a ?b condense into ?c
+		?a: this way
+		?b: pluripotential blast-cells
+		?c: motile lymphocytes which are committed to pluripotentiality
+	?a are committed to ?b
+		?a: motile lymphocytes
+		?b: pluripotentiality
+
+
+label:    sent_11
+sentence: The cationic AVPI-LMWP could condense pTRAIL by electrostatic interaction .
+
+ppatt:
+	?a could condense ?b by ?c
+		?a: The cationic AVPI-LMWP
+		?b: pTRAIL
+		?c: electrostatic interaction
+
+
+label:    sent_12
+sentence: Cells lacking Inca migrate successfully but fail to condense into skeletal primordia .
+
+ppatt:
+	?a lacking ?b
+		?a: Cells
+		?b: Inca
+	?a migrate successfully
+		?a: Cells lacking Inca
+	?a fail to condense into ?b
+		?a: Cells lacking Inca
+		?b: skeletal primordia
+
+
+label:    sent_13
+sentence: These water-soluble PAAs efficiently condense beta-galactosidase by self-assembly into nanoscaled and positively-charged complexes .
+
+ppatt:
+	?a efficiently condense ?b by ?c
+		?a: These water-soluble PAAs
+		?b: beta-galactosidase
+		?c: self-assembly into nanoscaled and positively-charged complexes
+
+
+label:    sent_14
+sentence: These methods condense the feature point trajectories into a compact set of representative signals .
+
+ppatt:
+	?a condense ?b into ?c
+		?a: These methods
+		?b: the feature point trajectories
+		?c: a compact set of representative signals
+
+
+label:    sent_15
+sentence: Both P1 and P2 can efficiently condense DNA into stable nanoparticles .
+
+ppatt:
+	?a can efficiently condense ?b into ?c
+		?a: P1
+		?b: DNA
+		?c: stable nanoparticles
+	?a can efficiently condense ?b into ?c
+		?a: P2
+		?b: DNA
+		?c: stable nanoparticles
+
+
+label:    sent_16
+sentence: These two lipids condense to form less fluid membrane microdomains or lipid rafts .
+
+ppatt:
+	?a condense to form ?b
+		?a: These two lipids
+		?b: less fluid membrane microdomains
+	?a condense to form ?b
+		?a: These two lipids
+		?b: lipid rafts
+
+
+label:    sent_17
+sentence: These anterior cells did not , however , condense to form blood vessels .
+
+ppatt:
+	?a did not , however , condense to form ?b
+		?a: These anterior cells
+		?b: blood vessels
+
+
+label:    sent_18
+sentence: When association of AKAP95 with chromatin is prevented , the chromatin does not condense .
+
+ppatt:
+	When ?a is prevented
+		?a: association of AKAP95 with chromatin
+	?a does not condense
+		?a: the chromatin
+
+
+label:    sent_19
+sentence: Their ability to condense pDNA and siRNA , and to form nanoparticles were characterized .
+
+ppatt:
+	?a condense ?b
+		?a: Their ability
+		?b: pDNA
+	?a condense ?b
+		?a: Their ability
+		?b: siRNA
+	?a form ?b
+		?a: Their ability
+		?b: nanoparticles
+	?a were characterized
+		?a: Their ability to condense pDNA and siRNA , and to form nanoparticles
+
+
+label:    sent_20
+sentence: Their abilities to condense DNA and to form nanoparticles were characterized .
+
+ppatt:
+	?a condense ?b
+		?a: Their abilities
+		?b: DNA
+	?a form ?b
+		?a: Their abilities
+		?b: nanoparticles
+	?a were characterized
+		?a: Their abilities to condense DNA and to form nanoparticles
+
+
+label:    sent_21
+sentence: The GPT-SPE could effectively condense siRNA and protect the siRNA from RNaseA enzyme degradation .
+
+ppatt:
+	?a could effectively condense ?b
+		?a: The GPT-SPE
+		?b: siRNA
+	?a protect ?b
+		?a: The GPT-SPE
+		?b: the siRNA from RNaseA enzyme degradation
+
+
+label:    sent_22
+sentence: Protamines are small basic proteins that condense the DNA in mature spermatozoa .
+
+ppatt:
+	?a are small basic proteins
+		?a: Protamines
+	?a condense ?b
+		?a: small basic proteins
+		?b: the DNA in mature spermatozoa
+
+
+label:    sent_23
+sentence: Addition of DOTAP / Chol liposomes did not further condense DNA .
+
+ppatt:
+	?a did not further condense ?b
+		?a: Addition of DOTAP / Chol liposomes
+		?b: DNA
+
+
+label:    sent_24
+sentence: CLs condense highly polymerized DNA creating complexes .
+
+ppatt:
+	?a condense ?b
+		?a: CLs
+		?b: highly polymerized DNA creating complexes
+
+
+label:    sent_25
+sentence: Bacteriophage can be considered as a natural system to efficiently condense and package DNA .
+
+ppatt:
+	?a can be considered as ?b to efficiently condense ?c
+		?a: Bacteriophage
+		?b: a natural system
+		?c: package DNA
+
+
+label:    sent_26
+sentence: The three OligoCh presented a great ability to condense and protect the DNA .
+
+ppatt:
+	?a presented ?b
+		?a: The three OligoCh
+		?b: a great ability to condense and protect the DNA
+	?a condense ?b
+		?a: a great ability
+		?b: the DNA
+	protect ?a
+		?a: the DNA
+
+
+label:    sent_27
+sentence: To condense or not to condense .
+
+ppatt:
+
+
+
+label:    sent_28
+sentence: In the trunk and tail , somitomeres gradually condense and epithelialize to become somites .
+
+ppatt:
+	In ?a , ?b gradually condense to become somites
+		?a: trunk
+		?b: somitomeres
+	In ?a , ?b gradually condense to become somites
+		?a: tail
+		?b: somitomeres
+	?a epithelialize
+		?a: somitomeres
+
+

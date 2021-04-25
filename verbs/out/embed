@@ -1,0 +1,172 @@
+label:    sent_1
+sentence: How can we better embed the social determinants of health into postgraduate medical training ? New programme is launched to embed patient safety in the NHS .
+
+ppatt:
+	How can ?a better embed ?b
+		?a: we
+		?b: the social determinants of health into postgraduate medical training
+	?a is launched to embed ?b
+		?a: New programme
+		?b: patient safety in the NHS
+
+
+label:    sent_2
+sentence: Further work is needed to embed site-specific deformation models in the optimization process .
+
+ppatt:
+	?a is needed to embed ?b in ?c
+		?a: Further work
+		?b: site-specific deformation models
+		?c: the optimization process
+
+
+label:    sent_3
+sentence: How to embed three-dimensional flexible electrodes in microfluidic devices for cell culture applications .
+
+ppatt:
+	How to embed ?a in ?b
+		?a: three-dimensional flexible electrodes
+		?b: microfluidic devices for cell culture applications
+
+
+label:    sent_4
+sentence: Effective change requires continued effort and alignment to embed the desired changes .
+
+ppatt:
+	?a requires ?b to embed ?c
+		?a: Effective change
+		?b: continued effort
+		?c: the desired changes
+	?a requires ?b to embed ?c
+		?a: Effective change
+		?b: alignment
+		?c: the desired changes
+
+
+label:    sent_5
+sentence: To embed teaching and assessment of professionalism in a revised six-year undergraduate medical curriculum .
+
+ppatt:
+	embed ?a
+		?a: teaching of professionalism in a revised six-year undergraduate medical curriculum
+	embed ?a
+		?a: assessment
+
+
+label:    sent_6
+sentence: The latter embed themselves in corresponding indentations in abutted terminals .
+
+ppatt:
+	?a embed ?b in ?c
+		?a: The latter
+		?b: themselves
+		?c: corresponding indentations in abutted terminals
+
+
+label:    sent_7
+sentence: We further embed the prediction-reconstruction protocol above into a multi-resolution hierarchy .
+
+ppatt:
+	?a further embed ?b above into ?c
+		?a: We
+		?b: the prediction-reconstruction protocol
+		?c: a multi-resolution hierarchy
+
+
+label:    sent_8
+sentence: Existing measures embed highly problematic assumptions about what constitutes cultural competence .
+
+ppatt:
+	?a embed ?b
+		?a: Existing measures
+		?b: highly problematic assumptions about what constitutes cultural competence
+	?a about ?b constitutes ?c
+		?a: highly problematic assumptions
+		?b: what
+		?c: cultural competence
+
+
+label:    sent_9
+sentence: In addition , our analysis suggests that middle layers of phosphorelays could embed thresholds . Circular backpropagation networks embed vector quantization .
+
+ppatt:
+	In ?a , ?b suggests ?c
+		?a: addition
+		?b: our analysis
+		?c: SOMETHING := middle layers of phosphorelays could embed thresholds
+	?a could embed ?b
+		?a: middle layers of phosphorelays
+		?b: thresholds
+	?a embed ?b
+		?a: Circular backpropagation networks
+		?b: vector quantization
+
+
+label:    sent_10
+sentence: We embed HL7 messages describing laboratory test results in the microdata .
+
+ppatt:
+	?a embed ?b
+		?a: We
+		?b: HL7 messages describing laboratory test results in the microdata
+	?a describing ?b
+		?a: HL7 messages
+		?b: laboratory test results in the microdata
+
+
+label:    sent_11
+sentence: Case studies have established that these technologies are difficult to embed in everyday healthcare .
+
+ppatt:
+	?a have established ?b
+		?a: Case studies
+		?b: SOMETHING := these technologies are difficult to embed in everyday healthcare
+	?a are difficult to embed in ?b
+		?a: these technologies
+		?b: everyday healthcare
+
+
+label:    sent_12
+sentence: Calcium stimulates filopodia , which penetrate and embed into neighboring cells .
+
+ppatt:
+	?a stimulates ?b
+		?a: Calcium
+		?b: filopodia , which penetrate and embed into neighboring cells
+	?a penetrate
+		?a: filopodia
+	?a embed into ?b
+		?a: which
+		?b: neighboring cells
+
+
+label:    sent_13
+sentence: TM atoms separately and regularly embed within GY , achieving long-range magnetic spin ordering .
+
+ppatt:
+	?a separately and regularly embed within ?b
+		?a: TM atoms
+		?b: GY
+	?a achieving ?b
+		?a: TM atoms
+		?b: long-range magnetic spin ordering
+
+
+label:    sent_14
+sentence: Isolate requirements must be embed in a general conscions processing of social informations .
+
+ppatt:
+	?a must be embed in ?b
+		?a: Isolate requirements
+		?b: a general conscions processing of social informations
+
+
+label:    sent_15
+sentence: And the vertical fibers can n't embed in the control .
+
+ppatt:
+	?a can n't embed in ?b
+		?a: the vertical fibers
+		?b: the control
+
+

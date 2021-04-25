@@ -1,0 +1,286 @@
+label:    sent_1
+sentence: NHS director assures BME staff they will not bear brunt of cuts .
+
+ppatt:
+	?a assures ?b
+		?a: NHS director
+		?b: BME staff
+	?a will not bear ?b
+		?a: they
+		?b: brunt of cuts
+
+
+label:    sent_2
+sentence: Flaws in financial risk assessments bear part of the blame for the financial collapse .
+
+ppatt:
+	?a bear ?b
+		?a: Flaws in financial risk assessments
+		?b: part of the blame for the financial collapse
+
+
+label:    sent_3
+sentence: Changes in pulse pressure or energy-equivalent pressure bear no obvious relationship with microcirculatory parameters . Gummy bear vitamins . Slot machines were estimated to bear the highest risk .
+
+ppatt:
+	?a bear ?b with ?c
+		?a: Changes in pulse pressure or energy-equivalent pressure
+		?b: no obvious relationship
+		?c: microcirculatory parameters
+	?a bear ?b
+		?a: Gummy
+		?b: vitamins
+	?a were estimated to bear ?b
+		?a: Slot machines
+		?b: the highest risk
+
+
+label:    sent_4
+sentence: The potential of cyclodecapeptides to bear phenoxyl radicals has been evaluated through three compounds .
+
+ppatt:
+	?a bear ?b
+		?a: The potential of cyclodecapeptides
+		?b: phenoxyl radicals
+	?a has been evaluated through ?b
+		?a: The potential of cyclodecapeptides to bear phenoxyl radicals
+		?b: three compounds
+
+
+label:    sent_5
+sentence: In the case of a water birth complications bear serious consequences . Polar bear population status in the northern Beaufort Sea , Canada , 1971-2006 .
+
+ppatt:
+	In ?a of ?b bear ?c
+		?a: the case
+		?b: a water birth complications
+		?c: serious consequences
+	?a bear ?b in ?c
+		?a: Polar
+		?b: population status
+		?c: the northern Beaufort Sea
+	?a is/are Canada
+		?a: the northern Beaufort Sea
+	?a is/are 1971-2006
+		?a: the northern Beaufort Sea
+
+
+label:    sent_6
+sentence: This observation may bear beneficial prognostic effects on patients after AMI .
+
+ppatt:
+	?a may bear ?b on ?c
+		?a: This observation
+		?b: beneficial prognostic effects
+		?c: patients after AMI
+
+
+label:    sent_7
+sentence: They bear histamine receptors , and in such fractions histamine induced suppressor cells .
+
+ppatt:
+	?a bear ?b
+		?a: They
+		?b: histamine receptors
+	in ?a ?b induced ?c
+		?a: such fractions
+		?b: histamine
+		?c: suppressor cells
+
+
+label:    sent_8
+sentence: The unstriated paramyosin muscles bear thin flanges and form compact interlocking rows .
+
+ppatt:
+	?a bear ?b
+		?a: The unstriated paramyosin muscles
+		?b: thin flanges
+	?a form ?b
+		?a: The unstriated paramyosin muscles
+		?b: compact interlocking rows
+
+
+label:    sent_9
+sentence: The nucleoli bear no granules and demonstrate a segregation of the fibrillar material .
+
+ppatt:
+	?a bear ?b
+		?a: The nucleoli
+		?b: no granules
+	?a demonstrate ?b
+		?a: The nucleoli
+		?b: a segregation of the fibrillar material
+
+
+label:    sent_10
+sentence: In this article , new evidence is brought to bear on this issue .
+
+ppatt:
+	In ?a , ?b is brought to bear on ?c
+		?a: this article
+		?b: new evidence
+		?c: this issue
+
+
+label:    sent_11
+sentence: The osseous complications do not seem to bear on the prognoses for these patients .
+
+ppatt:
+	?a do not seem to bear on ?b
+		?a: The osseous complications
+		?b: the prognoses for these patients
+
+
+label:    sent_12
+sentence: Third , Big Data brings new analytic approaches to bear on these questions .
+
+ppatt:
+	Third , ?a brings ?b
+		?a: Big Data
+		?b: new analytic approaches to bear on these questions
+	?a bear on ?b
+		?a: new analytic approaches
+		?b: these questions
+
+
+label:    sent_13
+sentence: Nottingham grades of lobular carcinoma lack the prognostic implications they bear for ductal carcinoma .
+
+ppatt:
+	?a lack ?b
+		?a: Nottingham grades of lobular carcinoma
+		?b: the prognostic implications
+	?a bear for ?b
+		?a: they
+		?b: ductal carcinoma
+
+
+label:    sent_14
+sentence: These results bear upon predictions from multiple fundamental theories of visual cognition .
+
+ppatt:
+	?a bear upon ?b
+		?a: These results
+		?b: predictions from multiple fundamental theories of visual cognition
+
+
+label:    sent_15
+sentence: Our findings bear heavily on the relationship between GH / IGF1 and cancer .
+
+ppatt:
+	?a bear heavily on ?b
+		?a: Our findings
+		?b: the relationship between GH / IGF1 and cancer
+
+
+label:    sent_16
+sentence: The polycondensates bear up to four carboxylic groups per constitutive unit .
+
+ppatt:
+	?a bear ?b
+		?a: The polycondensates
+		?b: up four carboxylic groups per constitutive unit
+
+
+label:    sent_17
+sentence: The patients were advised to bear full weight after six weeks . Effective doses double the percentage of rats able to bear weight on their hindlimbs .
+
+ppatt:
+	?a were advised to bear ?b after ?c ?d
+		?a: The patients
+		?b: full weight
+		?c: six weeks
+		?d: Effective doses double the percentage of rats able to bear weight on their hindlimbs
+	bear ?a on ?b
+		?a: weight
+		?b: their hindlimbs
+
+
+label:    sent_18
+sentence: Caring for the sexually aggressive patient -- you do n't have to blush and bear it . The transitions are reversible and bear the phenotypic hallmarks of CRC morphogenesis .
+
+ppatt:
+	?a ?b do n't have to ?c
+		?a: Caring for the sexually aggressive patient
+		?b: you
+		?c: blush
+	?a bear ?b
+		?a: Caring for the sexually aggressive patient
+		?b: it
+	?a are reversible
+		?a: The transitions
+	?a bear ?b
+		?a: The transitions
+		?b: the phenotypic hallmarks of CRC morphogenesis
+
+
+label:    sent_19
+sentence: These operons are transcribed in opposite directions and therefore bear diametrically oriented promoters .
+
+ppatt:
+	?a are transcribed in ?b
+		?a: These operons
+		?b: opposite directions
+	?a therefore bear ?b
+		?a: These operons
+		?b: diametrically oriented promoters
+
+
+label:    sent_20
+sentence: Surgical techniques also bear likenesses in that both can theoretically be done percutaneously .
+
+ppatt:
+	?a also bear ?b
+		?a: Surgical techniques
+		?b: likenesses that both can theoretically be done percutaneously
+	?a ?b can theoretically be done percutaneously
+		?a: likenesses
+		?b: both
+
+
+label:    sent_21
+sentence: Clade 1 was composed of Pythium isolates that bear filamentous to lobulate sporangia .
+
+ppatt:
+	?a was composed of ?b
+		?a: Clade 1
+		?b: Pythium isolates that bear filamentous sporangia
+	?a bear ?b ?c
+		?a: Pythium isolates
+		?b: filamentous
+		?c: sporangia
+
+
+label:    sent_22
+sentence: When either bear moved into an adjacent zone , 1 typically moved away .
+
+ppatt:
+	When ?a bear moved into ?b
+		?a: either
+		?b: an adjacent zone
+	?a typically moved away
+		?a: 1
+
+
+label:    sent_23
+sentence: MiRNAs bear an increasing number of functions throughout development and in the aging adult .
+
+ppatt:
+	?a bear ?b
+		?a: MiRNAs
+		?b: an increasing number of functions throughout development and in the aging adult
+
+
+label:    sent_24
+sentence: During treatment , the patients could bear full weight and tolerated the fixators well .
+
+ppatt:
+	During ?a , ?b could bear ?c
+		?a: treatment
+		?b: the patients
+		?c: full weight
+	?a tolerated ?b well
+		?a: the patients
+		?b: the fixators
+
+

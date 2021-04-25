@@ -1,0 +1,132 @@
+label:    sent_1
+sentence: Ambulance crash roundup . Comparison of delta-v and occupant impact velocity crash severity metrics using event data recorders .
+
+ppatt:
+	?a using ?b
+		?a: Ambulance crash roundup
+		?b: event data recorders
+
+
+label:    sent_2
+sentence: The crash left 107 passengers dead and 549 injured .
+
+ppatt:
+	?a injured
+		?a: The crash left 107 passengers
+
+
+label:    sent_3
+sentence: Evaluation of rear-end crash risk at work zone using work zone traffic data . Indexing crash worthiness and crash aggressivity by vehicle type .
+
+ppatt:
+	?a using ?b
+		?a: Evaluation of rear-end crash risk at work zone
+		?b: work zone traffic data
+	Indexing ?a by ?b
+		?a: crash worthiness
+		?b: vehicle type
+	Indexing ?a by ?b
+		?a: crash aggressivity
+		?b: vehicle type
+
+
+label:    sent_4
+sentence: Use and misuse of motor-vehicle crash death rates in assessing highway-safety performance .
+
+ppatt:
+	?a assessing ?b
+		?a: Use of motor-vehicle crash death rates
+		?b: highway-safety performance
+	?a assessing ?b
+		?a: misuse
+		?b: highway-safety performance
+
+
+label:    sent_5
+sentence: In addition , when bubbles burst , homogenous markets crash more severely .
+
+ppatt:
+	In ?a when ?b burst more severely
+		?a: addition
+		?b: bubbles
+
+
+label:    sent_6
+sentence: Prior injury and motor vehicle crash as risk factors for youth suicide .
+
+ppatt:
+
+
+
+label:    sent_7
+sentence: Train vs. truck : rescuers respond to Amtrak crash in Illinois . Distant effects of Fidia 's crash . An air photo analysis of an airplane crash . Plane crash . Drivers who commit driving violations , such as speeding , crash more .
+
+ppatt:
+	?a respond to ?b ?c
+		?a: Train
+		?b: Amtrak crash in Illinois
+		?c: Distant effects of Fidia 's crash
+	?a respond to ?b ?c
+		?a: truck
+		?b: Amtrak crash in Illinois
+		?c: Distant effects of Fidia 's crash
+	?a respond to ?b ?c
+		?a: rescuers
+		?b: Amtrak crash in Illinois
+		?c: Distant effects of Fidia 's crash
+	?a respond to ?b ?c
+		?a: Train
+		?b: Amtrak crash in Illinois
+		?c: An air photo analysis of an airplane crash
+	?a respond to ?b ?c
+		?a: truck
+		?b: Amtrak crash in Illinois
+		?c: An air photo analysis of an airplane crash
+	?a respond to ?b ?c
+		?a: rescuers
+		?b: Amtrak crash in Illinois
+		?c: An air photo analysis of an airplane crash
+	?a respond to ?b ?c
+		?a: Train
+		?b: Amtrak crash in Illinois
+		?c: Plane crash . Drivers who commit driving violations , such as speeding , more
+	?a respond to ?b ?c
+		?a: truck
+		?b: Amtrak crash in Illinois
+		?c: Plane crash . Drivers who commit driving violations , such as speeding , more
+	?a respond to ?b ?c
+		?a: rescuers
+		?b: Amtrak crash in Illinois
+		?c: Plane crash . Drivers who commit driving violations , such as speeding , more
+	?a commit ?b more
+		?a: Plane crash . Drivers
+		?b: driving violations , such as speeding
+
+
+label:    sent_8
+sentence: Young drivers --reduced crash risk with passengers in the vehicle . [Uni- and multivariate analysis of factors influencing car crash mortality of passengers ] . Consecutive adults who had a motor vehicle crash anytime following their 66th birthday .
+
+ppatt:
+	?a influencing ?b
+		?a: factors
+		?b: car crash mortality of passengers
+	?a had ?b following ?c
+		?a: Consecutive adults
+		?b: a motor vehicle crash anytime
+		?c: their 66th birthday
+
+
+label:    sent_9
+sentence: Road traffic crash injuries and fatalities in the city of Kerman , Iran .
+
+ppatt:
+
+
+
+label:    sent_10
+sentence: Why planes crash : lessons for radiology .
+
+ppatt:
+
+
+

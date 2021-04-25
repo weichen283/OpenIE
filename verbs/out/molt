@@ -1,0 +1,501 @@
+label:    sent_1
+sentence: At the beginning of postnuptial molt ( when the old , worn dawny- , and cover feathers ' loss starts ) in ganders , the levels of T , E2 , P4 decrease while DHEA and B significantly increase .
+
+ppatt:
+	?a cover ?b
+		?a: the old
+		?b: feathers ' loss
+	At ?a ( when ?b starts ) in ?c
+		?a: the beginning of postnuptial molt
+		?b: the old
+		?c: ganders
+	?a decrease
+		?a: the levels of T , E2 , P4
+	?a significantly increase
+		?a: DHEA
+	?a significantly increase
+		?a: B
+
+
+label:    sent_2
+sentence: At the end of postnuptial molt-when the outgrowth of dawny , cover- , and wing feathers stops-very low T , E2 , P4 , DHEA and T4 levels and and high T3 plasma levels were found in both sexes .
+
+ppatt:
+	At ?a were found in ?b
+		?a: the end of postnuptial molt-when the outgrowth of dawny , cover- , and wing feathers stops-very low T , E2 , P4 , DHEA and T4 levels and and high T3 plasma levels
+		?b: both sexes
+
+
+label:    sent_3
+sentence: We also tested whether ( 1 ) baseline CORT levels early in the season were predictive of subsequent reproductive success and ( 2 ) whether prior reproductive effort influenced CORT levels and blood metabolites during molt .
+
+ppatt:
+	?a also tested ?b
+		?a: We
+		?b: SOMETHING := baseline CORT levels early in the season were predictive of subsequent reproductive success
+	?a were predictive of ?b
+		?a: baseline CORT levels early in the season
+		?b: subsequent reproductive success
+	?a influenced ?b during ?c
+		?a: prior reproductive effort
+		?b: CORT levels
+		?c: molt
+	?a influenced ?b during ?c
+		?a: prior reproductive effort
+		?b: blood metabolites
+		?c: molt
+
+
+label:    sent_4
+sentence: Plasma levels of testosterone ( T ) , 17-beta-estradiol ( E2 ) , progesterone ( P4 ) , dehydroepiandrosterone ( DHEA ) , corticosterone ( B ) , thyroxine ( T4 ) and triiodothyronine ( T3 ) were monitored during postnuptial and the prenuptial molt in domestic goose ( Anser anser domesticus ) in both sexes .
+
+ppatt:
+	?a is/are T
+		?a: testosterone
+	?a is/are T
+		?a: 17-beta-estradiol
+	?a is/are T
+		?a: progesterone
+	?a is/are T
+		?a: dehydroepiandrosterone
+	?a is/are T
+		?a: corticosterone
+	?a is/are T
+		?a: thyroxine
+	?a is/are T
+		?a: triiodothyronine
+	?a is/are E2
+		?a: 17-beta-estradiol
+	?a is/are P4
+		?a: progesterone
+	?a is/are DHEA
+		?a: dehydroepiandrosterone
+	?a is/are B
+		?a: corticosterone
+	?a is/are T4
+		?a: thyroxine
+	?a is/are T3
+		?a: triiodothyronine
+	?a were monitored during ?b
+		?a: Plasma levels of testosterone , 17-beta-estradiol , progesterone , dehydroepiandrosterone , corticosterone , thyroxine and triiodothyronine
+		?b: postnuptial in domestic goose in both sexes
+	?a were monitored during ?b
+		?a: Plasma levels of testosterone , 17-beta-estradiol , progesterone , dehydroepiandrosterone , corticosterone , thyroxine and triiodothyronine
+		?b: the prenuptial molt
+	?a is/are Anser anser domesticus
+		?a: domestic goose in both sexes
+
+
+label:    sent_5
+sentence: Corticosterone stress response and plasma metabolite levels during breeding and molt in a free-living migratory songbird , the wood thrush ( Hylocichla mustelina ) . Many birds face energetic trade-offs between different life history stages , such as reproductive effort , feather molt and the non-breeding period .
+
+ppatt:
+	?a is/are the wood thrush
+		?a: a free-living migratory songbird
+	?a is/are Hylocichla mustelina
+		?a: the wood thrush
+	?a face ?b
+		?a: Corticosterone stress response during breeding and molt in a free-living migratory songbird
+		?b: energetic trade-offs between different life history stages , such as reproductive effort , feather molt and the non-breeding period
+	?a face ?b
+		?a: plasma metabolite levels
+		?b: energetic trade-offs between different life history stages , such as reproductive effort , feather molt and the non-breeding period
+	?a face ?b
+		?a: Many birds
+		?b: energetic trade-offs between different life history stages , such as reproductive effort , feather molt and the non-breeding period
+
+
+label:    sent_6
+sentence: By contrast , about one-third of SD larvae from which only the brain has been removed , undergo first a larval molt , then pupate and subsequently developed to the adult stage .
+
+ppatt:
+	?a from ?b has been removed
+		?a: SD larvae
+		?b: only the brain
+	By ?a , ?b undergo first ?c
+		?a: contrast
+		?b: about one-third of SD larvae from which only the brain has been removed
+		?c: a larval molt
+	?a then pupate
+		?a: about one-third of SD larvae from which only the brain has been removed
+	?a subsequently developed to ?b
+		?a: about one-third of SD larvae from which only the brain has been removed
+		?b: the adult stage
+
+
+label:    sent_7
+sentence: We captured both males and females during four times of the year-Spring ( when the male cloacal protuberance indicated birds were in breeding condition ) , Fall , Winter , and in the late summer when birds were undergoing a prebasic molt .
+
+ppatt:
+	?a captured ?b during ?c
+		?a: We
+		?b: males
+		?c: four times of the year-Spring
+	?a captured ?b during ?c
+		?a: We
+		?b: females
+		?c: four times of the year-Spring
+	?a captured ?b during ?c
+		?a: We
+		?b: males
+		?c: the late summer
+	?a captured ?b during ?c
+		?a: We
+		?b: females
+		?c: the late summer
+	when ?a indicated ?b in ?c ?d
+		?a: the male cloacal protuberance
+		?b: birds
+		?c: were breeding condition
+		?d: Winter
+	when ?a were undergoing ?b
+		?a: birds
+		?b: a prebasic molt
+
+
+label:    sent_8
+sentence: Indeed , the only stages that required elevated salinity were copulation and subsequent oviposition , and we speculate that freshwater inhibits the female pre-reproductive molt .
+
+ppatt:
+	?a required ?b
+		?a: the only stages
+		?b: elevated salinity
+	Indeed , ?a were copulation
+		?a: the only stages that required elevated salinity
+	?a subsequent oviposition
+		?a: the only stages that required elevated salinity
+	?a speculate ?b
+		?a: we
+		?b: SOMETHING := freshwater inhibits the female pre-reproductive molt
+	?a inhibits ?b
+		?a: freshwater
+		?b: the female pre-reproductive molt
+
+
+label:    sent_9
+sentence: Cyclic decrease of oxygen consumption during molt and sharp dropping during metamorphosis have been observed in insects with indirect development .
+
+ppatt:
+	?a have been observed in ?b
+		?a: Cyclic decrease of oxygen consumption during molt and sharp dropping during metamorphosis
+		?b: insects with indirect development
+
+
+label:    sent_10
+sentence: Exposure to LD 8 : 16 induced weight gain , molt to a winter pelage , and in contrast to previous studies , regression of the male , but not the female , reproductive tract .
+
+ppatt:
+	?a induced ?b , to ?c ?d
+		?a: Exposure to LD
+		?b: weight gain , to a winter pelage
+		?c: previous studies
+		?d: regression of the male , but not the female , reproductive
+	?a induced ?b , to ?c ?d
+		?a: Exposure to LD
+		?b: molt
+		?c: previous studies
+		?d: regression of the male , but not the female , reproductive
+
+
+label:    sent_11
+sentence: We used information on the congruence of spatial heterogeneity in molt and breeding location to study population processes in Barn Swallows ( Hirundo rustica ) from a region .
+
+ppatt:
+	?a used ?b
+		?a: We
+		?b: information on the congruence of spatial heterogeneity in molt and breeding location to study population processes in Barn Swallows from a region
+	?a study ?b
+		?a: the congruence of spatial heterogeneity in molt and breeding location
+		?b: population processes in Barn Swallows from a region
+	?a is/are Hirundo rustica
+		?a: Barn Swallows from a region
+
+
+label:    sent_12
+sentence: near Chernobyl , Ukraine , that has been radioactively contaminated since 1986 ; from an uncontaminated control region near Kanev , Ukraine ; and from a sample of pre-1986 museum specimens used to investigate patterns prior to the nuclear disaster at Chernobyl , from both regions .
+
+ppatt:
+	?a has been radioactively contaminated from ?b
+		?a: Chernobyl
+		?b: an uncontaminated control region near Kanev
+	has been radioactively contaminated from ?a ?b
+		?a: an uncontaminated control region near Kanev
+		?b: a sample of pre-1986 museum specimens used to investigate patterns prior to the nuclear disaster at Chernobyl , from both regions
+	?a 1986
+		?a: that
+	?a is/are Ukraine
+		?a: an uncontaminated control region near Kanev
+	?a used to investigate ?b prior to ?c
+		?a: a sample of pre-1986 museum specimens
+		?b: patterns
+		?c: the nuclear disaster at Chernobyl , from both regions
+
+
+label:    sent_13
+sentence: The third molt occurred between 9 and 17 DAI .
+
+ppatt:
+	?a occurred between ?b
+		?a: The third molt
+		?b: 9 and 17 DAI
+
+
+label:    sent_14
+sentence: The last molt occurred between 24 and 32 DAI .
+
+ppatt:
+	?a occurred ?b
+		?a: The last molt
+		?b: between 24 and 32 DAI
+
+
+label:    sent_15
+sentence: The observations in the present study provide further evidence to suggest that a molt initiated through the administration of a wheat bran diet can reduce the risk for Salmonella problems in a commercial egg-producing setting .
+
+ppatt:
+	?a provide ?b
+		?a: The observations in the present study
+		?b: further evidence to suggest that a molt initiated through the administration of a wheat bran diet can reduce the risk for Salmonella problems in a commercial egg-producing setting
+	?a suggest ?b
+		?a: further evidence
+		?b: SOMETHING := a molt initiated through the administration of a wheat bran diet can reduce the risk for Salmonella problems in a commercial egg-producing setting
+	?a initiated through ?b
+		?a: a molt
+		?b: the administration of a wheat bran diet
+	?a can reduce ?b in ?c
+		?a: a molt initiated through the administration of a wheat bran diet
+		?b: the risk for Salmonella problems
+		?c: a commercial egg-producing setting
+
+
+label:    sent_16
+sentence: Field observations indicated that all four species regress their gonads and begin prebasic feather molt in late summer or autumn .
+
+ppatt:
+	?a indicated ?b
+		?a: Field observations
+		?b: SOMETHING := all four species regress their gonads
+	?a regress ?b
+		?a: all four species
+		?b: their gonads
+	?a begin ?b in ?c
+		?a: all four species
+		?b: prebasic feather molt
+		?c: late summer
+	?a begin ?b in ?c
+		?a: all four species
+		?b: prebasic feather molt
+		?c: autumn
+
+
+label:    sent_17
+sentence: We also recorded the annual molt of wing feathers .
+
+ppatt:
+	?a also recorded ?b
+		?a: We
+		?b: the annual molt of wing feathers
+
+
+label:    sent_18
+sentence: Treatment with the dopamine agonist , CB-154 , resulted in a reduction in serum prolactin and the development of the white pelage in lemmings housed under 16L :8D , while treatment with the dopamine antagonist , sulpiride , prevented the winter molt in animals transferred to 8L : 16D .
+
+ppatt:
+	?a is/are CB-154
+		?a: the dopamine agonist
+	?a resulted in ?b
+		?a: Treatment with the dopamine agonist
+		?b: a reduction in serum prolactin in lemmings housed under 16L :8D
+	?a resulted in ?b
+		?a: Treatment with the dopamine agonist
+		?b: the development of the white pelage
+	?a housed under ?b
+		?a: lemmings
+		?b: 16L :8D
+	?a is/are sulpiride
+		?a: the dopamine antagonist
+	?a prevented ?b
+		?a: treatment with the dopamine antagonist
+		?b: the winter molt in animals transferred to 8L : 16D
+	?a transferred to ?b
+		?a: animals
+		?b: 8L : 16D
+
+
+label:    sent_19
+sentence: Debrained LD larvae molt to larvae exceptionally but regularly pupate and produce adults .
+
+ppatt:
+	produce ?a
+		?a: adults
+
+
+label:    sent_20
+sentence: As in the natural host ( the cat ) , the nematodes ' third molt in nude mice occurred at 7 to 10 days .
+
+ppatt:
+	?a is/are the cat
+		?a: the natural host
+	As in ?a , ?b occurred at ?c
+		?a: the natural host
+		?b: the nematodes ' third molt in nude mice
+		?c: 7 10 days
+
+
+label:    sent_21
+sentence: The molt to the white winter pelage began under a longer photoperiod in females ( 16L : 8D ) than in males ( 14L : 10D ) .
+
+ppatt:
+	?a began under ?b
+		?a: The molt to the white winter pelage
+		?b: a longer photoperiod in females
+	?a than in males
+		?a: The molt to the white winter pelage
+
+
+label:    sent_22
+sentence: Insulin-regulated growth of the prothoracic glands appears to play a critical role in timing the last larval molt , and hence metamorphosis .
+
+ppatt:
+	?a appears to play ?b
+		?a: Insulin-regulated growth of the prothoracic glands
+		?b: a critical role
+	?a timing ?b
+		?a: Insulin-regulated growth of the prothoracic glands
+		?b: the last larval molt
+
+
+label:    sent_23
+sentence: Castration advanced molt and hair follicle activity , whereas testosterone implants delayed both molt and hair growth .
+
+ppatt:
+
+
+
+label:    sent_24
+sentence: Clinical signs included delayed molt ; uniform , diffuse contour feather loss over the entire body ; and excessive fat deposition over the legs and ventral portion of the abdomen .
+
+ppatt:
+	?a included ?b
+		?a: Clinical signs
+		?b: delayed molt ; uniform
+	?a included ?b
+		?a: Clinical signs
+		?b: excessive fat deposition over the legs and ventral portion of the abdomen
+
+
+label:    sent_25
+sentence: Small 5th instar pseudoparasitized hosts , which normally would molt to a 6th instar prior to metamorphosis , but which precociously attained the prepupal stage , also had a strongly reduced ecdysteroid titer .
+
+ppatt:
+	?a normally would molt to ?b prior to ?c
+		?a: Small 5th instar pseudoparasitized hosts
+		?b: a 6th instar
+		?c: metamorphosis
+	?a precociously attained ?b
+		?a: which
+		?b: the prepupal stage
+	?a also had ?b
+		?a: Small 5th instar pseudoparasitized hosts , which normally would molt to a 6th instar prior to metamorphosis , but which precociously attained the prepupal stage
+		?b: a strongly reduced ecdysteroid titer
+
+
+label:    sent_26
+sentence: The larvae molt into fourth stage larvae ( L4 ) , and at each stage they produce L3-excretory-secretory products ( L3-ESP ) and L4-ESP , respectively , which are different in their main protein constituents .
+
+ppatt:
+	?a is/are L4
+		?a: fourth stage larvae
+	?a is/are L4
+		?a: each stage
+	?a ?b produce ?c respectively
+		?a: The larvae molt into fourth stage larvae , and at each stage
+		?b: they
+		?c: L3-excretory-secretory products , which are different in their main protein constituents
+	?a ?b produce ?c respectively
+		?a: The larvae molt into fourth stage larvae , and at each stage
+		?b: they
+		?c: L4-ESP
+	?a is/are L3-ESP
+		?a: L3-excretory-secretory products , which are different in their main protein constituents
+	?a is/are L3-ESP
+		?a: L4-ESP
+	?a are different in ?b
+		?a: L3-excretory-secretory products
+		?b: their main protein constituents
+	?a are different in ?b
+		?a: L4-ESP
+		?b: their main protein constituents
+
+
+label:    sent_27
+sentence: They molt frequently and resorb cuticular CaCO ( 3 ) before the molt to prevent excessive loss of Ca ( 2+ ) ions when the old cuticle is shed .
+
+ppatt:
+	?a molt frequently ?b before ?c to prevent ?d
+		?a: They
+		?b: cuticular CaCO
+		?c: the molt
+		?d: excessive loss of Ca ( 2+ ) ions
+	?a resorb
+		?a: They
+	?a is/are 3
+		?a: cuticular CaCO
+	when ?a is shed
+		?a: the old cuticle
+
+
+label:    sent_28
+sentence: The quantitative and qualitative variations of ecdysteroid in the different situations ( male or female , normal or inhibited cycles ) are presented in relation to apolysis , epidermic activity , ecdysis , and secondary vitellogenesis in females , emphasizing the importance not only of ecdysteroids , but also of the MI-ME X-organ in monitoring molt and blood preparation in mysids .
+
+ppatt:
+	?a are presented in ?b , emphasizing ?c
+		?a: The quantitative and qualitative variations of ecdysteroid in the different situations
+		?b: relation to apolysis , epidermic activity , ecdysis , and secondary vitellogenesis in females
+		?c: the importance not only of ecdysteroids , but also of the MI-ME X-organ in monitoring molt and blood preparation in mysids
+	?a monitoring ?b
+		?a: the importance not only of ecdysteroids , but also of the MI-ME X-organ
+		?b: molt in mysids
+	?a monitoring ?b
+		?a: the importance not only of ecdysteroids , but also of the MI-ME X-organ
+		?b: blood preparation
+
+
+label:    sent_29
+sentence: We investigated post-juvenal molt and premigratory fattening in free-ranging juvenile White-crowned Sparrows ( Zonotrichia leucophrys gambelii ) on the Arctic tundra .
+
+ppatt:
+	?a investigated ?b
+		?a: We
+		?b: post-juvenal molt in free-ranging juvenile White-crowned Sparrows on the Arctic tundra
+	?a investigated ?b
+		?a: We
+		?b: premigratory fattening
+	?a is/are Zonotrichia leucophrys gambelii
+		?a: free-ranging juvenile White-crowned Sparrows
+
+
+label:    sent_30
+sentence: Interestingly , no matter which instar was parasitized , the parasitoid did not molt to the 3rd instar until the 4th instar host had reached a depth of about 0.23 mm ( Stage 4-5 ) and had initiated the nymphal-adult molt and adult development .
+
+ppatt:
+	?a ?b was parasitized
+		?a: no matter
+		?b: instar
+	Interestingly ?a , ?b did not molt to ?c
+		?a: no matter which instar was parasitized
+		?b: the parasitoid
+		?c: the 3rd instar
+	until ?a had reached ?b
+		?a: the 4th instar host
+		?b: a depth of about 0.23 mm
+	?a is/are Stage 4-5
+		?a: about 0.23 mm
+	until ?a had initiated ?b
+		?a: the 4th instar host
+		?b: the nymphal-adult molt
+	until ?a had initiated ?b
+		?a: the 4th instar host
+		?b: adult development
+
+

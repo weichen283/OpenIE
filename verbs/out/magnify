@@ -1,0 +1,203 @@
+label:    sent_1
+sentence: Perceived intent motivates people to magnify observed harms .
+
+ppatt:
+	?a motivates ?b to magnify ?c
+		?a: Perceived intent
+		?b: people
+		?c: observed harms
+
+
+label:    sent_2
+sentence: Besides these states , increasing age may independently influence and magnify LA changes .
+
+ppatt:
+	Besides ?a , ?b may independently influence ?c
+		?a: these states
+		?b: increasing age
+		?c: LA changes
+	?a magnify
+		?a: increasing age
+
+
+label:    sent_3
+sentence: Further GA is applied to magnify the detected border .
+
+ppatt:
+	?a is applied to magnify ?b
+		?a: Further GA
+		?b: the detected border
+
+
+label:    sent_4
+sentence: Rationally designed cooperatively enhanced receptors to magnify host-guest binding in water .
+
+ppatt:
+	?a magnify ?b
+		?a: Rationally designed cooperatively enhanced receptors
+		?b: host-guest binding in water
+
+
+label:    sent_5
+sentence: Malnutrition of protein , calories , and micronutrients can magnify the immunosuppression of HIV .
+
+ppatt:
+	?a can magnify ?b
+		?a: Malnutrition of protein , calories , and micronutrients
+		?b: the immunosuppression of HIV
+
+
+label:    sent_6
+sentence: Reputational priors magnify striatal responses to violations of trust . Problems in one area can impact and magnify symptoms in another domain .
+
+ppatt:
+	?a magnify ?b to ?c
+		?a: Reputational priors
+		?b: striatal responses
+		?c: violations of trust
+	?a can impact ?b
+		?a: Problems in one area
+		?b: symptoms in another domain
+	?a magnify
+		?a: Problems in one area
+
+
+label:    sent_7
+sentence: Suggestions to magnify positive emergence in extreme conditions and to improve quality are provided .
+
+ppatt:
+	?a magnify ?b
+		?a: Suggestions
+		?b: positive emergence in extreme conditions
+	?a improve ?b
+		?a: Suggestions
+		?b: quality
+	?a are provided
+		?a: Suggestions to magnify positive emergence in extreme conditions and to improve quality
+
+
+label:    sent_8
+sentence: Genetic factors may moderate or magnify these risks . Reward associations magnify memory-based biases on perception .
+
+ppatt:
+	?a may moderate ?b
+		?a: Genetic factors
+		?b: these risks
+	?a magnify
+		?a: Genetic factors
+	?a magnify ?b on ?c
+		?a: Reward associations
+		?b: memory-based biases
+		?c: perception
+
+
+label:    sent_9
+sentence: DMs might magnify the motion by their acentric , atelomeric or small circular nature .
+
+ppatt:
+	?a might magnify ?b
+		?a: DMs
+		?b: the motion by their acentric , atelomeric or small circular nature
+
+
+label:    sent_10
+sentence: In transplant recipients , treatment with calcineurin antagonists would magnify these effects .
+
+ppatt:
+	In ?a , ?b would magnify ?c
+		?a: transplant recipients
+		?b: treatment with calcineurin antagonists
+		?c: these effects
+
+
+label:    sent_11
+sentence: Hospitalization can magnify age-related physiologic changes and increase morbidity .
+
+ppatt:
+	?a can magnify ?b
+		?a: Hospitalization
+		?b: age-related physiologic changes
+	?a increase ?b
+		?a: Hospitalization
+		?b: morbidity
+
+
+label:    sent_12
+sentence: Therefore , alpha-adrenergic mechanisms could possibly be manipulated to magnify training effects in neurorehabilitation .
+
+ppatt:
+	Therefore , ?a could possibly be manipulated to magnify ?b
+		?a: alpha-adrenergic mechanisms
+		?b: training effects in neurorehabilitation
+
+
+label:    sent_13
+sentence: An odds ratio appears to magnify an effect compared with a risk ratio .
+
+ppatt:
+	?a appears to magnify ?b
+		?a: An odds ratio
+		?b: an effect
+	?a compared with a risk ratio
+		?a: An odds ratio
+
+
+label:    sent_14
+sentence: The electrical stimulation of the hippocampus acts to magnify or accelerate this phenomenon .
+
+ppatt:
+	?a acts to magnify ?b
+		?a: The electrical stimulation of the hippocampus
+		?b: this phenomenon
+	?a acts to accelerate
+		?a: The electrical stimulation of the hippocampus
+
+
+label:    sent_15
+sentence: Increasing the antigen dose tended to magnify and prolong the tolerance .
+
+ppatt:
+	Increasing ?a
+		?a: the antigen dose
+	?a tended to magnify ?b
+		?a: SOMETHING := Increasing the antigen dose
+		?b: the tolerance
+	?a tended to prolong
+		?a: SOMETHING := Increasing the antigen dose
+
+
+label:    sent_16
+sentence: Colposcopy use started in 1994 to magnify and take pictures .
+
+ppatt:
+	?a started in ?b to magnify ?c
+		?a: Colposcopy use
+		?b: 1994
+		?c: pictures
+	?a started to take
+		?a: Colposcopy use
+
+
+label:    sent_17
+sentence: Need for cognition can magnify or attenuate priming effects in social judgment .
+
+ppatt:
+	?a can magnify ?b in ?c
+		?a: Need for cognition
+		?b: priming effects
+		?c: social judgment
+	?a attenuate
+		?a: Need for cognition
+
+
+label:    sent_18
+sentence: These responses may magnify or mitigate the adverse effects of crises on population health .
+
+ppatt:
+	?a may magnify ?b
+		?a: These responses
+		?b: the adverse effects of crises on population health
+	?a mitigate
+		?a: These responses
+
+

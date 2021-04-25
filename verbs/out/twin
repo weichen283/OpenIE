@@ -1,0 +1,52 @@
+label:    sent_1
+sentence: Impact of screw elements on continuous granulation with a twin-screw extruder .
+
+ppatt:
+
+
+
+label:    sent_2
+sentence: The 4 extrusion treatments included the following : 1 ) FP0 , ground , nonextruded ; 2 ) FP1 , single-screw extruded ; 3 ) FP2 , twin-screw extruded with low intensity ( screw speed 120 rpm ; die temperature 110 degrees C ; water input 5 kg/h ) ; and 4 ) FP3 , twin-screw extruded with high intensity ( 300 rpm ; 125 degrees C ; 11 kg/h ) .
+
+ppatt:
+	?a included ?b
+		?a: The 4 extrusion treatments
+		?b: following
+	?a is/are nonextruded
+		?a: the : FP0 , extruded , extruded with low intensity
+	?a is/are nonextruded
+		?a: ground
+	?a is/are nonextruded
+		?a: FP1
+	?a is/are nonextruded
+		?a: FP2
+	?a is/are nonextruded
+		?a: twin-screw
+	?a is/are nonextruded
+		?a: FP3 extruded with high intensity
+	?a is/are single-screw
+		?a: the : FP0 , extruded , extruded with low intensity
+	?a is/are single-screw
+		?a: ground
+	?a is/are single-screw
+		?a: FP1
+	?a is/are single-screw
+		?a: FP2
+	?a is/are single-screw
+		?a: twin-screw
+	?a is/are single-screw
+		?a: FP3 extruded with high intensity
+	?a is/are twin-screw
+		?a: FP3 extruded with high intensity
+	?a extruded with ?b
+		?a: FP3
+		?b: high intensity
+
+
+label:    sent_3
+sentence: Comparison of two twin-screw extruders for continuous granulation .
+
+ppatt:
+
+
+

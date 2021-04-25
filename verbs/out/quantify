@@ -1,0 +1,296 @@
+label:    sent_1
+sentence: Ruminal content was sampled five times during the trial to quantify ruminal protozoa .
+
+ppatt:
+	?a was sampled ?b during ?c to quantify ?d
+		?a: Ruminal content
+		?b: five times
+		?c: the trial
+		?d: ruminal protozoa
+
+
+label:    sent_2
+sentence: There are insufficient data at present to quantify this effect .
+
+ppatt:
+	There are ?a to quantify ?b
+		?a: insufficient data
+		?b: this effect
+
+
+label:    sent_3
+sentence: The field of proteomics strives to observe and quantify this protein diversity .
+
+ppatt:
+	?a strives to observe ?b
+		?a: The field of proteomics
+		?b: this protein diversity
+	?a strives to quantify
+		?a: The field of proteomics
+
+
+label:    sent_4
+sentence: An optical experimental method to accurately quantify agent concentration in agarose is presented .
+
+ppatt:
+	?a accurately quantify ?b
+		?a: An optical experimental method
+		?b: agent concentration in agarose
+	?a is presented
+		?a: An optical experimental method to accurately quantify agent concentration in agarose
+
+
+label:    sent_5
+sentence: Double serum samples were analyzed to quantify IgM and IgG to parvovirus B19 .
+
+ppatt:
+	?a were analyzed to quantify ?b
+		?a: Double serum samples
+		?b: IgM to parvovirus B19
+	?a were analyzed to quantify ?b
+		?a: Double serum samples
+		?b: IgG
+
+
+label:    sent_6
+sentence: A scoring system was used to quantify changes in the TCR repertoire over time .
+
+ppatt:
+	?a was used to quantify ?b over ?c
+		?a: A scoring system
+		?b: changes in the TCR repertoire
+		?c: time
+
+
+label:    sent_7
+sentence: Methods have emerged to accurately quantify excess risk and identify space-time disparities .
+
+ppatt:
+	?a have emerged to accurately quantify ?b
+		?a: Methods
+		?b: excess risk
+	?a have emerged to identify ?b
+		?a: Methods
+		?b: space-time disparities
+
+
+label:    sent_8
+sentence: To quantify calcium loss and improve understanding of calcium homeostasis in CVVHD-F .
+
+ppatt:
+	quantify ?a
+		?a: calcium loss
+	improve ?a
+		?a: understanding of calcium homeostasis in CVVHD-F
+
+
+label:    sent_9
+sentence: To quantify external contamination of methotrexate vials and alert about occupational health hazards .
+
+ppatt:
+	quantify ?a
+		?a: external contamination of methotrexate vials
+	alert about ?a
+		?a: occupational health hazards
+
+
+label:    sent_10
+sentence: Functionalized quantum dots to quantify NADPH and their use for NADP +-dependent biocatalyzed transformations .
+
+ppatt:
+	?a quantify ?b
+		?a: Functionalized quantum dots
+		?b: NADPH
+	quantify ?a ?b
+		?a: NADPH
+		?b: their use for NADP +-dependent biocatalyzed transformations
+
+
+label:    sent_11
+sentence: The method does not quantify any of the sample components . Metal-enhanced fluorescence to quantify bacterial adhesion .
+
+ppatt:
+	?a does not quantify ?b to quantify ?c
+		?a: The method
+		?b: any of the sample components . Metal-enhanced fluorescence
+		?c: bacterial adhesion
+
+
+label:    sent_12
+sentence: This enabled us to quantify them in hair samples within average therapeutic concentration ranges .
+
+ppatt:
+	?a enabled ?b to quantify ?c in ?d within ?e
+		?a: This
+		?b: us
+		?c: them
+		?d: hair samples
+		?e: average therapeutic concentration ranges
+
+
+label:    sent_13
+sentence: Performance characteristics of a methodology to quantify adverse events over time in hospitalized patients .
+
+ppatt:
+	?a quantify ?b over ?c
+		?a: a methodology
+		?b: adverse events
+		?c: time in hospitalized patients
+
+
+label:    sent_14
+sentence: Fluorescence imaging to quantify the fluorescent microspheres in cardiac tissue .
+
+ppatt:
+	?a quantify ?b
+		?a: Fluorescence imaging
+		?b: the fluorescent microspheres in cardiac tissue
+
+
+label:    sent_15
+sentence: BrainNetVis : an open-access tool to effectively quantify and visualize brain networks .
+
+ppatt:
+	?a effectively quantify ?b
+		?a: an open-access tool
+		?b: brain networks
+	visualize ?a
+		?a: brain networks
+
+
+label:    sent_16
+sentence: Here , we use a novel image analysis method to quantify and categorise invasion .
+
+ppatt:
+	Here , ?a use ?b
+		?a: we
+		?b: a novel image analysis method
+	?a quantify ?b
+		?a: we
+		?b: invasion
+	?a categorise
+		?a: we
+
+
+label:    sent_17
+sentence: We conducted a systematic review to quantify and examine the discrepancies .
+
+ppatt:
+	?a conducted ?b
+		?a: We
+		?b: a systematic review to quantify and examine the discrepancies
+	?a quantify ?b
+		?a: a systematic review
+		?b: the discrepancies
+	examine ?a
+		?a: the discrepancies
+
+
+label:    sent_18
+sentence: A method to sequence and quantify DNA integration for monitoring outcome in gene therapy .
+
+ppatt:
+	quantify ?a for ?b
+		?a: DNA integration
+		?b: monitoring outcome in gene therapy
+
+
+label:    sent_19
+sentence: Identify and quantify GAGs in placental of pregnant women in healthy pregnancy and PE .
+
+ppatt:
+	Identify ?a
+		?a: GAGs in placental of pregnant women in healthy pregnancy and PE
+	quantify ?a
+		?a: GAGs in placental of pregnant women in healthy pregnancy and PE
+
+
+label:    sent_20
+sentence: To quantify the oral cutaneous fistulae after surgery and to identify possible risk factors .
+
+ppatt:
+	quantify ?a
+		?a: the oral cutaneous fistulae after surgery
+	identify ?a
+		?a: possible risk factors
+
+
+label:    sent_21
+sentence: Velocity vector imaging to quantify ventricular dyssynchrony and predict response to cardiac resynchronization therapy .
+
+ppatt:
+	?a quantify ?b
+		?a: Velocity vector imaging
+		?b: ventricular dyssynchrony
+	predict ?a
+		?a: response to cardiac resynchronization therapy
+
+
+label:    sent_22
+sentence: Antiretroviral hair levels objectively quantify drug exposure over time and predict virologic responses . qMSP quantify methylation levels and have high sensitivity and specificity .
+
+ppatt:
+	?a objectively quantify ?b over ?c
+		?a: Antiretroviral hair levels
+		?b: drug exposure
+		?c: time
+	?a predict ?b
+		?a: Antiretroviral hair levels
+		?b: virologic responses
+	?a quantify ?b
+		?a: qMSP
+		?b: methylation levels
+	?a have ?b
+		?a: qMSP
+		?b: high sensitivity
+	?a have ?b
+		?a: qMSP
+		?b: specificity
+
+
+label:    sent_23
+sentence: Electron backscattered diffraction as a tool to quantify subgrains in deformed calcite .
+
+ppatt:
+	?a backscattered ?b as ?c
+		?a: Electron
+		?b: diffraction
+		?c: a tool to quantify subgrains in deformed calcite
+	?a quantify ?b
+		?a: a tool
+		?b: subgrains in deformed calcite
+
+
+label:    sent_24
+sentence: Moreover , TBI is difficult to quantify with conventional imaging modalities .
+
+ppatt:
+	Moreover , ?a is difficult to quantify with ?b
+		?a: TBI
+		?b: conventional imaging modalities
+
+
+label:    sent_25
+sentence: Further studies are needed to identify and quantify the unidentified organofluorines in seawater .
+
+ppatt:
+	?a are needed to identify ?b
+		?a: Further studies
+		?b: the unidentified organofluorines in seawater
+	?a are needed to quantify
+		?a: Further studies
+
+
+label:    sent_26
+sentence: With dynamic examinations , we can quantify the data and assess hip stability .
+
+ppatt:
+	With ?a , ?b can quantify ?c
+		?a: dynamic examinations
+		?b: we
+		?c: the data
+	?a assess ?b
+		?a: we
+		?b: hip stability
+
+

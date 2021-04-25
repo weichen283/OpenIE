@@ -1,0 +1,334 @@
+label:    sent_1
+sentence: Excessive nutrients addition was found to inhibit bioremediation .
+
+ppatt:
+	?a was found to inhibit ?b
+		?a: Excessive nutrients addition
+		?b: bioremediation
+
+
+label:    sent_2
+sentence: Recently , bortezomib was shown to directly inhibit osteoclastogenesis .
+
+ppatt:
+	Recently , ?a was shown to directly inhibit ?b
+		?a: bortezomib
+		?b: osteoclastogenesis
+
+
+label:    sent_3
+sentence: Sorafenib is known to inhibit Raf . Ginseng polysaccharides could inhibit residual malaria infection . UL54-specific siRNA can inhibit HSV-II replication , while protecting host cells .
+
+ppatt:
+	?a is known to inhibit ?b ?c
+		?a: Sorafenib
+		?b: Raf
+		?c: SOMETHING := Ginseng polysaccharides could inhibit residual malaria infection
+	?a could inhibit ?b
+		?a: Ginseng polysaccharides
+		?b: residual malaria infection
+	?a can inhibit ?b
+		?a: UL54-specific siRNA
+		?b: HSV-II replication
+	?a protecting ?b
+		?a: UL54-specific siRNA
+		?b: host cells
+
+
+label:    sent_4
+sentence: Bilirubin can inhibit the TLR4 expression of CBNC in a dose-dependent manner .
+
+ppatt:
+	?a can inhibit ?b in ?c
+		?a: Bilirubin
+		?b: the TLR4 expression of CBNC
+		?c: a dose-dependent manner
+
+
+label:    sent_5
+sentence: Erythromycin could inhibit the proliferation of SH-SY5Y cells in a concentration- and time-dependent manner .
+
+ppatt:
+	?a could inhibit ?b in ?c
+		?a: Erythromycin
+		?b: the proliferation of SH-SY5Y cells
+		?c: a concentration- and time-dependent manner
+
+
+label:    sent_6
+sentence: The results showed that PCP and TCP may inhibit steroidogenesis by disrupting cAMP signaling .
+
+ppatt:
+	?a showed ?b
+		?a: The results
+		?b: SOMETHING := PCP and TCP may inhibit steroidogenesis by disrupting cAMP signaling
+	?a may inhibit ?b
+		?a: PCP
+		?b: steroidogenesis
+	?a may inhibit ?b
+		?a: TCP
+		?b: steroidogenesis
+	?a disrupting ?b
+		?a: PCP
+		?b: cAMP signaling
+	?a disrupting ?b
+		?a: TCP
+		?b: cAMP signaling
+
+
+label:    sent_7
+sentence: Bisphosphonates ( BPs ) inhibit bone resorption by preventing osteoclast maturation and apoptosis induction .
+
+ppatt:
+	?a is/are BPs
+		?a: Bisphosphonates
+	?a inhibit ?b
+		?a: Bisphosphonates
+		?b: bone resorption
+	?a preventing ?b
+		?a: Bisphosphonates
+		?b: osteoclast maturation
+	?a preventing ?b
+		?a: Bisphosphonates
+		?b: apoptosis induction
+
+
+label:    sent_8
+sentence: Hu23C3 could also inhibit monocyte migration in response to osteopontin in vitro .
+
+ppatt:
+	?a could also inhibit ?b in ?c to ?d in vitro
+		?a: Hu23C3
+		?b: monocyte migration
+		?c: response
+		?d: osteopontin
+
+
+label:    sent_9
+sentence: PAC-14028 could inhibit capsaicin-evoked calcium influx in keratinocytes at sub-micromolar concentrations .
+
+ppatt:
+	?a could inhibit ?b at ?c
+		?a: PAC-14028
+		?b: capsaicin-evoked calcium influx in keratinocytes
+		?c: sub-micromolar concentrations
+
+
+label:    sent_10
+sentence: Maraviroc is able to inhibit dual-R5 viruses in a dual/mixed HIV-1-infected patient .
+
+ppatt:
+	?a is able to inhibit ?b in ?c
+		?a: Maraviroc
+		?b: dual-R5 viruses
+		?c: a dual/mixed HIV-1-infected patient
+
+
+label:    sent_11
+sentence: Ectopic overexpression of miR-451 could significantly inhibit growth and induce apoptosis of A549 cells .
+
+ppatt:
+	?a could significantly inhibit ?b
+		?a: Ectopic overexpression of miR-451
+		?b: growth
+	?a induce ?b
+		?a: Ectopic overexpression of miR-451
+		?b: apoptosis of A549 cells
+
+
+label:    sent_12
+sentence: The surfactin can inhibit proliferation and induce apoptosis in cancer cells .
+
+ppatt:
+	?a can inhibit ?b
+		?a: The surfactin
+		?b: proliferation
+	?a induce ?b
+		?a: The surfactin
+		?b: apoptosis in cancer cells
+
+
+label:    sent_13
+sentence: Chitosan derivatives inhibit cell proliferation and induce apoptosis in breast cancer cells .
+
+ppatt:
+	?a inhibit ?b
+		?a: Chitosan derivatives
+		?b: cell proliferation
+	?a induce ?b
+		?a: Chitosan derivatives
+		?b: apoptosis in breast cancer cells
+
+
+label:    sent_14
+sentence: L. jensenii produced less acidification and did not inhibit N. gonorrhoeae . Haplotypes V and VII are stably expressed and inhibit HIV-1 replication .
+
+ppatt:
+	?a produced ?b
+		?a: L. jensenii
+		?b: less acidification
+	?a did not inhibit ?b
+		?a: L. jensenii
+		?b: N. gonorrhoeae
+	?a are stably expressed
+		?a: Haplotypes
+	?a inhibit ?b
+		?a: Haplotypes
+		?b: HIV-1 replication
+
+
+label:    sent_15
+sentence: These proteins are present in the cytoplasm of mammalian cells and inhibit retroviral replication .
+
+ppatt:
+	?a are present in ?b
+		?a: These proteins
+		?b: the cytoplasm of mammalian cells
+	?a inhibit ?b
+		?a: These proteins
+		?b: retroviral replication
+
+
+label:    sent_16
+sentence: As a result , bisphosphonates inhibit tumor-induced osteolysis and reduce skeletal morbidity .
+
+ppatt:
+	As ?a , ?b inhibit ?c
+		?a: a result
+		?b: bisphosphonates
+		?c: tumor-induced osteolysis
+	?a reduce ?b
+		?a: bisphosphonates
+		?b: skeletal morbidity
+
+
+label:    sent_17
+sentence: In cultured murine melanoma cells , retinoids inhibit proliferation and induce differentiation .
+
+ppatt:
+	In ?a , ?b inhibit ?c
+		?a: cultured murine melanoma cells
+		?b: retinoids
+		?c: proliferation
+	?a induce ?b
+		?a: retinoids
+		?b: differentiation
+
+
+label:    sent_18
+sentence: E2 did not inhibit the elevation of TK and Act activities by TP injection . wt region and could inhibit rosette formation by both FcRI and FcRII .
+
+ppatt:
+	?a did not inhibit ?b ?c
+		?a: E2
+		?b: the elevation of TK
+		?c: by TP injection . wt region
+	?a Act ?b
+		?a: E2
+		?b: activities
+	?a could inhibit ?b by ?c
+		?a: E2
+		?b: rosette formation
+		?c: FcRI
+	?a could inhibit ?b by ?c
+		?a: E2
+		?b: rosette formation
+		?c: FcRII
+
+
+label:    sent_19
+sentence: Glutamine generally increases 2-oxoglutarate uptake , but under certain conditions may inhibit uptake .
+
+ppatt:
+	?a generally increases ?b
+		?a: Glutamine
+		?b: 2-oxoglutarate uptake
+	?a under ?b may inhibit ?c
+		?a: Glutamine
+		?b: certain conditions
+		?c: uptake
+
+
+label:    sent_20
+sentence: Radiation therapy appears to inhibit healing in both experimental animals and during clinical trials .
+
+ppatt:
+	?a appears to inhibit ?b in ?c
+		?a: Radiation therapy
+		?b: healing
+		?c: experimental animals
+	?a appears to inhibit ?b in ?c
+		?a: Radiation therapy
+		?b: healing
+		?c: clinical trials
+
+
+label:    sent_21
+sentence: The principal effect of ulipristal acetate is to inhibit or delay ovulation .
+
+ppatt:
+	?a is to inhibit ?b
+		?a: The principal effect of ulipristal acetate
+		?b: ovulation
+	?a is to delay
+		?a: The principal effect of ulipristal acetate
+
+
+label:    sent_22
+sentence: Glutathione monoester appears to inhibit or reduce the development of plaque formation in mice .
+
+ppatt:
+	?a appears to inhibit ?b
+		?a: Glutathione monoester
+		?b: the development of plaque formation in mice
+	?a appears to reduce
+		?a: Glutathione monoester
+
+
+label:    sent_23
+sentence: Strikingly , chlamydial infection has been reported both to inhibit and to induce apoptosis .
+
+ppatt:
+	Strikingly , ?a has been reported ?b to inhibit
+		?a: chlamydial infection
+		?b: both
+	Strikingly , ?a has been reported to to induce ?b
+		?a: chlamydial infection
+		?b: apoptosis
+
+
+label:    sent_24
+sentence: Therefore , the identification of new antimicrobials that inhibit or destroy biofilms is needed .
+
+ppatt:
+	?a inhibit ?b
+		?a: new antimicrobials
+		?b: biofilms
+	?a destroy
+		?a: that
+	Therefore , ?a is needed
+		?a: the identification of new antimicrobials that inhibit or destroy biofilms
+
+
+label:    sent_25
+sentence: They may inhibit or activate cellular function , such as cytotoxicity and cytokine production .
+
+ppatt:
+	?a may inhibit ?b
+		?a: They
+		?b: cellular function , such as cytotoxicity and cytokine production
+	?a activate
+		?a: They
+
+
+label:    sent_26
+sentence: Alterations in stromal tissue components can inhibit or promote epithelial tumorigenesis .
+
+ppatt:
+	?a can inhibit ?b
+		?a: Alterations in stromal tissue components
+		?b: epithelial tumorigenesis
+	?a promote
+		?a: Alterations in stromal tissue components
+
+

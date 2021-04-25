@@ -1,0 +1,288 @@
+label:    sent_1
+sentence: L-ascorbic acid producing yeasts learn from plants how to recycle it . In order to recycle bottom ash , treatment is therefore required .
+
+ppatt:
+	?a learn from ?b how to recycle ?c
+		?a: L-ascorbic acid producing yeasts
+		?b: plants
+		?c: it
+	?a order to recycle ?b
+		?a: L-ascorbic acid producing yeasts
+		?b: bottom ash
+	?a is therefore required
+		?a: treatment
+
+
+label:    sent_2
+sentence: Estimation of future outflows and infrastructure needed to recycle personal computer systems in California .
+
+ppatt:
+	?a needed to recycle ?b in ?c
+		?a: future outflows
+		?b: personal computer systems
+		?c: California
+	?a needed to recycle ?b in ?c
+		?a: infrastructure
+		?b: personal computer systems
+		?c: California
+
+
+label:    sent_3
+sentence: These observations prompted the idea that Golgi enzymes constitutively recycle through the ER .
+
+ppatt:
+	?a prompted ?b
+		?a: These observations
+		?b: the idea that Golgi enzymes constitutively recycle through the ER
+	?a constitutively recycle through ?b
+		?a: Golgi enzymes
+		?b: the ER
+
+
+label:    sent_4
+sentence: During iron uptake the transferrin and its receptor recycle at least each 19 min .
+
+ppatt:
+	During ?a ?b recycle ?c
+		?a: iron uptake
+		?b: the transferrin
+		?c: at least each 19 min
+	During ?a ?b recycle ?c
+		?a: iron uptake
+		?b: its receptor
+		?c: at least each 19 min
+
+
+label:    sent_5
+sentence: Pacemaker recycle from repolarization artifact .
+
+ppatt:
+	?a recycle from ?b
+		?a: Pacemaker
+		?b: repolarization artifact
+
+
+label:    sent_6
+sentence: Klebsiella uses reverse transsulfurylation to recycle methionine to cysteine during periods of sulfate starvation .
+
+ppatt:
+	?a uses ?b to recycle ?c to ?d during ?e
+		?a: Klebsiella
+		?b: reverse transsulfurylation
+		?c: methionine
+		?d: cysteine
+		?e: periods of sulfate starvation
+
+
+label:    sent_7
+sentence: Stationary phase lipophagy as a cellular mechanism to recycle sterols during quiescence .
+
+ppatt:
+	?a recycle ?b during ?c
+		?a: a cellular mechanism
+		?b: sterols
+		?c: quiescence
+
+
+label:    sent_8
+sentence: A facile strategy to recycle template P123 from mesoporous aluminosilicates by ultrasonic extraction .
+
+ppatt:
+	?a recycle ?b from ?c by ?d
+		?a: A facile strategy
+		?b: template P123
+		?c: mesoporous aluminosilicates
+		?d: ultrasonic extraction
+
+
+label:    sent_9
+sentence: Pleiomorphic carriers containing SV proteins travel and recycle along the axon in developing neurons . N-formyl peptide receptors internalize but do not recycle in the absence of arrestins . Coalitions develop in and recycle through stages .
+
+ppatt:
+	?a containing ?b
+		?a: Pleiomorphic carriers
+		?b: SV proteins
+	?a travel
+		?a: Pleiomorphic carriers containing SV proteins
+	?a recycle along ?b
+		?a: Pleiomorphic carriers containing SV proteins
+		?b: the axon in developing neurons
+	?a internalize
+		?a: N-formyl peptide receptors
+	?a do not recycle of ?b
+		?a: N-formyl peptide receptors
+		?b: arrestins
+	?a develop ?b
+		?a: Coalitions
+		?b: in
+	?a recycle through ?b
+		?a: Coalitions
+		?b: stages
+
+
+label:    sent_10
+sentence: Hippocampal neurons recycle BDNF for activity-dependent secretion and LTP maintenance .
+
+ppatt:
+	?a recycle ?b for ?c
+		?a: Hippocampal neurons
+		?b: BDNF
+		?c: activity-dependent secretion
+	?a recycle ?b for ?c
+		?a: Hippocampal neurons
+		?b: BDNF
+		?c: LTP maintenance
+
+
+label:    sent_11
+sentence: Here we provide evidence that hippocampal neurons additionally recycle BDNF for activity-dependent secretion .
+
+ppatt:
+	Here ?a provide ?b
+		?a: we
+		?b: evidence that hippocampal neurons additionally recycle BDNF for activity-dependent secretion
+	?a additionally recycle ?b for ?c
+		?a: hippocampal neurons
+		?b: BDNF
+		?c: activity-dependent secretion
+
+
+label:    sent_12
+sentence: Semi-automated peak trapping recycle chromatography instrument for peak purity investigations .
+
+ppatt:
+	?a recycle ?b for ?c
+		?a: Semi-automated peak trapping
+		?b: chromatography instrument
+		?c: peak purity investigations
+
+
+label:    sent_13
+sentence: Autophagy is a conserved cellular process to degrade and recycle cytoplasmic components .
+
+ppatt:
+	?a is a conserved cellular process
+		?a: Autophagy
+	?a degrade ?b
+		?a: a conserved cellular process
+		?b: cytoplasmic components
+	?a recycle
+		?a: Autophagy
+
+
+label:    sent_14
+sentence: Autophagy is a catabolic process employed by eukaryotes to degrade and recycle intracellular components .
+
+ppatt:
+	?a is a catabolic process
+		?a: Autophagy
+	?a employed by ?b to degrade ?c
+		?a: a catabolic process
+		?b: eukaryotes
+		?c: intracellular components
+	employed to recycle ?a
+		?a: intracellular components
+
+
+label:    sent_15
+sentence: Autophagy is a cytoprotective pathway used to degrade and recycle cytoplasmic content .
+
+ppatt:
+	?a is a cytoprotective pathway
+		?a: Autophagy
+	?a used to degrade ?b
+		?a: a cytoprotective pathway
+		?b: cytoplasmic content
+	used to recycle ?a
+		?a: cytoplasmic content
+
+
+label:    sent_16
+sentence: Such variation occurs because houses can recycle air very quickly in Bangladesh .
+
+ppatt:
+	?a occurs
+		?a: Such variation
+	?a can recycle ?b very quickly in ?c
+		?a: houses
+		?b: air
+		?c: Bangladesh
+
+
+label:    sent_17
+sentence: The other bands recycle 10-20 times before being degraded .
+
+ppatt:
+	?a recycle ?b
+		?a: The other bands
+		?b: 10-20 times
+	?a being degraded
+		?a: The other bands
+
+
+label:    sent_18
+sentence: To maintain communication , neurons must recycle their synaptic vesicles with high efficiency .
+
+ppatt:
+	maintain ?a ?b
+		?a: communication
+		?b: neurons
+	?a must recycle ?b with ?c
+		?a: neurons
+		?b: their synaptic vesicles
+		?c: high efficiency
+
+
+label:    sent_19
+sentence: Should we recycle more than our plastic ? Does the D-galactose receptor on Kupffer cells recycle ? Limitations due to cofactors have been overcome by co-encapsulating enzymes which recycle needed cofactors .
+
+ppatt:
+	Should ?a recycle ?b ?c
+		?a: we
+		?b: more than
+		?c: our plastic
+	Does ?a
+		?a: the D-galactose receptor
+	on ?a recycle
+		?a: Kupffer cells
+	?a have been overcome
+		?a: Limitations due to cofactors
+	?a co-encapsulating ?b
+		?a: Limitations due to cofactors
+		?b: enzymes which recycle needed cofactors
+	?a recycle ?b
+		?a: enzymes
+		?b: needed cofactors
+
+
+label:    sent_20
+sentence: Reduce , reuse , and recycle : developmental evolution of trait diversification .
+
+ppatt:
+
+
+
+label:    sent_21
+sentence: Currently , techniques are being developed to recycle and treat source-separated urine .
+
+ppatt:
+	Currently , ?a are being developed to recycle ?b
+		?a: techniques
+		?b: source-separated urine
+	Currently , ?a are being developed to treat
+		?a: techniques
+
+
+label:    sent_22
+sentence: Researchers are trying to reclaim , recycle and replenish it .
+
+ppatt:
+	?a are trying to reclaim
+		?a: Researchers
+	?a are trying to recycle
+		?a: Researchers
+	?a are trying to replenish ?b
+		?a: Researchers
+		?b: it
+
+

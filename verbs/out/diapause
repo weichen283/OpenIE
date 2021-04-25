@@ -1,0 +1,19 @@
+label:    sent_1
+sentence: We conclude that polyamine deprivation brought about a reversible rearrest of embryo development , which returned the mink embryo to diapause and induced a second delay in embryo implantation .
+
+ppatt:
+	?a conclude ?b
+		?a: We
+		?b: SOMETHING := polyamine deprivation brought about a reversible rearrest of embryo development , which returned the mink embryo to diapause and induced a second delay in embryo implantation
+	?a brought about ?b
+		?a: polyamine deprivation
+		?b: a reversible rearrest of embryo development , which returned the mink embryo to diapause and induced a second delay in embryo implantation
+	?a returned ?b to ?c
+		?a: a reversible rearrest of embryo development
+		?b: the mink embryo
+		?c: diapause
+	?a induced ?b
+		?a: which
+		?b: a second delay in embryo implantation
+
+

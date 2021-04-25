@@ -1,0 +1,296 @@
+label:    sent_1
+sentence: Their general role is to cleave integral membrane proteins to release signalling molecules .
+
+ppatt:
+	?a is to cleave ?b to release ?c
+		?a: Their general role
+		?b: integral membrane proteins
+		?c: signalling molecules
+
+
+label:    sent_2
+sentence: One of the metalloproteases shown to cleave proHB-EGF is ADAM17 ( TACE ) . We showed that MASP-1 was able to cleave HK resulting in BK production .
+
+ppatt:
+	?a shown to cleave ?b
+		?a: the metalloproteases
+		?b: proHB-EGF
+	?a is ADAM17
+		?a: One of the metalloproteases shown to cleave proHB-EGF
+	?a is/are TACE
+		?a: ADAM17
+	?a ?b showed ?c
+		?a: One of the metalloproteases shown to cleave proHB-EGF
+		?b: We
+		?c: SOMETHING := MASP-1 was able to cleave HK resulting in BK production
+	?a was able to cleave ?b
+		?a: MASP-1
+		?b: HK resulting in BK production
+	?a resulting in ?b
+		?a: HK
+		?b: BK production
+
+
+label:    sent_3
+sentence: Caspases cleave several cellular proteins to execute cell death by apoptosis .
+
+ppatt:
+	?a cleave ?b to execute ?c by ?d
+		?a: Caspases
+		?b: several cellular proteins
+		?c: cell death
+		?d: apoptosis
+
+
+label:    sent_4
+sentence: We show that the SOFA-HDV ribozymes cleave their RNA target in vitro .
+
+ppatt:
+	?a show ?b
+		?a: We
+		?b: SOMETHING := the SOFA-HDV ribozymes cleave their RNA target in vitro
+	?a cleave ?b in vitro
+		?a: the SOFA-HDV ribozymes
+		?b: their RNA target
+
+
+label:    sent_5
+sentence: The chondroitinases are bacterial lyases that specifically cleave chondroitin sulfate and/or dermatan sulfate glycosaminoglycans .
+
+ppatt:
+	?a are bacterial lyases
+		?a: The chondroitinases
+	?a specifically cleave ?b
+		?a: bacterial lyases
+		?b: chondroitin sulfate
+	?a specifically cleave ?b
+		?a: bacterial lyases
+		?b: dermatan sulfate glycosaminoglycans
+
+
+label:    sent_6
+sentence: Bleomycin is known to cleave DNA perferentially at certain sequences . All MMPs were able to cleave fibronectin at neutral pH .
+
+ppatt:
+	?a is known to cleave ?b perferentially at ?c
+		?a: Bleomycin
+		?b: DNA
+		?c: certain sequences
+	?a were able to cleave ?b at ?c
+		?a: All MMPs
+		?b: fibronectin
+		?c: neutral pH
+
+
+label:    sent_7
+sentence: Signal peptidase functions to cleave signal peptides from preproteins at the cell membrane . BoNTs cleave proteins and peptide mimics at specific sites .
+
+ppatt:
+	?a cleave ?b
+		?a: Signal peptidase functions
+		?b: signal peptides from preproteins at the cell membrane
+	?a ?b cleave ?c
+		?a: Signal peptidase functions to cleave signal peptides from preproteins at the cell membrane
+		?b: BoNTs
+		?c: proteins
+	?a ?b cleave ?c
+		?a: Signal peptidase functions to cleave signal peptides from preproteins at the cell membrane
+		?b: BoNTs
+		?c: peptide
+	?a mimics at ?b
+		?a: Signal peptidase functions to cleave signal peptides from preproteins at the cell membrane
+		?b: specific sites
+
+
+label:    sent_8
+sentence: Both families of enzymes cleave aggrecan at specific sites within the aggrecan core protein .
+
+ppatt:
+	?a cleave ?b at ?c
+		?a: Both families of enzymes
+		?b: aggrecan
+		?c: specific sites within the aggrecan core protein
+
+
+label:    sent_9
+sentence: C39 domains are thiol-dependent peptidases that cleave their substrates after a GG motif .
+
+ppatt:
+	?a are thiol-dependent peptidases
+		?a: C39 domains
+	?a cleave ?b after ?c
+		?a: thiol-dependent peptidases
+		?b: their substrates
+		?c: a GG motif
+
+
+label:    sent_10
+sentence: FRET evidence that an isoform of caspase-7 binds but does not cleave its substrate . MASP-2 of the lectin pathway can autoactivate and cleave C4 and C2 components .
+
+ppatt:
+	?a binds
+		?a: an isoform of caspase-7
+	?a does not cleave ?b
+		?a: an isoform of caspase-7
+		?b: its substrate
+	?a ?b can autoactivate ?c
+		?a: FRET evidence that an isoform of caspase-7 binds but does not cleave its substrate
+		?b: MASP-2 of the lectin pathway
+		?c: C4
+	?a ?b can autoactivate ?c
+		?a: FRET evidence that an isoform of caspase-7 binds but does not cleave its substrate
+		?b: MASP-2 of the lectin pathway
+		?c: C2
+	?a cleave
+		?a: FRET evidence that an isoform of caspase-7 binds but does not cleave its substrate
+
+
+label:    sent_11
+sentence: Hydrogen fluoride was used to deprotect and cleave the peptide from the resin . MASP-2 could also cleave HK but could not release BK .
+
+ppatt:
+	?a was used to deprotect ?b
+		?a: Hydrogen fluoride
+		?b: the peptide from the resin
+	?a was used to cleave
+		?a: Hydrogen fluoride
+	?a could also cleave ?b
+		?a: MASP-2
+		?b: HK
+	?a could not release ?b
+		?a: MASP-2
+		?b: BK
+
+
+label:    sent_12
+sentence: Calf chymosin and human renin cleave the same bond , but only very slowly .
+
+ppatt:
+	?a cleave ?b
+		?a: Calf chymosin
+		?b: the same bond
+	?a cleave ?b
+		?a: human renin
+		?b: the same bond
+
+
+label:    sent_13
+sentence: The glucosyltransferases from oral streptococci cleave sucrose and polymerize the glucose moieties .
+
+ppatt:
+	?a cleave ?b
+		?a: The glucosyltransferases from oral streptococci
+		?b: sucrose
+	?a polymerize ?b
+		?a: The glucosyltransferases from oral streptococci
+		?b: the glucose moieties
+
+
+label:    sent_14
+sentence: Chromosome analysis of human oocytes failing to cleave after insemination in vitro .
+
+ppatt:
+	?a failing to cleave after ?b in vitro
+		?a: human oocytes
+		?b: insemination
+
+
+label:    sent_15
+sentence: SHFV PLP1gamma is able to cleave at both downstream and upstream nsp1 junction sites .
+
+ppatt:
+	?a is able to cleave ?b
+		?a: SHFV PLP1gamma
+		?b: at both downstream and upstream nsp1 junction sites
+
+
+label:    sent_16
+sentence: These animals continue to cleave dSREBP in some tissues . Alkyl olefins cleave in moderate to good yield for di- and tri-substituted alkenes .
+
+ppatt:
+	?a continue to cleave ?b in ?c
+		?a: These animals
+		?b: dSREBP
+		?c: some tissues
+	?a cleave in ?b ?c
+		?a: Alkyl olefins
+		?b: moderate
+		?c: to good yield for di- and tri-substituted alkenes
+
+
+label:    sent_17
+sentence: Pinnae initials first cleave in two planes to generate lateral marginal initials . DNAzymes cleave at predetermined sequences within RNA .
+
+ppatt:
+	?a first cleave in ?b to generate ?c
+		?a: Pinnae initials
+		?b: two planes
+		?c: lateral marginal initials
+	?a cleave at ?b
+		?a: DNAzymes
+		?b: predetermined sequences within RNA
+
+
+label:    sent_18
+sentence: In cells , enzymes cleave the protecting groups and release the parent drug . Leader peptidase will cleave procoat either during translation or after protein synthesis is complete .
+
+ppatt:
+	In ?a , ?b cleave ?c
+		?a: cells
+		?b: enzymes
+		?c: the protecting groups
+	?a release ?b
+		?a: enzymes
+		?b: the parent drug
+	?a will cleave ?b during ?c
+		?a: Leader peptidase
+		?b: procoat
+		?c: translation
+	?a will cleave ?b during ?c
+		?a: Leader peptidase
+		?b: procoat
+		?c: protein synthesis
+
+
+label:    sent_19
+sentence: During apoptosis , endonucleases cleave DNA into 50-300-kb fragments and subsequently into internucleosomal fragments .
+
+ppatt:
+	During ?a , ?b cleave ?c into ?d
+		?a: apoptosis
+		?b: endonucleases
+		?c: DNA
+		?d: 50-300-kb fragments
+	During ?a , ?b cleave ?c into ?d
+		?a: apoptosis
+		?b: endonucleases
+		?c: DNA
+		?d: subsequently internucleosomal fragments
+
+
+label:    sent_20
+sentence: The enzyme did not cleave sucrose 6'-phosphate ( D-glucopyranosyl-1-alpha-beta-2-D-fructofuranoside-6'-phosphate ) . Ready , set , cleave : proteases in action .
+
+ppatt:
+	?a did not cleave ?b ?c
+		?a: The enzyme
+		?b: sucrose 6'-phosphate
+		?c: set
+	?a is/are D-glucopyranosyl-1-alpha-beta-2-D-fructofuranoside-6'-phosphate
+		?a: sucrose 6'-phosphate
+	?a cleave ?b
+		?a: The enzyme
+		?b: proteases in action
+
+
+label:    sent_21
+sentence: Botulinum-as well as Tetanus toxins are proteases which cleave neuronal SNARE-proteins .
+
+ppatt:
+	Botulinum-as well as ?a are proteases
+		?a: Tetanus toxins
+	?a cleave ?b
+		?a: Botulinum-as well as proteases
+		?b: neuronal SNARE-proteins
+
+

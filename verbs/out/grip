@@ -1,0 +1,193 @@
+label:    sent_1
+sentence: The understanding of functions of cells within microbial populations or communities is certainly needed for existing and novel cytomic approaches which grip the individual scale .
+
+ppatt:
+	?a is certainly needed for ?b
+		?a: The understanding of functions of cells within microbial populations or communities
+		?b: existing and novel cytomic approaches which grip the individual scale
+	?a grip ?b
+		?a: existing and novel cytomic approaches
+		?b: the individual scale
+
+
+label:    sent_2
+sentence: Two externally imposed economic pressures that grip the health care industry are on a collision course : tightening reimbursement and exploding costs of malpractice litigation and insurance .
+
+ppatt:
+	?a grip
+		?a: Two externally imposed economic pressures
+	?a are on a collision course
+		?a: Two externally imposed economic pressures that grip
+
+
+label:    sent_3
+sentence: The results indicate that standing bus passengers should grip the fixtures , such as a stanchion , with their right hand when they are standing on the right side in a bus facing the windows .
+
+ppatt:
+	?a indicate ?b
+		?a: The results
+		?b: SOMETHING := that standing bus passengers should grip the fixtures , such as a stanchion , with their right hand when they are standing on the right side in a bus facing the windows
+	?a should grip ?b , with ?c
+		?a: standing bus passengers
+		?b: the fixtures , such as a stanchion
+		?c: their right hand
+	when ?a are standing on ?b in ?c
+		?a: they
+		?b: the right side
+		?c: a bus facing the windows
+	?a facing ?b
+		?a: a bus
+		?b: the windows
+
+
+label:    sent_4
+sentence: We used an overtube to insert the scope further in order to avoid forming redundant loops in the small intestine , and two balloons to grip the intestinal wall .
+
+ppatt:
+	?a used ?b
+		?a: We
+		?b: an overtube
+	?a insert ?b further
+		?a: We
+		?b: the scope
+	?a order to avoid forming ?b
+		?a: We
+		?b: redundant loops in the small intestine
+	?a order to avoid forming ?b
+		?a: We
+		?b: two balloons to grip the intestinal wall
+
+
+label:    sent_5
+sentence: When birds squat on a perch to sleep , the increased tendon travel distance due to flexion of the knee and ankle supposedly causes the toes to grip the perch ( ADFM ) and engage the DTLM so perching while sleeping involves no muscular effort .
+
+ppatt:
+	When birds squat on ?a ?b
+		?a: a perch to sleep
+		?b: the increased tendon travel distance due to flexion of knee and ankle
+	?a supposedly causes ?b to ?c
+		?a: the increased tendon travel distance due to flexion of knee and ankle
+		?b: the toes
+		?c: grip
+	?a is/are ADFM
+		?a: the perch
+	?a engage ?b so perching
+		?a: the increased tendon travel distance due to flexion of knee and ankle
+		?b: the DTLM
+	?a involves ?b
+		?a: sleeping
+		?b: no muscular effort
+
+
+label:    sent_6
+sentence: The sports shoe for youths should grip the heel and support the longitudinal arch to prevent an incorrect weight distribution .
+
+ppatt:
+	?a should grip ?b
+		?a: The sports
+		?b: the heel
+	?a support ?b to prevent ?c
+		?a: The sports
+		?b: the longitudinal arch
+		?c: an incorrect weight distribution
+
+
+label:    sent_7
+sentence: However , neither infant nor adult monkeys could grip food by using thumb and forefinger independently of the other fingers .
+
+ppatt:
+	However , ?a could grip food
+		?a: infant
+	However , ?a could grip food
+		?a: adult
+	?a using ?b
+		?a: infant
+		?b: thumb
+	?a using ?b
+		?a: adult
+		?b: thumb
+	?a forefinger independently of ?b
+		?a: infant
+		?b: the other fingers
+	?a forefinger independently of ?b
+		?a: adult
+		?b: the other fingers
+
+
+label:    sent_8
+sentence: In this end-effector embodiment , the distal end of a single articulating arm can grip needles and instruments and allows a fairly high number of degrees of freedom of movement during the complex motions associated with positioning and driving needles , as well as the periodic motions associated with breathing patterns .
+
+ppatt:
+	In ?a , ?b can grip needles
+		?a: this end-effector embodiment
+		?b: the distal end of a single articulating arm
+	?a instruments
+		?a: the distal end of a single articulating arm
+	?a allows ?b
+		?a: the distal end of a single articulating arm
+		?b: a fairly high number of degrees of freedom of movement during the complex motions associated with positioning and driving needles , as well as the periodic motions associated with breathing patterns
+	?a associated with ?b
+		?a: the complex motions
+		?b: positioning
+	associated with ?a ?b
+		?a: positioning
+		?b: the periodic motions associated with breathing patterns
+	?a associated with ?b
+		?a: the complex motions
+		?b: driving
+	associated with ?a ?b
+		?a: driving
+		?b: the periodic motions associated with breathing patterns
+	?a associated with ?b
+		?a: the complex motions
+		?b: needles
+	associated with ?a ?b
+		?a: needles
+		?b: the periodic motions associated with breathing patterns
+	?a associated with ?b
+		?a: the periodic motions
+		?b: breathing patterns
+
+
+label:    sent_9
+sentence: During this task subjects grip a specialized grip rod and have to increase the pull force linearly while the rod is locked .
+
+ppatt:
+	?a a specialized grip rod
+		?a: During this task subjects grip
+	?a have to increase ?b linearly
+		?a: During this task subjects grip
+		?b: the pull force
+	?a is locked
+		?a: the rod
+
+
+label:    sent_10
+sentence: This procedure of osteosynthesis is a good method in comminuted fractures as well as osteoporotic bone , in which the screws grip badly .
+
+ppatt:
+	?a is a good method in ?b
+		?a: This procedure of osteosynthesis
+		?b: comminuted fractures , in which the screws grip badly
+	?a is a good method in ?b
+		?a: This procedure of osteosynthesis
+		?b: osteoporotic bone
+	?a in the screws grip badly
+		?a: comminuted fractures
+	?a in the screws grip badly
+		?a: osteoporotic bone
+
+
+label:    sent_11
+sentence: Following conventional denture construction , paired cobalt / samarium magnets in a special configuration are cured into the denture base so that with the denture inserted , the magnets grip the root elements with a retentive force of approximately 300 g per root .
+
+ppatt:
+	Following ?a , ?b are cured into ?c so with ?d
+		?a: conventional denture construction
+		?b: paired cobalt / samarium magnets in a special configuration
+		?c: the denture base
+		?d: the denture inserted
+	?a inserted
+		?a: the denture
+
+

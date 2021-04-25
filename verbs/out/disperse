@@ -1,0 +1,298 @@
+label:    sent_1
+sentence: Many species disperse during their lifetime .
+
+ppatt:
+	?a disperse during ?b
+		?a: Many species
+		?b: their lifetime
+
+
+label:    sent_2
+sentence: Freshwater invertebrates often disperse between discrete habitat patches via the production of dormant propagules .
+
+ppatt:
+	?a often disperse between ?b via ?c
+		?a: Freshwater invertebrates
+		?b: discrete habitat patches
+		?c: the production of dormant propagules
+
+
+label:    sent_3
+sentence: In the wild , male rhesus macaques disperse at sexual maturity . Distilled water proved to be an adequate vehicle to disperse Biosilicate ( R ) . Ultrasonication is often used to disperse nano-particles in aqueous solution .
+
+ppatt:
+	In ?a , ?b disperse at ?c
+		?a: the wild
+		?b: male rhesus macaques
+		?c: sexual maturity
+	?a proved to be an adequate vehicle
+		?a: Distilled water
+	?a disperse ?b
+		?a: an adequate vehicle
+		?b: Biosilicate
+	?a is/are R
+		?a: Biosilicate
+	?a ?b is often used to disperse ?c
+		?a: Distilled water proved to be an adequate vehicle to disperse Biosilicate
+		?b: Ultrasonication
+		?c: nano-particles in aqueous solution
+
+
+label:    sent_4
+sentence: Many biological factors contribute to disperse the larvae on the pasture . Ae. aegypti , however , showed low tendency to disperse into the forest .
+
+ppatt:
+	?a contribute to disperse ?b on ?c
+		?a: Many biological factors
+		?b: the larvae
+		?c: the pasture . Ae. aegypti
+	?a however , showed ?b
+		?a: Many biological factors
+		?b: low tendency to disperse into the forest
+	?a disperse into ?b
+		?a: low tendency
+		?b: the forest
+
+
+label:    sent_5
+sentence: The retrograde pulse was observed to disperse at a rate greater than the anterograde .
+
+ppatt:
+	?a was observed to disperse at ?b
+		?a: The retrograde pulse
+		?b: a rate greater than the anterograde
+
+
+label:    sent_6
+sentence: Paramecia detect and accumulate in or disperse from some chemicals .
+
+ppatt:
+	?a detect ?b
+		?a: Paramecia
+		?b: in
+	?a accumulate
+		?a: Paramecia
+	?a disperse from ?b
+		?a: Paramecia
+		?b: some chemicals
+
+
+label:    sent_7
+sentence: Mechanisms to more widely disperse this information through publication warrant further evaluation .
+
+ppatt:
+	?a more widely disperse ?b through ?c
+		?a: Mechanisms
+		?b: this information
+		?c: publication
+	?a warrant ?b
+		?a: Mechanisms to more widely disperse this information through publication
+		?b: further evaluation
+
+
+label:    sent_8
+sentence: The enzyme collagenase was used to disperse human lung into its component cells .
+
+ppatt:
+	?a was used to disperse ?b into ?c
+		?a: The enzyme collagenase
+		?b: human lung
+		?c: its component cells
+
+
+label:    sent_9
+sentence: Pigment-dispersing hormone ( PDH ) acts to disperse pigments within the chromatophores of crustaceans .
+
+ppatt:
+	?a is/are PDH
+		?a: Pigment-dispersing hormone
+	?a acts to disperse ?b within ?c
+		?a: Pigment-dispersing hormone
+		?b: pigments
+		?c: the chromatophores of crustaceans
+
+
+label:    sent_10
+sentence: In reality , individuals disperse and interact on complex networks .
+
+ppatt:
+	In ?a , ?b disperse on ?c
+		?a: reality
+		?b: individuals
+		?c: complex networks
+	?a interact
+		?a: individuals
+
+
+label:    sent_11
+sentence: Below gamma approximately 20 microns , Ca2+ waves disperse and fail to propagate .
+
+ppatt:
+	Below ?a ?b , ?c disperse
+		?a: gamma
+		?b: approximately 20 microns
+		?c: Ca2+ waves
+	?a fail to propagate
+		?a: Ca2+ waves
+
+
+label:    sent_12
+sentence: Endocytosed vesicles rapidly disperse through the terminal and are reused with no apparent delay .
+
+ppatt:
+	?a rapidly disperse through ?b
+		?a: Endocytosed vesicles
+		?b: the terminal
+	?a are reused with ?b
+		?a: Endocytosed vesicles
+		?b: no apparent delay
+
+
+label:    sent_13
+sentence: Dangerous liaisons disperse the Mediterranean dwarf palm : fleshy-pulp defensive role against seed predators .
+
+ppatt:
+	?a disperse ?b
+		?a: Dangerous liaisons
+		?b: the Mediterranean dwarf palm
+
+
+label:    sent_14
+sentence: Nocodazole , a microtubule inhibitor , did not disperse aggregates .
+
+ppatt:
+	?a is/are a microtubule inhibitor
+		?a: Nocodazole
+	?a did not disperse ?b
+		?a: Nocodazole
+		?b: aggregates
+
+
+label:    sent_15
+sentence: Results indicate that the Park administration 's strategy to disperse use in the Mt . If the hosts disperse , lower resistance evolves as transmission becomes more local .
+
+ppatt:
+	?a indicate ?b
+		?a: Results
+		?b: SOMETHING := the Park administration 's strategy to disperse use in the Mt If the hosts disperse , lower resistance evolves as transmission becomes more local
+	?a disperse ?b
+		?a: the Park administration 's strategy
+		?b: use in the Mt
+	?a disperse
+		?a: the hosts
+	?a evolves as ?b
+		?a: lower resistance
+		?b: transmission
+	?a becomes more local
+		?a: the Park administration 's strategy to disperse use in the Mt If the hosts disperse lower resistance evolves as transmission
+
+
+label:    sent_16
+sentence: Prairie dogs disperse when all close kin have disappeared .
+
+ppatt:
+	?a disperse
+		?a: Prairie dogs
+	when ?a have disappeared
+		?a: all close kin
+
+
+label:    sent_17
+sentence: The mutant initiates aggregation , but forms only loose cell mounds which later disperse .
+
+ppatt:
+	?a initiates ?b
+		?a: The mutant
+		?b: aggregation
+	?a forms ?b
+		?a: The mutant
+		?b: only loose cell mounds which later disperse
+	?a later disperse
+		?a: only loose cell mounds
+
+
+label:    sent_18
+sentence: These mutations are heterogeneous and disperse throughout the entire HPRT gene .
+
+ppatt:
+	?a are heterogeneous
+		?a: These mutations
+	?a disperse throughout ?b
+		?a: These mutations
+		?b: the entire HPRT gene
+
+
+label:    sent_19
+sentence: Olfactory sensilla then become highly motile and disperse beneath the epidermis .
+
+ppatt:
+	?a then become highly motile
+		?a: Olfactory sensilla
+	?a disperse beneath ?b
+		?a: Olfactory sensilla
+		?b: the epidermis
+
+
+label:    sent_20
+sentence: Some strains forage solitarily and disperse evenly on a bacterial lawn . Brassica plants normally disperse their seeds by a pod-shattering mechanism .
+
+ppatt:
+	?a ?b normally disperse ?c by ?d
+		?a: Some strains
+		?b: Brassica plants
+		?c: their seeds
+		?d: a pod-shattering mechanism
+
+
+label:    sent_21
+sentence: Also , rollers disperse seeds over larger distances .
+
+ppatt:
+	Also , ?a disperse ?b over ?c
+		?a: rollers
+		?b: seeds
+		?c: larger distances
+
+
+label:    sent_22
+sentence: Inducing cells to disperse nickel nanowires via integrin-mediated responses .
+
+ppatt:
+	Inducing ?a
+		?a: cells
+	disperse ?a via ?b
+		?a: nickel nanowires
+		?b: integrin-mediated responses
+
+
+label:    sent_23
+sentence: These weapons use radioactive materials to disperse and emit ionizing radiation .
+
+ppatt:
+	?a use ?b to disperse ?c
+		?a: These weapons
+		?b: radioactive materials
+		?c: ionizing radiation
+	?a use to emit
+		?a: These weapons
+
+
+label:    sent_24
+sentence: The process by which monolayers degrade or disperse remains unclear . During droughts , they can neither expand their tunnel systems nor disperse .
+
+ppatt:
+	?a by ?b degrade
+		?a: The process
+		?b: monolayers
+	?a disperse
+		?a: monolayers
+	?a remains unclear . During ?b
+		?a: The process by which monolayers degrade or disperse
+		?b: droughts
+	?a can neither expand ?b
+		?a: they
+		?b: their tunnel systems
+	?a disperse
+		?a: they
+
+

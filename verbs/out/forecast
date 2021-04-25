@@ -1,0 +1,224 @@
+label:    sent_1
+sentence: Moreover , we apply our model to forecast age-specific fertility rates up to 2016 .
+
+ppatt:
+	Moreover , ?a apply ?b
+		?a: we
+		?b: our model to forecast age-specific fertility rates up to 2016
+	?a forecast ?b
+		?a: our model
+		?b: age-specific fertility rates up to 2016
+
+
+label:    sent_2
+sentence: Estimates can be used to forecast resource requirements for hearing services among veterans .
+
+ppatt:
+	?a can be used to forecast ?b
+		?a: Estimates
+		?b: resource requirements for hearing services among veterans
+
+
+label:    sent_3
+sentence: This article presents a Bayesian approach to forecast mortality rates .
+
+ppatt:
+	?a presents ?b
+		?a: This article
+		?b: a Bayesian approach to forecast mortality rates
+	?a forecast ?b
+		?a: a Bayesian approach
+		?b: mortality rates
+
+
+label:    sent_4
+sentence: Going with the flow : using species-discharge relationships to forecast losses in fish biodiversity .
+
+ppatt:
+	Going with ?a
+		?a: the flow
+	using ?a
+		?a: species-discharge relationships to forecast losses in fish biodiversity
+	?a forecast ?b
+		?a: species-discharge relationships
+		?b: losses in fish biodiversity
+
+
+label:    sent_5
+sentence: An attempt is made to forecast future trends concerning age and sex distribution A linear regression model was used to forecast healing outcomes over a 12-month period .
+
+ppatt:
+	?a is made to forecast ?b
+		?a: An attempt
+		?b: future trends concerning age and sex
+	?a was used to forecast ?b over ?c
+		?a: distribution A linear regression model
+		?b: healing outcomes
+		?c: a 12-month period
+
+
+label:    sent_6
+sentence: These scenarios were based on an interlocking suite of models that forecast the future .
+
+ppatt:
+	?a were based on ?b
+		?a: These scenarios
+		?b: an interlocking suite of models that forecast the future
+	?a forecast ?b
+		?a: models
+		?b: the future
+
+
+label:    sent_7
+sentence: Therefore a serum level study to the first day may forecast the therapeutic response .
+
+ppatt:
+	Therefore ?a may forecast ?b
+		?a: a serum level study to the first day
+		?b: the therapeutic response
+
+
+label:    sent_8
+sentence: Rehabilitation counselors forecast their future . Embryos and biopsies on the ChIP-ing forecast .
+
+ppatt:
+	?a forecast ?b on ?c
+		?a: Rehabilitation counselors
+		?b: their future
+		?c: the ChIP-ing forecast
+	?a forecast ?b on ?c
+		?a: Rehabilitation counselors
+		?b: Embryos
+		?c: the ChIP-ing forecast
+
+
+label:    sent_9
+sentence: Health care forecast : adapt to changing environment .
+
+ppatt:
+
+
+
+label:    sent_10
+sentence: Hospital economic forecast .
+
+ppatt:
+
+
+
+label:    sent_11
+sentence: Pubertal timing at age 13 forecast risky sexual behavior at age 16 .
+
+ppatt:
+	?a forecast ?b
+		?a: Pubertal timing at age 13
+		?b: risky sexual behavior at age 16
+
+
+label:    sent_12
+sentence: Catecholamine levels and delay discounting forecast drug use among African American youths .
+
+ppatt:
+	?a forecast ?b
+		?a: Catecholamine levels
+		?b: drug use among African American youths
+	?a forecast ?b
+		?a: delay discounting
+		?b: drug use among African American youths
+
+
+label:    sent_13
+sentence: Can meteorological factors forecast asthma exacerbation in a paediatric population ? Gloomy pharma forecast in Japan downgraded after quake . Gloomy forecast on heart disease .
+
+ppatt:
+	Can ?a forecast ?b in ?c
+		?a: meteorological factors
+		?b: asthma exacerbation
+		?c: a paediatric population
+	?a forecast in ?b
+		?a: Gloomy pharma
+		?b: Japan downgraded after quake . Gloomy forecast on heart disease
+	?a downgraded after ?b ?c
+		?a: Japan
+		?b: quake
+		?c: Gloomy forecast on heart disease
+
+
+label:    sent_14
+sentence: [Study on the early liver metastasis forecast of colorectal neoplasms ] . Computing power to humble all rivals and forecast Earth 's future . Health policy forecast for '87 .
+
+ppatt:
+	?a Computing ?b to ?c
+		?a: the early liver metastasis forecast of colorectal neoplasms
+		?b: power
+		?c: humble all rivals
+	forecast ?a
+		?a: future
+	?a ?b forecast for ?c
+		?a: [Study on the early liver metastasis forecast of colorectal neoplasms . Computing power to humble all rivals and forecast future
+		?b: Earth 's . Health policy
+		?c: '87
+
+
+label:    sent_15
+sentence: Future brighter , but still no golden years forecast for Medicare . FDA 's forecast of emerging technologies .
+
+ppatt:
+	?a forecast for ?b ?c
+		?a: Future brighter
+		?b: Medicare
+		?c: FDA 's forecast of emerging technologies
+
+
+label:    sent_16
+sentence: Second , there was an inadequate capacity to forecast and procure medicines .
+
+ppatt:
+	Second , there was ?a
+		?a: an inadequate capacity to forecast and procure medicines
+	?a forecast ?b
+		?a: an inadequate capacity
+		?b: medicines
+	?a procure
+		?a: an inadequate capacity
+
+
+label:    sent_17
+sentence: Airborne pollen can be surveyed and forecast in order to warn the atopic population .
+
+ppatt:
+	?a can be surveyed
+		?a: Airborne pollen
+	?a forecast
+		?a: Airborne pollen
+	?a order to warn ?b
+		?a: Airborne pollen
+		?b: the atopic population
+
+
+label:    sent_18
+sentence: It is common to use the quantitative methods to forecast and warning the insecurity .
+
+ppatt:
+	?a is common to use ?b
+		?a: It
+		?b: the quantitative methods to forecast and warning the insecurity
+	?a forecast ?b
+		?a: the quantitative methods
+		?b: the insecurity
+	warning ?a
+		?a: the insecurity
+
+
+label:    sent_19
+sentence: Computational modeling could forecast the potential effects and guide policy making .
+
+ppatt:
+	?a could forecast ?b
+		?a: Computational modeling
+		?b: the potential effects
+	?a guide ?b
+		?a: Computational modeling
+		?b: policy making
+
+

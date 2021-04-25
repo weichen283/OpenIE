@@ -1,0 +1,128 @@
+label:    sent_1
+sentence: These electrodes are similar to carbon electrodes derived from pyrolyzed photoresist films but do not require spin-coating or lithography and can readily coat three-dimensional surfaces .
+
+ppatt:
+	?a are similar to ?b
+		?a: These electrodes
+		?b: carbon electrodes derived from pyrolyzed photoresist films
+	?a derived from ?b
+		?a: carbon electrodes
+		?b: pyrolyzed photoresist films
+	?a do not require ?b
+		?a: These electrodes
+		?b: spin-coating
+	?a do not require ?b
+		?a: These electrodes
+		?b: lithography
+	?a can readily coat ?b
+		?a: These electrodes
+		?b: three-dimensional surfaces
+
+
+label:    sent_2
+sentence: The main reason for decreasing the yields of HAAs as shown by scanning electron microscope ( SEM ) is that Fe ( OH ) ( 3 ( am ) ) or MnO ( 2 ( am ) ) coat the algal cells , which then improves their agglomeration of algal cells which is also revealed by the laser particle size analysis ( LPSA ) . The results revealed that POT1-N and POT1-TPP1 can completely coat long telomeric ssDNA substrates .
+
+ppatt:
+	?a decreasing ?b
+		?a: The main reason
+		?b: the yields of HAAs
+	?a shown
+		?a: The main reason
+	?a scanning ?b
+		?a: The main reason
+		?b: electron microscope
+	?a is/are SEM
+		?a: electron microscope
+	?a is ?b
+		?a: The main reason for decreasing the yields of HAAs as shown by scanning electron microscope
+		?b: SOMETHING := Fe or MnO 2 coat the algal cells , which then improves their agglomeration of algal cells which is also revealed by the laser particle size analysis
+	?a is/are OH
+		?a: Fe
+	?a is/are OH
+		?a: MnO 2
+	?a is/are 3 ( am
+		?a: Fe
+	?a is/are 3 ( am
+		?a: MnO 2
+	?a is/are am
+		?a: MnO 2
+	?a coat ?b
+		?a: Fe
+		?b: the algal cells , which then improves their agglomeration of algal cells which is also revealed by the laser particle size analysis
+	?a coat ?b
+		?a: MnO 2
+		?b: the algal cells , which then improves their agglomeration of algal cells which is also revealed by the laser particle size analysis
+	?a then improves ?b
+		?a: the algal cells
+		?b: their agglomeration of algal cells which is also revealed by the laser particle size analysis
+	?a is also revealed by ?b
+		?a: algal cells
+		?b: the laser particle size analysis
+	?a is/are LPSA
+		?a: the laser particle size analysis
+	?a revealed ?b
+		?a: The results
+		?b: SOMETHING := POT1-N and POT1-TPP1 can completely coat long telomeric ssDNA substrates
+	?a can completely coat ?b
+		?a: POT1-N
+		?b: long telomeric ssDNA substrates
+	?a can completely coat ?b
+		?a: POT1-TPP1
+		?b: long telomeric ssDNA substrates
+
+
+label:    sent_3
+sentence: Very small bubbles which partially coat the surface of particles influence whether or not heterocoagulation between a particle and a bubble occurs .
+
+ppatt:
+	?a partially coat ?b
+		?a: Very small bubbles
+		?b: the surface of particles
+	?a influence ?b
+		?a: Very small bubbles which partially coat the surface of particles
+		?b: SOMETHING := heterocoagulation between a particle and a bubble occurs
+	?a occurs
+		?a: heterocoagulation between a particle and a bubble
+
+
+label:    sent_4
+sentence: To give optimal electrochemical behavior for sensing , we coat the Ag nanotube with a layer of AgCl .
+
+ppatt:
+	give ?a ?b
+		?a: optimal electrochemical behavior for sensing
+		?b: we
+	?a coat ?b with ?c
+		?a: we
+		?b: the Ag nanotube
+		?c: a layer of AgCl
+
+
+label:    sent_5
+sentence: The budding and fission of vesicles during membrane trafficking requires many proteins , including those that coat the vesicles , adaptor proteins that recruit components of the coat , and small GTPases that initiate vesicle formation .
+
+ppatt:
+	?a requires ?b
+		?a: The budding of vesicles during membrane trafficking
+		?b: many proteins , including those that coat the vesicles , and small GTPases that initiate vesicle formation
+	?a requires ?b
+		?a: fission
+		?b: many proteins , including those that coat the vesicles , and small GTPases that initiate vesicle formation
+	?a coat ?b
+		?a: those
+		?b: the vesicles
+	?a coat ?b
+		?a: those
+		?b: small GTPases that initiate vesicle formation
+	?a is/are adaptor proteins
+		?a: the vesicles
+	?a is/are adaptor proteins
+		?a: small GTPases that initiate vesicle formation
+	?a recruit ?b
+		?a: adaptor proteins
+		?b: components of the coat
+	?a initiate ?b
+		?a: small GTPases
+		?b: vesicle formation
+
+

@@ -1,0 +1,180 @@
+label:    sent_1
+sentence: Different mite species occurring in animals may infest humans temporarily .
+
+ppatt:
+	?a occurring in ?b
+		?a: Different mite species
+		?b: animals
+	?a may infest ?b temporarily
+		?a: Different mite species occurring in animals
+		?b: humans
+
+
+label:    sent_2
+sentence: Infective metacercariae infest the definitive host when ingested together with the snail .
+
+ppatt:
+	?a infest ?b
+		?a: Infective metacercariae
+		?b: the definitive host
+	?a when ingested together with ?b
+		?a: Infective metacercariae
+		?b: the snail
+
+
+label:    sent_3
+sentence: Free-swimming males did not preferentially infest fish infected with female parasites over parasite-free fish . Among Anoplura , the family Echinophthiriidae includes those species that infest mainly the pinnipeds .
+
+ppatt:
+	?a did not preferentially infest ?b . Among ?c
+		?a: Free-swimming males
+		?b: fish infected with female parasites over parasite-free fish
+		?c: Anoplura
+	?a infected with ?b over ?c
+		?a: fish
+		?b: female parasites
+		?c: parasite-free fish
+	?a includes ?b
+		?a: the family Echinophthiriidae
+		?b: those species that infest mainly the pinnipeds
+	?a infest ?b
+		?a: those species
+		?b: mainly the pinnipeds
+
+
+label:    sent_4
+sentence: Microsporidians of the genus Parathelohania infest larvae of both male and female mosquitoes . Among Anoplura , the family Echinophthiriidae includes species that infest pinnipeds and otters .
+
+ppatt:
+	?a ?b includes ?c
+		?a: Microsporidians of the genus Parathelohania infest larvae of both male and female . Among Anoplura
+		?b: the family Echinophthiriidae
+		?c: species that infest pinnipeds and otters
+	?a infest ?b
+		?a: species
+		?b: pinnipeds
+	?a infest ?b
+		?a: species
+		?b: otters
+
+
+label:    sent_5
+sentence: Ticks commonly infest humans but rarely bite the eyes .
+
+ppatt:
+	?a commonly infest ?b
+		?a: Ticks
+		?b: humans
+	?a rarely bite ?b
+		?a: Ticks
+		?b: the eyes
+
+
+label:    sent_6
+sentence: They can infest anybody and do not discriminate between class or cleanliness .
+
+ppatt:
+	?a can infest ?b
+		?a: They
+		?b: anybody
+	?a do not discriminate between ?b
+		?a: They
+		?b: class
+	?a do not discriminate between ?b
+		?a: They
+		?b: cleanliness
+
+
+label:    sent_7
+sentence: Plant parasitic nematodes infest crops and present a threat to food security worldwide . For example , Ixodes ricinus can infest several hundred species of animals .
+
+ppatt:
+	?a infest ?b
+		?a: Plant parasitic nematodes
+		?b: crops
+	?a present ?b
+		?a: Plant parasitic nematodes
+		?b: a threat to food security worldwide
+	For ?a , ?b can infest ?c
+		?a: example
+		?b: Ixodes ricinus
+		?c: several hundred species of animals
+
+
+label:    sent_8
+sentence: The larvae infest potato tubers in the field as well as in storage facilities .
+
+ppatt:
+	?a infest ?b in ?c
+		?a: The larvae
+		?b: potato tubers
+		?c: the field
+	?a infest ?b in ?c
+		?a: The larvae
+		?b: potato tubers
+		?c: storage facilities
+
+
+label:    sent_9
+sentence: Over 50 species of ectoparasites infest cattle throughout the United States .
+
+ppatt:
+	Over ?a infest ?b throughout ?c
+		?a: 50 species of ectoparasites
+		?b: cattle
+		?c: the United States
+
+
+label:    sent_10
+sentence: Besides numerous species of mites occasionally infest man . Canine scabies is known to infest humans , as well .
+
+ppatt:
+	Besides ?a occasionally infest ?b ?c
+		?a: numerous species of mites
+		?b: man
+		?c: Canine scabies
+	?a is known to infest ?b , as well
+		?a: Canine scabies
+		?b: humans
+
+
+label:    sent_11
+sentence: The various ways in which mites may infest the human skin are discussed .
+
+ppatt:
+	?a in ?b may infest ?c
+		?a: The various ways
+		?b: mites
+		?c: the human skin
+	?a are discussed
+		?a: The various ways in which mites may infest the human skin
+
+
+label:    sent_12
+sentence: Phthiriasis palpebrarum is a rare disease in which crab lice infest the eyelashes .
+
+ppatt:
+	?a is a rare disease
+		?a: Phthiriasis palpebrarum
+	?a in ?b infest ?c
+		?a: a rare disease
+		?b: crab lice
+		?c: the eyelashes
+
+
+label:    sent_13
+sentence: Phthiriasis palpebrarum is an ectoparasitosis in which Phthirus pubis infest the eyelashes . sp. , is given to six haplotypes that infest A. cerana on mainland Asia .
+
+ppatt:
+	?a is an ectoparasitosis
+		?a: Phthiriasis palpebrarum
+	?a in ?b is given to ?c
+		?a: an ectoparasitosis
+		?b: Phthirus pubis infest the eyelashes . sp.
+		?c: six haplotypes that infest A. cerana on mainland Asia
+	?a infest ?b on ?c
+		?a: six haplotypes
+		?b: A. cerana
+		?c: mainland Asia
+
+

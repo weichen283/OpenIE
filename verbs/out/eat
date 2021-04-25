@@ -1,0 +1,298 @@
+label:    sent_1
+sentence: He refused to eat other types of food .
+
+ppatt:
+	?a refused to eat ?b
+		?a: He
+		?b: other types of food
+
+
+label:    sent_2
+sentence: Heart failure risk is lower in women who regularly eat modest amounts of chocolate .
+
+ppatt:
+	?a is lower in ?b
+		?a: Heart failure risk
+		?b: women who regularly eat modest amounts of chocolate
+	?a regularly eat ?b
+		?a: women
+		?b: modest amounts of chocolate
+
+
+label:    sent_3
+sentence: The physically active persons seem to eat more but not necessarily healthier food .
+
+ppatt:
+	?a seem to eat ?b ?c
+		?a: The physically active persons
+		?b: more
+		?c: necessarily healthier food
+
+
+label:    sent_4
+sentence: While watching , they could freely eat crisps and chocolate coated peanuts .
+
+ppatt:
+	watching ?a
+		?a: they
+	?a could freely eat ?b
+		?a: they
+		?b: crisps
+	?a could freely eat ?b
+		?a: they
+		?b: chocolate coated peanuts
+
+
+label:    sent_5
+sentence: What helps children eat well ? A qualitative exploration of resilience among disadvantaged families .
+
+ppatt:
+	?a helps ?b
+		?a: What
+		?b: children
+	?a eat well ?b
+		?a: SOMETHING := What helps children
+		?b: A qualitative exploration of resilience among disadvantaged families
+
+
+label:    sent_6
+sentence: Low-protein diets for hepatic encephalopathy debunked : let them eat steak .
+
+ppatt:
+	?a debunked
+		?a: Low-protein diets for hepatic encephalopathy
+	?a eat ?b
+		?a: let them
+		?b: steak
+
+
+label:    sent_7
+sentence: Nurses were in progressive about clarifying why patients did not eat . Online prenatal nutrition education : helping pregnant women eat healthfully using MyPyramid.gov .
+
+ppatt:
+	?a were in progressive
+		?a: Nurses
+	?a clarifying ?b
+		?a: Nurses
+		?b: SOMETHING := why patients did not eat . Online prenatal nutrition education
+	why ?a did not eat ?b
+		?a: patients
+		?b: Online prenatal nutrition education
+	?a eat healthfully using ?b
+		?a: pregnant women
+		?b: MyPyramid.gov
+
+
+label:    sent_8
+sentence: Obesity as an addiction : Why do the obese eat more ? Would students prefer to eat healthier foods at school ? Seven young healthy men were asked to eat 900 g soybeans during 1 week .
+
+ppatt:
+	Why do ?a eat more
+		?a: the obese
+	eat ?a at ?b
+		?a: healthier foods
+		?b: school
+	?a were asked to eat ?b during ?c
+		?a: Seven young healthy men
+		?b: 900 g soybeans
+		?c: 1 week
+
+
+label:    sent_9
+sentence: Rats prefer energy-rich foods over chow and eat them to excess .
+
+ppatt:
+	?a prefer ?b over ?c
+		?a: Rats
+		?b: energy-rich foods
+		?c: chow
+	?a eat ?b to ?c
+		?a: Rats
+		?b: them
+		?c: excess
+
+
+label:    sent_10
+sentence: Eleven cats without a feeding tube were able to eat within 24 hours .
+
+ppatt:
+	?a were able to eat within ?b
+		?a: Eleven cats without a feeding tube
+		?b: 24 hours
+
+
+label:    sent_11
+sentence: Eventually , the patient recovered and was able to eat by muscle rehabilitation .
+
+ppatt:
+	Eventually , ?a recovered
+		?a: the patient
+	eat by ?a
+		?a: muscle rehabilitation
+
+
+label:    sent_12
+sentence: How to encourage nursing home residents to eat in the dining room . FDA warns US consumers not to eat spinach after E coli outbreak .
+
+ppatt:
+	How to encourage ?a ?b
+		?a: nursing home residents
+		?b: FDA
+	eat in ?a ?b
+		?a: the dining room
+		?b: FDA
+	?a warns ?b
+		?a: FDA
+		?b: US consumers not to eat spinach after E coli outbreak
+	?a not to eat ?b after ?c
+		?a: US consumers
+		?b: spinach
+		?c: E coli outbreak
+
+
+label:    sent_13
+sentence: They eat water mold off infected toad clutches , increasing their hatching success . [ Children 's health .
+
+ppatt:
+	?a eat ?b off ?c
+		?a: They
+		?b: water mold
+		?c: infected toad clutches
+	?a increasing ?b 's ?c
+		?a: They
+		?b: their hatching success
+		?c: Children health
+
+
+label:    sent_14
+sentence: Most children relate health to what we eat ] . To eat or not to eat pork , how frequently and how varied ? You can n't have your cake and eat it too . Patients could chew better and eat more tough foods .
+
+ppatt:
+	?a relate ?b
+		?a: Most children
+		?b: health to what we eat ] To eat or not to eat pork how frequently
+	?a to ?b ?c eat ?d To eat
+		?a: health
+		?b: what
+		?c: we
+		?d: ]
+	?a eat To not to eat ?b how frequently
+		?a: we
+		?b: pork
+	how varied ?a
+		?a: You
+	?a can n't have ?b
+		?a: You
+		?b: your cake
+	?a eat ?b too
+		?a: You
+		?b: it
+	?a could chew better
+		?a: Patients
+	?a eat ?b
+		?a: Patients
+		?b: more tough foods
+
+
+label:    sent_15
+sentence: Then participants could eat from a buffet before viewing a parallel picture set .
+
+ppatt:
+	Then ?a could eat from ?b
+		?a: participants
+		?b: a buffet
+	?a viewing ?b
+		?a: participants
+		?b: a parallel picture set
+
+
+label:    sent_16
+sentence: In rural Niger people often harvest or buy wild plant foods to eat .
+
+ppatt:
+	In ?a often harvest ?b to eat
+		?a: rural Niger people
+		?b: wild plant foods
+	In ?a buy
+		?a: rural Niger people
+
+
+label:    sent_17
+sentence: Obese rats eat more than lean rats especially during the dark phase .
+
+ppatt:
+	?a eat ?b ?c especially during ?d
+		?a: Obese rats
+		?b: more than
+		?c: rats
+		?d: the dark phase
+	?a eat ?b ?c especially during ?d
+		?a: Obese rats
+		?b: lean
+		?c: rats
+		?d: the dark phase
+
+
+label:    sent_18
+sentence: Editorial opinion : JCAH must eat its words or enforce them .
+
+ppatt:
+	enforce ?a
+		?a: them
+
+
+label:    sent_19
+sentence: The cardiac anomalies were corrected , and he could eat unrestricted diets .
+
+ppatt:
+	?a were corrected
+		?a: The cardiac anomalies
+	?a could eat ?b
+		?a: he
+		?b: unrestricted diets
+
+
+label:    sent_20
+sentence: Six of these could eat 3 meals per day and enjoyed an unrestricted diet .
+
+ppatt:
+	?a could eat ?b per ?c
+		?a: Six of these
+		?b: 3 meals
+		?c: day
+	?a enjoyed ?b
+		?a: Six of these
+		?b: an unrestricted diet
+
+
+label:    sent_21
+sentence: To eat or not to eat ; regulation by the melanocortin system . I get my eyes checked , eat carefully , and test my blood sugar .
+
+ppatt:
+	eat ?a
+		?a: regulation by the melanocortin system
+	eat ?a
+		?a: regulation by the melanocortin system
+	?a get ?b
+		?a: regulation by the melanocortin system
+		?b: my eyes checked
+	?a checked
+		?a: my eyes
+	?a eat carefully
+		?a: regulation by the melanocortin system
+	?a test ?b
+		?a: regulation by the melanocortin system
+		?b: my blood sugar
+
+
+label:    sent_22
+sentence: She refused to eat or take any medications .
+
+ppatt:
+	?a refused to eat ?b
+		?a: She
+		?b: any medications
+	?a refused to take
+		?a: She
+
+

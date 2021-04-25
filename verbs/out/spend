@@ -1,0 +1,243 @@
+label:    sent_1
+sentence: Both species spend considerable annual feeding time on leaves .
+
+ppatt:
+	?a spend ?b
+		?a: Both species
+		?b: considerable annual feeding time on leaves
+
+
+label:    sent_2
+sentence: Clinical nurse specialists spend too much time on activities related to the institution .
+
+ppatt:
+	?a spend ?b
+		?a: Clinical nurse specialists
+		?b: too much time on activities related to the institution
+
+
+label:    sent_3
+sentence: Less experienced anaesthesia providers spend more time on monitoring tasks . Care providers spend a significant amount of time viewing and authoring notes .
+
+ppatt:
+	?a spend ?b on ?c
+		?a: Less experienced anaesthesia providers
+		?b: more time
+		?c: monitoring tasks
+	?a spend ?b
+		?a: Care providers
+		?b: a significant amount of time viewing
+	?a authoring ?b
+		?a: Care providers
+		?b: notes
+
+
+label:    sent_4
+sentence: Horses spend most of their day eating , standing , and occasionally exercising .
+
+ppatt:
+	?a spend ?b
+		?a: Horses
+		?b: most of their day eating
+	?a standing
+		?a: Horses
+	?a occasionally exercising
+		?a: Horses
+
+
+label:    sent_5
+sentence: Artists spend decades discovering how to steer their craft .
+
+ppatt:
+	?a spend ?b
+		?a: Artists
+		?b: decades discovering how to steer their craft
+	?a discovering how to steer ?b
+		?a: decades
+		?b: their craft
+
+
+label:    sent_6
+sentence: [Students with to spend more time at community health centers ] . Who needs to spend money on conservation science anyway ?
+
+ppatt:
+	?a spend ?b
+		?a: [Students
+		?b: more time at community health centers ] . Who needs to spend money on conservation science anyway
+	?a ?b needs to spend ?c on ?d anyway
+		?a: community health centers ]
+		?b: Who
+		?c: money
+		?d: conservation science
+
+
+label:    sent_7
+sentence: They are prepared to spend about 15 min a day for data acquisition .
+
+ppatt:
+	?a are prepared to spend ?b ?c
+		?a: They
+		?b: about 15 min
+		?c: a day for data acquisition
+
+
+label:    sent_8
+sentence: London PCTs expect to spend a sixth of Choosing Health cash . This study examined the amount of time adolescents spend viewing television .
+
+ppatt:
+	?a expect to spend ?b
+		?a: London PCTs
+		?b: a sixth
+	?a Choosing ?b
+		?a: London PCTs
+		?b: Health cash
+	?a examined ?b ?c
+		?a: This study
+		?b: the amount of time adolescents
+		?c: SOMETHING := spend viewing television
+	?a spend ?b
+		?a: This study
+		?b: viewing television
+
+
+label:    sent_9
+sentence: Modbury to spend $ 800,000 upgrading system .
+
+ppatt:
+	?a spend ?b
+		?a: Modbury
+		?b: $ 800,000 upgrading system
+
+
+label:    sent_10
+sentence: How much time do health services spend on antenatal care ? Does America spend enough on addiction treatment ?
+
+ppatt:
+	How ?a do ?b spend on ?c
+		?a: much time
+		?b: health services
+		?c: antenatal care
+	Does ?a spend enough on ?b
+		?a: America
+		?b: addiction treatment
+
+
+label:    sent_11
+sentence: How much should hospitals spend on advertising ? Data briefing : Variations in spend on HRGs .
+
+ppatt:
+	How much should ?a spend on ?b ?c ?d
+		?a: hospitals
+		?b: advertising
+		?c: Data
+		?d: briefing
+
+
+label:    sent_12
+sentence: In contrast , people were less likely to spend on chronic illness .
+
+ppatt:
+	In ?a , ?b were less likely to spend on ?c
+		?a: contrast
+		?b: people
+		?c: chronic illness
+
+
+label:    sent_13
+sentence: The projected spend on NHS agency staff for 2005-06 is around pounds sterling 1bn . Nigeria ready for huge science spend . Tax and spend . Know how much they can spend .
+
+ppatt:
+	?a ?b spend ?c
+		?a: The projected spend on NHS agency staff for 2005-06
+		?b: Nigeria ready for huge science
+		?c: Tax
+	?a spend
+		?a: The projected spend on NHS agency staff for 2005-06
+	?a Know ?b
+		?a: The projected spend on NHS agency staff for 2005-06
+		?b: SOMETHING := how much they can spend
+	how ?a can spend
+		?a: much they
+
+
+label:    sent_14
+sentence: The patients spend less time in the intensive therapy room and at the hospital .
+
+ppatt:
+	?a spend ?b in ?c
+		?a: The patients
+		?b: less time
+		?c: the intensive therapy room
+	?a spend ?b in ?c
+		?a: The patients
+		?b: less time
+		?c: the hospital
+
+
+label:    sent_15
+sentence: Patients spend less time in ICU and have lower in-hospital mortality rates .
+
+ppatt:
+	?a spend ?b
+		?a: Patients
+		?b: less time in ICU
+	?a have ?b
+		?a: Patients
+		?b: lower in-hospital mortality rates
+
+
+label:    sent_16
+sentence: Chimney owners spend less time feeding and more time underground than non-owners .
+
+ppatt:
+	?a spend ?b
+		?a: Chimney owners
+		?b: less time feeding
+	?a spend ?b
+		?a: Chimney owners
+		?b: more time
+
+
+label:    sent_17
+sentence: Older adults spend little time outdoors and many are physically inactive .
+
+ppatt:
+	?a spend ?b
+		?a: Older adults
+		?b: little time outdoors
+	?a are physically inactive
+		?a: many
+
+
+label:    sent_18
+sentence: Younger children are more susceptible than higher-grade children and spend more time indoors .
+
+ppatt:
+	?a are more susceptible than ?b
+		?a: Younger children
+		?b: higher-grade children
+	?a spend ?b
+		?a: Younger children
+		?b: more time indoors
+
+
+label:    sent_19
+sentence: PBAV is easier and spend less time than CV Territorial and sneaker males associate with female teleiochrysales and spend much time guarding them .
+
+ppatt:
+	?a is easier
+		?a: PBAV
+	?a spend ?b
+		?a: PBAV
+		?b: less time
+	?a associate with ?b
+		?a: than CV males
+		?b: female teleiochrysales
+	?a spend ?b
+		?a: than CV males
+		?b: much time guarding them
+	?a guarding ?b
+		?a: much time
+		?b: them
+
+

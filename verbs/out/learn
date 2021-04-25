@@ -1,0 +1,262 @@
+label:    sent_1
+sentence: What do animals know or learn about the benefits of cooperation ? What did we learn from the genome-wide association study for tuberculosis susceptibility ? Organelle dysfunction in hepatitis C virus-associated steatosis : anything to learn from nonalcoholic steatohepatitis ?
+
+ppatt:
+	?a do ?b know about ?c
+		?a: What
+		?b: animals
+		?c: the benefits of cooperation What did we learn from the genome-wide association study for tuberculosis susceptibility ? Organelle dysfunction in hepatitis C virus-associated steatosis
+	?a learn
+		?a: What
+	?a ?b did ?c learn from ?d
+		?a: the benefits of cooperation
+		?b: What
+		?c: we
+		?d: the genome-wide association study for tuberculosis susceptibility
+	?a ?b did ?c learn from ?d
+		?a: the benefits of cooperation
+		?b: What
+		?c: we
+		?d: Organelle dysfunction in hepatitis C virus-associated steatosis
+	?a anything to learn from ?b
+		?a: What
+		?b: nonalcoholic steatohepatitis
+
+
+label:    sent_2
+sentence: The decision tree is adopted to learn the classification criteria .
+
+ppatt:
+	?a is adopted to learn ?b
+		?a: The decision tree
+		?b: the classification criteria
+
+
+label:    sent_3
+sentence: More studies are required to learn its applicability to broader populations .
+
+ppatt:
+	?a are required to learn ?b
+		?a: More studies
+		?b: its applicability to broader populations
+
+
+label:    sent_4
+sentence: We were unable to learn the blood concentration of lithium immediately .
+
+ppatt:
+	?a were unable to learn ?b immediately
+		?a: We
+		?b: the blood concentration of lithium
+
+
+label:    sent_5
+sentence: What can we learn about biofilm/host interactions from the study of inflammatory bowel disease .
+
+ppatt:
+	?a can ?b learn about ?c
+		?a: What
+		?b: we
+		?c: biofilm/host interactions from the study of inflammatory bowel disease
+
+
+label:    sent_6
+sentence: Health care in the north : what Canada can learn from its circumpolar neighbours .
+
+ppatt:
+
+
+
+label:    sent_7
+sentence: In addition , many individuals never learn to do so despite numerous training sessions .
+
+ppatt:
+	In ?a , ?b never learn to do so despite ?c
+		?a: addition
+		?b: many individuals
+		?c: numerous training sessions
+
+
+label:    sent_8
+sentence: Rats learn to prefer flavors that are followed by postingestive effects of nutrients .
+
+ppatt:
+	?a learn to prefer ?b
+		?a: Rats
+		?b: flavors that are followed by postingestive effects of nutrients
+	?a are followed by ?b
+		?a: flavors
+		?b: postingestive effects of nutrients
+
+
+label:    sent_9
+sentence: How do we learn ? Students learn best when they are focused and thinking about the subject at hand . Letter names and phonological awareness help children to learn letter-sound relations .
+
+ppatt:
+	How do ?a learn ?b
+		?a: we
+		?b: SOMETHING := Students learn best when they are focused and thinking about the subject at hand
+	?a learn best
+		?a: Students
+	when ?a are focused
+		?a: they
+	?a thinking about ?b at ?c
+		?a: they
+		?b: the subject
+		?c: hand
+	?a help ?b to learn ?c
+		?a: Letter names
+		?b: children
+		?c: letter-sound relations
+	?a help ?b to learn ?c
+		?a: phonological awareness
+		?b: children
+		?c: letter-sound relations
+
+
+label:    sent_10
+sentence: Can we learn medicine from animals ? Kindergarten children aged 4-5 years can learn basic fist aid . Bronchiectasis : so much yet to learn and to do . The application is designed as modules and is simple to learn and use . Wake up and learn .
+
+ppatt:
+	Can ?a learn ?b : much yet to learn
+		?a: we
+		?b: medicine from animals
+	?a can learn ?b ?c so
+		?a: Kindergarten children aged 4-5 years
+		?b: basic fist aid
+		?c: Bronchiectasis
+	Can ?a learn : much yet to to do
+		?a: we
+	?a is designed as ?b
+		?a: The application
+		?b: modules
+	learn ?a
+		?a: Wake
+	use ?a
+		?a: Wake
+	?a up learn
+		?a: Wake
+
+
+label:    sent_11
+sentence: What can the periodontal community learn from the pathophysiology of rheumatoid arthritis ?
+
+ppatt:
+	?a can ?b learn from ?c
+		?a: What
+		?b: the periodontal community
+		?c: the pathophysiology of rheumatoid arthritis
+
+
+label:    sent_12
+sentence: We then describe how they relate and what they can learn from each other .
+
+ppatt:
+	?a then describe ?b
+		?a: We
+		?b: SOMETHING := how they relate
+	how ?a relate
+		?a: they
+	?a can learn from ?b
+		?a: they
+		?b: each other
+
+
+label:    sent_13
+sentence: Across trials , animals learn a pattern of five baited holes .
+
+ppatt:
+	Across ?a , ?b learn ?c
+		?a: trials
+		?b: animals
+		?c: a pattern of five baited holes
+
+
+label:    sent_14
+sentence: The autopsy enabled students to learn about death and dying in a social context .
+
+ppatt:
+	?a enabled ?b to learn about ?c
+		?a: The autopsy
+		?b: students
+		?c: death
+	?a enabled to dying in ?b
+		?a: The autopsy
+		?b: a social context
+
+
+label:    sent_15
+sentence: The technique is simple , easy to learn , and without serious complications .
+
+ppatt:
+	?a is simple , to learn ?b
+		?a: The technique
+		?b: without serious complications
+	?a easy
+		?a: The technique
+
+
+label:    sent_16
+sentence: They must also be informed of government programs and learn to value education .
+
+ppatt:
+	?a must also be informed of ?b
+		?a: They
+		?b: government programs
+	?a learn to value ?b
+		?a: They
+		?b: education
+
+
+label:    sent_17
+sentence: Humans learn and remember motor skills to permit adaptation to a changing environment .
+
+ppatt:
+	?a learn ?b
+		?a: Humans
+		?b: motor skills to permit adaptation to a changing environment
+	?a remember
+		?a: Humans
+	?a permit ?b
+		?a: motor skills
+		?b: adaptation to a changing environment
+
+
+label:    sent_18
+sentence: Children 's readiness to learn and ability to learn were lower than adults . Can homeostatic circuits learn and remember ? Today , psychiatry residents learn multiple psychotherapeutic techniques during their training .
+
+ppatt:
+	?a learn to learn were lower than ?b
+		?a: Children 's readiness
+		?b: adults
+	?a Can ?b learn
+		?a: Children 's readiness to learn and ability to learn were lower than adults
+		?b: homeostatic circuits
+	?a remember
+		?a: Children 's readiness to learn and ability to learn were lower than adults
+	Today , ?a learn ?b during ?c
+		?a: psychiatry residents
+		?b: multiple psychotherapeutic techniques
+		?c: their training
+
+
+label:    sent_19
+sentence: The ability to learn efficient grasping by observation seems however very restricted .
+
+ppatt:
+	?a learn ?b by ?c
+		?a: The ability
+		?b: efficient grasping
+		?c: observation
+	?a seems however very restricted
+		?a: The ability to learn efficient grasping by observation
+
+
+label:    sent_20
+sentence: To learn lessons from a traditional midwifery workforce in Western Kenya .
+
+ppatt:
+	learn ?a
+		?a: lessons from a traditional midwifery workforce in Western Kenya
+
+

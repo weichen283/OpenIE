@@ -1,0 +1,292 @@
+label:    sent_1
+sentence: Color is used to store information . A total of 89 % of respondents would opt to store CBUs .
+
+ppatt:
+	?a is used to store ?b
+		?a: Color
+		?b: information
+	?a would opt to store ?b
+		?a: A total of 89 % of respondents
+		?b: CBUs
+
+
+label:    sent_2
+sentence: It is common practice to store precut prostate biopsy sections .
+
+ppatt:
+	?a is common practice
+		?a: It
+	?a store ?b
+		?a: common practice
+		?b: precut prostate biopsy sections
+
+
+label:    sent_3
+sentence: When to store energy in a stochastic environment .
+
+ppatt:
+	When to store ?a in ?b
+		?a: energy
+		?b: a stochastic environment
+
+
+label:    sent_4
+sentence: Plants need nitrate for growth and store most of it in the central vacuole .
+
+ppatt:
+	?a need ?b for ?c
+		?a: Plants
+		?b: nitrate
+		?c: growth
+	?a store ?b
+		?a: Plants
+		?b: most of it in the central vacuole
+
+
+label:    sent_5
+sentence: Furthermore , they show the ability to store two electrons within the 4H-imidazole ligand . Cross-sectional analysis of food store environment .
+
+ppatt:
+	Furthermore , ?a show ?b ?c
+		?a: they
+		?b: the ability to store two electrons within the 4H-imidazole ligand
+		?c: Cross-sectional analysis of food store environment
+	?a store ?b
+		?a: the ability
+		?b: two electrons within the 4H-imidazole ligand
+
+
+label:    sent_6
+sentence: Lipid droplets ( LDs ) are intracellular organelles that store neutral lipids within cells .
+
+ppatt:
+	?a is/are LDs
+		?a: Lipid droplets
+	?a are intracellular organelles
+		?a: Lipid droplets
+	?a store ?b
+		?a: intracellular organelles
+		?b: neutral lipids within cells
+
+
+label:    sent_7
+sentence: Network-based predictions of retail store commercial categories and optimal locations .
+
+ppatt:
+	?a store ?b
+		?a: Network-based predictions of retail
+		?b: commercial categories
+	?a store ?b
+		?a: Network-based predictions of retail
+		?b: optimal locations
+
+
+label:    sent_8
+sentence: They may also trap , store , and release foreign molecules . The cells synthesise , store and secrete immunoreactive ANP .
+
+ppatt:
+	?a may also trap
+		?a: They
+	?a store
+		?a: They
+	?a release ?b
+		?a: They
+		?b: foreign molecules
+	?a synthesise
+		?a: The cells
+	?a store
+		?a: The cells
+	?a secrete ?b
+		?a: The cells
+		?b: immunoreactive ANP
+
+
+label:    sent_9
+sentence: The electrode is easy to make and store , and inexpensive .
+
+ppatt:
+	?a is easy to make
+		?a: The electrode
+	?a is easy to store
+		?a: The electrode
+
+
+label:    sent_10
+sentence: The fast-spreading hybrid clones store less N in their rhizomes than the parental species .
+
+ppatt:
+	?a store ?b in ?c than ?d
+		?a: The fast-spreading hybrid clones
+		?b: less N
+		?c: their rhizomes
+		?d: the parental species
+
+
+label:    sent_11
+sentence: Eighty-four percent of respondents did not store eggs correctly in the refrigerator .
+
+ppatt:
+	?a did not store ?b correctly in ?c
+		?a: Eighty-four percent of respondents
+		?b: eggs
+		?c: the refrigerator
+
+
+label:    sent_12
+sentence: Plants commonly store toxic compounds in an inactive form .
+
+ppatt:
+	?a commonly store ?b in ?c
+		?a: Plants
+		?b: toxic compounds
+		?c: an inactive form
+
+
+label:    sent_13
+sentence: The ECM can incorporate and store molecular traces of both neuronal and glial activities .
+
+ppatt:
+	?a can incorporate ?b
+		?a: The ECM
+		?b: molecular traces of both neuronal and glial
+	?a store
+		?a: The ECM
+
+
+label:    sent_14
+sentence: The bioactivity assays revealed that these hepatocyte-like cells could uptake lipoprotein and store glycogen .
+
+ppatt:
+	?a revealed ?b
+		?a: The bioactivity assays
+		?b: SOMETHING := these hepatocyte-like cells could uptake lipoprotein
+	?a could uptake lipoprotein
+		?a: these hepatocyte-like cells
+	?a store ?b
+		?a: these hepatocyte-like cells
+		?b: glycogen
+
+
+label:    sent_15
+sentence: Melanosomes are specialized intracellular membrane bound organelles that produce and store melanin pigment .
+
+ppatt:
+	?a are specialized intracellular membrane bound organelles
+		?a: Melanosomes
+	?a produce ?b
+		?a: specialized intracellular membrane bound organelles
+		?b: melanin pigment
+	?a store
+		?a: that
+
+
+label:    sent_16
+sentence: They can store carbon and can also provide wood which can substitute other materials .
+
+ppatt:
+	?a can store ?b
+		?a: They
+		?b: carbon
+	?a can also provide ?b
+		?a: They
+		?b: wood which can substitute other materials
+	?a can substitute ?b
+		?a: wood
+		?b: other materials
+
+
+label:    sent_17
+sentence: The sugar units of glycan structures store information and establish an alphabet of life .
+
+ppatt:
+	?a store ?b
+		?a: The sugar units of glycan structures
+		?b: information
+	?a establish ?b
+		?a: The sugar units of glycan structures
+		?b: an alphabet of life
+
+
+label:    sent_18
+sentence: These mice store sulphatide and show progressive neurological symptoms , but do not demyelinate . Ligands that store and release electrons during catalysis .
+
+ppatt:
+	?a store ?b
+		?a: These mice
+		?b: sulphatide
+	?a show ?b
+		?a: These mice
+		?b: progressive neurological symptoms
+	?a do not demyelinate ?b
+		?a: These mice
+		?b: Ligands that store and release electrons during catalysis
+	?a store ?b during ?c
+		?a: Ligands
+		?b: electrons
+		?c: catalysis
+	?a release
+		?a: that
+
+
+label:    sent_19
+sentence: The world 's technological capacity to store , communicate , and compute information .
+
+ppatt:
+	?a store
+		?a: The world 's technological capacity
+	?a communicate
+		?a: The world 's technological capacity to store
+	?a compute ?b
+		?a: The world 's technological capacity to store
+		?b: information
+
+
+label:    sent_20
+sentence: Furthermore , we investigated whether these cells store and secrete alpha-MSH .
+
+ppatt:
+	Furthermore , ?a investigated ?b
+		?a: we
+		?b: SOMETHING := these cells store alpha-MSH
+	?a store ?b
+		?a: these cells
+		?b: alpha-MSH
+	?a secrete
+		?a: these cells
+
+
+label:    sent_21
+sentence: Mice lacking NOX2 are hyperphagic and store fat preferentially in the liver .
+
+ppatt:
+	?a lacking ?b
+		?a: Mice
+		?b: NOX2
+	?a are hyperphagic
+		?a: Mice lacking NOX2
+	?a store ?b preferentially in ?c
+		?a: Mice lacking NOX2
+		?b: fat
+		?c: the liver
+
+
+label:    sent_22
+sentence: The social dynamics of healthy food shopping and store choice in an urban environment .
+
+ppatt:
+	store ?a in ?b
+		?a: choice
+		?b: an urban environment
+
+
+label:    sent_23
+sentence: Cover the container with a cloth and store it in a cool place .
+
+ppatt:
+	Cover ?a
+		?a: the container with a cloth
+	store ?a in ?b
+		?a: it
+		?b: a cool place
+
+

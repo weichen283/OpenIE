@@ -1,0 +1,337 @@
+label:    sent_1
+sentence: Canadian adolescents perceive less control and disciplinary actions from parents , and more tolerance .
+
+ppatt:
+	?a perceive ?b ?c
+		?a: Canadian adolescents
+		?b: less control
+		?c: actions from parents
+	?a perceive ?b ?c
+		?a: Canadian adolescents
+		?b: disciplinary
+		?c: actions from parents
+
+
+label:    sent_2
+sentence: They perceive the threat of chemical risks as high . Pigeons perceive a reversed Zollner illusion .
+
+ppatt:
+	?a perceive ?b
+		?a: They
+		?b: the threat of chemical risks
+	as ?a perceive ?b
+		?a: high Pigeons
+		?b: a reversed Zollner illusion
+
+
+label:    sent_3
+sentence: They perceive it as something fortuitous associated to a strong emotional impact .
+
+ppatt:
+	?a perceive ?b
+		?a: They
+		?b: it
+	?a something fortuitous associated to ?b
+		?a: They
+		?b: a strong emotional impact
+
+
+label:    sent_4
+sentence: Chicks of altricial birds may perceive predation risk by acoustic cues produced by predators .
+
+ppatt:
+	?a may perceive ?b by ?c
+		?a: Chicks of altricial birds
+		?b: predation risk
+		?c: acoustic cues produced by predators
+	?a produced by ?b
+		?a: acoustic cues
+		?b: predators
+
+
+label:    sent_5
+sentence: Nurses who perceive themselves as empowered have higher levels of organizational commitment .
+
+ppatt:
+	?a perceive ?b
+		?a: Nurses
+		?b: themselves
+	?a empowered
+		?a: who
+	?a have ?b
+		?a: who
+		?b: higher levels of organizational commitment
+
+
+label:    sent_6
+sentence: The visual system in walking serves to perceive feedback or feed-forward signals .
+
+ppatt:
+	?a serves to perceive ?b
+		?a: The visual system in walking
+		?b: feedback
+	?a serves to perceive ?b
+		?a: The visual system in walking
+		?b: feed-forward
+
+
+label:    sent_7
+sentence: The approach imitates the human ability to perceive details .
+
+ppatt:
+	?a imitates ?b
+		?a: The approach
+		?b: the human ability to perceive details
+	?a perceive ?b
+		?a: the human ability
+		?b: details
+
+
+label:    sent_8
+sentence: Future research is needed to understand how non-definers perceive these childhood sexual experiences .
+
+ppatt:
+	?a is needed to understand ?b
+		?a: Future research
+		?b: SOMETHING := how non-definers perceive these childhood sexual experiences
+	how ?a perceive ?b
+		?a: non-definers
+		?b: these childhood sexual experiences
+
+
+label:    sent_9
+sentence: The review revealed people experiencing psychotropic-induced weight gain perceive it as distressing .
+
+ppatt:
+	?a revealed ?b ?c
+		?a: The review
+		?b: people experiencing psychotropic-induced weight gain
+		?c: SOMETHING := perceive it as distressing
+	?a experiencing ?b
+		?a: people
+		?b: psychotropic-induced weight gain
+	?a perceive ?b
+		?a: The review
+		?b: it
+	?a as distressing
+		?a: The review
+
+
+label:    sent_10
+sentence: Women seem to perceive late effects of hypertension as a manifest health threat .
+
+ppatt:
+	?a seem to perceive ?b as ?c
+		?a: Women
+		?b: late effects of hypertension
+		?c: a manifest health threat
+
+
+label:    sent_11
+sentence: Eyewitnesses frequently perceive seizures as life threatening .
+
+ppatt:
+	?a frequently perceive ?b as ?c
+		?a: Eyewitnesses
+		?b: seizures
+		?c: life threatening
+
+
+label:    sent_12
+sentence: Nurses in five critical care units perceive themselves to be moderately empowered .
+
+ppatt:
+	?a perceive ?b to be moderately empowered
+		?a: Nurses in five critical care units
+		?b: themselves
+
+
+label:    sent_13
+sentence: How do these patients perceive gaming console exercise ? Do we perceive correctly whether a 2-D object is balanced or unbalanced ? Nuclear Medicine physicians perceive radioiodine adverse effects and prevention methods are used .
+
+ppatt:
+	How do ?a
+		?a: these patients
+	?a perceive ?b
+		?a: these patients
+		?b: gaming console exercise
+	Do ?a perceive correctly ?b ?c
+		?a: we
+		?b: SOMETHING := a 2-D object is balanced
+		?c: SOMETHING := Nuclear Medicine physicians perceive radioiodine adverse effects
+	?a is balanced
+		?a: a 2-D object
+	?a unbalanced
+		?a: a 2-D object
+	?a perceive ?b
+		?a: Nuclear Medicine physicians
+		?b: radioiodine adverse effects
+	?a are used
+		?a: prevention methods
+
+
+label:    sent_14
+sentence: People often perceive risks for others and themselves differently .
+
+ppatt:
+	?a often perceive ?b differently
+		?a: People
+		?b: risks for others and themselves
+
+
+label:    sent_15
+sentence: Possibly , they perceive non-volatile chemicals , but these remain to be identified .
+
+ppatt:
+	Possibly , ?a perceive ?b
+		?a: they
+		?b: non-volatile chemicals
+	?a remain to be identified
+		?a: these
+
+
+label:    sent_16
+sentence: How primary care dentists perceive and are influenced by research .
+
+ppatt:
+	How ?a perceive
+		?a: primary care dentists
+	?a are influenced by ?b
+		?a: primary care dentists
+		?b: research
+
+
+label:    sent_17
+sentence: This category reveals how the children perceive and relate with the antiretroviral therapy .
+
+ppatt:
+	?a reveals ?b
+		?a: This category
+		?b: SOMETHING := how the children perceive
+	how ?a perceive
+		?a: the children
+	?a relate with ?b
+		?a: the children
+		?b: the antiretroviral therapy
+
+
+label:    sent_18
+sentence: Mammals can perceive and discriminate myriad volatile chemicals as having a distinct odor . Nevertheless they did perceive an unplanned pregnancy as serious and considered themselves susceptible .
+
+ppatt:
+	?a can perceive ?b
+		?a: Mammals
+		?b: myriad volatile chemicals
+	?a discriminate
+		?a: Mammals
+	?a having ?b
+		?a: Mammals
+		?b: a distinct odor
+	Nevertheless ?a did perceive ?b as ?c
+		?a: they
+		?b: an unplanned pregnancy
+		?c: serious
+	considered ?a susceptible
+		?a: themselves
+
+
+label:    sent_19
+sentence: Practitioners perceive contradictory elements during their consultations , and they ask for help . Women perceive themselves as being very knowledgeable but can not accurately answer physiological questions .
+
+ppatt:
+	?a perceive ?b during ?c
+		?a: Practitioners
+		?b: contradictory elements
+		?c: their consultations
+	?a ask ?b
+		?a: they
+		?b: SOMETHING := Women perceive themselves as being very knowledgeable
+	?a help
+		?a: they
+	?a perceive ?b
+		?a: Women
+		?b: themselves
+	?a being very knowledgeable
+		?a: Women
+	?a can not accurately answer ?b
+		?a: Women
+		?b: physiological questions
+
+
+label:    sent_20
+sentence: Social cognition is an ability to perceive socially relevant stimuli and to behave accordingly .
+
+ppatt:
+	?a is an ability
+		?a: Social cognition
+	?a perceive ?b
+		?a: an ability
+		?b: socially relevant stimuli
+	?a behave accordingly
+		?a: Social cognition
+
+
+label:    sent_21
+sentence: The present study examined the way retirees perceive retirement and continue to work post-retirement .
+
+ppatt:
+	?a examined ?b
+		?a: The present study
+		?b: SOMETHING := the way retirees perceive retirement
+	?a perceive ?b
+		?a: the way retirees
+		?b: retirement
+	?a continue to work ?b
+		?a: the way retirees
+		?b: post-retirement
+
+
+label:    sent_22
+sentence: Residents moonlight primarily for financial reasons but also perceive a positive educational benefit .
+
+ppatt:
+	also perceive ?a
+		?a: a positive educational benefit
+
+
+label:    sent_23
+sentence: Symmetry is a powerful framework to perceive and predict the physical world .
+
+ppatt:
+	?a is a powerful framework
+		?a: Symmetry
+	?a perceive ?b
+		?a: a powerful framework
+		?b: the physical world
+	?a predict
+		?a: Symmetry
+
+
+label:    sent_24
+sentence: The TMMS assesses an individual 's ability to perceive , understand and manage emotion .
+
+ppatt:
+	?a assesses ?b
+		?a: The TMMS
+		?b: an individual 's ability to perceive , understand and manage emotion
+	?a perceive
+		?a: an individual 's ability
+	understand ?a
+		?a: emotion
+	manage ?a
+		?a: emotion
+
+
+label:    sent_25
+sentence: Humans are social beings and often have to perceive and perform within groups .
+
+ppatt:
+	?a are social beings
+		?a: Humans
+	?a often have to perceive within ?b
+		?a: Humans
+		?b: groups
+	?a often have to perform
+		?a: Humans
+
+

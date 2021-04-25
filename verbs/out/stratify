@@ -1,0 +1,293 @@
+label:    sent_1
+sentence: Using nuclear receptor activity to stratify hepatocarcinogens .
+
+ppatt:
+	Using ?a
+		?a: nuclear receptor activity
+	stratify ?a
+		?a: hepatocarcinogens
+
+
+label:    sent_2
+sentence: [Acute pulmonary embolism : is necessary to stratify the risk ? ] . Monitoring these parameters can help identify and stratify septic patients .
+
+ppatt:
+	?a is necessary to stratify ?b
+		?a: [Acute pulmonary embolism
+		?b: the risk
+	?a is necessary to stratify ?b
+		?a: [Acute pulmonary embolism
+		?b: ]
+	?a can help identify ?b
+		?a: [Acute pulmonary embolism
+		?b: septic patients
+	?a can help stratify
+		?a: [Acute pulmonary embolism
+
+
+label:    sent_3
+sentence: These may provide meaningful biomarkers to stratify patients for reduced chemotherapy in the future . Interleukin-6 levels can also be used to stratify patients for therapeutic intervention .
+
+ppatt:
+	?a may provide ?b
+		?a: These
+		?b: meaningful biomarkers to stratify patients for reduced chemotherapy in the future
+	?a stratify ?b in ?c
+		?a: meaningful biomarkers
+		?b: patients for reduced chemotherapy
+		?c: the future
+	?a can also be used to stratify ?b
+		?a: Interleukin-6 levels
+		?b: patients for therapeutic intervention
+
+
+label:    sent_4
+sentence: Metabolic response may be used to stratify prognosis in patients with rectal cancer .
+
+ppatt:
+	?a may be used to stratify ?b
+		?a: Metabolic response
+		?b: prognosis in patients with rectal cancer
+
+
+label:    sent_5
+sentence: Furthermore , studies of adjuvant therapy should stratify patients for this variable .
+
+ppatt:
+	Furthermore , ?a should stratify ?b
+		?a: studies of adjuvant therapy
+		?b: patients for this variable
+
+
+label:    sent_6
+sentence: Therefore , a sequencing-based comprehensive analysis could stratify SCLC patients by potential therapeutic targets .
+
+ppatt:
+	Therefore , ?a could stratify ?b by ?c
+		?a: a sequencing-based comprehensive analysis
+		?b: SCLC patients
+		?c: potential therapeutic targets
+
+
+label:    sent_7
+sentence: Using readmission risk , we can stratify patients into tiered clinical pathways .
+
+ppatt:
+	Using ?a ?b
+		?a: readmission risk
+		?b: we
+	?a can stratify ?b into ?c
+		?a: we
+		?b: patients
+		?c: tiered clinical pathways
+
+
+label:    sent_8
+sentence: Risk score to stratify children with suspected serious bacterial infection : observational cohort study . A clinical prediction model to stratify retinopathy of prematurity risk using postnatal weight gain . Can molecular markers stratify the diagnostic value of high-grade prostatic intraepithelial neoplasia ?
+
+ppatt:
+	?a stratify ?b
+		?a: Risk score
+		?b: children with suspected serious bacterial infection
+	?a is/are A clinical prediction model
+		?a: observational cohort study . using postnatal weight gain . Can molecular markers stratify the diagnostic value of high-grade prostatic intraepithelial neoplasia
+	?a stratify ?b
+		?a: A clinical prediction model
+		?b: retinopathy of prematurity risk
+	?a using ?b
+		?a: observational cohort study . Can molecular markers stratify the diagnostic value of high-grade prostatic intraepithelial neoplasia
+		?b: postnatal weight gain
+	?a Can ?b stratify ?c
+		?a: observational cohort study . using postnatal weight gain
+		?b: molecular markers
+		?c: the diagnostic value of high-grade prostatic intraepithelial neoplasia
+
+
+label:    sent_9
+sentence: Functional neurologic measures are currently used to stratify injury severity and predict neurologic outcome .
+
+ppatt:
+	?a are currently used to stratify ?b
+		?a: Functional neurologic measures
+		?b: injury severity
+	?a are currently used to predict ?b
+		?a: Functional neurologic measures
+		?b: neurologic outcome
+
+
+label:    sent_10
+sentence: To risk stratify patients with major trauma and to predict need for MT .
+
+ppatt:
+	To ?a stratify ?b
+		?a: risk
+		?b: patients with major trauma
+	To ?a to predict ?b
+		?a: risk
+		?b: need for MT
+
+
+label:    sent_11
+sentence: INRG classification should be employed to stratify adult neuroblastoma patients and help select treatment .
+
+ppatt:
+	?a should be employed to stratify ?b
+		?a: INRG classification
+		?b: adult neuroblastoma patients
+	?a help ?b
+		?a: INRG classification
+		?b: select treatment
+
+
+label:    sent_12
+sentence: The SFTP score may stratify patient risk and guide postoperative surveillance .
+
+ppatt:
+	?a may stratify ?b
+		?a: The SFTP score
+		?b: patient risk
+	?a guide ?b
+		?a: The SFTP score
+		?b: postoperative surveillance
+
+
+label:    sent_13
+sentence: Monitoring HVPG may stratify further bleeding risk and discriminate treatment response .
+
+ppatt:
+	Monitoring ?a
+		?a: HVPG
+	?a may stratify ?b
+		?a: SOMETHING := Monitoring HVPG
+		?b: further bleeding risk
+	?a discriminate ?b
+		?a: Monitoring HVPG
+		?b: treatment response
+
+
+label:    sent_14
+sentence: Identification of these aberrations would stratify patients and improve treatment algorithms .
+
+ppatt:
+	?a would stratify ?b
+		?a: Identification of these aberrations
+		?b: patients
+	?a improve ?b
+		?a: Identification of these aberrations
+		?b: treatment algorithms
+
+
+label:    sent_15
+sentence: It is time to stratify with prognostic factors for hepatic metastases .
+
+ppatt:
+	?a is time
+		?a: It
+	?a stratify with ?b
+		?a: time
+		?b: prognostic factors for hepatic metastases
+
+
+label:    sent_16
+sentence: Furthermore , it should be able to stratify in an external validation set .
+
+ppatt:
+	Furthermore , ?a should be able to stratify in ?b
+		?a: it
+		?b: an external validation set
+
+
+label:    sent_17
+sentence: Future trials should include and stratify for premature infants .
+
+ppatt:
+	?a should include for ?b
+		?a: Future trials
+		?b: premature infants
+	?a stratify
+		?a: Future trials
+
+
+label:    sent_18
+sentence: Neurogenesis and generalization : a new approach to stratify and treat anxiety disorders .
+
+ppatt:
+	?a stratify ?b
+		?a: a new approach
+		?b: anxiety disorders
+	treat ?a
+		?a: anxiety disorders
+
+
+label:    sent_19
+sentence: CRCSCs may be useful biomarkers to risk stratify , and estimate outcomes in CRC .
+
+ppatt:
+	?a may be useful biomarkers
+		?a: CRCSCs
+	?a to ?b stratify
+		?a: useful biomarkers
+		?b: risk
+	to ?a stratify ?b
+		?a: risk
+		?b: estimate outcomes in CRC
+	?a estimate ?b
+		?a: CRCSCs
+		?b: outcomes in CRC
+
+
+label:    sent_20
+sentence: The injection was stable , hard to stratify and decompose .
+
+ppatt:
+	?a was stable , hard to stratify
+		?a: The injection
+	?a was stable , hard to decompose
+		?a: The injection
+
+
+label:    sent_21
+sentence: Studies of mechanisms for preterm birth must stratify by fetal sex and race .
+
+ppatt:
+	?a must stratify by ?b
+		?a: Studies of mechanisms for preterm birth
+		?b: fetal sex
+	?a must stratify by ?b
+		?a: Studies of mechanisms for preterm birth
+		?b: race
+
+
+label:    sent_22
+sentence: Additional models stratify by account type or single enrollee versus family .
+
+ppatt:
+	?a stratify
+		?a: Additional models
+	?a account ?b
+		?a: Additional models
+		?b: type
+	?a account ?b
+		?a: Additional models
+		?b: single enrollee
+	?a account ?b
+		?a: Additional models
+		?b: family
+
+
+label:    sent_23
+sentence: Normative studies frequently stratify based on age , education , sex , and race .
+
+ppatt:
+	?a frequently stratify
+		?a: Normative studies
+	?a based on age
+		?a: Normative studies
+	?a education
+		?a: Normative studies
+	?a sex
+		?a: Normative studies
+	?a race
+		?a: Normative studies
+
+

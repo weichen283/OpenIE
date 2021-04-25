@@ -1,0 +1,85 @@
+label:    sent_1
+sentence: The bio-based films were used to pack palm oil ( maintained for 45 days of storage ) under accelerated oxidation conditions ( 63 % relative humidity and 30 degreesC ) to simulate a storage experiment .
+
+ppatt:
+	?a were used to pack ?b under ?c
+		?a: The bio-based films
+		?b: palm oil
+		?c: accelerated oxidation conditions
+	?a simulate ?b
+		?a: The bio-based films
+		?b: a storage experiment
+
+
+label:    sent_2
+sentence: Participants were then asked to identify which pack in the array they would choose if they were concerned with health , tar , nicotine , image , and taste .
+
+ppatt:
+	?a were then asked to identify ?b
+		?a: Participants
+		?b: SOMETHING := which pack in the array they would choose if they were concerned with health , tar , nicotine , image , and taste
+	?a ?b ?c would choose
+		?a: which
+		?b: pack in the array
+		?c: they
+	?a were concerned with ?b
+		?a: they
+		?b: health
+	?a were concerned with ?b
+		?a: they
+		?b: tar
+	?a were concerned with ?b
+		?a: they
+		?b: nicotine
+	?a were concerned with ?b
+		?a: they
+		?b: image
+	?a were concerned with ?b
+		?a: they
+		?b: taste
+
+
+label:    sent_3
+sentence: Dimeric E proteins pack their fusion loops into analogous pockets at the dimer interface .
+
+ppatt:
+	?a pack ?b into ?c
+		?a: Dimeric E proteins
+		?b: their fusion loops
+		?c: analogous pockets at the dimer interface
+
+
+label:    sent_4
+sentence: From the change of the ratio of gas permeability for the membrane with modifications , it is suggested that approximately 100 nm sized rice husk silica particles pack the large pores among the micron sized rice husk silica particles while the chemical deposition of tetraethylorthosilicate ( TEOS ) reveals the gas flow through 4 nm pores in the rice husk silica by blocking large pores .
+
+ppatt:
+	From ?a , ?b is suggested ?c
+		?a: the change of the ratio of gas permeability for the membrane with modifications
+		?b: it
+		?c: SOMETHING := approximately 100 nm sized rice husk silica particles pack the large pores among the micron sized rice husk silica particles while the chemical deposition of tetraethylorthosilicate reveals the gas flow through 4 nm pores in the rice husk silica by blocking large pores
+	?a pack ?b among ?c
+		?a: approximately 100 nm sized rice husk silica particles
+		?b: the large pores
+		?c: the micron sized rice husk silica particles
+	?a is/are TEOS
+		?a: tetraethylorthosilicate
+	?a reveals ?b through ?c
+		?a: the chemical deposition of tetraethylorthosilicate
+		?b: the gas flow
+		?c: 4 nm pores in the rice husk silica
+	?a blocking ?b
+		?a: the chemical deposition of tetraethylorthosilicate
+		?b: large pores
+
+
+label:    sent_5
+sentence: The molecules pack tail to tail in a bilayer structure .
+
+ppatt:
+	?a pack ?b to ?c in ?d
+		?a: The molecules
+		?b: tail
+		?c: tail
+		?d: a bilayer structure
+
+

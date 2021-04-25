@@ -1,0 +1,272 @@
+label:    sent_1
+sentence: Using an alternative site marking form to comply with the Universal Protocol .
+
+ppatt:
+	Using ?a
+		?a: an alternative site marking form
+	comply with ?a
+		?a: the Universal Protocol
+
+
+label:    sent_2
+sentence: BACKGROUND To comply with an action plan patients need to recall information accurately .
+
+ppatt:
+	?a comply with ?b
+		?a: BACKGROUND
+		?b: an action plan patients
+	?a need to recall ?b accurately
+		?a: BACKGROUND To comply with an action plan patients
+		?b: information
+
+
+label:    sent_3
+sentence: It is important to establish and comply with an evidence-based preventive strategy .
+
+ppatt:
+	?a is important to establish with ?b
+		?a: It
+		?b: an evidence-based preventive strategy
+	?a is important to comply
+		?a: It
+
+
+label:    sent_4
+sentence: The tools comply with international and accreditation standards .
+
+ppatt:
+	?a comply ?b
+		?a: The tools
+		?b: with international and accreditation standards
+
+
+label:    sent_5
+sentence: Ordering blood culture sets and sampling volumes did not comply with CLSI guidelines .
+
+ppatt:
+	Ordering ?a
+		?a: blood culture sets
+	Ordering ?a
+		?a: sampling volumes
+	?a did not comply with ?b
+		?a: SOMETHING := Ordering blood culture sets and sampling volumes
+		?b: CLSI guidelines
+
+
+label:    sent_6
+sentence: Thirty percent of prescriptions did not comply with substitute recommendations .
+
+ppatt:
+	?a did not comply with substitute ?b
+		?a: Thirty percent of prescriptions
+		?b: recommendations
+
+
+label:    sent_7
+sentence: These include increased efforts to publicize and comply with both the U.S .
+
+ppatt:
+	?a include ?b
+		?a: These
+		?b: increased efforts to publicize and comply with both the U.S
+	?a publicize with ?b
+		?a: increased efforts
+		?b: the U.S
+	?a comply
+		?a: increased efforts
+
+
+label:    sent_8
+sentence: Dentists should become familiar with the national public health plan and comply with it . Other schools were in partial compliance or did not comply at all .
+
+ppatt:
+	?a should become familiar with ?b
+		?a: Dentists
+		?b: the national public health plan
+	?a comply with ?b
+		?a: Dentists
+		?b: it
+	?a were in partial compliance
+		?a: Other schools
+	?a did not comply at ?b
+		?a: Other schools
+		?b: all
+
+
+label:    sent_9
+sentence: Five patients did not comply with the protocol and were excluded from the analysis .
+
+ppatt:
+	?a did not comply with ?b
+		?a: Five patients
+		?b: the protocol
+	?a were excluded from ?b
+		?a: Five patients
+		?b: the analysis
+
+
+label:    sent_10
+sentence: Mesalazine was started , but the patient did not comply with therapy . At present 516 services were contacted and 172 did not comply with inclusion criteria .
+
+ppatt:
+	?a was started
+		?a: Mesalazine
+	?a did not comply with ?b At ?c
+		?a: the patient
+		?b: therapy
+		?c: present 516 services
+	?a were contacted
+		?a: Mesalazine
+	?a did not comply with ?b
+		?a: 172
+		?b: inclusion criteria
+
+
+label:    sent_11
+sentence: Although the patient was advised to have postoperative radiotherapy , he did not comply .
+
+ppatt:
+	?a was advised to have ?b
+		?a: the patient
+		?b: postoperative radiotherapy
+	?a did not comply
+		?a: he
+
+
+label:    sent_12
+sentence: If a woman requested condoms , men and women agreed the man must comply .
+
+ppatt:
+	?a requested ?b
+		?a: a woman
+		?b: condoms
+	?a agreed
+		?a: men
+	?a agreed
+		?a: women
+	?a must comply
+		?a: the man
+
+
+label:    sent_13
+sentence: Two-thirds of those asked responded that they would comply .
+
+ppatt:
+	?a asked
+		?a: those
+	?a responded ?b
+		?a: Two-thirds of those asked
+		?b: SOMETHING := they would comply
+	?a would comply
+		?a: they
+
+
+label:    sent_14
+sentence: Telephone triage services can offer appropriate decisions and decisions that callers comply with .
+
+ppatt:
+	?a can offer ?b ?c
+		?a: Telephone triage services
+		?b: appropriate decisions
+		?c: SOMETHING := callers comply with
+	?a can offer ?b ?c
+		?a: Telephone triage services
+		?b: decisions
+		?c: SOMETHING := callers comply with
+	?a comply ?b
+		?a: callers
+		?b: with
+
+
+label:    sent_15
+sentence: This study investigated the extent to which adults comply with sunscreen advice .
+
+ppatt:
+	?a investigated ?b
+		?a: This study
+		?b: the extent to which adults comply with sunscreen advice
+	?a to ?b comply with ?c
+		?a: the extent
+		?b: adults
+		?c: sunscreen advice
+
+
+label:    sent_16
+sentence: Effective strategies to comply with Joint Commission 's universal protocol .
+
+ppatt:
+	?a comply with 's ?b
+		?a: Effective strategies
+		?b: Joint Commission universal protocol
+
+
+label:    sent_17
+sentence: Women comply breast reconstruction with silicone implants and autologous tissue equally . COPD awareness survey : do Belgian pulmonary physicians comply with the GOLD guidelines 2010 ?
+
+ppatt:
+	?a comply ?b equally ?c
+		?a: Women
+		?b: breast reconstruction with silicone implants and autologous tissue
+		?c: COPD awareness survey
+	do ?a comply with ?b
+		?a: Belgian pulmonary physicians
+		?b: the GOLD guidelines 2010
+
+
+label:    sent_18
+sentence: Women understood the information received but did not fully comply .
+
+ppatt:
+	?a understood ?b
+		?a: Women
+		?b: the information received
+	?a received
+		?a: the information
+	?a did not fully comply
+		?a: Women
+
+
+label:    sent_19
+sentence: Venous thromboembolism in colorectal surgery : skip SCIP or comply ? HIPAA final regulations : how final and how to comply ? Will young children comply and follow instructions to successfully wear soft contact lenses ? 1 did not comply and room no .
+
+ppatt:
+	?a skip ?b ?c
+		?a: Venous thromboembolism in colorectal surgery
+		?b: SCIP
+		?c: HIPAA final regulations
+	?a comply
+		?a: Venous thromboembolism in colorectal surgery
+	how ?a Will ?b comply
+		?a: final
+		?b: young children
+	how ?a Will ?b comply
+		?a: how to comply
+		?b: young children
+	?a follow ?b
+		?a: final
+		?b: instructions to successfully wear soft contact lenses
+	?a follow ?b
+		?a: how to comply
+		?b: instructions to successfully wear soft contact lenses
+	?a successfully wear ?b
+		?a: instructions
+		?b: soft contact lenses
+	?a did not comply ?b
+		?a: 1
+		?b: room no
+
+
+label:    sent_20
+sentence: Three women were lost to follow up and five did not comply .
+
+ppatt:
+	?a were lost to follow ?b
+		?a: Three women
+		?b: up
+	?a were lost to follow ?b
+		?a: Three women
+		?b: five
+	?a did not comply
+		?a: Three women
+
+

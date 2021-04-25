@@ -1,0 +1,52 @@
+label:    sent_1
+sentence: However , these permute at rate in the ps range .
+
+ppatt:
+
+
+
+label:    sent_2
+sentence: These events permute sequentially around the ring from one subunit to the next . ( 2 ) Randomly permute the observations and repeat the previous step . To permute or not to permute .
+
+ppatt:
+	?a permute sequentially around ?b to the next
+		?a: These events
+		?b: the ring from one subunit
+	?a Randomly permute ?b . To ?c
+		?a: These events
+		?b: the observations
+		?c: permute
+	?a Randomly permute ?b . To ?c
+		?a: These events
+		?b: repeat
+		?c: permute
+	?a Randomly permute ?b . To ?c
+		?a: These events
+		?b: the previous step
+		?c: permute
+	?a Randomly permute ?b . To ?c
+		?a: These events
+		?b: the observations
+		?c: not permute
+	?a Randomly permute ?b . To ?c
+		?a: These events
+		?b: repeat
+		?c: not permute
+	?a Randomly permute ?b . To ?c
+		?a: These events
+		?b: the previous step
+		?c: not permute
+
+
+label:    sent_3
+sentence: The algorithm uses the MPWLCM to permute and diffuse plain image simultaneously .
+
+ppatt:
+	?a uses ?b to permute ?c simultaneously
+		?a: The algorithm
+		?b: the MPWLCM
+		?c: plain image
+	?a uses to diffuse
+		?a: The algorithm
+
+

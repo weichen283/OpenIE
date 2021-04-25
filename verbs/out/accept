@@ -1,0 +1,318 @@
+label:    sent_1
+sentence: Patients vary in their willingness to accept risks for small potential gains .
+
+ppatt:
+	?a vary in ?b
+		?a: Patients
+		?b: their willingness to accept risks for small potential gains
+	?a accept ?b for ?c
+		?a: their willingness
+		?b: risks
+		?c: small potential gains
+
+
+label:    sent_2
+sentence: Furthermore , they tend to accept the messages they encounter in these advertisements uncritically . Majority of the children ( 75 % ) were ready to accept orthodontic treatment .
+
+ppatt:
+	Furthermore , ?a tend to accept ?b ?c
+		?a: they
+		?b: the messages
+		?c: SOMETHING := they encounter in these advertisements uncritically
+	?a encounter in ?b uncritically
+		?a: they
+		?b: these advertisements
+	?a is/are 75 %
+		?a: the children
+	?a were ready to accept ?b
+		?a: Majority of the children
+		?b: orthodontic treatment
+
+
+label:    sent_3
+sentence: This is particularly true for molecular phylogeny programs , which accept only certain formats .
+
+ppatt:
+	?a is particularly true for ?b
+		?a: This
+		?b: molecular phylogeny programs , which accept only certain formats
+	?a accept ?b
+		?a: molecular phylogeny programs
+		?b: only certain formats
+
+
+label:    sent_4
+sentence: Why is it so difficult to accept Darwin 's theory of evolution ? Patients with metastatic breast cancer usually accept several lines of chemotherapy .
+
+ppatt:
+	Why is ?a so difficult to accept ?b
+		?a: it
+		?b: Darwin 's theory of evolution
+	?a usually accept ?b
+		?a: Patients with metastatic breast cancer
+		?b: several lines of chemotherapy
+
+
+label:    sent_5
+sentence: Radiologists urge FDA to accept PET-based tumor response criteria in clinical trials .
+
+ppatt:
+	?a accept ?b in ?c
+		?a: Radiologists
+		?b: PET-based tumor response criteria
+		?c: clinical trials
+
+
+label:    sent_6
+sentence: Some nurses believe that older people accept urinary incontinence as a consequence of ageing .
+
+ppatt:
+	?a believe ?b
+		?a: Some nurses
+		?b: SOMETHING := older people accept urinary incontinence as a consequence of ageing
+	?a accept ?b as ?c
+		?a: older people
+		?b: urinary incontinence
+		?c: a consequence of ageing
+
+
+label:    sent_7
+sentence: It has been our policy to accept these patients for operation .
+
+ppatt:
+	?a has been ?b policy
+		?a: It
+		?b: our
+	?a accept ?b for ?c
+		?a: our policy
+		?b: these patients
+		?c: operation
+
+
+label:    sent_8
+sentence: Boys could accept longer screws in the upper thoracic spine compared with girls .
+
+ppatt:
+	?a could accept ?b in ?c
+		?a: Boys
+		?b: longer screws
+		?c: the upper thoracic spine
+	?a compared with girls
+		?a: Boys
+
+
+label:    sent_9
+sentence: For religious reasons , Jehovah 's Witnesses do not accept homologous blood transfusions . 0.76 eV more potent to accept electrons than the maleimide moiety .
+
+ppatt:
+	For ?a , 's ?b do not accept ?c
+		?a: religious reasons
+		?b: Jehovah Witnesses
+		?c: homologous blood transfusions
+	?a more potent to accept ?b than ?c
+		?a: 0.76 eV
+		?b: electrons
+		?c: the maleimide moiety
+
+
+label:    sent_10
+sentence: Therefore , women tend to accept the offered surveillance and refrain from pregnancy .
+
+ppatt:
+	Therefore , ?a tend to accept ?b
+		?a: women
+		?b: the offered surveillance
+	Therefore , ?a tend to refrain from ?b
+		?a: women
+		?b: pregnancy
+
+
+label:    sent_11
+sentence: Spanish osteoporosis patients have well-defined preferences and accept trade-offs among attributes .
+
+ppatt:
+	?a have ?b
+		?a: Spanish osteoporosis patients
+		?b: well-defined preferences
+	?a accept ?b
+		?a: Spanish osteoporosis patients
+		?b: trade-offs among attributes
+
+
+label:    sent_12
+sentence: Elderly patients themselves are also less likely to request or accept reconstruction .
+
+ppatt:
+	?a are also less likely to request ?b
+		?a: Elderly patients themselves
+		?b: reconstruction
+	?a are also less likely to accept
+		?a: Elderly patients themselves
+
+
+label:    sent_13
+sentence: The patient did not accept surgery , and anticoagulation with warfarin was initiated .
+
+ppatt:
+	?a did not accept ?b
+		?a: The patient
+		?b: surgery
+	?a was initiated
+		?a: anticoagulation with warfarin
+
+
+label:    sent_14
+sentence: The majority of SPC services accept ESRD patients , but limited numbers are referred .
+
+ppatt:
+	?a accept ?b
+		?a: The majority of SPC services
+		?b: ESRD patients
+	?a are referred
+		?a: limited numbers
+
+
+label:    sent_15
+sentence: They must accept this responsibility , propose interventions , and evaluate their effectiveness .
+
+ppatt:
+	?a must accept ?b
+		?a: They
+		?b: this responsibility
+	?a propose ?b
+		?a: They
+		?b: interventions
+	?a evaluate ?b
+		?a: They
+		?b: their effectiveness
+
+
+label:    sent_16
+sentence: Participants were trained to accept and hand-off aircraft and to detect aircraft conflicts .
+
+ppatt:
+	?a were trained to accept ?b
+		?a: Participants
+		?b: aircraft
+	?a were trained to to detect ?b
+		?a: Participants
+		?b: aircraft conflicts
+
+
+label:    sent_17
+sentence: Patients decide to accept or decline cancer clinical trials without having adequate knowledge .
+
+ppatt:
+	?a decide to accept ?b
+		?a: Patients
+		?b: cancer clinical trials
+	?a decide to decline
+		?a: Patients
+	?a having ?b
+		?a: Patients
+		?b: adequate knowledge
+
+
+label:    sent_18
+sentence: The key to collaboration is to accept and manage conflict .
+
+ppatt:
+	?a is to accept ?b
+		?a: The key to collaboration
+		?b: conflict
+	?a is to manage
+		?a: The key to collaboration
+
+
+label:    sent_19
+sentence: Neoadjuvant therapy for esophageal cancer -- what can we accept ? [ Should we accept that our professional domain quietly disappears ? ] . Everyone must accept that the nation 's problems are due to overpopulation .
+
+ppatt:
+	?a ?b can ?c accept
+		?a: Neoadjuvant therapy for esophageal cancer
+		?b: what
+		?c: we
+	?a Should ?b accept ?c
+		?a: Neoadjuvant therapy for esophageal cancer -- what can we accept
+		?b: we
+		?c: SOMETHING := our professional domain quietly disappears ? ]
+	?a quietly disappears ?b
+		?a: our professional domain
+		?b: ]
+	?a must accept due to ?b
+		?a: Everyone
+		?b: SOMETHING := the nation 's problems are overpopulation
+	?a are due to overpopulation
+		?a: the nation 's problems
+
+
+label:    sent_20
+sentence: Students accept and support a formal consent process .
+
+ppatt:
+	?a accept
+		?a: Students
+	?a support ?b
+		?a: Students
+		?b: a formal consent process
+
+
+label:    sent_21
+sentence: Females did not accept and rear the young after caesarian section .
+
+ppatt:
+	?a did not accept ?b after ?c
+		?a: Females
+		?b: the young
+		?c: caesarian section
+	?a rear
+		?a: Females
+
+
+label:    sent_22
+sentence: They should accept and provide the female condom .
+
+ppatt:
+	?a should accept ?b
+		?a: They
+		?b: the female condom
+	?a provide
+		?a: They
+
+
+label:    sent_23
+sentence: Most strict patients would accept more relaxed standards at night and during the weekend .
+
+ppatt:
+	?a would accept ?b at ?c
+		?a: Most strict patients
+		?b: more relaxed standards
+		?c: night
+	?a would accept ?b at ?c
+		?a: Most strict patients
+		?b: more relaxed standards
+		?c: the weekend
+
+
+label:    sent_24
+sentence: Ben Mitchell points out , but Christians must not accept pluralism as an ideology .
+
+ppatt:
+	?a must not accept ?b as ?c
+		?a: Christians
+		?b: pluralism
+		?c: an ideology
+
+
+label:    sent_25
+sentence: At that time women would accept screening and understood its importance .
+
+ppatt:
+	?a would accept ?b
+		?a: time women
+		?b: screening
+	?a understood ?b
+		?a: time women
+		?b: its importance
+
+

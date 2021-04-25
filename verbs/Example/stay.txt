@@ -1,0 +1,39 @@
+prep	Length of stay was reduced significantly .	prep_of@Length
+prep	Median length of stay was 18 days .	prep_of@length
+prep	The laparoscopic group had a shorter length of stay .	prep_of@length
+
+subj	Median hospital stay was 7.5 days ( 5-15 ) .	subj@hospital
+subj	Mean postoperative hospital stay was 2.1 days .	subj@hospital
+subj	Average postoperative hospital stay was 6.4 days .	subj@hospital
+
+subj#prep	Nutrition status and risk factors associated with length of hospital stay for surgical patients .	subj@status prep_for@patients
+subj#prep	Influences on length of stay in an enhanced recovery programme after colonic surgery .	subj@Influences prep_after@surgery prep_in@programme
+subj#prep	Mean hospital stay after the procedure was 1.59 days .	subj@hospital prep_after@procedure
+
+subj#conj	The mean hospital stay was 28 days and the 1-year survival was 75 % .	subj@hospital conj_and@%
+subj#conj	The COPD grade , intubation period , ICU stay and hospital stay were studied .	subj@grade subj@hospital conj_and@stay
+subj#conj	Mortality rate was 29.4 % , and the mean hospital stay was 23.6 days .	subj@hospital conj_and@%
+
+prep#conj	Therefore , some OPN molecules are not secreted and stay in cells .	prep_in@cells conj_and@secreted
+prep#conj	Secondary end-points were length of stay ( LOS ) and recurrence .	prep_of@length conj_and@recurrence
+prep#conj	Local infiltration analgesia in TKA patients reduces length of stay and postoperative pain scores .	prep_of@length conj_and@scores
+
+subj#prep#conj	The mortality rate was 0.5 % and mean stay in the ICU 2.8 days .	subj@mean prep_in@days conj_and@%
+subj#prep#conj	VP is associated with lower cost and shorter postoperative hospital stay in China .	subj@hospital prep_in@China conj_and@associated
+subj#prep#conj	Infection group had relative shorter average fever duration and hospital stay than other groups .	subj@hospital prep_than@groups conj_and@had
+
+conj	It also resulted in a decreased hospital stay and better cosmesis .	conj_and@cosmesis
+conj	Switch or stay ?	conj_or@Switch
+conj	Mate recognition : should fly stay or should fly go ?	conj_or@go
+
+obj#prep	Most patients experienced their stay in the unit as positive .	obj@experienced prep_in@unit
+obj#prep	Units transfused were recorded intraoperatively and during stay in the intensive care unit .	obj@during prep_in@unit
+obj#prep	Other variables included preoperative stay , age , severity and total length of stay .	obj@included prep_of@age
+
+subj#obj#prep	Coil embolization is associated with shorter hospital stay compared to surgical clipping .	subj@hospital obj@clipping prepc_compared_to@to
+subj#obj#prep	[Why do patients stay in recovery units after elective colonic surgery ? ] .	subj@[Why obj@patients prep_after@surgery prep_in@units
+subj#obj#prep	Compared with adults , children stay relatively shortly in the Intensive Care Unit .	subj@children obj@adults prep_in@Unit prepc_compared_with@with
+
+subj#obj#prep#conj	Should I stay or should I go : Wnt signals at the synapse .	subj@I obj@signals prep_at@synapse conj_or@go
+subj#obj#prep#conj	Should I stay or should I go : beta-catenin decides under stress .	subj@I obj@decides prep_under@stress conj_or@go
+

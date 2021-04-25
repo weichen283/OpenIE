@@ -1,0 +1,312 @@
+label:    sent_1
+sentence: Hence , there is often a need to augment SRI treatment with other drugs . Y-40138 is known to suppress the pro-inflammatory cytokines and augment the anti-inflammatory cytokines .
+
+ppatt:
+	Hence , there is often ?a
+		?a: a need to augment SRI treatment with other drugs
+	?a augment ?b
+		?a: a need
+		?b: SRI treatment with other drugs
+	?a is known to suppress ?b
+		?a: Y-40138
+		?b: the pro-inflammatory cytokines
+	?a is known to augment ?b
+		?a: Y-40138
+		?b: the anti-inflammatory cytokines
+
+
+label:    sent_2
+sentence: Bone grafting techniques were not used to augment bone formation . 4872 augment preexisting waste , fraud , and abuse laws and regulations .
+
+ppatt:
+	?a were not used to augment ?b
+		?a: Bone grafting techniques
+		?b: bone formation
+	?a augment ?b
+		?a: 4872
+		?b: preexisting waste
+	?a augment ?b
+		?a: 4872
+		?b: fraud
+	?a augment ?b
+		?a: 4872
+		?b: abuse
+	?a augment ?b
+		?a: 4872
+		?b: laws
+	?a augment ?b
+		?a: 4872
+		?b: regulations
+
+
+label:    sent_3
+sentence: Integrin alphavbeta3-targeted gold nanoshells augment tumor vasculature-specific imaging and therapy .
+
+ppatt:
+	?a augment ?b
+		?a: Integrin alphavbeta3-targeted gold nanoshells
+		?b: tumor vasculature-specific imaging
+	?a augment ?b
+		?a: Integrin alphavbeta3-targeted gold nanoshells
+		?b: therapy
+
+
+label:    sent_4
+sentence: Interpersonal and emotional processing techniques may not augment CBT for all GAD participants .
+
+ppatt:
+	?a may not augment ?b for ?c
+		?a: Interpersonal and emotional processing techniques
+		?b: CBT
+		?c: all GAD participants
+
+
+label:    sent_5
+sentence: Wider dissemination could augment efforts by schools , clinicians , and health educators .
+
+ppatt:
+	?a could augment ?b
+		?a: Wider dissemination
+		?b: efforts by schools , clinicians , and health educators
+
+
+label:    sent_6
+sentence: Simvastatin application to augment facial jaw bone in a dog model : pilot study .
+
+ppatt:
+	?a augment ?b in ?c
+		?a: Simvastatin application
+		?b: facial jaw bone
+		?c: a dog model
+
+
+label:    sent_7
+sentence: In addition , liberation of toxic iron from intracellular stores may augment radical formation .
+
+ppatt:
+	In ?a , ?b may augment ?c
+		?a: addition
+		?b: liberation of toxic iron from intracellular stores
+		?c: radical formation
+
+
+label:    sent_8
+sentence: SIS was used to augment the urethral caliber at the stricture site .
+
+ppatt:
+	?a was used to augment ?b at ?c
+		?a: SIS
+		?b: the urethral caliber
+		?c: the stricture site
+
+
+label:    sent_9
+sentence: RO- and RS-RO-ORS did not significantly augment net electrolyte absorption compared with G-ORS .
+
+ppatt:
+	?a did not significantly augment ?b
+		?a: RO-
+		?b: net electrolyte absorption
+	?a did not significantly augment ?b
+		?a: RS-RO-ORS
+		?b: net electrolyte absorption
+	?a compared with G-ORS
+		?a: RO-
+	?a compared with G-ORS
+		?a: RS-RO-ORS
+
+
+label:    sent_10
+sentence: TNF-beta failed to augment growth factor production by endothelial cells at any concentration tested .
+
+ppatt:
+	?a failed to augment ?b at ?c
+		?a: TNF-beta
+		?b: growth factor production by endothelial cells
+		?c: any concentration tested
+	?a tested
+		?a: any concentration
+
+
+label:    sent_11
+sentence: Indomethacin augments the proliferation of alloantigen-activated cells but does not further augment suppression .
+
+ppatt:
+	?a augments ?b
+		?a: Indomethacin
+		?b: the proliferation of alloantigen-activated cells
+	?a does not further augment ?b
+		?a: Indomethacin
+		?b: suppression
+
+
+label:    sent_12
+sentence: Educational materials were prepared to guide and augment the HCF diet instruction .
+
+ppatt:
+	?a were prepared to guide ?b
+		?a: Educational materials
+		?b: the HCF diet instruction
+	?a were prepared to augment
+		?a: Educational materials
+
+
+label:    sent_13
+sentence: Methods to transiently impair Treg functions and augment NK cell alloreactivity will be discussed .
+
+ppatt:
+	?a transiently impair ?b
+		?a: Methods
+		?b: Treg functions
+	?a augment ?b
+		?a: Methods
+		?b: NK cell alloreactivity
+	?a will be discussed
+		?a: Methods to transiently impair Treg functions and augment NK cell alloreactivity
+
+
+label:    sent_14
+sentence: Some repairs augment strength , but increasing bulk mitigates against movement .
+
+ppatt:
+	?a augment ?b
+		?a: Some repairs
+		?b: strength
+	increasing ?a
+		?a: bulk
+	?a mitigates against ?b
+		?a: bulk
+		?b: movement
+
+
+label:    sent_15
+sentence: KEGG pathways were incorporated and links to external databases augment the information in GiSAO.db . Intracellular organelle-dependent signaling occurs , and effector molecules then augment the receptor-initiated apoptosis process .
+
+ppatt:
+	?a were incorporated
+		?a: KEGG pathways
+	?a augment ?b
+		?a: links to external databases
+		?b: the information in GiSAO.db
+	?a occurs
+		?a: Intracellular organelle-dependent signaling
+	?a then augment ?b
+		?a: effector molecules
+		?b: the receptor-initiated apoptosis process
+
+
+label:    sent_16
+sentence: Supplementation of thyroid hormones is considered to augment and accelerate antidepressant treatment .
+
+ppatt:
+	?a is considered to augment ?b
+		?a: Supplementation of thyroid hormones
+		?b: antidepressant treatment
+	?a is considered to accelerate
+		?a: Supplementation of thyroid hormones
+
+
+label:    sent_17
+sentence: The proposed approach is complementary to , and may augment , existing LBD methods .
+
+ppatt:
+	?a is complementary ?b
+		?a: The proposed approach
+		?b: to
+	?a may augment ?b
+		?a: The proposed approach
+		?b: existing LBD methods
+
+
+label:    sent_18
+sentence: Therefore , additional effective therapy is required to augment and/or complement current therapy .
+
+ppatt:
+	Therefore , ?a is required to augment ?b
+		?a: additional effective therapy
+		?b: current therapy
+	Therefore , ?a is required to complement
+		?a: additional effective therapy
+
+
+label:    sent_19
+sentence: Physical therapy can augment strength through exercise and relieve contracture through passive stretching .
+
+ppatt:
+	?a can augment ?b through ?c
+		?a: Physical therapy
+		?b: strength
+		?c: exercise
+	?a relieve ?b through ?c
+		?a: Physical therapy
+		?b: contracture
+		?c: passive stretching
+
+
+label:    sent_20
+sentence: Echinacea purpurea and melatonin augment natural-killer cells in leukemic mice and prolong life span .
+
+ppatt:
+	?a augment ?b in ?c
+		?a: Echinacea purpurea
+		?b: natural-killer cells
+		?c: leukemic mice
+	?a augment ?b in ?c
+		?a: melatonin
+		?b: natural-killer cells
+		?c: leukemic mice
+	?a prolong ?b
+		?a: Echinacea purpurea
+		?b: life span
+	?a prolong ?b
+		?a: melatonin
+		?b: life span
+
+
+label:    sent_21
+sentence: Thus , TIMP-2 could both augment and inhibit matrix degradation .
+
+ppatt:
+	Thus , ?a could both augment ?b
+		?a: TIMP-2
+		?b: matrix degradation
+	?a inhibit
+		?a: TIMP-2
+
+
+label:    sent_22
+sentence: Medical malpractice litigation : does it augment or impede quality care ? Melatonin or TRH did not augment or inhibit this nonspecific response .
+
+ppatt:
+	does ?a augment ?b
+		?a: it
+		?b: quality care
+	?a impede
+		?a: it
+	?a ?b did not augment ?c
+		?a: Medical malpractice litigation
+		?b: Melatonin
+		?c: this nonspecific response
+	?a ?b did not augment ?c
+		?a: Medical malpractice litigation
+		?b: TRH
+		?c: this nonspecific response
+	?a inhibit
+		?a: Medical malpractice litigation
+
+
+label:    sent_23
+sentence: Physicians need practical ways to maintain and augment clinical skills after residency training .
+
+ppatt:
+	?a need ?b
+		?a: Physicians
+		?b: practical ways to maintain and augment clinical skills after residency training
+	?a maintain ?b after ?c
+		?a: practical ways
+		?b: clinical skills
+		?c: residency training
+	augment ?a
+		?a: clinical skills
+
+

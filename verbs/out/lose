@@ -1,0 +1,277 @@
+label:    sent_1
+sentence: 52 % of women and 31.7 % of men were attempting to lose weight .
+
+ppatt:
+	?a were attempting to lose ?b
+		?a: 52 % of women
+		?b: weight
+	?a were attempting to lose ?b
+		?a: 31.7 % of men
+		?b: weight
+
+
+label:    sent_2
+sentence: Membrane trafficking and organelle biogenesis in Giardia lamblia : use it or lose it . Blacks were particularly less likely to have tried to lose weight . M.O. personally guarantees you will not lose money .
+
+ppatt:
+	lose ?a
+		?a: it
+	?a ?b were particularly less likely to have tried to lose ?c
+		?a: Membrane trafficking in Giardia lamblia
+		?b: Blacks
+		?c: weight
+	?a ?b were particularly less likely to have tried to lose ?c
+		?a: organelle biogenesis
+		?b: Blacks
+		?c: weight
+	?a personally guarantees ?b
+		?a: M.O.
+		?b: SOMETHING := you will not lose money
+	?a will not lose ?b
+		?a: you
+		?b: money
+
+
+label:    sent_3
+sentence: Want to lose weight ? ( 4 ) Residual viable cells lose the ability of self-renewal and adherent differentiation .
+
+ppatt:
+	Want to lose ?a
+		?a: weight
+	?a lose ?b
+		?a: Residual viable cells
+		?b: the ability of self-renewal and adherent differentiation
+
+
+label:    sent_4
+sentence: Both rules lose usefulness for CD4 counts coming near to treatment threshold .
+
+ppatt:
+	?a lose ?b
+		?a: Both rules
+		?b: usefulness for CD4 counts coming near to treatment threshold
+	?a coming near to ?b
+		?a: CD4 counts
+		?b: treatment threshold
+
+
+label:    sent_5
+sentence: [Do oral proton pump inhibitors lose effect after splitting ? ] . Why does n't the brain lose weight , when obese people diet ? Some large lesions may lose endothelium with rough surface have a dike appearance .
+
+ppatt:
+	?a lose ?b after ?c
+		?a: [Do oral proton pump inhibitors
+		?b: effect
+		?c: splitting
+	?a is/are ]
+		?a: splitting
+	Why does n't ?a lose ?b ?c
+		?a: the brain
+		?b: weight
+		?c: when obese people diet
+	?a may lose ?b
+		?a: Some large lesions
+		?b: endothelium with rough surface
+	?a have ?b
+		?a: the brain
+		?b: a dike appearance
+
+
+label:    sent_6
+sentence: Faceshields lose impact resistance with typical use . In most sites , obese mothers tended to lose less weight than normal-weight mothers .
+
+ppatt:
+	?a lose ?b . In ?c
+		?a: Faceshields
+		?b: impact resistance with typical use
+		?c: most sites
+	?a tended to lose ?b than ?c
+		?a: obese mothers
+		?b: less weight
+		?c: normal-weight mothers
+
+
+label:    sent_7
+sentence: FOXP3+ CD4+ Tregs lose suppressive potential but remain anergic during transient inflammation in human .
+
+ppatt:
+	?a lose ?b
+		?a: FOXP3+ CD4+ Tregs
+		?b: suppressive potential
+	?a remain anergic during ?b
+		?a: FOXP3+ CD4+ Tregs
+		?b: transient inflammation in human
+
+
+label:    sent_8
+sentence: Plasmodium-infected erythrocytes lose their normal deformability and become susceptible to splenic filtration .
+
+ppatt:
+	?a lose ?b
+		?a: Plasmodium-infected erythrocytes
+		?b: their normal deformability
+	?a become susceptible to ?b
+		?a: Plasmodium-infected erythrocytes
+		?b: splenic filtration
+
+
+label:    sent_9
+sentence: Paralysis victims lose the feedback of this receptor and can not initiate motor responses . How to lose friends and alienate people .
+
+ppatt:
+	?a lose ?b
+		?a: Paralysis victims
+		?b: the feedback of this receptor
+	?a can not initiate ?b How to lose ?c
+		?a: Paralysis victims
+		?b: motor responses
+		?c: friends
+	?a can not initiate ?b How to lose ?c
+		?a: Paralysis victims
+		?b: motor responses
+		?c: alienate people
+
+
+label:    sent_10
+sentence: Use IT or lose it ? Subsequently , ZM447439-treated cells exit mitosis without dividing and lose viability .
+
+ppatt:
+	lose ?a
+		?a: it
+	?a Subsequently , ?b exit ?c
+		?a: Use
+		?b: ZM447439-treated cells
+		?c: mitosis
+	?a Subsequently , ?b exit ?c
+		?a: lose it
+		?b: ZM447439-treated cells
+		?c: mitosis
+	?a dividing ?b
+		?a: Use
+		?b: viability
+	?a dividing ?b
+		?a: lose it
+		?b: viability
+	?a lose
+		?a: Use
+	?a lose
+		?a: lose it
+
+
+label:    sent_11
+sentence: Without oxygen , these devices rapidly lose photovoltage and photocurrent and are rendered useless .
+
+ppatt:
+	Without ?a , ?b rapidly lose ?c
+		?a: oxygen
+		?b: these devices
+		?c: photovoltage
+	Without ?a , ?b rapidly lose ?c
+		?a: oxygen
+		?b: these devices
+		?c: photocurrent
+	?a are rendered useless
+		?a: these devices
+
+
+label:    sent_12
+sentence: Bees lose their barbed stinger after stinging and die . On the contrary , lymphocytes lose cholesterol , but absorb fat acids .
+
+ppatt:
+	?a lose ?b after ?c
+		?a: Bees
+		?b: their barbed stinger
+		?c: stinging
+	?a die
+		?a: Bees
+	On ?a , ?b lose ?c
+		?a: the contrary
+		?b: lymphocytes
+		?c: cholesterol
+	?a absorb ?b
+		?a: lymphocytes
+		?b: fat acids
+
+
+label:    sent_13
+sentence: Obese woman should try to lose weight before pregnancy but probably not during pregnancy .
+
+ppatt:
+	?a should try to lose ?b before ?c
+		?a: Obese woman
+		?b: weight
+		?c: pregnancy
+	?a should try to lose ?b before ?c
+		?a: Obese woman
+		?b: weight
+		?c: probably not pregnancy
+
+
+label:    sent_14
+sentence: Allergenic proteins in extracts degrade rapidly and lose potency on storage .
+
+ppatt:
+	?a degrade rapidly
+		?a: Allergenic proteins in extracts
+	?a lose ?b
+		?a: Allergenic proteins in extracts
+		?b: potency on storage
+
+
+label:    sent_15
+sentence: Women have less muscle than men but lose it more slowly during aging . New Year 's resolutions to lose weight --dreams and reality . No time to lose .
+
+ppatt:
+	?a have ?b than ?c
+		?a: Women
+		?b: less muscle
+		?c: men
+	?a lose ?b more slowly during ?c ?d
+		?a: Women
+		?b: it
+		?c: aging
+		?d: New Year 's resolutions to lose weight --dreams and reality
+	?a lose ?b
+		?a: New Year 's resolutions
+		?b: weight --dreams
+	?a lose ?b
+		?a: New Year 's resolutions
+		?b: reality
+
+
+label:    sent_16
+sentence: Attrition in longitudinal studies : who do you lose ? Vulnerable people have most to lose from online access .
+
+ppatt:
+	?a do you lose ?b
+		?a: Attrition in longitudinal studies
+		?b: Vulnerable people
+	?a have ?b to lose from ?c
+		?a: Attrition in longitudinal studies : who do you lose ? Vulnerable people
+		?b: most
+		?c: online access
+
+
+label:    sent_17
+sentence: Those lose to follow-up were not among those unwilling to tolerate their bleeding pattern .
+
+ppatt:
+	?a lose to ?b
+		?a: Those
+		?b: follow-up
+	?a were not among those unwilling
+		?a: Those lose to follow-up
+	tolerate ?a
+		?a: their bleeding pattern
+
+
+label:    sent_18
+sentence: Is it necessary for one party to win and the other party to lose ?
+
+ppatt:
+	Is ?a necessary for ?b to win ?c to lose
+		?a: it
+		?b: one party
+		?c: the other party
+
+

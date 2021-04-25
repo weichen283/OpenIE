@@ -1,0 +1,21 @@
+label:    sent_1
+sentence: These results suggest that migrating raptors modulate their response to crosswinds at different places and times during their travels and show that individual birds use a much more varied repertoire of behavioural responses to wind than hitherto assumed .
+
+ppatt:
+	?a suggest ?b
+		?a: These results
+		?b: SOMETHING := that migrating raptors modulate their response to crosswinds at different places and times during their travels
+	?a modulate ?b during ?c
+		?a: migrating raptors
+		?b: their response to crosswinds at different places and times
+		?c: their travels
+	?a show ?b
+		?a: These results
+		?b: SOMETHING := individual birds use a much more varied repertoire of behavioural responses to wind than hitherto assumed
+	?a use ?b
+		?a: individual birds
+		?b: a much more varied repertoire of behavioural responses to wind
+	?a than hitherto assumed
+		?a: individual birds
+
+

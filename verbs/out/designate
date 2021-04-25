@@ -1,0 +1,263 @@
+label:    sent_1
+sentence: The scoring system was used to designate low- and high-scoring groups .
+
+ppatt:
+	?a was used to designate ?b
+		?a: The scoring system
+		?b: low- and high-scoring groups
+
+
+label:    sent_2
+sentence: A wide range of Cd concentrations have been used to designate resistance in organisms .
+
+ppatt:
+	?a have been used to designate ?b
+		?a: A wide range of Cd concentrations
+		?b: resistance in organisms
+
+
+label:    sent_3
+sentence: We propose to designate this entity " caustic sclerosing cholangitis " . Nine lesions were in females ; 1 case did not designate patient sex .
+
+ppatt:
+	?a propose to designate ?b in ?c
+		?a: We
+		?b: this entity " caustic sclerosing cholangitis "
+		?c: SOMETHING := Nine lesions were females
+	?a were in females
+		?a: Nine lesions
+	?a did not designate ?b
+		?a: case
+		?b: patient sex
+
+
+label:    sent_4
+sentence: To differentiate the unrelated families , we designate the peanut gene as AhDGAT .
+
+ppatt:
+	differentiate ?a ?b
+		?a: the unrelated families
+		?b: we
+	?a designate ?b as ?c
+		?a: we
+		?b: the peanut gene
+		?c: AhDGAT
+
+
+label:    sent_5
+sentence: We designate this domain PEP-CTERM .
+
+ppatt:
+	?a designate ?b ?c
+		?a: We
+		?b: domain
+		?c: this PEP-CTERM
+
+
+label:    sent_6
+sentence: Thus , we would propose to designate Williams syndrome as an epigenome-regulator disease .
+
+ppatt:
+	Thus , ?a would propose to designate ?b as ?c
+		?a: we
+		?b: Williams syndrome
+		?c: an epigenome-regulator disease
+
+
+label:    sent_7
+sentence: This makes it difficult to designate one particular activity as the cause of LBP . IUCN Red List Conservation Criteria were implemented to designate conservation status for each lineage .
+
+ppatt:
+	?a makes ?b difficult to designate ?c as ?d
+		?a: This
+		?b: it
+		?c: one particular activity
+		?d: the cause of LBP
+	?a were implemented to designate ?b
+		?a: IUCN Red List Conservation Criteria
+		?b: conservation status for each lineage
+
+
+label:    sent_8
+sentence: Our findings designate fNIRS as suitable tool for monitoring decision-making processes .
+
+ppatt:
+	?a designate ?b as ?c
+		?a: Our findings
+		?b: fNIRS
+		?c: suitable tool for monitoring decision-making processes
+	?a monitoring ?b
+		?a: suitable tool
+		?b: decision-making processes
+
+
+label:    sent_9
+sentence: These valuable features designate them as multifunctional nanoplatforms for theranostic purposes .
+
+ppatt:
+	?a designate ?b as ?c
+		?a: These valuable features
+		?b: them
+		?c: multifunctional nanoplatforms for theranostic purposes
+
+
+label:    sent_10
+sentence: Conventional classification systems designate tumor origins principally on the location of the largest tumor .
+
+ppatt:
+	?a designate ?b on ?c
+		?a: Conventional classification systems
+		?b: tumor origins
+		?c: principally the location of the largest tumor
+
+
+label:    sent_11
+sentence: We document a previously unidentified structure of methane hydrates which we designate structure sK .
+
+ppatt:
+	?a document ?b
+		?a: We
+		?b: a previously unidentified structure of methane hydrates which we designate structure sK
+	?a ?b designate ?c
+		?a: methane hydrates
+		?b: we
+		?c: structure sK
+
+
+label:    sent_12
+sentence: The clones represent five different genes which we designate Mane-DRB * 01-Mane-DRB * 05 .
+
+ppatt:
+	?a represent ?b
+		?a: The clones
+		?b: five different genes which we designate Mane-DRB * 01-Mane-DRB * 05
+	?a ?b designate ?c
+		?a: five different genes
+		?b: we
+		?c: Mane-DRB
+	?a ?b designate ?c
+		?a: five different genes
+		?b: we
+		?c: 01-Mane-DRB
+	?a ?b designate ?c
+		?a: five different genes
+		?b: we
+		?c: * 05
+
+
+label:    sent_13
+sentence: In silico sequence analysis was performed on a novel gene which we designate OC-STAMP .
+
+ppatt:
+	?a was performed on ?b
+		?a: In sequence analysis
+		?b: a novel gene which we designate OC-STAMP
+	?a ?b designate ?c
+		?a: a novel gene
+		?b: we
+		?c: OC-STAMP
+
+
+label:    sent_14
+sentence: We provisionally designate this novel Q region controlled CTL determinant Qc-1 .
+
+ppatt:
+	?a provisionally designate ?b
+		?a: We
+		?b: this novel Q region controlled CTL determinant Qc-1
+
+
+label:    sent_15
+sentence: We designate these antigens provisionally Lq and Qx , respectively . We designate this antigen TALLA , a T-cell ALL antigen . AT III and heparin cofactor are synonyms and designate the same substance .
+
+ppatt:
+	?a designate ?b
+		?a: We
+		?b: these antigens
+	respectively ?a designate ?b
+		?a: We
+		?b: this antigen TALLA
+	?a is/are a T-cell ALL antigen
+		?a: this antigen TALLA
+	?a are synonyms
+		?a: AT III and heparin cofactor
+	?a designate ?b
+		?a: AT III and heparin cofactor
+		?b: the same substance
+
+
+label:    sent_16
+sentence: Residents were instructed to contact available mentors , and ultimately designate a formal mentor .
+
+ppatt:
+	?a were instructed to contact ?b
+		?a: Residents
+		?b: available mentors
+	?a ultimately designate ?b
+		?a: Residents
+		?b: a formal mentor
+
+
+label:    sent_17
+sentence: We resolved several size classes of mtDNA circles and designate these as chromosomes .
+
+ppatt:
+	?a resolved ?b
+		?a: We
+		?b: several size classes of mtDNA circles
+	?a designate ?b
+		?a: We
+		?b: these as chromosomes
+
+
+label:    sent_18
+sentence: There are some 20-30 copies of this element , which we designate ISH51 .
+
+ppatt:
+	There are ?a
+		?a: some 20-30 copies of this element , which we designate ISH51
+	?a ?b designate ?c
+		?a: some 20-30 copies of this element
+		?b: we
+		?c: ISH51
+
+
+label:    sent_19
+sentence: The genes fall into four families , which we designate Lach-UA through Lach-UD .
+
+ppatt:
+	?a fall into ?b
+		?a: The genes
+		?b: four families , which we designate Lach-UA through Lach-UD
+	?a ?b designate ?c through ?d
+		?a: four families
+		?b: we
+		?c: Lach-UA
+		?d: Lach-UD
+
+
+label:    sent_20
+sentence: We have cloned and characterized this element , which we designate ISRf1 .
+
+ppatt:
+	?a have cloned ?b
+		?a: We
+		?b: this element , which we designate ISRf1
+	?a characterized
+		?a: We
+	?a ?b designate ?c
+		?a: this element
+		?b: we
+		?c: ISRf1
+
+
+label:    sent_21
+sentence: Thus , this model , which we designate as the " iSENS ver .
+
+ppatt:
+	?a ?b designate as ?c
+		?a: Thus , this model
+		?b: we
+		?c: the " iSENS ver
+
+

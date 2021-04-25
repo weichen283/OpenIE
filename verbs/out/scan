@@ -1,0 +1,234 @@
+label:    sent_1
+sentence: The diagnostic significance of a gallium scan in this case will also be discussed .
+
+ppatt:
+	?a will also be discussed
+		?a: The diagnostic significance of a gallium scan in this case
+
+
+label:    sent_2
+sentence: Elemental composition is mapped by a survey scan over a broad energy range .
+
+ppatt:
+	?a is mapped by ?b over ?c
+		?a: Elemental composition
+		?b: a survey scan
+		?c: a broad energy range
+
+
+label:    sent_3
+sentence: Ultrasound scan at 20 weeks diagnosed gastroschisis as isolated finding . A two-dimensional polarization interferometry based parallel scan angular surface plasmon resonance biosensor .
+
+ppatt:
+	?a diagnosed ?b as ?c ?d
+		?a: Ultrasound scan at 20 weeks
+		?b: gastroschisis
+		?c: isolated finding
+		?d: A two-dimensional polarization interferometry based parallel scan angular surface plasmon resonance biosensor
+
+
+label:    sent_4
+sentence: The outcomes of men with bone scan negative disease were specifically analysed .
+
+ppatt:
+	?a were specifically analysed
+		?a: The outcomes of men with bone scan negative disease
+
+
+label:    sent_5
+sentence: The LungSign computerized system was employed to scan cellular nuclei .
+
+ppatt:
+	?a was employed to scan ?b
+		?a: The LungSign computerized system
+		?b: cellular nuclei
+
+
+label:    sent_6
+sentence: Hepatobiliary scan for assessing disease severity in patients with cholelithiasis .
+
+ppatt:
+	?a assessing ?b
+		?a: Hepatobiliary scan
+		?b: disease severity in patients with cholelithiasis
+
+
+label:    sent_7
+sentence: The role of ultrasound scan in the diagnosis of occult inguinal hernias . A genome-wide admixture scan for ancestry-linked genes predisposing to sarcoidosis in African-Americans . CT scan 6 hours later showed bilateral SDH with extension to the tentorium .
+
+ppatt:
+	?a predisposing to ?b
+		?a: ancestry-linked genes
+		?b: sarcoidosis in African-Americans
+	?a ?b later showed ?c
+		?a: The role of ultrasound scan in the diagnosis of occult inguinal hernias
+		?b: CT scan
+		?c: bilateral SDH with extension to the tentorium
+	?a ?b later showed ?c
+		?a: A genome-wide admixture scan for ancestry-linked genes predisposing to sarcoidosis in African-Americans
+		?b: CT scan
+		?c: bilateral SDH with extension to the tentorium
+
+
+label:    sent_8
+sentence: A space-time scan statistic for detecting emerging outbreaks .
+
+ppatt:
+	?a detecting ?b
+		?a: A space-time scan statistic
+		?b: emerging outbreaks
+
+
+label:    sent_9
+sentence: Late diagnosis of incomplete Cantrell 's syndrome on CT scan .
+
+ppatt:
+
+
+
+label:    sent_10
+sentence: Hyperspectral nanoscale imaging on dielectric substrates with coaxial optical antenna scan probes .
+
+ppatt:
+
+
+
+label:    sent_11
+sentence: Correlations between CT scan findings and hearing thresholds in otosclerosis .
+
+ppatt:
+
+
+
+label:    sent_12
+sentence: Intrinsic and extrinsic properties of the scan field .
+
+ppatt:
+
+
+
+label:    sent_13
+sentence: ChromoScan : a scan statistic application for identifying chromosomal regions in genomic studies . False-positive thallium-201 parathyroid scan of the mediastinum in Hodgkin 's lymphoma .
+
+ppatt:
+	?a identifying ?b in ?c
+		?a: a scan statistic application
+		?b: chromosomal regions
+		?c: genomic studies
+	identifying ?a in ?b ?c
+		?a: chromosomal regions
+		?b: genomic studies
+		?c: False-positive thallium-201 parathyroid scan of the mediastinum in Hodgkin 's lymphoma
+
+
+label:    sent_14
+sentence: Computed axial tomography scan demonstration of cerebral edema in eclampsia preceded by blindness .
+
+ppatt:
+	?a preceded by ?b
+		?a: eclampsia
+		?b: blindness
+
+
+label:    sent_15
+sentence: The diagnosis can be confirmed by computed tomographic scan or magnetic resonance imaging .
+
+ppatt:
+	?a can be confirmed by ?b
+		?a: The diagnosis
+		?b: computed tomographic scan
+	?a can be confirmed by ?b
+		?a: The diagnosis
+		?b: magnetic resonance
+	?a can be confirmed by ?b
+		?a: The diagnosis
+		?b: imaging
+
+
+label:    sent_16
+sentence: Patients underwent a high-resolution anatomic brain magnetic resonance scan and cognitive assessment .
+
+ppatt:
+	?a underwent ?b
+		?a: Patients
+		?b: a high-resolution anatomic brain magnetic resonance scan
+	?a underwent ?b
+		?a: Patients
+		?b: cognitive assessment
+
+
+label:    sent_17
+sentence: To scan or not to scan . Between the initial scan and the 3-month rescan , participants were referred for PET .
+
+ppatt:
+	scan ?a
+		?a: participants
+	not to scan Between ?a ?b
+		?a: the initial scan
+		?b: participants
+	not to scan Between ?a ?b
+		?a: the 3-month rescan
+		?b: participants
+	?a were referred for ?b
+		?a: participants
+		?b: PET
+
+
+label:    sent_18
+sentence: [ Construction of ultrasonograms by spiral scan and three-dimensional display of tissue ] . Screening of 553 persons for thyroid disease by scan and physical exam was performed .
+
+ppatt:
+	?a was performed
+		?a: Construction of ultrasonograms by spiral scan and three-dimensional display of tissue ] . Screening of 553 persons for thyroid disease by scan and physical
+
+
+label:    sent_19
+sentence: The diagnosis was based on CT scan and MRI findings . All cases had a computed tomographic scan and ultrasound as preoperative workup .
+
+ppatt:
+	?a was based on ?b
+		?a: The diagnosis
+		?b: CT scan
+	?a was based on ?b
+		?a: The diagnosis
+		?b: MRI findings
+	?a had ?b
+		?a: All cases
+		?b: a computed tomographic scan
+
+
+label:    sent_20
+sentence: Pheochromocytoma was diagnosed by CT scan , as well as urine and plasma metanephrines .
+
+ppatt:
+	?a was diagnosed by ?b
+		?a: Pheochromocytoma
+		?b: CT scan
+	?a was diagnosed by ?b
+		?a: Pheochromocytoma
+		?b: urine
+
+
+label:    sent_21
+sentence: The effect of genome-wide association scan quality control on imputation outcome for common variants .
+
+ppatt:
+
+
+
+label:    sent_22
+sentence: Extended scan depth optical coherence tomography for evaluating ocular surface shape .
+
+ppatt:
+	?a evaluating ?b
+		?a: Extended scan depth optical coherence tomography
+		?b: ocular surface shape
+
+
+label:    sent_23
+sentence: Quality of life , pulmonary function , and tomographic scan abnormalities after ARDS .
+
+ppatt:
+
+
+

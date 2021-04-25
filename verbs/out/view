@@ -1,0 +1,89 @@
+label:    sent_1
+sentence: With the availability of large scale expression compendia it is now possible to view own findings in the light of what is already available and retrieve genes with an expression profile similar to a set of genes of interest ( i.e. , a query or seed set ) for a subset of conditions .
+
+ppatt:
+	With ?a compendia ?b is now possible to view ?c
+		?a: the availability of large scale expression
+		?b: it
+		?c: own findings in the light of what is already available and retrieve genes with an expression profile similar to a set of genes of interest for a subset of conditions
+	?a of ?b is already available
+		?a: own findings in the light
+		?b: what
+	of ?a retrieve ?b
+		?a: what
+		?b: genes with an expression profile similar to a set of genes of interest for a subset of conditions
+
+
+label:    sent_2
+sentence: Five main themes emerged from the focus group discussions : 1 ) Women veterans prefer VA women 's clinics for comprehensive medical care ; 2 ) Women veterans have had both positive and negative reproductive health experiences in the VA ; 3 ) Women veterans experience knowledge gaps regarding VA coverage for reproductive health services ; 4 ) Women veterans believe the VA should provide additional coverage for advanced infertility care and for newborns ; and 5 ) Perceived gender discrimination shapes how women veterans view the VA .
+
+ppatt:
+	?a emerged from ?b
+		?a: Five main themes
+		?b: the focus group discussions
+	?a prefer ?b for ?c
+		?a: Women veterans
+		?b: VA women 's clinics
+		?c: comprehensive medical care
+	?a have had ?b
+		?a: Women veterans
+		?b: positive
+	?a have had ?b
+		?a: Women veterans
+		?b: negative
+	?a experience ?b regarding ?c
+		?a: Women veterans
+		?b: knowledge gaps
+		?c: VA coverage for reproductive health services
+	?a believe
+		?a: Women veterans
+	?a should provide ?b ?c
+		?a: the VA
+		?b: additional coverage for advanced infertility care and for newborns
+		?c: Perceived gender discrimination shapes how women veterans view the VA
+	?a how ?b veterans view ?c
+		?a: Perceived gender discrimination shapes
+		?b: women
+		?c: the VA
+
+
+label:    sent_3
+sentence: We conducted a survey to determine how two professional sectors in Belgium , horticulture professionals and nature reserve managers ( those directly involved in conservation ) , view the issues associated with invasive plant species .
+
+ppatt:
+	?a conducted ?b
+		?a: We
+		?b: a survey to determine how two professional sectors in Belgium , and nature reserve managers , view the issues associated with invasive plant species
+	?a determine ?b
+		?a: a survey
+		?b: SOMETHING := how two professional sectors in Belgium , and nature reserve managers , view the issues associated with invasive plant species
+	?a is/are horticulture professionals
+		?a: two professional sectors in Belgium , and nature reserve managers
+	how ?a view ?b
+		?a: two professional sectors in Belgium , and nature reserve managers
+		?b: the issues associated with invasive plant species
+	?a associated with ?b
+		?a: the issues
+		?b: invasive plant species
+
+
+label:    sent_4
+sentence: To investigate how nurses and physicians in the Child and School Health Services view the documentation and transfer of health information .
+
+ppatt:
+	investigate ?a
+		?a: SOMETHING := how nurses and physicians in the Child and School Health Services view the documentation and transfer of health information
+	how ?a view ?b
+		?a: nurses in the Child and School Health Services
+		?b: the documentation of health information
+	how ?a view ?b
+		?a: physicians
+		?b: the documentation of health information
+	how ?a view ?b
+		?a: nurses in the Child and School Health Services
+		?b: transfer
+	how ?a view ?b
+		?a: physicians
+		?b: transfer
+
+

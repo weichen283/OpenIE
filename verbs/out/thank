@@ -1,0 +1,187 @@
+label:    sent_1
+sentence: We would like to thank those who made this volume possible .
+
+ppatt:
+	?a would like to thank ?b
+		?a: We
+		?b: those who made this volume possible
+	?a made ?b possible
+		?a: those
+		?b: this volume
+
+
+label:    sent_2
+sentence: Preface . We would like to thank the authors for their comprehensive contribution .
+
+ppatt:
+	?a ?b would like to thank ?c
+		?a: Preface
+		?b: We
+		?c: the authors for their comprehensive contribution
+
+
+label:    sent_3
+sentence: Dear levosimendan , the right ventricle will thank you ! I thank them all . Acknowledgments We thank all the members of the Japanese Society of Pediatric Hematology-Oncology .
+
+ppatt:
+	Dear ?a , ?b will thank ?c
+		?a: levosimendan
+		?b: the right ventricle
+		?c: you
+	?a thank ?b ?c ?d
+		?a: the right ventricle
+		?b: them
+		?c: all
+		?d: Acknowledgments
+	?a thank ?b
+		?a: We
+		?b: the members of the Japanese Society of Pediatric Hematology-Oncology
+
+
+label:    sent_4
+sentence: Editorial 2013 : five hundred times thank you ! I would like to thank Mr.
+
+ppatt:
+	would like to thank ?a
+		?a: Mr.
+
+
+label:    sent_5
+sentence: Tice for his analysis .
+
+ppatt:
+
+
+
+label:    sent_6
+sentence: Pulmonary Circulation would like to thank our reviewers for their time and effort .
+
+ppatt:
+	?a would like to thank ?b
+		?a: Pulmonary Circulation
+		?b: our reviewers for their time and effort
+
+
+label:    sent_7
+sentence: We are happy to thank all of them for their valuable contributions . A life of my own , thank you . The authors thank to all the contributors that made this article possible . Samuel , I thank you . We thank Jennifer Blank for helping us discover and correct this error . We thank Gibbs and Commons for their interest in our paper .
+
+ppatt:
+	?a are happy to thank ?b
+		?a: We
+		?b: all of them for their valuable contributions
+	?a is/are A life of ?b
+		?a: their valuable contributions
+		?b: my own
+	?a thank ?b
+		?a: We
+		?b: you
+	?a thank to ?b
+		?a: The authors
+		?b: all the contributors that made this article possible
+	?a made ?b
+		?a: all the contributors
+		?b: this article possible
+	?a thank ?b
+		?a: I
+		?b: you
+	?a thank ?b
+		?a: We
+		?b: Jennifer Blank
+	?a helping ?b
+		?a: Jennifer Blank
+		?b: us
+	?a discover ?b
+		?a: We
+		?b: this error
+	?a correct
+		?a: We
+	?a thank ?b for ?c
+		?a: We
+		?b: Gibbs
+		?c: their interest in our paper
+	?a thank ?b for ?c
+		?a: We
+		?b: Commons
+		?c: their interest in our paper
+
+
+label:    sent_8
+sentence: The authors sincerely thank Rani Moran for making them aware of the problem .
+
+ppatt:
+	?a sincerely thank ?b
+		?a: The authors
+		?b: Rani Moran
+	?a making ?b
+		?a: Rani Moran
+		?b: them aware of the problem
+	?a aware of ?b
+		?a: them
+		?b: the problem
+
+
+label:    sent_9
+sentence: One last editorial to say thank you to so many good colleagues .
+
+ppatt:
+	?a say thank ?b to ?c
+		?a: One last editorial
+		?b: you
+		?c: so many good colleagues
+
+
+label:    sent_10
+sentence: Beta-blockers in cirrhosis : thank you for your attention . 5 patients cured without surgery thank to bronchial cyst evacuation . I regret that I can not mention and thank each of these mentors individually .
+
+ppatt:
+	?a cured without ?b
+		?a: 5 patients
+		?b: surgery
+	?a thank to ?b
+		?a: 5 patients cured without surgery
+		?b: bronchial cyst evacuation
+	regret ?a
+		?a: SOMETHING := I can not mention each of these mentors individually
+	?a can not mention ?b individually
+		?a: I
+		?b: each of these mentors
+	?a thank
+		?a: I
+
+
+label:    sent_11
+sentence: We would like to thank to Drs .
+
+ppatt:
+	?a would like to thank to ?b
+		?a: We
+		?b: Drs
+
+
+label:    sent_12
+sentence: We wish to thank Dr Trumble for her constructive letter . [Whom should thank for the raise of child psychiatry ? ] . .. . And I would say thank you so much and see you soon ! Good hospitals should thank and acknowledge whistleblowers .
+
+ppatt:
+	?a wish to thank ?b for ?c ?d
+		?a: We
+		?b: Dr Trumble
+		?c: her constructive letter
+		?d: SOMETHING := [Whom should thank for the raise of child psychiatry ? ]
+	?a should thank for ?b
+		?a: [Whom
+		?b: the raise of child psychiatry ? ]
+	?a would say thank ?b ?c ?d
+		?a: [Whom
+		?b: you
+		?c: so much
+		?d: SOMETHING := Good hospitals should thank
+	?a would say see ?b soon
+		?a: [Whom
+		?b: you
+	?a should thank
+		?a: Good hospitals
+	?a acknowledge ?b
+		?a: Good hospitals
+		?b: whistleblowers
+
+

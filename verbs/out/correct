@@ -1,0 +1,248 @@
+label:    sent_1
+sentence: SMILE is a promising new flapless minimally invasive refractive procedure to correct myopia .
+
+ppatt:
+	?a is a promising new flapless minimally invasive refractive procedure
+		?a: SMILE
+	?a correct ?b
+		?a: a promising new flapless minimally invasive refractive procedure
+		?b: myopia
+
+
+label:    sent_2
+sentence: Newly our results of time-dependent light scattering study correct this presumption .
+
+ppatt:
+	?a correct ?b
+		?a: Newly our results of time-dependent light scattering study
+		?b: this presumption
+
+
+label:    sent_3
+sentence: Vasopressors were used only to correct hypotension .
+
+ppatt:
+	?a were used only to correct ?b
+		?a: Vasopressors
+		?b: hypotension
+
+
+label:    sent_4
+sentence: Propensity matching analysis was used to correct for population differences in risk factors .
+
+ppatt:
+	?a was used to correct for ?b
+		?a: Propensity matching analysis
+		?b: population differences in risk factors
+
+
+label:    sent_5
+sentence: Using PPT to correct for inconsistency in a speeded task .
+
+ppatt:
+	Using ?a
+		?a: PPT
+	correct for ?a
+		?a: inconsistency in a speeded task
+
+
+label:    sent_6
+sentence: Cone beam CT was applied at each fraction to correct for setup errors .
+
+ppatt:
+	?a was applied at ?b to ?c
+		?a: Cone beam CT
+		?b: each fraction
+		?c: correct for setup errors
+	?a to correct for ?b
+		?a: Cone beam CT
+		?b: setup errors
+
+
+label:    sent_7
+sentence: We established that polymerase proofreading and mismatch repair correct BIR errors . Politically correct medicine . A novel approach to correct retracted nipples .
+
+ppatt:
+	?a established ?b
+		?a: We
+		?b: SOMETHING := polymerase proofreading and mismatch repair correct BIR errors
+	?a correct ?b
+		?a: polymerase proofreading
+		?b: BIR errors
+	?a correct ?b
+		?a: mismatch repair
+		?b: BIR errors
+	?a Politically correct ?b ?c
+		?a: polymerase proofreading
+		?b: medicine
+		?c: A novel approach to correct retracted nipples
+	?a Politically correct ?b ?c
+		?a: mismatch repair
+		?b: medicine
+		?c: A novel approach to correct retracted nipples
+	?a correct ?b
+		?a: A novel approach
+		?b: retracted nipples
+
+
+label:    sent_8
+sentence: Evaluating a parametric model to correct multiple sclerosis incidence for reporting delay .
+
+ppatt:
+	Evaluating ?a
+		?a: a parametric model to correct multiple sclerosis incidence for reporting delay
+	?a correct ?b
+		?a: a parametric model
+		?b: multiple sclerosis incidence
+	?a reporting ?b
+		?a: multiple sclerosis incidence
+		?b: delay
+
+
+label:    sent_9
+sentence: A wedge cylindrical lens is used to correct astigmatism over a broadband spectral range . Asymmetric Alfieri 's stitch to correct systolic anterior motion after mitral valve repair .
+
+ppatt:
+	?a is used to correct ?b over ?c . 's ?d to correct ?e after ?f
+		?a: A wedge cylindrical lens
+		?b: astigmatism
+		?c: a broadband spectral range
+		?d: Asymmetric Alfieri stitch
+		?e: systolic anterior motion
+		?f: mitral valve repair
+
+
+label:    sent_10
+sentence: The steps taken to trace and correct these incidents are discussed with adequate data . Preschoolers joke with jokers , but correct foreigners . Stents have been recommended to correct procedural complications and improve long-term patency .
+
+ppatt:
+	?a taken to trace ?b
+		?a: The steps
+		?b: these incidents
+	?a taken to correct
+		?a: The steps
+	?a are discussed with ?b
+		?a: The steps taken to trace and correct these incidents
+		?b: adequate data
+	?a joke with ?b
+		?a: Preschoolers
+		?b: jokers
+	?a ?b have been recommended to correct ?c
+		?a: correct foreigners
+		?b: Stents
+		?c: procedural complications
+	?a have been recommended to improve ?b
+		?a: correct foreigners
+		?b: long-term patency
+
+
+label:    sent_11
+sentence: A comparison of creatinine vs. specific gravity to correct for urinary dilution of cotinine .
+
+ppatt:
+
+
+
+label:    sent_12
+sentence: Endoscopic predictions for T1sm tumors were correct in only 72 % of cases . A method to correct for spectral artifacts in optical-CT dosimetry .
+
+ppatt:
+	?a were correct in ?b
+		?a: Endoscopic predictions for T1sm tumors
+		?b: only 72 % of cases
+
+
+label:    sent_13
+sentence: Multiplanar reconstruction can correct malorientated scans and recover precision losses .
+
+ppatt:
+	?a can correct ?b
+		?a: Multiplanar reconstruction
+		?b: malorientated scans
+	?a recover ?b
+		?a: Multiplanar reconstruction
+		?b: precision losses
+
+
+label:    sent_14
+sentence: Dialysis may partially correct these defects , but can not totally eliminate them . NOS activity was decreased by diabetes , but insulin did not correct it . A correct enthalpy relationship as thermal comfort index for livestock .
+
+ppatt:
+	?a may partially correct ?b
+		?a: Dialysis
+		?b: these defects
+	?a can not totally eliminate ?b
+		?a: Dialysis
+		?b: them
+	?a was decreased by ?b
+		?a: NOS activity
+		?b: diabetes
+	?a did not correct ?b ?c
+		?a: insulin
+		?b: it
+		?c: A correct enthalpy relationship as thermal comfort index for livestock
+
+
+label:    sent_15
+sentence: Conductive keratoplasty to correct residual hyperopia after cataract surgery . Two-step laser in situ keratomileusis to correct high astigmatism after corneal autograft .
+
+ppatt:
+	?a correct ?b after ?c ?d
+		?a: Conductive keratoplasty
+		?b: residual hyperopia
+		?c: cataract surgery
+		?d: Two-step laser in keratomileusis to correct high astigmatism after corneal autograft
+	?a correct ?b after ?c
+		?a: Two-step laser in keratomileusis
+		?b: high astigmatism
+		?c: corneal autograft
+
+
+label:    sent_16
+sentence: The correct and prompt diagnosis and accurate judgment of severity are necessary . 100 of cases which are complex and do not correct .
+
+ppatt:
+	?a are necessary
+		?a: The correct and prompt diagnosis
+	?a are necessary
+		?a: accurate judgment of severity
+	?a are complex
+		?a: cases
+	?a do
+		?a: which
+	?a not correct
+		?a: which
+
+
+label:    sent_17
+sentence: However , traditional operation methods can not effectively correct cyrtosis or stabilize the spine . 3DUS can be used to image the cavity and correct for interfractional motion .
+
+ppatt:
+	However , ?a can not effectively correct ?b
+		?a: traditional operation methods
+		?b: cyrtosis
+	?a stabilize ?b
+		?a: traditional operation methods
+		?b: the spine
+	?a can be used to image ?b
+		?a: 3DUS
+		?b: the cavity
+
+
+label:    sent_18
+sentence: We are able to reliably detect errors and correct against qubit loss . Symptom analyses were exploratory and hence did not correct for Type I error .
+
+ppatt:
+	?a are able to reliably detect ?b
+		?a: We
+		?b: errors
+	?a are able to reliably detect ?b
+		?a: We
+		?b: correct against qubit loss
+	?a were exploratory
+		?a: Symptom analyses
+	?a hence did not correct for ?b
+		?a: Symptom analyses
+		?b: Type I error
+
+

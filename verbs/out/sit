@@ -1,0 +1,265 @@
+label:    sent_1
+sentence: [
+
+ppatt:
+
+
+
+label:    sent_2
+sentence: Animal feed expert and veterinarians need to sit at the table together ] . Health visiting : do n't sit on the political fence .
+
+ppatt:
+	?a need to sit at ?b ?c
+		?a: Animal feed expert
+		?b: the table
+		?c: together ] . Health visiting
+	?a need to sit at ?b ?c
+		?a: veterinarians
+		?b: the table
+		?c: together ] . Health visiting
+	?a do n't sit on ?b
+		?a: Animal feed expert
+		?b: the political fence
+	?a do n't sit on ?b
+		?a: veterinarians
+		?b: the political fence
+
+
+label:    sent_3
+sentence: Back pain when sitting : should everybody just sit up straight ? References to God willing suffering do not sit well with most Western Christians . OMB 's capitation plans do not sit well with HCFA .
+
+ppatt:
+	when ?a should everybody just sit up straight
+		?a: sitting
+	?a ?b do not sit well with ?c
+		?a: Back pain
+		?b: References to God willing suffering
+		?c: most Western Christians
+	?a do not sit well with ?b
+		?a: OMB 's capitation plans
+		?b: HCFA
+
+
+label:    sent_4
+sentence: After an initial problem with orthostatic hypotension , he can sit upright without symptomatology .
+
+ppatt:
+	After ?a , ?b can sit ?c without ?d
+		?a: an initial problem with orthostatic hypotension
+		?b: he
+		?c: upright
+		?d: symptomatology
+
+
+label:    sent_5
+sentence: He had no eye contact and could not sit without support .
+
+ppatt:
+	?a had ?b
+		?a: He
+		?b: no eye contact
+	?a could not sit without ?b
+		?a: He
+		?b: support
+
+
+label:    sent_6
+sentence: She had curved legs and could not sit without support before the treatment .
+
+ppatt:
+	?a had ?b
+		?a: She
+		?b: curved legs
+	?a could not sit without ?b before ?c
+		?a: She
+		?b: support
+		?c: the treatment
+
+
+label:    sent_7
+sentence: They showed generalized hypotonia , abnormal respiration and could not sit without support .
+
+ppatt:
+	?a showed ?b
+		?a: They
+		?b: generalized hypotonia , respiration
+	?a could not sit without ?b
+		?a: They
+		?b: support
+
+
+label:    sent_8
+sentence: She could not sit without support and had hyper-reactive deep tendon reflexes .
+
+ppatt:
+	?a could not sit without ?b
+		?a: She
+		?b: support
+	?a had ?b
+		?a: She
+		?b: hyper-reactive deep tendon reflexes
+
+
+label:    sent_9
+sentence: Mesangial cells sit between the capillary loops and provide structural support .
+
+ppatt:
+	?a sit between ?b
+		?a: Mesangial cells
+		?b: the capillary loops
+	?a provide ?b
+		?a: Mesangial cells
+		?b: structural support
+
+
+label:    sent_10
+sentence: He could not sit by himself and became nearly bed-ridden . 32 people with recently acquired paraplegia and limited ability to sit unsupported .
+
+ppatt:
+	?a could not sit by ?b
+		?a: He
+		?b: himself
+	?a became nearly bed-ridden ?b
+		?a: He
+		?b: 32 people with recently acquired paraplegia
+	?a became nearly bed-ridden ?b
+		?a: He
+		?b: limited ability to sit unsupported
+	?a sit unsupported
+		?a: limited ability
+
+
+label:    sent_11
+sentence: Many medical lasers sit unused . From where I sit .
+
+ppatt:
+	?a sit unused ?b
+		?a: Many medical lasers
+		?b: SOMETHING := From where I sit
+	From where ?a sit
+		?a: I
+
+
+label:    sent_12
+sentence: She remained hypertonic , could not sit and had no hand use . To sit or not to sit ? The patient became able to sit and perform head turning .
+
+ppatt:
+	?a remained hypertonic , could not sit . To sit
+		?a: She
+	?a remained hypertonic , could had ?b . To sit
+		?a: She
+		?b: no hand use
+	?a remained hypertonic , could not sit . To not to sit
+		?a: She
+	?a became able to sit ?b
+		?a: The patient
+		?b: head turning
+	?a became able to perform
+		?a: The patient
+
+
+label:    sent_13
+sentence: Air force DSAs stationed in Germany are trained to sit the UK National Certificate .
+
+ppatt:
+	?a stationed in ?b
+		?a: Air force DSAs
+		?b: Germany
+	?a are trained to sit ?b
+		?a: Air force DSAs stationed in Germany
+		?b: the UK National Certificate
+
+
+label:    sent_14
+sentence: There was no significant difference in supine to sit time .
+
+ppatt:
+	There was ?a to sit ?b
+		?a: no significant difference in supine
+		?b: time
+
+
+label:    sent_15
+sentence: During coarsening , the shrinking islands move laterally to sit directly astride that trench . He could not sit or stand . Basic training prepares doctors to sit and pass the relevant postgraduate examinations .
+
+ppatt:
+	During ?a , ?b move laterally to sit directly astride ?c
+		?a: coarsening
+		?b: the shrinking islands
+		?c: SOMETHING := trench . He could not sit
+	?a ?b could not sit
+		?a: trench
+		?b: He
+	?a stand
+		?a: trench
+	?a prepares ?b to sit
+		?a: Basic training
+		?b: doctors
+	?a prepares to pass ?b
+		?a: Basic training
+		?b: the relevant postgraduate examinations
+
+
+label:    sent_16
+sentence: Ability to sit and rise from the floor as a predictor of all-cause mortality .
+
+ppatt:
+	?a sit from ?b as ?c
+		?a: Ability
+		?b: the floor
+		?c: a predictor of all-cause mortality
+
+
+label:    sent_17
+sentence: Depends on where you sit ! She was able to sit up in a stroller after 6 months .
+
+ppatt:
+	Depends ?a ?b
+		?a: SOMETHING := on where you sit !
+		?b: She
+	on where ?a sit ?b
+		?a: you
+		?b: !
+	?a was able to sit up in ?b after ?c
+		?a: She
+		?b: a stroller
+		?c: 6 months
+
+
+label:    sent_18
+sentence: Ninety-eight patients were able to sit up 30 degrees immediately after hemostasis was achieved .
+
+ppatt:
+	?a were able to sit ?b immediately after ?c
+		?a: Ninety-eight patients
+		?b: up 30 degrees
+		?c: hemostasis
+	?a was achieved
+		?a: Ninety-eight patients
+
+
+label:    sent_19
+sentence: Then sit down and get ready to learn ! Subjects were required to sit upright and maintain a straight gaze .
+
+ppatt:
+	Then sit ?a
+		?a: down
+	get ready to learn ?a
+		?a: ! Subjects
+	were required to sit ?a
+		?a: upright
+	were required to maintain ?a
+		?a: a straight gaze
+
+
+label:    sent_20
+sentence: All patients were able to sit up and resume their diet immediately post-operatively .
+
+ppatt:
+	?a were able to sit up immediately post-operatively
+		?a: All patients
+	?a were able to up resume ?b immediately
+		?a: All patients
+		?b: their diet
+
+

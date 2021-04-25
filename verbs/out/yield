@@ -1,0 +1,275 @@
+label:    sent_1
+sentence: Combinatorial strategies which include physical rehabilitation are beginning to yield promising results .
+
+ppatt:
+	?a include ?b
+		?a: Combinatorial strategies
+		?b: physical rehabilitation
+	?a are beginning to yield ?b
+		?a: Combinatorial strategies which include physical rehabilitation
+		?b: promising results
+
+
+label:    sent_2
+sentence: New treatment options attempt to yield higher survival rate in patients .
+
+ppatt:
+	?a attempt to yield ?b
+		?a: New treatment options
+		?b: higher survival rate in patients
+
+
+label:    sent_3
+sentence: The outputs of these feature maps are summed to yield the final saliency map .
+
+ppatt:
+	?a are summed to yield ?b
+		?a: The outputs of these feature maps
+		?b: the final saliency map
+
+
+label:    sent_4
+sentence: To this end , constrained optimization problems are defined that yield each decision rule . Ablating more than 40 % of the splenic parenchyma may yield better long-term results .
+
+ppatt:
+	To ?a , ?b are defined ?c
+		?a: this end
+		?b: constrained optimization problems
+		?c: SOMETHING := that yield each decision rule Ablating more than 40 % of the splenic parenchyma
+	?a yield ?b
+		?a: that
+		?b: each decision rule
+	?a Ablating ?b
+		?a: that
+		?b: more than 40 % of the splenic parenchyma
+	?a may yield ?b
+		?a: constrained optimization problems
+		?b: better long-term results
+
+
+label:    sent_5
+sentence: Two copies of this construct yield six bright , separable colors .
+
+ppatt:
+	?a yield ?b
+		?a: Two copies of this construct
+		?b: six bright , colors
+
+
+label:    sent_6
+sentence: In concert , the data yield evidence for retrieval-based explanations of distractor-to-distractor repetitions .
+
+ppatt:
+	In ?a , ?b yield ?c
+		?a: concert
+		?b: the data
+		?c: evidence for retrieval-based explanations of distractor-to-distractor repetitions
+
+
+label:    sent_7
+sentence: Different HRQoL instruments yield somewhat different results for different conditions .
+
+ppatt:
+	?a yield ?b for ?c
+		?a: Different HRQoL instruments
+		?b: somewhat different results
+		?c: different conditions
+
+
+label:    sent_8
+sentence: In practice , experiments usually yield data with non-conforming observations .
+
+ppatt:
+	In ?a , ?b usually yield ?c
+		?a: practice
+		?b: experiments
+		?c: data with non-conforming observations
+
+
+label:    sent_9
+sentence: Foot-mounted sensors were found to yield slightly better results than sensors on the shank . Mitochondria continually fuse and divide to yield a dynamic interconnected network throughout the cell .
+
+ppatt:
+	?a were found to yield ?b
+		?a: Foot-mounted sensors
+		?b: slightly better results than sensors on the shank
+	?a continually fuse
+		?a: Mitochondria
+	?a divide to yield ?b throughout ?c
+		?a: Mitochondria
+		?b: a dynamic interconnected network
+		?c: the cell
+
+
+label:    sent_10
+sentence: SRLS was shown to yield MF in appropriate asymptotic limits . FISH and SISH yield identical results , but assessment is much easier with SISH .
+
+ppatt:
+	?a was shown to yield ?b in ?c
+		?a: SRLS
+		?b: MF
+		?c: appropriate asymptotic limits
+	?a yield ?b
+		?a: FISH
+		?b: identical results
+	?a yield ?b
+		?a: SISH
+		?b: identical results
+	?a is much easier with ?b
+		?a: assessment
+		?b: SISH
+
+
+label:    sent_11
+sentence: The current treatment approaches yield unsatisfactory results , and potential therapeutic targets need exploration .
+
+ppatt:
+	?a yield ?b
+		?a: The current treatment approaches
+		?b: unsatisfactory results
+	?a need ?b
+		?a: potential therapeutic targets
+		?b: exploration
+
+
+label:    sent_12
+sentence: Early evaluation may not yield well-localized findings and may mimic other conditions .
+
+ppatt:
+	?a may not yield ?b
+		?a: Early evaluation
+		?b: well-localized findings
+	?a may mimic ?b
+		?a: Early evaluation
+		?b: other conditions
+
+
+label:    sent_13
+sentence: Technological , rheological and yield differences among Egyptian wheat varieties .
+
+ppatt:
+
+
+
+label:    sent_14
+sentence: Oversizing valves may be technically hazardous and do not yield superior outcomes .
+
+ppatt:
+	?a may be technically hazardous
+		?a: Oversizing valves
+	?a do not yield ?b
+		?a: Oversizing valves
+		?b: superior outcomes
+
+
+label:    sent_15
+sentence: The phase 2 data are less detailed , but yield full national coverage . 20 % yield . R0 and lymph node yield may help to predict the recurrence of oesophageal cancer .
+
+ppatt:
+	?a are less detailed
+		?a: The phase 2 data
+	?a yield ?b
+		?a: The phase 2 data
+		?b: full national coverage
+	?a yield ?b
+		?a: The phase 2 data
+		?b: 20 % yield
+	?a may help to predict ?b
+		?a: R0
+		?b: the recurrence of oesophageal cancer
+	?a may help to predict ?b
+		?a: lymph node yield
+		?b: the recurrence of oesophageal cancer
+
+
+label:    sent_16
+sentence: This yield also held for 60 HUVEC in <10 ( 4 ) PBMCs .
+
+ppatt:
+	?a also held for ?b in ?c
+		?a: This yield
+		?b: 60 HUVEC
+		?c: <10 ( 4 ) PBMCs
+
+
+label:    sent_17
+sentence: Biexciton quantum yield of single semiconductor nanocrystals from photon statistics . Sediment yield as a desertification risk indicator .
+
+ppatt:
+	?a yield as ?b
+		?a: Biexciton quantum yield of single semiconductor nanocrystals from photon statistics . Sediment
+		?b: a desertification risk indicator
+
+
+label:    sent_18
+sentence: Simulation results indicate that the method can yield over 96 % reduction in genotyping .
+
+ppatt:
+	?a indicate ?b
+		?a: Simulation results
+		?b: SOMETHING := the method can yield over 96 % reduction in genotyping
+	?a can yield over ?b
+		?a: the method
+		?b: 96 % reduction in genotyping
+
+
+label:    sent_19
+sentence: These methods yield well-defined predictable product profiles at high yield and with low impurities .
+
+ppatt:
+	?a yield ?b at ?c
+		?a: These methods
+		?b: well-defined predictable product profiles
+		?c: high yield
+	?a yield ?b at ?c
+		?a: These methods
+		?b: well-defined predictable product profiles
+		?c: low impurities
+
+
+label:    sent_20
+sentence: Endometrial/endocervical biopsy may yield a diagnosis without an invasive procedure and should be performed .
+
+ppatt:
+	?a may yield ?b without ?c
+		?a: Endometrial/endocervical biopsy
+		?b: a diagnosis
+		?c: an invasive procedure
+	?a should be performed
+		?a: Endometrial/endocervical biopsy
+
+
+label:    sent_21
+sentence: Unilateral procedures yield similar results to bilateral ones and should be pursued whenever feasible .
+
+ppatt:
+	?a yield ?b
+		?a: Unilateral procedures
+		?b: similar results to bilateral ones
+	?a should be pursued
+		?a: Unilateral procedures
+	?a whenever feasible
+		?a: Unilateral procedures
+
+
+label:    sent_22
+sentence: [ Effects of climate change on winter wheat growth and yield in North China ] . There are some aspects of ethical issues that will yield to such analysis .
+
+ppatt:
+	?a There are ?b
+		?a: Effects of climate change on winter wheat growth and yield in North China ]
+		?b: some aspects of ethical issues that will yield to such analysis
+	?a will yield to ?b
+		?a: ethical issues
+		?b: such analysis
+
+
+label:    sent_23
+sentence: There is relatively little yield to serial EEGs beyond this point .
+
+ppatt:
+	There is ?a beyond ?b
+		?a: relatively little yield to serial EEGs
+		?b: this point
+
+

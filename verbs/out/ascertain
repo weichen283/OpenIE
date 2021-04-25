@@ -1,0 +1,294 @@
+label:    sent_1
+sentence: Intraoperative frozen sections were also used to ascertain clear surgical margins .
+
+ppatt:
+	?a were also used to ascertain ?b
+		?a: Intraoperative frozen sections
+		?b: clear surgical margins
+
+
+label:    sent_2
+sentence: Twenty-one EU cases were studied using a questionnaire to ascertain injecting behavior details .
+
+ppatt:
+	?a were studied using ?b
+		?a: Twenty-one EU cases
+		?b: a questionnaire to ascertain injecting behavior details
+	?a ascertain ?b
+		?a: a questionnaire
+		?b: injecting behavior details
+
+
+label:    sent_3
+sentence: These assays are laborious requiring whole animal sectioning to ascertain tissue localization .
+
+ppatt:
+	?a are laborious requiring ?b
+		?a: These assays
+		?b: whole animal sectioning
+	?a ascertain ?b
+		?a: These assays
+		?b: tissue localization
+
+
+label:    sent_4
+sentence: To ascertain true morphology and interpret the radiographic images three-dimensionally multiple views are required .
+
+ppatt:
+	ascertain ?a
+		?a: true morphology
+	interpret ?a
+		?a: the radiographic images
+	three-dimensionally ?a are required
+		?a: multiple views
+
+
+label:    sent_5
+sentence: It is of paramount importance to ascertain and meet the needs of survivors themselves .
+
+ppatt:
+	?a is of paramount importance
+		?a: It
+	?a ascertain ?b
+		?a: paramount importance
+		?b: the needs of survivors
+	?a meet
+		?a: It
+
+
+label:    sent_6
+sentence: To ascertain anti-influenza vaccination coverage and factors associated with anti-influenza vaccination among Spanish children .
+
+ppatt:
+	ascertain ?a
+		?a: anti-influenza vaccination coverage associated with anti-influenza vaccination among Spanish children
+	ascertain ?a
+		?a: factors
+	?a associated with ?b
+		?a: anti-influenza vaccination coverage
+		?b: anti-influenza vaccination among Spanish children
+	?a associated with ?b
+		?a: factors
+		?b: anti-influenza vaccination among Spanish children
+
+
+label:    sent_7
+sentence: Each parent was then interviewed separately to ascertain their experiences of using the diary .
+
+ppatt:
+	?a was then interviewed separately to ascertain ?b
+		?a: Each parent
+		?b: their experiences
+	?a using ?b
+		?a: Each parent
+		?b: the diary
+
+
+label:    sent_8
+sentence: Little work has been done to ascertain patient adherence levels to these recommendations .
+
+ppatt:
+	?a has been done to ascertain ?b to ?c
+		?a: Little work
+		?b: patient adherence levels
+		?c: these recommendations
+
+
+label:    sent_9
+sentence: A sampling scheme was used to ascertain cases in the out-of-hospital setting .
+
+ppatt:
+	?a was used to ascertain ?b in ?c
+		?a: A sampling scheme
+		?b: cases
+		?c: the out-of-hospital setting
+
+
+label:    sent_10
+sentence: Prostate-specific antigen to ascertain reliability of self-reported coital exposure to semen .
+
+ppatt:
+	?a ascertain ?b
+		?a: Prostate-specific antigen
+		?b: reliability of self-reported coital exposure to semen
+
+
+label:    sent_11
+sentence: We therefore must correctly ascertain any existence of either vertebral or hip fractures .
+
+ppatt:
+	?a therefore must correctly ascertain ?b
+		?a: We
+		?b: any existence of either vertebral or hip
+
+
+label:    sent_12
+sentence: We ascertain the information preferences of men with a family history of prostate cancer .
+
+ppatt:
+	?a ascertain ?b
+		?a: We
+		?b: the information preferences of men with a family history of prostate cancer
+
+
+label:    sent_13
+sentence: Different electrophysiologic tests were developed to ascertain or detect endolymphatic hydrops ( ELH ) . Inability to incorporate historic performance or ascertain facility process traits that influence CPMs .
+
+ppatt:
+	?a were developed to ascertain ?b ?c
+		?a: Different electrophysiologic tests
+		?b: endolymphatic hydrops
+		?c: Inability to incorporate historic performance or ascertain facility process traits that influence CPMs
+	?a were developed to detect
+		?a: Different electrophysiologic tests
+	?a is/are ELH
+		?a: endolymphatic hydrops
+	?a incorporate ?b
+		?a: Inability
+		?b: historic performance
+	ascertain ?a
+		?a: facility process traits that influence CPMs
+	?a influence ?b
+		?a: facility process traits
+		?b: CPMs
+
+
+label:    sent_14
+sentence: To ascertain and compare psychological morbidity following first- and second-trimester termination for fetal anomaly .
+
+ppatt:
+	ascertain ?a
+		?a: psychological morbidity following first- and second-trimester for fetal anomaly
+	compare ?a
+		?a: psychological morbidity following first- and second-trimester for fetal anomaly
+
+
+label:    sent_15
+sentence: The procedure described in this paper can be used to ascertain such accuracy . Low-dose effects are more difficult to ascertain than high-dose effects .
+
+ppatt:
+	?a described in ?b
+		?a: The procedure
+		?b: this paper
+	?a can be used to ascertain ?b
+		?a: The procedure described in this paper
+		?b: such accuracy
+	?a are more difficult to ascertain than ?b
+		?a: Low-dose effects
+		?b: high-dose effects
+
+
+label:    sent_16
+sentence: This expression can be difficult to ascertain in widespread metastases .
+
+ppatt:
+	?a can be difficult to ascertain in ?b
+		?a: This expression
+		?b: widespread metastases
+
+
+label:    sent_17
+sentence: Therefore , we could not ascertain CTC circadian-rhythm in hospitalized metastasic breast cancer patients .
+
+ppatt:
+	Therefore , ?a could not ascertain ?b in ?c
+		?a: we
+		?b: CTC circadian-rhythm
+		?c: hospitalized metastasic breast cancer patients
+
+
+label:    sent_18
+sentence: We ascertain whether a less intensive algorithm could be adopted while retaining diagnostic efficacy .
+
+ppatt:
+	?a ascertain ?b
+		?a: We
+		?b: SOMETHING := a less intensive algorithm could be adopted while retaining diagnostic efficacy
+	?a could be adopted
+		?a: a less intensive algorithm
+	?a retaining ?b
+		?a: a less intensive algorithm
+		?b: diagnostic efficacy
+
+
+label:    sent_19
+sentence: These findings ascertain that psychopathology and suicidal behaviours are strongly related to PIU .
+
+ppatt:
+	?a ascertain ?b
+		?a: These findings
+		?b: SOMETHING := psychopathology and suicidal behaviours are strongly related to PIU
+	?a are strongly related to ?b
+		?a: psychopathology
+		?b: PIU
+	?a are strongly related to ?b
+		?a: suicidal
+		?b: PIU
+	?a are strongly related to ?b
+		?a: behaviours
+		?b: PIU
+
+
+label:    sent_20
+sentence: Validation of de-identified record linkage to ascertain hospital admissions in a cohort study .
+
+ppatt:
+	?a ascertain ?b in ?c
+		?a: Validation of de-identified record linkage
+		?b: hospital admissions
+		?c: a cohort study
+
+
+label:    sent_21
+sentence: In addition , we ascertain the human costs associated with these policies .
+
+ppatt:
+	In ?a , ?b ascertain ?c
+		?a: addition
+		?b: we
+		?c: the human costs associated with these policies
+	?a associated with ?b
+		?a: the human costs
+		?b: these policies
+
+
+label:    sent_22
+sentence: Two blinded physicians will ascertain ADE status through a case review .
+
+ppatt:
+	?a will ascertain ?b through ?c
+		?a: Two blinded physicians
+		?b: ADE status
+		?c: a case review
+
+
+label:    sent_23
+sentence: Physicians should ascertain their patients ' levels of uncertainty and adjust their input accordingly . physicians should ascertain their patients ' levels of uncertainty and adjust their input accordingly .
+
+ppatt:
+	?a should ascertain ?b
+		?a: Physicians
+		?b: their patients ' levels of uncertainty
+	?a adjust ?b accordingly
+		?a: Physicians
+		?b: their input
+	?a should ascertain ?b
+		?a: physicians
+		?b: their patients ' levels of uncertainty
+	?a adjust ?b accordingly
+		?a: physicians
+		?b: their input
+
+
+label:    sent_24
+sentence: Nurses should ascertain possible inherited risk and monitor patients for additional primary skin cancers .
+
+ppatt:
+	?a should ascertain ?b
+		?a: Nurses
+		?b: possible inherited risk
+	?a monitor ?b
+		?a: Nurses
+		?b: patients for additional primary skin cancers
+
+

@@ -1,0 +1,306 @@
+label:    sent_1
+sentence: Consequently , small-intestinal barrier and absorptive functions deteriorate within a short time after weaning .
+
+ppatt:
+	Consequently , ?a deteriorate within ?b
+		?a: small-intestinal barrier
+		?b: a short time after weaning
+	Consequently , ?a deteriorate within ?b
+		?a: absorptive
+		?b: a short time after weaning
+	Consequently , ?a deteriorate within ?b
+		?a: functions
+		?b: a short time after weaning
+
+
+label:    sent_2
+sentence: Disorganized schizophrenia does not deteriorate with dopamine agonists cabergoline and bromocriptine used for ablactation .
+
+ppatt:
+	?a does not deteriorate with ?b
+		?a: Disorganized schizophrenia
+		?b: dopamine agonists used for ablactation
+	?a used for ?b
+		?a: dopamine agonists
+		?b: ablactation
+
+
+label:    sent_3
+sentence: Despite these measures , inevitably , some patients deteriorate while receiving mechanical ventilation .
+
+ppatt:
+	Despite ?a , inevitably , ?b deteriorate
+		?a: these measures
+		?b: some patients
+	?a receiving ?b
+		?a: some patients
+		?b: mechanical ventilation
+
+
+label:    sent_4
+sentence: Findings revealed that the PSRs may develop or deteriorate through three , overlapping phases .
+
+ppatt:
+	?a revealed ?b
+		?a: Findings
+		?b: SOMETHING := the PSRs may develop through three , overlapping phases
+	?a may develop through ?b
+		?a: the PSRs
+		?b: three , overlapping phases
+	?a deteriorate
+		?a: the PSRs
+
+
+label:    sent_5
+sentence: This ability seems to deteriorate as dementia progresses .
+
+ppatt:
+	?a seems to deteriorate as ?b progresses
+		?a: This ability
+		?b: dementia
+
+
+label:    sent_6
+sentence: Leptin concentrations begin to deteriorate after only 3 days at room temperature .
+
+ppatt:
+	?a begin to deteriorate after ?b
+		?a: Leptin concentrations
+		?b: only 3 days at room temperature
+
+
+label:    sent_7
+sentence: This study confirms that retinal image blur associated with multifocality does not deteriorate stereoacuity .
+
+ppatt:
+	?a confirms ?b
+		?a: This study
+		?b: SOMETHING := retinal image blur associated with multifocality does not deteriorate stereoacuity
+	?a associated with ?b
+		?a: retinal image blur
+		?b: multifocality
+	?a does not deteriorate ?b
+		?a: retinal image blur associated with multifocality
+		?b: stereoacuity
+
+
+label:    sent_8
+sentence: [Undocumented regimes after total hip and knee arthroplasty can deteriorate the results ] . These effects can further deteriorate eating patterns .
+
+ppatt:
+	?a can deteriorate ?b ?c
+		?a: [Undocumented regimes after total hip and knee arthroplasty
+		?b: the results
+		?c: ]
+	?a can further deteriorate ?b
+		?a: These effects
+		?b: eating patterns
+
+
+label:    sent_9
+sentence: However , they can deteriorate , producing pain and fistulization .
+
+ppatt:
+	However , ?a can deteriorate , producing ?b
+		?a: they
+		?b: pain
+	However , ?a can deteriorate , producing ?b
+		?a: they
+		?b: fistulization
+
+
+label:    sent_10
+sentence: Long-term functional results did not deteriorate .
+
+ppatt:
+	?a did not deteriorate
+		?a: Long-term functional results
+
+
+label:    sent_11
+sentence: In periods where the asthma spontaneously deteriorate , there will be more exercise-induced asthma .
+
+ppatt:
+	?a where ?b spontaneously deteriorate
+		?a: periods
+		?b: the asthma
+
+
+label:    sent_12
+sentence: Diuretics tend to further deteriorate renal function .
+
+ppatt:
+	?a tend to further deteriorate ?b
+		?a: Diuretics
+		?b: renal function
+
+
+label:    sent_13
+sentence: Crowding is known to deteriorate the quality of peripheral information .
+
+ppatt:
+	?a is known to deteriorate ?b
+		?a: Crowding
+		?b: the quality of peripheral information
+
+
+label:    sent_14
+sentence: ET-1 is also proved to deteriorate the ischemia-reperfusion injury in many organs .
+
+ppatt:
+	?a is also proved to deteriorate ?b
+		?a: ET-1
+		?b: the ischemia-reperfusion injury in many organs
+
+
+label:    sent_15
+sentence: Mid-term results are known to be satisfactory , but they deteriorate with longer follow-up .
+
+ppatt:
+	?a are known to be satisfactory
+		?a: Mid-term results
+	?a deteriorate with ?b
+		?a: they
+		?b: longer follow-up
+
+
+label:    sent_16
+sentence: Hereditary hemorrhagic telangiectasia may deteriorate during pregnancy and improve after delivery .
+
+ppatt:
+	?a may deteriorate during ?b
+		?a: Hereditary hemorrhagic telangiectasia
+		?b: pregnancy
+	?a improve after ?b
+		?a: Hereditary hemorrhagic telangiectasia
+		?b: delivery
+
+
+label:    sent_17
+sentence: Results do deteriorate with time but most patients consider the surgery satisfactory .
+
+ppatt:
+	?a do deteriorate with ?b
+		?a: Results
+		?b: time
+	?a consider ?b satisfactory
+		?a: most patients
+		?b: the surgery
+
+
+label:    sent_18
+sentence: However , such strategies often deteriorate or contaminate the functional carbon surfaces .
+
+ppatt:
+	However , ?a often deteriorate ?b
+		?a: such strategies
+		?b: the functional carbon surfaces
+	?a contaminate
+		?a: such strategies
+
+
+label:    sent_19
+sentence: Preoperatively symptomatic patients with spinal tumors did not deteriorate nor improve after surgery .
+
+ppatt:
+	?a did not deteriorate after ?b
+		?a: Preoperatively symptomatic patients with spinal tumors
+		?b: surgery
+	?a improve
+		?a: Preoperatively symptomatic patients with spinal tumors
+
+
+label:    sent_20
+sentence: Otherwise , renal function may deteriorate or the kidney will be irreversibly damaged .
+
+ppatt:
+	Otherwise , ?a may deteriorate
+		?a: renal function
+	?a will be irreversibly damaged
+		?a: the kidney
+
+
+label:    sent_21
+sentence: Lifestyle-related diseases deteriorate bone quality in terms of material properties .
+
+ppatt:
+	?a deteriorate ?b in ?c
+		?a: Lifestyle-related diseases
+		?b: bone quality
+		?c: terms of material properties
+
+
+label:    sent_22
+sentence: The results indicate that osteoporosis may deteriorate the disc degeneration at specific time . Only rarely did VT deteriorate to VF .
+
+ppatt:
+	?a indicate ?b
+		?a: The results
+		?b: SOMETHING := osteoporosis may deteriorate the disc degeneration at specific time
+	?a may deteriorate ?b at ?c
+		?a: osteoporosis
+		?b: the disc degeneration
+		?c: specific time
+	Only rarely did ?a deteriorate to ?b
+		?a: VT
+		?b: VF
+
+
+label:    sent_23
+sentence: The gel is easy to handle and did not deteriorate on repeated use . Renal function was stable and did not deteriorate under CNI treatment .
+
+ppatt:
+	?a is easy to handle
+		?a: The gel
+	?a is easy to did not deteriorate on ?b
+		?a: The gel
+		?b: repeated use
+	?a was stable
+		?a: Renal function
+	?a did not deteriorate under ?b
+		?a: Renal function
+		?b: CNI treatment
+
+
+label:    sent_24
+sentence: Head-injured patients who talk and deteriorate into coma .
+
+ppatt:
+	?a talk
+		?a: Head-injured patients
+	?a deteriorate into ?b
+		?a: who
+		?b: coma
+
+
+label:    sent_25
+sentence: Although the appropriate antibiotics were given , he continued to deteriorate and eventually died .
+
+ppatt:
+	?a were given
+		?a: the appropriate antibiotics
+	?a continued to deteriorate
+		?a: he
+	?a continued to and eventually died
+		?a: he
+
+
+label:    sent_26
+sentence: While waiting for transplantation , some patients become refractory to treatment and deteriorate progressively . Part 2 : Patients who talk and deteriorate : implications for treatment .
+
+ppatt:
+	waiting for ?a ?b
+		?a: transplantation
+		?b: some patients
+	?a become refractory to ?b
+		?a: some patients
+		?b: treatment
+	?a deteriorate progressively ?b
+		?a: some patients
+		?b: Part 2
+	?a talk
+		?a: Patients
+	?a deteriorate
+		?a: who
+
+

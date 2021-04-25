@@ -1,0 +1,325 @@
+label:    sent_1
+sentence: Prevention and intervention approaches can target common causes of diverse public health problems .
+
+ppatt:
+	?a can target ?b
+		?a: Prevention
+		?b: common causes of diverse public health problems
+	?a can target ?b
+		?a: intervention
+		?b: common causes of diverse public health problems
+
+
+label:    sent_2
+sentence: Most did not target patients with ALI .
+
+ppatt:
+	?a did not target ?b
+		?a: Most
+		?b: patients with ALI
+
+
+label:    sent_3
+sentence: Many therapeutic options target B cells or plasma cells .
+
+ppatt:
+	?a target ?b
+		?a: Many therapeutic options
+		?b: B cells
+	?a target ?b
+		?a: Many therapeutic options
+		?b: plasma cells
+
+
+label:    sent_4
+sentence: There are several examples of membrane-associated protein domains that target curved membranes .
+
+ppatt:
+	There are ?a
+		?a: several examples of membrane-associated protein domains that target curved membranes
+	?a target ?b
+		?a: membrane-associated protein domains
+		?b: curved membranes
+
+
+label:    sent_5
+sentence: Further research into the pathogen-specific burden is needed to better target intervention strategies .
+
+ppatt:
+	?a is needed to better target ?b
+		?a: Further research into the pathogen-specific burden
+		?b: intervention strategies
+
+
+label:    sent_6
+sentence: Traditional approaches have attempted to target the disease when it is already symptomatic .
+
+ppatt:
+	?a have attempted to target ?b
+		?a: Traditional approaches
+		?b: the disease
+	when ?a is already symptomatic
+		?a: it
+
+
+label:    sent_7
+sentence: Either NLS1 or NLS2 alone was sufficient to target LRH-1 to the nucleus . Oncogenomics to target myeloma in the bone marrow microenvironment .
+
+ppatt:
+	?a was sufficient to target ?b to ?c ?d
+		?a: NLS1 alone
+		?b: LRH-1
+		?c: the nucleus
+		?d: Oncogenomics
+	?a was sufficient to target ?b to ?c ?d
+		?a: NLS2
+		?b: LRH-1
+		?c: the nucleus
+		?d: Oncogenomics
+	?a was sufficient to to target ?b in ?c
+		?a: NLS1 alone
+		?b: myeloma
+		?c: the bone marrow microenvironment
+	?a was sufficient to to target ?b in ?c
+		?a: NLS2
+		?b: myeloma
+		?c: the bone marrow microenvironment
+
+
+label:    sent_8
+sentence: This example of ethnic inequity highlights the importance to target those most in need .
+
+ppatt:
+	?a highlights ?b
+		?a: This example of ethnic inequity
+		?b: the importance to target those most in need
+	?a target ?b
+		?a: the importance
+		?b: those most in need
+
+
+label:    sent_9
+sentence: Pitfalls in target mRNA quantification for real-time quantitative RT-PCR in overload-induced skeletal muscle hypertrophy .
+
+ppatt:
+
+
+
+label:    sent_10
+sentence: Identification of kinase inhibitors that target transcription initiation by RNA polymerase II .
+
+ppatt:
+	?a target ?b
+		?a: kinase inhibitors
+		?b: transcription initiation by RNA polymerase II
+
+
+label:    sent_11
+sentence: In contrast , most papers reporting empirical studies did not specifically target equity aspects .
+
+ppatt:
+	?a reporting ?b
+		?a: most papers
+		?b: empirical studies
+	In ?a , ?b did not specifically target ?c
+		?a: contrast
+		?b: most papers reporting empirical studies
+		?c: equity aspects
+
+
+label:    sent_12
+sentence: To facilitate EBPE adoption , dissemination efforts should target both principals and PE teachers .
+
+ppatt:
+	facilitate ?a ?b
+		?a: EBPE adoption
+		?b: dissemination efforts
+	?a should target ?b
+		?a: dissemination efforts
+		?b: principals
+	?a should target ?b
+		?a: dissemination efforts
+		?b: PE teachers
+
+
+label:    sent_13
+sentence: They target extracellular molecules , and either label or inhibit them . All Plasmodium species target host erythrocytes and replicate asexually within this niche . miR-132 and miR-212 are increased in pancreatic cancer and target the retinoblastoma tumor suppressor .
+
+ppatt:
+	?a target ?b
+		?a: They
+		?b: extracellular molecules
+	?a either label ?b
+		?a: They
+		?b: them
+	?a inhibit
+		?a: They
+	?a target ?b
+		?a: All Plasmodium species
+		?b: host erythrocytes
+	?a replicate asexually within ?b
+		?a: All Plasmodium species
+		?b: this niche
+	?a are increased in ?b
+		?a: miR-132
+		?b: pancreatic cancer
+	?a are increased in ?b
+		?a: miR-212
+		?b: pancreatic cancer
+	?a target ?b
+		?a: miR-132
+		?b: the retinoblastoma tumor suppressor
+	?a target ?b
+		?a: miR-212
+		?b: the retinoblastoma tumor suppressor
+
+
+label:    sent_14
+sentence: Clean image synthesis and target numerical marching for optical imaging with backscattering light .
+
+ppatt:
+
+
+
+label:    sent_15
+sentence: Surgical approaches are simulated and target coordinates calculated .
+
+ppatt:
+	?a are simulated
+		?a: Surgical approaches
+	?a calculated
+		?a: target coordinates
+
+
+label:    sent_16
+sentence: Prevention approaches that target bullying perpetration and victimisation are necessary . Of five surveillance performance indicators , three were found as per WHO target .
+
+ppatt:
+	?a target ?b
+		?a: Prevention approaches
+		?b: bullying perpetration
+	?a target ?b
+		?a: Prevention approaches
+		?b: victimisation
+	?a are necessary . Of ?b
+		?a: Prevention approaches that target bullying perpetration and victimisation
+		?b: five surveillance performance indicators
+	?a were found ?b
+		?a: three
+		?b: as per WHO target
+
+
+label:    sent_17
+sentence: Control efforts should target this vulnerable group to reduce its prevalence .
+
+ppatt:
+	?a should target ?b to reduce ?c
+		?a: Control efforts
+		?b: this vulnerable group
+		?c: its prevalence
+
+
+label:    sent_18
+sentence: One such promising angiogenic approach is to target and inhibit angiogenesis with vaccines .
+
+ppatt:
+	?a is to target ?b
+		?a: One such promising angiogenic approach
+		?b: angiogenesis with vaccines
+	?a is to inhibit
+		?a: One such promising angiogenic approach
+
+
+label:    sent_19
+sentence: This protein has been shown to specifically target and destroy alveolar macrophages 2 .
+
+ppatt:
+	?a has been shown to specifically target ?b
+		?a: This protein
+		?b: alveolar macrophages 2
+	?a has been shown to destroy
+		?a: This protein
+
+
+label:    sent_20
+sentence: It can also be used to target and assess health education interventions .
+
+ppatt:
+	?a can also be used to target ?b
+		?a: It
+		?b: health education interventions
+	?a can also be used to assess
+		?a: It
+
+
+label:    sent_21
+sentence: Physician respectful attitudes may be important to target in improving communication with patients .
+
+ppatt:
+	?a may be important to target
+		?a: Physician respectful attitudes
+	?a improving ?b
+		?a: Physician respectful attitudes
+		?b: communication with patients
+
+
+label:    sent_22
+sentence: Then we screened the miRNAs that may target to 5'-UTR using online analysis programs .
+
+ppatt:
+	Then ?a screened ?b
+		?a: we
+		?b: the miRNAs that may target to 5'-UTR using online analysis programs
+	?a may target to ?b using ?c
+		?a: the miRNAs
+		?b: 5'-UTR
+		?c: online analysis programs
+
+
+label:    sent_23
+sentence: Alzheimer disease -- no target for statin treatment .
+
+ppatt:
+
+
+
+label:    sent_24
+sentence: CD1d-antibody fusion proteins target iNKT cells to the tumor and trigger long-term therapeutic responses .
+
+ppatt:
+	?a target ?b to ?c
+		?a: CD1d-antibody fusion proteins
+		?b: iNKT cells
+		?c: the tumor
+	?a trigger ?b
+		?a: CD1d-antibody fusion proteins
+		?b: long-term therapeutic responses
+
+
+label:    sent_25
+sentence: Antidepressants commonly target serotonin clearance via serotonin transporters and have variable clinical effects .
+
+ppatt:
+	?a commonly target ?b via ?c
+		?a: Antidepressants
+		?b: serotonin clearance
+		?c: serotonin transporters
+	?a have ?b
+		?a: Antidepressants
+		?b: variable clinical effects
+
+
+label:    sent_26
+sentence: LTBPs target the growth factor into the ECM and expose it to activating mechanisms .
+
+ppatt:
+	?a target ?b into ?c
+		?a: LTBPs
+		?b: the growth factor
+		?c: the ECM
+	?a expose ?b to ?c
+		?a: LTBPs
+		?b: it
+		?c: activating mechanisms
+
+

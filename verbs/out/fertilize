@@ -1,0 +1,218 @@
+label:    sent_1
+sentence: Sperm from worms with spe-42 mutations appear normal but are unable to fertilize eggs .
+
+ppatt:
+	?a appear normal
+		?a: Sperm from worms with spe-42 mutations
+	fertilize ?a
+		?a: eggs
+
+
+label:    sent_2
+sentence: Sperm have but one purpose , to fertilize an egg .
+
+ppatt:
+	?a have
+		?a: Sperm
+	?a one purpose
+		?a: Sperm
+	?a fertilize ?b
+		?a: one purpose
+		?b: an egg
+
+
+label:    sent_3
+sentence: Testicular spermatozoa are functionally immature in that they can not fertilize ova . Sperm also become unable to fertilize eggs within a few minutes after jelly addition .
+
+ppatt:
+	?a are functionally immature
+		?a: Testicular spermatozoa
+	?a can not fertilize ?b
+		?a: they
+		?b: ova
+	?a also become unable to fertilize ?b within ?c
+		?a: Sperm
+		?b: eggs
+		?c: a few minutes after jelly addition
+
+
+label:    sent_4
+sentence: Mammalian spermatozoa are not able to fertilize an oocyte upon ejaculation .
+
+ppatt:
+	?a are not able to fertilize ?b upon ?c
+		?a: Mammalian spermatozoa
+		?b: an oocyte
+		?c: ejaculation
+
+
+label:    sent_5
+sentence: Mammalian spermatozoa are not able to fertilize an egg immediately upon ejaculation .
+
+ppatt:
+	?a are not able to fertilize ?b immediately upon ?c
+		?a: Mammalian spermatozoa
+		?b: an egg
+		?c: ejaculation
+
+
+label:    sent_6
+sentence: However , Chinese hamster spermatozoa could fertilize zona-free Syrian hamster eggs .
+
+ppatt:
+	However , ?a could fertilize ?b
+		?a: Chinese hamster spermatozoa
+		?b: zona-free Syrian hamster eggs
+
+
+label:    sent_7
+sentence: At least half of capacitated , motile mouse sperm can fertilize zona-free mouse oocytes . Microbiology .
+
+ppatt:
+	?a can fertilize ?b ?c
+		?a: At least half of capacitated , mouse sperm
+		?b: zona-free mouse oocytes
+		?c: Microbiology
+
+
+label:    sent_8
+sentence: Leaf bacteria fertilize trees , researchers claim .
+
+ppatt:
+	?a fertilize ?b
+		?a: Leaf bacteria
+		?b: trees
+	?a claim
+		?a: researchers
+
+
+label:    sent_9
+sentence: Chromosome anomalies in human oocytes failing to fertilize after insemination in vitro .
+
+ppatt:
+	?a failing to fertilize after ?b in vitro
+		?a: human oocytes
+		?b: insemination
+
+
+label:    sent_10
+sentence: Thirty-six of the studied couples had failed to fertilize in prior IVF cycles .
+
+ppatt:
+	?a had failed to fertilize in ?b
+		?a: Thirty-six of the studied couples
+		?b: prior IVF cycles
+
+
+label:    sent_11
+sentence: Oocytes that failed to fertilize in clinical IVF were used for the tests .
+
+ppatt:
+	?a failed to fertilize in ?b
+		?a: Oocytes
+		?b: clinical IVF
+	?a were used for ?b
+		?a: Oocytes that failed to fertilize in clinical IVF
+		?b: the tests
+
+
+label:    sent_12
+sentence: The sperm do contact oocytes in mutant hermaphrodites , but do not fertilize .
+
+ppatt:
+	?a do contact ?b
+		?a: The sperm
+		?b: oocytes in mutant hermaphrodites
+	?a do not fertilize
+		?a: The sperm
+
+
+label:    sent_13
+sentence: Long sperm fertilize more eggs in a bird .
+
+ppatt:
+	?a fertilize ?b in ?c
+		?a: Long sperm
+		?b: more eggs
+		?c: a bird
+
+
+label:    sent_14
+sentence: In fact , aging sperm rarely fertilize the ovum .
+
+ppatt:
+	In ?a , ?b rarely fertilize ?c
+		?a: fact
+		?b: aging sperm
+		?c: the ovum
+
+
+label:    sent_15
+sentence: Human sperm can fertilize ova inside the Graafian follicles before ovulation .
+
+ppatt:
+	?a can fertilize ?b inside ?c before ?d
+		?a: Human sperm
+		?b: ova
+		?c: the Graafian follicles
+		?d: ovulation
+
+
+label:    sent_16
+sentence: Interestingly , the one egg fertilized by donor sperm did not fertilize .
+
+ppatt:
+	?a fertilized by ?b
+		?a: the one egg
+		?b: donor sperm
+	Interestingly , ?a did not fertilize
+		?a: the one egg fertilized by donor sperm
+
+
+label:    sent_17
+sentence: Interestingly , sperm isolated from c-ros -/- animals can fertilize in vitro .
+
+ppatt:
+	?a isolated from ?b
+		?a: sperm
+		?b: c-ros -/- animals
+	Interestingly , ?a can fertilize in vitro
+		?a: sperm isolated from c-ros -/- animals
+
+
+label:    sent_18
+sentence: Mature oocytes were more likely than immature oocytes to fertilize .
+
+ppatt:
+	?a were more likely than ?b to fertilize
+		?a: Mature oocytes
+		?b: immature oocytes
+
+
+label:    sent_19
+sentence: In one patient the oocytes did not fertilize in vitro .
+
+ppatt:
+	In ?a ?b did not fertilize in vitro
+		?a: one patient
+		?b: the oocytes
+
+
+label:    sent_20
+sentence: Mammalian spermatozoa fertilize only after capacitation .
+
+ppatt:
+	?a fertilize after ?b
+		?a: Mammalian spermatozoa
+		?b: only capacitation
+
+
+label:    sent_21
+sentence: Failure to fertilize in vitro in couples with male factor infertility : what next ?
+
+ppatt:
+	?a fertilize in vitro in ?b
+		?a: Failure
+		?b: couples with male factor infertility
+
+

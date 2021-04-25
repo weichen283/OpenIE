@@ -1,0 +1,256 @@
+label:    sent_1
+sentence: Until now , it has been thought that insects harbor lamins only . Deep-sea hydrothermal vent chimneys harbor a high diversity of largely unknown microorganisms .
+
+ppatt:
+	Until now , ?a has been thought ?b
+		?a: it
+		?b: SOMETHING := insects harbor lamins only
+	?a harbor ?b only
+		?a: insects
+		?b: lamins
+	?a harbor ?b
+		?a: Deep-sea hydrothermal vent chimneys
+		?b: a high diversity of largely unknown microorganisms
+
+
+label:    sent_2
+sentence: Embryonic stem cell-derived cardiomyocytes harbor a subpopulation of niche-forming Sca-1+ progenitor cells .
+
+ppatt:
+	?a harbor ?b
+		?a: Embryonic stem cell-derived cardiomyocytes
+		?b: a subpopulation of niche-forming Sca-1+ progenitor cells
+
+
+label:    sent_3
+sentence: Strain CBS513.88 is known to harbor 21 copies of the nonautonomous transposon Vader .
+
+ppatt:
+	?a ?b is known to harbor ?c
+		?a: Strain
+		?b: CBS513.88
+		?c: 21 copies of the nonautonomous transposon Vader
+
+
+label:    sent_4
+sentence: We found 899 ESTs that harbor 997 SSRs ( 4.94 % ) . Participants with CMV antibody level> =6 AU/mL were considered to harbor CMV infection .
+
+ppatt:
+	?a found ?b
+		?a: We
+		?b: 899 ESTs that harbor 997 SSRs
+	?a harbor ?b
+		?a: 899 ESTs
+		?b: 997 SSRs
+	?a is/are 4.94 %
+		?a: 997 SSRs
+	?a were considered to harbor ?b
+		?a: Participants with CMV antibody level> =6 AU/mL
+		?b: CMV infection
+
+
+label:    sent_5
+sentence: Thus , cattle may harbor R. parkeri-infected A. maculatum and produce antibodies to SFGR .
+
+ppatt:
+	Thus , ?a may harbor ?b
+		?a: cattle
+		?b: R. parkeri-infected A. maculatum
+	?a produce ?b
+		?a: cattle
+		?b: antibodies to SFGR
+
+
+label:    sent_6
+sentence: Type I tumors rarely harbor TP53 mutations and are relatively stable genetically .
+
+ppatt:
+	?a rarely harbor ?b
+		?a: Type I tumors
+		?b: TP53 mutations
+
+
+label:    sent_7
+sentence: These bacteria harbor several putative virulence factors and display unique metabolic strategies .
+
+ppatt:
+	?a harbor ?b
+		?a: These bacteria
+		?b: several putative virulence factors
+	?a display ?b
+		?a: These bacteria
+		?b: unique metabolic strategies
+
+
+label:    sent_8
+sentence: In both instances , neoplastic mast cells usually harbor the D816V-mutated variant of KIT .
+
+ppatt:
+	In ?a , ?b usually harbor ?c
+		?a: both instances
+		?b: neoplastic mast cells
+		?c: the D816V-mutated variant of KIT
+
+
+label:    sent_9
+sentence: Mammals harbor a dense commensal microbiota in the colon .
+
+ppatt:
+	?a harbor ?b
+		?a: Mammals
+		?b: a dense commensal microbiota in the colon
+
+
+label:    sent_10
+sentence: Most oceanic islands harbor unusual and vulnerable biotas as a result of isolation .
+
+ppatt:
+	?a harbor ?b as ?c
+		?a: Most oceanic islands
+		?b: unusual and vulnerable biotas
+		?c: a result of isolation
+
+
+label:    sent_11
+sentence: Irregular surfaces may help harbor organisms in the environment .
+
+ppatt:
+	?a may help harbor ?b in ?c
+		?a: Irregular surfaces
+		?b: organisms
+		?c: the environment
+
+
+label:    sent_12
+sentence: Patients surviving should be assumed to harbor an underlying malignancy until proved otherwise .
+
+ppatt:
+	?a surviving
+		?a: Patients
+	?a should be assumed to harbor ?b
+		?a: Patients surviving
+		?b: an underlying malignancy
+	?a proved otherwise
+		?a: Patients surviving
+
+
+label:    sent_13
+sentence: The population was found to harbor significant fears around the future . Both lack some metabolic genes and harbor similar plasmids of invasion .
+
+ppatt:
+	?a was found to harbor ?b around ?c
+		?a: The population
+		?b: significant fears
+		?c: the future
+	?a lack ?b
+		?a: Both
+		?b: some metabolic genes
+	?a harbor ?b
+		?a: Both
+		?b: similar plasmids of invasion
+
+
+label:    sent_14
+sentence: These " high-density " snails may have undergone stresses and may harbor opportunistic pathogens .
+
+ppatt:
+	?a may have undergone ?b
+		?a: These " high-density " snails
+		?b: stresses
+	?a may harbor ?b
+		?a: These " high-density " snails
+		?b: opportunistic pathogens
+
+
+label:    sent_15
+sentence: Both techniques are invasive and harbor risks .
+
+ppatt:
+	?a are invasive
+		?a: Both techniques
+	?a harbor ?b
+		?a: Both techniques
+		?b: risks
+
+
+label:    sent_16
+sentence: However , most AMPs harbor multiple basic amino acids that hamper current proteomic identification .
+
+ppatt:
+	However , ?a harbor ?b
+		?a: most AMPs
+		?b: multiple basic amino acids that hamper current proteomic identification
+	?a hamper ?b
+		?a: multiple basic amino acids
+		?b: current proteomic identification
+
+
+label:    sent_17
+sentence: The Archaea harbor many metabolic pathways that differ to previously recognized classical pathways .
+
+ppatt:
+	?a harbor ?b
+		?a: The Archaea
+		?b: many metabolic pathways that differ to previously recognized classical pathways
+	?a differ to ?b
+		?a: many metabolic pathways
+		?b: previously recognized classical pathways
+
+
+label:    sent_18
+sentence: A harbor seal can transfer the same/different concept to new stimulus dimensions .
+
+ppatt:
+	?a can transfer ?b to ?c
+		?a: A harbor seal
+		?b: the same/different concept
+		?c: new stimulus dimensions
+
+
+label:    sent_19
+sentence: Recycling of harbor sediment as lightweight aggregate . PAHs distribution revealed their pyrogenic origin with some biogenic influence in harbor .
+
+ppatt:
+	?a harbor ?b
+		?a: Recycling as lightweight aggregate . PAHs distribution
+		?b: sediment
+	?a revealed ?b with ?c
+		?a: Recycling of harbor sediment as lightweight aggregate . PAHs distribution
+		?b: their pyrogenic origin
+		?c: some biogenic influence in harbor
+
+
+label:    sent_20
+sentence: An ecosystem health status approach was carried out in Portimao harbor as a case-study .
+
+ppatt:
+	?a was carried out
+		?a: An ecosystem health status approach
+	?a in ?b harbor as ?c
+		?a: An ecosystem health status approach
+		?b: Portimao
+		?c: a case-study
+
+
+label:    sent_21
+sentence: Safe harbor for health care cost containment . Up to 35 % of normal individuals may harbor Hemophilus aphrophilus in their oropharynx .
+
+ppatt:
+	?a may harbor ?b in ?c
+		?a: Safe harbor for health care cost containment . Up 35 % of normal individuals
+		?b: Hemophilus aphrophilus
+		?c: their oropharynx
+
+
+label:    sent_22
+sentence: Technical conditions in the safe harbor , in particular , undermine its utility .
+
+ppatt:
+	?a harbor in ?b
+		?a: Technical conditions in the safe
+		?b: particular
+	?a undermine ?b
+		?a: Technical conditions in the safe harbor in particular
+		?b: its utility
+
+

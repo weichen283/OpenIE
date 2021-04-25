@@ -1,0 +1,327 @@
+label:    sent_1
+sentence: Drug resistance marker-aided genome shuffling to improve acetic acid tolerance in Saccharomyces cerevisiae . BLVR allowed to improve the functional status and quality of life of these patients .
+
+ppatt:
+	?a improve ?b
+		?a: Drug resistance marker-aided genome shuffling
+		?b: acetic acid tolerance in Saccharomyces cerevisiae
+	?a ?b allowed to improve ?c
+		?a: Drug resistance marker-aided genome shuffling to improve acetic acid tolerance in Saccharomyces cerevisiae
+		?b: BLVR
+		?c: the functional status of life of these patients
+	?a ?b allowed to improve ?c
+		?a: Drug resistance marker-aided genome shuffling to improve acetic acid tolerance in Saccharomyces cerevisiae
+		?b: BLVR
+		?c: quality
+
+
+label:    sent_2
+sentence: Pharmacogenetic research offers the potential to improve the safety and efficacy of drug prescribing .
+
+ppatt:
+	?a offers ?b
+		?a: Pharmacogenetic research
+		?b: the potential to improve the safety and efficacy of drug prescribing
+	?a improve ?b
+		?a: the potential
+		?b: the safety of drug prescribing
+	?a improve ?b
+		?a: the potential
+		?b: efficacy
+
+
+label:    sent_3
+sentence: Bosentan does not improve pulmonary hypertension and lung remodeling in heart failure .
+
+ppatt:
+	?a does not improve ?b
+		?a: Bosentan
+		?b: pulmonary hypertension in heart failure
+	?a does not improve ?b
+		?a: Bosentan
+		?b: lung remodeling
+
+
+label:    sent_4
+sentence: Bioaugmentation and biostimulation strategies to improve the effectiveness of bioremediation processes .
+
+ppatt:
+	?a improve ?b
+		?a: Bioaugmentation
+		?b: the effectiveness of bioremediation processes
+	?a improve ?b
+		?a: biostimulation
+		?b: the effectiveness of bioremediation processes
+
+
+label:    sent_5
+sentence: Several studies suggest that physical activity may improve health-related quality of life .
+
+ppatt:
+	?a suggest ?b
+		?a: Several studies
+		?b: SOMETHING := physical activity may improve health-related quality of life
+	?a may improve ?b
+		?a: physical activity
+		?b: health-related quality of life
+
+
+label:    sent_6
+sentence: Multi-sensory environment therapy helps improve behavioral and emotional symptoms in elderly patients with dementia .
+
+ppatt:
+	?a helps improve ?b
+		?a: Multi-sensory environment therapy
+		?b: behavioral and emotional symptoms in elderly patients with dementia
+
+
+label:    sent_7
+sentence: Repetitive task-specific training appears to improve upper extremity function among individuals with neurological injuries .
+
+ppatt:
+	?a appears to improve ?b
+		?a: Repetitive task-specific training
+		?b: upper extremity function among individuals with neurological injuries
+
+
+label:    sent_8
+sentence: These insights may be used to improve loading conditions for cartilage tissue engineering .
+
+ppatt:
+	?a may be used to improve ?b
+		?a: These insights
+		?b: loading conditions for cartilage tissue engineering
+
+
+label:    sent_9
+sentence: The robot system can lighten the load on doctors and improve the therapeutic effect .
+
+ppatt:
+	?a can lighten ?b
+		?a: The robot system
+		?b: the load on doctors
+	?a improve ?b
+		?a: The robot system
+		?b: the therapeutic effect
+
+
+label:    sent_10
+sentence: New somatic treatments are needed to reverse these symptoms and improve function .
+
+ppatt:
+	?a are needed to reverse ?b
+		?a: New somatic treatments
+		?b: these symptoms
+	?a are needed to improve ?b
+		?a: New somatic treatments
+		?b: function
+
+
+label:    sent_11
+sentence: We aimed to improve compliance with these guidelines and assess outcomes .
+
+ppatt:
+	?a aimed to improve ?b
+		?a: We
+		?b: compliance with these guidelines
+	?a assess ?b
+		?a: We
+		?b: outcomes
+
+
+label:    sent_12
+sentence: Use of 90-day vaginal estrogen ring may improve bleeding profile in women starting dmpa .
+
+ppatt:
+	?a may improve ?b in ?c
+		?a: Use of 90-day vaginal estrogen ring
+		?b: bleeding profile
+		?c: women starting dmpa
+	?a starting ?b
+		?a: women
+		?b: dmpa
+
+
+label:    sent_13
+sentence: With their use , residents can significantly improve performance in important surgical skills .
+
+ppatt:
+	With ?a , ?b can significantly improve ?c
+		?a: their use
+		?b: residents
+		?c: performance in important surgical skills
+
+
+label:    sent_14
+sentence: Can bisphosphonates improve outcomes in patients with newly diagnosed multiple myeloma ?
+
+ppatt:
+	Can ?a improve ?b
+		?a: bisphosphonates
+		?b: outcomes in patients with newly diagnosed multiple myeloma
+
+
+label:    sent_15
+sentence: Does standardization of care through clinical guidelines improve outcomes and reduce medical liability ? Efforts to preserve RRF in HD patients could improve outcomes and should be encouraged .
+
+ppatt:
+	Does ?a improve ?b
+		?a: standardization of care through clinical guidelines
+		?b: outcomes
+	?a reduce ?b
+		?a: standardization of care through clinical guidelines
+		?b: medical liability
+	?a preserve ?b in ?c
+		?a: Efforts
+		?b: RRF
+		?c: HD patients
+	?a could improve ?b
+		?a: Efforts to preserve RRF in HD patients
+		?b: outcomes
+	?a should be encouraged
+		?a: Efforts to preserve RRF in HD patients
+
+
+label:    sent_16
+sentence: Do statins improve outcomes and delay the progression of non-rheumatic calcific aortic stenosis ? Results improve with increasing vaccination coverage and higher vaccine efficacy .
+
+ppatt:
+	Do ?a improve ?b
+		?a: statins
+		?b: outcomes
+	?a delay ?b
+		?a: statins
+		?b: the progression of non-rheumatic calcific aortic stenosis
+	?a improve with ?b
+		?a: Results
+		?b: increasing vaccination coverage
+	?a improve with ?b
+		?a: Results
+		?b: higher vaccine efficacy
+
+
+label:    sent_17
+sentence: In most patients , TD did not spontaneously improve after stopping aripiprazole .
+
+ppatt:
+	In ?a , ?b did not spontaneously improve
+		?a: most patients
+		?b: TD
+	?a stopping ?b
+		?a: TD
+		?b: aripiprazole
+
+
+label:    sent_18
+sentence: These findings suggest that marmosets ' physical understanding may improve with experience .
+
+ppatt:
+	?a suggest ?b
+		?a: These findings
+		?b: SOMETHING := marmosets ' physical understanding may improve with experience
+	?a may improve with ?b
+		?a: marmosets ' physical understanding
+		?b: experience
+
+
+label:    sent_19
+sentence: It turns out to be difficult to significantly improve upon this simple model .
+
+ppatt:
+	?a turns out to be difficult to significantly improve upon ?b
+		?a: It
+		?b: this simple model
+
+
+label:    sent_20
+sentence: This article will focus on how to improve on IUGR detection .
+
+ppatt:
+	?a will focus on how to improve on ?b
+		?a: This article
+		?b: IUGR detection
+
+
+label:    sent_21
+sentence: Surgery is indicated for selected patient who do not improve after medical treatment .
+
+ppatt:
+	?a is indicated for ?b
+		?a: Surgery
+		?b: selected patient who do not improve after medical treatment
+	?a do not improve after ?b
+		?a: selected patient
+		?b: medical treatment
+
+
+label:    sent_22
+sentence: Both irbesartan and atenolol improve diastolic function , but through different mechanisms .
+
+ppatt:
+	?a improve ?b
+		?a: irbesartan
+		?b: diastolic function
+	?a improve ?b
+		?a: atenolol
+		?b: diastolic function
+
+
+label:    sent_23
+sentence: They may not improve physical status with treatment , but appear to benefit psychologically .
+
+ppatt:
+	?a may not improve ?b
+		?a: They
+		?b: physical status with treatment
+	?a appear to benefit psychologically
+		?a: They
+
+
+label:    sent_24
+sentence: Hemoperfusion may also improve survival after paraquat ingestion , but further data are needed .
+
+ppatt:
+	?a may also improve ?b after ?c
+		?a: Hemoperfusion
+		?b: survival
+		?c: paraquat ingestion
+	?a are needed
+		?a: further data
+
+
+label:    sent_25
+sentence: Sirolimus was safe and may improve outcome in selected patients after liver transplantation .
+
+ppatt:
+	?a was safe
+		?a: Sirolimus
+	?a may improve ?b
+		?a: Sirolimus
+		?b: outcome in selected patients after liver transplantation
+
+
+label:    sent_26
+sentence: Testosterone decreases angina and may improve the cardiac healing response after myocardial infarction .
+
+ppatt:
+	?a decreases ?b
+		?a: Testosterone
+		?b: angina
+	?a may improve ?b after ?c
+		?a: Testosterone
+		?b: the cardiac healing response
+		?c: myocardial infarction
+
+
+label:    sent_27
+sentence: Suggestions are offered on how to improve safety and enhance compliance .
+
+ppatt:
+	?a are offered on how to improve ?b
+		?a: Suggestions
+		?b: safety
+	?a are offered on to enhance ?b
+		?a: Suggestions
+		?b: compliance
+
+

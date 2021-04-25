@@ -1,0 +1,199 @@
+label:    sent_1
+sentence: We developed a new way to raise the flap to obviate these problems .
+
+ppatt:
+	?a developed ?b
+		?a: We
+		?b: a new way to raise the flap to obviate these problems
+	?a raise ?b to obviate ?c
+		?a: a new way
+		?b: the flap
+		?c: these problems
+
+
+label:    sent_2
+sentence: Degradation pathways can be selected by pH control to completely obviate all toxic residuals .
+
+ppatt:
+	?a can be selected by ?b to completely obviate ?c
+		?a: Degradation pathways
+		?b: pH control
+		?c: all toxic residuals
+
+
+label:    sent_3
+sentence: The potential of MR to obviate the need for myelography is discussed .
+
+ppatt:
+	?a obviate ?b
+		?a: The potential of MR
+		?b: the need for myelography
+	?a is discussed
+		?a: The potential of MR to obviate the need for myelography
+
+
+label:    sent_4
+sentence: Only 9 % of them obviate the application of off-label drugs .
+
+ppatt:
+	?a obviate ?b
+		?a: Only 9 % of them
+		?b: the application of off-label drugs
+
+
+label:    sent_5
+sentence: They also obviate the ability to perform longitudinal or kinetic studies in one animal .
+
+ppatt:
+	?a also obviate ?b
+		?a: They
+		?b: the ability to perform longitudinal or kinetic studies in one animal
+	?a perform ?b in ?c
+		?a: the ability
+		?b: longitudinal or kinetic studies
+		?c: one animal
+
+
+label:    sent_6
+sentence: Can suggestion obviate reading ? For lesions of the fundus , it may obviate an esophagogastric anastomosis .
+
+ppatt:
+	Can obviate ?a ? For ?b
+		?a: reading
+		?b: lesions of the fundus
+	?a may obviate ?b
+		?a: it
+		?b: an esophagogastric anastomosis
+
+
+label:    sent_7
+sentence: The use of computerized tomography to obviate celiotomy in recurrent carcinoma of the cervix .
+
+ppatt:
+	?a obviate ?b in ?c
+		?a: The use of computerized tomography
+		?b: celiotomy
+		?c: recurrent carcinoma of the cervix
+
+
+label:    sent_8
+sentence: In a proper clinical context they can obviate the need for invasive electrophysiologic studies .
+
+ppatt:
+	In ?a ?b can obviate ?c
+		?a: a proper clinical context
+		?b: they
+		?c: the need for invasive electrophysiologic studies
+
+
+label:    sent_9
+sentence: Surgical treatment is also needed and may obviate further complications .
+
+ppatt:
+	?a is also needed
+		?a: Surgical treatment
+	?a may obviate ?b
+		?a: Surgical treatment
+		?b: further complications
+
+
+label:    sent_10
+sentence: Pre peritoneal placement may mitigate early satiety and obviate serious Gl complications .
+
+ppatt:
+	?a may mitigate ?b
+		?a: Pre peritoneal placement
+		?b: early satiety
+	?a obviate ?b
+		?a: Pre peritoneal placement
+		?b: serious Gl complications
+
+
+label:    sent_11
+sentence: Computer tomography is of great value in these cases and may obviate thoracotomy .
+
+ppatt:
+	?a is of great value in ?b
+		?a: Computer tomography
+		?b: these cases
+	?a may obviate ?b
+		?a: Computer tomography
+		?b: thoracotomy
+
+
+label:    sent_12
+sentence: It may obviate surgery or optimize the child 's clinical condition for subsequent surgery .
+
+ppatt:
+	?a may obviate ?b
+		?a: It
+		?b: surgery
+	?a optimize ?b
+		?a: It
+		?b: the child 's clinical condition for subsequent surgery
+
+
+label:    sent_13
+sentence: The 5-mm trocars obviate fascial closure , decrease patient discomfort , and improve cosmesis .
+
+ppatt:
+	?a obviate ?b
+		?a: The 5-mm trocars
+		?b: fascial closure
+	?a decrease ?b
+		?a: The 5-mm trocars
+		?b: patient discomfort
+	?a improve ?b
+		?a: The 5-mm trocars
+		?b: cosmesis
+
+
+label:    sent_14
+sentence: The solutions obviate the need for raytracing , and are physically transparent .
+
+ppatt:
+	?a obviate ?b
+		?a: The solutions
+		?b: the need for raytracing
+
+
+label:    sent_15
+sentence: Spontaneous chorioretinal adhesion appears to obviate the need for retinopexy in these selected cases .
+
+ppatt:
+	?a appears to obviate ?b
+		?a: Spontaneous chorioretinal adhesion
+		?b: the need for retinopexy in these selected cases
+
+
+label:    sent_16
+sentence: We seek to obviate this difficulty by the use of picosecond pump-probe absorption spectroscopy .
+
+ppatt:
+	?a seek to obviate ?b by ?c
+		?a: We
+		?b: this difficulty
+		?c: the use of picosecond pump-probe absorption spectroscopy
+
+
+label:    sent_17
+sentence: Surgical backup must be available to obviate recognized complications following ERCP .
+
+ppatt:
+	?a must be available to obviate ?b following ?c
+		?a: Surgical backup
+		?b: recognized complications
+		?c: ERCP
+
+
+label:    sent_18
+sentence: MRI can obviate or facilitate catheterization in these critically ill patients .
+
+ppatt:
+	?a can obviate ?b
+		?a: MRI
+		?b: catheterization in these critically ill patients
+	?a facilitate
+		?a: MRI
+
+

@@ -1,0 +1,113 @@
+label:    sent_1
+sentence: Both mutations are predicted to markedly truncate the mature GALNT3 protein product .
+
+ppatt:
+	?a are predicted to markedly truncate ?b
+		?a: Both mutations
+		?b: the mature GALNT3 protein product
+
+
+label:    sent_2
+sentence: A perfectly matched layer is implemented to truncate the computational domain .
+
+ppatt:
+	?a is implemented to truncate ?b
+		?a: A perfectly matched layer
+		?b: the computational domain
+
+
+label:    sent_3
+sentence: The perfectly matched layer absorbing boundary condition is employed to truncate the computational domain .
+
+ppatt:
+	?a absorbing ?b
+		?a: The perfectly matched layer
+		?b: boundary condition
+	?a is employed to truncate ?b
+		?a: The perfectly matched layer absorbing boundary condition
+		?b: the computational domain
+
+
+label:    sent_4
+sentence: The activated caspases truncate procaspase-3 to exert classical apoptosis .
+
+ppatt:
+	?a truncate ?b to exert ?c
+		?a: The activated caspases
+		?b: procaspase-3
+		?c: classical apoptosis
+
+
+label:    sent_5
+sentence: Comparison of criteria to truncate gastric emptying tests .
+
+ppatt:
+	?a truncate ?b
+		?a: Comparison of criteria
+		?b: gastric emptying tests
+
+
+label:    sent_6
+sentence: They truncate the carboxy terminal of the p50 NF-kappaB transcription factor .
+
+ppatt:
+	?a truncate ?b
+		?a: They
+		?b: the carboxy terminal of the p50 NF-kappaB transcription factor
+
+
+label:    sent_7
+sentence: Furthermore , uPA activates matrix metalloproteinase 9 which can truncate and activate IL-8 .
+
+ppatt:
+	Furthermore , ?a activates ?b
+		?a: uPA
+		?b: matrix metalloproteinase 9 which can truncate and activate IL-8
+	?a can truncate ?b
+		?a: matrix metalloproteinase 9
+		?b: IL-8
+	?a activate
+		?a: which
+
+
+label:    sent_8
+sentence: How to fool a wonder drug : truncate and dimerize .
+
+ppatt:
+	How to fool wonder ?a
+		?a: a drug
+
+
+label:    sent_9
+sentence: These mutations would grossly truncate the ALK-1 protein and are thus classic null alleles .
+
+ppatt:
+	?a would grossly truncate ?b
+		?a: These mutations
+		?b: the ALK-1 protein
+
+
+label:    sent_10
+sentence: Mutations in A-T patients are null alleles that truncate or destabilize the ATM protein .
+
+ppatt:
+	?a are null alleles
+		?a: Mutations in A-T patients
+	?a truncate ?b
+		?a: null alleles
+		?b: the ATM protein
+	?a destabilize
+		?a: that
+
+
+label:    sent_11
+sentence: Further investigation is warranted to identify and truncate further disparate birth outcomes .
+
+ppatt:
+	?a is warranted to identify ?b
+		?a: Further investigation
+		?b: further disparate birth outcomes
+	?a is warranted to truncate
+		?a: Further investigation
+
+

@@ -1,0 +1,338 @@
+label:    sent_1
+sentence: Standard treatment involves administration of intravenous atropine and oxime to reactivate inhibited acetylcholinesterase .
+
+ppatt:
+	?a involves ?b to reactivate ?c
+		?a: Standard treatment
+		?b: administration of intravenous atropine and oxime
+		?c: inhibited acetylcholinesterase
+
+
+label:    sent_2
+sentence: Hydrodynamic injection has been shown to reactivate silenced transgene expression in mouse liver .
+
+ppatt:
+	?a has been shown to reactivate ?b
+		?a: Hydrodynamic injection
+		?b: silenced transgene expression in mouse liver
+
+
+label:    sent_3
+sentence: Temperature manipulation alone was used to induce and reactivate latent HSV-1 infections .
+
+ppatt:
+	?a was used to induce ?b
+		?a: Temperature manipulation alone
+		?b: latent HSV-1 infections
+	?a was used to reactivate
+		?a: Temperature manipulation alone
+
+
+label:    sent_4
+sentence: Furthermore , 10HDA can reactivate the expression of epigenetically silenced genes in mammalian cells .
+
+ppatt:
+	Furthermore , ?a can reactivate ?b
+		?a: 10HDA
+		?b: the expression of epigenetically silenced genes in mammalian cells
+
+
+label:    sent_5
+sentence: These APCs reactivate T cells specific for all the stimulating antigens .
+
+ppatt:
+	?a reactivate ?b
+		?a: These APCs
+		?b: T cells specific for all the stimulating antigens
+
+
+label:    sent_6
+sentence: Intracellular-activated Notch1 can reactivate Kaposi 's sarcoma-associated herpesvirus from latency .
+
+ppatt:
+	?a can reactivate 's ?b from ?c
+		?a: Intracellular-activated Notch1
+		?b: Kaposi sarcoma-associated herpesvirus
+		?c: latency
+
+
+label:    sent_7
+sentence: Attempts to reactivate transhydrogenase by reduction of labelled sulfhydryls were not successful .
+
+ppatt:
+	?a reactivate ?b by ?c
+		?a: Attempts
+		?b: transhydrogenase
+		?c: reduction of labelled sulfhydryls
+	?a were not successful
+		?a: Attempts to reactivate transhydrogenase by reduction of labelled sulfhydryls
+
+
+label:    sent_8
+sentence: All groups were undergone to reactivate the herpes virus by UV-B except group F .
+
+ppatt:
+	?a were undergone to reactivate ?b by ?c except ?d
+		?a: All groups
+		?b: the herpes virus
+		?c: UV-B
+		?d: group F
+
+
+label:    sent_9
+sentence: Attempts are thus made to reactivate autonomic drive with the intent of improving health . Fat cells reactivate quiescent neuroblasts via TOR and glial insulin relays in Drosophila .
+
+ppatt:
+	?a are thus made to reactivate ?b with ?c
+		?a: Attempts
+		?b: autonomic drive
+		?c: the intent of improving health
+	?a improving ?b
+		?a: the intent
+		?b: health
+	?a reactivate ?b via ?c
+		?a: Fat cells
+		?b: quiescent neuroblasts
+		?c: TOR
+	?a reactivate ?b via ?c
+		?a: Fat cells
+		?b: quiescent neuroblasts
+		?c: glial insulin
+	?a relays in ?b
+		?a: Fat cells
+		?b: Drosophila
+
+
+label:    sent_10
+sentence: Agents that reactivate latent HIV-1 through nonspecific T cell activation are toxic .
+
+ppatt:
+	?a reactivate ?b through ?c
+		?a: Agents
+		?b: latent HIV-1
+		?c: nonspecific T cell activation
+	?a are toxic
+		?a: Agents that reactivate latent HIV-1 through nonspecific T cell activation
+
+
+label:    sent_11
+sentence: We conclude that ultraviolet light can reactivate herpes simplex virus under experimentally defined conditions .
+
+ppatt:
+	?a conclude ?b
+		?a: We
+		?b: SOMETHING := ultraviolet light can reactivate herpes simplex virus under experimentally defined conditions
+	?a can reactivate ?b under ?c
+		?a: ultraviolet light
+		?b: herpes simplex virus
+		?c: experimentally defined conditions
+
+
+label:    sent_12
+sentence: Dithiothreitol prevented the ascorbate-Cu effect but did not reactivate the enzyme .
+
+ppatt:
+	?a prevented ?b
+		?a: Dithiothreitol
+		?b: the ascorbate-Cu effect
+	?a did not reactivate ?b
+		?a: Dithiothreitol
+		?b: the enzyme
+
+
+label:    sent_13
+sentence: Environmental triggers initiate or reactivate inflammation and modulate genetic susceptibility .
+
+ppatt:
+	?a initiate ?b
+		?a: Environmental triggers
+		?b: inflammation
+	?a reactivate
+		?a: Environmental triggers
+	?a modulate ?b
+		?a: Environmental triggers
+		?b: genetic susceptibility
+
+
+label:    sent_14
+sentence: This involves various molecular mechanisms to reactivate developmental signaling pathways and induce cell dedifferentiation .
+
+ppatt:
+	?a involves ?b
+		?a: This
+		?b: various molecular mechanisms to reactivate developmental signaling pathways and induce cell dedifferentiation
+	?a reactivate ?b
+		?a: various molecular mechanisms
+		?b: developmental signaling pathways
+	induce ?a
+		?a: cell dedifferentiation
+
+
+label:    sent_15
+sentence: Vaccine virus can therefore establish latency and can later reactivate as herpes zoster .
+
+ppatt:
+	?a can therefore establish ?b
+		?a: Vaccine virus
+		?b: latency
+	?a can later reactivate as ?b
+		?a: Vaccine virus
+		?b: herpes zoster
+
+
+label:    sent_16
+sentence: AMEDA was found to reactivate O-[14C ] NBD-F1 via a dual-path mechanism .
+
+ppatt:
+	?a was found to reactivate ?b via ?c
+		?a: AMEDA
+		?b: O-[14C ] NBD-F1
+		?c: a dual-path mechanism
+
+
+label:    sent_17
+sentence: Drug associated sodium channels inactivate and reactivate at more negative potentials than drug-free channels .
+
+ppatt:
+	?a inactivate at ?b than ?c
+		?a: Drug associated sodium channels
+		?b: more negative potentials
+		?c: drug-free channels
+	?a reactivate
+		?a: Drug associated sodium channels
+
+
+label:    sent_18
+sentence: From this reservoir , they can reactivate to cause human morbidity and mortality . Multiple latent viruses reactivate in astronauts during Space Shuttle missions .
+
+ppatt:
+	From ?a , ?b can reactivate to cause ?c
+		?a: this reservoir
+		?b: they
+		?c: human morbidity
+	From ?a , ?b can reactivate to cause ?c
+		?a: this reservoir
+		?b: they
+		?c: mortality
+	?a reactivate in ?b during ?c
+		?a: Multiple latent viruses
+		?b: astronauts
+		?c: Space Shuttle missions
+
+
+label:    sent_19
+sentence: In summary , three herpes viruses can reactivate individually or in combination during spaceflight .
+
+ppatt:
+	In ?a , ?b can reactivate individually or in combination during ?c
+		?a: summary
+		?b: three herpes viruses
+		?c: spaceflight
+
+
+label:    sent_20
+sentence: They can reactivate old lesions and increased the risk of complications .
+
+ppatt:
+	?a can reactivate ?b
+		?a: They
+		?b: old lesions
+	?a increased ?b
+		?a: They
+		?b: the risk of complications
+
+
+label:    sent_21
+sentence: Glutathione did not reactivate CK activity nor did it regenerate protein thiol content .
+
+ppatt:
+	?a did not reactivate ?b
+		?a: Glutathione
+		?b: CK activity
+	did ?a regenerate ?b
+		?a: it
+		?b: protein thiol content
+
+
+label:    sent_22
+sentence: Neither oxime reactivated soman inhibited brain acetylcholinesterase but HI-6 did reactivate appreciable plasma cholinesterase .
+
+ppatt:
+	?a reactivated ?b
+		?a: oxime
+		?b: soman
+	?a inhibited ?b
+		?a: SOMETHING := Neither oxime reactivated soman
+		?b: brain acetylcholinesterase
+	?a did reactivate ?b
+		?a: HI-6
+		?b: appreciable plasma cholinesterase
+
+
+label:    sent_23
+sentence: Cytomegalovirus ( CMV ) enters latency following primary infection and can subsequently reactivate .
+
+ppatt:
+	?a is/are CMV
+		?a: Cytomegalovirus
+	?a enters ?b following ?c
+		?a: Cytomegalovirus
+		?b: latency
+		?c: primary infection
+	?a can subsequently reactivate
+		?a: Cytomegalovirus
+
+
+label:    sent_24
+sentence: Both HSV-1 and HSV-2 become latent in sacral nerve root ganglia and intermittently reactivate . BKV is known to reactivate and cause severe disease in immunosuppressed patients .
+
+ppatt:
+	?a become latent in ?b
+		?a: HSV-1
+		?b: sacral nerve root ganglia
+	?a become latent in ?b
+		?a: HSV-2
+		?b: sacral nerve root ganglia
+	?a intermittently reactivate
+		?a: HSV-1
+	?a intermittently reactivate
+		?a: HSV-2
+	?a is known to reactivate ?b
+		?a: BKV
+		?b: severe disease in immunosuppressed patients
+	?a is known to cause
+		?a: BKV
+
+
+label:    sent_25
+sentence: Metal-organic frameworks reactivate deceased diatoms to be efficient CO ( 2 ) absorbents .
+
+ppatt:
+	?a reactivate ?b
+		?a: Metal-organic frameworks
+		?b: deceased diatoms
+	?a be efficient CO absorbents
+		?a: Metal-organic frameworks
+
+
+label:    sent_26
+sentence: Here , we mitotically reactivate senescent human fibroblasts to evaluate their cytogenetic damage .
+
+ppatt:
+	Here , ?a mitotically reactivate ?b
+		?a: we
+		?b: senescent human fibroblasts
+	?a evaluate ?b
+		?a: we
+		?b: their cytogenetic damage
+
+
+label:    sent_27
+sentence: Incubation of nuclear extracts with protein kinase A likewise did not reactivate TgTF1 .
+
+ppatt:
+	?a likewise did not reactivate ?b
+		?a: Incubation of nuclear extracts with protein kinase A
+		?b: TgTF1
+
+

@@ -1,0 +1,291 @@
+label:    sent_1
+sentence: The effects of anemia in critically ill patients with COPD remain to be clarified .
+
+ppatt:
+	?a remain to be clarified
+		?a: The effects of anemia in critically ill patients with COPD
+
+
+label:    sent_2
+sentence: Perhaps another 1,000,000 or more species remain to be discovered .
+
+ppatt:
+	Perhaps ?a remain to be discovered
+		?a: another 1,000,000 or more species
+
+
+label:    sent_3
+sentence: However , their roles in physiopathology and immunoregulation remain to be fully elucidated .
+
+ppatt:
+	However , ?a remain to be fully elucidated
+		?a: their roles in physiopathology and immunoregulation
+
+
+label:    sent_4
+sentence: These federal statutory health care provider conscience protections remain in effect .
+
+ppatt:
+	?a remain in ?b
+		?a: These federal statutory health care provider conscience protections
+		?b: effect
+
+
+label:    sent_5
+sentence: Knowledge gaps remain in the use of family health history in public health .
+
+ppatt:
+	?a remain in ?b
+		?a: Knowledge gaps
+		?b: the use of family health history in public health
+
+
+label:    sent_6
+sentence: The forms remain in thermodynamic equilibrium .
+
+ppatt:
+	?a remain in ?b
+		?a: The forms
+		?b: thermodynamic equilibrium
+
+
+label:    sent_7
+sentence: Is there a duty to remain in ignorance ? It is necessary to remain in the furrow in order not to become delusional .
+
+ppatt:
+	Is there ?a
+		?a: a duty to remain in ignorance
+	?a remain in ?b
+		?a: a duty
+		?b: ignorance
+	?a is necessary to remain in ?b
+		?a: It
+		?b: the furrow
+	?a order not to become delusional
+		?a: It
+
+
+label:    sent_8
+sentence: Nevertheless , the stents are rigid enough to remain in place .
+
+ppatt:
+	Nevertheless , ?a are rigid enough to remain in ?b
+		?a: the stents
+		?b: place
+
+
+label:    sent_9
+sentence: They have had limited success , and huge challenges remain .
+
+ppatt:
+	?a have had ?b
+		?a: They
+		?b: limited success
+	?a remain
+		?a: huge challenges
+
+
+label:    sent_10
+sentence: However , important technical challenges remain and normative data from healthy humans is lacking . Many important questions remain , but the rationale and preliminary data are compelling .
+
+ppatt:
+	However , ?a remain
+		?a: important technical challenges
+	?a is lacking
+		?a: important technical challenges
+	?a ?b remain
+		?a: normative data from healthy humans
+		?b: Many important questions
+	?a are compelling
+		?a: the rationale and preliminary data
+
+
+label:    sent_11
+sentence: Clinical features remain of key importance in the diagnosis and for follow up . Patient recruitment is complete , but 2 patients remain in the hospital .
+
+ppatt:
+	?a remain of ?b
+		?a: Clinical features
+		?b: key importance in the diagnosis
+	?a follow up
+		?a: Clinical features
+	?a is complete
+		?a: Patient recruitment
+	?a remain in ?b
+		?a: patients
+		?b: the hospital
+
+
+label:    sent_12
+sentence: Signs of peripheral neuropathy remain despite virologic/immunologic control but frequently occurs without symptoms .
+
+ppatt:
+	?a remain despite ?b
+		?a: Signs of peripheral neuropathy
+		?b: virologic/immunologic control
+	?a frequently occurs without ?b
+		?a: Signs of peripheral neuropathy
+		?b: symptoms
+
+
+label:    sent_13
+sentence: She elected to remain on duloxetine for her third pregnancy and while breastfeeding .
+
+ppatt:
+	?a elected to remain on ?b for ?c
+		?a: She
+		?b: duloxetine
+		?c: her third pregnancy
+	?a breastfeeding
+		?a: She
+
+
+label:    sent_14
+sentence: Malignant gliomas are diffusively infiltrative and remain among the deadliest of all cancers .
+
+ppatt:
+	?a are diffusively infiltrative
+		?a: Malignant gliomas
+	?a remain among ?b
+		?a: Malignant gliomas
+		?b: the deadliest of all cancers
+
+
+label:    sent_15
+sentence: Both patients were switched to glibenclamide and remain off insulin .
+
+ppatt:
+	?a were switched to ?b
+		?a: Both patients
+		?b: glibenclamide
+	?a remain off ?b
+		?a: Both patients
+		?b: insulin
+
+
+label:    sent_16
+sentence: Both recovered from operation with no signs right ventricular failure and remain well .
+
+ppatt:
+	?a recovered from ?b
+		?a: Both
+		?b: operation with no signs
+	?a right ?b
+		?a: Both recovered from operation with no signs
+		?b: ventricular failure
+	?a remain well
+		?a: Both recovered from operation with no signs
+
+
+label:    sent_17
+sentence: They had internal cardioverter defibrillators ( ICDs ) inserted and remain well .
+
+ppatt:
+	?a had ?b
+		?a: They
+		?b: internal cardioverter defibrillators inserted
+	?a is/are ICDs
+		?a: internal cardioverter defibrillators inserted
+	?a inserted
+		?a: internal cardioverter defibrillators
+	?a remain well
+		?a: They
+
+
+label:    sent_18
+sentence: Three patients developed epilepsy and remain on chronic anticonvulsant therapy .
+
+ppatt:
+	?a developed ?b
+		?a: Three patients
+		?b: epilepsy
+	?a remain on ?b
+		?a: Three patients
+		?b: chronic anticonvulsant therapy
+
+
+label:    sent_19
+sentence: The stimuli consist of sparse random-dot arrays , in which dots remain in place .
+
+ppatt:
+	?a consist of ?b
+		?a: The stimuli
+		?b: sparse random-dot arrays , in which dots remain in place
+	?a in ?b remain in ?c
+		?a: sparse random-dot arrays
+		?b: dots
+		?c: place
+
+
+label:    sent_20
+sentence: The mean duration for which sex workers remain in the trade is 6.71 years .
+
+ppatt:
+	?a for ?b remain in ?c
+		?a: The mean duration
+		?b: sex workers
+		?c: the trade
+	?a is 6.71 years
+		?a: The mean duration for which sex workers remain in the trade
+
+
+label:    sent_21
+sentence: We also investigate the statistics of the times that ghost particles remain in contact .
+
+ppatt:
+	?a also investigate ?b
+		?a: We
+		?b: the statistics of the times that ghost particles remain in contact
+	?a remain in ?b
+		?a: ghost particles
+		?b: contact
+
+
+label:    sent_22
+sentence: However , some differences in insulin sensitivity in GB remain compared with L . What motivates nurses to join and remain with an organization ? Only in urine from one patient did any immunomodulatory capability remain after antibody treatment .
+
+ppatt:
+	However , ?a remain compared with ?b ?c
+		?a: some differences in insulin sensitivity in GB
+		?b: L
+		?c: SOMETHING := What motivates nurses to join
+	?a motivates ?b to join
+		?a: What
+		?b: nurses
+	?a remain with ?b
+		?a: What
+		?b: an organization
+	in ?a ?b remain after ?c
+		?a: Only urine from one patient
+		?b: any immunomodulatory capability
+		?c: antibody treatment
+
+
+label:    sent_23
+sentence: Are there any other organs in which autoimmune pancreatitis-associated lesions remain to be identified ? Postoperative breast radiotherapy after neoadjuvant chemotherapy : which uncertainties still remain ?
+
+ppatt:
+	Are there ?a
+		?a: any other organs in which autoimmune pancreatitis-associated lesions remain to be identified ? Postoperative breast radiotherapy after neoadjuvant chemotherapy which uncertainties still remain
+	?a in ?b remain to be identified ?c after ?d
+		?a: any other organs which uncertainties still remain
+		?b: autoimmune pancreatitis-associated lesions
+		?c: Postoperative breast radiotherapy
+		?d: neoadjuvant chemotherapy
+	?a ?b still remain
+		?a: any other organs in which autoimmune pancreatitis-associated lesions remain to be identified ? Postoperative breast radiotherapy after neoadjuvant chemotherapy
+		?b: uncertainties
+
+
+label:    sent_24
+sentence: We also discuss emerging frontiers in which important questions remain to be addressed .
+
+ppatt:
+	?a also discuss ?b
+		?a: We
+		?b: emerging frontiers in which important questions remain to be addressed
+	?a in ?b remain to be addressed
+		?a: emerging frontiers
+		?b: important questions
+
+

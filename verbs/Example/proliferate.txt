@@ -1,0 +1,40 @@
+prep	Biliary epithelial cells are quiescent cells that are able to proliferate in pathophysiological settings .	prep_in@settings
+prep	Primary human osteoblasts attach , spread and proliferate well on both types of coatings .	prep_on@types
+prep	The hybrid cell lines display fibroblastic morphology and proliferate like immortal cells .	prep_like@cells
+
+subj#prep	Leydig cells isolated by differential adhesion proliferate actively in the modified culture media .	subj@cells prep_in@media
+subj#prep	PS can infrequently proliferate aggressively with more differentiated features .	subj@PS prep_with@features
+subj#prep	Our study demonstrates that PECs proliferate in HIV and pamidronate - associated cFSGS .	subj@PECs prep_in@HIV
+
+conj	They have the potential to proliferate and to differentiate into mature endothelial cells .	conj_and@differentiate
+conj	The liver is characterized by a remarkable ability to proliferate and self-renew .	conj_and@self-renew
+conj	The BJ1 cells were able to proliferate and kill the specific target .	conj_and@kill
+
+subj#conj	The cells proliferate and form multicellular spheroids .	subj@cells conj_and@form
+subj#conj	The initiated cells can thus proliferate robustly and progress to a malignancy .	subj@cells conj_and@progress
+subj#conj	These cells proliferate and form discrete tumors that contain rIGF-II and abundant IGF-II receptors .	subj@cells conj_and@form
+
+subj#prep#conj	Hematopoietic stem cells proliferate until after birth and show a reversible phase-specific engraftment defect .	subj@cells prep@until conj_and@show
+subj#prep#conj	These Thy-1-positive cells proliferate in the cultures and can generate cytotoxic responses .	subj@cells prep_in@cultures conj_and@generate
+subj#prep#conj	During embryonic and postnatal development they actively proliferate and generate myelinating oligodendrocytes .	subj@they prep_during@development conj_and@generate
+
+subj	Binucleated cells proliferate slowly .	subj@cells
+subj	Melatonin stimulated control osteoblasts to proliferate .	subj@osteoblasts
+subj	Cells from the superficial layer proliferate significantly faster than those from the deep layer .	subj@Cells
+
+prep#conj	Leukemic cells are also able to survive and proliferate in severely hypoxic environments .	prep_in@environments conj_and@able
+prep#conj	Chronic lymphocytic leukaemia cells survive and proliferate in patients but rapidly die in culture .	prep_in@patients conj_but@die
+prep#conj	Isolated hepatocytes have quiescent cell function and seldom proliferate in culture .	prep_in@culture conj_and@have
+
+obj	Cells formed spheroidal aggregates while continuing to proliferate long term and expressing phenotypic stability .	obj@term
+obj	KFs migrate and proliferate faster than NFs .	obj@faster
+obj	PHA also showed its ability to proliferate cells .	obj@cells
+
+subj#obj	Signaling cascades proliferate signals received on the cell membrane to the nucleus .	subj@cascades obj@signals
+subj#obj	Podocytes proliferate : novel mechanism identified in collapsing glomerulopathies .	subj@Podocytes obj@mechanism
+subj#obj	When germ cells are damaged , Leydig cells in the vicinity proliferate faster .	subj@cells obj@faster
+
+subj#obj#prep	In addition , NGF over-expressing keratinocytes proliferate better than mock transfected cells .	subj@keratinocytes obj@better prep_in@addition
+subj#obj#prep	In conclusion , CLL B cells proliferate at reduced levels compared with healthy controls .	subj@cells obj@controls prep_at@levels prep_in@conclusion prepc_compared_with@with
+subj#obj#prep	It was found that in most cases leukemic cells proliferate slower than normal cells .	subj@cells obj@slower prep_in@cases
+

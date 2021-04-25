@@ -1,0 +1,29 @@
+prep	The homozygous diploid mutant fails to sporulate at the nonpermissive temperature .	prep_at@temperature
+prep	All of the mutants are induced to sporulate by glycerol .	prep_by@glycerol
+prep	Transformants were selected for their ability to grow and sporulate on medium lacking uracil .	prep_on@medium
+
+subj#prep	Few isolates sporulate at high levels in this medium .	subj@isolates prep_at@levels prep_in@medium
+subj#prep	M. fulvum did not sporulate at higher concentration of griseofulvin .	subj@fulvum prep_at@concentration
+subj#prep	Mutants of Schizosaccharomyces pombe which sporulate in the haploid state .	subj@Mutants prep_in@state
+
+subj	They mate at normal efficiencies , and they sporulate successfully .	subj@they
+subj	Oocysts did not sporulate in vitro .	subj@Oocysts
+subj	Mutants lacking AcbA sporulate well only when developed in chimeras with WT cells .	subj@Mutants
+
+conj	A revertant of this mutant regained the ability to both sporulate and synthesize pppAppp .	conj_and@synthesize
+conj	The oomycete has spiny oogonia and does not sporulate readily .	conj_and@has
+conj	Cultures maintained on yeast extract-starch medium retained the ability to sporulate and utilize glycerol .	conj_and@utilize
+
+subj#conj	The diploid hybrids from crosses between these species sporulate well but are essentially infertile .	subj@hybrids conj_but@infertile
+subj#conj	mum3 mutants sporulate poorly and the spores produced are inviable .	subj@mutants conj_and@inviable
+subj#conj	Such strains sporulate but germination is poor and only one-spore tetrads are formed .	subj@strains conj_and@formed conj_but@poor
+
+subj#prep#conj	Homozygous diploid mai1Delta cells sporulate , but with a slightly reduced frequency .	subj@cells prep_with@frequency conj_but@with
+
+prep#conj	Such strains conjugate and sporulate less frequently than wild-type cells upon nutrient limitation .	prep_upon@limitation conj_and@conjugate
+prep#conj	Two of the strains did not produce virus-like particles or sporulate significantly upon induction .	prep_upon@induction conj_or@produce
+prep#conj	Five other strains grew , but did not sporulate , in this medium .	prep_in@medium conj_but@grew
+
+obj	Attempts to sporulate CAM-derived oocysts were not successful .	obj@oocysts
+obj	Attempts were made to sporulate cells taken from both complex and semidefined media .	obj@cells
+

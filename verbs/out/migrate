@@ -1,0 +1,303 @@
+label:    sent_1
+sentence: Do cranial subdural hematomas migrate to the lumbar spine ? Intravenously administered adipose-derived stromal cells migrate to sites of calvarial injury . MSCs can migrate to sites of injury , inflammation , and tumor .
+
+ppatt:
+	Do ?a migrate to ?b
+		?a: cranial subdural hematomas
+		?b: the lumbar spine
+	?a migrate to ?b
+		?a: Intravenously administered adipose-derived stromal cells
+		?b: sites of calvarial injury
+	?a can migrate to ?b
+		?a: MSCs
+		?b: sites of injury , inflammation , and tumor
+
+
+label:    sent_2
+sentence: Engrafted NSC could survive and migrate in host spinal cords .
+
+ppatt:
+	?a could survive in ?b
+		?a: Engrafted NSC
+		?b: host spinal cords
+	?a migrate
+		?a: Engrafted NSC
+
+
+label:    sent_3
+sentence: These cells had a tendency to migrate from the SVZ to the STR .
+
+ppatt:
+	?a had ?b
+		?a: These cells
+		?b: a tendency to migrate from the SVZ to the STR
+	?a migrate from ?b to ?c
+		?a: a tendency
+		?b: the SVZ
+		?c: the STR
+
+
+label:    sent_4
+sentence: The pigment cells are the only derivative to migrate along the dorso-lateral pathway .
+
+ppatt:
+	?a are the only derivative
+		?a: The pigment cells
+	?a migrate along ?b
+		?a: the only derivative
+		?b: the dorso-lateral pathway
+
+
+label:    sent_5
+sentence: They migrate to the infection site and can be protective in experimental infection models .
+
+ppatt:
+	?a migrate to ?b
+		?a: They
+		?b: the infection site
+
+
+label:    sent_6
+sentence: Cells migrate out of cultured neurospheres and differentiate into both neuronal and glial cells . Did early Homo migrate " out of " or " in to " Africa ? Borates migrate in liquid and increase the hygroscopicity of wood in damp conditions .
+
+ppatt:
+	?a migrate out of ?b
+		?a: Cells
+		?b: cultured neurospheres
+	?a differentiate ?b
+		?a: Cells
+		?b: into both neuronal and glial cells
+	?a Did
+		?a: Cells
+	?a migrate ?b out of ?c in to ?d
+		?a: early Homo
+		?b: "
+		?c: "
+		?d: " Africa
+	?a migrate ?b out of ?c in to ?d
+		?a: early Homo
+		?b: "
+		?c: "
+		?d: " Africa
+	?a migrate in ?b
+		?a: Borates
+		?b: liquid
+	?a increase ?b
+		?a: Borates
+		?b: the hygroscopicity of wood in damp conditions
+
+
+label:    sent_7
+sentence: It may cause a permanent detachment and/or migrate with time , decreasing visual function .
+
+ppatt:
+	?a may cause ?b
+		?a: It
+		?b: a permanent detachment
+	?a migrate with ?b
+		?a: It
+		?b: time
+	?a decreasing ?b
+		?a: It
+		?b: visual function
+
+
+label:    sent_8
+sentence: The duplicated SPBs must then separate and migrate to opposite sides of the nucleus .
+
+ppatt:
+	?a must then separate
+		?a: The duplicated SPBs
+	?a migrate to ?b
+		?a: The duplicated SPBs
+		?b: opposite sides of the nucleus
+
+
+label:    sent_9
+sentence: Women who subsequently died were much less likely to bear children or migrate .
+
+ppatt:
+	?a subsequently died
+		?a: Women
+	?a were much less likely to bear ?b
+		?a: Women who subsequently died
+		?b: children
+	?a were much less likely to migrate
+		?a: Women who subsequently died
+
+
+label:    sent_10
+sentence: This in turn compromises the ability of the glioma cell to migrate and proliferate .
+
+ppatt:
+	?a compromises ?b to migrate
+		?a: This in turn
+		?b: the ability of the glioma cell
+	?a compromises to proliferate
+		?a: This in turn
+
+
+label:    sent_11
+sentence: Implanted fiducials are visible in X-rays and did not migrate .
+
+ppatt:
+	?a are visible in ?b
+		?a: Implanted fiducials
+		?b: X-rays
+	?a did not migrate
+		?a: Implanted fiducials
+
+
+label:    sent_12
+sentence: The aim of this study was to describe how the clips migrate . How and why do insects migrate ? In may therefore be concluded that these cells probably do not migrate .
+
+ppatt:
+	?a was to describe ?b
+		?a: The aim of this study
+		?b: SOMETHING := how the clips migrate
+	how ?a migrate
+		?a: the clips
+	How why do ?a migrate
+		?a: insects
+	?a In may therefore be concluded ?b
+		?a: The aim of this study
+		?b: SOMETHING := these cells probably do not migrate
+	?a probably do not migrate
+		?a: these cells
+
+
+label:    sent_13
+sentence: Exceptionally , foreign bodies migrate and become manifest with a considerable delay .
+
+ppatt:
+	Exceptionally , ?a migrate
+		?a: foreign bodies
+	?a become manifest with ?b
+		?a: foreign bodies
+		?b: a considerable delay
+
+
+label:    sent_14
+sentence: How does a newborn cell migrate and find its target ? Embryonic cortical neural stem cells migrate ventrally and persist as postnatal striatal stem cells .
+
+ppatt:
+	How does ?a
+		?a: Embryonic cortical neural stem cells
+	?a migrate
+		?a: a newborn cell
+	?a find ?b
+		?a: a newborn cell
+		?b: its target
+	?a migrate ventrally
+		?a: Embryonic cortical neural stem cells
+	?a persist as ?b
+		?a: Embryonic cortical neural stem cells
+		?b: postnatal striatal stem cells
+
+
+label:    sent_15
+sentence: The mechanisms by which cancer cells migrate to metastasise are not fully understood .
+
+ppatt:
+	?a by ?b migrate to ?c
+		?a: The mechanisms
+		?b: cancer cells
+		?c: metastasise
+	?a are not fully understood
+		?a: The mechanisms by which cancer cells migrate to metastasise
+
+
+label:    sent_16
+sentence: However , the mechanisms by which keratinocytes migrate over fibronectin are unknown .
+
+ppatt:
+	?a by ?b migrate over ?c
+		?a: the mechanisms
+		?b: keratinocytes
+		?c: fibronectin
+	However , ?a are unknown
+		?a: the mechanisms by which keratinocytes migrate over fibronectin
+
+
+label:    sent_17
+sentence: This is an uncommon abnormality in which both gonads migrate toward the same hemiscrotum .
+
+ppatt:
+	?a is an uncommon abnormality
+		?a: This
+	?a in ?b migrate toward ?c
+		?a: an uncommon abnormality
+		?b: both gonads
+		?c: the same hemiscrotum
+
+
+label:    sent_18
+sentence: Compared with neutrophils , macrophages migrate significantly more slowly to an inflammatory stimulus .
+
+ppatt:
+	Compared with neutrophils ?a
+		?a: macrophages
+	?a migrate significantly more slowly to ?b
+		?a: macrophages
+		?b: an inflammatory stimulus
+
+
+label:    sent_19
+sentence: Astrocytes in spinal gray matter only migrate about 1.0 mm from the graft-host interface .
+
+ppatt:
+	?a only migrate ?b
+		?a: Astrocytes in spinal gray matter
+		?b: about 1.0 mm from the graft-host interface
+
+
+label:    sent_20
+sentence: The spleen can migrate anywhere in the abdomen or pelvis .
+
+ppatt:
+	?a can migrate anywhere in ?b
+		?a: The spleen
+		?b: the abdomen
+	?a can migrate anywhere in ?b
+		?a: The spleen
+		?b: pelvis
+
+
+label:    sent_21
+sentence: It is therefore possible to strictly define the areas into which cells can migrate .
+
+ppatt:
+	?a is therefore possible to strictly define ?b
+		?a: It
+		?b: the areas into which cells can migrate
+	?a into ?b can migrate
+		?a: the areas
+		?b: cells
+
+
+label:    sent_22
+sentence: The preexisting extracellular matrix may act as a scaffold along which fibroblasts migrate .
+
+ppatt:
+	?a may act as ?b
+		?a: The preexisting extracellular matrix
+		?b: a scaffold along which fibroblasts migrate
+	?a along ?b migrate
+		?a: a scaffold
+		?b: fibroblasts
+
+
+label:    sent_23
+sentence: Migrating GnRH-1 neurons were CXCR4 immunopositive as were the fibers along which they migrate .
+
+ppatt:
+	?a were ?b immunopositive
+		?a: Migrating GnRH-1 neurons
+		?b: CXCR4
+	?a were the fibers
+		?a: Migrating GnRH-1 neurons
+	?a along ?b migrate
+		?a: the fibers
+		?b: they
+
+

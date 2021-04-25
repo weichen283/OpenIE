@@ -1,0 +1,319 @@
+label:    sent_1
+sentence: Successful pregnancy requires coordinated maternal-fetal cross-talk to establish vascular connections that support conceptus growth .
+
+ppatt:
+	?a requires ?b
+		?a: Successful pregnancy
+		?b: coordinated maternal-fetal cross-talk
+	?a establish ?b
+		?a: Successful pregnancy
+		?b: vascular connections that support conceptus growth
+	?a support ?b
+		?a: vascular connections
+		?b: conceptus growth
+
+
+label:    sent_2
+sentence: However , larger studies are required to establish this link . In two patients , TEE was essential to establish the diagnosis .
+
+ppatt:
+	However , ?a are required to establish ?b
+		?a: larger studies
+		?b: this link
+	In ?a , ?b was essential to establish ?c
+		?a: two patients
+		?b: TEE
+		?c: the diagnosis
+
+
+label:    sent_3
+sentence: To establish a three-dimensional digital dental model through scanning dental impression directly with micro-CT .
+
+ppatt:
+	establish ?a
+		?a: a three-dimensional digital dental model
+	scanning ?a directly with ?b
+		?a: dental impression
+		?b: micro-CT
+
+
+label:    sent_4
+sentence: The study proposed quantitative parameters to establish stopping criteria during auditory steady-state recordings .
+
+ppatt:
+	?a proposed ?b
+		?a: The study
+		?b: quantitative parameters to establish stopping criteria during auditory steady-state recordings
+	?a establish ?b during ?c
+		?a: quantitative parameters
+		?b: stopping criteria
+		?c: auditory steady-state recordings
+
+
+label:    sent_5
+sentence: Plants have to adjust , grow and establish themselves in various changing environmental conditions .
+
+ppatt:
+	?a have to adjust
+		?a: Plants
+	?a have to grow
+		?a: Plants
+	?a have to establish ?b in ?c
+		?a: Plants
+		?b: themselves
+		?c: various changing environmental conditions
+
+
+label:    sent_6
+sentence: However , every transplant center must establish its own guidelines on organ acceptability .
+
+ppatt:
+	However , ?a must establish ?b
+		?a: every transplant center
+		?b: its own guidelines on organ acceptability
+
+
+label:    sent_7
+sentence: Interactions at different levels between these factors establish the spatiotemporal patterning of ICD activation .
+
+ppatt:
+	?a establish ?b
+		?a: Interactions at different levels between these factors
+		?b: the spatiotemporal patterning of ICD activation
+
+
+label:    sent_8
+sentence: The parasitic protozoan Leishmania invades mammalian macrophages to establish infection .
+
+ppatt:
+	?a invades ?b to establish ?c
+		?a: The parasitic protozoan Leishmania
+		?b: mammalian macrophages
+		?c: infection
+
+
+label:    sent_9
+sentence: Synthesis of fluorescein isothiocyanate labelled polypeptide and establish a method for detection of PRRSV .
+
+ppatt:
+	establish ?a
+		?a: a method for detection of PRRSV
+
+
+label:    sent_10
+sentence: To establish the current Chiari knowledge base and develop recommendations for future research .
+
+ppatt:
+	establish ?a
+		?a: the current Chiari knowledge base
+	develop ?a for ?b
+		?a: recommendations
+		?b: future research
+
+
+label:    sent_11
+sentence: We examined clinical records to establish determinants of outcome and illustrate long-term results .
+
+ppatt:
+	?a examined ?b
+		?a: We
+		?b: clinical records
+	?a establish ?b
+		?a: We
+		?b: determinants of outcome
+	?a illustrate ?b
+		?a: We
+		?b: long-term results
+
+
+label:    sent_12
+sentence: Segregation analysis allowed us to establish that the mutations were in trans .
+
+ppatt:
+	?a allowed ?b to establish in ?c
+		?a: Segregation analysis
+		?b: us
+		?c: SOMETHING := the mutations were trans
+	?a were in trans
+		?a: the mutations
+
+
+label:    sent_13
+sentence: We establish that the loss of FANCD2 increases cell death in response to etoposide .
+
+ppatt:
+	?a establish ?b
+		?a: We
+		?b: SOMETHING := the loss of FANCD2 increases cell death in response to etoposide
+	?a increases ?b in ?c
+		?a: the loss of FANCD2
+		?b: cell death
+		?c: response to etoposide
+
+
+label:    sent_14
+sentence: These results establish that total and HMW adiponectin levels decline during a hyperinsulinemic-euglycemic clamp .
+
+ppatt:
+	?a establish ?b
+		?a: These results
+		?b: SOMETHING := total and HMW adiponectin levels decline during a hyperinsulinemic-euglycemic clamp
+	?a decline during ?b
+		?a: total and HMW adiponectin levels
+		?b: a hyperinsulinemic-euglycemic clamp
+
+
+label:    sent_15
+sentence: Several lines of evidence establish periodontal disease as an important risk factor for atherosclerosis .
+
+ppatt:
+	?a establish ?b as ?c
+		?a: Several lines of evidence
+		?b: periodontal disease
+		?c: an important risk factor for atherosclerosis
+
+
+label:    sent_16
+sentence: The authors establish normal values for eyelid anthropometry in an Indian population .
+
+ppatt:
+	?a establish ?b
+		?a: The authors
+		?b: normal values for eyelid anthropometry in an Indian population
+
+
+label:    sent_17
+sentence: In these regions , 5-HT terminals establish asymmetric synaptic junctions .
+
+ppatt:
+	In ?a , ?b establish ?c
+		?a: these regions
+		?b: 5-HT terminals
+		?c: asymmetric synaptic junctions
+
+
+label:    sent_18
+sentence: The clinical aspect is misleading , but pathognomic imaging can establish diagnosis .
+
+ppatt:
+	?a is misleading
+		?a: The clinical aspect
+	?a can establish ?b
+		?a: pathognomic imaging
+		?b: diagnosis
+
+
+label:    sent_19
+sentence: We establish chromatin-RNA immunoprecipitation and show that FOS pre-mRNA is cotranscriptionally spliced .
+
+ppatt:
+	?a establish ?b
+		?a: We
+		?b: chromatin-RNA immunoprecipitation
+	?a show ?b
+		?a: We
+		?b: SOMETHING := FOS pre-mRNA is cotranscriptionally spliced
+	?a is cotranscriptionally spliced
+		?a: FOS pre-mRNA
+
+
+label:    sent_20
+sentence: Vaccine virus can therefore establish latency and can later reactivate as herpes zoster .
+
+ppatt:
+	?a can therefore establish ?b
+		?a: Vaccine virus
+		?b: latency
+	?a can later reactivate as ?b
+		?a: Vaccine virus
+		?b: herpes zoster
+
+
+label:    sent_21
+sentence: To establish and characterize primary lung cancer cell lines from Chinese population .
+
+ppatt:
+	establish ?a
+		?a: primary lung cancer cell lines from Chinese population
+	characterize ?a
+		?a: primary lung cancer cell lines from Chinese population
+
+
+label:    sent_22
+sentence: It is important to establish and comply with an evidence-based preventive strategy .
+
+ppatt:
+	?a is important to establish with ?b
+		?a: It
+		?b: an evidence-based preventive strategy
+	?a is important to comply
+		?a: It
+
+
+label:    sent_23
+sentence: To establish and explain the pattern of molecular signatures across colorectal polyps .
+
+ppatt:
+	establish ?a
+		?a: the pattern of molecular signatures across colorectal polyps
+	explain ?a
+		?a: the pattern of molecular signatures across colorectal polyps
+
+
+label:    sent_24
+sentence: Controversy exists regarding whether to establish the cause or to empirically treat as reflux . IFNs are secreted and establish a local and systemic antiviral state in responsive cells .
+
+ppatt:
+	?a exists regarding whether to establish ?b ?c
+		?a: Controversy
+		?b: the cause
+		?c: SOMETHING := IFNs are secreted
+	?a exists regarding whether to establish ?b ?c
+		?a: Controversy
+		?b: empirically treat as reflux
+		?c: SOMETHING := IFNs are secreted
+	?a are secreted
+		?a: IFNs
+	?a establish ?b
+		?a: IFNs
+		?b: a local and systemic antiviral state in responsive cells
+
+
+label:    sent_25
+sentence: PGCs are able to differentiate into oocytes and spermatogonia and establish totipotency after fertilization .
+
+ppatt:
+	?a are able to differentiate into ?b
+		?a: PGCs
+		?b: oocytes
+	?a are able to differentiate into ?b
+		?a: PGCs
+		?b: spermatogonia
+	?a establish ?b after ?c
+		?a: PGCs
+		?b: totipotency
+		?c: fertilization
+
+
+label:    sent_26
+sentence: After recovery and in elective indications proctectomy and proctocolectomy establish the general surgical standard .
+
+ppatt:
+	After ?a ?b establish ?c
+		?a: recovery
+		?b: proctectomy
+		?c: the general surgical standard
+	After ?a ?b establish ?c
+		?a: elective indications
+		?b: proctectomy
+		?c: the general surgical standard
+	After ?a ?b establish ?c
+		?a: recovery
+		?b: proctocolectomy
+		?c: the general surgical standard
+	After ?a ?b establish ?c
+		?a: elective indications
+		?b: proctocolectomy
+		?c: the general surgical standard
+
+

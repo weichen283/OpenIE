@@ -1,0 +1,324 @@
+label:    sent_1
+sentence: Atopic dermatitis ( AD ) can involve sensitization to various foods . A variety of non-neoplastic and neoplastic conditions can involve the sinonasal region .
+
+ppatt:
+	?a is/are AD
+		?a: Atopic dermatitis
+	?a can involve ?b
+		?a: Atopic dermatitis
+		?b: sensitization to various foods
+	?a can involve ?b
+		?a: A variety of non-neoplastic and neoplastic conditions
+		?b: the sinonasal region
+
+
+label:    sent_2
+sentence: In addition , various simulations can be performed that involve prosthetesis design .
+
+ppatt:
+	In ?a , ?b can be performed ?c
+		?a: addition
+		?b: various simulations
+		?c: SOMETHING := that involve prosthetesis design
+	?a involve ?b
+		?a: that
+		?b: prosthetesis design
+
+
+label:    sent_3
+sentence: Rarely has it been reported to involve the genitourinary system .
+
+ppatt:
+	Rarely has ?a been reported to involve ?b
+		?a: it
+		?b: the genitourinary system
+
+
+label:    sent_4
+sentence: ADHD appears to involve deficits in executive functioning ( EF ) . Both associations have been hypothesized to involve epigenetic mechanisms .
+
+ppatt:
+	?a appears to involve ?b
+		?a: ADHD
+		?b: deficits in executive functioning
+	?a is/are EF
+		?a: executive functioning
+	?a have been hypothesized to involve ?b
+		?a: Both associations
+		?b: epigenetic mechanisms
+
+
+label:    sent_5
+sentence: Potential triggers of occupational asthma are diverse and involve a variety of postulated mechanisms .
+
+ppatt:
+	?a are diverse
+		?a: Potential triggers of occupational asthma
+	?a involve ?b
+		?a: Potential triggers of occupational asthma
+		?b: a variety of postulated mechanisms
+
+
+label:    sent_6
+sentence: Localized forms are rare , and mainly involve the genitalia in men .
+
+ppatt:
+	?a are rare
+		?a: Localized forms
+	?a mainly involve ?b
+		?a: Localized forms
+		?b: the genitalia in men
+
+
+label:    sent_7
+sentence: Some of these effects persist across generations and may involve epigenetic mechanisms .
+
+ppatt:
+	?a persist across ?b
+		?a: Some of these effects
+		?b: generations
+	?a may involve ?b
+		?a: Some of these effects
+		?b: epigenetic mechanisms
+
+
+label:    sent_8
+sentence: They usually involve the valves and are very uncommon in adult age .
+
+ppatt:
+	?a usually involve ?b
+		?a: They
+		?b: the valves
+
+
+label:    sent_9
+sentence: Minor complications are uncommon , and most involve increases in pain .
+
+ppatt:
+	?a are uncommon
+		?a: Minor complications
+	?a most involve ?b
+		?a: Minor complications
+		?b: increases in pain
+
+
+label:    sent_10
+sentence: It should involve influential community members and provide needed information and reassurances about immunization .
+
+ppatt:
+	?a should involve ?b
+		?a: It
+		?b: influential community members
+	?a provide ?b
+		?a: It
+		?b: needed information about immunization
+	?a provide ?b
+		?a: It
+		?b: reassurances
+
+
+label:    sent_11
+sentence: Structural changes involve bond restructuring in sulfur-rich nanodomains of these nanoscale-phase-separated glasses .
+
+ppatt:
+	?a involve ?b
+		?a: Structural changes
+		?b: bond restructuring in sulfur-rich nanodomains of these nanoscale-phase-separated glasses
+
+
+label:    sent_12
+sentence: Such an approach should involve interventions at both individual and organizational levels .
+
+ppatt:
+	?a should involve ?b at ?c
+		?a: Such an approach
+		?b: interventions
+		?c: both individual and organizational levels
+
+
+label:    sent_13
+sentence: In koinobiont endoparasitoid species , such specialization could involve physiological processes .
+
+ppatt:
+	In ?a , ?b could involve ?c
+		?a: koinobiont endoparasitoid species
+		?b: such specialization
+		?c: physiological processes
+
+
+label:    sent_14
+sentence: These sequelae can involve challenging medical and surgical management in adulthood .
+
+ppatt:
+	?a can involve ?b
+		?a: These sequelae
+		?b: challenging medical and surgical management in adulthood
+
+
+label:    sent_15
+sentence: Sexual adjustment may be of special concern to men when treatments involve genitourinary functioning .
+
+ppatt:
+	?a may be of special concern to ?b
+		?a: Sexual adjustment
+		?b: men
+	when ?a involve ?b
+		?a: treatments
+		?b: genitourinary functioning
+
+
+label:    sent_16
+sentence: Both flow and mindfulness involve being present , actively engaged , and attentive .
+
+ppatt:
+	?a involve being present
+		?a: flow
+	?a involve being present
+		?a: mindfulness
+	?a involve being actively engaged
+		?a: flow
+	?a involve being actively engaged
+		?a: mindfulness
+	?a involve being attentive
+		?a: flow
+	?a involve being attentive
+		?a: mindfulness
+
+
+label:    sent_17
+sentence: To involve palliative care education within the curriculum of schools of health professions .
+
+ppatt:
+	involve ?a within ?b
+		?a: palliative care education
+		?b: the curriculum of schools of health professions
+
+
+label:    sent_18
+sentence: Alcohol neuropathy has been thought to involve decreased nerve function following chronic ethanol consumption .
+
+ppatt:
+	?a has been thought to involve ?b following ?c
+		?a: Alcohol neuropathy
+		?b: decreased nerve function
+		?c: chronic ethanol consumption
+
+
+label:    sent_19
+sentence: How to involve cancer patients at the end of life as co-researchers .
+
+ppatt:
+	How to involve ?a at ?b
+		?a: cancer patients
+		?b: the end of life as co-researchers
+
+
+label:    sent_20
+sentence: The study will involve 400 volunteers throughout the UK and is currently underway .
+
+ppatt:
+	?a will involve ?b throughout ?c
+		?a: The study
+		?b: 400 volunteers
+		?c: the UK
+	?a is currently underway
+		?a: The study
+
+
+label:    sent_21
+sentence: Two of them involve mass transportation over the barrier and through the barrier .
+
+ppatt:
+	?a involve ?b over ?c
+		?a: Two of them
+		?b: mass transportation
+		?c: the barrier
+	?a involve ?b over ?c
+		?a: Two of them
+		?b: mass transportation
+		?c: the barrier
+
+
+label:    sent_22
+sentence: In angioedema , congestion may involve mucous membranes and therefore impair swallowing and ventilation . 16-Hydroxycleroda-3,13-dien-15,16-olide deregulates PI3K and Aurora B activities that involve in cancer cell apoptosis .
+
+ppatt:
+	In ?a , ?b may involve ?c
+		?a: angioedema
+		?b: congestion
+		?c: mucous membranes
+	?a therefore impair ?b
+		?a: congestion
+		?b: swallowing
+	?a therefore impair ?b
+		?a: congestion
+		?b: ventilation
+	?a deregulates ?b
+		?a: 16-Hydroxycleroda-3,13-dien-15,16-olide
+		?b: PI3K
+	?a deregulates ?b
+		?a: 16-Hydroxycleroda-3,13-dien-15,16-olide
+		?b: Aurora B
+	?a involve in ?b
+		?a: activities
+		?b: cancer cell apoptosis
+
+
+label:    sent_23
+sentence: The data also suggested that TAMs may involve in tumor immunosuppression through overexpressed IL-10 .
+
+ppatt:
+	?a also suggested ?b
+		?a: The data
+		?b: SOMETHING := TAMs may involve in tumor immunosuppression through overexpressed IL-10
+	?a may involve in ?b
+		?a: TAMs
+		?b: tumor immunosuppression through overexpressed IL-10
+
+
+label:    sent_24
+sentence: Rho kinase maybe involve in the proliferation of PASMCs induced by hypoxia .
+
+ppatt:
+	?a maybe involve in ?b
+		?a: Rho kinase
+		?b: the proliferation of PASMCs induced by hypoxia
+	?a induced by ?b
+		?a: PASMCs
+		?b: hypoxia
+
+
+label:    sent_25
+sentence: Stacking interactions are particularly prominent and involve every RNA base in the recognition element .
+
+ppatt:
+	?a are particularly prominent
+		?a: Stacking interactions
+	?a involve ?b
+		?a: Stacking interactions
+		?b: every RNA base in the recognition element
+
+
+label:    sent_26
+sentence: This process is bidirectional and may involve multiple organelles within a cell .
+
+ppatt:
+	?a is bidirectional
+		?a: This process
+	?a may involve ?b within ?c
+		?a: This process
+		?b: multiple organelles
+		?c: a cell
+
+
+label:    sent_27
+sentence: Distant cutaneous metastases are exceptional and involve with predilection the cephalic extremity .
+
+ppatt:
+	?a are exceptional
+		?a: Distant cutaneous metastases
+	?a involve with ?b
+		?a: Distant cutaneous metastases
+		?b: predilection the cephalic extremity
+
+

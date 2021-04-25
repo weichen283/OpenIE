@@ -1,0 +1,204 @@
+label:    sent_1
+sentence: It is premature to declare letrozole a therapeutic option in recurrent/metastatic endometrial cancer .
+
+ppatt:
+	?a is premature to declare ?b ?c
+		?a: It
+		?b: letrozole
+		?c: a therapeutic option in recurrent/metastatic endometrial cancer
+
+
+label:    sent_2
+sentence: Do n't declare QI victory too soon .
+
+ppatt:
+	Do n't declare ?a too soon
+		?a: QI victory
+
+
+label:    sent_3
+sentence: It is too early to declare early or late rescue high-frequency oscillatory ventilation dead .
+
+ppatt:
+	?a is too early to declare ?b
+		?a: It
+		?b: early
+	?a is too early to declare ?b
+		?a: It
+		?b: late
+
+
+label:    sent_4
+sentence: The other authors declare to have no relevant financial interest in the evaluation .
+
+ppatt:
+	?a declare to have ?b in ?c
+		?a: The other authors
+		?b: no relevant financial interest
+		?c: the evaluation
+
+
+label:    sent_5
+sentence: Nothing to declare ? The authors have no competing interests to declare . Let us declare a single entry , associate degree level now . 88 % declare their willingness to give voluntary support to others . [Supreme Administrative Court : Health Care Council does not declare fluoride rinses forbidden ] . Perhaps these findings may help to declare the contradictory results in literature .
+
+ppatt:
+	to declare ?a
+		?a: The authors
+	Nothing ?a have ?b to declare
+		?a: The authors
+		?b: no competing interests
+	?a Let ?b
+		?a: The authors
+		?b: us
+	?a declare ?b
+		?a: The authors
+		?b: a single entry
+	?a associate ?b now
+		?a: The authors
+		?b: degree level
+	?a declare ?b
+		?a: 88 %
+		?b: their willingness to give voluntary support to others
+	?a give ?b
+		?a: their willingness
+		?b: voluntary support to others
+	?a does not declare ?b
+		?a: [Supreme Administrative Court : Health Care Council
+		?b: fluoride rinses forbidden ]
+	?a forbidden ]
+		?a: fluoride rinses
+	Perhaps ?a may help to declare ?b
+		?a: these findings
+		?b: the contradictory results in literature
+
+
+label:    sent_6
+sentence: Preventive cardiologists unready to declare victory in war against coronary heart disease .
+
+ppatt:
+	?a unready to declare ?b
+		?a: Preventive cardiologists
+		?b: victory in war against coronary heart disease
+
+
+label:    sent_7
+sentence: Why The BMJ should not declare a stance on assisted dying .
+
+ppatt:
+	Why ?a should not declare ?b
+		?a: The BMJ
+		?b: a stance on assisted dying
+
+
+label:    sent_8
+sentence: Both sides declare victory in uninsured billing settlements . St . Louis doctors declare war on prepaid care .
+
+ppatt:
+	?a declare ?b
+		?a: Both sides
+		?b: victory in uninsured billing settlements
+	?a declare ?b on ?c
+		?a: St . Louis doctors
+		?b: war
+		?c: prepaid care
+
+
+label:    sent_9
+sentence: Most serious intra-abdominal injuries will declare themselves on initial clinical assessment .
+
+ppatt:
+	?a will declare ?b on ?c
+		?a: Most serious intra-abdominal injuries
+		?b: themselves
+		?c: initial clinical assessment
+
+
+label:    sent_10
+sentence: Units used to declare product potency or to prescribe the dosage varied .
+
+ppatt:
+	?a used to declare ?b
+		?a: Units
+		?b: product potency
+	?a used to to prescribe ?b
+		?a: Units
+		?b: the dosage
+	?a varied
+		?a: Units used to declare product potency or to prescribe the dosage
+
+
+label:    sent_11
+sentence: How and why do you declare a major incident ? Polio programme : let us declare victory and move on . Fourteen percent of couples declare in this case they would ask for fetal reduction .
+
+ppatt:
+	How and why do ?a declare ?b
+		?a: you
+		?b: a major incident ? Polio programme
+	?a let ?b
+		?a: you
+		?b: us
+	declare ?a
+		?a: victory
+	declare ?a
+		?a: move on . Fourteen percent of couples declare in this case
+	?a declare in ?b
+		?a: Fourteen percent of couples
+		?b: this case
+	?a would ask for ?b
+		?a: they
+		?b: fetal reduction
+
+
+label:    sent_12
+sentence: Despite this they declare that they do not get information .
+
+ppatt:
+	Despite ?a declare ?b
+		?a: this they
+		?b: SOMETHING := they do not get information
+	?a do not get ?b
+		?a: they
+		?b: information
+
+
+label:    sent_13
+sentence: Girls in comparing to boys they more often declare for lowering the body weight .
+
+ppatt:
+	?a comparing to ?b
+		?a: Girls
+		?b: boys
+	?a ?b more often declare
+		?a: Girls in comparing to boys
+		?b: they
+	?a lowering ?b
+		?a: Girls in comparing to boys
+		?b: the body weight
+
+
+label:    sent_14
+sentence: Academics should declare , and journalists report , relevant CoI for media interviews .
+
+ppatt:
+	?a should declare
+		?a: Academics
+	?a report , ?b for ?c
+		?a: journalists
+		?b: relevant CoI
+		?c: media interviews
+
+
+label:    sent_15
+sentence: During registration , donors either declare their blood group or give no comment .
+
+ppatt:
+	During ?a , ?b ?c declare ?d
+		?a: registration
+		?b: donors
+		?c: either
+		?d: their blood group
+	?a give ?b
+		?a: donors
+		?b: no comment
+
+

@@ -1,0 +1,272 @@
+label:    sent_1
+sentence: The occurrence of NAFLD or NASH without portal hypertension should not preclude the procedure .
+
+ppatt:
+	?a should not preclude ?b
+		?a: The occurrence of NAFLD or NASH without portal hypertension
+		?b: the procedure
+
+
+label:    sent_2
+sentence: However , the adverse effects of these therapies may preclude their long-term use . Unfavorable anatomy can preclude embolization of intracranial aneurysms .
+
+ppatt:
+	However , ?a may preclude ?b
+		?a: the adverse effects of these therapies
+		?b: their long-term use
+	?a can preclude ?b
+		?a: Unfavorable anatomy
+		?b: embolization of intracranial aneurysms
+
+
+label:    sent_3
+sentence: The minimum gap that was found to preclude primary repair was 4 mm . PLB-KO mice were used to preclude ancillary effects of CaMKII mediated by phospholamban phosphorylation .
+
+ppatt:
+	?a was found to preclude ?b
+		?a: The minimum gap
+		?b: primary repair
+	?a was 4 mm
+		?a: The minimum gap that was found to preclude primary repair
+	?a were used to preclude ?b
+		?a: PLB-KO mice
+		?b: ancillary effects of CaMKII mediated by phospholamban phosphorylation
+	?a mediated by ?b
+		?a: CaMKII
+		?b: phospholamban phosphorylation
+
+
+label:    sent_4
+sentence: Bloodstains did not preclude the viewing of these patterns .
+
+ppatt:
+	?a did not preclude ?b
+		?a: Bloodstains
+		?b: the viewing of these patterns
+
+
+label:    sent_5
+sentence: However , ethical considerations preclude investigation into the predictive capacity of a scale .
+
+ppatt:
+	However , ?a preclude ?b
+		?a: ethical considerations
+		?b: investigation into the predictive capacity of a scale
+
+
+label:    sent_6
+sentence: This might preclude patients from reaching clinical outcomes .
+
+ppatt:
+	?a might preclude ?b
+		?a: This
+		?b: patients
+	?a reaching ?b
+		?a: patients
+		?b: clinical outcomes
+
+
+label:    sent_7
+sentence: The presence of SMH did not preclude the patients from undergoing further PDT .
+
+ppatt:
+	?a did not preclude ?b
+		?a: The presence of SMH
+		?b: the patients
+	?a undergoing ?b
+		?a: the patients
+		?b: further PDT
+
+
+label:    sent_8
+sentence: Toxicity was low , and induction chemotherapy did not preclude delivery of concurrent chemoradiotherapy .
+
+ppatt:
+	?a was low
+		?a: Toxicity
+	?a did not preclude ?b
+		?a: induction chemotherapy
+		?b: delivery of concurrent chemoradiotherapy
+
+
+label:    sent_9
+sentence: High risk status does not preclude successful CAPD and should not preclude its implementation .
+
+ppatt:
+	?a does not preclude ?b
+		?a: High risk status
+		?b: successful CAPD
+	?a should not preclude ?b
+		?a: High risk status
+		?b: its implementation
+
+
+label:    sent_10
+sentence: Degenerative cusps and lack of chordae may preclude valvuloplasty and require valve replacement .
+
+ppatt:
+	?a may preclude ?b
+		?a: Degenerative cusps of chordae
+		?b: valvuloplasty
+	?a may preclude ?b
+		?a: lack
+		?b: valvuloplasty
+	?a require ?b
+		?a: Degenerative cusps of chordae
+		?b: valve replacement
+	?a require ?b
+		?a: lack
+		?b: valve replacement
+
+
+label:    sent_11
+sentence: Chemonucleolysis , however , requires less resources and does not preclude subsequent operation .
+
+ppatt:
+	?a however , requires ?b
+		?a: Chemonucleolysis
+		?b: less resources
+	?a does not preclude ?b
+		?a: Chemonucleolysis
+		?b: subsequent operation
+
+
+label:    sent_12
+sentence: Such interpretations are not acceptable and preclude rational management decisions .
+
+ppatt:
+	?a are not acceptable
+		?a: Such interpretations
+	?a preclude ?b
+		?a: Such interpretations
+		?b: rational management decisions
+
+
+label:    sent_13
+sentence: Severe cardiomyopathy can be present at diagnosis and may seemingly preclude this approach .
+
+ppatt:
+	?a can be present at ?b
+		?a: Severe cardiomyopathy
+		?b: diagnosis
+	?a may seemingly preclude ?b
+		?a: Severe cardiomyopathy
+		?b: this approach
+
+
+label:    sent_14
+sentence: Lymph node involvement appears to preclude beneficial resection except under special circumstances .
+
+ppatt:
+	?a appears to preclude ?b except under ?c
+		?a: Lymph node involvement
+		?b: beneficial resection
+		?c: special circumstances
+
+
+label:    sent_15
+sentence: Each method has constraints that preclude it from being the method of choice .
+
+ppatt:
+	?a has ?b
+		?a: Each method
+		?b: constraints that preclude it from being the method of choice
+	?a preclude ?b
+		?a: constraints
+		?b: it
+	?a being the method of ?b
+		?a: it
+		?b: choice
+
+
+label:    sent_16
+sentence: This tends to preclude high fluorescence quantum yields even in extended iDPPnTs systems .
+
+ppatt:
+	?a tends to preclude ?b in ?c
+		?a: This
+		?b: high fluorescence quantum yields
+		?c: even extended iDPPnTs systems
+
+
+label:    sent_17
+sentence: These problems can preclude achieving an optimal response with l-dopa treatment .
+
+ppatt:
+	?a can preclude achieving ?b
+		?a: These problems
+		?b: an optimal response with l-dopa treatment
+
+
+label:    sent_18
+sentence: This does not preclude that some individuals will be affected .
+
+ppatt:
+	?a does not preclude ?b
+		?a: This
+		?b: SOMETHING := some individuals will be affected
+	?a will be affected
+		?a: some individuals
+
+
+label:    sent_19
+sentence: Dental porcelain occasionally requires adjustment in circumstances that preclude reglazing .
+
+ppatt:
+	?a occasionally requires ?b
+		?a: Dental porcelain
+		?b: adjustment in circumstances that preclude reglazing
+	?a preclude ?b
+		?a: circumstances
+		?b: reglazing
+
+
+label:    sent_20
+sentence: High intra-twin correlations were observed , but muscle-dependent differences preclude clear conclusions toward heritability .
+
+ppatt:
+	?a were observed
+		?a: High intra-twin correlations
+	?a preclude ?b
+		?a: muscle-dependent differences
+		?b: clear conclusions toward heritability
+
+
+label:    sent_21
+sentence: Side-effects were minor and did not preclude patients from continuing the study . Pregnancy did not preclude , but did delay , recurrence .
+
+ppatt:
+	?a were minor
+		?a: Side-effects
+	?a did not preclude ?b
+		?a: Side-effects
+		?b: patients
+	?a continuing ?b
+		?a: patients
+		?b: the study
+	?a did not preclude
+		?a: Pregnancy
+
+
+label:    sent_22
+sentence: Primary thermal ablation for small renal masses may preclude or complicate subsequent surgical salvage .
+
+ppatt:
+	?a may preclude ?b
+		?a: Primary thermal ablation for small renal masses
+		?b: subsequent surgical salvage
+	?a complicate
+		?a: Primary thermal ablation for small renal masses
+
+
+label:    sent_23
+sentence: Failed PTRA did not preclude or complicate subsequent operative RA revascularization .
+
+ppatt:
+	?a did not preclude ?b
+		?a: Failed PTRA
+		?b: subsequent operative RA revascularization
+	?a complicate
+		?a: Failed PTRA
+
+

@@ -1,0 +1,185 @@
+label:    sent_1
+sentence: An anti-alphav integrin antibody was used to immunostain 19 eyelid and periorbital SCC samples .
+
+ppatt:
+	?a was used to immunostain ?b
+		?a: An anti-alphav integrin antibody
+		?b: 19 eyelid and periorbital SCC samples
+
+
+label:    sent_2
+sentence: This protocol details a method to immunostain organotypic slice cultures from mouse hippocampus .
+
+ppatt:
+	?a details ?b
+		?a: This protocol
+		?b: a method to immunostain organotypic slice cultures from mouse hippocampus
+	?a immunostain ?b
+		?a: a method
+		?b: organotypic slice cultures from mouse hippocampus
+
+
+label:    sent_3
+sentence: Whole-mount preparations of the gallbladders were made to immunostain the intramural nerves .
+
+ppatt:
+	?a were made to immunostain ?b
+		?a: Whole-mount preparations of the gallbladders
+		?b: the intramural nerves
+
+
+label:    sent_4
+sentence: Contrary to these lung epithelial neoplasms , most mesotheliomas did not immunostain for p21ras .
+
+ppatt:
+	Contrary to ?a , ?b did not immunostain for ?c
+		?a: these lung epithelial neoplasms
+		?b: most mesotheliomas
+		?c: p21ras
+
+
+label:    sent_5
+sentence: Clinically nonfunctioning macroadenomas in post-menopausal women often do not immunostain for gonadotropins .
+
+ppatt:
+	?a often do not immunostain for ?b
+		?a: Clinically nonfunctioning macroadenomas in post-menopausal women
+		?b: gonadotropins
+
+
+label:    sent_6
+sentence: Usefulness of OCT4/3 immunostain in pediatric malignant germ cell tumors . CD-45 can help to highlight lymphocytes that immunostain with Ki-67 .
+
+ppatt:
+	?a ?b can help to highlight ?c
+		?a: Usefulness of OCT4/3 immunostain in pediatric malignant germ cell tumors
+		?b: CD-45
+		?c: lymphocytes that immunostain with Ki-67
+	?a immunostain with ?b
+		?a: lymphocytes
+		?b: Ki-67
+
+
+label:    sent_7
+sentence: Material was not available to immunostain for basal cells in the case with carcinoma .
+
+ppatt:
+	?a was not available to immunostain for ?b in ?c
+		?a: Material
+		?b: basal cells
+		?c: the case with carcinoma
+
+
+label:    sent_8
+sentence: Sarcoplasmic hexagonally cross-linked tubular arrays immunostain for caveolin-3 : an excess caveolinopathy ? Antibodies to CAP immunostain cementum , but not other tissues . All three antibodies immunostain the bovine subcommissural organ and RF .
+
+ppatt:
+	?a immunostain for ?b
+		?a: Sarcoplasmic hexagonally cross-linked tubular arrays
+		?b: caveolin-3
+	?a immunostain ?b
+		?a: Sarcoplasmic hexagonally cross-linked tubular arrays
+		?b: cementum
+	?a immunostain ?b
+		?a: Sarcoplasmic hexagonally cross-linked tubular arrays
+		?b: other tissues
+	?a immunostain ?b
+		?a: All three antibodies
+		?b: the bovine subcommissural organ
+	?a immunostain ?b
+		?a: All three antibodies
+		?b: RF
+
+
+label:    sent_9
+sentence: Antibodies against the ENaC alpha- or beta-subunit proteins do not immunostain these regions .
+
+ppatt:
+	?a do not immunostain ?b
+		?a: Antibodies against ENaC alpha- or beta-subunit
+		?b: these regions
+
+
+label:    sent_10
+sentence: We have used an antiserum to SP to immunostain neurons in postmortem human retinae .
+
+ppatt:
+	?a have used ?b
+		?a: We
+		?b: an antiserum to SP
+	?a immunostain ?b
+		?a: We
+		?b: neurons in postmortem human retinae
+
+
+label:    sent_11
+sentence: A number of polyclonal anti-mIgG antibodies were used to immunostain these cells in wholemount .
+
+ppatt:
+	?a were used to immunostain ?b in ?c
+		?a: A number of polyclonal anti-mIgG antibodies
+		?b: these cells
+		?c: wholemount
+
+
+label:    sent_12
+sentence: Normal lung and pleural tissue did not immunostain except for occasional type II pneumocytes .
+
+ppatt:
+	?a did not immunostain except for ?b
+		?a: Normal lung
+		?b: occasional type II pneumocytes
+	?a did not immunostain except for ?b
+		?a: pleural tissue
+		?b: occasional type II pneumocytes
+
+
+label:    sent_13
+sentence: In vitro changes of ganglioside immunostain localization in developing neural cells .
+
+ppatt:
+
+
+
+label:    sent_14
+sentence: Further , mAb H8 could immunostain myelin structures in frozen sections from mouse brains .
+
+ppatt:
+	Further , ?a could immunostain ?b in ?c
+		?a: mAb H8
+		?b: myelin structures
+		?c: frozen sections from mouse brains
+
+
+label:    sent_15
+sentence: Anti-tau antibodies immunostain ANT in immunofluorescence and immunoperoxidase studies .
+
+ppatt:
+	?a immunostain ?b in ?c
+		?a: Anti-tau antibodies
+		?b: ANT
+		?c: immunofluorescence
+	?a immunostain ?b in ?c
+		?a: Anti-tau antibodies
+		?b: ANT
+		?c: immunoperoxidase
+
+
+label:    sent_16
+sentence: Treponema pallidum immunostain distinguishing syphilitic gastritis from Helicobacter pylori-associated gastritis .
+
+ppatt:
+	?a distinguishing ?b
+		?a: Treponema pallidum immunostain
+		?b: syphilitic gastritis from Helicobacter pylori-associated gastritis
+
+
+label:    sent_17
+sentence: Evaluation of the c-Met immunostain to detect malignant cells in body cavity effusions .
+
+ppatt:
+	?a detect ?b
+		?a: Evaluation of the c-Met immunostain
+		?b: malignant cells in body cavity effusions
+
+

@@ -1,0 +1,348 @@
+label:    sent_1
+sentence: Hippocampal neurons encode different episodes in an overlapping sequence of odors task .
+
+ppatt:
+	?a encode ?b in ?c
+		?a: Hippocampal neurons
+		?b: different episodes
+		?c: an overlapping sequence of odors task
+
+
+label:    sent_2
+sentence: Specific insulin-like peptides encode sensory information to regulate distinct developmental processes .
+
+ppatt:
+	?a encode ?b
+		?a: Specific insulin-like peptides
+		?b: sensory information to regulate distinct developmental processes
+	?a regulate ?b
+		?a: sensory information
+		?b: distinct developmental processes
+
+
+label:    sent_3
+sentence: SHANK genes encode a family of synaptic scaffolding proteins located postsynaptically on excitatory synapses .
+
+ppatt:
+	?a encode ?b
+		?a: SHANK genes
+		?b: a family of synaptic scaffolding proteins located postsynaptically on excitatory synapses
+
+
+label:    sent_4
+sentence: Therefore , MCO3 may encode an insect ferroxidase .
+
+ppatt:
+	Therefore , ?a may encode ?b
+		?a: MCO3
+		?b: an insect ferroxidase
+
+
+label:    sent_5
+sentence: Its 1.2 Mb-genome was initially predicted to encode 917 genes .
+
+ppatt:
+	?a was initially predicted to encode ?b
+		?a: Its 1.2 Mb-genome
+		?b: 917 genes
+
+
+label:    sent_6
+sentence: In Zea mays three dxs genes exist that encode plastid-targeted functional enzymes .
+
+ppatt:
+	In ?a ?b exist ?c
+		?a: Zea mays
+		?b: three dxs genes
+		?c: SOMETHING := that encode plastid-targeted functional enzymes
+	?a encode ?b
+		?a: that
+		?b: plastid-targeted functional enzymes
+
+
+label:    sent_7
+sentence: Twelve LQTS genes have been identified and most of them encode cardiac ion channels .
+
+ppatt:
+	?a have been identified
+		?a: Twelve LQTS genes
+	?a encode ?b
+		?a: most of them
+		?b: cardiac ion channels
+
+
+label:    sent_8
+sentence: These two exons encode the central portions of URF-1 , and are highly conserved . SUI-family genes encode phosphatidylserine synthases and regulate stem development in rice .
+
+ppatt:
+	?a encode ?b
+		?a: These two exons
+		?b: the central portions of URF-1
+	?a are highly conserved
+		?a: These two exons
+	?a encode ?b
+		?a: SUI-family genes
+		?b: phosphatidylserine synthases
+	?a regulate ?b
+		?a: SUI-family genes
+		?b: stem development in rice
+
+
+label:    sent_9
+sentence: In Arabidopsis thaliana 58 genes encode these six trans-membrane domain proteins .
+
+ppatt:
+	In ?a encode ?b
+		?a: Arabidopsis thaliana 58 genes
+		?b: these six trans-membrane domain proteins
+
+
+label:    sent_10
+sentence: In most animals , multiple genes encode protein kinase C ( PKC ) proteins .
+
+ppatt:
+	In ?a , ?b encode ?c
+		?a: most animals
+		?b: multiple genes
+		?c: protein kinase C ( PKC ) proteins
+
+
+label:    sent_11
+sentence: In Arabidopsis , one-third of the genes required for embryo development encode plastid-localized proteins .
+
+ppatt:
+	?a required for ?b
+		?a: the genes
+		?b: embryo development
+	In ?a , ?b encode ?c
+		?a: Arabidopsis
+		?b: one-third of the genes required for embryo development
+		?c: plastid-localized proteins
+
+
+label:    sent_12
+sentence: The Yap and TAZ genes encode highly conserved domains which bind various transcription factors .
+
+ppatt:
+	?a encode ?b
+		?a: Yap and TAZ genes
+		?b: highly conserved domains which bind various transcription factors
+	?a bind ?b
+		?a: highly conserved domains
+		?b: various transcription factors
+
+
+label:    sent_13
+sentence: The two genes encode variant small subunits that differ by four amino acid residues .
+
+ppatt:
+	?a encode ?b
+		?a: The two genes
+		?b: variant small subunits that differ by four amino acid residues
+	?a differ by ?b
+		?a: variant small subunits
+		?b: four amino acid residues
+
+
+label:    sent_14
+sentence: The BtuB group col plasmids and homology between the colicins they encode . xylA and xylB share an operon and encode xylose isomerase and xylulokinase , respectively .
+
+ppatt:
+	?a encode
+		?a: they
+	?a ?b share ?c
+		?a: The BtuB group col plasmids
+		?b: xylA
+		?c: an operon
+	?a ?b share ?c
+		?a: homology between the colicins
+		?b: xylA
+		?c: an operon
+	?a ?b share ?c
+		?a: The BtuB group col plasmids
+		?b: xylB
+		?c: an operon
+	?a ?b share ?c
+		?a: homology between the colicins
+		?b: xylB
+		?c: an operon
+	?a encode ?b , respectively
+		?a: The BtuB group col plasmids
+		?b: xylose isomerase
+	?a encode ?b , respectively
+		?a: homology between the colicins
+		?b: xylose isomerase
+	?a encode ?b , respectively
+		?a: The BtuB group col plasmids
+		?b: xylulokinase
+	?a encode ?b , respectively
+		?a: homology between the colicins
+		?b: xylulokinase
+
+
+label:    sent_15
+sentence: These alleles lack sequence similarity and encode different transcriptional regulators .
+
+ppatt:
+	?a lack ?b
+		?a: These alleles
+		?b: sequence similarity
+	?a encode ?b
+		?a: These alleles
+		?b: different transcriptional regulators
+
+
+label:    sent_16
+sentence: Both calcitonin and psi Cal mRNAs are functional and encode different polypeptide products .
+
+ppatt:
+	?a are functional
+		?a: Both calcitonin and psi Cal mRNAs
+	?a encode ?b
+		?a: Both calcitonin and psi Cal mRNAs
+		?b: different polypeptide products
+
+
+label:    sent_17
+sentence: Nine genes of Arabidopsis ( Arabidopsis thaliana ) encode for beta-amylase isozymes .
+
+ppatt:
+	?a is/are Arabidopsis thaliana
+		?a: Arabidopsis
+	?a encode for ?b
+		?a: Nine genes of Arabidopsis
+		?b: beta-amylase isozymes
+
+
+label:    sent_18
+sentence: Homeobox genes encode for regulatory proteins central to hematopoietic differentiation and proliferation .
+
+ppatt:
+	?a encode for ?b
+		?a: Homeobox genes
+		?b: regulatory proteins central to hematopoietic differentiation and proliferation
+
+
+label:    sent_19
+sentence: Roco genes encode for large proteins with several protein domains .
+
+ppatt:
+	?a encode for ?b
+		?a: Roco genes
+		?b: large proteins with several protein domains
+
+
+label:    sent_20
+sentence: The clone was shown to encode PG II by hybrid selected translation and immunoprecipitation .
+
+ppatt:
+	?a was shown to encode ?b by ?c
+		?a: The clone
+		?b: PG II
+		?c: hybrid selected translation
+	?a was shown to encode ?b by ?c
+		?a: The clone
+		?b: PG II
+		?c: immunoprecipitation
+
+
+label:    sent_21
+sentence: The additional z-gradients encode the instantaneous through plane position of the slice .
+
+ppatt:
+	?a encode ?b through ?c
+		?a: The additional z-gradients
+		?b: the instantaneous
+		?c: plane position of the slice
+
+
+label:    sent_22
+sentence: In this population , HLA-DQ7 did not encode an increased risk for RA .
+
+ppatt:
+	In ?a , ?b did not encode ?c
+		?a: this population
+		?b: HLA-DQ7
+		?c: an increased risk for RA
+
+
+label:    sent_23
+sentence: The p53 family comprises three genes that encode for p53 , p63 and p73 .
+
+ppatt:
+	?a comprises ?b
+		?a: The p53 family
+		?b: three genes that encode for p53 , p63 and p73
+	?a encode for ?b
+		?a: three genes
+		?b: p53
+	?a encode for ?b
+		?a: three genes
+		?b: p63
+	?a encode for ?b
+		?a: three genes
+		?b: p73
+
+
+label:    sent_24
+sentence: A 49-kilobase linear plasmid contains the genes that encode for these surface proteins .
+
+ppatt:
+	?a contains ?b
+		?a: A 49-kilobase linear plasmid
+		?b: the genes that encode for these surface proteins
+	?a encode for ?b
+		?a: the genes
+		?b: these surface proteins
+
+
+label:    sent_25
+sentence: This ORF was predicted to encode for 482 amino acid residues .
+
+ppatt:
+	?a was predicted to encode for ?b
+		?a: This ORF
+		?b: 482 amino acid residues
+
+
+label:    sent_26
+sentence: The four groups were similar in their ability to encode and interpret social cues . BnPAP12-4 and BnPAP12-6 ( Group II ) have seven introns and encode 526-aa PAP12s .
+
+ppatt:
+	?a were similar in ?b
+		?a: The four groups
+		?b: their ability to encode and interpret social cues
+	?a encode ?b
+		?a: their ability
+		?b: social cues
+	interpret ?a
+		?a: social cues
+	?a is/are Group II
+		?a: BnPAP12-4
+	?a is/are Group II
+		?a: BnPAP12-6
+	?a have ?b
+		?a: BnPAP12-4
+		?b: seven introns
+	?a have ?b
+		?a: BnPAP12-6
+		?b: seven introns
+	?a encode ?b
+		?a: BnPAP12-4
+		?b: 526-aa PAP12s
+	?a encode ?b
+		?a: BnPAP12-6
+		?b: 526-aa PAP12s
+
+
+label:    sent_27
+sentence: The chemical sense of insects has evolved to encode and classify odorants .
+
+ppatt:
+	?a has evolved to encode ?b
+		?a: The chemical sense of insects
+		?b: odorants
+	?a has evolved to classify
+		?a: The chemical sense of insects
+
+

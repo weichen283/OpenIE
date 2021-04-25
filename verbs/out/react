@@ -1,0 +1,300 @@
+label:    sent_1
+sentence: Histidines in the octapeptide repeat of PrPC react with PrPSc at an acidic pH .
+
+ppatt:
+	?a react with ?b at ?c
+		?a: Histidines in the octapeptide repeat of PrPC
+		?b: PrPSc
+		?c: an acidic pH
+
+
+label:    sent_2
+sentence: In contrast , the less sterically crowded 6 does not react with these substrates .
+
+ppatt:
+	In ?a , ?b does not react with ?c
+		?a: contrast
+		?b: the less sterically crowded 6
+		?c: these substrates
+
+
+label:    sent_3
+sentence: Autoimmune ANA / ENA reference sera react preferentially with DS affinity-fractionated cellular proteins .
+
+ppatt:
+	?a react preferentially with ?b
+		?a: Autoimmune ANA / ENA reference sera
+		?b: DS affinity-fractionated cellular proteins
+
+
+label:    sent_4
+sentence: The same product is formed when 1 is allowed to react with trimethylamine N-oxide .
+
+ppatt:
+	?a is formed
+		?a: The same product
+	when ?a is allowed to react with ?b
+		?a: 1
+		?b: trimethylamine N-oxide
+
+
+label:    sent_5
+sentence: On the other hand , the tetrahydroisohumulones did not react with 1-hydroxyethyl radicals .
+
+ppatt:
+	On ?a , ?b did not react with ?c
+		?a: the other hand
+		?b: the tetrahydroisohumulones
+		?c: 1-hydroxyethyl radicals
+
+
+label:    sent_6
+sentence: Working together to develop and react to public policy .
+
+ppatt:
+	?a together to develop to ?b
+		?a: Working
+		?b: public policy
+
+
+label:    sent_7
+sentence: The C. trachomatis DUBs react with activity-based probes and hydrolyse ubiquitinated and neddylated substrates .
+
+ppatt:
+	?a react with ?b
+		?a: The C. trachomatis DUBs
+		?b: activity-based probes
+	?a hydrolyse ?b
+		?a: The C. trachomatis DUBs
+		?b: ubiquitinated and neddylated substrates
+
+
+label:    sent_8
+sentence: Granulocytes , monocytes and platelets react with the antibody , but erythrocytes do not .
+
+ppatt:
+	?a react with ?b
+		?a: Granulocytes
+		?b: the antibody
+	?a react with ?b
+		?a: monocytes
+		?b: the antibody
+	?a react with ?b
+		?a: platelets
+		?b: the antibody
+	?a do not
+		?a: erythrocytes
+
+
+label:    sent_9
+sentence: CO could react with the active hydroxyl species and generate formate species .
+
+ppatt:
+	?a could react with ?b
+		?a: CO
+		?b: the active hydroxyl species
+	?a generate ?b
+		?a: CO
+		?b: formate species
+
+
+label:    sent_10
+sentence: Fr I strongly reacted with HGM75 but did not react with HIK1083 .
+
+ppatt:
+	?a strongly reacted with ?b
+		?a: Fr I
+		?b: HGM75
+	?a did not react with ?b
+		?a: Fr I
+		?b: HIK1083
+
+
+label:    sent_11
+sentence: Unlike uric acid , the stones crush easily and do not react with uricase . 4-Hydroxy-2-acetylaminofluorene was not mutagenic and did not react with the nucleophile , guanosine .
+
+ppatt:
+	Unlike ?a , ?b crush easily
+		?a: uric acid
+		?b: the stones
+	?a do not react with ?b
+		?a: the stones
+		?b: uricase
+	?a was not mutagenic
+		?a: 4-Hydroxy-2-acetylaminofluorene
+	?a did not react with ?b
+		?a: 4-Hydroxy-2-acetylaminofluorene
+		?b: the nucleophile
+	?a is/are guanosine
+		?a: the nucleophile
+
+
+label:    sent_12
+sentence: Global coagulation tests react very sensitive to direct thrombin inhibitors or factor Xa inhibitors .
+
+ppatt:
+	?a react very sensitive to ?b
+		?a: Global coagulation tests
+		?b: direct thrombin inhibitors
+	?a react very sensitive to ?b
+		?a: Global coagulation tests
+		?b: factor Xa inhibitors
+
+
+label:    sent_13
+sentence: Tobacco-derived toxicants can react to form potent cancer causing compounds .
+
+ppatt:
+	?a can react to form ?b
+		?a: Tobacco-derived toxicants
+		?b: potent cancer causing compounds
+
+
+label:    sent_14
+sentence: These carbonyl oxide compounds react to form dioxanes and hydroperoxides .
+
+ppatt:
+	?a react to form ?b
+		?a: These carbonyl oxide compounds
+		?b: dioxanes
+	?a react to form ?b
+		?a: These carbonyl oxide compounds
+		?b: hydroperoxides
+
+
+label:    sent_15
+sentence: Serine proteinase from S. aureus neither react nor inactivates the investigated inhibitor .
+
+ppatt:
+	?a react
+		?a: Serine proteinase from S. aureus neither
+	?a inactivates ?b
+		?a: Serine proteinase from S. aureus neither
+		?b: the investigated inhibitor
+
+
+label:    sent_16
+sentence: Proteins are precipitated immediately and carbonyl compounds react to form fluorescent azine derivatives .
+
+ppatt:
+	?a are precipitated immediately
+		?a: Proteins
+	?a react to form ?b
+		?a: carbonyl compounds
+		?b: fluorescent azine derivatives
+
+
+label:    sent_17
+sentence: Youth react aggressively or repress a racist experience by negating it . Legiobactin is iron repressed and does not react in the Csaky and Arnow assays .
+
+ppatt:
+	?a react aggressively
+		?a: Youth
+	?a repress ?b
+		?a: Youth
+		?b: a racist experience
+	?a negating ?b
+		?a: Youth
+		?b: it
+	?a is ?b repressed
+		?a: Legiobactin
+		?b: iron
+	?a does not react ?b
+		?a: Legiobactin
+		?b: in Csaky and Arnow assays
+
+
+label:    sent_18
+sentence: In TraX + cells , both become acetylated and react with JEL93 . Read and react : the football formula . Coping was defined as the ways in which subjects react to life stress . A dominant mechanism by which cells react to stress involves GSK-3beta .
+
+ppatt:
+	In ?a , ?b become acetylated
+		?a: TraX
+		?b: both
+	In ?a , ?b become acetylated
+		?a: cells
+		?b: both
+	?a react with ?b
+		?a: both
+		?b: JEL93 . Read
+	?a react
+		?a: both
+	?a ?b was defined as ?c
+		?a: the football formula
+		?b: Coping
+		?c: the ways in which subjects react to life stress
+	?a in ?b react to ?c
+		?a: the ways
+		?b: subjects
+		?c: life stress
+	?a is/are A dominant mechanism
+		?a: the ways in which subjects react to life stress
+	?a by ?b react to ?c
+		?a: A dominant mechanism
+		?b: cells
+		?c: stress
+	?a involves ?b
+		?a: the football formula
+		?b: GSK-3beta
+
+
+label:    sent_19
+sentence: Neither did they react with guanidinium chloride extracts of a number of non-cartilaginous tissues .
+
+ppatt:
+	?a did ?b react with ?c
+		?a: Neither
+		?b: they
+		?c: guanidinium chloride extracts of a number of non-cartilaginous tissues
+
+
+label:    sent_20
+sentence: Prepuberal gilts react more sensitively to DON > ZON feeding compared with pregnant sows . Pseudophakic accommodating eyes react similarly compared to the phakic accommodating eyes of young individuals .
+
+ppatt:
+	?a react more sensitively to ?b
+		?a: Prepuberal gilts
+		?b: DON > ZON feeding
+	?a compared with pregnant sows
+		?a: Prepuberal gilts
+	?a react similarly
+		?a: Pseudophakic accommodating eyes
+	?a compared to the phakic accommodating eyes of ?b
+		?a: Pseudophakic accommodating eyes
+		?b: young individuals
+
+
+label:    sent_21
+sentence: The peritoneum is a special milieu within which T cells react .
+
+ppatt:
+	?a is a special milieu
+		?a: The peritoneum
+	?a within ?b react
+		?a: a special milieu
+		?b: T cells
+
+
+label:    sent_22
+sentence: The antigen with which the McAbs react varies in mol .
+
+ppatt:
+	?a with ?b react
+		?a: The antigen
+		?b: the McAbs
+	?a varies in ?b
+		?a: The antigen with which the McAbs react
+		?b: mol
+
+
+label:    sent_23
+sentence: The amino acid sequences of the epitopes to which antisera react were not known .
+
+ppatt:
+	?a to ?b react
+		?a: the epitopes
+		?b: antisera
+	?a were not known
+		?a: The amino acid sequences of the epitopes to which antisera react
+
+

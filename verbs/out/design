@@ -1,0 +1,300 @@
+label:    sent_1
+sentence: Results will be useful to design immunotherapeutic tools based on immunodominant epitopes .
+
+ppatt:
+	?a will be useful to design ?b
+		?a: Results
+		?b: immunotherapeutic tools
+	?a based on immunodominant epitopes
+		?a: Results
+
+
+label:    sent_2
+sentence: To evaluate and/or design bioremediated systems , quantitative reactive transport models are needed .
+
+ppatt:
+	evaluate ?a ?b
+		?a: bioremediated systems
+		?b: quantitative reactive transport models
+	design ?a
+		?a: quantitative reactive transport models
+	?a are needed
+		?a: quantitative reactive transport models
+
+
+label:    sent_3
+sentence: The AFM data were used to design the parameters of the rotational dish experiment .
+
+ppatt:
+	?a were used to design ?b
+		?a: The AFM data
+		?b: the parameters of the rotational dish experiment
+
+
+label:    sent_4
+sentence: Strategies to design bipolar small molecules for OLEDs : donor-acceptor structure and non-donor-acceptor structure .
+
+ppatt:
+	?a design ?b
+		?a: Strategies
+		?b: bipolar small molecules for OLEDs
+
+
+label:    sent_5
+sentence: Interlinked positive and negative feedback loops design emotional sweating .
+
+ppatt:
+	?a design ?b
+		?a: Interlinked positive and negative feedback loops
+		?b: emotional sweating
+
+
+label:    sent_6
+sentence: Thus , our results allowed us to design new derivatives with desired activities .
+
+ppatt:
+	Thus , ?a allowed ?b to design ?c
+		?a: our results
+		?b: us
+		?c: new derivatives with desired activities
+
+
+label:    sent_7
+sentence: These results may help to design better systems for optical control of biochemical processes .
+
+ppatt:
+	?a may help to design ?b
+		?a: These results
+		?b: better systems for optical control of biochemical processes
+
+
+label:    sent_8
+sentence: Our novel observations will help design more efficient molecules for ecological and industrial use . Investigators have also begun to design organs on a chip .
+
+ppatt:
+	?a will help design ?b
+		?a: Our novel observations
+		?b: more efficient molecules for ecological and industrial use
+	?a have also begun to design ?b on ?c
+		?a: Investigators
+		?b: organs
+		?c: a chip
+
+
+label:    sent_9
+sentence: How to design biospecimen identifiers and integrate relevant functionalities into your biospecimen management system .
+
+ppatt:
+	How to design ?a
+		?a: biospecimen identifiers
+	integrate ?a into ?b
+		?a: relevant functionalities
+		?b: your biospecimen management system
+
+
+label:    sent_10
+sentence: How to design and implement palliative care public health programmes : foundation measures .
+
+ppatt:
+	How to design ?a
+		?a: palliative care public health programmes
+	implement ?a
+		?a: palliative care public health programmes
+
+
+label:    sent_11
+sentence: This study aimed to design a body support and to test its potential .
+
+ppatt:
+	?a aimed to design ?b
+		?a: This study
+		?b: a body support
+	?a aimed to to test ?b
+		?a: This study
+		?b: its potential
+
+
+label:    sent_12
+sentence: Thus , an alternative approach to design and obtain piezofluorochromic compounds is proposed here .
+
+ppatt:
+	?a design ?b
+		?a: an alternative approach
+		?b: piezofluorochromic compounds
+	?a obtain
+		?a: an alternative approach
+	Thus , ?a is proposed here
+		?a: an alternative approach to design and obtain piezofluorochromic compounds
+
+
+label:    sent_13
+sentence: Therefore , pharmacists must understand how to design and implement MTM services .
+
+ppatt:
+	Therefore , ?a must understand how to design ?b
+		?a: pharmacists
+		?b: MTM services
+	Therefore , ?a must understand to implement
+		?a: pharmacists
+
+
+label:    sent_14
+sentence: To design and evaluate a research mentor training curriculum for clinical and translational researchers .
+
+ppatt:
+	design ?a
+		?a: a research mentor training curriculum for clinical and translational researchers
+	evaluate ?a
+		?a: a research mentor training curriculum for clinical and translational researchers
+
+
+label:    sent_15
+sentence: We used feedback from prior evaluation of these projects to design and develop CliniSpace .
+
+ppatt:
+	?a used ?b
+		?a: We
+		?b: feedback from prior evaluation of these projects
+	?a design ?b
+		?a: We
+		?b: CliniSpace
+	?a develop
+		?a: We
+
+
+label:    sent_16
+sentence: We design and fabricate ultra-low-loss tapered optical fibers ( TOFs ) with minimal lengths .
+
+ppatt:
+	?a design ?b with ?c
+		?a: We
+		?b: ultra-low-loss tapered optical fibers
+		?c: minimal lengths
+	?a fabricate
+		?a: We
+	?a is/are TOFs
+		?a: ultra-low-loss tapered optical fibers
+
+
+label:    sent_17
+sentence: We design and test an octopus-inspired flexible hull robot that demonstrates outstanding fast-starting performance .
+
+ppatt:
+	?a design ?b
+		?a: We
+		?b: an octopus-inspired flexible hull robot that demonstrates outstanding fast-starting performance
+	?a test
+		?a: We
+	?a demonstrates ?b
+		?a: an octopus-inspired flexible hull robot
+		?b: outstanding fast-starting performance
+
+
+label:    sent_18
+sentence: Such phylogenetic results may help us design better protection programmes against malaria .
+
+ppatt:
+	?a may help ?b design ?c
+		?a: Such phylogenetic results
+		?b: us
+		?c: better protection programmes against malaria
+
+
+label:    sent_19
+sentence: This may help researchers design their own empirical studies in the field of ethics .
+
+ppatt:
+	?a may help ?b design ?c
+		?a: This
+		?b: researchers
+		?c: their own empirical studies in the field of ethics
+
+
+label:    sent_20
+sentence: A facile strategy to design zeolite L crystals with tunable morphology and surface architecture .
+
+ppatt:
+	?a design ?b with ?c
+		?a: A facile strategy
+		?b: zeolite L crystals
+		?c: tunable morphology
+	?a design ?b with ?c
+		?a: A facile strategy
+		?b: zeolite L crystals
+		?c: surface architecture
+
+
+label:    sent_21
+sentence: Molecular markers will enable us to design individualized treatments and improve overall survival . Second , it is intended to help policymakers design implementable programs and anticipate pitfalls .
+
+ppatt:
+	?a will enable ?b to design ?c
+		?a: Molecular markers
+		?b: us
+		?c: individualized treatments
+	?a will enable to improve ?b
+		?a: Molecular markers
+		?b: overall survival
+	Second ?a is intended to help ?b
+		?a: it
+		?b: SOMETHING := policymakers design implementable programs
+	?a ?b design ?c
+		?a: it
+		?b: policymakers
+		?c: implementable programs
+	?a anticipate ?b
+		?a: it
+		?b: pitfalls
+
+
+label:    sent_22
+sentence: We can design molecular gelators , but do we understand them ? Healthcare leaders should carefully design new management control systems that support healthcare micro systems .
+
+ppatt:
+	?a can design ?b
+		?a: We
+		?b: molecular gelators
+	do ?a understand ?b
+		?a: we
+		?b: them
+	?a should carefully design ?b
+		?a: Healthcare leaders
+		?b: new management control systems that support healthcare micro systems
+	?a support ?b
+		?a: new management control systems
+		?b: healthcare micro systems
+
+
+label:    sent_23
+sentence: A cross-sectional postal survey design . Ambulatory surgery design .
+
+ppatt:
+
+
+
+label:    sent_24
+sentence: Customized aspheric IOL design by raytracing through the eye containing quadric surfaces .
+
+ppatt:
+	?a raytracing through ?b
+		?a: Customized aspheric IOL design
+		?b: the eye containing quadric surfaces
+	?a containing ?b
+		?a: the eye
+		?b: quadric surfaces
+
+
+label:    sent_25
+sentence: Piezoelectric transducer design via multiobjective optimization .
+
+ppatt:
+
+
+
+label:    sent_26
+sentence: Autoregressive errors with a repeated measures design in clinical trials .
+
+ppatt:
+
+
+

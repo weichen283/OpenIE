@@ -1,0 +1,301 @@
+label:    sent_1
+sentence: In addition , this probiotic strain seems to diminish the frequency of regurgitation .
+
+ppatt:
+	In ?a , ?b seems to diminish ?c
+		?a: addition
+		?b: this probiotic strain
+		?c: the frequency of regurgitation
+
+
+label:    sent_2
+sentence: This linked procedure allows to diminish the length of healing and improves postoperative time .
+
+ppatt:
+	?a allows to diminish ?b
+		?a: This linked procedure
+		?b: the length of healing
+	?a allows to improves ?b
+		?a: This linked procedure
+		?b: postoperative time
+
+
+label:    sent_3
+sentence: Reduced effort has been hypothesized to diminish clinical outcomes of robotic training .
+
+ppatt:
+	?a has been hypothesized to diminish ?b
+		?a: Reduced effort
+		?b: clinical outcomes of robotic training
+
+
+label:    sent_4
+sentence: Heat treatment of milk may diminish the antimicrobial activity of these antibiotic residues .
+
+ppatt:
+	?a may diminish ?b
+		?a: Heat treatment of milk
+		?b: the antimicrobial activity of these antibiotic residues
+
+
+label:    sent_5
+sentence: Fusion instrumentation did not diminish the accuracy of kinematic and arthrokinematic results .
+
+ppatt:
+	?a did not diminish ?b
+		?a: Fusion instrumentation
+		?b: the accuracy of kinematic and arthrokinematic results
+
+
+label:    sent_6
+sentence: The higher potency , typical antipsychotics also diminish positive modulation in subcortical motor networks .
+
+ppatt:
+	?a is/are typical antipsychotics
+		?a: The higher potency
+	?a also diminish ?b
+		?a: The higher potency
+		?b: positive modulation in subcortical motor networks
+
+
+label:    sent_7
+sentence: Multimodal treatment of oral cancer can cause speech disorders and diminish speech intelligibility .
+
+ppatt:
+	?a can cause ?b
+		?a: Multimodal treatment of oral cancer
+		?b: speech disorders
+	?a diminish ?b
+		?a: Multimodal treatment of oral cancer
+		?b: speech intelligibility
+
+
+label:    sent_8
+sentence: These oligoproteins diminish the rate of apoptosis and prolong the survival of eosinophils .
+
+ppatt:
+	?a diminish ?b
+		?a: These oligoproteins
+		?b: the rate of apoptosis
+	?a prolong ?b
+		?a: These oligoproteins
+		?b: the survival of eosinophils
+
+
+label:    sent_9
+sentence: Underreporters have higher BMI and diminish the correlation between calculated intake and biomarkers .
+
+ppatt:
+	?a have ?b
+		?a: Underreporters
+		?b: higher BMI
+	?a diminish ?b
+		?a: Underreporters
+		?b: the correlation between calculated intake and biomarkers
+
+
+label:    sent_10
+sentence: Adolescents with adequate birth weight newborns diminish energy expenditure and cease growth .
+
+ppatt:
+	?a diminish ?b
+		?a: Adolescents with adequate birth weight newborns
+		?b: energy expenditure
+	?a cease ?b
+		?a: Adolescents with adequate birth weight newborns
+		?b: growth
+
+
+label:    sent_11
+sentence: Inspiratory loads diminish expiratory braking by the inspiratory muscles and recruit expiratory muscles .
+
+ppatt:
+	?a diminish ?b by ?c
+		?a: Inspiratory loads
+		?b: expiratory braking
+		?c: the inspiratory muscles
+	?a recruit ?b
+		?a: Inspiratory loads
+		?b: expiratory muscles
+
+
+label:    sent_12
+sentence: All treatments effectively diminish expression of CD86 and inhibit this step of inflammation .
+
+ppatt:
+	?a effectively diminish ?b
+		?a: All treatments
+		?b: expression of CD86
+	?a inhibit ?b
+		?a: All treatments
+		?b: this step of inflammation
+
+
+label:    sent_13
+sentence: On the contrary , PI3K inhibitors did not diminish the DHA protective effect .
+
+ppatt:
+	On ?a , ?b did not diminish ?c
+		?a: the contrary
+		?b: PI3K inhibitors
+		?c: the DHA protective effect
+
+
+label:    sent_14
+sentence: In contrast , absence of BMPR-IA did not significantly diminish ADAS osteogenesis .
+
+ppatt:
+	In ?a , ?b did not significantly diminish ?c
+		?a: contrast
+		?b: absence of BMPR-IA
+		?c: ADAS osteogenesis
+
+
+label:    sent_15
+sentence: Anticoagulants may diminish these advantages under certain conditions .
+
+ppatt:
+	?a may diminish ?b under ?c
+		?a: Anticoagulants
+		?b: these advantages
+		?c: certain conditions
+
+
+label:    sent_16
+sentence: Vertical ground reaction forces diminish in mice after botulinum toxin injection .
+
+ppatt:
+	?a diminish in ?b after ?c
+		?a: Vertical ground reaction forces
+		?b: mice
+		?c: botulinum toxin injection
+
+
+label:    sent_17
+sentence: Elevated monocytes in patients with critical limb ischemia diminish after bypass surgery . Fibroblasts expressing PDGF-receptor-alpha diminish during alveolar septal thinning in mice .
+
+ppatt:
+	?a diminish after ?b
+		?a: Elevated monocytes in patients with critical limb ischemia
+		?b: bypass surgery
+	?a expressing ?b
+		?a: Fibroblasts
+		?b: PDGF-receptor-alpha
+	?a diminish during ?b
+		?a: Fibroblasts expressing PDGF-receptor-alpha
+		?b: alveolar septal thinning in mice
+
+
+label:    sent_18
+sentence: These effects appeared to diminish over 6- and 12-month follow-up .
+
+ppatt:
+	?a appeared to diminish over ?b
+		?a: These effects
+		?b: 6- and 12-month follow-up
+
+
+label:    sent_19
+sentence: The leakage was noted to diminish as early as 24 hours after injection .
+
+ppatt:
+	?a was noted to diminish as early as ?b after
+		?a: The leakage
+		?b: 24 hours
+
+
+label:    sent_20
+sentence: CBT effect appears to diminish in patients with a history of over twelve episodes .
+
+ppatt:
+	?a appears to diminish in ?b
+		?a: CBT effect
+		?b: patients with a history of over twelve episodes
+
+
+label:    sent_21
+sentence: Only among the European populations did the trend in incidence diminish with age .
+
+ppatt:
+	Only among ?a did
+		?a: the European populations
+	?a diminish with ?b
+		?a: the trend in incidence
+		?b: age
+
+
+label:    sent_22
+sentence: Similarly castration failed to diminish uridine incorporation by seminal vesicle cells and tissue .
+
+ppatt:
+	Similarly ?a failed to diminish ?b
+		?a: castration
+		?b: uridine incorporation by seminal vesicle cells and tissue
+
+
+label:    sent_23
+sentence: Treatment with captopril tended to diminish dose-related release of prostaglandins in response to NE .
+
+ppatt:
+	?a tended to diminish ?b in ?c
+		?a: Treatment with captopril
+		?b: dose-related release of prostaglandins
+		?c: response to NE
+
+
+label:    sent_24
+sentence: As this technique limits soft tissue damages , it may diminish hospitalization days . Work-family conflict can also diminish .
+
+ppatt:
+	?a limits ?b
+		?a: this technique
+		?b: soft tissue damages
+	?a may diminish ?b
+		?a: it
+		?b: hospitalization days
+	?a can also diminish
+		?a: Work-family conflict
+
+
+label:    sent_25
+sentence: The ASR decreases in AD children when anxiety symptoms diminish .
+
+ppatt:
+
+
+
+label:    sent_26
+sentence: Whether or not results diminish over long-term follow-up remains to be seen .
+
+ppatt:
+	not ?a diminish over ?b
+		?a: results
+		?b: long-term follow-up
+
+
+label:    sent_27
+sentence: Effects diminish over time , but these findings also apply to the general population .
+
+ppatt:
+	?a diminish over ?b
+		?a: Effects
+		?b: time
+	?a also apply to ?b
+		?a: these findings
+		?b: the general population
+
+
+label:    sent_28
+sentence: Sexual desire and activity diminish with age but there is a great variability .
+
+ppatt:
+	?a diminish with ?b
+		?a: Sexual desire
+		?b: age
+	?a diminish with ?b
+		?a: activity
+		?b: age
+	there is ?a
+		?a: a great variability
+
+

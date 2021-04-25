@@ -1,0 +1,28 @@
+label:    sent_1
+sentence: In addition , we could passage frozen cells and obtain a large number of expanded leukemic cells in this model .
+
+ppatt:
+	In ?a , ?b could passage ?c
+		?a: addition
+		?b: we
+		?c: frozen cells
+	?a obtain ?b in ?c
+		?a: we
+		?b: a large number of expanded leukemic cells
+		?c: this model
+
+
+label:    sent_2
+sentence: Since both compounds are highly lipophilic , they readily passage the blood-brain barrier and access the central nervous system .
+
+ppatt:
+	?a are highly lipophilic
+		?a: both compounds
+	?a readily passage ?b
+		?a: they
+		?b: the blood-brain barrier
+	?a access ?b
+		?a: they
+		?b: the central nervous system
+
+

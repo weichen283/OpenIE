@@ -1,0 +1,350 @@
+label:    sent_1
+sentence: Obesity and the associated health problems urgently require effective strategies of treatment .
+
+ppatt:
+	?a urgently require ?b
+		?a: Obesity
+		?b: effective strategies of treatment
+	?a urgently require ?b
+		?a: the associated health problems
+		?b: effective strategies of treatment
+
+
+label:    sent_2
+sentence: Once activated , the transition does not require the continued presence of alcohol .
+
+ppatt:
+	activated ?a
+		?a: the transition
+	?a does not require ?b
+		?a: the transition
+		?b: the continued presence of alcohol
+
+
+label:    sent_3
+sentence: Cancer patients with moderate-to-severe pain require opioids for analgesia .
+
+ppatt:
+	?a require ?b
+		?a: Cancer patients with moderate-to-severe pain
+		?b: opioids for analgesia
+
+
+label:    sent_4
+sentence: These usually disappear with age and do not require any treatment .
+
+ppatt:
+	?a usually disappear with ?b
+		?a: These
+		?b: age
+	?a do not require ?b
+		?a: These
+		?b: any treatment
+
+
+label:    sent_5
+sentence: These worsenings could require more complex and expensive care if not recognized .
+
+ppatt:
+	?a could require ?b
+		?a: These worsenings
+		?b: more complex and expensive care
+	?a not recognized
+		?a: These worsenings
+
+
+label:    sent_6
+sentence: Trazodone , mirtazapine , and ramelteon hold promise but require further study . AKI may be irreversible and require dialysis and predicts a poor prognosis .
+
+ppatt:
+	?a hold ?b
+		?a: Trazodone
+		?b: promise
+	?a hold ?b
+		?a: mirtazapine
+		?b: promise
+	?a hold ?b
+		?a: ramelteon
+		?b: promise
+	?a require ?b
+		?a: Trazodone
+		?b: further study
+	?a require ?b
+		?a: mirtazapine
+		?b: further study
+	?a require ?b
+		?a: ramelteon
+		?b: further study
+	?a may be irreversible
+		?a: AKI
+	?a require ?b
+		?a: AKI
+		?b: dialysis
+	?a predicts ?b
+		?a: AKI
+		?b: a poor prognosis
+
+
+label:    sent_7
+sentence: Most reptiles undergoing surgery are small and require specific instrumentation and positioning .
+
+ppatt:
+	?a undergoing ?b
+		?a: Most reptiles
+		?b: surgery
+	?a are small
+		?a: Most reptiles undergoing surgery
+	?a require ?b
+		?a: Most reptiles undergoing surgery
+		?b: specific instrumentation
+	?a require ?b
+		?a: Most reptiles undergoing surgery
+		?b: positioning
+
+
+label:    sent_8
+sentence: These are troublesome presentations to the patients and require adequate treatment .
+
+ppatt:
+	?a are troublesome presentations to ?b
+		?a: These
+		?b: the patients
+	?a require ?b
+		?a: These
+		?b: adequate treatment
+
+
+label:    sent_9
+sentence: Our approach does not require any modification or parameter optimization for each data set .
+
+ppatt:
+	?a does not require ?b
+		?a: Our approach
+		?b: any modification for each data set
+	?a does not require ?b
+		?a: Our approach
+		?b: parameter optimization
+	?a set
+		?a: each data
+
+
+label:    sent_10
+sentence: These findings require validation with a larger randomized study .
+
+ppatt:
+	?a require ?b
+		?a: These findings
+		?b: validation with a larger randomized study
+
+
+label:    sent_11
+sentence: These cochleate structures do not require divalent cations for their assembly . TE does not require a model of the interaction and is inherently non-linear .
+
+ppatt:
+	?a do not require ?b for ?c
+		?a: These cochleate structures
+		?b: divalent cations
+		?c: their assembly
+	?a does not require ?b
+		?a: TE
+		?b: a model of the interaction
+
+
+label:    sent_12
+sentence: This method does not require decalcification and results in a consistent , reliable assay .
+
+ppatt:
+	?a does not require ?b
+		?a: This method
+		?b: decalcification
+	?a results in ?b
+		?a: This method
+		?b: a consistent , assay
+
+
+label:    sent_13
+sentence: Referrals occur when children require chronic opioids and/or have frequent pain hospitalizations .
+
+ppatt:
+	?a occur
+		?a: Referrals
+	when ?a require ?b
+		?a: children
+		?b: chronic opioids
+	?a have ?b
+		?a: children
+		?b: frequent pain hospitalizations
+
+
+label:    sent_14
+sentence: Further research would require manipulating type of work . Recent advances in information technology require higher-speed and higher-density memory devices .
+
+ppatt:
+	?a would require manipulating ?b
+		?a: Further research
+		?b: type of work
+	?a require ?b
+		?a: Recent advances in information technology
+		?b: higher-speed and higher-density memory devices
+
+
+label:    sent_15
+sentence: Candidate interactions identified by high-throughput protein microarray screening require rigorous -confirmation .
+
+ppatt:
+	?a identified by ?b
+		?a: Candidate interactions
+		?b: high-throughput protein microarray screening
+	?a require ?b
+		?a: Candidate interactions identified by high-throughput protein microarray screening
+		?b: rigorous -confirmation
+
+
+label:    sent_16
+sentence: Interventional cardiologists frequently treat patients who require surgery after stent implantation .
+
+ppatt:
+	?a frequently treat ?b
+		?a: Interventional cardiologists
+		?b: patients who require surgery after stent implantation
+	?a require ?b after ?c
+		?a: patients
+		?b: surgery
+		?c: stent implantation
+
+
+label:    sent_17
+sentence: The HIF-alpha hydroxylases contain Fe ( 2+ ) and require 2-oxoglutarate as co-factor .
+
+ppatt:
+	?a contain ?b
+		?a: The HIF-alpha hydroxylases
+		?b: Fe
+	?a is/are 2+
+		?a: Fe
+	?a require ?b as ?c
+		?a: The HIF-alpha hydroxylases
+		?b: 2-oxoglutarate
+		?c: co-factor
+
+
+label:    sent_18
+sentence: High-energy weapons were more likely to require surgery compared with low-energy weapons .
+
+ppatt:
+	?a were more likely to require ?b
+		?a: High-energy weapons
+		?b: surgery
+	?a compared with low-energy weapons
+		?a: High-energy weapons
+
+
+label:    sent_19
+sentence: The dorsal skin is thin and the underlying structures require coverage by vascularised tissue .
+
+ppatt:
+	?a is thin
+		?a: The dorsal skin
+	?a require ?b
+		?a: the underlying structures
+		?b: coverage by vascularised tissue
+
+
+label:    sent_20
+sentence: Of these , some require glucose intolerance and others require obesity for the diagnosis .
+
+ppatt:
+	Of ?a , ?b require ?c
+		?a: these
+		?b: some
+		?c: glucose intolerance
+	Of ?a , ?b require ?c
+		?a: these
+		?b: some
+		?c: others
+	?a require ?b
+		?a: some
+		?b: obesity for the diagnosis
+
+
+label:    sent_21
+sentence: In this case , 53BP1 phosphorylation did not require ATM but required ATR instead .
+
+ppatt:
+	In ?a , ?b did not require ?c
+		?a: this case
+		?b: 53BP1 phosphorylation
+		?c: ATM
+	?a required ?b instead
+		?a: 53BP1 phosphorylation
+		?b: ATR
+
+
+label:    sent_22
+sentence: Our findings have important clinical implications and require replication with larger samples .
+
+ppatt:
+	?a have ?b
+		?a: Our findings
+		?b: important clinical implications
+	?a require ?b
+		?a: Our findings
+		?b: replication with larger samples
+
+
+label:    sent_23
+sentence: However , the findings are only preliminary and require replication with more-robust study designs .
+
+ppatt:
+	However , ?a are only preliminary
+		?a: the findings
+	?a require ?b with ?c
+		?a: the findings
+		?b: replication
+		?c: more-robust study designs
+
+
+label:    sent_24
+sentence: Patients are often symptomatic and require multiple surgical procedures during their lifetime .
+
+ppatt:
+	?a are often symptomatic
+		?a: Patients
+	?a require ?b during ?c
+		?a: Patients
+		?b: multiple surgical procedures
+		?c: their lifetime
+
+
+label:    sent_25
+sentence: Despite the poor right ventricular systolic functions , they did not require right rVAD .
+
+ppatt:
+	Despite ?a , ?b did not require ?c
+		?a: the poor right ventricular systolic functions
+		?b: they
+		?c: right rVAD
+
+
+label:    sent_26
+sentence: Of these , approximately 10 percent will require take down of their shunt .
+
+ppatt:
+	Of ?a , ?b will require take down of ?c
+		?a: these
+		?b: approximately 10 percent
+		?c: their shunt
+
+
+label:    sent_27
+sentence: Two simple immunoelectrophoretic techniques are described here which do not require such expertise .
+
+ppatt:
+	?a are described here ?b
+		?a: Two simple immunoelectrophoretic techniques
+		?b: SOMETHING := which do not require such expertise
+	?a do not require ?b
+		?a: which
+		?b: such expertise
+
+

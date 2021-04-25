@@ -1,0 +1,303 @@
+label:    sent_1
+sentence: Conventional cross-sectional-MRA measurements of PPAS only moderately agree with XRA .
+
+ppatt:
+	?a only moderately agree with ?b
+		?a: Conventional cross-sectional-MRA measurements of PPAS
+		?b: XRA
+
+
+label:    sent_2
+sentence: The determined radii agree with values found in other studies .
+
+ppatt:
+	?a agree with ?b
+		?a: The determined radii
+		?b: values found in other studies
+	?a found in ?b
+		?a: values
+		?b: other studies
+
+
+label:    sent_3
+sentence: The DFT/MRCI results for the presently determined structures agree well with the experimental spectrum .
+
+ppatt:
+	?a agree well with ?b
+		?a: The DFT/MRCI results for the presently determined structures
+		?b: the experimental spectrum
+
+
+label:    sent_4
+sentence: Both groups agree ( p = 0.7 ) that personal income is decreased .
+
+ppatt:
+	?a agree ?b
+		?a: Both groups
+		?b: SOMETHING := personal income is decreased
+	?a = ?b
+		?a: p
+		?b: 0.7
+	?a is decreased
+		?a: personal income
+
+
+label:    sent_5
+sentence: So , they did not agree enhancing the penalty of medical malpractice crime .
+
+ppatt:
+	So , ?a did not agree enhancing ?b
+		?a: they
+		?b: the penalty of medical malpractice crime
+
+
+label:    sent_6
+sentence: It is shown that the predictions by the both methods agree closely . Do doctors and patients agree on cardiovascular-risk management recommendations post-consultation ?
+
+ppatt:
+	?a is shown ?b
+		?a: It
+		?b: SOMETHING := the predictions by the both methods agree closely
+	?a agree closely
+		?a: the predictions by the both methods
+	Do ?a
+		?a: doctors
+	Do ?a
+		?a: patients
+	?a agree on ?b
+		?a: the predictions by the both methods
+		?b: cardiovascular-risk management recommendations post-consultation
+
+
+label:    sent_7
+sentence: The classical limit of this model is shown to agree with previously proposed models .
+
+ppatt:
+	?a is shown to agree with ?b
+		?a: The classical limit of this model
+		?b: previously proposed models
+
+
+label:    sent_8
+sentence: Quantum chemical calculations provide theoretical predictions that agree well with the measurements . 2 studies agree on fish benefits but differ on contaminants .
+
+ppatt:
+	?a provide ?b
+		?a: Quantum chemical calculations
+		?b: theoretical predictions that agree well with the measurements
+	?a agree well with ?b
+		?a: theoretical predictions
+		?b: the measurements
+	?a agree on ?b
+		?a: studies
+		?b: fish benefits
+	?a differ on ?b
+		?a: studies
+		?b: contaminants
+
+
+label:    sent_9
+sentence: Precision is poor but hCG results agree closely with the other assays .
+
+ppatt:
+	?a is poor
+		?a: Precision
+	?a agree closely with ?b
+		?a: hCG results
+		?b: the other assays
+
+
+label:    sent_10
+sentence: These predictions agree well with existing experimental evidence and suggest new experiments . H atoms were refined anisotropically and agree well with a previous neutron study .
+
+ppatt:
+	?a agree well with ?b
+		?a: These predictions
+		?b: existing experimental evidence
+	?a suggest ?b
+		?a: These predictions
+		?b: new experiments
+	?a were refined anisotropically
+		?a: H atoms
+	?a agree well with ?b
+		?a: H atoms
+		?b: a previous neutron study
+
+
+label:    sent_11
+sentence: Coefficients of genetic distance were calculated and substantially agree with the conventional taxonomy .
+
+ppatt:
+	?a were calculated
+		?a: Coefficients of genetic distance
+	?a substantially agree with ?b
+		?a: Coefficients of genetic distance
+		?b: the conventional taxonomy
+
+
+label:    sent_12
+sentence: Simulations using the absorption-front model are performed and agree qualitatively with experimental results .
+
+ppatt:
+	?a using ?b
+		?a: Simulations
+		?b: the absorption-front model
+	?a are performed
+		?a: Simulations using the absorption-front model
+	?a agree qualitatively with ?b
+		?a: Simulations using the absorption-front model
+		?b: experimental results
+
+
+label:    sent_13
+sentence: Conditions when these methods agree and disagree are provided .
+
+ppatt:
+	?a when ?b agree
+		?a: Conditions
+		?b: these methods
+	?a disagree are provided
+		?a: these methods
+
+
+label:    sent_14
+sentence: The results agree well and yield a comparable pattern of absorption .
+
+ppatt:
+	?a agree well
+		?a: The results
+	?a yield ?b
+		?a: The results
+		?b: a comparable pattern of absorption
+
+
+label:    sent_15
+sentence: Theory and experiment agree and exhibit very good cloaking performance .
+
+ppatt:
+	?a agree
+		?a: Theory
+	?a agree
+		?a: experiment
+	?a exhibit ?b
+		?a: Theory
+		?b: very good cloaking performance
+	?a exhibit ?b
+		?a: experiment
+		?b: very good cloaking performance
+
+
+label:    sent_16
+sentence: The measured momentum distributions agree quantitatively with theory ( no adjustable parameters ) . Grouped ISS scores agree , on average , 75 % of the time . Let 's agree on terminology : definitions of sepsis .
+
+ppatt:
+	?a agree quantitatively with ?b
+		?a: The measured momentum distributions
+		?b: theory
+	?a is/are no adjustable parameters
+		?a: theory
+	?a agree , on ?b
+		?a: Grouped ISS scores
+		?b: average
+	?a ?b 's agree on ?c
+		?a: 75 % of the time
+		?b: Let
+		?c: terminology
+
+
+label:    sent_17
+sentence: The experts were found to be consistent and to agree .
+
+ppatt:
+	?a were found to be consistent
+		?a: The experts
+	?a were found to be to agree
+		?a: The experts
+
+
+label:    sent_18
+sentence: Analytical predictions and results from numerical simulations are performed and agree very well .
+
+ppatt:
+	?a are performed
+		?a: Analytical predictions from numerical simulations
+	?a are performed
+		?a: results
+	?a agree very well
+		?a: Analytical predictions from numerical simulations
+	?a agree very well
+		?a: results
+
+
+label:    sent_19
+sentence: Happiness is learning to fight fair and agree to disagree with your boss . It presents four such domains of which two agree closely with the consensus .
+
+ppatt:
+	?a is learning to fight ?b
+		?a: Happiness
+		?b: fair
+	?a is learning to agree to disagree with ?b
+		?a: Happiness
+		?b: your boss
+	?a presents ?b
+		?a: It
+		?b: four such domains of which two agree closely with the consensus
+	?a of ?b agree closely with ?c
+		?a: four such domains
+		?b: two
+		?c: the consensus
+
+
+label:    sent_20
+sentence: We also assessed the degree to which NH pathologists agree with National Guidelines .
+
+ppatt:
+	?a also assessed ?b
+		?a: We
+		?b: the degree to which NH pathologists agree with National Guidelines
+	?a to ?b agree with ?c
+		?a: the degree
+		?b: NH pathologists
+		?c: National Guidelines
+
+
+label:    sent_21
+sentence: To find out the extent to which PHC doctors agree with IP .
+
+ppatt:
+	find out ?a
+		?a: the extent to which PHC doctors agree with IP
+	?a to ?b agree with ?c
+		?a: the extent
+		?b: PHC doctors
+		?c: IP
+
+
+label:    sent_22
+sentence: We agree : a rejoinder from Penk and Robinowitz to Sutker and Allain .
+
+ppatt:
+	?a agree ?b
+		?a: We
+		?b: a rejoinder from Penk and Robinowitz to Sutker and Allain
+
+
+label:    sent_23
+sentence: River blindness : NGOs agree Africa strategy in Geneva .
+
+ppatt:
+	?a ?b agree ?c
+		?a: River blindness
+		?b: NGOs
+		?c: Africa strategy in Geneva
+
+
+label:    sent_24
+sentence: The observed intensities of the spectral lines well agree the calculated coefficients .
+
+ppatt:
+	?a well agree ?b
+		?a: The observed intensities of the spectral lines
+		?b: the calculated coefficients
+
+

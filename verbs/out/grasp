@@ -1,0 +1,232 @@
+label:    sent_1
+sentence: Pressure grows for government to " grasp the nettle " and close hospitals . Two-year-olds grasp the intentional structure of pretense acts .
+
+ppatt:
+	?a grows for ?b to " grasp ?c
+		?a: Pressure
+		?b: government
+		?c: the nettle "
+	?a grows for ?b to " grasp ?c
+		?a: Pressure
+		?b: government
+		?c: close hospitals
+	?a ?b acts
+		?a: Two-year-olds grasp
+		?b: the intentional structure of pretense
+
+
+label:    sent_2
+sentence: Therefore , to accurately grasp susceptibility trends , well-focused surveillance studies are necessary .
+
+ppatt:
+	accurately grasp ?a ?b
+		?a: susceptibility trends
+		?b: well-focused surveillance studies
+	Therefore , ?a are necessary
+		?a: well-focused surveillance studies
+
+
+label:    sent_3
+sentence: The subjects were asked to grasp the handle part against a pulling force . And he became to grasp ' experiment ' as ' material production ' . The patient was able to grasp a cylinder with the paralyzed hand .
+
+ppatt:
+	?a were asked to grasp handle ?b
+		?a: The subjects
+		?b: the part against a pulling force
+	?a became to grasp ?b as ?c
+		?a: he
+		?b: experiment
+		?c: material production
+	?a was able to grasp ?b with ?c
+		?a: The patient
+		?b: a cylinder
+		?c: the paralyzed hand
+
+
+label:    sent_4
+sentence: Thus , researchers can grasp complex networks described in various articles at a glance .
+
+ppatt:
+	Thus , ?a can grasp ?b
+		?a: researchers
+		?b: complex networks described in various articles at a glance
+	?a described in ?b at ?c
+		?a: complex networks
+		?b: various articles
+		?c: a glance
+
+
+label:    sent_5
+sentence: So we must grasp the characters of these methods .
+
+ppatt:
+	So ?a must grasp ?b
+		?a: we
+		?b: the characters of these methods
+
+
+label:    sent_6
+sentence: County governors should personally grasp the work of family planning . A clip is delivered to grasp the regurgitant mitral valve leaflets and reduce MR .
+
+ppatt:
+	?a should personally grasp ?b
+		?a: County governors
+		?b: the work of family planning
+	?a is delivered to grasp ?b
+		?a: A clip
+		?b: the regurgitant mitral valve leaflets
+	?a is delivered to reduce ?b
+		?a: A clip
+		?b: MR
+
+
+label:    sent_7
+sentence: Subjects were asked to grasp an object and insert it into an adapted slot .
+
+ppatt:
+	?a were asked to grasp ?b
+		?a: Subjects
+		?b: an object
+	?a were asked to insert ?b into ?c
+		?a: Subjects
+		?b: it
+		?c: an adapted slot
+
+
+label:    sent_8
+sentence: Isolate the testis and grasp it transversely , as anteriorly as possible .
+
+ppatt:
+	Isolate ?a
+		?a: the testis
+	grasp ?a transversely as anteriorly
+		?a: it
+
+
+label:    sent_9
+sentence: She could , however , grasp an object tightly and wield it on request .
+
+ppatt:
+	?a could , however , grasp ?b tightly
+		?a: She
+		?b: an object
+	?a wield ?b on ?c
+		?a: She
+		?b: it
+		?c: request
+
+
+label:    sent_10
+sentence: The new prosthesis can securely grasp objects with various shapes and sizes .
+
+ppatt:
+	?a can securely grasp ?b
+		?a: The new prosthesis
+		?b: objects with various shapes and sizes
+
+
+label:    sent_11
+sentence: The study provides converging evidence that infants grasp object permanence by a young age .
+
+ppatt:
+	?a provides ?b
+		?a: The study
+		?b: converging evidence that infants grasp object permanence by a young age
+	?a grasp ?b by ?c
+		?a: infants
+		?b: object permanence
+		?c: a young age
+
+
+label:    sent_12
+sentence: Their ability to grasp and retain the relevant information is highly variable . Neurobiology . See and grasp . Monkeys were trained to grasp and pull a spring-loaded handle .
+
+ppatt:
+	?a grasp ?b
+		?a: Their ability
+		?b: the relevant information
+	?a retain
+		?a: Their ability
+	?a is highly variable
+		?a: Their ability to grasp and retain the relevant information
+	?a were trained to grasp ?b
+		?a: Monkeys
+		?b: a spring-loaded handle
+	?a were trained to pull
+		?a: Monkeys
+
+
+label:    sent_13
+sentence: Calibrating grasp size and reach distance : interactions reveal integral organization of reaching-to-grasp movements .
+
+ppatt:
+	Calibrating ?a
+		?a: grasp size
+	reach ?a
+		?a: distance
+	?a reveal ?b
+		?a: interactions
+		?b: integral organization of reaching-to-grasp movements
+
+
+label:    sent_14
+sentence: Size illusion influences how we lift but not how we grasp an object .
+
+ppatt:
+	?a influences ?b
+		?a: Size illusion
+		?b: SOMETHING := how we lift
+	how ?a lift
+		?a: we
+	not how ?a grasp ?b
+		?a: we
+		?b: an object
+
+
+label:    sent_15
+sentence: Acupuncturists should grasp the acupoints characteristic and pay attention to syndrome differentiation .
+
+ppatt:
+	?a should grasp ?b
+		?a: Acupuncturists
+		?b: the acupoints characteristic and pay attention to syndrome differentiation
+	pay ?a to ?b
+		?a: attention
+		?b: syndrome differentiation
+
+
+label:    sent_16
+sentence: None of these patients was able to grasp a 50-cL bottle without the robot .
+
+ppatt:
+	?a was able to grasp ?b without ?c
+		?a: None of these patients
+		?b: a 50-cL bottle
+		?c: the robot
+
+
+label:    sent_17
+sentence: Interventions for improving coordination of reach to grasp following stroke : a systematic review .
+
+ppatt:
+	?a improving ?b
+		?a: Interventions
+		?b: coordination of reach to grasp following stroke
+	?a of reach to ?b following ?c
+		?a: coordination
+		?b: grasp
+		?c: stroke
+
+
+label:    sent_18
+sentence: The hooks grasp and manipulate prey using a wide range of rotations and translations .
+
+ppatt:
+	?a grasp ?b using ?c
+		?a: The hooks
+		?b: prey
+		?c: a wide range of rotations and translations
+	?a manipulate
+		?a: The hooks
+
+

@@ -1,0 +1,238 @@
+label:    sent_1
+sentence: [
+
+ppatt:
+
+
+
+label:    sent_2
+sentence: Cricothyrotomy in emergency context : assessment of a can not intubate can not ventilate scenario ] . Non-invasive ventilation is a technique to ventilate patients without endotracheal intubation and analgosedation .
+
+ppatt:
+	?a is a technique
+		?a: Non-invasive ventilation
+	?a ventilate ?b without ?c
+		?a: a technique
+		?b: patients
+		?c: endotracheal intubation
+	?a analgosedation
+		?a: Non-invasive ventilation
+
+
+label:    sent_3
+sentence: [ Ventilate or not ventilate the COPD patient ] . We were unable to ventilate the patient during induction .
+
+ppatt:
+	Ventilate ?a
+		?a: We
+	not ventilate ?a ?b
+		?a: the COPD patient ]
+		?b: We
+	?a were unable to ventilate ?b during ?c
+		?a: We
+		?b: the patient
+		?c: induction
+
+
+label:    sent_4
+sentence: It was possible to ventilate this isolator by either free-flow or blower operation .
+
+ppatt:
+	?a was possible to ventilate ?b ?c
+		?a: It
+		?b: this isolator
+		?c: by either free-flow or blower operation
+
+
+label:    sent_5
+sentence: Resuscitation bags were originally developed to ventilate patients under emergency conditions .
+
+ppatt:
+	?a were originally developed to ventilate ?b under ?c
+		?a: Resuscitation bags
+		?b: patients
+		?c: emergency conditions
+
+
+label:    sent_6
+sentence: Subjects were taught to insert and ventilate an Ambuman manikin using both devices . Only 29 % could properly compress and ventilate the mannequin .
+
+ppatt:
+	?a were taught to insert ?b using ?c
+		?a: Subjects
+		?b: an Ambuman manikin
+		?c: both devices
+	?a were taught to ventilate using
+		?a: Subjects
+	?a could properly compress
+		?a: Only 29 %
+	?a ventilate ?b
+		?a: Only 29 %
+		?b: the mannequin
+
+
+label:    sent_7
+sentence: Checking the ability to mask ventilate before administering long-acting neuromuscular blocking drugs . Thirteen test persons were able to ventilate with the modified URS .
+
+ppatt:
+	Checking ?a ?b
+		?a: the ability to mask ventilate before administering long-acting neuromuscular blocking drugs
+		?b: Thirteen test persons
+	?a mask
+		?a: the ability ventilate
+	?a ventilate
+		?a: the ability to mask before administering long-acting neuromuscular blocking drugs
+	administering ?a
+		?a: long-acting neuromuscular blocking drugs
+	?a were able to ventilate with ?b
+		?a: Thirteen test persons
+		?b: the modified URS
+
+
+label:    sent_8
+sentence: Of the divers , 17 were able to ventilate with the modified LAR V . Regarded as least supportive were interventions that encouraged families to ventilate their own emotions .
+
+ppatt:
+	Of ?a , ?b were able to ventilate with ?c
+		?a: the divers
+		?b: 17
+		?c: the modified LAR V
+	?a encouraged ?b to ventilate ?c
+		?a: interventions
+		?b: families
+		?c: their own emotions
+
+
+label:    sent_9
+sentence: New ways to ventilate newborns in acute respiratory failure .
+
+ppatt:
+	?a ventilate ?b in ?c
+		?a: New ways
+		?b: newborns
+		?c: acute respiratory failure
+
+
+label:    sent_10
+sentence: Seventeen per cent of CHCs could not bag-and-mask ventilate a neonate .
+
+ppatt:
+	per ?a could not bag-and-mask ventilate ?b
+		?a: Seventeen cent of CHCs
+		?b: a neonate
+
+
+label:    sent_11
+sentence: Consequently , the crew was advised to ventilate and clean the fresh water tanks .
+
+ppatt:
+	Consequently , ?a was advised to ventilate ?b
+		?a: the crew
+		?b: the fresh water tanks
+	Consequently , ?a was advised to clean
+		?a: the crew
+
+
+label:    sent_12
+sentence: The surgical airway response team was called due to inability to ventilate or intubate .
+
+ppatt:
+	?a was called due to ?b
+		?a: The surgical airway response team
+		?b: inability to ventilate or intubate
+	?a ventilate
+		?a: inability
+
+
+label:    sent_13
+sentence: To ventilate , oscillate , or cannulate ? Can not ventilate , difficult to intubate .
+
+ppatt:
+
+
+
+label:    sent_14
+sentence: Inability to ventilate while using a silicone-based endotracheal tube .
+
+ppatt:
+	?a ventilate
+		?a: Inability
+	using ?a
+		?a: a silicone-based endotracheal tube
+
+
+label:    sent_15
+sentence: Patients are transferred to the brain injury unit as soon as they ventilate spontaneously .
+
+ppatt:
+	?a are transferred to ?b soon
+		?a: Patients
+		?b: the brain injury unit
+	as as ?a ventilate spontaneously
+		?a: they
+
+
+label:    sent_16
+sentence: Failure to ventilate with the Drager Apollo ( R ) Anesthesia Workstation .
+
+ppatt:
+	?a ventilate with ?b
+		?a: Failure
+		?b: the Drager Apollo Anesthesia Workstation
+	?a is/are R
+		?a: Drager Apollo
+
+
+label:    sent_17
+sentence: The anesthesiologist could not ventilate manually after starting anesthesia .
+
+ppatt:
+	?a could not ventilate manually after ?b
+		?a: The anesthesiologist
+		?b: starting anesthesia
+
+
+label:    sent_18
+sentence: In 31 domestic pigs anesthetized with pentobarbital , the lungs were mechanically ventilate .
+
+ppatt:
+	?a anesthetized with ?b
+		?a: 31 domestic pigs
+		?b: pentobarbital
+	In ?a , ?b were mechanically ventilate
+		?a: 31 domestic pigs anesthetized with pentobarbital
+		?b: the lungs
+
+
+label:    sent_19
+sentence: Failure of high frequency jet ventilation to ventilate patients adequately during extracorporeal shock-wave lithotripsy . During ECC , dogs ventilate spontaneously according to classical physiology .
+
+ppatt:
+	?a ventilate ?b adequately during ?c During ?d
+		?a: Failure of high frequency jet ventilation
+		?b: patients
+		?c: extracorporeal shock-wave lithotripsy
+		?d: ECC
+	?a ?b ventilate spontaneously according to ?c
+		?a: Failure of high frequency jet ventilation to ventilate patients adequately during extracorporeal shock-wave lithotripsy . During ECC
+		?b: dogs
+		?c: classical physiology
+
+
+label:    sent_20
+sentence: One way to ventilate patients during fibreoptic intubation .
+
+ppatt:
+	?a ventilate ?b during ?c
+		?a: One way
+		?b: patients
+		?c: fibreoptic intubation
+
+
+label:    sent_21
+sentence: To ventilate or not to ventilate during cardiopulmonary resuscitation : that is the question .
+
+ppatt:
+
+
+

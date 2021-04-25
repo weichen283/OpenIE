@@ -1,0 +1,65 @@
+label:    sent_1
+sentence: The moral is , if you get upset in a medical interview , be sure to slam the door behind you .
+
+ppatt:
+	?a get upset in ?b
+		?a: you
+		?b: a medical interview
+	?a is , be sure to slam ?b
+		?a: The moral
+		?b: the door behind you
+
+
+label:    sent_2
+sentence: The authors investigated the role of perceptual attunement in an emergency braking task in which participants waited until the last possible moment to slam on the brakes .
+
+ppatt:
+	?a investigated ?b
+		?a: The authors
+		?b: the role of perceptual attunement in an emergency braking task in which participants waited until the last possible moment to slam on the brakes
+	?a in ?b waited until ?c
+		?a: an emergency braking task
+		?b: participants
+		?c: the last possible moment to slam on the brakes
+
+
+label:    sent_3
+sentence: Privacy advocates slam FDA 's web-based safety program for high-risk drugs . Nursing unions slam MPs ignorance on AIDS issues .
+
+ppatt:
+	?a advocates ?b
+		?a: Privacy
+		?b: slam FDA 's web-based safety program for high-risk drugs
+	?a Nursing ?b ?c
+		?a: Privacy
+		?b: unions
+		?c: slam MPs ignorance on AIDS issues
+
+
+label:    sent_4
+sentence: Healthcare systems slam NQF over support of readmissions measure .
+
+ppatt:
+	?a measure
+		?a: Healthcare systems
+
+
+label:    sent_5
+sentence: Georgia may slam on the brakes to MedFirst 's booming business .
+
+ppatt:
+	?a may slam on ?b
+		?a: Georgia
+		?b: the brakes to MedFirst 's booming business
+
+
+label:    sent_6
+sentence: In this position , the defender is able to rear to a defensive upright posture , or can slam into the partner with its hip .
+
+ppatt:
+	In ?a , ?b is able to rear to ?c
+		?a: this position
+		?b: the defender
+		?c: a defensive upright posture
+
+

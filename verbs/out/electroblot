@@ -1,0 +1,15 @@
+label:    sent_1
+sentence: After being preincubated with an S. aureus-bacteremic serum , the electroblot of the SA-tbp still reacted with McAb-HTR , but not with human transferrin-horseradish peroxidase conjugate .
+
+ppatt:
+	being preincubated with ?a ?b
+		?a: an S. aureus-bacteremic serum
+		?b: the electroblot of the SA-tbp
+	?a still reacted with ?b
+		?a: the electroblot of the SA-tbp
+		?b: McAb-HTR
+	?a still reacted with ?b
+		?a: the electroblot of the SA-tbp
+		?b: not human transferrin-horseradish peroxidase conjugate
+
+

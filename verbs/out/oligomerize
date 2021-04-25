@@ -1,0 +1,192 @@
+label:    sent_1
+sentence: Interestingly , RepC * is defective in its ability to oligomerize on the DNA .
+
+ppatt:
+	Interestingly , ?a is defective in ?b
+		?a: RepC *
+		?b: its ability to oligomerize on the DNA
+	?a oligomerize on ?b
+		?a: its ability
+		?b: the DNA
+
+
+label:    sent_2
+sentence: In contrast to CCL2 , P8A-CCL2 does not oligomerize on glycosaminoglycans ( GAGs ) . IAPP was previously shown to oligomerize cooperatively on binding to lipid bilayers .
+
+ppatt:
+	?a ?b does not oligomerize on ?c
+		?a: In contrast to CCL2
+		?b: P8A-CCL2
+		?c: glycosaminoglycans
+	?a is/are GAGs
+		?a: glycosaminoglycans
+	?a was previously shown to oligomerize cooperatively on ?b
+		?a: IAPP
+		?b: binding to lipid bilayers
+
+
+label:    sent_3
+sentence: Activated mononucleotides oligomerize in the presence of montmorillonite clay to form RNA oligomers .
+
+ppatt:
+	?a oligomerize in of ?b to form ?c
+		?a: Activated mononucleotides
+		?b: montmorillonite clay
+		?c: RNA oligomers
+
+
+label:    sent_4
+sentence: THP molecules oligomerize into long , double-helical strands several microns long .
+
+ppatt:
+	?a oligomerize into ?b ?c
+		?a: THP molecules
+		?b: long , strands
+		?c: several microns long
+
+
+label:    sent_5
+sentence: Tubulin dimers oligomerize before their incorporation into microtubules .
+
+ppatt:
+	?a oligomerize before ?b
+		?a: Tubulin dimers
+		?b: their incorporation into microtubules
+
+
+label:    sent_6
+sentence: Mutant p53 proteins have diverse intracellular abilities to oligomerize and activate transcription .
+
+ppatt:
+	?a have ?b to oligomerize ?c
+		?a: Mutant p53 proteins
+		?b: diverse intracellular abilities
+		?c: transcription
+	?a have to activate
+		?a: Mutant p53 proteins
+
+
+label:    sent_7
+sentence: In contrast , T exhibited a propensity to oligomerize and precipitate at high concentrations .
+
+ppatt:
+	In ?a , ?b exhibited ?c
+		?a: contrast
+		?b: T
+		?c: a propensity to oligomerize and precipitate at high concentrations
+	?a oligomerize at ?b
+		?a: a propensity
+		?b: high concentrations
+	?a precipitate
+		?a: a propensity
+
+
+label:    sent_8
+sentence: Holins are believed to oligomerize and form large holes in the inner membrane .
+
+ppatt:
+	?a are believed to oligomerize ?b
+		?a: Holins
+		?b: large holes in the inner membrane
+	?a are believed to form
+		?a: Holins
+
+
+label:    sent_9
+sentence: In contrast , C73A-mutant channels , which do not oligomerize , were normally internalized .
+
+ppatt:
+	?a do not oligomerize
+		?a: C73A-mutant channels
+	In ?a , ?b were normally internalized
+		?a: contrast
+		?b: C73A-mutant channels , which do not oligomerize
+
+
+label:    sent_10
+sentence: Multiple Ply monomers then oligomerize to form a prepore .
+
+ppatt:
+	?a then oligomerize to form ?b
+		?a: Multiple Ply monomers
+		?b: a prepore
+
+
+label:    sent_11
+sentence: Human proinsulin and insulin oligomerize to form dimers and hexamers .
+
+ppatt:
+	?a oligomerize to form ?b
+		?a: Human proinsulin
+		?b: dimers
+	?a oligomerize to form ?b
+		?a: insulin
+		?b: dimers
+	?a oligomerize to form ?b
+		?a: Human proinsulin
+		?b: hexamers
+	?a oligomerize to form ?b
+		?a: insulin
+		?b: hexamers
+
+
+label:    sent_12
+sentence: Some of these proteins oligomerize in membranes and form ion channels .
+
+ppatt:
+	?a oligomerize in ?b
+		?a: Some of these proteins
+		?b: membranes
+	?a form ?b
+		?a: Some of these proteins
+		?b: ion channels
+
+
+label:    sent_13
+sentence: Membrane targeting by APPL1 and APPL2 : dynamic scaffolds that oligomerize and bind phosphoinositides .
+
+ppatt:
+	?a oligomerize ?b
+		?a: dynamic scaffolds
+		?b: phosphoinositides
+	?a bind
+		?a: that
+
+
+label:    sent_14
+sentence: The resultant truncated Delta7SMN protein does not oligomerize efficiently and is rapidly degraded . P-loop-dependent NLR SNC1 can oligomerize and activate immunity in the nucleus .
+
+ppatt:
+	?a does not oligomerize efficiently
+		?a: The resultant truncated Delta7SMN protein
+	?a is rapidly degraded
+		?a: The resultant truncated Delta7SMN protein
+	?a can oligomerize ?b
+		?a: P-loop-dependent NLR SNC1
+		?b: immunity in the nucleus
+	?a activate
+		?a: P-loop-dependent NLR SNC1
+
+
+label:    sent_15
+sentence: They could also oligomerize separate molecules by intermolecular linking of Z DNA sequences .
+
+ppatt:
+	?a could also oligomerize ?b by ?c
+		?a: They
+		?b: separate molecules
+		?c: intermolecular linking of Z DNA sequences
+
+
+label:    sent_16
+sentence: Smaller molecular-sized anaesthetics oligomerize Abeta peptide simulating Alzheimer 's disease : a relevant issue .
+
+ppatt:
+	?a oligomerize ?b
+		?a: Smaller molecular-sized anaesthetics
+		?b: Abeta peptide simulating Alzheimer 's disease
+	?a simulating 's ?b
+		?a: Abeta peptide
+		?b: Alzheimer disease
+
+

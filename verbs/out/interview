@@ -1,0 +1,281 @@
+label:    sent_1
+sentence: we were only able to analyze 77 out of 130 prescriptions for nutritional supplements since we could not adequately interview the remaining patients , mainly due to neurological impairments .
+
+ppatt:
+	?a were only able to analyze ?b
+		?a: we
+		?b: 77 out of 130 prescriptions for nutritional supplements
+	?a could not adequately interview ?b , mainly due to ?c
+		?a: we
+		?b: the remaining patients
+		?c: neurological impairments
+
+
+label:    sent_2
+sentence: We will interview a random sample totaling 3000 adults residing in geographic areas covered by four distinct models of primary care of the Brazilian national health system or , alternatively , by one nationally prominent complementary health care service , as well as the physicians and nurses of the health teams of these services .
+
+ppatt:
+	?a will interview ?b or , alternatively
+		?a: We
+		?b: a random sample totaling 3000 adults residing in geographic areas covered by four distinct models of primary care of the Brazilian national health system , by one nationally prominent complementary health care service , as well as the physicians and nurses of the health teams of these services
+	?a totaling ?b
+		?a: a random sample residing in geographic areas covered by four distinct models of primary care of the Brazilian national health system , by one nationally prominent complementary health care service , as well as the physicians and nurses of the health teams of these services
+		?b: 3000 adults
+	?a residing in ?b
+		?a: a random sample totaling 3000 adults
+		?b: geographic areas covered by four distinct models of primary care of the Brazilian national health system , by one nationally prominent complementary health care service , as well as the physicians and nurses of the health teams of these services
+	?a covered by ?b
+		?a: geographic areas
+		?b: four distinct models of primary care of the Brazilian national health system
+	?a covered by ?b
+		?a: geographic areas
+		?b: one nationally prominent complementary health care service
+	?a covered by ?b
+		?a: geographic areas
+		?b: the physicians of the health teams of these services
+
+
+label:    sent_3
+sentence: For both assessments , the rater could also interview a caregiver if necessary .
+
+ppatt:
+	For ?a , ?b could also interview ?c
+		?a: both assessments
+		?b: the rater
+		?c: a caregiver
+	?a necessary
+		?a: the rater
+
+
+label:    sent_4
+sentence: There is a growing need for automated systems that can interview patients and consumers about their health and provide health education and behavior change interventions using natural language dialog .
+
+ppatt:
+	There is ?a
+		?a: a growing need for automated systems that can interview patients and consumers about their health
+	?a can interview ?b about ?c
+		?a: automated systems
+		?b: patients
+		?c: their health
+	?a can interview ?b about ?c
+		?a: automated systems
+		?b: consumers
+		?c: their health
+	?a provide ?b using ?c
+		?a: a growing need for automated systems that can interview patients and consumers about their health
+		?b: health education
+		?c: natural language dialog
+	?a provide ?b using ?c
+		?a: a growing need for automated systems that can interview patients and consumers about their health
+		?b: behavior change interventions
+		?c: natural language dialog
+
+
+label:    sent_5
+sentence: Prior to attending a team conference , the pharmacist should interview the patient and review the chart .
+
+ppatt:
+	attending ?a ?b
+		?a: a team conference
+		?b: the pharmacist
+	?a should interview ?b
+		?a: the pharmacist
+		?b: the patient
+	?a review ?b
+		?a: the pharmacist
+		?b: the chart
+
+
+label:    sent_6
+sentence: We will monitor treatment fidelity and we will interview a sample of paid and family carers , service users , staff and managers about what they think of the treatment and how best we can deliver it in routine care .
+
+ppatt:
+	?a will monitor ?b
+		?a: We
+		?b: treatment fidelity
+	?a will interview ?b
+		?a: we
+		?b: a sample of paid and family carers , service users , staff and managers about what they think of the treatment and how best we can deliver it in routine care
+	?a about ?b ?c think of ?d
+		?a: a sample of paid and family carers , service users , staff and managers
+		?b: what
+		?c: they
+		?d: the treatment
+	how best ?a can deliver ?b in ?c
+		?a: we
+		?b: it
+		?c: routine care
+
+
+label:    sent_7
+sentence: A good understanding of the possible pathogenic factors contributing to the development of UTI and its recurrence will help the general practitioner to interview the patient , search for causes that would otherwise remain undiscovered , and to identify the correct therapeutic strategy .
+
+ppatt:
+	?a contributing to ?b
+		?a: the possible pathogenic factors
+		?b: the development of UTI and its recurrence
+	?a will help ?b
+		?a: A good understanding of the possible pathogenic factors contributing to the development of UTI and its recurrence
+		?b: the general practitioner to interview the patient
+	?a interview ?b
+		?a: the general practitioner
+		?b: the patient
+	?a search for causes ?b
+		?a: A good understanding of the possible pathogenic factors contributing to the development of UTI and its recurrence
+		?b: SOMETHING := that would otherwise remain undiscovered
+	?a would otherwise remain undiscovered
+		?a: that
+	?a identify ?b
+		?a: that
+		?b: the correct therapeutic strategy
+
+
+label:    sent_8
+sentence: The director should interview all employees of the department and work as a staff pharmacist for one to two days in each area .
+
+ppatt:
+	?a should interview ?b
+		?a: The director
+		?b: all employees of the department
+	?a work as ?b for ?c
+		?a: The director
+		?b: a staff pharmacist
+		?c: one two days in each area
+
+
+label:    sent_9
+sentence: They interview infected persons and contact the sex partners of these persons to notify them and convince them of the need to seek evaluation and treatment ( known as " provider referral " ) . First-year medical students at UCLA are introduced to the special health problems of the elderly by a process in which they interview symptomatic volunteers at both extended care and ambulatory care facilities .
+
+ppatt:
+	?a interview ?b
+		?a: They
+		?b: infected persons
+	?a contact ?b to notify ?c
+		?a: They
+		?b: the sex partners of these persons
+		?c: them
+	?a convince ?b
+		?a: They
+		?b: them of the need to seek evaluation and treatment ( known as " provider referral " ) First-year medical students at UCLA
+	?a seek ?b
+		?a: the need
+		?b: evaluation ( known as " provider referral "
+	?a seek ?b
+		?a: the need
+		?b: treatment
+	?a seek ?b
+		?a: the need
+		?b: First-year medical students at UCLA
+	?a known as ?b
+		?a: evaluation
+		?b: " provider referral "
+	?a known as ?b
+		?a: treatment
+		?b: " provider referral "
+	known as ?a ?b
+		?a: " provider referral "
+		?b: First-year medical students at UCLA
+	?a are introduced to ?b by ?c
+		?a: They
+		?b: the special health problems of the elderly
+		?c: a process in which they interview symptomatic volunteers at both extended care and ambulatory care facilities
+	?a in ?b interview ?c at ?d
+		?a: a process
+		?b: they
+		?c: symptomatic volunteers
+		?d: extended care
+	?a in ?b interview ?c at ?d
+		?a: a process
+		?b: they
+		?c: symptomatic volunteers
+		?d: ambulatory care
+	?a in ?b interview ?c at ?d
+		?a: a process
+		?b: they
+		?c: symptomatic volunteers
+		?d: facilities
+
+
+label:    sent_10
+sentence: In response to the current emphasis on health maintenance and disease prevention , the authors developed a comprehensive education program in which sophomore medical students interview a standardized patient about breast problems and risk factors , receive one-on-one instruction from the standardized patient during the clinical breast examination , and practice recommendations for screening and instruction in breast self-examination .
+
+ppatt:
+	In to ?a , ?b developed ?c
+		?a: the current emphasis on health maintenance and disease prevention
+		?b: the authors
+		?c: a comprehensive education program in which sophomore medical students interview a standardized patient about breast problems and risk factors , receive one-on-one instruction from the standardized patient during the clinical breast examination
+	?a in ?b interview ?c
+		?a: a comprehensive education program
+		?b: sophomore medical students
+		?c: a standardized patient about breast problems and risk factors
+	?a receive ?b during ?c
+		?a: sophomore medical students
+		?b: one-on-one instruction from the standardized patient
+		?c: the clinical breast examination
+	?a practice ?b
+		?a: the authors
+		?b: recommendations for screening and instruction in breast self-examination
+
+
+label:    sent_11
+sentence: Some residency applicants believe that the date on which they interview with a residency program influences how the program ranks them in the National Residency Matching Program ( NRMP ) . To describe the dynamics of the Chinese people who will be encountered in a study in which an advanced psychiatric nurse will interview her colleagues to explore their experiences using interpretative phenomenological analysis .
+
+ppatt:
+	?a believe ?b To describe ?c
+		?a: Some residency applicants
+		?b: SOMETHING := the date on which they interview with a residency program influences how the program ranks them in the National Residency Matching Program
+		?c: the dynamics of the Chinese people who will be encountered in a study in which an advanced psychiatric nurse will interview her colleagues to explore their experiences using interpretative phenomenological analysis
+	?a on ?b interview with ?c
+		?a: the date
+		?b: they
+		?c: a residency program
+	?a influences ?b
+		?a: the date on which they interview with a residency program
+		?b: SOMETHING := how the program ranks them in the National Residency Matching Program
+	how ?a ranks ?b in ?c
+		?a: the program
+		?b: them
+		?c: the National Residency Matching Program
+	?a is/are NRMP
+		?a: the National Residency Matching Program
+	?a will be encountered in ?b
+		?a: the Chinese people
+		?b: a study in which an advanced psychiatric nurse will interview her colleagues to explore their experiences using interpretative phenomenological analysis
+	?a in ?b will interview ?c to explore ?d using ?e
+		?a: a study
+		?b: an advanced psychiatric nurse
+		?c: her colleagues
+		?d: their experiences
+		?e: interpretative phenomenological analysis
+
+
+label:    sent_12
+sentence: Students are assigned to a patient whom they interview and examine under supervision by a faculty physician and clinic nurse .
+
+ppatt:
+	?a are assigned to ?b
+		?a: Students
+		?b: a patient whom they interview and examine under supervision by a faculty physician and clinic nurse
+	?a ?b ?c interview
+		?a: a patient
+		?b: whom
+		?c: they
+	?a examine under ?b
+		?a: they
+		?b: supervision by a faculty physician and clinic nurse
+
+
+label:    sent_13
+sentence: This method proved to be an efficient process by which to interview candidates and to determine suitability .
+
+ppatt:
+	?a proved to be an efficient process
+		?a: This method
+	?a by to interview ?b
+		?a: an efficient process
+		?b: candidates
+	?a determine ?b
+		?a: This method
+		?b: suitability
+
+

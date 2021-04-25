@@ -1,0 +1,217 @@
+label:    sent_1
+sentence: Human mature adipocytes can dedifferentiate into fibroblast-shaped DA .
+
+ppatt:
+	?a can dedifferentiate into ?b
+		?a: Human mature adipocytes
+		?b: fibroblast-shaped DA
+
+
+label:    sent_2
+sentence: Acinar cells dedifferentiate into an embryonic progenitor-like phenotype upon suspension culture .
+
+ppatt:
+	?a dedifferentiate into ?b upon ?c
+		?a: Acinar cells
+		?b: an embryonic progenitor-like phenotype
+		?c: suspension culture
+
+
+label:    sent_3
+sentence: The latter option implies that tumors dedifferentiate in the preclinical screen-detectable phase .
+
+ppatt:
+	?a implies ?b
+		?a: The latter option
+		?b: SOMETHING := tumors dedifferentiate in the preclinical screen-detectable phase
+	?a dedifferentiate in ?b
+		?a: tumors
+		?b: the preclinical screen-detectable phase
+
+
+label:    sent_4
+sentence: Approximately 11 % of chondrosarcomas can be expected to dedifferentiate into more anaplastic lesions .
+
+ppatt:
+	?a can be expected to dedifferentiate into ?b
+		?a: Approximately 11 % of chondrosarcomas
+		?b: more anaplastic lesions
+
+
+label:    sent_5
+sentence: Chondrocyte phenotype has been shown to dedifferentiate during passaged monolayer cultivation .
+
+ppatt:
+	?a has been shown to dedifferentiate during ?b
+		?a: Chondrocyte phenotype
+		?b: passaged monolayer cultivation
+
+
+label:    sent_6
+sentence: Under standard culture conditions , these cells tend to dedifferentiate to a fibroblast-like phenotype .
+
+ppatt:
+	Under ?a , ?b tend to dedifferentiate to ?c
+		?a: standard culture conditions
+		?b: these cells
+		?c: a fibroblast-like phenotype
+
+
+label:    sent_7
+sentence: We show that mature osteoblasts dedifferentiate and form part of the blastema .
+
+ppatt:
+	?a show ?b
+		?a: We
+		?b: SOMETHING := mature osteoblasts dedifferentiate part of the blastema
+	?a dedifferentiate ?b
+		?a: mature osteoblasts
+		?b: part of the blastema
+	?a form
+		?a: mature osteoblasts
+
+
+label:    sent_8
+sentence: Clonally cultured differentiated pigment cells can dedifferentiate and generate multipotent progenitors with self-renewing potential .
+
+ppatt:
+	?a can dedifferentiate ?b with ?c
+		?a: Clonally cultured differentiated pigment cells
+		?b: multipotent progenitors
+		?c: self-renewing potential
+	?a generate
+		?a: Clonally cultured differentiated pigment cells
+
+
+label:    sent_9
+sentence: The wound-sieve elements differentiate in parenchyma cells which dedifferentiate and resume mitotic activity .
+
+ppatt:
+	?a differentiate in ?b
+		?a: The wound-sieve elements
+		?b: parenchyma cells which dedifferentiate and resume mitotic activity
+	?a dedifferentiate ?b
+		?a: parenchyma cells
+		?b: mitotic activity
+	?a resume
+		?a: which
+
+
+label:    sent_10
+sentence: They dedifferentiate initially in culture , but later reexpress stable characteristics of mature chondrocytes .
+
+ppatt:
+	?a dedifferentiate initially in ?b
+		?a: They
+		?b: culture
+	?a later reexpress ?b
+		?a: They
+		?b: stable characteristics of mature chondrocytes
+
+
+label:    sent_11
+sentence: In primary culture , hepatocytes dedifferentiate , and their cytoplasm undergoes remodeling .
+
+ppatt:
+	In ?a , ?b dedifferentiate
+		?a: primary culture
+		?b: hepatocytes
+	?a undergoes ?b
+		?a: their cytoplasm
+		?b: remodeling
+
+
+label:    sent_12
+sentence: Soon after amputation , cardiomyocytes dedifferentiate and proliferate to regenerate the missing tissue .
+
+ppatt:
+	Soon after ?a , ?b dedifferentiate to regenerate ?c
+		?a: amputation
+		?b: cardiomyocytes
+		?c: the missing tissue
+	?a proliferate
+		?a: cardiomyocytes
+
+
+label:    sent_13
+sentence: The cells maintained their cuboidal morphology and did not dedifferentiate .
+
+ppatt:
+	?a maintained ?b
+		?a: The cells
+		?b: their cuboidal morphology
+	?a did not dedifferentiate
+		?a: The cells
+
+
+label:    sent_14
+sentence: However , these neoplasms recur repeatedly and may dedifferentiate and thereby acquire metastatic potential . Spindle cell liposarcoma tends to recur locally and may dedifferentiate .
+
+ppatt:
+	However , ?a recur repeatedly
+		?a: these neoplasms
+	?a may dedifferentiate
+		?a: these neoplasms
+	?a thereby acquire ?b
+		?a: these neoplasms
+		?b: metastatic potential
+	?a tends to recur locally
+		?a: Spindle cell liposarcoma
+	?a tends to may dedifferentiate
+		?a: Spindle cell liposarcoma
+
+
+label:    sent_15
+sentence: These are probably derived from surviving surface mucous cells that rapidly dedifferentiate .
+
+ppatt:
+	?a are probably derived from ?b
+		?a: These
+		?b: surviving surface mucous cells that rapidly dedifferentiate
+	?a rapidly dedifferentiate
+		?a: surviving surface mucous cells
+
+
+label:    sent_16
+sentence: The percentage of fibers which dedifferentiate varies between different muscles .
+
+ppatt:
+	?a dedifferentiate
+		?a: fibers varies between different muscles
+	?a varies between ?b
+		?a: fibers which dedifferentiate
+		?b: different muscles
+
+
+label:    sent_17
+sentence: Sterkiella exconjugants transiently dedifferentiate to form zygocysts devoid of ciliature and infraciliature .
+
+ppatt:
+	?a transiently dedifferentiate to form ?b
+		?a: Sterkiella exconjugants
+		?b: zygocysts devoid of ciliature and infraciliature
+
+
+label:    sent_18
+sentence: They appeared to differentiate and dedifferentiate repeatedly in our culture system .
+
+ppatt:
+	?a appeared to differentiate repeatedly in ?b
+		?a: They
+		?b: our culture system
+	?a appeared to dedifferentiate
+		?a: They
+
+
+label:    sent_19
+sentence: How cells dedifferentiate : a lesson from plants . How cells dedifferentiate : a lesson from plants .
+
+ppatt:
+	How ?a dedifferentiate ?b
+		?a: cells
+		?b: a lesson from plants
+	How ?a dedifferentiate ?b
+		?a: cells
+		?b: a lesson from plants
+
+

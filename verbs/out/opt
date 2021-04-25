@@ -1,0 +1,138 @@
+label:    sent_1
+sentence: Knee osteoarthritis : should your patient opt for hyaluronic acid injection ? 35 not-for-profits opt out of voluntary GAO comp study .
+
+ppatt:
+	?a opt out of ?b
+		?a: 35 not-for-profits
+		?b: voluntary GAO comp study
+
+
+label:    sent_2
+sentence: Some breast cancer patients opt for alternative treatments in place of conventional treatments .
+
+ppatt:
+	?a opt for ?b in ?c
+		?a: Some breast cancer patients
+		?b: alternative treatments
+		?c: place of conventional treatments
+
+
+label:    sent_3
+sentence: These interferences enticed our patient to opt for psychiatric treatment .
+
+ppatt:
+	?a enticed ?b to opt for ?c
+		?a: These interferences
+		?b: our patient
+		?c: psychiatric treatment
+
+
+label:    sent_4
+sentence: It may help clinicians to decide when to opt for testis-sparing surgery . Carmakers opt for " greener " paints . A total of 89 % of respondents would opt to store CBUs .
+
+ppatt:
+	?a may help ?b to decide
+		?a: It
+		?b: clinicians
+	?a when to opt for ?b
+		?a: It
+		?b: testis-sparing surgery
+	?a opt for ?b
+		?a: Carmakers
+		?b: " greener " paints
+	?a would opt to store ?b
+		?a: A total of 89 % of respondents
+		?b: CBUs
+
+
+label:    sent_5
+sentence: Further investigation should focus on identifying how many surgeons may opt out .
+
+ppatt:
+	?a should focus
+		?a: Further investigation
+	?a identifying ?b
+		?a: Further investigation
+		?b: SOMETHING := how many surgeons may opt out
+	how ?a may opt out
+		?a: many surgeons
+
+
+label:    sent_6
+sentence: The Health Care Quality Improvement Act : two states opt out .
+
+ppatt:
+	?a Act
+		?a: The Health Care Quality Improvement
+	?a opt out
+		?a: two states
+
+
+label:    sent_7
+sentence: The drug was discontinued immediately and the patient did not opt for termination .
+
+ppatt:
+	?a was discontinued immediately
+		?a: The drug
+	?a did not opt for ?b
+		?a: the patient
+		?b: termination
+
+
+label:    sent_8
+sentence: Patient satisfaction was good and all stated they would opt for surgical treatment again .
+
+ppatt:
+	?a was good
+		?a: Patient satisfaction
+	?a stated
+		?a: all
+	?a would opt for ?b again
+		?a: they
+		?b: surgical treatment
+
+
+label:    sent_9
+sentence: Patients opt for medical information but prefer physician decision making .
+
+ppatt:
+	?a opt for ?b
+		?a: Patients
+		?b: medical information
+	?a prefer ?b
+		?a: Patients
+		?b: physician decision making
+
+
+label:    sent_10
+sentence: Avoid absolute rest and opt for relative rest for playing-related problems .
+
+ppatt:
+	Avoid ?a
+		?a: absolute rest
+	opt for ?a
+		?a: relative rest for playing-related problems
+
+
+label:    sent_11
+sentence: Trisomy 21 is the most common reason that women opt for prenatal diagnosis .
+
+ppatt:
+	?a is the most common reason ?b
+		?a: Trisomy 21
+		?b: SOMETHING := women opt for prenatal diagnosis
+	?a opt for ?b
+		?a: women
+		?b: prenatal diagnosis
+
+
+label:    sent_12
+sentence: Each cohort can opt in/out for each topic .
+
+ppatt:
+	?a can opt ?b for ?c
+		?a: Each cohort
+		?b: in/out
+		?c: each topic
+
+

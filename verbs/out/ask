@@ -1,0 +1,252 @@
+label:    sent_1
+sentence: Herein we ask whether or not drug sensitivity can be designed into Klp61F .
+
+ppatt:
+	Herein ?a ask ?b
+		?a: we
+		?b: SOMETHING := not drug sensitivity can be designed into Klp61F
+	not ?a can be designed into ?b
+		?a: drug sensitivity
+		?b: Klp61F
+
+
+label:    sent_2
+sentence: Here we ask what factors determine whether interference occurs in motor learning .
+
+ppatt:
+	Here ?a ask ?b
+		?a: we
+		?b: SOMETHING := what factors determine whether interference occurs in motor learning
+	?a determine ?b
+		?a: what factors
+		?b: SOMETHING := interference occurs in motor learning
+	?a occurs in ?b
+		?a: interference
+		?b: motor learning
+
+
+label:    sent_3
+sentence: We also ask to what distance gaps affect tree growth into the forest . Still , both researchers ( and payors ) continue to ask some fundamental questions .
+
+ppatt:
+	?a also ask ?b
+		?a: We
+		?b: SOMETHING := to what distance gaps affect tree growth into the forest
+	to ?a ?b affect ?c
+		?a: what
+		?b: distance gaps
+		?c: tree growth into the forest
+	Still , ?a continue to ask ?b
+		?a: both researchers
+		?b: some fundamental questions
+	Still , ?a continue to ask ?b
+		?a: payors
+		?b: some fundamental questions
+
+
+label:    sent_4
+sentence: Co-publication-what you always wanted to know but have been afraid to ask ! Children are not little adults : just ask their hematopoietic stem cells .
+
+ppatt:
+	?a ?b always wanted to know
+		?a: Co-publication-what
+		?b: you
+	ask ?a
+		?a: ! Children
+	?a are not little adults
+		?a: Co-publication-what
+	?a just ask ?b
+		?a: Co-publication-what
+		?b: their hematopoietic stem cells
+
+
+label:    sent_5
+sentence: It must ask , in short , what are the goals of medicine ? The five questions dentists should ask about their money and why . It depends on whom you ask . [What to ask and what not to ask a registry ] . What we ask is what we get .
+
+ppatt:
+	?a must ask , in ?b ?c
+		?a: It
+		?b: short
+		?c: SOMETHING := what are the goals of medicine
+	?a are the goals of ?b
+		?a: what
+		?b: medicine
+	?a should ask about ?b
+		?a: The five questions dentists
+		?b: their money
+	why ?a depends ?b to ask
+		?a: It
+		?b: SOMETHING := on whom you ask . [What
+	on ?a ?b ask ?c
+		?a: whom
+		?b: you
+		?c: [What
+	why depends to ?a not to ask ?b
+		?a: what
+		?b: a registry ]
+	is ?a
+		?a: SOMETHING := what we get
+	?a ?b get
+		?a: what
+		?b: we
+
+
+label:    sent_6
+sentence: Patients facing difficult decisions often ask physicians for recommendations . --A majority of the patients perceived it difficult to ask for a donation .
+
+ppatt:
+	?a facing ?b
+		?a: Patients
+		?b: difficult decisions
+	?a often ask ?b
+		?a: Patients facing difficult decisions
+		?b: physicians for recommendations
+	?a perceived ?b difficult to ask for ?c
+		?a: --A majority of the patients
+		?b: it
+		?c: a donation
+
+
+label:    sent_7
+sentence: When your patients ask about alcohol in pregnancy .
+
+ppatt:
+	When ?a ask about ?b in ?c
+		?a: your patients
+		?b: alcohol
+		?c: pregnancy
+
+
+label:    sent_8
+sentence: When your patients ask about teenage pregnancy .
+
+ppatt:
+	When ?a ask about ?b
+		?a: your patients
+		?b: teenage pregnancy
+
+
+label:    sent_9
+sentence: Children were asked to indicate , which partner the protagonist will ask for help . Outside of erectile dysfunction , clinicians rarely ask older patients about sexual function .
+
+ppatt:
+	?a were asked to indicate ?b ?c
+		?a: Children
+		?b: SOMETHING := which partner the protagonist
+		?c: SOMETHING := will ask for help . Outside of erectile dysfunction
+	?a partner ?b
+		?a: which
+		?b: the protagonist
+	?a will ask
+		?a: Children
+	?a help . Outside of ?b
+		?a: Children
+		?b: erectile dysfunction
+	?a rarely ask ?b
+		?a: clinicians
+		?b: older patients about sexual function
+
+
+label:    sent_10
+sentence: Compared to the problems your readers ask about , my issue may seem silly .
+
+ppatt:
+	Compared to the problems ?a
+		?a: your readers
+	?a ask about
+		?a: your readers
+	?a may seem silly
+		?a: my issue
+
+
+label:    sent_11
+sentence: Leaders must tap the imagination of employees at all ranks and ask inspiring questions . Know the risks , and ask plenty of questions . If changing doctors , interview the doctor and ask questions about his experience .
+
+ppatt:
+	?a must tap ?b
+		?a: Leaders
+		?b: the imagination of employees at all ranks
+	?a ask ?b
+		?a: Leaders
+		?b: inspiring questions
+	?a Know ?b
+		?a: Leaders
+		?b: the risks
+	?a ask ?b
+		?a: Leaders
+		?b: plenty of questions
+	?a changing ?b
+		?a: Leaders
+		?b: doctors
+	?a interview ?b
+		?a: Leaders
+		?b: the doctor
+	?a ask ?b
+		?a: Leaders
+		?b: questions about his experience
+
+
+label:    sent_12
+sentence: For better care , ask these 7 questions . When your patients ask you questions about AIDS .
+
+ppatt:
+	For ?a , ask ?b
+		?a: better care
+		?b: these 7 questions
+	When ?a ask ?b
+		?a: your patients
+		?b: you questions about AIDS
+
+
+label:    sent_13
+sentence: The financial exchange : before diversifying , ask six questions . Recurrent endotracheal tube leak : ask and take a look . [Readers ask-experts respond-mechanical autotransfusion ] . The development of children 's information gathering : to look or to ask ? Results indicate that children ask many information-seeking questions and get informative answers .
+
+ppatt:
+	?a before ?b , ask ?c ?d
+		?a: The financial exchange
+		?b: diversifying
+		?c: six questions
+		?d: Recurrent endotracheal tube leak
+	take ?a
+		?a: a look
+	?a ask-experts ?b ?c
+		?a: [Readers
+		?b: respond-mechanical autotransfusion ]
+		?c: The development of children 's information gathering
+	?a indicate ?b
+		?a: Results
+		?b: SOMETHING := children ask many information-seeking questions
+	?a ask ?b
+		?a: children
+		?b: many information-seeking questions
+	?a get ?b
+		?a: children
+		?b: informative answers
+
+
+label:    sent_14
+sentence: Also , the seller could ask one price and then charge more .
+
+ppatt:
+	Also , ?a could ask ?b
+		?a: the seller
+		?b: one price
+	?a then charge more
+		?a: the seller
+
+
+label:    sent_15
+sentence: Encouraging patients to ask questions and disclose anxieties is important for their psychological wellbeing .
+
+ppatt:
+	?a ask ?b
+		?a: Encouraging patients
+		?b: questions
+	?a disclose ?b
+		?a: Encouraging patients
+		?b: anxieties
+	?a is important for ?b
+		?a: Encouraging patients to ask questions and disclose anxieties
+		?b: their psychological wellbeing
+
+

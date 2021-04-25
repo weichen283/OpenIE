@@ -1,0 +1,485 @@
+label:    sent_1
+sentence: The dissociation of 1 , 2 and 4 % 1,4-dioxane dilute in krypton was studied in a shock tube using laser schlieren densitometry , LS , for 1550-2100 K with 56 +/- 4 and 123 +/- 3 Torr .
+
+ppatt:
+	?a was studied in ?b
+		?a: The dissociation of 1 , 2 and 4 % 1,4-dioxane dilute in krypton
+		?b: a shock tube using laser schlieren densitometry , LS , for 1550-2100 K with 56 +/- 4 and 123 +/- 3
+	?a using ?b
+		?a: a shock tube
+		?b: laser schlieren densitometry , for 1550-2100 K with 56 +/- 4 and 123 +/- 3
+	?a using ?b
+		?a: a shock tube
+		?b: LS
+
+
+label:    sent_2
+sentence: The viscoelastic properties ( including zero-shear-rate viscosity , crossing frequency and transition frequency ) as a function of polymer concentration , deduced from our primary data , reveal the subtle structural changes in the polymer solutions as the polymer concentration increases from dilute to semi-dilute regimes , passing through the critical micelle formation concentration and the polymer overlapping concentration .
+
+ppatt:
+	?a deduced from ?b
+		?a: The viscoelastic properties ( including zero-shear-rate viscosity , crossing frequency and transition frequency ) as a function of polymer concentration
+		?b: our primary data
+	?a reveal ?b as ?c
+		?a: The viscoelastic properties ( including zero-shear-rate viscosity , crossing frequency and transition frequency ) as a function of polymer concentration , deduced from our primary data
+		?b: the subtle structural changes in the polymer solutions
+		?c: the polymer concentration increases from dilute regimes
+	?a passing through ?b
+		?a: The viscoelastic properties ( including zero-shear-rate viscosity , crossing frequency and transition frequency ) as a function of polymer concentration , deduced from our primary data
+		?b: the critical micelle formation concentration
+	?a passing through ?b
+		?a: The viscoelastic properties ( including zero-shear-rate viscosity , crossing frequency and transition frequency ) as a function of polymer concentration , deduced from our primary data
+		?b: the polymer overlapping concentration
+
+
+label:    sent_3
+sentence: To assay germination , pieces of agar containing sclerotia were macerated in dilute , liquid cornmeal agar on glass slides ; thinly spread ; and incubated in a saturated atmosphere for 18-22 h .
+
+ppatt:
+	assay ?a ?b
+		?a: germination
+		?b: pieces of agar containing sclerotia
+	?a containing ?b
+		?a: agar
+		?b: sclerotia
+	?a were macerated in ?b
+		?a: pieces of agar containing sclerotia
+		?b: dilute , cornmeal agar on glass slides
+	?a incubated in ?b for ?c
+		?a: pieces of agar containing sclerotia
+		?b: a saturated atmosphere
+		?c: 18-22 h
+
+
+label:    sent_4
+sentence: Interestingly , MT4-MMP null mice had higher baseline urine osmolarities relative to wild type controls , but these animals were able to concentrate and dilute their urines normally .
+
+ppatt:
+	Interestingly , ?a had ?b relative to ?c
+		?a: MT4-MMP null mice
+		?b: higher baseline urine osmolarities
+		?c: wild type controls
+	?a were able to concentrate ?b normally
+		?a: these animals
+		?b: their urines
+	?a were able to dilute
+		?a: these animals
+
+
+label:    sent_5
+sentence: All mAbs displayed LAC activity in both activated partial thromboplastin time-based and dilute Russell 's viper venom test-based clotting assays and in thrombin generation .
+
+ppatt:
+	?a displayed ?b 's ?c
+		?a: All mAbs
+		?b: LAC activity
+		?c: in both activated partial thromboplastin time-based and dilute Russell viper venom test-based clotting assays
+	?a displayed ?b 's ?c
+		?a: All mAbs
+		?b: LAC activity
+		?c: thrombin generation
+
+
+label:    sent_6
+sentence: Comparison of microwaves to fluidized sand baths for heating tubular reactors for hydrothermal and dilute acid batch pretreatment of corn stover .
+
+ppatt:
+
+
+
+label:    sent_7
+sentence: Spermine-induced orderly assembling properties of G-/C-rich oligonucleotides are investigated in dilute and crowding conditions .
+
+ppatt:
+	?a are investigated in ?b
+		?a: Spermine-induced orderly assembling properties of G-/C-rich oligonucleotides
+		?b: dilute and crowding conditions
+
+
+label:    sent_8
+sentence: Consequently , DON-3-O-glucuronide ( D3GlcA ) was synthesized and used to develop a method allowing quantification of both DON and D3GlcA by a simple " dilute and shoot " approach without the need for any cleanup .
+
+ppatt:
+	?a is/are D3GlcA
+		?a: DON-3-O-glucuronide
+	Consequently , ?a was synthesized
+		?a: DON-3-O-glucuronide
+	?a used to develop ?b without ?c
+		?a: DON-3-O-glucuronide
+		?b: a method allowing quantification of both DON and D3GlcA by a simple " dilute and shoot " approach
+		?c: the need for any cleanup
+	?a allowing ?b
+		?a: a method
+		?b: quantification of both DON and D3GlcA by a simple " dilute and shoot " approach
+
+
+label:    sent_9
+sentence: The relation between the time width of dilute contrast agent bolus curve and cardiac output was obtained to determine the optimal predefined pause duration between dilute and neat contrast agent injection .
+
+ppatt:
+	?a was obtained to determine ?b
+		?a: The relation between the time width of dilute contrast agent bolus curve and cardiac output
+		?b: the optimal predefined pause duration between dilute and neat contrast agent injection
+
+
+label:    sent_10
+sentence: Presumably studies that identify bleeding in a larger percentage of subjects consequently dilute the magnitude of the risk .
+
+ppatt:
+	?a identify ?b
+		?a: Presumably studies
+		?b: bleeding in a larger percentage of subjects
+	?a consequently dilute ?b
+		?a: Presumably studies that identify bleeding in a larger percentage of subjects
+		?b: the magnitude of the risk
+
+
+label:    sent_11
+sentence: We introduce a unified LD test based on a convenient marker-selection procedure ( sliding window ) combined with an adjustment approach ( marker weighting ) to dilute the impact of nuisance markers on tests .
+
+ppatt:
+	?a introduce ?b
+		?a: We
+		?b: a unified LD test
+	?a based on a convenient marker-selection procedure
+		?a: We
+	?a combined with ?b to dilute ?c
+		?a: a convenient marker-selection procedure
+		?b: an adjustment approach
+		?c: the impact of nuisance markers on tests
+	?a is/are marker weighting
+		?a: an adjustment approach
+
+
+label:    sent_12
+sentence: It may also be considered to dilute the oil sample .
+
+ppatt:
+	?a may also be considered to dilute ?b
+		?a: It
+		?b: the oil sample
+
+
+label:    sent_13
+sentence: Contamination , defined as screening in the control arm , may dilute the statistical power of randomised screening trials .
+
+ppatt:
+	?a defined as ?b
+		?a: Contamination
+		?b: screening in the control arm
+	?a may dilute ?b
+		?a: Contamination , defined as screening in the control arm
+		?b: the statistical power of randomised screening trials
+
+
+label:    sent_14
+sentence: There is no post column reagent addition , which would dilute the analytes , potentially leading to chromatographic band-broadening .
+
+ppatt:
+	There is ?a , potentially leading to ?b
+		?a: no post column reagent addition , which would dilute the analytes
+		?b: chromatographic band-broadening
+	?a would dilute ?b
+		?a: no post column reagent addition
+		?b: the analytes
+
+
+label:    sent_15
+sentence: Nitrogen , compared to steam , does not dilute the vapor phase stream when condensed .
+
+ppatt:
+	?a compared to ?b
+		?a: Nitrogen
+		?b: steam
+	?a does not dilute ?b
+		?a: Nitrogen , compared to steam
+		?b: the vapor phase stream
+	?a when condensed
+		?a: Nitrogen , compared to steam
+
+
+label:    sent_16
+sentence: When aqueous solutions of nonorganic salts are dilute enough , their surface tensions are known to be salt concentration-independent ; however , the zero value of the resulting relative adsorption has never been the subject of analysis about water behavior .
+
+ppatt:
+	When ?a are dilute enough
+		?a: aqueous solutions of nonorganic salts
+	?a are known to be ?b concentration-independent
+		?a: their surface tensions
+		?b: salt
+	however , ?a has never been the subject of ?b
+		?a: the zero value of the resulting relative adsorption
+		?b: analysis about water behavior
+
+
+label:    sent_17
+sentence: The occurrence of this homozygous variant in 97 unrelated dilute cats representing 26 cat breeds and random-bred cats , along with 89 unrelated wild-type cats representing 29 breeds and random-bred cats , supports the finding that dilute is caused by this single mutation in MLPH ( p<0.00001 ) . Among lipids , gangliosides can be selectively stained with Schiff 's reagent if the oxidizing agent ( sodium metaperiodate ) is sufficiently dilute to exclude all but the readily oxidized sialic acid sugars .
+
+ppatt:
+	?a representing ?b
+		?a: 97 unrelated dilute cats
+		?b: 26 cat breeds
+	representing ?a ?b
+		?a: 26 cat breeds
+		?b: 89 unrelated wild-type cats representing 29 breeds and random-bred cats
+	?a representing ?b
+		?a: 97 unrelated dilute cats
+		?b: random-bred cats
+	representing ?a ?b
+		?a: random-bred cats
+		?b: 89 unrelated wild-type cats representing 29 breeds and random-bred cats
+	?a representing ?b
+		?a: 89 unrelated wild-type cats
+		?b: 29 breeds
+	?a representing ?b
+		?a: 89 unrelated wild-type cats
+		?b: random-bred cats
+	?a supports ?b
+		?a: The occurrence of this homozygous variant in 97 unrelated dilute cats representing 26 cat breeds and random-bred cats , along with 89 unrelated wild-type cats representing 29 breeds and random-bred cats
+		?b: the finding that dilute is caused by this single mutation in MLPH Among lipids
+	?a is caused by ?b
+		?a: dilute
+		?b: this single mutation in MLPH Among lipids
+	?a is/are p<0.00001
+		?a: MLPH Among lipids
+	?a can be selectively stained with ?b
+		?a: gangliosides
+		?b: Schiff 's reagent
+	?a is/are sodium metaperiodate
+		?a: the oxidizing agent
+	?a is sufficiently dilute to exclude ?b
+		?a: the oxidizing agent
+		?b: all
+	?a is sufficiently dilute to exclude ?b
+		?a: the oxidizing agent
+		?b: the readily oxidized sialic acid sugars
+
+
+label:    sent_18
+sentence: The loading of NTA groups can be controlled by choice of reaction conditions thereby removing the need for a second alkanethiol to dilute the surface density of chelator groups and prevent molecular crowding .
+
+ppatt:
+	?a can be controlled by ?b thereby removing ?c to dilute ?d
+		?a: The loading of NTA groups
+		?b: choice of reaction conditions
+		?c: the need for a second alkanethiol
+		?d: the surface density of chelator groups
+	?a can be controlled thereby removing to prevent ?b
+		?a: The loading of NTA groups
+		?b: molecular crowding
+
+
+label:    sent_19
+sentence: By contrast , rapid mixing tends to dilute the initial state and so extinguish the disturbance .
+
+ppatt:
+	By ?a , ?b tends to dilute ?c
+		?a: contrast
+		?b: rapid mixing
+		?c: the initial state
+	?a tends to so extinguish ?b
+		?a: rapid mixing
+		?b: the disturbance
+
+
+label:    sent_20
+sentence: Additional data suggest that 50 % of more of the decrease in [3H ] acetate incorporation at this time may be attributable to metabolites derived from the unlabeled exogenous fatty acid , which act to dilute the radioactively labeled tracer and/or to inhibit endogenous lipid biosynthesis .
+
+ppatt:
+	?a suggest ?b
+		?a: Additional data
+		?b: SOMETHING := 50 % of more of the decrease in [3H ] acetate incorporation at this time may be attributable to metabolites derived from the unlabeled exogenous fatty acid , which act to dilute the radioactively labeled tracer and/or to inhibit endogenous lipid biosynthesis
+	?a may be attributable to ?b
+		?a: 50 % of more of the decrease in [3H ] acetate incorporation at this time
+		?b: metabolites derived from the unlabeled exogenous fatty acid , which act to dilute the radioactively labeled tracer and/or to inhibit endogenous lipid biosynthesis
+	?a derived from ?b
+		?a: metabolites
+		?b: the unlabeled exogenous fatty acid , which act to dilute the radioactively labeled tracer and/or to inhibit endogenous lipid biosynthesis
+	?a act to dilute ?b
+		?a: the unlabeled exogenous fatty acid
+		?b: the radioactively labeled tracer
+	?a act to to inhibit ?b
+		?a: which
+		?b: endogenous lipid biosynthesis
+
+
+label:    sent_21
+sentence: We show that these gradients can arise in growing tissues whereby cells dilute and transport their molecular content as they divide and grow , a mechanism we termed ' cell lineage transport .
+
+ppatt:
+	?a show ?b
+		?a: We
+		?b: SOMETHING := these gradients can arise in growing tissues whereby cells dilute and transport their molecular content as they divide and grow , a mechanism
+	?a can arise in ?b
+		?a: these gradients
+		?b: growing tissues whereby cells dilute and transport their molecular content
+	?a whereby ?b dilute ?c
+		?a: growing tissues
+		?b: cells
+		?c: their molecular content
+	?a transport
+		?a: cells
+	?a divide ?b
+		?a: they
+		?b: a mechanism
+	?a grow
+		?a: they
+	?a termed ?b
+		?a: we
+		?b: cell lineage transport
+
+
+label:    sent_22
+sentence: ' We provide an experimental test by unveiling a distal-to-proximal gradient of Hoxd13 in the vertebrate developing limb bud driven by cell lineage transport , corroborating our model .
+
+ppatt:
+	?a provide ?b
+		?a: We
+		?b: an experimental test
+	?a unveiling ?b
+		?a: We
+		?b: a distal-to-proximal gradient of Hoxd13 in the vertebrate developing limb bud driven by cell lineage transport
+	?a driven by ?b
+		?a: the vertebrate developing limb bud
+		?b: cell lineage transport
+	?a corroborating ?b
+		?a: We
+		?b: our model
+
+
+label:    sent_23
+sentence: Both dilute and undilute passage , large plaque virus produced an acute neurological illness in weanling hamsters .
+
+ppatt:
+	?a produced ?b
+		?a: dilute
+		?b: an acute neurological illness in weanling hamsters
+	?a produced ?b
+		?a: undilute
+		?b: an acute neurological illness in weanling hamsters
+	?a produced ?b
+		?a: large plaque virus
+		?b: an acute neurological illness in weanling hamsters
+
+
+label:    sent_24
+sentence: whereas small plaque virus failed to produce any clinical signs of disease for 3 months after inoculation .
+
+ppatt:
+	?a failed to produce ?b for ?c after
+		?a: small plaque virus
+		?b: any clinical signs of disease
+		?c: 3 months inoculation
+
+
+label:    sent_25
+sentence: If authorities refrain from action , the model might dilute and evolve in a similar way as the Spanish CSCs did recently , with the establishment of large , commercial clubs .
+
+ppatt:
+	?a refrain from ?b
+		?a: authorities
+		?b: action
+	?a might dilute in ?b with ?c
+		?a: the model
+		?b: a similar way
+		?c: the Spanish CSCs did recently , the establishment of large , clubs
+	?a evolve
+		?a: the model
+	?a did recently , with the establishment of ?b
+		?a: the Spanish CSCs
+		?b: large , clubs
+
+
+label:    sent_26
+sentence: Inversion methods use modelled knowledge of how emissions dilute in the atmosphere as they travel from their source to an observation point , together with the observations , to calculate a grid of emissions .
+
+ppatt:
+	?a use ?b
+		?a: Inversion methods
+		?b: modelled knowledge of how emissions dilute in the atmosphere as they travel from their source to an observation point together with the observations , to calculate a grid of emissions
+	?a how ?b dilute in ?c
+		?a: modelled knowledge
+		?b: emissions
+		?c: the atmosphere
+	?a travel from ?b to ?c with ?d , to calculate ?e
+		?a: they
+		?b: their source
+		?c: an observation point
+		?d: together the observations
+		?e: a grid of emissions
+
+
+label:    sent_27
+sentence: To help overcome this limitation , we introduce a method to effectively dilute the content of a droplet while retaining the high throughput .
+
+ppatt:
+	help overcome ?a ?b
+		?a: this limitation
+		?b: we
+	?a introduce ?b
+		?a: we
+		?b: a method to effectively dilute the content of a droplet while retaining the high throughput
+	?a effectively dilute ?b
+		?a: a method
+		?b: the content of a droplet
+	retaining ?a
+		?a: the high throughput
+
+
+label:    sent_28
+sentence: One approach to reducing smoke toxicant yields is to dilute the smoke with glycerol .
+
+ppatt:
+	?a reducing ?b
+		?a: One approach
+		?b: smoke toxicant yields
+	?a is to dilute ?b with ?c
+		?a: One approach to reducing smoke toxicant yields
+		?b: the smoke
+		?c: glycerol
+
+
+label:    sent_29
+sentence: A simple approach is illustrated for determining whether protein concentration ( c ( 2 ) ) is sufficiently dilute for B ( 22 ) to apply , and for correcting B ( 22 ) values from traditional LS regression at higher c ( 2 ) values .
+
+ppatt:
+	?a is illustrated
+		?a: A simple approach
+	?a determining ?b
+		?a: A simple approach
+		?b: SOMETHING := protein concentration is sufficiently dilute for B
+	?a is sufficiently dilute for ?b
+		?a: protein concentration
+		?b: B
+	?a is/are 22
+		?a: B
+	?a apply
+		?a: A simple approach
+	?a correcting ?b from ?c
+		?a: protein concentration
+		?b: B values
+		?c: traditional LS regression at higher c values
+	?a is/are 22
+		?a: B
+	?a is/are 2
+		?a: higher c
+
+
+label:    sent_30
+sentence: The resulting stable nanofluid samples were dilute , below 0.7 vol . % . The hard-disk or hard-sphere scattering system must be sufficiently dilute in order for this high-energy diffraction regime to be achievable .
+
+ppatt:
+	?a were dilute , below ?b ?c
+		?a: The resulting stable nanofluid samples
+		?b: 0.7 vol
+		?c: %
+	?a must be sufficiently dilute to be achievable
+		?a: The hard-disk
+	?a must be sufficiently dilute to be achievable
+		?a: hard-sphere scattering system
+	?a order for this high-energy diffraction regime
+		?a: The hard-disk
+	?a order for this high-energy diffraction regime
+		?a: hard-sphere scattering system
+
+

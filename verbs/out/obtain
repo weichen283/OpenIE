@@ -1,0 +1,308 @@
+label:    sent_1
+sentence: A number of algorithms have been proposed to obtain such classifications . An Advanced Control Eye Tracker was initiated 3 times to obtain iris recognition .
+
+ppatt:
+	?a have been proposed to obtain ?b
+		?a: A number of algorithms
+		?b: such classifications
+	?a was initiated ?b to obtain ?c
+		?a: An Advanced Control Eye Tracker
+		?b: 3 times
+		?c: iris recognition
+
+
+label:    sent_2
+sentence: Venipuncture was performed to obtain samples of serum progesterone and relaxin .
+
+ppatt:
+	?a was performed to obtain ?b
+		?a: Venipuncture
+		?b: samples of serum
+
+
+label:    sent_3
+sentence: All animals failed to obtain the preferred or present foods above chance levels .
+
+ppatt:
+	?a failed to obtain ?b above ?c
+		?a: All animals
+		?b: the preferred or present foods
+		?c: chance levels
+
+
+label:    sent_4
+sentence: It is difficult to obtain adequate information of lung lesions from conventional X-ray imaging .
+
+ppatt:
+	?a is difficult to obtain ?b
+		?a: It
+		?b: adequate information of lung lesions from conventional X-ray imaging
+
+
+label:    sent_5
+sentence: Each site sought to obtain at least 960 isolates per year .
+
+ppatt:
+	?a sought to obtain ?b
+		?a: Each site
+		?b: at least 960 isolates per year
+
+
+label:    sent_6
+sentence: The diagnostic laparoscopy enables one to obtain additional information .
+
+ppatt:
+	?a enables ?b to obtain ?c
+		?a: The diagnostic laparoscopy
+		?b: one
+		?c: additional information
+
+
+label:    sent_7
+sentence: We contacted study authors to obtain missing information .
+
+ppatt:
+	?a contacted ?b to obtain ?c
+		?a: We
+		?b: study authors
+		?c: missing information
+
+
+label:    sent_8
+sentence: The use of endophytes to obtain bioactive compounds and their application in biotransformation process .
+
+ppatt:
+	?a obtain ?b
+		?a: The use of endophytes
+		?b: bioactive compounds
+	obtain ?a ?b
+		?a: bioactive compounds
+		?b: their application in biotransformation process
+
+
+label:    sent_9
+sentence: Use of prostaglandin E1 to obtain more accurate platelet counts in cats . In fact , we obtain quite narrow confidence intervals for this parameter .
+
+ppatt:
+	?a obtain ?b
+		?a: Use of prostaglandin E1
+		?b: more accurate platelet counts in cats
+	?a In ?b , ?c obtain ?d
+		?a: Use of prostaglandin E1 to obtain more accurate platelet counts in cats
+		?b: fact
+		?c: we
+		?d: quite narrow confidence intervals for this parameter
+
+
+label:    sent_10
+sentence: On average , we obtain six restraints per residue .
+
+ppatt:
+	On ?a , ?b obtain ?c
+		?a: average
+		?b: we
+		?c: six restraints per residue
+
+
+label:    sent_11
+sentence: We contacted the principal authors of these , but did not obtain further information .
+
+ppatt:
+	?a contacted ?b
+		?a: We
+		?b: the principal authors of these
+	?a did not obtain ?b
+		?a: We
+		?b: further information
+
+
+label:    sent_12
+sentence: To obtain I50 anti-idiotype antibody and identify its activity in vitro .
+
+ppatt:
+	obtain ?a
+		?a: I50 anti-idiotype antibody
+	identify ?a in vitro
+		?a: its activity
+
+
+label:    sent_13
+sentence: This paper presents the procedure for gathering information and to obtain data .
+
+ppatt:
+	?a presents ?b
+		?a: This paper
+		?b: the procedure for gathering information and to obtain data
+	?a gathering ?b
+		?a: the procedure
+		?b: information
+	obtain ?a
+		?a: data
+
+
+label:    sent_14
+sentence: The TT-ratio is reliable and easy to obtain during fetal echocardiography .
+
+ppatt:
+	?a is reliable to obtain during ?b
+		?a: The TT-ratio
+		?b: fetal echocardiography
+	?a easy
+		?a: The TT-ratio
+
+
+label:    sent_15
+sentence: It is well-known that alignments are hard to obtain during distant relationships .
+
+ppatt:
+	?a is well-known ?b
+		?a: It
+		?b: SOMETHING := alignments are hard to obtain during distant relationships
+	?a are hard to obtain during ?b
+		?a: alignments
+		?b: distant relationships
+
+
+label:    sent_16
+sentence: However these sample spectra are very hard to obtain in the actual production process .
+
+ppatt:
+	However ?a are very hard to obtain in ?b
+		?a: these sample spectra
+		?b: the actual production process
+
+
+label:    sent_17
+sentence: This method can obtain adequate margins and follow oncological principles . [How to obtain a plaster bite , and mount a dental articulator ] . Where applicable , we obtain the membrane viscosity and report activation energies of diffusion .
+
+ppatt:
+	?a can obtain ?b
+		?a: This method
+		?b: adequate margins
+	?a follow ?b to obtain ?c
+		?a: This method
+		?b: oncological principles
+		?c: a plaster bite
+	?a is/are [How
+		?a: oncological principles
+	?a mount ?b
+		?a: This method
+		?b: a dental articulator ]
+	?a obtain ?b
+		?a: we
+		?b: the membrane viscosity
+	?a report ?b
+		?a: we
+		?b: activation energies of diffusion
+
+
+label:    sent_18
+sentence: It was impossible to make contact with or obtain an explanation from 11.7 % . Mycoheterotrophic species have abandoned an autotrophic lifestyle and obtain carbon exclusively from mycorrhizal fungi . Just over 400,000 obtain abortions , and nearly 470,000 give birth .
+
+ppatt:
+	?a was impossible to make ?b ?c ?d
+		?a: It
+		?b: contact
+		?c: with
+		?d: an explanation from 11.7 %
+	?a was impossible to obtain
+		?a: It
+	?a have abandoned ?b
+		?a: Mycoheterotrophic species
+		?b: an autotrophic lifestyle
+	?a obtain ?b exclusively from ?c
+		?a: Mycoheterotrophic species
+		?b: carbon
+		?c: mycorrhizal fungi
+	?a over ?b obtain ?c
+		?a: Mycoheterotrophic species
+		?b: Just 400,000
+		?c: abortions
+	?a give ?b
+		?a: nearly 470,000
+		?b: birth
+
+
+label:    sent_19
+sentence: To obtain and generate reasonable treatment methods , new mediators or targets are needed .
+
+ppatt:
+	obtain ?a ?b
+		?a: reasonable treatment methods
+		?b: new mediators
+	obtain ?a ?b
+		?a: reasonable treatment methods
+		?b: targets
+	generate ?a
+		?a: new mediators
+	generate ?a
+		?a: targets
+	?a are needed
+		?a: new mediators
+	?a are needed
+		?a: targets
+
+
+label:    sent_20
+sentence: The fusing image is easy to obtain and be interpreted by the clinician .
+
+ppatt:
+	?a is easy to obtain
+		?a: The fusing image
+	?a is easy to be interpreted by ?b
+		?a: The fusing image
+		?b: the clinician
+
+
+label:    sent_21
+sentence: Then we get the PNNs ' distributions and obtain a y-M .
+
+ppatt:
+	Then ?a get ?b
+		?a: we
+		?b: the PNNs ' distributions
+	?a obtain ?b
+		?a: we
+		?b: a y-M
+
+
+label:    sent_22
+sentence: In presbyopia , patients can no longer obtain clear vision at distance and near .
+
+ppatt:
+	In ?a , ?b can no longer obtain ?c at ?d
+		?a: presbyopia
+		?b: patients
+		?c: clear vision
+		?d: distance
+	In ?a , ?b can no longer obtain ?c at ?d
+		?a: presbyopia
+		?b: patients
+		?c: clear vision
+		?d: near
+
+
+label:    sent_23
+sentence: It is unclear whether or how plants obtain nitrogen from these endophytic bacteria .
+
+ppatt:
+	?a is unclear ?b
+		?a: It
+		?b: SOMETHING := how plants obtain nitrogen from these endophytic bacteria
+	how ?a obtain ?b
+		?a: plants
+		?b: nitrogen from these endophytic bacteria
+
+
+label:    sent_24
+sentence: Neutrophils obtain immunosuppressive function during tumor development , yet the mechanisms are largely unknown .
+
+ppatt:
+	?a obtain ?b during ?c
+		?a: Neutrophils
+		?b: immunosuppressive function
+		?c: tumor development
+	?a are largely unknown
+		?a: the mechanisms
+
+

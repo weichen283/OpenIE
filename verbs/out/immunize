@@ -1,0 +1,271 @@
+label:    sent_1
+sentence: VLPs incorporating mTrop2 were used to immunize C57BL/6 tumor-bearing mice .
+
+ppatt:
+	?a incorporating ?b
+		?a: VLPs
+		?b: mTrop2
+	?a were used to immunize ?b
+		?a: VLPs incorporating mTrop2
+		?b: C57BL/6 tumor-bearing mice
+
+
+label:    sent_2
+sentence: Then the purified fusion protein was used to immunize the BALB/c mice .
+
+ppatt:
+	Then ?a was used to immunize ?b
+		?a: the purified fusion protein
+		?b: the BALB/c mice
+
+
+label:    sent_3
+sentence: BWPG was used as an adjuvant of rHBsAg to immunize BALB/c mice .
+
+ppatt:
+	?a was used as ?b to immunize ?c
+		?a: BWPG
+		?b: an adjuvant of rHBsAg
+		?c: BALB/c mice
+
+
+label:    sent_4
+sentence: School-based vaccination programs may provide an effective strategy to immunize adolescents against influenza .
+
+ppatt:
+	?a may provide ?b
+		?a: School-based vaccination programs
+		?b: an effective strategy to immunize adolescents against influenza
+	?a immunize ?b
+		?a: an effective strategy
+		?b: adolescents against influenza
+
+
+label:    sent_5
+sentence: The non-glycosylated NP was used to immunize mice for hybridoma development .
+
+ppatt:
+	?a was used to immunize ?b for ?c
+		?a: The non-glycosylated NP
+		?b: mice
+		?c: hybridoma development
+
+
+label:    sent_6
+sentence: Pili harvested from induced P. aeruginosa cultures were used to immunize sheep against footrot .
+
+ppatt:
+	?a harvested from ?b
+		?a: Pili
+		?b: induced P. aeruginosa cultures
+	?a were used to immunize ?b against ?c
+		?a: Pili harvested from induced P. aeruginosa cultures
+		?b: sheep
+		?c: footrot
+
+
+label:    sent_7
+sentence: Coding flu shots : immunize against lost revenue .
+
+ppatt:
+
+
+
+label:    sent_8
+sentence: More than 1000 pharmacists were trained to immunize in 1997 .
+
+ppatt:
+	?a were trained to immunize in ?b
+		?a: More than 1000 pharmacists
+		?b: 1997
+
+
+label:    sent_9
+sentence: Edible vaccines : to eat , perchance to immunize . P. falciparum grown in culture was used to immunize mice and to obtain hybridomas . rTCA3 was used to immunize hamsters and produce mAb .
+
+ppatt:
+	?a eat , ?b to immunize ?c
+		?a: Edible vaccines
+		?b: perchance
+		?c: P. falciparum grown in culture
+	?a grown in ?b
+		?a: P. falciparum
+		?b: culture
+	?a was used to immunize ?b
+		?a: Edible vaccines : to eat , perchance to immunize . P. falciparum grown in culture
+		?b: mice
+	?a was used to to obtain ?b
+		?a: Edible vaccines : to eat , perchance to immunize . P. falciparum grown in culture
+		?b: hybridomas
+	?a was used to immunize ?b
+		?a: rTCA3
+		?b: hamsters
+	?a was used to produce ?b
+		?a: rTCA3
+		?b: mAb
+
+
+label:    sent_10
+sentence: These three peptides were used to immunize rabbits and prepare antipeptide antisera .
+
+ppatt:
+	?a were used to immunize ?b
+		?a: These three peptides
+		?b: rabbits
+	?a were used to prepare ?b
+		?a: These three peptides
+		?b: antipeptide antisera
+
+
+label:    sent_11
+sentence: This glycolipid can protectively immunize mice against cutaneous leishmaniasis .
+
+ppatt:
+	?a can protectively immunize ?b against ?c
+		?a: This glycolipid
+		?b: mice
+		?c: cutaneous leishmaniasis
+
+
+label:    sent_12
+sentence: Fetal tissue injected into animals will immunize these animals against certain transplanted tumors .
+
+ppatt:
+	?a injected into ?b
+		?a: Fetal tissue
+		?b: animals
+	?a will immunize ?b against ?c
+		?a: Fetal tissue injected into animals
+		?b: these animals
+		?c: certain transplanted tumors
+
+
+label:    sent_13
+sentence: To this end , we immunize mice subcutaneously with KLH in CFA .
+
+ppatt:
+	To ?a , ?b immunize ?c subcutaneously with ?d
+		?a: this end
+		?b: we
+		?c: mice
+		?d: KLH in CFA
+
+
+label:    sent_14
+sentence: Inc. through Axios Healthcare Development to immunize 6400 girls aged 9-13 years .
+
+ppatt:
+	?a immunize ?b
+		?a: Inc. through Axios Healthcare Development
+		?b: 6400 girls aged 9-13 years
+
+
+label:    sent_15
+sentence: Here we question whether solely transmaternal cell flow may immunize UCB .
+
+ppatt:
+	Here ?a question ?b
+		?a: we
+		?b: SOMETHING := solely transmaternal cell flow may immunize UCB
+	?a may immunize ?b
+		?a: solely transmaternal cell flow
+		?b: UCB
+
+
+label:    sent_16
+sentence: Missed opportunities to immunize preschoolers .
+
+ppatt:
+	?a immunize ?b
+		?a: Missed opportunities
+		?b: preschoolers
+
+
+label:    sent_17
+sentence: This is likely applicable to certain other chemical antigens that immunize by inhalation .
+
+ppatt:
+	?a is likely applicable to ?b
+		?a: This
+		?b: certain other chemical antigens that immunize by inhalation
+	?a immunize by ?b
+		?a: certain other chemical antigens
+		?b: inhalation
+
+
+label:    sent_18
+sentence: How might pregnancy immunize against breast cancer ? HSP-peptide complexes can immunize against tumors and pathogen-infected cells .
+
+ppatt:
+	How might ?a immunize against ?b
+		?a: pregnancy
+		?b: breast cancer
+	?a can immunize against ?b
+		?a: HSP-peptide complexes
+		?b: tumors
+	?a can immunize against ?b
+		?a: HSP-peptide complexes
+		?b: pathogen-infected cells
+
+
+label:    sent_19
+sentence: Blood transfusion induced changes in cell-mediated lympholysis : to immunize or not to immunize .
+
+ppatt:
+	?a induced ?b
+		?a: Blood transfusion
+		?b: changes in cell-mediated lympholysis
+	?a immunize
+		?a: Blood transfusion
+	?a not to immunize
+		?a: Blood transfusion
+
+
+label:    sent_20
+sentence: To immunize or not to immunize ? The thus isolated TfR was used to immunize and to obtain the monoclonal antibodies .
+
+ppatt:
+	immunize ?a
+		?a: The thus isolated TfR
+	not to immunize ?a
+		?a: The thus isolated TfR
+	?a was used to immunize
+		?a: The thus isolated TfR
+	?a was used to to obtain ?b
+		?a: The thus isolated TfR
+		?b: the monoclonal antibodies
+
+
+label:    sent_21
+sentence: These cells were used to immunize rats and for screening antibody-producing clones .
+
+ppatt:
+	?a were used to immunize ?b
+		?a: These cells
+		?b: rats
+	?a were used to immunize ?b
+		?a: These cells
+		?b: screening antibody-producing clones
+
+
+label:    sent_22
+sentence: Vaccines : more reasons to immunize . Operation immunize .
+
+ppatt:
+	?a immunize ?b
+		?a: more reasons
+		?b: Operation
+
+
+label:    sent_23
+sentence: It 's wise to immunize , regardless of what the Web says .
+
+ppatt:
+	?a 's wise to immunize , regardless ?b
+		?a: It
+		?b: SOMETHING := of what the Web says
+	of ?a ?b says
+		?a: what
+		?b: the Web
+
+

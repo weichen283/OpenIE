@@ -1,0 +1,32 @@
+obj	A successive rejection-based strategy is proposed to progressively lower the number of clutter responses .	obj@number
+obj	Obama budget aims to lower biologics exclusivity period .	obj@period
+obj	Methods to predict and lower the risk of prostate cancer .	obj@risk
+
+subj#obj	Can dietary fructans lower serum glucose ?	subj@fructans obj@glucose
+subj#obj	Crystalline systems often lower their energy by atom displacements from regular high-symmetry lattice sites .	subj@systems obj@energy
+subj#obj	The use of a dual-energy single-phase study protocol will lower radiation exposure to patients .	subj@use obj@exposure
+
+obj#prep	How far to lower blood pressure in the long term , after a stroke ?	obj@pressure prep_after@stroke prep_in@term
+obj#prep	It also seems to lower HIV-1 transmission compared to mixed feeding .	obj@feeding obj@transmission prepc_compared_to@to
+obj#prep	Travoprost seems to lower IOP by increasing trabecular outflow facility .	obj@IOP prepc_by@increasing
+
+subj#obj#prep	Clinicians should be aware that following the DGA might not lower diabetes risk .	subj@aware obj@risk prep_following@DGA
+subj#obj#prep	Intensive fishing can lower MeHg in food webs by increasing fish growth rate .	subj@fishing obj@MeHg prepc_by@increasing
+subj#obj#prep	Only a few agents will lower LDL by at least 50 % .	subj@agents obj@LDL prep_by@%
+
+obj#conj	Pom1 autophosphorylates in this region to lower lipid affinity and promote membrane release .	obj@affinity conj_and@promote
+obj#conj	The peptide can broaden the transition and lower the transition enthalpy of dimyristoylphosphatidylglycerol .	obj@enthalpy conj_and@broaden
+obj#conj	Abietic acid - treated foliage reduced consumption but did not lower relative growth rate .	obj@rate conj_but@reduced
+
+subj#obj#conj	Our results showed that triptolide could lower the arthritic scores and increase TGF-beta level .	subj@triptolide obj@scores conj_and@increase
+subj#obj#conj	Low-molecular-weight heparin and bleeding : how do we lower risk but maintain benefit ?	subj@we obj@risk conj_but@maintain
+subj#obj#conj	Alternative regimens may lower the incidence of haematological toxicities and maintain antitumour efficacy .	subj@regimens obj@incidence conj_and@maintain
+
+subj#obj#prep#conj	As such , GLP-1 receptor agonists effectively lower blood glucose levels and reduce weight .	subj@agonists obj@levels prep_such_as@such conj_and@reduce
+subj#obj#prep#conj	In atherosclerosis , statins lower cholesterol and display some anti-inflammatory activity .	subj@statins obj@cholesterol prep_in@atherosclerosis conj_and@display
+subj#obj#prep#conj	In nonhypertensive individuals , dietary changes can lower BP and prevent hypertension .	subj@changes obj@BP prep_in@individuals conj_and@prevent
+
+conj	Those measures appeared to lower but not eliminate the occupational risk .	conj_but@not
+conj	They are routinely used after refractive surgeries to lower or prevent an inflammatory action .	conj_or@prevent
+conj	To lower or not to lower ?	conj_or@lower
+

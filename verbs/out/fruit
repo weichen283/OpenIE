@@ -1,0 +1,19 @@
+label:    sent_1
+sentence: Garcinia binucao that fruits at 21 degrees C gained 11-40 % in lycopene and 50-139 % in beta-carotene Careful pruning that fruits a tree .
+
+ppatt:
+	?a binucao ?b
+		?a: Garcinia
+		?b: SOMETHING := fruits at 21 degrees C gained 11-40 % in lycopene and 50-139 % in beta-carotene Careful pruning that fruits a tree
+	?a gained ?b in ?c
+		?a: fruits at 21 degrees C
+		?b: 11-40 % in lycopene
+		?c: beta-carotene Careful pruning that fruits a tree
+	?a gained ?b in ?c
+		?a: fruits at 21 degrees C
+		?b: 50-139 %
+		?c: beta-carotene Careful pruning that fruits a tree
+	?a a tree
+		?a: fruits
+
+

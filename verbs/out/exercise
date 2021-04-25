@@ -1,0 +1,26 @@
+label:    sent_1
+sentence: This article describes the potential untoward side effects of increased drug absorption through the use of a transdermal patch in individuals who exercise or participate in sporting events .
+
+ppatt:
+	?a describes ?b
+		?a: This article
+		?b: the potential untoward side effects of increased drug absorption through the use of a transdermal patch in individuals who exercise or participate in sporting events
+	?a exercise in ?b
+		?a: individuals
+		?b: sporting events
+	?a participate
+		?a: who
+
+
+label:    sent_2
+sentence: A brief Video Doctor intervention can improve exercise and dietary behaviors in pregnant women .
+
+ppatt:
+	?a can improve ?b
+		?a: A brief Video Doctor intervention
+		?b: exercise in pregnant women
+	?a can improve ?b
+		?a: A brief Video Doctor intervention
+		?b: dietary
+
+

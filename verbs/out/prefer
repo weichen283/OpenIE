@@ -1,0 +1,317 @@
+label:    sent_1
+sentence: Most of the patients that switched prefer their new treatment .
+
+ppatt:
+	?a switched
+		?a: the patients prefer their new treatment
+	?a prefer ?b
+		?a: the patients that switched
+		?b: their new treatment
+
+
+label:    sent_2
+sentence: Some prefer the additional support offered within a clinical consultation .
+
+ppatt:
+	?a prefer ?b
+		?a: Some
+		?b: the additional support offered within a clinical consultation
+	?a offered within ?b
+		?a: the additional support
+		?b: a clinical consultation
+
+
+label:    sent_3
+sentence: Participants were also asked whether they prefer self-sampling or clinician sampling .
+
+ppatt:
+	?a were also asked ?b
+		?a: Participants
+		?b: SOMETHING := they prefer self-sampling or clinician sampling
+	?a prefer ?b
+		?a: they
+		?b: self-sampling or clinician sampling
+
+
+label:    sent_4
+sentence: Would students prefer to eat healthier foods at school ? Do N-heterocyclic aromatic rings prefer pi-stacking ? Most individuals prefer bicycling separated from motor traffic .
+
+ppatt:
+	Would ?a prefer to eat ?b at ?c
+		?a: students
+		?b: healthier foods
+		?c: school
+	?a prefer pi-stacking
+		?a: N-heterocyclic aromatic rings
+	?a prefer ?b
+		?a: Most individuals
+		?b: bicycling separated from motor traffic
+	?a separated from ?b
+		?a: bicycling
+		?b: motor traffic
+
+
+label:    sent_5
+sentence: Patients may prefer subcuticular incision over collagen dermal filler .
+
+ppatt:
+	?a may prefer ?b over ?c
+		?a: Patients
+		?b: subcuticular incision
+		?c: collagen dermal filler
+
+
+label:    sent_6
+sentence: European bison prefer mosaic-type landscapes , with a preference for broad-leaved and mixed forests .
+
+ppatt:
+	?a prefer ?b , with ?c
+		?a: European bison
+		?b: mosaic-type landscapes
+		?c: a preference for broad-leaved and mixed forests
+
+
+label:    sent_7
+sentence: Methyltransferases prefer monomer over core-trimmed nucleosomes as in vitro substrates .
+
+ppatt:
+	?a prefer ?b over ?c as ?d
+		?a: Methyltransferases
+		?b: monomer
+		?c: core-trimmed nucleosomes
+		?d: in substrates
+
+
+label:    sent_8
+sentence: Rats learn to prefer flavors that are followed by postingestive effects of nutrients .
+
+ppatt:
+	?a learn to prefer ?b
+		?a: Rats
+		?b: flavors that are followed by postingestive effects of nutrients
+	?a are followed by ?b
+		?a: flavors
+		?b: postingestive effects of nutrients
+
+
+label:    sent_9
+sentence: We discuss several models of transition/transfer but prefer a joint pediatric/adult transition clinic .
+
+ppatt:
+	?a discuss ?b
+		?a: We
+		?b: several models of transition/transfer
+	?a prefer ?b
+		?a: We
+		?b: a joint pediatric/adult transition clinic
+
+
+label:    sent_10
+sentence: The sensory panelists tended to prefer BF for overall acceptability .
+
+ppatt:
+	?a tended to prefer ?b for ?c
+		?a: The sensory panelists
+		?b: BF
+		?c: overall acceptability
+
+
+label:    sent_11
+sentence: Healthy young adults prefer to step with the more unloaded limb .
+
+ppatt:
+	?a prefer to ?b
+		?a: Healthy young adults
+		?b: step with the more unloaded limb
+
+
+label:    sent_12
+sentence: Humans and animals prefer immediate over delayed rewards ( delay discounting ) . Most of these individuals prefer to age in their homes/communities .
+
+ppatt:
+	?a prefer immediate over ?b
+		?a: Humans
+		?b: delayed rewards
+	?a prefer immediate over ?b
+		?a: animals
+		?b: delayed rewards
+	?a is/are delay discounting
+		?a: delayed rewards
+	?a prefer to ?b
+		?a: Most of these individuals
+		?b: age in their homes/communities
+
+
+label:    sent_13
+sentence: The authors prefer operative treatment , but this is not universally accepted .
+
+ppatt:
+	?a prefer ?b
+		?a: The authors
+		?b: operative treatment
+	?a is not universally accepted
+		?a: this
+
+
+label:    sent_14
+sentence: The treatment is surgical and most authors prefer an intra-peritoneal transvesical approach .
+
+ppatt:
+	?a is surgical
+		?a: The treatment
+	?a prefer ?b
+		?a: most authors
+		?b: an intra-peritoneal transvesical approach
+
+
+label:    sent_15
+sentence: Behavior observations confirmed that zebrafish prefer amino acids and avoid denatonium .
+
+ppatt:
+	?a confirmed ?b
+		?a: Behavior observations
+		?b: SOMETHING := zebrafish prefer amino acids
+	?a prefer ?b
+		?a: zebrafish
+		?b: amino acids
+	?a avoid ?b
+		?a: zebrafish
+		?b: denatonium
+
+
+label:    sent_16
+sentence: Unlike the Bacillus enzyme , streptococcal UGLs prefer sulfated glycosaminoglycans .
+
+ppatt:
+	Unlike ?a , ?b prefer ?c
+		?a: the Bacillus enzyme
+		?b: streptococcal UGLs
+		?c: sulfated glycosaminoglycans
+
+
+label:    sent_17
+sentence: Thus , no arguments were found to prefer one index above the other .
+
+ppatt:
+	Thus , ?a were found to prefer ?b
+		?a: no arguments
+		?b: one index above the other
+
+
+label:    sent_18
+sentence: Considering current knowledge there is no reason to prefer mefenamic acid to other NSAID .
+
+ppatt:
+	Considering ?a ?b
+		?a: current knowledge
+		?b: no reason to prefer mefenamic acid to other NSAID
+	there is ?a
+		?a: no reason to prefer mefenamic acid to other NSAID
+	?a prefer ?b to ?c
+		?a: no reason
+		?b: mefenamic acid
+		?c: other NSAID
+
+
+label:    sent_19
+sentence: Women prefer to work fewer hours and anticipate care tasks more often .
+
+ppatt:
+	?a prefer to work ?b
+		?a: Women
+		?b: fewer hours
+	?a anticipate ?b more often
+		?a: Women
+		?b: care tasks
+
+
+label:    sent_20
+sentence: Colonoscopy remains an uncomfortable examination and many patients prefer to be sedated .
+
+ppatt:
+	?a remains an uncomfortable examination
+		?a: Colonoscopy
+	?a prefer to be sedated
+		?a: many patients
+
+
+label:    sent_21
+sentence: We prefer and propose the abdominal approach for the surgical management of Morgagni hernias . Japanese macaques prefer fruits and seeds over leaves , and Barbary macaques prefer seeds .
+
+ppatt:
+	?a prefer ?b
+		?a: We
+		?b: the abdominal approach for the surgical management of Morgagni hernias
+	?a propose
+		?a: We
+	?a prefer ?b
+		?a: Japanese macaques
+		?b: fruits over leaves
+	?a prefer ?b
+		?a: Japanese macaques
+		?b: seeds
+	?a prefer ?b
+		?a: Barbary macaques
+		?b: seeds
+
+
+label:    sent_22
+sentence: Rats prefer energy-rich foods over chow and eat them to excess . As in conventional surgery , different surgeons prefer different instruments and use different techniques .
+
+ppatt:
+	?a prefer ?b over ?c
+		?a: Rats
+		?b: energy-rich foods
+		?c: chow
+	?a eat ?b to ?c As in ?d
+		?a: Rats
+		?b: them
+		?c: excess
+		?d: conventional surgery
+	?a prefer ?b
+		?a: different surgeons
+		?b: different instruments
+	?a use ?b
+		?a: different surgeons
+		?b: different techniques
+
+
+label:    sent_23
+sentence: Many patients are unable to attend hospital-based treatment and prefer home phototherapy .
+
+ppatt:
+	?a are unable to attend ?b
+		?a: Many patients
+		?b: hospital-based treatment
+	?a prefer ?b
+		?a: Many patients
+		?b: home phototherapy
+
+
+label:    sent_24
+sentence: However , not all families have access to non-pharmacologic interventions or prefer them .
+
+ppatt:
+	However , ?a have access to ?b
+		?a: not all families
+		?b: non-pharmacologic interventions
+	?a prefer ?b
+		?a: not all families
+		?b: them
+
+
+label:    sent_25
+sentence: However , they recognise that asthma has psychological repercussions and prefer self-care .
+
+ppatt:
+	However , ?a recognise ?b
+		?a: they
+		?b: SOMETHING := asthma has psychological repercussions
+	?a has ?b
+		?a: asthma
+		?b: psychological repercussions
+	?a prefer ?b
+		?a: asthma
+		?b: self-care
+
+

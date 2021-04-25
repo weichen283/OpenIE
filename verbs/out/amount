@@ -1,0 +1,69 @@
+label:    sent_1
+sentence: Our results suggest that anaerobic bacteria amount a significant component of the flora of the lower genital-tract of healthy children , as well as of infants with vaginal discharge .
+
+ppatt:
+	?a suggest ?b
+		?a: Our results
+		?b: SOMETHING := anaerobic bacteria amount a significant component of the flora of the lower genital-tract of healthy children , as well as of infants with vaginal discharge
+	?a amount ?b
+		?a: anaerobic bacteria
+		?b: a significant component of the flora of the lower genital-tract of healthy children
+	?a amount ?b
+		?a: anaerobic bacteria
+		?b: infants with vaginal discharge
+
+
+label:    sent_2
+sentence: The 5- and 10-year-survival rates amount 84 % and 68 % , respectively . Earnings are not an important source of income for unmarried disabled-worker beneficiaries for whom they amount to only about 3 percent of total income .
+
+ppatt:
+	?a amount ?b , respectively
+		?a: The 5- and 10-year-survival rates
+		?b: 84 %
+	?a amount ?b , respectively
+		?a: The 5- and 10-year-survival rates
+		?b: 68 %
+	?a are not an important source of ?b for ?c
+		?a: Earnings
+		?b: income
+		?c: unmarried disabled-worker beneficiaries for whom they amount to only about 3 percent of total income
+	?a for ?b ?c amount to ?d
+		?a: unmarried disabled-worker beneficiaries
+		?b: whom
+		?c: they
+		?d: only about 3 percent of total income
+
+
+label:    sent_3
+sentence: Complement and cellular effectors are inefficiently recruited , the cells can undergo antigenic modulation , antigen-negative mutants can arise , and the tumour-bearing subject can amount an immune response against the therapeutic antibody .
+
+ppatt:
+	?a are inefficiently recruited
+		?a: Complement
+	?a are inefficiently recruited
+		?a: cellular
+	?a are inefficiently recruited
+		?a: effectors
+	?a can undergo ?b
+		?a: the cells
+		?b: antigenic modulation
+	?a can arise
+		?a: antigen-negative mutants
+	?a can amount ?b
+		?a: the tumour-bearing subject
+		?b: an immune response against the therapeutic antibody
+
+
+label:    sent_4
+sentence: It 's incidence is said to be 26-40 % , but surgically treatable lesions of the biliary system amount only 1.5 % .
+
+ppatt:
+	's ?a is said to be 26-40 %
+		?a: It incidence
+	's ?a is said to be 26-40 surgically treatable lesions of ?b
+		?a: It incidence
+		?b: the biliary system amount
+	's ?a is said to be 26-40 only 1.5 %
+		?a: It incidence
+
+

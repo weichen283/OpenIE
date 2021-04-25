@@ -1,0 +1,267 @@
+label:    sent_1
+sentence: A large number of patients is required to evaluate and validate these findings .
+
+ppatt:
+	?a is required to evaluate ?b
+		?a: A large number of patients
+		?b: these findings
+	?a is required to validate
+		?a: A large number of patients
+
+
+label:    sent_2
+sentence: However , there have been relatively few studies undertaken to validate this theory .
+
+ppatt:
+	?a undertaken to validate ?b
+		?a: However , there relatively few studies
+		?b: this theory
+
+
+label:    sent_3
+sentence: Further studies are warranted to validate this approach for children with developmental difficulties .
+
+ppatt:
+	?a are warranted to validate ?b
+		?a: Further studies
+		?b: this approach for children with developmental difficulties
+
+
+label:    sent_4
+sentence: This study aimed to validate the score in a prospective series .
+
+ppatt:
+	?a aimed to validate ?b
+		?a: This study
+		?b: the score in a prospective series
+
+
+label:    sent_5
+sentence: We attempted to validate this algorithm in a cohort of patients with known outcome .
+
+ppatt:
+	?a attempted to validate ?b in ?c
+		?a: We
+		?b: this algorithm
+		?c: a cohort of patients with known outcome
+
+
+label:    sent_6
+sentence: Flow cytometry was used to validate changes to protein expression , except for EB1 .
+
+ppatt:
+	?a was used to validate ?b , except for ?c
+		?a: Flow cytometry
+		?b: changes to protein expression
+		?c: EB1
+
+
+label:    sent_7
+sentence: We sought to validate HT and assess treatment responsiveness using independent data . We aimed to validate this approach and investigate the utility of a D2-40 antibody .
+
+ppatt:
+	?a sought to validate ?b using ?c
+		?a: We
+		?b: HT
+		?c: independent data
+	?a sought to assess ?b using
+		?a: We
+		?b: treatment responsiveness
+	?a aimed to validate ?b
+		?a: We
+		?b: this approach
+	?a aimed to investigate ?b
+		?a: We
+		?b: the utility of a D2-40 antibody
+
+
+label:    sent_8
+sentence: The aim of this study is to translate and validate the WIQ in Chinese . Fluorescence images validate the theoretical model .
+
+ppatt:
+	?a is to translate ?b
+		?a: The aim of this study
+		?b: the WIQ
+	?a is to validate
+		?a: The aim of this study
+	in ?a validate ?b
+		?a: Chinese . Fluorescence images
+		?b: the theoretical model
+
+
+label:    sent_9
+sentence: We validate the method on specially designed phantoms and biological specimens .
+
+ppatt:
+	?a validate ?b
+		?a: We
+		?b: the method on specially designed phantoms and biological specimens
+
+
+label:    sent_10
+sentence: Larger , multicenter datasets are warranted for this rare disease to validate these results .
+
+ppatt:
+	Larger , ?a are warranted for ?b to validate ?c
+		?a: multicenter datasets
+		?b: this rare disease
+		?c: these results
+
+
+label:    sent_11
+sentence: We validate our selection strategy on data from 20 healthy subjects .
+
+ppatt:
+	?a validate ?b on ?c
+		?a: We
+		?b: our selection strategy
+		?c: data from 20 healthy subjects
+
+
+label:    sent_12
+sentence: Future studies should validate these findings in a prospective cohort .
+
+ppatt:
+	?a should validate ?b in ?c
+		?a: Future studies
+		?b: these findings
+		?c: a prospective cohort
+
+
+label:    sent_13
+sentence: We further validate our indices by clustering according to sectors ' centralities .
+
+ppatt:
+	?a further validate ?b by ?c
+		?a: We
+		?b: our indices
+		?c: clustering according to sectors ' centralities
+	?a by clustering according to ' ?b
+		?a: We
+		?b: sectors centralities
+
+
+label:    sent_14
+sentence: The results validate theoretical predictions and are summarized in this paper .
+
+ppatt:
+	?a validate ?b
+		?a: The results
+		?b: theoretical predictions
+	?a are summarized in ?b
+		?a: The results
+		?b: this paper
+
+
+label:    sent_15
+sentence: Future studies should validate these tentative associations and define underlying mechanisms .
+
+ppatt:
+	?a should validate ?b
+		?a: Future studies
+		?b: these tentative associations
+	?a define ?b
+		?a: Future studies
+		?b: underlying mechanisms
+
+
+label:    sent_16
+sentence: A prototype has been constructed , and experimental results validate our theory .
+
+ppatt:
+	?a has been constructed
+		?a: A prototype
+	?a validate ?b
+		?a: experimental results
+		?b: our theory
+
+
+label:    sent_17
+sentence: Thus we aimed to validate and extend these findings . Additional research is needed to validate and generalize our findings .
+
+ppatt:
+	Thus ?a aimed to validate ?b
+		?a: we
+		?b: these findings
+	Thus ?a aimed to extend
+		?a: we
+	?a is needed to validate ?b
+		?a: Additional research
+		?b: our findings
+	?a is needed to generalize
+		?a: Additional research
+
+
+label:    sent_18
+sentence: We sought to validate or challenge the unidimensional factor structure of the DASH .
+
+ppatt:
+	?a sought to validate ?b
+		?a: We
+		?b: the unidimensional factor structure of the DASH
+	?a sought to challenge
+		?a: We
+
+
+label:    sent_19
+sentence: The aim of the present study is to translate and validate HOS into Spanish .
+
+ppatt:
+	?a is to translate ?b into ?c
+		?a: The aim of the present study
+		?b: HOS
+		?c: Spanish
+	?a is to validate
+		?a: The aim of the present study
+
+
+label:    sent_20
+sentence: Why and how validate criteria by manual smear review to improve laboratory productivity ? This study aimed to amend and validate it for the UK population .
+
+ppatt:
+	Why how validate ?a by ?b ?c
+		?a: criteria
+		?b: manual smear review to improve laboratory productivity
+		?c: This study
+	?a improve ?b
+		?a: manual smear review
+		?b: laboratory productivity
+	?a aimed to amend ?b for ?c
+		?a: This study
+		?b: it
+		?c: the UK population
+	?a aimed to validate
+		?a: This study
+
+
+label:    sent_21
+sentence: We validate our approach with an analytical proof and by analysis of simulated data . [Cardiology .
+
+ppatt:
+	?a validate ?b
+		?a: We
+		?b: our approach with an analytical proof and by analysis of simulated data . [Cardiology
+
+
+label:    sent_22
+sentence: New problems to solve , new therapies to validate ] . Future studies should validate the YFAS-R-C in diverse samples .
+
+ppatt:
+	?a solve , ?b to validate ?c
+		?a: New problems
+		?b: new therapies
+		?c: ]
+	?a ?b should validate ?c in ?d
+		?a: New problems to solve , new therapies to validate ]
+		?b: Future studies
+		?c: the YFAS-R-C
+		?d: diverse samples
+
+
+label:    sent_23
+sentence: Triage systems : outcome measures to validate .
+
+ppatt:
+
+
+

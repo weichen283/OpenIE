@@ -1,0 +1,40 @@
+obj	To invade non-phagocytic cells , Salmonella has developed different mechanisms .	obj@cells
+obj	This disease is primarily caused by dermatophytes that invade the hair shaft .	obj@shaft
+obj	Despite an active SPI-1 T3SS , filamentous Salmonella are unable to invade epithelial cells .	obj@cells
+
+subj#obj	Several agents including bacteria , viruses , fungi and protozoa can invade the CNS .	subj@agents obj@CNS
+subj#obj	A conspiracy of glioma and endothelial cells to invade the normal brain .	subj@conspiracy obj@brain
+subj#obj	This parasite can invade a wide variety of mammalian cells .	subj@parasite obj@variety
+
+obj#conj	Concomitantly , mature uninjured cardiomyocytes become proliferative and invade the lesion .	obj@lesion conj_and@proliferative
+obj#conj	Shigella applies molecular mimicry to subvert vinculin and invade host cells .	obj@cells conj_and@subvert
+obj#conj	Less frequently , it originates in soft tissue and may secondarily invade underlying bone .	obj@bone conj_and@originates
+
+subj#obj#prep	After oral uptake , yersiniae invade Peyer 's patches of the distal ileum .	subj@yersiniae obj@patches prep_after@uptake
+subj#obj#prep	Current evidence indicates that H. pylori can invade epithelial cells in the gastric mucosa .	subj@H. obj@cells prep_in@mucosa
+subj#obj#prep	Most fungi invade these normally non-phagocytic host cells by inducing their own uptake .	subj@fungi obj@cells prepc_by@inducing
+
+subj#obj#conj	Lymphocytes may also invade various other organs and cause diverse symptoms .	subj@Lymphocytes obj@organs conj_and@cause
+subj#obj#conj	The fungus may invade ocular structures , sinuses , and extend into the brain .	subj@fungus obj@sinuses obj@structures conj_and@extend
+subj#obj#conj	Macrophages invade the iris epithelium and phagocytize melanosomes discharged from the pigmented cells .	subj@Macrophages obj@epithelium conj_and@phagocytize
+
+conj	Malignant tumours cause sickness and death largely because they invade and metastasize .	conj_and@metastasize
+conj	It is histologically benign but may invade locally and recur after excision .	conj_and@recur conj_but@benign
+conj	It may be indolent or progress slowly , or invade rapidly .	conj_or@indolent
+
+obj#prep	The cords appeared to invade adjacent cells within the plane of the monolayer .	obj@cells prep_within@plane
+obj#prep	PNKT-4B cells failed to invade tadpole tissues at 7 degrees C .	obj@tissues prep_at@C
+obj#prep	By E23 axons invade the ventral optic stalk in both strains .	obj@stalk prep_by@axons
+
+prep	The tumor did not appear to invade to the anterior skull base .	prep_to@base
+prep	When and how to invade for the diagnosis and staging of primary lung cancer .	prep_for@diagnosis
+prep	From these columns emanate cytotrophoblasts that invade deeply into the uterus and its arterioles .	prep_into@uterus
+
+subj#conj	Placental trophoblasts ( TBs ) invade and remodel uterine vessels with an arterial bias .	subj@trophoblasts conj_and@remodel
+subj#conj	Sometimes infectious agents invade and become established in new geographic regions .	subj@agents conj_and@established
+subj#conj	It also can invade and replicate within various protozoan species in environmental reservoirs .	subj@It conj_and@replicate
+
+subj#obj#prep#conj	Despite a benign histologic appearance , some thymomas invade nearby structures or metastasize .	subj@thymomas obj@structures prep_despite@appearance conj_or@metastasize
+subj#obj#prep#conj	In advanced tumors , cells invade the surrounding tissue and eventually form metastases .	subj@cells obj@tissue prep_in@tumors conj_and@form
+subj#obj#prep#conj	UPEC may invade the kidneys via the systemic circulation or by local retrograde infection .	subj@UPEC obj@kidneys prep_by@infection prep_via@circulation conj_or@invade
+

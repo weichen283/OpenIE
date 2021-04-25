@@ -1,0 +1,291 @@
+label:    sent_1
+sentence: Prior studies offer conflicting qualitative data on the ability of IDET to denature collagen .
+
+ppatt:
+	?a offer ?b on ?c
+		?a: Prior studies
+		?b: conflicting qualitative data
+		?c: the ability of IDET to denature collagen
+	?a denature ?b
+		?a: the ability of IDET
+		?b: collagen
+
+
+label:    sent_2
+sentence: Simple copper salts are known to denature poly d ( GC ) . In the latter case , guanidine hydrochloride was also used to denature the protein .
+
+ppatt:
+	?a are known to denature ?b . In ?c
+		?a: Simple copper salts
+		?b: poly d
+		?c: the latter case
+	?a is/are GC
+		?a: poly d
+	?a was also used to denature ?b
+		?a: guanidine hydrochloride
+		?b: the protein
+
+
+label:    sent_3
+sentence: A number of inorganic ions and metabolic substances did not denature the immobilized enzyme .
+
+ppatt:
+	?a did not denature ?b
+		?a: A number of inorganic ions and metabolic substances
+		?b: the immobilized enzyme
+
+
+label:    sent_4
+sentence: All non-ligand lipoproteins in a physiological way denature neutrophils . ( 2 ) Heating could denature the contamination allergenic proteins .
+
+ppatt:
+	?a denature ?b
+		?a: All non-ligand lipoproteins in a physiological way
+		?b: neutrophils
+	?a could denature ?b
+		?a: Heating
+		?b: the contamination allergenic proteins
+
+
+label:    sent_5
+sentence: These particles typically denature at temperatures around 5-10degreesC lower than unmodified VLPs .
+
+ppatt:
+	?a typically denature at ?b around ?c lower than ?d
+		?a: These particles
+		?b: temperatures
+		?c: 5-10degreesC
+		?d: unmodified VLPs
+
+
+label:    sent_6
+sentence: Optical property changes as a result of protein denature in albumen and yolk .
+
+ppatt:
+	?a changes as ?b
+		?a: Optical property
+		?b: a result of protein
+	?a denature in ?b
+		?a: Optical property
+		?b: albumen
+	?a denature in ?b
+		?a: Optical property
+		?b: yolk
+
+
+label:    sent_7
+sentence: Proteins denature at low pH because of intramolecular electrostatic repulsions .
+
+ppatt:
+	?a denature at ?b because of ?c
+		?a: Proteins
+		?b: low pH
+		?c: intramolecular electrostatic repulsions
+
+
+label:    sent_8
+sentence: No membrane protein is observed to denature during the A2 peak .
+
+ppatt:
+	?a is observed to denature during ?b
+		?a: No membrane protein
+		?b: the A2 peak
+
+
+label:    sent_9
+sentence: Both C40A and C82A also denature at higher concentrations of GdnHCl after modification .
+
+ppatt:
+	?a also denature at ?b after ?c
+		?a: C40A
+		?b: higher concentrations of GdnHCl
+		?c: modification
+	?a also denature at ?b after ?c
+		?a: C82A
+		?b: higher concentrations of GdnHCl
+		?c: modification
+
+
+label:    sent_10
+sentence: In the absence of oxygen , CO-hemoglobin does not denature to any detectable extent . a-d complexes cooperatively bind and denature the DNA at low concentrations .
+
+ppatt:
+	In of ?a , ?b does not denature to ?c
+		?a: oxygen
+		?b: CO-hemoglobin
+		?c: any detectable extent
+	?a cooperatively bind at ?b
+		?a: a-d complexes
+		?b: low concentrations
+	?a denature ?b
+		?a: a-d complexes
+		?b: the DNA
+
+
+label:    sent_11
+sentence: Urea and GdmCl are widely used to denature proteins at high concentrations .
+
+ppatt:
+	?a are widely used to denature ?b at ?c
+		?a: Urea
+		?b: proteins
+		?c: high concentrations
+	?a are widely used to denature ?b at ?c
+		?a: GdmCl
+		?b: proteins
+		?c: high concentrations
+
+
+label:    sent_12
+sentence: It uses heat energy to denature collagen and elastin and achieve vessel sealing .
+
+ppatt:
+	?a uses ?b to denature ?c
+		?a: It
+		?b: heat energy
+		?c: collagen
+	?a uses ?b to denature ?c
+		?a: It
+		?b: heat energy
+		?c: elastin
+	?a achieve ?b
+		?a: It
+		?b: vessel sealing
+
+
+label:    sent_13
+sentence: This procedure lysed essentially all the bacteria and did not significantly denature the DNA .
+
+ppatt:
+	?a lysed essentially ?b
+		?a: This procedure
+		?b: the bacteria
+	?a did not significantly denature ?b
+		?a: This procedure
+		?b: the DNA
+
+
+label:    sent_14
+sentence: Heat was utilized to denature the albumin and form the capsule shell . AAA ( + ) unfoldases denature and translocate polypeptides into associated peptidases .
+
+ppatt:
+	?a was utilized to denature ?b
+		?a: Heat
+		?b: the albumin
+	?a was utilized to form ?b
+		?a: Heat
+		?b: the capsule shell
+	?a denature ?b into ?c
+		?a: AAA ) unfoldases
+		?b: polypeptides
+		?c: associated peptidases
+	?a translocate
+		?a: AAA ) unfoldases
+
+
+label:    sent_15
+sentence: A cationic detergent , cetyltrimethylammonium bromide , seemed to denature or inactivate the enzyme .
+
+ppatt:
+	?a is/are cetyltrimethylammonium bromide
+		?a: A cationic detergent
+	?a seemed to denature ?b
+		?a: A cationic detergent
+		?b: the enzyme
+	?a seemed to inactivate
+		?a: A cationic detergent
+
+
+label:    sent_16
+sentence: Separate portions were bleached to denature or alter melanin content .
+
+ppatt:
+	?a were bleached to denature ?b
+		?a: Separate portions
+		?b: melanin content
+	?a were bleached to alter
+		?a: Separate portions
+
+
+label:    sent_17
+sentence: Both chemicals denature proteins , but only urea perturbs the hydration layer .
+
+ppatt:
+	?a denature ?b
+		?a: Both chemicals
+		?b: proteins
+	?a perturbs ?b
+		?a: only urea
+		?b: the hydration layer
+
+
+label:    sent_18
+sentence: Oxygen free radicals denature human IgG and increase its reactivity with rheumatoid factor antibody .
+
+ppatt:
+	?a denature ?b
+		?a: Oxygen free radicals
+		?b: human IgG
+	?a increase ?b
+		?a: Oxygen free radicals
+		?b: its reactivity with rheumatoid factor antibody
+
+
+label:    sent_19
+sentence: However , gel-based procedures denature the RNA and can be very tedious and time-consuming .
+
+ppatt:
+	However , ?a denature ?b
+		?a: gel-based procedures
+		?b: the RNA
+
+
+label:    sent_20
+sentence: These native monomers can then reversibly denature and irreversibly aggregate and coagulate . ClO2 , can denature proteins by oxidizing tyrosine , tryptophan , and cysteine .
+
+ppatt:
+	?a can then reversibly denature
+		?a: These native monomers
+	?a irreversibly aggregate ?b
+		?a: These native monomers
+		?b: ClO2
+	?a coagulate
+		?a: These native monomers
+	?a can denature ?b
+		?a: These native monomers
+		?b: proteins
+	?a oxidizing ?b
+		?a: These native monomers
+		?b: tyrosine
+	?a oxidizing ?b
+		?a: These native monomers
+		?b: tryptophan
+	?a oxidizing ?b
+		?a: These native monomers
+		?b: cysteine
+
+
+label:    sent_21
+sentence: Urea and guanidinium chloride denature protein L in different ways in molecular dynamics simulations .
+
+ppatt:
+	?a denature ?b in ?c
+		?a: Urea
+		?b: protein L
+		?c: different ways in molecular dynamics simulations
+	?a denature ?b in ?c
+		?a: guanidinium chloride
+		?b: protein L
+		?c: different ways in molecular dynamics simulations
+
+
+label:    sent_22
+sentence: Cyclic loading can denature type II collagen in articular cartilage .
+
+ppatt:
+	?a can denature ?b in ?c
+		?a: Cyclic loading
+		?b: type II collagen
+		?c: articular cartilage
+
+

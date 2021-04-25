@@ -1,0 +1,261 @@
+label:    sent_1
+sentence: Creutzfeldt-Jacob disease mimics , or how to sort out the subacute encephalopathy patient .
+
+ppatt:
+	?a mimics
+		?a: Creutzfeldt-Jacob disease
+	?a how to sort out ?b
+		?a: Creutzfeldt-Jacob disease
+		?b: the subacute encephalopathy patient
+
+
+label:    sent_2
+sentence: The mastectomy residue was unprocurable to sort out the problem .
+
+ppatt:
+	?a was unprocurable to sort out ?b
+		?a: The mastectomy residue
+		?b: the problem
+
+
+label:    sent_3
+sentence: The students were willing to sort waste in more minute details .
+
+ppatt:
+	?a were willing to sort ?b in ?c
+		?a: The students
+		?b: waste
+		?c: more minute details
+
+
+label:    sent_4
+sentence: The ECG and respiratory signals are used to sort projections into ten cardiac phases .
+
+ppatt:
+	?a are used to sort ?b into ?c
+		?a: ECG
+		?b: projections
+		?c: ten cardiac phases
+	?a are used to sort ?b into ?c
+		?a: respiratory
+		?b: projections
+		?c: ten cardiac phases
+
+
+label:    sent_5
+sentence: Researchers used content analysis to sort interview data into themes .
+
+ppatt:
+	?a used ?b
+		?a: Researchers
+		?b: content analysis
+	?a sort ?b
+		?a: Researchers
+		?b: interview data into themes
+
+
+label:    sent_6
+sentence: Designing a simple ratcheting system to sort microcapsules by mechanical properties .
+
+ppatt:
+	Designing ?a
+		?a: a simple ratcheting system to sort microcapsules by mechanical properties
+	?a sort ?b by ?c
+		?a: a simple ratcheting system
+		?b: microcapsules
+		?c: mechanical properties
+
+
+label:    sent_7
+sentence: GABAergic interneuron lineages selectively sort into specific cortical layers during early postnatal development .
+
+ppatt:
+	?a selectively sort into ?b during ?c
+		?a: GABAergic interneuron lineages
+		?b: specific cortical layers
+		?c: early postnatal development
+
+
+label:    sent_8
+sentence: The question arises : which sort of images ? Generic drug prices fall 7 % -24 % ; groups sort out manufacturers .
+
+ppatt:
+	?a arises ?b
+		?a: The question
+		?b: SOMETHING := which sort of images ? Generic drug prices fall 7 % -24 %
+	?a ?b fall ?c
+		?a: which
+		?b: sort of images ? Generic drug prices
+		?c: 7 % -24 %
+	?a sort ?b
+		?a: groups
+		?b: out manufacturers
+
+
+label:    sent_9
+sentence: While acknowledging this , the paper questions what sort of victory this represents .
+
+ppatt:
+	acknowledging ?a ?b
+		?a: this
+		?b: the paper questions
+	?a ?b represents
+		?a: the paper questions
+		?b: what sort of victory this
+
+
+label:    sent_10
+sentence: Our aim was to sort out some of these factors . Mcfp3 appears to sort into fast and slow electrophoretic variants .
+
+ppatt:
+	?a was to sort out ?b ?c
+		?a: Our aim
+		?b: some of these factors
+		?c: SOMETHING := Mcfp3 appears to sort into fast and slow electrophoretic variants
+	?a appears to sort into ?b
+		?a: Mcfp3
+		?b: fast and slow electrophoretic variants
+
+
+label:    sent_11
+sentence: Commentary : Fixing the policy may not sort out the politics . Distinct clathrin-coated pits sort different G protein-coupled receptor cargo .
+
+ppatt:
+	Fixing ?a
+		?a: the policy
+	?a sort ?b
+		?a: Distinct clathrin-coated pits
+		?b: different G protein-coupled receptor cargo
+
+
+label:    sent_12
+sentence: Human teratogens : how can we sort them out ? A separation chamber to sort cells and cell organelles by weak physical forces .
+
+ppatt:
+	?a sort ?b by ?c
+		?a: A separation chamber
+		?b: cells
+		?c: weak physical forces
+	?a sort ?b by ?c
+		?a: A separation chamber
+		?b: cell organelles
+		?c: weak physical forces
+
+
+label:    sent_13
+sentence: A microfluidic device to sort capsules by deformability : a numerical study . Flow cytometry to sort mammalian cells in cytokinesis .
+
+ppatt:
+	?a sort ?b by ?c
+		?a: A microfluidic device
+		?b: capsules
+		?c: deformability
+	?a sort ?b in ?c
+		?a: a numerical study
+		?b: mammalian cells
+		?c: cytokinesis
+	?a sort ?b in ?c
+		?a: Flow cytometry
+		?b: mammalian cells
+		?c: cytokinesis
+
+
+label:    sent_14
+sentence: Generalists are needed to sort and manage these patients .
+
+ppatt:
+	?a are needed to sort ?b
+		?a: Generalists
+		?b: these patients
+	?a are needed to manage
+		?a: Generalists
+
+
+label:    sent_15
+sentence: Selective resonance trapping to sort and manipulate fluorophore-labeled biomolecules and complexes may be possible .
+
+ppatt:
+	?a sort ?b
+		?a: Selective resonance trapping
+		?b: fluorophore-labeled biomolecules
+	?a sort ?b
+		?a: Selective resonance trapping
+		?b: complexes
+	?a manipulate
+		?a: Selective resonance trapping
+	?a may be possible
+		?a: Selective resonance trapping to sort and manipulate fluorophore-labeled biomolecules and complexes
+
+
+label:    sent_16
+sentence: Coefficient marks were designed to sort and select temporal independent components of event-related signals .
+
+ppatt:
+	?a were designed to sort ?b
+		?a: Coefficient marks
+		?b: temporal independent components of event-related signals
+	?a were designed to select
+		?a: Coefficient marks
+
+
+label:    sent_17
+sentence: Patterns of molecular motors that guide and sort filaments . VTCs function as transport intermediates and sort anterograde-directed cargo from recycling proteins .
+
+ppatt:
+	?a guide ?b ?c
+		?a: molecular motors
+		?b: filaments
+		?c: VTCs
+	?a sort
+		?a: that
+	?a function as ?b
+		?a: Patterns of molecular motors that guide and sort filaments . VTCs
+		?b: transport intermediates
+	?a sort ?b
+		?a: Patterns of molecular motors that guide and sort filaments . VTCs
+		?b: anterograde-directed cargo from recycling proteins
+
+
+label:    sent_18
+sentence: How our pharmacists sift through and sort out drug therapy .
+
+ppatt:
+	How ?a sift ?b
+		?a: our pharmacists
+		?b: through
+	?a sort out ?b
+		?a: our pharmacists
+		?b: drug therapy
+
+
+label:    sent_19
+sentence: Sending proteins to dense core secretory granules : still a lot to sort out .
+
+ppatt:
+	Sending ?a to ?b
+		?a: proteins
+		?b: dense core secretory granules
+
+
+label:    sent_20
+sentence: They subsequently sort out from prestalk cells that form a tip on the aggregates .
+
+ppatt:
+	?a subsequently sort out from ?b
+		?a: They
+		?b: prestalk cells that form a tip on the aggregates
+	?a form ?b
+		?a: prestalk cells
+		?b: a tip on the aggregates
+
+
+label:    sent_21
+sentence: Specified neural progenitors sort to form sharp domains after noisy Shh signaling .
+
+ppatt:
+	?a sort to form ?b after ?c
+		?a: Specified neural progenitors
+		?b: sharp domains
+		?c: noisy Shh signaling
+
+

@@ -1,0 +1,261 @@
+label:    sent_1
+sentence: We shall have to see how creatively MannKind will handle all such questions .
+
+ppatt:
+	?a shall have to see ?b
+		?a: We
+		?b: SOMETHING := how creatively MannKind will handle all such questions
+	how ?a will handle ?b
+		?a: creatively MannKind
+		?b: all such questions
+
+
+label:    sent_2
+sentence: Meta-analysis of high-throughput experiments has to handle methodological as well as technical challenges . Can you handle failure ? All of the medical staff should follow the guidelines when they handle CP .
+
+ppatt:
+	?a has to handle ?b
+		?a: Meta-analysis of high-throughput experiments
+		?b: methodological as well as technical challenges
+	?a Can you handle ?b
+		?a: Meta-analysis of high-throughput experiments
+		?b: failure
+	?a should follow ?b
+		?a: All of the medical staff
+		?b: the guidelines
+	when ?a handle ?b
+		?a: they
+		?b: CP
+
+
+label:    sent_3
+sentence: The Plaque Simulator software can also handle some correction factors from MC simulations .
+
+ppatt:
+	?a can also handle ?b from ?c
+		?a: The Plaque Simulator software
+		?b: some correction factors
+		?c: MC simulations
+
+
+label:    sent_4
+sentence: How do I handle the patient with noncardiac chest pain ? Schools are struggling with how best to handle lice .
+
+ppatt:
+	How do ?a handle ?b
+		?a: I
+		?b: the patient with noncardiac chest pain
+	?a are struggling
+		?a: Schools
+	?a how best to handle ?b
+		?a: Schools
+		?b: lice
+
+
+label:    sent_5
+sentence: BNArray can handle microarray datasets with missing data . We develop a robust framework to handle core sections under these conditions .
+
+ppatt:
+	?a can handle ?b with ?c
+		?a: BNArray
+		?b: microarray datasets
+		?c: missing data
+	?a develop ?b
+		?a: We
+		?b: a robust framework to handle core sections under these conditions
+	?a handle ?b under ?c
+		?a: a robust framework
+		?b: core sections
+		?c: these conditions
+
+
+label:    sent_6
+sentence: The parents were trained to handle the equipment and to keep records of progress .
+
+ppatt:
+	?a were trained to handle ?b
+		?a: The parents
+		?b: the equipment
+	?a were trained to to keep ?b
+		?a: The parents
+		?b: records of progress
+
+
+label:    sent_7
+sentence: Should you handle it privately or should you call in the police ? Most of them are polymerase dependent and can not handle eukaryotes and prokaryotes alike .
+
+ppatt:
+	Should you handle ?a privately
+		?a: it
+	should you call in ?a
+		?a: the police
+	?a are ?b dependent
+		?a: Most of them
+		?b: polymerase
+	?a can not handle ?b alike
+		?a: Most of them
+		?b: eukaryotes
+	?a can not handle ?b alike
+		?a: Most of them
+		?b: prokaryotes
+
+
+label:    sent_8
+sentence: Parents often handle this infestation on their own initiative .
+
+ppatt:
+	?a often handle ?b on ?c
+		?a: Parents
+		?b: this infestation
+		?c: their own initiative
+
+
+label:    sent_9
+sentence: The effects of periodontal instrument handle design on hand muscle load and pinch force .
+
+ppatt:
+	?a handle ?b
+		?a: The effects of periodontal instrument
+		?b: design on hand muscle load and pinch force
+
+
+label:    sent_10
+sentence: More precisely , we handle clustering as a constrained minimization of a Bregman divergence .
+
+ppatt:
+	More precisely , ?a handle ?b as ?c
+		?a: we
+		?b: clustering
+		?c: a constrained minimization of a Bregman divergence
+
+
+label:    sent_11
+sentence: The surgeon must handle tissue with instruments only and minimize the use of fingers .
+
+ppatt:
+	?a must handle ?b with ?c
+		?a: The surgeon
+		?b: tissue
+		?c: instruments
+	?a only minimize ?b
+		?a: The surgeon
+		?b: the use of fingers
+
+
+label:    sent_12
+sentence: The surgeon must handle tissue with instruments only and minimize the use of fingers .
+
+ppatt:
+	?a must handle ?b with ?c
+		?a: The surgeon
+		?b: tissue
+		?c: instruments
+	?a only minimize ?b
+		?a: The surgeon
+		?b: the use of fingers
+
+
+label:    sent_13
+sentence: Balint groups might thus help GPs handle a demanding work life and prevent burnout .
+
+ppatt:
+	?a might thus help ?b
+		?a: Balint groups
+		?b: SOMETHING := GPs handle a demanding work life
+	?a handle ?b
+		?a: GPs
+		?b: a demanding work life
+	?a prevent ?b
+		?a: GPs
+		?b: burnout
+
+
+label:    sent_14
+sentence: Manufacturers have reduced their size , making them difficult to handle by old patients .
+
+ppatt:
+	?a have reduced ?b
+		?a: Manufacturers
+		?b: their size
+	making ?a difficult to handle by ?b
+		?a: them
+		?b: old patients
+
+
+label:    sent_15
+sentence: Spandra was easier to apply and handle than OpSite .
+
+ppatt:
+	?a was easier to apply than ?b
+		?a: Spandra
+		?b: OpSite
+	?a was easier to handle
+		?a: Spandra
+
+
+label:    sent_16
+sentence: How to handle the first months at a new hospital .
+
+ppatt:
+	How to handle ?a at ?b
+		?a: the first months
+		?b: a new hospital
+
+
+label:    sent_17
+sentence: Virtual slide technology has to handle and transfer images of GB Bytes in size .
+
+ppatt:
+	?a has to handle ?b in ?c
+		?a: Virtual slide technology
+		?b: images of GB Bytes
+		?c: size
+	?a has to transfer
+		?a: Virtual slide technology
+
+
+label:    sent_18
+sentence: Human services and mass communication : struggling to handle today and prepare for tomorrow .
+
+ppatt:
+
+
+
+label:    sent_19
+sentence: These neurons are capable to handle the hyperbox overlap and containment more efficiently .
+
+ppatt:
+	?a are capable to handle ?b more efficiently
+		?a: These neurons
+		?b: the hyperbox
+
+
+label:    sent_20
+sentence: How will Obama handle Ryancare ? Drinking from a fire hose-more than we can handle ? a new , rounded scalpel handle .
+
+ppatt:
+	How will Obama handle ?a ?b
+		?a: Ryancare
+		?b: Drinking from a fire hose-more
+	?a can handle
+		?a: we
+	?a handle
+		?a: a new , scalpel
+
+
+label:    sent_21
+sentence: Ergonomic design criteria for a novel laparoscopic tool handle with tactile feedback .
+
+ppatt:
+	?a handle with ?b
+		?a: Ergonomic design criteria for a novel laparoscopic tool
+		?b: tactile feedback
+
+
+label:    sent_22
+sentence: Primary health : handle with care . Radiolucent handle for percutaneous puncture under continuous fluoroscopic monitoring .
+
+ppatt:
+
+
+

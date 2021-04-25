@@ -1,0 +1,32 @@
+label:    sent_1
+sentence: Experiments demonstrated that caterpillars preferred to pupate within a physically defended plant species .
+
+ppatt:
+	?a demonstrated ?b
+		?a: Experiments
+		?b: SOMETHING := caterpillars preferred to pupate within a physically defended plant species
+	?a preferred to ?b within ?c
+		?a: caterpillars
+		?b: pupate
+		?c: a physically defended plant species
+
+
+label:    sent_2
+sentence: Drosophila larvae were reared and allowed to pupate in continuous bright white light .
+
+ppatt:
+	?a were reared
+		?a: Drosophila larvae
+	?a allowed to pupate in ?b
+		?a: Drosophila larvae
+		?b: continuous bright white light
+
+
+label:    sent_3
+sentence: Debrained LD larvae molt to larvae exceptionally but regularly pupate and produce adults .
+
+ppatt:
+	produce ?a
+		?a: adults
+
+

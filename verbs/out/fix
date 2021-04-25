@@ -1,0 +1,235 @@
+label:    sent_1
+sentence: The isolates within each IGS type varied in their ability to fix nitrogen .
+
+ppatt:
+	?a varied in ?b
+		?a: The isolates within each IGS type
+		?b: their ability to fix nitrogen
+	?a fix ?b
+		?a: their ability
+		?b: nitrogen
+
+
+label:    sent_2
+sentence: Fortunately , there are ways to fix such flawed responses .
+
+ppatt:
+	Fortunately , there are ?a
+		?a: ways to fix such flawed responses
+	?a fix ?b
+		?a: ways
+		?b: such flawed responses
+
+
+label:    sent_3
+sentence: Separate experiments with a calibrated leak serve to fix the chamber pumping speed .
+
+ppatt:
+	?a serve to fix ?b
+		?a: Separate experiments with a calibrated leak
+		?b: the chamber pumping speed
+
+
+label:    sent_4
+sentence: Photosynthetic bacteria have been found to fix nitrogen microaerobically in darkness . A methanol fixation step is used to fix the cells to the microtitre plate .
+
+ppatt:
+	?a have been found to fix ?b microaerobically in ?c
+		?a: Photosynthetic bacteria
+		?b: nitrogen
+		?c: darkness
+	?a is used to fix ?b to ?c
+		?a: A methanol fixation step
+		?b: the cells
+		?c: the microtitre plate
+
+
+label:    sent_5
+sentence: Thus , every effort should be made to fix these fractures in the young . Mediterranean-type diet can fix multiple problems .
+
+ppatt:
+	Thus , ?a should be made to fix ?b
+		?a: every effort
+		?b: these fractures
+	in ?a can fix ?b
+		?a: the young . diet
+		?b: multiple problems
+
+
+label:    sent_6
+sentence: These antibodies can also fix complement .
+
+ppatt:
+	?a can also fix ?b
+		?a: These antibodies
+		?b: complement
+
+
+label:    sent_7
+sentence: Lung or white brain matter did not fix the labeled thiol .
+
+ppatt:
+	?a did not fix ?b
+		?a: Lung
+		?b: the labeled thiol
+	?a did not fix ?b
+		?a: white
+		?b: the labeled thiol
+	?a did not fix ?b
+		?a: brain matter
+		?b: the labeled thiol
+
+
+label:    sent_8
+sentence: Recombinant human J-chain : fix the protein aggregations and yield maximize . IgG subclasses differ in their ability to fix complement and bind Fc receptors .
+
+ppatt:
+	?a maximize
+		?a: yield
+	?a differ in ?b
+		?a: IgG subclasses
+		?b: their ability to fix complement and bind Fc receptors
+	?a fix ?b
+		?a: their ability
+		?b: complement
+	bind ?a
+		?a: Fc receptors
+
+
+label:    sent_9
+sentence: Acknowledge and fix the multiple testing problem .
+
+ppatt:
+	fix ?a
+		?a: the multiple testing problem
+
+
+label:    sent_10
+sentence: A simple way to fix a trocar during pediatric laparoscopy .
+
+ppatt:
+	?a fix ?b during ?c
+		?a: A simple way
+		?b: a trocar
+		?c: pediatric laparoscopy
+
+
+label:    sent_11
+sentence: These bacteria fix nitrogen in association with plants of the genus Medicago .
+
+ppatt:
+	?a fix ?b in ?c
+		?a: These bacteria
+		?b: nitrogen
+		?c: association with plants of the genus Medicago
+
+
+label:    sent_12
+sentence: Lipid-coated particles -- a new approach to fix membrane-bound enzymes onto carrier surfaces .
+
+ppatt:
+	?a fix ?b
+		?a: a new approach
+		?b: membrane-bound enzymes onto carrier surfaces
+
+
+label:    sent_13
+sentence: Ideally , anti-T cell Mab should fix complement and inhibit T cell function .
+
+ppatt:
+	Ideally , ?a should fix ?b
+		?a: anti-T cell Mab
+		?b: complement
+	?a inhibit ?b
+		?a: anti-T cell Mab
+		?b: T cell function
+
+
+label:    sent_14
+sentence: Urologists fix the plumbing , but can they reinforce the walls ? Here , cyanobacteria fix substantial amounts of N2 and represent a potential N source .
+
+ppatt:
+	?a fix ?b
+		?a: Urologists
+		?b: the plumbing
+	can ?a reinforce ?b
+		?a: they
+		?b: the walls
+	Here , ?a fix ?b
+		?a: cyanobacteria
+		?b: substantial amounts of N2
+	?a represent ?b
+		?a: cyanobacteria
+		?b: a potential N source
+
+
+label:    sent_15
+sentence: Ischemic mitral regurgitation : to fix or not to fix .
+
+ppatt:
+	?a fix
+		?a: Ischemic mitral regurgitation
+
+
+label:    sent_16
+sentence: This connecter is easy to fix and release the catheter .
+
+ppatt:
+	?a is easy to fix ?b
+		?a: This connecter
+		?b: the catheter
+	?a is easy to release
+		?a: This connecter
+
+
+label:    sent_17
+sentence: In response to controversy corner " chronic pain : fix or manage " . Where to fix in rejuvenation surgeries ? : tensile strength of the periosteum .
+
+ppatt:
+	In ?a fix ?b
+		?a: response to controversy corner " chronic pain
+		?b: "
+	manage ?a
+		?a: "
+	Where to fix in ?a
+		?a: rejuvenation surgeries
+
+
+label:    sent_18
+sentence: Adhesion -- a fix for everything ? It is easy to fix in cases of unilateral atresia .
+
+ppatt:
+	?a is/are a fix for ?b
+		?a: Adhesion
+		?b: everything
+	?a ?b is easy to fix in ?c
+		?a: Adhesion
+		?b: It
+		?c: cases of unilateral atresia
+
+
+label:    sent_19
+sentence: Methylotrophic Methylobacterium bacteria nodulate and fix nitrogen in symbiosis with legumes . A quick fix to the food crisis .
+
+ppatt:
+	?a nodulate ?b in ?c ?d
+		?a: Methylotrophic Methylobacterium bacteria
+		?b: nitrogen
+		?c: symbiosis with legumes
+		?d: A quick fix to the food crisis
+	?a fix
+		?a: Methylotrophic Methylobacterium bacteria
+
+
+label:    sent_20
+sentence: Slick fix for hubble space telescope ? A sugar fix for bone tumours ?
+
+ppatt:
+	?a fix for ?b
+		?a: Slick
+		?b: hubble space telescope
+	?a fix for ?b
+		?a: A sugar
+		?b: bone tumours
+
+

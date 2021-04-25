@@ -1,0 +1,39 @@
+label:    sent_1
+sentence: Multiple sclerosis and affective disorder are both diseases that wax and wane as well as have variable clinical symptomatology .
+
+ppatt:
+	?a are both diseases
+		?a: Multiple sclerosis
+	?a are both diseases
+		?a: affective disorder
+	?a ?b have ?c
+		?a: that
+		?b: wax
+		?c: variable clinical symptomatology
+	?a ?b have ?c
+		?a: that
+		?b: wane
+		?c: variable clinical symptomatology
+
+
+label:    sent_2
+sentence: Earlier studies were confounded by the natural pattern seen in TS in which tics spontaneously wax and wane in occurrence , intensity , and frequency .
+
+ppatt:
+	?a were confounded by ?b
+		?a: Earlier studies
+		?b: the natural pattern seen in TS in which tics spontaneously wax and wane in occurrence , intensity , and frequency
+	?a seen in ?b
+		?a: the natural pattern
+		?b: TS in which tics spontaneously wax and wane in occurrence , intensity , and frequency
+	?a in ?b spontaneously wax
+		?a: TS
+		?b: tics
+	?a wane in occurrence
+		?a: tics
+	?a intensity
+		?a: tics
+	?a frequency
+		?a: tics
+
+

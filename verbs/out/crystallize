@@ -1,0 +1,283 @@
+label:    sent_1
+sentence: All complexes crystallize as the discrete dimers bound by pi-stacking interactions between dmp rings .
+
+ppatt:
+	?a crystallize as ?b
+		?a: All complexes
+		?b: the discrete dimers bound by pi-stacking interactions between dmp rings
+	?a bound by ?b
+		?a: the discrete dimers
+		?b: pi-stacking interactions between dmp rings
+
+
+label:    sent_2
+sentence: Amorphous tadalafil occluded in microporous silica did not crystallize over 3 months .
+
+ppatt:
+	?a occluded in ?b
+		?a: Amorphous tadalafil
+		?b: microporous silica
+	?a did not crystallize over ?b
+		?a: Amorphous tadalafil occluded in microporous silica
+		?b: 3 months
+
+
+label:    sent_3
+sentence: Both compounds 1 and 2 crystallize in the P1 space group .
+
+ppatt:
+	?a crystallize in ?b
+		?a: Both compounds
+		?b: the P1 space group
+
+
+label:    sent_4
+sentence: They were found to crystallize in a structure different from that of copper phthalocyanine .
+
+ppatt:
+	?a were found to crystallize in ?b
+		?a: They
+		?b: a structure different from that of copper phthalocyanine
+
+
+label:    sent_5
+sentence: They possess similar structures and crystallize in space group P21/c ( No. 14 ) . The new suboxometalates Cs10MO5 crystallize in two modifications with new structure types .
+
+ppatt:
+	?a possess ?b
+		?a: They
+		?b: similar structures
+	?a crystallize in ?b
+		?a: They
+		?b: space group P21/c
+	?a is/are No. 14
+		?a: space group P21/c
+	?a ?b crystallize in ?c
+		?a: The new suboxometalates
+		?b: Cs10MO5
+		?c: two modifications with new structure types
+
+
+label:    sent_6
+sentence: Various precipitating agents were examined in order to crystallize horse heart and spleen ferritins .
+
+ppatt:
+	?a were examined
+		?a: Various precipitating agents
+	?a order to crystallize ?b
+		?a: Various precipitating agents
+		?b: horse heart
+	?a order to crystallize ?b
+		?a: Various precipitating agents
+		?b: spleen ferritins
+
+
+label:    sent_7
+sentence: However , previous attempts have failed to crystallize E. coli GluRS .
+
+ppatt:
+	However , ?a have failed to crystallize ?b
+		?a: previous attempts
+		?b: E. coli GluRS
+
+
+label:    sent_8
+sentence: This paper is an attempt to crystallize the issues involved .
+
+ppatt:
+	?a is an attempt
+		?a: This paper
+	?a crystallize ?b
+		?a: an attempt
+		?b: the issues involved
+	?a involved
+		?a: the issues
+
+
+label:    sent_9
+sentence: All three medicaments crystallize both on dentin walls and inside dentinal tubules .
+
+ppatt:
+	?a crystallize on ?b
+		?a: All three medicaments
+		?b: dentin walls
+	?a crystallize on ?b
+		?a: All three medicaments
+		?b: dentinal tubules
+
+
+label:    sent_10
+sentence: They crystallize as conglomerates and racemize rapidly in solution .
+
+ppatt:
+	?a crystallize as ?b
+		?a: They
+		?b: conglomerates
+	?a racemize rapidly in ?b
+		?a: They
+		?b: solution
+
+
+label:    sent_11
+sentence: Prednisolone did not crystallize in any vehicle but decomposed quickly in citrate buffer .
+
+ppatt:
+	?a did not crystallize in ?b
+		?a: Prednisolone
+		?b: any vehicle
+	?a decomposed quickly in ?b
+		?a: Prednisolone
+		?b: citrate buffer
+
+
+label:    sent_12
+sentence: They crystallize well .
+
+ppatt:
+	?a crystallize well
+		?a: They
+
+
+label:    sent_13
+sentence: All four compounds crystallize readily . Gels of DNA nanostars never crystallize .
+
+ppatt:
+	?a crystallize readily
+		?a: All four compounds
+	?a never crystallize
+		?a: Gels of DNA nanostars
+
+
+label:    sent_14
+sentence: The as-obtained samples are pure phase and crystallize in the orthorhombic structure .
+
+ppatt:
+	?a are pure phase
+		?a: The as-obtained samples
+	?a crystallize in ?b
+		?a: The as-obtained samples
+		?b: the orthorhombic structure
+
+
+label:    sent_15
+sentence: The as-prepared nanotubes are amorphous but crystallize with annealing at elevated temperatures .
+
+ppatt:
+	?a are amorphous
+		?a: The as-prepared nanotubes
+	?a crystallize with ?b at ?c
+		?a: The as-prepared nanotubes
+		?b: annealing
+		?c: elevated temperatures
+
+
+label:    sent_16
+sentence: Complexes 2 and 3 are isostructural and crystallize in the monoclinic space group P21/n . CaIn2P2 and SrIn2P2 are isostructural with EuIn2P2 and crystallize in the space group P63/mmc . 1 and 2 are isomorphous and crystallize in triclinic space group Ponebar .
+
+ppatt:
+	?a are isostructural
+		?a: Complexes
+	?a crystallize in ?b
+		?a: Complexes
+		?b: the monoclinic space group
+	?a are isostructural with ?b
+		?a: CaIn2P2
+		?b: EuIn2P2
+	?a are isostructural with ?b
+		?a: SrIn2P2
+		?b: EuIn2P2
+	?a crystallize in ?b
+		?a: CaIn2P2
+		?b: group
+	?a crystallize in ?b
+		?a: SrIn2P2
+		?b: group
+	?a are isomorphous
+		?a: 1
+	?a are isomorphous
+		?a: 2
+	?a crystallize in ?b
+		?a: 1
+		?b: triclinic space group Ponebar
+	?a crystallize in ?b
+		?a: 2
+		?b: triclinic space group Ponebar
+
+
+label:    sent_17
+sentence: In contrast , attempts to crystallize complexes with a highly mobile H12 remained unsuccessful .
+
+ppatt:
+	?a crystallize ?b
+		?a: attempts
+		?b: complexes with a highly mobile H12
+	In ?a , ?b remained unsuccessful
+		?a: contrast
+		?b: attempts to crystallize complexes with a highly mobile H12
+
+
+label:    sent_18
+sentence: More importantly , lactonic sophorolipids can crystallize and precipitate during our established fermentation process .
+
+ppatt:
+	More importantly , ?a can crystallize during ?b
+		?a: lactonic sophorolipids
+		?b: our established fermentation process
+	?a precipitate
+		?a: lactonic sophorolipids
+
+
+label:    sent_19
+sentence: Amino-terminal histidine-tagged dUTPases did not crystallize but formed aggregates .
+
+ppatt:
+	?a did not crystallize
+		?a: Amino-terminal histidine-tagged dUTPases
+	?a formed ?b
+		?a: Amino-terminal histidine-tagged dUTPases
+		?b: aggregates
+
+
+label:    sent_20
+sentence: This polymeric solid does not crystallize and is sparingly soluble in all solvents .
+
+ppatt:
+	?a does not crystallize
+		?a: This polymeric solid
+
+
+label:    sent_21
+sentence: Low temperatures crystallize lipids during seed storage .
+
+ppatt:
+	?a crystallize ?b during ?c
+		?a: Low temperatures
+		?b: lipids
+		?c: seed storage
+
+
+label:    sent_22
+sentence: During intraerythrocytic infection , Plasmodium falciparum parasites crystallize toxic heme released during hemoglobin catabolism .
+
+ppatt:
+	During ?a , ?b crystallize ?c
+		?a: intraerythrocytic infection
+		?b: Plasmodium falciparum parasites
+		?c: toxic heme released during hemoglobin catabolism
+	?a released during ?b
+		?a: toxic heme
+		?b: hemoglobin catabolism
+
+
+label:    sent_23
+sentence: All crystallize in the space group P2 ( 1 ) with identical cell dimensions .
+
+ppatt:
+	?a crystallize in ?b with ?c
+		?a: All
+		?b: the space group P2
+		?c: identical cell dimensions
+	?a is/are 1
+		?a: the space group P2
+
+

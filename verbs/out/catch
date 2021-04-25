@@ -1,0 +1,220 @@
+label:    sent_1
+sentence: Male dance moves that catch a woman 's eye . Quantum physics : How to catch a wave .
+
+ppatt:
+	?a moves ?b
+		?a: Male dance
+		?b: SOMETHING := that catch a woman 's eye . Quantum physics How to catch a wave
+	?a catch ?b ?c
+		?a: that
+		?b: woman 's eye
+		?c: a . Quantum physics
+	?a How to catch ?b
+		?a: that
+		?b: a wave
+
+
+label:    sent_2
+sentence: Entomology : to catch a bee . Pheromone-baited survey traps will catch both species .
+
+ppatt:
+	?a catch ?b
+		?a: Entomology
+		?b: a bee
+
+
+label:    sent_3
+sentence: Neither infants nor toddlers catch yawns from their mothers .
+
+ppatt:
+	?a catch ?b
+		?a: infants
+		?b: yawns from their mothers
+	?a catch ?b
+		?a: toddlers
+		?b: yawns from their mothers
+
+
+label:    sent_4
+sentence: The children of immigrants " catch up " to native-born workers slowly . Zeros catch on , but risks unknown . Provider-sponsored plans price more aggressively to catch up with insurers .
+
+ppatt:
+	?a ?b catch up ?c to ?d
+		?a: The children of immigrants
+		?b: "
+		?c: "
+		?d: native-born workers
+	?a slowly . ?b catch ?c
+		?a: The children of immigrants " catch up " to native-born workers
+		?b: Zeros
+		?c: on
+	?a ?b price more aggressively to catch up with ?c
+		?a: risks
+		?b: Provider-sponsored plans
+		?c: insurers
+
+
+label:    sent_5
+sentence: Slow to catch on to the slow-moving vehicle emblem .
+
+ppatt:
+	Slow to catch on to ?a
+		?a: the slow-moving vehicle emblem
+
+
+label:    sent_6
+sentence: They did not , however , catch up with C rats . A catch in the Reye . MUMPS could catch on as the VA 's systemwide computer plans take off . The other task was to catch a food pellet from a rotating level .
+
+ppatt:
+	?a did not , however , catch up with ?b
+		?a: They
+		?b: C rats
+	?a ?b could catch ?c
+		?a: A catch in the Reye
+		?b: MUMPS
+		?c: on
+	?a take off
+		?a: the VA 's systemwide computer plans
+	?a was to catch ?b from ?c
+		?a: The other task
+		?b: a food pellet
+		?c: a rotating level
+
+
+label:    sent_7
+sentence: It was impossible either to catch any changes during routine examination of the CSF .
+
+ppatt:
+	?a was impossible either to catch ?b during ?c
+		?a: It
+		?b: any changes
+		?c: routine examination of the CSF
+
+
+label:    sent_8
+sentence: [Miraculous catch by neutrophils NETs ] . Years of excess catch up in 12 turbulent months .
+
+ppatt:
+	?a catch up in ?b
+		?a: [Miraculous catch by neutrophils NETs Years of excess
+		?b: 12 turbulent months
+
+
+label:    sent_9
+sentence: Who 's liable if you catch herpes from a patient ? In a foraging game , predators must catch elusive prey while avoiding injury .
+
+ppatt:
+	?a catch ?b from ?c ? In ?d
+		?a: you
+		?b: herpes
+		?c: a patient
+		?d: a foraging game
+	?a must catch ?b
+		?a: predators
+		?b: elusive prey
+	?a avoiding ?b
+		?a: predators
+		?b: injury
+
+
+label:    sent_10
+sentence: Left-right asymmetry : nodal cilia make and catch a wave .
+
+ppatt:
+	catch ?a
+		?a: a wave
+
+
+label:    sent_11
+sentence: Like bats , echolocating cetaceans produce feeding buzzes as they approach and catch prey .
+
+ppatt:
+	Like ?a , ?b produce ?c
+		?a: bats
+		?b: echolocating cetaceans
+		?c: feeding buzzes
+	?a approach ?b
+		?a: they
+		?b: prey
+	?a catch
+		?a: they
+
+
+label:    sent_12
+sentence: Immediately after the larva hatches , it needs to catch prey and avoid predators . Manx catch . [How academician V.I .
+
+ppatt:
+	Immediately after ?a , ?b needs to catch ?c
+		?a: the larva hatches
+		?b: it
+		?c: prey
+	Immediately , ?a needs to avoid ?b
+		?a: it
+		?b: predators
+	?a catch ?b
+		?a: Manx
+		?b: [How academician V.I
+
+
+label:    sent_13
+sentence: Voyachek taught us to catch " a hare " ] . The safety catch . It may be that these fibres can catch sediment particles and promote stone growth .
+
+ppatt:
+	?a taught ?b to catch " ?c ?d
+		?a: Voyachek
+		?b: us
+		?c: a hare " ]
+		?d: The safety catch
+	?a may be ?b
+		?a: It
+		?b: SOMETHING := these fibres can catch sediment particles
+	?a can catch ?b
+		?a: these fibres
+		?b: sediment particles
+	?a promote ?b
+		?a: these fibres
+		?b: stone growth
+
+
+label:    sent_14
+sentence: Adults and juveniles are actively hunted and commercial fisheries catch them incidentally .
+
+ppatt:
+	?a are actively hunted
+		?a: Adults
+	?a are actively hunted
+		?a: juveniles
+	?a catch ?b incidentally
+		?a: commercial fisheries
+		?b: them
+
+
+label:    sent_15
+sentence: Chaperone machinery in living systems can catch denatured enzymes and induce their reactivation .
+
+ppatt:
+	?a can catch ?b
+		?a: Chaperone machinery in living systems
+		?b: denatured enzymes
+	?a induce ?b
+		?a: Chaperone machinery in living systems
+		?b: their reactivation
+
+
+label:    sent_16
+sentence: One reason mentioned is that bed nets can catch on fire and cause harm .
+
+ppatt:
+	?a mentioned
+		?a: One reason
+	?a is ?b
+		?a: One reason mentioned
+		?b: SOMETHING := bed nets can catch on fire
+	?a can catch on ?b
+		?a: bed nets
+		?b: fire
+	?a cause ?b
+		?a: bed nets
+		?b: harm
+
+

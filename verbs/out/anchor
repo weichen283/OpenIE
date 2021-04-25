@@ -1,0 +1,167 @@
+label:    sent_1
+sentence: Subsequently , the ( 125 ) I-labeled photoprobes were used to anchor the PAC1-R expressed in Chinese hamster ovary cells .
+
+ppatt:
+	Subsequently , ?a were used to anchor ?b
+		?a: the ( 125 ) I-labeled photoprobes
+		?b: the PAC1-R expressed in Chinese hamster ovary cells
+	?a expressed in ?b
+		?a: the PAC1-R
+		?b: Chinese hamster ovary cells
+
+
+label:    sent_2
+sentence: Thus when Cys 98 in the D/E helix of TnC is fully reduced , its binding affinity for the thin filament of skeletal muscle is enhanced and helps to anchor it to the filament .
+
+ppatt:
+	when ?a is fully reduced
+		?a: Cys 98 in the D/E helix of TnC
+	Thus , ?a is enhanced
+		?a: its binding affinity for the thin filament of skeletal muscle
+	?a helps to anchor ?b to ?c
+		?a: its binding affinity for the thin filament of skeletal muscle
+		?b: it
+		?c: the filament
+
+
+label:    sent_3
+sentence: In Coronaviruses infected cells , the formation of LC3-I coated vesicles containing ERAD regulators cleared from the ER lumen is co-opted to anchor viral replication and transcription complexes to ER-derived membranes .
+
+ppatt:
+	?a containing ?b
+		?a: LC3-I coated vesicles
+		?b: ERAD regulators cleared from the ER lumen
+	?a cleared from ?b
+		?a: ERAD regulators
+		?b: the ER lumen
+	In ?a ?b , ?c is co-opted to anchor ?d
+		?a: Coronaviruses
+		?b: infected cells
+		?c: the formation of LC3-I coated vesicles containing ERAD regulators cleared from the ER lumen
+		?d: viral replication to ER-derived membranes
+	In ?a ?b , ?c is co-opted to anchor ?d
+		?a: Coronaviruses
+		?b: infected cells
+		?c: the formation of LC3-I coated vesicles containing ERAD regulators cleared from the ER lumen
+		?d: transcription complexes
+
+
+label:    sent_4
+sentence: A number of notches were machined along the outer edge of an annular slit to bifurcate the liquid sheet into multiple jets and anchor them to establish the stable multijet operation .
+
+ppatt:
+	?a were machined along ?b to bifurcate ?c into ?d
+		?a: A number of notches
+		?b: the outer edge of an annular slit
+		?c: the liquid sheet
+		?d: multiple jets
+	?a anchor ?b to establish ?c
+		?a: A number of notches
+		?b: them
+		?c: the stable multijet operation
+
+
+label:    sent_5
+sentence: Crown roots are main components of the fibrous root system and important for crops to anchor and absorb water and nutrition .
+
+ppatt:
+	?a are main components of ?b
+		?a: Crown roots
+		?b: the fibrous root system
+	?a important for ?b to anchor ?c
+		?a: Crown roots
+		?b: crops
+		?c: water
+	?a important for ?b to anchor ?c
+		?a: Crown roots
+		?b: crops
+		?c: nutrition
+	?a important to absorb
+		?a: Crown roots
+
+
+label:    sent_6
+sentence: Here , we describe a series of bivalent compounds that anchor to the enzyme active site to deliver a minimally sized surface-binding module to the targeted surface involved in transient PPI with a substrate .
+
+ppatt:
+	Here , ?a describe ?b
+		?a: we
+		?b: a series of bivalent compounds that anchor to the enzyme active site to deliver a minimally sized surface-binding module to the targeted surface involved in transient PPI with a substrate
+	?a anchor to ?b to deliver ?c to ?d
+		?a: bivalent compounds
+		?b: the enzyme active site
+		?c: a minimally sized surface-binding module
+		?d: the targeted surface involved in transient PPI with a substrate
+	?a involved in ?b
+		?a: the targeted surface
+		?b: transient PPI with a substrate
+
+
+label:    sent_7
+sentence: Rather than stimulate flipping of the GPI precursor across the ER membrane , inositol acylation of GPI precursors may anchor the precursors to the luminal side of the ER membrane , preventing flip-flops .
+
+ppatt:
+	Rather than stimulate ?a ?b
+		?a: flipping of the GPI precursor across the ER membrane
+		?b: inositol acylation of GPI precursors
+	?a may anchor ?b to ?c
+		?a: inositol acylation of GPI precursors
+		?b: the precursors
+		?c: the luminal side of the ER membrane
+	?a preventing ?b
+		?a: inositol acylation of GPI precursors
+		?b: flip-flops
+
+
+label:    sent_8
+sentence: Here , we report that a Golgi-endosomal protein , Mon2 , acts downstream of Osk to remodel cortical actin and to anchor the pole plasm .
+
+ppatt:
+	Here , ?a report ?b
+		?a: we
+		?b: SOMETHING := a Golgi-endosomal protein , acts downstream of Osk to remodel cortical actin and to anchor the pole plasm
+	?a is/are Mon2
+		?a: a Golgi-endosomal protein
+	?a acts downstream of ?b to remodel ?c
+		?a: a Golgi-endosomal protein
+		?b: Osk
+		?c: cortical actin
+	?a acts downstream to to anchor ?b
+		?a: a Golgi-endosomal protein
+		?b: the pole plasm
+
+
+label:    sent_9
+sentence: The rigidity of the outer TMD is conferred by a number of essential aromatic amino acids that face the membrane and probably anchor this domain in the bilayer .
+
+ppatt:
+	?a is conferred by ?b
+		?a: The rigidity of the outer TMD
+		?b: a number of essential aromatic amino acids that face the membrane and probably anchor this domain in the bilayer
+	?a face ?b
+		?a: essential aromatic amino acids
+		?b: the membrane
+	?a probably anchor ?b
+		?a: that
+		?b: this domain in the bilayer
+
+
+label:    sent_10
+sentence: These results from the present study indicate that specific targeting to phagocytes is mediated by the glucan , whereas Endo-Porter peptide serves both to anchor siRNA within glucan particles and to catalyse escape of siRNA from phagosomes .
+
+ppatt:
+	?a indicate ?b
+		?a: These results from the present study
+		?b: SOMETHING := specific targeting to phagocytes is mediated by the glucan , Endo-Porter peptide serves both to anchor siRNA within glucan particles and to catalyse escape of siRNA from phagosomes
+	?a is mediated by ?b
+		?a: specific targeting to phagocytes
+		?b: the glucan
+	?a serves both to anchor ?b within ?c
+		?a: Endo-Porter peptide
+		?b: siRNA
+		?c: glucan particles
+	?a serves both to to catalyse ?b
+		?a: Endo-Porter peptide
+		?b: escape of siRNA from phagosomes
+
+

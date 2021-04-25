@@ -1,0 +1,308 @@
+label:    sent_1
+sentence: Social psychologists assume that their technical terms are more precise than ordinary language terms .
+
+ppatt:
+	?a assume ?b
+		?a: Social psychologists
+		?b: SOMETHING := their technical terms are more precise than ordinary language terms
+	?a are more precise than ?b
+		?a: their technical terms
+		?b: ordinary language terms
+
+
+label:    sent_2
+sentence: Most microdosimetry applications assume that the cell nucleus is the target region .
+
+ppatt:
+	?a assume ?b
+		?a: Most microdosimetry applications
+		?b: SOMETHING := the cell nucleus is the target region
+	?a is the target region
+		?a: the cell nucleus
+
+
+label:    sent_3
+sentence: We assume that the nodes in each network are randomly connected .
+
+ppatt:
+	?a assume ?b
+		?a: We
+		?b: SOMETHING := the nodes in each network are randomly connected
+	?a are randomly connected
+		?a: the nodes in each network
+
+
+label:    sent_4
+sentence: Compared with models which assume linear relationships , GAMLSS provided a better fit .
+
+ppatt:
+	Compared with models ?a
+		?a: GAMLSS
+	?a assume ?b
+		?a: models
+		?b: linear relationships
+	?a provided ?b
+		?a: GAMLSS
+		?b: a better fit
+
+
+label:    sent_5
+sentence: However , these concepts usually assume a planar loading and motion .
+
+ppatt:
+	However , ?a usually assume ?b
+		?a: these concepts
+		?b: a planar loading
+	However , ?a usually assume ?b
+		?a: these concepts
+		?b: motion
+
+
+label:    sent_6
+sentence: Conventional triage algorithms assume unlimited medical resource availability .
+
+ppatt:
+	?a assume ?b
+		?a: Conventional triage algorithms
+		?b: unlimited medical resource availability
+
+
+label:    sent_7
+sentence: Patients sometimes inflict injury on themselves in order to assume a sick role .
+
+ppatt:
+	?a sometimes inflict ?b on ?c
+		?a: Patients
+		?b: injury
+		?c: themselves
+	?a order to assume ?b
+		?a: Patients
+		?b: a sick role
+
+
+label:    sent_8
+sentence: These different aims require statistical methods that assume different characteristics of the underlying patterns .
+
+ppatt:
+	?a require ?b
+		?a: These different aims
+		?b: statistical methods that assume different characteristics of the underlying patterns
+	?a assume ?b
+		?a: statistical methods
+		?b: different characteristics of the underlying patterns
+
+
+label:    sent_9
+sentence: We therefore present a generalized formula for CI that does not assume HWE .
+
+ppatt:
+	?a therefore present ?b
+		?a: We
+		?b: a generalized formula for CI that does not assume HWE
+	?a does not assume ?b
+		?a: a generalized formula for CI
+		?b: HWE
+
+
+label:    sent_10
+sentence: Studies of breast cancer should not assume commonality with respect to grade .
+
+ppatt:
+	?a should not assume ?b with ?c
+		?a: Studies of breast cancer
+		?b: commonality
+		?c: respect to grade
+
+
+label:    sent_11
+sentence: Astrocytes assume multiple roles in maintaining an optimally suited milieu for neuronal function .
+
+ppatt:
+	?a assume ?b
+		?a: Astrocytes
+		?b: multiple roles
+	?a maintaining ?b
+		?a: Astrocytes
+		?b: an optimally suited milieu for neuronal function
+
+
+label:    sent_12
+sentence: As in the previous work , we assume an infinite-alleles model .
+
+ppatt:
+	As in ?a , ?b assume ?c
+		?a: the previous work
+		?b: we
+		?c: an infinite-alleles model
+
+
+label:    sent_13
+sentence: To date , most metacommunity models implicitly assume that evolution can be ignored .
+
+ppatt:
+	To ?a , ?b implicitly assume ?c
+		?a: date
+		?b: most metacommunity models
+		?c: SOMETHING := evolution can be ignored
+	?a can be ignored
+		?a: evolution
+
+
+label:    sent_14
+sentence: One can assume that the growth of the b.c.c . From the available evidences we can assume that Sodhala might be belongs to 1200 A.D .
+
+ppatt:
+	?a can assume ?b
+		?a: One
+		?b: SOMETHING := the growth of the b.c.c . From the available evidences we can assume that Sodhala might be belongs to 1200 A.D
+	?a ?b can assume ?c
+		?a: the growth of the b.c.c . From the available evidences
+		?b: we
+		?c: SOMETHING := Sodhala might be belongs to 1200 A.D
+	?a might be belongs to ?b
+		?a: Sodhala
+		?b: 1200 A.D
+
+
+label:    sent_15
+sentence: Many USPs assume important biological roles and emerge as potential targets for therapeutic intervention .
+
+ppatt:
+	?a assume ?b
+		?a: Many USPs
+		?b: important biological roles
+	?a emerge as ?b
+		?a: Many USPs
+		?b: potential targets for therapeutic intervention
+
+
+label:    sent_16
+sentence: We first assume CP conservation and subsequently allow for CP violation .
+
+ppatt:
+	?a first assume ?b
+		?a: We
+		?b: CP conservation
+	?a subsequently allow for ?b
+		?a: We
+		?b: CP violation
+
+
+label:    sent_17
+sentence: Nor should we assume recommendations and published protocols are well-designed .
+
+ppatt:
+	should ?a assume ?b
+		?a: we
+		?b: recommendations
+	should ?a assume ?b
+		?a: we
+		?b: published protocols
+
+
+label:    sent_18
+sentence: Monoclonal antibodies have begun to assume a significant role in clinical research .
+
+ppatt:
+	?a have begun to assume ?b in ?c
+		?a: Monoclonal antibodies
+		?b: a significant role
+		?c: clinical research
+
+
+label:    sent_19
+sentence: Bronchoscopic photographs show the adenoma to assume different intrabronchial positions during inspiration and expiration .
+
+ppatt:
+	?a show ?b to assume ?c during ?d
+		?a: Bronchoscopic photographs
+		?b: the adenoma
+		?c: different intrabronchial positions
+		?d: inspiration
+	?a show ?b to assume ?c during ?d
+		?a: Bronchoscopic photographs
+		?b: the adenoma
+		?c: different intrabronchial positions
+		?d: expiration
+
+
+label:    sent_20
+sentence: Biomacromolecules tend to assume numerous structures in solution or the gas phase .
+
+ppatt:
+	?a tend to assume ?b
+		?a: Biomacromolecules
+		?b: numerous structures in solution or the gas phase
+
+
+label:    sent_21
+sentence: The resulting data representations are typically high-dimensional and assume diverse forms . Overall , marsupials inhabit a variety of niches and assume many different lifestyles .
+
+ppatt:
+	?a are typically high-dimensional
+		?a: The resulting data representations
+	?a assume ?b
+		?a: The resulting data representations
+		?b: diverse forms
+	Overall , ?a inhabit ?b
+		?a: marsupials
+		?b: a variety of niches
+	?a assume ?b
+		?a: marsupials
+		?b: many different lifestyles
+
+
+label:    sent_22
+sentence: These dominant models neither mandate preoperative patient contact nor assume co-practitioner collegiality .
+
+ppatt:
+	?a neither mandate ?b
+		?a: These dominant models
+		?b: preoperative patient contact
+	?a assume ?b
+		?a: These dominant models
+		?b: co-practitioner collegiality
+
+
+label:    sent_23
+sentence: Management service organizations : effective strategy to assume and manage full risk agreements ? It now has them , and we should assume that it will use them .
+
+ppatt:
+	?a assume ?b
+		?a: effective strategy
+		?b: full risk agreements
+	manage ?a
+		?a: full risk agreements
+	?a should assume ?b
+		?a: we
+		?b: SOMETHING := it will use them
+	?a will use ?b
+		?a: it
+		?b: them
+
+
+label:    sent_24
+sentence: Like other communicating junctions , lens junctions assume crystalline arrays and uncouple with Ca++ .
+
+ppatt:
+	Like ?a , ?b assume ?c
+		?a: other communicating junctions
+		?b: lens junctions
+		?c: crystalline arrays
+	?a uncouple with ?b
+		?a: lens junctions
+		?b: Ca++
+
+
+label:    sent_25
+sentence: We assume no index variation along the axis and also consider only monochromatic aberrations .
+
+ppatt:
+	?a assume ?b
+		?a: We
+		?b: no index variation along the axis
+	?a also consider ?b
+		?a: We
+		?b: only monochromatic aberrations
+
+

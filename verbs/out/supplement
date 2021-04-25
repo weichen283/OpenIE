@@ -1,0 +1,255 @@
+label:    sent_1
+sentence: The medical records of these patients were reviewed to supplement the data collected .
+
+ppatt:
+	?a were reviewed to supplement ?b
+		?a: The medical records of these patients
+		?b: the data collected
+	?a collected
+		?a: the data
+
+
+label:    sent_2
+sentence: In addition , interview-based measures have been developed to supplement performance-based assessments .
+
+ppatt:
+	In ?a , ?b have been developed to supplement ?c
+		?a: addition
+		?b: interview-based measures
+		?c: performance-based assessments
+
+
+label:    sent_3
+sentence: Provider frustration highlights the need to supplement provider outreach efforts .
+
+ppatt:
+	?a highlights ?b
+		?a: Provider frustration
+		?b: the need to supplement provider outreach efforts
+	?a supplement ?b
+		?a: the need
+		?b: provider outreach efforts
+
+
+label:    sent_4
+sentence: Theoretical modelling can supplement experimental results to understand nutrition to IVD more clearly .
+
+ppatt:
+	?a can supplement ?b to understand ?c more clearly
+		?a: Theoretical modelling
+		?b: experimental results
+		?c: nutrition to IVD
+
+
+label:    sent_5
+sentence: These studies supplement the knowledge of the mechanism of acupuncture .
+
+ppatt:
+	?a supplement ?b
+		?a: These studies
+		?b: the knowledge of the mechanism of acupuncture
+
+
+label:    sent_6
+sentence: Multivitamin supplement interaction with warfarin therapy .
+
+ppatt:
+
+
+
+label:    sent_7
+sentence: Acupuncture has been used to supplement opioid analgesics for postoperative pain control .
+
+ppatt:
+	?a has been used to supplement ?b for ?c
+		?a: Acupuncture
+		?b: opioid analgesics
+		?c: postoperative pain control
+
+
+label:    sent_8
+sentence: It was developed in Christchurch to supplement existing smoking cessation programmes in the community .
+
+ppatt:
+	?a was developed in ?b to supplement ?c
+		?a: It
+		?b: Christchurch
+		?c: existing smoking cessation programmes in the community
+
+
+label:    sent_9
+sentence: This record was designed to supplement the prenatal records in general use . Effects of a fruit/berry/vegetable supplement on muscle function and oxidative stress . Oral DHEA supplement with or without concomitant exercise .
+
+ppatt:
+	?a was designed to supplement ?b in ?c ?d
+		?a: This record
+		?b: the prenatal records
+		?c: general use
+		?d: Effects of a fruit/berry/vegetable supplement on muscle function and oxidative stress
+	?a was designed to supplement ?b in ?c ?d
+		?a: This record
+		?b: the prenatal records
+		?c: general use
+		?d: Oral DHEA supplement with or without concomitant exercise
+
+
+label:    sent_10
+sentence: In both culture condition , retinoic acid supplement accelerate differentiation .
+
+ppatt:
+	In ?a , ?b accelerate ?c
+		?a: culture condition
+		?b: retinoic acid supplement
+		?c: differentiation
+
+
+label:    sent_11
+sentence: Folic acid supplement use in the prevention of neural tube defects . Barbary macaques supplement less diverse tree foods with herbs .
+
+ppatt:
+	?a ?b supplement ?c
+		?a: Folic acid supplement use in the prevention of neural tube defects
+		?b: Barbary macaques
+		?c: less diverse tree foods with herbs
+
+
+label:    sent_12
+sentence: The data supplement recent findings by Ellison et al . Psychotherapy shall not substitute but supplement pharmacotherapy and physiotherapy .
+
+ppatt:
+	?a supplement ?b
+		?a: The data
+		?b: recent findings by Ellison et al
+	?a shall not substitute
+		?a: Psychotherapy
+	?a supplement ?b
+		?a: Psychotherapy
+		?b: pharmacotherapy
+	?a supplement ?b
+		?a: Psychotherapy
+		?b: physiotherapy
+
+
+label:    sent_13
+sentence: Voluntary protection programs to supplement enforcement and to provide safe and healthful working conditions --OSHA .
+
+ppatt:
+	?a supplement ?b
+		?a: Voluntary protection programs
+		?b: enforcement
+	provide ?a
+		?a: safe and healthful working conditions
+
+
+label:    sent_14
+sentence: Mental health services moderate social demands , supplement opportunities , and restore abilities .
+
+ppatt:
+	restore ?a
+		?a: abilities
+
+
+label:    sent_15
+sentence: Bipolar disorder supplement needed broader perspective . Semipermanent and permanent dermal/subdermal fillers supplement .
+
+ppatt:
+	?a needed ?b
+		?a: Bipolar disorder supplement
+		?b: broader perspective
+	?a is/are Semipermanent
+		?a: broader perspective
+	?a permanent
+		?a: broader perspective
+
+
+label:    sent_16
+sentence: The semipermanent and permanent dermal/subdermal fillers supplement .
+
+ppatt:
+	?a supplement
+		?a: semipermanent
+	?a supplement
+		?a: permanent
+
+
+label:    sent_17
+sentence: Moreover , Pimozide can supplement low doses of LHRHa but not replace it . Exogenous PGE2 may supplement decreased endogenous levels and inhibit keloid formation or progression .
+
+ppatt:
+	Moreover , ?a can supplement ?b
+		?a: Pimozide
+		?b: low doses of LHRHa
+	?a not replace ?b
+		?a: Pimozide
+		?b: it
+	?a may supplement ?b
+		?a: Exogenous PGE2
+		?b: decreased endogenous levels
+	?a inhibit ?b
+		?a: Exogenous PGE2
+		?b: keloid
+
+
+label:    sent_18
+sentence: Tele-education broadcasts may supplement other CE activities but may not replace them .
+
+ppatt:
+	?a may supplement ?b
+		?a: Tele-education broadcasts
+		?b: other CE activities
+	?a may not replace ?b
+		?a: Tele-education broadcasts
+		?b: them
+
+
+label:    sent_19
+sentence: The purpose of this analysis is to supplement and extend the previous work . First , new fuels are needed to supplement and ultimately replace depleting oil reserves . Adult day care : substitute or supplement ? The service component of pharmacy should supplement and complement its core function .
+
+ppatt:
+	?a is to supplement ?b
+		?a: The purpose of this analysis
+		?b: the previous work
+	?a is to extend
+		?a: The purpose of this analysis
+	First , ?a are needed to supplement ?b
+		?a: new fuels
+		?b: Adult day care
+	First , ?a are needed to ultimately replace
+		?a: new fuels
+	?a depleting ?b
+		?a: new fuels
+		?b: oil reserves
+	?a should supplement
+		?a: The service component of pharmacy
+	?a complement ?b
+		?a: The service component of pharmacy
+		?b: its core function
+
+
+label:    sent_20
+sentence: New technologies and current therapies may supplement or even delay traditional surgical procedures .
+
+ppatt:
+	?a may supplement
+		?a: New technologies
+	?a may supplement
+		?a: current therapies
+	?a even delay ?b
+		?a: New technologies
+		?b: traditional surgical procedures
+	?a even delay ?b
+		?a: current therapies
+		?b: traditional surgical procedures
+
+
+label:    sent_21
+sentence: Cognitive strategies through cognitive control of respiration may supplement and accentuate these interventions .
+
+ppatt:
+	?a may supplement
+		?a: Cognitive strategies through cognitive control of respiration
+	?a accentuate ?b
+		?a: Cognitive strategies through cognitive control of respiration
+		?b: these interventions
+
+

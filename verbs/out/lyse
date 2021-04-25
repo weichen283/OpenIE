@@ -1,0 +1,311 @@
+label:    sent_1
+sentence: This toxin insertion creates pores that lyse the cells .
+
+ppatt:
+	?a creates ?b
+		?a: This toxin insertion
+		?b: pores that lyse the cells
+	?a lyse ?b
+		?a: pores
+		?b: the cells
+
+
+label:    sent_2
+sentence: Oncolytic adenoviruses replicate selectively within and lyse malignant cells .
+
+ppatt:
+	?a replicate selectively ?b
+		?a: Oncolytic adenoviruses
+		?b: within malignant cells
+	?a lyse
+		?a: Oncolytic adenoviruses
+
+
+label:    sent_3
+sentence: Oncolytic adenoviruses preferentially replicate in and lyse tumor cells .
+
+ppatt:
+	?a preferentially replicate ?b ?c
+		?a: Oncolytic adenoviruses
+		?b: in
+		?c: tumor cells
+	?a lyse
+		?a: Oncolytic adenoviruses
+
+
+label:    sent_4
+sentence: Killer cell Ig-like receptors ligand-mismatched , alloreactive natural killer cells lyse primary solid tumors . Leu11+ cells lyse dengue virus-infected cells and K562 cells .
+
+ppatt:
+	?a ?b lyse ?c
+		?a: Killer cell Ig-like receptors
+		?b: ligand-mismatched , alloreactive natural killer cells
+		?c: primary solid tumors
+	?a lyse ?b
+		?a: Leu11+ cells
+		?b: dengue virus-infected cells
+	?a lyse ?b
+		?a: Leu11+ cells
+		?b: K562 cells
+
+
+label:    sent_5
+sentence: Leu11- cells lyse dengue virus-infected cells , but not K562 cells .
+
+ppatt:
+	?a lyse ?b
+		?a: Leu11- cells
+		?b: dengue virus-infected cells
+	?a lyse ?b
+		?a: Leu11- cells
+		?b: K562 cells
+
+
+label:    sent_6
+sentence: They are not killed but survive and lyse bacteriovorous protozoans after about 8 days .
+
+ppatt:
+	?a are not killed
+		?a: They
+	?a survive ?b after ?c
+		?a: They
+		?b: bacteriovorous protozoans
+		?c: about 8 days
+	?a lyse
+		?a: They
+
+
+label:    sent_7
+sentence: Clostridium perfringens theta-toxin was shown to lyse target erythrocytes by a colloid-osmotic mechanism .
+
+ppatt:
+	?a was shown to lyse ?b by ?c
+		?a: Clostridium perfringens theta-toxin
+		?b: target erythrocytes
+		?c: a colloid-osmotic mechanism
+
+
+label:    sent_8
+sentence: Oncolytic viruses are tumour selective and able to lyse cancer cells after infection .
+
+ppatt:
+	?a are ?b selective
+		?a: Oncolytic viruses
+		?b: tumour
+	?a able to lyse ?b after ?c
+		?a: Oncolytic viruses
+		?b: cancer cells
+		?c: infection
+
+
+label:    sent_9
+sentence: Pneumolysin was also found to lyse platelets and to activate serum to become chemotactic .
+
+ppatt:
+	?a was also found to lyse ?b
+		?a: Pneumolysin
+		?b: platelets
+	?a was also found to to activate ?b to become chemotactic
+		?a: Pneumolysin
+		?b: serum
+
+
+label:    sent_10
+sentence: Defensins fuse and lyse negatively charged liposomes but display reduced activity with neutral liposomes .
+
+ppatt:
+	?a fuse ?b
+		?a: Defensins
+		?b: negatively charged liposomes
+	?a lyse
+		?a: Defensins
+	?a display ?b with ?c
+		?a: Defensins
+		?b: reduced activity
+		?c: neutral liposomes
+
+
+label:    sent_11
+sentence: During syphilitic infection , these cells phagocytize , kill , and lyse Treponema pallidum . NK cells are defined as those cells that lyse tumor cells without priming .
+
+ppatt:
+	During ?a , ?b phagocytize
+		?a: syphilitic infection
+		?b: these cells
+	?a kill
+		?a: these cells
+	?a lyse ?b
+		?a: these cells
+		?b: Treponema pallidum
+	?a are defined as ?b
+		?a: NK cells
+		?b: those cells that lyse tumor cells without priming
+	?a lyse ?b without ?c
+		?a: those cells
+		?b: tumor cells
+		?c: priming
+
+
+label:    sent_12
+sentence: In a second step sensitized 10BK.1 cells lyse allogeneic target cells .
+
+ppatt:
+	In ?a ?b lyse ?c
+		?a: a second step
+		?b: sensitized 10BK.1 cells
+		?c: allogeneic target cells
+
+
+label:    sent_13
+sentence: In addition , 2B4+ T cells can specifically lyse the 2B4 hybridoma cells .
+
+ppatt:
+	In ?a , ?b can specifically lyse ?c
+		?a: addition
+		?b: 2B4+ T cells
+		?c: the 2B4 hybridoma cells
+
+
+label:    sent_14
+sentence: Natural killer cells spontaneously lyse certain tumor cells and may defend against malignancy .
+
+ppatt:
+	?a spontaneously lyse ?b
+		?a: Natural killer cells
+		?b: certain tumor cells
+	?a may defend against ?b
+		?a: Natural killer cells
+		?b: malignancy
+
+
+label:    sent_15
+sentence: Genetically engineered or naturally oncolytic viruses selectively lyse tumors and leave healthy tissues intact .
+
+ppatt:
+	?a selectively lyse ?b
+		?a: Genetically engineered or naturally oncolytic viruses
+		?b: tumors
+	?a leave ?b
+		?a: Genetically engineered or naturally oncolytic viruses
+		?b: healthy tissues intact
+
+
+label:    sent_16
+sentence: Fibrinolytic agents lyse pulmonary emboli but are not as effective in deep venous thrombosis .
+
+ppatt:
+	?a lyse ?b
+		?a: Fibrinolytic agents
+		?b: pulmonary emboli
+
+
+label:    sent_17
+sentence: The main finding was that agar caused cells to lyse as they matured .
+
+ppatt:
+	?a was ?b
+		?a: The main finding
+		?b: SOMETHING := agar caused cells to lyse as they matured
+	?a caused ?b to lyse
+		?a: agar
+		?b: cells
+	?a matured
+		?a: they
+
+
+label:    sent_18
+sentence: Monocytes prepared on culture dishes lyse YK-M2 .
+
+ppatt:
+	?a prepared on ?b
+		?a: Monocytes
+		?b: culture dishes
+	?a lyse ?b
+		?a: Monocytes prepared on culture dishes
+		?b: YK-M2
+
+
+label:    sent_19
+sentence: NK cells lyse T regulatory cells that expand in response to an intracellular pathogen .
+
+ppatt:
+	?a lyse ?b
+		?a: NK cells
+		?b: T regulatory cells that expand in response to an intracellular pathogen
+	?a expand in ?b
+		?a: T regulatory cells
+		?b: response to an intracellular pathogen
+
+
+label:    sent_20
+sentence: The DeltamyoB cells also often lyse due to defects in cell wall biogenesis .
+
+ppatt:
+	?a also often lyse due to ?b
+		?a: The DeltamyoB cells
+		?b: defects in cell wall biogenesis
+
+
+label:    sent_21
+sentence: Thermosensitive Bacillus subtilis mutants which lyse at the non-permissive temperature .
+
+ppatt:
+	?a lyse at ?b
+		?a: Thermosensitive Bacillus subtilis mutants
+		?b: the non-permissive temperature
+
+
+label:    sent_22
+sentence: Cells did not lyse in distilled water .
+
+ppatt:
+	?a did not lyse in ?b
+		?a: Cells
+		?b: distilled water
+
+
+label:    sent_23
+sentence: Fragile mutants of Saccharomyces cerevisiae require osmotic stabilizers and lyse in hypotonic solutions .
+
+ppatt:
+	?a require ?b
+		?a: Fragile mutants of Saccharomyces cerevisiae
+		?b: osmotic stabilizers
+	?a lyse in ?b
+		?a: Fragile mutants of Saccharomyces cerevisiae
+		?b: hypotonic solutions
+
+
+label:    sent_24
+sentence: Cells were not observed to lyse in distilled water .
+
+ppatt:
+	?a were not observed to lyse in ?b
+		?a: Cells
+		?b: distilled water
+
+
+label:    sent_25
+sentence: Uncharacteristically , the red cells failed to lyse with acidified normal serum .
+
+ppatt:
+	Uncharacteristically , ?a failed to lyse with ?b
+		?a: the red cells
+		?b: acidified normal serum
+
+
+label:    sent_26
+sentence: Acute myocardial infarction : to lyse or to inflate ? Hemodialysis graft declotting : " lyse and wait " and watch . Cells depleted of MraY first swell and then lyse .
+
+ppatt:
+	?a lyse
+		?a: Acute myocardial infarction
+	?a depleted of ?b
+		?a: Cells
+		?b: MraY
+	?a first swell
+		?a: Cells depleted of MraY
+	?a then lyse
+		?a: Cells depleted of MraY
+
+

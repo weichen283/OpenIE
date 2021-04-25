@@ -1,0 +1,474 @@
+label:    sent_1
+sentence: The influence of parental attributions of adult and child controllability on the relationship between problem behaviours and disability was explored in mothers of children with developmental disabilities ( DD ) ( N = 20 ) with a mean age of 9 years 3 months ( SD 24.6 months ) , and in mothers of typically developing ( TD ) children ( N = 26 ) with a mean age of 9 years 4 months ( standard deviation 23.7 months ) . We looked at postmenstrual age , bodyweight , complication at the time of discharge and the readmission rate in 609 patients with gestational age of less than 34 weeks , who were discharged from our NICU between January 2000 and March 2008 .
+
+ppatt:
+	?a was explored in ?b
+		?a: The influence of parental attributions of adult and child controllability on the relationship between problem behaviours and disability
+		?b: mothers of children with developmental disabilities with a mean age of 9 years 3 months , and in mothers of typically developing children with a mean age of 9 years 4 months
+	?a is/are DD
+		?a: developmental disabilities
+	?a is/are SD
+		?a: 9 years 3 months
+	?a looked at ?b
+		?a: We
+		?b: postmenstrual age , at the time of discharge in 609 patients with gestational age of less than 34 weeks , who were discharged from our NICU between January 2000 and March 2008
+	?a looked at ?b
+		?a: We
+		?b: bodyweight
+	?a looked at ?b
+		?a: We
+		?b: complication
+	?a looked at ?b
+		?a: We
+		?b: the readmission rate
+	?a were discharged from ?b
+		?a: 609 patients with gestational age of less than 34 weeks
+		?b: our NICU between January 2000 and March 2008
+
+
+label:    sent_2
+sentence: This tendency was stronger in cases with gestational age of less than 26 weeks .
+
+ppatt:
+	?a was stronger in ?b
+		?a: This tendency
+		?b: cases with gestational age of less than 26 weeks
+
+
+label:    sent_3
+sentence: We analyzed factors such as age , skeletal maturity , fixation device , surgical approach , presence of comminution , loss of reduction , and rehabilitation protocol against the development of arthrofibrosis and clinical and functional outcomes .
+
+ppatt:
+	?a analyzed ?b
+		?a: We
+		?b: factors such as age , skeletal maturity , fixation device , surgical approach , presence of comminution , loss of reduction , and rehabilitation protocol against the development of arthrofibrosis and clinical and functional outcomes
+
+
+label:    sent_4
+sentence: Groups were matched for age and sex .
+
+ppatt:
+	?a were matched for ?b
+		?a: Groups
+		?b: age
+	?a were matched for ?b
+		?a: Groups
+		?b: sex
+
+
+label:    sent_5
+sentence: The good surgical approach should be based on the tumour location , the growth direction , the invasion of adjacent structure , the age of the patients and the experience of neurosurgeons .
+
+ppatt:
+	?a should be based on ?b
+		?a: The good surgical approach
+		?b: the tumour location
+	?a should be based on ?b
+		?a: The good surgical approach
+		?b: the growth direction
+	?a should be based on ?b
+		?a: The good surgical approach
+		?b: the invasion of adjacent structure
+	?a should be based on ?b
+		?a: The good surgical approach
+		?b: the age of the patients
+	?a should be based on ?b
+		?a: The good surgical approach
+		?b: the experience of neurosurgeons
+
+
+label:    sent_6
+sentence: Optimal treatment methods remain controversial and are varied by classification type , surgeon preference , and patient age .
+
+ppatt:
+	?a remain controversial
+		?a: Optimal treatment methods
+	?a are varied by ?b
+		?a: Optimal treatment methods
+		?b: classification type
+	?a are varied by ?b
+		?a: Optimal treatment methods
+		?b: surgeon preference
+	?a are varied by ?b
+		?a: Optimal treatment methods
+		?b: patient age
+
+
+label:    sent_7
+sentence: We illustrate our methods by assessing the effects of sex and age on the time to non-ambulatory progression for patients in a brain cancer clinical trial .
+
+ppatt:
+	?a illustrate ?b
+		?a: We
+		?b: our methods
+	?a assessing ?b
+		?a: We
+		?b: the effects of sex and age on the time to non-ambulatory progression for patients in a brain cancer clinical trial
+
+
+label:    sent_8
+sentence: This was independent of gender , age , education , smoking , alcohol , medication , diabetes history , family history of cardiovascular disease and cancer , body mass index ( BMI ) and PAEE .
+
+ppatt:
+	?a was independent of ?b
+		?a: This
+		?b: gender
+	?a was independent of ?b
+		?a: This
+		?b: age
+	?a was independent of ?b
+		?a: This
+		?b: education
+	?a was independent of ?b
+		?a: This
+		?b: smoking
+	?a was independent of ?b
+		?a: This
+		?b: alcohol
+	?a was independent of ?b
+		?a: This
+		?b: medication
+	?a was independent of ?b
+		?a: This
+		?b: diabetes history
+	?a was independent of ?b
+		?a: This
+		?b: family history of cardiovascular disease
+	?a was independent of ?b
+		?a: This
+		?b: cancer
+	?a was independent of ?b
+		?a: This
+		?b: body mass index
+	?a was independent of ?b
+		?a: This
+		?b: PAEE
+	?a is/are BMI
+		?a: body mass index
+
+
+label:    sent_9
+sentence: We found that age older than 18 years was a statistically significant factor for lower outcome scores .
+
+ppatt:
+	?a found ?b
+		?a: We
+		?b: SOMETHING := age older than 18 years was a statistically significant factor for lower outcome scores
+	?a was a statistically significant factor for ?b
+		?a: age older than 18 years
+		?b: lower outcome scores
+
+
+label:    sent_10
+sentence: The melatonin concentrations , at each measurement point , were highest in infants aged 3-5 months , and decreased as age increased .
+
+ppatt:
+	?a were highest in ?b
+		?a: The melatonin concentrations , at each measurement point
+		?b: infants aged 3-5 months
+	?a decreased as ?b
+		?a: The melatonin concentrations , at each measurement point
+		?b: age
+	?a increased
+		?a: The melatonin concentrations , at each measurement point
+
+
+label:    sent_11
+sentence: This analysis also showed that age was significantly associated with AF ( odds ratio , 1.07 ; 95 % confidence interval , 1.03 to 1.12 ; P < .001 ) . The mean age of these 32 patients at the index procedure was 53.8 years ( range , 40-65 years ) . The patients ' mean age of onset was 32.6 months , while the proportions of sibling cases and recurrent cases were 0.17 % and 2.2 % , respectively .
+
+ppatt:
+	?a also showed ?b
+		?a: This analysis
+		?b: SOMETHING := age was significantly associated with AF
+	?a was significantly associated with ?b
+		?a: age
+		?b: AF
+	?a was 53.8 years
+		?a: The mean age of these 32 patients at the index procedure
+	?a was 32.6 months
+		?a: The patients ' mean age of onset
+	?a were 0.17 % , respectively
+		?a: the proportions of sibling cases and recurrent cases
+	?a 2.2 %
+		?a: the proportions of sibling cases and recurrent cases
+
+
+label:    sent_12
+sentence: The median age of stent placement was 7.5 ( 0.5-32.4 ) years with a median age of surgery of 12.7 ( 5.1-39.6 ) years .
+
+ppatt:
+	?a was 7.5 years with ?b
+		?a: The median age of stent placement
+		?b: a median age of surgery of 12.7 years
+
+
+label:    sent_13
+sentence: However , age , gender , low body mass , severity of epilepsy , co-morbid conditions , institutionalization and calcium and vitamin D deficiencies are additional and modified risk factors .
+
+ppatt:
+	However , ?a are additional
+		?a: age , of epilepsy
+	However , ?a are additional
+		?a: gender
+	However , ?a are additional
+		?a: low body mass
+	However , ?a are additional
+		?a: severity
+	However , ?a are additional
+		?a: co-morbid conditions
+	However , ?a are additional
+		?a: institutionalization
+	However , ?a are additional
+		?a: calcium
+	However , ?a are additional
+		?a: vitamin D
+	?a modified risk factors
+		?a: age , of epilepsy
+	?a modified risk factors
+		?a: gender
+	?a modified risk factors
+		?a: low body mass
+	?a modified risk factors
+		?a: severity
+	?a modified risk factors
+		?a: co-morbid conditions
+	?a modified risk factors
+		?a: institutionalization
+	?a modified risk factors
+		?a: calcium
+	?a modified risk factors
+		?a: vitamin D
+
+
+label:    sent_14
+sentence: Mean age and total MMSE were 72.7 years and 24.6 at baseline , and 81.7 years and 20.5 at 11 years of follow-up .
+
+ppatt:
+	?a were 72.7 years , at ?b
+		?a: Mean age
+		?b: 11 years of follow-up
+	?a were 72.7 years , at ?b
+		?a: total MMSE
+		?b: 11 years of follow-up
+	?a 24.6
+		?a: Mean age
+	?a 24.6
+		?a: total MMSE
+	?a at baseline
+		?a: Mean age
+	?a at baseline
+		?a: total MMSE
+	?a 81.7 years
+		?a: Mean age
+	?a 81.7 years
+		?a: total MMSE
+	?a 20.5
+		?a: Mean age
+	?a 20.5
+		?a: total MMSE
+
+
+label:    sent_15
+sentence: Patient age , sex , body mass index , and FBG were collected in the morning of their scheduled intervention .
+
+ppatt:
+	?a were collected in ?b
+		?a: Patient age
+		?b: the morning of their scheduled intervention
+	?a were collected in ?b
+		?a: sex
+		?b: the morning of their scheduled intervention
+	?a were collected in ?b
+		?a: body mass index
+		?b: the morning of their scheduled intervention
+	?a were collected in ?b
+		?a: FBG
+		?b: the morning of their scheduled intervention
+
+
+label:    sent_16
+sentence: We judged the physiological age as the level of cumulative mortality . Ponseti management of clubfoot after walking age .
+
+ppatt:
+	?a judged ?b as ?c
+		?a: We
+		?b: the physiological age
+		?c: the level of cumulative mortality . Ponseti management of clubfoot after walking age
+
+
+label:    sent_17
+sentence: Increased free radical injury to regions of brain is one feature of prodrome and dementia stages of AD ; however , it also is associated with advancing age .
+
+ppatt:
+	?a is one feature of ?b
+		?a: Increased free radical injury to regions of brain
+		?b: prodrome of AD
+	?a is one feature of ?b
+		?a: Increased free radical injury to regions of brain
+		?b: dementia
+	however , ?a also is associated with ?b
+		?a: it
+		?b: advancing age
+
+
+label:    sent_18
+sentence: Improvements in the annualized relapse rate with oral cladribine were independent of key baseline patient characteristics which included age , sex , previous treatment with disease-modifying drugs and the number of relapses in the previous 12 months .
+
+ppatt:
+	?a were independent of ?b
+		?a: Improvements in the annualized relapse rate with oral cladribine
+		?b: key baseline patient characteristics which included age , sex , previous treatment with disease-modifying drugs and the number of relapses in the previous 12 months
+	?a included ?b
+		?a: key baseline patient characteristics
+		?b: age
+	?a included ?b
+		?a: key baseline patient characteristics
+		?b: sex
+	?a included ?b
+		?a: key baseline patient characteristics
+		?b: previous treatment with disease-modifying drugs
+	?a included ?b
+		?a: key baseline patient characteristics
+		?b: the number of relapses in the previous 12 months
+
+
+label:    sent_19
+sentence: Goal content also differed according to age , gender , employment , and marital status , lending further support for construct validity .
+
+ppatt:
+	?a also differed according to ?b , lending ?c
+		?a: Goal content
+		?b: age
+		?c: further support for construct validity
+	?a also differed according to ?b , lending ?c
+		?a: Goal content
+		?b: gender
+		?c: further support for construct validity
+	?a also differed according to ?b , lending ?c
+		?a: Goal content
+		?b: employment
+		?c: further support for construct validity
+	?a also differed according to ?b , lending ?c
+		?a: Goal content
+		?b: marital status
+		?c: further support for construct validity
+
+
+label:    sent_20
+sentence: To evaluate the activity and participation levels of adults with spastic diplegia 17-26 years after selective dorsal rhizotomy ; to investigate relationships between subjects ' functioning and age , socio-economic-status , level of satisfaction and their perceptions of the post-operative outcomes .
+
+ppatt:
+	evaluate ?a
+		?a: the activity of adults with spastic diplegia 17-26 years after selective dorsal rhizotomy
+	evaluate ?a
+		?a: participation levels
+	investigate ?a
+		?a: relationships between subjects ' functioning and age , socio-economic-status , level of satisfaction
+	investigate ?a
+		?a: their perceptions of the post-operative outcomes
+
+
+label:    sent_21
+sentence: Twenty-nine women and 2 men had an average age of 57 years ( range , 21-71 years ) at the time of surgery .
+
+ppatt:
+	?a had ?b at ?c
+		?a: Twenty-nine women
+		?b: an average age of 57 years
+		?c: the time of surgery
+	?a had ?b at ?c
+		?a: 2 men
+		?b: an average age of 57 years
+		?c: the time of surgery
+	?a is/are 21-71 years
+		?a: range
+
+
+label:    sent_22
+sentence: Our study suggests that SLC2A9 genetic variants influence age of onset of Parkinson 's disease .
+
+ppatt:
+	?a suggests ?b
+		?a: Our study
+		?b: SOMETHING := SLC2A9 genetic variants influence age of onset of Parkinson 's disease
+	?a influence ?b
+		?a: SLC2A9 genetic variants
+		?b: age of onset of Parkinson 's disease
+
+
+label:    sent_23
+sentence: Thirty-one cases ( 17 males and 14 females ) having a mean age of 52.52 +/- 20.80 days with intracranial hemorrhage due to late hemorrhagic disease of the newborn ( LHDN ) , hospitalized in our clinics were included in the study .
+
+ppatt:
+	?a having ?b
+		?a: Thirty-one cases
+		?b: a mean age of 52.52 +/- 20.80 days with intracranial hemorrhage due to late hemorrhagic disease of the newborn , hospitalized in our clinics
+	?a is/are LHDN
+		?a: the newborn
+	?a hospitalized in ?b
+		?a: late hemorrhagic disease of the newborn
+		?b: our clinics
+	?a were included in ?b
+		?a: Thirty-one cases having a mean age of 52.52 +/- 20.80 days with intracranial hemorrhage due to late hemorrhagic disease of the newborn , hospitalized in our clinics
+		?b: the study
+
+
+label:    sent_24
+sentence: The postmenstrual age and bodyweight at discharge decreased with the increase of gestational age .
+
+ppatt:
+	?a decreased with ?b
+		?a: The postmenstrual age at discharge
+		?b: the increase of gestational age
+	?a decreased with ?b
+		?a: bodyweight
+		?b: the increase of gestational age
+
+
+label:    sent_25
+sentence: The postmenstrual age and bodyweight at NICU discharge decreased in inverse proportion to gestational age , especially less than 26 weeks .
+
+ppatt:
+	?a decreased in ?b ?c
+		?a: The postmenstrual age at NICU discharge
+		?b: inverse proportion to gestational age
+		?c: especially less than 26 weeks
+	?a decreased in ?b ?c
+		?a: bodyweight
+		?b: inverse proportion to gestational age
+		?c: especially less than 26 weeks
+
+
+label:    sent_26
+sentence: A significantly older age of symptom onset , a lower body weight at admission , more cases diagnosed by barium meal study and higher postoperative complication rates were noted in the preterm group versus full-term infants with IHPS .
+
+ppatt:
+	?a diagnosed by ?b
+		?a: more cases
+		?b: barium meal study
+	?a were noted in ?b
+		?a: A significantly older age of symptom onset
+		?b: the preterm group with IHPS
+	?a were noted in ?b
+		?a: a lower body weight at admission
+		?b: the preterm group with IHPS
+	?a were noted in ?b
+		?a: more cases diagnosed by barium meal study
+		?b: the preterm group with IHPS
+	?a were noted in ?b
+		?a: higher postoperative complication rates
+		?b: the preterm group with IHPS
+	?a were noted in ?b
+		?a: A significantly older age of symptom onset
+		?b: full-term infants
+	?a were noted in ?b
+		?a: a lower body weight at admission
+		?b: full-term infants
+	?a were noted in ?b
+		?a: more cases diagnosed by barium meal study
+		?b: full-term infants
+	?a were noted in ?b
+		?a: higher postoperative complication rates
+		?b: full-term infants
+
+

@@ -1,0 +1,17 @@
+label:    sent_1
+sentence: They were compared to step and shoot IMRT reference plans generated using direct machine parameter optimization ( DMPO ) .
+
+ppatt:
+	?a were compared to ?b
+		?a: They
+		?b: step
+	?a were compared to ?b
+		?a: They
+		?b: shoot IMRT reference plans generated using direct machine parameter optimization
+	?a generated using ?b
+		?a: shoot IMRT reference plans
+		?b: direct machine parameter optimization
+	?a is/are DMPO
+		?a: direct machine parameter optimization
+
+

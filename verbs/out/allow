@@ -1,0 +1,325 @@
+label:    sent_1
+sentence: This may allow significant alterations in the generation of T-cell memory .
+
+ppatt:
+	?a may allow ?b in ?c
+		?a: This
+		?b: significant alterations
+		?c: the generation of T-cell memory
+
+
+label:    sent_2
+sentence: However , only consistent recommendations would allow a standardized clinical practice .
+
+ppatt:
+	However , ?a would allow ?b
+		?a: only consistent recommendations
+		?b: a standardized clinical practice
+
+
+label:    sent_3
+sentence: The improved knowledge would allow more accurate diagnostic interpretations and surgical treatment .
+
+ppatt:
+	?a would allow ?b
+		?a: The improved knowledge
+		?b: more accurate diagnostic interpretations
+	?a would allow ?b
+		?a: The improved knowledge
+		?b: surgical treatment
+
+
+label:    sent_4
+sentence: The patient was positioned on a wing board to allow access to the stoma .
+
+ppatt:
+	?a was positioned on ?b to allow ?c
+		?a: The patient
+		?b: a wing board
+		?c: access to the stoma
+
+
+label:    sent_5
+sentence: Some flaps can become long , but these are also removed to allow joining . A strategy has been developed to allow the rapid production of such cell lines .
+
+ppatt:
+	?a can become long
+		?a: Some flaps
+	?a are also removed to allow ?b
+		?a: these
+		?b: joining
+	?a has been developed to allow ?b
+		?a: A strategy
+		?b: the rapid production of such cell lines
+
+
+label:    sent_6
+sentence: This will allow clinicians to achieve high-dose repletion more frequently as a single administration .
+
+ppatt:
+	?a will allow ?b to achieve ?c more frequently as ?d
+		?a: This
+		?b: clinicians
+		?c: high-dose repletion
+		?d: a single administration
+
+
+label:    sent_7
+sentence: The growing presence of national and international biobank networks will allow biobanks to synergize .
+
+ppatt:
+	?a will allow ?b to synergize
+		?a: The growing presence of national and international biobank networks
+		?b: biobanks
+
+
+label:    sent_8
+sentence: Novel anatomic pathology technologies allow pathologists to digitally view and diagnose cases .
+
+ppatt:
+	?a allow ?b to digitally view ?c
+		?a: Novel anatomic pathology technologies
+		?b: pathologists
+		?c: cases
+	?a allow to diagnose
+		?a: Novel anatomic pathology technologies
+
+
+label:    sent_9
+sentence: At the same time , the miniature package dimensions allow for wafer-level probing .
+
+ppatt:
+	At ?a , ?b allow for ?c
+		?a: the same time
+		?b: the miniature package dimensions
+		?c: wafer-level probing
+
+
+label:    sent_10
+sentence: The decreased crystallinity resulting from these interactions may allow for enhanced drug loading .
+
+ppatt:
+	?a resulting from ?b
+		?a: The decreased crystallinity
+		?b: these interactions
+	?a may allow for ?b
+		?a: The decreased crystallinity resulting from these interactions
+		?b: enhanced drug loading
+
+
+label:    sent_11
+sentence: In this scheme , one-shot recording and digital reconstruction allow for real-time measurement .
+
+ppatt:
+	In ?a , ?b allow for ?c
+		?a: this scheme
+		?b: one-shot recording
+		?c: real-time measurement
+	In ?a , ?b allow for ?c
+		?a: this scheme
+		?b: digital reconstruction
+		?c: real-time measurement
+
+
+label:    sent_12
+sentence: We propose a conceptual model for how early retinal signalling may allow this .
+
+ppatt:
+	?a propose ?b
+		?a: We
+		?b: a conceptual model for how early retinal signalling may allow this
+	?a how ?b may allow ?c
+		?a: a conceptual model
+		?b: early retinal signalling
+		?c: this
+
+
+label:    sent_13
+sentence: Local perforator flaps allow closure of pressure sores without harvesting muscle .
+
+ppatt:
+	?a allow ?b
+		?a: Local perforator flaps
+		?b: closure of pressure sores
+	?a harvesting ?b
+		?a: Local perforator flaps
+		?b: muscle
+
+
+label:    sent_14
+sentence: These findings should allow improved characterization of SWCNT samples by absorption spectroscopy .
+
+ppatt:
+	?a should allow ?b
+		?a: These findings
+		?b: improved characterization of SWCNT samples by absorption spectroscopy
+
+
+label:    sent_15
+sentence: Structural equation modeling was used to allow for simultaneous testing of relationships between variables .
+
+ppatt:
+	?a was used to allow for ?b
+		?a: Structural equation modeling
+		?b: simultaneous testing of relationships between variables
+
+
+label:    sent_16
+sentence: Bone volume must be reestablished to allow for proper implant placement .
+
+ppatt:
+	?a must be reestablished to allow for ?b
+		?a: Bone volume
+		?b: proper implant placement
+
+
+label:    sent_17
+sentence: We describe the user interface and applications that allow for cross-database queries .
+
+ppatt:
+	?a describe ?b
+		?a: We
+		?b: the user interface that allow for cross-database queries
+	?a describe ?b
+		?a: We
+		?b: applications
+	?a allow for ?b
+		?a: the user interface
+		?b: cross-database queries
+	?a allow for ?b
+		?a: applications
+		?b: cross-database queries
+
+
+label:    sent_18
+sentence: Nonoptimal DNA topoisomerases allow maintenance of supercoiling levels and improve fitness of Streptococcus pneumoniae .
+
+ppatt:
+	?a allow ?b
+		?a: Nonoptimal DNA topoisomerases
+		?b: maintenance of supercoiling levels
+	?a improve ?b
+		?a: Nonoptimal DNA topoisomerases
+		?b: fitness of Streptococcus pneumoniae
+
+
+label:    sent_19
+sentence: Increased awareness of clinicians to this coexistence may allow early intervention and improve outcome .
+
+ppatt:
+	?a may allow ?b
+		?a: Increased awareness of clinicians to this coexistence
+		?b: early intervention
+	?a improve ?b
+		?a: Increased awareness of clinicians to this coexistence
+		?b: outcome
+
+
+label:    sent_20
+sentence: None of the hypotheses could be verified and the results allow two major conclusions .
+
+ppatt:
+	?a could be verified
+		?a: None of the hypotheses
+	?a allow ?b
+		?a: the results
+		?b: two major conclusions
+
+
+label:    sent_21
+sentence: Only two studies were sufficiently similar to allow pooling of data for statistical analyses .
+
+ppatt:
+	?a were sufficiently similar to allow ?b
+		?a: Only two studies
+		?b: pooling of data for statistical analyses
+
+
+label:    sent_22
+sentence: Too few were users of strontium to allow analysis for this compound . Data were reanalysed to allow greater statistical power for comparisons .
+
+ppatt:
+	?a were users of ?b
+		?a: Too few
+		?b: strontium
+	?a allow ?b
+		?a: users of strontium
+		?b: analysis for this compound
+	?a were reanalysed to allow ?b
+		?a: Data
+		?b: greater statistical power for comparisons
+
+
+label:    sent_23
+sentence: This approach is generic and will allow application to other products and other hosts .
+
+ppatt:
+	?a is generic
+		?a: This approach
+	?a will allow ?b
+		?a: This approach
+		?b: application to other products and other hosts
+
+
+label:    sent_24
+sentence: The approach is general and should allow combinatorial optimization of other many-body problems .
+
+ppatt:
+	?a is general
+		?a: The approach
+	?a should allow ?b
+		?a: The approach
+		?b: combinatorial optimization of other many-body problems
+
+
+label:    sent_25
+sentence: These structures maintain T cell-APC interaction and allow directed secretion .
+
+ppatt:
+	?a maintain ?b
+		?a: These structures
+		?b: T cell-APC interaction
+	?a allow ?b
+		?a: These structures
+		?b: directed secretion
+
+
+label:    sent_26
+sentence: Skin tests allow different platinum salts to be given and avoid discontinuation of chemotherapy .
+
+ppatt:
+	?a allow ?b to be given
+		?a: Skin tests
+		?b: different platinum salts
+	?a allow to be avoid ?b
+		?a: Skin tests
+		?b: discontinuation of chemotherapy
+
+
+label:    sent_27
+sentence: Dopamine agonists allow women presenting prolactinoma to recover their ovulation cycles and become pregnant .
+
+ppatt:
+	?a allow ?b
+		?a: Dopamine agonists
+		?b: women presenting prolactinoma to recover their ovulation cycles
+	?a presenting ?b
+		?a: women
+		?b: prolactinoma
+	recover ?a
+		?a: their ovulation cycles
+	?a become pregnant
+		?a: Dopamine agonists
+
+
+label:    sent_28
+sentence: Clinics allow the diagnosis to be made , but treatment is difficult .
+
+ppatt:
+	?a allow ?b to be made
+		?a: Clinics
+		?b: the diagnosis
+	?a is difficult
+		?a: treatment
+
+

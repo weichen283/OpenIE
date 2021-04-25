@@ -1,0 +1,409 @@
+label:    sent_1
+sentence: Quantum reflection allows an atom or molecule to be reflected from a solid before it reaches the region where it would encounter the repulsive potential of the surface .
+
+ppatt:
+	?a allows ?b
+		?a: Quantum reflection
+		?b: an atom to be reflected from a solid
+	?a allows ?b
+		?a: Quantum reflection
+		?b: molecule
+	?a be reflected from ?b
+		?a: an atom
+		?b: a solid
+	?a be reflected from ?b
+		?a: molecule
+		?b: a solid
+	?a reaches ?b
+		?a: it
+		?b: the region where it would encounter the repulsive potential of the surface
+	?a where ?b would encounter ?c
+		?a: the region
+		?b: it
+		?c: the repulsive potential of the surface
+
+
+label:    sent_2
+sentence: If the additional cancer items ( including a lay summary ) are not provided by registrants of cancer trials on ANZCTR , this can compromise the quality and usefulness of the data for the end-user , in this case consumers , as they may encounter gaps in the data . Nurses in all clinical settings encounter ethical issues that frequently lead to moral distress .
+
+ppatt:
+	?a are not provided by ?b
+		?a: the additional cancer items ( including a lay summary
+		?b: registrants of cancer trials on ANZCTR
+	?a can compromise ?b , in ?c
+		?a: this
+		?b: the quality of the data for the end-user
+		?c: this case consumers
+	?a can compromise ?b , in ?c
+		?a: this
+		?b: usefulness
+		?c: this case consumers
+	?a may encounter ?b in ?c
+		?a: they
+		?b: gaps
+		?c: the data
+	?a encounter ?b
+		?a: Nurses in all clinical settings
+		?b: ethical issues that frequently lead to moral distress
+	?a frequently lead to ?b
+		?a: ethical issues
+		?b: moral distress
+
+
+label:    sent_3
+sentence: This study adds weight to findings in previous studies that many general practitioners encounter CAM in their consultations and explores reasons why they choose to engage with it . Acute care bedside nurses frequently encounter significant barriers while providing discharge-related care .
+
+ppatt:
+	?a adds ?b to ?c
+		?a: This study
+		?b: weight
+		?c: findings in previous studies that many general practitioners encounter CAM in their consultations
+	?a encounter ?b in ?c
+		?a: many general practitioners
+		?b: CAM
+		?c: their consultations
+	?a explores ?b
+		?a: This study
+		?b: reasons why they choose to engage with it
+	?a why ?b choose to engage with ?c
+		?a: reasons
+		?b: they
+		?c: it
+	?a frequently encounter ?b
+		?a: Acute care bedside nurses
+		?b: significant barriers
+	?a providing ?b
+		?a: Acute care bedside nurses
+		?b: discharge-related care
+
+
+label:    sent_4
+sentence: With increases in the incidence of both endometrial cancer and births by C-S , it is likely we will encounter more cases of iatrogenic implants of endometrial cancers in C-S scars .
+
+ppatt:
+	With ?a , ?b is likely
+		?a: increases in the incidence of both endometrial cancer and births by C-S
+		?b: it
+	?a will encounter ?b
+		?a: we
+		?b: more cases of iatrogenic implants of endometrial cancers in C-S scars
+
+
+label:    sent_5
+sentence: During infection and invasion , the bacteria cross the physical barriers and later it encounter with the host defence mechanism .
+
+ppatt:
+	During ?a , ?b cross ?c
+		?a: infection
+		?b: the bacteria
+		?c: the physical barriers
+	During ?a , ?b cross ?c
+		?a: invasion
+		?b: the bacteria
+		?c: the physical barriers
+	later ?a encounter with ?b
+		?a: it
+		?b: the host defence mechanism
+
+
+label:    sent_6
+sentence: Institutions that have not achieved a critical mass of attractive research resources or effective dissemination mechanisms may encounter persistent difficulty attracting researchers to use institutional resources .
+
+ppatt:
+	?a have not achieved ?b
+		?a: Institutions
+		?b: a critical mass of attractive research resources or effective dissemination mechanisms
+	?a may encounter ?b
+		?a: Institutions that have not achieved a critical mass of attractive research resources or effective dissemination mechanisms
+		?b: persistent difficulty attracting researchers to use institutional resources
+	?a attracting ?b to use ?c
+		?a: persistent difficulty
+		?b: researchers
+		?c: institutional resources
+
+
+label:    sent_7
+sentence: Clearly , how programs position permanent housing has very different implications for how providers understand their work , the pressures they encounter , and how they prioritize client goals .
+
+ppatt:
+	how ?a ?b has ?c
+		?a: programs
+		?b: position permanent housing
+		?c: very different implications
+	how ?a understand ?b
+		?a: providers
+		?b: their work
+	Clearly , ?a ?b encounter
+		?a: the pressures
+		?b: they
+	how ?a prioritize ?b
+		?a: they
+		?b: client goals
+
+
+label:    sent_8
+sentence: Non-wetting surfaces are imperative to the survival of terrestrial and semi-aquatic insects as they afford resistance to wetting by rain and other liquid surfaces that insects may encounter .
+
+ppatt:
+	?a are imperative to ?b
+		?a: Non-wetting surfaces
+		?b: the survival of terrestrial and semi-aquatic insects
+	?a afford ?b
+		?a: they
+		?b: resistance to wetting by rain and other liquid surfaces
+	?a may encounter
+		?a: insects
+
+
+label:    sent_9
+sentence: How individual ACS NSQIP leaders designated as Surgeon Champions ( SC ) utilize the ACS NSQIP at the hospital level and the obstacles they encounter are not well studied .
+
+ppatt:
+	?a designated as ?b
+		?a: individual ACS NSQIP leaders
+		?b: Surgeon Champions
+	?a is/are SC
+		?a: Surgeon Champions
+	How ?a utilize ?b at ?c
+		?a: individual ACS NSQIP leaders designated as Surgeon Champions
+		?b: the ACS NSQIP
+		?c: the hospital level
+	?a encounter
+		?a: they
+	?a are not well studied
+		?a: the obstacles
+
+
+label:    sent_10
+sentence: They strive to keep this ideal image at the cost of their own needs , taking a long time to seek help for the obstacles they encounter .
+
+ppatt:
+	?a strive to keep ?b at ?c
+		?a: They
+		?b: this ideal image
+		?c: the cost of their own needs
+	?a taking ?b
+		?a: They
+		?b: a long time to seek help for the obstacles
+	?a seek help for ?b
+		?a: a long time
+		?b: the obstacles
+	?a encounter
+		?a: they
+
+
+label:    sent_11
+sentence: An identical physician patient encounter with a patient presenting with diabetes symptoms was videotaped with varying patient attributes .
+
+ppatt:
+	?a presenting with ?b
+		?a: a patient
+		?b: diabetes symptoms
+	?a was videotaped with ?b
+		?a: An identical physician patient encounter with a patient presenting with diabetes symptoms
+		?b: varying patient attributes
+
+
+label:    sent_12
+sentence: The main difficulty lies in providing resident physicians with sufficient exposure to all of the conditions that they will likely encounter once their training ends .
+
+ppatt:
+	?a lies
+		?a: The main difficulty
+	?a providing ?b ?c
+		?a: The main difficulty
+		?b: resident physicians with sufficient exposure to all of the conditions
+		?c: SOMETHING := they will likely encounter once their training ends
+	?a will likely encounter once ?b
+		?a: they
+		?b: their training ends
+
+
+label:    sent_13
+sentence: The encounter of a Ca ( 2+ ) ion with a protein and its subsequent binding to specific binding sites is an intricate process that can not be fully elucidated from experimental observations .
+
+ppatt:
+	?a is/are 2+
+		?a: Ca
+	?a is an intricate process
+		?a: The encounter of a Ca ( ion with a protein
+	?a is an intricate process
+		?a: its subsequent binding to specific binding sites
+	?a can not be fully elucidated from ?b
+		?a: an intricate process
+		?b: experimental observations
+
+
+label:    sent_14
+sentence: Studies of the doctor-patient relationship have focused on the elaboration of power and/or authority using a range of techniques to study the encounter between doctor and patient .
+
+ppatt:
+	?a have focused on ?b using ?c
+		?a: Studies of the doctor-patient relationship
+		?b: the elaboration of power and/or authority
+		?c: a range of techniques to study the encounter between doctor and patient
+	?a study ?b
+		?a: a range of techniques
+		?b: the encounter between doctor and patient
+
+
+label:    sent_15
+sentence: Through understanding how they conceive the encounter with patients with obesity , treatment may be improved .
+
+ppatt:
+	understanding ?a
+		?a: treatment
+	how ?a conceive ?b
+		?a: they
+		?b: the encounter with patients with obesity
+	?a may be improved
+		?a: treatment
+
+
+label:    sent_16
+sentence: No one could intentionally produce a chance encounter with others .
+
+ppatt:
+	?a could intentionally produce ?b
+		?a: No one
+		?b: a chance encounter with others
+
+
+label:    sent_17
+sentence: Asthma is one of the most common causes of school absenteeism , and many children are affected by , or encounter , it in the school setting .
+
+ppatt:
+	?a is one of ?b
+		?a: Asthma
+		?b: the most common causes of school absenteeism
+	?a are affected ?b , ?c in ?d
+		?a: many children
+		?b: by
+		?c: it
+		?d: the school setting
+	?a are affected ?b , ?c in ?d
+		?a: many children
+		?b: encounter
+		?c: it
+		?d: the school setting
+
+
+label:    sent_18
+sentence: Using the transparent Daphnia hosts and fluorescently-labelled spores of the bacterium P. ramosa , we identified a sequence of infection steps : encounter between parasite and host ; activation of parasite dormant spores ; attachment of spores to the host ; and parasite proliferation inside the host .
+
+ppatt:
+	Using ?a ?b
+		?a: the transparent Daphnia hosts
+		?b: we
+	Using ?a ?b
+		?a: fluorescently-labelled spores of the bacterium P. ramosa
+		?b: we
+	?a identified ?b
+		?a: we
+		?b: a sequence of infection steps
+
+
+label:    sent_19
+sentence: This study ( N = 500 ) examined gender differences in emotional reactions after hooking up and explored the relationship between specific processes in the hooking up encounter and reactions to hooking up . Objectively , this synchronicity is nothing but a chance encounter .
+
+ppatt:
+	= ?a
+		?a: 500
+	?a examined ?b
+		?a: This study
+		?b: gender differences in emotional reactions
+	?a hooking up
+		?a: This study
+	?a explored ?b
+		?a: This study
+		?b: the relationship between specific processes in the hooking up encounter and reactions to hooking up Objectively
+	?a hooking up Objectively
+		?a: the encounter
+	?a hooking up Objectively
+		?a: reactions
+	?a is nothing
+		?a: this synchronicity
+	?a a chance encounter
+		?a: this synchronicity
+
+
+label:    sent_20
+sentence: Occupational health nurses provide most of the in-plant health care services in U.S. industry but have dubious credentials to provide care for many of the injuries and illnesses they encounter .
+
+ppatt:
+	?a provide ?b
+		?a: Occupational health nurses
+		?b: most of the in-plant health care services in U.S. industry
+	?a have ?b
+		?a: Occupational health nurses
+		?b: dubious credentials to provide care for many of the injuries and illnesses
+	?a provide ?b
+		?a: dubious credentials
+		?b: care for many of the injuries and illnesses
+	?a encounter
+		?a: they
+
+
+label:    sent_21
+sentence: This work investigates how American college students make meaning of the heterosexism and homophobia they encounter in their daily lives .
+
+ppatt:
+	?a investigates ?b
+		?a: This work
+		?b: SOMETHING := how American college students make meaning of the heterosexism and homophobia
+	how ?a make ?b
+		?a: American college students
+		?b: meaning of the heterosexism and homophobia
+	?a encounter in ?b
+		?a: they
+		?b: their daily lives
+
+
+label:    sent_22
+sentence: Clinicians frequently encounter patients who reject standard treatment , but data on outcomes of patients choosing CAM as primary treatment for breast cancer are also lacking .
+
+ppatt:
+	?a frequently encounter ?b
+		?a: Clinicians
+		?b: patients who reject standard treatment
+	?a reject ?b
+		?a: patients
+		?b: standard treatment
+	?a choosing ?b as ?c
+		?a: patients
+		?b: CAM
+		?c: primary treatment for breast cancer
+	?a are also lacking
+		?a: data on outcomes of patients choosing CAM as primary treatment for breast cancer
+
+
+label:    sent_23
+sentence: However , there is at present no standard treatment in the numerous reconstruction procedures , and many prostheses encounter inflammatory rejection and mechanical constraint problems .
+
+ppatt:
+	However , there is at ?a
+		?a: present no standard treatment in the numerous reconstruction procedures
+	?a encounter ?b
+		?a: many prostheses
+		?b: inflammatory rejection
+	?a encounter ?b
+		?a: many prostheses
+		?b: mechanical constraint problems
+
+
+label:    sent_24
+sentence: Some variations in pulmonary vein anatomy can have serious consequences in patients undergoing lung surgery , but clinicians rarely encounter patients with these variations .
+
+ppatt:
+	?a can have ?b in ?c
+		?a: Some variations in pulmonary vein anatomy
+		?b: serious consequences
+		?c: patients undergoing lung surgery
+	?a undergoing ?b
+		?a: patients
+		?b: lung surgery
+	?a rarely encounter ?b
+		?a: clinicians
+		?b: patients with these variations
+
+

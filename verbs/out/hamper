@@ -1,0 +1,267 @@
+label:    sent_1
+sentence: Low engraftment and adverse immune reactions hamper the success rate of clinical islet transplantation .
+
+ppatt:
+	?a hamper ?b
+		?a: Low engraftment
+		?b: the success rate of clinical islet transplantation
+	?a hamper ?b
+		?a: adverse immune reactions
+		?b: the success rate of clinical islet transplantation
+
+
+label:    sent_2
+sentence: These performances significantly hamper the application of esiRNAs on a large-scale level .
+
+ppatt:
+	?a significantly hamper ?b
+		?a: These performances
+		?b: the application of esiRNAs on a large-scale level
+
+
+label:    sent_3
+sentence: Goal ambiguity matters because it may hamper organizational performance .
+
+ppatt:
+
+
+
+label:    sent_4
+sentence: However , culture-based countertransferences ( CBCs ) may hamper this effort .
+
+ppatt:
+	?a is/are CBCs
+		?a: culture-based countertransferences
+	However , ?a may hamper ?b
+		?a: culture-based countertransferences
+		?b: this effort
+
+
+label:    sent_5
+sentence: Susceptibility to stress-induced apoptosis may underlie beta cell failure and/or hamper islet transplantation therapy .
+
+ppatt:
+	?a may underlie ?b
+		?a: Susceptibility to stress-induced apoptosis
+		?b: beta cell failure
+	?a hamper ?b
+		?a: Susceptibility to stress-induced apoptosis
+		?b: islet transplantation therapy
+
+
+label:    sent_6
+sentence: These legal proceedings can influence investigators and hamper research .
+
+ppatt:
+	?a can influence ?b
+		?a: These legal proceedings
+		?b: investigators
+	?a hamper ?b
+		?a: These legal proceedings
+		?b: research
+
+
+label:    sent_7
+sentence: In obsessive-compulsive disorder , early treatment discontinuation can hamper the effectiveness of first-line treatments .
+
+ppatt:
+	In ?a , ?b can hamper ?c
+		?a: obsessive-compulsive disorder
+		?b: early treatment discontinuation
+		?c: the effectiveness of first-line treatments
+
+
+label:    sent_8
+sentence: To date , immunological , functional , and technical problems still hamper clinical success .
+
+ppatt:
+	To ?a , ?b still hamper ?c
+		?a: date
+		?b: immunological , functional , and technical problems
+		?c: clinical success
+
+
+label:    sent_9
+sentence: Neutralizing antibodies hamper IFNbeta bioactivity and treatment effect on MRI in patients with MS .
+
+ppatt:
+	?a hamper ?b in ?c
+		?a: Neutralizing antibodies
+		?b: IFNbeta bioactivity on MRI
+		?c: patients with MS
+	?a hamper ?b in ?c
+		?a: Neutralizing antibodies
+		?b: treatment effect
+		?c: patients with MS
+
+
+label:    sent_10
+sentence: This variation could hamper efforts to design and implement multicenter trials in neurocritical care .
+
+ppatt:
+	?a could hamper ?b
+		?a: This variation
+		?b: efforts to design and implement multicenter trials in neurocritical care
+	?a design ?b
+		?a: efforts
+		?b: multicenter trials in neurocritical care
+	implement ?a
+		?a: multicenter trials in neurocritical care
+
+
+label:    sent_11
+sentence: Blood from the cushion did not hamper visualization and facilitated EMR .
+
+ppatt:
+	?a did not hamper ?b
+		?a: Blood from the cushion
+		?b: visualization
+	?a facilitated ?b
+		?a: Blood from the cushion
+		?b: EMR
+
+
+label:    sent_12
+sentence: Chronic cocaine exposure may hamper central nervous system maturation and alter postnatal development .
+
+ppatt:
+	?a may hamper ?b
+		?a: Chronic cocaine exposure
+		?b: central nervous system maturation
+	?a alter ?b
+		?a: Chronic cocaine exposure
+		?b: postnatal development
+
+
+label:    sent_13
+sentence: Failures that occur during the routine work may spread out and hamper the routine .
+
+ppatt:
+	?a occur during ?b
+		?a: Failures
+		?b: the routine work
+	?a may spread out
+		?a: Failures that occur during the routine work
+	?a hamper ?b
+		?a: Failures that occur during the routine work
+		?b: the routine
+
+
+label:    sent_14
+sentence: Sesame oil and synthetic coital lubricants impaired sperm motility and may hamper fertility .
+
+ppatt:
+	?a impaired ?b
+		?a: Sesame oil
+		?b: sperm motility
+	?a impaired ?b
+		?a: synthetic coital lubricants
+		?b: sperm motility
+	?a may hamper ?b
+		?a: Sesame oil
+		?b: fertility
+	?a may hamper ?b
+		?a: synthetic coital lubricants
+		?b: fertility
+
+
+label:    sent_15
+sentence: It could cause unnecessary discomfort and hamper further ' patient-doctor ' dialog .
+
+ppatt:
+	?a could cause ?b
+		?a: It
+		?b: unnecessary discomfort
+	?a hamper further ?b
+		?a: It
+		?b: patient-doctor ' dialog
+
+
+label:    sent_16
+sentence: This pseudo-heterogeneity does not hamper the crystallization of AcrB as a homotrimer .
+
+ppatt:
+	?a does not hamper ?b
+		?a: This pseudo-heterogeneity
+		?b: the crystallization of AcrB as a homotrimer
+
+
+label:    sent_17
+sentence: Nicotine dependence has been shown to hamper successful smoking cessation in adolescents .
+
+ppatt:
+	?a has been shown to hamper ?b
+		?a: Nicotine dependence
+		?b: successful smoking cessation in adolescents
+
+
+label:    sent_18
+sentence: The Japanese authorities can therefore be expected to hamper their importation in the future . Fitness gains hamper efforts to tackle drug resistance .
+
+ppatt:
+	?a can therefore be expected to hamper ?b in ?c
+		?a: The Japanese authorities
+		?b: their importation
+		?c: the future
+	?a hamper ?b
+		?a: Fitness gains
+		?b: efforts to tackle drug resistance
+	?a tackle ?b
+		?a: efforts
+		?b: drug resistance
+
+
+label:    sent_19
+sentence: Persistent and recurrent disease hamper attempts at eradication of this infection .
+
+ppatt:
+	?a hamper ?b at ?c
+		?a: Persistent and recurrent disease
+		?b: attempts
+		?c: eradication of this infection
+
+
+label:    sent_20
+sentence: Importantly , rTM did not hamper the anti-GVL and engraftment of hematopoietic cells .
+
+ppatt:
+	Importantly , ?a did not hamper ?b
+		?a: rTM
+		?b: the anti-GVL of hematopoietic cells
+	Importantly , ?a did not hamper ?b
+		?a: rTM
+		?b: engraftment
+
+
+label:    sent_21
+sentence: These factors hamper the folliculorexis and the follicular cyst does develop . A number of factors which hamper or prevent prescribing require further exploration .
+
+ppatt:
+	?a hamper ?b
+		?a: These factors
+		?b: the folliculorexis
+	?a does develop
+		?a: the follicular cyst
+	?a hamper ?b
+		?a: factors
+		?b: prescribing
+	?a prevent
+		?a: which
+	?a require ?b
+		?a: A number of factors which hamper or prevent prescribing
+		?b: further exploration
+
+
+label:    sent_22
+sentence: In this case series we also highlight how cultural beliefs hamper and shape management .
+
+ppatt:
+	In ?a ?b also highlight ?c
+		?a: this case series
+		?b: we
+		?c: SOMETHING := how cultural beliefs hamper and shape management
+	how ?a hamper ?b
+		?a: cultural beliefs
+		?b: shape management
+
+

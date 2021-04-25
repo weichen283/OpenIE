@@ -1,0 +1,58 @@
+label:    sent_1
+sentence: DCs from MB49-bearing male mice were unable to restimulate effective HY-specific CTLs or IFN-gamma .
+
+ppatt:
+	?a were unable to restimulate ?b
+		?a: DCs from MB49-bearing male mice
+		?b: effective HY-specific CTLs
+	?a were unable to restimulate ?b
+		?a: DCs from MB49-bearing male mice
+		?b: IFN-gamma
+
+
+label:    sent_2
+sentence: Nonimmunogenic tumor cells may efficiently restimulate tumor antigen-specific cytotoxic T cells .
+
+ppatt:
+	?a may efficiently restimulate ?b
+		?a: Nonimmunogenic tumor cells
+		?b: tumor antigen-specific cytotoxic T cells
+
+
+label:    sent_3
+sentence: Only minor cell populations can restimulate secondary EAO cells .
+
+ppatt:
+	?a can restimulate ?b
+		?a: Only minor cell populations
+		?b: secondary EAO cells
+
+
+label:    sent_4
+sentence: The sibling inheriting this haplo-type did not restimulate cells primed against the A2--B40--DRW6--LDY specificity . To restimulate or not in dose titration .
+
+ppatt:
+	?a inheriting ?b
+		?a: The sibling
+		?b: this haplo-type
+	?a did not restimulate ?b . To ?c
+		?a: The sibling inheriting this haplo-type
+		?b: cells primed against the A2--B40--DRW6--LDY specificity
+		?c: restimulate
+	?a did not restimulate ?b . To ?c
+		?a: The sibling inheriting this haplo-type
+		?b: cells primed against the A2--B40--DRW6--LDY specificity
+		?c: not dose titration
+	?a primed against ?b
+		?a: cells
+		?b: the A2--B40--DRW6--LDY specificity
+
+
+label:    sent_5
+sentence: To restimulate or not in dose titration .
+
+ppatt:
+	restimulate in ?a
+		?a: not dose titration
+
+

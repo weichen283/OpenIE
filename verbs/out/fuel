@@ -1,0 +1,185 @@
+label:    sent_1
+sentence: Mutations create variation in the population , fuel evolution and cause genetic diseases .
+
+ppatt:
+	?a create ?b
+		?a: Mutations
+		?b: variation in the population
+	?a create ?b
+		?a: Mutations
+		?b: fuel evolution
+	?a cause ?b
+		?a: Mutations
+		?b: genetic diseases
+
+
+label:    sent_2
+sentence: Energy released by glycogeneolysis in the testis may help fuel the process of spermatogenesis .
+
+ppatt:
+	?a released by ?b in ?c
+		?a: Energy
+		?b: glycogeneolysis
+		?c: the testis
+	?a may help fuel ?b
+		?a: Energy released by glycogeneolysis in the testis
+		?b: the process of spermatogenesis
+
+
+label:    sent_3
+sentence: Reform , retirements expected to fuel movement .
+
+ppatt:
+	?a expected to ?b
+		?a: Reform
+		?b: fuel movement
+	?a expected to ?b
+		?a: retirements
+		?b: fuel movement
+
+
+label:    sent_4
+sentence: Mitochondrial ROS fuel the inflammasome .
+
+ppatt:
+
+
+
+label:    sent_5
+sentence: Unfair wage deal could fuel tension between nursing staff and HCAs .
+
+ppatt:
+	?a could fuel ?b
+		?a: Unfair wage deal
+		?b: tension between nursing staff and HCAs
+
+
+label:    sent_6
+sentence: Visceral adipose tissue may fuel obesity-associated chronic inflammation and tumorigenesis .
+
+ppatt:
+	?a may fuel ?b
+		?a: Visceral adipose tissue
+		?b: obesity-associated chronic inflammation
+	?a may fuel ?b
+		?a: Visceral adipose tissue
+		?b: tumorigenesis
+
+
+label:    sent_7
+sentence: Hybridization can fuel evolutionary processes during biological invasions .
+
+ppatt:
+	?a can fuel ?b during ?c
+		?a: Hybridization
+		?b: evolutionary processes
+		?c: biological invasions
+
+
+label:    sent_8
+sentence: It may fuel chronic inflammation via T cell-mediated pathways .
+
+ppatt:
+	?a may fuel ?b via ?c
+		?a: It
+		?b: chronic inflammation
+		?c: T cell-mediated pathways
+
+
+label:    sent_9
+sentence: This variation can potentially fuel evolution of the GP map under selection and/or drift . IDU continues to fuel the HCV/HIV epidemics spreading throughout China .
+
+ppatt:
+	?a can potentially fuel ?b
+		?a: This variation
+		?b: evolution of the GP map under selection and/or drift
+	?a continues to fuel ?b
+		?a: IDU
+		?b: the HCV/HIV epidemics spreading throughout China
+	?a spreading throughout ?b
+		?a: the HCV/HIV epidemics
+		?b: China
+
+
+label:    sent_10
+sentence: The plasma membrane flattens out to fuel cell-surface growth during Drosophila cellularization .
+
+ppatt:
+	?a out to fuel ?b
+		?a: The plasma membrane flattens
+		?b: cell-surface growth during Drosophila cellularization
+
+
+label:    sent_11
+sentence: Theory predicts that sexual conflict can fuel evolutionary change and generate substantial reproductive costs . Aggressions that ignite and fuel atherosclerotic inflammation warrant keen attention .
+
+ppatt:
+	?a predicts ?b
+		?a: Theory
+		?b: SOMETHING := sexual conflict can fuel evolutionary change
+	?a can fuel ?b
+		?a: sexual conflict
+		?b: evolutionary change
+	?a generate ?b
+		?a: sexual conflict
+		?b: substantial reproductive costs
+	?a ignite ?b
+		?a: Aggressions
+		?b: fuel atherosclerotic inflammation
+	?a warrant ?b
+		?a: Aggressions that ignite and fuel atherosclerotic inflammation
+		?b: keen attention
+
+
+label:    sent_12
+sentence: Low molecular weight conjugates will redox cycle and fuel oxidative stress . South African methamphetamine boom could fuel further HIV .
+
+ppatt:
+	?a will ?b ?c could fuel ?d
+		?a: Low molecular weight conjugates
+		?b: redox cycle
+		?c: South African methamphetamine boom
+		?d: further HIV
+	?a will ?b ?c could fuel ?d
+		?a: Low molecular weight conjugates
+		?b: fuel oxidative stress
+		?c: South African methamphetamine boom
+		?d: further HIV
+
+
+label:    sent_13
+sentence: Batch ( one- and two-stage ) production of biodiesel fuel from rapeseed oil . Batch ( one- and two-stage ) production of biodiesel fuel from rapeseed oil .
+
+ppatt:
+
+
+
+label:    sent_14
+sentence: Chronic inflammation may fuel declines in physical function leading to frailty and disability .
+
+ppatt:
+	?a may fuel ?b
+		?a: Chronic inflammation
+		?b: declines in physical function leading to frailty and disability
+	?a leading to ?b
+		?a: physical function
+		?b: frailty
+	?a leading to ?b
+		?a: physical function
+		?b: disability
+
+
+label:    sent_15
+sentence: Histopathological lung changes in children due to biomass fuel . Global mercury emissions from combustion in light of international fuel trading .
+
+ppatt:
+
+
+
+label:    sent_16
+sentence: Boiler fuel from waste .
+
+ppatt:
+
+
+

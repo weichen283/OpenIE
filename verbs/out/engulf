@@ -1,0 +1,296 @@
+label:    sent_1
+sentence: These spike sources were in close proximity or seemed to engulf the magnetic AEF .
+
+ppatt:
+	?a were in close proximity
+		?a: These spike sources
+	?a seemed to engulf ?b
+		?a: These spike sources
+		?b: the magnetic AEF
+
+
+label:    sent_2
+sentence: Designing synthetic vesicles that engulf nanoscopic particles .
+
+ppatt:
+	Designing ?a
+		?a: synthetic vesicles that engulf nanoscopic particles
+	?a engulf ?b
+		?a: synthetic vesicles
+		?b: nanoscopic particles
+
+
+label:    sent_3
+sentence: These transformed haemocytes retained their ability to engulf material of the disintegrating fibre .
+
+ppatt:
+	?a retained ?b
+		?a: These transformed haemocytes
+		?b: their ability to engulf material of the disintegrating fibre
+	?a engulf ?b
+		?a: their ability
+		?b: material of the disintegrating fibre
+
+
+label:    sent_4
+sentence: Phagocytosis is an immune receptor-mediated process whereby cells engulf large particles .
+
+ppatt:
+	?a is an immune receptor-mediated process
+		?a: Phagocytosis
+	?a whereby ?b engulf ?c
+		?a: an immune receptor-mediated process
+		?b: cells
+		?c: large particles
+
+
+label:    sent_5
+sentence: These stars can engulf their sub-stellar companions when they become red giants . Corneal epithelial cells can engulf particulate matter .
+
+ppatt:
+	?a can engulf ?b
+		?a: These stars
+		?b: their sub-stellar companions
+	when ?a become red giants
+		?a: they
+	?a can engulf ?b
+		?a: Corneal epithelial cells
+		?b: particulate matter
+
+
+label:    sent_6
+sentence: Fungi possess robust cell walls and do not engulf prey cells by phagotrophy .
+
+ppatt:
+	?a possess ?b
+		?a: Fungi
+		?b: robust cell walls
+	?a do not engulf ?b by ?c
+		?a: Fungi
+		?b: prey cells
+		?c: phagotrophy
+
+
+label:    sent_7
+sentence: Macrophages have the tendency to engulf Van-Au NPs through endocytosis .
+
+ppatt:
+	?a have ?b
+		?a: Macrophages
+		?b: the tendency to engulf Van-Au NPs through endocytosis
+	?a engulf ?b through ?c
+		?a: the tendency
+		?b: Van-Au NPs
+		?c: endocytosis
+
+
+label:    sent_8
+sentence: Macrophages were shown to engulf GMPs by endocytosis .
+
+ppatt:
+	?a were shown to engulf ?b by ?c
+		?a: Macrophages
+		?b: GMPs
+		?c: endocytosis
+
+
+label:    sent_9
+sentence: Interleukin-2 activated microglia engulf tumor infiltrating T cells in the central nervous system .
+
+ppatt:
+	?a engulf ?b in ?c
+		?a: Interleukin-2 activated microglia
+		?b: tumor infiltrating T cells
+		?c: the central nervous system
+
+
+label:    sent_10
+sentence: During autophagy , autophagosomes engulf cytoplasmic components , including cytosolic proteins and organelles .
+
+ppatt:
+	During ?a , ?b engulf ?c
+		?a: autophagy
+		?b: autophagosomes
+		?c: cytoplasmic components , including cytosolic proteins and organelles
+
+
+label:    sent_11
+sentence: Following laser treatment , macrophages engulf the altered pigment .
+
+ppatt:
+	Following ?a , ?b engulf ?c
+		?a: laser treatment
+		?b: macrophages
+		?c: the altered pigment
+
+
+label:    sent_12
+sentence: Chaperonins engulf other proteins and accelerate their folding by an unknown mechanism .
+
+ppatt:
+	?a engulf ?b
+		?a: Chaperonins
+		?b: other proteins
+	?a accelerate ?b by ?c
+		?a: Chaperonins
+		?b: their folding
+		?c: an unknown mechanism
+
+
+label:    sent_13
+sentence: These processes engulf clusters of varicosities and accumulate intracellular degradative compartments .
+
+ppatt:
+	?a engulf ?b
+		?a: These processes
+		?b: clusters of varicosities
+	?a accumulate ?b
+		?a: These processes
+		?b: intracellular degradative compartments
+
+
+label:    sent_14
+sentence: Alveolar macrophages ( AMs ) encounter the particles and attempt to engulf the particles . Fibroblastic processes appeared to wrap around and engulf tumor cells .
+
+ppatt:
+	?a is/are AMs
+		?a: Alveolar macrophages
+	?a encounter ?b to engulf ?c
+		?a: Alveolar macrophages
+		?b: the particles
+		?c: the particles
+	?a encounter ?b to engulf ?c
+		?a: Alveolar macrophages
+		?b: attempt
+		?c: the particles
+	?a appeared to wrap ?b ?c
+		?a: Fibroblastic processes
+		?b: around
+		?c: tumor cells
+	?a appeared to engulf
+		?a: Fibroblastic processes
+
+
+label:    sent_15
+sentence: These cells capture and engulf pathogens and subsequently destroy them in intracellular vacuoles-the phagosomes .
+
+ppatt:
+	?a capture ?b
+		?a: These cells
+		?b: pathogens
+	?a engulf
+		?a: These cells
+	?a subsequently destroy ?b in ?c
+		?a: These cells
+		?b: them
+		?c: intracellular vacuoles-the phagosomes
+
+
+label:    sent_16
+sentence: Neutrophils are viable and actively engulf S .
+
+ppatt:
+	?a are viable
+		?a: Neutrophils
+	?a actively engulf ?b
+		?a: Neutrophils
+		?b: S
+
+
+label:    sent_17
+sentence: Tm , as demonstrated by live microscopy .
+
+ppatt:
+
+
+
+label:    sent_18
+sentence: Exposed phosphatidylserine is recognized by macrophages that engulf and degrade the affected cells .
+
+ppatt:
+	?a is recognized by ?b
+		?a: Exposed phosphatidylserine
+		?b: macrophages that engulf and degrade the affected cells
+	?a engulf ?b
+		?a: macrophages
+		?b: the affected cells
+	?a degrade
+		?a: that
+
+
+label:    sent_19
+sentence: Macrophages were observed to engulf and degrade the cystozoites and cyst debris .
+
+ppatt:
+	?a were observed to engulf ?b
+		?a: Macrophages
+		?b: the cystozoites
+	?a were observed to engulf ?b
+		?a: Macrophages
+		?b: cyst debris
+	?a were observed to degrade
+		?a: Macrophages
+
+
+label:    sent_20
+sentence: The primary function of neutrophils is to engulf and destroy invading pathogens .
+
+ppatt:
+	?a is to engulf ?b
+		?a: The primary function of neutrophils
+		?b: invading pathogens
+	?a is to destroy
+		?a: The primary function of neutrophils
+
+
+label:    sent_21
+sentence: Synthetic biodegradable ionomers that engulf , store , and deliver intact proteins .
+
+ppatt:
+	?a engulf
+		?a: Synthetic biodegradable ionomers
+	?a store
+		?a: Synthetic biodegradable ionomers that engulf
+	?a deliver ?b
+		?a: Synthetic biodegradable ionomers that engulf
+		?b: intact proteins
+
+
+label:    sent_22
+sentence: Neutrophils engulf and kill bacteria using oxidative and nonoxidative mechanisms .
+
+ppatt:
+	?a engulf ?b using ?c
+		?a: Neutrophils
+		?b: bacteria
+		?c: oxidative and nonoxidative mechanisms
+	?a kill
+		?a: Neutrophils
+
+
+label:    sent_23
+sentence: Neutrophils engulf and kill bacteria when their antimicrobial granules fuse with the phagosome .
+
+ppatt:
+	?a engulf ?b
+		?a: Neutrophils
+		?b: bacteria
+	?a kill
+		?a: Neutrophils
+	when ?a fuse with ?b
+		?a: their antimicrobial granules
+		?b: the phagosome
+
+
+label:    sent_24
+sentence: Neutrophils engulf Salmonella during early stages of infection , but bacterial killing is incomplete .
+
+ppatt:
+	?a engulf ?b during ?c
+		?a: Neutrophils
+		?b: Salmonella
+		?c: early stages of infection
+	?a is incomplete
+		?a: bacterial killing
+
+

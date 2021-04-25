@@ -1,0 +1,229 @@
+label:    sent_1
+sentence: Together , the results underpin the important role of cytokinin in reproductive development .
+
+ppatt:
+	Together , ?a underpin ?b
+		?a: the results
+		?b: the important role of cytokinin in reproductive development
+
+
+label:    sent_2
+sentence: Exposure to stress and its glucocorticoid hormone mediators may underpin this association .
+
+ppatt:
+	?a may underpin ?b
+		?a: Exposure to stress and its glucocorticoid hormone mediators
+		?b: this association
+
+
+label:    sent_3
+sentence: Helicases that underpin replication of protein-bound DNA in Escherichia coli .
+
+ppatt:
+	?a underpin ?b
+		?a: Helicases
+		?b: replication of protein-bound DNA in Escherichia coli
+
+
+label:    sent_4
+sentence: Gaps in the evidence used to underpin the guideline recommendations were identified .
+
+ppatt:
+	?a used to underpin ?b
+		?a: the evidence
+		?b: the guideline recommendations
+	?a were identified
+		?a: Gaps in the evidence used to underpin the guideline recommendations
+
+
+label:    sent_5
+sentence: Both soft-tissue and bony causes have been postulated to underpin this problem .
+
+ppatt:
+	?a have been postulated to underpin ?b
+		?a: soft-tissue
+		?b: this problem
+	?a have been postulated to underpin ?b
+		?a: bony
+		?b: this problem
+
+
+label:    sent_6
+sentence: There is little rigorous evidence to underpin clinical guidelines for palliative care .
+
+ppatt:
+	There is ?a
+		?a: little rigorous evidence to underpin clinical guidelines for palliative care
+	?a underpin ?b
+		?a: little rigorous evidence
+		?b: clinical guidelines for palliative care
+
+
+label:    sent_7
+sentence: Our findings likely underpin the neuropsychological symptoms at time of disease onset in HD .
+
+ppatt:
+	?a likely underpin ?b at ?c
+		?a: Our findings
+		?b: the neuropsychological symptoms
+		?c: time of disease onset in HD
+
+
+label:    sent_8
+sentence: This action may in part underpin their therapeutic efficacy . Ethical principles underpin decision making in the research process .
+
+ppatt:
+	?a may in ?b underpin ?c
+		?a: This action
+		?b: part
+		?c: their therapeutic efficacy
+	?a underpin ?b
+		?a: Ethical principles
+		?b: decision making in the research process
+	?a making in ?b
+		?a: decision
+		?b: the research process
+
+
+label:    sent_9
+sentence: Implementing interprofessional collaboration requires a multifaceted approach , and research to underpin it . This model is needed to underpin investigations into individual cases of language impairment .
+
+ppatt:
+	Implementing ?a
+		?a: interprofessional collaboration
+	?a requires ?b
+		?a: SOMETHING := Implementing interprofessional collaboration
+		?b: a multifaceted approach
+	?a underpin ?b
+		?a: research
+		?b: it
+	?a ?b is needed to underpin ?c
+		?a: research to underpin it
+		?b: This model
+		?c: investigations into individual cases of language impairment
+
+
+label:    sent_10
+sentence: This article discusses issues that underpin professional portfolio development for registered nurses .
+
+ppatt:
+	?a discusses ?b
+		?a: This article
+		?b: issues that underpin professional portfolio development for registered nurses
+	?a underpin ?b
+		?a: issues
+		?b: professional portfolio development for registered nurses
+
+
+label:    sent_11
+sentence: On the road : rural long-term care facilities underpin economies .
+
+ppatt:
+	On ?a : ?b underpin ?c
+		?a: the road
+		?b: rural long-term care facilities
+		?c: economies
+
+
+label:    sent_12
+sentence: Physics and engineering rank alongside other medical sciences and underpin many of their applications . SNARE proteins underpin insulin-regulated GLUT4 traffic .
+
+ppatt:
+	underpin ?a
+		?a: many of their applications
+	?a ?b underpin ?c
+		?a: Physics alongside other medical sciences
+		?b: SNARE proteins
+		?c: insulin-regulated GLUT4 traffic
+	?a ?b underpin ?c
+		?a: engineering
+		?b: SNARE proteins
+		?c: insulin-regulated GLUT4 traffic
+	?a ?b underpin ?c
+		?a: rank
+		?b: SNARE proteins
+		?c: insulin-regulated GLUT4 traffic
+	?a ?b underpin ?c
+		?a: underpin many of their applications
+		?b: SNARE proteins
+		?c: insulin-regulated GLUT4 traffic
+
+
+label:    sent_13
+sentence: Our findings underpin the ADA recommendations to improve the transition from hospital to home .
+
+ppatt:
+	?a underpin ?b
+		?a: Our findings
+		?b: the ADA recommendations
+	?a improve ?b
+		?a: Our findings
+		?b: the transition from hospital to home
+
+
+label:    sent_14
+sentence: Elucidation of the signaling pathways that underpin capacitation-associated surface phosphotyrosine expression in mouse spermatozoa .
+
+ppatt:
+	?a underpin ?b
+		?a: the signaling pathways
+		?b: capacitation-associated surface phosphotyrosine expression in mouse spermatozoa
+
+
+label:    sent_15
+sentence: Degrees will build in values to underpin and ensure good care .
+
+ppatt:
+	?a will build in ?b to underpin ?c
+		?a: Degrees
+		?b: values
+		?c: good care
+	?a will build to ensure
+		?a: Degrees
+
+
+label:    sent_16
+sentence: Such methods are crucial to understand the mechanisms which underpin and mediate host benefits .
+
+ppatt:
+	?a are crucial to understand ?b
+		?a: Such methods
+		?b: the mechanisms which underpin and mediate host benefits
+	?a underpin ?b
+		?a: the mechanisms
+		?b: host benefits
+	?a mediate
+		?a: which
+
+
+label:    sent_17
+sentence: Philosophical thought should underpin and strengthen developments in clinical practice .
+
+ppatt:
+	?a should underpin ?b
+		?a: Philosophical thought
+		?b: developments in clinical practice
+	?a strengthen
+		?a: Philosophical thought
+
+
+label:    sent_18
+sentence: These combined data underpin and background reported series of monitored pedicle screw insertion .
+
+ppatt:
+	?a underpin ?b
+		?a: These combined data
+		?b: background reported series of monitored pedicle screw insertion
+
+
+label:    sent_19
+sentence: The structures in these regions underpin and regulate normal cardiorespiratory function .
+
+ppatt:
+	?a underpin
+		?a: The structures in these regions
+	?a regulate ?b
+		?a: The structures in these regions
+		?b: normal cardiorespiratory function
+
+

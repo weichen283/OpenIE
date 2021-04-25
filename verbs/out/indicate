@@ -1,0 +1,329 @@
+label:    sent_1
+sentence: These results indicate that aging and overweight impair comprehension of complex instructions .
+
+ppatt:
+	?a indicate ?b
+		?a: These results
+		?b: SOMETHING := aging and overweight impair comprehension of complex instructions
+	?a impair ?b
+		?a: aging
+		?b: comprehension of complex instructions
+	?a impair ?b
+		?a: overweight
+		?b: comprehension of complex instructions
+
+
+label:    sent_2
+sentence: The results indicate that vigorous late-night exercise does not disturb sleep quality .
+
+ppatt:
+	?a indicate ?b
+		?a: The results
+		?b: SOMETHING := vigorous late-night exercise does not disturb sleep quality
+	?a does not disturb ?b
+		?a: vigorous late-night exercise
+		?b: sleep quality
+
+
+label:    sent_3
+sentence: Individuals often indicate that waning motivation prompts cessation of effective weight management behaviors .
+
+ppatt:
+	?a often indicate ?b
+		?a: Individuals
+		?b: SOMETHING := that waning motivation prompts cessation of effective weight management behaviors
+	?a prompts ?b
+		?a: waning motivation
+		?b: cessation of effective weight management behaviors
+
+
+label:    sent_4
+sentence: Our findings indicate a relevant activity of natalizumab against cortical inflammation in RRMS .
+
+ppatt:
+	?a indicate ?b
+		?a: Our findings
+		?b: a relevant activity of natalizumab against cortical inflammation in RRMS
+
+
+label:    sent_5
+sentence: Our results indicate the importance of both genetic vulnerability and life events .
+
+ppatt:
+	?a indicate ?b
+		?a: Our results
+		?b: the importance of both genetic vulnerability and life events
+
+
+label:    sent_6
+sentence: Our findings indicate a strong relationship between sleep EEG activity and cortical maturation .
+
+ppatt:
+	?a indicate ?b
+		?a: Our findings
+		?b: a strong relationship between sleep EEG activity and cortical maturation
+
+
+label:    sent_7
+sentence: TSH-basal values greater than 4.0 mU/L indicate latent or manifest hypothyroidism .
+
+ppatt:
+	?a indicate ?b
+		?a: TSH-basal values greater than 4.0 mU/L
+		?b: latent or manifest hypothyroidism
+
+
+label:    sent_8
+sentence: Adulteration is common and this may indicate that the products are becoming locally endangered .
+
+ppatt:
+	?a is common
+		?a: Adulteration
+	?a may indicate ?b
+		?a: this
+		?b: SOMETHING := the products are becoming locally endangered
+	?a are becoming locally endangered
+		?a: the products
+
+
+label:    sent_9
+sentence: Mechanisms remain unknown , but data indicate that fibroblasts acquire an antiapoptotic phenotype .
+
+ppatt:
+	?a remain unknown
+		?a: Mechanisms
+	?a indicate ?b
+		?a: data
+		?b: SOMETHING := fibroblasts acquire an antiapoptotic phenotype
+	?a acquire ?b
+		?a: fibroblasts
+		?b: an antiapoptotic phenotype
+
+
+label:    sent_10
+sentence: Prospective studies are needed to indicate this possible effect of phenytoin on fistula healing .
+
+ppatt:
+	?a are needed to indicate ?b
+		?a: Prospective studies
+		?b: this possible effect of phenytoin on fistula healing
+
+
+label:    sent_11
+sentence: Scores of five or more are considered to indicate SD .
+
+ppatt:
+	?a are considered to indicate ?b
+		?a: Scores of five or more
+		?b: SD
+
+
+label:    sent_12
+sentence: High STAT5 levels mediate imatinib resistance and indicate disease progression in chronic myeloid leukemia .
+
+ppatt:
+	?a mediate ?b
+		?a: High STAT5 levels
+		?b: imatinib resistance
+	?a indicate ?b
+		?a: High STAT5 levels
+		?b: disease progression in chronic myeloid leukemia
+
+
+label:    sent_13
+sentence: Magnetic measurements indicate superparamagnetic response near room temperature for all PNCs .
+
+ppatt:
+	?a indicate ?b
+		?a: Magnetic measurements
+		?b: superparamagnetic response near room temperature for all PNCs
+
+
+label:    sent_14
+sentence: Despite altered organelle localization , kinetic assays indicate only minor defects in intracellular trafficking .
+
+ppatt:
+	Despite ?a , ?b indicate ?c
+		?a: altered organelle localization
+		?b: kinetic assays
+		?c: only minor defects in intracellular trafficking
+
+
+label:    sent_15
+sentence: In addition , the results indicate an age-related decline in conflict adaptation .
+
+ppatt:
+	In ?a , ?b indicate ?c
+		?a: addition
+		?b: the results
+		?c: an age-related decline in conflict adaptation
+
+
+label:    sent_16
+sentence: In addition , our findings indicate that cops6 plays an anti-apoptotic role during segmentation .
+
+ppatt:
+	In ?a , ?b indicate ?c
+		?a: addition
+		?b: our findings
+		?c: SOMETHING := cops6 plays an anti-apoptotic role during segmentation
+	?a plays ?b during ?c
+		?a: cops6
+		?b: an anti-apoptotic role
+		?c: segmentation
+
+
+label:    sent_17
+sentence: In addition , the data indicate that host genetics underlie the disease 's pathogenesis .
+
+ppatt:
+	In ?a , ?b indicate ?c
+		?a: addition
+		?b: the data
+		?c: SOMETHING := host genetics underlie the disease 's pathogenesis
+	?a underlie ?b
+		?a: host genetics
+		?b: the disease 's pathogenesis
+
+
+label:    sent_18
+sentence: In summary , our results indicate that VH is effective and well tolerated .
+
+ppatt:
+	In ?a , ?b indicate ?c
+		?a: summary
+		?b: our results
+		?c: SOMETHING := VH is effective
+	?a is effective
+		?a: VH
+	?a well tolerated
+		?a: VH
+
+
+label:    sent_19
+sentence: This may either indicate common central mechanisms or suggest a causative interaction .
+
+ppatt:
+	?a may either indicate ?b
+		?a: This
+		?b: common central mechanisms
+	?a suggest ?b
+		?a: This
+		?b: a causative interaction
+
+
+label:    sent_20
+sentence: We then indicate additional similarities between them , and derive a quantitative link .
+
+ppatt:
+	?a then indicate ?b
+		?a: We
+		?b: additional similarities between them
+	?a derive ?b
+		?a: We
+		?b: a quantitative link
+
+
+label:    sent_21
+sentence: The irregular split lines indicate the buffering action and are classified into 3 kinds . GPC3 mRNA is HCC-specific , and may indicate HCC metastasis .
+
+ppatt:
+	?a indicate ?b
+		?a: The irregular split lines
+		?b: the buffering action
+	?a are classified into ?b
+		?a: The irregular split lines
+		?b: 3 kinds
+	?a is HCC-specific
+		?a: GPC3 mRNA
+	?a may indicate ?b
+		?a: GPC3 mRNA
+		?b: HCC metastasis
+
+
+label:    sent_22
+sentence: Whether these murmurs are physiologic or indicate mild aortic stenosis is controversial . ToM deficit means difficulty in social adjustment and thus may indicate a poorer prognosis .
+
+ppatt:
+	?a are physiologic
+		?a: these murmurs
+	?a indicate ?b
+		?a: these murmurs
+		?b: mild aortic stenosis
+	?a means ?b
+		?a: ToM deficit
+		?b: difficulty in social adjustment
+	?a thus may indicate ?b
+		?a: ToM deficit
+		?b: a poorer prognosis
+
+
+label:    sent_23
+sentence: Moreover , five other variants were not identified and indicate being new .
+
+ppatt:
+	Moreover , ?a were not identified
+		?a: five other variants
+	?a indicate being new
+		?a: five other variants
+
+
+label:    sent_24
+sentence: The results are encouraging and indicate that more extensive studies are warranted .
+
+ppatt:
+	?a are encouraging
+		?a: The results
+	?a indicate ?b
+		?a: The results
+		?b: SOMETHING := more extensive studies are warranted
+	?a are warranted
+		?a: more extensive studies
+
+
+label:    sent_25
+sentence: Biochemical findings confirmed dietary inadequacies among Navajo women and indicate needed nutritional improvement .
+
+ppatt:
+	?a confirmed ?b
+		?a: Biochemical findings
+		?b: dietary inadequacies among Navajo women
+	?a indicate ?b
+		?a: Biochemical findings
+		?b: needed nutritional improvement
+
+
+label:    sent_26
+sentence: This is the first study to indicate ENaC expression during ontogeny in amphibians .
+
+ppatt:
+	?a is the first study
+		?a: This
+	?a indicate ?b during ?c
+		?a: the first study
+		?b: ENaC expression
+		?c: ontogeny in amphibians
+
+
+label:    sent_27
+sentence: The alpha/beta-values indicate a significant fractionation effect only for the plateau irradiations .
+
+ppatt:
+	?a indicate ?b for ?c
+		?a: The alpha/beta-values
+		?b: a significant fractionation effect
+		?c: only the plateau irradiations
+
+
+label:    sent_28
+sentence: EGb significantly improved parameters which indicate forebrain protein oxidative damage after IRI .
+
+ppatt:
+	?a significantly improved ?b
+		?a: EGb
+		?b: parameters which indicate forebrain protein oxidative damage after IRI
+	?a indicate ?b
+		?a: parameters
+		?b: forebrain protein oxidative damage after IRI
+
+

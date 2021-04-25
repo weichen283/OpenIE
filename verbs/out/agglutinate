@@ -1,0 +1,341 @@
+label:    sent_1
+sentence: Antibodies were able to bind to the surface of the parasites and agglutinate them .
+
+ppatt:
+	?a were able to bind to ?b
+		?a: Antibodies
+		?b: the surface of the parasites
+	?a agglutinate ?b
+		?a: Antibodies
+		?b: them
+
+
+label:    sent_2
+sentence: Six of the 26 strains tested were unable to agglutinate sheep erythrocytes .
+
+ppatt:
+	?a tested
+		?a: the 26 strains
+	?a were unable to agglutinate ?b
+		?a: Six of the 26 strains tested
+		?b: sheep erythrocytes
+
+
+label:    sent_3
+sentence: Bovine leukaemia virus ( BLV ) was found to agglutinate mouse erythrocytes .
+
+ppatt:
+	?a is/are BLV
+		?a: Bovine leukaemia virus
+	?a was found to agglutinate ?b
+		?a: Bovine leukaemia virus
+		?b: mouse erythrocytes
+
+
+label:    sent_4
+sentence: Although this assay enjoys widespread use , some virus strains do not agglutinate RBCs .
+
+ppatt:
+	?a enjoys ?b
+		?a: this assay
+		?b: widespread use
+	?a do not agglutinate ?b
+		?a: some virus strains
+		?b: RBCs
+
+
+label:    sent_5
+sentence: Tomato lectin could agglutinate monocytes and B lymphocytes as well as T lymphocytes .
+
+ppatt:
+	?a could agglutinate ?b
+		?a: Tomato lectin
+		?b: monocytes
+	?a could agglutinate ?b
+		?a: Tomato lectin
+		?b: B lymphocytes
+	?a could agglutinate ?b
+		?a: Tomato lectin
+		?b: T lymphocytes
+
+
+label:    sent_6
+sentence: Yariv antigens containing alpha-anomeric or thio-glycosidic linkages did not agglutinate protoplasts .
+
+ppatt:
+	?a containing ?b
+		?a: Yariv antigens
+		?b: alpha-anomeric or thio-glycosidic linkages
+	?a did not agglutinate ?b
+		?a: Yariv antigens containing alpha-anomeric or thio-glycosidic linkages
+		?b: protoplasts
+
+
+label:    sent_7
+sentence: The lectin was monomeric and did not agglutinate horse blood or human erythrocytes .
+
+ppatt:
+	?a was monomeric
+		?a: The lectin
+	?a did not agglutinate ?b
+		?a: The lectin
+		?b: horse blood
+	?a did not agglutinate ?b
+		?a: The lectin
+		?b: human erythrocytes
+
+
+label:    sent_8
+sentence: Fibrinogen --its role in platelet agglutination and agglutinate stability .
+
+ppatt:
+	?a --its ?b in ?c
+		?a: Fibrinogen
+		?b: role
+		?c: platelet agglutination
+	?a agglutinate ?b
+		?a: Fibrinogen
+		?b: stability
+
+
+label:    sent_9
+sentence: The lectin agglutinates rabbit erythrocytes but does not agglutinate human erythrocytes .
+
+ppatt:
+	?a agglutinates ?b
+		?a: The lectin
+		?b: rabbit erythrocytes
+	?a does not agglutinate ?b
+		?a: The lectin
+		?b: human erythrocytes
+
+
+label:    sent_10
+sentence: The ability of cestode coracidia to agglutinate in homologous antiserum was established .
+
+ppatt:
+	?a agglutinate in ?b
+		?a: The ability of cestode coracidia
+		?b: homologous antiserum
+	?a was established
+		?a: The ability of cestode coracidia to agglutinate in homologous antiserum
+
+
+label:    sent_11
+sentence: The coated erythrocytes were found to agglutinate specifically by anti-A antibodies .
+
+ppatt:
+	?a were found to agglutinate specifically by ?b
+		?a: The coated erythrocytes
+		?b: anti-A antibodies
+
+
+label:    sent_12
+sentence: Flagella appear to agglutinate at random points on their surface .
+
+ppatt:
+	?a appear to agglutinate at ?b on ?c
+		?a: Flagella
+		?b: random points
+		?c: their surface
+
+
+label:    sent_13
+sentence: Recombinant FcLec4 could agglutinate both Gram-positive and -negative bacteria in the presence of calcium .
+
+ppatt:
+	?a could agglutinate ?b ?c of ?d
+		?a: Recombinant FcLec4
+		?b: Gram-positive
+		?c: bacteria
+		?d: calcium
+	?a could agglutinate ?b ?c of ?d
+		?a: Recombinant FcLec4
+		?b: -negative
+		?c: bacteria
+		?d: calcium
+
+
+label:    sent_14
+sentence: Recombinant FcLec3 could agglutinate Gram-negative and -positive bacteria with the presence of calcium .
+
+ppatt:
+	?a could agglutinate ?b with ?c
+		?a: Recombinant FcLec3
+		?b: Gram-negative and -positive bacteria
+		?c: the presence of calcium
+
+
+label:    sent_15
+sentence: The results show that agglutinate size decreases with decreasing CRP concentration .
+
+ppatt:
+	?a show ?b
+		?a: The results
+		?b: SOMETHING := that agglutinate size decreases with decreasing CRP concentration
+	?a ?b decreases
+		?a: SOMETHING := agglutinate
+		?b: size
+	?a decreasing ?b
+		?a: agglutinate
+		?b: CRP concentration
+
+
+label:    sent_16
+sentence: Chlamydomonas eugametos gametes can sexually agglutinate via their flagellar surfaces whereas vegetative cells can not .
+
+ppatt:
+	?a can sexually agglutinate via ?b
+		?a: Chlamydomonas eugametos gametes
+		?b: their flagellar surfaces
+	?a can not
+		?a: vegetative cells
+
+
+label:    sent_17
+sentence: Chlamydomonas eugametos gametes agglutinate sexually by their flagellar surfaces .
+
+ppatt:
+	?a agglutinate sexually by ?b
+		?a: Chlamydomonas eugametos gametes
+		?b: their flagellar surfaces
+
+
+label:    sent_18
+sentence: Moreover , they did not agglutinate in acriflavin .
+
+ppatt:
+	Moreover , ?a did not agglutinate in ?b
+		?a: they
+		?b: acriflavin
+
+
+label:    sent_19
+sentence: The bacteria could significantly agglutinate yeast and lost this ability after protease K treatment .
+
+ppatt:
+	?a could significantly agglutinate ?b
+		?a: The bacteria
+		?b: yeast
+	?a lost ?b after ?c
+		?a: The bacteria
+		?b: this ability
+		?c: protease K treatment
+
+
+label:    sent_20
+sentence: The former antibodies agglutinate thylakoids and inhibit PMS cyclic photophosphorylation .
+
+ppatt:
+	?a agglutinate ?b
+		?a: The former antibodies
+		?b: thylakoids
+	?a inhibit ?b
+		?a: The former antibodies
+		?b: PMS cyclic photophosphorylation
+
+
+label:    sent_21
+sentence: The antibodies did not agglutinate serotype 1 or nontypable B. pertussis cells .
+
+ppatt:
+	?a did not agglutinate ?b
+		?a: The antibodies
+		?b: serotype 1
+	?a did not agglutinate ?b
+		?a: The antibodies
+		?b: nontypable B. pertussis cells
+
+
+label:    sent_22
+sentence: At a temperature of 37 degrees C the agglutinate broke down within 15 minutes .
+
+ppatt:
+	At ?a ?b broke down within ?c
+		?a: a temperature of 37 degrees C
+		?b: the agglutinate
+		?c: 15 minutes
+
+
+label:    sent_23
+sentence: Histones only weakly agglutinate type II erythrocytes in contrast to the lectin .
+
+ppatt:
+	?a only weakly agglutinate ?b in ?c
+		?a: Histones
+		?b: type II erythrocytes
+		?c: contrast to the lectin
+
+
+label:    sent_24
+sentence: In addition the anti-flagellin did not agglutinate P. aeruginosa and B. cepacia .
+
+ppatt:
+	In ?a ?b did not agglutinate ?c
+		?a: addition
+		?b: the anti-flagellin
+		?c: P. aeruginosa
+	In ?a ?b did not agglutinate ?c
+		?a: addition
+		?b: the anti-flagellin
+		?c: B. cepacia
+
+
+label:    sent_25
+sentence: First , Dsp cells were unable to agglutinate or secrete this extracellular material .
+
+ppatt:
+	First , ?a were unable to agglutinate ?b
+		?a: Dsp cells
+		?b: this extracellular material
+	First , ?a were unable to secrete
+		?a: Dsp cells
+
+
+label:    sent_26
+sentence: Phytohemagglutinin causes cultured lymphocytes to agglutinate , divide , and produce gamma-globulin .
+
+ppatt:
+	?a causes ?b to agglutinate
+		?a: Phytohemagglutinin
+		?b: cultured lymphocytes
+	?a divide
+		?a: Phytohemagglutinin
+	?a produce ?b
+		?a: Phytohemagglutinin
+		?b: gamma-globulin
+
+
+label:    sent_27
+sentence: Anti-OmpU serum did not agglutinate strain 86B3 or other V. cholerae organisms .
+
+ppatt:
+	?a did not agglutinate ?b
+		?a: Anti-OmpU serum
+		?b: strain 86B3
+	?a did not agglutinate ?b
+		?a: Anti-OmpU serum
+		?b: other V. cholerae organisms
+
+
+label:    sent_28
+sentence: When the organ is incubated with polycationic ferritin before fixation the sensory hairs agglutinate .
+
+ppatt:
+	When ?a is incubated with ?b before ?c
+		?a: the organ
+		?b: polycationic ferritin
+		?c: fixation
+	?a agglutinate
+		?a: the sensory hairs
+
+
+label:    sent_29
+sentence: Sera of new-borns did not agglutinate Tn-erythrocytes .
+
+ppatt:
+	?a did not agglutinate ?b
+		?a: Sera of new-borns
+		?b: Tn-erythrocytes
+
+

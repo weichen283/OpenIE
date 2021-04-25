@@ -1,0 +1,298 @@
+label:    sent_1
+sentence: Newly corrected data from the remaining three systems generally corroborate this increase .
+
+ppatt:
+	?a generally corroborate ?b
+		?a: Newly corrected data from the remaining three systems
+		?b: this increase
+
+
+label:    sent_2
+sentence: These prospective findings corroborate recommendations from previous cross-sectional studies . Numerical simulations corroborate the analytic predictions with good precision .
+
+ppatt:
+	?a corroborate ?b
+		?a: These prospective findings
+		?b: recommendations from previous cross-sectional studies
+	?a corroborate ?b
+		?a: Numerical simulations
+		?b: the analytic predictions with good precision
+
+
+label:    sent_3
+sentence: However , controlled studies are needed to corroborate the results we found .
+
+ppatt:
+	However , ?a are needed to corroborate ?b
+		?a: controlled studies
+		?b: the results
+	?a found
+		?a: we
+
+
+label:    sent_4
+sentence: Evaluation of treatment response requires objective data to corroborate subjective impressions .
+
+ppatt:
+	?a requires ?b
+		?a: Evaluation of treatment response
+		?b: objective data to corroborate subjective impressions
+	?a corroborate ?b
+		?a: objective data
+		?b: subjective impressions
+
+
+label:    sent_5
+sentence: Exploratory factor analysis was used to corroborate the allocation of items to domains .
+
+ppatt:
+	?a was used to corroborate ?b
+		?a: Exploratory factor analysis
+		?b: the allocation of items to domains
+
+
+label:    sent_6
+sentence: The findings corroborate prior explanations and implicate new ones . Our findings corroborate recent molecular hypotheses , but also identify several hitherto unrecognized relationships .
+
+ppatt:
+	?a corroborate ?b
+		?a: The findings
+		?b: prior explanations
+	?a implicate ?b
+		?a: The findings
+		?b: new ones
+	?a corroborate ?b
+		?a: Our findings
+		?b: recent molecular hypotheses
+	?a also identify ?b
+		?a: Our findings
+		?b: several hitherto unrecognized relationships
+
+
+label:    sent_7
+sentence: Limited prospective data corroborate these findings , but larger prospective studies are urgently required .
+
+ppatt:
+	?a corroborate ?b
+		?a: Limited prospective data
+		?b: these findings
+	?a are urgently required
+		?a: larger prospective studies
+
+
+label:    sent_8
+sentence: We corroborate our experimental transport directions by comparing experimental with theoretical transport phase diagrams .
+
+ppatt:
+	?a corroborate ?b
+		?a: We
+		?b: our experimental transport directions
+	?a comparing ?b with ?c
+		?a: We
+		?b: experimental
+		?c: theoretical transport phase diagrams
+
+
+label:    sent_9
+sentence: Cox survival analyses corroborate these findings from multiple sequential logistic regression analyses .
+
+ppatt:
+	?a corroborate ?b from ?c
+		?a: Cox survival analyses
+		?b: these findings
+		?c: multiple sequential logistic regression analyses
+
+
+label:    sent_10
+sentence: The study results corroborate caffeine as an alternative as an important Ae . Further studies are needed to corroborate findings and elucidate mechanism of action .
+
+ppatt:
+	?a corroborate ?b as ?c
+		?a: The study results
+		?b: caffeine
+		?c: an alternative as an important Ae
+	?a are needed to corroborate ?b
+		?a: Further studies
+		?b: findings
+	?a are needed to elucidate ?b
+		?a: Further studies
+		?b: mechanism of action
+
+
+label:    sent_11
+sentence: Further investigation may be needed to corroborate the mechanism or bring up reliable reasons .
+
+ppatt:
+	?a may be needed to corroborate ?b
+		?a: Further investigation
+		?b: the mechanism
+	?a may be needed to bring ?b
+		?a: Further investigation
+		?b: up reliable reasons
+
+
+label:    sent_12
+sentence: It is usually self-limiting and may corroborate success . Data obtained from this study population corroborate previously defined normal amniotic fluid volumes .
+
+ppatt:
+	?a is usually self-limiting
+		?a: It
+	?a may corroborate ?b
+		?a: It
+		?b: success
+	?a obtained from ?b
+		?a: Data
+		?b: this study population
+	?a corroborate ?b
+		?a: Data obtained from this study population
+		?b: previously defined normal amniotic fluid volumes
+
+
+label:    sent_13
+sentence: Our results corroborate the nonentity of the celiac compression syndrome .
+
+ppatt:
+	?a corroborate ?b
+		?a: Our results
+		?b: the nonentity of the celiac compression syndrome
+
+
+label:    sent_14
+sentence: These results corroborate that basidiomycetes can be a rich source of potential antiviral compounds .
+
+ppatt:
+	?a corroborate ?b
+		?a: These results
+		?b: SOMETHING := basidiomycetes can be a rich source of potential antiviral compounds
+	?a can be a rich source of ?b
+		?a: basidiomycetes
+		?b: potential antiviral compounds
+
+
+label:    sent_15
+sentence: We presen additional evidence to corroborate the existence of S. perla as a species .
+
+ppatt:
+	?a presen ?b
+		?a: We
+		?b: additional evidence to corroborate the existence of S. perla as a species
+	?a corroborate ?b
+		?a: additional evidence
+		?b: the existence of S. perla as a species
+
+
+label:    sent_16
+sentence: Furthermore , we aimed to corroborate our findings in a humanized mouse model .
+
+ppatt:
+	Furthermore , ?a aimed to corroborate ?b
+		?a: we
+		?b: our findings in a humanized mouse model
+
+
+label:    sent_17
+sentence: Additional research is needed to corroborate these findings in other nurse samples and settings .
+
+ppatt:
+	?a is needed to corroborate ?b
+		?a: Additional research
+		?b: these findings nurse
+
+
+label:    sent_18
+sentence: These findings corroborate and extend observations linking cognitive impairment and ambulation .
+
+ppatt:
+	?a corroborate ?b
+		?a: These findings
+		?b: observations linking cognitive impairment and ambulation
+	?a extend
+		?a: These findings
+	?a linking ?b
+		?a: observations
+		?b: cognitive impairment
+	?a linking ?b
+		?a: observations
+		?b: ambulation
+
+
+label:    sent_19
+sentence: These findings corroborate and extend previous results showing deficits in emotion perception in FTLD .
+
+ppatt:
+	?a corroborate ?b
+		?a: These findings
+		?b: previous results showing deficits in emotion perception in FTLD
+	?a extend
+		?a: These findings
+	?a showing ?b
+		?a: previous results
+		?b: deficits in emotion perception in FTLD
+
+
+label:    sent_20
+sentence: These results partially corroborate and extend stimuli were presented tachistoscopically or dichotically .
+
+ppatt:
+	?a partially corroborate
+		?a: These results
+	?a extend
+		?a: These results
+	?a were presented tachistoscopically or dichotically
+		?a: stimuli
+
+
+label:    sent_21
+sentence: Further research is needed to corroborate and specify these assumptions .
+
+ppatt:
+	?a is needed to corroborate ?b
+		?a: Further research
+		?b: these assumptions
+	?a is needed to specify
+		?a: Further research
+
+
+label:    sent_22
+sentence: Larger comparative studies are required to corroborate or contest these findings .
+
+ppatt:
+	?a are required to corroborate ?b
+		?a: Larger comparative studies
+		?b: these findings
+	?a are required to contest
+		?a: Larger comparative studies
+
+
+label:    sent_23
+sentence: Further studies are also needed to corroborate or dispute these findings .
+
+ppatt:
+	?a are also needed to corroborate ?b
+		?a: Further studies
+		?b: these findings
+	?a are also needed to dispute
+		?a: Further studies
+
+
+label:    sent_24
+sentence: These results corroborate well with microarray gene expression data . The results thus corroborate with the traditionally acclaimed hair growth-promoting capabilities of the plants .
+
+ppatt:
+	?a corroborate well with ?b
+		?a: These results
+		?b: microarray gene expression data
+	?a thus corroborate with ?b
+		?a: The results
+		?b: the traditionally acclaimed hair growth-promoting capabilities of the plants
+
+
+label:    sent_25
+sentence: Study results corroborate with research .
+
+ppatt:
+	?a corroborate with ?b
+		?a: Study results
+		?b: research
+
+

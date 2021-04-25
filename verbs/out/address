@@ -1,0 +1,301 @@
+label:    sent_1
+sentence: New ut-endoscopes are being designed to address these limitations .
+
+ppatt:
+	?a are being designed to address ?b
+		?a: New ut-endoscopes
+		?b: these limitations
+
+
+label:    sent_2
+sentence: Evidence-based interventions to address these needs are lacking .
+
+ppatt:
+	?a address ?b
+		?a: Evidence-based interventions
+		?b: these needs
+	?a are lacking
+		?a: Evidence-based interventions to address these needs
+
+
+label:    sent_3
+sentence: Several evidence-based policies are recommended to address this public health problem .
+
+ppatt:
+	?a are recommended to address ?b
+		?a: Several evidence-based policies
+		?b: this public health problem
+
+
+label:    sent_4
+sentence: Here we address the problem of describing interactions among triplets of neurons .
+
+ppatt:
+	Here ?a address ?b
+		?a: we
+		?b: the problem of describing interactions among triplets of neurons
+	?a describing ?b
+		?a: the problem
+		?b: interactions among triplets of neurons
+
+
+label:    sent_5
+sentence: Furthermore , we briefly address the topic of keratin-related skin disorders .
+
+ppatt:
+	Furthermore , ?a briefly address ?b
+		?a: we
+		?b: the topic of keratin-related skin disorders
+
+
+label:    sent_6
+sentence: Interview questions address perception of the psychosocial services offered within their cancer care organizations .
+
+ppatt:
+	?a address ?b
+		?a: Interview questions
+		?b: perception of the psychosocial services offered within their cancer care organizations
+	?a offered within ?b
+		?a: the psychosocial services
+		?b: their cancer care organizations
+
+
+label:    sent_7
+sentence: In this report we address gynecologic malignancies as they relate to future fertility potential .
+
+ppatt:
+	In ?a ?b address ?c
+		?a: this report
+		?b: we
+		?c: gynecologic malignancies
+	?a relate to ?b
+		?a: they
+		?b: future fertility potential
+
+
+label:    sent_8
+sentence: In this study we address the efficacy of proteoliposome fusion with planar membrane arrays .
+
+ppatt:
+	In ?a ?b address ?c
+		?a: this study
+		?b: we
+		?c: the efficacy of proteoliposome fusion with planar membrane arrays
+
+
+label:    sent_9
+sentence: In this four-part review , we address these costs . Traditional emergency medicine training may fail to address hospice as a system of care .
+
+ppatt:
+	In ?a , ?b address ?c ?d
+		?a: this four-part review
+		?b: we
+		?c: these costs
+		?d: SOMETHING := Traditional emergency medicine training may fail to address hospice as a system of care
+	?a may fail to address ?b as ?c
+		?a: Traditional emergency medicine training
+		?b: hospice
+		?c: a system of care
+
+
+label:    sent_10
+sentence: The present study sought to address this gap by using a resource depletion paradigm .
+
+ppatt:
+	?a sought to address ?b
+		?a: The present study
+		?b: this gap
+	?a using ?b
+		?a: The present study
+		?b: a resource depletion paradigm
+
+
+label:    sent_11
+sentence: How to address barriers to peritoneal dialysis in the elderly .
+
+ppatt:
+	How to address ?a
+		?a: barriers to peritoneal dialysis in the elderly
+
+
+label:    sent_12
+sentence: Communicating with families : a challenge we can and must address ! Identify and address organizationwide risk .
+
+ppatt:
+	Communicating with ?a ?b
+		?a: families
+		?b: a challenge
+	?a can must address ! Identify ?b
+		?a: we
+		?b: organizationwide risk
+	?a can must address ! address
+		?a: we
+
+
+label:    sent_13
+sentence: This study aimed to address behavioural attributes and identify the sources of NG infection .
+
+ppatt:
+	?a aimed to address ?b
+		?a: This study
+		?b: behavioural attributes
+	?a aimed to identify ?b
+		?a: This study
+		?b: the sources of NG infection
+
+
+label:    sent_14
+sentence: Here we address these criticisms and show them to be untenable . National drug policy must address VSM and develop strategies to reduce demand and supply .
+
+ppatt:
+	Here ?a address ?b
+		?a: we
+		?b: these criticisms
+	?a show ?b to be untenable
+		?a: we
+		?b: them
+	?a must address ?b
+		?a: National drug policy
+		?b: VSM
+	?a develop ?b
+		?a: National drug policy
+		?b: strategies to reduce demand and supply
+	?a reduce ?b
+		?a: strategies
+		?b: demand
+	?a reduce ?b
+		?a: strategies
+		?b: supply
+
+
+label:    sent_15
+sentence: These criteria address only primary triage and do not consider secondary triage .
+
+ppatt:
+	?a address ?b
+		?a: These criteria
+		?b: only primary triage
+	?a do not consider ?b
+		?a: These criteria
+		?b: secondary triage
+
+
+label:    sent_16
+sentence: Here we address that Wip1 displays dose-dependent responses to UVC irradiation .
+
+ppatt:
+	Here ?a address ?b
+		?a: we
+		?b: SOMETHING := Wip1 displays dose-dependent responses to UVC irradiation
+	?a displays ?b to ?c
+		?a: Wip1
+		?b: dose-dependent responses
+		?c: UVC irradiation
+
+
+label:    sent_17
+sentence: Here we address whether serotonin affects epithelial turnover .
+
+ppatt:
+	Here ?a address ?b
+		?a: we
+		?b: SOMETHING := serotonin affects epithelial turnover
+	?a affects ?b
+		?a: serotonin
+		?b: epithelial turnover
+
+
+label:    sent_18
+sentence: Cases were address geocoded in a digital map . Many of these questions are difficult to address in natural systems .
+
+ppatt:
+	?a were address geocoded in ?b
+		?a: Cases
+		?b: a digital map
+	?a are difficult to address in ?b
+		?a: Many of these questions
+		?b: natural systems
+
+
+label:    sent_19
+sentence: Dress styles and forms of address vary among psychiatrists according to personal preferences .
+
+ppatt:
+	?a vary among ?b
+		?a: Dress styles
+		?b: psychiatrists according to personal preferences
+	?a vary among ?b
+		?a: forms of address
+		?b: psychiatrists according to personal preferences
+
+
+label:    sent_20
+sentence: Imaging and stereotactic techniques produce inaccuracy that may be address by physiological localization .
+
+ppatt:
+	?a produce ?b
+		?a: Imaging
+		?b: inaccuracy that may be address by physiological localization
+	?a produce ?b
+		?a: stereotactic
+		?b: inaccuracy that may be address by physiological localization
+	?a may be address by ?b
+		?a: inaccuracy
+		?b: physiological localization
+
+
+label:    sent_21
+sentence: Curricula should address how to plan family education courses .
+
+ppatt:
+	?a should address how to plan ?b
+		?a: Curricula
+		?b: family education courses
+
+
+label:    sent_22
+sentence: In this paper we address why flashing stimuli modulate the visibility of the stimuli .
+
+ppatt:
+	In ?a ?b address ?c
+		?a: this paper
+		?b: we
+		?c: SOMETHING := why flashing stimuli modulate the visibility of the stimuli
+	why ?a modulate ?b
+		?a: flashing stimuli
+		?b: the visibility of the stimuli
+
+
+label:    sent_23
+sentence: Cancer : the big questions to address in coming years .
+
+ppatt:
+
+
+
+label:    sent_24
+sentence: In this review , we address this question and highlight directions for further research .
+
+ppatt:
+	In ?a , ?b address ?c
+		?a: this review
+		?b: we
+		?c: this question
+	?a highlight ?b
+		?a: we
+		?b: directions for further research
+
+
+label:    sent_25
+sentence: For successful implementation , leadership must address prevailing attitudes and set realistic expectations .
+
+ppatt:
+	For ?a , ?b must address ?c
+		?a: successful implementation
+		?b: leadership
+		?c: prevailing attitudes
+	?a set ?b
+		?a: leadership
+		?b: realistic expectations
+
+

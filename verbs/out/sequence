@@ -1,0 +1,31 @@
+label:    sent_1
+sentence: Having verified that the peptides apidaecin 1b and Api88-a designer peptide based on the native apidaecin 1b sequence-are highly active against Gram-negative bacteria , we studied their ability to modulate biological activities of human monocytes and mast cells ( MC ) , two important cell types of the human innate immune system .
+
+ppatt:
+	Having verified ?a ?b
+		?a: SOMETHING := the peptides apidaecin 1b and Api88-a designer peptide based on the native apidaecin 1b sequence-are highly active against Gram-negative bacteria
+		?b: we
+	?a apidaecin ?b
+		?a: the peptides
+		?b: 1b
+	?a apidaecin ?b
+		?a: the peptides
+		?b: Api88-a designer peptide
+	?a based on the native apidaecin 1b sequence-are highly active against Gram-negative bacteria
+		?a: the peptides
+	?a studied ?b
+		?a: we
+		?b: their ability to modulate biological activities of human monocytes and mast cells
+	?a modulate ?b
+		?a: their ability
+		?b: biological activities of human monocytes and mast cells
+	?a is/are MC
+		?a: mast cells
+	?a is/are two important cell types of ?b
+		?a: human monocytes
+		?b: the human innate immune system
+	?a is/are two important cell types of ?b
+		?a: mast cells
+		?b: the human innate immune system
+
+

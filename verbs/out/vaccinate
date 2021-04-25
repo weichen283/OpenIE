@@ -1,0 +1,205 @@
+label:    sent_1
+sentence: The main goal of this program is to vaccinate the whole population .
+
+ppatt:
+	?a is to vaccinate ?b
+		?a: The main goal of this program
+		?b: the whole population
+
+
+label:    sent_2
+sentence: Department of Health defends policy not to vaccinate all under-fives .
+
+ppatt:
+	?a defends ?b not to vaccinate ?c
+		?a: Department of Health
+		?b: policy
+		?c: all under-fives
+
+
+label:    sent_3
+sentence: Most common MOV reason : no detection of the need to vaccinate 47.8 % . [Owners willing to vaccinate cats against Toxoplasma ] . There is a national programme in English prisons to vaccinate everyone against Hepatitis B .
+
+ppatt:
+	?a vaccinate ?b ?c
+		?a: the need willing to vaccinate cats against Toxoplasma ]
+		?b: 47.8 %
+		?c: [Owners
+	?a willing to vaccinate ?b against ?c
+		?a: the need to vaccinate 47.8 % [Owners
+		?b: cats
+		?c: Toxoplasma ]
+	?a ?b There is ?c to vaccinate ?d against ?e
+		?a: Most common MOV reason
+		?b: no detection of the need to vaccinate 47.8 % . [Owners willing to vaccinate cats against Toxoplasma ]
+		?c: a national programme in English prisons
+		?d: everyone
+		?e: Hepatitis B
+
+
+label:    sent_4
+sentence: These results underscore the need to vaccinate pre-adolescent girls before initiation of sexual activity . [Is it necessary to vaccinate against measles ? ] . Lines of T lymphocytes induce or vaccinate against autoimmune arthritis .
+
+ppatt:
+	?a underscore ?b
+		?a: These results
+		?b: the need to vaccinate pre-adolescent girls before initiation of sexual activity [Is it necessary to vaccinate against measles
+	?a vaccinate ?b before ?c
+		?a: the need
+		?b: pre-adolescent girls
+		?c: initiation of sexual activity [Is it necessary to vaccinate against measles
+	?a necessary to vaccinate against ?b
+		?a: it
+		?b: measles
+	?a is/are ]
+		?a: measles
+	?a induce against ?b
+		?a: Lines of T lymphocytes
+		?b: autoimmune arthritis
+	?a vaccinate
+		?a: Lines of T lymphocytes
+
+
+label:    sent_5
+sentence: Drug company campaign adds to pressure on Dutch doctors to vaccinate against HPV .
+
+ppatt:
+	?a adds to ?b on ?c to vaccinate against ?d
+		?a: Drug company campaign
+		?b: pressure
+		?c: Dutch doctors
+		?d: HPV
+
+
+label:    sent_6
+sentence: Only 53 ( 11.1 % ) stated that they would vaccinate their children .
+
+ppatt:
+	?a is/are 11.1 %
+		?a: Only 53
+	?a stated ?b
+		?a: Only 53
+		?b: SOMETHING := they would vaccinate their children
+	?a would vaccinate ?b
+		?a: they
+		?b: their children
+
+
+label:    sent_7
+sentence: Health care worker , vaccinate thyself : toward better compliance with influenza vaccination . Just over half of these states also vaccinate detained adolescents .
+
+ppatt:
+	?a vaccinate ?b
+		?a: Health care worker
+		?b: thyself
+	toward ?a over ?b also vaccinate ?c
+		?a: better compliance with influenza vaccination
+		?b: Just half of these states
+		?c: detained adolescents
+
+
+label:    sent_8
+sentence: Emergency settings : be prepared to vaccinate persons aged 15 and over against measles .
+
+ppatt:
+	?a be prepared to vaccinate ?b
+		?a: Emergency settings
+		?b: persons aged 15 and over against measles
+
+
+label:    sent_9
+sentence: We strongly recommend that doctors trace and vaccinate splenectomized individuals . [How and when to vaccinate children ? ] . Willingness of pregnant women to vaccinate themselves and their newborns with the HPV vaccine . [STIKO recommendations .
+
+ppatt:
+	?a strongly recommend ?b
+		?a: We
+		?b: SOMETHING := doctors trace splenectomized individuals . [How . Willingness of pregnant women
+	?a trace ?b ?c ?d
+		?a: doctors
+		?b: splenectomized individuals
+		?c: [How
+		?d: Willingness of pregnant women
+	?a vaccinate
+		?a: doctors
+	?a when to vaccinate ?b to vaccinate ?c ?d
+		?a: doctors
+		?b: children
+		?c: themselves
+		?d: [STIKO recommendations
+	?a when to vaccinate ?b to vaccinate ?c ?d
+		?a: doctors
+		?b: children
+		?c: their newborns with the HPV vaccine
+		?d: [STIKO recommendations
+	?a is/are ]
+		?a: children
+
+
+label:    sent_10
+sentence: Should I vaccinate all patients against influenza ] . We therefore propose this 0,1,4 month schedule to vaccinate CSW in the future . Can we vaccinate against schistosomes ? In a similar way , humans vaccinate in response to threatening epidemics . Optimum age to vaccinate for contagious caprine pleuropneumonia .
+
+ppatt:
+	Should I vaccinate ?a
+		?a: all patients against influenza ]
+	?a therefore propose ?b to vaccinate ?c in ?d
+		?a: We
+		?b: this 0,1,4 month schedule
+		?c: CSW
+		?d: the future
+	Can ?a vaccinate against ?b
+		?a: we
+		?b: schistosomes
+	In ?a , ?b vaccinate in ?c to ?d ?e
+		?a: a similar way
+		?b: humans
+		?c: response
+		?d: threatening epidemics
+		?e: Optimum age to vaccinate for contagious caprine pleuropneumonia
+	?a vaccinate for ?b
+		?a: Optimum age
+		?b: contagious caprine pleuropneumonia
+
+
+label:    sent_11
+sentence: Mostow , MD : why vaccinate the elderly ? . [The Zurich pharmacists will soon vaccinate ] . Time to vaccinate ? Influenza --to vaccinate or not to vaccinate ? Varicella : to vaccinate or not vaccinate ? Varicella : to vaccinate or not vaccinate ?
+
+ppatt:
+	?a why vaccinate ?b ?c
+		?a: Mostow
+		?b: elderly
+		?c: the . [The Zurich pharmacists
+	?a why vaccinate ?b ?c
+		?a: MD
+		?b: elderly
+		?c: the . [The Zurich pharmacists
+	?a will soon vaccinate ?b ?c : to vaccinate
+		?a: Mostow : why vaccinate the elderly . [The Zurich pharmacists
+		?b: ]
+		?c: Time to vaccinate ? Influenza --to vaccinate or not to vaccinate ? Varicella
+	?a will soon vaccinate ?b ?c : to vaccinate
+		?a: MD
+		?b: ]
+		?c: Time to vaccinate ? Influenza --to vaccinate or not to vaccinate ? Varicella
+	?a vaccinate ?b
+		?a: Time
+		?b: Influenza
+	?a vaccinate
+		?a: Influenza
+	not to vaccinate ?a
+		?a: Varicella
+	?a vaccinate ?b
+		?a: Mostow : why vaccinate the elderly . [The Zurich pharmacists
+		?b: Varicella
+	?a vaccinate ?b
+		?a: MD
+		?b: Varicella
+	?a not vaccinate
+		?a: Mostow : why vaccinate the elderly . [The Zurich pharmacists
+	?a not vaccinate
+		?a: MD
+	?a will soon vaccinate : to not vaccinate
+		?a: Mostow : why vaccinate the elderly . [The Zurich pharmacists
+	?a will soon vaccinate : to not vaccinate
+		?a: MD
+
+

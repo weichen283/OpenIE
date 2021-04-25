@@ -1,0 +1,272 @@
+label:    sent_1
+sentence: Our process , which we call " direct imprinting of porous substrates ( DIPS ) " , utilizes reusable stamps with micro- and nanoscale features that are applied directly to a porous material to selectively compress or crush the porous network .
+
+ppatt:
+	?a ?b call " ?c
+		?a: Our process
+		?b: we
+		?c: direct imprinting of porous substrates ( DIPS ) "
+	?a utilizes ?b
+		?a: Our process , which we call " direct imprinting of porous substrates ( DIPS ) "
+		?b: reusable stamps micro- and nanoscale that are applied directly to a porous material to selectively compress or crush the porous network
+	?a are applied directly to ?b to selectively compress ?c
+		?a: reusable stamps micro- and nanoscale
+		?b: a porous material
+		?c: the porous network
+	?a are applied directly to crush
+		?a: that
+
+
+label:    sent_2
+sentence: The remainders were either crush , or crush avulsion amputation .
+
+ppatt:
+	?a were either crush
+		?a: The remainders
+	?a crush avulsion amputation
+		?a: The remainders
+
+
+label:    sent_3
+sentence: The effects of injection location , titer , and time , as well as nerve crush and dexamethasone , were examined .
+
+ppatt:
+	?a were examined
+		?a: The effects of injection location , titer , and time , as well as nerve crush and dexamethasone
+
+
+label:    sent_4
+sentence: Look inside Clinton 's plan , and you can find the elements of a sleek , market-based system -- but his proposed price controls could crush it . Sweeping court decision could crush smog plans , rein in TRI and wetlands rules . Unlike uric acid , the stones crush easily and do not react with uricase .
+
+ppatt:
+	Look inside ?a
+		?a: Clinton 's plan
+	?a can find ?b
+		?a: you
+		?b: the elements of a sleek , system
+	?a could crush ?b
+		?a: his proposed price controls
+		?b: it
+	?a Sweeping ?b
+		?a: you
+		?b: court decision
+	?a could crush ?b Unlike ?c
+		?a: you
+		?b: smog plans
+		?c: uric acid
+	?a could crush ?b Unlike ?c
+		?a: you
+		?b: rein in TRI and wetlands
+		?c: uric acid
+	?a crush easily
+		?a: the stones
+	?a do not react with ?b
+		?a: the stones
+		?b: uricase
+
+
+label:    sent_5
+sentence: Procedures for bifurcation lesions were crush or modified crush technique in 64 , " T " stenting technique in 27 , modified " Y " stenting , kiss stenting , " V " stenting as well as culotte stenting technique in 11 , 5 , 3 and 3 , respectively .
+
+ppatt:
+	?a were crush in ?b
+		?a: Procedures for bifurcation lesions
+		?b: 64 , " T " stenting technique in 27 , modified " Y " stenting , kiss stenting , " V " stenting
+	?a were crush in ?b
+		?a: Procedures for bifurcation lesions
+		?b: culotte stenting technique in 11 , 5 , 3 and 3 , respectively
+	?a modified
+		?a: Procedures for bifurcation lesions
+	?a crush technique
+		?a: Procedures for bifurcation lesions
+	?a modified " ?b
+		?a: 64 , " T " stenting technique in 27
+		?b: Y " stenting
+	modified " ?a ?b
+		?a: Y " stenting
+		?b: culotte stenting technique in 11 , 5 , 3 and 3 , respectively
+	?a modified " ?b
+		?a: 64 , " T " stenting technique in 27
+		?b: kiss stenting
+	modified " ?a ?b
+		?a: kiss stenting
+		?b: culotte stenting technique in 11 , 5 , 3 and 3 , respectively
+	?a modified " ?b
+		?a: 64 , " T " stenting technique in 27
+		?b: V " stenting
+	modified " ?a ?b
+		?a: V " stenting
+		?b: culotte stenting technique in 11 , 5 , 3 and 3 , respectively
+
+
+label:    sent_6
+sentence: The structure of the acute crush and the growing neurites was examined by light and electron microscopy in tissue fixed immediately after the crush had been made .
+
+ppatt:
+	?a was examined by ?b
+		?a: The structure of the acute crush and the growing neurites
+		?b: light in tissue fixed immediately after the crush
+	?a was examined by ?b
+		?a: The structure of the acute crush and the growing neurites
+		?b: electron microscopy
+	?a fixed immediately after ?b
+		?a: tissue
+		?b: the crush
+	?a had been made
+		?a: The structure of the acute crush and the growing neurites
+
+
+label:    sent_7
+sentence: Recent improvement of the crushing apparatus has enabled us to crush the biliary calculus more accurately than before , and moreover , to conduct the procedure without anesthesia , and to treat easily .
+
+ppatt:
+	?a has enabled ?b to crush ?c more accurately than ?d
+		?a: Recent improvement of the crushing apparatus
+		?b: us
+		?c: the biliary calculus
+		?d: before
+	?a has enabled to more to conduct ?b
+		?a: Recent improvement of the crushing apparatus
+		?b: the procedure without anesthesia
+	?a treat easily
+		?a: Recent improvement of the crushing apparatus
+
+
+label:    sent_8
+sentence: Many individuals crush the tablets and snort the product to take advantage of the rapid transmucosal delivery of narcotics . Neptune may crush methane into diamonds .
+
+ppatt:
+	?a crush ?b
+		?a: Many individuals
+		?b: the tablets
+	?a snort ?b to take ?c
+		?a: Many individuals
+		?b: the product
+		?c: advantage of the rapid transmucosal delivery of narcotics
+	?a may crush ?b into ?c
+		?a: Neptune
+		?b: methane
+		?c: diamonds
+
+
+label:    sent_9
+sentence: In order to curb the abuse potential of this drug , many treatment centers and prisons crush Subutex tablets before administering them to patients .
+
+ppatt:
+	order to curb ?a ?b
+		?a: the abuse potential of this drug
+		?b: many treatment centers
+	order to curb ?a ?b
+		?a: the abuse potential of this drug
+		?b: prisons
+	?a crush ?b
+		?a: many treatment centers
+		?b: Subutex tablets
+	?a crush ?b
+		?a: prisons
+		?b: Subutex tablets
+	?a administering ?b to ?c
+		?a: many treatment centers
+		?b: them
+		?c: patients
+	?a administering ?b to ?c
+		?a: prisons
+		?b: them
+		?c: patients
+
+
+label:    sent_10
+sentence: Women who use leaves said they crush them , insert them for several hours , then remove them before intercourse .
+
+ppatt:
+	?a use ?b
+		?a: Women
+		?b: leaves
+	?a said ?b crush ?c
+		?a: Women who use leaves
+		?b: they
+		?c: them
+	?a insert ?b for ?c
+		?a: Women who use leaves
+		?b: them
+		?c: several hours
+	?a then remove ?b before ?c
+		?a: Women who use leaves
+		?b: them
+		?c: intercourse
+
+
+label:    sent_11
+sentence: Here we theoretically examine the hypothesis that the cell rear is shaped by the disassembly clock : the front-to-rear lamellipodial width is defined by the time needed for the actin-adhesion network to disassemble to the point at which the membrane tension can crush this network .
+
+ppatt:
+	Here ?a theoretically examine ?b
+		?a: we
+		?b: the hypothesis that the cell rear is shaped by the disassembly clock
+	?a is shaped by ?b
+		?a: the cell rear
+		?b: the disassembly clock
+	?a is defined by ?b
+		?a: the front-to-rear lamellipodial width
+		?b: the time needed for the actin-adhesion network to disassemble to the point at which the membrane tension can crush this network
+	?a needed for ?b to disassemble to ?c
+		?a: the time
+		?b: the actin-adhesion network
+		?c: the point at which the membrane tension can crush this network
+	?a at ?b can crush ?c
+		?a: the point
+		?b: the membrane tension
+		?c: this network
+
+
+label:    sent_12
+sentence: For consuming buprenorphine the abusers crush the pill , dilute it and them inject the solution i.v .
+
+ppatt:
+	consuming ?a ?b
+		?a: buprenorphine
+		?b: dilute it
+	consuming ?a ?b
+		?a: buprenorphine
+		?b: them
+	?a crush ?b
+		?a: the abusers
+		?b: the pill
+	?a inject ?b
+		?a: dilute it
+		?b: the solution i.v
+	?a inject ?b
+		?a: them
+		?b: the solution i.v
+
+
+label:    sent_13
+sentence: The subgroup of patients who use buprenorphine occasionally only take in when do n't have heroine and clinically they are not so deteriorated .
+
+ppatt:
+	?a use ?b
+		?a: patients
+		?b: buprenorphine
+	?a occasionally only take
+		?a: The subgroup of patients who use buprenorphine
+	?a when do n't have ?b
+		?a: The subgroup of patients who use buprenorphine
+		?b: heroine
+	clinically ?a are not so deteriorated
+		?a: they
+
+
+label:    sent_14
+sentence: Sensorimotor functions are restored by peripheral nerve regeneration with greater success following injuries that crush rather than sever the nerve .
+
+ppatt:
+	?a are restored by ?b
+		?a: Sensorimotor functions
+		?b: peripheral nerve regeneration with greater success following injuries that crush rather than sever the nerve
+	?a crush
+		?a: injuries
+	?a sever ?b
+		?a: that
+		?b: the nerve
+
+

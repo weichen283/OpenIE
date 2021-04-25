@@ -1,0 +1,37 @@
+obj	[Cricothyrotomy in emergency context : assessment of a cannot intubate cannot ventilate scenario ] .	obj@scenario
+obj	Non-invasive ventilation is a technique to ventilate patients without endotracheal intubation and analgosedation .	obj@patients
+obj	[Ventilate or not ventilate the COPD patient ] .	obj@patient
+
+obj#prep	We were unable to ventilate the patient during induction .	obj@patient prep_during@induction
+obj#prep	It was possible to ventilate this isolator by either free-flow or blower operation .	obj@isolator prep_by@free-flow
+obj#prep	Resuscitation bags were originally developed to ventilate patients under emergency conditions .	obj@patients prep_under@conditions
+
+obj#conj	Subjects were taught to insert and ventilate an Ambuman manikin using both devices .	obj@manikin conj_and@taught
+obj#conj	Only 29 % could properly compress and ventilate the mannequin .	obj@mannequin conj_and@compress
+
+prep	Checking the ability to mask ventilate before administering long-acting neuromuscular blocking drugs .	prepc_before@administering
+prep	Thirteen test persons were able to ventilate with the modified URS .	prep_with@URS
+prep	Of the divers , 17 were able to ventilate with the modified LAR V .	prep_with@V
+
+subj#obj	Regarded as least supportive were interventions that encouraged families to ventilate their own emotions .	subj@families obj@emotions
+subj#obj	New ways to ventilate newborns in acute respiratory failure .	subj@ways obj@newborns
+subj#obj	Seventeen per cent of CHCs could not bag-and-mask ventilate a neonate .	subj@Seventeen obj@neonate
+
+conj	Consequently , the crew was advised to ventilate and clean the fresh water tanks .	conj_and@clean
+conj	The surgical airway response team was called due to inability to ventilate or intubate .	conj_or@intubate
+conj	To ventilate , oscillate , or cannulate ?	conj_or@cannulate conj_or@oscillate
+
+subj	Cannot ventilate , difficult to intubate .	subj@Cannot
+subj	Inability to ventilate while using a silicone - based endotracheal tube .	subj@Inability
+subj	Patients are transferred to the brain injury unit as soon as they ventilate spontaneously .	subj@they
+
+subj#prep	Failure to ventilate with the Drager Apollo ( R ) Anesthesia Workstation .	subj@Failure prep_with@Workstation
+subj#prep	The anesthesiologist could not ventilate manually after starting anesthesia .	subj@anesthesiologist prepc_after@starting
+subj#prep	In 31 domestic pigs anesthetized with pentobarbital , the lungs were mechanically ventilate .	subj@lungs prep_in@pigs
+
+subj#obj#prep	Failure of high frequency jet ventilation to ventilate patients adequately during extracorporeal shock-wave lithotripsy .	subj@Failure obj@patients prep_during@lithotripsy
+subj#obj#prep	During ECC , dogs ventilate spontaneously according to classical physiology .	subj@dogs obj@physiology prep_during@ECC prepc_according_to@to
+subj#obj#prep	One way to ventilate patients during fibreoptic intubation .	subj@way obj@patients prep_during@intubation
+
+prep#conj	To ventilate or not to ventilate during cardiopulmonary resuscitation : that is the question .	prep_during@resuscitation conj_or@not
+

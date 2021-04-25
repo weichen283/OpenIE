@@ -1,0 +1,92 @@
+label:    sent_1
+sentence: Mutants of satellite virus P4 that can not derepress their bacteriophage P2 helper .
+
+ppatt:
+	?a can not derepress ?b
+		?a: satellite virus P4
+		?b: their bacteriophage P2 helper
+
+
+label:    sent_2
+sentence: However , NF-E4 does not function with TBP to derepress nucleosome-assembled beta-globin genes .
+
+ppatt:
+	However , ?a does not function with ?b to derepress ?c
+		?a: NF-E4
+		?b: TBP
+		?c: nucleosome-assembled beta-globin genes
+
+
+label:    sent_3
+sentence: The role of galactose is possibly to derepress the latter promoter .
+
+ppatt:
+	?a is possibly to derepress ?b
+		?a: The role of galactose
+		?b: the latter promoter
+
+
+label:    sent_4
+sentence: Mutant versions of BRCA1 lacking trans-activational activity can potentially derepress the IGF-I-R promoter .
+
+ppatt:
+	?a lacking ?b
+		?a: BRCA1
+		?b: trans-activational activity
+	?a can potentially derepress ?b
+		?a: Mutant versions of BRCA1 lacking trans-activational activity
+		?b: the IGF-I-R promoter
+
+
+label:    sent_5
+sentence: Moonlighting bacteriophage proteins derepress staphylococcal pathogenicity islands .
+
+ppatt:
+	?a derepress ?b
+		?a: Moonlighting bacteriophage proteins
+		?b: staphylococcal pathogenicity islands
+
+
+label:    sent_6
+sentence: Dominant negative mutations that derepress lysU expression were isolated in this study . miR-29 downregulation by HCV may derepress extracellular matrix synthesis during HSC activation . B cell-specific and stimulation-responsive enhancers derepress Aicda by overcoming the effects of silencers .
+
+ppatt:
+	?a derepress ?b
+		?a: Dominant negative mutations
+		?b: lysU expression
+	?a were isolated in ?b
+		?a: Dominant negative mutations that derepress lysU expression
+		?b: this study
+	?a may derepress ?b during ?c ?d
+		?a: miR-29 downregulation by HCV
+		?b: extracellular matrix synthesis
+		?c: HSC activation
+		?d: B cell-specific and stimulation-responsive enhancers derepress Aicda
+	?a overcoming ?b
+		?a: miR-29 downregulation by HCV
+		?b: the effects of silencers
+
+
+label:    sent_7
+sentence: However , the two anions appear to derepress by different mechanisms .
+
+ppatt:
+	However , ?a appear to derepress by ?b
+		?a: the two anions
+		?b: different mechanisms
+
+
+label:    sent_8
+sentence: We postulate that high drug concentrations derepress or activate resistance mechanisms .
+
+ppatt:
+	?a postulate ?b
+		?a: We
+		?b: SOMETHING := high drug concentrations derepress resistance mechanisms
+	?a derepress ?b
+		?a: high drug concentrations
+		?b: resistance mechanisms
+	?a activate
+		?a: high drug concentrations
+
+

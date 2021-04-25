@@ -1,0 +1,247 @@
+label:    sent_1
+sentence: A calibration method was used to assure the proper work of the device .
+
+ppatt:
+	?a was used to assure ?b
+		?a: A calibration method
+		?b: the proper work of the device
+
+
+label:    sent_2
+sentence: Sensitivity analysis was carried out to assure the accuracy of the predicted results .
+
+ppatt:
+	?a was carried out to assure ?b
+		?a: Sensitivity analysis
+		?b: the accuracy of the predicted results
+
+
+label:    sent_3
+sentence: Results show that the two schools use different approaches to assure assessment quality .
+
+ppatt:
+	?a show ?b
+		?a: Results
+		?b: SOMETHING := the two schools use different approaches to assure assessment quality
+	?a use ?b to assure ?c
+		?a: the two schools
+		?b: different approaches
+		?c: assessment quality
+
+
+label:    sent_4
+sentence: It is challenging to better assure food safety in informal markets .
+
+ppatt:
+	?a is challenging to better assure ?b
+		?a: It
+		?b: food safety in informal markets
+
+
+label:    sent_5
+sentence: This therapy is able to assure virus-free stage in 20-50 percent of patients .
+
+ppatt:
+	?a is able to assure ?b in ?c
+		?a: This therapy
+		?b: virus-free stage
+		?c: 20-50 percent of patients
+
+
+label:    sent_6
+sentence: In addition , autoclave hydrolysis is used to assure sample dissolution for spectrophotometric measurements .
+
+ppatt:
+	In ?a , ?b is used to assure ?c
+		?a: addition
+		?b: autoclave hydrolysis
+		?c: sample dissolution for spectrophotometric measurements
+
+
+label:    sent_7
+sentence: Recent and/or ongoing studies assure new perspectives to come .
+
+ppatt:
+	?a assure ?b
+		?a: Recent and/or ongoing studies
+		?b: new perspectives to come
+	?a come
+		?a: new perspectives
+
+
+label:    sent_8
+sentence: The combinatorial nature may assure common occurrence of nascent chain-mediated regulation .
+
+ppatt:
+	?a may assure ?b
+		?a: The combinatorial nature
+		?b: common occurrence of nascent chain-mediated regulation
+
+
+label:    sent_9
+sentence: Reflections and proposals to assure quality in molecular diagnostics .
+
+ppatt:
+	?a assure ?b
+		?a: Reflections
+		?b: quality in molecular diagnostics
+	?a assure ?b
+		?a: proposals
+		?b: quality in molecular diagnostics
+
+
+label:    sent_10
+sentence: Chloramphenicol serum concentration is often monitored to assure efficacy and prevent toxicity .
+
+ppatt:
+	?a is often monitored to assure ?b
+		?a: Chloramphenicol serum concentration
+		?b: efficacy
+	?a is often monitored to prevent ?b
+		?a: Chloramphenicol serum concentration
+		?b: toxicity
+
+
+label:    sent_11
+sentence: Local anesthesia lowered the shock risk and assure the safe and precise maneuvers .
+
+ppatt:
+	?a lowered ?b
+		?a: Local anesthesia
+		?b: the shock risk
+	?a assure ?b
+		?a: Local anesthesia
+		?b: the safe and precise maneuvers
+
+
+label:    sent_12
+sentence: The clinical priorities are to assure hemodynamic stability and to correct coagulation abnormalities .
+
+ppatt:
+	?a are to assure ?b
+		?a: The clinical priorities
+		?b: hemodynamic stability
+	?a are to assure ?b
+		?a: The clinical priorities
+		?b: to correct coagulation abnormalities
+
+
+label:    sent_13
+sentence: Few crucial links assure checkpoint efficiency in the yeast cell-cycle network .
+
+ppatt:
+	?a assure ?b
+		?a: Few crucial links
+		?b: checkpoint efficiency in the yeast cell-cycle network
+
+
+label:    sent_14
+sentence: Use of information to assure quality psychological programming in the 1980s .
+
+ppatt:
+	?a assure ?b
+		?a: Use of information
+		?b: quality psychological programming in the 1980s
+
+
+label:    sent_15
+sentence: These properties assure good functional and cosmetic results in reconstructive surgery after burns .
+
+ppatt:
+	?a assure ?b
+		?a: These properties
+		?b: good functional and cosmetic results in reconstructive surgery after burns
+
+
+label:    sent_16
+sentence: These data assure that efficiency of combined operation is higher than a traditional one . Prospective randomized trials assure that groups are comparable except for the intervention used .
+
+ppatt:
+	?a assure ?b
+		?a: These data
+		?b: SOMETHING := efficiency of combined operation is higher than a traditional one
+	?a is higher than ?b
+		?a: efficiency of combined operation
+		?b: a traditional one
+	?a assure ?b
+		?a: Prospective randomized trials
+		?b: SOMETHING := groups are comparable except for the intervention used
+	?a are comparable except for ?b
+		?a: groups
+		?b: the intervention used
+	?a used
+		?a: the intervention
+
+
+label:    sent_17
+sentence: Workers should assure that sessions are confidential .
+
+ppatt:
+	?a should assure ?b
+		?a: Workers
+		?b: SOMETHING := sessions are confidential
+	?a are confidential
+		?a: sessions
+
+
+label:    sent_18
+sentence: Certification programs assure ARV quality but can delay uptake of new formulations .
+
+ppatt:
+	?a assure ?b
+		?a: Certification programs
+		?b: ARV quality
+	?a can delay ?b
+		?a: Certification programs
+		?b: uptake of new formulations
+
+
+label:    sent_19
+sentence: Only a Canadian-style single-payer reform can assure universal coverage and simultaneously contain costs .
+
+ppatt:
+	?a can assure ?b
+		?a: Only a Canadian-style single-payer reform
+		?b: universal coverage
+	?a simultaneously contain ?b
+		?a: Only a Canadian-style single-payer reform
+		?b: costs
+
+
+label:    sent_20
+sentence: Careful dissection will assure preservation of the nerve and prevent sensory or motor loss . Palliative thoracic surgical interventions aim to assure or to improve quality of life .
+
+ppatt:
+	?a will assure ?b ?c
+		?a: Careful dissection
+		?b: preservation of the nerve
+		?c: Palliative thoracic surgical interventions aim
+	?a prevent ?b to assure
+		?a: Careful dissection
+		?b: sensory or motor loss
+	?a prevent to to improve ?b
+		?a: Careful dissection
+		?b: quality of life
+
+
+label:    sent_21
+sentence: Day-time activities structure the day and assure additional professional presence in the unit .
+
+ppatt:
+	?a structure ?b
+		?a: Day-time activities
+		?b: the day
+	?a assure ?b
+		?a: Day-time activities
+		?b: additional professional presence in the unit
+
+
+label:    sent_22
+sentence: The implementation of back-up schemes assure against data losses .
+
+ppatt:
+	?a assure against ?b
+		?a: The implementation of back-up schemes
+		?b: data losses
+
+

@@ -1,0 +1,298 @@
+label:    sent_1
+sentence: We have previously reported that NO may signal axonal injury to neighboring glial cells .
+
+ppatt:
+	?a have previously reported ?b
+		?a: We
+		?b: SOMETHING := NO may signal axonal injury to neighboring glial cells
+	?a may signal ?b to ?c
+		?a: NO
+		?b: axonal injury
+		?c: neighboring glial cells
+
+
+label:    sent_2
+sentence: The influence of white matter fibre orientation on MR signal phase and decay .
+
+ppatt:
+
+
+
+label:    sent_3
+sentence: Our results also indicate that dACC neurons do not signal conflict .
+
+ppatt:
+	?a also indicate ?b
+		?a: Our results
+		?b: SOMETHING := dACC neurons do not signal conflict
+	?a do not signal ?b
+		?a: dACC neurons
+		?b: conflict
+
+
+label:    sent_4
+sentence: Different lipids signal into a remarkable range of biological processes .
+
+ppatt:
+	?a signal into ?b
+		?a: Different lipids
+		?b: a remarkable range of biological processes
+
+
+label:    sent_5
+sentence: Effective homodyne optical phase locking to PSK signal by means of 8b10b line coding .
+
+ppatt:
+	?a locking to ?b of ?c
+		?a: Effective homodyne optical phase
+		?b: PSK signal
+		?c: 8b10b line coding
+
+
+label:    sent_6
+sentence: Standardization of the electromyographic signal through the maximum isometric voluntary contraction .
+
+ppatt:
+
+
+
+label:    sent_7
+sentence: To signal a conjunction of many inputs negative regulation is likely . An MMP liberates the Ninjurin A ectodomain to signal a loss of cell adhesion .
+
+ppatt:
+	signal ?a ?b
+		?a: a conjunction of many inputs
+		?b: negative regulation
+	?a is likely . ?b liberates ?c to signal ?d
+		?a: negative regulation
+		?b: An MMP
+		?c: the Ninjurin A ectodomain
+		?d: a loss of cell adhesion
+
+
+label:    sent_8
+sentence: Defects in assembly are suggested to signal the dissociation of faulty splicing complexes .
+
+ppatt:
+	?a are suggested to signal ?b
+		?a: Defects in assembly
+		?b: the dissociation of faulty splicing complexes
+
+
+label:    sent_9
+sentence: They also signal host root proximity during symbiotic and parasitic interactions . Emotional stimuli signal significance in a situation .
+
+ppatt:
+	?a also signal ?b ?c
+		?a: They
+		?b: host root proximity
+		?c: during symbiotic and parasitic interactions
+	?a signal ?b in ?c
+		?a: Emotional stimuli
+		?b: significance
+		?c: a situation
+
+
+label:    sent_10
+sentence: Bone marrow signal alteration in the extremities .
+
+ppatt:
+
+
+
+label:    sent_11
+sentence: Angioblasts then signal back to the gut endoderm to induce Pdx1 expression .
+
+ppatt:
+	?a then signal back to ?b to induce ?c
+		?a: Angioblasts
+		?b: the gut endoderm
+		?c: Pdx1 expression
+
+
+label:    sent_12
+sentence: CXCR4 physically associates with the T cell receptor to signal in T cells .
+
+ppatt:
+	?a physically associates with ?b to signal in ?c
+		?a: CXCR4
+		?b: the T cell receptor
+		?c: T cells
+
+
+label:    sent_13
+sentence: From NMR signal to MR image .
+
+ppatt:
+
+
+
+label:    sent_14
+sentence: Biosynthesis of a bacterial communication signal .
+
+ppatt:
+
+
+
+label:    sent_15
+sentence: Beta isoforms signal was abundant and displayed an isoform-specific picture .
+
+ppatt:
+	?a was abundant
+		?a: Beta isoforms signal
+	?a displayed ?b
+		?a: Beta isoforms signal
+		?b: an isoform-specific picture
+
+
+label:    sent_16
+sentence: It would also signal that influenza preparedness had become part of the European mindset .
+
+ppatt:
+	?a would also signal ?b
+		?a: It
+		?b: SOMETHING := influenza preparedness had become part of the European mindset
+	?a had become part of ?b
+		?a: influenza preparedness
+		?b: the European mindset
+
+
+label:    sent_17
+sentence: Memory lapses are usually normal , but some may signal deeper problems .
+
+ppatt:
+	?a are usually normal
+		?a: Memory lapses
+	?a may signal ?b
+		?a: some
+		?b: deeper problems
+
+
+label:    sent_18
+sentence: Glucocorticoids and progestins signal the initiation and enhance the rate of myelin formation .
+
+ppatt:
+	?a signal ?b
+		?a: Glucocorticoids
+		?b: the initiation
+	?a signal ?b
+		?a: progestins
+		?b: the initiation
+	?a enhance ?b
+		?a: Glucocorticoids
+		?b: the rate of myelin formation
+	?a enhance ?b
+		?a: progestins
+		?b: the rate of myelin formation
+
+
+label:    sent_19
+sentence: This surplus of hair may be normal or it may signal hypertrichosis or hirsutism .
+
+ppatt:
+	?a may be normal
+		?a: This surplus of hair
+	?a may signal ?b
+		?a: it
+		?b: hypertrichosis
+	?a may signal ?b
+		?a: it
+		?b: hirsutism
+
+
+label:    sent_20
+sentence: It is well known that magnetic susceptibility variations lead to signal voids in MRI .
+
+ppatt:
+	?a is well known ?b
+		?a: It
+		?b: SOMETHING := magnetic susceptibility variations lead to signal voids in MRI
+	?a lead to ?b
+		?a: magnetic susceptibility variations
+		?b: signal voids in MRI
+
+
+label:    sent_21
+sentence: RacGAP50C is sufficient to signal cleavage furrow formation during cytokinesis .
+
+ppatt:
+	?a is sufficient to signal ?b during ?c
+		?a: RacGAP50C
+		?b: cleavage furrow formation
+		?c: cytokinesis
+
+
+label:    sent_22
+sentence: Ribozyme-mediated signal augmentation on a mass-sensitive biosensor .
+
+ppatt:
+
+
+
+label:    sent_23
+sentence: Numerous G-protein-coupled receptors signal to these GTPases , but with different specificities .
+
+ppatt:
+	?a signal to ?b
+		?a: Numerous G-protein-coupled receptors
+		?b: these GTPases
+
+
+label:    sent_24
+sentence: Injurious environmental stimuli signal through PKCs and cause a variety of disorders .
+
+ppatt:
+	?a signal through ?b
+		?a: Injurious environmental stimuli
+		?b: PKCs
+	?a cause ?b
+		?a: Injurious environmental stimuli
+		?b: a variety of disorders
+
+
+label:    sent_25
+sentence: Both mediators signal through different mechanisms , yet they are dependent on NFkappaB .
+
+ppatt:
+	?a signal through ?b
+		?a: Both mediators
+		?b: different mechanisms
+	?a are dependent on ?b
+		?a: they
+		?b: NFkappaB
+
+
+label:    sent_26
+sentence: In these cases we can have no signal attenuation , and even signal amplification .
+
+ppatt:
+	In ?a ?b can have ?c
+		?a: these cases
+		?b: we
+		?c: no signal attenuation
+
+
+label:    sent_27
+sentence: These susceptibility artifacts will cause geometric distortions and signal loss in reconstructed images .
+
+ppatt:
+	?a will cause ?b
+		?a: These susceptibility artifacts
+		?b: geometric distortions in reconstructed images
+	?a will cause ?b
+		?a: These susceptibility artifacts
+		?b: signal loss
+
+
+label:    sent_28
+sentence: They project to the posterior insular cortex and signal pleasant aspects of touch .
+
+ppatt:
+	?a project to ?b
+		?a: They
+		?b: the posterior insular cortex
+	?a project to ?b
+		?a: They
+		?b: signal pleasant aspects of touch
+
+

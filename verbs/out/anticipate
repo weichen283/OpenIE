@@ -1,0 +1,321 @@
+label:    sent_1
+sentence: Therefore , we anticipate less long-term arthrosis in the patients treated this way . Surgeons are confronted with IR injury ( IRI ) more often than they anticipate .
+
+ppatt:
+	Therefore , ?a anticipate ?b
+		?a: we
+		?b: less long-term arthrosis in the patients treated this way
+	?a treated ?b
+		?a: the patients
+		?b: this way
+	?a are confronted with ?b more often
+		?a: Surgeons
+		?b: IR injury
+	?a is/are IRI
+		?a: IR injury
+	?a anticipate
+		?a: they
+
+
+label:    sent_2
+sentence: We anticipate that this study may act as a benchmark for other trusts .
+
+ppatt:
+	?a anticipate ?b
+		?a: We
+		?b: SOMETHING := this study may act as a benchmark for other trusts
+	?a may act as ?b
+		?a: this study
+		?b: a benchmark for other trusts
+
+
+label:    sent_3
+sentence: Individuals with TBI were slower to anticipate traffic hazards than age-matched uninjured controls .
+
+ppatt:
+	?a were slower to anticipate ?b than ?c
+		?a: Individuals with TBI
+		?b: traffic hazards
+		?c: age-matched uninjured controls
+
+
+label:    sent_4
+sentence: Olfaction is an integral part of feeding providing predictive cues that anticipate ingestion .
+
+ppatt:
+	?a is an integral part of ?b
+		?a: Olfaction
+		?b: feeding providing predictive cues that anticipate ingestion
+	?a providing ?b
+		?a: feeding
+		?b: predictive cues that anticipate ingestion
+	?a anticipate ?b
+		?a: predictive cues
+		?b: ingestion
+
+
+label:    sent_5
+sentence: The increase in INSL3 seemed therefore to anticipate the increase in testosterone .
+
+ppatt:
+	?a seemed therefore to anticipate ?b
+		?a: The increase in INSL3
+		?b: the increase in testosterone
+
+
+label:    sent_6
+sentence: Thus , one would anticipate an inverse relationship between circulating adiponectin and albuminuria .
+
+ppatt:
+	Thus , ?a would anticipate ?b
+		?a: one
+		?b: an inverse relationship between circulating adiponectin and albuminuria
+
+
+label:    sent_7
+sentence: How do prescribing doctors anticipate the effect of statins ? US research facilities anticipate budget gloom .
+
+ppatt:
+	How prescribing ?a
+		?a: doctors
+	do ?a anticipate ?b
+		?a: SOMETHING := How prescribing doctors
+		?b: the effect of statins
+	?a anticipate ?b
+		?a: US research facilities
+		?b: budget gloom
+
+
+label:    sent_8
+sentence: Assessment of drivers ' ability to anticipate traffic hazards after traumatic brain injury .
+
+ppatt:
+	?a anticipate ?b after ?c
+		?a: Assessment of drivers ' ability
+		?b: traffic hazards
+		?c: traumatic brain injury
+
+
+label:    sent_9
+sentence: Receiving optimal treatments allow them to anticipate equivalent outcome as in general population .
+
+ppatt:
+	Receiving ?a
+		?a: optimal treatments
+	?a allow ?b to anticipate ?c as in ?d
+		?a: SOMETHING := Receiving optimal treatments
+		?b: them
+		?c: equivalent outcome
+		?d: general population
+
+
+label:    sent_10
+sentence: Three anticipate retirement within 1 year .
+
+ppatt:
+	?a anticipate ?b within ?c
+		?a: Three
+		?b: retirement
+		?c: 1 year
+
+
+label:    sent_11
+sentence: Early bronchoscopy may be necessary to anticipate complications and prevent permanent dysfunction .
+
+ppatt:
+	?a may be necessary to anticipate ?b
+		?a: Early bronchoscopy
+		?b: complications
+	?a may be necessary to prevent ?b
+		?a: Early bronchoscopy
+		?b: permanent dysfunction
+
+
+label:    sent_12
+sentence: It is important to anticipate complications and initiate monitoring procedures for early detection .
+
+ppatt:
+	?a is important to anticipate ?b
+		?a: It
+		?b: complications
+	?a is important to initiate ?b
+		?a: It
+		?b: monitoring procedures for early detection
+
+
+label:    sent_13
+sentence: It allows to anticipate the pitfalls and to define specific strategies to be applied .
+
+ppatt:
+	?a allows to anticipate ?b
+		?a: It
+		?b: the pitfalls
+	?a allows to to define ?b to be applied
+		?a: It
+		?b: specific strategies
+
+
+label:    sent_14
+sentence: Pigeons still tended both to anticipate and to perseverate .
+
+ppatt:
+	?a still tended ?b to anticipate
+		?a: Pigeons
+		?b: both
+
+
+label:    sent_15
+sentence: We hope and anticipate that the instrument will initiate further discussion/debate on this topic .
+
+ppatt:
+	?a hope
+		?a: We
+	?a anticipate ?b
+		?a: We
+		?b: SOMETHING := the instrument will initiate further discussion/debate on this topic
+	?a will initiate ?b on ?c
+		?a: the instrument
+		?b: further discussion/debate
+		?c: this topic
+
+
+label:    sent_16
+sentence: The best strategy is to anticipate and avoid this obstetrical emergency .
+
+ppatt:
+	?a is to anticipate ?b
+		?a: The best strategy
+		?b: this obstetrical emergency
+	?a is to avoid
+		?a: The best strategy
+
+
+label:    sent_17
+sentence: Proper preoperative education makes patients more optimistic , and they anticipate fewer problems .
+
+ppatt:
+	?a makes ?b more optimistic
+		?a: Proper preoperative education
+		?b: patients
+	?a anticipate ?b
+		?a: they
+		?b: fewer problems
+
+
+label:    sent_18
+sentence: Improved design of a restoration can anticipate failure and offer alterations to existing appliances .
+
+ppatt:
+	?a can anticipate ?b
+		?a: Improved design of a restoration
+		?b: failure
+	?a offer ?b
+		?a: Improved design of a restoration
+		?b: alterations to existing appliances
+
+
+label:    sent_19
+sentence: Nurses can help families anticipate expenses and prioritize referrals to community agencies .
+
+ppatt:
+	?a can help
+		?a: Nurses
+	?a ?b anticipate ?c
+		?a: Nurses
+		?b: families
+		?c: expenses
+	?a prioritize ?b
+		?a: Nurses
+		?b: referrals to community agencies
+
+
+label:    sent_20
+sentence: The philosophy of psychiatry may anticipate or follow empirical research .
+
+ppatt:
+	?a may anticipate ?b
+		?a: The philosophy of psychiatry
+		?b: empirical research
+	?a follow
+		?a: The philosophy of psychiatry
+
+
+label:    sent_21
+sentence: Explicit measures that anticipate and reduce violent behavior are reviewed .
+
+ppatt:
+	?a anticipate ?b
+		?a: Explicit measures
+		?b: violent behavior
+	?a reduce
+		?a: that
+	?a are reviewed
+		?a: Explicit measures that anticipate and reduce violent behavior
+
+
+label:    sent_22
+sentence: The perceptive physician can anticipate and prevent eclampsia .
+
+ppatt:
+	?a can anticipate ?b
+		?a: The perceptive physician
+		?b: eclampsia
+	?a prevent
+		?a: The perceptive physician
+
+
+label:    sent_23
+sentence: Problems to anticipate in treating difficult patients in a long-term psychiatric hospital .
+
+ppatt:
+	?a anticipate
+		?a: Problems
+	treating ?a in ?b
+		?a: difficult patients
+		?b: a long-term psychiatric hospital
+
+
+label:    sent_24
+sentence: What to anticipate from pulse pressure amplification .
+
+ppatt:
+	?a anticipate from ?b
+		?a: What
+		?b: pulse pressure amplification
+
+
+label:    sent_25
+sentence: Based upon two complementary strategies , we anticipate fusing them for further IMT improvements .
+
+ppatt:
+	Based upon two complementary strategies ?a
+		?a: we
+	?a anticipate fusing ?b for ?c
+		?a: we
+		?b: them
+		?c: further IMT improvements
+
+
+label:    sent_26
+sentence: Pretreatment assay of XPD Lys751Gln may help to anticipate cardiotoxicity in those at risk . Parents can be informed to anticipate a small depression on the neonate 's chest .
+
+ppatt:
+	?a may help to anticipate ?b in ?c
+		?a: Pretreatment assay of XPD Lys751Gln
+		?b: cardiotoxicity
+		?c: those at risk
+	?a can be informed to anticipate ?b
+		?a: Parents
+		?b: a small depression on the neonate 's chest
+
+
+label:    sent_27
+sentence: Careful preoperative assessment is essential to anticipate potential serious problems during the procedure .
+
+ppatt:
+	?a is essential to anticipate ?b during ?c
+		?a: Careful preoperative assessment
+		?b: potential serious problems
+		?c: the procedure
+
+

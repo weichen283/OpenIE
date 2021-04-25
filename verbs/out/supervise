@@ -1,0 +1,203 @@
+label:    sent_1
+sentence: The majority ( 81 % ) were willing to supervise another TB patient .
+
+ppatt:
+	?a is/are 81 %
+		?a: The majority
+	?a were willing to supervise ?b
+		?a: The majority
+		?b: another TB patient
+
+
+label:    sent_2
+sentence: Officers should motivate their soldiers and supervise vector control measures .
+
+ppatt:
+	?a should motivate ?b
+		?a: Officers
+		?b: their soldiers
+	?a supervise ?b
+		?a: Officers
+		?b: vector control measures
+
+
+label:    sent_3
+sentence: There is a significant learning curve indicating the need to supervise trainee surgeons .
+
+ppatt:
+	There is ?a
+		?a: a significant learning curve indicating the need to supervise trainee surgeons
+	?a indicating ?b
+		?a: a significant learning curve
+		?b: the need to supervise trainee surgeons
+	?a supervise ?b
+		?a: the need
+		?b: trainee surgeons
+
+
+label:    sent_4
+sentence: Trauma specialists supervise other physicians providing patient care . Physicians must supervise nonphysician practitioners .
+
+ppatt:
+	?a supervise ?b
+		?a: Trauma specialists
+		?b: other physicians providing patient care
+	?a providing ?b
+		?a: other physicians
+		?b: patient care
+	?a must supervise ?b
+		?a: Physicians
+		?b: nonphysician practitioners
+
+
+label:    sent_5
+sentence: The office and central administration in Tel Aviv supervise the chapters in various cities .
+
+ppatt:
+	?a supervise ?b
+		?a: The office in Tel Aviv
+		?b: the chapters in various cities
+	?a supervise ?b
+		?a: central
+		?b: the chapters in various cities
+	?a supervise ?b
+		?a: administration
+		?b: the chapters in various cities
+
+
+label:    sent_6
+sentence: Semi-literate health workers cook rice ORS and supervise mothers in its use .
+
+ppatt:
+	?a cook ?b
+		?a: Semi-literate health workers
+		?b: rice ORS
+	?a supervise ?b in ?c
+		?a: Semi-literate health workers
+		?b: mothers
+		?c: its use
+
+
+label:    sent_7
+sentence: Pediatricians began to supervise newborn nurseries after World War I .
+
+ppatt:
+	?a began to supervise ?b after ?c
+		?a: Pediatricians
+		?b: newborn nurseries
+		?c: World War I
+
+
+label:    sent_8
+sentence: An attending anesthesiologist was assigned to supervise these intubations at predetermined periods .
+
+ppatt:
+	?a was assigned to supervise ?b at ?c
+		?a: An attending anesthesiologist
+		?b: these intubations
+		?c: predetermined periods
+
+
+label:    sent_9
+sentence: They also acknowledged that midwives required specific training in how best to supervise assistants .
+
+ppatt:
+	?a also acknowledged ?b
+		?a: They
+		?b: SOMETHING := midwives required specific training in how best to supervise assistants
+	?a required ?b
+		?a: midwives
+		?b: specific training
+	?a how best to supervise ?b
+		?a: midwives
+		?b: assistants
+
+
+label:    sent_10
+sentence: Community-based faculty coordinate , supervise , and evaluate the clinical education of students .
+
+ppatt:
+	?a supervise
+		?a: Community-based faculty coordinate
+	?a evaluate ?b
+		?a: Community-based faculty coordinate
+		?b: the clinical education of students
+
+
+label:    sent_11
+sentence: [This is how you can supervise drug handling in your working place ] . Forensic services did not supervise more high-risk patients in the community .
+
+ppatt:
+	?a is ?b
+		?a: [This
+		?b: SOMETHING := how you can supervise drug handling in your working place ]
+	how ?a can supervise ?b in ?c
+		?a: you
+		?b: drug handling
+		?c: your working place ]
+	?a did not supervise ?b
+		?a: Forensic services
+		?b: more high-risk patients in the community
+
+
+label:    sent_12
+sentence: Refusal by psychiatrists to supervise patient outside hospital .
+
+ppatt:
+	?a supervise ?b
+		?a: Refusal by psychiatrists
+		?b: patient outside hospital
+
+
+label:    sent_13
+sentence: Caregivers should supervise or limit the use of toys that include magnets and batteries .
+
+ppatt:
+	?a should supervise ?b
+		?a: Caregivers
+		?b: the use of toys that include magnets and batteries
+	?a limit
+		?a: Caregivers
+	?a include ?b
+		?a: toys
+		?b: magnets
+	?a include ?b
+		?a: toys
+		?b: batteries
+
+
+label:    sent_14
+sentence: Village birth attendants supervise and assist women with labour and delivery . Process operators supervise and control complex processes .
+
+ppatt:
+	?a supervise ?b
+		?a: Village birth attendants
+		?b: women with labour and delivery
+	?a assist
+		?a: Village birth attendants
+	?a supervise
+		?a: Process operators
+	?a control ?b
+		?a: Process operators
+		?b: complex processes
+
+
+label:    sent_15
+sentence: [ Professional responsibility of physicians employed by insurance authorities -- the HSAN should supervise ] . I do n't ' supervise ' constantly . Can nurse managers supervise ?
+
+ppatt:
+	?a employed by ?b
+		?a: physicians
+		?b: insurance authorities
+	?a ?b should supervise ?c
+		?a: Professional responsibility of physicians employed by insurance authorities
+		?b: the HSAN
+		?c: ]
+	?a do n't ' supervise ' constantly
+		?a: Professional responsibility of physicians employed by insurance authorities
+	?a Can nurse
+		?a: Professional responsibility of physicians employed by insurance authorities
+	?a supervise
+		?a: managers
+
+

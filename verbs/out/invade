@@ -1,0 +1,333 @@
+label:    sent_1
+sentence: To invade non-phagocytic cells , Salmonella has developed different mechanisms .
+
+ppatt:
+	invade ?a ?b
+		?a: non-phagocytic cells
+		?b: Salmonella
+	?a has developed ?b
+		?a: Salmonella
+		?b: different mechanisms
+
+
+label:    sent_2
+sentence: This disease is primarily caused by dermatophytes that invade the hair shaft . Despite an active SPI-1 T3SS , filamentous Salmonella are unable to invade epithelial cells .
+
+ppatt:
+	?a is primarily caused by ?b
+		?a: This disease
+		?b: dermatophytes that invade the hair shaft
+	?a invade ?b
+		?a: dermatophytes
+		?b: the hair shaft
+	Despite ?a , ?b are unable to invade ?c
+		?a: an active SPI-1 T3SS
+		?b: filamentous Salmonella
+		?c: epithelial cells
+
+
+label:    sent_3
+sentence: Several agents including bacteria , viruses , fungi and protozoa can invade the CNS .
+
+ppatt:
+	?a can invade ?b
+		?a: Several agents including bacteria , viruses , fungi and protozoa
+		?b: the CNS
+
+
+label:    sent_4
+sentence: A conspiracy of glioma and endothelial cells to invade the normal brain .
+
+ppatt:
+	?a invade ?b
+		?a: A conspiracy of glioma and endothelial cells
+		?b: the normal brain
+
+
+label:    sent_5
+sentence: This parasite can invade a wide variety of mammalian cells .
+
+ppatt:
+	?a can invade ?b
+		?a: This parasite
+		?b: a wide variety of mammalian cells
+
+
+label:    sent_6
+sentence: Concomitantly , mature uninjured cardiomyocytes become proliferative and invade the lesion .
+
+ppatt:
+	Concomitantly , ?a become proliferative
+		?a: mature uninjured cardiomyocytes
+	?a invade ?b
+		?a: mature uninjured cardiomyocytes
+		?b: the lesion
+
+
+label:    sent_7
+sentence: Shigella applies molecular mimicry to subvert vinculin and invade host cells .
+
+ppatt:
+	?a applies ?b to subvert ?c
+		?a: Shigella
+		?b: molecular mimicry
+		?c: vinculin
+	?a applies to invade ?b
+		?a: Shigella
+		?b: host cells
+
+
+label:    sent_8
+sentence: Less frequently , it originates in soft tissue and may secondarily invade underlying bone .
+
+ppatt:
+	Less frequently , ?a originates in ?b
+		?a: it
+		?b: soft tissue
+	?a may secondarily invade underlying ?b
+		?a: it
+		?b: bone
+
+
+label:    sent_9
+sentence: After oral uptake , yersiniae invade Peyer 's patches of the distal ileum .
+
+ppatt:
+	After ?a , ?b invade 's ?c
+		?a: oral uptake
+		?b: yersiniae
+		?c: Peyer patches of the distal ileum
+
+
+label:    sent_10
+sentence: Current evidence indicates that H. pylori can invade epithelial cells in the gastric mucosa .
+
+ppatt:
+	?a indicates ?b
+		?a: Current evidence
+		?b: SOMETHING := H. pylori can invade epithelial cells in the gastric mucosa
+	?a can invade ?b in ?c
+		?a: H. pylori
+		?b: epithelial cells
+		?c: the gastric mucosa
+
+
+label:    sent_11
+sentence: Most fungi invade these normally non-phagocytic host cells by inducing their own uptake . Lymphocytes may also invade various other organs and cause diverse symptoms .
+
+ppatt:
+	?a invade ?b
+		?a: Most fungi
+		?b: these normally non-phagocytic host cells
+	?a inducing ?b
+		?a: Most fungi
+		?b: their own uptake
+	?a may also invade ?b
+		?a: Lymphocytes
+		?b: various other organs
+	?a cause ?b
+		?a: Lymphocytes
+		?b: diverse symptoms
+
+
+label:    sent_12
+sentence: The fungus may invade ocular structures , sinuses , and extend into the brain .
+
+ppatt:
+	?a may invade ?b
+		?a: The fungus
+		?b: ocular structures
+	?a may invade ?b
+		?a: The fungus
+		?b: sinuses
+	?a extend into ?b
+		?a: The fungus
+		?b: the brain
+
+
+label:    sent_13
+sentence: Macrophages invade the iris epithelium and phagocytize melanosomes discharged from the pigmented cells .
+
+ppatt:
+	?a invade ?b
+		?a: Macrophages
+		?b: the iris epithelium discharged from the pigmented cells
+	?a invade ?b
+		?a: Macrophages
+		?b: phagocytize melanosomes
+	?a discharged from ?b
+		?a: the iris epithelium
+		?b: the pigmented cells
+	?a discharged from ?b
+		?a: phagocytize melanosomes
+		?b: the pigmented cells
+
+
+label:    sent_14
+sentence: Malignant tumours cause sickness and death largely because they invade and metastasize .
+
+ppatt:
+	?a cause ?b
+		?a: Malignant tumours
+		?b: sickness
+	?a cause ?b
+		?a: Malignant tumours
+		?b: death
+	largely because ?a invade
+		?a: they
+	?a metastasize
+		?a: they
+
+
+label:    sent_15
+sentence: It is histologically benign but may invade locally and recur after excision .
+
+ppatt:
+	?a is histologically benign
+		?a: It
+	?a may invade locally
+		?a: It
+	?a recur after ?b
+		?a: It
+		?b: excision
+
+
+label:    sent_16
+sentence: It may be indolent or progress slowly , or invade rapidly .
+
+ppatt:
+	?a may be indolent slowly
+		?a: It
+	?a progress
+		?a: It
+	?a invade rapidly
+		?a: It
+
+
+label:    sent_17
+sentence: The cords appeared to invade adjacent cells within the plane of the monolayer . PNKT-4B cells failed to invade tadpole tissues at 7 degrees C .
+
+ppatt:
+	?a appeared to invade ?b within ?c
+		?a: The cords
+		?b: adjacent cells
+		?c: the plane of the monolayer
+	?a failed to invade ?b at ?c
+		?a: PNKT-4B cells
+		?b: tadpole tissues
+		?c: 7 degrees C
+
+
+label:    sent_18
+sentence: By E23 axons invade the ventral optic stalk in both strains .
+
+ppatt:
+	By ?a invade ?b in ?c
+		?a: E23 axons
+		?b: the ventral optic stalk
+		?c: both strains
+
+
+label:    sent_19
+sentence: The tumor did not appear to invade to the anterior skull base .
+
+ppatt:
+	?a did not appear to invade to ?b
+		?a: The tumor
+		?b: the anterior skull base
+
+
+label:    sent_20
+sentence: When and how to invade for the diagnosis and staging of primary lung cancer .
+
+ppatt:
+	When how to invade for ?a
+		?a: the diagnosis of primary lung cancer
+	When how to invade for ?a
+		?a: staging
+
+
+label:    sent_21
+sentence: From these columns emanate cytotrophoblasts that invade deeply into the uterus and its arterioles .
+
+ppatt:
+	From ?a emanate ?b
+		?a: these columns
+		?b: cytotrophoblasts that invade deeply into the uterus and its arterioles
+	?a invade deeply into ?b
+		?a: cytotrophoblasts
+		?b: the uterus
+	?a invade deeply into ?b
+		?a: cytotrophoblasts
+		?b: its arterioles
+
+
+label:    sent_22
+sentence: Placental trophoblasts ( TBs ) invade and remodel uterine vessels with an arterial bias . Sometimes infectious agents invade and become established in new geographic regions .
+
+ppatt:
+	?a is/are TBs
+		?a: Placental trophoblasts
+	?a invade ?b with ?c
+		?a: Placental trophoblasts
+		?b: uterine vessels
+		?c: an arterial bias
+	?a remodel
+		?a: Placental trophoblasts
+	Sometimes ?a invade
+		?a: infectious agents
+	?a become established in ?b
+		?a: infectious agents
+		?b: new geographic regions
+
+
+label:    sent_23
+sentence: It also can invade and replicate within various protozoan species in environmental reservoirs .
+
+ppatt:
+	?a also can invade within ?b
+		?a: It
+		?b: various protozoan species in environmental reservoirs
+	?a replicate
+		?a: It
+
+
+label:    sent_24
+sentence: Despite a benign histologic appearance , some thymomas invade nearby structures or metastasize .
+
+ppatt:
+	Despite ?a , ?b invade ?c
+		?a: a benign histologic appearance
+		?b: some thymomas
+		?c: nearby structures
+	?a metastasize
+		?a: some thymomas
+
+
+label:    sent_25
+sentence: In advanced tumors , cells invade the surrounding tissue and eventually form metastases .
+
+ppatt:
+	In ?a , ?b invade ?c
+		?a: advanced tumors
+		?b: cells
+		?c: the surrounding tissue
+	?a eventually form ?b
+		?a: cells
+		?b: metastases
+
+
+label:    sent_26
+sentence: UPEC may invade the kidneys via the systemic circulation or by local retrograde infection .
+
+ppatt:
+	?a may invade ?b via ?c
+		?a: UPEC
+		?b: the kidneys
+		?c: the systemic circulation
+	?a may invade ?b via ?c
+		?a: UPEC
+		?b: the kidneys
+		?c: local retrograde infection
+
+

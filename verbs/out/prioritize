@@ -1,0 +1,267 @@
+label:    sent_1
+sentence: Integrating multiple protein-protein interaction networks to prioritize disease genes : a Bayesian regression approach .
+
+ppatt:
+	Integrating ?a
+		?a: multiple protein-protein interaction networks
+	prioritize ?a
+		?a: disease genes
+
+
+label:    sent_2
+sentence: There is a clear need to urgently prioritize the effective management of obesity .
+
+ppatt:
+	There is ?a
+		?a: a clear need to urgently prioritize the effective management of obesity
+	?a urgently prioritize ?b
+		?a: a clear need
+		?b: the effective management of obesity
+
+
+label:    sent_3
+sentence: The dollars and senselessness in failing to prioritize childhood maltreatment prevention .
+
+ppatt:
+	?a failing to prioritize ?b
+		?a: The dollars
+		?b: childhood maltreatment prevention
+	?a failing to prioritize ?b
+		?a: senselessness
+		?b: childhood maltreatment prevention
+
+
+label:    sent_4
+sentence: Attempts to control pain prioritize attention towards signals of pain : an experimental study .
+
+ppatt:
+	?a control ?b
+		?a: Attempts
+		?b: pain
+	?a prioritize ?b towards ?c
+		?a: Attempts to control pain
+		?b: attention
+		?c: signals of pain
+
+
+label:    sent_5
+sentence: However , it can be difficult to prioritize these within busy clinical services .
+
+ppatt:
+	However , ?a can be difficult to prioritize ?b within ?c
+		?a: it
+		?b: these
+		?c: busy clinical services
+
+
+label:    sent_6
+sentence: These findings may help prioritize directions for future genomic efforts .
+
+ppatt:
+	?a may help prioritize ?b
+		?a: These findings
+		?b: directions for future genomic efforts
+
+
+label:    sent_7
+sentence: Future research should prioritize addressing symptoms that worsen over time .
+
+ppatt:
+	?a should prioritize addressing ?b
+		?a: Future research
+		?b: symptoms that worsen over time
+	?a worsen over ?b
+		?a: symptoms
+		?b: time
+
+
+label:    sent_8
+sentence: Teaching medical students to prioritize preventive services . National pandemic plans prioritize beneficiary access to antiviral drugs and vaccines for some countries .
+
+ppatt:
+	Teaching ?a
+		?a: medical students
+	prioritize ?a
+		?a: preventive services
+	?a ?b prioritize ?c
+		?a: SOMETHING := Teaching medical students to prioritize preventive services
+		?b: National pandemic plans
+		?c: beneficiary access to antiviral drugs and vaccines for some countries
+
+
+label:    sent_9
+sentence: The Delphi technique was used to prioritize relevant aspects and construct the questionnaire .
+
+ppatt:
+	?a was used to prioritize ?b
+		?a: The Delphi technique
+		?b: relevant aspects
+	?a was used to construct ?b
+		?a: The Delphi technique
+		?b: the questionnaire
+
+
+label:    sent_10
+sentence: A training committee of Association members helped prioritize training needs and manage training logistics .
+
+ppatt:
+	?a helped ?b
+		?a: A training committee of Association members
+		?b: SOMETHING := prioritize
+	?a prioritize
+		?a: A training committee of Association members
+	?a ?b needs
+		?a: A training committee of Association members
+		?b: training
+	?a manage ?b
+		?a: A training committee of Association members
+		?b: training logistics
+
+
+label:    sent_11
+sentence: Clients list possible solutions , prioritize them , and pilot test the items selected .
+
+ppatt:
+	?a list ?b
+		?a: Clients
+		?b: possible solutions
+	?a prioritize ?b
+		?a: Clients
+		?b: them
+	?a test ?b
+		?a: pilot
+		?b: the items selected
+	?a selected
+		?a: the items
+
+
+label:    sent_12
+sentence: Physicians should prioritize evaluation of sleep dysfunction because of the association with OSA .
+
+ppatt:
+	?a should prioritize ?b because of ?c
+		?a: Physicians
+		?b: evaluation of sleep dysfunction
+		?c: the association with OSA
+
+
+label:    sent_13
+sentence: Little is known about how patients prioritize factors affecting their quality of life .
+
+ppatt:
+	?a is known ?b
+		?a: Little
+		?b: SOMETHING := about how patients prioritize factors affecting their quality of life
+	about how ?a prioritize ?b
+		?a: patients
+		?b: factors affecting their quality of life
+	?a affecting ?b
+		?a: factors
+		?b: their quality of life
+
+
+label:    sent_14
+sentence: Future research should prioritize misoprostol-only regimens with shorter dosing intervals .
+
+ppatt:
+	?a should prioritize ?b with ?c
+		?a: Future research
+		?b: misoprostol-only regimens
+		?c: shorter dosing intervals
+
+
+label:    sent_15
+sentence: Educators can prioritize academic concerns and evaluate and provide intervention strategies .
+
+ppatt:
+	?a can prioritize ?b
+		?a: Educators
+		?b: academic concerns
+	?a evaluate
+		?a: Educators
+	?a provide ?b
+		?a: Educators
+		?b: intervention strategies
+
+
+label:    sent_16
+sentence: Tobacco interventions for young adults should prioritize bars and address alcohol use . Rehabilitation guideline developers should prioritize evidence for implementation and employ user-friendly language .
+
+ppatt:
+	?a should prioritize ?b
+		?a: Tobacco interventions for young adults
+		?b: bars
+	?a address ?b
+		?a: Tobacco interventions for young adults
+		?b: alcohol use
+	?a should prioritize ?b
+		?a: Rehabilitation guideline developers
+		?b: evidence for implementation
+	?a employ ?b
+		?a: Rehabilitation guideline developers
+		?b: user-friendly language
+
+
+label:    sent_17
+sentence: Many adults with ADHD find it difficult to focus and prioritize .
+
+ppatt:
+	?a find ?b difficult to focus
+		?a: Many adults with ADHD
+		?b: it
+	?a find difficult to prioritize
+		?a: Many adults with ADHD
+
+
+label:    sent_18
+sentence: Data help effectively prioritize and target HIV prevention efforts for drug users .
+
+ppatt:
+	?a help effectively prioritize ?b
+		?a: Data
+		?b: HIV prevention efforts for drug users
+	?a help target
+		?a: Data
+
+
+label:    sent_19
+sentence: Using binary classification to prioritize and curate articles for the Comparative Toxicogenomics Database .
+
+ppatt:
+	Using ?a
+		?a: binary classification to prioritize and curate articles for the Comparative Toxicogenomics Database
+	?a prioritize ?b
+		?a: binary classification
+		?b: articles for the Comparative Toxicogenomics Database
+	curate ?a
+		?a: articles for the Comparative Toxicogenomics Database
+
+
+label:    sent_20
+sentence: Hospital agenda to prioritize . Learning to prioritize . State experts prioritize .
+
+ppatt:
+	?a prioritize ?b to prioritize ?c
+		?a: Hospital agenda
+		?b: Learning
+		?c: State experts
+	?a prioritize
+		?a: Hospital agenda to prioritize . Learning to prioritize . State experts
+
+
+label:    sent_21
+sentence: Third , a classification process is proposed to prioritize among various populations . [ Norway , Falun , Oregon--3 places to prioritize in health care ] . The quantitative approach was used to prioritize between different problems and intervention areas .
+
+ppatt:
+	Third , ?a is proposed to prioritize among ?b . to prioritize in ?c
+		?a: a classification process
+		?b: various populations
+		?c: health care ]
+	?a was used to prioritize between ?b
+		?a: The quantitative approach
+		?b: different problems
+	?a was used to prioritize between ?b
+		?a: The quantitative approach
+		?b: intervention areas
+
+

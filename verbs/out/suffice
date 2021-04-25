@@ -1,0 +1,187 @@
+label:    sent_1
+sentence: Our results confirm recent criticisms that the professional quality of expertises does not suffice .
+
+ppatt:
+	?a confirm ?b
+		?a: Our results
+		?b: recent criticisms that the professional quality of expertises does not suffice
+	?a does not suffice
+		?a: the professional quality of expertises
+
+
+label:    sent_2
+sentence: Thus , standard approaches , readily available in statistical software , will often suffice .
+
+ppatt:
+	Thus , ?a will often suffice
+		?a: standard approaches , readily available in statistical software
+
+
+label:    sent_3
+sentence: When foot orthoses are indicated , inexpensive generic appliances will usually suffice .
+
+ppatt:
+	When ?a are indicated
+		?a: foot orthoses
+	?a will usually suffice
+		?a: inexpensive generic appliances
+
+
+label:    sent_4
+sentence: Simple line drawings suffice for functional MRI decoding of natural scene categories . " Do least harm " philosophy may suffice for percutaneous coronary intervention in octogenarians . A limit test would suffice in many cases .
+
+ppatt:
+	?a suffice for ?b
+		?a: Simple line drawings
+		?b: functional MRI decoding of natural scene categories . " Do least harm " philosophy
+	?a ?b Do least ?c
+		?a: natural scene categories
+		?b: "
+		?c: harm " philosophy
+	?a may suffice for ?b
+		?a: Simple line drawings
+		?b: percutaneous coronary intervention in octogenarians
+	?a would suffice in ?b
+		?a: A limit test
+		?b: many cases
+
+
+label:    sent_5
+sentence: No single party is solely responsible , and no single solution will suffice .
+
+ppatt:
+	?a is solely responsible
+		?a: No single party
+	?a will suffice
+		?a: no single solution
+
+
+label:    sent_6
+sentence: Measures have been taken to counteract these difficulties , but will they suffice ? Three dilutions of reference plasma suffice and the standard curve is linear .
+
+ppatt:
+	?a have been taken to counteract ?b
+		?a: Measures
+		?b: these difficulties
+	will ?a suffice
+		?a: they
+	?a suffice
+		?a: Three dilutions of reference plasma
+	?a is linear
+		?a: the standard curve
+
+
+label:    sent_7
+sentence: Soft 12-F catheters suffice in most cases and are relatively comfortable to large-bore tubes .
+
+ppatt:
+	?a suffice in ?b
+		?a: Soft 12-F catheters
+		?b: most cases
+
+
+label:    sent_8
+sentence: Medetomidine seems to suffice for pharmacological restraint of dogs and cats . A lead system incorporating 64 leads will suffice for most applications .
+
+ppatt:
+	?a seems to suffice for ?b
+		?a: Medetomidine
+		?b: pharmacological restraint of dogs and cats
+	?a incorporating ?b
+		?a: A lead system
+		?b: 64
+	?a will suffice for ?b
+		?a: A lead system incorporating 64
+		?b: most applications
+
+
+label:    sent_9
+sentence: Short pyrosequencing reads suffice for accurate microbial community analysis .
+
+ppatt:
+	?a suffice for ?b
+		?a: Short pyrosequencing reads
+		?b: accurate microbial community analysis
+
+
+label:    sent_10
+sentence: In the future stenting may suffice and obviate the need for open repair .
+
+ppatt:
+	In ?a may suffice ?b
+		?a: the future stenting
+		?b: the need for open repair
+	obviate ?a
+		?a: the need for open repair
+
+
+label:    sent_11
+sentence: Contact lenses or aphakic glasses are safe and will suffice with bilateral congenital cataracts .
+
+ppatt:
+	?a are safe
+		?a: Contact lenses
+	?a are safe
+		?a: aphakic glasses
+	?a will suffice with ?b
+		?a: Contact lenses
+		?b: bilateral congenital cataracts
+	?a will suffice with ?b
+		?a: aphakic glasses
+		?b: bilateral congenital cataracts
+
+
+label:    sent_12
+sentence: Nonnarcotic preparations are very effective and will suffice for most procedures . Do reduced and split livers not suffice to cover the needs ? The basic vascular approaches suffice and shunt operations are not absolutely necessary .
+
+ppatt:
+	?a are very effective
+		?a: Nonnarcotic preparations
+	?a will suffice for ?b
+		?a: Nonnarcotic preparations
+		?b: most procedures
+	?a Do reduced
+		?a: Nonnarcotic preparations
+	?a not suffice to cover ?b
+		?a: split livers
+		?b: the needs
+	?a suffice
+		?a: The basic vascular approaches
+	?a are not absolutely necessary
+		?a: shunt operations
+
+
+label:    sent_13
+sentence: Case vignettes are presented illustrating three situations in which one session may suffice .
+
+ppatt:
+	?a are presented illustrating ?b
+		?a: Case vignettes
+		?b: three situations in which one session may suffice
+	?a in ?b may suffice
+		?a: three situations
+		?b: one session
+
+
+label:    sent_14
+sentence: Satisfaction may not suffice ! A commentary on ' A patient 's perspective ' . Most of the time , ordinary food does not suffice the animals needs . " Empty promises from the NMC will not suffice " . Because of this slow decline , biweekly assays suffice .
+
+ppatt:
+	?a may not suffice ! ?b
+		?a: Satisfaction
+		?b: A commentary on ' A patient 's perspective
+	?a does not suffice
+		?a: Most of the time , ordinary food
+	?a ?b needs
+		?a: Most of the time , ordinary food
+		?b: the animals
+	?a promises from ?b
+		?a: Empty
+		?b: the NMC
+	?a will not suffice " . Because of ?b
+		?a: Most of the time , ordinary food
+		?b: this slow decline
+	biweekly ?a suffice
+		?a: assays
+
+

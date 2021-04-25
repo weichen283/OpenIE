@@ -1,0 +1,169 @@
+label:    sent_1
+sentence: We propose to rename this structural variant SCCmec type VI .
+
+ppatt:
+	?a propose to rename ?b
+		?a: We
+		?b: this structural variant SCCmec type VI
+
+
+label:    sent_2
+sentence: Is it not time to rename it ? It has recently been suggested to rename this protein CenH3 .
+
+ppatt:
+	Is ?a
+		?a: it not time to rename it
+	?a not time
+		?a: it
+	?a rename ?b
+		?a: not time
+		?b: it
+	?a has recently been suggested to rename ?b
+		?a: It
+		?b: this protein CenH3
+
+
+label:    sent_3
+sentence: Therefore , it is proposed to rename obestatin as ghrelin-associated peptide .
+
+ppatt:
+	Therefore , ?a is proposed to rename ?b as ?c
+		?a: it
+		?b: obestatin
+		?c: ghrelin-associated peptide
+
+
+label:    sent_4
+sentence: Moreover , they support to rename maximal single MACs into the average shift ones . Based on these findings we propose to rename Shc as ShcA .
+
+ppatt:
+	Moreover , ?a support to rename ?b into ?c
+		?a: they
+		?b: maximal single MACs
+		?c: the average shift ones
+	Based on these findings ?a
+		?a: we
+	?a propose to rename ?b as ?c
+		?a: we
+		?b: Shc
+		?c: ShcA
+
+
+label:    sent_5
+sentence: Commentary : rename our field allergy , asthma , and clinical immunology .
+
+ppatt:
+
+
+
+label:    sent_6
+sentence: Therefore , we consider it more appropriate to rename our cells ES-derived NSCs .
+
+ppatt:
+	Therefore , ?a consider ?b more appropriate to rename ?c
+		?a: we
+		?b: it
+		?c: our cells ES-derived NSCs
+
+
+label:    sent_7
+sentence: Here , we rename the DREs to TGEs ( tra-2 and GLI elements ) . We thus rename Tp0655 as TpPotD .
+
+ppatt:
+	Here , ?a rename ?b to ?c
+		?a: we
+		?b: the DREs
+		?c: TGEs
+	?a is/are elements
+		?a: tra-2
+	?a is/are elements
+		?a: GLI
+	?a thus rename ?b as ?c
+		?a: We
+		?b: Tp0655
+		?c: TpPotD
+
+
+label:    sent_8
+sentence: We rename MICAL-L2 as JRAB ( junctional Rab13-binding protein ) . This indication led us to rename the locus tep1 for transmembrane efflux protein .
+
+ppatt:
+	?a rename ?b as ?c
+		?a: We
+		?b: MICAL-L2
+		?c: JRAB
+	?a is/are junctional Rab13-binding protein
+		?a: JRAB
+	?a led ?b to rename ?c
+		?a: This indication
+		?b: us
+		?c: the locus tep1 for transmembrane efflux protein
+
+
+label:    sent_9
+sentence: A proposal to rename the hyperthermophile Pyrococcus woesei as Pyrococcus furiosus subsp. woesei .
+
+ppatt:
+	?a rename ?b as ?c
+		?a: A proposal
+		?b: the hyperthermophile Pyrococcus woesei
+		?c: Pyrococcus furiosus subsp. woesei
+
+
+label:    sent_10
+sentence: Therefore , we rename PINCH to PINCH1 .
+
+ppatt:
+	Therefore , ?a rename ?b to ?c
+		?a: we
+		?b: PINCH
+		?c: PINCH1
+
+
+label:    sent_11
+sentence: We now rename this cellular protein as Vpr-binding protein , or VprBP .
+
+ppatt:
+	?a now rename ?b as ?c
+		?a: We
+		?b: this cellular protein
+		?c: Vpr-binding protein
+	?a now rename ?b as ?c
+		?a: We
+		?b: this cellular protein
+		?c: VprBP
+
+
+label:    sent_12
+sentence: Therefore , we suggest to rename Tage4 into rodent CD155 .
+
+ppatt:
+	Therefore , ?a suggest to rename ?b into ?c
+		?a: we
+		?b: Tage4
+		?c: rodent CD155
+
+
+label:    sent_13
+sentence: Thus , we suggest to rename YfcK as MnmC .
+
+ppatt:
+	Thus , ?a suggest to rename ?b as ?c
+		?a: we
+		?b: YfcK
+		?c: MnmC
+
+
+label:    sent_14
+sentence: The concept of dementia : retain , reframe , rename or replace ? We therefore rename the Ygr110wp as Cld1p ( cardiolipin-specific deacylase 1 ) .
+
+ppatt:
+	?a ?b therefore rename ?c as ?d
+		?a: The concept of dementia
+		?b: We
+		?c: the Ygr110wp
+		?d: Cld1p
+	?a is/are cardiolipin-specific deacylase 1
+		?a: Cld1p
+
+

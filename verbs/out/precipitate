@@ -1,0 +1,306 @@
+label:    sent_1
+sentence: They all experienced a compulsion to precipitate their attacks .
+
+ppatt:
+	?a all experienced ?b to precipitate ?c
+		?a: They
+		?b: a compulsion
+		?c: their attacks
+
+
+label:    sent_2
+sentence: Stress acts cumulatively to precipitate Alzheimer 's disease-like tau pathology and cognitive deficits .
+
+ppatt:
+	?a acts cumulatively to precipitate 's ?b
+		?a: Stress
+		?b: Alzheimer disease-like tau pathology
+	?a acts cumulatively to precipitate 's ?b
+		?a: Stress
+		?b: cognitive deficits
+
+
+label:    sent_3
+sentence: Here , rats made dependent upon morphine received naloxone to precipitate withdrawal . Immune activation and inflammation can precipitate a variety of diseases .
+
+ppatt:
+	?a made dependent upon ?b
+		?a: rats
+		?b: morphine
+	Here , ?a received ?b to precipitate ?c
+		?a: rats made dependent upon morphine
+		?b: naloxone
+		?c: withdrawal
+	?a can precipitate ?b
+		?a: Immune activation
+		?b: a variety of diseases
+	?a can precipitate ?b
+		?a: inflammation
+		?b: a variety of diseases
+
+
+label:    sent_4
+sentence: Disruption of chromatin organization can directly and indirectly precipitate genomic instability and transformation .
+
+ppatt:
+	?a can directly and indirectly precipitate ?b
+		?a: Disruption of chromatin organization
+		?b: genomic instability
+	?a can directly and indirectly precipitate ?b
+		?a: Disruption of chromatin organization
+		?b: transformation
+
+
+label:    sent_5
+sentence: However , this may also precipitate changes in the ability to orally feed .
+
+ppatt:
+	However , ?a may also precipitate ?b
+		?a: this
+		?b: changes in the ability to orally feed
+	?a orally feed
+		?a: the ability
+
+
+label:    sent_6
+sentence: We hypothesized that polysomnography does not precipitate acute or chronic psychological effects in children .
+
+ppatt:
+	?a hypothesized ?b
+		?a: We
+		?b: SOMETHING := polysomnography does not precipitate acute or chronic psychological effects in children
+	?a does not precipitate ?b
+		?a: polysomnography
+		?b: acute or chronic psychological effects in children
+
+
+label:    sent_7
+sentence: They precipitate two proteins in the post-ribosomal supernatant of the yeast cell homogenate .
+
+ppatt:
+	?a precipitate ?b in ?c
+		?a: They
+		?b: two proteins
+		?c: the post-ribosomal supernatant of the yeast cell homogenate
+
+
+label:    sent_8
+sentence: Disopyramide phosphate may precipitate heart failure in susceptible patients with cardiomegaly .
+
+ppatt:
+	?a may precipitate ?b in ?c
+		?a: Disopyramide phosphate
+		?b: heart failure
+		?c: susceptible patients with cardiomegaly
+
+
+label:    sent_9
+sentence: It is associated with significant hemodynamic instability and may precipitate cardiac arrest .
+
+ppatt:
+	?a is associated with ?b
+		?a: It
+		?b: significant hemodynamic instability
+	?a may precipitate ?b
+		?a: It
+		?b: cardiac arrest
+
+
+label:    sent_10
+sentence: Waves collapse gas vacuoles and precipitate Chlorophyceae . CS-MA-LA was readily soluble in pure water and did not precipitate till pH 9 .
+
+ppatt:
+	?a collapse ?b
+		?a: Waves
+		?b: gas vacuoles
+	?a precipitate ?b
+		?a: Waves
+		?b: Chlorophyceae
+	?a was readily soluble in ?b
+		?a: CS-MA-LA
+		?b: pure water
+	?a did not precipitate till ?b
+		?a: CS-MA-LA
+		?b: pH 9
+
+
+label:    sent_11
+sentence: Overreaction to health messages may precipitate such conditions as anorexia nervosa or nutrient toxicity .
+
+ppatt:
+	?a may precipitate ?b as ?c
+		?a: Overreaction to health messages
+		?b: such conditions
+		?c: anorexia nervosa
+	?a may precipitate ?b as ?c
+		?a: Overreaction to health messages
+		?b: such conditions
+		?c: nutrient toxicity
+
+
+label:    sent_12
+sentence: This possibly may cause immune complexes that precipitate erythema nodosum .
+
+ppatt:
+	?a possibly may cause ?b
+		?a: This
+		?b: immune complexes that precipitate erythema nodosum
+	?a precipitate ?b
+		?a: immune complexes
+		?b: erythema nodosum
+
+
+label:    sent_13
+sentence: Alcian Blue was used to precipitate acidic glycoproteins in each fraction .
+
+ppatt:
+	?a was used to precipitate ?b in ?c
+		?a: Alcian Blue
+		?b: acidic glycoproteins
+		?c: each fraction
+
+
+label:    sent_14
+sentence: The results show that the substances precipitate rapidly in pure water .
+
+ppatt:
+	?a show ?b
+		?a: The results
+		?b: SOMETHING := the substances precipitate rapidly in pure water
+	?a precipitate rapidly in ?b
+		?a: the substances
+		?b: pure water
+
+
+label:    sent_15
+sentence: The products thus obtained precipitate during the photoreaction as ammonium salts .
+
+ppatt:
+	?a thus obtained precipitate during ?b
+		?a: The products
+		?b: the photoreaction as ammonium salts
+
+
+label:    sent_16
+sentence: These factor VII complexes precipitate with the VLDL / LDL fraction in lipoprotein precipitations .
+
+ppatt:
+	?a precipitate with ?b in ?c
+		?a: These factor VII complexes
+		?b: the VLDL / LDL fraction
+		?c: lipoprotein precipitations
+
+
+label:    sent_17
+sentence: These antiserums precipitate whole virions but do not neutralize them .
+
+ppatt:
+	?a precipitate ?b
+		?a: These antiserums
+		?b: whole virions
+	?a do not neutralize ?b
+		?a: These antiserums
+		?b: them
+
+
+label:    sent_18
+sentence: Prolonged submaximal exercise ( trotting ) would precipitate locomotory respiratory uncoupling and cause EIPH .
+
+ppatt:
+	?a is/are trotting
+		?a: Prolonged submaximal exercise
+	?a would precipitate ?b
+		?a: Prolonged submaximal exercise
+		?b: locomotory respiratory uncoupling
+	?a cause ?b
+		?a: Prolonged submaximal exercise
+		?b: EIPH
+
+
+label:    sent_19
+sentence: Dandruff can precipitate telogen effluvium and exacerbate androgenic alopecia .
+
+ppatt:
+	?a can precipitate ?b
+		?a: Dandruff
+		?b: telogen effluvium
+	?a exacerbate ?b
+		?a: Dandruff
+		?b: androgenic alopecia
+
+
+label:    sent_20
+sentence: The nanoparticles decompose and precipitate upon exposure to air . Macromolecules are known to precipitate selectively in concentrated solutions of polyethylene glycol .
+
+ppatt:
+	?a decompose upon ?b
+		?a: The nanoparticles
+		?b: exposure to air
+	?a precipitate
+		?a: The nanoparticles
+	?a are known to precipitate selectively in ?b
+		?a: Macromolecules
+		?b: concentrated solutions of polyethylene glycol
+
+
+label:    sent_21
+sentence: Calcium oxalate appears to precipitate with greater facility than does physiological mineral .
+
+ppatt:
+	?a appears to precipitate with ?b
+		?a: Calcium oxalate
+		?b: greater facility
+	does ?a
+		?a: physiological mineral
+
+
+label:    sent_22
+sentence: Pregnancy can precipitate or exacerbate cardiac arrhythmias .
+
+ppatt:
+	?a can precipitate ?b
+		?a: Pregnancy
+		?b: cardiac arrhythmias
+	?a exacerbate
+		?a: Pregnancy
+
+
+label:    sent_23
+sentence: These impairments may precipitate and perpetuate suicidal crisis in depressed elders . A large number of drugs may precipitate or exacerbate myasthenic weakness .
+
+ppatt:
+	?a may precipitate ?b
+		?a: These impairments
+		?b: suicidal crisis in depressed elders
+	?a perpetuate
+		?a: These impairments
+	?a may precipitate ?b
+		?a: A large number of drugs
+		?b: myasthenic weakness
+	?a exacerbate
+		?a: A large number of drugs
+
+
+label:    sent_24
+sentence: The precipitate formed by repeated freeze-thawing from the 2 % aq . If the chemistry was favorable , carbonate precipitate spontaneously formed .
+
+ppatt:
+	?a formed by ?b
+		?a: The precipitate
+		?b: repeated freeze-thawing from the 2 % aq
+	?a was favorable
+		?a: the chemistry
+	?a ?b spontaneously formed
+		?a: The precipitate formed by repeated freeze-thawing from the 2 % aq
+		?b: carbonate precipitate
+
+
+label:    sent_25
+sentence: Antibodies against FIII do not precipitate P-FIII .
+
+ppatt:
+	?a do not precipitate ?b
+		?a: Antibodies against FIII
+		?b: P-FIII
+
+

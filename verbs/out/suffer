@@ -1,0 +1,324 @@
+label:    sent_1
+sentence: Unfortunately , many trials suffer from lacking or inadequate controls or small sample size .
+
+ppatt:
+	Unfortunately , ?a suffer from ?b
+		?a: many trials
+		?b: lacking
+	Unfortunately , ?a suffer from ?b
+		?a: many trials
+		?b: inadequate
+
+
+label:    sent_2
+sentence: Patients suffer from recurrent respiratory infections and poor response to vaccination .
+
+ppatt:
+	?a suffer from ?b
+		?a: Patients
+		?b: recurrent respiratory infections
+	?a suffer from ?b
+		?a: Patients
+		?b: poor response to vaccination
+
+
+label:    sent_3
+sentence: PWD suffer from major cognitive impairment , making interaction with others problematic .
+
+ppatt:
+	?a suffer from ?b , making ?c problematic
+		?a: PWD
+		?b: major cognitive impairment
+		?c: interaction with others
+
+
+label:    sent_4
+sentence: Patients with OSAS are more likely to suffer from CVD .
+
+ppatt:
+	?a are more likely to suffer from ?b
+		?a: Patients with OSAS
+		?b: CVD
+
+
+label:    sent_5
+sentence: Patients with acute pancreatitis are liable to suffer from PUD .
+
+ppatt:
+	?a are liable to suffer from ?b
+		?a: Patients with acute pancreatitis
+		?b: PUD
+
+
+label:    sent_6
+sentence: Abstract Victims of infection are expected to suffer increasingly as parasite population growth increases .
+
+ppatt:
+	?a are expected to suffer increasingly as ?b
+		?a: Abstract Victims of infection
+		?b: parasite population growth increases
+
+
+label:    sent_7
+sentence: Late preterm newborns suffer significant respiratory morbidity .
+
+ppatt:
+	?a suffer ?b
+		?a: Late preterm newborns
+		?b: significant respiratory morbidity
+
+
+label:    sent_8
+sentence: These results indicated that nurses exposed to inpatient suicide suffer significant mental distress .
+
+ppatt:
+	?a indicated ?b
+		?a: These results
+		?b: SOMETHING := nurses exposed to inpatient suicide suffer significant mental distress
+	?a exposed to ?b
+		?a: nurses
+		?b: inpatient suicide
+	?a suffer ?b
+		?a: nurses exposed to inpatient suicide
+		?b: significant mental distress
+
+
+label:    sent_9
+sentence: Almost one third of women suffer continuous lower back pain during labour .
+
+ppatt:
+	?a suffer continuous lower back ?b during ?c
+		?a: Almost one third of women
+		?b: pain
+		?c: labour
+
+
+label:    sent_10
+sentence: Homeless individuals often suffer from serious health conditions and are frequently hospitalized .
+
+ppatt:
+	?a often suffer from ?b
+		?a: Homeless individuals
+		?b: serious health conditions
+	?a are frequently hospitalized
+		?a: Homeless individuals
+
+
+label:    sent_11
+sentence: Patients suffer from dysphagia and many are tube-feed dependent .
+
+ppatt:
+	?a suffer from ?b
+		?a: Patients
+		?b: dysphagia
+	?a are ?b dependent
+		?a: many
+		?b: tube-feed
+
+
+label:    sent_12
+sentence: Most series suffer from small sample size and controlled trials are lacking .
+
+ppatt:
+	?a suffer from ?b
+		?a: Most series
+		?b: small sample size
+	?a are lacking
+		?a: controlled trials
+
+
+label:    sent_13
+sentence: Preterm newborn infants may suffer laryngeal injuries after multiple intubations and long-term mechanical ventilation .
+
+ppatt:
+	?a may suffer ?b after ?c
+		?a: Preterm newborn infants
+		?b: laryngeal injuries
+		?c: multiple intubations
+	?a may suffer ?b after ?c
+		?a: Preterm newborn infants
+		?b: laryngeal injuries
+		?c: long-term mechanical ventilation
+
+
+label:    sent_14
+sentence: Human cardiac valve allografts ( HVAs ) suffer injuries during the cryopreservation period .
+
+ppatt:
+	?a is/are HVAs
+		?a: Human cardiac valve allografts
+	?a suffer ?b during ?c
+		?a: Human cardiac valve allografts
+		?b: injuries
+		?c: the cryopreservation period
+
+
+label:    sent_15
+sentence: The resulting nanocomposites also suffer a phase transition upon irradiation with electromagnetic waves .
+
+ppatt:
+	?a also suffer ?b upon ?c
+		?a: The resulting nanocomposites
+		?b: a phase transition
+		?c: irradiation with electromagnetic waves
+
+
+label:    sent_16
+sentence: Blacks were less likely to suffer rapid decline in self-rated health than were whites .
+
+ppatt:
+	?a were less likely to suffer ?b
+		?a: Blacks
+		?b: rapid decline in self-rated health
+	?a than were whites
+		?a: Blacks
+
+
+label:    sent_17
+sentence: The late preterm infants are much more likely to suffer various complications .
+
+ppatt:
+	?a are much more likely to suffer ?b
+		?a: The late preterm infants
+		?b: various complications
+
+
+label:    sent_18
+sentence: Elderly patients were likely to suffer both falls and a further traumatic condition .
+
+ppatt:
+	?a were likely to suffer ?b
+		?a: Elderly patients
+		?b: falls
+	?a were likely to suffer ?b
+		?a: Elderly patients
+		?b: a further traumatic condition
+
+
+label:    sent_19
+sentence: Patients have a high bone density and suffer from an increased risk of fracture .
+
+ppatt:
+	?a have ?b
+		?a: Patients
+		?b: a high bone density
+	?a suffer from ?b
+		?a: Patients
+		?b: an increased risk of fracture
+
+
+label:    sent_20
+sentence: Ceramics are ideally suited for high-temperature applications but suffer from poor toughness .
+
+ppatt:
+	?a are ideally suited for ?b
+		?a: Ceramics
+		?b: high-temperature applications
+	?a suffer from ?b
+		?a: Ceramics
+		?b: poor toughness
+
+
+label:    sent_21
+sentence: Osteoinductive proteins show great promise for achieving spine fusion but suffer from poor bioavailability .
+
+ppatt:
+	?a show ?b
+		?a: Osteoinductive proteins
+		?b: great promise for achieving spine fusion
+	?a achieving ?b
+		?a: great promise
+		?b: spine fusion
+	?a suffer from ?b
+		?a: Osteoinductive proteins
+		?b: poor bioavailability
+
+
+label:    sent_22
+sentence: Those images suffer from errors that originate from the polychromatic nature of the spectra . CF patients suffer from chronic airway inflammation , which contributes to lung deterioration .
+
+ppatt:
+	?a suffer from ?b
+		?a: Those images
+		?b: errors that originate from the polychromatic nature of the spectra
+	?a originate from ?b
+		?a: errors
+		?b: the polychromatic nature of the spectra
+	?a suffer from ?b
+		?a: CF patients
+		?b: chronic airway inflammation , which contributes to lung deterioration
+	?a contributes to ?b
+		?a: chronic airway inflammation
+		?b: lung deterioration
+
+
+label:    sent_23
+sentence: Many cancer patients suffer from rapidly-progressing dyspnea that is difficult to relieve . Tg mice suffer a mild lipodystrophy and exhibit deficiency in adipocyte differentiation .
+
+ppatt:
+	?a suffer from ?b
+		?a: Many cancer patients
+		?b: rapidly-progressing dyspnea that is difficult to relieve
+	?a is difficult to relieve
+		?a: rapidly-progressing dyspnea
+	?a suffer ?b
+		?a: Tg mice
+		?b: a mild lipodystrophy
+	?a exhibit ?b
+		?a: Tg mice
+		?b: deficiency in adipocyte differentiation
+
+
+label:    sent_24
+sentence: No medical sequelae are known , but patients may suffer social consequences .
+
+ppatt:
+	?a are known
+		?a: No medical sequelae
+	?a may suffer ?b
+		?a: patients
+		?b: social consequences
+
+
+label:    sent_25
+sentence: Infected infants have high mortality rates , and survivors often suffer life-long neurological disorders .
+
+ppatt:
+	?a have ?b
+		?a: Infected infants
+		?b: high mortality rates
+	?a often suffer ?b
+		?a: survivors
+		?b: life-long neurological disorders
+
+
+label:    sent_26
+sentence: In the postoperative phase after thoracic surgery in children patients can suffer considerable pain .
+
+ppatt:
+	In ?a ?b can suffer ?c
+		?a: the postoperative phase after thoracic surgery
+		?b: in children patients
+		?c: considerable pain
+
+
+label:    sent_27
+sentence: The cost of migration : spoonbills suffer higher mortality during trans-Saharan spring migrations only .
+
+ppatt:
+	?a ?b suffer ?c during ?d
+		?a: The cost of migration
+		?b: spoonbills
+		?c: higher mortality
+		?d: trans-Saharan spring migrations only
+
+
+label:    sent_28
+sentence: One patient continues to suffer intermittent mild aching in the wrist .
+
+ppatt:
+	?a continues to suffer ?b
+		?a: One patient
+		?b: intermittent mild aching in the wrist
+
+

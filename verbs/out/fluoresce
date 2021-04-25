@@ -1,0 +1,235 @@
+label:    sent_1
+sentence: Pseudomonas aeruginosa elaborates several pigment fractions that fluoresce in ultraviolet light .
+
+ppatt:
+	?a elaborates ?b
+		?a: Pseudomonas aeruginosa
+		?b: several pigment fractions that fluoresce in ultraviolet light
+	?a fluoresce in ?b
+		?a: several pigment fractions
+		?b: ultraviolet light
+
+
+label:    sent_2
+sentence: From premetaphase to telophase the meiotic chromosomes fluoresce strongly again .
+
+ppatt:
+	From ?a ?b fluoresce strongly again
+		?a: premetaphase to telophase
+		?b: the meiotic chromosomes
+
+
+label:    sent_3
+sentence: They also fluoresce in the wavelength range 650-800 nm . One useful photophysical property is the ability to fluoresce with high quantum yields .
+
+ppatt:
+	?a also fluoresce in ?b ?c
+		?a: They
+		?b: the wavelength range
+		?c: 650-800 nm
+	?a is the ability
+		?a: One useful photophysical property
+	?a fluoresce with ?b
+		?a: the ability
+		?b: high quantum yields
+
+
+label:    sent_4
+sentence: Insulin fibrils converted to a beta-sheet conformation fluoresce intensely with ThT .
+
+ppatt:
+	?a converted to ?b
+		?a: Insulin fibrils
+		?b: a beta-sheet conformation
+	?a fluoresce intensely with ?b
+		?a: Insulin fibrils converted to a beta-sheet conformation
+		?b: ThT
+
+
+label:    sent_5
+sentence: These dyes are excited to fluoresce by microscope illumination of the appropriate wavelength . Normally , the entity does not fluoresce .
+
+ppatt:
+	?a are excited to fluoresce by ?b
+		?a: These dyes
+		?b: microscope illumination of the appropriate wavelength
+	Normally , ?a does not fluoresce
+		?a: the entity
+
+
+label:    sent_6
+sentence: Oocytes not exposed to the labeled cholesterol did not fluoresce .
+
+ppatt:
+	?a not exposed to ?b
+		?a: Oocytes
+		?b: the labeled cholesterol
+	?a did not fluoresce
+		?a: Oocytes not exposed to the labeled cholesterol
+
+
+label:    sent_7
+sentence: Reactive and normal bone did not fluoresce .
+
+ppatt:
+	?a did not fluoresce
+		?a: Reactive
+	?a did not fluoresce
+		?a: normal
+
+
+label:    sent_8
+sentence: In tumor , malignant cells do not fluoresce and connective tissue cells fluoresce brilliantly .
+
+ppatt:
+	In ?a , ?b do not fluoresce
+		?a: tumor
+		?b: malignant cells
+	?a fluoresce brilliantly
+		?a: connective tissue cells
+
+
+label:    sent_9
+sentence: Results indicated that resin brands fluoresce at different wavelengths and with varying intensities .
+
+ppatt:
+	?a indicated ?b
+		?a: Results
+		?b: SOMETHING := resin brands fluoresce at different wavelengths and with varying intensities
+	?a fluoresce at ?b
+		?a: resin brands
+		?b: different wavelengths
+	?a fluoresce at ?b
+		?a: resin brands
+		?b: varying intensities
+
+
+label:    sent_10
+sentence: Early reticulocytes did not fluoresce , but more mature reticulocytes showed increased fluorescent intensity .
+
+ppatt:
+	?a did not fluoresce
+		?a: Early reticulocytes
+	?a showed ?b
+		?a: more mature reticulocytes
+		?b: increased fluorescent intensity
+
+
+label:    sent_11
+sentence: Some AGEs fluoresce and can be measured noninvasively by optical spectroscopy .
+
+ppatt:
+	?a fluoresce
+		?a: Some AGEs
+	?a can be measured noninvasively by ?b
+		?a: Some AGEs
+		?b: optical spectroscopy
+
+
+label:    sent_12
+sentence: Nuclei also fluoresce but their nucleoli do not . Lanthanide based coordination polymers chill , relax under magnetic field and also fluoresce .
+
+ppatt:
+	?a also fluoresce
+		?a: Nuclei
+	?a do not ?b
+		?a: their nucleoli
+		?b: Lanthanide based coordination polymers
+	?a relax under ?b
+		?a: Nuclei
+		?b: magnetic field
+	?a also fluoresce
+		?a: Nuclei
+
+
+label:    sent_13
+sentence: Their ability to fluoresce and visualize the lesion is a bonus . Many anthraquinone related compounds are highly coloured and fluoresce .
+
+ppatt:
+	?a fluoresce ?b
+		?a: Their ability
+		?b: the lesion
+	?a visualize
+		?a: Their ability
+	?a is a bonus
+		?a: Their ability to fluoresce and visualize the lesion
+	?a are highly coloured
+		?a: Many anthraquinone related compounds
+	?a fluoresce
+		?a: Many anthraquinone related compounds
+
+
+label:    sent_14
+sentence: These QDs have diameters of 3-6 nm and fluoresce around 1050 nm . These absorb in the range 465-470 nm and fluoresce at approx .
+
+ppatt:
+	?a have ?b
+		?a: These QDs
+		?b: diameters of 3-6 nm
+	?a fluoresce around ?b
+		?a: These QDs
+		?b: 1050 nm
+	?a absorb in ?b ?c
+		?a: These
+		?b: the range
+		?c: 465-470 nm
+	?a fluoresce at approx
+		?a: These
+
+
+label:    sent_15
+sentence: All the analytes except paracetamol absorb and fluoresce in the visible region .
+
+ppatt:
+	?a absorb
+		?a: All the analytes except paracetamol
+	?a fluoresce in ?b
+		?a: All the analytes except paracetamol
+		?b: the visible region
+
+
+label:    sent_16
+sentence: The starch granules fluoresce greenish yellow , allowing the degradative state to be observed .
+
+ppatt:
+	?a fluoresce ?b
+		?a: The starch granules
+		?b: greenish yellow
+	?a allowing ?b
+		?a: The starch granules
+		?b: the degradative state
+	?a be observed
+		?a: The starch granules
+
+
+label:    sent_17
+sentence: They may fluoresce up to 30 seconds after the anterior ciliary arteries .
+
+ppatt:
+	?a may fluoresce ?b after ?c
+		?a: They
+		?b: up 30 seconds
+		?c: the anterior ciliary arteries
+
+
+label:    sent_18
+sentence: The extracellular pigment deposits fluoresce red-yellow .
+
+ppatt:
+	?a fluoresce ?b
+		?a: The extracellular pigment deposits
+		?b: red-yellow
+
+
+label:    sent_19
+sentence: Tissue lipids then fluoresce yellow-gold to red , depending on their relative hydrophobicity .
+
+ppatt:
+	?a then fluoresce yellow-gold to ?b
+		?a: Tissue lipids
+		?b: red
+	?a depending on ?b relative hydrophobicity
+		?a: Tissue lipids
+		?b: their
+
+

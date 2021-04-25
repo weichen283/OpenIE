@@ -1,0 +1,246 @@
+label:    sent_1
+sentence: A ligand-directed growth mechanism was subsequently proposed to rationalize the growth process .
+
+ppatt:
+	?a was subsequently proposed to rationalize ?b
+		?a: A ligand-directed growth mechanism
+		?b: the growth process
+
+
+label:    sent_2
+sentence: Representatives from all the three groups are then compared to rationalize their substrate specificity .
+
+ppatt:
+	?a are then compared to rationalize ?b
+		?a: Representatives from all the three groups
+		?b: their substrate specificity
+
+
+label:    sent_3
+sentence: Molecular modeling was used to rationalize the observed selectivity . Molecular modeling enabled us to rationalize this behavior .
+
+ppatt:
+	?a was used to rationalize ?b ?c
+		?a: Molecular modeling
+		?b: the observed selectivity
+		?c: SOMETHING := Molecular modeling enabled us to rationalize this behavior
+	?a enabled ?b to rationalize ?c
+		?a: Molecular modeling
+		?b: us
+		?c: this behavior
+
+
+label:    sent_4
+sentence: Intraligand hydrophobic interactions rationalize drug affinities for peptidyl-prolyl cis-trans isomerase protein .
+
+ppatt:
+	?a rationalize ?b
+		?a: Intraligand hydrophobic interactions
+		?b: drug affinities for peptidyl-prolyl cis-trans isomerase protein
+
+
+label:    sent_5
+sentence: Computational methods to rationalize experimental strategies in biocatalysis .
+
+ppatt:
+	?a rationalize ?b
+		?a: Computational methods
+		?b: experimental strategies in biocatalysis
+
+
+label:    sent_6
+sentence: We attempted to rationalize the findings by rheological characterization of the cell-alginate suspensions .
+
+ppatt:
+	?a attempted to rationalize ?b
+		?a: We
+		?b: the findings by rheological characterization of the cell-alginate suspensions
+
+
+label:    sent_7
+sentence: An approach to rationalize these data by oscillation rheometry is shown .
+
+ppatt:
+	?a rationalize ?b by ?c
+		?a: An approach
+		?b: these data
+		?c: oscillation rheometry
+	?a is shown
+		?a: An approach to rationalize these data by oscillation rheometry
+
+
+label:    sent_8
+sentence: It would be impossible to rationalize pharmacotherapy without these data . They have the potential to rationalize everyday practice , and stimulate further research .
+
+ppatt:
+	?a would be impossible to rationalize ?b without ?c
+		?a: It
+		?b: pharmacotherapy
+		?c: these data
+	?a have ?b
+		?a: They
+		?b: the potential to rationalize everyday practice
+	?a rationalize ?b
+		?a: the potential
+		?b: everyday practice
+	?a stimulate ?b
+		?a: They
+		?b: further research
+
+
+label:    sent_9
+sentence: There is ample opportunity to rationalize practices and reduce expenditure .
+
+ppatt:
+	There is ?a
+		?a: ample opportunity to rationalize practices and reduce expenditure
+	?a rationalize ?b
+		?a: ample opportunity
+		?b: practices
+	?a reduce ?b
+		?a: ample opportunity
+		?b: expenditure
+
+
+label:    sent_10
+sentence: Together , our results rationalize DCAMKL-1 as a therapeutic target for eradicating pancreatic cancers .
+
+ppatt:
+	Together , ?a rationalize ?b as ?c
+		?a: our results
+		?b: DCAMKL-1
+		?c: a therapeutic target for eradicating pancreatic cancers
+	?a eradicating ?b
+		?a: a therapeutic target
+		?b: pancreatic cancers
+
+
+label:    sent_11
+sentence: We rationalize these results by means of an energetic balance argument .
+
+ppatt:
+	?a rationalize ?b by ?c of ?d
+		?a: We
+		?b: these results
+		?c: means
+		?d: an energetic balance argument
+
+
+label:    sent_12
+sentence: We could rationalize the formation of all metabolites by invoking ipso-hydroxylation and ipso-substitution mechanisms .
+
+ppatt:
+	?a could rationalize ?b
+		?a: We
+		?b: the formation of all metabolites
+	?a invoking ?b
+		?a: We
+		?b: ipso-hydroxylation
+	?a invoking ?b
+		?a: We
+		?b: ipso-substitution
+
+
+label:    sent_13
+sentence: These design principles rationalize existing experimental results and generate testable hypotheses .
+
+ppatt:
+	?a rationalize ?b
+		?a: These design principles
+		?b: existing experimental results
+	?a generate ?b
+		?a: These design principles
+		?b: testable hypotheses
+
+
+label:    sent_14
+sentence: The lectures on basic science were designed to rationalize and explicate clinical practices .
+
+ppatt:
+	?a were designed to rationalize ?b
+		?a: The lectures on basic science
+		?b: clinical practices
+	?a were designed to explicate
+		?a: The lectures on basic science
+
+
+label:    sent_15
+sentence: Modern methods of drug discovery are rarely used to rationalize and speed-up the process . Medicare managed care : to ration or to rationalize .
+
+ppatt:
+	?a are rarely used to rationalize ?b : to ?c
+		?a: Modern methods of drug discovery
+		?b: the process
+		?c: ration
+	?a are rarely used to rationalize ?b : to ?c
+		?a: Modern methods of drug discovery
+		?b: the process
+		?c: to rationalize
+	?a are rarely used to speed-up
+		?a: Modern methods of drug discovery
+	?a is/are Medicare managed care
+		?a: the process
+
+
+label:    sent_16
+sentence: One can rationalize that the athetoid involuntary trunk movement may induce stress-related lumbar disorders .
+
+ppatt:
+	?a can rationalize ?b
+		?a: One
+		?b: SOMETHING := the athetoid involuntary trunk movement may induce stress-related lumbar disorders
+	?a may induce ?b
+		?a: the athetoid involuntary trunk movement
+		?b: stress-related lumbar disorders
+
+
+label:    sent_17
+sentence: Our ECR-LBD protein models rationalize how 20E and dibenzoylhydrazines interact with the ligand-binding pocket .
+
+ppatt:
+	?a rationalize ?b
+		?a: Our ECR-LBD protein models
+		?b: SOMETHING := how 20E and dibenzoylhydrazines interact with the ligand-binding pocket
+	how ?a interact with ?b
+		?a: 20E
+		?b: the ligand-binding pocket
+	how ?a interact with ?b
+		?a: dibenzoylhydrazines
+		?b: the ligand-binding pocket
+
+
+label:    sent_18
+sentence: SemanticEye : a semantic web application to rationalize and enhance chemical electronic publishing .
+
+ppatt:
+	?a rationalize ?b
+		?a: a semantic web application
+		?b: chemical electronic publishing
+	enhance ?a
+		?a: chemical electronic publishing
+
+
+label:    sent_19
+sentence: Why is it that many individuals verbally rationalize and distort self-esteem threatening information ?
+
+ppatt:
+	Why is ?a ?b
+		?a: it
+		?b: SOMETHING := many individuals verbally rationalize self-esteem threatening information
+	?a verbally rationalize ?b
+		?a: many individuals
+		?b: self-esteem threatening information
+	?a distort
+		?a: many individuals
+
+
+label:    sent_20
+sentence: The international competition forces the national economies continually to rationalize and to introduce automation .
+
+ppatt:
+	?a continually to rationalize
+		?a: the national economies
+	introduce ?a
+		?a: automation
+
+

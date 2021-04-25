@@ -1,0 +1,462 @@
+label:    sent_1
+sentence: In preparation for cryopreservation studies , smooth muscle cells that are difficult to cryopreserve using conventional preservation protocols were used to evaluate and compare the translocation potential of these two strategies using beta-galactosidase .
+
+ppatt:
+	?a are difficult to cryopreserve using ?b
+		?a: smooth muscle cells
+		?b: conventional preservation protocols
+	In ?a , ?b were used to evaluate ?c using ?d
+		?a: preparation for cryopreservation studies
+		?b: smooth muscle cells that are difficult to cryopreserve using conventional preservation protocols
+		?c: the translocation potential of these two strategies
+		?d: beta-galactosidase
+	?a were used to compare using
+		?a: smooth muscle cells that are difficult to cryopreserve using conventional preservation protocols
+
+
+label:    sent_2
+sentence: Japanese flounder ( Paralichthys olivaceus ) embryos are difficult to cryopreserve by vitrification .
+
+ppatt:
+	?a is/are Paralichthys olivaceus
+		?a: Japanese flounder
+	?a are difficult to cryopreserve by ?b
+		?a: Japanese flounder embryos
+		?b: vitrification
+
+
+label:    sent_3
+sentence: Freshly collected oocytes were more difficult to cryopreserve than those matured in vitro .
+
+ppatt:
+	?a were more difficult to cryopreserve than ?b
+		?a: Freshly collected oocytes
+		?b: those matured in vitro
+	?a matured in vitro
+		?a: those
+
+
+label:    sent_4
+sentence: It is widely accepted that it is possible to successfully cryopreserve human ovarian tissue by direct plunging into liquid nitrogen using permeable cryoprotectants only , without disaccharides .
+
+ppatt:
+	?a is widely accepted ?b
+		?a: It
+		?b: SOMETHING := it is possible to successfully cryopreserve human ovarian tissue by direct plunging into liquid nitrogen using permeable cryoprotectants only , without disaccharides
+	?a is possible to successfully cryopreserve ?b by ?c using ?d , without ?e
+		?a: it
+		?b: human ovarian tissue
+		?c: direct plunging into liquid nitrogen
+		?d: permeable cryoprotectants
+		?e: only disaccharides
+
+
+label:    sent_5
+sentence: To cryopreserve the enriched astrocytes under serum-free conditions , various cryoprotectants were examined .
+
+ppatt:
+	cryopreserve ?a under ?b ?c
+		?a: the enriched astrocytes
+		?b: serum-free conditions
+		?c: various cryoprotectants
+	?a were examined
+		?a: various cryoprotectants
+
+
+label:    sent_6
+sentence: The ability to cryopreserve this cell type with high efficiency adds considerable flexibility to cord blood transplantation .
+
+ppatt:
+	?a cryopreserve ?b with ?c
+		?a: The ability
+		?b: this cell type
+		?c: high efficiency
+	?a adds ?b
+		?a: The ability to cryopreserve this cell type with high efficiency
+		?b: considerable flexibility to cord blood transplantation
+
+
+label:    sent_7
+sentence: In order to transport and cryopreserve human tissues , it is essential to have an easy-to-use recipient where tissues can be kept in sterile conditions .
+
+ppatt:
+	order transport ?a ?b
+		?a: cryopreserve human tissues
+		?b: it
+	?a is essential to have ?b
+		?a: it
+		?b: an easy-to-use recipient where tissues can be kept in sterile conditions
+	?a where ?b can be kept in ?c
+		?a: an easy-to-use recipient
+		?b: tissues
+		?c: sterile conditions
+
+
+label:    sent_8
+sentence: The surplus of oocytes obtained during in vitro and gamete intrafallopian transfer creates the need to either ( 1 ) cryopreserve ( 196 degrees C ) or ( 2 ) fertilize these surplus oocytes and then freeze the resulting embryos .
+
+ppatt:
+	?a obtained during in vitro ?b
+		?a: oocytes
+		?b: gamete intrafallopian transfer
+	?a creates ?b
+		?a: The surplus of oocytes obtained during in vitro and gamete intrafallopian transfer
+		?b: the need
+	?a is/are 196 degrees C
+		?a: cryopreserve
+	?a fertilize ?b
+		?a: The surplus of oocytes obtained during in vitro and gamete intrafallopian transfer
+		?b: these surplus oocytes
+	?a then freeze ?b
+		?a: The surplus of oocytes obtained during in vitro and gamete intrafallopian transfer
+		?b: the resulting embryos
+
+
+label:    sent_9
+sentence: The procedure proved to effectively cryopreserve both testicular cells and tissue .
+
+ppatt:
+	?a proved to effectively cryopreserve ?b
+		?a: The procedure
+		?b: testicular cells
+	?a proved to effectively cryopreserve ?b
+		?a: The procedure
+		?b: tissue
+
+
+label:    sent_10
+sentence: Here , we describe a method to cryopreserve the sperm of the Greenshell ( TM ) mussel ( Perna canaliculus ) and how to use the sperm post-thawing to maximize larval production from thawed sperm in selective breeding .
+
+ppatt:
+	Here , ?a describe ?b
+		?a: we
+		?b: a method to cryopreserve the sperm of the Greenshell ( TM ) mussel and how to use the sperm post-thawing to maximize larval production from thawed sperm in selective breeding
+	?a cryopreserve ?b
+		?a: a method
+		?b: the sperm of the Greenshell ( TM ) mussel
+	?a is/are Perna canaliculus
+		?a: the Greenshell ( TM ) mussel
+	how to use ?a to maximize ?b
+		?a: the sperm post-thawing
+		?b: larval production from thawed sperm in selective breeding
+
+
+label:    sent_11
+sentence: ECBio has developed proprietary technology to consistently isolate , expand and cryopreserve a well-characterized population of stromal cells from human umbilical cord tissue ( UCX ( R ) cells ) . The protocols explain how to isolate and culture isolated cells ; how to stain and analyze ; and also how to cryopreserve the gut .
+
+ppatt:
+	?a has developed ?b to consistently isolate
+		?a: ECBio
+		?b: proprietary technology
+	?a expand
+		?a: ECBio
+	?a cryopreserve ?b
+		?a: ECBio
+		?b: a well-characterized population of stromal cells from human umbilical cord tissue ( UCX ( R ) cells
+	?a explain how to isolate ?b
+		?a: The protocols
+		?b: culture isolated cells
+	?a how to stain
+		?a: The protocols
+	?a analyze
+		?a: The protocols
+	?a also how to cryopreserve ?b
+		?a: The protocols
+		?b: the gut
+
+
+label:    sent_12
+sentence: In this chapter , we describe several protocols that we have used to cryopreserve these different sources of hematopoietic stem/progenitor cells , keeping in mind that the protocols may vary among transplant processing centers .
+
+ppatt:
+	In ?a , ?b describe ?c
+		?a: this chapter
+		?b: we
+		?c: several protocols that we have used to cryopreserve these different sources of hematopoietic stem/progenitor cells
+	?a ?b have used to cryopreserve ?c
+		?a: several protocols
+		?b: we
+		?c: these different sources of hematopoietic stem/progenitor cells
+	?a keeping in ?b
+		?a: we
+		?b: mind that the protocols may vary among transplant processing centers
+	?a may vary among ?b
+		?a: the protocols
+		?b: transplant processing centers
+
+
+label:    sent_13
+sentence: Regardless , the simple addition of CAT to present-day procedures will significantly improve this process , assuring increased and less variable fertilization success and allowing resource managers to dependably plan how many straws are needed to safely cryopreserve a genetic line .
+
+ppatt:
+	Regardless , ?a will significantly improve ?b
+		?a: the simple addition of CAT to present-day procedures
+		?b: this process
+	?a assuring ?b
+		?a: the simple addition of CAT to present-day procedures
+		?b: increased and less variable fertilization success
+	?a allowing ?b to dependably plan ?c
+		?a: the simple addition of CAT to present-day procedures
+		?b: resource managers
+		?c: SOMETHING := how many straws are needed to safely cryopreserve a genetic line
+	how ?a are needed to safely cryopreserve ?b
+		?a: many straws
+		?b: a genetic line
+
+
+label:    sent_14
+sentence: These data suggest that they are sensitive to both the rate of chilling and the absolute temperature , and indicate that vitrification may be the only means to successfully cryopreserve these organisms .
+
+ppatt:
+	?a suggest ?b
+		?a: These data
+		?b: SOMETHING := they are sensitive to both the rate of chilling and the absolute temperature
+	?a are sensitive to ?b
+		?a: they
+		?b: the rate of chilling and the absolute temperature
+	?a indicate ?b
+		?a: These data
+		?b: SOMETHING := vitrification may be the only means to successfully cryopreserve these organisms
+	?a may be the only means
+		?a: vitrification
+	?a successfully cryopreserve ?b
+		?a: the only means
+		?b: these organisms
+
+
+label:    sent_15
+sentence: [ Controversy in ART : should we cryopreserve oocytes or embryos ? Do prefer oocytes ] . We conclude that this freezing method can efficiently cryopreserve early cleavage stage mouse embryos .
+
+ppatt:
+	Do prefer ?a
+		?a: oocytes ]
+	?a ?b conclude ?c
+		?a: Controversy in ART
+		?b: We
+		?c: SOMETHING := this freezing method can efficiently cryopreserve early cleavage stage mouse embryos
+	?a can efficiently cryopreserve ?b
+		?a: this freezing method
+		?b: early cleavage stage mouse embryos
+
+
+label:    sent_16
+sentence: This cryopreservation method could effectively cryopreserve peripheral blood stem cells .
+
+ppatt:
+	?a could effectively cryopreserve ?b
+		?a: This cryopreservation method
+		?b: peripheral blood stem cells
+
+
+label:    sent_17
+sentence: After collection , the harvested cells usually undergo several processing steps to reduce the product volume , remove cells ( such as mature blood cells or tumor cells ) , or to cryopreserve the cells for later reinfusion .
+
+ppatt:
+	After ?a , ?b usually undergo ?c
+		?a: collection
+		?b: the harvested cells
+		?c: several processing steps to reduce the product volume
+	?a reduce ?b
+		?a: several processing steps
+		?b: the product volume
+	?a remove ?b
+		?a: the harvested cells
+		?b: cells ( such as mature blood cells or tumor cells
+	?a cryopreserve ?b for ?c
+		?a: the harvested cells
+		?b: the cells
+		?c: later reinfusion
+
+
+label:    sent_18
+sentence: The objective of this study was to obtain expanded blastocysts following intracytoplasmic sperm injection ( ICSI ) and Vero-cell co-culture , cryopreserve them at this stage , and transfer the frozen-thawed blastocysts to obtain pregnancies .
+
+ppatt:
+	?a was to obtain ?b following ?c
+		?a: The objective of this study
+		?b: expanded blastocysts
+		?c: intracytoplasmic sperm injection
+	?a was to obtain ?b following ?c
+		?a: The objective of this study
+		?b: expanded blastocysts
+		?c: Vero-cell co-culture
+	?a is/are ICSI
+		?a: intracytoplasmic sperm injection
+	?a is/are ICSI
+		?a: Vero-cell co-culture
+	?a cryopreserve ?b at ?c
+		?a: The objective of this study
+		?b: them
+		?c: this stage
+	?a was to transfer ?b to obtain ?c
+		?a: The objective of this study
+		?b: the frozen-thawed blastocysts
+		?c: pregnancies
+
+
+label:    sent_19
+sentence: The ability to collect specific blood cells in large numbers , to manipulate their expansion , growth , and differentiation in vitro , and also to cryopreserve these cells for later use has been central to the early developments in gene therapy .
+
+ppatt:
+	?a collect ?b in ?c
+		?a: The ability
+		?b: specific blood cells
+		?c: large numbers
+	?a manipulate ?b in vitro
+		?a: The ability
+		?b: their expansion
+	?a manipulate ?b in vitro
+		?a: The ability
+		?b: growth
+	?a manipulate ?b in vitro
+		?a: The ability
+		?b: differentiation
+	?a also to cryopreserve ?b for ?c
+		?a: The ability
+		?b: these cells
+		?c: later use
+	?a has been central to ?b
+		?a: The ability to collect specific blood cells in large numbers , to manipulate their expansion , growth , and differentiation in vitro , and also to cryopreserve these cells for later use
+		?b: the early developments in gene therapy
+
+
+label:    sent_20
+sentence: In conclusion , vitrification of human spermatozoa with non-permeable cryoprotectants such as HSA and sucrose can effectively cryopreserve the cells without significant loss of important physiological parameters .
+
+ppatt:
+	In ?a , ?b can effectively cryopreserve ?c without ?d
+		?a: conclusion
+		?b: vitrification of human spermatozoa with non-permeable cryoprotectants such as HSA and sucrose
+		?c: the cells
+		?d: significant loss of important physiological parameters
+
+
+label:    sent_21
+sentence: Generally , HSPCs are supplied from companies , institutions , and cell banks that cryopreserve them for clinical and experimental use .
+
+ppatt:
+	Generally , ?a are supplied from ?b
+		?a: HSPCs
+		?b: companies , that cryopreserve them for clinical and experimental use
+	Generally , ?a are supplied from ?b
+		?a: HSPCs
+		?b: institutions
+	Generally , ?a are supplied from ?b
+		?a: HSPCs
+		?b: cell banks
+	?a cryopreserve ?b for ?c
+		?a: companies
+		?b: them
+		?c: clinical and experimental use
+	?a cryopreserve ?b for ?c
+		?a: institutions
+		?b: them
+		?c: clinical and experimental use
+	?a cryopreserve ?b for ?c
+		?a: cell banks
+		?b: them
+		?c: clinical and experimental use
+
+
+label:    sent_22
+sentence: In conclusion , the present vitrification method could efficiently cryopreserve isolated human ovarian follicles encapsulated by calcium alginate , which could be put into immediate use ( in vitro culture/ maturation ) after warming . Sperm from C57BL/6 mice are difficult to cryopreserve and recover .
+
+ppatt:
+	In ?a , ?b could efficiently cryopreserve ?c
+		?a: conclusion
+		?b: the present vitrification method
+		?c: isolated human ovarian follicles encapsulated by calcium alginate , which could be put into immediate use after warming
+	?a encapsulated by ?b
+		?a: isolated human ovarian follicles , which could be put into immediate use after warming
+		?b: calcium alginate
+	?a could be put into ?b after ?c
+		?a: isolated human ovarian follicles encapsulated by calcium alginate
+		?b: immediate use
+		?c: warming
+	?a is/are in culture/ maturation
+		?a: immediate use
+	?a are difficult to cryopreserve
+		?a: Sperm from C57BL/6 mice
+	?a are difficult to recover
+		?a: Sperm from C57BL/6 mice
+
+
+label:    sent_23
+sentence: The aim of this study was to cryopreserve by vitrification by ethylene glycol ( EG ) and dimethyl sulfoxide ( DMSO ) immature bovine oocytes in straws and to investigate the effects of vitrification on post-thaw oocyte maturation .
+
+ppatt:
+	?a was to cryopreserve by ?b
+		?a: The aim of this study
+		?b: vitrification by ethylene glycol and dimethyl sulfoxide immature bovine oocytes in straws
+	?a is/are EG
+		?a: ethylene glycol
+	?a is/are EG
+		?a: dimethyl sulfoxide
+	?a is/are EG
+		?a: immature bovine oocytes
+	?a is/are DMSO
+		?a: dimethyl sulfoxide
+	?a was to to investigate ?b
+		?a: The aim of this study
+		?b: the effects of vitrification on post-thaw oocyte maturation
+
+
+label:    sent_24
+sentence: The ability to cryopreserve and successfully recover cell lines has been critical to the conservation of all cell lines , especially the preservation of pristine early-stage cultures and the preparation of well-characterized cell banks .
+
+ppatt:
+	?a cryopreserve
+		?a: The ability
+	?a successfully recover ?b
+		?a: The ability
+		?b: cell lines
+	?a has been critical to ?b
+		?a: The ability to cryopreserve and successfully recover cell lines
+		?b: the conservation of all cell lines
+	?a has been critical to ?b
+		?a: The ability to cryopreserve and successfully recover cell lines
+		?b: especially the preservation of pristine early-stage cultures
+	?a has been critical to ?b
+		?a: The ability to cryopreserve and successfully recover cell lines
+		?b: the preparation of well-characterized cell banks
+
+
+label:    sent_25
+sentence: The practitioner also should be aware that there is large variation in semen quality from stallions , and that spermatozoa from some of the problem stallions can be improved by altering a " standard protocol , " but that semen from some stallions will not cryopreserve effectively , regardless of the efforts put forth .
+
+ppatt:
+	?a also should be aware ?b
+		?a: The practitioner
+		?b: SOMETHING := there is large variation in semen quality from stallions
+	there is ?a
+		?a: large variation in semen quality from stallions
+	?a can be improved
+		?a: spermatozoa from some of the problem stallions
+	?a altering ?b
+		?a: spermatozoa from some of the problem stallions
+		?b: a " standard protocol
+	?a is/are "
+		?a: a " standard protocol
+	?a will not cryopreserve effectively , regardless of ?b
+		?a: semen from some stallions
+		?b: the efforts put forth
+	?a put forth
+		?a: the efforts
+
+
+label:    sent_26
+sentence: To assess on which day to cryopreserve and transfer thawed embryos in good-responder patients by comparing the cycle outcomes of day 3 transfers vs blastocysts formed through extended culture before or after cryopreservation .
+
+ppatt:
+	assess ?a
+		?a: on which day to cryopreserve
+	transfer ?a
+		?a: thawed embryos in good-responder patients
+	comparing ?a
+		?a: the cycle outcomes of day 3 transfers vs blastocysts formed through extended culture before or after cryopreservation
+	?a formed through ?b ?c
+		?a: blastocysts
+		?b: extended culture
+		?c: before or after cryopreservation
+
+

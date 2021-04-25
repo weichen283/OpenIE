@@ -1,0 +1,40 @@
+obj	This toxin insertion creates pores that lyse the cells .	obj@cells
+obj	Oncolytic adenoviruses replicate selectively within and lyse malignant cells .	obj@cells
+obj	Oncolytic adenoviruses preferentially replicate in and lyse tumor cells .	obj@cells
+
+subj#obj	Killer cell Ig-like receptors ligand-mismatched , alloreactive natural killer cells lyse primary solid tumors .	subj@receptors obj@tumors
+subj#obj	Leu11+ cells lyse dengue virus-infected cells and K562 cells .	subj@cells obj@cells
+subj#obj	Leu11- cells lyse dengue virus-infected cells , but not K562 cells .	subj@cells obj@cells
+
+obj#prep	They are not killed but survive and lyse bacteriovorous protozoans after about 8 days .	obj@protozoans prep_after@days
+obj#prep	Clostridium perfringens theta-toxin was shown to lyse target erythrocytes by a colloid-osmotic mechanism .	obj@erythrocytes prep_by@mechanism
+obj#prep	Oncolytic viruses are tumour selective and able to lyse cancer cells after infection .	obj@cells prep_after@infection
+
+obj#conj	Pneumolysin was also found to lyse platelets and to activate serum to become chemotactic .	obj@platelets conj_and@activate
+obj#conj	Defensins fuse and lyse negatively charged liposomes but display reduced activity with neutral liposomes .	obj@liposomes conj_but@display
+obj#conj	During syphilitic infection , these cells phagocytize , kill , and lyse Treponema pallidum .	obj@pallidum conj_and@phagocytize
+
+subj#obj#prep	NK cells are defined as those cells that lyse tumor cells without priming .	subj@cells obj@cells prep_without@priming
+subj#obj#prep	In a second step sensitized 10BK.1 cells lyse allogeneic target cells .	subj@cells obj@cells prep_in@step
+subj#obj#prep	In addition , 2B4+ T cells can specifically lyse the 2B4 hybridoma cells .	subj@cells obj@cells prep_in@addition
+
+subj#obj#conj	Natural killer cells spontaneously lyse certain tumor cells and may defend against malignancy .	subj@cells obj@cells conj_and@defend
+subj#obj#conj	Genetically engineered or naturally oncolytic viruses selectively lyse tumors and leave healthy tissues intact .	subj@viruses obj@tumors conj_and@leave
+subj#obj#conj	Fibrinolytic agents lyse pulmonary emboli but are not as effective in deep venous thrombosis .	subj@agents obj@emboli conj_but@effective
+
+subj	The main finding was that agar caused cells to lyse as they matured .	subj@cells
+subj	Monocytes prepared on culture dishes lyse YK-M2 .	subj@Monocytes
+subj	NK cells lyse T regulatory cells that expand in response to an intracellular pathogen .	subj@cells
+
+subj#prep	The DeltamyoB cells also often lyse due to defects in cell wall biogenesis .	subj@cells prep_due_to@defects
+subj#prep	Thermosensitive Bacillus subtilis mutants which lyse at the non-permissive temperature .	subj@mutants prep_at@temperature
+subj#prep	Cells did not lyse in distilled water .	subj@Cells prep_in@water
+
+prep	Fragile mutants of Saccharomyces cerevisiae require osmotic stabilizers and lyse in hypotonic solutions .	prep_in@solutions
+prep	Cells were not observed to lyse in distilled water .	prep_in@water
+prep	Uncharacteristically , the red cells failed to lyse with acidified normal serum .	prep_with@serum
+
+conj	Acute myocardial infarction : to lyse or to inflate ?	conj_or@inflate
+conj	Hemodialysis graft declotting : " lyse and wait " and watch .	conj_and@wait
+conj	Cells depleted of MraY first swell and then lyse .	conj_and@swell
+

@@ -1,0 +1,445 @@
+label:    sent_1
+sentence: Endodontic treatment was completed on the adjacent teeth concurrent with periapical surgery to seal the tooth apex .
+
+ppatt:
+	?a was completed on ?b to seal ?c
+		?a: Endodontic treatment
+		?b: the adjacent teeth concurrent with periapical surgery
+		?c: the tooth apex
+
+
+label:    sent_2
+sentence: The attainment of an apical seal in such cases is challenging . Lastly , both suture ends are tied around the plastic seal .
+
+ppatt:
+	?a is challenging . Lastly
+		?a: The attainment of an apical seal in such cases
+	?a are tied around ?b
+		?a: both suture ends
+		?b: the plastic seal
+
+
+label:    sent_3
+sentence: The AngioSeal device is a percutaneous , bioabsorbable , collagen-based hemostatic plug deployed to seal the arterial puncture .
+
+ppatt:
+	?a is a percutaneous , hemostatic plug
+		?a: The AngioSeal device
+	?a deployed to seal ?b
+		?a: a percutaneous , hemostatic plug
+		?b: the arterial puncture
+
+
+label:    sent_4
+sentence: Clearfil and MTA achieved a hermetic seal .
+
+ppatt:
+	?a achieved ?b
+		?a: Clearfil
+		?b: a hermetic seal
+	?a achieved ?b
+		?a: MTA
+		?b: a hermetic seal
+
+
+label:    sent_5
+sentence: The use of diamond-coated ultrasonic tips improved the seal and reduced the gap when using materials that did not hermetically seal the cavity ( Amalcap , IRM , Cavalite , Vitrebond ) . Intraoperative angiography documented the complete seal of the primary entry .
+
+ppatt:
+	?a improved ?b
+		?a: The use of diamond-coated ultrasonic tips
+		?b: the seal
+	?a reduced ?b
+		?a: The use of diamond-coated ultrasonic tips
+		?b: the gap
+	?a when using ?b
+		?a: The use of diamond-coated ultrasonic tips
+		?b: materials that did not hermetically seal the cavity
+	?a did not hermetically seal ?b
+		?a: materials
+		?b: the cavity
+	?a is/are IRM
+		?a: Amalcap
+	?a is/are Cavalite
+		?a: Amalcap
+	?a is/are Vitrebond
+		?a: Amalcap
+	?a documented ?b
+		?a: Intraoperative angiography
+		?b: the complete seal of the primary entry
+
+
+label:    sent_6
+sentence: Five novel DNA-dependent DNA polymerase ( Dpol ) herpesviral sequences were generated using nested consensus polymerase chain reaction ( PCR ) in clinical samples from a harbor seal ( Phoca vitulina ) , bottlenose dolphin ( Tursiops truncatus ) , orca ( Orcinus orca ) , California sea lion ( Zalophus californianus ) , and a Phocid herpesvirus 2 ( PhHV-2 ) isolate from a harbor seal ( used as positive control ) . Ultrasonic cavity preparation is preferable because it improves the seal and marginal fit of materials that do not achieve a hermetic seal of the cavity ( Amalcap , IRM , Cavalite , Vitrebond ) . The collagen seal had embolized and was subsequently removed by the vascular surgeons .
+
+ppatt:
+	?a were generated using ?b in ?c
+		?a: Five novel DNA-dependent DNA polymerase ( Dpol ) herpesviral sequences
+		?b: nested consensus polymerase chain reaction
+		?c: clinical samples from a harbor seal , bottlenose dolphin , orca , California sea lion
+	?a were generated using in ?b ?c
+		?a: Five novel DNA-dependent DNA polymerase ( Dpol ) herpesviral sequences
+		?b: clinical samples from a harbor seal , bottlenose dolphin , orca , California sea lion
+		?c: a Phocid herpesvirus 2 isolate from a harbor seal
+	?a is/are PCR
+		?a: nested consensus polymerase chain reaction
+	?a is/are PCR
+		?a: a Phocid herpesvirus 2 isolate from a harbor seal
+	?a is/are Phoca vitulina
+		?a: a harbor seal
+	?a is/are Phoca vitulina
+		?a: bottlenose dolphin
+	?a is/are Phoca vitulina
+		?a: orca
+	?a is/are Phoca vitulina
+		?a: California sea lion
+	?a is/are Tursiops truncatus
+		?a: bottlenose dolphin
+	?a is/are Orcinus orca
+		?a: orca
+	?a is/are Zalophus californianus
+		?a: California sea lion
+	?a is/are PhHV-2
+		?a: Phocid herpesvirus 2
+	?a is preferable
+		?a: Ultrasonic cavity preparation
+	?a improves ?b ?c
+		?a: it
+		?b: the seal of materials that do not achieve a hermetic seal of the cavity
+		?c: fit
+	?a improves ?b ?c
+		?a: it
+		?b: marginal
+		?c: fit
+	?a do not achieve ?b
+		?a: materials
+		?b: a hermetic seal of the cavity
+	?a is/are IRM
+		?a: Amalcap
+	?a is/are IRM
+		?a: The collagen seal
+	?a is/are Cavalite
+		?a: Amalcap
+	?a is/are Cavalite
+		?a: The collagen seal
+	?a is/are Vitrebond
+		?a: Amalcap
+	?a is/are Vitrebond
+		?a: The collagen seal
+	?a had embolized
+		?a: it
+	?a was subsequently removed by ?b
+		?a: it
+		?b: the vascular surgeons
+
+
+label:    sent_7
+sentence: After the trocar is inserted into the abdominal wall , we place a 2/0 silk suture through the skin next to the trocar , then a sterile Nylon 6.6 plastic seal ( Sumar Inc , Buenos Aires , Argentina ) is wrapped around the trocar and the end of one of the sutures .
+
+ppatt:
+	After ?a is inserted into ?b
+		?a: the trocar
+		?b: the abdominal wall
+	?a place ?b through ?c next to ?d
+		?a: we
+		?b: a 2/0 silk suture
+		?c: the skin
+		?d: the trocar
+	?a is/are Buenos Aires
+		?a: Sumar Inc
+	?a is/are Argentina
+		?a: Sumar Inc
+	then ?a is wrapped around ?b
+		?a: a sterile Nylon 6.6 plastic seal
+		?b: the trocar
+	then ?a is wrapped around ?b
+		?a: a sterile Nylon 6.6 plastic seal
+		?b: the end of one of the sutures
+
+
+label:    sent_8
+sentence: The seal was evaluated in two experiments : a microleakage assay on the passage of dye to the interface ; and a scanning electron microscopy study and analysis of epoxy resin replicas , measuring the size of gaps in the interface between filling material and cavity walls .
+
+ppatt:
+	?a was evaluated in ?b
+		?a: The seal
+		?b: two experiments
+	?a measuring ?b
+		?a: a microleakage assay on the passage of dye to the interface
+		?b: the size of gaps in the interface between filling material and cavity
+	?a measuring ?b
+		?a: a scanning electron microscopy study
+		?b: the size of gaps in the interface between filling material and cavity
+
+
+label:    sent_9
+sentence: Seal or no seal : Philips analyzer latent error . Dynamic examination of the area of impingement , which can not be performed in open treatment of cam impingement , confirms adequate resection and labral seal through hip range of motion .
+
+ppatt:
+	?a can not be performed in ?b
+		?a: Dynamic examination of the area of impingement
+		?b: open treatment of cam impingement
+	?a confirms ?b through ?c
+		?a: Seal
+		?b: adequate resection
+		?c: hip range of motion
+	?a confirms ?b through ?c
+		?a: no
+		?b: adequate resection
+		?c: hip range of motion
+	?a confirms ?b through ?c
+		?a: seal
+		?b: adequate resection
+		?c: hip range of motion
+	?a confirms ?b through ?c
+		?a: Dynamic examination of the area of impingement which can not be performed in open treatment of cam impingement
+		?b: adequate resection
+		?c: hip range of motion
+	?a confirms ?b through ?c
+		?a: Seal
+		?b: labral seal
+		?c: hip range of motion
+	?a confirms ?b through ?c
+		?a: no
+		?b: labral seal
+		?c: hip range of motion
+	?a confirms ?b through ?c
+		?a: seal
+		?b: labral seal
+		?c: hip range of motion
+	?a confirms ?b through ?c
+		?a: Dynamic examination of the area of impingement which can not be performed in open treatment of cam impingement
+		?b: labral seal
+		?c: hip range of motion
+
+
+label:    sent_10
+sentence: Differentiating between Steller sea lion ( Eumetopias jubatus ) and northern fur seal ( Callorhinus ursinus ) scats through analysis of faecal DNA .
+
+ppatt:
+	Differentiating between ?a
+		?a: Steller sea lion
+	Differentiating between ?a
+		?a: northern fur seal
+	?a is/are Eumetopias jubatus
+		?a: Steller sea lion
+	?a is/are Eumetopias jubatus
+		?a: northern fur seal
+	?a is/are Callorhinus ursinus
+		?a: northern fur seal
+	?a scats through ?b
+		?a: SOMETHING := Differentiating between Steller sea lion and northern fur seal
+		?b: analysis of faecal DNA
+
+
+label:    sent_11
+sentence: Plasma-enhanced chemical vapour deposition ( PECVD ) of SiO ( 2 ) led to an hourglass structure of the pore and a tighter seal than that offered by a flat , thermal SiO ( 2 ) surface .
+
+ppatt:
+	?a is/are PECVD
+		?a: Plasma-enhanced chemical vapour deposition of SiO
+	?a is/are 2
+		?a: SiO
+	?a led to ?b
+		?a: Plasma-enhanced chemical vapour deposition of SiO
+		?b: an hourglass structure of the pore
+	?a led to ?b
+		?a: Plasma-enhanced chemical vapour deposition of SiO
+		?b: a tighter seal than that offered by a flat , SiO ( 2 ) surface
+	offered by ?a
+		?a: a flat , SiO ( 2 ) surface
+
+
+label:    sent_12
+sentence: The lungs of a northern elephant seal , Mirounga angustirostris ( Gill , 1866 ) , and Pacific harbor seal , Phoca vitulina richardii ( Gray , 1864 ) , from the eastern central Pacific , central California coast , were examined for parasites .
+
+ppatt:
+	?a is/are Mirounga angustirostris
+		?a: a northern elephant seal
+	?a harbor ?b
+		?a: The lungs of a northern elephant seal
+		?b: seal
+	?a harbor ?b
+		?a: Pacific
+		?b: seal
+	?a harbor ?b
+		?a: The lungs of a northern elephant seal
+		?b: Phoca vitulina richardii
+	?a harbor ?b
+		?a: Pacific
+		?b: Phoca vitulina richardii
+	?a is/are from the eastern central Pacific , central California coast
+		?a: seal
+	?a is/are from the eastern central Pacific , central California coast
+		?a: Phoca vitulina richardii
+	?a were examined for ?b
+		?a: The lungs of a northern elephant seal , harbor seal , Phoca vitulina richardii
+		?b: parasites
+	?a were examined for ?b
+		?a: Pacific
+		?b: parasites
+
+
+label:    sent_13
+sentence: Persistent organic pollutants in Alaskan ringed seal ( Phoca hispida ) and walrus ( Odobenus rosmarus ) blubber .
+
+ppatt:
+	?a is/are Phoca hispida
+		?a: Alaskan ringed seal
+	?a is/are Phoca hispida
+		?a: walrus
+	?a is/are Phoca hispida
+		?a: blubber
+	?a is/are Odobenus rosmarus
+		?a: walrus
+
+
+label:    sent_14
+sentence: A hermetic seal of the root canal space following canal preparation is important in endodontics .
+
+ppatt:
+	?a is important in ?b
+		?a: A hermetic seal of the root canal space following canal preparation
+		?b: endodontics
+
+
+label:    sent_15
+sentence: This activity can seal nicks in duplex DNA or join double-stranded DNA fragments having either blunt or cohesive ends . Seal A was a conventional seal without a shield .
+
+ppatt:
+	?a can seal ?b
+		?a: This activity
+		?b: nicks in duplex DNA
+	?a join ?b
+		?a: This activity
+		?b: double-stranded DNA fragments having either blunt or cohesive ends
+	?a having ?b
+		?a: double-stranded DNA fragments
+		?b: either blunt or cohesive ends
+	?a was a conventional seal without ?b
+		?a: Seal A
+		?b: a shield
+
+
+label:    sent_16
+sentence: The need to achieve a tight , permanent coronal seal as soon as possible after the completion of endodontic treatment is obvious .
+
+ppatt:
+	?a achieve ?b
+		?a: The need
+		?b: a tight , coronal seal
+	?a is obvious
+		?a: The need to achieve a tight , coronal seal as soon as possible after the completion of endodontic treatment
+
+
+label:    sent_17
+sentence: Seroprevalence of Toxoplasma gondii in North-eastern Atlantic harbor seal ( Phoca vitulina vitulina ) and grey seal ( Halichoerus grypus ) . Among these , the septate junctions are thought to seal the neighboring cells and thus to function as the paracellular barriers .
+
+ppatt:
+	?a harbor ?b . Among ?c
+		?a: Seroprevalence of Toxoplasma gondii in North-eastern Atlantic
+		?b: seal
+		?c: these
+	?a harbor ?b . Among ?c
+		?a: Seroprevalence of Toxoplasma gondii in North-eastern Atlantic
+		?b: grey seal
+		?c: these
+	?a is/are Phoca vitulina vitulina
+		?a: seal
+	?a is/are Phoca vitulina vitulina
+		?a: grey seal
+	?a is/are Halichoerus grypus
+		?a: grey seal
+	?a are thought to seal ?b
+		?a: the septate junctions
+		?b: the neighboring cells
+	?a are thought to thus to function as ?b
+		?a: the septate junctions
+		?b: the paracellular barriers
+
+
+label:    sent_18
+sentence: Although EndoREZ exhibited an acceptable apical seal , its coronal seal may be improved with the use of a dual-cured self-etch adhesive .
+
+ppatt:
+	?a exhibited ?b
+		?a: EndoREZ
+		?b: an acceptable apical seal
+	?a may be improved with ?b
+		?a: its coronal seal
+		?b: the use of a dual-cured self-etch adhesive
+
+
+label:    sent_19
+sentence: The dogs were then randomized into the control group ( n = 14 ; no attempt to seal the leaks ) or into the fibrin glue-treated group ( n = 11 ) . Fibrin seal application .
+
+ppatt:
+	?a were then randomized into ?b
+		?a: The dogs
+		?b: the control group
+	?a were then randomized into ?b
+		?a: The dogs
+		?b: the fibrin glue-treated group
+	?a seal ?b
+		?a: no attempt
+		?b: the leaks
+
+
+label:    sent_20
+sentence: The system functioned well and provided data to indicate that , after margination , the two posterior composite resin restorative materials performed equally and both performed better than the glass-ionomer filling material ; none of the materials provided a perfect seal immediately after insertion , although some restorations demonstrated perfect seals from 16 hours to 28 days after placement ; the seal of the glass-ionomer material improved after 28 days of storage in buffer solution ; each successive step in the respective composite resin procedures improved the seal except in one case for the microfilled resin .
+
+ppatt:
+	?a functioned well ?b
+		?a: The system
+		?b: data to indicate
+	?a provided
+		?a: The system
+	?a indicate
+		?a: data
+	?a performed equally
+		?a: the two posterior composite resin restorative materials
+	after ?a , ?b both performed ?c than ?d
+		?a: margination
+		?b: the two posterior composite resin restorative materials performed equally
+		?c: better
+		?d: the glass-ionomer filling material
+	?a provided ?b immediately after ?c
+		?a: none of the materials
+		?b: a perfect seal
+		?c: insertion
+	?a demonstrated ?b from ?c to ?d after
+		?a: some restorations
+		?b: perfect seals
+		?c: 16 hours
+		?d: 28 days
+	?a improved after ?b
+		?a: the seal of the glass-ionomer material
+		?b: 28 days of storage in buffer solution
+	?a improved ?b except in ?c
+		?a: each successive step in the respective composite resin procedures
+		?b: the seal
+		?c: one case for the microfilled resin
+
+
+label:    sent_21
+sentence: Tricellular junctions tightly seal epithelia at the corners of three cells .
+
+ppatt:
+	?a tightly seal ?b at ?c
+		?a: Tricellular junctions
+		?b: epithelia
+		?c: the corners of three cells
+
+
+label:    sent_22
+sentence: A double seal over root canal filling has been suggested as a means of improving the coronal seal .
+
+ppatt:
+	?a has been suggested as ?b
+		?a: A double seal over root canal filling
+		?b: a means of improving the coronal seal
+	?a improving ?b
+		?a: a means
+		?b: the coronal seal
+
+

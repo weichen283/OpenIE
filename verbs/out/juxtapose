@@ -1,0 +1,116 @@
+label:    sent_1
+sentence: My aim here is to juxtapose these radically different extremes .
+
+ppatt:
+	?a here is to juxtapose ?b
+		?a: My aim
+		?b: these radically different extremes
+
+
+label:    sent_2
+sentence: The ability to juxtapose annotations of many types facilitates inquiry-driven data mining .
+
+ppatt:
+	?a juxtapose ?b
+		?a: The ability
+		?b: annotations of many types
+	?a facilitates ?b
+		?a: The ability to juxtapose annotations of many types
+		?b: inquiry-driven data mining
+
+
+label:    sent_3
+sentence: These cells , composed of neutrophils and lymphocytes , appeared to juxtapose apoptotic osteoclasts .
+
+ppatt:
+	?a composed of ?b
+		?a: These cells
+		?b: neutrophils
+	?a composed of ?b
+		?a: These cells
+		?b: lymphocytes
+	?a appeared to juxtapose ?b
+		?a: These cells , composed of neutrophils and lymphocytes
+		?b: apoptotic osteoclasts
+
+
+label:    sent_4
+sentence: The upstream Pbx1 core sequence , TGAT , must immediately juxtapose the Hox core .
+
+ppatt:
+	?a is/are TGAT
+		?a: The upstream Pbx1 core sequence
+	?a must immediately juxtapose ?b
+		?a: The upstream Pbx1 core sequence
+		?b: the Hox core
+
+
+label:    sent_5
+sentence: Migration of a Steinmann pin from the proximal humerus to juxtapose the axillary artery .
+
+ppatt:
+
+
+
+label:    sent_6
+sentence: Gene loops juxtapose promoters and terminators in yeast .
+
+ppatt:
+
+
+
+label:    sent_7
+sentence: Interestingly , all three diseases juxtapose dysregulated intracellular signaling with altered metabolic state .
+
+ppatt:
+	Interestingly , ?a juxtapose dysregulated ?b with ?c
+		?a: all three diseases
+		?b: intracellular signaling
+		?c: altered metabolic state
+
+
+label:    sent_8
+sentence: In this way a frame is provided to juxtapose exons about to be spliced .
+
+ppatt:
+	In ?a ?b is provided to ?c about to be spliced
+		?a: this way
+		?b: a frame
+		?c: juxtapose exons
+
+
+label:    sent_9
+sentence: In this study this model was extended to juxtapose self-concept with academic interest .
+
+ppatt:
+	In ?a ?b was extended to juxtapose ?c
+		?a: this study
+		?b: this model
+		?c: self-concept with academic interest
+
+
+label:    sent_10
+sentence: These include complex rearrangements that juxtapose the c-myc oncogene to antigen receptor loci .
+
+ppatt:
+	?a include ?b
+		?a: These
+		?b: complex rearrangements that juxtapose the c-myc oncogene to antigen receptor loci
+	?a juxtapose ?b to ?c
+		?a: complex rearrangements
+		?b: the c-myc oncogene
+		?c: antigen receptor loci
+
+
+label:    sent_11
+sentence: The structures juxtapose the end points of the deletion and thus direct deletion specificity .
+
+ppatt:
+	?a juxtapose ?b
+		?a: The structures
+		?b: the end points of the deletion
+	?a thus direct ?b
+		?a: The structures
+		?b: deletion specificity
+
+

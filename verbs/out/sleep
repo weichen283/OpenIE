@@ -1,0 +1,207 @@
+label:    sent_1
+sentence: Circadian rhythm sleep disorders .
+
+ppatt:
+
+
+
+label:    sent_2
+sentence: Relation of melatonin to sleep architecture in children with autism .
+
+ppatt:
+
+
+
+label:    sent_3
+sentence: Subtle rapid eye movement sleep abnormalities in presymptomatic spinocerebellar ataxia type 2 gene carriers .
+
+ppatt:
+
+
+
+label:    sent_4
+sentence: Parkinson disease : Skin patch improves sleep in PD .
+
+ppatt:
+
+
+
+label:    sent_5
+sentence: The impact of general medical condition on sleep in children with mental retardation .
+
+ppatt:
+
+
+
+label:    sent_6
+sentence: Should pregnant women sleep on their left ? Cerebral oxygenation is depressed during sleep in healthy term infants when they sleep prone .
+
+ppatt:
+	Should ?a ?b is depressed during ?c
+		?a: pregnant women
+		?b: sleep on their left ? Cerebral oxygenation
+		?c: sleep in healthy term infants
+	when ?a prone
+		?a: they sleep
+
+
+label:    sent_7
+sentence: Parkinson 's disease sleep scale--validation of the revised version PDSS-2 .
+
+ppatt:
+
+
+
+label:    sent_8
+sentence: The intersect of biology and culture in shaping children 's sleep .
+
+ppatt:
+	?a shaping ?b
+		?a: The intersect of biology and culture
+		?b: children 's sleep
+
+
+label:    sent_9
+sentence: To " sleep until death " . All perinatal deaths occurred among women who did not sleep under a mosquito net .
+
+ppatt:
+	?a did not sleep under ?b
+		?a: women
+		?b: a net
+
+
+label:    sent_10
+sentence: The subjects were allowed to sleep from 01:00 to 08:00 .
+
+ppatt:
+	?a were allowed to ?b
+		?a: The subjects
+		?b: sleep from 01:00
+
+
+label:    sent_11
+sentence: EEG sleep slow-wave activity as a mirror of cortical maturation .
+
+ppatt:
+
+
+
+label:    sent_12
+sentence: Rapid eye movement sleep atonia in patients with cognitive impairment .
+
+ppatt:
+
+
+
+label:    sent_13
+sentence: Rapid eye movement sleep decreases between 10 and 30 days postnatally in the rat . Medicine : sleep it off . Studies probe anesthesia , sleep links . Shiftworker sleep strategies .
+
+ppatt:
+	?a decreases between ?b postnatally in ?c
+		?a: Rapid eye movement sleep
+		?b: 10 and 30 days
+		?c: the rat . Medicine
+	?a ?b probe ?c
+		?a: it
+		?b: Studies
+		?c: anesthesia
+	?a ?b probe ?c
+		?a: it
+		?b: Studies
+		?c: sleep links
+	?a ?b probe ?c
+		?a: it
+		?b: Studies
+		?c: Shiftworker sleep strategies
+
+
+label:    sent_14
+sentence: We conclude that hypercapnia is a marker for sleep O2 desaturation in hypoxemic COPD .
+
+ppatt:
+	?a conclude ?b
+		?a: We
+		?b: SOMETHING := hypercapnia is a marker for sleep O2 desaturation in hypoxemic COPD
+	?a is a marker for ?b
+		?a: hypercapnia
+		?b: sleep O2 desaturation in hypoxemic COPD
+
+
+label:    sent_15
+sentence: Cortical thinning explains changes in sleep slow waves during adulthood .
+
+ppatt:
+	?a explains ?b
+		?a: Cortical thinning
+		?b: changes in sleep slow waves during adulthood
+
+
+label:    sent_16
+sentence: Alterations in sleep polygraphy after neuroleptic withdrawal : a putative supersensitive dopaminergic mechanism .
+
+ppatt:
+
+
+
+label:    sent_17
+sentence: For example , mice sleep during the day and are active at night .
+
+ppatt:
+
+
+
+label:    sent_18
+sentence: Patients sleep more at night , but have poorer sleep efficiency , than HS . Rats habitually sleep between learning sessions , and may differ in this respect .
+
+ppatt:
+	have ?a , than ?b ?c
+		?a: poorer sleep efficiency
+		?b: HS
+		?c: Rats habitually sleep between learning sessions
+	may differ in ?a
+		?a: this respect
+
+
+label:    sent_19
+sentence: Supplemental oxygen and sleep at altitude . Supplemental oxygen and sleep at altitude .
+
+ppatt:
+
+
+
+label:    sent_20
+sentence: Computerized analysis of epileptic activity and sleep in mobile long-term EEG monitoring .
+
+ppatt:
+
+
+
+label:    sent_21
+sentence: His sleep improved after starting non-invasive ventilation and his daytime sleepiness disappeared .
+
+ppatt:
+	?a improved after ?b
+		?a: His sleep
+		?b: starting non-invasive ventilation
+	?a disappeared
+		?a: his daytime sleepiness
+
+
+label:    sent_22
+sentence: Women sleep differently and report differently about sleep disturbances than men .
+
+ppatt:
+
+
+
+label:    sent_23
+sentence: How do we know when patients sleep properly or why they do not ?
+
+ppatt:
+	How do ?a know
+		?a: we
+	when ?a properly or why ?b do not
+		?a: patients sleep
+		?b: they
+
+

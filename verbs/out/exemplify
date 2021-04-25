@@ -1,0 +1,196 @@
+label:    sent_1
+sentence: Two case presentations exemplify the clinical application of the anatomic findings .
+
+ppatt:
+	?a exemplify ?b
+		?a: Two case presentations
+		?b: the clinical application of the anatomic findings
+
+
+label:    sent_2
+sentence: We exemplify this using the PSA-D and chalcone synthase-related gene networks .
+
+ppatt:
+	?a exemplify ?b
+		?a: We
+		?b: this using the PSA-D and chalcone synthase-related gene networks
+	?a using ?b
+		?a: this
+		?b: the PSA-D and chalcone synthase-related gene networks
+
+
+label:    sent_3
+sentence: These findings exemplify phylogenetic conservation of lineage-specific members of a multigene family .
+
+ppatt:
+	?a exemplify ?b
+		?a: These findings
+		?b: phylogenetic conservation of lineage-specific members of a multigene family
+
+
+label:    sent_4
+sentence: Four case reports are included to exemplify results .
+
+ppatt:
+	?a are included to exemplify ?b
+		?a: Four case reports
+		?b: results
+
+
+label:    sent_5
+sentence: Four illustrative cases are presented to exemplify this logical approach . A formula is presented to exemplify the potential utility of the viewpoint .
+
+ppatt:
+	?a are presented to exemplify ?b
+		?a: Four illustrative cases
+		?b: this logical approach
+	?a is presented to exemplify ?b
+		?a: A formula
+		?b: the potential utility of the viewpoint
+
+
+label:    sent_6
+sentence: We exemplify our approach by considering the class of Hill models .
+
+ppatt:
+	?a exemplify ?b
+		?a: We
+		?b: our approach
+	?a considering ?b
+		?a: We
+		?b: the class of Hill models
+
+
+label:    sent_7
+sentence: We exemplify this method by imaging calibration and biological fluorescence samples .
+
+ppatt:
+	?a exemplify ?b
+		?a: We
+		?b: this method
+	?a imaging ?b
+		?a: We
+		?b: calibration
+	?a imaging ?b
+		?a: We
+		?b: biological fluorescence samples
+
+
+label:    sent_8
+sentence: These findings exemplify important macroevolutionary patterns of plant diversification during large-scale global climate change .
+
+ppatt:
+	?a exemplify ?b during ?c
+		?a: These findings
+		?b: important macroevolutionary patterns of plant diversification
+		?c: large-scale global climate change
+
+
+label:    sent_9
+sentence: Our analyses exemplify how information theory can identify evolutionary hypotheses that merit experimental testing .
+
+ppatt:
+	?a exemplify ?b
+		?a: Our analyses
+		?b: SOMETHING := how information theory can identify evolutionary hypotheses that merit experimental testing
+	how ?a can identify ?b
+		?a: information theory
+		?b: evolutionary hypotheses that merit experimental testing
+	?a merit ?b
+		?a: evolutionary hypotheses
+		?b: experimental testing
+
+
+label:    sent_10
+sentence: Our results exemplify that primary sex cells can bear secondary sexual straits .
+
+ppatt:
+	?a exemplify ?b
+		?a: Our results
+		?b: SOMETHING := primary sex cells can bear secondary sexual straits
+	?a can bear ?b
+		?a: primary sex cells
+		?b: secondary sexual straits
+
+
+label:    sent_11
+sentence: The two patients reported here exemplify the confusing clinical pictures that may result .
+
+ppatt:
+	?a reported here
+		?a: The two patients
+	?a exemplify ?b
+		?a: The two patients reported here
+		?b: the confusing clinical pictures that may result
+	?a may result
+		?a: the confusing clinical pictures
+
+
+label:    sent_12
+sentence: These case studies exemplify the combined data analysis proposed and further support its validity .
+
+ppatt:
+	?a exemplify ?b
+		?a: These case studies
+		?b: the combined data analysis proposed
+	?a proposed
+		?a: the combined data analysis
+	?a further support ?b
+		?a: These case studies
+		?b: its validity
+
+
+label:    sent_13
+sentence: Different situations exemplify slightly different kinetic-efficacy relationships , and each must be considered separately .
+
+ppatt:
+	?a exemplify ?b
+		?a: Different situations
+		?b: slightly different kinetic-efficacy relationships
+	?a must be considered separately
+		?a: each
+
+
+label:    sent_14
+sentence: We intended to exemplify the type 2 segmental manifestation within this concept . Jurisprudence was searched to exemplify legislation on video recording in health care .
+
+ppatt:
+	?a intended to exemplify ?b ?c
+		?a: We
+		?b: the type 2 segmental manifestation within this concept
+		?c: SOMETHING := Jurisprudence was searched to exemplify legislation on video recording in health care
+	?a was searched to exemplify ?b
+		?a: Jurisprudence
+		?b: legislation on video recording in health care
+
+
+label:    sent_15
+sentence: Resistance to rifampicin was studied to exemplify the mutation rate under oxidative stress .
+
+ppatt:
+	?a was studied to exemplify ?b
+		?a: Resistance to rifampicin
+		?b: the mutation rate under oxidative stress
+
+
+label:    sent_16
+sentence: Anatomy faculty have an important responsibility to nurture and exemplify professionalism .
+
+ppatt:
+	?a have ?b to nurture ?c
+		?a: Anatomy faculty
+		?b: an important responsibility
+		?c: professionalism
+	?a have to exemplify
+		?a: Anatomy faculty
+
+
+label:    sent_17
+sentence: Here , we exemplify with data from CYP and hERG .
+
+ppatt:
+	Here , ?a exemplify with ?b
+		?a: we
+		?b: data from CYP and hERG
+
+

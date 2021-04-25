@@ -1,0 +1,315 @@
+label:    sent_1
+sentence: LaPO4 nanoparticles doped with actinium-225 that partially sequester daughter radionuclides .
+
+ppatt:
+	?a doped with ?b
+		?a: LaPO4 nanoparticles
+		?b: actinium-225 that partially sequester daughter radionuclides
+	?a partially sequester ?b
+		?a: actinium-225
+		?b: daughter radionuclides
+
+
+label:    sent_2
+sentence: It is hypothesized that plastids are able to sequester chloroplasts and other plastids . A stochastic model of nonenzymatic nucleic acid replication : " elongators " sequester replicators .
+
+ppatt:
+	?a is hypothesized ?b
+		?a: It
+		?b: SOMETHING := plastids are able to sequester chloroplasts and other plastids
+	?a are able to sequester ?b
+		?a: plastids
+		?b: chloroplasts
+	?a are able to sequester ?b
+		?a: plastids
+		?b: other plastids
+	?a ?b sequester ?c
+		?a: " elongators
+		?b: "
+		?c: replicators
+
+
+label:    sent_3
+sentence: Extraintestinal pathogenic Escherichia coli ( ExPEC ) use siderophores to sequester iron during infection .
+
+ppatt:
+	?a is/are ExPEC
+		?a: pathogenic Escherichia coli
+	?a sequester ?b during ?c
+		?a: Extraintestinal pathogenic Escherichia coli use siderophores
+		?b: iron
+		?c: infection
+
+
+label:    sent_4
+sentence: Specialized eukaryotic cells can ingest large particles and sequester them within membrane-delimited phagosomes .
+
+ppatt:
+	?a can ingest ?b
+		?a: Specialized eukaryotic cells
+		?b: large particles
+	?a sequester ?b within ?c
+		?a: Specialized eukaryotic cells
+		?b: them
+		?c: membrane-delimited phagosomes
+
+
+label:    sent_5
+sentence: In the presence of ATP hepatic microsomes sequester calcium .
+
+ppatt:
+	In ?a of ?b sequester ?c
+		?a: the presence
+		?b: ATP hepatic microsomes
+		?c: calcium
+
+
+label:    sent_6
+sentence: Astrocytes secrete atRA into their medium ; neurons sequester atRA .
+
+ppatt:
+	?a secrete ?b into ?c
+		?a: Astrocytes
+		?b: atRA
+		?c: their medium
+	?a sequester ?b
+		?a: neurons
+		?b: atRA
+
+
+label:    sent_7
+sentence: Pond algae sequester strontium-90 .
+
+ppatt:
+	?a sequester ?b
+		?a: Pond algae
+		?b: strontium-90
+
+
+label:    sent_8
+sentence: Other sRNAs sequester RNA-binding proteins that act as translational repressors .
+
+ppatt:
+	?a sequester ?b
+		?a: Other sRNAs
+		?b: RNA-binding proteins that act as translational repressors
+	?a act as ?b
+		?a: RNA-binding proteins
+		?b: translational repressors
+
+
+label:    sent_9
+sentence: The larvae sequester glucosinolates in their haemolymph .
+
+ppatt:
+	?a sequester ?b in ?c
+		?a: The larvae
+		?b: glucosinolates
+		?c: their haemolymph
+
+
+label:    sent_10
+sentence: During inflammation , proinflammatory macrophages sequester iron as a well known bacteriostatic mechanism .
+
+ppatt:
+	During ?a , ?b sequester ?c as ?d
+		?a: inflammation
+		?b: proinflammatory macrophages
+		?c: iron
+		?d: a well known bacteriostatic mechanism
+
+
+label:    sent_11
+sentence: Mn oxides sequester heavy metals in the environment .
+
+ppatt:
+	?a sequester ?b in ?c
+		?a: Mn oxides
+		?b: heavy metals
+		?c: the environment
+
+
+label:    sent_12
+sentence: Mitigation strategies include options to sequester carbon and reduce overall greenhouse gas emissions .
+
+ppatt:
+	?a include ?b
+		?a: Mitigation strategies
+		?b: options to sequester carbon and reduce overall greenhouse gas emissions
+	?a sequester ?b
+		?a: options
+		?b: carbon
+	reduce ?a
+		?a: overall greenhouse gas emissions
+
+
+label:    sent_13
+sentence: Similarly , in wild-type pistils , compatible pollen tubes degrade HT-B and sequester S-RNase .
+
+ppatt:
+	Similarly , in ?a , ?b degrade ?c
+		?a: wild-type pistils
+		?b: compatible pollen tubes
+		?c: HT-B
+	?a sequester ?b
+		?a: compatible pollen tubes
+		?b: S-RNase
+
+
+label:    sent_14
+sentence: These seemed to merge and thereby sequester the areas . Expansion of first-in-class drug candidates that sequester toxic all-trans-retinal and prevent light-induced retinal degeneration .
+
+ppatt:
+	?a seemed to merge thereby ?b
+		?a: These
+		?b: Expansion of first-in-class drug candidates that sequester toxic all-trans-retinal and prevent light-induced retinal degeneration
+	?a seemed to sequester ?b
+		?a: These
+		?b: the areas
+	?a sequester ?b
+		?a: first-in-class drug candidates
+		?b: toxic all-trans-retinal
+	?a prevent ?b
+		?a: that
+		?b: light-induced retinal degeneration
+
+
+label:    sent_15
+sentence: We show that passive sites can sequester Dicer and reduce microRNA expression .
+
+ppatt:
+	?a show ?b
+		?a: We
+		?b: SOMETHING := passive sites can sequester Dicer
+	?a can sequester ?b
+		?a: passive sites
+		?b: Dicer
+	?a reduce ?b
+		?a: passive sites
+		?b: microRNA expression
+
+
+label:    sent_16
+sentence: HSPGs sequester BMP2 at the cell surface and mediate BMP2 internalization .
+
+ppatt:
+	?a sequester ?b at ?c
+		?a: HSPGs
+		?b: BMP2
+		?c: the cell surface
+	?a mediate ?b
+		?a: HSPGs
+		?b: BMP2 internalization
+
+
+label:    sent_17
+sentence: The particles function to sequester and detoxify intracellular cadmium ions . Phytoremediation is the use of plants to extract , sequester , and/or detoxify pollutants .
+
+ppatt:
+	?a function to sequester ?b
+		?a: The particles
+		?b: intracellular cadmium ions
+	?a function to detoxify
+		?a: The particles
+	?a is the use of ?b to ?c
+		?a: Phytoremediation
+		?b: plants
+		?c: extract
+	?a sequester ?b
+		?a: Phytoremediation
+		?b: pollutants
+	?a detoxify
+		?a: Phytoremediation
+
+
+label:    sent_18
+sentence: As a consequence , miRNA decoys are able to sequester and inactivate miRNA function .
+
+ppatt:
+	As ?a , ?b are able to sequester ?c
+		?a: a consequence
+		?b: miRNA decoys
+		?c: miRNA function
+	?a are able to inactivate
+		?a: miRNA decoys
+
+
+label:    sent_19
+sentence: Heparan sulfate also binds to APP and may sequester it away from beta secretase .
+
+ppatt:
+	?a also binds to ?b
+		?a: Heparan sulfate
+		?b: APP
+	?a may sequester ?b away from ?c
+		?a: Heparan sulfate
+		?b: it
+		?c: beta secretase
+
+
+label:    sent_20
+sentence: Ephrin-A5 suppressed BDNF-induced ERK activity and might sequester P-ERK in the cytoplasm .
+
+ppatt:
+	?a suppressed ?b
+		?a: Ephrin-A5
+		?b: BDNF-induced ERK activity
+	?a might sequester ?b in ?c
+		?a: Ephrin-A5
+		?b: P-ERK
+		?c: the cytoplasm
+
+
+label:    sent_21
+sentence: Metals that are not eliminated sequester in the brain . Impact of sequester of funds on NCI 's 1990 budget .
+
+ppatt:
+	?a are not eliminated
+		?a: Metals sequester in the brain . Impact of sequester of funds on NCI 's 1990 budget
+	?a sequester in ?b ?c
+		?a: Metals that are not eliminated
+		?b: the brain
+		?c: Impact of sequester of funds on NCI 's 1990 budget
+
+
+label:    sent_22
+sentence: Request would let science rebound from sequester .
+
+ppatt:
+	?a would let ?b
+		?a: Request
+		?b: science rebound
+	?a from sequester
+		?a: Request
+
+
+label:    sent_23
+sentence: Both proteins sequester iron , but by different mechanisms .
+
+ppatt:
+	?a sequester ?b
+		?a: Both proteins
+		?b: iron
+
+
+label:    sent_24
+sentence: Pressure-immobilization bandages sequester venom in extremities and are recommended for snakebites without local toxicity . FoxOs , on the other hand , sequester beta-catenin and inhibit osteoprogenitor proliferation .
+
+ppatt:
+	?a sequester ?b in ?c
+		?a: Pressure-immobilization bandages
+		?b: venom
+		?c: extremities
+	?a are recommended for ?b without ?c
+		?a: Pressure-immobilization bandages
+		?b: snakebites
+		?c: local toxicity
+	?a on ?b , sequester ?c
+		?a: FoxOs
+		?b: the other hand
+		?c: beta-catenin
+	?a inhibit ?b
+		?a: FoxOs
+		?b: osteoprogenitor proliferation
+
+

@@ -1,0 +1,255 @@
+label:    sent_1
+sentence: They define our need to renew and refocus interventions and energies .
+
+ppatt:
+	?a define ?b
+		?a: They
+		?b: our need to renew and refocus interventions and energies
+	?a renew ?b
+		?a: our need
+		?b: interventions
+	?a renew ?b
+		?a: our need
+		?b: energies
+	refocus ?a
+		?a: interventions
+	refocus ?a
+		?a: energies
+
+
+label:    sent_2
+sentence: Meetings were scheduled to monitor those changes and renew the CQI process . Funding .
+
+ppatt:
+	?a were scheduled to monitor ?b
+		?a: Meetings
+		?b: those changes
+	?a were scheduled to renew ?b
+		?a: Meetings
+		?b: the CQI process . Funding
+
+
+label:    sent_3
+sentence: Congress prepares to renew Ryan White CARE Act . Media .
+
+ppatt:
+	?a prepares to renew ?b ?c
+		?a: Congress
+		?b: Ryan White CARE
+		?c: SOMETHING := Act . Media
+	?a Act ?b
+		?a: Congress
+		?b: Media
+
+
+label:    sent_4
+sentence: Controversial ads could renew gay stigma of HIV infection .
+
+ppatt:
+	?a could renew ?b
+		?a: Controversial ads
+		?b: gay stigma of HIV infection
+
+
+label:    sent_5
+sentence: Employers renew interest in flex plans . Seven of 144 HMOs do n't renew pacts .
+
+ppatt:
+	?a renew ?b
+		?a: Employers
+		?b: interest
+	?a flex ?b
+		?a: Employers
+		?b: plans
+	?a do n't renew ?b
+		?a: Seven of 144 HMOs
+		?b: pacts
+
+
+label:    sent_6
+sentence: It is important to both renew childhood vaccines and to inoculate against hepatitis A .
+
+ppatt:
+	?a is important to both renew ?b
+		?a: It
+		?b: childhood vaccines
+	?a is important to to inoculate against ?b
+		?a: It
+		?b: hepatitis A
+
+
+label:    sent_7
+sentence: Counterpoint : let 's expand the formulary system and renew its vigor .
+
+ppatt:
+	renew ?a
+		?a: its vigor
+
+
+label:    sent_8
+sentence: It 's time to return to basics and renew philanthropy efforts .
+
+ppatt:
+	?a return to ?b
+		?a: It time
+		?b: basics
+	renew ?a
+		?a: philanthropy efforts
+
+
+label:    sent_9
+sentence: Radiologists and radiographers are requested to renew their certification on a regular basis .
+
+ppatt:
+	?a are requested to renew ?b on ?c
+		?a: Radiologists
+		?b: their certification
+		?c: a regular basis
+	?a are requested to renew ?b on ?c
+		?a: radiographers
+		?b: their certification
+		?c: a regular basis
+
+
+label:    sent_10
+sentence: Learn how to renew local trust by forging new partnerships .
+
+ppatt:
+	Learn how to renew ?a
+		?a: local trust
+	forging ?a
+		?a: new partnerships
+
+
+label:    sent_11
+sentence: Congress plans to renew the authorizing legislation by the end of 2002 .
+
+ppatt:
+	?a renew ?b
+		?a: Congress plans
+		?b: the authorizing legislation by the end of 2002
+
+
+label:    sent_12
+sentence: These results could renew interest in further vaccine development .
+
+ppatt:
+	?a could renew ?b in ?c
+		?a: These results
+		?b: interest
+		?c: further vaccine development
+
+
+label:    sent_13
+sentence: Outcome results renew debate about diabetes drug development .
+
+ppatt:
+	?a renew ?b
+		?a: Outcome results
+		?b: debate about diabetes drug development
+
+
+label:    sent_14
+sentence: Survey results renew public interest in advance care planning .
+
+ppatt:
+	?a renew ?b
+		?a: Survey results
+		?b: public interest
+	?a in advance ?b
+		?a: Survey results
+		?b: care planning
+
+
+label:    sent_15
+sentence: Innovation --to renew or change ? Breast cancer survivors ' efforts to renew and preserve their health in Taiwan . CSCs possess the ability to self renew and show a tumorigenic potential .
+
+ppatt:
+	?a --to renew ?b
+		?a: Innovation
+		?b: Breast cancer survivors ' efforts to renew and preserve their health in Taiwan
+	?a change
+		?a: Innovation
+	?a renew ?b
+		?a: Breast cancer survivors ' efforts
+		?b: their health in Taiwan
+	preserve ?a
+		?a: their health in Taiwan
+	?a possess ?b
+		?a: CSCs
+		?b: the ability to self
+	?a renew
+		?a: CSCs
+	?a show ?b
+		?a: CSCs
+		?b: a tumorigenic potential
+
+
+label:    sent_16
+sentence: These are the cells which renew the tumour and form metastases .
+
+ppatt:
+	?a are the cells
+		?a: These
+	?a renew ?b
+		?a: the cells
+		?b: the tumour
+	?a form ?b
+		?a: which
+		?b: metastases
+
+
+label:    sent_17
+sentence: Blast progenitors renew themselves and/or undergo terminal divisions .
+
+ppatt:
+	?a renew ?b
+		?a: Blast progenitors
+		?b: themselves
+	?a undergo ?b
+		?a: Blast progenitors
+		?b: terminal divisions
+
+
+label:    sent_18
+sentence: Will you renew your contract or will it renew itself ? Olfactory receptor neurons renew and progressively acquire a mature phenotype .
+
+ppatt:
+	Will you renew ?a
+		?a: your contract
+	will ?a renew ?b
+		?a: it
+		?b: itself
+	?a renew
+		?a: Olfactory receptor neurons
+	?a progressively acquire ?b
+		?a: Olfactory receptor neurons
+		?b: a mature phenotype
+
+
+label:    sent_19
+sentence: [To renew ] . This process has encouraged hospitals to renew efforts to improve these outcomes .
+
+ppatt:
+	?a renew ?b
+		?a: [To
+		?b: ]
+	?a has encouraged ?b to renew ?c
+		?a: This process
+		?b: hospitals
+		?c: efforts to improve these outcomes
+	?a improve ?b
+		?a: efforts
+		?b: these outcomes
+
+
+label:    sent_20
+sentence: They renew their vows every year .
+
+ppatt:
+	?a renew ?b every ?c
+		?a: They
+		?b: their vows
+		?c: year
+
+

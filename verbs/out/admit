@@ -1,0 +1,251 @@
+label:    sent_1
+sentence: Want to admit patient , but can n't ? Be brave , admit ignorance . In 91 % of EDs , a decision to admit the patient was made .
+
+ppatt:
+	Want to admit ?a
+		?a: patient
+	Want to can n't ? Be brave , admit ?a In ?b
+		?a: ignorance
+		?b: 91 % of EDs
+	?a admit ?b
+		?a: a decision
+		?b: the patient
+	?a was made
+		?a: a decision to admit the patient
+
+
+label:    sent_2
+sentence: Both domains admit complex-valued wave speeds to enable the inclusion of damping . Professionals should admit a mistake when it had occurred .
+
+ppatt:
+	?a admit ?b to enable ?c
+		?a: Both domains
+		?b: complex-valued wave speeds
+		?c: the inclusion of damping
+	?a should admit ?b
+		?a: Professionals
+		?b: a mistake
+	when ?a had occurred
+		?a: it
+
+
+label:    sent_3
+sentence: We must therefore admit an evolution in cell differentiation .
+
+ppatt:
+	?a must therefore admit ?b
+		?a: We
+		?b: an evolution in cell differentiation
+
+
+label:    sent_4
+sentence: Why admit stroke patients to hospital ? Why admit stroke patients to hospital ? Why admit stroke patients to hospital ? Factors affecting the decision to admit mental patients in a community hospital .
+
+ppatt:
+	Why admit ?a
+		?a: stroke patients to hospital
+	Why admit ?a to ?b
+		?a: stroke patients
+		?b: hospital
+	Why admit ?a ?b
+		?a: stroke patients
+		?b: to hospital ? Factors affecting the decision to admit mental patients in a community hospital
+	?a affecting ?b
+		?a: to hospital ? Factors
+		?b: the decision to admit mental patients in a community hospital
+	?a admit ?b
+		?a: the decision
+		?b: mental patients in a community hospital
+
+
+label:    sent_5
+sentence: It 's a frequent cause to admit people in hospital .
+
+ppatt:
+	?a 's a frequent cause
+		?a: It
+	?a admit ?b
+		?a: a frequent cause
+		?b: people in hospital
+
+
+label:    sent_6
+sentence: It is not advisable to admit these children to child communities .
+
+ppatt:
+	?a is not advisable to admit ?b to ?c
+		?a: It
+		?b: these children
+		?c: child communities
+
+
+label:    sent_7
+sentence: Many surgeons routinely admit their patients for overnight observation after uneventful endovascular interventions .
+
+ppatt:
+	?a routinely admit ?b for ?c after ?d
+		?a: Many surgeons
+		?b: their patients
+		?c: overnight observation
+		?d: uneventful endovascular interventions
+
+
+label:    sent_8
+sentence: Soviets admit improper committal to mental hospitals .
+
+ppatt:
+	?a admit ?b to ?c
+		?a: Soviets
+		?b: improper committal
+		?c: mental hospitals
+
+
+label:    sent_9
+sentence: Therefore , we must admit such positivity as preexistent to the myocardial infarction .
+
+ppatt:
+	Therefore , ?a must admit ?b as ?c
+		?a: we
+		?b: such positivity
+		?c: preexistent to the myocardial infarction
+
+
+label:    sent_10
+sentence: These findings contradict the earlier reports that Africans do not admit to being depressed .
+
+ppatt:
+	?a contradict ?b
+		?a: These findings
+		?b: the earlier reports that Africans do not admit to being depressed
+	?a do not admit to being depressed
+		?a: Africans
+
+
+label:    sent_11
+sentence: However , he did admit to frequent hand washing . Few patients with anorectal foreign bodies will freely admit to transanal introduction .
+
+ppatt:
+	However , ?a did admit to ?b
+		?a: he
+		?b: frequent hand washing
+	?a will freely admit to ?b
+		?a: Few patients with anorectal foreign bodies
+		?b: transanal introduction
+
+
+label:    sent_12
+sentence: Estimating non-compliance is notoriously problematic as rule-breakers may be disinclined to admit to transgressions .
+
+ppatt:
+	Estimating ?a
+		?a: non-compliance
+	?a is notoriously problematic as ?b may be disinclined to admit to ?c
+		?a: SOMETHING := Estimating non-compliance
+		?b: rule-breakers
+		?c: transgressions
+
+
+label:    sent_13
+sentence: To admit or not to admit : high-acuity residents are high reimbursement risks . Diabetes : do n't immediately admit before evaluating the entire situation .
+
+ppatt:
+	?a is/are Diabetes
+		?a: high reimbursement risks
+	evaluating ?a
+		?a: the entire situation
+
+
+label:    sent_14
+sentence: Additional efforts may be required to attract and admit minority and female applicants .
+
+ppatt:
+	?a may be required to attract ?b
+		?a: Additional efforts
+		?b: minority and female applicants
+	?a may be required to admit
+		?a: Additional efforts
+
+
+label:    sent_15
+sentence: He 's malnourished-admit him to the nutrition unit and feed him up ! The diabatic states are charge localized and admit a natural valence-bond interpretation .
+
+ppatt:
+	feed ?a up ! ?b
+		?a: him
+		?b: The diabatic states
+	?a are charge localized
+		?a: He 's malnourished-admit him to the nutrition unit and feed him up ! The diabatic states
+	?a admit ?b
+		?a: He 's malnourished-admit him to the nutrition unit and feed him up ! The diabatic states
+		?b: a natural valence-bond interpretation
+
+
+label:    sent_16
+sentence: The offender did not admit the assaults and strictly refused a forensic psychiatric examination .
+
+ppatt:
+	?a did not admit ?b
+		?a: The offender
+		?b: the assaults
+	?a strictly refused ?b
+		?a: The offender
+		?b: a forensic psychiatric examination
+
+
+label:    sent_17
+sentence: The decision to admit the patient or not was recorded and compared across conditions .
+
+ppatt:
+	?a admit ?b
+		?a: The decision
+		?b: the patient
+	?a not was recorded
+		?a: The decision to admit the patient
+	?a compared across ?b
+		?a: The decision to admit the patient
+		?b: conditions
+
+
+label:    sent_18
+sentence: The parents did not admit consanguinity and showed a reduced platelet content of GPIIb-IIIa .
+
+ppatt:
+	?a did not admit ?b
+		?a: The parents
+		?b: consanguinity
+	?a showed ?b
+		?a: The parents
+		?b: a reduced platelet content of GPIIb-IIIa
+
+
+label:    sent_19
+sentence: It 's hard for men to admit or even recognize their own depression .
+
+ppatt:
+	?a 's hard for ?b to admit
+		?a: It
+		?b: men
+	?a 's hard to or even recognize ?b
+		?a: It
+		?b: their own depression
+
+
+label:    sent_20
+sentence: Most participants chose not to admit or treat the patient in the baseline vignette .
+
+ppatt:
+	?a chose not to admit ?b in ?c
+		?a: Most participants
+		?b: the patient
+		?c: the baseline vignette
+	?a chose to treat
+		?a: Most participants
+
+
+label:    sent_21
+sentence: To admit or not to admit ?
+
+ppatt:
+
+
+

@@ -1,0 +1,26 @@
+label:    sent_1
+sentence: The motivation for this approach is twofold ; first , the final results of microarray studies are typically expressed as lists of genes , rank-ordered by a measure of the strength of evidence that they are functionally involved in the disease process , and second , using the information on this rank-ordered metric means that we do not have to concern ourselves with data on the actual expression levels , which may not be comparable across experiments .
+
+ppatt:
+	?a is
+		?a: The motivation for this approach
+	twofold ; first , ?a are typically expressed as ?b , rank-ordered by ?c
+		?a: the final results of microarray studies
+		?b: lists of genes
+		?c: a measure of the strength of evidence
+	?a are functionally involved in ?b
+		?a: they
+		?b: the disease process
+	?a second using ?b ?c
+		?a: the final results of microarray studies
+		?b: the information on this rank-ordered metric means
+		?c: SOMETHING := we do not have to concern ourselves with data on the actual expression levels , which may not be comparable across experiments
+	?a do not have to concern ?b with ?c
+		?a: we
+		?b: ourselves
+		?c: data on the actual expression levels , which may not be comparable across experiments
+	?a may not be comparable across ?b
+		?a: the actual expression levels
+		?b: experiments
+
+

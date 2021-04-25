@@ -1,0 +1,341 @@
+label:    sent_1
+sentence: We also discuss the imaging of and therapy for internal carotid artery dissections .
+
+ppatt:
+	?a also discuss ?b
+		?a: We
+		?b: the imaging of and therapy for internal carotid artery dissections
+	?a of
+		?a: the imaging for internal carotid artery dissections
+	?a therapy
+		?a: the imaging for internal carotid artery dissections
+
+
+label:    sent_2
+sentence: This review will discuss the immediate surgical complications and long-term implications .
+
+ppatt:
+	?a will discuss ?b
+		?a: This review
+		?b: the immediate surgical complications
+	?a will discuss ?b
+		?a: This review
+		?b: long-term implications
+
+
+label:    sent_3
+sentence: Here we discuss current trends and challenges in this field .
+
+ppatt:
+	Here ?a discuss ?b
+		?a: we
+		?b: current trends in this field
+	Here ?a discuss ?b
+		?a: we
+		?b: challenges
+
+
+label:    sent_4
+sentence: We would like to discuss the future of our speciality with our colleagues .
+
+ppatt:
+	?a would like to discuss ?b
+		?a: We
+		?b: the future of our speciality with our colleagues
+
+
+label:    sent_5
+sentence: To analyze cases of ovarian leiomyomas and to discuss the proper surgical management .
+
+ppatt:
+	analyze ?a
+		?a: cases of ovarian leiomyomas
+	discuss ?a
+		?a: the proper surgical management
+
+
+label:    sent_6
+sentence: We illustrate and discuss some real ethical dilemmas facing MSF teams .
+
+ppatt:
+	?a illustrate ?b
+		?a: We
+		?b: some real ethical dilemmas facing MSF teams
+	?a discuss
+		?a: We
+	?a facing ?b
+		?a: some real ethical dilemmas
+		?b: MSF teams
+
+
+label:    sent_7
+sentence: In this article , we discuss the recent clinical evidences .
+
+ppatt:
+	In ?a , ?b discuss ?c
+		?a: this article
+		?b: we
+		?c: the recent clinical evidences
+
+
+label:    sent_8
+sentence: This paper will discuss that process , in detail , from conception to product .
+
+ppatt:
+	?a will discuss ?b
+		?a: This paper
+		?b: process , in detail , from conception to product
+
+
+label:    sent_9
+sentence: For this special issue of Zoological Research we discuss these problems and misunderstandings .
+
+ppatt:
+	For ?a ?b discuss ?c
+		?a: this special issue of Zoological Research
+		?b: we
+		?c: these problems
+	For ?a ?b discuss ?c
+		?a: this special issue of Zoological Research
+		?b: we
+		?c: misunderstandings
+
+
+label:    sent_10
+sentence: We discuss its successful revision , and review previous reports of LP shunt migration .
+
+ppatt:
+	?a discuss ?b
+		?a: We
+		?b: its successful revision
+	?a review ?b
+		?a: We
+		?b: previous reports of LP shunt migration
+
+
+label:    sent_11
+sentence: We discuss possible reasons for these inconsistent findings and propose new study designs .
+
+ppatt:
+	?a discuss ?b
+		?a: We
+		?b: possible reasons for these inconsistent findings
+	?a propose ?b
+		?a: We
+		?b: new study designs
+
+
+label:    sent_12
+sentence: We discuss the results and management of the patients , and review the literature .
+
+ppatt:
+	?a discuss ?b
+		?a: We
+		?b: the results of the patients
+	?a discuss ?b
+		?a: We
+		?b: management
+	?a review ?b
+		?a: We
+		?b: the literature
+
+
+label:    sent_13
+sentence: We discuss what in our view are the daily challenges of proteomics core facilities . I shall discuss how and why democracies have restricted the rights of their citizens .
+
+ppatt:
+	?a discuss ?b
+		?a: We
+		?b: SOMETHING := what in our view are the daily challenges of proteomics core facilities
+	?a are the daily challenges of ?b
+		?a: what in our view
+		?b: proteomics core facilities
+	?a shall discuss ?b
+		?a: We
+		?b: SOMETHING := how why democracies have restricted the rights of their citizens
+	how why ?a have restricted ?b
+		?a: democracies
+		?b: the rights of their citizens
+
+
+label:    sent_14
+sentence: We discuss how resource levels in nature may alter the structure of complex communities .
+
+ppatt:
+	?a discuss ?b
+		?a: We
+		?b: SOMETHING := how resource levels in nature may alter the structure of complex communities
+	how ?a may alter ?b
+		?a: resource levels in nature
+		?b: the structure of complex communities
+
+
+label:    sent_15
+sentence: In this report , we will overview AMR and discuss several treatment modalities .
+
+ppatt:
+	In ?a , ?b will overview ?c
+		?a: this report
+		?b: we
+		?c: AMR
+	?a discuss ?b
+		?a: we
+		?b: several treatment modalities
+
+
+label:    sent_16
+sentence: Thirdly , to discuss communication models and strategies to enhance media and science responsibility . is to discuss our clinical cases and review the literature .
+
+ppatt:
+	?a enhance ?b
+		?a: communication models
+		?b: media
+	?a enhance ?b
+		?a: strategies
+		?b: media
+	?a enhance ?b
+		?a: communication models
+		?b: science responsibility
+	?a enhance ?b
+		?a: strategies
+		?b: science responsibility
+	Thirdly , to discuss ?a . is to discuss ?b
+		?a: communication models to enhance media and science responsibility
+		?b: our clinical cases
+	Thirdly , to discuss ?a . is to discuss ?b
+		?a: strategies
+		?b: our clinical cases
+	Thirdly , to discuss . is to review ?a
+		?a: the literature
+
+
+label:    sent_17
+sentence: For each structure we discuss the scaling properties and compute the dynamical exponents .
+
+ppatt:
+	For ?a ?b discuss ?c
+		?a: each structure
+		?b: we
+		?c: the scaling properties
+	?a compute ?b
+		?a: we
+		?b: the dynamical exponents
+
+
+label:    sent_18
+sentence: In this review , we briefly discuss ALCL and focus on NPM-ALK .
+
+ppatt:
+	In ?a , ?b briefly discuss ?c
+		?a: this review
+		?b: we
+		?c: ALCL
+	?a focus on ?b
+		?a: we
+		?b: NPM-ALK
+
+
+label:    sent_19
+sentence: In our article , we discuss this issue and explore current evidence for prophylaxis .
+
+ppatt:
+	In ?a , ?b discuss ?c
+		?a: our article
+		?b: we
+		?c: this issue
+	?a explore ?b
+		?a: we
+		?b: current evidence for prophylaxis
+
+
+label:    sent_20
+sentence: To discuss the pathogenesis and utility of light chain IF in nephropathies .
+
+ppatt:
+	discuss ?a
+		?a: the pathogenesis of light chain IF in nephropathies
+	discuss ?a
+		?a: utility
+
+
+label:    sent_21
+sentence: Here , we aim to discuss lower extremity injuries during snowboarding .
+
+ppatt:
+	Here , ?a aim to discuss ?b during ?c
+		?a: we
+		?b: lower extremity injuries
+		?c: snowboarding
+
+
+label:    sent_22
+sentence: We review and discuss functional imaging techniques in the evaluation of lymph nodes .
+
+ppatt:
+	?a review ?b
+		?a: We
+		?b: functional imaging techniques in the evaluation of lymph nodes
+	?a discuss
+		?a: We
+
+
+label:    sent_23
+sentence: Within a rather intricate situation in such systems we discuss in detail two cases .
+
+ppatt:
+	Within ?a ?b discuss in ?c ?d
+		?a: a rather intricate situation in such systems
+		?b: we
+		?c: detail
+		?d: two cases
+
+
+label:    sent_24
+sentence: We discuss on possible reasons of such differences and possible improvements .
+
+ppatt:
+	?a discuss on ?b
+		?a: We
+		?b: possible reasons of such differences and possible improvements
+
+
+label:    sent_25
+sentence: They discuss of advantages vs disadvantages of the surgical procedures . Much to discuss and debate .
+
+ppatt:
+	?a discuss of ?b ?c
+		?a: They
+		?b: advantages of the surgical procedures
+		?c: Much to discuss and debate
+	?a discuss of ?b ?c
+		?a: They
+		?b: disadvantages
+		?c: Much to discuss and debate
+	?a discuss
+		?a: Much
+
+
+label:    sent_26
+sentence: We discuss directly estimating these quantities from the data and derive analytic variance expressions .
+
+ppatt:
+	?a discuss directly estimating ?b from ?c
+		?a: We
+		?b: these quantities
+		?c: the data
+	?a derive ?b
+		?a: We
+		?b: analytic variance expressions
+
+
+label:    sent_27
+sentence: We discuss and illustrate such a component clustering strategy .
+
+ppatt:
+	?a discuss ?b
+		?a: We
+		?b: such a component clustering strategy
+	?a illustrate
+		?a: We
+
+

@@ -1,0 +1,224 @@
+label:    sent_1
+sentence: Why inject contrast for magnetic resonance angiography ? The catheter is used to inject more anesthetic agent during the procedure .
+
+ppatt:
+	Why inject ?a ?b
+		?a: contrast for magnetic resonance angiography
+		?b: The catheter
+	?a is used to inject ?b during ?c
+		?a: The catheter
+		?b: more anesthetic agent
+		?c: the procedure
+
+
+label:    sent_2
+sentence: Richards proposed that Wearn use that experimental preparation to inject epinephrine into the glomerulus .
+
+ppatt:
+	?a proposed ?b
+		?a: Richards
+		?b: SOMETHING := Wearn use that experimental preparation to inject epinephrine into the glomerulus
+	?a use ?b
+		?a: Wearn
+		?b: experimental preparation to inject epinephrine into the glomerulus
+	?a inject ?b into ?c
+		?a: experimental preparation
+		?b: epinephrine
+		?c: the glomerulus
+
+
+label:    sent_3
+sentence: Prevention of HIV among people who inject pharmaceutical opioids is essential .
+
+ppatt:
+	?a inject ?b
+		?a: people
+		?b: pharmaceutical opioids
+	?a is essential
+		?a: Prevention of HIV among people who inject pharmaceutical opioids
+
+
+label:    sent_4
+sentence: Behavioral HIV risk reduction among people who inject drugs : meta-analytic evidence of efficacy .
+
+ppatt:
+	?a inject ?b
+		?a: people
+		?b: drugs
+
+
+label:    sent_5
+sentence: Where do lean diabetics inject their insulin ? A study using computed tomography .
+
+ppatt:
+	Where do ?a inject ?b ?c
+		?a: lean diabetics
+		?b: their insulin
+		?c: A study using computed tomography
+	?a using ?b
+		?a: A study
+		?b: computed tomography
+
+
+label:    sent_6
+sentence: Ultrasound-guided interscalene blocks : understanding where to inject the local anaesthetic .
+
+ppatt:
+
+
+
+label:    sent_7
+sentence: Each of the 4 techniques was used to inject 10 bursae .
+
+ppatt:
+	?a was used to inject ?b
+		?a: Each of the 4 techniques
+		?b: 10 bursae
+
+
+label:    sent_8
+sentence: After abdominopelvic scanning , physicians evaluated the need to inject furosemide .
+
+ppatt:
+	After ?a , ?b evaluated ?c
+		?a: abdominopelvic scanning
+		?b: physicians
+		?c: the need to inject furosemide
+	?a inject ?b
+		?a: the need
+		?b: furosemide
+
+
+label:    sent_9
+sentence: Second , we inject the cells in the pancreas of the donor rat . Adults inject 45 % of the glands ' content in the first bite .
+
+ppatt:
+	Second , ?a inject ?b in ?c
+		?a: we
+		?b: the cells
+		?c: the pancreas of the donor rat
+	?a inject ?b
+		?a: Adults
+		?b: 45 % of the glands ' content in the first bite
+
+
+label:    sent_10
+sentence: Accordingly , it is considerably easier to inject contrast medium through this tubing .
+
+ppatt:
+	Accordingly , ?a is considerably easier to inject ?b through ?c
+		?a: it
+		?b: contrast medium
+		?c: this tubing
+
+
+label:    sent_11
+sentence: Determinants of HIV risk among men who have homosexual sex and inject drugs .
+
+ppatt:
+	?a have ?b
+		?a: men
+		?b: homosexual sex
+	?a inject ?b
+		?a: who
+		?b: drugs
+
+
+label:    sent_12
+sentence: Where and how to inject the knee--a systematic review . HIV/AIDS among men who have sex with men and inject drugs --United States , 1985-1998 .
+
+ppatt:
+	Where how to inject ?a ?b
+		?a: the knee--a systematic review
+		?b: HIV/AIDS among men who have sex with men and inject drugs --United States
+	?a have ?b with ?c
+		?a: men
+		?b: sex
+		?c: men
+	?a inject ?b
+		?a: who
+		?b: drugs --United States
+	?a 1985-1998
+		?a: HIV/AIDS among men who have sex with men and inject drugs --United States
+
+
+label:    sent_13
+sentence: -The most critical factor was to inject under strong resistance .
+
+ppatt:
+	?a was to inject under ?b
+		?a: -The most critical factor
+		?b: strong resistance
+
+
+label:    sent_14
+sentence: The patients learned to inject into their thighs themselves .
+
+ppatt:
+	?a learned to inject into ?b
+		?a: The patients
+		?b: their thighs
+
+
+label:    sent_15
+sentence: They were easily visible in the syringe and easy to inject through the microcatheters .
+
+ppatt:
+	?a were easily visible in ?b
+		?a: They
+		?b: the syringe
+	?a easy to inject through ?b
+		?a: They
+		?b: the microcatheters
+
+
+label:    sent_16
+sentence: EMR was performed by using cap-assisted or " inject and cut " resection technique .
+
+ppatt:
+	?a was performed
+		?a: EMR
+	?a using ?b
+		?a: EMR
+		?b: cap-assisted
+	?a using ?b
+		?a: EMR
+		?b: "
+	?a inject ?b
+		?a: EMR
+		?b: " resection technique
+
+
+label:    sent_17
+sentence: The painful shoulder : when to inject and when to refer . Bleeding ulcer : inject or clip ? What to inject when oral agents fail ? Centipedes are excellent predatory arthropods that inject venom to kill or immobilize their prey .
+
+ppatt:
+	?a when to inject
+		?a: The painful shoulder
+	?a when to refer ?b
+		?a: The painful shoulder
+		?b: Bleeding ulcer
+	when ?a fail
+		?a: oral agents
+	?a ?b are excellent predatory arthropods
+		?a: The painful shoulder : when to inject and when to refer . Bleeding ulcer
+		?b: Centipedes
+	?a inject ?b to kill ?c
+		?a: excellent predatory arthropods
+		?b: venom
+		?c: their prey
+	?a inject to immobilize
+		?a: that
+
+
+label:    sent_18
+sentence: It is very easy to perform and needs less material to inject .
+
+ppatt:
+	?a is very easy to perform ?b to inject
+		?a: It
+		?b: less material
+	?a is very easy to needs to inject
+		?a: It
+
+

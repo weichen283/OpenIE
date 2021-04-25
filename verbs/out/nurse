@@ -1,0 +1,221 @@
+label:    sent_1
+sentence: Rural nurse to nurse practitioner : an ad hoc process . Clinical nurse specialist .
+
+ppatt:
+	?a is/are Clinical nurse specialist
+		?a: an ad hoc process
+
+
+label:    sent_2
+sentence: Building adaptive nurse leaders for future Army full spectrum operations .
+
+ppatt:
+	Building ?a for ?b
+		?a: adaptive nurse leaders
+		?b: future Army full spectrum operations
+
+
+label:    sent_3
+sentence: The once and future nurse .
+
+ppatt:
+
+
+
+label:    sent_4
+sentence: The nurse conducted a visual screening that included retinography and tonometry .
+
+ppatt:
+	?a conducted ?b
+		?a: The nurse
+		?b: a visual screening that included retinography and tonometry
+	?a included ?b
+		?a: a visual screening
+		?b: retinography
+	?a included ?b
+		?a: a visual screening
+		?b: tonometry
+
+
+label:    sent_5
+sentence: The lead public health nurse recorded vaccination activity systematically . [ The nurse at the heart of the team in a tuberculosis control center ] . The effects of nurse to patient ratios .
+
+ppatt:
+	?a recorded ?b systematically . [ ?c
+		?a: The lead public health nurse
+		?b: vaccination activity
+		?c: The nurse at the heart of the team in a tuberculosis control center ]
+
+
+label:    sent_6
+sentence: The specialist nurse in the field of childhood sleep disorders .
+
+ppatt:
+
+
+
+label:    sent_7
+sentence: The qualities of a compassionate nurse according to the perceptions of medical-surgical patients .
+
+ppatt:
+
+
+
+label:    sent_8
+sentence: Key nurse leadership post axed despite damning report on care .
+
+ppatt:
+	?a post axed despite ?b
+		?a: Key nurse leadership
+		?b: damning report on care
+
+
+label:    sent_9
+sentence: A nurse manager 's reflections on adapting to a research role .
+
+ppatt:
+	?a adapting to ?b
+		?a: A nurse manager reflections
+		?b: a research role
+
+
+label:    sent_10
+sentence: Pre-registration children 's and young people 's nurse preparation .
+
+ppatt:
+
+
+
+label:    sent_11
+sentence: Geriatric/gerontological nurse practitioners .
+
+ppatt:
+
+
+
+label:    sent_12
+sentence: Come here , nurse ! Marguerite Bottard ( 1822-1906 ) , nurse under Jean-Martin Charcot , portrayed by G . From student nurse to DNS .
+
+ppatt:
+	Come here ?a
+		?a: nurse ! Marguerite Bottard , portrayed by G . From student nurse to DNS
+	Come here ?a
+		?a: nurse under Jean-Martin Charcot
+	?a is/are 1822-1906
+		?a: nurse ! Marguerite Bottard , portrayed by G . From student nurse to DNS
+	?a is/are 1822-1906
+		?a: nurse under Jean-Martin Charcot
+	?a portrayed by ?b From ?c
+		?a: nurse ! Marguerite Bottard
+		?b: G
+		?c: student nurse to DNS
+	?a portrayed by ?b From ?c
+		?a: nurse under Jean-Martin Charcot
+		?b: G
+		?c: student nurse to DNS
+
+
+label:    sent_13
+sentence: Socialisation of the student nurse in the nursing profession .
+
+ppatt:
+
+
+
+label:    sent_14
+sentence: There seems to be no problem to nurse children during treatment with carbamazepine .
+
+ppatt:
+	There seems to be no problem to ?a
+		?a: children
+	?a nurse during ?b
+		?a: no problem to children
+		?b: treatment with carbamazepine
+
+
+label:    sent_15
+sentence: Towards a graduate nurse teacher .
+
+ppatt:
+
+
+
+label:    sent_16
+sentence: Recommendations are offered that should be helpful to nurse executives in similar situations .
+
+ppatt:
+	?a are offered ?b
+		?a: Recommendations
+		?b: SOMETHING := that should be helpful to nurse executives in similar situations
+	?a should be helpful to nurse ?b in ?c
+		?a: that
+		?b: executives
+		?c: similar situations
+
+
+label:    sent_17
+sentence: The caring behaviors of the home health nurse and influence on medication adherence .
+
+ppatt:
+
+
+
+label:    sent_18
+sentence: Staff nurse empowerment in line and staff organizational structures for chief nurse executives . [Attempt to define the role and the activities of the occupational health nurse ] . Hospital ward layout and nurse staffing .
+
+ppatt:
+	staff ?a to define ?b
+		?a: organizational structures
+		?b: the role of the occupational health nurse ] . Hospital ward layout and nurse staffing
+	staff ?a to define ?b
+		?a: organizational structures
+		?b: the activities
+
+
+label:    sent_19
+sentence: Incidence and impact of physician and nurse disruptive behaviors in the emergency department .
+
+ppatt:
+
+
+
+label:    sent_20
+sentence: Office manager and nurse perspectives on facilitators of adult immunization .
+
+ppatt:
+
+
+
+label:    sent_21
+sentence: To nurse or not to nurse .
+
+ppatt:
+	nurse to ?a
+		?a: not nurse
+
+
+label:    sent_22
+sentence: In nearly three-fourth of the weekdays the patients saw their personal doctor and nurse .
+
+ppatt:
+	In ?a ?b saw ?c
+		?a: nearly three-fourth of the weekdays
+		?b: the patients
+		?c: their personal doctor
+	In ?a ?b saw ?c
+		?a: nearly three-fourth of the weekdays
+		?b: the patients
+		?c: nurse
+
+
+label:    sent_23
+sentence: They are not as vigorous and do not nurse as well as full-term infants .
+
+ppatt:
+	?a are not as vigorous
+		?a: They
+	?a do not nurse ?b
+		?a: They
+		?b: full-term infants
+
+

@@ -1,0 +1,335 @@
+label:    sent_1
+sentence: Biofeedback and background noise did not alter the relative change in HR or BP .
+
+ppatt:
+	?a did not alter ?b
+		?a: Biofeedback
+		?b: the relative change in HR or BP
+	?a did not alter ?b
+		?a: background noise
+		?b: the relative change in HR or BP
+
+
+label:    sent_2
+sentence: Pretreatment with methylphenidate ( 0.56 mg/kg ) did not significantly alter methamphetamine self-administration .
+
+ppatt:
+	?a is/are 0.56 mg/kg
+		?a: methylphenidate
+	?a did not significantly alter ?b
+		?a: Pretreatment with methylphenidate
+		?b: methamphetamine self-administration
+
+
+label:    sent_3
+sentence: Peritoneal dialysis fluids can alter HSP expression in human peritoneal mesothelial cells .
+
+ppatt:
+	?a can alter ?b in ?c
+		?a: Peritoneal dialysis fluids
+		?b: HSP expression
+		?c: human peritoneal mesothelial cells
+
+
+label:    sent_4
+sentence: Atrazine was found to alter the expression of few hepatic transcripts .
+
+ppatt:
+	?a was found to alter ?b
+		?a: Atrazine
+		?b: the expression of few hepatic transcripts
+
+
+label:    sent_5
+sentence: These reactive oxygen species are known to have the capability to alter DNA .
+
+ppatt:
+	?a are known to have ?b
+		?a: These reactive oxygen species
+		?b: the capability to alter DNA
+	?a alter ?b
+		?a: the capability
+		?b: DNA
+
+
+label:    sent_6
+sentence: Cocaine has been shown to alter behavior and mood , causing feelings of euphoria .
+
+ppatt:
+	?a has been shown to alter ?b
+		?a: Cocaine
+		?b: behavior
+	?a has been shown to alter ?b
+		?a: Cocaine
+		?b: mood
+	?a causing ?b
+		?a: Cocaine
+		?b: feelings of euphoria
+
+
+label:    sent_7
+sentence: Thyroid hormones alter the adenine nucleotide hydrolysis in adult rat blood serum .
+
+ppatt:
+	?a alter ?b
+		?a: Thyroid hormones
+		?b: the adenine nucleotide hydrolysis in adult rat blood serum
+
+
+label:    sent_8
+sentence: Changes in dendritic axial resistance alter synaptic integration in cerebellar Purkinje cells .
+
+ppatt:
+	?a alter ?b
+		?a: Changes in dendritic axial resistance
+		?b: synaptic integration in cerebellar Purkinje cells
+
+
+label:    sent_9
+sentence: In contrast , longer photoperiods did not alter reinstatement .
+
+ppatt:
+	In ?a , ?b did not alter ?c
+		?a: contrast
+		?b: longer photoperiods
+		?c: reinstatement
+
+
+label:    sent_10
+sentence: High levels of ROS alter the redox status and are detrimental to seed viability .
+
+ppatt:
+	?a alter ?b
+		?a: High levels of ROS
+		?b: the redox status
+
+
+label:    sent_11
+sentence: The RV-PA shunt does not significantly alter mortality or increase mesenteric blood flow .
+
+ppatt:
+	?a does not significantly alter ?b
+		?a: The RV-PA shunt
+		?b: mortality
+	?a increase ?b
+		?a: The RV-PA shunt
+		?b: mesenteric blood flow
+
+
+label:    sent_12
+sentence: The vectors did not alter sucrose intake and a scrambled siRNA vector was negative .
+
+ppatt:
+	?a did not alter ?b
+		?a: The vectors
+		?b: sucrose intake
+	?a was negative
+		?a: a scrambled siRNA vector
+
+
+label:    sent_13
+sentence: Chitosan is the deacetylation product of chitin and can alter bladder urothelium .
+
+ppatt:
+	?a is the deacetylation product of ?b
+		?a: Chitosan
+		?b: chitin
+	?a can alter ?b
+		?a: Chitosan
+		?b: bladder urothelium
+
+
+label:    sent_14
+sentence: Resin cements may alter nerve conductance and even lead to neurotoxic effects .
+
+ppatt:
+	?a may alter ?b
+		?a: Resin cements
+		?b: nerve conductance
+	?a even lead to ?b
+		?a: Resin cements
+		?b: neurotoxic effects
+
+
+label:    sent_15
+sentence: This resulted in increased immune and inflammatory responses but did not alter degradation profiles .
+
+ppatt:
+	?a resulted in ?b
+		?a: This
+		?b: increased immune and inflammatory responses
+	?a did not alter ?b
+		?a: This
+		?b: degradation profiles
+
+
+label:    sent_16
+sentence: Acute ethanol intoxication has the potential to alter immune reactivity by various pathways .
+
+ppatt:
+	?a has ?b
+		?a: Acute ethanol intoxication
+		?b: the potential to alter immune reactivity by various pathways
+	?a alter ?b by ?c
+		?a: the potential
+		?b: immune reactivity
+		?c: various pathways
+
+
+label:    sent_17
+sentence: The truncation of PP2B appeared to alter its intracellular distribution in the brain .
+
+ppatt:
+	?a appeared to alter ?b
+		?a: The truncation of PP2B
+		?b: its intracellular distribution in the brain
+
+
+label:    sent_18
+sentence: Some medications are used specifically to alter serum calcium as a therapeutic intervention .
+
+ppatt:
+	?a are used specifically to alter ?b as ?c
+		?a: Some medications
+		?b: serum calcium
+		?c: a therapeutic intervention
+
+
+label:    sent_19
+sentence: Of these , 20 % did not alter management and could be deemed unnecessary .
+
+ppatt:
+	Of ?a , ?b did not alter ?c
+		?a: these
+		?b: 20 %
+		?c: management
+	?a could be deemed unnecessary
+		?a: 20 %
+
+
+label:    sent_20
+sentence: Insulin did not alter myocardial muscle perfusion at rest or during hyperemia .
+
+ppatt:
+	?a did not alter ?b at ?c
+		?a: Insulin
+		?b: myocardial muscle perfusion
+		?c: rest
+	?a did not alter ?b at ?c
+		?a: Insulin
+		?b: myocardial muscle perfusion
+		?c: hyperemia
+
+
+label:    sent_21
+sentence: In addition , opening the cochlea may alter its function and affect the findings .
+
+ppatt:
+	opening ?a
+		?a: the cochlea
+	In ?a , ?b may alter ?c
+		?a: addition
+		?b: SOMETHING := opening the cochlea
+		?c: its function
+	?a affect ?b
+		?a: opening the cochlea
+		?b: the findings
+
+
+label:    sent_22
+sentence: In contrast , diabetic metabolic situation and urinary albumin excretion did not alter .
+
+ppatt:
+	In ?a , ?b did not alter
+		?a: contrast
+		?b: diabetic metabolic situation
+	In ?a , ?b did not alter
+		?a: contrast
+		?b: urinary albumin excretion
+
+
+label:    sent_23
+sentence: Surprisingly , flap perfusion did not alter after dissection .
+
+ppatt:
+	Surprisingly , ?a did not alter after ?b
+		?a: flap perfusion
+		?b: dissection
+
+
+label:    sent_24
+sentence: ERalpha and ERbeta expression and localisation did not alter during the year . I discuss plausible molecular mechanisms through which cAMP might alter gene expression .
+
+ppatt:
+	?a did not alter during ?b
+		?a: ERalpha
+		?b: the year
+	?a did not alter during ?b
+		?a: ERbeta
+		?b: the year
+	?a discuss ?b
+		?a: ERalpha
+		?b: plausible molecular mechanisms through which cAMP might alter gene expression
+	?a discuss ?b
+		?a: ERbeta
+		?b: plausible molecular mechanisms through which cAMP might alter gene expression
+	?a through ?b might alter ?c
+		?a: plausible molecular mechanisms
+		?b: cAMP
+		?c: gene expression
+
+
+label:    sent_25
+sentence: The mechanism by which these agents alter the seizure threshold is not yet known .
+
+ppatt:
+	?a by ?b alter ?c
+		?a: The mechanism
+		?b: these agents
+		?c: the seizure threshold
+	?a is not yet known
+		?a: The mechanism by which these agents alter the seizure threshold
+
+
+label:    sent_26
+sentence: The way in which traffic volumes alter these findings is also examined .
+
+ppatt:
+	?a in ?b alter ?c
+		?a: The way
+		?b: traffic volumes
+		?c: these findings
+	?a is also examined
+		?a: The way in which traffic volumes alter these findings
+
+
+label:    sent_27
+sentence: Serum levels of triglyceride and other lipoproteins did not significantly alter .
+
+ppatt:
+	?a did not significantly alter
+		?a: Serum levels of triglyceride and other lipoproteins
+
+
+label:    sent_28
+sentence: The type of incidents reported did not alter .
+
+ppatt:
+	?a reported
+		?a: incidents
+	?a did not alter
+		?a: The type of incidents reported
+
+
+label:    sent_29
+sentence: Past experience can alter how individuals respond to stressful events .
+
+ppatt:
+	?a can alter ?b
+		?a: Past experience
+		?b: SOMETHING := how individuals respond to stressful events
+	how ?a respond to ?b
+		?a: individuals
+		?b: stressful events
+
+

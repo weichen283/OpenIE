@@ -1,0 +1,162 @@
+label:    sent_1
+sentence: FST personnel frequently encounter high-acuity patient scenarios without the ability to transfuse platelets .
+
+ppatt:
+	?a personnel frequently encounter ?b without ?c
+		?a: FST
+		?b: high-acuity patient scenarios
+		?c: the ability to transfuse platelets
+	?a transfuse ?b
+		?a: the ability
+		?b: platelets
+
+
+label:    sent_2
+sentence: This technique makes it possible to transfuse only leukocyte depleted platelet concentrates .
+
+ppatt:
+	?a makes ?b possible to transfuse ?c
+		?a: This technique
+		?b: it
+		?c: only leukocyte depleted platelet concentrates
+
+
+label:    sent_3
+sentence: Do we know when to transfuse red cells to treat acute anemia ? Various infusion pumps are available to transfuse blood at a predetermined rate .
+
+ppatt:
+	Do ?a know when to transfuse ?b to treat ?c
+		?a: we
+		?b: red cells
+		?c: acute anemia
+	?a are available to transfuse ?b at ?c
+		?a: Various infusion pumps
+		?b: blood
+		?c: a predetermined rate
+
+
+label:    sent_4
+sentence: Several techniques are being used to transfuse the patient 's own blood during surgery . A common practice is to transfuse blood for hypovolaemia .
+
+ppatt:
+	?a are being used to transfuse ?b during ?c
+		?a: Several techniques
+		?b: the patient 's own blood
+		?c: surgery
+	?a is to transfuse ?b for ?c
+		?a: A common practice
+		?b: blood
+		?c: hypovolaemia
+
+
+label:    sent_5
+sentence: Cell salvage for auto-transfusion could transfuse back half of the blood loss during operation .
+
+ppatt:
+	?a could transfuse ?b during ?c
+		?a: Cell salvage for auto-transfusion
+		?b: back half of the blood loss
+		?c: operation
+
+
+label:    sent_6
+sentence: Computerized quality assurance of decisions to transfuse blood components to critically ill patients .
+
+ppatt:
+	?a transfuse ?b to ?c
+		?a: Computerized quality assurance of decisions
+		?b: blood components
+		?c: critically ill patients
+
+
+label:    sent_7
+sentence: Time to transfuse best blood practices at hospitals . Frozen deglycerolized RBCs are the ideal RBC product to transfuse patients receiving HBOCs .
+
+ppatt:
+	?a transfuse ?b at ?c
+		?a: Time
+		?b: best blood practices
+		?c: hospitals
+	?a ?b are the ideal RBC product
+		?a: Time to transfuse best blood practices at hospitals
+		?b: Frozen deglycerolized RBCs
+	?a transfuse ?b
+		?a: the ideal RBC product
+		?b: patients receiving HBOCs
+	?a receiving ?b
+		?a: patients
+		?b: HBOCs
+
+
+label:    sent_8
+sentence: [Do we observe what we transfuse ? ] . When do we transfuse cryoprecipitate ? To transfuse or not to transfuse .
+
+ppatt:
+	?a ?b observe ?c
+		?a: [Do
+		?b: we
+		?c: SOMETHING := what we transfuse ? ] . When do we transfuse cryoprecipitate ? To transfuse or not to transfuse
+	?a ?b transfuse ?c
+		?a: what
+		?b: we
+		?c: ]
+	When do ?a transfuse ?b
+		?a: we
+		?b: cryoprecipitate
+	?a To transfuse
+		?a: we
+
+
+label:    sent_9
+sentence: To transfuse or not to transfuse : is it really a question ? Icteric donor plasma : to transfuse or to discard ? [Is it necessary to transfuse before renal transplantation ? ] . Bloodless medicine : what to do when you can n't transfuse .
+
+ppatt:
+	transfuse to ?a
+		?a: not transfuse
+	is ?a really ?b : to ?c : ?d to do
+		?a: it
+		?b: a question
+		?c: transfuse
+		?d: what
+	?a is/are Icteric donor plasma
+		?a: a question
+	?a discard ?b
+		?a: it
+		?b: [Is
+	?a necessary to transfuse before ?b
+		?a: it
+		?b: renal transplantation
+	?a necessary to transfuse before ?b
+		?a: it
+		?b: ] . Bloodless medicine
+	when ?a can n't transfuse
+		?a: you
+
+
+label:    sent_10
+sentence: The majority the Smur physicians can transfuse in a prehospital setting .
+
+ppatt:
+	?a can transfuse in ?b
+		?a: The majority the Smur physicians
+		?b: a prehospital setting
+
+
+label:    sent_11
+sentence: Transfuse or not transfuse in acute renal failure ? The scenarios examined hemoglobin thresholds for which participants would transfuse PRBCs .
+
+ppatt:
+	?a ?b examined ?c
+		?a: Transfuse in acute renal failure
+		?b: The scenarios
+		?c: hemoglobin thresholds for which participants would transfuse PRBCs
+	?a ?b examined ?c
+		?a: transfuse
+		?b: The scenarios
+		?c: hemoglobin thresholds for which participants would transfuse PRBCs
+	?a for ?b would transfuse ?c
+		?a: hemoglobin thresholds
+		?b: participants
+		?c: PRBCs
+
+

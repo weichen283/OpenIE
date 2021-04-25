@@ -1,0 +1,194 @@
+label:    sent_1
+sentence: is the first describing an organism that is able to methylate non-terminal mannose residues .
+
+ppatt:
+	?a describing ?b
+		?a: the first
+		?b: an organism that is able to methylate non-terminal mannose residues
+	?a is able to methylate ?b
+		?a: an organism
+		?b: non-terminal mannose residues
+
+
+label:    sent_2
+sentence: Mutation SPR26 has lost the ability to methylate all three sites .
+
+ppatt:
+	?a has lost ?b
+		?a: Mutation SPR26
+		?b: the ability to methylate all three sites
+	?a methylate ?b
+		?a: the ability
+		?b: all three sites
+
+
+label:    sent_3
+sentence: A procedure is described to methylate selectively the sulfonamide nitrogen of chlorsulfuron . Some mammals methylate arsenic .
+
+ppatt:
+	?a is described to methylate selectively ?b
+		?a: A procedure
+		?b: the sulfonamide nitrogen of chlorsulfuron
+	?a methylate ?b
+		?a: Some mammals
+		?b: arsenic
+
+
+label:    sent_4
+sentence: They methylate mainly the nitrogen bases in DNA and RNA , affecting their functions .
+
+ppatt:
+	?a methylate mainly ?b
+		?a: They
+		?b: the nitrogen bases in DNA and RNA
+	?a affecting ?b
+		?a: They
+		?b: their functions
+
+
+label:    sent_5
+sentence: Phospholipid methyltransferase I and II enzymes methylate phosphatidylethanolamine three times to form phosphatidylcholine .
+
+ppatt:
+	?a ?b methylate ?c to form ?d
+		?a: Phospholipid methyltransferase I and II
+		?b: enzymes
+		?c: phosphatidylethanolamine three times
+		?d: phosphatidylcholine
+
+
+label:    sent_6
+sentence: Individually , neither bacterium could grow or methylate mercury in this medium .
+
+ppatt:
+	Individually , ?a could grow ?b in ?c
+		?a: neither bacterium
+		?b: mercury
+		?c: this medium
+	?a methylate
+		?a: neither bacterium
+
+
+label:    sent_7
+sentence: Type II restriction-modification systems cleave and methylate DNA at specific sequences .
+
+ppatt:
+	?a cleave ?b at ?c
+		?a: Type II restriction-modification systems
+		?b: DNA
+		?c: specific sequences
+	?a methylate
+		?a: Type II restriction-modification systems
+
+
+label:    sent_8
+sentence: On your histone mark , SET , methylate ! Immunoprecipitate of Cabin1 complex can methylate histone H3 by association with SUV39H1 .
+
+ppatt:
+	methylate ?a
+		?a: ! Immunoprecipitate of Cabin1 complex
+	On ?a , ?b ?c can methylate ?d by ?e
+		?a: your histone mark
+		?b: SET
+		?c: SOMETHING := methylate ! Immunoprecipitate of Cabin1 complex
+		?d: histone H3
+		?e: association with SUV39H1
+
+
+label:    sent_9
+sentence: Most mammals methylate inorganic arsenic to dimethylarsinic acid ( DMA ) . Both enzymes methylate adenine in the sequence TCGA .
+
+ppatt:
+	?a methylate ?b to ?c
+		?a: Most mammals
+		?b: inorganic arsenic
+		?c: dimethylarsinic acid
+	?a is/are DMA
+		?a: dimethylarsinic acid
+	?a methylate ?b in ?c
+		?a: Both enzymes
+		?b: adenine
+		?c: the sequence TCGA
+
+
+label:    sent_10
+sentence: The histone methyltransferase SET8 has been reported to methylate TP53 and regulate genomic stability . PRMT-5 forms a complex with both CEP-1 and CBP-1 and can methylate the latter .
+
+ppatt:
+	?a has been reported to methylate ?b
+		?a: The histone methyltransferase SET8
+		?b: TP53
+	?a has been reported to regulate ?b
+		?a: The histone methyltransferase SET8
+		?b: genomic stability
+	?a forms ?b
+		?a: PRMT-5
+		?b: a complex with both CEP-1 and CBP-1
+	?a can methylate ?b
+		?a: PRMT-5
+		?b: the latter
+
+
+label:    sent_11
+sentence: Yeast Nop2 and Rcm1 methylate C2870 and C2278 of the 25S rRNA , respectively . NNK is metabolically activated by cytochromes P450 to intermediates which methylate and pyridyloxobutylate DNA .
+
+ppatt:
+	?a methylate ?b , respectively
+		?a: Yeast Nop2
+		?b: C2870 of the 25S rRNA
+	?a methylate ?b , respectively
+		?a: Rcm1
+		?b: C2870 of the 25S rRNA
+	?a methylate ?b , respectively
+		?a: Yeast Nop2
+		?b: C2278
+	?a methylate ?b , respectively
+		?a: Rcm1
+		?b: C2278
+	?a is metabolically activated by ?b to ?c
+		?a: NNK
+		?b: cytochromes P450
+		?c: intermediates which methylate and pyridyloxobutylate DNA
+	?a methylate ?b
+		?a: intermediates
+		?b: DNA
+	?a pyridyloxobutylate
+		?a: which
+
+
+label:    sent_12
+sentence: NNK is metabolically activated to intermediates that methylate and pyridyloxobutylate DNA .
+
+ppatt:
+	?a is metabolically activated to ?b
+		?a: NNK
+		?b: intermediates that methylate and pyridyloxobutylate DNA
+	?a methylate ?b
+		?a: intermediates
+		?b: pyridyloxobutylate DNA
+
+
+label:    sent_13
+sentence: A unique property of M-BsuE is its ability to methylate 5'-CGCG-3 ' in Z-DNA .
+
+ppatt:
+	?a is ?b ability
+		?a: A unique property of M-BsuE
+		?b: its
+	?a methylate ?b in ?c
+		?a: its ability
+		?b: 5'-CGCG-3
+		?c: Z-DNA
+
+
+label:    sent_14
+sentence: The number of CpG islands that methylate with age is unknown .
+
+ppatt:
+	?a methylate with ?b
+		?a: CpG islands
+		?b: age
+	?a is unknown
+		?a: The number of CpG islands that methylate with age
+
+

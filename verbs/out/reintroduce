@@ -1,0 +1,133 @@
+label:    sent_1
+sentence: This article aims to reintroduce readers to biologically based and tissue-engineered wound management products .
+
+ppatt:
+	?a aims to reintroduce ?b
+		?a: This article
+		?b: readers to biologically based and tissue-engineered wound management products
+
+
+label:    sent_2
+sentence: Girls were found to significantly less frequently reintroduce the food than boys .
+
+ppatt:
+	?a were found to significantly less frequently reintroduce ?b than ?c
+		?a: Girls
+		?b: the food
+		?c: boys
+
+
+label:    sent_3
+sentence: It is not necessary to reintroduce the drug when epilepsy is cured .
+
+ppatt:
+	?a is not necessary to reintroduce ?b
+		?a: It
+		?b: the drug
+	when ?a is cured
+		?a: epilepsy
+
+
+label:    sent_4
+sentence: Translocations are widely used to reintroduce threatened species to areas where they have disappeared .
+
+ppatt:
+	?a are widely used to reintroduce ?b
+		?a: Translocations
+		?b: threatened species to areas where they have disappeared
+	?a where ?b have disappeared
+		?a: areas
+		?b: they
+
+
+label:    sent_5
+sentence: Retroviruses can be employed again to reintroduce these regulatory sequences back into cells .
+
+ppatt:
+	?a can be employed again to reintroduce ?b back into ?c
+		?a: Retroviruses
+		?b: these regulatory sequences
+		?c: cells
+
+
+label:    sent_6
+sentence: It seems advisable to create synthetic populations ex situ and reintroduce them into nature .
+
+ppatt:
+	?a seems advisable to create ?b ex situ
+		?a: It
+		?b: synthetic populations
+	?a seems advisable to ex reintroduce ?b into ?c
+		?a: It
+		?b: them
+		?c: nature
+
+
+label:    sent_7
+sentence: However , if not well matched , the control group may reintroduce selection bias . However , all patients do not reintroduce the food .
+
+ppatt:
+	not well matched ?a
+		?a: the control group
+	However , ?a may reintroduce ?b
+		?a: the control group
+		?b: selection bias
+	However , ?a do not reintroduce ?b
+		?a: all patients
+		?b: the food
+
+
+label:    sent_8
+sentence: We reintroduce this model thereby showing its usefulness in medical problems .
+
+ppatt:
+	?a reintroduce ?b
+		?a: We
+		?b: this model
+	?a thereby showing ?b
+		?a: We
+		?b: its usefulness in medical problems
+
+
+label:    sent_9
+sentence: For intracellular metabolism , we reintroduce the Cytosol-to-Mitochondria Lactate Shuttle .
+
+ppatt:
+	For ?a , ?b reintroduce ?c
+		?a: intracellular metabolism
+		?b: we
+		?c: the Cytosol-to-Mitochondria Lactate Shuttle
+
+
+label:    sent_10
+sentence: Medical students reintroduce basic science to residents .
+
+ppatt:
+	?a reintroduce ?b
+		?a: Medical students
+		?b: basic science to residents
+
+
+label:    sent_11
+sentence: These results have encouraged us to reintroduce this operation for suitable patients .
+
+ppatt:
+	?a have encouraged ?b to reintroduce ?c
+		?a: These results
+		?b: us
+		?c: this operation for suitable patients
+
+
+label:    sent_12
+sentence: To avert extinction , plans are being developed to reintroduce M. trifasciatus to Floreana .
+
+ppatt:
+	avert ?a ?b
+		?a: extinction
+		?b: plans
+	?a are being developed to reintroduce ?b to ?c
+		?a: plans
+		?b: M. trifasciatus
+		?c: Floreana
+
+

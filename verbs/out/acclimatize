@@ -1,0 +1,98 @@
+label:    sent_1
+sentence: O. submarina appeared to acclimatize to the lower concentrations used : after ca . Hypoxic hMSC exhibited an extended lag phase in order to acclimatize to culture conditions .
+
+ppatt:
+	?a appeared to acclimatize to ?b
+		?a: O. submarina
+		?b: the lower concentrations used
+	?a used
+		?a: the lower concentrations
+	after ca . ?a exhibited ?b
+		?a: Hypoxic hMSC
+		?b: an extended lag phase
+	?a order to acclimatize to ?b
+		?a: Hypoxic hMSC
+		?b: culture conditions
+
+
+label:    sent_2
+sentence: Thermally tolerant corals have limited capacity to acclimatize to future warming .
+
+ppatt:
+	?a have ?b
+		?a: Thermally tolerant corals
+		?b: limited capacity to acclimatize to future warming
+	?a acclimatize to ?b
+		?a: limited capacity
+		?b: future warming
+
+
+label:    sent_3
+sentence: Differential expression of membrane proteins helps Antarctic Pseudomonas syringae to acclimatize upon temperature variations .
+
+ppatt:
+	?a helps ?b to acclimatize upon ?c
+		?a: Differential expression of membrane proteins
+		?b: Antarctic Pseudomonas syringae
+		?c: temperature variations
+
+
+label:    sent_4
+sentence: The elderly acclimatize well with normalization of SL performance after 5 days . KS-1 probably changes its chaperonin subunit composition to acclimatize to the ambient temperature .
+
+ppatt:
+	?a ?b probably changes ?c to acclimatize to ?d
+		?a: The elderly acclimatize well with normalization of SL performance after 5 days
+		?b: KS-1
+		?c: its chaperonin subunit composition
+		?d: the ambient temperature
+
+
+label:    sent_5
+sentence: Additionally we investigated different compost mixtures to acclimatize the regenerated hybrid plantlets .
+
+ppatt:
+	Additionally ?a investigated ?b
+		?a: we
+		?b: different compost mixtures
+	?a acclimatize ?b
+		?a: we
+		?b: the regenerated hybrid plantlets
+
+
+label:    sent_6
+sentence: Children take longer than adults to acclimate or acclimatize to heat .
+
+ppatt:
+	?a take ?b than ?c to acclimate to ?d
+		?a: Children
+		?b: longer
+		?c: adults
+		?d: heat
+	?a take to acclimatize
+		?a: Children
+
+
+label:    sent_7
+sentence: During its infection cycle , S. suis S2 must acclimatize itself to temperature shift .
+
+ppatt:
+	During ?a , ?b must acclimatize ?c to ?d
+		?a: its infection cycle
+		?b: S. suis S2
+		?c: itself
+		?d: temperature shift
+
+
+label:    sent_8
+sentence: Their survival depends on their ability to acclimatize and adapt to new environmental conditions .
+
+ppatt:
+	?a depends on ?b
+		?a: Their survival
+		?b: their ability to acclimatize and adapt to new environmental conditions
+	?a acclimatize to ?b
+		?a: their ability
+		?b: new environmental conditions
+
+

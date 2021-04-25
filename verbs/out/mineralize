@@ -1,0 +1,286 @@
+label:    sent_1
+sentence: The ability of the strain to mineralize monocrotophos was investigated under different culture conditions .
+
+ppatt:
+	?a mineralize ?b
+		?a: The ability of the strain
+		?b: monocrotophos
+	?a was investigated under ?b
+		?a: The ability of the strain to mineralize monocrotophos
+		?b: different culture conditions
+
+
+label:    sent_2
+sentence: The ability of the strains to mineralize monocrotophos was investigated under different culture conditions .
+
+ppatt:
+	?a mineralize ?b
+		?a: The ability of the strains
+		?b: monocrotophos
+	?a was investigated under ?b
+		?a: The ability of the strains to mineralize monocrotophos
+		?b: different culture conditions
+
+
+label:    sent_3
+sentence: White rot fungi have been shown to mineralize a wide variety of environmental pollutants .
+
+ppatt:
+	?a have been shown to mineralize ?b
+		?a: White rot fungi
+		?b: a wide variety of environmental pollutants
+
+
+label:    sent_4
+sentence: These osteoblasts secrete and mineralize a matrix during a period of 3-4 weeks .
+
+ppatt:
+	?a secrete ?b during ?c
+		?a: These osteoblasts
+		?b: a matrix
+		?c: a period of 3-4 weeks
+	?a mineralize
+		?a: These osteoblasts
+
+
+label:    sent_5
+sentence: Acclimated cultures were shown to mineralize methylene chloride to carbon dioxide and chloride .
+
+ppatt:
+	?a were shown to mineralize ?b to ?c
+		?a: Acclimated cultures
+		?b: methylene chloride
+		?c: carbon dioxide
+	?a were shown to mineralize ?b to ?c
+		?a: Acclimated cultures
+		?b: methylene chloride
+		?c: chloride
+
+
+label:    sent_6
+sentence: These osteoblasts secrete and mineralize a matrix during a period of 3-4 wk .
+
+ppatt:
+	?a secrete ?b during ?c
+		?a: These osteoblasts
+		?b: a matrix
+		?c: a period of 3-4 wk
+	?a mineralize
+		?a: These osteoblasts
+
+
+label:    sent_7
+sentence: The ability of the C4-2B cells to mineralize under specific conditions was analyzed .
+
+ppatt:
+	?a mineralize under ?b
+		?a: The ability of the C4-2B cells
+		?b: specific conditions
+	?a was analyzed
+		?a: The ability of the C4-2B cells to mineralize under specific conditions
+
+
+label:    sent_8
+sentence: It was difficult for 14C-metsulfuron-methyl to mineralize to 14CO2 in an alkaline soil .
+
+ppatt:
+	?a was difficult for ?b to mineralize to ?c in ?d
+		?a: It
+		?b: 14C-metsulfuron-methyl
+		?c: 14CO2
+		?d: an alkaline soil
+
+
+label:    sent_9
+sentence: Certain avian tendons are known to mineralize normally in a gender-related manner .
+
+ppatt:
+	?a are known to mineralize normally in ?b
+		?a: Certain avian tendons
+		?b: a gender-related manner
+
+
+label:    sent_10
+sentence: The results show that persulfate at 40degreesC can effectively mineralize DMP .
+
+ppatt:
+	?a show ?b
+		?a: The results
+		?b: SOMETHING := persulfate at 40degreesC can effectively mineralize DMP
+	?a can effectively mineralize ?b
+		?a: persulfate at 40degreesC
+		?b: DMP
+
+
+label:    sent_11
+sentence: Synergy of ozonation and photocatalysis to mineralize low concentration 2,4-dichlorophenoxyacetic acid in aqueous solution .
+
+ppatt:
+	?a mineralize ?b in ?c
+		?a: Synergy of ozonation and photocatalysis
+		?b: low concentration 2,4-dichlorophenoxyacetic acid
+		?c: aqueous solution
+
+
+label:    sent_12
+sentence: The radiolabeled study showed that soil microbes mineralize TNT . B2 can mineralize MP rapidly via PNP , 4-NC , BT and HQ pathway .
+
+ppatt:
+	?a showed ?b ?c
+		?a: The radiolabeled study
+		?b: SOMETHING := soil microbes mineralize TNT . B2
+		?c: SOMETHING := can mineralize MP rapidly via PNP , 4-NC , BT and HQ
+	?a mineralize ?b
+		?a: soil microbes
+		?b: TNT . B2
+	?a can mineralize ?b rapidly via ?c
+		?a: The radiolabeled study
+		?b: MP
+		?c: PNP
+	?a can mineralize ?b rapidly via ?c
+		?a: The radiolabeled study
+		?b: MP
+		?c: 4-NC
+	?a can mineralize ?b rapidly via ?c
+		?a: The radiolabeled study
+		?b: MP
+		?c: BT
+	?a can mineralize ?b rapidly via ?c
+		?a: The radiolabeled study
+		?b: MP
+		?c: HQ
+
+
+label:    sent_13
+sentence: These three bacteria could completely mineralize acetochlor by the cooperative metabolism .
+
+ppatt:
+	?a could completely mineralize ?b by ?c
+		?a: These three bacteria
+		?b: acetochlor
+		?c: the cooperative metabolism
+
+
+label:    sent_14
+sentence: The moderately halophilic bacteria Halomonas halophila mineralize calcium carbonate in the calcite polymorph .
+
+ppatt:
+	?a mineralize ?b in ?c
+		?a: The moderately halophilic bacteria
+		?b: calcium carbonate
+		?c: the calcite polymorph
+
+
+label:    sent_15
+sentence: Fungi can extensively degrade or mineralize a variety of nitroaromatic compounds .
+
+ppatt:
+	?a can extensively degrade ?b
+		?a: Fungi
+		?b: a variety of nitroaromatic compounds
+	?a mineralize
+		?a: Fungi
+
+
+label:    sent_16
+sentence: Cells grown in ascorbate and beta-glycerophosphate produce alkaline phosphatase and osteocalcin and mineralize matrix .
+
+ppatt:
+	?a grown in ?b
+		?a: Cells
+		?b: ascorbate
+	?a grown in ?b
+		?a: Cells
+		?b: beta-glycerophosphate
+	?a produce ?b
+		?a: Cells grown in ascorbate and beta-glycerophosphate
+		?b: alkaline phosphatase
+	?a produce ?b
+		?a: Cells grown in ascorbate and beta-glycerophosphate
+		?b: osteocalcin
+	?a produce ?b
+		?a: Cells grown in ascorbate and beta-glycerophosphate
+		?b: mineralize matrix
+
+
+label:    sent_17
+sentence: Young-donor hOBs grew more quickly than old-donor hOBs and did not mineralize .
+
+ppatt:
+	?a grew more quickly than ?b
+		?a: Young-donor hOBs
+		?b: old-donor hOBs
+	?a did not mineralize
+		?a: Young-donor hOBs
+
+
+label:    sent_18
+sentence: Matrix vesicles isolated from tendons mineralize in vitro .
+
+ppatt:
+	?a isolated from ?b
+		?a: Matrix vesicles
+		?b: tendons mineralize in vitro
+	?a mineralize in vitro
+		?a: tendons
+
+
+label:    sent_19
+sentence: This nidus can then mineralize if the balance of pro-mineralizing factors outweighs inhibitory factors .
+
+ppatt:
+	?a can then mineralize
+		?a: This nidus
+	?a outweighs ?b
+		?a: the balance of pro-mineralizing factors
+		?b: inhibitory factors
+
+
+label:    sent_20
+sentence: Only in the presence of organic phosphate did they mineralize .
+
+ppatt:
+	in of ?a did ?b mineralize
+		?a: Only organic phosphate
+		?b: they
+
+
+label:    sent_21
+sentence: Enamel matrix secreted in the presence of fluoride did not mineralize . UMR106-01 BSP cultures consistently form bone-like mineral , whereas the UI subclone mineralize gradually .
+
+ppatt:
+	?a secreted in of ?b
+		?a: Enamel matrix
+		?b: fluoride
+	?a did not mineralize
+		?a: Enamel matrix secreted in of fluoride
+	?a consistently form ?b
+		?a: UMR106-01 BSP cultures
+		?b: bone-like mineral
+	?a mineralize gradually
+		?a: the UI subclone
+
+
+label:    sent_22
+sentence: Circulating osteoprogenitor cells mineralize in vitro and in vivo .
+
+ppatt:
+	?a mineralize in vitro and in vivo
+		?a: Circulating osteoprogenitor cells
+
+
+label:    sent_23
+sentence: Those cells have the capacity to differentiate into osteoblasts and mineralize in vitro .
+
+ppatt:
+	?a have ?b
+		?a: Those cells
+		?b: the capacity to differentiate into osteoblasts and mineralize in vitro
+	?a differentiate into ?b in vitro
+		?a: the capacity
+		?b: osteoblasts
+	?a differentiate into ?b in vitro
+		?a: the capacity
+		?b: mineralize
+
+

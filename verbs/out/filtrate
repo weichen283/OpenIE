@@ -1,0 +1,117 @@
+label:    sent_1
+sentence: The HEPA filter could filtrate 99.99 % simulating viruses in the air . Furthermore , as we did not filtrate the drugs before filling , we speculate that ampule fragments could have provoked the rupture .
+
+ppatt:
+	?a could filtrate ?b . Furthermore
+		?a: The HEPA filter
+		?b: 99.99 % simulating viruses in the air
+	?a did not filtrate ?b before ?c
+		?a: we
+		?b: the drugs
+		?c: filling
+	?a speculate ?b
+		?a: we
+		?b: SOMETHING := ampule fragments could have provoked the rupture
+	?a could have provoked ?b
+		?a: ampule fragments
+		?b: the rupture
+
+
+label:    sent_2
+sentence: According to the given contextual restrictions , 2L-SEM can filtrate the illegal and invalid mobile codes contained in tags .
+
+ppatt:
+	According to ?a , ?b can filtrate ?c
+		?a: the given contextual restrictions
+		?b: 2L-SEM
+		?c: the illegal and invalid mobile codes contained in tags
+	?a contained in ?b
+		?a: the illegal and invalid mobile codes
+		?b: tags
+
+
+label:    sent_3
+sentence: It is suggested that the percolate did not filtrate downwards evenly , part of percolate filtrates downwards along stems , roots and cracks existing in dried sludge which have lower flow resistance .
+
+ppatt:
+	?a is suggested ?b
+		?a: It
+		?b: SOMETHING := the percolate did not filtrate
+	?a did not filtrate
+		?a: the percolate
+	?a downwards evenly , part of ?b downwards along ?c
+		?a: the percolate
+		?b: percolate filtrates
+		?c: stems
+	?a downwards evenly , part of ?b downwards along ?c
+		?a: the percolate
+		?b: percolate filtrates
+		?c: roots
+	?a downwards evenly , part of ?b downwards along ?c
+		?a: the percolate
+		?b: percolate filtrates
+		?c: cracks existing in dried sludge which have lower flow resistance
+	?a existing in ?b
+		?a: cracks
+		?b: dried sludge which have lower flow resistance
+	?a have ?b
+		?a: dried sludge
+		?b: lower flow resistance
+
+
+label:    sent_4
+sentence: Then , blue-white selection and T7/SP6 PCR was used to screen the positive clones , the target DNA and the express vector pRNAT-U6.2 were cut down by BamHI and XhoI restriction enzyme , and linked with each other ; use PCR test to filtrate the positive clones and sequenced the target DNA , then transfected it into human small lung cancer cell line ( NCI-H446 ) , cultured and screened by G418 , RT-PCR was used to detect the expression level of AKT2 mRNA in NCI-H446 .
+
+ppatt:
+	Then , ?a was used to screen ?b
+		?a: blue-white selection
+		?b: the positive clones
+	Then , ?a was used to screen ?b
+		?a: T7/SP6 PCR
+		?b: the positive clones
+	?a is/are the target DNA
+		?a: the positive clones
+	?a were cut down by ?b
+		?a: the express vector pRNAT-U6.2
+		?b: BamHI
+	?a were cut down by ?b
+		?a: the express vector pRNAT-U6.2
+		?b: XhoI restriction enzyme
+	?a linked with ?b
+		?a: blue-white selection
+		?b: each other
+	?a linked with ?b
+		?a: T7/SP6 PCR
+		?b: each other
+	?a use ?b to filtrate ?c
+		?a: blue-white selection
+		?b: PCR test
+		?c: the positive clones
+	?a use ?b to filtrate ?c
+		?a: T7/SP6 PCR
+		?b: PCR test
+		?c: the positive clones
+	?a sequenced ?b
+		?a: blue-white selection
+		?b: the target DNA
+	?a sequenced ?b
+		?a: T7/SP6 PCR
+		?b: the target DNA
+	?a then transfected ?b into ?c
+		?a: blue-white selection
+		?b: it
+		?c: human small lung cancer cell line , cultured and screened by G418
+	?a then transfected ?b into ?c
+		?a: T7/SP6 PCR
+		?b: it
+		?c: human small lung cancer cell line , cultured and screened by G418
+	?a is/are NCI-H446
+		?a: human small lung cancer cell line , cultured and screened by G418
+	?a cultured by ?b
+		?a: human small lung cancer cell line
+		?b: G418
+	?a was used to detect ?b
+		?a: RT-PCR
+		?b: the expression level of AKT2 mRNA in NCI-H446
+
+

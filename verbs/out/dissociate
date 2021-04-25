@@ -1,0 +1,318 @@
+label:    sent_1
+sentence: Subjective and objective learning effects dissociate in space and in time .
+
+ppatt:
+	?a dissociate in ?b
+		?a: Subjective and objective learning effects
+		?b: space
+	?a dissociate in ?b
+		?a: Subjective and objective learning effects
+		?b: time
+
+
+label:    sent_2
+sentence: In addition , paranodal protein complexes can dissociate with acrolein incubation .
+
+ppatt:
+	In ?a , ?b can dissociate with ?c
+		?a: addition
+		?b: paranodal protein complexes
+		?c: acrolein incubation
+
+
+label:    sent_3
+sentence: Some G protein heterotrimers physically dissociate in living cells .
+
+ppatt:
+	?a physically dissociate in ?b
+		?a: Some G protein heterotrimers
+		?b: living cells
+
+
+label:    sent_4
+sentence: Then nonlabelled antigen in one hundred fold excess was added to dissociate the complexes .
+
+ppatt:
+	?a was added to dissociate ?b
+		?a: Then nonlabelled antigen in one hundred fold excess
+		?b: the complexes
+
+
+label:    sent_5
+sentence: Inhibitors failed to dissociate the transport of Gs from G . 0.3 M NaCl is required to dissociate the proteoglycan PF4 complex .
+
+ppatt:
+	?a failed to dissociate ?b
+		?a: Inhibitors
+		?b: the transport of Gs from G
+	?a is required to dissociate ?b
+		?a: 0.3 M NaCl
+		?b: the proteoglycan PF4 complex
+
+
+label:    sent_6
+sentence: Subjecting the allergen to anion exchange chromatography induced the allergen to dissociate into trimers .
+
+ppatt:
+	Subjecting ?a to ?b
+		?a: the allergen
+		?b: anion exchange chromatography
+	?a induced ?b to dissociate into ?c
+		?a: SOMETHING := Subjecting the allergen to anion exchange chromatography
+		?b: the allergen
+		?c: trimers
+
+
+label:    sent_7
+sentence: The results support previous findings that sodium aurothiomalate appears to dissociate within cells .
+
+ppatt:
+	?a support ?b
+		?a: The results
+		?b: previous findings that sodium aurothiomalate appears to dissociate within cells
+	?a appears to dissociate within ?b
+		?a: sodium aurothiomalate
+		?b: cells
+
+
+label:    sent_8
+sentence: Extensive degradation also occurred when AVP was allowed to dissociate from the cells .
+
+ppatt:
+	?a also occurred
+		?a: Extensive degradation
+	when ?a was allowed to dissociate from ?b
+		?a: AVP
+		?b: the cells
+
+
+label:    sent_9
+sentence: A porous particle anion exchanger was unable to dissociate DNA from IgM .
+
+ppatt:
+	?a was unable to dissociate ?b from ?c
+		?a: A porous particle anion exchanger
+		?b: DNA
+		?c: IgM
+
+
+label:    sent_10
+sentence: Using fMRI to dissociate sensory encoding from cognitive evaluation of heat pain intensity .
+
+ppatt:
+	Using ?a
+		?a: fMRI
+	dissociate ?a
+		?a: sensory encoding from cognitive evaluation of heat pain intensity
+	?a encoding from ?b
+		?a: sensory
+		?b: cognitive evaluation of heat pain intensity
+
+
+label:    sent_11
+sentence: To dissociate sensory from motor goal representations , we used a memory-guided anti-reach task . Repetitive sequences dissociate at lower forces and elongate above a certain threshold force .
+
+ppatt:
+	dissociate ?a ?b
+		?a: sensory from motor goal representations
+		?b: we
+	?a used ?b
+		?a: we
+		?b: a memory-guided anti-reach task
+	?a dissociate at ?b
+		?a: Repetitive sequences
+		?b: lower forces
+	?a elongate above ?b
+		?a: Repetitive sequences
+		?b: a certain threshold force
+
+
+label:    sent_12
+sentence: These aggregates dissociate upon warming or by addition of GTP .
+
+ppatt:
+	?a dissociate upon ?b
+		?a: These aggregates
+		?b: warming
+	?a dissociate upon ?b
+		?a: These aggregates
+		?b: addition of GTP
+
+
+label:    sent_13
+sentence: With increasing ionic strength the polymers dissociate and the efficiency of energy transfer decreases .
+
+ppatt:
+	With ?a ?b dissociate ?c
+		?a: increasing ionic strength
+		?b: the polymers
+		?c: the efficiency of energy transfer decreases
+
+
+label:    sent_14
+sentence: Plasma Abeta levels alone did not dissociate DS adults with and without dementia .
+
+ppatt:
+	?a did not dissociate ?b ?c
+		?a: Plasma Abeta levels alone
+		?b: DS adults
+		?c: with and without dementia
+
+
+label:    sent_15
+sentence: Perception and action selection dissociate human ventral and dorsal cortex .
+
+ppatt:
+	?a dissociate ?b
+		?a: Perception
+		?b: human ventral
+	?a dissociate ?b
+		?a: action
+		?b: human ventral
+	?a dissociate ?b
+		?a: selection
+		?b: human ventral
+	?a dissociate ?b
+		?a: Perception
+		?b: dorsal
+	?a dissociate ?b
+		?a: action
+		?b: dorsal
+	?a dissociate ?b
+		?a: selection
+		?b: dorsal
+
+
+label:    sent_16
+sentence: Auditory evoked potentials dissociate rapid perceptual learning from task repetition without learning .
+
+ppatt:
+	?a dissociate ?b without ?c
+		?a: Auditory evoked potentials
+		?b: rapid perceptual learning from task repetition
+		?c: learning
+
+
+label:    sent_17
+sentence: These results dissociate two neuronal systems that underlie different numerosity judgements .
+
+ppatt:
+	?a dissociate ?b
+		?a: These results
+		?b: two neuronal systems that underlie different numerosity judgements
+	?a underlie ?b
+		?a: two neuronal systems
+		?b: different numerosity judgements
+
+
+label:    sent_18
+sentence: Do methanethiol adsorbates on the Au ( 111 ) surface dissociate ? Explicit suggestions to dissociate were generally effective in inducing higher levels of dissociation .
+
+ppatt:
+	?a is/are 111
+		?a: Au
+	Do ?a dissociate ? ?b were generally effective
+		?a: methanethiol adsorbates on the Au ) surface
+		?b: Explicit suggestions to dissociate
+	?a dissociate
+		?a: Explicit suggestions
+	?a inducing ?b
+		?a: methanethiol adsorbates on the Au ) surface
+		?b: higher levels of dissociation
+
+
+label:    sent_19
+sentence: Manipulations of attention dissociate fragile visual short-term memory from visual working memory .
+
+ppatt:
+	?a dissociate ?b
+		?a: Manipulations of attention
+		?b: fragile visual short-term memory from visual working memory
+
+
+label:    sent_20
+sentence: Treatment with lithium chloride did not dissociate it into subunits . ITP as a tool to dissociate the contraction mechanism from the regulatory mechanism .
+
+ppatt:
+	?a did not dissociate ?b into ?c ?d as ?e
+		?a: Treatment with lithium chloride
+		?b: it
+		?c: subunits
+		?d: ITP
+		?e: a tool to dissociate the contraction mechanism from the regulatory mechanism
+	?a dissociate ?b from ?c
+		?a: a tool
+		?b: the contraction mechanism
+		?c: the regulatory mechanism
+
+
+label:    sent_21
+sentence: Radiolabeled poly-L-lysine was shown to dissociate from coated coverslips and redistribute onto CL .
+
+ppatt:
+	?a was shown to dissociate from ?b
+		?a: Radiolabeled poly-L-lysine
+		?b: coated coverslips
+	?a was shown to redistribute onto ?b
+		?a: Radiolabeled poly-L-lysine
+		?b: CL
+
+
+label:    sent_22
+sentence: At approximately this time , the scleroblasts dissociate and " wart " formation begins .
+
+ppatt:
+	At ?a , ?b dissociate
+		?a: approximately this time
+		?b: the scleroblasts
+	?a begins
+		?a: " wart " formation
+
+
+label:    sent_23
+sentence: Moreover , the complexes are extremely stable and do not dissociate after 90 min .
+
+ppatt:
+	Moreover , ?a are extremely stable
+		?a: the complexes
+	?a do not dissociate after ?b
+		?a: the complexes
+		?b: 90 min
+
+
+label:    sent_24
+sentence: Antidepressant drugs can slow or dissociate circadian rhythms .
+
+ppatt:
+	?a can slow ?b
+		?a: Antidepressant drugs
+		?b: circadian rhythms
+	?a dissociate
+		?a: Antidepressant drugs
+
+
+label:    sent_25
+sentence: This reaction inactivates the enzyme in solution and does not dissociate the molecular complex .
+
+ppatt:
+	?a inactivates ?b in ?c
+		?a: This reaction
+		?b: the enzyme
+		?c: solution
+	?a does not dissociate ?b
+		?a: This reaction
+		?b: the molecular complex
+
+
+label:    sent_26
+sentence: RP 59794 blocks complex formation and can partially dissociate established TIMP : collagenase complexes .
+
+ppatt:
+	?a blocks ?b
+		?a: RP 59794
+		?b: complex formation
+	?a can partially dissociate ?b
+		?a: RP 59794
+		?b: established TIMP : collagenase complexes
+
+

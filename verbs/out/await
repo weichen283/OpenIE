@@ -1,0 +1,298 @@
+label:    sent_1
+sentence: Definitive recommendations regarding surgery and adjuvant therapies await additional reports and long-term follow-up .
+
+ppatt:
+	?a await ?b
+		?a: Definitive recommendations regarding surgery and adjuvant therapies
+		?b: additional reports
+	?a await ?b
+		?a: Definitive recommendations regarding surgery and adjuvant therapies
+		?b: long-term follow-up
+
+
+label:    sent_2
+sentence: More definitive conclusions on treatment effect await further well-conducted randomised controlled trials . These , however , still await identification .
+
+ppatt:
+	?a await ?b
+		?a: More definitive conclusions on treatment effect
+		?b: further well-conducted randomised controlled trials
+	?a however , still await ?b
+		?a: These
+		?b: identification
+
+
+label:    sent_3
+sentence: However , Somaliland continues to await international recognition .
+
+ppatt:
+	However , ?a continues to await ?b
+		?a: Somaliland
+		?b: international recognition
+
+
+label:    sent_4
+sentence: There is no specific treatment , which must await further research into causes .
+
+ppatt:
+	There is ?a
+		?a: no specific treatment , which must await further research into causes
+	?a must await ?b
+		?a: no specific treatment
+		?b: further research into causes
+
+
+label:    sent_5
+sentence: Preventive measures have to await the clarification of the mechanisms underlying neural degeneration .
+
+ppatt:
+	?a have to await ?b
+		?a: Preventive measures
+		?b: the clarification of the mechanisms underlying neural degeneration
+	?a underlying ?b
+		?a: the mechanisms
+		?b: neural degeneration
+
+
+label:    sent_6
+sentence: However , there was not a linear dose-response and these findings await replication .
+
+ppatt:
+	However , there was not ?a
+		?a: a linear dose-response
+	?a await ?b
+		?a: these findings
+		?b: replication
+
+
+label:    sent_7
+sentence: Ten patients had surgery , 12 had transcatheter ASD closure and six await treatment .
+
+ppatt:
+	?a had ?b
+		?a: Ten patients
+		?b: surgery
+	?a had ?b
+		?a: 12
+		?b: transcatheter ASD closure
+	?a await ?b
+		?a: six
+		?b: treatment
+
+
+label:    sent_8
+sentence: They await testing and validation and will be revised as more information becomes available .
+
+ppatt:
+	?a await ?b
+		?a: They
+		?b: testing
+	?a await ?b
+		?a: They
+		?b: validation
+	?a will be revised as ?b
+		?a: They
+		?b: more information
+	?a becomes available
+		?a: They
+
+
+label:    sent_9
+sentence: Other findings in the three plants await clarification by analyses of exposure-response relationships .
+
+ppatt:
+	?a await ?b
+		?a: Other findings in the three plants
+		?b: clarification by analyses of exposure-response relationships
+
+
+label:    sent_10
+sentence: Despite the promising characteristics of this drug , important issues await consideration .
+
+ppatt:
+	Despite ?a , ?b await ?c
+		?a: the promising characteristics of this drug
+		?b: important issues
+		?c: consideration
+
+
+label:    sent_11
+sentence: In addition , gamma-secretase inhibitor strategies await clinical improvements in AD .
+
+ppatt:
+	In ?a , ?b await ?c
+		?a: addition
+		?b: gamma-secretase inhibitor strategies
+		?c: clinical improvements in AD
+
+
+label:    sent_12
+sentence: Demographers ponder the aging of the aged and await unprecedented looming elder boom .
+
+ppatt:
+	?a ponder ?b
+		?a: Demographers
+		?b: the aging of the aged
+	?a await ?b
+		?a: Demographers
+		?b: unprecedented looming elder boom
+
+
+label:    sent_13
+sentence: Whether this pertains to etiopathogenesis is speculative and will await information not yet available .
+
+ppatt:
+	?a pertains to ?b
+		?a: this
+		?b: etiopathogenesis
+	?a is speculative
+		?a: SOMETHING := this pertains to etiopathogenesis
+	?a will await ?b
+		?a: this pertains to etiopathogenesis
+		?b: information not yet available
+
+
+label:    sent_14
+sentence: Early findings are encouraging but await verification , refinement , and extension .
+
+ppatt:
+	?a are encouraging
+		?a: Early findings
+	?a await ?b
+		?a: Early findings
+		?b: verification
+	?a await ?b
+		?a: Early findings
+		?b: refinement
+	?a await ?b
+		?a: Early findings
+		?b: extension
+
+
+label:    sent_15
+sentence: Obstetricians still await a deus ex machina . Many challenges await .
+
+ppatt:
+	?a still await ?b
+		?a: Obstetricians
+		?b: a deus ex machina
+	?a await
+		?a: Many challenges
+
+
+label:    sent_16
+sentence: Docs await CMS referral changes -- whatever they are . Despite this plethora of functions , many TOMMs await experimental interrogation .
+
+ppatt:
+	?a await ?b
+		?a: Docs
+		?b: CMS referral changes
+	?a are Despite this plethora of ?b
+		?a: they
+		?b: functions
+	Despite ?a , ?b await ?c
+		?a: they are this plethora of functions
+		?b: many TOMMs
+		?c: experimental interrogation
+
+
+label:    sent_17
+sentence: We need to await full results from the RCTs before we can be certain .
+
+ppatt:
+	?a need to await ?b
+		?a: We
+		?b: full results from the RCTs
+	?a can be certain
+		?a: we
+
+
+label:    sent_18
+sentence: The transbodies await further studies for in vivo role in inhibiting HCV replication .
+
+ppatt:
+	?a await ?b
+		?a: The transbodies
+		?b: further studies for in role in inhibiting HCV replication
+	?a inhibiting ?b
+		?a: in role
+		?b: HCV replication
+
+
+label:    sent_19
+sentence: Along this journey , many obstacles await the retrovirus particle and undermine its infectivity .
+
+ppatt:
+	Along ?a , ?b await ?c
+		?a: this journey
+		?b: many obstacles
+		?c: the retrovirus particle
+	?a undermine ?b
+		?a: many obstacles
+		?b: its infectivity
+
+
+label:    sent_20
+sentence: The remarkable squidworm is an example of discoveries that await in deep-pelagic habitats .
+
+ppatt:
+	?a is an example of ?b
+		?a: The remarkable squidworm
+		?b: discoveries that await in deep-pelagic habitats
+	?a await in ?b
+		?a: discoveries
+		?b: deep-pelagic habitats
+
+
+label:    sent_21
+sentence: The advances achieved so far now await for clinical applications .
+
+ppatt:
+	?a achieved so
+		?a: The advances
+	?a far now await for ?b
+		?a: The advances achieved so
+		?b: clinical applications
+
+
+label:    sent_22
+sentence: A great opportunity may await you as editor of Journal of Pediatric Health Care .
+
+ppatt:
+	?a may await ?b as ?c
+		?a: A great opportunity
+		?b: you
+		?c: editor of Journal of Pediatric Health Care
+
+
+label:    sent_23
+sentence: Multiple approaches have been developed but await confirmation regarding their effectiveness in future studies .
+
+ppatt:
+	?a have been developed
+		?a: Multiple approaches
+	?a await ?b regarding ?c
+		?a: Multiple approaches
+		?b: confirmation
+		?c: their effectiveness in future studies
+
+
+label:    sent_24
+sentence: Who knows what ' unknown unknowns ' await us in 2010 and beyond .
+
+ppatt:
+	?a knows ?b
+		?a: Who
+		?b: SOMETHING := what ' unknown unknowns ' await us in 2010 and beyond
+	?a ?b await ?c in ?d
+		?a: what
+		?b: unknown unknowns
+		?c: us
+		?d: 2010
+	?a ?b await ?c in ?d
+		?a: what
+		?b: unknown unknowns
+		?c: us
+		?d: beyond
+
+

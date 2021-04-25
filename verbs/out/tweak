@@ -1,0 +1,283 @@
+label:    sent_1
+sentence: With an anticipated spate of new products still on the horizon and the need to focus now on Medicare 's new drug benefit , health plans and employers are more likely to tweak than overhaul biologics coverage in 2006 .
+
+ppatt:
+	?a focus now on 's ?b
+		?a: the need
+		?b: Medicare new drug benefit
+	With ?a , ?b are more likely to tweak than ?c
+		?a: an anticipated spate of new products still on the horizon
+		?b: health plans
+		?c: overhaul biologics coverage in 2006
+	With ?a , ?b are more likely to tweak than ?c
+		?a: the need to focus now on Medicare 's new drug benefit
+		?b: health plans
+		?c: overhaul biologics coverage in 2006
+	With ?a , ?b are more likely to tweak than ?c
+		?a: an anticipated spate of new products still on the horizon
+		?b: employers
+		?c: overhaul biologics coverage in 2006
+	With ?a , ?b are more likely to tweak than ?c
+		?a: the need to focus now on Medicare 's new drug benefit
+		?b: employers
+		?c: overhaul biologics coverage in 2006
+
+
+label:    sent_2
+sentence: Glycolysis at 75 : is it time to tweak the first elucidated metabolic pathway in history ? Alas , our near-total ignorance of what times the aging process makes it hard to guess what genes to tweak , if indeed aging can be mimicked a presto .
+
+ppatt:
+	?a is ?b to tweak ?c ?d
+		?a: Glycolysis at 75
+		?b: it time
+		?c: the first elucidated metabolic pathway in history
+		?d: Alas
+	?a is ?b to tweak ?c ?d
+		?a: Glycolysis at 75
+		?b: it time
+		?c: the first elucidated metabolic pathway in history
+		?d: our near-total ignorance
+	?a ?b makes ?c hard to guess ?d
+		?a: of what times
+		?b: the aging process
+		?c: it
+		?d: SOMETHING := what genes to tweak
+	?a ?b tweak
+		?a: what
+		?b: genes
+	indeed ?a can be mimicked a presto
+		?a: aging
+
+
+label:    sent_3
+sentence: Our attempts to tweak the Standard Model to deal with lack of recognition of hybrid class II alleles led us , by surprise , to a quite different framework with which to view TCR function .
+
+ppatt:
+	?a tweak ?b
+		?a: Our attempts
+		?b: the Standard Model to deal with lack of recognition of hybrid class II alleles
+	?a deal with ?b
+		?a: the Standard Model
+		?b: lack of recognition of hybrid class II alleles
+	?a led ?b , to ?c
+		?a: Our attempts to tweak the Standard Model to deal with lack of recognition of hybrid class II alleles
+		?b: us
+		?c: a quite different framework with which to view TCR function
+	?a by surprise
+		?a: Our attempts to tweak the Standard Model to deal with lack of recognition of hybrid class II alleles
+	?a with to view ?b
+		?a: a quite different framework
+		?b: TCR function
+
+
+label:    sent_4
+sentence: Variations in intrinsic and extrinsic factors tweak the sensitivity of the amygdala , giving rise to differences in behavior between individuals .
+
+ppatt:
+	?a tweak ?b
+		?a: Variations in intrinsic and extrinsic factors
+		?b: the sensitivity of the amygdala
+	?a giving ?b
+		?a: Variations in intrinsic and extrinsic factors
+		?b: rise to differences in behavior between individuals
+
+
+label:    sent_5
+sentence: Such networks often tweak natural regulatory mechanisms , or ' switches ' , in order to achieve the desired function .
+
+ppatt:
+	?a often tweak ?b
+		?a: Such networks
+		?b: natural regulatory mechanisms
+	?a order to achieve ?b
+		?a: Such networks
+		?b: the desired function
+
+
+label:    sent_6
+sentence: Grabbing for the ring : macrocycles tweak the conventions of drug making .
+
+ppatt:
+	Grabbing for ?a
+		?a: the ring
+
+
+label:    sent_7
+sentence: Taking the epigenetic code-as-software analogy a step further , if chemoresistance is the product of multiple nongenetic alterations , which develop and accumulate over time in response to treatment , then the possibility to hack or tweak the operating system and fall back on a " system restore " or " undo " feature , like the arrow icon in the Windows XP toolbar , reconfiguring the tumor to its baseline nonresistant state , holds tremendous promise for turning advanced , metastatic cancer from a fatal disease into a chronic , livable condition . IPCC : cherish it , tweak it or scrap it ? Time to tweak the TTO : results from a comparison of alternative specifications of the TTO .
+
+ppatt:
+	Taking ?a ?b further
+		?a: the epigenetic code-as-software analogy
+		?b: a step
+	?a is the product of ?b
+		?a: chemoresistance
+		?b: multiple nongenetic alterations
+	?a develop to ?b
+		?a: the product of multiple nongenetic alterations
+		?b: treatment
+	?a accumulate over ?b in ?c
+		?a: which
+		?b: time
+		?c: response
+	?a hack ?b
+		?a: the possibility
+		?b: the operating system
+	hack ?a ?b
+		?a: the operating system
+		?b: fall back on a " system
+	?a tweak
+		?a: the possibility
+	tweak ?a
+		?a: fall back on a " system
+	then ?a restore ?b
+		?a: the possibility to hack or tweak the operating system
+		?b: "
+	then ?a restore ?b
+		?a: fall back on a " system
+		?b: "
+	then ?a restore ?b
+		?a: the possibility to hack or tweak the operating system
+		?b: "
+	then ?a restore ?b
+		?a: fall back on a " system
+		?b: "
+	?a undo ?b
+		?a: the possibility to hack or tweak the operating system
+		?b: " feature
+	?a undo ?b
+		?a: fall back on a " system
+		?b: " feature
+	?a reconfiguring ?b to ?c
+		?a: XP toolbar
+		?b: the tumor
+		?c: its baseline nonresistant state
+	?a like ?b , holds ?c
+		?a: the possibility to hack or tweak the operating system
+		?b: the arrow icon in the Windows XP toolbar , reconfiguring the tumor to its baseline nonresistant state
+		?c: tremendous promise for turning advanced , cancer from a fatal disease into a chronic , condition
+	?a like ?b , holds ?c
+		?a: fall back on a " system
+		?b: the arrow icon in the Windows XP toolbar , reconfiguring the tumor to its baseline nonresistant state
+		?c: tremendous promise for turning advanced , cancer from a fatal disease into a chronic , condition
+	?a turning ?b into ?c
+		?a: tremendous promise
+		?b: advanced , cancer from a fatal disease
+		?c: a chronic , condition
+	?a tweak ?b
+		?a: cherish it tweak it or scrap it ? Time
+		?b: the TTO
+
+
+label:    sent_8
+sentence: How to tweak a beak : molecular techniques for studying the evolution of size and shape in Darwin 's finches and other birds .
+
+ppatt:
+	How to tweak ?a
+		?a: a beak
+	?a studying ?b
+		?a: molecular techniques
+		?b: the evolution of size and shape in Darwin 's finches and other birds
+
+
+label:    sent_9
+sentence: Because at least some advanced tumors remain significantly immunogenic , these new studies add a tweak to the immunoediting hypothesis as well as a rationale to block immunosuppressive mechanisms as a first-line intervention in cancer patients .
+
+ppatt:
+	?a remain significantly immunogenic
+		?a: at least some advanced tumors
+	?a add ?b to ?c
+		?a: these new studies
+		?b: a tweak
+		?c: the immunoediting hypothesis
+	?a add ?b to ?c
+		?a: these new studies
+		?b: a tweak
+		?c: a rationale to block immunosuppressive mechanisms as a first-line intervention in cancer patients
+	?a block ?b as ?c
+		?a: a rationale
+		?b: immunosuppressive mechanisms
+		?c: a first-line intervention in cancer patients
+
+
+label:    sent_10
+sentence: We have been trying to imitate , utilize and tweak this system to our advantage by using slightly overlapping and greatly interdependent approaches such as metabolic engineering and systems biology to make nature work for us in an efficient and robust way , without producing toxic waste and/or unnecessary side products .
+
+ppatt:
+	?a have been trying to imitate , to ?b
+		?a: We
+		?b: our advantage
+	?a have been trying to , utilize ?b
+		?a: We
+		?b: this system
+	?a have been trying to , tweak
+		?a: We
+	?a using ?b
+		?a: We
+		?b: slightly overlapping and greatly interdependent approaches such as metabolic engineering and systems biology
+	?a make ?b in ?c
+		?a: We
+		?b: nature work for us
+		?c: an efficient and robust way
+	?a producing ?b
+		?a: We
+		?b: toxic waste
+	?a producing ?b
+		?a: We
+		?b: unnecessary side products
+
+
+label:    sent_11
+sentence: Researchers tweak " bad " compounds into good medicines .
+
+ppatt:
+	?a tweak " ?b into ?c
+		?a: Researchers
+		?b: bad " compounds
+		?c: good medicines
+
+
+label:    sent_12
+sentence: In present-day times , freely available software allows dentists to tweak their digital records as never before .
+
+ppatt:
+	In ?a , ?b allows ?c to tweak ?d as never before
+		?a: present-day times
+		?b: freely available software
+		?c: dentists
+		?d: their digital records
+
+
+label:    sent_13
+sentence: We have hypothesized that AI-2 signaling " conditions " cells as a natural consequence of cell-to-cell communication and that this could tweak the signal transduction cascade to alter the protein synthesis landscape .
+
+ppatt:
+	?a have hypothesized ?b
+		?a: We
+		?b: SOMETHING := AI-2 signaling " conditions " cells as a natural consequence of cell-to-cell communication
+	?a AI-2 signaling " ?b
+		?a: We
+		?b: conditions " cells as a natural consequence of cell-to-cell communication
+	?a could tweak ?b to alter ?c
+		?a: this
+		?b: the signal transduction cascade
+		?c: the protein synthesis landscape
+
+
+label:    sent_14
+sentence: This article is an abridged version of the history of aspirin that should tweak the interest of pharmacists and anyone interested in a fascinating true-life account of one of the most widely used medications in history .
+
+ppatt:
+	?a is an abridged version of ?b
+		?a: This article
+		?b: the history of aspirin
+	?a should tweak ?b
+		?a: an abridged version of the history of aspirin
+		?b: the interest of pharmacists
+	should tweak ?a ?b
+		?a: the interest of pharmacists
+		?b: anyone interested in a fascinating true-life account of one of the most widely used medications in history
+	?a interested in ?b
+		?a: anyone
+		?b: a fascinating true-life account of one of the most widely used medications in history
+
+

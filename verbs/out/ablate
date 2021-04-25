@@ -1,0 +1,249 @@
+label:    sent_1
+sentence: Single pulses have been used to ablate fresh porcine ocular tissue .
+
+ppatt:
+	?a have been used to ablate ?b
+		?a: Single pulses
+		?b: fresh porcine ocular tissue
+
+
+label:    sent_2
+sentence: Treatment animals received liposome-encapsulated clodronate , 2 days before rupture to ablate phagocytosing macrophages .
+
+ppatt:
+	?a received ?b to ablate ?c
+		?a: Treatment animals
+		?b: liposome-encapsulated clodronate
+		?c: phagocytosing macrophages
+	?a is/are 2 days before ?b
+		?a: liposome-encapsulated clodronate
+		?b: rupture
+
+
+label:    sent_3
+sentence: Many modalities have been used to ablate Barrett 's oesophagus ( BO ) . Radiofrequency probes were used to ablate bovine livers from 20degreesC to 98degreesC .
+
+ppatt:
+	?a have been used to ablate 's ?b
+		?a: Many modalities
+		?b: Barrett oesophagus
+	?a is/are BO
+		?a: Barrett oesophagus
+	?a were used to ablate ?b
+		?a: Radiofrequency probes
+		?b: bovine livers from 20degreesC to 98degreesC
+
+
+label:    sent_4
+sentence: We describe a technique to ablate posterior urethral valves with a Fogarty balloon catheter .
+
+ppatt:
+	?a describe ?b
+		?a: We
+		?b: a technique to ablate posterior urethral valves with a Fogarty balloon catheter
+	?a ablate ?b with ?c
+		?a: a technique
+		?b: posterior urethral valves
+		?c: a Fogarty balloon catheter
+
+
+label:    sent_5
+sentence: The technique offers the potential to ablate discrete tumor nodules within the liver .
+
+ppatt:
+	?a offers ?b
+		?a: The technique
+		?b: the potential to ablate discrete tumor nodules within the liver
+	?a ablate ?b
+		?a: the potential
+		?b: discrete tumor nodules within the liver
+
+
+label:    sent_6
+sentence: Failure to ablate the adrenal gland by injection of contrast material .
+
+ppatt:
+	?a ablate ?b by ?c
+		?a: Failure
+		?b: the adrenal gland
+		?c: injection of contrast material
+
+
+label:    sent_7
+sentence: Bipolar radiofrequency treatment will ablate nerve fibers , resulting in pain relief .
+
+ppatt:
+	?a will ablate ?b
+		?a: Bipolar radiofrequency treatment
+		?b: nerve fibers
+	?a resulting in ?b
+		?a: Bipolar radiofrequency treatment
+		?b: pain relief
+
+
+label:    sent_8
+sentence: The pro-inflammatory cytokines IFN-gamma and TNF-alpha did not ablate MSC mediated immunosuppression .
+
+ppatt:
+	?a did not ablate ?b
+		?a: The pro-inflammatory cytokines
+		?b: MSC mediated immunosuppression
+
+
+label:    sent_9
+sentence: Through an endoscope the laser was observed to soften and ablate the methyl methacrylate .
+
+ppatt:
+	Through ?a ?b was observed to soften ?c
+		?a: an endoscope
+		?b: the laser
+		?c: the methyl methacrylate
+	?a was observed to ablate
+		?a: the laser
+
+
+label:    sent_10
+sentence: It can degrade and ablate the remaining apocrine glands and eliminate causative organisms .
+
+ppatt:
+	?a can degrade ?b
+		?a: It
+		?b: the remaining apocrine glands
+	?a ablate
+		?a: It
+	?a eliminate ?b
+		?a: It
+		?b: causative organisms
+
+
+label:    sent_11
+sentence: Mutation compensation relies on strategies to ablate activated oncogenes or augment tumor-suppressor gene expression .
+
+ppatt:
+	?a relies on ?b
+		?a: Mutation compensation
+		?b: strategies to ablate activated oncogenes or augment tumor-suppressor gene expression
+	?a ablate ?b
+		?a: strategies
+		?b: activated oncogenes
+	augment ?a
+		?a: tumor-suppressor gene expression
+
+
+label:    sent_12
+sentence: The underlying biochemical mechanisms of how these mutations ablate activity are poorly understood .
+
+ppatt:
+	?a how ?b ablate ?c
+		?a: The underlying biochemical mechanisms
+		?b: these mutations
+		?c: activity
+	?a are poorly understood
+		?a: The underlying biochemical mechanisms of how these mutations ablate activity
+
+
+label:    sent_13
+sentence: Kinase inhibitors ablate ErbB2 phosphorylation without dispersing clusters .
+
+ppatt:
+	?a ablate ?b
+		?a: Kinase inhibitors
+		?b: ErbB2 phosphorylation
+	?a dispersing ?b
+		?a: Kinase inhibitors
+		?b: clusters
+
+
+label:    sent_14
+sentence: Endogenously expressed multimeric self-cleaving hammerhead ribozymes ablate mutant collagen in cellulo .
+
+ppatt:
+	?a ablate ?b in ?c
+		?a: Endogenously expressed multimeric self-cleaving hammerhead ribozymes
+		?b: mutant collagen
+		?c: cellulo
+
+
+label:    sent_15
+sentence: Tachycardia-induced cardiomyopathy , without the tachycardia : yet another reason to ablate atrial fibrillation ! Ability of high-intensity ultrasound to ablate human atherosclerotic plaques and minimize debris size .
+
+ppatt:
+	?a ablate ?b ! ?c
+		?a: yet another reason
+		?b: atrial fibrillation
+		?c: Ability of high-intensity ultrasound to ablate human atherosclerotic plaques and minimize debris size
+	?a ablate ?b
+		?a: Ability of high-intensity ultrasound
+		?b: human atherosclerotic plaques
+	minimize ?a
+		?a: debris size
+
+
+label:    sent_16
+sentence: Equivalent mutations in Fbxo7 ablate interaction with PI31 and also block Fbxo7 homodimerization .
+
+ppatt:
+	?a ablate ?b
+		?a: Equivalent mutations in Fbxo7
+		?b: interaction with PI31
+	?a also block ?b
+		?a: Equivalent mutations in Fbxo7
+		?b: Fbxo7 homodimerization
+
+
+label:    sent_17
+sentence: To ablate or not : a proposal regarding nomenclature .
+
+ppatt:
+
+
+
+label:    sent_18
+sentence: Laser energy is able to ablate , coagulate , and vaporize tissues . Mastoidectomy elimination : obliterate , reconstruct , or ablate ? Should we embrace or ablate our urge to ( ovarian ) suppress ?
+
+ppatt:
+	?a is able to ablate ?b ?c
+		?a: Laser energy
+		?b: vaporize tissues
+		?c: Mastoidectomy elimination
+	Should ?a embrace ?b
+		?a: we
+		?b: our urge
+	?a ablate
+		?a: we
+	?a suppress
+		?a: we
+
+
+label:    sent_19
+sentence: The erbium laser continued to ablate with increasing applied energy .
+
+ppatt:
+	?a continued to ablate with ?b
+		?a: The erbium laser
+		?b: increasing applied energy
+
+
+label:    sent_20
+sentence: We tested a new method using " cryo-mapping " to ablate despite nerve proximity .
+
+ppatt:
+	?a tested ?b
+		?a: We
+		?b: a new method using " cryo-mapping " to ablate despite nerve proximity
+	?a using ?b
+		?a: a new method
+		?b: " cryo-mapping "
+	ablate despite ?a
+		?a: nerve proximity
+
+
+label:    sent_21
+sentence: Thus , it is possible to ablate with radioiodine .
+
+ppatt:
+	Thus , ?a is possible to ablate with ?b
+		?a: it
+		?b: radioiodine
+
+

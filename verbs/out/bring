@@ -1,0 +1,362 @@
+label:    sent_1
+sentence: Texas case elevates issue of protecting those who bring problems to light .
+
+ppatt:
+	?a elevates ?b
+		?a: Texas case
+		?b: issue of protecting those who bring problems to light
+	?a protecting ?b
+		?a: issue
+		?b: those who bring problems to light
+	?a bring ?b
+		?a: those
+		?b: problems to light
+
+
+label:    sent_2
+sentence: They work to bring investigators together in a collaborative manner .
+
+ppatt:
+	?a work to bring ?b in ?c
+		?a: They
+		?b: investigators
+		?c: together a collaborative manner
+
+
+label:    sent_3
+sentence: Kaulbersz birth with intention to bring his fundamental discoveries to younger physiologists and pharmacologists .
+
+ppatt:
+	?a bring ?b
+		?a: Kaulbersz birth with intention
+		?b: his fundamental discoveries to younger physiologists and pharmacologists
+
+
+label:    sent_4
+sentence: Modeling can bring insight on this difficult question .
+
+ppatt:
+	?a can bring ?b
+		?a: Modeling
+		?b: insight on this difficult question
+
+
+label:    sent_5
+sentence: Broad collaborations bring new energy to autism therapeutics .
+
+ppatt:
+	?a bring ?b
+		?a: Broad collaborations
+		?b: new energy to autism therapeutics
+
+
+label:    sent_6
+sentence: Internet addiction disorder may bring some pathological problems to the addicts in some ways .
+
+ppatt:
+	?a may bring ?b to ?c in ?d
+		?a: Internet addiction disorder
+		?b: some pathological problems
+		?c: the addicts
+		?d: some ways
+
+
+label:    sent_7
+sentence: That is what ultimately will bring effective treatments to those who need them .
+
+ppatt:
+	is ?a
+		?a: SOMETHING := That what ultimately will bring effective treatments to those who need them
+	?a ?b ultimately will bring ?c
+		?a: That
+		?b: what
+		?c: effective treatments to those who need them
+	?a need ?b
+		?a: those
+		?b: them
+
+
+label:    sent_8
+sentence: Theoretical models suggest that such health-related behaviors might also bring psychological benefits .
+
+ppatt:
+	?a suggest ?b
+		?a: Theoretical models
+		?b: SOMETHING := such health-related behaviors might also bring psychological benefits
+	?a might also bring ?b
+		?a: such health-related behaviors
+		?b: psychological benefits
+
+
+label:    sent_9
+sentence: Several studies bring evidence that action observation elicits contagious responses during social interactions .
+
+ppatt:
+	?a bring ?b
+		?a: Several studies
+		?b: evidence that action observation elicits contagious responses during social interactions
+	?a elicits ?b during ?c
+		?a: action observation
+		?b: contagious responses
+		?c: social interactions
+
+
+label:    sent_10
+sentence: New codes bring new guidelines for the lower revascularization procedures . Managing contracts and training staff to bring service in-house , when appropriate .
+
+ppatt:
+	?a bring ?b
+		?a: New codes
+		?b: new guidelines for the lower revascularization procedures
+	?a Managing ?b to bring ?c
+		?a: New codes
+		?b: contracts
+		?c: service in-house
+	?a Managing ?b to bring ?c
+		?a: New codes
+		?b: training staff
+		?c: service in-house
+	?a when appropriate
+		?a: New codes
+
+
+label:    sent_11
+sentence: Collaborative uses data to bring uniformity .
+
+ppatt:
+	?a uses ?b
+		?a: Collaborative
+		?b: data to bring uniformity
+	?a bring ?b
+		?a: data
+		?b: uniformity
+
+
+label:    sent_12
+sentence: Treatment included the administration of bis-phosphonates , which appeared to bring about marked improvement .
+
+ppatt:
+	?a included ?b
+		?a: Treatment
+		?b: the administration of bis-phosphonates , which appeared to bring about marked improvement
+	?a appeared to bring about ?b
+		?a: bis-phosphonates
+		?b: marked improvement
+
+
+label:    sent_13
+sentence: Do n't ignore what ADNs bring to nursing .
+
+ppatt:
+	Do n't ignore ?a
+		?a: SOMETHING := what ADNs bring to nursing
+	?a ?b bring to ?c
+		?a: what
+		?b: ADNs
+		?c: nursing
+
+
+label:    sent_14
+sentence: This unique water-dissolvable template is anticipated to bring about versatile and flexible downstream applications .
+
+ppatt:
+	?a is anticipated to bring about ?b
+		?a: This unique water-dissolvable template
+		?b: versatile and flexible downstream applications
+
+
+label:    sent_15
+sentence: Prokaryotic cytokinesis : little rings bring big cylindrical things .
+
+ppatt:
+
+
+
+label:    sent_16
+sentence: Internally generated states may bring about distinct cortical processing modes .
+
+ppatt:
+	?a may bring about ?b
+		?a: Internally generated states
+		?b: distinct cortical processing modes
+
+
+label:    sent_17
+sentence: Unrealistic idea of the body size can bring out various health risks .
+
+ppatt:
+	?a can bring out ?b
+		?a: Unrealistic idea of the body size
+		?b: various health risks
+
+
+label:    sent_18
+sentence: We wish to bring attention to this rare problem and discuss treatment .
+
+ppatt:
+	?a wish to bring ?b to ?c
+		?a: We
+		?b: attention
+		?c: this rare problem
+	?a discuss ?b
+		?a: We
+		?b: treatment
+
+
+label:    sent_19
+sentence: This helped to straighten the uterus and bring the fallopian tubes into view .
+
+ppatt:
+	?a helped to straighten ?b
+		?a: This
+		?b: the uterus
+	?a helped to bring ?b into ?c
+		?a: This
+		?b: the fallopian tubes
+		?c: view
+
+
+label:    sent_20
+sentence: There are trends to simplify these systems and bring them more into mutual accordance .
+
+ppatt:
+	There are ?a
+		?a: trends to simplify these systems
+	?a simplify ?b
+		?a: trends
+		?b: these systems
+	?a bring ?b more into ?c
+		?a: trends to simplify these systems
+		?b: them
+		?c: mutual accordance
+
+
+label:    sent_21
+sentence: Its care involves medical expertise , but may also bring different cultural challenges .
+
+ppatt:
+	?a involves ?b
+		?a: Its care
+		?b: medical expertise
+	?a may also bring ?b
+		?a: Its care
+		?b: different cultural challenges
+
+
+label:    sent_22
+sentence: The future will refine patient selection and bring better surgical techniques and prosthetic designs .
+
+ppatt:
+	?a will refine ?b
+		?a: The future
+		?b: patient selection
+	?a bring ?b
+		?a: The future
+		?b: better surgical techniques
+	?a bring ?b
+		?a: The future
+		?b: prosthetic designs
+
+
+label:    sent_23
+sentence: The endless debate could jeopardize public health rather than bring a final solution .
+
+ppatt:
+	?a could jeopardize ?b
+		?a: The endless debate
+		?b: public health
+	?a bring ?b
+		?a: The endless debate
+		?b: a final solution
+
+
+label:    sent_24
+sentence: Reflection and journaling bring insight and understanding to the process and promote growth .
+
+ppatt:
+	?a bring ?b
+		?a: Reflection
+		?b: insight to the process
+	?a bring ?b
+		?a: journaling
+		?b: insight to the process
+	?a bring ?b
+		?a: Reflection
+		?b: understanding
+	?a bring ?b
+		?a: journaling
+		?b: understanding
+	?a promote ?b
+		?a: Reflection
+		?b: growth
+	?a promote ?b
+		?a: journaling
+		?b: growth
+
+
+label:    sent_25
+sentence: In Europe and in industrialized countries , rotavirus infections bring out considerable economic expenses .
+
+ppatt:
+	In ?a , ?b bring ?c
+		?a: Europe
+		?b: rotavirus infections
+		?c: out considerable economic expenses
+	In ?a , ?b bring ?c
+		?a: industrialized
+		?b: rotavirus infections
+		?c: out considerable economic expenses
+	In ?a , ?b bring ?c
+		?a: countries
+		?b: rotavirus infections
+		?c: out considerable economic expenses
+
+
+label:    sent_26
+sentence: They bring relief to millions of people but do not eliminate underlying disease .
+
+ppatt:
+	?a bring ?b
+		?a: They
+		?b: relief to millions of people
+	?a do not eliminate underlying ?b
+		?a: They
+		?b: disease
+
+
+label:    sent_27
+sentence: Co-ordination is necessary , and the creation of <<gerontopoles>> could bring an answer .
+
+ppatt:
+	?a is necessary
+		?a: Co-ordination
+	?a could bring ?b
+		?a: the creation of <<gerontopoles>>
+		?b: an answer
+
+
+label:    sent_28
+sentence: Actively exercising this opportunity can bring professional satisfaction and strengthen the pharmacist-patient bond .
+
+ppatt:
+	Actively exercising ?a
+		?a: this opportunity
+	?a can bring ?b
+		?a: SOMETHING := Actively exercising this opportunity
+		?b: professional satisfaction
+	?a strengthen ?b
+		?a: Actively exercising this opportunity
+		?b: the pharmacist-patient bond
+
+
+label:    sent_29
+sentence: The water is not potable and many visitors to the country bring bottled water .
+
+ppatt:
+	?a is not potable
+		?a: The water
+	?a bring ?b
+		?a: many visitors to the country
+		?b: bottled water
+
+

@@ -1,0 +1,252 @@
+label:    sent_1
+sentence: Also they began to smoke in adolescence and smoke industrialized cigarette .
+
+ppatt:
+	Also ?a began to ?b in ?c
+		?a: they
+		?b: smoke
+		?c: adolescence
+	Also ?a began to ?b in ?c
+		?a: they
+		?b: smoke
+		?c: smoke industrialized cigarette
+
+
+label:    sent_2
+sentence: They smoke an average of ten cigarettes a day , even indoors , even knowing that this is harmful to health , exposing the family to passive smoking .
+
+ppatt:
+	?a smoke ?b ?c
+		?a: They
+		?b: an average of ten cigarettes a day
+		?c: even indoors
+	?a even knowing ?b
+		?a: They
+		?b: SOMETHING := this is harmful to health , exposing the family to passive smoking
+	?a is harmful to ?b , exposing ?c to ?d
+		?a: this
+		?b: health
+		?c: the family
+		?d: passive smoking
+
+
+label:    sent_3
+sentence: The patient had no previous surgery or medical problem , and did not smoke .
+
+ppatt:
+	?a had ?b
+		?a: The patient
+		?b: no previous surgery
+	?a had ?b
+		?a: The patient
+		?b: medical problem
+	?a did not smoke
+		?a: The patient
+
+
+label:    sent_4
+sentence: In univariate analysis , male gender , age ( >50 ) , higher number of cigarettes smoked , cardiovascular comorbidities , longer interval from the last cigarette and combined treatment of nortriptyline plus NRT were predictive of abstinence , while neuropsychiatric comorbidities and the answer " yes " to the question " Do you smoke more often during the first hours after waking " were correlated with failure .
+
+ppatt:
+	?a is/are >50
+		?a: male gender , from the last cigarette
+	?a is/are >50
+		?a: age
+	?a is/are >50
+		?a: higher number of cigarettes smoked
+	?a is/are >50
+		?a: cardiovascular comorbidities
+	?a is/are >50
+		?a: longer interval
+	?a is/are >50
+		?a: combined treatment of nortriptyline plus NRT
+	?a smoked
+		?a: higher number of cigarettes
+	In ?a , ?b were predictive of ?c
+		?a: univariate analysis
+		?b: male gender , from the last cigarette
+		?c: abstinence
+	In ?a , ?b were predictive of ?c
+		?a: univariate analysis
+		?b: age
+		?c: abstinence
+	In ?a , ?b were predictive of ?c
+		?a: univariate analysis
+		?b: higher number of cigarettes smoked
+		?c: abstinence
+	In ?a , ?b were predictive of ?c
+		?a: univariate analysis
+		?b: cardiovascular comorbidities
+		?c: abstinence
+	In ?a , ?b were predictive of ?c
+		?a: univariate analysis
+		?b: longer interval
+		?c: abstinence
+	In ?a , ?b were predictive of ?c
+		?a: univariate analysis
+		?b: combined treatment of nortriptyline plus NRT
+		?c: abstinence
+	?a " Do you smoke
+		?a: the question
+	?a during ?b were correlated with ?c
+		?a: neuropsychiatric comorbidities to the question " Do you smoke
+		?b: more often the first hours after waking "
+		?c: failure
+	?a during ?b were correlated with ?c
+		?a: the answer " yes "
+		?b: more often the first hours after waking "
+		?c: failure
+
+
+label:    sent_5
+sentence: Persons with severe and persistent mental illnesses , e.g. schizophrenia spectrum disorders and bipolar disorder , smoke at a much higher rate than the general population .
+
+ppatt:
+
+
+
+label:    sent_6
+sentence: Thirty-one patients admitted to Tongji Hospital from January to June in 2008 for incision of lung tissues were included in the study They were divided into 3 groups : ( 1 ) the control group : 9 patients ( 2 females and 7 males ) , average age ( 52 +/- 10 ) years old , who did not smoke and did not have COPD ; ( 2 ) the COPD group : 11 patients , all male , average age ( 61 +/- 11 ) years old , who smoked and had a diagnosis of COPD ; ( 3 ) the smoker group , 11 patients , all male , average age ( 56 +/- 6 ) years old , who smoked but did not have COPD .
+
+ppatt:
+	?a admitted to ?b in for ?c
+		?a: Thirty-one patients
+		?b: Tongji Hospital from January to June
+		?c: 2008 incision of lung tissues
+	?a were included in ?b
+		?a: Thirty-one patients admitted to Tongji Hospital from January to June in 2008 for incision of lung tissues
+		?b: the study
+	?a were divided into ?b ?c
+		?a: They
+		?b: 3 groups
+		?c: SOMETHING := who did not smoke
+	?a did not ?b
+		?a: who
+		?b: smoke
+	?a did not have ?b
+		?a: They
+		?b: COPD
+	?a smoked
+		?a: years
+	?a had ?b
+		?a: who
+		?b: a diagnosis of COPD
+	?a smoked
+		?a: the smoker group , old
+	?a smoked
+		?a: 11 patients
+	?a smoked
+		?a: male
+	?a smoked
+		?a: all average age
+	?a did not have ?b
+		?a: who
+		?b: COPD
+
+
+label:    sent_7
+sentence: Caregivers who smoke and have a child with asthma : DRs ( n = 30 ) , PRs ( n = 67 ) , and non-Latino whites ( n = 128 ; NLWs ) . Prescribed burning did not impede access to the forest , nor did smoke from prescribed burns pose any great problem .
+
+ppatt:
+	?a smoke
+		?a: Caregivers and have a child with asthma
+	?a have ?b
+		?a: Caregivers who smoke
+		?b: a child with asthma
+	= ?a
+		?a: 128
+	?a ?b did not impede ?c
+		?a: Caregivers who smoke and have a child with asthma
+		?b: Prescribed burning
+		?c: access to the forest
+	did ?a
+		?a: smoke from prescribed burns
+	?a pose ?b
+		?a: Caregivers who smoke and have a child with asthma
+		?b: any great problem
+
+
+label:    sent_8
+sentence: The majority also did not smoke ( 73 % ) or drink alcohol ( 93 % ) . At the end of the treatment , subjects were invited to smoke a cigarette and to rate the rewarding effect of this cigarette .
+
+ppatt:
+	?a also did not ?b . At ?c
+		?a: The majority
+		?b: smoke
+		?c: the end of the treatment
+	?a also did not ?b . At ?c
+		?a: The majority
+		?b: drink alcohol
+		?c: the end of the treatment
+	?a is/are 73 %
+		?a: smoke
+	?a is/are 73 %
+		?a: drink alcohol
+	?a is/are 93 %
+		?a: drink alcohol
+	?a were invited to ?b ?c
+		?a: subjects
+		?b: smoke
+		?c: a cigarette
+	?a rate ?b
+		?a: subjects
+		?b: the rewarding effect of this cigarette
+
+
+label:    sent_9
+sentence: Current smokers , especially those who smoke more cigarettes per day and those who report less success at quitting or reducing smoking , had higher levels of psychological distress .
+
+ppatt:
+	?a is/are especially those
+		?a: Current smokers
+	?a is/are especially those
+		?a: those who report less success at quitting or reducing smoking
+	?a smoke more cigarettes per ?b
+		?a: especially those
+		?b: day
+	?a report ?b at ?c
+		?a: those
+		?b: less success
+		?c: quitting
+	?a reducing ?b
+		?a: who
+		?b: smoking
+	?a had ?b
+		?a: Current smokers
+		?b: higher levels of psychological distress
+	?a had ?b
+		?a: those who report less success at quitting or reducing smoking
+		?b: higher levels of psychological distress
+
+
+label:    sent_10
+sentence: Reader 's response to " smoke out doctors who neglect their smoking patients " . The study comprised 30 people , who qualified into two groups --subjects who never smoke the cigarettes ( n = 10 ) and currently smoking ( n = 20 ) .
+
+ppatt:
+	?a neglect ?b
+		?a: doctors
+		?b: their smoking patients
+	?a " . ?b comprised ?c
+		?a: Reader 's response to " smoke out doctors who neglect their smoking patients
+		?b: The study
+		?c: 30 people , who qualified into two groups --subjects who never smoke the cigarettes and currently smoking
+	?a qualified into ?b ?c
+		?a: 30 people
+		?b: groups
+		?c: two --subjects who never smoke the cigarettes
+	?a qualified into ?b ?c
+		?a: 30 people
+		?b: groups
+		?c: currently smoking
+	?a never smoke ?b
+		?a: two --subjects
+		?b: the cigarettes
+	never smoke ?a ?b
+		?a: the cigarettes
+		?b: currently smoking
+	= ?a
+		?a: 10
+	= ?a
+		?a: 20
+
+

@@ -1,0 +1,40 @@
+obj	CD44 can bind and internalize hyaluronic acid ( HA ) , which acts proinflammatory .	obj@acid
+obj	Conjunctival epithelial cells stained for CFTR but did not bind or internalize PA .	obj@PA
+obj	The capacity of LC to internalize langerin and dextran was assessed .	obj@langerin
+
+subj#obj	Dictyostelium discoideum cells continuously internalize extracellular material , which accumulates in well-characterized endocytic vacuoles .	subj@cells obj@material
+subj#obj	Immunofluorescence microscopy on permeabilized cells showed that monocytes induce T cells to internalize T3 .	subj@cells obj@T3
+subj#obj	LPS blasts , however , did not internalize IL 2 .	subj@blasts obj@IL
+
+obj#prep	Lysosomes are able to internalize cellular proteins in a variety of ways .	obj@proteins prep_in@variety
+obj#prep	Immature dendritic cells may acquire and internalize HIV and other pathogens by this process .	obj@HIV prep_by@process
+obj#prep	The ability to internalize macromolecules by endocytosis is a property of all eukaryotic cells .	obj@macromolecules prep_by@endocytosis
+
+prep	TAT - PLHSpT was shown to internalize into the nucleus .	prep_into@nucleus
+prep	In contrast , rGel alone was not able to internalize into these leukemic lymphocytes .	prep_into@lymphocytes
+prep	Control cells were able to internalize over 80 % of receptor-bound 125I-EGF .	prep_over@%
+
+subj#obj#prep	50 % of heated cells internalize membrane at 0.14 mM tetracaine .	subj@% obj@membrane prep_at@tetracaine
+subj#obj#prep	Psychiatric nurses can internalize these themes in their practice to improve client outcomes .	subj@nurses obj@themes prep_in@practice
+subj#obj#prep	Both A-9 and CHO cells internalize vasopressin in a manner consistent with receptor-mediated endocytosis .	subj@A-9 subj@cells obj@vasopressin prep_in@manner
+
+conj	Chick embryo myotubes contain transferrin receptors and internalize and recycle transferrin .	conj_and@recycle
+conj	Cells use multiple pathways to internalize and recycle cell surface components .	conj_and@recycle
+conj	The EGF - RTA - resistant mutants are able to internalize and degrade EGF .	conj_and@degrade
+
+subj#prep	Many G protein-coupled receptors internalize following agonist binding .	subj@receptors prep_following@binding
+subj#prep	SMCs internalize these nanobots without compromising cell viability or growth kinetics .	subj@SMCs prepc_without@compromising
+subj#prep	We show that all the Fl-pVEC analogues internalize in live Bowes melanoma cells .	subj@analogues prep_in@cells
+
+obj#conj	Hepatocytes incubated at 4 degrees C bound , but did not internalize , EGF .	obj@EGF conj_but@bound
+obj#conj	Normal human peritoneal macrophages are unable to cap and internalize class II antigens .	obj@antigens conj_and@unable
+obj#conj	Also , its monovalent isoforms bound efficiently , but did not internalize the receptor .	obj@receptor conj_but@bound
+
+subj#obj#conj	Primary mouse microglia can internalize fAbeta , but they do not degrade it efficiently .	subj@microglia obj@fAbeta conj_but@degrade
+subj#obj#conj	Platelets internalize oxidized phospholipids and promote foam cell formation .	subj@Platelets obj@phospholipids conj_and@promote
+subj#obj#conj	Platelets internalize oxidized phospholipids and promote foam cell formation .	subj@Platelets obj@phospholipids conj_and@promote
+
+subj#conj	Furthermore , the PM receptors constitutively internalize and localize intracellularly on CK .	subj@receptors conj_and@localize
+subj#conj	Vascular endothelial cells also internalize and degrade oxLDL though the OLR1 receptor .	subj@cells conj_and@degrade
+subj#conj	Complete and truncated receptors internalize , recycle , and down-regulate normally .	subj@receptors conj_and@down-regulate conj_and@recycle
+

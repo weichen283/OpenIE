@@ -1,0 +1,208 @@
+label:    sent_1
+sentence: bZIP1 and bZIP53 were shown to specifically heterodimerize with group C bZIPs .
+
+ppatt:
+	?a were shown to specifically heterodimerize with ?b
+		?a: bZIP1
+		?b: group C bZIPs
+	?a were shown to specifically heterodimerize with ?b
+		?a: bZIP53
+		?b: group C bZIPs
+
+
+label:    sent_2
+sentence: The A-ZIPs heterodimerize with B-ZIP proteins in a leucine zipper-dependent manner .
+
+ppatt:
+	?a heterodimerize with ?b in ?c
+		?a: The A-ZIPs
+		?b: B-ZIP proteins
+		?c: a leucine zipper-dependent manner
+
+
+label:    sent_3
+sentence: Vertebrate DM domain proteins bind similar DNA sequences and can heterodimerize on DNA .
+
+ppatt:
+	?a bind ?b
+		?a: Vertebrate DM domain proteins
+		?b: similar DNA sequences
+	?a can heterodimerize on ?b
+		?a: Vertebrate DM domain proteins
+		?b: DNA
+
+
+label:    sent_4
+sentence: RXRs usually heterodimerize with various nuclear receptors .
+
+ppatt:
+	?a usually heterodimerize with ?b
+		?a: RXRs
+		?b: various nuclear receptors
+
+
+label:    sent_5
+sentence: In vitro , HuR and CUGBP2 heterodimerize . An interactome analysis assessed the effects on genes that heterodimerize with known nuclear receptors .
+
+ppatt:
+	In vitro , ?a heterodimerize ?b
+		?a: HuR
+		?b: An interactome analysis assessed the effects on genes that heterodimerize with known nuclear receptors
+	In vitro , ?a heterodimerize ?b
+		?a: CUGBP2
+		?b: An interactome analysis assessed the effects on genes that heterodimerize with known nuclear receptors
+	?a assessed ?b
+		?a: An interactome analysis
+		?b: the effects on genes that heterodimerize with known nuclear receptors
+	?a heterodimerize with ?b
+		?a: genes
+		?b: known nuclear receptors
+
+
+label:    sent_6
+sentence: RAR heterodimerize with RXR and mediate classic retinoid activity/toxicity . SOHLH1 and SOHLH2 heterodimerize with each other in vivo , as well as homodimerize .
+
+ppatt:
+	?a heterodimerize with ?b
+		?a: RAR
+		?b: RXR
+	?a mediate ?b
+		?a: RAR
+		?b: classic retinoid activity/toxicity
+	?a heterodimerize with ?b in vivo
+		?a: SOHLH1
+		?b: each other
+	?a heterodimerize with ?b in vivo
+		?a: SOHLH2
+		?b: each other
+	?a heterodimerize with in vivo ?b
+		?a: SOHLH1
+		?b: homodimerize
+	?a heterodimerize with in vivo ?b
+		?a: SOHLH2
+		?b: homodimerize
+
+
+label:    sent_7
+sentence: Unexpectedly , Blimp-1 and Blimp-1Delta7 homodimerize as well as heterodimerize with each other .
+
+ppatt:
+
+
+
+label:    sent_8
+sentence: Upon transduction , Bla1 and Bla2 heterodimerize and restore BLAK 's enzymatic function .
+
+ppatt:
+	Upon ?a , ?b heterodimerize
+		?a: transduction
+		?b: Bla1
+	Upon ?a , ?b heterodimerize
+		?a: transduction
+		?b: Bla2
+	?a restore ?b
+		?a: Bla1
+		?b: BLAK 's enzymatic function
+	?a restore ?b
+		?a: Bla2
+		?b: BLAK 's enzymatic function
+
+
+label:    sent_9
+sentence: All of the NodD1 mutant proteins can homodimerize and heterodimerize with wild-type NodD1 .
+
+ppatt:
+	?a can homodimerize with ?b
+		?a: All of the NodD1 mutant proteins
+		?b: wild-type NodD1
+	?a heterodimerize
+		?a: All of the NodD1 mutant proteins
+
+
+label:    sent_10
+sentence: Moreover the FGF-2 isoforms could heterodimerize . Furthermore , mPXR ( 431 ) and mPXR ( Delta171-211 ) proteins could heterodimerize .
+
+ppatt:
+	Moreover ?a could heterodimerize
+		?a: the FGF-2 isoforms
+	?a is/are 431
+		?a: mPXR
+	?a is/are 431
+		?a: mPXR proteins
+	?a is/are Delta171-211
+		?a: mPXR
+	Furthermore , ?a could heterodimerize
+		?a: mPXR
+	Furthermore , ?a could heterodimerize
+		?a: mPXR proteins
+
+
+label:    sent_11
+sentence: ET A and ET B receptors heterodimerize when co-expressed in heterologous expression lines .
+
+ppatt:
+	?a ?b heterodimerize
+		?a: ET A
+		?b: receptors
+	?a ?b heterodimerize
+		?a: ET B
+		?b: receptors
+	?a when co-expressed in ?b
+		?a: ET A
+		?b: heterologous expression lines
+	?a when co-expressed in ?b
+		?a: ET B
+		?b: heterologous expression lines
+
+
+label:    sent_12
+sentence: However , beta prime is able to heterodimerize and interact with transcription cofactors .
+
+ppatt:
+	However , ?a is able to heterodimerize with ?b
+		?a: beta prime
+		?b: transcription cofactors
+	However , ?a is able to interact
+		?a: beta prime
+
+
+label:    sent_13
+sentence: Consequently factors that regulate their ability to homo- or heterodimerize are important .
+
+ppatt:
+	?a regulate ?b
+		?a: factors
+		?b: their ability to homo- or heterodimerize
+	Consequently ?a are important
+		?a: factors that regulate their ability to homo- or heterodimerize
+
+
+label:    sent_14
+sentence: Fos and Jun proteins homo- or heterodimerize to form functional AP-1 transcription factors .
+
+ppatt:
+	?a homo-
+		?a: Fos and Jun proteins
+	?a heterodimerize to form ?b
+		?a: Fos and Jun proteins
+		?b: functional AP-1 transcription factors
+
+
+label:    sent_15
+sentence: Implantation Serine Proteinases heterodimerize and are critical in hatching and implantation .
+
+ppatt:
+	?a heterodimerize
+		?a: Implantation Serine Proteinases
+
+
+label:    sent_16
+sentence: In this system , rapamycin is used to heterodimerize two chimeric proteins .
+
+ppatt:
+	In ?a , ?b is used to heterodimerize ?c
+		?a: this system
+		?b: rapamycin
+		?c: two chimeric proteins
+
+

@@ -1,0 +1,13 @@
+label:    sent_1
+sentence: The development of in vitro systems in which to coculture these cells as multicellular aggregates is very critical .
+
+ppatt:
+	?a coculture ?b as ?c
+		?a: The development of in systems
+		?b: these cells
+		?c: multicellular aggregates
+	?a in ?b is very critical
+		?a: The development of in systems to coculture these cells as multicellular aggregates
+		?b: which
+
+

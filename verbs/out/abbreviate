@@ -1,0 +1,115 @@
+label:    sent_1
+sentence: How to abbreviate recombinant genes .
+
+ppatt:
+	How to abbreviate ?a
+		?a: recombinant genes
+
+
+label:    sent_2
+sentence: Stepwise multiple regression was applied to abbreviate the IES-R in one sample .
+
+ppatt:
+	?a was applied to abbreviate ?b in ?c
+		?a: Stepwise multiple regression
+		?b: the IES-R
+		?c: one sample
+
+
+label:    sent_3
+sentence: The potential use of the cluster concept to abbreviate symptom assessment tools needs validation .
+
+ppatt:
+	?a abbreviate ?b
+		?a: The potential use of the cluster concept
+		?b: symptom assessment tools
+	?a needs ?b
+		?a: The potential use of the cluster concept to abbreviate symptom assessment tools
+		?b: validation
+
+
+label:    sent_4
+sentence: Alert ! Do n 't abbreviate zidovudine as AZT .
+
+ppatt:
+	?a Do ?b as ?c
+		?a: Alert !
+		?b: n 't abbreviate zidovudine
+		?c: AZT
+
+
+label:    sent_5
+sentence: In addition , immediate distraction may abbreviate the distraction period without adverse sequelae .
+
+ppatt:
+	In ?a , ?b may abbreviate ?c without ?d
+		?a: addition
+		?b: immediate distraction
+		?c: the distraction period
+		?d: adverse sequelae
+
+
+label:    sent_6
+sentence: Dispositional processes in the lung abbreviate its action after administration by inhalation .
+
+ppatt:
+	?a abbreviate ?b after ?c
+		?a: Dispositional processes in the lung
+		?b: its action
+		?c: administration by inhalation
+
+
+label:    sent_7
+sentence: However , dose-dependent inflammation and local immune responses abbreviate transgene expression .
+
+ppatt:
+	However , ?a abbreviate ?b
+		?a: dose-dependent inflammation
+		?b: transgene expression
+	However , ?a abbreviate ?b
+		?a: local immune responses
+		?b: transgene expression
+
+
+label:    sent_8
+sentence: A simplified questionnaire would be less burdensome to patients and abbreviate the process .
+
+ppatt:
+	?a would be less burdensome to ?b
+		?a: A simplified questionnaire
+		?b: patients
+	?a abbreviate ?b
+		?a: A simplified questionnaire
+		?b: the process
+
+
+label:    sent_9
+sentence: Medication errors : do n't abbreviate daily .
+
+ppatt:
+
+
+
+label:    sent_10
+sentence: Decortication can abbreviate hospital stay if performed promptly for persistent pleural sepsis .
+
+ppatt:
+	?a can abbreviate ?b
+		?a: Decortication
+		?b: hospital stay
+	?a performed promptly for ?b
+		?a: Decortication
+		?b: persistent pleural sepsis
+
+
+label:    sent_11
+sentence: Even more confusing , different authors will often abbreviate the same word/phrase differently .
+
+ppatt:
+	Even more confusing ?a
+		?a: different authors
+	?a will often abbreviate ?b differently
+		?a: different authors
+		?b: the same word/phrase
+
+

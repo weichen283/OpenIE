@@ -1,0 +1,50 @@
+label:    sent_1
+sentence: Then the BirA enzyme was used to biotinylate the refolded complex .
+
+ppatt:
+	Then ?a was used to biotinylate ?b
+		?a: the BirA enzyme
+		?b: the refolded complex
+
+
+label:    sent_2
+sentence: This technique harnesses a promiscuous biotin ligase to biotinylate proteins based on proximity .
+
+ppatt:
+	?a harnesses ?b to ?c
+		?a: This technique
+		?b: a promiscuous biotin ligase
+		?c: biotinylate proteins
+	?a based on proximity
+		?a: This technique
+
+
+label:    sent_3
+sentence: To refold and biotinylate HLA-A2-peptide complex in-vitro . HCS has the catalytic activity to biotinylate K161 within the binding motif in EHMT1 .
+
+ppatt:
+	refold ?a ?b
+		?a: HLA-A2-peptide complex in-vitro
+		?b: HCS
+	biotinylate ?a
+		?a: HCS
+	?a has ?b
+		?a: HCS
+		?b: the catalytic activity
+	?a to biotinylate ?b within ?c
+		?a: HCS
+		?b: K161
+		?c: the binding motif in EHMT1
+
+
+label:    sent_4
+sentence: A method to biotinylate and histochemically visualize ibotenic acid for pharmacological inactivation studies .
+
+ppatt:
+	?a biotinylate
+		?a: A method
+	visualize ?a for ?b
+		?a: ibotenic acid
+		?b: pharmacological inactivation studies
+
+

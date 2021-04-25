@@ -1,0 +1,219 @@
+label:    sent_1
+sentence: It 's good to talk .
+
+ppatt:
+	?a 's good to talk
+		?a: It
+
+
+label:    sent_2
+sentence: These findings strongly indicate the presence of cross talk between advanced glycation and ER stress in disease progression .
+
+ppatt:
+	?a strongly indicate ?b
+		?a: These findings
+		?b: the presence of cross talk between advanced glycation and ER stress in disease progression
+
+
+label:    sent_3
+sentence: Following program participation , 85 % of parents reported reducing their child 's triggers , 89 % said it was easier to talk to their child 's physician , and 80 % were confident in their ability to manage their child 's asthma .
+
+ppatt:
+	?a reported reducing ?b
+		?a: parents
+		?b: their child 's triggers
+	Following ?a ?b ?c said ?d was easier to talk to 's ?e
+		?a: program participation
+		?b: 85 % of parents reported reducing their child 's triggers
+		?c: 89 %
+		?d: it
+		?e: their child physician
+	?a were confident in ?b
+		?a: 80 %
+		?b: their ability to manage their child 's asthma
+	?a manage ?b
+		?a: their ability
+		?b: their child 's asthma
+
+
+label:    sent_4
+sentence: Following 1 year of the OBPP , teachers reported statistically significant improvements in their capacity to identify bullying ( p = .016 ) , talk to students who bully ( p = .024 ) , and talk with students who are bullied ( p = .051 ) . Almost half reported an intention to ask their doctor for a prescription or referral as a result of seeing the advertisement , but more reported they would talk to their doctor and ask about treatments and tests .
+
+ppatt:
+	Following ?a , ?b reported ?c in ?d
+		?a: 1 year of the OBPP
+		?b: teachers
+		?c: statistically significant improvements
+		?d: their capacity to identify bullying
+	?a identify ?b
+		?a: their capacity
+		?b: bullying
+	?a = ?b
+		?a: p
+		?b: .016
+	?a talk to ?b
+		?a: teachers
+		?b: students
+	?a talk with ?b
+		?a: teachers
+		?b: students who are bullied ( p = .051 ) Almost half reported an intention to ask their doctor for a prescription or referral as a result of seeing the advertisement , but more reported they would talk to their doctor and ask about treatments and tests
+	?a are bullied ?b
+		?a: students
+		?b: Almost half reported an intention to ask their doctor for a prescription or referral as a result of seeing the advertisement , but more reported they would talk to their doctor and ask about treatments and tests
+	?a = ?b
+		?a: p
+		?b: .051
+	?a reported ?b
+		?a: Almost half
+		?b: an intention to ask their doctor for a prescription or referral as a result of seeing the advertisement
+	?a ask ?b for ?c as ?d
+		?a: an intention
+		?b: their doctor
+		?c: a prescription
+		?d: a result of seeing the advertisement
+	?a ask ?b for ?c as ?d
+		?a: an intention
+		?b: their doctor
+		?c: referral
+		?d: a result of seeing the advertisement
+	?a seeing ?b
+		?a: a result
+		?b: the advertisement
+	more reported ?a
+		?a: they
+	?a would talk to ?b
+		?a: they
+		?b: their doctor
+	?a ask about ?b
+		?a: they
+		?b: treatments
+	?a ask about ?b
+		?a: they
+		?b: tests
+
+
+label:    sent_5
+sentence: Because there is as yet no theory that bridges psychoanalysis and psychopharmacology , analysts must talk of these matters as incompletely synthesized and regard them as part of the challenges that make psychoanalysis the exciting , impossible profession it is . Research indicates that many women will talk with their physician about their emotional distress and that physicians provide good information after the spontaneous abortion .
+
+ppatt:
+	there is as yet ?a
+		?a: no theory that bridges , analysts must talk of these matters as incompletely synthesized and regard them as part of the challenges that make psychoanalysis the exciting , profession
+	?a ?b must talk of ?c as ?d
+		?a: bridges
+		?b: analysts
+		?c: these matters
+		?d: part of the challenges that make psychoanalysis the exciting , profession
+	?a as incompletely synthesized
+		?a: bridges
+	?a make ?b ?c
+		?a: the challenges
+		?b: psychoanalysis
+		?c: the exciting , profession
+	?a is . ?b indicates ?c
+		?a: it
+		?b: Research
+		?c: SOMETHING := many women will talk with their physician about their emotional distress
+	?a will talk with ?b
+		?a: many women
+		?b: their physician about their emotional distress
+	?a provide ?b
+		?a: physicians
+		?b: good information after the spontaneous abortion
+
+
+label:    sent_6
+sentence: He 's aware of all that 's going on and can talk some , but he has severe spasticity in his left elbow , shoulder , and hand , along with muscle atrophy .
+
+ppatt:
+	?a aware of ?b 's ?c
+		?a: He
+		?b: all
+		?c: SOMETHING := that going
+	?a 's going
+		?a: He
+	?a ?b can talk ?c
+		?a: He
+		?b: on
+		?c: some
+	?a has ?b in ?c , along with ?d
+		?a: he
+		?b: severe spasticity
+		?c: his left elbow
+		?d: muscle atrophy
+	?a has ?b in ?c , along with ?d
+		?a: he
+		?b: severe spasticity
+		?c: shoulder
+		?d: muscle atrophy
+	?a has ?b in ?c , along with ?d
+		?a: he
+		?b: severe spasticity
+		?c: hand
+		?d: muscle atrophy
+
+
+label:    sent_7
+sentence: Physicians , hospitals , insurance companies and all health organisms should talk and work together for a global health policy to preserve confidentiality , and the interests of all actors .
+
+ppatt:
+	?a should talk for ?b
+		?a: Physicians
+		?b: together a global health policy to preserve confidentiality
+	?a should talk for ?b
+		?a: hospitals
+		?b: together a global health policy to preserve confidentiality
+	?a should talk for ?b
+		?a: insurance companies
+		?b: together a global health policy to preserve confidentiality
+	?a should talk for ?b
+		?a: all health organisms
+		?b: together a global health policy to preserve confidentiality
+	?a should talk for ?b
+		?a: Physicians
+		?b: the interests of all actors
+	?a should talk for ?b
+		?a: hospitals
+		?b: the interests of all actors
+	?a should talk for ?b
+		?a: insurance companies
+		?b: the interests of all actors
+	?a should talk for ?b
+		?a: all health organisms
+		?b: the interests of all actors
+	?a work
+		?a: Physicians
+	?a work
+		?a: hospitals
+	?a work
+		?a: insurance companies
+	?a work
+		?a: all health organisms
+	?a preserve ?b
+		?a: together a global health policy
+		?b: confidentiality
+	preserve ?a ?b
+		?a: confidentiality
+		?b: the interests of all actors
+
+
+label:    sent_8
+sentence: It was found that high-EE relatives express more negative emotional statements than low-EE relatives when face-to-face with the patient ; they also talk more rapidly , and this speech rate is correlated with the patient speech rate .
+
+ppatt:
+	?a was found ?b
+		?a: It
+		?b: SOMETHING := high-EE relatives express more negative emotional statements than low-EE relatives when face-to-face with the patient
+	?a express ?b than ?c
+		?a: high-EE relatives
+		?b: more negative emotional statements
+		?c: low-EE relatives
+	?a when face-to-face with ?b
+		?a: high-EE relatives
+		?b: the patient
+	?a also talk more rapidly
+		?a: they
+	?a is correlated with ?b
+		?a: this speech rate
+		?b: the patient speech rate
+
+

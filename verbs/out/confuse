@@ -1,0 +1,278 @@
+label:    sent_1
+sentence: When prescription is unreadable , they can confuse health professionals and damage patients .
+
+ppatt:
+	When ?a is unreadable
+		?a: prescription
+	?a can confuse ?b
+		?a: they
+		?b: health professionals
+	?a can confuse ?b
+		?a: they
+		?b: damage patients
+
+
+label:    sent_2
+sentence: Coexisting lumbosacral pathological lesions may confuse the correct diagnosis for sacral fractures .
+
+ppatt:
+	?a may confuse ?b
+		?a: Coexisting lumbosacral pathological lesions
+		?b: the correct diagnosis for sacral fractures
+
+
+label:    sent_3
+sentence: But the comparison may confuse the message with the messenger .
+
+ppatt:
+	?a may confuse ?b
+		?a: the comparison
+		?b: the message with the messenger
+
+
+label:    sent_4
+sentence: Their common errors were to confuse red , orange , and brown .
+
+ppatt:
+	?a were to confuse ?b
+		?a: Their common errors
+		?b: red
+	?a were to confuse ?b
+		?a: Their common errors
+		?b: orange
+	?a were to confuse ?b
+		?a: Their common errors
+		?b: brown
+
+
+label:    sent_5
+sentence: The dilemma of treating chronic sinusitis continues to confuse clinicians .
+
+ppatt:
+	?a treating ?b
+		?a: The dilemma
+		?b: chronic sinusitis
+	?a continues to confuse ?b
+		?a: The dilemma of treating chronic sinusitis
+		?b: clinicians
+
+
+label:    sent_6
+sentence: It is possible to confuse this neoplasia with other lesions . Do n't confuse the anesthetic with the anesthesiologist ! Do n't confuse schizophrenia with multiple personality . Do n't confuse management with administration .
+
+ppatt:
+	?a is possible to confuse ?b
+		?a: It
+		?b: this neoplasia with other lesions
+	?a Do n't confuse ?b
+		?a: It
+		?b: the anesthetic with the anesthesiologist
+	?a Do n't confuse ?b
+		?a: It
+		?b: schizophrenia with multiple personality
+	?a Do n't confuse ?b
+		?a: It
+		?b: management with administration
+
+
+label:    sent_7
+sentence: Neither the Y-BOCS nor the NIMH Global OC confuse trait with state .
+
+ppatt:
+	?a confuse ?b with ?c
+		?a: the Y-BOCS
+		?b: trait
+		?c: state
+	?a confuse ?b with ?c
+		?a: the NIMH
+		?b: trait
+		?c: state
+
+
+label:    sent_8
+sentence: Let 's not confuse test scores with the substance of the discrepancy model .
+
+ppatt:
+	?a 's not confuse test ?b
+		?a: Let
+		?b: scores with the substance of the discrepancy model
+
+
+label:    sent_9
+sentence: In addition , Ss confuse people of the same gender .
+
+ppatt:
+	In ?a , ?b confuse ?c
+		?a: addition
+		?b: Ss
+		?c: people of the same gender
+
+
+label:    sent_10
+sentence: They could cause PCR bias in molecular biology experiments and confuse related analysis .
+
+ppatt:
+	?a could cause ?b in ?c
+		?a: They
+		?b: PCR bias
+		?c: molecular biology experiments
+	?a confuse ?b
+		?a: They
+		?b: related analysis
+
+
+label:    sent_11
+sentence: Pharmaceutical promotion in Canada : convince them or confuse them .
+
+ppatt:
+	confuse ?a
+		?a: them
+
+
+label:    sent_12
+sentence: Hyponatremia is frequently associated and may confuse the initial diagnosis .
+
+ppatt:
+	?a is frequently associated
+		?a: Hyponatremia
+	?a may confuse ?b
+		?a: Hyponatremia
+		?b: the initial diagnosis
+
+
+label:    sent_13
+sentence: Etiology is not established and clinical presentation may confuse even experienced physicians .
+
+ppatt:
+	?a is not established
+		?a: Etiology
+	?a may confuse ?b
+		?a: clinical presentation
+		?b: even experienced physicians
+
+
+label:    sent_14
+sentence: Patients with sinonasal symptoms confuse URIs for sinusitis and expect unnecessary treatment with antibiotics . Multiple CRCS options may confuse patients and lead to inaction .
+
+ppatt:
+	?a confuse ?b
+		?a: Patients with sinonasal symptoms
+		?b: URIs for sinusitis
+	?a expect ?b
+		?a: Patients with sinonasal symptoms
+		?b: unnecessary treatment with antibiotics
+	?a may confuse ?b
+		?a: Multiple CRCS options
+		?b: patients
+	?a lead to ?b
+		?a: Multiple CRCS options
+		?b: inaction
+
+
+label:    sent_15
+sentence: Clinical casebook : when clues confuse . Including physiological variables in studies might confuse more than clarify .
+
+ppatt:
+	when ?a confuse . Including ?b
+		?a: clues
+		?b: physiological variables in studies
+
+
+label:    sent_16
+sentence: The first stages of the development of Spatulodinium can easily confuse with gymnodiniaceans . [ The concept of dementia--does it enlighten or confuse ? ] . Costing studies which ignore them will conceal , confuse and mislead .
+
+ppatt:
+	?a can easily confuse with ?b
+		?a: The first stages of the development of Spatulodinium
+		?b: gymnodiniaceans
+	?a ?b enlighten ?c
+		?a: The concept of dementia--does
+		?b: it
+		?c: ]
+	?a confuse
+		?a: The concept of dementia--does
+	?a Costing ?b
+		?a: The first stages of the development of Spatulodinium
+		?b: studies which ignore them will conceal , confuse and mislead
+	?a ignore ?b
+		?a: studies
+		?b: them
+	?a will conceal
+		?a: which
+	?a confuse
+		?a: which
+	?a mislead
+		?a: which
+
+
+label:    sent_17
+sentence: Ongoing debates regarding evidence primarily serve to confuse and obfuscate .
+
+ppatt:
+	?a primarily serve to confuse
+		?a: Ongoing debates regarding evidence
+	?a primarily serve to obfuscate
+		?a: Ongoing debates regarding evidence
+
+
+label:    sent_18
+sentence: Presentations at medical conferences can sometimes confuse or compromise understanding of current topics . Underlying chronic arthritis may confuse or delay the diagnosis .
+
+ppatt:
+	?a can sometimes confuse ?b
+		?a: Presentations at medical conferences
+		?b: understanding of current topics
+	?a compromise
+		?a: Presentations at medical conferences
+	?a Underlying ?b
+		?a: Presentations at medical conferences
+		?b: chronic arthritis
+	?a may confuse ?b
+		?a: Presentations at medical conferences
+		?b: the diagnosis
+	?a delay
+		?a: Presentations at medical conferences
+
+
+label:    sent_19
+sentence: Echocardiographic SWL may confuse rather than improve the assessment of AS in clinical practice .
+
+ppatt:
+	?a may confuse
+		?a: Echocardiographic SWL
+	?a improve ?b
+		?a: Echocardiographic SWL
+		?b: the assessment of AS in clinical practice
+
+
+label:    sent_20
+sentence: These phenomena are easy to confuse with artifact when recording ENGs .
+
+ppatt:
+	?a are easy to confuse with ?b
+		?a: These phenomena
+		?b: artifact
+	?a when recording ?b
+		?a: These phenomena
+		?b: ENGs
+
+
+label:    sent_21
+sentence: It is easy to confuse with overlapping of alternating current .
+
+ppatt:
+	?a is easy to confuse with ?b
+		?a: It
+		?b: overlapping of alternating current
+	?a with overlapping of ?b
+		?a: It
+		?b: alternating current
+
+
+label:    sent_22
+sentence: A rare case of aortic valve myxoma : easy to confuse with papillary fibroelastoma .
+
+ppatt:
+
+
+

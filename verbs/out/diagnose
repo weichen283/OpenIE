@@ -1,0 +1,328 @@
+label:    sent_1
+sentence: It is difficult to diagnose NBTE if patients have no clinical signs of thromboembolism .
+
+ppatt:
+	?a is difficult to diagnose ?b
+		?a: It
+		?b: NBTE
+	?a have ?b
+		?a: patients
+		?b: no clinical signs of thromboembolism
+
+
+label:    sent_2
+sentence: There are many diagnostic technologies and tests to diagnose skin cancer .
+
+ppatt:
+	There are ?a to diagnose ?b
+		?a: many diagnostic technologies
+		?b: skin cancer
+	There are ?a to diagnose ?b
+		?a: tests
+		?b: skin cancer
+
+
+label:    sent_3
+sentence: The gold-standard test used to diagnose childhood obstructive sleep apnea is polysomnography .
+
+ppatt:
+	?a used to diagnose ?b
+		?a: The gold-standard test
+		?b: childhood obstructive sleep apnea
+	?a is polysomnography
+		?a: The gold-standard test used to diagnose childhood obstructive sleep apnea
+
+
+label:    sent_4
+sentence: However , it is difficult to diagnose or characterize non-invasively with conventional imaging .
+
+ppatt:
+	However , ?a is difficult to diagnose non-invasively with ?b
+		?a: it
+		?b: conventional imaging
+	However , ?a is difficult to characterize
+		?a: it
+
+
+label:    sent_5
+sentence: Lymphocytic myocarditis is a clinically important condition that is difficult to diagnose and distinguish .
+
+ppatt:
+	?a is a clinically important condition
+		?a: Lymphocytic myocarditis
+	?a is difficult to diagnose
+		?a: a clinically important condition
+	?a is difficult to distinguish
+		?a: that
+
+
+label:    sent_6
+sentence: The ability to diagnose and provide appropriate medical treatment is imperative .
+
+ppatt:
+	?a diagnose ?b
+		?a: The ability
+		?b: appropriate medical treatment
+	?a provide
+		?a: The ability
+	?a is imperative
+		?a: The ability to diagnose and provide appropriate medical treatment
+
+
+label:    sent_7
+sentence: Ultrasonography alone is insufficient to diagnose the plaque type accurately in some patients .
+
+ppatt:
+	?a is insufficient to diagnose ?b accurately in ?c
+		?a: Ultrasonography alone
+		?b: the plaque type
+		?c: some patients
+
+
+label:    sent_8
+sentence: The BAT constitutes a reliable instrument to diagnose anaphylaxis from rocuronium .
+
+ppatt:
+	?a constitutes ?b
+		?a: The BAT
+		?b: a reliable instrument to diagnose anaphylaxis from rocuronium
+	?a diagnose ?b
+		?a: a reliable instrument
+		?b: anaphylaxis from rocuronium
+
+
+label:    sent_9
+sentence: It is very difficult to diagnose this malformation antemortem without magnetic resonance imaging .
+
+ppatt:
+	?a is very difficult to diagnose ?b
+		?a: It
+		?b: this malformation antemortem without magnetic resonance imaging
+
+
+label:    sent_10
+sentence: Bedside ultrasonography as a safe and effective tool to diagnose acute epiglottitis .
+
+ppatt:
+	?a diagnose ?b
+		?a: a safe and effective tool
+		?b: acute epiglottitis
+
+
+label:    sent_11
+sentence: Laparoscopy to diagnose endometriosis , assessment by neurologist to assess headaches .
+
+ppatt:
+	?a diagnose ?b ?c
+		?a: Laparoscopy
+		?b: endometriosis
+		?c: assessment by neurologist
+	assess ?a
+		?a: headaches
+
+
+label:    sent_12
+sentence: Clinical tests to diagnose lumbar segmental instability : a systematic review .
+
+ppatt:
+	?a diagnose ?b
+		?a: Clinical tests
+		?b: lumbar segmental instability
+
+
+label:    sent_13
+sentence: Novel anatomic pathology technologies allow pathologists to digitally view and diagnose cases .
+
+ppatt:
+	?a allow ?b to digitally view ?c
+		?a: Novel anatomic pathology technologies
+		?b: pathologists
+		?c: cases
+	?a allow to diagnose
+		?a: Novel anatomic pathology technologies
+
+
+label:    sent_14
+sentence: This in turn adds to the capabilities to diagnose disease and assess its extent .
+
+ppatt:
+	?a adds to ?b
+		?a: This in turn
+		?b: the capabilities to diagnose disease
+	?a diagnose ?b
+		?a: the capabilities
+		?b: disease
+	?a assess ?b
+		?a: This in turn
+		?b: its extent
+
+
+label:    sent_15
+sentence: Clinicians learnt how to do binocular indirect ophthalmoscopy and to diagnose CMV retinitis .
+
+ppatt:
+	?a learnt how to do ?b
+		?a: Clinicians
+		?b: binocular indirect ophthalmoscopy
+	?a learnt to to diagnose ?b
+		?a: Clinicians
+		?b: CMV retinitis
+
+
+label:    sent_16
+sentence: Subcutaneous masses are usually difficult to diagnose for dermatologists using palpation .
+
+ppatt:
+	?a are usually difficult to diagnose for ?b using ?c
+		?a: Subcutaneous masses
+		?b: dermatologists
+		?c: palpation
+
+
+label:    sent_17
+sentence: PDLG is a rare disorder that is difficult to diagnose by CSF cytology .
+
+ppatt:
+	?a is a rare disorder
+		?a: PDLG
+	?a is difficult to diagnose by ?b
+		?a: a rare disorder
+		?b: CSF cytology
+
+
+label:    sent_18
+sentence: Early , slow-onset heart failure is difficult to diagnose from just signs and symptoms .
+
+ppatt:
+	Early , ?a is difficult to diagnose from ?b
+		?a: slow-onset heart failure
+		?b: just signs
+	Early , ?a is difficult to diagnose from ?b
+		?a: slow-onset heart failure
+		?b: symptoms
+
+
+label:    sent_19
+sentence: Interface membrane is the best sample for histological study to diagnose prosthetic joint infection .
+
+ppatt:
+	?a is the best sample for ?b
+		?a: Interface membrane
+		?b: histological study to diagnose prosthetic joint infection
+	?a diagnose ?b
+		?a: histological study
+		?b: prosthetic joint infection
+
+
+label:    sent_20
+sentence: How can we diagnose FAI in earlier period ? [ Clinical criteria to diagnose dengue in its early stages ] . How I diagnose and treat splenic lymphomas .
+
+ppatt:
+	How can ?a diagnose ?b in ?c ?d
+		?a: we
+		?b: FAI
+		?c: earlier period
+		?d: [ Clinical criteria to diagnose dengue in its early stages How I diagnose and treat splenic lymphomas
+	?a diagnose ?b in ?c
+		?a: [ Clinical criteria
+		?b: dengue
+		?c: its early stages
+	How ?a diagnose
+		?a: I
+	?a treat ?b
+		?a: I
+		?b: splenic lymphomas
+
+
+label:    sent_21
+sentence: Doctors diagnose and prescribe : patients decide what to do . General practitioners [ GP ] diagnose and treat the majority of patients with musculoskeletal problems .
+
+ppatt:
+	?a diagnose
+		?a: Doctors
+	?a prescribe
+		?a: Doctors
+	?a decide ?b to do
+		?a: patients
+		?b: what
+	?a [ ?b diagnose
+		?a: General practitioners
+		?b: GP ]
+	?a treat ?b
+		?a: General practitioners
+		?b: the majority of patients with musculoskeletal problems
+
+
+label:    sent_22
+sentence: We can confidently diagnose complete and incomplete SBO and differentiate one from the other .
+
+ppatt:
+	?a can confidently diagnose ?b
+		?a: We
+		?b: complete
+	?a can confidently diagnose ?b
+		?a: We
+		?b: incomplete
+	?a differentiate ?b
+		?a: We
+		?b: one from the other
+
+
+label:    sent_23
+sentence: Ultrasound does not diagnose peritoneal disease but will recognise endometriomas .
+
+ppatt:
+	?a does not diagnose ?b
+		?a: Ultrasound
+		?b: peritoneal disease
+	?a will recognise ?b
+		?a: Ultrasound
+		?b: endometriomas
+
+
+label:    sent_24
+sentence: It can diagnose aneurysmal lesions and suggest ulcerated lesions .
+
+ppatt:
+	?a can diagnose ?b
+		?a: It
+		?b: aneurysmal lesions
+	?a suggest ?b
+		?a: It
+		?b: ulcerated lesions
+
+
+label:    sent_25
+sentence: To rapidly diagnose TB within two hours and to simultaneously detect RIF resistance .
+
+ppatt:
+	rapidly diagnose ?a within ?b
+		?a: TB
+		?b: two hours
+	simultaneously detect ?a
+		?a: RIF resistance
+
+
+label:    sent_26
+sentence: Surgery is used to diagnose RMS , and for local control after chemotherapy .
+
+ppatt:
+	?a is used to diagnose ?b
+		?a: Surgery
+		?b: RMS
+
+
+label:    sent_27
+sentence: It is difficult to diagnose this abnormality by cardiac catheterization and even during surgery .
+
+ppatt:
+	?a is difficult to diagnose ?b by ?c
+		?a: It
+		?b: this abnormality
+		?c: cardiac catheterization
+	?a is difficult to diagnose ?b by ?c
+		?a: It
+		?b: this abnormality
+		?c: even surgery
+
+

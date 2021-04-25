@@ -1,0 +1,244 @@
+label:    sent_1
+sentence: We hypothesized that atrial overdrive pacing would transiently suppress JT but would entrain AVNRT .
+
+ppatt:
+	?a hypothesized ?b
+		?a: We
+		?b: SOMETHING := atrial overdrive pacing would transiently suppress JT
+	?a would transiently suppress ?b
+		?a: atrial overdrive pacing
+		?b: JT
+	?a would entrain ?b
+		?a: atrial overdrive pacing
+		?b: AVNRT
+
+
+label:    sent_2
+sentence: Light-dark cycles are considered important cues to entrain biological clocks .
+
+ppatt:
+	?a are considered important cues to entrain ?b
+		?a: Light-dark cycles
+		?b: biological clocks
+
+
+label:    sent_3
+sentence: Pulsatile insulin infusion failed to entrain a corresponding glucagon secretory rhythm .
+
+ppatt:
+	?a failed to entrain ?b
+		?a: Pulsatile insulin infusion
+		?b: a corresponding glucagon secretory rhythm
+
+
+label:    sent_4
+sentence: Pacing did not readily entrain the PPs in either intact or transected jejunum .
+
+ppatt:
+	?a did not readily entrain ?b ?c
+		?a: Pacing
+		?b: the PPs
+		?c: intact
+	?a did not readily entrain ?b ?c
+		?a: Pacing
+		?b: the PPs
+		?c: transected
+
+
+label:    sent_5
+sentence: Restricted daily feeding can entrain an endogenous circadian clock of rodents .
+
+ppatt:
+	?a can entrain ?b
+		?a: Restricted daily feeding
+		?b: an endogenous circadian clock of rodents
+
+
+label:    sent_6
+sentence: Their activity may entrain the spinal central pattern generator ( CPG ) . During peptide-induced oscillations , motor neuron activity did not always entrain muscle oscillations .
+
+ppatt:
+	?a may entrain ?b . During ?c
+		?a: Their activity
+		?b: the spinal central pattern generator
+		?c: peptide-induced oscillations
+	?a is/are CPG
+		?a: the spinal central pattern generator
+	?a did not always entrain ?b
+		?a: motor neuron activity
+		?b: muscle oscillations
+
+
+label:    sent_7
+sentence: Light-dark cues entrain oviposition time in the chicken hen . Changing the feeding mode could entrain circadian oscillators both in the brain and liver .
+
+ppatt:
+	?a entrain ?b
+		?a: Light-dark cues
+		?b: oviposition time in the chicken hen
+	?a Changing ?b
+		?a: Light-dark cues
+		?b: the feeding mode
+	?a could entrain ?b in ?c
+		?a: Light-dark cues
+		?b: circadian oscillators
+		?c: the brain
+	?a could entrain ?b in ?c
+		?a: Light-dark cues
+		?b: circadian oscillators
+		?c: liver
+
+
+label:    sent_8
+sentence: He had tried unsuccessfully to entrain his rhythms for over 10 years .
+
+ppatt:
+	?a had tried unsuccessfully to entrain ?b for ?c
+		?a: He
+		?b: his rhythms
+		?c: over 10 years
+
+
+label:    sent_9
+sentence: Light is able to both suppress or entrain MLT production on light schedule .
+
+ppatt:
+	?a is able to both suppress ?b on ?c
+		?a: Light
+		?b: MLT production
+		?c: light schedule
+	?a is able to both entrain
+		?a: Light
+
+
+label:    sent_10
+sentence: Respiration-related efferent activity in the cardiac vagus appeared to entrain the heart to ventilation .
+
+ppatt:
+	?a appeared to entrain ?b to ?c
+		?a: Respiration-related efferent activity in the cardiac vagus
+		?b: the heart
+		?c: ventilation
+
+
+label:    sent_11
+sentence: Circadian rhythms possess the ability to robustly entrain to the environmental cycles .
+
+ppatt:
+	?a possess ?b
+		?a: Circadian rhythms
+		?b: the ability to robustly entrain to the environmental cycles
+	?a robustly entrain to ?b
+		?a: the ability
+		?b: the environmental cycles
+
+
+label:    sent_12
+sentence: Ventilation frequency showed a clear , but intermittent tendency to entrain with limb frequency .
+
+ppatt:
+	?a showed ?b
+		?a: Ventilation frequency
+		?b: a clear , but intermittent tendency to entrain with limb frequency
+	?a entrain with ?b
+		?a: a clear , but intermittent tendency
+		?b: limb frequency
+
+
+label:    sent_13
+sentence: The primary hallmark of circadian clocks is their ability to entrain to environmental stimuli .
+
+ppatt:
+	?a is ?b ability
+		?a: The primary hallmark of circadian clocks
+		?b: their
+	?a entrain to ?b
+		?a: their ability
+		?b: environmental stimuli
+
+
+label:    sent_14
+sentence: They also entrain to the 24-hr multiple of WR 6 : 6 .
+
+ppatt:
+	?a also entrain to ?b
+		?a: They
+		?b: the 24-hr multiple of WR 6 : 6
+
+
+label:    sent_15
+sentence: Contrary to expectations , these embryos did not entrain to new cycles .
+
+ppatt:
+	Contrary to ?a , ?b did not entrain to ?c
+		?a: expectations
+		?b: these embryos
+		?c: new cycles
+
+
+label:    sent_16
+sentence: Dancers entrain more effectively than non-dancers to another actor 's movements .
+
+ppatt:
+	?a entrain more effectively than ?b to 's ?c
+		?a: Dancers
+		?b: non-dancers
+		?c: another actor movements
+
+
+label:    sent_17
+sentence: Novel non-indolic melatonin receptor agonists differentially entrain endogenous melatonin rhythm and increase its amplitude .
+
+ppatt:
+	?a differentially entrain ?b
+		?a: Novel non-indolic melatonin receptor agonists
+		?b: endogenous melatonin rhythm
+	?a increase ?b
+		?a: Novel non-indolic melatonin receptor agonists
+		?b: its amplitude
+
+
+label:    sent_18
+sentence: EPSPs can also enable rhythmicity in " potential " oscillators and entrain them .
+
+ppatt:
+	?a can also enable ?b
+		?a: EPSPs
+		?b: rhythmicity in " potential " oscillators
+	?a entrain ?b
+		?a: EPSPs
+		?b: them
+
+
+label:    sent_19
+sentence: Pulses of Notch activation synchronise oscillating somite cells and entrain the zebrafish segmentation clock .
+
+ppatt:
+	entrain ?a
+		?a: the zebrafish segmentation clock
+
+
+label:    sent_20
+sentence: The physiological signals that synchronise and entrain Hes oscillators remain poorly understood .
+
+ppatt:
+	?a synchronise ?b
+		?a: The physiological signals
+		?b: Hes oscillators
+	?a entrain
+		?a: that
+	?a remain poorly understood
+		?a: The physiological signals that synchronise and entrain Hes oscillators
+
+
+label:    sent_21
+sentence: USCN-X lizards remained rhythmic , and their locomotor rhythms did entrain to the injections .
+
+ppatt:
+	?a remained rhythmic
+		?a: USCN-X lizards
+	?a did entrain to ?b
+		?a: their locomotor rhythms
+		?b: the injections
+
+

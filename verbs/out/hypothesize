@@ -1,0 +1,215 @@
+label:    sent_1
+sentence: Thus , we hypothesize that specific peptides can be designed to block this effect .
+
+ppatt:
+	Thus , ?a hypothesize ?b
+		?a: we
+		?b: SOMETHING := specific peptides can be designed to block this effect
+	?a can be designed to block ?b
+		?a: specific peptides
+		?b: this effect
+
+
+label:    sent_2
+sentence: We reasonably hypothesize that NaPPS and CaPPS may be used to treat IDD .
+
+ppatt:
+	?a reasonably hypothesize ?b
+		?a: We
+		?b: SOMETHING := NaPPS and CaPPS may be used to treat IDD
+	?a may be used to treat ?b
+		?a: NaPPS
+		?b: IDD
+	?a may be used to treat ?b
+		?a: CaPPS
+		?b: IDD
+
+
+label:    sent_3
+sentence: Therefore , we hypothesize that wild plants represent a huge reservoir of unknown fungi .
+
+ppatt:
+	Therefore , ?a hypothesize ?b
+		?a: we
+		?b: SOMETHING := wild plants represent a huge reservoir of unknown fungi
+	?a represent ?b
+		?a: wild plants
+		?b: a huge reservoir of unknown fungi
+
+
+label:    sent_4
+sentence: In our case , we hypothesize that the pathogenesis took place in two steps .
+
+ppatt:
+	In ?a , ?b hypothesize ?c
+		?a: our case
+		?b: we
+		?c: SOMETHING := the pathogenesis took place in two steps
+	?a took ?b in ?c
+		?a: the pathogenesis
+		?b: place
+		?c: two steps
+
+
+label:    sent_5
+sentence: From these observations , we hypothesize that cone-Muller-cell interactions mediate and maintain the rings . We hypothesize on possible molecular mechanisms .
+
+ppatt:
+	From ?a , ?b hypothesize ?c ?d
+		?a: these observations
+		?b: we
+		?c: SOMETHING := cone-Muller-cell interactions mediate the rings
+		?d: SOMETHING := We hypothesize on possible molecular mechanisms
+	?a mediate ?b
+		?a: cone-Muller-cell interactions
+		?b: the rings
+	?a maintain
+		?a: cone-Muller-cell interactions
+	?a hypothesize on ?b
+		?a: We
+		?b: possible molecular mechanisms
+
+
+label:    sent_6
+sentence: We might hypothesize a similar effect also in subjects with metabolic abnormalities .
+
+ppatt:
+	?a might hypothesize ?b also
+		?a: We
+		?b: a similar effect in subjects with metabolic abnormalities
+
+
+label:    sent_7
+sentence: Finally , the authors hypothesize a direct spiral ganglion activation under strong mechanical stimulation .
+
+ppatt:
+	Finally , ?a hypothesize ?b under ?c
+		?a: the authors
+		?b: a direct spiral ganglion activation
+		?c: strong mechanical stimulation
+
+
+label:    sent_8
+sentence: We hypothesize similar changes with pediatric mastoiditis .
+
+ppatt:
+	?a hypothesize ?b
+		?a: We
+		?b: similar changes with pediatric mastoiditis
+
+
+label:    sent_9
+sentence: We also hypothesize a possible pathophysiologic explanation of this rare disease .
+
+ppatt:
+	?a also hypothesize ?b
+		?a: We
+		?b: a possible pathophysiologic explanation of this rare disease
+
+
+label:    sent_10
+sentence: This morphological transition led us to hypothesize additional physiological changes in growth control pathways .
+
+ppatt:
+	?a led ?b to hypothesize ?c
+		?a: This morphological transition
+		?b: us
+		?c: additional physiological changes in growth control pathways
+
+
+label:    sent_11
+sentence: Object relations theories hypothesize a relationship between self/other representations and level of psychopathology .
+
+ppatt:
+	?a hypothesize ?b
+		?a: Object relations theories
+		?b: a relationship between self/other representations and level of psychopathology
+
+
+label:    sent_12
+sentence: We hypothesize and provide evidence that birds compensate by longer daily foraging times .
+
+ppatt:
+	?a hypothesize ?b
+		?a: We
+		?b: evidence that birds compensate by longer daily foraging times
+	?a provide
+		?a: We
+	?a compensate by ?b
+		?a: birds
+		?b: longer daily foraging times
+
+
+label:    sent_13
+sentence: Extensive structure-activity relationship studies were performed allowing to hypothesize various TSPO pharmacophore models .
+
+ppatt:
+	?a were performed allowing to hypothesize ?b
+		?a: Extensive structure-activity relationship studies
+		?b: various TSPO pharmacophore models
+
+
+label:    sent_14
+sentence: Exploratory and confirmative factor analyses were applied to hypothesize the structure of the MetSy .
+
+ppatt:
+	?a were applied to hypothesize ?b
+		?a: Exploratory and confirmative factor analyses
+		?b: the structure of the MetSy
+
+
+label:    sent_15
+sentence: This may lead to hypothesize about a likely atherogenic role of cocaine .
+
+ppatt:
+	?a may lead to hypothesize about ?b
+		?a: This
+		?b: a likely atherogenic role of cocaine
+
+
+label:    sent_16
+sentence: We present interpersonal change mechanisms that we hypothesize account for symptom change in IPT .
+
+ppatt:
+	?a present ?b
+		?a: We
+		?b: interpersonal change mechanisms that we hypothesize account for symptom change in IPT
+	?a ?b hypothesize ?c
+		?a: interpersonal change mechanisms
+		?b: we
+		?c: SOMETHING := account for symptom change in IPT
+	?a account for ?b
+		?a: we
+		?b: symptom change in IPT
+
+
+label:    sent_17
+sentence: To illustrate a case report of festooning and to hypothesize as to its cause .
+
+ppatt:
+	illustrate ?a
+		?a: a case report of festooning and to hypothesize as to its cause
+	?a festooning
+		?a: a case report
+	hypothesize as to ?a
+		?a: its cause
+
+
+label:    sent_18
+sentence: There are few analytical data to hypothesize why this geographical predisposition .
+
+ppatt:
+	There are ?a to hypothesize ?b
+		?a: few analytical data
+		?b: why this geographical predisposition
+
+
+label:    sent_19
+sentence: And relations between childhood and adult classes were examined to hypothesize about developmental trajectories .
+
+ppatt:
+	?a were examined to hypothesize about ?b
+		?a: relations between childhood and adult classes
+		?b: developmental trajectories
+
+

@@ -1,0 +1,297 @@
+label:    sent_1
+sentence: The clinical characteristics of EMs vary with the sites of tumors .
+
+ppatt:
+	?a vary with ?b
+		?a: The clinical characteristics of EMs
+		?b: the sites of tumors
+
+
+label:    sent_2
+sentence: This effect did not vary with the child 's history of respiratory allergic symptoms .
+
+ppatt:
+	?a did not vary with ?b
+		?a: This effect
+		?b: the child 's history of respiratory allergic symptoms
+
+
+label:    sent_3
+sentence: Disc dimensions did not vary significantly by age or sex .
+
+ppatt:
+	?a did not vary significantly by ?b
+		?a: Disc dimensions
+		?b: age
+	?a did not vary significantly by ?b
+		?a: Disc dimensions
+		?b: sex
+
+
+label:    sent_4
+sentence: Biology is complex and the effects of many interventions may vary between population groups .
+
+ppatt:
+	?a is complex
+		?a: Biology
+	?a may vary between ?b
+		?a: the effects of many interventions
+		?b: population groups
+
+
+label:    sent_5
+sentence: Causative agents vary within different geographical areas as well as during decades .
+
+ppatt:
+	?a vary within ?b
+		?a: Causative agents
+		?b: different geographical areas
+	?a vary within ?b
+		?a: Causative agents
+		?b: decades
+
+
+label:    sent_6
+sentence: How do risks vary over time and with age ? This finding does not seem to vary by type of suture material . Average Poisson 's ratio was 0.55+/-0.12 and did not significantly vary with load .
+
+ppatt:
+	How do ?a vary over ?b
+		?a: risks
+		?b: time
+	How do ?a vary over ?b
+		?a: risks
+		?b: age
+	?a does not seem to vary by ?b
+		?a: This finding
+		?b: type of suture material
+	's ?a was 0.55+/-0.12
+		?a: Average Poisson ratio
+	's ?a did not significantly vary with ?b
+		?a: Average Poisson ratio
+		?b: load
+
+
+label:    sent_7
+sentence: The incidence has been reported to vary from 1-2 % amongst total leprosy patients .
+
+ppatt:
+	?a has been reported to vary from ?b amongst ?c
+		?a: The incidence
+		?b: 1-2 %
+		?c: total leprosy patients
+
+
+label:    sent_8
+sentence: Pulmonary artery pressure did not vary .
+
+ppatt:
+	?a did not vary
+		?a: Pulmonary artery pressure
+
+
+label:    sent_9
+sentence: Isolates of the Trichophyton mentagrophytes complex vary phenotypically .
+
+ppatt:
+	?a vary phenotypically
+		?a: Isolates of the Trichophyton mentagrophytes complex
+
+
+label:    sent_10
+sentence: Current methods for assessing the cosmetic outcome of BR vary widely . Supernumerary teeth vary depending on gender .
+
+ppatt:
+	?a assessing ?b
+		?a: Current methods
+		?b: the cosmetic outcome of BR
+	?a vary widely
+		?a: Current methods for assessing the cosmetic outcome of BR
+	?a vary
+		?a: Supernumerary teeth
+	?a depending on gender
+		?a: Supernumerary teeth
+
+
+label:    sent_11
+sentence: In conclusion , ST patterns vary depending on gender .
+
+ppatt:
+	In ?a , ?b vary
+		?a: conclusion
+		?b: ST patterns
+	?a depending on gender
+		?a: ST patterns
+
+
+label:    sent_12
+sentence: Reconstructive techniques vary , depending on both the location and extent of defects .
+
+ppatt:
+	?a vary
+		?a: Reconstructive techniques
+	?a depending on both the location of ?b
+		?a: Reconstructive techniques
+		?b: defects
+	?a extent
+		?a: Reconstructive techniques
+
+
+label:    sent_13
+sentence: Outcomes of retreatment with a Category II regimen are suboptimal and vary by subgroup .
+
+ppatt:
+	?a are suboptimal
+		?a: Outcomes of retreatment with a Category II regimen
+	?a vary by ?b
+		?a: Outcomes of retreatment with a Category II regimen
+		?b: subgroup
+
+
+label:    sent_14
+sentence: Plasma CXCL12 levels increased with age and did not vary by gender .
+
+ppatt:
+	?a increased with ?b
+		?a: Plasma CXCL12 levels
+		?b: age
+	?a did not vary by ?b
+		?a: Plasma CXCL12 levels
+		?b: gender
+
+
+label:    sent_15
+sentence: Several monotherapies and combined regimens are currently available and vary around the world .
+
+ppatt:
+	?a are currently available
+		?a: Several monotherapies
+	?a are currently available
+		?a: combined regimens
+	?a vary around ?b
+		?a: Several monotherapies
+		?b: the world
+	?a vary around ?b
+		?a: combined regimens
+		?b: the world
+
+
+label:    sent_16
+sentence: Such mutants are designated host or prey independent , and their nutritional requirements vary .
+
+ppatt:
+	?a are designated host independent
+		?a: Such mutants
+	?a are designated prey independent
+		?a: Such mutants
+	?a vary
+		?a: their nutritional requirements
+
+
+label:    sent_17
+sentence: Neurological manifestations vary and the patient described here presented with complete paraplegia .
+
+ppatt:
+	?a vary
+		?a: Neurological manifestations
+	?a described here presented with ?b
+		?a: the patient
+		?b: complete paraplegia
+
+
+label:    sent_18
+sentence: Therapies vary and may include surgical interventions such as hysterectomy .
+
+ppatt:
+	?a vary
+		?a: Therapies
+	?a may include ?b
+		?a: Therapies
+		?b: surgical interventions such as hysterectomy
+
+
+label:    sent_19
+sentence: Treatment outcomes appear to vary according to the morphology of the malformation .
+
+ppatt:
+	?a appear to vary according to ?b
+		?a: Treatment outcomes
+		?b: the morphology of the malformation
+
+
+label:    sent_20
+sentence: If so , do those associations vary by gender ? The hemodynamic pattern of hypertension appears to vary according to the subject 's age .
+
+ppatt:
+	so , do ?a vary by ?b
+		?a: those associations
+		?b: gender
+	?a appears to vary according to ?b
+		?a: The hemodynamic pattern of hypertension
+		?b: the subject 's age
+
+
+label:    sent_21
+sentence: The visual complexity of objects was scaled to vary the objects ' salience .
+
+ppatt:
+	?a was scaled to vary ?b
+		?a: The visual complexity of objects
+		?b: the objects ' salience
+
+
+label:    sent_22
+sentence: Different concentrations of enzymes were used to vary the extent of hydrolysis .
+
+ppatt:
+	?a were used to vary ?b
+		?a: Different concentrations of enzymes
+		?b: the extent of hydrolysis
+
+
+label:    sent_23
+sentence: However , it is challenging to vary the concentration of droplets rapidly and controllably .
+
+ppatt:
+	However , ?a is challenging to vary ?b rapidly and controllably
+		?a: it
+		?b: the concentration of droplets
+
+
+label:    sent_24
+sentence: Effect sizes vary based on study design and warrant future research .
+
+ppatt:
+	?a vary
+		?a: Effect sizes
+	?a based on study design
+		?a: Effect sizes
+	?a warrant ?b
+		?a: Effect sizes
+		?b: future research
+
+
+label:    sent_25
+sentence: Metabolic responses vary according to age but always include an initial catabolism .
+
+ppatt:
+	?a vary according to ?b
+		?a: Metabolic responses
+		?b: age
+	?a always include ?b
+		?a: Metabolic responses
+		?b: an initial catabolism
+
+
+label:    sent_26
+sentence: Chronic rhinosinusitis is heterogeneous and treatment should vary according to the causative factor involved .
+
+ppatt:
+	?a is heterogeneous
+		?a: Chronic rhinosinusitis
+	?a should vary according to ?b
+		?a: treatment
+		?b: the causative factor involved
+	?a involved
+		?a: the causative factor
+
+

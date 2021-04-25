@@ -1,0 +1,86 @@
+label:    sent_1
+sentence: Furthermore , the two proteins relocalize similarly after osmotic shock .
+
+ppatt:
+	Furthermore , ?a relocalize similarly after ?b
+		?a: the two proteins
+		?b: osmotic shock
+
+
+label:    sent_2
+sentence: While the iCE colocalized with Bcr-Abl , it did not relocalize to the mitochondria .
+
+ppatt:
+	?a colocalized with ?b
+		?a: the iCE
+		?b: Bcr-Abl
+	?a did not relocalize to ?b
+		?a: it
+		?b: the mitochondria
+
+
+label:    sent_3
+sentence: Chromosomal passenger proteins relocalize from chromosomes to the spindle midzone after anaphase onset .
+
+ppatt:
+	?a relocalize from ?b to ?c after ?d
+		?a: Chromosomal passenger proteins
+		?b: chromosomes
+		?c: the spindle midzone
+		?d: anaphase onset
+
+
+label:    sent_4
+sentence: Furthermore , PIN3 fails to relocalize to the bottom membrane of statocytes upon gravistimulation .
+
+ppatt:
+	Furthermore , ?a fails to relocalize to ?b upon ?c
+		?a: PIN3
+		?b: the bottom membrane of statocytes
+		?c: gravistimulation
+
+
+label:    sent_5
+sentence: Several of these proteins appear to relocalize in response to mechanical stimuli .
+
+ppatt:
+	?a appear to relocalize in ?b
+		?a: Several of these proteins
+		?b: response to mechanical stimuli
+
+
+label:    sent_6
+sentence: However , retinoic acid treatment induced PI 3-kinase to relocalize throughout the cytoplasm .
+
+ppatt:
+	However , ?a induced ?b
+		?a: retinoic acid treatment
+		?b: PI 3-kinase
+	?a to relocalize throughout ?b
+		?a: retinoic acid treatment
+		?b: the cytoplasm
+
+
+label:    sent_7
+sentence: Immunoelectronmicroscopy was accomplished using anti-EGFP to relocalize the transplanted cells .
+
+ppatt:
+	?a was accomplished using ?b
+		?a: Immunoelectronmicroscopy
+		?b: anti-EGFP
+	?a relocalize ?b
+		?a: Immunoelectronmicroscopy
+		?b: the transplanted cells
+
+
+label:    sent_8
+sentence: Both are cytosolic proteins and do not relocalize upon reorganization of the actin cytoskeleton .
+
+ppatt:
+	?a are cytosolic proteins
+		?a: Both
+	?a do not relocalize upon ?b
+		?a: Both
+		?b: reorganization of the actin cytoskeleton
+
+

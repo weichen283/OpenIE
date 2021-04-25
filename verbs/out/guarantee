@@ -1,0 +1,223 @@
+label:    sent_1
+sentence: More attention should be paid to job environments to guarantee job satisfaction .
+
+ppatt:
+	?a should be paid to job ?b to guarantee ?c
+		?a: More attention
+		?b: environments
+		?c: job satisfaction
+
+
+label:    sent_2
+sentence: A scabicide treatment is necessary to guarantee successful treatment of the burns .
+
+ppatt:
+	?a is necessary to guarantee ?b
+		?a: A scabicide treatment
+		?b: successful treatment of the burns
+
+
+label:    sent_3
+sentence: What is the best way to guarantee postoperative glycemic control ? Longer exclusivity does not guarantee better drugs . Basic health care training does not guarantee sufficient competence .
+
+ppatt:
+	?a is the best way
+		?a: What
+	?a guarantee ?b
+		?a: the best way
+		?b: postoperative glycemic control
+	?a does not guarantee ?b
+		?a: Longer exclusivity
+		?b: better drugs
+	?a does not guarantee ?b
+		?a: Basic health care training
+		?b: sufficient competence
+
+
+label:    sent_4
+sentence: This does not , however , guarantee effective policies .
+
+ppatt:
+	?a does not , however , guarantee ?b
+		?a: This
+		?b: effective policies
+
+
+label:    sent_5
+sentence: Close communication networks are required to guarantee transportation to an adequate trauma center .
+
+ppatt:
+	?a are required to guarantee ?b
+		?a: Close communication networks
+		?b: transportation to an adequate trauma center
+
+
+label:    sent_6
+sentence: The different measures taken to guarantee structural integrity along the maintenance process are addressed .
+
+ppatt:
+	?a taken to guarantee ?b
+		?a: The different measures
+		?b: structural integrity along the maintenance process
+	?a are addressed
+		?a: The different measures taken to guarantee structural integrity along the maintenance process
+
+
+label:    sent_7
+sentence: Tories may ' guarantee ' work for new nurses . Cell-cycle checkpoints guarantee movement through the cell cycle .
+
+ppatt:
+	?a may ' guarantee ?b
+		?a: Tories
+		?b: work for new nurses
+	?a guarantee ?b
+		?a: Cell-cycle checkpoints
+		?b: movement through the cell cycle
+
+
+label:    sent_8
+sentence: Stem cells guarantee tissue repair and regeneration throughout life .
+
+ppatt:
+	?a guarantee ?b
+		?a: Stem cells
+		?b: tissue throughout life
+	?a guarantee ?b
+		?a: Stem cells
+		?b: regeneration
+
+
+label:    sent_9
+sentence: The hospital management wishes to guarantee a high quality of care by improving processes .
+
+ppatt:
+	?a wishes to guarantee ?b
+		?a: The hospital management
+		?b: a high quality of care
+	?a improving ?b
+		?a: The hospital management
+		?b: processes
+
+
+label:    sent_10
+sentence: Screw fixation provides primary stability but does not guarantee bony consolidation .
+
+ppatt:
+	?a provides ?b
+		?a: Screw fixation
+		?b: primary stability
+	?a does not guarantee ?b
+		?a: Screw fixation
+		?b: bony consolidation
+
+
+label:    sent_11
+sentence: However , the adoption of TAVI must be justified and guarantee long-term performance .
+
+ppatt:
+	However , ?a must be justified
+		?a: the adoption of TAVI
+	?a guarantee ?b
+		?a: the adoption of TAVI
+		?b: long-term performance
+
+
+label:    sent_12
+sentence: Additional constraints are required to guarantee low-dose conformality and to avoid unacceptable skin dose .
+
+ppatt:
+	?a are required to guarantee ?b
+		?a: Additional constraints
+		?b: low-dose conformality
+	?a are required to to avoid ?b
+		?a: Additional constraints
+		?b: unacceptable skin dose
+
+
+label:    sent_13
+sentence: These approaches neither guarantee privacy nor protect the usefulness of the data . The GCCR can guarantee a continuing development and improvement of existing procedures for LTS .
+
+ppatt:
+	?a neither guarantee ?b
+		?a: These approaches
+		?b: privacy
+	?a protect ?b
+		?a: These approaches
+		?b: the usefulness of the data
+	?a can guarantee ?b
+		?a: The GCCR
+		?b: a continuing development of existing procedures for LTS
+	?a can guarantee ?b
+		?a: The GCCR
+		?b: improvement
+
+
+label:    sent_14
+sentence: The narrow size distribution of the microspheres would guarantee repeatable productivity and release behavior .
+
+ppatt:
+	?a would guarantee ?b
+		?a: The narrow size distribution of the microspheres
+		?b: repeatable productivity
+	?a would guarantee ?b
+		?a: The narrow size distribution of the microspheres
+		?b: release
+	?a would guarantee ?b
+		?a: The narrow size distribution of the microspheres
+		?b: behavior
+
+
+label:    sent_15
+sentence: Admission in a smoke-free hospital does not guarantee that patients will refrain from smoking .
+
+ppatt:
+	?a does not guarantee ?b
+		?a: Admission in a smoke-free hospital
+		?b: SOMETHING := patients will refrain from smoking
+	?a will refrain from ?b
+		?a: patients
+		?b: smoking
+
+
+label:    sent_16
+sentence: Both approaches guarantee that the thresholds are properly ordered at the optimal solution .
+
+ppatt:
+	?a guarantee ?b
+		?a: Both approaches
+		?b: SOMETHING := the thresholds are properly ordered at the optimal solution
+	?a are properly ordered at ?b
+		?a: the thresholds
+		?b: the optimal solution
+
+
+label:    sent_17
+sentence: Optimizing one person does not guarantee that an organizational problem will be solved . Job guarantee for newly-qualified midwives ? [Standards of care in anesthesia .
+
+ppatt:
+	Optimizing ?a
+		?a: one person
+	?a does not guarantee ?b ?c
+		?a: SOMETHING := Optimizing one person
+		?b: SOMETHING := an organizational problem will be solved
+		?c: SOMETHING := Job guarantee for newly-qualified midwives ? [Standards of care in anesthesia
+	?a will be solved
+		?a: an organizational problem
+	?a guarantee for ?b ?c
+		?a: Job
+		?b: newly-qualified midwives
+		?c: [Standards of care in anesthesia
+
+
+label:    sent_18
+sentence: Quality guarantee in the operating room ] . Transarterial embolization for gastroduodenal artery bleeding could not guarantee against hepatic failure .
+
+ppatt:
+	?a guarantee in ?b
+		?a: Quality
+		?b: the operating room ]
+	?a could not guarantee against ?b
+		?a: Transarterial embolization for gastroduodenal artery bleeding
+		?b: hepatic failure
+
+

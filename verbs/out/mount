@@ -1,0 +1,290 @@
+label:    sent_1
+sentence: These changes decrease the body 's ability to mount protective antibody responses .
+
+ppatt:
+	?a decrease ?b
+		?a: These changes
+		?b: the body 's ability to mount protective antibody responses
+	?a mount ?b
+		?a: the body 's ability
+		?b: protective antibody responses
+
+
+label:    sent_2
+sentence: Tolerant BALB-neuT mice revealed a reduced ability to mount polarized Th1 responses .
+
+ppatt:
+	?a revealed ?b
+		?a: Tolerant BALB-neuT mice
+		?b: a reduced ability to mount polarized Th1 responses
+	?a mount ?b
+		?a: a reduced ability
+		?b: polarized Th1 responses
+
+
+label:    sent_3
+sentence: The capacity to mount a local memory IgA response seems especially important .
+
+ppatt:
+	?a mount ?b
+		?a: The capacity
+		?b: a local memory IgA response
+	?a seems especially important
+		?a: The capacity to mount a local memory IgA response
+
+
+label:    sent_4
+sentence: Social insects are able to mount both group-level and individual defences against pathogens .
+
+ppatt:
+	?a are able to mount ?b
+		?a: Social insects
+		?b: both group-level and individual defences against pathogens
+
+
+label:    sent_5
+sentence: Accumbens lesion in female rats increases mount rejection without modifying lordosis .
+
+ppatt:
+	?a increases mount ?b
+		?a: Accumbens lesion in female rats
+		?b: rejection
+	?a modifying ?b
+		?a: Accumbens lesion in female rats
+		?b: lordosis
+
+
+label:    sent_6
+sentence: Eukaryotic cells are able to mount several genetically complex cellular responses to DNA damage .
+
+ppatt:
+	?a are able to mount ?b to ?c
+		?a: Eukaryotic cells
+		?b: several genetically complex cellular responses
+		?c: DNA damage
+
+
+label:    sent_7
+sentence: Do cardiomyocytes mount an immune response to Group A Streptococcus ? Whole mount in situ hybridization methodology for Schistosoma mansoni .
+
+ppatt:
+	Do ?a mount ?b ?c
+		?a: cardiomyocytes
+		?b: an immune response to Group A Streptococcus
+		?c: Whole mount in hybridization methodology for Schistosoma mansoni
+
+
+label:    sent_8
+sentence: Chickens mount antibody responses to both pathogens , which indicate something other than commensalism .
+
+ppatt:
+	?a mount ?b
+		?a: Chickens
+		?b: antibody responses to both pathogens , which indicate something other than commensalism
+	?a indicate ?b
+		?a: both pathogens
+		?b: something other than commensalism
+
+
+label:    sent_9
+sentence: As antibody findings mount , what comes next ? Virus DNA translocation : progress towards a first ascent of mount pretty difficult .
+
+ppatt:
+	?a mount ?b
+		?a: antibody findings
+		?b: SOMETHING := what comes next ? Virus DNA translocation
+	?a comes next ?b
+		?a: what
+		?b: Virus DNA translocation
+	?a of mount
+		?a: a first ascent
+	?a pretty difficult
+		?a: progress towards a first ascent of mount
+
+
+label:    sent_10
+sentence: A whole mount specimen was observed after the reaction in a X-galactocidase substrate .
+
+ppatt:
+	?a was observed after ?b
+		?a: A whole mount specimen
+		?b: the reaction in a X-galactocidase substrate
+
+
+label:    sent_11
+sentence: Extremely preterm infants mount lower antibody responses than term infants to several vaccines .
+
+ppatt:
+	?a mount ?b than ?c to ?d
+		?a: Extremely preterm infants
+		?b: lower antibody responses
+		?c: term infants
+		?d: several vaccines
+
+
+label:    sent_12
+sentence: Mice lacking CD21 and CD35 proteins mount effective immune responses against Borrelia burgdorferi infection .
+
+ppatt:
+	?a lacking ?b ?c
+		?a: Mice
+		?b: CD21
+		?c: proteins
+	?a lacking ?b ?c
+		?a: Mice
+		?b: CD35
+		?c: proteins
+	?a mount ?b against ?c
+		?a: Mice lacking CD21 and CD35 proteins
+		?b: effective immune responses
+		?c: Borrelia burgdorferi infection
+
+
+label:    sent_13
+sentence: After secondary infection , Teff cells mount a robust response from the memory pool .
+
+ppatt:
+	After ?a , ?b mount ?c
+		?a: secondary infection
+		?b: Teff cells
+		?c: a robust response from the memory pool
+
+
+label:    sent_14
+sentence: Muscimol treatment in the saline-exposed group increased the mount and intromission latencies .
+
+ppatt:
+	?a increased ?b
+		?a: Muscimol treatment in the saline-exposed group
+		?b: the mount
+	?a increased ?b
+		?a: Muscimol treatment in the saline-exposed group
+		?b: intromission
+
+
+label:    sent_15
+sentence: Neuroglial cells define brain homeostasis and mount defense against pathological insults . CSE appeared to shorten penis erection latency and mount latency in castrated rats . Protests mount to cuts in translation services in the Netherlands . Frustrations mount over China 's high-priced hunt for trophy professors .
+
+ppatt:
+	?a define ?b
+		?a: Neuroglial cells
+		?b: brain homeostasis
+	?a mount ?b
+		?a: Neuroglial cells
+		?b: defense against pathological insults
+	?a appeared to shorten ?b
+		?a: CSE
+		?b: penis erection latency
+	?a appeared to mount ?b in ?c
+		?a: CSE
+		?b: latency
+		?c: castrated rats
+	?a mount to ?b
+		?a: Protests
+		?b: cuts in translation services in the Netherlands
+	?a mount over ?b
+		?a: Frustrations
+		?b: China 's high-priced hunt for trophy professors
+
+
+label:    sent_16
+sentence: Protests mount against Libyan trial . C57BL/6 mice mount a Th1 response and resolve infection .
+
+ppatt:
+	?a mount against ?b
+		?a: Protests
+		?b: Libyan trial
+	?a mount ?b
+		?a: C57BL/6 mice
+		?b: a Th1 response
+	?a resolve ?b
+		?a: C57BL/6 mice
+		?b: infection
+
+
+label:    sent_17
+sentence: The rats mount a cell-bound response to EP , but encephalomyelitis does not develop .
+
+ppatt:
+	?a mount ?b
+		?a: The rats
+		?b: a cell-bound response to EP
+	?a does not develop
+		?a: encephalomyelitis
+
+
+label:    sent_18
+sentence: The adapter was easy to mount and detach without discomfort .
+
+ppatt:
+	?a was easy to mount without ?b
+		?a: The adapter
+		?b: discomfort
+	?a was easy to detach
+		?a: The adapter
+
+
+label:    sent_19
+sentence: DOI increased mounting and/or mount plus thrusting behavior in adult males with receptive females .
+
+ppatt:
+	?a increased ?b in ?c
+		?a: DOI
+		?b: mounting
+		?c: adult males with receptive females
+	?a increased ?b in ?c
+		?a: DOI
+		?b: mount
+		?c: adult males with receptive females
+	?a increased ?b in ?c
+		?a: DOI
+		?b: thrusting
+		?c: adult males with receptive females
+	?a increased ?b in ?c
+		?a: DOI
+		?b: behavior
+		?c: adult males with receptive females
+
+
+label:    sent_20
+sentence: Both compounds triggered intense male antennation and mount when applied to solvent-washed female cadavers .
+
+ppatt:
+	?a triggered ?b
+		?a: Both compounds
+		?b: intense male antennation
+	?a mount
+		?a: Both compounds
+	?a when applied to ?b
+		?a: Both compounds
+		?b: solvent-washed female cadavers
+
+
+label:    sent_21
+sentence: The STZ rats showed significant deficits in mount , intromission , and ejaculatory behaviors .
+
+ppatt:
+	?a showed ?b
+		?a: The STZ rats
+		?b: significant deficits in mount , intromission , and ejaculatory
+
+
+label:    sent_22
+sentence: This technique is a suitable alternative to conventional whole mount and frozen sectioning methods .
+
+ppatt:
+	?a is a suitable alternative to ?b
+		?a: This technique
+		?b: conventional whole mount
+	?a is a suitable alternative to ?b
+		?a: This technique
+		?b: frozen sectioning
+
+
+label:    sent_23
+sentence: Measurements of penis length at mount , intromission , and ejaculation .
+
+ppatt:
+
+
+

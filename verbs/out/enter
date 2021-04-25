@@ -1,0 +1,326 @@
+label:    sent_1
+sentence: This adds to the repertoire of chemokine receptors permitting them to enter diverse tissues .
+
+ppatt:
+	?a adds to ?b
+		?a: This
+		?b: the repertoire of chemokine receptors permitting them to enter diverse tissues
+	?a permitting ?b to enter ?c
+		?a: chemokine receptors
+		?b: them
+		?c: diverse tissues
+
+
+label:    sent_2
+sentence: Furthermore , chx21 chx23 pollen tubes failed to enter the micropyle of excised ovules . C21 is awaited to enter a phase I clinical study in 2011 .
+
+ppatt:
+	Furthermore , ?a failed to enter ?b
+		?a: chx21 chx23 pollen tubes
+		?b: the micropyle of excised ovules
+	?a is awaited to enter ?b
+		?a: C21
+		?b: a phase I clinical study in 2011
+
+
+label:    sent_3
+sentence: Patients also could enter a 1-year study extension phase . Regulating neutrophil apoptosis : new players enter the game .
+
+ppatt:
+	?a also could enter ?b ?c
+		?a: Patients
+		?b: study
+		?c: a 1-year extension phase
+	?a Regulating ?b
+		?a: Patients
+		?b: neutrophil apoptosis
+	?a enter ?b
+		?a: new players
+		?b: the game
+
+
+label:    sent_4
+sentence: Non-coding RNAs enter mitosis : functions , conservation and implications .
+
+ppatt:
+	?a enter ?b ?c
+		?a: Non-coding RNAs
+		?b: mitosis
+		?c: functions
+	?a enter ?b ?c
+		?a: Non-coding RNAs
+		?b: mitosis
+		?c: conservation
+	?a enter ?b ?c
+		?a: Non-coding RNAs
+		?b: mitosis
+		?c: implications
+
+
+label:    sent_5
+sentence: Diverse enveloped viruses enter cells by endocytosis and fusion with intracellular compartments .
+
+ppatt:
+	?a enter ?b by ?c
+		?a: Diverse enveloped viruses
+		?b: cells
+		?c: endocytosis with intracellular compartments
+	?a enter ?b by ?c
+		?a: Diverse enveloped viruses
+		?b: cells
+		?c: fusion
+
+
+label:    sent_6
+sentence: Globulins enter the healthy brain in conjunction with 2-O-hexyldiglycerol .
+
+ppatt:
+	?a enter ?b with ?c
+		?a: Globulins
+		?b: the healthy brain
+		?c: 2-O-hexyldiglycerol
+
+
+label:    sent_7
+sentence: The major group human rhinovirus type 8 can enter cells via heparan sulphate .
+
+ppatt:
+	?a can enter ?b via ?c
+		?a: The major group human rhinovirus type 8
+		?b: cells
+		?c: heparan sulphate
+
+
+label:    sent_8
+sentence: At no time did more than a single mouse enter the operant compartment .
+
+ppatt:
+	At ?a did more than ?b
+		?a: no time
+		?b: a single mouse
+	than ?a enter ?b
+		?a: a single mouse
+		?b: the operant compartment
+
+
+label:    sent_9
+sentence: Mouse Emi2 is required to enter meiosis II by reestablishing cyclin B1 during interkinesis .
+
+ppatt:
+	?a is required to enter ?b
+		?a: Mouse Emi2
+		?b: meiosis II
+	?a reestablishing ?b during ?c
+		?a: Mouse Emi2
+		?b: cyclin B1
+		?c: interkinesis
+
+
+label:    sent_10
+sentence: Foster Medical 's home care division to enter joint ventures in 2 states .
+
+ppatt:
+	Foster ?a
+		?a: Medical 's home care division
+	enter ?a in ?b
+		?a: joint ventures
+		?b: 2 states
+
+
+label:    sent_11
+sentence: Subsequently , the oogonia enter meiosis and become oocytes .
+
+ppatt:
+	Subsequently , ?a enter ?b
+		?a: the oogonia
+		?b: meiosis
+	?a become oocytes
+		?a: the oogonia
+
+
+label:    sent_12
+sentence: Exogenous negatively-charged PS or PI may enter plasma membranes and increase Ca++ binding levels .
+
+ppatt:
+	?a may enter ?b
+		?a: Exogenous negatively-charged PS
+		?b: plasma membranes
+	?a may enter ?b
+		?a: PI
+		?b: plasma membranes
+	?a increase ?b
+		?a: Exogenous negatively-charged PS
+		?b: Ca++ binding levels
+	?a increase ?b
+		?a: PI
+		?b: Ca++ binding levels
+
+
+label:    sent_13
+sentence: Thus ; bacterial hydrolases can enter the tumour tissue and lead to oncolysis .
+
+ppatt:
+	Thus ; ?a can enter ?b
+		?a: bacterial hydrolases
+		?b: the tumour tissue
+	?a lead to ?b
+		?a: bacterial hydrolases
+		?b: oncolysis
+
+
+label:    sent_14
+sentence: Perfluorinated compounds ( PFCs ) can cross the placental barrier and enter fetal circulation .
+
+ppatt:
+	?a is/are PFCs
+		?a: Perfluorinated compounds
+	?a can cross ?b
+		?a: Perfluorinated compounds
+		?b: the placental barrier
+	?a enter ?b
+		?a: Perfluorinated compounds
+		?b: fetal circulation
+
+
+label:    sent_15
+sentence: Some cells eventually escape the cell cycle arrest and enter mitosis .
+
+ppatt:
+	?a eventually escape ?b
+		?a: Some cells
+		?b: the cell cycle arrest
+	?a enter ?b
+		?a: Some cells
+		?b: mitosis
+
+
+label:    sent_16
+sentence: Methyl sulphate inhibited chloride self-exchange and may enter depolarized fibre membranes slowly . LXR-alpha selectively reprogrammes cancer cells to enter into apoptosis .
+
+ppatt:
+	?a inhibited ?b
+		?a: Methyl sulphate
+		?b: chloride self-exchange
+	?a may enter ?b slowly
+		?a: Methyl sulphate
+		?b: depolarized fibre membranes
+	?a selectively reprogrammes ?b to enter into ?c
+		?a: LXR-alpha
+		?b: cancer cells
+		?c: apoptosis
+
+
+label:    sent_17
+sentence: Whether this innovative concept will enter into clinical routine remains yet to be determined .
+
+ppatt:
+	?a will enter into ?b
+		?a: this innovative concept
+		?b: clinical routine
+	?a remains yet to be determined
+		?a: SOMETHING := this innovative concept will enter into clinical routine
+
+
+label:    sent_18
+sentence: In their absence , cells may enter into a quiescent ( G0 ) state .
+
+ppatt:
+	In ?a , ?b may enter into ?c
+		?a: their absence
+		?b: cells
+		?c: a quiescent state
+
+
+label:    sent_19
+sentence: Pharmaceuticals enter aquatic environments in unchanged form or as metabolites .
+
+ppatt:
+	?a enter ?b in ?c
+		?a: Pharmaceuticals
+		?b: aquatic environments
+		?c: unchanged form
+	?a enter ?b in ?c
+		?a: Pharmaceuticals
+		?b: aquatic environments
+		?c: metabolites
+
+
+label:    sent_20
+sentence: These peptide hormones enter the CSF through the choroid plexus or by direct secretion .
+
+ppatt:
+	?a enter ?b through ?c
+		?a: These peptide hormones
+		?b: the CSF
+		?c: the choroid plexus
+	?a enter ?b through ?c
+		?a: These peptide hormones
+		?b: the CSF
+		?c: direct secretion
+
+
+label:    sent_21
+sentence: Fetal progenitor cells enter the maternal circulation during pregnancy and can persist for decades .
+
+ppatt:
+	?a enter ?b during ?c
+		?a: Fetal progenitor cells
+		?b: the maternal circulation
+		?c: pregnancy
+	?a can persist for ?b
+		?a: Fetal progenitor cells
+		?b: decades
+
+
+label:    sent_22
+sentence: Other toxic compounds have also been designed to enter via this transporter .
+
+ppatt:
+	?a have also been designed to enter via ?b
+		?a: Other toxic compounds
+		?b: this transporter
+
+
+label:    sent_23
+sentence: As these cells seemed to enter into G2/M compartment immediately .
+
+ppatt:
+	?a seemed to enter into ?b immediately
+		?a: these cells
+		?b: G2/M compartment
+
+
+label:    sent_24
+sentence: During reoxygenation calcium also appears to enter through nonspecific sarcolemmal permeability changes . HIV-1 requires Arf6-mediated membrane dynamics to efficiently enter and infect T lymphocytes .
+
+ppatt:
+	During ?a also appears to enter through ?b
+		?a: reoxygenation calcium
+		?b: nonspecific sarcolemmal permeability changes
+	?a requires ?b to efficiently enter ?c
+		?a: HIV-1
+		?b: Arf6-mediated membrane dynamics
+		?c: T lymphocytes
+	?a requires to infect
+		?a: HIV-1
+
+
+label:    sent_25
+sentence: PHProteomicDB has a user-friendly administration interface to enter and update data . Subjects were allowed to enter and leave the maze goal box at will .
+
+ppatt:
+	?a has ?b to enter ?c
+		?a: PHProteomicDB
+		?b: a user-friendly administration interface
+		?c: data
+	?a has to update
+		?a: PHProteomicDB
+	?a were allowed to enter ?b
+		?a: Subjects
+		?b: the maze goal box
+	?a were allowed to leave
+		?a: Subjects
+	?a will
+		?a: Subjects
+
+

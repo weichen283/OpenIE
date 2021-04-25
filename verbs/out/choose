@@ -1,0 +1,282 @@
+label:    sent_1
+sentence: How to choose the right statistical test ? Femoral head osteonecrosis : why choose free vascularized fibula grafting . How to appropriately choose research subjects .
+
+ppatt:
+	How to choose ?a
+		?a: the right statistical test
+	?a is/are Femoral head osteonecrosis
+		?a: the right statistical test
+	why choose ?a . How to appropriately choose ?b
+		?a: free vascularized fibula grafting
+		?b: research subjects
+
+
+label:    sent_2
+sentence: These diets allow the patients and their families to choose a more liberal menu . Japanese primary care doctors choose drugs appropriately based on the pathogenesis of FD .
+
+ppatt:
+	?a allow ?b
+		?a: These diets
+		?b: the patients
+	?a allow ?b
+		?a: These diets
+		?b: their families to choose a more liberal menu
+	?a choose ?b
+		?a: their families
+		?b: a more liberal menu
+	?a choose ?b appropriately
+		?a: Japanese primary care doctors
+		?b: drugs
+	?a based on the pathogenesis of ?b
+		?a: Japanese primary care doctors
+		?b: FD
+
+
+label:    sent_3
+sentence: Why do people choose what they choose ? A number of reasons lead patients to choose to undergo weight loss procedures .
+
+ppatt:
+	Why do ?a choose ?b
+		?a: people
+		?b: SOMETHING := what they choose
+	?a ?b choose
+		?a: what
+		?b: they
+	?a lead ?b to choose to undergo ?c
+		?a: A number of reasons
+		?b: patients
+		?c: weight loss procedures
+
+
+label:    sent_4
+sentence: Many farmworkers choose to take risks in order to save time .
+
+ppatt:
+	?a choose to take ?b
+		?a: Many farmworkers
+		?b: risks
+	?a order to save ?b
+		?a: Many farmworkers
+		?b: time
+
+
+label:    sent_5
+sentence: However , many people choose to not use drugs while they are growing up . Investigators can then choose among alternative models using goodness-of-fit statistics .
+
+ppatt:
+	However , ?a choose to not use ?b
+		?a: many people
+		?b: drugs
+	?a are growing up
+		?a: they
+	?a can then choose among ?b using ?c
+		?a: Investigators
+		?b: alternative models
+		?c: goodness-of-fit statistics
+
+
+label:    sent_6
+sentence: Physicians recommend different treatments for patients than they would choose for themselves .
+
+ppatt:
+	?a recommend ?b
+		?a: Physicians
+		?b: different treatments for patients
+	?a would choose for ?b
+		?a: they
+		?b: themselves
+
+
+label:    sent_7
+sentence: How to choose between these two outcomes is not fully understood .
+
+ppatt:
+	How to choose between ?a
+		?a: these two outcomes
+
+
+label:    sent_8
+sentence: Forty eight percent of dentists choose the same material in all clinical situations .
+
+ppatt:
+	?a choose ?b in ?c
+		?a: Forty eight percent of dentists
+		?b: the same material
+		?c: all clinical situations
+
+
+label:    sent_9
+sentence: In all , 92 % of patients questioned would choose RTX therapy again .
+
+ppatt:
+	?a questioned
+		?a: patients
+	In ?a , ?b would choose ?c again
+		?a: all
+		?b: 92 % of patients questioned
+		?c: RTX therapy
+
+
+label:    sent_10
+sentence: Why do people choose charcoal burning as a method of suicide ? Peers allowed to choose among CM candidates .
+
+ppatt:
+	Why do ?a choose ?b as ?c
+		?a: people
+		?b: charcoal burning
+		?c: a method of suicide
+	?a allowed to choose among ?b
+		?a: Peers
+		?b: CM candidates
+
+
+label:    sent_11
+sentence: Previously for personal reasons , did not choose not to undergo any treatment .
+
+ppatt:
+	Previously for ?a , did not choose not to undergo ?b
+		?a: personal reasons
+		?b: any treatment
+
+
+label:    sent_12
+sentence: Public or private : where would you choose to work ?-Public .
+
+ppatt:
+	?a where would you choose to work ?b
+		?a: Public
+		?b: ?-Public
+	?a where would you choose to work ?b
+		?a: private
+		?b: ?-Public
+
+
+label:    sent_13
+sentence: Why choose cardiothoracic surgery as a career ? In this case one has to choose P as the independent macroscopic variable .
+
+ppatt:
+	Why choose ?a as ?b ?c
+		?a: cardiothoracic surgery
+		?b: a career
+		?c: one
+	In ?a ?b has to choose ?c as ?d
+		?a: this case
+		?b: one
+		?c: P
+		?d: the independent macroscopic variable
+
+
+label:    sent_14
+sentence: Why hospitals choose the merger route .
+
+ppatt:
+	Why ?a choose ?b
+		?a: hospitals
+		?b: the merger route
+
+
+label:    sent_15
+sentence: When several exclusive choices are proposed , macaques vote and choose the majority .
+
+ppatt:
+	When ?a are proposed
+		?a: several exclusive choices
+	?a vote
+		?a: macaques
+	?a choose ?b
+		?a: macaques
+		?b: the majority
+
+
+label:    sent_16
+sentence: We need to choose suitable examinations and to interpret examination results .
+
+ppatt:
+	?a need to choose ?b
+		?a: We
+		?b: suitable examinations
+	?a need to to interpret ?b
+		?a: We
+		?b: examination results
+
+
+label:    sent_17
+sentence: To research and choose the best crude drugs of Rhubarb dispensing granule .
+
+ppatt:
+	research ?a
+		?a: the best crude drugs of Rhubarb dispensing granule
+	choose ?a
+		?a: the best crude drugs of Rhubarb dispensing granule
+
+
+label:    sent_18
+sentence: A simple method to choose the most representative stride and detect outliers .
+
+ppatt:
+	?a choose ?b
+		?a: A simple method
+		?b: the most representative stride
+	detect ?a
+		?a: outliers
+
+
+label:    sent_19
+sentence: But providers must choose their most important priorities and develop contingency plans .
+
+ppatt:
+	?a must choose ?b
+		?a: providers
+		?b: their most important priorities
+	?a develop ?b
+		?a: providers
+		?b: contingency plans
+
+
+label:    sent_20
+sentence: The practitioner must choose one definition and apply it consistently in disease investigations .
+
+ppatt:
+	?a must choose ?b
+		?a: The practitioner
+		?b: one definition
+	?a apply ?b consistently in ?c
+		?a: The practitioner
+		?b: it
+		?c: disease investigations
+
+
+label:    sent_21
+sentence: It is currently unclear how systematic reviewers choose and pre-specify outcomes for systematic reviews .
+
+ppatt:
+	?a is currently unclear ?b
+		?a: It
+		?b: SOMETHING := how systematic reviewers choose outcomes for systematic reviews
+	how ?a choose ?b for ?c
+		?a: systematic reviewers
+		?b: outcomes
+		?c: systematic reviews
+
+
+label:    sent_22
+sentence: College health professionals can choose to become actively involved or we can be bystanders .
+
+ppatt:
+	?a can choose to become actively involved
+		?a: College health professionals
+	can choose to actively involved ?a can be bystanders
+		?a: we
+
+
+label:    sent_23
+sentence: How to choose and use devices to track your health .
+
+ppatt:
+	How to choose ?a to track ?b
+		?a: devices
+		?b: your health
+	use ?a
+		?a: devices
+
+

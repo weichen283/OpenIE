@@ -1,0 +1,360 @@
+label:    sent_1
+sentence: This is confirmed by the ability of the purified oligomer to disrupt liposomes .
+
+ppatt:
+	?a is confirmed by ?b
+		?a: This
+		?b: the ability of the purified oligomer to disrupt liposomes
+	?a disrupt ?b
+		?a: the ability of the purified oligomer
+		?b: liposomes
+
+
+label:    sent_2
+sentence: Pretreatments remove lignin and disrupt its structure , thereby enhancing sugar release .
+
+ppatt:
+	?a remove ?b
+		?a: Pretreatments
+		?b: lignin
+	?a disrupt ?b
+		?a: Pretreatments
+		?b: its structure
+	?a thereby enhancing ?b
+		?a: Pretreatments
+		?b: sugar release
+
+
+label:    sent_3
+sentence: Recently , exposure to hyperoxia was reported to disrupt myelin formation in neonatal rats . How addictive drugs disrupt presynaptic dopamine neurotransmission .
+
+ppatt:
+	Recently , ?a was reported to disrupt ?b
+		?a: exposure to hyperoxia
+		?b: myelin formation in neonatal rats
+	How ?a disrupt ?b
+		?a: addictive drugs
+		?b: presynaptic dopamine neurotransmission
+
+
+label:    sent_4
+sentence: It does not disrupt Klar 's function for nuclear migration in photoreceptors .
+
+ppatt:
+	?a does not disrupt ?b
+		?a: It
+		?b: Klar 's function for nuclear migration in photoreceptors
+
+
+label:    sent_5
+sentence: Current chemical-based synchronization methods are unfavorable as these can disrupt cell physiology and metabolism .
+
+ppatt:
+	?a are unfavorable
+		?a: Current chemical-based synchronization methods
+	?a can disrupt ?b
+		?a: these
+		?b: cell
+	?a can disrupt ?b
+		?a: these
+		?b: metabolism
+
+
+label:    sent_6
+sentence: Surface-associated silicone compounds can disrupt glue curing and alter enzyme properties .
+
+ppatt:
+	?a can disrupt ?b
+		?a: Surface-associated silicone compounds
+		?b: glue curing
+	?a alter ?b
+		?a: Surface-associated silicone compounds
+		?b: enzyme properties
+
+
+label:    sent_7
+sentence: These variations disrupt postsynaptic transmission and affect neuronal communication .
+
+ppatt:
+	?a disrupt ?b
+		?a: These variations
+		?b: postsynaptic transmission
+	?a affect ?b
+		?a: These variations
+		?b: neuronal communication
+
+
+label:    sent_8
+sentence: Estrogens are important environmental contaminants that disrupt endocrine systems and feminize male fish . DEAD-box proteins disrupt or remodel RNA and protein/RNA complexes at the expense of ATP .
+
+ppatt:
+	?a are important environmental contaminants
+		?a: Estrogens
+	?a disrupt ?b
+		?a: important environmental contaminants
+		?b: endocrine systems
+	?a feminize ?b
+		?a: that
+		?b: male fish
+	?a disrupt ?b at ?c
+		?a: DEAD-box proteins
+		?b: RNA
+		?c: the expense of ATP
+	?a disrupt ?b at ?c
+		?a: DEAD-box proteins
+		?b: protein/RNA complexes
+		?c: the expense of ATP
+	?a remodel
+		?a: DEAD-box proteins
+
+
+label:    sent_9
+sentence: C-terminal HERG ( LQT2 ) mutations disrupt IKr channel regulation through 14-3-3epsilon .
+
+ppatt:
+	?a is/are LQT2
+		?a: C-terminal HERG
+	?a disrupt ?b through ?c
+		?a: C-terminal HERG mutations
+		?b: IKr channel regulation
+		?c: 14-3-3epsilon
+
+
+label:    sent_10
+sentence: These results suggested that BPA might disrupt normal neocortical development by accelerating neuronal differentiation/migration .
+
+ppatt:
+	?a suggested ?b
+		?a: These results
+		?b: SOMETHING := BPA might disrupt normal neocortical development by accelerating neuronal differentiation/migration
+	?a might disrupt ?b
+		?a: BPA
+		?b: normal neocortical development
+	?a accelerating ?b
+		?a: BPA
+		?b: neuronal differentiation/migration
+
+
+label:    sent_11
+sentence: Mutations of R75 cause deafness and disrupt gap-junctional communication .
+
+ppatt:
+	?a cause ?b
+		?a: Mutations of R75
+		?b: deafness
+	?a disrupt ?b
+		?a: Mutations of R75
+		?b: gap-junctional communication
+
+
+label:    sent_12
+sentence: Rumination can prolong negative mood , disrupt sleep , and increase depression risk .
+
+ppatt:
+	?a can prolong ?b
+		?a: Rumination
+		?b: negative mood
+	?a disrupt ?b
+		?a: Rumination
+		?b: sleep
+	?a increase ?b
+		?a: Rumination
+		?b: depression risk
+
+
+label:    sent_13
+sentence: These septa deflect many RGC axons and disrupt nearest-neighbor relationships .
+
+ppatt:
+	?a deflect ?b
+		?a: These septa
+		?b: many RGC axons
+	?a disrupt ?b
+		?a: These septa
+		?b: nearest-neighbor relationships
+
+
+label:    sent_14
+sentence: On the use of magnets to disrupt the physiological compass of birds . Like F508del , R560T and A561E disrupt CFTR trafficking .
+
+ppatt:
+	?a disrupt ?b
+		?a: the use of magnets
+		?b: the physiological compass of birds
+	On ?a . Like ?b , ?c disrupt ?d
+		?a: the use of magnets to disrupt the physiological compass of birds
+		?b: F508del
+		?c: R560T
+		?d: CFTR trafficking
+	On ?a . Like ?b , ?c disrupt ?d
+		?a: the use of magnets to disrupt the physiological compass of birds
+		?b: F508del
+		?c: A561E
+		?d: CFTR trafficking
+
+
+label:    sent_15
+sentence: Acute exposure to NO2 is reported to disrupt tight junctions in lung epithelium .
+
+ppatt:
+	?a is reported to disrupt ?b
+		?a: Acute exposure to NO2
+		?b: tight junctions in lung epithelium
+
+
+label:    sent_16
+sentence: Both drugs disrupt F-actin , but in different ways . AsV and AsIII both disrupt plant metabolism , but through distinct mechanisms .
+
+ppatt:
+	?a disrupt ?b
+		?a: Both drugs
+		?b: F-actin
+	in ?a . ?b both disrupt ?c , through ?d
+		?a: different ways
+		?b: AsV
+		?c: plant metabolism
+		?d: distinct mechanisms
+	in ?a . ?b both disrupt ?c , through ?d
+		?a: different ways
+		?b: AsIII
+		?c: plant metabolism
+		?d: distinct mechanisms
+
+
+label:    sent_17
+sentence: In conclusion , ECP and EDN disrupt skin integrity and cause inflammation .
+
+ppatt:
+	In ?a , ?b disrupt ?c
+		?a: conclusion
+		?b: ECP
+		?c: skin integrity
+	In ?a , ?b disrupt ?c
+		?a: conclusion
+		?b: EDN
+		?c: skin integrity
+	?a cause ?b
+		?a: ECP
+		?b: inflammation
+	?a cause ?b
+		?a: EDN
+		?b: inflammation
+
+
+label:    sent_18
+sentence: The pathogenic mechanism through which KAL1 variants disrupt female reproductive development requires further investigation .
+
+ppatt:
+	?a through ?b disrupt ?c
+		?a: The pathogenic mechanism
+		?b: KAL1 variants
+		?c: female reproductive development
+	?a requires ?b
+		?a: The pathogenic mechanism through which KAL1 variants disrupt female reproductive development
+		?b: further investigation
+
+
+label:    sent_19
+sentence: This study demonstrates one mechanism by which WMLs may disrupt frontostriatal circuits .
+
+ppatt:
+	?a demonstrates ?b
+		?a: This study
+		?b: one mechanism by which WMLs may disrupt frontostriatal circuits
+	?a by ?b may disrupt ?c
+		?a: one mechanism
+		?b: WMLs
+		?c: frontostriatal circuits
+
+
+label:    sent_20
+sentence: This may be an important mechanism by which inflammatory mediators disrupt the fibrin degradation .
+
+ppatt:
+	?a may be an important mechanism
+		?a: This
+	?a by ?b disrupt ?c
+		?a: an important mechanism
+		?b: inflammatory mediators
+		?c: the fibrin degradation
+
+
+label:    sent_21
+sentence: All organisms contain transposons with the potential to disrupt and rearrange genes .
+
+ppatt:
+	?a contain ?b
+		?a: All organisms
+		?b: transposons with the potential to disrupt and rearrange genes
+	?a disrupt ?b
+		?a: the potential
+		?b: genes
+	rearrange ?a
+		?a: genes
+
+
+label:    sent_22
+sentence: This breakdown produces a plasma that can disrupt or obscure the CARS signal .
+
+ppatt:
+	?a produces ?b
+		?a: This breakdown
+		?b: a plasma that can disrupt or obscure the CARS signal
+	?a can disrupt ?b
+		?a: a plasma
+		?b: the CARS signal
+
+
+label:    sent_23
+sentence: Endoscopic therapy for achalasia aims to disrupt or weaken the lower esophageal sphincter .
+
+ppatt:
+	?a aims to disrupt ?b
+		?a: Endoscopic therapy for achalasia
+		?b: the lower esophageal sphincter
+	?a aims to weaken
+		?a: Endoscopic therapy for achalasia
+
+
+label:    sent_24
+sentence: The results suggest that negative discriminable shifts in drug availability disrupt ongoing responding .
+
+ppatt:
+	?a suggest ?b
+		?a: The results
+		?b: SOMETHING := negative discriminable shifts in drug availability disrupt ongoing responding
+	?a disrupt ?b
+		?a: negative discriminable shifts in drug availability
+		?b: ongoing responding
+
+
+label:    sent_25
+sentence: Mutations to AFFs can disrupt lymphopoesis , CNS development and spermatogenesis .
+
+ppatt:
+	?a can disrupt ?b
+		?a: Mutations to AFFs
+		?b: lymphopoesis
+	?a can disrupt ?b
+		?a: Mutations to AFFs
+		?b: CNS
+	?a can disrupt ?b
+		?a: Mutations to AFFs
+		?b: development
+	?a can disrupt ?b
+		?a: Mutations to AFFs
+		?b: spermatogenesis
+
+
+label:    sent_26
+sentence: Diseases that disrupt myelin , including multiple sclerosis , cause significant functional disability .
+
+ppatt:
+	?a disrupt ?b
+		?a: Diseases
+		?b: myelin including multiple sclerosis
+	?a cause ?b
+		?a: Diseases that disrupt myelin , including multiple sclerosis
+		?b: significant functional disability
+
+

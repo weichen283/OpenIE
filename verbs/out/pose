@@ -1,0 +1,316 @@
+label:    sent_1
+sentence: However , sedative hypnotic drugs pose potentially adverse effects .
+
+ppatt:
+	However , ?a pose ?b
+		?a: sedative hypnotic drugs
+		?b: potentially adverse effects
+
+
+label:    sent_2
+sentence: Legacy systems and interoperability present further challenges , and outsourcing may pose special problems .
+
+ppatt:
+	?a present ?b
+		?a: Legacy systems
+		?b: further challenges
+	?a present ?b
+		?a: interoperability
+		?b: further challenges
+	?a may pose ?b
+		?a: outsourcing
+		?b: special problems
+
+
+label:    sent_3
+sentence: Vector-borne diseases , transmitted by bloodsucking arthropods , pose worldwide socio-medical and economical problems .
+
+ppatt:
+	?a transmitted by ?b
+		?a: Vector-borne diseases
+		?b: bloodsucking arthropods
+	?a pose ?b
+		?a: Vector-borne diseases , transmitted by bloodsucking arthropods
+		?b: worldwide socio-medical and economical problems
+
+
+label:    sent_4
+sentence: In that case , waste would not pose any threat to healthcare workers . For clinicians , women with hypertension and diabetes during pregnancy pose a management challenge .
+
+ppatt:
+	In ?a , ?b would not pose ?c
+		?a: that case
+		?b: waste
+		?c: any threat to healthcare workers
+	For ?a , ?b pose ?c
+		?a: clinicians
+		?b: women with hypertension and diabetes during pregnancy
+		?c: a management challenge
+
+
+label:    sent_5
+sentence: Feral raccoons may pose a risk to farms and public health .
+
+ppatt:
+	?a may pose ?b
+		?a: Feral raccoons
+		?b: a risk to farms and public health
+
+
+label:    sent_6
+sentence: Acute gastrointestinal illness appears to pose a significant burden in the Hessian population .
+
+ppatt:
+	?a appears to pose ?b
+		?a: Acute gastrointestinal illness
+		?b: a significant burden in the Hessian population
+
+
+label:    sent_7
+sentence: Identifying air pollutants that pose a potential hazard indoors can facilitate exposure mitigation .
+
+ppatt:
+	Identifying ?a
+		?a: air pollutants that pose a potential hazard indoors
+	?a pose ?b
+		?a: air pollutants
+		?b: a potential hazard indoors
+	?a can facilitate ?b
+		?a: SOMETHING := Identifying air pollutants that pose a potential hazard indoors
+		?b: exposure mitigation
+
+
+label:    sent_8
+sentence: ENPs accumulation in ecosystems is likely to pose threat to specific and non-specific targets .
+
+ppatt:
+	?a is likely to pose ?b
+		?a: ENPs accumulation in ecosystems
+		?b: threat to specific and non-specific targets
+
+
+label:    sent_9
+sentence: Primary mesenteric tumors are exceedingly rare and may thus pose a diagnostic challenge .
+
+ppatt:
+	?a are exceedingly rare
+		?a: Primary mesenteric tumors
+	?a may thus pose ?b
+		?a: Primary mesenteric tumors
+		?b: a diagnostic challenge
+
+
+label:    sent_10
+sentence: Contactless and pose invariant biometric identification using hand surface .
+
+ppatt:
+	pose ?a using ?b
+		?a: invariant biometric identification
+		?b: hand surface
+
+
+label:    sent_11
+sentence: The presentation to general surgeons may be atypical and pose diagnostic difficulty .
+
+ppatt:
+	?a may be atypical
+		?a: The presentation to general surgeons
+	?a pose ?b
+		?a: The presentation to general surgeons
+		?b: diagnostic difficulty
+
+
+label:    sent_12
+sentence: Coexistent infections pose diagnostic problems in AIDS patients and are likely to be missed .
+
+ppatt:
+	?a pose ?b
+		?a: Coexistent infections
+		?b: diagnostic problems in AIDS patients
+
+
+label:    sent_13
+sentence: These disorders pose a significant economic burden and affect quality of life .
+
+ppatt:
+	?a pose ?b
+		?a: These disorders
+		?b: a significant economic burden
+	?a affect ?b
+		?a: These disorders
+		?b: quality of life
+
+
+label:    sent_14
+sentence: Cochlear obstructions pose a surgical threat and negatively influence the postoperative speech perception results .
+
+ppatt:
+	?a pose ?b
+		?a: Cochlear obstructions
+		?b: a surgical threat
+	?a negatively influence ?b
+		?a: Cochlear obstructions
+		?b: the postoperative speech perception results
+
+
+label:    sent_15
+sentence: Landmines pose further danger to Uganda 's war refugees .
+
+ppatt:
+	?a pose ?b
+		?a: Landmines
+		?b: further danger to Uganda 's war refugees
+
+
+label:    sent_16
+sentence: These periods are considered to pose greater health risks to women .-Borrowed vascularizations still pose complex diagnostic problems at different levels .
+
+ppatt:
+	?a are considered to pose ?b
+		?a: These periods
+		?b: greater health risks to women
+	?a still pose ?b at ?c
+		?a: .-Borrowed vascularizations
+		?b: complex diagnostic problems
+		?c: different levels
+
+
+label:    sent_17
+sentence: Insights into the problems that language barriers may pose for the medical interview .
+
+ppatt:
+	?a may pose for ?b
+		?a: language barriers
+		?b: the medical interview
+
+
+label:    sent_18
+sentence: Steroid users and the unique challenge they pose to needle and syringe program workers .
+
+ppatt:
+	?a ?b pose to ?c
+		?a: Steroid users
+		?b: they
+		?c: needle
+	?a ?b pose to ?c
+		?a: the unique challenge
+		?b: they
+		?c: needle
+	?a ?b pose to ?c
+		?a: Steroid users
+		?b: they
+		?c: syringe
+	?a ?b pose to ?c
+		?a: the unique challenge
+		?b: they
+		?c: syringe
+
+
+label:    sent_19
+sentence: First , educators should examine the purpose of each question they pose to learners .
+
+ppatt:
+	First , ?a should examine ?b ?c
+		?a: educators
+		?b: the purpose of each question
+		?c: SOMETHING := they pose to learners
+	?a pose to ?b
+		?a: they
+		?b: learners
+
+
+label:    sent_20
+sentence: Pneumococcal infections pose similar problems to Hib , but are more complex .
+
+ppatt:
+	?a pose ?b to ?c
+		?a: Pneumococcal infections
+		?b: similar problems
+		?c: Hib
+
+
+label:    sent_21
+sentence: Foodborne illnesses pose a problem to all individuals but are especially significant for infants .
+
+ppatt:
+	?a pose ?b
+		?a: Foodborne illnesses
+		?b: a problem to all individuals
+
+
+label:    sent_22
+sentence: In infants , and especially in premature neonates , enterostomies pose significant morbidity .
+
+ppatt:
+	In ?a , ?b pose ?c
+		?a: infants
+		?b: enterostomies
+		?c: significant morbidity
+	In ?a , ?b pose ?c
+		?a: especially premature neonates
+		?b: enterostomies
+		?c: significant morbidity
+
+
+label:    sent_23
+sentence: Surgical specimen identification errors are common and pose important risks to all patients .
+
+ppatt:
+	?a are common
+		?a: Surgical specimen identification errors
+	?a pose ?b to ?c
+		?a: Surgical specimen identification errors
+		?b: important risks
+		?c: all patients
+
+
+label:    sent_24
+sentence: Birthmarks are commonplace and most pose no significant detriment to health . Arrhythmias were common and pose a concern late after repair .
+
+ppatt:
+	?a are commonplace
+		?a: Birthmarks
+	?a most pose ?b
+		?a: Birthmarks
+		?b: no significant detriment to health
+	?a were common
+		?a: Arrhythmias
+	?a pose ?b late after ?c
+		?a: Arrhythmias
+		?b: a concern
+		?c: repair
+
+
+label:    sent_25
+sentence: The use of antibiotics should be balanced against the risks they pose .
+
+ppatt:
+	?a should be balanced against ?b
+		?a: The use of antibiotics
+		?b: the risks
+	?a pose
+		?a: they
+
+
+label:    sent_26
+sentence: Such knowledge is critical in evaluating the pandemic risk these viruses pose .
+
+ppatt:
+	?a is critical
+		?a: Such knowledge
+	?a evaluating ?b
+		?a: Such knowledge
+		?b: the pandemic risk
+	?a pose
+		?a: these viruses
+
+
+label:    sent_27
+sentence: Practice acquisitions pose risk --HHS .
+
+ppatt:
+	?a pose ?b
+		?a: Practice acquisitions
+		?b: risk --HHS
+
+

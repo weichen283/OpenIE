@@ -1,0 +1,294 @@
+label:    sent_1
+sentence: Antioxidant properties of plants can help to scavenge reactive oxygen species .
+
+ppatt:
+	?a can help to scavenge ?b
+		?a: Antioxidant properties of plants
+		?b: reactive oxygen species
+
+
+label:    sent_2
+sentence: Both JFEE and JFBE markedly scavenge diphenylpicrylhydrazyl radical and chelate Fe+2 in vitro .
+
+ppatt:
+	?a markedly scavenge ?b in vitro
+		?a: JFEE
+		?b: diphenylpicrylhydrazyl radical
+	?a markedly scavenge ?b in vitro
+		?a: JFBE
+		?b: diphenylpicrylhydrazyl radical
+	?a markedly scavenge ?b in vitro
+		?a: JFEE
+		?b: chelate Fe+2
+	?a markedly scavenge ?b in vitro
+		?a: JFBE
+		?b: chelate Fe+2
+
+
+label:    sent_3
+sentence: Tumour suppressor SIRT3 deacetylates and activates manganese superoxide dismutase to scavenge ROS .
+
+ppatt:
+	?a deacetylates ?b to scavenge ?c
+		?a: Tumour suppressor SIRT3
+		?b: manganese superoxide dismutase
+		?c: ROS
+	?a activates
+		?a: Tumour suppressor SIRT3
+
+
+label:    sent_4
+sentence: A novel oligonucleotide carrier which can scavenge ROS is described .
+
+ppatt:
+	?a can scavenge ?b
+		?a: A novel oligonucleotide carrier
+		?b: ROS
+	?a is described
+		?a: A novel oligonucleotide carrier which can scavenge ROS
+
+
+label:    sent_5
+sentence: Host cells are equipped with antioxidants that scavenge ROS .
+
+ppatt:
+	?a are equipped with ?b
+		?a: Host cells
+		?b: antioxidants that scavenge ROS
+	?a scavenge ?b
+		?a: antioxidants
+		?b: ROS
+
+
+label:    sent_6
+sentence: Silymarin and its components scavenge phenylglyoxylic ketyl radicals .
+
+ppatt:
+	?a scavenge ?b
+		?a: Silymarin
+		?b: phenylglyoxylic ketyl radicals
+	?a scavenge ?b
+		?a: its components
+		?b: phenylglyoxylic ketyl radicals
+
+
+label:    sent_7
+sentence: This has led to many clinical attempts to scavenge ROS and reduce oxidative injury . Malvidin and peonidin did not scavenge ROS but prevented the cellular formation of ROS .
+
+ppatt:
+	?a has led to ?b
+		?a: This
+		?b: many clinical attempts to scavenge ROS and reduce oxidative injury
+	?a scavenge ?b
+		?a: many clinical attempts
+		?b: ROS
+	reduce ?a
+		?a: oxidative injury
+	?a did not scavenge ?b
+		?a: Malvidin
+		?b: ROS
+	?a did not scavenge ?b
+		?a: peonidin
+		?b: ROS
+	?a prevented ?b
+		?a: Malvidin
+		?b: the cellular formation of ROS
+	?a prevented ?b
+		?a: peonidin
+		?b: the cellular formation of ROS
+
+
+label:    sent_8
+sentence: We subsequently showed that this peptide targeted mitochondria and can scavenge reactive oxygen species .
+
+ppatt:
+	?a subsequently showed ?b
+		?a: We
+		?b: SOMETHING := this peptide targeted mitochondria
+	?a targeted ?b
+		?a: this peptide
+		?b: mitochondria
+	?a can scavenge ?b
+		?a: this peptide
+		?b: reactive oxygen species
+
+
+label:    sent_9
+sentence: The flavonoid components of EGb761 scavenge free radicals and protect myocardia from ischemia-reperfusion injury .
+
+ppatt:
+	?a scavenge ?b
+		?a: The flavonoid components of EGb761
+		?b: free radicals
+	?a protect ?b
+		?a: The flavonoid components of EGb761
+		?b: myocardia from ischemia-reperfusion injury
+
+
+label:    sent_10
+sentence: Human pancreatic cancer tumors are nutrient poor and tumor cells actively scavenge extracellular protein .
+
+ppatt:
+	?a are nutrient poor
+		?a: Human pancreatic cancer tumors
+	?a actively scavenge ?b
+		?a: tumor cells
+		?b: extracellular protein
+
+
+label:    sent_11
+sentence: However , antioxidants scavenge FR and maintain the oxidative/antioxidative balance in the liver .
+
+ppatt:
+	However , ?a scavenge ?b
+		?a: antioxidants
+		?b: FR
+	?a maintain ?b
+		?a: antioxidants
+		?b: the oxidative/antioxidative balance in the liver
+
+
+label:    sent_12
+sentence: Glutathione was able to scavenge , with high efficiency , the free radicals produced .
+
+ppatt:
+	?a was able to scavenge , with ?b
+		?a: Glutathione
+		?b: high efficiency
+	?a is/are the free radicals
+		?a: high efficiency
+	?a produced
+		?a: the free radicals
+
+
+label:    sent_13
+sentence: Moreover , CXCL16 did not bind and scavenge oxLDL in an in vitro setting .
+
+ppatt:
+	Moreover , ?a did not bind ?b in ?c
+		?a: CXCL16
+		?b: oxLDL
+		?c: an in setting
+	?a scavenge
+		?a: CXCL16
+
+
+label:    sent_14
+sentence: Mycorrhizas ' scavenge ' P from solution or ' mine ' insoluble organic N .
+
+ppatt:
+	?a ' scavenge ?b from ?c
+		?a: Mycorrhizas
+		?b: P
+		?c: solution
+	?a ' scavenge ?b from ?c
+		?a: Mycorrhizas
+		?b: P
+		?c: mine insoluble organic N
+
+
+label:    sent_15
+sentence: ECH could also scavenge the DPPH and OH free radicals in a concentration-dependent manner .
+
+ppatt:
+	?a could also scavenge ?b in ?c
+		?a: ECH
+		?b: the DPPH
+		?c: a concentration-dependent manner
+	?a could also scavenge ?b in ?c
+		?a: ECH
+		?b: OH
+		?c: a concentration-dependent manner
+	?a could also scavenge ?b in ?c
+		?a: ECH
+		?b: free radicals
+		?c: a concentration-dependent manner
+
+
+label:    sent_16
+sentence: In addition , allopurinol did not scavenge superoxide anion or hydrogen peroxide in vitro .
+
+ppatt:
+	In ?a , ?b did not scavenge ?c in vitro
+		?a: addition
+		?b: allopurinol
+		?c: superoxide anion
+	In ?a , ?b did not scavenge ?c in vitro
+		?a: addition
+		?b: allopurinol
+		?c: hydrogen peroxide
+
+
+label:    sent_17
+sentence: Enhancement of extracellular glutamate scavenge system in injured motoneurons .
+
+ppatt:
+	?a scavenge ?b in ?c
+		?a: Enhancement of extracellular glutamate
+		?b: system
+		?c: injured motoneurons
+
+
+label:    sent_18
+sentence: These complexes were compared to compounds reported to scavenge and generate . OH . To scavenge or not to scavenge , that is STILL the question .
+
+ppatt:
+	?a were compared to ?b
+		?a: These complexes
+		?b: compounds reported to scavenge and generate . OH To scavenge or not to scavenge , that is STILL the question
+	?a reported to scavenge ?b
+		?a: compounds
+		?b: OH
+	reported to generate ?a
+		?a: OH
+	reported to ?a To scavenge
+		?a: OH
+	not to scavenge ?a
+		?a: SOMETHING := that is STILL the question
+	?a is STILL
+		?a: that
+	?a the question
+		?a: that is STILL
+
+
+label:    sent_19
+sentence: To scavenge or not to scavenge : that is the question .
+
+ppatt:
+
+
+
+label:    sent_20
+sentence: Foetal erythrocytes exhibit an increased ability to scavenge for nitric oxide .
+
+ppatt:
+	?a exhibit ?b
+		?a: Foetal erythrocytes
+		?b: an increased ability to scavenge for nitric oxide
+	?a scavenge for ?b
+		?a: an increased ability
+		?b: nitric oxide
+
+
+label:    sent_21
+sentence: Some species were observed to scavenge almost continually throughout the day and night .
+
+ppatt:
+	?a were observed to scavenge almost continually throughout ?b
+		?a: Some species
+		?b: the day
+	?a were observed to scavenge almost continually throughout ?b
+		?a: Some species
+		?b: night
+
+
+label:    sent_22
+sentence: Microorganisms rely on binding-protein assisted , active transport systems to scavenge for scarce nutrients .
+
+ppatt:
+	?a rely on ?b to scavenge for ?c
+		?a: Microorganisms
+		?b: binding-protein assisted , transport systems
+		?c: scarce nutrients
+
+

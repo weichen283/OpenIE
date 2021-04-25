@@ -1,0 +1,265 @@
+label:    sent_1
+sentence: Sand is known to oppose an increasing resistance to penetration with depth .
+
+ppatt:
+	?a is known to oppose ?b
+		?a: Sand
+		?b: an increasing resistance to penetration with depth
+
+
+label:    sent_2
+sentence: Unions unite to oppose reform pace .
+
+ppatt:
+	?a unite to oppose ?b
+		?a: Unions
+		?b: reform pace
+
+
+label:    sent_3
+sentence: A logistic regression explores the factors that predict whether victims favor or oppose prosecution .
+
+ppatt:
+	?a explores ?b
+		?a: A logistic regression
+		?b: the factors that predict whether victims favor or oppose prosecution
+	?a predict ?b
+		?a: the factors
+		?b: SOMETHING := victims favor prosecution
+	?a favor ?b
+		?a: victims
+		?b: prosecution
+	?a oppose
+		?a: victims
+
+
+label:    sent_4
+sentence: DNA is trapped and accumulated 16-fold in regions where both flows oppose each other .
+
+ppatt:
+	?a is trapped in ?b
+		?a: DNA
+		?b: regions where both flows oppose each other
+	?a accumulated 16-fold
+		?a: DNA
+	?a where ?b oppose ?c
+		?a: regions
+		?b: both flows
+		?c: each other
+
+
+label:    sent_5
+sentence: New York senators oppose HIV funding changes . A high percentage of families oppose organ donation .
+
+ppatt:
+	?a oppose ?b
+		?a: New York senators
+		?b: HIV funding changes
+	?a oppose ?b
+		?a: A high percentage of families
+		?b: organ donation
+
+
+label:    sent_6
+sentence: Business and insurance industry groups oppose parity due to cost concerns .
+
+ppatt:
+	?a oppose ?b due to ?c
+		?a: Business
+		?b: parity
+		?c: cost concerns
+	?a oppose ?b due to ?c
+		?a: insurance
+		?b: parity
+		?c: cost concerns
+	?a oppose ?b due to ?c
+		?a: industry groups
+		?b: parity
+		?c: cost concerns
+
+
+label:    sent_7
+sentence: Some places oppose family planning or contraceptive services to adolescents .
+
+ppatt:
+	?a oppose ?b
+		?a: Some places
+		?b: family planning to adolescents
+	?a oppose ?b
+		?a: Some places
+		?b: contraceptive services
+
+
+label:    sent_8
+sentence: Some oppose a regulated market because of concerns about driving after smoking cannabis .
+
+ppatt:
+	?a oppose ?b because of ?c
+		?a: Some
+		?b: a regulated market
+		?c: concerns about driving after smoking cannabis
+	?a about driving after ?b
+		?a: concerns
+		?b: smoking cannabis
+
+
+label:    sent_9
+sentence: We strongly oppose this opinion and offer an alternative approach .
+
+ppatt:
+	?a strongly oppose ?b
+		?a: We
+		?b: this opinion
+	?a offer ?b
+		?a: We
+		?b: an alternative approach
+
+
+label:    sent_10
+sentence: This can oppose nucleosome translocations and increase the energetic costs for chromatin remodeling . Nobody could oppose it , not even the industry .
+
+ppatt:
+	?a can oppose ?b
+		?a: This
+		?b: nucleosome translocations
+	?a increase ?b
+		?a: This
+		?b: the energetic costs for chromatin remodeling
+	?a could oppose ?b ?c
+		?a: Nobody
+		?b: it
+		?c: not even the industry
+
+
+label:    sent_11
+sentence: He was able to oppose his thumb to all 4 digits . Ink4 proteins function to oppose the action of cdk4/6-cyclin D complexes by inhibiting cdk4/6 .
+
+ppatt:
+	?a was able to oppose ?b to ?c
+		?a: He
+		?b: his thumb
+		?c: all 4 digits
+	?a function to oppose ?b
+		?a: Ink4 proteins
+		?b: the action of cdk4/6-cyclin D complexes
+	?a inhibiting ?b
+		?a: Ink4 proteins
+		?b: cdk4/6
+
+
+label:    sent_12
+sentence: In neurons , Rap also seems to oppose Ras in terms of synaptic function .
+
+ppatt:
+	In ?a , ?b also seems to oppose ?c in ?d
+		?a: neurons
+		?b: Rap
+		?c: Ras
+		?d: terms of synaptic function
+
+
+label:    sent_13
+sentence: For dipoles , these terms can be additive to or oppose one another .
+
+ppatt:
+	For ?a , ?b can be additive ?c
+		?a: dipoles
+		?b: these terms
+		?c: to
+	For ?a , ?b can be additive ?c
+		?a: dipoles
+		?b: these terms
+		?c: oppose
+
+
+label:    sent_14
+sentence: Asymmetric gene flow is generally believed to oppose natural selection and potentially impede adaptation .
+
+ppatt:
+	?a is generally believed to oppose ?b
+		?a: Asymmetric gene flow
+		?b: natural selection
+	?a potentially impede ?b
+		?a: Asymmetric gene flow
+		?b: adaptation
+
+
+label:    sent_15
+sentence: Laparascopy does not oppose exploratory laparatomy and can often substitute it advantageously .
+
+ppatt:
+	?a does not oppose ?b
+		?a: Laparascopy
+		?b: exploratory laparatomy
+	?a can often substitute ?b advantageously
+		?a: Laparascopy
+		?b: it
+
+
+label:    sent_16
+sentence: These are positive factors that oppose both Gzf3 and Dal80 .
+
+ppatt:
+	?a are positive factors
+		?a: These
+	?a oppose ?b
+		?a: positive factors
+		?b: Gzf3
+	?a oppose ?b
+		?a: positive factors
+		?b: Dal80
+
+
+label:    sent_17
+sentence: Those who oppose symphysiotomies should provide the relevant data . Why physicians should oppose boxing : an interdisciplinary history perspective .
+
+ppatt:
+	?a oppose ?b
+		?a: Those
+		?b: symphysiotomies
+	?a should provide ?b
+		?a: Those who oppose symphysiotomies
+		?b: the relevant data
+	Why ?a should oppose ?b
+		?a: physicians
+		?b: boxing
+
+
+label:    sent_18
+sentence: As nonuniformity of regional pressures grows so do those factors that oppose that nonuniformity .
+
+ppatt:
+	?a grows
+		?a: nonuniformity of regional pressures
+	so do ?a
+		?a: those factors that oppose that nonuniformity
+	?a oppose ?b
+		?a: those factors
+		?b: nonuniformity
+
+
+label:    sent_19
+sentence: Computational evidence that frequency trajectory theory does not oppose but emerges from age-of-acquisition theory .
+
+ppatt:
+	Computational evidence ?a
+		?a: SOMETHING := frequency trajectory theory does not oppose
+	?a does not oppose
+		?a: frequency trajectory theory
+	?a emerges from ?b
+		?a: frequency trajectory theory
+		?b: age-of-acquisition theory
+
+
+label:    sent_20
+sentence: Interventions that oppose or reverse thiol oxidation can inhibit fatigue .
+
+ppatt:
+	?a oppose ?b
+		?a: Interventions
+		?b: reverse thiol oxidation
+	?a can inhibit ?b
+		?a: Interventions that oppose or reverse thiol oxidation
+		?b: fatigue
+
+

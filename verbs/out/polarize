@@ -1,0 +1,243 @@
+label:    sent_1
+sentence: To circularly polarize the initially linearly polarized harmonics we have implemented a four-reflector phase-shifter .
+
+ppatt:
+	circularly polarize ?a ?b
+		?a: the initially linearly polarized harmonics
+		?b: we
+	?a have implemented ?b
+		?a: we
+		?b: a four-reflector phase-shifter
+
+
+label:    sent_2
+sentence: Microtubules have long been thought to deliver the signals required to polarize a cell .
+
+ppatt:
+	?a have long been thought to deliver ?b
+		?a: Microtubules
+		?b: the signals required to polarize a cell
+	?a required to polarize ?b
+		?a: the signals
+		?b: a cell
+
+
+label:    sent_3
+sentence: At their worst , these differences have the potential to polarize clinical practice . Rac1 and Aurora A regulate MCAK to polarize microtubule growth in migrating endothelial cells .
+
+ppatt:
+	At ?a , ?b have ?c
+		?a: their worst
+		?b: these differences
+		?c: the potential to polarize clinical practice
+	?a polarize ?b
+		?a: the potential
+		?b: clinical practice
+	?a regulate ?b to polarize ?c
+		?a: Rac1
+		?b: MCAK
+		?c: microtubule growth in migrating endothelial cells
+	?a regulate ?b to polarize ?c
+		?a: Aurora A
+		?b: MCAK
+		?c: microtubule growth in migrating endothelial cells
+
+
+label:    sent_4
+sentence: Do n't forget to polarize your lenses ! Talc in the liver . aPKC phosphorylates Miranda to polarize fate determinants during neuroblast asymmetric cell division .
+
+ppatt:
+	Do n't forget to polarize ?a
+		?a: your lenses ! Talc in the liver
+	?a phosphorylates ?b to polarize ?c during ?d
+		?a: aPKC
+		?b: Miranda
+		?c: fate determinants
+		?d: neuroblast asymmetric cell division
+
+
+label:    sent_5
+sentence: Together , MC-derived PGD2 instructs DC to polarize CD4+ T cells towards Th2 responses .
+
+ppatt:
+	Together , ?a instructs ?b to polarize ?c towards ?d
+		?a: MC-derived PGD2
+		?b: DC
+		?c: CD4+ T cells
+		?d: Th2 responses
+
+
+label:    sent_6
+sentence: The tumor microenvironment can polarize innate immune cells to a proangiogenic phenotype .
+
+ppatt:
+	?a can polarize ?b to ?c
+		?a: The tumor microenvironment
+		?b: innate immune cells
+		?c: a proangiogenic phenotype
+
+
+label:    sent_7
+sentence: Finally , cells polarize secretion to particular regions of their surface .
+
+ppatt:
+	Finally , ?a polarize ?b to ?c
+		?a: cells
+		?b: secretion
+		?c: particular regions of their surface
+
+
+label:    sent_8
+sentence: We could selectively polarize nicotine quantities similar to those found in one cigarette . Kallikrein did not polarize neutrophils .
+
+ppatt:
+	?a could selectively polarize ?b
+		?a: We
+		?b: nicotine quantities similar to those found in one cigarette
+	?a found in ?b
+		?a: those
+		?b: one cigarette
+	?a did not polarize ?b
+		?a: Kallikrein
+		?b: neutrophils
+
+
+label:    sent_9
+sentence: Several questions polarize PBF discussions . Neurons have the remarkable ability to polarize even in symmetrical in vitro environments .
+
+ppatt:
+	?a polarize ?b
+		?a: Several questions
+		?b: PBF discussions
+	?a have ?b
+		?a: Neurons
+		?b: the remarkable ability to polarize even in symmetrical in environments
+	?a polarize in ?b
+		?a: the remarkable ability
+		?b: even symmetrical in environments
+
+
+label:    sent_10
+sentence: How cells polarize in response to external cues is a fundamental biological problem .
+
+ppatt:
+	How ?a polarize in to ?b
+		?a: cells
+		?b: external cues
+
+
+label:    sent_11
+sentence: Many cell types can spontaneously polarize even in the absence of specific positional cues .
+
+ppatt:
+	?a can spontaneously polarize even in ?b of ?c
+		?a: Many cell types
+		?b: the absence
+		?c: specific positional cues
+
+
+label:    sent_12
+sentence: Young neurons polarize by specializing axons and dendrites from immature neurites .
+
+ppatt:
+	?a polarize
+		?a: Young neurons
+	?a specializing ?b
+		?a: Young neurons
+		?b: axons from immature neurites
+	?a specializing ?b
+		?a: Young neurons
+		?b: dendrites
+
+
+label:    sent_13
+sentence: We assessed the cellular layer 's capacity to polarize and differentiate in ALI conditions .
+
+ppatt:
+	?a assessed ?b
+		?a: We
+		?b: the cellular layer 's capacity
+	?a polarize in ?b
+		?a: We
+		?b: ALI conditions
+	?a differentiate
+		?a: We
+
+
+label:    sent_14
+sentence: We propose that UNC-40 mediates multiple signals to polarize and orient asymmetry .
+
+ppatt:
+	?a propose ?b
+		?a: We
+		?b: SOMETHING := UNC-40 mediates multiple signals to polarize and orient asymmetry
+	?a mediates ?b to polarize ?c
+		?a: UNC-40
+		?b: multiple signals
+		?c: asymmetry
+	?a mediates to orient
+		?a: UNC-40
+
+
+label:    sent_15
+sentence: Divide and polarize : recent advances in the molecular mechanism regulating epithelial tubulogenesis .
+
+ppatt:
+	?a regulating ?b
+		?a: the molecular mechanism
+		?b: epithelial tubulogenesis
+
+
+label:    sent_16
+sentence: In Caco-2 cells , labeling for E-MAP-115 increases when they polarize and form blisters .
+
+ppatt:
+	In ?a , ?b increases
+		?a: Caco-2 cells
+		?b: labeling for E-MAP-115
+	when ?a polarize ?b
+		?a: they
+		?b: blisters
+	?a form
+		?a: they
+
+
+label:    sent_17
+sentence: Epithelial cells polarize and orient polarity in response to cell-cell and cell-matrix adhesion .
+
+ppatt:
+	?a polarize ?b to ?c
+		?a: Epithelial cells
+		?b: polarity
+		?c: cell-cell
+	?a polarize ?b to ?c
+		?a: Epithelial cells
+		?b: polarity
+		?c: cell-matrix
+	?a orient
+		?a: Epithelial cells
+
+
+label:    sent_18
+sentence: These cells polarize and accumulate predentin-like matrix at their apical pole .
+
+ppatt:
+	?a polarize ?b at ?c
+		?a: These cells
+		?b: predentin-like matrix
+		?c: their apical pole
+	?a accumulate
+		?a: These cells
+
+
+label:    sent_19
+sentence: Dynamic regulation of FAs is necessary for cells to polarize and migrate .
+
+ppatt:
+	?a is necessary for ?b to polarize
+		?a: Dynamic regulation of FAs
+		?b: cells
+	?a is necessary to migrate
+		?a: Dynamic regulation of FAs
+
+

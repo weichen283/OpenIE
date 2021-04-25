@@ -1,0 +1,252 @@
+label:    sent_1
+sentence: STITCH : algorithm to splice , trim , identify , track , and capture the uniqueness of 16S rRNAs sequence pairs using public or in-house database .
+
+ppatt:
+	capture ?a
+		?a: the uniqueness of 16S rRNAs sequence pairs
+	using ?a
+		?a: public or in-house database
+
+
+label:    sent_2
+sentence: Previously we evolved inteins that splice efficiently in Saccharomyces cerevisiae only in the presence of the cell-permeable small molecule 4-hydroxytamoxifen ( 4-HT ) .
+
+ppatt:
+	Previously ?a evolved ?b in of ?c
+		?a: we
+		?b: inteins that splice efficiently in Saccharomyces cerevisiae
+		?c: only the molecule
+	?a splice efficiently in ?b
+		?a: inteins
+		?b: Saccharomyces cerevisiae
+	?a is/are 4-HT
+		?a: cell-permeable small 4-hydroxytamoxifen
+
+
+label:    sent_3
+sentence: Each pre-mRNA molecule is predicted to require a similar time to splice , reducing kinetic noise and improving the regulation of alternative splicing .
+
+ppatt:
+	?a is predicted to require ?b
+		?a: Each pre-mRNA molecule
+		?b: a similar time to splice
+	?a reducing ?b
+		?a: Each pre-mRNA molecule
+		?b: kinetic noise
+	?a improving ?b
+		?a: Each pre-mRNA molecule
+		?b: the regulation of alternative splicing
+
+
+label:    sent_4
+sentence: Other mutations are frameshift , splice and nonsense mutations .
+
+ppatt:
+	?a are frameshift
+		?a: Other mutations
+	?a splice
+		?a: Other mutations
+	?a nonsense
+		?a: Other mutations
+
+
+label:    sent_5
+sentence: Transcriptional units were constructed consisting of a steroid-inducible mouse mammary tumor virus ( MMTV ) promoter , mouse or human 5 ' c-fos gene fragments in either the sense ( 5 ' to 3 ' ) or antisense ( 3 ' to 5 ' ) orientation , and splice and poly ( A ) signals from the human beta-globin gene .
+
+ppatt:
+	?a were constructed consisting of ?b in ?c
+		?a: Transcriptional units
+		?b: a steroid-inducible mouse mammary tumor virus ( MMTV ) promoter
+		?c: the sense
+	?a were constructed consisting of ?b in ?c
+		?a: Transcriptional units
+		?b: 5 c-fos gene fragments
+		?c: the sense
+	?a were constructed consisting of ?b in ?c
+		?a: Transcriptional units
+		?b: a steroid-inducible mouse mammary tumor virus ( MMTV ) promoter
+		?c: antisense
+	?a were constructed consisting of ?b in ?c
+		?a: Transcriptional units
+		?b: 5 c-fos gene fragments
+		?c: antisense
+	?a were constructed consisting of ?b in ?c
+		?a: Transcriptional units
+		?b: a steroid-inducible mouse mammary tumor virus ( MMTV ) promoter
+		?c: splice
+	?a were constructed consisting of ?b in ?c
+		?a: Transcriptional units
+		?b: 5 c-fos gene fragments
+		?c: splice
+	?a is/are mouse
+		?a: a steroid-inducible mouse mammary tumor virus ( MMTV ) promoter
+	?a is/are mouse
+		?a: 5 c-fos gene fragments
+	?a is/are A
+		?a: poly
+
+
+label:    sent_6
+sentence: A method for mapping RNA initiation , termination , splice , and protein binding sites . ( Moreover , the aI1 maturase , which accumulates in some mutants , can efficiently splice aI2 IVS when the translation of the latter 's proper maturase can not occur ) . Strikingly , ~15 % of upregulated genes are induced in association with derepression of promoter-proximal ERVs , half in the context of " chimeric " transcripts that initiate within these retroelements and splice to genic exons . Int-n and Int-c fragments in the separate precursors catalyze , in concert , a protein trans-splicing process to splice the flanking DnaE-n and DnaE-c into a functional catalytic subunit of DNA polymerase III .
+
+ppatt:
+	?a mapping ?b
+		?a: A method
+		?b: RNA initiation
+	?a mapping ?b
+		?a: A method
+		?b: termination
+	?a mapping ?b
+		?a: A method
+		?b: splice
+	?a mapping ?b
+		?a: A method
+		?b: protein binding sites
+	?a accumulates in ?b
+		?a: Moreover , the aI1 maturase
+		?b: some mutants
+	?a splice
+		?a: A method for mapping RNA initiation , termination , splice , and protein binding sites
+	when ?a can not occur
+		?a: the translation of the latter 's proper maturase
+	Strikingly , ?a are induced in ?b
+		?a: ~15 % of upregulated genes
+		?b: association with derepression of promoter-proximal ERVs , half in of " chimeric " transcripts that initiate within these retroelements and splice to genic exons
+	?a initiate within ?b
+		?a: " chimeric " transcripts
+		?b: these retroelements
+	?a initiate within ?b
+		?a: " chimeric " transcripts
+		?b: splice to genic exons
+	?a catalyze , ?b to splice ?c into ?d
+		?a: Int-n
+		?b: in concert , a protein trans-splicing process
+		?c: the flanking DnaE-n
+		?d: a functional catalytic subunit of DNA polymerase III
+	?a catalyze , ?b to splice ?c into ?d
+		?a: Int-c
+		?b: in concert , a protein trans-splicing process
+		?c: the flanking DnaE-n
+		?d: a functional catalytic subunit of DNA polymerase III
+	?a catalyze , ?b to splice ?c into ?d
+		?a: Int-n
+		?b: in concert , a protein trans-splicing process
+		?c: DnaE-c
+		?d: a functional catalytic subunit of DNA polymerase III
+	?a catalyze , ?b to splice ?c into ?d
+		?a: Int-c
+		?b: in concert , a protein trans-splicing process
+		?c: DnaE-c
+		?d: a functional catalytic subunit of DNA polymerase III
+
+
+label:    sent_7
+sentence: The alterations at the 3 ' end are caused by an aberrant splicing event in which additional splice-donor and -acceptor sequences within intronic sequences are used to splice an additional 363 nucleotides into the myb transcripts .
+
+ppatt:
+	?a are caused by ?b
+		?a: The alterations at the 3 ' end
+		?b: an aberrant splicing event in which additional splice-donor and -acceptor sequences within intronic sequences are used to splice an additional 363 nucleotides into the myb transcripts
+	?a in ?b are used to splice ?c into ?d
+		?a: an aberrant splicing event
+		?b: additional splice-donor and -acceptor sequences within intronic sequences
+		?c: an additional 363 nucleotides
+		?d: the myb transcripts
+
+
+label:    sent_8
+sentence: Moreover , the SmN mRNA shows a widespread distribution within the brain and spinal ganglia being present in neuronal cells in all regions which naturally produce CGRP as well as in those areas which do not naturally express the calcitonin / CGRP gene but which can correctly splice the CGRP mRNA in transgenic mice expressing the calcitonin / CGRP gene in all cell types .
+
+ppatt:
+	Moreover , ?a shows ?b
+		?a: the SmN mRNA
+		?b: a widespread distribution within the brain and spinal ganglia
+	?a naturally produce ?b
+		?a: all regions
+		?b: CGRP
+	?a naturally produce ?b
+		?a: all regions
+		?b: those areas which do not naturally express the calcitonin / CGRP gene but which can correctly splice the CGRP mRNA in transgenic mice expressing the calcitonin / CGRP gene in all cell types
+	?a do not naturally express ?b
+		?a: those areas
+		?b: the calcitonin / CGRP gene
+	?a can correctly splice ?b in ?c
+		?a: which
+		?b: the CGRP mRNA
+		?c: transgenic mice expressing the calcitonin / CGRP gene in all cell types
+	?a expressing ?b
+		?a: transgenic mice
+		?b: the calcitonin / CGRP gene in all cell types
+
+
+label:    sent_9
+sentence: These results indicate that both the stem cells and their differentiated progeny can efficiently splice the precursor RNAs for these influenza virus messengers .
+
+ppatt:
+	?a indicate ?b
+		?a: These results
+		?b: SOMETHING := both the stem cells and their differentiated progeny can efficiently splice the precursor RNAs for these influenza virus messengers
+	?a can efficiently splice ?b
+		?a: the stem cells
+		?b: the precursor RNAs for these influenza virus messengers
+	?a can efficiently splice ?b
+		?a: their differentiated progeny
+		?b: the precursor RNAs for these influenza virus messengers
+
+
+label:    sent_10
+sentence: These results show that a U4 / U6atac di-snRNP can correctly splice a U12-dependent intron and suggest that the specificity for spliceosome type resides in the U6 and U6atac small nuclear ribonucleoproteins .
+
+ppatt:
+	?a show ?b
+		?a: These results
+		?b: SOMETHING := a U4 / U6atac di-snRNP can correctly splice a U12-dependent intron
+	?a can correctly splice ?b
+		?a: a U4 / U6atac di-snRNP
+		?b: a U12-dependent intron
+	?a suggest ?b
+		?a: These results
+		?b: SOMETHING := the specificity for spliceosome type resides in U6 and U6atac small nuclear ribonucleoproteins
+	?a resides in ?b
+		?a: the specificity for spliceosome type
+		?b: U6
+	?a resides in ?b
+		?a: the specificity for spliceosome type
+		?b: U6atac
+	?a resides in ?b
+		?a: the specificity for spliceosome type
+		?b: small nuclear ribonucleoproteins
+
+
+label:    sent_11
+sentence: The most well-characterized family of split inteins , the cyanobacterial DnaE inteins , show particular promise , as many of these can splice proteins in less than 1 min .
+
+ppatt:
+	?a is/are the cyanobacterial DnaE inteins
+		?a: split inteins
+	?a show ?b
+		?a: The most well-characterized family of split inteins
+		?b: particular promise
+	?a can splice proteins in ?b
+		?a: many of these
+		?b: less than 1 min
+
+
+label:    sent_12
+sentence: However , mRNA processing in children may preferentially splice Mbcr exon 2 to ABL exon II .
+
+ppatt:
+	However , ?a may preferentially splice ?b
+		?a: mRNA processing in children
+		?b: Mbcr exon 2
+
+
+label:    sent_13
+sentence: More than one way to splice an RNA : branching without a bulge and splicing without branching in group II introns .
+
+ppatt:
+	?a splice ?b
+		?a: More than one way
+		?b: an RNA
+
+

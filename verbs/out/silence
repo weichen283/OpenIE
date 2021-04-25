@@ -1,0 +1,208 @@
+label:    sent_1
+sentence: Small interfering RNA ( siRNA ) approaches were used to silence NAB1 expression .
+
+ppatt:
+	?a is/are siRNA
+		?a: Small interfering RNA
+	?a were used to silence ?b
+		?a: Small interfering RNA approaches
+		?b: NAB1 expression
+
+
+label:    sent_2
+sentence: Transcription of intergenic DNA deposits nucleosomes on promoter to silence gene expression .
+
+ppatt:
+	?a silence ?b
+		?a: Transcription of intergenic DNA deposits nucleosomes on promoter
+		?b: gene expression
+
+
+label:    sent_3
+sentence: More clinicians speak up about flawed care , but silence still kills . RNA interference was used to silence catalase gene expression in female Lu. longipalpis .
+
+ppatt:
+	?a speak ?b
+		?a: More clinicians
+		?b: up about flawed care
+	?a still kills
+		?a: silence
+	?a was used to silence ?b
+		?a: RNA interference
+		?b: catalase gene expression in female Lu. longipalpis
+
+
+label:    sent_4
+sentence: We used an shRNA-based approach to specifically silence Rx expression in vivo in tadpoles .
+
+ppatt:
+	?a used ?b
+		?a: We
+		?b: an shRNA-based approach to specifically silence Rx expression in vivo in tadpoles
+	?a specifically silence ?b in vivo in ?c
+		?a: an shRNA-based approach
+		?b: Rx expression
+		?c: tadpoles
+
+
+label:    sent_5
+sentence: TLR9 siRNA was used to silence TLR9 prior to treatment with IL-1beta and CpG .
+
+ppatt:
+	?a was used to silence ?b prior to ?c
+		?a: TLR9 siRNA
+		?b: TLR9
+		?c: treatment with IL-1beta and CpG
+
+
+label:    sent_6
+sentence: Artificial trans-encoded small non-coding RNAs specifically silence the selected gene expression in bacteria . MicroRNAs ( miRNAs ) silence the expression of target genes post-transcriptionally .
+
+ppatt:
+	?a specifically silence ?b
+		?a: Artificial trans-encoded small non-coding RNAs
+		?b: the selected gene expression in bacteria
+	?a is/are miRNAs
+		?a: MicroRNAs
+	?a silence ?b post-transcriptionally
+		?a: MicroRNAs
+		?b: the expression of target genes
+
+
+label:    sent_7
+sentence: Breaking the silence : nurses ' understandings of change in clinical practice .
+
+ppatt:
+	Breaking ?a
+		?a: the silence
+
+
+label:    sent_8
+sentence: Conceiving silence : infertility as discursive contradiction in Ireland . A retrovirus-based system to stably silence hepatitis B virus genes by RNA interference .
+
+ppatt:
+	?a stably silence ?b by ?c
+		?a: A retrovirus-based system
+		?b: hepatitis B virus genes
+		?c: RNA interference
+
+
+label:    sent_9
+sentence: In addition , miRNAs can silence genes at transcriptional and posttranscriptional level .
+
+ppatt:
+	In ?a , ?b can silence ?c at ?d
+		?a: addition
+		?b: miRNAs
+		?c: genes
+		?d: transcriptional and posttranscriptional level
+
+
+label:    sent_10
+sentence: Eukaryotic cells express small noncoding RNAs to silence target genes or regulate chromatin domains .
+
+ppatt:
+	?a express ?b to silence ?c
+		?a: Eukaryotic cells
+		?b: small noncoding RNAs
+		?c: target genes
+	?a express to regulate ?b
+		?a: Eukaryotic cells
+		?b: chromatin domains
+
+
+label:    sent_11
+sentence: It can be used both to over-express and to silence candidate genes .
+
+ppatt:
+	?a can be used both to over-express
+		?a: It
+	?a can be used both to to silence ?b
+		?a: It
+		?b: candidate genes
+
+
+label:    sent_12
+sentence: Suppression of M current increases excitability and its enhancement can silence neurons .
+
+ppatt:
+	?a increases ?b
+		?a: Suppression of M current
+		?b: excitability
+	?a can silence ?b
+		?a: its enhancement
+		?b: neurons
+
+
+label:    sent_13
+sentence: Induced epigenetic modifications of the promoter chromatin silence survivin and inhibit tumor growth .
+
+ppatt:
+	?a silence ?b
+		?a: Induced epigenetic modifications of the promoter chromatin
+		?b: survivin
+	?a inhibit ?b
+		?a: Induced epigenetic modifications of the promoter chromatin
+		?b: tumor growth
+
+
+label:    sent_14
+sentence: Will the " age of bureaucracy " silence the rights versus needs debate ? Global .
+
+ppatt:
+	Will ?a " silence ?b
+		?a: the " age of bureaucracy
+		?b: the rights
+	?a needs ?b ?c
+		?a: the " age of bureaucracy
+		?b: debate
+		?c: Global
+
+
+label:    sent_15
+sentence: Moscow breaks silence on AIDS epidemic at summit . Breaking the silence in Friedreich 's ataxia . The Cos school advocated silence about what the doctor might learn during his visits .
+
+ppatt:
+	?a silence on ?b ?c at ?d . Breaking ?e
+		?a: Moscow breaks
+		?b: AIDS
+		?c: epidemic
+		?d: summit
+		?e: the silence in Friedreich 's ataxia
+	?a advocated
+		?a: The Cos school
+	?a silence ?b
+		?a: The Cos school advocated
+		?b: SOMETHING := about what the doctor might learn during his visits
+	about ?a ?b might learn during ?c
+		?a: what
+		?b: the doctor
+		?c: his visits
+
+
+label:    sent_16
+sentence: Is silence still golden ? Normal cerebral radionuclide angiogram in a child with electrocerebral silence . Le silence .
+
+ppatt:
+	Is silence ?a ?b
+		?a: still golden
+		?b: Normal cerebral radionuclide angiogram in a child with electrocerebral silence . Le silence
+
+
+label:    sent_17
+sentence: Some targets were difficult to silence above a threshold of 70 % knockdown .
+
+ppatt:
+	?a were difficult to silence above ?b
+		?a: Some targets
+		?b: a threshold of 70 % knockdown
+
+
+label:    sent_18
+sentence: The Netherlands : silence after the storm . A dark talent : silence in analysis .
+
+ppatt:
+	?a is/are A dark talent
+		?a: silence after the storm
+
+

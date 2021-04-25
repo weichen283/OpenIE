@@ -1,0 +1,239 @@
+label:    sent_1
+sentence: We conclude that our results outperform current practice .
+
+ppatt:
+	?a conclude ?b
+		?a: We
+		?b: SOMETHING := our results outperform current practice
+	?a outperform ?b
+		?a: our results
+		?b: current practice
+
+
+label:    sent_2
+sentence: We have found that the orbital transformation techniques outperform the active-space approaches .
+
+ppatt:
+	?a have found ?b
+		?a: We
+		?b: SOMETHING := the orbital transformation techniques outperform the active-space approaches
+	?a outperform ?b
+		?a: the orbital transformation techniques
+		?b: the active-space approaches
+
+
+label:    sent_3
+sentence: Speakers generally outperform signers when asked to recall a list of unrelated verbal items . At 1 year follow-up , the experimental group continued to outperform the comparison group .
+
+ppatt:
+	?a generally outperform ?b
+		?a: Speakers
+		?b: signers
+	?a when asked to recall ?b At ?c
+		?a: Speakers
+		?b: a list of unrelated verbal items
+		?c: 1 year follow-up
+	?a continued to outperform ?b
+		?a: the experimental group
+		?b: the comparison group
+
+
+label:    sent_4
+sentence: Results showed Magnetic Resonance Arthrography to consistently outperform Magnetic Resonance Imaging .
+
+ppatt:
+	?a showed ?b to consistently outperform ?c
+		?a: Results
+		?b: Magnetic Resonance Arthrography
+		?c: Magnetic Resonance Imaging
+
+
+label:    sent_5
+sentence: Under those conditions , machine learning filters outperform standard citation metrics . Proposed confidence intervals outperform the alternative methods , especially in terms of interval width .
+
+ppatt:
+	Under ?a , ?b outperform ?c
+		?a: those conditions
+		?b: machine learning filters
+		?c: standard citation metrics
+	?a outperform ?b , in ?c
+		?a: Proposed confidence intervals
+		?b: the alternative methods
+		?c: especially terms of interval width
+
+
+label:    sent_6
+sentence: Numerous studies have shown that musicians outperform nonmusicians on a variety of tasks .
+
+ppatt:
+	?a have shown ?b
+		?a: Numerous studies
+		?b: SOMETHING := musicians outperform nonmusicians on a variety of tasks
+	?a outperform ?b on ?c
+		?a: musicians
+		?b: nonmusicians
+		?c: a variety of tasks
+
+
+label:    sent_7
+sentence: Existing reports suggest that males significantly outperform females in navigating 3-D virtual environments . a-DGPs did not outperform anti-tTG IgA for CD screening .
+
+ppatt:
+	?a suggest ?b
+		?a: Existing reports
+		?b: SOMETHING := males significantly outperform females in navigating 3-D virtual environments
+	?a significantly outperform ?b
+		?a: males
+		?b: females
+	?a navigating ?b
+		?a: males
+		?b: 3-D virtual environments
+	?a did not outperform ?b for ?c
+		?a: a-DGPs
+		?b: anti-tTG IgA
+		?c: CD screening
+
+
+label:    sent_8
+sentence: Thirdly , QC-Chain could outperform other tools in benefiting downstream metagenomic data analysis .
+
+ppatt:
+	Thirdly , ?a could outperform ?b
+		?a: QC-Chain
+		?b: other tools
+	?a benefiting ?b
+		?a: QC-Chain
+		?b: downstream metagenomic data analysis
+
+
+label:    sent_9
+sentence: Patients with paraplegia seemed to outperform able-bodied men in all events .
+
+ppatt:
+	?a seemed to outperform ?b in ?c
+		?a: Patients with paraplegia
+		?b: able-bodied men
+		?c: all events
+
+
+label:    sent_10
+sentence: These invariably outperform placebo and are equivalent or superior to active comparators .
+
+ppatt:
+	?a invariably outperform ?b
+		?a: These
+		?b: placebo
+
+
+label:    sent_11
+sentence: Practices with good management will outperform their peers and thrive in the future .
+
+ppatt:
+	?a will outperform ?b
+		?a: Practices with good management
+		?b: their peers
+	?a thrive in ?b
+		?a: Practices with good management
+		?b: the future
+
+
+label:    sent_12
+sentence: Multi-atlas methods outperform SA for automated anatomical brain segmentation and PET measure 's extraction .
+
+ppatt:
+	?a outperform ?b for ?c
+		?a: Multi-atlas methods
+		?b: SA
+		?c: automated anatomical brain segmentation
+	?a outperform ?b for ?c
+		?a: Multi-atlas methods
+		?b: SA
+		?c: PET measure 's extraction
+
+
+label:    sent_13
+sentence: Experimental results show our algorithms are highly accurate and outperform all competitive approaches .
+
+ppatt:
+	?a show ?b ?c
+		?a: Experimental results
+		?b: our algorithms
+		?c: SOMETHING := are highly accurate
+	?a are highly accurate
+		?a: Experimental results
+	?a outperform ?b
+		?a: Experimental results
+		?b: all competitive approaches
+
+
+label:    sent_14
+sentence: Results show that DY children underperform CA controls but outperform RL controls .
+
+ppatt:
+	?a show ?b
+		?a: Results
+		?b: SOMETHING := DY children underperform CA controls
+	?a underperform ?b
+		?a: DY children
+		?b: CA controls
+	?a outperform ?b
+		?a: DY children
+		?b: RL controls
+
+
+label:    sent_15
+sentence: Surgeons outperform normative controls on neuropsychologic tests , but age-related decay of skills persists .
+
+ppatt:
+	?a outperform ?b on ?c
+		?a: Surgeons
+		?b: normative controls
+		?c: neuropsychologic tests
+	?a persists
+		?a: age-related decay of skills
+
+
+label:    sent_16
+sentence: However , the combination of these biomarkers did not outperform s100B alone .
+
+ppatt:
+	However , ?a did not outperform ?b
+		?a: the combination of these biomarkers
+		?b: s100B alone
+
+
+label:    sent_17
+sentence: These new rules did not outperform the current 15 % day 4-7 rule . Baboon envelope pseudotyped LVs outperform VSV-G-LVs for gene transfer into early-cytokine-stimulated and resting HSCs .
+
+ppatt:
+	?a did not outperform ?b
+		?a: These new rules
+		?b: the current 15 % day 4-7 rule
+	?a outperform ?b for ?c
+		?a: Baboon envelope pseudotyped LVs
+		?b: VSV-G-LVs
+		?c: gene transfer into early-cytokine-stimulated and resting HSCs
+
+
+label:    sent_18
+sentence: However , there might be circumstances in which nonparametric methods will outperform LOD-score methods .
+
+ppatt:
+	?a in ?b will outperform ?c
+		?a: However , there circumstances
+		?b: nonparametric methods
+		?c: LOD-score methods
+
+
+label:    sent_19
+sentence: It is now clear from available data that immunochemical tests outperform guaiac tests .
+
+ppatt:
+	?a is now clear from ?b
+		?a: It
+		?b: available data that immunochemical tests outperform guaiac tests
+	?a outperform ?b
+		?a: immunochemical tests
+		?b: guaiac tests
+
+

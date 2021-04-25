@@ -1,0 +1,34 @@
+obj	ADF5 was recently also found to repress CBFs .	obj@CBFs
+obj	These results suggest that HDAC3 mediates NF-kappaB activity to repress Pepck transcription .	obj@transcription
+obj	How the polycomb is recruited to repress this gene cluster is unclear .	obj@cluster
+
+subj#obj	Hypomethylated intragenic L1s are a nuclear siRNA mediated cis-regulatory element that can repress genes .	subj@element obj@genes
+subj#obj	Both miR-451 and miR-709 directly repress Myc expression .	subj@miR-451 obj@expression
+subj#obj	Taken together , JunD and c-Jun repress aromatase promoter I.4 .	subj@JunD subj@c-Jun obj@I.4
+
+obj#prep	MarA was also found to repress OmpF expression through a MicF - independent pathway .	obj@expression prep_through@pathway
+obj#prep	Multiple mechanisms collaborate to repress nanos translation in the Drosophila ovary and embryo .	obj@translation prep_in@ovary
+obj#prep	Myc functions to both activate and repress transcription by associating with multiple binding partners .	obj@transcription prepc_by@associating
+
+subj#obj#prep	We previously demonstrated that estrogens repress numerous proinflammatory genes in U2OS cells .	subj@estrogens obj@genes prep_in@cells
+subj#obj#prep	In conclusion , selective FXR agonists do not repress apoA-I expression in rodents .	subj@agonists obj@expression prep_in@conclusion
+subj#obj#prep	HDACs repress gene transcription by decreasing histone acetylation levels .	subj@HDACs obj@transcription prepc_by@decreasing
+
+obj#conj	Msx2 can auto-regulate its promoter and repress Dlx2 activation .	obj@activation conj_and@auto-regulate
+obj#conj	FoxD3 and Grg4 physically interact to repress transcription and induce mesoderm in Xenopus .	obj@transcription conj_and@induce
+obj#conj	RvDs also repress renal interstitial fibrosis , and PD1 promotes renoprotective heme-oxygenase-1 expression .	obj@fibrosis conj_and@promotes
+
+subj#obj#conj	Repressing Twist with RNAi , we can repress cell transition and inhibit retinal neovascular .	subj@we obj@transition conj_and@inhibit
+subj#obj#conj	Several nuclear receptors repress inflammatory responses , but their molecular mechanisms remain poorly understood .	subj@receptors obj@responses conj_but@understood
+subj#obj#conj	ZEB1 and SNAIL repress CDH1 and induce epithelial-mesenchymal transition ( EMT ) .	subj@SNAIL subj@ZEB1 obj@CDH1 conj_and@induce
+
+subj#obj#prep#conj	Unlike UV , ionizing radiation does not repress Fbw7alpha and does not induce c-Jun .	subj@radiation obj@Fbw7alpha prep_unlike@UV conj_and@induce
+
+conj	To repress or not to repress : this is the guardian 's question .	conj_or@repress
+conj	The ability of mutant p53 to repress or induce Bcl-2 expression is controversial .	conj_or@induce
+conj	DNA methylation and histone acetylation alter the nucleosomal infrastructure to repress or activate transcription .	conj_or@activate
+
+subj#conj	CtBP can both repress and activate Wingless nuclear targets in Drosophila .	subj@CtBP conj_and@activate
+subj#conj	Numerous sRNAs repress or activate the translation of target mRNAs by a base-pairing mechanism .	subj@sRNAs conj_or@activate
+subj#conj	Finally , we show that JMJD2 proteins promoter-specifically repress or activate gene transcription .	subj@proteins conj_or@activate
+

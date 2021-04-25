@@ -1,0 +1,339 @@
+label:    sent_1
+sentence: They increased insulin-stimulated glucose uptake to reduce insulin resistance .
+
+ppatt:
+	?a increased ?b to reduce ?c
+		?a: They
+		?b: insulin-stimulated glucose uptake
+		?c: insulin resistance
+
+
+label:    sent_2
+sentence: Clodronate is a first-generation bisphosphonate that has the ability to reduce ectopic calcifications .
+
+ppatt:
+	?a is a first-generation bisphosphonate
+		?a: Clodronate
+	?a has ?b
+		?a: a first-generation bisphosphonate
+		?b: the ability to reduce ectopic calcifications
+	?a reduce ?b
+		?a: the ability
+		?b: ectopic calcifications
+
+
+label:    sent_3
+sentence: Improving graduation rates is one of the most cost-effective ways to reduce health disparities . Proton pump inhibitors ( PPIs ) may reduce upper GI bleeding .
+
+ppatt:
+	?a is one of ?b
+		?a: Improving graduation rates
+		?b: the most cost-effective ways to reduce health disparities
+	?a reduce ?b
+		?a: the most cost-effective ways
+		?b: health disparities
+	?a is/are PPIs
+		?a: Proton pump inhibitors
+	?a may reduce ?b
+		?a: Proton pump inhibitors
+		?b: upper GI bleeding
+
+
+label:    sent_4
+sentence: Improvements in the biocompatibility of stent designs could reduce stent-associated thrombosis and in-stent restenosis .
+
+ppatt:
+	?a could reduce ?b
+		?a: Improvements in the biocompatibility of stent designs
+		?b: stent-associated thrombosis
+	?a could reduce ?b
+		?a: Improvements in the biocompatibility of stent designs
+		?b: in-stent restenosis
+
+
+label:    sent_5
+sentence: Increasing health expenditure directed towards universal HAART access may reduce mortality from both diseases .
+
+ppatt:
+	?a directed towards ?b
+		?a: Increasing health expenditure
+		?b: universal HAART access
+	?a may reduce ?b
+		?a: Increasing health expenditure directed towards universal HAART access
+		?b: mortality from both diseases
+
+
+label:    sent_6
+sentence: Multifactorial injury prevention interventions have been shown to reduce injuries in the home .
+
+ppatt:
+	?a have been shown to reduce ?b
+		?a: Multifactorial injury prevention interventions
+		?b: injuries in the home
+
+
+label:    sent_7
+sentence: Molecular techniques should be used to reduce delays in initiating appropriate treatment .
+
+ppatt:
+	?a should be used to reduce ?b
+		?a: Molecular techniques
+		?b: delays
+	?a initiating ?b
+		?a: Molecular techniques
+		?b: appropriate treatment
+
+
+label:    sent_8
+sentence: The aim of research was to reduce waiting time at ED .
+
+ppatt:
+	?a was to reduce ?b
+		?a: The aim of research
+		?b: waiting time at ED
+
+
+label:    sent_9
+sentence: A preoperative smoking cessation intervention increases postoperative quit rates and may reduce postoperative morbidity .
+
+ppatt:
+	?a increases ?b
+		?a: A preoperative smoking cessation intervention
+		?b: postoperative quit rates
+	?a may reduce ?b
+		?a: A preoperative smoking cessation intervention
+		?b: postoperative morbidity
+
+
+label:    sent_10
+sentence: Colonic irrigation has been successful to reduce symptoms and improve quality of life .
+
+ppatt:
+	?a has been successful to reduce ?b
+		?a: Colonic irrigation
+		?b: symptoms
+	?a has been successful to improve ?b
+		?a: Colonic irrigation
+		?b: quality of life
+
+
+label:    sent_11
+sentence: Lycopene decreases bone resorption markers and may reduce the risk of osteoporosis .
+
+ppatt:
+	?a decreases ?b
+		?a: Lycopene
+		?b: bone resorption markers
+	?a may reduce ?b
+		?a: Lycopene
+		?b: the risk of osteoporosis
+
+
+label:    sent_12
+sentence: Some anti-reflux stents might reduce gastro-oesophageal reflux compared to conventional metal stents .
+
+ppatt:
+	?a might reduce ?b
+		?a: Some anti-reflux stents
+		?b: gastro-oesophageal reflux
+	?a compared to conventional metal stents
+		?a: Some anti-reflux stents
+
+
+label:    sent_13
+sentence: Whether probiotics reduce risk for airway inflammation in long term is not known .
+
+ppatt:
+	?a reduce ?b
+		?a: probiotics
+		?b: risk for airway inflammation in long term
+
+
+label:    sent_14
+sentence: Hemostatic dressings reduce tourniquet time while maintaining hemorrhage control .
+
+ppatt:
+	?a reduce ?b
+		?a: Hemostatic dressings
+		?b: tourniquet time
+	?a maintaining ?b
+		?a: Hemostatic dressings
+		?b: hemorrhage control
+
+
+label:    sent_15
+sentence: It should reduce operating times and improve results .
+
+ppatt:
+	?a should reduce ?b
+		?a: It
+		?b: operating times
+	?a improve ?b
+		?a: It
+		?b: results
+
+
+label:    sent_16
+sentence: This could reduce side effects and improve patient safety . SGLT2 inhibitors reduce glucose reabsorption and increase urinary glucose excretion .
+
+ppatt:
+	?a could reduce ?b
+		?a: This
+		?b: side effects
+	?a improve ?b
+		?a: This
+		?b: patient safety
+	?a reduce ?b
+		?a: SGLT2 inhibitors
+		?b: glucose reabsorption
+	?a increase ?b
+		?a: SGLT2 inhibitors
+		?b: urinary glucose excretion
+
+
+label:    sent_17
+sentence: In the future , collagen cross-linking may reduce corneal steepening and improve refractive error . Both verapamil and nifedipine reduce blood pressure acutely and on chronic administration .
+
+ppatt:
+	In ?a , ?b may reduce ?c
+		?a: the future
+		?b: collagen cross-linking
+		?c: corneal steepening
+	?a improve ?b
+		?a: collagen cross-linking
+		?b: refractive error
+	?a reduce ?b acutely and on chronic administration
+		?a: verapamil
+		?b: blood pressure
+	?a reduce ?b acutely and on chronic administration
+		?a: nifedipine
+		?b: blood pressure
+
+
+label:    sent_18
+sentence: Both PCTs significantly reduce thrombus formation rate but by different biochemical mechanisms .
+
+ppatt:
+	?a significantly reduce ?b
+		?a: Both PCTs
+		?b: thrombus formation rate
+	?a significantly reduce ?b
+		?a: Both PCTs
+		?b: different biochemical mechanisms
+
+
+label:    sent_19
+sentence: This may lighten the workload and reduce costs in a busy pathology laboratory .
+
+ppatt:
+	?a may lighten ?b
+		?a: This
+		?b: the workload
+	?a reduce ?b
+		?a: This
+		?b: costs in a busy pathology laboratory
+
+
+label:    sent_20
+sentence: Treatments aim to reduce weight and as a consequence cardiovascular risks and other comorbidities .
+
+ppatt:
+	?a reduce ?b
+		?a: Treatments aim
+		?b: weight
+	?a reduce ?b
+		?a: Treatments aim
+		?b: consequence
+	?a reduce ?b
+		?a: Treatments aim
+		?b: a cardiovascular risks
+
+
+label:    sent_21
+sentence: These organisms are aerobic but reduce nitrate to nitrite under anaerobic conditions .
+
+ppatt:
+	?a are aerobic
+		?a: These organisms
+	?a reduce ?b to ?c under ?d
+		?a: These organisms
+		?b: nitrate
+		?c: nitrite
+		?d: anaerobic conditions
+
+
+label:    sent_22
+sentence: The paper highlights options to reduce or deflect demand or to increase effective capacity .
+
+ppatt:
+	?a highlights ?b
+		?a: The paper
+		?b: options to reduce or deflect demand or to increase effective capacity
+	?a reduce ?b
+		?a: options
+		?b: demand
+	deflect ?a
+		?a: demand
+	increase ?a
+		?a: effective capacity
+
+
+label:    sent_23
+sentence: It was found to reduce and detoxify redox-active metals like Cr and Hg . Attempts to reduce or restrict supply in one area may increase demand in others .
+
+ppatt:
+	?a was found to reduce ?b like ?c
+		?a: It
+		?b: redox-active metals
+		?c: Cr
+	?a was found to reduce ?b like ?c
+		?a: It
+		?b: redox-active metals
+		?c: Hg
+	?a was found to detoxify
+		?a: It
+	?a reduce ?b
+		?a: Attempts
+		?b: supply in one area
+	?a restrict
+		?a: Attempts
+	?a may increase ?b
+		?a: Attempts to reduce or restrict supply in one area
+		?b: demand in others
+
+
+label:    sent_24
+sentence: Having such systems in place may reduce or prevent the severity of medical emergencies . CT findings reduce but can not eliminate the possibility that a nodule is malignant .
+
+ppatt:
+	Having ?a in ?b
+		?a: such systems
+		?b: place
+	may reduce ?a
+		?a: the severity of medical emergencies
+	prevent ?a
+		?a: the severity of medical emergencies
+	?a ?b reduce
+		?a: SOMETHING := Having such systems in place may reduce or prevent the severity of medical emergencies
+		?b: CT findings
+	?a can not eliminate ?b
+		?a: Having such systems in place may reduce or prevent the severity of medical emergencies
+		?b: the possibility that a nodule is malignant
+	?a is malignant
+		?a: a nodule
+
+
+label:    sent_25
+sentence: Factors that reduce or block let-7 miRNAs induce the coordinated expression of CSN subunits .
+
+ppatt:
+	?a reduce ?b
+		?a: Factors
+		?b: let-7 miRNAs
+	?a block
+		?a: that
+	?a induce ?b
+		?a: Factors that reduce or block let-7 miRNAs
+		?b: the coordinated expression of CSN subunits
+
+

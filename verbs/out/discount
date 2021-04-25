@@ -1,0 +1,234 @@
+label:    sent_1
+sentence: A 3 % annual rate was used to discount future costs and effects .
+
+ppatt:
+	?a was used to discount ?b
+		?a: A 3 % annual rate
+		?b: future costs
+	?a was used to discount ?b
+		?a: A 3 % annual rate
+		?b: effects
+
+
+label:    sent_2
+sentence: Therefore , relative area comparisons tend to discount variations introduced by different measurement techniques .
+
+ppatt:
+	Therefore , ?a tend to discount ?b
+		?a: relative area comparisons
+		?b: variations introduced by different measurement techniques
+	?a introduced by ?b
+		?a: variations
+		?b: different measurement techniques
+
+
+label:    sent_3
+sentence: Further , contraception-users discount sexual intercourse 's role in producing babies .
+
+ppatt:
+	?a producing ?b
+		?a: Further , contraception-users discount sexual intercourse 's role
+		?b: babies
+
+
+label:    sent_4
+sentence: Two-month stability of hyperbolic discount rates for delayed monetary gains in abstinent inpatient alcoholics .
+
+ppatt:
+
+
+
+label:    sent_5
+sentence: Our data discount several proposed functions for the APRPs . Arch . Experiment 2 demonstrates that individuals discount the availability of their own last name .
+
+ppatt:
+	?a discount ?b
+		?a: Our data
+		?b: several proposed functions for the APRPs
+	?a is/are Arch
+		?a: the APRPs
+	?a demonstrates ?b
+		?a: Experiment 2
+		?b: SOMETHING := individuals discount the availability of their own last name
+	?a discount ?b
+		?a: individuals
+		?b: the availability of their own last name
+
+
+label:    sent_6
+sentence: The results demonstrate that humans discount temporally distant past outcomes similarly to future outcomes .
+
+ppatt:
+	?a demonstrate ?b
+		?a: The results
+		?b: SOMETHING := humans discount temporally distant past outcomes similarly to future outcomes
+	?a discount ?b similarly to ?c
+		?a: humans
+		?b: temporally distant past outcomes
+		?c: future outcomes
+
+
+label:    sent_7
+sentence: Even anti-abortion groups discount this stand because of the League links contraception and abortion .
+
+ppatt:
+	?a discount ?b because of ?c
+		?a: Even anti-abortion groups
+		?b: this stand
+		?c: the League
+	?a links ?b
+		?a: Even anti-abortion groups
+		?b: contraception
+	?a links ?b
+		?a: Even anti-abortion groups
+		?b: abortion
+
+
+label:    sent_8
+sentence: Humans discount the value of future rewards over time .
+
+ppatt:
+	?a discount ?b over ?c
+		?a: Humans
+		?b: the value of future rewards
+		?c: time
+
+
+label:    sent_9
+sentence: We compared collinear and orthogonal configurations to discount facilitation due to reduced positional uncertainty .
+
+ppatt:
+	?a compared ?b
+		?a: We
+		?b: collinear and orthogonal configurations
+	?a discount ?b due to ?c
+		?a: We
+		?b: facilitation
+		?c: reduced positional uncertainty
+
+
+label:    sent_10
+sentence: Careful management is necessary to discount hollow opinion or error in review comment .
+
+ppatt:
+	?a is necessary to discount ?b in ?c
+		?a: Careful management
+		?b: hollow opinion
+		?c: review comment
+	?a is necessary to discount ?b in ?c
+		?a: Careful management
+		?b: error
+		?c: review comment
+
+
+label:    sent_11
+sentence: Humans are known to discount future rewards hyperbolically in time .
+
+ppatt:
+	?a are known to discount ?b hyperbolically in ?c
+		?a: Humans
+		?b: future rewards
+		?c: time
+
+
+label:    sent_12
+sentence: People generally discount future outcomes , and accordingly accept immediate but smaller gain .
+
+ppatt:
+	?a generally discount ?b
+		?a: People
+		?b: future outcomes
+	?a accordingly accept ?b
+		?a: People
+		?b: immediate but smaller gain
+
+
+label:    sent_13
+sentence: Women who are motivated to eat and discount the future are more obese .
+
+ppatt:
+	?a are motivated to eat ?b
+		?a: Women
+		?b: the future
+	?a are motivated to discount
+		?a: who
+	?a are more obese
+		?a: Women who are motivated to eat and discount the future
+
+
+label:    sent_14
+sentence: Recreation programs should be as varied as possible and should not discount useful tasks .
+
+ppatt:
+	?a should be
+		?a: Recreation programs
+	?a varied as ?b
+		?a: Recreation programs
+		?b: possible
+	?a should not discount ?b
+		?a: Recreation programs
+		?b: useful tasks
+
+
+label:    sent_15
+sentence: Multi-buy is one method by which retailers discount alcoholic beverage sales .
+
+ppatt:
+	?a is one method
+		?a: Multi-buy
+	?a by ?b discount ?c
+		?a: one method
+		?b: retailers
+		?c: alcoholic beverage sales
+
+
+label:    sent_16
+sentence: Mild opioid deprivation increases the degree that opioid-dependent outpatients discount delayed heroin and money .
+
+ppatt:
+	?a increases ?b
+		?a: Mild opioid deprivation
+		?b: the degree that opioid-dependent outpatients discount delayed heroin and money
+	?a discount ?b
+		?a: opioid-dependent outpatients
+		?b: delayed heroin
+	?a discount ?b
+		?a: opioid-dependent outpatients
+		?b: money
+
+
+label:    sent_17
+sentence: The degree to which individuals discount delayed rewards correlates with impulsiveness . Multiunits given discount on AHA aggregate dues .
+
+ppatt:
+	?a to ?b discount ?c
+		?a: The degree
+		?b: individuals
+		?c: delayed rewards
+	?a correlates with ?b
+		?a: The degree to which individuals discount delayed rewards
+		?b: impulsiveness
+	?a given ?b on ?c
+		?a: Multiunits
+		?b: discount
+		?c: AHA
+	?a aggregate ?b
+		?a: Multiunits given discount on AHA
+		?b: dues
+
+
+label:    sent_18
+sentence: The results also provide some direction for those interested in altering how individuals discount .
+
+ppatt:
+	?a also provide ?b
+		?a: The results
+		?b: some direction for those interested in altering how individuals discount
+	?a interested
+		?a: those
+	altering ?a
+		?a: SOMETHING := how individuals discount
+	how ?a discount
+		?a: individuals
+
+

@@ -1,0 +1,258 @@
+label:    sent_1
+sentence: By contrast , scavenger receptor class A ligands failed to displace HDL3 from platelets .
+
+ppatt:
+	By ?a , ?b failed to displace ?c from ?d
+		?a: contrast
+		?b: scavenger receptor class A ligands
+		?c: HDL3
+		?d: platelets
+
+
+label:    sent_2
+sentence: Electron-rich anilines were found to displace electron-poor anilines in all cases .
+
+ppatt:
+	?a were found to displace ?b in ?c
+		?a: Electron-rich anilines
+		?b: electron-poor anilines
+		?c: all cases
+
+
+label:    sent_3
+sentence: High concentrations of PNPA appear to displace DES from its binding site .
+
+ppatt:
+	?a appear to displace ?b from ?c
+		?a: High concentrations of PNPA
+		?b: DES
+		?c: its binding site
+
+
+label:    sent_4
+sentence: Gaviscon can eliminate or displace the ' acid pocket ' in GERD patients . Did Project Liberty displace community-based medicaid services in New York ? Discodermolide can effectively displace C19-[3H ] BPC-discodermolide binding . UvsY is believed to help UvsX displace Gp32 from the ssDNA .
+
+ppatt:
+	?a can eliminate ?b in ?c
+		?a: Gaviscon
+		?b: the ' acid pocket
+		?c: GERD patients
+	?a displace
+		?a: Gaviscon
+	?a Did Project in ?b
+		?a: Gaviscon
+		?b: New York
+	?a ?b displace ?c
+		?a: Gaviscon
+		?b: Liberty
+		?c: community-based medicaid services
+	?a can effectively displace ?b
+		?a: Discodermolide
+		?b: C19-[3H ] BPC-discodermolide binding
+	?a is believed to help ?b
+		?a: UvsY
+		?b: SOMETHING := UvsX displace Gp32 from the ssDNA
+	?a ?b displace ?c from ?d
+		?a: UvsY
+		?b: UvsX
+		?c: Gp32
+		?d: the ssDNA
+
+
+label:    sent_5
+sentence: Ceramides actually displace sterol from ordered domains formed with saturated phosphatidylcholine or sphingomyelin .
+
+ppatt:
+	?a actually displace ?b
+		?a: Ceramides
+		?b: sterol from ordered domains formed with saturated phosphatidylcholine or sphingomyelin
+	?a formed with ?b
+		?a: ordered domains
+		?b: saturated phosphatidylcholine
+	?a formed with ?b
+		?a: ordered domains
+		?b: sphingomyelin
+
+
+label:    sent_6
+sentence: These antagonists did not displace CTX from the myocardium .
+
+ppatt:
+	?a did not displace ?b from ?c
+		?a: These antagonists
+		?b: CTX
+		?c: the myocardium
+
+
+label:    sent_7
+sentence: Such errors will also displace the field to miss the target periphery . Do pharmaceuticals displace local knowledge and use of medicinal plants ? ANP ( 103-123 ) could not displace [ 125I ] ANP ( 99-126 ) binding .
+
+ppatt:
+	?a will also displace ?b to miss ?c
+		?a: Such errors
+		?b: the field
+		?c: the target periphery
+	Do ?a displace ?b
+		?a: pharmaceuticals
+		?b: local knowledge of medicinal plants
+	Do ?a displace ?b
+		?a: pharmaceuticals
+		?b: use
+	?a is/are 103-123
+		?a: ANP
+	?a could not displace ?b
+		?a: ANP
+		?b: [ 125I ] ANP binding
+	?a is/are 99-126
+		?a: 125I ] ANP
+
+
+label:    sent_8
+sentence: The policy is expensive and may displace other public health priorities .
+
+ppatt:
+	?a is expensive
+		?a: The policy
+	?a may displace ?b
+		?a: The policy
+		?b: other public health priorities
+
+
+label:    sent_9
+sentence: Usually , multiple cloth laparotomy packs are used to compress and displace the intestines .
+
+ppatt:
+	Usually , ?a are used to compress ?b
+		?a: multiple cloth laparotomy packs
+		?b: the intestines
+	Usually , ?a are used to displace
+		?a: multiple cloth laparotomy packs
+
+
+label:    sent_10
+sentence: Several other metals have very high affinity for PON1 and may displace calcium .
+
+ppatt:
+	?a have ?b
+		?a: Several other metals
+		?b: very high affinity for PON1
+	?a may displace ?b
+		?a: Several other metals
+		?b: calcium
+
+
+label:    sent_11
+sentence: The Na cations displace the bound dye cations and act as a competitor .
+
+ppatt:
+	?a displace ?b
+		?a: The Na cations
+		?b: the bound dye cations
+	?a act as ?b
+		?a: The Na cations
+		?b: a competitor
+
+
+label:    sent_12
+sentence: Thus legumes may displace meat , and whole-wheat bread may displace cookies and cakes .
+
+ppatt:
+	Thus ?a may displace ?b
+		?a: legumes
+		?b: meat
+	?a may displace ?b
+		?a: whole-wheat bread
+		?b: cookies
+	?a may displace ?b
+		?a: whole-wheat bread
+		?b: cakes
+
+
+label:    sent_13
+sentence: Ligands for these domains can displace the intramolecular associations and activate the kinases .
+
+ppatt:
+	?a can displace ?b
+		?a: Ligands for these domains
+		?b: the intramolecular associations
+	?a activate ?b
+		?a: Ligands for these domains
+		?b: the kinases
+
+
+label:    sent_14
+sentence: Aztreonam does not displace bilirubin from albumin and penetrates readily into cerebrospinal fluid .
+
+ppatt:
+	?a does not displace ?b from ?c
+		?a: Aztreonam
+		?b: bilirubin
+		?c: albumin
+	?a penetrates readily into ?b
+		?a: Aztreonam
+		?b: cerebrospinal fluid
+
+
+label:    sent_15
+sentence: It was shown to displace 125I-HS-145 from affinity-purified idiotypic antibodies .
+
+ppatt:
+	?a was shown to displace ?b from ?c
+		?a: It
+		?b: 125I-HS-145
+		?c: affinity-purified idiotypic antibodies
+
+
+label:    sent_16
+sentence: We also compared the ability of CsA and CsG to displace 3H-CsA from PBMC .
+
+ppatt:
+	?a also compared ?b
+		?a: We
+		?b: the ability of CsA and CsG to displace 3H-CsA from PBMC
+	?a displace ?b from ?c
+		?a: the ability of CsA and CsG
+		?b: 3H-CsA
+		?c: PBMC
+
+
+label:    sent_17
+sentence: Developing countries plan to displace Blix at IAEA .
+
+ppatt:
+	?a plan to displace ?b at ?c
+		?a: Developing countries
+		?b: Blix
+		?c: IAEA
+
+
+label:    sent_18
+sentence: Where does the tumor we displace with our cement injection go ? Dextromethorphan did not displace [ 3H ] -DTG at concentrations below 10 microM .
+
+ppatt:
+	?a displace with ?b
+		?a: we
+		?b: our cement injection
+	?a go
+		?a: SOMETHING := we displace with our cement injection
+	?a did not displace [ ?b at ?c
+		?a: Dextromethorphan
+		?b: 3H ] -DTG
+		?c: concentrations below 10 microM
+
+
+label:    sent_19
+sentence: Thus , it can displace organothiols and all the other adsorbates tested from AuNPs .
+
+ppatt:
+	Thus , ?a can displace ?b
+		?a: it
+		?b: organothiols
+	Thus , ?a can displace ?b
+		?a: it
+		?b: all the other adsorbates tested from AuNPs
+	?a tested from ?b
+		?a: all the other adsorbates
+		?b: AuNPs
+
+

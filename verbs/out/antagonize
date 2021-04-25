@@ -1,0 +1,257 @@
+label:    sent_1
+sentence: Likewise , 15-deoxy-TIC failed to antagonize taprostene-and iloprost-induced reporter transactivation .
+
+ppatt:
+	Likewise , ?a failed to antagonize ?b
+		?a: 15-deoxy-TIC
+		?b: taprostene-and iloprost-induced reporter transactivation
+
+
+label:    sent_2
+sentence: SIV Nef proteins recruit the AP-2 complex to antagonize Tetherin and facilitate virion release .
+
+ppatt:
+	?a recruit ?b to antagonize ?c
+		?a: SIV Nef proteins
+		?b: the AP-2 complex
+		?c: Tetherin
+	?a recruit to facilitate ?b
+		?a: SIV Nef proteins
+		?b: virion release
+
+
+label:    sent_3
+sentence: Reciprocally , pathogens have evolved effector strategies to antagonize the inflammasome pathway .
+
+ppatt:
+	Reciprocally , ?a have evolved ?b to antagonize ?c
+		?a: pathogens
+		?b: effector strategies
+		?c: the inflammasome pathway
+
+
+label:    sent_4
+sentence: Mucosal human defensins 5 and 6 antagonize the anti-HIV activity of candidate polyanion microbicides .
+
+ppatt:
+	?a antagonize ?b
+		?a: Mucosal human defensins
+		?b: the anti-HIV activity of candidate polyanion microbicides
+
+
+label:    sent_5
+sentence: The secondary metabolites pyrrolnitrin and phenazines antagonize phytopathogenic fungi .
+
+ppatt:
+	?a antagonize ?b
+		?a: The secondary metabolites
+		?b: phytopathogenic fungi
+
+
+label:    sent_6
+sentence: Antihypertensive medications that antagonize the sympathetic nervous system may reduce perihematomal edema after ICH .
+
+ppatt:
+	?a antagonize ?b
+		?a: Antihypertensive medications
+		?b: the sympathetic nervous system
+	?a may reduce ?b after ?c
+		?a: Antihypertensive medications that antagonize the sympathetic nervous system
+		?b: perihematomal edema
+		?c: ICH
+
+
+label:    sent_7
+sentence: Experiments on animals demonstrated that vitamin B12 supplemented diets antagonize selected teratogens during palatogenesis .
+
+ppatt:
+	?a demonstrated ?b
+		?a: Experiments on animals
+		?b: SOMETHING := vitamin B12 supplemented diets antagonize selected teratogens during palatogenesis
+	?a antagonize ?b during ?c
+		?a: vitamin B12 supplemented diets
+		?b: selected teratogens
+		?c: palatogenesis
+
+
+label:    sent_8
+sentence: Mitochondrial uncoupling agents antagonize rotenone actions in rat substantia nigra dopamine neurons . SAB could antagonize the CCl4 , induced liver fibrosis in rats .
+
+ppatt:
+	?a antagonize ?b
+		?a: Mitochondrial uncoupling agents
+		?b: rotenone actions in rat substantia nigra dopamine neurons
+	?a could antagonize ?b
+		?a: SAB
+		?b: the CCl4 , induced liver fibrosis in rats
+
+
+label:    sent_9
+sentence: Some of them were reported to antagonize oxidative stress and protect plant cells .
+
+ppatt:
+	?a were reported to antagonize ?b
+		?a: Some of them
+		?b: oxidative stress
+	?a were reported to protect ?b
+		?a: Some of them
+		?b: plant cells
+
+
+label:    sent_10
+sentence: SZ-1 may antagonize the PAF receptor and protect the brain from PAF induced damage .
+
+ppatt:
+	?a may antagonize ?b
+		?a: SZ-1
+		?b: the PAF receptor
+	?a protect ?b from ?c
+		?a: SZ-1
+		?b: the brain
+		?c: PAF induced damage
+
+
+label:    sent_11
+sentence: Ga3+ was ineffective and did not antagonize the activation by Al3+ .
+
+ppatt:
+	?a was ineffective
+		?a: Ga3+
+	?a did not antagonize ?b
+		?a: Ga3+
+		?b: the activation by Al3+
+
+
+label:    sent_12
+sentence: However , proteins appear to antagonize the E2 effect in part by binding E2 .
+
+ppatt:
+	However , ?a appear to antagonize ?b in ?c
+		?a: proteins
+		?b: the E2 effect
+		?c: part
+	?a binding ?b
+		?a: proteins
+		?b: E2
+
+
+label:    sent_13
+sentence: In contrast 3-APPh did not antagonize the inhibitory effect of morphine and noradrenaline .
+
+ppatt:
+	In ?a ?b did not antagonize ?c
+		?a: contrast
+		?b: 3-APPh
+		?c: the inhibitory effect of morphine and noradrenaline
+
+
+label:    sent_14
+sentence: Dimethylaminoadamantane did not antagonize catalepsy at all . synMuv B proteins antagonize germline fate in the intestine and ensure C. elegans survival . Bisphosphonates also antagonize osteoclastogenesis and promote the differentiation of osteoblasts .
+
+ppatt:
+	?a did not antagonize ?b at ?c
+		?a: Dimethylaminoadamantane
+		?b: catalepsy
+		?c: all
+	?a antagonize ?b
+		?a: synMuv B proteins
+		?b: germline fate in the intestine
+	?a ensure ?b
+		?a: Dimethylaminoadamantane
+		?b: C. elegans survival
+	?a also antagonize ?b
+		?a: Bisphosphonates
+		?b: osteoclastogenesis
+	?a promote ?b
+		?a: Bisphosphonates
+		?b: the differentiation of osteoblasts
+
+
+label:    sent_15
+sentence: These amidines antagonize 5-HT , but 5-HT did not alter [3H ] thymidine incorporation .
+
+ppatt:
+	?a antagonize ?b
+		?a: These amidines
+		?b: 5-HT
+	?a did not alter ?b
+		?a: 5-HT
+		?b: [3H ] thymidine incorporation
+
+
+label:    sent_16
+sentence: Interventions that antagonize or diminish these neuroendocrine changes apparently benefit patients with heart failure .
+
+ppatt:
+	?a antagonize ?b
+		?a: Interventions
+		?b: these neuroendocrine changes
+	?a diminish
+		?a: that
+	?a apparently benefit ?b
+		?a: Interventions that antagonize or diminish these neuroendocrine changes
+		?b: patients with heart failure
+
+
+label:    sent_17
+sentence: Three-dimensional soft collagen gels can antagonize but not completely abolish this effect .
+
+ppatt:
+	?a can antagonize
+		?a: Three-dimensional soft collagen gels
+	?a not completely abolish ?b
+		?a: Three-dimensional soft collagen gels
+		?b: this effect
+
+
+label:    sent_18
+sentence: These may either antagonize or potentiate the toxicity of acrylamide .
+
+ppatt:
+	?a may either antagonize ?b
+		?a: These
+		?b: the toxicity of acrylamide
+	?a potentiate
+		?a: These
+
+
+label:    sent_19
+sentence: Several epiphytes are capable of synthesizing antibiotics with which they antagonize phytopathogenic bacteria .
+
+ppatt:
+	?a are capable
+		?a: Several epiphytes
+	?a synthesizing ?b
+		?a: Several epiphytes
+		?b: antibiotics with which they antagonize phytopathogenic bacteria
+	?a with ?b antagonize ?c
+		?a: antibiotics
+		?b: they
+		?c: phytopathogenic bacteria
+
+
+label:    sent_20
+sentence: These results support the hypotheses that ethosuximide can antagonize this effect of PTZ .
+
+ppatt:
+	?a support ?b
+		?a: These results
+		?b: the hypotheses that ethosuximide can antagonize this effect of PTZ
+	?a can antagonize ?b
+		?a: ethosuximide
+		?b: this effect of PTZ
+
+
+label:    sent_21
+sentence: These results do not support a model in which FtsA monomers antagonize FtsZ polymers .
+
+ppatt:
+	?a do not support ?b
+		?a: These results
+		?b: a model in which FtsA monomers antagonize FtsZ polymers
+	?a in ?b antagonize ?c
+		?a: a model
+		?b: FtsA monomers
+		?c: FtsZ polymers
+
+

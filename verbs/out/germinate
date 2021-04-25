@@ -1,0 +1,209 @@
+label:    sent_1
+sentence: Isolated dormant axes were also induced to germinate by an application of fluridone .
+
+ppatt:
+	?a were also induced to germinate by ?b
+		?a: Isolated dormant axes
+		?b: an application of fluridone
+
+
+label:    sent_2
+sentence: Pollens with mPing tended to germinate on stigma less than those without mPing . C. difficile spores germinate in vitro in response to certain bile acids and glycine .
+
+ppatt:
+	?a tended to germinate on ?b
+		?a: Pollens with mPing
+		?b: stigma less than those
+	?a mPing
+		?a: Pollens with mPing
+	?a germinate in vitro in to ?b
+		?a: C. difficile spores
+		?b: certain bile acids
+	?a germinate in vitro in to ?b
+		?a: C. difficile spores
+		?b: glycine
+
+
+label:    sent_3
+sentence: Ascospores germinate only in the rhizosphere of melon plants growing in field soil .
+
+ppatt:
+	?a germinate in ?b
+		?a: Ascospores
+		?b: only the rhizosphere of melon plants growing in field soil
+	?a growing in ?b
+		?a: melon plants
+		?b: field soil
+
+
+label:    sent_4
+sentence: The isolate from Rhus glauca did not germinate appreciably on either surface .
+
+ppatt:
+	?a did not germinate appreciably on ?b
+		?a: The isolate from Rhus glauca
+		?b: either surface
+
+
+label:    sent_5
+sentence: Lycopersicon esculentum seeds germinate after rehydration in complete darkness .
+
+ppatt:
+	?a germinate after ?b
+		?a: Lycopersicon esculentum seeds
+		?b: rehydration in complete darkness
+
+
+label:    sent_6
+sentence: En route , these spores germinate to become vegetative bacteria .
+
+ppatt:
+	?a ?b germinate to become vegetative bacteria
+		?a: En route
+		?b: these spores
+
+
+label:    sent_7
+sentence: How do spores germinate ? Commitment of bacterial spores to germinate .
+
+ppatt:
+	How do ?a germinate ? ?b to germinate
+		?a: spores
+		?b: Commitment of bacterial spores
+
+
+label:    sent_8
+sentence: Pollen from hermaphroditic flowers was less likely to germinate and produce pollen tubes .
+
+ppatt:
+	?a was less likely to germinate ?b
+		?a: Pollen from hermaphroditic flowers
+		?b: pollen tubes
+	?a was less likely to produce
+		?a: Pollen from hermaphroditic flowers
+
+
+label:    sent_9
+sentence: Surprisingly , Nn F1 seeds expressing p50 are viable and germinate . Mature apple ( Malus domestica Borkh. ) seeds are dormant and do not germinate .
+
+ppatt:
+	?a expressing ?b
+		?a: Nn F1 seeds
+		?b: p50
+	Surprisingly , ?a are viable
+		?a: Nn F1 seeds expressing p50
+	?a germinate
+		?a: Nn F1 seeds expressing p50
+	?a is/are Malus domestica Borkh.
+		?a: Mature apple
+	?a are dormant
+		?a: Mature apple seeds
+	?a do not germinate
+		?a: Mature apple seeds
+
+
+label:    sent_10
+sentence: Rice ( Oryza sativa L. ) can successfully germinate and grow even when flooded .
+
+ppatt:
+	?a is/are Oryza sativa L.
+		?a: Rice
+	?a can successfully germinate
+		?a: Rice
+	?a grow
+		?a: Rice
+	?a even when flooded
+		?a: Rice
+
+
+label:    sent_11
+sentence: Homozygous alm1 : : ura4+ diploids sporulated normally but the spores did not germinate .
+
+ppatt:
+	?a sporulated normally
+		?a: ura4+ diploids
+
+
+label:    sent_12
+sentence: Meiotic spores containing a cdc7 null allele germinate but fail to complete cell division .
+
+ppatt:
+	?a containing ?b
+		?a: Meiotic spores
+		?b: a cdc7 null allele
+	?a germinate
+		?a: Meiotic spores containing a cdc7 null allele
+	?a fail to complete ?b
+		?a: Meiotic spores containing a cdc7 null allele
+		?b: cell division
+
+
+label:    sent_13
+sentence: The pollen could germinate in triploid tissue of pistil normally and arrive at micropyle .
+
+ppatt:
+	?a could germinate in ?b normally
+		?a: The pollen
+		?b: triploid tissue of pistil
+	?a arrive at ?b
+		?a: The pollen
+		?b: micropyle
+
+
+label:    sent_14
+sentence: Mucorales germinate in the nasal cavities and then colonize sinuses and the orbit .
+
+ppatt:
+	?a germinate in ?b
+		?a: Mucorales
+		?b: the nasal cavities
+	?a then colonize ?b
+		?a: Mucorales
+		?b: sinuses
+	?a then colonize ?b
+		?a: Mucorales
+		?b: the orbit
+
+
+label:    sent_15
+sentence: These ubiquitous fungal spores typically are inhaled and can germinate in immunocompromised hosts . Basidiospores are not forcibly discharged and germinate by budding .
+
+ppatt:
+	?a typically are inhaled
+		?a: These ubiquitous fungal spores
+	?a can germinate in ?b
+		?a: These ubiquitous fungal spores
+		?b: immunocompromised hosts
+	?a are not forcibly discharged
+		?a: Basidiospores
+	?a germinate by ?b
+		?a: Basidiospores
+		?b: budding
+
+
+label:    sent_16
+sentence: The transformed embryos are induced to germinate and the plantlets transferred to soil .
+
+ppatt:
+	?a are induced to germinate
+		?a: The transformed embryos
+	are induced to ?a transferred to ?b
+		?a: the plantlets
+		?b: soil
+
+
+label:    sent_17
+sentence: Seeds germinate potential should calculate after the germination experiment progressing 20 d .
+
+ppatt:
+	?a germinate
+		?a: Seeds
+	?a ?b should calculate after ?c
+		?a: SOMETHING := Seeds germinate
+		?b: potential
+		?c: the germination experiment progressing 20 d
+	?a progressing ?b
+		?a: the germination experiment
+		?b: 20 d
+
+

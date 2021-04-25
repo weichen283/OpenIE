@@ -1,0 +1,273 @@
+label:    sent_1
+sentence: This was done to standardize the survey methodology .
+
+ppatt:
+	?a was done to standardize ?b
+		?a: This
+		?b: the survey methodology
+
+
+label:    sent_2
+sentence: A training DVD was produced to standardize teaching and evaluation use of the checklist .
+
+ppatt:
+	?a was produced to standardize ?b
+		?a: A training DVD
+		?b: teaching of the checklist
+	?a was produced to standardize ?b
+		?a: A training DVD
+		?b: evaluation
+	?a was produced to standardize ?b
+		?a: A training DVD
+		?b: use
+
+
+label:    sent_3
+sentence: Efforts are ongoing to better standardize the conduct and interpretation of FDG-PET scans .
+
+ppatt:
+	?a are ongoing to better standardize ?b
+		?a: Efforts
+		?b: the conduct of FDG-PET scans
+	?a are ongoing to better standardize ?b
+		?a: Efforts
+		?b: interpretation
+
+
+label:    sent_4
+sentence: Grid-enabled measures : using Science 2.0 to standardize measures and share data . Tri-hospital formulary management : a joint effort to standardize therapy and reduce costs .
+
+ppatt:
+	?a using ?b
+		?a: Grid-enabled measures
+		?b: Science 2.0
+	standardize ?a ?b
+		?a: measures
+		?b: Tri-hospital formulary management
+	share ?a
+		?a: data
+	?a standardize ?b
+		?a: a joint effort
+		?b: therapy
+	reduce ?a
+		?a: costs
+
+
+label:    sent_5
+sentence: Implementation of this electronic system may streamline and standardize surveillance and reporting efforts .
+
+ppatt:
+	?a may streamline ?b
+		?a: Implementation of this electronic system
+		?b: surveillance
+	?a may streamline ?b
+		?a: Implementation of this electronic system
+		?b: efforts
+	?a standardize
+		?a: Implementation of this electronic system
+	?a reporting
+		?a: Implementation of this electronic system
+
+
+label:    sent_6
+sentence: To standardize quantitative parotid gland scintigraphy for diagnosing Sjogren 's syndrome ( SS ) . However interindividual variations made it difficult to standardize the c-waves by this change . A phantom study was performed to standardize volume calculations from SPECT derived cross-sectional areas .
+
+ppatt:
+	standardize ?a ?b
+		?a: quantitative parotid gland scintigraphy
+		?b: A phantom study
+	?a diagnosing 's ?b
+		?a: quantitative parotid gland scintigraphy
+		?b: Sjogren syndrome
+	?a is/are SS
+		?a: Sjogren syndrome
+	However ?a made ?b difficult to standardize ?c by ?d
+		?a: interindividual variations
+		?b: it
+		?c: the c-waves
+		?d: this change
+	?a was performed to standardize ?b
+		?a: A phantom study
+		?b: volume calculations from SPECT derived cross-sectional areas
+
+
+label:    sent_7
+sentence: However , it is difficult to standardize and quantify this stimulation condition .
+
+ppatt:
+	However , ?a is difficult to standardize ?b
+		?a: it
+		?b: this stimulation condition
+	However , ?a is difficult to quantify
+		?a: it
+
+
+label:    sent_8
+sentence: Further developments to standardize and gather multiple informations could now be envisionned .
+
+ppatt:
+	?a standardize ?b
+		?a: Further developments
+		?b: multiple informations
+	?a gather
+		?a: Further developments
+	?a could now be envisionned
+		?a: Further developments to standardize and gather multiple informations
+
+
+label:    sent_9
+sentence: Some guidelines have been published to standardize and optimize the nutrition therapy .
+
+ppatt:
+	?a have been published to standardize ?b
+		?a: Some guidelines
+		?b: the nutrition therapy
+	?a have been published to optimize
+		?a: Some guidelines
+
+
+label:    sent_10
+sentence: Description of web-enhanced virtual character simulation system to standardize patient hand-offs .
+
+ppatt:
+	?a standardize ?b
+		?a: Description of web-enhanced virtual character simulation system
+		?b: patient hand-offs
+
+
+label:    sent_11
+sentence: A modified Delphi approach to standardize low back pain recurrence terminology .
+
+ppatt:
+	?a standardize ?b
+		?a: A modified Delphi approach
+		?b: low back pain recurrence terminology
+
+
+label:    sent_12
+sentence: The quest to standardize hemodialysis care .
+
+ppatt:
+	?a standardize ?b
+		?a: The quest
+		?b: hemodialysis care
+
+
+label:    sent_13
+sentence: However , this method is difficult to standardize especially under GMP conditions .
+
+ppatt:
+	However , ?a is difficult to standardize especially under ?b
+		?a: this method
+		?b: GMP conditions
+
+
+label:    sent_14
+sentence: This examination is much more easy to standardize than the conventional US .
+
+ppatt:
+	?a is much more easy to standardize than ?b
+		?a: This examination
+		?b: the conventional US
+
+
+label:    sent_15
+sentence: However , carotid tonometry is technically challenging and difficult to standardize in practice .
+
+ppatt:
+	However , ?a is technically challenging to standardize in ?b
+		?a: carotid tonometry
+		?b: practice
+
+
+label:    sent_16
+sentence: This may further allow us to standardize treatment and study outcomes .
+
+ppatt:
+	?a may further allow ?b to standardize ?c
+		?a: This
+		?b: us
+		?c: treatment
+	?a may further allow to study ?b
+		?a: This
+		?b: outcomes
+
+
+label:    sent_17
+sentence: The use of LNR may standardize the staging and guide decisions for adjuvant treatments .
+
+ppatt:
+	?a may standardize ?b
+		?a: The use of LNR
+		?b: the staging
+	?a guide ?b
+		?a: The use of LNR
+		?b: decisions for adjuvant treatments
+
+
+label:    sent_18
+sentence: Here , we standardize the LEL model and explore its suitability for drug testing .
+
+ppatt:
+	Here , ?a standardize ?b
+		?a: we
+		?b: the LEL model
+	?a explore ?b
+		?a: we
+		?b: its suitability for drug testing
+
+
+label:    sent_19
+sentence: The commercial information on medications could standardize behaviour with regard to writing prescriptions .
+
+ppatt:
+	?a could standardize ?b with ?c
+		?a: The commercial information on medications
+		?b: behaviour
+		?c: regard to writing prescriptions
+
+
+label:    sent_20
+sentence: Methods to standardize dietary intake before performance testing . A proposal to standardize reporting units for fecal immunochemical tests for hemoglobin .
+
+ppatt:
+	?a standardize ?b before ?c
+		?a: Methods
+		?b: dietary intake
+		?c: performance testing
+	?a standardize ?b
+		?a: A proposal
+		?b: reporting units for fecal immunochemical tests for hemoglobin
+
+
+label:    sent_21
+sentence: Parenteral nutrition in neonatology --to standardize or individualize ? Radiofrequency identification technology can standardize and document blood collections and transfusions .
+
+ppatt:
+	?a standardize
+		?a: Parenteral nutrition in neonatology
+	?a individualize
+		?a: Parenteral nutrition in neonatology
+	?a ?b can standardize ?c
+		?a: Parenteral nutrition in neonatology --to standardize or individualize
+		?b: Radiofrequency identification technology
+		?c: blood collections
+	?a ?b can standardize ?c
+		?a: Parenteral nutrition in neonatology --to standardize or individualize
+		?b: Radiofrequency identification technology
+		?c: transfusions
+	?a document
+		?a: Parenteral nutrition in neonatology --to standardize or individualize
+
+
+label:    sent_22
+sentence: Future research should standardize and systematically test inpatient DBT .
+
+ppatt:
+	?a should standardize
+		?a: Future research
+	?a test ?b
+		?a: Future research
+		?b: inpatient DBT
+
+

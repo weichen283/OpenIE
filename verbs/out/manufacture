@@ -1,0 +1,263 @@
+label:    sent_1
+sentence: The spray drying process parameters used to manufacture the particles were calculated a priori .
+
+ppatt:
+	?a used to manufacture ?b
+		?a: The spray drying process parameters
+		?b: the particles
+	?a were calculated a priori
+		?a: The spray drying process parameters used to manufacture the particles
+
+
+label:    sent_2
+sentence: Over the decades , more gas-permeable plastics have been used to manufacture platelet containers .
+
+ppatt:
+	Over ?a , ?b have been used to manufacture ?c
+		?a: the decades
+		?b: more gas-permeable plastics
+		?c: platelet containers
+
+
+label:    sent_3
+sentence: These differences were attributed to the employment of sucrose to manufacture the particulate-based proliposomes .
+
+ppatt:
+	?a were attributed to ?b
+		?a: These differences
+		?b: the employment of sucrose to manufacture the particulate-based proliposomes
+	?a manufacture ?b
+		?a: the employment of sucrose
+		?b: the particulate-based proliposomes
+
+
+label:    sent_4
+sentence: Molecular nanotechnology involves the ability to manufacture objects to precise atomic specifications .
+
+ppatt:
+	?a involves ?b
+		?a: Molecular nanotechnology
+		?b: the ability to manufacture objects to precise atomic specifications
+	?a manufacture ?b to ?c
+		?a: the ability
+		?b: objects
+		?c: precise atomic specifications
+
+
+label:    sent_5
+sentence: This milk was used to manufacture Cheddar cheese on a pilot scale .
+
+ppatt:
+	?a was used to manufacture ?b on ?c
+		?a: This milk
+		?b: Cheddar cheese
+		?c: a pilot scale
+
+
+label:    sent_6
+sentence: This chip is equipped to manufacture ready-to-use esiRNAs on a large-scale level .
+
+ppatt:
+	?a is equipped to manufacture ?b on ?c
+		?a: This chip
+		?b: ready-to-use esiRNAs
+		?c: a large-scale level
+
+
+label:    sent_7
+sentence: Neurotoxic effects in workers of the clinical thermometer manufacture plant .
+
+ppatt:
+
+
+
+label:    sent_8
+sentence: We hope that this will soon enable us to manufacture vaccines cheaply . Pharmaceutical companies that manufacture inhaled corticosteroids were also contacted .
+
+ppatt:
+	?a hope ?b
+		?a: We
+		?b: SOMETHING := this will soon enable us to manufacture vaccines cheaply
+	?a will soon enable ?b to manufacture ?c cheaply
+		?a: this
+		?b: us
+		?c: vaccines
+	?a manufacture ?b
+		?a: Pharmaceutical companies
+		?b: inhaled corticosteroids
+	?a were also contacted
+		?a: Pharmaceutical companies that manufacture inhaled corticosteroids
+
+
+label:    sent_9
+sentence: It is easy to manufacture and apply with satisfactory clinical effects .
+
+ppatt:
+	?a is easy to manufacture with ?b
+		?a: It
+		?b: satisfactory clinical effects
+	?a is easy to apply
+		?a: It
+
+
+label:    sent_10
+sentence: Innovative fluorine-addition process could enable faster drug design and manufacture .
+
+ppatt:
+	?a could enable ?b
+		?a: Innovative fluorine-addition process
+		?b: faster drug design
+	?a could enable ?b
+		?a: Innovative fluorine-addition process
+		?b: manufacture
+
+
+label:    sent_11
+sentence: The objectives of this study were to manufacture and characterize a nondegradable hydrated scaffold .
+
+ppatt:
+	?a were to manufacture ?b
+		?a: The objectives of this study
+		?b: a nondegradable hydrated scaffold
+	?a were to characterize
+		?a: The objectives of this study
+
+
+label:    sent_12
+sentence: The monohydrate form was difficult to manufacture with constant quality . Wrinkles in the coating which were introduced during can manufacture were cracked .
+
+ppatt:
+	?a was difficult to manufacture with ?b
+		?a: The monohydrate form
+		?b: constant quality
+	?a was difficult to manufacture with ?b
+		?a: The monohydrate form
+		?b: Wrinkles in the coating which were introduced during manufacture
+	?a were introduced during ?b
+		?a: the coating
+		?b: manufacture
+	?a can were cracked
+		?a: The monohydrate form
+
+
+label:    sent_13
+sentence: It is simple to manufacture because of the water solubility of the salt .
+
+ppatt:
+	?a is simple to manufacture because of ?b
+		?a: It
+		?b: the water solubility of the salt
+
+
+label:    sent_14
+sentence: The potential for kelp manufacture to lead to arsenic pollution of remote Scottish islands . Process economics of industrial monoclonal antibody manufacture .
+
+ppatt:
+	?a lead to ?b
+		?a: The potential for kelp manufacture
+		?b: arsenic pollution of remote Scottish islands
+	?a Process ?b
+		?a: The potential for kelp manufacture to lead to arsenic pollution of remote Scottish islands
+		?b: economics of industrial monoclonal antibody manufacture
+
+
+label:    sent_15
+sentence: The favourable result encouraged us to manufacture keratolenses for the correction of refractive errors .
+
+ppatt:
+	?a encouraged ?b to manufacture ?c for ?d
+		?a: The favourable result
+		?b: us
+		?c: keratolenses
+		?d: the correction of refractive errors
+
+
+label:    sent_16
+sentence: Among other things , these companies manufacture toys , batik items , and ceramics . Shionogi will manufacture doripenem for worldwide distribution .
+
+ppatt:
+	Among ?a , ?b manufacture ?c
+		?a: other things
+		?b: these companies
+		?c: toys
+	Among ?a , ?b manufacture ?c
+		?a: other things
+		?b: these companies
+		?c: batik items
+	Among ?a , ?b manufacture ?c
+		?a: other things
+		?b: these companies
+		?c: ceramics
+	?a will manufacture ?b for ?c
+		?a: Shionogi
+		?b: doripenem
+		?c: worldwide distribution
+
+
+label:    sent_17
+sentence: Microbes manufacture plastic from food waste . Lion-tailed macaques ( Macaca silenus ) manufacture and use tools .
+
+ppatt:
+	?a manufacture ?b
+		?a: Microbes
+		?b: plastic from food waste
+	?a is/are Macaca silenus
+		?a: Lion-tailed macaques
+	?a manufacture
+		?a: Lion-tailed macaques
+	?a use ?b
+		?a: Lion-tailed macaques
+		?b: tools
+
+
+label:    sent_18
+sentence: These biofactories manufacture and store large quantities of silk proteins for fiber production .
+
+ppatt:
+	?a manufacture ?b
+		?a: These biofactories
+		?b: large quantities of silk proteins for fiber production
+	?a store
+		?a: These biofactories
+
+
+label:    sent_19
+sentence: Neurons of this system manufacture and secrete oxytocin and vasopressin .
+
+ppatt:
+	?a manufacture ?b
+		?a: Neurons of this system
+		?b: oxytocin
+	?a manufacture ?b
+		?a: Neurons of this system
+		?b: vasopressin
+	?a secrete
+		?a: Neurons of this system
+
+
+label:    sent_20
+sentence: Normal CNS glial cells manufacture neurotrophin receptors and are competent to respond to NGF .
+
+ppatt:
+	?a manufacture ?b
+		?a: Normal CNS glial cells
+		?b: neurotrophin receptors
+	respond to ?a
+		?a: NGF
+
+
+label:    sent_21
+sentence: They manufacture unusual compounds , utilize novel metabolic pathways , and contain unique genes .
+
+ppatt:
+	?a manufacture ?b
+		?a: They
+		?b: unusual compounds
+	?a utilize ?b
+		?a: They
+		?b: novel metabolic pathways
+	?a contain ?b
+		?a: They
+		?b: unique genes
+
+

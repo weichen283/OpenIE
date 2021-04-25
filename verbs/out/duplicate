@@ -1,0 +1,212 @@
+label:    sent_1
+sentence: No attempt was made to duplicate time dependence or wave forms . Recent randomized studies , however , have been unable to duplicate these results .
+
+ppatt:
+	?a was made to duplicate ?b
+		?a: No attempt
+		?b: time dependence
+	?a was made to duplicate ?b
+		?a: No attempt
+		?b: wave forms
+	?a however , have been unable to duplicate ?b
+		?a: Recent randomized studies
+		?b: these results
+
+
+label:    sent_2
+sentence: Mixtures of dental porcelains were tested to duplicate the range of human tooth colors .
+
+ppatt:
+	?a were tested to duplicate ?b
+		?a: Mixtures of dental porcelains
+		?b: the range of human tooth colors
+
+
+label:    sent_3
+sentence: Placebo treatment did not duplicate the selenium effects in 30 other men .
+
+ppatt:
+	?a did not duplicate ?b in ?c
+		?a: Placebo treatment
+		?b: the selenium effects
+		?c: 30 other men
+
+
+label:    sent_4
+sentence: No single GF could duplicate the HK pro-motility activity in HS .
+
+ppatt:
+	?a could duplicate ?b
+		?a: No single GF
+		?b: the HK pro-motility activity in HS
+
+
+label:    sent_5
+sentence: Our calculations duplicate this experimental finding by Dolbier and co-workers .
+
+ppatt:
+	?a duplicate ?b
+		?a: Our calculations
+		?b: this experimental finding by Dolbier and co-workers
+
+
+label:    sent_6
+sentence: It was proposed that origin-less H. volcanii duplicate their chromosomes via recombination-dependent replication .
+
+ppatt:
+	?a was proposed ?b
+		?a: It
+		?b: SOMETHING := origin-less H. volcanii duplicate their chromosomes via recombination-dependent replication
+	?a duplicate ?b via ?c
+		?a: origin-less H. volcanii
+		?b: their chromosomes
+		?c: recombination-dependent replication
+
+
+label:    sent_7
+sentence: Other fields are encouraged to duplicate these methods in the design of content-specific databases .
+
+ppatt:
+	?a are encouraged to duplicate ?b in ?c
+		?a: Other fields
+		?b: these methods
+		?c: the design of content-specific databases
+
+
+label:    sent_8
+sentence: A modeled cell was designed to duplicate its inhibitory effect on spontaneous pacemaking .
+
+ppatt:
+	?a was designed to duplicate ?b on ?c
+		?a: A modeled cell
+		?b: its inhibitory effect
+		?c: spontaneous pacemaking
+
+
+label:    sent_9
+sentence: Other organisations are encouraged to duplicate the intervention and share their results .
+
+ppatt:
+	?a are encouraged to duplicate ?b
+		?a: Other organisations
+		?b: the intervention
+	?a are encouraged to share ?b
+		?a: Other organisations
+		?b: their results
+
+
+label:    sent_10
+sentence: This would explain why RA expands but does not duplicate the postotic rhombomeres .
+
+ppatt:
+	?a would explain ?b
+		?a: This
+		?b: SOMETHING := why RA expands
+	why ?a expands
+		?a: RA
+	?a does not duplicate ?b
+		?a: RA
+		?b: the postotic rhombomeres
+
+
+label:    sent_11
+sentence: Glial cells duplicate the number of neurons in the myenteric plexuses .
+
+ppatt:
+	?a duplicate ?b
+		?a: Glial cells
+		?b: the number of neurons in the myenteric plexuses
+
+
+label:    sent_12
+sentence: Under normal conditions these receptors may duplicate the kinaesthetic input from muscle spindle endings .
+
+ppatt:
+	Under ?a ?b may duplicate ?c
+		?a: normal conditions
+		?b: these receptors
+		?c: the kinaesthetic input from muscle spindle endings
+
+
+label:    sent_13
+sentence: During reverse transcription , retroviruses duplicate the long terminal repeats ( LTRs ) . These rates duplicate from 14 to 15 years of age .
+
+ppatt:
+	During ?a , ?b duplicate ?c
+		?a: reverse transcription
+		?b: retroviruses
+		?c: the long terminal repeats
+	?a is/are LTRs
+		?a: the long terminal repeats
+	?a duplicate from ?b
+		?a: These rates
+		?b: 14 15 years of age
+
+
+label:    sent_14
+sentence: Centrioles duplicate once in each cell division cycle through so-called templated or canonical duplication .
+
+ppatt:
+
+
+
+label:    sent_15
+sentence: Centrioles duplicate in concert with chromosomes during the cell cycle .
+
+ppatt:
+
+
+
+label:    sent_16
+sentence: They were able to duplicate in lung tissues of guinea pigs without prior adaptation .
+
+ppatt:
+	?a were able to duplicate in ?b without ?c
+		?a: They
+		?b: lung tissues of guinea pigs
+		?c: prior adaptation
+
+
+label:    sent_17
+sentence: After a few weeks , the HIV regains its ability to duplicate through mutation .
+
+ppatt:
+	After ?a , ?b regains ?c
+		?a: a few weeks
+		?b: the HIV
+		?c: its ability to duplicate through mutation
+	?a duplicate through ?b
+		?a: its ability
+		?b: mutation
+
+
+label:    sent_18
+sentence: The established ankylosis model is allowed to duplicate at a high successful rate .
+
+ppatt:
+	?a is allowed to duplicate at ?b
+		?a: The established ankylosis model
+		?b: a high successful rate
+
+
+label:    sent_19
+sentence: In this report we sought to duplicate and extend this finding . Students often take electives that duplicate or do not enhance their career choices .
+
+ppatt:
+	In ?a ?b sought to duplicate ?c ?d
+		?a: this report
+		?b: we
+		?c: this finding
+		?d: SOMETHING := Students often take electives that duplicate or do not enhance their career choices
+	?a sought to extend
+		?a: we
+	?a often take ?b
+		?a: Students
+		?b: electives that duplicate or do not enhance their career choices
+	?a duplicate
+		?a: electives
+	?a do not enhance ?b
+		?a: that
+		?b: their career choices
+
+

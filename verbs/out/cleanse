@@ -1,0 +1,111 @@
+label:    sent_1
+sentence: In most cases the treatment of illness involves herbal purgatives to cleanse the patient .
+
+ppatt:
+	In ?a ?b involves ?c to cleanse ?d
+		?a: most cases
+		?b: the treatment of illness
+		?c: herbal purgatives
+		?d: the patient
+
+
+label:    sent_2
+sentence: Acute phosphate nephropathy following oral sodium phosphate solution to cleanse the bowel for colonoscopy .
+
+ppatt:
+	?a cleanse ?b for ?c
+		?a: Acute phosphate nephropathy following oral sodium phosphate solution
+		?b: the bowel
+		?c: colonoscopy
+
+
+label:    sent_3
+sentence: Isopropyl pads ( IPs ) are commonly used to cleanse skin .
+
+ppatt:
+	?a is/are IPs
+		?a: Isopropyl pads
+	?a are commonly used to cleanse ?b
+		?a: Isopropyl pads
+		?b: skin
+
+
+label:    sent_4
+sentence: Care must be taken to cleanse the chisel before percutaneous entry .
+
+ppatt:
+	?a must be taken to cleanse ?b before ?c
+		?a: Care
+		?b: the chisel
+		?c: percutaneous entry
+
+
+label:    sent_5
+sentence: [ Electrolyte solution with polyethylene glycol to cleanse the colon for colonoscopy or enema ] . Oral electrolyte overload to cleanse the colon for colonoscopy . [New methods cleanse wounds faster .
+
+ppatt:
+	?a cleanse ?b for ?c to cleanse ?d for ?e
+		?a: Electrolyte solution with polyethylene glycol
+		?b: the colon
+		?c: colonoscopy
+		?d: the colon
+		?e: colonoscopy
+	cleanse ?a for ?b ?c to cleanse ?d for ?e
+		?a: the colon
+		?b: colonoscopy
+		?c: Oral electrolyte overload
+		?d: the colon
+		?e: colonoscopy
+	?a cleanse ?b for ?c to cleanse ?d for ?e
+		?a: Electrolyte solution with polyethylene glycol
+		?b: the colon
+		?c: enema ]
+		?d: the colon
+		?e: colonoscopy
+	cleanse ?a for ?b ?c to cleanse ?d for ?e
+		?a: the colon
+		?b: enema ]
+		?c: Oral electrolyte overload
+		?d: the colon
+		?e: colonoscopy
+	?a ?b cleanse ?c faster
+		?a: Electrolyte solution with polyethylene glycol to cleanse the colon for colonoscopy or enema ] . to cleanse the colon for colonoscopy
+		?b: [New methods
+		?c: wounds
+	?a ?b cleanse ?c faster
+		?a: Oral electrolyte overload
+		?b: [New methods
+		?c: wounds
+
+
+label:    sent_6
+sentence: Zinc improves wound treatment ] . Some women using cotton wool and water did not cleanse skin after urination alone .
+
+ppatt:
+	?a improves ?b
+		?a: Zinc
+		?b: wound treatment ]
+	?a using ?b
+		?a: Some women
+		?b: cotton wool
+	?a using ?b
+		?a: Some women
+		?b: water
+	?a did not cleanse ?b after ?c
+		?a: Some women using cotton wool and water
+		?b: skin
+		?c: urination alone
+
+
+label:    sent_7
+sentence: Participants were more likely to cleanse after sex if they reported no condom use .
+
+ppatt:
+	?a were more likely to cleanse after ?b
+		?a: Participants
+		?b: sex
+	?a reported ?b
+		?a: they
+		?b: no condom use
+
+

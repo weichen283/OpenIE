@@ -1,0 +1,289 @@
+label:    sent_1
+sentence: Localized gingival growths : do they belong to the common spectrum called frog ? Cell phones are everywhere , but do they belong in the OR ? Neither isolates belong to C. orthopsilosis nor C. metapsilosis .
+
+ppatt:
+	?a called frog ? Cell phones
+		?a: the common spectrum
+	do ?a belong in ?b
+		?a: they
+		?b: the OR
+	?a belong to ?b
+		?a: Neither isolates
+		?b: C. orthopsilosis
+	?a belong to ?b
+		?a: Neither isolates
+		?b: C. metapsilosis
+
+
+label:    sent_2
+sentence: All were found to belong to P. nordicum .
+
+ppatt:
+	?a were found to belong to ?b
+		?a: All
+		?b: P. nordicum
+
+
+label:    sent_3
+sentence: The protein was confirmed to belong to serine protease .
+
+ppatt:
+	?a was confirmed to belong to ?b
+		?a: The protein
+		?b: serine protease
+
+
+label:    sent_4
+sentence: The sulfamethoxazole-resistant isolates were found to belong to 25 genera .
+
+ppatt:
+	?a were found to belong to ?b
+		?a: The sulfamethoxazole-resistant isolates
+		?b: 25 genera
+
+
+label:    sent_5
+sentence: Most known phytoplasma vectors belong to the Cicadellidae , but many are still unknown .
+
+ppatt:
+	?a belong to ?b
+		?a: Most known phytoplasma vectors
+		?b: the Cicadellidae
+	?a are still unknown
+		?a: many
+
+
+label:    sent_6
+sentence: All antibodies belong to the IgG class and bind to staphylococcus protein A . AKA belong predominantly to the IgG class and are complement fixing .
+
+ppatt:
+	?a belong to ?b
+		?a: All antibodies
+		?b: the IgG class
+	?a bind to ?b
+		?a: All antibodies
+		?b: staphylococcus protein A
+	?a belong predominantly to ?b
+		?a: AKA
+		?b: the IgG class
+
+
+label:    sent_7
+sentence: Sauriols A and B belong to a class of diarylbutane-lignans and exhibit antifeedant activity .
+
+ppatt:
+	?a belong to ?b
+		?a: Sauriols
+		?b: a class of diarylbutane-lignans
+	?a exhibit ?b
+		?a: Sauriols
+		?b: antifeedant activity
+
+
+label:    sent_8
+sentence: Uveitis are isolated or belong to manifestations of a systemic disease .
+
+ppatt:
+	?a are isolated
+		?a: Uveitis
+	?a belong to ?b
+		?a: Uveitis
+		?b: manifestations of a systemic disease
+
+
+label:    sent_9
+sentence: The monoclinic crystals diffracted to 3.0 A resolution and belong to space group C2 .
+
+ppatt:
+	?a diffracted to ?b
+		?a: The monoclinic crystals
+		?b: 3.0 A resolution
+	?a belong to ?b
+		?a: The monoclinic crystals
+		?b: space group C2
+
+
+label:    sent_10
+sentence: Where do my emotions belong ? A study of immigrants ' emotional acculturation .
+
+ppatt:
+	Where do ?a belong ?b
+		?a: my emotions
+		?b: A study of immigrants ' emotional acculturation
+
+
+label:    sent_11
+sentence: Do they really belong ? JS614 TOPRIM inteins belong to based on catalytic mechanism .
+
+ppatt:
+	Do ?a really belong ?b
+		?a: they
+		?b: SOMETHING := JS614 TOPRIM inteins belong to based on catalytic mechanism
+	?a belong to based on ?b
+		?a: JS614 TOPRIM inteins
+		?b: catalytic mechanism
+
+
+label:    sent_12
+sentence: The families to which the subfamilies belong are documented .
+
+ppatt:
+	?a to ?b belong
+		?a: The families
+		?b: the subfamilies
+	?a are documented
+		?a: The families to which the subfamilies belong
+
+
+label:    sent_13
+sentence: The cysticerci are discussed as to the species to which they belong . [Obstetrical anesthesia --to which group of anesthesiologists do you belong ? ] . [ The notification obligation .
+
+ppatt:
+	?a are discussed as to ?b
+		?a: The cysticerci
+		?b: the species to which they belong . [Obstetrical anesthesia --to which group of anesthesiologists do you belong ? ] . [ The notification obligation
+	?a to ?b belong ?c
+		?a: the species
+		?b: they
+		?c: [Obstetrical anesthesia --to which group of anesthesiologists do you belong ? ] [ The notification obligation
+	?a --to ?b do you belong ? ?c [ ?d
+		?a: [Obstetrical anesthesia
+		?b: group of anesthesiologists
+		?c: ]
+		?d: The notification obligation
+
+
+label:    sent_14
+sentence: Violations do n't belong in lex Maria ] . According to the molecular analysis , all strains belong to the species S. cerevisiae .
+
+ppatt:
+	?a do n't belong in ?b ?c . According to ?d
+		?a: Violations
+		?b: lex
+		?c: Maria ]
+		?d: the molecular analysis
+	?a belong to ?b ?c
+		?a: all strains
+		?b: species
+		?c: the S. cerevisiae
+
+
+label:    sent_15
+sentence: Based on their chromatographic properties , these polar glycolipids belong to the lipooligosaccharide family .
+
+ppatt:
+	Based on ?a chromatographic properties ?b
+		?a: their
+		?b: these polar glycolipids
+	?a belong to ?b
+		?a: these polar glycolipids
+		?b: the lipooligosaccharide family
+
+
+label:    sent_16
+sentence: To the synucleinopathies belong PD , Lewy body dementia and multiple system atrophy .
+
+ppatt:
+	To ?a belong ?b
+		?a: the synucleinopathies
+		?b: PD
+	To ?a belong ?b
+		?a: the synucleinopathies
+		?b: Lewy body dementia
+	To ?a belong ?b
+		?a: the synucleinopathies
+		?b: multiple system atrophy
+
+
+label:    sent_17
+sentence: To the molar pregnancies belong complete , partial , invasive and metastatic hydatidiform mole .
+
+ppatt:
+	To ?a belong ?b
+		?a: the molar pregnancies
+		?b: complete
+	To ?a belong ?b
+		?a: the molar pregnancies
+		?b: partial
+	To ?a belong ?b
+		?a: the molar pregnancies
+		?b: invasive
+	To ?a belong ?b
+		?a: the molar pregnancies
+		?b: metastatic
+
+
+label:    sent_18
+sentence: To them belong catharsis , containment , reflection , regulation and integration .
+
+ppatt:
+	To ?a belong ?b
+		?a: them
+		?b: catharsis
+	To ?a belong ?b
+		?a: them
+		?b: containment
+	To ?a belong ?b
+		?a: them
+		?b: reflection
+	To ?a belong ?b
+		?a: them
+		?b: regulation
+	To ?a belong ?b
+		?a: them
+		?b: integration
+
+
+label:    sent_19
+sentence: We verified by phylogenetic analyses that these strains belong to N. tetrasperma .
+
+ppatt:
+	?a verified by ?b
+		?a: We
+		?b: phylogenetic analyses that these strains belong to N. tetrasperma
+	?a belong to ?b
+		?a: these strains
+		?b: N. tetrasperma
+
+
+label:    sent_20
+sentence: Rabies is a zoonosis of which the archaeological agents belong to the Lyssavirus species . T-1-family conotoxins belong to the T-superfamily and are composed of 10-17 amino acids .
+
+ppatt:
+	?a is a zoonosis
+		?a: Rabies
+	?a of ?b belong to ?c
+		?a: a zoonosis
+		?b: the archaeological agents
+		?c: the Lyssavirus species
+	?a belong to ?b
+		?a: T-1-family conotoxins
+		?b: the T-superfamily
+	?a are composed of ?b
+		?a: T-1-family conotoxins
+		?b: 10-17 amino acids
+
+
+label:    sent_21
+sentence: These types belong to the non-scarring epidermolyses and show ultrastructurally junctional blistering .
+
+ppatt:
+	?a belong to ?b
+		?a: These types
+		?b: the non-scarring epidermolyses
+	?a show ?b
+		?a: These types
+		?b: ultrastructurally junctional blistering
+
+
+label:    sent_22
+sentence: Compounds 1-5 are 6,7-seco-ent-kaurane-7,20-olide diterpenoids , and 6-12 belong to 7,20-epoxy-ent-kauranoids .
+
+ppatt:
+	?a are 6,7-seco-ent-kaurane-7,20-olide diterpenoids
+		?a: Compounds 1-5
+	?a belong to ?b
+		?a: 6-12
+		?b: 7,20-epoxy-ent-kauranoids
+
+

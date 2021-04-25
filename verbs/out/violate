@@ -1,0 +1,214 @@
+label:    sent_1
+sentence: Current surgical procedures with ring curettes do not violate the subchondral bone plate . Prisons .
+
+ppatt:
+	?a do not violate ?b
+		?a: Current surgical procedures with ring curettes
+		?b: the subchondral bone plate . Prisons
+
+
+label:    sent_2
+sentence: Antiretroviral restrictions did not violate inmate 's rights . Did termination of efficient nurse violate public policy ? The corresponding two-photon correlation function is shown to violate Bell 's inequalities .
+
+ppatt:
+	?a did not violate ?b
+		?a: Antiretroviral restrictions
+		?b: inmate 's rights
+	Did ?a
+		?a: termination of efficient nurse
+	?a violate ?b
+		?a: Antiretroviral restrictions
+		?b: public policy
+	?a is shown to violate ?b
+		?a: The corresponding two-photon correlation function
+		?b: Bell 's inequalities
+
+
+label:    sent_3
+sentence: These results are applied to violate a generalization of the Leggett-Garg inequality .
+
+ppatt:
+	?a are applied to violate ?b
+		?a: These results
+		?b: a generalization of the Leggett-Garg inequality
+
+
+label:    sent_4
+sentence: State regulation of Canadian pharmacies : a prescription to violate the supremacy clause .
+
+ppatt:
+	?a violate ?b
+		?a: a prescription
+		?b: the supremacy clause
+
+
+label:    sent_5
+sentence: These bills violate human rights , and will only drive AIDS underground .
+
+ppatt:
+	?a violate ?b
+		?a: These bills
+		?b: human rights
+	?a will only drive ?b underground
+		?a: These bills
+		?b: AIDS
+
+
+label:    sent_6
+sentence: Psychopathic offenders inevitably violate interpersonal norms and frequently resort to aggressive and criminal behaviour .
+
+ppatt:
+	?a inevitably violate ?b
+		?a: Psychopathic offenders
+		?b: interpersonal norms
+	?a frequently resort to ?b
+		?a: Psychopathic offenders
+		?b: aggressive and criminal behaviour
+
+
+label:    sent_7
+sentence: However , certain combinatorial mutational patterns violate these simple rules and demonstrate tissue-specific variations .
+
+ppatt:
+	However , ?a violate ?b
+		?a: certain combinatorial mutational patterns
+		?b: these simple rules
+	?a demonstrate ?b
+		?a: certain combinatorial mutational patterns
+		?b: tissue-specific variations
+
+
+label:    sent_8
+sentence: Among pedestrians , males violate more rules than females do . Trunk biomechanical models based on equilibrium at a single-level violate equilibrium at other levels .
+
+ppatt:
+	Among ?a , ?b violate ?c
+		?a: pedestrians
+		?b: males
+		?c: more rules
+	than ?a do
+		?a: females
+	than ?a based on equilibrium at ?b
+		?a: females
+		?b: a single-level
+	?a violate ?b at ?c
+		?a: Trunk biomechanical models
+		?b: equilibrium
+		?c: other levels
+
+
+label:    sent_9
+sentence: Convergent proton-transfer photocycles violate mirror-image symmetry in a key melanin monomer .
+
+ppatt:
+	?a violate ?b
+		?a: Convergent proton-transfer photocycles
+		?b: mirror-image symmetry in a key melanin monomer
+
+
+label:    sent_10
+sentence: Postabortion care providers who breach patient confidentiality endanger women 's health and violate ethics .
+
+ppatt:
+	?a breach ?b
+		?a: Postabortion care providers
+		?b: patient confidentiality
+	?a endanger ?b
+		?a: Postabortion care providers who breach patient confidentiality
+		?b: women 's health
+	?a violate ?b
+		?a: Postabortion care providers who breach patient confidentiality
+		?b: ethics
+
+
+label:    sent_11
+sentence: It follows that these data are inconsistent and violate energy conservation .
+
+ppatt:
+	?a follows ?b
+		?a: It
+		?b: SOMETHING := these data are inconsistent
+	?a are inconsistent
+		?a: these data
+	?a violate ?b
+		?a: these data
+		?b: energy conservation
+
+
+label:    sent_12
+sentence: Central placement of the screw may be difficult and may violate the scaphotrapezial joint .
+
+ppatt:
+	?a may be difficult
+		?a: Central placement of the screw
+	?a may violate ?b
+		?a: Central placement of the screw
+		?b: the scaphotrapezial joint
+
+
+label:    sent_13
+sentence: Nonresponses in archival data may violate the missing-at-random assumption in ways difficult to detect .
+
+ppatt:
+	?a may violate ?b
+		?a: Nonresponses in archival data
+		?b: the missing-at-random assumption in ways difficult to detect
+
+
+label:    sent_14
+sentence: Cases that appear to violate this presumption , such as Pennsylvania v . Assault .
+
+ppatt:
+	?a appear to violate ?b such as ?c
+		?a: Cases
+		?b: this presumption
+		?c: Pennsylvania v . Assault
+
+
+label:    sent_15
+sentence: Allowing testimony did not violate man 's right to a fair trial . Why men violate . Equipment maintenance insurance payments violate Medicare 's policy --HHS .
+
+ppatt:
+	Allowing ?a
+		?a: testimony
+	?a did not violate ?b to ?c
+		?a: SOMETHING := Allowing testimony
+		?b: man 's right
+		?c: a fair trial
+	Why ?a violate
+		?a: men
+	?a violate 's ?b
+		?a: Equipment maintenance insurance payments
+		?b: Medicare policy --HHS
+
+
+label:    sent_16
+sentence: Most hospital mergers would violate antitrust law--study . Objections to such restrictions have centered on the charge that they violate academic freedom .
+
+ppatt:
+	?a would violate ?b
+		?a: Most hospital mergers
+		?b: antitrust law--study
+	?a have centered on ?b
+		?a: Objections to such restrictions
+		?b: the charge that they violate academic freedom
+	?a violate ?b
+		?a: they
+		?b: academic freedom
+
+
+label:    sent_17
+sentence: Hundreds of hospitals use such systems -- but some nurses say that they violate their privacy .
+
+ppatt:
+	?a use ?b
+		?a: Hundreds of hospitals
+		?b: such systems
+	?a say ?b
+		?a: some nurses
+		?b: SOMETHING := they violate their privacy
+	?a violate ?b
+		?a: they
+		?b: their privacy
+
+

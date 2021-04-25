@@ -1,0 +1,210 @@
+label:    sent_1
+sentence: Actinoplanes missouriensis spores swim with a tuft of flagella .
+
+ppatt:
+	?a swim with ?b
+		?a: Actinoplanes missouriensis spores
+		?b: a tuft of flagella
+
+
+label:    sent_2
+sentence: Ciliates and flagellates temporarily swim backwards on collision by generating a mechanoreceptor potential .
+
+ppatt:
+	?a temporarily swim ?b on ?c
+		?a: Ciliates
+		?b: backwards
+		?c: collision
+	?a temporarily swim ?b on ?c
+		?a: flagellates
+		?b: backwards
+		?c: collision
+	?a generating ?b
+		?a: Ciliates
+		?b: a mechanoreceptor potential
+	?a generating ?b
+		?a: flagellates
+		?b: a mechanoreceptor potential
+
+
+label:    sent_3
+sentence: Many aquatic organisms swim by means of an undulating fin . Consequently , cruising predators are predicted to swim at relatively low speeds whilst foraging .
+
+ppatt:
+	?a swim by ?b . Consequently
+		?a: Many aquatic organisms
+		?b: means of an undulating fin
+	?a are predicted to swim at ?b whilst ?c
+		?a: predators
+		?b: relatively low speeds
+		?c: foraging
+
+
+label:    sent_4
+sentence: Penguins tended to swim rapidly with currents as they travelled towards foraging zones .
+
+ppatt:
+	?a tended to swim rapidly with ?b
+		?a: Penguins
+		?b: currents
+	?a travelled towards ?b
+		?a: they
+		?b: foraging zones
+
+
+label:    sent_5
+sentence: Both groups learned to swim accurately to a visible black platform .
+
+ppatt:
+	?a learned to swim accurately to ?b
+		?a: Both groups
+		?b: a visible black platform
+
+
+label:    sent_6
+sentence: Vietnamese youth swim unsupervised , responding to peer pressure despite lack of skills . [Echocardiographic changes in children who swim ] . They swim again when Ca ( 2+ ) is present .
+
+ppatt:
+	?a swim ?b despite ?c
+		?a: Vietnamese youth
+		?b: unsupervised
+		?c: lack of skills
+	?a swim ?b despite ?c
+		?a: Vietnamese youth
+		?b: unsupervised
+		?c: [Echocardiographic changes in children who swim ]
+	?a swim ?b
+		?a: children
+		?b: ]
+	?a swim
+		?a: They
+	?a is/are 2+
+		?a: Ca
+	again when ?a is present
+		?a: Ca
+
+
+label:    sent_7
+sentence: Sea snakes could easily swim between bays but rarely do so . They swim rapidly to the bottom and hide in available material .
+
+ppatt:
+	?a could easily swim between ?b
+		?a: Sea snakes
+		?b: bays
+	?a rarely do so
+		?a: Sea snakes
+	?a swim rapidly to ?b
+		?a: They
+		?b: the bottom
+	?a hide in ?b
+		?a: They
+		?b: available material
+
+
+label:    sent_8
+sentence: Halobacteria swim forward by clockwise and backwards by counterclockwise rotation of their flagella . It 's time to swim ! Zebrafish and the circadian clock .
+
+ppatt:
+	?a swim ?b
+		?a: It time
+		?b: ! Zebrafish
+	?a swim ?b
+		?a: It time
+		?b: the circadian clock
+
+
+label:    sent_9
+sentence: Endocrine and immunological correlates of behaviorally identified swim stress resilient and vulnerable rats .
+
+ppatt:
+
+
+
+label:    sent_10
+sentence: The contribution of the pleural type 12 interneuron to swim acceleration in Clione limacina .
+
+ppatt:
+	?a swim ?b
+		?a: The contribution of the pleural type 12 interneuron
+		?b: acceleration in Clione limacina
+
+
+label:    sent_11
+sentence: Attachment inhibits swimming , but unattached tadpoles swim spontaneously . Buy materials management systems , or pray you can swim . Water and infections : what we drink ... and where we swim .
+
+ppatt:
+	?a inhibits ?b
+		?a: Attachment
+		?b: swimming
+	?a swim spontaneously
+		?a: unattached tadpoles
+	?a Buy ?b ?c
+		?a: Attachment
+		?b: materials
+		?c: management systems
+	?a pray ?b
+		?a: Attachment
+		?b: SOMETHING := you can swim . Water and infections
+	?a can swim ?b
+		?a: you
+		?b: Water
+	?a can swim ?b
+		?a: you
+		?b: infections
+	?a ?b drink ?c
+		?a: what
+		?b: we
+		?c: ...
+	where ?a swim
+		?a: we
+
+
+label:    sent_12
+sentence: They were then able to swim straight forward . Ovariectomized female Sprague-Dawley rats were trained to swim a 2.5 m course .
+
+ppatt:
+	?a were then able to swim ?b
+		?a: They
+		?b: straight forward
+	?a were trained to swim ?b
+		?a: Ovariectomized female Sprague-Dawley rats
+		?b: a 2.5 m course
+
+
+label:    sent_13
+sentence: Three mutants , ataA1-3 , are completely unable to swim backward . Sex difference in naloxone antagonism of swim stress-induced antinociception in mice .
+
+ppatt:
+	?a is/are ataA1-3
+		?a: Three mutants
+	?a are completely unable to swim ?b ?c
+		?a: Three mutants
+		?b: backward
+		?c: Sex difference in naloxone antagonism of swim stress-induced antinociception in mice
+
+
+label:    sent_14
+sentence: The swim force as a body force .
+
+ppatt:
+
+
+
+label:    sent_15
+sentence: After recovery the cells swim upward again until the negative gravitaxis is reversed again .
+
+ppatt:
+	After ?a ?b swim upward again
+		?a: recovery
+		?b: the cells
+	?a is reversed again
+		?a: the negative gravitaxis
+
+
+label:    sent_16
+sentence: Parapodial swim muscle in Aplysia brasiliana . Parapodial swim muscle in Aplysia brasiliana .
+
+ppatt:
+
+
+

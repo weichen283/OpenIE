@@ -1,0 +1,275 @@
+label:    sent_1
+sentence: Additionally , PCR was used to amplify PV DNA from the OSCCs .
+
+ppatt:
+	Additionally , ?a was used to amplify ?b
+		?a: PCR
+		?b: PV DNA from the OSCCs
+
+
+label:    sent_2
+sentence: The challenge is to amplify immune responses to combat tumour escape mechanisms .
+
+ppatt:
+	?a is to amplify ?b to combat ?c
+		?a: The challenge
+		?b: immune responses
+		?c: tumour escape mechanisms
+
+
+label:    sent_3
+sentence: Comorbidities are known to increase the perioperative risk profile and therefore amplify treatment expenses . RT-PCR was performed to amplify HOXB5 mRNA in 15 OSCCs and adjacent non-tumoral epithelium .
+
+ppatt:
+	?a are known to increase ?b
+		?a: Comorbidities
+		?b: the perioperative risk profile
+	?a are known to therefore amplify ?b
+		?a: Comorbidities
+		?b: treatment expenses
+	?a was performed to amplify ?b in ?c
+		?a: RT-PCR
+		?b: HOXB5 mRNA
+		?c: 15 OSCCs
+	?a was performed to amplify ?b in ?c
+		?a: RT-PCR
+		?b: HOXB5 mRNA
+		?c: adjacent non-tumoral epithelium
+
+
+label:    sent_4
+sentence: We were successful to amplify specific fragment of interest from the DNA samples .
+
+ppatt:
+	?a were successful to amplify ?b
+		?a: We
+		?b: specific fragment of interest from the DNA samples
+
+
+label:    sent_5
+sentence: PowerPlex 16 kit was used to simultaneously amplify 15 STR loci by PCR .
+
+ppatt:
+	?a was used to simultaneously amplify ?b by ?c
+		?a: PowerPlex 16 kit
+		?b: 15 STR loci
+		?c: PCR
+
+
+label:    sent_6
+sentence: Auditory-olfactory integration : congruent or pleasant sounds amplify odor pleasantness .
+
+ppatt:
+
+
+
+label:    sent_7
+sentence: The probes did not amplify any other reference strains . Concepts and ways to amplify the antitumor immune response .
+
+ppatt:
+	?a did not amplify ?b . ?c to amplify ?d
+		?a: The probes
+		?b: any other reference strains
+		?c: Concepts
+		?d: the antitumor immune response
+	?a did not amplify ?b . ?c to amplify ?d
+		?a: The probes
+		?b: any other reference strains
+		?c: ways
+		?d: the antitumor immune response
+
+
+label:    sent_8
+sentence: Cleavage of Bid may amplify caspase-8-induced neuronal cell death following seizures .
+
+ppatt:
+	?a may amplify ?b following ?c
+		?a: Cleavage of Bid
+		?b: caspase-8-induced neuronal cell death
+		?c: seizures
+
+
+label:    sent_9
+sentence: Dendritic cells amplify T cell-mediated immune responses in the central nervous system .
+
+ppatt:
+	?a amplify ?b in ?c
+		?a: Dendritic cells
+		?b: T cell-mediated immune responses
+		?c: the central nervous system
+
+
+label:    sent_10
+sentence: 3D visualization of movements can amplify motor cortex activation during subsequent motor imagery .
+
+ppatt:
+	?a can amplify ?b during ?c
+		?a: 3D visualization of movements
+		?b: motor cortex activation
+		?c: subsequent motor imagery
+
+
+label:    sent_11
+sentence: Mutations in diphtheria toxin separate binding from entry and amplify immunotoxin selectivity .
+
+ppatt:
+	amplify ?a
+		?a: immunotoxin selectivity
+
+
+label:    sent_12
+sentence: Fresh serum is not necessary but does amplify both adherence and endothelial injury .
+
+ppatt:
+	?a is not necessary
+		?a: Fresh serum
+	?a does amplify ?b
+		?a: Fresh serum
+		?b: adherence
+	?a does amplify ?b
+		?a: Fresh serum
+		?b: endothelial injury
+
+
+label:    sent_13
+sentence: First , engage in practices that actively produce and amplify fleeting signs of ignorance .
+
+ppatt:
+	First , engage in ?a
+		?a: practices that actively produce and amplify fleeting signs of ignorance
+	?a actively produce ?b
+		?a: practices
+		?b: fleeting signs of ignorance
+	?a amplify
+		?a: that
+
+
+label:    sent_14
+sentence: Small molecules are attractive therapeutics to amplify and direct differentiation of stem cells .
+
+ppatt:
+	?a are attractive therapeutics
+		?a: Small molecules
+	?a amplify ?b
+		?a: attractive therapeutics
+		?b: differentiation of stem cells
+
+
+label:    sent_15
+sentence: Such pathways relay , amplify and integrate signals to elicit appropriate biological responses .
+
+ppatt:
+	?a relay
+		?a: Such pathways
+	?a amplify ?b
+		?a: Such pathways
+		?b: signals
+	?a integrate to elicit ?b
+		?a: Such pathways
+		?b: appropriate biological responses
+
+
+label:    sent_16
+sentence: Plasma viral RNA was used to amplify and sequence the HCV NS3 gene .
+
+ppatt:
+	?a was used to amplify ?b
+		?a: Plasma viral RNA
+		?b: the HCV NS3 gene
+
+
+label:    sent_17
+sentence: Cells must amplify external signals to orient and migrate in chemotactic gradient fields .
+
+ppatt:
+	?a must amplify ?b to orient in ?c
+		?a: Cells
+		?b: external signals
+		?c: chemotactic gradient fields
+	?a must amplify to migrate
+		?a: Cells
+
+
+label:    sent_18
+sentence: Mitochondria amplify apoptotic cascades and have emerged as crucial organelles in ischemia-reperfusion .
+
+ppatt:
+	?a amplify ?b
+		?a: Mitochondria
+		?b: apoptotic cascades
+	?a have emerged as ?b
+		?a: Mitochondria
+		?b: crucial organelles in ischemia-reperfusion
+
+
+label:    sent_19
+sentence: Arginine stimulates GH release , and lysine may amplify this response .
+
+ppatt:
+	?a stimulates ?b
+		?a: Arginine
+		?b: GH release
+	?a may amplify ?b
+		?a: lysine
+		?b: this response
+
+
+label:    sent_20
+sentence: Two of these samples ( 2.7 % ) also failed to amplify with PCR .
+
+ppatt:
+	?a is/are 2.7 %
+		?a: Two of these samples
+	?a also failed to amplify with ?b
+		?a: Two of these samples
+		?b: PCR
+
+
+label:    sent_21
+sentence: Amplimers of higher length failed to amplify with paraffin extracted DNA .
+
+ppatt:
+	?a failed to amplify with ?b
+		?a: Amplimers of higher length
+		?b: paraffin extracted DNA
+
+
+label:    sent_22
+sentence: Failure to amplify from DBS did not correlate with low plasma viral loads . One An. rivulorum was identified and seven specimens did not amplify .
+
+ppatt:
+	?a amplify from ?b
+		?a: Failure
+		?b: DBS
+	?a did not correlate with ?b
+		?a: Failure to amplify from DBS
+		?b: low plasma viral loads
+	?a was identified
+		?a: One An. rivulorum
+	?a did not amplify
+		?a: seven specimens
+
+
+label:    sent_23
+sentence: These modules rapidly amplify and transduce extracellular signals into various appropriate intracellular responses .
+
+ppatt:
+	?a rapidly amplify ?b into ?c
+		?a: These modules
+		?b: extracellular signals
+		?c: various appropriate intracellular responses
+	?a transduce
+		?a: These modules
+
+
+label:    sent_24
+sentence: Leukocyte subpopulations which amplify or suppress antigen-induced proliferation in Syrian hamsters .
+
+ppatt:
+	?a amplify ?b
+		?a: Leukocyte subpopulations
+		?b: antigen-induced proliferation in Syrian hamsters
+	?a suppress
+		?a: which
+
+

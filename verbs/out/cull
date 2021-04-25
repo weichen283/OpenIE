@@ -1,0 +1,76 @@
+label:    sent_1
+sentence: Do n't cull wild birds yet .
+
+ppatt:
+	Do n't cull ?a yet
+		?a: wild birds
+
+
+label:    sent_2
+sentence: We propose the term " Antiphospholipid/Cofactor Syndromes ' to cull the various syndromes .
+
+ppatt:
+	?a propose ?b
+		?a: We
+		?b: the term " Antiphospholipid/Cofactor Syndromes ' to cull the various syndromes
+	?a cull ?b
+		?a: the term " Antiphospholipid/Cofactor Syndromes
+		?b: the various syndromes
+
+
+label:    sent_3
+sentence: Study 1 used a literature review to cull potential elements .
+
+ppatt:
+	?a used ?b
+		?a: Study 1
+		?b: a literature review to cull potential elements
+	?a cull ?b
+		?a: a literature review
+		?b: potential elements
+
+
+label:    sent_4
+sentence: Effects of feeding cull domestic onions ( Allium cepa ) to sheep .
+
+ppatt:
+	?a is/are Allium cepa
+		?a: feeding cull domestic onions
+
+
+label:    sent_5
+sentence: It is recommended to cull the CVM carriers gradually for economical and breeding reasons . A summary of the reasons why farmers cull cows . Researchers cull AIDS information .
+
+ppatt:
+	?a is recommended to cull ?b gradually for ?c
+		?a: It
+		?b: the CVM carriers
+		?c: economical and breeding reasons
+	?a why ?b cull ?c
+		?a: the reasons
+		?b: farmers
+		?c: cows
+	?a ?b cull ?c
+		?a: A summary of the reasons why farmers cull cows
+		?b: Researchers
+		?c: AIDS information
+
+
+label:    sent_6
+sentence: The seroprevalence of Johne 's disease in Georgia beef and dairy cull cattle .
+
+ppatt:
+
+
+
+label:    sent_7
+sentence: The cull . Selective cattle cull . Selective cattle cull . Flock cull due to anthelmintic-resistant nematodes .
+
+ppatt:
+	?a is/are Selective cattle cull
+		?a: The cull
+	?a Selective cattle cull . Flock cull due to ?b
+		?a: The cull
+		?b: anthelmintic-resistant nematodes
+
+

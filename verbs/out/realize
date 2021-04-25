@@ -1,0 +1,310 @@
+label:    sent_1
+sentence: We propose coupled cavities to realize a strong enhancement of the Raman scattering .
+
+ppatt:
+	?a propose ?b
+		?a: We
+		?b: coupled cavities
+	?a realize ?b
+		?a: We
+		?b: a strong enhancement of the Raman scattering
+
+
+label:    sent_2
+sentence: To realize the study aims , a two-phase study has been designed .
+
+ppatt:
+	realize ?a ?b
+		?a: the study aims
+		?b: a two-phase study
+	?a has been designed
+		?a: a two-phase study
+
+
+label:    sent_3
+sentence: To realize this potential , it will be essential to control stem cell differentiation .
+
+ppatt:
+	realize ?a ?b
+		?a: this potential
+		?b: it
+	?a will be essential to control ?b
+		?a: it
+		?b: stem cell differentiation
+
+
+label:    sent_4
+sentence: [To realize the clinical significance of noninvasive methods to assess vascular function ] . Patients with specific , realistic , functional goals will realize the best self-perceived outcomes .
+
+ppatt:
+	?a realize ?b
+		?a: [To
+		?b: the clinical significance of noninvasive methods to assess vascular function ]
+	?a assess ?b
+		?a: the clinical significance of noninvasive methods
+		?b: vascular function ]
+	?a will realize ?b
+		?a: Patients with specific , goals
+		?b: the best self-perceived outcomes
+
+
+label:    sent_5
+sentence: It can realize both the observation and manipulation of a single cell at nanoscale .
+
+ppatt:
+	?a can realize ?b
+		?a: It
+		?b: the observation of a single cell at nanoscale
+	?a can realize ?b
+		?a: It
+		?b: manipulation
+
+
+label:    sent_6
+sentence: Organic layers can be used to realize special functions in optical interference coatings .
+
+ppatt:
+	?a can be used to realize ?b in ?c
+		?a: Organic layers
+		?b: special functions
+		?c: optical interference coatings
+
+
+label:    sent_7
+sentence: We describe the specific photowriting procedure used to realize gratings in such a fiber .
+
+ppatt:
+	?a describe ?b
+		?a: We
+		?b: the specific photowriting procedure used to realize gratings in such a fiber
+	?a used to realize ?b
+		?a: the specific photowriting procedure
+		?b: gratings in such a fiber
+
+
+label:    sent_8
+sentence: Those who meet MMC may initially realize further modest gains through CIMT .
+
+ppatt:
+	?a meet ?b
+		?a: Those
+		?b: MMC
+	?a may initially realize ?b through ?c
+		?a: Those who meet MMC
+		?b: further modest gains
+		?c: CIMT
+
+
+label:    sent_9
+sentence: Do children realize that pretend emotions might be unreal ? * Most students do not realize they are affected by distraction .
+
+ppatt:
+	Do ?a realize ?b
+		?a: children
+		?b: SOMETHING := pretend emotions might be unreal
+	?a might be unreal
+		?a: pretend emotions
+	?a do not realize ?b
+		?a: Most students
+		?b: SOMETHING := they are affected by distraction
+	?a are affected by ?b
+		?a: they
+		?b: distraction
+
+
+label:    sent_10
+sentence: It is something most pharmacists do not even realize they are doing every day .
+
+ppatt:
+	?a is something ?b
+		?a: It
+		?b: SOMETHING := most pharmacists do not even realize they are doing every day
+	?a do not even realize every ?b
+		?a: most pharmacists
+		?b: they are doing day
+	?a are doing every day
+		?a: they
+
+
+label:    sent_11
+sentence: Clinicians must realize the limitations in evaluating bone metabolism by bone histology .
+
+ppatt:
+	?a must realize ?b
+		?a: Clinicians
+		?b: the limitations in evaluating bone metabolism by bone histology
+	?a evaluating ?b by ?c
+		?a: the limitations
+		?b: bone metabolism
+		?c: bone histology
+
+
+label:    sent_12
+sentence: Liquid microsampling can realize ethical benefits through reduced animal usage .
+
+ppatt:
+	?a can realize ?b through ?c
+		?a: Liquid microsampling
+		?b: ethical benefits
+		?c: reduced animal usage
+
+
+label:    sent_13
+sentence: Interval-valued fuzzy soft sets realize a hybrid soft computing model in a general framework .
+
+ppatt:
+	?a realize ?b in ?c
+		?a: Interval-valued fuzzy soft sets
+		?b: a hybrid soft computing model
+		?c: a general framework
+
+
+label:    sent_14
+sentence: These characteristics allow to decode precise brain activities and to realize efficient ECoG-based neuroprostheses .
+
+ppatt:
+	?a allow to decode ?b
+		?a: These characteristics
+		?b: precise brain activities
+	?a allow to to realize ?b
+		?a: These characteristics
+		?b: efficient ECoG-based neuroprostheses
+
+
+label:    sent_15
+sentence: They might come to realize their own heavy drinking and seek professional treatment .
+
+ppatt:
+	?a might come to realize ?b
+		?a: They
+		?b: their own heavy drinking
+	?a might come to seek ?b
+		?a: They
+		?b: professional treatment
+
+
+label:    sent_16
+sentence: We need to fully realize this reality and to directly face this problem .
+
+ppatt:
+	?a need to fully realize ?b
+		?a: We
+		?b: this reality
+	?a need to to directly face ?b
+		?a: We
+		?b: this problem
+
+
+label:    sent_17
+sentence: The article covers approaches to realize corporate anti-smoking programs and to evaluate its efficiency .
+
+ppatt:
+	?a covers ?b
+		?a: The article
+		?b: approaches to realize corporate anti-smoking programs and to evaluate its efficiency
+	?a realize ?b
+		?a: approaches
+		?b: corporate anti-smoking programs
+	evaluate ?a
+		?a: its efficiency
+
+
+label:    sent_18
+sentence: Evaluators should realize this and , accordingly , attempt to improve its effectiveness .
+
+ppatt:
+	?a should realize ?b , accordingly ?c
+		?a: Evaluators
+		?b: this
+		?c: attempt to improve its effectiveness
+	?a improve ?b
+		?a: attempt
+		?b: its effectiveness
+
+
+label:    sent_19
+sentence: They realize it has to be so and there is no way out .
+
+ppatt:
+	?a realize ?b
+		?a: They
+		?b: SOMETHING := it has
+	?a has
+		?a: it
+	be so there is ?a
+		?a: no way
+
+
+label:    sent_20
+sentence: These analyses were impossible to realize without our proposed algorithm .
+
+ppatt:
+	?a were impossible to realize without ?b
+		?a: These analyses
+		?b: our proposed algorithm
+
+
+label:    sent_21
+sentence: It is not certain whether he actually intended to realize that plan .
+
+ppatt:
+	?a is not certain ?b
+		?a: It
+		?b: SOMETHING := he actually intended to realize that plan
+	?a actually intended to realize ?b
+		?a: he
+		?b: plan
+
+
+label:    sent_22
+sentence: However , they are challenging to realize in three dimensions .
+
+ppatt:
+	However , ?a are challenging to realize in ?b
+		?a: they
+		?b: three dimensions
+
+
+label:    sent_23
+sentence: It is suppose that these effects of DA realize through system of inhibitory interneurons .
+
+ppatt:
+	?a is suppose ?b
+		?a: It
+		?b: SOMETHING := these effects of DA realize through system of inhibitory interneurons
+	?a realize through ?b
+		?a: these effects of DA
+		?b: system of inhibitory interneurons
+
+
+label:    sent_24
+sentence: These findings could be very helpful for synthetic chemists to realize the first metallasilabenzene .
+
+ppatt:
+	?a could be very helpful for ?b to realize ?c
+		?a: These findings
+		?b: synthetic chemists
+		?c: the first metallasilabenzene
+
+
+label:    sent_25
+sentence: More frequent than we realize ? Furthermore , they are nonredundant transforms and realize quad-tree like multiresolution representations . HIPAA : enabling healthcare to realize and secure an e-health environment .
+
+ppatt:
+	?a realize Furthermore
+		?a: we
+	?a are nonredundant transforms ?b
+		?a: they
+		?b: HIPAA
+	?a realize ?b like ?c
+		?a: they
+		?b: quad-tree
+		?c: multiresolution representations
+	?a enabling ?b to realize ?c
+		?a: they
+		?b: healthcare
+		?c: an e-health environment
+	enabling to secure ?a
+		?a: an e-health environment
+
+

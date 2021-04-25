@@ -1,0 +1,354 @@
+label:    sent_1
+sentence: This would permit personalization and optimization of the treatment plan for each cancer patient .
+
+ppatt:
+	?a would permit ?b
+		?a: This
+		?b: personalization of the treatment plan for each cancer patient
+	?a would permit ?b
+		?a: This
+		?b: optimization
+
+
+label:    sent_2
+sentence: Current equipment does not permit accurate measurement of volumes less than 0.1 mL .
+
+ppatt:
+	?a does not permit ?b
+		?a: Current equipment
+		?b: accurate measurement of volumes less than 0.1 mL
+
+
+label:    sent_3
+sentence: Inducible systems permit spatial and temporal control of transgene expression .
+
+ppatt:
+	?a permit ?b
+		?a: Inducible systems
+		?b: spatial and temporal control of transgene expression
+
+
+label:    sent_4
+sentence: Intravenous doses of medications require formulations that permit accurate preparation and administration .
+
+ppatt:
+	?a require ?b
+		?a: Intravenous doses of medications
+		?b: formulations that permit accurate preparation and administration
+	?a permit ?b
+		?a: formulations
+		?b: accurate preparation
+	?a permit ?b
+		?a: formulations
+		?b: administration
+
+
+label:    sent_5
+sentence: Humans learn and remember motor skills to permit adaptation to a changing environment .
+
+ppatt:
+	?a learn ?b
+		?a: Humans
+		?b: motor skills to permit adaptation to a changing environment
+	?a remember
+		?a: Humans
+	?a permit ?b
+		?a: motor skills
+		?b: adaptation to a changing environment
+
+
+label:    sent_6
+sentence: The importance of preoperative evaluation to permit identification of micronutrient deficiencies is being re-evaluated .
+
+ppatt:
+	?a permit ?b
+		?a: The importance of preoperative evaluation
+		?b: identification of micronutrient deficiencies
+	?a is being re-evaluated
+		?a: The importance of preoperative evaluation to permit identification of micronutrient deficiencies
+
+
+label:    sent_7
+sentence: The geometric accuracy and targeting systems permit dose placement with submillimeter accuracy and precision .
+
+ppatt:
+	?a permit ?b
+		?a: The geometric accuracy
+		?b: dose placement with submillimeter accuracy and precision
+	?a permit ?b
+		?a: targeting systems
+		?b: dose placement with submillimeter accuracy and precision
+
+
+label:    sent_8
+sentence: This will permit treatment and/or increased vigilance for ensuing permanent DI .
+
+ppatt:
+	?a will permit ?b
+		?a: This
+		?b: treatment
+	?a will permit ?b
+		?a: This
+		?b: increased vigilance
+	?a ensuing ?b
+		?a: treatment
+		?b: permanent DI
+	?a ensuing ?b
+		?a: increased vigilance
+		?b: permanent DI
+
+
+label:    sent_9
+sentence: Stereocilia are actin-filled protrusions that permit mechanotransduction in the internal ear . Cryobanking skin samples permit preserving a maximum of genetic representation from the population biodiversity .
+
+ppatt:
+	?a are actin-filled protrusions
+		?a: Stereocilia
+	?a permit ?b
+		?a: actin-filled protrusions
+		?b: mechanotransduction in the internal ear
+	?a permit preserving ?b
+		?a: skin samples
+		?b: a maximum of genetic representation from the population biodiversity
+
+
+label:    sent_10
+sentence: Development of team work should permit to optimize the cost efficacy of the treatments .
+
+ppatt:
+	?a should permit to optimize ?b
+		?a: Development of team work
+		?b: the cost efficacy of the treatments
+
+
+label:    sent_11
+sentence: Future technical improvements may permit improving the quality and/or lifespan of stored human platelets .
+
+ppatt:
+	?a may permit improving ?b
+		?a: Future technical improvements
+		?b: the quality of stored human platelets
+	?a may permit improving ?b
+		?a: Future technical improvements
+		?b: lifespan
+
+
+label:    sent_12
+sentence: Results of these studies demonstrate conditions that permit arterial regeneration over absorbable scaffolds .
+
+ppatt:
+	?a demonstrate ?b
+		?a: Results of these studies
+		?b: conditions that permit arterial regeneration over absorbable scaffolds
+	?a permit ?b
+		?a: conditions
+		?b: arterial regeneration over absorbable scaffolds
+
+
+label:    sent_13
+sentence: Hydrocortisone was needed to permit growth for more than 2 wk . SET and PARP1 remove DEK from chromatin to permit access by the transcription machinery .
+
+ppatt:
+	?a was needed to permit ?b for ?c ?d
+		?a: Hydrocortisone
+		?b: growth
+		?c: more than 2 wk
+		?d: SET
+	?a remove ?b from ?c to permit ?d
+		?a: PARP1
+		?b: DEK
+		?c: chromatin
+		?d: access by the transcription machinery
+
+
+label:    sent_14
+sentence: These features permit correct differential diagnosis and justify pharmacologic therapy with antidepressants .
+
+ppatt:
+	?a permit ?b
+		?a: These features
+		?b: correct differential diagnosis
+	?a justify ?b
+		?a: These features
+		?b: pharmacologic therapy with antidepressants
+
+
+label:    sent_15
+sentence: Ultrasound and computed tomography permit direct visualisation of the pancreas and establish the diagnosis .
+
+ppatt:
+	?a permit ?b
+		?a: Ultrasound
+		?b: direct visualisation of the pancreas
+	?a permit ?b
+		?a: computed tomography
+		?b: direct visualisation of the pancreas
+	?a establish ?b
+		?a: Ultrasound
+		?b: the diagnosis
+	?a establish ?b
+		?a: computed tomography
+		?b: the diagnosis
+
+
+label:    sent_16
+sentence: Such benchmarks may permit advances in treatment application and potentially improve patient outcomes .
+
+ppatt:
+	?a may permit ?b
+		?a: Such benchmarks
+		?b: advances in treatment application
+	?a potentially improve ?b
+		?a: Such benchmarks
+		?b: patient outcomes
+
+
+label:    sent_17
+sentence: The starting phase information was very poor and did not permit model building .
+
+ppatt:
+	?a was very poor
+		?a: The starting phase information
+	?a did not permit ?b
+		?a: The starting phase information
+		?b: model building
+
+
+label:    sent_18
+sentence: Total lymphoid irradiation and cyclosporine have profound immunosuppressive properties and permit successful heart allotransplantation .
+
+ppatt:
+	?a have ?b
+		?a: Total lymphoid irradiation
+		?b: profound immunosuppressive properties
+	?a have ?b
+		?a: cyclosporine
+		?b: profound immunosuppressive properties
+	?a permit ?b
+		?a: Total lymphoid irradiation
+		?b: successful heart allotransplantation
+	?a permit ?b
+		?a: cyclosporine
+		?b: successful heart allotransplantation
+
+
+label:    sent_19
+sentence: Magnetic superbasic proton sponges are readily removed and permit direct product isolation .
+
+ppatt:
+	?a are readily removed
+		?a: Magnetic superbasic proton sponges
+	?a permit ?b
+		?a: Magnetic superbasic proton sponges
+		?b: direct product isolation
+
+
+label:    sent_20
+sentence: Clinically significant CHD permit survival upon birth , but may become immediately life threatening . CT and MRI permit the follow-up of lesions under treatment and evaluate prognosis .
+
+ppatt:
+	?a permit ?b upon ?c
+		?a: Clinically significant CHD
+		?b: survival
+		?c: birth
+	?a may become immediately life
+		?a: Clinically significant CHD
+	?a threatening
+		?a: life
+	?a permit ?b
+		?a: CT
+		?b: the follow-up of lesions under treatment
+	?a permit ?b
+		?a: MRI
+		?b: the follow-up of lesions under treatment
+	?a evaluate ?b
+		?a: CT
+		?b: prognosis
+	?a evaluate ?b
+		?a: MRI
+		?b: prognosis
+
+
+label:    sent_21
+sentence: Intracoronary stenting without anticoagulation , would permit shorter hospitalization and lead to cost-savings . Data of USE and CT permit to precise the clinical form of the disease .
+
+ppatt:
+	?a would permit ?b
+		?a: Intracoronary stenting without anticoagulation
+		?b: shorter hospitalization
+	?a lead to ?b
+		?a: Intracoronary stenting without anticoagulation
+		?b: cost-savings
+	?a permit to ?b
+		?a: Data of USE and CT
+		?b: precise the clinical form of the disease
+
+
+label:    sent_22
+sentence: The Ilizarov method permit for contemporary axis correction and/or distraction or compression .
+
+ppatt:
+	?a permit for ?b
+		?a: The Ilizarov method
+		?b: contemporary axis correction
+	?a permit for ?b
+		?a: The Ilizarov method
+		?b: distraction
+
+
+label:    sent_23
+sentence: Its salient edges and grooves permit cutting through the sclerotic areas without difficulty .
+
+ppatt:
+	?a permit ?b through ?c without ?d
+		?a: Its salient edges
+		?b: cutting
+		?c: the sclerotic areas
+		?d: difficulty
+	?a permit ?b through ?c without ?d
+		?a: grooves
+		?b: cutting
+		?c: the sclerotic areas
+		?d: difficulty
+
+
+label:    sent_24
+sentence: Policies that permit and prohibit behavior can tap owners ' concerns about rule violations . Genes that permit or prevent infections .
+
+ppatt:
+	?a permit ?b
+		?a: Policies
+		?b: behavior
+	?a prohibit
+		?a: that
+	?a can tap ?b ?c
+		?a: Policies that permit and prohibit behavior
+		?b: owners ' concerns
+		?c: Genes that permit or prevent infections
+	?a rule ?b
+		?a: Policies that permit and prohibit behavior
+		?b: violations
+	?a permit ?b
+		?a: Genes
+		?b: infections
+	?a prevent
+		?a: that
+
+
+label:    sent_25
+sentence: Being located between blood and tissues , they permit or deny the passage .
+
+ppatt:
+	Being located between ?a ?b
+		?a: blood
+		?b: they
+	Being located between ?a ?b
+		?a: tissues
+		?b: they
+	?a permit
+		?a: they
+	?a deny ?b
+		?a: they
+		?b: the passage
+
+

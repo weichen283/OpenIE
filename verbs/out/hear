@@ -1,0 +1,248 @@
+label:    sent_1
+sentence: Do you hear bells ? Can you hear me now ? PRRB has jurisdiction to hear self-disallowed costs appeal .
+
+ppatt:
+	Do you hear ?a
+		?a: bells
+	Can you hear ?a now
+		?a: me
+	?a has ?b to hear ?c
+		?a: PRRB
+		?b: jurisdiction
+		?c: self-disallowed costs appeal
+
+
+label:    sent_2
+sentence: Weak turbulence for a vibrating plate : can one hear a Kolmogorov spectrum ? Thus , what infants see affects what they hear .
+
+ppatt:
+	?a ?b hear
+		?a: what
+		?b: they
+
+
+label:    sent_3
+sentence: Do you hear what I hear ? What infants hear affects the words they learn . Careful , they might hear you .
+
+ppatt:
+	Do you hear ?a
+		?a: SOMETHING := what I hear What infants hear affects the words
+	?a ?b hear ?c
+		?a: what
+		?b: I
+		?c: SOMETHING := What infants hear
+	?a ?b hear
+		?a: What
+		?b: infants
+	?a affects ?b
+		?a: infants
+		?b: the words
+	?a learn . Careful
+		?a: they
+	?a might hear ?b
+		?a: they
+		?b: you
+
+
+label:    sent_4
+sentence: Helping the profoundly deaf to hear . 10 things patients need to hear at every visit .
+
+ppatt:
+	Helping ?a
+		?a: the profoundly deaf
+	?a ?b need to hear at ?c
+		?a: SOMETHING := Helping the profoundly deaf to hear
+		?b: 10 things patients
+		?c: every visit
+
+
+label:    sent_5
+sentence: All the patients were able to hear with their implants .
+
+ppatt:
+	?a were able to hear with ?b
+		?a: All the patients
+		?b: their implants
+
+
+label:    sent_6
+sentence: The talk children hear from their primary caregivers predicts the size of their vocabularies .
+
+ppatt:
+	?a hear from ?b
+		?a: The talk children
+		?b: their primary caregivers
+	?a predicts ?b
+		?a: The talk children hear from their primary caregivers
+		?b: the size of their vocabularies
+
+
+label:    sent_7
+sentence: To hear or not to hear . Towards multimaterial multifunctional fibres that see , hear , sense and communicate .
+
+ppatt:
+	?a see
+		?a: multimaterial multifunctional fibres
+	hear ?a
+		?a: sense
+	?a communicate
+		?a: sense
+
+
+label:    sent_8
+sentence: The High Court is empowered to hear and rule on legitimacy claims .
+
+ppatt:
+	?a is empowered to hear on ?b
+		?a: The High Court
+		?b: legitimacy claims
+	?a is empowered to rule
+		?a: The High Court
+
+
+label:    sent_9
+sentence: In general , humans hear these sounds about 10-15 dB louder than rats . A learner will hear this simulated sound through an electronic-stethoscope wirelessly .
+
+ppatt:
+	In ?a , ?b hear ?c about ?d
+		?a: general
+		?b: humans
+		?c: these sounds
+		?d: 10-15 dB louder than rats
+	?a will hear ?b through ?c wirelessly
+		?a: A learner
+		?b: this simulated sound
+		?c: an electronic-stethoscope
+
+
+label:    sent_10
+sentence: Flies hear near-field sounds with a vibration-sensitive , antennal chordotonal organ .
+
+ppatt:
+	?a hear ?b with ?c
+		?a: Flies
+		?b: near-field sounds
+		?c: a vibration-sensitive , chordotonal organ
+
+
+label:    sent_11
+sentence: Mosquitoes hear with their antennae , which in most species are sexually dimorphic .
+
+ppatt:
+	?a hear with ?b
+		?a: Mosquitoes
+		?b: their antennae , which in most species are sexually dimorphic
+	?a in ?b are sexually dimorphic
+		?a: their antennae
+		?b: most species
+
+
+label:    sent_12
+sentence: The present investigation measured how well elderly persons hear in everyday auditory communication situations .
+
+ppatt:
+	?a measured
+		?a: The present investigation
+	?a how ?b hear in ?c
+		?a: The present investigation measured
+		?b: well elderly persons
+		?c: everyday auditory communication situations
+
+
+label:    sent_13
+sentence: We sought to understand how U.S. adults hear about e-cigarettes .
+
+ppatt:
+	?a sought to understand ?b
+		?a: We
+		?b: SOMETHING := how U.S. adults hear about e-cigarettes
+	how ?a hear about ?b
+		?a: U.S. adults
+		?b: e-cigarettes
+
+
+label:    sent_14
+sentence: Consequently GPs are likely to hear more questions from their patients regarding treatment options .
+
+ppatt:
+	Consequently ?a are likely to hear ?b regarding ?c
+		?a: GPs
+		?b: more questions from their patients
+		?c: treatment options
+
+
+label:    sent_15
+sentence: Now hear this , slacker gome doctors : anal-retentive gunner shoots down pass/fail .
+
+ppatt:
+	Now hear ?a
+		?a: this
+	?a is/are slacker gome doctors
+		?a: this
+
+
+label:    sent_16
+sentence: This small-scale study sought to hear from learning-disabled people themselves about their hospital experiences .
+
+ppatt:
+	?a sought to hear from ?b about ?c
+		?a: This small-scale study
+		?b: learning-disabled people
+		?c: their hospital experiences
+
+
+label:    sent_17
+sentence: Most small toothed whales echolocate and hear very high frequency sounds underwater .
+
+ppatt:
+	?a echolocate
+		?a: Most small toothed whales
+	?a hear ?b
+		?a: Most small toothed whales
+		?b: very high frequency sounds underwater
+
+
+label:    sent_18
+sentence: Birds from the separate groups could neither see nor hear each other .
+
+ppatt:
+	?a could neither see
+		?a: Birds from the separate groups
+	?a hear ?b
+		?a: Birds from the separate groups
+		?b: each other
+
+
+label:    sent_19
+sentence: Feel me , hear me , and see me before you poke me ! Who and what did Horton hear ? Some subjects hear these components as tinnitus and can report on the measured changes .
+
+ppatt:
+	Feel ?a
+		?a: me
+	hear ?a
+		?a: me
+	see ?a ?b
+		?a: me
+		?b: before you poke me ! Who and what did Horton hear
+	?a ?b ?c did Horton hear
+		?a: before you poke me !
+		?b: Who
+		?c: what
+	?a hear ?b as ?c
+		?a: Some subjects
+		?b: these components
+		?c: tinnitus
+	?a can report on ?b
+		?a: Some subjects
+		?b: the measured changes
+
+
+label:    sent_20
+sentence: Deaf patients hear me loud and clear .
+
+ppatt:
+	?a hear ?b
+		?a: Deaf patients
+		?b: me loud
+
+

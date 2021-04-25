@@ -1,0 +1,300 @@
+label:    sent_1
+sentence: Circulating estrogen levels and hippocampal-dependent cognitive functions decline with aging . Oocyte quantity and quality naturally decline with advancing age .
+
+ppatt:
+	?a decline with ?b
+		?a: Circulating estrogen levels
+		?b: aging
+	?a decline with ?b
+		?a: hippocampal-dependent cognitive functions
+		?b: aging
+	?a naturally decline with ?b
+		?a: Oocyte
+		?b: advancing age
+	?a naturally decline with ?b
+		?a: quality
+		?b: advancing age
+
+
+label:    sent_2
+sentence: Statewide NICU central-line-associated bloodstream infection rates decline after bundles and checklists .
+
+ppatt:
+	?a decline after ?b
+		?a: Statewide NICU central-line-associated bloodstream infection rates
+		?b: bundles
+	?a decline after ?b
+		?a: Statewide NICU central-line-associated bloodstream infection rates
+		?b: checklists
+
+
+label:    sent_3
+sentence: Glutathione ( GSH ) levels progressively decline during aging and in neurodegenerative disorders .
+
+ppatt:
+	?a is/are GSH
+		?a: Glutathione
+	?a progressively decline during ?b
+		?a: Glutathione levels
+		?b: aging
+	?a progressively decline during ?b
+		?a: Glutathione levels
+		?b: neurodegenerative disorders
+
+
+label:    sent_4
+sentence: HMOs posted large gains in enrollment , but most saw profits decline during 1986 .
+
+ppatt:
+	?a posted ?b
+		?a: HMOs
+		?b: large gains in enrollment
+	?a most saw ?b during ?c
+		?a: HMOs
+		?b: profits decline
+		?c: 1986
+
+
+label:    sent_5
+sentence: Glucagon levels decline at 15 min but are significantly elevated by 90 min .
+
+ppatt:
+	?a decline at ?b
+		?a: Glucagon levels
+		?b: 15 min
+
+
+label:    sent_6
+sentence: TIS11b and SIK may combine to attenuate StAR expression when hormonal stimuli decline .
+
+ppatt:
+	?a may combine to attenuate ?b
+		?a: TIS11b
+		?b: StAR expression
+	?a may combine to attenuate ?b
+		?a: SIK
+		?b: StAR expression
+	when ?a decline
+		?a: hormonal stimuli
+
+
+label:    sent_7
+sentence: The proportion of patients who decline to answer questions using CASI was determined .
+
+ppatt:
+	?a decline to answer ?b
+		?a: patients
+		?b: questions using CASI
+	?a using ?b
+		?a: questions
+		?b: CASI
+	?a was determined
+		?a: The proportion of patients who decline to answer questions using CASI
+
+
+label:    sent_8
+sentence: Child mortality rates decline as women become better educated .
+
+ppatt:
+	?a decline as ?b
+		?a: Child mortality rates
+		?b: women
+	?a become better educated
+		?a: SOMETHING := Child mortality rates decline as women
+
+
+label:    sent_9
+sentence: Both mcSoS and mcBTT decline during the first year of life .
+
+ppatt:
+	?a decline during ?b
+		?a: mcSoS
+		?b: the first year of life
+	?a decline during ?b
+		?a: mcBTT
+		?b: the first year of life
+
+
+label:    sent_10
+sentence: Antibody levels were observed to decline rapidly after treatment of clinical infection with mefloquine .
+
+ppatt:
+	?a were observed to decline rapidly after ?b
+		?a: Antibody levels
+		?b: treatment of clinical infection with mefloquine
+
+
+label:    sent_11
+sentence: This key enzyme activity was found to decline significantly during cellular senescence .
+
+ppatt:
+	?a was found to decline significantly during ?b
+		?a: This key enzyme activity
+		?b: cellular senescence
+
+
+label:    sent_12
+sentence: The 14.5 % opt-out shows that it effectively empowers patients to decline participation .
+
+ppatt:
+	?a shows ?b
+		?a: The 14.5 % opt-out
+		?b: SOMETHING := it effectively empowers patients to decline participation
+	?a effectively empowers ?b to decline ?c
+		?a: it
+		?b: patients
+		?c: participation
+
+
+label:    sent_13
+sentence: Correlation between degree of white matter hyperintensities and global gray matter volume decline rate .
+
+ppatt:
+
+
+
+label:    sent_14
+sentence: Ecological determinants of distribution decline and risk of extinction in moths .
+
+ppatt:
+
+
+
+label:    sent_15
+sentence: Cause-structure of post-transitional mortality decline : the case of Utah . The thermosensitivity of vessels appeared to decline 40 days after irradiation .
+
+ppatt:
+	decline ?a after
+		?a: 40 days
+
+
+label:    sent_16
+sentence: Serum beta-hCG levels started to decline 3.4 days from the beginning of therapy .
+
+ppatt:
+	?a started to decline ?b from ?c
+		?a: Serum beta-hCG levels
+		?b: 3.4 days
+		?c: the beginning of therapy
+
+
+label:    sent_17
+sentence: Milk protein content tended to decline during T4 treatment and increase following GH treatment .
+
+ppatt:
+	?a tended to decline during ?b
+		?a: Milk protein content
+		?b: T4 treatment
+	?a tended to decline during ?b
+		?a: Milk protein content
+		?b: increase following GH treatment
+
+
+label:    sent_18
+sentence: Association of hypertension genotypes and decline in renal function after kidney transplantation .
+
+ppatt:
+
+
+
+label:    sent_19
+sentence: Metal ion levels remain elevated , but decline slowly for up to five years .
+
+ppatt:
+	?a remain elevated
+		?a: Metal ion levels
+	?a decline slowly for ?b
+		?a: Metal ion levels
+		?b: up five years
+
+
+label:    sent_20
+sentence: Fertility decline during rapid urbanisation : the influence of class and kinship .
+
+ppatt:
+
+
+
+label:    sent_21
+sentence: Indeed , faced with absolute risk reductions , patients decline treatment promoted by guidelines . Exacerbations and lung function decline in COPD : new insights in current and ex-smokers .
+
+ppatt:
+	faced with ?a ?b
+		?a: absolute risk reductions
+		?b: patients
+	Indeed , ?a decline ?b
+		?a: patients
+		?b: treatment promoted by guidelines . Exacerbations and lung function decline in COPD
+	?a promoted by ?b
+		?a: treatment
+		?b: guidelines
+	?a promoted by ?b
+		?a: treatment
+		?b: Exacerbations in COPD
+	?a promoted by ?b
+		?a: treatment
+		?b: lung function decline
+
+
+label:    sent_22
+sentence: Then , progesterone levels decline , and an ovulatory surge of gonadotropins is triggered .
+
+ppatt:
+	Then , ?a decline
+		?a: progesterone levels
+	?a is triggered
+		?a: an ovulatory surge of gonadotropins
+
+
+label:    sent_23
+sentence: Number of hospitals grows , but beds decline .
+
+ppatt:
+	?a grows
+		?a: Number of hospitals
+	?a decline
+		?a: beds
+
+
+label:    sent_24
+sentence: But over minutes currents decline substantially , and cell capacitance usually decreases in parallel .
+
+ppatt:
+	?a decline substantially
+		?a: over minutes currents
+	?a usually decreases in ?b
+		?a: cell capacitance
+		?b: parallel
+
+
+label:    sent_25
+sentence: Some patients are refractory to INCS yet decline to receive allergen-specific immunotherapy . Paleontology .
+
+ppatt:
+	?a are refractory to ?b
+		?a: Some patients
+		?b: INCS
+	?a yet decline to receive ?b ?c
+		?a: Some patients
+		?b: allergen-specific immunotherapy
+		?c: Paleontology
+
+
+label:    sent_26
+sentence: Megafaunal decline and fall . Leydig cells are most numerous between 17 and 19 weeks and decline thereafter .
+
+ppatt:
+	?a ?b are most numerous between ?c
+		?a: Megafaunal decline
+		?b: Leydig cells
+		?c: 17 and 19 weeks
+	?a ?b are most numerous between ?c
+		?a: fall
+		?b: Leydig cells
+		?c: 17 and 19 weeks
+	?a decline thereafter
+		?a: Megafaunal decline
+	?a decline thereafter
+		?a: fall
+
+

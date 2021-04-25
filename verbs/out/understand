@@ -1,0 +1,313 @@
+label:    sent_1
+sentence: Monitoring of these intracellular nucleotides is important to understand their pharmacology .
+
+ppatt:
+	?a is important to understand ?b
+		?a: Monitoring of these intracellular nucleotides
+		?b: their pharmacology
+
+
+label:    sent_2
+sentence: The secondary objective was to understand the perceived advantages and disadvantages of dermoscopy use . Further research is required to understand these differential effects .
+
+ppatt:
+	?a was to understand ?b
+		?a: The secondary objective
+		?b: the perceived advantages of dermoscopy use
+	?a was to understand ?b
+		?a: The secondary objective
+		?b: disadvantages
+	?a is required to understand ?b
+		?a: Further research
+		?b: these differential effects
+
+
+label:    sent_3
+sentence: The reader will understand the current status of agents undergoing clinical evaluation for tuberculosis .
+
+ppatt:
+	?a will understand ?b
+		?a: The reader
+		?b: the current status of agents undergoing clinical evaluation for tuberculosis
+	?a undergoing ?b
+		?a: agents
+		?b: clinical evaluation for tuberculosis
+
+
+label:    sent_4
+sentence: This sets a prerequisite to better understand the response and resistance mechanisms of rituximab .
+
+ppatt:
+	?a sets ?b
+		?a: This
+		?b: a prerequisite to better understand the response and resistance mechanisms of rituximab
+	?a better understand ?b
+		?a: a prerequisite
+		?b: the response of rituximab
+	?a better understand ?b
+		?a: a prerequisite
+		?b: resistance mechanisms
+
+
+label:    sent_5
+sentence: These will further help us to understand the mechanism of mutagenesis by ion implantation .
+
+ppatt:
+	?a will further help ?b to understand ?c
+		?a: These
+		?b: us
+		?c: the mechanism of mutagenesis by ion implantation
+
+
+label:    sent_6
+sentence: Most patients found friends who understand their situation and who are a big support .
+
+ppatt:
+	?a found ?b
+		?a: Most patients
+		?b: friends who understand their situation and who are a big support
+	?a understand ?b
+		?a: friends
+		?b: their situation
+	?a are a big support
+		?a: who
+
+
+label:    sent_7
+sentence: This work should help understand T1D etiology and develop novel immune-based therapeutic interventions .
+
+ppatt:
+	?a should help understand ?b
+		?a: This work
+		?b: T1D etiology
+	?a should help develop ?b
+		?a: This work
+		?b: novel immune-based therapeutic interventions
+
+
+label:    sent_8
+sentence: Binaural hearing improves our ability to understand speech and to localize sounds .
+
+ppatt:
+	?a improves ?b
+		?a: Binaural hearing
+		?b: our ability to understand speech and to localize sounds
+	?a understand ?b
+		?a: our ability
+		?b: speech
+	localize ?a
+		?a: sounds
+
+
+label:    sent_9
+sentence: Schools were selected by ability to understand and respond in English . VBCI is used to understand and analyze the DFT results .
+
+ppatt:
+	?a were selected by ?b
+		?a: Schools
+		?b: ability to understand and respond in English
+	?a understand in ?b
+		?a: ability
+		?b: English
+	?a is used to understand ?b
+		?a: VBCI
+		?b: the DFT results
+	?a is used to analyze
+		?a: VBCI
+
+
+label:    sent_10
+sentence: In addition , surface thermodynamics was applied to understand and predict surface sampling performance .
+
+ppatt:
+	In ?a , ?b was applied to understand ?c
+		?a: addition
+		?b: surface thermodynamics
+		?c: surface sampling performance
+	?a was applied to predict
+		?a: surface thermodynamics
+
+
+label:    sent_11
+sentence: This helps to understand various phenomena in the development of dissecting aneurysm .
+
+ppatt:
+	?a helps to understand ?b
+		?a: This
+		?b: various phenomena in the development of dissecting aneurysm
+
+
+label:    sent_12
+sentence: RDWP was a useful tool to understand particle/moisture interaction under pressure .
+
+ppatt:
+	?a was a useful tool
+		?a: RDWP
+	?a understand ?b
+		?a: a useful tool
+		?b: particle/moisture interaction under pressure
+
+
+label:    sent_13
+sentence: Future research aimed to better understand effective methods for increasing physical activity remains essential .
+
+ppatt:
+	?a aimed to better understand ?b
+		?a: Future research
+		?b: effective methods
+	?a increasing ?b
+		?a: effective methods
+		?b: physical activity
+	?a remains essential
+		?a: Future research aimed to better understand effective methods for increasing physical activity
+
+
+label:    sent_14
+sentence: Study results will help clinicians and emergency officials understand needs related to evacuation preparedness .
+
+ppatt:
+	?a will help ?b
+		?a: Study results
+		?b: clinicians
+	?a emergency
+		?a: Study results
+	?a understand ?b
+		?a: officials
+		?b: needs related to evacuation preparedness
+
+
+label:    sent_15
+sentence: Five complicated tax items you should understand . Seek to understand . Experienced dosimetry practitioners will understand the uncertainties and treat monitoring results with due caution .
+
+ppatt:
+	?a ?b should understand
+		?a: Five complicated tax items
+		?b: you
+	?a Seek to understand
+		?a: Five complicated tax items
+	?a will understand ?b
+		?a: Experienced dosimetry practitioners
+		?b: the uncertainties
+	?a treat ?b with ?c
+		?a: Experienced dosimetry practitioners
+		?b: monitoring results
+		?c: due caution
+
+
+label:    sent_16
+sentence: We can n't feel their pain , but we can understand their fears .
+
+ppatt:
+	?a can n't feel ?b
+		?a: We
+		?b: their pain
+	?a can understand ?b
+		?a: we
+		?b: their fears
+
+
+label:    sent_17
+sentence: Simulations as analytical tools to understand protein aggregation and predict amyloid conformation .
+
+ppatt:
+	?a understand ?b
+		?a: analytical tools
+		?b: protein aggregation
+	predict ?a
+		?a: amyloid conformation
+
+
+label:    sent_18
+sentence: We should understand surgical treatment as part of the multidisciplinary treatment .
+
+ppatt:
+	?a should understand ?b as ?c
+		?a: We
+		?b: surgical treatment
+		?c: part of the multidisciplinary treatment
+
+
+label:    sent_19
+sentence: Variations in how physiotherapists understand their work on organizational and societal levels .
+
+ppatt:
+	?a how ?b understand ?c ?d
+		?a: Variations
+		?b: physiotherapists
+		?c: their work
+		?d: on organizational and societal levels
+
+
+label:    sent_20
+sentence: What do rooks ( Corvus frugilegus ) understand about physical contact ?
+
+ppatt:
+	?a is/are Corvus frugilegus
+		?a: rooks
+	?a do ?b understand about ?c
+		?a: What
+		?b: rooks
+		?c: physical contact
+
+
+label:    sent_21
+sentence: This paper describes our efforts to understand and address these challenges .
+
+ppatt:
+	?a describes ?b
+		?a: This paper
+		?b: our efforts to understand and address these challenges
+	?a understand ?b
+		?a: our efforts
+		?b: these challenges
+	address ?a
+		?a: these challenges
+
+
+label:    sent_22
+sentence: [How to understand and correctly apply the clinical guideline ] . blindness , learning difficulties or inability to understand or read English .
+
+ppatt:
+	?a understand
+		?a: [How
+	correctly apply ?a
+		?a: the clinical guideline
+	?a understand ?b
+		?a: inability
+		?b: English
+	read ?a
+		?a: English
+
+
+label:    sent_23
+sentence: Such data are hard to understand completely by inspection and intuition .
+
+ppatt:
+	?a are hard to understand completely by ?b
+		?a: Such data
+		?b: inspection
+	?a are hard to understand completely by ?b
+		?a: Such data
+		?b: intuition
+
+
+label:    sent_24
+sentence: Graphic instructions are easier to understand than text-only instructions and less information is better .
+
+ppatt:
+	?a are easier to understand than ?b better
+		?a: Graphic instructions
+		?b: text-only instructions
+	?a is
+		?a: less information
+
+
+label:    sent_25
+sentence: Extreme displacement was not more difficult to understand than moderate displacement .
+
+ppatt:
+	?a was not more difficult to understand than ?b
+		?a: Extreme displacement
+		?b: moderate displacement
+
+

@@ -1,0 +1,262 @@
+label:    sent_1
+sentence: Endothelial cells also release substances ( EDHF ) that hyperpolarize vascular smooth muscle .
+
+ppatt:
+	?a also release ?b
+		?a: Endothelial cells
+		?b: substances that hyperpolarize vascular smooth muscle
+	?a is/are EDHF
+		?a: substances that hyperpolarize vascular smooth muscle
+	?a hyperpolarize ?b
+		?a: substances
+		?b: vascular smooth muscle
+
+
+label:    sent_2
+sentence: They depolarize immature neurons but hyperpolarize more mature neurons .
+
+ppatt:
+	?a depolarize ?b
+		?a: They
+		?b: immature neurons
+	?a hyperpolarize ?b
+		?a: They
+		?b: more mature neurons
+
+
+label:    sent_3
+sentence: Cells treated with valinomycin to hyperpolarize the membrane showed increased deoxygenation-induced Na influx .
+
+ppatt:
+	?a treated with ?b to hyperpolarize ?c
+		?a: Cells
+		?b: valinomycin
+		?c: the membrane
+	?a showed ?b
+		?a: Cells treated with valinomycin to hyperpolarize the membrane
+		?b: increased deoxygenation-induced Na influx
+
+
+label:    sent_4
+sentence: Conditions that hyperpolarize the cells did not alter the basal rate of hexose uptake . Pentobarbital and halothane hyperpolarize cat alpha-motoneurons .
+
+ppatt:
+	?a hyperpolarize ?b
+		?a: Conditions
+		?b: the cells
+	?a did not alter ?b ?c
+		?a: Conditions that hyperpolarize the cells
+		?b: the basal rate of hexose uptake
+		?c: Pentobarbital
+	?a did not alter ?b ?c
+		?a: Conditions that hyperpolarize the cells
+		?b: the basal rate of hexose uptake
+		?c: halothane
+
+
+label:    sent_5
+sentence: Whether the other drugs also hyperpolarize the yeast cells is uncertain . 10 mumol/l furosemide hyperpolarize the cell membrane by -11.4 +/- 1.4 mV .
+
+ppatt:
+	?a also hyperpolarize ?b
+		?a: the other drugs
+		?b: the yeast cells
+	?a is uncertain
+		?a: SOMETHING := the other drugs also hyperpolarize the yeast cells
+	?a hyperpolarize ?b by ?c
+		?a: 10 mumol/l furosemide
+		?b: the cell membrane
+		?c: -11.4 +/- 1.4 mV
+
+
+label:    sent_6
+sentence: Insulin does not hyperpolarize rat muscle by means of a ouabain-inhibitable process .
+
+ppatt:
+	?a does not hyperpolarize ?b by ?c of ?d
+		?a: Insulin
+		?b: rat muscle
+		?c: means
+		?d: a ouabain-inhibitable process
+
+
+label:    sent_7
+sentence: Both PMA and somatostatin hyperpolarize insulinoma cells by activating ATP-sensitive K+ channels .
+
+ppatt:
+	?a activating ?b
+		?a: PMA
+		?b: ATP-sensitive K+ channels
+	?a activating ?b
+		?a: somatostatin hyperpolarize insulinoma cells
+		?b: ATP-sensitive K+ channels
+
+
+label:    sent_8
+sentence: This smaller increase was sufficient to hyperpolarize the membrane by 8 mV .
+
+ppatt:
+	?a was sufficient to hyperpolarize ?b by ?c
+		?a: This smaller increase
+		?b: the membrane
+		?c: 8 mV
+
+
+label:    sent_9
+sentence: Triphentyltin failed to hyperpolarize thymocytes in Ca ( 2+ ) -free solution .
+
+ppatt:
+	?a failed to hyperpolarize ?b in ?c
+		?a: Triphentyltin
+		?b: thymocytes
+		?c: Ca ( 2+ ) -free solution
+
+
+label:    sent_10
+sentence: Opioids act at mu-receptors to hyperpolarize arcuate neurons via an inwardly rectifying potassium conductance .
+
+ppatt:
+	?a act at ?b to hyperpolarize ?c via ?d
+		?a: Opioids
+		?b: mu-receptors
+		?c: arcuate neurons
+		?d: an inwardly rectifying potassium conductance
+
+
+label:    sent_11
+sentence: Their activation can hyperpolarize neurones and diminish neurotransmitter release from presynaptic terminals .
+
+ppatt:
+	?a can hyperpolarize ?b
+		?a: Their activation
+		?b: neurones
+	?a diminish ?b
+		?a: Their activation
+		?b: neurotransmitter release from presynaptic terminals
+
+
+label:    sent_12
+sentence: Potassium channel openers hyperpolarize the smooth muscle cell membrane and relax airway smooth muscle .
+
+ppatt:
+	?a hyperpolarize ?b
+		?a: Potassium channel openers
+		?b: the smooth muscle cell membrane
+	?a relax ?b
+		?a: Potassium channel openers
+		?b: airway smooth muscle
+
+
+label:    sent_13
+sentence: Post-synaptic alpha 2 receptors hyperpolarize neurons membranes and decrease the activity of nociceptive neurons .
+
+ppatt:
+	?a hyperpolarize ?b
+		?a: Post-synaptic alpha 2 receptors
+		?b: neurons membranes
+	?a decrease ?b
+		?a: Post-synaptic alpha 2 receptors
+		?b: the activity of nociceptive neurons
+
+
+label:    sent_14
+sentence: Monensin was found to hyperpolarize the myotubes , but causes myotube atrophy .
+
+ppatt:
+	?a was found to hyperpolarize ?b
+		?a: Monensin
+		?b: the myotubes
+	?a was found to causes ?b
+		?a: Monensin
+		?b: myotube atrophy
+
+
+label:    sent_15
+sentence: The catecholamines were then proposed to hyperpolarize hepatic glucoreceptors and produce satiety .
+
+ppatt:
+	?a were then proposed to hyperpolarize ?b
+		?a: The catecholamines
+		?b: hepatic glucoreceptors
+	?a were then proposed to produce ?b
+		?a: The catecholamines
+		?b: satiety
+
+
+label:    sent_16
+sentence: Photoreceptors of the vertebrate retina hyperpolarize in response to light .
+
+ppatt:
+	?a hyperpolarize to ?b
+		?a: Photoreceptors of the vertebrate retina
+		?b: light
+
+
+label:    sent_17
+sentence: Photoreceptors of the vertebrate retina hyperpolarize in response to illumination .
+
+ppatt:
+	?a hyperpolarize to ?b
+		?a: Photoreceptors of the vertebrate retina
+		?b: illumination
+
+
+label:    sent_18
+sentence: Broad-field horizontal cells always hyperpolarize in response to surround illumination .
+
+ppatt:
+	?a always hyperpolarize in ?b to ?c
+		?a: Broad-field horizontal cells
+		?b: response
+		?c: surround illumination
+
+
+label:    sent_19
+sentence: Vertebrate rod and cone photoreceptors hyperpolarize when illuminated .
+
+ppatt:
+	?a hyperpolarize
+		?a: Vertebrate rod
+	?a hyperpolarize
+		?a: cone
+	?a hyperpolarize
+		?a: photoreceptors
+	?a when illuminated
+		?a: Vertebrate rod
+	?a when illuminated
+		?a: cone
+	?a when illuminated
+		?a: photoreceptors
+
+
+label:    sent_20
+sentence: Small elevations in external K+ hyperpolarize and dilate small cerebral arteries .
+
+ppatt:
+	dilate ?a
+		?a: small cerebral arteries
+
+
+label:    sent_21
+sentence: When K ATP channels open , beta-cells hyperpolarize and insulin secretion is suppressed .
+
+ppatt:
+	When ?a open
+		?a: K ATP channels
+	?a is suppressed
+		?a: beta-cells hyperpolarize
+	?a is suppressed
+		?a: insulin
+
+
+label:    sent_22
+sentence: Stimulated V-HEL cells did not hyperpolarize and basal Ca2+ influx was unaffected by charybdotoxin .
+
+ppatt:
+	?a did not hyperpolarize
+		?a: Stimulated V-HEL cells
+	?a was unaffected by ?b
+		?a: basal Ca2+ influx
+		?b: charybdotoxin
+
+

@@ -1,0 +1,242 @@
+label:    sent_1
+sentence: Recognizing objects in cluttered scenes requires attentional mechanisms to filter out distracting information .
+
+ppatt:
+	Recognizing ?a
+		?a: objects in cluttered scenes
+	?a requires ?b
+		?a: SOMETHING := Recognizing objects in cluttered scenes
+		?b: attentional mechanisms to filter out distracting information
+	?a filter ?b
+		?a: attentional mechanisms
+		?b: out distracting information
+
+
+label:    sent_2
+sentence: Spritz was extended to filter predictions based on structural homologues .
+
+ppatt:
+	?a was extended to filter ?b
+		?a: Spritz
+		?b: predictions
+	?a based on structural homologues
+		?a: Spritz
+
+
+label:    sent_3
+sentence: Finger stick blood was applied to filter paper .
+
+ppatt:
+	?a was applied to ?b
+		?a: Finger stick blood
+		?b: filter paper
+
+
+label:    sent_4
+sentence: Kalman filter mixture model for spike sorting of non-stationary data . Compartment syndrome in patients with massive venous thrombosis after inferior vena cava filter placement .
+
+ppatt:
+
+
+
+label:    sent_5
+sentence: Inferior vena cava filter use as pulmonary embolism prophylaxis in trauma . Band-pass plasmonic slot filter with band selection and spectrally splitting capabilities .
+
+ppatt:
+
+
+
+label:    sent_6
+sentence: Tunable bandwidth of band-stop filter by metamaterial cell coupling in optical frequency . A flat spectral Faraday filter for sodium lidar .
+
+ppatt:
+
+
+
+label:    sent_7
+sentence: On power idealization filter topologies of lattice implication algebras .
+
+ppatt:
+
+
+
+label:    sent_8
+sentence: Modified septic tank-anaerobic filter unit as a two-stage onsite domestic wastewater treatment system .
+
+ppatt:
+
+
+
+label:    sent_9
+sentence: Using a system-on-a-chip implantable device to filter circulating infected cells in blood or lymph .
+
+ppatt:
+	Using ?a
+		?a: a system-on-a-chip implantable device
+	filter ?a in ?b
+		?a: circulating infected cells
+		?b: blood
+	filter ?a in ?b
+		?a: circulating infected cells
+		?b: lymph
+
+
+label:    sent_10
+sentence: The transition to IVUS-guided IVC filter deployment in the nontrauma patient .
+
+ppatt:
+
+
+
+label:    sent_11
+sentence: Inferior vena cava filter migration to the right ventricle . Bacterial filter obstruction with the use of ultrasonic nebulisation .
+
+ppatt:
+
+
+
+label:    sent_12
+sentence: Duodenal perforation by an inferior vena cava filter .
+
+ppatt:
+
+
+
+label:    sent_13
+sentence: Structure of nitrifying biofilms in a high-rate trickling filter designed for potable water pre-treatment .
+
+ppatt:
+	?a designed for ?b
+		?a: a high-rate trickling filter
+		?b: potable water pre-treatment
+
+
+label:    sent_14
+sentence: New criteria for placement of a prophylactic vena cava filter .
+
+ppatt:
+
+
+
+label:    sent_15
+sentence: It is further used to reconstruct or filter SPIRIT traces .
+
+ppatt:
+	?a is further used to reconstruct ?b
+		?a: It
+		?b: SPIRIT traces
+	?a is further used to filter
+		?a: It
+
+
+label:    sent_16
+sentence: To filter or not to filter the inferior vena cava in pregnancy ? Three median filters were proposed to filter noises and obtain voxel intensities .
+
+ppatt:
+	filter ?a
+		?a: Three median filters
+	not to filter ?a in ?b ?c
+		?a: the inferior vena cava
+		?b: pregnancy
+		?c: Three median filters
+	?a were proposed to filter ?b
+		?a: Three median filters
+		?b: noises
+	?a were proposed to obtain ?b
+		?a: Three median filters
+		?b: voxel intensities
+
+
+label:    sent_17
+sentence: A low-loss SAW-TV-IF filter with an extended impedance matching range .
+
+ppatt:
+
+
+
+label:    sent_18
+sentence: The optimum Butterworth-Wiener filter for I-123 IMP brain SPECT .
+
+ppatt:
+
+
+
+label:    sent_19
+sentence: Nonlocal transform-domain filter for volumetric data denoising and reconstruction .
+
+ppatt:
+
+
+
+label:    sent_20
+sentence: Treatment was stopped when the predefined clinical target was reached or the filter clotted .
+
+ppatt:
+	?a was stopped
+		?a: Treatment
+	when ?a was reached
+		?a: the predefined clinical target
+	?a clotted
+		?a: the filter
+
+
+label:    sent_21
+sentence: It can both sweep and filter . Objective and subjective interestingness of results is measured and used to filter and sort .
+
+ppatt:
+	?a both sweep
+		?a: It
+	?a filter
+		?a: It
+	?a Objective
+		?a: It
+	?a subjective
+		?a: It
+	can ?a ?b is measured
+		?a: It sweep
+		?b: interestingness of results
+	can ?a ?b is measured
+		?a: filter
+		?b: interestingness of results
+	can ?a ?b is measured
+		?a: Objective
+		?b: interestingness of results
+	?a used to filter
+		?a: It sweep
+	?a used to filter
+		?a: filter
+	?a used to filter
+		?a: Objective
+	?a used to sort
+		?a: It sweep
+	?a used to sort
+		?a: filter
+	?a used to sort
+		?a: Objective
+
+
+label:    sent_22
+sentence: We filter this initial pool of sequences and obtain a list of valid targets .
+
+ppatt:
+	?a filter ?b
+		?a: We
+		?b: this initial pool of sequences
+	?a obtain ?b
+		?a: We
+		?b: a list of valid targets
+
+
+label:    sent_23
+sentence: These organisms filter large volumes of seawater and may accumulate contaminants within their tissues .
+
+ppatt:
+	?a filter ?b
+		?a: These organisms
+		?b: large volumes of seawater
+	?a may accumulate ?b within ?c
+		?a: These organisms
+		?b: contaminants
+		?c: their tissues
+
+

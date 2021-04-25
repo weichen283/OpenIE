@@ -1,0 +1,322 @@
+label:    sent_1
+sentence: These complications render serial acquisition of blood samples problematic .
+
+ppatt:
+	?a render ?b
+		?a: These complications
+		?b: serial acquisition of blood samples problematic
+
+
+label:    sent_2
+sentence: Endpoint selection and unreported analgesic use may render oncologic studies inconclusive .
+
+ppatt:
+	?a may render ?b
+		?a: Endpoint selection
+		?b: oncologic studies inconclusive
+	?a may render ?b
+		?a: unreported analgesic use
+		?b: oncologic studies inconclusive
+
+
+label:    sent_3
+sentence: Concurrent extinction does not render appetitive conditioning context specific .
+
+ppatt:
+	?a does not render ?b specific
+		?a: Concurrent extinction
+		?b: appetitive conditioning context
+
+
+label:    sent_4
+sentence: Do moral judgments hinge on the time available to render them ? Several approaches have been introduced to render the SABG assay quantitative .
+
+ppatt:
+	Do ?a ?b on ?c ?d
+		?a: moral judgments
+		?b: hinge
+		?c: the time available to render them
+		?d: Several approaches
+	render ?a
+		?a: them
+	?a have been introduced to render ?b ?c quantitative
+		?a: Several approaches
+		?b: SABG
+		?c: the assay
+
+
+label:    sent_5
+sentence: Early diagnosis can enable the physician to render simpler nondestructive modalities of treatment .
+
+ppatt:
+	?a can enable ?b to render ?c
+		?a: Early diagnosis
+		?b: the physician
+		?c: simpler nondestructive modalities of treatment
+
+
+label:    sent_6
+sentence: Its compelling functions render PI a promising novel physiological immune suppressant .
+
+ppatt:
+	?a render ?b a promising novel physiological immune suppressant
+		?a: Its compelling functions
+		?b: PI
+
+
+label:    sent_7
+sentence: p-Phosphonic acid calix[4 ] arenes render high stability to exfoliated graphenes in water .
+
+ppatt:
+	?a render ?b
+		?a: p-Phosphonic acid calix[4 ] arenes
+		?b: high stability to exfoliated graphenes in water
+
+
+label:    sent_8
+sentence: Adjustments of the OTF render possible identification of the peak velocities and their localization .
+
+ppatt:
+	?a render ?b
+		?a: Adjustments of the OTF
+		?b: possible identification of the peak velocities and their localization
+
+
+label:    sent_9
+sentence: These factors render drug development in young people challenging .
+
+ppatt:
+	?a render ?b in ?c
+		?a: These factors
+		?b: drug development
+		?c: young people challenging
+	?a challenging
+		?a: young people
+
+
+label:    sent_10
+sentence: These evidences render BAFF as a potentially new therapeutic target .
+
+ppatt:
+	?a render ?b as ?c
+		?a: These evidences
+		?b: BAFF
+		?c: a potentially new therapeutic target
+
+
+label:    sent_11
+sentence: This will render veterinary medicine by mail order possible .
+
+ppatt:
+	?a will render ?b by ?c possible
+		?a: This
+		?b: veterinary medicine
+		?c: mail order
+
+
+label:    sent_12
+sentence: Additional studies must clarify the features that render them to metabolic dysregulation .
+
+ppatt:
+	?a must clarify ?b
+		?a: Additional studies
+		?b: the features that render them to metabolic dysregulation
+	?a render ?b to ?c
+		?a: the features
+		?b: them
+		?c: metabolic dysregulation
+
+
+label:    sent_13
+sentence: The intent was to render all eyes as close to emmetropia as possible .
+
+ppatt:
+	?a was to render ?b as ?c
+		?a: The intent
+		?b: all eyes
+		?c: close to emmetropia
+	?a as possible
+		?a: The intent
+
+
+label:    sent_14
+sentence: As both chemotherapy and radiation therapy render no effect on this malignancy .
+
+ppatt:
+	?a render ?b on ?c
+		?a: chemotherapy
+		?b: no effect
+		?c: this malignancy
+	?a render ?b on ?c
+		?a: radiation therapy
+		?b: no effect
+		?c: this malignancy
+
+
+label:    sent_15
+sentence: The capsular complexes pack in columns and render the fullerene units completely isolated .
+
+ppatt:
+	?a pack in ?b
+		?a: The capsular complexes
+		?b: columns
+	?a render ?b
+		?a: The capsular complexes
+		?b: the fullerene units completely isolated
+	?a completely isolated
+		?a: the fullerene units
+
+
+label:    sent_16
+sentence: Violations of this assumption can obscure existing asymmetries and render spurious results .
+
+ppatt:
+	?a can obscure ?b
+		?a: Violations of this assumption
+		?b: existing asymmetries
+	?a render ?b
+		?a: Violations of this assumption
+		?b: spurious results
+
+
+label:    sent_17
+sentence: Modifications were made to render the test more dance-specific and to increase balance challenges .
+
+ppatt:
+	?a were made to render ?b
+		?a: Modifications
+		?b: the test more dance-specific
+	?a were made to to increase ?b
+		?a: Modifications
+		?b: balance challenges
+
+
+label:    sent_18
+sentence: Improvements to the technology will undoubtedly render it more effective and increase its use .
+
+ppatt:
+	?a will undoubtedly render ?b more effective
+		?a: Improvements to the technology
+		?b: it
+	will undoubtedly render ?a increase ?b
+		?a: it
+		?b: its use
+
+
+label:    sent_19
+sentence: Several statistical analyses of the dataset have been performed and all render similar conclusions .
+
+ppatt:
+	?a have been performed
+		?a: Several statistical analyses of the dataset
+	?a render ?b
+		?a: all
+		?b: similar conclusions
+
+
+label:    sent_20
+sentence: Careful surgical preparation will render surgical procedures more predictable and reduce post-operative discomfort .
+
+ppatt:
+	?a will render ?b more predictable
+		?a: Careful surgical preparation
+		?b: surgical procedures
+	?a will render reduce ?b
+		?a: Careful surgical preparation
+		?b: post-operative discomfort
+
+
+label:    sent_21
+sentence: Therapeutic hypothermia delays the recovery of motor responses and may render clinical evaluation unreliable .
+
+ppatt:
+	?a delays ?b
+		?a: Therapeutic hypothermia
+		?b: the recovery of motor responses
+	may render ?a unreliable
+		?a: clinical evaluation
+
+
+label:    sent_22
+sentence: This model may bridge two disciplines and render them mutually useful .
+
+ppatt:
+	?a may bridge ?b
+		?a: This model
+		?b: two disciplines
+	render ?a mutually useful
+		?a: them
+
+
+label:    sent_23
+sentence: This line broadening can hinder resonance assignment or even render it impossible .
+
+ppatt:
+	?a can hinder ?b
+		?a: This line broadening
+		?b: resonance assignment
+	even render ?a impossible
+		?a: it
+
+
+label:    sent_24
+sentence: These two observations are preliminary but they render certain hypotheses possible .
+
+ppatt:
+	?a are preliminary
+		?a: These two observations
+	?a render ?b
+		?a: they
+		?b: certain hypotheses possible
+
+
+label:    sent_25
+sentence: Noncompliance may render migraine prophylaxis useless , but once-daily regimens are better .
+
+ppatt:
+	?a may render ?b ?c useless
+		?a: Noncompliance
+		?b: migraine
+		?c: prophylaxis
+	?a are
+		?a: once-daily regimens
+
+
+label:    sent_26
+sentence: Endoscopic procedures render opening of the uterus unnecessary and are of particular importance .
+
+ppatt:
+	?a render ?b unnecessary
+		?a: Endoscopic procedures
+		?b: opening of the uterus
+
+
+label:    sent_27
+sentence: Charged residues render pro-OmpA potential dependent for initiation of membrane translocation .
+
+ppatt:
+	?a render ?b
+		?a: Charged residues
+		?b: pro-OmpA potential dependent for initiation of membrane translocation
+
+
+label:    sent_28
+sentence: In contrast , KHF alone did not render spleen cells cytotoxic .
+
+ppatt:
+	In ?a , ?b did not render ?c cytotoxic
+		?a: contrast
+		?b: KHF alone
+		?c: spleen cells
+
+
+label:    sent_29
+sentence: In conclusion , APC-loading could render stents significantly less thrombotic .
+
+ppatt:
+	In ?a , ?b could render ?c significantly less thrombotic
+		?a: conclusion
+		?b: APC-loading
+		?c: stents
+
+

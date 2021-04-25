@@ -1,0 +1,42 @@
+label:    sent_1
+sentence: A 20 F nasogastric tube was inserted immediately after the induction of general anesthesia to aspirate and measure the RGV .
+
+ppatt:
+	?a was inserted immediately after ?b
+		?a: A 20 F nasogastric tube
+		?b: the induction of general anesthesia to aspirate
+	?a measure ?b
+		?a: A 20 F nasogastric tube
+		?b: the RGV
+
+
+label:    sent_2
+sentence: Results indicate that aspirate from PES implantation attenuates vasoconstriction , possibly secondary to microtubular stabilization .
+
+ppatt:
+	?a indicate ?b
+		?a: Results
+		?b: SOMETHING := aspirate from PES implantation attenuates vasoconstriction , possibly secondary to microtubular stabilization
+	?a attenuates ?b
+		?a: aspirate from PES implantation
+		?b: vasoconstriction , possibly secondary to microtubular stabilization
+
+
+label:    sent_3
+sentence: A modified 9-luminal manometric tube served to perfuse the esophagus with 3.2 mmolar hydrochloric acid containing 2 % polyethylene glycol ( PEG ) and to aspirate the esophageal contents .
+
+ppatt:
+	?a served to perfuse ?b with ?c
+		?a: A modified 9-luminal manometric tube
+		?b: the esophagus
+		?c: 3.2 mmolar hydrochloric acid containing 2 % polyethylene glycol
+	?a containing ?b
+		?a: 3.2 mmolar hydrochloric acid
+		?b: 2 % polyethylene glycol
+	?a is/are PEG
+		?a: 2 % polyethylene glycol
+	?a served to to aspirate ?b
+		?a: A modified 9-luminal manometric tube
+		?b: the esophageal contents
+
+

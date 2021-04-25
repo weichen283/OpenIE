@@ -1,0 +1,297 @@
+label:    sent_1
+sentence: An act of kindness . Most osteoporosis drugs act by inhibiting bone resorption .
+
+ppatt:
+	?a ?b act
+		?a: An act of kindness
+		?b: Most osteoporosis drugs
+	?a inhibiting ?b
+		?a: An act of kindness
+		?b: bone resorption
+
+
+label:    sent_2
+sentence: Moreover , it appears that staphylococcal superantigens act in the pathogenesis of GN .
+
+ppatt:
+	Moreover , ?a appears ?b
+		?a: it
+		?b: SOMETHING := staphylococcal superantigens act in the pathogenesis of GN
+	?a act in ?b
+		?a: staphylococcal superantigens
+		?b: the pathogenesis of GN
+
+
+label:    sent_3
+sentence: Impulsivity is the tendency to act prematurely without foresight .
+
+ppatt:
+	?a is the tendency
+		?a: Impulsivity
+	?a act prematurely without ?b
+		?a: the tendency
+		?b: foresight
+
+
+label:    sent_4
+sentence: The gene S100A4 has long been known to act as a metastasis inducer .
+
+ppatt:
+	?a has long been known to act as ?b
+		?a: The gene S100A4
+		?b: a metastasis inducer
+
+
+label:    sent_5
+sentence: Bud3p is thought to act as a component of a spatial landmark .
+
+ppatt:
+	?a is thought to act as ?b
+		?a: Bud3p
+		?b: a component of a spatial landmark
+
+
+label:    sent_6
+sentence: Immunomodulatory drugs can act synergistically with rituximab but are toxic .
+
+ppatt:
+	?a can act synergistically with ?b
+		?a: Immunomodulatory drugs
+		?b: rituximab
+
+
+label:    sent_7
+sentence: Certain antimycotic drugs act on keratinocytes and modulate their production of chemokines . A and M act on human HM and are regulated by steroids . Yet , the T-lymphocytes do not act alone .
+
+ppatt:
+	?a act on ?b
+		?a: Certain antimycotic drugs
+		?b: keratinocytes
+	?a modulate ?b
+		?a: Certain antimycotic drugs
+		?b: their production of chemokines
+	?a act on ?b
+		?a: A
+		?b: human HM
+	?a act on ?b
+		?a: M
+		?b: human HM
+	?a are regulated by ?b
+		?a: A
+		?b: steroids
+	?a are regulated by ?b
+		?a: M
+		?b: steroids
+	Yet , ?a do not act alone
+		?a: the T-lymphocytes
+
+
+label:    sent_8
+sentence: How does it act when soluble ? Is it time to act ? The remaining Pro residues resisted TFE perturbations and thus act as conformational stabilizers .
+
+ppatt:
+	How does ?a act to act
+		?a: it
+	?a when soluble
+		?a: it
+	?a Is
+		?a: it
+	?a it time
+		?a: it
+	?a resisted ?b
+		?a: The remaining Pro residues
+		?b: TFE perturbations
+	?a thus act as ?b
+		?a: The remaining Pro residues
+		?b: conformational stabilizers
+
+
+label:    sent_9
+sentence: These suppressors are diverse in sequence and structure and act via different mechanisms .
+
+ppatt:
+	?a are diverse in ?b
+		?a: These suppressors
+		?b: sequence
+	?a are diverse in ?b
+		?a: These suppressors
+		?b: structure
+	?a act via ?b
+		?a: These suppressors
+		?b: different mechanisms
+
+
+label:    sent_10
+sentence: IPGNs are maintained in the neocortex and may act as progenitors for adult neurogenesis .
+
+ppatt:
+	?a are maintained in ?b
+		?a: IPGNs
+		?b: the neocortex
+	?a may act as ?b
+		?a: IPGNs
+		?b: progenitors for adult neurogenesis
+
+
+label:    sent_11
+sentence: We hypothesized that wear-debris particles may act as PAMPs/DAMPs and activate macrophages via TLRs .
+
+ppatt:
+	?a hypothesized ?b
+		?a: We
+		?b: SOMETHING := wear-debris particles may act as PAMPs/DAMPs
+	?a may act as ?b
+		?a: wear-debris particles
+		?b: PAMPs/DAMPs
+	?a activate ?b via ?c
+		?a: wear-debris particles
+		?b: macrophages
+		?c: TLRs
+
+
+label:    sent_12
+sentence: The toxin also may act rapidly and effect action at a target tissue .
+
+ppatt:
+	?a also may act rapidly
+		?a: The toxin
+	?a effect ?b at ?c
+		?a: The toxin
+		?b: action
+		?c: a target tissue
+
+
+label:    sent_13
+sentence: Some compounds act differently and are more active than predicted from their lipophilic character .
+
+ppatt:
+	?a act differently
+		?a: Some compounds
+	predicted from ?a
+		?a: their lipophilic character
+
+
+label:    sent_14
+sentence: There are indications that thiol peroxy radicals can also act in the same way . Cases in which substrates also act as time-dependent inhibitors are considered .
+
+ppatt:
+	There are ?a
+		?a: indications that thiol peroxy radicals can also act in the same way
+	?a can also act in ?b
+		?a: thiol peroxy radicals
+		?b: the same way
+	?a in ?b also act as ?c
+		?a: Cases
+		?b: substrates
+		?c: time-dependent inhibitors
+	?a are considered
+		?a: Cases in which substrates also act as time-dependent inhibitors
+
+
+label:    sent_15
+sentence: The mechanism by which rhesus factors act in respiratory allergy is not known .
+
+ppatt:
+	?a by ?b act in ?c
+		?a: The mechanism
+		?b: rhesus factors
+		?c: respiratory allergy
+	?a is not known
+		?a: The mechanism by which rhesus factors act in respiratory allergy
+
+
+label:    sent_16
+sentence: It determines the distribution of heritable phenotypic variance on which selection can act .
+
+ppatt:
+	?a determines ?b
+		?a: It
+		?b: the distribution of heritable phenotypic variance on which selection can act
+	?a on ?b can act
+		?a: heritable phenotypic variance
+		?b: selection
+
+
+label:    sent_17
+sentence: Other studies should determine the biophysical processes through which they act . In addition , binding sites at which these compounds act have not been identified .
+
+ppatt:
+	?a should determine ?b
+		?a: Other studies
+		?b: the biophysical processes through which they act
+	?a through ?b act
+		?a: the biophysical processes
+		?b: they
+	?a at ?b act
+		?a: binding sites
+		?b: these compounds
+	In ?a , ?b have not been identified
+		?a: addition
+		?b: binding sites at which these compounds act
+
+
+label:    sent_18
+sentence: Dexmedetomidine also has an opioid-sparing action and can act to enhance analgesia .
+
+ppatt:
+	?a also has ?b
+		?a: Dexmedetomidine
+		?b: an opioid-sparing action
+	?a can act to enhance ?b
+		?a: Dexmedetomidine
+		?b: analgesia
+
+
+label:    sent_19
+sentence: Complex biosystems do not always behave or act as expected during experimental investigation .
+
+ppatt:
+	?a do not always behave
+		?a: Complex biosystems
+	?a act
+		?a: Complex biosystems
+	?a expected during ?b
+		?a: Complex biosystems
+		?b: experimental investigation
+
+
+label:    sent_20
+sentence: In nature , interferons are normally formed and act locally . Along with these antiproliferative activities , theaflavins act as microtubule depolymerizers .
+
+ppatt:
+	In ?a , ?b are normally formed
+		?a: nature
+		?b: interferons
+	?a act locally Along with ?b
+		?a: interferons
+		?b: these antiproliferative activities
+	?a act as ?b
+		?a: theaflavins
+		?b: microtubule depolymerizers
+
+
+label:    sent_21
+sentence: This paper explores whether patients act according to self-interest in priority setting experiments .
+
+ppatt:
+	?a explores ?b
+		?a: This paper
+		?b: SOMETHING := patients act according to self-interest in priority setting experiments
+	?a act according to ?b
+		?a: patients
+		?b: self-interest in priority setting experiments
+
+
+label:    sent_22
+sentence: It is not clear what selective forces act on colour .
+
+ppatt:
+	?a is not clear ?b
+		?a: It
+		?b: SOMETHING := what selective forces act on colour
+	?a ?b act on ?c
+		?a: what
+		?b: selective forces
+		?c: colour
+
+

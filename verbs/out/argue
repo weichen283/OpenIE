@@ -1,0 +1,257 @@
+label:    sent_1
+sentence: We argue that two separate concepts of validation are often conflated in existing studies .
+
+ppatt:
+	?a argue ?b
+		?a: We
+		?b: SOMETHING := two separate concepts of validation are often conflated in existing studies
+	?a are often conflated in ?b
+		?a: two separate concepts of validation
+		?b: existing studies
+
+
+label:    sent_2
+sentence: We argue that neuronal populations evidence a collective nonlinear response to periodic sensory input .
+
+ppatt:
+	?a argue ?b
+		?a: We
+		?b: SOMETHING := neuronal populations evidence a collective nonlinear response to periodic sensory input
+	?a evidence ?b
+		?a: neuronal populations
+		?b: a collective nonlinear response to periodic sensory input
+
+
+label:    sent_3
+sentence: Bariatric surgery guidelines in need of revision , experts argue .
+
+ppatt:
+	?a ?b argue
+		?a: Bariatric surgery guidelines in need of revision
+		?b: experts
+
+
+label:    sent_4
+sentence: The inhibitory effects in spheroids argue for a physiological relevance of the antibody . Against this conception , we argue that children trust some informants more than others .
+
+ppatt:
+	?a argue for ?b
+		?a: The inhibitory effects in spheroids
+		?b: a physiological relevance of the antibody Against this conception
+	?a argue ?b
+		?a: we
+		?b: SOMETHING := children trust some informants more than others
+	?a trust ?b ?c
+		?a: children
+		?b: some informants
+		?c: more than others
+
+
+label:    sent_5
+sentence: The current data clearly argue against a common circuitry account for amodal duration processing . How to argue about health care .
+
+ppatt:
+	?a clearly argue ?b
+		?a: The current data
+		?b: SOMETHING := against a common circuitry account for amodal duration processing . How to argue about health care
+	?a against ?b account for ?c . How to argue about ?d
+		?a: The current data
+		?b: a common circuitry
+		?c: amodal duration processing
+		?d: health care
+
+
+label:    sent_6
+sentence: The addict couple often begins to argue over money and drugs . Yet there remain situations that argue for inclusion of more loci and increased discrimination .
+
+ppatt:
+	?a often begins to argue over ?b
+		?a: The addict couple
+		?b: money
+	?a often begins to argue over ?b
+		?a: The addict couple
+		?b: drugs
+	?a Yet there remain situations
+		?a: The addict couple
+	?a argue for ?b
+		?a: situations
+		?b: inclusion of more loci and increased discrimination
+
+
+label:    sent_7
+sentence: Several control experiments argue against , but do not entirely eliminate this possibility .
+
+ppatt:
+	?a argue ?b
+		?a: Several control experiments
+		?b: against
+	?a do not entirely eliminate ?b
+		?a: Several control experiments
+		?b: this possibility
+
+
+label:    sent_8
+sentence: These results argue for post-receptoral immaturities , but do not rule out receptoral immaturities .
+
+ppatt:
+	?a argue for ?b
+		?a: These results
+		?b: post-receptoral immaturities
+	?a do not rule ?b
+		?a: These results
+		?b: out receptoral immaturities
+
+
+label:    sent_9
+sentence: Bilaterality of lesions should argue against a neoplastic origin and support a hamartomatous origin .
+
+ppatt:
+	?a should argue against ?b
+		?a: Bilaterality of lesions
+		?b: a neoplastic origin
+	?a support ?b
+		?a: Bilaterality of lesions
+		?b: a hamartomatous origin
+
+
+label:    sent_10
+sentence: We argue and illustrate that Feldman 's analysis is incorrect .
+
+ppatt:
+	?a argue
+		?a: We
+	?a illustrate ?b
+		?a: We
+		?b: SOMETHING := Feldman 's analysis is incorrect
+	's ?a is incorrect
+		?a: Feldman analysis
+
+
+label:    sent_11
+sentence: We thus argue to approach errors and conflict from a broader perspective .
+
+ppatt:
+	?a thus argue to approach ?b from ?c
+		?a: We
+		?b: errors
+		?c: a broader perspective
+	?a thus argue to approach ?b from ?c
+		?a: We
+		?b: conflict
+		?c: a broader perspective
+
+
+label:    sent_12
+sentence: That is what we argue for here . Reformers , opponents argue cases as liability crisis gains momentum .
+
+ppatt:
+	?a ?b ?c argue for ?d
+		?a: That
+		?b: what
+		?c: we
+		?d: here . Reformers
+	?a argue ?b as ?c
+		?a: opponents
+		?b: cases
+		?c: liability crisis gains momentum
+
+
+label:    sent_13
+sentence: From these cases , the authors argue their treatment protocol .
+
+ppatt:
+	From ?a , ?b argue ?c
+		?a: these cases
+		?b: the authors
+		?c: their treatment protocol
+
+
+label:    sent_14
+sentence: Stakeholders value hospitals in different ways and argue for diverse accounts of legitimacy . Why not ?-how to argue for truthfulness in medical practice .
+
+ppatt:
+	?a value ?b in ?c
+		?a: Stakeholders
+		?b: hospitals
+		?c: different ways
+	?a argue for ?b Why ?c to argue for ?d
+		?a: Stakeholders
+		?b: diverse accounts of legitimacy
+		?c: not ?-how
+		?d: truthfulness in medical practice
+
+
+label:    sent_15
+sentence: These observations can be exploited and argue for the potential of rehabilitative approaches .
+
+ppatt:
+	?a can be exploited
+		?a: These observations
+	?a argue for ?b
+		?a: These observations
+		?b: the potential of rehabilitative approaches
+
+
+label:    sent_16
+sentence: Confessions : do n't argue .. . Two experts argue the points for and against .
+
+ppatt:
+	?a do n't argue ?b
+		?a: Confessions
+		?b: ..
+	?a argue ?b
+		?a: Two experts
+		?b: the points for and against
+	?a for
+		?a: the points
+	?a against
+		?a: the points
+
+
+label:    sent_17
+sentence: However , few would argue the need for statistics in the medical school curriculum .
+
+ppatt:
+	However , ?a would argue ?b
+		?a: few
+		?b: the need for statistics in the medical school curriculum
+
+
+label:    sent_18
+sentence: We review theory and research on emotional memory narrowing and argue that motivation matters .
+
+ppatt:
+	?a review ?b
+		?a: We
+		?b: theory on emotional memory narrowing
+	?a review ?b
+		?a: We
+		?b: research
+	?a argue ?b
+		?a: We
+		?b: motivation matters
+
+
+label:    sent_19
+sentence: Universal health coverage is not sufficient , argue the authors .
+
+ppatt:
+	?a is not sufficient
+		?a: Universal health coverage
+	?a argue ?b
+		?a: Universal health coverage
+		?b: the authors
+
+
+label:    sent_20
+sentence: But it does n't have to be that way , argue the authors .
+
+ppatt:
+	?a does n't have to be ?b
+		?a: it
+		?b: SOMETHING := way , argue the authors
+	?a argue ?b
+		?a: way
+		?b: the authors
+
+

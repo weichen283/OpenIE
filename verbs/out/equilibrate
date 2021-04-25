@@ -1,0 +1,168 @@
+label:    sent_1
+sentence: These samples were allowed to equilibrate in controlled humidity chambers at 25 degrees C .
+
+ppatt:
+	?a were allowed to equilibrate in ?b at ?c
+		?a: These samples
+		?b: controlled humidity chambers
+		?c: 25 degrees C
+
+
+label:    sent_2
+sentence: All the nonvolunteer group failed to equilibrate at 3 m H2O .
+
+ppatt:
+	?a failed to equilibrate at ?b
+		?a: All the nonvolunteer group
+		?b: 3 m H2O
+
+
+label:    sent_3
+sentence: These were allowed to equilibrate in the rectum for one hour . Such induced fluid-pressure gradients equilibrate via fluid-pressure diffusion causing wave energy to attenuate .
+
+ppatt:
+	?a were allowed to equilibrate in ?b for ?c
+		?a: These
+		?b: the rectum
+		?c: one hour
+	?a equilibrate via ?b
+		?a: Such induced fluid-pressure gradients
+		?b: fluid-pressure diffusion causing wave energy to attenuate
+	?a causing ?b to attenuate
+		?a: fluid-pressure diffusion
+		?b: wave energy
+
+
+label:    sent_4
+sentence: We equilibrate upon tau removal using steepest descent relaxation .
+
+ppatt:
+	?a equilibrate upon ?b using ?c
+		?a: We
+		?b: tau removal
+		?c: steepest descent relaxation
+
+
+label:    sent_5
+sentence: Phage P22 procapsids equilibrate with free coat protein subunits . CYCLEX-2E was found to equilibrate Na+ and Ca2+ gradients across phospholipid vesicle membranes .
+
+ppatt:
+	?a equilibrate with ?b
+		?a: Phage P22 procapsids
+		?b: free coat protein subunits
+	?a was found to equilibrate ?b across ?c
+		?a: CYCLEX-2E
+		?b: Na+
+		?c: phospholipid vesicle membranes
+	?a was found to equilibrate ?b across ?c
+		?a: CYCLEX-2E
+		?b: Ca2+
+		?c: phospholipid vesicle membranes
+	?a was found to equilibrate ?b across ?c
+		?a: CYCLEX-2E
+		?b: gradients
+		?c: phospholipid vesicle membranes
+
+
+label:    sent_6
+sentence: It must be bilateral to equilibrate the tensions on the pubic symphysis .
+
+ppatt:
+	?a must be bilateral to equilibrate ?b
+		?a: It
+		?b: the tensions on the pubic symphysis
+
+
+label:    sent_7
+sentence: Yellow grease was used to equilibrate fat content of diets .
+
+ppatt:
+	?a was used to equilibrate ?b
+		?a: Yellow grease
+		?b: fat content of diets
+
+
+label:    sent_8
+sentence: It is necessary to equilibrate occlusal contacts before all filling procedures .
+
+ppatt:
+	?a is necessary to equilibrate ?b before ?c
+		?a: It
+		?b: occlusal contacts
+		?c: all filling procedures
+
+
+label:    sent_9
+sentence: In no instance did the interstitial electrolyte concentration equilibrate with the intracellular electrolyte concentration .
+
+ppatt:
+	did ?a
+		?a: the interstitial electrolyte concentration
+	In ?a ?b equilibrate with ?c
+		?a: no instance
+		?b: the interstitial electrolyte concentration
+		?c: the intracellular electrolyte concentration
+
+
+label:    sent_10
+sentence: Do transvascular forces in isolated lobe preparations equilibrate ? Nearly degenerate wells equilibrate much more slowly than strongly asymmetric wells .
+
+ppatt:
+	?a ?b equilibrate
+		?a: SOMETHING := Do
+		?b: transvascular forces in isolated lobe preparations
+	?a equilibrate much more slowly than ?b
+		?a: Nearly degenerate wells
+		?b: strongly asymmetric wells
+
+
+label:    sent_11
+sentence: The kinetics are linear only when both fluxes equilibrate . According to physicochemical rules passive forces equilibrate ( dissipate ) ion gradients .
+
+ppatt:
+	?a are linear
+		?a: The kinetics
+	only when ?a equilibrate . According to ?b
+		?a: both fluxes
+		?b: physicochemical rules
+	?a equilibrate ?b
+		?a: passive forces
+		?b: ion gradients
+
+
+label:    sent_12
+sentence: Land plants equilibrate O2 and CO2 concentrations in the atmosphere .
+
+ppatt:
+	?a equilibrate ?b ?c in ?d
+		?a: Land plants
+		?b: O2
+		?c: concentrations
+		?d: the atmosphere
+	?a equilibrate ?b ?c in ?d
+		?a: Land plants
+		?b: CO2
+		?c: concentrations
+		?d: the atmosphere
+
+
+label:    sent_13
+sentence: In contrast , in stratified conditions copepods did not equilibrate their metabolic budget .
+
+ppatt:
+	In ?a , in ?b ?c did not equilibrate ?d
+		?a: contrast
+		?b: stratified conditions
+		?c: copepods
+		?d: their metabolic budget
+
+
+label:    sent_14
+sentence: Uninduced cells merely equilibrate mandelate .
+
+ppatt:
+	?a merely equilibrate ?b
+		?a: Uninduced cells
+		?b: mandelate
+
+

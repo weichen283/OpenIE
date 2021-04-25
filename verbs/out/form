@@ -1,0 +1,327 @@
+label:    sent_1
+sentence: CSII and RT-CGM can be combined to form closed-loop systems .
+
+ppatt:
+	?a can be combined to form ?b
+		?a: CSII
+		?b: closed-loop systems
+	?a can be combined to form ?b
+		?a: RT-CGM
+		?b: closed-loop systems
+
+
+label:    sent_2
+sentence: We have merged these definitions to form a structured taxonomy .
+
+ppatt:
+	?a have merged ?b to form ?c
+		?a: We
+		?b: these definitions
+		?c: a structured taxonomy
+
+
+label:    sent_3
+sentence: A second domain is predicted to form a zipper-like coiled-coil structure .
+
+ppatt:
+	?a is predicted to form ?b
+		?a: A second domain
+		?b: a zipper-like coiled-coil structure
+
+
+label:    sent_4
+sentence: Diet and exercise form the foundation of a healthy lifestyle .
+
+ppatt:
+	?a form ?b
+		?a: Diet
+		?b: the foundation of a healthy lifestyle
+	?a form ?b
+		?a: exercise
+		?b: the foundation of a healthy lifestyle
+
+
+label:    sent_5
+sentence: The drug , the vehicle and the application device form an undividable triad .
+
+ppatt:
+	?a is/are the vehicle
+		?a: The drug
+	?a is/are the vehicle
+		?a: the application device
+	?a form ?b
+		?a: The drug
+		?b: an undividable triad
+	?a form ?b
+		?a: the application device
+		?b: an undividable triad
+
+
+label:    sent_6
+sentence: Communities of microorganisms form thin coats across solid surfaces in the sea . Dendritic spines form postsynaptic contact sites in the central nervous system .
+
+ppatt:
+	?a form ?b
+		?a: Communities of microorganisms
+		?b: thin coats across solid surfaces in the sea
+	?a form ?b
+		?a: Dendritic spines
+		?b: postsynaptic contact sites in the central nervous system
+
+
+label:    sent_7
+sentence: The two CSpoIISA protomers form extensive interactions through an intermolecular four-helix bundle .
+
+ppatt:
+	?a form ?b through ?c
+		?a: The two CSpoIISA protomers
+		?b: extensive interactions
+		?c: an intermolecular four-helix bundle
+
+
+label:    sent_8
+sentence: This bolaamphiphile itself can form vesicles easily in aqueous solutions at 25 degreesC .
+
+ppatt:
+	?a can form ?b easily in ?c at ?d
+		?a: This bolaamphiphile itself
+		?b: vesicles
+		?c: aqueous solutions
+		?d: 25 degreesC
+
+
+label:    sent_9
+sentence: Hawkweeds in Hieracium subgenus Pilosella form mitotic embryo sacs by apospory .
+
+ppatt:
+	?a form ?b by ?c
+		?a: Hawkweeds in Hieracium subgenus Pilosella
+		?b: mitotic embryo sacs
+		?c: apospory
+
+
+label:    sent_10
+sentence: In contrast , A163-S1 form large disorganized structures with lack of polarity . Hydrosilylation provides a route to form substituted silanes in solution .
+
+ppatt:
+	In ?a , ?b form ?c with ?d
+		?a: contrast
+		?b: A163-S1
+		?c: large disorganized structures
+		?d: lack of polarity
+	?a provides ?b
+		?a: Hydrosilylation
+		?b: a route to form substituted silanes in solution
+	?a form ?b
+		?a: a route
+		?b: substituted silanes in solution
+
+
+label:    sent_11
+sentence: Cells were coccoid and stained Gram-positive , were non-motile and did not form endospores .
+
+ppatt:
+	?a were coccoid
+		?a: Cells
+	?a stained
+		?a: Cells
+	?a Gram-positive
+		?a: Cells
+	?a were non-motile
+		?a: Cells
+	?a did not form ?b
+		?a: Cells
+		?b: endospores
+
+
+label:    sent_12
+sentence: Bacteria can degrade naturally occurring glucosinolates in mustard and form isothiocyanates with antimicrobial activity .
+
+ppatt:
+	?a can degrade ?b in ?c
+		?a: Bacteria
+		?b: naturally occurring glucosinolates
+		?c: mustard
+	?a form ?b with ?c
+		?a: Bacteria
+		?b: isothiocyanates
+		?c: antimicrobial activity
+
+
+label:    sent_13
+sentence: Low molecular weight fragments lack internal structural domains and likely form macro-aggregates with Hp . Two traces form many hours after acquisition and coexist with long-term behavioral memory .
+
+ppatt:
+	?a lack ?b
+		?a: Low molecular weight fragments
+		?b: internal structural domains
+	?a likely form ?b
+		?a: Low molecular weight fragments
+		?b: macro-aggregates with Hp
+	?a form ?b
+		?a: Two traces
+		?b: many hours after acquisition
+	?a coexist with ?b
+		?a: Two traces
+		?b: long-term behavioral memory
+
+
+label:    sent_14
+sentence: Septins are conserved GTPases that form filaments and are required for cell division .
+
+ppatt:
+	?a are conserved GTPases
+		?a: Septins
+	?a form ?b
+		?a: conserved GTPases
+		?b: filaments
+	?a are required for ?b
+		?a: that
+		?b: cell division
+
+
+label:    sent_15
+sentence: We assume that the additive surfactants form micelles and stabilize latanoprost in this formulation .
+
+ppatt:
+	?a assume ?b
+		?a: We
+		?b: SOMETHING := the additive surfactants form micelles
+	?a form ?b
+		?a: the additive surfactants
+		?b: micelles
+	?a stabilize ?b in ?c
+		?a: the additive surfactants
+		?b: latanoprost
+		?c: this formulation
+
+
+label:    sent_16
+sentence: Bipolar cells in the vertebrate retina : from form to function .
+
+ppatt:
+	?a function
+		?a: form
+
+
+label:    sent_17
+sentence: Introduction . A high redox potential form of cytochrome c550 in photosystem II from Thermosynechococcus elongatus .
+
+ppatt:
+
+
+
+label:    sent_18
+sentence: Pyrogallolarenes are tetrameric macrocycles that form from 1,2,3-trihydroxybenzene and aldehydes under acidic conditions .
+
+ppatt:
+	?a are tetrameric macrocycles
+		?a: Pyrogallolarenes
+	?a form from ?b under ?c
+		?a: tetrameric macrocycles
+		?b: 1,2,3-trihydroxybenzene
+		?c: acidic conditions
+	?a form from ?b under ?c
+		?a: tetrameric macrocycles
+		?b: aldehydes
+		?c: acidic conditions
+
+
+label:    sent_19
+sentence: New spines form rapidly as animals learn new tasks or experience novel sensory stimulations . Cell/scaffold constructs form in situ when heated to 37 degreesC .
+
+ppatt:
+	?a form rapidly
+		?a: New spines
+	?a learn ?b
+		?a: animals
+		?b: new tasks
+	?a experience ?b
+		?a: animals
+		?b: novel sensory stimulations
+	?a form in situ
+		?a: Cell/scaffold constructs
+	?a when heated to ?b
+		?a: Cell/scaffold constructs
+		?b: 37 degreesC
+
+
+label:    sent_20
+sentence: Smile design and treatment planning with the help of a comprehensive esthetic evaluation form .
+
+ppatt:
+	?a planning with ?b
+		?a: Smile design
+		?b: the help of a comprehensive esthetic evaluation form
+	?a planning with ?b
+		?a: treatment
+		?b: the help of a comprehensive esthetic evaluation form
+
+
+label:    sent_21
+sentence: Hyphae tend to form at right angles at branching points that are usually constricted .
+
+ppatt:
+	?a tend to form at ?b at ?c
+		?a: Hyphae
+		?b: right angles
+		?c: branching points that are usually constricted
+	?a are usually constricted
+		?a: branching points
+
+
+label:    sent_22
+sentence: In addition , hydrates are more likely to form during most pharmaceutical processes .
+
+ppatt:
+	In ?a , ?b are more likely to form during ?c
+		?a: addition
+		?b: hydrates
+		?c: most pharmaceutical processes
+
+
+label:    sent_23
+sentence: Many multinucleated giant cells are well-known to form from macrophage origin .
+
+ppatt:
+	?a are well-known to form from ?b
+		?a: Many multinucleated giant cells
+		?b: macrophage origin
+
+
+label:    sent_24
+sentence: Pea aphids form melanotic capsules around Sephadex beads but do not form cellular capsules .
+
+ppatt:
+	?a form ?b around ?c
+		?a: Pea aphids
+		?b: melanotic capsules
+		?c: Sephadex beads
+	?a do not form ?b
+		?a: Pea aphids
+		?b: cellular capsules
+
+
+label:    sent_25
+sentence: STIs form a major problem in the Nairobi area and should be addressed accordingly .
+
+ppatt:
+	?a form ?b
+		?a: STIs
+		?b: a major problem in the Nairobi area
+	?a should be addressed accordingly
+		?a: STIs
+
+
+label:    sent_26
+sentence: After an extended third larval instar , they form puparia and die .
+
+ppatt:
+	After ?a , ?b form ?c
+		?a: an extended third larval instar
+		?b: they
+		?c: puparia
+	?a die
+		?a: they
+
+

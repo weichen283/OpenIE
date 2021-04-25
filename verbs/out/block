@@ -1,0 +1,292 @@
+label:    sent_1
+sentence: Thus , we hypothesize that specific peptides can be designed to block this effect .
+
+ppatt:
+	Thus , ?a hypothesize ?b
+		?a: we
+		?b: SOMETHING := specific peptides can be designed to block this effect
+	?a can be designed to block ?b
+		?a: specific peptides
+		?b: this effect
+
+
+label:    sent_2
+sentence: Inhibition of cellular DNA synthesis is a strategy to block cancer cell division .
+
+ppatt:
+	?a is a strategy
+		?a: Inhibition of cellular DNA synthesis
+	?a block ?b
+		?a: a strategy
+		?b: cancer cell division
+
+
+label:    sent_3
+sentence: The JNK inhibitor ( SP600125 ) was used to block the JNK pathway .
+
+ppatt:
+	?a is/are SP600125
+		?a: The JNK inhibitor
+	?a was used to block ?b
+		?a: The JNK inhibitor
+		?b: the JNK pathway
+
+
+label:    sent_4
+sentence: Parallel randomized trial with computer-generated block randomization and central allocation .
+
+ppatt:
+
+
+
+label:    sent_5
+sentence: Small molecule inhibitors that selectively block dengue virus methyltransferase .
+
+ppatt:
+	?a selectively block ?b
+		?a: Small molecule inhibitors
+		?b: dengue virus methyltransferase
+
+
+label:    sent_6
+sentence: Selective antagonists for either receptor block sustained EPSC potentiation produced by 522-054 .
+
+ppatt:
+	?a block ?b
+		?a: Selective antagonists for either receptor
+		?b: sustained EPSC potentiation produced by 522-054
+	?a produced by ?b
+		?a: sustained EPSC potentiation
+		?b: 522-054
+
+
+label:    sent_7
+sentence: Ion channel inhibitors block caspase activation by mechanisms other than restoring intracellular potassium concentration .
+
+ppatt:
+	?a block ?b by ?c
+		?a: Ion channel inhibitors
+		?b: caspase activation
+		?c: mechanisms other
+	?a restoring ?b
+		?a: Ion channel inhibitors
+		?b: intracellular potassium concentration
+
+
+label:    sent_8
+sentence: Microbial production of polyhydroxyalkanoate block copolymer by recombinant Pseudomonas putida . Planar block copolymer membranes by vesicle spreading .
+
+ppatt:
+	?a block ?b by ?c ?d by ?e
+		?a: Microbial production of polyhydroxyalkanoate
+		?b: copolymer
+		?c: recombinant Pseudomonas putida
+		?d: Planar block copolymer membranes
+		?e: vesicle spreading
+
+
+label:    sent_9
+sentence: In contrast , ADX61623 did not block estrogen production .
+
+ppatt:
+	In ?a , ?b did not block ?c
+		?a: contrast
+		?b: ADX61623
+		?c: estrogen production
+
+
+label:    sent_10
+sentence: Phenylalkylamines block Kv1.3 channels by poorly understood mechanisms .
+
+ppatt:
+	?a block ?b by ?c
+		?a: Phenylalkylamines
+		?b: Kv1.3 channels
+		?c: poorly understood mechanisms
+
+
+label:    sent_11
+sentence: [Sub-tenon block for ocular globe anesthesia : a review ] . HA oligomers can block this mechanism and are promising inhibitors of ovarian cancer dissemination .
+
+ppatt:
+
+
+
+label:    sent_12
+sentence: Effects of composition , block length and block architecture . DCC did not block , protonophores and arsenate blocked the operation of Trk system .
+
+ppatt:
+	?a did not block
+		?a: Effects of composition , block length and block architecture . DCC
+	?a blocked ?b
+		?a: protonophores
+		?b: the operation of Trk system
+	?a blocked ?b
+		?a: arsenate
+		?b: the operation of Trk system
+
+
+label:    sent_13
+sentence: Ultralow-dose opioid antagonists prolong opioid antinociception and block tolerance .
+
+ppatt:
+	?a prolong ?b
+		?a: Ultralow-dose opioid antagonists
+		?b: opioid antinociception
+	?a block ?b
+		?a: Ultralow-dose opioid antagonists
+		?b: tolerance
+
+
+label:    sent_14
+sentence: Iontophoretically applied buspirone did not potentiate nor block the effects of iontophoretically applied GABA .
+
+ppatt:
+	?a did not potentiate ?b
+		?a: Iontophoretically applied buspirone
+		?b: the effects of iontophoretically applied GABA
+	?a block
+		?a: Iontophoretically applied buspirone
+
+
+label:    sent_15
+sentence: Prediction of Wenckebach behavior and block response in DDD pacemakers .
+
+ppatt:
+
+
+
+label:    sent_16
+sentence: Prospective evaluation of laparoscopic celiac plexus block in patients with unresectable pancreatic adenocarcinoma .
+
+ppatt:
+
+
+
+label:    sent_17
+sentence: Mitral isthmus block in a case of persistent left superior vena cava . Atrioventricular block in an infant with an atrioventricular septal aneurysm .
+
+ppatt:
+
+
+
+label:    sent_18
+sentence: Meta-analyses of ultrasound-guided versus traditional peripheral nerve block techniques -- are we comparing apples and oranges ? Patient perceptions of caring and association with emergency department activity and access block .
+
+ppatt:
+	?a are ?b comparing ?c
+		?a: Meta-analyses of ultrasound-guided versus traditional peripheral nerve block techniques
+		?b: we
+		?c: apples
+	?a are ?b comparing ?c
+		?a: Meta-analyses of ultrasound-guided versus traditional peripheral nerve block techniques
+		?b: we
+		?c: oranges
+	?a are ?b comparing ?c
+		?a: Meta-analyses of ultrasound-guided versus traditional peripheral nerve block techniques
+		?b: we
+		?c: Patient perceptions of caring
+	?a are ?b comparing ?c
+		?a: Meta-analyses of ultrasound-guided versus traditional peripheral nerve block techniques
+		?b: we
+		?c: association with emergency department activity and access block
+
+
+label:    sent_19
+sentence: Anatomy and clinical implications of the ultrasound-guided subsartorial saphenous nerve block . Ca2+ and L-cis-diltiazem block both conductances at comparable concentrations and with similar quantitative characteristics .
+
+ppatt:
+	?a ?b block ?c at ?d
+		?a: Anatomy of the ultrasound-guided subsartorial saphenous nerve block
+		?b: Ca2+
+		?c: both conductances
+		?d: comparable concentrations
+	?a ?b block ?c at ?d
+		?a: clinical implications
+		?b: Ca2+
+		?c: both conductances
+		?d: comparable concentrations
+	?a ?b block ?c at ?d
+		?a: Anatomy of the ultrasound-guided subsartorial saphenous nerve block
+		?b: L-cis-diltiazem
+		?c: both conductances
+		?d: comparable concentrations
+	?a ?b block ?c at ?d
+		?a: clinical implications
+		?b: L-cis-diltiazem
+		?c: both conductances
+		?d: comparable concentrations
+	?a ?b block ?c at ?d
+		?a: Anatomy of the ultrasound-guided subsartorial saphenous nerve block
+		?b: Ca2+
+		?c: both conductances
+		?d: similar quantitative characteristics
+	?a ?b block ?c at ?d
+		?a: clinical implications
+		?b: Ca2+
+		?c: both conductances
+		?d: similar quantitative characteristics
+	?a ?b block ?c at ?d
+		?a: Anatomy of the ultrasound-guided subsartorial saphenous nerve block
+		?b: L-cis-diltiazem
+		?c: both conductances
+		?d: similar quantitative characteristics
+	?a ?b block ?c at ?d
+		?a: clinical implications
+		?b: L-cis-diltiazem
+		?c: both conductances
+		?d: similar quantitative characteristics
+
+
+label:    sent_20
+sentence: In summary , sunitinib could block signaling transduction and mediate degradation of IGF-1R .
+
+ppatt:
+	In ?a , ?b could block ?c
+		?a: summary
+		?b: sunitinib
+		?c: signaling transduction
+	?a mediate ?b
+		?a: sunitinib
+		?b: degradation of IGF-1R
+
+
+label:    sent_21
+sentence: Atropine did not block this effect , but given alone prolonged duration of anesthesia .
+
+ppatt:
+	?a did not block ?b
+		?a: Atropine
+		?b: this effect
+	?a given ?b
+		?a: Atropine
+		?b: alone prolonged duration of anesthesia
+
+
+label:    sent_22
+sentence: Spermine and other endogenous polyamines potentiate , block and permeate the N-methyl-D-aspartate receptor channel .
+
+ppatt:
+	?a potentiate
+		?a: Spermine
+	?a potentiate
+		?a: other endogenous polyamines
+	?a block
+		?a: Spermine
+	?a block
+		?a: other endogenous polyamines
+	?a permeate ?b
+		?a: Spermine
+		?b: the N-methyl-D-aspartate receptor channel
+	?a permeate ?b
+		?a: other endogenous polyamines
+		?b: the N-methyl-D-aspartate receptor channel
+
+
+label:    sent_23
+sentence: Addendum to " How to block and tackle the face " . The tobacco industry uses preemption to block or reverse tobacco control policies .
+
+ppatt:
+
+
+

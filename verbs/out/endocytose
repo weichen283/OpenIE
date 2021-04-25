@@ -1,0 +1,206 @@
+label:    sent_1
+sentence: Whether podocytes are able to endocytose proteins is uncertain .
+
+ppatt:
+	?a are able to endocytose ?b
+		?a: podocytes
+		?b: proteins
+
+
+label:    sent_2
+sentence: Platelets are known to endocytose plasma proteins including immunoglobulins .
+
+ppatt:
+	?a are known to endocytose ?b
+		?a: Platelets
+		?b: plasma proteins including immunoglobulins
+
+
+label:    sent_3
+sentence: Ovarian cancer cells expressing caveolin-1 were more likely to endocytose these nanoparticles .
+
+ppatt:
+	?a expressing ?b
+		?a: Ovarian cancer cells
+		?b: caveolin-1
+	?a were more likely to endocytose ?b
+		?a: Ovarian cancer cells expressing caveolin-1
+		?b: these nanoparticles
+
+
+label:    sent_4
+sentence: Liver sinusoidal endothelial cells that endocytose allogeneic cells suppress T cells with indirect allospecificity . Epstein-Barr virus-transformed human B lymphocytes endocytose autologous and heterologous red blood cells .
+
+ppatt:
+	?a endocytose ?b
+		?a: Liver sinusoidal endothelial cells
+		?b: allogeneic cells
+	?a suppress ?b with ?c ?d
+		?a: Liver sinusoidal endothelial cells that endocytose allogeneic cells
+		?b: T cells
+		?c: indirect allospecificity
+		?d: Epstein-Barr virus-transformed human B lymphocytes endocytose autologous and heterologous red blood cells
+
+
+label:    sent_5
+sentence: Intraerythrocytic Plasmodium falciparum parasites can endocytose dextrans , protein A and an IgG2a antibody .
+
+ppatt:
+	?a can endocytose ?b
+		?a: Intraerythrocytic Plasmodium falciparum parasites
+		?b: dextrans
+	?a can endocytose ?b
+		?a: Intraerythrocytic Plasmodium falciparum parasites
+		?b: protein A
+	?a can endocytose ?b
+		?a: Intraerythrocytic Plasmodium falciparum parasites
+		?b: an IgG2a antibody
+
+
+label:    sent_6
+sentence: This suggests that these cell types endocytose the enzyme via different receptors .
+
+ppatt:
+	?a suggests ?b
+		?a: This
+		?b: SOMETHING := these cell types endocytose the enzyme via different receptors
+	?a endocytose ?b via ?c
+		?a: these cell types
+		?b: the enzyme
+		?c: different receptors
+
+
+label:    sent_7
+sentence: Cell culture studies suggest that osteoblasts endocytose osteoclastic TRAP for inactivation . HSCs and LX2 cells endocytose collagens in a concentration- and time-dependent manner .
+
+ppatt:
+	?a suggest ?b
+		?a: Cell culture studies
+		?b: SOMETHING := osteoblasts endocytose osteoclastic TRAP for inactivation
+	?a endocytose ?b for ?c
+		?a: osteoblasts
+		?b: osteoclastic TRAP
+		?c: inactivation
+	?a endocytose ?b in ?c
+		?a: HSCs
+		?b: collagens
+		?c: a concentration- and time-dependent manner
+	?a endocytose ?b in ?c
+		?a: LX2 cells
+		?b: collagens
+		?c: a concentration- and time-dependent manner
+
+
+label:    sent_8
+sentence: Macrophages avidly endocytose in-vitro oxidized LDL and accumulate sterols .
+
+ppatt:
+	?a avidly endocytose ?b
+		?a: Macrophages
+		?b: in-vitro oxidized LDL
+	?a accumulate ?b
+		?a: Macrophages
+		?b: sterols
+
+
+label:    sent_9
+sentence: We conclude that podocytes are able to endocytose protein in a statin-sensitive manner .
+
+ppatt:
+	?a conclude ?b
+		?a: We
+		?b: SOMETHING := podocytes are able to endocytose protein in a statin-sensitive manner
+	?a are able to endocytose ?b in ?c
+		?a: podocytes
+		?b: protein
+		?c: a statin-sensitive manner
+
+
+label:    sent_10
+sentence: These macrophages were able to endocytose beta-glucuronidase and phagocytose yeast particles via mannose receptors .
+
+ppatt:
+	?a were able to endocytose ?b
+		?a: These macrophages
+		?b: beta-glucuronidase
+	?a were able to phagocytose ?b via ?c
+		?a: These macrophages
+		?b: yeast particles
+		?c: mannose receptors
+
+
+label:    sent_11
+sentence: Olfactory ensheathing cells are attracted to , and can endocytose , bacteria .
+
+ppatt:
+	?a are attracted ?b
+		?a: Olfactory ensheathing cells
+		?b: to
+	?a can endocytose ?b
+		?a: Olfactory ensheathing cells
+		?b: bacteria
+
+
+label:    sent_12
+sentence: Microglia in the neurohypophysis associate with and endocytose terminal portions of neurosecretory neurons . All 315-HARE cell lines could endocytose and degrade 125I-HA .
+
+ppatt:
+	?a associate ?b
+		?a: Microglia in the neurohypophysis
+		?b: with and endocytose terminal portions of neurosecretory neurons
+	?a could endocytose ?b
+		?a: All 315-HARE cell lines
+		?b: 125I-HA
+	?a degrade
+		?a: All 315-HARE cell lines
+
+
+label:    sent_13
+sentence: Fibroblasts endocytose and degrade transthyretin aggregates in transthyretin-related amyloidosis .
+
+ppatt:
+	?a endocytose ?b
+		?a: Fibroblasts
+		?b: transthyretin aggregates in transthyretin-related amyloidosis
+	?a degrade
+		?a: Fibroblasts
+
+
+label:    sent_14
+sentence: These results show that isolated EGCs can endocytose and degrade heterologous proteins .
+
+ppatt:
+	?a show ?b
+		?a: These results
+		?b: SOMETHING := that isolated EGCs can endocytose heterologous proteins
+	?a can endocytose ?b
+		?a: isolated EGCs
+		?b: heterologous proteins
+	?a degrade
+		?a: isolated EGCs
+
+
+label:    sent_15
+sentence: Immunofluorescence experiments indicate that they also endocytose into transferrin-positive compartments .
+
+ppatt:
+	?a indicate ?b
+		?a: Immunofluorescence experiments
+		?b: SOMETHING := they also endocytose into transferrin-positive compartments
+	?a also endocytose into ?b
+		?a: they
+		?b: transferrin-positive compartments
+
+
+label:    sent_16
+sentence: Ingressing mesenchyme cells rapidly endocytose apextrin upon leaving the vegetal plate .
+
+ppatt:
+	?a rapidly endocytose ?b
+		?a: Ingressing mesenchyme cells
+		?b: apextrin
+	?a leaving ?b
+		?a: Ingressing mesenchyme cells
+		?b: the vegetal plate
+
+

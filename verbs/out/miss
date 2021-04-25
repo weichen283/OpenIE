@@ -1,0 +1,251 @@
+label:    sent_1
+sentence: Staff miss danger signs . All classifications can miss patients with definite AKI .
+
+ppatt:
+	?a miss ?b
+		?a: Staff
+		?b: danger signs
+	?a can miss ?b
+		?a: All classifications
+		?b: patients with definite AKI
+
+
+label:    sent_2
+sentence: Osteoporosis guidelines miss big picture .
+
+ppatt:
+	?a miss ?b
+		?a: Osteoporosis guidelines
+		?b: big picture
+
+
+label:    sent_3
+sentence: Such errors will also displace the field to miss the target periphery .
+
+ppatt:
+	?a will also displace ?b to miss ?c
+		?a: Such errors
+		?b: the field
+		?c: the target periphery
+
+
+label:    sent_4
+sentence: Screening series identify most cases of acrylate allergy but miss a substantial number .
+
+ppatt:
+	?a identify ?b
+		?a: Screening series
+		?b: most cases of acrylate allergy
+	?a miss ?b
+		?a: Screening series
+		?b: a substantial number
+
+
+label:    sent_5
+sentence: Therefore , ZFN-Site does not miss potential off-target sites .
+
+ppatt:
+	Therefore , ?a does not miss ?b
+		?a: ZFN-Site
+		?b: potential off-target sites
+
+
+label:    sent_6
+sentence: Conventional molecular diagnosis is highly reliable for point mutations but can miss gross rearrangements .
+
+ppatt:
+	?a is highly reliable for ?b
+		?a: Conventional molecular diagnosis
+		?b: point mutations
+	?a can miss ?b
+		?a: Conventional molecular diagnosis
+		?b: gross rearrangements
+
+
+label:    sent_7
+sentence: Staff-model HMOs : do n't blink or you 'll miss them ! Personal interaction can get lost and nurses sometimes miss humorous attempts made by patients .
+
+ppatt:
+	do ?a 'll miss ?b ! ?c
+		?a: you
+		?b: them
+		?c: Personal interaction
+	?a sometimes miss ?b
+		?a: nurses
+		?b: humorous attempts made by patients
+	?a made by ?b
+		?a: humorous attempts
+		?b: patients
+
+
+label:    sent_8
+sentence: Out of all responders , 34 % did not miss having regular follow-up visits .
+
+ppatt:
+	Out of ?a , ?b did not miss having ?c
+		?a: all responders
+		?b: 34 %
+		?c: regular follow-up visits
+
+
+label:    sent_9
+sentence: RCTs may miss clinically important benefits because of inadequate attention to sample size .
+
+ppatt:
+	?a may miss ?b because of ?c
+		?a: RCTs
+		?b: clinically important benefits
+		?c: inadequate attention to sample size
+
+
+label:    sent_10
+sentence: As a result , many high-risk patients miss some suitable interventions .
+
+ppatt:
+	As ?a , ?b miss ?c
+		?a: a result
+		?b: many high-risk patients
+		?c: some suitable interventions
+
+
+label:    sent_11
+sentence: However , many patients miss sperm banking , and consequently are often sterile .
+
+ppatt:
+	However , ?a miss ?b
+		?a: many patients
+		?b: sperm banking
+
+
+label:    sent_12
+sentence: Child mortality is falling but some developing regions will miss millennium targets .
+
+ppatt:
+	?a is falling
+		?a: Child mortality
+	?a will miss ?b
+		?a: some developing regions
+		?b: millennium targets
+
+
+label:    sent_13
+sentence: The plan would miss one calf thrombus and result in treating three patients unnecessarily . In real-life practice DMD-treated patients miss 30 % of doses . Would you miss these clues to a vitamin C deficiency ? Routine post-operative serum calcium is advocated so as not to miss latent hypoparathyroidism .
+
+ppatt:
+	?a would miss ?b
+		?a: The plan
+		?b: one calf thrombus
+	?a result
+		?a: The plan
+	?a treating ?b unnecessarily
+		?a: The plan
+		?b: three patients
+	?a miss ?b
+		?a: In real-life practice DMD-treated patients
+		?b: 30 % of doses
+	?a Would you miss ?b to ?c
+		?a: In real-life practice DMD-treated patients
+		?b: these clues
+		?c: a vitamin C deficiency
+	?a is advocated so as not to miss ?b
+		?a: Routine post-operative serum calcium
+		?b: latent hypoparathyroidism
+
+
+label:    sent_14
+sentence: Providers should not miss opportunities to deliver evidence-based SRH to sexually active adolescents .
+
+ppatt:
+	?a should not miss ?b
+		?a: Providers
+		?b: opportunities to deliver evidence-based SRH to sexually active adolescents
+	?a deliver ?b to ?c
+		?a: opportunities
+		?b: evidence-based SRH
+		?c: sexually active adolescents
+
+
+label:    sent_15
+sentence: Will doctors miss out again ? Silent gastro-oesophageal reflux : how much do we miss ? Current screening methods miss up to 18 % of newborns with severe hip dysplasia .
+
+ppatt:
+	Will ?a miss again ?b
+		?a: doctors
+		?b: Silent gastro-oesophageal reflux
+	how much do ?a miss
+		?a: we
+	?a miss ?b
+		?a: Current screening methods
+		?b: up 18 % of newborns with severe hip dysplasia
+
+
+label:    sent_16
+sentence: Nurse researchers miss out on funds . Routine scaphoid x-rays miss over 20 % of all scaphoid fractures .
+
+ppatt:
+	?a miss out on ?b
+		?a: Nurse researchers
+		?b: funds
+	?a miss over ?b
+		?a: Routine scaphoid x-rays
+		?b: 20 % of all scaphoid fractures
+
+
+label:    sent_17
+sentence: Little is known about which patients miss appointments or why they do so . As to the future trophocytes , they miss zygotene and reach directly diakinesis .
+
+ppatt:
+	?a is known ?b
+		?a: Little
+		?b: SOMETHING := about which patients miss appointments
+	about ?a ?b miss ?c
+		?a: which
+		?b: patients
+		?c: appointments
+	why ?a do so As to ?b
+		?a: they
+		?b: the future trophocytes
+	?a miss ?b
+		?a: they
+		?b: zygotene
+	?a reach ?b
+		?a: they
+		?b: directly diakinesis
+
+
+label:    sent_18
+sentence: Which Chinese men who have sex with men miss out on HIV testing ?
+
+ppatt:
+	?a have ?b with ?c
+		?a: Chinese men
+		?b: sex
+		?c: men
+	?a ?b miss out on ?c
+		?a: Which
+		?b: Chinese men who have sex with men
+		?c: HIV testing
+
+
+label:    sent_19
+sentence: This bias is understandable because one does not want to miss out malnourished children .
+
+ppatt:
+	?a is understandable
+		?a: This bias
+	?a does not want to miss ?b
+		?a: one
+		?b: out malnourished children
+
+
+label:    sent_20
+sentence: CDS are under-diagnosed because easy to miss in standard diagnostic workup .
+
+ppatt:
+	?a are under-diagnosed
+		?a: CDS
+	?a easy to miss in ?b
+		?a: CDS
+		?b: standard diagnostic workup
+
+

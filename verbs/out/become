@@ -1,0 +1,228 @@
+label:    sent_1
+sentence: What will become of the general surgeon ? Straightforward assay development using MS has become commonplace in most modern pharmaceutical laboratories .
+
+ppatt:
+	?a will become of ?b
+		?a: What
+		?b: the general surgeon
+	?a using ?b
+		?a: Straightforward assay development
+		?b: MS
+	?a has become commonplace in ?b
+		?a: Straightforward assay development using MS
+		?b: most modern pharmaceutical laboratories
+
+
+label:    sent_2
+sentence: Besides histological and immunohistochemical analyses , molecular information has become of great importance .
+
+ppatt:
+	Besides ?a , ?b has become of ?c
+		?a: histological and immunohistochemical analyses
+		?b: molecular information
+		?c: great importance
+
+
+label:    sent_3
+sentence: The more science advances the more blurred the boundaries become .
+
+ppatt:
+	?a become
+		?a: The more science advances the more blurred the boundaries
+
+
+label:    sent_4
+sentence: Foreword : bariatric surgery has now become commonplace .
+
+ppatt:
+
+
+
+label:    sent_5
+sentence: How European has " Ultrasound in Medicine " become ? [Incest .
+
+ppatt:
+	How ?a has ?b in ?c
+		?a: European
+		?b: " Ultrasound
+		?c: Medicine "
+
+
+label:    sent_6
+sentence: We must become better with treating incest victims ] . Ethiology and prognosis thus become of major interest .
+
+ppatt:
+	?a must become better with ?b
+		?a: We
+		?b: treating incest victims
+	?a thus become of ?b
+		?a: Ethiology
+		?b: major interest
+	?a thus become of ?b
+		?a: prognosis
+		?b: major interest
+
+
+label:    sent_7
+sentence: The sick poor-what is to become of them ? Obamacare will become like Medicare , and ' everybody will want it ' . In the musculoskeletal system it may become and appropriate alternative to arthroscopy .
+
+ppatt:
+	?a is to become of ?b
+		?a: The sick poor-what
+		?b: them
+	?a will become like ?b
+		?a: Obamacare
+		?b: Medicare
+	?a will want ?b ' In ?c
+		?a: everybody
+		?b: it
+		?c: the musculoskeletal system
+	?a may become
+		?a: it
+
+
+label:    sent_8
+sentence: This raises policy-relevant questions about why people become and remain CHWs .
+
+ppatt:
+	?a raises ?b
+		?a: This
+		?b: policy-relevant questions about why people become and remain CHWs
+	?a why ?b become
+		?a: policy-relevant questions
+		?b: people
+	?a remain CHWs
+		?a: people
+
+
+label:    sent_9
+sentence: How destructiveness has become , and remains , so terrifying is discussed .
+
+ppatt:
+	How ?a has become
+		?a: destructiveness
+	?a remains
+		?a: destructiveness
+
+
+label:    sent_10
+sentence: Some of the granules contained lighter material and others had become vacuoles .
+
+ppatt:
+	?a contained ?b
+		?a: Some of the granules
+		?b: lighter material
+	?a had become vacuoles
+		?a: others
+
+
+label:    sent_11
+sentence: Their use has become commonplace , and the numbers implanted increase annually . [Focus on unfollowed pregnancies : history , maternal-fetal outcome and become ] . Ten patients could not be traced and have possibly become homeless .
+
+ppatt:
+	?a has become commonplace
+		?a: Their use
+	?a implanted
+		?a: the numbers
+	?a increase annually ?b on ?c
+		?a: the numbers implanted
+		?b: [Focus
+		?c: unfollowed pregnancies
+	?a become
+		?a: the numbers implanted
+	?a could not be traced
+		?a: ] . Ten patients
+	?a have possibly become homeless
+		?a: ] . Ten patients
+
+
+label:    sent_12
+sentence: Endothelial cell plasticity : how to become and remain a lymphatic endothelial cell .
+
+ppatt:
+	?a how to become
+		?a: Endothelial cell plasticity
+
+
+label:    sent_13
+sentence: Chemicals generally degrade over time and become of less concern as a health threat .
+
+ppatt:
+	?a generally degrade over ?b
+		?a: Chemicals
+		?b: time
+	?a become of ?b as ?c
+		?a: Chemicals
+		?b: less concern
+		?c: a health threat
+
+
+label:    sent_14
+sentence: Good reindeer mothers live longer and become better in raising offspring .
+
+ppatt:
+	?a live ?b
+		?a: Good reindeer mothers
+		?b: longer
+	?a become better
+		?a: Good reindeer mothers
+	?a raising ?b
+		?a: Good reindeer mothers
+		?b: offspring
+
+
+label:    sent_15
+sentence: The mean age at admission was 2.7 years and had become older over time .
+
+ppatt:
+	?a was 2.7 years
+		?a: The mean age at admission
+	?a had become older over ?b
+		?a: The mean age at admission
+		?b: time
+
+
+label:    sent_16
+sentence: What do HIV-infected patients become after an opportunistic infection ? NJ internists ask : What 's become of ' benign neglect ' ? What 's become of the problem-oriented record ? Too limited a view of what clinical anesthesiology could become .
+
+ppatt:
+	?a become after ?b
+		?a: What
+		?b: an opportunistic infection
+	?a ask
+		?a: NJ internists
+	?a become of ?b
+		?a: What
+		?b: benign neglect
+	?a become of ?b
+		?a: What
+		?b: the problem-oriented record
+	?a Too limited ?b
+		?a: What
+		?b: a view of what clinical anesthesiology could become
+	?a of ?b ?c could become
+		?a: a view
+		?b: what
+		?c: clinical anesthesiology
+
+
+label:    sent_17
+sentence: What will human beings become ? What could PAs become if they answer the call to leadership ? [ Second part of the story : What will Turkey 's situation become ? ] .
+
+ppatt:
+	?a will ?b become ?c
+		?a: What
+		?b: human beings
+		?c: SOMETHING := What could PAs become if they answer the call to leadership ? [ Second part of the story
+	?a could ?b become
+		?a: What
+		?b: PAs
+	?a answer ?b ?c
+		?a: they
+		?b: the call to leadership
+		?c: [ Second part of the story
+	?a will ?b become ? ]
+		?a: What
+		?b: Turkey 's situation
+
+

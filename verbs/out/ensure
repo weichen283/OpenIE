@@ -1,0 +1,325 @@
+label:    sent_1
+sentence: To ensure the needed realism , the simulations must be performed with deformable bodies .
+
+ppatt:
+	ensure ?a ?b
+		?a: the needed realism
+		?b: the simulations
+	?a must be performed with ?b
+		?a: the simulations
+		?b: deformable bodies
+
+
+label:    sent_2
+sentence: Findings were triangulated to ensure the reliability and trustworthiness of findings .
+
+ppatt:
+	?a were triangulated to ensure ?b
+		?a: Findings
+		?b: the reliability of findings
+	?a were triangulated to ensure ?b
+		?a: Findings
+		?b: trustworthiness
+
+
+label:    sent_3
+sentence: Working within a multidisciplinary team is basic to ensure the success of the RT .
+
+ppatt:
+	?a is basic to ensure ?b
+		?a: Working within a multidisciplinary team
+		?b: the success of the RT
+
+
+label:    sent_4
+sentence: Primary care can take steps to ensure respect .
+
+ppatt:
+	?a can take ?b to ensure ?c
+		?a: Primary care
+		?b: steps
+		?c: respect
+
+
+label:    sent_5
+sentence: Setting sample size to ensure narrow confidence intervals for precise estimation of population values .
+
+ppatt:
+	?a ensure ?b for ?c
+		?a: Setting sample size
+		?b: narrow confidence intervals
+		?c: precise estimation of population values
+
+
+label:    sent_6
+sentence: Awareness of this abnormality will ensure its prompt recognition and optimal management .
+
+ppatt:
+	?a will ensure ?b
+		?a: Awareness of this abnormality
+		?b: its prompt recognition
+	?a will ensure ?b
+		?a: Awareness of this abnormality
+		?b: optimal management
+
+
+label:    sent_7
+sentence: Macrodissection was carried out to ensure more than 80 % carcinoma in the sample .
+
+ppatt:
+	?a was carried out to ensure ?b
+		?a: Macrodissection
+		?b: more than 80 % carcinoma in the sample
+
+
+label:    sent_8
+sentence: Maintaining good hemostasis is vital to ensure clear vision during arthroscopic surgery .
+
+ppatt:
+	Maintaining ?a
+		?a: good hemostasis
+	?a is vital to ensure ?b during ?c
+		?a: SOMETHING := Maintaining good hemostasis
+		?b: clear vision
+		?c: arthroscopic surgery
+
+
+label:    sent_9
+sentence: Uniformity testing is performed daily to ensure adequate camera performance before clinical use .
+
+ppatt:
+	?a is performed daily to ensure ?b before ?c
+		?a: Uniformity testing
+		?b: adequate camera performance
+		?c: clinical use
+
+
+label:    sent_10
+sentence: To ensure efficacy and prevent toxicity , therapeutic drug monitoring is highly recommended .
+
+ppatt:
+	ensure ?a ?b
+		?a: efficacy
+		?b: therapeutic drug monitoring
+	ensure ?a ?b
+		?a: prevent toxicity
+		?b: therapeutic drug monitoring
+	prevent ?a
+		?a: toxicity
+	?a is highly recommended
+		?a: therapeutic drug monitoring
+
+
+label:    sent_11
+sentence: Proper metabolic support is essential to restore homeostasis and ensure survival . New strategies need to take this into account and ensure patient adherence .
+
+ppatt:
+	?a is essential to restore ?b
+		?a: Proper metabolic support
+		?b: homeostasis
+	?a is essential to ensure ?b
+		?a: Proper metabolic support
+		?b: survival
+	?a need to take ?b
+		?a: New strategies
+		?b: this
+	?a account
+		?a: New strategies
+	?a ensure ?b
+		?a: New strategies
+		?b: patient adherence
+
+
+label:    sent_12
+sentence: They must ensure that their own knowledge and clinical practice are up to date .
+
+ppatt:
+	?a must ensure up to ?b
+		?a: They
+		?b: SOMETHING := their own knowledge and clinical practice are date
+	?a are up to date
+		?a: their own knowledge
+	?a are up to date
+		?a: clinical practice
+
+
+label:    sent_13
+sentence: This can ensure patients have adequate fluid and diet intake . Doctors should ensure that intentional changes to patient prescriptions are clearly documented .
+
+ppatt:
+	?a can ensure
+		?a: This
+	?a have ?b
+		?a: patients
+		?b: adequate fluid
+	?a have ?b
+		?a: patients
+		?b: diet intake
+	?a should ensure ?b
+		?a: Doctors
+		?b: SOMETHING := intentional changes to patient prescriptions are clearly documented
+	?a are clearly documented
+		?a: intentional changes to patient prescriptions
+
+
+label:    sent_14
+sentence: The relatively small IP values ensure effective hole injection from the source electrode .
+
+ppatt:
+	?a ensure ?b
+		?a: The relatively small IP values
+		?b: effective hole injection from the source electrode
+
+
+label:    sent_15
+sentence: We discuss implications of these findings for mechanisms that ensure crossover formation during meiosis .
+
+ppatt:
+	?a discuss ?b
+		?a: We
+		?b: implications of these findings for mechanisms that ensure crossover formation during meiosis
+	?a ensure ?b during ?c
+		?a: mechanisms
+		?b: crossover formation
+		?c: meiosis
+
+
+label:    sent_16
+sentence: LOVD contains measures to ensure database security from unauthorized access .
+
+ppatt:
+	?a contains ?b to ensure ?c
+		?a: LOVD
+		?b: measures
+		?c: database security from unauthorized access
+
+
+label:    sent_17
+sentence: Coordination and central documentation ensure quality of treatment and permit clinical and scientific investigations .
+
+ppatt:
+	?a ensure ?b
+		?a: Coordination
+		?b: quality of treatment
+	?a ensure ?b
+		?a: central documentation
+		?b: quality of treatment
+	?a permit ?b
+		?a: Coordination
+		?b: clinical and scientific investigations
+	?a permit ?b
+		?a: central documentation
+		?b: clinical and scientific investigations
+
+
+label:    sent_18
+sentence: Such uniformity in data collection will ensure comparability across studies and facilitate future research .
+
+ppatt:
+	?a will ensure ?b
+		?a: Such uniformity in data collection
+		?b: comparability across studies
+	?a facilitate ?b
+		?a: Such uniformity in data collection
+		?b: future research
+
+
+label:    sent_19
+sentence: These improvements ensure excision of the proper amount of tissue and reduce intraoperative trauma .
+
+ppatt:
+	?a ensure ?b
+		?a: These improvements
+		?b: excision of the proper amount of tissue
+	?a reduce ?b
+		?a: These improvements
+		?b: intraoperative trauma
+
+
+label:    sent_20
+sentence: Doctors are bound to ensure and improve the quality of their own work .
+
+ppatt:
+	?a are bound to ensure ?b
+		?a: Doctors
+		?b: the quality of their own work
+	?a are bound to improve
+		?a: Doctors
+
+
+label:    sent_21
+sentence: Cyanoacrylate skin adhesive is increasingly used to ensure and stabilize wound closures .
+
+ppatt:
+	?a is increasingly used to ensure ?b
+		?a: Cyanoacrylate skin adhesive
+		?b: wound closures
+	?a is increasingly used to stabilize
+		?a: Cyanoacrylate skin adhesive
+
+
+label:    sent_22
+sentence: Sphincterotomy catheter or balloons were used to enlarge and ensure a wide cystoenterostomy .
+
+ppatt:
+	?a were used to enlarge ?b
+		?a: Sphincterotomy catheter
+		?b: a wide cystoenterostomy
+	?a were used to enlarge ?b
+		?a: balloons
+		?b: a wide cystoenterostomy
+	?a were used to ensure
+		?a: Sphincterotomy catheter
+	?a were used to ensure
+		?a: balloons
+
+
+label:    sent_23
+sentence: By cleaving ubiquitin from another protein , DUBs ensure that the UPP functions properly .
+
+ppatt:
+	cleaving ?a from ?b ?c
+		?a: ubiquitin
+		?b: another protein
+		?c: DUBs
+	?a ensure ?b
+		?a: DUBs
+		?b: SOMETHING := the UPP functions properly
+	?a functions properly
+		?a: the UPP
+
+
+label:    sent_24
+sentence: In addition specific immunoglobulin preparations will ensure that the IVIG contains reliable antibacterial activity .
+
+ppatt:
+	In ?a ?b will ensure ?c
+		?a: addition
+		?b: specific immunoglobulin preparations
+		?c: SOMETHING := the IVIG contains reliable antibacterial activity
+	?a contains ?b
+		?a: the IVIG
+		?b: reliable antibacterial activity
+
+
+label:    sent_25
+sentence: In most cases , only exploratory laparotomy will ultimately ensure surgical resectibility .
+
+ppatt:
+	In ?a , ?b will ultimately ensure ?c
+		?a: most cases
+		?b: only exploratory laparotomy
+		?c: surgical resectibility
+
+
+label:    sent_26
+sentence: Giving oxygen if available and ensure a clear airway at all times .
+
+ppatt:
+	Giving ?a
+		?a: oxygen
+	ensure ?a at ?b
+		?a: a clear airway
+		?b: all times
+
+

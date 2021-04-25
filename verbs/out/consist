@@ -1,0 +1,293 @@
+label:    sent_1
+sentence: Indirect methods consist of de-phosphorylation of the nucleotides into nucleosides before the actual analysis .
+
+ppatt:
+	?a consist of ?b before ?c
+		?a: Indirect methods
+		?b: de-phosphorylation of the nucleotides into nucleosides
+		?c: the actual analysis
+
+
+label:    sent_2
+sentence: Findings consist of interpretations of clinical stories to uncover knowledge embedded in practice .
+
+ppatt:
+	?a consist of ?b to uncover ?c
+		?a: Findings
+		?b: interpretations of clinical stories
+		?c: knowledge embedded in practice
+
+
+label:    sent_3
+sentence: Metazoan genomes primarily consist of non-coding DNA in comparison to coding regions .
+
+ppatt:
+	?a primarily consist of ?b to ?c
+		?a: Metazoan genomes
+		?b: non-coding DNA
+		?c: coding regions
+
+
+label:    sent_4
+sentence: Circoviruses consist of highly prevalent and genetically diverse porcine and avian pathogens .
+
+ppatt:
+	?a consist of ?b
+		?a: Circoviruses
+		?b: highly prevalent and genetically diverse porcine
+	?a consist of ?b
+		?a: Circoviruses
+		?b: avian pathogens
+
+
+label:    sent_5
+sentence: Therefore , CSGC appears to consist of testicular somatic cell cells .
+
+ppatt:
+	Therefore , ?a appears to consist of ?b
+		?a: CSGC
+		?b: testicular somatic cell cells
+
+
+label:    sent_6
+sentence: Brain circuits are generally thought to consist solely of neurons communicating with other neurons .
+
+ppatt:
+	?a are generally thought to consist solely of ?b
+		?a: Brain circuits
+		?b: neurons communicating with other neurons
+	?a communicating with ?b
+		?a: neurons
+		?b: other neurons
+
+
+label:    sent_7
+sentence: Hypoxidaceae consist of three well-supported major clades , but their interrelationships remain unresolved .
+
+ppatt:
+	?a consist of ?b
+		?a: Hypoxidaceae
+		?b: three well-supported major clades
+	?a remain unresolved
+		?a: their interrelationships
+
+
+label:    sent_8
+sentence: The ontologies consist of about 200 concepts and around 125 individuals .
+
+ppatt:
+	?a consist of ?b
+		?a: The ontologies
+		?b: about 200 concepts
+	?a consist of ?b
+		?a: The ontologies
+		?b: 125 individuals
+
+
+label:    sent_9
+sentence: Human Legionella infections mainly consist of community-acquired and nosocomial pneumonia and rarely affect children .
+
+ppatt:
+	?a mainly consist of ?b
+		?a: Human Legionella infections
+		?b: community-acquired
+	?a mainly consist of ?b
+		?a: Human Legionella infections
+		?b: nosocomial
+	?a rarely affect ?b
+		?a: Human Legionella infections
+		?b: children
+
+
+label:    sent_10
+sentence: Complications of frenotomy are rare and consist mainly of self-limited minor bleeding .
+
+ppatt:
+	?a are rare
+		?a: Complications of frenotomy
+	?a consist mainly of ?b
+		?a: Complications of frenotomy
+		?b: self-limited minor bleeding
+
+
+label:    sent_11
+sentence: Included studies are methodologically diverse and consist of different refugee populations .
+
+ppatt:
+	?a are methodologically diverse
+		?a: Included studies
+	?a consist of ?b
+		?a: Included studies
+		?b: different refugee populations
+
+
+label:    sent_12
+sentence: Vaginal hygiene practices are very common and consist primarily of washing with water .
+
+ppatt:
+	?a are very common
+		?a: Vaginal hygiene practices
+	?a consist primarily
+		?a: Vaginal hygiene practices
+	?a washing with ?b
+		?a: Vaginal hygiene practices
+		?b: water
+
+
+label:    sent_13
+sentence: They consist of a pluristratified structure whose composition assures their cohesion and elasticity . Supramolecular polymers consist of bifunctional monomers that join and break reversibly .
+
+ppatt:
+	?a consist of ?b
+		?a: They
+		?b: a pluristratified structure whose composition assures their cohesion and elasticity
+	?a ?b assures ?c
+		?a: a pluristratified structure
+		?b: whose composition
+		?c: their cohesion
+	?a ?b assures ?c
+		?a: a pluristratified structure
+		?b: whose composition
+		?c: elasticity
+	?a consist of ?b
+		?a: Supramolecular polymers
+		?b: bifunctional monomers that join and break reversibly
+	?a join
+		?a: bifunctional monomers
+	?a break reversibly
+		?a: that
+
+
+label:    sent_14
+sentence: Traditional anti-cancer treatments consist of chemotherapeutic drugs that effectively eliminate rapidly dividing tumor cells .
+
+ppatt:
+	?a consist of ?b
+		?a: Traditional anti-cancer treatments
+		?b: chemotherapeutic drugs that effectively eliminate rapidly dividing tumor cells
+	?a effectively eliminate ?b
+		?a: chemotherapeutic drugs
+		?b: rapidly dividing tumor cells
+
+
+label:    sent_15
+sentence: The eukaryotic groups consist of protozoa , yeasts and fungi .
+
+ppatt:
+	?a consist of ?b
+		?a: The eukaryotic groups
+		?b: protozoa
+	?a consist of ?b
+		?a: The eukaryotic groups
+		?b: yeasts
+	?a consist of ?b
+		?a: The eukaryotic groups
+		?b: fungi
+
+
+label:    sent_16
+sentence: The droplets consist of neutral lipids , mostly triacylglycerides and cholesterol esters .
+
+ppatt:
+	?a consist of ?b
+		?a: The droplets
+		?b: neutral lipids
+	?a is/are mostly triacylglycerides
+		?a: neutral lipids
+
+
+label:    sent_17
+sentence: Autosomal abnormalities mainly consist of balanced translocations , mostly robertsonian .
+
+ppatt:
+	?a mainly consist of ?b
+		?a: Autosomal abnormalities
+		?b: balanced translocations
+	?a is/are mostly robertsonian
+		?a: balanced translocations
+
+
+label:    sent_18
+sentence: The complications of pelvic fracture consist bleeding , nervous and urological injuries . [In what do the teaching functions of a health institution consist ? ] . The diet schedule consist natural foodstuffs , fibers , minerals and vitamins .
+
+ppatt:
+	?a consist ?b
+		?a: The complications of pelvic fracture
+		?b: bleeding
+	?a consist ?b
+		?a: The complications of pelvic fracture
+		?b: nervous
+	?a consist ?b
+		?a: The complications of pelvic fracture
+		?b: urological
+	?a ?b do ?c
+		?a: [In
+		?b: what
+		?c: the teaching functions of a health institution
+	?a consist ?b
+		?a: The complications of pelvic fracture
+		?b: ]
+	?a consist ?b
+		?a: The diet schedule
+		?b: natural foodstuffs
+	?a consist ?b
+		?a: The diet schedule
+		?b: fibers
+	?a consist ?b
+		?a: The diet schedule
+		?b: minerals
+	?a consist ?b
+		?a: The diet schedule
+		?b: vitamins
+
+
+label:    sent_19
+sentence: The data are consistent with models in which rings consist of coiled protofilaments .
+
+ppatt:
+	?a are consistent with ?b
+		?a: The data
+		?b: models in which rings consist of coiled protofilaments
+	?a in ?b consist of ?c
+		?a: models
+		?b: rings
+		?c: coiled protofilaments
+
+
+label:    sent_20
+sentence: Bone lesions consist of osteomas --isolated or in clusters -- in the maxilla and mandible .
+
+ppatt:
+	?a consist of ?b in ?c
+		?a: Bone lesions
+		?b: osteomas --isolated or in clusters
+		?c: the maxilla
+	?a consist of ?b in ?c
+		?a: Bone lesions
+		?b: osteomas --isolated or in clusters
+		?c: mandible
+
+
+label:    sent_21
+sentence: Cryogenic grinders generally consist of precoolers and grinder with the cryogen distribution system .
+
+ppatt:
+	?a generally consist of ?b
+		?a: Cryogenic grinders
+		?b: precoolers with the cryogen distribution system
+	?a generally consist of ?b
+		?a: Cryogenic grinders
+		?b: grinder
+
+
+label:    sent_22
+sentence: The majority of cases are fortunately mild and consist merely of chorio-amnionitis .
+
+ppatt:
+	?a are fortunately mild
+		?a: The majority of cases
+	?a consist merely of ?b
+		?a: The majority of cases
+		?b: chorio-amnionitis
+
+

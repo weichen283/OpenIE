@@ -1,0 +1,292 @@
+label:    sent_1
+sentence: GPU-based physical cut in interactive haptic simulations .
+
+ppatt:
+
+
+
+label:    sent_2
+sentence: This tube ( 1 mm thick ) was cut in longitudinal direction .
+
+ppatt:
+	?a is/are 1 mm thick
+		?a: This tube
+	?a was cut in ?b
+		?a: This tube
+		?b: longitudinal direction
+
+
+label:    sent_3
+sentence: The hands were transversely cut into 2-3-mm-thick slices .
+
+ppatt:
+	?a were transversely cut into ?b
+		?a: The hands
+		?b: 2-3-mm-thick slices
+
+
+label:    sent_4
+sentence: In experimental group II , the LTN was cut and repaired primarily .
+
+ppatt:
+	In ?a , ?b was cut
+		?a: experimental group II
+		?b: the LTN
+	?a repaired primarily
+		?a: the LTN
+
+
+label:    sent_5
+sentence: The right bronchus was dissected and wedge was cut out with the robotic scissors .
+
+ppatt:
+	?a was dissected
+		?a: The right bronchus
+	?a was cut out with ?b
+		?a: wedge
+		?b: the robotic scissors
+
+
+label:    sent_6
+sentence: The specimens were cut axially at the maximum diameter and were histologically investigated .
+
+ppatt:
+	?a were cut axially at ?b
+		?a: The specimens
+		?b: the maximum diameter
+	?a were histologically investigated
+		?a: The specimens
+
+
+label:    sent_7
+sentence: Taking control of osteoporosis to cut down on risk of fracture .
+
+ppatt:
+	Taking ?a down
+		?a: control of osteoporosis to cut on risk of fracture
+	?a to cut
+		?a: control of osteoporosis on risk of fracture
+
+
+label:    sent_8
+sentence: Immunostains for IGF1R were performed on sections cut from the TMAs .
+
+ppatt:
+	?a were performed on ?b
+		?a: Immunostains for IGF1R
+		?b: sections cut from the TMAs
+	?a cut from ?b
+		?a: sections
+		?b: the TMAs
+
+
+label:    sent_9
+sentence: Perfectly cut out for each other .
+
+ppatt:
+
+
+
+label:    sent_10
+sentence: Apex and basis was cut sagittally , and remaining slices were embedded in quadrants .
+
+ppatt:
+	?a was cut sagittally
+		?a: Apex
+	?a was cut sagittally
+		?a: basis
+	?a were embedded in ?b
+		?a: remaining slices
+		?b: quadrants
+
+
+label:    sent_11
+sentence: Sections were cut and stained with haematoxylin and eosin and examined microscopically .
+
+ppatt:
+	?a were cut with ?b
+		?a: Sections
+		?b: haematoxylin
+	?a were cut with ?b
+		?a: Sections
+		?b: eosin
+	?a stained
+		?a: Sections
+	?a examined microscopically
+		?a: Sections
+
+
+label:    sent_12
+sentence: Sections were cut and immunohistochemistry was carried out using a Pten antibody .
+
+ppatt:
+	?a were cut
+		?a: Sections
+	?a was carried out using ?b
+		?a: immunohistochemistry
+		?b: a Pten antibody
+
+
+label:    sent_13
+sentence: The isolated DNA can be cut by a range of restriction enzymes .
+
+ppatt:
+	?a can be cut by ?b
+		?a: The isolated DNA
+		?b: a range of restriction enzymes
+
+
+label:    sent_14
+sentence: Degree applications hit record high as training places are cut .
+
+ppatt:
+	?a hit ?b high
+		?a: Degree applications
+		?b: record
+	?a training ?b
+		?a: Degree applications
+		?b: places
+	?a are cut
+		?a: Degree applications
+
+
+label:    sent_15
+sentence: Mechanical jaundice complicated by juxtapapillary ulcer can be cut off by endoscopic papillosphincterotomy .
+
+ppatt:
+	?a complicated by ?b
+		?a: Mechanical jaundice
+		?b: juxtapapillary ulcer
+	?a can be cut off by ?b
+		?a: Mechanical jaundice complicated by juxtapapillary ulcer
+		?b: endoscopic papillosphincterotomy
+
+
+label:    sent_16
+sentence: The tissue area probed with OCT was marked and cut for histological examination .
+
+ppatt:
+	?a probed with ?b
+		?a: The tissue area
+		?b: OCT
+	?a was marked
+		?a: The tissue area probed with OCT
+	?a cut for ?b
+		?a: The tissue area probed with OCT
+		?b: histological examination
+
+
+label:    sent_17
+sentence: The samples of hair were decontaminated with acetone and were cut into small segments .
+
+ppatt:
+	?a were decontaminated with ?b
+		?a: The samples of hair
+		?b: acetone
+	?a were cut into ?b
+		?a: The samples of hair
+		?b: small segments
+
+
+label:    sent_18
+sentence: The sulfated procollagens V were soon secreted and cut to sulfated p-collagens V . At UPMC , improving care processes to serve patients better and cut costs .
+
+ppatt:
+	?a were soon secreted . At ?b
+		?a: The sulfated procollagens V
+		?b: UPMC
+	?a cut to ?b
+		?a: The sulfated procollagens V
+		?b: sulfated p-collagens V
+	?a improving ?b to serve ?c
+		?a: The sulfated procollagens V
+		?b: care processes
+		?c: patients better and cut
+
+
+label:    sent_19
+sentence: Force required to cut the suture is inversely proportional to osteotome sharpness . Bio-PIN could cut biobanking risks . An aspirin a day could cut risk of cancer development , death . Clear information can cut inequalities in learning disabilities .
+
+ppatt:
+	?a required to cut ?b
+		?a: Force
+		?b: the suture
+	?a is inversely proportional to ?b
+		?a: Force required to cut the suture
+		?b: osteotome sharpness
+	?a could cut ?b
+		?a: Bio-PIN
+		?b: biobanking risks
+	?a ?b could cut ?c
+		?a: An aspirin
+		?b: a day
+		?c: risk of cancer development
+	?a ?b could cut ?c
+		?a: An aspirin
+		?b: a day
+		?c: death
+	?a can cut ?b in ?c
+		?a: Clear information
+		?b: inequalities
+		?c: learning disabilities
+
+
+label:    sent_20
+sentence: Telemedicine may cut emergency admissions for COPD .
+
+ppatt:
+	?a may cut ?b
+		?a: Telemedicine
+		?b: emergency admissions for COPD
+
+
+label:    sent_21
+sentence: Treatment of penile carcinoma : to cut or not to cut ? Nerves cut obliquely and rejoined showed better functional recovery than perpendicularly transected .
+
+ppatt:
+	?a cut obliquely
+		?a: Treatment of penile carcinoma
+	?a rejoined showed ?b
+		?a: Treatment of penile carcinoma
+		?b: better functional recovery
+	?a than perpendicularly transected
+		?a: Treatment of penile carcinoma
+
+
+label:    sent_22
+sentence: Back pain : to cut or not to cut .
+
+ppatt:
+
+
+
+label:    sent_23
+sentence: In total , 226 respondents cut household expenses .
+
+ppatt:
+	In ?a , ?b cut ?c
+		?a: total
+		?b: 226 respondents
+		?c: household expenses
+
+
+label:    sent_24
+sentence: We cut 1 mm thick dentine discs with the IsoMet 1000 cutting machine .
+
+ppatt:
+	?a cut ?b with ?c
+		?a: We
+		?b: 1 mm thick dentine discs
+		?c: the IsoMet 1000 cutting machine
+
+
+label:    sent_25
+sentence: Interestingly , a 98 bp intron 5 cut the 3'-UTR into two parts .
+
+ppatt:
+	Interestingly , ?a cut ?b into ?c
+		?a: a 98 bp intron 5
+		?b: the 3'-UTR
+		?c: two parts
+
+

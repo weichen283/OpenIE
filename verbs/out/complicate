@@ -1,0 +1,312 @@
+label:    sent_1
+sentence: However , placenta increta may complicate first- and early second-trimester pregnancy loss . Postoperative anastomotic strictures frequently complicate colorectal resection .
+
+ppatt:
+	However , ?a may complicate ?b
+		?a: placenta increta
+		?b: first-
+	However , ?a may complicate ?b
+		?a: placenta increta
+		?b: early
+	?a frequently complicate ?b
+		?a: Postoperative anastomotic strictures
+		?b: colorectal resection
+
+
+label:    sent_2
+sentence: However , concentration effects and long-term survival complicate the interpretation of these results . Relapses contribute to increased morbidity , and complicate malaria elimination programs .
+
+ppatt:
+	However , ?a complicate ?b
+		?a: concentration effects
+		?b: the interpretation of these results
+	However , ?a complicate ?b
+		?a: long-term survival
+		?b: the interpretation of these results
+	?a contribute to ?b
+		?a: Relapses
+		?b: increased morbidity
+	?a complicate ?b
+		?a: Relapses
+		?b: malaria elimination programs
+
+
+label:    sent_3
+sentence: This syndrome has rarely been reported to complicate the course of systemic amyloidosis .
+
+ppatt:
+	?a has rarely been reported to complicate ?b
+		?a: This syndrome
+		?b: the course of systemic amyloidosis
+
+
+label:    sent_4
+sentence: The presence of these cysts may exacerbate glaucoma or complicate its management .
+
+ppatt:
+	?a may exacerbate ?b
+		?a: The presence of these cysts
+		?b: glaucoma
+	?a complicate ?b
+		?a: The presence of these cysts
+		?b: its management
+
+
+label:    sent_5
+sentence: Cerebrovascular events can complicate preeclampsia , and can also manifest later in life .
+
+ppatt:
+	?a can complicate ?b
+		?a: Cerebrovascular events
+		?b: preeclampsia
+	?a can also manifest later in ?b
+		?a: Cerebrovascular events
+		?b: life
+
+
+label:    sent_6
+sentence: Diabetes can complicate pregnancy but it is not the major complication of pregnancy . CNVM can complicate chronic papilledema and account for sudden worsening of vision .
+
+ppatt:
+	?a can complicate ?b
+		?a: Diabetes
+		?b: pregnancy
+	?a is not the major complication of ?b
+		?a: it
+		?b: pregnancy
+	?a can complicate ?b
+		?a: CNVM
+		?b: chronic papilledema
+	?a account for ?b
+		?a: CNVM
+		?b: sudden worsening of vision
+
+
+label:    sent_7
+sentence: This problem can complicate not only diagnosis , but accurate prognosis as well .
+
+ppatt:
+	?a can complicate ?b
+		?a: This problem
+		?b: diagnosis
+	?a can complicate ?b
+		?a: This problem
+		?b: accurate prognosis as well
+
+
+label:    sent_8
+sentence: Preterm deliveries complicate 11 % of all births within the United States .
+
+ppatt:
+	?a complicate ?b within ?c
+		?a: Preterm deliveries
+		?b: 11 % of all births
+		?c: the United States
+
+
+label:    sent_9
+sentence: In some patients , virulent pathogens or poor health complicate reconstruction .
+
+ppatt:
+	In ?a , ?b complicate ?c
+		?a: some patients
+		?b: virulent pathogens
+		?c: reconstruction
+	In ?a , ?b complicate ?c
+		?a: some patients
+		?b: poor health
+		?c: reconstruction
+
+
+label:    sent_10
+sentence: This variety of conceptualisations does impact and complicate research on self-care .
+
+ppatt:
+	?a does impact ?b
+		?a: This variety of conceptualisations
+		?b: research on self-care
+	?a complicate
+		?a: This variety of conceptualisations
+
+
+label:    sent_11
+sentence: Panic disorder may be confused with cardiac illness and complicate cardiac treatment .
+
+ppatt:
+	?a may be confused with ?b
+		?a: Panic disorder
+		?b: cardiac illness
+	?a complicate ?b
+		?a: Panic disorder
+		?b: cardiac treatment
+
+
+label:    sent_12
+sentence: These interactions are clinically significant and may complicate the treatment of common diseases .
+
+ppatt:
+	?a are clinically significant
+		?a: These interactions
+	?a may complicate ?b
+		?a: These interactions
+		?b: the treatment of common diseases
+
+
+label:    sent_13
+sentence: Osteoporosis is known to complicate outcomes after lung transplantation ( Tx ) . TB is known to complicate liver transplantation in rare circumstances .
+
+ppatt:
+	?a is known to complicate ?b
+		?a: Osteoporosis
+		?b: outcomes after lung transplantation
+	?a is/are Tx
+		?a: lung transplantation
+	?a is known to complicate ?b in ?c
+		?a: TB
+		?b: liver transplantation
+		?c: rare circumstances
+
+
+label:    sent_14
+sentence: Ultrasonography limit the application of more invasive and complicate procedure as TAC and RM .
+
+ppatt:
+	?a limit ?b
+		?a: Ultrasonography
+		?b: the application of more invasive
+	?a complicate ?b
+		?a: Ultrasonography
+		?b: procedure as TAC and RM
+
+
+label:    sent_15
+sentence: Inferential procedures complicate dramatically when missing observations or measurement error arise .
+
+ppatt:
+	?a complicate
+		?a: Inferential procedures
+	dramatically when missing ?a
+		?a: observations
+	dramatically when missing ?a
+		?a: measurement error
+	?a arise
+		?a: observations
+	?a arise
+		?a: measurement error
+
+
+label:    sent_16
+sentence: Additional criteria to PSI are necessary to detect low risk patients that complicate .
+
+ppatt:
+	?a are necessary to detect ?b
+		?a: Additional criteria to PSI
+		?b: low risk patients that complicate
+	?a complicate
+		?a: low risk patients
+
+
+label:    sent_17
+sentence: This can potentially complicate further intervention should restenosis occur .
+
+ppatt:
+	?a can potentially complicate ?b
+		?a: This
+		?b: further intervention
+	should ?a occur
+		?a: restenosis
+
+
+label:    sent_18
+sentence: Lower respiratory tract infections frequently complicate stroke and adversely affect outcome .
+
+ppatt:
+	?a frequently complicate ?b
+		?a: Lower respiratory tract infections
+		?b: stroke
+	?a adversely affect ?b
+		?a: Lower respiratory tract infections
+		?b: outcome
+
+
+label:    sent_19
+sentence: Sleep dysregulation triggers episodic TTH , and sleep disorders may complicate and exacerbate headache .
+
+ppatt:
+	?a triggers ?b
+		?a: Sleep dysregulation
+		?b: episodic TTH
+	?a may complicate ?b
+		?a: sleep disorders
+		?b: headache
+	?a exacerbate
+		?a: sleep disorders
+
+
+label:    sent_20
+sentence: Ulcers recurring during maintenance therapy rarely complicate and heal with increasing and maintaining dosage .
+
+ppatt:
+	?a recurring during ?b
+		?a: Ulcers
+		?b: maintenance therapy
+	?a rarely complicate with ?b
+		?a: Ulcers recurring during maintenance therapy
+		?b: increasing
+	?a rarely complicate with ?b
+		?a: Ulcers recurring during maintenance therapy
+		?b: maintaining
+	?a heal
+		?a: Ulcers recurring during maintenance therapy
+
+
+label:    sent_21
+sentence: These variations may complicate sternal puncture , and due caution is recommended .
+
+ppatt:
+	?a may complicate ?b
+		?a: These variations
+		?b: sternal puncture
+	?a is recommended
+		?a: due caution
+
+
+label:    sent_22
+sentence: In addition , these abnormalities complicate UTI and require specialized treatment strategies .
+
+ppatt:
+	In ?a , ?b complicate ?c
+		?a: addition
+		?b: these abnormalities
+		?c: UTI
+	?a require ?b
+		?a: these abnormalities
+		?b: specialized treatment strategies
+
+
+label:    sent_23
+sentence: [A case of facial neurofibroma complicate with acute mastoiditis ] . It may complicate with acute renal failure if left untreated .
+
+ppatt:
+	?a complicate with ?b
+		?a: [A case of facial neurofibroma
+		?b: acute mastoiditis ]
+	?a may complicate with ?b
+		?a: It
+		?b: acute renal failure
+	?a left untreated
+		?a: It
+
+
+label:    sent_24
+sentence: One child 's course was complicate by patellar osteomyelitis and septic arthritis .
+
+ppatt:
+	?a was complicate by ?b
+		?a: One child 's course
+		?b: patellar osteomyelitis
+	?a was complicate by ?b
+		?a: One child 's course
+		?b: septic arthritis
+
+

@@ -1,0 +1,20 @@
+label:    sent_1
+sentence: We used SigmaPlot software to graph the data , and linear regression to analyze the relationship between days of expected diary-card completion and days of actual correct diary-card completion ( completed entries ) .
+
+ppatt:
+	?a used ?b
+		?a: We
+		?b: SigmaPlot software
+	?a graph ?b
+		?a: We
+		?b: the data
+	?a graph ?b
+		?a: We
+		?b: linear regression
+	?a analyze ?b
+		?a: We
+		?b: the relationship between days of expected diary-card completion and days of actual correct diary-card completion
+	?a is/are completed entries
+		?a: actual correct diary-card completion
+
+

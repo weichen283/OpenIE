@@ -1,0 +1,144 @@
+label:    sent_1
+sentence: Histological sections of endometria from long-term progestin-treated patients display abnormally enlarged blood vessels that are prone to bleed in a nonuniform manner .
+
+ppatt:
+	?a display ?b
+		?a: Histological sections of endometria from long-term progestin-treated patients
+		?b: abnormally enlarged blood vessels that are prone to bleed in a nonuniform manner
+	?a are prone to ?b
+		?a: abnormally enlarged blood vessels
+		?b: bleed in a nonuniform manner
+	?a to bleed in ?b
+		?a: that
+		?b: a nonuniform manner
+
+
+label:    sent_2
+sentence: These findings might justify platelet transfusion in patients with low platelet counts when they bleed spontaneously or before undergoing surgery or liver biopsy .
+
+ppatt:
+	?a might justify ?b
+		?a: These findings
+		?b: platelet transfusion in patients with low platelet counts
+	when ?a bleed spontaneously
+		?a: they
+	?a undergoing ?b
+		?a: they
+		?b: surgery
+	?a undergoing ?b
+		?a: they
+		?b: liver biopsy
+
+
+label:    sent_3
+sentence: Large calvarial lesions may bleed extensively during their removal .
+
+ppatt:
+	?a may bleed extensively during ?b
+		?a: Large calvarial lesions
+		?b: their removal
+
+
+label:    sent_4
+sentence: They often bleed extensively during resection until separated from their blood supply .
+
+ppatt:
+	?a often bleed extensively during ?b
+		?a: They
+		?b: resection
+	?a separated from ?b
+		?a: They
+		?b: their blood supply
+
+
+label:    sent_5
+sentence: They are usually asymptomatic ; however , they can bleed and become symptomatic .
+
+ppatt:
+	?a are usually asymptomatic
+		?a: They
+	however , ?a can bleed
+		?a: they
+	?a become symptomatic
+		?a: they
+
+
+label:    sent_6
+sentence: Most patients do not bleed if treated with sufficient fresh frozen plasma to maintain a factor XI level of 30 % or more but occasionally patients may require higher levels .
+
+ppatt:
+	?a do not bleed
+		?a: Most patients
+	?a treated with ?b to maintain ?c
+		?a: Most patients
+		?b: sufficient fresh frozen plasma
+		?c: a factor XI level of 30 % or more
+	?a may require ?b
+		?a: occasionally patients
+		?b: higher levels
+
+
+label:    sent_7
+sentence: Our early experience encourages us to continue using this operation , except in those patients who bleed massively and are in Child 's C , end-stage , class . Overall , patients affected by F5F8D do not bleed more in terms of both frequency and severity than those carrying specific deficiencies of both factors and the bleeding phenotype is generally mild .
+
+ppatt:
+	?a encourages ?b to continue using ?c , except in ?d
+		?a: Our early experience
+		?b: us
+		?c: this operation
+		?d: those patients who bleed massively and are in Child 's C , end-stage , class
+	?a bleed massively in 's ?b
+		?a: those patients
+		?b: Child C
+	?a bleed massively in 's ?b
+		?a: those patients
+		?b: end-stage
+	?a bleed massively in 's ?b
+		?a: those patients
+		?b: class
+	?a are
+		?a: who
+	?a affected by ?b
+		?a: patients
+		?b: F5F8D
+	Overall , ?a do not bleed more in ?b
+		?a: patients affected by F5F8D
+		?b: terms of both frequency and severity than those carrying specific deficiencies of both factors
+	?a carrying ?b
+		?a: those
+		?b: specific deficiencies of both factors
+	?a is generally mild
+		?a: the bleeding phenotype
+
+
+label:    sent_8
+sentence: Unlike focal nodular hyperplasia , NRH may bleed , may be associated with portal hypertension in one-half of cases , and is often associated with a systemic disease such as a myelo- or lymphoproliferative disorder .
+
+ppatt:
+	Unlike ?a , ?b may bleed
+		?a: focal nodular hyperplasia
+		?b: NRH
+	?a may be associated with ?b in ?c
+		?a: NRH
+		?b: portal hypertension
+		?c: one-half of cases
+	?a is often associated with ?b
+		?a: NRH
+		?b: a systemic disease such as myelo- or lymphoproliferative
+
+
+label:    sent_9
+sentence: It is important to emphasize that such patients may bleed uncontrollably despite the misleading presence of residual plasma factor VIII activity in vitro , and that the inhibitor disappears after immunosuppressive therapy .
+
+ppatt:
+	?a is important to emphasize ?b
+		?a: It
+		?b: SOMETHING := such patients may bleed uncontrollably despite the misleading presence of residual plasma factor VIII activity in vitro
+	?a may bleed uncontrollably despite ?b in vitro
+		?a: such patients
+		?b: the misleading presence of residual plasma factor VIII activity
+	?a disappears after ?b
+		?a: the inhibitor
+		?b: immunosuppressive therapy
+
+

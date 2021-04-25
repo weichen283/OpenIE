@@ -1,0 +1,101 @@
+label:    sent_1
+sentence: How to equip the quadriplegic patient .
+
+ppatt:
+	How to equip ?a
+		?a: the quadriplegic patient
+
+
+label:    sent_2
+sentence: All imaging modalities are discussed to equip the radiologist for his difficult task .
+
+ppatt:
+	?a are discussed to equip ?b for ?c
+		?a: All imaging modalities
+		?b: the radiologist
+		?c: his difficult task
+
+
+label:    sent_3
+sentence: To equip psychiatric nurses with the knowledge needed to make ethical decisions .
+
+ppatt:
+	equip ?a with ?b
+		?a: psychiatric nurses
+		?b: the knowledge needed to make ethical decisions
+	?a needed to make ?b
+		?a: the knowledge
+		?b: ethical decisions
+
+
+label:    sent_4
+sentence: These techniques equip researchers with a wealth of tools suitable for proteomic applications .
+
+ppatt:
+	?a equip ?b
+		?a: These techniques
+		?b: researchers with a wealth of tools suitable for proteomic applications
+
+
+label:    sent_5
+sentence: However , the curriculum should equip the practitioner for either scenario .
+
+ppatt:
+	However , ?a should equip ?b for ?c
+		?a: the curriculum
+		?b: the practitioner
+		?c: either scenario
+
+
+label:    sent_6
+sentence: How we equip undergraduates with prioritisation skills using simulated teaching scenarios .
+
+ppatt:
+	How ?a equip ?b using ?c
+		?a: we
+		?b: undergraduates with prioritisation skills
+		?c: simulated teaching scenarios
+
+
+label:    sent_7
+sentence: It will also equip them emotionally to deal with highly charged situations .
+
+ppatt:
+	?a will also equip ?b emotionally to deal with ?c
+		?a: It
+		?b: them
+		?c: highly charged situations
+
+
+label:    sent_8
+sentence: Thus , interventional neuroradiologists should equip themselves with this essential technique .
+
+ppatt:
+	Thus , ?a should equip ?b with ?c
+		?a: interventional neuroradiologists
+		?b: themselves
+		?c: this essential technique
+
+
+label:    sent_9
+sentence: LEAs probably equip the resting eggs to withstand desiccation if that occurs during dormancy .
+
+ppatt:
+	?a probably equip ?b to withstand ?c
+		?a: LEAs
+		?b: the resting eggs
+		?c: desiccation
+	?a occurs during ?b
+		?a: that
+		?b: dormancy
+
+
+label:    sent_10
+sentence: Hospitals equip to meet the bariatric challenge .
+
+ppatt:
+	?a equip to meet ?b
+		?a: Hospitals
+		?b: the bariatric challenge
+
+

@@ -1,0 +1,274 @@
+label:    sent_1
+sentence: Moreover , we show that PGC-1alpha enhances the potential to uncouple oxidative phosphorylation .
+
+ppatt:
+	Moreover , ?a show ?b
+		?a: we
+		?b: SOMETHING := PGC-1alpha enhances the potential to uncouple oxidative phosphorylation
+	?a enhances ?b
+		?a: PGC-1alpha
+		?b: the potential to uncouple oxidative phosphorylation
+	?a uncouple ?b
+		?a: the potential
+		?b: oxidative phosphorylation
+
+
+label:    sent_2
+sentence: Dibromo- and monobromoimidazole do not uncouple oxidative phosphorylation either in vitro or in vivo .
+
+ppatt:
+	?a do not uncouple ?b either in vitro or in vivo
+		?a: Dibromo-
+		?b: oxidative phosphorylation
+	?a do not uncouple ?b either in vitro or in vivo
+		?a: monobromoimidazole
+		?b: oxidative phosphorylation
+
+
+label:    sent_3
+sentence: Nitrite and GSSG at pathophysiological concentrations are unlikely to uncouple NOS .
+
+ppatt:
+	?a are unlikely to uncouple ?b
+		?a: Nitrite at pathophysiological concentrations
+		?b: NOS
+	?a are unlikely to uncouple ?b
+		?a: GSSG
+		?b: NOS
+
+
+label:    sent_4
+sentence: Prodigiosins uncouple lysosomal vacuolar-type ATPase through promotion of H+ / Cl-symport .
+
+ppatt:
+	?a uncouple ?b through ?c
+		?a: Prodigiosins
+		?b: lysosomal vacuolar-type ATPase
+		?c: promotion of H+ / Cl-symport
+
+
+label:    sent_5
+sentence: We used Tet-inducible IAP gene expression to uncouple this process from virus-driven dynamics . UCP3 is , like UCP1 , able to uncouple respiration from ATP production .
+
+ppatt:
+	?a used ?b
+		?a: We
+		?b: Tet-inducible IAP gene expression
+	?a uncouple ?b from ?c
+		?a: We
+		?b: this process
+		?c: virus-driven dynamics
+	?a is , like ?b , able to uncouple ?c
+		?a: UCP3
+		?b: UCP1
+		?c: respiration from ATP production
+
+
+label:    sent_6
+sentence: Mn2+ does not uncouple adenosine " Ra " receptors from the liver adenylate cyclase .
+
+ppatt:
+	?a does not uncouple ?b
+		?a: Mn2+
+		?b: adenosine " Ra " receptors from the liver adenylate cyclase
+
+
+label:    sent_7
+sentence: Malfunctions within the Cbl interactome uncouple receptor tyrosine kinases from destructive transport .
+
+ppatt:
+	?a uncouple ?b
+		?a: Malfunctions within the Cbl interactome
+		?b: receptor tyrosine kinases from destructive transport
+
+
+label:    sent_8
+sentence: Nifedipine may also uncouple renin from aldosterone .
+
+ppatt:
+	?a may also uncouple ?b from ?c
+		?a: Nifedipine
+		?b: renin
+		?c: aldosterone
+
+
+label:    sent_9
+sentence: Many drugs differing widely in chemical structure uncouple mitochondrial oxidative phosphorylation in vitro .
+
+ppatt:
+	?a differing widely in ?b
+		?a: Many drugs
+		?b: chemical structure
+	?a uncouple ?b in vitro
+		?a: Many drugs differing widely in chemical structure
+		?b: mitochondrial oxidative phosphorylation
+
+
+label:    sent_10
+sentence: Mitochondrial uncoupling proteins uncouple oxidative phosphorylation .
+
+ppatt:
+	?a uncouple ?b
+		?a: Mitochondrial uncoupling proteins
+		?b: oxidative phosphorylation
+
+
+label:    sent_11
+sentence: Sulfonylurea compounds uncouple the glucose dependence of the insulinotropic effect of glucagon-like peptide 1 .
+
+ppatt:
+	?a uncouple ?b
+		?a: Sulfonylurea compounds
+		?b: the glucose dependence of the insulinotropic effect of glucagon-like peptide 1
+
+
+label:    sent_12
+sentence: Bacterial azoreductases uncouple the parent drug and deliver 5-ASA to the colonic mucosa .
+
+ppatt:
+	?a uncouple ?b
+		?a: Bacterial azoreductases
+		?b: the parent drug
+	?a deliver ?b to ?c
+		?a: Bacterial azoreductases
+		?b: 5-ASA
+		?c: the colonic mucosa
+
+
+label:    sent_13
+sentence: Mutations that uncouple the beta-adrenergic receptor from Gs and increase agonist affinity .
+
+ppatt:
+	?a uncouple ?b
+		?a: Mutations
+		?b: the beta-adrenergic receptor from Gs
+	?a increase ?b
+		?a: that
+		?b: agonist affinity
+
+
+label:    sent_14
+sentence: They both uncouple mitochondrial respiration and inhibit substrate oxidation and ATP turnover .
+
+ppatt:
+	?a both uncouple ?b
+		?a: They
+		?b: mitochondrial respiration
+	?a inhibit ?b
+		?a: They
+		?b: substrate oxidation
+	?a inhibit ?b
+		?a: They
+		?b: ATP turnover
+
+
+label:    sent_15
+sentence: Tryptic cleavage inhibits but does not uncouple Ca2+ATPase of sarcoplasmic reticulum .
+
+ppatt:
+	?a inhibits
+		?a: Tryptic cleavage
+	?a does not uncouple ?b
+		?a: Tryptic cleavage
+		?b: Ca2+ATPase of sarcoplasmic reticulum
+
+
+label:    sent_16
+sentence: Tridemorph does not uncouple respiration but inhibits the uncoupled respiration to the same extent .
+
+ppatt:
+	?a does not uncouple ?b
+		?a: Tridemorph
+		?b: respiration
+	?a inhibits ?b to ?c
+		?a: Tridemorph
+		?b: the uncoupled respiration
+		?c: the same extent
+
+
+label:    sent_17
+sentence: The general conclusion is that the drugs damage mitochondrial function and uncouple respiration .
+
+ppatt:
+	?a is ?b
+		?a: The general conclusion
+		?b: SOMETHING := the drugs damage mitochondrial function
+	?a the drugs damage mitochondrial function
+		?a: The general conclusion
+	?a uncouple ?b
+		?a: The general conclusion
+		?b: respiration
+
+
+label:    sent_18
+sentence: Unlike the GJs formed by most Cxs , CO2 did not uncouple Panx-GJs completely .
+
+ppatt:
+	?a formed by ?b
+		?a: the GJs
+		?b: most Cxs
+	Unlike ?a , ?b did not uncouple ?c completely
+		?a: the GJs formed by most Cxs
+		?b: CO2
+		?c: Panx-GJs
+
+
+label:    sent_19
+sentence: During these processes the polymerases within the replisome functionally uncouple from one another .
+
+ppatt:
+	During ?a ?b functionally uncouple from ?c ?d
+		?a: these processes
+		?b: the polymerases within the replisome
+		?c: one
+		?d: another
+
+
+label:    sent_20
+sentence: However , myocytes can also rapidly uncouple in response to injury or disease .
+
+ppatt:
+	However , ?a can also rapidly uncouple in ?b
+		?a: myocytes
+		?b: response to injury or disease
+
+
+label:    sent_21
+sentence: These responses also represent an especially difficult challenge to uncouple during DR .
+
+ppatt:
+	?a also represent ?b
+		?a: These responses
+		?b: an especially difficult challenge to uncouple during DR
+	?a uncouple during ?b
+		?a: an especially difficult challenge
+		?b: DR
+
+
+label:    sent_22
+sentence: Overall the data produced corroborate the capability of PCP to uncouple oxidative-phosphorylation in mitochondria .
+
+ppatt:
+	?a produced
+		?a: the data
+	Overall ?a corroborate ?b
+		?a: the data produced
+		?b: the capability of PCP to uncouple oxidative-phosphorylation in mitochondria
+	?a uncouple ?b
+		?a: the capability of PCP
+		?b: oxidative-phosphorylation in mitochondria
+
+
+label:    sent_23
+sentence: Like other communicating junctions , lens junctions assume crystalline arrays and uncouple with Ca++ .
+
+ppatt:
+	Like ?a , ?b assume ?c
+		?a: other communicating junctions
+		?b: lens junctions
+		?c: crystalline arrays
+	?a uncouple with ?b
+		?a: lens junctions
+		?b: Ca++
+
+

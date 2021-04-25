@@ -1,0 +1,88 @@
+label:    sent_1
+sentence: Why dialyze more than 6 hours a week ? Was the decision to dialyze worth it ? Is it easier to dialyze women than men ? Can you dialyze without water ? Can you dialyze without water ? 2006 .
+
+ppatt:
+	?a Was ?b
+		?a: Why dialyze more than 6 hours
+		?b: the decision to dialyze worth it
+	?a dialyze worth ?b
+		?a: the decision
+		?b: it
+	Is ?a easier to dialyze ?b than ?c ? Can you dialyze without ?d ? without ?e
+		?a: it
+		?b: women
+		?c: men
+		?d: water
+		?e: Can you dialyze water ? 2006
+
+
+label:    sent_2
+sentence: Four of the five patients continue to dialyze uneventfully from 4 to 8.5 months .
+
+ppatt:
+	?a continue to dialyze uneventfully from ?b
+		?a: Four of the five patients
+		?b: 4 8.5 months
+
+
+label:    sent_3
+sentence: In Australia , 12 % of the hemodialysis population dialyze at home .
+
+ppatt:
+	In ?a , ?b dialyze at home
+		?a: Australia
+		?b: 12 % of the hemodialysis population
+
+
+label:    sent_4
+sentence: Here we inject or dialyze TRH into the RTN of conscious rats . To dialyze or not to dialyze , that is not the question .
+
+ppatt:
+	Here ?a inject ?b into ?c . To ?d
+		?a: we
+		?b: TRH
+		?c: the RTN of conscious rats
+		?d: dialyze
+	Here ?a inject ?b into ?c . To ?d
+		?a: we
+		?b: TRH
+		?c: the RTN of conscious rats
+		?d: not dialyze that is not the question
+	?a dialyze
+		?a: we
+	?a is not the question
+		?a: not dialyze
+
+
+label:    sent_5
+sentence: Ethical issues : to dialyze or not ? An efficient procedure to dialyze volumes in the range of 10-200 microliters .
+
+ppatt:
+	?a dialyze ?b
+		?a: An efficient procedure
+		?b: volumes in the range of 10-200 microliters
+
+
+label:    sent_6
+sentence: Patients who dialyze more , eat more . An efficient method to dialyze small volumes .
+
+ppatt:
+	?a dialyze more
+		?a: Patients
+	?a eat more ?b
+		?a: Patients who dialyze more
+		?b: An efficient method to dialyze small volumes
+	?a dialyze ?b
+		?a: An efficient method
+		?b: small volumes
+
+
+label:    sent_7
+sentence: Diabetes is present in the majority of patients who dialyze .
+
+ppatt:
+	?a is present in ?b
+		?a: Diabetes
+		?b: the majority of patients who dialyze
+
+

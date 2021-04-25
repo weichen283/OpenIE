@@ -1,0 +1,244 @@
+label:    sent_1
+sentence: We note that Ap3A effects have barely been studied in prokaryotic organisms .
+
+ppatt:
+	?a note ?b
+		?a: We
+		?b: SOMETHING := Ap3A effects have barely been studied in prokaryotic organisms
+	?a have barely been studied in ?b
+		?a: Ap3A effects
+		?b: prokaryotic organisms
+
+
+label:    sent_2
+sentence: Introductory note . Nevertheless we must note that this therapeutic option is both underused and misused .
+
+ppatt:
+	?a Nevertheless ?b must note ?c
+		?a: Introductory note
+		?b: we
+		?c: SOMETHING := this therapeutic option is underused
+	?a is both underused
+		?a: this therapeutic option
+	?a misused
+		?a: this therapeutic option
+
+
+label:    sent_3
+sentence: Clinicians should note the possibility of annular pancreas in patients with acute pancreatitis .
+
+ppatt:
+	?a should note ?b
+		?a: Clinicians
+		?b: the possibility of annular pancreas in patients with acute pancreatitis
+
+
+label:    sent_4
+sentence: They also note a range of mechanisms to enhance such systems going forward .
+
+ppatt:
+	?a also note ?b
+		?a: They
+		?b: a range of mechanisms to enhance such systems going forward
+	?a enhance ?b
+		?a: a range of mechanisms
+		?b: such systems going forward
+	?a going forward
+		?a: such systems
+
+
+label:    sent_5
+sentence: Comparatively , we did not note significant differences between both groups ( p=0.599 ) .
+
+ppatt:
+	Comparatively , ?a did not note ?b
+		?a: we
+		?b: significant differences between both groups
+	?a is/are p=0.599
+		?a: both groups
+
+
+label:    sent_6
+sentence: The sizes of the tumors were continuously measured to note the effects .
+
+ppatt:
+	?a were continuously measured to note ?b
+		?a: The sizes of the tumors
+		?b: the effects
+
+
+label:    sent_7
+sentence: It is interesting to note the isolation of M. gypseum in two schools . 10 min after starting phagocytosis it is possible to note partially destroyed bacteria .
+
+ppatt:
+	?a is interesting to note ?b
+		?a: It
+		?b: the isolation of M. gypseum in two schools
+	?a ?b is possible to note ?c
+		?a: 10 min after starting phagocytosis
+		?b: it
+		?c: partially destroyed bacteria
+
+
+label:    sent_8
+sentence: Editorial note on biomedical and health informatics . Editorial note on the start of the tenth year . Sour note on ACOs .
+
+ppatt:
+	?a ?b ?c note on ?d
+		?a: Editorial note on biomedical and health informatics
+		?b: Editorial note on the start of the tenth year
+		?c: Sour
+		?d: ACOs
+
+
+label:    sent_9
+sentence: Wilcoxon signed rank tests note significant increases by each competency domain .
+
+ppatt:
+	?a signed
+		?a: Wilcoxon
+	?a note ?b
+		?a: rank tests
+		?b: significant increases by each competency domain
+
+
+label:    sent_10
+sentence: Among the stimulation parameters evaluated , we note 2 major findings . Further studies should note any difference in gibbon density post protection .
+
+ppatt:
+	?a evaluated
+		?a: the stimulation parameters
+	Among ?a , ?b note ?c
+		?a: the stimulation parameters evaluated
+		?b: we
+		?c: 2 major findings
+	?a should note ?b
+		?a: Further studies
+		?b: any difference in gibbon density post protection
+
+
+label:    sent_11
+sentence: Small case series note some success , but failures have also occurred .
+
+ppatt:
+	?a note ?b
+		?a: Small case series
+		?b: some success
+	?a have also occurred
+		?a: failures
+
+
+label:    sent_12
+sentence: Periodically , we may note reduced flow or encounter a patient with xerostomia .
+
+ppatt:
+	Periodically , ?a may note ?b
+		?a: we
+		?b: reduced flow
+	?a encounter ?b
+		?a: we
+		?b: a patient with xerostomia
+
+
+label:    sent_13
+sentence: Most women note a beneficial effect on bleeding profiles and are satisfied with NuvaRing .
+
+ppatt:
+	?a note ?b on ?c
+		?a: Most women
+		?b: a beneficial effect
+		?c: bleeding profiles
+	?a are satisfied with ?b
+		?a: Most women
+		?b: NuvaRing
+
+
+label:    sent_14
+sentence: To note a case of three simultaneaous fistulas in the same patient .
+
+ppatt:
+	note ?a
+		?a: a case of three simultaneaous fistulas in the same patient
+
+
+label:    sent_15
+sentence: Pressure algometry was used to note tolerance to direct pressure over the target tissue .
+
+ppatt:
+	?a was used to note ?b to direct ?c over ?d
+		?a: Pressure algometry
+		?b: tolerance
+		?c: pressure
+		?d: the target tissue
+
+
+label:    sent_16
+sentence: To note obesity related complications in subjects of age range 50-59 years .
+
+ppatt:
+	note ?a
+		?a: obesity related complications in subjects of age range 50-59 years
+
+
+label:    sent_17
+sentence: Establish its pathology and note the clinical manifestations . Stand the boy up and note the position in which he stands .
+
+ppatt:
+	Establish ?a
+		?a: its pathology
+	?a note ?b
+		?a: Establish its pathology
+		?b: the clinical manifestations
+	?a Stand ?b ?c
+		?a: SOMETHING := Establish its pathology
+		?b: the boy
+		?c: up
+	?a note ?b
+		?a: Establish its pathology
+		?b: the position in which he stands
+	?a in ?b stands
+		?a: the position
+		?b: he
+
+
+label:    sent_18
+sentence: Please note that obesity is a disease of civilization and cause further disease .
+
+ppatt:
+	?a note ?b
+		?a: Please
+		?b: SOMETHING := obesity is a disease of civilization
+	?a is a disease of ?b
+		?a: obesity
+		?b: civilization
+	?a cause ?b
+		?a: obesity
+		?b: further disease
+
+
+label:    sent_19
+sentence: Case report and note on surgical management of muscle echinococcosis .
+
+ppatt:
+
+
+
+label:    sent_20
+sentence: Diesel fume --a note from the Bohs Hygiene Standards Committee .
+
+ppatt:
+	?a note from ?b
+		?a: Diesel fume --a
+		?b: the Bohs Hygiene Standards Committee
+
+
+label:    sent_21
+sentence: Self-report alone failed to note as many drug users as toxicology screen alone .
+
+ppatt:
+	?a failed to note as ?b as ?c
+		?a: Self-report alone
+		?b: many drug users
+		?c: toxicology screen alone
+
+

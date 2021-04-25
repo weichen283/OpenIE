@@ -1,0 +1,355 @@
+label:    sent_1
+sentence: In Drosophila melanogaster phagocytic , macrophage-like hemocytes recognize and ingest microbes .
+
+ppatt:
+	In ?a , ?b recognize ?c
+		?a: Drosophila melanogaster phagocytic
+		?b: macrophage-like hemocytes
+		?c: microbes
+	?a ingest
+		?a: macrophage-like hemocytes
+
+
+label:    sent_2
+sentence: Conversely , MDM used MR and CD11b / CD18 to ingest opsonized organisms .
+
+ppatt:
+	Conversely , ?a used ?b
+		?a: MDM
+		?b: MR
+	Conversely , ?a used ?b
+		?a: MDM
+		?b: CD11b
+	Conversely , ?a used ?b
+		?a: MDM
+		?b: CD18
+	?a ingest ?b
+		?a: MDM
+		?b: opsonized organisms
+
+
+label:    sent_3
+sentence: Six common species of lake algae were found to ingest bacteria .
+
+ppatt:
+	?a were found to ingest ?b
+		?a: Six common species of lake algae
+		?b: bacteria
+
+
+label:    sent_4
+sentence: Immunolocalization and Western blotting also indicated that poultry red mites ingest host IgY .
+
+ppatt:
+	?a also indicated ?b
+		?a: Immunolocalization
+		?b: SOMETHING := poultry red mites ingest host IgY
+	?a also indicated ?b
+		?a: Western blotting
+		?b: SOMETHING := poultry red mites ingest host IgY
+	?a ingest ?b
+		?a: poultry red mites
+		?b: host IgY
+
+
+label:    sent_5
+sentence: There is also anecdotal evidence that they may ingest large amounts of caffeine .
+
+ppatt:
+	There is also ?a
+		?a: anecdotal evidence that they may ingest large amounts of caffeine
+	?a may ingest ?b
+		?a: they
+		?b: large amounts of caffeine
+
+
+label:    sent_6
+sentence: Because salt taste is appetitive , humans ingest more salt than they need .
+
+ppatt:
+	?a is appetitive
+		?a: salt taste
+	?a ingest ?b
+		?a: humans
+		?b: more salt
+	?a need
+		?a: they
+
+
+label:    sent_7
+sentence: Across concentrations , females tended to ingest more mg/kg caffeine than males .
+
+ppatt:
+	Across ?a , ?b tended to ingest ?c than ?d
+		?a: concentrations
+		?b: females
+		?c: more mg/kg caffeine
+		?d: males
+
+
+label:    sent_8
+sentence: Animals need to ingest a full set of essential amino acids through their diet .
+
+ppatt:
+	?a need to ingest ?b through ?c
+		?a: Animals
+		?b: a full set of essential amino acids
+		?c: their diet
+
+
+label:    sent_9
+sentence: Thus , phytoseiids may ingest Bt toxins through several pathways .
+
+ppatt:
+	Thus , ?a may ingest ?b through ?c
+		?a: phytoseiids
+		?b: Bt toxins
+		?c: several pathways
+
+
+label:    sent_10
+sentence: Humans ingest substantial amounts of choline and lecithin as part of common foods .
+
+ppatt:
+	?a ingest ?b as ?c
+		?a: Humans
+		?b: substantial amounts of choline and lecithin
+		?c: part of common foods
+
+
+label:    sent_11
+sentence: Ambulatory patients frequently ingest liquids or smoke just before temperature measurement .
+
+ppatt:
+	?a frequently ingest ?b just before ?c
+		?a: Ambulatory patients
+		?b: liquids
+		?c: temperature measurement
+	?a frequently ingest ?b just before ?c
+		?a: Ambulatory patients
+		?b: smoke
+		?c: temperature measurement
+
+
+label:    sent_12
+sentence: The method enables rats to rapidly ingest large morphine doses under standardized conditions .
+
+ppatt:
+	?a enables ?b to rapidly ingest ?c under ?d
+		?a: The method
+		?b: rats
+		?c: large morphine doses
+		?d: standardized conditions
+
+
+label:    sent_13
+sentence: The lymphoid cell captured SRBCs , but did not ingest them .
+
+ppatt:
+	?a captured ?b
+		?a: The lymphoid cell
+		?b: SRBCs
+	?a did not ingest ?b
+		?a: The lymphoid cell
+		?b: them
+
+
+label:    sent_14
+sentence: She was never thirsty and did not ingest sufficient fluid by choice .
+
+ppatt:
+	?a was never thirsty
+		?a: She
+	?a did not ingest ?b by ?c
+		?a: She
+		?b: sufficient fluid
+		?c: choice
+
+
+label:    sent_15
+sentence: Mir crew members performed the identical protocol but did not ingest medication .
+
+ppatt:
+	?a performed ?b
+		?a: Mir crew members
+		?b: the identical protocol
+	?a did not ingest ?b
+		?a: Mir crew members
+		?b: medication
+
+
+label:    sent_16
+sentence: Specialized eukaryotic cells can ingest large particles and sequester them within membrane-delimited phagosomes .
+
+ppatt:
+	?a can ingest ?b
+		?a: Specialized eukaryotic cells
+		?b: large particles
+	?a sequester ?b within ?c
+		?a: Specialized eukaryotic cells
+		?b: them
+		?c: membrane-delimited phagosomes
+
+
+label:    sent_17
+sentence: Earthworms ingest the bound toxins but are not affected by them .
+
+ppatt:
+	?a ingest ?b
+		?a: Earthworms
+		?b: the bound toxins
+	?a are not affected by ?b
+		?a: Earthworms
+		?b: them
+
+
+label:    sent_18
+sentence: Patients with UC ingest more protein and thereby sulfur amino acids than control subjects .
+
+ppatt:
+	?a ingest ?b than ?c
+		?a: Patients with UC
+		?b: more protein
+		?c: control subjects
+	?a ingest ?b than ?c
+		?a: Patients with UC
+		?b: thereby sulfur amino acids
+		?c: control subjects
+
+
+label:    sent_19
+sentence: Opsonization was not required for the PMN to ingest and kill glass-adherent GBS .
+
+ppatt:
+	?a was not required for ?b to ingest ?c
+		?a: Opsonization
+		?b: the PMN
+		?c: glass-adherent GBS
+	?a was not required to kill
+		?a: Opsonization
+
+
+label:    sent_20
+sentence: They showed little acid phosphatase activity and did not ingest Fic-F . Macrophages represent the first line of defence and ingest and kill conidia .
+
+ppatt:
+	?a showed ?b
+		?a: They
+		?b: little acid phosphatase activity
+	?a did not ingest ?b
+		?a: They
+		?b: Fic-F
+	?a represent ?b
+		?a: Macrophages
+		?b: the first line of defence
+	?a ingest
+		?a: Macrophages
+	?a kill ?b
+		?a: Macrophages
+		?b: conidia
+
+
+label:    sent_21
+sentence: The nonphagocytic cattle parasite Tritrichomonas foetus did not ingest or kill N. gonorrhoeae .
+
+ppatt:
+	?a did not ingest ?b
+		?a: The nonphagocytic cattle parasite Tritrichomonas foetus
+		?b: N. gonorrhoeae
+	?a kill
+		?a: The nonphagocytic cattle parasite Tritrichomonas foetus
+
+
+label:    sent_22
+sentence: Flies also ingest and excrete spores that still express a red fluorescent protein marker .
+
+ppatt:
+	?a also ingest ?b
+		?a: Flies
+		?b: spores that still express a red fluorescent protein marker
+	?a excrete
+		?a: Flies
+	?a still express ?b
+		?a: spores
+		?b: a red fluorescent protein marker
+
+
+label:    sent_23
+sentence: Opsonization by normal serum enabled bovine blood granulocytes to ingest and kill S. agalactiae .
+
+ppatt:
+	?a enabled ?b to ingest ?c
+		?a: Opsonization by normal serum
+		?b: bovine blood granulocytes
+		?c: S. agalactiae
+	?a enabled to kill
+		?a: Opsonization by normal serum
+
+
+label:    sent_24
+sentence: During the last five sessions , subjects chose which drug to ingest .
+
+ppatt:
+	During ?a , ?b chose ?c ?d to ingest
+		?a: the last five sessions
+		?b: subjects
+		?c: which
+		?d: drug
+
+
+label:    sent_25
+sentence: The fluorescence microscopy imaging results showed that the astrocytes could ingest the QDs-Abeta .
+
+ppatt:
+	?a showed ?b
+		?a: The fluorescence microscopy imaging results
+		?b: SOMETHING := the astrocytes could ingest the QDs-Abeta
+	?a could ingest ?b
+		?a: the astrocytes
+		?b: the QDs-Abeta
+
+
+label:    sent_26
+sentence: Our results indicates that larvae can ingest faster than they digest .
+
+ppatt:
+	?a indicates ?b
+		?a: Our results
+		?b: SOMETHING := larvae can ingest faster than they digest
+	?a can ingest ?b
+		?a: larvae
+		?b: faster
+	?a digest
+		?a: they
+
+
+label:    sent_27
+sentence: However , carnivores often ingest hair and feathers during feeding or when grooming . Humans , particularly children , frequently ingest these eggs by accident and become infected .
+
+ppatt:
+	However , ?a often ingest ?b during ?c
+		?a: carnivores
+		?b: hair
+		?c: feeding
+	However , ?a often ingest ?b during ?c
+		?a: carnivores
+		?b: feathers
+		?c: feeding
+	?a is/are particularly children
+		?a: grooming
+	?a is/are particularly children
+		?a: Humans
+	when ?a , frequently ingest ?b by ?c
+		?a: grooming
+		?b: these eggs
+		?c: accident
+	when ?a , frequently ingest ?b by ?c
+		?a: Humans
+		?b: these eggs
+		?c: accident
+	?a become infected
+		?a: grooming
+	?a become infected
+		?a: Humans
+
+

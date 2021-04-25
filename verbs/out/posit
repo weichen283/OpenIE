@@ -1,0 +1,161 @@
+label:    sent_1
+sentence: Dual process theories of recognition memory posit that recollection and familiarity represent dissociable processes .
+
+ppatt:
+	?a posit ?b
+		?a: Dual process theories of recognition memory
+		?b: SOMETHING := recollection and familiarity represent dissociable processes
+	?a represent ?b
+		?a: recollection
+		?b: dissociable processes
+	?a represent ?b
+		?a: familiarity
+		?b: dissociable processes
+
+
+label:    sent_2
+sentence: Conventional models posit that microtubules bound to kinetochores act coordinately during chromosome movement .
+
+ppatt:
+	?a posit ?b
+		?a: Conventional models
+		?b: SOMETHING := microtubules bound to kinetochores act coordinately during chromosome movement
+	?a bound to ?b
+		?a: microtubules
+		?b: kinetochores
+	?a act coordinately during ?b
+		?a: microtubules bound to kinetochores
+		?b: chromosome movement
+
+
+label:    sent_3
+sentence: Therefore , we posit that chymostatin retarded the progression of dystrophy in mice .
+
+ppatt:
+	Therefore , ?a posit ?b
+		?a: we
+		?b: SOMETHING := chymostatin retarded the progression of dystrophy in mice
+	?a retarded ?b
+		?a: chymostatin
+		?b: the progression of dystrophy in mice
+
+
+label:    sent_4
+sentence: Current theories of category learning posit separate verbal and nonverbal learning systems .
+
+ppatt:
+	?a posit ?b
+		?a: Current theories of category learning
+		?b: separate verbal and nonverbal learning systems
+
+
+label:    sent_5
+sentence: We posit a mutual , bidirectional functional influence between these two major brain circuits .
+
+ppatt:
+	?a posit ?b
+		?a: We
+		?b: a mutual , influence between these two major brain circuits
+
+
+label:    sent_6
+sentence: Alternatively , distribution models posit independence of movement direction analysers .
+
+ppatt:
+	Alternatively , ?a posit ?b
+		?a: distribution models
+		?b: independence of movement direction analysers
+
+
+label:    sent_7
+sentence: Alternative autonomous theories posit feed-forward processing with lexical influence restricted to post-perceptual decision processes .
+
+ppatt:
+	?a posit ?b
+		?a: Alternative autonomous theories
+		?b: feed-forward processing with lexical influence restricted to post-perceptual decision processes
+
+
+label:    sent_8
+sentence: Taken together , these data posit CHKB as a new modulator of bone homeostasis .
+
+ppatt:
+	Taken together ?a
+		?a: these data
+	?a posit ?b as ?c
+		?a: these data
+		?b: CHKB
+		?c: a new modulator of bone homeostasis
+
+
+label:    sent_9
+sentence: The study results posit myriad changes to the systematic response to homicide .
+
+ppatt:
+	?a posit ?b
+		?a: The study results
+		?b: myriad changes to the systematic response to homicide
+
+
+label:    sent_10
+sentence: These results challenge theories of speech sound classification that posit uniquely human capacities .
+
+ppatt:
+	?a challenge ?b
+		?a: These results
+		?b: theories of speech sound classification that posit uniquely human capacities
+	?a posit ?b
+		?a: speech sound classification
+		?b: uniquely human capacities
+
+
+label:    sent_11
+sentence: We discuss these results and posit hypotheses for further research of this understudied topic .
+
+ppatt:
+	?a discuss ?b
+		?a: We
+		?b: these results
+	?a posit ?b
+		?a: We
+		?b: hypotheses for further research of this understudied topic
+
+
+label:    sent_12
+sentence: The results support models that posit age-related changes primarily in higher order language processes .
+
+ppatt:
+	?a support ?b
+		?a: The results
+		?b: models that posit age-related changes primarily in higher order language processes
+	?a posit ?b primarily in ?c
+		?a: models
+		?b: age-related changes
+		?c: higher order language processes
+
+
+label:    sent_13
+sentence: From mutant characterizations , we posit that cooH and cooFS are not cotranscribed .
+
+ppatt:
+	From ?a , ?b posit ?c
+		?a: mutant characterizations
+		?b: we
+		?c: SOMETHING := cooH and cooFS are not cotranscribed
+	?a are not cotranscribed
+		?a: cooH
+	?a are not cotranscribed
+		?a: cooFS
+
+
+label:    sent_14
+sentence: There is no need to posit infinite capacity in the unconscious thought condition .
+
+ppatt:
+	There is ?a
+		?a: no need to posit infinite capacity in the unconscious thought condition
+	?a posit ?b
+		?a: no need
+		?b: infinite capacity in the unconscious thought condition
+
+

@@ -1,0 +1,656 @@
+label:    sent_1
+sentence: However , the assessment of visual field , plus fundus and retinal imaging , are particularly important in providing accurate and repeatable measurements on which to determine the progression of the condition .
+
+ppatt:
+	However , ?a are particularly important
+		?a: the assessment of visual field , plus fundus and retinal imaging
+	?a providing ?b
+		?a: the assessment of visual field , plus fundus and retinal imaging
+		?b: accurate and repeatable measurements on which to determine the progression of the condition
+	?a on to determine ?b
+		?a: accurate and repeatable measurements
+		?b: the progression of the condition
+
+
+label:    sent_2
+sentence: Previous studies have found a constant linear relationship between the global stress and strain in the lung independent of lung condition .
+
+ppatt:
+	?a have found ?b
+		?a: Previous studies
+		?b: a constant linear relationship between the global stress and strain in the lung independent of lung condition
+
+
+label:    sent_3
+sentence: However , to be successful , the genetic study of a complex condition requires a heritable phenotype to be developed and validated .
+
+ppatt:
+	be successful ?a
+		?a: the genetic study of a complex condition
+	However , ?a requires ?b
+		?a: the genetic study of a complex condition
+		?b: a heritable phenotype to be developed and validated
+	?a be developed
+		?a: a heritable phenotype
+	?a validated
+		?a: a heritable phenotype
+
+
+label:    sent_4
+sentence: Only 1 case of atraumatic proximal tibiofibular joint instability in a 14-year-old girl has been reported in the literature , however this condition might occur more frequently than once thought .
+
+ppatt:
+	?a has been reported in ?b
+		?a: Only 1 case of atraumatic proximal tibiofibular joint instability in a 14-year-old girl
+		?b: the literature
+	however ?a might occur more frequently
+		?a: this condition
+	?a than once thought
+		?a: this condition
+
+
+label:    sent_5
+sentence: Post-thrombotic syndrome is a chronic , potentially debilitating condition that occurs in approximately 15 % of upper-extremity DVT cases with symptoms consisting of pain , swelling , paresthesias , and functional limitation .
+
+ppatt:
+	?a is a chronic , condition
+		?a: Post-thrombotic syndrome
+	?a occurs in ?b with ?c
+		?a: a chronic , condition
+		?b: approximately 15 % of upper-extremity DVT cases
+		?c: symptoms consisting of pain , swelling , paresthesias , and functional limitation
+	?a consisting of ?b
+		?a: symptoms
+		?b: pain
+	?a consisting of ?b
+		?a: symptoms
+		?b: swelling
+	?a consisting of ?b
+		?a: symptoms
+		?b: paresthesias
+	?a consisting of ?b
+		?a: symptoms
+		?b: functional limitation
+
+
+label:    sent_6
+sentence: The authors demonstrate that his neurological condition was a delayed manifestation of lead toxicity , caused by slow absorption of lead from persisting bullet fragments in the hip joint .
+
+ppatt:
+	?a demonstrate ?b
+		?a: The authors
+		?b: SOMETHING := his neurological condition was a delayed manifestation of lead toxicity , caused by slow absorption of lead from persisting bullet fragments in the hip joint
+	?a was a delayed manifestation
+		?a: his neurological condition
+	?a lead ?b
+		?a: a delayed manifestation , caused by slow absorption
+		?b: toxicity
+	?a caused by ?b
+		?a: a delayed manifestation of lead toxicity , of lead from persisting bullet fragments in the hip joint
+		?b: slow absorption
+	lead from ?a
+		?a: persisting bullet fragments in the hip joint
+
+
+label:    sent_7
+sentence: To properly recognize and treat the condition , careful physical examination and adequate imaging studies are crucial .
+
+ppatt:
+	properly recognize ?a ?b
+		?a: the condition
+		?b: careful physical examination
+	properly recognize ?a ?b
+		?a: the condition
+		?b: adequate imaging studies
+	treat ?a
+		?a: careful physical examination
+	treat ?a
+		?a: adequate imaging studies
+	?a are crucial
+		?a: careful physical examination
+	?a are crucial
+		?a: adequate imaging studies
+
+
+label:    sent_8
+sentence: However , extraction with 0.43 M.CH3 COOH revealed that remobilization of heavy metals can occur when the soil reaches an acidic condition .
+
+ppatt:
+	However , ?a revealed ?b
+		?a: extraction with 0.43 M.CH3 COOH
+		?b: SOMETHING := remobilization of heavy metals can occur when the soil reaches an acidic condition
+	?a can occur
+		?a: remobilization of heavy metals
+	when ?a reaches ?b
+		?a: the soil
+		?b: an acidic condition
+
+
+label:    sent_9
+sentence: Nicotine dependence has been shown to represent a heritable condition , and several research groups have performed linkage analysis to identify genomic regions influencing this disorder though only a limited number of the findings have been replicated .
+
+ppatt:
+	?a has been shown to represent ?b
+		?a: Nicotine dependence
+		?b: a heritable condition
+	?a have performed ?b
+		?a: several research groups
+		?b: linkage analysis to identify genomic regions influencing this disorder
+	?a identify ?b
+		?a: linkage analysis
+		?b: genomic regions influencing this disorder
+	?a influencing ?b
+		?a: genomic regions
+		?b: this disorder
+	?a have been replicated
+		?a: only a limited number of the findings
+
+
+label:    sent_10
+sentence: It is an extremely rare condition with around 30 cases reported in world literature .
+
+ppatt:
+	?a is an extremely rare condition with ?b
+		?a: It
+		?b: around 30 cases reported in world literature
+	?a reported in ?b
+		?a: around 30 cases
+		?b: world literature
+
+
+label:    sent_11
+sentence: Efficient standardization through markup languages and data annotation is a sine qua non condition for a systems-level analysis of signaling processes .
+
+ppatt:
+	?a is a sine qua non condition for ?b
+		?a: Efficient standardization through markup languages and data annotation
+		?b: a systems-level analysis of signaling processes
+
+
+label:    sent_12
+sentence: Malignant vaginal melanoma is an extremely rare clinical condition , with less than 150 cases reported to date .
+
+ppatt:
+	?a is an extremely rare clinical condition , with ?b
+		?a: Malignant vaginal melanoma
+		?b: less than 150 cases reported to date
+	?a reported to ?b
+		?a: less than 150 cases
+		?b: date
+
+
+label:    sent_13
+sentence: No significant differences in removal torque were observed , either by time or by treatment condition .
+
+ppatt:
+	?a were observed , by ?b
+		?a: No significant differences in removal torque
+		?b: time
+	?a were observed , by ?b
+		?a: No significant differences in removal torque
+		?b: treatment condition
+
+
+label:    sent_14
+sentence: The patient may appear very toxic and rapidly progress to respiratory distress and life-threatening condition .
+
+ppatt:
+	?a may appear very toxic
+		?a: The patient
+	?a rapidly progress to ?b
+		?a: The patient
+		?b: respiratory distress
+	?a rapidly progress to ?b
+		?a: The patient
+		?b: life-threatening condition
+
+
+label:    sent_15
+sentence: The ACL was then sectioned , six baseline trials were repeated , and then six trials of either the internal or the external loading condition , whichever had initially resulted in the larger relative ACL strain , were carried out .
+
+ppatt:
+	?a was then sectioned
+		?a: The ACL
+	?a were repeated
+		?a: six baseline trials
+	?a ?b had initially resulted in ?c
+		?a: six trials of either the internal or the external
+		?b: whichever
+		?c: the larger relative ACL strain
+	then ?a were carried out
+		?a: six trials of either the internal or the external , whichever had initially resulted in the larger relative ACL strain
+
+
+label:    sent_16
+sentence: In this randomized study , 58 first-grade classrooms located in 30 schools were assigned to a control condition or to one of two intervention conditions .
+
+ppatt:
+	In ?a , ?b were assigned to ?c
+		?a: this randomized study
+		?b: 58 first-grade classrooms located in 30 schools
+		?c: a control condition
+	In ?a , ?b were assigned to ?c
+		?a: this randomized study
+		?b: 58 first-grade classrooms located in 30 schools
+		?c: one of two intervention conditions
+
+
+label:    sent_17
+sentence: The study used a four-group parallel design ( n=86 ) to investigate the effects of 12 h of night-time , including polysomnographically monitored sleep ( ' sleep condition ' in PI and GSC ) , versus 12 h of daytime wakefulness ( ' wake condition ' in PI and GSC ) on procedural ( mirror tracing task ) and declarative memory consolidation ( visual and verbal learning task ) . We explored the relationship between circulating antioxidant concentrations and both body condition and timing of reproduction in male and female Florida Scrub-Jays ( Aphelocoma coerulescens ) , a cooperatively breeding passerine bird .
+
+ppatt:
+	?a used ?b
+		?a: The study
+		?b: a four-group parallel design
+	?a is/are n=86
+		?a: a four-group parallel design
+	?a investigate ?b
+		?a: The study
+		?b: the effects of 12 h of night-time , including polysomnographically monitored sleep in PI and GSC
+	?a investigate ?b
+		?a: The study
+		?b: 12 h of daytime wakefulness on procedural and declarative memory consolidation
+	?a is/are ' sleep condition
+		?a: polysomnographically monitored sleep in PI and GSC
+	?a is/are wake condition ' in ?b
+		?a: daytime wakefulness on procedural and declarative memory consolidation
+		?b: PI
+	?a is/are wake condition ' in ?b
+		?a: daytime wakefulness on procedural and declarative memory consolidation
+		?b: GSC
+	?a is/are visual and verbal learning task
+		?a: declarative memory consolidation
+	?a explored ?b
+		?a: We
+		?b: the relationship between circulating antioxidant concentrations and both body condition and timing of reproduction in male and female Florida Scrub-Jays
+	?a is/are Aphelocoma coerulescens
+		?a: male and female Florida Scrub-Jays
+	?a is/are a cooperatively breeding passerine bird
+		?a: male and female Florida Scrub-Jays
+
+
+label:    sent_18
+sentence: We diagnosed his condition as insulin autoimmune syndrome ( IAS , Hirata disease ) because of a high insulin autoantibody ( IAA ) titer ( >90 % : bound/total ) and no history of exogenous insulin administration .
+
+ppatt:
+	?a diagnosed ?b as ?c
+		?a: We
+		?b: his condition
+		?c: insulin autoimmune syndrome because of a high insulin autoantibody titer and no history of exogenous insulin administration
+	?a is/are Hirata disease
+		?a: IAS
+	?a is/are IAA
+		?a: insulin autoantibody
+
+
+label:    sent_19
+sentence: Consequently , it is important to have the condition in mind in infants who cry for no obvious reason , and in infants presenting with oedema on fingers , toes or genitalia .
+
+ppatt:
+	Consequently , ?a is important to have ?b
+		?a: it
+		?b: the condition in mind in infants who cry for no obvious reason and in infants presenting with oedema on fingers , toes or genitalia
+	?a cry for ?b
+		?a: infants
+		?b: no obvious reason
+	cry for ?a ?b
+		?a: no obvious reason
+		?b: infants presenting with oedema on fingers , toes or genitalia
+	?a presenting with ?b
+		?a: infants
+		?b: oedema on fingers , toes or genitalia
+
+
+label:    sent_20
+sentence: Progressive multifocal leukoencephalopathy as an AIDS-defining condition in a patient with high CD4+ T-lymphocyte count .
+
+ppatt:
+
+
+
+label:    sent_21
+sentence: Congenital hypoplasia of the extensor tendons , which is defined as a congenital anomaly of the hand involving the extensor mechanism , is a rare condition and there are few previous reports in literature .
+
+ppatt:
+	?a is defined as ?b
+		?a: Congenital hypoplasia of the extensor tendons
+		?b: a congenital anomaly of the hand involving the extensor mechanism
+	?a involving ?b
+		?a: the hand
+		?b: the extensor mechanism
+	?a is a rare condition
+		?a: Congenital hypoplasia of the extensor tendons , which is defined as a congenital anomaly of the hand involving the extensor mechanism
+	there are ?a
+		?a: few previous reports in literature
+
+
+label:    sent_22
+sentence: FIPA is an autosomal dominant condition , defined by the presence of two or more patients affected by PAs in the same kindred , and no other associated condition .
+
+ppatt:
+	?a is an autosomal dominant condition
+		?a: FIPA
+	?a defined by ?b
+		?a: an autosomal dominant condition
+		?b: the presence of two or more patients affected by PAs in the same kindred
+	?a defined by ?b
+		?a: an autosomal dominant condition
+		?b: no other associated condition
+	?a affected by ?b
+		?a: two or more patients
+		?b: PAs in the same kindred
+
+
+label:    sent_23
+sentence: Septic arthritis of the sternoclavicular joint ( SCJ ) is a rare condition and has many diagnostic and therapeutic standards .
+
+ppatt:
+	?a is/are SCJ
+		?a: the sternoclavicular joint
+	?a is a rare condition
+		?a: Septic arthritis of the sternoclavicular joint
+	?a has ?b
+		?a: Septic arthritis of the sternoclavicular joint
+		?b: many diagnostic and therapeutic standards
+
+
+label:    sent_24
+sentence: Aneurysmal subarachnoid hemorrhaging ( ASH ) is a severe condition with an acute symptomatic , often with a difficult course and accompanied by many complications .
+
+ppatt:
+	?a is/are ASH
+		?a: Aneurysmal subarachnoid hemorrhaging
+	?a is a severe condition with ?b with ?c
+		?a: Aneurysmal subarachnoid hemorrhaging
+		?b: an acute symptomatic , often
+		?c: a difficult course
+	?a accompanied by ?b
+		?a: Aneurysmal subarachnoid hemorrhaging
+		?b: many complications
+
+
+label:    sent_25
+sentence: AFE is a rare and often fatal obstetric condition , characterized by sudden cardiovascular collapse , and massive bleeding with DIC .
+
+ppatt:
+	?a is a rare and often fatal obstetric condition
+		?a: AFE
+	?a characterized by ?b
+		?a: a rare and often fatal obstetric condition
+		?b: sudden cardiovascular collapse
+	characterized by ?a ?b
+		?a: sudden cardiovascular collapse
+		?b: massive bleeding with DIC
+	?a massive bleeding with ?b
+		?a: AFE
+		?b: DIC
+
+
+label:    sent_26
+sentence: It is an acquired condition and , in some cases , may be paraneoplastic , often secondary to underlying small cell lung carcinoma .
+
+ppatt:
+	?a is an acquired condition
+		?a: It
+	?a in ?b , may be paraneoplastic
+		?a: It
+		?b: some cases
+	?a often secondary
+		?a: It
+	?a underlying ?b
+		?a: It
+		?b: small cell lung carcinoma
+
+
+label:    sent_27
+sentence: A 14-day course of ampicillin / sulbactam improved her clinical condition and laboratory data .
+
+ppatt:
+	?a improved ?b
+		?a: A 14-day course of ampicillin / sulbactam
+		?b: her clinical condition
+	?a improved ?b
+		?a: A 14-day course of ampicillin / sulbactam
+		?b: laboratory data
+
+
+label:    sent_28
+sentence: This could depress individual condition , breeding performance and survival and thus drive or contribute to overall reductions in population size .
+
+ppatt:
+	?a could depress ?b
+		?a: This
+		?b: individual condition
+	?a could depress ?b
+		?a: This
+		?b: breeding
+	?a could depress ?b
+		?a: This
+		?b: performance
+	?a could depress ?b
+		?a: This
+		?b: survival
+	?a thus drive
+		?a: This
+	?a contribute to ?b
+		?a: This
+		?b: overall reductions in population size
+
+
+label:    sent_29
+sentence: In this sense , we found that relative contribution of tortricids ( smaller caterpillars but easier to get ) and noctuids ( preferred prey but more difficult to find ) to the diet influenced nestling condition and parental provisioning effort ; parents performed fewer feeding events and reared heavier nestlings as the contribution of noctuids to the diet increased .
+
+ppatt:
+	In ?a , ?b found ?c
+		?a: this sense
+		?b: we
+		?c: SOMETHING := relative contribution of tortricids and noctuids but more difficult to find to the diet influenced nestling condition and parental provisioning effort ; parents performed fewer feeding events and reared heavier nestlings as the contribution of noctuids to the diet increased
+	?a influenced ?b
+		?a: relative contribution of tortricids and noctuids but more difficult to find to the diet
+		?b: nestling condition
+	?a influenced ?b
+		?a: relative contribution of tortricids and noctuids but more difficult to find to the diet
+		?b: parental provisioning effort
+	?a performed ?b
+		?a: parents as the contribution of noctuids to the diet
+		?b: fewer feeding events
+	?a performed ?b
+		?a: parents as the contribution of noctuids to the diet
+		?b: reared heavier nestlings
+	?a increased
+		?a: parents performed fewer feeding events and reared heavier nestlings as the contribution of noctuids to the diet
+
+
+label:    sent_30
+sentence: To illustrate the capability of this system , datasets from two research cruises are presented in this paper that help to clarify processes inducing an inverse estuary condition at the mouth of the ship channel and hypoxia at the bottom of the bay . It should be applied discriminatively depending on the actual condition of patients and the aim of treatment in clinic .
+
+ppatt:
+	illustrate ?a ?b
+		?a: the capability of this system
+		?b: datasets from two research cruises
+	?a are presented in ?b
+		?a: datasets from two research cruises
+		?b: this paper that help to clarify processes inducing an inverse estuary condition at the mouth of the ship channel and hypoxia at the bottom of the bay
+	?a help to clarify ?b
+		?a: this paper
+		?b: processes inducing an inverse estuary condition at the mouth of the ship channel and hypoxia at the bottom of the bay
+	?a inducing ?b at ?c
+		?a: processes
+		?b: an inverse estuary condition
+		?c: the mouth of the ship channel at the bottom of the bay
+	?a inducing ?b at ?c
+		?a: processes
+		?b: an inverse estuary condition
+		?c: hypoxia
+	?a should be applied discriminatively
+		?a: It
+	?a depending on the actual condition of ?b
+		?a: It
+		?b: patients
+	?a the aim of ?b
+		?a: It
+		?b: treatment in clinic
+
+
+label:    sent_31
+sentence: We reviewed the medical records of 23 Japanese patients with RRMS who showed ( 1 ) a stable or improving condition for at least 30 days before a magnetic resonance imaging ( MRI ) examination and ( 2 ) at least one relapse in the preceding year or two relapses in the preceding 2 years .
+
+ppatt:
+	?a reviewed ?b
+		?a: We
+		?b: the medical records of 23 Japanese patients with RRMS who showed a stable or improving condition for at least 30 days before a magnetic resonance imaging examination and at least one relapse in the preceding year or two relapses in the preceding 2 years
+	?a showed ?b
+		?a: the medical records of 23 Japanese patients with RRMS
+		?b: a stable or improving condition for at least 30 days before a magnetic resonance imaging examination
+	?a showed ?b
+		?a: the medical records of 23 Japanese patients with RRMS
+		?b: at least one relapse in the preceding year
+	?a is/are MRI
+		?a: magnetic resonance imaging
+
+
+label:    sent_32
+sentence: This hypothesis was supported in the prediction of positive thoughts such that at high levels of social anxiety the distraction is conditioned on more positive thoughts compared with the guided negative rumination .
+
+ppatt:
+	?a was supported in ?b
+		?a: This hypothesis
+		?b: the prediction of positive thoughts
+	at ?a ?b is conditioned on ?c
+		?a: high levels of social anxiety
+		?b: the distraction
+		?c: more positive thoughts
+	?a compared with the guided negative rumination
+		?a: the distraction
+
+
+label:    sent_33
+sentence: The joint quantification does not require us to condition diagnostic accuracy on any pre-defined study population .
+
+ppatt:
+	?a does not require ?b to condition ?c on ?d
+		?a: The joint quantification
+		?b: us
+		?c: diagnostic accuracy
+		?d: any pre-defined study population
+
+
+label:    sent_34
+sentence: LTB4 can condition neutrophils to exert virucidal effects in vitro and may reduce virus replication in vivo .
+
+ppatt:
+	?a can condition ?b to exert ?c in vitro
+		?a: LTB4
+		?b: neutrophils
+		?c: virucidal effects
+	?a may reduce ?b in vivo
+		?a: LTB4
+		?b: virus replication
+
+
+label:    sent_35
+sentence: Since the time of increased HC-associated blebbing in cycling cell populations coincides with the time during which HC-treated cells condition the medium with a growth-stimulating ( autocrine ) factor , it is possible that blebbing may represent extrusion of this factor from the cells at these times .
+
+ppatt:
+	?a coincides with ?b
+		?a: the time of increased HC-associated blebbing in cycling cell populations
+		?b: the time during which HC-treated cells condition the medium with a growth-stimulating ( autocrine ) factor
+	?a during ?b condition ?c with ?d
+		?a: the time
+		?b: HC-treated cells
+		?c: the medium
+		?d: a growth-stimulating ( autocrine ) factor
+	?a is possible ?b
+		?a: it
+		?b: SOMETHING := blebbing may represent extrusion of this factor from the cells at these times
+	?a may represent ?b at ?c
+		?a: blebbing
+		?b: extrusion of this factor from the cells
+		?c: these times
+
+
+label:    sent_36
+sentence: Here , we confirm and generalize previous indications that genetic alleles in NOD mice condition ineffective clonal deviation toward the CD8alphaalpha lineage , a peculiar population of TCRalphabeta lymphocytes that electively colonizes the intraepithelial lymphocyte pool in the gut .
+
+ppatt:
+	Here , ?a confirm ?b
+		?a: we
+		?b: previous indications that genetic alleles in NOD mice condition ineffective clonal deviation toward the CD8alphaalpha lineage
+	?a generalize
+		?a: we
+	?a condition ?b
+		?a: genetic alleles in NOD mice
+		?b: ineffective clonal deviation toward the CD8alphaalpha lineage
+	?a is/are a peculiar population of ?b
+		?a: the CD8alphaalpha lineage
+		?b: TCRalphabeta lymphocytes
+	?a electively colonizes ?b
+		?a: a peculiar population of TCRalphabeta lymphocytes
+		?b: the intraepithelial lymphocyte pool in the gut
+
+
+label:    sent_37
+sentence: Finally , immunological monitoring assays are notable for the great promise they offer in terms of immunobiological probes to dissect mechanisms of rejection , mechanisms of graft facilitation , mechanisms of action of immunosuppressive agents , and mechanisms by which empirical technology of recipient pre-treatment may condition the host to better acceptance of an incompatible graft .
+
+ppatt:
+	Finally , ?a are notable for ?b
+		?a: immunological monitoring assays
+		?b: the great promise
+	?a offer in ?b to dissect ?c
+		?a: they
+		?b: terms of immunobiological probes
+		?c: mechanisms of rejection
+	?a offer in ?b to dissect ?c
+		?a: they
+		?b: terms of immunobiological probes
+		?c: mechanisms of graft facilitation
+	?a offer in ?b to dissect ?c
+		?a: they
+		?b: terms of immunobiological probes
+		?c: mechanisms of action of immunosuppressive agents
+	?a offer in ?b to dissect ?c
+		?a: they
+		?b: terms of immunobiological probes
+		?c: mechanisms by which empirical technology of recipient pre-treatment may condition the host to better acceptance of an incompatible graft
+	?a by ?b may condition ?c to ?d
+		?a: mechanisms
+		?b: empirical technology of recipient pre-treatment
+		?c: the host
+		?d: better acceptance of an incompatible graft
+
+
+label:    sent_38
+sentence: Specifically , we propose a class of models that condition on the covariate information through time s and then specifies the conditional hazard for times t , where t > s . To identify factors that condition or moderate the impact of a previously described set of interventions on psychological and physical adjustment after diagnosis and treatment for early-stage breast cancer .
+
+ppatt:
+	Specifically , ?a propose ?b
+		?a: we
+		?b: a class of models that condition on the covariate information through time s
+	?a condition on ?b
+		?a: a class of models
+		?b: the covariate information through time s
+	?a then specifies ?b To identify ?c
+		?a: we
+		?b: the conditional hazard for times t
+		?c: factors that condition or moderate the impact of a previously described set of interventions on psychological and physical adjustment after diagnosis and treatment for early-stage breast cancer
+	?a is/are where t > s
+		?a: times t
+	?a condition ?b
+		?a: factors
+		?b: the impact of a previously described set of interventions on psychological and physical adjustment after diagnosis and treatment for early-stage breast cancer
+
+
+label:    sent_39
+sentence: In daily practice , both the clinical Masaoka 's staging system and the WHO histological classification condition the treatment strategies and allow to anticipate the prognosis .
+
+ppatt:
+	?a ?b ?c condition ?d
+		?a: the clinical Masaoka 's staging system
+		?b: the WHO
+		?c: histological classification
+		?d: the treatment strategies
+	?a allow to anticipate ?b
+		?a: histological classification
+		?b: the prognosis
+
+

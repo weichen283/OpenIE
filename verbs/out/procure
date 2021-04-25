@@ -1,0 +1,152 @@
+label:    sent_1
+sentence: Traditionally , the detection of cancer has involved invasive procedures to procure samples .
+
+ppatt:
+	Traditionally , ?a has involved ?b to procure ?c
+		?a: the detection of cancer
+		?b: invasive procedures
+		?c: samples
+
+
+label:    sent_2
+sentence: It was no crime to procure an abortion prior to quickening . Second , there was an inadequate capacity to forecast and procure medicines .
+
+ppatt:
+	?a was no crime
+		?a: It
+	?a procure ?b prior to ?c
+		?a: no crime
+		?b: an abortion
+		?c: quickening
+	Second , there was ?a
+		?a: an inadequate capacity to forecast and procure medicines
+	?a forecast ?b
+		?a: an inadequate capacity
+		?b: medicines
+	?a procure
+		?a: an inadequate capacity
+
+
+label:    sent_3
+sentence: We were able to procure large amounts of cancellous bone graft through this method .
+
+ppatt:
+	?a were able to procure ?b through ?c
+		?a: We
+		?b: large amounts of cancellous bone graft
+		?c: this method
+
+
+label:    sent_4
+sentence: The aim of this study was to procure new experiences on this method .
+
+ppatt:
+	?a was to procure ?b
+		?a: The aim of this study
+		?b: new experiences on this method
+
+
+label:    sent_5
+sentence: The most winnable food-related strategy was improving mechanisms to procure food from local farms .
+
+ppatt:
+	?a was improving ?b
+		?a: The most winnable food-related strategy
+		?b: mechanisms to procure food from local farms
+	?a procure ?b
+		?a: mechanisms
+		?b: food from local farms
+
+
+label:    sent_6
+sentence: When endoscopists procure such evidence , biopsies should be done for confirmation .
+
+ppatt:
+	When ?a procure ?b
+		?a: endoscopists
+		?b: such evidence
+	?a should be done for ?b
+		?a: biopsies
+		?b: confirmation
+
+
+label:    sent_7
+sentence: [Trial project in Aust-Agder--school students will procure Maurasen nurses ] . This study explores how women procure these funds . Also , 80.4 % procure their drugs in chemist shops . Do different species procure the same prey types via similar feeding behaviors ? A majority would procure organs from those in irreversible coma or in PVS .
+
+ppatt:
+	?a will procure ?b ?c
+		?a: [Trial project in Aust-Agder--school students
+		?b: Maurasen nurses
+		?c: ]
+	?a explores ?b ?c
+		?a: This study
+		?b: SOMETHING := how women procure these funds
+		?c: SOMETHING := Also 80.4 % procure their drugs in chemist shops
+	how ?a procure ?b
+		?a: women
+		?b: these funds
+	Also ?a procure ?b
+		?a: 80.4 %
+		?b: their drugs in chemist shops
+	?a Do
+		?a: 80.4 %
+	?a procure ?b via ?c
+		?a: different species
+		?b: the same prey types
+		?c: similar feeding behaviors
+	?a would procure ?b
+		?a: A majority
+		?b: organs from those in irreversible coma or in PVS
+
+
+label:    sent_8
+sentence: Invasive procedures are often required to procure tissue for culture and guide antimicrobial therapy .
+
+ppatt:
+	?a are often required to procure ?b for ?c
+		?a: Invasive procedures
+		?b: tissue
+		?c: culture
+	?a are often required to guide ?b
+		?a: Invasive procedures
+		?b: antimicrobial therapy
+
+
+label:    sent_9
+sentence: They are also inexpensive to procure and maintain .
+
+ppatt:
+	?a are also inexpensive to procure
+		?a: They
+	?a are also inexpensive to maintain
+		?a: They
+
+
+label:    sent_10
+sentence: Women can also procure loans to sell groceries or for farming activities .
+
+ppatt:
+	?a can also procure ?b to sell ?c
+		?a: Women
+		?b: loans
+		?c: groceries
+	?a can also procure ?b to sell ?c
+		?a: Women
+		?b: loans
+		?c: farming activities
+
+
+label:    sent_11
+sentence: One way that underage drinkers procure alcohol is by using a fake ID .
+
+ppatt:
+	?a procure ?b
+		?a: underage drinkers
+		?b: alcohol
+	?a is
+		?a: One way that underage drinkers procure alcohol
+	?a using ?b
+		?a: One way that underage drinkers procure alcohol
+		?b: a fake ID
+
+

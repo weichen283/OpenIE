@@ -1,0 +1,107 @@
+label:    sent_1
+sentence: Frequent social interaction may buffer the negative effect of living alone on HRQOL of older adults .
+
+ppatt:
+	?a may buffer ?b
+		?a: Frequent social interaction
+		?b: the negative effect of living alone on HRQOL of older adults
+	?a living alone on ?b
+		?a: the negative effect
+		?b: HRQOL of older adults
+
+
+label:    sent_2
+sentence: Social support , especially from marriage , may buffer the negative impact of stressful events and chronic health conditions .
+
+ppatt:
+	?a may buffer ?b
+		?a: Social support , especially from marriage
+		?b: the negative impact of stressful events and chronic health conditions
+
+
+label:    sent_3
+sentence: Several lines of research have illustrated that negative environments can precipitate psychopathology , particularly in the context of relatively increased biological risk , while social resources can buffer the effects of these environments .
+
+ppatt:
+	?a have illustrated ?b
+		?a: Several lines of research
+		?b: SOMETHING := negative environments can precipitate psychopathology , particularly in the context of relatively increased biological risk , while social resources can buffer the effects of these environments
+	?a can precipitate ?b , in ?c
+		?a: negative environments
+		?b: psychopathology
+		?c: particularly the context of relatively increased biological risk
+	?a can buffer ?b
+		?a: social resources
+		?b: the effects of these environments
+
+
+label:    sent_4
+sentence: Recent years have seen a growing interest into resilience to suicidality , which has been described as a perception or set of beliefs which buffer individuals from suicidality in the face of stressors .
+
+ppatt:
+	?a have seen ?b
+		?a: Recent years
+		?b: a growing interest into resilience to suicidality , which has been described as a perception or set of beliefs which buffer individuals from suicidality in the face of stressors
+	?a has been described as ?b ?c
+		?a: a growing interest into resilience to suicidality
+		?b: a perception of beliefs
+		?c: which buffer individuals from suicidality in the face of stressors
+	?a has been described as ?b ?c
+		?a: a growing interest into resilience to suicidality
+		?b: set
+		?c: which buffer individuals from suicidality in the face of stressors
+
+
+label:    sent_5
+sentence: Genetic diversity may buffer amphibian populations against environmental vicissitudes .
+
+ppatt:
+	?a buffer ?b
+		?a: Genetic diversity
+		?b: may amphibian populations against environmental vicissitudes
+
+
+label:    sent_6
+sentence: Four broad policy strategies emerge : ( i ) enhancing human adaptability through learning and innovation in the context of changes occurring at multiple scales ; ( ii ) increasing resilience by strengthening negative ( stabilizing ) feedbacks that buffer the system from change and increasing options for adaptation through biological , cultural , and economic diversity ; ( iii ) reducing vulnerability by strengthening institutions that link the high-latitude impacts of climate warming to their low-latitude causes ; and ( iv ) facilitating transformation to new , potentially more beneficial states by taking advantage of opportunities created by crisis .
+
+ppatt:
+	?a emerge ?b
+		?a: Four broad policy strategies
+		?b: human adaptability through learning and innovation of changes occurring at multiple scales
+	?a emerge ?b
+		?a: Four broad policy strategies
+		?b: increasing resilience by strengthening negative feedbacks that buffer the system from change and increasing options for adaptation through biological , cultural , and economic diversity reducing vulnerability by strengthening institutions that link the high-latitude impacts of climate warming to their low-latitude causes and facilitating transformation to new , states by taking advantage of opportunities created by crisis
+	?a occurring at ?b
+		?a: changes
+		?b: multiple scales
+	strengthening ?a
+		?a: negative feedbacks that buffer the system from change and increasing options for adaptation through biological , cultural , and economic diversity reducing vulnerability by strengthening institutions that link the high-latitude impacts of climate warming to their low-latitude causes and facilitating transformation to new , states by taking advantage of opportunities created by crisis
+	?a buffer ?b
+		?a: negative feedbacks
+		?b: the system from change
+	?a buffer ?b
+		?a: negative feedbacks
+		?b: options
+	?a increasing for ?b
+		?a: that
+		?b: adaptation through biological , cultural , and economic diversity
+	?a reducing ?b
+		?a: that
+		?b: vulnerability
+	?a strengthening ?b
+		?a: that
+		?b: institutions that link the high-latitude impacts of climate warming to their low-latitude causes and facilitating transformation to new , states by taking advantage of opportunities created by crisis
+	?a link ?b
+		?a: institutions
+		?b: the high-latitude impacts of climate warming to their low-latitude causes
+	?a facilitating ?b
+		?a: that
+		?b: transformation to new , states
+	?a taking ?b
+		?a: that
+		?b: advantage of opportunities created by crisis
+	?a created by ?b
+		?a: opportunities
+		?b: crisis
+
+

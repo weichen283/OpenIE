@@ -1,0 +1,443 @@
+label:    sent_1
+sentence: These results support intending BMI as nutritional reserve in institutionalized elderly patients .
+
+ppatt:
+	?a support ?b as ?c
+		?a: These results
+		?b: intending BMI
+		?c: nutritional reserve in institutionalized elderly patients
+
+
+label:    sent_2
+sentence: Based on these findings , we assume that BAC-SubDo-03 might serve as a Mn reserve in the sponge providing the animal with the capacity to detoxify Mn in the environment .
+
+ppatt:
+	Based on these findings ?a
+		?a: we
+	?a assume ?b
+		?a: we
+		?b: SOMETHING := BAC-SubDo-03 might serve as a Mn reserve in the sponge providing the animal with the capacity to detoxify Mn in the environment
+	?a might serve as ?b
+		?a: BAC-SubDo-03
+		?b: a Mn reserve in the sponge providing the animal with the capacity to detoxify Mn in the environment
+	?a providing ?b with ?c
+		?a: the sponge
+		?b: the animal
+		?c: the capacity to detoxify Mn in the environment
+	?a detoxify ?b in ?c
+		?a: the capacity
+		?b: Mn
+		?c: the environment
+
+
+label:    sent_3
+sentence: Interventional cardiology : Cost-effectiveness of PCI guided by fractional flow reserve .
+
+ppatt:
+	?a guided by ?b
+		?a: PCI
+		?b: fractional flow reserve
+
+
+label:    sent_4
+sentence: Inotropic reserve ( oxygen pulse ) was similar in both groups ( 11.1 +/- 3.3 vs 11.1 +/- 3.4 mL/beat ; P = .94 ) , consistent with equivalent stroke volumes , but chronotropic incompetence was higher ( 95 % vs 71 % , P = .001 ) and peak VO ( 2 ) was lower ( 12.2 +/- 3.4 vs 14.2 +/- 4.1 mL/kg/min ; P = .004 ) in the PG .
+
+ppatt:
+	?a is/are oxygen pulse
+		?a: Inotropic reserve
+	?a was similar in ?b , consistent with ?c
+		?a: Inotropic reserve
+		?b: both groups
+		?c: equivalent stroke volumes
+	?a = ?b
+		?a: P
+		?b: .94
+	?a was higher
+		?a: chronotropic incompetence
+	?a is/are 2
+		?a: peak VO
+	?a was lower in ?b
+		?a: Inotropic reserve
+		?b: the PG
+	?a = ?b
+		?a: P
+		?b: .004
+
+
+label:    sent_5
+sentence: Coronary flow velocity reserve ( CFR ) was measured using transthoracic Doppler echocardiography in 18 men ( 54+/-9 years ) before and after 3 months of treatment with 600 mg/d of irbesartan and in 18 controls ( 55+/-11 years ) . Cardiac reserve is mobilized during pregnancy , and is especially during the abnormal pregnancies due to the heavy cardiac burden .
+
+ppatt:
+	?a is/are CFR
+		?a: Coronary flow velocity reserve
+	?a was measured using ?b in ?c ?d
+		?a: Coronary flow velocity reserve
+		?b: transthoracic Doppler echocardiography
+		?c: 18 men
+		?d: after
+	?a was measured using ?b in ?c ?d
+		?a: Coronary flow velocity reserve
+		?b: transthoracic Doppler echocardiography
+		?c: 18 men
+		?d: before 3 months of treatment with 600 mg/d of irbesartan and in 18 controls
+	?a is/are 54+/-9 years
+		?a: 18 men
+	?a is/are 55+/-11 years
+		?a: 18 controls
+	?a is mobilized during ?b
+		?a: Cardiac reserve
+		?b: pregnancy
+
+
+label:    sent_6
+sentence: Pediatric cardiologists continue to seek noninvasive , load-independent indexes for the assessment of LV contractility and myocardial reserve .
+
+ppatt:
+	?a continue to seek ?b for ?c
+		?a: Pediatric cardiologists
+		?b: noninvasive , indexes
+		?c: the assessment of LV contractility and myocardial reserve
+
+
+label:    sent_7
+sentence: The availability of pediatric normal values for both this relation and resting LV IVA might facilitate future investigation of LV contractility and myocardial contractile reserve during childhood .
+
+ppatt:
+	?a might facilitate ?b
+		?a: The availability of pediatric normal values for both this relation and resting LV IVA
+		?b: future investigation of LV contractility and myocardial contractile reserve during childhood
+
+
+label:    sent_8
+sentence: Earlier studies proved the EPS is structurally identical to the linear beta-1,3-glucan known as curdlan and provided evidence that the EPS functions as a carbon and energy reserve compound .
+
+ppatt:
+	?a proved ?b
+		?a: Earlier studies
+		?b: SOMETHING := the EPS is structurally identical to the linear beta-1,3-glucan known as curdlan
+	?a is structurally identical to ?b
+		?a: the EPS
+		?b: the linear beta-1,3-glucan known as curdlan
+	?a known as ?b
+		?a: the linear beta-1,3-glucan
+		?b: curdlan
+	?a provided ?b
+		?a: Earlier studies
+		?b: evidence that the EPS functions as a carbon and energy reserve compound
+	?a functions as ?b
+		?a: the EPS
+		?b: a carbon
+	?a functions as ?b
+		?a: the EPS
+		?b: energy reserve compound
+
+
+label:    sent_9
+sentence: By comparison , several of the children with anthracycline exposure demonstrated flattened force-frequency curves that were largely independent of resting LV ejection fraction and suggest reduced contractile reserve . Set a reserve .
+
+ppatt:
+	By ?a , ?b demonstrated ?c
+		?a: comparison
+		?b: several of the children with anthracycline exposure
+		?c: flattened force-frequency curves that were largely independent of resting LV ejection fraction
+	?a were largely independent of ?b
+		?a: flattened force-frequency curves
+		?b: resting LV ejection fraction
+	?a suggest ?b . Set ?c
+		?a: several of the children with anthracycline exposure
+		?b: reduced contractile reserve
+		?c: a reserve
+
+
+label:    sent_10
+sentence: The microemboli produced during spontaneous plaque rupture and ulceration and during coronary intervention will reduce coronary reserve and cause cardiac dysfunction .
+
+ppatt:
+	?a produced during ?b
+		?a: The microemboli
+		?b: spontaneous plaque rupture
+	?a produced during ?b
+		?a: The microemboli
+		?b: ulceration
+	?a produced during ?b
+		?a: The microemboli
+		?b: coronary intervention
+	?a will reduce ?b
+		?a: The microemboli produced during spontaneous plaque rupture and ulceration and during coronary intervention
+		?b: coronary reserve
+	?a cause ?b
+		?a: The microemboli produced during spontaneous plaque rupture and ulceration and during coronary intervention
+		?b: cardiac dysfunction
+
+
+label:    sent_11
+sentence: Prospective validation of standardized , 3-dimensional , quantitative coronary computed tomographic plaque measurements using radiofrequency backscatter intravascular ultrasound as reference standard in intermediate coronary arterial lesions : results from the ATLANTA ( assessment of tissue characteristics , lesion morphology , and hemodynamics by angiography with fractional flow reserve , intravascular ultrasound and virtual histology , and noninvasive computed tomography in atherosclerotic plaques ) I study .
+
+ppatt:
+	?a using ?b as ?c
+		?a: Prospective validation of standardized , 3-dimensional , tomographic plaque measurements
+		?b: radiofrequency backscatter intravascular ultrasound
+		?c: reference standard in intermediate coronary arterial lesions
+
+
+label:    sent_12
+sentence: We review reproductive principles such as ovarian reserve , uterine function , cervical competence , and early obstetrical management , as well as available FP methods .
+
+ppatt:
+	?a review ?b
+		?a: We
+		?b: reproductive principles such as ovarian reserve , uterine function , cervical competence , and early obstetrical management , as well as available FP methods
+
+
+label:    sent_13
+sentence: Comparison of adenosine magnetic resonance perfusion imaging with invasive coronary flow reserve and fractional flow reserve in patients with suspected coronary artery disease .
+
+ppatt:
+
+
+
+label:    sent_14
+sentence: Then , EC based on MD , called MD-cleansing , is performed by first initializing of the level-set front with the classified tagged regions ; the front is then evolved by use of a speed function that was designed , based on the soft-tissue index , to reserve the submerged soft-tissue structures while suppressing the residual fecal regions .
+
+ppatt:
+	?a called MD-cleansing
+		?a: MD
+	Then , ?a is performed by ?b
+		?a: EC based on MD , called MD-cleansing
+		?b: first initializing of the level-set front with the classified tagged regions
+	?a is then evolved by ?b
+		?a: the front
+		?b: use of a speed function that was designed , based on the soft-tissue index to reserve the submerged soft-tissue structures while suppressing the residual fecal regions
+	?a was designed , to reserve ?b
+		?a: a speed function
+		?b: the submerged soft-tissue structures
+	?a based on the soft-tissue index
+		?a: that
+	?a suppressing ?b
+		?a: that
+		?b: the residual fecal regions
+
+
+label:    sent_15
+sentence: Infusion of bone marrow stem cells before trans-arterial chemoembolization may help to increase liver volume and consequently increase hepatic reserve in patients with HCC , and this may improve the outcome of this procedure .
+
+ppatt:
+	?a may help to increase ?b
+		?a: Infusion of bone marrow stem cells before trans-arterial chemoembolization
+		?b: liver volume
+	?a may help to consequently increase ?b
+		?a: Infusion of bone marrow stem cells before trans-arterial chemoembolization
+		?b: hepatic reserve in patients with HCC
+	?a may improve ?b
+		?a: this
+		?b: the outcome of this procedure
+
+
+label:    sent_16
+sentence: This unique feature suggests that postnatal mitral valvular endothelium harbors a reserve of progenitor cells that can contribute to osteogenic and chondrogenic VICs .
+
+ppatt:
+	?a suggests ?b
+		?a: This unique feature
+		?b: SOMETHING := postnatal mitral valvular endothelium harbors a reserve of progenitor cells that can contribute to osteogenic and chondrogenic VICs
+	?a harbors ?b
+		?a: postnatal mitral valvular endothelium
+		?b: a reserve of progenitor cells that can contribute to osteogenic and chondrogenic VICs
+	?a can contribute ?b
+		?a: a reserve of progenitor cells
+		?b: to osteogenic and chondrogenic VICs
+
+
+label:    sent_17
+sentence: This case illustrates that fractional flow reserve ( FFR ) in addition to the severity and length of the coronary stenosis is critically dependent on the extent of viable myocardium perfused .
+
+ppatt:
+	?a illustrates ?b
+		?a: This case
+		?b: SOMETHING := fractional flow reserve in addition to the severity and length of the coronary stenosis is critically dependent on the extent of viable myocardium perfused
+	?a is/are FFR
+		?a: fractional flow reserve in addition to the severity and length of the coronary stenosis
+	?a is critically dependent on ?b
+		?a: fractional flow reserve in addition to the severity and length of the coronary stenosis
+		?b: the extent of viable myocardium perfused
+	?a perfused
+		?a: viable myocardium
+
+
+label:    sent_18
+sentence: As a consequence , reserve of pulmonary function is recommended when surgical intervention is considered .
+
+ppatt:
+	As ?a , ?b is recommended
+		?a: a consequence
+		?b: reserve of pulmonary function
+	when ?a is considered
+		?a: surgical intervention
+
+
+label:    sent_19
+sentence: In particular , the ovary is susceptible to damage by chemo- and radiotherapeutic treatments , as the reserve of primordial follicles is susceptible to damage and death .
+
+ppatt:
+	In ?a , ?b is susceptible to ?c
+		?a: particular
+		?b: the ovary
+		?c: damage by chemo- and radiotherapeutic treatments
+	?a is susceptible to ?b
+		?a: the reserve of primordial follicles
+		?b: damage
+	?a is susceptible to ?b
+		?a: the reserve of primordial follicles
+		?b: death
+
+
+label:    sent_20
+sentence: The aim of this study was to evaluate coronary microvascular function in type 2 diabetic Goto-Kakizaki ( GK ) rats using in vivo coronary flow velocity reserve ( CFVR ) and the effect of arginase inhibition to restore vascular function .
+
+ppatt:
+	?a was to evaluate ?b using ?c
+		?a: The aim of this study
+		?b: coronary microvascular function in type 2 diabetic Goto-Kakizaki rats
+		?c: in coronary flow velocity reserve
+	?a was to evaluate ?b using ?c
+		?a: The aim of this study
+		?b: coronary microvascular function in type 2 diabetic Goto-Kakizaki rats
+		?c: the effect of arginase inhibition to restore vascular function
+	?a is/are GK
+		?a: 2 diabetic Goto-Kakizaki
+	?a is/are CFVR
+		?a: in coronary flow velocity reserve
+	?a is/are CFVR
+		?a: the effect of arginase inhibition to restore vascular function
+	?a restore ?b
+		?a: the effect of arginase inhibition
+		?b: vascular function
+
+
+label:    sent_21
+sentence: Ruptured group ( Group R ; n=10 ) were compared with those of patients with unruptured HCC group ( Group UR ; n=295 ) , concerning hepatic reserve , tumor extent and outcome .
+
+ppatt:
+	?a were compared with ?b
+		?a: Ruptured group
+		?b: those of patients with unruptured HCC group , concerning hepatic reserve , tumor extent and outcome
+
+
+label:    sent_22
+sentence: After completion of this educational activity , the obstetrician/gynecologist should be better able to assess the current recommendations for evaluating infertile couples ; examine the various ways to assess ovarian reserve , the uterine cavity , and fallopian patency ; and appraise the controversy surrounding diagnostic surgery .
+
+ppatt:
+	After ?a , ?b should be better able to assess ?c
+		?a: completion of this educational activity
+		?b: the obstetrician/gynecologist
+		?c: the current recommendations
+	?a evaluating ?b
+		?a: the current recommendations
+		?b: infertile couples
+	?a examine ?b
+		?a: the obstetrician/gynecologist
+		?b: the various ways to assess ovarian reserve , the uterine cavity , and fallopian patency
+	?a assess ?b
+		?a: the various ways
+		?b: ovarian reserve
+	?a assess ?b
+		?a: the various ways
+		?b: the uterine cavity
+	?a assess ?b
+		?a: the various ways
+		?b: fallopian patency
+	?a appraise ?b
+		?a: the obstetrician/gynecologist
+		?b: the controversy surrounding diagnostic surgery
+	?a surrounding ?b
+		?a: the controversy
+		?b: diagnostic surgery
+
+
+label:    sent_23
+sentence: Diminishing fossil fuel reserve and increasing cost of fossil hydrocarbon products have rekindled worldwide effort on conversion of lignocellloloses ( plant biomass ) to renewable fuel .
+
+ppatt:
+	Diminishing ?a
+		?a: fossil fuel reserve
+	Diminishing ?a
+		?a: increasing cost of fossil hydrocarbon products
+	?a have rekindled ?b
+		?a: SOMETHING := Diminishing fossil fuel reserve and increasing cost of fossil hydrocarbon products
+		?b: worldwide effort on conversion of lignocellloloses to renewable fuel
+	?a is/are plant biomass
+		?a: lignocellloloses
+
+
+label:    sent_24
+sentence: Diminished physiological reserve and the existence of multiple medical comorbidities present additional challenges to management .
+
+ppatt:
+	?a present ?b
+		?a: Diminished physiological reserve
+		?b: additional challenges to management
+	?a present ?b
+		?a: the existence of multiple medical comorbidities
+		?b: additional challenges to management
+
+
+label:    sent_25
+sentence: Interestingly , both coronary flow reserve and the index of microvascular resistances were abnormal , showing evidence of impaired microvascular function .
+
+ppatt:
+	Interestingly , ?a were abnormal , showing ?b
+		?a: coronary flow reserve
+		?b: evidence of impaired microvascular function
+	Interestingly , ?a were abnormal , showing ?b
+		?a: the index of microvascular resistances
+		?b: evidence of impaired microvascular function
+
+
+label:    sent_26
+sentence: To evaluate ovarian reserve and oocyte maturity in women with malignancy .
+
+ppatt:
+	evaluate ?a
+		?a: ovarian reserve in women with malignancy
+	evaluate ?a
+		?a: oocyte maturity
+
+
+label:    sent_27
+sentence: Our results also showed that isolated individuals are sinking for pollen , with high pollen flow between the population inside the reserve and individuals on the edge .
+
+ppatt:
+	?a also showed ?b
+		?a: Our results
+		?b: SOMETHING := that isolated individuals are sinking for pollen , with high pollen flow between the population inside the reserve and individuals on the edge
+	?a are sinking for ?b , with ?c
+		?a: isolated individuals
+		?b: pollen
+		?c: high pollen flow between the population inside the reserve and individuals on the edge
+
+
+label:    sent_28
+sentence: Our results show that high donor risk score and CADI value reflect low functional reserve and risk for poor graft outcome .
+
+ppatt:
+	?a show ?b
+		?a: Our results
+		?b: SOMETHING := high donor risk score and CADI value reflect low functional reserve and risk for poor graft outcome
+	?a reflect ?b for ?c
+		?a: high donor risk score
+		?b: low functional reserve
+		?c: poor graft outcome
+	?a reflect ?b for ?c
+		?a: CADI value
+		?b: low functional reserve
+		?c: poor graft outcome
+	?a reflect ?b for ?c
+		?a: high donor risk score
+		?b: risk
+		?c: poor graft outcome
+	?a reflect ?b for ?c
+		?a: CADI value
+		?b: risk
+		?c: poor graft outcome
+
+

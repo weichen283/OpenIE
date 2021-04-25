@@ -1,0 +1,278 @@
+label:    sent_1
+sentence: When and why do doctors decide to become general practitioners ? Students decide to study medicine at an early age .
+
+ppatt:
+	When why do ?a decide to become general practitioners
+		?a: doctors
+	?a decide to study ?b at ?c
+		?a: Students
+		?b: medicine
+		?c: an early age
+
+
+label:    sent_2
+sentence: Doctors diagnose and prescribe : patients decide what to do . A computer algorithm is used to decide between four cervical spine management strategies .
+
+ppatt:
+	?a diagnose
+		?a: Doctors
+	?a prescribe
+		?a: Doctors
+	?a decide ?b to do
+		?a: patients
+		?b: what
+	?a is used to decide between ?b
+		?a: A computer algorithm
+		?b: four cervical spine management strategies
+
+
+label:    sent_3
+sentence: Longer follow-up studies are needed to decide on the optimal maintenance treatment .
+
+ppatt:
+	?a are needed to decide on ?b
+		?a: Longer follow-up studies
+		?b: the optimal maintenance treatment
+
+
+label:    sent_4
+sentence: These cases are often difficult to decide for surgical procedure especially in pediatric cases .
+
+ppatt:
+	?a are often difficult to decide for ?b in ?c
+		?a: These cases
+		?b: surgical procedure
+		?c: especially pediatric cases
+
+
+label:    sent_5
+sentence: Patients will ultimately have to decide themselves whether they wish to discontinue drug treatment .
+
+ppatt:
+	?a will ultimately have to decide ?b ?c
+		?a: Patients
+		?b: themselves
+		?c: SOMETHING := they wish to discontinue drug treatment
+	?a wish to discontinue ?b
+		?a: they
+		?b: drug treatment
+
+
+label:    sent_6
+sentence: Timing of the diagnosis is important to decide the treatment .
+
+ppatt:
+	?a is important to decide ?b
+		?a: Timing of the diagnosis
+		?b: the treatment
+
+
+label:    sent_7
+sentence: A correct cytological diagnosis can help to decide the suitable management and operation .
+
+ppatt:
+	?a can help to decide ?b
+		?a: A correct cytological diagnosis
+		?b: the suitable management
+	?a can help to decide ?b
+		?a: A correct cytological diagnosis
+		?b: operation
+
+
+label:    sent_8
+sentence: After this , we can decide whether the tumor is benign or malignant . Then , another person , a substitute , must decide for him . Should the surgeon decide on relaparoscopy , then prompt action is of central importance .
+
+ppatt:
+	After ?a , ?b can decide ?c ?d
+		?a: this
+		?b: we
+		?c: SOMETHING := the tumor is benign
+		?d: SOMETHING := Then , another person , must decide for him
+	?a is benign
+		?a: the tumor
+	?a malignant
+		?a: the tumor
+	?a is/are a substitute
+		?a: another person
+	Then , ?a must decide for ?b
+		?a: another person
+		?b: him
+	Should ?a decide on ?b
+		?a: the surgeon
+		?b: relaparoscopy
+	?a then prompt ?b
+		?a: the surgeon
+		?b: action
+
+
+label:    sent_9
+sentence: Who should decide the best minimally invasive approach ? Who will decide surgery 's future ? The physician must decide the appropriate formulation for each woman .
+
+ppatt:
+	?a should decide ?b
+		?a: Who
+		?b: the best minimally invasive approach ? Who will decide surgery 's future
+	?a ?b will decide 's ?c
+		?a: the best minimally invasive approach
+		?b: Who
+		?c: surgery future
+	?a must decide ?b
+		?a: The physician
+		?b: the appropriate formulation for each woman
+
+
+label:    sent_10
+sentence: Alternatives to hospital care : what are they and who should decide ? Read and decide .
+
+ppatt:
+	?a should decide ?b
+		?a: who
+		?b: Read
+	?a decide
+		?a: who
+
+
+label:    sent_11
+sentence: Read the evidence presented and decide if this summary is correct .
+
+ppatt:
+	Read ?a
+		?a: the evidence presented and decide if this summary is correct
+	?a presented
+		?a: the evidence
+	?a decide
+		?a: the evidence
+	?a is correct
+		?a: this summary
+
+
+label:    sent_12
+sentence: Consent and assessment of capacity to decide or refuse treatment .
+
+ppatt:
+	?a decide ?b
+		?a: Consent of capacity
+		?b: treatment
+	?a decide ?b
+		?a: assessment
+		?b: treatment
+	refuse ?a
+		?a: treatment
+
+
+label:    sent_13
+sentence: Only the parents can decide whether they want more children or not .
+
+ppatt:
+	?a can decide ?b
+		?a: Only the parents
+		?b: SOMETHING := they want more children or not
+	?a want ?b or not
+		?a: they
+		?b: more children
+
+
+label:    sent_14
+sentence: Some complainants decide it is one ordeal too many and withdraw from the process .
+
+ppatt:
+	?a decide ?b
+		?a: Some complainants
+		?b: SOMETHING := it is one ordeal too many
+	?a is one ordeal too many
+		?a: it
+	?a withdraw from ?b
+		?a: it
+		?b: the process
+
+
+label:    sent_15
+sentence: Are noninvasive tests enough to decide upon a hybrid coronary artery revascularization strategy ? In addition , each nurse must decide his or her position on these modalities .
+
+ppatt:
+	decide upon ?a
+		?a: a hybrid coronary artery revascularization strategy
+	In ?a , ?b must decide ?c ?d on ?e
+		?a: addition
+		?b: each nurse
+		?c: his
+		?d: her position
+		?e: these modalities
+
+
+label:    sent_16
+sentence: Who should decide margin length in pulmonary excision of lung cancer ? How to decide on surgery and get the best outcome from your new joint .
+
+ppatt:
+	?a should decide ?b in ?c ? How to decide on ?d
+		?a: Who
+		?b: margin length
+		?c: pulmonary excision of lung cancer
+		?d: surgery
+	?a should decide ? to get ?b
+		?a: Who
+		?b: the best outcome from your new joint
+
+
+label:    sent_17
+sentence: Using the platform one can see , feel and decide as in reality .
+
+ppatt:
+	Using ?a
+		?a: the platform
+	?a can see
+		?a: one
+	?a feel
+		?a: one
+	?a decide as in ?b
+		?a: one
+		?b: reality
+
+
+label:    sent_18
+sentence: Videokeratography may help decide how to follow-up and treat a presumed self-limiting disease .
+
+ppatt:
+	?a may help decide
+		?a: Videokeratography
+	?a how to follow-up
+		?a: Videokeratography
+	?a treat ?b
+		?a: Videokeratography
+		?b: a presumed self-limiting disease
+
+
+label:    sent_19
+sentence: Stakeholders should decide whether formal follow-up or health surveillance is necessary . Optionally , participants could decide for one option and reject one or more alternatives .
+
+ppatt:
+	?a should decide ?b ?c
+		?a: Stakeholders
+		?b: SOMETHING := formal follow-up or health surveillance is necessary . Optionally
+		?c: SOMETHING := participants could decide for one option
+	?a ?b is necessary . Optionally
+		?a: follow-up
+		?b: formal surveillance
+	?a ?b is necessary . Optionally
+		?a: health
+		?b: formal surveillance
+	?a could decide for ?b
+		?a: participants
+		?b: one option
+	?a reject ?b
+		?a: participants
+		?b: one or more alternatives
+
+
+label:    sent_20
+sentence: Hospitals , AHA must decide whether to fight or settle uninsured billing cases .
+
+ppatt:
+	?a ?b must decide whether to fight ?c
+		?a: Hospitals
+		?b: AHA
+		?c: uninsured billing cases
+	?a must decide whether to settle
+		?a: Hospitals
+
+

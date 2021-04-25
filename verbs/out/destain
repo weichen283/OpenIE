@@ -1,0 +1,11 @@
+label:    sent_1
+sentence: Toxic reagents are employed to destain Coomassie Brilliant Blue ( CBB ) stained gels .
+
+ppatt:
+	?a are employed to destain ?b
+		?a: Toxic reagents
+		?b: Coomassie Brilliant Blue stained gels
+	?a is/are CBB
+		?a: Coomassie Brilliant Blue
+
+

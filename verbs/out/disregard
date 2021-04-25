@@ -1,0 +1,192 @@
+label:    sent_1
+sentence: People need to be educated to disregard the myths of lightning strike .
+
+ppatt:
+	?a need to be educated to disregard ?b
+		?a: People
+		?b: the myths of lightning strike
+
+
+label:    sent_2
+sentence: Do not disregard the benthos in sediment quality assessments ! Physicians were free to follow or to disregard the IDC 's suggestions .
+
+ppatt:
+	Do not disregard ?a ?b
+		?a: the benthos in sediment quality assessments
+		?b: Physicians
+	?a were free to follow
+		?a: Physicians
+	?a were free to to disregard ?b
+		?a: Physicians
+		?b: the IDC 's suggestions
+
+
+label:    sent_3
+sentence: Genetic and environmental etiology of disregard for rules . Quantification of faults resulting from disregard of standardised facial photography .
+
+ppatt:
+	?a resulting from ?b
+		?a: faults
+		?b: disregard of standardised facial photography
+
+
+label:    sent_4
+sentence: An end to the slippery slope of disregard . Planners frequently disregard the demands and inflexibility of women 's existing responsibilities .
+
+ppatt:
+	?a ?b frequently disregard ?c
+		?a: An end to the slippery slope of disregard
+		?b: Planners
+		?c: the demands of women 's existing responsibilities
+	?a ?b frequently disregard ?c
+		?a: An end to the slippery slope of disregard
+		?b: Planners
+		?c: inflexibility
+
+
+label:    sent_5
+sentence: Oncologists also disregard the data . Mortality analyses commonly disregard postmenopausal acceleration .
+
+ppatt:
+	?a also disregard ?b
+		?a: Oncologists
+		?b: the data
+	?a commonly disregard ?b
+		?a: Mortality analyses
+		?b: postmenopausal acceleration
+
+
+label:    sent_6
+sentence: Such tests are essentially univariate and disregard the multidimensional structure of microarray data . A majority of Catholics worldwide disagree with and disregard these teachings .
+
+ppatt:
+	?a are essentially univariate
+		?a: Such tests
+	?a disregard ?b
+		?a: Such tests
+		?b: the multidimensional structure of microarray data
+	?a worldwide disagree ?b
+		?a: A majority of Catholics
+		?b: with
+	?a disregard ?b
+		?a: A majority of Catholics
+		?b: these teachings
+
+
+label:    sent_7
+sentence: Disregard for the scan results or disregard for the patient ? The reasons for this disregard or avoidance are explored .
+
+ppatt:
+	?a ?b are explored
+		?a: Disregard for the scan results or disregard for the patient
+		?b: The reasons for this disregard or avoidance
+
+
+label:    sent_8
+sentence: Current methods disregard the multiplicity and provide no concrete threshold for significance .
+
+ppatt:
+	?a disregard ?b
+		?a: Current methods
+		?b: the multiplicity
+	?a provide ?b
+		?a: Current methods
+		?b: no concrete threshold for significance
+
+
+label:    sent_9
+sentence: Providers sometimes disregard a negative result and manage the patient for threatened preterm labor . Yet , for the most part , these approaches disregard the correlation among endpoints .
+
+ppatt:
+	?a sometimes disregard ?b
+		?a: Providers
+		?b: a negative result
+	?a manage ?b
+		?a: Providers
+		?b: the patient for threatened preterm labor
+	Yet , for ?a , ?b disregard ?c
+		?a: the most part
+		?b: these approaches
+		?c: the correlation among endpoints
+
+
+label:    sent_10
+sentence: Learning words : children disregard some pragmatic information that conflicts with mutual exclusivity .
+
+ppatt:
+	?a ?b disregard ?c ?d
+		?a: Learning words
+		?b: children
+		?c: some pragmatic information
+		?d: conflicts with mutual exclusivity
+
+
+label:    sent_11
+sentence: Aedes aegypti disregard humidity-related conditions with adequate nutrition .
+
+ppatt:
+	?a disregard ?b
+		?a: Aedes aegypti
+		?b: humidity-related conditions with adequate nutrition
+
+
+label:    sent_12
+sentence: Is it justified to disregard the Bohr effect during alpha-stat hypothermia ? In addition , GRISK does not disregard any possible events in inheritance .
+
+ppatt:
+	Is ?a justified to disregard ?b during ?c
+		?a: it
+		?b: the Bohr effect
+		?c: alpha-stat hypothermia
+	In ?a , ?b does not disregard ?c
+		?a: addition
+		?b: GRISK
+		?c: any possible events in inheritance
+
+
+label:    sent_13
+sentence: The authors question the tendency to disregard subjectivity in mental health care and treatment .
+
+ppatt:
+	?a question ?b
+		?a: The authors
+		?b: the tendency to disregard subjectivity health
+	?a disregard ?b
+		?a: the tendency
+		?b: subjectivity health
+
+
+label:    sent_14
+sentence: This approach tends to disregard or minimize other factors that influence health behaviors . ANA criticizes HHS disregard for nursing home quality .
+
+ppatt:
+	?a tends to disregard ?b
+		?a: This approach
+		?b: other factors that influence health behaviors
+	?a tends to minimize
+		?a: This approach
+	?a influence ?b
+		?a: other factors
+		?b: health behaviors
+	?a criticizes ?b for ?c
+		?a: ANA
+		?b: HHS disregard
+		?c: nursing home quality
+
+
+label:    sent_15
+sentence: [A few principles not to disregard in Traumatology of the motor system ] . Does their disregard of others have roots in low-level processes of social perception ?
+
+ppatt:
+	?a not to disregard in ?b
+		?a: [A few principles . Does
+		?b: Traumatology of the motor system ]
+	?a Does
+		?a: [A few principles not to disregard in Traumatology of the motor system ]
+	?a ?b have ?c in ?d
+		?a: [A few principles not to disregard in Traumatology of the motor system ] . Does
+		?b: their disregard of others
+		?c: roots
+		?d: low-level processes of social perception
+
+

@@ -1,0 +1,275 @@
+label:    sent_1
+sentence: Sense of entitlement in couple relationships : an attachment theory perspective .
+
+ppatt:
+
+
+
+label:    sent_2
+sentence: Cessation of finasteride improved spermatogenesis and allowed the couple to attempt less-invasive fertility therapy .
+
+ppatt:
+	?a improved ?b
+		?a: Cessation of finasteride
+		?b: spermatogenesis
+	?a allowed ?b
+		?a: Cessation of finasteride
+		?b: the couple to attempt less-invasive fertility therapy
+	?a attempt ?b
+		?a: the couple
+		?b: less-invasive fertility therapy
+
+
+label:    sent_3
+sentence: To conduct molecular and prenatal diagnosis for a couple with beta thalassemia .
+
+ppatt:
+	conduct ?a for ?b
+		?a: molecular and prenatal diagnosis
+		?b: a couple with beta thalassemia
+
+
+label:    sent_4
+sentence: There is an increasing need in the worm community to couple genetics with biochemistry .
+
+ppatt:
+	There is ?a to couple ?b
+		?a: an increasing need in the worm community
+		?b: genetics with biochemistry
+
+
+label:    sent_5
+sentence: One elegant way to accomplish this is to couple them with asymmetric cell divisions . Na+ was required to couple NADH oxidation with delta psi generation .
+
+ppatt:
+	?a accomplish ?b
+		?a: One elegant way
+		?b: this
+	?a is to couple ?b with ?c
+		?a: One elegant way to accomplish this
+		?b: them
+		?c: asymmetric cell divisions
+	?a was required to couple ?b with ?c
+		?a: Na+
+		?b: NADH oxidation
+		?c: delta psi generation
+
+
+label:    sent_6
+sentence: Many authors have suggested that this core oscillator should couple to other oscillatory pathways .
+
+ppatt:
+	?a have suggested ?b
+		?a: Many authors
+		?b: SOMETHING := this core oscillator should couple to other oscillatory pathways
+	?a should couple to ?b
+		?a: this core oscillator
+		?b: other oscillatory pathways
+
+
+label:    sent_7
+sentence: Pure organic redox couple for quantum-dot-sensitized solar cells .
+
+ppatt:
+
+
+
+label:    sent_8
+sentence: A couple with male factor infertility due to Kartagener 's syndrome .
+
+ppatt:
+
+
+
+label:    sent_9
+sentence: Defensins couple dysbiosis to primary immunodeficiency in Crohn 's disease .
+
+ppatt:
+	?a couple ?b to ?c
+		?a: Defensins
+		?b: dysbiosis
+		?c: primary immunodeficiency in Crohn 's disease
+
+
+label:    sent_10
+sentence: Receptor tyrosine kinases couple a wide variety of extracellular cues to cellular responses .
+
+ppatt:
+	?a couple ?b to ?c
+		?a: Receptor tyrosine kinases
+		?b: a wide variety of extracellular cues
+		?c: cellular responses
+
+
+label:    sent_11
+sentence: Neurotransmitters couple brain activity to subventricular zone neurogenesis .
+
+ppatt:
+	?a couple ?b to ?c
+		?a: Neurotransmitters
+		?b: brain activity
+		?c: subventricular zone neurogenesis
+
+
+label:    sent_12
+sentence: Individual differences in vagal regulation moderate associations between daily affect and daily couple interactions .
+
+ppatt:
+
+
+
+label:    sent_13
+sentence: They both receive reciprocal counseling therapy in individual and couple sessions .
+
+ppatt:
+	?a both receive ?b in ?c
+		?a: They
+		?b: reciprocal counseling therapy
+		?c: individual and couple sessions
+
+
+label:    sent_14
+sentence: The copolymers was used to couple trypsin using EEDQ .
+
+ppatt:
+	?a was used to couple ?b using ?c
+		?a: The copolymers
+		?b: trypsin
+		?c: EEDQ
+
+
+label:    sent_15
+sentence: Counselling of a couple faced with a prenatal diagnosis of Klinefelter syndrome .
+
+ppatt:
+	?a faced with ?b
+		?a: a couple
+		?b: a prenatal diagnosis of Klinefelter syndrome
+
+
+label:    sent_16
+sentence: Personality pathology and its relation to couple functioning .
+
+ppatt:
+	?a couple ?b
+		?a: Personality pathology
+		?b: functioning
+	?a couple ?b
+		?a: its relation
+		?b: functioning
+
+
+label:    sent_17
+sentence: [A couple suffering acute respiratory illness due to waterproofing spray exposure ] . The sexual couple : a psychoanalytic exploration .
+
+ppatt:
+	?a couple ?b
+		?a: [A
+		?b: suffering acute respiratory illness due to waterproofing spray exposure ]
+
+
+label:    sent_18
+sentence: Magnetic and superconducting interactions couple electrons together to form complex states of matter .
+
+ppatt:
+	?a couple ?b together to form ?c
+		?a: Magnetic and superconducting interactions
+		?b: electrons
+		?c: complex states of matter
+
+
+label:    sent_19
+sentence: Coexisting difficulties and couple therapy outcomes : psychopathology and intimate partner violence .
+
+ppatt:
+
+
+
+label:    sent_20
+sentence: The results of such studies have significant implications for couple and family therapists .
+
+ppatt:
+	?a have ?b
+		?a: The results of such studies
+		?b: significant implications for couple and family therapists
+
+
+label:    sent_21
+sentence: This implies less constraint on the couple and reduced costs for society .
+
+ppatt:
+	?a implies ?b
+		?a: This
+		?b: less constraint on the couple and reduced costs for society
+
+
+label:    sent_22
+sentence: Results support continued research on the association between couple functioning and mental health .
+
+ppatt:
+	?a support ?b
+		?a: Results
+		?b: continued research on the association between couple functioning and mental health
+	?a functioning ?b
+		?a: couple
+		?b: mental health
+
+
+label:    sent_23
+sentence: It can couple with protein G and has 7 transmembrane domains .
+
+ppatt:
+	?a can couple with ?b
+		?a: It
+		?b: protein G
+	?a has ?b
+		?a: It
+		?b: 7 transmembrane domains
+
+
+label:    sent_24
+sentence: ACs of the same immunoreactivity may either couple or not couple to GCs .
+
+ppatt:
+	?a may either couple
+		?a: ACs of the same immunoreactivity
+	?a not couple to ?b
+		?a: ACs of the same immunoreactivity
+		?b: GCs
+
+
+label:    sent_25
+sentence: These receptors couple to multiple G-proteins and regulate intracellular signaling pathways .
+
+ppatt:
+	?a couple to ?b
+		?a: These receptors
+		?b: multiple G-proteins
+	?a regulate ?b
+		?a: These receptors
+		?b: intracellular signaling pathways
+
+
+label:    sent_26
+sentence: We performed 28 individual , couple , and group interviews with five families .
+
+ppatt:
+	?a performed ?b
+		?a: We
+		?b: 28 individual , with five families
+	?a performed ?b
+		?a: We
+		?b: couple
+	?a performed ?b
+		?a: We
+		?b: group interviews
+
+
+label:    sent_27
+sentence: The pregnancy rate per cycle and couple was of 13.0 and 21.7 % respectively . Social capital and inequality in health between single and couple parents in Sweden .
+
+ppatt:
+	?a was of 13.0 and 21.7 % respectively
+		?a: The pregnancy rate per cycle and couple
+
+

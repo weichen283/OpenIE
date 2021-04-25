@@ -1,0 +1,238 @@
+label:    sent_1
+sentence: It 's hard to keep all things angiogenic in one JAR ! Various land management strategies are used to prevent land degradation and keep land productive .
+
+ppatt:
+	?a 's hard to keep ?b
+		?a: It
+		?b: all things angiogenic in one JAR
+	! ?a are used to prevent ?b
+		?a: Various land management strategies
+		?b: land degradation
+	! ?a are used to keep ?b productive
+		?a: Various land management strategies
+		?b: land
+
+
+label:    sent_2
+sentence: The gradient is designed to keep the average sampling density constant .
+
+ppatt:
+	?a is designed to keep ?b
+		?a: The gradient
+		?b: the average sampling density constant
+
+
+label:    sent_3
+sentence: Special nylon jigs were fabricated to keep I-131 capsule holder in position . midwives need to keep up-to-date with the latest knowledge .
+
+ppatt:
+	?a were fabricated to keep ?b
+		?a: Special nylon jigs
+		?b: I-131 capsule holder in position
+	?a need to keep ?b with ?c
+		?a: midwives
+		?b: up-to-date
+		?c: the latest knowledge
+
+
+label:    sent_4
+sentence: The Congress showed that it is necessary to keep paying obesity due attention .
+
+ppatt:
+	?a showed ?b
+		?a: The Congress
+		?b: SOMETHING := it is necessary to keep paying obesity due attention
+	?a is necessary to keep ?b
+		?a: it
+		?b: paying obesity due attention
+
+
+label:    sent_5
+sentence: First , they keep track of the history of potential informants .
+
+ppatt:
+	First , ?a keep ?b
+		?a: they
+		?b: track of the history of potential informants
+
+
+label:    sent_6
+sentence: Prevention : will an aspirin a day keep the colorectal cancer away ? Disaster plans keep Midwest hospitals running smoothly during blizzard . Advisers say keep current flu strains in vaccine .
+
+ppatt:
+	?a keep ?b
+		?a: Disaster plans
+		?b: Midwest hospitals running smoothly during blizzard
+	?a running smoothly during ?b
+		?a: Midwest hospitals
+		?b: blizzard
+	?a say keep ?b
+		?a: Advisers
+		?b: current flu strains in vaccine
+
+
+label:    sent_7
+sentence: Ongoing studies keep debate in high gear .
+
+ppatt:
+	?a keep ?b
+		?a: Ongoing studies
+		?b: debate in high gear
+
+
+label:    sent_8
+sentence: Specialized microenvironments called niches keep stem cells in an undifferentiated and self-renewing state .
+
+ppatt:
+	?a called niches
+		?a: Specialized microenvironments
+	?a keep ?b in ?c
+		?a: Specialized microenvironments called niches
+		?b: stem cells
+		?c: an undifferentiated and self-renewing state
+
+
+label:    sent_9
+sentence: Most farmers had small herds and did not keep records . People-oriented practices attract and keep patients .
+
+ppatt:
+	?a had ?b
+		?a: Most farmers
+		?b: small herds
+	?a did not keep ?b
+		?a: Most farmers
+		?b: records
+	?a attract
+		?a: People-oriented practices
+	?a keep ?b
+		?a: People-oriented practices
+		?b: patients
+
+
+label:    sent_10
+sentence: Collect , but keep the space . An unusual tumor of the cecum : the diagnosis to keep in mind ! Otorhinolaryngologists should keep in mind that lymphomas might develop in the entire pharynx .
+
+ppatt:
+	keep ?a
+		?a: the space
+	?a keep in ?b
+		?a: the diagnosis
+		?b: mind ! Otorhinolaryngologists
+	?a should keep in ?b
+		?a: the diagnosis to keep in mind ! Otorhinolaryngologists
+		?b: mind that lymphomas might develop in the entire pharynx
+	?a might develop in ?b
+		?a: lymphomas
+		?b: the entire pharynx
+
+
+label:    sent_11
+sentence: USA : advocates keep up pressure at tobacco AGMs .
+
+ppatt:
+
+
+
+label:    sent_12
+sentence: [Epilepsies : Recent progress to keep in mind ] . New features keep you in the know , us ahead of the competition .
+
+ppatt:
+	?a keep in ?b ?c
+		?a: Recent progress
+		?b: mind
+		?c: ]
+
+
+label:    sent_13
+sentence: Like the energizer bunny , these retirees keep going and going .
+
+ppatt:
+	Like ?a , ?b keep ?c
+		?a: the energizer bunny
+		?b: these retirees
+		?c: going
+	Like ?a , ?b keep ?c
+		?a: the energizer bunny
+		?b: these retirees
+		?c: going
+
+
+label:    sent_14
+sentence: Immunotherapy for Graves ' orbitopathy : easy enthusiasm , but let 's keep trying .
+
+ppatt:
+	?a 's keep trying
+		?a: let
+
+
+label:    sent_15
+sentence: Newfoundland : it 's hard to attract specialists , and harder to keep them .
+
+ppatt:
+	attract ?a
+		?a: specialists
+	keep ?a
+		?a: them
+
+
+label:    sent_16
+sentence: The animals keep their value and can be slaughtered later .
+
+ppatt:
+	?a keep ?b
+		?a: The animals
+		?b: their value
+	?a can be slaughtered later
+		?a: The animals
+
+
+label:    sent_17
+sentence: Magnesium helps the heart keep its mettle . Let 's keep asking . Active gels : motors keep dynamics steady .
+
+ppatt:
+	?a helps ?b keep ?c
+		?a: Magnesium
+		?b: the heart
+		?c: its mettle
+	?a 's keep asking ?b
+		?a: Let
+		?b: Active gels
+	?a keep ?b steady
+		?a: motors
+		?b: dynamics
+
+
+label:    sent_18
+sentence: There 's growing support for non-paramedic use , but keep these cautions in mind .
+
+ppatt:
+	keep ?a in ?b
+		?a: these cautions
+		?b: mind
+
+
+label:    sent_19
+sentence: These constructions formed after endosymbiosis and keep evolving throughout the history of life .
+
+ppatt:
+	?a formed after ?b
+		?a: These constructions
+		?b: endosymbiosis
+	?a keep evolving throughout ?b
+		?a: These constructions
+		?b: the history of life
+
+
+label:    sent_20
+sentence: It is possible , however , to get it and keep it under control .
+
+ppatt:
+	?a is possible , however , to get ?b
+		?a: It
+		?b: it
+	?a is possible , however , to keep ?b under ?c
+		?a: It
+		?b: it
+		?c: control
+
+

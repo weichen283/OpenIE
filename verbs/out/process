@@ -1,0 +1,302 @@
+label:    sent_1
+sentence: Our ability to process visual information is fundamentally limited . MR can recognize and process DNA ends even if they are blocked and misfolded .
+
+ppatt:
+	?a process ?b
+		?a: Our ability
+		?b: visual information
+	?a is fundamentally limited
+		?a: Our ability to process visual information
+	?a can recognize ?b
+		?a: MR
+		?b: DNA ends
+	?a process
+		?a: MR
+	even if ?a are blocked
+		?a: they
+	?a misfolded
+		?a: they
+
+
+label:    sent_2
+sentence: Such deficits may be influenced by poor ability to process feedback and rewards .
+
+ppatt:
+	?a may be influenced by ?b
+		?a: Such deficits
+		?b: poor ability to process feedback and rewards
+	?a process ?b
+		?a: poor ability
+		?b: feedback
+	?a process ?b
+		?a: poor ability
+		?b: rewards
+
+
+label:    sent_3
+sentence: To evaluate the algorithm , we process measured clinical datasets .
+
+ppatt:
+	evaluate ?a ?b
+		?a: the algorithm
+		?b: we
+	?a process ?b
+		?a: we
+		?b: measured clinical datasets
+
+
+label:    sent_4
+sentence: Effect of pretreatments and vacuum drying on instant dried pork process optimization .
+
+ppatt:
+
+
+
+label:    sent_5
+sentence: Supervised Gaussian process latent variable model for dimensionality reduction .
+
+ppatt:
+
+
+
+label:    sent_6
+sentence: Additive CAD/CAM process for dental prostheses .
+
+ppatt:
+
+
+
+label:    sent_7
+sentence: Investigation of iodine liberation process in redox titration of potassium iodate with sodium thiosulfate .
+
+ppatt:
+
+
+
+label:    sent_8
+sentence: Information process in the lateral semicircular canals .
+
+ppatt:
+
+
+
+label:    sent_9
+sentence: Forty-eight binding sites were selected to process further evaluation by dsDNA microarray assay .
+
+ppatt:
+	?a were selected to process ?b
+		?a: Forty-eight binding sites
+		?b: further evaluation by dsDNA microarray assay
+
+
+label:    sent_10
+sentence: Dendritic cells ( DCs ) capture and process Ag in the periphery .
+
+ppatt:
+	?a is/are DCs
+		?a: Dendritic cells
+	?a capture ?b in ?c
+		?a: Dendritic cells
+		?b: Ag
+		?c: the periphery
+	?a process
+		?a: Dendritic cells
+
+
+label:    sent_11
+sentence: The ability to activate and process information in WM showed protracted age-related growth .
+
+ppatt:
+	?a activate ?b
+		?a: The ability
+		?b: information in WM
+	?a process
+		?a: The ability
+	?a showed ?b
+		?a: The ability to activate and process information in WM
+		?b: protracted age-related growth
+
+
+label:    sent_12
+sentence: The results suggest that , like adults , children process two-digit numbers automatically .
+
+ppatt:
+	?a suggest ?b
+		?a: The results
+		?b: SOMETHING := like adults , children process two-digit numbers automatically
+	like ?a , ?b process ?c automatically
+		?a: adults
+		?b: children
+		?c: two-digit numbers
+
+
+label:    sent_13
+sentence: Evaluation of deammonification process performance at different aeration strategies .
+
+ppatt:
+
+
+
+label:    sent_14
+sentence: How do we process novel conceptual combinations in context ? Devices that confine and process single electrons represent an important scaling limit of electronics .
+
+ppatt:
+	How do ?a process ?b ?c
+		?a: we
+		?b: novel conceptual combinations
+		?c: Devices that confine and process single electrons
+	?a confine ?b
+		?a: Devices
+		?b: single electrons
+	?a process
+		?a: that
+	?a represent ?b
+		?a: we
+		?b: an important scaling limit of electronics
+
+
+label:    sent_15
+sentence: Keratinocytes were able to process proinsulin and secrete active insulin that promoted glucose uptake .
+
+ppatt:
+	?a were able to process ?b
+		?a: Keratinocytes
+		?b: proinsulin
+	?a were able to secrete ?b
+		?a: Keratinocytes
+		?b: active insulin that promoted glucose uptake
+	?a promoted ?b
+		?a: active insulin
+		?b: glucose uptake
+
+
+label:    sent_16
+sentence: The conflict and process theory of Melanie Klein .
+
+ppatt:
+
+
+
+label:    sent_17
+sentence: The burdensome maintenance of certification process .
+
+ppatt:
+
+
+
+label:    sent_18
+sentence: Stereoselective degradation of Diclofop-methyl during alcohol fermentation process .
+
+ppatt:
+
+
+
+label:    sent_19
+sentence: Applications of molecular imaging in drug discovery and development process .
+
+ppatt:
+
+
+
+label:    sent_20
+sentence: It can process series of images and perform flat-field and dark-field correction .
+
+ppatt:
+	?a can process ?b
+		?a: It
+		?b: series of images
+	?a perform ?b
+		?a: It
+		?b: flat-field and dark-field correction
+
+
+label:    sent_21
+sentence: Complex retinal circuits process visual information and deliver it to the brain .
+
+ppatt:
+	?a process ?b
+		?a: Complex retinal circuits
+		?b: visual information
+	?a deliver ?b to ?c
+		?a: Complex retinal circuits
+		?b: it
+		?c: the brain
+
+
+label:    sent_22
+sentence: Thus , 5-month-olds process sex information from bodies and match it to facial information .
+
+ppatt:
+	match ?a to ?b
+		?a: it
+		?b: facial information
+
+
+label:    sent_23
+sentence: Images of imaging : how to process and display imaging utilization for large populations .
+
+ppatt:
+	?a how to process ?b
+		?a: Images of imaging
+		?b: imaging utilization for large populations
+	display ?a
+		?a: imaging utilization for large populations
+
+
+label:    sent_24
+sentence: Accuracy and response times to process and recognize ambiguous sentences were tested .
+
+ppatt:
+	?a process
+		?a: Accuracy
+	?a process
+		?a: response times
+	?a recognize ?b
+		?a: Accuracy
+		?b: ambiguous sentences
+	?a recognize ?b
+		?a: response times
+		?b: ambiguous sentences
+	?a were tested
+		?a: Accuracy to process and recognize ambiguous sentences
+	?a were tested
+		?a: response times
+
+
+label:    sent_25
+sentence: Our ability to process and ultimately display data has improved to a remarkable extent .
+
+ppatt:
+	?a process
+		?a: Our ability
+	?a ultimately display ?b
+		?a: Our ability
+		?b: data
+	?a has improved to ?b
+		?a: Our ability to process and ultimately display data
+		?b: a remarkable extent
+
+
+label:    sent_26
+sentence: How does our brain process and analyse this information ? How people process and represent magnitude has often been studied using number comparison tasks . Epstein-Barr virus-transformed B cells process and present Mycobacterium tuberculosis particulate antigens to T-cell clones .
+
+ppatt:
+	How does ?a
+		?a: our brain process
+	?a analyse ?b
+		?a: our brain process
+		?b: this information
+	How ?a process
+		?a: people
+	?a represent ?b
+		?a: people
+		?b: magnitude
+	?a has often been studied using ?b
+		?a: our brain process
+		?b: number comparison tasks
+	?a process ?b to ?c
+		?a: Epstein-Barr virus-transformed B cells
+		?b: Mycobacterium tuberculosis particulate antigens
+		?c: T-cell clones
+
+

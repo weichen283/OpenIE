@@ -1,0 +1,227 @@
+label:    sent_1
+sentence: The network thus created will obstruct the diffusion of macromolecules .
+
+ppatt:
+	?a thus created
+		?a: The network
+	?a will obstruct ?b
+		?a: The network thus created
+		?b: the diffusion of macromolecules
+
+
+label:    sent_2
+sentence: Cultural , conceptual and bureaucratic hurdles and difficulties obstruct all trials .
+
+ppatt:
+	?a obstruct ?b
+		?a: Cultural
+		?b: all trials
+	?a obstruct ?b
+		?a: conceptual
+		?b: all trials
+	?a obstruct ?b
+		?a: bureaucratic
+		?b: all trials
+	?a obstruct ?b
+		?a: difficulties
+		?b: all trials
+
+
+label:    sent_3
+sentence: It did not obstruct antegrade flow of saline .
+
+ppatt:
+	?a did not obstruct ?b
+		?a: It
+		?b: antegrade flow of saline
+
+
+label:    sent_4
+sentence: Rarely , a parapelvic cyst may enlarge enough to obstruct the renal calices .
+
+ppatt:
+	Rarely , ?a may enlarge enough to obstruct ?b
+		?a: a parapelvic cyst
+		?b: the renal calices
+
+
+label:    sent_5
+sentence: During acute myocardial ischemia , granulocytes accumulate and obstruct the microcirculation .
+
+ppatt:
+	During ?a , ?b accumulate
+		?a: acute myocardial ischemia
+		?b: granulocytes
+	?a obstruct ?b
+		?a: granulocytes
+		?b: the microcirculation
+
+
+label:    sent_6
+sentence: However , such re-inflation can occasionally obstruct the surgical view .
+
+ppatt:
+	However , ?a can occasionally obstruct ?b
+		?a: such re-inflation
+		?b: the surgical view
+
+
+label:    sent_7
+sentence: Tumors could obstruct this lumen and cause appendicitis in the elderly .
+
+ppatt:
+	?a could obstruct ?b
+		?a: Tumors
+		?b: this lumen
+	?a cause ?b
+		?a: Tumors
+		?b: appendicitis in the elderly
+
+
+label:    sent_8
+sentence: Coronary artery atheromata obstruct coronary blood flow and produce myocardial ischemia .
+
+ppatt:
+	?a obstruct ?b
+		?a: Coronary artery atheromata
+		?b: coronary blood flow
+	?a produce ?b
+		?a: Coronary artery atheromata
+		?b: myocardial ischemia
+
+
+label:    sent_9
+sentence: Carbon dioxide bubbles obstruct the diffusion path and decrease the matrix coherence .
+
+ppatt:
+	?a obstruct ?b
+		?a: Carbon dioxide bubbles
+		?b: the diffusion path
+	?a decrease ?b
+		?a: Carbon dioxide bubbles
+		?b: the matrix coherence
+
+
+label:    sent_10
+sentence: Granulomas obstruct lymphatics in all layers of the intestine in Crohn 's disease .
+
+ppatt:
+	?a obstruct ?b in ?c
+		?a: Granulomas
+		?b: lymphatics
+		?c: all layers of the intestine in Crohn 's disease
+
+
+label:    sent_11
+sentence: Only in two cases did the cyst obstruct the sinus ostium .
+
+ppatt:
+	in ?a did ?b
+		?a: Only two cases
+		?b: the cyst
+	?a obstruct ?b
+		?a: the cyst
+		?b: the sinus ostium
+
+
+label:    sent_12
+sentence: Acute intranasal inflammation may obstruct the nasolacrimal duct with potential secondary dacryocystitis .
+
+ppatt:
+	?a may obstruct ?b with ?c
+		?a: Acute intranasal inflammation
+		?b: the nasolacrimal duct
+		?c: potential secondary dacryocystitis
+
+
+label:    sent_13
+sentence: As the fibroblasts proliferate , they encase and may obstruct important retroperitoneal structures .
+
+ppatt:
+	?a proliferate
+		?a: the fibroblasts
+	?a encase
+		?a: they
+	?a may obstruct ?b
+		?a: they
+		?b: important retroperitoneal structures
+
+
+label:    sent_14
+sentence: There are concerns that these manoeuvres may distort or obstruct the paediatric airway .
+
+ppatt:
+	There are ?a
+		?a: concerns that these manoeuvres may distort or obstruct the paediatric airway
+	?a may distort ?b
+		?a: these manoeuvres
+		?b: the paediatric airway
+	?a obstruct
+		?a: these manoeuvres
+
+
+label:    sent_15
+sentence: Embolic protection filters cause a pressure gradient and obstruct blood flow . IGF-1R activation was able to obstruct serum starvation/radiation-induced cell death in U1810 cell line .
+
+ppatt:
+	?a cause ?b
+		?a: Embolic protection filters
+		?b: a pressure gradient
+	?a obstruct ?b
+		?a: Embolic protection filters
+		?b: blood flow
+	?a was able to obstruct ?b
+		?a: IGF-1R activation
+		?b: serum starvation/radiation-induced cell death in U1810 cell line
+
+
+label:    sent_16
+sentence: The cyst appeared to obstruct the bladder outlet by a " ball-valve " mechanism .
+
+ppatt:
+	?a appeared to obstruct ?b by ?c
+		?a: The cyst
+		?b: the bladder outlet
+		?c: a " ball-valve " mechanism
+
+
+label:    sent_17
+sentence: Devitalized tissue can obstruct or completely stop healing of the wound .
+
+ppatt:
+	?a can obstruct
+		?a: Devitalized tissue
+	?a completely stop ?b
+		?a: Devitalized tissue
+		?b: healing of the wound
+
+
+label:    sent_18
+sentence: Gross tumor replacement of lymph node architecture may obstruct and redirect lymphatic flow . Similarly , the caring climate can obstruct or accelerate the process toward gerotranscendence .
+
+ppatt:
+	?a may obstruct ?b
+		?a: Gross tumor replacement of lymph node architecture
+		?b: lymphatic flow
+	?a redirect
+		?a: Gross tumor replacement of lymph node architecture
+	Similarly , ?a can obstruct ?b
+		?a: the caring climate
+		?b: the process toward gerotranscendence
+	?a accelerate
+		?a: the caring climate
+
+
+label:    sent_19
+sentence: These data disclose a pathway by which Type 1 interferons obstruct HIV replication .
+
+ppatt:
+	?a disclose ?b
+		?a: These data
+		?b: a pathway by which Type 1 interferons obstruct HIV replication
+	?a by ?b obstruct ?c
+		?a: a pathway
+		?b: Type 1 interferons
+		?c: HIV replication
+
+

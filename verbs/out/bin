@@ -1,0 +1,47 @@
+label:    sent_1
+sentence: DNA gel-blot analysis revealed that SlIAA3 was a single copy in tomato and SlIAA3 was bin-mapped in chromosome 9-G region using 75 tomato introgression lines .
+
+ppatt:
+	?a revealed ?b
+		?a: DNA gel-blot analysis
+		?b: SOMETHING := SlIAA3 was a single copy in tomato and SlIAA3
+	?a was a single copy in ?b
+		?a: SlIAA3
+		?b: tomato
+	?a was a single copy in ?b
+		?a: SlIAA3
+		?b: SlIAA3
+	?a was bin-mapped in ?b using ?c
+		?a: SlIAA3
+		?b: chromosome 9-G region
+		?c: 75 tomato introgression lines
+
+
+label:    sent_2
+sentence: The class I UGMS markers were physically mapped in silico on to the finished rice genome and bin-mapped in wheat .
+
+ppatt:
+	?a were physically mapped in ?b on to ?c
+		?a: The class I UGMS markers
+		?b: silico
+		?c: the finished rice genome
+	?a were physically mapped in ?b on to ?c
+		?a: The class I UGMS markers
+		?b: silico
+		?c: bin-mapped in wheat
+
+
+label:    sent_3
+sentence: We successfully bin-mapped 990 polymorphic DArT markers together with 108 RFLP markers across the IL population , increasing the number of markers available for each S. pennellii introgression by tenfold on average .
+
+ppatt:
+	?a successfully bin-mapped ?b with ?c
+		?a: We
+		?b: 990 polymorphic DArT markers
+		?c: together 108 RFLP markers across the IL population
+	?a increasing ?b by on ?c
+		?a: We
+		?b: the number of markers available for each S. pennellii introgression
+		?c: tenfold average
+
+

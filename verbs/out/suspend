@@ -1,0 +1,163 @@
+label:    sent_1
+sentence: This document is published to suspend the regulation .
+
+ppatt:
+	?a is published to suspend ?b
+		?a: This document
+		?b: the regulation
+
+
+label:    sent_2
+sentence: Infoldings of the peritoneum suspend the various organs contained in the abdominal cavity .
+
+ppatt:
+	?a suspend ?b
+		?a: Infoldings of the peritoneum
+		?b: the various organs contained in the abdominal cavity
+	?a contained in ?b
+		?a: the various organs
+		?b: the abdominal cavity
+
+
+label:    sent_3
+sentence: Artificial and natural materials are used to suspend the lid .
+
+ppatt:
+	?a are used to suspend ?b
+		?a: Artificial
+		?b: the lid
+	?a are used to suspend ?b
+		?a: natural
+		?b: the lid
+
+
+label:    sent_4
+sentence: It was therefore recommended to suspend all tick control in the area .
+
+ppatt:
+	?a was therefore recommended to suspend ?b
+		?a: It
+		?b: all tick control in the area
+
+
+label:    sent_5
+sentence: Ability to suspend respiration during perfusion imaging was monitored .
+
+ppatt:
+	?a suspend ?b
+		?a: Ability
+		?b: respiration during perfusion imaging
+	?a was monitored
+		?a: Ability to suspend respiration during perfusion imaging
+
+
+label:    sent_6
+sentence: An early stopping rule is implemented to suspend low-performing treatments from randomization .
+
+ppatt:
+	?a is implemented to suspend ?b
+		?a: An early stopping rule
+		?b: low-performing treatments from randomization
+
+
+label:    sent_7
+sentence: Patients should suspend use of oral contraceptives and other agents that promote skin pigmentation .
+
+ppatt:
+	?a should suspend ?b
+		?a: Patients
+		?b: use of oral contraceptives and other agents that promote skin pigmentation
+	?a promote ?b
+		?a: other agents
+		?b: skin pigmentation
+
+
+label:    sent_8
+sentence: Children should suspend the offending sport to allow healing . Cuts could force Michigan to suspend Medicaid program .
+
+ppatt:
+	?a should suspend ?b to allow ?c
+		?a: Children
+		?b: the offending sport
+		?c: healing
+	?a could force ?b to suspend ?c
+		?a: Cuts
+		?b: Michigan
+		?c: Medicaid program
+
+
+label:    sent_9
+sentence: Finally , children can suspend scalar implicatures in environments where they are not supported .
+
+ppatt:
+	Finally , ?a can suspend ?b in ?c
+		?a: children
+		?b: scalar implicatures
+		?c: environments where they are not supported
+	?a where ?b are not supported
+		?a: environments
+		?b: they
+
+
+label:    sent_10
+sentence: Use of xantham gum to suspend large particles during flow cytometric analysis and sorting .
+
+ppatt:
+	?a suspend ?b during ?c
+		?a: Use of xantham gum
+		?b: large particles
+		?c: flow cytometric analysis
+	?a suspend ?b during ?c
+		?a: Use of xantham gum
+		?b: large particles
+		?c: sorting
+
+
+label:    sent_11
+sentence: The curved annular components suspend the curved mural leaflets in both valves .
+
+ppatt:
+	?a suspend ?b
+		?a: The curved annular components
+		?b: the curved mural leaflets in both valves
+
+
+label:    sent_12
+sentence: Very rough surfaces can suspend small liquid drops and produce very large contact angles .
+
+ppatt:
+	?a can suspend ?b
+		?a: Very rough surfaces
+		?b: small liquid drops
+	?a produce ?b
+		?a: Very rough surfaces
+		?b: very large contact angles
+
+
+label:    sent_13
+sentence: We suspend the orbicularis oculi muscle and fix the orbital septum in blepharoplasty .
+
+ppatt:
+	?a suspend ?b
+		?a: We
+		?b: the orbicularis oculi muscle
+	?a fix ?b in ?c
+		?a: We
+		?b: the orbital septum
+		?c: blepharoplasty
+
+
+label:    sent_14
+sentence: To suspend blinking during certain cognitive activities would be adaptive if blinking disrupts them .
+
+ppatt:
+	suspend ?a during ?b
+		?a: blinking
+		?b: certain cognitive activities
+	?a would be adaptive
+		?a: SOMETHING := To suspend blinking during certain cognitive activities
+	?a disrupts ?b
+		?a: blinking
+		?b: them
+
+

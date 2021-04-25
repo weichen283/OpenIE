@@ -1,0 +1,244 @@
+label:    sent_1
+sentence: Do n't discard diskography .
+
+ppatt:
+	Do n't discard ?a
+		?a: diskography
+
+
+label:    sent_2
+sentence: Chlamydia and gonorrhoea in pregnant Batswana women : time to discard the syndromic approach ? Effective counterscreens can be designed to discard the undesired classes of compounds .
+
+ppatt:
+	?a discard ?b
+		?a: time
+		?b: the syndromic approach
+	discard ?a
+		?a: the undesired classes of compounds
+
+
+label:    sent_3
+sentence: The 25-hydroxyvitamin D values above 30 ng/ml can safely discard ' hyper PTH ' . Molecular diagnosis allowed us to discard the most frequent mutations associated with 21-OHD .
+
+ppatt:
+	?a can safely discard
+		?a: The 25-hydroxyvitamin D values above 30 ng/ml
+	?a allowed ?b to discard ?c
+		?a: hyper PTH ' . Molecular diagnosis
+		?b: us
+		?c: the most frequent mutations associated with 21-OHD
+	?a associated with ?b
+		?a: the most frequent mutations
+		?b: 21-OHD
+
+
+label:    sent_4
+sentence: Conversely , a negative titer does not discard the diagnosis of HT .
+
+ppatt:
+	Conversely , ?a does not discard ?b
+		?a: a negative titer
+		?b: the diagnosis of HT
+
+
+label:    sent_5
+sentence: We present several arguments that via negativa should discard the compensatory theory . A negative result allows to discard significant fibrosis in 94 % of cases .
+
+ppatt:
+	?a present ?b
+		?a: We
+		?b: several arguments that via negativa should discard the compensatory theory
+	via ?a should discard ?b
+		?a: negativa
+		?b: the compensatory theory
+	?a allows to discard ?b in ?c
+		?a: A negative result
+		?b: significant fibrosis
+		?c: 94 % of cases
+
+
+label:    sent_6
+sentence: Diabetic patients are taught to discard insulin syringes after a single use .
+
+ppatt:
+	?a are taught to discard ?b after ?c
+		?a: Diabetic patients
+		?b: insulin syringes
+		?c: a single use
+
+
+label:    sent_7
+sentence: The standard approach is to discard these observations and analyze only complete observations .
+
+ppatt:
+	?a is to discard ?b
+		?a: The standard approach
+		?b: these observations
+	?a is to analyze ?b
+		?a: The standard approach
+		?b: only complete observations
+
+
+label:    sent_8
+sentence: Remedy for radiation fear-discard the politicized science .
+
+ppatt:
+
+
+
+label:    sent_9
+sentence: The remedy for radiation fear is to expose and discard the politicized science .
+
+ppatt:
+	?a is to expose ?b
+		?a: The remedy for radiation fear
+		?b: the politicized science
+	?a is to discard
+		?a: The remedy for radiation fear
+
+
+label:    sent_10
+sentence: Household income was not linearly related to amount of discard . The median annual rate of discard was 2.9/100 000 .
+
+ppatt:
+	?a was not linearly related to ?b
+		?a: Household income
+		?b: amount of discard
+	?a of discard
+		?a: amount
+	?a was 2.9/100 000
+		?a: The median annual rate of discard
+
+
+label:    sent_11
+sentence: Reasons for discard of umbilical cord blood units before cryopreservation .
+
+ppatt:
+
+
+
+label:    sent_12
+sentence: We observed that the separability increases if we discard SC as a feature .
+
+ppatt:
+	?a observed ?b
+		?a: We
+		?b: SOMETHING := the separability increases if we discard SC as a feature
+	?a increases
+		?a: the separability
+	?a discard ?b as ?c
+		?a: we
+		?b: SC
+		?c: a feature
+
+
+label:    sent_13
+sentence: Minimum discard volume from arterial catheters to obtain coagulation studies free of heparin effect .
+
+ppatt:
+	?a discard ?b
+		?a: Minimum
+		?b: volume from arterial catheters
+	?a obtain ?b
+		?a: Minimum
+		?b: coagulation studies free of heparin effect
+
+
+label:    sent_14
+sentence: [Wrong to discard antileukotrienes in the treatment of asthma ] . Mammographic CAD markings : archive or discard ? These actions include discard , freezing , research , and preimplantation genetic analysis .
+
+ppatt:
+	?a discard ?b in ?c
+		?a: [Wrong
+		?b: antileukotrienes
+		?c: the treatment of asthma ] . Mammographic CAD markings
+	?a include ?b
+		?a: These actions
+		?b: discard
+	?a include ?b
+		?a: These actions
+		?b: freezing
+	?a include ?b
+		?a: These actions
+		?b: research
+	?a include ?b
+		?a: These actions
+		?b: preimplantation genetic analysis
+
+
+label:    sent_15
+sentence: Clinicians should be aware of this when deciding which kidneys to transplant or discard .
+
+ppatt:
+	?a should be aware of ?b
+		?a: Clinicians
+		?b: this
+	?a when deciding ?b
+		?a: Clinicians
+		?b: which kidneys to transplant
+	?a discard
+		?a: Clinicians
+
+
+label:    sent_16
+sentence: When larvae attain competency to settle , they discard swimming chaetae and secrete mucus . Changes in fisheries discard rates and seabird communities .
+
+ppatt:
+	When ?a attain ?b to settle
+		?a: larvae
+		?b: competency
+	?a discard ?b
+		?a: they
+		?b: swimming chaetae
+	?a secrete ?b
+		?a: they
+		?b: mucus
+	?a discard ?b
+		?a: Changes in fisheries
+		?b: rates
+	?a discard ?b
+		?a: Changes in fisheries
+		?b: seabird communities
+
+
+label:    sent_17
+sentence: Many Bangladeshi mothers discard the colostrum and begin breast feeding several days after delivery .
+
+ppatt:
+	?a discard ?b
+		?a: Many Bangladeshi mothers
+		?b: the colostrum
+	?a begin ?b ?c after
+		?a: Many Bangladeshi mothers
+		?b: breast feeding
+		?c: several days
+
+
+label:    sent_18
+sentence: Ejaculate discard occurred for reasons of poor motility , abnormal sperm and bacteria .
+
+ppatt:
+	?a occurred for ?b
+		?a: Ejaculate discard
+		?b: reasons of poor motility , abnormal sperm and bacteria
+
+
+label:    sent_19
+sentence: Fetal stem cells from extra-embryonic tissues : do not discard .
+
+ppatt:
+	?a do not discard
+		?a: Fetal stem cells from extra-embryonic tissues
+
+
+label:    sent_20
+sentence: We also discuss the differential diagnoses that pathologists should discard .
+
+ppatt:
+	?a also discuss ?b
+		?a: We
+		?b: the differential diagnoses that pathologists should discard
+	?a should discard
+		?a: pathologists
+
+

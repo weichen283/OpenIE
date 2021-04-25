@@ -1,0 +1,249 @@
+label:    sent_1
+sentence: In this paper I outline and defend an alternative view . Nevertheless , for the next four decades Heath continued to defend his claim .
+
+ppatt:
+	In ?a ?b outline ?c
+		?a: this paper
+		?b: I
+		?c: an alternative view
+	?a defend
+		?a: I
+	Nevertheless , for ?a ?b continued to defend ?c
+		?a: the next four decades
+		?b: Heath
+		?c: his claim
+
+
+label:    sent_2
+sentence: How cells deploy ubiquitin and autophagy to defend their cytosol from bacterial invasion .
+
+ppatt:
+	How ?a deploy ?b to defend ?c
+		?a: cells
+		?b: ubiquitin
+		?c: their cytosol from bacterial invasion
+	How ?a deploy ?b to defend ?c
+		?a: cells
+		?b: autophagy
+		?c: their cytosol from bacterial invasion
+
+
+label:    sent_3
+sentence: Nurses are often forced to defend themselves about whether they provide value for money . How to defend yourself against lawyers ' attacks .
+
+ppatt:
+	?a are often forced to defend ?b ?c
+		?a: Nurses
+		?b: themselves
+		?c: SOMETHING := they provide value for money . How to defend yourself against lawyers ' attacks
+	?a provide ?b . How to defend ?c against ?d
+		?a: they
+		?b: value for money
+		?c: yourself
+		?d: lawyers ' attacks
+
+
+label:    sent_4
+sentence: Coinciding with this reognitions he tries to defend himself against it . However , hosts are often able to defend against parasites without using these mechanisms .
+
+ppatt:
+	Coinciding with ?a ?b
+		?a: this reognitions
+		?b: he
+	?a tries to defend ?b against ?c
+		?a: he
+		?b: himself
+		?c: it
+	However , ?a are often able to defend against ?b
+		?a: hosts
+		?b: parasites
+	?a using ?b
+		?a: hosts
+		?b: these mechanisms
+
+
+label:    sent_5
+sentence: Natural killer cells spontaneously lyse certain tumor cells and may defend against malignancy .
+
+ppatt:
+	?a spontaneously lyse ?b
+		?a: Natural killer cells
+		?b: certain tumor cells
+	?a may defend against ?b
+		?a: Natural killer cells
+		?b: malignancy
+
+
+label:    sent_6
+sentence: Natural killer cells ( NK ) are believed to defend against tumor growth .
+
+ppatt:
+	?a is/are NK
+		?a: Natural killer cells
+	?a are believed to defend against ?b
+		?a: Natural killer cells
+		?b: tumor growth
+
+
+label:    sent_7
+sentence: In this essay , I defend three Simple Views concerning human beings . Freud and Rank defend Groddeck 's Seeker of Souls against accusations of pornography .
+
+ppatt:
+	In ?a , ?b defend ?c
+		?a: this essay
+		?b: I
+		?c: three Simple Views concerning human beings
+	?a defend 's ?b against ?c
+		?a: Freud
+		?b: Groddeck Seeker of Souls
+		?c: accusations of pornography
+	?a defend 's ?b against ?c
+		?a: Rank
+		?b: Groddeck Seeker of Souls
+		?c: accusations of pornography
+
+
+label:    sent_8
+sentence: Not-for-profit hospital executives defend tax-exempt status at committee hearings .
+
+ppatt:
+	?a defend ?b at ?c
+		?a: Not-for-profit hospital executives
+		?b: tax-exempt status
+		?c: committee hearings
+
+
+label:    sent_9
+sentence: We defend a dimensional approach of the personality disorders .
+
+ppatt:
+	?a defend ?b
+		?a: We
+		?b: a dimensional approach of the personality disorders
+
+
+label:    sent_10
+sentence: Corporate versus public interests : community responsibility to defend scientific integrity .
+
+ppatt:
+	?a defend ?b
+		?a: community responsibility
+		?b: scientific integrity
+
+
+label:    sent_11
+sentence: How well does your insurer defend malpractice claims ? Obama promises to defend health law and promote " precision medicine " . Cell junctions are the gatekeepers of the paracellular route and defend the mucosal barrier . I explicate and defend the following theses . NK cells defend against tumor cells and virally infected cells .
+
+ppatt:
+	How well does your ?a defend ?b
+		?a: insurer
+		?b: malpractice claims
+	?a promises to defend ?b
+		?a: Obama
+		?b: health law
+	?a promises to promote ?b
+		?a: Obama
+		?b: " precision medicine "
+	?a are the gatekeepers of ?b
+		?a: Cell junctions
+		?b: the paracellular route
+	?a defend ?b
+		?a: Cell junctions
+		?b: the mucosal barrier
+	?a I explicate
+		?a: Cell junctions
+	?a defend ?b
+		?a: Cell junctions
+		?b: the
+	following ?a defend against ?b
+		?a: theses . NK cells
+		?b: tumor cells
+	following ?a defend against ?b
+		?a: theses . NK cells
+		?b: virally infected cells
+
+
+label:    sent_12
+sentence: Chondroitin sulfate may defend against cervical ripening in threatened premature labor .
+
+ppatt:
+	?a may defend against ?b in ?c
+		?a: Chondroitin sulfate
+		?b: cervical ripening
+		?c: threatened premature labor
+
+
+label:    sent_13
+sentence: Strategies to defend against quality of care allegations .
+
+ppatt:
+	?a defend against ?b
+		?a: Strategies
+		?b: quality of care allegations
+
+
+label:    sent_14
+sentence: Do parents defend their offspring whenever necessary , and do self-sacrificing parents really exist ? Social insects defend their own colonies and some species also protect their mutualist partners .
+
+ppatt:
+	Do ?a defend ?b
+		?a: parents
+		?b: their offspring
+	?a whenever necessary
+		?a: parents
+	do ?a
+		?a: self-sacrificing parents
+	?a really exist
+		?a: self-sacrificing parents
+	?a defend ?b
+		?a: Social insects
+		?b: their own colonies
+	?a also protect ?b
+		?a: some species
+		?b: their mutualist partners
+
+
+label:    sent_15
+sentence: Specific herbivore-induced volatiles defend plants and determine insect community composition in the field .
+
+ppatt:
+	?a defend ?b
+		?a: Specific herbivore-induced volatiles
+		?b: plants
+	?a determine ?b
+		?a: Specific herbivore-induced volatiles
+		?b: insect community composition in the field
+
+
+label:    sent_16
+sentence: Plants encounter a broad range of natural enemies and defend themselves in diverse ways . Paternal males brood and defend developing embryos typically in isolation .
+
+ppatt:
+	?a encounter ?b
+		?a: Plants
+		?b: a broad range of natural enemies
+	?a defend ?b in ?c
+		?a: Plants
+		?b: themselves
+		?c: diverse ways . Paternal males brood
+	?a defend ?b typically in ?c
+		?a: Plants
+		?b: developing embryos
+		?c: isolation
+
+
+label:    sent_17
+sentence: They attract pollinators and seed dispersers and defend plants against abiotic and biotic stresses .
+
+ppatt:
+	?a attract ?b
+		?a: They
+		?b: pollinators
+	?a attract ?b
+		?a: They
+		?b: seed dispersers
+	?a defend ?b
+		?a: They
+		?b: plants against abiotic and biotic
+
+

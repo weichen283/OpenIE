@@ -1,0 +1,286 @@
+label:    sent_1
+sentence: Is pre-existing fMRI data being used effectively to train new students in the field ? Change GME in order to train more primary-care docs , fewer specialists .
+
+ppatt:
+	Is ?a being used effectively to train ?b
+		?a: pre-existing fMRI data
+		?b: new students in the field
+	?a Change ?b
+		?a: pre-existing fMRI data
+		?b: GME
+	?a order to train ?b
+		?a: pre-existing fMRI data
+		?b: more primary-care docs
+	?a is/are fewer specialists
+		?a: more primary-care docs
+
+
+label:    sent_2
+sentence: Perhaps , different training strategies would be performed to train different COPD phenotypes .
+
+ppatt:
+	Perhaps , ?a would be performed to train ?b
+		?a: different training strategies
+		?b: different COPD phenotypes
+
+
+label:    sent_3
+sentence: Real-coded genetic algorithm was used to train the network in an unsupervised manner .
+
+ppatt:
+	?a was used to train ?b in ?c
+		?a: Real-coded genetic algorithm
+		?b: the network
+		?c: an unsupervised manner
+
+
+label:    sent_4
+sentence: Cultivating quality : a program to train inpatient pediatric nurses in insulin pump use .
+
+ppatt:
+	Cultivating ?a
+		?a: quality
+	?a train ?b in ?c
+		?a: a program
+		?b: inpatient pediatric nurses
+		?c: insulin pump use
+
+
+label:    sent_5
+sentence: Medical education needs to be improved to train doctors to deal with advance directives .
+
+ppatt:
+	?a needs to be improved to train ?b to deal with ?c
+		?a: Medical education
+		?b: doctors
+		?c: advance directives
+
+
+label:    sent_6
+sentence: Uniformly stable backpropagation algorithm to train a feedforward neural network .
+
+ppatt:
+	?a train ?b
+		?a: Uniformly stable backpropagation algorithm
+		?b: a feedforward neural network
+
+
+label:    sent_7
+sentence: Estimates also were restricted to schools that train physicians and nurses . Intensive physiotherapy to train the dorsiflexion .
+
+ppatt:
+	?a also were restricted to ?b
+		?a: Estimates
+		?b: schools that train physicians and nurses . Intensive physiotherapy to train the dorsiflexion
+	?a train ?b to train ?c
+		?a: schools
+		?b: physicians
+		?c: the dorsiflexion
+	?a train ?b to train ?c
+		?a: schools
+		?b: nurses
+		?c: the dorsiflexion
+	?a train ?b to train ?c
+		?a: schools
+		?b: Intensive physiotherapy
+		?c: the dorsiflexion
+
+
+label:    sent_8
+sentence: A database of 143 biopsies was used to train and examine the proposed system .
+
+ppatt:
+	?a was used to train ?b
+		?a: A database of 143 biopsies
+		?b: the proposed system
+	?a was used to examine
+		?a: A database of 143 biopsies
+
+
+label:    sent_9
+sentence: The AR coefficients are used to train and test the ANNs .
+
+ppatt:
+	?a are used to train ?b
+		?a: The AR coefficients
+		?b: the ANNs
+	?a are used to test
+		?a: The AR coefficients
+
+
+label:    sent_10
+sentence: A leave-one-out cross-validation was performed to repeatedly train and test the automatic classification system .
+
+ppatt:
+	?a was performed to repeatedly train ?b
+		?a: A leave-one-out cross-validation
+		?b: the automatic classification system
+	?a was performed to test
+		?a: A leave-one-out cross-validation
+
+
+label:    sent_11
+sentence: Reach out and train somebody .
+
+ppatt:
+	train ?a
+		?a: somebody
+
+
+label:    sent_12
+sentence: Fewer stapes operations are available to train residents and to maintain individual competence .
+
+ppatt:
+	?a are available to train ?b
+		?a: Fewer stapes operations
+		?b: residents
+	?a are available to to maintain ?b
+		?a: Fewer stapes operations
+		?b: individual competence
+
+
+label:    sent_13
+sentence: Financial resources and strong leadership impacted agency capacity to train providers and implement EBPs .
+
+ppatt:
+	?a impacted ?b
+		?a: Financial resources
+		?b: agency capacity to train providers and implement EBPs
+	?a impacted ?b
+		?a: strong leadership
+		?b: agency capacity to train providers and implement EBPs
+	?a train ?b
+		?a: agency capacity
+		?b: providers
+	implement ?a
+		?a: EBPs
+
+
+label:    sent_14
+sentence: Thereafter the patient was able to train without pain . Advising deaf youth to train for various occupations : attitudes of significant others .
+
+ppatt:
+	Thereafter ?a was able to train without ?b . Advising ?c to train for ?d
+		?a: the patient
+		?b: pain
+		?c: deaf youth
+		?d: various occupations
+
+
+label:    sent_15
+sentence: The need to train for IMC ( instrument meteorological conditions ) . TPM left the progressive lengthening of the CSP during the rTMS train unchanged .
+
+ppatt:
+	?a train for ?b ?c
+		?a: The need
+		?b: IMC
+		?c: TPM
+	?a is/are instrument meteorological conditions
+		?a: IMC
+	?a left ?b train unchanged
+		?a: The need to train for IMC . TPM
+		?b: the progressive lengthening of the CSP during the rTMS
+
+
+label:    sent_16
+sentence: Work problems associated with suburban train driving .
+
+ppatt:
+	?a associated with ?b
+		?a: Work problems
+		?b: suburban train driving
+
+
+label:    sent_17
+sentence: Individuals who train intensively may be at special risk due to repeated increased losses .
+
+ppatt:
+	?a train intensively
+		?a: Individuals
+	?a due to repeated increased losses
+		?a: Individuals who train intensively
+
+
+label:    sent_18
+sentence: Athletes consuming these supplements could train with higher exercise intensity . Finally , they train with additional clinical cases .
+
+ppatt:
+	?a consuming ?b
+		?a: Athletes
+		?b: these supplements
+	?a could train with ?b
+		?a: Athletes consuming these supplements
+		?b: higher exercise intensity
+	Finally , ?a train with ?b
+		?a: they
+		?b: additional clinical cases
+
+
+label:    sent_19
+sentence: Pilots should train in approaches and landings to conduct a higher level of proficiency .
+
+ppatt:
+	?a should train in ?b to conduct ?c
+		?a: Pilots
+		?b: approaches
+		?c: a higher level of proficiency
+	?a should train in ?b to conduct ?c
+		?a: Pilots
+		?b: landings
+		?c: a higher level of proficiency
+
+
+label:    sent_20
+sentence: Pulse train fluorescence technique for measuring triplet state dynamics . Summation and inhibition by ultrarapid train pacing in the human ventricle .
+
+ppatt:
+	?a measuring ?b
+		?a: Pulse train fluorescence technique
+		?b: triplet state dynamics
+	?a measuring ?b
+		?a: Pulse train fluorescence technique
+		?b: Summation
+
+
+label:    sent_21
+sentence: In some countries the medical schools train nurse-midwives .
+
+ppatt:
+	In ?a ?b train ?c
+		?a: some countries
+		?b: the medical schools
+		?c: nurse-midwives
+
+
+label:    sent_22
+sentence: Women who train and compete in road cycling as their primary sport . Many envenomations , however , occur in environments where athletes train and compete .
+
+ppatt:
+	?a train in ?b as ?c
+		?a: Women
+		?b: road cycling
+		?c: their primary sport
+	?a compete
+		?a: who
+	?a ?b however , occur in ?c
+		?a: Women who train and compete in road cycling as their primary sport
+		?b: Many envenomations
+		?c: environments where athletes train and compete
+	?a where ?b train
+		?a: environments
+		?b: athletes
+	?a compete
+		?a: athletes
+
+
+label:    sent_23
+sentence: Health officials should train and supervise traditional providers .
+
+ppatt:
+	?a should train ?b
+		?a: Health officials
+		?b: traditional providers
+	?a supervise
+		?a: Health officials
+
+

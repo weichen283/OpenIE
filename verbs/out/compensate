@@ -1,0 +1,290 @@
+label:    sent_1
+sentence: Confronted with progressive neurodegeneration , these active mechanisms help to compensate for brain damage .
+
+ppatt:
+	Confronted with ?a ?b
+		?a: progressive neurodegeneration
+		?b: these active mechanisms
+	?a help to compensate for ?b
+		?a: these active mechanisms
+		?b: brain damage
+
+
+label:    sent_2
+sentence: Overall , methanotrophs showed a remarkable ability to compensate for die-offs .
+
+ppatt:
+	Overall , ?a showed ?b
+		?a: methanotrophs
+		?b: a remarkable ability to compensate for die-offs
+	?a compensate for ?b
+		?a: a remarkable ability
+		?b: die-offs
+
+
+label:    sent_3
+sentence: Standard addition and matrix-matched calibration procedures were evaluated to compensate for matrix effects .
+
+ppatt:
+	?a were evaluated to compensate for ?b
+		?a: Standard addition
+		?b: matrix effects
+	?a were evaluated to compensate for ?b
+		?a: matrix-matched calibration procedures
+		?b: matrix effects
+
+
+label:    sent_4
+sentence: A sparse intraoperative data-driven biomechanical model to compensate for brain shift during neuronavigation .
+
+ppatt:
+	?a compensate for ?b during ?c
+		?a: A sparse intraoperative data-driven biomechanical model
+		?b: brain shift
+		?c: neuronavigation
+
+
+label:    sent_5
+sentence: Trophic eggs compensate for poor offspring feeding capacity in a subsocial burrower bug . Juvenile songbirds compensate for displacement to oceanic islands during autumn migration .
+
+ppatt:
+	?a compensate for ?b
+		?a: Trophic eggs
+		?b: poor offspring feeding capacity in a subsocial burrower bug
+	?a compensate for ?b
+		?a: Juvenile songbirds
+		?b: displacement to oceanic islands during autumn migration
+
+
+label:    sent_6
+sentence: This technique is used compensate the fiber nonlinearity in optical backpropagation .
+
+ppatt:
+	?a is used compensate ?b
+		?a: This technique
+		?b: the fiber nonlinearity in optical backpropagation
+
+
+label:    sent_7
+sentence: One issue is how to use such tables to compensate victims .
+
+ppatt:
+	?a is how to use ?b to compensate ?c
+		?a: One issue
+		?b: such tables
+		?c: victims
+
+
+label:    sent_8
+sentence: Clear lens extraction is a refractive surgery used to compensate axial myopia .
+
+ppatt:
+	?a is a refractive surgery
+		?a: Clear lens extraction
+	?a used to compensate ?b
+		?a: a refractive surgery
+		?b: axial myopia
+
+
+label:    sent_9
+sentence: Intensification of sweet taste may compensate for this deficit and reduce the pain . Patients can compensate for even significant femoral malrotation and tolerate it well .
+
+ppatt:
+	?a may compensate for ?b
+		?a: Intensification of sweet taste
+		?b: this deficit
+	?a reduce ?b
+		?a: Intensification of sweet taste
+		?b: the pain
+	?a can compensate for ?b
+		?a: Patients
+		?b: even significant femoral malrotation
+	?a tolerate ?b well
+		?a: Patients
+		?b: it
+
+
+label:    sent_10
+sentence: These proteins therefore functionally compensate for one another and are critical for cardiac contractility .
+
+ppatt:
+	?a therefore functionally compensate for ?b
+		?a: These proteins
+		?b: one another
+
+
+label:    sent_11
+sentence: Doxycycline greatly reduced tumour burden and could also compensate for the increased bone resorption .
+
+ppatt:
+	?a greatly reduced ?b
+		?a: Doxycycline
+		?b: tumour burden
+	?a could also compensate for ?b
+		?a: Doxycycline
+		?b: the increased bone resorption
+
+
+label:    sent_12
+sentence: Spectacle correction was provided for refractive error and to compensate for lack of accommodation .
+
+ppatt:
+	?a was provided for ?b
+		?a: Spectacle correction
+		?b: refractive error
+	?a compensate for ?b
+		?a: Spectacle correction
+		?b: lack of accommodation
+
+
+label:    sent_13
+sentence: Increases in CBF helped compensate for decreased arterial oxygen content and maintain CDO2 .
+
+ppatt:
+	?a helped compensate for ?b
+		?a: Increases in CBF
+		?b: decreased arterial oxygen content
+	?a helped maintain ?b
+		?a: Increases in CBF
+		?b: CDO2
+
+
+label:    sent_14
+sentence: However , the capacity of neurogenesis to compensate neuronal loss during neurodegeneration was limited .
+
+ppatt:
+	?a compensate ?b during ?c
+		?a: the capacity of neurogenesis
+		?b: neuronal loss
+		?c: neurodegeneration
+	However , ?a was limited
+		?a: the capacity of neurogenesis to compensate neuronal loss during neurodegeneration
+
+
+label:    sent_15
+sentence: These processes mostly can not compensate acidity loading from the watershed , though . We also have to compensate them for the types and difficulty of the procedures . A secondary use of cytology would compensate the loss of HPV testing specificity .
+
+ppatt:
+	?a mostly can not compensate ?b
+		?a: These processes
+		?b: acidity loading from the watershed
+	?a also have to compensate ?b for ?c
+		?a: We
+		?b: them
+		?c: the types of the procedures
+	?a also have to compensate ?b for ?c
+		?a: We
+		?b: them
+		?c: difficulty
+	?a would compensate ?b
+		?a: A secondary use of cytology
+		?b: the loss of HPV testing specificity
+
+
+label:    sent_16
+sentence: The use of AFO may compensate the instability of gait and balance .
+
+ppatt:
+	?a may compensate ?b
+		?a: The use of AFO
+		?b: the instability of gait and balance
+
+
+label:    sent_17
+sentence: Improved training for drivers can compensate some of the inadequacies of the elderly pedestrian .
+
+ppatt:
+	?a can compensate ?b
+		?a: Improved training for drivers
+		?b: some of the inadequacies of the elderly pedestrian
+
+
+label:    sent_18
+sentence: Broad T-cell response is considered critical for HIV-1 vaccines to compensate viral diversity .
+
+ppatt:
+	?a is considered critical for ?b to compensate ?c
+		?a: Broad T-cell response
+		?b: HIV-1 vaccines
+		?c: viral diversity
+
+
+label:    sent_19
+sentence: Senescent rats were unable for several hours to compensate the loss of body heat .
+
+ppatt:
+	?a were unable for ?b
+		?a: Senescent rats
+		?b: several hours to compensate the loss of body heat
+	?a compensate ?b
+		?a: several hours
+		?b: the loss of body heat
+
+
+label:    sent_20
+sentence: We hypothesized that TGF-beta1 and TGF-beta2 can compensate each other during palate formation .
+
+ppatt:
+	?a hypothesized ?b
+		?a: We
+		?b: SOMETHING := TGF-beta1 and TGF-beta2 can compensate each other during palate formation
+	?a can compensate ?b during ?c
+		?a: TGF-beta1
+		?b: each other
+		?c: palate formation
+	?a can compensate ?b during ?c
+		?a: TGF-beta2
+		?b: each other
+		?c: palate formation
+
+
+label:    sent_21
+sentence: These mechanisms compensate for decreased choline availability to maintain the PC content of lungs .
+
+ppatt:
+	?a compensate for ?b to maintain ?c
+		?a: These mechanisms
+		?b: decreased choline availability
+		?c: the PC content of lungs
+
+
+label:    sent_22
+sentence: However , alternate pathways compensate when the dominant pathway is compromised . France will compensate . Health courts one way to compensate injured patients and promote safety .
+
+ppatt:
+	However , ?a compensate ?b
+		?a: alternate pathways
+		?b: SOMETHING := France will compensate . Health courts one way to compensate injured patients and promote safety
+	when ?a is compromised
+		?a: the dominant pathway
+	?a will compensate ?b ?c
+		?a: France
+		?b: Health courts
+		?c: one way to compensate injured patients and promote safety
+	?a compensate ?b
+		?a: one way
+		?b: injured patients
+	promote ?a
+		?a: safety
+
+
+label:    sent_23
+sentence: The efficacy of the Peginterferon treatment in chronic hepatitis HDV and compensate liver cirrhosis .
+
+ppatt:
+	compensate ?a
+		?a: liver cirrhosis
+
+
+label:    sent_24
+sentence: The time-dependent effects are evident in a damage and compensate pattern .
+
+ppatt:
+	?a are evident in ?b
+		?a: The time-dependent effects
+		?b: a damage
+	?a compensate ?b
+		?a: The time-dependent effects
+		?b: pattern
+
+

@@ -1,0 +1,286 @@
+label:    sent_1
+sentence: Disease-causing mutations often reside in highly conserved and buried positions .
+
+ppatt:
+	?a often reside in ?b
+		?a: Disease-causing mutations
+		?b: highly conserved and buried positions
+
+
+label:    sent_2
+sentence: Immunoprecipitation experiments show that both Dyn2 and cortactin reside in a complex with alpha-actinin1 .
+
+ppatt:
+	?a show ?b
+		?a: Immunoprecipitation experiments
+		?b: SOMETHING := both Dyn2 and cortactin reside in a complex with alpha-actinin1
+	?a reside in ?b
+		?a: Dyn2
+		?b: a complex with alpha-actinin1
+	?a reside in ?b
+		?a: cortactin
+		?b: a complex with alpha-actinin1
+
+
+label:    sent_3
+sentence: They reside in tandem repetitive clusters , in some cases totaling hundreds of copies . siRNAs designed to reside within siRNA seats are less likely to hybridize off-target .
+
+ppatt:
+	?a reside in ?b
+		?a: They
+		?b: tandem repetitive clusters
+	?a totaling ?b
+		?a: some cases
+		?b: hundreds of copies
+	?a designed to reside within ?b
+		?a: siRNAs
+		?b: siRNA seats
+	in ?a ?b are less likely to hybridize off-target
+		?a: some cases totaling hundreds of copies
+		?b: siRNAs designed to reside within siRNA seats
+
+
+label:    sent_4
+sentence: Substance P ( SP ) selectively activates mast cells that reside in connective tissues .
+
+ppatt:
+	?a is/are SP
+		?a: P
+	?a ?b selectively activates ?c
+		?a: Substance
+		?b: P
+		?c: mast cells that reside in connective tissues
+	?a reside in ?b
+		?a: mast cells
+		?b: connective tissues
+
+
+label:    sent_5
+sentence: These effects were shown to reside in the propargylamine moiety .
+
+ppatt:
+	?a were shown to reside in ?b
+		?a: These effects
+		?b: the propargylamine moiety
+
+
+label:    sent_6
+sentence: Those genes reside preferentially in compact chromatin and are inefficiently transcribed under basal conditions .
+
+ppatt:
+	?a reside preferentially in ?b
+		?a: Those genes
+		?b: compact chromatin
+	?a are inefficiently transcribed under ?b
+		?a: Those genes
+		?b: basal conditions
+
+
+label:    sent_7
+sentence: Large longitudinal residual strains reside in the small intestine and showed circumferential variation .
+
+ppatt:
+	?a reside in ?b
+		?a: Large longitudinal residual strains
+		?b: the small intestine
+	?a showed ?b
+		?a: Large longitudinal residual strains
+		?b: circumferential variation
+
+
+label:    sent_8
+sentence: Stem cells in tissues reside in and receive signals from local microenvironments called niches .
+
+ppatt:
+	?a reside ?b
+		?a: Stem cells in tissues
+		?b: in
+	?a receive ?b
+		?a: Stem cells in tissues
+		?b: signals from local microenvironments called niches
+	?a called niches
+		?a: local microenvironments
+
+
+label:    sent_9
+sentence: [Population problems in the areas where the relatives of overseas Chinese reside ] . A few thousand Metropolitan French reside there .
+
+ppatt:
+	?a where ?b reside ?c
+		?a: the areas
+		?b: the relatives of overseas Chinese
+		?c: ]
+	?a ?b reside ?c
+		?a: [Population problems in the areas where the relatives of overseas Chinese reside ]
+		?b: A few thousand Metropolitan French
+		?c: there
+
+
+label:    sent_10
+sentence: They play unique roles in each organ where they reside .
+
+ppatt:
+	?a play ?b in ?c
+		?a: They
+		?b: unique roles
+		?c: each organ where they reside
+	?a where ?b reside
+		?a: each organ
+		?b: they
+
+
+label:    sent_11
+sentence: The parasite is dioecious and can reside inside the host for many years .
+
+ppatt:
+	?a is dioecious
+		?a: The parasite
+	?a can reside inside ?b for ?c
+		?a: The parasite
+		?b: the host
+		?c: many years
+
+
+label:    sent_12
+sentence: By electron microscopy , all bacteria are ingested and reside in phagosomes .
+
+ppatt:
+	By ?a , ?b are ingested
+		?a: electron microscopy
+		?b: all bacteria
+	?a reside in ?b
+		?a: all bacteria
+		?b: phagosomes
+
+
+label:    sent_13
+sentence: LEAR preserves the ability to ambulate and reside at home for most patients .
+
+ppatt:
+	?a preserves ?b
+		?a: LEAR
+		?b: the ability to ambulate and reside at home for most patients
+	?a ambulate at ?b
+		?a: the ability
+		?b: home for most patients
+	?a reside
+		?a: the ability
+
+
+label:    sent_14
+sentence: However , the insect tissues within which these metabolic enzymes normally reside remain unclear .
+
+ppatt:
+	?a within ?b normally reside
+		?a: the insect tissues
+		?b: these metabolic enzymes
+	However , ?a remain unclear
+		?a: the insect tissues within which these metabolic enzymes normally reside
+
+
+label:    sent_15
+sentence: They have a preferential topographical distribution in the organs in which they reside .
+
+ppatt:
+	?a have ?b in ?c
+		?a: They
+		?b: a preferential topographical distribution
+		?c: the organs in which they reside
+	?a in ?b reside
+		?a: the organs
+		?b: they
+
+
+label:    sent_16
+sentence: The challenge in reporting data is keeping track of what data reside where . Stem cell niches are locations where stem cells reside and self-renew .
+
+ppatt:
+	?a is keeping track
+		?a: The challenge in reporting data
+	?a of ?b ?c reside ?d
+		?a: keeping track
+		?b: what
+		?c: data
+		?d: SOMETHING := where . Stem cell niches are locations where stem cells reside and self-renew
+	where . ?a are locations
+		?a: Stem cell niches
+	?a where ?b reside
+		?a: where . locations
+		?b: stem cells
+	?a self-renew
+		?a: stem cells
+
+
+label:    sent_17
+sentence: Human papillomavirus could reside and play an etiological role in some vulvar epithelial lesions . All patients reside and were infected in Belgium .
+
+ppatt:
+	?a could reside in ?b
+		?a: Human papillomavirus
+		?b: some vulvar epithelial lesions
+	?a play ?b
+		?a: Human papillomavirus
+		?b: an etiological role
+	?a reside
+		?a: All patients
+	?a were infected in ?b
+		?a: All patients
+		?b: Belgium
+
+
+label:    sent_18
+sentence: Multiple bacterial species reside in chronic wounds : a longitudinal study .
+
+ppatt:
+	?a reside in ?b
+		?a: Multiple bacterial species
+		?b: chronic wounds
+
+
+label:    sent_19
+sentence: Lens stem cells may reside outside the lens capsule : an hypothesis .
+
+ppatt:
+	?a may reside outside ?b
+		?a: Lens stem cells
+		?b: the lens capsule
+
+
+label:    sent_20
+sentence: Fifty percent of the patients reside more than 30 miles from treating hospital .
+
+ppatt:
+	?a reside ?b
+		?a: Fifty percent of the patients
+		?b: more than 30 miles from treating hospital
+
+
+label:    sent_21
+sentence: [Does consciousness reside in computer ? --On the neuro-computing point of view ] . Bacteria that reside free and inside phagocytes cause acute and chronic forms of photobacteriosis .
+
+ppatt:
+	?a reside in ?b ?c
+		?a: [Does consciousness
+		?b: computer ? --On
+		?c: the neuro-computing point of view . Bacteria that reside free and inside phagocytes
+	?a reside ?b ?c
+		?a: Bacteria
+		?b: free
+		?c: phagocytes
+	?a reside ?b ?c
+		?a: Bacteria
+		?b: inside
+		?c: phagocytes
+	?a cause ?b
+		?a: [Does consciousness
+		?b: acute and chronic forms of photobacteriosis
+
+
+label:    sent_22
+sentence: Almost 11 % of British-registered pharmacists reside overseas .
+
+ppatt:
+	?a reside overseas
+		?a: Almost 11 % of British-registered pharmacists
+
+

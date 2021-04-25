@@ -1,0 +1,52 @@
+label:    sent_1
+sentence: It aims to analyze , discuss , and debate the current understanding of this condition using the available literature .
+
+ppatt:
+	?a aims to analyze , using ?b
+		?a: It
+		?b: the available literature
+	?a aims to discuss , using
+		?a: It
+	?a aims to , debate ?b using
+		?a: It
+		?b: the current understanding of this condition
+
+
+label:    sent_2
+sentence: In the following article , our discussants debate the appropriate management of small popliteal artery aneurysms .
+
+ppatt:
+	In ?a , ?b debate ?c
+		?a: the following article
+		?b: our discussants
+		?c: the appropriate management of small popliteal artery aneurysms
+
+
+label:    sent_3
+sentence: Herein , we critically debate the two sides of three specific controversies : ( 1 ) the role of chemotherapy in the treatment of advanced pediatric HCC ; ( 2 ) the indications for liver transplantation in children with HCC , specifically , the appropriateness of using adult Milan criteria ; and ( 3 ) the role of liver trasplantation in children with unresectable HB that present with metastatic disease .
+
+ppatt:
+	Herein , ?a critically debate ?b ?c
+		?a: we
+		?b: the two sides of three specific controversies
+		?c: the role of chemotherapy in the treatment of advanced pediatric HCC
+	Herein , ?a critically debate ?b ?c
+		?a: we
+		?b: the two sides of three specific controversies
+		?c: the indications for liver transplantation in children with HCC
+	Herein , ?a critically debate ?b ?c
+		?a: we
+		?b: the two sides of three specific controversies
+		?c: specifically the appropriateness of using adult Milan criteria
+	Herein , ?a critically debate ?b ?c
+		?a: we
+		?b: the two sides of three specific controversies
+		?c: the role of liver trasplantation in children with unresectable HB that present with metastatic disease
+	?a using ?b
+		?a: specifically the appropriateness
+		?b: adult Milan criteria
+	?a present with ?b
+		?a: unresectable HB
+		?b: metastatic disease
+
+

@@ -1,0 +1,164 @@
+label:    sent_1
+sentence: It also shows that drivers who purchase a new car are not well informed about what kind of safety devices the car is equipped with . Parents could restrict specific foods ( eg , chips ) , identify specific days the child can purchase extra foods , or set monetary limits .
+
+ppatt:
+	?a also shows ?b
+		?a: It
+		?b: SOMETHING := drivers who purchase a new car are not well informed about what kind of safety devices the car is equipped Parents
+	?a purchase ?b
+		?a: drivers
+		?b: a new car
+	?a are not well informed ?b
+		?a: drivers who purchase a new car
+		?b: SOMETHING := about what kind of safety devices the car is equipped Parents
+	about ?a ?b ?c is equipped ?d
+		?a: what
+		?b: kind of safety devices
+		?c: the car
+		?d: Parents
+	?a could restrict ?b
+		?a: drivers who purchase a new car
+		?b: specific foods
+	?a is/are chips
+		?a: specific foods
+	?a identify ?b
+		?a: drivers who purchase a new car
+		?b: specific days
+	?a can purchase ?b
+		?a: the child
+		?b: extra foods
+	?a set ?b
+		?a: the child
+		?b: monetary limits
+
+
+label:    sent_2
+sentence: In particular , we suggest that an alternative method of projecting dengue travel vaccine uptake would account for ( 1 ) future flows of travellers from all non-endemic source to all endemic destination countries , based on data that are comparable between countries , and corrected for double-counting and other sources of error ; ( 2 ) the proportion of such travellers that seek premedical travel advice within a timescale compatible with the probable dengue vaccine schedule ; ( 3 ) the proportion of these travellers that will present with a combination of risk factors ( above and beyond destination country ) sufficient to prompt a physician to prescribe a dengue vaccine ; and ( 4 ) the proportion of these travellers that actually purchase a vaccine when advised to do so . Modern consumers are increasingly interested in their personal health and expect the food they purchase to be tasty and attractive while being safe and healthful .
+
+ppatt:
+	In ?a , ?b suggest ?c
+		?a: particular
+		?b: we
+		?c: SOMETHING := an alternative method of projecting dengue travel vaccine uptake would account for future flows of travellers from all non-endemic source to all endemic destination countries , based on data that are comparable between countries , and corrected for double-counting and other ; the proportion of such travellers that seek premedical travel advice within a timescale compatible with the probable dengue vaccine schedule ; the proportion of these travellers that will present with a combination of risk factors sufficient to prompt a physician to prescribe a dengue vaccine
+	?a projecting ?b
+		?a: an alternative method
+		?b: dengue travel vaccine uptake
+	?a would account for ?b
+		?a: an alternative method of projecting dengue travel vaccine uptake
+		?b: future flows of travellers from all non-endemic source to all endemic destination countries
+	?a would account for ?b
+		?a: an alternative method of projecting dengue travel vaccine uptake
+		?b: data that are comparable between countries and corrected for double-counting and other
+	?a would account for ?b
+		?a: an alternative method of projecting dengue travel vaccine uptake
+		?b: the proportion of such travellers that seek premedical travel advice within a timescale compatible with the probable dengue vaccine schedule
+	?a are comparable between ?b
+		?a: data
+		?b: countries
+	?a corrected for ?b
+		?a: that
+		?b: double-counting
+	?a corrected for ?b
+		?a: that
+		?b: other
+	?a seek ?b within ?c
+		?a: such travellers
+		?b: premedical travel advice
+		?c: a timescale compatible with the probable dengue vaccine schedule
+	?a will present with ?b
+		?a: the proportion of these travellers
+		?b: a combination of risk factors
+	prompt ?a
+		?a: a physician
+	prescribe ?a
+		?a: a dengue vaccine
+	?a actually purchase ?b
+		?a: the proportion of these travellers
+		?b: a vaccine
+	?a when advised to do so
+		?a: that
+	?a ?b are increasingly interested in ?c
+		?a: the proportion of these travellers that actually purchase a vaccine when advised to do so
+		?b: Modern consumers
+		?c: their personal health
+	?a expect ?b
+		?a: the proportion of these travellers that actually purchase a vaccine when advised to do so
+		?b: the food
+	?a purchase to be tasty
+		?a: they
+	?a purchase to be attractive
+		?a: they
+	?a being safe
+		?a: they
+	?a healthful
+		?a: they
+
+
+label:    sent_3
+sentence: Additionally , with torsional phaco technologies , adequate lens purchase may be suboptimal and lead to inefficient chopping .
+
+ppatt:
+	Additionally , with ?a , ?b may be suboptimal
+		?a: torsional phaco technologies
+		?b: adequate lens purchase
+	?a lead to ?b
+		?a: adequate lens purchase
+		?b: inefficient chopping
+
+
+label:    sent_4
+sentence: Consumers expect the food they purchase to be safe .
+
+ppatt:
+	?a expect ?b ?c
+		?a: Consumers
+		?b: the food
+		?c: SOMETHING := they purchase to be safe
+	?a purchase to be safe
+		?a: they
+
+
+label:    sent_5
+sentence: Participants either imagined specific events of spending money ( e.g. , pound 35 in 180 days at a pub ) , or merely estimated what the money could purchase in the scenario .
+
+ppatt:
+	?a either imagined ?b
+		?a: Participants
+		?b: specific events of spending money
+	?a spending ?b
+		?a: specific events
+		?b: money
+	?a merely estimated ?b
+		?a: Participants
+		?b: SOMETHING := what the money could purchase in the scenario
+	?a ?b could purchase in ?c
+		?a: what
+		?b: the money
+		?c: the scenario
+
+
+label:    sent_6
+sentence: It also was found that the junior high students were more likely to say they would select a pair of jeans as a gift when the hangtags were present but were more likely to say they would purchase the jeans for themselves in the absence of the hangtags .
+
+ppatt:
+	?a also was found ?b
+		?a: It
+		?b: SOMETHING := the junior high students were more likely to say
+	?a were more likely to say
+		?a: the junior high students
+	?a would select ?b as ?c
+		?a: they
+		?b: a pair of jeans
+		?c: a gift
+	when ?a were present
+		?a: the hangtags
+	?a were more likely to say ?b
+		?a: the hangtags
+		?b: SOMETHING := they would purchase the jeans for themselves in the absence of the hangtags
+	?a would purchase ?b for ?c in ?d
+		?a: they
+		?b: the jeans
+		?c: themselves
+		?d: the absence of the hangtags
+
+

@@ -1,0 +1,28 @@
+label:    sent_1
+sentence: This allows us to ramp arbitrary diffusion rate profiles during the self-assembly process of macromolecules , such as collagen .
+
+ppatt:
+	?a allows ?b to ramp ?c during ?d
+		?a: This
+		?b: us
+		?c: arbitrary diffusion rate profiles
+		?d: the self-assembly process of macromolecules , such as collagen
+
+
+label:    sent_2
+sentence: With our modular hardware design , we successfully ramp the 0.4-T polarizing coil of a wrist-sized PMRI scanner at up to 100 T/s without causing image artifacts or otherwise degrading data acquisition .
+
+ppatt:
+	With ?a , ?b successfully ramp ?c at ?d
+		?a: our modular hardware design
+		?b: we
+		?c: the 0.4-T polarizing coil of a wrist-sized PMRI scanner
+		?d: up 100 T/s
+	?a causing ?b
+		?a: we
+		?b: image artifacts
+	?a otherwise degrading ?b
+		?a: we
+		?b: data acquisition
+
+

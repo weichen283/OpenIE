@@ -1,0 +1,301 @@
+label:    sent_1
+sentence: Consent and assessment of capacity to decide or refuse treatment .
+
+ppatt:
+	?a decide ?b
+		?a: Consent of capacity
+		?b: treatment
+	?a decide ?b
+		?a: assessment
+		?b: treatment
+	refuse ?a
+		?a: treatment
+
+
+label:    sent_2
+sentence: Younger patients were more likely to refuse observers .
+
+ppatt:
+	?a were more likely to refuse ?b
+		?a: Younger patients
+		?b: observers
+
+
+label:    sent_3
+sentence: Patient 's autonomy includes the right to refuse life-saving therapy in modern constitutional states .
+
+ppatt:
+	?a includes ?b to refuse ?c in ?d
+		?a: Patient 's autonomy
+		?b: the right
+		?c: life-saving therapy
+		?d: modern constitutional states
+
+
+label:    sent_4
+sentence: There is a need to explore why protocol-eligible subjects refuse participation in clinical trials .
+
+ppatt:
+	There is ?a
+		?a: a need to explore why protocol-eligible subjects refuse participation in clinical trials
+	?a explore ?b
+		?a: a need
+		?b: SOMETHING := why protocol-eligible subjects refuse participation in clinical trials
+	why ?a refuse ?b
+		?a: protocol-eligible subjects
+		?b: participation in clinical trials
+
+
+label:    sent_5
+sentence: Frequently patients refuse further medical evaluation or intervention , including transport .
+
+ppatt:
+	?a refuse ?b
+		?a: Frequently patients
+		?b: further medical evaluation , including transport
+	?a refuse ?b
+		?a: Frequently patients
+		?b: intervention
+
+
+label:    sent_6
+sentence: Patients treated by peritoneal dialysis refuse kidney transplantation less often than hemodialysis patients .
+
+ppatt:
+	?a treated by ?b
+		?a: Patients
+		?b: peritoneal dialysis
+	?a refuse ?b less often than ?c
+		?a: Patients treated by peritoneal dialysis
+		?b: kidney transplantation
+		?c: hemodialysis patients
+
+
+label:    sent_7
+sentence: Majority of NHS trusts refuse to pay extra for royal wedding shift .
+
+ppatt:
+	?a refuse to pay ?b for ?c
+		?a: Majority of NHS trusts
+		?b: extra
+		?c: royal wedding shift
+
+
+label:    sent_8
+sentence: An offer you can n't refuse ? The police frequently report that doctors refuse to assess fitness for custody . May doctors refuse infertility treatments to gay patients ? Patients may refuse treatment despite predictably dire consequences of refusal , including death . Right to refuse treatment issues still far from settled .
+
+ppatt:
+	?a ?b can n't refuse
+		?a: An offer
+		?b: you
+	?a frequently report ?b
+		?a: The police
+		?b: SOMETHING := doctors refuse to assess fitness for custody
+	?a refuse to assess ?b
+		?a: doctors
+		?b: fitness for custody
+	May ?a refuse ?b to ?c
+		?a: doctors
+		?b: infertility treatments
+		?c: gay patients
+	?a may refuse ?b despite ?c to refuse ?d still far from ?e
+		?a: Patients
+		?b: treatment
+		?c: predictably dire consequences of refusal , including death . Right
+		?d: treatment issues
+		?e: settled
+
+
+label:    sent_9
+sentence: Hungarian law assures the right to refuse life-saving treatment as well .
+
+ppatt:
+	?a assures ?b to refuse ?c as well
+		?a: Hungarian law
+		?b: the right
+		?c: life-saving treatment
+
+
+label:    sent_10
+sentence: Anorexic patients are prone to refuse treatment despite life-threatening complications .
+
+ppatt:
+	?a are prone to refuse ?b despite ?c
+		?a: Anorexic patients
+		?b: treatment
+		?c: life-threatening complications
+
+
+label:    sent_11
+sentence: Sex workers are empowered when they are able to refuse sex without a condom .
+
+ppatt:
+	?a are empowered
+		?a: Sex workers
+	when ?a are able to refuse ?b without ?c
+		?a: they
+		?b: sex
+		?c: a condom
+
+
+label:    sent_12
+sentence: The right not to be treated or to refuse treatment .
+
+ppatt:
+	?a not to be treated
+		?a: The right
+	refuse ?a
+		?a: treatment
+
+
+label:    sent_13
+sentence: The law on managing patients who deliberately harm themselves and refuse treatment .
+
+ppatt:
+	?a deliberately harm ?b
+		?a: managing patients
+		?b: themselves
+	?a refuse ?b
+		?a: who
+		?b: treatment
+
+
+label:    sent_14
+sentence: The fourth is patients who can not afford or who refuse BTX injections .
+
+ppatt:
+	?a is patients
+		?a: The fourth
+	?a can not afford
+		?a: patients
+	?a refuse ?b
+		?a: who
+		?b: BTX injections
+
+
+label:    sent_15
+sentence: Some of these patients will refuse surgery or will have co-morbidities that preclude surgery .
+
+ppatt:
+	?a will refuse ?b
+		?a: Some of these patients
+		?b: surgery
+	?a will have ?b
+		?a: Some of these patients
+		?b: co-morbidities that preclude surgery
+	?a preclude ?b
+		?a: co-morbidities
+		?b: surgery
+
+
+label:    sent_16
+sentence: About one-third of participants expressed reservations or said they would definitely refuse substitution .
+
+ppatt:
+	?a expressed ?b
+		?a: About one-third of participants
+		?b: reservations
+	?a would definitely refuse ?b
+		?a: they
+		?b: substitution
+
+
+label:    sent_17
+sentence: Patients generally refuse referral to psychiatry , and dermatologists can not always provide psychotherapeutic support .
+
+ppatt:
+	?a generally refuse ?b
+		?a: Patients
+		?b: referral to psychiatry
+	?a can not always provide ?b
+		?a: dermatologists
+		?b: psychotherapeutic support
+
+
+label:    sent_18
+sentence: Unacceptable for nurses to refuse to care for AIDS patients .
+
+ppatt:
+	Unacceptable for ?a to refuse to care for ?b
+		?a: nurses
+		?b: AIDS patients
+
+
+label:    sent_19
+sentence: Debate : it is appropriate for a nurse to refuse an assignment --pro .
+
+ppatt:
+	refuse ?a
+		?a: an assignment --pro
+
+
+label:    sent_20
+sentence: Debate : it is appropriate for a nurse to refuse an assignment --con .
+
+ppatt:
+	refuse ?a
+		?a: an assignment --con
+
+
+label:    sent_21
+sentence: Many doctors refuse legally to certify , and access to abortion is limited .
+
+ppatt:
+	?a refuse legally to certify
+		?a: Many doctors
+	?a is limited
+		?a: access to abortion
+
+
+label:    sent_22
+sentence: A sizeable proportion of patients refuse or are unfit for surgery .
+
+ppatt:
+	?a refuse
+		?a: A sizeable proportion of patients
+
+
+label:    sent_23
+sentence: We suggest this protocol for patients who refuse or are unsuitable for surgery .
+
+ppatt:
+	?a suggest ?b
+		?a: We
+		?b: this protocol for patients who refuse or are unsuitable for surgery
+	?a refuse
+		?a: patients
+
+
+label:    sent_24
+sentence: American doctors eagerly practice evidence-based medicine but refuse to learn from failed social engineering .
+
+ppatt:
+	?a eagerly practice ?b
+		?a: American doctors
+		?b: evidence-based medicine
+	?a refuse to learn from ?b
+		?a: American doctors
+		?b: failed social engineering
+
+
+label:    sent_25
+sentence: Patients were free to refuse or terminate a treatment early for any reason .
+
+ppatt:
+	?a were free to refuse ?b early for ?c
+		?a: Patients
+		?b: a treatment
+		?c: any reason
+	?a were free to terminate
+		?a: Patients
+
+
+label:    sent_26
+sentence: An offer we can and should refuse .
+
+ppatt:
+	?a ?b can should refuse
+		?a: An offer
+		?b: we
+
+

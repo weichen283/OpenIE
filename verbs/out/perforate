@@ -1,0 +1,225 @@
+label:    sent_1
+sentence: Chemical permeabilization employs saponin to selectively perforate the cell membrane while maintaining cellular architecture .
+
+ppatt:
+	?a employs ?b to selectively perforate ?c
+		?a: Chemical permeabilization
+		?b: saponin
+		?c: the cell membrane
+	?a maintaining ?b
+		?a: Chemical permeabilization
+		?b: cellular architecture
+
+
+label:    sent_2
+sentence: However , care must be exercised not to perforate the colon .
+
+ppatt:
+	However , ?a must be exercised not to perforate ?b
+		?a: care
+		?b: the colon
+
+
+label:    sent_3
+sentence: Odontoclasts are responsible for this situation which can potentially perforate the root .
+
+ppatt:
+	?a are responsible for ?b
+		?a: Odontoclasts
+		?b: this situation which can potentially perforate the root
+	?a can potentially perforate ?b
+		?a: this situation
+		?b: the root
+
+
+label:    sent_4
+sentence: This material does not perforate the epidermis .
+
+ppatt:
+	?a does not perforate ?b
+		?a: This material
+		?b: the epidermis
+
+
+label:    sent_5
+sentence: The latter do , on rare occasions , perforate the rectum .
+
+ppatt:
+	?a do , on ?b
+		?a: The latter
+		?b: rare occasions
+	?a perforate ?b
+		?a: The latter
+		?b: the rectum
+
+
+label:    sent_6
+sentence: A chest tube inserted for treatment of a pneumothorax may inadvertently perforate the lung . Nasal insufflation of cocaine injures the nasal mucosa and can perforate the septum . GMAP2 used alone did not perforate E. coli cells nor influence lysozyme muramidase activity .
+
+ppatt:
+	?a inserted for ?b
+		?a: A chest tube
+		?b: treatment of a pneumothorax
+	?a may inadvertently perforate ?b
+		?a: A chest tube inserted for treatment of a pneumothorax
+		?b: the lung
+	?a injures ?b
+		?a: Nasal insufflation of cocaine
+		?b: the nasal mucosa
+	?a can perforate ?b
+		?a: Nasal insufflation of cocaine
+		?b: the septum
+	?a used alone
+		?a: GMAP2
+	?a did not perforate ?b
+		?a: GMAP2 used alone
+		?b: E. coli cells
+	?a influence ?b
+		?a: GMAP2 used alone
+		?b: lysozyme muramidase activity
+
+
+label:    sent_7
+sentence: Friction of the stents on the graft can cause abrasion and perforate the textile .
+
+ppatt:
+	?a can cause ?b
+		?a: Friction of the stents on the graft
+		?b: abrasion
+	?a perforate ?b
+		?a: Friction of the stents on the graft
+		?b: the textile
+
+
+label:    sent_8
+sentence: Only one pulse can perforate the iris and no serious complication has been encountered .
+
+ppatt:
+	?a can perforate ?b
+		?a: Only one pulse
+		?b: the iris
+	?a has been encountered
+		?a: no serious complication
+
+
+label:    sent_9
+sentence: Intrauterine device may perforate the uterus and cause several complications .
+
+ppatt:
+	?a may perforate ?b
+		?a: Intrauterine device
+		?b: the uterus
+	?a cause ?b
+		?a: Intrauterine device
+		?b: several complications
+
+
+label:    sent_10
+sentence: It was easier to perforate a limb with stretched muscles than with relaxed ones . Nonenveloped animal viruses must disrupt or perforate a cell membrane during entry .
+
+ppatt:
+	?a was easier to perforate ?b than with ?c
+		?a: It
+		?b: a limb with stretched muscles
+		?c: relaxed ones
+	?a must disrupt ?b during ?c
+		?a: Nonenveloped animal viruses
+		?b: a cell membrane
+		?c: entry
+	?a perforate
+		?a: Nonenveloped animal viruses
+
+
+label:    sent_11
+sentence: In benign teratoma , it is not rare to perforate to the adjacent structures .
+
+ppatt:
+	In ?a , ?b is not rare to ?c to ?d
+		?a: benign teratoma
+		?b: it
+		?c: perforate
+		?d: the adjacent structures
+
+
+label:    sent_12
+sentence: A T1 gastric carcinoma has never been reported to perforate spontaneously in English literature .
+
+ppatt:
+	?a has never been reported to perforate spontaneously in ?b
+		?a: A T1 gastric carcinoma
+		?b: English literature
+
+
+label:    sent_13
+sentence: In this case , gangrenous bowel was reduced and proceeded to perforate after reduction .
+
+ppatt:
+	In ?a , ?b was reduced
+		?a: this case
+		?b: gangrenous bowel
+	?a proceeded to perforate after ?b
+		?a: gangrenous bowel
+		?b: reduction
+
+
+label:    sent_14
+sentence: The bowel can perforate anywhere in its course .
+
+ppatt:
+	?a can perforate anywhere in ?b
+		?a: The bowel
+		?b: its course
+
+
+label:    sent_15
+sentence: We could easily perforate it through . We perforate the cyst wall and decompress continuously with cannulated screws for 12 months .
+
+ppatt:
+	?a could easily perforate ?b
+		?a: We
+		?b: it
+	through ?a perforate ?b
+		?a: We
+		?b: the cyst wall
+	?a decompress continuously with ?b for ?c
+		?a: We
+		?b: cannulated screws
+		?c: 12 months
+
+
+label:    sent_16
+sentence: The probability that an inflamed appendix will perforate during observation can be estimated . Penetrating ulcers may perforate .
+
+ppatt:
+	The probability ?a ?b
+		?a: The probability that an inflamed appendix will perforate during observation
+		?b: SOMETHING := an inflamed appendix will perforate during observation
+	?a will perforate during ?b
+		?a: an inflamed appendix
+		?b: observation
+	?a can be estimated
+		?a: The probability that an inflamed appendix will perforate during observation
+	?a may perforate
+		?a: Penetrating ulcers
+
+
+label:    sent_17
+sentence: These gossamer-like membranes perforate at term or soon thereafter .
+
+ppatt:
+	?a perforate at ?b or soon thereafter
+		?a: These gossamer-like membranes
+		?b: term
+
+
+label:    sent_18
+sentence: Fukuda et al found that less than 5 % of malignant gastric lymphomas perforate .
+
+ppatt:
+	?a found ?b
+		?a: Fukuda et al
+		?b: SOMETHING := less than 5 % of malignant gastric lymphomas perforate
+	?a perforate
+		?a: less than 5 % of malignant gastric lymphomas
+
+

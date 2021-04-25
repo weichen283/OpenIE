@@ -1,0 +1,23 @@
+label:    sent_1
+sentence: If the second , they can further inequality and invidious social categorization ; they chill liberty . Jittery investors may chill low-end capital market .
+
+ppatt:
+	?a can further inequality
+		?a: they
+	?a invidious
+		?a: they
+	?a social categorization
+		?a: they
+
+
+label:    sent_2
+sentence: However , showering when the ambient temperature is too low could chill them too severely .
+
+ppatt:
+	when ?a is too low
+		?a: the ambient temperature
+	However , ?a could chill ?b too severely
+		?a: showering
+		?b: them
+
+

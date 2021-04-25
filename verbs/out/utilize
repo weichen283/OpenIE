@@ -1,0 +1,344 @@
+label:    sent_1
+sentence: The LH/CG receptor can utilize multiple signaling pathways to regulate intracellular events .
+
+ppatt:
+	?a can utilize ?b to regulate ?c
+		?a: The LH/CG receptor
+		?b: multiple signaling pathways
+		?c: intracellular events
+
+
+label:    sent_2
+sentence: This approach consists of two simple steps which utilize two selective markers .
+
+ppatt:
+	?a consists of ?b
+		?a: This approach
+		?b: two simple steps which utilize two selective markers
+	?a utilize ?b
+		?a: two simple steps
+		?b: two selective markers
+
+
+label:    sent_3
+sentence: Presently , pharmacists utilize social media primarily for personal purposes .
+
+ppatt:
+	Presently , ?a utilize ?b primarily for ?c
+		?a: pharmacists
+		?b: social media
+		?c: personal purposes
+
+
+label:    sent_4
+sentence: Thematic analysis revealed preconceptions and in-class experiences influence student decisions to utilize study groups . StPrpC was found to utilize propionyl-CoA more efficiently than acetyl-CoA or butyryl-CoA .
+
+ppatt:
+	?a revealed ?b ?c
+		?a: Thematic analysis
+		?b: preconceptions
+		?c: SOMETHING := influence student decisions to utilize study groups
+	?a revealed ?b ?c
+		?a: Thematic analysis
+		?b: in-class experiences
+		?c: SOMETHING := influence student decisions to utilize study groups
+	?a influence ?b to utilize ?c
+		?a: Thematic analysis
+		?b: student decisions
+		?c: study groups
+	?a was found to utilize ?b more efficiently than ?c
+		?a: StPrpC
+		?b: propionyl-CoA
+		?c: acetyl-CoA
+	?a was found to utilize ?b more efficiently than ?c
+		?a: StPrpC
+		?b: propionyl-CoA
+		?c: butyryl-CoA
+
+
+label:    sent_5
+sentence: Both signalling pathways are reported to utilize reactive oxygen species ( ROS ) . Mycobacterium tuberculosis can utilize heme as an iron source .
+
+ppatt:
+	?a are reported to utilize ?b
+		?a: Both signalling pathways
+		?b: reactive oxygen species
+	?a is/are ROS
+		?a: reactive oxygen species
+	?a can utilize ?b as ?c
+		?a: Mycobacterium tuberculosis
+		?b: heme
+		?c: an iron source
+
+
+label:    sent_6
+sentence: This trial will utilize high quality trial methodologies in accordance with CONSORT guidelines .
+
+ppatt:
+	?a will utilize ?b in ?c
+		?a: This trial
+		?b: high quality trial methodologies
+		?c: accordance with CONSORT guidelines
+
+
+label:    sent_7
+sentence: To investigate what tools GPs utilize in individual consultations concerning lifestyle change .
+
+ppatt:
+	investigate ?a
+		?a: SOMETHING := what tools GPs utilize in individual consultations concerning lifestyle change
+	?a ?b ?c utilize in ?d
+		?a: what
+		?b: tools
+		?c: GPs
+		?d: individual consultations concerning lifestyle change
+
+
+label:    sent_8
+sentence: Proteogenomics aims to utilize experimental proteome information for refinement of genome annotation .
+
+ppatt:
+	?a aims to utilize ?b for ?c
+		?a: Proteogenomics
+		?b: experimental proteome information
+		?c: refinement of genome annotation
+
+
+label:    sent_9
+sentence: We introduce partial class memberships as a strategy to utilize borderline cases for classification .
+
+ppatt:
+	?a introduce ?b as ?c
+		?a: We
+		?b: partial class memberships
+		?c: a strategy to utilize borderline cases for classification
+	?a utilize ?b for ?c
+		?a: a strategy
+		?b: borderline cases
+		?c: classification
+
+
+label:    sent_10
+sentence: The decision to utilize parenteral nutrition in patients with advanced cancer is difficult .
+
+ppatt:
+	?a utilize ?b
+		?a: The decision
+		?b: parenteral nutrition in patients with advanced cancer
+	?a is difficult
+		?a: The decision to utilize parenteral nutrition in patients with advanced cancer
+
+
+label:    sent_11
+sentence: Brevibacteria can produce and utilize siderophores although certain strains within this genus are siderophore-auxotrophic .
+
+ppatt:
+	?a can produce ?b
+		?a: Brevibacteria
+		?b: siderophores
+	?a utilize
+		?a: Brevibacteria
+	?a are siderophore-auxotrophic
+		?a: certain strains within this genus
+
+
+label:    sent_12
+sentence: It is reported for the first time that brevibacteria produce and utilize siderophores .
+
+ppatt:
+	?a is reported for ?b ?c
+		?a: It
+		?b: the first time
+		?c: SOMETHING := brevibacteria produce siderophores
+	?a produce ?b
+		?a: brevibacteria
+		?b: siderophores
+	?a utilize
+		?a: brevibacteria
+
+
+label:    sent_13
+sentence: Future studies should be theory driven and utilize psychometrically sound measures of religion/spirituality .
+
+ppatt:
+	?a should be theory
+		?a: Future studies
+	?a driven
+		?a: theory
+	?a utilize ?b
+		?a: Future studies
+		?b: psychometrically sound measures of religion/spirituality
+
+
+label:    sent_14
+sentence: Natural enemies of herbivorous insects utilize numerous cues to locate and identify their prey .
+
+ppatt:
+	?a utilize ?b to locate
+		?a: Natural enemies of herbivorous insects
+		?b: numerous cues
+	?a utilize to identify ?b
+		?a: Natural enemies of herbivorous insects
+		?b: their prey
+
+
+label:    sent_15
+sentence: Soil nutrient status determines how elephant utilize trees and shape environments .
+
+ppatt:
+	?a determines ?b
+		?a: Soil nutrient status
+		?b: SOMETHING := how elephant utilize trees and shape environments
+	how ?a utilize ?b
+		?a: elephant
+		?b: trees
+	how ?a utilize ?b
+		?a: elephant
+		?b: shape environments
+
+
+label:    sent_16
+sentence: The models utilize easily accessible predictors and are accurate .
+
+ppatt:
+	?a utilize ?b
+		?a: The models
+		?b: easily accessible predictors
+
+
+label:    sent_17
+sentence: The development of new industries that utilize bio-renewables provides opportunities for innovation .
+
+ppatt:
+	?a utilize ?b
+		?a: new industries
+		?b: bio-renewables
+	?a provides ?b
+		?a: The development of new industries that utilize bio-renewables
+		?b: opportunities for innovation
+
+
+label:    sent_18
+sentence: Availability , proximity , and willingness to utilize .
+
+ppatt:
+	?a utilize
+		?a: Availability
+	?a utilize
+		?a: proximity
+	?a utilize
+		?a: willingness
+
+
+label:    sent_19
+sentence: The prephenate dehydrogenase component of the bifunctional T-protein in enteric bacteria can utilize L-arogenate .
+
+ppatt:
+	?a can utilize ?b
+		?a: The prephenate dehydrogenase component of the bifunctional T-protein in enteric bacteria
+		?b: L-arogenate
+
+
+label:    sent_20
+sentence: We should utilize propofol cautiously for patients receiving HD or with bleeding tendency .
+
+ppatt:
+	?a should utilize ?b cautiously for ?c
+		?a: We
+		?b: propofol
+		?c: patients receiving HD or with bleeding tendency
+	?a receiving ?b
+		?a: patients
+		?b: HD
+	?a receiving ?b
+		?a: patients
+		?b: bleeding tendency
+
+
+label:    sent_21
+sentence: The enzyme utilize phosphatidylcholine as substrate and produce mainly lysophosphatidylcholine and free fatty acids .
+
+ppatt:
+	?a utilize ?b as ?c
+		?a: The enzyme
+		?b: phosphatidylcholine
+		?c: substrate
+	?a produce ?b
+		?a: The enzyme
+		?b: mainly lysophosphatidylcholine
+	?a produce ?b
+		?a: The enzyme
+		?b: free fatty acids
+
+
+label:    sent_22
+sentence: Centers are relatively small and utilize 2-3 accelerators on average .
+
+ppatt:
+	?a are relatively small
+		?a: Centers
+	?a utilize ?b on ?c
+		?a: Centers
+		?b: 2-3 accelerators
+		?c: average
+
+
+label:    sent_23
+sentence: The enzyme is selective for NADPH but can utilize NADH as well .
+
+ppatt:
+	?a is selective for ?b
+		?a: The enzyme
+		?b: NADPH
+	?a can utilize ?b as well
+		?a: The enzyme
+		?b: NADH
+
+
+label:    sent_24
+sentence: The purified MMO contains only copper and does not utilize NADH as electron donor .
+
+ppatt:
+	?a contains ?b
+		?a: The purified MMO
+		?b: only copper
+	?a does not utilize ?b as ?c
+		?a: The purified MMO
+		?b: NADH
+		?c: electron donor
+
+
+label:    sent_25
+sentence: It is easy to deliver , maintain , and utilize in isolators .
+
+ppatt:
+	?a is easy to deliver
+		?a: It
+	?a is easy to maintain
+		?a: It
+	?a is easy to utilize in ?b
+		?a: It
+		?b: isolators
+
+
+label:    sent_26
+sentence: Proposed criteria for posttraumatic headache impairment are understandable , easy to utilize and reproducible .
+
+ppatt:
+	?a are understandable
+		?a: Proposed criteria for posttraumatic headache impairment
+	?a easy to utilize
+		?a: Proposed criteria for posttraumatic headache impairment
+
+
+label:    sent_27
+sentence: Occupational health histories are an excellent tool to utilize in community health .
+
+ppatt:
+	?a are an excellent tool
+		?a: Occupational health histories
+	?a utilize in ?b
+		?a: an excellent tool
+		?b: community health
+
+

@@ -1,0 +1,120 @@
+label:    sent_1
+sentence: The characterisation of three types of genes that overlie copy number variable regions .
+
+ppatt:
+	?a overlie ?b
+		?a: genes
+		?b: copy number variable regions
+
+
+label:    sent_2
+sentence: These " footprints " overlie a highly conserved 8-base-pair motif , CCTGATAATA .
+
+ppatt:
+	?a " overlie ?b
+		?a: These " footprints
+		?b: a highly conserved 8-base-pair motif
+	?a is/are CCTGATAATA
+		?a: a highly conserved 8-base-pair motif
+
+
+label:    sent_3
+sentence: Research has shown that acupoints overlie major neuronal bundles .
+
+ppatt:
+	?a has shown ?b
+		?a: Research
+		?b: SOMETHING := acupoints overlie major neuronal bundles
+	?a overlie ?b
+		?a: acupoints
+		?b: major neuronal bundles
+
+
+label:    sent_4
+sentence: In humans and sheep , this band contains puncta that overlie cell bodies .
+
+ppatt:
+	In ?a , ?b contains ?c
+		?a: humans
+		?b: this band
+		?c: puncta that overlie cell bodies
+	In ?a , ?b contains ?c
+		?a: sheep
+		?b: this band
+		?c: puncta that overlie cell bodies
+	?a overlie ?b
+		?a: puncta
+		?b: cell bodies
+
+
+label:    sent_5
+sentence: The disc appears to overlie more of the lateral pterygoid muscle than is normal .
+
+ppatt:
+	?a appears to overlie ?b
+		?a: The disc
+		?b: more of the lateral pterygoid muscle
+	?a is normal
+		?a: The disc
+
+
+label:    sent_6
+sentence: In many areas of the brain silver grains were found to overlie cell bodies .
+
+ppatt:
+	In ?a ?b were found to overlie ?c
+		?a: many areas
+		?b: of the brain silver grains
+		?c: cell bodies
+
+
+label:    sent_7
+sentence: Large breasts can overlie the heart in the LAO projection .
+
+ppatt:
+	?a can overlie ?b
+		?a: Large breasts
+		?b: the heart in the LAO projection
+
+
+label:    sent_8
+sentence: Despite the name , knuckle pads most commonly overlie the proximal interphalangeal joints .
+
+ppatt:
+	Despite ?a , ?b most commonly overlie ?c
+		?a: the name
+		?b: knuckle pads
+		?c: the proximal interphalangeal joints
+
+
+label:    sent_9
+sentence: The poorly permeable glacial materials that overlie fractured bedrock at the W.R .
+
+ppatt:
+	?a overlie ?b at ?c
+		?a: The poorly permeable glacial materials
+		?b: fractured bedrock
+		?c: the W.R
+
+
+label:    sent_10
+sentence: Additional actin filaments overlie , and are attached to , this network . Belief systems overlie powerful biological and psychological forces that are root causes of war .
+
+ppatt:
+	?a overlie
+		?a: Additional actin filaments
+	?a are attached ?b ?c
+		?a: Additional actin filaments
+		?b: to
+		?c: this network
+	?a overlie ?b
+		?a: Belief systems
+		?b: powerful biological
+	?a overlie ?b
+		?a: Belief systems
+		?b: psychological
+	?a are root causes of ?b
+		?a: forces
+		?b: war
+
+

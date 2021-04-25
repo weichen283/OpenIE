@@ -1,0 +1,95 @@
+label:    sent_1
+sentence: Cats were then transected at T12 and trained daily to locomote on a treadmill .
+
+ppatt:
+	?a were then transected at ?b
+		?a: Cats
+		?b: T12
+	?a trained daily to ?b on ?c
+		?a: Cats
+		?b: locomote
+		?c: a treadmill
+
+
+label:    sent_2
+sentence: Animals were trained preoperatively to locomote across a narrow elevated runway .
+
+ppatt:
+	?a were trained preoperatively to locomote across ?b
+		?a: Animals
+		?b: a narrow elevated runway
+
+
+label:    sent_3
+sentence: In contrast to dogfish sharks , stringrays with high spinal transections do not locomote .
+
+ppatt:
+	In to ?a , ?b do not locomote
+		?a: dogfish sharks
+		?b: stringrays with high spinal transections
+
+
+label:    sent_4
+sentence: Many salamanders locomote in aquatic and terrestrial environments .
+
+ppatt:
+	?a locomote ?b
+		?a: Many salamanders
+		?b: in aquatic and terrestrial environments
+
+
+label:    sent_5
+sentence: Hippocampal place cells show location-specific firing as animals locomote in an environment .
+
+ppatt:
+	?a show ?b as ?c
+		?a: Hippocampal place cells
+		?b: location-specific firing
+		?c: animals locomote in an environment
+	?a locomote in ?b
+		?a: animals
+		?b: an environment
+
+
+label:    sent_6
+sentence: How do arm-swinging apes locomote effectively over a variety of speeds ? Many animals , however , live and locomote in a three-dimensional world .
+
+ppatt:
+	How do ?a
+		?a: arm-swinging apes
+	?a locomote effectively over ?b
+		?a: arm-swinging apes
+		?b: a variety of speeds
+
+
+label:    sent_7
+sentence: Untrained cats without neurotrophin-producing transplants could not locomote .
+
+ppatt:
+	?a could not locomote
+		?a: Untrained cats without neurotrophin-producing transplants
+
+
+label:    sent_8
+sentence: Experiment 2 required pups to locomote farther to gain access to warmth .
+
+ppatt:
+	?a required ?b to locomote ?c to gain ?d
+		?a: Experiment 2
+		?b: pups
+		?c: farther
+		?d: access to warmth
+
+
+label:    sent_9
+sentence: The first group represents spatial tasks in which the subject does not locomote .
+
+ppatt:
+	?a represents ?b
+		?a: The first group
+		?b: spatial tasks in which the subject does not locomote
+	?a in ?b does not locomote
+		?a: spatial tasks
+		?b: the subject
+
+

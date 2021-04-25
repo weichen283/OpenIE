@@ -1,0 +1,131 @@
+label:    sent_1
+sentence: Are endoclips best approach to cannulate an ampulla hidden in the duodenal diverticulum ? Up to 30 % of attempts to cannulate the central vein fail .
+
+ppatt:
+	Are ?a
+		?a: endoclips best approach to cannulate an ampulla hidden in the duodenal diverticulum
+	?a cannulate ?b
+		?a: endoclips best approach
+		?b: an ampulla hidden in the duodenal diverticulum
+	?a cannulate ?b
+		?a: Up 30 % of attempts
+		?b: the central vein
+	?a fail
+		?a: Up 30 % of attempts to cannulate the central vein
+
+
+label:    sent_2
+sentence: Five out of 15 doctors failed to cannulate the trachea .
+
+ppatt:
+	?a failed to cannulate ?b
+		?a: Five out of 15 doctors
+		?b: the trachea
+
+
+label:    sent_3
+sentence: A supraclavicular approach was used to cannulate the brachiocephalic vein in 31 patients .
+
+ppatt:
+	?a was used to cannulate ?b in ?c
+		?a: A supraclavicular approach
+		?b: the brachiocephalic vein
+		?c: 31 patients
+
+
+label:    sent_4
+sentence: We were unable to cannulate either C1 or C2 in any of the cadavers .
+
+ppatt:
+	?a were unable to cannulate ?b in ?c
+		?a: We
+		?b: C1
+		?c: any of the cadavers
+	?a were unable to cannulate ?b in ?c
+		?a: We
+		?b: C2
+		?c: any of the cadavers
+
+
+label:    sent_5
+sentence: Failure to cannulate the epidural space .
+
+ppatt:
+	?a cannulate ?b
+		?a: Failure
+		?b: the epidural space
+
+
+label:    sent_6
+sentence: The transduodenal rendezvous : a new approach to deeply cannulate the main pancreatic duct .
+
+ppatt:
+	?a deeply cannulate ?b
+		?a: a new approach
+		?b: the main pancreatic duct
+
+
+label:    sent_7
+sentence: Use of a front-viewing scope after failure to cannulate a deep intradiverticular papilla .
+
+ppatt:
+	?a cannulate ?b
+		?a: Use of a front-viewing scope after failure
+		?b: a deep intradiverticular papilla
+
+
+label:    sent_8
+sentence: We tried to cannulate selectively into the pancreatic duct for a clear image .
+
+ppatt:
+	?a tried to cannulate selectively into ?b for ?c
+		?a: We
+		?b: the pancreatic duct
+		?c: a clear image
+
+
+label:    sent_9
+sentence: Microsurgical techniques were used to cannulate and perfuse a lymphatic vessel .
+
+ppatt:
+	?a were used to cannulate ?b
+		?a: Microsurgical techniques
+		?b: a lymphatic vessel
+	?a were used to perfuse
+		?a: Microsurgical techniques
+
+
+label:    sent_10
+sentence: Microsurgical techniques are used to cannulate and perfuse a lymphatic vessel .
+
+ppatt:
+	?a are used to cannulate ?b
+		?a: Microsurgical techniques
+		?b: a lymphatic vessel
+	?a are used to perfuse
+		?a: Microsurgical techniques
+
+
+label:    sent_11
+sentence: To cannulate or not to cannulate .
+
+ppatt:
+	cannulate to ?a
+		?a: not cannulate
+
+
+label:    sent_12
+sentence: The use of right Judkins catheter to cannulate right coronary artery by brachial approach . [ Difficulty to cannulate papilla of Vater in the presence of periampullary duodenal diverticulum ] .
+
+ppatt:
+	?a cannulate ?b by ?c
+		?a: The use of right Judkins catheter
+		?b: right coronary artery
+		?c: brachial approach
+	?a [ Difficulty
+		?a: The use of right Judkins catheter to cannulate right coronary artery by brachial approach
+	?a to cannulate ?b
+		?a: Difficulty
+		?b: papilla of Vater of periampullary duodenal diverticulum ]
+
+

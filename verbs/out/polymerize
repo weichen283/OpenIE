@@ -1,0 +1,282 @@
+label:    sent_1
+sentence: Catechol was found to polymerize in presence of uranyl ions . FtsZ is known to polymerize in the presence of GTP into single-stranded protofilaments .
+
+ppatt:
+	?a was found to polymerize in ?b
+		?a: Catechol
+		?b: presence of uranyl ions
+	?a is known to polymerize in ?b
+		?a: FtsZ
+		?b: the presence of GTP into single-stranded protofilaments
+
+
+label:    sent_2
+sentence: FITC-labelled actin recovered its ability to polymerize on addition of phalloidin .
+
+ppatt:
+	?a recovered ?b
+		?a: FITC-labelled actin
+		?b: its ability to polymerize on addition of phalloidin
+	?a polymerize on ?b
+		?a: its ability
+		?b: addition of phalloidin
+
+
+label:    sent_3
+sentence: The model catalyst system is demonstrated to polymerize ethene .
+
+ppatt:
+	?a is demonstrated to polymerize ?b
+		?a: The model catalyst system
+		?b: ethene
+
+
+label:    sent_4
+sentence: The glucosyltransferases from oral streptococci cleave sucrose and polymerize the glucose moieties .
+
+ppatt:
+	?a cleave ?b
+		?a: The glucosyltransferases from oral streptococci
+		?b: sucrose
+	?a polymerize ?b
+		?a: The glucosyltransferases from oral streptococci
+		?b: the glucose moieties
+
+
+label:    sent_5
+sentence: The efficiency of different light sources to polymerize resin cement beneath porcelain laminate veneers .
+
+ppatt:
+	?a polymerize ?b beneath ?c
+		?a: The efficiency of different light sources
+		?b: resin cement
+		?c: porcelain laminate veneers
+
+
+label:    sent_6
+sentence: Many basic studies have characterized these chemical dosimeters that polymerize under irradiation .
+
+ppatt:
+	?a have characterized ?b
+		?a: Many basic studies
+		?b: these chemical dosimeters that polymerize under irradiation
+	?a polymerize under ?b
+		?a: these chemical dosimeters
+		?b: irradiation
+
+
+label:    sent_7
+sentence: They could then polymerize with mature peptidoglycan . Microtubules polymerize early after fusion of cells .
+
+ppatt:
+	?a could then polymerize with ?b
+		?a: They
+		?b: mature peptidoglycan
+	?a polymerize early after ?b
+		?a: Microtubules
+		?b: fusion of cells
+
+
+label:    sent_8
+sentence: All three derivatives polymerize more rapidly than unlabeled actin .
+
+ppatt:
+	?a polymerize more rapidly than ?b
+		?a: All three derivatives
+		?b: unlabeled actin
+
+
+label:    sent_9
+sentence: The silica nanoparticles polymerize into highly branched networks that link the surfaces together .
+
+ppatt:
+	?a polymerize into ?b
+		?a: The silica nanoparticles
+		?b: highly branched networks that link the surfaces together
+	?a link ?b together
+		?a: highly branched networks
+		?b: the surfaces
+
+
+label:    sent_10
+sentence: Several copies of amphiphilic C9 subsequently polymerize to form the characteristic ring-like MAC .
+
+ppatt:
+	?a subsequently polymerize to form ?b
+		?a: Several copies of amphiphilic C9
+		?b: the characteristic ring-like MAC
+
+
+label:    sent_11
+sentence: How to polymerize ethylene in a highly controlled fashion ? One approach is to polymerize vinyl-terminated peptides by radical polymerization .
+
+ppatt:
+	How to polymerize ?a in ?b ?c
+		?a: ethylene
+		?b: a highly controlled fashion
+		?c: One approach
+	?a is to polymerize ?b by ?c
+		?a: One approach
+		?b: vinyl-terminated peptides
+		?c: radical polymerization
+
+
+label:    sent_12
+sentence: These modifications strongly decrease the capacity of TauF4 to polymerize tubulin into microtubules .
+
+ppatt:
+	?a strongly decrease ?b
+		?a: These modifications
+		?b: the capacity of TauF4 to polymerize tubulin into microtubules
+	?a polymerize ?b into ?c
+		?a: the capacity of TauF4
+		?b: tubulin
+		?c: microtubules
+
+
+label:    sent_13
+sentence: The 36 kDa fragment failed to polymerize and to inhibit DNase I activity . Nuclear actin : to polymerize or not to polymerize .
+
+ppatt:
+	?a failed to polymerize ?b : to polymerize not to polymerize
+		?a: The 36 kDa fragment
+		?b: Nuclear actin
+	?a failed to to inhibit ?b : to polymerize not to polymerize
+		?a: The 36 kDa fragment
+		?b: DNase I activity
+
+
+label:    sent_14
+sentence: Perforin is able to polymerize and form a channel in target cell membrane .
+
+ppatt:
+	?a is able to polymerize ?b
+		?a: Perforin
+		?b: a channel in target cell membrane
+	?a is able to form
+		?a: Perforin
+
+
+label:    sent_15
+sentence: These free radicals then polymerize and get precipitated .
+
+ppatt:
+	?a then polymerize
+		?a: These free radicals
+	?a get
+		?a: These free radicals
+	?a precipitated
+		?a: These free radicals
+
+
+label:    sent_16
+sentence: The proteins polymerize and form a smaller structure during constriction .
+
+ppatt:
+	?a polymerize ?b during ?c
+		?a: The proteins
+		?b: a smaller structure
+		?c: constriction
+	?a form
+		?a: The proteins
+
+
+label:    sent_17
+sentence: A167E and D275R actins polymerize normally and form relatively normal appearing filaments . Mcm10p homologs contain a C-terminal motif found in proteins that polymerize nucleotides .
+
+ppatt:
+	?a ?b polymerize normally
+		?a: A167E
+		?b: actins
+	?a ?b polymerize normally
+		?a: D275R
+		?b: actins
+	?a form ?b
+		?a: A167E
+		?b: relatively normal appearing filaments
+	?a form ?b
+		?a: D275R
+		?b: relatively normal appearing filaments
+	?a contain ?b
+		?a: Mcm10p homologs
+		?b: a C-terminal motif found in proteins that polymerize nucleotides
+	?a found in ?b
+		?a: a C-terminal motif
+		?b: proteins that polymerize nucleotides
+	?a polymerize ?b
+		?a: proteins
+		?b: nucleotides
+
+
+label:    sent_18
+sentence: Power and time requirements for use of the argon laser to polymerize composite resins . RA-induced cells initially polymerize a temporarily enlarged population of MTs .
+
+ppatt:
+	?a polymerize ?b
+		?a: use of the argon laser
+		?b: composite resins
+	?a ?b initially polymerize ?c
+		?a: Power for use of the argon laser to polymerize composite resins
+		?b: RA-induced cells
+		?c: a temporarily enlarged population of MTs
+	?a ?b initially polymerize ?c
+		?a: time
+		?b: RA-induced cells
+		?c: a temporarily enlarged population of MTs
+	?a ?b initially polymerize ?c
+		?a: requirements
+		?b: RA-induced cells
+		?c: a temporarily enlarged population of MTs
+
+
+label:    sent_19
+sentence: Later they polymerize to very long fibers and finally they are partially destroyed .
+
+ppatt:
+	Later ?a polymerize to ?b
+		?a: they
+		?b: very long fibers
+	finally ?a are partially destroyed
+		?a: they
+
+
+label:    sent_20
+sentence: During drying , oils polymerize and form water-resistant films .
+
+ppatt:
+	During ?a , ?b polymerize ?c
+		?a: drying
+		?b: oils
+		?c: water-resistant films
+	?a form
+		?a: oils
+
+
+label:    sent_21
+sentence: Adhesives were also allowed to polymerize on and remain in contact with tissues . Calcium acrylate is a polymerized grout , and can polymerize in an aqueous solution .
+
+ppatt:
+	?a were also allowed to polymerize ?b
+		?a: Adhesives
+		?b: on
+	?a were also allowed to remain in ?b
+		?a: Adhesives
+		?b: contact with tissues
+	?a is a polymerized grout
+		?a: Calcium acrylate
+	?a can polymerize in ?b
+		?a: Calcium acrylate
+		?b: an aqueous solution
+
+
+label:    sent_22
+sentence: The transphosphorylated protein can be isolated and will polymerize without further addition of nucleotide .
+
+ppatt:
+	?a can be isolated
+		?a: The transphosphorylated protein
+	?a will polymerize without ?b
+		?a: The transphosphorylated protein
+		?b: further addition of nucleotide
+
+

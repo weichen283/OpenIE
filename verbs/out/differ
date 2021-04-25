@@ -1,0 +1,319 @@
+label:    sent_1
+sentence: Left ventricular twist did not differ significantly between control and postoperative groups . 95 % of these germline VH3 genes differ in FR3 .
+
+ppatt:
+	?a did not differ significantly between ?b
+		?a: Left ventricular twist
+		?b: control and postoperative groups
+	?a differ in ?b
+		?a: 95 % of these germline VH3 genes
+		?b: FR3
+
+
+label:    sent_2
+sentence: NSCLC patients and healthy controls differ in vesicle-related miRNAs in plasma . MuSK levels differ between adult skeletal muscles and influence postsynaptic plasticity .
+
+ppatt:
+	?a differ in ?b
+		?a: NSCLC patients
+		?b: vesicle-related miRNAs in plasma
+	?a differ in ?b
+		?a: healthy controls
+		?b: vesicle-related miRNAs in plasma
+	?a differ between ?b
+		?a: MuSK levels
+		?b: adult skeletal muscles
+	?a influence ?b
+		?a: MuSK levels
+		?b: postsynaptic plasticity
+
+
+label:    sent_3
+sentence: Patients differ in their clinical features and differ in the clinical course of disease .
+
+ppatt:
+	?a differ in ?b
+		?a: Patients
+		?b: their clinical features
+	?a differ in ?b
+		?a: Patients
+		?b: the clinical course of disease
+
+
+label:    sent_4
+sentence: The relationship did not differ significantly for men and women or by country .
+
+ppatt:
+	?a did not differ significantly for ?b
+		?a: The relationship
+		?b: men
+	?a did not differ significantly for ?b
+		?a: The relationship
+		?b: women
+	?a did not differ significantly for ?b
+		?a: The relationship
+		?b: country
+
+
+label:    sent_5
+sentence: These instruments are found to differ in their effects on residential allocation and welfare .
+
+ppatt:
+	?a are found to differ in ?b
+		?a: These instruments
+		?b: their effects on residential allocation and welfare
+
+
+label:    sent_6
+sentence: Allele frequencies were not found to significantly differ between genders or clinical presentations . CRP and PLR were not found to differ significantly between the two groups .
+
+ppatt:
+	?a were not found to significantly differ between ?b
+		?a: Allele frequencies
+		?b: genders
+	?a were not found to significantly differ between ?b
+		?a: Allele frequencies
+		?b: clinical presentations
+	?a were not found to differ significantly between ?b
+		?a: CRP
+		?b: the two groups
+	?a were not found to differ significantly between ?b
+		?a: PLR
+		?b: the two groups
+
+
+label:    sent_7
+sentence: Herpetic whitlow should be distinguished from bacterial whitlow as their therapeutic approaches differ .
+
+ppatt:
+	?a should be distinguished from ?b
+		?a: Herpetic whitlow
+		?b: bacterial whitlow
+	?a differ
+		?a: their therapeutic approaches
+
+
+label:    sent_8
+sentence: Patient or surrogate satisfaction did not differ by whether a discussion was documented .
+
+ppatt:
+	?a did not differ ?b ?c
+		?a: Patient
+		?b: by
+		?c: SOMETHING := a discussion was documented
+	?a did not differ ?b ?c
+		?a: surrogate satisfaction
+		?b: by
+		?c: SOMETHING := a discussion was documented
+	?a was documented
+		?a: a discussion
+
+
+label:    sent_9
+sentence: Furthermore , variables in interpretation exist and cutoff thresholds for positivity differ .
+
+ppatt:
+	Furthermore , ?a exist
+		?a: variables in interpretation
+	?a differ
+		?a: cutoff thresholds for positivity
+
+
+label:    sent_10
+sentence: The occurrence of ungrammatical pauses was minimal and did not differ across the conditions .
+
+ppatt:
+	?a was minimal
+		?a: The occurrence of ungrammatical pauses
+	?a did not differ across ?b
+		?a: The occurrence of ungrammatical pauses
+		?b: the conditions
+
+
+label:    sent_11
+sentence: The overall embryo recovery rate was 64 % and did not differ among mares .
+
+ppatt:
+	?a was 64 %
+		?a: The overall embryo recovery rate
+	?a did not differ among ?b
+		?a: The overall embryo recovery rate
+		?b: mares
+
+
+label:    sent_12
+sentence: Stress relaxation increased with loading but did not differ between knot configurations .
+
+ppatt:
+	?a increased with ?b
+		?a: Stress relaxation
+		?b: loading
+	?a did not differ between ?b
+		?a: Stress relaxation
+		?b: knot configurations
+
+
+label:    sent_13
+sentence: Does eye-witness memory differ depending on the language one speaks ? Appeasement rates did not differ according to the sex of the involved individuals .
+
+ppatt:
+	Does ?a differ
+		?a: eye-witness memory
+	?a depending on the language
+		?a: eye-witness memory
+	?a speaks
+		?a: one
+	?a did not differ according to ?b
+		?a: Appeasement rates
+		?b: the sex of the involved individuals
+
+
+label:    sent_14
+sentence: Response to treatment for Alzheimer 's disease might differ according to APOE genotype .
+
+ppatt:
+	?a might differ according to ?b
+		?a: Response to treatment for Alzheimer 's disease
+		?b: APOE genotype
+
+
+label:    sent_15
+sentence: Spleen HSCs and BM HSCs are functionally similar , but their cycling behaviors differ .
+
+ppatt:
+	?a are functionally similar
+		?a: Spleen HSCs
+	?a are functionally similar
+		?a: BM HSCs
+	?a differ
+		?a: their cycling behaviors
+
+
+label:    sent_16
+sentence: Their effects on QT interval differ but evidence remains sparse and mostly inconclusive . Baseline Gleason scores did not differ , nor did PSA levels between the groups .
+
+ppatt:
+	?a differ
+		?a: Their effects on QT interval
+	?a remains sparse
+		?a: evidence
+	?a remains mostly inconclusive
+		?a: evidence
+	?a did not differ
+		?a: Baseline Gleason scores
+	did ?a between ?b
+		?a: PSA levels
+		?b: the groups
+
+
+label:    sent_17
+sentence: Plasma DBH activity did not differ according to strain or to MH susceptibility .
+
+ppatt:
+	?a did not differ according to ?b
+		?a: Plasma DBH activity
+		?b: strain
+	?a did not differ according to ?b
+		?a: Plasma DBH activity
+		?b: MH susceptibility
+
+
+label:    sent_18
+sentence: Clinical manifestations can differ according to different localizations and to insidious and slow evolution .
+
+ppatt:
+	?a can differ according to ?b
+		?a: Clinical manifestations
+		?b: different localizations
+	?a can differ according to ?b
+		?a: Clinical manifestations
+		?b: insidious and slow evolution
+
+
+label:    sent_19
+sentence: Apparent molecular weights of VIP-binding proteins differ greatly according to species and to tissue .
+
+ppatt:
+	?a differ greatly according to ?b
+		?a: Apparent molecular weights of VIP-binding proteins
+		?b: species
+	?a differ greatly according to ?b
+		?a: Apparent molecular weights of VIP-binding proteins
+		?b: tissue
+
+
+label:    sent_20
+sentence: The effect seems to differ depending on educational level .
+
+ppatt:
+	?a seems to differ
+		?a: The effect
+	?a depending on educational level
+		?a: The effect
+
+
+label:    sent_21
+sentence: Nor did the mean age at cataract surgery differ between genotypes .
+
+ppatt:
+	?a differ between ?b
+		?a: the mean age at cataract surgery
+		?b: genotypes
+
+
+label:    sent_22
+sentence: Rates did not appear to differ according to gender or age .
+
+ppatt:
+	?a did not appear to differ according to ?b
+		?a: Rates
+		?b: gender
+	?a did not appear to differ according to ?b
+		?a: Rates
+		?b: age
+
+
+label:    sent_23
+sentence: There are indications that consequences of MP differ for men and women .
+
+ppatt:
+	There are ?a
+		?a: indications that consequences of MP differ for men and women
+	?a differ for ?b
+		?a: consequences of MP
+		?b: men
+	?a differ for ?b
+		?a: consequences of MP
+		?b: women
+
+
+label:    sent_24
+sentence: We also estimated the extent to which precursor and derivative tRNAs differ within Archaea .
+
+ppatt:
+	?a also estimated ?b
+		?a: We
+		?b: the extent to which precursor and derivative tRNAs differ within Archaea
+	?a to ?b differ within ?c
+		?a: the extent
+		?b: precursor
+		?c: Archaea
+	?a to ?b differ within ?c
+		?a: the extent
+		?b: derivative tRNAs
+		?c: Archaea
+
+
+label:    sent_25
+sentence: The special case in which species differ only in crown transmissivity produces neutral dynamics .
+
+ppatt:
+	?a in ?b differ in ?c
+		?a: The special case
+		?b: species
+		?c: only crown transmissivity
+	?a produces ?b
+		?a: The special case in which species differ only in crown transmissivity
+		?b: neutral dynamics
+
+

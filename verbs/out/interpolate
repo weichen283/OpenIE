@@ -1,0 +1,160 @@
+label:    sent_1
+sentence: A three-state model is therefore used to interpolate the thermal denaturation data . Regression analysis was used to interpolate values for all other possible health states .
+
+ppatt:
+	?a is therefore used to interpolate ?b
+		?a: A three-state model
+		?b: the thermal denaturation data
+	?a was used to interpolate ?b
+		?a: Regression analysis
+		?b: values for all other possible health states
+
+
+label:    sent_2
+sentence: The coefficients of these fits are used to interpolate the system matrix .
+
+ppatt:
+	?a are used to interpolate ?b
+		?a: The coefficients of these fits
+		?b: the system matrix
+
+
+label:    sent_3
+sentence: They also may be used to interpolate to single years of age .
+
+ppatt:
+	?a also may be used to interpolate to ?b
+		?a: They
+		?b: single years of age
+
+
+label:    sent_4
+sentence: We also propose approximate isotherms that interpolate between the exact results .
+
+ppatt:
+	?a also propose ?b
+		?a: We
+		?b: approximate isotherms that interpolate between the exact results
+	?a interpolate between ?b
+		?a: approximate isotherms
+		?b: the exact results
+
+
+label:    sent_5
+sentence: This paper proposes a new optical flow based approach to interpolate between sparse data .
+
+ppatt:
+	?a proposes ?b
+		?a: This paper
+		?b: a new optical flow based approach to interpolate between sparse data
+	?a interpolate between ?b
+		?a: a new optical flow based approach
+		?b: sparse data
+
+
+label:    sent_6
+sentence: The proposed method is able to interpolate the missing lines without introducing annoying articles .
+
+ppatt:
+	?a is able to interpolate ?b
+		?a: The proposed method
+		?b: the missing lines
+	?a introducing ?b
+		?a: The proposed method
+		?b: annoying articles
+
+
+label:    sent_7
+sentence: In some cases it has been necessary to interpolate data due to missing data . Contemporary GIS and model-based geostatistics can be used to interpolate malaria risk in Bangladesh .
+
+ppatt:
+	In ?a ?b has been necessary to interpolate ?c due to ?d
+		?a: some cases
+		?b: it
+		?c: data
+		?d: missing data
+	?a can be used to interpolate ?b
+		?a: Contemporary GIS
+		?b: malaria risk in Bangladesh
+	?a can be used to interpolate ?b
+		?a: model-based
+		?b: malaria risk in Bangladesh
+
+
+label:    sent_8
+sentence: We view the lines to interpolate as gaps that we need to inpaint .
+
+ppatt:
+	?a view ?b
+		?a: We
+		?b: the lines
+	?a interpolate as ?b
+		?a: We
+		?b: gaps that we need to inpaint
+	?a ?b need to inpaint
+		?a: gaps
+		?b: we
+
+
+label:    sent_9
+sentence: The correlators interpolate between three scenarios .
+
+ppatt:
+	?a interpolate between ?b
+		?a: The correlators
+		?b: three scenarios
+
+
+label:    sent_10
+sentence: We interpolate between two known approximations by matching fourth moments .
+
+ppatt:
+	?a interpolate between ?b
+		?a: We
+		?b: two known approximations
+	?a matching ?b
+		?a: We
+		?b: fourth moments
+
+
+label:    sent_11
+sentence: When does human vision interpolate a contour between a given pair of luminance-defined edges ? The resulting patching meshes interpolate the shape and density of the surrounding mesh .
+
+ppatt:
+	When does ?a
+		?a: human vision
+	interpolate ?a ?b
+		?a: a contour between a given pair of luminance-defined edges
+		?b: The resulting patching meshes
+	?a interpolate ?b
+		?a: The resulting patching meshes
+		?b: the shape of the surrounding mesh
+	?a interpolate ?b
+		?a: The resulting patching meshes
+		?b: density
+
+
+label:    sent_12
+sentence: The resulting patching meshes interpolate the shape and density of the surrounding mesh .
+
+ppatt:
+	?a interpolate ?b
+		?a: The resulting patching meshes
+		?b: the shape of the surrounding mesh
+	?a interpolate ?b
+		?a: The resulting patching meshes
+		?b: density
+
+
+label:    sent_13
+sentence: We interpolate this result to arbitrary gamma > or =2 .
+
+ppatt:
+	?a interpolate ?b
+		?a: We
+		?b: this result
+	?a to arbitrary ?b
+		?a: We
+		?b: gamma
+
+

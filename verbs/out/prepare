@@ -1,0 +1,286 @@
+label:    sent_1
+sentence: Building interdisciplinary research models : a didactic course to prepare interdisciplinary scholars and faculty .
+
+ppatt:
+	Building ?a
+		?a: interdisciplinary research models
+	?a prepare ?b
+		?a: a didactic course
+		?b: interdisciplinary scholars
+	?a prepare ?b
+		?a: a didactic course
+		?b: faculty
+
+
+label:    sent_2
+sentence: A simple hard template method has been developed to prepare uniform matchstick-like PbS nanocrystals .
+
+ppatt:
+	?a has been developed to prepare ?b
+		?a: A simple hard template method
+		?b: uniform matchstick-like PbS nanocrystals
+
+
+label:    sent_3
+sentence: The technology of grinding and ultrasonication to prepare nanoaggregates is simple and available .
+
+ppatt:
+	?a prepare ?b
+		?a: The technology of grinding and ultrasonication
+		?b: nanoaggregates
+	?a is simple
+		?a: The technology of grinding and ultrasonication to prepare nanoaggregates
+	?a available
+		?a: The technology of grinding and ultrasonication to prepare nanoaggregates
+
+
+label:    sent_4
+sentence: Our aim was to prepare material for transplantation in elderly people .
+
+ppatt:
+	?a was to prepare ?b
+		?a: Our aim
+		?b: material for transplantation in elderly people
+
+
+label:    sent_5
+sentence: The twelve starches obtained were used to prepare biodegradable films by casting .
+
+ppatt:
+	?a obtained
+		?a: The twelve starches
+	?a were used to prepare ?b
+		?a: The twelve starches obtained
+		?b: biodegradable films
+	?a by casting
+		?a: The twelve starches obtained
+
+
+label:    sent_6
+sentence: Rocklage helped prepare organization for transition in Catholic healthcare .
+
+ppatt:
+	?a helped prepare ?b
+		?a: Rocklage
+		?b: organization for transition in Catholic healthcare
+
+
+label:    sent_7
+sentence: Valuing goodwill : not-for-profits prepare for annual impairment testing .
+
+ppatt:
+	Valuing ?a
+		?a: goodwill
+	?a ?b prepare for ?c
+		?a: SOMETHING := Valuing goodwill
+		?b: not-for-profits
+		?c: annual impairment testing
+
+
+label:    sent_8
+sentence: Heterocycle metathesis was also used to prepare KTp ' as a white solid .
+
+ppatt:
+	?a was also used to prepare ?b as ?c
+		?a: Heterocycle metathesis
+		?b: KTp
+		?c: a white solid
+
+
+label:    sent_9
+sentence: What you can do now to prepare for ICD-10 .
+
+ppatt:
+	?a ?b can do now to prepare for ?c
+		?a: What
+		?b: you
+		?c: ICD-10
+
+
+label:    sent_10
+sentence: It then describes how to prepare the poster and do the presentation .
+
+ppatt:
+	?a then describes how to prepare ?b
+		?a: It
+		?b: the poster
+	?a then describes to do ?b
+		?a: It
+		?b: the presentation
+
+
+label:    sent_11
+sentence: To prepare curcumin albumin nanosuspensions and study its release characteristics in vitro .
+
+ppatt:
+	prepare ?a
+		?a: curcumin albumin nanosuspensions
+	study ?a in vitro
+		?a: its release characteristics
+
+
+label:    sent_12
+sentence: To prepare the rabbit antibody against Dnop5 and identify its specificity .
+
+ppatt:
+	prepare ?a
+		?a: the rabbit antibody against Dnop5
+	identify ?a
+		?a: its specificity
+
+
+label:    sent_13
+sentence: The time required to prepare and administer each formulation was measured .
+
+ppatt:
+	?a required to prepare ?b
+		?a: The time
+		?b: each formulation
+	?a required to administer
+		?a: The time
+	?a was measured
+		?a: The time required to prepare and administer each formulation
+
+
+label:    sent_14
+sentence: Strategies to better prepare and support survivors are urgently required . MAC prepayment reviews : prepare , respond , and prevent .
+
+ppatt:
+	?a better prepare ?b
+		?a: Strategies
+		?b: survivors
+	?a support
+		?a: Strategies
+	?a are urgently required ?b
+		?a: Strategies to better prepare and support survivors
+		?b: MAC prepayment reviews
+
+
+label:    sent_15
+sentence: Schools of nursing should prepare students through discussion .
+
+ppatt:
+	?a should prepare ?b through ?c
+		?a: Schools of nursing
+		?b: students
+		?c: discussion
+
+
+label:    sent_16
+sentence: Exosomes released by melanoma cells prepare sentinel lymph nodes for tumor metastasis .
+
+ppatt:
+	?a released by ?b
+		?a: Exosomes
+		?b: melanoma cells
+	?a prepare ?b
+		?a: Exosomes released by melanoma cells
+		?b: sentinel lymph nodes for tumor metastasis
+
+
+label:    sent_17
+sentence: A polar-copolymerized method to prepare silica-based anion exchanger for ion chromatography .
+
+ppatt:
+	?a prepare ?b for ?c
+		?a: A polar-copolymerized method
+		?b: silica-based anion exchanger
+		?c: ion chromatography
+
+
+label:    sent_18
+sentence: Civilian and military trauma : does civilian training prepare surgeons for the battlefield ? Civilian and military trauma : does civilian training prepare surgeons for the battlefield ? Civilian and military trauma : does civilian training prepare surgeons for the battlefield ? Providers should prepare for new Medicare wellness examination benefit .
+
+ppatt:
+	?a prepare ?b
+		?a: civilian training
+		?b: surgeons for the battlefield ? Civilian and military
+	?a prepare ?b
+		?a: civilian training
+		?b: surgeons for the battlefield ? Civilian and military
+	?a prepare ?b for ?c
+		?a: civilian training
+		?b: surgeons
+		?c: the battlefield
+	?a should prepare for ?b
+		?a: Providers
+		?b: new Medicare wellness examination benefit
+
+
+label:    sent_19
+sentence: Exploiting trends in strategic planning to prepare for reform .
+
+ppatt:
+	Exploiting ?a
+		?a: trends in strategic planning
+	prepare for ?a
+		?a: reform
+
+
+label:    sent_20
+sentence: Time to prepare for dengue testing ? Pediatricians need more training to better prepare them to assist parents in quitting smoking .
+
+ppatt:
+	?a prepare for ?b
+		?a: Time
+		?b: dengue testing
+	?a ?b need ?c to better prepare ?d to assist ?e in ?f
+		?a: Time to prepare for dengue testing
+		?b: Pediatricians
+		?c: more training
+		?d: them
+		?e: parents
+		?f: quitting smoking
+
+
+label:    sent_21
+sentence: Nutrition and transplant -- how to help patients on dialysis prepare .
+
+ppatt:
+	?a how to help ?b
+		?a: Nutrition
+		?b: patients on dialysis
+	?a how to help ?b
+		?a: transplant
+		?b: patients on dialysis
+	?a prepare
+		?a: Nutrition -- how to help patients on dialysis
+	?a prepare
+		?a: transplant
+
+
+label:    sent_22
+sentence: Physicians for Prevention of Nuclear War prepare to consider applications for clinical research . Gather data and prepare it for analysis .
+
+ppatt:
+	?a prepare to consider ?b
+		?a: Physicians for Prevention of Nuclear War
+		?b: applications for clinical research
+	?a Gather ?b
+		?a: Physicians for Prevention of Nuclear War
+		?b: data
+	?a prepare ?b for ?c
+		?a: Physicians for Prevention of Nuclear War
+		?b: it
+		?c: analysis
+
+
+label:    sent_23
+sentence: [How to harvest and prepare cartilage for tympanoplasty ] . Students critique these designs and prepare similar problems for peer evaluation .
+
+ppatt:
+	?a harvest
+		?a: [How
+	?a prepare ?b
+		?a: [How
+		?b: cartilage for tympanoplasty ]
+	?a ?b critique ?c
+		?a: [How to harvest and prepare cartilage for tympanoplasty ]
+		?b: Students
+		?c: these designs
+	?a prepare ?b for ?c
+		?a: [How to harvest and prepare cartilage for tympanoplasty ]
+		?b: similar problems
+		?c: peer evaluation
+
+

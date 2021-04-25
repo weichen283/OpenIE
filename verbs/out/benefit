@@ -1,0 +1,305 @@
+label:    sent_1
+sentence: Thus , high-risk patients may benefit from chemotherapy . Can older " at risk " adults benefit from psychoeducation targeting healthy brain aging ? Interventions for worried children may benefit from a focus on increasing positive problem-solving beliefs .
+
+ppatt:
+	Thus , ?a may benefit from ?b
+		?a: high-risk patients
+		?b: chemotherapy
+	Can older " at ?a
+		?a: risk " adults
+	at ?a benefit from ?b
+		?a: risk " adults
+		?b: psychoeducation targeting healthy brain aging
+	?a targeting ?b
+		?a: psychoeducation
+		?b: healthy brain aging
+	?a may benefit from ?b
+		?a: Interventions for worried children
+		?b: a focus on increasing positive problem-solving beliefs
+
+
+label:    sent_2
+sentence: Can we identify those patients who will benefit from prostate-sparing surgery ? Is biomedical information too complex to benefit from simple interlinked representations ? EEG-fMRI results tend to benefit from higher field scanners ( 3T over 1.5T ) . Culture-friendly education and coping resources might benefit this minority group .
+
+ppatt:
+	Can ?a identify ?b ?c
+		?a: we
+		?b: those patients who will benefit from prostate-sparing surgery
+		?c: Is biomedical information too complex to benefit from simple interlinked representations ? EEG-fMRI results tend to benefit from higher field scanners Culture-friendly education and coping resources might benefit this minority group
+	?a will benefit from ?b
+		?a: those patients
+		?b: prostate-sparing surgery
+	benefit from ?a
+		?a: simple interlinked representations
+	?a tend to benefit from ?b
+		?a: EEG-fMRI results
+		?b: higher field scanners
+	?a tend to benefit from ?b
+		?a: EEG-fMRI results
+		?b: Culture-friendly education
+	?a might benefit ?b
+		?a: EEG-fMRI results tend to benefit from higher field scanners Culture-friendly education and coping resources
+		?b: this minority group
+
+
+label:    sent_3
+sentence: How not to evaluate whether psychosocial interventions benefit patients .
+
+ppatt:
+	How not to evaluate ?a
+		?a: SOMETHING := psychosocial interventions benefit patients
+	?a benefit ?b
+		?a: psychosocial interventions
+		?b: patients
+
+
+label:    sent_4
+sentence: Implementation of such a system would benefit patients , caregivers , and society . Clinical Decision Support Systems aim to benefit the clinical decision making process .
+
+ppatt:
+	?a would benefit ?b
+		?a: Implementation of such a system
+		?b: patients
+	?a would benefit ?b
+		?a: Implementation of such a system
+		?b: caregivers
+	?a would benefit ?b
+		?a: Implementation of such a system
+		?b: society
+	?a Support ?b
+		?a: Clinical Decision
+		?b: Systems aim to benefit the clinical decision making process
+	?a benefit ?b
+		?a: Systems aim
+		?b: the clinical decision making process
+	?a making ?b
+		?a: the clinical decision
+		?b: process
+
+
+label:    sent_5
+sentence: Division of labor has been claimed to benefit fitness .
+
+ppatt:
+	?a has been claimed to benefit ?b
+		?a: Division of labor
+		?b: fitness
+
+
+label:    sent_6
+sentence: They stimulate insulin secretion through distinct mechanisms and may benefit patients from different aspects .
+
+ppatt:
+	?a stimulate ?b through ?c
+		?a: They
+		?b: insulin secretion
+		?c: distinct mechanisms
+	?a may benefit ?b
+		?a: They
+		?b: patients from different aspects
+
+
+label:    sent_7
+sentence: Patients might also benefit from specifically trained health professionals but strong studies are lacking .
+
+ppatt:
+	?a might also benefit from ?b
+		?a: Patients
+		?b: specifically trained health professionals
+	?a are lacking
+		?a: strong studies
+
+
+label:    sent_8
+sentence: These women benefit considerably from minimal invasive surgery and have little perioperative complications .
+
+ppatt:
+	?a benefit considerably from ?b
+		?a: These women
+		?b: minimal invasive surgery
+	?a have ?b
+		?a: These women
+		?b: little perioperative complications
+
+
+label:    sent_9
+sentence: Some patients benefit from the placebos , but their use raises ethical questions .
+
+ppatt:
+	?a benefit from ?b
+		?a: Some patients
+		?b: the placebos
+	?a raises ?b
+		?a: their use
+		?b: ethical questions
+
+
+label:    sent_10
+sentence: The expanded mutation database should benefit patients in the diagnosis and treatment of 11beta-OHD .
+
+ppatt:
+	?a should benefit ?b in ?c
+		?a: The expanded mutation database
+		?b: patients
+		?c: the diagnosis of 11beta-OHD
+	?a should benefit ?b in ?c
+		?a: The expanded mutation database
+		?b: patients
+		?c: treatment
+
+
+label:    sent_11
+sentence: Macrophages expressing polyamines and BDNF may benefit axonal regeneration at 14 d . Suggestions on which older adults might benefit from vestibular rehabilitation therapy are presented .
+
+ppatt:
+	?a expressing ?b
+		?a: Macrophages
+		?b: polyamines
+	?a expressing ?b
+		?a: Macrophages
+		?b: BDNF
+	?a may benefit ?b at ?c
+		?a: Macrophages expressing polyamines and BDNF
+		?b: axonal regeneration
+		?c: 14 d
+	?a on ?b might benefit from ?c
+		?a: Suggestions
+		?b: older adults
+		?c: vestibular rehabilitation therapy
+	?a are presented
+		?a: Suggestions on which older adults might benefit from vestibular rehabilitation therapy
+
+
+label:    sent_12
+sentence: Patients with IBM have quadriceps weakness and will potentially benefit from SCO use .
+
+ppatt:
+	?a have ?b
+		?a: Patients with IBM
+		?b: quadriceps weakness
+	?a will potentially benefit from ?b
+		?a: Patients with IBM
+		?b: SCO use
+
+
+label:    sent_13
+sentence: Some psoriasis patients are gluten-sensitive and may benefit from a gluten free diet .
+
+ppatt:
+	?a are gluten-sensitive
+		?a: Some psoriasis patients
+	?a may benefit from ?b
+		?a: Some psoriasis patients
+		?b: a gluten free diet
+
+
+label:    sent_14
+sentence: Patients with SP do poorly and do not routinely benefit from this approach .
+
+ppatt:
+	?a do poorly do not routinely benefit from ?b
+		?a: Patients with SP
+		?b: this approach
+
+
+label:    sent_15
+sentence: Integrate margin management tactics with clinical delivery improvement plans to ensure that patients benefit .
+
+ppatt:
+	Integrate ?a
+		?a: margin management tactics with clinical delivery improvement plans
+	ensure ?a
+		?a: SOMETHING := patients benefit
+	?a benefit
+		?a: patients
+
+
+label:    sent_16
+sentence: The entire scientific community using genetically modified mice in experiments will benefit .
+
+ppatt:
+	?a using ?b
+		?a: The entire scientific community
+		?b: genetically modified mice in experiments
+	?a will benefit
+		?a: The entire scientific community using genetically modified mice in experiments
+
+
+label:    sent_17
+sentence: Less impaired patients may benefit more markedly . VAD support may benefit select patients , but experience in CHD is limited .
+
+ppatt:
+	?a may benefit more markedly
+		?a: Less impaired patients
+	?a may benefit ?b
+		?a: VAD support
+		?b: select patients
+	?a is limited
+		?a: experience in CHD
+
+
+label:    sent_18
+sentence: Smoking cessation would benefit patients undergoing RCR and improve clinical outcomes .
+
+ppatt:
+	?a would benefit ?b
+		?a: Smoking cessation
+		?b: patients undergoing RCR
+	?a undergoing ?b
+		?a: patients
+		?b: RCR
+	?a improve ?b
+		?a: Smoking cessation
+		?b: clinical outcomes
+
+
+label:    sent_19
+sentence: Wise placebo use can benefit patients and strengthen the medical profession .
+
+ppatt:
+	?a can benefit ?b
+		?a: Wise placebo use
+		?b: patients
+	?a strengthen ?b
+		?a: Wise placebo use
+		?b: the medical profession
+
+
+label:    sent_20
+sentence: Bacteria associated with seaweeds can both harm and benefit their hosts .
+
+ppatt:
+	?a associated with ?b
+		?a: Bacteria
+		?b: seaweeds
+	?a can both harm
+		?a: Bacteria associated with seaweeds
+	?a benefit ?b
+		?a: Bacteria associated with seaweeds
+		?b: their hosts
+
+
+label:    sent_21
+sentence: Interventional modification of this index must parallel disease regression and benefit prognosis .
+
+ppatt:
+	?a must parallel ?b
+		?a: Interventional modification of this index
+		?b: disease regression
+	?a benefit ?b
+		?a: Interventional modification of this index
+		?b: prognosis
+
+
+label:    sent_22
+sentence: The arrangement usually functions to benefit the household and ensure its success .
+
+ppatt:
+	?a usually functions to benefit ?b
+		?a: The arrangement
+		?b: the household
+	?a ensure ?b
+		?a: The arrangement
+		?b: its success
+
+

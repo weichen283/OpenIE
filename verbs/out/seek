@@ -1,0 +1,306 @@
+label:    sent_1
+sentence: Women may seek to prolong their reproductive span for a variety of reasons .
+
+ppatt:
+	?a may seek to prolong ?b for ?c
+		?a: Women
+		?b: their reproductive span
+		?c: a variety of reasons
+
+
+label:    sent_2
+sentence: Influenza vaccine makers seek ways to speed production , boost effectiveness .
+
+ppatt:
+	?a seek ?b to speed ?c
+		?a: Influenza vaccine makers
+		?b: ways
+		?c: production
+	?a seek to boost ?b
+		?a: Influenza vaccine makers
+		?b: effectiveness
+
+
+label:    sent_3
+sentence: Physical therapy educators seek teaching methodologies to efficiently educate students .
+
+ppatt:
+	?a seek ?b to efficiently educate ?c
+		?a: Physical therapy educators
+		?b: teaching methodologies
+		?c: students
+
+
+label:    sent_4
+sentence: To seek the effective treatment for age-related macular degeneration ( AMD ) . Not much is known on those who do not seek care .
+
+ppatt:
+	seek ?a ?b
+		?a: the effective treatment for age-related macular degeneration
+		?b: much
+	?a is/are AMD
+		?a: age-related macular degeneration
+	Not ?a is known on ?b
+		?a: much
+		?b: those who do not seek care
+	?a do not seek ?b
+		?a: those
+		?b: care
+
+
+label:    sent_5
+sentence: Abdominal pain is one of the most common reasons pediatric patients seek emergency care .
+
+ppatt:
+	?a is one of ?b
+		?a: Abdominal pain
+		?b: the most common reasons pediatric patients seek emergency care
+	?a ?b seek ?c
+		?a: the most common reasons
+		?b: pediatric patients
+		?c: emergency care
+
+
+label:    sent_6
+sentence: An increasing number of patients seek minimal invasive procedures .
+
+ppatt:
+	?a seek ?b
+		?a: An increasing number of patients
+		?b: minimal invasive procedures
+
+
+label:    sent_7
+sentence: Most gravid women do not seek dental care .
+
+ppatt:
+	?a do not seek ?b
+		?a: Most gravid women
+		?b: dental care
+
+
+label:    sent_8
+sentence: Transverse maxillary deficiency is frequently observed in patients who seek orthodontic treatment .
+
+ppatt:
+	?a is frequently observed in ?b
+		?a: Transverse maxillary deficiency
+		?b: patients who seek orthodontic treatment
+	?a seek ?b
+		?a: patients
+		?b: orthodontic treatment
+
+
+label:    sent_9
+sentence: As sleep quality worsens into insomnia , individuals may seek assistance from medication .
+
+ppatt:
+	?a worsens into ?b
+		?a: sleep quality
+		?b: insomnia
+	?a may seek ?b
+		?a: individuals
+		?b: assistance from medication
+
+
+label:    sent_10
+sentence: What do older adults seek in their potential romantic partners ? In a chance encounter , we sometimes seek some hidden meaning .
+
+ppatt:
+	?a ?b seek in ?c
+		?a: What
+		?b: older adults
+		?c: their potential romantic partners
+	In ?a , ?b sometimes seek ?c
+		?a: a chance encounter
+		?b: we
+		?c: some hidden meaning
+
+
+label:    sent_11
+sentence: To seek consciousness regaining methods at early stage for coma patients in neurosurgery .
+
+ppatt:
+	seek ?a at ?b
+		?a: consciousness regaining methods
+		?b: early stage for coma patients in neurosurgery
+
+
+label:    sent_12
+sentence: Eighty-six percent GPs seek a specialist opinion for approximately one in four patients seen . Each year , millions of patients seek treatment from their healthcare provider .
+
+ppatt:
+	?a seek ?b
+		?a: Eighty-six percent GPs
+		?b: a specialist opinion for approximately one in four patients seen
+	?a seen
+		?a: four patients
+	?a ?b seek ?c
+		?a: Each year
+		?b: millions of patients
+		?c: treatment from their healthcare provider
+
+
+label:    sent_13
+sentence: Patients seek for self-diagnosis before attending the consultation .
+
+ppatt:
+	?a seek for ?b
+		?a: Patients
+		?b: self-diagnosis
+	?a attending ?b
+		?a: Patients
+		?b: the consultation
+
+
+label:    sent_14
+sentence: The patient package insert that accompanies the sponge encourages women to seek such assistance .
+
+ppatt:
+	?a accompanies ?b
+		?a: The patient package insert
+		?b: the sponge
+	?a encourages ?b to seek ?c
+		?a: The patient package insert that accompanies the sponge
+		?b: women
+		?c: such assistance
+
+
+label:    sent_15
+sentence: Through this study we seek to understand these disparities . Hide and seek .. . Women with PCOS have widely varying phenotypes and seek medical care for differing reasons . Not only did he seek excellent training , he got and gave good mentoring .
+
+ppatt:
+	Through ?a ?b seek to understand ?c ?d
+		?a: this study
+		?b: we
+		?c: these disparities
+		?d: SOMETHING := Hide ..
+	?a Hide ?b
+		?a: we
+		?b: ..
+	?a seek
+		?a: we
+	?a have ?b
+		?a: Women with PCOS
+		?b: widely varying phenotypes
+	?a seek ?b for ?c
+		?a: Women with PCOS
+		?b: medical care
+		?c: differing reasons
+	Not only did ?a seek ?b
+		?a: he
+		?b: excellent training
+	?a got
+		?a: he
+	?a gave ?b
+		?a: he
+		?b: good mentoring
+
+
+label:    sent_16
+sentence: This may influence how patients seek medical attention and their concerns at consultation .
+
+ppatt:
+	?a may influence ?b
+		?a: This
+		?b: SOMETHING := how patients seek medical attention and their concerns at consultation
+	how ?a seek ?b
+		?a: patients
+		?b: medical attention
+	how ?a seek ?b
+		?a: patients
+		?b: their concerns at consultation
+
+
+label:    sent_17
+sentence: Society is changing rapidly , and hospital pharmacy must seek innovative responses .
+
+ppatt:
+	?a is changing rapidly
+		?a: Society
+	?a must seek ?b
+		?a: hospital pharmacy
+		?b: innovative responses
+
+
+label:    sent_18
+sentence: Hospitals seek savings but have to consider quality , service and staff issues . Elderly patients tend to seek later for medical help during myocardial infarction .
+
+ppatt:
+	?a seek ?b
+		?a: Hospitals
+		?b: savings
+	?a have to consider ?b
+		?a: Hospitals
+		?b: quality
+	?a have to consider ?b
+		?a: Hospitals
+		?b: service
+	?a have to consider ?b
+		?a: Hospitals
+		?b: staff
+	?a have to consider ?b
+		?a: Hospitals
+		?b: issues
+	?a tend to seek ?b for ?c during ?d
+		?a: Elderly patients
+		?b: later
+		?c: medical help
+		?d: myocardial infarction
+
+
+label:    sent_19
+sentence: Environmentalists seek to set research agenda on indoor air pollution .
+
+ppatt:
+	?a seek to set ?b
+		?a: Environmentalists
+		?b: research agenda on indoor air pollution
+
+
+label:    sent_20
+sentence: To seek for new components as BACE inhibitors from Aloe arborescens .
+
+ppatt:
+	seek for ?a
+		?a: new components as BACE inhibitors from Aloe arborescens
+
+
+label:    sent_21
+sentence: Clinicians should strive to prevent extravasation or seek to minimize injury should it occur .
+
+ppatt:
+	?a should strive to prevent ?b
+		?a: Clinicians
+		?b: extravasation
+	?a should strive to seek to minimize ?b
+		?a: Clinicians
+		?b: injury
+	should ?a occur
+		?a: it
+
+
+label:    sent_22
+sentence: Plan defeated , but pharmacists still seek ability to prescribe .
+
+ppatt:
+	?a defeated
+		?a: Plan
+	?a still seek ?b
+		?a: pharmacists
+		?b: ability to prescribe
+	?a prescribe
+		?a: ability
+
+
+label:    sent_23
+sentence: Most survivors do not seek or receive mental health care .
+
+ppatt:
+	?a do not seek ?b
+		?a: Most survivors
+		?b: mental health care
+	?a receive
+		?a: Most survivors
+
+

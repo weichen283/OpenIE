@@ -1,0 +1,260 @@
+label:    sent_1
+sentence: These crystals diffract to a resolution of 2.8 A .
+
+ppatt:
+	?a diffract to ?b
+		?a: These crystals
+		?b: a resolution of 2.8 A
+
+
+label:    sent_2
+sentence: Two different crystal forms diffract beyond 2.4 A resolution .
+
+ppatt:
+	?a diffract beyond ?b
+		?a: Two different crystal forms
+		?b: 2.4 A resolution
+
+
+label:    sent_3
+sentence: The crystals diffract to 2.2 A resolution .
+
+ppatt:
+	?a diffract to ?b
+		?a: The crystals
+		?b: 2.2 A resolution
+
+
+label:    sent_4
+sentence: The crystals diffract to 2.3 A resolution and belong to space group C2 .
+
+ppatt:
+	?a diffract to ?b
+		?a: The crystals
+		?b: 2.3 A resolution
+	?a belong to ?b
+		?a: The crystals
+		?b: space group C2
+
+
+label:    sent_5
+sentence: The crystals diffract to 2.4 A resolution and are suitable for X-ray structure analysis .
+
+ppatt:
+	?a diffract to ?b
+		?a: The crystals
+		?b: 2.4 A resolution
+
+
+label:    sent_6
+sentence: The crystals diffract to 3 A resolution and are suitable for an X-ray analysis .
+
+ppatt:
+	?a diffract to ?b
+		?a: The crystals
+		?b: 3 A resolution
+
+
+label:    sent_7
+sentence: They contain a dimer in the asymmetric unit and diffract to 2.7 A .
+
+ppatt:
+	?a contain ?b
+		?a: They
+		?b: a dimer in the asymmetric unit
+	?a diffract to ?b
+		?a: They
+		?b: 2.7 A
+
+
+label:    sent_8
+sentence: The crystals belong to the C2 space group and diffract to 2 A .
+
+ppatt:
+	?a belong to ?b
+		?a: The crystals
+		?b: the C2 space group
+	?a diffract to ?b
+		?a: The crystals
+		?b: 2 A
+
+
+label:    sent_9
+sentence: They contain two subunits per asymmetric unit and diffract beyond 2.7 A .
+
+ppatt:
+	?a contain ?b
+		?a: They
+		?b: two subunits per asymmetric unit
+	?a diffract beyond ?b
+		?a: They
+		?b: 2.7 A
+
+
+label:    sent_10
+sentence: These crystals are relatively insensitive to radiation damage and diffract to high resolution .
+
+ppatt:
+	?a are relatively insensitive to ?b
+		?a: These crystals
+		?b: radiation damage
+	?a diffract to ?b
+		?a: These crystals
+		?b: high resolution
+
+
+label:    sent_11
+sentence: The crystals are quite stable to x-rays and diffract beyond 2.6 A resolution .
+
+ppatt:
+	?a are quite stable to ?b
+		?a: The crystals
+		?b: x-rays
+	?a diffract beyond ?b
+		?a: The crystals
+		?b: 2.6 A resolution
+
+
+label:    sent_12
+sentence: The crystals are quite stable to x-rays and diffract beyond 2.6-A resolution .
+
+ppatt:
+	?a are quite stable to ?b
+		?a: The crystals
+		?b: x-rays
+	?a diffract beyond ?b
+		?a: The crystals
+		?b: 2.6-A resolution
+
+
+label:    sent_13
+sentence: They diffract x-rays to a resolution of at least 3.5 A .
+
+ppatt:
+	?a diffract ?b to ?c
+		?a: They
+		?b: x-rays
+		?c: a resolution of at least 3.5 A
+
+
+label:    sent_14
+sentence: The photonic crystals diffract light in the visible region according to Bragg 's law . They diffract X-rays to at least 2.3 A resolution .
+
+ppatt:
+	?a diffract ?b in ?c
+		?a: The photonic crystals
+		?b: light
+		?c: the visible region according to Bragg 's law
+	?a diffract ?b to ?c
+		?a: They
+		?b: X-rays
+		?c: at least 2.3 A resolution
+
+
+label:    sent_15
+sentence: The crystals diffract more than 2.5 A and are suitable for complete crystal analysis .
+
+ppatt:
+	?a diffract ?b
+		?a: The crystals
+		?b: more than 2.5 A
+
+
+label:    sent_16
+sentence: They diffract X-rays to at least 2.0 A resolution and are stable to X-rays . Cys 153 reacts rapidly with mercuric ion but the derivative crystals do not diffract .
+
+ppatt:
+	?a diffract ?b to ?c
+		?a: They
+		?b: X-rays
+		?c: at least 2.0 A resolution
+	?a reacts rapidly with ?b
+		?a: Cys 153
+		?b: mercuric ion
+	?a do not diffract
+		?a: the derivative crystals
+
+
+label:    sent_17
+sentence: These crystals do not diffract when handled conventionally . Crystals diffract to better than 2.1A .
+
+ppatt:
+	?a do not diffract
+		?a: These crystals
+	?a when handled conventionally
+		?a: These crystals
+	?a diffract to ?b
+		?a: Crystals
+		?b: better than 2.1A
+
+
+label:    sent_18
+sentence: Crystals of form I diffract to approximately . Crystals are sensitive to X-ray and diffract weakly up to 7 A .
+
+ppatt:
+	?a diffract to ?b
+		?a: Crystals of form I
+		?b: approximately . Crystals
+
+
+label:    sent_19
+sentence: The hexagonal faced crystals were the best looking , but did not diffract .
+
+ppatt:
+	?a were the best looking
+		?a: The hexagonal faced crystals
+	?a did not diffract
+		?a: The hexagonal faced crystals
+
+
+label:    sent_20
+sentence: These crystals are mechanically strong and diffract X-rays to better than 2.2 A resolution .
+
+ppatt:
+	?a are mechanically strong to ?b
+		?a: These crystals
+		?b: better than 2.2 A resolution
+	?a diffract
+		?a: These crystals
+
+
+label:    sent_21
+sentence: These crystals have shown to diffract X-rays between 2.34 and 1.65 A resolution .
+
+ppatt:
+	?a have shown to diffract ?b
+		?a: These crystals
+		?b: X-rays between 2.34 and 1.65 A resolution
+
+
+label:    sent_22
+sentence: Both crystals form diffract at least up to 3.2 A .
+
+ppatt:
+	?a form diffract ?b
+		?a: Both crystals
+		?b: at least up 3.2 A
+
+
+label:    sent_23
+sentence: The crystals were found to diffract X-rays to beyond 1.65 A resolution .
+
+ppatt:
+	?a were found to diffract ?b to beyond ?c
+		?a: The crystals
+		?b: X-rays
+		?c: 1.65 A resolution
+
+
+label:    sent_24
+sentence: The array spacing is set to diffract light in the visible spectral region .
+
+ppatt:
+	?a is set
+		?a: The array spacing
+	?a diffract ?b in ?c
+		?a: set
+		?b: light
+		?c: the visible spectral region
+
+

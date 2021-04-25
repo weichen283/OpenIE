@@ -1,0 +1,326 @@
+label:    sent_1
+sentence: This increase is distressing especially when we consider the current knowledge of preventive measures .
+
+ppatt:
+	?a is distressing
+		?a: This increase
+	especially when ?a consider ?b
+		?a: we
+		?b: the current knowledge of preventive measures
+
+
+label:    sent_2
+sentence: To optimize the results of PCNL , urologists should consider careful patient selection .
+
+ppatt:
+	optimize ?a ?b
+		?a: the results of PCNL
+		?b: urologists
+	?a should consider ?b
+		?a: urologists
+		?b: careful patient selection
+
+
+label:    sent_3
+sentence: Physicians should consider LD pharmacokinetics when treating elderly PD patients .
+
+ppatt:
+	?a should consider ?b
+		?a: Physicians
+		?b: LD pharmacokinetics
+	?a when treating ?b
+		?a: Physicians
+		?b: elderly PD patients
+
+
+label:    sent_4
+sentence: Need job , will travel : consider locum tenens .
+
+ppatt:
+	?a will travel
+		?a: Need job
+	?a consider ?b
+		?a: Need job
+		?b: locum tenens
+
+
+label:    sent_5
+sentence: Practitioners could devise ways to better engage and support those families who consider moving .
+
+ppatt:
+	?a could devise ?b to better engage ?c
+		?a: Practitioners
+		?b: ways
+		?c: those families who consider moving
+	?a could devise to support
+		?a: Practitioners
+	?a consider ?b
+		?a: those families
+		?b: moving
+
+
+label:    sent_6
+sentence: Preventing retained items : time to consider technology ? Toxicologists should consider therapeutic acetaminophen use as a cause of ALT elevation .
+
+ppatt:
+	Preventing ?a
+		?a: retained items
+	?a consider ?b
+		?a: time
+		?b: technology
+	?a should consider ?b as ?c
+		?a: Toxicologists
+		?b: therapeutic acetaminophen use
+		?c: a cause of ALT elevation
+
+
+label:    sent_7
+sentence: Almost 50 % of electrophysiologists consider lead extraction in these latter situations .
+
+ppatt:
+	?a consider ?b
+		?a: Almost 50 % of electrophysiologists
+		?b: SOMETHING := lead extraction in these latter situations
+	?a lead ?b in ?c
+		?a: Almost 50 % of electrophysiologists
+		?b: extraction
+		?c: these latter situations
+
+
+label:    sent_8
+sentence: This becomes evident when we consider their transport behavior under blood flow in microcirculation .
+
+ppatt:
+	?a becomes evident
+		?a: This
+	when ?a consider ?b
+		?a: we
+		?b: their transport behavior under blood flow in microcirculation
+
+
+label:    sent_9
+sentence: Why do surgeons consider leaving practice ? Patients mostly consider that CRF must be tolerated .
+
+ppatt:
+	Why do ?a consider leaving ?b
+		?a: surgeons
+		?b: practice
+	?a mostly consider ?b
+		?a: Patients
+		?b: SOMETHING := CRF must be tolerated
+	?a must be tolerated
+		?a: CRF
+
+
+label:    sent_10
+sentence: Hospitals should consider moving to opt-out routine HIV testing of all medical admissions .
+
+ppatt:
+	?a should consider moving to ?b
+		?a: Hospitals
+		?b: opt-out routine HIV testing of all medical admissions
+
+
+label:    sent_11
+sentence: It is important to consider both pharmacokinetics and pharmacogenetics in optimizing gemcitabine accumulation .
+
+ppatt:
+	?a is important to consider ?b
+		?a: It
+		?b: pharmacokinetics
+	?a is important to consider ?b
+		?a: It
+		?b: pharmacogenetics
+	?a optimizing ?b
+		?a: It
+		?b: gemcitabine accumulation
+
+
+label:    sent_12
+sentence: These favourable findings point to consider PRGF as a therapy for OA .
+
+ppatt:
+	?a point to consider ?b as ?c
+		?a: These favourable findings
+		?b: PRGF
+		?c: a therapy for OA
+
+
+label:    sent_13
+sentence: It is also important to consider PEH as a rare condition of gingival overgrowth . Social considerations in research : consider them but do n't use them .
+
+ppatt:
+	?a is also important to consider ?b as ?c
+		?a: It
+		?b: PEH
+		?c: a rare condition of gingival overgrowth
+	?a consider ?b
+		?a: It
+		?b: them
+	?a do n't use ?b
+		?a: It
+		?b: them
+
+
+label:    sent_14
+sentence: We consider diamond interfaces and quantitatively evaluate the effects of surface orientation and passivation .
+
+ppatt:
+	?a consider ?b
+		?a: We
+		?b: diamond interfaces
+	?a quantitatively evaluate ?b
+		?a: We
+		?b: the effects of surface
+
+
+label:    sent_15
+sentence: Two case examples are considered and we consider DNA , fibres and eyewitness evidence .
+
+ppatt:
+	?a are considered
+		?a: Two case examples
+	?a consider ?b
+		?a: we
+		?b: DNA
+	?a consider ?b
+		?a: we
+		?b: fibres
+	?a consider ?b
+		?a: we
+		?b: eyewitness evidence
+
+
+label:    sent_16
+sentence: Three critical issues to consider before implementing a new genome-cohort study in Japan . Key questions to consider in stalking cases .
+
+ppatt:
+	?a consider
+		?a: Three critical issues
+	?a implementing ?b
+		?a: Three critical issues
+		?b: a new genome-cohort study in Japan
+	?a Key questions
+		?a: Three critical issues to consider before implementing a new genome-cohort study in Japan
+	?a consider in ?b
+		?a: Key questions
+		?b: stalking cases
+
+
+label:    sent_17
+sentence: Although many studies examine patterns across populations within species , few consider such non-independence .
+
+ppatt:
+	?a examine ?b
+		?a: many studies
+		?b: patterns across populations within species
+	?a consider ?b
+		?a: few
+		?b: such non-independence
+
+
+label:    sent_18
+sentence: To examine and critique the risks of cosmetic surgery and consider implications for practice .
+
+ppatt:
+	examine ?a
+		?a: the risks of cosmetic surgery
+	critique ?a
+		?a: the risks of cosmetic surgery
+	consider ?a
+		?a: implications for practice
+
+
+label:    sent_19
+sentence: Echocardiographers should be more aware of LVHT and consider its differential diagnoses .
+
+ppatt:
+	?a should be more aware of ?b
+		?a: Echocardiographers
+		?b: LVHT
+	?a consider ?b
+		?a: Echocardiographers
+		?b: its differential diagnoses
+
+
+label:    sent_20
+sentence: They survey the differential diagnosis of manipulative behavior and consider specific treatment strategies .
+
+ppatt:
+	?a survey ?b
+		?a: They
+		?b: the differential diagnosis of manipulative behavior
+	?a consider ?b
+		?a: They
+		?b: specific treatment strategies
+
+
+label:    sent_21
+sentence: Angle-dependence may be an important factor to consider in avoiding potentially distort clinical diagnoses .
+
+ppatt:
+	?a may be an important factor
+		?a: Angle-dependence
+	?a consider
+		?a: an important factor
+	distort ?a
+		?a: clinical diagnoses
+
+
+label:    sent_22
+sentence: This is important to consider in the context of concomitant chemoradiotherapy schedules using IMRT .
+
+ppatt:
+	?a is important to consider in ?b using ?c
+		?a: This
+		?b: the context of concomitant chemoradiotherapy schedules
+		?c: IMRT
+
+
+label:    sent_23
+sentence: Compatibility thus becomes an important factor to consider for optimal rating scale performance .
+
+ppatt:
+	?a thus becomes an important factor
+		?a: Compatibility
+	?a consider for ?b
+		?a: an important factor
+		?b: optimal rating scale performance
+
+
+label:    sent_24
+sentence: Patients consider the LUTS as physiological and are resigned to endure them .
+
+ppatt:
+	?a consider ?b as ?c
+		?a: Patients
+		?b: the LUTS
+		?c: physiological
+	?a are resigned to endure ?b
+		?a: Patients
+		?b: them
+
+
+label:    sent_25
+sentence: Clinicians can consider NIRS monitoring in patients during ablation procedures and in critical care .
+
+ppatt:
+	?a can consider ?b
+		?a: Clinicians
+		?b: NIRS monitoring in patients during ablation procedures and in critical care
+
+
+label:    sent_26
+sentence: Consumers consider quality in deciding on a hospital , but measurements differ .
+
+ppatt:
+	?a consider ?b
+		?a: Consumers
+		?b: quality
+	?a deciding on ?b
+		?a: Consumers
+		?b: a hospital
+	?a differ
+		?a: measurements
+
+

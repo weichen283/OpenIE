@@ -1,0 +1,186 @@
+label:    sent_1
+sentence: Xanthobacter 124X when grom on 4-hydroxyphenylacetate was able to hydroxylate this compound yielding homogenisate .
+
+ppatt:
+	?a when ?b was able to hydroxylate ?c
+		?a: Xanthobacter 124X
+		?b: grom on 4-hydroxyphenylacetate
+		?c: this compound yielding homogenisate
+	?a yielding ?b
+		?a: this compound
+		?b: homogenisate
+
+
+label:    sent_2
+sentence: Previously , H. polymorpha was reported to hydroxylate proline residues in gelatinous sequences .
+
+ppatt:
+	Previously , ?a was reported to hydroxylate ?b in ?c
+		?a: H. polymorpha
+		?b: proline residues
+		?c: gelatinous sequences
+
+
+label:    sent_3
+sentence: JMJD6 is reported to hydroxylate lysyl residues of a splicing factor , U2AF65 .
+
+ppatt:
+	?a is reported to hydroxylate ?b
+		?a: JMJD6
+		?b: lysyl residues of a splicing factor
+	?a is/are U2AF65
+		?a: a splicing factor
+
+
+label:    sent_4
+sentence: However , SidA is also able to hydroxylate lysine with lower efficiency .
+
+ppatt:
+	However , ?a is also able to hydroxylate ?b with ?c
+		?a: SidA
+		?b: lysine
+		?c: lower efficiency
+
+
+label:    sent_5
+sentence: Cochliobolus lunatus is known to be able to hydroxylate steroids at position 11 beta .
+
+ppatt:
+	?a is known to be able to hydroxylate ?b at ?c
+		?a: Cochliobolus lunatus
+		?b: steroids
+		?c: position 11 beta
+
+
+label:    sent_6
+sentence: It is difficult to hydroxylate nicotinic acid at C6 position in a chemical synthesis .
+
+ppatt:
+	?a is difficult to hydroxylate ?b at ?c in ?d
+		?a: It
+		?b: nicotinic acid
+		?c: C6 position
+		?d: a chemical synthesis
+
+
+label:    sent_7
+sentence: All three strains hydroxylate isophthalate to 4-hydro-3,4-dihydroxyisophthalate . RA 4-hydroxylase did not hydroxylate 9-cis RA or 13-cis RA .
+
+ppatt:
+	?a did not hydroxylate ?b
+		?a: All three strains to 4-hydro-3,4-dihydroxyisophthalate . RA 4-hydroxylase
+		?b: 9-cis RA
+	?a did not hydroxylate ?b
+		?a: All three strains to 4-hydro-3,4-dihydroxyisophthalate . RA 4-hydroxylase
+		?b: 13-cis RA
+
+
+label:    sent_8
+sentence: How do copper enzymes hydroxylate aliphatic substrates ? Escherichia coli containing the gene could hydroxylate the steroid ring at the 9alpha position .
+
+ppatt:
+	do ?a
+		?a: copper enzymes
+	How ?a hydroxylate ?b
+		?a: copper enzymes
+		?b: aliphatic substrates
+	?a containing ?b
+		?a: Escherichia coli
+		?b: the gene
+	?a could hydroxylate ?b at ?c
+		?a: Escherichia coli containing the gene
+		?b: the steroid ring
+		?c: the 9alpha position
+
+
+label:    sent_9
+sentence: These findings demonstrate that activated neutrophils can hydroxylate salicylate by an unknown pathway .
+
+ppatt:
+	?a demonstrate ?b
+		?a: These findings
+		?b: SOMETHING := that activated neutrophils can hydroxylate salicylate by an unknown pathway
+	?a can hydroxylate ?b by ?c
+		?a: activated neutrophils
+		?b: salicylate
+		?c: an unknown pathway
+
+
+label:    sent_10
+sentence: This hydroxylase is related to the mammalian TET enzymes that hydroxylate 5-methylcytosine in DNA .
+
+ppatt:
+	?a is related to ?b
+		?a: This hydroxylase
+		?b: the mammalian TET enzymes that hydroxylate 5-methylcytosine in DNA
+	?a hydroxylate ?b in ?c
+		?a: the mammalian TET enzymes
+		?b: 5-methylcytosine
+		?c: DNA
+
+
+label:    sent_11
+sentence: The fungi were observed to hydroxylate these compounds and to oxidise the 17beta-hydroxyl group . PHD3 may therefore hydroxylate divergent substrates and/or connect divergent cellular responses with HIF .
+
+ppatt:
+	?a were observed to hydroxylate ?b
+		?a: The fungi
+		?b: these compounds
+	?a were observed to to oxidise ?b
+		?a: The fungi
+		?b: the 17beta-hydroxyl group
+	?a may therefore hydroxylate ?b
+		?a: PHD3
+		?b: divergent substrates
+	?a connect ?b
+		?a: PHD3
+		?b: divergent cellular responses with HIF
+
+
+label:    sent_12
+sentence: The ability of this consortium to hydroxylate and subsequently degrade substituted indoles was investigated .
+
+ppatt:
+	?a hydroxylate
+		?a: The ability of this consortium
+	?a subsequently degrade ?b
+		?a: The ability of this consortium
+		?b: substituted indoles
+	?a was investigated
+		?a: The ability of this consortium to hydroxylate and subsequently degrade substituted indoles
+
+
+label:    sent_13
+sentence: We used CYP7B1 knockout mice which can not hydroxylate and inactivate 3betaAdiol .
+
+ppatt:
+	?a used ?b
+		?a: We
+		?b: CYP7B1 knockout mice which can not hydroxylate and inactivate 3betaAdiol
+	?a can not hydroxylate ?b
+		?a: CYP7B1 knockout mice
+		?b: 3betaAdiol
+	?a inactivate
+		?a: which
+
+
+label:    sent_14
+sentence: Both enzymes decarboxylate HPP and then hydroxylate the resulting hydroxyphenylacetate ( HPA ) . These radicals can hydroxylate tyrosine to generate L-3,4-dihydroxyphenylalanine ( dopa ) .
+
+ppatt:
+	?a decarboxylate ?b
+		?a: Both enzymes
+		?b: HPP
+	?a then hydroxylate ?b
+		?a: Both enzymes
+		?b: the resulting hydroxyphenylacetate
+	?a is/are HPA
+		?a: the resulting hydroxyphenylacetate
+	?a can hydroxylate ?b to generate ?c
+		?a: These radicals
+		?b: tyrosine
+		?c: L-3,4-dihydroxyphenylalanine
+	?a is/are dopa
+		?a: L-3,4-dihydroxyphenylalanine
+
+

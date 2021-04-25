@@ -1,0 +1,247 @@
+label:    sent_1
+sentence: More recently , LC-MS methods have being adapted to quantitate biologics .
+
+ppatt:
+	More recently , ?a have being adapted to quantitate ?b
+		?a: LC-MS methods
+		?b: biologics
+
+
+label:    sent_2
+sentence: This study was designed to analyze and quantitate phospholipid components of liposomes .
+
+ppatt:
+	?a was designed to analyze ?b
+		?a: This study
+		?b: phospholipid components of liposomes
+	?a was designed to quantitate
+		?a: This study
+
+
+label:    sent_3
+sentence: The method was used to test and quantitate the pyrogen levels in polymeric biomaterials .
+
+ppatt:
+	?a was used to test ?b
+		?a: The method
+		?b: the pyrogen levels in polymeric biomaterials
+	?a was used to quantitate
+		?a: The method
+
+
+label:    sent_4
+sentence: Microcomputed tomography was utilized to quantitate bone microstructure at the repair site .
+
+ppatt:
+	?a was utilized to quantitate ?b at ?c
+		?a: Microcomputed tomography
+		?b: bone microstructure
+		?c: the repair site
+
+
+label:    sent_5
+sentence: Newly developed immunoassays can be used to quantitate these markers in routine laboratories .
+
+ppatt:
+	?a can be used to quantitate ?b in ?c
+		?a: Newly developed immunoassays
+		?b: these markers
+		?c: routine laboratories
+
+
+label:    sent_6
+sentence: A method to quantitate viral envelope-cell fusion at the single-cell level is presented .
+
+ppatt:
+	?a quantitate ?b at ?c
+		?a: A method
+		?b: viral envelope-cell fusion
+		?c: the single-cell level
+	?a is presented
+		?a: A method to quantitate viral envelope-cell fusion at the single-cell level
+
+
+label:    sent_7
+sentence: A microfluidic device captures a single cell to separate and quantitate its protein content .
+
+ppatt:
+	?a captures ?b to ?c
+		?a: A microfluidic device
+		?b: a single cell
+		?c: separate
+	?a quantitate ?b
+		?a: A microfluidic device
+		?b: its protein content
+
+
+label:    sent_8
+sentence: Meta-analysis was employed to quantitate the mean overall expected changes and compare various techniques .
+
+ppatt:
+	?a was employed to quantitate ?b
+		?a: Meta-analysis
+		?b: the mean overall expected changes
+	?a was employed to compare ?b
+		?a: Meta-analysis
+		?b: various techniques
+
+
+label:    sent_9
+sentence: A rapid radiometric technique used to trap and quantitate 14CO2 evolved by slow-growing microorganisms .
+
+ppatt:
+	?a used to trap ?b
+		?a: A rapid radiometric technique
+		?b: 14CO2
+	?a used to quantitate
+		?a: A rapid radiometric technique
+	?a evolved by ?b
+		?a: A rapid radiometric technique used to trap and quantitate 14CO2
+		?b: slow-growing microorganisms
+
+
+label:    sent_10
+sentence: Use of flow cytometry and monochlorobimane to quantitate intracellular glutathione concentrations in feline leukocytes .
+
+ppatt:
+	?a quantitate ?b
+		?a: Use of flow cytometry and monochlorobimane
+		?b: intracellular glutathione concentrations in feline leukocytes
+
+
+label:    sent_11
+sentence: It can quantitate the copy number of bcr-abl oncogene .
+
+ppatt:
+	?a can quantitate ?b
+		?a: It
+		?b: the copy number of bcr-abl oncogene
+
+
+label:    sent_12
+sentence: An agar culture technique to quantitate Trichomonas vaginalis from women .
+
+ppatt:
+	?a quantitate ?b from ?c
+		?a: An agar culture technique
+		?b: Trichomonas vaginalis
+		?c: women
+
+
+label:    sent_13
+sentence: These tests are insensitive and difficult to quantitate and reproduce .
+
+ppatt:
+	?a are insensitive to quantitate
+		?a: These tests
+	?a difficult
+		?a: These tests
+	?a are insensitive to reproduce
+		?a: These tests
+
+
+label:    sent_14
+sentence: Nuclear penogram can quantitate and record the effect of pharmacologic treatment of impotence .
+
+ppatt:
+	?a can quantitate ?b
+		?a: Nuclear penogram
+		?b: the effect of pharmacologic treatment of impotence
+	?a record
+		?a: Nuclear penogram
+
+
+label:    sent_15
+sentence: Decision analysis provides the tools to quantitate and compare the utilities of alternate strategies .
+
+ppatt:
+	?a provides ?b
+		?a: Decision analysis
+		?b: the tools to quantitate and compare the utilities of alternate strategies
+	?a quantitate ?b
+		?a: the tools
+		?b: the utilities of alternate strategies
+	compare ?a
+		?a: the utilities of alternate strategies
+
+
+label:    sent_16
+sentence: Use of high-performance liquid chromatography to quantitate thymine-containing pyrimidine dimers in DNA .
+
+ppatt:
+	?a quantitate ?b
+		?a: Use of high-performance liquid chromatography
+		?b: thymine-containing pyrimidine dimers in DNA
+
+
+label:    sent_17
+sentence: KD values quantitate binding effects between DAPI and the native and analogue sequences .
+
+ppatt:
+	?a quantitate ?b
+		?a: KD values
+		?b: binding effects between DAPI and the native and analogue sequences
+
+
+label:    sent_18
+sentence: An improved automated method to quantitate infarct volume in triphenyltetrazolium stained rat brain sections .
+
+ppatt:
+	?a quantitate ?b
+		?a: An improved automated method
+		?b: infarct volume in triphenyltetrazolium stained rat brain sections
+
+
+label:    sent_19
+sentence: To quantitate glutamine kinetics in premature infants and determine whether glutamine affects leucine metabolism .
+
+ppatt:
+	quantitate ?a
+		?a: glutamine kinetics in premature infants
+	determine ?a
+		?a: SOMETHING := glutamine affects leucine metabolism
+	?a affects ?b
+		?a: glutamine
+		?b: leucine metabolism
+
+
+label:    sent_20
+sentence: Capillary electrophoresis to quantitate gossypol enantiomers in cotton flower petals and seed .
+
+ppatt:
+	?a quantitate ?b
+		?a: Capillary electrophoresis
+		?b: gossypol enantiomers in cotton flower petals and seed
+
+
+label:    sent_21
+sentence: Treatment response can be difficult to quantitate in children .
+
+ppatt:
+	?a can be difficult to quantitate in ?b
+		?a: Treatment response
+		?b: children
+
+
+label:    sent_22
+sentence: The gas chromatographic method reported here allows us to detect and quantitate in approx .
+
+ppatt:
+	?a reported here
+		?a: The gas chromatographic method
+	?a allows ?b to detect in approx
+		?a: The gas chromatographic method reported here
+		?b: us
+	?a allows to quantitate in
+		?a: The gas chromatographic method reported here
+
+
+label:    sent_23
+sentence: They are however difficult to quantitate due to experimental conditions .
+
+ppatt:
+	?a are however difficult to quantitate due to ?b
+		?a: They
+		?b: experimental conditions
+
+

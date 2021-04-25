@@ -1,0 +1,30 @@
+obj	Following xenobiotic stimuli , receptors translocate into the nucleus and transactivate its target genes .	obj@genes
+obj	PAR bZIP proteins are able to transactivate the promoter of bcl-gS .	obj@promoter
+obj	The interaction between WT1 and p53 modulates their ability to transactivate their respective targets .	obj@targets
+
+subj#obj	Reporter gene assay indicated that Rb1 could transactivate ERbeta especially .	subj@Rb1 obj@ERbeta
+subj#obj	p63 and p73 , members of the p53 gene family , transactivate PKCdelta .	subj@p63 obj@PKCdelta
+subj#obj	FOXM1c and Sp1 transactivate the P1 and P2 promoters of human c-myc synergistically .	subj@FOXM1c subj@Sp1 obj@promoters
+
+obj#prep	As c-Myc heterodimerizes with Max to transactivate downstream target genes in leukemogenesis .	obj@genes prep_in@leukemogenesis
+obj#prep	PAF has the potential to transactivate EGFR in ovarian cancer cells .	obj@EGFR prep_in@cells
+obj#prep	Thrombin has been shown to transactivate PAR2 through PAR1 .	obj@PAR2 prep_through@PAR1
+
+subj#obj#prep	In addition , E2Fs transactivate bik by a p53 - independent mechanism .	subj@E2Fs obj@bik prep_by@mechanism prep_in@addition
+subj#obj#prep	Simian virus 40 small-t does not transactivate RNA polymerase II promoters in virus infections .	subj@virus obj@promoters prep_in@infections
+subj#obj#prep	Low density lipoproteins transactivate EGF receptor : role in mesangial cell proliferation .	subj@lipoproteins obj@role prep_in@proliferation
+
+obj#conj	Yy1 and Ctcf associate through specific protein-protein interactions and together transactivate Tsix .	obj@Tsix conj_and@associate
+obj#conj	DIM-Ph-4-CF ( 3 ) displaces 9-cis-retinoic acid from RXRalpha but does not transactivate RXRalpha .	obj@RXRalpha conj_but@displaces
+
+subj#obj#conj	Both p73 and p63 transactivate p53 - regulated promoters and induce apoptosis .	subj@p63 subj@p73 obj@promoters conj_and@induce
+subj#obj#conj	Myogenic regulatory factors transactivate the Tceal7 gene and modulate muscle differentiation .	subj@factors obj@gene conj_and@modulate
+subj#obj#conj	Cholinergic agonists transactivate EGFR and stimulate MAPK to induce goblet cell secretion .	subj@agonists obj@EGFR conj_and@stimulate
+
+prep	In addition , FXR / RXR can bind to and transactivate through direct repeats .	prep_through@repeats
+prep	In these assays , NEUROD1 was found to transiently transactivate NEUROD2 in trophoblast cells .	prep_in@cells
+
+subj#prep	Upon cotransfection into non-T cells , TCF-1 could transactivate through its cognate motif .	subj@TCF-1 prep_through@motif prep_upon@cotransfection
+subj#prep	In addition GCNF does not transactivate through an SF-1 response element .	subj@GCNF prep_in@addition prep_through@element
+subj#prep	Bright cannot transactivate via out of context , concatenated binding sites .	subj@cannot prep_via@sites
+

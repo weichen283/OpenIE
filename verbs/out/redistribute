@@ -1,0 +1,226 @@
+label:    sent_1
+sentence: Policies are needed to functionally redistribute primary care and specialist physicians . A series of measures has been taken to redistribute the internal population .
+
+ppatt:
+	?a are needed to functionally redistribute ?b
+		?a: Policies
+		?b: primary care
+	?a are needed to functionally redistribute ?b
+		?a: Policies
+		?b: specialist physicians
+	?a has been taken to redistribute ?b
+		?a: A series of measures
+		?b: the internal population
+
+
+label:    sent_2
+sentence: Cushions are usually prescribed to redistribute the stresses .
+
+ppatt:
+	?a are usually prescribed to redistribute ?b
+		?a: Cushions
+		?b: the stresses
+
+
+label:    sent_3
+sentence: Do heterotrimeric G proteins redistribute upon G protein-coupled receptor stimulation in platelets ? Public systems also redistribute , deliberately , from low to high risk individuals .
+
+ppatt:
+	Do ?a redistribute upon ?b
+		?a: heterotrimeric G proteins
+		?b: G protein-coupled receptor stimulation in platelets
+	?a also redistribute , deliberately ?b
+		?a: Public systems
+		?b: from low to high risk individuals
+
+
+label:    sent_4
+sentence: Human circulating mononuclear cells redistribute out of the intravascular compartment following treatment with corticosteroids .
+
+ppatt:
+	?a redistribute out of ?b following ?c
+		?a: Human circulating mononuclear cells
+		?b: the intravascular compartment
+		?c: treatment with corticosteroids
+
+
+label:    sent_5
+sentence: A medial column procedure may be useful to redistribute load to the medial column .
+
+ppatt:
+	?a may be useful to redistribute ?b
+		?a: A medial column procedure
+		?b: load to the medial column
+
+
+label:    sent_6
+sentence: The technique is designed to redistribute tension along the muscle borders progressively and precisely .
+
+ppatt:
+	?a is designed to redistribute ?b progressively and precisely
+		?a: The technique
+		?b: tension along the muscle borders
+
+
+label:    sent_7
+sentence: These integrate and redistribute the GLP-1-dependent signals toward numerous targeted tissues . Radiolabeled poly-L-lysine was shown to dissociate from coated coverslips and redistribute onto CL .
+
+ppatt:
+	?a integrate ?b
+		?a: These
+		?b: the GLP-1-dependent signals toward numerous targeted tissues
+	?a redistribute
+		?a: These
+	?a was shown to dissociate from ?b
+		?a: Radiolabeled poly-L-lysine
+		?b: coated coverslips
+	?a was shown to redistribute onto ?b
+		?a: Radiolabeled poly-L-lysine
+		?b: CL
+
+
+label:    sent_8
+sentence: Notably , ERalpha seemed to redistribute to extranuclear sites in TAM-R cells .
+
+ppatt:
+	Notably , ?a seemed to redistribute to ?b
+		?a: ERalpha
+		?b: extranuclear sites in TAM-R cells
+
+
+label:    sent_9
+sentence: The selenium recycle by food chain and selenium will accumulate and redistribute in environments . [Ability to redistribute surface receptors in transplantable cell lines ] . This would redistribute resources from London to deprived areas in northern England .
+
+ppatt:
+	?a will accumulate in ?b . ?c to redistribute ?d in ?e
+		?a: The selenium recycle by food chain and selenium
+		?b: environments
+		?c: [Ability
+		?d: surface receptors
+		?e: transplantable cell lines
+	?a redistribute
+		?a: The selenium recycle by food chain and selenium
+	?a would redistribute ?b
+		?a: This
+		?b: resources from London to deprived areas in northern England
+
+
+label:    sent_10
+sentence: Compared with 201Tl , 99mTc sestamibi does not significantly redistribute .
+
+ppatt:
+	Compared with 201Tl ?a
+		?a: 99mTc sestamibi
+	?a does not significantly redistribute
+		?a: 99mTc sestamibi
+
+
+label:    sent_11
+sentence: Static and dynamic realignment was performed to redistribute joint contact pressures and restore stability .
+
+ppatt:
+	?a was performed to redistribute ?b
+		?a: Static and dynamic realignment
+		?b: joint contact pressures
+	?a was performed to restore ?b
+		?a: Static and dynamic realignment
+		?b: stability
+
+
+label:    sent_12
+sentence: Circulatory adjustments during hypoxia act to redistribute blood flow and maintain arterial pressure .
+
+ppatt:
+	?a act to redistribute ?b
+		?a: Circulatory adjustments during hypoxia
+		?b: blood flow
+	?a act to maintain ?b
+		?a: Circulatory adjustments during hypoxia
+		?b: arterial pressure
+
+
+label:    sent_13
+sentence: The dilemma for clinicians is whether to close , open or redistribute space . HDL-associated paraoxonase-1 can redistribute to cell membranes and influence sensitivity to oxidative stress .
+
+ppatt:
+	?a is ?b
+		?a: The dilemma for clinicians
+		?b: SOMETHING := to close , open or redistribute . HDL-associated paraoxonase-1 can redistribute to cell membranes
+	to ?a . ?b can redistribute to ?c
+		?a: close
+		?b: HDL-associated paraoxonase-1
+		?c: cell membranes
+	to ?a . ?b can redistribute to ?c
+		?a: open
+		?b: HDL-associated paraoxonase-1
+		?c: cell membranes
+	?a influence ?b
+		?a: HDL-associated paraoxonase-1
+		?b: sensitivity to oxidative stress
+
+
+label:    sent_14
+sentence: Exercise bouts redistribute leukocytes between the circulation and the lung , spleen and muscle .
+
+ppatt:
+	?a redistribute ?b
+		?a: Exercise bouts
+		?b: leukocytes between the circulation and the lung , spleen and muscle
+
+
+label:    sent_15
+sentence: Constitutively shuttling proteins often redistribute their interaction partners between the two compartments .
+
+ppatt:
+	?a often redistribute ?b
+		?a: Constitutively shuttling proteins
+		?b: their interaction partners between the two compartments
+
+
+label:    sent_16
+sentence: Instead , changes in population supplies redistribute these gains between a couple .
+
+ppatt:
+	Instead , ?a redistribute ?b between ?c
+		?a: changes in population supplies
+		?b: these gains
+		?c: a couple
+
+
+label:    sent_17
+sentence: Linoleyl tosylate does not redistribute cholesterol to extrahepatic tissues nor inhibit hepatic cholesterol biosynthesis .
+
+ppatt:
+	?a does not redistribute ?b to ?c
+		?a: Linoleyl tosylate
+		?b: cholesterol
+		?c: extrahepatic tissues
+	?a inhibit ?b
+		?a: Linoleyl tosylate
+		?b: hepatic cholesterol biosynthesis
+
+
+label:    sent_18
+sentence: However , countries must redistribute meager resources equitably and engage in environmental protection .
+
+ppatt:
+	However , ?a must redistribute ?b equitably
+		?a: countries
+		?b: meager resources
+	?a engage in ?b
+		?a: countries
+		?b: environmental protection
+
+
+label:    sent_19
+sentence: Selective vasodilators redistribute intestinal blood flow and depress oxygen uptake .
+
+ppatt:
+	?a redistribute ?b
+		?a: Selective vasodilators
+		?b: intestinal blood flow
+	?a depress ?b
+		?a: Selective vasodilators
+		?b: oxygen uptake
+
+

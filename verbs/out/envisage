@@ -1,0 +1,128 @@
+label:    sent_1
+sentence: We envisage the physiopathologic process of this involvement .
+
+ppatt:
+	?a envisage ?b
+		?a: We
+		?b: the physiopathologic process of this involvement
+
+
+label:    sent_2
+sentence: They envisage the various pathogenic hypotheses .
+
+ppatt:
+	?a envisage ?b
+		?a: They
+		?b: the various pathogenic hypotheses
+
+
+label:    sent_3
+sentence: They envisage several modalities for tissue banking . Most envisage increasing the numbers of veterinarians in government employment .
+
+ppatt:
+	?a envisage ?b
+		?a: They
+		?b: several modalities for tissue banking
+	?a Most envisage increasing ?b
+		?a: They
+		?b: the numbers of veterinarians in government employment
+
+
+label:    sent_4
+sentence: We could envisage untangling the complex network between the different DNA repair pathways .
+
+ppatt:
+	?a could envisage untangling ?b
+		?a: We
+		?b: the complex network between the different DNA repair pathways
+
+
+label:    sent_5
+sentence: We envisage that these interactions may facilitate the first step of pre-mRNA splicing .
+
+ppatt:
+	?a envisage ?b
+		?a: We
+		?b: SOMETHING := these interactions may facilitate the first step of pre-mRNA splicing
+	?a may facilitate ?b
+		?a: these interactions
+		?b: the first step of pre-mRNA splicing
+
+
+label:    sent_6
+sentence: This approach can be incorporated in the future behavior analysis to envisage better performance .
+
+ppatt:
+	?a can be incorporated in ?b to envisage ?c
+		?a: This approach
+		?b: the future behavior analysis
+		?c: better performance
+
+
+label:    sent_7
+sentence: Women with MS were often discouraged to envisage pregnancy .
+
+ppatt:
+	?a were often discouraged to envisage ?b
+		?a: Women with MS
+		?b: pregnancy
+
+
+label:    sent_8
+sentence: These effluents are substantially discolored , it possible to envisage recycling them .
+
+ppatt:
+	?a are substantially discolored
+		?a: These effluents
+	envisage ?a
+		?a: recycling them
+
+
+label:    sent_9
+sentence: We envisage their potential applications as femtoliter metal containers .
+
+ppatt:
+	?a envisage ?b
+		?a: We
+		?b: their potential applications as femtoliter metal containers
+
+
+label:    sent_10
+sentence: In this context , we envisage the role of TWEAK and complement .
+
+ppatt:
+	In ?a , ?b envisage ?c
+		?a: this context
+		?b: we
+		?c: the role of TWEAK and complement
+
+
+label:    sent_11
+sentence: Dentists and referring physicians should envisage preventive measures in patients at risk .
+
+ppatt:
+	?a should envisage ?b
+		?a: Dentists
+		?b: preventive measures in patients at risk
+	?a should envisage ?b
+		?a: referring physicians
+		?b: preventive measures in patients at risk
+
+
+label:    sent_12
+sentence: Therefore we envisage uCR1 as a potential marker for glomerular involvement in SLE .
+
+ppatt:
+	Therefore ?a envisage ?b as ?c
+		?a: we
+		?b: uCR1
+		?c: a potential marker for glomerular involvement in SLE
+
+
+label:    sent_13
+sentence: Sonographic envisage for unilateral absence of extensor pollicis longus .
+
+ppatt:
+
+
+

@@ -1,0 +1,207 @@
+label:    sent_1
+sentence: Plasma incubated with CS2 was found to chelate copper .
+
+ppatt:
+	?a incubated with ?b
+		?a: Plasma
+		?b: CS2
+	?a was found to ?b
+		?a: Plasma incubated with CS2
+		?b: chelate copper
+
+
+label:    sent_2
+sentence: Two maintenance hemodialysis patients receiving deferoxamine to chelate iron and aluminum developed intestinal mucormycosis .
+
+ppatt:
+	?a receiving ?b to ?c
+		?a: Two maintenance hemodialysis patients
+		?b: deferoxamine
+		?c: chelate iron
+	?a receiving ?b to ?c
+		?a: Two maintenance hemodialysis patients
+		?b: deferoxamine
+		?c: aluminum
+	?a developed ?b
+		?a: Two maintenance hemodialysis patients receiving deferoxamine to chelate iron and aluminum
+		?b: intestinal mucormycosis
+
+
+label:    sent_3
+sentence: However , desferrioxamine does not appear to chelate iron already incorporated into ferritin .
+
+ppatt:
+	However , ?a does not appear to chelate iron
+		?a: desferrioxamine
+	?a already incorporated into ?b
+		?a: chelate iron
+		?b: ferritin
+
+
+label:    sent_4
+sentence: The spectra show directly that the added o-phenanthroline does not chelate the iron atom . Gentamicin does not chelate calcium .
+
+ppatt:
+	?a show directly ?b
+		?a: The spectra
+		?b: SOMETHING := the added o-phenanthroline does not chelate the iron atom . Gentamicin does not chelate calcium
+	?a does not chelate ?b ?c ?d
+		?a: the added o-phenanthroline
+		?b: the iron atom
+		?c: Gentamicin
+		?d: does not chelate calcium
+
+
+label:    sent_5
+sentence: Curcumin can chelate metal ions , forming metallocomplexes .
+
+ppatt:
+	?a can chelate ?b
+		?a: Curcumin
+		?b: metal ions
+	?a forming ?b
+		?a: Curcumin
+		?b: metallocomplexes
+
+
+label:    sent_6
+sentence: The iatrogenous disease depends on DPA capacity to chelate copper and cause its depletion .
+
+ppatt:
+	?a depends on ?b
+		?a: The iatrogenous disease
+		?b: DPA capacity to chelate copper
+	?a cause ?b
+		?a: The iatrogenous disease
+		?b: its depletion
+
+
+label:    sent_7
+sentence: The ideal treatment would be to chelate arsenic and prevent oxidative stress . OM-OA does not have a dissociable phenolate group and does not chelate Fe3+ .
+
+ppatt:
+	?a would be to ?b arsenic
+		?a: The ideal treatment
+		?b: chelate
+	?a prevent ?b
+		?a: The ideal treatment
+		?b: oxidative stress
+	?a does not have ?b
+		?a: OM-OA
+		?b: a dissociable phenolate group
+
+
+label:    sent_8
+sentence: Like most fluoroquinolones , lomefloxacin can chelate with heavy metals . Schiff base copper ( II ) chelate as a tool for immobilization of protein .
+
+ppatt:
+	Like ?a , ?b can chelate with ?c ?d as ?e
+		?a: most fluoroquinolones
+		?b: lomefloxacin
+		?c: heavy metals
+		?d: Schiff base copper ( II ) chelate
+		?e: a tool for immobilization of protein
+
+
+label:    sent_9
+sentence: The colorimetric indicators chelate with metal cations , forming the color changes . Ergothioneine is known to chelate divalent metal ions with high affinity .
+
+ppatt:
+	?a forming ?b
+		?a: chelate with metal cations
+		?b: the color changes
+	forming ?a ?b
+		?a: the color changes
+		?b: Ergothioneine
+	?a is known to chelate divalent metal ions with ?b
+		?a: The colorimetric indicators
+		?b: high affinity
+
+
+label:    sent_10
+sentence: The inhibition is attributed to its ability to chelate iron in the enzyme .
+
+ppatt:
+	?a is attributed to ?b
+		?a: The inhibition
+		?b: its ability to chelate iron in the enzyme
+
+
+label:    sent_11
+sentence: Nevertheless , phytochelatins were demonstrated to chelate mercury under environmental exposure .
+
+ppatt:
+	Nevertheless , ?a were demonstrated to ?b under ?c
+		?a: phytochelatins
+		?b: chelate mercury
+		?c: environmental exposure
+
+
+label:    sent_12
+sentence: In previously determined structures of homologous proteins , four residues chelate the bound metal .
+
+ppatt:
+	In ?a , ?b chelate ?c
+		?a: previously determined structures of homologous proteins
+		?b: four residues
+		?c: the bound metal
+
+
+label:    sent_13
+sentence: Regeneration of nitric oxide chelate absorption solution by two heterotrophic bacterial strains .
+
+ppatt:
+
+
+
+label:    sent_14
+sentence: Application of immobilized metal ion chelate complexes as pseudocation exchange adsorbents for protein separation .
+
+ppatt:
+
+
+
+label:    sent_15
+sentence: Polyphenols in foods may chelate dietary Fe and lower its bioavailability . Metallothioneins chelate metals and consequently may be a control point of metal homeostasis .
+
+ppatt:
+	?a may chelate ?b
+		?a: Polyphenols in foods
+		?b: dietary Fe
+	?a may chelate ?b
+		?a: Polyphenols in foods
+		?b: lower its bioavailability
+	?a is/are Metallothioneins
+		?a: lower its bioavailability
+
+
+label:    sent_16
+sentence: They chelate minerals and interact with proteins , thus reducing their bioavailability . Paracetamol has been reported to chelate with iron . Modified Fenton reaction for trichlorophenol dechlorination by enzymatically generated H2O2 and gluconic acid chelate .
+
+ppatt:
+	thus reducing ?a
+		?a: their bioavailability
+	?a ?b has been reported to ?c
+		?a: They chelate minerals
+		?b: Paracetamol
+		?c: chelate with iron . Modified Fenton reaction for trichlorophenol dechlorination by enzymatically generated H2O2 and gluconic acid chelate
+	?a ?b has been reported to ?c
+		?a: interact with proteins , thus reducing their bioavailability
+		?b: Paracetamol
+		?c: chelate with iron . Modified Fenton reaction for trichlorophenol dechlorination by enzymatically generated H2O2 and gluconic acid chelate
+
+
+label:    sent_17
+sentence: Comparison of manganese-DPDP and gadolinium chelate .
+
+ppatt:
+
+
+
+label:    sent_18
+sentence: An N-heterocyclic amine chelate capable of antioxidant capacity and amyloid disaggregation .
+
+ppatt:
+
+
+

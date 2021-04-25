@@ -1,0 +1,325 @@
+label:    sent_1
+sentence: Regional differences in clindamycin sensitivities warrant clinical discretion .
+
+ppatt:
+	?a warrant ?b
+		?a: Regional differences in clindamycin sensitivities
+		?b: clinical discretion
+
+
+label:    sent_2
+sentence: These cross-sectional findings warrant further investigation .
+
+ppatt:
+	?a warrant ?b
+		?a: These cross-sectional findings
+		?b: further investigation
+
+
+label:    sent_3
+sentence: Lastly , we conclude by suggesting several open problems which warrant further investigation .
+
+ppatt:
+	Lastly , ?a conclude
+		?a: we
+	?a suggesting ?b
+		?a: we
+		?b: several open problems which warrant further investigation
+	?a warrant ?b
+		?a: several open problems
+		?b: further investigation
+
+
+label:    sent_4
+sentence: Neither was symptomatic enough to warrant reoperation .
+
+ppatt:
+	?a was symptomatic enough to warrant ?b
+		?a: Neither
+		?b: reoperation
+
+
+label:    sent_5
+sentence: It also highlights areas that warrant future study . Refining diagnostic cutoff values may improve accuracy of diagnosis and warrant further investigation .
+
+ppatt:
+	?a also highlights ?b
+		?a: It
+		?b: areas that warrant future study Refining diagnostic cutoff values may improve accuracy of diagnosis and warrant further investigation
+	?a warrant ?b
+		?a: areas
+		?b: future study
+	?a Refining ?b
+		?a: that
+		?b: diagnostic cutoff values
+	?a may improve ?b
+		?a: that
+		?b: accuracy of diagnosis
+	?a warrant ?b
+		?a: that
+		?b: further investigation
+
+
+label:    sent_6
+sentence: These observations warrant further investigation of desmocollin-1 as a potential major cPF autoantigen .
+
+ppatt:
+	?a warrant ?b
+		?a: These observations
+		?b: further investigation of desmocollin-1 as a potential major cPF autoantigen
+
+
+label:    sent_7
+sentence: Helicobacter organisms warrant consideration as potential pathogenic entities in UC .
+
+ppatt:
+	?a warrant ?b
+		?a: Helicobacter organisms
+		?b: consideration as potential pathogenic entities in UC
+
+
+label:    sent_8
+sentence: Our observations warrant further investigation of intranasal DNA as an effective vaccination route .
+
+ppatt:
+	?a warrant ?b as ?c
+		?a: Our observations
+		?b: further investigation of intranasal DNA
+		?c: an effective vaccination route
+
+
+label:    sent_9
+sentence: The results , however , are promising and certainly warrant further investigation .
+
+ppatt:
+	?a however , are promising
+		?a: The results
+	?a certainly warrant ?b
+		?a: The results
+		?b: further investigation
+
+
+label:    sent_10
+sentence: Factors influencing regional differences of other POPs were less clear and warrant further study .
+
+ppatt:
+	?a influencing ?b
+		?a: Factors
+		?b: regional differences of other POPs
+	?a were less clear
+		?a: Factors influencing regional differences of other POPs
+	?a warrant ?b
+		?a: Factors influencing regional differences of other POPs
+		?b: further study
+
+
+label:    sent_11
+sentence: First results are promising and warrant further assessment .
+
+ppatt:
+	?a are promising
+		?a: First results
+	?a warrant ?b
+		?a: First results
+		?b: further assessment
+
+
+label:    sent_12
+sentence: Cross validation is needed to warrant use in clinical practice .
+
+ppatt:
+	?a is needed to warrant ?b
+		?a: Cross validation
+		?b: use in clinical practice
+
+
+label:    sent_13
+sentence: Axitinib has potent antiangiogenic properties that may warrant further evaluation in neuroblastoma .
+
+ppatt:
+	?a has ?b
+		?a: Axitinib
+		?b: potent antiangiogenic properties that may warrant further evaluation in neuroblastoma
+	?a may warrant ?b
+		?a: potent antiangiogenic properties
+		?b: further evaluation in neuroblastoma
+
+
+label:    sent_14
+sentence: Cyclic neoglycodecapeptides thus warrant further study as lectin-directed pharmaceuticals . Epistaxis and sinusitis warrant more aggressive therapy and decrease functional and cosmetic outcome .
+
+ppatt:
+	?a thus warrant ?b
+		?a: Cyclic neoglycodecapeptides
+		?b: further study as lectin-directed pharmaceuticals
+	?a warrant ?b
+		?a: Epistaxis
+		?b: more aggressive therapy
+	?a warrant ?b
+		?a: sinusitis
+		?b: more aggressive therapy
+	?a decrease ?b
+		?a: Epistaxis
+		?b: functional and cosmetic outcome
+	?a decrease ?b
+		?a: sinusitis
+		?b: functional and cosmetic outcome
+
+
+label:    sent_15
+sentence: These results warrant further investigation , and a phase II has already been started .
+
+ppatt:
+	?a warrant ?b
+		?a: These results
+		?b: further investigation
+	?a has already been started
+		?a: a phase II
+
+
+label:    sent_16
+sentence: Its multifactorial mechanisms warrant further investigation and may provide insights into other pathologies .
+
+ppatt:
+	?a warrant ?b
+		?a: Its multifactorial mechanisms
+		?b: further investigation
+	?a may provide ?b
+		?a: Its multifactorial mechanisms
+		?b: insights into other pathologies
+
+
+label:    sent_17
+sentence: Our data warrant further work to prove SSL5-platelet effects in vivo .
+
+ppatt:
+	?a warrant ?b
+		?a: Our data
+		?b: further work to prove SSL5-platelet effects in vivo
+	?a prove ?b in vivo
+		?a: further work
+		?b: SSL5-platelet effects
+
+
+label:    sent_18
+sentence: Progression of extensive gastric premalignant conditions to cancer might warrant surveillance programms .
+
+ppatt:
+	?a might warrant ?b
+		?a: Progression of extensive gastric premalignant conditions to cancer
+		?b: surveillance programms
+
+
+label:    sent_19
+sentence: Findings warrant exploring interventions to improve TT for ACS care in resource-limited settings .
+
+ppatt:
+	?a warrant exploring ?b
+		?a: Findings
+		?b: interventions to improve TT for ACS care in resource-limited settings
+	?a improve ?b for ?c
+		?a: interventions
+		?b: TT
+		?c: ACS care in resource-limited settings
+
+
+label:    sent_20
+sentence: Symptoms may be severe but warrant surgery in less than one-third of patients .
+
+ppatt:
+	?a may be severe
+		?a: Symptoms
+	?a warrant ?b in ?c
+		?a: Symptoms
+		?b: surgery
+		?c: less than one-third of patients
+
+
+label:    sent_21
+sentence: These results are encouraging and warrant further evaluation in a randomized study .
+
+ppatt:
+	?a are encouraging
+		?a: These results
+	?a warrant ?b in ?c
+		?a: These results
+		?b: further evaluation
+		?c: a randomized study
+
+
+label:    sent_22
+sentence: These findings are often clinically relevant and warrant full consideration in the diagnostic process .
+
+ppatt:
+	?a are often clinically relevant
+		?a: These findings
+	?a warrant ?b
+		?a: These findings
+		?b: full consideration in the diagnostic process
+
+
+label:    sent_23
+sentence: Findings warrant intervention at the participation level at school and in the community .
+
+ppatt:
+	?a warrant ?b
+		?a: Findings
+		?b: intervention at the participation level at school and in the community
+
+
+label:    sent_24
+sentence: Results from this pilot are promising , but findings warrant replication in controlled studies .
+
+ppatt:
+	?a are promising
+		?a: Results from this pilot
+	?a warrant ?b in ?c
+		?a: findings
+		?b: replication
+		?c: controlled studies
+
+
+label:    sent_25
+sentence: As such , they warrant further in-depth investigation and search for possible mechanistic explanations .
+
+ppatt:
+	As ?a , ?b warrant ?c
+		?a: such
+		?b: they
+		?c: further in-depth investigation
+	?a search for ?b
+		?a: they
+		?b: possible mechanistic explanations
+
+
+label:    sent_26
+sentence: Second , environmental toxicology investigations were warrant for a correct treatment and prevention measures .
+
+ppatt:
+	Second , ?a were warrant for ?b
+		?a: environmental toxicology investigations
+		?b: a correct treatment
+	Second , ?a were warrant for ?b
+		?a: environmental toxicology investigations
+		?b: prevention measures
+
+
+label:    sent_27
+sentence: These results warrant follow-up through bioassay-directed isolation of the active principles .
+
+ppatt:
+	?a warrant ?b through ?c
+		?a: These results
+		?b: follow-up
+		?c: bioassay-directed isolation of the active principles
+
+
+label:    sent_28
+sentence: Results warrant for further research .
+
+ppatt:
+	?a warrant for ?b
+		?a: Results
+		?b: further research
+
+

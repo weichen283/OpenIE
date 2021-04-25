@@ -1,0 +1,306 @@
+label:    sent_1
+sentence: Several factors coalesced to sway Manitoba to adopt the distinct profession model .
+
+ppatt:
+	?a coalesced to ?b to adopt ?c
+		?a: Several factors
+		?b: sway Manitoba
+		?c: the distinct profession model
+
+
+label:    sent_2
+sentence: Current business leaders continue to adopt e-learning technology despite concerns regarding its value .
+
+ppatt:
+	?a continue to adopt ?b despite ?c
+		?a: Current business leaders
+		?b: e-learning technology
+		?c: concerns regarding its value
+
+
+label:    sent_3
+sentence: In water , the fusion peptide is found to adopt structures with low helicity .
+
+ppatt:
+	In ?a , ?b is found to adopt ?c
+		?a: water
+		?b: the fusion peptide
+		?c: structures with low helicity
+
+
+label:    sent_4
+sentence: The structures show that the cinnamic acid moieties indeed adopt the same binding mode .
+
+ppatt:
+	?a show ?b
+		?a: The structures
+		?b: SOMETHING := the cinnamic acid moieties indeed adopt the same binding mode
+	?a indeed adopt ?b
+		?a: the cinnamic acid moieties
+		?b: the same binding mode
+
+
+label:    sent_5
+sentence: Heteronuclear NMR and CD spectroscopy show that these constructs adopt ankyrin repeat structures .
+
+ppatt:
+	?a show ?b
+		?a: Heteronuclear NMR
+		?b: SOMETHING := these constructs adopt ankyrin repeat structures
+	?a show ?b
+		?a: CD spectroscopy
+		?b: SOMETHING := these constructs adopt ankyrin repeat structures
+	?a adopt ?b
+		?a: these constructs
+		?b: ankyrin repeat structures
+
+
+label:    sent_6
+sentence: Prion proteins can adopt multiple infectious strain conformations .
+
+ppatt:
+	?a can adopt ?b
+		?a: Prion proteins
+		?b: multiple infectious strain conformations
+
+
+label:    sent_7
+sentence: Government may adopt different strategies in different states . tcf21+ epicardial cells adopt non-myocardial fates during zebrafish heart development and regeneration .
+
+ppatt:
+	?a may adopt ?b in ?c
+		?a: Government
+		?b: different strategies
+		?c: different states
+	?a adopt ?b during ?c
+		?a: tcf21+ epicardial cells
+		?b: non-myocardial fates
+		?c: zebrafish heart development
+	?a adopt ?b during ?c
+		?a: tcf21+ epicardial cells
+		?b: non-myocardial fates
+		?c: regeneration
+
+
+label:    sent_8
+sentence: Endobronchial involvement may adopt several forms , with granuloma being infrequent .
+
+ppatt:
+	?a may adopt ?b
+		?a: Endobronchial involvement
+		?b: several forms
+	?a being infrequent
+		?a: granuloma
+
+
+label:    sent_9
+sentence: Latarcins were shown to adopt amphipathic alpha-helical structure in membrane-mimicking environment by CD spectroscopy .
+
+ppatt:
+	?a were shown to adopt ?b in ?c by ?d
+		?a: Latarcins
+		?b: amphipathic alpha-helical structure
+		?c: membrane-mimicking environment
+		?d: CD spectroscopy
+
+
+label:    sent_10
+sentence: Addressing barriers is therefore crucial if clinicians are to adopt telehealth into routine practice .
+
+ppatt:
+	Addressing ?a
+		?a: barriers
+	?a is therefore crucial
+		?a: SOMETHING := Addressing barriers
+	?a are to adopt ?b into ?c
+		?a: clinicians
+		?b: telehealth
+		?c: routine practice
+
+
+label:    sent_11
+sentence: The peptide was found to adopt a helix-hinge-helix structure in a membrane mimicking solvent .
+
+ppatt:
+	?a was found to adopt ?b in ?c
+		?a: The peptide
+		?b: a helix-hinge-helix structure
+		?c: a membrane mimicking solvent
+	?a mimicking ?b
+		?a: a membrane
+		?b: solvent
+
+
+label:    sent_12
+sentence: All patients should adopt a healthy lifestyle and follow age-appropriate cancer screening programs .
+
+ppatt:
+	?a should adopt ?b
+		?a: All patients
+		?b: a healthy lifestyle
+	?a follow ?b
+		?a: All patients
+		?b: age-appropriate cancer screening programs
+
+
+label:    sent_13
+sentence: Most clusters adopt endohedral cage structures and all clusters exhibit non-vanishing magnetic dipole moments .
+
+ppatt:
+	?a adopt ?b
+		?a: Most clusters
+		?b: endohedral cage structures
+	?a exhibit ?b
+		?a: all clusters
+		?b: non-vanishing magnetic dipole moments
+
+
+label:    sent_14
+sentence: Cultured hepatocytes adopt progenitor characteristics and display bipotent capacity to repopulate the liver .
+
+ppatt:
+	?a adopt ?b
+		?a: Cultured hepatocytes
+		?b: progenitor characteristics
+	?a display ?b
+		?a: Cultured hepatocytes
+		?b: bipotent capacity to repopulate the liver
+	?a repopulate ?b
+		?a: bipotent capacity
+		?b: the liver
+
+
+label:    sent_15
+sentence: Social disadvantage predisposes women to become mothers early , and to adopt unhealthy behaviours .
+
+ppatt:
+	?a predisposes ?b to become mothers early
+		?a: Social disadvantage
+		?b: women
+	?a predisposes to mothers to adopt ?b
+		?a: Social disadvantage
+		?b: unhealthy behaviours
+
+
+label:    sent_16
+sentence: These are ecologically diverse and adopt a wide range of hibernating strategies .
+
+ppatt:
+	?a are ecologically diverse
+		?a: These
+	?a adopt ?b
+		?a: These
+		?b: a wide range of hibernating strategies
+
+
+label:    sent_17
+sentence: Shade-tolerant species from forest understories can not outgrow surrounding trees and adopt a tolerance response .
+
+ppatt:
+	?a can not outgrow ?b
+		?a: Shade-tolerant species from forest understories
+		?b: surrounding trees
+	?a adopt ?b
+		?a: Shade-tolerant species from forest understories
+		?b: a tolerance response
+
+
+label:    sent_18
+sentence: These macromolecules adopt a cone conformation that mimics the structure of a transmembrane pore .
+
+ppatt:
+	?a adopt ?b
+		?a: These macromolecules
+		?b: a cone conformation that mimics the structure of a transmembrane pore
+	?a mimics ?b
+		?a: a cone conformation
+		?b: the structure of a transmembrane pore
+
+
+label:    sent_19
+sentence: Actors adopt contracting to formalize all kinds of relations established between them .
+
+ppatt:
+	?a adopt ?b to formalize ?c
+		?a: Actors
+		?b: contracting
+		?c: all kinds of relations established between them
+	?a established between ?b
+		?a: relations
+		?b: them
+
+
+label:    sent_20
+sentence: MTs adopt several distinct higher-order organizations that function in cell division and cell morphogenesis .
+
+ppatt:
+	?a adopt ?b
+		?a: MTs
+		?b: several distinct higher-order organizations that function in cell division and cell morphogenesis
+	?a function in ?b
+		?a: several distinct higher-order organizations
+		?b: cell division
+	?a function in ?b
+		?a: several distinct higher-order organizations
+		?b: cell morphogenesis
+
+
+label:    sent_21
+sentence: The Author suggests to adopt and develop a structural paradigm .
+
+ppatt:
+	?a suggests to adopt ?b
+		?a: The Author
+		?b: a structural paradigm
+	?a suggests to develop
+		?a: The Author
+
+
+label:    sent_22
+sentence: The results reveal that equal numbers initially planned to adopt and to parent .
+
+ppatt:
+	?a reveal ?b
+		?a: The results
+		?b: SOMETHING := equal numbers initially planned to adopt and to parent
+	?a initially planned to adopt and to ?b
+		?a: equal numbers
+		?b: parent
+
+
+label:    sent_23
+sentence: This study investigated a cardiology department 's journey to adopt and adapt Lean .
+
+ppatt:
+	?a investigated ?b
+		?a: This study
+		?b: a cardiology department 's journey
+	?a adopt ?b
+		?a: This study
+		?b: Lean
+	?a adapt
+		?a: This study
+
+
+label:    sent_24
+sentence: Upon adsorption , the molecules adopt different surface conformations some of which are chiral .
+
+ppatt:
+	Upon ?a , ?b adopt ?c
+		?a: adsorption
+		?b: the molecules
+		?c: different surface conformations some of which are chiral
+	?a ?b are chiral
+		?a: different surface conformations
+		?b: some of which
+
+
+label:    sent_25
+sentence: Chromatin-dependent origins adopt to the firing time of the surrounding locus . A safe and effective procedure to adopt in children .
+
+ppatt:
+	?a adopt to ?b
+		?a: Chromatin-dependent origins
+		?b: the firing time of the surrounding locus
+
+

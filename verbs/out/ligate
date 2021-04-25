@@ -1,0 +1,235 @@
+label:    sent_1
+sentence: In four cases during the cholecystectomy we had to ligate the cystohepatic duct .
+
+ppatt:
+	In ?a ?b had to ligate ?c
+		?a: four cases during the cholecystectomy
+		?b: we
+		?c: the cystohepatic duct
+
+
+label:    sent_2
+sentence: Five-millimeter Teflon clips were used to ligate the vessels near their origin .
+
+ppatt:
+	?a were used to ligate ?b near ?c
+		?a: Five-millimeter Teflon clips
+		?b: the vessels
+		?c: their origin
+
+
+label:    sent_3
+sentence: Lobectomies were performed using the device to divide and ligate pulmonary vessels .
+
+ppatt:
+	?a were performed using ?b
+		?a: Lobectomies
+		?b: the device
+	?a divide ?b
+		?a: Lobectomies
+		?b: pulmonary vessels
+	?a ligate
+		?a: Lobectomies
+
+
+label:    sent_4
+sentence: These findings suggest the possibility that TSST-1 may directly ligate TCR .
+
+ppatt:
+	?a suggest ?b
+		?a: These findings
+		?b: the possibility that TSST-1 may directly ligate TCR
+	?a may directly ligate ?b
+		?a: TSST-1
+		?b: TCR
+
+
+label:    sent_5
+sentence: The Asp beta 121 side chain apparently does not ligate the Mn2+ ion . Small elastic " O " rings ligate varices resulting in their strangulation and eradication .
+
+ppatt:
+	?a apparently does not ligate ?b
+		?a: The Asp beta 121 side chain
+		?b: the Mn2+ ion
+	?a ligate ?b
+		?a: Small elastic " O " rings
+		?b: varices resulting in their strangulation and eradication
+	?a resulting in ?b
+		?a: varices
+		?b: their strangulation
+	?a resulting in ?b
+		?a: varices
+		?b: eradication
+
+
+label:    sent_6
+sentence: We did not attempt to ligate any lymphatics in the hilus of the kidney .
+
+ppatt:
+	?a did not attempt to ligate ?b in ?c
+		?a: We
+		?b: any lymphatics
+		?c: the hilus of the kidney
+
+
+label:    sent_7
+sentence: We were managed to ligate the varix with rubber bands while releasing the incarceration .
+
+ppatt:
+	?a were managed to ligate ?b with ?c
+		?a: We
+		?b: the varix
+		?c: rubber bands
+	?a releasing ?b
+		?a: We
+		?b: the incarceration
+
+
+label:    sent_8
+sentence: Specifically , we incorporated adhesive peptides to ligate key integrins on these adhesion-dependent cells .
+
+ppatt:
+	Specifically , ?a incorporated ?b to ligate ?c on ?d
+		?a: we
+		?b: adhesive peptides
+		?c: key integrins
+		?d: these adhesion-dependent cells
+
+
+label:    sent_9
+sentence: Venous injury : to repair or ligate , the dilemma . Venous injury : to repair or ligate , the dilemma .
+
+ppatt:
+	?a repair ?b ?c
+		?a: Venous injury
+		?b: the dilemma
+		?c: Venous injury
+	ligate ?a
+		?a: the dilemma
+	repair ?a
+		?a: the dilemma
+	ligate ?a
+		?a: the dilemma
+
+
+label:    sent_10
+sentence: The enzyme did ligate the oligodeoxynucleotides but with an extremely low rate . A needle to ligate the pillars after tonsillectomy .
+
+ppatt:
+	?a did ligate ?b
+		?a: The enzyme
+		?b: the oligodeoxynucleotides
+	?a did ligate ?b
+		?a: The enzyme
+		?b: an extremely low rate
+	?a is/are A needle
+		?a: an extremely low rate
+	?a ligate ?b after ?c
+		?a: A needle
+		?b: the pillars
+		?c: tonsillectomy
+
+
+label:    sent_11
+sentence: In performing operations one must ligate the lymphatic vessel carefully . How does parkin ligate ubiquitin to Parkinson 's disease ? The vertical vein : to ligate or not to ligate .
+
+ppatt:
+	performing ?a ?b
+		?a: operations
+		?b: one
+	?a must ligate ?b carefully
+		?a: one
+		?b: the lymphatic vessel
+	How does ?a ligate ?b to 's ?c ?d
+		?a: parkin
+		?b: ubiquitin
+		?c: Parkinson disease
+		?d: The vertical vein
+	?a ligate
+		?a: one
+	?a not to ligate
+		?a: one
+
+
+label:    sent_12
+sentence: To ligate or not the inferior thyroid artery to avoid hypocalcaemia after thyroid surgery .
+
+ppatt:
+	ligate ?a
+		?a: the inferior thyroid artery
+	avoid ?a after ?b
+		?a: hypocalcaemia
+		?b: thyroid surgery
+
+
+label:    sent_13
+sentence: Reoperation was performed to ligate and divide the fistula . Ditags purified by HPLC readily ligate to high-molecular-weight concatemers leading to their efficient cloning .
+
+ppatt:
+	?a was performed to ligate ?b
+		?a: Reoperation
+		?b: the fistula
+	?a was performed to divide
+		?a: Reoperation
+	?a purified by ?b
+		?a: Ditags
+		?b: HPLC
+	?a readily ligate to ?b
+		?a: Ditags purified by HPLC
+		?b: high-molecular-weight concatemers leading to their efficient cloning
+	?a leading to ?b
+		?a: high-molecular-weight concatemers
+		?b: their efficient cloning
+
+
+label:    sent_14
+sentence: No picrate species ligate to the metal cation .
+
+ppatt:
+	?a ligate to ?b
+		?a: No picrate species
+		?b: the metal cation
+
+
+label:    sent_15
+sentence: No picrate species ligate to the metal cation . Cl ion can only terminally ligate at the open end .
+
+ppatt:
+	?a ligate to ?b
+		?a: No picrate species
+		?b: the metal cation
+	?a can only terminally ligate at ?b
+		?a: Cl ion
+		?b: the open end
+
+
+label:    sent_16
+sentence: They either ligate the Fallopian tubes or apply silastic rings or clip to them .
+
+ppatt:
+	?a either ligate ?b
+		?a: They
+		?b: the Fallopian tubes
+	?a apply ?b to ?c
+		?a: They
+		?b: silastic rings
+		?c: them
+	?a apply ?b to ?c
+		?a: They
+		?b: clip
+		?c: them
+
+
+label:    sent_17
+sentence: They also ligate Fas receptors on target cells and provoke apoptotic death .
+
+ppatt:
+	?a also ligate ?b on ?c
+		?a: They
+		?b: Fas receptors
+		?c: target cells
+	?a provoke ?b
+		?a: They
+		?b: apoptotic death
+
+

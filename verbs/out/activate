@@ -1,0 +1,356 @@
+label:    sent_1
+sentence: Furthermore , TAPE interacted and synergized with Trif to activate IFN-beta .
+
+ppatt:
+	Furthermore , ?a interacted with ?b to activate ?c
+		?a: TAPE
+		?b: Trif
+		?c: IFN-beta
+	?a synergized
+		?a: TAPE
+
+
+label:    sent_2
+sentence: Endogenous progesterone and exogenous dexamethasone were found to activate LCR driven transcriptional activity .
+
+ppatt:
+	?a were found to activate ?b
+		?a: Endogenous progesterone
+		?b: LCR driven transcriptional activity
+	?a were found to activate ?b
+		?a: exogenous dexamethasone
+		?b: LCR driven transcriptional activity
+
+
+label:    sent_3
+sentence: Binding of Oaz1 to ODC monomers is thus required to activate ODS .
+
+ppatt:
+	?a is thus required to activate ?b
+		?a: Binding of Oaz1 to ODC monomers
+		?b: ODS
+
+
+label:    sent_4
+sentence: PAR agonists , but not ADP , activate G ( 12/13 ) signaling pathways .
+
+ppatt:
+	?a activate ?b
+		?a: PAR agonists
+		?b: G signaling pathways
+	?a activate ?b
+		?a: ADP
+		?b: G signaling pathways
+	?a is/are 12/13
+		?a: G
+
+
+label:    sent_5
+sentence: Hence , progesterone withdrawal may activate two distinct pathways to initiate endometrial repair .
+
+ppatt:
+	Hence , ?a may activate ?b
+		?a: progesterone withdrawal
+		?b: two distinct pathways to initiate endometrial repair
+	?a initiate ?b
+		?a: two distinct pathways
+		?b: endometrial repair
+
+
+label:    sent_6
+sentence: Pictures were presented inside or outside a frame that should activate the container schema .
+
+ppatt:
+	?a were presented ?b
+		?a: Pictures
+		?b: inside outside a frame that should activate the container schema
+	?a should activate ?b
+		?a: inside outside a frame
+		?b: the container schema
+
+
+label:    sent_7
+sentence: Acute and repeated restraint differentially activate orexigenic pathways in the rat hypothalamus .
+
+ppatt:
+	?a ?b differentially activate ?c
+		?a: Acute
+		?b: restraint
+		?c: orexigenic pathways in the rat hypothalamus
+	?a ?b differentially activate ?c
+		?a: repeated
+		?b: restraint
+		?c: orexigenic pathways in the rat hypothalamus
+
+
+label:    sent_8
+sentence: Proteolytic antibodies activate factor IX in patients with acquired hemophilia .
+
+ppatt:
+	?a activate ?b in ?c
+		?a: Proteolytic antibodies
+		?b: factor IX
+		?c: patients with acquired hemophilia
+
+
+label:    sent_9
+sentence: In airway allergy , HDM allergens activate innate immunity .
+
+ppatt:
+	In ?a , ?b activate ?c
+		?a: airway allergy
+		?b: HDM allergens
+		?c: innate immunity
+
+
+label:    sent_10
+sentence: We previously showed that EGF is unable to activate B-Raf in cells lacking IQGAP1 . alpha2-Adrenoceptors activate noradrenaline-mediated glycogen turnover in chick astrocytes .
+
+ppatt:
+	?a previously showed ?b ?c
+		?a: We
+		?b: SOMETHING := EGF is unable to activate B-Raf in cells lacking IQGAP1
+		?c: SOMETHING := alpha2-Adrenoceptors activate noradrenaline-mediated glycogen turnover in chick astrocytes
+	?a is unable to activate ?b in ?c
+		?a: EGF
+		?b: B-Raf
+		?c: cells lacking IQGAP1
+	?a lacking ?b
+		?a: cells
+		?b: IQGAP1
+	?a activate ?b
+		?a: alpha2-Adrenoceptors
+		?b: noradrenaline-mediated glycogen turnover in chick astrocytes
+
+
+label:    sent_11
+sentence: CtBP can both repress and activate Wingless nuclear targets in Drosophila .
+
+ppatt:
+	?a can both repress ?b
+		?a: CtBP
+		?b: Wingless nuclear targets in Drosophila
+	?a activate
+		?a: CtBP
+
+
+label:    sent_12
+sentence: The physiological signals that activate RcsF and how RcsF interacts with RcsC remain unknown .
+
+ppatt:
+	?a activate ?b
+		?a: The physiological signals
+		?b: RcsF
+	how ?a interacts with ?b
+		?a: RcsF
+		?b: RcsC
+	?a remain unknown
+		?a: The physiological signals that activate RcsF and how RcsF interacts with RcsC
+
+
+label:    sent_13
+sentence: APOBEC3A can activate the DNA damage response and cause cell-cycle arrest .
+
+ppatt:
+	?a can activate ?b
+		?a: APOBEC3A
+		?b: the DNA damage response
+	?a cause ?b
+		?a: APOBEC3A
+		?b: cell-cycle arrest
+
+
+label:    sent_14
+sentence: BH3 peptidomimetics potently activate apoptosis and demonstrate single agent efficacy in neuroblastoma .
+
+ppatt:
+	?a potently activate ?b
+		?a: BH3 peptidomimetics
+		?b: apoptosis
+	?a demonstrate ?b
+		?a: BH3 peptidomimetics
+		?b: single agent efficacy in neuroblastoma
+
+
+label:    sent_15
+sentence: PIK3CA mutations are frequent in breast cancer and activate the PI3K / Akt pathway .
+
+ppatt:
+	?a are frequent in ?b
+		?a: PIK3CA mutations
+		?b: breast cancer
+	?a activate ?b
+		?a: PIK3CA mutations
+		?b: the PI3K / Akt pathway
+
+
+label:    sent_16
+sentence: Icilin is recognized as a chemical agonist of nociceptors and can activate TRPM8 channels . CD4-AsiCs do not activate lymphocytes or stimulate innate immunity .
+
+ppatt:
+	?a is recognized as ?b
+		?a: Icilin
+		?b: a chemical agonist of nociceptors
+	?a can activate ?b
+		?a: Icilin
+		?b: TRPM8 channels
+	?a do not activate ?b
+		?a: CD4-AsiCs
+		?b: lymphocytes
+	?a stimulate ?b
+		?a: CD4-AsiCs
+		?b: innate immunity
+
+
+label:    sent_17
+sentence: In conclusion , insulin and IGF-I activate their cognate receptors and IGF-I also HR .
+
+ppatt:
+	In ?a , ?b activate ?c ?d
+		?a: conclusion
+		?b: insulin
+		?c: their cognate receptors
+		?d: IGF-I also HR
+	In ?a , ?b activate ?c ?d
+		?a: conclusion
+		?b: IGF-I
+		?c: their cognate receptors
+		?d: IGF-I also HR
+
+
+label:    sent_18
+sentence: In inflamed tissue , endogenous proteases may activate TG nociceptors and generate pain .
+
+ppatt:
+	In ?a , ?b may activate ?c
+		?a: inflamed tissue
+		?b: endogenous proteases
+		?c: TG nociceptors
+	?a generate ?b
+		?a: endogenous proteases
+		?b: pain
+
+
+label:    sent_19
+sentence: In contrast , psychostimulants activate ERK and induce hyperactivity in normal animals .
+
+ppatt:
+	In ?a , ?b activate ?c
+		?a: contrast
+		?b: psychostimulants
+		?c: ERK
+	?a induce ?b
+		?a: psychostimulants
+		?b: hyperactivity in normal animals
+
+
+label:    sent_20
+sentence: They are also able to activate and attract leukocytes .
+
+ppatt:
+	?a are also able to activate ?b
+		?a: They
+		?b: leukocytes
+	?a are also able to attract
+		?a: They
+
+
+label:    sent_21
+sentence: The partial structure of Pro-Arg activated hTAS2R39 , but did not activate hTAS2R8 .
+
+ppatt:
+	?a of activated ?b
+		?a: The partial structure Pro-Arg
+		?b: hTAS2R39
+	?a did not activate ?b
+		?a: The partial structure Pro-Arg
+		?b: hTAS2R8
+
+
+label:    sent_22
+sentence: Myc functions to both activate and repress transcription by associating with multiple binding partners .
+
+ppatt:
+	?a functions to both activate ?b
+		?a: Myc
+		?b: transcription
+	?a functions to repress
+		?a: Myc
+	?a associating with ?b
+		?a: Myc
+		?b: multiple binding partners
+
+
+label:    sent_23
+sentence: They activate and orchestrate the innate and the adaptive immune systems .
+
+ppatt:
+	?a activate ?b
+		?a: They
+		?b: the innate
+	?a activate ?b
+		?a: They
+		?b: the adaptive
+	?a orchestrate
+		?a: They
+
+
+label:    sent_24
+sentence: The p63 isoforms differentially activate or repress selected promoters .
+
+ppatt:
+	?a differentially activate ?b
+		?a: The p63 isoforms
+		?b: selected promoters
+	?a repress
+		?a: The p63 isoforms
+
+
+label:    sent_25
+sentence: However , a minority can either activate or inhibit lymphocyte functions .
+
+ppatt:
+	However , ?a can either activate ?b
+		?a: a minority
+		?b: lymphocyte functions
+	?a inhibit
+		?a: a minority
+
+
+label:    sent_26
+sentence: Different host cell proteases activate the SARS-coronavirus spike-protein for cell-cell and virus-cell fusion .
+
+ppatt:
+	?a activate ?b ?c
+		?a: Different host cell proteases
+		?b: the SARS-coronavirus spike-protein
+		?c: for cell-cell and virus-cell fusion
+
+
+label:    sent_27
+sentence: Stalled replication forks activate the eight-subunit FA core complex , which ubiquitylates FANCD2-FANCI .
+
+ppatt:
+	?a activate ?b
+		?a: Stalled replication forks
+		?b: the eight-subunit FA core complex , which ubiquitylates FANCD2-FANCI
+	?a ubiquitylates ?b
+		?a: the eight-subunit FA core complex
+		?b: FANCD2-FANCI
+
+
+label:    sent_28
+sentence: Genital afferents activate multiple spinal reflexes that modulate erection and micturition .
+
+ppatt:
+	?a activate ?b
+		?a: Genital afferents
+		?b: multiple spinal reflexes that modulate erection and micturition
+	?a modulate ?b
+		?a: multiple spinal reflexes
+		?b: erection
+	?a modulate ?b
+		?a: multiple spinal reflexes
+		?b: micturition
+
+

@@ -1,0 +1,146 @@
+label:    sent_1
+sentence: Complications of cirrhosis frequently culminate in admissions to the ICU .
+
+ppatt:
+	?a frequently culminate in ?b
+		?a: Complications of cirrhosis
+		?b: admissions to the ICU
+
+
+label:    sent_2
+sentence: These midlife changes culminate in progressive airspace enlargement during late life stages .
+
+ppatt:
+	?a culminate in ?b during ?c
+		?a: These midlife changes
+		?b: progressive airspace enlargement
+		?c: late life stages
+
+
+label:    sent_3
+sentence: They also indicate that the culminate in myoblast differentiation 4 to 5 hours later .
+
+ppatt:
+	?a also indicate ?b
+		?a: They
+		?b: the culminate in myoblast differentiation 4 5 hours later
+
+
+label:    sent_4
+sentence: This review focuses on developments likely to culminate in advances in patient care .
+
+ppatt:
+	?a focuses on ?b
+		?a: This review
+		?b: developments likely to culminate in advances in patient care
+	culminate in ?a
+		?a: advances in patient care
+
+
+label:    sent_5
+sentence: Partial-thickness burns incite a multitude of responses which eventually culminate in cutaneous wound repair .
+
+ppatt:
+	?a incite ?b
+		?a: Partial-thickness burns
+		?b: a multitude of responses which eventually culminate in cutaneous wound repair
+	?a eventually culminate in ?b
+		?a: responses
+		?b: cutaneous wound repair
+
+
+label:    sent_6
+sentence: It is characterized by headache and visual deterioration that may culminate in blindness .
+
+ppatt:
+	?a is characterized by ?b
+		?a: It
+		?b: headache that may culminate in blindness
+	?a is characterized by ?b
+		?a: It
+		?b: visual
+	?a may culminate in ?b
+		?a: headache
+		?b: blindness
+	?a may culminate in ?b
+		?a: visual
+		?b: blindness
+
+
+label:    sent_7
+sentence: Multiple organ systems are often affected and frequently culminate in disastrous outcomes .
+
+ppatt:
+	?a are often affected
+		?a: Multiple organ systems
+	?a frequently culminate in ?b
+		?a: Multiple organ systems
+		?b: disastrous outcomes
+
+
+label:    sent_8
+sentence: Unfortunately , disease outcome is often unfavorable and can culminate with eventual graft loss .
+
+ppatt:
+	Unfortunately , ?a is often unfavorable
+		?a: disease outcome
+	?a can culminate with ?b
+		?a: disease outcome
+		?b: eventual graft loss
+
+
+label:    sent_9
+sentence: This type of epistaxis is rare and may culminate into a life-threatening event .
+
+ppatt:
+	?a is rare
+		?a: This type of epistaxis
+	?a may culminate into ?b
+		?a: This type of epistaxis
+		?b: a life-threatening event
+
+
+label:    sent_10
+sentence: Both phenomena culminate in metaphase/anaphase and undergo partial recovery in cytokinesis .
+
+ppatt:
+	?a culminate in ?b
+		?a: Both phenomena
+		?b: metaphase/anaphase
+	?a undergo ?b
+		?a: Both phenomena
+		?b: partial recovery in cytokinesis
+
+
+label:    sent_11
+sentence: Thermoluminescence ages culminate at 960+/-120ka approximately 1m below the 780ka B-M boundary .
+
+ppatt:
+	?a culminate at ?b ?c below ?d
+		?a: Thermoluminescence ages
+		?b: 960+/-120ka
+		?c: approximately 1m
+		?d: the 780ka B-M boundary
+
+
+label:    sent_12
+sentence: These homeostatic processes culminate in two requirements that define an adequate and enduring access .
+
+ppatt:
+	?a culminate in ?b
+		?a: These homeostatic processes
+		?b: two requirements that define an adequate and enduring access
+	?a define ?b
+		?a: two requirements
+		?b: an adequate and enduring access
+
+
+label:    sent_13
+sentence: The students ' efforts culminate in an HIV/AIDS Rally .
+
+ppatt:
+	?a culminate in ?b
+		?a: The students ' efforts
+		?b: an HIV/AIDS Rally
+
+

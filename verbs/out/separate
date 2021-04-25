@@ -1,0 +1,531 @@
+label:    sent_1
+sentence: Infection experiments established that dogs were unsuitable as definitive hosts for Hammondia sp. of foxes ; hence this species is regarded as separate from H. heydorni of wolf-like canids , but probably identical with Isospora triffittae ( syn. Isospora triffitti ) previously reported from foxes .
+
+ppatt:
+	?a established ?b
+		?a: Infection experiments
+		?b: SOMETHING := dogs were unsuitable as definitive hosts for Hammondia sp. of foxes
+	?a were unsuitable as ?b
+		?a: dogs
+		?b: definitive hosts for Hammondia sp. of foxes
+	hence ?a is regarded as ?b
+		?a: this species
+		?b: separate from H. heydorni of wolf-like canids
+	?a is/are syn. Isospora triffitti
+		?a: Isospora triffittae previously reported from foxes
+	?a previously reported from ?b
+		?a: Isospora triffittae
+		?b: foxes
+
+
+label:    sent_2
+sentence: The aim of the present study was to compare the pharmacokinetic properties , bioavailability and tolerability of artesunate ( AS ) and amodiaquine ( AQ ) administered as a fixed-dose combination ( Amonate FDC tablets ; Dafra Pharma , Turnhout , Belgium ) or as a non-fixed dose combination of separate AS tablets ( Arsuamoon ; Guilin Pharmaceutical Co , Shanghai , China ) and AQ tablets ( Flavoquine ; Sanofi-Aventis , Paris , France ) . Our phylogenetic analysis demonstrated that PAI-encoded integrases clustered within a distinct lineage , separate from phage-encoded integrases , which suggested a discrete evolutionary history .
+
+ppatt:
+	?a was to compare ?b
+		?a: The aim of the present study
+		?b: the pharmacokinetic properties , of artesunate and amodiaquine administered as a fixed-dose combination or as a non-fixed dose combination of separate AS tablets
+	?a was to compare ?b
+		?a: The aim of the present study
+		?b: bioavailability
+	?a was to compare ?b
+		?a: The aim of the present study
+		?b: tolerability
+	?a is/are AS
+		?a: artesunate
+	?a is/are AS
+		?a: amodiaquine
+	?a is/are AQ
+		?a: amodiaquine
+	?a administered as ?b
+		?a: the pharmacokinetic properties , of artesunate and amodiaquine
+		?b: a fixed-dose combination
+	?a administered as ?b
+		?a: bioavailability
+		?b: a fixed-dose combination
+	?a administered as ?b
+		?a: tolerability
+		?b: a fixed-dose combination
+	?a administered as ?b
+		?a: the pharmacokinetic properties , of artesunate and amodiaquine
+		?b: a non-fixed dose combination of separate AS tablets
+	?a administered as ?b
+		?a: bioavailability
+		?b: a non-fixed dose combination of separate AS tablets
+	?a administered as ?b
+		?a: tolerability
+		?b: a non-fixed dose combination of separate AS tablets
+	?a is/are Turnhout
+		?a: Dafra Pharma
+	?a is/are Belgium
+		?a: Dafra Pharma
+	?a is/are Shanghai China
+		?a: Arsuamoon
+	?a is/are Paris
+		?a: Flavoquine
+	?a is/are France
+		?a: Flavoquine
+	?a demonstrated ?b
+		?a: Our phylogenetic analysis
+		?b: SOMETHING := PAI-encoded integrases clustered within a distinct lineage , separate from phage-encoded integrases , which suggested a discrete evolutionary history
+	?a clustered within ?b
+		?a: PAI-encoded integrases
+		?b: a distinct lineage , separate from phage-encoded integrases , which suggested a discrete evolutionary history
+	?a suggested ?b
+		?a: phage-encoded integrases
+		?b: a discrete evolutionary history
+
+
+label:    sent_3
+sentence: In this study we wanted to separate the hereditary from the environmental influence of such factors by comparing their effects in the adopted versus non-adopted .
+
+ppatt:
+	In ?a ?b wanted to separate ?c
+		?a: this study
+		?b: we
+		?c: the hereditary from the environmental influence of such factors
+	?a comparing ?b
+		?a: we
+		?b: their effects in the adopted versus non-adopted
+
+
+label:    sent_4
+sentence: The syndrome can be difficult to diagnose and visual signs and symptoms can help to separate it from closely related movement disorders such as Parkinson 's disease , multiple system atrophy , dementia with Lewy bodies and corticobasal degeneration .
+
+ppatt:
+	?a can be difficult to diagnose
+		?a: The syndrome
+	?a can help to separate ?b from ?c
+		?a: visual signs
+		?b: it
+		?c: closely related movement disorders such as Parkinson 's disease , multiple system atrophy , dementia with Lewy bodies and corticobasal degeneration
+	?a can help to separate ?b from ?c
+		?a: symptoms
+		?b: it
+		?c: closely related movement disorders such as Parkinson 's disease , multiple system atrophy , dementia with Lewy bodies and corticobasal degeneration
+
+
+label:    sent_5
+sentence: Application of a threshold of > 5 mum/year for the rate of wear in order to separate the revisions into low or high wearing groups showed that more high wearing components were implanted outside Lewinnek 's safe zone , but that this was mainly due to the inclination of the acetabular component , which was the only parameter that significantly differed between the groups .
+
+ppatt:
+	?a order to separate ?b
+		?a: Application of a threshold of > 5 mum/year for the rate of wear
+		?b: the revisions into low or high wearing groups
+	?a showed ?b
+		?a: Application of a threshold of > 5 mum/year for the rate of wear in order to separate the revisions into low or high wearing groups
+		?b: SOMETHING := more high wearing components were implanted outside Lewinnek 's safe zone
+	?a were implanted outside ?b
+		?a: more high wearing components
+		?b: Lewinnek 's safe zone
+	?a was mainly due to the inclination of ?b
+		?a: this
+		?b: the acetabular component , which was the only parameter that significantly differed between the groups
+	?a was the only parameter
+		?a: the acetabular component
+	?a significantly differed between ?b
+		?a: the only parameter
+		?b: the groups
+
+
+label:    sent_6
+sentence: The use of a capillary electrophoretic method to separate these novel aldo-BIN derivatives was established .
+
+ppatt:
+	?a separate ?b
+		?a: The use of a capillary electrophoretic method
+		?b: these novel aldo-BIN derivatives
+	?a was established
+		?a: The use of a capillary electrophoretic method to separate these novel aldo-BIN derivatives
+
+
+label:    sent_7
+sentence: We used the attention network test , which was designed to separate the three main components of attention ( alerting , orienting and executive control ) . Molecular ( mtDNA and microsatellite loci ) , craniomandibular and dental analyses strongly support the differentiation of Bornean and Sumatran clouded leopards , but pelage characteristics fail to separate them completely , most probably owing to small sample sizes , but it may also reflect habitat similarities between the two islands and their recent divergence .
+
+ppatt:
+	?a used ?b
+		?a: We
+		?b: the attention network test , which was designed to separate the three main components of attention . Molecular
+	?a was designed to separate ?b
+		?a: the attention network test
+		?b: the three main components of attention
+	?a was designed to separate ?b
+		?a: the attention network test
+		?b: Molecular
+	?a is/are loci
+		?a: mtDNA
+	?a is/are loci
+		?a: microsatellite
+	?a strongly support ?b
+		?a: craniomandibular and dental analyses
+		?b: the differentiation of Bornean and Sumatran clouded leopards
+	?a fail to separate ?b completely , most probably owing to ?c
+		?a: pelage characteristics
+		?b: them
+		?c: small sample sizes
+	?a may also reflect ?b
+		?a: it
+		?b: habitat similarities between the two islands and their recent divergence
+
+
+label:    sent_8
+sentence: The purpose of this study was to separate a fraction from R. undulatum showing anti-acid production activity against Streptococcus mutans biofilms and identify the main components in that fraction .
+
+ppatt:
+	?a was to separate ?b showing ?c
+		?a: The purpose of this study
+		?b: a fraction from R. undulatum
+		?c: anti-acid production activity against Streptococcus mutans biofilms
+	?a was to separate identify ?b
+		?a: The purpose of this study
+		?b: the main components in that fraction
+
+
+label:    sent_9
+sentence: Existing techniques are not suitable to detect low- and high-concentration biomarkers ( protein and DNA ) at the same time , and liquid chromatography or electrophoresis is used to separate or purify target biomarkers before analysis .
+
+ppatt:
+	?a are not suitable to detect ?b at ?c
+		?a: Existing techniques
+		?b: low- and high-concentration biomarkers
+		?c: the same time
+	?a is used to separate ?b before ?c
+		?a: liquid chromatography
+		?b: target biomarkers
+		?c: analysis
+	?a is used to separate ?b before ?c
+		?a: electrophoresis
+		?b: target biomarkers
+		?c: analysis
+	?a is used to purify
+		?a: liquid chromatography
+	?a is used to purify
+		?a: electrophoresis
+
+
+label:    sent_10
+sentence: We report an HPLC-UV method to separate and quantitate ALB , IPB , and BUD in nebulizer solutions .
+
+ppatt:
+	?a report ?b
+		?a: We
+		?b: an HPLC-UV method to separate and quantitate ALB , IPB , and BUD in nebulizer solutions
+	?a separate ?b
+		?a: an HPLC-UV method
+		?b: ALB , in nebulizer solutions
+	?a separate ?b
+		?a: an HPLC-UV method
+		?b: IPB
+	?a separate ?b
+		?a: an HPLC-UV method
+		?b: BUD
+	quantitate ?a
+		?a: ALB , in nebulizer solutions
+	quantitate ?a
+		?a: IPB
+	quantitate ?a
+		?a: BUD
+
+
+label:    sent_11
+sentence: A better characterization of the CP transcriptome can provide key insights into its functions as one of the barriers that separate the brain from the periphery and in the production of cerebrospinal fluid .
+
+ppatt:
+	?a can provide ?b
+		?a: A better characterization of the CP transcriptome
+		?b: key insights into its functions as one of the barriers that separate the brain from the periphery and in the production of cerebrospinal fluid
+	?a separate ?b
+		?a: the barriers
+		?b: the brain from the periphery
+	?a separate ?b
+		?a: the barriers
+		?b: the production of cerebrospinal fluid
+
+
+label:    sent_12
+sentence: Many cases of ectopic pregnancy will spontaneously resolve , so that " watchful waiting " and beta-hCG follow-up will separate true viable ectopic pregnancies from spontaneously resolving ectopic pregnancies .
+
+ppatt:
+	?a will spontaneously resolve , so
+		?a: Many cases of ectopic pregnancy
+	?a will separate ?b
+		?a: " watchful waiting "
+		?b: true viable ectopic pregnancies from spontaneously resolving ectopic pregnancies
+	?a will separate ?b
+		?a: beta-hCG follow-up
+		?b: true viable ectopic pregnancies from spontaneously resolving ectopic pregnancies
+
+
+label:    sent_13
+sentence: In conclusion , our analyses on wings of Mepraia species separate two distinct groups consistent with the two described species .
+
+ppatt:
+	In ?a , ?b separate ?c
+		?a: conclusion
+		?b: our analyses on wings of Mepraia species
+		?c: two distinct groups consistent with the two described species
+
+
+label:    sent_14
+sentence: The breeding animals of the 2 populations have been kept separate in the breeding programs .
+
+ppatt:
+	?a have been kept separate in ?b
+		?a: The breeding animals of the 2 populations
+		?b: the breeding programs
+
+
+label:    sent_15
+sentence: Memory retrieval activated posterior nodes of the DMN , particularly the angular gyrus , but also more anterior and dorsal parietal regions that were anatomically separate from the DMN .
+
+ppatt:
+	?a activated ?b
+		?a: Memory retrieval
+		?b: posterior nodes of the DMN , particularly the angular gyrus , but also more anterior and dorsal parietal regions that were anatomically separate from the DMN
+	?a were anatomically separate from ?b
+		?a: regions
+		?b: the DMN
+
+
+label:    sent_16
+sentence: It was predicted that aggression motivation would separate into two factors , one reflecting proactive aggression and the other reactive aggression .
+
+ppatt:
+	?a was predicted ?b
+		?a: It
+		?b: SOMETHING := aggression motivation would separate into two factors
+	?a would separate into ?b
+		?a: aggression motivation
+		?b: two factors
+	?a is/are one
+		?a: two factors
+	?a reflecting ?b
+		?a: one
+		?b: proactive aggression
+	?a reflecting ?b
+		?a: one
+		?b: the other reactive aggression
+
+
+label:    sent_17
+sentence: The determinants that separate their physiologic and pathologic roles are not well delineated .
+
+ppatt:
+	?a separate ?b
+		?a: The determinants
+		?b: their physiologic and pathologic roles
+	?a are not well delineated
+		?a: The determinants that separate their physiologic and pathologic roles
+
+
+label:    sent_18
+sentence: Using principal component analysis we could clearly separate tumor and normal tissue and two distinct tumor groups based on the protein expression pattern .
+
+ppatt:
+	Using ?a ?b
+		?a: principal component analysis
+		?b: we
+	?a could clearly separate ?b
+		?a: we
+		?b: tumor
+	?a could clearly separate ?b
+		?a: we
+		?b: normal
+	?a could clearly separate ?b
+		?a: we
+		?b: tissue
+	?a could clearly separate ?b
+		?a: we
+		?b: two distinct tumor groups
+	?a based on the protein expression pattern
+		?a: we
+
+
+label:    sent_19
+sentence: Cellulite is characterized by a thickened hypodermal fat layer , along with hypodermal fat lobules that extend upward into the dermis , expanding and stretching the fibrous septae that separate the fat lobules .
+
+ppatt:
+	?a is characterized by ?b , along with ?c
+		?a: Cellulite
+		?b: a thickened hypodermal fat layer
+		?c: hypodermal fat lobules that extend upward into the dermis
+	?a extend upward into ?b
+		?a: hypodermal fat lobules
+		?b: the dermis
+	?a expanding
+		?a: Cellulite
+	?a stretching
+		?a: Cellulite
+	?a separate ?b
+		?a: the fibrous septae
+		?b: the fat lobules
+
+
+label:    sent_20
+sentence: Growth rate , membrane fluidity and phase , determined from the fluorescence polarization of 1,6-diphenyl-1,3,5-hexatriene ( DPH ) , and fatty acid profiles indicated that three different modes of adaptation were present and could separate between strains showing moderate , or high metal tolerance from more sensitive strains .
+
+ppatt:
+	?a determined from ?b
+		?a: Growth rate
+		?b: the fluorescence polarization of 1,6-diphenyl-1,3,5-hexatriene
+	?a determined from ?b
+		?a: membrane
+		?b: the fluorescence polarization of 1,6-diphenyl-1,3,5-hexatriene
+	?a determined from ?b
+		?a: fluidity
+		?b: the fluorescence polarization of 1,6-diphenyl-1,3,5-hexatriene
+	?a determined from ?b
+		?a: phase
+		?b: the fluorescence polarization of 1,6-diphenyl-1,3,5-hexatriene
+	determined from ?a ?b
+		?a: the fluorescence polarization of 1,6-diphenyl-1,3,5-hexatriene
+		?b: fatty acid profiles
+	?a is/are DPH
+		?a: 1,6-diphenyl-1,3,5-hexatriene
+	?a indicated ?b
+		?a: Growth rate , determined from the fluorescence polarization of 1,6-diphenyl-1,3,5-hexatriene
+		?b: SOMETHING := three different modes of adaptation were present
+	?a indicated ?b
+		?a: membrane
+		?b: SOMETHING := three different modes of adaptation were present
+	?a indicated ?b
+		?a: fluidity
+		?b: SOMETHING := three different modes of adaptation were present
+	?a indicated ?b
+		?a: phase
+		?b: SOMETHING := three different modes of adaptation were present
+	?a indicated ?b
+		?a: fatty acid profiles
+		?b: SOMETHING := three different modes of adaptation were present
+	?a were present
+		?a: three different modes of adaptation
+	?a could separate between ?b
+		?a: three different modes of adaptation
+		?b: strains showing moderate , or high metal tolerance from more sensitive strains
+	?a showing ?b
+		?a: strains
+		?b: moderate , or high metal tolerance from more sensitive strains
+
+
+label:    sent_21
+sentence: In separate and in combined , integrated microarray data analyses of five datasets with 325 samples , the previously published MARGS classifier for renal post-transplant IF/TA had a mean AUC of 87 % and 82 % , respectively .
+
+ppatt:
+	In ?a ?b , ?c had ?d , respectively
+		?a: separate
+		?b: microarray data analyses of five datasets with 325 samples
+		?c: the previously published MARGS classifier for renal post-transplant IF/TA
+		?d: a mean AUC of 87 % and 82 %
+	In ?a ?b , ?c had ?d , respectively
+		?a: combined
+		?b: microarray data analyses of five datasets with 325 samples
+		?c: the previously published MARGS classifier for renal post-transplant IF/TA
+		?d: a mean AUC of 87 % and 82 %
+
+
+label:    sent_22
+sentence: The design is self-contained and physically separate from the qubits , allowing the coupler to be used as a module to connect a variety of elements such as qubits , resonators , amplifiers , and readout circuitry over distances much larger than nearest-neighbor .
+
+ppatt:
+	?a is self-contained , allowing ?b
+		?a: The design
+		?b: the coupler to be used as a module to connect a variety of elements such as qubits , resonators , amplifiers , and readout circuitry over distances much larger than nearest-neighbor
+	?a physically separate from ?b
+		?a: The design
+		?b: the qubits
+	?a be used as ?b
+		?a: the coupler
+		?b: a module to connect a variety of elements such as qubits , resonators , amplifiers , and readout circuitry over distances much larger than nearest-neighbor
+	?a connect ?b
+		?a: a module
+		?b: a variety of elements such as qubits , resonators , amplifiers
+	readout ?a over ?b
+		?a: circuitry
+		?b: distances much larger than nearest-neighbor
+
+
+label:    sent_23
+sentence: Effective blinding is crucial both to obtain a strong placebo effect and to separate an intrinsic effect from a placebo effect .
+
+ppatt:
+	?a is crucial both to obtain ?b
+		?a: Effective blinding
+		?b: a strong placebo effect
+	?a is crucial both to to separate ?b from ?c
+		?a: Effective blinding
+		?b: an intrinsic effect
+		?c: a placebo effect
+
+
+label:    sent_24
+sentence: To separate essential oil of Caryophyllix flos from oil-in-water emulsion , and to enrich the essential oil by microfiltration ( MF ) . We use nationally representative data from eight countries in Latin America and the Caribbean to document changes in breastfeeding duration between 1986 and 2005 , and separate the overall change into the portion attributable to changing population characteristics and the portion resulting from changing breastfeeding behaviour within population subgroups .
+
+ppatt:
+	enrich ?a by ?b ?c
+		?a: the essential oil
+		?b: microfiltration
+		?c: We
+	?a is/are MF
+		?a: microfiltration
+	To ?a . ?b use ?c
+		?a: separate essential oil of Caryophyllix flos from oil-in-water emulsion
+		?b: We
+		?c: nationally representative data from eight countries in Latin America and the Caribbean
+	?a document ?b
+		?a: We
+		?b: changes in breastfeeding duration between 1986 and 2005
+	?a document ?b
+		?a: We
+		?b: separate the overall change into the portion attributable to changing population characteristics and the portion resulting from changing breastfeeding behaviour within population subgroups
+	?a resulting
+		?a: the portion
+	changing ?a within ?b
+		?a: breastfeeding behaviour
+		?b: population subgroups
+
+
+label:    sent_25
+sentence: Upon insertion in the skin , the sharp-tipped polymer arrowheads encapsulating drug separate from their metal shafts and remain embedded in the skin for subsequent dissolution and drug release .
+
+ppatt:
+	?a encapsulating ?b
+		?a: the sharp-tipped polymer arrowheads
+		?b: drug
+	Upon ?a , ?b separate from ?c
+		?a: insertion in the skin
+		?b: the sharp-tipped polymer arrowheads encapsulating drug
+		?c: their metal shafts
+	?a remain embedded in ?b for ?c
+		?a: the sharp-tipped polymer arrowheads encapsulating drug
+		?b: the skin
+		?c: subsequent dissolution
+	?a remain embedded in ?b for ?c
+		?a: the sharp-tipped polymer arrowheads encapsulating drug
+		?b: the skin
+		?c: drug release
+
+
+label:    sent_26
+sentence: Phylogenetic analysis showed that the fungal GH115 alpha-glucuronidases are distinctly separate from the prokaryotic clade and distributed over three branches .
+
+ppatt:
+	?a showed ?b
+		?a: Phylogenetic analysis
+		?b: SOMETHING := the fungal GH115 alpha-glucuronidases are distinctly separate from the prokaryotic clade
+	?a are distinctly separate from ?b
+		?a: the fungal GH115 alpha-glucuronidases
+		?b: the prokaryotic clade
+	?a distributed over ?b
+		?a: the fungal GH115 alpha-glucuronidases
+		?b: three branches
+
+
+label:    sent_27
+sentence: However , the membranes may separate spontaneously or because of an invasive intrauterine procedure .
+
+ppatt:
+	However , ?a may separate spontaneously because of ?b
+		?a: the membranes
+		?b: an invasive intrauterine procedure
+
+

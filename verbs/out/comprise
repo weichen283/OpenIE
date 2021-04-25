@@ -1,0 +1,259 @@
+label:    sent_1
+sentence: Lung airway and alveolar epithelial cells comprise an important sentinel system in airborne infections . Non-rhabdomyosarcoma soft tissue sarcomas ( NRSTS ) comprise all STS except rhabdomyosarcoma .
+
+ppatt:
+	?a comprise ?b in ?c
+		?a: Lung airway
+		?b: an important sentinel system
+		?c: airborne infections
+	?a comprise ?b in ?c
+		?a: alveolar epithelial cells
+		?b: an important sentinel system
+		?c: airborne infections
+	?a is/are NRSTS
+		?a: Non-rhabdomyosarcoma soft tissue sarcomas
+	?a comprise ?b except ?c
+		?a: Non-rhabdomyosarcoma soft tissue sarcomas
+		?b: all STS
+		?c: rhabdomyosarcoma
+
+
+label:    sent_2
+sentence: Pulmonary neuroendocrine tumors comprise 20 % of all lung cancers .
+
+ppatt:
+	?a comprise ?b
+		?a: Pulmonary neuroendocrine tumors
+		?b: 20 % of all lung cancers
+
+
+label:    sent_3
+sentence: Hippocampal synaptic plasticity is believed to comprise the cellular basis for spatial learning .
+
+ppatt:
+	?a is believed to comprise ?b
+		?a: Hippocampal synaptic plasticity
+		?b: the cellular basis for spatial learning
+
+
+label:    sent_4
+sentence: Emergent themes and subthemes were charted and interpreted to comprise the findings . Glycophorins comprise the major sialoglycoproteins of the human erythrocyte membrane .
+
+ppatt:
+	?a were charted
+		?a: Emergent themes
+	?a were charted
+		?a: subthemes
+	?a interpreted to comprise ?b
+		?a: Emergent themes
+		?b: the findings
+	?a interpreted to comprise ?b
+		?a: subthemes
+		?b: the findings
+	?a comprise ?b
+		?a: Glycophorins
+		?b: the major sialoglycoproteins of the human erythrocyte membrane
+
+
+label:    sent_5
+sentence: They comprise components of the sublamina densa region and contribute to embryonic epithelial-mesenchymal integrity .
+
+ppatt:
+	?a comprise ?b
+		?a: They
+		?b: components of the sublamina densa region
+	?a contribute to ?b
+		?a: They
+		?b: embryonic epithelial-mesenchymal integrity
+
+
+label:    sent_6
+sentence: The reasons for non-adherence comprise tolerability and motivational factors but further investigation is needed .
+
+ppatt:
+	?a comprise ?b
+		?a: The reasons for non-adherence
+		?b: tolerability
+	?a comprise ?b
+		?a: The reasons for non-adherence
+		?b: motivational factors
+	?a is needed
+		?a: further investigation
+
+
+label:    sent_7
+sentence: New Zealand species comprise two clades , both rooted within the Australasian clade .
+
+ppatt:
+	?a comprise ?b
+		?a: New Zealand species
+		?b: two clades , both rooted within the Australasian clade
+	?a both rooted within ?b
+		?a: two clades
+		?b: the Australasian clade
+
+
+label:    sent_8
+sentence: In general , SC comprise socio-economically and educationally deprived individuals .
+
+ppatt:
+	In ?a , ?b comprise socio-economically and educationally deprived ?c
+		?a: general
+		?b: SC
+		?c: individuals
+
+
+label:    sent_9
+sentence: Hair shaft may comprise significant myosin during the course of its keratinization .
+
+ppatt:
+	?a may comprise ?b during ?c
+		?a: Hair shaft
+		?b: significant myosin
+		?c: the course of its keratinization
+
+
+label:    sent_10
+sentence: In the aged lens postsynthetically altered molecules comprise the majority of lens proteins . Malignant neonatal tumors are rare and comprise 2 % of childhood malignancies .
+
+ppatt:
+	In ?a ?b comprise ?c
+		?a: the aged lens
+		?b: postsynthetically altered molecules
+		?c: the majority of lens proteins
+	?a are rare
+		?a: Malignant neonatal tumors
+	?a comprise ?b
+		?a: Malignant neonatal tumors
+		?b: 2 % of childhood malignancies
+
+
+label:    sent_11
+sentence: These associations are distinct from other religious institutes and may comprise laity and/or clergy .
+
+ppatt:
+	?a are distinct from ?b
+		?a: These associations
+		?b: other religious institutes
+	?a may comprise ?b
+		?a: These associations
+		?b: laity
+	?a may comprise ?b
+		?a: These associations
+		?b: clergy
+
+
+label:    sent_12
+sentence: Publications concerning perineal infantile hemangiomas are scarce , and comprise no large series . FGF4 and FGF8 comprise the wavefront activity that controls somitogenesis .
+
+ppatt:
+	?a are scarce
+		?a: Publications concerning perineal infantile hemangiomas
+	?a comprise ?b
+		?a: Publications concerning perineal infantile hemangiomas
+		?b: no large series
+	?a comprise ?b
+		?a: FGF4
+		?b: the wavefront activity that controls somitogenesis
+	?a comprise ?b
+		?a: FGF8
+		?b: the wavefront activity that controls somitogenesis
+	?a controls ?b
+		?a: the wavefront activity
+		?b: somitogenesis
+
+
+label:    sent_13
+sentence: Ejaculates comprise multiple and potentially interacting traits that determine male fertility and sperm competitiveness .
+
+ppatt:
+	?a comprise ?b
+		?a: Ejaculates
+		?b: multiple and potentially interacting traits that determine male fertility and sperm competitiveness
+	?a determine ?b
+		?a: multiple and potentially interacting traits
+		?b: male fertility
+	?a determine ?b
+		?a: multiple and potentially interacting traits
+		?b: sperm competitiveness
+
+
+label:    sent_14
+sentence: Five items with three to five levels comprise the EXACT-U .
+
+ppatt:
+	?a comprise ?b
+		?a: Five items with three five levels
+		?b: the EXACT-U
+
+
+label:    sent_15
+sentence: Wounds comprise over a third of all cases in home care .
+
+ppatt:
+	?a comprise over ?b
+		?a: Wounds
+		?b: a third of all cases in home care
+
+
+label:    sent_16
+sentence: These crystals comprise of hydrogen bonded molecules in either sheetlike or chainlike topologies .
+
+ppatt:
+	?a comprise of ?b in ?c
+		?a: These crystals
+		?b: hydrogen bonded molecules
+		?c: either sheetlike or chainlike topologies
+
+
+label:    sent_17
+sentence: Limb amputees alone comprise over 1.2 million of these .
+
+ppatt:
+	?a comprise over ?b
+		?a: Limb amputees alone
+		?b: 1.2 million of these
+
+
+label:    sent_18
+sentence: The actin appears to comprise a thin layer of fibers next to the plasmalemma .
+
+ppatt:
+	?a appears to comprise ?b next
+		?a: The actin
+		?b: a thin layer of fibers to the plasmalemma
+
+
+label:    sent_19
+sentence: Of these cases 100 that were primary implantations comprise the study cohort .
+
+ppatt:
+	Of ?a ?b ?c comprise ?d
+		?a: these cases 100
+		?b: that
+		?c: were primary implantations
+		?d: the study cohort
+
+
+label:    sent_20
+sentence: These powders were proved to comprise nanoparticles by transmission electron microscope examination .
+
+ppatt:
+	?a were proved to comprise ?b by ?c
+		?a: These powders
+		?b: nanoparticles
+		?c: transmission electron microscope examination
+
+
+label:    sent_21
+sentence: Neoplasms are rare cardiac findings of which myxomas comprise about 75 % .
+
+ppatt:
+	?a are rare cardiac findings
+		?a: Neoplasms
+	?a of ?b comprise ?c
+		?a: rare cardiac findings
+		?b: myxomas
+		?c: about 75 %
+
+

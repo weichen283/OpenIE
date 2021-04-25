@@ -1,0 +1,90 @@
+label:    sent_1
+sentence: Although the plant was female-sterile , it was successfully used to pollinate B. napus . Robbers did not pollinate the flowers .
+
+ppatt:
+	?a was female-sterile
+		?a: the plant
+	?a was successfully used to pollinate ?b
+		?a: it
+		?b: B. napus
+	?a did not pollinate ?b
+		?a: Robbers
+		?b: the flowers
+
+
+label:    sent_2
+sentence: Thus , visitors may pollinate the flowers in a deceit/food/pollination syndrome .
+
+ppatt:
+	Thus , ?a may pollinate ?b in ?c
+		?a: visitors
+		?b: the flowers
+		?c: a deceit/food/pollination syndrome
+
+
+label:    sent_3
+sentence: Pollinators from diverse groups pollinate the remaining 25 % of the tree species .
+
+ppatt:
+	?a pollinate ?b
+		?a: Pollinators from diverse groups
+		?b: the remaining 25 % of the tree species
+
+
+label:    sent_4
+sentence: Some of these wasp species pollinate figs actively , while others are passive pollinators .
+
+ppatt:
+	?a pollinate ?b actively
+		?a: Some of these wasp species
+		?b: figs
+	?a are passive pollinators
+		?a: others
+
+
+label:    sent_5
+sentence: In contrast , males can pollinate all hermaphrodites .
+
+ppatt:
+	In ?a , ?b can pollinate ?c
+		?a: contrast
+		?b: males
+		?c: all hermaphrodites
+
+
+label:    sent_6
+sentence: Male bees inadvertently pollinate the orchid flowers during pseudocopulation .
+
+ppatt:
+	?a inadvertently pollinate ?b during ?c
+		?a: Male bees
+		?b: the orchid flowers
+		?c: pseudocopulation
+
+
+label:    sent_7
+sentence: Ficus can sanction cheats that fail to pollinate by aborting some un-pollinated figs .
+
+ppatt:
+	?a can sanction ?b
+		?a: Ficus
+		?b: cheats that fail to pollinate by aborting some un-pollinated figs
+	?a fail to pollinate
+		?a: cheats
+	?a aborting ?b
+		?a: that
+		?b: some un-pollinated figs
+
+
+label:    sent_8
+sentence: Some species in limited geographic areas pollinate in fall and winter .
+
+ppatt:
+	?a pollinate in ?b
+		?a: Some species in limited geographic areas
+		?b: fall
+	?a pollinate in ?b
+		?a: Some species in limited geographic areas
+		?b: winter
+
+

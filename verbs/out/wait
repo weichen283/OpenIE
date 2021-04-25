@@ -1,0 +1,235 @@
+label:    sent_1
+sentence: Musicians were more likely to wait longer between injections and had less complex dystonia .
+
+ppatt:
+	?a were more likely to wait longer between ?b
+		?a: Musicians
+		?b: injections
+	?a were more likely to longer had ?b
+		?a: Musicians
+		?b: less complex dystonia
+
+
+label:    sent_2
+sentence: Orbitofrontal cortical lesions affected how long rats decided to wait for rewards . [The Rochon commission --while we wait for the final report ] . Many children wait too long for surgery in Canada .
+
+ppatt:
+	?a affected ?b
+		?a: Orbitofrontal cortical lesions
+		?b: SOMETHING := how long rats decided to wait for rewards
+	how ?a decided to wait for ?b
+		?a: long rats
+		?b: rewards
+	?a is/are [The Rochon commission
+		?a: rewards
+	?a wait for ?b ?c
+		?a: we
+		?b: the final report
+		?c: ]
+	?a wait too long for ?b
+		?a: Many children
+		?b: surgery in Canada
+
+
+label:    sent_3
+sentence: Patients may wait up to 21 months after surgery until a pregnancy occurs .
+
+ppatt:
+	?a may wait ?b after
+		?a: Patients
+		?b: up 21 months
+	?a until ?b occurs
+		?a: Patients
+		?b: a pregnancy
+
+
+label:    sent_4
+sentence: Information systems for planning psychiatric services -- do we wait for Korner ? While we wait . Instant gratification must wait . Parental strategies for assisting children to wait .
+
+ppatt:
+	?a planning ?b
+		?a: Information systems
+		?b: psychiatric services
+	?a do ?b wait for ?c
+		?a: Information systems for planning psychiatric services
+		?b: we
+		?c: Korner
+	?a wait
+		?a: we
+	?a must wait ?b
+		?a: Instant gratification
+		?b: Parental strategies
+	?a assisting ?b to wait
+		?a: Parental strategies
+		?b: children
+
+
+label:    sent_5
+sentence: Now , wait just a minute . [Patients : can you wait just a bit longer ? ] . Modular units introduce ' while you wait ' room redesign . Paranasal ossifying fibroma : endoscopic resection or wait and scan ? Anisocoria with orbital floor fractures : worry and wait . Expect continued improvements and new product introductions , but do n't wait .
+
+ppatt:
+	Now , wait ?a ?b
+		?a: just a minute
+		?b: [Patients
+	can you wait just ?a longer
+		?a: a bit
+	?a introduce
+		?a: Modular units
+	?a wait ' ?b ?c
+		?a: you
+		?b: room redesign
+		?c: Paranasal ossifying fibroma
+	?a wait
+		?a: Modular units
+	?a Expect ?b
+		?a: Modular units
+		?b: continued improvements
+	?a Expect ?b
+		?a: Modular units
+		?b: new product introductions
+	?a do n't wait
+		?a: Modular units
+
+
+label:    sent_6
+sentence: Detection and survival of colorectal cancer from a 2 week wait service .
+
+ppatt:
+	?a wait ?b
+		?a: Detection of colorectal cancer from a 2 week
+		?b: service
+	?a wait ?b
+		?a: survival
+		?b: service
+
+
+label:    sent_7
+sentence: Why superman can wait : cognitive self-transformation in the delay of gratification paradigm .
+
+ppatt:
+	Why ?a can wait ?b
+		?a: superman
+		?b: cognitive self-transformation in the delay of gratification paradigm
+
+
+label:    sent_8
+sentence: Trends in wait times for cardiac revascularization .
+
+ppatt:
+
+
+
+label:    sent_9
+sentence: They had no other possible therapeutic options but wait for major amputation .
+
+ppatt:
+	?a had ?b
+		?a: They
+		?b: no other possible therapeutic options
+	?a wait for ?b
+		?a: They
+		?b: major amputation
+
+
+label:    sent_10
+sentence: Effects of socioeconomic position on 30-day mortality and wait for surgery after hip fracture .
+
+ppatt:
+
+
+
+label:    sent_11
+sentence: For first-line antiretroviral therapy : wait and see .
+
+ppatt:
+
+
+
+label:    sent_12
+sentence: Eight sessions of physiotherapy ; corticosteroid injections ; or wait and see . A " wait and learn " strategy of postural control learning in children ?
+
+ppatt:
+	?a ?b wait
+		?a: Eight sessions of physiotherapy
+		?b: "
+	?a ?b wait
+		?a: wait
+		?b: "
+	?a learn ?b
+		?a: Eight sessions of physiotherapy
+		?b: " strategy of postural control learning in children
+	?a learn ?b
+		?a: wait
+		?b: " strategy of postural control learning in children
+
+
+label:    sent_13
+sentence: The wait and see strategy for intracanalicular vestibular schwannomas .
+
+ppatt:
+	see ?a
+		?a: strategy for intracanalicular vestibular schwannomas
+
+
+label:    sent_14
+sentence: Do n't wait for Washington : the impact of reform .
+
+ppatt:
+	Do n't wait for ?a
+		?a: Washington
+
+
+label:    sent_15
+sentence: Five per cent had to wait more than two hours after calling .
+
+ppatt:
+	?a had to wait ?b after
+		?a: Five per cent
+		?b: more than two hours
+	?a calling
+		?a: Five per cent
+
+
+label:    sent_16
+sentence: No need to wait for the blood tests : the clinical diagnosis of hypocalcemia . Payment .
+
+ppatt:
+	?a wait for ?b
+		?a: No need
+		?b: the blood tests
+
+
+label:    sent_17
+sentence: Hospitals wait and wait for Medicaid payments .
+
+ppatt:
+	?a wait
+		?a: Hospitals
+	?a wait for ?b
+		?a: Hospitals
+		?b: Medicaid payments
+
+
+label:    sent_18
+sentence: However , many patients wait for transplantation but never receive an organ .
+
+ppatt:
+	However , ?a wait for ?b
+		?a: many patients
+		?b: transplantation
+	?a never receive ?b
+		?a: many patients
+		?b: an organ
+
+
+label:    sent_19
+sentence: The need is great and we can no longer wait for governments to lead .
+
+ppatt:
+	?a is great
+		?a: The need
+	?a can no longer wait for ?b to lead
+		?a: we
+		?b: governments
+
+

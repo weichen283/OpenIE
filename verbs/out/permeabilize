@@ -1,0 +1,210 @@
+label:    sent_1
+sentence: One way to permeabilize cells is by electroporation .
+
+ppatt:
+	?a permeabilize ?b
+		?a: One way
+		?b: cells
+	?a is by electroporation
+		?a: One way to permeabilize cells
+
+
+label:    sent_2
+sentence: Avicins , natural anticancer saponins , permeabilize mitochondrial membranes .
+
+ppatt:
+	?a is/are natural anticancer saponins
+		?a: Avicins
+	?a permeabilize ?b
+		?a: Avicins
+		?b: mitochondrial membranes
+
+
+label:    sent_3
+sentence: IAPP has been shown to disrupt membrane integrity and to permeabilize membranes .
+
+ppatt:
+	?a has been shown to disrupt ?b
+		?a: IAPP
+		?b: membrane integrity
+	?a has been shown to to permeabilize ?b
+		?a: IAPP
+		?b: membranes
+
+
+label:    sent_4
+sentence: Lysolecithin was used to permeabilize embryonic cells to impermeant compounds without compromising embryo viability . Bax forms multispanning monomers that oligomerize to permeabilize membranes during apoptosis .
+
+ppatt:
+	?a was used to permeabilize ?b to ?c
+		?a: Lysolecithin
+		?b: embryonic cells
+		?c: impermeant compounds
+	?a compromising ?b
+		?a: Lysolecithin
+		?b: embryo viability
+	?a forms ?b
+		?a: Bax
+		?b: multispanning monomers that oligomerize to permeabilize membranes during apoptosis
+	?a oligomerize to permeabilize ?b during ?c
+		?a: multispanning monomers
+		?b: membranes
+		?c: apoptosis
+
+
+label:    sent_5
+sentence: Complexes were able to permeabilize the cytoplasmic membrane to 30 kDa molecules .
+
+ppatt:
+	?a were able to permeabilize ?b to ?c
+		?a: Complexes
+		?b: the cytoplasmic membrane
+		?c: 30 kDa molecules
+
+
+label:    sent_6
+sentence: Higly fusogenic cationic liposomes transiently permeabilize the plasma membrane of HeLa cells .
+
+ppatt:
+	?a transiently permeabilize ?b
+		?a: Higly fusogenic cationic liposomes
+		?b: the plasma membrane of HeLa cells
+
+
+label:    sent_7
+sentence: Dye permeabilization study on isolated mitochondria indicates that piroxicam can permeabilize mitochondrial membrane .
+
+ppatt:
+	?a indicates ?b
+		?a: Dye permeabilization study on isolated mitochondria
+		?b: SOMETHING := piroxicam can permeabilize mitochondrial membrane
+	?a can permeabilize ?b
+		?a: piroxicam
+		?b: mitochondrial membrane
+
+
+label:    sent_8
+sentence: Self-interacting BAX proteins permeabilize outer mitochondrial membranes to trigger apoptotic cell death . Oligomers are highly cytotoxic and permeabilize lipid membranes , both biological and synthetic .
+
+ppatt:
+	?a permeabilize ?b to trigger ?c
+		?a: Self-interacting BAX proteins
+		?b: outer mitochondrial membranes
+		?c: apoptotic cell death
+	?a are highly cytotoxic
+		?a: Oligomers
+	?a permeabilize ?b
+		?a: Oligomers
+		?b: lipid membranes
+	?a both biological
+		?a: Oligomers
+	?a synthetic
+		?a: Oligomers
+
+
+label:    sent_9
+sentence: Microplusin has a bacteriostatic effect and does not permeabilize the bacterial membrane .
+
+ppatt:
+	?a has ?b
+		?a: Microplusin
+		?b: a bacteriostatic effect
+	?a does not permeabilize ?b
+		?a: Microplusin
+		?b: the bacterial membrane
+
+
+label:    sent_10
+sentence: Others have studied its application to permeabilize tumor vessels and improve tumor interstitial transport .
+
+ppatt:
+	?a have studied ?b
+		?a: Others
+		?b: its application to permeabilize tumor vessels and improve tumor interstitial transport
+	?a permeabilize ?b
+		?a: its application
+		?b: tumor vessels
+	improve ?a
+		?a: tumor interstitial transport
+
+
+label:    sent_11
+sentence: The aggregates do not permeabilize synthetic membranes and are not cytotoxic .
+
+ppatt:
+	?a do not permeabilize ?b
+		?a: The aggregates
+		?b: synthetic membranes
+
+
+label:    sent_12
+sentence: Magainins are positively charged amphiphatic peptides which permeabilize cell membranes and display antimicrobial activity .
+
+ppatt:
+	?a are positively charged amphiphatic peptides
+		?a: Magainins
+	?a permeabilize ?b
+		?a: positively charged amphiphatic peptides
+		?b: cell membranes
+	?a display ?b
+		?a: which
+		?b: antimicrobial activity
+
+
+label:    sent_13
+sentence: However , many surfactants permeabilize bacterial cell membranes and are effective disinfectants .
+
+ppatt:
+	However , ?a permeabilize ?b
+		?a: many surfactants
+		?b: bacterial cell membranes
+
+
+label:    sent_14
+sentence: Ceramide synthesis in the endoplasmic reticulum can permeabilize mitochondria to proapoptotic proteins .
+
+ppatt:
+	?a can permeabilize ?b to ?c
+		?a: Ceramide synthesis in the endoplasmic reticulum
+		?b: mitochondria
+		?c: proapoptotic proteins
+
+
+label:    sent_15
+sentence: Antimicrobial peptides often permeabilize biological membranes via a pore mechanism .
+
+ppatt:
+	?a often permeabilize ?b via ?c
+		?a: Antimicrobial peptides
+		?b: biological membranes
+		?c: a pore mechanism
+
+
+label:    sent_16
+sentence: In addition to the formation of domains , alpha-hederin and hederagenin permeabilize GUV .
+
+ppatt:
+	In ?a to ?b , ?c permeabilize ?d
+		?a: addition
+		?b: the formation of domains
+		?c: alpha-hederin
+		?d: GUV
+	In ?a to ?b , ?c permeabilize ?d
+		?a: addition
+		?b: the formation of domains
+		?c: hederagenin
+		?d: GUV
+
+
+label:    sent_17
+sentence: The detailed mechanisms by which alpha-synuclein oligomers permeabilize lipid bilayers remain unknown .
+
+ppatt:
+	?a by ?b permeabilize ?c
+		?a: The detailed mechanisms
+		?b: alpha-synuclein oligomers
+		?c: lipid bilayers
+	?a remain unknown
+		?a: The detailed mechanisms by which alpha-synuclein oligomers permeabilize lipid bilayers
+
+

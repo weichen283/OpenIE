@@ -1,0 +1,235 @@
+label:    sent_1
+sentence: Are things that are hard to physically move also hard to imagine moving ? Just imagine .. . excellent services , run by nurses . Just imagine .. . No one can imagine . Can we imagine how objects look from other viewpoints ? Human milk : a source of more life than we imagine .
+
+ppatt:
+	Are ?a
+		?a: things that are hard to physically move also hard to imagine moving ? Just imagine .. . excellent services , run by nurses . Just imagine . No one can imagine . Can we imagine how objects look from other viewpoints
+	?a are hard to physically move also hard to imagine ?b
+		?a: things
+		?b: moving
+	?a Just imagine ?b
+		?a: that
+		?b: ..
+	?a run by ?b
+		?a: excellent services
+		?b: nurses
+	?a Just imagine
+		?a: excellent services , run by nurses
+	?a can imagine
+		?a: No one
+	?a Can ?b imagine ?c
+		?a: SOMETHING := No one can imagine
+		?b: we
+		?c: SOMETHING := how objects look from other viewpoints
+	how ?a look from ?b
+		?a: objects
+		?b: other viewpoints
+	?a is/are Human milk
+		?a: other viewpoints
+	?a ?b imagine
+		?a: a source of more life
+		?b: we
+
+
+label:    sent_2
+sentence: We can not imagine current research of liver toxicity without using these model sytems .
+
+ppatt:
+	?a can not imagine ?b
+		?a: We
+		?b: current research of liver toxicity
+	?a using ?b
+		?a: We
+		?b: these model sytems
+
+
+label:    sent_3
+sentence: Some autogynephiles imagine themselves , in their sexual fantasies , as complete women .
+
+ppatt:
+	?a imagine ?b , in ?c , as ?d
+		?a: Some autogynephiles
+		?b: themselves
+		?c: their sexual fantasies
+		?d: complete women
+
+
+label:    sent_4
+sentence: Nowadays , it is hard to imagine therapy planning without previous radiological examination .
+
+ppatt:
+	Nowadays , ?a is hard to imagine ?b without ?c
+		?a: it
+		?b: therapy planning
+		?c: previous radiological examination
+
+
+label:    sent_5
+sentence: Humans can vividly imagine possible future events . [Greenland .
+
+ppatt:
+	?a can vividly imagine ?b ?c
+		?a: Humans
+		?b: possible future events
+		?c: [Greenland
+
+
+label:    sent_6
+sentence: Nurses will imagine the extra step ] . How do people imagine the experience of dying ? After looking at these stimuli individuals were asked to remember and imagine them .
+
+ppatt:
+	?a will imagine ?b
+		?a: Nurses
+		?b: the extra step ]
+	How do ?a imagine ?b
+		?a: people
+		?b: the experience of dying
+	?a looking at ?b
+		?a: people
+		?b: these stimuli individuals
+	?a were asked to remember ?b
+		?a: Nurses
+		?b: them
+	?a were asked to imagine
+		?a: Nurses
+
+
+label:    sent_7
+sentence: Children undergoing uroradiologic procedures fear and imagine many things adults do not .
+
+ppatt:
+	?a undergoing ?b
+		?a: Children
+		?b: uroradiologic procedures
+	?a imagine ?b
+		?a: Children
+		?b: many things adults
+	?a do not
+		?a: Children undergoing uroradiologic procedures and imagine many things adults
+
+
+label:    sent_8
+sentence: The control group was asked to just imagine handling and budgeting the money . Molecular-functional imaging of cancer : to image and imagine .
+
+ppatt:
+	?a was asked to just imagine ?b : to image
+		?a: The control group
+		?b: handling
+	?a was asked to just imagine ?b : to image
+		?a: The control group
+		?b: the money . Molecular-functional imaging of cancer
+	?a was asked to budgeting : to image
+		?a: The control group
+	?a was asked to just imagine : to imagine
+		?a: The control group
+
+
+label:    sent_9
+sentence: Subjects were asked to imagine or observe pinch-grip actions with either hand .
+
+ppatt:
+	?a were asked to imagine ?b with ?c
+		?a: Subjects
+		?b: pinch-grip actions
+		?c: either hand
+	?a were asked to observe
+		?a: Subjects
+
+
+label:    sent_10
+sentence: We imagine a Bayesian physician as the ideal candidate for VOI scoring .
+
+ppatt:
+	?a imagine ?b as ?c
+		?a: We
+		?b: a Bayesian physician
+		?c: the ideal candidate for VOI scoring
+
+
+label:    sent_11
+sentence: One can not imagine the latter without the former .
+
+ppatt:
+	?a can not imagine ?b without ?c
+		?a: One
+		?b: the latter
+		?c: the former
+
+
+label:    sent_12
+sentence: Players also report the pleasure they imagine feeling from each possible payoff .
+
+ppatt:
+	?a also report ?b ?c
+		?a: Players
+		?b: the pleasure
+		?c: SOMETHING := they imagine feeling from each possible payoff
+	?a imagine feeling from ?b
+		?a: they
+		?b: each possible payoff
+
+
+label:    sent_13
+sentence: Home : the place the older adult can not imagine living without . Feelings you can n't imagine : towards a cognitive neuroscience of alexithymia .
+
+ppatt:
+	?a can n't imagine towards ?b
+		?a: you
+		?b: a cognitive neuroscience of alexithymia
+
+
+label:    sent_14
+sentence: [To imagine in the tropics ] . It is almost impossible to imagine veterinary medicine today without the use of antimicrobials .
+
+ppatt:
+	?a imagine in ?b ?c
+		?a: [To
+		?b: the tropics
+		?c: ]
+	?a is almost impossible to imagine ?b today without ?c
+		?a: It
+		?b: veterinary medicine
+		?c: the use of antimicrobials
+
+
+label:    sent_15
+sentence: Participants rated their pain level and their ease to imagine daily throughout the study .
+
+ppatt:
+	?a rated ?b
+		?a: Participants
+		?b: their pain level
+	?a rated ?b
+		?a: Participants
+		?b: their ease to imagine daily throughout the study
+	?a imagine daily throughout ?b
+		?a: their ease
+		?b: the study
+
+
+label:    sent_16
+sentence: It is impossible to imagine modern medicine today without indwelling devices of various kinds .
+
+ppatt:
+	?a is impossible to imagine ?b today without ?c
+		?a: It
+		?b: modern medicine
+		?c: indwelling devices of various kinds
+
+
+label:    sent_17
+sentence: Similar brain regions are involved when we imagine , observe and execute an action .
+
+ppatt:
+	?a are involved ?b
+		?a: Similar brain regions
+		?b: SOMETHING := observe
+	when ?a imagine
+		?a: we
+	?a observe
+		?a: Similar brain regions
+	?a execute ?b
+		?a: Similar brain regions
+		?b: an action
+
+

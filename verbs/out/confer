@@ -1,0 +1,324 @@
+label:    sent_1
+sentence: Beta-blockers combined with statin confer a protective effect for stroke after CABG .
+
+ppatt:
+	?a combined with ?b
+		?a: Beta-blockers
+		?b: statin
+	?a confer ?b after ?c
+		?a: Beta-blockers combined with statin
+		?b: a protective effect for stroke
+		?c: CABG
+
+
+label:    sent_2
+sentence: However , the majority of these exchanges did not confer complete inhibitor resistance .
+
+ppatt:
+	However , ?a did not confer ?b
+		?a: the majority of these exchanges
+		?b: complete inhibitor resistance
+
+
+label:    sent_3
+sentence: Does avoidance of cardiopulmonary bypass confer any benefits in octogenarians undergoing coronary surgery ? In addition , NLRP1 variants were found to confer susceptibility to autoimmune disorders .
+
+ppatt:
+	Does ?a confer ?b
+		?a: avoidance of cardiopulmonary bypass
+		?b: any benefits in octogenarians undergoing coronary surgery
+	?a undergoing ?b
+		?a: octogenarians
+		?b: coronary surgery
+	In ?a , ?b were found to confer ?c
+		?a: addition
+		?b: NLRP1 variants
+		?c: susceptibility to autoimmune disorders
+
+
+label:    sent_4
+sentence: Emergent surgery appears to confer a higher risk of maternal death . Congenital IGF1 deficiency tends to confer protection against post-natal development of malignancies .
+
+ppatt:
+	?a appears to confer ?b
+		?a: Emergent surgery
+		?b: a higher risk of maternal death
+	?a tends to confer ?b
+		?a: Congenital IGF1 deficiency
+		?b: protection against post-natal development of malignancies
+
+
+label:    sent_5
+sentence: Moreover , FA-associated lipoplexes confer greater DNA protection than FA-conjugated lipoplexes .
+
+ppatt:
+	Moreover , ?a confer ?b than ?c
+		?a: FA-associated lipoplexes
+		?b: greater DNA protection
+		?c: FA-conjugated lipoplexes
+
+
+label:    sent_6
+sentence: These findings suggest that PCI may confer a long-term protective effect from dementia .
+
+ppatt:
+	?a suggest ?b
+		?a: These findings
+		?b: SOMETHING := PCI may confer a long-term protective effect from dementia
+	?a may confer ?b from ?c
+		?a: PCI
+		?b: a long-term protective effect
+		?c: dementia
+
+
+label:    sent_7
+sentence: These features confer the Q region with similarity to the nonautonomic Tourist-like MITE .
+
+ppatt:
+	?a confer ?b with ?c
+		?a: These features
+		?b: the Q region
+		?c: similarity to the nonautonomic Tourist-like MITE
+
+
+label:    sent_8
+sentence: This latter combination was also found to confer risk in BCR .
+
+ppatt:
+	?a was also found to confer ?b
+		?a: This latter combination
+		?b: risk in BCR
+
+
+label:    sent_9
+sentence: These lid domains are proposed to confer specificity to these related hydrolases .
+
+ppatt:
+	?a are proposed to confer ?b
+		?a: These lid domains
+		?b: specificity to these related hydrolases
+
+
+label:    sent_10
+sentence: Several factors are thought to confer this unusual feature to a CLL B-cell .
+
+ppatt:
+	?a are thought to confer ?b to ?c
+		?a: Several factors
+		?b: this unusual feature
+		?c: a CLL B-cell
+
+
+label:    sent_11
+sentence: Thromboembolic prophylaxis is routine but prophylactic antiepileptic drugs confer no benefit .
+
+ppatt:
+	?a is routine
+		?a: Thromboembolic prophylaxis
+	?a confer ?b
+		?a: prophylactic antiepileptic drugs
+		?b: no benefit
+
+
+label:    sent_12
+sentence: The broadest transporters confer the highest growth rates and strongly prefer glucose .
+
+ppatt:
+	?a confer ?b
+		?a: The broadest transporters
+		?b: the highest growth rates
+	?a strongly prefer ?b
+		?a: The broadest transporters
+		?b: glucose
+
+
+label:    sent_13
+sentence: These proteins confer resistance to mechanical stress and modulate cell shape .
+
+ppatt:
+	?a confer ?b
+		?a: These proteins
+		?b: resistance to mechanical stress
+	?a modulate ?b
+		?a: These proteins
+		?b: cell shape
+
+
+label:    sent_14
+sentence: The role of liver transplantation remains controversial but may confer some neuro-protection .
+
+ppatt:
+	?a remains controversial
+		?a: The role of liver transplantation
+	?a may confer ?b
+		?a: The role of liver transplantation
+		?b: some neuro-protection
+
+
+label:    sent_15
+sentence: ABCC2 is commonly localized in apical cell membranes and could confer cisplatin resistance .
+
+ppatt:
+	?a is commonly localized in ?b
+		?a: ABCC2
+		?b: apical cell membranes
+	?a could confer ?b
+		?a: ABCC2
+		?b: cisplatin resistance
+
+
+label:    sent_16
+sentence: MUC1 is associated with cellular transformation and can confer resistance to genotoxic agents .
+
+ppatt:
+	?a is associated with ?b
+		?a: MUC1
+		?b: cellular transformation
+	?a can confer ?b
+		?a: MUC1
+		?b: resistance to genotoxic agents
+
+
+label:    sent_17
+sentence: Checkpoint controls confer order to the cell cycle and help prevent genome instability .
+
+ppatt:
+	?a confer ?b to ?c
+		?a: Checkpoint controls
+		?b: order
+		?c: the cell cycle
+	?a help prevent ?b
+		?a: Checkpoint controls
+		?b: genome instability
+
+
+label:    sent_18
+sentence: Breast-feeding may confer beneficial metabolic effects after GDM and should be encouraged .
+
+ppatt:
+	?a may confer ?b after ?c
+		?a: Breast-feeding
+		?b: beneficial metabolic effects
+		?c: GDM
+	?a should be encouraged
+		?a: Breast-feeding
+
+
+label:    sent_19
+sentence: The media can confer status to a social issue and reinforce social norms .
+
+ppatt:
+	?a can confer ?b to ?c
+		?a: The media
+		?b: status
+		?c: a social issue
+	?a reinforce ?b
+		?a: The media
+		?b: social norms
+
+
+label:    sent_20
+sentence: However , other pathways have evolved independently and confer specific characteristics to flowering responses .
+
+ppatt:
+	However , ?a have evolved independently
+		?a: other pathways
+	?a confer ?b to ?c
+		?a: other pathways
+		?b: specific characteristics
+		?c: flowering responses
+
+
+label:    sent_21
+sentence: Diatheses confer vulnerability to disorder but are not necessarily manifest overtly or consistently .
+
+ppatt:
+	?a confer ?b
+		?a: Diatheses
+		?b: vulnerability to disorder
+	?a are not necessarily manifest overtly or consistently
+		?a: Diatheses
+
+
+label:    sent_22
+sentence: They are relatively easy to harvest and confer several benefits at the donor site .
+
+ppatt:
+	?a are relatively easy to harvest ?b at ?c
+		?a: They
+		?b: several benefits
+		?c: the donor site
+	?a are relatively easy to confer
+		?a: They
+
+
+label:    sent_23
+sentence: Yet , the underlying mechanisms by which CR confer microvascular protection remain elusive .
+
+ppatt:
+	?a by ?b confer ?c
+		?a: the underlying mechanisms
+		?b: CR
+		?c: microvascular protection
+	Yet , ?a remain elusive
+		?a: the underlying mechanisms by which CR confer microvascular protection
+
+
+label:    sent_24
+sentence: The underlying mechanism by which these confer pathogenicity is not well understood .
+
+ppatt:
+	?a by ?b confer ?c
+		?a: The underlying mechanism
+		?b: these
+		?c: pathogenicity
+	?a is not well understood
+		?a: The underlying mechanism by which these confer pathogenicity
+
+
+label:    sent_25
+sentence: We propose an intergenerational multiple deficit model in which both parents confer cognitive risks .
+
+ppatt:
+	?a propose ?b
+		?a: We
+		?b: an intergenerational multiple deficit model in which both parents confer cognitive risks
+	?a in ?b confer ?c
+		?a: an intergenerational multiple deficit model
+		?b: both parents
+		?c: cognitive risks
+
+
+label:    sent_26
+sentence: Probiotic bacteria are live microorganisms which confer to health benefits of the host .
+
+ppatt:
+	?a are live microorganisms
+		?a: Probiotic bacteria
+	?a confer to ?b
+		?a: live microorganisms
+		?b: health benefits of the host
+
+
+label:    sent_27
+sentence: These data suggest that certain HLA alleles confer susceptibility/protection to severe dengue infections .
+
+ppatt:
+	?a suggest ?b
+		?a: These data
+		?b: SOMETHING := certain HLA alleles confer susceptibility/protection to severe dengue infections
+	?a confer ?b
+		?a: certain HLA alleles
+		?b: susceptibility/protection to severe dengue infections
+
+
+label:    sent_28
+sentence: Together , these morphological features confer on the PED an efficient fluid absorption capability .
+
+ppatt:
+	Together , ?a confer on ?b ?c
+		?a: these morphological features
+		?b: PED
+		?c: the an efficient fluid absorption capability
+
+

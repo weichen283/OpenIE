@@ -1,0 +1,31 @@
+label:    sent_1
+sentence: Inhibition of the plasma membrane Ca2+ pump by CD44 receptor activation of tyrosine kinases increases the action potential afterhyperpolarization in sensory neurons . STIM1 knock-down inhibited ER Ca ( 2+ ) uptake in intact but not in permeabilized cells , suggesting a privileged calcium entry-calcium refilling ( CECR ) coupling between plasma membrane SOC and ER calcium pump in the intact cell .
+
+ppatt:
+	?a increases ?b
+		?a: Inhibition of the plasma membrane Ca2+ pump by CD44 receptor activation of tyrosine kinases
+		?b: the action potential afterhyperpolarization in sensory neurons
+	?a inhibited ?b
+		?a: STIM1 knock-down
+		?b: ER Ca uptake in intact but not in permeabilized cells
+	?a is/are 2+
+		?a: ER Ca
+	?a suggesting ?b
+		?a: STIM1 knock-down
+		?b: a privileged calcium entry-calcium refilling coupling between plasma membrane SOC and ER calcium pump in the intact cell
+	?a is/are CECR
+		?a: calcium entry-calcium refilling
+
+
+label:    sent_2
+sentence: Furthermore , the recent successful and safe completion of a phase 2 trial targeting the sarcoplasmic reticulum Ca ( 2+ ) ATPase pump along with the start of more recent phase 1 trials are ushering in a new era of gene therapy for the treatment of heart failure .
+
+ppatt:
+	?a targeting ?b
+		?a: a phase 2 trial
+		?b: the sarcoplasmic reticulum Ca ( 2+ ) ATPase pump
+	Furthermore , ?a are ushering in ?b
+		?a: the recent successful and safe completion of a phase 2 trial targeting the sarcoplasmic reticulum Ca ( 2+ ) ATPase pump along with the start of more recent phase 1 trials
+		?b: a new era of gene therapy for the treatment of heart failure
+
+

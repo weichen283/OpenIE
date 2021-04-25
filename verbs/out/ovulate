@@ -1,0 +1,187 @@
+label:    sent_1
+sentence: Camels are induced ovulators and thus normally only ovulate in response to mating .
+
+ppatt:
+	?a are induced ?b
+		?a: Camels
+		?b: ovulators
+	?a thus normally only ovulate in ?b
+		?a: Camels
+		?b: response to mating
+
+
+label:    sent_2
+sentence: Immature Wistar rats were induced to ovulate by treatment with PMSG and hCG .
+
+ppatt:
+	?a were induced to ovulate by ?b
+		?a: Immature Wistar rats
+		?b: treatment with PMSG and hCG
+
+
+label:    sent_3
+sentence: Anovulating patients started to ovulate following a series of treatments .
+
+ppatt:
+	?a started to ovulate following ?b
+		?a: Anovulating patients
+		?b: a series of treatments
+
+
+label:    sent_4
+sentence: Cyclic progestogens do not significantly reduce menstrual bleeding of women who ovulate .
+
+ppatt:
+	?a do not significantly reduce ?b
+		?a: Cyclic progestogens
+		?b: menstrual bleeding of women who ovulate
+	?a ovulate
+		?a: women
+
+
+label:    sent_5
+sentence: The remaining four patients did not ovulate . Ovaries perfused with leukocytes but without LH did not ovulate .
+
+ppatt:
+	?a did not ovulate ?b
+		?a: The remaining four patients
+		?b: Ovaries perfused with leukocytes but without LH
+	?a perfused with ?b
+		?a: Ovaries
+		?b: leukocytes
+	?a perfused with ?b
+		?a: Ovaries
+		?b: LH
+	?a did not ovulate
+		?a: The remaining four patients
+
+
+label:    sent_6
+sentence: Most nonlactating women will not ovulate until 6 weeks postpartum .
+
+ppatt:
+	?a will not ovulate until ?b
+		?a: Most nonlactating women
+		?b: 6 weeks postpartum
+
+
+label:    sent_7
+sentence: They did not ovulate with clomiphene , clomiphene-hCG and hMG-hCG therapies .
+
+ppatt:
+	?a did not ovulate with ?b
+		?a: They
+		?b: clomiphene
+	?a did not ovulate with ?b
+		?a: They
+		?b: clomiphene-hCG
+	?a did not ovulate with ?b
+		?a: They
+		?b: hMG-hCG therapies
+
+
+label:    sent_8
+sentence: One subject did not ovulate at all . Each follicle develops to either ovulate or , more likely , to undergo degeneration .
+
+ppatt:
+	?a did not ovulate at ?b
+		?a: One subject
+		?b: all
+	?a develops to ?b , to undergo ?c
+		?a: Each follicle
+		?b: ovulate
+		?c: degeneration
+	?a develops to ?b , to undergo ?c
+		?a: Each follicle
+		?b: more likely
+		?c: degeneration
+
+
+label:    sent_9
+sentence: Treatment with gonadotropin was scheduled after failure to ovulate spontaneously or conceive after electrocautery .
+
+ppatt:
+	?a was scheduled after ?b
+		?a: Treatment with gonadotropin
+		?b: failure to ovulate spontaneously or conceive after electrocautery
+	?a ovulate spontaneously
+		?a: failure
+	conceive after ?a
+		?a: electrocautery
+
+
+label:    sent_10
+sentence: However , 20-25 % of women are resistant to CC and do not ovulate .
+
+ppatt:
+	However , ?a are resistant to ?b
+		?a: 20-25 % of women
+		?b: CC
+	?a do not ovulate
+		?a: 20-25 % of women
+
+
+label:    sent_11
+sentence: Two of 6 control nannies also showed LH surges but they did not ovulate .
+
+ppatt:
+	?a also showed ?b
+		?a: Two of 6 control nannies
+		?b: LH surges
+	?a did not ovulate
+		?a: they
+
+
+label:    sent_12
+sentence: Pouched mice ovulate spontaneously and have a 4-day cycle ( 3-5 days ) . 9 patients did ovulate and 5 patients became pregnant .
+
+ppatt:
+	?a ovulate spontaneously
+		?a: Pouched mice
+	?a have ?b
+		?a: Pouched mice
+		?b: a 4-day cycle
+	?a is/are 3-5 days
+		?a: a 4-day cycle
+	?a did ovulate
+		?a: 9 patients
+	?a became pregnant
+		?a: 5 patients
+
+
+label:    sent_13
+sentence: Ovarian follicles begin to ovulate 10 h after hCG .
+
+ppatt:
+	?a begin to ovulate ?b after
+		?a: Ovarian follicles
+		?b: 10 h
+
+
+label:    sent_14
+sentence: Pinus sylvestris ovulate cones were used in this study . Simulated and empiric wind pollination patterns of conifer ovulate cones .
+
+ppatt:
+	?a were used in ?b
+		?a: Pinus sylvestris ovulate cones
+		?b: this study
+	?a Simulated
+		?a: Pinus sylvestris ovulate cones
+
+
+label:    sent_15
+sentence: Pollination and airflow patterns around conifer ovulate cones . LT/Sv strain mice ovulate both primary and secondary oocytes .
+
+ppatt:
+	?a ?b ?c ovulate ?d
+		?a: Pollination around conifer ovulate cones
+		?b: patterns
+		?c: LT/Sv strain mice
+		?d: both primary and secondary oocytes
+	?a ?b ?c ovulate ?d
+		?a: airflow
+		?b: patterns
+		?c: LT/Sv strain mice
+		?d: both primary and secondary oocytes
+
+

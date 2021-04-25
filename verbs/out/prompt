@@ -1,0 +1,319 @@
+label:    sent_1
+sentence: The current lack of information characterizing MCHDF impedes clinicians from making prompt differential diagnoses .
+
+ppatt:
+	?a characterizing ?b
+		?a: information
+		?b: MCHDF
+	?a impedes ?b
+		?a: The current lack of information characterizing MCHDF
+		?b: clinicians
+	?a making ?b
+		?a: clinicians
+		?b: prompt differential diagnoses
+
+
+label:    sent_2
+sentence: It therefore requires prompt therapeutic intervention .
+
+ppatt:
+	?a therefore requires ?b
+		?a: It
+		?b: prompt therapeutic intervention
+
+
+label:    sent_3
+sentence: It requires prompt recognition and adjustment of therapy .
+
+ppatt:
+	?a requires ?b
+		?a: It
+		?b: prompt recognition of therapy
+	?a requires ?b
+		?a: It
+		?b: adjustment
+
+
+label:    sent_4
+sentence: This would prompt a workup to rule out thyroid carcinoma .
+
+ppatt:
+	?a would prompt ?b
+		?a: This
+		?b: a workup to rule out thyroid carcinoma
+	?a rule ?b
+		?a: a workup
+		?b: out thyroid carcinoma
+
+
+label:    sent_5
+sentence: Patients with recurrent stroke need prompt thrombolysis .
+
+ppatt:
+	?a need prompt ?b
+		?a: Patients with recurrent stroke
+		?b: thrombolysis
+
+
+label:    sent_6
+sentence: Changing geographic trends regarding acid-peptic disease may prompt modification of diagnostic approach and treatment .
+
+ppatt:
+	Changing ?a
+		?a: geographic trends regarding acid-peptic disease
+	?a may prompt ?b
+		?a: SOMETHING := Changing geographic trends regarding acid-peptic disease
+		?b: modification of diagnostic approach and treatment
+
+
+label:    sent_7
+sentence: This feature is unique and may prompt future adoption by other guidelines systems .
+
+ppatt:
+	?a is unique
+		?a: This feature
+	?a may prompt ?b by ?c
+		?a: This feature
+		?b: future adoption
+		?c: other guidelines systems
+
+
+label:    sent_8
+sentence: Careful surveying and prompt treatment is necessary .
+
+ppatt:
+	?a is necessary
+		?a: Careful surveying
+	?a is necessary
+		?a: prompt
+	?a is necessary
+		?a: treatment
+
+
+label:    sent_9
+sentence: In this regard , the infrequent occurrence has hindered its prompt and early recognition .
+
+ppatt:
+	In ?a , ?b has hindered ?c
+		?a: this regard
+		?b: the infrequent occurrence
+		?c: its prompt and early recognition
+
+
+label:    sent_10
+sentence: Cost-cutting demands prompt trusts to ' explore all options ' . For the treatment of SGA aneurysms , prompt and precise preoperative evaluation is important .
+
+ppatt:
+	?a prompt ?b to ' explore ?c ' . For ?d
+		?a: Cost-cutting demands
+		?b: trusts
+		?c: all options
+		?d: the treatment of SGA aneurysms
+	?a ?b is important
+		?a: prompt
+		?b: evaluation
+	?a ?b is important
+		?a: precise
+		?b: evaluation
+	?a ?b is important
+		?a: preoperative
+		?b: evaluation
+
+
+label:    sent_11
+sentence: Considering ASR as a life-threatening condition , a prompt diagnosis can be life saving .
+
+ppatt:
+	Considering ?a as ?b ?c
+		?a: ASR
+		?b: a life-threatening condition
+		?c: a prompt diagnosis
+	?a can be life saving
+		?a: a prompt diagnosis
+
+
+label:    sent_12
+sentence: The cardiac tamponade was treated with prompt pericardial fluid drainage .
+
+ppatt:
+	?a was treated with ?b
+		?a: The cardiac tamponade
+		?b: prompt pericardial fluid drainage
+
+
+label:    sent_13
+sentence: Comparative tissue transcriptomics reveal prompt inter-organ communication in response to local bacterial kidney infection .
+
+ppatt:
+	?a reveal ?b in ?c
+		?a: Comparative tissue transcriptomics
+		?b: prompt inter-organ communication
+		?c: response to local bacterial kidney infection
+
+
+label:    sent_14
+sentence: Prognosis depends on prompt recognition and institution of appropriate therapy .
+
+ppatt:
+	?a depends on ?b
+		?a: Prognosis
+		?b: prompt recognition of appropriate therapy
+	?a depends on ?b
+		?a: Prognosis
+		?b: institution
+
+
+label:    sent_15
+sentence: Acute massive pulmonary thromboembolism is a life-threatening disorder , and prompt treatment is necessary . Surgery is inevitable , must be prompt , and comprises adnexectomy .
+
+ppatt:
+	?a is a life-threatening disorder
+		?a: Acute massive pulmonary thromboembolism
+	?a is necessary
+		?a: prompt treatment
+	?a is inevitable
+		?a: Surgery
+	?a must be prompt
+		?a: Acute massive pulmonary thromboembolism
+	?a comprises ?b
+		?a: Acute massive pulmonary thromboembolism
+		?b: adnexectomy
+
+
+label:    sent_16
+sentence: Our early results are promising and should prompt further studies to confirm these findings . By contrast , high levels should prompt the performance of an echocardiographic examination .
+
+ppatt:
+	?a are promising
+		?a: Our early results
+	?a should prompt ?b
+		?a: Our early results
+		?b: further studies to confirm these findings
+	?a confirm ?b
+		?a: further studies
+		?b: these findings
+	By ?a , ?b should prompt ?c
+		?a: contrast
+		?b: high levels
+		?c: the performance of an echocardiographic examination
+
+
+label:    sent_17
+sentence: Treatment is prompt surgical decompression by performing fasciotomy in any affected muscular compartments . Endocrinology .
+
+ppatt:
+	?a is prompt surgical decompression
+		?a: Treatment
+	?a performing ?b in ?c
+		?a: Treatment
+		?b: fasciotomy
+		?c: any affected muscular compartments . Endocrinology
+
+
+label:    sent_18
+sentence: Mice prompt look at cholesterol 's role in female fertility .
+
+ppatt:
+	?a prompt look at ?b
+		?a: Mice
+		?b: cholesterol 's role in female fertility
+
+
+label:    sent_19
+sentence: Treatment needs to be prompt and urgent because of the very high mortality rate .
+
+ppatt:
+	?a needs to be prompt because of ?b
+		?a: Treatment
+		?b: the very high mortality rate
+	?a needs to be urgent of
+		?a: Treatment
+
+
+label:    sent_20
+sentence: Thirty-six cases of pseudobulbar palsy treated by needling with prompt and deep insertion .
+
+ppatt:
+	?a treated by ?b
+		?a: Thirty-six cases of pseudobulbar palsy
+		?b: needling with prompt and deep insertion
+
+
+label:    sent_21
+sentence: Malaria control strategies emphasize the need for prompt and effective treatment of malaria episodes .
+
+ppatt:
+	?a emphasize ?b
+		?a: Malaria control strategies
+		?b: the need for prompt and effective treatment of malaria episodes
+
+
+label:    sent_22
+sentence: Despite poor prognosis , prompt diagnosis and aggressive treatment may maximize visual potential .
+
+ppatt:
+	Despite ?a , ?b may maximize ?c
+		?a: poor prognosis
+		?b: prompt diagnosis
+		?c: visual potential
+	Despite ?a , ?b may maximize ?c
+		?a: poor prognosis
+		?b: aggressive treatment
+		?c: visual potential
+
+
+label:    sent_23
+sentence: The treatment of intra-abdominal sepsis is primarily centered around prompt , appropriate surgical intervention .
+
+ppatt:
+	?a is primarily centered around ?b
+		?a: The treatment of intra-abdominal sepsis
+		?b: prompt , intervention
+
+
+label:    sent_24
+sentence: The diagnosis of the disease should be as prompt as possible .
+
+ppatt:
+	?a should be as prompt as ?b
+		?a: The diagnosis of the disease
+		?b: possible
+
+
+label:    sent_25
+sentence: Early detection allowed for appropriate counseling and prompt corrective surgery after birth .
+
+ppatt:
+	?a allowed for ?b
+		?a: Early detection
+		?b: appropriate counseling
+	?a prompt ?b after ?c
+		?a: Early detection
+		?b: corrective surgery
+		?c: birth
+
+
+label:    sent_26
+sentence: Recommended therapy is intravenous penicillin and prompt drainage for patients failing to respond .
+
+ppatt:
+	?a is penicillin
+		?a: Recommended therapy
+	?a prompt
+		?a: Recommended therapy
+	?a intravenous drainage for ?b
+		?a: Recommended therapy
+		?b: patients failing to respond
+	?a failing to respond
+		?a: patients
+
+
+label:    sent_27
+sentence: Fine-needle aspiration cytology provided prompt and accurate diagnosis in all patients .
+
+ppatt:
+	?a provided ?b
+		?a: Fine-needle aspiration cytology
+		?b: prompt and accurate diagnosis in all patients
+
+

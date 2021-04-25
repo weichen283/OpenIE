@@ -1,0 +1,239 @@
+label:    sent_1
+sentence: Advocacy and concerted action are needed to tackle rising rates of malnutrition .
+
+ppatt:
+	?a ?b are needed to tackle ?c
+		?a: Advocacy
+		?b: action
+		?c: rising rates of malnutrition
+	?a ?b are needed to tackle ?c
+		?a: concerted
+		?b: action
+		?c: rising rates of malnutrition
+
+
+label:    sent_2
+sentence: Teachers must be adequately trained to tackle this problem .
+
+ppatt:
+	?a must be adequately trained to tackle ?b
+		?a: Teachers
+		?b: this problem
+
+
+label:    sent_3
+sentence: Modern genomic technologies now provide unique opportunities to rapidly tackle these exciting areas .
+
+ppatt:
+	?a now provide ?b
+		?a: Modern genomic technologies
+		?b: unique opportunities to rapidly tackle these exciting areas
+	?a rapidly tackle ?b
+		?a: unique opportunities
+		?b: these exciting areas
+
+
+label:    sent_4
+sentence: Comparing policies to tackle ethnic inequalities in health : Belgium 1 Scotland 4 . Hearings tackle Medicare abuse .
+
+ppatt:
+	Comparing ?a
+		?a: policies
+	tackle ?a in ?b
+		?a: ethnic inequalities
+		?b: health
+	?a is/are 1 Scotland 4
+		?a: Belgium
+	?a ?b ?c tackle ?d
+		?a: SOMETHING := Comparing policies to tackle ethnic inequalities in health
+		?b: Belgium
+		?c: Hearings
+		?d: Medicare abuse
+
+
+label:    sent_5
+sentence: High time to tackle childhood tuberculosis .
+
+ppatt:
+	?a tackle ?b
+		?a: High time
+		?b: childhood tuberculosis
+
+
+label:    sent_6
+sentence: Recently , efforts have been made to tackle discrimination through campaigns and education .
+
+ppatt:
+	Recently , ?a have been made to tackle ?b
+		?a: efforts
+		?b: discrimination through campaigns and education
+
+
+label:    sent_7
+sentence: In particular , cheap methods are needed to tackle tuberculosis from a population perspective .
+
+ppatt:
+	In ?a , ?b are needed to tackle ?c from ?d
+		?a: particular
+		?b: cheap methods
+		?c: tuberculosis
+		?d: a population perspective
+
+
+label:    sent_8
+sentence: Pets or meds : how to tackle misery in a paediatric intensive care unit .
+
+ppatt:
+	?a how to tackle ?b in ?c
+		?a: Pets
+		?b: misery
+		?c: a paediatric intensive care unit
+	?a how to tackle ?b in ?c
+		?a: meds
+		?b: misery
+		?c: a paediatric intensive care unit
+
+
+label:    sent_9
+sentence: How can we tackle energy efficiency in IoT based smart buildings ? Scientists tackle water contamination in Bangladesh .
+
+ppatt:
+	How can ?a tackle ?b based ?c
+		?a: we
+		?b: energy efficiency in IoT
+		?c: smart buildings
+	?a tackle ?b
+		?a: Scientists
+		?b: water contamination in Bangladesh
+
+
+label:    sent_10
+sentence: Medical college of Wisconsin researchers tackle concussions from all angles .
+
+ppatt:
+	?a tackle ?b
+		?a: Medical college of Wisconsin researchers
+		?b: concussions from all angles
+
+
+label:    sent_11
+sentence: Tax processed food to subsidise healthier options and tackle obesity , says think tank . New molecular approaches are currently under development and tackle several specific targets .
+
+ppatt:
+	?a processed ?b to subsidise ?c
+		?a: Tax
+		?b: food
+		?c: healthier options
+	?a processed to tackle ?b
+		?a: Tax
+		?b: obesity
+	?a says think ?b
+		?a: Tax
+		?b: tank
+	?a are currently under development
+		?a: New molecular approaches
+	?a tackle ?b
+		?a: New molecular approaches
+		?b: several specific targets
+
+
+label:    sent_12
+sentence: Greater efforts are required to tackle these problem and prevent complications arising from them .
+
+ppatt:
+	?a are required to tackle ?b
+		?a: Greater efforts
+		?b: these problem
+	?a are required to prevent ?b
+		?a: Greater efforts
+		?b: complications arising from them
+	?a arising from ?b
+		?a: complications
+		?b: them
+
+
+label:    sent_13
+sentence: This article will tackle some of the concerns and report progress so far . Obesity is often difficult to tackle in primary care .
+
+ppatt:
+	?a will tackle ?b
+		?a: This article
+		?b: some of the concerns
+	?a report ?b so far
+		?a: This article
+		?b: progress
+	?a is often difficult to tackle in ?b
+		?a: Obesity
+		?b: primary care
+
+
+label:    sent_14
+sentence: Obesity is a complex problem and often difficult to tackle in primary care .
+
+ppatt:
+	?a is a complex problem
+		?a: Obesity
+	?a often difficult to tackle in ?b
+		?a: Obesity
+		?b: primary care
+
+
+label:    sent_15
+sentence: Cholera is particularly difficult to tackle in the DRC .
+
+ppatt:
+	?a is particularly difficult to tackle in ?b
+		?a: Cholera
+		?b: the DRC
+
+
+label:    sent_16
+sentence: Lead-based ammunition and fishing tackle .
+
+ppatt:
+
+
+
+label:    sent_17
+sentence: Community health centers tackle rising demands and expectations . Cell-based tests tackle predicting safety of antibody drugs .
+
+ppatt:
+	?a tackle ?b
+		?a: Community health centers
+		?b: rising demands
+	?a tackle ?b
+		?a: Community health centers
+		?b: expectations
+	?a tackle predicting ?b
+		?a: Cell-based tests
+		?b: safety of antibody drugs
+
+
+label:    sent_18
+sentence: The ingestion of fishing line and tackle is also commonly seen . Block and tackle : CTLA4Ig takes on lupus .
+
+ppatt:
+	?a is also commonly seen ?b
+		?a: The ingestion of fishing line and tackle
+		?b: Block
+	?a tackle
+		?a: The ingestion of fishing line and tackle
+	?a takes on ?b
+		?a: CTLA4Ig
+		?b: lupus
+
+
+label:    sent_19
+sentence: We believe that our study will help tackle and clarify some of these issues .
+
+ppatt:
+	?a believe ?b
+		?a: We
+		?b: SOMETHING := our study will help tackle and clarify some of these issues
+	?a will help tackle ?b
+		?a: our study
+		?b: some of these issues
+	?a will help clarify
+		?a: our study
+
+

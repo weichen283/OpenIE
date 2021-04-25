@@ -1,0 +1,112 @@
+label:    sent_1
+sentence: To determine the conductance of a molecule , one must wire the molecule reliably to at least two electrodes .
+
+ppatt:
+	determine ?a ?b
+		?a: the conductance of a molecule
+		?b: one
+	?a must wire the molecule reliably to ?b
+		?a: one
+		?b: at least two electrodes
+
+
+label:    sent_2
+sentence: After positioning a guiding catheter in the LCX ostium , we wanted to protect the LAD , but we could not wire both arteries because of separation between the two ostia .
+
+ppatt:
+	positioning ?a ?b
+		?a: a guiding catheter in the LCX ostium
+		?b: we
+	?a wanted to protect ?b
+		?a: we
+		?b: the LAD
+	?a could not wire ?b because of ?c
+		?a: we
+		?b: both arteries
+		?c: separation between the two ostia
+
+
+label:    sent_3
+sentence: Because the hydrogels envelope the redox enzymes , they electrically wire the reaction centers to electrodes irrespective of spatial orientation and connect to electrode redox centers of multiple enzyme layers .
+
+ppatt:
+	?a envelope ?b
+		?a: the hydrogels
+		?b: the redox enzymes
+	?a electrically wire the reaction centers to ?b
+		?a: they
+		?b: electrodes irrespective of spatial orientation
+	?a connect to ?b
+		?a: they
+		?b: electrode redox centers of multiple enzyme layers
+
+
+label:    sent_4
+sentence: Various strategies to immobilize the photosynthetic complexes on conductive surfaces and different methodologies to electrically wire them with the electrode supports are presented .
+
+ppatt:
+	?a immobilize ?b on ?c
+		?a: Various strategies
+		?b: the photosynthetic complexes
+		?c: conductive surfaces
+	immobilize ?a on ?b ?c
+		?a: the photosynthetic complexes
+		?b: conductive surfaces
+		?c: different methodologies to electrically wire them with the electrode
+	?a supports
+		?a: Various strategies to immobilize the photosynthetic complexes on conductive surfaces
+	?a supports
+		?a: different methodologies to electrically wire them with the electrode
+	?a are presented
+		?a: Various strategies to immobilize the photosynthetic complexes on conductive surfaces
+	?a are presented
+		?a: different methodologies to electrically wire them with the electrode
+
+
+label:    sent_5
+sentence: The fractured traction wire and basket could be safely removed by pulling the traction wire from the mouth .
+
+ppatt:
+	?a could be safely removed
+		?a: The fractured traction wire
+	?a could be safely removed
+		?a: basket
+	?a pulling ?b
+		?a: The fractured traction wire
+		?b: the traction wire from the mouth
+	?a pulling ?b
+		?a: basket
+		?b: the traction wire from the mouth
+
+
+label:    sent_6
+sentence: The performance of the groups ^indicated that persistent abusers wire the poorest and that abstinence were followed by welcome change in memory .
+
+ppatt:
+	?a ^indicated ?b
+		?a: The performance of the groups
+		?b: SOMETHING := persistent abusers wire the poorest
+	?a wire the poorest
+		?a: persistent abusers
+	?a were followed by ?b
+		?a: abstinence
+		?b: welcome change in memory
+
+
+label:    sent_7
+sentence: Endocrine cells in the mammalian pituitary are arranged into three-dimensional homotypic networks that wire the gland and act to optimise hormone output by allowing the transmission of information between cell ensembles in a temporally precise manner .
+
+ppatt:
+	?a are arranged into ?b
+		?a: Endocrine cells in the mammalian pituitary
+		?b: three-dimensional homotypic networks that wire the gland
+	?a wire the gland
+		?a: three-dimensional homotypic networks
+	?a act to optimise ?b
+		?a: Endocrine cells in the mammalian pituitary
+		?b: hormone output
+	?a allowing ?b
+		?a: Endocrine cells in the mammalian pituitary
+		?b: the transmission of information between cell ensembles in a temporally precise manner
+
+

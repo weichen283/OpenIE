@@ -1,0 +1,112 @@
+label:    sent_1
+sentence: Surveying methodology is not the most appropriate way to tabulate time and work . A required analgesic score ( RAS ) was devised to tabulate the analgesia required .
+
+ppatt:
+	?a is not the most appropriate way
+		?a: Surveying methodology
+	?a tabulate ?b
+		?a: not the most appropriate way
+		?b: time
+	?a work
+		?a: Surveying methodology
+	?a is/are RAS
+		?a: A required analgesic score
+	?a was devised to tabulate ?b
+		?a: A required analgesic score
+		?b: the analgesia required
+	?a required
+		?a: the analgesia
+
+
+label:    sent_2
+sentence: The SPSS software was used to tabulate the data . We also tabulate free energies , enthalpies , entropies , and heat capacities .
+
+ppatt:
+	?a was used to tabulate ?b
+		?a: The SPSS software
+		?b: the data
+	?a also tabulate ?b
+		?a: We
+		?b: free energies
+	?a also tabulate ?b
+		?a: We
+		?b: enthalpies
+	?a also tabulate ?b
+		?a: We
+		?b: entropies
+	?a also tabulate ?b
+		?a: We
+		?b: heat capacities
+
+
+label:    sent_3
+sentence: The authors tabulate published amino acid analysis of soy , corn and wheat .
+
+ppatt:
+	?a tabulate ?b
+		?a: The authors
+		?b: published amino acid analysis of soy , corn and wheat
+
+
+label:    sent_4
+sentence: This mini-review will tabulate those fish lectins identified since the last major review .
+
+ppatt:
+	?a will tabulate ?b
+		?a: This mini-review
+		?b: those fish lectins identified since the last major review
+	?a identified
+		?a: those fish lectins
+
+
+label:    sent_5
+sentence: To review and tabulate the incidence of thromboembolic complications following head and neck surgery .
+
+ppatt:
+	review ?a
+		?a: the incidence of thromboembolic complications following head and neck
+	tabulate ?a
+		?a: the incidence of thromboembolic complications following head and neck
+
+
+label:    sent_6
+sentence: The software ATLAS.ti was used to tabulate themes by race/ethnicity and gender .
+
+ppatt:
+	?a was used to tabulate ?b
+		?a: The software ATLAS.ti
+		?b: themes by race/ethnicity and gender
+
+
+label:    sent_7
+sentence: The SEER-Stat Program was used to tabulate rate estimates and calculate standard errors .
+
+ppatt:
+	?a was used to tabulate ?b
+		?a: The SEER-Stat Program
+		?b: rate estimates
+	?a was used to calculate ?b
+		?a: The SEER-Stat Program
+		?b: standard errors
+
+
+label:    sent_8
+sentence: We tabulate the numbers of fullerenes and IPR fullerenes up to 400 vertices .
+
+ppatt:
+	?a tabulate ?b up to ?c
+		?a: We
+		?b: the numbers of fullerenes and IPR fullerenes
+		?c: 400 vertices
+
+
+label:    sent_9
+sentence: We tabulate over 200 discrepancies amongst the reports .
+
+ppatt:
+	?a tabulate over ?b amongst ?c
+		?a: We
+		?b: 200 discrepancies
+		?c: the reports
+
+

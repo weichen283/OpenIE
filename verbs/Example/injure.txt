@@ -1,0 +1,36 @@
+obj	This causes a decrease in blood flow that can injure nerves and other tissues .	obj@nerves
+obj	Ethoxycoumarin was found , nevertheless , to injure cultured rat hepatocytes .	obj@hepatocytes
+obj	14 other medications have been reported to injure the oesophagus .	obj@oesophagus
+
+subj#obj	Excessive fatigue and restraint stress can injure the structure and function of endothelial cell .	subj@fatigue subj@stress obj@structure
+subj#obj	Foldable wheelchairs injure patients ' fingers .	subj@wheelchairs obj@fingers
+subj#obj	This procedure may injure the facial skin .	subj@procedure obj@skin
+
+subj#obj#prep	In this case , laser pulses may injure biological tissue due to energy accumulation .	subj@pulses obj@tissue prep_due_to@accumulation prep_in@case
+subj#obj#prep	PMN can injure target tissues by oxidative and nonoxidative mechanisms .	subj@PMN obj@tissues prep_by@mechanisms
+subj#obj#prep	Cytopathic viruses injure cells by a number of different mechanisms .	subj@viruses obj@cells prep_by@number
+
+subj#obj#conj	Stx2 may injure podocytes and induce proteinuria .	subj@Stx2 obj@podocytes conj_and@induce
+subj#obj#conj	These mediators injure endothelial cells and induce microcirculatory dysfunction .	subj@mediators obj@cells conj_and@induce
+subj#obj#conj	Aortic cross-clamping during cardiac operations may injure the vessel wall and cause tissue lesions .	subj@cross-clamping obj@wall conj_and@cause
+
+obj#conj	Phagocyte-derived reactive species are known to injure human tissues and to contribute to inflammation .	obj@tissues conj_and@contribute
+obj#conj	The puncture technique is simple and rapid and does not injure the experimental animal .	obj@animal conj_and@simple
+obj#conj	Surgeons often cannot see major vessels embedded in adipose tissue and inadvertently injure them .	obj@them conj_and@see
+
+obj#prep	Players were 20 times more likely to injure themselves during a game than practice .	obj@themselves prep_during@game
+obj#prep	If you injure your back on the job .	obj@your prep_on@job
+obj#prep	Lead nitrate was shown to injure hepatocytes through an increased lipid peroxidation .	obj@hepatocytes prep_through@peroxidation
+
+subj#obj#prep#conj	In girls , diagnostic interventions may injure the developing breast and cause subsequent disfigurement .	subj@interventions obj@breast prep_in@girls conj_and@cause
+
+prep	There was an intent to injure in 11 % .	prep_in@%
+
+conj	Snowblowers injure approximately 5000 people a year and can cause devastating hand injuries .	conj_and@cause
+conj	Intent to harm or injure ?	conj_or@harm
+conj	Pile-driving and other impulsive sound sources have the potential to injure or kill fishes .	conj_or@kill
+
+subj#obj#rel	Experimental and clinical studies would unravel the mechanism by which NSAIDs injure intestinal mucosa .	subj@NSAIDs obj@mucosa rel@which
+subj#obj#rel	The mechanism by which freebase cocaine can injure the lung is not well defined .	subj@cocaine obj@lung rel@which
+subj#obj#rel	Mechanisms and circumstances in which drugs injure hepatocytes are not clear .	subj@drugs obj@hepatocytes rel@which
+

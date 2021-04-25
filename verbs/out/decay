@@ -1,0 +1,534 @@
+label:    sent_1
+sentence: The traditional account assumes an underlying process of task-set decay .
+
+ppatt:
+	?a assumes ?b
+		?a: The traditional account
+		?b: an underlying process of task-set decay
+
+
+label:    sent_2
+sentence: Taken together , the data are inconsistent with task-set decay accounts and suggest that the influence of RCI in task switching modulates cue-based retrieval of stimulus-related task components , such as biasing parameters .
+
+ppatt:
+	Taken together ?a
+		?a: the data
+	?a are inconsistent with ?b
+		?a: the data
+		?b: task-set decay
+	?a accounts
+		?a: the data
+	?a suggest ?b
+		?a: the data
+		?b: SOMETHING := the influence of RCI in task switching modulates cue-based retrieval of stimulus-related task components , such as biasing parameters
+	?a modulates ?b
+		?a: the influence of RCI in task switching
+		?b: cue-based retrieval of stimulus-related task components , such as biasing parameters
+
+
+label:    sent_3
+sentence: Here we show that the core snRNP ( small nuclear ribonucleoprotein ) protein SmB / B ' self-regulates its expression by promoting the inclusion of a highly conserved alternative exon in its own pre-mRNA that targets the spliced transcript for nonsense-mediated mRNA decay ( NMD ) . Our local spectroscopic and theoretical results indicate that the interfacial conductivity is dependent on electronic correlations that decay spatially into the SrTiO ( 3 ) matrix .
+
+ppatt:
+	Here ?a show ?b
+		?a: we
+		?b: SOMETHING := core snRNP self-regulates its expression by promoting the inclusion of a highly conserved alternative exon in its own pre-mRNA that targets the spliced transcript for nonsense-mediated mRNA decay
+	?a is/are the ( small nuclear ribonucleoprotein ) protein SmB / B
+		?a: core snRNP
+	?a self-regulates ?b
+		?a: core snRNP
+		?b: its expression
+	?a promoting ?b
+		?a: core snRNP
+		?b: the inclusion of a highly conserved alternative exon in its own pre-mRNA that targets the spliced transcript for nonsense-mediated mRNA decay
+	?a targets ?b
+		?a: its own pre-mRNA
+		?b: the spliced transcript for nonsense-mediated mRNA decay
+	?a is/are NMD
+		?a: nonsense-mediated mRNA decay
+	?a indicate ?b
+		?a: Our local spectroscopic and theoretical results
+		?b: SOMETHING := the interfacial conductivity is dependent on electronic correlations that decay spatially into the SrTiO ( 3 ) matrix
+	?a is dependent on ?b
+		?a: the interfacial conductivity
+		?b: electronic correlations that decay spatially into the SrTiO ( 3 ) matrix
+	?a decay spatially into ?b
+		?a: electronic correlations
+		?b: the SrTiO ( 3 ) matrix
+
+
+label:    sent_4
+sentence: Our results also show that protein expression patterns decay with time , underscoring the need for rapid sampling and diagnosis close to the patient bedside .
+
+ppatt:
+	?a also show ?b
+		?a: Our results
+		?b: SOMETHING := protein expression patterns decay with time , underscoring the need for rapid sampling and diagnosis close to the patient bedside
+	?a decay with ?b , underscoring ?c
+		?a: protein expression patterns
+		?b: time
+		?c: the need for rapid sampling and diagnosis close to the patient bedside
+
+
+label:    sent_5
+sentence: For the one-line geometry , the decay of the density profile at asymptotic distance from the line undergoes a fundamental change with respect to the mean-field behavior at [Formula : see text ] = 6 .
+
+ppatt:
+	For ?a , ?b undergoes ?c ?d
+		?a: the one-line geometry
+		?b: the decay of the density profile at asymptotic distance from the line
+		?c: a fundamental change
+		?d: with respect to the mean-field behavior at [Formula
+	?a see ?b
+		?a: the decay of the density profile at asymptotic distance from the line
+		?b: text ]
+	?a = ?b
+		?a: the decay of the density profile at asymptotic distance from the line
+		?b: 6
+
+
+label:    sent_6
+sentence: The like-charge attraction regime , possible for large [ Formula : see text ] but precluded at mean-field level , survives for [Formula : see text ] = 4 and 6 , but disappears at [Formula : see text ] = 2 . As such , the PSU-OS-M cell line is to our knowledge the first oncogenically transformed cell line with a mutant fibrillin gene and may serve as a useful tool for studying molecular mechanisms of MFS and nonsense-mediated decay .
+
+ppatt:
+	?a survives for ?b
+		?a: The like-charge attraction regime , possible for large [ Formula
+		?b: [Formula
+	see ?a
+		?a: text ] = 4 and 6
+	= ?a
+		?a: 4
+	= ?a
+		?a: 6
+	?a disappears at ?b
+		?a: The like-charge attraction regime , possible for large [ Formula
+		?b: [Formula
+	see ?a
+		?a: text ]
+	= ?a
+		?a: 2
+	As ?a , ?b is ?c knowledge ?d with ?e
+		?a: such
+		?b: the PSU-OS-M cell line
+		?c: our
+		?d: the first oncogenically transformed cell line
+		?e: a mutant fibrillin gene
+	?a may serve as ?b
+		?a: the PSU-OS-M cell line
+		?b: a useful tool for studying molecular mechanisms of MFS and nonsense-mediated decay
+	?a studying ?b
+		?a: a useful tool
+		?b: molecular mechanisms of MFS and nonsense-mediated decay
+
+
+label:    sent_7
+sentence: Poor dental hygiene can result in tooth decay , gingivitis , periodontitis , tooth loss , bad breath ( halitosis ) , fungal infection and gum diseases .
+
+ppatt:
+	?a can result in ?b
+		?a: Poor dental hygiene
+		?b: tooth decay
+	?a can result in ?b
+		?a: Poor dental hygiene
+		?b: gingivitis
+	?a can result in ?b
+		?a: Poor dental hygiene
+		?b: periodontitis
+	?a can result in ?b
+		?a: Poor dental hygiene
+		?b: tooth loss
+	?a can result in ?b
+		?a: Poor dental hygiene
+		?b: bad breath
+	?a can result in ?b
+		?a: Poor dental hygiene
+		?b: fungal infection
+	?a can result in ?b
+		?a: Poor dental hygiene
+		?b: gum diseases
+	?a is/are halitosis
+		?a: bad breath
+
+
+label:    sent_8
+sentence: We used a cognitive architecture ( ACT-R ) to explore the procedural learning of surgical tasks and then to understand the process of perceptual motor learning and skill decay in surgical skill performance .
+
+ppatt:
+	?a used ?b
+		?a: We
+		?b: a cognitive architecture
+	?a is/are ACT-R
+		?a: a cognitive architecture
+	?a explore ?b
+		?a: We
+		?b: the procedural learning of surgical tasks
+	?a then to understand ?b
+		?a: We
+		?b: the process of perceptual motor learning and skill decay in surgical skill performance
+
+
+label:    sent_9
+sentence: A generalized exponential model is used to analyse maternal antibody decay in infants .
+
+ppatt:
+	?a is used to analyse ?b
+		?a: A generalized exponential model
+		?b: maternal antibody decay in infants
+
+
+label:    sent_10
+sentence: On the decay of distractor-response episodes .
+
+ppatt:
+
+
+
+label:    sent_11
+sentence: In neurones , Rc-Br slowed the decay of spontaneous inhibitory postsynaptic currents and both Rc-OMe and Rc-Br positively modulated synaptic and extrasynaptic diazepam-insensitive GABA ( A ) Rs .
+
+ppatt:
+	In ?a , ?b slowed ?c
+		?a: neurones
+		?b: Rc-Br
+		?c: the decay of spontaneous inhibitory postsynaptic currents
+	?a positively modulated ?b
+		?a: Rc-OMe
+		?b: synaptic and extrasynaptic diazepam-insensitive GABA ( A ) Rs
+	?a positively modulated ?b
+		?a: Rc-Br
+		?b: synaptic and extrasynaptic diazepam-insensitive GABA ( A ) Rs
+
+
+label:    sent_12
+sentence: Distance decay was steeper for meningitis than for pneumonia , for females than for males , and for areas where mothers had less education on average .
+
+ppatt:
+	?a was steeper for ?b than for ?c , for ?d
+		?a: Distance decay
+		?b: meningitis
+		?c: pneumonia
+		?d: females
+	?a than for males
+		?a: Distance decay
+	?a for areas
+		?a: Distance decay
+	?a where ?b had ?c on ?d
+		?a: areas
+		?b: mothers
+		?c: less education
+		?d: average
+
+
+label:    sent_13
+sentence: Distance decay was attenuated by increased levels of maternal education .
+
+ppatt:
+	?a was attenuated by ?b
+		?a: Distance decay
+		?b: increased levels of maternal education
+
+
+label:    sent_14
+sentence: However , fast metarhodopsin decay and rhodopsin regeneration also play an important role in controlling metarhodopsin in green receptors , resulting in a high rhodopsin content at low light intensities and a reduced overall visual pigment content in bright light .
+
+ppatt:
+	However , ?a also play ?b
+		?a: fast metarhodopsin decay
+		?b: an important role
+	However , ?a also play ?b
+		?a: rhodopsin regeneration
+		?b: an important role
+	?a controlling ?b in ?c
+		?a: fast metarhodopsin decay
+		?b: metarhodopsin
+		?c: green receptors
+	?a controlling ?b in ?c
+		?a: rhodopsin regeneration
+		?b: metarhodopsin
+		?c: green receptors
+	?a resulting in ?b
+		?a: fast metarhodopsin decay
+		?b: a high rhodopsin content at low light intensities
+	?a resulting in ?b
+		?a: rhodopsin regeneration
+		?b: a high rhodopsin content at low light intensities
+	?a resulting in ?b
+		?a: fast metarhodopsin decay
+		?b: a reduced overall visual pigment content in bright light
+	?a resulting in ?b
+		?a: rhodopsin regeneration
+		?b: a reduced overall visual pigment content in bright light
+
+
+label:    sent_15
+sentence: According to the TBRS , memory traces decay during processing of the distractors , and they are restored by attentional refreshing during brief pauses in between processing steps .
+
+ppatt:
+	According to ?a , ?b decay during ?c
+		?a: the TBRS
+		?b: memory traces
+		?c: processing of the distractors
+	?a are restored by ?b refreshing during ?c in between ?d
+		?a: they
+		?b: attentional
+		?c: brief pauses
+		?d: processing steps
+
+
+label:    sent_16
+sentence: These results add to the growing literature showing problems for theories of memory that include decay offset by rehearsal as a central feature .
+
+ppatt:
+	?a add to ?b
+		?a: These results
+		?b: the growing literature showing problems for theories of memory that include decay offset by rehearsal as a central feature
+	?a showing ?b
+		?a: the growing literature
+		?b: problems for theories of memory that include decay offset by rehearsal as a central feature
+	?a include ?b ?c as ?d
+		?a: memory
+		?b: decay
+		?c: offset by rehearsal
+		?d: a central feature
+
+
+label:    sent_17
+sentence: The methodology is applied in a steady-state , synthetic aquifer system in which a contaminant is leached to the saturated zone and undergoes first-order decay .
+
+ppatt:
+	?a is applied in ?b
+		?a: The methodology
+		?b: a steady-state , aquifer system in which a contaminant is leached to the saturated zone and undergoes first-order decay
+	?a in ?b is leached to ?c
+		?a: a steady-state , aquifer system
+		?b: a contaminant
+		?c: the saturated zone
+	?a undergoes ?b
+		?a: a contaminant
+		?b: first-order decay
+
+
+label:    sent_18
+sentence: Oxygen utilization rate and tissue oxygenation recovery were computed as the slopes of the regression line of the oxygenation decay and recovery , respectively .
+
+ppatt:
+	?a were computed as ?b , respectively
+		?a: Oxygen utilization rate
+		?b: the slopes of the regression line of the oxygenation
+	?a were computed as ?b , respectively
+		?a: tissue oxygenation recovery
+		?b: the slopes of the regression line of the oxygenation
+
+
+label:    sent_19
+sentence: We investigated the rate of EPR signal decay and cardiac function .
+
+ppatt:
+	?a investigated ?b
+		?a: We
+		?b: the rate of EPR signal decay and cardiac function
+
+
+label:    sent_20
+sentence: This study presents estimates for bioaccumulation of radioactive phosphorus which account for both radioactive decay and varying ambient levels of stable P in the environment .
+
+ppatt:
+	?a presents ?b
+		?a: This study
+		?b: estimates for bioaccumulation of radioactive phosphorus which account for both radioactive decay and varying ambient levels of stable P in the environment
+	?a account for ?b
+		?a: radioactive phosphorus
+		?b: radioactive decay of stable P in the environment
+	?a account for ?b
+		?a: radioactive phosphorus
+		?b: varying ambient levels
+
+
+label:    sent_21
+sentence: Characterization of transgenic pigs that express human decay accelerating factor and cell membrane-tethered human tissue factor pathway inhibitor .
+
+ppatt:
+	?a express ?b
+		?a: transgenic pigs
+		?b: human decay accelerating factor
+	?a express ?b
+		?a: transgenic pigs
+		?b: cell membrane-tethered human tissue factor pathway inhibitor
+
+
+label:    sent_22
+sentence: To investigate the effects of these combined transgenes , we established transformed pig cells expressing human decay accelerating factor ( hDAF ) under the control of enhancer promoter ( 5'LTR-PCMVIE ) , and the fusion protein ( hTFPI / hCD4 ) consisting of the functional domains ( K1 and K2 ) of hTFPI and membrane-tethering domains ( D3 and D4 ) of hCD4 under the control of PCMVIE .
+
+ppatt:
+	investigate ?a ?b
+		?a: the effects of these combined transgenes
+		?b: we
+	?a established ?b
+		?a: we
+		?b: transformed pig cells expressing human decay accelerating factor under the control of enhancer promoter , and the fusion protein consisting of the functional domains of hTFPI and membrane-tethering domains of hCD4 under the control of PCMVIE
+	?a expressing ?b under ?c
+		?a: transformed pig cells
+		?b: human decay accelerating factor
+		?c: the control of enhancer promoter
+	?a expressing ?b under ?c
+		?a: transformed pig cells
+		?b: human decay accelerating factor
+		?c: the fusion protein consisting of the functional domains of hTFPI and membrane-tethering domains of hCD4 under the control of PCMVIE
+	?a is/are hDAF
+		?a: human decay accelerating factor
+	?a is/are 5'LTR-PCMVIE
+		?a: enhancer promoter
+	?a is/are hTFPI / hCD4
+		?a: the fusion protein consisting of the functional domains of hTFPI and membrane-tethering domains of hCD4 under the control of PCMVIE
+	?a consisting of ?b
+		?a: the fusion protein
+		?b: the functional domains of hTFPI and membrane-tethering domains of hCD4 under the control of PCMVIE
+
+
+label:    sent_23
+sentence: Field transfer decay and interferometry in coupled waveguides with stochastic sources .
+
+ppatt:
+
+
+
+label:    sent_24
+sentence: These results demonstrate that pCA ( 2- ) can only decay efficiently in water and exclusively by double-bond photoisomerization .
+
+ppatt:
+	?a demonstrate ?b
+		?a: These results
+		?b: SOMETHING := pCA can only decay efficiently in water and exclusively by double-bond photoisomerization
+	?a is/are 2-
+		?a: pCA
+	?a can only decay efficiently in ?b
+		?a: pCA
+		?b: water
+	?a can only decay efficiently in ?b
+		?a: pCA
+		?b: exclusively double-bond photoisomerization
+
+
+label:    sent_25
+sentence: The major differences between Wistar and OXYS lenses are the faster decay of the content of gammaA-gammaF-crystallins in OXYS lenses , and the significant decrease of unmodified alphaA-crystallin abundance in old OXYS lenses .
+
+ppatt:
+	?a are the faster decay of ?b
+		?a: The major differences between Wistar and OXYS lenses
+		?b: the content of gammaA-gammaF-crystallins in OXYS lenses
+	?a the significant decrease of ?b in ?c
+		?a: The major differences between Wistar and OXYS lenses
+		?b: unmodified alphaA-crystallin abundance
+		?c: old OXYS lenses
+
+
+label:    sent_26
+sentence: Calculations indicate that the ( 1 ) ( npi * ) state is the accessible low-lying singlet state with a notable oscillator strength under an excitation wavelength of 320 nm and that it can effectively decay to the ( 3 ) ( pipi * ) state through intersystem crossing in the region of minimum surface crossings with a notable spin-orbital coupling constant .
+
+ppatt:
+	?a indicate ?b
+		?a: Calculations
+		?b: SOMETHING := the npi * ) state is the accessible low-lying singlet state with a notable oscillator strength under an excitation wavelength of 320 nm
+	?a is the accessible low-lying singlet state with ?b
+		?a: the npi * ) state
+		?b: a notable oscillator strength under an excitation wavelength of 320 nm
+	?a can effectively decay to ?b
+		?a: it
+		?b: the ( pipi * ) state through intersystem crossing in the region of minimum surface crossings with a notable spin-orbital coupling constant
+
+
+label:    sent_27
+sentence: In particular , this contribution will focus on : ( 1 ) ' ad hoc ' experiments designed to quantify key parameters involved in intercellular signalling ( focusing , as a pilot study , on release , decay and internalization of interleukine-6 molecules , their modulation by radiation , and possible differences between in vivo/in vitro behaviour ) ; ( 2 ) the implementation and the development of two different modelling approaches : a stochastic model ( based on a Monte Carlo code ) that takes account of the local mechanisms of release and internalization of signalling molecules ( e.g. cytokines ) and an analytical model where signal molecules are treated as a population and their temporal behaviour is described by differential equations .
+
+ppatt:
+	In ?a , ?b will focus on ?c
+		?a: particular
+		?b: this contribution
+		?c: ad hoc ' experiments designed to quantify key parameters involved in intercellular signalling as a pilot study on release , decay and internalization of interleukine-6 molecules , their modulation by radiation , and possible differences between in vivo/in behaviour
+	?a designed to quantify ?b as ?c on ?d
+		?a: ad hoc ' experiments
+		?b: key parameters involved in intercellular signalling
+		?c: a pilot study
+		?d: release , of interleukine-6 molecules
+	?a designed to quantify ?b as ?c on ?d
+		?a: ad hoc ' experiments
+		?b: key parameters involved in intercellular signalling
+		?c: a pilot study
+		?d: decay
+	?a designed to quantify ?b as ?c on ?d
+		?a: ad hoc ' experiments
+		?b: key parameters involved in intercellular signalling
+		?c: a pilot study
+		?d: internalization
+	?a designed to quantify ?b as ?c on ?d
+		?a: ad hoc ' experiments
+		?b: key parameters involved in intercellular signalling
+		?c: a pilot study
+		?d: their modulation by radiation
+	?a designed to quantify ?b as ?c on ?d
+		?a: ad hoc ' experiments
+		?b: key parameters involved in intercellular signalling
+		?c: a pilot study
+		?d: possible differences between in vivo/in behaviour
+	?a involved in ?b
+		?a: key parameters
+		?b: intercellular signalling
+	?a takes ?b
+		?a: a stochastic model
+		?b: account of the local mechanisms of release and internalization of signalling molecules and an analytical model where signal molecules are treated as a population and their temporal behaviour is described by differential equations
+	?a is/are e.g. cytokines
+		?a: signalling molecules
+	?a where ?b are treated as ?c
+		?a: an analytical model and their temporal behaviour is described by differential equations
+		?b: signal molecules
+		?c: a population
+	?a ?b is described by ?c
+		?a: an analytical model where signal molecules are treated as a population
+		?b: their temporal behaviour
+		?c: differential equations
+
+
+label:    sent_28
+sentence: Nutrients and the Pkh1/2 and Pkc1 protein kinases control mRNA decay and P-body assembly in yeast .
+
+ppatt:
+	?a control ?b
+		?a: Nutrients
+		?b: mRNA decay in yeast
+	?a control ?b
+		?a: Pkh1/2
+		?b: mRNA decay in yeast
+	?a control ?b
+		?a: Nutrients
+		?b: P-body assembly
+	?a control ?b
+		?a: Pkh1/2
+		?b: P-body assembly
+
+
+label:    sent_29
+sentence: In time , the quantity A ( t ) causes an exponential decay for the mode amplitude correlation functions for times < 1 ; a stretched exponential with an exponent 1/2 between times 1 and tau ( R ) ~ N ( 2 ) , the time-scale for diffusion of tagged reptons along the contour of the polymer ; and again an exponential decay for times t > tau ( R ) .
+
+ppatt:
+	?a is/are t
+		?a: the quantity A
+	In ?a , ?b causes ?c
+		?a: time
+		?b: the quantity A
+		?c: an exponential decay for the mode amplitude correlation functions for times < 1
+	In ?a , ?b causes ?c
+		?a: time
+		?b: the quantity A
+		?c: a stretched exponential with an exponent 1/2 between times 1 and tau
+	In ?a , ?b causes ?c
+		?a: time
+		?b: the quantity A
+		?c: again an exponential decay for times t > tau
+	?a is/are R
+		?a: tau
+	?a is/are 2
+		?a: ~ N
+	?a is/are R
+		?a: times t > tau
+
+

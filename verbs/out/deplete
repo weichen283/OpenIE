@@ -1,0 +1,258 @@
+label:    sent_1
+sentence: One day prior to evaluation , all animals were fasted to deplete glycogen stores .
+
+ppatt:
+	?a ?b were fasted to deplete ?c
+		?a: One day prior to evaluation
+		?b: all animals
+		?c: glycogen stores
+
+
+label:    sent_2
+sentence: Antibodies were used to deplete CD4 ( + ) and NK cells .
+
+ppatt:
+	?a were used to deplete ?b
+		?a: Antibodies
+		?b: CD4
+	?a were used to deplete ?b
+		?a: Antibodies
+		?b: NK
+	?a were used to deplete ?b
+		?a: Antibodies
+		?b: cells
+
+
+label:    sent_3
+sentence: Further doses might be indicated to deplete non-circulating B cells .
+
+ppatt:
+	?a might be indicated to deplete ?b
+		?a: Further doses
+		?b: non-circulating B cells
+
+
+label:    sent_4
+sentence: A monolithic column of 4.4 muL can deplete 28.2 muL of undiluted serum .
+
+ppatt:
+	?a can deplete ?b
+		?a: A monolithic column of 4.4 muL
+		?b: 28.2 muL of undiluted serum
+
+
+label:    sent_5
+sentence: Moreover , GnRH-ant alone could deplete primordial follicles .
+
+ppatt:
+	Moreover , ?a could deplete ?b
+		?a: GnRH-ant alone
+		?b: primordial follicles
+
+
+label:    sent_6
+sentence: Both pimecrolimus and corticosteroids deplete plasmacytoid dendritic cells in patients with atopic dermatitis .
+
+ppatt:
+	?a deplete ?b in ?c
+		?a: pimecrolimus
+		?b: plasmacytoid dendritic cells
+		?c: patients with atopic dermatitis
+	?a deplete ?b in ?c
+		?a: corticosteroids
+		?b: plasmacytoid dendritic cells
+		?c: patients with atopic dermatitis
+
+
+label:    sent_7
+sentence: Their amounts decrease or deplete along with the progression of AIDS-related lymphadenopathy . GRM1 was able to deplete NK cell activity in complement-dependent lysis .
+
+ppatt:
+	?a decrease along with ?b
+		?a: Their amounts
+		?b: the progression of AIDS-related lymphadenopathy
+	?a deplete
+		?a: Their amounts
+	?a was able to deplete ?b in ?c
+		?a: GRM1
+		?b: NK cell activity
+		?c: complement-dependent lysis
+
+
+label:    sent_8
+sentence: Synechococcus Nageli can also deplete phosphate to much lower levels than can S. quadricauda . Abatacept inhibits T-cell function but does not deplete T cells .
+
+ppatt:
+	?a can also deplete ?b to ?c
+		?a: Synechococcus Nageli
+		?b: phosphate
+		?c: much lower levels
+	can ?a . ?b inhibits ?c
+		?a: S. quadricauda
+		?b: Abatacept
+		?c: T-cell function
+	?a does not deplete ?b
+		?a: S. quadricauda
+		?b: T cells
+
+
+label:    sent_9
+sentence: Plasma atrial natriuretic peptide concentrations during exercise in sodium replete and deplete normal man .
+
+ppatt:
+	deplete ?a
+		?a: normal man
+
+
+label:    sent_10
+sentence: This is apparently due to a failure to deplete 2-ketoglutarate and accumulate citrate .
+
+ppatt:
+	?a is apparently due to a failure
+		?a: This
+	?a deplete ?b
+		?a: apparently a failure
+		?b: 2-ketoglutarate
+	?a accumulate ?b
+		?a: This
+		?b: citrate
+
+
+label:    sent_11
+sentence: These species and other top predators apparently deplete the krill and silverfish .
+
+ppatt:
+	?a apparently deplete ?b
+		?a: These species
+		?b: the krill
+	?a apparently deplete ?b
+		?a: other top predators
+		?b: the krill
+	?a apparently deplete ?b
+		?a: These species
+		?b: silverfish
+	?a apparently deplete ?b
+		?a: other top predators
+		?b: silverfish
+
+
+label:    sent_12
+sentence: Amphetamine and reserpine deplete brain biogenic amines and alter blow fly feeding behavior . MSC efficiently deplete arginine and generate ornithine .
+
+ppatt:
+	?a deplete ?b
+		?a: Amphetamine
+		?b: brain biogenic amines
+	?a deplete ?b
+		?a: reserpine
+		?b: brain biogenic amines
+	?a alter ?b
+		?a: Amphetamine
+		?b: blow fly feeding behavior
+	?a alter ?b
+		?a: reserpine
+		?b: blow fly feeding behavior
+	?a efficiently deplete ?b
+		?a: MSC
+		?b: arginine
+	?a generate ?b
+		?a: MSC
+		?b: ornithine
+
+
+label:    sent_13
+sentence: Alien marine fishes deplete algal biomass in the Eastern Mediterranean .
+
+ppatt:
+	?a deplete ?b
+		?a: Alien marine fishes
+		?b: algal biomass in the Eastern Mediterranean
+
+
+label:    sent_14
+sentence: Reactive oxygen species selectively deplete normal T lymphocytes via a hydroxyl radical dependent mechanism .
+
+ppatt:
+	?a selectively deplete ?b via ?c
+		?a: Reactive oxygen species
+		?b: normal T lymphocytes
+		?c: a hydroxyl radical dependent mechanism
+
+
+label:    sent_15
+sentence: Tumour promoters but not initiators deplete Langerhans cells from murine epidermis .
+
+ppatt:
+	?a deplete ?b from ?c
+		?a: Tumour promoters
+		?b: Langerhans cells
+		?c: murine epidermis
+	?a deplete ?b from ?c
+		?a: initiators
+		?b: Langerhans cells
+		?c: murine epidermis
+
+
+label:    sent_16
+sentence: Polyclonal antithymocyte globulins have been assumed to deplete or sequester immunocompetent T cells .
+
+ppatt:
+	?a have been assumed to deplete ?b
+		?a: Polyclonal antithymocyte globulins
+		?b: immunocompetent T cells
+	?a have been assumed to sequester
+		?a: Polyclonal antithymocyte globulins
+
+
+label:    sent_17
+sentence: Chemotherapy has the potential to deplete and destroy a woman 's reproductive potential .
+
+ppatt:
+	?a has ?b
+		?a: Chemotherapy
+		?b: the potential to deplete and destroy a woman 's reproductive potential
+	?a deplete ?b
+		?a: the potential
+		?b: a woman 's reproductive potential
+	destroy ?a
+		?a: a woman 's reproductive potential
+
+
+label:    sent_18
+sentence: Different strategies have thus been explored to deplete and/or inactivate MDSC in vivo .
+
+ppatt:
+	?a have thus been explored to deplete ?b in vivo
+		?a: Different strategies
+		?b: MDSC
+	?a have thus been explored to inactivate in
+		?a: Different strategies
+
+
+label:    sent_19
+sentence: As noted in this guideline , residues at injection sites commonly deplete erratically . CSH is an agent that can deplete somatostatin to increase circulating GH level .
+
+ppatt:
+	noted in ?a ?b
+		?a: this guideline
+		?b: residues at injection sites
+	?a commonly deplete erratically
+		?a: residues at injection sites
+	?a is an agent
+		?a: CSH
+	?a can deplete ?b to increase ?c
+		?a: an agent
+		?b: somatostatin
+		?c: circulating GH level
+
+
+label:    sent_20
+sentence: The stress inducible vectors also effectively deplete co-expressed pro-apoptotic protein CHOP with heat shock .
+
+ppatt:
+	?a also effectively deplete ?b with ?c
+		?a: The stress inducible vectors
+		?b: co-expressed pro-apoptotic protein CHOP
+		?c: heat shock
+
+

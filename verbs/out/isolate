@@ -1,0 +1,316 @@
+label:    sent_1
+sentence: It is possible to isolate mutants that grow and replicate outside prey bacteria .
+
+ppatt:
+	?a is possible to isolate ?b
+		?a: It
+		?b: mutants that grow and replicate outside prey bacteria
+	?a grow
+		?a: mutants
+	?a replicate outside ?b
+		?a: that
+		?b: prey bacteria
+
+
+label:    sent_2
+sentence: Corynebacterium ammoniagenes N424 was metabolically modified to isolate overproducers of deoxycytidine .
+
+ppatt:
+	?a was metabolically modified to isolate ?b
+		?a: Corynebacterium ammoniagenes
+		?b: overproducers of deoxycytidine
+
+
+label:    sent_3
+sentence: CHROMagar O26 / O157 agar plates were used to select and isolate EHEC .
+
+ppatt:
+	?a were used to select ?b
+		?a: CHROMagar O26 / O157 agar plates
+		?b: EHEC
+	?a were used to isolate
+		?a: CHROMagar O26 / O157 agar plates
+
+
+label:    sent_4
+sentence: Explant culture : an efficient method to isolate adipose-derived stromal cells for tissue engineering .
+
+ppatt:
+	?a isolate ?b for ?c
+		?a: an efficient method
+		?b: adipose-derived stromal cells
+		?c: tissue engineering
+
+
+label:    sent_5
+sentence: The first step in RNA-Seq is to isolate whole transcriptome from total RNA .
+
+ppatt:
+	?a is to isolate ?b
+		?a: The first step in RNA-Seq
+		?b: whole transcriptome from total RNA
+
+
+label:    sent_6
+sentence: To isolate IL-6R antagonists from the cultured broth of the strain Torulomyces ovatus .
+
+ppatt:
+	isolate ?a
+		?a: IL-6R antagonists from the cultured broth of the strain Torulomyces ovatus
+
+
+label:    sent_7
+sentence: To isolate and characterize the IgE-binding proteins of PP pollen for the first time .
+
+ppatt:
+	isolate ?a for ?b
+		?a: the IgE-binding proteins of PP pollen
+		?b: the first time
+	characterize ?a
+		?a: the IgE-binding proteins of PP pollen
+
+
+label:    sent_8
+sentence: We used soft agar to isolate and purify phototrophic bacteria .
+
+ppatt:
+	?a used ?b
+		?a: We
+		?b: soft agar
+	?a isolate ?b
+		?a: We
+		?b: phototrophic bacteria
+	?a purify
+		?a: We
+
+
+label:    sent_9
+sentence: This chapter describes methods to isolate and identify these growth promoting agents .
+
+ppatt:
+	?a describes ?b
+		?a: This chapter
+		?b: methods to isolate and identify these growth promoting agents
+	?a isolate ?b
+		?a: methods
+		?b: these growth promoting agents
+	identify ?a
+		?a: these growth promoting agents
+
+
+label:    sent_10
+sentence: To isolate and manipulate brain rhythms associated with cortical excitability .
+
+ppatt:
+	isolate ?a
+		?a: brain rhythms associated with cortical excitability
+	manipulate ?a
+		?a: brain rhythms associated with cortical excitability
+	?a associated with ?b
+		?a: brain rhythms
+		?b: cortical excitability
+
+
+label:    sent_11
+sentence: To isolate the constituents of Senecio scandens and determine their structures .
+
+ppatt:
+	isolate ?a
+		?a: the constituents of Senecio scandens
+	determine ?a
+		?a: their structures
+
+
+label:    sent_12
+sentence: To isolate novel actinomycetes and to evaluate their antibacterial activity . A yeast-based assay to isolate drugs active against mammalian prions .
+
+ppatt:
+	isolate ?a
+		?a: novel actinomycetes
+	evaluate ?a
+		?a: their antibacterial activity
+	?a isolate ?b
+		?a: A yeast-based assay
+		?b: drugs active against mammalian prions
+
+
+label:    sent_13
+sentence: Coupling reverse osmosis with electrodialysis to isolate natural organic matter from fresh waters .
+
+ppatt:
+	?a with electrodialysis to isolate ?b
+		?a: Coupling reverse osmosis
+		?b: natural organic matter from fresh waters
+
+
+label:    sent_14
+sentence: Treatments that electrically isolate portions of the atria are clinically effective in curing AF .
+
+ppatt:
+	?a electrically isolate ?b
+		?a: Treatments
+		?b: portions of the atria
+	?a are clinically effective in ?b
+		?a: Treatments that electrically isolate portions of the atria
+		?b: curing AF
+
+
+label:    sent_15
+sentence: A straightforward approach to isolate DNA sequences with potential linkage to the retinoblastoma locus .
+
+ppatt:
+	?a isolate ?b with ?c
+		?a: A straightforward approach
+		?b: DNA sequences
+		?c: potential linkage to the retinoblastoma locus
+
+
+label:    sent_16
+sentence: Sonography may , thus , isolate patients at high risk for possible future complications .
+
+ppatt:
+	?a may , thus , isolate ?b for ?c
+		?a: Sonography
+		?b: patients at high risk
+		?c: possible future complications
+
+
+label:    sent_17
+sentence: In both cases , blood cultures isolate a Streptobacillus moniliformis .
+
+ppatt:
+	In ?a , ?b isolate ?c
+		?a: both cases
+		?b: blood cultures
+		?c: a Streptobacillus moniliformis
+
+
+label:    sent_18
+sentence: Firstly , reversed-phase HPLC-ESI-MS was applied to identify and isolate at semipreparative levels haemanthamine .
+
+ppatt:
+	Firstly , ?a was applied to identify at ?b
+		?a: reversed-phase HPLC-ESI-MS
+		?b: semipreparative levels haemanthamine
+	Firstly , ?a was applied to isolate
+		?a: reversed-phase HPLC-ESI-MS
+
+
+label:    sent_19
+sentence: This is where its contribution is most difficult to isolate in the duplex retina . A method was developed to isolate from the peritoneal exudate large numbers of macrophages .
+
+ppatt:
+	?a is ?b
+		?a: This
+		?b: SOMETHING := where its contribution is most difficult to isolate in the duplex retina
+	where ?a is most difficult to isolate in ?b
+		?a: its contribution
+		?b: the duplex retina
+	?a was developed to isolate from ?b
+		?a: A method
+		?b: the peritoneal exudate large numbers of macrophages
+
+
+label:    sent_20
+sentence: We attempted to isolate stem cells from hAMCs and differentiate them into cardiomyocytes .
+
+ppatt:
+	?a attempted to isolate ?b
+		?a: We
+		?b: stem cells from hAMCs
+	?a attempted to differentiate ?b into ?c
+		?a: We
+		?b: them
+		?c: cardiomyocytes
+
+
+label:    sent_21
+sentence: To isolate exosomes from rabbit aqueous humor and to investigate their immunosuppression function .
+
+ppatt:
+	isolate ?a
+		?a: exosomes from rabbit aqueous humor
+	investigate ?a
+		?a: their immunosuppression function
+
+
+label:    sent_22
+sentence: Glial cells surround neuronal endings and isolate them within specialized compartments .
+
+ppatt:
+	?a surround ?b
+		?a: Glial cells
+		?b: neuronal endings
+	?a isolate ?b within ?c
+		?a: Glial cells
+		?b: them
+		?c: specialized compartments
+
+
+label:    sent_23
+sentence: Biofilm formation and adherence characteristics of an Elizabethkingia meningoseptica isolate from Oreochromis mossambicus .
+
+ppatt:
+
+
+
+label:    sent_24
+sentence: Resurrection of an " extinct " SARS-CoV isolate GD03 from late 2003 .
+
+ppatt:
+	?a isolate ?b from ?c
+		?a: Resurrection of an " extinct " SARS-CoV
+		?b: GD03
+		?c: late 2003
+
+
+label:    sent_25
+sentence: Conidiation of Trichoderma atroviride isolate during submerged cultivation in a laboratory stirred-tank fermenter .
+
+ppatt:
+
+
+
+label:    sent_26
+sentence: Draping technique to isolate lashes and achieve maximum exposure .
+
+ppatt:
+	?a isolate ?b
+		?a: Draping technique
+		?b: lashes
+	achieve ?a
+		?a: maximum exposure
+
+
+label:    sent_27
+sentence: We did not isolate viruses or detect DNA from vertebrate hosts or Bartonella .
+
+ppatt:
+	?a did not isolate ?b
+		?a: We
+		?b: viruses
+	?a detect ?b
+		?a: We
+		?b: DNA from vertebrate hosts or Bartonella
+
+
+label:    sent_28
+sentence: Molecular biology data and immunoprofiles isolate lobular phenotypes and link them to invasive cancer .
+
+ppatt:
+	?a isolate ?b
+		?a: Molecular biology data
+		?b: lobular phenotypes
+	?a isolate ?b
+		?a: immunoprofiles
+		?b: lobular phenotypes
+	?a link ?b to ?c
+		?a: Molecular biology data
+		?b: them
+		?c: invasive cancer
+	?a link ?b to ?c
+		?a: immunoprofiles
+		?b: them
+		?c: invasive cancer
+
+

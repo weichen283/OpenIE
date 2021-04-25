@@ -1,0 +1,241 @@
+label:    sent_1
+sentence: Leukaemic T lymphocytes did not take less than 48 h to traverse the spleen .
+
+ppatt:
+	?a did not take ?b to traverse ?c
+		?a: Leukaemic T lymphocytes
+		?b: less than 48 h
+		?c: the spleen
+
+
+label:    sent_2
+sentence: Radiotherapy of tumors within the thorax often requires radiation beams that traverse lung tissues .
+
+ppatt:
+	?a often requires ?b
+		?a: Radiotherapy of tumors within the thorax
+		?b: radiation beams that traverse lung tissues
+	?a traverse ?b
+		?a: radiation beams
+		?b: lung tissues
+
+
+label:    sent_3
+sentence: Catheter position in an LSVC appears fluoroscopically to traverse the left pleural space .
+
+ppatt:
+	?a appears fluoroscopically to traverse ?b
+		?a: Catheter position in an LSVC
+		?b: the left pleural space
+
+
+label:    sent_4
+sentence: Blocking needles walking off the vertebra from a fixed distance frequently traverse vital organs .
+
+ppatt:
+	Blocking ?a
+		?a: needles walking off the vertebra from a fixed distance
+	?a walking off ?b
+		?a: needles
+		?b: the vertebra from a fixed distance
+	?a frequently traverse ?b
+		?a: SOMETHING := Blocking needles walking off the vertebra from a fixed distance
+		?b: vital organs
+
+
+label:    sent_5
+sentence: The porphyrins need energy to traverse biological membranes .
+
+ppatt:
+	?a need ?b to traverse ?c
+		?a: The porphyrins
+		?b: energy
+		?c: biological membranes
+
+
+label:    sent_6
+sentence: Such characteristics help the cells traverse this critical barrier .
+
+ppatt:
+	?a help ?b
+		?a: Such characteristics
+		?b: SOMETHING := the cells traverse this critical barrier
+	?a traverse ?b
+		?a: the cells
+		?b: this critical barrier
+
+
+label:    sent_7
+sentence: Many species traverse multiple habitats across ecosystems to complete their life histories .
+
+ppatt:
+	?a traverse ?b across ?c to complete ?d
+		?a: Many species
+		?b: multiple habitats
+		?c: ecosystems
+		?d: their life histories
+
+
+label:    sent_8
+sentence: Dependence of subjective traverse length on velocity of moving tactile stimuli .
+
+ppatt:
+
+
+
+label:    sent_9
+sentence: Extracellularly-generated oxidants must traverse long distances before interacting with nuclear target molecules .
+
+ppatt:
+	?a must traverse ?b
+		?a: Extracellularly-generated oxidants
+		?b: long distances
+	?a interacting with ?b
+		?a: Extracellularly-generated oxidants
+		?b: nuclear target molecules
+
+
+label:    sent_10
+sentence: Microorganisms traverse the follicular epithelium and enter the perivitelline space .
+
+ppatt:
+	?a traverse ?b
+		?a: Microorganisms
+		?b: the follicular epithelium
+	?a enter ?b
+		?a: Microorganisms
+		?b: the perivitelline space
+
+
+label:    sent_11
+sentence: Other peptidergic fibers traverse the median eminence and terminate in the posterior pituitary .
+
+ppatt:
+	?a traverse ?b
+		?a: Other peptidergic fibers
+		?b: the median eminence
+	?a terminate in ?b
+		?a: Other peptidergic fibers
+		?b: the posterior pituitary
+
+
+label:    sent_12
+sentence: These motifs traverse the conserved protein kinase core and play integrating and regulatory roles . Calcium ions , however , are required and may traverse the plasma membrane .
+
+ppatt:
+	?a traverse ?b
+		?a: These motifs
+		?b: the conserved protein kinase core
+	?a play integrating ?b
+		?a: These motifs
+		?b: roles
+	?a however , are required
+		?a: Calcium ions
+	?a may traverse ?b
+		?a: Calcium ions
+		?b: the plasma membrane
+
+
+label:    sent_13
+sentence: Invasive illness occurs after organisms traverse an epithelial boundary and enter deeper tissues .
+
+ppatt:
+	?a occurs after ?b
+		?a: Invasive illness
+		?b: organisms
+	?a traverse ?b
+		?a: Invasive illness
+		?b: an epithelial boundary
+	?a enter ?b
+		?a: Invasive illness
+		?b: deeper tissues
+
+
+label:    sent_14
+sentence: Critical care transfers are common , and traverse an informal but structured network .
+
+ppatt:
+	?a are common
+		?a: Critical care transfers
+	?a traverse ?b
+		?a: Critical care transfers
+		?b: an informal but structured network
+
+
+label:    sent_15
+sentence: The protein is supposed to traverse the membrane 26 times in a beta-sheet conformation .
+
+ppatt:
+	?a is supposed to traverse ?b in ?c
+		?a: The protein
+		?b: the membrane 26 times
+		?c: a beta-sheet conformation
+
+
+label:    sent_16
+sentence: Spermatozoa have to traverse the cumulus oophorus before fertilization in vivo .
+
+ppatt:
+	?a have to traverse ?b before ?c in vivo
+		?a: Spermatozoa
+		?b: the cumulus oophorus
+		?c: fertilization
+
+
+label:    sent_17
+sentence: Some axons from the Probst bundle also managed to traverse midline in this manner .
+
+ppatt:
+	?a also managed to traverse ?b in ?c
+		?a: Some axons from the Probst bundle
+		?b: midline
+		?c: this manner
+
+
+label:    sent_18
+sentence: Individual neurons traverse across these transcriptional states in response to cellular inputs .
+
+ppatt:
+	?a traverse across ?b to ?c
+		?a: Individual neurons
+		?b: these transcriptional states
+		?c: cellular inputs
+
+
+label:    sent_19
+sentence: Cell cycle traverse in NHIK-3025 carcinoma of the uterine cervix after low-dose-rate irradiation .
+
+ppatt:
+	?a traverse in ?b after ?c
+		?a: Cell cycle
+		?b: NHIK-3025 carcinoma of the uterine cervix
+		?c: low-dose-rate irradiation
+
+
+label:    sent_20
+sentence: The suprascapular nerves and the vessels traverse through the suprascapular foramen of the scapula . One occlusion was too long to traverse safely in one patient .
+
+ppatt:
+	?a traverse through ?b
+		?a: The suprascapular nerves
+		?b: the suprascapular foramen of the scapula
+	?a traverse through ?b
+		?a: the vessels
+		?b: the suprascapular foramen of the scapula
+	?a was too long to traverse safely in ?b
+		?a: One occlusion
+		?b: one patient
+
+
+label:    sent_21
+sentence: The mechanism by which trichomonads traverse the mucous covering is unknown .
+
+ppatt:
+	?a by ?b traverse ?c
+		?a: The mechanism
+		?b: trichomonads
+		?c: the mucous covering
+	?a is unknown
+		?a: The mechanism by which trichomonads traverse the mucous covering
+
+

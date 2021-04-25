@@ -1,0 +1,281 @@
+label:    sent_1
+sentence: Activation of sensor systems is required to depolarize afferent neurons .
+
+ppatt:
+	?a is required to depolarize ?b
+		?a: Activation of sensor systems
+		?b: afferent neurons
+
+
+label:    sent_2
+sentence: Both procedures are known to depolarize horizontal cells .
+
+ppatt:
+	?a are known to depolarize ?b
+		?a: Both procedures
+		?b: horizontal cells
+
+
+label:    sent_3
+sentence: Basolateral application of Ba2+ to depolarize cells also induced K+ secretion .
+
+ppatt:
+	?a depolarize ?b
+		?a: Basolateral application of Ba2+
+		?b: cells
+	?a also induced ?b
+		?a: Basolateral application of Ba2+ to depolarize cells
+		?b: K+ secretion
+
+
+label:    sent_4
+sentence: E-type prostaglandins depolarize primary afferent neurons of the neonatal rat . Glutamate can depolarize many lateral horn cells .
+
+ppatt:
+	?a depolarize ?b
+		?a: E-type prostaglandins
+		?b: primary afferent neurons
+	?a can depolarize ?b
+		?a: of the neonatal rat Glutamate
+		?b: many lateral horn cells
+
+
+label:    sent_5
+sentence: Serum and epidermal growth factor transiently depolarize quiescent BSC-1 epithelial cells .
+
+ppatt:
+	?a transiently depolarize ?b
+		?a: Serum
+		?b: quiescent BSC-1 epithelial cells
+	?a transiently depolarize ?b
+		?a: epidermal growth factor
+		?b: quiescent BSC-1 epithelial cells
+
+
+label:    sent_6
+sentence: They depolarize immature neurons but hyperpolarize more mature neurons . Mitochondrial-disrupting peptides depolarize the mitochondria and trigger apoptosis after entering tumor cells .
+
+ppatt:
+	?a depolarize ?b
+		?a: They
+		?b: immature neurons
+	?a hyperpolarize ?b
+		?a: They
+		?b: more mature neurons
+	?a depolarize ?b
+		?a: Mitochondrial-disrupting peptides
+		?b: the mitochondria
+	?a trigger ?b
+		?a: Mitochondrial-disrupting peptides
+		?b: apoptosis
+	?a entering ?b
+		?a: Mitochondrial-disrupting peptides
+		?b: tumor cells
+
+
+label:    sent_7
+sentence: These inward currents depolarize the cell to produce spiking and inhibit the opposite cell .
+
+ppatt:
+	?a depolarize ?b to produce ?c
+		?a: These inward currents
+		?b: the cell
+		?c: spiking
+	?a depolarize to inhibit ?b
+		?a: These inward currents
+		?b: the opposite cell
+
+
+label:    sent_8
+sentence: Valinomycin can depolarize mitochondria in intact lymphocytes without increasing plasma membrane potassium fluxes .
+
+ppatt:
+	?a can depolarize ?b in ?c
+		?a: Valinomycin
+		?b: mitochondria
+		?c: intact lymphocytes
+	?a increasing ?b
+		?a: Valinomycin
+		?b: plasma membrane potassium fluxes
+
+
+label:    sent_9
+sentence: Vasoconstrictor hormones depolarize renal glomerular mesangial cells by activating chloride channels .
+
+ppatt:
+	?a depolarize ?b
+		?a: Vasoconstrictor hormones
+		?b: renal glomerular mesangial cells
+	?a activating ?b
+		?a: Vasoconstrictor hormones
+		?b: chloride channels
+
+
+label:    sent_10
+sentence: Bombesin-like peptides depolarize rat hippocampal interneurones through interaction with subtype 2 bombesin receptors .
+
+ppatt:
+	?a depolarize ?b through ?c
+		?a: Bombesin-like peptides
+		?b: rat hippocampal interneurones
+		?c: interaction with subtype 2 bombesin receptors
+
+
+label:    sent_11
+sentence: We have used uncouplers to depolarize the mitochondrial membrane and disrupt the ionic balance .
+
+ppatt:
+	?a have used ?b to depolarize ?c
+		?a: We
+		?b: uncouplers
+		?c: the mitochondrial membrane
+	?a have used to disrupt ?b
+		?a: We
+		?b: the ionic balance
+
+
+label:    sent_12
+sentence: Hexoses rapidly depolarize the plasmalemma of the thallus cell and increase its electrical conductance .
+
+ppatt:
+	?a rapidly depolarize ?b
+		?a: Hexoses
+		?b: the plasmalemma of the thallus cell
+	?a increase ?b
+		?a: Hexoses
+		?b: its electrical conductance
+
+
+label:    sent_13
+sentence: Once oxidized , lipids have the capacity to damage and depolarize cytoplasmic membranes .
+
+ppatt:
+	Once oxidized ?a
+		?a: lipids
+	?a have ?b
+		?a: lipids
+		?b: the capacity to damage
+	?a damage
+		?a: the capacity
+	?a depolarize ?b
+		?a: lipids
+		?b: cytoplasmic membranes
+
+
+label:    sent_14
+sentence: Pyrimidine nucleotides suppress KDR currents and depolarize rat cerebral arteries by activating Rho kinase .
+
+ppatt:
+	?a suppress ?b
+		?a: Pyrimidine nucleotides
+		?b: KDR currents
+	?a depolarize ?b
+		?a: Pyrimidine nucleotides
+		?b: rat cerebral arteries
+	?a activating ?b
+		?a: Pyrimidine nucleotides
+		?b: Rho kinase
+
+
+label:    sent_15
+sentence: An electrical stimulus was used to depolarize the posterior tibial nerve at the ankle .
+
+ppatt:
+	?a was used to depolarize ?b at ?c
+		?a: An electrical stimulus
+		?b: the posterior tibial nerve
+		?c: the ankle
+
+
+label:    sent_16
+sentence: These fibers continuously depolarize during diastole .
+
+ppatt:
+	?a continuously depolarize during ?b
+		?a: These fibers
+		?b: diastole
+
+
+label:    sent_17
+sentence: Olfactory receptor neurons depolarize in response to odorants . Neutrophils depolarize in response to activation by agonists .
+
+ppatt:
+	?a depolarize in ?b to ?c
+		?a: Olfactory receptor neurons
+		?b: response
+		?c: odorants
+	?a depolarize in ?b to ?c
+		?a: Neutrophils
+		?b: response
+		?c: activation by agonists
+
+
+label:    sent_18
+sentence: Using channels that depolarize across different partitions , we obtain related multipartite entanglement measures .
+
+ppatt:
+	Using ?a ?b
+		?a: channels that depolarize across different partitions
+		?b: we
+	?a depolarize across ?b
+		?a: channels
+		?b: different partitions
+	?a obtain ?b
+		?a: we
+		?b: related multipartite entanglement measures
+
+
+label:    sent_19
+sentence: Hemolysin caused the membrane to depolarize reversibly without affecting the action potential generating mechanism .
+
+ppatt:
+	?a caused ?b to depolarize reversibly
+		?a: Hemolysin
+		?b: the membrane
+	?a affecting ?b
+		?a: Hemolysin
+		?b: the action potential generating mechanism
+
+
+label:    sent_20
+sentence: Increases in external pH cause the PD to depolarize by a few millivolts .
+
+ppatt:
+	?a cause ?b to depolarize by ?c
+		?a: Increases in external pH
+		?b: the PD
+		?c: a few millivolts
+
+
+label:    sent_21
+sentence: Glial cells also depolarize but retain membrane resistance .
+
+ppatt:
+	?a also depolarize
+		?a: Glial cells
+	?a retain ?b
+		?a: Glial cells
+		?b: membrane resistance
+
+
+label:    sent_22
+sentence: Spin resonances can depolarize or spin flip a polarized beam .
+
+ppatt:
+	?a can depolarize ?b ?c
+		?a: Spin resonances
+		?b: flip
+		?c: a polarized beam
+
+
+label:    sent_23
+sentence: Resistance arteries depolarize and constrict to elevations in intravascular pressure .
+
+ppatt:
+	?a depolarize
+		?a: Resistance arteries
+	?a constrict to ?b
+		?a: Resistance arteries
+		?b: elevations in intravascular pressure
+
+

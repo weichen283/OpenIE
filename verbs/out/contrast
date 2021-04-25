@@ -1,0 +1,104 @@
+label:    sent_1
+sentence: These findings contrast with electrophysiological flicker tests in young participants that show impairment at photopic illumination during the same levels of mild hypoxia .
+
+ppatt:
+	?a contrast with ?b
+		?a: These findings
+		?b: electrophysiological flicker tests in young participants that show impairment at photopic illumination during the same levels of mild hypoxia
+	?a show ?b during ?c
+		?a: young participants
+		?b: impairment at photopic illumination
+		?c: the same levels of mild hypoxia
+
+
+label:    sent_2
+sentence: The purpose of this study was to contrast the response of previously resistance-trained male and female recreational athletes with a traditionally periodized resistance training program .
+
+ppatt:
+	?a was to contrast ?b
+		?a: The purpose of this study
+		?b: the response of previously resistance-trained male and female recreational athletes with a traditionally periodized resistance training program
+
+
+label:    sent_3
+sentence: These results are in agreement with in vitro data suggesting that CD28 is a major co-stimulatory signal of both Tregs development and peripheral homeostasis but contrast with clinical trials showing a better 1-year graft function and a lower incidence of chronic allograft nephropathy in patients receiving Belatacept than patients treated with CNI .
+
+ppatt:
+	?a are in agreement with ?b
+		?a: These results
+		?b: in data suggesting that CD28 is a major co-stimulatory signal of both Tregs development and peripheral homeostasis but contrast with clinical trials showing a better 1-year graft function and a lower incidence of chronic allograft nephropathy in patients receiving Belatacept than patients treated with CNI
+	?a suggesting ?b
+		?a: in data
+		?b: SOMETHING := CD28 is a major co-stimulatory signal of both Tregs development and peripheral homeostasis
+	?a is a major co-stimulatory signal of ?b
+		?a: CD28
+		?b: Tregs development
+	?a is a major co-stimulatory signal of ?b
+		?a: CD28
+		?b: peripheral homeostasis
+	?a contrast with ?b
+		?a: CD28
+		?b: clinical trials showing a better 1-year graft function and a lower incidence of chronic allograft nephropathy in patients receiving Belatacept than patients treated with CNI
+	?a showing ?b
+		?a: clinical trials
+		?b: a better 1-year graft function
+	?a showing ?b
+		?a: clinical trials
+		?b: a lower incidence of chronic allograft nephropathy in patients receiving Belatacept than patients treated with CNI
+	?a receiving ?b than ?c
+		?a: patients
+		?b: Belatacept
+		?c: patients treated with CNI
+	?a treated with ?b
+		?a: patients
+		?b: CNI
+
+
+label:    sent_4
+sentence: Herein , we compare and contrast chordoid meningioma with chordoid glioma and provide a review of the relevant literature .
+
+ppatt:
+	Herein , ?a compare chordoid ?b
+		?a: we
+		?b: meningioma with chordoid glioma
+	?a provide ?b
+		?a: we
+		?b: a review of the relevant literature
+
+
+label:    sent_5
+sentence: We describe and contrast two recent and very similar cases of preventable medical error involving inappropriate medication at a large tertiary-care academic medical center in the Midwestern United States .
+
+ppatt:
+	?a describe ?b
+		?a: We
+		?b: two recent and very similar cases of preventable medical error involving inappropriate medication at a large tertiary-care academic medical center in the Midwestern United States
+	?a involving ?b at ?c
+		?a: preventable medical error
+		?b: inappropriate medication
+		?c: a large tertiary-care academic medical center in the Midwestern United States
+
+
+label:    sent_6
+sentence: We contrast this with ranks derived from Trust standardised mortality ratios ( SMRs ) . Additionally , we contrast these with climate niche assessments for North American invasive species that were originally introduced for agronomic purposes as examples of well-intentioned introductions gone awry .
+
+ppatt:
+	?a contrast ?b . Additionally
+		?a: We
+		?b: this with ranks derived from Trust standardised mortality ratios
+	?a derived from ?b
+		?a: ranks
+		?b: Trust standardised mortality ratios
+	?a is/are SMRs
+		?a: Trust standardised mortality ratios
+	?a contrast ?b
+		?a: we
+		?b: these with climate niche assessments for North American invasive species that were originally introduced for agronomic purposes as examples of well-intentioned introductions gone awry
+	?a were originally introduced for ?b as ?c
+		?a: North American invasive species
+		?b: agronomic purposes
+		?c: examples of well-intentioned introductions gone awry
+	?a gone awry
+		?a: well-intentioned introductions
+
+

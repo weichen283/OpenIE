@@ -1,0 +1,126 @@
+label:    sent_1
+sentence: A vascular clamp was used to clamp the spermatic cord for the specified time .
+
+ppatt:
+	?a was used to clamp ?b for ?c
+		?a: A vascular clamp
+		?b: the spermatic cord
+		?c: the specified time
+
+
+label:    sent_2
+sentence: Do not clamp the umbilical cord too close .
+
+ppatt:
+	Do not clamp ?a too close
+		?a: the umbilical cord
+
+
+label:    sent_3
+sentence: Laparoscopic partial nephrectomy : is it advantageous and safe to clamp the renal artery ? When is the best time to clamp the umbilical cord after routine vaginal delivery ? How to clamp the main pulmonary artery during video-assisted thoracoscopic surgery lobectomy .
+
+ppatt:
+	?a is ?b advantageous to clamp ?c
+		?a: Laparoscopic partial nephrectomy
+		?b: it
+		?c: the renal artery
+	?a safe
+		?a: Laparoscopic partial nephrectomy
+	?a When is the best time
+		?a: Laparoscopic partial nephrectomy
+	?a clamp ?b after ?c
+		?a: When the best time
+		?b: the umbilical cord
+		?c: routine vaginal delivery
+	?a How to clamp ?b during ?c
+		?a: Laparoscopic partial nephrectomy
+		?b: the main pulmonary artery
+		?c: video-assisted thoracoscopic surgery lobectomy
+
+
+label:    sent_4
+sentence: A customs jig as used to clamp each specimen for screw insertion firmly . Soviets clamp down on dissident groups .
+
+ppatt:
+	?a Soviets clamp on ?b
+		?a: A customs jig
+		?b: down dissident groups
+
+
+label:    sent_5
+sentence: The action potential clamp as a test of space-clamp effectiveness --the Lettvin analog axon .
+
+ppatt:
+
+
+
+label:    sent_6
+sentence: Use of a disposable umbilical cord clamp in end colostomy .
+
+ppatt:
+
+
+
+label:    sent_7
+sentence: Mechanical stability analysis of reference clamp fixation in computer-assisted spine surgery .
+
+ppatt:
+
+
+
+label:    sent_8
+sentence: The optimal time to clamp the umbilical cord . Apparently , subtle alterations in Top1 clamp flexibility impact enzyme catalysis in vitro .
+
+ppatt:
+	?a clamp ?b Apparently
+		?a: The optimal time
+		?b: the umbilical cord
+	?a ?b impact ?c in vitro
+		?a: The optimal time to clamp the umbilical cord . Apparently
+		?b: subtle alterations in Top1 clamp flexibility
+		?c: enzyme catalysis
+
+
+label:    sent_9
+sentence: A simple method to clamp end-tidal carbon dioxide during rest and exercise .
+
+ppatt:
+
+
+
+label:    sent_10
+sentence: Mechanism of proliferating cell nuclear antigen clamp opening by replication factor C .
+
+ppatt:
+
+
+
+label:    sent_11
+sentence: Their clamp them by clips . Wild-type complexin-3 did not clamp exocytosis but nevertheless fully primed and activated exocytosis .
+
+ppatt:
+	?a ?b did not clamp ?c
+		?a: Their clamp by clips
+		?b: Wild-type complexin-3
+		?c: exocytosis
+	?a nevertheless fully primed ?b
+		?a: Their clamp by clips
+		?b: exocytosis
+	?a activated
+		?a: Their clamp by clips
+
+
+label:    sent_12
+sentence: Chalazion clamp for dermatological surgery . Chest tubes : to clamp or not to clamp .
+
+ppatt:
+
+
+
+label:    sent_13
+sentence: Remote access perfusion for minimally invasive cardiac surgery : to clamp or to inflate ? To clamp or not to clamp ?
+
+ppatt:
+
+
+

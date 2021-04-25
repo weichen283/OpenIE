@@ -1,0 +1,40 @@
+subj	When and why do doctors decide to become general practitioners ?	subj@doctors
+subj	Students decide to study medicine at an early age .	subj@Students
+subj	Doctors diagnose and prescribe : patients decide what to do .	subj@patients
+
+prep	A computer algorithm is used to decide between four cervical spine management strategies .	prep_between@strategies
+prep	Longer follow-up studies are needed to decide on the optimal maintenance treatment .	prep_on@treatment
+prep	These cases are often difficult to decide for surgical procedure especially in pediatric cases .	prep_for@procedure prep_in@cases
+
+obj	Patients will ultimately have to decide themselves whether they wish to discontinue drug treatment .	obj@themselves
+obj	Timing of the diagnosis is important to decide the treatment .	obj@treatment
+obj	A correct cytological diagnosis can help to decide the suitable management and operation .	obj@management
+
+subj#prep	After this , we can decide whether the tumor is benign or malignant .	subj@we prep_after@this
+subj#prep	Then , another person , a substitute , must decide for him .	subj@person prep_for@him
+subj#prep	Should the surgeon decide on relaparoscopy , then prompt action is of central importance .	subj@surgeon prep_on@relaparoscopy
+
+subj#obj	Who should decide the best minimally invasive approach ?	subj@Who obj@approach
+subj#obj	Who will decide surgery 's future ?	subj@Who obj@surgery
+subj#obj	The physician must decide the appropriate formulation for each woman .	subj@physician obj@formulation
+
+conj	Alternatives to hospital care : what are they and who should decide ?	conj_and@they
+conj	Read and decide .	conj_and@Read
+conj	Read the evidence presented and decide if this summary is correct .	conj_and@Read
+
+subj#conj	Consent and assessment of capacity to decide or refuse treatment .	subj@Consent conj_or@refuse
+subj#conj	Only the parents can decide whether they want more children or not .	subj@parents conj_or@not
+subj#conj	Some complainants decide it is one ordeal too many and withdraw from the process .	subj@complainants conj_and@withdraw
+
+subj#obj#prep	Are noninvasive tests enough to decide upon a hybrid coronary artery revascularization strategy ?	subj@tests obj@strategy prep_upon@revascularization
+subj#obj#prep	In addition , each nurse must decide his or her position on these modalities .	subj@nurse obj@his prep_in@addition
+subj#obj#prep	Who should decide margin length in pulmonary excision of lung cancer ?	subj@Who obj@length prep_in@excision
+
+prep#conj	How to decide on surgery and get the best outcome from your new joint .	prep_on@surgery conj_and@get
+prep#conj	Using the platform one can see , feel and decide as in reality .	prep@as conj_and@see
+prep#conj	Videokeratography may help decide how to follow-up and treat a presumed self-limiting disease .	prep_to@follow-up conj_and@treat
+
+subj#prep#conj	Stakeholders should decide whether formal follow-up or health surveillance is necessary .	subj@Stakeholders prep_whether@follow-up conj_or@necessary
+subj#prep#conj	Optionally , participants could decide for one option and reject one or more alternatives .	subj@participants prep_for@option conj_and@reject
+subj#prep#conj	Hospitals , AHA must decide whether to fight or settle uninsured billing cases .	subj@AHA subj@Hospitals prep@whether conj_or@settle
+

@@ -1,0 +1,170 @@
+label:    sent_1
+sentence: In contrast , L3/4 was shut in both apo-Tr and biotin-Tr . U.S. agencies may be shut out of Chernobyl follow-up . Wall Street analyst predicts 16 % of nation 's beds will shut by 1990 .
+
+ppatt:
+	In ?a , ?b was shut in ?c
+		?a: contrast
+		?b: L3/4
+		?c: apo-Tr
+	In ?a , ?b was shut in ?c
+		?a: contrast
+		?b: L3/4
+		?c: biotin-Tr
+	?a may be shut out
+		?a: U.S. agencies
+	?a predicts ?b
+		?a: of Chernobyl follow-up . Wall Street analyst
+		?b: 16 % of nation 's beds
+	?a will shut by ?b
+		?a: L3/4
+		?b: 1990
+
+
+label:    sent_2
+sentence: Forced shut down . Surrogacy agencies shut . How is the nucleotide cascade shut off ? Conversely , RhoA-kinase activity was required to shut down F-actin polymerization underlying protrusive activity .
+
+ppatt:
+	?a shut down
+		?a: Forced
+	?a ?b shut ?c
+		?a: SOMETHING := Forced
+		?b: Surrogacy agencies
+		?c: How is the nucleotide cascade shut off
+	?a shut ?b
+		?a: How the nucleotide cascade
+		?b: off
+	Conversely , ?a was required to shut ?b
+		?a: RhoA-kinase activity
+		?b: down F-actin polymerization underlying protrusive activity
+	?a underlying ?b
+		?a: down F-actin polymerization
+		?b: protrusive activity
+
+
+label:    sent_3
+sentence: Primary care : put up or shut up . Do n't shut families out . " Poor Mabel " was trying to shut out the world .
+
+ppatt:
+	?a put up or shut
+		?a: Primary care
+	?a Do n't shut ?b out
+		?a: Primary care : put up or shut
+		?b: families
+	?a was trying to shut out ?b
+		?a: " Poor Mabel "
+		?b: the world
+
+
+label:    sent_4
+sentence: Budget deficits threaten to shut out Medicaid benefits . MEK hyperphosphorylation coincides with cell cycle shut down of cultured smooth muscle cells .
+
+ppatt:
+	?a threaten to shut ?b
+		?a: Budget deficits
+		?b: out Medicaid benefits
+	?a coincides with ?b
+		?a: MEK hyperphosphorylation
+		?b: cell cycle shut down of cultured smooth muscle cells
+
+
+label:    sent_5
+sentence: Herpes simplex viruses ( HSVs ) rapidly shut off macromolecular synthesis in host cells .
+
+ppatt:
+	?a is/are HSVs
+		?a: Herpes simplex viruses
+	?a rapidly shut off ?b
+		?a: Herpes simplex viruses
+		?b: macromolecular synthesis in host cells
+
+
+label:    sent_6
+sentence: Preventing HIV-associated tuberculosis with antiretroviral therapy : shut the stable door early ! If budget woes continue , panel says DOE should shut last U.S. collider .
+
+ppatt:
+	Preventing ?a with ?b
+		?a: HIV-associated tuberculosis
+		?b: antiretroviral therapy
+	shut ?a
+		?a: the stable door early !
+	?a continue
+		?a: budget woes
+	?a says ?b
+		?a: panel
+		?b: DOE
+	?a should shut ?b
+		?a: panel
+		?b: last U.S. collider
+
+
+label:    sent_7
+sentence: Canada 's first ECG machine : shut down the laundry before use . He did ' nt managed to shut up his mouth --diagnosis idiopathic cause .
+
+ppatt:
+	?a nt
+		?a: He
+	did ?a managed to shut up ?b
+		?a: nt
+		?b: his mouth --diagnosis idiopathic cause
+
+
+label:    sent_8
+sentence: Tell the negative committee to shut up . The valves cycle open and shut every 1/12 s . Open and shut case . An open and shut case ? The germinal epithelium was hypoplastic , and the spermatogenesis was virtually totally shut off . Government will shut down or default on financial obligations .
+
+ppatt:
+	Tell ?a
+		?a: the negative committee to shut up . The valves cycle open
+	?a shut up ?b
+		?a: the negative committee
+		?b: The valves cycle open
+	shut ?a
+		?a: every 1/12 s . Open and shut
+	?a ?b was hypoplastic
+		?a: An open and shut case
+		?b: The germinal epithelium
+	?a was virtually totally shut off ?b
+		?a: the spermatogenesis
+		?b: Government
+	?a will shut ?b on ?c
+		?a: An open and shut case
+		?b: down
+		?c: financial obligations
+	?a will shut ?b on ?c
+		?a: An open and shut case
+		?b: default
+		?c: financial obligations
+
+
+label:    sent_9
+sentence: The clip was then shut off and electrocoagulation polypectomy was followed .
+
+ppatt:
+	?a was then shut
+		?a: The clip
+	?a was followed
+		?a: electrocoagulation polypectomy
+
+
+label:    sent_10
+sentence: Open or shut case as service shake-ups hinge on SNP result .
+
+ppatt:
+
+
+
+label:    sent_11
+sentence: Hospital tax-exempt market almost shut down by high rates , bond glut . GPs shut surgeries in protest at government targets .
+
+ppatt:
+	?a almost shut down by ?b
+		?a: Hospital tax-exempt market
+		?b: high rates
+	?a is/are bond glut
+		?a: high rates
+	?a shut ?b in ?c at ?d
+		?a: GPs
+		?b: surgeries
+		?c: protest
+		?d: government targets
+
+

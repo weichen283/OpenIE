@@ -1,0 +1,21 @@
+label:    sent_1
+sentence: Each strain was characterised for drug sensitivity , pathogenicity , protection against homologous and heterologous challenge , and oocyst output in replicated experiments in which three birds were caged .
+
+ppatt:
+	?a was characterised for ?b
+		?a: Each strain
+		?b: drug sensitivity , against homologous and heterologous challenge
+	?a was characterised for ?b
+		?a: Each strain
+		?b: pathogenicity
+	?a was characterised for ?b
+		?a: Each strain
+		?b: protection
+	?a was characterised for ?b
+		?a: Each strain
+		?b: oocyst output in replicated experiments in which three birds were caged
+	?a in ?b were caged
+		?a: replicated experiments
+		?b: three birds
+
+

@@ -1,0 +1,313 @@
+label:    sent_1
+sentence: Babesia microti-like parasites have been reported to infect captive non-human primates ( NHPs ) . rAAV-ASIL-5 was used to infect OVA-sensitized and -challenged rats .
+
+ppatt:
+	?a have been reported to infect ?b
+		?a: Babesia microti-like parasites
+		?b: captive non-human primates
+	?a is/are NHPs
+		?a: captive non-human primates
+	?a was used to infect ?b
+		?a: rAAV-ASIL-5
+		?b: OVA-sensitized and -challenged rats
+
+
+label:    sent_2
+sentence: Consequently , the Moap1 mutant was unable to infect the host plant .
+
+ppatt:
+	Consequently , ?a was unable to infect ?b
+		?a: the Moap1 mutant
+		?b: the host plant
+
+
+label:    sent_3
+sentence: KSHV can infect both T and B cells from primary tonsillar explant cultures .
+
+ppatt:
+	?a can infect ?b from ?c
+		?a: KSHV
+		?b: T
+		?c: primary tonsillar explant cultures
+	?a can infect ?b from ?c
+		?a: KSHV
+		?b: B
+		?c: primary tonsillar explant cultures
+
+
+label:    sent_4
+sentence: Mycobacterium caprae is a pathogen that can infect animals and humans .
+
+ppatt:
+	?a is a pathogen
+		?a: Mycobacterium caprae
+	?a can infect ?b
+		?a: a pathogen
+		?b: animals
+	?a can infect ?b
+		?a: a pathogen
+		?b: humans
+
+
+label:    sent_5
+sentence: The gene was transferred adenovirally because adenoviruses can infect DC and macrophages in vivo . ( 2 ) VAE could infect GSCs and significantly inhibit their viability . DENV can infect many cell types and cause diverse clinical and pathological effects .
+
+ppatt:
+	?a was transferred adenovirally
+		?a: The gene
+	?a can infect ?b in vivo
+		?a: adenoviruses
+		?b: DC
+	?a can infect ?b in vivo
+		?a: adenoviruses
+		?b: macrophages
+	?a could infect ?b
+		?a: VAE
+		?b: GSCs
+	?a significantly inhibit ?b
+		?a: VAE
+		?b: their viability
+	?a can infect ?b
+		?a: DENV
+		?b: many cell types
+	?a cause ?b
+		?a: DENV
+		?b: diverse clinical and pathological effects
+
+
+label:    sent_6
+sentence: Chlamydia trachomatis may infect the placenta and subsequently lead to preterm delivery . Len17 / H5 demonstrated an attenuated phenotype in mice and did not infect chickens .
+
+ppatt:
+	?a may infect ?b
+		?a: Chlamydia trachomatis
+		?b: the placenta
+	?a subsequently lead to ?b
+		?a: Chlamydia trachomatis
+		?b: preterm delivery
+	?a ?b demonstrated ?c
+		?a: Len17
+		?b: H5
+		?c: an attenuated phenotype in mice
+	?a did not infect ?b
+		?a: Len17
+		?b: chickens
+
+
+label:    sent_7
+sentence: They can cause enteritis experimentally and infect villus enterocytes .
+
+ppatt:
+	?a can cause ?b experimentally
+		?a: They
+		?b: enteritis
+	?a infect ?b
+		?a: They
+		?b: villus enterocytes
+
+
+label:    sent_8
+sentence: Wild-type beta and gamma corynebacteriophages are heteroimmune and infect lysogens of each other productively .
+
+ppatt:
+	?a ?b are heteroimmune
+		?a: Wild-type beta
+		?b: corynebacteriophages
+	?a ?b are heteroimmune
+		?a: gamma
+		?b: corynebacteriophages
+	?a infect ?b productively
+		?a: Wild-type beta
+		?b: lysogens of each other
+	?a infect ?b productively
+		?a: gamma
+		?b: lysogens of each other
+
+
+label:    sent_9
+sentence: Virus-like particles can be used to infect cells with biological and non-biological cargoes .
+
+ppatt:
+	?a can be used to infect ?b ?c
+		?a: Virus-like particles
+		?b: cells
+		?c: with biological and non-biological cargoes
+
+
+label:    sent_10
+sentence: Helicobacter pylori is thought to infect about half the world 's population .
+
+ppatt:
+	?a is thought to infect
+		?a: Helicobacter pylori
+	?a is thought to about half 's ?b
+		?a: Helicobacter pylori
+		?b: the world population
+
+
+label:    sent_11
+sentence: Attempts to infect domestic mallard ducks via skin penetration by these cercariae were unsuccessful .
+
+ppatt:
+	?a infect ?b via ?c
+		?a: Attempts
+		?b: domestic mallard ducks
+		?c: skin penetration by these cercariae
+	?a were unsuccessful
+		?a: Attempts to infect domestic mallard ducks via skin penetration by these cercariae
+
+
+label:    sent_12
+sentence: Adenovirus may infect stromal cells within the lamina propria .
+
+ppatt:
+	?a may infect ?b within ?c
+		?a: Adenovirus
+		?b: stromal cells
+		?c: the lamina propria
+
+
+label:    sent_13
+sentence: This finding suggests that herpes virus may infect endometrial cells during pregnancy .
+
+ppatt:
+	?a suggests ?b
+		?a: This finding
+		?b: SOMETHING := herpes virus may infect endometrial cells during pregnancy
+	?a may infect ?b during ?c
+		?a: herpes virus
+		?b: endometrial cells
+		?c: pregnancy
+
+
+label:    sent_14
+sentence: In addition , infected household members can infect others in the household . Native parasitic plants may be used to infect and control invasive plants .
+
+ppatt:
+	In ?a , ?b can infect ?c in ?d
+		?a: addition
+		?b: infected household members
+		?c: others
+		?d: the household
+	?a may be used to infect ?b
+		?a: Native parasitic plants
+		?b: invasive plants
+	?a may be used to control
+		?a: Native parasitic plants
+
+
+label:    sent_15
+sentence: Here we investigated the capacity of capsid-modified adenoviruses to infect and replicate in MSCs .
+
+ppatt:
+	Here ?a investigated ?b
+		?a: we
+		?b: the capacity of capsid-modified adenoviruses to infect and replicate in MSCs
+	?a infect in ?b
+		?a: the capacity of capsid-modified adenoviruses
+		?b: MSCs
+	?a replicate
+		?a: the capacity of capsid-modified adenoviruses
+
+
+label:    sent_16
+sentence: This study reports an attempt to infect and to immortalize NK cells with HTLV-I .
+
+ppatt:
+	?a reports ?b
+		?a: This study
+		?b: an attempt to infect and to immortalize NK cells with HTLV-I
+	?a infect
+		?a: an attempt
+	immortalize ?a with ?b
+		?a: NK cells
+		?b: HTLV-I
+
+
+label:    sent_17
+sentence: Trematode parasites infect or die in snail hosts . Oncolytic viruses infect , replicate in and kill cancer cells .
+
+ppatt:
+	?a infect in ?b
+		?a: Trematode parasites
+		?b: snail hosts
+	?a die
+		?a: Trematode parasites
+	?a infect
+		?a: Oncolytic viruses
+	?a replicate
+		?a: Oncolytic viruses
+	?a kill ?b
+		?a: Oncolytic viruses
+		?b: in cancer cells
+
+
+label:    sent_18
+sentence: Two coxsackievirus B3 ( CVB3 ) variants infect and replicate in the heart .
+
+ppatt:
+	?a is/are CVB3
+		?a: coxsackievirus B3
+	?a infect in ?b
+		?a: Two coxsackievirus B3 variants
+		?b: the heart
+	?a replicate
+		?a: Two coxsackievirus B3 variants
+
+
+label:    sent_19
+sentence: It can infect a number of sites in the body and disseminate . HBV could infect the ovum at different stage and replicate in it . HBV can infect the ova at different stages of development and replicate in it . MCMV does productively infect PYS2 and OTT F12 differentiated murine teratocarcinoma cell lines .
+
+ppatt:
+	?a can infect ?b
+		?a: It
+		?b: a number of sites in the body
+	?a disseminate
+		?a: It
+	?a could infect ?b at ?c
+		?a: HBV
+		?b: the ovum
+		?c: different stage
+	?a replicate in ?b
+		?a: HBV
+		?b: it
+	?a can infect ?b at ?c
+		?a: HBV
+		?b: the ova
+		?c: different stages of development
+	?a replicate in ?b
+		?a: HBV
+		?b: it
+	?a does productively infect ?b
+		?a: MCMV
+		?b: PYS2
+	?a does productively infect ?b
+		?a: MCMV
+		?b: OTT F12 differentiated murine teratocarcinoma cell lines
+
+
+label:    sent_20
+sentence: Plasmodia and other intraerythrocytic parasites reduce the deformability of the red cells they infect .
+
+ppatt:
+	?a reduce ?b
+		?a: Plasmodia
+		?b: the deformability of the red cells
+	?a reduce ?b
+		?a: other intraerythrocytic parasites
+		?b: the deformability of the red cells
+	?a infect
+		?a: they
+
+
+label:    sent_21
+sentence: Certain viruses do not kill the cells they infect .
+
+ppatt:
+	?a do not kill ?b
+		?a: Certain viruses
+		?b: the cells
+	?a infect
+		?a: they
+
+

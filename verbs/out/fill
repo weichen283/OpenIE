@@ -1,0 +1,233 @@
+label:    sent_1
+sentence: e-learning can be a good solution to fill this gap . eXiT * CBR aims to fill this gap .
+
+ppatt:
+	?a can be a good solution
+		?a: e-learning
+	?a fill ?b
+		?a: a good solution
+		?b: this gap
+	?a ?b aims to fill ?c
+		?a: eXiT
+		?b: * CBR
+		?c: this gap
+
+
+label:    sent_2
+sentence: Physician gut-feeling and diagnostic safety netting are often employed to fill the gap . Patients were requested to fill out a questionnaire prior to their first colposcopy appointment .
+
+ppatt:
+	?a are often employed to fill ?b
+		?a: Physician gut-feeling and diagnostic safety netting
+		?b: the gap
+	?a were requested to fill out ?b prior to ?c
+		?a: Patients
+		?b: a questionnaire
+		?c: their first colposcopy appointment
+
+
+label:    sent_3
+sentence: CI-SCaT will fill a gap with respect to standardizing oncology treatment .
+
+ppatt:
+	?a will fill ?b
+		?a: CI-SCaT
+		?b: a gap
+	?a standardizing ?b
+		?a: CI-SCaT
+		?b: oncology treatment
+
+
+label:    sent_4
+sentence: Students were asked to fill it in freely during a lesson .
+
+ppatt:
+	?a were asked to fill ?b in during ?c
+		?a: Students
+		?b: it
+		?c: freely a lesson
+
+
+label:    sent_5
+sentence: Prehospital data reporting may fill knowledge gaps . Eu atoms fill penta-gonal channels built from corner-sharing CdSb ( 4 ) tetra-hedra .
+
+ppatt:
+	?a reporting
+		?a: Prehospital data
+	?a may fill ?b
+		?a: Prehospital data reporting
+		?b: knowledge gaps
+	?a fill ?b
+		?a: Eu atoms
+		?b: penta-gonal channels built from corner-sharing CdSb ( 4 ) tetra-hedra
+	?a built from ?b
+		?a: penta-gonal channels
+		?b: corner-sharing CdSb ( 4 ) tetra-hedra
+
+
+label:    sent_6
+sentence: Tissue oxygen tension monitoring : will it fill the void ? This review is intended to fill this gap and discuss possible future perspectives .
+
+ppatt:
+	?a is intended to fill ?b
+		?a: This review
+		?b: this gap
+	?a is intended to discuss ?b
+		?a: This review
+		?b: possible future perspectives
+
+
+label:    sent_7
+sentence: Epidemiological research is needed to fill data gaps and update the estimates .
+
+ppatt:
+	?a is needed to fill ?b
+		?a: Epidemiological research
+		?b: data gaps
+	?a is needed to update ?b
+		?a: Epidemiological research
+		?b: the estimates
+
+
+label:    sent_8
+sentence: Reply re : " the lift and fill lower blepharoplasty " . Effect of intraoperative saline fill volume on perioperative outcomes in tissue expander breast reconstruction .
+
+ppatt:
+	fill ?a
+		?a: lower blepharoplasty "
+	?a ?b fill ?c on ?d
+		?a: Reply re : " the lift
+		?b: Effect of intraoperative saline
+		?c: volume
+		?d: perioperative outcomes in tissue expander breast reconstruction
+	?a ?b fill ?c on ?d
+		?a: fill lower blepharoplasty "
+		?b: Effect of intraoperative saline
+		?c: volume
+		?d: perioperative outcomes in tissue expander breast reconstruction
+
+
+label:    sent_9
+sentence: This gene may fill a regulatory role in the mechanism of Tn7 transposition .
+
+ppatt:
+	?a may fill ?b in ?c
+		?a: This gene
+		?b: a regulatory role
+		?c: the mechanism of Tn7 transposition
+
+
+label:    sent_10
+sentence: Clinic visits , CM interventions fill gaps in care after discharge .
+
+ppatt:
+	?a fill ?b
+		?a: Clinic visits
+		?b: gaps in care after discharge
+	?a fill ?b
+		?a: CM interventions
+		?b: gaps in care after discharge
+
+
+label:    sent_11
+sentence: Nonopacified blood can fill a cardiac septal aneurysm and mimic a pseudomass .
+
+ppatt:
+	?a can fill ?b
+		?a: Nonopacified blood
+		?b: a cardiac septal aneurysm
+	?a mimic ?b
+		?a: Nonopacified blood
+		?b: a pseudomass
+
+
+label:    sent_12
+sentence: Its bulk may fill the perineal defect and protect a delicate urethroplasty .
+
+ppatt:
+	?a may fill ?b
+		?a: Its bulk
+		?b: the perineal defect
+	?a protect ?b
+		?a: Its bulk
+		?b: a delicate urethroplasty
+
+
+label:    sent_13
+sentence: Drug couriers sometimes fill condoms with drugs and swallow them for clandestine transport .
+
+ppatt:
+	?a sometimes fill ?b
+		?a: Drug couriers
+		?b: condoms with drugs
+	?a swallow ?b for ?c
+		?a: Drug couriers
+		?b: them
+		?c: clandestine transport
+
+
+label:    sent_14
+sentence: At the end of the session , the women fill out an evaluation form . Big shoes to fill for big shoulders . All women fill out the King 's Health Questionnaire .
+
+ppatt:
+	At ?a , ?b fill out ?c to fill for ?d
+		?a: the end of the session
+		?b: the women
+		?c: an evaluation form . Big shoes
+		?d: big shoulders
+	?a fill out ?b
+		?a: All women
+		?b: the King 's Health Questionnaire
+
+
+label:    sent_15
+sentence: This study aims to fill that void .
+
+ppatt:
+	?a aims to fill ?b
+		?a: This study
+		?b: void
+
+
+label:    sent_16
+sentence: General Surgeons are thus required to fill in the lacunae .
+
+ppatt:
+	?a are thus required to fill in ?b
+		?a: General Surgeons
+		?b: the lacunae
+
+
+label:    sent_17
+sentence: Microlymphatics fill from a subepidermal depot of minute amounts of FITC-dextran 150,000 .
+
+ppatt:
+	?a fill from ?b
+		?a: Microlymphatics
+		?b: a subepidermal depot of minute amounts of FITC-dextran 150,000
+
+
+label:    sent_18
+sentence: Ultrasound-guided intrathecal pump access and prevention of the pocket fill . How can we fill in the gaps that exist among us ? Recurrent lesions often fill the fornicies and spill onto the lid margins .
+
+ppatt:
+	?a fill ?b
+		?a: Ultrasound-guided intrathecal pump access
+		?b: SOMETHING := How can we fill in the gaps that exist among us
+	?a fill ?b
+		?a: prevention of the pocket
+		?b: SOMETHING := How can we fill in the gaps that exist among us
+	How can ?a fill in ?b
+		?a: we
+		?b: the gaps that exist among us
+	?a exist among ?b
+		?a: the gaps
+		?b: us
+	?a often fill ?b
+		?a: Recurrent lesions
+		?b: the fornicies onto the lid margins
+	?a often fill ?b
+		?a: Recurrent lesions
+		?b: spill
+
+

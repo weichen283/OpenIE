@@ -1,0 +1,244 @@
+label:    sent_1
+sentence: Results come from single studies . Chronic GVHD : B cells come of age .
+
+ppatt:
+	?a come from ?b
+		?a: Results
+		?b: single studies
+	?a come of ?b
+		?a: Chronic GVHD B cells
+		?b: age
+
+
+label:    sent_2
+sentence: Another two countries come within 2 percentage points of the target prevalence of stunting . For our turn will come .
+
+ppatt:
+	?a come within ?b
+		?a: Another two countries
+		?b: 2 percentage points of the target prevalence of stunting
+	?a For ?b will come
+		?a: Another two countries
+		?b: our turn
+
+
+label:    sent_3
+sentence: Unique joint venture could be sign of more to come . RNA nanoparticles come of age .
+
+ppatt:
+	?a could be sign
+		?a: Unique joint venture
+	?a of more to come
+		?a: sign
+	?a come of ?b
+		?a: RNA nanoparticles
+		?b: age
+
+
+label:    sent_4
+sentence: Asymmetric segregation : the shape of things to come ?
+
+ppatt:
+	?a come
+		?a: Asymmetric segregation
+
+
+label:    sent_5
+sentence: The municipal safety net hospital : a concept whose time has come again ? Kinetochore assembly : if you build it , they will come .
+
+ppatt:
+	?a ?b has come again ?c
+		?a: a concept
+		?b: whose time
+		?c: Kinetochore assembly
+	?a build ?b
+		?a: you
+		?b: it
+	?a ?b will come
+		?a: The municipal safety net hospital
+		?b: they
+
+
+label:    sent_6
+sentence: Statistical tests for gender differences come from published sources or were independently computed .
+
+ppatt:
+	?a come from ?b
+		?a: Statistical tests for gender differences
+		?b: published sources
+	?a were independently computed
+		?a: Statistical tests for gender differences
+
+
+label:    sent_7
+sentence: Nine patients did not come for follow-up , and were excluded .
+
+ppatt:
+	?a did not come for ?b
+		?a: Nine patients
+		?b: follow-up
+	?a were excluded
+		?a: Nine patients
+
+
+label:    sent_8
+sentence: Models come in many varieties involving dietary and genetic manipulations , and sometimes both . Afterwards , he refused the treatment again and did not come to the hospital .
+
+ppatt:
+	?a come in ?b
+		?a: Models
+		?b: many varieties involving dietary and genetic manipulations
+	?a involving ?b
+		?a: many varieties
+		?b: dietary and genetic manipulations
+	sometimes ?a Afterwards , ?b refused ?c again
+		?a: both
+		?b: he
+		?c: the treatment
+	?a did not come to ?b
+		?a: both
+		?b: the hospital
+
+
+label:    sent_9
+sentence: Implants are made of various biocompatible metals and come in varying designs .
+
+ppatt:
+	?a are made of ?b
+		?a: Implants
+		?b: various biocompatible metals
+	?a come in ?b
+		?a: Implants
+		?b: varying designs
+
+
+label:    sent_10
+sentence: That leadership can and should come from medicine through physician executives . It 's time to come clean . Psychoanalytic theories of gender identity have come a long way since Freud .
+
+ppatt:
+	?a can should come from ?b through ?c
+		?a: leadership
+		?b: medicine
+		?c: physician executives
+	?a come ?b
+		?a: It time
+		?b: clean . Psychoanalytic theories of gender identity
+	's ?a have come ?b
+		?a: It time to come clean . Psychoanalytic theories of gender identity
+		?b: a long way
+	's ?a since Freud
+		?a: It time to come clean . Psychoanalytic theories of gender identity
+
+
+label:    sent_11
+sentence: The future of physiatry : with challenges come opportunities . Biological pacemaking : a concept whose time has come ... or is coming . [Diseases come and go ] . Are children 's hospitals an idea whose time has come and gone ? Effects of magic come in from the cold : pictorial evidence of placebo effect .
+
+ppatt:
+	?a with ?b come ?c ?d
+		?a: The future of physiatry
+		?b: challenges
+		?c: opportunities
+		?d: Biological pacemaking
+	?a ?b has come ?c
+		?a: a concept . [Diseases come and go ] . Are children 's hospitals
+		?b: whose time
+		?c: ...
+	?a is coming
+		?a: whose time
+	?a ?b come 's ?c
+		?a: a concept whose time has come ... or is coming
+		?b: [Diseases
+		?c: Are children hospitals
+	?a go ?b
+		?a: [Diseases
+		?b: ]
+	?a ?b has come
+		?a: an idea ? Effects of magic come in from the cold
+		?b: whose time
+	?a gone
+		?a: whose time
+	?a ?b come in from ?c
+		?a: an idea whose time has come and gone
+		?b: Effects of magic
+		?c: the cold
+
+
+label:    sent_12
+sentence: Patients with thyroid cancer often come along with level VI lymph nodal metastasis .
+
+ppatt:
+	?a often come along with ?b ?c
+		?a: Patients with thyroid cancer
+		?b: level
+		?c: VI lymph nodal metastasis
+
+
+label:    sent_13
+sentence: Managers and physicians come head to head over cost control .
+
+ppatt:
+	?a come ?b to ?c over ?d
+		?a: Managers
+		?b: head
+		?c: head
+		?d: cost control
+	?a come ?b to ?c over ?d
+		?a: physicians
+		?b: head
+		?c: head
+		?d: cost control
+
+
+label:    sent_14
+sentence: She was able to come home in 5 days after surgery .
+
+ppatt:
+	?a was able to come ?b in ?c after
+		?a: She
+		?b: home
+		?c: 5 days
+
+
+label:    sent_15
+sentence: Does in situ melanoma really come before invasive melanoma ? With aging come significant potential medical problems and associated psychologic disturbances .
+
+ppatt:
+	?a ?b really come before ?c
+		?a: SOMETHING := Does
+		?b: in melanoma
+		?c: invasive melanoma
+	?a With ?b come ?c
+		?a: Does
+		?b: aging
+		?c: significant potential medical problems
+	?a With ?b come ?c
+		?a: Does
+		?b: aging
+		?c: associated psychologic disturbances
+
+
+label:    sent_16
+sentence: This article describes the various hallucinogens with which adolescents may come in contact .
+
+ppatt:
+	?a describes ?b
+		?a: This article
+		?b: the various hallucinogens with which adolescents may come in contact
+	?a with ?b may come in ?c
+		?a: the various hallucinogens
+		?b: adolescents
+		?c: contact
+
+
+label:    sent_17
+sentence: The way in which this abnormal vocabulary acquisition may come about is briefly discussed .
+
+ppatt:
+	?a in ?b may come ?c
+		?a: The way
+		?b: this abnormal vocabulary acquisition
+		?c: about
+	?a is briefly discussed
+		?a: The way in which this abnormal vocabulary acquisition may come about
+
+

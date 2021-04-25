@@ -1,0 +1,339 @@
+label:    sent_1
+sentence: Early detection in order to prevent morbidity from GEP-NETs is advocated .
+
+ppatt:
+	?a order to prevent ?b
+		?a: Early detection
+		?b: morbidity from GEP-NETs
+	?a is advocated
+		?a: Early detection in order to prevent morbidity from GEP-NETs
+
+
+label:    sent_2
+sentence: Sunscreens were advised to prevent postinflammatory hyperpigmentation .
+
+ppatt:
+	?a were advised to prevent ?b
+		?a: Sunscreens
+		?b: postinflammatory hyperpigmentation
+
+
+label:    sent_3
+sentence: Despite conservative measures to prevent exposure , infections occur even in closed colonies . Nebulized epinephrine ( NE ) may prevent intubation .
+
+ppatt:
+	?a prevent ?b
+		?a: conservative measures
+		?b: exposure
+	Despite ?a , ?b occur in ?c
+		?a: conservative measures to prevent exposure
+		?b: infections
+		?c: even closed colonies
+	?a is/are NE
+		?a: Nebulized epinephrine
+	?a may prevent ?b
+		?a: Nebulized epinephrine
+		?b: intubation
+
+
+label:    sent_4
+sentence: Comparison of daily filgrastim and pegfilgrastim to prevent febrile neutropenia in Asian lymphoma patients .
+
+ppatt:
+	?a prevent ?b
+		?a: Comparison of daily filgrastim and pegfilgrastim
+		?b: febrile neutropenia in Asian lymphoma patients
+
+
+label:    sent_5
+sentence: Diagnostic vigilance and prompt isolation may prevent nosocomial transmission of influenza .
+
+ppatt:
+	?a may prevent ?b
+		?a: Diagnostic vigilance
+		?b: nosocomial transmission of influenza
+	?a may prevent ?b
+		?a: prompt isolation
+		?b: nosocomial transmission of influenza
+
+
+label:    sent_6
+sentence: The BTPE may prevent diet-induced obesity by inhibiting intestinal lipid absorption .
+
+ppatt:
+	?a may prevent ?b
+		?a: The BTPE
+		?b: diet-induced obesity
+	?a inhibiting ?b
+		?a: The BTPE
+		?b: intestinal lipid absorption
+
+
+label:    sent_7
+sentence: Community-based participatory research is a promising approach to prevent colorectal cancer in this population .
+
+ppatt:
+	?a is a promising approach
+		?a: Community-based participatory research
+	?a prevent ?b in ?c
+		?a: a promising approach
+		?b: colorectal cancer
+		?c: this population
+
+
+label:    sent_8
+sentence: Ghana currently has no legislation to prevent smoking in public places .
+
+ppatt:
+	?a currently has ?b
+		?a: Ghana
+		?b: no legislation to prevent smoking in public places
+	?a prevent ?b
+		?a: no legislation
+		?b: smoking in public places
+
+
+label:    sent_9
+sentence: Various land management strategies are used to prevent land degradation and keep land productive . EtxB modulates the response to co-administered antigens and can prevent autoimmune disease .
+
+ppatt:
+	?a are used to prevent ?b
+		?a: Various land management strategies
+		?b: land degradation
+	?a are used to keep ?b productive
+		?a: Various land management strategies
+		?b: land
+	?a modulates ?b
+		?a: EtxB
+		?b: the response to co-administered antigens
+	?a can prevent ?b
+		?a: EtxB
+		?b: autoimmune disease
+
+
+label:    sent_10
+sentence: Surgical removal of the lesion is indicated to prevent bleeding and avoid diagnostic uncertainty . For example , aspirin may prevent both disorders .
+
+ppatt:
+	?a is indicated to prevent ?b
+		?a: Surgical removal of the lesion
+		?b: bleeding
+	?a is indicated to avoid ?b
+		?a: Surgical removal of the lesion
+		?b: diagnostic uncertainty
+	For ?a , ?b may prevent ?c
+		?a: example
+		?b: aspirin
+		?c: both disorders
+
+
+label:    sent_11
+sentence: Proper age verification can prevent minors from accessing tobacco products .
+
+ppatt:
+	?a can prevent ?b
+		?a: Proper age verification
+		?b: minors
+	?a accessing ?b
+		?a: minors
+		?b: tobacco products
+
+
+label:    sent_12
+sentence: This complex would prevent translation by blocking eIF4E interactions required for initiation .
+
+ppatt:
+	?a would prevent ?b
+		?a: This complex
+		?b: translation
+	?a blocking ?b
+		?a: This complex
+		?b: eIF4E interactions required for initiation
+	?a required for ?b
+		?a: eIF4E interactions
+		?b: initiation
+
+
+label:    sent_13
+sentence: Vitamin E has been proposed as a treatment to prevent or decrease TD .
+
+ppatt:
+	?a has been proposed as ?b
+		?a: Vitamin E
+		?b: a treatment to prevent or decrease TD
+	?a prevent ?b
+		?a: a treatment
+		?b: TD
+	decrease ?a
+		?a: TD
+
+
+label:    sent_14
+sentence: New methods to prevent and treat GVHD are urgently needed .
+
+ppatt:
+	?a prevent ?b
+		?a: New methods
+		?b: GVHD
+	?a treat
+		?a: New methods
+	?a are urgently needed
+		?a: New methods to prevent and treat GVHD
+
+
+label:    sent_15
+sentence: Valgancyclovir has been used as prophylactic agent to prevent and treat cytomegalovirus infection .
+
+ppatt:
+	?a has been used as ?b to prevent ?c
+		?a: Valgancyclovir
+		?b: prophylactic agent
+		?c: cytomegalovirus infection
+	?a has been used to treat
+		?a: Valgancyclovir
+
+
+label:    sent_16
+sentence: Treatment should prevent rupture and ameliorate cardiovascular risk .
+
+ppatt:
+	?a should prevent ?b
+		?a: Treatment
+		?b: rupture
+	?a ameliorate ?b
+		?a: Treatment
+		?b: cardiovascular risk
+
+
+label:    sent_17
+sentence: Bone marrow stromal cell transplants prevent experimental enterocolitis and require host CD11b+ splenocytes .
+
+ppatt:
+	?a prevent ?b
+		?a: Bone marrow stromal cell transplants
+		?b: experimental enterocolitis
+	?a require ?b
+		?a: Bone marrow stromal cell transplants
+		?b: host CD11b+ splenocytes
+
+
+label:    sent_18
+sentence: Fluoride supplements prevent caries but can cause mild to moderate fluorosis .
+
+ppatt:
+	?a prevent ?b
+		?a: Fluoride supplements
+		?b: caries
+	?a can cause ?b to ?c
+		?a: Fluoride supplements
+		?b: mild
+		?c: moderate fluorosis
+
+
+label:    sent_19
+sentence: New strategies to prevent and manage bone complications in cancer .
+
+ppatt:
+	?a prevent ?b
+		?a: New strategies
+		?b: bone complications in cancer
+	manage ?a
+		?a: bone complications in cancer
+
+
+label:    sent_20
+sentence: We investigated whether premedication with gabapentin would prevent or attenuate this increase .
+
+ppatt:
+	?a investigated ?b
+		?a: We
+		?b: SOMETHING := premedication with gabapentin would prevent this increase
+	?a would prevent ?b
+		?a: premedication with gabapentin
+		?b: this increase
+	?a attenuate
+		?a: premedication with gabapentin
+
+
+label:    sent_21
+sentence: Intravenous ascorbic acid to prevent and treat cancer-associated sepsis ? Physical exercises prevent bone loss after menopause and during postmenopausaul and corticosteroid osteoporosis .
+
+ppatt:
+	?a prevent ?b
+		?a: Intravenous ascorbic acid
+		?b: cancer-associated sepsis
+	?a treat
+		?a: Intravenous ascorbic acid
+	?a ?b prevent ?c after ?d
+		?a: Intravenous ascorbic acid to prevent and treat cancer-associated sepsis
+		?b: Physical exercises
+		?c: bone loss
+		?d: menopause
+	?a ?b prevent ?c after ?d
+		?a: Intravenous ascorbic acid to prevent and treat cancer-associated sepsis
+		?b: Physical exercises
+		?c: bone loss
+		?d: postmenopausaul
+
+
+label:    sent_22
+sentence: Through recuperation of the constitution , we can prevent diseases and promote health .
+
+ppatt:
+	Through ?a , ?b can prevent ?c
+		?a: recuperation of the constitution
+		?b: we
+		?c: diseases
+	?a promote ?b
+		?a: we
+		?b: health
+
+
+label:    sent_23
+sentence: Nedocromil sodium may prevent the sensory nerves from becoming sensitized and inhibit their activation .
+
+ppatt:
+	?a may prevent ?b
+		?a: Nedocromil sodium
+		?b: the sensory nerves
+	?a becoming sensitized
+		?a: the sensory nerves
+	?a inhibit ?b
+		?a: Nedocromil sodium
+		?b: their activation
+
+
+label:    sent_24
+sentence: AMPK is a metabolic sensor and may prevent carcinogenesis via modulation of signaling networks .
+
+ppatt:
+	?a is a metabolic sensor
+		?a: AMPK
+	?a may prevent ?b via ?c
+		?a: AMPK
+		?b: carcinogenesis
+		?c: modulation of signaling networks
+
+
+label:    sent_25
+sentence: How can I reassure my patients and prevent misinformation from affecting their treatment ? SP-IPT can clear some submicroscopic infections but does not prevent new infections after administration .
+
+ppatt:
+	How can I reassure ?a ?b
+		?a: my patients
+		?b: SP-IPT
+	prevent ?a ?b
+		?a: misinformation
+		?b: SP-IPT
+	?a affecting ?b
+		?a: misinformation
+		?b: their treatment
+	?a can clear ?b
+		?a: SP-IPT
+		?b: some submicroscopic infections
+	?a does not prevent ?b after ?c
+		?a: SP-IPT
+		?b: new infections
+		?c: administration
+
+

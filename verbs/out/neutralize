@@ -1,0 +1,301 @@
+label:    sent_1
+sentence: Exploiting cross-reactivity to neutralize two different scorpion venoms with one single chain antibody fragment .
+
+ppatt:
+	Exploiting ?a
+		?a: cross-reactivity to neutralize two different scorpion venoms with one single chain antibody fragment
+	?a neutralize ?b with ?c
+		?a: cross-reactivity
+		?b: two different scorpion venoms
+		?c: one single chain antibody fragment
+
+
+label:    sent_2
+sentence: MPER-specific antibodies induce gp120 shedding and irreversibly neutralize HIV-1 .
+
+ppatt:
+	?a induce ?b
+		?a: MPER-specific antibodies
+		?b: gp120 shedding
+	?a irreversibly neutralize ?b
+		?a: MPER-specific antibodies
+		?b: HIV-1
+
+
+label:    sent_3
+sentence: This fact led us to find therapeutical alternatives able to neutralize circulating endotoxin .
+
+ppatt:
+	?a led ?b to find ?c
+		?a: This fact
+		?b: us
+		?c: therapeutical alternatives able to neutralize circulating endotoxin
+	neutralize ?a
+		?a: circulating endotoxin
+
+
+label:    sent_4
+sentence: A subset of these mutants did , however , neutralize HXBc2 viral infection .
+
+ppatt:
+	?a did , however , neutralize ?b
+		?a: A subset of these mutants
+		?b: HXBc2 viral infection
+
+
+label:    sent_5
+sentence: Antibodies against swine influenza virus neutralize the pandemic influenza virus A / H1N1 .
+
+ppatt:
+	?a neutralize ?b
+		?a: Antibodies against swine influenza virus
+		?b: the pandemic influenza virus A / H1N1
+
+
+label:    sent_6
+sentence: Neutralization assays demonstrate that these mAbs effectively neutralize lethal toxin in vitro .
+
+ppatt:
+	?a demonstrate ?b
+		?a: Neutralization assays
+		?b: SOMETHING := these mAbs effectively neutralize lethal toxin in vitro
+	?a effectively neutralize ?b in vitro
+		?a: these mAbs
+		?b: lethal toxin
+
+
+label:    sent_7
+sentence: Individual organ systems induce unique profiles of cytoprotective enzymes to neutralize heme in SCD .
+
+ppatt:
+	?a induce ?b to neutralize ?c in ?d
+		?a: Individual organ systems
+		?b: unique profiles of cytoprotective enzymes
+		?c: heme
+		?d: SCD
+
+
+label:    sent_8
+sentence: These antibodies were unable to neutralize viral infectivity under neutral or acidic conditions .
+
+ppatt:
+	?a were unable to neutralize ?b under ?c
+		?a: These antibodies
+		?b: viral infectivity
+		?c: neutral
+	?a were unable to neutralize ?b under ?c
+		?a: These antibodies
+		?b: viral infectivity
+		?c: acidic
+
+
+label:    sent_9
+sentence: Antisera were tested for their potential to neutralize HCV by 3 currently available assays .
+
+ppatt:
+	?a were tested for ?b
+		?a: Antisera
+		?b: their potential to neutralize HCV by 3 currently available assays
+	?a neutralize ?b by ?c
+		?a: their potential
+		?b: HCV
+		?c: 3 currently available assays
+
+
+label:    sent_10
+sentence: The other involves antibodies to the envelope protein which crossreact with and neutralize IL-2 .
+
+ppatt:
+	?a involves ?b
+		?a: The other
+		?b: antibodies to the envelope protein which crossreact with and neutralize IL-2
+	?a crossreact ?b ?c
+		?a: the envelope protein
+		?b: with
+		?c: IL-2
+	?a neutralize
+		?a: which
+
+
+label:    sent_11
+sentence: Opposite effects could superpose or neutralize each other .
+
+ppatt:
+	?a could superpose ?b
+		?a: Opposite effects
+		?b: each other
+	?a neutralize
+		?a: Opposite effects
+
+
+label:    sent_12
+sentence: ME pretreatment was found to neutralize the cytotoxicity and prevent Abeta 25-35-induced cells injury . IL-6 mAb could neutralize IL-6 , and ameliorate myocarditis and reduce heart autoimmune responses . 9G4+ antibodies isolated from HIV-infected patients neutralize HIV-1 and have distinct autoreactivity profiles .
+
+ppatt:
+	?a was found to neutralize ?b
+		?a: ME pretreatment
+		?b: the cytotoxicity
+	?a was found to prevent ?b
+		?a: ME pretreatment
+		?b: Abeta 25-35-induced cells injury
+	?a could neutralize ?b
+		?a: IL-6 mAb
+		?b: IL-6
+	?a was found to ameliorate ?b
+		?a: ME pretreatment
+		?b: myocarditis
+	?a reduce ?b
+		?a: ME pretreatment
+		?b: heart autoimmune responses
+	?a isolated from ?b
+		?a: 9G4+ antibodies
+		?b: HIV-infected patients
+	?a neutralize ?b
+		?a: 9G4+ antibodies isolated from HIV-infected patients
+		?b: HIV-1
+	?a have ?b
+		?a: 9G4+ antibodies isolated from HIV-infected patients
+		?b: distinct autoreactivity profiles
+
+
+label:    sent_13
+sentence: Some of these molecules neutralize scorpion neurotoxins and protect mice from experimental envenoming .
+
+ppatt:
+	?a neutralize ?b
+		?a: Some of these molecules
+		?b: scorpion neurotoxins
+	?a protect ?b
+		?a: Some of these molecules
+		?b: mice from experimental envenoming
+
+
+label:    sent_14
+sentence: Immunoglobulin A antibodies against internal HIV-1 proteins neutralize HIV-1 replication inside epithelial cells .
+
+ppatt:
+	?a neutralize ?b
+		?a: Immunoglobulin A antibodies against internal HIV-1 proteins
+		?b: HIV-1 replication inside epithelial cells
+
+
+label:    sent_15
+sentence: Studies suggest that galactosaminoglycans neutralize tenascin activity through interactions with cell surface molecules . Anti-SS antibody can neutralize SS as well as IP activities in a neutralization assay .
+
+ppatt:
+	?a suggest ?b
+		?a: Studies
+		?b: SOMETHING := galactosaminoglycans neutralize tenascin activity through interactions with cell surface molecules
+	?a neutralize ?b through ?c
+		?a: galactosaminoglycans
+		?b: tenascin activity
+		?c: interactions with cell surface molecules
+	?a can neutralize ?b in ?c
+		?a: Anti-SS antibody
+		?b: SS
+		?c: a neutralization assay
+	?a can neutralize ?b in ?c
+		?a: Anti-SS antibody
+		?b: IP activities
+		?c: a neutralization assay
+
+
+label:    sent_16
+sentence: The host immune response has developed many mechanisms to neutralize and remove pathogen bacteria .
+
+ppatt:
+	?a has developed ?b
+		?a: The host immune response
+		?b: many mechanisms to neutralize and remove pathogen bacteria
+	?a neutralize ?b
+		?a: many mechanisms
+		?b: pathogen bacteria
+	remove ?a
+		?a: pathogen bacteria
+
+
+label:    sent_17
+sentence: PEHRG214 was found to potently neutralize and lyse HIV-1 particles .
+
+ppatt:
+	?a was found to potently neutralize ?b
+		?a: PEHRG214
+		?b: HIV-1 particles
+	?a was found to lyse
+		?a: PEHRG214
+
+
+label:    sent_18
+sentence: Subsequent evaporation of the extracts allows to neutralize and to concentrate the samples .
+
+ppatt:
+	?a allows to neutralize
+		?a: Subsequent evaporation of the extracts
+	?a allows to to concentrate ?b
+		?a: Subsequent evaporation of the extracts
+		?b: the samples
+
+
+label:    sent_19
+sentence: Once in the mitochondria , they rapidly neutralize free radicals and decrease mitochondrial toxicity .
+
+ppatt:
+	Once in ?a , ?b rapidly neutralize ?c
+		?a: the mitochondria
+		?b: they
+		?c: free radicals
+	?a decrease ?b
+		?a: they
+		?b: mitochondrial toxicity
+
+
+label:    sent_20
+sentence: This should , in addition relieve bronchospasm , neutralize precipitating factors and reduce inflammation .
+
+ppatt:
+	?a should , neutralize ?b
+		?a: This
+		?b: precipitating factors
+	?a reduce ?b
+		?a: This
+		?b: inflammation
+
+
+label:    sent_21
+sentence: Indifferent electrolytes neutralize at increased concentration the surface charge but do not reverse it . Antibodies neutralize and clear pathogens , thereby protecting against infectious diseases . EV71 antibodies can neutralize or enhance infection at subneutralizing levels .
+
+ppatt:
+	?a neutralize at ?b ?c
+		?a: Indifferent electrolytes
+		?b: increased concentration
+		?c: the surface charge
+	?a do not reverse ?b
+		?a: Indifferent electrolytes
+		?b: it
+	?a neutralize ?b
+		?a: Antibodies
+		?b: pathogens
+	?a thereby protecting against ?b
+		?a: Indifferent electrolytes
+		?b: infectious diseases
+	?a can neutralize ?b at ?c
+		?a: EV71 antibodies
+		?b: infection
+		?c: subneutralizing levels
+	?a enhance
+		?a: EV71 antibodies
+
+
+label:    sent_22
+sentence: Tamoxifen , a synthetic nonsteroidal antiestrogen , can neutralize or down-regulate TGF-beta .
+
+ppatt:
+	?a is/are a synthetic nonsteroidal antiestrogen
+		?a: Tamoxifen
+	?a can neutralize ?b
+		?a: Tamoxifen
+		?b: TGF-beta
+	?a down-regulate
+		?a: Tamoxifen
+
+

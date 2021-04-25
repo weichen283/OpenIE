@@ -1,0 +1,246 @@
+label:    sent_1
+sentence: Enzootic maintenance of the pathogen Borrelia burgdorferi by I. scapularis and small mammals is well documented , whereas its " cryptic " maintenance by other specialist ticks and wildlife hosts remains largely unexplored because these ticks rarely bite humans . Science agencies must bite innovation bullet .
+
+ppatt:
+	?a is well documented
+		?a: Enzootic maintenance of the pathogen by I. scapularis and small mammals
+	?a remains largely unexplored
+		?a: its " cryptic " maintenance by other specialist ticks and wildlife hosts
+	?a rarely bite ?b
+		?a: these ticks
+		?b: humans
+	?a must bite ?b
+		?a: Science agencies
+		?b: innovation bullet
+
+
+label:    sent_2
+sentence: Mosquitoes that did not bite a person who slept in the collection house can affect estimation of entomological risk .
+
+ppatt:
+	?a did not bite ?b
+		?a: Mosquitoes
+		?b: a person who slept in the collection house
+	?a slept in ?b
+		?a: a person
+		?b: the collection house
+	?a can affect ?b
+		?a: Mosquitoes that did not bite a person who slept in the collection house
+		?b: estimation of entomological risk
+
+
+label:    sent_3
+sentence: Population dynamics of mosquito-borne disease : effects of flies which bite some people more frequently than others .
+
+ppatt:
+	?a bite ?b more frequently than ?c
+		?a: flies
+		?b: some people
+		?c: others
+
+
+label:    sent_4
+sentence: The aims of our study were to determine ( i ) which tick species bite humans in Romania and ( ii ) the prevalence of Borrelia ( B. ) burgdorferi genospecies in these ticks .
+
+ppatt:
+	?a were to determine ?b
+		?a: The aims of our study
+		?b: SOMETHING := which tick species bite humans in Romania
+	?a ?b bite ?c in ?d
+		?a: which
+		?b: tick species
+		?c: humans
+		?d: Romania
+
+
+label:    sent_5
+sentence: Bugs bite the warmest targets regardless of the target/background temperatures , suggesting that they do not bite choosing a preferred temperature , but select temperature discontinuities along the skin .
+
+ppatt:
+	?a bite ?b regardless of ?c
+		?a: Bugs
+		?b: the warmest targets
+		?c: the target/background temperatures
+	?a suggesting ?b
+		?a: Bugs
+		?b: SOMETHING := they do not bite choosing a preferred temperature , but select temperature discontinuities along the skin
+	?a do not bite choosing ?b
+		?a: they
+		?b: a preferred temperature
+	?a do not bite choosing ?b
+		?a: they
+		?b: select temperature discontinuities along the skin
+
+
+label:    sent_6
+sentence: To improve health outcomes , health providers need better information and awareness regarding which tick species bite humans in each state and which zoonotic pathogens are prevalent in these ticks . An. donaldi bite more outdoors than indoors and have a peak biting time from 18:00 to 19:00 h when most people are still out of their homes .
+
+ppatt:
+	improve ?a ?b
+		?a: health outcomes
+		?b: health providers
+	?a need ?b
+		?a: health providers
+		?b: better information regarding which tick species bite humans in each state and which zoonotic pathogens are prevalent in these ticks . An. donaldi bite more outdoors than indoors
+	?a need ?b
+		?a: health providers
+		?b: awareness
+	?a regarding ?b bite ?c in ?d
+		?a: better information
+		?b: tick species
+		?c: humans
+		?d: each state
+	?a regarding ?b bite ?c in ?d
+		?a: awareness
+		?b: tick species
+		?c: humans
+		?d: each state
+	?a ?b are prevalent in ?c ?d
+		?a: which
+		?b: zoonotic pathogens
+		?c: these ticks
+		?d: An. donaldi bite more outdoors than indoors
+	?a have ?b from ?c
+		?a: health providers
+		?b: a peak biting time
+		?c: 18:00 19:00 h
+	when ?a are still out of ?b homes
+		?a: most people
+		?b: their
+
+
+label:    sent_7
+sentence: Because only the larvae of chigger mite can bite vertebrate hosts and only take a full meal in its entire life cycle , the pathogen carried by it can only be originated from its parent mite via transovarial route .
+
+ppatt:
+	?a can bite ?b
+		?a: only the larvae of chigger mite
+		?b: vertebrate hosts
+	?a only take ?b in ?c
+		?a: only the larvae of chigger mite
+		?b: a full meal
+		?c: its entire life cycle
+	?a carried by ?b
+		?a: the pathogen
+		?b: it
+	?a can only be originated from ?b via ?c
+		?a: the pathogen carried by it
+		?b: its parent mite
+		?c: transovarial route
+
+
+label:    sent_8
+sentence: In the urban environment they generally are found within buildings where they may bite people or be attacked by cats or dogs .
+
+ppatt:
+	In ?a ?b generally are found within ?c
+		?a: the urban environment
+		?b: they
+		?c: buildings where they may bite people or be attacked by cats or dogs
+	?a where ?b may bite ?c
+		?a: buildings
+		?b: they
+		?c: people
+	?a be attacked by ?b
+		?a: they
+		?b: cats
+	?a be attacked by ?b
+		?a: they
+		?b: dogs
+
+
+label:    sent_9
+sentence: Little is known about the mosquito species that would bite both humans and NHPs and if so , whether humans and NHPs share the same Plasmodium vectors .
+
+ppatt:
+	?a is known about ?b
+		?a: Little
+		?b: the mosquito species that would bite both humans and NHPs and if so , whether humans and NHPs share the same Plasmodium vectors
+	?a would bite ?b
+		?a: the mosquito species
+		?b: humans
+	?a would bite ?b
+		?a: the mosquito species
+		?b: NHPs
+	so , whether ?a share ?b
+		?a: humans
+		?b: the same Plasmodium vectors
+	so , whether ?a share ?b
+		?a: NHPs
+		?b: the same Plasmodium vectors
+
+
+label:    sent_10
+sentence: For vector species like mosquitoes , in which only females bite and transmit diseases , the thorough removal of females before release while leaving males competent to mate is a stringent prerequisite .
+
+ppatt:
+	?a in ?b bite ?c
+		?a: mosquitoes
+		?b: only females
+		?c: diseases
+	?a transmit
+		?a: only females
+	?a leaving ?b
+		?a: the thorough removal of females before release
+		?b: males competent to mate
+	For ?a , ?b is a stringent prerequisite
+		?a: vector species like mosquitoes , in which only females bite and transmit diseases
+		?b: the thorough removal of females before release while leaving males competent to mate
+
+
+label:    sent_11
+sentence: These bird groups associate with , correspondingly , Ixodes uriae and Ixodes ricinus ticks , of which the latter species may bite and transmit the infection to humans .
+
+ppatt:
+	?a associate with , correspondingly ?b
+		?a: These bird groups
+		?b: Ixodes uriae , of which the latter species may bite and transmit the infection to humans
+	?a associate with , correspondingly ?b
+		?a: These bird groups
+		?b: Ixodes ricinus ticks
+	?a of ?b may bite
+		?a: Ixodes uriae
+		?b: the latter species
+	?a of ?b may bite
+		?a: Ixodes ricinus ticks
+		?b: the latter species
+	?a transmit ?b
+		?a: the latter species
+		?b: the infection to humans
+
+
+label:    sent_12
+sentence: Given our evidence that smaller females appear to have similar lifespans and evidence from other studies that they bite more frequently during a single gonotrophic cycle than larger females , our results suggest that smaller females have a higher vectorial capacity . Hy. truncatum , the adults of which can readily bite man , ensures the vectorial transmission to him .
+
+ppatt:
+	?a appear to have ?b from ?c
+		?a: smaller females
+		?b: similar lifespans
+		?c: other studies
+	?a appear to have ?b from ?c
+		?a: smaller females
+		?b: evidence
+		?c: other studies
+	?a bite more frequently during ?b than ?c
+		?a: they
+		?b: a single gonotrophic cycle
+		?c: larger females
+	Given ?a , ?b suggest ?c ?d
+		?a: our evidence that smaller females appear to have similar lifespans and evidence from other studies that they bite more frequently during a single gonotrophic cycle than larger females
+		?b: our results
+		?c: SOMETHING := smaller females have a higher vectorial capacity
+		?d: SOMETHING := Hy. truncatum , can readily bite man , ensures the vectorial transmission to him
+	?a have ?b
+		?a: smaller females
+		?b: a higher vectorial capacity
+	?a is/are the adults of ?b
+		?a: Hy. truncatum , can readily bite man
+		?b: which
+	?a can readily bite ?b
+		?a: Hy. truncatum
+		?b: man
+	?a ensures ?b
+		?a: Hy. truncatum , can readily bite man
+		?b: the vectorial transmission to him
+
+

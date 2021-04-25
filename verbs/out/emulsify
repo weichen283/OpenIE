@@ -1,0 +1,88 @@
+label:    sent_1
+sentence: Lipases form lysolipids that emulsify other lipids . Various surfactants and co-surfactants were screened for their ability to emulsify selected oily phases .
+
+ppatt:
+	?a form ?b
+		?a: Lipases
+		?b: lysolipids that emulsify other lipids
+	?a emulsify ?b
+		?a: lysolipids
+		?b: other lipids
+	?a were screened for ?b
+		?a: Various surfactants
+		?b: their ability to emulsify selected oily phases
+	?a were screened for ?b
+		?a: co-surfactants
+		?b: their ability to emulsify selected oily phases
+	?a emulsify ?b
+		?a: their ability
+		?b: selected oily phases
+
+
+label:    sent_2
+sentence: All bacteria consortia screened were able to emulsify the petroleum derivatives tested .
+
+ppatt:
+	?a screened
+		?a: All bacteria consortia
+	?a were able to emulsify ?b
+		?a: All bacteria consortia screened
+		?b: the petroleum derivatives tested
+	?a tested
+		?a: the petroleum derivatives
+
+
+label:    sent_3
+sentence: In 1848 Claude Bernard discovered that pancreatic secretion could emulsify and saponify fatty substances .
+
+ppatt:
+	In ?a discovered ?b
+		?a: 1848 Claude Bernard
+		?b: SOMETHING := pancreatic secretion could emulsify fatty substances
+	?a could emulsify ?b
+		?a: pancreatic secretion
+		?b: fatty substances
+	?a saponify
+		?a: pancreatic secretion
+
+
+label:    sent_4
+sentence: Surfactants emulsify debris , breaking it up and keeping it in solution .
+
+ppatt:
+	?a emulsify ?b
+		?a: Surfactants
+		?b: debris
+	?a breaking ?b ?c
+		?a: Surfactants
+		?b: it
+		?c: up
+	?a keeping ?b in ?c
+		?a: Surfactants
+		?b: it
+		?c: solution
+
+
+label:    sent_5
+sentence: Finally , slow-motion phacoemulsification is used to emulsify and remove the pieces .
+
+ppatt:
+	Finally , ?a is used to emulsify ?b
+		?a: slow-motion phacoemulsification
+		?b: the pieces
+	Finally , ?a is used to remove
+		?a: slow-motion phacoemulsification
+
+
+label:    sent_6
+sentence: Single-chain surfactants usually emulsify and stabilize oily substances into droplets in an aqueous solution .
+
+ppatt:
+	?a usually emulsify ?b into ?c
+		?a: Single-chain surfactants
+		?b: oily substances
+		?c: droplets in an aqueous solution
+	?a stabilize
+		?a: Single-chain surfactants
+
+

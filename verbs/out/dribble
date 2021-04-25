@@ -1,0 +1,42 @@
+label:    sent_1
+sentence: Urodynamic study of 15 patients with postmicturition dribble .
+
+ppatt:
+
+
+
+label:    sent_2
+sentence: [ Urodynamic studies on postmicturition dribble ] . Off-site radiological safety program for project dribble .
+
+ppatt:
+
+
+
+label:    sent_3
+sentence: Indications for investigation of post-micturition dribble in young adults .
+
+ppatt:
+
+
+
+label:    sent_4
+sentence: Drooling occurs when excessive quantities of saliva dribble from the opened mouth . You may either dribble it towards the goal or do nothing at all " . Affected cattle may dribble urine and some may be mute .
+
+ppatt:
+	?a occurs
+		?a: Drooling
+	when ?a ?b may either dribble ?c towards ?d
+		?a: excessive quantities of saliva dribble from the opened mouth
+		?b: You
+		?c: it
+		?d: the goal
+	?a do nothing at ?b
+		?a: excessive quantities of saliva dribble from the opened mouth
+		?b: all "
+	?a may dribble ?b
+		?a: Affected cattle
+		?b: urine
+	?a may be mute
+		?a: some
+
+

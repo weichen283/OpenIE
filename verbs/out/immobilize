@@ -1,0 +1,266 @@
+label:    sent_1
+sentence: The PSGMA carboxyl groups are used to immobilize bovine serum albumin ( BSA ) . Streptavidin-coated magnetic beads were used as support to immobilize the biotinylated OA .
+
+ppatt:
+	?a are used to immobilize ?b
+		?a: The PSGMA carboxyl groups
+		?b: bovine serum albumin
+	?a is/are BSA
+		?a: bovine serum albumin
+	?a were used as ?b
+		?a: Streptavidin-coated magnetic beads
+		?b: support to immobilize the biotinylated OA
+	?a immobilize ?b
+		?a: support
+		?b: the biotinylated OA
+
+
+label:    sent_2
+sentence: To immobilize Methylobacterium sp . The different techniques of self-assembly to immobilize metallic nanoparticles on solid support are covered .
+
+ppatt:
+	immobilize ?a ?b
+		?a: Methylobacterium sp
+		?b: The different techniques of self-assembly to immobilize metallic nanoparticles on solid support
+	?a immobilize ?b on ?c
+		?a: The different techniques of self-assembly
+		?b: metallic nanoparticles
+		?c: solid support
+	?a are covered
+		?a: The different techniques of self-assembly to immobilize metallic nanoparticles on solid support
+
+
+label:    sent_3
+sentence: One approach is to immobilize the signal transducing protein directly on a solid surface .
+
+ppatt:
+	?a is to immobilize ?b directly on ?c
+		?a: One approach
+		?b: the signal transducing protein
+		?c: a solid surface
+
+
+label:    sent_4
+sentence: Therefore , heat treatment appears useful to locally immobilize BMP-2 on various implant surfaces .
+
+ppatt:
+	Therefore , ?a appears useful to locally immobilize ?b on ?c
+		?a: heat treatment
+		?b: BMP-2
+		?c: various implant surfaces
+
+
+label:    sent_5
+sentence: Synthesis of an oligonucleotide-derivatized amphipol and its use to trap and immobilize membrane proteins .
+
+ppatt:
+	?a trap ?b
+		?a: Synthesis of an oligonucleotide-derivatized amphipol
+		?b: membrane proteins
+	?a trap ?b
+		?a: its use
+		?b: membrane proteins
+	immobilize ?a
+		?a: membrane proteins
+
+
+label:    sent_6
+sentence: Glutaraldehyde and p-benzoquinone do not produce cyclization of 5-HT but immobilize monoamines in situ .
+
+ppatt:
+	?a do not produce ?b
+		?a: Glutaraldehyde
+		?b: cyclization of 5-HT
+	?a do not produce ?b
+		?a: p-benzoquinone
+		?b: cyclization of 5-HT
+	?a immobilize ?b in situ
+		?a: Glutaraldehyde
+		?b: monoamines
+	?a immobilize ?b in situ
+		?a: p-benzoquinone
+		?b: monoamines
+
+
+label:    sent_7
+sentence: Neutrophils were less adherent and did not immobilize L3 .
+
+ppatt:
+	?a were less adherent
+		?a: Neutrophils
+	?a did not immobilize ?b
+		?a: Neutrophils
+		?b: L3
+
+
+label:    sent_8
+sentence: Potential adverse effects of applying phosphate amendments to immobilize soil contaminants .
+
+ppatt:
+	?a applying ?b
+		?a: Potential adverse effects
+		?b: phosphate amendments
+	immobilize ?a
+		?a: soil contaminants
+
+
+label:    sent_9
+sentence: Oral administration of diazepam and promazine hydrochloride to immobilize pronghorn .
+
+ppatt:
+	?a immobilize ?b
+		?a: Oral administration of diazepam and promazine hydrochloride
+		?b: pronghorn
+
+
+label:    sent_10
+sentence: This allowed us to immobilize the protein C-terminal segment on chelating Sepharose beads .
+
+ppatt:
+	?a allowed ?b to immobilize ?c on ?d
+		?a: This
+		?b: us
+		?c: the protein C-terminal segment
+		?d: chelating Sepharose beads
+
+
+label:    sent_11
+sentence: Moreover , we show that these bacteria immobilize manganese on their cell surface .
+
+ppatt:
+	Moreover , ?a show ?b
+		?a: we
+		?b: SOMETHING := these bacteria immobilize manganese on their cell surface
+	?a immobilize ?b on ?c
+		?a: these bacteria
+		?b: manganese
+		?c: their cell surface
+
+
+label:    sent_12
+sentence: Technologies are needed that will adequately immobilize Pb without mobilizing oxyanions such as Sb .
+
+ppatt:
+	?a are needed ?b
+		?a: Technologies
+		?b: SOMETHING := that will adequately immobilize Pb without mobilizing oxyanions such as Sb
+	?a will adequately immobilize ?b
+		?a: that
+		?b: Pb
+	?a mobilizing ?b
+		?a: that
+		?b: oxyanions such as Sb
+
+
+label:    sent_13
+sentence: Bacteria can immobilize significant quantities of trace metals through surface complexation reactions . Anti-Hase did not immobilize or neutralize T. pallidum .
+
+ppatt:
+	?a can immobilize ?b through ?c
+		?a: Bacteria
+		?b: significant quantities of trace metals
+		?c: surface complexation reactions
+	?a did not immobilize ?b
+		?a: Anti-Hase
+		?b: T. pallidum
+	?a neutralize
+		?a: Anti-Hase
+
+
+label:    sent_14
+sentence: This minireview highlights recent approaches to immobilize and study Abs on surfaces .
+
+ppatt:
+	?a highlights ?b
+		?a: This minireview
+		?b: recent approaches to immobilize and study Abs on surfaces
+	?a immobilize ?b on ?c
+		?a: recent approaches
+		?b: Abs
+		?c: surfaces
+	study ?a
+		?a: Abs
+
+
+label:    sent_15
+sentence: While blood circulates in NDM , CSAs attract and immobilize the idle nanogold-antibodies .
+
+ppatt:
+	?a circulates in ?b
+		?a: blood
+		?b: NDM
+	?a attract
+		?a: CSAs
+	?a immobilize ?b
+		?a: CSAs
+		?b: the idle nanogold-antibodies
+
+
+label:    sent_16
+sentence: Zinc in high doses parenterally can immobilize macrophages and also induce metallothionein-like proteins .
+
+ppatt:
+	?a parenterally can immobilize ?b
+		?a: Zinc in high doses
+		?b: macrophages
+	?a also induce ?b
+		?a: Zinc in high doses
+		?b: metallothionein-like proteins
+
+
+label:    sent_17
+sentence: Condoms and other rubber products immobilize sperm , but the mechanism is unknown .
+
+ppatt:
+	?a immobilize ?b
+		?a: Condoms
+		?b: sperm
+	?a immobilize ?b
+		?a: other rubber products
+		?b: sperm
+	?a is unknown
+		?a: the mechanism
+
+
+label:    sent_18
+sentence: These cells could immobilize the carcinogen and destroy Ni3S2-transformed cells .
+
+ppatt:
+	?a could immobilize ?b
+		?a: These cells
+		?b: the carcinogen
+	?a destroy ?b
+		?a: These cells
+		?b: Ni3S2-transformed cells
+
+
+label:    sent_19
+sentence: However , 8-OHdG was difficult to immobilize on a carrier for SELEX .
+
+ppatt:
+	However , ?a was difficult to immobilize on ?b
+		?a: 8-OHdG
+		?b: a carrier for SELEX
+
+
+label:    sent_20
+sentence: After operation they immobilize by " Minerva " for three weeks .
+
+ppatt:
+	After ?a ?b immobilize by ?c for ?d
+		?a: operation
+		?b: they
+		?c: " Minerva "
+		?d: three weeks
+
+
+label:    sent_21
+sentence: The formed photopolymer can immobilize Mn2P2O7 firmly under UV irradiation .
+
+ppatt:
+	?a can immobilize ?b firmly under ?c
+		?a: The formed photopolymer
+		?b: Mn2P2O7
+		?c: UV irradiation
+
+

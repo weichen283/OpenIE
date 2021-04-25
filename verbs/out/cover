@@ -1,0 +1,266 @@
+label:    sent_1
+sentence: Scar tissue was not excised and was used to cover the hamstring tendons .
+
+ppatt:
+	?a was not excised
+		?a: Scar tissue
+	?a was used to cover ?b
+		?a: Scar tissue
+		?b: the hamstring tendons
+
+
+label:    sent_2
+sentence: Standard antibiotic prophylaxis provided cover for these combinations in only one of nine cases .
+
+ppatt:
+	?a provided ?b in ?c
+		?a: Standard antibiotic prophylaxis
+		?b: cover for these combinations
+		?c: only one of nine cases
+
+
+label:    sent_3
+sentence: US Medicaid programme grows to cover 50 million low income people .
+
+ppatt:
+	?a grows to cover ?b
+		?a: US Medicaid programme
+		?b: 50 million low income people
+
+
+label:    sent_4
+sentence: The contained target sequences cover 19 chromosomal arms and reference loci .
+
+ppatt:
+	?a cover ?b
+		?a: The contained target sequences
+		?b: 19 chromosomal arms
+	?a cover ?b
+		?a: The contained target sequences
+		?b: reference loci
+
+
+label:    sent_5
+sentence: These data cover the entire non-institutionalized population aged >=65 years in 2007 .
+
+ppatt:
+	?a cover ?b
+		?a: These data
+		?b: the entire non-institutionalized population aged >=65 years in 2007
+	aged ?a
+		?a: >=65 years in 2007
+
+
+label:    sent_6
+sentence: Vestibular schwannomas are slow-growing tumors of the myelin-forming cells that cover cranial nerve VIII .
+
+ppatt:
+	?a are slow-growing tumors of ?b
+		?a: Vestibular schwannomas
+		?b: the myelin-forming cells that cover cranial nerve VIII
+	?a cover ?b
+		?a: the myelin-forming cells
+		?b: cranial nerve VIII
+
+
+label:    sent_7
+sentence: The cover . The cover . The cover .
+
+ppatt:
+
+
+
+label:    sent_8
+sentence: Weather and land cover influences on mosquito populations in Sioux Falls , South Dakota .
+
+ppatt:
+	?a cover ?b
+		?a: Weather
+		?b: influences on mosquito populations in Sioux Falls
+	?a cover ?b
+		?a: land
+		?b: influences on mosquito populations in Sioux Falls
+	?a is/are South Dakota
+		?a: Sioux Falls
+
+
+label:    sent_9
+sentence: Empiric therapy should cover Gram-positive , multidrug resistant and Gram-negative bacteria along with Candida . FLIPPi affinity mutants cover P ( i ) changes over eight orders of magnitude .
+
+ppatt:
+	?a should cover ?b along with ?c
+		?a: Empiric therapy
+		?b: Gram-positive , and Gram-negative bacteria
+		?c: Candida
+	?a cover ?b over ?c
+		?a: FLIPPi affinity mutants
+		?b: P ( i ) changes
+		?c: eight orders of magnitude
+
+
+label:    sent_10
+sentence: As to research the ASiT could cover a wide range of nonadherence sources .
+
+ppatt:
+	research ?a
+		?a: the ASiT
+	could cover ?a
+		?a: a wide range of nonadherence sources
+
+
+label:    sent_11
+sentence: This strategy could be extended to cover communication areas in other contexts .
+
+ppatt:
+	?a could be extended to cover ?b
+		?a: This strategy
+		?b: communication areas in other contexts
+
+
+label:    sent_12
+sentence: They were selected to cover the period up to 3 years after transplantation .
+
+ppatt:
+	?a were selected to cover ?b ?c after
+		?a: They
+		?b: the period
+		?c: up 3 years
+
+
+label:    sent_13
+sentence: The influence of estuarine water quality on cover of barnacles and Enteromorpha spp .
+
+ppatt:
+
+
+
+label:    sent_14
+sentence: The bio-tarp would also serve as an alternative daily cover during routine landfill operation .
+
+ppatt:
+	?a would also serve as ?b during ?c
+		?a: The bio-tarp
+		?b: an alternative daily cover
+		?c: routine landfill operation
+
+
+label:    sent_15
+sentence: On the cover . Most cover crops established well and S. bicolor biomass was the highest .
+
+ppatt:
+	On ?a . Most cover ?b
+		?a: the cover
+		?b: crops established well
+	?a established well
+		?a: crops
+	?a was the highest
+		?a: S. bicolor biomass
+
+
+label:    sent_16
+sentence: Twenty-five percent of practices reported that PAs cover call and assist in the OR .
+
+ppatt:
+	?a reported ?b ?c
+		?a: Twenty-five percent of practices
+		?b: SOMETHING := PAs cover
+		?c: SOMETHING := call
+	?a cover
+		?a: PAs
+	?a call
+		?a: Twenty-five percent of practices
+	?a assist in ?b
+		?a: Twenty-five percent of practices
+		?b: the OR
+
+
+label:    sent_17
+sentence: They cover absolutely greater distances and have the higher takeoff velocities .
+
+ppatt:
+	?a cover ?b
+		?a: They
+		?b: absolutely greater distances
+	?a have ?b
+		?a: They
+		?b: the higher takeoff velocities
+
+
+label:    sent_18
+sentence: On the cover-white poplar .
+
+ppatt:
+
+
+
+label:    sent_19
+sentence: Swine manure injection with low-disturbance applicator and cover crops reduce phosphorus losses .
+
+ppatt:
+	cover ?a
+		?a: crops
+	?a reduce ?b
+		?a: Swine manure injection with low-disturbance applicator
+		?b: phosphorus losses
+	?a reduce ?b
+		?a: cover crops
+		?b: phosphorus losses
+
+
+label:    sent_20
+sentence: Additional data should be collected to cover natural variability and reduce uncertainty . [Pharmacodynamic parameters to evaluate antibiotic cover as empirical treatment ] . Climatological determinants of woody cover in Africa .
+
+ppatt:
+	?a should be collected to cover ?b
+		?a: Additional data
+		?b: natural variability
+	?a should be collected to reduce ?b ?c
+		?a: Additional data
+		?b: uncertainty
+		?c: [Pharmacodynamic parameters
+	?a evaluate ?b ?c
+		?a: Additional data
+		?b: antibiotic cover
+		?c: as empirical treatment ] . Climatological determinants of woody cover in Africa
+
+
+label:    sent_21
+sentence: The potential of established turf cover for cleaning oily desert soil using rhizosphere technology . Leaf size and cover of T. testudinum were estimated .
+
+ppatt:
+	?a cover using ?b
+		?a: The potential of established turf
+		?b: rhizosphere technology
+	?a cover using ?b
+		?a: The potential of established turf
+		?b: Leaf size
+	cleaning ?a ?b
+		?a: oily desert soil
+		?b: rhizosphere technology
+	cleaning ?a ?b
+		?a: oily desert soil
+		?b: Leaf size
+
+
+label:    sent_22
+sentence: They are used to cover , protect , and embellish surfaces .
+
+ppatt:
+	?a are used to cover ?b
+		?a: They
+		?b: embellish surfaces
+	?a are used to protect
+		?a: They
+
+
+label:    sent_23
+sentence: Cartilage tissue engineering is applied clinically to cover and regenerate articular cartilage defects .
+
+ppatt:
+	?a is applied clinically to cover ?b
+		?a: Cartilage tissue engineering
+		?b: articular cartilage defects
+	?a is applied clinically to regenerate
+		?a: Cartilage tissue engineering
+
+

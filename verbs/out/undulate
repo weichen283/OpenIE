@@ -1,0 +1,56 @@
+label:    sent_1
+sentence: Fish larvae , like most adult fish , undulate their bodies to propel themselves .
+
+ppatt:
+	?a like ?b undulate ?c to propel ?d
+		?a: Fish larvae
+		?b: most adult fish
+		?c: their bodies
+		?d: themselves
+
+
+label:    sent_2
+sentence: Peripheral nerves undulate together , giving them a wavelike appearance .
+
+ppatt:
+	?a undulate together , giving ?b ?c
+		?a: Peripheral nerves
+		?b: them
+		?c: a wavelike appearance
+
+
+label:    sent_3
+sentence: Bronchodilator responsiveness in CF tends to undulate with pulmonary exacerbations of the disease .
+
+ppatt:
+	?a tends to undulate with ?b
+		?a: Bronchodilator responsiveness in CF
+		?b: pulmonary exacerbations of the disease
+
+
+label:    sent_4
+sentence: When blastomers cease cleaving , their surfaces undulate and form blebs .
+
+ppatt:
+	When ?a cease ?b
+		?a: blastomers
+		?b: cleaving
+	?a undulate ?b
+		?a: their surfaces
+		?b: blebs
+	?a form
+		?a: their surfaces
+
+
+label:    sent_5
+sentence: The molecules are fixed at both ends and undulate .
+
+ppatt:
+	?a are fixed at ?b
+		?a: The molecules
+		?b: ends
+	?a are fixed at ?b
+		?a: The molecules
+		?b: undulate
+
+

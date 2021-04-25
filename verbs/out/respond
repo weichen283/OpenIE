@@ -1,0 +1,309 @@
+label:    sent_1
+sentence: How and why does the proteome respond to microgravity ? Controls did not respond to GNRH test .
+
+ppatt:
+	why does ?a
+		?a: Controls
+	How ?a respond to ?b
+		?a: the proteome
+		?b: microgravity
+	?a did not respond to ?b
+		?a: Controls
+		?b: GNRH test
+
+
+label:    sent_2
+sentence: Growth plate explants respond differently to in vitro static and dynamic loadings .
+
+ppatt:
+	?a respond differently to ?b ?c
+		?a: Growth plate explants
+		?b: in static
+		?c: loadings
+	?a respond differently to ?b ?c
+		?a: Growth plate explants
+		?b: dynamic
+		?c: loadings
+
+
+label:    sent_3
+sentence: Both were given oral phenytoin after failure to respond to other measures .
+
+ppatt:
+	?a were given ?b after ?c
+		?a: Both
+		?b: oral phenytoin
+		?c: failure to respond to other measures
+	?a respond to ?b
+		?a: failure
+		?b: other measures
+
+
+label:    sent_4
+sentence: The respiratory epithelium has a remarkable capacity to respond to acute injury .
+
+ppatt:
+	?a has ?b
+		?a: The respiratory epithelium
+		?b: a remarkable capacity to respond to acute injury
+	?a respond to ?b
+		?a: a remarkable capacity
+		?b: acute injury
+
+
+label:    sent_5
+sentence: These cells have been previously reported to respond to cool ambient temperatures as well .
+
+ppatt:
+	?a have been previously reported to respond to ?b as well
+		?a: These cells
+		?b: cool ambient temperatures
+
+
+label:    sent_6
+sentence: However , patients may not respond to antibody therapy , or resistance can develop .
+
+ppatt:
+	However , ?a may not respond to ?b
+		?a: patients
+		?b: antibody therapy
+	?a can develop
+		?a: resistance
+
+
+label:    sent_7
+sentence: Bacterial arthritis does not respond well to antibiotics and moreover multidrug resistance is spreading .
+
+ppatt:
+	?a does not respond well to ?b
+		?a: Bacterial arthritis
+		?b: antibiotics
+	moreover ?a is spreading
+		?a: multidrug resistance
+
+
+label:    sent_8
+sentence: Integrins respond to context-dependent cues and promote cell migration and survival in cancer cells .
+
+ppatt:
+	?a respond to ?b
+		?a: Integrins
+		?b: context-dependent cues
+	?a promote ?b
+		?a: Integrins
+		?b: cell in cancer cells
+	?a promote ?b
+		?a: Integrins
+		?b: survival
+
+
+label:    sent_9
+sentence: Unlike automata , they do not just sense and respond to proximal stimulations .
+
+ppatt:
+	Unlike ?a , ?b do not just sense
+		?a: automata
+		?b: they
+	?a respond to ?b
+		?a: they
+		?b: proximal stimulations
+
+
+label:    sent_10
+sentence: Both these conditions can co-exist and may respond to similar therapeutic strategies .
+
+ppatt:
+	?a can co-exist
+		?a: Both these conditions
+	?a may respond to ?b
+		?a: Both these conditions
+		?b: similar therapeutic strategies
+
+
+label:    sent_11
+sentence: Epithelial surfaces throughout the body continuously sample and respond to environmental stimuli . CMN on the limbs respond poorly .
+
+ppatt:
+	?a ?b respond poorly
+		?a: Epithelial surfaces throughout the body continuously sample
+		?b: CMN on the limbs
+	?a ?b respond poorly
+		?a: respond to environmental stimuli
+		?b: CMN on the limbs
+
+
+label:    sent_12
+sentence: This suggests that OAB BUCs respond as if they were primed by hypoxia .
+
+ppatt:
+	?a suggests ?b
+		?a: This
+		?b: SOMETHING := OAB BUCs respond as if they were primed by hypoxia
+	?a respond
+		?a: OAB BUCs
+	as if ?a were primed by ?b
+		?a: they
+		?b: hypoxia
+
+
+label:    sent_13
+sentence: They are very receptive to additional training to enable them to respond .
+
+ppatt:
+	?a are very receptive to ?b
+		?a: They
+		?b: additional training to enable them to respond
+	?a enable ?b to respond
+		?a: additional training
+		?b: them
+
+
+label:    sent_14
+sentence: Most men respond but the disease progresses after a median of 1-2 years . 2 children died in bone-marrow aplasia and 1 child did not respond .
+
+ppatt:
+	?a respond
+		?a: Most men
+	?a progresses after ?b
+		?a: the disease
+		?b: a median of 1-2 years
+	?a died in ?b
+		?a: 2 children
+		?b: bone-marrow aplasia
+	?a did not respond
+		?a: 1 child
+
+
+label:    sent_15
+sentence: However , not all rabbits do respond , or respond similarly .
+
+ppatt:
+	However , ?a do respond
+		?a: not all rabbits
+	?a respond similarly
+		?a: not all rabbits
+
+
+label:    sent_16
+sentence: Set up the best method by which applicants will respond to the ad . Signal transduction is the means by which cells respond to variations in their environment .
+
+ppatt:
+	?a by ?b will respond to ?c
+		?a: the best method
+		?b: applicants
+		?c: the ad
+	?a ?b is the means
+		?a: Set the best method by which applicants will respond to the ad
+		?b: Signal transduction
+	?a by ?b respond to ?c
+		?a: the means
+		?b: cells
+		?c: variations in their environment
+
+
+label:    sent_17
+sentence: The ways in which plants respond to damage are diverse and frequently herbivore-specific .
+
+ppatt:
+	?a in ?b respond to ?c
+		?a: The ways
+		?b: plants
+		?c: damage
+	?a are diverse
+		?a: The ways in which plants respond to damage
+	?a frequently herbivore-specific
+		?a: The ways in which plants respond to damage
+
+
+label:    sent_18
+sentence: The majority of smaller PHI firms either declined participation or did not respond .
+
+ppatt:
+	?a either declined ?b
+		?a: The majority of smaller PHI firms
+		?b: participation
+	?a did not respond
+		?a: The majority of smaller PHI firms
+
+
+label:    sent_19
+sentence: Surgery is reserved for cases that fail to respond or relapse after simpler measures .
+
+ppatt:
+	?a is reserved for ?b
+		?a: Surgery
+		?b: cases that fail to respond or relapse after simpler measures
+	?a fail to respond after ?b
+		?a: cases
+		?b: simpler measures
+
+
+label:    sent_20
+sentence: Cell signaling systems sense and respond to ligands that bind cell surface receptors .
+
+ppatt:
+	?a sense
+		?a: Cell signaling systems
+	?a respond to ?b
+		?a: Cell signaling systems
+		?b: ligands that bind cell surface receptors
+	?a bind ?b
+		?a: ligands
+		?b: cell surface receptors
+
+
+label:    sent_21
+sentence: The key is to understand which subpopulations of smokers respond best to which treatment .
+
+ppatt:
+	?a is to understand ?b
+		?a: The key
+		?b: SOMETHING := which subpopulations of smokers respond best to which treatment
+	?a respond ?b ?c
+		?a: which subpopulations of smokers
+		?b: best
+		?c: to which treatment
+
+
+label:    sent_22
+sentence: Polymyositis associated with pancreatic cancer may respond to glucocorticoids along with cancer specific treatment .
+
+ppatt:
+	?a associated with ?b
+		?a: Polymyositis
+		?b: pancreatic cancer
+	?a may respond to ?b along with ?c
+		?a: Polymyositis associated with pancreatic cancer
+		?b: glucocorticoids
+		?c: cancer specific treatment
+
+
+label:    sent_23
+sentence: Compared to humans rats respond differently to testosterone deficiency .
+
+ppatt:
+	to ?a ?b respond differently to ?c
+		?a: humans
+		?b: rats
+		?c: testosterone deficiency
+
+
+label:    sent_24
+sentence: How did the young respond emotionally to the anticipation of death ? Do male and female black-backed woodpeckers respond differently to gaps in habitat ? Participants were required to respond according to the manager 's instruction .
+
+ppatt:
+	How did ?a
+		?a: the young
+	?a respond emotionally to ?b
+		?a: the young
+		?b: the anticipation of death
+	?a Do
+		?a: the young
+	?a respond differently to ?b
+		?a: male and female black-backed woodpeckers
+		?b: gaps in habitat
+	?a were required to respond according to 's ?b
+		?a: Participants
+		?b: the manager instruction
+
+

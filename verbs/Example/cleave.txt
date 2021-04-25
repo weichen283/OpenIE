@@ -1,0 +1,40 @@
+obj	Their general role is to cleave integral membrane proteins to release signalling molecules .	obj@proteins
+obj	One of the metalloproteases shown to cleave proHB-EGF is ADAM17 ( TACE ) .	obj@proHB-EGF
+obj	We showed that MASP-1 was able to cleave HK resulting in BK production .	obj@HK
+
+subj#obj	Caspases cleave several cellular proteins to execute cell death by apoptosis .	subj@Caspases obj@proteins
+subj#obj	We show that the SOFA-HDV ribozymes cleave their RNA target in vitro .	subj@ribozymes obj@target
+subj#obj	The chondroitinases are bacterial lyases that specifically cleave chondroitin sulfate and/or dermatan sulfate glycosaminoglycans .	subj@lyases obj@glycosaminoglycans
+
+obj#prep	Bleomycin is known to cleave DNA perferentially at certain sequences .	obj@DNA prep_at@sequences
+obj#prep	All MMPs were able to cleave fibronectin at neutral pH .	obj@fibronectin prep_at@pH
+obj#prep	Signal peptidase functions to cleave signal peptides from preproteins at the cell membrane .	obj@peptides prep_at@membrane
+
+subj#obj#prep	BoNTs cleave proteins and peptide mimics at specific sites .	subj@BoNTs obj@proteins prep_at@sites
+subj#obj#prep	Both families of enzymes cleave aggrecan at specific sites within the aggrecan core protein .	subj@families obj@aggrecan prep_at@sites
+subj#obj#prep	C39 domains are thiol-dependent peptidases that cleave their substrates after a GG motif .	subj@peptidases obj@substrates prep_after@motif
+
+obj#conj	FRET evidence that an isoform of caspase-7 binds but does not cleave its substrate .	obj@substrate conj_but@binds
+obj#conj	MASP-2 of the lectin pathway can autoactivate and cleave C4 and C2 components .	obj@components conj_and@autoactivate
+obj#conj	Hydrogen fluoride was used to deprotect and cleave the peptide from the resin .	obj@peptide conj_and@deprotect
+
+subj#obj#conj	MASP-2 could also cleave HK but could not release BK .	subj@MASP-2 obj@HK conj_but@release
+subj#obj#conj	Calf chymosin and human renin cleave the same bond , but only very slowly .	subj@chymosin subj@renin obj@bond conj_but@only
+subj#obj#conj	The glucosyltransferases from oral streptococci cleave sucrose and polymerize the glucose moieties .	subj@glucosyltransferases obj@sucrose conj_and@polymerize
+
+prep	Chromosome analysis of human oocytes failing to cleave after insemination in vitro .	prep_after@insemination
+prep	SHFV PLP1gamma is able to cleave at both downstream and upstream nsp1 junction sites .	prep_at@sites
+prep	These animals continue to cleave dSREBP in some tissues .	prep_in@tissues
+
+subj#prep	Alkyl olefins cleave in moderate to good yield for di- and tri-substituted alkenes .	subj@olefins prep_in@yield
+subj#prep	Pinnae initials first cleave in two planes to generate lateral marginal initials .	subj@initials prep_in@planes
+subj#prep	DNAzymes cleave at predetermined sequences within RNA .	subj@DNAzymes prep_at@sequences
+
+subj#obj#prep#conj	In cells , enzymes cleave the protecting groups and release the parent drug .	subj@enzymes obj@groups prep_in@cells conj_and@release
+subj#obj#prep#conj	Leader peptidase will cleave procoat either during translation or after protein synthesis is complete .	subj@peptidase obj@procoat prep_after@synthesis prep_during@translation conj_or@cleave
+subj#obj#prep#conj	During apoptosis , endonucleases cleave DNA into 50-300-kb fragments and subsequently into internucleosomal fragments .	subj@endonucleases obj@DNA prep_during@apoptosis prep_into@fragments conj_and@subsequently
+
+subj	The enzyme did not cleave sucrose 6'-phosphate ( D-glucopyranosyl-1-alpha-beta-2-D-fructofuranoside-6'-phosphate ) .	subj@enzyme
+subj	Ready , set , cleave : proteases in action .	subj@Ready
+subj	Botulinum-as well as Tetanus toxins are proteases which cleave neuronal SNARE-proteins .	subj@proteases
+

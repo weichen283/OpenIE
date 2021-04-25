@@ -1,0 +1,51 @@
+label:    sent_1
+sentence: The aim of this study was to radiolabel Bevacizumab with ( 99m ) Tc and to evaluate in vivo its imaging properties in an adenocarcinoma animal model .
+
+ppatt:
+	?a was to radiolabel ?b
+		?a: The aim of this study
+		?b: Bevacizumab with ( 99m ) Tc
+	?a was to to evaluate in vivo ?b
+		?a: The aim of this study
+		?b: its imaging properties in an adenocarcinoma animal model
+
+
+label:    sent_2
+sentence: The aim of this study was to radiolabel sorafenib ( 1 ) with carbon-11 and to evaluate its potential as TKI-PET tracer in vivo .
+
+ppatt:
+	?a was to radiolabel ?b
+		?a: The aim of this study
+		?b: sorafenib with carbon-11
+	?a is/are 1
+		?a: sorafenib with carbon-11
+	?a was to to evaluate ?b in vivo
+		?a: The aim of this study
+		?b: its potential as TKI-PET tracer
+
+
+label:    sent_3
+sentence: Our goal was to radiolabel an antibody at several iodine : antibody molar ratios under conditions protecting its combining site and to compare its immunoreactive fraction ( IRF ) and electrophoretic mobility with those of the same antibody radiolabeled without protection .
+
+ppatt:
+	?a was to radiolabel ?b
+		?a: Our goal
+		?b: an antibody at several iodine
+	?a protecting ?b
+		?a: conditions
+		?b: its combining site
+	?a was to to compare ?b
+		?a: Our goal
+		?b: its immunoreactive fraction
+	?a was to to compare ?b
+		?a: Our goal
+		?b: electrophoretic mobility with those of the same antibody radiolabeled without protection
+	?a is/are IRF
+		?a: its immunoreactive fraction
+	?a is/are IRF
+		?a: electrophoretic mobility with those of the same antibody radiolabeled without protection
+	?a radiolabeled without ?b
+		?a: the same antibody
+		?b: protection
+
+

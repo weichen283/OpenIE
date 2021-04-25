@@ -1,0 +1,77 @@
+label:    sent_1
+sentence: The MICROCARD study will phenotype MMD and will investigate its relation with the incidence of MACE in ESRD patients with myocardial ischaemia .
+
+ppatt:
+	?a will phenotype ?b
+		?a: The MICROCARD study
+		?b: MMD
+	?a will investigate ?b
+		?a: The MICROCARD study
+		?b: its relation with the incidence of MACE in ESRD patients with myocardial ischaemia
+
+
+label:    sent_2
+sentence: In this study we characterize the coordination between the direction a fruit-fly walks and the direction it faces , as well as offer a methodology for isolating and validating key variables with which we phenotype fly locomotor behavior .
+
+ppatt:
+	In ?a ?b characterize ?c
+		?a: this study
+		?b: we
+		?c: the coordination between the direction a fruit-fly walks and the direction it faces
+	?a offer ?b
+		?a: we
+		?b: a methodology for isolating and validating key variables with which we phenotype fly locomotor behavior
+	?a isolating ?b
+		?a: a methodology
+		?b: key variables with which we phenotype fly locomotor behavior
+	validating ?a
+		?a: key variables with which we phenotype fly locomotor behavior
+	?a with ?b phenotype ?c
+		?a: key variables
+		?b: we
+		?c: fly locomotor behavior
+
+
+label:    sent_3
+sentence: We described herein their histological characteristics , discussed diagnostic problems in various instants in which each phenotype on this setting , and reviewed the literature , especially as to carcinosarcoma in contrast with those derived from other organs .
+
+ppatt:
+	?a described herein ?b
+		?a: We
+		?b: their histological characteristics , discussed diagnostic problems in various instants
+	?a discussed ?b
+		?a: their histological characteristics
+		?b: diagnostic problems in various instants
+	?a reviewed ?b in with ?c
+		?a: in which each phenotype on this setting
+		?b: the literature , especially as to carcinosarcoma
+		?c: those derived from other organs
+	?a derived from ?b
+		?a: those
+		?b: other organs
+
+
+label:    sent_4
+sentence: The comeasurement of the O-demethylation and N-demethylation of codeine may provide a tool with which to phenotype individuals in vitro with respect to the polymorphism of the cytochrome P-450IID1 .
+
+ppatt:
+	?a may provide ?b
+		?a: The comeasurement of the O-demethylation and N-demethylation of codeine
+		?b: a tool with which to phenotype individuals in vitro with to the polymorphism of the cytochrome P-450IID1
+
+
+label:    sent_5
+sentence: Although the N-demethylation of erythromycin has found widespread use in a noninvasive assay with which to phenotype hepatic CYP3A function , currently , the routine in vitro analysis of erythromycin N-demethylase activity relies on the quantitation of liberated formaldehyde by relatively labor-intensive and insensitive colorimetric or fluorimetric detection .
+
+ppatt:
+	?a has found ?b
+		?a: the N-demethylation of erythromycin
+		?b: widespread use in a noninvasive assay with which to phenotype hepatic CYP3A function
+	?a with to phenotype ?b
+		?a: a noninvasive assay
+		?b: hepatic CYP3A function
+	currently , ?a relies on ?b
+		?a: the routine in analysis of erythromycin N-demethylase activity
+		?b: the quantitation of liberated formaldehyde by relatively labor-intensive and insensitive colorimetric or fluorimetric detection
+
+

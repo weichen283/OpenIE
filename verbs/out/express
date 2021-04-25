@@ -1,0 +1,350 @@
+label:    sent_1
+sentence: Both marginal cells of the stria vascularis and hair cells express Trpml3 mRNA .
+
+ppatt:
+	?a express ?b
+		?a: marginal cells of the stria vascularis and hair cells
+		?b: Trpml3 mRNA
+
+
+label:    sent_2
+sentence: Normal gallbladder tissue samples did not express GLUT-1 ( 100 % ) . IEC-6 cells express both MCT1 and Na+-coupled monocarboxylate transporter 1 ( SMCT1 ) mRNA .
+
+ppatt:
+	?a did not express ?b
+		?a: Normal gallbladder tissue samples
+		?b: GLUT-1
+	?a is/are 100 %
+		?a: GLUT-1
+	?a express ?b
+		?a: IEC-6 cells
+		?b: MCT1
+	?a is/are SMCT1
+		?a: Na+-coupled monocarboxylate transporter 1
+
+
+label:    sent_3
+sentence: Transgenic plants are able to express molecules with antigenic properties .
+
+ppatt:
+	?a are able to express ?b with ?c
+		?a: Transgenic plants
+		?b: molecules
+		?c: antigenic properties
+
+
+label:    sent_4
+sentence: These videos largely provide nonsuicidal self-injury information and/or express a hopeless or melancholic message .
+
+ppatt:
+	?a largely provide ?b
+		?a: These videos
+		?b: nonsuicidal self-injury information
+	?a express ?b
+		?a: These videos
+		?b: a hopeless or melancholic message
+
+
+label:    sent_5
+sentence: Variance partition coefficients and Wald statistic were used to express measures of variation .
+
+ppatt:
+	?a were used to express ?b
+		?a: Variance partition coefficients
+		?b: measures of variation
+	?a were used to express ?b
+		?a: Wald statistic
+		?b: measures of variation
+
+
+label:    sent_6
+sentence: Five of these 9 patients did not express NY-ESO-1 in the autologous tumor .
+
+ppatt:
+	?a did not express ?b in ?c
+		?a: Five of these 9 patients
+		?b: NY-ESO-1
+		?c: the autologous tumor
+
+
+label:    sent_7
+sentence: In addition , endothelial cells express a binding site for external TF .
+
+ppatt:
+	In ?a , ?b express ?c
+		?a: addition
+		?b: endothelial cells
+		?c: a binding site for external TF
+
+
+label:    sent_8
+sentence: Macrophages and airway epithelial cells express Ang2 and VEGF only in allergic models .
+
+ppatt:
+	?a express ?b in ?c
+		?a: Macrophages
+		?b: Ang2
+		?c: only allergic models
+	?a express ?b in ?c
+		?a: airway epithelial cells
+		?b: Ang2
+		?c: only allergic models
+	?a express ?b in ?c
+		?a: Macrophages
+		?b: VEGF
+		?c: only allergic models
+	?a express ?b in ?c
+		?a: airway epithelial cells
+		?b: VEGF
+		?c: only allergic models
+
+
+label:    sent_9
+sentence: The neoplastic cells express B-cell markers , and CD30 often shows heterogeneous staining .
+
+ppatt:
+	?a express ?b
+		?a: The neoplastic cells
+		?b: B-cell markers
+	?a often shows ?b
+		?a: CD30
+		?b: heterogeneous staining
+
+
+label:    sent_10
+sentence: Immune cells express vitamin D receptor and are capable of metabolizing vitamin D .
+
+ppatt:
+	?a express ?b
+		?a: Immune cells
+		?b: vitamin D receptor
+	metabolizing ?a
+		?a: vitamin D
+
+
+label:    sent_11
+sentence: Triple-negative breast cancers ( TNBC ) neither express hormone receptors , nor overexpress HER2 .
+
+ppatt:
+	?a is/are TNBC
+		?a: Triple-negative breast cancers
+	?a neither express ?b
+		?a: Triple-negative breast cancers
+		?b: hormone receptors
+	?a overexpress ?b
+		?a: Triple-negative breast cancers
+		?b: HER2
+
+
+label:    sent_12
+sentence: We generated transgenic mice that constitutively express TL1A in T cells or dendritic cells .
+
+ppatt:
+	?a generated ?b
+		?a: We
+		?b: transgenic mice that constitutively express TL1A in T cells or dendritic cells
+	?a constitutively express ?b in ?c
+		?a: transgenic mice
+		?b: TL1A
+		?c: T cells
+	?a constitutively express ?b in ?c
+		?a: transgenic mice
+		?b: TL1A
+		?c: dendritic cells
+
+
+label:    sent_13
+sentence: It is no longer acceptable to express results in terms of survival at birth .
+
+ppatt:
+	?a is no longer acceptable to express ?b in ?c
+		?a: It
+		?b: results
+		?c: terms of survival at birth
+
+
+label:    sent_14
+sentence: Some hospitals encourage women with diabetes to express breast milk before birth .
+
+ppatt:
+	?a encourage ?b to express ?c before ?d
+		?a: Some hospitals
+		?b: women with diabetes
+		?c: breast milk
+		?d: birth
+
+
+label:    sent_15
+sentence: Trophoblast stem cells are derived from the precursor of the placenta and express Notch1 .
+
+ppatt:
+	?a are derived from ?b
+		?a: Trophoblast stem cells
+		?b: the precursor of the placenta
+	?a express ?b
+		?a: Trophoblast stem cells
+		?b: Notch1
+
+
+label:    sent_16
+sentence: CD31 detected capillary endothelial cells , but did not express any AMCase and ChT .
+
+ppatt:
+	?a detected ?b
+		?a: CD31
+		?b: capillary endothelial cells
+	?a did not express ?b
+		?a: CD31
+		?b: any AMCase
+	?a did not express ?b
+		?a: CD31
+		?b: ChT
+
+
+label:    sent_17
+sentence: Neuronal precursor cells differentiate into cholinergic and GABAergic cells and express vesicle proteins .
+
+ppatt:
+	?a differentiate ?b
+		?a: Neuronal precursor cells
+		?b: cholinergic
+	?a differentiate ?b
+		?a: Neuronal precursor cells
+		?b: GABAergic
+	?a express ?b
+		?a: Neuronal precursor cells
+		?b: vesicle proteins
+
+
+label:    sent_18
+sentence: Retinal blood vessels did not express AQP-0 .
+
+ppatt:
+	?a did not express ?b
+		?a: Retinal blood vessels
+		?b: AQP-0
+
+
+label:    sent_19
+sentence: Nontumoral pancreatic tissues and cells do not express pBSDL-J28 .
+
+ppatt:
+	?a do not express ?b
+		?a: Nontumoral pancreatic tissues
+		?b: pBSDL-J28
+	?a do not express ?b
+		?a: cells
+		?b: pBSDL-J28
+
+
+label:    sent_20
+sentence: Genetic manipulation of Neospora caninum to express the bradyzoite-specific protein NcSAG4 in tachyzoites .
+
+ppatt:
+	?a express ?b in ?c
+		?a: Genetic manipulation of Neospora caninum
+		?b: the bradyzoite-specific protein
+		?c: tachyzoites
+
+
+label:    sent_21
+sentence: Most humans are social beings and we express our thoughts and feelings through language .
+
+ppatt:
+	?a are social beings
+		?a: Most humans
+	?a express ?b through ?c
+		?a: we
+		?b: our thoughts
+		?c: language
+	?a express ?b through ?c
+		?a: we
+		?b: feelings
+		?c: language
+
+
+label:    sent_22
+sentence: In the colon , neurons express NTPDase3 and glial cells express NTPDase2 .
+
+ppatt:
+	In ?a , ?b express ?c
+		?a: the colon
+		?b: neurons
+		?c: NTPDase3
+	In ?a , ?b express ?c
+		?a: the colon
+		?b: neurons
+		?c: glial cells
+	?a express ?b
+		?a: neurons
+		?b: NTPDase2
+
+
+label:    sent_23
+sentence: MSCs express FoxP3 at variable levels , but they do not express CD39 .
+
+ppatt:
+	?a express ?b at ?c
+		?a: MSCs
+		?b: FoxP3
+		?c: variable levels
+	?a do not express ?b
+		?a: they
+		?b: CD39
+
+
+label:    sent_24
+sentence: No differences found of liver iron express among the three groups . PEDF also express in human LEC .
+
+ppatt:
+	?a found of ?b
+		?a: No differences
+		?b: liver iron
+	?a express among ?b
+		?a: No differences found of liver iron
+		?b: the three groups
+	?a also express in ?b
+		?a: PEDF
+		?b: human LEC
+
+
+label:    sent_25
+sentence: Cell homogenates from human lens epithelium express in binding site for Parathyroid hormone .
+
+ppatt:
+	?a express in ?b
+		?a: Cell homogenates from human lens epithelium
+		?b: binding site for Parathyroid hormone
+
+
+label:    sent_26
+sentence: Such feelings may be difficult to express at home or elsewhere .
+
+ppatt:
+	?a may be difficult to express at ?b
+		?a: Such feelings
+		?b: home
+	?a may be difficult to express at ?b
+		?a: Such feelings
+		?b: elsewhere
+
+
+label:    sent_27
+sentence: Both products are classically thought to express predominantly in oligodendrocytes .
+
+ppatt:
+	?a are classically thought to express predominantly in ?b
+		?a: Both products
+		?b: oligodendrocytes
+
+
+label:    sent_28
+sentence: On day 3 after photocoagulation , VEGF began to express in laser-induced lesions .
+
+ppatt:
+	On ?a , ?b began to express in ?c
+		?a: day 3 after photocoagulation
+		?b: VEGF
+		?c: laser-induced lesions
+
+

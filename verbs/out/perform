@@ -1,0 +1,337 @@
+label:    sent_1
+sentence: Software to perform PSM data processing is available as part of the PySpecTools package .
+
+ppatt:
+	?a perform ?b
+		?a: Software
+		?b: PSM data processing
+	?a is available as ?b
+		?a: Software to perform PSM data processing
+		?b: part of the PySpecTools package
+
+
+label:    sent_2
+sentence: Minimizing the time required to perform left lobe pneumonectomy is critical for animal survival .
+
+ppatt:
+	Minimizing ?a
+		?a: the time required to perform left lobe pneumonectomy
+	?a required to perform ?b
+		?a: the time
+		?b: left lobe pneumonectomy
+	?a is critical for ?b
+		?a: SOMETHING := Minimizing the time required to perform left lobe pneumonectomy
+		?b: animal survival
+
+
+label:    sent_3
+sentence: However , there is no current assessment of the capacity to perform PDTs .
+
+ppatt:
+	However , there is ?a
+		?a: no current assessment of the capacity to perform PDTs
+	?a perform ?b
+		?a: the capacity
+		?b: PDTs
+
+
+label:    sent_4
+sentence: Each patient was instructed to perform the stretching program at home 3 times daily .
+
+ppatt:
+	?a was instructed to perform ?b at ?c ?d daily
+		?a: Each patient
+		?b: the stretching program
+		?c: home
+		?d: 3 times
+
+
+label:    sent_5
+sentence: They also obviate the ability to perform longitudinal or kinetic studies in one animal .
+
+ppatt:
+	?a also obviate ?b
+		?a: They
+		?b: the ability to perform longitudinal or kinetic studies in one animal
+	?a perform ?b in ?c
+		?a: the ability
+		?b: longitudinal or kinetic studies
+		?c: one animal
+
+
+label:    sent_6
+sentence: Moreover , it is possible to successfully perform this treatment in an outpatient setting .
+
+ppatt:
+	Moreover , ?a is possible to successfully perform ?b in ?c
+		?a: it
+		?b: this treatment
+		?c: an outpatient setting
+
+
+label:    sent_7
+sentence: How does the brain perform these differential memory consolidations ? First we perform a pre-processing step of image enhancement and edge detection .
+
+ppatt:
+	How does ?a
+		?a: the brain
+	?a perform ?b
+		?a: the brain
+		?b: these differential memory consolidations
+	First ?a perform ?b
+		?a: we
+		?b: a pre-processing step of image enhancement and edge detection
+
+
+label:    sent_8
+sentence: We perform several tests of the robustness of the life expectancy model .
+
+ppatt:
+	?a perform ?b
+		?a: We
+		?b: several tests of the robustness of the life expectancy model
+
+
+label:    sent_9
+sentence: Therefore , surgeons should perform ovary-preserving management , especially in young patients .
+
+ppatt:
+	Therefore , ?a should perform ?b in ?c
+		?a: surgeons
+		?b: ovary-preserving management
+		?c: especially young patients
+
+
+label:    sent_10
+sentence: Rodents perform object localization , texture and shape discrimination very precisely through whisking .
+
+ppatt:
+	?a perform ?b very precisely through ?c
+		?a: Rodents
+		?b: object localization
+		?c: whisking
+	?a perform ?b very precisely through ?c
+		?a: Rodents
+		?b: texture
+		?c: whisking
+	?a perform ?b very precisely through ?c
+		?a: Rodents
+		?b: shape discrimination
+		?c: whisking
+
+
+label:    sent_11
+sentence: We routinely perform a cystourethroscopy 3 months after initial ablation of posterior urethral valves .
+
+ppatt:
+	?a routinely perform ?b ?c after ?d
+		?a: We
+		?b: a cystourethroscopy
+		?c: 3 months
+		?d: initial ablation of posterior urethral valves
+
+
+label:    sent_12
+sentence: It was found to perform as well or better than the competing techniques .
+
+ppatt:
+	?a was found to perform as well or better than ?b
+		?a: It
+		?b: the competing techniques
+
+
+label:    sent_13
+sentence: Primary culture in polyHEMA was easy to perform successfully in 71 % of cases .
+
+ppatt:
+	?a was easy to perform successfully in ?b
+		?a: Primary culture in polyHEMA
+		?b: 71 % of cases
+
+
+label:    sent_14
+sentence: Subject-specific approaches have been demonstrated to perform better than subject-independent ones .
+
+ppatt:
+	?a have been demonstrated to perform ?b ?c
+		?a: Subject-specific approaches
+		?b: better
+		?c: ones
+	?a have been demonstrated to perform ?b ?c
+		?a: Subject-specific approaches
+		?b: subject-independent
+		?c: ones
+
+
+label:    sent_15
+sentence: To perform a bibliographic review and the analysis of the different treatment methods described .
+
+ppatt:
+	perform ?a
+		?a: a bibliographic review of the different treatment methods described
+	perform ?a
+		?a: the analysis
+	?a described
+		?a: the different treatment methods
+
+
+label:    sent_16
+sentence: It is able to perform everyday grasps , count and independently point the index .
+
+ppatt:
+	?a is able to perform ?b
+		?a: It
+		?b: everyday grasps
+	?a is able to perform ?b
+		?a: It
+		?b: count
+	?a independently point ?b
+		?a: It
+		?b: the index
+
+
+label:    sent_17
+sentence: Otherwise , it is reasonable to forego CT and perform MRI .
+
+ppatt:
+	Otherwise , ?a is reasonable to forego ?b
+		?a: it
+		?b: CT
+	Otherwise , ?a is reasonable to perform ?b
+		?a: it
+		?b: MRI
+
+
+label:    sent_18
+sentence: Methylene blue and isosulfan blue perform similarly in the sentinel node procedure .
+
+ppatt:
+	?a perform similarly in ?b
+		?a: Methylene blue
+		?b: the sentinel node procedure
+	?a perform similarly in ?b
+		?a: isosulfan blue
+		?b: the sentinel node procedure
+
+
+label:    sent_19
+sentence: Simulation studies suggest that the proposed procedures perform well in finite samples .
+
+ppatt:
+	?a suggest ?b
+		?a: Simulation studies
+		?b: SOMETHING := the proposed procedures perform well in finite samples
+	?a perform well in ?b
+		?a: the proposed procedures
+		?b: finite samples
+
+
+label:    sent_20
+sentence: Customized growth percentiles perform best in the identification of the highest risk population .
+
+ppatt:
+	?a perform ?b in ?c
+		?a: Customized growth percentiles
+		?b: best
+		?c: the identification of the highest risk population
+
+
+label:    sent_21
+sentence: Which kind of approaches should we perform ? Axons perform two major functions that underlie the electrical activity of neurons .
+
+ppatt:
+	?a should ?b perform ?c
+		?a: Which kind of approaches
+		?b: we
+		?c: Axons
+	?a perform ?b
+		?a: Which kind of approaches should we perform ? Axons
+		?b: two major functions that underlie the electrical activity of neurons
+	?a underlie ?b
+		?a: two major functions
+		?b: the electrical activity of neurons
+
+
+label:    sent_22
+sentence: Thus , current best policy recommendations do not perform well .
+
+ppatt:
+	Thus , ?a do not perform well
+		?a: current best policy recommendations
+
+
+label:    sent_23
+sentence: We perform cross-database experiments and prove that single database experiments were optimistically biased .
+
+ppatt:
+	?a perform ?b
+		?a: We
+		?b: cross-database experiments
+	?a prove ?b
+		?a: We
+		?b: SOMETHING := single database experiments were optimistically biased
+	?a were optimistically biased
+		?a: single database experiments
+
+
+label:    sent_24
+sentence: There is some discussion about treatment , but most authors perform radical orchiectomy .
+
+ppatt:
+	There is ?a
+		?a: some discussion about treatment
+	?a perform ?b
+		?a: most authors
+		?b: radical orchiectomy
+
+
+label:    sent_25
+sentence: This fact is incontrovertible and all urologists perform transurethral resection for small adenomas .
+
+ppatt:
+	?a is incontrovertible
+		?a: This fact
+	?a perform ?b
+		?a: all urologists
+		?b: transurethral resection for small adenomas
+
+
+label:    sent_26
+sentence: It is important to perform USG with filled bladder and directly after micturition .
+
+ppatt:
+	?a is important to perform ?b with ?c
+		?a: It
+		?b: USG
+		?c: filled bladder
+	?a is important to perform ?b with ?c
+		?a: It
+		?b: USG
+		?c: directly micturition
+
+
+label:    sent_27
+sentence: Patients tolerate DIBH maneuvers well and can perform them in a highly reproducible fashion .
+
+ppatt:
+	?a tolerate ?b well
+		?a: Patients
+		?b: DIBH maneuvers
+	?a can perform ?b in ?c
+		?a: Patients
+		?b: them
+		?c: a highly reproducible fashion
+
+
+label:    sent_28
+sentence: Pregnant women should remain physically active and perform sports with moderate intensity .
+
+ppatt:
+	?a should remain physically active
+		?a: Pregnant women
+	?a perform ?b with ?c
+		?a: Pregnant women
+		?b: sports
+		?c: moderate intensity
+
+

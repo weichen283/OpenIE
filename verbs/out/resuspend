@@ -1,0 +1,51 @@
+label:    sent_1
+sentence: In no case was there a need to resuspend the pellets before reading .
+
+ppatt:
+	In ?a was there ?b
+		?a: no case
+		?b: a need to resuspend the pellets before reading
+	?a resuspend ?b before ?c
+		?a: a need
+		?b: the pellets
+		?c: reading
+
+
+label:    sent_2
+sentence: A solid particle resuspension system was implemented to resuspend ash particles .
+
+ppatt:
+	?a was implemented to resuspend ?b
+		?a: A solid particle resuspension system
+		?b: ash particles
+
+
+label:    sent_3
+sentence: Further addition of DODAB to XAN solution was able to resuspend the precipitates .
+
+ppatt:
+	Further ?a was able to resuspend ?b
+		?a: addition of DODAB to XAN solution
+		?b: the precipitates
+
+
+label:    sent_4
+sentence: Source strengths for indoor human activities that resuspend particulate matter .
+
+ppatt:
+	?a resuspend ?b
+		?a: indoor human activities
+		?b: particulate matter
+
+
+label:    sent_5
+sentence: Whether one should resuspend the bladder neck concurrent with urethrolysis is controversial .
+
+ppatt:
+	?a should resuspend ?b
+		?a: one
+		?b: the bladder neck concurrent with urethrolysis
+	?a is controversial
+		?a: SOMETHING := one should resuspend the bladder neck concurrent with urethrolysis
+
+

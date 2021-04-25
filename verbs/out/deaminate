@@ -1,0 +1,115 @@
+label:    sent_1
+sentence: During hyperoxia monoamine oxidase type A acquires the ability to deaminate polyamines and histamine .
+
+ppatt:
+	During ?a ?b acquires ?c
+		?a: hyperoxia
+		?b: monoamine oxidase type A
+		?c: the ability to deaminate polyamines and histamine
+	?a deaminate ?b
+		?a: the ability
+		?b: polyamines
+	?a deaminate ?b
+		?a: the ability
+		?b: histamine
+
+
+label:    sent_2
+sentence: All tissues were found to preferentially deaminate deoxyadenosine .
+
+ppatt:
+	?a were found to preferentially deaminate ?b
+		?a: All tissues
+		?b: deoxyadenosine
+
+
+label:    sent_3
+sentence: In contrast we confirmed that the primary function of GDH is to deaminate Glu .
+
+ppatt:
+	In ?a ?b confirmed ?c
+		?a: contrast
+		?b: we
+		?c: SOMETHING := the primary function of GDH is to deaminate Glu
+	?a is to deaminate ?b
+		?a: the primary function of GDH
+		?b: Glu
+
+
+label:    sent_4
+sentence: Nonetheless , cells grown in the presence of glycine will reductively deaminate it . [Ability of yeast-like fungi to deaminate 5-fluorocytosine ] . Members of the AID / APOBEC protein family can deaminate DNA .
+
+ppatt:
+	?a grown in of ?b
+		?a: cells
+		?b: glycine
+	Nonetheless , ?a will reductively deaminate ?b . ?c to deaminate ?d
+		?a: cells grown in of glycine
+		?b: it
+		?c: [Ability of yeast-like fungi
+		?d: 5-fluorocytosine ]
+	?a can deaminate ?b
+		?a: Members of the AID / APOBEC protein family
+		?b: DNA
+
+
+label:    sent_5
+sentence: The Deltauga1 strain can not deaminate GABA to succinate semialdehyde .
+
+ppatt:
+	?a can not deaminate ?b to ?c
+		?a: The Deltauga1 strain
+		?b: GABA
+		?c: succinate semialdehyde
+
+
+label:    sent_6
+sentence: The ADAR RNA-editing enzymes deaminate adenosine bases to inosines in cellular RNAs .
+
+ppatt:
+	?a deaminate ?b to ?c
+		?a: The ADAR RNA-editing enzymes
+		?b: adenosine bases
+		?c: inosines in cellular RNAs
+
+
+label:    sent_7
+sentence: Thus , APOBEC1 can deaminate cytosine in both RNA and DNA .
+
+ppatt:
+	Thus , ?a can deaminate ?b in ?c
+		?a: APOBEC1
+		?b: cytosine
+		?c: RNA
+	Thus , ?a can deaminate ?b in ?c
+		?a: APOBEC1
+		?b: cytosine
+		?c: DNA
+
+
+label:    sent_8
+sentence: This deaminates cytosine to uracil in single-stranded DNA but does not deaminate 5-methyl cytosine .
+
+ppatt:
+	?a deaminates ?b to ?c in ?d
+		?a: This
+		?b: cytosine
+		?c: uracil
+		?d: single-stranded DNA
+	?a does not deaminate ?b
+		?a: This
+		?b: 5-methyl cytosine
+
+
+label:    sent_9
+sentence: It was shown here that these enzymes actually deaminate 6-aminodeoxyfutalosine .
+
+ppatt:
+	?a was shown here ?b
+		?a: It
+		?b: SOMETHING := these enzymes actually deaminate 6-aminodeoxyfutalosine
+	?a actually deaminate ?b
+		?a: these enzymes
+		?b: 6-aminodeoxyfutalosine
+
+

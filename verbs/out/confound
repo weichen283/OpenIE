@@ -1,0 +1,254 @@
+label:    sent_1
+sentence: Tamoxifen can confound analysis of IGF1 and recurrence .
+
+ppatt:
+	?a can confound ?b
+		?a: Tamoxifen
+		?b: analysis of IGF1 and recurrence
+
+
+label:    sent_2
+sentence: Dropouts due to nocebo effect may confound the interpretation of many clinical trials .
+
+ppatt:
+	?a may confound ?b
+		?a: Dropouts due to nocebo effect
+		?b: the interpretation of many clinical trials
+
+
+label:    sent_3
+sentence: Do somatic and cognitive symptoms of traumatic brain injury confound depression screening ? Did clopidogrel confound the results ? Cultural influences tend to confound the association of religion and schizophrenia .
+
+ppatt:
+	?a ?b confound ?c
+		?a: SOMETHING := Do
+		?b: somatic and cognitive symptoms of traumatic brain injury
+		?c: depression screening
+	Did ?a confound ?b
+		?a: clopidogrel
+		?b: the results
+	?a tend to confound ?b
+		?a: Cultural influences
+		?b: the association of religion and schizophrenia
+
+
+label:    sent_4
+sentence: Hypervascularity can confound apparent diffusion coefficient measurements in breast cancer .
+
+ppatt:
+	?a can confound ?b
+		?a: Hypervascularity
+		?b: apparent diffusion coefficient measurements in breast cancer
+
+
+label:    sent_5
+sentence: Their clinical relevance is not always immediately clear and they may confound medical management .
+
+ppatt:
+	?a is not always immediately clear
+		?a: Their clinical relevance
+	?a may confound ?b
+		?a: they
+		?b: medical management
+
+
+label:    sent_6
+sentence: Heavy parasitism of wild-caught bullfrogs may confound research protocols and markedly impair animal health .
+
+ppatt:
+	?a may confound ?b
+		?a: Heavy parasitism of wild-caught bullfrogs
+		?b: research protocols
+	?a markedly impair ?b
+		?a: Heavy parasitism of wild-caught bullfrogs
+		?b: animal health
+
+
+label:    sent_7
+sentence: Residual mood symptoms confound this result but can not account for the effect sizes found .
+
+ppatt:
+	?a confound ?b
+		?a: Residual mood symptoms
+		?b: this result
+	?a can not account for ?b
+		?a: Residual mood symptoms
+		?b: the effect sizes found
+	?a found
+		?a: the effect sizes
+
+
+label:    sent_8
+sentence: This assumption , if inaccurate , may confound the rehabilitation process .
+
+ppatt:
+	?a may confound ?b
+		?a: This assumption
+		?b: the rehabilitation process
+
+
+label:    sent_9
+sentence: This may confound investigation of factors that impact adipocyte hyperplasia in the pig . Demographic and social characteristics potentially may confound fitness program outcome , including absenteeism .
+
+ppatt:
+	?a may confound ?b
+		?a: This
+		?b: investigation of factors that impact adipocyte hyperplasia in the pig
+	?a impact ?b
+		?a: factors
+		?b: adipocyte hyperplasia in the pig
+	?a ?b potentially may confound ?c
+		?a: Demographic
+		?b: characteristics
+		?c: fitness program outcome , including absenteeism
+	?a ?b potentially may confound ?c
+		?a: social
+		?b: characteristics
+		?c: fitness program outcome , including absenteeism
+
+
+label:    sent_10
+sentence: Defective apoptosis not only promotes tumorigenesis , but also can confound chemotherapeutic response .
+
+ppatt:
+	?a not only promotes ?b
+		?a: Defective apoptosis
+		?b: tumorigenesis
+	?a also can confound ?b
+		?a: Defective apoptosis
+		?b: chemotherapeutic response
+
+
+label:    sent_11
+sentence: This finding may impact airway training and confound comparative airway device studies .
+
+ppatt:
+	?a may impact ?b
+		?a: This finding
+		?b: airway training
+	?a confound ?b
+		?a: This finding
+		?b: comparative airway device studies
+
+
+label:    sent_12
+sentence: Current treatment strategies can be labor-intensive , toxic , and may confound research studies .
+
+ppatt:
+	?a can be labor-intensive
+		?a: Current treatment strategies
+	?a toxic
+		?a: Current treatment strategies
+	?a may confound ?b
+		?a: Current treatment strategies
+		?b: research studies
+
+
+label:    sent_13
+sentence: Floaters : a potential confound in the assessment of perceptual abnormalities .
+
+ppatt:
+
+
+
+label:    sent_14
+sentence: Here , a subtle confound in proportion compatible manipulations is considered .
+
+ppatt:
+	Here , ?a is considered
+		?a: a subtle confound in proportion compatible manipulations
+
+
+label:    sent_15
+sentence: Therefore , these two conditions were separated without confound of location and stimulus .
+
+ppatt:
+	Therefore , ?a were separated without confound of ?b
+		?a: these two conditions
+		?b: location
+	Therefore , ?a were separated without confound of ?b
+		?a: these two conditions
+		?b: stimulus
+
+
+label:    sent_16
+sentence: Correlated variables have been shown to confound statistical analyses in microarray experiments .
+
+ppatt:
+	?a have been shown to confound ?b
+		?a: Correlated variables
+		?b: statistical analyses in microarray experiments
+
+
+label:    sent_17
+sentence: However , anesthesia may confound evaluating EUS activity .
+
+ppatt:
+	However , ?a may confound evaluating ?b
+		?a: anesthesia
+		?b: EUS activity
+
+
+label:    sent_18
+sentence: Does phenotypic plasticity confound attempts to identify hominin fossil species ? Local immunotolerance mechanisms may likewise confound attempts to confirm the clinical diagnosis by serology .
+
+ppatt:
+	Does ?a
+		?a: phenotypic plasticity
+	?a confound ?b
+		?a: phenotypic plasticity
+		?b: attempts to identify hominin fossil species
+	?a identify ?b
+		?a: attempts
+		?b: hominin fossil species
+	?a may likewise confound ?b
+		?a: Local immunotolerance mechanisms
+		?b: attempts to confirm the clinical diagnosis by serology
+	?a confirm ?b
+		?a: attempts
+		?b: the clinical diagnosis by serology
+
+
+label:    sent_19
+sentence: Does weather confound or modify the association of particulate air pollution with mortality ? Which factors confound or modify the relationship between body weight and mortality ? Cognitive hostility may either confound or mediate the association between depressive mood and mortality .
+
+ppatt:
+	Does ?a confound ?b
+		?a: weather
+		?b: the association of particulate air pollution with mortality ? Which factors confound or modify the relationship between body weight and mortality
+	?a modify
+		?a: weather
+	?a ?b ?c confound
+		?a: mortality
+		?b: Which
+		?c: factors
+	?a modify ?b
+		?a: factors
+		?b: the relationship between body weight and mortality
+	?a may either confound ?b
+		?a: Cognitive hostility
+		?b: the association between depressive mood and mortality
+	?a mediate
+		?a: Cognitive hostility
+
+
+label:    sent_20
+sentence: There are no formulas to confound or to become barriers to insight .
+
+ppatt:
+	There are ?a
+		?a: no formulas to confound or to become barriers to insight
+	?a confound
+		?a: no formulas
+	?a become barriers to ?b
+		?a: no formulas
+		?b: insight
+
+
+label:    sent_21
+sentence: Methods of coping and burden of illness : Cause or confound ? P-values are misunderstood , but do not confound .
+
+ppatt:
+
+
+

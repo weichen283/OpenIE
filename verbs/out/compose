@@ -1,0 +1,250 @@
+label:    sent_1
+sentence: Contingent workers compose a large portion of the U.S. work force .
+
+ppatt:
+	?a compose ?b
+		?a: Contingent workers
+		?b: a large portion of the U.S. work force
+
+
+label:    sent_2
+sentence: Tetraspanins compose a family of structurally related molecules with four transmembrane domains .
+
+ppatt:
+	?a compose ?b
+		?a: Tetraspanins
+		?b: a family of structurally related molecules with four transmembrane domains
+
+
+label:    sent_3
+sentence: Cullin-RING ligases ( CRLs ) compose the largest class of E3 ubiquitin ligases .
+
+ppatt:
+	?a is/are CRLs
+		?a: Cullin-RING ligases
+	?a compose ?b
+		?a: Cullin-RING ligases
+		?b: the largest class of E3 ubiquitin ligases
+
+
+label:    sent_4
+sentence: Different electronic components were used to compose this new training device .
+
+ppatt:
+	?a were used to compose ?b
+		?a: Different electronic components
+		?b: this new training device
+
+
+label:    sent_5
+sentence: How to compose a manuscript review for the Journal of Ultrasound in Medicine .
+
+ppatt:
+	How to compose ?a
+		?a: a manuscript review for the Journal of Ultrasound in Medicine
+
+
+label:    sent_6
+sentence: Non-robustness and heterogeneity of the poor-responder results compose its limitations . T cells compose a crucial part of the immune system and require activation .
+
+ppatt:
+	?a compose ?b
+		?a: Non-robustness of the poor-responder results
+		?b: its limitations
+	?a compose ?b
+		?a: heterogeneity
+		?b: its limitations
+	?a compose ?b
+		?a: T cells
+		?b: a crucial part of the immune system
+	?a require ?b
+		?a: T cells
+		?b: activation
+
+
+label:    sent_7
+sentence: Osteocytes compose 90-95 % of all bone cells and are the mechanosensors of bone .
+
+ppatt:
+	?a compose ?b
+		?a: Osteocytes
+		?b: 90-95 % of all bone cells
+
+
+label:    sent_8
+sentence: These two components compose the biphasic dimensions of QOL and thus are analyzed coincidentally .
+
+ppatt:
+	?a compose ?b
+		?a: These two components
+		?b: the biphasic dimensions of QOL
+	?a thus are analyzed coincidentally
+		?a: These two components
+
+
+label:    sent_9
+sentence: Male COs compose the majority of Chinese COs , especially for frontline COs .
+
+ppatt:
+	?a compose ?b for ?c
+		?a: Male COs
+		?b: the majority of Chinese COs
+		?c: especially frontline COs
+
+
+label:    sent_10
+sentence: In contrast , four identical subunits compose the UPRTase-UMP-CTP tetramer .
+
+ppatt:
+	In ?a , ?b compose ?c
+		?a: contrast
+		?b: four identical subunits
+		?c: the UPRTase-UMP-CTP tetramer
+
+
+label:    sent_11
+sentence: In the feeding stage , circular muscles compose the buccal funnel aperture .
+
+ppatt:
+	In ?a , ?b compose ?c
+		?a: the feeding stage
+		?b: circular muscles
+		?c: the buccal funnel aperture
+
+
+label:    sent_12
+sentence: Therapists were unable to select patients and compose their own groups .
+
+ppatt:
+	?a were unable to select ?b
+		?a: Therapists
+		?b: patients
+	?a were unable to compose ?b
+		?a: Therapists
+		?b: their own groups
+
+
+label:    sent_13
+sentence: The mollusks compose a well-studied phylum that yield a large variety of biomineralization proteins .
+
+ppatt:
+	?a compose ?b
+		?a: The mollusks
+		?b: a well-studied phylum that yield a large variety of biomineralization proteins
+	?a yield ?b
+		?a: a well-studied phylum
+		?b: a large variety of biomineralization proteins
+
+
+label:    sent_14
+sentence: Putative structural heterogeneity can be inferred from sequence regions that compose poorly . Structure cristalline du compose intermetallique Ni18Ge12 .
+
+ppatt:
+	?a can be inferred from ?b
+		?a: Putative structural heterogeneity
+		?b: sequence regions that compose poorly
+	?a compose poorly
+		?a: sequence regions
+	?a compose ?b
+		?a: Structure cristalline du
+		?b: intermetallique Ni18Ge12
+
+
+label:    sent_15
+sentence: To compose obstetric interventions around Europe .
+
+ppatt:
+	compose ?a
+		?a: obstetric interventions around Europe
+
+
+label:    sent_16
+sentence: Microscopically , the tumor was compose by medullary nests of poorly differentiated adenocarcinoma cells .
+
+ppatt:
+	Microscopically , ?a was compose by ?b
+		?a: the tumor
+		?b: medullary nests of poorly differentiated adenocarcinoma cells
+
+
+label:    sent_17
+sentence: All these tumors compose of bland spindle cells , mature adipocytes and collagen bundles .
+
+ppatt:
+	?a compose of ?b
+		?a: All these tumors
+		?b: bland spindle cells
+	?a compose of ?b
+		?a: All these tumors
+		?b: mature adipocytes
+	?a compose of ?b
+		?a: All these tumors
+		?b: collagen bundles
+
+
+label:    sent_18
+sentence: Long interspersed element-1 elements compose on average one-fifth of mammalian genomes .
+
+ppatt:
+	?a compose on ?b
+		?a: Long interspersed element-1 elements
+		?b: average one-fifth of mammalian genomes
+
+
+label:    sent_19
+sentence: The DSTT was calculated to compose about one fourth of the total spinothalamic population .
+
+ppatt:
+	?a was calculated to compose ?b
+		?a: The DSTT
+		?b: about one fourth of the total spinothalamic population
+
+
+label:    sent_20
+sentence: The leaching residue was found to compose mainly of magnetite and hematite .
+
+ppatt:
+	?a was found to compose mainly of ?b
+		?a: The leaching residue
+		?b: magnetite
+	?a was found to compose mainly of ?b
+		?a: The leaching residue
+		?b: hematite
+
+
+label:    sent_21
+sentence: To compose Gianturco Z-stents without welding , a twining method was applied .
+
+ppatt:
+	compose ?a without ?b ?c
+		?a: Gianturco Z-stents
+		?b: welding
+		?c: a twining method
+	?a was applied
+		?a: a twining method
+
+
+label:    sent_22
+sentence: Cadherin and catenin compose cell adhesion complex and are indispensable for tight cell-cell adhesion .
+
+ppatt:
+	?a compose ?b
+		?a: Cadherin
+		?b: cell adhesion complex
+	?a compose ?b
+		?a: catenin
+		?b: cell adhesion complex
+
+
+label:    sent_23
+sentence: Galactomannans and arabinogalactans compose almost exclusively the polysaccharide fraction of roasted coffee infusions .
+
+ppatt:
+	?a compose almost exclusively ?b
+		?a: Galactomannans
+		?b: the polysaccharide fraction of roasted coffee infusions
+	?a compose almost exclusively ?b
+		?a: arabinogalactans
+		?b: the polysaccharide fraction of roasted coffee infusions
+
+

@@ -1,0 +1,342 @@
+label:    sent_1
+sentence: Estimating the directed information to infer causal relationships in ensemble neural spike train recordings .
+
+ppatt:
+	Estimating ?a
+		?a: the directed information to infer causal relationships in ensemble neural spike train recordings
+	?a infer ?b
+		?a: the directed information
+		?b: causal relationships in ensemble neural spike train recordings
+
+
+label:    sent_2
+sentence: Utilizing twins concordance rates to infer the predisposition to myasthenia gravis .
+
+ppatt:
+	Utilizing ?a
+		?a: twins concordance rates
+	infer ?a
+		?a: the predisposition to myasthenia gravis
+
+
+label:    sent_3
+sentence: Most statistical genetic packages use likelihood-based methods to infer haplotypes .
+
+ppatt:
+	?a use ?b
+		?a: Most statistical genetic packages
+		?b: likelihood-based methods to infer haplotypes
+	?a infer ?b
+		?a: likelihood-based methods
+		?b: haplotypes
+
+
+label:    sent_4
+sentence: We infer that PPC does not follow a strict effector-specific organization .
+
+ppatt:
+	?a infer ?b
+		?a: We
+		?b: SOMETHING := PPC does not follow a strict effector-specific organization
+	?a does not follow ?b
+		?a: PPC
+		?b: a strict effector-specific organization
+
+
+label:    sent_5
+sentence: We infer that these lysine residues impede functional protein-protein interactions .
+
+ppatt:
+	?a infer ?b
+		?a: We
+		?b: SOMETHING := these lysine residues impede functional protein-protein interactions
+	?a impede ?b
+		?a: these lysine residues
+		?b: functional protein-protein interactions
+
+
+label:    sent_6
+sentence: Our data infer that SA is initially located in the chloroplasts .
+
+ppatt:
+	?a infer ?b
+		?a: Our data
+		?b: SOMETHING := SA is initially located in the chloroplasts
+	?a is initially located in ?b
+		?a: SA
+		?b: the chloroplasts
+
+
+label:    sent_7
+sentence: A computational method to infer haplotypes from genotype data is therefore important .
+
+ppatt:
+	?a infer ?b
+		?a: A computational method
+		?b: haplotypes from genotype data
+	?a is therefore important
+		?a: A computational method to infer haplotypes from genotype data
+
+
+label:    sent_8
+sentence: A computational method to infer haplotypes from genotype data is therefore important .
+
+ppatt:
+	?a infer ?b
+		?a: A computational method
+		?b: haplotypes from genotype data
+	?a is therefore important
+		?a: A computational method to infer haplotypes from genotype data
+
+
+label:    sent_9
+sentence: Attempting to infer dynamic balance ability based on static balance ability should be avoided .
+
+ppatt:
+	Attempting ?a to infer ?b
+		?a: Attempting to infer dynamic balance ability based on static balance ability
+		?b: dynamic balance ability based on static balance ability
+	?a should be avoided
+		?a: Attempting to infer dynamic balance ability based on static balance ability
+
+
+label:    sent_10
+sentence: This enables us to infer future directional changes in the influenza A viral genome .
+
+ppatt:
+	?a enables ?b to infer ?c
+		?a: This
+		?b: us
+		?c: future directional changes in the influenza A viral genome
+
+
+label:    sent_11
+sentence: A model to infer the pathogenic significance of CDH1 germline missense variants .
+
+ppatt:
+	?a infer ?b
+		?a: A model
+		?b: the pathogenic significance of CDH1 germline missense variants
+
+
+label:    sent_12
+sentence: Our findings lead us to conclude that clinicians inaccurately infer severity of patient pain .
+
+ppatt:
+	?a lead ?b to conclude ?c
+		?a: Our findings
+		?b: us
+		?c: SOMETHING := clinicians inaccurately infer severity of patient pain
+	?a inaccurately infer ?b
+		?a: clinicians
+		?b: severity of patient pain
+
+
+label:    sent_13
+sentence: We infer from our observations that all myelin-forming Schwann cells express P2 basic protein .
+
+ppatt:
+	?a infer from ?b
+		?a: We
+		?b: our observations that all myelin-forming Schwann cells express P2 basic protein
+	?a express ?b
+		?a: all myelin-forming Schwann cells
+		?b: P2 basic protein
+
+
+label:    sent_14
+sentence: For the latencies found we can infer that they are related to polysynaptic pathways .
+
+ppatt:
+	?a found
+		?a: the latencies
+	For ?a ?b can infer ?c
+		?a: the latencies found
+		?b: we
+		?c: SOMETHING := they are related to polysynaptic pathways
+	?a are related to ?b
+		?a: they
+		?b: polysynaptic pathways
+
+
+label:    sent_15
+sentence: From this we infer that the CHS subfamilies arose from very recent gene duplications .
+
+ppatt:
+	From ?a ?b infer ?c
+		?a: this
+		?b: we
+		?c: SOMETHING := the CHS subfamilies arose from very recent gene duplications
+	?a arose from ?b
+		?a: the CHS subfamilies
+		?b: very recent gene duplications
+
+
+label:    sent_16
+sentence: Inability to infer causation in the relationship between choice and perceived severity .
+
+ppatt:
+	?a infer ?b in ?c
+		?a: Inability
+		?b: causation
+		?c: the relationship between choice and perceived severity
+
+
+label:    sent_17
+sentence: From the nonoverlapping electron density , we infer strongly ionic character of bonding .
+
+ppatt:
+	From ?a , ?b infer ?c
+		?a: the nonoverlapping electron density
+		?b: we
+		?c: strongly ionic character of bonding
+
+
+label:    sent_18
+sentence: Based on the species-to-species difference in CoNSs , we infer potential species divergence .
+
+ppatt:
+	Based on the species-to-species difference in ?a ?b
+		?a: CoNSs
+		?b: we
+	?a infer ?b
+		?a: we
+		?b: potential species divergence
+
+
+label:    sent_19
+sentence: Sequences were used to infer co-receptor usage and to construct phylogenetic trees .
+
+ppatt:
+	?a were used to infer ?b
+		?a: Sequences
+		?b: co-receptor usage
+	?a were used to to construct ?b
+		?a: Sequences
+		?b: phylogenetic trees
+
+
+label:    sent_20
+sentence: These coefficients are subsequently used to infer the concentrations and compare with known values .
+
+ppatt:
+	?a are subsequently used to infer ?b
+		?a: These coefficients
+		?b: the concentrations
+	?a are subsequently used to compare with ?b
+		?a: These coefficients
+		?b: known values
+
+
+label:    sent_21
+sentence: It does not need to infer isoform structure or to estimate isoform expression .
+
+ppatt:
+	?a does not need to infer ?b
+		?a: It
+		?b: isoform structure
+	?a does not need to to estimate ?b
+		?a: It
+		?b: isoform expression
+
+
+label:    sent_22
+sentence: Children 's use of a verbal-nonverbal consistency principle to infer truth and lying .
+
+ppatt:
+	?a infer ?b
+		?a: Children 's use of a verbal-nonverbal consistency principle
+		?b: truth
+	?a lying
+		?a: truth
+
+
+label:    sent_23
+sentence: Combination treatment strategies can infer a survival benefit but prognosis remains poor .
+
+ppatt:
+	?a can infer ?b
+		?a: Combination treatment strategies
+		?b: a survival benefit
+	?a remains poor
+		?a: prognosis
+
+
+label:    sent_24
+sentence: Using this phylogenetic framework , we infer divergence dates and reconstruct ancestral geographic ranges .
+
+ppatt:
+	Using ?a ?b
+		?a: this phylogenetic framework
+		?b: we
+	?a infer ?b
+		?a: we
+		?b: divergence dates
+	?a reconstruct ?b
+		?a: we
+		?b: ancestral geographic ranges
+
+
+label:    sent_25
+sentence: Here , we propose an improved fast marching algorithm to infer on geodesic paths .
+
+ppatt:
+	Here , ?a propose ?b
+		?a: we
+		?b: an improved fast marching algorithm to infer on geodesic paths
+	?a infer on ?b
+		?a: an improved fast marching algorithm
+		?b: geodesic paths
+
+
+label:    sent_26
+sentence: However , this is difficult to infer from the archaeological record .
+
+ppatt:
+	However , ?a is difficult to infer from ?b
+		?a: this
+		?b: the archaeological record
+
+
+label:    sent_27
+sentence: More extended trials are needed to infer on prognostic value of lymphocytic beta2-adrenoreceptor density .
+
+ppatt:
+	?a are needed to infer on ?b
+		?a: More extended trials
+		?b: prognostic value of lymphocytic beta2-adrenoreceptor density
+
+
+label:    sent_28
+sentence: How to appropriately infer and report protein identifications has triggered a still ongoing debate .
+
+ppatt:
+	How to appropriately infer ?a
+		?a: protein identifications
+	report ?a
+		?a: protein identifications
+	?a has triggered ?b
+		?a: protein identifications
+		?b: a still ongoing debate
+
+
+label:    sent_29
+sentence: We infer rather than perceive the moment we decided to act . A top-down approach to infer and compare domain-domain interactions across eight model organisms .
+
+ppatt:
+	?a infer
+		?a: We
+	?a perceive ?b
+		?a: We
+		?b: the moment
+	?a decided to act ?b
+		?a: we
+		?b: A top-down approach to infer and compare domain-domain interactions across eight model organisms
+	?a infer ?b across ?c
+		?a: A top-down approach
+		?b: domain-domain interactions
+		?c: eight model organisms
+	compare ?a
+		?a: domain-domain interactions
+
+

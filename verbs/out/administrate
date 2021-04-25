@@ -1,0 +1,81 @@
+label:    sent_1
+sentence: Head-tent is usually employed for intensive care as a method to administrate pure oxygen .
+
+ppatt:
+	?a is usually employed for ?b as ?c
+		?a: Head-tent
+		?b: intensive care
+		?c: a method to administrate pure oxygen
+	?a administrate ?b
+		?a: a method
+		?b: pure oxygen
+
+
+label:    sent_2
+sentence: How to administrate erythropoietin , intravenous or subcutaneous ? When the cervix changed in consistency and dilatation , we decided to administrate sulprostone .
+
+ppatt:
+	How to administrate ?a ?b
+		?a: erythropoietin
+		?b: we
+	How to administrate ?a ?b
+		?a: intravenous
+		?b: we
+	How to administrate ?a ?b
+		?a: subcutaneous
+		?b: we
+	When ?a changed in ?b
+		?a: the cervix
+		?b: consistency
+	When ?a changed in ?b
+		?a: the cervix
+		?b: dilatation
+	?a decided to administrate ?b
+		?a: we
+		?b: sulprostone
+
+
+label:    sent_3
+sentence: A new dispersion syringe needle is proposed to administrate insulin to diabetics .
+
+ppatt:
+	?a is proposed to administrate ?b to ?c
+		?a: A new dispersion syringe needle
+		?b: insulin
+		?c: diabetics
+
+
+label:    sent_4
+sentence: It 's feasible to administrate ginsenoside Rg1 from nasal route . Can we administrate academics ? Also , we administrate a questionnaire of satisfaction .
+
+ppatt:
+	administrate ?a from ?b
+		?a: ginsenoside Rg1
+		?b: nasal route
+	Can ?a administrate ?b
+		?a: we
+		?b: academics
+	Also , ?a administrate ?b
+		?a: we
+		?b: a questionnaire of satisfaction
+
+
+label:    sent_5
+sentence: Nurses can administrate family-focused nursing interventions to reduce the caregiver burden .
+
+ppatt:
+	?a can administrate ?b to reduce ?c
+		?a: Nurses
+		?b: family-focused nursing interventions
+		?c: the caregiver burden
+
+
+label:    sent_6
+sentence: The programmes are difficult to administrate in terms of both resources and expense .
+
+ppatt:
+	?a are difficult to administrate in ?b
+		?a: The programmes
+		?b: terms of both resources and expense
+
+

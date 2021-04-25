@@ -1,0 +1,461 @@
+label:    sent_1
+sentence: Due to the epidemiological relevance of rotavirus disease on the worldwide panorama as an important cause of morbid-mortality in the infantile public and to the still incipient production of studies concerning the problematic in the nationwide scenario , not to mention the unique necessity of encouraging the promotion of care and education as inseparable factors in the health spaces , it was delimited as study object of the present article the rotavirus disease in the Brazilian scenario , emphasizing the vaccination as preventive measure against this ill .
+
+ppatt:
+	?a not to mention ?b
+		?a: the still incipient production of studies concerning the problematic in the nationwide scenario
+		?b: the unique necessity of encouraging the promotion of care and education as inseparable factors in the health spaces
+	?a encouraging ?b
+		?a: the unique necessity
+		?b: the promotion of care and education as inseparable factors in the health spaces
+	Due to ?a , ?b was delimited as study ?c
+		?a: the epidemiological relevance of rotavirus disease on the worldwide panorama as an important cause of morbid-mortality in the infantile public
+		?b: it
+		?c: object of the present article the rotavirus disease in the Brazilian scenario
+	Due to ?a , ?b was delimited as study ?c
+		?a: the still incipient production of studies concerning the problematic in the nationwide scenario , not to mention the unique necessity of encouraging the promotion of care and education as inseparable factors in the health spaces
+		?b: it
+		?c: object of the present article the rotavirus disease in the Brazilian scenario
+	?a emphasizing ?b
+		?a: it
+		?b: the vaccination as preventive measure against this ill
+
+
+label:    sent_2
+sentence: We found no evidence of an overall association with current ( OR = 0.89 [95 % confidence interval 0.61-1.30 ] ) or recent ( 1.08 [0.76-1.53 ] ) mention of LABA , but there was some evidence of a positive interaction with age .
+
+ppatt:
+	?a found ?b
+		?a: We
+		?b: no evidence of an overall association with current or recent mention of LABA
+	there was ?a
+		?a: some evidence of a positive interaction with age
+
+
+label:    sent_3
+sentence: In this study , undergraduate students with and without a prior MHI were either informed that the study 's purpose was to investigate the effects of MHI on cognitive functioning ( " diagnosis threat " condition ) or merely informed that their cognitive functioning was being examined , with no mention of status ( " neutral " condition ) . However , the majority of these studies only briefly describe the parent 's role , and little mention is made with regard to how the parent 's role evolves over time as children age into adolescence .
+
+ppatt:
+	In ?a , ?b were informed ?c
+		?a: this study
+		?b: undergraduate students with and without a prior MHI
+		?c: SOMETHING := the study 's purpose was to investigate the effects of MHI on cognitive functioning or merely informed that their cognitive functioning was being examined , with no mention of status
+	?a was to investigate ?b
+		?a: the study 's purpose
+		?b: the effects of MHI on cognitive functioning
+	?a is/are " diagnosis threat " condition
+		?a: cognitive functioning
+	?a was to merely informed ?b
+		?a: the study 's purpose
+		?b: SOMETHING := their cognitive functioning was being examined , with no mention of status
+	?a was being examined , with ?b
+		?a: their cognitive functioning
+		?b: no mention of status
+	?a is/are " neutral " condition
+		?a: status
+	However , ?a only briefly describe ?b
+		?a: the majority of these studies
+		?b: the parent 's role
+	?a is made with ?b
+		?a: little mention
+		?b: regard
+	how ?a evolves over ?b as ?c
+		?a: the parent 's role
+		?b: time
+		?c: children
+
+
+label:    sent_4
+sentence: We focus on results generated in our laboratory but give due mention to work from other groups as well .
+
+ppatt:
+	?a focus on ?b
+		?a: We
+		?b: results generated in our laboratory
+	?a generated in ?b
+		?a: results
+		?b: our laboratory
+	?a give ?b as well
+		?a: We
+		?b: due mention to work from other groups
+	?a work from ?b
+		?a: due mention
+		?b: other groups
+
+
+label:    sent_5
+sentence: No mention is made of the far more efficient method of prevention : the air mattress with alternating pressure .
+
+ppatt:
+	?a is made of ?b
+		?a: No mention
+		?b: the far more efficient method of prevention
+
+
+label:    sent_6
+sentence: Here , the extensive use of electrophilic activation of C-C multiple bonds by gold species deserves a prominent mention , and the great strides made in the field over the last few years are described in this tutorial review .
+
+ppatt:
+	Here , ?a deserves ?b
+		?a: the extensive use of electrophilic activation of C-C multiple bonds by gold species
+		?b: a prominent mention
+	?a made in ?b
+		?a: the great strides
+		?b: the field over the last few years
+	?a are described in ?b
+		?a: the great strides made in the field over the last few years
+		?b: this tutorial review
+
+
+label:    sent_7
+sentence: In the final part of the study , a SWOT analysis is made to mention the weaknesses , strengths , opportunities , and threats of the EIA system in Turkey .
+
+ppatt:
+	In ?a , ?b is made to mention ?c
+		?a: the final part of the study
+		?b: a SWOT analysis
+		?c: the weaknesses , in Turkey
+	In ?a , ?b is made to mention ?c
+		?a: the final part of the study
+		?b: a SWOT analysis
+		?c: strengths
+	In ?a , ?b is made to mention ?c
+		?a: the final part of the study
+		?b: a SWOT analysis
+		?c: opportunities
+	In ?a , ?b is made to mention ?c
+		?a: the final part of the study
+		?b: a SWOT analysis
+		?c: threats of the EIA system
+
+
+label:    sent_8
+sentence: Bacterial endocarditis deserves special mention because despite involving specialists of two scientific fields , its prophylaxis is almost always assigned to medical practice , and especially , to dentistry . Indeed , national or international guidelines do n't mention these two subjects .
+
+ppatt:
+	?a deserves ?b
+		?a: Bacterial endocarditis
+		?b: special mention
+	despite ?a , ?b is almost always assigned to ?c
+		?a: involving specialists of two scientific fields
+		?b: its prophylaxis
+		?c: medical practice
+	especially , to ?a . Indeed , ?b do n't mention ?c
+		?a: dentistry
+		?b: national or international guidelines
+		?c: these two subjects
+
+
+label:    sent_9
+sentence: The literature review includes studies that directly mention the topic of influenza seasonality , as well as other topics we believed to be relevant . Only 12 laws mention one or more of these groups of vulnerable women .
+
+ppatt:
+	?a includes ?b
+		?a: The literature review
+		?b: studies that directly mention the topic of influenza seasonality , as well as other topics
+	?a directly mention ?b
+		?a: studies
+		?b: the topic of influenza seasonality , as well as other topics
+	?a believed to be relevant ?b
+		?a: we
+		?b: SOMETHING := Only 12 laws mention one or more of these groups of vulnerable women
+	?a mention ?b
+		?a: Only 12 laws
+		?b: one of these groups of vulnerable women
+	?a mention ?b
+		?a: Only 12 laws
+		?b: more
+
+
+label:    sent_10
+sentence: Of the top three most viewed videos by strategy and search term , 66.7 % included a specific mention of quitting smoking and , of these , the majority included EBPs .
+
+ppatt:
+	search ?a
+		?a: term
+	Of ?a , ?b included ?c
+		?a: the top three most viewed videos by strategy
+		?b: 66.7 %
+		?c: a specific mention of quitting smoking
+	Of ?a , ?b included ?c
+		?a: search term
+		?b: 66.7 %
+		?c: a specific mention of quitting smoking
+	of ?a , ?b included ?c
+		?a: these
+		?b: the majority
+		?c: EBPs
+
+
+label:    sent_11
+sentence: The participants were not compelled to mention their feelings in relation to a case , and it is significant that the anonymity which we tried to maintain so that each person felt " listened to " without value judgement was very often discarded by the individuals themselves .
+
+ppatt:
+	?a were not compelled to mention ?b in ?c to ?d
+		?a: The participants
+		?b: their feelings
+		?c: relation
+		?d: a case
+	?a is significant ?b
+		?a: it
+		?b: SOMETHING := the anonymity which we tried to maintain so that each person felt " listened to " without value judgement was very often discarded by the individuals
+	?a ?b tried to maintain so ?c
+		?a: the anonymity
+		?b: we
+		?c: SOMETHING := each person felt " listened to " without value judgement
+	?a felt ?b
+		?a: each person
+		?b: " listened to " without value judgement
+	?a listened to ?b without ?c
+		?a: "
+		?b: "
+		?c: value judgement
+	?a was very often discarded by ?b
+		?a: the anonymity which we tried to maintain so that each person felt " listened to " without value judgement
+		?b: the individuals
+
+
+label:    sent_12
+sentence: Of the labeling for 73 products evaluated , 62 ( 85 % ) included mention of an interaction with warfarin .
+
+ppatt:
+	?a evaluated
+		?a: 73 products
+	?a is/are 85 %
+		?a: 62
+	Of ?a , ?b included ?c
+		?a: the labeling for 73 products evaluated
+		?b: 62
+		?c: mention of an interaction with warfarin
+
+
+label:    sent_13
+sentence: If the radiologist believes an incidentaloma is of no clinical significance , then making mention of it in the radiological report may possibly lead to a cascade of tests , biopsies , and other surgical procedures , which occasionally can cause serious complications .
+
+ppatt:
+	?a believes ?b
+		?a: the radiologist
+		?b: an incidentaloma
+	?a then making ?b
+		?a: no clinical significance
+		?b: mention of it in the radiological report
+	may possibly lead to ?a
+		?a: a cascade of tests , biopsies , and other surgical procedures , which occasionally can cause serious complications
+	?a occasionally can cause ?b
+		?a: other surgical procedures
+		?b: serious complications
+
+
+label:    sent_14
+sentence: Among controls with mention of LABA , a concurrent mention of ICS ( within 1 month ) was common ( 85 % and 93 % for the two respective periods ) which limited our power to investigate any interaction between LABA and ICS .
+
+ppatt:
+	Among ?a , ?b was common ?c
+		?a: controls with mention of LABA
+		?b: a concurrent mention of ICS ( within 1 month
+		?c: SOMETHING := which limited our power to investigate any interaction between LABA and ICS
+	?a limited ?b
+		?a: which
+		?b: our power to investigate any interaction between LABA and ICS
+	?a investigate ?b
+		?a: our power
+		?b: any interaction between LABA and ICS
+
+
+label:    sent_15
+sentence: A brief mention of other conditions described in human and veterinary medicine is also provided for reference only , such as syndrome of inappropriate antidiuretic hormone secretion and other conditions .
+
+ppatt:
+	?a described in ?b
+		?a: other conditions
+		?b: human and veterinary medicine
+	?a is also provided for ?b
+		?a: A brief mention of other conditions described in human and veterinary medicine
+		?b: reference only , such as syndrome of inappropriate antidiuretic hormone secretion and other conditions
+
+
+label:    sent_16
+sentence: In this context , we mention simulation of Gibbs processes with Markov chain Monte Carlo methods using the Metropolis-Hastings algorithm .
+
+ppatt:
+	In ?a , ?b mention ?c using ?d
+		?a: this context
+		?b: we
+		?c: simulation of Gibbs processes with Markov chain Monte Carlo methods
+		?d: the Metropolis-Hastings algorithm
+
+
+label:    sent_17
+sentence: Among the results achieved , we mention the revision of the dipole moment .
+
+ppatt:
+	?a achieved
+		?a: the results
+	Among ?a , ?b mention ?c
+		?a: the results achieved
+		?b: we
+		?c: the revision of the dipole moment
+
+
+label:    sent_18
+sentence: Surgeons must mention its use in the surgical report to avoid a delayed diagnosis in case of complications .
+
+ppatt:
+	?a must mention ?b
+		?a: Surgeons
+		?b: its use in the surgical report to avoid a delayed diagnosis in case of complications
+	?a avoid ?b
+		?a: the surgical report
+		?b: a delayed diagnosis in case of complications
+
+
+label:    sent_19
+sentence: Results showed that the influence of just world beliefs depended on the fact of mention or not a cause for the aggression .
+
+ppatt:
+	?a showed ?b
+		?a: Results
+		?b: SOMETHING := the influence of just world beliefs depended on the fact of mention or not a cause for the aggression
+	?a depended on ?b
+		?a: the influence of just world beliefs
+		?b: the fact of mention or not a cause for the aggression
+
+
+label:    sent_20
+sentence: We analyzed Canadian newspapers ' portrayal of the A/H1N1 vaccine including mention of risks and benefits of the vaccine and whether the article supported , questioned or was neutral about the vaccine .
+
+ppatt:
+	?a analyzed ?b
+		?a: We
+		?b: Canadian newspapers ' portrayal of the A/H1N1 vaccine including mention of risks and benefits of the vaccine
+	?a supported
+		?a: the article
+	?a questioned
+		?a: the article
+
+
+label:    sent_21
+sentence: One hundred fifty-one Internet personal advertisements were analyzed for attractiveness , income , mention of physical attributes , and mention of other positive personal characteristics .
+
+ppatt:
+	?a were analyzed for ?b
+		?a: One hundred fifty-one Internet personal advertisements
+		?b: attractiveness , of physical attributes
+	?a were analyzed for ?b
+		?a: One hundred fifty-one Internet personal advertisements
+		?b: income
+	?a were analyzed for ?b
+		?a: One hundred fifty-one Internet personal advertisements
+		?b: mention
+	?a were analyzed for ?b
+		?a: One hundred fifty-one Internet personal advertisements
+		?b: mention of other positive personal characteristics
+
+
+label:    sent_22
+sentence: Review of the literature does not mention surgical treatment for unexplained painful thyroid , and only 15 cases of surgical treatment for painful Hashimoto 's thyroiditis are presented .
+
+ppatt:
+	?a does not mention ?b
+		?a: Review of the literature
+		?b: surgical treatment for unexplained painful thyroid
+	?a are presented
+		?a: only 15 cases of surgical treatment for painful Hashimoto 's thyroiditis
+
+
+label:    sent_23
+sentence: Endoscopy of the airways is required when parents mention a triggering moment or if the course of respiratory complaints is atypical .
+
+ppatt:
+	?a is required
+		?a: Endoscopy of the airways
+	when ?a mention ?b
+		?a: parents
+		?b: a triggering moment
+	?a is atypical
+		?a: the course of respiratory complaints
+
+
+label:    sent_24
+sentence: Forty-seven articles ( 54 % ) either did not mention controls or did not run controls as separate specimens .
+
+ppatt:
+	?a is/are 54 %
+		?a: Forty-seven articles
+	?a ?b did not mention ?c
+		?a: Forty-seven articles
+		?b: either
+		?c: controls
+	?a did not run ?b as ?c
+		?a: Forty-seven articles
+		?b: controls
+		?c: separate specimens
+
+
+label:    sent_25
+sentence: Here we summarize the latest developments in the field of genetic engineering in C. glutamicum , give examples of the use of these new tools , and mention the challenges which stand in the way of fully implementing these tools and this acquired knowledge for the construction of superior production strains .
+
+ppatt:
+	Here ?a summarize ?b
+		?a: we
+		?b: the latest developments in the field of genetic engineering in C. glutamicum
+	?a give ?b
+		?a: we
+		?b: examples of the use of these new tools
+	?a mention ?b
+		?a: we
+		?b: the challenges which stand in the way of fully implementing these tools and this acquired knowledge for the construction of superior production strains
+	?a stand in ?b
+		?a: the challenges
+		?b: the way of fully implementing these tools
+	?a stand in ?b
+		?a: the challenges
+		?b: this acquired knowledge for the construction of superior production strains
+	?a fully implementing ?b
+		?a: the way
+		?b: these tools
+	fully implementing ?a ?b
+		?a: these tools
+		?b: this acquired knowledge for the construction of superior production strains
+
+
+label:    sent_26
+sentence: A Delphi panel of experts in the field of personality pathology in older adults can be asked to mention a certain personality disorder and describe this on a certain personality selfreport list , like the shortened version of the TCI .
+
+ppatt:
+	?a can be asked to mention ?b
+		?a: A Delphi panel of experts in the field of personality pathology in older adults
+		?b: a certain personality disorder
+	?a can be asked to describe ?b on ?c like ?d
+		?a: A Delphi panel of experts in the field of personality pathology in older adults
+		?b: this
+		?c: a certain personality selfreport list
+		?d: the shortened version of the TCI
+
+
+label:    sent_27
+sentence: We also provide an overview of presently used models for studying neural precursors in vitro , mention some precursor transplantation models and emphasize that , in this rapidly growing field of neuroscience , one must be cautious with respect to a variety of methodological considerations for studying neural precursor cells both in vitro and in vivo .
+
+ppatt:
+	?a also provide ?b
+		?a: We
+		?b: an overview of presently used models for studying neural precursors in vitro
+	?a studying ?b in vitro
+		?a: an overview of presently used models
+		?b: neural precursors
+	?a mention ?b
+		?a: We
+		?b: some precursor transplantation models
+	?a emphasize ?b
+		?a: We
+		?b: SOMETHING := in this rapidly growing field of neuroscience , one must be cautious with respect to a variety of methodological considerations for studying neural precursor cells both in vitro and in vivo
+	in ?a , ?b must be cautious with ?c to ?d
+		?a: this rapidly growing field of neuroscience
+		?b: one
+		?c: respect
+		?d: a variety of methodological considerations for studying neural precursor cells both in vitro and in vivo
+	?a studying ?b both in vitro and in vivo
+		?a: a variety of methodological considerations
+		?b: neural precursor cells
+
+

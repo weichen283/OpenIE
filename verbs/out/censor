@@ -1,0 +1,60 @@
+label:    sent_1
+sentence: IRBs also should avoid the temptation to censor the outcomes of those studies . US agency seeks to censor influenza research amid biosecurity fears . Do n't censor life-saving science .
+
+ppatt:
+	?a also should avoid ?b
+		?a: IRBs
+		?b: the temptation to censor the outcomes of those studies
+	?a censor ?b
+		?a: the temptation
+		?b: the outcomes of those studies
+	?a seeks to censor ?b amid ?c
+		?a: US agency
+		?b: influenza research
+		?c: biosecurity fears
+	?a Do n't censor ?b
+		?a: US agency
+		?b: life-saving science
+
+
+label:    sent_2
+sentence: Quantum gravitational effects thus censor naked singularities by avoiding their formation .
+
+ppatt:
+	?a thus censor ?b
+		?a: Quantum gravitational effects
+		?b: naked singularities
+	?a avoiding ?b
+		?a: Quantum gravitational effects
+		?b: their formation
+
+
+label:    sent_3
+sentence: Failure to censor forbidden clones of CD4 T cells in autoimmune diabetes .
+
+ppatt:
+	?a censor ?b
+		?a: Failure
+		?b: forbidden clones of CD4 T cells in autoimmune diabetes
+
+
+label:    sent_4
+sentence: Biological psychology and the Tsarist censor : the dilemma of scientific development .
+
+ppatt:
+
+
+
+label:    sent_5
+sentence: The terminal event may censor the non-terminal event but not vice versa . Do not censor science in the name of biosecurity .
+
+ppatt:
+	?a may censor ?b
+		?a: The terminal event
+		?b: the non-terminal event
+	?a vice versa Do not censor ?b in ?c
+		?a: The terminal event
+		?b: science
+		?c: the name of biosecurity
+
+

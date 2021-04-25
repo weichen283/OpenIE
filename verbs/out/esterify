@@ -1,0 +1,102 @@
+label:    sent_1
+sentence: EtO was found to esterify the carboxyl groups present in the desaminotyrosyl-tyrosine groups .
+
+ppatt:
+	?a was found to esterify ?b
+		?a: EtO
+		?b: the carboxyl groups present in the desaminotyrosyl-tyrosine groups
+
+
+label:    sent_2
+sentence: The metabolic role of LCAT is to esterify the free cholesterol of native HDL .
+
+ppatt:
+	?a is to esterify ?b
+		?a: The metabolic role of LCAT
+		?b: the free cholesterol of native HDL
+
+
+label:    sent_3
+sentence: Thus , LCAT was able to efficiently esterify both cholesterol and sitosterol .
+
+ppatt:
+	Thus , ?a was able to efficiently esterify ?b
+		?a: LCAT
+		?b: cholesterol
+	Thus , ?a was able to efficiently esterify ?b
+		?a: LCAT
+		?b: sitosterol
+
+
+label:    sent_4
+sentence: Phenol sulphotransferases esterify both endogenous and foreign hydroxylated aromatic compounds with sulphate . Solvent-free process to esterify polysaccharides .
+
+ppatt:
+	?a esterify ?b with ?c to esterify ?d
+		?a: Phenol sulphotransferases
+		?b: endogenous
+		?c: sulphate . Solvent-free process
+		?d: polysaccharides
+	?a esterify ?b with ?c to esterify ?d
+		?a: Phenol sulphotransferases
+		?b: foreign
+		?c: sulphate . Solvent-free process
+		?d: polysaccharides
+
+
+label:    sent_5
+sentence: In addition , these cells esterify arachidonic acid to produce diarachidonyl diglyceride .
+
+ppatt:
+	In ?a , ?b esterify ?c to produce ?d
+		?a: addition
+		?b: these cells
+		?c: arachidonic acid
+		?d: diarachidonyl diglyceride
+
+
+label:    sent_6
+sentence: The exchange protein did not esterify cholesterol or hydrolyze cholesteryl esters in lipoproteins .
+
+ppatt:
+	?a did not esterify ?b
+		?a: The exchange protein
+		?b: cholesterol
+	?a hydrolyze ?b
+		?a: The exchange protein
+		?b: cholesteryl esters in lipoproteins
+
+
+label:    sent_7
+sentence: The rape lipase esterifies primary alcohols but can not esterify secondary and tertiary alcohols . HSC-T6 cells take up and esterify retinol in a time- and concentration-dependent manner .
+
+ppatt:
+	?a esterifies ?b
+		?a: The rape lipase
+		?b: primary alcohols
+	?a can not esterify ?b
+		?a: The rape lipase
+		?b: secondary
+	?a can not esterify ?b
+		?a: The rape lipase
+		?b: tertiary
+	?a take up ?b in ?c
+		?a: HSC-T6 cells
+		?b: retinol
+		?c: a time- and concentration-dependent manner
+	?a esterify
+		?a: HSC-T6 cells
+
+
+label:    sent_8
+sentence: Isolated leucoplasts were unable to esterify chlorophyllides into chlorophylls and to synthesize carotenoids .
+
+ppatt:
+	?a were unable to esterify ?b
+		?a: Isolated leucoplasts
+		?b: chlorophyllides into chlorophylls
+	?a were unable to to synthesize ?b
+		?a: Isolated leucoplasts
+		?b: carotenoids
+
+

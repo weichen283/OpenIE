@@ -1,0 +1,29 @@
+obj	FST personnel frequently encounter high-acuity patient scenarios without the ability to transfuse platelets .	obj@platelets
+obj	This technique makes it possible to transfuse only leukocyte depleted platelet concentrates .	obj@concentrates
+obj	Do we know when to transfuse red cells to treat acute anemia ?	obj@cells
+
+obj#prep	Various infusion pumps are available to transfuse blood at a predetermined rate .	obj@blood prep_at@rate
+obj#prep	Several techniques are being used to transfuse the patient 's own blood during surgery .	obj@blood prep_during@surgery
+obj#prep	A common practice is to transfuse blood for hypovolaemia .	obj@blood prep_for@hypovolaemia
+
+subj#obj#prep	Cell salvage for auto-transfusion could transfuse back half of the blood loss during operation .	subj@salvage obj@half prep_during@operation
+subj#obj#prep	Computerized quality assurance of decisions to transfuse blood components to critically ill patients .	subj@assurance obj@components prep_to@patients
+subj#obj#prep	Time to transfuse best blood practices at hospitals .	subj@Time obj@practices prep_at@hospitals
+
+subj#obj	Frozen deglycerolized RBCs are the ideal RBC product to transfuse patients receiving HBOCs .	subj@product obj@patients
+subj#obj	[Do we observe what we transfuse ? ] .	subj@we obj@what
+subj#obj	When do we transfuse cryoprecipitate ?	subj@we obj@cryoprecipitate
+
+conj	To transfuse or not to transfuse .	conj_or@transfuse
+conj	To transfuse or not to transfuse : is it really a question ?	conj_or@not
+conj	Icteric donor plasma : to transfuse or to discard ?	conj_or@discard
+
+prep	[Is it necessary to transfuse before renal transplantation ? ] .	prep_before@transplantation
+
+subj	Bloodless medicine : what to do when you can n't transfuse .	subj@you
+
+subj#prep	The majority the Smur physicians can transfuse in a prehospital setting .	subj@majority prep_in@setting
+subj#prep	Transfuse or not transfuse in acute renal failure ?	subj@not prep_in@failure
+
+subj#obj#rel	The scenarios examined hemoglobin thresholds for which participants would transfuse PRBCs .	subj@participants obj@PRBCs rel@which
+

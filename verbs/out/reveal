@@ -1,0 +1,313 @@
+label:    sent_1
+sentence: Routine craniospinal imaging after initial treatment may reveal other relapse patterns relapse .
+
+ppatt:
+	?a may reveal ?b
+		?a: Routine craniospinal imaging after initial treatment
+		?b: other relapse patterns relapse
+
+
+label:    sent_2
+sentence: Similarly , angiography may reveal the dynamics within lesions of thrombosis in arteries .
+
+ppatt:
+	Similarly , ?a may reveal ?b
+		?a: angiography
+		?b: the dynamics within lesions of thrombosis in arteries
+
+
+label:    sent_3
+sentence: Our results reveal a functional role for basement membrane heterogeneity in tissue patterning .
+
+ppatt:
+	?a reveal ?b
+		?a: Our results
+		?b: a functional role for basement membrane heterogeneity in tissue patterning
+
+
+label:    sent_4
+sentence: PAPERCLIP : All these reveal that satisfactory results are achieved . FRAP assays reveal that Rab1b modulates COPII association/dissociation kinetics at the ERES interface .
+
+ppatt:
+	?a reveal ?b ?c
+		?a: All these
+		?b: SOMETHING := satisfactory results are achieved
+		?c: SOMETHING := FRAP assays reveal that Rab1b modulates COPII association/dissociation kinetics at the ERES interface
+	?a are achieved
+		?a: satisfactory results
+	?a reveal ?b
+		?a: FRAP assays
+		?b: SOMETHING := Rab1b modulates COPII association/dissociation kinetics at the ERES interface
+	?a modulates ?b at ?c
+		?a: Rab1b
+		?b: COPII association/dissociation kinetics
+		?c: the ERES interface
+
+
+label:    sent_5
+sentence: We reveal that differential membrane lipid order dictates the response to TCR stimulation .
+
+ppatt:
+	?a reveal ?b
+		?a: We
+		?b: SOMETHING := differential membrane lipid order dictates the response to TCR stimulation
+	?a dictates ?b
+		?a: differential membrane lipid order
+		?b: the response to TCR stimulation
+
+
+label:    sent_6
+sentence: Analyzing other frequency bands failed to reveal a similar link .
+
+ppatt:
+	Analyzing ?a
+		?a: other frequency bands
+	?a failed to reveal ?b
+		?a: SOMETHING := Analyzing other frequency bands
+		?b: a similar link
+
+
+label:    sent_7
+sentence: Using DNA to reveal a mosquito 's history .
+
+ppatt:
+	Using ?a
+		?a: DNA
+	reveal ?a
+		?a: a mosquito 's history
+
+
+label:    sent_8
+sentence: Further investigations are required to reveal the biological behavior of the tumor .
+
+ppatt:
+	?a are required to reveal ?b
+		?a: Further investigations
+		?b: the biological behavior of the tumor
+
+
+label:    sent_9
+sentence: These all might reveal membrane as probable target for antibacterial effects .
+
+ppatt:
+	?a might reveal ?b as ?c
+		?a: These all
+		?b: membrane
+		?c: probable target for antibacterial effects
+
+
+label:    sent_10
+sentence: Targeted in vivo O-GlcNAc sensors reveal discrete compartment-specific dynamics during signal transduction .
+
+ppatt:
+	?a reveal ?b during ?c
+		?a: Targeted in O-GlcNAc sensors
+		?b: discrete compartment-specific dynamics
+		?c: signal transduction
+
+
+label:    sent_11
+sentence: Developmental profiles reveal adrenal endogenous biotin labeling from E13.5 through adulthood .
+
+ppatt:
+	?a reveal ?b
+		?a: Developmental profiles
+		?b: adrenal endogenous biotin labeling from E13.5 through adulthood
+
+
+label:    sent_12
+sentence: We reveal cellular defects and analyse their cause .
+
+ppatt:
+	?a reveal ?b
+		?a: We
+		?b: cellular defects
+	?a analyse ?b
+		?a: We
+		?b: their cause
+
+
+label:    sent_13
+sentence: Such changes may either reveal chronic hypertension or constitute a purely gestational complication .
+
+ppatt:
+	?a may either reveal ?b
+		?a: Such changes
+		?b: chronic hypertension
+	?a constitute ?b
+		?a: Such changes
+		?b: a purely gestational complication
+
+
+label:    sent_14
+sentence: Transverse myelitis may reveal SLE or occur more than 10 years after SLE diagnosis .
+
+ppatt:
+	?a may reveal ?b
+		?a: Transverse myelitis
+		?b: SLE
+	?a occur ?b
+		?a: Transverse myelitis
+		?b: more than 10 years
+
+
+label:    sent_15
+sentence: Prompt work-up is essential to reveal the diagnosis and allow for successful treatment .
+
+ppatt:
+	?a is essential to reveal ?b
+		?a: Prompt work-up
+		?b: the diagnosis
+	?a is essential to allow for ?b
+		?a: Prompt work-up
+		?b: successful treatment
+
+
+label:    sent_16
+sentence: To reveal natural storage depots of sVEGF-R1 and determine mechanisms underlying its pericellular retention .
+
+ppatt:
+	reveal ?a
+		?a: natural storage depots of sVEGF-R1
+	determine ?a
+		?a: mechanisms underlying its pericellular retention
+	?a underlying ?b
+		?a: mechanisms
+		?b: its pericellular retention
+
+
+label:    sent_17
+sentence: The latter is either synchronous with the primary lung tumour or can reveal it . Future research promises to reveal many more intriguing features about the rogue prions .
+
+ppatt:
+	?a is either synchronous with ?b
+		?a: The latter
+		?b: the primary lung tumour
+	?a can reveal ?b
+		?a: The latter
+		?b: it
+	?a promises to reveal ?b
+		?a: Future research
+		?b: many more intriguing features about the rogue prions
+
+
+label:    sent_18
+sentence: Six typical carcinoids failed to reveal significant uptake on [18F ] FDG-PET/CT .
+
+ppatt:
+	?a failed to reveal ?b
+		?a: Six typical carcinoids
+		?b: significant uptake on [18F ] FDG-PET/CT
+
+
+label:    sent_19
+sentence: CBDR yields images that reveal structure in the underlying conductance space .
+
+ppatt:
+	?a yields ?b
+		?a: CBDR
+		?b: images that reveal structure in the underlying conductance space
+	?a reveal ?b
+		?a: images
+		?b: structure in the underlying conductance space
+
+
+label:    sent_20
+sentence: Analysis of codon usage can reveal much about the molecular evolution of the viruses . A short-coupled variant of torsade de pointes was reveal on Holter recordings .
+
+ppatt:
+	?a can reveal much about ?b
+		?a: Analysis of codon usage
+		?b: the molecular evolution of the viruses
+	?a was reveal on ?b
+		?a: A short-coupled variant of torsade de pointes
+		?b: Holter recordings
+
+
+label:    sent_21
+sentence: In addition , recent studies reveal that clinical benefits appear sooner with cluster immunotherapy .
+
+ppatt:
+	In ?a , ?b reveal ?c
+		?a: addition
+		?b: recent studies
+		?c: SOMETHING := clinical benefits appear sooner with cluster immunotherapy
+	?a appear sooner with ?b
+		?a: clinical benefits
+		?b: cluster immunotherapy
+
+
+label:    sent_22
+sentence: Moreover , STN DBS can also reveal or even induce ICD .
+
+ppatt:
+	Moreover , ?a can also reveal
+		?a: STN DBS
+	?a even induce ?b
+		?a: STN DBS
+		?b: ICD
+
+
+label:    sent_23
+sentence: Delirium can reveal or complicate a previous dementia .
+
+ppatt:
+	?a can reveal ?b
+		?a: Delirium
+		?b: a previous dementia
+	?a complicate
+		?a: Delirium
+
+
+label:    sent_24
+sentence: Engaging in occupation can reveal , explain , manage and overcome on-going health conditions .
+
+ppatt:
+	Engaging in ?a
+		?a: occupation
+	?a can reveal , explain
+		?a: SOMETHING := Engaging in occupation
+	?a manage
+		?a: Engaging in occupation
+	?a overcome ?b
+		?a: Engaging in occupation
+		?b: on-going health conditions
+
+
+label:    sent_25
+sentence: New longitudinal studies reveal varying dyspnea trajectories over time and by diagnosis .
+
+ppatt:
+	?a reveal ?b over ?c
+		?a: New longitudinal studies
+		?b: varying dyspnea trajectories
+		?c: time
+	?a reveal ?b over ?c
+		?a: New longitudinal studies
+		?b: varying dyspnea trajectories
+		?c: diagnosis
+
+
+label:    sent_26
+sentence: However , careful analysis may also reveal different meanings , but without clear demarcation .
+
+ppatt:
+	However , ?a may also reveal ?b
+		?a: careful analysis
+		?b: different meanings
+
+
+label:    sent_27
+sentence: Myocardial perfusion scans did not reveal any defect at rest nor during exercise .
+
+ppatt:
+	?a did not reveal ?b at ?c
+		?a: Myocardial perfusion scans
+		?b: any defect
+		?c: rest
+	?a did not reveal ?b at ?c
+		?a: Myocardial perfusion scans
+		?b: any defect
+		?c: exercise
+
+

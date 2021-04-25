@@ -1,0 +1,294 @@
+label:    sent_1
+sentence: S818L does not bind aldosterone or activate transcription or translocate into the nucleus .
+
+ppatt:
+	?a does not bind ?b
+		?a: S818L
+		?b: aldosterone
+	?a activate ?b
+		?a: S818L
+		?b: transcription
+	?a translocate into ?b
+		?a: S818L
+		?b: the nucleus
+
+
+label:    sent_2
+sentence: The partially loaded Na+-only forms are unable to translocate across the membrane .
+
+ppatt:
+	?a are unable to translocate across ?b
+		?a: The partially loaded Na+-only forms
+		?b: the membrane
+
+
+label:    sent_3
+sentence: Mitochondria shrink and translocate toward the nucleus . AIF mutants that can not translocate into nucleus failed to induce cell death .
+
+ppatt:
+	?a shrink toward ?b
+		?a: Mitochondria
+		?b: the nucleus
+	?a translocate
+		?a: Mitochondria
+	?a can not translocate into ?b
+		?a: AIF mutants
+		?b: nucleus
+	?a failed to induce ?b
+		?a: AIF mutants that can not translocate into nucleus
+		?b: cell death
+
+
+label:    sent_4
+sentence: We also determined whether RTX induced P-gp to translocate out of lipid rafts .
+
+ppatt:
+	?a also determined ?b
+		?a: We
+		?b: SOMETHING := RTX induced P-gp to translocate out of lipid rafts
+	?a induced ?b to translocate out of ?c
+		?a: RTX
+		?b: P-gp
+		?c: lipid rafts
+
+
+label:    sent_5
+sentence: Instead of being recycled or proteolysed , they sometimes translocate to the nucleus . AAA ( + ) unfoldases denature and translocate polypeptides into associated peptidases .
+
+ppatt:
+	Instead of being recycled ?a
+		?a: they
+	proteolysed ?a
+		?a: they
+	?a sometimes translocate to ?b
+		?a: they
+		?b: the nucleus
+	?a ?b denature ?c into ?d
+		?a: AAA
+		?b: unfoldases
+		?c: polypeptides
+		?d: associated peptidases
+	?a translocate
+		?a: AAA
+
+
+label:    sent_6
+sentence: Bacteriophage phi29 utilizes a motor to translocate genomic DNA into a preformed procapsid .
+
+ppatt:
+	?a utilizes ?b to translocate ?c into ?d
+		?a: Bacteriophage phi29
+		?b: a motor
+		?c: genomic DNA
+		?d: a preformed procapsid
+
+
+label:    sent_7
+sentence: Eukaryotic cells are dependent on their ability to translocate membraneous elements about the cytoplasm .
+
+ppatt:
+	?a are dependent on ?b
+		?a: Eukaryotic cells
+		?b: their ability to translocate membraneous elements about the cytoplasm
+	?a translocate ?b about ?c
+		?a: their ability
+		?b: membraneous elements
+		?c: the cytoplasm
+
+
+label:    sent_8
+sentence: Following xenobiotic stimuli , receptors translocate into the nucleus and transactivate its target genes .
+
+ppatt:
+	Following ?a , ?b translocate into ?c
+		?a: xenobiotic stimuli
+		?b: receptors
+		?c: the nucleus
+	?a transactivate ?b
+		?a: receptors
+		?b: its target genes
+
+
+label:    sent_9
+sentence: Activated Erk1/2 and Smad2/3 translocate independently into the nucleus and regulate gene expression .
+
+ppatt:
+	?a translocate independently into ?b
+		?a: Activated Erk1/2
+		?b: the nucleus
+	?a translocate independently into ?b
+		?a: Smad2/3
+		?b: the nucleus
+	?a regulate ?b
+		?a: Activated Erk1/2
+		?b: gene expression
+	?a regulate ?b
+		?a: Smad2/3
+		?b: gene expression
+
+
+label:    sent_10
+sentence: The phagocytic monocytes/macrophages then translocate to regional lymph nodes and present apoptotic cell-derived antigens . IGFBP-3 , a secreted protein , can be internalized and translocate to the nucleus . HIF-beta subunits are stable regardless of oxygen concentration and constitutively translocate to the nucleus .
+
+ppatt:
+	?a then translocate to ?b
+		?a: The phagocytic monocytes/macrophages
+		?b: regional lymph nodes
+	?a then translocate to ?b
+		?a: The phagocytic monocytes/macrophages
+		?b: present apoptotic cell-derived antigens
+	?a is/are a secreted protein
+		?a: IGFBP-3
+	?a can be internalized
+		?a: IGFBP-3
+	?a translocate to ?b
+		?a: IGFBP-3
+		?b: the nucleus
+	?a are stable regardless of ?b
+		?a: HIF-beta subunits
+		?b: oxygen concentration
+	?a constitutively translocate to ?b
+		?a: HIF-beta subunits
+		?b: the nucleus
+
+
+label:    sent_11
+sentence: The dendritic cells differentiate in the sinusoid and translocate to the Glisson 's sheath .
+
+ppatt:
+	?a differentiate in ?b
+		?a: The dendritic cells
+		?b: the sinusoid
+	?a translocate to 's ?b
+		?a: The dendritic cells
+		?b: the Glisson sheath
+
+
+label:    sent_12
+sentence: This signal peptide was previously shown to translocate lipoprotein efficiently .
+
+ppatt:
+	?a was previously shown to translocate ?b efficiently
+		?a: This signal peptide
+		?b: lipoprotein
+
+
+label:    sent_13
+sentence: Here , we have examined the ability of the Sec-translocase to translocate folded preproteins .
+
+ppatt:
+	Here , ?a have examined ?b
+		?a: we
+		?b: the ability of the Sec-translocase to translocate folded preproteins
+	?a translocate ?b
+		?a: the ability of the Sec-translocase
+		?b: folded preproteins
+
+
+label:    sent_14
+sentence: Nanomelic chondrocytes synthesize , but fail to translocate , a truncated aggrecan precursor .
+
+ppatt:
+	?a synthesize
+		?a: Nanomelic chondrocytes
+	?a fail to translocate ?b
+		?a: Nanomelic chondrocytes
+		?b: a truncated aggrecan precursor
+
+
+label:    sent_15
+sentence: Chromatin-remodeling complexes can translocate nucleosomes along the DNA in an ATP-coupled reaction .
+
+ppatt:
+	?a can translocate ?b in ?c
+		?a: Chromatin-remodeling complexes
+		?b: nucleosomes along the DNA
+		?c: an ATP-coupled reaction
+
+
+label:    sent_16
+sentence: These findings suggest that insulin can translocate Mg from the extracellular space . HaXS force protein-protein interactions and can translocate proteins to various cellular compartments . 5- ( Trifluoromethyl ) bacteriorhodopsin does not translocate protons .
+
+ppatt:
+	?a suggest ?b
+		?a: These findings
+		?b: SOMETHING := insulin can translocate Mg from the extracellular space . HaXS force protein-protein interactions
+	?a can translocate ?b from ?c ?d
+		?a: insulin
+		?b: Mg
+		?c: the extracellular space
+		?d: HaXS force protein-protein interactions
+	?a can translocate ?b to ?c
+		?a: insulin
+		?b: proteins
+		?c: various cellular compartments
+	?a does not translocate ?b
+		?a: 5- ( Trifluoromethyl ) bacteriorhodopsin
+		?b: protons
+
+
+label:    sent_17
+sentence: Major E. coli heat-stress protein do not translocate : implications for cell survival . Tat systems translocate folded proteins across biological membranes of prokaryotes and plant plastids . ClpX hydrolyzes ATP to generate mechanical force and translocate polypeptides through its central pore .
+
+ppatt:
+	?a do not translocate
+		?a: Major E. coli heat-stress protein
+	?a translocate ?b across ?c
+		?a: implications for cell survival . Tat systems
+		?b: folded proteins
+		?c: biological membranes of prokaryotes and plant plastids
+	?a hydrolyzes ?b to generate ?c
+		?a: ClpX
+		?b: ATP
+		?c: mechanical force
+	?a hydrolyzes to translocate ?b through ?c
+		?a: ClpX
+		?b: polypeptides
+		?c: its central pore
+
+
+label:    sent_18
+sentence: Nonmuscle myosin II exerts tension but does not translocate actin in vertebrate cytokinesis .
+
+ppatt:
+	?a exerts ?b
+		?a: Nonmuscle myosin II
+		?b: tension
+	?a does not translocate ?b in ?c
+		?a: Nonmuscle myosin II
+		?b: actin
+		?c: vertebrate cytokinesis
+
+
+label:    sent_19
+sentence: These results confirm that AM fungi can take up , translocate and accumulate Cs . Lysophosphatidylcholine has positive spontaneous curvature and does not translocate .
+
+ppatt:
+	?a confirm ?b
+		?a: These results
+		?b: SOMETHING := AM fungi can take up
+	?a can take up
+		?a: AM fungi
+	?a translocate ?b
+		?a: AM fungi
+		?b: Cs
+	?a accumulate
+		?a: AM fungi
+	?a has ?b
+		?a: Lysophosphatidylcholine
+		?b: positive spontaneous curvature
+	?a does not translocate
+		?a: Lysophosphatidylcholine
+
+
+label:    sent_20
+sentence: These mutants have an actively beating flagellum , but can not translocate .
+
+ppatt:
+	?a have ?b
+		?a: These mutants
+		?b: an actively beating flagellum
+	?a can not translocate
+		?a: These mutants
+
+

@@ -1,0 +1,256 @@
+label:    sent_1
+sentence: Intravenous smart pump devices hold specific medications in electronic libraries .
+
+ppatt:
+	?a hold ?b
+		?a: Intravenous smart pump devices
+		?b: specific medications in electronic libraries
+
+
+label:    sent_2
+sentence: Costimulatory factors hold great promise for development into novel anticancer biotherapeutics .
+
+ppatt:
+	?a hold ?b
+		?a: Costimulatory factors
+		?b: great promise for development into novel anticancer biotherapeutics
+
+
+label:    sent_3
+sentence: Robust relationships hold the key to success . Good scientists do reach and hold divergent views on important issues . Do n't hold your breath . Orthogonal gimbals hold the linac-MLC assembly allowing real-time moving tumor tracking . FCs hold clinical potential because of their ability to remain tolerogenic in vivo .
+
+ppatt:
+	?a hold ?b
+		?a: Robust relationships
+		?b: the key success
+	?a do reach on ?b
+		?a: Good scientists
+		?b: important issues
+	?a hold ?b
+		?a: Good scientists
+		?b: divergent views
+	?a Do n't hold ?b
+		?a: Good scientists
+		?b: your breath
+	?a hold ?b
+		?a: Orthogonal gimbals
+		?b: the linac-MLC assembly allowing real-time moving tumor tracking
+	?a allowing ?b
+		?a: the linac-MLC assembly
+		?b: real-time moving tumor tracking
+	?a hold ?b because of ?c
+		?a: FCs
+		?b: clinical potential
+		?c: their ability to remain tolerogenic in vivo
+	?a remain tolerogenic in vivo
+		?a: their ability
+
+
+label:    sent_4
+sentence: What does the future hold for clinical studies in vasculitis ? Faces are visual objects that hold special significance as the icons of other minds .
+
+ppatt:
+	What does ?a
+		?a: the future hold for clinical studies in vasculitis
+	?a are visual objects
+		?a: Faces
+	?a hold ?b as ?c
+		?a: visual objects
+		?b: special significance
+		?c: the icons of other minds
+
+
+label:    sent_5
+sentence: These observations hold for diverse eukaryotes .
+
+ppatt:
+	?a hold for ?b
+		?a: These observations
+		?b: diverse eukaryotes
+
+
+label:    sent_6
+sentence: The same does not hold for the role played by His-50 in copper binding .
+
+ppatt:
+	?a does not hold for ?b
+		?a: The same
+		?b: the role played by His-50 in copper binding
+	?a played by ?b in ?c
+		?a: the role
+		?b: His-50
+		?c: copper binding
+
+
+label:    sent_7
+sentence: We demonstrate that the key predictions of the theory hold in large-scale simulations .
+
+ppatt:
+	?a demonstrate ?b
+		?a: We
+		?b: SOMETHING := the key predictions of the theory hold in large-scale simulations
+	?a hold in ?b
+		?a: the key predictions of the theory
+		?b: large-scale simulations
+
+
+label:    sent_8
+sentence: Talking therapies : can the centre hold ? This assumption does not hold for muscles whose fibers are oblique to the skin .
+
+ppatt:
+	Talking ?a ?b
+		?a: therapies
+		?b: the centre
+	can ?a hold
+		?a: the centre
+	?a does not hold for ?b
+		?a: This assumption
+		?b: muscles whose fibers are oblique to the skin
+	?a ?b are oblique to ?c
+		?a: muscles
+		?b: whose fibers
+		?c: the skin
+
+
+label:    sent_9
+sentence: They hold great potential as natural preservatives and for their probiotic effects . Bacteriocin L-1077 appears to hold promise in controlling C. jejuni/S .
+
+ppatt:
+	?a hold ?b
+		?a: They
+		?b: great potential as natural preservatives and for their probiotic effects
+	?a appears to hold ?b
+		?a: Bacteriocin L-1077
+		?b: promise
+	?a controlling ?b
+		?a: Bacteriocin L-1077
+		?b: C. jejuni/S
+
+
+label:    sent_10
+sentence: Cancellous block allografts appear to hold promise for grafting the anterior atrophic maxilla .
+
+ppatt:
+	?a appear to hold ?b
+		?a: Cancellous block allografts
+		?b: promise
+	?a grafting ?b
+		?a: promise
+		?b: the anterior atrophic maxilla
+
+
+label:    sent_11
+sentence: Primary care seems to hold little attraction as a career goal for young physicians . Biophysics -- whence , whither , wherefore --or hold that hyphen .
+
+ppatt:
+	?a seems to hold ?b as ?c
+		?a: Primary care
+		?b: little attraction
+		?c: a career goal for young physicians . Biophysics
+	?a hold ?b
+		?a: whither
+		?b: hyphen
+
+
+label:    sent_12
+sentence: The same condition is expected to hold for other lanthanide linear molecules .
+
+ppatt:
+	?a is expected to hold for ?b
+		?a: The same condition
+		?b: other lanthanide linear molecules
+
+
+label:    sent_13
+sentence: Generalizations are also proved to hold if n=2 .
+
+ppatt:
+	?a are also proved to hold
+		?a: Generalizations
+	?a n=2
+		?a: Generalizations
+
+
+label:    sent_14
+sentence: MRI studies are in their infancy but may hold future benefit .
+
+ppatt:
+	?a are in ?b infancy
+		?a: MRI studies
+		?b: their
+	?a may hold ?b
+		?a: MRI studies
+		?b: future benefit
+
+
+label:    sent_15
+sentence: The model needs further development but may hold a potential for clinical use . Eat your fruits and vegetables but hold the salt .
+
+ppatt:
+	?a needs ?b
+		?a: The model
+		?b: further development
+	?a may hold ?b
+		?a: The model
+		?b: a potential for clinical use
+	?a Eat ?b
+		?a: The model
+		?b: your fruits
+	?a Eat ?b
+		?a: The model
+		?b: vegetables
+	?a hold ?b
+		?a: The model
+		?b: the salt
+
+
+label:    sent_16
+sentence: States hold steady .. . but Medicaid pain ahead as federal help ebbs . We might hold the key but we do not control the lock .
+
+ppatt:
+	?a hold ?b
+		?a: States
+		?b: steady ..
+	?a ahead as ?b help ?c
+		?a: Medicaid pain
+		?b: federal
+		?c: ebbs
+	?a might hold ?b
+		?a: We
+		?b: the key
+	?a do not control ?b
+		?a: we
+		?b: the lock
+
+
+label:    sent_17
+sentence: Self-reported and observer-reported ratings hold different meanings and can not be considered equivalent .
+
+ppatt:
+	?a hold ?b
+		?a: Self-reported and observer-reported ratings
+		?b: different meanings
+	?a can not be considered equivalent
+		?a: Self-reported and observer-reported ratings
+
+
+label:    sent_18
+sentence: [We can perhaps hold AIDS in check but we can not cure it ] . Epigenetic changes hold great potential as possible disease mechanisms and may be manipulated therapeutically .
+
+ppatt:
+	?a can perhaps hold ?b
+		?a: [We
+		?b: AIDS
+	?a in check
+		?a: [We
+	?a can not cure ?b
+		?a: we
+		?b: it ]
+	?a hold ?b as ?c
+		?a: Epigenetic changes
+		?b: great potential
+		?c: possible disease mechanisms
+	?a may be manipulated therapeutically
+		?a: Epigenetic changes
+
+

@@ -1,0 +1,105 @@
+label:    sent_1
+sentence: Snails collected in autumn were allowed to hibernate under laboratory conditions .
+
+ppatt:
+	?a collected in ?b
+		?a: Snails
+		?b: autumn
+	?a were allowed to hibernate under ?b
+		?a: Snails collected in autumn
+		?b: laboratory conditions
+
+
+label:    sent_2
+sentence: Snakes from temperate climates are often made to hibernate in zoos to stimulate reproduction .
+
+ppatt:
+	?a are often made to hibernate in ?b to stimulate ?c
+		?a: Snakes from temperate climates
+		?b: zoos
+		?c: reproduction
+
+
+label:    sent_3
+sentence: Some mammals hibernate in response to harsh environments . Dormant cancer stem cells hibernate in the mammalian brain .
+
+ppatt:
+	?a hibernate in to ?b
+		?a: Some mammals
+		?b: harsh environments
+	?a hibernate in ?b
+		?a: Dormant cancer stem cells
+		?b: the mammalian brain
+
+
+label:    sent_4
+sentence: After mating some of the females hibernate in human dwellings . White-nose syndrome ( WNS ) is a fatal disease of bats that hibernate .
+
+ppatt:
+	mating ?a ?b
+		?a: some of the females hibernate in human dwellings
+		?b: White-nose syndrome
+	?a is/are WNS
+		?a: White-nose syndrome
+	?a is a fatal disease of ?b
+		?a: White-nose syndrome
+		?b: bats that hibernate
+	?a hibernate
+		?a: bats
+
+
+label:    sent_5
+sentence: Females of August-September satiation hibernate more successfully than females satiated in June and July .
+
+ppatt:
+	?a hibernate more successfully than ?b
+		?a: Females of August-September satiation
+		?b: females satiated in June and July
+	?a satiated in ?b
+		?a: females
+		?b: June
+	?a satiated in ?b
+		?a: females
+		?b: July
+
+
+label:    sent_6
+sentence: Hamsters in SDs at 5 degreesC that did not hibernate lacked characteristic hibernation increments .
+
+ppatt:
+	?a did not hibernate lacked ?b
+		?a: 5 degreesC
+		?b: characteristic hibernation increments
+
+
+label:    sent_7
+sentence: Polistes dominulus foundresses hibernate in aggregations and found associative nests in the spring .
+
+ppatt:
+	?a dominulus ?b in ?c
+		?a: Polistes
+		?b: foundresses hibernate
+		?c: aggregations
+	?a found ?b
+		?a: Polistes
+		?b: associative nests in the spring
+
+
+label:    sent_8
+sentence: The insect is univoltine in Turkey , and adults hibernate from mid-September to mid-May . Bats are the only mammals that fly and hibernate .
+
+ppatt:
+	?a is univoltine in ?b
+		?a: The insect
+		?b: Turkey
+	?a hibernate from ?b
+		?a: adults
+		?b: mid-September
+	?a are the only mammals
+		?a: to mid-May Bats
+	?a fly
+		?a: the only mammals
+	?a hibernate
+		?a: that
+
+

@@ -1,0 +1,340 @@
+label:    sent_1
+sentence: Such examples of homoplasy present opportunities to discover the foundations of morphological traits .
+
+ppatt:
+	?a discover ?b
+		?a: Such examples of homoplasy present opportunities
+		?b: the foundations of morphological traits
+
+
+label:    sent_2
+sentence: How to discover new antibiotics : harvesting the parvome .
+
+ppatt:
+	How to discover ?a
+		?a: new antibiotics
+	harvesting ?a
+		?a: the parvome
+
+
+label:    sent_3
+sentence: As a consequence , chances to discover new active natural compounds are also high .
+
+ppatt:
+	?a discover ?b
+		?a: chances
+		?b: new active natural compounds
+	As ?a , ?b are also high
+		?a: a consequence
+		?b: chances to discover new active natural compounds
+
+
+label:    sent_4
+sentence: It has thus become important to discover reliable markers in predicting responses to CSs .
+
+ppatt:
+	?a has thus become important to discover ?b
+		?a: It
+		?b: reliable markers
+	?a predicting ?b
+		?a: It
+		?b: responses to CSs
+
+
+label:    sent_5
+sentence: Mapping the amyloid-beta interaction partners could help to discover novel pathways in disease pathogenesis .
+
+ppatt:
+	Mapping ?a
+		?a: the amyloid-beta interaction partners
+	?a could help to discover ?b
+		?a: SOMETHING := Mapping the amyloid-beta interaction partners
+		?b: novel pathways in disease pathogenesis
+
+
+label:    sent_6
+sentence: The aim of the study was to discover effective plant extracts against Plasmodium falciparum .
+
+ppatt:
+	?a was to discover ?b
+		?a: The aim of the study
+		?b: effective plant extracts against Plasmodium falciparum
+
+
+label:    sent_7
+sentence: Researchers discover new biomarker that may improve cancer care strategies .
+
+ppatt:
+	?a discover ?b
+		?a: Researchers
+		?b: new biomarker that may improve cancer care strategies
+	?a may improve ?b
+		?a: new biomarker
+		?b: cancer care strategies
+
+
+label:    sent_8
+sentence: Current approaches to discover marine antileishmanial natural products .
+
+ppatt:
+	?a discover ?b
+		?a: Current approaches
+		?b: marine antileishmanial natural products
+
+
+label:    sent_9
+sentence: We discover the essential structural motifs leading to such target properties .
+
+ppatt:
+	?a discover ?b
+		?a: We
+		?b: the essential structural motifs leading to such target properties
+	?a leading to ?b
+		?a: the essential structural motifs
+		?b: such target properties
+
+
+label:    sent_10
+sentence: This requires white biotechnology to discover and develop novel enzymes , biocatalysts and applications . CT scan were more useful in diagnoses of CSDH and may discover multiple hematomas .
+
+ppatt:
+	?a requires ?b
+		?a: This
+		?b: white biotechnology
+	?a discover ?b
+		?a: This
+		?b: novel enzymes
+	?a discover ?b
+		?a: This
+		?b: biocatalysts
+	?a develop
+		?a: This
+	?a were more useful in ?b
+		?a: CT scan
+		?b: diagnoses of CSDH
+	?a may discover ?b
+		?a: CT scan
+		?b: multiple hematomas
+
+
+label:    sent_11
+sentence: Content analysis was used to discover domains of meaning and formulate categories .
+
+ppatt:
+	?a was used to discover ?b
+		?a: Content analysis
+		?b: domains of meaning
+	?a was used to formulate ?b
+		?a: Content analysis
+		?b: categories
+
+
+label:    sent_12
+sentence: The need to discover and develop new antimalarial therapeutics is overwhelming .
+
+ppatt:
+	?a discover ?b
+		?a: The need
+		?b: new antimalarial therapeutics
+	?a develop
+		?a: The need
+	?a is overwhelming
+		?a: The need to discover and develop new antimalarial therapeutics
+
+
+label:    sent_13
+sentence: To discover and document cases of the rare disease analbuminemia .
+
+ppatt:
+	discover ?a
+		?a: cases of the rare disease analbuminemia
+	document ?a
+		?a: cases of the rare disease analbuminemia
+
+
+label:    sent_14
+sentence: It is of interest to efficiently discover and evaluate new proteasome inhibitors .
+
+ppatt:
+	?a is of interest
+		?a: It
+	?a efficiently discover ?b
+		?a: interest
+		?b: new proteasome inhibitors
+	?a evaluate
+		?a: It
+
+
+label:    sent_15
+sentence: The epistemologist desires to discover the causal mechanism that explains these effects .
+
+ppatt:
+	?a discover ?b
+		?a: The epistemologist desires
+		?b: the causal mechanism that explains these effects
+	?a explains ?b
+		?a: the causal mechanism
+		?b: these effects
+
+
+label:    sent_16
+sentence: We discover that the expression of Adp is increased during myoblast differentiation .
+
+ppatt:
+	?a discover ?b
+		?a: We
+		?b: SOMETHING := the expression of Adp is increased during myoblast differentiation
+	?a is increased during ?b
+		?a: the expression of Adp
+		?b: myoblast differentiation
+
+
+label:    sent_17
+sentence: Identifying and analyzing bacteriophages in human fecal samples : what could we discover ? In an analysis of cross-sectional data , we discover support for the 3 hypotheses .
+
+ppatt:
+	Identifying ?a
+		?a: bacteriophages in human fecal samples
+	analyzing ?a
+		?a: bacteriophages in human fecal samples
+	?a could ?b discover ? In ?c
+		?a: what
+		?b: we
+		?c: an analysis of cross-sectional data
+	?a discover ?b
+		?a: we
+		?b: support for the 3 hypotheses
+
+
+label:    sent_18
+sentence: This review focuses on novel research approaches to discover potent and selective T-channel modulators .
+
+ppatt:
+	?a focuses on ?b
+		?a: This review
+		?b: novel research approaches to discover potent and selective T-channel modulators
+	?a discover ?b
+		?a: novel research approaches
+		?b: potent and selective T-channel modulators
+
+
+label:    sent_19
+sentence: The subject must discover for himself a new form of presence in the world .
+
+ppatt:
+	?a must discover for ?b ?c
+		?a: The subject
+		?b: himself
+		?c: a new form of presence in the world
+
+
+label:    sent_20
+sentence: They discover anatomical structure , discriminate the tumor region and highlight functionally similar regions .
+
+ppatt:
+	?a discover ?b
+		?a: They
+		?b: anatomical structure
+	?a discriminate ?b
+		?a: They
+		?b: the tumor region
+	?a highlight ?b
+		?a: They
+		?b: functionally similar regions
+
+
+label:    sent_21
+sentence: They discover the medico-social network and attend to patients ' visits at home .
+
+ppatt:
+	?a discover ?b
+		?a: They
+		?b: the medico-social network
+	?a attend to ?b
+		?a: They
+		?b: patients ' visits at home
+
+
+label:    sent_22
+sentence: We discover the key sequence motifs and folding structures and study their sequence-specific assembly .
+
+ppatt:
+	?a discover ?b
+		?a: We
+		?b: the key sequence motifs
+	?a discover ?b
+		?a: We
+		?b: folding structures
+	?a study ?b
+		?a: We
+		?b: their sequence-specific assembly
+
+
+label:    sent_23
+sentence: We discover incidentally on a bone scan a pulmonary calcification .
+
+ppatt:
+	?a discover incidentally on ?b
+		?a: We
+		?b: a bone scan a pulmonary calcification
+
+
+label:    sent_24
+sentence: In addition , we discover that ubiquitylation regulates tissue-specific signaling networks . What neurosurgeons should discover about the science of learning .
+
+ppatt:
+	In ?a , ?b discover ?c
+		?a: addition
+		?b: we
+		?c: SOMETHING := ubiquitylation regulates tissue-specific signaling networks . What neurosurgeons should discover about the science of learning
+	?a regulates ?b
+		?a: ubiquitylation
+		?b: tissue-specific signaling networks What neurosurgeons should discover about the science of learning
+	?a ?b ?c should discover about ?d
+		?a: tissue-specific signaling networks
+		?b: What
+		?c: neurosurgeons
+		?d: the science of learning
+
+
+label:    sent_25
+sentence: We thank Jennifer Blank for helping us discover and correct this error .
+
+ppatt:
+	?a thank ?b
+		?a: We
+		?b: Jennifer Blank
+	?a helping ?b ?c
+		?a: Jennifer Blank
+		?b: us
+		?c: SOMETHING := discover
+	correct ?a
+		?a: this error
+
+
+label:    sent_26
+sentence: We are using a multi-layer perceptron neural network to discover and embody these synergies .
+
+ppatt:
+	?a are using ?b
+		?a: We
+		?b: a multi-layer perceptron neural network
+	?a discover ?b
+		?a: We
+		?b: these synergies
+	?a embody
+		?a: We
+
+
+label:    sent_27
+sentence: Their status leads us to discover and investigate more targeted therapy with more efficacy .
+
+ppatt:
+	?a leads ?b to discover ?c
+		?a: Their status
+		?b: us
+		?c: more targeted therapy with more efficacy
+	?a leads to investigate
+		?a: Their status
+
+

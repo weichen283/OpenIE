@@ -1,0 +1,290 @@
+label:    sent_1
+sentence: Services appear to acknowledge the high risk of suicide in those receiving ECT .
+
+ppatt:
+	?a appear to acknowledge ?b
+		?a: Services
+		?b: the high risk of suicide in those receiving ECT
+	?a receiving ?b
+		?a: those
+		?b: ECT
+
+
+label:    sent_2
+sentence: Authors failed to acknowledge the Cochrane review on this topic .
+
+ppatt:
+	?a failed to acknowledge ?b on ?c
+		?a: Authors
+		?b: the Cochrane review
+		?c: this topic
+
+
+label:    sent_3
+sentence: An erratum is presented to acknowledge a reference omitted from the original paper .
+
+ppatt:
+	?a is presented to acknowledge ?b
+		?a: An erratum
+		?b: a reference omitted from the original paper
+	?a omitted from ?b
+		?a: a reference
+		?b: the original paper
+
+
+label:    sent_4
+sentence: The authors acknowledge the problems involved in ' labelling ' the disorder .
+
+ppatt:
+	?a acknowledge ?b
+		?a: The authors
+		?b: the problems involved in ' labelling ' the disorder
+	?a involved in ?b
+		?a: the problems
+		?b: labelling ' the disorder
+
+
+label:    sent_5
+sentence: Future service development issues should acknowledge the needs and expressed wishes of service users .
+
+ppatt:
+	?a should acknowledge ?b
+		?a: Future service development issues
+		?b: the needs of service users
+	?a should acknowledge ?b
+		?a: Future service development issues
+		?b: expressed wishes
+
+
+label:    sent_6
+sentence: We gratefully acknowledge all authors for their contribution as summarized in this Introduction Paper .
+
+ppatt:
+	?a gratefully acknowledge ?b for ?c
+		?a: We
+		?b: all authors
+		?c: their contribution
+	?a summarized in ?b
+		?a: We
+		?b: this Introduction Paper
+
+
+label:    sent_7
+sentence: Study designs should nevertheless acknowledge that the MRI setting may enhance stress reactions . 57 % of subject 's acknowledge having as first recourse traditional medicine .
+
+ppatt:
+	?a should nevertheless acknowledge ?b
+		?a: Study designs
+		?b: SOMETHING := the MRI setting may enhance stress reactions . 57 % of subject 's
+	?a may enhance ?b ?c
+		?a: the MRI setting
+		?b: stress reactions
+		?c: 57 % of subject 's
+	?a acknowledge having as ?b ?c
+		?a: the MRI setting
+		?b: first recourse
+		?c: traditional medicine
+
+
+label:    sent_8
+sentence: Even so , they acknowledge that there is always more work to be done .
+
+ppatt:
+	Even so , ?a acknowledge ?b
+		?a: they
+		?b: SOMETHING := there is always more work to be done
+	there is ?a to be done
+		?a: always more work
+
+
+label:    sent_9
+sentence: The guidelines acknowledge the rapidly advancing neuroscientific research and evolving therapeutic modalities in PDOC .
+
+ppatt:
+	?a acknowledge ?b
+		?a: The guidelines
+		?b: the rapidly advancing neuroscientific research in PDOC
+	?a acknowledge ?b
+		?a: The guidelines
+		?b: evolving therapeutic modalities
+
+
+label:    sent_10
+sentence: To be successful , the prochoice argument must acknowledge these realities and adapt accordingly . Case-sibling studies that acknowledge unstudied parents and permit the inclusion of unmatched individuals .
+
+ppatt:
+	be successful ?a
+		?a: the prochoice argument
+	?a must acknowledge ?b
+		?a: the prochoice argument
+		?b: these realities
+	?a adapt accordingly ?b
+		?a: the prochoice argument
+		?b: Case-sibling studies that acknowledge unstudied parents and permit the inclusion of unmatched individuals
+	?a acknowledge ?b
+		?a: Case-sibling studies
+		?b: unstudied parents
+	?a permit ?b
+		?a: that
+		?b: the inclusion of unmatched individuals
+
+
+label:    sent_11
+sentence: Scientists who publish should therefore give proper credit and acknowledge the primary sources .
+
+ppatt:
+	?a publish
+		?a: Scientists
+	?a should therefore give ?b
+		?a: Scientists who publish
+		?b: proper credit
+	?a acknowledge ?b
+		?a: Scientists who publish
+		?b: the primary sources
+
+
+label:    sent_12
+sentence: Girls were more likely to practice and acknowledge benefits of stress management .
+
+ppatt:
+	?a were more likely to practice ?b
+		?a: Girls
+		?b: benefits of stress management
+	?a were more likely to acknowledge
+		?a: Girls
+
+
+label:    sent_13
+sentence: Such patients require family doctors to acknowledge their symptoms and to provide reassurance .
+
+ppatt:
+	?a require ?b to acknowledge ?c
+		?a: Such patients
+		?b: family doctors
+		?c: their symptoms
+	?a require to to provide ?b
+		?a: Such patients
+		?b: reassurance
+
+
+label:    sent_14
+sentence: Policymakers need to acknowledge and allocate resources for diabetes prevention and management accordingly .
+
+ppatt:
+	?a need to acknowledge ?b accordingly
+		?a: Policymakers
+		?b: resources for diabetes
+	?a need to allocate
+		?a: Policymakers
+
+
+label:    sent_15
+sentence: Governments need to acknowledge and address this fact .
+
+ppatt:
+	?a need to acknowledge ?b
+		?a: Governments
+		?b: this fact
+	?a need to address
+		?a: Governments
+
+
+label:    sent_16
+sentence: Patients with anosognosia fail to acknowledge , or feel distressed by , their disability .
+
+ppatt:
+	?a fail to acknowledge
+		?a: Patients with anosognosia
+	?a fail to feel distressed by ?b
+		?a: Patients with anosognosia
+		?b: their disability
+
+
+label:    sent_17
+sentence: This response must also acknowledge facilitators as important stakeholders in medical tourism .
+
+ppatt:
+	?a must also acknowledge ?b as ?c
+		?a: This response
+		?b: facilitators
+		?c: important stakeholders in medical tourism
+
+
+label:    sent_18
+sentence: Cultural values of Alaska Native people acknowledge laughter as good medicine .
+
+ppatt:
+	?a acknowledge ?b as ?c
+		?a: Cultural values of Alaska Native people
+		?b: laughter
+		?c: good medicine
+
+
+label:    sent_19
+sentence: Annual award to acknowledge original studies by dermatology trainees .
+
+ppatt:
+	?a acknowledge ?b
+		?a: Annual award
+		?b: original studies by dermatology trainees
+
+
+label:    sent_20
+sentence: They should also both acknowledge and address Chinese cultural beliefs about tobacco use . Staff support systems acknowledge and address occupational stress .
+
+ppatt:
+	?a should also both acknowledge ?b
+		?a: They
+		?b: Chinese cultural beliefs about tobacco use
+	?a address
+		?a: They
+	?a acknowledge
+		?a: Staff support systems
+	?a address ?b
+		?a: Staff support systems
+		?b: occupational stress
+
+
+label:    sent_21
+sentence: Healthcare system administrators must acknowledge and prioritize the need for this education .
+
+ppatt:
+	?a must acknowledge ?b
+		?a: Healthcare system administrators
+		?b: the need for this education
+	?a prioritize
+		?a: Healthcare system administrators
+
+
+label:    sent_22
+sentence: Report fails to acknowledge problems with at-home HIV test .
+
+ppatt:
+	?a fails to acknowledge ?b
+		?a: Report
+		?b: problems with at-home HIV test
+
+
+label:    sent_23
+sentence: It is time for nurses to acknowledge their place in Europe .
+
+ppatt:
+	?a is time for ?b
+		?a: It
+		?b: nurses
+	?a acknowledge ?b
+		?a: time for nurses
+		?b: their place in Europe
+
+
+label:    sent_24
+sentence: There is a need to acknowledge the social correlates of maternal deaths as well .
+
+ppatt:
+	There is ?a
+		?a: a need to acknowledge the social correlates of maternal deaths as well
+	?a acknowledge ?b as well
+		?a: a need
+		?b: the social correlates of maternal deaths
+
+

@@ -1,0 +1,232 @@
+label:    sent_1
+sentence: Chronic diseases and call to action .
+
+ppatt:
+
+
+
+label:    sent_2
+sentence: Executive summary : The Surgeon General 's call to action to support breastfeeding . ICU-acquired weakness-a call to arms ( and legs ) . We call such spontaneous local breakout an " initial percept-switch nucleation .
+
+ppatt:
+	?a support ?b
+		?a: action
+		?b: breastfeeding
+	?a support ?b
+		?a: action
+		?b: ICU-acquired weakness-a call to arms ( and legs
+	?a ?b ?c call ?d ?e
+		?a: Executive summary
+		?b: The Surgeon General 's call to action to support breastfeeding . ICU-acquired weakness-a call to arms ( and legs
+		?c: We
+		?d: such spontaneous local breakout
+		?e: an " initial percept-switch nucleation
+
+
+label:    sent_3
+sentence: " Multivariate analyses of call completion and change in health behaviors .
+
+ppatt:
+
+
+
+label:    sent_4
+sentence: We call this a load and tolerance strategy for determining PSV .
+
+ppatt:
+	?a call ?b
+		?a: We
+		?b: this a load
+	?a call ?b
+		?a: We
+		?b: tolerance
+	?a call ?b
+		?a: We
+		?b: strategy
+	?a determining ?b
+		?a: this a load
+		?b: PSV
+	?a determining ?b
+		?a: tolerance
+		?b: PSV
+	?a determining ?b
+		?a: strategy
+		?b: PSV
+
+
+label:    sent_5
+sentence: We locate a novel type of double-crisis vertex which we call a grazing-crisis vertex .
+
+ppatt:
+	?a locate ?b
+		?a: We
+		?b: a novel type of double-crisis vertex which we call a grazing-crisis vertex
+	?a ?b call ?c
+		?a: double-crisis vertex
+		?b: we
+		?c: a grazing-crisis vertex
+
+
+label:    sent_6
+sentence: This paper proposes an explanatory model , that we call the attention-intention-effort pathway .
+
+ppatt:
+	?a proposes ?b ?c
+		?a: This paper
+		?b: an explanatory model
+		?c: SOMETHING := we call the attention-intention-effort pathway
+	?a call ?b
+		?a: we
+		?b: the attention-intention-effort pathway
+
+
+label:    sent_7
+sentence: The exact result exhibits a phenomenon that we call asymmetric screening .
+
+ppatt:
+	?a exhibits ?b
+		?a: The exact result
+		?b: a phenomenon that we call asymmetric screening
+	?a ?b call ?c
+		?a: a phenomenon
+		?b: we
+		?c: asymmetric screening
+
+
+label:    sent_8
+sentence: We call this behavior maximally flat , after the electrical filters devised by Butterworth .
+
+ppatt:
+	?a call ?b
+		?a: We
+		?b: this behavior maximally flat after the electrical filters devised by Butterworth
+	?a devised by ?b
+		?a: the electrical filters
+		?b: Butterworth
+
+
+label:    sent_9
+sentence: Evaluation of a tiered trauma call system in a level 1 trauma centre . A call to action : variability in guidelines for cardiac evaluation before renal transplantation .
+
+ppatt:
+
+
+
+label:    sent_10
+sentence: Why not just call it tako-tsubo cardiomyopathy : a discussion of nomenclature .
+
+ppatt:
+	Why not just call ?a ?b
+		?a: it
+		?b: tako-tsubo cardiomyopathy
+
+
+label:    sent_11
+sentence: Overall 45.6 % of smokers intend never to call the QL .
+
+ppatt:
+	?a intend never to call ?b
+		?a: Overall 45.6 % of smokers
+		?b: the QL
+
+
+label:    sent_12
+sentence: A complex renal cyst : it is time to call the oncologist ? Part 2 : the results letter and the discussion call . The wake-up call .
+
+ppatt:
+	?a call ?b ?c
+		?a: time
+		?b: the oncologist
+		?c: Part 2
+
+
+label:    sent_13
+sentence: Midwifery special issue call for papers --place of birth . Campaigners call for university to close down children 's chiropractic clinic in Melbourne .
+
+ppatt:
+	?a ?b call for ?c
+		?a: Midwifery special issue call for papers
+		?b: Campaigners
+		?c: university to close down children 's chiropractic clinic in Melbourne
+
+
+label:    sent_14
+sentence: Prescription drug monitoring programs-lack of effectiveness or a call to action ? Radiation worker mortality : intersociety call for survey participation .
+
+ppatt:
+
+
+
+label:    sent_15
+sentence: Let 's call the whole replacement off ! We would like to call attention to yet another atypical presentation of extrapulmonary tuberculosis .
+
+ppatt:
+	?a 's call ?b to call ?c to ?d
+		?a: Let
+		?b: the whole replacement off !
+		?c: attention
+		?d: yet another atypical presentation of extrapulmonary tuberculosis
+	?a would
+		?a: We
+
+
+label:    sent_16
+sentence: We propose to call this new variant AT III Clichy .
+
+ppatt:
+	?a propose to call ?b AT ?c
+		?a: We
+		?b: this new variant
+		?c: III Clichy
+
+
+label:    sent_17
+sentence: In conclusion we call for better coordination and support from transplantation centres .
+
+ppatt:
+	In ?a ?b call for ?c
+		?a: conclusion
+		?b: we
+		?c: better coordination from transplantation centres
+	In ?a ?b call for ?c
+		?a: conclusion
+		?b: we
+		?c: support
+
+
+label:    sent_18
+sentence: Quadrivalent human vaccine-a call to action and for additional research .
+
+ppatt:
+	?a call to ?b
+		?a: Quadrivalent human vaccine-a
+		?b: action
+	?a call to ?b
+		?a: Quadrivalent human vaccine-a
+		?b: additional research
+
+
+label:    sent_19
+sentence: A call for greater policy emphasis and public health applications in pharmacy education . " Should we call last orders on drunks and traffic cones in A&E " ? We call attention to this condition and describe our experience with four patients . I am known by many names , but you can call me . . .
+
+ppatt:
+	?a ?b Should ?c call ?d
+		?a: A call for greater policy emphasis and public health applications in pharmacy education
+		?b: "
+		?c: we
+		?d: last orders drunks and traffic
+	?a call ?b to ?c
+		?a: We
+		?b: attention
+		?c: this condition
+	?a describe ?b
+		?a: We
+		?b: our experience with four patients am known by many names
+	?a am known by ?b
+		?a: four patients
+		?b: many names
+	?a can call ?b
+		?a: you
+		?b: me
+
+

@@ -1,0 +1,262 @@
+label:    sent_1
+sentence: How does mood influence people 's willingness to disclose intimate information about themselves ? An additional 78 minutes and $ 68 was needed to disclose results .
+
+ppatt:
+	How does ?a influence ?b to disclose ?c
+		?a: mood
+		?b: people 's willingness
+		?c: intimate information about themselves
+	?a was needed to disclose ?b
+		?a: An additional 78 minutes
+		?b: results
+	?a was needed to disclose ?b
+		?a: $ 68
+		?b: results
+
+
+label:    sent_2
+sentence: Providers have been reluctant to disclose patient data for public-health purposes .
+
+ppatt:
+	?a have been reluctant to disclose ?b
+		?a: Providers
+		?b: patient data for public-health purposes
+
+
+label:    sent_3
+sentence: Study : Few advocacy groups disclose grants from drug companies .
+
+ppatt:
+
+
+
+label:    sent_4
+sentence: Then , we disclose the organocatalytic rearrangements .
+
+ppatt:
+	Then , ?a disclose ?b
+		?a: we
+		?b: the organocatalytic rearrangements
+
+
+label:    sent_5
+sentence: Diagnostic procedures including esophagogastroduodenoscopy and ileocolonoscopy did not disclose a definitive cause .
+
+ppatt:
+	?a did not disclose ?b
+		?a: Diagnostic procedures including esophagogastroduodenoscopy and ileocolonoscopy
+		?b: a definitive cause
+
+
+label:    sent_6
+sentence: A complete work-up failed to disclose any predisposing condition to digestive candidiasis .
+
+ppatt:
+	?a failed to disclose ?b
+		?a: A complete work-up
+		?b: any predisposing condition to digestive candidiasis
+
+
+label:    sent_7
+sentence: If in doubt , disclose the risks . Physicians have an ethical duty to disclose adverse events to patients or families .
+
+ppatt:
+	in ?a , disclose ?b ?c
+		?a: doubt
+		?b: the risks
+		?c: Physicians
+	?a have ?b to disclose ?c
+		?a: Physicians
+		?b: an ethical duty
+		?c: adverse events to patients or families
+
+
+label:    sent_8
+sentence: Choosing your words carefully : how physicians would disclose harmful medical errors to patients .
+
+ppatt:
+	Choosing ?a carefully
+		?a: your words
+	how ?a would disclose ?b
+		?a: physicians
+		?b: harmful medical errors to patients
+
+
+label:    sent_9
+sentence: Physicians vary widely in how they would disclose errors to patients . Majority ( 95.54 % ) did not disclose epilepsy before marriage .
+
+ppatt:
+	?a vary widely
+		?a: Physicians
+	how ?a would disclose ?b
+		?a: they
+		?b: errors to patients
+	?a is/are 95.54 %
+		?a: Majority
+	?a did not disclose ?b before ?c
+		?a: Majority
+		?b: epilepsy
+		?c: marriage
+
+
+label:    sent_10
+sentence: Recent studies disclose that SVZ neurogenesis is under regulation of reproductive cues like pheromones .
+
+ppatt:
+	?a disclose under ?b
+		?a: Recent studies
+		?b: SOMETHING := SVZ neurogenesis is regulation of reproductive cues like pheromones
+	?a is under regulation of ?b
+		?a: SVZ neurogenesis
+		?b: reproductive cues like pheromones
+
+
+label:    sent_11
+sentence: Respondents varied widely in the type of information they would disclose .
+
+ppatt:
+	?a varied widely in ?b
+		?a: Respondents
+		?b: the type of information
+	?a would disclose
+		?a: they
+
+
+label:    sent_12
+sentence: Anesthesia providers generally disclose high-frequency and high-morbidity side effects and complications .
+
+ppatt:
+	?a generally disclose ?b
+		?a: Anesthesia providers
+		?b: high-frequency and high-morbidity side effects
+	?a generally disclose ?b
+		?a: Anesthesia providers
+		?b: complications
+
+
+label:    sent_13
+sentence: Dementia is uncommon but may disclose the disease .
+
+ppatt:
+	?a is uncommon
+		?a: Dementia
+	?a may disclose ?b
+		?a: Dementia
+		?b: the disease
+
+
+label:    sent_14
+sentence: Secondary meningeal localizations are uncommon and may disclose reactivation of a malignant disease .
+
+ppatt:
+	?a are uncommon
+		?a: Secondary meningeal localizations
+	?a may disclose ?b
+		?a: Secondary meningeal localizations
+		?b: reactivation of a malignant disease
+
+
+label:    sent_15
+sentence: People with mental illness face the dilemma whether or not to disclose their condition .
+
+ppatt:
+	?a face ?b
+		?a: People with mental illness
+		?b: the dilemma whether or not to disclose their condition
+	?a not to disclose ?b
+		?a: the dilemma
+		?b: their condition
+
+
+label:    sent_16
+sentence: The authors disclose the risk factors of cardiorrhexis and give recommendations for its prophylaxis . CA3-released entorhinal seizures disclose dentate gyrus epileptogenicity and unmask a temporoammonic pathway .
+
+ppatt:
+	?a disclose ?b
+		?a: The authors
+		?b: the risk factors of cardiorrhexis
+	?a give ?b
+		?a: The authors
+		?b: recommendations for its prophylaxis
+	?a disclose ?b
+		?a: CA3-released entorhinal seizures
+		?b: dentate gyrus epileptogenicity
+	?a unmask ?b
+		?a: CA3-released entorhinal seizures
+		?b: a temporoammonic pathway
+
+
+label:    sent_17
+sentence: Properly culturing an infected lesion can disclose the pathogens and provide their antibiotic susceptibilities . When in doubt , disclose . Asymptomatic men were less likely to disclose to relatives and colleagues than symptomatic men .
+
+ppatt:
+	Properly culturing ?a
+		?a: an infected lesion
+	?a can disclose ?b
+		?a: SOMETHING := Properly culturing an infected lesion
+		?b: the pathogens
+	?a provide ?b
+		?a: Properly culturing an infected lesion
+		?b: their antibiotic susceptibilities
+	?a When in ?b , disclose
+		?a: Properly culturing an infected lesion
+		?b: doubt
+	?a were less likely to disclose to ?b
+		?a: Asymptomatic men
+		?b: relatives than symptomatic men
+	?a were less likely to disclose to ?b
+		?a: Asymptomatic men
+		?b: colleagues
+
+
+label:    sent_18
+sentence: Informed consent and shared decision-making : a requirement to disclose to patients off-label prescriptions .
+
+ppatt:
+
+
+
+label:    sent_19
+sentence: Failure by deans of academic medical centers to disclose outside income .
+
+ppatt:
+	?a disclose outside ?b
+		?a: Failure by deans of academic medical centers
+		?b: income
+
+
+label:    sent_20
+sentence: Adult survivors disclose to their families .
+
+ppatt:
+	?a disclose to ?b
+		?a: Adult survivors
+		?b: their families
+
+
+label:    sent_21
+sentence: Averages do not disclose enough about the risks and benefits of drugs . Clinical trial data : to disclose or not to disclose ? Women with onset of epilepsy prior to marriage : disclose or conceal ? To disclose or not to disclose , that is the question .
+
+ppatt:
+	?a do not disclose enough about ?b ?c
+		?a: Averages
+		?b: the risks of drugs
+		?c: Clinical trial data
+	?a do not disclose enough about ?b ?c
+		?a: Averages
+		?b: benefits
+		?c: Clinical trial data
+	not to disclose ?a prior to ?b
+		?a: Women with onset of epilepsy
+		?b: marriage
+	?a disclose ? To disclose
+		?a: Averages
+	?a conceal
+		?a: Averages
+	?a disclose ? To not to disclose ?b
+		?a: Averages
+		?b: SOMETHING := that is the question
+	?a is the question
+		?a: that
+
+

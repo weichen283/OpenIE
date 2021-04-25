@@ -1,0 +1,236 @@
+label:    sent_1
+sentence: Built environment predictors of active travel to school among rural adolescents .
+
+ppatt:
+
+
+
+label:    sent_2
+sentence: Effect of air travel on exercise-induced coagulatory and fibrinolytic activation in marathon runners .
+
+ppatt:
+
+
+
+label:    sent_3
+sentence: Patients travel farther to a high-volume hospital and high-volume surgeon .
+
+ppatt:
+	?a travel farther to ?b
+		?a: Patients
+		?b: high-volume hospital
+	?a travel farther to ?b
+		?a: Patients
+		?b: high-volume
+
+
+label:    sent_4
+sentence: Those living in deprived areas are less likely to travel to non-local services .
+
+ppatt:
+	?a living in ?b
+		?a: Those
+		?b: deprived areas
+	?a are less likely to travel to ?b
+		?a: Those living in deprived areas
+		?b: non-local services
+
+
+label:    sent_5
+sentence: Tlicho women 's medical travel for childbirth . Anyone needing such services had to travel into Montreal . Air travel and the risk of thromboembolism .
+
+ppatt:
+	?a ?b needing ?c
+		?a: Tlicho women 's medical travel for childbirth
+		?b: Anyone
+		?c: such services
+	?a had to travel into ?b
+		?a: Tlicho women 's medical travel for childbirth . Anyone needing such services
+		?b: Montreal . Air travel
+	?a had to travel into ?b
+		?a: Tlicho women 's medical travel for childbirth . Anyone needing such services
+		?b: the risk of thromboembolism
+
+
+label:    sent_6
+sentence: Hispanics or Native Americans travel farther for care when compared with Caucasians . Parental awareness of elementary school travel programs .
+
+ppatt:
+	?a travel farther for ?b
+		?a: Hispanics
+		?b: care
+	?a travel farther for ?b
+		?a: Native Americans
+		?b: care
+	?a when compared with ?b ?c
+		?a: Hispanics
+		?b: Caucasians
+		?c: Parental awareness of elementary school travel programs
+	?a when compared with ?b ?c
+		?a: Native Americans
+		?b: Caucasians
+		?c: Parental awareness of elementary school travel programs
+
+
+label:    sent_7
+sentence: Need job , will travel : consider locum tenens . Does Guinness travel well ? A brief experiment in time travel .
+
+ppatt:
+	?a will travel
+		?a: Need job
+	?a consider ?b
+		?a: Need job
+		?b: locum tenens
+	?a Does Guinness travel well ?b
+		?a: Need job
+		?b: A brief experiment in time travel
+
+
+label:    sent_8
+sentence: Have balloon , will travel : expanded indications for nonoperative intravascular balloon dilation ? Coronary artery surgery ; Is it necessary to travel 2,000 miles ? Following the mixed methods trail : some travel advice .
+
+ppatt:
+	Have ?a
+		?a: balloon
+	will travel ?a
+		?a: expanded indications for nonoperative intravascular balloon dilation ? Coronary artery surgery
+	Is ?a necessary to travel ?b ? Following ?c
+		?a: it
+		?b: 2,000 miles
+		?c: the mixed methods trail
+
+
+label:    sent_9
+sentence: The tonsillar arteries travel in the connective tissue septa and give off many branches .
+
+ppatt:
+	?a travel in ?b
+		?a: The tonsillar arteries
+		?b: the connective tissue septa
+	?a give off ?b
+		?a: The tonsillar arteries
+		?b: many branches
+
+
+label:    sent_10
+sentence: These contaminants travel through the medium and ultimately get in contact with the groundwater .
+
+ppatt:
+	?a travel through ?b
+		?a: These contaminants
+		?b: the medium
+	?a ultimately get in ?b
+		?a: These contaminants
+		?b: contact with the groundwater
+
+
+label:    sent_11
+sentence: By contrast , cytokinins travel acropetally and promote bud outgrowth . Legionnaires ' disease and travel in Europe . [ Children and travel to the South .
+
+ppatt:
+	By ?a , ?b travel acropetally ?c
+		?a: contrast
+		?b: cytokinins
+		?c: Children
+	?a promote ?b
+		?a: cytokinins
+		?b: bud outgrowth
+	?a promote ?b
+		?a: cytokinins
+		?b: Legionnaires disease
+	?a travel to ?b
+		?a: cytokinins
+		?b: the South
+
+
+label:    sent_12
+sentence: Risk for drug intoxication ] . This enables MTTFs to travel to the nucleus and modulate gene expression .
+
+ppatt:
+	?a ?b enables ?c to travel to ?d
+		?a: Risk for drug intoxication ]
+		?b: This
+		?c: MTTFs
+		?d: the nucleus
+	?a enables to modulate ?b
+		?a: Risk for drug intoxication ]
+		?b: gene expression
+
+
+label:    sent_13
+sentence: Long- and short-haul travel by air : issues for people with diabetes on insulin .
+
+ppatt:
+
+
+
+label:    sent_14
+sentence: Nonhuman primate model for regional wave travel and reflections along aortas .
+
+ppatt:
+
+
+
+label:    sent_15
+sentence: [ Prior health advice to immigrants who travel to visit family and friends ] . Three patients communicated their intent to travel abroad before transplantation .
+
+ppatt:
+	?a travel to ?b
+		?a: immigrants
+		?b: visit family
+	?a travel to ?b
+		?a: immigrants
+		?b: friends
+	?a travel to ?b
+		?a: immigrants
+		?b: ]
+	[ ?a . ?b communicated ?c
+		?a: Prior health advice to immigrants who travel to visit family and friends ]
+		?b: Three patients
+		?c: their intent to travel abroad before transplantation
+	?a travel abroad before ?b
+		?a: their intent
+		?b: transplantation
+
+
+label:    sent_16
+sentence: The majority intend to travel abroad upon graduation .
+
+ppatt:
+	?a intend to travel abroad upon ?b
+		?a: The majority
+		?b: graduation
+
+
+label:    sent_17
+sentence: On emotionally intelligent time travel : individual differences in affective forecasting ability .
+
+ppatt:
+
+
+
+label:    sent_18
+sentence: Many wild primates occupy large home ranges and travel long distances each day . Travel medicine and travel clinics .
+
+ppatt:
+	?a occupy ?b
+		?a: Many wild primates
+		?b: large home ranges
+	?a travel ?b
+		?a: Many wild primates
+		?b: long distances . Travel medicine and travel clinics
+
+
+label:    sent_19
+sentence: Air pollutants are often invisible and travel many miles virtually undetected .
+
+ppatt:
+	?a are often invisible
+		?a: Air pollutants
+	?a travel ?b
+		?a: Air pollutants
+		?b: many miles
+	?a virtually undetected
+		?a: Air pollutants
+
+

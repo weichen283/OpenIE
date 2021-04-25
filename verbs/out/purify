@@ -1,0 +1,292 @@
+label:    sent_1
+sentence: Fluorescence-activated cell sorting was applied to purify CD44+ cells .
+
+ppatt:
+	?a was applied to purify ?b
+		?a: Fluorescence-activated cell sorting
+		?b: CD44+ cells
+
+
+label:    sent_2
+sentence: Monoclonal antibody to the Thy-1.2 antigen can be used to purify the mice RGC .
+
+ppatt:
+	?a can be used to purify ?b
+		?a: Monoclonal antibody to the Thy-1.2 antigen
+		?b: the mice
+
+
+label:    sent_3
+sentence: Thin layer chromatography ( TLC ) was performed to purify the individual phospholipids . HPLC is used to purify the caged transmitters at the end of the syntheses .
+
+ppatt:
+	?a is/are TLC
+		?a: Thin layer chromatography
+	?a was performed to purify ?b
+		?a: Thin layer chromatography
+		?b: the individual phospholipids
+	?a is used to purify ?b at ?c
+		?a: HPLC
+		?b: the caged transmitters
+		?c: the end of the syntheses
+
+
+label:    sent_4
+sentence: First , protein G affinity chromatography was used to purify IgG from equine plasma .
+
+ppatt:
+	First , ?a was used to purify ?b from ?c
+		?a: protein G affinity chromatography
+		?b: IgG
+		?c: equine plasma
+
+
+label:    sent_5
+sentence: A simple procedure was established to purify the expression product from the culture medium .
+
+ppatt:
+	?a was established to purify ?b
+		?a: A simple procedure
+		?b: the expression product from the culture medium
+
+
+label:    sent_6
+sentence: Here , we sought to purify and characterize the haemagglutinin associated with this activity .
+
+ppatt:
+	Here , ?a sought to purify ?b
+		?a: we
+		?b: the haemagglutinin associated with this activity
+	Here , ?a sought to characterize
+		?a: we
+	?a associated with ?b
+		?a: the haemagglutinin
+		?b: this activity
+
+
+label:    sent_7
+sentence: However , the enzymes have defied attempts to purify and characterize them .
+
+ppatt:
+	However , ?a have defied ?b
+		?a: the enzymes
+		?b: attempts to purify and characterize them
+	?a purify ?b
+		?a: attempts
+		?b: them
+	characterize ?a
+		?a: them
+
+
+label:    sent_8
+sentence: High resolution gel exclusion chromatography was used to purify and characterize the synthetic junction .
+
+ppatt:
+	?a was used to purify ?b
+		?a: High resolution gel exclusion chromatography
+		?b: the synthetic junction
+	?a was used to characterize
+		?a: High resolution gel exclusion chromatography
+
+
+label:    sent_9
+sentence: A simple , integrated process was used to extract and purify the target protein .
+
+ppatt:
+	?a was used to extract ?b
+		?a: A simple , process
+		?b: the target protein
+	?a was used to purify
+		?a: A simple , process
+
+
+label:    sent_10
+sentence: This platform has been used to purify natural products and discover their molecular mechanisms .
+
+ppatt:
+	?a has been used to purify ?b
+		?a: This platform
+		?b: natural products
+	?a discover ?b
+		?a: This platform
+		?b: their molecular mechanisms
+
+
+label:    sent_11
+sentence: Various chromatographic techniques were used to separate and purify the aporphine alkaloids . CadF protein is very hard to purify from Campylobacter membranes .
+
+ppatt:
+	?a were used to separate ?b
+		?a: Various chromatographic techniques
+		?b: the aporphine alkaloids
+	?a were used to purify
+		?a: Various chromatographic techniques
+	?a is very hard to purify from ?b
+		?a: CadF protein
+		?b: Campylobacter membranes
+
+
+label:    sent_12
+sentence: The bispecific monoclonal antibody is thus easy to purify in excellent yields .
+
+ppatt:
+	?a is thus easy to purify in ?b
+		?a: The bispecific monoclonal antibody
+		?b: excellent yields
+
+
+label:    sent_13
+sentence: Moreover , the intermediates in synthesis are easier to purify , with better yields . A rapid procedure to purify Escherichia coli DNA topoisomerase I . ( 4 ) Cryopreservation may partially purify islet-containing tissue of its exocrine content .
+
+ppatt:
+	Moreover , ?a are easier to purify , with ?b ?c
+		?a: the intermediates in synthesis
+		?b: better yields
+		?c: A rapid procedure to purify Escherichia coli DNA topoisomerase I
+	?a purify ?b
+		?a: A rapid procedure
+		?b: Escherichia coli DNA topoisomerase I
+	?a may partially purify ?b
+		?a: Cryopreservation
+		?b: islet-containing tissue of its exocrine content
+
+
+label:    sent_14
+sentence: With this pH we ran labscale columns to purify monoclonal antibody .
+
+ppatt:
+	With ?a ?b ran ?c to purify ?d
+		?a: this pH
+		?b: we
+		?c: labscale columns
+		?d: monoclonal antibody
+
+
+label:    sent_15
+sentence: Isolate and purify compounds by chromatographic methods , and identify structures by spectroscopic methods .
+
+ppatt:
+	identify ?a by ?b
+		?a: structures
+		?b: spectroscopic methods
+
+
+label:    sent_16
+sentence: Ion exchange chromatography was used to separate and purify PEGylated rhG-CSF from unPEGylated rhG-CSF .
+
+ppatt:
+	?a was used to separate ?b
+		?a: Ion exchange chromatography
+		?b: PEGylated rhG-CSF from unPEGylated rhG-CSF
+	?a was used to purify
+		?a: Ion exchange chromatography
+
+
+label:    sent_17
+sentence: Also we developed new methods to produce and purify the lantibiotic from strain NU10 .
+
+ppatt:
+	Also ?a developed ?b
+		?a: we
+		?b: new methods to produce and purify the lantibiotic from strain NU10
+	?a produce ?b
+		?a: new methods
+		?b: the lantibiotic from strain NU10
+	purify ?a
+		?a: the lantibiotic from strain NU10
+
+
+label:    sent_18
+sentence: A simple , non-chromatographic procedure to purify immunoglobulins from serum and ascites fluid .
+
+ppatt:
+	?a purify ?b
+		?a: A simple , procedure
+		?b: immunoglobulins from serum and ascites
+
+
+label:    sent_19
+sentence: A simple and feasible approach to purify konjac glucomannan from konjac flour--temperature effect .
+
+ppatt:
+	?a purify ?b from ?c
+		?a: A simple and feasible approach
+		?b: konjac glucomannan
+		?c: konjac flour--temperature effect
+
+
+label:    sent_20
+sentence: IMAC allowed us to purify ICD from bacterial crude with SlyD co-eluting .
+
+ppatt:
+	?a allowed ?b to purify ?c from ?d
+		?a: IMAC
+		?b: us
+		?c: ICD
+		?d: bacterial crude with SlyD co-eluting
+
+
+label:    sent_21
+sentence: Our aim was to clone , express , purify and characterize E. carotovora asparaginase .
+
+ppatt:
+	?a was to clone
+		?a: Our aim
+	?a express
+		?a: clone
+	express ?a
+		?a: purify
+	?a purify
+		?a: Our aim
+	?a characterize ?b
+		?a: Our aim
+		?b: E. carotovora asparaginase
+
+
+label:    sent_22
+sentence: Here , we purify and clone the protease responsible for cleaving MLL .
+
+ppatt:
+	Here , ?a purify ?b
+		?a: we
+		?b: the protease responsible for cleaving MLL
+	?a clone
+		?a: we
+	cleaving ?a
+		?a: MLL
+
+
+label:    sent_23
+sentence: Here we purify and characterize empty capsids from the conditionally replicating rAd .
+
+ppatt:
+	Here ?a purify ?b
+		?a: we
+		?b: empty capsids from the conditionally replicating rAd
+	?a characterize
+		?a: we
+
+
+label:    sent_24
+sentence: Here , we partially purify this second MAPKKK and identify it as B-Raf .
+
+ppatt:
+	Here , ?a partially purify ?b
+		?a: we
+		?b: this second MAPKKK
+	?a identify ?b as ?c
+		?a: we
+		?b: it
+		?c: B-Raf
+
+
+label:    sent_25
+sentence: To purify , clone and characterize dog dander allergen Can f 4 .
+
+ppatt:
+	purify ?a
+		?a: clone
+	characterize ?a
+		?a: dog dander allergen
+
+

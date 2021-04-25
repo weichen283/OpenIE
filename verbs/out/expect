@@ -1,0 +1,237 @@
+label:    sent_1
+sentence: The advisor can not expect that measures that are cost-effective are always implemented .
+
+ppatt:
+	?a can not expect ?b
+		?a: The advisor
+		?b: SOMETHING := measures that are cost-effective are always implemented
+	?a are cost-effective
+		?a: measures
+	?a are always implemented
+		?a: measures that are cost-effective
+
+
+label:    sent_2
+sentence: Many young surgeons expect to built up their social status as cardiovascular specialist .
+
+ppatt:
+	?a expect to built up ?b as ?c
+		?a: Many young surgeons
+		?b: their social status
+		?c: cardiovascular specialist
+
+
+label:    sent_3
+sentence: Consumers expect white wines to be clear .
+
+ppatt:
+	?a expect ?b to be clear
+		?a: Consumers
+		?b: white wines
+
+
+label:    sent_4
+sentence: Insurers expect lower profits as they cope with higher costs , new regulations .
+
+ppatt:
+	?a expect ?b
+		?a: Insurers
+		?b: lower profits
+	?a cope with ?b
+		?a: they
+		?b: higher costs
+	?a is/are new regulations
+		?a: higher costs
+
+
+label:    sent_5
+sentence: When should we expect the evolutionary association of self-fertilization and dispersal ? Grant reviewers and other stakeholders should expect no more .
+
+ppatt:
+	When should ?a expect ?b
+		?a: we
+		?b: the evolutionary association of self-fertilization and dispersal ? and other stakeholders
+
+
+label:    sent_6
+sentence: Constipation as a defecation disorders : what do we expect from the physiologic tests ? A squad of 25 players can thus expect about 15 muscle injuries per season .
+
+ppatt:
+
+
+
+label:    sent_7
+sentence: Patients with talar OCDs can expect functional improvement after this technique .
+
+ppatt:
+	?a can expect ?b after ?c
+		?a: Patients with talar OCDs
+		?b: functional improvement
+		?c: this technique
+
+
+label:    sent_8
+sentence: What to expect from the Pharmacogenomics Research Network . Leading change : Know what to expect in times of transition .
+
+ppatt:
+	?a expect from ?b
+		?a: What
+		?b: the Pharmacogenomics
+	?a Research ?b
+		?a: What to expect from the Pharmacogenomics
+		?b: Network
+	?a Leading ?b
+		?a: What to expect from the Pharmacogenomics
+		?b: change
+	Know ?a to expect in ?b
+		?a: what
+		?b: times of transition
+
+
+label:    sent_9
+sentence: What can we expect in the future ? There is no reason to expect the two mechanisms to be mutually exclusive .
+
+ppatt:
+	?a can ?b expect in ?c
+		?a: What
+		?b: we
+		?c: the future
+	There is ?a
+		?a: no reason to expect the two mechanisms to be mutually exclusive
+	?a expect ?b to be mutually exclusive
+		?a: no reason
+		?b: the two mechanisms
+
+
+label:    sent_10
+sentence: The initial physical examination was normal expect bilateral papilledema .
+
+ppatt:
+	?a was normal expect bilateral papilledema
+		?a: The initial physical examination
+
+
+label:    sent_11
+sentence: Patients with HCL who achieve a CR can expect a normal lifespan . Consumer-directed health care : what to expect and what to do . Parturients expect safe and clean regional anesthesia .
+
+ppatt:
+	?a achieve ?b
+		?a: Patients with HCL
+		?b: a CR
+	?a can expect ?b : ?c to expect
+		?a: Patients with HCL who achieve a CR
+		?b: a normal lifespan . Consumer-directed health care
+		?c: what
+	can expect : to ?a to do . ?b expect ?c
+		?a: what
+		?b: Parturients
+		?c: safe and clean regional anesthesia
+
+
+label:    sent_12
+sentence: Then you need to make it clear that you expect and value both . Women can expect improvement in pain levels and function from their preoperative baseline .
+
+ppatt:
+	Then ?a need to make ?b clear ?c
+		?a: you
+		?b: it
+		?c: SOMETHING := you expect both
+	?a expect ?b
+		?a: you
+		?b: both
+	?a value
+		?a: you
+	?a can expect ?b
+		?a: Women
+		?b: improvement in pain levels
+	?a function from ?b
+		?a: Women
+		?b: their preoperative baseline
+
+
+label:    sent_13
+sentence: Help after childbirth --do women get what they expect and need ? When complications do occur , patients expect our help and support as they cope . HPV prophylactic vaccination : The first years and what to expect from now . [What to expect from allergy tests ? ] . Several ongoing studies investigate the benefits to expect from such intervention .
+
+ppatt:
+	Help after ?a
+		?a: childbirth --do women
+	get ?a
+		?a: SOMETHING := what they expect When complications do occur
+	?a ?b expect
+		?a: what
+		?b: they
+	?a need
+		?a: they
+	When ?a do occur
+		?a: complications
+	?a expect
+		?a: patients
+	?a help
+		?a: our
+	?a support
+		?a: our
+	?a cope ?b
+		?a: they
+		?b: HPV prophylactic vaccination
+	?a ?b expect from now ?c to expect from ?d
+		?a: The first years
+		?b: what
+		?c: [What
+		?d: allergy tests
+	?a investigate ?b
+		?a: Several ongoing studies
+		?b: the benefits to expect from such intervention
+	?a expect from ?b
+		?a: the benefits
+		?b: such intervention
+
+
+label:    sent_14
+sentence: Patients should be warned to expect increased pain on ambulation after leaving hospital . * Clinicians and patients should be counselled when to expect late toxicities .
+
+ppatt:
+	?a should be warned to expect ?b
+		?a: Patients
+		?b: increased pain on ambulation
+	?a leaving ?b
+		?a: Patients
+		?b: hospital
+	?a should be counselled when to expect ?b
+		?a: * Clinicians
+		?b: late toxicities
+	?a should be counselled when to expect ?b
+		?a: patients
+		?b: late toxicities
+
+
+label:    sent_15
+sentence: Clinicians who prescribe brinzolamide should expect similar ocular hypotensive responses from brinzolamide and dorzolamide .
+
+ppatt:
+	?a prescribe ?b
+		?a: Clinicians
+		?b: brinzolamide
+	?a should expect ?b
+		?a: Clinicians who prescribe brinzolamide
+		?b: similar ocular hypotensive responses from brinzolamide and dorzolamide
+
+
+label:    sent_16
+sentence: Our experiences of cystic fibrosis and what we expect from the paediatrician . [What can the practitioner expect from and contribute to drug surveillance ] .
+
+ppatt:
+	?a ?b ?c expect from ?d ?e
+		?a: Our experiences of cystic fibrosis
+		?b: what
+		?c: we
+		?d: the paediatrician
+		?e: [What
+	?a can ?b expect ?c
+		?a: Our experiences of cystic fibrosis and what we expect from the paediatrician . [What
+		?b: the practitioner
+		?c: from
+	?a contribute to ?b
+		?a: Our experiences of cystic fibrosis and what we expect from the paediatrician . [What
+		?b: drug surveillance ]
+
+

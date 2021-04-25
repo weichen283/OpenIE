@@ -1,0 +1,24 @@
+label:    sent_1
+sentence: We set out to resequence SHMT1 and SHMT2 , followed by functional genomic studies .
+
+ppatt:
+	?a set out to resequence ?b
+		?a: We
+		?b: SHMT1
+	?a set out to resequence ?b
+		?a: We
+		?b: SHMT2
+	?a followed by ?b
+		?a: We
+		?b: functional genomic studies
+
+
+label:    sent_2
+sentence: Here we resequence the genomes of four wild-derived and eleven classical strains .
+
+ppatt:
+	Here ?a resequence ?b
+		?a: we
+		?b: the genomes of four wild-derived and eleven classical
+
+

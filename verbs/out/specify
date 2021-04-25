@@ -1,0 +1,310 @@
+label:    sent_1
+sentence: Response to protocol review scenario : specify all medications .
+
+ppatt:
+
+
+
+label:    sent_2
+sentence: To specify the therapeutic strategy in such malformation .
+
+ppatt:
+	specify ?a
+		?a: the therapeutic strategy in such malformation
+
+
+label:    sent_3
+sentence: We abstracted detailed information from medical records to specify the necessary data elements . MADS-box transcription factors specify plant meristem identity . Divergent mechanisms specify chordate motoneurons : evidence from ascidians .
+
+ppatt:
+	?a abstracted ?b
+		?a: We
+		?b: detailed information from medical records to specify the necessary data elements
+	?a specify ?b
+		?a: detailed information from medical records
+		?b: the necessary data elements
+	?a specify ?b
+		?a: MADS-box transcription factors
+		?b: plant meristem identity
+	?a specify ?b ?c
+		?a: Divergent mechanisms
+		?b: chordate motoneurons
+		?c: evidence from ascidians
+
+
+label:    sent_4
+sentence: These effects specify the generalization of the information processed .
+
+ppatt:
+	?a specify ?b
+		?a: These effects
+		?b: the generalization of the information processed
+	?a processed
+		?a: the information
+
+
+label:    sent_5
+sentence: To specify risk factors of vascular complications at a predialysis stage of renal failure .
+
+ppatt:
+	specify ?a
+		?a: risk factors of vascular complications at a predialysis stage of renal failure
+
+
+label:    sent_6
+sentence: Animals use diverse strategies to specify tissue lineages during development .
+
+ppatt:
+	?a use ?b
+		?a: Animals
+		?b: diverse strategies to specify tissue lineages during development
+	?a specify ?b during ?c
+		?a: diverse strategies
+		?b: tissue lineages
+		?c: development
+
+
+label:    sent_7
+sentence: To specify long-term memory impairments in a group of patients selected with stringent criteria . EMX2 and PAX6 are expressed by cortical progenitors and specify area patterning .
+
+ppatt:
+	specify ?a ?b
+		?a: long-term memory impairments in a group of patients selected with stringent criteria
+		?b: EMX2
+	specify ?a ?b
+		?a: long-term memory impairments in a group of patients selected with stringent criteria
+		?b: PAX6
+	?a selected with ?b
+		?a: patients
+		?b: stringent criteria
+	?a are expressed by ?b
+		?a: EMX2
+		?b: cortical progenitors
+	?a are expressed by ?b
+		?a: PAX6
+		?b: cortical progenitors
+	?a specify ?b
+		?a: EMX2
+		?b: area patterning
+	?a specify ?b
+		?a: PAX6
+		?b: area patterning
+
+
+label:    sent_8
+sentence: Studies had to have >=500 patients and specify patient numerators and denominators .
+
+ppatt:
+	?a had to have ?b
+		?a: Studies
+		?b: >=500 patients
+	?a had to specify ?b
+		?a: Studies
+		?b: patient
+
+
+label:    sent_9
+sentence: Separate elements cause lineage restriction and specify boundaries of Hox-1.1 expression .
+
+ppatt:
+	?a cause ?b
+		?a: Separate elements
+		?b: lineage restriction
+	?a specify ?b
+		?a: Separate elements
+		?b: boundaries of Hox-1.1 expression
+
+
+label:    sent_10
+sentence: The cell cycle molecules that specify lineage commitment within the early pancreas are unknown .
+
+ppatt:
+	?a specify ?b
+		?a: The cell cycle molecules
+		?b: lineage commitment within the early pancreas
+	?a are unknown
+		?a: The cell cycle molecules that specify lineage commitment within the early pancreas
+
+
+label:    sent_11
+sentence: In doing so , we specify the quantitative evidence required to make informed decisions .
+
+ppatt:
+	In ?a so , ?b specify ?c
+		?a: doing
+		?b: we
+		?c: the quantitative evidence required to make informed decisions
+	?a required to make ?b
+		?a: the quantitative evidence
+		?b: informed decisions
+
+
+label:    sent_12
+sentence: Neonatal resuscitation guidelines do not specify the gas flow rate during mask ventilation .
+
+ppatt:
+	?a do not specify ?b during ?c
+		?a: Neonatal resuscitation guidelines
+		?b: the gas flow rate
+		?c: mask ventilation
+
+
+label:    sent_13
+sentence: Further research should specify strain-specific outcomes and determine optimal dosing schedules .
+
+ppatt:
+	?a should specify ?b
+		?a: Further research
+		?b: strain-specific outcomes
+	?a determine ?b
+		?a: Further research
+		?b: optimal dosing schedules
+
+
+label:    sent_14
+sentence: Several mutants were analyzed that specify altered ermC gene products and are deregulated .
+
+ppatt:
+	?a were analyzed ?b
+		?a: Several mutants
+		?b: SOMETHING := that specify altered ermC gene products
+	?a specify ?b
+		?a: that
+		?b: altered ermC gene products
+	?a are deregulated
+		?a: that
+
+
+label:    sent_15
+sentence: The authors specify the cause of the problems and offer recommendations for improvement .
+
+ppatt:
+	?a specify ?b
+		?a: The authors
+		?b: the cause of the problems
+	?a offer ?b
+		?a: The authors
+		?b: recommendations for improvement
+
+
+label:    sent_16
+sentence: Odd-skipped genes specify the signaling center that triggers retinogenesis in Drosophila .
+
+ppatt:
+	?a specify ?b
+		?a: Odd-skipped genes
+		?b: the signaling center that triggers retinogenesis in Drosophila
+	?a triggers ?b
+		?a: the signaling center
+		?b: retinogenesis in Drosophila
+
+
+label:    sent_17
+sentence: The results specify in what sense these caregivers find their work extremely stressful .
+
+ppatt:
+	?a specify ?b
+		?a: The results
+		?b: SOMETHING := in what sense these caregivers find their work extremely stressful
+	in ?a ?b ?c find ?d extremely stressful
+		?a: what
+		?b: sense
+		?c: these caregivers
+		?d: their work
+
+
+label:    sent_18
+sentence: Legislation however does not specify how long should be this period .
+
+ppatt:
+	?a however does not specify ?b
+		?a: Legislation
+		?b: SOMETHING := how long should be this period
+	how ?a should be this period
+		?a: long
+
+
+label:    sent_19
+sentence: More research is needed to specify and quantify the importance of the various barriers .
+
+ppatt:
+	?a is needed to specify ?b
+		?a: More research
+		?b: the importance of the various barriers
+	?a is needed to quantify
+		?a: More research
+
+
+label:    sent_20
+sentence: Future work needs to specify and test candidate mediators in clinical trials .
+
+ppatt:
+	?a needs to specify ?b in ?c
+		?a: Future work
+		?b: candidate mediators
+		?c: clinical trials
+	?a needs to test
+		?a: Future work
+
+
+label:    sent_21
+sentence: The ability to specify and maintain discrete cell fates is essential for development .
+
+ppatt:
+	?a specify ?b
+		?a: The ability
+		?b: discrete cell fates
+	?a maintain
+		?a: The ability
+	?a is essential for ?b
+		?a: The ability to specify and maintain discrete cell fates
+		?b: development
+
+
+label:    sent_22
+sentence: Apical and basolateral determinants specify and maintain membrane domains in epithelia .
+
+ppatt:
+	?a specify ?b
+		?a: Apical and basolateral determinants
+		?b: membrane domains in epithelia
+	?a maintain
+		?a: Apical and basolateral determinants
+
+
+label:    sent_23
+sentence: The ICF as a conceptual platform to specify and discuss health and health-related concepts .
+
+ppatt:
+	?a specify ?b
+		?a: a conceptual platform
+		?b: health and health-related concepts
+	discuss ?a
+		?a: health and health-related concepts
+
+
+label:    sent_24
+sentence: This in turn allows us to specify and to formulate experimental ideas .
+
+ppatt:
+	?a allows ?b to specify
+		?a: This in turn
+		?b: us
+	?a allows to to formulate ?b
+		?a: This in turn
+		?b: experimental ideas
+
+
+label:    sent_25
+sentence: Hox proteins specify segment identity during embryogenesis and have typical associated expression patterns .
+
+ppatt:
+	?a specify ?b during ?c
+		?a: Hox proteins
+		?b: segment identity
+		?c: embryogenesis
+	?a have ?b
+		?a: Hox proteins
+		?b: typical associated expression patterns
+
+

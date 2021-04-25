@@ -1,0 +1,284 @@
+label:    sent_1
+sentence: The tail-suspension ( SUS ) rat model was used to simulate weightlessness .
+
+ppatt:
+	?a is/are SUS
+		?a: tail-suspension
+	?a was used to simulate ?b
+		?a: The tail-suspension rat model
+		?b: weightlessness
+
+
+label:    sent_2
+sentence: Fluorescent microspheres were released into the AIIR to simulate infectious droplet nuclei .
+
+ppatt:
+	?a were released into ?b to simulate ?c
+		?a: Fluorescent microspheres
+		?b: the AIIR
+		?c: infectious droplet nuclei
+
+
+label:    sent_3
+sentence: We designed a bioreactor to simulate the mechanical properties of bladder .
+
+ppatt:
+	?a designed ?b
+		?a: We
+		?b: a bioreactor to simulate the mechanical properties of bladder
+	?a simulate ?b
+		?a: a bioreactor
+		?b: the mechanical properties of bladder
+
+
+label:    sent_4
+sentence: Monte Carlo techniques were used to simulate track segments of protons in water . ATP solutions were used to simulate input signals for investigating the muCBB .
+
+ppatt:
+	?a were used to simulate ?b
+		?a: Monte Carlo techniques
+		?b: track segments of protons in water
+	?a were used to simulate ?b
+		?a: ATP solutions
+		?b: input signals
+	?a investigating ?b
+		?a: input signals
+		?b: the muCBB
+
+
+label:    sent_5
+sentence: We apply this integrated model to simulate exercise-induced angiogenesis in skeletal muscle .
+
+ppatt:
+	?a apply ?b
+		?a: We
+		?b: this integrated model to simulate exercise-induced angiogenesis in skeletal muscle
+	?a simulate ?b
+		?a: this integrated model
+		?b: exercise-induced angiogenesis in skeletal muscle
+
+
+label:    sent_6
+sentence: This bioreactor can effectively simulate the physiological and mechanical properties of the bladder .
+
+ppatt:
+	?a can effectively simulate ?b
+		?a: This bioreactor
+		?b: physiological of the bladder
+	?a can effectively simulate ?b
+		?a: This bioreactor
+		?b: mechanical
+
+
+label:    sent_7
+sentence: A new model to simulate the elastic properties of mineralized collagen fibril .
+
+ppatt:
+	?a simulate ?b
+		?a: A new model
+		?b: the elastic properties of mineralized collagen fibril
+
+
+label:    sent_8
+sentence: Design and construction of a brain phantom to simulate neonatal MR images .
+
+ppatt:
+	?a simulate ?b
+		?a: Design of a brain phantom
+		?b: neonatal MR images
+	?a simulate ?b
+		?a: construction
+		?b: neonatal MR images
+
+
+label:    sent_9
+sentence: Test fields were designed to simulate errors and gave similar results .
+
+ppatt:
+	?a were designed to simulate ?b
+		?a: Test fields
+		?b: errors
+	?a gave ?b
+		?a: Test fields
+		?b: similar results
+
+
+label:    sent_10
+sentence: Here , we describe a deterministic numerical model to simulate puffs and trigger events .
+
+ppatt:
+	Here , ?a describe ?b
+		?a: we
+		?b: a deterministic numerical model to simulate puffs and trigger events
+	?a simulate ?b
+		?a: a deterministic numerical model
+		?b: puffs
+	trigger ?a
+		?a: events
+
+
+label:    sent_11
+sentence: The metaphyses flare and simulate rickets .
+
+ppatt:
+	simulate ?a
+		?a: rickets
+
+
+label:    sent_12
+sentence: We also simulate cuts through the image volume positioned at all possible section positions .
+
+ppatt:
+	?a also simulate ?b
+		?a: We
+		?b: cuts through the image volume positioned at all possible section positions
+	?a positioned at ?b
+		?a: the image volume
+		?b: all possible section positions
+
+
+label:    sent_13
+sentence: We simulate the growth of networks from day 1 to day 21 .
+
+ppatt:
+	?a simulate ?b
+		?a: We
+		?b: the growth of networks from day 1
+
+
+label:    sent_14
+sentence: Models using cigarette smoke inhalation might more accurately simulate nicotine exposure in smokers .
+
+ppatt:
+	?a using ?b
+		?a: Models
+		?b: cigarette smoke inhalation
+	?a might more accurately simulate ?b
+		?a: Models using cigarette smoke inhalation
+		?b: nicotine exposure in smokers
+
+
+label:    sent_15
+sentence: Cytomorphologically , histiocytes displaying phagocytosis can simulate tumor cells and need to be distinguished .
+
+ppatt:
+	?a displaying ?b
+		?a: histiocytes
+		?b: phagocytosis
+	Cytomorphologically , ?a can simulate ?b
+		?a: histiocytes displaying phagocytosis
+		?b: tumor cells
+	?a need to be distinguished
+		?a: histiocytes displaying phagocytosis
+
+
+label:    sent_16
+sentence: Realistic manikins simulate patients and help teach healthcare safely . VR simulators simulate the surgical environment and assess psychomotor skills according to predefined parameters .
+
+ppatt:
+	?a simulate ?b
+		?a: Realistic manikins
+		?b: patients
+	?a help teach ?b safely
+		?a: Realistic manikins
+		?b: healthcare
+	?a simulate ?b
+		?a: VR simulators
+		?b: the surgical environment
+	?a assess ?b according to ?c
+		?a: VR simulators
+		?b: psychomotor skills
+		?c: predefined parameters
+
+
+label:    sent_17
+sentence: Concurrently , the calculations used to simulate and interpret spectra have made major advances .
+
+ppatt:
+	?a used to simulate ?b
+		?a: the calculations
+		?b: spectra
+	?a used to interpret
+		?a: the calculations
+	Concurrently , ?a have made ?b
+		?a: the calculations used to simulate and interpret spectra
+		?b: major advances
+
+
+label:    sent_18
+sentence: The beam propagation method is used to simulate and analyze the device .
+
+ppatt:
+	?a is used to simulate ?b
+		?a: The beam propagation method
+		?b: the device
+	?a is used to analyze
+		?a: The beam propagation method
+
+
+label:    sent_19
+sentence: Using DTSA-II to simulate and interpret energy dispersive spectra from particles .
+
+ppatt:
+	Using ?a
+		?a: DTSA-II
+	simulate ?a
+		?a: energy dispersive spectra from particles
+	interpret ?a
+		?a: energy dispersive spectra from particles
+
+
+label:    sent_20
+sentence: At cystoscopy and on microscopic examination nephrogenic adenoma may simulate a neoplasm .
+
+ppatt:
+	At ?a may simulate ?b
+		?a: cystoscopy
+		?b: a neoplasm
+	At ?a may simulate ?b
+		?a: microscopic examination nephrogenic adenoma
+		?b: a neoplasm
+
+
+label:    sent_21
+sentence: It can cause reactive synovitis and simulate arthritis without periostitis .
+
+ppatt:
+	?a can cause ?b
+		?a: It
+		?b: reactive synovitis
+	?a simulate ?b without ?c
+		?a: It
+		?b: arthritis
+		?c: periostitis
+
+
+label:    sent_22
+sentence: As both factors are hard to simulate on Earth , present knowledge remains limited .
+
+ppatt:
+	?a are hard to simulate on ?b
+		?a: both factors
+		?b: Earth
+	?a remains limited
+		?a: present knowledge
+
+
+label:    sent_23
+sentence: Is it possible to simulate in the laboratory the situations one normally encounters ?
+
+ppatt:
+	Is ?a possible to simulate in ?b
+		?a: it
+		?b: the laboratory the situations
+
+
+label:    sent_24
+sentence: The texture of active foods was more difficult to simulate in the placebo food .
+
+ppatt:
+	?a was more difficult to simulate in ?b
+		?a: The texture of active foods
+		?b: the placebo food
+
+

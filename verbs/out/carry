@@ -1,0 +1,276 @@
+label:    sent_1
+sentence: Senescent males carry premutagenic lesions in sperm .
+
+ppatt:
+	?a carry ?b in ?c
+		?a: Senescent males
+		?b: premutagenic lesions
+		?c: sperm
+
+
+label:    sent_2
+sentence: Abruptio placentae carry significantly higher perinatal mortality and near-miss morbidity than placenta previa .
+
+ppatt:
+	?a carry ?b
+		?a: Abruptio placentae
+		?b: significantly higher perinatal mortality than placenta previa
+	?a carry ?b
+		?a: Abruptio placentae
+		?b: near-miss morbidity
+
+
+label:    sent_3
+sentence: What are the acoustical cues that carry these different types of vocal information ?
+
+ppatt:
+	?a are the acoustical cues
+		?a: What
+	?a carry ?b
+		?a: the acoustical cues
+		?b: these different types of vocal information
+
+
+label:    sent_4
+sentence: The surgical treatment of Chiari I malformation is to carry out a suboccipital decompression .
+
+ppatt:
+	?a is to carry out ?b
+		?a: The surgical treatment of Chiari I malformation
+		?b: a suboccipital decompression
+
+
+label:    sent_5
+sentence: Smaller SAAs ( <2 cm ) grow slowly and carry a negligible rupture risk . Two donors ' spouses ( 7.7 % ) failed to carry out domestic responsibilities .
+
+ppatt:
+	?a is/are <2 cm
+		?a: Smaller SAAs
+	?a grow slowly
+		?a: Smaller SAAs
+	?a carry ?b
+		?a: Smaller SAAs
+		?b: a negligible rupture risk
+	?a is/are 7.7 %
+		?a: Two donors ' spouses
+	?a failed to carry ?b
+		?a: Two donors ' spouses
+		?b: out domestic responsibilities
+
+
+label:    sent_6
+sentence: In the situation of mild or moderate liver damage , hepatocytes carry out regeneration . PJS patients carry a high cumulative intussusception risk at young age .
+
+ppatt:
+	In ?a , ?b carry out ?c
+		?a: the situation of mild or moderate liver damage
+		?b: hepatocytes
+		?c: regeneration
+	?a carry ?b at ?c
+		?a: PJS patients
+		?b: a high cumulative intussusception risk
+		?c: young age
+
+
+label:    sent_7
+sentence: Among the 53 normal patients , 18 carry TG/GG genotype .
+
+ppatt:
+	Among ?a , ?b carry ?c
+		?a: the 53 normal patients
+		?b: 18
+		?c: TG/GG genotype
+
+
+label:    sent_8
+sentence: The robot is designed to carry multiple tool tips in a single end-effector arm . It is possible to carry out this procedure in out-patient clinic .
+
+ppatt:
+	?a is designed to carry ?b in ?c
+		?a: The robot
+		?b: multiple tool tips
+		?c: a single end-effector arm
+	?a is possible to carry out ?b
+		?a: It
+		?b: this procedure in out-patient clinic
+
+
+label:    sent_9
+sentence: Each hospital had to carry out the survey within 2 weeks . ( Mexican bean beetle ) could not carry out the next molting and died .
+
+ppatt:
+	?a had to carry out ?b within ?c
+		?a: Each hospital
+		?b: the survey
+		?c: 2 weeks
+	?a is/are bean beetle
+		?a: the survey
+	?a could not carry out ?b
+		?a: Each hospital
+		?b: the next molting
+	?a died
+		?a: Each hospital
+
+
+label:    sent_10
+sentence: Many microbes carry TLR antigens , and microbial infections can lead to TLR activation .
+
+ppatt:
+	?a carry ?b
+		?a: Many microbes
+		?b: TLR antigens
+	?a can lead to ?b
+		?a: microbial infections
+		?b: TLR activation
+
+
+label:    sent_11
+sentence: Combinations of autoimmune disorders carry a worse prognosis and are often difficult to diagnose .
+
+ppatt:
+	?a carry ?b
+		?a: Combinations of autoimmune disorders
+		?b: a worse prognosis
+
+
+label:    sent_12
+sentence: Walk closer or carry big glass ? Vein lacerations in awkward locations are difficult to repair and carry high mortality .
+
+ppatt:
+	Walk ?a ?b
+		?a: closer
+		?b: big glass ? Vein lacerations in awkward locations
+	Walk ?a ?b
+		?a: carry
+		?b: big glass ? Vein lacerations in awkward locations
+	?a are difficult to repair ?b
+		?a: big glass ? Vein lacerations in awkward locations
+		?b: high mortality
+	?a are difficult to carry
+		?a: big glass ? Vein lacerations in awkward locations
+
+
+label:    sent_13
+sentence: Most of these disorders are B-cell in origin and generally carry poor prognosis .
+
+ppatt:
+	?a are B-cell in ?b
+		?a: Most of these disorders
+		?b: origin
+	?a generally carry ?b
+		?a: Most of these disorders
+		?b: poor prognosis
+
+
+label:    sent_14
+sentence: However , the catalytic reaction can not effectively carry out with one-base mismatched DNA target .
+
+ppatt:
+	However , ?a can not effectively carry out with ?b
+		?a: the catalytic reaction
+		?b: one-base mismatched DNA target
+
+
+label:    sent_15
+sentence: That which we carry with us . It is therefore important to carry out clinical tests of As exposure .
+
+ppatt:
+	?a is therefore important to carry out ?b
+		?a: It
+		?b: clinical tests of As exposure
+
+
+label:    sent_16
+sentence: We carry out a coarse-grained molecular dynamics simulation of phospholipid vesicles with transmembrane proteins .
+
+ppatt:
+	?a carry out ?b
+		?a: We
+		?b: a coarse-grained molecular dynamics simulation of phospholipid vesicles with transmembrane proteins
+
+
+label:    sent_17
+sentence: Vaginal hysterectomy is the method of choice for gynaecologists who carry out hysterectomies .
+
+ppatt:
+	?a is the method of ?b
+		?a: Vaginal hysterectomy
+		?b: choice for gynaecologists who carry out hysterectomies
+	?a carry out ?b
+		?a: gynaecologists
+		?b: hysterectomies
+
+
+label:    sent_18
+sentence: This effect did not carry over to the next growing season .
+
+ppatt:
+	?a did not carry over to ?b
+		?a: This effect
+		?b: the next growing season
+
+
+label:    sent_19
+sentence: Patients almost always carry out compulsions to minimize their anxiety/distress associated with the obsessions .
+
+ppatt:
+	?a almost always carry out ?b to minimize ?c
+		?a: Patients
+		?b: compulsions
+		?c: their anxiety/distress associated with the obsessions
+	?a associated with ?b
+		?a: their anxiety/distress
+		?b: the obsessions
+
+
+label:    sent_20
+sentence: Such temperature-independent , drug resistant clones probably carry pTH10 integrated into the host chromosome . All these molecules carry the specificity H-2.28 .
+
+ppatt:
+	?a probably carry ?b
+		?a: Such temperature-independent , clones
+		?b: pTH10 integrated into the host chromosome
+	?a integrated into ?b
+		?a: pTH10
+		?b: the host chromosome
+	?a carry ?b
+		?a: All these molecules
+		?b: the specificity H-2.28
+
+
+label:    sent_21
+sentence: In pre-meiotic stages and shortly after meiosis , histones carry multiple modifications .
+
+ppatt:
+	In ?a , ?b carry ?c
+		?a: pre-meiotic stages
+		?b: histones
+		?c: multiple modifications
+	In ?a , ?b carry ?c
+		?a: shortly meiosis
+		?b: histones
+		?c: multiple modifications
+
+
+label:    sent_22
+sentence: In the hypergravitation period cardiomyocyte changes carry destructive character or are regenerative processes manifestation .
+
+ppatt:
+	In ?a ?b carry ?c
+		?a: the hypergravitation period
+		?b: cardiomyocyte changes
+		?c: destructive character
+
+
+label:    sent_23
+sentence: Most humans carry the bacteria , but in highly different numbers .
+
+ppatt:
+	?a carry ?b
+		?a: Most humans
+		?b: the bacteria
+	?a carry ?b
+		?a: Most humans
+		?b: highly different numbers
+
+

@@ -1,0 +1,292 @@
+label:    sent_1
+sentence: "
+
+ppatt:
+
+
+
+label:    sent_2
+sentence: Midwives must have powers to advise commissioning boards " . The purpose of this SAP was to advise the U.S .
+
+ppatt:
+	?a must have ?b to advise ?c ?d
+		?a: Midwives
+		?b: powers
+		?c: commissioning boards
+		?d: "
+	?a was to advise ?b
+		?a: The purpose of this SAP
+		?b: the U.S
+
+
+label:    sent_3
+sentence: Medical doctors have a responsibility to know the facts and to advise their patients .
+
+ppatt:
+	?a have ?b
+		?a: Medical doctors
+		?b: a responsibility to know the facts and to advise their patients
+	?a know ?b
+		?a: a responsibility
+		?b: the facts
+	advise ?a
+		?a: their patients
+
+
+label:    sent_4
+sentence: We strongly advise prophylactic reoperation of recipients of TT valves .
+
+ppatt:
+	?a strongly advise ?b
+		?a: We
+		?b: prophylactic reoperation of recipients of TT valves
+
+
+label:    sent_5
+sentence: Current guidelines for the healthy population advise restriction of sucrose intake . [How to advise an infertile couple ] . Should midwives advise women to avoid alcohol completely during pregnancy ? International guidelines , however , advise starting with an atypical ( second-generation ) antipsychotic .
+
+ppatt:
+	?a advise ?b to advise ?c
+		?a: Current guidelines for the healthy population
+		?b: restriction of sucrose intake . [How
+		?c: an infertile couple ]
+	Should ?a advise ?b to avoid ?c completely during ?d
+		?a: midwives
+		?b: women
+		?c: alcohol
+		?d: pregnancy
+	?a however , advise starting with ?b
+		?a: International guidelines
+		?b: an atypical antipsychotic
+
+
+label:    sent_6
+sentence: We advise hemichannel researchers to proceed with caution and an open mind .
+
+ppatt:
+	?a advise ?b to proceed with ?c
+		?a: We
+		?b: hemichannel researchers
+		?c: caution
+	?a advise ?b to proceed with ?c
+		?a: We
+		?b: hemichannel researchers
+		?c: an open mind
+
+
+label:    sent_7
+sentence: For these particles TEM results advise a rather flat lenticular morphology .
+
+ppatt:
+	For ?a ?b advise ?c
+		?a: these particles
+		?b: TEM results
+		?c: a rather flat lenticular morphology
+
+
+label:    sent_8
+sentence: More recent recommendations advise moderation in the use of alcohol .
+
+ppatt:
+	?a advise ?b in ?c
+		?a: More recent recommendations
+		?b: moderation
+		?c: the use of alcohol
+
+
+label:    sent_9
+sentence: Pharmacists should advise patients on the long-term complications of chronic analgesic use .
+
+ppatt:
+	?a should advise ?b
+		?a: Pharmacists
+		?b: patients on the long-term complications of chronic analgesic use
+
+
+label:    sent_10
+sentence: We strongly advise against the use of anterior chamber iris implants for cosmetic indications .
+
+ppatt:
+	?a strongly advise against ?b
+		?a: We
+		?b: the use of anterior chamber iris implants for cosmetic indications
+
+
+label:    sent_11
+sentence: For all other languages we advise to translate the original version of the NDI .
+
+ppatt:
+	For ?a ?b advise to translate ?c
+		?a: all other languages
+		?b: we
+		?c: the original version of the NDI
+
+
+label:    sent_12
+sentence: Most teams advise against weight bearing for 6 weeks to 3 months .
+
+ppatt:
+	?a advise against ?b
+		?a: Most teams
+		?b: weight bearing for 6 weeks to 3 months
+	?a bearing for ?b to ?c
+		?a: weight
+		?b: 6 weeks
+		?c: 3 months
+
+
+label:    sent_13
+sentence: Chiropractic interns can and should be encouraged to advise smokers about cessation .
+
+ppatt:
+	?a can should be encouraged to advise ?b about ?c
+		?a: Chiropractic interns
+		?b: smokers
+		?c: cessation
+
+
+label:    sent_14
+sentence: US firm to advise Scottish health service on quality improvement .
+
+ppatt:
+	?a firm to advise ?b on ?c
+		?a: US
+		?b: Scottish health service
+		?c: quality improvement
+
+
+label:    sent_15
+sentence: Only 61 % were confident of their ability to advise such patients on pregnancy .
+
+ppatt:
+	?a were confident of ?b
+		?a: Only 61 %
+		?b: their ability to advise such patients on pregnancy
+	?a advise ?b
+		?a: their ability
+		?b: such patients on pregnancy
+
+
+label:    sent_16
+sentence: There is insufficient evidence to advise for or against the use of CAS .
+
+ppatt:
+	There is ?a
+		?a: insufficient evidence to advise for or against the use of CAS
+	?a advise against ?b
+		?a: insufficient evidence
+		?b: for the use of CAS
+
+
+label:    sent_17
+sentence: The legal consequences of neglect to advise in cases of AIDS is studied .
+
+ppatt:
+	?a advise in ?b
+		?a: The legal consequences of neglect
+		?b: cases of AIDS
+	?a is studied
+		?a: The legal consequences of neglect to advise in cases of AIDS
+
+
+label:    sent_18
+sentence: European embryology experts offer to advise on ethics of cloning .
+
+ppatt:
+	?a offer to advise on ?b
+		?a: European embryology experts
+		?b: ethics of cloning
+
+
+label:    sent_19
+sentence: To alert and advise policy makers about electronic cigarettes and their potential hazards .
+
+ppatt:
+	alert ?a
+		?a: policy makers about electronic cigarettes and their potential hazards
+	advise ?a
+		?a: policy makers about electronic cigarettes and their potential hazards
+
+
+label:    sent_20
+sentence: You are debating whether the expense is worthwhile and advise your hospital administration accordingly .
+
+ppatt:
+	?a are debating ?b
+		?a: You
+		?b: SOMETHING := the expense is worthwhile
+	?a is worthwhile
+		?a: the expense
+	?a advise ?b accordingly
+		?a: the expense
+		?b: your hospital administration
+
+
+label:    sent_21
+sentence: Clinicians should be aware of its risks and advise their patients accordingly .
+
+ppatt:
+	?a should be aware of ?b
+		?a: Clinicians
+		?b: its risks
+	?a advise ?b accordingly
+		?a: Clinicians
+		?b: their patients
+
+
+label:    sent_22
+sentence: How should I advise her and should she switch to formula feeding ? Our Health Systems Agency-how and why we advise it . The majority advise breast-feeding and continue AM postpartum .
+
+ppatt:
+	How should I advise ?a ?b
+		?a: her
+		?b: Our Health Systems
+	should ?a switch to ?b
+		?a: she
+		?b: formula feeding
+	why ?a advise ?b
+		?a: we
+		?b: it
+	?a ?b advise ?c
+		?a: Our Health Systems
+		?b: The majority
+		?c: breast-feeding
+	?a continue ?b
+		?a: Our Health Systems
+		?b: AM postpartum
+
+
+label:    sent_23
+sentence: How to advise and refer inpatients who smoke . Ask , advise , assist : pediatricians and passive smoke exposure .
+
+ppatt:
+	How to advise ?a
+		?a: inpatients who smoke . Ask
+	refer ?a
+		?a: inpatients who smoke . Ask
+	?a ?b Ask
+		?a: inpatients
+		?b: smoke
+	advise ?a
+		?a: pediatricians
+	advise ?a
+		?a: passive smoke exposure
+	assist ?a
+		?a: pediatricians
+	assist ?a
+		?a: passive smoke exposure
+
+
+label:    sent_24
+sentence: In order to advise and diagnose it is essential to clarify the consanguinity state .
+
+ppatt:
+	order to advise ?a
+		?a: it
+	diagnose ?a
+		?a: it
+	?a is essential to clarify ?b
+		?a: it
+		?b: the consanguinity state
+
+

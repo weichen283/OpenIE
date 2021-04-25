@@ -1,0 +1,241 @@
+label:    sent_1
+sentence: Results confirmed that the filter can visualize and nondestructively inspect the foundation distribution .
+
+ppatt:
+	?a confirmed ?b
+		?a: Results
+		?b: SOMETHING := the filter can visualize
+	?a can visualize
+		?a: the filter
+	?a nondestructively inspect ?b
+		?a: the filter
+		?b: the foundation distribution
+
+
+label:    sent_2
+sentence: Results confirm that the proposed filter could visualize and nondestructively inspect the foundation distributions .
+
+ppatt:
+	?a confirm ?b
+		?a: Results
+		?b: SOMETHING := the proposed filter could visualize
+	?a could visualize
+		?a: the proposed filter
+	?a nondestructively inspect ?b
+		?a: the proposed filter
+		?b: the foundation distributions
+
+
+label:    sent_3
+sentence: Blue light as well as aeration was applied to inspect the regarding effects .
+
+ppatt:
+	?a was applied to inspect ?b
+		?a: Blue light
+		?b: the regarding effects
+	?a was applied to inspect ?b
+		?a: aeration
+		?b: the regarding effects
+
+
+label:    sent_4
+sentence: A remote viewing system is available to inspect experiments via the internet .
+
+ppatt:
+	?a is available to inspect ?b via ?c
+		?a: A remote viewing system
+		?b: experiments
+		?c: the internet
+
+
+label:    sent_5
+sentence: It is advisable to inspect commercial AFMs before constructing one from scratch .
+
+ppatt:
+	?a is advisable to inspect ?b
+		?a: It
+		?b: commercial AFMs
+	?a constructing ?b
+		?a: It
+		?b: one from scratch
+
+
+label:    sent_6
+sentence: It is advisable to inspect all PVs during the AF recurrence .
+
+ppatt:
+	?a is advisable to inspect ?b during ?c
+		?a: It
+		?b: all PVs
+		?c: the AF recurrence
+
+
+label:    sent_7
+sentence: Medical journals should inspect ethical review more critically . FAA will inspect air ambulances .
+
+ppatt:
+	?a should inspect ?b more critically
+		?a: Medical journals
+		?b: ethical review
+	?a will inspect ?b
+		?a: FAA
+		?b: air ambulances
+
+
+label:    sent_8
+sentence: We recommend that LASIK surgeons inspect the actual FT when using microkeratome .
+
+ppatt:
+	?a recommend ?b
+		?a: We
+		?b: SOMETHING := LASIK surgeons inspect the actual FT when using microkeratome
+	?a inspect ?b
+		?a: LASIK surgeons
+		?b: the actual FT
+	?a when using ?b
+		?a: LASIK surgeons
+		?b: microkeratome
+
+
+label:    sent_9
+sentence: Clinical laboratory consultants inspect laboratories ' internal quality control and compliance with regulatory standards .
+
+ppatt:
+	?a inspect ' ?b
+		?a: Clinical laboratory consultants
+		?b: laboratories internal quality control
+	?a inspect ' ?b
+		?a: Clinical laboratory consultants
+		?b: compliance with regulatory standards
+
+
+label:    sent_10
+sentence: To inspect the nail matrix and identify what causes nail plate deformities .
+
+ppatt:
+	inspect ?a
+		?a: the nail matrix
+	identify ?a
+		?a: SOMETHING := what causes nail plate deformities
+	?a causes ?b
+		?a: what
+		?b: nail plate deformities
+
+
+label:    sent_11
+sentence: The duty to inspect the skin and counsel those at risk to develop melanoma .
+
+ppatt:
+	?a inspect ?b
+		?a: The duty
+		?b: the skin
+	counsel ?a to develop ?b
+		?a: those at risk
+		?b: melanoma
+
+
+label:    sent_12
+sentence: Face your fears : cleaning gobies inspect predators despite being stressed by them .
+
+ppatt:
+	?a ?b inspect ?c
+		?a: Face your fears
+		?b: cleaning gobies
+		?c: predators
+	?a being stressed by ?b
+		?a: Face your fears
+		?b: them
+
+
+label:    sent_13
+sentence: Surgeons should inspect the LV outflow tract at AVR .
+
+ppatt:
+	?a should inspect ?b at ?c
+		?a: Surgeons
+		?b: the LV outflow tract
+		?c: AVR
+
+
+label:    sent_14
+sentence: We also inspect the predictive performance at the tree 's leaves . Many species approach , inspect and signal towards their predators .
+
+ppatt:
+	?a also inspect ?b
+		?a: We
+		?b: the predictive performance at the tree 's leaves
+	?a inspect towards ?b
+		?a: Many species approach
+		?b: their predators
+
+
+label:    sent_15
+sentence: From the beginning the gynecologist could only palpate and inspect .
+
+ppatt:
+	From ?a could only palpate
+		?a: the beginning the gynecologist
+	From ?a inspect
+		?a: the beginning the gynecologist
+
+
+label:    sent_16
+sentence: Ground-glass opacities are typically difficult to inspect and to palpate during video-assisted thoracic surgery .
+
+ppatt:
+	?a are typically difficult to inspect to ?b during ?c
+		?a: Ground-glass opacities
+		?b: palpate
+		?c: video-assisted thoracic surgery
+
+
+label:    sent_17
+sentence: Radiologists inspect CT scans and record their observations in reports to communicate with physicians . HIMA : register independent service organizations and inspect only for cause .
+
+ppatt:
+	?a inspect ?b
+		?a: Radiologists
+		?b: CT scans
+	?a record ?b in ?c
+		?a: Radiologists
+		?b: their observations
+		?c: reports to communicate with physicians HIMA
+	?a communicate with ?b ?c
+		?a: reports
+		?b: physicians
+		?c: HIMA
+	?a register ?b
+		?a: Radiologists
+		?b: independent service organizations
+	?a inspect for ?b
+		?a: Radiologists
+		?b: only cause
+
+
+label:    sent_18
+sentence: Light microscopy was used to inspect for inherent structures .
+
+ppatt:
+	?a was used to inspect for ?b
+		?a: Light microscopy
+		?b: inherent structures
+
+
+label:    sent_19
+sentence: Before and after nasal mucosa contraction by inspect .
+
+ppatt:
+
+
+
+label:    sent_20
+sentence: Sports centres with climbing walls should regularly inspect and repair their safety equipment .
+
+ppatt:
+	?a should regularly inspect ?b
+		?a: Sports centres with climbing walls
+		?b: their safety equipment
+	?a repair
+		?a: Sports centres with climbing walls
+
+

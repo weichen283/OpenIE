@@ -1,0 +1,302 @@
+label:    sent_1
+sentence: Exposure of CVS was obtained and evaluated by aid of a 2-mm device .
+
+ppatt:
+	?a was obtained
+		?a: Exposure of CVS
+	?a evaluated by ?b
+		?a: Exposure of CVS
+		?b: aid of a 2-mm device
+
+
+label:    sent_2
+sentence: Many diagnostic scoring systems have been developed to aid with diagnosis .
+
+ppatt:
+	?a have been developed to aid with ?b
+		?a: Many diagnostic scoring systems
+		?b: diagnosis
+
+
+label:    sent_3
+sentence: A variety of laboratory and radiographic tools are available to aid in the diagnosis .
+
+ppatt:
+	?a are available to aid in ?b
+		?a: A variety of laboratory and radiographic
+		?b: the diagnosis
+
+
+label:    sent_4
+sentence: Finally , computational approaches aid in predicting and understanding receptor behavior .
+
+ppatt:
+	Finally , ?a aid
+		?a: computational approaches
+	?a predicting ?b
+		?a: computational approaches
+		?b: receptor behavior
+	?a understanding
+		?a: computational approaches
+
+
+label:    sent_5
+sentence: Recognizing the features of FNH will aid in diagnosis and appropriate management .
+
+ppatt:
+	Recognizing ?a
+		?a: the features of FNH
+	?a will aid in ?b
+		?a: SOMETHING := Recognizing the features of FNH
+		?b: diagnosis
+	?a will aid in ?b
+		?a: SOMETHING := Recognizing the features of FNH
+		?b: appropriate management
+
+
+label:    sent_6
+sentence: OCT interpretation of macular lesions can aid in diagnosis and management .
+
+ppatt:
+	?a can aid in ?b
+		?a: OCT interpretation of macular lesions
+		?b: diagnosis
+	?a can aid in ?b
+		?a: OCT interpretation of macular lesions
+		?b: management
+
+
+label:    sent_7
+sentence: Previous strategies to aid their development have been described to aid their formation .
+
+ppatt:
+	?a aid ?b
+		?a: Previous strategies
+		?b: their development
+	?a have been described to aid ?b
+		?a: Previous strategies to aid their development
+		?b: their formation
+
+
+label:    sent_8
+sentence: To aid evolutionary studies and species distinction , molecular techniques are often used .
+
+ppatt:
+	aid ?a ?b
+		?a: evolutionary studies
+		?b: molecular techniques
+	aid ?a ?b
+		?a: species distinction
+		?b: molecular techniques
+	?a are often used
+		?a: molecular techniques
+
+
+label:    sent_9
+sentence: Formal structures to aid the physician have been developed in Australia and New Zealand . Sleep aid use during and following breast cancer adjuvant chemotherapy .
+
+ppatt:
+	?a aid ?b
+		?a: Formal structures
+		?b: the physician
+	?a have been developed in ?b
+		?a: Formal structures to aid the physician
+		?b: Australia
+	?a have been developed in ?b
+		?a: Formal structures to aid the physician
+		?b: New
+	?a have been developed in ?b
+		?a: Formal structures to aid the physician
+		?b: Zealand
+	?a aid ?b following ?c
+		?a: Sleep
+		?b: use
+		?c: during breast cancer adjuvant chemotherapy
+
+
+label:    sent_10
+sentence: Clinical evaluation of a new hearing aid anti-cardioid directivity pattern .
+
+ppatt:
+	?a aid ?b
+		?a: Clinical evaluation of a new hearing
+		?b: anti-cardioid directivity pattern
+
+
+label:    sent_11
+sentence: Dentists wanted concise , timely evidence-based guidance to aid their management of patients .
+
+ppatt:
+	?a wanted ?b to aid ?c
+		?a: Dentists
+		?b: concise , guidance
+		?c: their management of patients
+
+
+label:    sent_12
+sentence: We use animal models , particularly mice , to aid us in these studies .
+
+ppatt:
+	?a use ?b
+		?a: We
+		?b: animal models
+	?a is/are particularly mice
+		?a: animal models
+	?a aid ?b in ?c
+		?a: We
+		?b: us
+		?c: these studies
+
+
+label:    sent_13
+sentence: Results were used to aid institutional outbreak investigation by identifying clusters of NAP1/027 .
+
+ppatt:
+	?a were used to aid ?b
+		?a: Results
+		?b: institutional outbreak investigation
+	?a identifying ?b
+		?a: Results
+		?b: clusters of NAP1/027
+
+
+label:    sent_14
+sentence: BTX may be used to aid healing after hemorrhoidectomy .
+
+ppatt:
+	?a may be used to aid ?b after ?c
+		?a: BTX
+		?b: healing
+		?c: hemorrhoidectomy
+
+
+label:    sent_15
+sentence: These key findings may aid researchers in the development of other oral formulations .
+
+ppatt:
+	?a may aid ?b in ?c
+		?a: These key findings
+		?b: researchers
+		?c: the development of other oral formulations
+
+
+label:    sent_16
+sentence: Refined exercise testing can aid DNA-based diagnosis in muscle channelopathies .
+
+ppatt:
+	?a can aid ?b
+		?a: Refined exercise testing
+		?b: DNA-based diagnosis in muscle channelopathies
+
+
+label:    sent_17
+sentence: Nomograms to aid fluid resuscitation in acute burns .
+
+ppatt:
+	?a aid ?b
+		?a: Nomograms
+		?b: fluid resuscitation in acute burns
+
+
+label:    sent_18
+sentence: The ocular manifestations are usually trivial , but greatly aid in the diagnosis .
+
+ppatt:
+	?a are usually trivial
+		?a: The ocular manifestations
+	?a greatly aid in ?b
+		?a: The ocular manifestations
+		?b: the diagnosis
+
+
+label:    sent_19
+sentence: Game-based assessment of first aid and resuscitation skills . [ " Fight the addicts " or aid in living ? ] . The headache history outlined will aid in headache classification and screen for ominous causes .
+
+ppatt:
+	?a ?b Fight ?c
+		?a: Game-based assessment of first aid and resuscitation skills
+		?b: "
+		?c: the addicts
+	?a aid in ?b
+		?a: Game-based assessment of first aid and resuscitation skills
+		?b: living ? ]
+	?a outlined
+		?a: The headache history
+	?a will aid in ?b
+		?a: The headache history outlined
+		?b: headache classification
+	?a screen for ?b
+		?a: The headache history outlined
+		?b: ominous causes
+
+
+label:    sent_20
+sentence: The presence of headache may aid in or hinder diagnosis .
+
+ppatt:
+	?a may aid ?b ?c
+		?a: The presence of headache
+		?b: in
+		?c: diagnosis
+	?a may aid ?b ?c
+		?a: The presence of headache
+		?b: hinder
+		?c: diagnosis
+
+
+label:    sent_21
+sentence: CFI precursor could aid in the diagnosis and indicate the advancement of gastric cancer .
+
+ppatt:
+	?a could aid in ?b
+		?a: CFI precursor
+		?b: the diagnosis
+	?a indicate ?b
+		?a: CFI precursor
+		?b: the advancement of gastric cancer
+
+
+label:    sent_22
+sentence: Surgery for the bone-anchored hearing aid . Mental health first aid : a " radical efficiency " in health promotion . ( 3 ) Mutual aid .
+
+ppatt:
+
+
+
+label:    sent_23
+sentence: They provided psychological first aid , brief psychotherapy and referral for severe patients .
+
+ppatt:
+	?a provided ?b
+		?a: They
+		?b: psychological first aid , for severe patients
+	?a provided ?b
+		?a: They
+		?b: brief psychotherapy
+	?a provided ?b
+		?a: They
+		?b: referral
+
+
+label:    sent_24
+sentence: Harness suspension and first aid management : development of an evidence-based guideline .
+
+ppatt:
+	Harness ?a
+		?a: suspension
+	first aid ?a
+		?a: management
+
+
+label:    sent_25
+sentence: Mitochondrial dysfunction contributes to a number of human disorders and may aid cancer progression .
+
+ppatt:
+	?a contributes to ?b
+		?a: Mitochondrial dysfunction
+		?b: a number of human disorders
+	?a may aid ?b
+		?a: Mitochondrial dysfunction
+		?b: cancer progression
+
+

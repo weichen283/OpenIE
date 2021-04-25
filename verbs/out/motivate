@@ -1,0 +1,343 @@
+label:    sent_1
+sentence: Therefore , women may have evolved psychological mechanisms that motivate rape avoidance behaviors .
+
+ppatt:
+	Therefore , ?a may have evolved ?b
+		?a: women
+		?b: psychological mechanisms that motivate rape avoidance behaviors
+	?a motivate ?b
+		?a: psychological mechanisms
+		?b: rape avoidance behaviors
+
+
+label:    sent_2
+sentence: This article reports the factors that motivate this behavior .
+
+ppatt:
+	?a reports ?b
+		?a: This article
+		?b: the factors that motivate this behavior
+	?a motivate ?b
+		?a: the factors
+		?b: this behavior
+
+
+label:    sent_3
+sentence: Perceived risk may then be used to motivate preventive health behaviours .
+
+ppatt:
+	?a may then be used to motivate ?b
+		?a: Perceived risk
+		?b: preventive health behaviours
+
+
+label:    sent_4
+sentence: These problems motivate the search for new treatment strategies .
+
+ppatt:
+	?a motivate ?b
+		?a: These problems
+		?b: the search for new treatment strategies
+
+
+label:    sent_5
+sentence: The results motivate design strategies for engineering components that can reliably self-assemble .
+
+ppatt:
+	?a motivate ?b
+		?a: The results
+		?b: design strategies for engineering components that can reliably self-assemble
+	?a can reliably self-assemble
+		?a: engineering components
+
+
+label:    sent_6
+sentence: Moral elevation consists of a suite of responses that motivate prosocial action tendencies .
+
+ppatt:
+	?a consists of ?b
+		?a: Moral elevation
+		?b: a suite of responses that motivate prosocial action tendencies
+	?a motivate ?b
+		?a: responses
+		?b: prosocial action tendencies
+
+
+label:    sent_7
+sentence: This report may motivate other health authorities to initiate CRC screening campaigns .
+
+ppatt:
+	?a may motivate ?b to initiate ?c
+		?a: This report
+		?b: other health authorities
+		?c: CRC screening campaigns
+
+
+label:    sent_8
+sentence: The diagnosis of cancer can motivate survivors to alter their lifestyle habits .
+
+ppatt:
+	?a can motivate ?b to alter ?c
+		?a: The diagnosis of cancer
+		?b: survivors
+		?c: their lifestyle habits
+
+
+label:    sent_9
+sentence: Psychiatrists and caregivers should motivate patients to take advantage of such offers .
+
+ppatt:
+	?a should motivate ?b to take ?c ?d
+		?a: Psychiatrists
+		?b: patients
+		?c: advantage of such
+		?d: SOMETHING := offers
+	?a should motivate ?b to take ?c ?d
+		?a: caregivers
+		?b: patients
+		?c: advantage of such
+		?d: SOMETHING := offers
+	?a offers
+		?a: Psychiatrists
+	?a offers
+		?a: caregivers
+
+
+label:    sent_10
+sentence: A real EST data set is used to motivate and illustrate the proposed method .
+
+ppatt:
+	?a is used to motivate ?b
+		?a: A real EST data set
+		?b: the proposed method
+	?a is used to illustrate
+		?a: A real EST data set
+
+
+label:    sent_11
+sentence: Mobile phones have the potential to motivate and educate obese children as well .
+
+ppatt:
+	?a have ?b
+		?a: Mobile phones
+		?b: the potential to motivate and educate obese children as well
+	?a motivate ?b
+		?a: the potential
+		?b: obese children
+	educate ?a as well
+		?a: obese children
+
+
+label:    sent_12
+sentence: To motivate and encourage individuals to assume responsibility for their own oral health .
+
+ppatt:
+	motivate ?a
+		?a: individuals
+	encourage ?a
+		?a: individuals
+	assume ?a
+		?a: responsibility for their own oral health
+
+
+label:    sent_13
+sentence: These findings should motivate counselors to deal with sexually abused children .
+
+ppatt:
+	?a should motivate ?b to deal with ?c
+		?a: These findings
+		?b: counselors
+		?c: sexually abused children
+
+
+label:    sent_14
+sentence: It is unknown whether SMBG can motivate adherence to dietary recommendations .
+
+ppatt:
+	?a is unknown ?b
+		?a: It
+		?b: SOMETHING := SMBG can motivate adherence to dietary recommendations
+	?a can motivate ?b
+		?a: SMBG
+		?b: adherence to dietary recommendations
+
+
+label:    sent_15
+sentence: Factors that motivate physician faculty members in a medical school to teach CME courses .
+
+ppatt:
+	?a motivate ?b in ?c to teach ?d
+		?a: Factors
+		?b: physician faculty members
+		?c: a medical school
+		?d: CME courses
+
+
+label:    sent_16
+sentence: To motivate healthcare professionals , with a focus on improving hand hygiene compliance .
+
+ppatt:
+	motivate ?a , with ?b
+		?a: healthcare professionals
+		?b: a focus on improving hand hygiene compliance
+	?a improving ?b
+		?a: a focus
+		?b: hand hygiene compliance
+
+
+label:    sent_17
+sentence: A four-session behaviour-based protocol was developed to motivate self-efficacy through illness management skills .
+
+ppatt:
+	?a was developed to motivate ?b through ?c
+		?a: A four-session behaviour-based protocol
+		?b: self-efficacy
+		?c: illness management skills
+
+
+label:    sent_18
+sentence: However , Pavlovian cues were completely unable to motivate lever pressing in mutant mice .
+
+ppatt:
+	However , ?a were completely unable to motivate ?b
+		?a: Pavlovian cues
+		?b: lever pressing in mutant mice
+
+
+label:    sent_19
+sentence: The results enable and motivate continued exploration of Rung 3.5 functional forms .
+
+ppatt:
+	?a enable ?b
+		?a: The results
+		?b: continued exploration of Rung 3.5 functional forms
+	?a motivate
+		?a: The results
+
+
+label:    sent_20
+sentence: Cut the platitudes and motivate staff .
+
+ppatt:
+	motivate ?a
+		?a: staff
+
+
+label:    sent_21
+sentence: These initial experiences are promising and motivate further research to improve the microdialysis technique .
+
+ppatt:
+	?a are promising
+		?a: These initial experiences
+	?a motivate ?b
+		?a: These initial experiences
+		?b: further research to improve the microdialysis technique
+	?a improve ?b
+		?a: further research
+		?b: the microdialysis technique
+
+
+label:    sent_22
+sentence: Officers should motivate their soldiers and supervise vector control measures .
+
+ppatt:
+	?a should motivate ?b
+		?a: Officers
+		?b: their soldiers
+	?a supervise ?b
+		?a: Officers
+		?b: vector control measures
+
+
+label:    sent_23
+sentence: These motivate the employee and make it easier to introduce innovation .
+
+ppatt:
+	?a motivate ?b
+		?a: These
+		?b: the employee
+	?a make ?b easier to introduce ?c
+		?a: These
+		?b: it
+		?c: innovation
+
+
+label:    sent_24
+sentence: It tells managers how they can motivate themselves and whether they can motivate others .
+
+ppatt:
+	?a tells ?b ?c
+		?a: It
+		?b: managers
+		?c: SOMETHING := how they can motivate themselves
+	how ?a can motivate ?b
+		?a: they
+		?b: themselves
+	?a can motivate ?b
+		?a: they
+		?b: others
+
+
+label:    sent_25
+sentence: Factors that motivate and hinder blood donation in Greece .
+
+ppatt:
+	?a motivate ?b
+		?a: Factors
+		?b: blood donation in Greece
+	?a hinder
+		?a: that
+
+
+label:    sent_26
+sentence: Factors that motivate or prevent them from doing so are examined .
+
+ppatt:
+	?a motivate ?b
+		?a: Factors
+		?b: them from doing
+	?a prevent
+		?a: that
+	?a so are examined
+		?a: Factors that motivate or prevent them from doing
+
+
+label:    sent_27
+sentence: We motivate and apply the novel techniques using astrophysical and oceanographic data examples .
+
+ppatt:
+	?a motivate ?b
+		?a: We
+		?b: the novel techniques using astrophysical and oceanographic data examples
+	?a apply
+		?a: We
+	?a using ?b
+		?a: the novel techniques
+		?b: astrophysical and oceanographic data examples
+
+
+label:    sent_28
+sentence: Values guide and potentially motivate people in their lives .
+
+ppatt:
+	?a guide
+		?a: Values
+	?a potentially motivate ?b in ?c
+		?a: Values
+		?b: people
+		?c: their lives
+
+
+label:    sent_29
+sentence: They should try to motivate their patients to stop smoking and offer their support .
+
+ppatt:
+	?a should try to motivate ?b to stop ?c
+		?a: They
+		?b: their patients
+		?c: smoking
+	?a should try to to stop offer ?b
+		?a: They
+		?b: their support
+
+

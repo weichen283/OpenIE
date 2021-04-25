@@ -1,0 +1,295 @@
+label:    sent_1
+sentence: Average follow up was 42 months .
+
+ppatt:
+	?a up was 42 months
+		?a: Average follow
+
+
+label:    sent_2
+sentence: Both tamsulosin and TURP improved all examined parameters during the follow up . Limitations to the study include small sample size and loss to follow up . Increased public interest in disease prevention can follow a celebrity diagnosis .
+
+ppatt:
+	?a improved ?b during ?c
+		?a: tamsulosin
+		?b: all examined parameters
+		?c: the follow
+	?a improved ?b during ?c
+		?a: TURP
+		?b: all examined parameters
+		?c: the follow
+	?a include ?b
+		?a: Limitations to the study
+		?b: small sample size
+	?a include ?b
+		?a: Limitations to the study
+		?b: loss to follow up
+	?a follow up
+		?a: loss
+	?a can follow ?b
+		?a: Increased public interest in disease prevention
+		?b: a celebrity diagnosis
+
+
+label:    sent_3
+sentence: The marks awarded for the projects closely follow a normal distribution .
+
+ppatt:
+	?a awarded for ?b
+		?a: The marks
+		?b: the projects
+	?a closely follow ?b
+		?a: The marks awarded for the projects
+		?b: a normal distribution
+
+
+label:    sent_4
+sentence: A follow up of an underestimated problem .
+
+ppatt:
+
+
+
+label:    sent_5
+sentence: How to follow up advanced-stage borderline tumours ? Six patients developed distant metastasis during the follow up period .
+
+ppatt:
+	How to follow up ?a ?b
+		?a: advanced-stage borderline tumours
+		?b: Six patients
+	?a developed ?b during ?c
+		?a: Six patients
+		?b: distant metastasis
+		?c: the follow up period
+
+
+label:    sent_6
+sentence: Lead generation and examples opinion regarding how to follow up hits . Mean follow up was 41.9+/-23.5 months .
+
+ppatt:
+	Lead ?a
+		?a: generation
+	Lead ?a
+		?a: examples
+	Lead ?a
+		?a: opinion
+	how to follow up ?a
+		?a: hits
+	?a follow up ?b
+		?a: Mean
+		?b: was 41.9+/-23.5 months
+
+
+label:    sent_7
+sentence: The mean follow up was 6 months .
+
+ppatt:
+	?a up was 6 months
+		?a: The mean follow
+
+
+label:    sent_8
+sentence: In the baseline condition , the cue indicated that no memory task would follow .
+
+ppatt:
+	In ?a , ?b indicated ?c
+		?a: the baseline condition
+		?b: the cue
+		?c: SOMETHING := no memory task would follow
+	?a would follow
+		?a: no memory task
+
+
+label:    sent_9
+sentence: Pediatric pulmonologists failed to follow guideline-based care in a small proportion of patients .
+
+ppatt:
+	?a failed to follow ?b in ?c
+		?a: Pediatric pulmonologists
+		?b: guideline-based care
+		?c: a small proportion of patients
+
+
+label:    sent_10
+sentence: The possibility to follow year-to-year variations by disks of different age is also discussed .
+
+ppatt:
+	?a follow ?b
+		?a: The possibility
+		?b: year-to-year variations by disks of different age
+	?a is also discussed
+		?a: The possibility to follow year-to-year variations by disks of different age
+
+
+label:    sent_11
+sentence: The degradation reaction rates were observed to follow first-order kinetics with respect to olanzapine .
+
+ppatt:
+	?a were observed to follow ?b with ?c
+		?a: The degradation reaction rates
+		?b: first-order kinetics
+		?c: respect to olanzapine
+
+
+label:    sent_12
+sentence: Serum calcium levels follow a biphasic pattern after successful renal transplantation .
+
+ppatt:
+	?a follow ?b after ?c
+		?a: Serum calcium levels
+		?b: a biphasic pattern
+		?c: successful renal transplantation
+
+
+label:    sent_13
+sentence: In immunocompetent patients , they usually follow local trauma . Irreversible thermal precipitation temperatures follow the same order as well .
+
+ppatt:
+	In ?a , ?b usually follow ?c
+		?a: immunocompetent patients
+		?b: they
+		?c: local trauma
+	?a follow ?b as well
+		?a: Irreversible thermal precipitation temperatures
+		?b: the same order
+
+
+label:    sent_14
+sentence: The skin lesions can precede , be concurrent with or follow the pancreatic illness .
+
+ppatt:
+	?a can precede , be concurrent ?b ?c
+		?a: The skin lesions
+		?b: with
+		?c: the pancreatic illness
+	?a can precede , be concurrent ?b ?c
+		?a: The skin lesions
+		?b: follow
+		?c: the pancreatic illness
+
+
+label:    sent_15
+sentence: Diagnostic imaging is important for detection , differentiation and follow up of pneumonic infiltration .
+
+ppatt:
+	?a is important for ?b
+		?a: Diagnostic imaging
+		?b: detection
+	?a is important for ?b
+		?a: Diagnostic imaging
+		?b: differentiation
+	?a follow up ?b
+		?a: Diagnostic imaging
+		?b: of pneumonic infiltration
+
+
+label:    sent_16
+sentence: Ion crossing events are shown to be uncorrelated and follow Poisson statistics .
+
+ppatt:
+	?a are shown to be uncorrelated
+		?a: Ion crossing events
+	?a are shown to be follow ?b
+		?a: Ion crossing events
+		?b: Poisson statistics
+
+
+label:    sent_17
+sentence: Longer follow ups and controlled trials are needed .
+
+ppatt:
+	Longer follow ?a
+		?a: ups
+	Longer follow ?a
+		?a: controlled trials
+
+
+label:    sent_18
+sentence: Copper and ligand follow different uptake kinetics and reach different intracellular equilibrium concentrations .
+
+ppatt:
+	?a follow ?b
+		?a: Copper
+		?b: different uptake kinetics
+	?a follow ?b
+		?a: ligand
+		?b: different uptake kinetics
+	?a reach ?b
+		?a: Copper
+		?b: different intracellular equilibrium concentrations
+	?a reach ?b
+		?a: ligand
+		?b: different intracellular equilibrium concentrations
+
+
+label:    sent_19
+sentence: They follow an atypical pathway of development and preferentially locate to peripheral tissues .
+
+ppatt:
+	?a follow ?b
+		?a: They
+		?b: an atypical pathway of development
+	?a preferentially locate to ?b
+		?a: They
+		?b: peripheral tissues
+
+
+label:    sent_20
+sentence: We follow by summarizing the evidence on the topic .
+
+ppatt:
+	?a follow
+		?a: We
+	?a summarizing ?b
+		?a: We
+		?b: the evidence on the topic
+
+
+label:    sent_21
+sentence: We follow with a discussion of the role of comorbid conditions and environmental exposures .
+
+ppatt:
+	?a follow with ?b
+		?a: We
+		?b: a discussion of the role of comorbid conditions and environmental exposures
+
+
+label:    sent_22
+sentence: A systematic follow up each 4 to 8 week in required for several years .
+
+ppatt:
+	?a in required for ?b
+		?a: A systematic follow up each 4 8 week
+		?b: several years
+
+
+label:    sent_23
+sentence: Pharmacists need to closely follow and monitor adverse reactions .
+
+ppatt:
+	?a need to closely follow ?b
+		?a: Pharmacists
+		?b: adverse reactions
+	?a need to monitor
+		?a: Pharmacists
+
+
+label:    sent_24
+sentence: Recurrence of the tumour is very rare , but follow up is necessary . Results and follow up are reported .
+
+ppatt:
+	?a is very rare
+		?a: Recurrence of the tumour
+	?a follow up
+		?a: Recurrence of the tumour
+	?a is necessary
+		?a: Recurrence of the tumour
+	?a Results
+		?a: Recurrence of the tumour
+	?a follow ?b
+		?a: Recurrence of the tumour
+		?b: up
+	?a are reported
+		?a: Recurrence of the tumour
+
+

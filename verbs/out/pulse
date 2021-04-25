@@ -1,0 +1,36 @@
+label:    sent_1
+sentence: Storm events can pulse nutrients and carbon from soils and provide an important subsidy to food webs in oligotrophic streams and lakes .
+
+ppatt:
+	?a can pulse ?b
+		?a: Storm events
+		?b: nutrients from soils
+	?a can pulse ?b
+		?a: Storm events
+		?b: carbon
+	?a provide ?b
+		?a: Storm events
+		?b: an important subsidy to food webs in oligotrophic streams and lakes
+
+
+label:    sent_2
+sentence: Using electroosmosis to drive flow through microfluidic channels , we pulse minute quantities of a bradykinin solution through four 5-microm apertures onto PC12 cells and show stimulation of individual cells using a Ca ( 2+ ) -sensitive fluorescent dye .
+
+ppatt:
+	Using ?a ?b
+		?a: electroosmosis
+		?b: we
+	drive ?a through ?b ?c
+		?a: flow
+		?b: microfluidic channels
+		?c: we
+	?a pulse ?b through ?c
+		?a: we
+		?b: minute quantities of a bradykinin solution
+		?c: four 5-microm apertures onto PC12 cells
+	?a show ?b using ?c
+		?a: we
+		?b: stimulation of individual cells
+		?c: a Ca ( 2+ ) -sensitive fluorescent dye
+
+

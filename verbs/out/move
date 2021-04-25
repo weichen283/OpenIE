@@ -1,0 +1,299 @@
+label:    sent_1
+sentence: There is a global move from individual to group housing of gestating sows .
+
+ppatt:
+	There is ?a
+		?a: a global move from individual to group housing of gestating sows
+
+
+label:    sent_2
+sentence: This paradigm shift imposes to move from a reductionistic to a systems biology approach .
+
+ppatt:
+	?a imposes to move from ?b to ?c
+		?a: This paradigm shift
+		?b: a reductionistic
+		?c: a systems biology approach
+
+
+label:    sent_3
+sentence: The first change was designed to move from observation to engagement .
+
+ppatt:
+	?a was designed to move from ?b
+		?a: The first change
+		?b: observation to engagement
+
+
+label:    sent_4
+sentence: Why do stigmas move in a flexistylous plant ? Tobacco firms move to stop FDA banning menthol cigarettes .
+
+ppatt:
+	Why do ?a move in ?b
+		?a: stigmas
+		?b: a flexistylous plant
+	?a move to stop ?b
+		?a: Tobacco firms
+		?b: FDA banning menthol cigarettes
+
+
+label:    sent_5
+sentence: Spanish move away from Mediterranean diet .
+
+ppatt:
+	?a move away from ?b
+		?a: Spanish
+		?b: Mediterranean diet
+
+
+label:    sent_6
+sentence: A community forum was held to develop recommendations and move these themes to action .
+
+ppatt:
+	?a was held to develop ?b
+		?a: A community forum
+		?b: recommendations
+	?a was held to move ?b to ?c
+		?a: A community forum
+		?b: these themes
+		?c: action
+
+
+label:    sent_7
+sentence: These knowledge domains need to move forward together to ensure success .
+
+ppatt:
+	?a need to move ?b together to ensure ?c
+		?a: These knowledge domains
+		?b: forward
+		?c: success
+
+
+label:    sent_8
+sentence: This rapidly progressed to paraparesis with an inability to move the lower extremities .
+
+ppatt:
+	?a rapidly progressed to ?b with ?c
+		?a: This
+		?b: paraparesis
+		?c: an inability to move the lower extremities
+	?a move ?b
+		?a: an inability
+		?b: the lower extremities
+
+
+label:    sent_9
+sentence: Union concern over plan to move public health to local authorities .
+
+ppatt:
+	?a move ?b to ?c
+		?a: Union concern over plan
+		?b: public health
+		?c: local authorities
+
+
+label:    sent_10
+sentence: Evidence-based nutrition is essential to move forward in the science of community nutrition .
+
+ppatt:
+	?a is essential to move ?b in ?c
+		?a: Evidence-based nutrition
+		?b: forward
+		?c: the science of community nutrition
+
+
+label:    sent_11
+sentence: Thus , myosin II requires motor activity to move forward onto F-actin in protrusions .
+
+ppatt:
+	Thus , ?a requires ?b to move ?c onto ?d
+		?a: myosin II
+		?b: motor activity
+		?c: forward
+		?d: F-actin in protrusions
+
+
+label:    sent_12
+sentence: Bacteria move towards favourable and away from toxic environments by changing their swimming pattern .
+
+ppatt:
+	?a move towards ?b
+		?a: Bacteria
+		?b: favourable from toxic environments
+	?a move towards ?b
+		?a: Bacteria
+		?b: away
+	?a changing ?b
+		?a: Bacteria
+		?b: their swimming pattern
+
+
+label:    sent_13
+sentence: Immediately after seeding , the cells move in streams and rotate around their axes .
+
+ppatt:
+	Immediately after ?a , ?b move in ?c
+		?a: seeding
+		?b: the cells
+		?c: streams
+	?a rotate around ?b
+		?a: the cells
+		?b: their axes
+
+
+label:    sent_14
+sentence: The radius and hand move in relation to and function about the distal ulna . We should strive to fulfill the Helsinki Declaration and move even beyond that .
+
+ppatt:
+	?a move in ?b to
+		?a: The radius
+		?b: relation
+	?a move in ?b to
+		?a: hand
+		?b: relation
+	?a function about ?b
+		?a: The radius
+		?b: the distal ulna
+	?a function about ?b
+		?a: hand
+		?b: the distal ulna
+	?a should strive to fulfill ?b
+		?a: We
+		?b: the Helsinki Declaration
+	?a should strive to move beyond ?b
+		?a: We
+		?b: even that
+
+
+label:    sent_15
+sentence: Asters move either toward the cell center or away from it . Cells of Escherichia coli sense and move toward chemical attractants .
+
+ppatt:
+	?a move toward ?b
+		?a: Asters
+		?b: the cell center
+	?a move toward ?b
+		?a: Asters
+		?b: away
+	?a move toward ?b
+		?a: Asters
+		?b: it
+	?a move toward ?b
+		?a: Asters
+		?b: Cells of Escherichia coli sense
+	?a move toward ?b
+		?a: Asters
+		?b: chemical attractants
+
+
+label:    sent_16
+sentence: Recent studies have suggested that it can move processively if it forms a dimer .
+
+ppatt:
+	?a have suggested ?b
+		?a: Recent studies
+		?b: SOMETHING := it can move processively if it forms a dimer
+	?a can move processively
+		?a: it
+	?a forms ?b
+		?a: it
+		?b: a dimer
+
+
+label:    sent_17
+sentence: Do birds of a feather move together ? Spinal cord injury : time to move .
+
+ppatt:
+	Do ?a
+		?a: birds of a feather move together ? Spinal cord injury
+
+
+label:    sent_18
+sentence: Kinetochore fibres ( K-fibres ) of the spindle apparatus move chromosomes during mitosis .
+
+ppatt:
+	?a is/are K-fibres
+		?a: Kinetochore fibres of the spindle apparatus
+	?a move ?b during ?c
+		?a: Kinetochore fibres of the spindle apparatus
+		?b: chromosomes
+		?c: mitosis
+
+
+label:    sent_19
+sentence: The study indicates that HBO2 can move cyanide from tissue to blood .
+
+ppatt:
+	?a indicates ?b
+		?a: The study
+		?b: SOMETHING := HBO2 can move cyanide from tissue to blood
+	?a can move ?b from ?c
+		?a: HBO2
+		?b: cyanide
+		?c: tissue to blood
+
+
+label:    sent_20
+sentence: The mechanisms that move chromatids poleward during anaphase A have fascinated researchers for decades .
+
+ppatt:
+	?a move ?b during ?c
+		?a: The mechanisms
+		?b: chromatids poleward
+		?c: anaphase A
+	?a have fascinated ?b
+		?a: The mechanisms that move chromatids poleward during anaphase A
+		?b: researchers for decades
+
+
+label:    sent_21
+sentence: The precompetitive space : time to move the yardsticks . Humans and other primates move their eyes more often than their hearts beat .
+
+ppatt:
+	?a move ?b
+		?a: time
+		?b: the yardsticks
+	?a move ?b
+		?a: time
+		?b: Humans
+	?a move ?b more often
+		?a: The precompetitive space
+		?b: their eyes
+	than ?a beat
+		?a: their hearts
+
+
+label:    sent_22
+sentence: Giant proteins that move DNA : bullies of the genomic playground .
+
+ppatt:
+	?a move ?b
+		?a: Giant proteins
+		?b: DNA
+
+
+label:    sent_23
+sentence: At high charge , the vesicle adheres but does not move .
+
+ppatt:
+	At ?a , ?b adheres
+		?a: high charge
+		?b: the vesicle
+	?a does not move
+		?a: the vesicle
+
+
+label:    sent_24
+sentence: Cut and move : protein machinery for DNA processing in bacterial conjugation .
+
+ppatt:
+
+
+
+label:    sent_25
+sentence: Move up or move out .
+
+ppatt:
+
+
+

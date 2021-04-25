@@ -1,0 +1,205 @@
+label:    sent_1
+sentence: PKN and Cdc25C coimmunoprecipitate with each other .
+
+ppatt:
+	?a coimmunoprecipitate with ?b
+		?a: PKN
+		?b: each other
+	?a coimmunoprecipitate with ?b
+		?a: Cdc25C
+		?b: each other
+
+
+label:    sent_2
+sentence: Both variants coimmunoprecipitate with Na , K-ATPase after expression in Xenopus oocytes .
+
+ppatt:
+	?a coimmunoprecipitate with ?b
+		?a: Both variants
+		?b: Na , after expression in Xenopus oocytes
+	?a coimmunoprecipitate with ?b
+		?a: Both variants
+		?b: K-ATPase
+
+
+label:    sent_3
+sentence: CD18 did not coimmunoprecipitate with talin or vinculin in vivo . IRF1 , but not STAT1 , was found to coimmunoprecipitate with RNA polymerase II .
+
+ppatt:
+	?a did not coimmunoprecipitate with ?b in vivo
+		?a: CD18
+		?b: talin
+	?a did not coimmunoprecipitate with ?b in vivo
+		?a: CD18
+		?b: vinculin
+	?a was found to coimmunoprecipitate with ?b
+		?a: IRF1
+		?b: RNA polymerase II
+	?a was found to coimmunoprecipitate with ?b
+		?a: STAT1
+		?b: RNA polymerase II
+
+
+label:    sent_4
+sentence: Finally , Rab5 protein was found to coimmunoprecipitate with HCV NS4B .
+
+ppatt:
+	Finally , ?a was found to coimmunoprecipitate with ?b
+		?a: Rab5 protein
+		?b: HCV NS4B
+
+
+label:    sent_5
+sentence: Hsp90 and STAT3 have previously been shown to colocalize and coimmunoprecipitate in common complexes .
+
+ppatt:
+	?a have previously been shown to colocalize in ?b
+		?a: Hsp90
+		?b: common complexes
+	?a have previously been shown to colocalize in ?b
+		?a: STAT3
+		?b: common complexes
+	?a have previously been shown to coimmunoprecipitate
+		?a: Hsp90
+	?a have previously been shown to coimmunoprecipitate
+		?a: STAT3
+
+
+label:    sent_6
+sentence: Antibodies to progesterone and glucocorticoid receptors were able to coimmunoprecipitate the major vault protein .
+
+ppatt:
+	?a were able to coimmunoprecipitate ?b
+		?a: Antibodies to progesterone and glucocorticoid receptors
+		?b: the major vault protein
+
+
+label:    sent_7
+sentence: Puf3p , the mitochore , and the Arp2/3 complex coimmunoprecipitate and have two-hybrid interactions . alpha9 and ADAM12 coimmunoprecipitate and participate to mpc adhesion .
+
+ppatt:
+	have ?a
+		?a: two-hybrid interactions
+	participate to ?a
+		?a: mpc adhesion
+
+
+label:    sent_8
+sentence: Tat and SIRT1 coimmunoprecipitate and synergistically activate the HIV promoter .
+
+ppatt:
+	?a synergistically activate ?b
+		?a: Tat
+		?b: the HIV promoter
+	?a synergistically activate ?b
+		?a: SIRT1 coimmunoprecipitate
+		?b: the HIV promoter
+
+
+label:    sent_9
+sentence: Enx1 / EZH2 and EED coimmunoprecipitate , indicating that they also interact in vivo . CR1 and FAP-1 coimmunoprecipitate , which confirms their molecular association .
+
+ppatt:
+	?a indicating ?b
+		?a: Enx1
+		?b: SOMETHING := they also interact in vivo . CR1 and FAP-1 coimmunoprecipitate , which confirms their molecular association
+	?a indicating ?b
+		?a: EZH2
+		?b: SOMETHING := they also interact in vivo . CR1 and FAP-1 coimmunoprecipitate , which confirms their molecular association
+	?a indicating ?b
+		?a: EED coimmunoprecipitate
+		?b: SOMETHING := they also interact in vivo . CR1 and FAP-1 coimmunoprecipitate , which confirms their molecular association
+	?a also interact in vivo ?b
+		?a: they
+		?b: CR1 , which confirms their molecular association
+	?a also interact in vivo ?b
+		?a: they
+		?b: FAP-1 coimmunoprecipitate
+	?a confirms ?b
+		?a: CR1
+		?b: their molecular association
+	?a confirms ?b
+		?a: FAP-1 coimmunoprecipitate
+		?b: their molecular association
+
+
+label:    sent_10
+sentence: RL2 and its GTPase mutants coimmunoprecipitate with RTNLB13 .
+
+ppatt:
+	?a coimmunoprecipitate with ?b
+		?a: RL2
+		?b: RTNLB13
+	?a coimmunoprecipitate with ?b
+		?a: its GTPase mutants
+		?b: RTNLB13
+
+
+label:    sent_11
+sentence: Ankyrin-B and B56alpha are colocalized and coimmunoprecipitate in primary cardiomyocytes .
+
+ppatt:
+	?a are colocalized in ?b
+		?a: Ankyrin-B
+		?b: primary cardiomyocytes
+	?a are colocalized in ?b
+		?a: B56alpha
+		?b: primary cardiomyocytes
+
+
+label:    sent_12
+sentence: Both are phosphorylated and coimmunoprecipitate with RNA polymerase I .
+
+ppatt:
+	?a are phosphorylated
+		?a: Both
+	?a coimmunoprecipitate with ?b
+		?a: Both
+		?b: RNA polymerase I
+
+
+label:    sent_13
+sentence: Pcnt antibodies coimmunoprecipitate IFT proteins and PC2 from several cell lines and tissues .
+
+ppatt:
+	?a coimmunoprecipitate ?b
+		?a: Pcnt antibodies
+		?b: IFT proteins from several cell lines and tissues
+	?a coimmunoprecipitate ?b
+		?a: Pcnt antibodies
+		?b: PC2
+
+
+label:    sent_14
+sentence: Antibodies against surface IgM ( sIgM ) coimmunoprecipitate several sIgM-associated proteins .
+
+ppatt:
+	?a is/are sIgM
+		?a: surface IgM
+	?a coimmunoprecipitate ?b
+		?a: Antibodies against surface IgM
+		?b: several sIgM-associated proteins
+
+
+label:    sent_15
+sentence: Antibodies directed against NMDA receptors coimmunoprecipitate SAP102 from rat brain synaptosomes .
+
+ppatt:
+	?a directed against ?b
+		?a: Antibodies
+		?b: NMDA receptors
+	?a coimmunoprecipitate ?b
+		?a: Antibodies directed against NMDA receptors
+		?b: SAP102 from rat brain synaptosomes
+
+
+label:    sent_16
+sentence: In the presence of digitonin all beta chimeras coimmunoprecipitate the endogenous alpha 1 subunit .
+
+ppatt:
+	In of ?a ?b coimmunoprecipitate ?c
+		?a: digitonin
+		?b: all beta chimeras
+		?c: the endogenous alpha 1 subunit
+
+

@@ -1,0 +1,332 @@
+label:    sent_1
+sentence: This was a reason for initiate a wide diagnostic process in our patient .
+
+ppatt:
+	?a was a reason
+		?a: This
+	?a initiate ?b in ?c
+		?a: a reason
+		?b: a wide diagnostic process
+		?c: our patient
+
+
+label:    sent_2
+sentence: Hence , progesterone withdrawal may activate two distinct pathways to initiate endometrial repair .
+
+ppatt:
+	Hence , ?a may activate ?b
+		?a: progesterone withdrawal
+		?b: two distinct pathways to initiate endometrial repair
+	?a initiate ?b
+		?a: two distinct pathways
+		?b: endometrial repair
+
+
+label:    sent_3
+sentence: Six1 regulates Grem1 expression in the metanephric mesenchyme to initiate branching morphogenesis .
+
+ppatt:
+	?a regulates ?b in ?c to initiate ?d
+		?a: Six1
+		?b: Grem1 expression
+		?c: the metanephric mesenchyme
+		?d: branching morphogenesis
+
+
+label:    sent_4
+sentence: In six accidents , contradictory toxicological findings led CAMI to initiate DNA profiling .
+
+ppatt:
+	In ?a , ?b led ?c to initiate ?d
+		?a: six accidents
+		?b: contradictory toxicological findings
+		?c: CAMI
+		?d: DNA profiling
+
+
+label:    sent_5
+sentence: When to initiate antiretroviral therapy in HIV infected patients is a difficult clinical decision .
+
+ppatt:
+	When to initiate ?a
+		?a: antiretroviral therapy in HIV infected patients
+
+
+label:    sent_6
+sentence: Glutathione depletion and overproduction both initiate degeneration of nigral dopaminergic neurons .
+
+ppatt:
+	?a initiate ?b
+		?a: Glutathione both
+		?b: degeneration of nigral dopaminergic neurons
+
+
+label:    sent_7
+sentence: Eutherian mammals use diverse strategies to initiate X-chromosome inactivation during development .
+
+ppatt:
+	?a use ?b
+		?a: Eutherian mammals
+		?b: diverse strategies to initiate X-chromosome inactivation during development
+	?a initiate ?b during ?c
+		?a: diverse strategies
+		?b: X-chromosome inactivation
+		?c: development
+
+
+label:    sent_8
+sentence: Acyl-phosphates initiate membrane phospholipid synthesis in Gram-positive pathogens .
+
+ppatt:
+	?a initiate ?b
+		?a: Acyl-phosphates
+		?b: membrane phospholipid synthesis in Gram-positive pathogens
+
+
+label:    sent_9
+sentence: The isogenic lines were used to initiate tumors in NCr-nu/nu mice .
+
+ppatt:
+	?a were used to initiate ?b
+		?a: The isogenic lines
+		?b: tumors in NCr-nu/nu mice
+
+
+label:    sent_10
+sentence: Microbes initiate immune responses through Toll-like receptors ( TLRs ) . Platelet polyphosphates potently initiate fibrin formation via the factor XII-driven intrinsic pathway .
+
+ppatt:
+	?a initiate ?b through ?c
+		?a: Microbes
+		?b: immune responses
+		?c: Toll-like receptors
+	?a is/are TLRs
+		?a: Toll-like receptors
+	?a potently initiate ?b via ?c
+		?a: Platelet polyphosphates
+		?b: fibrin formation
+		?c: the factor XII-driven intrinsic pathway
+
+
+label:    sent_11
+sentence: All the plates , except the suprapygal , initiate ossification during the embryonic period .
+
+ppatt:
+	?a initiate ?b during ?c
+		?a: All the plates , except the suprapygal
+		?b: ossification
+		?c: the embryonic period
+
+
+label:    sent_12
+sentence: Multiple MAP kinase pathways share components yet initiate distinct biological processes .
+
+ppatt:
+	?a share ?b ?c
+		?a: Multiple MAP kinase pathways
+		?b: components
+		?c: SOMETHING := yet initiate distinct biological processes
+	?a yet initiate ?b
+		?a: Multiple MAP kinase pathways
+		?b: distinct biological processes
+
+
+label:    sent_13
+sentence: Studies in non-human primates demonstrate that testosterone by itself can maintain and initiate spermatogenesis .
+
+ppatt:
+	?a demonstrate ?b
+		?a: Studies in non-human primates
+		?b: SOMETHING := testosterone by itself can maintain spermatogenesis
+	?a can maintain ?b
+		?a: testosterone by itself
+		?b: spermatogenesis
+	?a initiate
+		?a: testosterone by itself
+
+
+label:    sent_14
+sentence: VM-26 was found to both initiate hsp synthesis and to cause thermotolerance .
+
+ppatt:
+	?a was found to both initiate ?b
+		?a: VM-26
+		?b: hsp synthesis
+	?a was found to to cause ?b
+		?a: VM-26
+		?b: thermotolerance
+
+
+label:    sent_15
+sentence: All practical methods participants were able to initiate and implement QI projects .
+
+ppatt:
+	?a were able to initiate ?b
+		?a: All practical methods participants
+		?b: QI projects
+	?a were able to implement
+		?a: All practical methods participants
+
+
+label:    sent_16
+sentence: The ability of TLRs to initiate and propagate inflammation makes them attractive therapeutic targets .
+
+ppatt:
+	?a initiate ?b
+		?a: The ability of TLRs
+		?b: inflammation
+	?a propagate
+		?a: The ability of TLRs
+	?a makes ?b
+		?a: The ability of TLRs to initiate and propagate inflammation
+		?b: them attractive therapeutic targets
+
+
+label:    sent_17
+sentence: Modern cells use enzymes to initiate and control all stages of cell cycle .
+
+ppatt:
+	?a use ?b to initiate ?c
+		?a: Modern cells
+		?b: enzymes
+		?c: all stages of cell cycle
+	?a use to control
+		?a: Modern cells
+
+
+label:    sent_18
+sentence: Neurons initiate but do not complete cell division , eventually entering apoptosis .
+
+ppatt:
+	?a initiate ?b
+		?a: Neurons
+		?b: cell division
+	?a eventually entering ?b
+		?a: Neurons
+		?b: apoptosis
+
+
+label:    sent_19
+sentence: A transcriptome profile of genes that initiate and sustain systemic inflammation has been identified .
+
+ppatt:
+	?a initiate ?b
+		?a: genes
+		?b: systemic inflammation
+	?a sustain
+		?a: that
+	?a has been identified
+		?a: A transcriptome profile of genes that initiate and sustain systemic inflammation
+
+
+label:    sent_20
+sentence: The results suggest that Enterobacteriaceae may initiate or colonize ulcers in CD .
+
+ppatt:
+	?a suggest ?b
+		?a: The results
+		?b: SOMETHING := Enterobacteriaceae may initiate ulcers in CD
+	?a may initiate ?b
+		?a: Enterobacteriaceae
+		?b: ulcers in CD
+	?a colonize
+		?a: Enterobacteriaceae
+
+
+label:    sent_21
+sentence: Chemotherapy agents initiate tumour cell apoptosis and this is thought to involve oxidative stress . BRD2 is one of BRD7-interacting proteins and its over-expression could initiate apoptosis .
+
+ppatt:
+	?a initiate ?b
+		?a: Chemotherapy agents
+		?b: tumour cell apoptosis
+	?a is thought to involve ?b
+		?a: this
+		?b: oxidative stress
+	?a is one of ?b
+		?a: BRD2
+		?b: BRD7-interacting proteins
+	?a could initiate ?b
+		?a: its over-expression
+		?b: apoptosis
+
+
+label:    sent_22
+sentence: Such cells initiate synthesis of type II collagen , and eventually type X collagen .
+
+ppatt:
+	?a initiate ?b
+		?a: Such cells
+		?b: synthesis of type II collagen
+	?a initiate ?b
+		?a: Such cells
+		?b: eventually type X collagen
+
+
+label:    sent_23
+sentence: DBC did not initiate contracture in skinned myocytes and decreased their sensitivity to Ca2+ .
+
+ppatt:
+	?a did not initiate ?b in ?c
+		?a: DBC
+		?b: contracture
+		?c: skinned myocytes
+	?a decreased ?b
+		?a: DBC
+		?b: their sensitivity to Ca2+
+
+
+label:    sent_24
+sentence: Under estrogen deficiency , blastocysts can not initiate implantation and enter dormancy .
+
+ppatt:
+	Under ?a , ?b can not initiate ?c
+		?a: estrogen deficiency
+		?b: blastocysts
+		?c: implantation
+	?a enter ?b
+		?a: blastocysts
+		?b: dormancy
+
+
+label:    sent_25
+sentence: Most young men initiate sex at an early age and have multiple sex partners .
+
+ppatt:
+	?a initiate ?b at ?c
+		?a: Most young men
+		?b: sex
+		?c: an early age
+	?a have ?b
+		?a: Most young men
+		?b: multiple sex partners
+
+
+label:    sent_26
+sentence: During prophase I , DSBs initiate normally in Btbd12 mutant animals .
+
+ppatt:
+	During ?a , ?b initiate normally in ?c
+		?a: prophase I
+		?b: DSBs
+		?c: Btbd12 mutant animals
+
+
+label:    sent_27
+sentence: Therefore , brain edema should initiate in the peripheral area of focal cerebral ischemia .
+
+ppatt:
+	Therefore , ?a should initiate in ?b
+		?a: brain edema
+		?b: the peripheral area of focal cerebral ischemia
+
+
+label:    sent_28
+sentence: These diseases commonly initiate with fibrosis .
+
+ppatt:
+	?a commonly initiate with ?b
+		?a: These diseases
+		?b: fibrosis
+
+

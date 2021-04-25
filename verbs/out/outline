@@ -1,0 +1,295 @@
+label:    sent_1
+sentence: To outline several of the important factors that shape flavor preferences in humans .
+
+ppatt:
+	outline ?a
+		?a: several of the important factors that shape flavor preferences in humans
+	?a shape ?b
+		?a: the important factors
+		?b: flavor preferences in humans
+
+
+label:    sent_2
+sentence: The purpose of this review is to outline the current state of AL research .
+
+ppatt:
+	?a is to outline ?b
+		?a: The purpose of this review
+		?b: the current state of AL research
+
+
+label:    sent_3
+sentence: The purpose of this paper is to outline the implications for NHS dentistry .
+
+ppatt:
+	?a is to outline ?b
+		?a: The purpose of this paper
+		?b: the implications for NHS dentistry
+
+
+label:    sent_4
+sentence: We first outline the syntheses , which are straightforward . I also outline three possible approaches to promote research integrity in bioethics .
+
+ppatt:
+	?a first outline ?b
+		?a: We
+		?b: the syntheses , which are straightforward
+	?a are straightforward
+		?a: the syntheses
+	?a also outline ?b
+		?a: We
+		?b: three possible approaches to promote research integrity in bioethics
+	?a promote ?b
+		?a: three possible approaches
+		?b: research integrity in bioethics
+
+
+label:    sent_5
+sentence: Finally , we outline the method for testing whether a gene is essential .
+
+ppatt:
+	Finally , ?a outline ?b
+		?a: we
+		?b: the method for testing whether a gene is essential
+	?a testing ?b
+		?a: the method
+		?b: SOMETHING := a gene is essential
+	?a is essential
+		?a: a gene
+
+
+label:    sent_6
+sentence: We outline its basic properties , in particular the scaling upon depth of sequencing .
+
+ppatt:
+	?a outline ?b
+		?a: We
+		?b: its basic properties in particular the scaling upon depth of sequencing
+
+
+label:    sent_7
+sentence: In addition , we outline techniques for performing the procedure safely and effectively .
+
+ppatt:
+	In ?a , ?b outline ?c
+		?a: addition
+		?b: we
+		?c: techniques for performing the procedure safely and effectively
+	?a performing ?b safely and effectively
+		?a: techniques
+		?b: the procedure
+
+
+label:    sent_8
+sentence: In addition , we outline a statistical test to compare fractions in canonical analysis .
+
+ppatt:
+	In ?a , ?b outline ?c
+		?a: addition
+		?b: we
+		?c: a statistical test to compare fractions in canonical analysis
+	?a compare ?b in ?c
+		?a: a statistical test
+		?b: fractions
+		?c: canonical analysis
+
+
+label:    sent_9
+sentence: We outline the challenges associated with classification changes and propose a solution .
+
+ppatt:
+	?a outline ?b
+		?a: We
+		?b: the challenges associated with classification changes
+	?a associated with ?b
+		?a: the challenges
+		?b: classification changes
+	?a propose ?b
+		?a: We
+		?b: a solution
+
+
+label:    sent_10
+sentence: We outline the principles of the different techniques and discuss their advantages and limitations .
+
+ppatt:
+	?a outline ?b
+		?a: We
+		?b: the principles of the different techniques
+	?a discuss ?b
+		?a: We
+		?b: their advantages
+	?a discuss ?b
+		?a: We
+		?b: limitations
+
+
+label:    sent_11
+sentence: We here briefly outline the key findings concerning trogocytosis , and discuss their implications .
+
+ppatt:
+	?a here briefly outline ?b
+		?a: We
+		?b: the key findings concerning trogocytosis
+	?a discuss ?b
+		?a: We
+		?b: their implications
+
+
+label:    sent_12
+sentence: This test permits the quantification of sporozoite entry and outline sporozoite-hepatocyte interactions .
+
+ppatt:
+	?a permits ?b
+		?a: This test
+		?b: the quantification of sporozoite entry
+	?a outline ?b
+		?a: This test
+		?b: sporozoite-hepatocyte interactions
+
+
+label:    sent_13
+sentence: Improved assessment of multiple sclerosis lesion segmentation agreement via detection and outline error estimates .
+
+ppatt:
+	outline ?a
+		?a: error estimates
+
+
+label:    sent_14
+sentence: We detail the problems and outline our management .
+
+ppatt:
+	?a detail ?b
+		?a: We
+		?b: the problems
+	?a outline ?b
+		?a: We
+		?b: our management
+
+
+label:    sent_15
+sentence: In this study , we outline this claim and then take issue with it . 5 we outline semantic structures , and in ch . With ultrasound one can outline fetal kidneys and evaluate intrarenal anatomy .
+
+ppatt:
+	In ?a , ?b outline ?c
+		?a: this study
+		?b: we
+		?c: this claim
+	?a then take ?b
+		?a: we
+		?b: issue with it
+	?a outline ?b
+		?a: we
+		?b: semantic structures
+	?a in ?b . With ?c can outline ?d
+		?a: we
+		?b: ch
+		?c: ultrasound one
+		?d: fetal kidneys
+	?a evaluate ?b
+		?a: we
+		?b: intrarenal anatomy
+
+
+label:    sent_16
+sentence: Finally , we shall outline our ongoing experiments to validate our rationale .
+
+ppatt:
+	Finally , ?a shall outline ?b
+		?a: we
+		?b: our ongoing experiments
+	?a validate ?b
+		?a: we
+		?b: our rationale
+
+
+label:    sent_17
+sentence: We outline a spreading activation model which consists of a network of harmonic relations .
+
+ppatt:
+	?a outline ?b
+		?a: We
+		?b: a spreading activation model which consists of a network of harmonic relations
+	?a consists of ?b
+		?a: a spreading activation model
+		?b: a network of harmonic relations
+
+
+label:    sent_18
+sentence: The development of a course outline .
+
+ppatt:
+
+
+
+label:    sent_19
+sentence: The purpose of this study was to outline our management of PF after PD .
+
+ppatt:
+	?a was to outline ?b
+		?a: The purpose of this study
+		?b: our management of PF after PD
+
+
+label:    sent_20
+sentence: Labeled fibers appeared to outline the borders of the STN throughout its rostral half .
+
+ppatt:
+	?a appeared to outline ?b throughout ?c
+		?a: Labeled fibers
+		?b: the borders of the STN
+		?c: its rostral half
+
+
+label:    sent_21
+sentence: Present review attempts to outline clinical approach to a case of autonomic peripheral neuropathy .
+
+ppatt:
+	?a attempts to outline ?b
+		?a: Present review
+		?b: clinical approach to a case of autonomic peripheral neuropathy
+
+
+label:    sent_22
+sentence: In this chapter , we outline procedures to create dynamic surfaces by functionalizing SAMs . [ The outline of the First International Nursing Education Seminar at Kusats u ] . An interview outline for the evaluation of disruptive adolescents .
+
+ppatt:
+	In ?a , ?b outline ?c
+		?a: this chapter
+		?b: we
+		?c: procedures to create dynamic surfaces by functionalizing SAMs . [ The outline of the First International Nursing Education Seminar at Kusats u ]
+	?a create ?b . [ ?c
+		?a: procedures
+		?b: dynamic surfaces
+		?c: The outline of the First International Nursing Education Seminar at Kusats u ]
+	functionalizing ?a
+		?a: SAMs
+	?a is/are An interview outline for ?b
+		?a: The outline of the First International Nursing Education Seminar at Kusats u ]
+		?b: the evaluation of disruptive adolescents
+
+
+label:    sent_23
+sentence: We outline how to investigate and manage such patients .
+
+ppatt:
+	?a outline how to investigate ?b
+		?a: We
+		?b: such patients
+	?a outline to manage
+		?a: We
+
+
+label:    sent_24
+sentence: We outline and justify our method by some preliminary calculations . A historical outline and present status .
+
+ppatt:
+	?a outline ?b by ?c
+		?a: We
+		?b: our method
+		?c: some preliminary calculations
+	?a justify
+		?a: We
+
+

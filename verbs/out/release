@@ -1,0 +1,313 @@
+label:    sent_1
+sentence: Their general role is to cleave integral membrane proteins to release signalling molecules .
+
+ppatt:
+	?a is to cleave ?b to release ?c
+		?a: Their general role
+		?b: integral membrane proteins
+		?c: signalling molecules
+
+
+label:    sent_2
+sentence: Water attack umpolung aromatic systems to release hydrogen .
+
+ppatt:
+	?a umpolung ?b to release ?c
+		?a: Water attack
+		?b: aromatic systems
+		?c: hydrogen
+
+
+label:    sent_3
+sentence: We demonstrated that MPs activate RASFs to release pro-angiogenic ELR+ chemokines .
+
+ppatt:
+	?a demonstrated ?b
+		?a: We
+		?b: SOMETHING := MPs activate RASFs to release pro-angiogenic ELR+ chemokines
+	?a activate ?b to release ?c
+		?a: MPs
+		?b: RASFs
+		?c: pro-angiogenic ELR+ chemokines
+
+
+label:    sent_4
+sentence: Low-latitude ocean margins release CO2 because they receive two-thirds of the terrestrial OC . Dexamethasone can induce HUVECs to release EMPs in vitro .
+
+ppatt:
+	?a release ?b
+		?a: Low-latitude ocean margins
+		?b: CO2
+	?a receive ?b
+		?a: they
+		?b: two-thirds of the terrestrial OC
+	?a can induce ?b to release ?c in vitro
+		?a: Dexamethasone
+		?b: HUVECs
+		?c: EMPs
+
+
+label:    sent_5
+sentence: All flower parts as well as nectar release volatiles .
+
+ppatt:
+
+
+
+label:    sent_6
+sentence: In the oviduct , cumulus cells that surround the oocyte release progesterone .
+
+ppatt:
+	?a surround ?b
+		?a: cumulus cells
+		?b: the oocyte release progesterone
+
+
+label:    sent_7
+sentence: Ligands that store and release electrons during catalysis .
+
+ppatt:
+	?a store ?b during ?c
+		?a: Ligands
+		?b: electrons
+		?c: catalysis
+	?a release
+		?a: that
+
+
+label:    sent_8
+sentence: We demonstrate that human cardiac EC express and release NRG in response to hypoxia-reoxygenation .
+
+ppatt:
+	?a demonstrate ?b
+		?a: We
+		?b: SOMETHING := human cardiac EC express NRG in response to hypoxia-reoxygenation
+	?a express ?b in ?c
+		?a: human cardiac EC
+		?b: NRG
+		?c: response to hypoxia-reoxygenation
+	?a release
+		?a: human cardiac EC
+
+
+label:    sent_9
+sentence: Sensory neurons release calcitonin gene-related peptide ( CGRP ) upon activation .
+
+ppatt:
+	?a release ?b upon ?c
+		?a: Sensory neurons
+		?b: calcitonin gene-related peptide
+		?c: activation
+	?a is/are CGRP
+		?a: calcitonin gene-related peptide
+
+
+label:    sent_10
+sentence: The mechanism of substrate release by the aspartate transporter GltPh : insights from simulations . 360degrees release and in situ bending correction for sagittal imbalance of the spine .
+
+ppatt:
+
+
+
+label:    sent_11
+sentence: Characteristics of CO2 release from forest soil in the mountains near Beijing .
+
+ppatt:
+
+
+
+label:    sent_12
+sentence: Quantification of partial or complete A4 pulley release with FDP repair in cadaveric tendons .
+
+ppatt:
+
+
+
+label:    sent_13
+sentence: Histamine and TNF-alpha release by rat peritoneal mast cells stimulated with Trichomonas vaginalis .
+
+ppatt:
+	?a stimulated with ?b
+		?a: rat peritoneal mast cells
+		?b: Trichomonas vaginalis
+
+
+label:    sent_14
+sentence: Heart and lung ECs were able to produce and release decorin .
+
+ppatt:
+	?a were able to produce ?b
+		?a: Heart
+		?b: decorin
+	?a were able to produce ?b
+		?a: lung
+		?b: decorin
+	?a were able to produce ?b
+		?a: ECs
+		?b: decorin
+	?a were able to release
+		?a: Heart
+	?a were able to release
+		?a: lung
+	?a were able to release
+		?a: ECs
+
+
+label:    sent_15
+sentence: The obtained LMCS can be used to encapsulate drugs and release them . Salmonella Typhi sense host neuroendocrine stress hormones and release the toxin haemolysin E .
+
+ppatt:
+	?a can be used to encapsulate ?b
+		?a: The obtained LMCS
+		?b: drugs
+	?a can be used to release ?b
+		?a: The obtained LMCS
+		?b: them
+	?a sense ?b
+		?a: Salmonella Typhi
+		?b: host neuroendocrine stress hormones
+	?a release ?b
+		?a: Salmonella Typhi
+		?b: the toxin haemolysin E
+
+
+label:    sent_16
+sentence: Some of those cells are projection neurons , but others may release GABA locally .
+
+ppatt:
+	?a are projection neurons
+		?a: Some of those cells
+	?a may release ?b locally
+		?a: others
+		?b: GABA
+
+
+label:    sent_17
+sentence: Platelet-rich concentrates differentially release growth factors and induce cell migration in vitro .
+
+ppatt:
+	?a differentially release ?b
+		?a: Platelet-rich concentrates
+		?b: growth factors
+	?a induce ?b in vitro
+		?a: Platelet-rich concentrates
+		?b: cell migration
+
+
+label:    sent_18
+sentence: Organic nitrates release NO , and therefore may favorably affect EPC biology .
+
+ppatt:
+	?a release ?b
+		?a: Organic nitrates
+		?b: NO
+	?a therefore may favorably affect ?b
+		?a: Organic nitrates
+		?b: EPC biology
+
+
+label:    sent_19
+sentence: Molecular mechanisms of purine and pyrimidine nucleotide release .
+
+ppatt:
+
+
+
+label:    sent_20
+sentence: How much do resin-based dental materials release ? A meta-analytical approach .
+
+ppatt:
+	?a ?b release ?c
+		?a: SOMETHING := How much do
+		?b: resin-based dental materials
+		?c: A meta-analytical approach
+
+
+label:    sent_21
+sentence: Complications of endoscopic and open carpal tunnel release .
+
+ppatt:
+
+
+
+label:    sent_22
+sentence: Activated sachets immediately react to generate and release predictable levels of CO2 over time .
+
+ppatt:
+	?a immediately react to generate ?b over ?c
+		?a: Activated sachets
+		?b: predictable levels of CO2
+		?c: time
+	?a immediately react to release
+		?a: Activated sachets
+
+
+label:    sent_23
+sentence: Astrocytes produce and release L-lactate as a potential source of energy for neurons .
+
+ppatt:
+	?a produce ?b as ?c
+		?a: Astrocytes
+		?b: L-lactate
+		?c: a potential source of energy for neurons
+	?a release
+		?a: Astrocytes
+
+
+label:    sent_24
+sentence: These species are unstable and release isobutene under formation of zirconocene hydrides .
+
+ppatt:
+	?a are unstable
+		?a: These species
+	?a release ?b under ?c
+		?a: These species
+		?b: isobutene
+		?c: formation of zirconocene hydrides
+
+
+label:    sent_25
+sentence: They release insulin after a meal during hyperglycemia and suppress glucagon .
+
+ppatt:
+	?a release ?b after ?c during ?d
+		?a: They
+		?b: insulin
+		?c: a meal
+		?d: hyperglycemia
+	?a suppress ?b
+		?a: They
+		?b: glucagon
+
+
+label:    sent_26
+sentence: Neuroendocrine cells release hormones to circulation or in a paracrine manner .
+
+ppatt:
+	?a release ?b to ?c
+		?a: Neuroendocrine cells
+		?b: hormones
+		?c: circulation
+	?a release ?b to ?c
+		?a: Neuroendocrine cells
+		?b: hormones
+		?c: a paracrine manner
+
+
+label:    sent_27
+sentence: In addition , Tr1 cells release granzyme B and perforin and kill myeloid cells .
+
+ppatt:
+	In ?a , ?b release ?c
+		?a: addition
+		?b: Tr1 cells
+		?c: granzyme B
+	In ?a , ?b release ?c
+		?a: addition
+		?b: Tr1 cells
+		?c: perforin
+	?a kill ?b
+		?a: Tr1 cells
+		?b: myeloid cells
+
+

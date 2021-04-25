@@ -1,0 +1,39 @@
+prep	S818L does not bind aldosterone or activate transcription or translocate into the nucleus .	prep_into@nucleus
+prep	The partially loaded Na+ - only forms are unable to translocate across the membrane .	prep_across@membrane
+prep	Mitochondria shrink and translocate toward the nucleus .	prep_toward@nucleus
+
+subj#prep	AIF mutants that cannot translocate into nucleus failed to induce cell death .	subj@mutants prep_into@nucleus
+subj#prep	We also determined whether RTX induced P-gp to translocate out of lipid rafts .	subj@P-gp prep_out_of@rafts
+subj#prep	Instead of being recycled or proteolysed , they sometimes translocate to the nucleus .	subj@they prep_to@nucleus prepc_instead_of@recycled
+
+obj#prep	AAA ( + ) unfoldases denature and translocate polypeptides into associated peptidases .	obj@polypeptides prep_into@peptidases
+obj#prep	Bacteriophage phi29 utilizes a motor to translocate genomic DNA into a preformed procapsid .	obj@DNA prep_into@procapsid
+obj#prep	Eukaryotic cells are dependent on their ability to translocate membraneous elements about the cytoplasm .	obj@elements prep_about@cytoplasm
+
+subj#prep#conj	Following xenobiotic stimuli , receptors translocate into the nucleus and transactivate its target genes .	subj@receptors prep_into@nucleus conj_and@transactivate
+subj#prep#conj	Activated Erk1/2 and Smad2/3 translocate independently into the nucleus and regulate gene expression .	subj@Erk1/2 subj@Smad2/3 prep_into@nucleus conj_and@regulate
+subj#prep#conj	The phagocytic monocytes/macrophages then translocate to regional lymph nodes and present apoptotic cell-derived antigens .	subj@monocytes/macrophages prep_to@nodes conj_and@present
+
+prep#conj	IGFBP-3 , a secreted protein , can be internalized and translocate to the nucleus .	prep_to@nucleus conj_and@internalized
+prep#conj	HIF-beta subunits are stable regardless of oxygen concentration and constitutively translocate to the nucleus .	prep_to@nucleus conj_and@stable
+prep#conj	The dendritic cells differentiate in the sinusoid and translocate to the Glisson 's sheath .	prep_to@sheath conj_and@differentiate
+
+obj	This signal peptide was previously shown to translocate lipoprotein efficiently .	obj@lipoprotein
+obj	Here , we have examined the ability of the Sec-translocase to translocate folded preproteins .	obj@preproteins
+obj	Nanomelic chondrocytes synthesize , but fail to translocate , a truncated aggrecan precursor .	obj@precursor
+
+subj#obj#prep	Chromatin-remodeling complexes can translocate nucleosomes along the DNA in an ATP - coupled reaction .	subj@complexes obj@nucleosomes prep_along@DNA prep_in@reaction
+subj#obj#prep	These findings suggest that insulin can translocate Mg from the extracellular space .	subj@insulin obj@Mg prep_from@space
+subj#obj#prep	HaXS force protein-protein interactions and can translocate proteins to various cellular compartments .	subj@interactions obj@proteins prep_to@compartments
+
+subj#obj	5- ( Trifluoromethyl ) bacteriorhodopsin does not translocate protons .	subj@bacteriorhodopsin obj@protons
+subj#obj	Major E. coli heat-stress protein do not translocate : implications for cell survival .	subj@protein obj@implications
+subj#obj	Tat systems translocate folded proteins across biological membranes of prokaryotes and plant plastids .	subj@systems obj@proteins
+
+obj#prep#conj	ClpX hydrolyzes ATP to generate mechanical force and translocate polypeptides through its central pore .	obj@polypeptides prep_through@pore conj_and@generate
+obj#prep#conj	Nonmuscle myosin II exerts tension but does not translocate actin in vertebrate cytokinesis .	obj@actin prep_in@cytokinesis conj_but@exerts
+
+conj	These results confirm that AM fungi can take up , translocate and accumulate Cs .	conj_and@take
+conj	Lysophosphatidylcholine has positive spontaneous curvature and does not translocate .	conj_and@has
+conj	These mutants have an actively beating flagellum , but cannot translocate .	conj_but@have
+

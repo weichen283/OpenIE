@@ -1,0 +1,290 @@
+label:    sent_1
+sentence: Prostaglandins may induce or inhibit platelet aggregation and constrict ro dilate blood vessels .
+
+ppatt:
+	?a may induce ?b
+		?a: Prostaglandins
+		?b: platelet aggregation
+	?a inhibit
+		?a: Prostaglandins
+	?a constrict ?b dilate ?c
+		?a: Prostaglandins
+		?b: ro
+		?c: blood vessels
+
+
+label:    sent_2
+sentence: The potency to constrict the strips was greater in 4-AP than in TEA .
+
+ppatt:
+	?a constrict ?b
+		?a: The potency
+		?b: the strips
+	?a was greater in ?b
+		?a: The potency to constrict the strips
+		?b: 4-AP
+	?a than in TEA
+		?a: The potency to constrict the strips
+
+
+label:    sent_3
+sentence: Pilocarpine failed to constrict his pupils . 5-HT2A receptors constrict the portal venous system including oesophageal collaterals in cirrhosis .
+
+ppatt:
+	?a failed to constrict ?b
+		?a: Pilocarpine
+		?b: his pupils
+	?a constrict ?b
+		?a: 5-HT2A receptors
+		?b: the portal venous system including oesophageal collaterals in cirrhosis
+
+
+label:    sent_4
+sentence: Anoxia did not constrict the isolated arteries . Six of the eight basic NSAIDs did not constrict the fetal ductus .
+
+ppatt:
+	?a did not constrict ?b
+		?a: Anoxia
+		?b: the isolated arteries
+	?a did not constrict ?b
+		?a: Six of the eight basic NSAIDs
+		?b: the fetal ductus
+
+
+label:    sent_5
+sentence: Cutaneous arteries are known to constrict in response to cooling via alpha2C-adrenoceptors .
+
+ppatt:
+	?a are known to constrict in ?b to ?c
+		?a: Cutaneous arteries
+		?b: response
+		?c: cooling via alpha2C-adrenoceptors
+
+
+label:    sent_6
+sentence: Large arterioles continued to constrict in response to Doxo during hyperthermia .
+
+ppatt:
+	?a continued to constrict in ?b during ?c
+		?a: Large arterioles
+		?b: response to Doxo
+		?c: hyperthermia
+
+
+label:    sent_7
+sentence: Simulated microgravity depresses the ability of arteries to constrict to norepinephrine ( NE ) . Isolated chloroplast division machinery can actively constrict after stretching .
+
+ppatt:
+	?a depresses ?b
+		?a: Simulated microgravity
+		?b: the ability of arteries to constrict to norepinephrine
+	?a constrict to ?b
+		?a: the ability of arteries
+		?b: norepinephrine
+	?a is/are NE
+		?a: norepinephrine
+	?a can actively constrict after ?b
+		?a: Isolated chloroplast division machinery
+		?b: stretching
+
+
+label:    sent_8
+sentence: Following yohimbine the same vessels did not constrict significantly .
+
+ppatt:
+	Following ?a ?b did not constrict significantly
+		?a: yohimbine
+		?b: the same vessels
+
+
+label:    sent_9
+sentence: Outer medullary descending vasa recta constrict in response to angiotensin II and pressure increases .
+
+ppatt:
+	?a constrict in to ?b
+		?a: Outer medullary descending vasa recta
+		?b: angiotensin II
+	?a constrict in to ?b
+		?a: Outer medullary descending vasa recta
+		?b: pressure
+	?a constrict in to ?b
+		?a: Outer medullary descending vasa recta
+		?b: increases
+
+
+label:    sent_10
+sentence: Leukotriens and other biological active lipides generally constrict pulmonary vessel and promote microvascular permeability .
+
+ppatt:
+	?a generally constrict ?b
+		?a: Leukotriens
+		?b: pulmonary vessel
+	?a generally constrict ?b
+		?a: other biological active lipides
+		?b: pulmonary vessel
+	?a promote ?b
+		?a: Leukotriens
+		?b: microvascular permeability
+	?a promote ?b
+		?a: other biological active lipides
+		?b: microvascular permeability
+
+
+label:    sent_11
+sentence: Intraperitoneal cholinergic drugs constrict these stomata and may reduce peritoneal cavity lymphatic absorption .
+
+ppatt:
+	?a constrict ?b
+		?a: Intraperitoneal cholinergic drugs
+		?b: these stomata
+	?a may reduce ?b
+		?a: Intraperitoneal cholinergic drugs
+		?b: peritoneal cavity lymphatic absorption
+
+
+label:    sent_12
+sentence: Furthermore , they constrict coronary arteries and have a negative inotropic effect .
+
+ppatt:
+	Furthermore , ?a constrict ?b
+		?a: they
+		?b: coronary arteries
+	?a have ?b
+		?a: they
+		?b: a negative inotropic effect
+
+
+label:    sent_13
+sentence: Spontaneously obstructed asthmatics constrict their airways after a DI .
+
+ppatt:
+	?a constrict ?b after ?c
+		?a: Spontaneously obstructed asthmatics
+		?b: their airways
+		?c: a DI
+
+
+label:    sent_14
+sentence: In conclusion , hyperinsulinemia and metformin infusion constrict resistance arterial vessels in vivo .
+
+ppatt:
+	In ?a , ?b constrict ?c in vivo
+		?a: conclusion
+		?b: hyperinsulinemia
+		?c: resistance arterial vessels
+	In ?a , ?b constrict ?c in vivo
+		?a: conclusion
+		?b: metformin infusion
+		?c: resistance arterial vessels
+
+
+label:    sent_15
+sentence: Does phenylephrine constrict coronary arteries during isoflurane-induced hypotension in dogs ? The ring cells expand to constrict the ring and thus immobilize the nematode . LTC4 and LTD4 cause vasoconstriction in guinea-pig skin and constrict guinea-pig pulmonary artery .
+
+ppatt:
+	Does ?a constrict ?b during ?c
+		?a: phenylephrine
+		?b: coronary arteries
+		?c: isoflurane-induced hypotension in dogs
+	?a expand to constrict ?b
+		?a: The ring cells
+		?b: the ring
+	?a thus immobilize ?b
+		?a: The ring cells
+		?b: the nematode
+	?a cause ?b
+		?a: LTC4
+		?b: vasoconstriction in guinea-pig skin
+	?a cause ?b
+		?a: LTD4
+		?b: vasoconstriction in guinea-pig skin
+	?a constrict ?b
+		?a: LTC4
+		?b: guinea-pig pulmonary artery
+	?a constrict ?b
+		?a: LTD4
+		?b: guinea-pig pulmonary artery
+
+
+label:    sent_16
+sentence: Calcium repletion caused the arterioles to constrict further .
+
+ppatt:
+	?a caused ?b to constrict further
+		?a: Calcium repletion
+		?b: the arterioles
+
+
+label:    sent_17
+sentence: Furthermore , the arterioles of the surrounding normal tissue constrict completely . Cderiv caused host arterioles to constrict .
+
+ppatt:
+	Furthermore , ?a constrict completely
+		?a: the arterioles of the surrounding normal tissue
+	?a caused ?b to constrict
+		?a: Cderiv
+		?b: host arterioles
+
+
+label:    sent_18
+sentence: The iris arterioles constrict significantly in hyperoxia and dilate in hypoxia .
+
+ppatt:
+	?a constrict significantly in ?b
+		?a: The iris arterioles
+		?b: hyperoxia
+	?a dilate in ?b
+		?a: The iris arterioles
+		?b: hypoxia
+
+
+label:    sent_19
+sentence: Both PA and DA constrict with vasoconstrictors and dilate with vasodilators .
+
+ppatt:
+	?a constrict with ?b
+		?a: PA
+		?b: vasoconstrictors
+	?a constrict with ?b
+		?a: DA
+		?b: vasoconstrictors
+	?a dilate with ?b
+		?a: PA
+		?b: vasodilators
+	?a dilate with ?b
+		?a: DA
+		?b: vasodilators
+
+
+label:    sent_20
+sentence: In different experimental situations , fatty acids either constrict or dilate arteries . At least 16 naturally occurring peptides either constrict or dilate blood vessels .
+
+ppatt:
+	In ?a , ?b either constrict ?c
+		?a: different experimental situations
+		?b: fatty acids
+		?c: arteries
+	?a dilate
+		?a: fatty acids
+	?a either constrict ?b
+		?a: At least 16 naturally occurring peptides
+		?b: blood vessels
+	?a dilate
+		?a: At least 16 naturally occurring peptides
+
+
+label:    sent_21
+sentence: Order 3 vessels did not constrict or dilate . Roof-forming cells constrict apically and express high levels of Broad protein .
+
+ppatt:
+	?a did not constrict
+		?a: Order 3 vessels
+	?a dilate
+		?a: Order 3 vessels
+	?a constrict apically
+		?a: Roof-forming cells
+	?a express ?b
+		?a: Roof-forming cells
+		?b: high levels of Broad protein
+
+

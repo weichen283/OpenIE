@@ -1,0 +1,341 @@
+label:    sent_1
+sentence: Adenosine activated AMPK , to phosphorylate Bcl-X ( L ) . We also find that protein kinase CTheta can phosphorylate CD43 .
+
+ppatt:
+	?a activated ?b
+		?a: Adenosine
+		?b: AMPK
+	?a phosphorylate ?b
+		?a: Adenosine
+		?b: Bcl-X
+	?a is/are L
+		?a: Bcl-X
+	?a also find ?b
+		?a: We
+		?b: SOMETHING := protein kinase CTheta can phosphorylate CD43
+	?a can phosphorylate ?b
+		?a: protein kinase CTheta
+		?b: CD43
+
+
+label:    sent_2
+sentence: The mechanisms by which MAP kinases recognize and phosphorylate substrates are not completely understood .
+
+ppatt:
+	?a by ?b recognize ?c
+		?a: The mechanisms
+		?b: MAP kinases
+		?c: substrates
+	?a phosphorylate
+		?a: MAP kinases
+	?a are not completely understood
+		?a: The mechanisms by which MAP kinases recognize and phosphorylate substrates
+
+
+label:    sent_3
+sentence: We found that active Src does not directly phosphorylate any tyrosine residue of PHD2 . MAP3Ks phosphorylate MAP2Ks , which in turn activate MAPKs .
+
+ppatt:
+	?a found ?b
+		?a: We
+		?b: SOMETHING := active Src does not directly phosphorylate any tyrosine residue of PHD2
+	?a does not directly phosphorylate ?b
+		?a: active Src
+		?b: any tyrosine residue of PHD2
+	?a phosphorylate ?b
+		?a: MAP3Ks
+		?b: MAP2Ks , which in turn activate MAPKs
+	?a in ?b activate ?c
+		?a: MAP2Ks
+		?b: turn
+		?c: MAPKs
+
+
+label:    sent_4
+sentence: Sequence analysis suggested that p38 MAPK could not directly phosphorylate Akt2 .
+
+ppatt:
+	?a suggested ?b
+		?a: Sequence analysis
+		?b: SOMETHING := p38 MAPK could not directly phosphorylate Akt2
+	?a could not directly phosphorylate ?b
+		?a: p38 MAPK
+		?b: Akt2
+
+
+label:    sent_5
+sentence: The protein kinase also can phosphorylate itself on serine and threonine residues .
+
+ppatt:
+	?a also can phosphorylate ?b on ?c
+		?a: The protein kinase
+		?b: itself
+		?c: serine
+	?a also can phosphorylate ?b on ?c
+		?a: The protein kinase
+		?b: itself
+		?c: threonine
+
+
+label:    sent_6
+sentence: We have found that gastric microsomal membrane extracts phosphorylate Rab11-FIP2 on serine 227 .
+
+ppatt:
+	?a have found ?b
+		?a: We
+		?b: SOMETHING := gastric microsomal membrane extracts phosphorylate Rab11-FIP2 on serine 227
+	?a phosphorylate ?b on ?c
+		?a: gastric microsomal membrane extracts
+		?b: Rab11-FIP2
+		?c: serine 227
+
+
+label:    sent_7
+sentence: PRL-activated mTOR may phosphorylate p70S6K and 4E-BP1 by restraining PP2A .
+
+ppatt:
+	?a may phosphorylate ?b
+		?a: PRL-activated mTOR
+		?b: p70S6K
+	?a may phosphorylate ?b
+		?a: PRL-activated mTOR
+		?b: 4E-BP1
+	?a restraining ?b
+		?a: PRL-activated mTOR
+		?b: PP2A
+
+
+label:    sent_8
+sentence: One pathway involves the CaM-Ks that may directly phosphorylate Akt on T308 .
+
+ppatt:
+	?a involves ?b
+		?a: One pathway
+		?b: the CaM-Ks that may directly phosphorylate Akt on T308
+	?a may directly phosphorylate ?b on ?c
+		?a: the CaM-Ks
+		?b: Akt
+		?c: T308
+
+
+label:    sent_9
+sentence: They were able to phosphorylate several chloroplast-destined precursor proteins within their cleavable presequences .
+
+ppatt:
+	?a were able to phosphorylate ?b within ?c
+		?a: They
+		?b: several chloroplast-destined precursor proteins
+		?c: their cleavable presequences
+
+
+label:    sent_10
+sentence: Also , the mutant protein retains the wild-type ability to phosphorylate proteins on tyrosine . PKCs are activated by DAG and phosphorylate EGFR to reduce its expression and activity . All three were able to phosphorylate histone and undergo autophosphorylation .
+
+ppatt:
+	Also , ?a retains ?b
+		?a: the mutant protein
+		?b: the wild-type ability to phosphorylate proteins on tyrosine
+	?a phosphorylate ?b on ?c
+		?a: the wild-type ability
+		?b: proteins
+		?c: tyrosine
+	?a are activated by ?b
+		?a: PKCs
+		?b: DAG
+	?a phosphorylate ?b to reduce ?c
+		?a: PKCs
+		?b: EGFR
+		?c: its expression
+	?a phosphorylate ?b to reduce ?c
+		?a: PKCs
+		?b: EGFR
+		?c: activity
+	?a were able to phosphorylate ?b
+		?a: All three
+		?b: histone
+	?a were able to undergo ?b
+		?a: All three
+		?b: autophosphorylation
+
+
+label:    sent_11
+sentence: Ability of the c-mos product to associate with and phosphorylate tubulin . AMPK up-regulated Sirt1 , and Sirt1 can inversely phosphorylate AMPK .
+
+ppatt:
+	?a associate ?b
+		?a: Ability of the c-mos product
+		?b: with
+	?a phosphorylate ?b
+		?a: Ability of the c-mos product
+		?b: tubulin
+	?a ?b up-regulated ?c
+		?a: Ability of the c-mos product to associate with and phosphorylate tubulin
+		?b: AMPK
+		?c: Sirt1
+	?a can inversely phosphorylate ?b
+		?a: Sirt1
+		?b: AMPK
+
+
+label:    sent_12
+sentence: Prostaglandin E2 receptor EP1 phosphorylate CREB and mediates MMP2 expression in human cholangiocarcinoma cells .
+
+ppatt:
+	?a phosphorylate ?b
+		?a: Prostaglandin E2 receptor EP1
+		?b: CREB
+	?a mediates ?b
+		?a: Prostaglandin E2 receptor EP1
+		?b: MMP2 expression in human cholangiocarcinoma cells
+
+
+label:    sent_13
+sentence: Various kinases phosphorylate their substrates and thereby switch on or off their functions .
+
+ppatt:
+	?a phosphorylate ?b
+		?a: Various kinases
+		?b: their substrates
+	?a thereby switch ?b
+		?a: Various kinases
+		?b: on or off their functions
+
+
+label:    sent_14
+sentence: Other kinases have also been shown more recently to phosphorylate and regulate CFTR activity .
+
+ppatt:
+	?a have also been shown more recently to phosphorylate ?b
+		?a: Other kinases
+		?b: CFTR activity
+	?a have also been shown more recently to regulate
+		?a: Other kinases
+
+
+label:    sent_15
+sentence: Recombinant Pfnek3 was able to phosphorylate and stimulate a malarial MAPK ( Pfmap2 ) . Our thin-filament preparations also contain enzymes that phosphorylate and dephosphorylate a specific protein .
+
+ppatt:
+	?a was able to phosphorylate ?b
+		?a: Recombinant Pfnek3
+		?b: a malarial MAPK
+	?a was able to stimulate
+		?a: Recombinant Pfnek3
+	?a is/are Pfmap2
+		?a: a malarial MAPK
+	?a also contain ?b
+		?a: Our thin-filament preparations
+		?b: enzymes that phosphorylate and dephosphorylate a specific protein
+	?a phosphorylate ?b
+		?a: enzymes
+		?b: a specific protein
+	?a dephosphorylate
+		?a: that
+
+
+label:    sent_16
+sentence: Activated LATS1/2 in turn phosphorylate and inhibit Yes-associated protein ( YAP ) . Mitogen-activated protein kinases , Erk and p38 , phosphorylate and regulate Foxo1 .
+
+ppatt:
+	?a phosphorylate ?b
+		?a: Activated LATS1/2 in turn
+		?b: Yes-associated protein
+	?a phosphorylate ?b
+		?a: Activated LATS1/2 in turn
+		?b: Mitogen-activated protein kinases
+	?a inhibit
+		?a: Activated LATS1/2 in turn
+	?a is/are YAP
+		?a: Yes-associated protein
+	?a is/are YAP
+		?a: Mitogen-activated protein kinases
+	?a is/are Erk
+		?a: Mitogen-activated protein kinases
+	?a phosphorylate
+		?a: Activated LATS1/2 in turn
+	?a regulate ?b
+		?a: Activated LATS1/2 in turn
+		?b: Foxo1
+
+
+label:    sent_17
+sentence: Unsaturated fatty acids phosphorylate and destabilize ABCA1 through a protein kinase C delta pathway .
+
+ppatt:
+	?a phosphorylate ?b through ?c
+		?a: Unsaturated fatty acids
+		?b: ABCA1
+		?c: a protein kinase C delta pathway
+	?a destabilize
+		?a: Unsaturated fatty acids
+
+
+label:    sent_18
+sentence: PTKs phosphorylate substrates in a sequence-specific manner and relatively short peptide sequences determine selectivity . DARPP32 has multiple phosphorylation sites , and Cdk5 can phosphorylate DARPP32 at Thr75 .
+
+ppatt:
+	?a phosphorylate ?b in ?c
+		?a: PTKs
+		?b: substrates
+		?c: a sequence-specific manner
+	?a determine ?b
+		?a: relatively short peptide sequences
+		?b: selectivity
+	?a has ?b
+		?a: DARPP32
+		?b: multiple phosphorylation sites
+	?a can phosphorylate ?b at ?c
+		?a: Cdk5
+		?b: DARPP32
+		?c: Thr75
+
+
+label:    sent_19
+sentence: In inside cells , Lats1/2 phosphorylate Yap and prevent its nuclear localization .
+
+ppatt:
+	In ?a , ?b phosphorylate ?c
+		?a: inside cells
+		?b: Lats1/2
+		?c: Yap
+	?a prevent ?b
+		?a: Lats1/2
+		?b: its nuclear localization
+
+
+label:    sent_20
+sentence: LKB1 can phosphorylate the Thr174 of BRSK2 , increasing its activity >50-fold .
+
+ppatt:
+	?a can phosphorylate ?b
+		?a: LKB1
+		?b: the Thr174 of BRSK2
+	?a increasing ?b >50-fold
+		?a: LKB1
+		?b: its activity
+
+
+label:    sent_21
+sentence: Solubilization and partial purification of protein kinase systems from brain membranes that phosphorylate calspectin .
+
+ppatt:
+	?a phosphorylate ?b
+		?a: brain membranes
+		?b: calspectin
+
+
+label:    sent_22
+sentence: The non-specific deoxyriboside kinase can phosphorylate all naturally occurring pyrimidine and purine 2'-deoxyribosides .
+
+ppatt:
+	?a can phosphorylate ?b
+		?a: The non-specific deoxyriboside kinase
+		?b: all naturally occurring pyrimidine
+	?a can phosphorylate ?b
+		?a: The non-specific deoxyriboside kinase
+		?b: purine
+	?a can phosphorylate ?b
+		?a: The non-specific deoxyriboside kinase
+		?b: 2'-deoxyribosides
+
+

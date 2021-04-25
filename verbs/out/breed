@@ -1,0 +1,235 @@
+label:    sent_1
+sentence: Early-maturing females are more likely to breed successfully on first pairing . is that the former species is more likely to breed under laboratory conditions .
+
+ppatt:
+	?a are more likely to breed successfully on ?b
+		?a: Early-maturing females
+		?b: first pairing
+	?a is ?b
+		?a: Early-maturing females
+		?b: SOMETHING := the former species is more likely to breed under laboratory conditions
+	?a is more likely to breed under ?b
+		?a: the former species
+		?b: laboratory conditions
+
+
+label:    sent_2
+sentence: Genetic prediction methodology was used to breed for improved yield performance for drought-prone environments .
+
+ppatt:
+	?a was used to breed for ?b
+		?a: Genetic prediction methodology
+		?b: improved yield performance for drought-prone environments
+
+
+label:    sent_3
+sentence: Only in the Gisborne district did a Hereford breed predisposition to infection become apparent .
+
+ppatt:
+	Only in ?a did ?b
+		?a: the Gisborne district
+		?b: a Hereford breed predisposition to infection
+	?a become apparent
+		?a: a Hereford breed predisposition to infection
+
+
+label:    sent_4
+sentence: The most efficient management for controlling stalk rots is to breed resistant cultivars .
+
+ppatt:
+	?a controlling ?b
+		?a: The most efficient management
+		?b: stalk rots
+	?a is to breed ?b
+		?a: The most efficient management for controlling stalk rots
+		?b: resistant cultivars
+
+
+label:    sent_5
+sentence: The authors intended to breed the Amami rabbits in the laboratory .
+
+ppatt:
+	?a intended to breed ?b in ?c
+		?a: The authors
+		?b: the Amami rabbits
+		?c: the laboratory
+
+
+label:    sent_6
+sentence: Rhinoceros cows breed throughout the year . New breed to old boy .
+
+ppatt:
+	?a breed throughout ?b ?c
+		?a: Rhinoceros cows
+		?b: the year
+		?c: New breed to old boy
+
+
+label:    sent_7
+sentence: The subsequent outcross Blo/Y progeny breed vigorously with the outcrossed Blo/+ female .
+
+ppatt:
+
+
+
+label:    sent_8
+sentence: A new comparative study suggests that birds breed cooperatively when environmental conditions vary .
+
+ppatt:
+	?a suggests ?b
+		?a: A new comparative study
+		?b: SOMETHING := birds breed cooperatively when environmental conditions vary
+	?a breed
+		?a: birds
+	cooperatively when ?a vary
+		?a: environmental conditions
+
+
+label:    sent_9
+sentence: We hypothesized that individual anxiety disorders will breed true in offspring . A breed apart .
+
+ppatt:
+	?a hypothesized ?b
+		?a: We
+		?b: SOMETHING := individual anxiety disorders will breed true in offspring . A breed apart
+	?a will breed true in ?b ?c
+		?a: individual anxiety disorders
+		?b: offspring
+		?c: A breed apart
+
+
+label:    sent_10
+sentence: Generally , it is known that poverty and ignorance breed disease .
+
+ppatt:
+	Generally , ?a is known ?b
+		?a: it
+		?b: poverty
+	Generally , ?a is known ?b
+		?a: it
+		?b: ignorance
+	Generally , ?a is known ?b
+		?a: it
+		?b: breed disease
+
+
+label:    sent_11
+sentence: Oesophageal GIST-A rare breed case report and review of the literature .
+
+ppatt:
+
+
+
+label:    sent_12
+sentence: Analysis of the canine mdr1-1Delta mutation in the dog breed Elo . R. nigromaculata live in rice fields and breed in early May .
+
+ppatt:
+
+
+
+label:    sent_13
+sentence: Cases were not found in submitted calves of the Jersey breed or beef breeds .
+
+ppatt:
+	?a were not found in ?b
+		?a: Cases
+		?b: submitted calves of the Jersey breed or beef breeds
+
+
+label:    sent_14
+sentence: Montasio cheese liking as affected by information about cows breed and rearing system .
+
+ppatt:
+
+
+
+label:    sent_15
+sentence: They may also remain clinically normal indefinitely and breed successfully . Homozygotes are normal in size and weight and breed normally .
+
+ppatt:
+	?a may also remain clinically normal indefinitely and breed successfully
+		?a: They
+	?a are normal in ?b normally
+		?a: Homozygotes
+		?b: size
+	?a are normal in ?b normally
+		?a: Homozygotes
+		?b: weight
+	?a are normal in ?b normally
+		?a: Homozygotes
+		?b: breed
+
+
+label:    sent_16
+sentence: Hata himself tried to breed laboratory mice in the Kitasato Institute .
+
+ppatt:
+	?a ?b tried to breed ?c
+		?a: Hata
+		?b: himself
+		?c: laboratory mice in the Kitasato Institute
+
+
+label:    sent_17
+sentence: An attempt was made to breed them in captivity . To breed good strains by protoplast fusion in Phellinus baumii .
+
+ppatt:
+	?a was made to breed ?b . To breed ?c by ?d
+		?a: An attempt
+		?b: them in captivity
+		?c: good strains
+		?d: protoplast fusion in Phellinus baumii
+
+
+label:    sent_18
+sentence: Southern elephant seals breed on sub-Antarctic islands and have a circumpolar distribution .
+
+ppatt:
+	?a breed on ?b
+		?a: Southern elephant seals
+		?b: sub-Antarctic islands
+	?a have ?b
+		?a: Southern elephant seals
+		?b: a circumpolar distribution
+
+
+label:    sent_19
+sentence: They breed in the warmer season and overwinter in the state of reproductive diapause .
+
+ppatt:
+	?a breed in ?b
+		?a: They
+		?b: the warmer season
+	?a overwinter in ?b
+		?a: They
+		?b: the state of reproductive diapause
+
+
+label:    sent_20
+sentence: Persistently infected cows may breed and will always transmit the infection to the calf .
+
+ppatt:
+	?a may breed
+		?a: Persistently infected cows
+	?a will always transmit ?b
+		?a: Persistently infected cows
+		?b: the infection to the calf
+
+
+label:    sent_21
+sentence: Both species breed together and feed on the same prey .
+
+ppatt:
+	?a breed together and feed on ?b
+		?a: Both species
+		?b: the same prey
+
+
+label:    sent_22
+sentence: Male prairie dogs ( Cynomys ludovicianus ) breed anually and have complete testicular regression .
+
+ppatt:
+	anually have ?a
+		?a: complete testicular regression
+
+

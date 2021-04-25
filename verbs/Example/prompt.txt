@@ -1,0 +1,40 @@
+obj	The current lack of information characterizing MCHDF impedes clinicians from making prompt differential diagnoses .	obj@diagnoses
+obj	It therefore requires prompt therapeutic intervention .	obj@intervention
+obj	It requires prompt recognition and adjustment of therapy .	obj@recognition
+
+subj#obj	This would prompt a workup to rule out thyroid carcinoma .	subj@This obj@workup
+subj#obj	Patients with recurrent stroke need prompt thrombolysis .	subj@Patients obj@thrombolysis
+subj#obj	Changing geographic trends regarding acid-peptic disease may prompt modification of diagnostic approach and treatment .	subj@trends obj@modification
+
+obj#conj	This feature is unique and may prompt future adoption by other guidelines systems .	obj@adoption conj_and@unique
+obj#conj	Careful surveying and prompt treatment is necessary .	obj@treatment conj_and@surveying
+obj#conj	In this regard , the infrequent occurrence has hindered its prompt and early recognition .	obj@hindered conj_and@recognition
+
+subj	Cost-cutting demands prompt trusts to ' explore all options ' .	subj@demands
+subj	For the treatment of SGA aneurysms , prompt and precise preoperative evaluation is important .	subj@important
+subj	Considering ASR as a life-threatening condition , a prompt diagnosis can be life saving .	subj@a
+
+obj#prep	The cardiac tamponade was treated with prompt pericardial fluid drainage .	obj@drainage prepc_with@treated
+obj#prep	Comparative tissue transcriptomics reveal prompt inter-organ communication in response to local bacterial kidney infection .	obj@communication prep_in@infection
+obj#prep	Prognosis depends on prompt recognition and institution of appropriate therapy .	obj@recognition prepc_on@depends
+
+conj	Acute massive pulmonary thromboembolism is a life-threatening disorder , and prompt treatment is necessary .	conj_and@disorder
+conj	Surgery is inevitable , must be prompt , and comprises adnexectomy .	conj_and@inevitable
+conj	Our early results are promising and should prompt further studies to confirm these findings .	conj_and@promising
+
+subj#obj#prep	By contrast , high levels should prompt the performance of an echocardiographic examination .	subj@levels obj@performance prep_by@contrast
+subj#obj#prep	Treatment is prompt surgical decompression by performing fasciotomy in any affected muscular compartments .	subj@Treatment obj@decompression prepc_by@performing
+subj#obj#prep	Endocrinology. Mice prompt look at cholesterol 's role in female fertility .	subj@Mice obj@look prep_at@role
+
+prep#conj	Treatment needs to be prompt and urgent because of the very high mortality rate .	prep_because_of@rate conj_and@urgent
+prep#conj	Thirty-six cases of pseudobulbar palsy treated by needling with prompt and deep insertion .	prep_with@needling conj_and@insertion
+prep#conj	Malaria control strategies emphasize the need for prompt and effective treatment of malaria episodes .	prep_for@need prep_of@episodes conj_and@treatment
+
+prep	Despite poor prognosis , prompt diagnosis and aggressive treatment may maximize visual potential .	prep_despite@prognosis
+prep	The treatment of intra-abdominal sepsis is primarily centered around prompt , appropriate surgical intervention .	prep_around@centered
+prep	The diagnosis of the disease should be as prompt as possible .	prep_as@possible
+
+obj#prep#conj	Early detection allowed for appropriate counseling and prompt corrective surgery after birth .	obj@surgery prep_after@birth conj_and@allowed
+obj#prep#conj	Recommended therapy is intravenous penicillin and prompt drainage for patients failing to respond .	obj@drainage prep_for@patients conj_and@penicillin
+obj#prep#conj	Fine-needle aspiration cytology provided prompt and accurate diagnosis in all patients .	obj@provided prep_in@patients conj_and@diagnosis
+

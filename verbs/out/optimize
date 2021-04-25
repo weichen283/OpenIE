@@ -1,0 +1,282 @@
+label:    sent_1
+sentence: To optimize the results of PCNL , urologists should consider careful patient selection .
+
+ppatt:
+	optimize ?a ?b
+		?a: the results of PCNL
+		?b: urologists
+	?a should consider ?b
+		?a: urologists
+		?b: careful patient selection
+
+
+label:    sent_2
+sentence: To optimize a pretreatment method of urine proteomics in children with primary nephrotic syndrome .
+
+ppatt:
+	optimize ?a
+		?a: a pretreatment method of urine proteomics in children with primary nephrotic syndrome
+
+
+label:    sent_3
+sentence: Such precise measurements of concentration distribution are needed to optimize drug delivery . Microwave-assisted methods have been used to optimize reaction times and to improve yields .
+
+ppatt:
+	?a are needed to optimize ?b
+		?a: Such precise measurements of concentration distribution
+		?b: drug delivery
+	?a have been used to optimize ?b
+		?a: Microwave-assisted methods
+		?b: reaction times
+	?a have been used to to improve ?b
+		?a: Microwave-assisted methods
+		?b: yields
+
+
+label:    sent_4
+sentence: Airway pressure release ventilation seeks to optimize alveolar recruitment and maintain spontaneous ventilatory effort .
+
+ppatt:
+	?a seeks to optimize ?b
+		?a: Airway pressure release ventilation
+		?b: alveolar recruitment
+	?a seeks to maintain ?b
+		?a: Airway pressure release ventilation
+		?b: spontaneous ventilatory effort
+
+
+label:    sent_5
+sentence: Older adults have been reported to optimize affect and attend less to negative information .
+
+ppatt:
+	?a have been reported to optimize affect to ?b
+		?a: Older adults
+		?b: negative information
+	?a have been reported to affect attend less
+		?a: Older adults
+
+
+label:    sent_6
+sentence: Computer simulations are performed to optimize trajectories as a function of parameters .
+
+ppatt:
+	?a are performed to optimize ?b as ?c
+		?a: Computer simulations
+		?b: trajectories
+		?c: a function of parameters
+
+
+label:    sent_7
+sentence: Such data are also helpful to optimize physiotherapy after joint replacement and fractures . SNPPicker can also optimize tag SNP selection for a panel tagging multiple populations .
+
+ppatt:
+	?a are also helpful to optimize ?b after ?c
+		?a: Such data
+		?b: physiotherapy
+		?c: joint replacement
+	?a are also helpful to optimize ?b after ?c
+		?a: Such data
+		?b: physiotherapy
+		?c: fractures
+	?a can also optimize ?b for ?c
+		?a: SNPPicker
+		?b: tag SNP selection
+		?c: a panel tagging multiple populations
+	?a tagging ?b
+		?a: a panel
+		?b: multiple populations
+
+
+label:    sent_8
+sentence: Smart alerts : development of software to optimize data monitoring .
+
+ppatt:
+	?a optimize ?b
+		?a: development of software
+		?b: data monitoring
+
+
+label:    sent_9
+sentence: Integrated strategies to optimize sputum smear microscopy : a prospective observational study . You can optimize revenues , compliance .
+
+ppatt:
+	?a optimize ?b
+		?a: Integrated strategies
+		?b: sputum smear microscopy
+	?a ?b can optimize ?c
+		?a: a prospective observational study
+		?b: You
+		?c: revenues
+	?a is/are compliance
+		?a: revenues
+
+
+label:    sent_10
+sentence: Three-wavelength scheme to optimize hohlraum coupling on the National Ignition Facility .
+
+ppatt:
+	?a optimize ?b on ?c
+		?a: Three-wavelength scheme
+		?b: hohlraum coupling
+		?c: the National Ignition Facility
+
+
+label:    sent_11
+sentence: This allows circuits to optimize their output in response to a variety of input .
+
+ppatt:
+	?a allows ?b
+		?a: This
+		?b: circuits to optimize their output in to a variety of input
+	?a optimize ?b in to ?c
+		?a: circuits
+		?b: their output
+		?c: a variety of input
+
+
+label:    sent_12
+sentence: With this information we can optimize patient selection for laparoscopic surgery .
+
+ppatt:
+	With ?a ?b can optimize ?c
+		?a: this information
+		?b: we
+		?c: patient selection for laparoscopic surgery
+
+
+label:    sent_13
+sentence: We optimize the cell geometry and introduce standard samples for electrochemical AFM experiments .
+
+ppatt:
+	?a optimize ?b
+		?a: We
+		?b: the cell geometry
+	?a introduce ?b for ?c
+		?a: We
+		?b: standard samples
+		?c: electrochemical AFM experiments
+
+
+label:    sent_14
+sentence: It can optimize operation and reduce the operation time .
+
+ppatt:
+	?a can optimize ?b
+		?a: It
+		?b: operation
+	?a reduce ?b
+		?a: It
+		?b: the operation time
+
+
+label:    sent_15
+sentence: It can optimize emergency clinical pathway , and meet the needs of clinical rescue .
+
+ppatt:
+	?a can optimize ?b
+		?a: It
+		?b: emergency clinical pathway
+	?a meet ?b
+		?a: It
+		?b: the needs of clinical rescue
+
+
+label:    sent_16
+sentence: In future studies , neurophysiological recordings could help to optimize and individualize NF training .
+
+ppatt:
+	In ?a , ?b could help to optimize ?c
+		?a: future studies
+		?b: neurophysiological recordings
+		?c: NF training
+	?a could help to individualize
+		?a: neurophysiological recordings
+
+
+label:    sent_17
+sentence: Further research to optimize and improve vaccine efficacy is ongoing . Steps to optimize and standardize the 4D-CT scanning protocols for SBRT are desirable .
+
+ppatt:
+	?a optimize ?b
+		?a: Further research
+		?b: vaccine efficacy
+	?a improve
+		?a: Further research
+	?a is ongoing
+		?a: Further research to optimize and improve vaccine efficacy
+	?a optimize ?b
+		?a: Steps
+		?b: the 4D-CT scanning protocols for SBRT
+	?a standardize
+		?a: Steps
+	?a are desirable
+		?a: Steps to optimize and standardize the 4D-CT scanning protocols for SBRT
+
+
+label:    sent_18
+sentence: We first generate and optimize all low-energy conformations by any suitable method .
+
+ppatt:
+	?a first generate ?b by ?c
+		?a: We
+		?b: all low-energy conformations
+		?c: any suitable method
+	?a optimize
+		?a: We
+
+
+label:    sent_19
+sentence: A measurement-based care system was used to guide and optimize treatment at each level .
+
+ppatt:
+	?a was used to guide ?b at ?c
+		?a: A measurement-based care system
+		?b: treatment
+		?c: each level
+	?a was used to optimize
+		?a: A measurement-based care system
+
+
+label:    sent_20
+sentence: The prompt diagnosis is important for optimize the etiology evaluation and therapeutically approach . " Pre-operative and post-operative target volumes are designed to optimize for disease control .
+
+ppatt:
+	?a is important
+		?a: The prompt diagnosis
+	?a optimize ?b
+		?a: The prompt diagnosis
+		?b: the etiology evaluation
+	?a optimize ?b
+		?a: The prompt diagnosis
+		?b: therapeutically approach
+	?a ?b are designed to optimize for ?c
+		?a: "
+		?b: Pre-operative and post-operative target volumes
+		?c: disease control
+
+
+label:    sent_21
+sentence: Mean physiological data indicate a tendency to optimize at 100-130 degrees seat height .
+
+ppatt:
+	?a indicate ?b
+		?a: Mean physiological data
+		?b: a tendency to optimize at 100-130 degrees seat height
+	?a optimize at ?b
+		?a: a tendency
+		?b: 100-130 degrees seat height
+
+
+label:    sent_22
+sentence: An efficient way to learn and optimize such cascade is proposed .
+
+ppatt:
+	?a learn ?b
+		?a: An efficient way
+		?b: such cascade
+	?a optimize
+		?a: An efficient way
+	?a is proposed
+		?a: An efficient way to learn and optimize such cascade
+
+

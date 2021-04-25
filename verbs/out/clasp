@@ -1,0 +1,77 @@
+label:    sent_1
+sentence: These specimens showed how the maxillipeds are used to clasp the host .
+
+ppatt:
+	?a showed ?b
+		?a: These specimens
+		?b: SOMETHING := how the maxillipeds are used to clasp the host
+	how ?a are used to clasp ?b
+		?a: the maxillipeds
+		?b: the host
+
+
+label:    sent_2
+sentence: Males often changed calling positions and successfully attempted to clasp one another .
+
+ppatt:
+	?a often changed calling ?b
+		?a: Males
+		?b: positions
+	?a successfully attempted to clasp ?b
+		?a: Males
+		?b: one another
+
+
+label:    sent_3
+sentence: She had a positive pointing index test on attempting to clasp her hand . A clinical investigation of the fit of removable partial dental prosthesis clasp assemblies .
+
+ppatt:
+	?a had ?b
+		?a: She
+		?b: a positive pointing index test
+	?a attempting to clasp ?b
+		?a: She
+		?b: her hand
+
+
+label:    sent_4
+sentence: [New clasp design for removable partial dentures ( author 's transl ) ] . RPA clasp design for distal-extension removable partial dentures . Double ball clasp for plate and splint appliances .
+
+ppatt:
+	?a is/are ?b 's transl
+		?a: removable partial dentures
+		?b: author
+
+
+label:    sent_5
+sentence: Use of an Adams clasp for a cast unilateral removable partial denture .
+
+ppatt:
+
+
+
+label:    sent_6
+sentence: An unusual fracture of a denture clasp due to contact with liquid mercury .
+
+ppatt:
+
+
+
+label:    sent_7
+sentence: The effect of partial denture clasp design on abutment tooth movement .
+
+ppatt:
+
+
+
+label:    sent_8
+sentence: The Southend clasp . A further variation of the Adams clasp . The tunnel clasp . [Eyelet clasp as a retaining element for an activator appliance in orthodontics ] .
+
+ppatt:
+	?a A further variation of ?b . ?c as ?d
+		?a: The Southend clasp
+		?b: the Adams clasp
+		?c: The tunnel clasp . [Eyelet clasp
+		?d: a retaining element for an activator appliance in orthodontics ]
+
+

@@ -1,0 +1,249 @@
+label:    sent_1
+sentence: These impairments may precipitate and perpetuate suicidal crisis in depressed elders .
+
+ppatt:
+	?a may precipitate ?b
+		?a: These impairments
+		?b: suicidal crisis in depressed elders
+	?a perpetuate
+		?a: These impairments
+
+
+label:    sent_2
+sentence: Inflammatory mediators can both initiate and perpetuate the characteristic hyperdynamic , hypermetabolic state .
+
+ppatt:
+	?a can both initiate ?b
+		?a: Inflammatory mediators
+		?b: the characteristic hyperdynamic , state
+	?a perpetuate
+		?a: Inflammatory mediators
+
+
+label:    sent_3
+sentence: Such an asymmetric distribution may serve to initiate or perpetuate cell locomotion .
+
+ppatt:
+	?a may serve to initiate ?b
+		?a: Such an asymmetric distribution
+		?b: cell locomotion
+	?a may serve to perpetuate
+		?a: Such an asymmetric distribution
+
+
+label:    sent_4
+sentence: Thus disordered eating and excess body weight may perpetuate each other 's development .
+
+ppatt:
+	Thus ?a may perpetuate ?b
+		?a: disordered eating
+		?b: each other 's development
+	Thus ?a may perpetuate ?b
+		?a: excess body weight
+		?b: each other 's development
+
+
+label:    sent_5
+sentence: The justifications for this lack of evidence may perpetuate the status quo . Antibodies to myelin P0 and ceramide perpetuate neuropathy in long standing treated leprosy patients .
+
+ppatt:
+	?a may perpetuate ?b
+		?a: The justifications for this lack of evidence
+		?b: the status quo
+	?a perpetuate ?b
+		?a: Antibodies to myelin P0 and ceramide
+		?b: neuropathy in long standing treated leprosy patients
+
+
+label:    sent_6
+sentence: Do maternal cells trigger or perpetuate autoimmune diseases in children ? It can cause and perpetuate many chronic postural ailments , including lower back pain .
+
+ppatt:
+	Do ?a trigger ?b
+		?a: maternal cells
+		?b: autoimmune diseases in children
+	?a perpetuate
+		?a: maternal cells
+	?a can cause ?b
+		?a: It
+		?b: many chronic postural ailments , including lower back pain
+	?a perpetuate
+		?a: It
+
+
+label:    sent_7
+sentence: Importantly , senescent cells can be proinflammatory and would perpetuate CF chronic inflammation .
+
+ppatt:
+	Importantly , ?a can be proinflammatory
+		?a: senescent cells
+	?a would perpetuate ?b
+		?a: senescent cells
+		?b: CF chronic inflammation
+
+
+label:    sent_8
+sentence: Strong social norms proscribing pre-marital sexual relationships perpetuate barriers in meeting their needs . Awards perpetuate bias against generalism .
+
+ppatt:
+	?a proscribing ?b
+		?a: Strong social norms
+		?b: pre-marital sexual relationships
+	?a perpetuate ?b
+		?a: Strong social norms proscribing pre-marital sexual relationships
+		?b: barriers
+	?a meeting ?b
+		?a: Strong social norms proscribing pre-marital sexual relationships
+		?b: their needs
+	?a perpetuate ?b
+		?a: Awards
+		?b: bias against generalism
+
+
+label:    sent_9
+sentence: Staff narratives perpetuate patient-focused values in face of rapid change .
+
+ppatt:
+	?a perpetuate ?b in ?c
+		?a: Staff narratives
+		?b: patient-focused values
+		?c: face of rapid change
+
+
+label:    sent_10
+sentence: Killing appears to perpetuate itself even in the absence of retaliation .
+
+ppatt:
+	?a appears to perpetuate ?b of ?c
+		?a: Killing
+		?b: itself
+		?c: even retaliation
+
+
+label:    sent_11
+sentence: Multivariate model also assessed the factors that may perpetuate RHD among RF patients .
+
+ppatt:
+	?a also assessed ?b
+		?a: Multivariate model
+		?b: the factors that may perpetuate RHD among RF patients
+	?a may perpetuate ?b among ?c
+		?a: the factors
+		?b: RHD
+		?c: RF patients
+
+
+label:    sent_12
+sentence: Token practices served to perpetuate inequality by maintaining individual mobility beliefs and organizational identification .
+
+ppatt:
+	?a served to perpetuate ?b
+		?a: Token practices
+		?b: inequality
+	?a maintaining ?b
+		?a: Token practices
+		?b: individual mobility beliefs
+	?a maintaining ?b
+		?a: Token practices
+		?b: organizational identification
+
+
+label:    sent_13
+sentence: Do they perpetuate the disease or are they irrelevant ? These factors otherwise would perpetuate venous insufficiency and contribute to varicose veins .
+
+ppatt:
+	Do ?a perpetuate ?b
+		?a: they
+		?b: the disease
+	?a otherwise would perpetuate ?b
+		?a: These factors
+		?b: venous insufficiency
+	?a contribute to ?b
+		?a: These factors
+		?b: varicose veins
+
+
+label:    sent_14
+sentence: Locally produced phospholipases might perpetuate the injury and influence clinical pictures and therapeutic approaches .
+
+ppatt:
+	?a might perpetuate ?b
+		?a: Locally produced phospholipases
+		?b: the injury
+	?a influence ?b
+		?a: Locally produced phospholipases
+		?b: clinical pictures
+	?a influence ?b
+		?a: Locally produced phospholipases
+		?b: therapeutic approaches
+
+
+label:    sent_15
+sentence: Like all species , humans have exercised their impulse to perpetuate and propagate themselves .
+
+ppatt:
+	Like ?a , ?b have exercised ?c to perpetuate ?d
+		?a: all species
+		?b: humans
+		?c: their impulse
+		?d: themselves
+	?a have exercised to propagate
+		?a: humans
+
+
+label:    sent_16
+sentence: Endogenous adenosine might cause or perpetuate bradyasystole .
+
+ppatt:
+	?a might cause ?b
+		?a: Endogenous adenosine
+		?b: bradyasystole
+	?a perpetuate
+		?a: Endogenous adenosine
+
+
+label:    sent_17
+sentence: Traditional learning methods can sometimes perpetuate unappraised and unfounded beliefs and practices .
+
+ppatt:
+	?a can sometimes perpetuate ?b
+		?a: Traditional learning methods
+		?b: unappraised and unfounded beliefs
+	?a can sometimes perpetuate ?b
+		?a: Traditional learning methods
+		?b: practices
+
+
+label:    sent_18
+sentence: Our data suggest that conventional lidocaine doses may perpetuate rather than control refractory convulsions .
+
+ppatt:
+	?a suggest ?b
+		?a: Our data
+		?b: SOMETHING := conventional lidocaine doses may perpetuate rather than control refractory convulsions
+	?a may perpetuate ?b
+		?a: conventional lidocaine doses
+		?b: control refractory convulsions
+
+
+label:    sent_19
+sentence: Interactions between these pathways may perpetuate a feedback process that exacerbates an inflammatory state .
+
+ppatt:
+	?a may perpetuate ?b
+		?a: Interactions between these pathways
+		?b: a feedback process that exacerbates an inflammatory state
+	?a exacerbates ?b
+		?a: a feedback process
+		?b: an inflammatory state
+
+
+label:    sent_20
+sentence: This process might perpetuate in cell division conditioning of chromatin for transcription .
+
+ppatt:
+	?a might perpetuate in ?b
+		?a: This process
+		?b: cell division conditioning of chromatin for transcription
+
+

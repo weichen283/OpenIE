@@ -1,0 +1,255 @@
+label:    sent_1
+sentence: We speculate that increased respiratory complications maybe due to ciliary dysfunction .
+
+ppatt:
+	?a speculate ?b
+		?a: We
+		?b: SOMETHING := that increased respiratory complications maybe due to ciliary dysfunction
+	?a maybe due to ?b
+		?a: increased respiratory complications
+		?b: ciliary dysfunction
+
+
+label:    sent_2
+sentence: We speculate that the amygdala filters sensory information with evolutionarily conserved relevance .
+
+ppatt:
+	?a speculate ?b
+		?a: We
+		?b: SOMETHING := the amygdala filters sensory information with evolutionarily conserved relevance
+	?a filters ?b with ?c
+		?a: the amygdala
+		?b: sensory information
+		?c: evolutionarily conserved relevance
+
+
+label:    sent_3
+sentence: We speculate that increased AMEL nanosphere size may influence enamel formation in strepsirrhine primates .
+
+ppatt:
+	?a speculate ?b
+		?a: We
+		?b: SOMETHING := that increased AMEL nanosphere size may influence enamel formation in strepsirrhine primates
+	?a may influence ?b in ?c
+		?a: increased AMEL nanosphere size
+		?b: enamel formation
+		?c: strepsirrhine primates
+
+
+label:    sent_4
+sentence: We speculate on the reasons for the differences in magnitude .
+
+ppatt:
+	?a speculate on ?b
+		?a: We
+		?b: the reasons for the differences in magnitude
+
+
+label:    sent_5
+sentence: Limited literature means we can only speculate as to the reason for twisted ileostomy .
+
+ppatt:
+	?a ?b can only speculate as to ?c
+		?a: Limited literature means
+		?b: we
+		?c: the reason for twisted ileostomy
+
+
+label:    sent_6
+sentence: Afterwards , we speculate on the elusive pathophysiology of this oncological emergency .
+
+ppatt:
+	Afterwards , ?a speculate on ?b
+		?a: we
+		?b: the elusive pathophysiology of this oncological emergency
+
+
+label:    sent_7
+sentence: In this review we evaluate these new markers and speculate about future scenarios .
+
+ppatt:
+	In ?a ?b evaluate ?c
+		?a: this review
+		?b: we
+		?c: these new markers
+	?a speculate about ?b
+		?a: we
+		?b: future scenarios
+
+
+label:    sent_8
+sentence: We summarize this literature and speculate on the future characterization of this transport system .
+
+ppatt:
+	?a summarize ?b
+		?a: We
+		?b: this literature
+	?a speculate on ?b
+		?a: We
+		?b: the future characterization of this transport system
+
+
+label:    sent_9
+sentence: We discuss the evolution and speculate on possible ecological functions of coloured nectar .
+
+ppatt:
+	?a discuss ?b
+		?a: We
+		?b: the evolution
+	?a speculate on ?b
+		?a: We
+		?b: possible ecological functions of coloured nectar
+
+
+label:    sent_10
+sentence: Besides intercellular junctions , we may speculate a paracrine effect via ectovesicles .
+
+ppatt:
+	Besides ?a , ?b may speculate ?c via ?d
+		?a: intercellular junctions
+		?b: we
+		?c: a paracrine effect
+		?d: ectovesicles
+
+
+label:    sent_11
+sentence: We speculate PD results in frailty through reduced physical activity .
+
+ppatt:
+	?a speculate ?b
+		?a: We
+		?b: SOMETHING := PD results in frailty through reduced physical activity
+	?a results in ?b through ?c
+		?a: PD
+		?b: frailty
+		?c: reduced physical activity
+
+
+label:    sent_12
+sentence: In our case , we speculate the following mechanism .
+
+ppatt:
+	In ?a , ?b speculate ?c
+		?a: our case
+		?b: we
+		?c: the following mechanism
+
+
+label:    sent_13
+sentence: We speculate about the evolutionary origins of this gender difference and note some implications .
+
+ppatt:
+	?a speculate about ?b
+		?a: We
+		?b: the evolutionary origins of this gender difference
+	?a note ?b
+		?a: We
+		?b: some implications
+
+
+label:    sent_14
+sentence: We speculate on the histogenesis of teratoid hepatoblastoma and discuss its association with chemotherapy .
+
+ppatt:
+	?a speculate on ?b
+		?a: We
+		?b: the histogenesis of teratoid hepatoblastoma
+	?a discuss ?b
+		?a: We
+		?b: its association with chemotherapy
+
+
+label:    sent_15
+sentence: System change is a difficult process and one can only speculate about the outcomes .
+
+ppatt:
+	?a is a difficult process
+		?a: System change
+	?a can only speculate about ?b
+		?a: one
+		?b: the outcomes
+
+
+label:    sent_16
+sentence: Some also speculate a role for NAA in myelination .
+
+ppatt:
+	?a also speculate ?b
+		?a: Some
+		?b: a role for NAA in myelination
+
+
+label:    sent_17
+sentence: We speculate additional variables such as genetic factors influence weight gain and warrant study .
+
+ppatt:
+	?a speculate ?b ?c
+		?a: We
+		?b: additional variables such as genetic factors
+		?c: SOMETHING := influence weight gain
+	?a influence ?b
+		?a: We
+		?b: weight gain
+	?a warrant ?b
+		?a: We
+		?b: study
+
+
+label:    sent_18
+sentence: We speculate about the possible implications of this finding . Presence of nystagmus may help to speculate the lesion of Bickerstaff 's brainstem encephalitis .
+
+ppatt:
+	?a speculate about ?b ?c
+		?a: We
+		?b: the possible implications of this finding
+		?c: SOMETHING := Presence of nystagmus may help to speculate the lesion of Bickerstaff 's brainstem encephalitis
+	?a may help to speculate ?b
+		?a: Presence of nystagmus
+		?b: the lesion of Bickerstaff 's brainstem encephalitis
+
+
+label:    sent_19
+sentence: The model was further utilized to speculate substrate propensity of in-house anticancer compounds .
+
+ppatt:
+	?a was further utilized to speculate ?b
+		?a: The model
+		?b: substrate propensity of in-house anticancer compounds
+
+
+label:    sent_20
+sentence: Further , it creates an avenue to speculate a new model for arsenic biomonitoring .
+
+ppatt:
+	Further , ?a creates ?b
+		?a: it
+		?b: an avenue to speculate a new model for arsenic biomonitoring
+	?a speculate ?b
+		?a: an avenue
+		?b: a new model for arsenic biomonitoring
+
+
+label:    sent_21
+sentence: We will attempt to explain the effects and speculate on the possible mechanisms .
+
+ppatt:
+	?a will attempt to explain ?b
+		?a: We
+		?b: the effects
+	?a will attempt to speculate on ?b
+		?a: We
+		?b: the possible mechanisms
+
+
+label:    sent_22
+sentence: We also summarise the current technologies and speculate on future directions for telomerase testing .
+
+ppatt:
+	?a also summarise ?b
+		?a: We
+		?b: the current technologies
+	?a speculate on ?b
+		?a: We
+		?b: future directions for telomerase testing
+
+

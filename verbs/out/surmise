@@ -1,0 +1,105 @@
+label:    sent_1
+sentence: Nonetheless , we surmise it may have developed secondary to his end-stage renal disease .
+
+ppatt:
+	Nonetheless , ?a surmise ?b
+		?a: we
+		?b: SOMETHING := it may have developed secondary to his end-stage renal disease
+	?a may have developed secondary to ?b
+		?a: it
+		?b: his end-stage renal disease
+
+
+label:    sent_2
+sentence: Thus we surmise that CR could lead to pronounced and synchronized biological rhythms .
+
+ppatt:
+	Thus ?a surmise ?b
+		?a: we
+		?b: SOMETHING := CR could lead to pronounced and synchronized biological rhythms
+	?a could lead to ?b
+		?a: CR
+		?b: pronounced and synchronized biological rhythms
+
+
+label:    sent_3
+sentence: This surmise warrants further study . By doing so , we surmise endogenous stress reduction emerges .
+
+ppatt:
+	?a warrants ?b
+		?a: This surmise
+		?b: further study
+	?a doing so
+		?a: This surmise
+	?a surmise ?b
+		?a: we
+		?b: SOMETHING := endogenous stress reduction emerges
+	?a emerges
+		?a: endogenous stress reduction
+
+
+label:    sent_4
+sentence: Wigner surmise for mixed symmetry classes in random matrix theory . Wigner surmise for Hermitian and non-Hermitian chiral random matrices .
+
+ppatt:
+	?a surmise for ?b
+		?a: Wigner
+		?b: mixed symmetry classes in random matrix theory
+	?a surmise for ?b
+		?a: Wigner
+		?b: Hermitian and non-Hermitian chiral random matrices
+
+
+label:    sent_5
+sentence: The aim of this study is to surmise the structure of H. pylori GryA .
+
+ppatt:
+	?a is to surmise ?b
+		?a: The aim of this study
+		?b: the structure of H. pylori GryA
+
+
+label:    sent_6
+sentence: Breakpoint analyses enabled us to surmise the mechanisms for many of these rearrangements .
+
+ppatt:
+	?a enabled ?b to surmise ?c
+		?a: Breakpoint analyses
+		?b: us
+		?c: the mechanisms for many of these rearrangements
+
+
+label:    sent_7
+sentence: We also surmise the affinity of some transporters to sulfur-containing compounds .
+
+ppatt:
+	?a also surmise ?b
+		?a: We
+		?b: the affinity of some transporters to sulfur-containing compounds
+
+
+label:    sent_8
+sentence: We surmise this mechanism to be instrumental in the progression of thrombotic processes .
+
+ppatt:
+	?a surmise ?b
+		?a: We
+		?b: this mechanism to be instrumental in the progression of thrombotic processes
+	?a be instrumental in ?b
+		?a: this mechanism
+		?b: the progression of thrombotic processes
+
+
+label:    sent_9
+sentence: The authors can not surmise about unrecorded data or use them in any analysis .
+
+ppatt:
+	?a can not surmise about ?b
+		?a: The authors
+		?b: unrecorded data
+	?a use ?b in ?c
+		?a: The authors
+		?b: them
+		?c: any analysis
+
+

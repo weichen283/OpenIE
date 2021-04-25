@@ -1,0 +1,126 @@
+label:    sent_1
+sentence: A greater understanding of these interactions might pave the way to improved microbe-based immunotherapies .
+
+ppatt:
+	?a might pave ?b
+		?a: A greater understanding of these interactions
+		?b: the way to improved microbe-based immunotherapies
+	?a improved ?b
+		?a: the way
+		?b: microbe-based immunotherapies
+
+
+label:    sent_2
+sentence: Quantitative imaging strategies pave the way for testable biological concepts .
+
+ppatt:
+	?a pave ?b
+		?a: Quantitative imaging strategies
+		?b: the way for testable biological concepts
+
+
+label:    sent_3
+sentence: Timely HAART initiation may pave the way for a better viral control .
+
+ppatt:
+	Timely ?a may pave ?b
+		?a: HAART initiation
+		?b: the way for a better viral control
+
+
+label:    sent_4
+sentence: One might then identify the cause and pave the way for a mitigating response .
+
+ppatt:
+	?a might then identify ?b
+		?a: One
+		?b: the cause
+	?a pave ?b
+		?a: One
+		?b: the way for a mitigating response
+
+
+label:    sent_5
+sentence: Two Kentucky physicians helped pave the way to the modern treatment of fractures . Save pave the world .
+
+ppatt:
+	?a helped ?b
+		?a: Two Kentucky physicians
+		?b: SOMETHING := pave the way to the modern treatment of fractures
+	?a pave ?b
+		?a: Two Kentucky physicians
+		?b: the way to the modern treatment of fractures
+	?a Save
+		?a: Two Kentucky physicians
+	?a pave ?b
+		?a: Two Kentucky physicians
+		?b: the world
+
+
+label:    sent_6
+sentence: In vivo results are promising and could pave way for novel chemo-immunotherapeutic treatment modality .
+
+ppatt:
+	?a are promising
+		?a: In results
+	?a could pave ?b
+		?a: In results
+		?b: way for novel chemo-immunotherapeutic treatment modality
+
+
+label:    sent_7
+sentence: These findings could pave ways for future efforts to overcome oxaliplatin resistance .
+
+ppatt:
+	?a could pave ?b
+		?a: These findings
+		?b: ways for future efforts to overcome oxaliplatin resistance
+	?a overcome ?b
+		?a: future efforts
+		?b: oxaliplatin resistance
+
+
+label:    sent_8
+sentence: These results pave the way to novel nanoscale electronics via exohedral doping .
+
+ppatt:
+	?a pave ?b
+		?a: These results
+		?b: the way to novel nanoscale electronics via exohedral doping
+
+
+label:    sent_9
+sentence: The assessment of macular surgery could pave the way in realising such technical advances .
+
+ppatt:
+	?a could pave ?b
+		?a: The assessment of macular surgery
+		?b: the way in realising such technical advances
+	?a realising ?b
+		?a: the way
+		?b: such technical advances
+
+
+label:    sent_10
+sentence: These simulators will pave the way for screening robust strains and process conditions .
+
+ppatt:
+	?a will pave ?b
+		?a: These simulators
+		?b: the way for screening robust strains and process conditions
+	?a screening ?b
+		?a: the way
+		?b: robust strains
+	?a screening ?b
+		?a: the way
+		?b: process conditions
+
+
+label:    sent_11
+sentence: Automatic remote monitoring : milestones reached , paths to pave .
+
+ppatt:
+	?a is/are paths
+		?a: milestones reached , to pave
+
+

@@ -1,0 +1,309 @@
+label:    sent_1
+sentence: The activation of these receptors is tightly regulated by ectoenzymes that metabolize their ligands . A. caldus is able to metabolize elemental sulfur and a broad range of ISCs .
+
+ppatt:
+	?a is tightly regulated by ?b
+		?a: The activation of these receptors
+		?b: ectoenzymes that metabolize their ligands
+	?a metabolize ?b
+		?a: ectoenzymes
+		?b: their ligands
+	?a is able to metabolize ?b
+		?a: A. caldus
+		?b: elemental sulfur
+	?a is able to metabolize ?b
+		?a: A. caldus
+		?b: a broad range of ISCs
+
+
+label:    sent_2
+sentence: Therefore , skin expresses multiple enzymes that synthesize and metabolize lipids . Cytochrome-P450 enzymes metabolize most administered drugs . Freshwater fungi can metabolize organic xenobiotics .
+
+ppatt:
+	Therefore , ?a expresses ?b
+		?a: skin
+		?b: multiple enzymes that synthesize and metabolize lipids
+	?a synthesize ?b
+		?a: multiple enzymes
+		?b: lipids
+	?a metabolize
+		?a: that
+	?a metabolize ?b
+		?a: Cytochrome-P450 enzymes
+		?b: most administered drugs
+	?a can metabolize ?b
+		?a: Freshwater fungi
+		?b: organic xenobiotics
+
+
+label:    sent_3
+sentence: These enzymes metabolize numerous toxins thus protecting from oxidative injury . Human platelets metabolize 8,11,14,17-eicosatetraenoic acid primarily into 12-hydroxy-8,10,14,17-eicosatetraenoic acid .
+
+ppatt:
+	?a metabolize ?b thus protecting from ?c
+		?a: These enzymes
+		?b: numerous toxins
+		?c: oxidative injury
+	?a metabolize ?b primarily into ?c
+		?a: Human platelets
+		?b: 8,11,14,17-eicosatetraenoic acid
+		?c: 12-hydroxy-8,10,14,17-eicosatetraenoic acid
+
+
+label:    sent_4
+sentence: The renal cortex does not metabolize arachidonic acid through the lipoxygenase pathway .
+
+ppatt:
+	?a does not metabolize ?b through ?c
+		?a: The renal cortex
+		?b: arachidonic acid
+		?c: the lipoxygenase pathway
+
+
+label:    sent_5
+sentence: Rabbit renal cortical microsomes metabolize arachidonic acid to trihydroxyeicosatrienoic acids .
+
+ppatt:
+	?a metabolize ?b to ?c
+		?a: Rabbit renal cortical microsomes
+		?b: arachidonic acid
+		?c: trihydroxyeicosatrienoic acids
+
+
+label:    sent_6
+sentence: Resting cells were shown to metabolize 3- and 4-hydroxyphenylacetate via homogentisate and 3,4-dihydroxyphenylacetate .
+
+ppatt:
+	?a were shown to metabolize ?b via ?c
+		?a: Resting cells
+		?b: 3-
+		?c: homogentisate
+	?a were shown to metabolize ?b via ?c
+		?a: Resting cells
+		?b: 4-hydroxyphenylacetate
+		?c: homogentisate
+	?a were shown to metabolize ?b via ?c
+		?a: Resting cells
+		?b: 3-
+		?c: 3,4-dihydroxyphenylacetate
+	?a were shown to metabolize ?b via ?c
+		?a: Resting cells
+		?b: 4-hydroxyphenylacetate
+		?c: 3,4-dihydroxyphenylacetate
+
+
+label:    sent_7
+sentence: However , few reports have discussed intestinal bacteria that metabolize daidzein into dihydrodaidzein .
+
+ppatt:
+	However , ?a have discussed ?b
+		?a: few reports
+		?b: intestinal bacteria that metabolize daidzein into dihydrodaidzein
+	?a metabolize ?b into ?c
+		?a: intestinal bacteria
+		?b: daidzein
+		?c: dihydrodaidzein
+
+
+label:    sent_8
+sentence: Sulfolobus solfataricus P2 is able to metabolize n-propanol as the sole carbon source .
+
+ppatt:
+	?a is able to metabolize ?b as ?c
+		?a: Sulfolobus solfataricus P2
+		?b: n-propanol
+		?c: the sole carbon source
+
+
+label:    sent_9
+sentence: Differentiated ADHLSCs are also able to metabolize ammonium chloride and to produce urea .
+
+ppatt:
+	?a are also able to metabolize ?b
+		?a: Differentiated ADHLSCs
+		?b: ammonium chloride
+	?a are also able to to produce ?b
+		?a: Differentiated ADHLSCs
+		?b: urea
+
+
+label:    sent_10
+sentence: They degrade lignin-containing cell walls , but do not metabolize the lignin moiety .
+
+ppatt:
+	?a degrade ?b
+		?a: They
+		?b: lignin-containing cell walls
+	?a do not metabolize ?b
+		?a: They
+		?b: the lignin moiety
+
+
+label:    sent_11
+sentence: The bacteria tolerate the detergent and do not metabolize it . Lipoxygenases metabolize arachidonic acid and have been involved in cancer cell proliferation and survival .
+
+ppatt:
+	?a tolerate ?b
+		?a: The bacteria
+		?b: the detergent
+	?a do not metabolize ?b
+		?a: The bacteria
+		?b: it
+	?a metabolize ?b
+		?a: Lipoxygenases
+		?b: arachidonic acid
+	?a have been involved in ?b
+		?a: Lipoxygenases
+		?b: cancer cell
+
+
+label:    sent_12
+sentence: Ginseng products are usually taken orally , and human intestinal microflora may metabolize ginsenosides .
+
+ppatt:
+	?a are usually taken orally
+		?a: Ginseng products
+	?a may metabolize ?b
+		?a: human intestinal microflora
+		?b: ginsenosides
+
+
+label:    sent_13
+sentence: Five of the 32 strains could metabolize citrate but none of them produced exopolysaccharides .
+
+ppatt:
+	?a could metabolize ?b
+		?a: Five of the 32 strains
+		?b: citrate
+	?a produced ?b
+		?a: none of them
+		?b: exopolysaccharides
+
+
+label:    sent_14
+sentence: Recent data indicate that bacteria--although short lived -- produce , metabolize and accumulate AGEs .
+
+ppatt:
+	?a indicate ?b
+		?a: Recent data
+		?b: SOMETHING := that produce
+	?a produce
+		?a: Recent data
+	?a metabolize ?b
+		?a: Recent data
+		?b: AGEs
+	?a accumulate
+		?a: Recent data
+
+
+label:    sent_15
+sentence: Pheochromocytomas are rare neuroendocrine tumors that produce , metabolize , and usually secrete catecholamines .
+
+ppatt:
+	?a are rare neuroendocrine tumors
+		?a: Pheochromocytomas
+	?a produce
+		?a: rare neuroendocrine tumors
+	?a metabolize
+		?a: that
+	?a usually secrete ?b
+		?a: that
+		?b: catecholamines
+
+
+label:    sent_16
+sentence: Strain PCC5M grew on dipicolinate but did not metabolize m-phthalate .
+
+ppatt:
+	?a grew on ?b
+		?a: Strain PCC5M
+		?b: dipicolinate
+	?a did not metabolize ?b
+		?a: Strain PCC5M
+		?b: m-phthalate
+
+
+label:    sent_17
+sentence: In turn , the colonic microorganisms metabolize dietary compounds and mediate cellular events .
+
+ppatt:
+	In ?a , ?b metabolize ?c
+		?a: turn
+		?b: the colonic microorganisms
+		?c: dietary compounds
+	?a mediate ?b
+		?a: the colonic microorganisms
+		?b: cellular events
+
+
+label:    sent_18
+sentence: Most normal human fibroblasts grown in culture do not metabolize promutagens/procarcinogens .
+
+ppatt:
+	?a grown in ?b
+		?a: Most normal human fibroblasts
+		?b: culture
+	?a do not metabolize ?b
+		?a: Most normal human fibroblasts grown in culture
+		?b: promutagens/procarcinogens
+
+
+label:    sent_19
+sentence: Cytochrome P450 monooxygenases ( P450s ) metabolize herbicides to produce mainly non-phytotoxic metabolites .
+
+ppatt:
+	?a is/are P450s
+		?a: Cytochrome P450 monooxygenases
+	?a metabolize ?b to produce ?c
+		?a: Cytochrome P450 monooxygenases
+		?b: herbicides
+		?c: mainly non-phytotoxic metabolites
+
+
+label:    sent_20
+sentence: PMNL treated with PMA and/or Cetac did not metabolize N-OH-2-FAA ( 30 microM ) . Rat liver homogenates did not metabolize [14C ] F-leurosine to any detectable extent .
+
+ppatt:
+	?a treated with ?b
+		?a: PMNL
+		?b: PMA
+	?a treated with ?b
+		?a: PMNL
+		?b: Cetac
+	?a did not metabolize ?b
+		?a: PMNL treated with PMA and/or Cetac
+		?b: N-OH-2-FAA
+	?a is/are 30 microM
+		?a: N-OH-2-FAA
+	?a did not metabolize ?b to ?c
+		?a: Rat liver homogenates
+		?b: [14C ] F-leurosine
+		?c: any detectable extent
+
+
+label:    sent_21
+sentence: Heart mitochondria metabolize 3-methylthiopropionate to CO2 and methanethiol .
+
+ppatt:
+	?a metabolize ?b to ?c
+		?a: Heart mitochondria
+		?b: 3-methylthiopropionate
+		?c: CO2
+	?a metabolize ?b to ?c
+		?a: Heart mitochondria
+		?b: 3-methylthiopropionate
+		?c: methanethiol
+
+
+label:    sent_22
+sentence: More durable particles presumably require that the pathogen metabolize more resources per particle .
+
+ppatt:
+	?a presumably require ?b
+		?a: More durable particles
+		?b: SOMETHING := the pathogen metabolize more resources per particle
+	?a metabolize ?b
+		?a: the pathogen
+		?b: more resources per particle
+
+

@@ -1,0 +1,32 @@
+obj	All 3 estimation methods tended to overestimate the AGW ( P < 0.001 ) .	obj@AGW
+obj	There was a tendency to underestimate and overestimate LE and H , respectively .	obj@LE
+obj	Non-PEM physicians were more likely to overestimate the frequency of pediatric CSI .	obj@frequency
+
+subj#obj	Do global change experiments overestimate impacts on terrestrial ecosystems ?	subj@experiments obj@impacts
+subj#obj	Current deterministic process-planning models overestimate the economic impact of this increased variation .	subj@models obj@impact
+subj#obj	Renal estimating equations most often overestimate renal clearance in AKI .	subj@equations obj@clearance
+
+subj#obj#prep	Compared with MRI , CT scans overestimate prostate volume by 35 % .	subj@scans obj@MRI obj@volume prep_by@% prepc_compared_with@with
+subj#obj#prep	At low ionization densities , the simulation results slightly overestimate the experimental data .	subj@results obj@data prep_at@densities
+subj#obj#prep	Casual blood pressure may overestimate blood pressure in stroke patients .	subj@pressure obj@pressure prep_in@patients
+
+obj#prep	The device tended to slightly overestimate IOP compared to GAT .	obj@GAT obj@IOP prepc_compared_to@to
+obj#prep	Results revealed that respondents tended to overestimate their peers ' approval toward DAD .	obj@approval prep_toward@DAD
+obj#prep	In contrast , CT tended systematically to overestimate the AN CSA by 10-20 % .	obj@CSA prep_by@%
+
+obj#conj	Non-targeted screening for CKD is inaccurate and can overestimate prevalence .	obj@prevalence conj_and@inaccurate
+obj#conj	However , most methods tended to overestimate G1 fractions and underestimate S fractions .	obj@fractions conj_and@underestimate
+obj#conj	MI tended to overestimate clearance and underestimate volume of distribution .	obj@clearance conj_and@underestimate
+
+subj#obj#conj	However , some did overestimate the surgical mortality and underestimate the associated survival benefit .	subj@some obj@mortality conj_and@underestimate
+subj#obj#conj	Individuals typically overestimate survival for lung cancer and underestimate it for melanoma .	subj@Individuals obj@survival conj_and@underestimate
+subj#obj#conj	Patients and physicians overestimate control and the overestimation by patients is greater .	subj@Patients subj@physicians obj@control conj_and@greater
+
+subj#conj	Fluid overload should be considered because it can overestimate or underestimate nutritional status .	subj@it conj_or@underestimate
+subj#conj	Self-assessment of medical knowledge : do physicians overestimate or underestimate ?	subj@physicians conj_or@underestimate
+subj#conj	Bias in RCTs may overestimate or underestimate the true effectiveness of an intervention .	subj@Bias conj_or@underestimate
+
+obj#prep#conj	Parents underestimate worry and overestimate optimism compared to child self-report .	obj@optimism obj@self-report prepc_compared_to@to conj_and@worry
+
+conj	All of the methods tended to overestimate lower and underestimate higher % BF .	conj_and@underestimate
+

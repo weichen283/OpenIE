@@ -1,0 +1,423 @@
+label:    sent_1
+sentence: In the long run the results of stenting and CEA seem to be comparable . A clinical CT scanner , run in cine mode , was used with two optical devices , GateCT and RPM , to detect respiratory motion .
+
+ppatt:
+	In ?a ?b seem to be comparable
+		?a: the long run
+		?b: the results of stenting and CEA
+	?a run in ?b
+		?a: A clinical CT scanner
+		?b: cine mode
+	?a was used with ?b to detect ?c
+		?a: A clinical CT scanner , run in cine mode
+		?b: two optical devices
+		?c: respiratory motion
+	?a is/are GateCT
+		?a: two optical devices
+
+
+label:    sent_2
+sentence: All searches were run in September 2009 .
+
+ppatt:
+	?a were run in ?b
+		?a: All searches
+		?b: September 2009
+
+
+label:    sent_3
+sentence: Simulations were run with 1,000 patients per cohort over a time horizon of 40 years .
+
+ppatt:
+	?a were run with ?b over ?c
+		?a: Simulations
+		?b: 1,000 patients per cohort
+		?c: a time horizon of 40 years
+
+
+label:    sent_4
+sentence: As proof of concept two closed loop simulations were run to demonstrate the usefulness of BSM-MBR for identifying control strategies to lower operational costs without compromising effluent quality .
+
+ppatt:
+	?a were run to demonstrate ?b
+		?a: proof of concept two closed loop simulations
+		?b: the usefulness of BSM-MBR for identifying control strategies to lower operational costs without compromising effluent quality
+	?a identifying ?b to ?c
+		?a: the usefulness of BSM-MBR
+		?b: control strategies
+		?c: lower operational costs
+	compromising ?a
+		?a: effluent quality
+
+
+label:    sent_5
+sentence: The peer tutors were given a large degree of autonomy to run the programme as they thought best .
+
+ppatt:
+	?a were given ?b
+		?a: The peer tutors
+		?b: a large degree of autonomy to run the programme
+	?a run ?b
+		?a: a large degree of autonomy
+		?b: the programme
+	?a thought best
+		?a: they
+
+
+label:    sent_6
+sentence: Infusion studies run during the last 10 years in three rat strains with different flow rates of saline as vehicle were compared as to a potential impact of infused volume on clinicochemical values and histopathology .
+
+ppatt:
+	?a run during ?b in ?c
+		?a: Infusion studies
+		?b: the last 10 years
+		?c: three rat strains with different flow rates of saline as vehicle
+	?a were compared as to ?b
+		?a: Infusion studies
+		?b: a potential impact of infused volume on clinicochemical values and histopathology
+
+
+label:    sent_7
+sentence: As to this subject , the molecular study of the defect of the gene let to point out couples that run the risk of beta-thalassemia and to develop an exhaustive and correct information about the possibility to beget children suffering from beta-thalassemia .
+
+ppatt:
+	As to ?a , ?b let to point out ?c
+		?a: this subject
+		?b: the molecular study of the defect of the gene
+		?c: couples that run the risk of beta-thalassemia and to develop an exhaustive and correct information about the possibility to beget children suffering from beta-thalassemia
+	?a run ?b
+		?a: couples
+		?b: the risk of beta-thalassemia
+	?a develop ?b about ?c
+		?a: that
+		?b: an exhaustive and correct information
+		?c: the possibility to beget children suffering from beta-thalassemia
+	?a beget ?b
+		?a: the possibility
+		?b: children suffering from beta-thalassemia
+	?a suffering from ?b
+		?a: children
+		?b: beta-thalassemia
+
+
+label:    sent_8
+sentence: Very soon a trillion-base-pair sequence run will be feasible , so it is time to reflect on what we have learned from metagenomics .
+
+ppatt:
+	Very soon ?a will be feasible
+		?a: a trillion-base-pair sequence run
+	?a is time
+		?a: it
+	?a reflect ?b
+		?a: time
+		?b: SOMETHING := on what we have learned from metagenomics
+	on ?a ?b have learned from ?c
+		?a: what
+		?b: we
+		?c: metagenomics
+
+
+label:    sent_9
+sentence: Administration of intravenous ephedrine was not effective and a short run appeared .
+
+ppatt:
+	?a was not effective
+		?a: Administration of intravenous ephedrine
+	?a appeared
+		?a: a short run
+
+
+label:    sent_10
+sentence: The idea is to implement the N-FINDR as a random algorithm , called random N-FINDR ( RN-FINDR ) so that a single run using one set of random initial endmembers is considered as one realization .
+
+ppatt:
+	?a is to implement ?b as ?c so
+		?a: The idea
+		?b: the N-FINDR
+		?c: a random algorithm , called random N-FINDR
+	?a called random N-FINDR
+		?a: a random algorithm
+	?a is/are RN-FINDR
+		?a: random N-FINDR
+	?a using ?b
+		?a: a single run
+		?b: one set of random initial endmembers
+	?a is considered as ?b
+		?a: a single run using one set of random initial endmembers
+		?b: one realization
+
+
+label:    sent_11
+sentence: Morphologically different fifteen slow growing single spore isolates ( SSIs ) were screened from germinated basidiospores of Agaricus bisporus ; assumed to be homokaryons , and subjected to growth rate , spawn run , fruiting and inter-simple sequence repeat ( ISSR ) analysis for confirmation of true homokaryons .
+
+ppatt:
+	?a is/are SSIs
+		?a: Morphologically different fifteen slow growing single spore isolates
+	?a were screened from ?b
+		?a: Morphologically different fifteen slow growing single spore isolates
+		?b: germinated basidiospores of Agaricus bisporus
+	?a subjected to ?b
+		?a: Morphologically different fifteen slow growing single spore isolates
+		?b: growth rate
+	?a spawn ?b for ?c
+		?a: Morphologically different fifteen slow growing single spore isolates
+		?b: run
+		?c: confirmation of true homokaryons
+	?a spawn ?b for ?c
+		?a: Morphologically different fifteen slow growing single spore isolates
+		?b: fruiting
+		?c: confirmation of true homokaryons
+	?a spawn ?b for ?c
+		?a: Morphologically different fifteen slow growing single spore isolates
+		?b: inter-simple sequence repeat
+		?c: confirmation of true homokaryons
+	?a is/are ISSR
+		?a: inter-simple sequence repeat
+
+
+label:    sent_12
+sentence: The principal goals of this study were to identify potential sources of systematic error in 2 commonly used field tests ( Cooper 's 12-minute run [12MR ] and the multistage shuttle run [MSR ] ) and estimate the reliability of the 2 tests from these data .
+
+ppatt:
+	?a were to identify ?b
+		?a: The principal goals of this study
+		?b: potential sources of systematic error in 2 commonly used field tests
+	?a were to estimate ?b
+		?a: The principal goals of this study
+		?b: the reliability of the 2 tests from these data
+
+
+label:    sent_13
+sentence: The treatment strategy model was built and run with TreeAge decision analysis software ( TreeAge Software , Inc , Williamstown , MA ) . Validity and reliability analysis of Cooper 's 12-minute run and the multistage shuttle run in healthy adults .
+
+ppatt:
+	?a was built with ?b
+		?a: The treatment strategy model
+		?b: TreeAge decision analysis software
+	?a was built with ?b
+		?a: The treatment strategy model
+		?b: Validity of Cooper 's 12-minute run
+	?a was built with ?b
+		?a: The treatment strategy model
+		?b: the multistage shuttle run in healthy adults
+	?a run
+		?a: The treatment strategy model
+	?a is/are Inc
+		?a: TreeAge Software
+	?a is/are Williamstown
+		?a: TreeAge Software
+	?a is/are MA
+		?a: TreeAge Software
+
+
+label:    sent_14
+sentence: An anger control group was created and run as an extension of the prison in-reach healthcare team , in order to meet the needs of prisoners . Just after skin incision , ST elevation in leads II and V5 and a short run of ventricular tachycardia with frequent premature ventricular contractions ( PVCs ) were recorded on the ECG monitor , and the patient 's blood pressure suddenly decreased within a few seconds .
+
+ppatt:
+	?a was created
+		?a: An anger control group
+	?a run as ?b
+		?a: An anger control group
+		?b: an extension of the prison in-reach healthcare team
+	?a order to meet ?b . Just after ?c
+		?a: An anger control group
+		?b: the needs of prisoners
+		?c: skin incision
+	?a leads ?b
+		?a: ST elevation
+		?b: II
+	?a leads ?b
+		?a: ST elevation
+		?b: V5
+	?a is/are PVCs
+		?a: frequent premature ventricular contractions
+	?a were recorded on ?b
+		?a: a short run of ventricular tachycardia with frequent premature ventricular contractions
+		?b: the ECG monitor
+	?a suddenly decreased within ?b
+		?a: the patient 's blood pressure
+		?b: a few seconds
+
+
+label:    sent_15
+sentence: Apoptosis and expression of CD95 were determined by flow cytometry ; experiments were run in the presence of caspase-8 and caspase-9 inhibitors and of CaCl ( 2 ) .
+
+ppatt:
+	?a were determined by ?b
+		?a: Apoptosis of CD95
+		?b: flow cytometry
+	?a were determined by ?b
+		?a: expression
+		?b: flow cytometry
+	?a were run in ?b of ?c
+		?a: experiments
+		?b: the presence
+		?c: caspase-8 and caspase-9 inhibitors and of CaCl
+	?a is/are 2
+		?a: CaCl
+
+
+label:    sent_16
+sentence: The biogas reactors were run with either cattle or pig manures as substrates , and both were operated at mesophilic and thermophilic conditions .
+
+ppatt:
+	?a were run with ?b as ?c
+		?a: The biogas reactors
+		?b: cattle
+		?c: substrates
+	?a were run with ?b as ?c
+		?a: The biogas reactors
+		?b: pig
+		?c: substrates
+	?a were run with ?b as ?c
+		?a: The biogas reactors
+		?b: manures
+		?c: substrates
+	?a were operated at ?b ?c
+		?a: both
+		?b: mesophilic
+		?c: conditions
+	?a were operated at ?b ?c
+		?a: both
+		?b: thermophilic
+		?c: conditions
+
+
+label:    sent_17
+sentence: However , animal numbers are small for each rat strain examined and studies were run over almost 10 years .
+
+ppatt:
+	However , ?a are small for ?b
+		?a: animal numbers
+		?b: each rat strain examined
+	?a examined
+		?a: each rat strain
+	?a were run over ?b
+		?a: studies
+		?b: almost 10 years
+
+
+label:    sent_18
+sentence: This technique can be considered to give a good measure of a compound 's lipophilicity , albeit slower and more labor intensive to run compared with some other methodologies .
+
+ppatt:
+	?a can be considered to give ?b , albeit ?c
+		?a: This technique
+		?b: a good measure of a compound 's lipophilicity
+		?c: slower and more
+	?a can be considered to give ?b , albeit ?c
+		?a: This technique
+		?b: a good measure of a compound 's lipophilicity
+		?c: labor intensive to run
+	?a compared with some other methodologies
+		?a: This technique
+
+
+label:    sent_19
+sentence: This was completed before and after a 5000 m run ( 3.2 m s ( -1 ) ) in their own trainers in three conditions ; barefoot , non-specialist socks and specialist running socks .
+
+ppatt:
+	?a was completed ?b in ?c
+		?a: This
+		?b: after
+		?c: their own trainers in three conditions
+	?a was completed ?b in ?c
+		?a: This
+		?b: before a 5000 m run
+		?c: their own trainers in three conditions
+	?a is/are -1
+		?a: 3.2 m s
+
+
+label:    sent_20
+sentence: For this study , 20 runners with PFP and 20 uninjured controls performed a prolonged run on a treadmill at a self-selected pace .
+
+ppatt:
+	For ?a , ?b performed ?c at ?d
+		?a: this study
+		?b: 20 runners with PFP and 20 uninjured controls
+		?c: a prolonged run on a treadmill
+		?d: a self-selected pace
+
+
+label:    sent_21
+sentence: It is designed to allow a researcher to run masked ( and unmasked ) priming experiments using a variety of response devices ( including keyboards , graphics tablets and force transducers ) . These gaps run the risk of pathologizing normal emotional reactions to stressful events on the one hand and on the other of overdiagnosing depressive disorder with the consequent unnecessary prescription of antidepressant treatments .
+
+ppatt:
+	?a is designed to allow ?b using ?c
+		?a: It
+		?b: a researcher to run masked ( and unmasked ) priming experiments
+		?c: a variety of response devices ( including keyboards , graphics tablets and force transducers
+	?a run ?b
+		?a: a researcher
+		?b: masked ( and unmasked ) priming experiments
+	?a run ?b
+		?a: These gaps
+		?b: the risk of pathologizing normal emotional reactions to stressful events on the one hand and on the other of overdiagnosing depressive disorder with the consequent unnecessary prescription of antidepressant treatments
+	?a pathologizing ?b to ?c on ?d
+		?a: the risk
+		?b: normal emotional reactions
+		?c: stressful events
+		?d: the one hand
+	?a pathologizing ?b to ?c on ?d
+		?a: the risk
+		?b: normal emotional reactions
+		?c: stressful events
+		?d: the other of overdiagnosing depressive disorder with the consequent unnecessary prescription of antidepressant treatments
+
+
+label:    sent_22
+sentence: The current proposal will run a full , web-based IME involving 250 GPs that will advance the methodology of IMEs by directly comparing results with an earlier paper-based IME .
+
+ppatt:
+	?a will run ?b
+		?a: The current proposal
+		?b: a full , IME involving 250 GPs that will advance the methodology of IMEs by directly comparing results with an earlier paper-based IME
+	?a involving ?b
+		?a: a full , IME that will advance the methodology of IMEs by directly comparing results with an earlier paper-based IME
+		?b: 250 GPs
+	?a will advance ?b
+		?a: a full , IME involving 250 GPs
+		?b: the methodology of IMEs
+	?a directly comparing ?b
+		?a: that
+		?b: results with an earlier paper-based IME
+
+
+label:    sent_23
+sentence: There is a need for an easy-to-use , freely available programme that can run simple and choice reaction time tasks with no special software .
+
+ppatt:
+	There is ?a
+		?a: a need for an easy-to-use , programme that can run simple and choice reaction time tasks with no special software
+	?a can run ?b with ?c
+		?a: an easy-to-use , programme
+		?b: simple and choice reaction time tasks
+		?c: no special software
+
+
+label:    sent_24
+sentence: Existing , brute-force approaches run optimization algorithms on the structure and on the kinetic parameter values of the network .
+
+ppatt:
+	?a run ?b on ?c
+		?a: Existing , approaches
+		?b: optimization algorithms
+		?c: the structure
+	?a run ?b on ?c
+		?a: Existing , approaches
+		?b: optimization algorithms
+		?c: the kinetic parameter values of the network
+
+
+label:    sent_25
+sentence: In Europe , a number of countries already run a national reporting system in anaesthesiology with large collections of critical events .
+
+ppatt:
+	In ?a , ?b already run ?c in ?d
+		?a: Europe
+		?b: a number of countries
+		?c: a national reporting system
+		?d: anaesthesiology with large collections of critical events
+
+

@@ -1,0 +1,311 @@
+label:    sent_1
+sentence: Emergency care and hospitalizations account for 36 % of asthma-related medical expenses for children .
+
+ppatt:
+	?a account for ?b
+		?a: Emergency
+		?b: 36 % of asthma-related medical expenses for children
+
+
+label:    sent_2
+sentence: Methodologic issues may account for modal differences in fruit and vegetable intake .
+
+ppatt:
+	?a may account for ?b
+		?a: Methodologic issues
+		?b: modal differences in fruit and vegetable
+
+
+label:    sent_3
+sentence: These findings may account for why the absence of orexin results in narcolepsy-cataplexy .
+
+ppatt:
+	?a may account ?b
+		?a: These findings
+		?b: SOMETHING := for why the absence of orexin results in narcolepsy-cataplexy
+	for why ?a results in ?b
+		?a: the absence of orexin
+		?b: narcolepsy-cataplexy
+
+
+label:    sent_4
+sentence: Data were adjusted to account for a lag time between buccal and finger sites .
+
+ppatt:
+	?a were adjusted to account for ?b
+		?a: Data
+		?b: a lag time between buccal and finger
+
+
+label:    sent_5
+sentence: First , we extend the standard bivariate ACE model to account for assortative mating .
+
+ppatt:
+	First , ?a extend ?b
+		?a: we
+		?b: the standard bivariate ACE model
+	?a account for ?b
+		?a: we
+		?b: assortative mating
+
+
+label:    sent_6
+sentence: A random intercept model was used to account for multiple measurements within a patient .
+
+ppatt:
+	?a was used to account for ?b
+		?a: A random intercept model
+		?b: multiple measurements within a patient
+
+
+label:    sent_7
+sentence: However , many studies did not take into account several issues important for outcomes .
+
+ppatt:
+	However , ?a did not take into account ?b
+		?a: many studies
+		?b: several issues important for outcomes
+
+
+label:    sent_8
+sentence: Suicide prevention strategies should take into account unique local patterns .
+
+ppatt:
+	?a should take into account ?b
+		?a: Suicide prevention strategies
+		?b: unique local patterns
+
+
+label:    sent_9
+sentence: They also found that walking paths took into account hand preferences . KIT-negative GISTs account for ~ 5 % of cases and cause diagnostic difficulties .
+
+ppatt:
+	?a also found ?b ?c
+		?a: They
+		?b: SOMETHING := walking paths took
+		?c: SOMETHING := KIT-negative GISTs account for ~ 5 % of cases
+	?a took
+		?a: walking paths
+	?a account ?b
+		?a: walking paths
+		?b: hand preferences
+	?a account for ?b
+		?a: KIT-negative GISTs
+		?b: ~ 5 % of cases
+	?a cause ?b
+		?a: KIT-negative GISTs
+		?b: diagnostic difficulties
+
+
+label:    sent_10
+sentence: Structural heterogeneity and dynamics can both in principle account for that observation .
+
+ppatt:
+	?a can ?b in ?c account for ?d
+		?a: Structural heterogeneity
+		?b: both
+		?c: principle
+		?d: that observation
+	?a can ?b in ?c account for ?d
+		?a: dynamics
+		?b: both
+		?c: principle
+		?d: that observation
+
+
+label:    sent_11
+sentence: Several different factors could account for these differences , and these are discussed .
+
+ppatt:
+	?a could account for ?b
+		?a: Several different factors
+		?b: these differences
+	?a are discussed
+		?a: these
+
+
+label:    sent_12
+sentence: Intramammary schwannomas are very rare and account for only 2.6 % of schwannomas .
+
+ppatt:
+	?a are very rare
+		?a: Intramammary schwannomas
+	?a account for ?b
+		?a: Intramammary schwannomas
+		?b: only 2.6 % of schwannomas
+
+
+label:    sent_13
+sentence: Pediatric meningiomas are rare and account for about 1.5 % of all intracranial tumors .
+
+ppatt:
+	?a are rare
+		?a: Pediatric meningiomas
+	?a account for ?b
+		?a: Pediatric meningiomas
+		?b: about 1.5 % of all intracranial tumors
+
+
+label:    sent_14
+sentence: Intracranial germinomas are rare and account for only 0.4-3.4 % of primary intracranial tumors .
+
+ppatt:
+	?a are rare
+		?a: Intracranial germinomas
+	?a account for ?b
+		?a: Intracranial germinomas
+		?b: only 0.4-3.4 % of primary intracranial tumors
+
+
+label:    sent_15
+sentence: SNPPicker also takes into account user constraints including options for controlling runtime .
+
+ppatt:
+	?a also takes into account ?b
+		?a: SNPPicker
+		?b: user constraints including options for controlling runtime
+	?a controlling ?b
+		?a: options
+		?b: runtime
+
+
+label:    sent_16
+sentence: A model is discussed which takes into account these variables .
+
+ppatt:
+	?a is discussed ?b
+		?a: A model
+		?b: SOMETHING := which takes into account these variables
+	?a takes into account ?b
+		?a: which
+		?b: these variables
+
+
+label:    sent_17
+sentence: Relationships between policy relevant variables and consumption were modeled taking into account demographic variables .
+
+ppatt:
+	?a were modeled taking ?b
+		?a: Relationships between policy
+		?b: demographic variables
+	?a were modeled into account
+		?a: Relationships between policy
+
+
+label:    sent_18
+sentence: Strong 's objections to the future of value account .
+
+ppatt:
+	?a account
+		?a: Strong 's objections to the future of value
+
+
+label:    sent_19
+sentence: This may account for the elevated body temperature and sweating experience by cancer patients . A personal account .
+
+ppatt:
+	?a may account for ?b
+		?a: This
+		?b: the elevated body temperature by cancer patients
+	?a may account for ?b
+		?a: This
+		?b: sweating experience
+
+
+label:    sent_20
+sentence: Human papillomavirus ( HPV ) infections account worldwide for 50 % of penile cancers .
+
+ppatt:
+	?a is/are HPV
+		?a: Human papillomavirus
+	?a account worldwide for ?b
+		?a: Human papillomavirus infections
+		?b: 50 % of penile cancers
+
+
+label:    sent_21
+sentence: Furthermore , it is unclear which components of multimodal interventions account for such effects .
+
+ppatt:
+	Furthermore , ?a is unclear ?b
+		?a: it
+		?b: SOMETHING := which components of multimodal interventions account for such effects
+	?a account for ?b
+		?a: which components of multimodal interventions
+		?b: such effects
+
+
+label:    sent_22
+sentence: And what kind of minimal theoretical model could account for the observed data ? Similar initiatives should take into account the clinical context and tailor training packages accordingly .
+
+ppatt:
+	?a could account for ?b
+		?a: kind of minimal theoretical model
+		?b: the observed data
+	?a should take into account ?b
+		?a: Similar initiatives
+		?b: the clinical context
+	?a tailor ?b accordingly
+		?a: Similar initiatives
+		?b: training packages
+
+
+label:    sent_23
+sentence: Our software can take into account non-uniform read generation and works with paired-end reads .
+
+ppatt:
+	?a can take into account ?b
+		?a: Our software
+		?b: non-uniform read generation
+	?a works with ?b
+		?a: Our software
+		?b: paired-end reads
+
+
+label:    sent_24
+sentence: The choice of treatment should take into account individual patient characteristics and needs .
+
+ppatt:
+	?a should take into account ?b
+		?a: The choice of treatment
+		?b: individual patient characteristics
+	?a needs
+		?a: The choice of treatment
+
+
+label:    sent_25
+sentence: This paper examines four common RCIs that each account for error in different ways .
+
+ppatt:
+	?a examines ?b
+		?a: This paper
+		?b: four common RCIs that each account for error in different ways
+	?a each account for ?b
+		?a: four common RCIs
+		?b: error in different ways
+
+
+label:    sent_26
+sentence: This paper examines four common RCIs that each account for error in different ways .
+
+ppatt:
+	?a examines ?b
+		?a: This paper
+		?b: four common RCIs that each account for error in different ways
+	?a each account for ?b
+		?a: four common RCIs
+		?b: error in different ways
+
+
+label:    sent_27
+sentence: However , there is an ongoing debate about which factors account for this relationship .
+
+ppatt:
+	However , there is ?a
+		?a: an ongoing debate about which factors account for this relationship
+	?a about ?b account for ?c
+		?a: an ongoing debate
+		?b: factors
+		?c: this relationship
+
+

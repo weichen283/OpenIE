@@ -1,0 +1,186 @@
+label:    sent_1
+sentence: Hepatic steatosis in HIV/HCV-coinfected patients : time to reevaluate ! These changes will require the clinician to reevaluate their use of liners and bases .
+
+ppatt:
+	?a will require ?b to reevaluate ?c
+		?a: These changes
+		?b: the clinician
+		?c: their use of liners and bases
+
+
+label:    sent_2
+sentence: Four experiments are reported that reevaluate P .
+
+ppatt:
+	?a are reported
+		?a: Four experiments
+
+
+label:    sent_3
+sentence: M . Eighteen percent of centers did not reevaluate candidates .
+
+ppatt:
+	?a ?b did not reevaluate ?c
+		?a: M
+		?b: Eighteen percent of centers
+		?c: candidates
+
+
+label:    sent_4
+sentence: Use of select mortality tables to reevaluate CABG .
+
+ppatt:
+	?a reevaluate ?b
+		?a: Use of select mortality tables
+		?b: CABG
+
+
+label:    sent_5
+sentence: Here we reevaluate the relationships between genetic structure and species traits in seed plants .
+
+ppatt:
+	Here ?a reevaluate ?b
+		?a: we
+		?b: the relationships between genetic structure and species traits in seed plants
+
+
+label:    sent_6
+sentence: This study was designed to reevaluate disc nutrition across the endplate .
+
+ppatt:
+	?a was designed to reevaluate ?b
+		?a: This study
+		?b: disc nutrition across the endplate
+
+
+label:    sent_7
+sentence: The purpose of this study was to reevaluate the associations via a comprehensive meta-analysis .
+
+ppatt:
+	?a was to reevaluate ?b
+		?a: The purpose of this study
+		?b: the associations via a comprehensive meta-analysis
+
+
+label:    sent_8
+sentence: Schools need to reevaluate their policies on the use of inhalers at school .
+
+ppatt:
+	?a need to reevaluate ?b on ?c
+		?a: Schools
+		?b: their policies
+		?c: the use of inhalers at school
+
+
+label:    sent_9
+sentence: As conservation knowledge and threats change , we must reevaluate priorities .
+
+ppatt:
+	As ?a change
+		?a: conservation knowledge
+	As ?a change
+		?a: threats
+	?a must reevaluate ?b
+		?a: we
+		?b: priorities
+
+
+label:    sent_10
+sentence: Pilonidal disease : time to reevaluate a common pain in the rear ! We reevaluate several of these early studies in the light of newer findings .
+
+ppatt:
+	?a reevaluate ?b
+		?a: time
+		?b: a common pain in the rear !
+	?a ?b reevaluate ?c
+		?a: Pilonidal disease
+		?b: We
+		?c: several of these early studies in the light of newer findings
+
+
+label:    sent_11
+sentence: These observations prompted us to reevaluate our previous data and show new observations .
+
+ppatt:
+	?a prompted ?b to reevaluate ?c
+		?a: These observations
+		?b: us
+		?c: our previous data
+	?a show ?b
+		?a: These observations
+		?b: new observations
+
+
+label:    sent_12
+sentence: Multicenter studies are necessary to reevaluate and modify the oral food challenge criteria .
+
+ppatt:
+	?a are necessary to reevaluate ?b
+		?a: Multicenter studies
+		?b: the oral food challenge criteria
+	?a are necessary to modify
+		?a: Multicenter studies
+
+
+label:    sent_13
+sentence: Thyroid function in the very low birth weight newborn : rescreen or reevaluate ? Multidisciplinary resources are used to further reevaluate and refine the vaccine protocol .
+
+ppatt:
+	further reevaluate ?a
+		?a: the vaccine protocol
+	refine ?a
+		?a: the vaccine protocol
+
+
+label:    sent_14
+sentence: Blood transfusion methods : time to reevaluate ? Time to reevaluate . Translational research in cancer : time to reevaluate .
+
+ppatt:
+	?a reevaluate ?b to reevaluate ?c
+		?a: time
+		?b: Time
+		?c: Translational research in cancer
+
+
+label:    sent_15
+sentence: These errors force us to reevaluate and update those policies as technology rapidly advances .
+
+ppatt:
+	?a force ?b to reevaluate ?c as ?d ?e
+		?a: These errors
+		?b: us
+		?c: those policies
+		?d: technology
+		?e: rapidly advances
+	?a force to update
+		?a: These errors
+
+
+label:    sent_16
+sentence: It is crucial that we reevaluate and report long-term experience and satisfaction .
+
+ppatt:
+	?a is crucial ?b
+		?a: It
+		?b: SOMETHING := we reevaluate long-term experience and satisfaction
+	?a reevaluate ?b
+		?a: we
+		?b: long-term experience
+	?a reevaluate ?b
+		?a: we
+		?b: satisfaction
+	?a report
+		?a: we
+
+
+label:    sent_17
+sentence: The authors reevaluate and outline the new perspectives in mental health services in Shanghai .
+
+ppatt:
+	?a reevaluate ?b
+		?a: The authors
+		?b: the new perspectives in mental health services in Shanghai
+	?a outline
+		?a: The authors
+
+

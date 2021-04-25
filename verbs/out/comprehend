@@ -1,0 +1,311 @@
+label:    sent_1
+sentence: This study aimed to comprehend the potentialities of the microfabrication to produce tissue-engineering scaffolds .
+
+ppatt:
+	?a aimed to comprehend ?b
+		?a: This study
+		?b: the potentialities of the microfabrication to produce tissue-engineering scaffolds
+	?a produce ?b
+		?a: the microfabrication
+		?b: tissue-engineering scaffolds
+
+
+label:    sent_2
+sentence: This study examined hearing preschoolers ' ability to use iconic cues to comprehend signs .
+
+ppatt:
+	?a examined ?b
+		?a: This study
+		?b: hearing preschoolers ' ability to use iconic cues to comprehend signs
+	?a use ?b to comprehend ?c
+		?a: hearing preschoolers ' ability
+		?b: iconic cues
+		?c: signs
+
+
+label:    sent_3
+sentence: Understanding these alphabetaT cells helps to comprehend skin diseases .
+
+ppatt:
+	Understanding ?a
+		?a: these alphabetaT cells
+	?a helps to comprehend ?b
+		?a: SOMETHING := Understanding these alphabetaT cells
+		?b: skin diseases
+
+
+label:    sent_4
+sentence: Families and teachers must help them comprehend physical desire and relationships .
+
+ppatt:
+	?a must help ?b
+		?a: Families
+		?b: SOMETHING := them comprehend physical desire and relationships
+	?a must help ?b
+		?a: teachers
+		?b: SOMETHING := them comprehend physical desire and relationships
+	?a comprehend ?b
+		?a: them
+		?b: physical desire
+	?a comprehend ?b
+		?a: them
+		?b: relationships
+
+
+label:    sent_5
+sentence: Participants clearly comprehend palliative care goals . Still , scientists struggle to comprehend the complex behavior of biological systems .
+
+ppatt:
+	?a clearly comprehend ?b
+		?a: Participants
+		?b: palliative care goals
+	Still , ?a struggle to comprehend ?b
+		?a: scientists
+		?b: the complex behavior of biological systems
+
+
+label:    sent_6
+sentence: Hence , in future , Medicine is to comprehend Man as a whole .
+
+ppatt:
+	Hence , in ?a , ?b is to comprehend ?c as ?d
+		?a: future
+		?b: Medicine
+		?c: Man
+		?d: a whole
+
+
+label:    sent_7
+sentence: It is therefore imperative to succinctly comprehend their pharmacokinetics for their apt use .
+
+ppatt:
+	?a is therefore imperative to succinctly comprehend ?b for ?c
+		?a: It
+		?b: their pharmacokinetics
+		?c: their apt use
+
+
+label:    sent_8
+sentence: We can not comprehend the conversion of LCH as a failure of the operating surgeon .
+
+ppatt:
+	?a can not comprehend ?b as ?c
+		?a: We
+		?b: the conversion of LCH
+		?c: a failure of the operating surgeon
+
+
+label:    sent_9
+sentence: Factors influencing diabetic clients ' ability to read and comprehend printed diabetic diet material .
+
+ppatt:
+	?a influencing ?b
+		?a: Factors
+		?b: diabetic clients ' ability to read and comprehend printed diabetic diet material
+	?a read ?b
+		?a: diabetic clients ' ability
+		?b: printed diabetic diet material
+	comprehend ?a
+		?a: printed diabetic diet material
+
+
+label:    sent_10
+sentence: He became able to comprehend questions and express himself by gestures .
+
+ppatt:
+	?a became able to comprehend ?b
+		?a: He
+		?b: questions
+	?a became able to express ?b by ?c
+		?a: He
+		?b: himself
+		?c: gestures
+
+
+label:    sent_11
+sentence: Squirrel monkeys solved visible but did not comprehend invisible displacements .
+
+ppatt:
+	?a solved ?b
+		?a: Squirrel monkeys
+		?b: visible
+	?a did not comprehend ?b
+		?a: Squirrel monkeys
+		?b: invisible displacements
+
+
+label:    sent_12
+sentence: We are just beginning to comprehend and much needs to be done .
+
+ppatt:
+	?a are just beginning to comprehend
+		?a: We
+	?a much needs to be done
+		?a: We
+
+
+label:    sent_13
+sentence: Developing the ability of hearing-impaired students to comprehend and generate question forms .
+
+ppatt:
+	Developing ?a
+		?a: the ability of hearing-impaired students
+	comprehend ?a
+		?a: question forms
+	generate ?a
+		?a: question forms
+
+
+label:    sent_14
+sentence: This is a difficult diet to comprehend and follow . Can people comprehend assertions without believing them ? Domestic dogs comprehend human gestural communication flexibly , particularly the pointing gesture .
+
+ppatt:
+	?a is a difficult diet
+		?a: This
+	?a comprehend
+		?a: a difficult diet
+	comprehend ?a
+		?a: Can people comprehend assertions without believing them
+	?a follow
+		?a: This
+	Can ?a comprehend ?b
+		?a: people
+		?b: assertions
+	?a believing ?b
+		?a: people
+		?b: them
+	?a comprehend ?b flexibly ?c
+		?a: Domestic dogs
+		?b: human gestural communication
+		?c: particularly the pointing gesture
+
+
+label:    sent_15
+sentence: Furthermore , the surgeon must comprehend outcome analysis in evaluating differing therapies .
+
+ppatt:
+	Furthermore , ?a must comprehend ?b
+		?a: the surgeon
+		?b: outcome analysis
+	?a evaluating ?b
+		?a: the surgeon
+		?b: differing therapies
+
+
+label:    sent_16
+sentence: Her speech was well articulated , but she could not comprehend spoken words .
+
+ppatt:
+	?a was well articulated
+		?a: Her speech
+	?a could not comprehend ?b
+		?a: she
+		?b: spoken words
+
+
+label:    sent_17
+sentence: Speech no longer contained overused phrases and he could comprehend automatic speech .
+
+ppatt:
+	?a no longer contained ?b
+		?a: Speech
+		?b: overused phrases
+	?a could comprehend ?b
+		?a: he
+		?b: automatic speech
+
+
+label:    sent_18
+sentence: They will help practitioners comprehend these concepts and critically evaluate published research . 66 % of the women did not comprehend how lactation performance could decrease .
+
+ppatt:
+	?a will help ?b
+		?a: They
+		?b: SOMETHING := practitioners comprehend these concepts
+	?a comprehend ?b
+		?a: practitioners
+		?b: these concepts
+	?a critically evaluate ?b
+		?a: They
+		?b: published research
+	?a did not comprehend ?b
+		?a: 66 % of the women
+		?b: SOMETHING := how lactation performance could decrease
+	how ?a could decrease
+		?a: lactation performance
+
+
+label:    sent_19
+sentence: Do people with schizophrenia comprehend what they read ? Brains to comprehend .
+
+ppatt:
+	?a ?b comprehend ?c
+		?a: SOMETHING := Do
+		?b: people with schizophrenia
+		?c: SOMETHING := what they read ? Brains to comprehend
+	?a ?b read ?c to comprehend
+		?a: what
+		?b: they
+		?c: Brains
+
+
+label:    sent_20
+sentence: The latter site proved significantly harder to comprehend than all other sources .
+
+ppatt:
+	?a proved significantly harder to comprehend than ?b
+		?a: The latter site
+		?b: all other sources
+
+
+label:    sent_21
+sentence: However , her clinical presentation was not easy to comprehend by some .
+
+ppatt:
+	However , ?a was not easy to comprehend by ?b
+		?a: her clinical presentation
+		?b: some
+
+
+label:    sent_22
+sentence: Readability of information was difficult to comprehend by the public .
+
+ppatt:
+	?a was difficult to comprehend by ?b
+		?a: Readability of information
+		?b: the public
+
+
+label:    sent_23
+sentence: [ Neuroimaging : test to comprehend and understand human actions regarding a crime ? ] . Children found the IKDC Subjective Knee Evaluation Form difficult to comprehend and to answer .
+
+ppatt:
+	?a comprehend ?b
+		?a: test
+		?b: human actions
+	?a understand
+		?a: test
+	?a is/are ]
+		?a: crime
+	?a found ?b
+		?a: a crime . Children
+		?b: the IKDC Subjective Knee Evaluation
+	?a ?b regarding ?c Form difficult to comprehend
+		?a: Neuroimaging
+		?b: test to comprehend and understand human actions
+		?c: a crime . Children found the IKDC Subjective Knee Evaluation
+	?a Form difficult to to answer
+		?a: Neuroimaging
+
+
+label:    sent_24
+sentence: Can non-human animals comprehend and employ symbols ?
+
+ppatt:
+	Can ?a comprehend
+		?a: non-human animals
+	?a employ ?b
+		?a: non-human animals
+		?b: symbols
+
+

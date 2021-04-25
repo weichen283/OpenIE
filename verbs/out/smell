@@ -1,0 +1,70 @@
+label:    sent_1
+sentence: 123I-MIBG cardiac uptake and smell identification in parkinsonian patients with LRRK2 mutations .
+
+ppatt:
+
+
+
+label:    sent_2
+sentence: For this purpose , the ambient lighting , music and smell will be controlled by the researcher , who will create a comfortable environment for the subject .
+
+ppatt:
+	For ?a , ?b will be controlled by ?c
+		?a: this purpose
+		?b: the ambient lighting
+		?c: the researcher , who will create a comfortable environment for the subject
+	For ?a , ?b will be controlled by ?c
+		?a: this purpose
+		?b: music
+		?c: the researcher , who will create a comfortable environment for the subject
+	For ?a , ?b will be controlled by ?c
+		?a: this purpose
+		?b: smell
+		?c: the researcher , who will create a comfortable environment for the subject
+	?a will create ?b
+		?a: the researcher
+		?b: a comfortable environment for the subject
+
+
+label:    sent_3
+sentence: The results show that 1 # , 2 # and 3 # are some different , and the smell and function have some relation with trace elements .
+
+ppatt:
+	?a show ?b
+		?a: The results
+		?b: SOMETHING := 1 # , 2 # and 3 # are some different
+	?a are some different
+		?a: 1 #
+	?a are some different
+		?a: 2 #
+	?a are some different
+		?a: 3 #
+	?a have ?b
+		?a: the smell
+		?b: some relation with trace elements
+	?a have ?b
+		?a: function
+		?b: some relation with trace elements
+
+
+label:    sent_4
+sentence: Participants were asked to smell the contents of four bottles ( three were filled with water and one with androstenone solved in water ) and to identify and describe the odour of the strongest smelling bottle .
+
+ppatt:
+	?a were asked to ?b ?c
+		?a: Participants
+		?b: smell
+		?c: the contents of four bottles
+	?a were filled with ?b
+		?a: three
+		?b: water
+	?a solved in ?b
+		?a: androstenone
+		?b: water
+	?a identify ?b
+		?a: three
+		?b: the odour of the strongest smelling bottle
+	?a describe
+		?a: three
+
+

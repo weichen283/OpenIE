@@ -1,0 +1,67 @@
+label:    sent_1
+sentence: The current rule will expire on November 13 , 2015 .
+
+ppatt:
+	?a will expire on ?b
+		?a: The current rule
+		?b: November 13 , 2015
+
+
+label:    sent_2
+sentence: The current pilot program will expire on August 9 , 2014 .
+
+ppatt:
+	?a will expire on ?b
+		?a: The current pilot program
+		?b: August 9 , 2014
+
+
+label:    sent_3
+sentence: The current rule will expire on November 14 , 2014 .
+
+ppatt:
+	?a will expire on ?b
+		?a: The current rule
+		?b: November 14 , 2014
+
+
+label:    sent_4
+sentence: As patents expire , focus is on high-priced drugs . Reminder : does your Michigan dental license expire this year ? All units that expire unused are retested .
+
+ppatt:
+	?a expire
+		?a: patents
+	?a is on high-priced drugs ?b
+		?a: focus
+		?b: Reminder
+	does ?a expire ?b
+		?a: your Michigan dental license
+		?b: this year
+	?a expire unused
+		?a: All units
+	?a are retested
+		?a: All units that expire unused
+
+
+label:    sent_5
+sentence: The tolerance will expire and is revoked on September 30 , 2000 .
+
+ppatt:
+	?a will expire
+		?a: The tolerance
+	?a is revoked on ?b
+		?a: The tolerance
+		?b: September 30 , 2000
+
+
+label:    sent_6
+sentence: Registrations in five nations expire and require renewal .
+
+ppatt:
+	?a expire
+		?a: Registrations in five nations
+	?a require ?b
+		?a: Registrations in five nations
+		?b: renewal
+
+

@@ -1,0 +1,16 @@
+label:    sent_1
+sentence: This is particularly true for acanthocephalan parasites whose invertebrate hosts can prey on other invertebrates and contribute to leaf-litter breakdown .
+
+ppatt:
+	?a is particularly true for ?b
+		?a: This
+		?b: acanthocephalan parasites whose invertebrate hosts can prey on other invertebrates and contribute to leaf-litter breakdown
+	?a ?b can prey on ?c
+		?a: acanthocephalan parasites
+		?b: whose invertebrate hosts
+		?c: other invertebrates
+	?a contribute to ?b
+		?a: whose invertebrate hosts
+		?b: leaf-litter breakdown
+
+

@@ -1,0 +1,291 @@
+label:    sent_1
+sentence: Fifty patients agreed to participate in our study .
+
+ppatt:
+	?a agreed to participate in ?b
+		?a: Fifty patients
+		?b: our study
+
+
+label:    sent_2
+sentence: In particular , EGFR has been shown to participate in colon cancer development .
+
+ppatt:
+	In ?a , ?b has been shown to participate in ?c
+		?a: particular
+		?b: EGFR
+		?c: colon cancer development
+
+
+label:    sent_3
+sentence: Thirty PDS were invited to participate in a telephone interview .
+
+ppatt:
+	?a were invited to participate in ?b
+		?a: Thirty PDS
+		?b: a telephone interview
+
+
+label:    sent_4
+sentence: Retirees did not participate in their communities more than working people . C3a and C5a may participate in tubular epithelial-mesenchymal transition in vitro .
+
+ppatt:
+	?a did not participate in ?b than ?c
+		?a: Retirees
+		?b: their communities
+		?c: more working people
+	?a may participate in ?b in vitro
+		?a: C3a
+		?b: tubular epithelial-mesenchymal transition
+	?a may participate in ?b in vitro
+		?a: C5a
+		?b: tubular epithelial-mesenchymal transition
+
+
+label:    sent_5
+sentence: They also participate in multiple processes including angiogenesis and triggering of inflammation .
+
+ppatt:
+	?a also participate in ?b
+		?a: They
+		?b: multiple processes including angiogenesis and triggering of inflammation
+
+
+label:    sent_6
+sentence: Families are uncertain whether or how they can participate in the decision-making process .
+
+ppatt:
+	?a are uncertain
+		?a: Families
+	how ?a can participate in ?b
+		?a: they
+		?b: the decision-making process
+
+
+label:    sent_7
+sentence: The medical technologist should participate in and communicate with this network .
+
+ppatt:
+	?a should participate ?b with ?c
+		?a: The medical technologist
+		?b: in
+		?c: this network
+	?a communicate
+		?a: The medical technologist
+
+
+label:    sent_8
+sentence: Perioperative nurses often participate in staff orientations and act as preceptors for other learners .
+
+ppatt:
+	?a often participate in ?b
+		?a: Perioperative nurses
+		?b: staff orientations
+	?a act as ?b
+		?a: Perioperative nurses
+		?b: preceptors for other learners
+
+
+label:    sent_9
+sentence: Half elected to participate in the telephone programme and half in the group programme .
+
+ppatt:
+	?a elected to participate in ?b
+		?a: Half
+		?b: the telephone programme
+	?a elected to participate in ?b
+		?a: Half
+		?b: half in the group programme
+
+
+label:    sent_10
+sentence: Rho GTPases are involved in many biological processes and participate in cancer development .
+
+ppatt:
+	?a are involved in ?b
+		?a: Rho GTPases
+		?b: many biological processes
+	?a participate in ?b
+		?a: Rho GTPases
+		?b: cancer development
+
+
+label:    sent_11
+sentence: Mitochondria generate ATP and participate in signal transduction and cellular pathology and/or cell death . Key to the success of the program was recruiting residents to participate .
+
+ppatt:
+	?a generate ?b . Key
+		?a: Mitochondria
+		?b: ATP
+	?a participate in ?b
+		?a: Mitochondria
+		?b: signal transduction
+	?a participate in ?b
+		?a: Mitochondria
+		?b: cellular pathology
+	?a participate in ?b
+		?a: Mitochondria
+		?b: cell death
+	to ?a was recruiting ?b to participate
+		?a: the success of the program
+		?b: residents
+
+
+label:    sent_12
+sentence: Based on their regenerative capacity , we asked whether these cells participate in alveogenesis .
+
+ppatt:
+	Based on ?a regenerative capacity ?b
+		?a: their
+		?b: we
+	?a asked ?b
+		?a: we
+		?b: SOMETHING := these cells participate in alveogenesis
+	?a participate in ?b
+		?a: these cells
+		?b: alveogenesis
+
+
+label:    sent_13
+sentence: Neurons that participate in a cough holon may include behavior selective elements .
+
+ppatt:
+	?a participate in ?b
+		?a: Neurons
+		?b: a cough holon
+	?a may include ?b
+		?a: Neurons that participate in a cough holon
+		?b: behavior selective elements
+
+
+label:    sent_14
+sentence: The exact mechanism by which aPKCs participate in glucose metabolism remains unclear .
+
+ppatt:
+	?a by ?b participate in ?c
+		?a: The exact mechanism
+		?b: aPKCs
+		?c: glucose metabolism
+	?a remains unclear
+		?a: The exact mechanism by which aPKCs participate in glucose metabolism
+
+
+label:    sent_15
+sentence: The extent to which different cell types participate in Up states is still unclear .
+
+ppatt:
+	?a to ?b participate in ?c
+		?a: The extent
+		?b: different cell types
+		?c: Up states
+	?a is still unclear
+		?a: The extent to which different cell types participate in Up states
+
+
+label:    sent_16
+sentence: Liver regeneration is a complex phenomenon in which several factors participate during its onset .
+
+ppatt:
+	?a is a complex phenomenon
+		?a: Liver regeneration
+	?a in ?b participate during ?c
+		?a: a complex phenomenon
+		?b: several factors
+		?c: its onset
+
+
+label:    sent_17
+sentence: Understanding then , is a perceptual and conceptual process in which we fully participate .
+
+ppatt:
+	?a then , is a perceptual and conceptual process
+		?a: Understanding
+	?a in ?b fully participate
+		?a: then , a perceptual and conceptual process
+		?b: we
+
+
+label:    sent_18
+sentence: One of the viral infections in which toll-like receptors participate is the HIV-1 infection .
+
+ppatt:
+	?a in ?b participate
+		?a: One of the viral infections
+		?b: toll-like receptors
+	?a is the HIV-1 infection
+		?a: One of the viral infections in which toll-like receptors participate
+
+
+label:    sent_19
+sentence: Crohn 's disease is a disease with unknown etiology of which immunological mechanisms participate .
+
+ppatt:
+	's ?a is a disease with ?b
+		?a: Crohn disease
+		?b: unknown etiology of which immunological mechanisms participate
+	?a of ?b participate
+		?a: unknown etiology
+		?b: immunological mechanisms
+
+
+label:    sent_20
+sentence: Thirty-eight patients agreed to participate and signed an informed consent prior to the evaluation .
+
+ppatt:
+	?a agreed to participate ?b
+		?a: Thirty-eight patients
+		?b: an informed consent
+	?a agreed to signed prior to ?b
+		?a: Thirty-eight patients
+		?b: the evaluation
+
+
+label:    sent_21
+sentence: Computers : participate and win . Law : participate or not ? HSPGs participate in lipid metabolism along with apolipoprotein ( apo ) E . [Can or must the patient participate to risk management in radiotherapy ? ] . In the atheromatous plaques , scavenger receptors may participate progression of foam cells .
+
+ppatt:
+	?a participate ?b
+		?a: Computers
+		?b: Law
+	?a win
+		?a: Computers
+	?a participate in ?b along with ?c
+		?a: HSPGs
+		?b: lipid metabolism
+		?c: apolipoprotein ( apo ) E . [Can
+	must ?a participate to ?b
+		?a: the patient
+		?b: risk management in radiotherapy ? ] . In the atheromatous plaques
+	?a may participate ?b
+		?a: scavenger receptors
+		?b: progression of foam cells
+
+
+label:    sent_22
+sentence: How do young children with DCD participate and enjoy daily activities ? Numerous molecular and cellular pathways participate and converge to the EPCs mediated vascular repair .
+
+ppatt:
+	How do ?a
+		?a: young children with DCD
+	?a participate
+		?a: young children with DCD
+	?a enjoy ?b
+		?a: young children with DCD
+		?b: daily activities
+	?a participate
+		?a: Numerous molecular and cellular pathways
+	?a converge to ?b
+		?a: Numerous molecular and cellular pathways
+		?b: the EPCs mediated vascular repair
+
+
+label:    sent_23
+sentence: Exclusionary criteria were minimized , and children with and without medication could participate .
+
+ppatt:
+	?a were minimized
+		?a: Exclusionary criteria
+	?a could participate
+		?a: children with and without medication
+
+

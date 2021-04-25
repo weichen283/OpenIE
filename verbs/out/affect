@@ -1,0 +1,333 @@
+label:    sent_1
+sentence: Routine ophthalmic screening procedures do not affect the quality of spectral domain OCT images .
+
+ppatt:
+	?a do not affect ?b
+		?a: Routine ophthalmic screening procedures
+		?b: the quality of spectral domain OCT images
+
+
+label:    sent_2
+sentence: However Q3G did not affect inflammatory gene expression .
+
+ppatt:
+	However ?a did not affect ?b
+		?a: Q3G
+		?b: inflammatory gene expression
+
+
+label:    sent_3
+sentence: Lowering TCR expression on naive CD8+ T cells does not affect memory T-cell differentiation .
+
+ppatt:
+	Lowering ?a
+		?a: TCR expression on naive CD8+ T cells
+	?a does not affect ?b
+		?a: SOMETHING := Lowering TCR expression on naive CD8+ T cells
+		?b: memory T-cell differentiation
+
+
+label:    sent_4
+sentence: Various factors are known to affect the outcomes for patients diagnosed with FN .
+
+ppatt:
+	?a are known to affect ?b
+		?a: Various factors
+		?b: the outcomes for patients diagnosed with FN
+	?a diagnosed with ?b
+		?a: patients
+		?b: FN
+
+
+label:    sent_5
+sentence: Age and renal function appear to affect the exposure of dabigatran etexilate .
+
+ppatt:
+	?a appear to affect ?b
+		?a: Age
+		?b: the exposure of dabigatran etexilate
+	?a appear to affect ?b
+		?a: renal function
+		?b: the exposure of dabigatran etexilate
+
+
+label:    sent_6
+sentence: Quinagolide did not affect the release of oxytocin at milking . PFTs affect the permeability of target cells by forming pores in their plasma membrane .
+
+ppatt:
+	?a did not affect ?b
+		?a: Quinagolide
+		?b: the release of oxytocin at milking
+	?a affect ?b
+		?a: PFTs
+		?b: the permeability of target cells
+	?a forming ?b
+		?a: PFTs
+		?b: pores in their plasma membrane
+
+
+label:    sent_7
+sentence: Does side dominance affect the symmetry of barbell end kinematics during lower-body resistance exercise ? Early intervention with probiotics and pre-biotics does not affect airway inflammation later in childhood .
+
+ppatt:
+	Does ?a affect ?b
+		?a: side dominance
+		?b: the symmetry of barbell end kinematics during lower-body resistance exercise
+	?a does not affect ?b later in ?c
+		?a: Early intervention with probiotics and pre-biotics
+		?b: airway inflammation
+		?c: childhood
+
+
+label:    sent_8
+sentence: The preparation technique did not affect particle degradation nor induce phagocytosis by human leukocytes .
+
+ppatt:
+	?a did not affect ?b
+		?a: The preparation technique
+		?b: particle degradation
+	?a induce ?b
+		?a: The preparation technique
+		?b: phagocytosis by human leukocytes
+
+
+label:    sent_9
+sentence: The flavonoids did not affect AhR expression but counteracted the BaP mediated AhRR repression .
+
+ppatt:
+	?a did not affect ?b
+		?a: The flavonoids
+		?b: AhR expression
+	?a counteracted ?b
+		?a: The flavonoids
+		?b: the BaP mediated AhRR repression
+
+
+label:    sent_10
+sentence: Center size did not affect survival , nor any of the time intervals studied .
+
+ppatt:
+	?a did not affect ?b
+		?a: Center size
+		?b: survival
+	?a did not affect ?b
+		?a: Center size
+		?b: any of the time intervals studied
+	?a studied
+		?a: the time intervals
+
+
+label:    sent_11
+sentence: These miRNAs are involved in a variety of pathways and can affect many diseases .
+
+ppatt:
+	?a are involved in ?b
+		?a: These miRNAs
+		?b: a variety of pathways
+	?a can affect ?b
+		?a: These miRNAs
+		?b: many diseases
+
+
+label:    sent_12
+sentence: Malnutrition and sarcopenia in institutions are very common and significantly affect the prognosis .
+
+ppatt:
+	?a are very common
+		?a: Malnutrition in institutions
+	?a are very common
+		?a: sarcopenia
+	?a significantly affect ?b
+		?a: Malnutrition in institutions
+		?b: the prognosis
+	?a significantly affect ?b
+		?a: sarcopenia
+		?b: the prognosis
+
+
+label:    sent_13
+sentence: Gait dysfunctions are highly prevalent in individuals post-stroke and affect multiple lower extremity joints .
+
+ppatt:
+	?a are highly prevalent in ?b
+		?a: Gait dysfunctions
+		?b: individuals post-stroke
+	?a affect ?b
+		?a: Gait dysfunctions
+		?b: multiple lower extremity joints
+
+
+label:    sent_14
+sentence: At no stage did the concentration of added Cu affect the productive traits measured .
+
+ppatt:
+	At ?a did ?b
+		?a: no stage
+		?b: the concentration of added Cu
+	?a affect ?b
+		?a: the concentration of added Cu
+		?b: the productive traits measured
+	?a measured
+		?a: the productive traits
+
+
+label:    sent_15
+sentence: Seagrass has been shown to affect seawater hydrodynamics by slowing the movement of water .
+
+ppatt:
+	?a has been shown to affect ?b
+		?a: Seagrass
+		?b: seawater hydrodynamics
+	?a slowing ?b
+		?a: Seagrass
+		?b: the movement of water
+
+
+label:    sent_16
+sentence: Three ways reward might affect decision making in this framework are considered .
+
+ppatt:
+	?a ?b might affect ?c
+		?a: Three ways
+		?b: reward
+		?c: decision making in this framework
+	?a are considered
+		?a: Three ways reward might affect decision making in this framework
+
+
+label:    sent_17
+sentence: This can affect them both in their work environment and outside of work . LVV loading did not affect tauL at all but affected tauE slightly .
+
+ppatt:
+	?a can affect ?b in ?c
+		?a: This
+		?b: them
+		?c: their work environment
+	?a can affect ?b in ?c
+		?a: This
+		?b: them
+		?c: work
+	?a did not affect ?b at ?c
+		?a: LVV loading
+		?b: tauL
+		?c: all
+	?a affected ?b slightly
+		?a: LVV loading
+		?b: tauE
+
+
+label:    sent_18
+sentence: Both affect bone during growth , but with complex interactions .
+
+ppatt:
+	?a affect ?b during ?c
+		?a: Both
+		?b: bone
+		?c: growth
+	?a affect ?b during ?c
+		?a: Both
+		?b: bone
+		?c: complex interactions
+
+
+label:    sent_19
+sentence: However , another mechanism in which iminosugars can affect the biofilm is ignored .
+
+ppatt:
+	?a in ?b can affect ?c
+		?a: another mechanism
+		?b: iminosugars
+		?c: the biofilm
+	However , ?a is ignored
+		?a: another mechanism in which iminosugars can affect the biofilm
+
+
+label:    sent_20
+sentence: However , the cellular mechanism by which amino acids affect CCK secretion is unknown .
+
+ppatt:
+	?a by ?b affect ?c
+		?a: the cellular mechanism
+		?b: amino acids
+		?c: CCK secretion
+	However , ?a is unknown
+		?a: the cellular mechanism by which amino acids affect CCK secretion
+
+
+label:    sent_21
+sentence: It is currently unclear to which extent these components affect irreversible functional disability .
+
+ppatt:
+	?a is currently unclear ?b
+		?a: It
+		?b: SOMETHING := to which extent these components affect irreversible functional disability
+	to ?a ?b ?c affect ?d
+		?a: which
+		?b: extent
+		?c: these components
+		?d: irreversible functional disability
+
+
+label:    sent_22
+sentence: Differential responses to stimuli can affect how cells succumb to disease .
+
+ppatt:
+	?a can affect ?b
+		?a: Differential responses to stimuli
+		?b: SOMETHING := how cells succumb to disease
+	how ?a succumb to ?b
+		?a: cells
+		?b: disease
+
+
+label:    sent_23
+sentence: Interestingly , such changes do not affect the high-frequency oscillations under NMDA .
+
+ppatt:
+	Interestingly , ?a do not affect ?b
+		?a: such changes
+		?b: the high-frequency oscillations under NMDA
+
+
+label:    sent_24
+sentence: SB242084 treatment also did not affect strategy-switching .
+
+ppatt:
+	?a also did not affect ?b
+		?a: SB242084 treatment
+		?b: strategy-switching
+
+
+label:    sent_25
+sentence: Probiotics have been shown to be immunomodulatory and can affect antibody responses following vaccination .
+
+ppatt:
+	?a have been shown to be immunomodulatory
+		?a: Probiotics
+	?a have been shown to be can affect ?b following ?c
+		?a: Probiotics
+		?b: antibody responses
+		?c: vaccination
+
+
+label:    sent_26
+sentence: Hypoalbuminemia affects peritubular oncotic pressure and may in turn affect platinum excretion .
+
+ppatt:
+	?a affects ?b
+		?a: Hypoalbuminemia
+		?b: peritubular oncotic pressure
+	?a may in ?b affect ?c
+		?a: Hypoalbuminemia
+		?b: turn
+		?c: platinum excretion
+
+
+label:    sent_27
+sentence: In vitro and in vivo-treatment with this drug did not affect spontaneous lymphocyte blastogenesis .
+
+ppatt:
+	In vitro and in vivo-treatment with this drug did not affect ?a
+		?a: spontaneous lymphocyte blastogenesis
+
+

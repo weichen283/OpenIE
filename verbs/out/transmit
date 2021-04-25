@@ -1,0 +1,312 @@
+label:    sent_1
+sentence: Boluses were programmed to transmit RuT every 15 min .
+
+ppatt:
+	?a were programmed to transmit ?b every ?c
+		?a: Boluses
+		?b: RuT
+		?c: 15 min
+
+
+label:    sent_2
+sentence: These marks are maintained throughout the asexual blood cycle to transmit the epigenetic memory .
+
+ppatt:
+	?a are maintained throughout ?b to transmit ?c
+		?a: These marks
+		?b: the asexual blood cycle
+		?c: the epigenetic memory
+
+
+label:    sent_3
+sentence: An important question in neural information processing is how neurons cooperate to transmit information .
+
+ppatt:
+	?a is ?b
+		?a: An important question in neural information processing
+		?b: SOMETHING := how neurons cooperate to transmit information
+	how ?a cooperate to transmit ?b
+		?a: neurons
+		?b: information
+
+
+label:    sent_4
+sentence: Highly resistive wires transmit intracardiac electrograms and currents for intracardiac pacing .
+
+ppatt:
+	?a transmit ?b
+		?a: Highly resistive wires
+		?b: intracardiac electrograms for intracardiac pacing
+	?a transmit ?b
+		?a: Highly resistive wires
+		?b: currents
+
+
+label:    sent_5
+sentence: Contrast imaging by non-overlapping dual frequency band transmit pulse complexes .
+
+ppatt:
+	?a transmit ?b
+		?a: Contrast imaging by non-overlapping dual frequency band
+		?b: pulse complexes
+
+
+label:    sent_6
+sentence: Third harmonic transmit phasing for SNR improvement in tissue harmonic imaging with Golay-encoded excitation .
+
+ppatt:
+	Third ?a transmit ?b
+		?a: harmonic
+		?b: phasing for SNR improvement in tissue harmonic imaging with Golay-encoded excitation
+
+
+label:    sent_7
+sentence: Beamforming is modified to transmit frames with N alternating center frequencies .
+
+ppatt:
+	?a is modified to transmit ?b
+		?a: Beamforming
+		?b: frames with N alternating center frequencies
+
+
+label:    sent_8
+sentence: In the future we hope to transmit results directly to the laboratory computer .
+
+ppatt:
+	In ?a ?b hope to transmit ?c directly to ?d
+		?a: the future
+		?b: we
+		?c: results
+		?d: the laboratory computer
+
+
+label:    sent_9
+sentence: All attempts to transmit these isolates with Rhipicephalus appendiculatus were unsuccessful . GPCRs transmit signals through heterotrimeric G proteins composed of Galpha and Gbetagamma subunits .
+
+ppatt:
+	?a transmit ?b with ?c
+		?a: All attempts
+		?b: these isolates
+		?c: Rhipicephalus appendiculatus
+	?a were unsuccessful
+		?a: All attempts to transmit these isolates with Rhipicephalus appendiculatus
+	?a transmit ?b through ?c
+		?a: GPCRs
+		?b: signals
+		?c: heterotrimeric G proteins composed of Galpha and Gbetagamma subunits
+	?a composed of ?b ?c
+		?a: heterotrimeric G proteins
+		?b: Galpha
+		?c: subunits
+	?a composed of ?b ?c
+		?a: heterotrimeric G proteins
+		?b: Gbetagamma
+		?c: subunits
+
+
+label:    sent_10
+sentence: The local specialists transmit these data to the Republican Postmortem Center ( Tashkent ) . Men transmit MS more often to their children vs women : the Carter effect .
+
+ppatt:
+	?a transmit ?b to ?c
+		?a: The local specialists
+		?b: these data
+		?c: the Republican Postmortem Center
+	?a is/are Tashkent
+		?a: the Republican Postmortem Center
+	?a transmit ?b more often to ?c
+		?a: Men
+		?b: MS
+		?c: their children
+	?a transmit ?b more often to ?c
+		?a: Men
+		?b: MS
+		?c: women
+
+
+label:    sent_11
+sentence: Clinically normal cats with high chlamydiae-specific antibody titers can shed and thus transmit chlamydiae .
+
+ppatt:
+	?a can shed
+		?a: Clinically normal cats with high chlamydiae-specific antibody titers
+	?a thus transmit ?b
+		?a: Clinically normal cats with high chlamydiae-specific antibody titers
+		?b: chlamydiae
+
+
+label:    sent_12
+sentence: Nurses must have a method to share health information and transmit nursing data .
+
+ppatt:
+	?a must have ?b
+		?a: Nurses
+		?b: a method to share health information and transmit nursing data
+	?a share ?b
+		?a: a method
+		?b: health information
+	transmit ?a
+		?a: nursing data
+
+
+label:    sent_13
+sentence: It also allowed for further optimization with respect to electrical matching and transmit waveform .
+
+ppatt:
+	?a also allowed for ?b
+		?a: It
+		?b: further optimization with respect to electrical matching
+	?a transmit ?b
+		?a: It
+		?b: waveform
+
+
+label:    sent_14
+sentence: Specific phosphorylations transmit signals from leukocyte beta2 to beta1 integrins and regulate adhesion .
+
+ppatt:
+	?a transmit ?b
+		?a: Specific phosphorylations
+		?b: signals from leukocyte beta2 to beta1 integrins
+	?a regulate ?b
+		?a: Specific phosphorylations
+		?b: adhesion
+
+
+label:    sent_15
+sentence: Thrombosed stent-grafts and aneurysms can transmit systemic arterial pressure and cause late rupture .
+
+ppatt:
+	?a can transmit ?b
+		?a: Thrombosed stent-grafts
+		?b: systemic arterial pressure
+	?a can transmit ?b
+		?a: aneurysms
+		?b: systemic arterial pressure
+	?a cause ?b
+		?a: Thrombosed stent-grafts
+		?b: late rupture
+	?a cause ?b
+		?a: aneurysms
+		?b: late rupture
+
+
+label:    sent_16
+sentence: These adhesion receptors therefore transmit mechanical stresses and are well positioned to mediate mechanotransduction .
+
+ppatt:
+	?a therefore transmit ?b
+		?a: These adhesion receptors
+		?b: mechanical stresses
+	?a are well positioned to mediate ?b
+		?a: These adhesion receptors
+		?b: mechanotransduction
+
+
+label:    sent_17
+sentence: [Infections which humans in the household transmit to dogs and cats ] . The module was able to transmit into another IS26-containing plasmid by recombination .
+
+ppatt:
+	?a ?b transmit to ?c
+		?a: [Infections
+		?b: humans in the household
+		?c: dogs
+	?a ?b transmit to ?c
+		?a: [Infections
+		?b: humans in the household
+		?c: cats
+	?a ?b transmit to ?c
+		?a: [Infections
+		?b: humans in the household
+		?c: ]
+	?a ?b was able to transmit into ?c by ?d
+		?a: [Infections which humans in the household transmit to dogs and cats ]
+		?b: The module
+		?c: another IS26-containing plasmid
+		?d: recombination
+
+
+label:    sent_18
+sentence: No video failed to transmit correctly on the first attempt .
+
+ppatt:
+	?a failed to transmit correctly on ?b
+		?a: No video
+		?b: the first attempt
+
+
+label:    sent_19
+sentence: It recorded the reflection of feet and transmit them to a computer .
+
+ppatt:
+	?a recorded ?b
+		?a: It
+		?b: the reflection of feet
+	?a transmit ?b to ?c
+		?a: It
+		?b: them
+		?c: a computer
+
+
+label:    sent_20
+sentence: By 260 days pigs became seronegative and did not transmit virus to sentinel pigs .
+
+ppatt:
+	By ?a became seronegative
+		?a: 260 days pigs
+	By ?a did not transmit ?b to ?c
+		?a: 260 days pigs
+		?b: virus
+		?c: sentinel pigs
+
+
+label:    sent_21
+sentence: Transgenic individuals are viable , fertile and transmit the rhEPO gene to the offspring .
+
+ppatt:
+	?a are viable
+		?a: Transgenic individuals
+	?a fertile
+		?a: Transgenic individuals
+	?a transmit ?b to ?c
+		?a: Transgenic individuals
+		?b: the rhEPO gene
+		?c: the offspring
+
+
+label:    sent_22
+sentence: Tendons transmit skeletal muscle forces to bone and are essential in all voluntary movement .
+
+ppatt:
+	?a transmit ?b
+		?a: Tendons
+		?b: skeletal muscle forces to bone
+
+
+label:    sent_23
+sentence: Phlebotomine sand flies transmit the haemoflagellate Leishmania , the causative agent of human leishmaniasis .
+
+ppatt:
+	?a transmit ?b
+		?a: Phlebotomine sand flies
+		?b: the haemoflagellate Leishmania
+	?a is/are the causative agent of ?b
+		?a: the haemoflagellate Leishmania
+		?b: human leishmaniasis
+
+
+label:    sent_24
+sentence: Occasionally these viruses transmit to other mammals , including humans . How far droplets can move is related to how far droplet-borne diseases can transmit .
+
+ppatt:
+	Occasionally ?a transmit to ?b
+		?a: these viruses
+		?b: other mammals , including humans
+	far ?a can move
+		?a: droplets
+	?a How is related
+		?a: these viruses
+	to how ?a can transmit
+		?a: far droplet-borne diseases
+
+

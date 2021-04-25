@@ -1,0 +1,125 @@
+label:    sent_1
+sentence: The llama had intermittently strained to defecate during the 3 days prior to admission .
+
+ppatt:
+	?a had intermittently strained to defecate during ?b prior to ?c
+		?a: The llama
+		?b: the 3 days
+		?c: admission
+
+
+label:    sent_2
+sentence: Uncomfortable seats were the reason the children chose to defecate in the open . All patients were unable to defecate during stimulation .
+
+ppatt:
+	?a were the reason
+		?a: Uncomfortable seats
+	?a ?b chose to defecate in ?c
+		?a: the reason
+		?b: the children
+		?c: the open
+	?a were unable to defecate during ?b
+		?a: All patients
+		?b: stimulation
+
+
+label:    sent_3
+sentence: Biofeedback eliminated dyssynergia in 91 % and enabled 85 % to defecate the balloon .
+
+ppatt:
+	?a eliminated ?b in ?c
+		?a: Biofeedback
+		?b: dyssynergia
+		?c: 91 %
+	?a enabled ?b to defecate ?c
+		?a: Biofeedback
+		?b: 85 %
+		?c: the balloon
+
+
+label:    sent_4
+sentence: Fifteen control children and 20 constipated children were able to defecate rectal balloons .
+
+ppatt:
+	?a were able to defecate ?b
+		?a: Fifteen control children
+		?b: rectal balloons
+	?a were able to defecate ?b
+		?a: 20 constipated children
+		?b: rectal balloons
+
+
+label:    sent_5
+sentence: Twelve patients could defecate normally 4-6 days after surgery . More than 2.5 billion people defecate in the open .
+
+ppatt:
+	?a could defecate ?b ?c
+		?a: Twelve patients
+		?b: normally 4-6 days after surgery
+		?c: More than 2.5 billion people defecate in the open
+	?a defecate in ?b
+		?a: More than 2.5 billion people
+		?b: the open
+
+
+label:    sent_6
+sentence: Four of these patients could defecate spontaneously following stimulation .
+
+ppatt:
+	?a could defecate spontaneously following ?b
+		?a: Four of these patients
+		?b: stimulation
+
+
+label:    sent_7
+sentence: Evaluation of ability to defecate using saline evacuation from the rectum . All the cases could normally defecate .
+
+ppatt:
+	?a defecate using ?b
+		?a: ability
+		?b: saline evacuation from the rectum
+	?a ?b could normally defecate
+		?a: Evaluation of ability to defecate using saline evacuation from the rectum
+		?b: All the cases
+
+
+label:    sent_8
+sentence: The foals were generally normal at birth but did not defecate .
+
+ppatt:
+	?a were generally normal at ?b
+		?a: The foals
+		?b: birth
+	?a did not defecate
+		?a: The foals
+
+
+label:    sent_9
+sentence: When and where do dairy cows defecate and urinate ? He could only defecate once a week and frequently needed an enema for defecation .
+
+ppatt:
+	When where do ?a ?b
+		?a: dairy cows
+		?b: defecate
+	?a urinate
+		?a: dairy cows
+	?a could only defecate once ?b
+		?a: He
+		?b: a week
+	?a frequently needed ?b
+		?a: He
+		?b: an enema for defecation
+
+
+label:    sent_10
+sentence: After autotomy , scorpions do not defecate and can only capture small prey items .
+
+ppatt:
+	After ?a , ?b do not defecate
+		?a: autotomy
+		?b: scorpions
+	?a can only capture ?b
+		?a: scorpions
+		?b: small prey items
+
+

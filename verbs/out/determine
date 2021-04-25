@@ -1,0 +1,347 @@
+label:    sent_1
+sentence: Hemolytic assay and antibacterial tests were applied to determine the cytolytic activity of ECFP .
+
+ppatt:
+	?a were applied to determine ?b
+		?a: Hemolytic assay
+		?b: the cytolytic activity of ECFP
+	?a were applied to determine ?b
+		?a: antibacterial tests
+		?b: the cytolytic activity of ECFP
+
+
+label:    sent_2
+sentence: The Bland-Altman technique was used to determine concordance .
+
+ppatt:
+	?a was used to determine ?b
+		?a: The Bland-Altman technique
+		?b: concordance
+
+
+label:    sent_3
+sentence: To determine the molecular mechanism associated with gastric carcinogenesis .
+
+ppatt:
+	determine ?a
+		?a: the molecular mechanism associated with gastric carcinogenesis
+	?a associated with ?b
+		?a: the molecular mechanism
+		?b: gastric carcinogenesis
+
+
+label:    sent_4
+sentence: To determine the safety and explore the efficacy of ALN-RSV01 in RSV infection .
+
+ppatt:
+	determine ?a
+		?a: the safety
+	explore ?a
+		?a: the efficacy of ALN-RSV01 in RSV infection
+
+
+label:    sent_5
+sentence: Here , we sought to conclusively define these specificities and determine their molecular origin .
+
+ppatt:
+	Here , ?a sought to conclusively define ?b
+		?a: we
+		?b: these specificities
+	Here , ?a sought to determine ?b
+		?a: we
+		?b: their molecular origin
+
+
+label:    sent_6
+sentence: Using chemotherapeutic drugs to trigger hematopoietic stem cell activation and determine hematological toxicity .
+
+ppatt:
+	Using ?a
+		?a: chemotherapeutic drugs
+	trigger ?a
+		?a: hematopoietic stem cell activation
+	determine ?a
+		?a: hematological toxicity
+
+
+label:    sent_7
+sentence: Its main objective is to determine exercise tolerance and oxygen saturation during submaximal exercise .
+
+ppatt:
+	?a is to determine ?b
+		?a: Its main objective
+		?b: exercise tolerance during submaximal exercise
+	?a is to determine ?b
+		?a: Its main objective
+		?b: oxygen saturation
+
+
+label:    sent_8
+sentence: Tools to determine students ' skill in shared decision-making are needed .
+
+ppatt:
+	?a determine ?b
+		?a: Tools
+		?b: students ' skill in shared decision-making
+	?a are needed
+		?a: Tools to determine students ' skill in shared decision-making
+
+
+label:    sent_9
+sentence: Participants were asked to determine their procedure allocation at the end of treatment .
+
+ppatt:
+	?a were asked to determine ?b at ?c
+		?a: Participants
+		?b: their procedure allocation
+		?c: the end of treatment
+
+
+label:    sent_10
+sentence: Two review authors independently assessed the identified studies to determine eligibility for inclusion .
+
+ppatt:
+	?a independently assessed ?b
+		?a: Two review authors
+		?b: the identified studies to determine eligibility for inclusion
+	?a determine ?b
+		?a: the identified studies
+		?b: eligibility for inclusion
+
+
+label:    sent_11
+sentence: A nine-point pH titration method to determine low-concentration VFA in municipal wastewater .
+
+ppatt:
+	?a determine ?b
+		?a: A nine-point pH titration method
+		?b: low-concentration VFA in municipal wastewater
+
+
+label:    sent_12
+sentence: Various factors determine health-seeking behaviour in south-east Nigeria .
+
+ppatt:
+	?a determine ?b
+		?a: Various factors
+		?b: health-seeking behaviour in south-east Nigeria
+
+
+label:    sent_13
+sentence: To determine and compare the bioavailability of Cd from vegetable and animal-based foods .
+
+ppatt:
+	determine ?a
+		?a: the bioavailability of Cd from vegetable and animal-based foods
+	compare ?a
+		?a: the bioavailability of Cd from vegetable and animal-based foods
+
+
+label:    sent_14
+sentence: Identified papers were analysed to determine and evaluate the costing methods used .
+
+ppatt:
+	?a were analysed to determine ?b
+		?a: Identified papers
+		?b: the costing methods used
+	?a were analysed to evaluate
+		?a: Identified papers
+	?a used
+		?a: the costing methods
+
+
+label:    sent_15
+sentence: Further studies are needed to determine how rituximab functions and to identify appropriate countermeasures .
+
+ppatt:
+	?a are needed to determine ?b
+		?a: Further studies
+		?b: SOMETHING := how rituximab functions
+	how ?a functions
+		?a: rituximab
+	?a identify ?b
+		?a: rituximab
+		?b: appropriate countermeasures
+
+
+label:    sent_16
+sentence: We then determine what additional capacity is required to achieve optimal impact .
+
+ppatt:
+	?a then determine ?b
+		?a: We
+		?b: SOMETHING := additional capacity is required to achieve optimal impact
+	?a is required to achieve ?b
+		?a: additional capacity
+		?b: optimal impact
+
+
+label:    sent_17
+sentence: This will determine whether increased neurogenesis is beneficial or counteractive to ictogenesis and epileptogenesis .
+
+ppatt:
+	?a will determine ?b
+		?a: This
+		?b: SOMETHING := whether increased neurogenesis is beneficial to ictogenesis and epileptogenesis
+	?a is beneficial to ?b
+		?a: increased neurogenesis
+		?b: ictogenesis
+	?a is beneficial to ?b
+		?a: increased neurogenesis
+		?b: epileptogenesis
+	?a counteractive
+		?a: increased neurogenesis
+
+
+label:    sent_18
+sentence: Adjuvants determine which APCs are utilized in Ag-sensitization .
+
+ppatt:
+	?a determine ?b
+		?a: Adjuvants
+		?b: SOMETHING := which APCs are utilized in Ag-sensitization
+	?a ?b are utilized in ?c
+		?a: which
+		?b: APCs
+		?c: Ag-sensitization
+
+
+label:    sent_19
+sentence: These microenvironments determine stem cell fate via control over differentiation .
+
+ppatt:
+	?a determine ?b via ?c
+		?a: These microenvironments
+		?b: stem cell fate
+		?c: control over differentiation
+
+
+label:    sent_20
+sentence: From novice to expert : confidence and activity status determine heart failure self-care performance .
+
+ppatt:
+	From ?a to ?b : ?c determine ?d
+		?a: novice
+		?b: expert
+		?c: confidence
+		?d: heart failure self-care performance
+	From ?a to ?b : ?c determine ?d
+		?a: novice
+		?b: expert
+		?c: activity
+		?d: heart failure self-care performance
+
+
+label:    sent_21
+sentence: Multiple factors determine outcomes following treatment of liver tumours .
+
+ppatt:
+	?a determine ?b
+		?a: Multiple factors
+		?b: outcomes following treatment of liver tumours
+
+
+label:    sent_22
+sentence: However , these measures are often impossible to determine in acutely injured patients .
+
+ppatt:
+	However , ?a are often impossible to determine in ?b
+		?a: these measures
+		?b: acutely injured patients
+
+
+label:    sent_23
+sentence: An independent empirical analysis is necessary to determine over or undertreatment in pain care .
+
+ppatt:
+	?a is necessary to determine ?b in ?c
+		?a: An independent empirical analysis
+		?b: over
+		?c: pain care
+	?a is necessary to determine ?b in ?c
+		?a: An independent empirical analysis
+		?b: undertreatment
+		?c: pain care
+
+
+label:    sent_24
+sentence: These requirements are difficult to determine because of limited clinical experience .
+
+ppatt:
+	?a are difficult to determine because of ?b
+		?a: These requirements
+		?b: limited clinical experience
+
+
+label:    sent_25
+sentence: Medical and angiographic reports were reviewed to determine technical efficacy and for procedural complications .
+
+ppatt:
+	?a were reviewed to determine ?b
+		?a: Medical and angiographic reports
+		?b: technical efficacy
+	?a were reviewed to determine ?b
+		?a: Medical and angiographic reports
+		?b: procedural complications
+
+
+label:    sent_26
+sentence: Participants were followed annually to determine hormone levels and for transvaginal ultrasound .
+
+ppatt:
+	?a were followed annually to determine ?b
+		?a: Participants
+		?b: hormone levels
+	?a were followed annually to determine ?b
+		?a: Participants
+		?b: transvaginal ultrasound
+
+
+label:    sent_27
+sentence: To determine clinicians ' attitudes to and stated use of NIV for these patients .
+
+ppatt:
+	determine ' ?a
+		?a: clinicians attitudes
+	stated ?a
+		?a: use of NIV for these patients
+
+
+label:    sent_28
+sentence: An E-test to determine MIC and a synergy test by aminophenylboronic disks were performed .
+
+ppatt:
+	?a determine ?b
+		?a: An E-test
+		?b: MIC
+	?a determine ?b
+		?a: An E-test
+		?b: a synergy test by aminophenylboronic disks
+	?a were performed
+		?a: An E-test to determine MIC and a synergy test by aminophenylboronic disks
+
+
+label:    sent_29
+sentence: Advanced cases determine significant tissue destruction and they can metastasize .
+
+ppatt:
+	?a determine ?b
+		?a: Advanced cases
+		?b: significant tissue destruction
+	?a can metastasize
+		?a: they
+
+
+label:    sent_30
+sentence: The findings would help clinicians determine management criteria and improve survival .
+
+ppatt:
+	?a would help ?b determine ?c
+		?a: The findings
+		?b: clinicians
+		?c: management criteria
+	?a would help improve ?b
+		?a: The findings
+		?b: survival
+
+

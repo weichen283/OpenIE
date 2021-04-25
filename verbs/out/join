@@ -1,0 +1,294 @@
+label:    sent_1
+sentence: Can bacteria actively search to join groups ? Prevention : could flu vaccine join the secondary prevention armamentarium for ACS ?
+
+ppatt:
+	Can ?a actively search to join ?b ?c
+		?a: bacteria
+		?b: groups
+		?c: Prevention
+	could ?a join ?b
+		?a: flu vaccine
+		?b: the secondary prevention armamentarium for ACS
+
+
+label:    sent_2
+sentence: In this study we propose an anatomy-informed model that may join these views .
+
+ppatt:
+	In ?a ?b propose ?c
+		?a: this study
+		?b: we
+		?c: an anatomy-informed model that may join these views
+	?a may join ?b
+		?a: an anatomy-informed model
+		?b: these views
+
+
+label:    sent_3
+sentence: Since 2002 we attempted contact with 195 sites to join the BCI .
+
+ppatt:
+	?a ?b attempted ?c to join ?d
+		?a: 2002
+		?b: we
+		?c: contact with 195 sites
+		?d: the BCI
+
+
+label:    sent_4
+sentence: Upper urinary tract pacemaker cells join the GLI club .
+
+ppatt:
+	?a join ?b
+		?a: Upper urinary tract pacemaker cells
+		?b: the GLI club
+
+
+label:    sent_5
+sentence: Merseyside GP and GPD join forces .
+
+ppatt:
+	?a join ?b
+		?a: Merseyside
+		?b: forces
+
+
+label:    sent_6
+sentence: Stakeholders join forces in attempt to improve safety , reduce health care costs . A new laser and a computer join forces against myopia .
+
+ppatt:
+	?a join ?b in ?c to improve ?d
+		?a: Stakeholders
+		?b: forces
+		?c: attempt
+		?d: safety
+	?a reduce ?b
+		?a: Stakeholders
+		?b: health care costs
+	?a join ?b
+		?a: A new laser
+		?b: forces against myopia
+	?a join ?b
+		?a: a computer
+		?b: forces against myopia
+
+
+label:    sent_7
+sentence: Religion , medicine join hands at Oral Roberts ' City of Faith . Most were willing to join a support group and some changed attitudes toward disclosure .
+
+ppatt:
+	?a ?b join ?c at ?d
+		?a: Religion
+		?b: medicine
+		?c: hands
+		?d: Oral Roberts ' City of Faith
+	?a Most were willing to join ?b
+		?a: Religion , medicine join hands at Oral Roberts ' City of Faith
+		?b: a support group
+	?a Most were willing to join ?b
+		?a: Religion , medicine join hands at Oral Roberts ' City of Faith
+		?b: some changed attitudes toward disclosure
+
+
+label:    sent_8
+sentence: After adsorption , join this adsorption tube to the sampling bottle under reduced pressure . Doctors , dairymen join in effort to clip the talons of the FTC .
+
+ppatt:
+	join ?a to ?b under ?c ?d
+		?a: this adsorption tube
+		?b: the sampling bottle
+		?c: reduced pressure . Doctors
+		?d: dairymen
+	After ?a , ?b join in ?c
+		?a: adsorption
+		?b: dairymen
+		?c: effort to clip the talons of the FTC
+	?a clip ?b
+		?a: effort
+		?b: the talons of the FTC
+
+
+label:    sent_9
+sentence: All lymphatics join within the mediastinum .
+
+ppatt:
+	?a join within ?b
+		?a: All lymphatics
+		?b: the mediastinum
+
+
+label:    sent_10
+sentence: Purified autolysis products spontaneously join in a non-enzymic reaction .
+
+ppatt:
+	?a spontaneously join in ?b
+		?a: Purified autolysis products
+		?b: a non-enzymic reaction
+
+
+label:    sent_11
+sentence: Private , public sector join in anti-fraud attack .
+
+ppatt:
+	?a ?b join in ?c
+		?a: Private
+		?b: public sector
+		?c: anti-fraud attack
+
+
+label:    sent_12
+sentence: Longitudinal MR imaging in Alzheimer disease : a study anyone can join . If you organize , they will join .
+
+ppatt:
+	?a organize
+		?a: you
+	?a will join
+		?a: they
+
+
+label:    sent_13
+sentence: Who are today 's bariatric surgeons and which ones join the ASBS ?
+
+ppatt:
+	?a are today 's bariatric surgeons
+		?a: Who
+	?a ?b join ?c
+		?a: which
+		?b: ones
+		?c: the ASBS
+
+
+label:    sent_14
+sentence: Why we now have physicians who seek to join RPhs in making pharmacy rounds .
+
+ppatt:
+	Why ?a now have ?b
+		?a: we
+		?b: physicians who seek to join RPhs in making pharmacy rounds
+	?a seek to join ?b
+		?a: physicians
+		?b: RPhs
+	?a making ?b
+		?a: who
+		?b: pharmacy rounds
+
+
+label:    sent_15
+sentence: Sharing arrangement : department heads asked to join in . Most hospitals slow to join with group practices .
+
+ppatt:
+	Sharing ?a ?b
+		?a: arrangement
+		?b: department heads asked to join in . Most hospitals slow to join with group practices
+	?a asked to join in ?b
+		?a: department heads
+		?b: Most hospitals slow to join with group practices
+	join with ?a
+		?a: group practices
+
+
+label:    sent_16
+sentence: Players bet money and join a game .
+
+ppatt:
+	?a bet money
+		?a: Players
+	?a join ?b
+		?a: Players
+		?b: a game
+
+
+label:    sent_17
+sentence: Basal efferent cell axons are thick and join the basal bundle leaving the cerebellum .
+
+ppatt:
+	?a are thick
+		?a: Basal efferent cell axons
+	?a join ?b
+		?a: Basal efferent cell axons
+		?b: the basal bundle leaving the cerebellum
+	?a leaving ?b
+		?a: the basal bundle
+		?b: the cerebellum
+
+
+label:    sent_18
+sentence: Trabeculae of leptomeninges compartmentalize the subarachnoid space and join the pia to arachnoid mater .
+
+ppatt:
+	?a compartmentalize ?b
+		?a: Trabeculae of leptomeninges
+		?b: the subarachnoid space
+	?a join ?b
+		?a: Trabeculae of leptomeninges
+		?b: the pia to arachnoid mater
+
+
+label:    sent_19
+sentence: To do this , some join the clusters , but others form independent bundles .
+
+ppatt:
+	do ?a ?b
+		?a: this
+		?b: some
+	?a join ?b
+		?a: some
+		?b: the clusters
+	?a form ?b
+		?a: others
+		?b: independent bundles
+
+
+label:    sent_20
+sentence: Multiple causes can join forces and trigger the development of this syndrome .
+
+ppatt:
+	?a can join ?b
+		?a: Multiple causes
+		?b: forces
+	?a trigger ?b
+		?a: Multiple causes
+		?b: the development of this syndrome
+
+
+label:    sent_21
+sentence: These fibres join the vomeronasal nerve branches and proceed distally towards the nasal cavity . Supramolecular polymers consist of bifunctional monomers that join and break reversibly .
+
+ppatt:
+	?a join ?b
+		?a: These fibres
+		?b: the vomeronasal nerve branches
+	?a proceed distally towards ?b
+		?a: These fibres
+		?b: the nasal cavity
+	?a consist of ?b
+		?a: Supramolecular polymers
+		?b: bifunctional monomers that join and break reversibly
+	?a join
+		?a: bifunctional monomers
+	?a break reversibly
+		?a: that
+
+
+label:    sent_22
+sentence: These lesions join and perforate the auricular cartilaginous tissue .
+
+ppatt:
+	?a join ?b
+		?a: These lesions
+		?b: the auricular cartilaginous tissue
+	?a perforate
+		?a: These lesions
+
+
+label:    sent_23
+sentence: If we can n't lick them , let 's join and lead them .
+
+ppatt:
+	?a can n't lick ?b
+		?a: we
+		?b: them
+	let lead ?a
+		?a: them
+
+

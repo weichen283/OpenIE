@@ -1,0 +1,332 @@
+label:    sent_1
+sentence: Matrix metalloproteinases 2 and 9 fail to influence drug-induced neuroapoptosis in developing rat brain .
+
+ppatt:
+	?a fail to influence ?b in ?c
+		?a: Matrix metalloproteinases
+		?b: drug-induced neuroapoptosis
+		?c: developing rat brain
+
+
+label:    sent_2
+sentence: Trusts fail to use warning systems .
+
+ppatt:
+	?a fail to use ?b
+		?a: Trusts
+		?b: warning systems
+
+
+label:    sent_3
+sentence: If conservative measures fail , operative procedures can be taken into consideration .
+
+ppatt:
+	?a fail
+		?a: conservative measures
+	?a can be taken into ?b
+		?a: operative procedures
+		?b: consideration
+
+
+label:    sent_4
+sentence: Some wounds fail to heal despite optimal medical and surgical care .
+
+ppatt:
+	?a fail to heal despite ?b
+		?a: Some wounds
+		?b: optimal medical and surgical care
+
+
+label:    sent_5
+sentence: Little is known about why these patients fail to perform this transfer activity .
+
+ppatt:
+	?a is known ?b
+		?a: Little
+		?b: SOMETHING := about why these patients fail to perform this transfer activity
+	about why ?a fail to perform ?b
+		?a: these patients
+		?b: this transfer activity
+
+
+label:    sent_6
+sentence: However , enzyme-based glucose sensors often fail in vivo .
+
+ppatt:
+	However , ?a often fail in vivo
+		?a: enzyme-based glucose sensors
+
+
+label:    sent_7
+sentence: Denervated wounds fail to heal normally , and hypertrophic scars are abnormally innervated .
+
+ppatt:
+	?a fail to heal normally
+		?a: Denervated wounds
+	?a are abnormally innervated
+		?a: hypertrophic scars
+
+
+label:    sent_8
+sentence: Intraoperative MGC imaging provides additional information when standard techniques fail or are ambiguous .
+
+ppatt:
+	?a provides ?b
+		?a: Intraoperative MGC imaging
+		?b: additional information
+	when ?a fail
+		?a: standard techniques
+
+
+label:    sent_9
+sentence: However , medical reassurance can fail or even have negative effects .
+
+ppatt:
+	However , ?a can fail
+		?a: medical reassurance
+	?a even have ?b
+		?a: medical reassurance
+		?b: negative effects
+
+
+label:    sent_10
+sentence: Some PTEN mutants have lipid phosphatase activity but fail to suppress cell growth .
+
+ppatt:
+	?a have ?b
+		?a: Some PTEN mutants
+		?b: lipid phosphatase activity
+	?a fail to suppress ?b
+		?a: Some PTEN mutants
+		?b: cell growth
+
+
+label:    sent_11
+sentence: Postoperative complications are treatable and fail to lower visual acuity .
+
+ppatt:
+	?a are treatable
+		?a: Postoperative complications
+	?a fail to ?b
+		?a: Postoperative complications
+		?b: lower visual acuity
+
+
+label:    sent_12
+sentence: Outcome was recorded as clinical , microbiological and blood parameter cure or fail .
+
+ppatt:
+	?a was recorded as ?b
+		?a: Outcome
+		?b: clinical
+	?a was recorded as ?b
+		?a: Outcome
+		?b: microbiological
+	?a was recorded as ?b
+		?a: Outcome
+		?b: blood
+	?a was recorded as ?b
+		?a: Outcome
+		?b: parameter
+	?a fail
+		?a: Outcome
+
+
+label:    sent_13
+sentence: Approximately 20 % of icteric AIH presentations fail corticosteroid therapy .
+
+ppatt:
+	?a fail ?b
+		?a: Approximately 20 % of icteric AIH presentations
+		?b: corticosteroid therapy
+
+
+label:    sent_14
+sentence: Patients who fail buprenorphine treatment should be referred for methadone-or abstinence-based treatment .
+
+ppatt:
+	?a fail ?b
+		?a: Patients
+		?b: buprenorphine treatment
+	?a should be referred for ?b
+		?a: Patients who fail buprenorphine treatment
+		?b: methadone-or abstinence-based treatment
+
+
+label:    sent_15
+sentence: Traditional treatments fail a substantial percentage of even the most straightforward cases . Why hospitals fail at Lean .
+
+ppatt:
+	?a fail ?b
+		?a: Traditional treatments
+		?b: a substantial percentage of even the most straightforward cases
+	Why ?a fail at ?b
+		?a: hospitals
+		?b: Lean
+
+
+label:    sent_16
+sentence: However , the vision gradually worsened to fail four years after operation .
+
+ppatt:
+	However , ?a gradually worsened to fail ?b after
+		?a: the vision
+		?b: four years
+
+
+label:    sent_17
+sentence: Consensus on fail points improved from initial to final committee validation .
+
+ppatt:
+	?a ?b fail ?c
+		?a: Consensus
+		?b: on
+		?c: points improved from initial to final committee validation
+	?a improved from ?b ?c
+		?a: points
+		?b: initial
+		?c: committee validation
+	?a improved from ?b ?c
+		?a: points
+		?b: final
+		?c: committee validation
+
+
+label:    sent_18
+sentence: In autoimmunity , some mechanisms in apoptosis fail and may result in disease .
+
+ppatt:
+	In ?a , ?b fail
+		?a: autoimmunity
+		?b: some mechanisms in apoptosis
+	?a may result in ?b
+		?a: some mechanisms in apoptosis
+		?b: disease
+
+
+label:    sent_19
+sentence: Drugs may be used if conservative measures fail or in combination with them .
+
+ppatt:
+	?a may be used
+		?a: Drugs
+	?a fail
+		?a: conservative measures
+
+
+label:    sent_20
+sentence: Actomyosin ring disassembly is prevented and ultimately the daughter cells fail to separate .
+
+ppatt:
+	?a is prevented
+		?a: Actomyosin ring disassembly
+	ultimately ?a fail to separate
+		?a: the daughter cells
+
+
+label:    sent_21
+sentence: We provide suggestions for recognition and handling of situations in which both approaches fail .
+
+ppatt:
+	?a provide ?b
+		?a: We
+		?b: suggestions for recognition and handling of situations in which both approaches fail
+	?a in ?b fail
+		?a: situations
+		?b: both approaches
+
+
+label:    sent_22
+sentence: We review these assumptions and derive several practical scenarios in which they fail .
+
+ppatt:
+	?a review ?b
+		?a: We
+		?b: these assumptions
+	?a derive ?b
+		?a: We
+		?b: several practical scenarios in which they fail
+	?a in ?b fail
+		?a: several practical scenarios
+		?b: they
+
+
+label:    sent_23
+sentence: Eliminate errors by creating systems in which your staff can n't fail .
+
+ppatt:
+	Eliminate ?a
+		?a: errors
+	creating ?a
+		?a: systems in which your staff can n't fail
+	?a in ?b can n't fail
+		?a: systems
+		?b: your staff
+
+
+label:    sent_24
+sentence: Artefacts were the main reason for the Moller setup to fail detecting A-train activity .
+
+ppatt:
+	?a were the main reason for ?b
+		?a: Artefacts
+		?b: the Moller setup to fail detecting A-train activity
+	?a fail detecting ?b
+		?a: the Moller setup
+		?b: A-train activity
+
+
+label:    sent_25
+sentence: A few extreme outliers caused three laboratories to fail statistical testing for consistency .
+
+ppatt:
+	?a caused ?b to fail ?c
+		?a: A few extreme outliers
+		?b: three laboratories
+		?c: statistical testing for consistency
+
+
+label:    sent_26
+sentence: No restoration was awarded a " fail " grade . Bioprosthetic heart valves can degenerate and fail over time .
+
+ppatt:
+	?a was awarded ?b
+		?a: No restoration
+		?b: SOMETHING := a " fail " grade
+	?a fail " ?b
+		?a: a "
+		?b: grade
+	?a can degenerate
+		?a: Bioprosthetic heart valves
+	?a fail over ?b
+		?a: Bioprosthetic heart valves
+		?b: time
+
+
+label:    sent_27
+sentence: However , BHVs have limited durability and fail either due to degeneration or calcification .
+
+ppatt:
+	However , ?a have ?b
+		?a: BHVs
+		?b: limited durability
+	?a fail due to ?b
+		?a: BHVs
+		?b: degeneration
+	?a fail due to ?b
+		?a: BHVs
+		?b: calcification
+
+
+label:    sent_28
+sentence: Some reagents have reduced performance or fail at higher doses .
+
+ppatt:
+	?a have reduced ?b
+		?a: Some reagents
+		?b: performance
+	?a fail at ?b
+		?a: Some reagents
+		?b: higher doses
+
+

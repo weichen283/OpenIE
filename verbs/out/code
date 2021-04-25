@@ -1,0 +1,223 @@
+label:    sent_1
+sentence: The Matlab model code is available as a supplementary material of this article . PicXAA-R source code is freely available at : http : //www .ece.tamu.edu/~bjyoon/picxaa/ . SOLANG : A user-friendly code to calculate the geometry factor using Monte Carlo simulations .
+
+ppatt:
+	?a is available as ?b
+		?a: The Matlab model code
+		?b: a supplementary material of this article
+	?a is freely available
+		?a: PicXAA-R source code
+	?a calculate ?b using ?c
+		?a: A user-friendly code
+		?b: the geometry factor
+		?c: Monte Carlo simulations
+
+
+label:    sent_2
+sentence: Several transcripts have been identified , some of which code for putative soluble proteins .
+
+ppatt:
+	?a have been identified ?b
+		?a: Several transcripts
+		?b: SOMETHING := some of which code for putative soluble proteins
+	?a code for ?b
+		?a: some of which
+		?b: putative soluble proteins
+
+
+label:    sent_3
+sentence: A new meiosis-specific cohesin complex implicated in the cohesin code for homologous pairing . A sensory code for host seeking in parasitic nematodes .
+
+ppatt:
+	?a implicated in ?b
+		?a: A new meiosis-specific cohesin complex
+		?b: the cohesin code for homologous pairing
+
+
+label:    sent_4
+sentence: Characterizing the fine structure of a neural sensory code through information distortion .
+
+ppatt:
+	Characterizing ?a through ?b
+		?a: the fine structure of a neural sensory code
+		?b: information distortion
+
+
+label:    sent_5
+sentence: Genomic regions that are frequently deleted or amplified in cancer often code for miRNA .
+
+ppatt:
+	?a are frequently deleted in ?b
+		?a: Genomic regions
+		?b: cancer
+	?a amplified
+		?a: that
+	?a often code for ?b
+		?a: Genomic regions that are frequently deleted or amplified in cancer
+		?b: miRNA
+
+
+label:    sent_6
+sentence: Asynchrony adaptation reveals neural population code for audio-visual timing .
+
+ppatt:
+	?a reveals ?b
+		?a: Asynchrony adaptation
+		?b: neural population code for audio-visual timing
+
+
+label:    sent_7
+sentence: One extubation and one code team activation occurred . ADA responds to code article .
+
+ppatt:
+	?a occurred
+		?a: One extubation
+	?a occurred
+		?a: one code team activation
+	?a responds to ?b
+		?a: ADA
+		?b: code article
+
+
+label:    sent_8
+sentence: We used the Observer XT software to code the observed sequences .
+
+ppatt:
+	?a used ?b
+		?a: We
+		?b: the Observer XT software
+	?a code ?b
+		?a: We
+		?b: the observed sequences
+
+
+label:    sent_9
+sentence: Cracking the chromatin code : precise rule of nucleosome positioning . Bit-by-bit optical code scrambling technique for secure optical communication .
+
+ppatt:
+	Cracking ?a
+		?a: the chromatin code
+	?a secure ?b
+		?a: precise rule of nucleosome positioning . Bit-by-bit optical code scrambling technique
+		?b: optical communication
+
+
+label:    sent_10
+sentence: Questions ADA code article . C source code and several binary versions are freely available from http : //www.massey.ac.nz/~wtwhite/xmp . Source code and experimental data are available at http : //www.cse.msu.edu/~yannisun/grammar-string . Source code and documentation are freely available at http : //github.org/pezmaster31/bamtools .
+
+ppatt:
+	?a are freely available
+		?a: Questions ADA code article . C source code and several binary versions
+
+
+label:    sent_11
+sentence: Physicians may avoid code status discussions for fear of decreasing patient or surrogate satisfaction .
+
+ppatt:
+	?a may avoid ?b
+		?a: Physicians
+		?b: code status discussions for fear
+	?a decreasing ?b
+		?a: Physicians
+		?b: patient
+	?a decreasing ?b
+		?a: Physicians
+		?b: surrogate satisfaction
+
+
+label:    sent_12
+sentence: The word based encoder uses frequency distribution for assigning the code of words .
+
+ppatt:
+	?a uses ?b
+		?a: The word based encoder
+		?b: frequency distribution
+	?a assigning ?b
+		?a: frequency distribution
+		?b: the code of words
+
+
+label:    sent_13
+sentence: A simple word-matching computer program to code occupation entries from vital records was developed .
+
+ppatt:
+	?a code ?b
+		?a: A simple word-matching computer program
+		?b: occupation entries from vital records
+	?a was developed
+		?a: A simple word-matching computer program to code occupation entries from vital records
+
+
+label:    sent_14
+sentence: Eleven physicians discussed code status in 19 encounters .
+
+ppatt:
+	?a discussed ?b in ?c
+		?a: Eleven physicians
+		?b: code status
+		?c: 19 encounters
+
+
+label:    sent_15
+sentence: Emergency code color standardization : implementation without traumatization .
+
+ppatt:
+
+
+
+label:    sent_16
+sentence: Product code optimization for determinate state LDPC decoding in robust image transmission .
+
+ppatt:
+
+
+
+label:    sent_17
+sentence: [ The anti-corruption law and the code of conduct for civil servants ] . Both exons code for amino acids 66-114 but share only 27 % identity . Source code in perl and R are available from http : //tartara.csd.auth.gr/~theodos/ The first issue is related to inconsistencies between code and phase observations .
+
+ppatt:
+	[ ?a . ?b code for ?c
+		?a: The anti-corruption law of conduct for civil servants
+		?b: Both exons
+		?c: amino acids 66-114
+	[ ?a . ?b code for ?c
+		?a: the code
+		?b: Both exons
+		?c: amino acids 66-114
+	[ ?a share ?b
+		?a: The anti-corruption law of conduct for civil servants
+		?b: only 27 % identity
+	[ ?a share ?b
+		?a: the code
+		?b: only 27 % identity
+	?a are available from ?b
+		?a: Source code in perl and R
+		?b: http
+	?a is related to ?b
+		?a: The first issue
+		?b: inconsistencies between code and phase
+
+
+label:    sent_18
+sentence: The other URFs are in spacer regions and code for hydrophobic proteins .
+
+ppatt:
+	?a are in spacer regions
+		?a: The other URFs
+	?a code for ?b
+		?a: The other URFs
+		?b: hydrophobic proteins
+
+
+label:    sent_19
+sentence: Both genes are devoid of introns and code for core histone proteins .
+
+ppatt:
+	?a are devoid of ?b
+		?a: Both genes
+		?b: introns
+	?a code for ?b
+		?a: Both genes
+		?b: core histone proteins
+
+

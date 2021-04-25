@@ -1,0 +1,204 @@
+label:    sent_1
+sentence: Mash1 and Brn2 have been previously shown to cooperate to reprogram fibroblasts into neurons .
+
+ppatt:
+	?a have been previously shown to cooperate to reprogram ?b into ?c
+		?a: Mash1
+		?b: fibroblasts
+		?c: neurons
+	?a have been previously shown to cooperate to reprogram ?b into ?c
+		?a: Brn2
+		?b: fibroblasts
+		?c: neurons
+
+
+label:    sent_2
+sentence: Enucleated oocytes have the distinctive ability to reprogram somatic nuclei back to totipotency .
+
+ppatt:
+	?a have ?b
+		?a: Enucleated oocytes
+		?b: the distinctive ability to reprogram somatic nuclei back to totipotency
+	?a reprogram ?b back to ?c
+		?a: the distinctive ability
+		?b: somatic nuclei
+		?c: totipotency
+
+
+label:    sent_3
+sentence: Here , we further investigated the capacity of Schwann cells to reprogram their phenotype .
+
+ppatt:
+	Here , ?a further investigated ?b
+		?a: we
+		?b: the capacity of Schwann cells to reprogram their phenotype
+	?a reprogram ?b
+		?a: the capacity of Schwann cells
+		?b: their phenotype
+
+
+label:    sent_4
+sentence: Are the elderly able to appropriately reprogram their actions ? Alternatively , computational design emerges to rationally reprogram enzyme function .
+
+ppatt:
+	appropriately reprogram ?a
+		?a: their actions
+	?a Alternatively , ?b emerges to rationally reprogram ?c
+		?a: Are the elderly able to appropriately reprogram their actions
+		?b: computational design
+		?c: enzyme function
+
+
+label:    sent_5
+sentence: A high-content assay for identifying small molecules that reprogram C. elegans germ cell fate . KLF4 is one of the factors that reprogram differentiated cells to iPS .
+
+ppatt:
+	?a identifying ?b
+		?a: A high-content assay
+		?b: small molecules that reprogram C. elegans germ cell fate
+	?a reprogram ?b
+		?a: small molecules
+		?b: C. elegans germ cell fate
+	?a ?b is one of ?c
+		?a: A high-content assay for identifying small molecules that reprogram C. elegans germ cell fate
+		?b: KLF4
+		?c: the factors that reprogram differentiated cells to iPS
+	?a reprogram ?b to ?c
+		?a: the factors
+		?b: differentiated cells
+		?c: iPS
+
+
+label:    sent_6
+sentence: Intracellular parasites reprogram host functions for their survival and reproduction .
+
+ppatt:
+	?a reprogram ?b for ?c
+		?a: Intracellular parasites
+		?b: host functions
+		?c: their survival
+	?a reprogram ?b for ?c
+		?a: Intracellular parasites
+		?b: host functions
+		?c: reproduction
+
+
+label:    sent_7
+sentence: Lung tumours reprogram pulmonary dendritic cell immunogenicity at the microRNA level .
+
+ppatt:
+	?a reprogram ?b at ?c
+		?a: Lung tumours
+		?b: pulmonary dendritic cell immunogenicity
+		?c: the microRNA level
+
+
+label:    sent_8
+sentence: Amphibian oocytes can rapidly and efficiently reprogram the transcription of transplanted somatic nuclei .
+
+ppatt:
+	?a can rapidly and efficiently reprogram ?b
+		?a: Amphibian oocytes
+		?b: the transcription of transplanted somatic nuclei
+
+
+label:    sent_9
+sentence: Organisms reprogram metabolic pathways to adapt to changes in nutrient availability .
+
+ppatt:
+	?a reprogram ?b to adapt to ?c
+		?a: Organisms
+		?b: metabolic pathways
+		?c: changes in nutrient availability
+
+
+label:    sent_10
+sentence: Thus , consumption of a high fat diet and smoke exposure reprogram hypothalamic NPY .
+
+ppatt:
+	Thus , ?a reprogram ?b
+		?a: consumption of a high fat diet and smoke exposure
+		?b: hypothalamic NPY
+
+
+label:    sent_11
+sentence: How neurons coordinate and reprogram multiple neurotransmitter signals is an area of broad interest .
+
+ppatt:
+	How ?a coordinate ?b
+		?a: neurons
+		?b: multiple neurotransmitter signals
+	?a reprogram
+		?a: neurons
+	is an area of ?a
+		?a: broad interest
+
+
+label:    sent_12
+sentence: Pharyngeal endoderm is essential for and can reprogram development of the head skeleton .
+
+ppatt:
+	?a is essential ?b
+		?a: Pharyngeal endoderm
+		?b: for
+	?a can reprogram ?b
+		?a: Pharyngeal endoderm
+		?b: development of the head skeleton
+
+
+label:    sent_13
+sentence: New concepts are being considered to metabolically starve or reprogram cancer cells .
+
+ppatt:
+	?a are being considered to metabolically starve ?b
+		?a: New concepts
+		?b: cancer cells
+	?a are being considered to reprogram
+		?a: New concepts
+
+
+label:    sent_14
+sentence: Vascular normalizing doses of antiangiogenic treatment reprogram the immunosuppressive tumor microenvironment and enhance immunotherapy .
+
+ppatt:
+	?a reprogram ?b
+		?a: Vascular normalizing doses of antiangiogenic treatment
+		?b: the immunosuppressive tumor microenvironment
+	?a enhance ?b
+		?a: Vascular normalizing doses of antiangiogenic treatment
+		?b: immunotherapy
+
+
+label:    sent_15
+sentence: Pluripotent-specific transcriptional networks are sequentially reactivated as somatic cells reprogram to achieve pluripotency .
+
+ppatt:
+	?a are sequentially reactivated as ?b
+		?a: Pluripotent-specific transcriptional networks
+		?b: somatic cells
+	?a reprogram to achieve ?b
+		?a: Pluripotent-specific transcriptional networks
+		?b: pluripotency
+
+
+label:    sent_16
+sentence: Cell replacement therapies : is it time to reprogram ? PD-1 : PD-L blockade could reprogram all exhausted T cells to become antiviral effectors .
+
+ppatt:
+	?a could reprogram ?b to become antiviral effectors
+		?a: PD-1 : PD-L blockade
+		?b: all exhausted T cells
+
+
+label:    sent_17
+sentence: The ability to reprogram in vivo a somatic cell after differentiation is quite limited .
+
+ppatt:
+	?a reprogram in vivo ?b after ?c
+		?a: The ability
+		?b: a somatic cell
+		?c: differentiation
+	?a is quite limited
+		?a: The ability to reprogram in vivo a somatic cell after differentiation
+
+

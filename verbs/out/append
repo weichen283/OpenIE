@@ -1,0 +1,33 @@
+label:    sent_1
+sentence: Moreover , LUDI can now append a new substituent onto an already existing ligand .
+
+ppatt:
+	Moreover , ?a can now append ?b onto ?c
+		?a: LUDI
+		?b: a new substituent
+		?c: an already existing ligand
+
+
+label:    sent_2
+sentence: The obtained data append the existing knowledge on VOC emission from oxidized bitumens .
+
+ppatt:
+	?a append ?b
+		?a: The obtained data
+		?b: the existing knowledge on VOC emission from oxidized bitumens
+
+
+label:    sent_3
+sentence: Low-risk cardiac surgery approaches zero morbidity/mortality , therefore , cosmetic issues append .
+
+ppatt:
+	?a zero ?b
+		?a: Low-risk cardiac surgery approaches
+		?b: morbidity/mortality , therefore
+	?a zero ?b
+		?a: Low-risk cardiac surgery approaches
+		?b: cosmetic
+	?a append
+		?a: issues
+
+

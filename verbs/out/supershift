@@ -1,0 +1,22 @@
+label:    sent_1
+sentence: The antibody could interact with these complexes and supershift their mobility . Antibodies to Egr-1 completely supershift the PMA-induced complex .
+
+ppatt:
+	?a could interact with ?b
+		?a: The antibody
+		?b: these complexes
+	?a ?b completely supershift ?c
+		?a: supershift their mobility
+		?b: Antibodies to Egr-1
+		?c: the PMA-induced complex
+
+
+label:    sent_2
+sentence: However , anti-CREB antibodies did not supershift this complex .
+
+ppatt:
+	However , ?a did not supershift ?b
+		?a: anti-CREB antibodies
+		?b: this complex
+
+

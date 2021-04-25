@@ -1,0 +1,268 @@
+label:    sent_1
+sentence: Hit- and run traffic accidents frequently occur because an intention to hide drunkenness .
+
+ppatt:
+	?a frequently occur ?b
+		?a: Hit-
+		?b: an intention to hide drunkenness
+	?a frequently occur ?b
+		?a: run
+		?b: an intention to hide drunkenness
+	?a frequently occur ?b
+		?a: traffic accidents
+		?b: an intention to hide drunkenness
+	?a hide ?b
+		?a: an intention
+		?b: drunkenness
+
+
+label:    sent_2
+sentence: This may lead to incorrect diagnoses or hide pathological findings . [US president Roosevelt tried to hide the sequelae of his polio infection ] . Unpublished results hide the decline effect .
+
+ppatt:
+	?a may lead to ?b
+		?a: This
+		?b: incorrect diagnoses
+	?a hide ?b
+		?a: This
+		?b: pathological findings
+	?a tried to hide ?b
+		?a: [US president Roosevelt
+		?b: the sequelae of his polio infection ]
+	?a hide ?b
+		?a: Unpublished results
+		?b: the decline effect
+
+
+label:    sent_3
+sentence: Inheritance of vertical fiber hide defect in cattle .
+
+ppatt:
+	?a hide ?b
+		?a: Inheritance of vertical fiber
+		?b: defect in cattle
+
+
+label:    sent_4
+sentence: Therefore , they hide their drinking in secluded places . Plasmodium falciparum gametocytes : playing hide and seek .
+
+ppatt:
+	Therefore , ?a hide ?b
+		?a: they
+		?b: their drinking in secluded places . Plasmodium falciparum gametocytes
+
+
+label:    sent_5
+sentence: Oculomotor hide and seek : pursuing an accelerating target behind an occluder .
+
+ppatt:
+	?a hide
+		?a: Oculomotor
+	?a seek
+		?a: Oculomotor
+	?a pursuing ?b
+		?a: Oculomotor
+		?b: an accelerating target behind an occluder
+
+
+label:    sent_6
+sentence: Truly life-threatening stimuli elicit instinctive behavior such as fight , flee , or hide . Playing hide and seek with mammalian meiotic crossover hotspots . Mi ' kmaq children are stoic and often hide their pain .
+
+ppatt:
+	?a elicit ?b
+		?a: Truly life-threatening stimuli
+		?b: instinctive behavior such as fight
+	?a flee
+		?a: Truly life-threatening stimuli
+	?a hide Playing
+		?a: Truly life-threatening stimuli
+	?a hide
+		?a: Truly life-threatening stimuli
+	?a seek with ?b
+		?a: Truly life-threatening stimuli
+		?b: mammalian meiotic crossover hotspots
+	?a are stoic
+		?a: Mi ' kmaq children
+	?a often hide ?b
+		?a: Mi ' kmaq children
+		?b: their pain
+
+
+label:    sent_7
+sentence: Fathers spent more time trying to hide their feelings and worrying about their usefulness .
+
+ppatt:
+	?a spent ?b
+		?a: Fathers
+		?b: more time trying to hide their feelings and worrying about their usefulness
+	?a trying to hide ?b
+		?a: more time
+		?b: their feelings
+	trying to worrying about ?a
+		?a: their usefulness
+
+
+label:    sent_8
+sentence: Immune-regulatory mechanisms are used by cancer to hide from the immune system .
+
+ppatt:
+	?a are used by ?b to hide from ?c
+		?a: Immune-regulatory mechanisms
+		?b: cancer
+		?c: the immune system
+
+
+label:    sent_9
+sentence: Sometimes they are forced to hide from relatives , friends , neighbours and co-workers .
+
+ppatt:
+	Sometimes ?a are forced to hide from ?b
+		?a: they
+		?b: relatives
+	Sometimes ?a are forced to hide from ?b
+		?a: they
+		?b: friends
+	Sometimes ?a are forced to hide from ?b
+		?a: they
+		?b: neighbours
+	Sometimes ?a are forced to hide from ?b
+		?a: they
+		?b: co-workers
+
+
+label:    sent_10
+sentence: They are easy to recognize and difficult to hide . When doctors hide medical errors .
+
+ppatt:
+	?a are easy to recognize to hide
+		?a: They
+	When ?a hide ?b
+		?a: doctors
+		?b: medical errors
+
+
+label:    sent_11
+sentence: The endoscopic technique permits to hide minimal scars in the hair .
+
+ppatt:
+	?a permits to hide ?b
+		?a: The endoscopic technique
+		?b: minimal scars in the hair
+
+
+label:    sent_12
+sentence: The hiding function could be executed to hide identifiers in offline mode .
+
+ppatt:
+	?a could be executed to hide ?b
+		?a: The hiding function
+		?b: identifiers in offline mode
+
+
+label:    sent_13
+sentence: A simple method to hide data loggers safely in observation wells .
+
+ppatt:
+	?a hide ?b
+		?a: A simple method
+		?b: data
+	?a loggers safely in ?b
+		?a: A simple method to hide data
+		?b: observation wells
+
+
+label:    sent_14
+sentence: Beef hide antimicrobial interventions as a means of reducing bacterial contamination .
+
+ppatt:
+	?a hide ?b as ?c
+		?a: Beef
+		?b: antimicrobial interventions
+		?c: a means of reducing bacterial contamination
+	?a reducing ?b
+		?a: a means
+		?b: bacterial contamination
+
+
+label:    sent_15
+sentence: Despite a characteristic appearance , this may hide clinically relevant uptake . No place to hide : the ethics of disclosure .
+
+ppatt:
+	Despite ?a , ?b may hide ?c ?d
+		?a: a characteristic appearance
+		?b: this
+		?c: clinically relevant uptake
+		?d: No place to hide
+	?a hide
+		?a: No place
+
+
+label:    sent_16
+sentence: Nothing to hide : transparency in healthcare . Spend , spend , spend --hide , hide , hide . Do you want us to hide information or release information ?
+
+ppatt:
+	hide ?a
+		?a: transparency in healthcare
+	Nothing ?a . Do you want ?b to hide ?c
+		?a: transparency in healthcare
+		?b: us
+		?c: information
+	Nothing ?a . Do you want ?b to hide ?c
+		?a: transparency in healthcare
+		?b: us
+		?c: release
+	Nothing ?a . Do you want ?b to hide ?c
+		?a: transparency in healthcare
+		?b: us
+		?c: information
+
+
+label:    sent_17
+sentence: They hide their legs in pants and seek medical advice .
+
+ppatt:
+	?a hide ?b
+		?a: They
+		?b: their legs in pants
+	?a seek ?b
+		?a: They
+		?b: medical advice
+
+
+label:    sent_18
+sentence: Food caching birds hide food and recover the caches when supplies are less abundant .
+
+ppatt:
+	?a hide ?b
+		?a: Food caching birds
+		?b: food
+	?a recover ?b
+		?a: Food caching birds
+		?b: the caches
+	when ?a are less abundant
+		?a: supplies
+
+
+label:    sent_19
+sentence: A suspenseful game of ' hide and seek ' between virus and host .
+
+ppatt:
+	?a of
+		?a: A suspenseful game
+	?a hide ' between ?b
+		?a: A suspenseful game of
+		?b: virus
+	?a hide ' between ?b
+		?a: A suspenseful game of
+		?b: host
+	?a seek
+		?a: A suspenseful game of
+
+
+label:    sent_20
+sentence: Physical dormancy in seeds : a game of hide and seek ? E. coli O157 was isolated from the hide and carcass of this animal .
+
+ppatt:
+
+
+

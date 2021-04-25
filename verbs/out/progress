@@ -1,0 +1,276 @@
+label:    sent_1
+sentence: These deficits do not progress through 24 months of age .
+
+ppatt:
+	?a do not progress through ?b
+		?a: These deficits
+		?b: 24 months of age
+
+
+label:    sent_2
+sentence: Liver transplantation is required for children who progress to end-stage liver disease .
+
+ppatt:
+	?a is required for ?b
+		?a: Liver transplantation
+		?b: children who progress to end-stage liver disease
+	?a progress to ?b
+		?a: children
+		?b: end-stage liver disease
+
+
+label:    sent_3
+sentence: Research progress on the mechanism of single-Chinese medicinal herbs in treating diabetes mellitus .
+
+ppatt:
+	?a treating ?b
+		?a: Research progress on the mechanism of single-Chinese medicinal herbs
+		?b: diabetes mellitus
+
+
+label:    sent_4
+sentence: This will begin with sub-orbital missions and then progress to orbital flights .
+
+ppatt:
+	?a will begin with ?b
+		?a: This
+		?b: sub-orbital missions
+	?a then progress to ?b
+		?a: This
+		?b: orbital flights
+
+
+label:    sent_5
+sentence: Patients experience a severe cardiomyopathy that can progress to heart failure and death . Novel diagnostics : progress toward a breath test for invasive Aspergillus fumigatus .
+
+ppatt:
+	?a experience ?b
+		?a: Patients
+		?b: a severe cardiomyopathy that can progress to heart failure and death . Novel diagnostics
+	?a can progress to ?b
+		?a: a severe cardiomyopathy
+		?b: heart failure
+	?a can progress to ?b
+		?a: a severe cardiomyopathy
+		?b: death
+	?a can progress to ?b
+		?a: a severe cardiomyopathy
+		?b: Novel diagnostics
+
+
+label:    sent_6
+sentence: Kyphosis may progress during conservative management and may even result in unilateral interlocking .
+
+ppatt:
+	?a may progress during ?b
+		?a: Kyphosis
+		?b: conservative management
+	?a may even result in ?b
+		?a: Kyphosis
+		?b: unilateral interlocking
+
+
+label:    sent_7
+sentence: Time to progress through each stage and number of caller-dispatcher interactions were calculated .
+
+ppatt:
+	?a progress through ?b
+		?a: Time
+		?b: each stage
+	?a progress through ?b
+		?a: Time
+		?b: number of caller-dispatcher interactions
+	?a were calculated
+		?a: Time to progress through each stage and number of caller-dispatcher interactions
+
+
+label:    sent_8
+sentence: Non-alcoholic steatohepatitis can progress to cirrhosis and result in liver-related death .
+
+ppatt:
+	?a can progress to ?b
+		?a: Non-alcoholic steatohepatitis
+		?b: cirrhosis
+	?a result in ?b
+		?a: Non-alcoholic steatohepatitis
+		?b: liver-related death
+
+
+label:    sent_9
+sentence: These defects have limited ability to heal and may progress to osteoarthritis .
+
+ppatt:
+	?a have ?b
+		?a: These defects
+		?b: limited ability to heal and may progress to osteoarthritis
+	?a heal
+		?a: limited ability
+	may progress to ?a
+		?a: osteoarthritis
+
+
+label:    sent_10
+sentence: This paper assesses the current malaria burden and progress toward malaria control .
+
+ppatt:
+	?a assesses ?b
+		?a: This paper
+		?b: the current malaria burden toward malaria control
+	?a assesses ?b
+		?a: This paper
+		?b: progress
+
+
+label:    sent_11
+sentence: Unhealthy behavioural practises are present and may progress as student advance through medical college .
+
+ppatt:
+	?a are present
+		?a: Unhealthy behavioural practises
+	?a may progress as ?b through ?c
+		?a: Unhealthy behavioural practises
+		?b: student advance
+		?c: medical college
+
+
+label:    sent_12
+sentence: What progress looks like in NEC research . Patients , pathways , progress .
+
+ppatt:
+	?a looks like in ?b
+		?a: What progress
+		?b: NEC research . Patients
+	?a is/are pathways
+		?a: Patients
+	?a is/are progress
+		?a: Patients
+
+
+label:    sent_13
+sentence: Sera from tumor-xenografted mice contained increasing concentrations of IL-8 as the tumors progress .
+
+ppatt:
+	?a contained ?b
+		?a: Sera from tumor-xenografted mice
+		?b: increasing concentrations of IL-8
+	as ?a progress
+		?a: the tumors
+
+
+label:    sent_14
+sentence: The induration may progress and lead to pronounced restriction of mobility .
+
+ppatt:
+	?a may progress to ?b
+		?a: The induration
+		?b: pronounced restriction of mobility
+	?a lead
+		?a: The induration
+
+
+label:    sent_15
+sentence: Others with more severe stenosis may progress precipitously and will benefit from early resection .
+
+ppatt:
+	?a may progress precipitously
+		?a: Others with more severe stenosis
+	?a will benefit from ?b
+		?a: Others with more severe stenosis
+		?b: early resection
+
+
+label:    sent_16
+sentence: Invasive aspergillosis affecting the mediastinum can progress and affect the heart tissues .
+
+ppatt:
+	?a affecting ?b
+		?a: Invasive aspergillosis
+		?b: the mediastinum
+	?a can progress ?b
+		?a: Invasive aspergillosis affecting the mediastinum
+		?b: the heart tissues
+	?a affect
+		?a: Invasive aspergillosis affecting the mediastinum
+
+
+label:    sent_17
+sentence: Bilateral movement training and stroke motor recovery progress : a structured review and meta-analysis .
+
+ppatt:
+
+
+
+label:    sent_18
+sentence: Evidence-based practice in communication disorders : progress not perfection .
+
+ppatt:
+
+
+
+label:    sent_19
+sentence: Detection of competitive enzyme inhibition with end point progress curve data . beta2-adrenergic receptor genotype and other variables that contribute to labor pain and progress .
+
+ppatt:
+	?a contribute to ?b
+		?a: other variables
+		?b: labor
+
+
+label:    sent_20
+sentence: These lesions occasionally resolve but more often progress to form ectopic ossification .
+
+ppatt:
+	?a occasionally resolve
+		?a: These lesions
+	?a more often progress to form ?b
+		?a: These lesions
+		?b: ectopic ossification
+
+
+label:    sent_21
+sentence: Untreated infantile tibia vara will likely worsen and progress to severe bowleg .
+
+ppatt:
+	?a will likely worsen
+		?a: Untreated infantile tibia vara
+	?a progress to ?b
+		?a: Untreated infantile tibia vara
+		?b: severe bowleg
+
+
+label:    sent_22
+sentence: Tracking progress in patient safety : an elusive target . A progress report from New York state .
+
+ppatt:
+
+
+
+label:    sent_23
+sentence: Relative importance of components affecting the leaf rust progress curve in wheat .
+
+ppatt:
+	?a affecting ?b
+		?a: components
+		?b: the leaf rust progress curve in wheat
+
+
+label:    sent_24
+sentence: The peculiarity of these neurons has served to progress the study of kainate receptors . ADA and health facilities : some progress , problems .
+
+ppatt:
+	?a has served to progress ?b
+		?a: The peculiarity of these neurons
+		?b: the study of kainate receptors . ADA and health
+	?a is/are problems
+		?a: some progress
+
+
+label:    sent_25
+sentence: The second foal continues to progress normally 12 months after surgery .
+
+ppatt:
+	?a continues to progress ?b after
+		?a: The second foal
+		?b: normally 12 months
+
+

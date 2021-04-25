@@ -1,0 +1,79 @@
+label:    sent_1
+sentence: The brain-damaged rats took longer to impregnate the females than control rats . Of 4 men who had attempted to impregnate their wives 3 succeeded .
+
+ppatt:
+	?a took longer to impregnate ?b than ?c . Of ?d
+		?a: The brain-damaged rats
+		?b: the females
+		?c: control rats
+		?d: 4 men who had attempted to impregnate their wives 3 succeeded
+	?a had attempted to impregnate ?b
+		?a: 4 men
+		?b: their wives 3 succeeded
+	?a succeeded
+		?a: their wives 3
+
+
+label:    sent_2
+sentence: The sterile males mated normally but failed to impregnate females .
+
+ppatt:
+	?a mated normally
+		?a: The sterile males
+	?a failed to impregnate ?b
+		?a: The sterile males
+		?b: females
+
+
+label:    sent_3
+sentence: Azadirachta extract were unable to impregnate female rats throughout the duration of the study . All mated males failed to impregnate females at 10 mg/kg/day .
+
+ppatt:
+	?a were unable to impregnate ?b throughout ?c
+		?a: Azadirachta extract
+		?b: female rats
+		?c: the duration of the study
+	?a failed to impregnate ?b at ?c
+		?a: All mated males
+		?b: females
+		?c: 10 mg/kg/day
+
+
+label:    sent_4
+sentence: None of the males treated with 500 mg/kg/day could impregnate untreated females .
+
+ppatt:
+	?a treated with ?b
+		?a: the males
+		?b: 500 mg/kg/day
+	?a could impregnate ?b
+		?a: None of the males treated with 500 mg/kg/day
+		?b: untreated females
+
+
+label:    sent_5
+sentence: Two males could simultaneously impregnate one female . Cells produced by cork cambium impregnate their cell walls by suberin . 41 % do not know that either they could impregnate someone or become pregnant .
+
+ppatt:
+	?a could simultaneously impregnate ?b ?c
+		?a: Two males
+		?b: one female
+		?c: Cells produced by cork cambium impregnate their cell walls by suberin
+	?a produced by ?b by ?c
+		?a: Cells
+		?b: cork cambium
+		?c: suberin
+	?a produced by ?b by ?c
+		?a: Cells
+		?b: their cell walls
+		?c: suberin
+	?a do not know ?b
+		?a: 41 %
+		?b: SOMETHING := either they could impregnate someone
+	?a could impregnate ?b
+		?a: either they
+		?b: someone
+	?a become pregnant
+		?a: either they
+
+

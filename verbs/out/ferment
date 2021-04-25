@@ -1,0 +1,213 @@
+label:    sent_1
+sentence: Considerable efforts were made to genetically engineer S. cerevisiae to ferment xylose .
+
+ppatt:
+	?a were made to genetically engineer ?b to ferment ?c
+		?a: Considerable efforts
+		?b: S. cerevisiae
+		?c: xylose
+
+
+label:    sent_2
+sentence: The isolate was able to ferment carbohydrates including starch , cellulose and cellulose derivatives . Two failed to ferment sorbitol .
+
+ppatt:
+	?a was able to ferment ?b
+		?a: The isolate
+		?b: carbohydrates including starch , cellulose and cellulose derivatives
+	?a failed to ferment ?b
+		?a: Two
+		?b: sorbitol
+
+
+label:    sent_3
+sentence: Either enzyme allows yeast cells to ferment fructose .
+
+ppatt:
+	?a allows ?b to ferment ?c
+		?a: Either enzyme
+		?b: yeast cells
+		?c: fructose
+
+
+label:    sent_4
+sentence: One strain B. arrhizus could not ferment the substrate .
+
+ppatt:
+	?a could not ferment ?b
+		?a: One strain B. arrhizus
+		?b: the substrate
+
+
+label:    sent_5
+sentence: Functional diversity of carbohydrate-active enzymes enabling a bacterium to ferment plant biomass .
+
+ppatt:
+	?a enabling ?b
+		?a: carbohydrate-active enzymes
+		?b: a bacterium
+	ferment ?a
+		?a: plant biomass
+
+
+label:    sent_6
+sentence: Clostridium sp. strain 17cr1 was able to ferment L-threonine to propionate and propanol .
+
+ppatt:
+	?a was able to ferment ?b to ?c
+		?a: Clostridium sp. strain 17cr1
+		?b: L-threonine
+		?c: propionate
+	?a was able to ferment ?b to ?c
+		?a: Clostridium sp. strain 17cr1
+		?b: L-threonine
+		?c: propanol
+
+
+label:    sent_7
+sentence: Some Clostridia species are known to naturally ferment sugars to isopropanol and 1-butanol .
+
+ppatt:
+	?a are known to naturally ferment ?b to ?c
+		?a: Some Clostridia species
+		?b: sugars
+		?c: isopropanol
+	?a are known to naturally ferment ?b to ?c
+		?a: Some Clostridia species
+		?b: sugars
+		?c: 1-butanol
+
+
+label:    sent_8
+sentence: Industrial yeast strain engineered to ferment ethanol from lignocellulosic biomass .
+
+ppatt:
+	?a engineered to ferment ?b from ?c
+		?a: Industrial yeast strain
+		?b: ethanol
+		?c: lignocellulosic biomass
+
+
+label:    sent_9
+sentence: Strain G5101 does not ferment sorbitol but is beta-D-glucuronidase and urease positive .
+
+ppatt:
+	?a does not ferment ?b
+		?a: Strain G5101
+		?b: sorbitol
+
+
+label:    sent_10
+sentence: They produced indole , and did not ferment fructose .
+
+ppatt:
+	?a produced ?b
+		?a: They
+		?b: indole
+	?a did not ferment ?b
+		?a: They
+		?b: fructose
+
+
+label:    sent_11
+sentence: The isolated Lactobacillus spp. was able to ferment tested carbohydrates and grow at 10degreesC-50degreesC .
+
+ppatt:
+	?a was able to ferment ?b
+		?a: The isolated Lactobacillus spp.
+		?b: tested carbohydrates
+	?a was able to grow at ?b
+		?a: The isolated Lactobacillus spp.
+		?b: 10degreesC-50degreesC
+
+
+label:    sent_12
+sentence: H. polymorpha even could ferment both glucose and xylose up to 45 degrees C .
+
+ppatt:
+	?a even could ferment ?b
+		?a: H. polymorpha
+		?b: glucose up 45 degrees C
+	?a even could ferment ?b
+		?a: H. polymorpha
+		?b: xylose
+
+
+label:    sent_13
+sentence: Escherichia coli can ferment glycerol anaerobically only under very defined restrictive conditions .
+
+ppatt:
+	?a can ferment ?b anaerobically under ?c
+		?a: Escherichia coli
+		?b: glycerol
+		?c: only very defined restrictive conditions
+
+
+label:    sent_14
+sentence: The strain SG6 can ferment cellulose at high substrate concentrations . Wild type Saccharomyces cerevisiae can rapidly ferment hexose , but can not ferment pentose sugars .
+
+ppatt:
+	?a can ferment ?b at ?c
+		?a: The strain SG6
+		?b: cellulose
+		?c: high substrate concentrations
+	?a can rapidly ferment ?b
+		?a: Wild type Saccharomyces cerevisiae
+		?b: hexose
+	?a can not ferment ?b
+		?a: Wild type Saccharomyces cerevisiae
+		?b: pentose sugars
+
+
+label:    sent_15
+sentence: The strains ferment mannitol and are antigenically indistinguishable .
+
+ppatt:
+	?a ferment ?b
+		?a: The strains
+		?b: mannitol
+
+
+label:    sent_16
+sentence: The remaining strains did not ferment mannitol and belonged to three different serovars . US biofuels : a field in ferment .
+
+ppatt:
+	?a did not ferment ?b ?c
+		?a: The remaining strains
+		?b: mannitol
+		?c: US biofuels
+	?a belonged to ?b
+		?a: The remaining strains
+		?b: three different serovars
+
+
+label:    sent_17
+sentence: The history of American medicine : a field in ferment . US health care is in ferment .
+
+ppatt:
+
+
+
+label:    sent_18
+sentence: Antitrust law in the health care field : flux and ferment . 2 mg purified protein per 1 ferment .
+
+ppatt:
+	ferment ?a
+		?a: 2 mg purified protein
+
+
+label:    sent_19
+sentence: The growing ferment .
+
+ppatt:
+
+
+
+label:    sent_20
+sentence: However Streptococcus sobrinus 6715 did not ferment .
+
+ppatt:
+	However ?a did not ferment
+		?a: Streptococcus sobrinus 6715
+
+

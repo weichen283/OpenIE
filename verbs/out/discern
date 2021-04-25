@@ -1,0 +1,270 @@
+label:    sent_1
+sentence: This limits our ability to discern active intervention ingredients .
+
+ppatt:
+	?a limits ?b
+		?a: This
+		?b: our ability to discern active intervention ingredients
+	?a discern ?b
+		?a: our ability
+		?b: active intervention ingredients
+
+
+label:    sent_2
+sentence: Taxometric methods were used to discern the latent structure of cannabis dependence .
+
+ppatt:
+	?a were used to discern ?b
+		?a: Taxometric methods
+		?b: the latent structure of cannabis dependence
+
+
+label:    sent_3
+sentence: Further study is required to discern the prognostic value of preoperative ENoG abnormalities .
+
+ppatt:
+	?a is required to discern ?b
+		?a: Further study
+		?b: the prognostic value of preoperative ENoG abnormalities
+
+
+label:    sent_4
+sentence: Any additional benefit has been difficult to discern from other treatments .
+
+ppatt:
+	?a has been difficult to discern from ?b
+		?a: Any additional benefit
+		?b: other treatments
+
+
+label:    sent_5
+sentence: Cut-off values can help to discern low from high grade tumours .
+
+ppatt:
+	?a can help to discern ?b
+		?a: Cut-off values
+		?b: low from high grade tumours
+
+
+label:    sent_6
+sentence: Herein , the authors provide hints to discern among those mechanisms . MRI was not able to discern the infection from a sterile collection .
+
+ppatt:
+	Herein , ?a provide ?b ?c
+		?a: the authors
+		?b: hints to discern among those mechanisms
+		?c: SOMETHING := MRI was not able to discern the infection from a sterile collection
+	?a discern among ?b
+		?a: hints
+		?b: those mechanisms
+	?a was not able to discern ?b
+		?a: MRI
+		?b: the infection from a sterile collection
+
+
+label:    sent_7
+sentence: Shop observational studies are recommended to discern safety factors across different ethnic neighborhoods .
+
+ppatt:
+	?a are recommended to discern ?b across ?c
+		?a: Shop observational studies
+		?b: safety factors
+		?c: different ethnic neighborhoods
+
+
+label:    sent_8
+sentence: Factor 3 identified patterns that discern healthy animals from those with SIV/AIDS .
+
+ppatt:
+	?a identified ?b
+		?a: Factor 3
+		?b: patterns that discern healthy animals from those with SIV/AIDS
+	?a discern ?b from ?c
+		?a: patterns
+		?b: healthy animals
+		?c: those with SIV/AIDS
+
+
+label:    sent_9
+sentence: Effects of discrete emotions on young children 's ability to discern fantasy and reality . 21-cm background anisotropies can discern primordial non-Gaussianity .
+
+ppatt:
+	?a discern ?b
+		?a: young children 's ability
+		?b: fantasy
+	?a discern ?b
+		?a: young children 's ability
+		?b: reality
+	?a ?b can discern ?c
+		?a: Effects of discrete emotions on young children 's ability to discern fantasy and reality
+		?b: 21-cm background anisotropies
+		?c: primordial non-Gaussianity
+
+
+label:    sent_10
+sentence: All agonists discern at least two classes of receptor in atrial and ventricular homogenates .
+
+ppatt:
+	?a discern ?b
+		?a: All agonists
+		?b: at least two classes of receptor in atrial and ventricular
+
+
+label:    sent_11
+sentence: Our methods are performed at later stages of infection and discern mutant phenotypes accurately .
+
+ppatt:
+	?a are performed at ?b
+		?a: Our methods
+		?b: later stages of infection
+	?a discern ?b accurately
+		?a: Our methods
+		?b: mutant phenotypes
+
+
+label:    sent_12
+sentence: It enables to discern the pathology and substantiate the use of method .
+
+ppatt:
+	?a enables to discern ?b
+		?a: It
+		?b: the pathology
+	?a enables to substantiate ?b
+		?a: It
+		?b: the use of method
+
+
+label:    sent_13
+sentence: They have learned that they must discern their future with a notion inspired by St .
+
+ppatt:
+	?a have learned ?b
+		?a: They
+		?b: SOMETHING := they must discern their future with a notion inspired by St
+	?a must discern ?b with ?c
+		?a: they
+		?b: their future
+		?c: a notion inspired by St
+	?a inspired by ?b
+		?a: a notion
+		?b: St
+
+
+label:    sent_14
+sentence: How effectively do parents discern their children 's cognitive deficits at a preschool age ? In particular , it can discern the temperature rise from the temperature drop .
+
+ppatt:
+	How effectively do ?a discern ?b at ?c
+		?a: parents
+		?b: their children 's cognitive deficits
+		?c: a preschool age
+	In ?a , ?b can discern ?c
+		?a: particular
+		?b: it
+		?c: the temperature rise from the temperature drop
+
+
+label:    sent_15
+sentence: Education is needed to help patients discern whether self-treatment or medical consultation is appropriate .
+
+ppatt:
+	?a is needed to help ?b ?c
+		?a: Education
+		?b: patients
+		?c: SOMETHING := discern whether self-treatment or medical consultation is appropriate
+	?a discern ?b
+		?a: Education
+		?b: SOMETHING := self-treatment or medical consultation is appropriate
+	?a is appropriate
+		?a: self-treatment or medical consultation
+
+
+label:    sent_16
+sentence: Their ongoing follow-up may yet discern whether BCR is definitively eye-restricted .
+
+ppatt:
+	?a may yet discern ?b
+		?a: Their ongoing follow-up
+		?b: SOMETHING := BCR is definitively eye-restricted
+	?a is definitively eye-restricted
+		?a: BCR
+
+
+label:    sent_17
+sentence: Participants could not discern breathing air or oxygen .
+
+ppatt:
+	?a could not discern ?b
+		?a: Participants
+		?b: breathing air
+	?a could not discern ?b
+		?a: Participants
+		?b: oxygen
+
+
+label:    sent_18
+sentence: Estimates vary widely , for reasons that are often hard to discern and evaluate .
+
+ppatt:
+	?a vary widely , for ?b
+		?a: Estimates
+		?b: reasons that are often hard to discern and evaluate
+	?a are often hard to discern
+		?a: reasons
+	?a are often hard to evaluate
+		?a: that
+
+
+label:    sent_19
+sentence: Data were analyzed to discern and categorize themes from the interns ' responses .
+
+ppatt:
+	?a were analyzed to discern ?b
+		?a: Data
+		?b: themes from the interns ' responses
+	?a were analyzed to categorize
+		?a: Data
+
+
+label:    sent_20
+sentence: Imaging characteristics can not always discern between meningioma and metastatic tumours .
+
+ppatt:
+	?a can not always discern between ?b
+		?a: Imaging characteristics
+		?b: meningioma
+	?a can not always discern between ?b
+		?a: Imaging characteristics
+		?b: metastatic
+
+
+label:    sent_21
+sentence: Single-molecule pulling simulations can discern active from inactive enzyme inhibitors .
+
+ppatt:
+	?a can discern active from ?b
+		?a: Single-molecule pulling simulations
+		?b: inactive enzyme inhibitors
+
+
+label:    sent_22
+sentence: Within-culture variation of the morphometrical data did not discern between the two biological species .
+
+ppatt:
+	?a did not discern between ?b
+		?a: Within-culture variation of the morphometrical data
+		?b: the two biological species
+
+
+label:    sent_23
+sentence: This strategy may discern spurious I-131 uptake and help avoid unnecessary I-131 therapy .
+
+ppatt:
+	?a may discern ?b
+		?a: This strategy
+		?b: spurious I-131 uptake
+	?a help avoid ?b
+		?a: This strategy
+		?b: unnecessary I-131 therapy
+
+

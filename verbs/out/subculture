@@ -1,0 +1,130 @@
+label:    sent_1
+sentence: The somatic embryos in various shapes and sizes after the first subculture on MS medium supplemented with 0.1 mg/l IAA and 0.25 mg/l BA ; developed shoots and rooted in 1/2 strength MS medium supplemented with 0.1 mg/l IBA or IAA .
+
+ppatt:
+	?a supplemented with ?b
+		?a: MS medium
+		?b: 0.1 mg/l IAA
+	?a supplemented with ?b
+		?a: MS medium
+		?b: 0.25 mg/l BA
+	?a developed ?b
+		?a: The somatic embryos in various shapes and sizes after the first subculture on MS medium supplemented with 0.1 mg/l IAA and 0.25 mg/l BA
+		?b: shoots
+	?a rooted in ?b
+		?a: The somatic embryos in various shapes and sizes after the first subculture on MS medium supplemented with 0.1 mg/l IAA and 0.25 mg/l BA
+		?b: 1/2 strength MS medium supplemented with 0.1 mg/l IBA or IAA
+	?a supplemented with ?b
+		?a: 1/2 strength MS medium
+		?b: 0.1 mg/l IBA
+	?a supplemented with ?b
+		?a: 1/2 strength MS medium
+		?b: IAA
+
+
+label:    sent_2
+sentence: However , maintaining alpha-particle-irradiated cells in the confluent state for various times prior to subculture resulted in increased rather than decreased lethality and was associated with persistent DNA damage and increased protein oxidation and lipid peroxidation .
+
+ppatt:
+	maintaining ?a in ?b for ?c
+		?a: alpha-particle-irradiated cells
+		?b: the confluent state
+		?c: various times prior to subculture
+	However , ?a resulted in ?b
+		?a: SOMETHING := maintaining alpha-particle-irradiated cells in the confluent state for various times prior to subculture
+		?b: increased rather than decreased lethality
+	?a was associated with ?b
+		?a: maintaining alpha-particle-irradiated cells in the confluent state for various times prior to subculture
+		?b: persistent DNA damage
+	?a was associated with ?b
+		?a: maintaining alpha-particle-irradiated cells in the confluent state for various times prior to subculture
+		?b: increased protein oxidation
+	?a was associated with ?b
+		?a: maintaining alpha-particle-irradiated cells in the confluent state for various times prior to subculture
+		?b: lipid peroxidation
+
+
+label:    sent_3
+sentence: After subculture and expansion , the human adipose tissue-derived stromal cells infected with Ad-GFP or liposome were observed and analyzed with fluorescence microscopy and flow cytometry to assess transfection efficiency .
+
+ppatt:
+	?a infected with ?b
+		?a: the human adipose tissue-derived stromal cells
+		?b: Ad-GFP
+	?a infected with ?b
+		?a: the human adipose tissue-derived stromal cells
+		?b: liposome
+	After ?a , ?b were observed
+		?a: subculture
+		?b: the human adipose tissue-derived stromal cells infected with Ad-GFP or liposome
+	After ?a , ?b were observed
+		?a: expansion
+		?b: the human adipose tissue-derived stromal cells infected with Ad-GFP or liposome
+	?a analyzed with ?b to assess ?c
+		?a: the human adipose tissue-derived stromal cells infected with Ad-GFP or liposome
+		?b: fluorescence microscopy
+		?c: transfection efficiency
+	?a analyzed with ?b to assess ?c
+		?a: the human adipose tissue-derived stromal cells infected with Ad-GFP or liposome
+		?b: flow cytometry
+		?c: transfection efficiency
+
+
+label:    sent_4
+sentence: Factors which influence the results include the bacterial taxa involved , their site of origin and the methods and media used to isolate and subculture the bacteria , and to perform the sensitivity tests .
+
+ppatt:
+	?a influence ?b
+		?a: Factors
+		?b: the results
+	?a include ?b
+		?a: Factors which influence the results
+		?b: the bacterial taxa involved
+	?a include ?b
+		?a: Factors which influence the results
+		?b: the methods used to isolate and subculture the bacteria
+	?a involved
+		?a: the bacterial taxa
+	involved ?a
+		?a: the methods used to isolate and subculture the bacteria
+	?a is/are ?b site of ?c
+		?a: the bacterial taxa involved
+		?b: their
+		?c: origin
+	?a is/are site of ?b ?c
+		?a: their
+		?b: origin
+		?c: the methods used to isolate and subculture the bacteria
+	?a used to isolate ?b
+		?a: the methods
+		?b: the bacteria
+	?a used to isolate ?b
+		?a: media
+		?b: the bacteria
+	used to subculture ?a
+		?a: the bacteria
+	?a perform ?b
+		?a: Factors which influence the results
+		?b: the sensitivity tests
+
+
+label:    sent_5
+sentence: The PFGE profiles of the STEC strains changed by 1 to 8 fragments after repeated subculture and prolonged storage ; one strain was no longer clonal after repeated subculture compared to the original isolate according to the Tenover criteria .
+
+ppatt:
+	?a changed by ?b after ?c
+		?a: The PFGE profiles of the STEC strains
+		?b: 1 8 fragments
+		?c: repeated subculture
+	?a changed by ?b after ?c
+		?a: The PFGE profiles of the STEC strains
+		?b: 1 8 fragments
+		?c: prolonged storage
+	?a was no longer clonal after ?b
+		?a: one strain
+		?b: repeated subculture
+	?a compared to the original isolate according to ?b
+		?a: one strain
+		?b: the Tenover criteria
+
+

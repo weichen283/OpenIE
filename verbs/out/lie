@@ -1,0 +1,276 @@
+label:    sent_1
+sentence: A pair of amphids lie behind the lateral lips .
+
+ppatt:
+	?a lie behind ?b
+		?a: A pair of amphids
+		?b: the lateral lips
+
+
+label:    sent_2
+sentence: The computed temperature-dependent rate curves frequently lie within the experimental error bars . All patients postoperatively could lie in the supine position .
+
+ppatt:
+	?a frequently lie within ?b
+		?a: The computed temperature-dependent rate curves
+		?b: the experimental error bars
+	?a postoperatively could lie in ?b
+		?a: All patients
+		?b: the supine position
+
+
+label:    sent_3
+sentence: When patients lie to their doctors .
+
+ppatt:
+	When ?a lie to ?b
+		?a: patients
+		?b: their doctors
+
+
+label:    sent_4
+sentence: Steady-state dissociation constants were observed to lie in the low nanomolar range .
+
+ppatt:
+	?a were observed to lie in ?b
+		?a: Steady-state dissociation constants
+		?b: the low nanomolar range
+
+
+label:    sent_5
+sentence: The nurse-patient relationship has been postulated to lie at the core of nursing care .
+
+ppatt:
+	?a has been postulated to lie at ?b
+		?a: The nurse-patient relationship
+		?b: the core of nursing care
+
+
+label:    sent_6
+sentence: Future research into the treatment of vitiligo : where should our priorities lie ? These values lie within the WHO recommended storage period .
+
+ppatt:
+	?a where should ?b lie
+		?a: Future research into the treatment of vitiligo
+		?b: our priorities
+	?a ?b lie within ?c
+		?a: Future research into the treatment of vitiligo : where should our priorities lie
+		?b: These values
+		?c: the WHO recommended storage period
+	within the ?a recommended storage period
+		?a: WHO
+
+
+label:    sent_7
+sentence: The cellular and molecular mechanisms that lie behind this effect are poorly understood .
+
+ppatt:
+	?a lie behind ?b
+		?a: mechanisms
+		?b: this effect
+	?a ?b are poorly understood
+		?a: cellular
+		?b: mechanisms that lie behind this effect
+	?a ?b are poorly understood
+		?a: molecular
+		?b: mechanisms that lie behind this effect
+
+
+label:    sent_8
+sentence: Both Cu atoms lie on inversion centres and adopt essentially elongated octahedral coordination .
+
+ppatt:
+	?a lie on ?b
+		?a: Both Cu atoms
+		?b: inversion centres
+	?a adopt ?b
+		?a: Both Cu atoms
+		?b: essentially elongated octahedral coordination
+
+
+label:    sent_9
+sentence: Penetrating arteries lie in interstitial spaces and are closely related to accompanying veins .
+
+ppatt:
+	?a lie in ?b
+		?a: Penetrating arteries
+		?b: interstitial spaces
+
+
+label:    sent_10
+sentence: Objects of a given type lie on a plane or in a thin layer . Sisyphean trials lie ahead .
+
+ppatt:
+	?a lie on ?b
+		?a: Objects of a given type
+		?b: a plane
+	?a lie on ?b
+		?a: Objects of a given type
+		?b: a thin layer
+	?a lie ahead
+		?a: Sisyphean trials
+
+
+label:    sent_11
+sentence: This article summarizes 3 key challenges that lie ahead for surgical educators . [ Media influence : nursing between perception and reality .
+
+ppatt:
+	?a summarizes ?b
+		?a: This article
+		?b: 3 key challenges that lie ahead for surgical educators
+	?a lie ahead for ?b
+		?a: 3 key challenges
+		?b: surgical educators
+	?a influence ?b
+		?a: Media
+		?b: nursing between perception and reality
+
+
+label:    sent_12
+sentence: Working lie Sister Stefanie ? ] . Do adult centrioles contain cartwheels and lie at right angles to each other ? Subjects were instructed to lie in supine position and elevate their heads unsupported .
+
+ppatt:
+	?a lie ?b
+		?a: Working
+		?b: Sister Stefanie
+	?a lie ?b
+		?a: Working
+		?b: ]
+	?a Do
+		?a: Working
+	?a contain ?b
+		?a: adult centrioles
+		?b: cartwheels
+	?a lie at ?b to ?c
+		?a: adult centrioles
+		?b: right angles
+		?c: each other
+	?a were instructed to lie in ?b
+		?a: Subjects
+		?b: supine position
+	?a were instructed to elevate ?b
+		?a: Subjects
+		?b: their heads unsupported
+
+
+label:    sent_13
+sentence: The promoters are GC-rich and lie within CpG islands .
+
+ppatt:
+	?a are GC-rich
+		?a: The promoters
+	?a lie within ?b
+		?a: The promoters
+		?b: CpG islands
+
+
+label:    sent_14
+sentence: Thermal imaging as a lie detection tool at airports .
+
+ppatt:
+
+
+
+label:    sent_15
+sentence: We review the technical challenges that lie ahead , along with some potential solutions .
+
+ppatt:
+	?a review ?b
+		?a: We
+		?b: the technical challenges that lie ahead , along with some potential solutions
+	?a lie ?b , along with ?c
+		?a: the technical challenges
+		?b: ahead
+		?c: some potential solutions
+
+
+label:    sent_16
+sentence: Predicting where future means will lie based on the results of the current trial .
+
+ppatt:
+	Predicting ?a
+		?a: SOMETHING := where future means will lie based on the results of the current trial
+	where ?a will lie
+		?a: future means
+	?a based on the results of ?b
+		?a: future means
+		?b: the current trial
+
+
+label:    sent_17
+sentence: Despite application of these various methods , there lie extensive ethical issues surrounding them .
+
+ppatt:
+	Despite ?a , there lie ?b
+		?a: application of these various methods
+		?b: extensive ethical issues surrounding them
+	?a surrounding ?b
+		?a: extensive ethical issues
+		?b: them
+
+
+label:    sent_18
+sentence: All of the RLN were seen to lie posterolateral to the Berry ligament .
+
+ppatt:
+	?a were seen to lie posterolateral to ?b
+		?a: All of the RLN
+		?b: the Berry ligament
+
+
+label:    sent_19
+sentence: Within this sequence lie two Spl binding sites and a consensus CCAAT box .
+
+ppatt:
+	Within ?a lie ?b
+		?a: this sequence
+		?b: two Spl binding sites
+	Within ?a lie ?b
+		?a: this sequence
+		?b: a consensus CCAAT box
+
+
+label:    sent_20
+sentence: Statistics never lie-or do they ? How are meaningful comparisons between species made , and where do the differences lie ? The knobby fibers lie parallel and coalesce in thick bundles .
+
+ppatt:
+	?a do ?b How are meaningful comparisons between ?c
+		?a: Statistics never lie-or
+		?b: they
+		?c: species made
+	?a made
+		?a: species
+	where do ?a lie
+		?a: the differences
+	?a lie ?b
+		?a: The knobby fibers
+		?b: parallel
+	?a coalesce in ?b
+		?a: The knobby fibers
+		?b: thick bundles
+
+
+label:    sent_21
+sentence: All patients undergoing the procedure were unable to lie supine preoperatively . Face-to-face upright seated positioning for cataract surgery in patients who can not lie flat .
+
+ppatt:
+	?a undergoing ?b
+		?a: All patients
+		?b: the procedure
+	?a were unable to lie ?b preoperatively ?c
+		?a: All patients undergoing the procedure
+		?b: supine
+		?c: Face-to-face upright seated positioning for cataract surgery in patients who can not lie flat
+	?a can not lie flat
+		?a: patients
+
+
+label:    sent_22
+sentence: Why do lie-catchers fail ? A lens model meta-analysis of human lie judgments .
+
+ppatt:
+	Why do ?a fail ?b
+		?a: lie-catchers
+		?b: A lens model meta-analysis of human lie judgments
+
+

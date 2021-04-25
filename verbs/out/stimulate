@@ -1,0 +1,331 @@
+label:    sent_1
+sentence: Peripheral hyperopia was hypothesized to stimulate axial elongation .
+
+ppatt:
+	?a was hypothesized to stimulate ?b
+		?a: Peripheral hyperopia
+		?b: axial elongation
+
+
+label:    sent_2
+sentence: The two types of IP-CHA were filled into the sockets to stimulate bone regeneration . A ' metaprogram ' is recommended to stimulate partnership of industry and research .
+
+ppatt:
+	?a were filled into ?b to stimulate ?c ?d
+		?a: The two types of IP-CHA
+		?b: the sockets
+		?c: bone regeneration
+		?d: A ' metaprogram
+	?a is recommended to stimulate ?b
+		?a: The two types of IP-CHA
+		?b: partnership of industry and research
+
+
+label:    sent_3
+sentence: However , it is not known which components in milk stimulate growth .
+
+ppatt:
+	However , ?a is not known ?b
+		?a: it
+		?b: SOMETHING := which components in milk stimulate growth
+	?a stimulate ?b
+		?a: which components in milk
+		?b: growth
+
+
+label:    sent_4
+sentence: These data indicated that EPS may stimulate cytokine expressions of immunocytes .
+
+ppatt:
+	?a indicated ?b
+		?a: These data
+		?b: SOMETHING := EPS may stimulate cytokine expressions of immunocytes
+	?a may stimulate ?b
+		?a: EPS
+		?b: cytokine expressions of immunocytes
+
+
+label:    sent_5
+sentence: A need exists for osteoporosis therapies that stimulate new bone formation .
+
+ppatt:
+	?a exists for ?b
+		?a: A need
+		?b: osteoporosis therapies that stimulate new bone formation
+	?a stimulate ?b
+		?a: osteoporosis therapies
+		?b: new bone formation
+
+
+label:    sent_6
+sentence: Tumour-infiltrating regulatory T cells stimulate mammary cancer metastasis through RANKL-RANK signalling .
+
+ppatt:
+	?a stimulate ?b through ?c
+		?a: Tumour-infiltrating regulatory T cells
+		?b: mammary cancer metastasis
+		?c: RANKL-RANK signalling
+
+
+label:    sent_7
+sentence: The mechanisms that stimulate fetal heart growth during anemia are unknown .
+
+ppatt:
+	?a stimulate ?b during ?c
+		?a: The mechanisms
+		?b: fetal heart growth
+		?c: anemia
+	?a are unknown
+		?a: The mechanisms that stimulate fetal heart growth during anemia
+
+
+label:    sent_8
+sentence: Therefore , exogenous gastrin and CCK peptides stimulate insulin and glucagon secretion in man . Isomalto-oligosaccharides specifically stimulate growth of intestinal lactobacilli in a rat model system .
+
+ppatt:
+	Therefore , ?a stimulate ?b
+		?a: exogenous gastrin and CCK peptides
+		?b: insulin in man
+	Therefore , ?a stimulate ?b
+		?a: exogenous gastrin and CCK peptides
+		?b: glucagon
+	?a specifically stimulate ?b in ?c
+		?a: Isomalto-oligosaccharides
+		?b: growth of intestinal lactobacilli
+		?c: a rat model system
+
+
+label:    sent_9
+sentence: A variety of molecules are able to stimulate HIV from latency .
+
+ppatt:
+	?a are able to stimulate ?b from ?c
+		?a: A variety of molecules
+		?b: HIV
+		?c: latency
+
+
+label:    sent_10
+sentence: We want to stimulate future research in this theoretical context .
+
+ppatt:
+	?a want to stimulate ?b in ?c
+		?a: We
+		?b: future research
+		?c: this theoretical context
+
+
+label:    sent_11
+sentence: These factors stimulate proliferation and minimize cell apoptosis .
+
+ppatt:
+	?a stimulate ?b
+		?a: These factors
+		?b: proliferation
+	?a minimize ?b
+		?a: These factors
+		?b: cell apoptosis
+
+
+label:    sent_12
+sentence: Various growth factors stimulate blood and lymphatic neovascularization and modulate vessel permeability in tumors .
+
+ppatt:
+	?a stimulate ?b
+		?a: Various growth factors
+		?b: blood
+	?a stimulate ?b
+		?a: Various growth factors
+		?b: lymphatic
+	?a modulate ?b
+		?a: Various growth factors
+		?b: vessel permeability in tumors
+
+
+label:    sent_13
+sentence: However there are reports that LLLT can stimulate leukocytes and could therefore be pro-inflammatory .
+
+ppatt:
+	However there are ?a
+		?a: reports that LLLT can stimulate leukocytes and could therefore be pro-inflammatory
+	?a can stimulate ?b
+		?a: LLLT
+		?b: leukocytes
+
+
+label:    sent_14
+sentence: Overall , the tool was found to stimulate learning and change thinking about breastfeeding .
+
+ppatt:
+	Overall , ?a was found to stimulate ?b
+		?a: the tool
+		?b: learning
+	Overall , ?a was found to change ?b
+		?a: the tool
+		?b: thinking about breastfeeding
+
+
+label:    sent_15
+sentence: Ghrelin is known to stimulate appetite and cause weight increase .
+
+ppatt:
+	?a is known to stimulate ?b
+		?a: Ghrelin
+		?b: appetite
+	?a is known to cause ?b
+		?a: Ghrelin
+		?b: weight increase
+
+
+label:    sent_16
+sentence: Efforts should be undertaken to stimulate guideline-based surveillance advice and to minimize screening delay .
+
+ppatt:
+	?a should be undertaken to stimulate ?b
+		?a: Efforts
+		?b: guideline-based surveillance advice
+	?a should be undertaken to to minimize ?b
+		?a: Efforts
+		?b: screening delay
+
+
+label:    sent_17
+sentence: They stimulate insulin secretion through distinct mechanisms and may benefit patients from different aspects .
+
+ppatt:
+	?a stimulate ?b through ?c
+		?a: They
+		?b: insulin secretion
+		?c: distinct mechanisms
+	?a may benefit ?b
+		?a: They
+		?b: patients from different aspects
+
+
+label:    sent_18
+sentence: In various animal models and in humans FFA can stimulate hepatic gluconeogenesis .
+
+ppatt:
+	In ?a ?b can stimulate ?c
+		?a: various animal models
+		?b: FFA
+		?c: hepatic gluconeogenesis
+	In ?a ?b can stimulate ?c
+		?a: humans
+		?b: FFA
+		?c: hepatic gluconeogenesis
+
+
+label:    sent_19
+sentence: In isolated hepatocytes , U-46619 did not stimulate glucose output or activate glycogen phosphorylase .
+
+ppatt:
+	In ?a , ?b did not stimulate ?c
+		?a: isolated hepatocytes
+		?b: U-46619
+		?c: glucose output
+	?a activate ?b
+		?a: U-46619
+		?b: glycogen phosphorylase
+
+
+label:    sent_20
+sentence: Various compounds to stimulate and restore normal islet function are under development .
+
+ppatt:
+	?a stimulate ?b
+		?a: Various compounds
+		?b: normal islet function
+	?a restore
+		?a: Various compounds
+	?a are under development
+		?a: Various compounds to stimulate and restore normal islet function
+
+
+label:    sent_21
+sentence: Osteoblasts synthesise proteins that stimulate and inhibit HSC proliferation .
+
+ppatt:
+	?a synthesise ?b
+		?a: Osteoblasts
+		?b: proteins that stimulate and inhibit HSC proliferation
+	?a stimulate ?b
+		?a: proteins
+		?b: HSC proliferation
+	?a inhibit
+		?a: that
+
+
+label:    sent_22
+sentence: The bipolar electrodes allowed both to stimulate and to record the electrical activity .
+
+ppatt:
+	?a allowed ?b to stimulate
+		?a: The bipolar electrodes
+		?b: both
+	?a allowed to to record ?b
+		?a: The bipolar electrodes
+		?b: the electrical activity
+
+
+label:    sent_23
+sentence: However , in vitro dexamethasone did not stimulate or down-regulate C1qRp expression .
+
+ppatt:
+	However , ?a did not stimulate ?b
+		?a: in dexamethasone
+		?b: C1qRp expression
+	?a down-regulate
+		?a: in dexamethasone
+
+
+label:    sent_24
+sentence: Adrenergic agents stimulate and cholinergic agents inhibit H+ secretion by amphibian jejunum .
+
+ppatt:
+	?a stimulate
+		?a: Adrenergic agents
+	?a inhibit ?b by ?c
+		?a: agents
+		?b: H+ secretion
+		?c: amphibian jejunum
+
+
+label:    sent_25
+sentence: Prostaglandins stimulate and inhibit acid secretion in amphibian fundic musoca .
+
+ppatt:
+	?a stimulate ?b in ?c
+		?a: Prostaglandins
+		?b: acid secretion
+		?c: amphibian fundic musoca
+	?a inhibit
+		?a: Prostaglandins
+
+
+label:    sent_26
+sentence: Tamoxifen is used both to stimulate ovulation and as an anticancer drug . J-proteins are obligate cochaperones of Hsp70s and stimulate their ATPase activity via the J-domain . is known to stimulate LH secretion and inhibit prolactin release in photoperiodically inhibited ewes .
+
+ppatt:
+	?a is used to stimulate ?b
+		?a: Tamoxifen
+		?b: ovulation
+	?a is used to stimulate ?b
+		?a: Tamoxifen
+		?b: an anticancer drug
+	?a are obligate cochaperones of ?b
+		?a: J-proteins
+		?b: Hsp70s
+	?a stimulate ?b via ?c
+		?a: J-proteins
+		?b: their ATPase activity
+		?c: the J-domain
+	?a is known to stimulate ?b
+		?a: Tamoxifen
+		?b: LH secretion
+	?a is known to inhibit ?b in ?c
+		?a: Tamoxifen
+		?b: prolactin release
+		?c: photoperiodically inhibited ewes
+
+

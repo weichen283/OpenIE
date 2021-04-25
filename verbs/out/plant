@@ -1,0 +1,90 @@
+label:    sent_1
+sentence: Aspidosperma ( Apocynaceae ) plant cytotoxicity and activity towards malaria parasites .
+
+ppatt:
+	?a is/are Apocynaceae
+		?a: Aspidosperma
+
+
+label:    sent_2
+sentence: When asked whether they would plant transgenic corn protected against the corn rootworm , 35.0 % of farmers responded they would , whereas 40.5 % said they were unsure .
+
+ppatt:
+	When asked ?a ?b
+		?a: SOMETHING := they would plant transgenic corn protected against the corn rootworm
+		?b: 35.0 % of farmers
+	?a would plant transgenic corn
+		?a: they
+	?a protected against ?b
+		?a: plant transgenic corn
+		?b: the corn rootworm
+	?a responded ?b would
+		?a: 35.0 % of farmers
+		?b: they
+	?a said
+		?a: 40.5 %
+	?a were unsure
+		?a: they
+
+
+label:    sent_3
+sentence: We plant both parents and hybrids ( to tease apart differences in suites of associated parental traits ) between these two populations into each of the two native environments and measure floral , vegetative , life-history , and fitness characters to assess which traits are under selection at each site .
+
+ppatt:
+	?a plant ?b between ?c into ?d
+		?a: We
+		?b: parents ( to tease apart differences in suites of associated parental traits
+		?c: these two populations
+		?d: each of the two native environments
+	?a plant ?b between ?c into ?d
+		?a: We
+		?b: hybrids
+		?c: these two populations
+		?d: each of the two native environments
+	?a tease ?b
+		?a: parents
+		?b: apart differences in suites of associated parental traits
+	?a tease ?b
+		?a: hybrids
+		?b: apart differences in suites of associated parental traits
+	?a measure ?b
+		?a: We
+		?b: floral , vegetative , life-history , and fitness characters
+	?a assess under ?b
+		?a: We
+		?b: SOMETHING := which traits are selection at each site
+	?a are under selection at ?b
+		?a: which traits
+		?b: each site
+
+
+label:    sent_4
+sentence: The main conflicting issues are whether seizures in NBs can plant the roots for epileptogenesis and cause long-term deficits .
+
+ppatt:
+	?a are ?b
+		?a: The main conflicting issues
+		?b: SOMETHING := seizures in NBs can plant the roots for epileptogenesis
+	?a can plant ?b
+		?a: seizures in NBs
+		?b: the roots for epileptogenesis
+	?a cause ?b
+		?a: seizures in NBs
+		?b: long-term deficits
+
+
+label:    sent_5
+sentence: In order to protect forests from oxidative damage by UV light , we should plant trees of natural mutants and artificially crossed triploids and tetraploids .
+
+ppatt:
+	order to protect ?a ?b
+		?a: forests from oxidative damage by UV light
+		?b: we
+	?a should plant trees of ?b
+		?a: we
+		?b: natural mutants
+	?a should plant trees of ?b
+		?a: we
+		?b: artificially crossed triploids
+
+

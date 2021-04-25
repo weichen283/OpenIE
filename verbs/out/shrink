@@ -1,0 +1,255 @@
+label:    sent_1
+sentence: During spring sexual production , colonies shrink because worker production falls below replacement .
+
+ppatt:
+	During ?a , ?b shrink
+		?a: spring sexual production
+		?b: colonies
+	?a falls below ?b
+		?a: worker production
+		?b: replacement
+
+
+label:    sent_2
+sentence: Meningiomas shrink significantly after SRT .
+
+ppatt:
+	?a shrink significantly after ?b
+		?a: Meningiomas
+		?b: SRT
+
+
+label:    sent_3
+sentence: Older brains shrink less during the histological treatment than younger ones . Efforts are being made to shrink the health care system .
+
+ppatt:
+	?a shrink less during ?b than ?c
+		?a: Older brains
+		?b: the histological treatment
+		?c: younger ones
+	?a are being made to shrink ?b
+		?a: Efforts
+		?b: the health care system
+
+
+label:    sent_4
+sentence: Corticosteroids and radiation therapy have been reported to shrink hemangiomas . TCDD appeared to shrink the pituitary gland in both strains by day 4 .
+
+ppatt:
+	?a have been reported to shrink ?b
+		?a: Corticosteroids
+		?b: hemangiomas
+	?a have been reported to shrink ?b
+		?a: radiation therapy
+		?b: hemangiomas
+	?a appeared to shrink ?b in ?c by ?d
+		?a: TCDD
+		?b: the pituitary gland
+		?c: both strains
+		?d: day 4
+
+
+label:    sent_5
+sentence: Bacterial cells shrink considerably before plasmolysis occurs in hyperosmotic media .
+
+ppatt:
+	?a shrink considerably before ?b
+		?a: Bacterial cells
+		?b: plasmolysis
+	?a occurs in ?b
+		?a: Bacterial cells
+		?b: hyperosmotic media
+
+
+label:    sent_6
+sentence: The need for hospital beds will shrink . Ophthalmologists ' earnings shrink . Isolated hyperechoic lesions were significantly more likely to shrink in utero .
+
+ppatt:
+	?a will shrink
+		?a: The need for hospital beds
+	?a shrink
+		?a: Ophthalmologists ' earnings
+	?a were significantly more likely to shrink in ?b
+		?a: Isolated hyperechoic lesions
+		?b: utero
+
+
+label:    sent_7
+sentence: The central summation area of the receptive field was found to shrink with light-adaptation .
+
+ppatt:
+	?a was found to shrink with ?b
+		?a: The central summation area of the receptive field
+		?b: light-adaptation
+
+
+label:    sent_8
+sentence: Nevertheless , the wavelength-tunable range was found to shrink with increasing pump power .
+
+ppatt:
+	Nevertheless , ?a was found to shrink with ?b
+		?a: the wavelength-tunable range
+		?b: increasing pump power
+
+
+label:    sent_9
+sentence: As the temperature increases , the microgels shrink , and the diols are released .
+
+ppatt:
+	As ?a , ?b shrink
+		?a: the temperature increases
+		?b: the microgels
+	?a are released
+		?a: the diols
+
+
+label:    sent_10
+sentence: Mitochondria shrink and translocate toward the nucleus .
+
+ppatt:
+	?a shrink toward ?b
+		?a: Mitochondria
+		?b: the nucleus
+	?a translocate
+		?a: Mitochondria
+
+
+label:    sent_11
+sentence: However , such treatments caused the skin to shrink and change colour .
+
+ppatt:
+	However , ?a caused ?b to shrink ?c
+		?a: such treatments
+		?b: the skin
+		?c: colour
+	However , ?a caused to change
+		?a: such treatments
+
+
+label:    sent_12
+sentence: Embolized kidneys shrink after the procedure and the functional parenchyma is extinguished .
+
+ppatt:
+	?a shrink after ?b
+		?a: Embolized kidneys
+		?b: the procedure
+	?a is extinguished
+		?a: the functional parenchyma
+
+
+label:    sent_13
+sentence: Flaps did not shrink after the operations , and contractures did not recur .
+
+ppatt:
+	?a did not shrink after ?b
+		?a: Flaps
+		?b: the operations
+	?a did not recur
+		?a: contractures
+
+
+label:    sent_14
+sentence: We conclude that hepatocytes shrink during hyperosmotic stress , and the aKi increases .
+
+ppatt:
+	?a conclude ?b
+		?a: We
+		?b: SOMETHING := hepatocytes shrink during hyperosmotic stress
+	?a shrink during ?b
+		?a: hepatocytes
+		?b: hyperosmotic stress
+
+
+label:    sent_15
+sentence: These axons swell during the day and shrink during the night .
+
+ppatt:
+	?a swell during ?b
+		?a: These axons
+		?b: the day
+	?a shrink during ?b
+		?a: These axons
+		?b: the night
+
+
+label:    sent_16
+sentence: It gradually involutes with age and may acutely shrink during periods of bodily stress .
+
+ppatt:
+	?a gradually involutes with ?b
+		?a: It
+		?b: age
+	?a may acutely shrink during ?b
+		?a: It
+		?b: periods of bodily stress
+
+
+label:    sent_17
+sentence: They swell at low pH and shrink at high pH . When neurons swell and shrink they extensively reorganize their plasma membrane .
+
+ppatt:
+	?a swell at ?b
+		?a: They
+		?b: low pH
+	?a shrink at ?b
+		?a: They
+		?b: high pH
+	When ?a swell
+		?a: neurons
+	?a shrink
+		?a: neurons
+	?a extensively reorganize ?b
+		?a: they
+		?b: their plasma membrane
+
+
+label:    sent_18
+sentence: Preoperative chemotherapy is frequently given to shrink or decrease the chance of metastasis .
+
+ppatt:
+	?a is frequently given to shrink ?b
+		?a: Preoperative chemotherapy
+		?b: the chance of metastasis
+	?a is frequently given to decrease
+		?a: Preoperative chemotherapy
+
+
+label:    sent_19
+sentence: To shrink or not to shrink . Interferon can shrink lymphoid tumors , particularly non-Hodgkin 's lymphoma .
+
+ppatt:
+	shrink ?a
+		?a: Interferon
+	not to shrink ?a
+		?a: Interferon
+	?a can shrink ?b
+		?a: Interferon
+		?b: lymphoid tumors
+	?a is/are particularly ?b 's lymphoma
+		?a: lymphoid tumors
+		?b: non-Hodgkin
+
+
+label:    sent_20
+sentence: Flying doctors shrink the outback . Distance-near disparity esotropia : can we shrink the gap ? The aim is to shrink the tumor and not just to control it . How to stretch and shrink vowel systems : results from a vowel normalization procedure .
+
+ppatt:
+	?a shrink ?b
+		?a: Flying doctors
+		?b: the outback . disparity esotropia
+	can ?a shrink ?b
+		?a: we
+		?b: the gap
+	?a is to shrink ?b
+		?a: The aim
+		?b: the tumor
+	?a is to not just to control ?b
+		?a: The aim
+		?b: it
+	?a How to stretch ?b
+		?a: The aim
+		?b: vowel systems
+	?a shrink
+		?a: The aim
+
+

@@ -1,0 +1,137 @@
+label:    sent_1
+sentence: The dogs were able to urinate normally by a week after .
+
+ppatt:
+	?a were able to urinate normally by ?b after
+		?a: The dogs
+		?b: a week
+
+
+label:    sent_2
+sentence: The patients who were able to urinate with straining sometimes suffered temporary stress incontinence .
+
+ppatt:
+	?a were able to urinate with ?b
+		?a: The patients
+		?b: straining
+	?a sometimes suffered ?b
+		?a: The patients who were able to urinate with straining
+		?b: temporary stress incontinence
+
+
+label:    sent_3
+sentence: All the patients were discharged with recovery ( could urinate without help ) . The degree of straining did not determine whether the patient could urinate with straining .
+
+ppatt:
+	?a were discharged with ?b
+		?a: All the patients
+		?b: recovery
+	?a could urinate
+		?a: All the patients
+	?a help
+		?a: All the patients
+	?a did not determine ?b
+		?a: The degree of straining
+		?b: SOMETHING := the patient could urinate with straining
+	?a could urinate with ?b
+		?a: the patient
+		?b: straining
+
+
+label:    sent_4
+sentence: After the second operation , the cases could urinate under self-control .
+
+ppatt:
+	After ?a , ?b could urinate under ?c
+		?a: the second operation
+		?b: the cases
+		?c: self-control
+
+
+label:    sent_5
+sentence: Two patients could not urinate in horizontal position .
+
+ppatt:
+	?a could not urinate in ?b
+		?a: Two patients
+		?b: horizontal position
+
+
+label:    sent_6
+sentence: After the catheter was removed , he could urinate easily .
+
+ppatt:
+	After ?a was removed
+		?a: the catheter
+	?a could urinate easily
+		?a: he
+
+
+label:    sent_7
+sentence: In addition , many people find it difficult or embarrassing to urinate when observed .
+
+ppatt:
+	In ?a , ?b find ?c difficult to urinate
+		?a: addition
+		?b: many people
+		?c: it
+	find ?a embarrassing to urinate
+		?a: it
+	?a when observed
+		?a: many people
+
+
+label:    sent_8
+sentence: All patients could urinate easily .
+
+ppatt:
+	?a could urinate easily
+		?a: All patients
+
+
+label:    sent_9
+sentence: Moderate nocturia was defined as waking to urinate >=2 times per night .
+
+ppatt:
+	?a was defined
+		?a: Moderate nocturia
+	?a as waking to urinate ?b
+		?a: Moderate nocturia
+		?b: >=2 times per night
+
+
+label:    sent_10
+sentence: The woman should urinate and wash her hands before inserting the diaphragm .
+
+ppatt:
+	?a should urinate ?b
+		?a: The woman
+		?b: her hands
+	?a wash
+		?a: The woman
+	?a inserting ?b
+		?a: The woman
+		?b: the diaphragm
+
+
+label:    sent_11
+sentence: Most groups urinate or defecate away from built-up areas .
+
+ppatt:
+	?a urinate away from ?b
+		?a: Most groups
+		?b: built-up areas
+
+
+label:    sent_12
+sentence: She was able to urinate without difficulty and also walk by herself .
+
+ppatt:
+	?a was able to urinate without ?b
+		?a: She
+		?b: difficulty
+	?a was able to also walk by ?b
+		?a: She
+		?b: herself
+
+

@@ -1,0 +1,193 @@
+label:    sent_1
+sentence: Researchers can use economic models to extrapolate costs and outcomes over the long term .
+
+ppatt:
+	?a can use ?b to extrapolate ?c
+		?a: Researchers
+		?b: economic models
+		?c: costs over the long term
+	?a can use ?b to extrapolate ?c
+		?a: Researchers
+		?b: economic models
+		?c: outcomes
+
+
+label:    sent_2
+sentence: However , further research is needed to extrapolate these finding to clinical practice .
+
+ppatt:
+	However , ?a is needed to extrapolate ?b
+		?a: further research
+		?b: these finding to clinical practice
+
+
+label:    sent_3
+sentence: A Markov model was used to extrapolate results from the trial over three years .
+
+ppatt:
+	?a was used to extrapolate ?b over ?c
+		?a: A Markov model
+		?b: results from the trial
+		?c: three years
+
+
+label:    sent_4
+sentence: Cautions to extrapolate observation in rodents to explain human conditions have been presented .
+
+ppatt:
+	?a extrapolate ?b
+		?a: Cautions
+		?b: observation in rodents
+	?a explain ?b
+		?a: Cautions
+		?b: human conditions
+	?a have been presented
+		?a: Cautions to extrapolate observation in rodents to explain human conditions
+
+
+label:    sent_5
+sentence: Further studies are needed to extrapolate the findings to humans . A further challenge will be to extrapolate results from such studies to humans .
+
+ppatt:
+	?a are needed to extrapolate ?b
+		?a: Further studies
+		?b: the findings to humans
+	?a will be to extrapolate ?b
+		?a: A further challenge
+		?b: results from such studies to humans
+
+
+label:    sent_6
+sentence: Understanding of species differences is necessary to extrapolate from animal models to humans . [Japanese results are difficult to extrapolate to Europe ] . It is not easy to extrapolate from animals to man .
+
+ppatt:
+	?a is necessary to extrapolate from ?b
+		?a: Understanding of species differences
+		?b: animal models to humans
+	?a are difficult to extrapolate to ?b
+		?a: [Japanese results
+		?b: Europe ]
+	?a is not easy to extrapolate from ?b
+		?a: It
+		?b: animals to man
+
+
+label:    sent_7
+sentence: These extrapolate to 6.1 hours of infant contact per day .
+
+ppatt:
+	?a extrapolate to ?b
+		?a: These
+		?b: 6.1 hours of infant contact per day
+
+
+label:    sent_8
+sentence: However , the evidence may not extrapolate directly to older paediatric patients .
+
+ppatt:
+	However , ?a may not extrapolate directly to ?b
+		?a: the evidence
+		?b: older paediatric patients
+
+
+label:    sent_9
+sentence: Experiment 1 examined how people extrapolate beyond the range of training .
+
+ppatt:
+	?a examined ?b
+		?a: Experiment 1
+		?b: SOMETHING := how people extrapolate beyond the range of training
+	how ?a extrapolate beyond ?b
+		?a: people
+		?b: the range of training
+
+
+label:    sent_10
+sentence: However , we can not extrapolate infant experiences to adult work . Authors should not extrapolate findings into unresearched areas .
+
+ppatt:
+	However , ?a can not extrapolate ?b to ?c
+		?a: we
+		?b: infant experiences
+		?c: adult work
+	?a should not extrapolate ?b
+		?a: Authors
+		?b: findings into unresearched areas
+
+
+label:    sent_11
+sentence: We could then extrapolate the iteration into the posterior half . It can also extrapolate correct outputs for patterns never before encountered .
+
+ppatt:
+	?a could then extrapolate ?b
+		?a: We
+		?b: the iteration into the posterior half
+	?a can also extrapolate ?b
+		?a: It
+		?b: correct outputs for patterns
+	?a never before encountered
+		?a: It
+
+
+label:    sent_12
+sentence: We extrapolate the results obtained here to suggest a rapid subpicosecond overall reaction .
+
+ppatt:
+	?a extrapolate ?b
+		?a: We
+		?b: the results obtained here to suggest a rapid subpicosecond overall reaction
+	?a obtained here to suggest ?b
+		?a: the results
+		?b: a rapid subpicosecond overall reaction
+
+
+label:    sent_13
+sentence: Risk percentiles allow us to extrapolate absolute risk for any age .
+
+ppatt:
+	?a allow ?b to extrapolate ?c
+		?a: Risk percentiles
+		?b: us
+		?c: absolute risk for any age
+
+
+label:    sent_14
+sentence: We also used several methods to extrapolate dispersal frequencies and test for sex-biased dispersal .
+
+ppatt:
+	?a also used ?b
+		?a: We
+		?b: several methods to extrapolate dispersal frequencies and test for sex-biased dispersal
+	?a extrapolate ?b
+		?a: several methods
+		?b: dispersal frequencies
+	test for ?a
+		?a: sex-biased dispersal
+
+
+label:    sent_15
+sentence: N-terminal prohormone of brain natriuretic peptide -- how far can we extrapolate ? We extrapolate that these improved biomechanical properties may prove advantageous in future clinical investigation .
+
+ppatt:
+	?a how far can ?b extrapolate
+		?a: N-terminal prohormone of brain natriuretic peptide
+		?b: we
+	?a ?b extrapolate ?c
+		?a: N-terminal prohormone of brain natriuretic peptide -- how far can we extrapolate
+		?b: We
+		?c: SOMETHING := these improved biomechanical properties may prove advantageous in future clinical investigation
+	?a may prove advantageous in ?b
+		?a: these improved biomechanical properties
+		?b: future clinical investigation
+
+
+label:    sent_16
+sentence: The two models extrapolate very differently when there is strong matrix interaction .
+
+ppatt:
+	?a extrapolate very differently
+		?a: The two models
+	when there is ?a
+		?a: strong matrix interaction
+
+

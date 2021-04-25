@@ -1,0 +1,304 @@
+label:    sent_1
+sentence: Photoactive ruthenium nitrosyls as NO donors : how to sensitize them toward visible light .
+
+ppatt:
+	?a how to sensitize ?b toward ?c
+		?a: Photoactive ruthenium nitrosyls as NO donors
+		?b: them
+		?c: visible light
+
+
+label:    sent_2
+sentence: Our findings suggest a strategy to sensitize breast cancer cells to capecitabine treatment .
+
+ppatt:
+	?a suggest ?b
+		?a: Our findings
+		?b: a strategy to sensitize breast cancer cells to capecitabine treatment
+	?a sensitize ?b to ?c
+		?a: a strategy
+		?b: breast cancer cells
+		?c: capecitabine treatment
+
+
+label:    sent_3
+sentence: In conclusion , pretreatment with MSeC was essential to markedly sensitize cells to docetaxel .
+
+ppatt:
+	In ?a , ?b was essential to markedly sensitize ?c to ?d
+		?a: conclusion
+		?b: pretreatment with MSeC
+		?c: cells
+		?d: docetaxel
+
+
+label:    sent_4
+sentence: Therefore , restoring mutant p53 by ellipticine may sensitize these cells to chemotherapy . DNA repair defects sensitize cells to anticodon nuclease yeast killer toxins .
+
+ppatt:
+	restoring ?a by ?b
+		?a: mutant p53
+		?b: ellipticine
+	Therefore , ?a may sensitize ?b to ?c
+		?a: SOMETHING := restoring mutant p53 by ellipticine
+		?b: these cells
+		?c: chemotherapy
+	?a sensitize ?b to ?c
+		?a: DNA repair defects
+		?b: cells
+		?c: anticodon nuclease yeast killer toxins
+
+
+label:    sent_5
+sentence: Expert testimony regarding child witnesses : does it sensitize jurors to forensic interview quality ? However , immediate shock seems to sensitize subsequent context conditioning ( Experiment 3 ) . Twenty patient or donor antibodies were used to sensitize red cells in vitro .
+
+ppatt:
+	?a does ?b sensitize ?c to ?d
+		?a: Expert testimony regarding child witnesses
+		?b: it
+		?c: jurors
+		?d: forensic interview quality
+	However , ?a seems to sensitize ?b
+		?a: immediate shock
+		?b: subsequent context conditioning
+	?a is/are Experiment 3
+		?a: subsequent context conditioning
+	?a were used to sensitize ?b in vitro
+		?a: Twenty patient
+		?b: red cells
+	?a were used to sensitize ?b in vitro
+		?a: donor antibodies
+		?b: red cells
+
+
+label:    sent_6
+sentence: Radiolabelled HLA antibodies were used to sensitize peripheral blood lymphocytes .
+
+ppatt:
+	?a were used to sensitize ?b
+		?a: Radiolabelled HLA antibodies
+		?b: peripheral blood lymphocytes
+
+
+label:    sent_7
+sentence: Silver nanocrystals sensitize magnetic-nanoparticle-mediated thermo-induced killing of cancer cells .
+
+ppatt:
+	?a sensitize ?b
+		?a: Silver nanocrystals
+		?b: magnetic-nanoparticle-mediated thermo-induced killing of cancer cells
+
+
+label:    sent_8
+sentence: Troglitazone may sensitize the effect of epirubicin on breast cancer cells .
+
+ppatt:
+	?a may sensitize ?b
+		?a: Troglitazone
+		?b: the effect of epirubicin on breast cancer cells
+
+
+label:    sent_9
+sentence: Repeated exposure to opioids may sensitize neuronal systems involved in stress response .
+
+ppatt:
+	?a may sensitize ?b
+		?a: Repeated exposure to opioids
+		?b: neuronal systems involved in stress response
+	?a involved in ?b
+		?a: neuronal systems
+		?b: stress response
+
+
+label:    sent_10
+sentence: Directly targeting CRYAB can sensitize tumour cells to chemotherapeutic agents and decrease tumour aggressiveness .
+
+ppatt:
+	Directly ?a can sensitize ?b to ?c
+		?a: targeting CRYAB
+		?b: tumour cells
+		?c: chemotherapeutic agents
+	?a decrease ?b
+		?a: targeting CRYAB
+		?b: tumour aggressiveness
+
+
+label:    sent_11
+sentence: These activities sensitize cells to cisplatin and contribute to its cytotoxic properties .
+
+ppatt:
+	?a sensitize ?b to ?c
+		?a: These activities
+		?b: cells
+		?c: cisplatin
+	?a contribute to ?b
+		?a: These activities
+		?b: its cytotoxic properties
+
+
+label:    sent_12
+sentence: Bisphenol A did not sensitize the animals at all but epichlorhydrin sensitized 60 % . Agents that are safe and can sensitize cancer to chemotherapy are urgently needed .
+
+ppatt:
+	?a did not sensitize ?b at ?c
+		?a: Bisphenol A
+		?b: the animals
+		?c: all
+	?a sensitized ?b ?c
+		?a: epichlorhydrin
+		?b: 60 %
+		?c: Agents that are safe and can sensitize cancer to chemotherapy
+	?a are safe
+		?a: Agents
+	?a can sensitize ?b to ?c
+		?a: that
+		?b: cancer
+		?c: chemotherapy
+	?a are urgently needed
+		?a: Bisphenol A
+
+
+label:    sent_13
+sentence: PGs are known to sensitize nociceptors and produce hyperalgesia .
+
+ppatt:
+	?a are known to sensitize ?b
+		?a: PGs
+		?b: nociceptors
+	?a are known to produce ?b
+		?a: PGs
+		?b: hyperalgesia
+
+
+label:    sent_14
+sentence: Pharmacological agents that are safe and can sensitize the lung cancer are urgently required .
+
+ppatt:
+	?a are safe
+		?a: Pharmacological agents
+	?a can sensitize ?b
+		?a: that
+		?b: the lung cancer
+	?a are urgently required
+		?a: Pharmacological agents that are safe and can sensitize the lung cancer
+
+
+label:    sent_15
+sentence: Community-based diabetes screening programs can help sensitize the population and identify new cases .
+
+ppatt:
+	?a can help ?b
+		?a: Community-based diabetes screening programs
+		?b: SOMETHING := sensitize the population
+	?a sensitize ?b
+		?a: Community-based diabetes screening programs
+		?b: the population
+	?a identify ?b
+		?a: Community-based diabetes screening programs
+		?b: new cases
+
+
+label:    sent_16
+sentence: Repeated exposures to stress sensitize motor and addictive effects of drugs of abuse .
+
+ppatt:
+	?a sensitize ?b
+		?a: Repeated exposures to stress
+		?b: motor and addictive effects of drugs of abuse
+
+
+label:    sent_17
+sentence: The inhaled fungi sensitize susceptible patients intratracheally and induce the disease .
+
+ppatt:
+	?a sensitize ?b intratracheally
+		?a: The inhaled fungi
+		?b: susceptible patients
+	?a induce ?b
+		?a: The inhaled fungi
+		?b: the disease
+
+
+label:    sent_18
+sentence: Chronic inflammatory diseases can locally sensitize nerve endings and thereby contribute to itch . 5-Aza-2'-deoxycytidine and IFN-gamma cooperate to sensitize for TRAIL-induced apoptosis by upregulating caspase-8 .
+
+ppatt:
+	?a can locally sensitize ?b
+		?a: Chronic inflammatory diseases
+		?b: nerve endings
+	?a thereby contribute to ?b
+		?a: Chronic inflammatory diseases
+		?b: itch
+	?a cooperate to sensitize for ?b
+		?a: 5-Aza-2'-deoxycytidine
+		?b: TRAIL-induced apoptosis
+	?a cooperate to sensitize for ?b
+		?a: IFN-gamma
+		?b: TRAIL-induced apoptosis
+	?a upregulating ?b
+		?a: 5-Aza-2'-deoxycytidine
+		?b: caspase-8
+	?a upregulating ?b
+		?a: IFN-gamma
+		?b: caspase-8
+
+
+label:    sent_19
+sentence: Thy-1 dendritic epidermal cells failed to sensitize by any route in the doses employed .
+
+ppatt:
+	?a failed to sensitize by ?b
+		?a: Thy-1 dendritic epidermal cells
+		?b: any route in the doses employed
+	?a employed
+		?a: the doses
+
+
+label:    sent_20
+sentence: Failure to sensitize in D1R KO was not because of excessive stereotypies .
+
+ppatt:
+	?a sensitize in ?b
+		?a: Failure
+		?b: D1R KO
+	?a was not because of excessive stereotypies
+		?a: Failure to sensitize in D1R KO
+
+
+label:    sent_21
+sentence: BRCA1 and BRCA2 mutations sensitize to chemotherapy in patient-derived pancreatic cancer xenografts .
+
+ppatt:
+	?a ?b sensitize to ?c in ?d
+		?a: BRCA1
+		?b: mutations
+		?c: chemotherapy
+		?d: patient-derived pancreatic cancer xenografts
+	?a ?b sensitize to ?c in ?d
+		?a: BRCA2
+		?b: mutations
+		?c: chemotherapy
+		?d: patient-derived pancreatic cancer xenografts
+
+
+label:    sent_22
+sentence: Various infections sensitize to lethal shock by promoting hyperactivation of macrophages to LPS stimulation .
+
+ppatt:
+	?a sensitize to ?b
+		?a: Various infections
+		?b: lethal shock
+	?a promoting ?b
+		?a: Various infections
+		?b: hyperactivation of macrophages to LPS stimulation
+
+
+label:    sent_23
+sentence: Four different interleukin-1 species sensitize to the lethal action of tumour necrosis factor .
+
+ppatt:
+	?a sensitize to ?b
+		?a: Four different interleukin-1 species
+		?b: the lethal action of tumour necrosis factor
+
+

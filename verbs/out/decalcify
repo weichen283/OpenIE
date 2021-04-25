@@ -1,0 +1,121 @@
+label:    sent_1
+sentence: We used under magnifying lenses the ultrasound microhandpiece to decalcify 30 explanted aortic valves .
+
+ppatt:
+	?a used under ?b ?c
+		?a: We
+		?b: magnifying lenses
+		?c: the ultrasound microhandpiece to decalcify 30 explanted aortic valves
+	?a decalcify ?b
+		?a: the ultrasound microhandpiece
+		?b: 30 explanted aortic valves
+
+
+label:    sent_2
+sentence: A demineralizing solution was used to decalcify half the specimens .
+
+ppatt:
+	?a was used to decalcify half ?b
+		?a: A demineralizing solution
+		?b: the specimens
+
+
+label:    sent_3
+sentence: This solution , however , requires several weeks to decalcify bone specimens .
+
+ppatt:
+	?a however , requires ?b to decalcify ?c
+		?a: This solution
+		?b: several weeks
+		?c: bone specimens
+
+
+label:    sent_4
+sentence: It is concluded that phosphoric acid esters can decalcify and adhere to hydroxyapatite simultaneously .
+
+ppatt:
+	?a is concluded ?b
+		?a: It
+		?b: SOMETHING := phosphoric acid esters can decalcify to hydroxyapatite simultaneously
+	?a can decalcify to ?b simultaneously
+		?a: phosphoric acid esters
+		?b: hydroxyapatite
+	?a adhere
+		?a: phosphoric acid esters
+
+
+label:    sent_5
+sentence: Researchers then decalcify , process and embed the spinal column in paraffin .
+
+ppatt:
+	?a then decalcify ?b
+		?a: Researchers
+		?b: process
+	?a embed ?b
+		?a: Researchers
+		?b: the spinal column in paraffin
+
+
+label:    sent_6
+sentence: Osteoclasts are unique , multinucleated giant cells that decalcify and degrade the bone matrix .
+
+ppatt:
+	?a are unique , giant cells
+		?a: Osteoclasts
+	?a decalcify
+		?a: unique , giant cells
+	?a degrade ?b
+		?a: that
+		?b: the bone matrix
+
+
+label:    sent_7
+sentence: This result concurs with previous studies where calcareous organisms decalcify under more acidic conditions . SEM revealed that the nano-primer was unable to decalcify and hybridize the dentin surface .
+
+ppatt:
+	?a concurs with ?b
+		?a: This result
+		?b: previous studies
+	where ?a decalcify under ?b
+		?a: calcareous organisms
+		?b: more acidic conditions
+	?a ?b revealed ?c
+		?a: where calcareous organisms decalcify under more acidic conditions
+		?b: SEM
+		?c: SOMETHING := the nano-primer was unable to decalcify and hybridize the dentin surface
+	?a was unable to decalcify ?b
+		?a: the nano-primer
+		?b: the dentin surface
+	?a was unable to hybridize
+		?a: the nano-primer
+
+
+label:    sent_8
+sentence: Oral citrate can decalcify some calcified gallstones .
+
+ppatt:
+	?a can decalcify ?b
+		?a: Oral citrate
+		?b: some calcified gallstones
+
+
+label:    sent_9
+sentence: These acids decalcify the enamel surface producing the carious cavity . A method that can effectively decalcify while preserving genetic material is necessary .
+
+ppatt:
+	?a decalcify ?b ?c
+		?a: These acids
+		?b: the enamel surface producing the carious cavity
+		?c: A method that can effectively decalcify while preserving genetic material is necessary
+	?a producing ?b
+		?a: the enamel surface
+		?b: the carious cavity
+	?a can effectively decalcify
+		?a: A method
+	?a preserving ?b
+		?a: that
+		?b: genetic material
+	?a is necessary
+		?a: that
+
+

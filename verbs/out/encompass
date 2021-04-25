@@ -1,0 +1,247 @@
+label:    sent_1
+sentence: Intergroup comparison was significant if 95 % CI did not encompass 1 .
+
+ppatt:
+	?a was significant
+		?a: Intergroup comparison
+	?a did not encompass ?b
+		?a: 95 % CI
+		?b: 1
+
+
+label:    sent_2
+sentence: Clinical diagnoses of complex diseases may often encompass multiple genetically heterogeneous disorders .
+
+ppatt:
+	?a may often encompass ?b
+		?a: Clinical diagnoses of complex diseases
+		?b: multiple genetically heterogeneous disorders
+
+
+label:    sent_3
+sentence: Genetic regulatory networks usually encompass a multitude of complex , interacting feedback loops . Adaptive treatment margins required to encompass these errors were calculated .
+
+ppatt:
+	?a usually encompass ?b
+		?a: Genetic regulatory networks
+		?b: a multitude of complex , interacting feedback loops
+	?a required to encompass ?b
+		?a: Adaptive treatment margins
+		?b: these errors
+	?a were calculated
+		?a: Adaptive treatment margins required to encompass these errors
+
+
+label:    sent_4
+sentence: This circuitry is further posited to encompass at least two channels .
+
+ppatt:
+	?a is further posited to encompass ?b
+		?a: This circuitry
+		?b: at least two channels
+
+
+label:    sent_5
+sentence: How can genetic analyses be conducted to encompass this complexity ? The critique is generally related to how estimates of heritability may encompass environmental mediation .
+
+ppatt:
+	How can ?a be conducted to encompass ?b
+		?a: genetic analyses
+		?b: this complexity
+	?a is generally related
+		?a: The critique
+	to how ?a may encompass ?b
+		?a: estimates of heritability
+		?b: environmental mediation
+
+
+label:    sent_6
+sentence: In fact , all known syndromes encompass all types of defective lateralization .
+
+ppatt:
+	In ?a , ?b encompass ?c
+		?a: fact
+		?b: all known syndromes
+		?c: all types of defective lateralization
+
+
+label:    sent_7
+sentence: Apart from traditional biological factors , prevention of metabolic syndrome should also encompass QoL .
+
+ppatt:
+	Apart from ?a , ?b should also encompass ?c
+		?a: traditional biological factors
+		?b: prevention of metabolic syndrome
+		?c: QoL
+
+
+label:    sent_8
+sentence: Some of these proteins have known cellular functions and they encompass many signaling pathways .
+
+ppatt:
+	?a have ?b
+		?a: Some of these proteins
+		?b: known cellular functions
+	?a encompass ?b
+		?a: they
+		?b: many signaling pathways
+
+
+label:    sent_9
+sentence: Brain-related researches encompass many fields of studies and usually involve worldwide collaborations .
+
+ppatt:
+	?a encompass ?b
+		?a: Brain-related researches
+		?b: many fields of studies
+	?a usually involve ?b
+		?a: Brain-related researches
+		?b: worldwide collaborations
+
+
+label:    sent_10
+sentence: Genomic regulatory blocks encompass multiple neighboring genes and maintain conserved synteny in vertebrates .
+
+ppatt:
+	?a encompass ?b
+		?a: Genomic regulatory blocks
+		?b: multiple neighboring genes
+	?a maintain ?b
+		?a: Genomic regulatory blocks
+		?b: conserved synteny in vertebrates
+
+
+label:    sent_11
+sentence: Attentional deficits in DLB are widespread and encompass all aspects of attentional function .
+
+ppatt:
+	?a are widespread
+		?a: Attentional deficits in DLB
+	?a encompass ?b
+		?a: Attentional deficits in DLB
+		?b: all aspects of attentional function
+
+
+label:    sent_12
+sentence: Array-specific ITDs are mapped and encompass the entire auditory space of the barn owl .
+
+ppatt:
+	?a are mapped
+		?a: Array-specific ITDs
+	?a encompass ?b
+		?a: Array-specific ITDs
+		?b: the entire auditory space of the barn owl
+
+
+label:    sent_13
+sentence: Other biomarkers are currently in the validation phase and encompass combinations of multiple genes .
+
+ppatt:
+	?a are currently in the validation phase
+		?a: Other biomarkers
+	?a encompass ?b
+		?a: Other biomarkers
+		?b: combinations of multiple genes
+
+
+label:    sent_14
+sentence: To explore the factors that encompass maternal self-efficacy in providing food for the home .
+
+ppatt:
+	explore ?a
+		?a: the factors that encompass maternal self-efficacy in providing food for the home
+	?a encompass ?b
+		?a: the factors
+		?b: maternal self-efficacy
+	?a providing ?b
+		?a: that
+		?b: food for the home
+
+
+label:    sent_15
+sentence: Medical audit needs to encompass physical , psychological and social aspects to patient functioning .
+
+ppatt:
+	?a needs to encompass ?b to ?c
+		?a: Medical audit
+		?b: physical , psychological and social aspects
+		?c: patient functioning
+
+
+label:    sent_16
+sentence: Homemade dose-build-up-cradle was designed to encompass mouse bed for homogeneous dose build up . The discussions of the issues they encompass are intended to inform and to stimulate .
+
+ppatt:
+	?a was designed to encompass ?b for ?c
+		?a: Homemade dose-build-up-cradle
+		?b: mouse bed
+		?c: homogeneous dose
+	?a build up
+		?a: Homemade dose-build-up-cradle
+	?a ?b encompass
+		?a: the issues
+		?b: they
+	?a are intended to inform
+		?a: The discussions of the issues they encompass
+	?a are intended to to stimulate
+		?a: The discussions of the issues they encompass
+
+
+label:    sent_17
+sentence: Long-term anti-stigma campaigns that encompass human-rights-based , normalization , and educational approaches are needed .
+
+ppatt:
+	?a encompass ?b
+		?a: Long-term anti-stigma campaigns
+		?b: human-rights-based , normalization , and educational approaches
+	?a are needed
+		?a: Long-term anti-stigma campaigns that encompass human-rights-based , normalization , and educational approaches
+
+
+label:    sent_18
+sentence: Treatment programs commonly encompass adapted physical activity ( APA ) . To what extent do three subjective health questionnaires encompass and measure these treatment effects ? Spiritual needs are quite varied and encompass more than religion .
+
+ppatt:
+	?a commonly encompass ?b
+		?a: Treatment programs
+		?b: adapted physical activity . To what extent do three subjective health questionnaires
+	?a is/are APA
+		?a: adapted physical activity . To what extent do three subjective health questionnaires
+	?a To ?b ?c do ?d
+		?a: adapted physical activity
+		?b: what
+		?c: extent
+		?d: three subjective health questionnaires
+	?a encompass
+		?a: Treatment programs
+	?a measure ?b
+		?a: Treatment programs
+		?b: these treatment effects
+	?a are quite varied
+		?a: Spiritual needs
+	?a encompass ?b than ?c
+		?a: Spiritual needs
+		?b: more
+		?c: religion
+
+
+label:    sent_19
+sentence: History taking should not only encompass prescribed but also over-the-counter medication .
+
+ppatt:
+	?a should not only encompass ?b
+		?a: History taking
+		?b: prescribed but also over-the-counter medication
+
+
+label:    sent_20
+sentence: Control groups ideally encompass and realistically reflect prevailing medical practices .
+
+ppatt:
+	?a ideally encompass
+		?a: Control groups
+	?a realistically reflect ?b
+		?a: Control groups
+		?b: prevailing medical practices
+
+

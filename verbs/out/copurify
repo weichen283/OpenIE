@@ -1,0 +1,160 @@
+label:    sent_1
+sentence: Nuclease resistant circular DNAs copurify with infectivity in scrapie and CJD .
+
+ppatt:
+	?a copurify with ?b
+		?a: Nuclease resistant circular DNAs
+		?b: infectivity in scrapie and CJD
+
+
+label:    sent_2
+sentence: Proteins of 60-70 kDa copurify with some preparations of type-1 or type-2 phosphatases .
+
+ppatt:
+
+
+
+label:    sent_3
+sentence: The two activities copurify in the same ratio through the purification scheme as presented . VITF-A and the viral capping enzyme are shown to copurify to near homogeneity .
+
+ppatt:
+	?a copurify in ?b through ?c
+		?a: The two activities
+		?b: the same ratio
+		?c: the purification scheme
+	?a presented
+		?a: The two activities
+	?a are shown to copurify to ?b
+		?a: VITF-A
+		?b: near homogeneity
+	?a are shown to copurify to ?b
+		?a: the viral capping enzyme
+		?b: near homogeneity
+
+
+label:    sent_4
+sentence: The outer membrane-anchored lipoprotein PulS was found to copurify with PulD .
+
+ppatt:
+	?a was found to copurify with ?b
+		?a: The outer membrane-anchored lipoprotein PulS
+		?b: PulD
+
+
+label:    sent_5
+sentence: Scs was previously shown to copurify with Ndk , presumably as a complex .
+
+ppatt:
+	?a was previously shown to copurify with ?b as ?c
+		?a: Scs
+		?b: Ndk
+		?c: presumably a complex
+
+
+label:    sent_6
+sentence: The reacting collagens copurify with cuticles and are released from cuticles by reducing agents .
+
+ppatt:
+	?a copurify with ?b
+		?a: The reacting collagens
+		?b: cuticles
+	?a are released from ?b
+		?a: The reacting collagens
+		?b: cuticles
+	?a reducing ?b
+		?a: The reacting collagens
+		?b: agents
+
+
+label:    sent_7
+sentence: It is clear that ribosomes are not protective , but copurify with protective antigen .
+
+ppatt:
+	?a is clear ?b
+		?a: It
+		?b: SOMETHING := ribosomes are not protective
+	?a are not protective
+		?a: ribosomes
+	?a copurify with ?b
+		?a: ribosomes
+		?b: protective antigen
+
+
+label:    sent_8
+sentence: These binding sites are evenly distributed throughout the brain and copurify with synaptic membranes .
+
+ppatt:
+	?a are evenly distributed throughout ?b
+		?a: These binding sites
+		?b: the brain with synaptic membranes
+	?a are evenly distributed throughout ?b
+		?a: These binding sites
+		?b: copurify
+
+
+label:    sent_9
+sentence: Trace amounts of murine immunoglobulin copurify with the interferon alfa-n3 .
+
+ppatt:
+
+
+
+label:    sent_10
+sentence: Guanine nucleotides did not copurify with His-MxA .
+
+ppatt:
+	?a did not copurify with ?b
+		?a: Guanine nucleotides
+		?b: His-MxA
+
+
+label:    sent_11
+sentence: Consistent with these observations , Mn did not copurify with Gpm .
+
+ppatt:
+	Consistent with ?a ?b
+		?a: these observations
+		?b: Mn
+	?a ?b did not copurify with ?c
+		?a: SOMETHING := Consistent with these observations
+		?b: Mn
+		?c: Gpm
+
+
+label:    sent_12
+sentence: The exonuclease and endonuclease activities copurify and cosediment in a sucrose density gradient .
+
+ppatt:
+	?a copurify in ?b
+		?a: exonuclease and endonuclease activities
+		?b: a sucrose density gradient
+
+
+label:    sent_13
+sentence: Three of the antigens from neural tissue copurify and comigrate electrophoretically with neurofilament proteins .
+
+ppatt:
+
+
+
+label:    sent_14
+sentence: Zinc was found to copurify and concentrate with the virus particles .
+
+ppatt:
+	?a was found to copurify with ?b
+		?a: Zinc
+		?b: the virus particles
+	?a was found to concentrate
+		?a: Zinc
+
+
+label:    sent_15
+sentence: In S. cerevisiae killer strains it is possible to copurify double stranded RNA molecules .
+
+ppatt:
+	In ?a ?b is possible to copurify ?c
+		?a: S. cerevisiae killer strains
+		?b: it
+		?c: double stranded RNA molecules
+
+

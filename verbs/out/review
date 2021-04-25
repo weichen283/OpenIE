@@ -1,0 +1,293 @@
+label:    sent_1
+sentence: We review the causes of OSA hypertension and evidence supporting specific therapies .
+
+ppatt:
+	?a review ?b
+		?a: We
+		?b: the causes of OSA hypertension
+	?a review ?b
+		?a: We
+		?b: evidence supporting specific therapies
+	?a supporting ?b
+		?a: evidence
+		?b: specific therapies
+
+
+label:    sent_2
+sentence: Response to protocol review scenario : specify all medications .
+
+ppatt:
+
+
+
+label:    sent_3
+sentence: Response to protocol review scenario : a word from OLAW .
+
+ppatt:
+
+
+
+label:    sent_4
+sentence: We discuss its successful revision , and review previous reports of LP shunt migration .
+
+ppatt:
+	?a discuss ?b
+		?a: We
+		?b: its successful revision
+	?a review ?b
+		?a: We
+		?b: previous reports of LP shunt migration
+
+
+label:    sent_5
+sentence: To review the literature on how implant surface characteristics influence peri-implant disease .
+
+ppatt:
+	review ?a
+		?a: the literature on how implant surface characteristics influence peri-implant disease
+	?a how ?b influence ?c
+		?a: the literature
+		?b: implant surface characteristics
+		?c: peri-implant disease
+
+
+label:    sent_6
+sentence: The MEDLINE database was used to review the literature systematically .
+
+ppatt:
+	?a was used to review ?b systematically
+		?a: The MEDLINE database
+		?b: the literature
+
+
+label:    sent_7
+sentence: In the context of these findings we review the evidence .
+
+ppatt:
+	In ?a of ?b ?c review ?d
+		?a: the context
+		?b: these findings
+		?c: we
+		?d: the evidence
+
+
+label:    sent_8
+sentence: In this article , we review the literature predicting outcome of PD for achalasia .
+
+ppatt:
+	In ?a , ?b review ?c
+		?a: this article
+		?b: we
+		?c: the literature predicting outcome of PD for achalasia
+	?a predicting ?b
+		?a: the literature
+		?b: outcome of PD for achalasia
+
+
+label:    sent_9
+sentence: In addition , we also review the English literature on this rare disease .
+
+ppatt:
+	In ?a , ?b also review ?c
+		?a: addition
+		?b: we
+		?c: the English literature on this rare disease
+
+
+label:    sent_10
+sentence: We briefly review the other available data and highlight the need for future work .
+
+ppatt:
+	?a briefly review ?b
+		?a: We
+		?b: the other available data
+	?a highlight ?b
+		?a: We
+		?b: the need for future work
+
+
+label:    sent_11
+sentence: We review the salient advances in the field and propose further directions of investigation .
+
+ppatt:
+	?a review ?b
+		?a: We
+		?b: the salient advances in the field
+	?a propose ?b
+		?a: We
+		?b: further directions of investigation
+
+
+label:    sent_12
+sentence: We review the literature and discuss the potential mechanisms that cause this complication .
+
+ppatt:
+	?a review ?b
+		?a: We
+		?b: the literature
+	?a discuss ?b
+		?a: We
+		?b: the potential mechanisms that cause this complication
+	?a cause ?b
+		?a: the potential mechanisms
+		?b: this complication
+
+
+label:    sent_13
+sentence: The objectives were to systematically review the literature and identify research and clinical implications .
+
+ppatt:
+	?a were to systematically review ?b
+		?a: The objectives
+		?b: the literature
+	?a were to identify ?b
+		?a: The objectives
+		?b: research
+	?a were to identify ?b
+		?a: The objectives
+		?b: clinical implications
+
+
+label:    sent_14
+sentence: To review the clinical manifestations and management of nasal sinus mucoceles with visual loss . To review the 2009 Canadian Cardiovascular Society guidelines and provide practical recommendations for physicians .
+
+ppatt:
+	review ?a
+		?a: the clinical manifestations of nasal sinus mucoceles with visual loss
+	review ?a
+		?a: management
+	review ?a
+		?a: the 2009 Canadian Cardiovascular Society guidelines
+	provide ?a
+		?a: practical recommendations for physicians
+
+
+label:    sent_15
+sentence: In this article we will review chemotherapy-induced cardiomyopathy and discuss its treatment options .
+
+ppatt:
+	In ?a ?b will review ?c
+		?a: this article
+		?b: we
+		?c: chemotherapy-induced cardiomyopathy
+	?a discuss ?b
+		?a: we
+		?b: its treatment options
+
+
+label:    sent_16
+sentence: Herein we review our experiences with PAVR , and evaluate the surgical outcomes .
+
+ppatt:
+	Herein ?a review ?b
+		?a: we
+		?b: our experiences with PAVR
+	?a evaluate ?b
+		?a: we
+		?b: the surgical outcomes
+
+
+label:    sent_17
+sentence: In addition , we review the phenotype of CECs and discuss mechanisms of detachment .
+
+ppatt:
+	In ?a , ?b review ?c
+		?a: addition
+		?b: we
+		?c: the phenotype of CECs
+	?a discuss ?b
+		?a: we
+		?b: mechanisms of detachment
+
+
+label:    sent_18
+sentence: To review remission rates with current medical treatments for inflammatory bowel disease .
+
+ppatt:
+	review ?a
+		?a: remission rates with current medical treatments for inflammatory bowel disease
+
+
+label:    sent_19
+sentence: To review our experience with vocal fold injection medialization in children .
+
+ppatt:
+	review ?a
+		?a: our experience with vocal fold injection medialization in children
+
+
+label:    sent_20
+sentence: The purpose of this study was to review our early experience with this conduit . Retrospective case-note review .
+
+ppatt:
+	?a was to review ?b ?c
+		?a: The purpose of this study
+		?b: our early experience with this conduit
+		?c: Retrospective case-note review
+
+
+label:    sent_21
+sentence: Here , we review T cell homeostatic mechanisms that drive immune recovery .
+
+ppatt:
+	Here , ?a review ?b
+		?a: we
+		?b: T cell homeostatic mechanisms that drive immune recovery
+	?a drive ?b
+		?a: T cell homeostatic mechanisms
+		?b: immune recovery
+
+
+label:    sent_22
+sentence: Here we review clinical and preclinical studies that have investigated pain-related alterations in cognition .
+
+ppatt:
+	Here ?a review ?b
+		?a: we
+		?b: clinical and preclinical studies that have investigated pain-related alterations in cognition
+	?a have investigated ?b
+		?a: clinical and preclinical studies
+		?b: pain-related alterations in cognition
+
+
+label:    sent_23
+sentence: This manuscript was prepared to review and update the management of hereditary angioedema .
+
+ppatt:
+	?a was prepared to review ?b
+		?a: This manuscript
+		?b: the management of hereditary angioedema
+	?a was prepared to update
+		?a: This manuscript
+
+
+label:    sent_24
+sentence: Meyer , to review and evaluate potential for biosignature formation and preservation on Mars . Academic primary care : time to review and integrate .
+
+ppatt:
+	?a review ?b
+		?a: Meyer
+		?b: potential for biosignature formation
+	?a review ?b
+		?a: Meyer
+		?b: preservation on Mars . Academic primary care
+	evaluate ?a
+		?a: potential for biosignature formation
+	evaluate ?a
+		?a: preservation on Mars . Academic primary care
+
+
+label:    sent_25
+sentence: Effects of cardiology review of the electrocardiogram in patients with suspected acute coronary syndromes .
+
+ppatt:
+
+
+
+label:    sent_26
+sentence: Literature review in PubMed and Embase . A review on the oral health impacts of acculturation .
+
+ppatt:
+
+
+

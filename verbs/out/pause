@@ -1,0 +1,172 @@
+label:    sent_1
+sentence: When humans come to difficult decisions they often pause to deliberate over their choices .
+
+ppatt:
+	When ?a come to ?b
+		?a: humans
+		?b: difficult decisions
+	?a often pause to ?b over ?c
+		?a: they
+		?b: deliberate
+		?c: their choices
+
+
+label:    sent_2
+sentence: Similarly , rats pause at difficult choice points . Simply a pause for effect ? The dots appear to pause momentarily , despite no objective change in velocity .
+
+ppatt:
+	Similarly , ?a pause at ?b ?c
+		?a: rats
+		?b: difficult choice points
+		?c: Simply a pause for effect
+	?a appear to pause momentarily , despite ?b
+		?a: The dots
+		?b: no objective change in velocity
+
+
+label:    sent_3
+sentence: [Very few patients need to pause with drugs during anesthesia ] . Proton pump inhibitors and stress ulcer prophylaxis : pause for thought ? Health bill pause .
+
+ppatt:
+	?a need to pause with ?b during ?c
+		?a: [Very few patients
+		?b: drugs
+		?c: anesthesia ]
+	?a need to pause with ?b during ?c
+		?a: [Very few patients
+		?b: drugs
+		?c: Proton pump inhibitors
+
+
+label:    sent_4
+sentence: The pregnant pause . The longest pause . Vacuum surveillance interlocks pause the treatment if the patient moves within the eXtend frame .
+
+ppatt:
+	?a is/are The longest pause
+		?a: The pregnant pause
+	?a ?b pause ?c
+		?a: The pregnant pause
+		?b: Vacuum surveillance interlocks
+		?c: the treatment
+	?a moves within ?b
+		?a: the patient
+		?b: the eXtend frame
+
+
+label:    sent_5
+sentence: Individual differences in typing : pause length . Mechanism of DmS-II-mediated pause suppression by Drosophila RNA polymerase II .
+
+ppatt:
+
+
+
+label:    sent_6
+sentence: Both reverse transcriptases pause after the 2'-5 ' linkage but before the 2'-thiophosphate . Shall we pause and think ? To pause and reflect .
+
+ppatt:
+	?a pause after ' ?b
+		?a: Both reverse transcriptases
+		?b: the 2'-5 linkage
+	?a pause after ' ?b
+		?a: Both reverse transcriptases
+		?b: the 2'-thiophosphate
+	Shall ?a pause To pause
+		?a: we
+	?a think
+		?a: we
+	Shall ?a pause To reflect
+		?a: we
+
+
+label:    sent_7
+sentence: It is timely to pause and to reflect on the accumulated knowledge .
+
+ppatt:
+	?a is timely to pause
+		?a: It
+	?a is timely to to reflect on ?b
+		?a: It
+		?b: the accumulated knowledge
+
+
+label:    sent_8
+sentence: Elective surgery in rheumatic disease and immunosuppression : to pause or not .
+
+ppatt:
+
+
+
+label:    sent_9
+sentence: The latter may either promote cotranscriptional RNA cleavage or pause elongating Pol II .
+
+ppatt:
+	?a may either promote ?b
+		?a: The latter
+		?b: cotranscriptional RNA cleavage
+	?a pause ?b
+		?a: The latter
+		?b: elongating Pol II
+
+
+label:    sent_10
+sentence: Such information can be used to pause the treatment beam or adjust monitoring/prediction schemes .
+
+ppatt:
+	?a can be used to pause ?b
+		?a: Such information
+		?b: the treatment beam
+	?a can be used to adjust ?b
+		?a: Such information
+		?b: monitoring/prediction schemes
+
+
+label:    sent_11
+sentence: Modification of vestibular-induced pause neuron firing during anesthesia and light sleep .
+
+ppatt:
+
+
+
+label:    sent_12
+sentence: In the process , they can pause the elongating ribosome for regulation .
+
+ppatt:
+	In ?a , ?b can pause ?c for ?d
+		?a: the process
+		?b: they
+		?c: the elongating ribosome
+		?d: regulation
+
+
+label:    sent_13
+sentence: Masseter motor pause frequency as related to different bolus sizes .
+
+ppatt:
+
+
+
+label:    sent_14
+sentence: It is not known if during the night pause rebound pulmonary hypertension occurs . NHS medical director defends his decision to pause paediatric heart surgery at Leeds .
+
+ppatt:
+	?a is not known ?b
+		?a: It
+		?b: SOMETHING := during the night pause rebound pulmonary hypertension occurs . NHS medical director defends his decision to pause paediatric heart surgery at Leeds
+	during ?a ?b occurs
+		?a: the night pause
+		?b: rebound pulmonary hypertension
+	?a defends ?b
+		?a: NHS medical director
+		?b: his decision to pause paediatric heart surgery at Leeds
+	?a pause ?b
+		?a: his decision
+		?b: paediatric heart surgery at Leeds
+
+
+label:    sent_15
+sentence: Interword and intraword pause threshold in writing .
+
+ppatt:
+
+
+

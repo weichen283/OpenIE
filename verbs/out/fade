@@ -1,0 +1,266 @@
+label:    sent_1
+sentence: The effect varied over time and tended to fade with time .
+
+ppatt:
+	?a varied over ?b
+		?a: The effect
+		?b: time
+	?a tended to fade with ?b
+		?a: The effect
+		?b: time
+
+
+label:    sent_2
+sentence: The effect began to fade during stimulation but extended beyond it . The lesions rupture spontaneously , leaving hyperpigmented macules that usually fade within few weeks .
+
+ppatt:
+	?a began to fade during ?b . spontaneously , leaving ?c
+		?a: The effect
+		?b: stimulation
+		?c: hyperpigmented macules that usually fade within few weeks
+	?a extended beyond ?b ?c
+		?a: The effect
+		?b: it
+		?c: The lesions rupture
+	?a usually fade within ?b
+		?a: hyperpigmented macules
+		?b: few weeks
+
+
+label:    sent_3
+sentence: They fade without pigmentation or any other trace over a 2- to 3-week period .
+
+ppatt:
+	?a fade without ?b over ?c
+		?a: They
+		?b: pigmentation
+		?c: a 2- 3-week period
+	?a fade without ?b over ?c
+		?a: They
+		?b: any other trace
+		?c: a 2- 3-week period
+
+
+label:    sent_4
+sentence: Assessment of tetanic fade following atracurium .
+
+ppatt:
+
+
+
+label:    sent_5
+sentence: The benefits of having many competitors did not fade with increasing numbers of companies .
+
+ppatt:
+	?a having ?b
+		?a: The benefits
+		?b: many competitors
+	?a did not fade with ?b
+		?a: The benefits of having many competitors
+		?b: increasing numbers of companies
+
+
+label:    sent_6
+sentence: Some of them leave stable traces , and others fade away quickly . The dream must not fade .
+
+ppatt:
+	?a leave ?b
+		?a: Some of them
+		?b: stable traces
+	?a fade away quickly
+		?a: others
+	?a must not fade
+		?a: The dream
+
+
+label:    sent_7
+sentence: Reversal by atropine of tetanic fade induced in cats by antinicotinic and anticholinesterase agents .
+
+ppatt:
+	?a induced in ?b by ?c
+		?a: tetanic fade
+		?b: cats
+		?c: antinicotinic
+	?a induced in ?b by ?c
+		?a: tetanic fade
+		?b: cats
+		?c: anticholinesterase
+
+
+label:    sent_8
+sentence: To flourish or fade : the NHS in Dumfries and Galloway .
+
+ppatt:
+
+
+
+label:    sent_9
+sentence: Burn out or fade away ? The consciousness of this has a tendency to fade and lead to unclear terminology .
+
+ppatt:
+	?a ?b has ?c
+		?a: Burn
+		?b: The consciousness of this
+		?c: a tendency to fade and lead to unclear terminology
+	?a fade
+		?a: a tendency
+	lead to ?a
+		?a: unclear terminology
+
+
+label:    sent_10
+sentence: The effect seems persistent and does not fade away with time .
+
+ppatt:
+	?a seems persistent
+		?a: The effect
+	?a does not fade away with ?b
+		?a: The effect
+		?b: time
+
+
+label:    sent_11
+sentence: Psychotic symptoms are common in dementia but usually fade within 6-12 months .
+
+ppatt:
+	?a are common in ?b
+		?a: Psychotic symptoms
+		?b: dementia
+	?a usually fade within ?b
+		?a: Psychotic symptoms
+		?b: 6-12 months
+
+
+label:    sent_12
+sentence: In addition , these changes are transient and fade out some time after operation .
+
+ppatt:
+	In ?a , ?b are transient
+		?a: addition
+		?b: these changes
+	?a fade out ?b
+		?a: these changes
+		?b: some time after operation
+
+
+label:    sent_13
+sentence: Bleaching ( whitening ) agents are commonly offered to fade their darker aspect .
+
+ppatt:
+	?a is/are whitening
+		?a: Bleaching
+	?a are commonly offered to fade ?b
+		?a: Bleaching agents
+		?b: their darker aspect
+
+
+label:    sent_14
+sentence: Did Napoleon Bonaparte fade away ? Occupation of postjunctional nAChRs alone by alpha-BTX or alpha-conotoxin GI causes fade .
+
+ppatt:
+	Did ?a fade away
+		?a: Napoleon Bonaparte
+	?a causes fade
+		?a: Occupation of postjunctional nAChRs alone by alpha-BTX or alpha-conotoxin GI
+
+
+label:    sent_15
+sentence: At menopause , estrogens and gestagens may fade , and androgens may appear .
+
+ppatt:
+	At ?a , ?b may fade
+		?a: menopause
+		?b: estrogens
+	At ?a , ?b may fade
+		?a: menopause
+		?b: gestagens
+	?a may appear
+		?a: androgens
+
+
+label:    sent_16
+sentence: The lowering of IOP does not fade with time but is stable .
+
+ppatt:
+	?a does not fade with ?b
+		?a: The lowering of IOP
+		?b: time
+
+
+label:    sent_17
+sentence: As satiation sets in , they fade and disappear after food refusal . Subconjunctival hemorrhages slowly fade and disappear .
+
+ppatt:
+	As ?a in , ?b fade
+		?a: satiation sets
+		?b: they
+	?a disappear after ?b
+		?a: they
+		?b: food refusal
+	?a slowly fade
+		?a: Subconjunctival hemorrhages
+	?a disappear
+		?a: Subconjunctival hemorrhages
+
+
+label:    sent_18
+sentence: Every human fact can historically fade and then be restored according to new paradigms .
+
+ppatt:
+	?a can historically fade
+		?a: Every human fact
+	?a then be restored according to ?b
+		?a: Every human fact
+		?b: new paradigms
+
+
+label:    sent_19
+sentence: Capitation will n't rule , nor will it fade away .
+
+ppatt:
+	?a will n't rule
+		?a: Capitation
+	will ?a fade away
+		?a: it
+
+
+label:    sent_20
+sentence: Sevoflurane increases fade of neuromuscular response to TOF stimulation following rocuronium administration in children .
+
+ppatt:
+	?a increases ?b
+		?a: Sevoflurane
+		?b: fade of neuromuscular response to TOF stimulation following rocuronium administration in children
+
+
+label:    sent_21
+sentence: The vertical influence began to fade two hours after celebrations because of dry deposition .
+
+ppatt:
+	?a began to fade ?b after because of ?c
+		?a: The vertical influence
+		?b: two hours
+		?c: dry deposition
+
+
+label:    sent_22
+sentence: Unlike porcine atria , only PDE3 induced fade of 5-HT responses in human atria .
+
+ppatt:
+	Unlike ?a , ?b induced ?c
+		?a: porcine atria
+		?b: only PDE3
+		?c: fade of 5-HT responses in human atria
+
+
+label:    sent_23
+sentence: On-axis probability density function and fade behavior of partially coherent beams propagating through turbulence .
+
+ppatt:
+	fade ?a
+		?a: behavior of partially coherent beams propagating through turbulence
+	?a propagating through ?b
+		?a: partially coherent beams
+		?b: turbulence
+
+

@@ -1,0 +1,186 @@
+label:    sent_1
+sentence: The present study was designed to test this association and to narrow down the list of candidate genes in the minimal region of genomic loss on chromosome arm 16q .
+
+ppatt:
+	?a was designed to test ?b
+		?a: The present study
+		?b: this association
+	?a was designed to test ?b
+		?a: The present study
+		?b: narrow down the list of candidate genes in the minimal region of genomic loss on chromosome arm 16q
+
+
+label:    sent_2
+sentence: Following confirmation of an EWSR1 rearrangement by the use of EWSR1 breakpoint flanking probes , a fluorescence in situ hybridization positional cloning strategy was used to further narrow the 4q31 breakpoint .
+
+ppatt:
+	Following ?a , ?b was used to further narrow ?c
+		?a: confirmation of an EWSR1 rearrangement by the use of EWSR1 breakpoint flanking probes
+		?b: a fluorescence in hybridization positional cloning strategy
+		?c: the 4q31 breakpoint
+
+
+label:    sent_3
+sentence: This study informs community science , and seeks to narrow the research-to-practice gap , by examining how the interpersonal networks within a setting influence individuals ' use of interventions .
+
+ppatt:
+	?a informs ?b
+		?a: This study
+		?b: community science
+	?a seeks to narrow ?b
+		?a: This study
+		?b: the research-to-practice gap
+	?a examining ?b
+		?a: This study
+		?b: how the interpersonal networks within a setting influence individuals ' use of interventions
+
+
+label:    sent_4
+sentence: Identification of the population origin of an individual is very useful for crime investigators who need to narrow down a suspect based on specimens left at a crime scene .
+
+ppatt:
+	?a is very useful for ?b
+		?a: Identification of the population origin of an individual
+		?b: crime investigators who need to narrow down a suspect based on specimens left at a crime scene
+	?a need to narrow down ?b
+		?a: crime investigators
+		?b: a suspect
+	?a based on specimens left at ?b
+		?a: who
+		?b: a crime scene
+
+
+label:    sent_5
+sentence: Our results predict that the width of the hybrid zone will continue to narrow over time , a finding consistent with reinforcement theory .
+
+ppatt:
+	?a predict ?b
+		?a: Our results
+		?b: SOMETHING := the width of the hybrid zone will continue to narrow over time
+	?a will continue to narrow over ?b
+		?a: the width of the hybrid zone
+		?b: time
+
+
+label:    sent_6
+sentence: The cuboctahedral cages serve as building blocks that narrow the opening of the mesocavities into microwindows and stabilize these MOFs .
+
+ppatt:
+	?a serve
+		?a: The cuboctahedral cages
+	?a building ?b
+		?a: The cuboctahedral cages
+		?b: blocks that narrow the opening of the mesocavities into microwindows and stabilize these MOFs
+	?a narrow ?b
+		?a: blocks
+		?b: the opening of the mesocavities into microwindows
+	?a stabilize ?b
+		?a: that
+		?b: these MOFs
+
+
+label:    sent_7
+sentence: Finally , an imaging-based algorithm is presented as a guide to help radiologists narrow their differential diagnoses .
+
+ppatt:
+	Finally , ?a is presented as ?b
+		?a: an imaging-based algorithm
+		?b: a guide to help radiologists narrow their differential diagnoses
+	?a help ?b
+		?a: a guide
+		?b: radiologists narrow their differential diagnoses
+	narrow ?a
+		?a: their differential diagnoses
+
+
+label:    sent_8
+sentence: Microarray expression analysis of RNA from a continuous developmental series of murine retinas identified murine orthologs with regulated expression and these data helped to narrow the number of candidate genes in minimal region to 35 .
+
+ppatt:
+	?a identified ?b
+		?a: Microarray expression analysis of RNA from a continuous developmental series of murine retinas
+		?b: murine orthologs with regulated expression
+	?a helped to narrow ?b
+		?a: these data
+		?b: the number of candidate genes in minimal region 35
+
+
+label:    sent_9
+sentence: Because the differential diagnosis for glomerulonephritis ( GN ) is broad , using a classification schema is helpful to narrow the causes of GN in a systematic manner .
+
+ppatt:
+	?a is/are GN
+		?a: glomerulonephritis
+	?a is broad
+		?a: the differential diagnosis for glomerulonephritis
+	using ?a is helpful to narrow ?b in ?c
+		?a: a classification schema
+		?b: the causes of GN
+		?c: a systematic manner
+
+
+label:    sent_10
+sentence: To use a mechanical stapler in vascular anastomosis , some special preparations of both the aorta and the artificial graft are necessary to narrow the open end before the procedures .
+
+ppatt:
+	use ?a ?b
+		?a: a mechanical stapler in vascular anastomosis
+		?b: some special preparations of both the aorta and the artificial graft
+	?a are necessary to narrow ?b before ?c
+		?a: some special preparations of both the aorta and the artificial graft
+		?b: the open end
+		?c: the procedures
+
+
+label:    sent_11
+sentence: A boomerang-shaped alar base excision is described to narrow the nasal base and correct the excessive alar flare .
+
+ppatt:
+	?a is described to narrow ?b
+		?a: A boomerang-shaped alar base excision
+		?b: the nasal base
+	?a is described to correct ?b
+		?a: A boomerang-shaped alar base excision
+		?b: the excessive alar flare
+
+
+label:    sent_12
+sentence: Finally , in CHF patients , the versatility of CMR to assess function , flow , perfusion , and viability and to characterize tissue is helpful to narrow the differential diagnosis and to monitor treatment .
+
+ppatt:
+	?a assess ?b
+		?a: the versatility of CMR
+		?b: function
+	?a assess ?b
+		?a: the versatility of CMR
+		?b: flow
+	?a assess ?b
+		?a: the versatility of CMR
+		?b: perfusion
+	?a assess ?b
+		?a: the versatility of CMR
+		?b: viability
+	?a characterize ?b
+		?a: the versatility of CMR
+		?b: tissue
+	Finally , in ?a , ?b is helpful to narrow ?c
+		?a: CHF patients
+		?b: the versatility of CMR to assess function , flow , perfusion , and viability and to characterize tissue
+		?c: the differential diagnosis
+	Finally , ?a is helpful to to monitor ?b
+		?a: the versatility of CMR to assess function , flow , perfusion , and viability and to characterize tissue
+		?b: treatment
+
+
+label:    sent_13
+sentence: A few organizing principles help to focus the evaluation and narrow the differential diagnosis .
+
+ppatt:
+	?a help to focus ?b
+		?a: A few organizing principles
+		?b: the evaluation
+	?a help to focus ?b
+		?a: A few organizing principles
+		?b: narrow the differential diagnosis
+
+

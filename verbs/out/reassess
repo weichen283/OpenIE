@@ -1,0 +1,176 @@
+label:    sent_1
+sentence: Rising incidence of small renal masses : a need to reassess treatment effect .
+
+ppatt:
+	?a reassess ?b
+		?a: a need
+		?b: treatment effect
+
+
+label:    sent_2
+sentence: To review recent trials and reassess cardiovascular risk in people with diabetes .
+
+ppatt:
+	review ?a
+		?a: recent trials
+	reassess ?a
+		?a: cardiovascular risk in people with diabetes
+
+
+label:    sent_3
+sentence: Employers are being forced to reassess their retiree commitments .
+
+ppatt:
+	?a are being forced to reassess ?b
+		?a: Employers
+		?b: their retiree commitments
+
+
+label:    sent_4
+sentence: Aortic regurgitation : time to reassess timing of valve replacement ?
+
+ppatt:
+	?a reassess ?b
+		?a: time
+		?b: timing of valve replacement
+
+
+label:    sent_5
+sentence: This allowed us to reassess the chromosomal signatures of Rodentia .
+
+ppatt:
+	?a allowed ?b to reassess ?c
+		?a: This
+		?b: us
+		?c: the chromosomal signatures of Rodentia
+
+
+label:    sent_6
+sentence: Urgent need to reassess lab safety policies .
+
+ppatt:
+	?a reassess ?b
+		?a: Urgent need
+		?b: lab safety policies
+
+
+label:    sent_7
+sentence: Molecular techniques have enabled behavioural ecologists to reassess mating systems from a genetic perspective .
+
+ppatt:
+	?a have enabled ?b to reassess ?c from ?d
+		?a: Molecular techniques
+		?b: behavioural ecologists
+		?c: mating systems
+		?d: a genetic perspective
+
+
+label:    sent_8
+sentence: This study was aimed to reassess teratogenic effects of lidocaine in vitro in rats . It is important to reassess goals following initial consultation .
+
+ppatt:
+	?a was aimed to reassess ?b in vitro
+		?a: This study
+		?b: teratogenic effects of lidocaine in rats
+	?a is important to reassess ?b
+		?a: It
+		?b: goals following initial consultation
+
+
+label:    sent_9
+sentence: Remove LTP-I from albumin which supports capacitation and reassess this support . 2.1 ) Stop further capsulorhexis manoeuvre and reassess the situation .
+
+ppatt:
+	Remove ?a
+		?a: LTP-I from albumin which supports capacitation and reassess this support . Stop further capsulorhexis manoeuvre
+	?a supports ?b
+		?a: albumin
+		?b: capacitation
+	?a reassess ?b ?c
+		?a: which
+		?b: this support
+		?c: Stop further capsulorhexis manoeuvre
+	?a is/are 2.1
+		?a: this support
+	reassess ?a
+		?a: the situation
+
+
+label:    sent_10
+sentence: In view of changing Medicare payment policies , hospitals reassess pharmacy procedures .
+
+ppatt:
+	?a changing ?b
+		?a: view
+		?b: Medicare payment policies
+	In ?a , ?b reassess ?c
+		?a: view of changing Medicare payment policies
+		?b: hospitals
+		?c: pharmacy procedures
+
+
+label:    sent_11
+sentence: Here we reassess this issue from a different perspective .
+
+ppatt:
+	Here ?a reassess ?b from ?c
+		?a: we
+		?b: this issue
+		?c: a different perspective
+
+
+label:    sent_12
+sentence: This led us to reassess intraintestinal T lymphopoiesis in these 3 mutant strains .
+
+ppatt:
+	?a led ?b to reassess ?c
+		?a: This
+		?b: us
+		?c: intraintestinal T lymphopoiesis in these 3 mutant strains
+
+
+label:    sent_13
+sentence: The clinician should periodically reassess possible psychosocial issues and make appropriate mental health referrals .
+
+ppatt:
+	?a should periodically reassess ?b
+		?a: The clinician
+		?b: possible psychosocial issues
+	?a make ?b
+		?a: The clinician
+		?b: appropriate mental health referrals
+
+
+label:    sent_14
+sentence: Is it time to reassess colon cancer screening recommendations and acknowledge ethnic disparities ? Accordingly , JCS determined to reassess and update guidelines in 2010 .
+
+ppatt:
+	Is ?a to reassess ?b
+		?a: it time
+		?b: colon cancer screening recommendations
+	?a acknowledge ?b Accordingly ?c
+		?a: it time
+		?b: ethnic disparities
+		?c: JCS determined to reassess and update guidelines in 2010
+	?a determined to reassess ?b
+		?a: JCS
+		?b: guidelines in 2010
+	determined to update ?a
+		?a: guidelines in 2010
+
+
+label:    sent_15
+sentence: Neurological disease : time to reassess . Risk stratification after acute myocardial infarction : is it time to reassess ? Hospitals should reassess group purchasing .
+
+ppatt:
+	?a reassess ?b
+		?a: time
+		?b: Risk stratification after acute myocardial infarction
+	?a reassess ?b
+		?a: it time
+		?b: SOMETHING := Hospitals should reassess group purchasing
+	?a should reassess ?b
+		?a: Hospitals
+		?b: group purchasing
+
+

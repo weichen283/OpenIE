@@ -1,0 +1,309 @@
+label:    sent_1
+sentence: Vitamin E has been proposed as a treatment to prevent or decrease TD .
+
+ppatt:
+	?a has been proposed as ?b
+		?a: Vitamin E
+		?b: a treatment to prevent or decrease TD
+	?a prevent ?b
+		?a: a treatment
+		?b: TD
+	decrease ?a
+		?a: TD
+
+
+label:    sent_2
+sentence: Dilute bleach baths for Staphylococcus aureus colonization in atopic dermatitis to decrease disease severity .
+
+ppatt:
+	?a decrease ?b
+		?a: Dilute bleach baths for Staphylococcus aureus colonization in atopic dermatitis
+		?b: disease severity
+
+
+label:    sent_3
+sentence: These processes can be affected by other agents to decrease carcinogenesis ( chemoprevention ) . The installation errors of wearable accelerometers may dramatically decrease the accuracy of HAR .
+
+ppatt:
+	?a can be affected by ?b to decrease ?c
+		?a: These processes
+		?b: other agents
+		?c: carcinogenesis
+	?a is/are chemoprevention
+		?a: carcinogenesis
+	?a may dramatically decrease ?b
+		?a: The installation errors of wearable accelerometers
+		?b: the accuracy of HAR
+
+
+label:    sent_4
+sentence: Severe surface light scattering from an IOL optic may decrease visual function .
+
+ppatt:
+	?a may decrease ?b
+		?a: Severe surface light scattering from an IOL optic
+		?b: visual function
+
+
+label:    sent_5
+sentence: Sensitivity analyses demonstrate that smaller buffers decrease the proportion of affected retailers .
+
+ppatt:
+	?a demonstrate ?b
+		?a: Sensitivity analyses
+		?b: SOMETHING := smaller buffers decrease the proportion of affected retailers
+	?a decrease ?b
+		?a: smaller buffers
+		?b: the proportion of affected retailers
+
+
+label:    sent_6
+sentence: Although CFCs have started to decrease in the atmosphere , SF6 continues to increase .
+
+ppatt:
+	?a have started to decrease in ?b
+		?a: CFCs
+		?b: the atmosphere
+	?a continues to increase
+		?a: SF6
+
+
+label:    sent_7
+sentence: Among the ex-smokers , VFA tended to decrease with increasing years of smoking cessation .
+
+ppatt:
+	Among ?a , ?b tended to decrease with ?c
+		?a: the ex-smokers
+		?b: VFA
+		?c: increasing years of smoking cessation
+
+
+label:    sent_8
+sentence: The lesion volume appeared to decrease with decreasing voltage of applied pulses . CXCL5 plasma levels decrease in patients with chronic liver disease .
+
+ppatt:
+	?a appeared to decrease with ?b
+		?a: The lesion volume
+		?b: decreasing voltage of applied pulses
+	?a decrease in ?b
+		?a: CXCL5 plasma levels
+		?b: patients with chronic liver disease
+
+
+label:    sent_9
+sentence: Nevertheless , the use of natural cavities did not decrease after 5 years .
+
+ppatt:
+	Nevertheless , ?a did not decrease after ?b
+		?a: the use of natural cavities
+		?b: 5 years
+
+
+label:    sent_10
+sentence: In conventional optics , light transmission must decrease when the aperture is capped .
+
+ppatt:
+	In ?a , ?b must decrease
+		?a: conventional optics
+		?b: light transmission
+	when ?a is capped
+		?a: the aperture
+
+
+label:    sent_11
+sentence: Silybin and dehydrosilybin decrease glucose uptake by inhibiting GLUT proteins .
+
+ppatt:
+	?a decrease ?b
+		?a: Silybin
+		?b: glucose uptake
+	?a decrease ?b
+		?a: dehydrosilybin
+		?b: glucose uptake
+	?a inhibiting ?b
+		?a: Silybin
+		?b: GLUT proteins
+	?a inhibiting ?b
+		?a: dehydrosilybin
+		?b: GLUT proteins
+
+
+label:    sent_12
+sentence: An intake of iron >= 15 mg/d can decrease DNA damage in young subjects .
+
+ppatt:
+	?a can decrease ?b
+		?a: An intake of iron >= 15 mg/d
+		?b: DNA damage in young subjects
+
+
+label:    sent_13
+sentence: Environmentally persistent free radicals decrease cardiac function before and after ischemia/reperfusion injury in vivo .
+
+ppatt:
+	?a decrease ?b ?c in vivo
+		?a: Environmentally persistent free radicals
+		?b: cardiac function
+		?c: before and after ischemia/reperfusion injury
+
+
+label:    sent_14
+sentence: This protocol can be used to decrease imaging time for thorough cardiac examination .
+
+ppatt:
+	?a can be used to decrease ?b for ?c
+		?a: This protocol
+		?b: imaging time
+		?c: thorough cardiac examination
+
+
+label:    sent_15
+sentence: Moreover , continuous surveillance is warranted to decrease burns in Pakistan . DCD liver transplantation is a potential tool to decrease mortality on the waiting list .
+
+ppatt:
+	Moreover , ?a is warranted to decrease ?b
+		?a: continuous surveillance
+		?b: burns in Pakistan
+	?a is a potential tool
+		?a: DCD liver transplantation
+	?a decrease ?b on ?c
+		?a: a potential tool
+		?b: mortality
+		?c: the waiting list
+
+
+label:    sent_16
+sentence: Aggressive use of vasopressin may worsen systemic oxygen transport and decrease splanchnic perfusion .
+
+ppatt:
+	?a may worsen ?b
+		?a: Aggressive use of vasopressin
+		?b: systemic oxygen transport
+	?a decrease ?b
+		?a: Aggressive use of vasopressin
+		?b: splanchnic perfusion
+
+
+label:    sent_17
+sentence: Searching for pain relief : therapists strive to decrease pain and restore function . IPost can up-regulate miR-1 and miR-133a , and decrease apoptosis of cardiomyocyte .
+
+ppatt:
+	Searching for ?a ?b
+		?a: pain relief
+		?b: therapists
+	?a strive to decrease ?b
+		?a: therapists
+		?b: pain
+	?a strive to restore ?b
+		?a: therapists
+		?b: function
+	?a can up-regulate ?b
+		?a: IPost
+		?b: miR-1
+	?a can up-regulate ?b
+		?a: IPost
+		?b: miR-133a
+	?a decrease ?b
+		?a: IPost
+		?b: apoptosis of cardiomyocyte
+
+
+label:    sent_18
+sentence: Web-based insurer-provided wellness programs may decrease health care costs and encourage preventive service utilization .
+
+ppatt:
+	?a may decrease ?b
+		?a: Web-based insurer-provided wellness programs
+		?b: health care costs
+	?a encourage ?b
+		?a: Web-based insurer-provided wellness programs
+		?b: preventive service utilization
+
+
+label:    sent_19
+sentence: Idebenone did not decrease LV hypertrophy or improve cardiac function in subjects with FRDA .
+
+ppatt:
+	?a did not decrease ?b
+		?a: Idebenone
+		?b: LV hypertrophy
+	?a improve ?b in ?c
+		?a: Idebenone
+		?b: cardiac function
+		?c: subjects with FRDA
+
+
+label:    sent_20
+sentence: Studies are required to assess whether interventions can decrease pulmonary inflammation and improve nutrition .
+
+ppatt:
+	?a are required to assess ?b
+		?a: Studies
+		?b: SOMETHING := interventions can decrease pulmonary inflammation
+	?a can decrease ?b
+		?a: interventions
+		?b: pulmonary inflammation
+	?a improve ?b
+		?a: interventions
+		?b: nutrition
+
+
+label:    sent_21
+sentence: During aeration , ORP and DO increase , whereas COD and BOD decrease .
+
+ppatt:
+	During ?a , ?b increase ?c
+		?a: aeration
+		?b: ORP
+		?c: COD and BOD decrease
+	During ?a , ?b increase ?c
+		?a: aeration
+		?b: DO
+		?c: COD and BOD decrease
+
+
+label:    sent_22
+sentence: The rate of sensibility decrease ( 63 % ) for the tympanic raff . ICU infections decrease .
+
+ppatt:
+	?a is/are 63 %
+		?a: sensibility decrease
+	?a decrease
+		?a: The rate of sensibility decrease for the tympanic raff . ICU infections
+
+
+label:    sent_23
+sentence: Melatonin displays antioxidant and anti-inflammatory effects , but its levels decrease with age .
+
+ppatt:
+	?a displays ?b
+		?a: Melatonin
+		?b: antioxidant and anti-inflammatory effects
+	?a decrease with ?b
+		?a: its levels
+		?b: age
+
+
+label:    sent_24
+sentence: In no patient did the chondrocalcinosis decrease or disappear .
+
+ppatt:
+	In ?a did ?b
+		?a: no patient
+		?b: the chondrocalcinosis decrease
+	?a disappear
+		?a: the chondrocalcinosis decrease
+
+
+label:    sent_25
+sentence: These ratios decrease with fetal age but this dependence on age disappears towards term .
+
+ppatt:
+	?a decrease with ?b
+		?a: These ratios
+		?b: fetal age
+	?a disappears towards ?b
+		?a: this dependence on age
+		?b: term
+
+

@@ -1,0 +1,325 @@
+label:    sent_1
+sentence: We performed meta-analysis to combine effect measures , using a random-effects model .
+
+ppatt:
+	?a performed ?b
+		?a: We
+		?b: meta-analysis to combine effect measures
+	?a combine ?b
+		?a: meta-analysis
+		?b: effect measures
+	?a using ?b
+		?a: We
+		?b: a random-effects model
+
+
+label:    sent_2
+sentence: Subretinal electronic chips allow blind patients to read letters and combine them to words .
+
+ppatt:
+	?a allow ?b
+		?a: Subretinal electronic chips
+		?b: blind patients to read letters
+	?a combine ?b to ?c
+		?a: Subretinal electronic chips
+		?b: them
+		?c: words
+
+
+label:    sent_3
+sentence: This study was designed to combine two physical stimuli .
+
+ppatt:
+	?a was designed to combine ?b
+		?a: This study
+		?b: two physical stimuli
+
+
+label:    sent_4
+sentence: We combine multi-reference configuration interaction with one-electron spin-orbit Hamiltonian and relativistic effective core potentials .
+
+ppatt:
+	?a combine ?b
+		?a: We
+		?b: multi-reference configuration interaction with one-electron spin-orbit Hamiltonian and relativistic effective core potentials
+
+
+label:    sent_5
+sentence: New indices that combine the diverse clinical manifestations of PsA are now under development .
+
+ppatt:
+	?a combine ?b
+		?a: New indices
+		?b: the diverse clinical manifestations of PsA
+	?a are now under development
+		?a: New indices that combine the diverse clinical manifestations of PsA
+
+
+label:    sent_6
+sentence: There is increasing enthusiasm for teaching approaches that combine mathematics and biology .
+
+ppatt:
+	There is ?a
+		?a: increasing enthusiasm for teaching approaches that combine mathematics and biology
+	?a combine ?b
+		?a: teaching approaches
+		?b: mathematics
+	?a combine ?b
+		?a: teaching approaches
+		?b: biology
+
+
+label:    sent_7
+sentence: Other methods intend to combine all dropout information into the treatment effect estimate .
+
+ppatt:
+	?a intend to combine ?b into ?c
+		?a: Other methods
+		?b: all dropout information
+		?c: the treatment effect estimate
+
+
+label:    sent_8
+sentence: Bicycle helmets exhibit complex structures so as to combine impact protection with ventilation .
+
+ppatt:
+	?a exhibit ?b so as to combine ?c
+		?a: Bicycle helmets
+		?b: complex structures
+		?c: impact protection with ventilation
+
+
+label:    sent_9
+sentence: It is a potential method to combine chitosan with the hydrophobic synthetic polymers .
+
+ppatt:
+	?a is a potential method
+		?a: It
+	?a combine ?b with ?c
+		?a: a potential method
+		?b: chitosan
+		?c: the hydrophobic synthetic polymers
+
+
+label:    sent_10
+sentence: We combine this enhancement stage with two different segmentation algorithms .
+
+ppatt:
+	?a combine ?b with ?c
+		?a: We
+		?b: this enhancement stage
+		?c: two different segmentation algorithms
+
+
+label:    sent_11
+sentence: We combine the two metrics by employing an eigenvalue formulation .
+
+ppatt:
+	?a combine ?b
+		?a: We
+		?b: the two metrics
+	?a employing ?b
+		?a: We
+		?b: an eigenvalue formulation
+
+
+label:    sent_12
+sentence: However , the best reconstructions combine MLd responses with both spectral and temporal correlations . TIS11b and SIK may combine to attenuate StAR expression when hormonal stimuli decline .
+
+ppatt:
+	However , ?a combine ?b ?c
+		?a: the best reconstructions
+		?b: MLd responses
+		?c: with both spectral and temporal correlations
+	?a may combine to attenuate ?b
+		?a: TIS11b
+		?b: StAR expression
+	?a may combine to attenuate ?b
+		?a: SIK
+		?b: StAR expression
+	when ?a decline
+		?a: hormonal stimuli
+
+
+label:    sent_13
+sentence: Modules from the two replicators could combine to initiate replication .
+
+ppatt:
+	?a could combine to initiate ?b
+		?a: Modules from the two replicators
+		?b: replication
+
+
+label:    sent_14
+sentence: These two scenarios combine to form the observed distributions of pair centroid positions .
+
+ppatt:
+	?a combine to form ?b
+		?a: These two scenarios
+		?b: the observed distributions of pair centroid positions
+
+
+label:    sent_15
+sentence: The DNAzyme used was a single-stranded DNA that could combine with hemin .
+
+ppatt:
+	?a used
+		?a: The DNAzyme
+	?a was a single-stranded DNA
+		?a: The DNAzyme used
+	?a could combine with ?b
+		?a: a single-stranded DNA
+		?b: hemin
+
+
+label:    sent_16
+sentence: The HRE of IRP1 5'-regulation regions could combine with HIF-1 in vitro .
+
+ppatt:
+	?a could combine with ?b in vitro
+		?a: The HRE of IRP1 5'-regulation regions
+		?b: HIF-1
+
+
+label:    sent_17
+sentence: In particular the widely used lipases combine well with many ionic liquids .
+
+ppatt:
+	In ?a ?b combine well with ?c
+		?a: particular
+		?b: the widely used lipases
+		?c: many ionic liquids
+
+
+label:    sent_18
+sentence: Multicenter studies of intravitreal drugs present them as an option to combine with laser .
+
+ppatt:
+	?a present ?b as ?c
+		?a: Multicenter studies of intravitreal drugs
+		?b: them
+		?c: an option to combine with laser
+	?a combine with ?b
+		?a: an option
+		?b: laser
+
+
+label:    sent_19
+sentence: A more effective drug to combine with IFN is needed .
+
+ppatt:
+	?a combine with ?b
+		?a: A more effective drug
+		?b: IFN
+	?a is needed
+		?a: A more effective drug to combine with IFN
+
+
+label:    sent_20
+sentence: First , monoclonal antibodies are allowed to combine with radioiodinated human IgG .
+
+ppatt:
+	First , ?a are allowed to combine with ?b
+		?a: monoclonal antibodies
+		?b: radioiodinated human IgG
+
+
+label:    sent_21
+sentence: We have developed a new call flow style and combine traditional passive call flow . Batteries of tests are often done and should combine both indirect and direct methods .
+
+ppatt:
+	?a have developed ?b
+		?a: We
+		?b: a new call flow style
+	?a combine ?b
+		?a: We
+		?b: traditional passive call flow
+	?a are often done
+		?a: Batteries of tests
+	?a should combine ?b
+		?a: Batteries of tests
+		?b: both indirect and direct methods
+
+
+label:    sent_22
+sentence: Methods have been developed to combine SAR submodels and thereby improve predictive performance .
+
+ppatt:
+	?a have been developed to combine ?b
+		?a: Methods
+		?b: SAR submodels
+	?a thereby improve ?b
+		?a: Methods
+		?b: predictive performance
+
+
+label:    sent_23
+sentence: This tempted us to combine the data and develop a new prediction model .
+
+ppatt:
+	?a tempted ?b to combine ?c
+		?a: This
+		?b: us
+		?c: the data
+	?a tempted to develop ?b
+		?a: This
+		?b: a new prediction model
+
+
+label:    sent_24
+sentence: Only five currently combine efficacy and acceptable side effects .
+
+ppatt:
+	?a currently combine ?b
+		?a: Only five
+		?b: efficacy
+	?a currently combine ?b
+		?a: Only five
+		?b: acceptable side effects
+
+
+label:    sent_25
+sentence: Megranate-like nanoparticles can combine the properties of each component and be used as nanoreactors .
+
+ppatt:
+	?a can combine ?b
+		?a: Megranate-like nanoparticles
+		?b: the properties of each component
+	?a be used as ?b
+		?a: Megranate-like nanoparticles
+		?b: nanoreactors
+
+
+label:    sent_26
+sentence: It needs to combine them , and by doing so to reconcile them .
+
+ppatt:
+	?a needs to combine ?b
+		?a: It
+		?b: them
+	?a needs to by doing
+		?a: It
+	?a needs to so to reconcile ?b
+		?a: It
+		?b: them
+
+
+label:    sent_27
+sentence: To combine or not combine two units under one unit manager .
+
+ppatt:
+	not combine ?a under ?b
+		?a: two units
+		?b: one unit manager
+
+
+label:    sent_28
+sentence: Refer to correlative articles and combine clinical experience to report .
+
+ppatt:
+	Refer to ?a
+		?a: correlative articles
+	combine ?a to report
+		?a: clinical experience
+
+

@@ -1,0 +1,220 @@
+label:    sent_1
+sentence: All 3 estimation methods tended to overestimate the AGW ( P < 0.001 ) .
+
+ppatt:
+	?a tended to overestimate ?b
+		?a: All 3 estimation methods
+		?b: the AGW
+	?a < 0.001
+		?a: P
+
+
+label:    sent_2
+sentence: There was a tendency to underestimate and overestimate LE and H , respectively . Non-PEM physicians were more likely to overestimate the frequency of pediatric CSI .
+
+ppatt:
+	There was ?a , respectively
+		?a: a tendency to underestimate and overestimate LE and H
+	?a underestimate ?b
+		?a: a tendency
+		?b: LE
+	?a underestimate ?b
+		?a: a tendency
+		?b: H
+	?a overestimate
+		?a: a tendency
+	?a were more likely to overestimate ?b
+		?a: Non-PEM physicians
+		?b: the frequency of pediatric CSI
+
+
+label:    sent_3
+sentence: Do global change experiments overestimate impacts on terrestrial ecosystems ? Current deterministic process-planning models overestimate the economic impact of this increased variation .
+
+ppatt:
+	Do ?a overestimate ?b
+		?a: global change experiments
+		?b: impacts on terrestrial ecosystems
+	?a overestimate ?b
+		?a: Current deterministic process-planning models
+		?b: the economic impact of this increased variation
+
+
+label:    sent_4
+sentence: Renal estimating equations most often overestimate renal clearance in AKI .
+
+ppatt:
+	?a most often overestimate ?b
+		?a: Renal estimating equations
+		?b: renal clearance in AKI
+
+
+label:    sent_5
+sentence: Compared with MRI , CT scans overestimate prostate volume by 35 % . At low ionization densities , the simulation results slightly overestimate the experimental data . Casual blood pressure may overestimate blood pressure in stroke patients .
+
+ppatt:
+	Compared with MRI ?a
+		?a: CT scans
+	?a overestimate ?b by ?c . At ?d
+		?a: CT scans
+		?b: prostate volume
+		?c: 35 %
+		?d: low ionization densities
+	?a slightly overestimate ?b
+		?a: the simulation results
+		?b: the experimental data
+	?a may overestimate ?b in ?c
+		?a: Casual blood pressure
+		?b: blood pressure
+		?c: stroke patients
+
+
+label:    sent_6
+sentence: The device tended to slightly overestimate IOP compared to GAT .
+
+ppatt:
+	?a tended to slightly overestimate ?b
+		?a: The device
+		?b: IOP
+	?a compared to GAT
+		?a: The device
+
+
+label:    sent_7
+sentence: Results revealed that respondents tended to overestimate their peers ' approval toward DAD .
+
+ppatt:
+	?a revealed ?b
+		?a: Results
+		?b: SOMETHING := respondents tended to overestimate their peers ' approval toward DAD
+	?a tended to overestimate ?b
+		?a: respondents
+		?b: their peers ' approval toward DAD
+
+
+label:    sent_8
+sentence: In contrast , CT tended systematically to overestimate the AN CSA by 10-20 % . Non-targeted screening for CKD is inaccurate and can overestimate prevalence .
+
+ppatt:
+	In ?a , ?b tended systematically to overestimate ?c by ?d
+		?a: contrast
+		?b: CT
+		?c: the AN CSA
+		?d: 10-20 %
+	?a is inaccurate
+		?a: Non-targeted screening for CKD
+	?a can overestimate ?b
+		?a: Non-targeted screening for CKD
+		?b: prevalence
+
+
+label:    sent_9
+sentence: However , most methods tended to overestimate G1 fractions and underestimate S fractions . MI tended to overestimate clearance and underestimate volume of distribution .
+
+ppatt:
+	However , ?a tended to overestimate ?b
+		?a: most methods
+		?b: G1 fractions
+	However , ?a tended to underestimate ?b
+		?a: most methods
+		?b: S fractions
+	?a tended to overestimate ?b
+		?a: MI
+		?b: clearance
+	?a tended to underestimate ?b
+		?a: MI
+		?b: volume of distribution
+
+
+label:    sent_10
+sentence: However , some did overestimate the surgical mortality and underestimate the associated survival benefit .
+
+ppatt:
+	However , ?a did overestimate ?b
+		?a: some
+		?b: the surgical mortality
+	?a underestimate ?b
+		?a: some
+		?b: the associated survival benefit
+
+
+label:    sent_11
+sentence: Individuals typically overestimate survival for lung cancer and underestimate it for melanoma .
+
+ppatt:
+	?a typically overestimate ?b
+		?a: Individuals
+		?b: survival for lung cancer
+	?a underestimate ?b for ?c
+		?a: Individuals
+		?b: it
+		?c: melanoma
+
+
+label:    sent_12
+sentence: Patients and physicians overestimate control and the overestimation by patients is greater .
+
+ppatt:
+	?a overestimate ?b
+		?a: Patients
+		?b: control
+	?a overestimate ?b
+		?a: physicians
+		?b: control
+	?a overestimate ?b
+		?a: Patients
+		?b: the overestimation by patients
+	?a overestimate ?b
+		?a: physicians
+		?b: the overestimation by patients
+
+
+label:    sent_13
+sentence: Fluid overload should be considered because it can overestimate or underestimate nutritional status .
+
+ppatt:
+	?a should be considered
+		?a: Fluid overload
+	?a can overestimate ?b
+		?a: it
+		?b: nutritional status
+	?a underestimate
+		?a: it
+
+
+label:    sent_14
+sentence: Self-assessment of medical knowledge : do physicians overestimate or underestimate ? Bias in RCTs may overestimate or underestimate the true effectiveness of an intervention .
+
+ppatt:
+	?a may overestimate ?b
+		?a: Bias in RCTs
+		?b: the true effectiveness of an intervention
+	?a underestimate
+		?a: Bias in RCTs
+
+
+label:    sent_15
+sentence: Parents underestimate worry and overestimate optimism compared to child self-report .
+
+ppatt:
+	?a underestimate ?b
+		?a: Parents
+		?b: worry
+	?a overestimate ?b
+		?a: Parents
+		?b: optimism
+	?a compared to child self-report
+		?a: Parents
+
+
+label:    sent_16
+sentence: All of the methods tended to overestimate lower and underestimate higher % BF .
+
+ppatt:
+	?a tended to overestimate lower
+		?a: All of the methods
+	?a tended to lower underestimate ?b
+		?a: All of the methods
+		?b: higher % BF
+
+

@@ -1,0 +1,148 @@
+label:    sent_1
+sentence: At planar walls , density profiles oscillate with smaller periods than in lower dimensions . ( 3 ) Both populations may oscillate in antiphase .
+
+ppatt:
+	At ?a , ?b oscillate with ?c than in ?d
+		?a: planar walls
+		?b: density profiles
+		?c: smaller periods
+		?d: lower dimensions
+	?a may oscillate in ?b
+		?a: Both populations
+		?b: antiphase
+
+
+label:    sent_2
+sentence: Previously , we have reported that circadian clock genes oscillate in human mononuclear cells .
+
+ppatt:
+	Previously , ?a have reported ?b
+		?a: we
+		?b: SOMETHING := circadian clock genes oscillate in human mononuclear cells
+	?a oscillate in ?b
+		?a: circadian clock genes
+		?b: human mononuclear cells
+
+
+label:    sent_3
+sentence: The MD-derived density was found to oscillate over the length of ca . Many intracellular processes continue to oscillate during the cell cycle .
+
+ppatt:
+	?a was found to oscillate over ?b
+		?a: The MD-derived density
+		?b: the length of ca
+	?a continue to oscillate during ?b
+		?a: Many intracellular processes
+		?b: the cell cycle
+
+
+label:    sent_4
+sentence: These beliefs appear to oscillate between seemingly contrasting poles .
+
+ppatt:
+	?a appear to oscillate between ?b
+		?a: These beliefs
+		?b: seemingly contrasting poles
+
+
+label:    sent_5
+sentence: Kinetochores oscillate to and fro on the mitotic spindle .
+
+ppatt:
+	?a oscillate ?b on ?c
+		?a: Kinetochores
+		?b: to
+		?c: the mitotic spindle
+	?a oscillate ?b on ?c
+		?a: Kinetochores
+		?b: fro
+		?c: the mitotic spindle
+
+
+label:    sent_6
+sentence: They oscillate between the two cell poles and thereby prevent division at these locations . DGGE fragments oscillate with or counter to fluctuations in cultivable bacteria along wheat roots .
+
+ppatt:
+	?a oscillate between ?b
+		?a: They
+		?b: the two cell poles
+	?a thereby prevent ?b
+		?a: They
+		?b: division at these locations
+	?a oscillate ?b to ?c
+		?a: DGGE fragments
+		?b: with
+		?c: fluctuations in cultivable bacteria along wheat roots
+	?a counter
+		?a: DGGE fragments
+
+
+label:    sent_7
+sentence: Modeling the cell cycle : why do certain circuits oscillate ? It is well known that overdamped unforced dynamical systems do not oscillate .
+
+ppatt:
+	Modeling ?a ?b
+		?a: the cell cycle
+		?b: It
+	?a oscillate
+		?a: certain circuits
+	?a is well known ?b
+		?a: It
+		?b: SOMETHING := overdamped unforced dynamical systems do not oscillate
+	?a do not oscillate
+		?a: overdamped unforced dynamical systems
+
+
+label:    sent_8
+sentence: Furthermore , the estimated residue functions often oscillate . LLO-formed pores are transient and oscillate between open and closed states .
+
+ppatt:
+	Furthermore , ?a often oscillate
+		?a: the estimated residue functions
+	?a are transient
+		?a: LLO-formed pores
+	?a oscillate ?b
+		?a: LLO-formed pores
+		?b: between open and closed states
+
+
+label:    sent_9
+sentence: Double phase-conjugate mirror : to oscillate , or not to oscillate ? If the subjects become sleepy or fatigued , their pupils become miotic and oscillate .
+
+ppatt:
+	?a oscillate
+		?a: Double phase-conjugate mirror
+	?a not to oscillate
+		?a: Double phase-conjugate mirror
+	?a become sleepy
+		?a: the subjects
+	?a become fatigued
+		?a: the subjects
+	?a ?b become miotic
+		?a: Double phase-conjugate mirror : to oscillate , or not to oscillate
+		?b: their pupils
+	?a oscillate
+		?a: Double phase-conjugate mirror : to oscillate , or not to oscillate
+
+
+label:    sent_10
+sentence: In order for a system to oscillate it must have two stable states .
+
+ppatt:
+	?a oscillate ?b
+		?a: a system
+		?b: it
+	must have ?a
+		?a: two stable states
+
+
+label:    sent_11
+sentence: Nine right-handed students had to oscillate two pendulums through wrist adduction-abduction movements .
+
+ppatt:
+	?a had to oscillate ?b through ?c
+		?a: Nine right-handed students
+		?b: two pendulums
+		?c: wrist adduction-abduction movements
+
+

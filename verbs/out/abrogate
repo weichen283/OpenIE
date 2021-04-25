@@ -1,0 +1,231 @@
+label:    sent_1
+sentence: Eradication of cancer stem cells to abrogate tumor growth is a new treatment modality .
+
+ppatt:
+	?a abrogate ?b
+		?a: Eradication of cancer stem cells
+		?b: tumor growth
+	?a is a new treatment modality
+		?a: Eradication of cancer stem cells to abrogate tumor growth
+
+
+label:    sent_2
+sentence: The mutant allele is also predicted to abrogate an HSF-2 binding site .
+
+ppatt:
+	?a is also predicted to abrogate ?b
+		?a: The mutant allele
+		?b: an HSF-2 binding site
+
+
+label:    sent_3
+sentence: Rituximab therapy seems to abrogate the aberrant B cell response .
+
+ppatt:
+	?a seems to abrogate ?b
+		?a: Rituximab therapy
+		?b: the aberrant B cell response
+
+
+label:    sent_4
+sentence: This would abrogate the risk of concealed nodes and possible future neurovascular compression . CCX771 administration did not abrogate these effects . Velcade , however , did not abrogate TMCH .
+
+ppatt:
+	?a would abrogate ?b
+		?a: This
+		?b: the risk of concealed nodes
+	?a would abrogate ?b
+		?a: This
+		?b: possible future neurovascular compression
+	?a did not abrogate ?b
+		?a: CCX771 administration
+		?b: these effects
+	?a however , did not abrogate ?b
+		?a: Velcade
+		?b: TMCH
+
+
+label:    sent_5
+sentence: We hypothesized that reducing mitochondrial hexokinase would abrogate ischemic preconditioning and disrupt myocardial function .
+
+ppatt:
+	?a hypothesized ?b
+		?a: We
+		?b: SOMETHING := that reducing mitochondrial hexokinase would abrogate ischemic preconditioning
+	?a would abrogate ?b
+		?a: reducing mitochondrial hexokinase
+		?b: ischemic preconditioning
+	?a disrupt ?b
+		?a: reducing mitochondrial hexokinase
+		?b: myocardial function
+
+
+label:    sent_6
+sentence: Both BLM and 53BP1 abrogate endogenous RAD51 foci formation and disrupt RAD51 polymerization .
+
+ppatt:
+	?a abrogate ?b
+		?a: BLM
+		?b: endogenous RAD51 foci formation
+	?a abrogate ?b
+		?a: 53BP1
+		?b: endogenous RAD51 foci formation
+	?a disrupt ?b
+		?a: BLM
+		?b: RAD51 polymerization
+	?a disrupt ?b
+		?a: 53BP1
+		?b: RAD51 polymerization
+
+
+label:    sent_7
+sentence: It follows that factors reducing inflammation would abrogate cancer and restore tissue health .
+
+ppatt:
+	?a follows ?b
+		?a: It
+		?b: SOMETHING := factors reducing inflammation would abrogate cancer
+	?a reducing ?b
+		?a: factors
+		?b: inflammation
+	?a would abrogate ?b
+		?a: factors reducing inflammation
+		?b: cancer
+	?a restore ?b
+		?a: factors reducing inflammation
+		?b: tissue health
+
+
+label:    sent_8
+sentence: Irradiation of the blood reduced but did not abrogate its capacity to induce suppression .
+
+ppatt:
+	?a reduced
+		?a: Irradiation of the blood
+	?a did not abrogate ?b
+		?a: Irradiation of the blood
+		?b: its capacity to induce suppression
+	?a induce ?b
+		?a: its capacity
+		?b: suppression
+
+
+label:    sent_9
+sentence: Loss of CD4 decreases , but does not completely abrogate this reactivity . Structural alterations are not tolerated and abrogate translocon function .
+
+ppatt:
+	?a decreases
+		?a: Loss of CD4
+	?a does not completely abrogate ?b
+		?a: Loss of CD4
+		?b: this reactivity
+	?a are not tolerated
+		?a: Structural alterations
+	?a abrogate ?b
+		?a: Structural alterations
+		?b: translocon function
+
+
+label:    sent_10
+sentence: CD34+ cells expanded ex vivo can abrogate absolute and severe neutropenia after high-dose therapy .
+
+ppatt:
+	?a expanded ex vivo
+		?a: CD34+ cells
+	?a can abrogate ?b after ?c
+		?a: CD34+ cells expanded ex vivo
+		?b: absolute and severe neutropenia
+		?c: high-dose therapy
+
+
+label:    sent_11
+sentence: Lymphoma allografts abrogate immune privilege within the anterior chamber of the eye .
+
+ppatt:
+	?a abrogate ?b within ?c
+		?a: Lymphoma allografts
+		?b: immune privilege
+		?c: the anterior chamber of the eye
+
+
+label:    sent_12
+sentence: In competition binding experiments , bovine and human haemoglobin could abrogate binding . 2-PMPA was found to abrogate gp120IIIB-induced toxicity in a dose-dependent manner .
+
+ppatt:
+	In ?a , ?b could abrogate ?c
+		?a: competition binding experiments
+		?b: bovine and human haemoglobin
+		?c: binding
+	?a was found to abrogate ?b in ?c
+		?a: 2-PMPA
+		?b: gp120IIIB-induced toxicity
+		?c: a dose-dependent manner
+
+
+label:    sent_13
+sentence: Quercetin can also upregulate proteins that abrogate free radical damage , such as p53 .
+
+ppatt:
+	?a can also upregulate ?b
+		?a: Quercetin
+		?b: proteins that abrogate free radical damage , such as p53
+	?a abrogate ?b
+		?a: proteins
+		?b: free radical damage , such as p53
+
+
+label:    sent_14
+sentence: Current treatments abrogate or suppress disease symptoms but are not curative .
+
+ppatt:
+	?a abrogate ?b
+		?a: Current treatments
+		?b: disease symptoms
+	?a suppress
+		?a: Current treatments
+
+
+label:    sent_15
+sentence: Several conditions occur which abrogate or restrict the tumoricidal activity of macrophages .
+
+ppatt:
+	?a occur ?b
+		?a: Several conditions
+		?b: SOMETHING := which abrogate the tumoricidal activity of macrophages
+	?a abrogate ?b
+		?a: which
+		?b: the tumoricidal activity of macrophages
+	?a restrict
+		?a: which
+
+
+label:    sent_16
+sentence: Castration and ovariectomy do not abrogate or modify the suppression .
+
+ppatt:
+	?a do not abrogate ?b
+		?a: Castration
+		?b: the suppression
+	?a do not abrogate ?b
+		?a: ovariectomy
+		?b: the suppression
+	?a modify
+		?a: Castration
+	?a modify
+		?a: ovariectomy
+
+
+label:    sent_17
+sentence: We report protease inhibitors that can abrogate or delay granule-mediated cytolysis .
+
+ppatt:
+	?a report ?b
+		?a: We
+		?b: protease inhibitors that can abrogate or delay granule-mediated cytolysis
+	?a can abrogate ?b
+		?a: protease inhibitors
+		?b: granule-mediated cytolysis
+	?a delay
+		?a: that
+
+

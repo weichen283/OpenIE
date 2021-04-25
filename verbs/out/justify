@@ -1,0 +1,292 @@
+label:    sent_1
+sentence: Equipoise of outcome is sufficient to justify the laparoscopic approach for colorectal cancers .
+
+ppatt:
+	?a is sufficient to justify ?b
+		?a: Equipoise of outcome
+		?b: the laparoscopic approach for colorectal cancers
+
+
+label:    sent_2
+sentence: Women aged >=18 years with symptomatic fibroids who were considered to justify surgical treatment .
+
+ppatt:
+	aged ?a
+		?a: >=18 years with symptomatic fibroids
+	?a were considered to justify ?b
+		?a: Women aged >=18 years with symptomatic fibroids
+		?b: surgical treatment
+
+
+label:    sent_3
+sentence: The time has come to further investigate and justify this management .
+
+ppatt:
+	?a has come to further investigate ?b
+		?a: The time
+		?b: this management
+	?a has come to justify
+		?a: The time
+
+
+label:    sent_4
+sentence: These findings justify further clinical trials concerning thyrosine kinase inhibitors as future PAH therapies .
+
+ppatt:
+	?a justify ?b as ?c
+		?a: These findings
+		?b: further clinical trials concerning thyrosine kinase inhibitors
+		?c: future PAH therapies
+
+
+label:    sent_5
+sentence: The new QTLs reported justify new candidate gene studies .
+
+ppatt:
+	?a reported
+		?a: The new QTLs
+	?a justify ?b
+		?a: The new QTLs reported
+		?b: new candidate gene studies
+
+
+label:    sent_6
+sentence: Favorable neurological outcomes following microsurgical resection justify an aggressive surgical attitude toward these lesions .
+
+ppatt:
+	?a justify ?b
+		?a: Favorable neurological outcomes following microsurgical resection
+		?b: an aggressive surgical attitude toward these lesions
+
+
+label:    sent_7
+sentence: Presently available information and the important health challenge justify enhanced research in the field .
+
+ppatt:
+	?a justify ?b
+		?a: Presently available information
+		?b: enhanced research in the field
+	?a justify ?b
+		?a: the important health challenge
+		?b: enhanced research in the field
+
+
+label:    sent_8
+sentence: Current shortage of nurses and turnover justify more research efforts on job satisfaction .
+
+ppatt:
+	?a justify ?b
+		?a: Current shortage of nurses and turnover
+		?b: more research efforts on job satisfaction
+
+
+label:    sent_9
+sentence: These associations justify continued investigation in other large clinical trials of brainstem glioma patients .
+
+ppatt:
+	?a justify ?b
+		?a: These associations
+		?b: continued investigation in other large clinical trials of brainstem glioma patients
+
+
+label:    sent_10
+sentence: Anyway other studies are necessary to justify a similar assertion in women with PCOS .
+
+ppatt:
+	Anyway ?a are necessary to justify ?b
+		?a: other studies
+		?b: a similar assertion in women with PCOS
+
+
+label:    sent_11
+sentence: Evidence is needed to justify this change in treatment approach .
+
+ppatt:
+	?a is needed to justify ?b
+		?a: Evidence
+		?b: this change in treatment approach
+
+
+label:    sent_12
+sentence: These results appear to justify endovascular repair for this patient population .
+
+ppatt:
+	?a appear to justify ?b
+		?a: These results
+		?b: endovascular repair for this patient population
+
+
+label:    sent_13
+sentence: The difficulty lies in our failure to define and justify a criterion for optimality . Dermatologic conditions are common in the newborns and may justify dermatologic examination .
+
+ppatt:
+	?a lies in ?b
+		?a: The difficulty
+		?b: our failure to define and justify a criterion for optimality
+	?a define
+		?a: our failure
+	justify ?a
+		?a: a criterion for optimality
+	?a are common in ?b
+		?a: Dermatologic conditions
+		?b: the newborns
+	?a may justify ?b
+		?a: Dermatologic conditions
+		?b: dermatologic examination
+
+
+label:    sent_14
+sentence: Describe and justify the regression model used .
+
+ppatt:
+	Describe ?a
+		?a: the regression model used
+	justify ?a
+		?a: the regression model used
+	?a used
+		?a: the regression model
+
+
+label:    sent_15
+sentence: Our results justify attempts to reconstruct the ileocaecal valve .
+
+ppatt:
+	?a justify ?b
+		?a: Our results
+		?b: attempts to reconstruct the ileocaecal valve
+	?a reconstruct ?b
+		?a: attempts
+		?b: the ileocaecal valve
+
+
+label:    sent_16
+sentence: The variety of DCI definitions did not justify pooling the DCI data . Can we justify living donor islet transplantation ? Higher sensitivities for three-dimensional displays may justify the additional computation and review time .
+
+ppatt:
+	?a did not justify pooling ?b
+		?a: The variety of DCI definitions
+		?b: the DCI data
+	Can ?a justify ?b
+		?a: we
+		?b: living donor islet transplantation
+	?a may justify ?b
+		?a: Higher sensitivities for three-dimensional displays
+		?b: the additional computation
+	?a may justify ?b
+		?a: Higher sensitivities for three-dimensional displays
+		?b: review time
+
+
+label:    sent_17
+sentence: Evidence to justify estrogen use for coronary vascular disease and depression does not exist .
+
+ppatt:
+	?a justify ?b
+		?a: Evidence
+		?b: estrogen use for coronary vascular disease and depression
+	?a does not exist
+		?a: Evidence to justify estrogen use for coronary vascular disease and depression
+
+
+label:    sent_18
+sentence: They do not justify prophylactic surgery , but surveillance is required .
+
+ppatt:
+	?a do not justify ?b
+		?a: They
+		?b: prophylactic surgery
+	?a is required
+		?a: surveillance
+
+
+label:    sent_19
+sentence: In addition , they justify the effort to install and maintain such a system .
+
+ppatt:
+	In ?a , ?b justify ?c
+		?a: addition
+		?b: they
+		?c: the effort to install and maintain such a system
+	?a install ?b
+		?a: the effort
+		?b: such a system
+	maintain ?a
+		?a: such a system
+
+
+label:    sent_20
+sentence: The techniques are costly and justify efforts to improve selection of high risk patients .
+
+ppatt:
+	?a are costly
+		?a: The techniques
+	?a justify ?b
+		?a: The techniques
+		?b: efforts to improve selection of high risk patients
+	?a improve ?b
+		?a: efforts
+		?b: selection of high risk patients
+
+
+label:    sent_21
+sentence: However , there are very few clinical data to justify or refute these claims .
+
+ppatt:
+	However , there are ?a to justify ?b
+		?a: very few clinical data
+		?b: these claims
+	However , there are ?a to refute
+		?a: very few clinical data
+
+
+label:    sent_22
+sentence: Moreover , it discursively constructs realities that justify and sustain medial dominance .
+
+ppatt:
+	Moreover , ?a discursively constructs realities
+		?a: it
+	?a justify ?b
+		?a: Moreover , discursively constructs realities
+		?b: medial dominance
+	?a sustain
+		?a: that
+
+
+label:    sent_23
+sentence: We conclude that MAR is difficult to justify in practical applications .
+
+ppatt:
+	?a conclude ?b
+		?a: We
+		?b: SOMETHING := MAR is difficult to justify in practical applications
+	?a is difficult to justify in ?b
+		?a: MAR
+		?b: practical applications
+
+
+label:    sent_24
+sentence: A prospective randomized multicenter study to justify EVPAR in the emergent setting is warranted .
+
+ppatt:
+	?a justify ?b in ?c
+		?a: A prospective randomized multicenter study
+		?b: EVPAR
+		?c: the emergent setting
+	?a is warranted
+		?a: A prospective randomized multicenter study to justify EVPAR in the emergent setting
+
+
+label:    sent_25
+sentence: TEM is a sensitive tool used to justify on the microstructure and surface morphology .
+
+ppatt:
+	?a is a sensitive tool
+		?a: TEM
+	?a used to justify on ?b
+		?a: a sensitive tool
+		?b: the microstructure
+	?a used to justify on ?b
+		?a: a sensitive tool
+		?b: surface morphology
+
+

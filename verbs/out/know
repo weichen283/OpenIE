@@ -1,0 +1,232 @@
+label:    sent_1
+sentence: Sudden infant death syndrome : how much mothers and health professionals know .
+
+ppatt:
+
+
+
+label:    sent_2
+sentence: We do not know when to treat a patient conservatively or surgically .
+
+ppatt:
+	?a do not know when to treat ?b conservatively or surgically
+		?a: We
+		?b: a patient
+
+
+label:    sent_3
+sentence: Physicians must know how to use calcineurin inhibitors to obtain maximum efficacy . Some information that you may want to know .. . This means that we need not know the nonlinear mappings explicitly . 2 ) To know the pharmacological therapy used to attain the control .
+
+ppatt:
+	?a must know how to use ?b to obtain ?c ?d
+		?a: Physicians
+		?b: calcineurin inhibitors
+		?c: maximum efficacy
+		?d: Some information that you may want to know .. This means that we need not know the nonlinear mappings explicitly To know the pharmacological therapy used to attain the control
+	?a may want to know ?b ?c ?d
+		?a: you
+		?b: ..
+		?c: This means
+		?d: SOMETHING := we need not know the nonlinear mappings explicitly To know the pharmacological therapy used to attain the control
+	?a need not know ?b explicitly To know ?c
+		?a: we
+		?b: the nonlinear mappings
+		?c: the pharmacological therapy used to attain the control
+	?a used to attain ?b
+		?a: the pharmacological therapy
+		?b: the control
+
+
+label:    sent_4
+sentence: Erosions versus joint space narrowing in rheumatoid arthritis : what do we know ? Lymphangioleiomyomatosis : what do we know and what are we looking for ? Propofol and children -- what we know and what we do not know .
+
+ppatt:
+	?a do ?b know
+		?a: what
+		?b: we
+	?a are ?b looking for ?c
+		?a: what
+		?b: we
+		?c: Propofol
+	?a are ?b looking for ?c
+		?a: what
+		?b: we
+		?c: children
+	?a ?b know
+		?a: what
+		?b: we
+	?a ?b do not know
+		?a: what
+		?b: we
+
+
+label:    sent_5
+sentence: Most surgeons know little about the history and science of sutures .
+
+ppatt:
+	?a know little about ?b
+		?a: Most surgeons
+		?b: the history of sutures
+	?a know little about ?b
+		?a: Most surgeons
+		?b: science
+
+
+label:    sent_6
+sentence: Why should gastroenterologists know about fibromyalgia ? However , little is know about these cells in domestic animals .
+
+ppatt:
+	Why should ?a know about ?b
+		?a: gastroenterologists
+		?b: fibromyalgia
+	However , ?a is know about ?b in ?c
+		?a: little
+		?b: these cells
+		?c: domestic animals
+
+
+label:    sent_7
+sentence: What do Brazilian pediatricians know about celiac disease ? People 's hypercorrection of high-confidence errors : did they know it all along ? What do surgical oncology staff nurses know about colorectal cancer ostomy care ?
+
+ppatt:
+	?a do ?b know about ?c
+		?a: What
+		?b: Brazilian pediatricians
+		?c: celiac disease ? People 's hypercorrection of high-confidence errors
+	did ?a know ?b ?c along ?d
+		?a: they
+		?b: it
+		?c: all
+		?d: SOMETHING := What do
+	?a do
+		?a: What
+	?a know about ?b
+		?a: surgical oncology staff nurses
+		?b: colorectal cancer ostomy care
+
+
+label:    sent_8
+sentence: The aim of this study was describe what pediatricians in Brazil know about CD .
+
+ppatt:
+	?a was describe ?b
+		?a: The aim of this study
+		?b: SOMETHING := pediatricians in Brazil know about CD
+	?a know ?b
+		?a: pediatricians in Brazil
+		?b: about CD
+
+
+label:    sent_9
+sentence: What does the urologist need to know about anesthesia ? What finance needs to know about using technology to improve value . Q&A : who is H. sapiens really , and how do we know ? Co-pollinators have been reported , but we do not yet know how they evolve . [Bronchiolitis .
+
+ppatt:
+	What does ?a
+		?a: the urologist need to know about anesthesia What finance needs to know about using technology to improve value . Q&A who is H. sapiens really
+	?a know about ?b
+		?a: the urologist need What finance needs to know about using technology to improve value . Q&A who is H. sapiens really
+		?b: anesthesia
+	?a ?b ?c needs to know to improve ?d really
+		?a: the urologist need to know about anesthesia
+		?b: What
+		?c: finance
+		?d: value
+	?a using ?b ?c
+		?a: finance
+		?b: technology
+		?c: Q&A who is H. sapiens
+	?a is ?b sapiens
+		?a: Q&A
+		?b: H.
+	how do ?a know
+		?a: we
+	?a have been reported
+		?a: Co-pollinators
+	?a do not yet know ?b
+		?a: we
+		?b: SOMETHING := how they evolve . [Bronchiolitis
+	how ?a evolve ?b
+		?a: they
+		?b: [Bronchiolitis
+
+
+label:    sent_10
+sentence: We know what is the reason and how to treat ] . Medical doctors have a responsibility to know the facts and to advise their patients .
+
+ppatt:
+	?a know ?b ?c
+		?a: We
+		?b: SOMETHING := what is the reason and how to treat ]
+		?c: SOMETHING := Medical doctors have a responsibility to know the facts and to advise their patients
+	?a is the reason
+		?a: what
+	?a how to treat ?b
+		?a: the reason
+		?b: ]
+	?a have ?b
+		?a: Medical doctors
+		?b: a responsibility to know the facts and to advise their patients
+	?a know ?b
+		?a: a responsibility
+		?b: the facts
+	advise ?a
+		?a: their patients
+
+
+label:    sent_11
+sentence: Do school-age children remember or know the personal past ? Are we wasting our time and do n't know it ? Endoscopy , but not as we know it . What do animals know or learn about the benefits of cooperation ? All science has its limitations and we can never know all possible contextual information .
+
+ppatt:
+	?a remember ?b
+		?a: school-age children
+		?b: the personal past
+	?a know
+		?a: school-age children
+	Are ?a wasting ?b
+		?a: we
+		?b: our time
+	?a do n't know ?b ? ?c
+		?a: we
+		?b: it
+		?c: Endoscopy
+	not as ?a know ?b ?c
+		?a: we
+		?b: it
+		?c: SOMETHING := What do animals know about the benefits of cooperation
+	?a do ?b know about ?c
+		?a: What
+		?b: animals
+		?c: the benefits of cooperation
+	?a learn
+		?a: What
+	?a has ?b
+		?a: All science
+		?b: its limitations
+	?a can never know ?b
+		?a: we
+		?b: all possible contextual information
+
+
+label:    sent_12
+sentence: Co-publication-what you always wanted to know but have been afraid to ask ! The production of the master in turn calls for special equipment and know how . Nurses : what you need to know and do about hepatitis C .
+
+ppatt:
+	?a ?b always wanted to know
+		?a: Co-publication-what
+		?b: you
+	?a in ?b calls for ?c how
+		?a: The production of the master
+		?b: turn
+		?c: special equipment
+	?a know ?b
+		?a: Co-publication-what
+		?b: Nurses what you need to know and do about hepatitis C
+	?a ?b ?c need to know about ?d
+		?a: Nurses
+		?b: what
+		?c: you
+		?d: hepatitis C
+	?a need to do
+		?a: you
+
+

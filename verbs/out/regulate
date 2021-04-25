@@ -1,0 +1,328 @@
+label:    sent_1
+sentence: Dox could effectively regulate bFGF expression , thus controlling MSC differentiation .
+
+ppatt:
+	?a could effectively regulate ?b
+		?a: Dox
+		?b: bFGF expression
+	?a thus controlling ?b
+		?a: Dox
+		?b: MSC differentiation
+
+
+label:    sent_2
+sentence: Dox may also effectively regulate angiogenesis and bone regeneration in vivo .
+
+ppatt:
+	?a may also effectively regulate ?b in vivo
+		?a: Dox
+		?b: angiogenesis
+	?a may also effectively regulate ?b in vivo
+		?a: Dox
+		?b: bone regeneration
+
+
+label:    sent_3
+sentence: Cell shape and substrate rigidity both regulate cell stiffness .
+
+ppatt:
+	?a regulate ?b
+		?a: Cell shape
+		?b: cell stiffness
+	?a regulate ?b
+		?a: substrate rigidity
+		?b: cell stiffness
+
+
+label:    sent_4
+sentence: In the current study , BJBDT was demonstrated to regulate hematopoiesis . TRIM-9 functions in the UNC-6 / UNC-40 pathway to regulate ventral guidance .
+
+ppatt:
+	In ?a , ?b was demonstrated to regulate ?c ?d to regulate ?e
+		?a: the current study
+		?b: BJBDT
+		?c: hematopoiesis
+		?d: TRIM-9 functions in the UNC-6 / UNC-40 pathway
+		?e: ventral guidance
+
+
+label:    sent_5
+sentence: Specific insulin-like peptides encode sensory information to regulate distinct developmental processes .
+
+ppatt:
+	?a encode ?b
+		?a: Specific insulin-like peptides
+		?b: sensory information to regulate distinct developmental processes
+	?a regulate ?b
+		?a: sensory information
+		?b: distinct developmental processes
+
+
+label:    sent_6
+sentence: Extracellular nucleosides and nucleotides regulate liver functions via a complex system of membrane proteins .
+
+ppatt:
+	?a regulate ?b via ?c
+		?a: Extracellular nucleosides
+		?b: liver functions
+		?c: a complex system of membrane proteins
+	?a regulate ?b via ?c
+		?a: nucleotides
+		?b: liver functions
+		?c: a complex system of membrane proteins
+
+
+label:    sent_7
+sentence: Calcineurin may regulate multiple endocytic processes in C. elegans . MicroRNAs are small noncoding RNAs that negatively regulate target mRNAs at the posttranscription level .
+
+ppatt:
+	?a may regulate ?b
+		?a: Calcineurin
+		?b: multiple endocytic processes in C. elegans
+	?a are small noncoding RNAs
+		?a: MicroRNAs
+	?a negatively regulate ?b at ?c
+		?a: small noncoding RNAs
+		?b: target mRNAs
+		?c: the posttranscription level
+
+
+label:    sent_8
+sentence: Tropomodulins ( Tmods ) regulate polymerization at actin filament pointed ends . LIN-28 co-transcriptionally binds primary let-7 to regulate miRNA maturation in Caenorhabditis elegans . RhoGTPase appears to regulate both cell adhesions and protrusive forces during NCC delamination .
+
+ppatt:
+	?a is/are Tmods
+		?a: Tropomodulins
+	?a regulate ?b
+		?a: Tropomodulins
+		?b: polymerization at actin filament pointed ends
+	?a pointed ?b
+		?a: actin filament
+		?b: ends
+	?a co-transcriptionally binds ?b to regulate ?c
+		?a: LIN-28
+		?b: primary let-7
+		?c: miRNA maturation in Caenorhabditis elegans
+	?a appears to regulate ?b during ?c
+		?a: RhoGTPase
+		?b: cell adhesions
+		?c: NCC delamination
+	?a appears to regulate ?b during ?c
+		?a: RhoGTPase
+		?b: protrusive forces
+		?c: NCC delamination
+
+
+label:    sent_9
+sentence: Post-translational modifications of TF may regulate signaling but this remains elusive .
+
+ppatt:
+	?a may regulate ?b
+		?a: Post-translational modifications of TF
+		?b: signaling
+	?a remains elusive
+		?a: this
+
+
+label:    sent_10
+sentence: Arginine methylation can regulate protein import and export and can modulate protein interactions .
+
+ppatt:
+	?a can regulate ?b
+		?a: Arginine methylation
+		?b: protein
+	?a can modulate ?b
+		?a: Arginine methylation
+		?b: protein interactions
+
+
+label:    sent_11
+sentence: Local sFlt-1 may regulate angiogenic potential and thereby influence adipose tissue mass . Retinoic acids ( RAs ) have diverse biologic effects and regulate several cellular functions .
+
+ppatt:
+	?a may regulate ?b
+		?a: Local sFlt-1
+		?b: angiogenic potential
+	?a thereby influence ?b
+		?a: Local sFlt-1
+		?b: adipose tissue mass
+	?a is/are RAs
+		?a: Retinoic acids
+	?a have ?b
+		?a: Retinoic acids
+		?b: diverse biologic effects
+	?a regulate ?b
+		?a: Retinoic acids
+		?b: several cellular functions
+
+
+label:    sent_12
+sentence: The HIFs are nonredundant and regulate both overlapping and unique downstream target genes .
+
+ppatt:
+	?a are nonredundant
+		?a: The HIFs
+	?a regulate ?b
+		?a: The HIFs
+		?b: both overlapping and unique downstream target genes
+
+
+label:    sent_13
+sentence: Protein conformational switches are ubiquitous in nature and often regulate key biological processes .
+
+ppatt:
+	?a are ubiquitous in ?b
+		?a: Protein conformational switches
+		?b: nature
+	?a often regulate ?b
+		?a: Protein conformational switches
+		?b: key biological processes
+
+
+label:    sent_14
+sentence: Physiologic mechanisms regulate hemodynamics during exercise and in heart failure .
+
+ppatt:
+	?a regulate ?b during ?c
+		?a: Physiologic mechanisms
+		?b: hemodynamics
+		?c: exercise
+	?a regulate ?b during ?c
+		?a: Physiologic mechanisms
+		?b: hemodynamics
+		?c: heart failure
+
+
+label:    sent_15
+sentence: They regulate sense genes at multiple levels and are implicated in various diseases .
+
+ppatt:
+	?a regulate ?b at ?c
+		?a: They
+		?b: sense genes
+		?c: multiple levels
+	?a are implicated in ?b
+		?a: They
+		?b: various diseases
+
+
+label:    sent_16
+sentence: In endothelial cells , these forces regulate junction dynamics and determine endothelial barrier strength .
+
+ppatt:
+	In ?a , ?b regulate ?c
+		?a: endothelial cells
+		?b: these forces
+		?c: junction dynamics
+	?a determine ?b
+		?a: these forces
+		?b: endothelial barrier strength
+
+
+label:    sent_17
+sentence: These data also provide a mechanism by which symbiont MAMPs regulate host development .
+
+ppatt:
+	?a also provide ?b
+		?a: These data
+		?b: a mechanism by which symbiont MAMPs regulate host development
+	?a by ?b regulate ?c
+		?a: a mechanism
+		?b: symbiont MAMPs
+		?c: host development
+
+
+label:    sent_18
+sentence: The mechanisms by which hormonal signals regulate FOXO deacetylation remain unclear , however .
+
+ppatt:
+	?a by ?b regulate ?c
+		?a: The mechanisms
+		?b: hormonal signals
+		?c: FOXO deacetylation
+	?a remain unclear , however
+		?a: The mechanisms by which hormonal signals regulate FOXO deacetylation
+
+
+label:    sent_19
+sentence: However , the mechanisms by which retinoids regulate this process are poorly understood .
+
+ppatt:
+	?a by ?b regulate ?c
+		?a: the mechanisms
+		?b: retinoids
+		?c: this process
+	However , ?a are poorly understood
+		?a: the mechanisms by which retinoids regulate this process
+
+
+label:    sent_20
+sentence: To what extent do postmitotic neurons regulate gene expression during development or after injury ? Prohibitins function as endogenous ligands for Siglec-9 and negatively regulate TCR signaling upon ligation .
+
+ppatt:
+	?a regulate ?b during ?c
+		?a: extent
+		?b: gene expression
+		?c: development
+	?a regulate ?b during ?c
+		?a: extent
+		?b: gene expression
+		?c: injury
+	?a function as ?b
+		?a: Prohibitins
+		?b: endogenous ligands for Siglec-9
+	?a negatively regulate ?b upon ?c
+		?a: Prohibitins
+		?b: TCR signaling
+		?c: ligation
+
+
+label:    sent_21
+sentence: MTAL cells swell in hyposmotic medium and regulate volume back toward the starting volume .
+
+ppatt:
+	?a swell in ?b
+		?a: MTAL cells
+		?b: hyposmotic medium
+	?a regulate ?b back toward ?c
+		?a: MTAL cells
+		?b: volume
+		?c: the starting volume
+
+
+label:    sent_22
+sentence: We conclude that SHR vasculature must regulate the channel postranscriptionally .
+
+ppatt:
+	?a conclude ?b
+		?a: We
+		?b: SOMETHING := SHR vasculature must regulate the channel postranscriptionally
+	?a must regulate ?b postranscriptionally
+		?a: SHR vasculature
+		?b: the channel
+
+
+label:    sent_23
+sentence: Identification of additional genes that regulate LSC self-renewal may provide new targets for therapy .
+
+ppatt:
+	?a regulate ?b
+		?a: additional genes
+		?b: LSC self-renewal
+	?a may provide ?b
+		?a: Identification of additional genes that regulate LSC self-renewal
+		?b: new targets for therapy
+
+
+label:    sent_24
+sentence: Sex steroid hormones regulate various neural functions that control vertebrate sociosexual behavior .
+
+ppatt:
+	?a regulate ?b
+		?a: Sex steroid hormones
+		?b: various neural functions that control vertebrate sociosexual behavior
+	?a control ?b
+		?a: various neural functions
+		?b: vertebrate sociosexual behavior
+
+

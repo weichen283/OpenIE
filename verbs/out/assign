@@ -1,0 +1,299 @@
+label:    sent_1
+sentence: Addresses were geocoded and used to assign air pollution exposures from spatiotemporal statistical models .
+
+ppatt:
+	?a were geocoded
+		?a: Addresses
+	?a used to assign ?b from ?c
+		?a: Addresses
+		?b: air pollution exposures
+		?c: spatiotemporal statistical models
+
+
+label:    sent_2
+sentence: The estimated parameters are used to assign a spectrum-specific P-value to each peptide-spectrum match .
+
+ppatt:
+	?a are used to assign ?b to ?c
+		?a: The estimated parameters
+		?b: a spectrum-specific P-value
+		?c: each peptide-spectrum match
+
+
+label:    sent_3
+sentence: Randomised trials use the play of chance to assign participants to comparison groups .
+
+ppatt:
+	?a use ?b
+		?a: Randomised trials
+		?b: the play of chance to assign participants to comparison groups
+	?a assign ?b
+		?a: the play of chance
+		?b: participants to comparison groups
+
+
+label:    sent_4
+sentence: Both non-hierarchical and hierarchical approaches were used to assign causes of stillbirths .
+
+ppatt:
+	?a were used to assign ?b
+		?a: Both non-hierarchical and hierarchical approaches
+		?b: causes of stillbirths
+
+
+label:    sent_5
+sentence: The online typing-tools reliably assign genotypes for enteroviruses and noroviruses .
+
+ppatt:
+	?a reliably assign ?b
+		?a: The online typing-tools
+		?b: genotypes for enteroviruses and noroviruses
+
+
+label:    sent_6
+sentence: Using NMR spectroscopic methods to determine enantiomeric purity and assign absolute stereochemistry .
+
+ppatt:
+	Using ?a
+		?a: NMR spectroscopic methods
+	determine ?a
+		?a: enantiomeric purity
+	assign ?a
+		?a: absolute stereochemistry
+
+
+label:    sent_7
+sentence: We noticed that Drosophila do not assign nutritional values to all sweet chemicals . Global gene disruption in human cells to assign genes to phenotypes by deep sequencing .
+
+ppatt:
+	?a noticed ?b
+		?a: We
+		?b: SOMETHING := Drosophila do not assign nutritional values to all sweet chemicals . Global gene disruption in human cells to assign genes to phenotypes by deep sequencing
+	?a do not assign ?b . ?c to assign ?d to ?e by ?f
+		?a: Drosophila
+		?b: nutritional values to all sweet chemicals
+		?c: Global gene disruption in human cells
+		?d: genes
+		?e: phenotypes
+		?f: deep sequencing
+
+
+label:    sent_8
+sentence: Our analysis does not assign probabilities to scenarios or weights to models .
+
+ppatt:
+	?a does not assign ?b
+		?a: Our analysis
+		?b: probabilities to scenarios or weights to models
+
+
+label:    sent_9
+sentence: Tentatively we assign the short and long-lifetime components to Trp-333 and Trp-308 .
+
+ppatt:
+	Tentatively ?a assign ?b
+		?a: we
+		?b: the short and long-lifetime components to Trp-333 and Trp-308
+
+
+label:    sent_10
+sentence: We also assign the locus for phosphoglycollate to the short arm of HC16 .
+
+ppatt:
+	?a also assign ?b
+		?a: We
+		?b: the locus for phosphoglycollate to the short arm of HC16
+
+
+label:    sent_11
+sentence: Hybrid H-2 histocompatibility gene products assign domains recognized by alloreactive T cells .
+
+ppatt:
+	?a assign ?b
+		?a: Hybrid H-2 histocompatibility gene products
+		?b: domains recognized by alloreactive T cells
+	?a recognized by ?b
+		?a: domains
+		?b: alloreactive T cells
+
+
+label:    sent_12
+sentence: A committee reviewed output to assign index weights and determine necessary adaptations .
+
+ppatt:
+	?a assign ?b
+		?a: A committee reviewed output
+		?b: index weights
+	determine ?a
+		?a: necessary adaptations
+
+
+label:    sent_13
+sentence: Establish a detailed project plan and assign tasks , responsibilities , and deadlines .
+
+ppatt:
+	Establish ?a
+		?a: a detailed project plan
+	assign ?a
+		?a: tasks
+	assign ?a
+		?a: responsibilities
+	assign ?a
+		?a: deadlines
+
+
+label:    sent_14
+sentence: The trial statistician will generate the random allocation sequence and assign clusters .
+
+ppatt:
+	?a will generate ?b
+		?a: The trial statistician
+		?b: the random allocation sequence
+	?a assign ?b
+		?a: The trial statistician
+		?b: clusters
+
+
+label:    sent_15
+sentence: We are aware of moods unconsciously and can assign colors to these moods .
+
+ppatt:
+	?a are aware of ?b unconsciously
+		?a: We
+		?b: moods
+	?a can assign ?b
+		?a: We
+		?b: colors to these moods
+
+
+label:    sent_16
+sentence: A rule-based score is used to merge and assign support to the results .
+
+ppatt:
+	?a is used to merge ?b to ?c
+		?a: A rule-based score
+		?b: support
+		?c: the results
+	?a is used to assign
+		?a: A rule-based score
+
+
+label:    sent_17
+sentence: Others dispute this and assign the functions of endothelial cells to the SLC .
+
+ppatt:
+	?a dispute ?b
+		?a: Others
+		?b: this
+	?a assign ?b
+		?a: Others
+		?b: the functions of endothelial cells to the SLC
+
+
+label:    sent_18
+sentence: Humans define the MeSH concepts and human indexers assign MeSH terms to MEDLINE records .
+
+ppatt:
+	?a define ?b
+		?a: Humans
+		?b: the MeSH concepts
+	?a define ?b
+		?a: Humans
+		?b: human indexers
+	?a assign ?b
+		?a: Humans
+		?b: MeSH terms to MEDLINE records
+
+
+label:    sent_19
+sentence: The energy parameters were optimized to correctly assign as many native complexes as possible .
+
+ppatt:
+	?a were optimized to correctly assign as ?b as ?c
+		?a: The energy parameters
+		?b: many native complexes
+		?c: possible
+
+
+label:    sent_20
+sentence: What is the best way to appropriately assign per diem nursing personnel ? Some forms of vasculitis are still difficult to assign to a specific disease entity .
+
+ppatt:
+	?a is the best way
+		?a: What
+	?a appropriately assign ?b
+		?a: the best way
+		?b: per diem nursing personnel
+	?a ?b are still difficult to assign to ?c
+		?a: What is the best way to appropriately assign per diem nursing personnel
+		?b: Some forms of vasculitis
+		?c: a specific disease entity
+
+
+label:    sent_21
+sentence: Five categories of appraisal were generated , and independent raters could assign these reliably .
+
+ppatt:
+	?a were generated
+		?a: Five categories of appraisal
+	?a could assign ?b reliably
+		?a: independent raters
+		?b: these
+
+
+label:    sent_22
+sentence: Hospital medical bylaws were revised and nurses now assign patient charges and transfers .
+
+ppatt:
+	?a were revised
+		?a: Hospital medical bylaws
+	?a now assign ?b
+		?a: nurses
+		?b: patient
+
+
+label:    sent_23
+sentence: We assign the species responsible for this absorption and fluorescence as NADPH .
+
+ppatt:
+	?a assign ?b
+		?a: We
+		?b: the species responsible for this absorption and fluorescence as NADPH
+
+
+label:    sent_24
+sentence: We then consider how males on sub-Arctic foraging grounds assign to these strata .
+
+ppatt:
+	?a then consider ?b
+		?a: We
+		?b: SOMETHING := how males on sub-Arctic foraging grounds assign to these strata
+	how ?a assign to ?b
+		?a: males on sub-Arctic foraging grounds
+		?b: these strata
+
+
+label:    sent_25
+sentence: In this way we could directly assign CRYB3 to chromosome 22 .
+
+ppatt:
+	In ?a ?b could directly assign ?c to ?d
+		?a: this way
+		?b: we
+		?c: CRYB3
+		?d: chromosome 22
+
+
+label:    sent_26
+sentence: All of these characters assign isolate YIM 80379T consistently to the genus Nocardiopsis .
+
+ppatt:
+	?a assign ?b consistently
+		?a: All of these characters
+		?b: SOMETHING := isolate YIM 80379T to the genus Nocardiopsis
+	?a isolate ?b to ?c
+		?a: All of these characters
+		?b: YIM 80379T
+		?c: the genus Nocardiopsis
+
+

@@ -1,0 +1,298 @@
+label:    sent_1
+sentence: Increases in extracellular potassium concentration are known to dilate cerebral arterioles .
+
+ppatt:
+	?a are known to dilate ?b
+		?a: Increases in extracellular potassium concentration
+		?b: cerebral arterioles
+
+
+label:    sent_2
+sentence: Prostaglandins may induce or inhibit platelet aggregation and constrict ro dilate blood vessels .
+
+ppatt:
+	?a may induce ?b
+		?a: Prostaglandins
+		?b: platelet aggregation
+	?a inhibit
+		?a: Prostaglandins
+	?a constrict ?b dilate ?c
+		?a: Prostaglandins
+		?b: ro
+		?c: blood vessels
+
+
+label:    sent_3
+sentence: At least 16 naturally occurring peptides either constrict or dilate blood vessels .
+
+ppatt:
+	?a either constrict ?b
+		?a: At least 16 naturally occurring peptides
+		?b: blood vessels
+	?a dilate
+		?a: At least 16 naturally occurring peptides
+
+
+label:    sent_4
+sentence: In addition , the arteries continued to dilate after US exposure .
+
+ppatt:
+	In ?a , ?b continued to dilate after ?c
+		?a: addition
+		?b: the arteries
+		?c: US exposure
+
+
+label:    sent_5
+sentence: Sixteen of the diabetic patients had pupils that failed to dilate normally in darkness .
+
+ppatt:
+	?a had ?b
+		?a: Sixteen of the diabetic patients
+		?b: pupils that failed to dilate normally in darkness
+	?a failed to dilate normally in ?b
+		?a: pupils
+		?b: darkness
+
+
+label:    sent_6
+sentence: However , 25 % of all pupils failed to dilate with epinephrine 1 :16,000 .
+
+ppatt:
+	However , ?a failed to dilate with ?b
+		?a: 25 % of all pupils
+		?b: epinephrine 1 :16,000
+
+
+label:    sent_7
+sentence: Large isolated CPCs may transiently dilate the fetal cerebral ventricles . Many ways to dilate the P2X7 receptor pore .
+
+ppatt:
+	?a may transiently dilate ?b ?c
+		?a: Large isolated CPCs
+		?b: the fetal cerebral ventricles
+		?c: Many ways to dilate the P2X7 receptor pore
+	?a dilate ?b
+		?a: Many ways
+		?b: the P2X7 receptor pore
+
+
+label:    sent_8
+sentence: Substituted adamantyl-urea inhibitors of the soluble epoxide hydrolase dilate mesenteric resistance vessels .
+
+ppatt:
+	?a dilate ?b
+		?a: Substituted adamantyl-urea inhibitors of the soluble epoxide hydrolase
+		?b: mesenteric resistance vessels
+
+
+label:    sent_9
+sentence: An angioplasty balloon was used to dilate 23 benign ureteral stenoses in 21 patients .
+
+ppatt:
+	?a was used to dilate ?b in ?c
+		?a: An angioplasty balloon
+		?b: 23 benign ureteral stenoses
+		?c: 21 patients
+
+
+label:    sent_10
+sentence: Dipyridamole is known to dilate coronary vessels without affecting appreciably the systemic circulation .
+
+ppatt:
+	?a is known to dilate ?b
+		?a: Dipyridamole
+		?b: coronary vessels
+	?a affecting appreciably ?b
+		?a: Dipyridamole
+		?b: the systemic circulation
+
+
+label:    sent_11
+sentence: The genioglossus moved anteriorly to dilate the upper airway during inspiration .
+
+ppatt:
+	?a moved anteriorly to dilate ?b during ?c
+		?a: The genioglossus
+		?b: the upper airway
+		?c: inspiration
+
+
+label:    sent_12
+sentence: In contrast , venules dilate only in response to prolonged stimulation .
+
+ppatt:
+	In ?a , ?b dilate only in ?c to ?d
+		?a: contrast
+		?b: venules
+		?c: response
+		?d: prolonged stimulation
+
+
+label:    sent_13
+sentence: Aortic necks of ruptured abdominal aneurysms dilate more than asymptomatic aneurysms after endovascular repair .
+
+ppatt:
+	?a dilate than ?b after ?c
+		?a: Aortic necks of ruptured abdominal aneurysms
+		?b: more asymptomatic aneurysms
+		?c: endovascular repair
+
+
+label:    sent_14
+sentence: During hyperemia , blood vessels dilate upstream from the initiating stimulus .
+
+ppatt:
+	During ?a , ?b dilate upstream from ?c
+		?a: hyperemia
+		?b: blood vessels
+		?c: the initiating stimulus
+
+
+label:    sent_15
+sentence: Prostaglandins have been shown to soften and dilate the cervix gradually .
+
+ppatt:
+	?a have been shown to soften ?b gradually
+		?a: Prostaglandins
+		?b: the cervix
+	?a have been shown to dilate
+		?a: Prostaglandins
+
+
+label:    sent_16
+sentence: In experimental studies it seems to dilate cerebral resistance vessels and increase intracranial pressure .
+
+ppatt:
+	In ?a ?b seems to dilate ?c
+		?a: experimental studies
+		?b: it
+		?c: cerebral resistance vessels
+	?a seems to increase ?b
+		?a: it
+		?b: intracranial pressure
+
+
+label:    sent_17
+sentence: The baskets are designed to dilate the ureter passively and capture stones <or=5 mm .
+
+ppatt:
+	?a are designed to dilate ?b passively
+		?a: The baskets
+		?b: the ureter
+	?a are designed to capture ?b ?c
+		?a: The baskets
+		?b: stones
+		?c: <or=5 mm
+
+
+label:    sent_18
+sentence: In cases with proximal focal vasospasm , TBA could dilate spastic arteries . Halothane and isoflurane dilate histamine-constricted airways in a dose-dependent manner .
+
+ppatt:
+	In ?a , ?b could dilate ?c
+		?a: cases with proximal focal vasospasm
+		?b: TBA
+		?c: spastic arteries
+	?a dilate ?b in ?c
+		?a: Halothane
+		?b: histamine-constricted airways
+		?c: a dose-dependent manner
+	?a dilate ?b in ?c
+		?a: isoflurane
+		?b: histamine-constricted airways
+		?c: a dose-dependent manner
+
+
+label:    sent_19
+sentence: Calcium ionophore and acetylcholine dilate arterioles on the mouse brain by different mechanisms .
+
+ppatt:
+	?a dilate ?b on ?c by ?d
+		?a: Calcium ionophore
+		?b: arterioles
+		?c: the mouse brain
+		?d: different mechanisms
+	?a dilate ?b on ?c by ?d
+		?a: acetylcholine
+		?b: arterioles
+		?c: the mouse brain
+		?d: different mechanisms
+
+
+label:    sent_20
+sentence: Serotonin caused control microvessels to dilate .
+
+ppatt:
+	?a caused ?b to dilate
+		?a: Serotonin
+		?b: control microvessels
+
+
+label:    sent_21
+sentence: The management of extensive corrosive esophageal strictures : do not dilate and procrastinate .
+
+ppatt:
+
+
+
+label:    sent_22
+sentence: Small perforator branches of the ICA dilate to provide collateral perfusion to ischemic areas . MPC-1304 and nifedipine did not dilate the large coronary artery , but NTG did .
+
+ppatt:
+	?a dilate to provide ?b
+		?a: Small perforator branches of the ICA
+		?b: collateral perfusion to ischemic areas
+	?a did not dilate ?b
+		?a: MPC-1304
+		?b: the large coronary artery
+	?a did not dilate ?b
+		?a: nifedipine
+		?b: the large coronary artery
+	?a did
+		?a: NTG
+
+
+label:    sent_23
+sentence: Chronic smoking may dilate the pupil , and increases macular FTV immediately after photostress .
+
+ppatt:
+	?a may dilate ?b
+		?a: Chronic smoking
+		?b: the pupil
+	?a increases ?b immediately after ?c
+		?a: Chronic smoking
+		?b: macular FTV
+		?c: photostress
+
+
+label:    sent_24
+sentence: Glial cells dilate and constrict blood vessels : a mechanism of neurovascular coupling .
+
+ppatt:
+	?a dilate ?b
+		?a: Glial cells
+		?b: blood vessels
+	?a constrict
+		?a: Glial cells
+
+
+label:    sent_25
+sentence: To dilate or to intubate ? The surviving myocardium hypertrophies and may also dilate structurally .
+
+ppatt:
+	dilate ?a
+		?a: The surviving myocardium hypertrophies
+	intubate ?a
+		?a: The surviving myocardium hypertrophies
+	?a may also dilate structurally
+		?a: The surviving myocardium hypertrophies
+
+
+label:    sent_26
+sentence: Operate or dilate ?
+
+ppatt:
+
+
+

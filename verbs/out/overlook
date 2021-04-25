@@ -1,0 +1,199 @@
+label:    sent_1
+sentence: However , these approaches overlook AF1 activity . Most health-care providers overlook fully remitted depression .
+
+ppatt:
+	However , ?a overlook ?b
+		?a: these approaches
+		?b: AF1 activity
+	?a overlook ?b
+		?a: Most health-care providers
+		?b: fully remitted depression
+
+
+label:    sent_2
+sentence: National guidelines which overlook this factor should be revisited .
+
+ppatt:
+	?a overlook ?b
+		?a: National guidelines
+		?b: this factor
+	?a should be revisited
+		?a: National guidelines which overlook this factor
+
+
+label:    sent_3
+sentence: These plans , which reward hospitals and physicians , consistently overlook nursing .
+
+ppatt:
+	?a ?b ?c consistently overlook ?d
+		?a: These plans
+		?b: which
+		?c: reward hospitals
+		?d: nursing
+	?a ?b ?c consistently overlook ?d
+		?a: These plans
+		?b: which
+		?c: physicians
+		?d: nursing
+
+
+label:    sent_4
+sentence: The diagnostic approach is dictated by the concern not to overlook any metastatic sites .
+
+ppatt:
+	?a is dictated by ?b
+		?a: The diagnostic approach
+		?b: the concern not to overlook any metastatic sites
+	?a not to overlook ?b
+		?a: the concern
+		?b: any metastatic sites
+
+
+label:    sent_5
+sentence: Do n't overlook discharge teaching about drugs . Patients and healthcare providers often overlook the initial presentation because of subtle changes .
+
+ppatt:
+	Do n't overlook ?a
+		?a: discharge teaching about drugs
+	?a often overlook ?b because of ?c
+		?a: Patients
+		?b: the initial presentation
+		?c: subtle changes
+	?a often overlook ?b because of ?c
+		?a: healthcare providers
+		?b: the initial presentation
+		?c: subtle changes
+
+
+label:    sent_6
+sentence: Occupational therapists themselves may overlook these settings as venues for their services .
+
+ppatt:
+	?a may overlook ?b as ?c
+		?a: Occupational therapists themselves
+		?b: these settings
+		?c: venues for their services
+
+
+label:    sent_7
+sentence: Pathologists should not overlook diaphragmatic stromal endometriosis as a possible cause of pneumothorax .
+
+ppatt:
+	?a should not overlook ?b as ?c
+		?a: Pathologists
+		?b: diaphragmatic stromal endometriosis
+		?c: a possible cause of pneumothorax
+
+
+label:    sent_8
+sentence: Most thoracic surgeons overlook this fact and they consider it as primary . MDCT did not overlook autopsy findings and provided some additional information .
+
+ppatt:
+	?a overlook ?b
+		?a: Most thoracic surgeons
+		?b: this fact
+	?a consider ?b as ?c
+		?a: they
+		?b: it
+		?c: primary
+	?a did not overlook ?b
+		?a: MDCT
+		?b: autopsy findings
+	?a provided ?b
+		?a: MDCT
+		?b: some additional information
+
+
+label:    sent_9
+sentence: Incidence studies based on treated cases are difficult and may overlook asymptomatic tumors .
+
+ppatt:
+	?a are difficult
+		?a: Incidence studies based on treated cases
+	?a may overlook ?b
+		?a: Incidence studies based on treated cases
+		?b: asymptomatic tumors
+
+
+label:    sent_10
+sentence: Their medical caregivers often focus on treating the disease and overlook these important aspects .
+
+ppatt:
+	?a often focus
+		?a: Their medical caregivers
+	?a treating ?b
+		?a: Their medical caregivers
+		?b: the disease
+	?a overlook ?b
+		?a: Their medical caregivers
+		?b: these important aspects
+
+
+label:    sent_11
+sentence: However , we can not overlook their problems in the developmental stage .
+
+ppatt:
+	However , ?a can not overlook ?b
+		?a: we
+		?b: their problems in the developmental stage
+
+
+label:    sent_12
+sentence: The doctor tended to overlook overweight in hypertensive or diabetic patients .
+
+ppatt:
+	?a tended to overlook ?b
+		?a: The doctor
+		?b: overweight in hypertensive or diabetic
+
+
+label:    sent_13
+sentence: Do not overlook Weismann-Netter syndrome in differential diagnosis of skeletal dysplasias . Over-the-counter medication : the drug interactions we overlook .
+
+ppatt:
+	Do not overlook ?a in ?b
+		?a: Weismann-Netter syndrome
+		?b: differential diagnosis of skeletal dysplasias . Over-the-counter medication
+	?a ?b overlook
+		?a: the drug interactions
+		?b: we
+
+
+label:    sent_14
+sentence: The liability most doctors overlook .
+
+ppatt:
+	?a ?b overlook
+		?a: liability
+		?b: The most doctors
+
+
+label:    sent_15
+sentence: Antiphospholipid syndrome manifested by gastrointestinal bleeding : can we overlook endoscopically revealed small lesions ? Many physicians overlook , or are unaware of , most drug-drug interactions .
+
+ppatt:
+	?a manifested by ?b
+		?a: Antiphospholipid syndrome
+		?b: gastrointestinal bleeding
+	?a overlook
+		?a: Many physicians
+
+
+label:    sent_16
+sentence: Surveys do not overlook as many children with asthma as previously reported .
+
+ppatt:
+	?a do not overlook as ?b
+		?a: Surveys
+		?b: many children with asthma
+	?a previously reported
+		?a: Surveys
+
+
+label:    sent_17
+sentence: A scenic overlook on the road to clinical tolerance .
+
+ppatt:
+
+
+

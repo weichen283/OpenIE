@@ -1,0 +1,177 @@
+label:    sent_1
+sentence: Sour taste responses in mice lacking PKD channels .
+
+ppatt:
+	?a lacking ?b
+		?a: mice
+		?b: PKD channels
+
+
+label:    sent_2
+sentence: Why clowns taste funny : the relationship between humor and semantic ambiguity .
+
+ppatt:
+	Why ?a funny
+		?a: clowns taste
+
+
+label:    sent_3
+sentence: Expression of tryptophan hydroxylase in developing mouse taste papillae .
+
+ppatt:
+
+
+
+label:    sent_4
+sentence: Spike rate and spike timing contributions to coding taste quality information in rat periphery . A comparative analysis of neural taste processing in animals .
+
+ppatt:
+
+
+
+label:    sent_5
+sentence: Variability in a taste-receptor gene determines whether we taste toxins in food .
+
+ppatt:
+	?a determines ?b
+		?a: Variability in a taste-receptor gene
+		?b: SOMETHING := we taste toxins in food
+	?a we taste toxins in ?b
+		?a: Variability in a taste-receptor gene
+		?b: food
+
+
+label:    sent_6
+sentence: Somatology and phenylthiocarbamide ( PTC ) taste ability of the Bashkirs .
+
+ppatt:
+	?a is/are PTC
+		?a: phenylthiocarbamide
+
+
+label:    sent_7
+sentence: Anosmics actually taste all four taste qualities more poorly .
+
+ppatt:
+	?a actually taste ?b more poorly
+		?a: Anosmics
+		?b: all four taste qualities
+
+
+label:    sent_8
+sentence: Computers can taste too ! Decrease in sweet taste in rats after gastric bypass surgery .
+
+ppatt:
+	taste ?a
+		?a: Computers can too ! Decrease in sweet taste in rats after gastric bypass surgery
+	?a can too ! Decrease in ?b after ?c
+		?a: Computers
+		?b: sweet taste in rats
+		?c: gastric bypass surgery
+
+
+label:    sent_9
+sentence: Sweet taste receptor gene variation and aspartame taste in primates and other species .
+
+ppatt:
+
+
+
+label:    sent_10
+sentence: Innate and learned preferences for sweet taste during childhood .
+
+ppatt:
+
+
+
+label:    sent_11
+sentence: Sex differences in electrophysiological and behavioral responses to NaCl taste .
+
+ppatt:
+
+
+
+label:    sent_12
+sentence: Mouse strain differences in perception of glycine taste . Paying attention to neurons with discriminating taste .
+
+ppatt:
+	?a Paying ?b to ?c
+		?a: Mouse strain differences in perception of glycine taste
+		?b: attention
+		?c: neurons with discriminating taste
+
+
+label:    sent_13
+sentence: The ability to taste 6-n-propylthiouracil ( PROP ) as bitter is determined genetically .
+
+ppatt:
+	?a is/are PROP
+		?a: taste 6-n-propylthiouracil
+	?a is determined genetically
+		?a: The ability to taste 6-n-propylthiouracil as bitter
+
+
+label:    sent_14
+sentence: Doctor , I can taste the local anaesthetic through my forehead ! Each child was asked to taste the samples in a self-selected order .
+
+ppatt:
+	can taste ?a
+		?a: the local anaesthetic through my forehead
+	?a ?b was asked to ?c ?d in ?e
+		?a: Doctor
+		?b: Each child
+		?c: taste
+		?d: the samples
+		?e: a self-selected order
+	?a ?b was asked to ?c ?d in ?e
+		?a: I
+		?b: Each child
+		?c: taste
+		?d: the samples
+		?e: a self-selected order
+	?a ?b was asked to ?c ?d in ?e
+		?a: can taste the local anaesthetic through my forehead
+		?b: Each child
+		?c: taste
+		?d: the samples
+		?e: a self-selected order
+
+
+label:    sent_15
+sentence: Soft drinks taste good , but the calories count . Soy-based foods are disease fighters , but they can taste pretty weird . Amygdala-gustatory insular cortex connections and taste neophobia .
+
+ppatt:
+	?a ?b good
+		?a: Soft drinks
+		?b: taste
+	?a are disease fighters
+		?a: the calories count . Soy-based foods
+	?a can taste pretty weird ?b
+		?a: they
+		?b: Amygdala-gustatory insular cortex connections
+	?a can taste pretty weird ?b
+		?a: they
+		?b: taste neophobia
+
+
+label:    sent_16
+sentence: Cyclophosphamide-induced disruption of umami taste functions and taste epithelium .
+
+ppatt:
+
+
+
+label:    sent_17
+sentence: Masticatory and gustatory salivary reflex secretion rates and taste thresholds of denture wearers .
+
+ppatt:
+
+
+
+label:    sent_18
+sentence: Laminitis : drink deep , or taste not the Pierian Spring .
+
+ppatt:
+
+
+

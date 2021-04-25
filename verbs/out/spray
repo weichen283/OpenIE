@@ -1,0 +1,21 @@
+label:    sent_1
+sentence: In this design , multiple high-pressure liquid chromatography ( HPLC ) columns or capillary electrophoresis ( CE ) capillaries are attached to multiple electrosprayers ( one for each column or capillary ) that spray toward a gated multi-inlet time-of-flight mass spectrometer ( TOF-MS ) .
+
+ppatt:
+	?a is/are HPLC
+		?a: high-pressure liquid chromatography
+	In ?a , ?b are attached to ?c
+		?a: this design
+		?b: multiple high-pressure liquid chromatography columns
+		?c: multiple electrosprayers
+	In ?a , ?b are attached to ?c
+		?a: this design
+		?b: capillary electrophoresis ( CE ) capillaries
+		?c: multiple electrosprayers
+	?a spray toward ?b
+		?a: one for each column or capillary
+		?b: a gated multi-inlet time-of-flight mass spectrometer
+	?a is/are TOF-MS
+		?a: a gated multi-inlet time-of-flight mass spectrometer
+
+

@@ -1,0 +1,269 @@
+label:    sent_1
+sentence: The obtained LMCS can be used to encapsulate drugs and release them .
+
+ppatt:
+	?a can be used to encapsulate ?b
+		?a: The obtained LMCS
+		?b: drugs
+	?a can be used to release ?b
+		?a: The obtained LMCS
+		?b: them
+
+
+label:    sent_2
+sentence: The vesicles were demonstrated to encapsulate a hydrophobic guest polyfluorene ( PF ) . We demonstrate the possibility to encapsulate yeast cells using self-rolled tubes .
+
+ppatt:
+	?a were demonstrated to encapsulate ?b
+		?a: The vesicles
+		?b: a hydrophobic guest polyfluorene
+	?a is/are PF
+		?a: a hydrophobic guest polyfluorene
+	?a demonstrate ?b
+		?a: We
+		?b: the possibility to encapsulate yeast cells using self-rolled tubes
+	?a encapsulate ?b using ?c
+		?a: the possibility
+		?b: yeast cells
+		?c: self-rolled tubes
+
+
+label:    sent_3
+sentence: Our method is promising to encapsulate islets without affecting cell viability or increasing volume .
+
+ppatt:
+	?a is promising to encapsulate ?b
+		?a: Our method
+		?b: islets
+	?a affecting ?b
+		?a: Our method
+		?b: cell viability
+	?a affecting ?b
+		?a: Our method
+		?b: increasing volume
+
+
+label:    sent_4
+sentence: The present study was undertaken in order to encapsulate pilocarpin into nanoparticles . A robust , double emulsion production process was developed to encapsulate drugs into nanoparticles . ASC-P vesicles called aspasomes are submicron-sized particles that can encapsulate hydrophilic drugs .
+
+ppatt:
+	?a was undertaken
+		?a: The present study
+	?a order to encapsulate ?b into ?c
+		?a: The present study
+		?b: pilocarpin
+		?c: nanoparticles
+	?a was developed to encapsulate ?b
+		?a: A robust , emulsion production process
+		?b: drugs into nanoparticles
+	?a called aspasomes
+		?a: ASC-P vesicles
+	?a are submicron-sized particles
+		?a: ASC-P vesicles called aspasomes
+	?a can encapsulate ?b
+		?a: submicron-sized particles
+		?b: hydrophilic drugs
+
+
+label:    sent_5
+sentence: We have developed novel adhesion molecule-targeted double-shelled microspheres which encapsulate nitrogen . How fibroblasts and giant cells encapsulate implants : considerations in design of glucose sensors .
+
+ppatt:
+	?a have developed ?b
+		?a: We
+		?b: novel adhesion molecule-targeted double-shelled microspheres which encapsulate nitrogen How fibroblasts and giant cells encapsulate implants
+	?a encapsulate ?b
+		?a: novel adhesion molecule-targeted double-shelled microspheres
+		?b: nitrogen
+	How ?a encapsulate ?b
+		?a: fibroblasts
+		?b: implants
+	How ?a encapsulate ?b
+		?a: giant cells
+		?b: implants
+
+
+label:    sent_6
+sentence: This hydrogel does not swell and can not encapsulate small molecules .
+
+ppatt:
+	?a does not swell
+		?a: This hydrogel
+	?a can not encapsulate ?b
+		?a: This hydrogel
+		?b: small molecules
+
+
+label:    sent_7
+sentence: We have previously developed methods to encapsulate COINs and to functionalize them with antibodies .
+
+ppatt:
+	?a have previously developed ?b
+		?a: We
+		?b: methods to encapsulate COINs and to functionalize them with antibodies
+	?a encapsulate ?b
+		?a: methods
+		?b: COINs
+	functionalize ?a with ?b
+		?a: them
+		?b: antibodies
+
+
+label:    sent_8
+sentence: Liposomes were employed to encapsulate OHAs and facilitate their transfer into the cytosol .
+
+ppatt:
+	?a were employed to encapsulate ?b
+		?a: Liposomes
+		?b: OHAs
+	?a were employed to facilitate ?b
+		?a: Liposomes
+		?b: their transfer into the cytosol
+
+
+label:    sent_9
+sentence: The gel was able to encapsulate and release various proteins .
+
+ppatt:
+	?a was able to encapsulate ?b
+		?a: The gel
+		?b: various proteins
+	?a was able to release
+		?a: The gel
+
+
+label:    sent_10
+sentence: This feature is used to reversibly encapsulate and release guest molecules in solution .
+
+ppatt:
+	?a is used to reversibly encapsulate ?b in ?c
+		?a: This feature
+		?b: guest molecules
+		?c: solution
+	?a is used to release
+		?a: This feature
+
+
+label:    sent_11
+sentence: Ferritin nanocages to encapsulate and deliver photosensitizers for efficient photodynamic therapy against cancer . 1 x 2 can encapsulate small molecules of various size from methane to cyclopentane .
+
+ppatt:
+	?a encapsulate ?b for ?c
+		?a: Ferritin nanocages
+		?b: photosensitizers
+		?c: efficient photodynamic therapy against cancer
+	?a deliver
+		?a: Ferritin nanocages
+	?a ?b can encapsulate ?c
+		?a: Ferritin nanocages to encapsulate and deliver photosensitizers for efficient photodynamic therapy against cancer
+		?b: 1
+		?c: small molecules of various size from methane to cyclopentane
+	?a ?b can encapsulate ?c
+		?a: Ferritin nanocages to encapsulate and deliver photosensitizers for efficient photodynamic therapy against cancer
+		?b: 2
+		?c: small molecules of various size from methane to cyclopentane
+
+
+label:    sent_12
+sentence: In the latter , gold nanoparticles encapsulate an impurity nucleus . Caged compounds are light-sensitive probes that functionally encapsulate biomolecules in an inactive form .
+
+ppatt:
+	In ?a , ?b encapsulate ?c
+		?a: the latter
+		?b: gold nanoparticles
+		?c: an impurity nucleus
+	?a are light-sensitive probes
+		?a: Caged compounds
+	?a functionally encapsulate ?b in ?c
+		?a: light-sensitive probes
+		?b: biomolecules
+		?c: an inactive form
+
+
+label:    sent_13
+sentence: The hydrogels can encapsulate cells and support cell survival . Liposomes encapsulate hydro and liposoluble , pharmacologically and cosmetically active components .
+
+ppatt:
+	?a can encapsulate ?b
+		?a: The hydrogels
+		?b: cells
+	?a support ?b
+		?a: The hydrogels
+		?b: cell survival
+	?a encapsulate ?b
+		?a: Liposomes
+		?b: hydro , pharmacologically
+	?a encapsulate ?b
+		?a: Liposomes
+		?b: liposoluble
+	?a encapsulate ?b
+		?a: Liposomes
+		?b: cosmetically active
+
+
+label:    sent_14
+sentence: These ET tubes encapsulate trivial interference effects and can expose crucial inter-tube interference effects .
+
+ppatt:
+	?a encapsulate ?b
+		?a: These ET tubes
+		?b: trivial interference effects
+	?a can expose ?b
+		?a: These ET tubes
+		?b: crucial inter-tube interference effects
+
+
+label:    sent_15
+sentence: Remarkably , these nanohybrids encapsulate dissolved oxygen and are highly active in electrochemical reduction .
+
+ppatt:
+	Remarkably , ?a encapsulate ?b
+		?a: these nanohybrids
+		?b: dissolved oxygen
+
+
+label:    sent_16
+sentence: Cyclodextrins encapsulate and electrostatically bind to lipophilic molecules .
+
+ppatt:
+	?a encapsulate
+		?a: Cyclodextrins
+	?a electrostatically bind to ?b
+		?a: Cyclodextrins
+		?b: lipophilic molecules
+
+
+label:    sent_17
+sentence: The gel matrix could encapsulate and release bioactive molecules in a sustained manner .
+
+ppatt:
+	?a could encapsulate ?b in ?c
+		?a: The gel matrix
+		?b: bioactive molecules
+		?c: a sustained manner
+	?a release
+		?a: The gel matrix
+
+
+label:    sent_18
+sentence: Simple coacervates of zein to encapsulate Gitoxin . GroES could not encapsulate GroEL-bound MalZ .
+
+ppatt:
+	?a encapsulate ?b ?c
+		?a: Simple coacervates of zein
+		?b: Gitoxin
+		?c: GroES
+	?a could not encapsulate ?b
+		?a: Simple coacervates of zein to encapsulate Gitoxin . GroES
+		?b: GroEL-bound MalZ
+
+
+label:    sent_19
+sentence: AgNPs with a positive surface charge could encapsulate pIREGFP-H5 efficiently .
+
+ppatt:
+	?a could encapsulate ?b efficiently
+		?a: AgNPs with a positive surface charge
+		?b: pIREGFP-H5
+
+

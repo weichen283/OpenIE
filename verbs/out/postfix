@@ -1,0 +1,13 @@
+label:    sent_1
+sentence: A practical technique to postfix nanogold-immunolabeled specimens with osmium and to embed them in Epon for electron microscopy .
+
+ppatt:
+	?a postfix ?b
+		?a: A practical technique
+		?b: nanogold-immunolabeled specimens with osmium
+	embed ?a in ?b for ?c
+		?a: them
+		?b: Epon
+		?c: electron microscopy
+
+

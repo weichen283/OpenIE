@@ -1,0 +1,154 @@
+label:    sent_1
+sentence: However , iminyl radicals did cyclize onto indoles , enabling indolopyridines to be prepared .
+
+ppatt:
+	However , ?a did cyclize onto ?b , enabling ?c to be prepared
+		?a: iminyl radicals
+		?b: indoles
+		?c: indolopyridines
+
+
+label:    sent_2
+sentence: After intersystem crossing these diradicals cyclize to 1-indanones 20 in good yields .
+
+ppatt:
+	?a crossing ?b
+		?a: intersystem
+		?b: these diradicals
+	After ?a cyclize to ?b in ?c
+		?a: intersystem crossing these diradicals
+		?b: 1-indanones 20
+		?c: good yields
+
+
+label:    sent_3
+sentence: Hydroxymethyl vinyl ketones , however , do not cyclize in base .
+
+ppatt:
+	?a however , do not cyclize in ?b
+		?a: Hydroxymethyl vinyl ketones
+		?b: base
+
+
+label:    sent_4
+sentence: Aspartates and asparagines can spontaneously cyclize with neighboring main-chain amides to form succinimides . 1,8-Dien-3-ynes cyclize by a 5-exo-dig pathway to form hydrindanes . ( E ) -Alkyl ortho-hydroxycinnamates cyclize to coumarins at elevated temperatures of 140-250 degreesC .
+
+ppatt:
+	?a can spontaneously cyclize with ?b to form ?c
+		?a: Aspartates
+		?b: neighboring main-chain amides
+		?c: succinimides
+	?a can spontaneously cyclize with ?b to form ?c
+		?a: asparagines
+		?b: neighboring main-chain amides
+		?c: succinimides
+	?a cyclize by ?b
+		?a: 1,8-Dien-3-ynes
+		?b: a 5-exo-dig pathway to form hydrindanes
+	?a form ?b
+		?a: a 5-exo-dig pathway
+		?b: hydrindanes
+	?a cyclize to ?b at ?c
+		?a: E ) -Alkyl ortho-hydroxycinnamates
+		?b: coumarins
+		?c: elevated temperatures of 140-250 degreesC
+
+
+label:    sent_5
+sentence: The method utilizes split-intein chemistry to cyclize randomized peptide sequences .
+
+ppatt:
+	?a utilizes ?b to cyclize ?c
+		?a: The method
+		?b: split-intein chemistry
+		?c: randomized peptide sequences
+
+
+label:    sent_6
+sentence: A several attempts to cyclize the above products-to the corresponding dihydropyrroloquinolin-4-one derivatives .
+
+ppatt:
+	?a cyclize ?b
+		?a: A several attempts
+		?b: the above
+	?a products-to ?b
+		?a: A several attempts to cyclize the above
+		?b: the corresponding dihydropyrroloquinolin-4-one derivatives
+
+
+label:    sent_7
+sentence: There are three ways to cyclize certain sequences of amino acids such as Met-Ile-Phe-Gly-Ile .
+
+ppatt:
+	There are ?a
+		?a: three ways to cyclize certain sequences of amino acids such as Met-Ile-Phe-Gly-Ile
+	?a cyclize ?b
+		?a: three ways
+		?b: certain sequences of amino acids such as Met-Ile-Phe-Gly-Ile
+
+
+label:    sent_8
+sentence: The imines cyclize to form pyrroles .
+
+ppatt:
+	?a cyclize to form ?b
+		?a: The imines
+		?b: pyrroles
+
+
+label:    sent_9
+sentence: The deaminated products cyclize producing the respective ketimines . Chemically activated short oligonucleotides cyclize efficiently , which severely impairs polymer growth .
+
+ppatt:
+	?a cyclize producing ?b
+		?a: The deaminated products
+		?b: the respective ketimines
+	?a cyclize efficiently ?b
+		?a: Chemically activated short oligonucleotides
+		?b: SOMETHING := which severely impairs polymer growth
+	?a severely impairs ?b
+		?a: which
+		?b: polymer growth
+
+
+label:    sent_10
+sentence: These reagents can be used to simultaneously cyclize and label peptides containing two cysteines .
+
+ppatt:
+	?a can be used to simultaneously cyclize ?b
+		?a: These reagents
+		?b: peptides containing two cysteines
+	?a can be used to label
+		?a: These reagents
+	?a containing ?b
+		?a: peptides
+		?b: two cysteines
+
+
+label:    sent_11
+sentence: To cyclize or not to cyclize : catching enzyme evolution in the act . The analysis indicated that the enzyme can cyclize branched alpha-glucans .
+
+ppatt:
+	cyclize to ?a ?b
+		?a: not cyclize
+		?b: The analysis
+	catching ?a ?b
+		?a: enzyme evolution in the act
+		?b: The analysis
+	?a indicated ?b
+		?a: The analysis
+		?b: SOMETHING := the enzyme can cyclize branched alpha-glucans
+	?a can cyclize ?b
+		?a: the enzyme
+		?b: branched alpha-glucans
+
+
+label:    sent_12
+sentence: Both enzymes cyclize NAD to cADPR .
+
+ppatt:
+	?a cyclize ?b
+		?a: Both enzymes
+		?b: NAD to cADPR
+
+

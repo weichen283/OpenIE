@@ -1,0 +1,190 @@
+label:    sent_1
+sentence: This article focuses on a basic aspect of the debate , namely the plausibility of one or more of these new proposals being able to meet the ethical requirements that those who regard the human embryo as sacred have tried to impose on stem cells research in the last ten years .
+
+ppatt:
+	?a focuses on ?b ?c
+		?a: This article
+		?b: a basic aspect of the debate
+		?c: SOMETHING := namely the plausibility of one or more of these new proposals being able to meet the ethical requirements that those who regard the human embryo as sacred have tried to impose on stem cells research in the last ten years
+	namely ?a being able to meet ?b
+		?a: the plausibility of one or more of these new proposals
+		?b: the ethical requirements
+	?a regard ?b
+		?a: those as have tried to impose on stem cells
+		?b: the human embryo
+	?a sacred
+		?a: who
+	?a have tried to impose on ?b
+		?a: those who regard the human embryo sacred
+		?b: stem cells
+	?a research in ?b
+		?a: those who regard the human embryo as sacred have tried to impose on stem cells
+		?b: the last ten years
+
+
+label:    sent_2
+sentence: Ongoing debates about the ethics of reproductive SCNT have revealed that some researchers regard human reproductive SCNT as morally unacceptable in all circumstances , others see merit in reproductive SCNT in certain circumstances and others await more information before making judgment about the ethical status of the procedure .
+
+ppatt:
+	?a have revealed ?b ?c
+		?a: Ongoing debates about the ethics of reproductive SCNT
+		?b: SOMETHING := some researchers regard human reproductive SCNT as morally unacceptable in all circumstances
+		?c: SOMETHING := others see merit in reproductive SCNT in certain circumstances
+	?a regard ?b
+		?a: some researchers
+		?b: human reproductive SCNT
+	?a as morally unacceptable in ?b
+		?a: some researchers
+		?b: all circumstances
+	?a see ?b in ?c
+		?a: others
+		?b: merit in reproductive SCNT
+		?c: certain circumstances
+	?a await ?b
+		?a: others
+		?b: more information
+	?a making ?b about ?c
+		?a: others
+		?b: judgment
+		?c: the ethical status of the procedure
+
+
+label:    sent_3
+sentence: To understand how Asian Americans regard racism , it is useful to have an understanding of racial identity theory and the manner in which Asian Americans are socialized to perceive racism .
+
+ppatt:
+	understand ?a ?b
+		?a: SOMETHING := how Asian Americans regard racism
+		?b: it
+	how ?a regard ?b
+		?a: Asian Americans
+		?b: racism
+	?a is useful to have ?b
+		?a: it
+		?b: an understanding of racial identity theory
+	?a is useful to have ?b
+		?a: it
+		?b: the manner in which Asian Americans are socialized to perceive racism
+	?a in ?b are socialized to perceive ?c
+		?a: the manner
+		?b: Asian Americans
+		?c: racism
+
+
+label:    sent_4
+sentence: We regard dynamic activities as long-term temporal objects , which are characterized by spatio-temporal features at multiple temporal scales .
+
+ppatt:
+	?a regard ?b
+		?a: We
+		?b: dynamic activities as long-term temporal objects , which are characterized by spatio-temporal features at multiple temporal scales
+	?a are characterized by ?b
+		?a: long-term temporal objects
+		?b: spatio-temporal features at multiple temporal scales
+
+
+label:    sent_5
+sentence: Stress-vulnerability models of schizophrenia regard psychosocial stress as an important factor in the onset and aggravation of psychotic symptoms , but such research in the early phases of psychosis is limited .
+
+ppatt:
+	?a regard ?b as ?c
+		?a: Stress-vulnerability models of schizophrenia
+		?b: psychosocial stress
+		?c: an important factor in the onset and aggravation of psychotic symptoms
+	?a is limited
+		?a: such research in the early phases of psychosis
+
+
+label:    sent_6
+sentence: We regard the Brownian paths as the continuum limits of random walks and consider the statistical ensemble of loop-erased Brownian paths ( LEBPs ) as the continuum limits of the LERW model .
+
+ppatt:
+	?a regard ?b
+		?a: We
+		?b: the Brownian paths as the continuum limits of random walks
+	?a consider ?b
+		?a: We
+		?b: the statistical ensemble of loop-erased Brownian paths as the continuum limits of the LERW model
+	?a is/are LEBPs
+		?a: loop-erased Brownian paths
+
+
+label:    sent_7
+sentence: Ethics education is important and residents may regard teaching about the ethics-related issues they actually encounter to be highly relevant .
+
+ppatt:
+	?a is important
+		?a: Ethics education
+	?a may regard teaching about ?b
+		?a: residents
+		?b: the ethics-related issues
+	?a actually encounter to be highly relevant
+		?a: they
+
+
+label:    sent_8
+sentence: The findings suggest that increased dialogue with non-mainstream health practitioners and access to knowledge sources giving a basic understanding of CAM practices and philosophies that both CAM and mainstream practitioner communities regard as reliable would be of benefit to these GPs .
+
+ppatt:
+	?a suggest ?b
+		?a: The findings
+		?b: increased dialogue with non-mainstream health practitioners
+	?a access to ?b
+		?a: The findings
+		?b: knowledge sources giving a basic understanding of CAM practices
+	?a giving ?b
+		?a: knowledge sources
+		?b: a basic understanding of CAM practices
+	?a regard as ?b
+		?a: CAM
+		?b: reliable
+	?a regard as ?b
+		?a: mainstream practitioner communities
+		?b: reliable
+	would be of benefit to ?a
+		?a: these GPs
+
+
+label:    sent_9
+sentence: Moreover , the receptor 1 could be regard as a facile tool for protein labeling and quantitative determination ( LOD = 15 nM ) .
+
+ppatt:
+	Moreover , ?a could be regard as ?b
+		?a: the receptor 1
+		?b: a facile tool for protein labeling and quantitative determination
+	= ?a
+		?a: 15 nM
+
+
+label:    sent_10
+sentence: This could be an early sign of catch-up-growth in SGA neonates , which could be regard as a part of the complex risk for developing a metabolic syndrome in formerly SGA children .
+
+ppatt:
+	?a could be an early sign of ?b in ?c
+		?a: This
+		?b: catch-up-growth
+		?c: SGA neonates
+	?a could be regard as ?b
+		?a: an early sign of catch-up-growth in SGA neonates
+		?b: a part of the complex risk for developing a metabolic syndrome in formerly SGA children
+	?a developing ?b
+		?a: a part of the complex risk
+		?b: a metabolic syndrome in formerly SGA children
+
+
+label:    sent_11
+sentence: Focusing mainly on the relationship between black and white Americans , it argues that the widespread embrace of universal values of freedom and equality , which most regard as antidotes to racial exclusion , actually reinforce it .
+
+ppatt:
+	Focusing mainly on ?a ?b
+		?a: the relationship between black and white Americans
+		?b: it
+	?a argues ?b
+		?a: it
+		?b: SOMETHING := the widespread embrace of universal values of freedom and equality , which most regard as antidotes to racial exclusion , actually reinforce it
+	?a ?b actually reinforce ?c
+		?a: the widespread embrace of universal values of freedom and equality
+		?b: which most regard as antidotes to racial exclusion
+		?c: it
+
+

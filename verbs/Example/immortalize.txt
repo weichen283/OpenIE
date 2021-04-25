@@ -1,0 +1,31 @@
+obj	The P3J-HR-1 strain of Epstein-Barr virus ( EBV ) fails to immortalize human lymphocytes .	obj@lymphocytes
+obj	Bmi-1 cooperates with human papillomavirus type 16 E6 to immortalize normal human oral keratinocytes .	obj@keratinocytes
+obj	Human adenovirus type 12 : crossing species barriers to immortalize the viral genome .	obj@genome
+
+subj#obj	Epstein-Barr virus : a ubiquitous agent that can immortalize cells .	subj@agent obj@cells
+subj#obj	These results suggest that the loss of p53 does not directly immortalize tumor cells .	subj@loss obj@cells
+subj#obj	Ectopic expression of hTERT can effectively immortalize hMSC in vitro .	subj@expression obj@hMSC
+
+subj#obj#conj	Epstein-Barr virus ( EBV ) can immortalize B cells and contributes to lymphomagenesis .	subj@virus obj@cells conj_and@contributes
+subj#obj#conj	The oncogenic viruses may immortalize the host cell , and facilitate malignant transformation .	subj@viruses obj@cell conj_and@facilitate
+subj#obj#conj	It can immortalize human B lymphocytes and controls their resistance to apoptosis .	subj@It obj@lymphocytes conj_and@controls
+
+obj#conj	Bcl-2 oncogene blocks differentiation and extends viability but does not immortalize normal human keratinocytes .	obj@keratinocytes conj_but@blocks
+obj#conj	The p53 extended the life-span of the cells but could not immortalize them .	obj@them conj_but@extended
+obj#conj	Polyomaviruses have been found to immortalize cell lines and to possess oncogenic properties .	obj@lines conj_and@possess
+
+obj#prep	This study reports an attempt to infect and to immortalize NK cells with HTLV-I .	obj@cells prep_with@HTLV-I
+obj#prep	Can SV40 infect and immortalize human B-lymphocytes and mesothelial cells as a natural pathogen ?	obj@B-lymphocytes prep_as@pathogen
+obj#prep	We attempted to immortalize putative EPCs from human cord blood .	obj@EPCs prep_from@blood
+
+subj#obj#prep	We found that Ik6 can immortalize haematopoietic progenitor cells in myeloid conditions .	subj@Ik6 obj@cells prep_in@conditions
+subj#obj#prep	Ectopic expression of hTERT and SV40LT can effectively immortalize HUVECs without tumorigenesis .	subj@expression obj@HUVECs prep_without@tumorigenesis
+subj#obj#prep	EBV can immortalize primary B cells into lymphoblastoid cell lines in vitro .	subj@EBV obj@cells prep_into@lines
+
+conj	Be fruitful and immortalize .	conj_and@fruitful
+
+subj#conj	The latter can immortalize and induce fundamental changes in their host cells .	subj@latter conj_and@induce
+subj#conj	Theileria sporozoites immortalize and transform host cells of haematopoietic origin .	subj@sporozoites conj_and@transform
+
+prep	Cultured human myoblasts fail to immortalize following the introduction of telomerase .	prep_following@introduction
+

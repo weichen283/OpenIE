@@ -1,0 +1,278 @@
+label:    sent_1
+sentence: Further prospective RCTs are warranted to substantiate these findings .
+
+ppatt:
+	?a are warranted to substantiate ?b
+		?a: Further prospective RCTs
+		?b: these findings
+
+
+label:    sent_2
+sentence: However , there is limited published research to substantiate safety or effectiveness .
+
+ppatt:
+	However , there is ?a
+		?a: limited published research to substantiate safety or effectiveness
+	?a substantiate ?b
+		?a: limited published research
+		?b: safety
+	?a substantiate ?b
+		?a: limited published research
+		?b: effectiveness
+
+
+label:    sent_3
+sentence: Longitudinal clinical studies with greater populations are required to substantiate these results . Physiological experiments substantiate this finding . Our results substantiate the occurrence of oxidative stress during human aging .
+
+ppatt:
+	?a are required to substantiate ?b
+		?a: Longitudinal clinical studies with greater populations
+		?b: these results
+	?a substantiate ?b
+		?a: Physiological experiments
+		?b: this finding
+	?a substantiate ?b
+		?a: Our results
+		?b: the occurrence of oxidative stress during human aging
+
+
+label:    sent_4
+sentence: Our uncontrolled data basically substantiate the safety of intracoronary administration of abciximab .
+
+ppatt:
+	?a basically substantiate ?b
+		?a: Our uncontrolled data
+		?b: the safety of intracoronary administration of abciximab
+
+
+label:    sent_5
+sentence: Family studies substantiate this hypothesis and three new genotypes are recognised .
+
+ppatt:
+	?a substantiate ?b
+		?a: Family studies
+		?b: this hypothesis
+	?a are recognised
+		?a: three new genotypes
+
+
+label:    sent_6
+sentence: This should substantiate or negate the view presented here . Future studies should substantiate these findings but also determine their clinical relevance .
+
+ppatt:
+	?a should substantiate ?b
+		?a: This
+		?b: the view presented here
+	?a negate
+		?a: This
+	?a presented here
+		?a: the view
+	?a should substantiate ?b
+		?a: Future studies
+		?b: these findings
+	?a also determine ?b
+		?a: Future studies
+		?b: their clinical relevance
+
+
+label:    sent_7
+sentence: The current investigation attempted to substantiate this finding in 2 new patient groups .
+
+ppatt:
+	?a attempted to substantiate ?b
+		?a: The current investigation
+		?b: this finding in 2 new patient groups
+
+
+label:    sent_8
+sentence: The aim of this study was to substantiate these findings at the protein level .
+
+ppatt:
+	?a was to substantiate ?b at ?c
+		?a: The aim of this study
+		?b: these findings
+		?c: the protein level
+
+
+label:    sent_9
+sentence: Autoradiography was performed to substantiate results of biodistribution studies in the myocardium .
+
+ppatt:
+	?a was performed to substantiate ?b
+		?a: Autoradiography
+		?b: results of biodistribution studies in the myocardium
+
+
+label:    sent_10
+sentence: The team must substantiate the restriction by justifying a relatively certain and substantial risk .
+
+ppatt:
+	?a must substantiate ?b
+		?a: The team
+		?b: the restriction
+	?a justifying ?b
+		?a: The team
+		?b: a relatively certain and substantial risk
+
+
+label:    sent_11
+sentence: These may substantiate their different genetic progressions to invasive carcinoma .
+
+ppatt:
+	?a may substantiate ?b
+		?a: These
+		?b: their different genetic progressions to invasive carcinoma
+
+
+label:    sent_12
+sentence: The results substantiate the physiological importance of ANP as a regulator of blood volume .
+
+ppatt:
+	?a substantiate ?b
+		?a: The results
+		?b: the physiological importance of ANP as a regulator of blood volume
+
+
+label:    sent_13
+sentence: These codes are required to be used for reimbursement and to substantiate medical necessity .
+
+ppatt:
+	?a are required to be used for ?b
+		?a: These codes
+		?b: reimbursement
+	?a are required to be to substantiate ?b
+		?a: These codes
+		?b: medical necessity
+
+
+label:    sent_14
+sentence: We specify three basic ethical principles that have to be respected and substantiate them .
+
+ppatt:
+	?a specify ?b
+		?a: We
+		?b: three basic ethical principles that have to be respected and substantiate them
+	?a have to be respected
+		?a: three basic ethical principles
+	?a have to be substantiate ?b
+		?a: that
+		?b: them
+
+
+label:    sent_15
+sentence: To substantiate these previous findings and detect new genomic regions .
+
+ppatt:
+	substantiate ?a
+		?a: these previous findings
+	detect ?a
+		?a: new genomic regions
+
+
+label:    sent_16
+sentence: We can not substantiate that the Rf-5 region contains genes influencing renal damage susceptibility .
+
+ppatt:
+	?a can not substantiate ?b
+		?a: We
+		?b: SOMETHING := the Rf-5 region contains genes influencing renal damage susceptibility
+	?a contains ?b
+		?a: the Rf-5 region
+		?b: genes influencing renal damage susceptibility
+	?a influencing ?b
+		?a: genes
+		?b: renal damage susceptibility
+
+
+label:    sent_17
+sentence: These analyses also further substantiate that treatment with DrotAA is associated with improved survival .
+
+ppatt:
+	?a also further substantiate ?b
+		?a: These analyses
+		?b: SOMETHING := treatment with DrotAA is associated with improved survival
+	?a is associated with ?b
+		?a: treatment with DrotAA
+		?b: improved survival
+
+
+label:    sent_18
+sentence: The results statistically substantiate that mechanical wound care alone is insufficient therapy .
+
+ppatt:
+	?a statistically substantiate ?b
+		?a: The results
+		?b: SOMETHING := mechanical wound care alone is insufficient therapy
+	?a is insufficient therapy
+		?a: mechanical wound care alone
+
+
+label:    sent_19
+sentence: Controlled studies are needed to substantiate and clarify these preliminary findings .
+
+ppatt:
+	?a are needed to substantiate ?b
+		?a: Controlled studies
+		?b: these preliminary findings
+	?a are needed to clarify
+		?a: Controlled studies
+
+
+label:    sent_20
+sentence: Further studies are needed to substantiate or reject this possibility .
+
+ppatt:
+	?a are needed to substantiate ?b
+		?a: Further studies
+		?b: this possibility
+	?a are needed to reject
+		?a: Further studies
+
+
+label:    sent_21
+sentence: More rigorous controlled trials are required to substantiate or refute these early findings .
+
+ppatt:
+	?a are required to substantiate ?b
+		?a: More rigorous controlled trials
+		?b: these early findings
+	?a are required to refute
+		?a: More rigorous controlled trials
+
+
+label:    sent_22
+sentence: The findings of this study substantiate and complement previous results obtained by hemodynamic procedures .
+
+ppatt:
+	?a substantiate ?b
+		?a: The findings of this study
+		?b: previous results obtained by hemodynamic procedures
+	?a complement
+		?a: The findings of this study
+	?a obtained by ?b
+		?a: previous results
+		?b: hemodynamic procedures
+
+
+label:    sent_23
+sentence: Little data substantiate or refute the perceived high trauma malpractice risk .
+
+ppatt:
+	?a substantiate ?b
+		?a: Little data
+		?b: the perceived high trauma malpractice risk
+	?a refute
+		?a: Little data
+
+
+label:    sent_24
+sentence: There are no current data to substantiate or refute the likelihood of such teasing .
+
+ppatt:
+	There are ?a to substantiate ?b
+		?a: no current data
+		?b: the likelihood of such teasing
+	There are ?a to refute
+		?a: no current data
+
+

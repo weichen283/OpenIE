@@ -1,0 +1,146 @@
+label:    sent_1
+sentence: Older adults often elect to move into smaller living environments .
+
+ppatt:
+	?a often elect to move into ?b
+		?a: Older adults
+		?b: smaller living environments
+
+
+label:    sent_2
+sentence: Women could elect to receive calcium plus random assignment to vitamin D or placebo .
+
+ppatt:
+	?a could elect to receive ?b
+		?a: Women
+		?b: calcium
+	?a could elect to receive ?b
+		?a: Women
+		?b: random assignment to vitamin D or placebo
+
+
+label:    sent_3
+sentence: Percentage of patients who elect to undergo penile augmentation surgery . Of men with vasectomy 6 % elect to have more children .
+
+ppatt:
+	?a elect to undergo ?b
+		?a: patients
+		?b: penile augmentation surgery
+	?a elect to have ?b
+		?a: Percentage of patients who elect to undergo penile augmentation surgery . Of men with vasectomy 6 %
+		?b: more children
+
+
+label:    sent_4
+sentence: Of the 152 patients , 78.3 % would elect to have surgery again .
+
+ppatt:
+	Of ?a , ?b would elect to have ?c again
+		?a: the 152 patients
+		?b: 78.3 %
+		?c: surgery
+
+
+label:    sent_5
+sentence: Death row prisoners may elect to forgo appeals , thus hastening execution .
+
+ppatt:
+	?a may elect to forgo ?b , thus hastening ?c
+		?a: Death row prisoners
+		?b: appeals
+		?c: execution
+
+
+label:    sent_6
+sentence: More than half of the men who receive treatment for prostate cancer elect radiotherapy .
+
+ppatt:
+	?a receive ?b
+		?a: the men
+		?b: treatment for prostate cancer
+	?a than ?b elect ?c
+		?a: More
+		?b: half of the men who receive treatment for prostate cancer
+		?c: radiotherapy
+
+
+label:    sent_7
+sentence: All patients could elect a second treatment of the same dose after 3-month followup .
+
+ppatt:
+	?a could elect ?b after ?c
+		?a: All patients
+		?b: a second treatment of the same dose
+		?c: 3-month followup
+
+
+label:    sent_8
+sentence: Long-term care : an idea that can elect the next president .
+
+ppatt:
+	?a can elect ?b
+		?a: an idea
+		?b: the next president
+
+
+label:    sent_9
+sentence: Science and engineering academies elect new officers . ' We need to elect college members who have different skills and experiences ' . As life ebbs , so does time to elect comforts of hospice .
+
+ppatt:
+	?a elect ?b
+		?a: Science and engineering academies
+		?b: new officers
+	?a need to elect ?b
+		?a: We
+		?b: college members who have different skills and experiences ' . As life ebbs
+	?a have ?b As ?c
+		?a: college members
+		?b: different skills
+		?c: life ebbs
+	?a have ?b As ?c
+		?a: college members
+		?b: experiences
+		?c: life ebbs
+	?a elect ?b
+		?a: so time
+		?b: comforts of hospice
+
+
+label:    sent_10
+sentence: We elect those architects through our system of citizen participation in government .
+
+ppatt:
+	?a elect ?b through ?c
+		?a: We
+		?b: those architects
+		?c: our system of citizen participation in government
+
+
+label:    sent_11
+sentence: Psychological differences between patients that elect operative or nonoperative treatment for trapeziometacarpal joint arthrosis .
+
+ppatt:
+	?a elect ?b
+		?a: patients
+		?b: operative or nonoperative treatment for trapeziometacarpal joint arthrosis
+
+
+label:    sent_12
+sentence: Because of this risk , many patients elect surgical correction of this anomaly .
+
+ppatt:
+	Because of ?a , ?b elect ?c
+		?a: this risk
+		?b: many patients
+		?c: surgical correction of this anomaly
+
+
+label:    sent_13
+sentence: The patient may or may not elect to have the reconstruction eventually .
+
+ppatt:
+	?a may may not elect to have ?b eventually
+		?a: The patient
+		?b: the reconstruction
+
+

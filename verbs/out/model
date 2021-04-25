@@ -1,0 +1,256 @@
+label:    sent_1
+sentence: It is of high interest to model the corresponding regulatory networks .
+
+ppatt:
+	?a is of high interest
+		?a: It
+	?a model ?b
+		?a: high interest
+		?b: the corresponding regulatory networks
+
+
+label:    sent_2
+sentence: Existing pragmatic approaches are a first crude step to model food pollutant intake .
+
+ppatt:
+	?a are a first crude step
+		?a: Existing pragmatic approaches
+	?a model ?b
+		?a: a first crude step
+		?b: food pollutant intake
+
+
+label:    sent_3
+sentence: Our objective is to mathematically model the noise in the data . Multilevel logistic regression was used to model community effects on each indicator of well-being .
+
+ppatt:
+	?a is to mathematically model ?b
+		?a: Our objective
+		?b: the noise in the data
+	?a was used to model ?b on ?c
+		?a: Multilevel logistic regression
+		?b: community effects
+		?c: each indicator of well-being
+
+
+label:    sent_4
+sentence: Regression methods were used to model this proportion according to LBW prevalence levels .
+
+ppatt:
+	?a were used to model ?b according to ?c
+		?a: Regression methods
+		?b: this proportion
+		?c: LBW prevalence levels
+
+
+label:    sent_5
+sentence: This data is used to model activities in critical care environments .
+
+ppatt:
+	?a is used to model ?b
+		?a: This data
+		?b: activities in critical care environments
+
+
+label:    sent_6
+sentence: Behavioral defects in chaperone-deficient Alzheimer 's disease model mice .
+
+ppatt:
+
+
+
+label:    sent_7
+sentence: Our novel development also suggests new approaches to model search and computation .
+
+ppatt:
+	?a also suggests ?b
+		?a: Our novel development
+		?b: new approaches to model search and computation
+	?a model ?b
+		?a: new approaches
+		?b: search
+	?a model ?b
+		?a: new approaches
+		?b: computation
+
+
+label:    sent_8
+sentence: A practical approach to model selection for support vector machines with a Gaussian kernel .
+
+ppatt:
+	?a model ?b
+		?a: A practical approach
+		?b: selection for support vector machines with a Gaussian kernel
+
+
+label:    sent_9
+sentence: We model dependence of the output variable on the predictors by a regression tree . Via this modified LSM , we model each nanogel as a deformable particle .
+
+ppatt:
+	?a model ?b . Via ?c
+		?a: We
+		?b: dependence of the output variable on the predictors by a regression tree
+		?c: this modified LSM
+	?a model ?b as ?c
+		?a: we
+		?b: each nanogel
+		?c: a deformable particle
+
+
+label:    sent_10
+sentence: Based on the template information users can model the tertiary structure of protein .
+
+ppatt:
+	can model ?a
+		?a: the tertiary structure of protein
+
+
+label:    sent_11
+sentence: Anticonvulsant and antioxidant actions of trimetazidine in pentylenetetrazole-induced kindling model in mice .
+
+ppatt:
+
+
+
+label:    sent_12
+sentence: Possible anomalous spin dynamics of the Hubbard model on a honeycomb lattice .
+
+ppatt:
+
+
+
+label:    sent_13
+sentence: [ Establishment of human colorectal tissue model in HIV-1 mucosal infection ] . Applying direct observation to model workflow and assess adoption .
+
+ppatt:
+	?a Applying ?b
+		?a: Establishment of human colorectal tissue model in HIV-1 mucosal infection ]
+		?b: direct observation to model workflow and assess adoption
+	?a model ?b
+		?a: direct observation
+		?b: workflow
+	assess ?a
+		?a: adoption
+
+
+label:    sent_14
+sentence: Approximation errors and model reduction in optical tomography .
+
+ppatt:
+
+
+
+label:    sent_15
+sentence: Participation was limited to 8 to match and model 8 learners/small group in workshops .
+
+ppatt:
+	?a was limited to ?b to match ?c
+		?a: Participation
+		?b: 8
+		?c: 8 learners/small group in workshops
+	?a was limited to model
+		?a: Participation
+
+
+label:    sent_16
+sentence: Effect of repeat dose of BCG vaccination on humoral response in mice model .
+
+ppatt:
+
+
+
+label:    sent_17
+sentence: Effects of NMDA receptor modulators on a blood-brain barrier in vitro model .
+
+ppatt:
+
+
+
+label:    sent_18
+sentence: The accountable care delivery model . ModeRNA can also model DNA structures or use them as templates .
+
+ppatt:
+	?a ?b can also model ?c
+		?a: The accountable care delivery model
+		?b: ModeRNA
+		?c: DNA structures
+	?a use ?b as ?c
+		?a: The accountable care delivery model
+		?b: them
+		?c: templates
+
+
+label:    sent_19
+sentence: We numerically model the DFG process and show good agreement between simulations and experiments .
+
+ppatt:
+	?a numerically model ?b
+		?a: We
+		?b: the DFG process
+	?a show ?b
+		?a: We
+		?b: good agreement between simulations and experiments
+
+
+label:    sent_20
+sentence: Bayesian model choice and search strategies for mapping interacting quantitative trait Loci .
+
+ppatt:
+	search ?a
+		?a: strategies for mapping interacting quantitative trait Loci
+
+
+label:    sent_21
+sentence: To model or not to model ? To model or not to model : lessons from two vaccinations .
+
+ppatt:
+	model to ?a
+		?a: not model
+
+
+label:    sent_22
+sentence: A four parameter logistic function is used to model and assess the data . In our simulation we model two treatments and consider several scenarios .
+
+ppatt:
+	?a is used to model ?b
+		?a: A four parameter logistic function
+		?b: the data
+	?a is used to assess
+		?a: A four parameter logistic function
+	In ?a ?b model ?c
+		?a: our simulation
+		?b: we
+		?c: two treatments
+	?a consider ?b
+		?a: we
+		?b: several scenarios
+
+
+label:    sent_23
+sentence: In this paper , we model femur and define three parameters .
+
+ppatt:
+	In ?a , ?b model ?c
+		?a: this paper
+		?b: we
+		?c: femur
+	?a define ?b
+		?a: we
+		?b: three parameters
+
+
+label:    sent_24
+sentence: These methods largely model short peptides or address large proteins by simplifying conformational space .
+
+ppatt:
+	?a largely model ?b
+		?a: These methods
+		?b: short peptides
+	?a address ?b
+		?a: These methods
+		?b: large proteins
+	?a simplifying ?b
+		?a: These methods
+		?b: conformational space
+
+

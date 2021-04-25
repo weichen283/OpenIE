@@ -1,0 +1,314 @@
+label:    sent_1
+sentence: rTg4510 transgenic ( TG ) mice overexpress mutant ( P301L ) human tau protein .
+
+ppatt:
+	?a is/are TG
+		?a: rTg4510 transgenic
+	?a overexpress ?b
+		?a: rTg4510 transgenic mice
+		?b: mutant ( P301L ) human tau protein
+
+
+label:    sent_2
+sentence: These tumors also overexpress the Forkhead box transcription factor FoxM1 .
+
+ppatt:
+	?a also overexpress ?b
+		?a: These tumors
+		?b: the Forkhead box transcription factor FoxM1
+
+
+label:    sent_3
+sentence: EMPD and SCC overexpress HSP105 while BCC does not . Triple-negative breast cancers ( TNBC ) neither express hormone receptors , nor overexpress HER2 .
+
+ppatt:
+	?a overexpress ?b
+		?a: EMPD
+		?b: HSP105
+	?a overexpress ?b
+		?a: SCC
+		?b: HSP105
+	?a is/are TNBC
+		?a: Triple-negative breast cancers
+	?a does not . ?b ?c express ?d
+		?a: BCC
+		?b: Triple-negative breast cancers
+		?c: neither
+		?d: hormone receptors
+	?a overexpress ?b
+		?a: BCC
+		?b: HER2
+
+
+label:    sent_4
+sentence: MTC is known to overexpress the somatostatin receptor subtype 2 ( SSTR2 ) . Human dermal fibroblasts ( HDFs ) were transfected with Syk cDNA to overexpress Syk .
+
+ppatt:
+	?a is known to overexpress ?b
+		?a: MTC
+		?b: the somatostatin receptor subtype 2
+	?a is/are SSTR2
+		?a: the somatostatin receptor subtype 2
+	?a is/are HDFs
+		?a: Human dermal fibroblasts
+	?a were transfected with ?b to overexpress ?c
+		?a: Human dermal fibroblasts
+		?b: Syk cDNA
+		?c: Syk
+
+
+label:    sent_5
+sentence: We also generated transgenic mice to overexpress miR-133a in skeletal muscle .
+
+ppatt:
+	?a also generated ?b to overexpress ?c in ?d
+		?a: We
+		?b: transgenic mice
+		?c: miR-133a
+		?d: skeletal muscle
+
+
+label:    sent_6
+sentence: We used two different adenoviral-mediated gene-transferring approaches to overexpress bFGF in developing rodent kidneys .
+
+ppatt:
+	?a used ?b
+		?a: We
+		?b: two different adenoviral-mediated gene-transferring approaches to overexpress bFGF in developing rodent kidneys
+	?a overexpress ?b in ?c
+		?a: two different adenoviral-mediated gene-transferring approaches
+		?b: bFGF
+		?c: developing rodent kidneys
+
+
+label:    sent_7
+sentence: The T7 promoter was used to overexpress the hdc gene in E. coli cells .
+
+ppatt:
+	?a was used to overexpress ?b in ?c
+		?a: The T7 promoter
+		?b: the hdc gene
+		?c: E. coli cells
+
+
+label:    sent_8
+sentence: Mst1 Tg mice overexpress Mst1 , a pro-apoptotic factor , in a cardiac-specific manner .
+
+ppatt:
+	?a overexpress ?b in ?c
+		?a: Mst1 Tg mice
+		?b: Mst1
+		?c: a cardiac-specific manner
+	?a is/are a pro-apoptotic factor
+		?a: Mst1
+
+
+label:    sent_9
+sentence: We show here that corticotroph adenomas overexpress HSP90 compared to the normal pituitary .
+
+ppatt:
+	?a show here ?b
+		?a: We
+		?b: SOMETHING := corticotroph adenomas overexpress HSP90 compared to the normal pituitary
+	?a overexpress ?b
+		?a: corticotroph adenomas
+		?b: HSP90
+	?a compared to the normal pituitary
+		?a: corticotroph adenomas
+
+
+label:    sent_10
+sentence: In contrast to most normal tissues , a variety of human cancers overexpress FASN .
+
+ppatt:
+	In to ?a , ?b overexpress ?c
+		?a: most normal tissues
+		?b: a variety of human cancers
+		?c: FASN
+
+
+label:    sent_11
+sentence: Instead , mutant axons overexpress Robo1 and follow random trajectories into the ipsilateral cortex .
+
+ppatt:
+	Instead , ?a overexpress ?b
+		?a: mutant axons
+		?b: Robo1
+	?a follow ?b
+		?a: mutant axons
+		?b: random trajectories into the ipsilateral cortex
+
+
+label:    sent_12
+sentence: Highly resistant enterococcal strains overexpress this PBP and/or reduce its affinity . Metastatic melanoma cells overexpress MCAM and do not express the c-KIT receptor .
+
+ppatt:
+	?a overexpress ?b
+		?a: Highly resistant enterococcal strains
+		?b: this PBP
+	?a reduce ?b
+		?a: Highly resistant enterococcal strains
+		?b: its affinity
+	?a overexpress ?b
+		?a: Metastatic melanoma cells
+		?b: MCAM
+	?a do not express ?b
+		?a: Metastatic melanoma cells
+		?b: the c-KIT receptor
+
+
+label:    sent_13
+sentence: Most infected cells expressed CMV immediate early proteins but did not overexpress IL-1 .
+
+ppatt:
+	?a expressed ?b
+		?a: Most infected cells
+		?b: CMV immediate early proteins
+	?a did not overexpress ?b
+		?a: Most infected cells
+		?b: IL-1
+
+
+label:    sent_14
+sentence: This cell clone expressed p53 and did not overexpress bcl-2 protein .
+
+ppatt:
+	?a expressed ?b
+		?a: This cell clone
+		?b: p53
+	?a did not overexpress ?b
+		?a: This cell clone
+		?b: bcl-2 protein
+
+
+label:    sent_15
+sentence: HCL stimulated NB to overexpress bcl-2 and presumably become resistant to apoptosis .
+
+ppatt:
+	?a stimulated ?b to overexpress ?c
+		?a: HCL
+		?b: NB
+		?c: bcl-2
+	?a presumably become resistant to ?b
+		?a: HCL
+		?b: apoptosis
+
+
+label:    sent_16
+sentence: MMP-12 and its gene overexpress may be a auxiliary diagnosis method .
+
+ppatt:
+	?a may be a auxiliary diagnosis method
+		?a: MMP-12
+	?a may be a auxiliary diagnosis method
+		?a: its gene overexpress
+
+
+label:    sent_17
+sentence: Transgenic Arabidopsis plants that overexpress CYP714B1 or CYP714B2 show semidwarfism .
+
+ppatt:
+	?a overexpress ?b
+		?a: Transgenic Arabidopsis plants
+		?b: CYP714B1
+	?a overexpress ?b
+		?a: Transgenic Arabidopsis plants
+		?b: CYP714B2
+	?a show ?b
+		?a: Transgenic Arabidopsis plants that overexpress CYP714B1 or CYP714B2
+		?b: semidwarfism
+
+
+label:    sent_18
+sentence: Senescent WI-38 fibroblasts overexpress LPC-1 , a putative transmembrane shock protein .
+
+ppatt:
+	?a overexpress ?b
+		?a: Senescent WI-38 fibroblasts
+		?b: LPC-1
+	?a is/are a putative transmembrane shock protein
+		?a: LPC-1
+
+
+label:    sent_19
+sentence: MiR-23a mimic and inhibitor were used to overexpress or silence the expression of miR-23a .
+
+ppatt:
+	?a mimic
+		?a: MiR-23a
+	?a were used to overexpress ?b
+		?a: MiR-23a
+		?b: the expression of miR-23a
+	?a were used to silence
+		?a: MiR-23a
+
+
+label:    sent_20
+sentence: Soybean somatic embryos were transformed in order to overexpress or silence WRKY genes .
+
+ppatt:
+	?a were transformed
+		?a: Soybean somatic embryos
+	?a order to overexpress ?b
+		?a: Soybean somatic embryos
+		?b: WRKY genes
+	?a silence
+		?a: Soybean somatic embryos
+
+
+label:    sent_21
+sentence: Here , we describe methods to overexpress and purify RCP for structure-function studies .
+
+ppatt:
+	Here , ?a describe ?b
+		?a: we
+		?b: methods to overexpress and purify RCP for structure-function studies
+	?a overexpress ?b for ?c
+		?a: methods
+		?b: RCP
+		?c: structure-function studies
+	purify ?a
+		?a: RCP
+
+
+label:    sent_22
+sentence: The first involves the use of transgenic mice that overexpress or underexpress neurotrophins .
+
+ppatt:
+	?a involves ?b
+		?a: The first
+		?b: the use of transgenic mice that overexpress or underexpress neurotrophins
+	?a overexpress ?b
+		?a: transgenic mice
+		?b: neurotrophins
+	?a underexpress
+		?a: that
+
+
+label:    sent_23
+sentence: Specifically herpesvirus saimiri-transformed T cells overexpress ak155 and secrete the protein into the supernatant .
+
+ppatt:
+	Specifically ?a overexpress ?b
+		?a: herpesvirus saimiri-transformed T cells
+		?b: ak155
+	?a secrete ?b into ?c
+		?a: herpesvirus saimiri-transformed T cells
+		?b: the protein
+		?c: the supernatant
+
+
+label:    sent_24
+sentence: Transgenic models that overexpress or underexpress BDNF demonstrate similar deficits in cognition and mood .
+
+ppatt:
+	?a overexpress ?b
+		?a: Transgenic models
+		?b: BDNF
+	?a underexpress
+		?a: that
+	?a demonstrate ?b
+		?a: Transgenic models that overexpress or underexpress BDNF
+		?b: similar deficits in cognition and mood
+
+

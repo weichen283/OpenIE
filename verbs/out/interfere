@@ -1,0 +1,324 @@
+label:    sent_1
+sentence: Many bacterial pathogens interfere with cellular functions including phagocytosis and barrier integrity .
+
+ppatt:
+	?a interfere with ?b
+		?a: Many bacterial pathogens
+		?b: cellular functions including phagocytosis and barrier integrity
+
+
+label:    sent_2
+sentence: This may interfere with an empathic approach in the clinical setting .
+
+ppatt:
+	?a may interfere with ?b
+		?a: This
+		?b: an empathic approach in the clinical setting
+
+
+label:    sent_3
+sentence: However , DMP1 did not interfere with basic fibroblast growth factor-induced angiogenesis .
+
+ppatt:
+	However , ?a did not interfere with ?b
+		?a: DMP1
+		?b: basic fibroblast growth factor-induced angiogenesis
+
+
+label:    sent_4
+sentence: Arabic populations experience sleep problems that interfere with their vitality and quality of life .
+
+ppatt:
+	?a experience ?b
+		?a: Arabic populations
+		?b: sleep problems that interfere with their vitality and quality of life
+	?a interfere with ?b
+		?a: sleep problems
+		?b: their vitality of life
+	?a interfere with ?b
+		?a: sleep problems
+		?b: quality
+
+
+label:    sent_5
+sentence: Rhinitis symptoms seemed to interfere less with daily activities ( p<0.01 ) . Gene-transfer can positively interfere with T cell functions after HCT .
+
+ppatt:
+	?a seemed to interfere less with ?b
+		?a: Rhinitis symptoms
+		?b: daily activities
+	?a is/are p<0.01
+		?a: daily activities
+	?a can positively interfere with ?b
+		?a: Gene-transfer
+		?b: T cell functions after HCT
+
+
+label:    sent_6
+sentence: HO can interfere with prosthetic use and walking and delay patient rehabilitation .
+
+ppatt:
+	?a can interfere with ?b
+		?a: HO
+		?b: prosthetic use
+	?a can interfere with ?b
+		?a: HO
+		?b: walking
+	?a can interfere with ?b
+		?a: HO
+		?b: patient rehabilitation
+
+
+label:    sent_7
+sentence: Drapes can slip , and stray hairs can interfere with delicate dissection and suturing .
+
+ppatt:
+	?a can slip
+		?a: Drapes
+	?a can interfere with ?b
+		?a: stray hairs
+		?b: delicate dissection
+	?a can interfere with ?b
+		?a: stray hairs
+		?b: suturing
+
+
+label:    sent_8
+sentence: Several factors may interfere with this process and ultimately influence islet engraftment .
+
+ppatt:
+	?a may interfere with ?b
+		?a: Several factors
+		?b: this process
+	?a ultimately influence ?b
+		?a: Several factors
+		?b: islet engraftment
+
+
+label:    sent_9
+sentence: Peripheral T cells re-enter the thymus and interfere with central tolerance induction .
+
+ppatt:
+	?a re-enter ?b
+		?a: Peripheral T cells
+		?b: the thymus
+	?a interfere with ?b
+		?a: Peripheral T cells
+		?b: central tolerance induction
+
+
+label:    sent_10
+sentence: The Oscar 2 ABPM device is straightforward to use but can interfere with sleep .
+
+ppatt:
+	?a is straightforward to use
+		?a: The Oscar 2 ABPM device
+	?a is straightforward to can interfere with ?b
+		?a: The Oscar 2 ABPM device
+		?b: sleep
+
+
+label:    sent_11
+sentence: These problems could be controlled and did not interfere with the subsequent plasty .
+
+ppatt:
+	?a could be controlled
+		?a: These problems
+	?a did not interfere with ?b
+		?a: These problems
+		?b: the subsequent plasty
+
+
+label:    sent_12
+sentence: This bias could interfere in subsequent analyses that include the deprivation index .
+
+ppatt:
+	?a could interfere in ?b
+		?a: This bias
+		?b: subsequent analyses that include the deprivation index
+	?a include ?b
+		?a: subsequent analyses
+		?b: the deprivation index
+
+
+label:    sent_13
+sentence: Accompanying substances do not interfere .
+
+ppatt:
+	?a do not interfere
+		?a: Accompanying substances
+
+
+label:    sent_14
+sentence: The absorbing solution composition was optimized so that CO2 does not interfere .
+
+ppatt:
+	?a was optimized so ?b
+		?a: The absorbing solution composition
+		?b: SOMETHING := CO2 does not interfere
+	?a does not interfere
+		?a: CO2
+
+
+label:    sent_15
+sentence: Inhibition of calpain is one mechanism by which Pb2+ may interfere with neuronal development .
+
+ppatt:
+	?a is one mechanism
+		?a: Inhibition of calpain
+	?a by ?b may interfere with ?c
+		?a: one mechanism
+		?b: Pb2+
+		?c: neuronal development
+
+
+label:    sent_16
+sentence: The manner in which this could interfere with corneal strength is discussed .
+
+ppatt:
+	?a in ?b could interfere with ?c
+		?a: The manner
+		?b: this
+		?c: corneal strength
+	?a is discussed
+		?a: The manner in which this could interfere with corneal strength
+
+
+label:    sent_17
+sentence: There are two ways in which heparin can interfere with results .
+
+ppatt:
+	There are ?a
+		?a: two ways in which heparin can interfere with results
+	?a in ?b can interfere with ?c
+		?a: two ways
+		?b: heparin
+		?c: results
+
+
+label:    sent_18
+sentence: Thus stress , particularly , zinc may interfere monitoring of Pseudomonas by PCR .
+
+ppatt:
+	Thus ?a , particularly , ?b may interfere ?c
+		?a: stress
+		?b: zinc
+		?c: monitoring of Pseudomonas by PCR
+
+
+label:    sent_19
+sentence: Neither did it interfere with processing of endocytosed procathepsin D .
+
+ppatt:
+	?a did ?b interfere with ?c
+		?a: Neither
+		?b: it
+		?c: processing of endocytosed procathepsin D
+
+
+label:    sent_20
+sentence: Due to their high intracellular uptake , macrolides may interfere with phagocytes antibacterial system .
+
+ppatt:
+	Due to ?a , ?b may interfere with ?c
+		?a: their high intracellular uptake
+		?b: macrolides
+		?c: phagocytes antibacterial system
+
+
+label:    sent_21
+sentence: The recent applications of anti-angiogenic agents which interfere or block HCC progression are reviewed .
+
+ppatt:
+	?a interfere ?b
+		?a: anti-angiogenic agents
+		?b: HCC progression
+	?a block
+		?a: which
+	?a are reviewed
+		?a: The recent applications of anti-angiogenic agents which interfere or block HCC progression
+
+
+label:    sent_22
+sentence: Relatively few ions interfere , and these can be masked with EDTA and fluoride .
+
+ppatt:
+	?a interfere
+		?a: Relatively few ions
+	?a can be masked with ?b
+		?a: these
+		?b: EDTA
+	?a can be masked with ?b
+		?a: these
+		?b: fluoride
+
+
+label:    sent_23
+sentence: Our patient has three different diseases but their etiology and pathogenesis can interfere .
+
+ppatt:
+	?a has ?b
+		?a: Our patient
+		?b: three different diseases
+	?a can interfere
+		?a: their etiology
+	?a can interfere
+		?a: pathogenesis
+
+
+label:    sent_24
+sentence: These cues may reinforce or interfere with each other depending on their relative orientation .
+
+ppatt:
+	?a may reinforce with ?b
+		?a: These cues
+		?b: each other
+	?a interfere
+		?a: These cues
+	?a depending on ?b relative orientation
+		?a: These cues
+		?b: their
+
+
+label:    sent_25
+sentence: In none of these patients did the F-18 FDG uptake interfere with image interpretation .
+
+ppatt:
+	In ?a did ?b
+		?a: none of these patients
+		?b: the F-18 FDG uptake
+	?a interfere with ?b
+		?a: the F-18 FDG uptake
+		?b: image interpretation
+
+
+label:    sent_26
+sentence: [ Constructions of Gcn5 shRNAs interfere the histone acetylation modification with stem cell differentiation ] . Chronically arsenic exposure can interfere the levels of serumal hormones . Bcl-2 and HER-2 ASODN can effectively interfere the expression of HER-2 and Bcl-2 genes .
+
+ppatt:
+	?a interfere ?b
+		?a: Constructions of Gcn5 shRNAs
+		?b: the histone acetylation modification with stem cell differentiation ]
+	Chronically ?a can interfere ?b
+		?a: arsenic exposure
+		?b: the levels of serumal hormones
+	?a can effectively interfere ?b
+		?a: Bcl-2
+		?b: the expression of HER-2 and Bcl-2 genes
+	?a can effectively interfere ?b
+		?a: HER-2
+		?b: the expression of HER-2 and Bcl-2 genes
+	?a can effectively interfere ?b
+		?a: ASODN
+		?b: the expression of HER-2 and Bcl-2 genes
+
+
+label:    sent_27
+sentence: Other two region peptides in the prosegment did not interfere the binding .
+
+ppatt:
+	?a did not interfere ?b
+		?a: Other two region peptides in the prosegment
+		?b: the binding
+
+

@@ -1,0 +1,200 @@
+label:    sent_1
+sentence: Authorities responsible for the health of young children need to revise interventional policies .
+
+ppatt:
+	?a need to revise ?b
+		?a: Authorities responsible for the health of young children
+		?b: interventional policies
+
+
+label:    sent_2
+sentence: This experience led us to revise the database completely .
+
+ppatt:
+	?a led ?b to revise ?c completely
+		?a: This experience
+		?b: us
+		?c: the database
+
+
+label:    sent_3
+sentence: We show a case and revise bibliography .
+
+ppatt:
+	?a show ?b
+		?a: We
+		?b: a case
+	?a revise ?b
+		?a: We
+		?b: bibliography
+
+
+label:    sent_4
+sentence: Response to protocol review scenario : revise protocol form .
+
+ppatt:
+
+
+
+label:    sent_5
+sentence: Time to revise the paradigm of hantavirus syndromes ? WHO should revise its classification .
+
+ppatt:
+	?a revise ?b
+		?a: Time
+		?b: the paradigm of hantavirus syndromes ? WHO should revise its classification
+	?a ?b should revise ?c
+		?a: hantavirus syndromes
+		?b: WHO
+		?c: its classification
+
+
+label:    sent_6
+sentence: Formal mechanisms must be established to revise the nomenclature and to promulgate change .
+
+ppatt:
+	?a must be established to revise ?b
+		?a: Formal mechanisms
+		?b: the nomenclature
+	?a must be established to revise ?b
+		?a: Formal mechanisms
+		?b: promulgate change
+
+
+label:    sent_7
+sentence: Update and revise policies dealing with Medicare as secondary payer ; 2 .
+
+ppatt:
+	revise ?a
+		?a: policies dealing with Medicare as secondary payer
+	?a dealing with ?b as ?c
+		?a: policies
+		?b: Medicare
+		?c: secondary payer
+
+
+label:    sent_8
+sentence: Hospitals must drastically redesign themselves and revise their operations to be successful .
+
+ppatt:
+	?a must drastically redesign ?b
+		?a: Hospitals
+		?b: themselves
+	?a revise ?b to be successful
+		?a: Hospitals
+		?b: their operations
+
+
+label:    sent_9
+sentence: Clear cut-off values for when to revise grafts have not been set .
+
+ppatt:
+	?a for when to revise ?b
+		?a: Clear cut-off values
+		?b: grafts
+	?a have not been set
+		?a: Clear cut-off values for when to revise grafts
+
+
+label:    sent_10
+sentence: This makes possible to revise these categories at any later stage of ontology development .
+
+ppatt:
+	?a makes possible to revise ?b at ?c
+		?a: This
+		?b: these categories
+		?c: any later stage of ontology development
+
+
+label:    sent_11
+sentence: This information was then used to revise the manuscript into its final form . Reduce or revise .
+
+ppatt:
+	?a was then used to revise ?b
+		?a: This information
+		?b: the manuscript into its final form
+	?a Reduce
+		?a: This information
+	?a revise
+		?a: This information
+
+
+label:    sent_12
+sentence: Fourth grade children could discriminate and identify or revise the ill-formedness . A pilot study was conducted to revise the SPINS and assess comprehensibility .
+
+ppatt:
+	?a could discriminate
+		?a: Fourth grade children
+	?a identify ?b
+		?a: Fourth grade children
+		?b: the ill-formedness
+	?a revise
+		?a: Fourth grade children
+	?a was conducted to revise ?b
+		?a: A pilot study
+		?b: the SPINS
+	?a was conducted to assess ?b
+		?a: A pilot study
+		?b: comprehensibility
+
+
+label:    sent_13
+sentence: Mother said to revise plan at Baby M 's birth . These regulations revise current Medicare policy on coverage of ambulance services .
+
+ppatt:
+	?a said to revise ?b
+		?a: Mother
+		?b: plan at Baby M 's birth
+	?a revise ?b on ?c
+		?a: These regulations
+		?b: current Medicare policy
+		?c: coverage of ambulance services
+
+
+label:    sent_14
+sentence: In this work we revise the major aspects of diagnostic .
+
+ppatt:
+	In ?a ?b revise ?c
+		?a: this work
+		?b: we
+		?c: the major aspects of diagnostic
+
+
+label:    sent_15
+sentence: Government strategy on alcohol : time to revise legislation and implement wider interventions .
+
+ppatt:
+	?a revise ?b
+		?a: time
+		?b: legislation
+	implement ?a
+		?a: wider interventions
+
+
+label:    sent_16
+sentence: Acellular pertussis vaccines and pertussis resurgence : revise or replace ? We believe that student opinion can revise and improve teaching practice .
+
+ppatt:
+	?a ?b believe ?c
+		?a: Acellular pertussis vaccines
+		?b: We
+		?c: SOMETHING := student opinion can revise teaching practice
+	?a ?b believe ?c
+		?a: pertussis resurgence
+		?b: We
+		?c: SOMETHING := student opinion can revise teaching practice
+	?a can revise ?b
+		?a: student opinion
+		?b: teaching practice
+	?a improve
+		?a: student opinion
+
+
+label:    sent_17
+sentence: Failure of dialysis access : revise or replace ?
+
+ppatt:
+
+
+

@@ -1,0 +1,317 @@
+label:    sent_1
+sentence: Differential attachment method was used to remove fibroblasts .
+
+ppatt:
+	?a was used to remove ?b
+		?a: Differential attachment method
+		?b: fibroblasts
+
+
+label:    sent_2
+sentence: To date , no method is available to remove movement artefacts point-by-point .
+
+ppatt:
+	To ?a , ?b is available to remove ?c
+		?a: date
+		?b: no method
+		?c: movement artefacts point-by-point
+
+
+label:    sent_3
+sentence: Is there anything I can do to remove age spots on my hands ? Activated carbon adsorption is an effective method to remove PFCs from water .
+
+ppatt:
+	there ?a can do to remove ?b on ?c
+		?a: I
+		?b: age spots
+		?c: my hands
+	?a is an effective method
+		?a: Activated carbon adsorption
+	?a remove ?b from ?c
+		?a: an effective method
+		?b: PFCs
+		?c: water
+
+
+label:    sent_4
+sentence: Strain MSR33 is capable to remove mercury from polluted waters .
+
+ppatt:
+	?a is capable to remove ?b from ?c
+		?a: Strain MSR33
+		?b: mercury
+		?c: polluted waters
+
+
+label:    sent_5
+sentence: Methyl-beta-cyclodextrins preferentially remove cholesterol from the liquid disordered phase in giant unilamellar vesicles . A simple atraumatic way to remove breast implants .
+
+ppatt:
+	?a preferentially remove ?b ?c
+		?a: Methyl-beta-cyclodextrins
+		?b: cholesterol from the liquid disordered phase in giant unilamellar vesicles
+		?c: A simple atraumatic way to remove breast implants
+	?a remove ?b
+		?a: A simple atraumatic way
+		?b: breast implants
+
+
+label:    sent_6
+sentence: Is it time to remove the restraints ? Phase unwrapping techniques remove the modulus ambiguities of wrapped phase maps .
+
+ppatt:
+	Is ?a
+		?a: it time to remove the restraints
+	?a remove ?b
+		?a: it time
+		?b: the restraints
+	?a remove ?b
+		?a: Phase unwrapping techniques
+		?b: the modulus ambiguities of wrapped phase maps
+
+
+label:    sent_7
+sentence: The task is then to remove irrelevant images and rerank the remainder .
+
+ppatt:
+	?a is then to remove ?b
+		?a: The task
+		?b: irrelevant images
+	?a is then to rerank ?b
+		?a: The task
+		?b: the remainder
+
+
+label:    sent_8
+sentence: Surgery may be required in some cases to remove sequestra and improve drainage .
+
+ppatt:
+	?a may be required in ?b to remove ?c
+		?a: Surgery
+		?b: some cases
+		?c: sequestra
+	?a may be required to improve ?b
+		?a: Surgery
+		?b: drainage
+
+
+label:    sent_9
+sentence: The patients received endoscopic surgery to remove mucocele and to decompress the optic nerve .
+
+ppatt:
+	?a received ?b to remove ?c
+		?a: The patients
+		?b: endoscopic surgery
+		?c: mucocele
+	?a received to to decompress ?b
+		?a: The patients
+		?b: the optic nerve
+
+
+label:    sent_10
+sentence: The obtained stalk biomaterials could effectively remove the PAHs from water .
+
+ppatt:
+	?a could effectively remove ?b
+		?a: The obtained stalk biomaterials
+		?b: the PAHs from water
+
+
+label:    sent_11
+sentence: We remove the tumour through a sub-labial incision .
+
+ppatt:
+	?a remove ?b through ?c
+		?a: We
+		?b: the tumour
+		?c: a sub-labial incision
+
+
+label:    sent_12
+sentence: On the other hand , volume reduction does not adequately remove plasma proteins .
+
+ppatt:
+	On ?a , ?b does not adequately remove ?c
+		?a: the other hand
+		?b: volume reduction
+		?c: plasma proteins
+
+
+label:    sent_13
+sentence: Pretreatments remove lignin and disrupt its structure , thereby enhancing sugar release .
+
+ppatt:
+	?a remove ?b
+		?a: Pretreatments
+		?b: lignin
+	?a disrupt ?b
+		?a: Pretreatments
+		?b: its structure
+	?a thereby enhancing ?b
+		?a: Pretreatments
+		?b: sugar release
+
+
+label:    sent_14
+sentence: Data compression algorithms remove redundancy and are used to understand biologically important molecules .
+
+ppatt:
+	?a remove ?b
+		?a: Data compression algorithms
+		?b: redundancy
+	?a are used to understand ?b
+		?a: Data compression algorithms
+		?b: biologically important molecules
+
+
+label:    sent_15
+sentence: High-density lipoproteins ( HDL ) remove excess cell cholesterol and provide protection against atherosclerosis .
+
+ppatt:
+	?a is/are HDL
+		?a: High-density lipoproteins
+	?a remove ?b
+		?a: High-density lipoproteins
+		?b: excess cell cholesterol
+	?a provide ?b
+		?a: High-density lipoproteins
+		?b: protection against atherosclerosis
+
+
+label:    sent_16
+sentence: Filter connected with three-way cock in remove of the vehicle in triamcinolone acetonide .
+
+ppatt:
+	?a connected with ?b in ?c
+		?a: Filter
+		?b: three-way cock
+		?c: remove of the vehicle in triamcinolone acetonide
+
+
+label:    sent_17
+sentence: Firm tumors are difficult to remove by curettage or suction .
+
+ppatt:
+	?a are difficult to remove by ?b
+		?a: Firm tumors
+		?b: curettage
+	?a are difficult to remove by ?b
+		?a: Firm tumors
+		?b: suction
+
+
+label:    sent_18
+sentence: Displaced obturators are potentially life threatening and difficult to remove in emergency situations .
+
+ppatt:
+	?a are life
+		?a: Displaced obturators
+	potentially ?a threatening to remove in ?b
+		?a: Displaced obturators are life
+		?b: emergency situations
+
+
+label:    sent_19
+sentence: Microalgae have high potential to remove inorganic nutrients from wastewater and to produce biodiesel .
+
+ppatt:
+	?a have ?b
+		?a: Microalgae
+		?b: high potential to remove inorganic nutrients from wastewater and to produce biodiesel
+	?a remove ?b
+		?a: high potential
+		?b: inorganic nutrients from wastewater
+	produce ?a
+		?a: biodiesel
+
+
+label:    sent_20
+sentence: Many factors influence the decision of whether or not to remove a limb .
+
+ppatt:
+	?a influence ?b
+		?a: Many factors
+		?b: the decision
+	?a of whether not to remove ?b
+		?a: Many factors
+		?b: a limb
+
+
+label:    sent_21
+sentence: Cysteine complexed free pyridoxal-5'-phosphate but did not remove it from the enzyme .
+
+ppatt:
+	?a complexed ?b
+		?a: Cysteine
+		?b: free pyridoxal-5'-phosphate
+	?a did not remove ?b from ?c
+		?a: Cysteine
+		?b: it
+		?c: the enzyme
+
+
+label:    sent_22
+sentence: However , they rapidly become anoxic and consequently do not remove ammonium-nitrogen .
+
+ppatt:
+	However , ?a rapidly become anoxic
+		?a: they
+	?a consequently do not remove ?b
+		?a: they
+		?b: ammonium-nitrogen
+
+
+label:    sent_23
+sentence: Speech contexts filtered to remove or mask low-frequency f0 energy elicited contrastive context effects .
+
+ppatt:
+	?a filtered to remove ?b
+		?a: Speech contexts
+		?b: mask low-frequency f0 energy
+	?a elicited ?b
+		?a: Speech contexts filtered to remove or mask low-frequency f0 energy
+		?b: contrastive context effects
+
+
+label:    sent_24
+sentence: Treatments to remove or occlude DVAs are consequently unnecessary . As macrophages , activated microglia remove potentially deleterious debris and promote tissue repair .
+
+ppatt:
+	?a remove ?b
+		?a: Treatments
+		?b: DVAs
+	?a occlude
+		?a: Treatments
+	?a are consequently unnecessary . As ?b
+		?a: Treatments to remove or occlude DVAs
+		?b: macrophages
+	?a remove ?b
+		?a: activated microglia
+		?b: potentially deleterious debris
+	?a promote ?b
+		?a: activated microglia
+		?b: tissue repair
+
+
+label:    sent_25
+sentence: Technology Update : Existing technologies can remove arsenic , but at a cost .
+
+ppatt:
+
+
+
+label:    sent_26
+sentence: We remove finite-size effects by extrapolation and we find lower energies than previously reported .
+
+ppatt:
+	?a remove ?b by ?c
+		?a: We
+		?b: finite-size effects
+		?c: extrapolation
+	?a find ?b
+		?a: we
+		?b: lower energies
+	?a than previously reported
+		?a: we
+
+

@@ -1,0 +1,452 @@
+label:    sent_1
+sentence: To stop or not to stop : the quest for long-term viral suppression .
+
+ppatt:
+
+
+
+label:    sent_2
+sentence: In western Africa , the subjective need for contraception remained unchanged ; about 46 % of married or cohabiting women reported a desire to stop and/or postpone childbearing for at least two years .
+
+ppatt:
+	In ?a , ?b remained unchanged
+		?a: western Africa
+		?b: the subjective need for contraception
+	?a reported ?b
+		?a: about 46 % of married or cohabiting women
+		?b: a desire to stop and/or postpone childbearing for at least two years
+	?a stop ?b for ?c
+		?a: a desire
+		?b: childbearing
+		?c: at least two years
+	postpone ?a
+		?a: childbearing
+
+
+label:    sent_3
+sentence: Consequently , by utilizing the similar mechanisms for immune cells to migrate through the body , tumor cells migrate via blood stream , survive against selective pressures in other organs they stop by , achieve re-growth as metastasis , or make a clinical relapse by traveling back to the primary site .
+
+ppatt:
+	utilizing ?a ?b
+		?a: the similar mechanisms for immune cells to migrate through the body
+		?b: tumor cells
+	?a migrate through ?b
+		?a: the similar mechanisms for immune cells
+		?b: the body
+	Consequently , ?a migrate via ?b
+		?a: tumor cells
+		?b: blood stream
+	?a survive against ?b in ?c
+		?a: tumor cells
+		?b: selective pressures
+		?c: other organs
+	?a stop ?b
+		?a: they
+		?b: by
+	?a achieve ?b
+		?a: they
+		?b: re-growth as metastasis
+	?a make ?b
+		?a: they
+		?b: a clinical relapse
+	?a traveling back to ?b
+		?a: they
+		?b: the primary site
+
+
+label:    sent_4
+sentence: The only way to effectively decrease the occurrence of rape on college campuses is to stop the perpetrators .
+
+ppatt:
+	?a effectively decrease ?b
+		?a: The only way
+		?b: the occurrence of rape on college campuses
+	?a is to stop ?b
+		?a: The only way to effectively decrease the occurrence of rape on college campuses
+		?b: the perpetrators
+
+
+label:    sent_5
+sentence: The visibility of the bleeding point for a long period of time is very crucial for the surgeon to stop the bleeding .
+
+ppatt:
+	?a is very crucial for ?b to stop ?c
+		?a: The visibility of the bleeding point for a long period of time
+		?b: the surgeon
+		?c: the bleeding
+
+
+label:    sent_6
+sentence: Provided there are no safety issues to stop their progress , this new class of compound will be a major advance in the herpesvirus antiviral field .
+
+ppatt:
+	Provided ?a
+		?a: no safety issues to stop their progress
+	there are ?a
+		?a: no safety issues to stop their progress
+	?a stop ?b
+		?a: no safety issues
+		?b: their progress
+	?a will be a major advance in ?b
+		?a: this new class of compound
+		?b: the herpesvirus antiviral field
+
+
+label:    sent_7
+sentence: The use of executed prisoners as a source of organ transplants in China must stop . In 2003 and 2005 the main reason for not having converted to group housing was that farmers would stop keeping sows by 2013 .
+
+ppatt:
+	?a must stop . In ?b
+		?a: The use of executed prisoners as a source of organ transplants in China
+		?b: 2003
+	?a must stop . In ?b
+		?a: The use of executed prisoners as a source of organ transplants in China
+		?b: 2005
+	?a not having converted to ?b
+		?a: the main reason
+		?b: group housing
+	?a was ?b
+		?a: the main reason for not having converted to group housing
+		?b: SOMETHING := farmers would stop keeping sows by 2013
+	?a would stop ?b by ?c
+		?a: farmers
+		?b: keeping sows
+		?c: 2013
+
+
+label:    sent_8
+sentence: The results show that cells harbouring mutant alleles of genes encoding Smc5/6-complex proteins rapidly stop growing after telomerase loss . It is also increasingly being used for off-license indications to prevent bleeding in operations where blood loss is likely to be high , and/or to stop bleeding that is proving difficult to control by other means .
+
+ppatt:
+	?a show ?b ?c
+		?a: The results
+		?b: SOMETHING := cells harbouring mutant alleles of genes encoding Smc5/6-complex proteins rapidly stop growing after telomerase loss
+		?c: SOMETHING := It is also increasingly being used for off-license indications to prevent bleeding in operations where blood loss is likely to be high , and/or to stop bleeding that is proving difficult to control by other means
+	?a harbouring ?b
+		?a: cells
+		?b: mutant alleles of genes encoding Smc5/6-complex proteins
+	?a encoding ?b
+		?a: genes
+		?b: Smc5/6-complex proteins
+	?a rapidly stop growing after ?b
+		?a: cells harbouring mutant alleles of genes encoding Smc5/6-complex proteins
+		?b: telomerase loss
+	?a is also increasingly being used for ?b
+		?a: It
+		?b: off-license indications to prevent bleeding in operations where blood loss is likely to be high , and/or to stop bleeding that is proving difficult to control by other means
+	?a prevent ?b
+		?a: off-license indications
+		?b: bleeding in operations where blood loss is likely to be high , and/or to stop bleeding that is proving difficult to control by other means
+	?a where ?b is likely to be high
+		?a: operations
+		?b: blood loss
+	?a stop ?b
+		?a: blood loss
+		?b: bleeding that is proving difficult to control by other means
+	?a is proving difficult to control by ?b
+		?a: bleeding
+		?b: other means
+
+
+label:    sent_9
+sentence: Hunters were presented with six scenarios depicting hypothetical CWD prevalence levels and human health risks from the disease ( e.g. , death ) , and asked if they would continue or stop hunting deer in the state .
+
+ppatt:
+	?a were presented with ?b
+		?a: Hunters
+		?b: six scenarios depicting hypothetical CWD prevalence levels and human health risks from the disease
+	?a depicting ?b
+		?a: six scenarios
+		?b: hypothetical CWD prevalence levels from the disease
+	?a depicting ?b
+		?a: six scenarios
+		?b: human health risks
+	?a is/are death
+		?a: the disease
+	?a asked
+		?a: Hunters
+	?a would continue ?b in ?c
+		?a: they
+		?b: hunting deer
+		?c: the state
+	?a stop
+		?a: they
+
+
+label:    sent_10
+sentence: It seems to be a safe and promising procedure to stabilise the refraction and the corneal topography , and thus to stop the progression of visual loss , thereby avoiding or delaying disease progression and keratoplasty .
+
+ppatt:
+	?a seems to be a safe and promising procedure
+		?a: It
+	?a stabilise ?b
+		?a: a safe and promising procedure
+		?b: the refraction
+	?a stabilise ?b
+		?a: a safe and promising procedure
+		?b: the corneal topography
+	?a thus to stop ?b
+		?a: It
+		?b: the progression of visual loss
+	?a thereby avoiding ?b
+		?a: It
+		?b: disease progression
+	?a thereby avoiding ?b
+		?a: It
+		?b: keratoplasty
+	?a delaying
+		?a: It
+
+
+label:    sent_11
+sentence: These inhibitory events can stop the movement of the ribosome , a phenomenon termed " translational arrest " . Many older farmers indicated that they would stop farming , whereas others found it more profitable to delay the conversion as long as possible .
+
+ppatt:
+	?a can stop ?b
+		?a: These inhibitory events
+		?b: the movement of the ribosome
+	?a is/are a phenomenon
+		?a: the ribosome
+	?a termed " translational arrest
+		?a: a phenomenon
+	" ?a indicated ?b
+		?a: Many older farmers
+		?b: SOMETHING := they would stop farming
+	?a would stop ?b
+		?a: they
+		?b: farming
+	?a found ?b more profitable to delay ?c
+		?a: others
+		?b: it
+		?c: the conversion
+
+
+label:    sent_12
+sentence: Can we stop the stroke epidemic in Pakistan ? [ The glycopeptides : stop or else ? ] . The findings are important for both public health policy planners and human rights activists as high prevalence of stigmatized attitudes among HCWs influence the decision-making process of PLHIV and stop them from accessing voluntary counseling and testing , care , support , and treatment services .
+
+ppatt:
+	Can ?a stop ?b
+		?a: we
+		?b: the stroke epidemic in Pakistan ? [ The glycopeptides
+	?a are important for ?b as ?c
+		?a: The findings
+		?b: public health policy planners
+		?c: high prevalence of stigmatized attitudes among HCWs
+	?a are important for ?b as ?c
+		?a: The findings
+		?b: human rights activists
+		?c: high prevalence of stigmatized attitudes among HCWs
+	?a influence ?b
+		?a: The findings
+		?b: the decision-making process of PLHIV
+	?a stop ?b
+		?a: The findings
+		?b: them
+	?a accessing ?b
+		?a: them
+		?b: voluntary counseling
+	?a accessing ?b
+		?a: them
+		?b: testing
+	?a accessing ?b
+		?a: them
+		?b: care
+	?a accessing ?b
+		?a: them
+		?b: treatment services
+
+
+label:    sent_13
+sentence: Success was evaluated in terms of total or partial stop of bladder bleeding .
+
+ppatt:
+	?a was evaluated in ?b
+		?a: Success
+		?b: terms of total or partial of bladder bleeding
+
+
+label:    sent_14
+sentence: Physicians were encouraged to stop the AADs after the 6-week treatment period .
+
+ppatt:
+	?a were encouraged to stop ?b after ?c
+		?a: Physicians
+		?b: the AADs
+		?c: the 6-week treatment period
+
+
+label:    sent_15
+sentence: The fracture risk reduction rate , achieved in the course of anti-resorptive therapy , is insufficient for patients with severe osteoporosis to stop the downward spiral of their quality of life ( QoL ) with a simultaneously increasing threat of premature death .
+
+ppatt:
+	?a achieved in ?b
+		?a: The fracture risk reduction rate
+		?b: the course of anti-resorptive therapy
+	?a is insufficient for ?b to stop ?c with ?d
+		?a: The fracture risk reduction rate , achieved in the course of anti-resorptive therapy
+		?b: patients with severe osteoporosis
+		?c: the downward spiral of their quality of life
+		?d: a simultaneously increasing threat of premature death
+	?a is/are QoL
+		?a: life
+
+
+label:    sent_16
+sentence: Therefore , SAP may be an effective nanomaterial for inhibiting cancer progression and metastasis to stop the progression during treatment and removal .
+
+ppatt:
+	Therefore , ?a may be an effective nanomaterial
+		?a: SAP
+	?a inhibiting ?b
+		?a: Therefore , an effective nanomaterial
+		?b: cancer progression
+	?a inhibiting ?b
+		?a: Therefore , an effective nanomaterial
+		?b: metastasis
+	stop ?a during ?b
+		?a: the progression
+		?b: treatment
+	stop ?a during ?b
+		?a: the progression
+		?b: removal
+
+
+label:    sent_17
+sentence: No treatments are currently available that slow , stop , or reverse disease progression in established multiple sclerosis ( MS ) . Women of lower socio-economic status and those not meeting criteria for safe replacement feeding were more likely to initiate breastfeeding , to continue longer and to stop at 6 months when provided with free food within the trial .
+
+ppatt:
+	?a are currently available ?b
+		?a: No treatments
+		?b: SOMETHING := slow , stop , or reverse were more likely to initiate breastfeeding , to continue longer and to stop at 6 months when provided with free food within the trial
+	?a is/are MS
+		?a: established multiple sclerosis
+	?a not meeting ?b
+		?a: those
+		?b: criteria for safe replacement feeding
+	?a were more likely to initiate ?b
+		?a: slow
+		?b: breastfeeding
+	?a were more likely to initiate ?b
+		?a: stop
+		?b: breastfeeding
+	?a were more likely to initiate ?b
+		?a: reverse
+		?b: breastfeeding
+	?a were more likely to to continue ?b
+		?a: slow
+		?b: longer
+	?a were more likely to to continue ?b
+		?a: stop
+		?b: longer
+	?a were more likely to to continue ?b
+		?a: reverse
+		?b: longer
+	?a stop at ?b
+		?a: slow
+		?b: 6 months
+	?a stop at ?b
+		?a: stop
+		?b: 6 months
+	?a stop at ?b
+		?a: reverse
+		?b: 6 months
+	?a when provided with ?b within ?c
+		?a: slow
+		?b: free food
+		?c: the trial
+	?a when provided with ?b within ?c
+		?a: stop
+		?b: free food
+		?c: the trial
+	?a when provided with ?b within ?c
+		?a: reverse
+		?b: free food
+		?c: the trial
+
+
+label:    sent_18
+sentence: There would typically follow a period of experimentation where it was usual to stop and restart medication , often several times .
+
+ppatt:
+	There would typically follow ?a
+		?a: a period of experimentation where it was usual to stop and restart medication , often several times
+	?a where ?b was usual to stop ?c ?d
+		?a: a period of experimentation
+		?b: it
+		?c: medication
+		?d: often several times
+	where ?a was usual to restart
+		?a: it
+
+
+label:    sent_19
+sentence: The biological clock may stop at the time of death in a dead body .
+
+ppatt:
+	?a may stop at ?b
+		?a: The biological clock
+		?b: the time of death in a dead body
+
+
+label:    sent_20
+sentence: The authors stop mainly on defining points that justify the complex therapeutical approach of rectal cancer .
+
+ppatt:
+	?a stop mainly on ?b
+		?a: The authors
+		?b: defining points that justify the complex therapeutical approach of rectal cancer
+	?a justify ?b
+		?a: defining points
+		?b: the complex therapeutical approach of rectal cancer
+
+
+label:    sent_21
+sentence: This stop in the replication of W. chondrophila coincided with the appearance of large aberrant bodies , a form of the bacteria also observed in Chlamydiaceae and associated with persistence .
+
+ppatt:
+	?a coincided with ?b
+		?a: This stop in the replication of W. chondrophila
+		?b: the appearance of large aberrant bodies
+	?a is/are a form of ?b
+		?a: large aberrant bodies
+		?b: the bacteria also observed in Chlamydiaceae and associated with persistence
+	?a also observed in ?b
+		?a: the bacteria
+		?b: Chlamydiaceae
+	associated with ?a
+		?a: persistence
+
+
+label:    sent_22
+sentence: In 7 eyes , vitrectomy could stop the disease progression .
+
+ppatt:
+	In ?a , ?b could stop ?c
+		?a: 7 eyes
+		?b: vitrectomy
+		?c: the disease progression
+
+
+label:    sent_23
+sentence: Why ? Because they stop working on themselves .
+
+ppatt:
+	Why ? Because ?a stop working on ?b
+		?a: they
+		?b: themselves
+
+
+label:    sent_24
+sentence: Unintended pregnancy can occur when women stop one birth control method before starting another .
+
+ppatt:
+	?a can occur
+		?a: Unintended pregnancy
+	when ?a stop ?b
+		?a: women
+		?b: one birth control method
+	?a starting ?b
+		?a: women
+		?b: another
+
+

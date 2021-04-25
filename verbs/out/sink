@@ -1,0 +1,39 @@
+label:    sent_1
+sentence: Mechanism of chromosomal boundary action : roadblock , sink , or loop ? Three models , the roadblock , sink / decoy , and topological loop , have been proposed to explain the insulating activity of boundary elements .
+
+ppatt:
+	?a ?b have been proposed to explain ?c
+		?a: Mechanism of chromosomal boundary action
+		?b: roadblock
+		?c: the insulating activity of boundary elements
+	?a ?b have been proposed to explain ?c
+		?a: Mechanism of chromosomal boundary action
+		?b: sink
+		?c: the insulating activity of boundary elements
+	?a ?b have been proposed to explain ?c
+		?a: Mechanism of chromosomal boundary action
+		?b: loop
+		?c: the insulating activity of boundary elements
+	?a ?b have been proposed to explain ?c
+		?a: Mechanism of chromosomal boundary action
+		?b: Three models
+		?c: the insulating activity of boundary elements
+	?a ?b have been proposed to explain ?c
+		?a: Mechanism of chromosomal boundary action
+		?b: the roadblock
+		?c: the insulating activity of boundary elements
+
+
+label:    sent_2
+sentence: We have encountered a situation in which a sliver from the central position of an abnormal gland did not sink , thereby seemingly negating the test 's utility .
+
+ppatt:
+	?a have encountered ?b
+		?a: We
+		?b: a situation in which a sliver from the central position of an abnormal gland did not sink , thereby seemingly negating the test 's utility
+	?a in ?b did not sink , thereby seemingly negating ?c
+		?a: a situation
+		?b: a sliver from the central position of an abnormal gland
+		?c: the test 's utility
+
+

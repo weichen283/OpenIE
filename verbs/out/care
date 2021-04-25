@@ -1,0 +1,1254 @@
+label:    sent_1
+sentence: The mothers reported the additional factors of inadequate food intake , ill health , inadequate care of children , heavy workload for mothers , inadequate control of family resources by women and a lack of resources for generating income for the family . For 24 extracts ( 70 % acetone ) from wild and cultivated plant species traditionally used for health care of animals we determined the Trolox equivalent antioxidant capacity ( TEAC ) by the two assays 1,1-diphenyl-2-picrylhydrazyl ( DPPH ) and the 2,2'-azinobis ( 3-ethylbenzothiazoline-6-sulphonic acid ) diammonium salt ( ABTS ) .
+
+ppatt:
+	?a reported ?b
+		?a: The mothers
+		?b: the additional factors of inadequate food intake , ill health , inadequate care of children , heavy workload for mothers , by women
+	?a reported ?b
+		?a: The mothers
+		?b: inadequate control of family resources
+	?a reported ?b
+		?a: The mothers
+		?b: a lack of resources for generating income for the family For 24 extracts from wild and cultivated plant species traditionally used for health care of animals
+	?a generating ?b for ?c
+		?a: a lack of resources For 24 extracts from wild and cultivated plant species traditionally used for health care of animals
+		?b: income
+		?c: the family
+	?a is/are 70 % acetone
+		?a: 24 extracts from wild and cultivated plant species traditionally used for health care of animals
+	?a traditionally used for ?b
+		?a: wild and cultivated plant species
+		?b: health care of animals
+	?a determined ?b
+		?a: we
+		?b: the Trolox equivalent antioxidant capacity by the two assays 1,1-diphenyl-2-picrylhydrazyl and the 2,2'-azinobis ( 3-ethylbenzothiazoline-6-sulphonic acid ) diammonium salt
+	?a is/are TEAC
+		?a: the Trolox equivalent antioxidant capacity by the two assays 1,1-diphenyl-2-picrylhydrazyl and the 2,2'-azinobis ( 3-ethylbenzothiazoline-6-sulphonic acid ) diammonium salt
+	?a is/are DPPH
+		?a: by the two assays 1,1-diphenyl-2-picrylhydrazyl
+	?a is/are DPPH
+		?a: the 2,2'-azinobis ( 3-ethylbenzothiazoline-6-sulphonic acid ) diammonium salt
+	?a is/are ABTS
+		?a: the 2,2'-azinobis ( 3-ethylbenzothiazoline-6-sulphonic acid ) diammonium salt
+
+
+label:    sent_2
+sentence: Prevalence of urinary tract infection ( UTI ) in sequential acutely unwell children presenting in primary care : exploratory study .
+
+ppatt:
+	?a is/are UTI
+		?a: urinary tract infection
+	?a presenting in ?b
+		?a: sequential acutely unwell children
+		?b: primary care
+
+
+label:    sent_3
+sentence: It is known that older persons need integrated primary health care .
+
+ppatt:
+	?a is known ?b
+		?a: It
+		?b: SOMETHING := older persons need integrated primary health care
+	?a need ?b
+		?a: older persons
+		?b: integrated primary health care
+
+
+label:    sent_4
+sentence: Key policy drivers worldwide include optimizing patients ' roles in managing their care ; focusing services around patients ' needs and preferences ; and providing information to support patients ' contributions and choices .
+
+ppatt:
+	?a worldwide include optimizing ?b
+		?a: Key policy drivers
+		?b: patients ' roles
+	?a managing ?b
+		?a: Key policy drivers
+		?b: their care
+	?a focusing ?b
+		?a: Key policy drivers
+		?b: services around patients ' needs and preferences
+	?a providing ?b
+		?a: Key policy drivers
+		?b: information to support patients ' contributions and choices
+	?a support ?b
+		?a: information
+		?b: patients ' contributions
+	?a support ?b
+		?a: information
+		?b: choices
+
+
+label:    sent_5
+sentence: Youth exiting foster care often experience difficulties transitioning into adulthood .
+
+ppatt:
+	?a foster ?b
+		?a: Youth exiting
+		?b: care
+	?a often experience ?b
+		?a: SOMETHING := Youth exiting foster care
+		?b: difficulties transitioning into adulthood
+	?a transitioning into ?b
+		?a: difficulties
+		?b: adulthood
+
+
+label:    sent_6
+sentence: Yet there is no clear definition as to what the term means or how patients ' information needs inform and shape information provision and patient care .
+
+ppatt:
+	Yet there is ?a
+		?a: no clear definition as to what the term means or how patients ' information needs inform and shape information provision and patient care
+	?a as to ?b ?c how ?d needs inform ?e
+		?a: no clear definition
+		?b: what
+		?c: the term means
+		?d: patients ' information
+		?e: shape information provision
+	?a as to ?b ?c how ?d needs inform ?e
+		?a: no clear definition
+		?b: what
+		?c: the term means
+		?d: patients ' information
+		?e: patient care
+
+
+label:    sent_7
+sentence: Data reveal that the AIDS orphans in group homes reported the best outcomes in three domains of psychosocial well-being , followed by those in the orphanages and then the kinship care .
+
+ppatt:
+	?a reveal ?b
+		?a: Data
+		?b: SOMETHING := the AIDS orphans in group homes reported the best outcomes in three domains of psychosocial well-being , followed by those in the orphanages and then the kinship care
+	?a reported ?b
+		?a: the AIDS orphans in group homes
+		?b: the best outcomes in three domains of psychosocial well-being
+	?a followed by ?b
+		?a: the AIDS orphans in group homes
+		?b: those in the orphanages and then the kinship care
+
+
+label:    sent_8
+sentence: Despite guidelines for nutritional practise and care , 20-55 % of patients are still at risk of complications to insufficient nutrition intake .
+
+ppatt:
+	Despite ?a , ?b are still at risk of ?c to ?d
+		?a: guidelines for nutritional practise and care
+		?b: 20-55 % of patients
+		?c: complications
+		?d: insufficient nutrition intake
+
+
+label:    sent_9
+sentence: Permanent team members ( other professionals ) assessed and recommended dental care more frequently than residents .
+
+ppatt:
+	?a is/are other professionals
+		?a: Permanent team members assessed and recommended dental care more frequently than residents
+	?a assessed ?b
+		?a: Permanent team members more frequently than residents
+		?b: dental care
+	recommended ?a
+		?a: dental care
+
+
+label:    sent_10
+sentence: Care providers ' perceptions of the importance of oral care and its performance within everyday caregiving for nursing home residents with dementia .
+
+ppatt:
+
+
+
+label:    sent_11
+sentence: Themes related to the nurses ' statements about oral hygiene within caregiving were Care , Responsibility for care and Information .
+
+ppatt:
+	?a were Care
+		?a: Themes related to the nurses ' statements about oral hygiene within caregiving
+	?a Responsibility for ?b
+		?a: Themes related to the nurses ' statements about oral hygiene within caregiving
+		?b: care
+	?a Responsibility for ?b
+		?a: Themes related to the nurses ' statements about oral hygiene within caregiving
+		?b: Information
+
+
+label:    sent_12
+sentence: Oral health-related knowledge and beliefs were frequent among non-dentists primary health care workers , suggesting that primary health care which integrates oral health represents an attainable goal .
+
+ppatt:
+	?a were frequent among ?b , suggesting ?c
+		?a: Oral health-related knowledge
+		?b: non-dentists primary health care workers
+		?c: SOMETHING := primary health care which integrates oral health represents an attainable goal
+	?a were frequent among ?b , suggesting ?c
+		?a: beliefs
+		?b: non-dentists primary health care workers
+		?c: SOMETHING := primary health care which integrates oral health represents an attainable goal
+	?a integrates ?b
+		?a: primary health care
+		?b: oral health
+	?a represents ?b
+		?a: primary health care which integrates oral health
+		?b: an attainable goal
+
+
+label:    sent_13
+sentence: In resource-poor regions or areas stricken hardest by the AIDS epidemic , kinship care may not sufficiently serve the needs of AIDS orphans .
+
+ppatt:
+	?a stricken hardest by ?b
+		?a: resource-poor regions
+		?b: the AIDS epidemic
+	?a stricken hardest by ?b
+		?a: areas
+		?b: the AIDS epidemic
+	In ?a , ?b may not sufficiently serve ?c
+		?a: resource-poor regions stricken hardest by the AIDS epidemic
+		?b: kinship care
+		?c: the needs of AIDS orphans
+	In ?a , ?b may not sufficiently serve ?c
+		?a: areas
+		?b: kinship care
+		?c: the needs of AIDS orphans
+
+
+label:    sent_14
+sentence: Health care is delivered by complex systems often involving large numbers of individuals and organisations .
+
+ppatt:
+	?a is delivered by ?b
+		?a: Health care
+		?b: complex systems often involving large numbers of individuals and organisations
+	?a often involving ?b
+		?a: complex systems
+		?b: large numbers of individuals and organisations
+
+
+label:    sent_15
+sentence: However , oral health may not be a frequent concern of multi-professional teams taking care of older persons .
+
+ppatt:
+	However , ?a may not be a frequent concern of ?b
+		?a: oral health
+		?b: multi-professional teams taking care of older persons
+	?a taking ?b
+		?a: multi-professional teams
+		?b: care of older persons
+
+
+label:    sent_16
+sentence: The oral caregiving in nursing homes for persons with dementia often becomes complicated due to the patients ' lack of compliance , which in turn can result in giving oral care a low priority in daily care .
+
+ppatt:
+	?a often becomes complicated due to ?b
+		?a: The oral caregiving in nursing homes for persons with dementia
+		?b: the patients ' lack of compliance , which in turn can result in giving oral care a low priority in daily care
+	?a in ?b can result
+		?a: compliance
+		?b: turn
+	?a giving ?b ?c
+		?a: which
+		?b: oral care
+		?c: a low priority in daily care
+
+
+label:    sent_17
+sentence: Initial analysis of an interview study with patients about their experiences of lymphoma identified a strong emergent theme suggesting people were surprised to receive good care in the UK National Health Service .
+
+ppatt:
+	?a identified ?b
+		?a: Initial analysis of an interview study with patients about their experiences of lymphoma
+		?b: a strong emergent theme suggesting people were surprised to receive good care in the UK National Health Service
+	?a suggesting
+		?a: a strong emergent theme people were surprised to receive good care in the UK National Health Service
+	?a ?b were surprised to receive ?c
+		?a: a strong emergent theme suggesting
+		?b: people
+		?c: good care in the UK National Health Service
+
+
+label:    sent_18
+sentence: Oral health care of the elderly was perceived as a burden by caregivers , and did not follow a standard protocol .
+
+ppatt:
+	?a was perceived as ?b
+		?a: Oral health care of the elderly
+		?b: a burden by caregivers
+	?a did not follow ?b
+		?a: Oral health care of the elderly
+		?b: a standard protocol
+
+
+label:    sent_19
+sentence: Nurses should be able to distinct which nutritional care for which patient , and act upon it . Improving population care with an integrated electronic panel support tool .
+
+ppatt:
+	?a should be able to distinct
+		?a: Nurses
+	should be able to ?a ?b for ?c act upon ?d Improving ?e with ?f
+		?a: which
+		?b: nutritional care patient
+		?c: which
+		?d: it
+		?e: population care
+		?f: an integrated electronic panel support tool
+
+
+label:    sent_20
+sentence: We did not assess the incidence of subsequent non-primary cancers in our patient population or how this incidence affects the patients ' follow-up care and survival .
+
+ppatt:
+	?a did not assess ?b
+		?a: We
+		?b: the incidence of subsequent non-primary cancers in our patient population
+	how ?a affects ?b
+		?a: this incidence
+		?b: the patients ' follow-up care
+	how ?a affects ?b
+		?a: this incidence
+		?b: survival
+
+
+label:    sent_21
+sentence: The 26 included studies addressing chronic care , mental health , breastfeeding , smoking , diet and physical activity , screening and human immunodeficiency virus ( HIV ) infection prevention .
+
+ppatt:
+	?a included ?b
+		?a: The 26
+		?b: studies addressing chronic care , mental health , breastfeeding , smoking , diet and physical activity , screening and human immunodeficiency virus infection prevention
+	?a addressing ?b
+		?a: studies
+		?b: chronic care
+	?a addressing ?b
+		?a: studies
+		?b: mental health
+	?a addressing ?b
+		?a: studies
+		?b: breastfeeding
+	?a addressing ?b
+		?a: studies
+		?b: smoking
+	?a addressing ?b
+		?a: studies
+		?b: diet
+	?a addressing ?b
+		?a: studies
+		?b: physical activity
+	?a addressing ?b
+		?a: studies
+		?b: screening
+	?a addressing ?b
+		?a: studies
+		?b: human immunodeficiency virus infection prevention
+	?a is/are HIV
+		?a: human immunodeficiency virus
+
+
+label:    sent_22
+sentence: If VR-based medical training and assessment is to improve patient care and safety ( i.e. a genuine health gain ) , it has to be based on clinically relevant measurement of performance .
+
+ppatt:
+	?a is to improve ?b
+		?a: VR-based medical training
+		?b: patient
+	?a is to improve ?b
+		?a: assessment
+		?b: patient
+	?a is/are a genuine health gain
+		?a: patient
+	?a has to be based on ?b
+		?a: it
+		?b: clinically relevant measurement of performance
+
+
+label:    sent_23
+sentence: Organizational systems and services that facilitate continuity of caregiver , for example continuity of midwifery care or peer support models , are more likely to facilitate an authentic presence , involving supportive care and a trusting relationship with professionals .
+
+ppatt:
+	?a facilitate ?b
+		?a: Organizational systems , for example continuity of midwifery care or peer support models
+		?b: continuity of caregiver
+	?a facilitate ?b
+		?a: services
+		?b: continuity of caregiver
+	?a are more likely to facilitate ?b
+		?a: Organizational systems that facilitate continuity of caregiver , for example continuity of midwifery care or peer support models
+		?b: an authentic presence , involving supportive care and a trusting relationship with professionals
+	?a are more likely to facilitate ?b
+		?a: services
+		?b: an authentic presence , involving supportive care and a trusting relationship with professionals
+	?a involving ?b
+		?a: an authentic presence
+		?b: supportive care
+	?a involving ?b
+		?a: an authentic presence
+		?b: a trusting relationship with professionals
+
+
+label:    sent_24
+sentence: The Asthma Friendly Pharmacy ( AFP ) model addresses the challenges of providing patient-focused care in a community pharmacy setting by offering education to pharmacists and pharmacy technicians on asthma-related pharmaceutical care services , such as identifying or resolving medication-related problems ; educating patients about asthma and medication-related concepts ; improving communication and strengthening relationships between pharmacists , patients , and other healthcare providers ; and establishing higher expectations for the pharmacist 's role in patient care and public health efforts .
+
+ppatt:
+	?a is/are AFP
+		?a: Asthma Friendly Pharmacy
+	?a addresses ?b
+		?a: The Asthma Friendly Pharmacy model
+		?b: the challenges of providing patient-focused care in a community pharmacy setting by offering education to pharmacists and pharmacy technicians on asthma-related pharmaceutical care services such as identifying or resolving medication-related problems educating patients about asthma and medication-related concepts improving communication and strengthening relationships between pharmacists , patients , and other healthcare providers
+	?a providing ?b in ?c
+		?a: the challenges
+		?b: patient-focused care
+		?c: a community pharmacy setting
+	offering ?a on ?b
+		?a: education to pharmacists and pharmacy technicians
+		?b: asthma-related pharmaceutical care services
+	such as identifying ?a
+		?a: medication-related problems
+	resolving ?a
+		?a: medication-related problems
+	educating ?a
+		?a: patients about asthma and medication-related concepts
+	improving ?a
+		?a: communication between pharmacists , patients , and other healthcare providers
+	improving ?a
+		?a: strengthening
+	improving ?a
+		?a: relationships
+	?a establishing ?b
+		?a: The Asthma Friendly Pharmacy model
+		?b: higher expectations for the pharmacist 's role in patient care and public health efforts
+
+
+label:    sent_25
+sentence: Mental health symptoms are present from the earliest stages of RA and it may be appropriate to initiate multidisciplinary care as soon as practicable , although its efficacy requires a further detailed study across primary and secondary care .
+
+ppatt:
+	?a are present from ?b
+		?a: Mental health symptoms
+		?b: the earliest stages of RA
+	?a may be appropriate to initiate ?b
+		?a: it
+		?b: multidisciplinary care
+	?a as soon as practicable
+		?a: it
+	?a requires ?b
+		?a: its efficacy
+		?b: a further detailed study across primary and secondary care
+
+
+label:    sent_26
+sentence: Confidential care and support for nurses struggling with alcohol and drug addiction .
+
+ppatt:
+	?a struggling with ?b
+		?a: nurses
+		?b: alcohol
+	?a struggling with ?b
+		?a: nurses
+		?b: drug addiction
+
+
+label:    sent_27
+sentence: Multidisciplinary care ( MDC ) is accepted as best practice in cancer treatment planning and care .
+
+ppatt:
+	?a is/are MDC
+		?a: Multidisciplinary care
+	?a is accepted as ?b
+		?a: Multidisciplinary care
+		?b: best practice in cancer treatment
+
+
+label:    sent_28
+sentence: Primary Health Care ( PHC ) is the most common health care experienced by Canadians and is an important source of chronic disease prevention and management ; however , PHC providers say they have little information about their patient populations , especially groups of patients with multiple conditions .
+
+ppatt:
+	?a is/are PHC
+		?a: Primary Health Care
+	?a is the most common health care
+		?a: Primary Health Care
+	?a experienced by ?b
+		?a: the most common health care
+		?b: Canadians
+	experienced by ?a ?b
+		?a: Canadians
+		?b: is an important source of chronic disease prevention and management
+	?a is an important source of ?b
+		?a: Primary Health Care
+		?b: chronic disease prevention
+	?a is an important source of ?b
+		?a: Primary Health Care
+		?b: management
+	however , ?a say ?b
+		?a: PHC providers
+		?b: SOMETHING := they have little information about their patient populations , especially groups of patients with multiple conditions
+	?a have ?b about ?c ?d
+		?a: they
+		?b: little information
+		?c: their patient populations
+		?d: especially groups of patients with multiple conditions
+
+
+label:    sent_29
+sentence: Supportive care , including physical and rehabilitative interventions , speech therapy , occupational therapy , and nursing care , has a key role in the late stage of disease .
+
+ppatt:
+	?a has ?b in ?c
+		?a: Supportive care , including physical and rehabilitative interventions , speech therapy , occupational therapy , and nursing care
+		?b: a key role
+		?c: the late stage of disease
+
+
+label:    sent_30
+sentence: In the Southeast United States , HIV care is provided in a context of disproportionate HIV prevalence and barriers to care , including rural locales , higher proportions of African American and uninsured patients , and inadequate health care workforce and infrastructure .
+
+ppatt:
+	In ?a , ?b is provided in ?c
+		?a: the Southeast United States
+		?b: HIV care
+		?c: a context of disproportionate HIV prevalence and barriers to care , including rural locales , higher proportions of African American and uninsured patients , and inadequate health care
+
+
+label:    sent_31
+sentence: Hospice care was so good during the study that overall quality of life improved as a result of standard care and left little room for improvement in other variables .
+
+ppatt:
+	?a was so good during ?b
+		?a: Hospice care
+		?b: the study that overall quality of life improved as a result of standard care and left little room for improvement in other variables
+	?a improved as ?b
+		?a: overall quality of life
+		?b: a result of standard care
+	?a improved as ?b
+		?a: overall quality of life
+		?b: left little room for improvement in other variables
+
+
+label:    sent_32
+sentence: Findings emphasize that nursing care needs to ensure that Holocaust survivor residents participate in activities , receive timely health care , and receive recognition of their life experiences . Diabetes Networks have been introduced to provide guidance from people with diabetes and local health professionals with different skills to ensure that diabetes care is well organized , sustainable and delivers quality care .
+
+ppatt:
+	?a emphasize ?b
+		?a: Findings
+		?b: SOMETHING := nursing care needs to ensure that Holocaust survivor residents participate in activities , receive timely health care , and receive recognition of their life experiences
+	?a needs to ensure ?b ?c
+		?a: nursing care
+		?b: SOMETHING := Holocaust survivor residents participate in activities
+		?c: SOMETHING := receive timely health care
+	?a participate in ?b
+		?a: Holocaust survivor residents
+		?b: activities
+	?a receive timely ?b
+		?a: nursing care
+		?b: health care
+	?a receive ?b
+		?a: Holocaust survivor residents
+		?b: recognition of their life experiences
+	?a have been introduced to provide ?b with ?c to ensure ?d
+		?a: Diabetes Networks
+		?b: guidance from people with diabetes and local health professionals
+		?c: different skills
+		?d: SOMETHING := diabetes care is well organized
+	?a is well organized
+		?a: diabetes care
+	?a delivers ?b
+		?a: diabetes care
+		?b: quality care
+
+
+label:    sent_33
+sentence: Health care is a fundamental human right in Europe , and all Member States recognise everyone 's right to the access to preventive healthcare and to receive medical care in the event of sickness or pregnancy .
+
+ppatt:
+	?a is a fundamental human right in ?b
+		?a: Health care
+		?b: Europe
+	?a recognise ?b to ?c
+		?a: all Member States
+		?b: everyone 's right
+		?c: the access to preventive healthcare
+	?a receive ?b in ?c
+		?a: all Member States
+		?b: medical care
+		?c: the event of sickness or pregnancy
+
+
+label:    sent_34
+sentence: Emergency clinicians often care for patients with terminal illness who are receiving hospice care and many more patients who may be in need of such care .
+
+ppatt:
+	?a often care for ?b
+		?a: Emergency clinicians
+		?b: patients with terminal illness who are receiving hospice care
+	?a often care for ?b
+		?a: Emergency clinicians
+		?b: many more patients who may be in need of such care
+	?a are receiving ?b
+		?a: patients with terminal illness
+		?b: hospice care
+	are receiving ?a ?b
+		?a: hospice care
+		?b: many more patients who may be in need of such care
+	?a may be in need of ?b
+		?a: many more patients
+		?b: such care
+
+
+label:    sent_35
+sentence: Whilst participants themselves perceived SPC as aiming to maximise the quality of life of the patient and family across all domains of care , they perceived that some health professionals and community members viewed palliative care largely as symptom control and terminal care for access after all disease-modifying treatment has been exhausted .
+
+ppatt:
+	?a ?b perceived ?c
+		?a: participants
+		?b: themselves
+		?c: SPC
+	?a aiming to maximise ?b
+		?a: participants
+		?b: the quality of life of the patient and family across all domains of care
+	?a perceived ?b ?c
+		?a: they
+		?b: SOMETHING := some health professionals and community members viewed palliative care largely as symptom control and terminal care for access after all disease-modifying treatment
+		?c: SOMETHING := has been exhausted
+	?a viewed ?b largely as ?c
+		?a: some health professionals
+		?b: palliative care
+		?c: symptom control for access after all disease-modifying treatment
+	?a viewed ?b largely as ?c
+		?a: community members
+		?b: palliative care
+		?c: symptom control for access after all disease-modifying treatment
+	?a viewed ?b largely as ?c
+		?a: some health professionals
+		?b: palliative care
+		?c: terminal care
+	?a viewed ?b largely as ?c
+		?a: community members
+		?b: palliative care
+		?c: terminal care
+	?a has been exhausted
+		?a: they
+
+
+label:    sent_36
+sentence: These include expectations of timely and culturally appropriate care , and strong ties to family and kin , but do not accord with other research findings that suggest Aboriginal women must receive care from same sex clinicians or that care is often delayed .
+
+ppatt:
+	?a include ?b
+		?a: These
+		?b: expectations of timely and culturally appropriate care
+	?a include ?b
+		?a: These
+		?b: strong ties to family and kin
+	?a do not accord with ?b
+		?a: These
+		?b: other research findings that suggest Aboriginal women must receive care from same sex clinicians or that care is often delayed
+	?a suggest ?b
+		?a: other research findings must receive care from same sex clinicians or that care is often delayed
+		?b: Aboriginal women
+	?a must receive ?b
+		?a: other research findings that suggest Aboriginal women
+		?b: care from same sex clinicians
+	?a is often delayed
+		?a: care
+
+
+label:    sent_37
+sentence: Intrapartum care , normal and operative deliveries , anesthetic and operative interventions in the obese demand extra care .
+
+ppatt:
+
+
+
+label:    sent_38
+sentence: Low results in participants ' attitudes towards patients presenting with substance abuse raises concern that students may harbour prejudice that could impinge upon their professional practice and the way in which they care for these mothers .
+
+ppatt:
+	?a presenting with ?b
+		?a: patients
+		?b: substance abuse
+	?a raises ?b
+		?a: Low results in participants ' attitudes towards patients presenting with substance abuse
+		?b: concern
+	?a could impinge upon ?b
+		?a: prejudice
+		?b: their professional practice
+	?a could impinge upon ?b
+		?a: prejudice
+		?b: the way in which they care for these mothers
+	?a in ?b care for ?c
+		?a: the way
+		?b: they
+		?c: these mothers
+
+
+label:    sent_39
+sentence: The care and condition of people with cystic fibrosis ( CF ) in 34 European countries is reported using data obtained from publications , registries and professionals providing CF patient care .
+
+ppatt:
+	?a is/are CF
+		?a: cystic fibrosis
+	?a is reported using ?b
+		?a: The care of people with cystic fibrosis in 34 European countries
+		?b: data obtained from publications , registries and professionals providing CF patient care
+	?a is reported using ?b
+		?a: condition
+		?b: data obtained from publications , registries and professionals providing CF patient care
+	?a obtained from ?b
+		?a: data
+		?b: publications , providing CF patient care
+	?a obtained from ?b
+		?a: data
+		?b: registries
+	?a obtained from ?b
+		?a: data
+		?b: professionals
+	?a providing ?b
+		?a: publications
+		?b: CF patient care
+	?a providing ?b
+		?a: registries
+		?b: CF patient care
+	?a providing ?b
+		?a: professionals
+		?b: CF patient care
+
+
+label:    sent_40
+sentence: Four themes emerged : ' embodied care ' which discusses the impact of work on the nurse 's physical and emotional health ; ' quantity/quality care ' which addresses increasing pressures of work and ability to provide quality care ; ' organisational ( non ) care ' raising the seeming lack of support from management ; and ' ( un ) collegial/self care ' where bullying and professional relationships were raised .
+
+ppatt:
+	?a emerged
+		?a: Four themes
+	?a discusses ?b
+		?a: embodied care
+		?b: the impact of work on the nurse 's physical and emotional health which addresses increasing pressures of work and ability to provide quality care
+	?a is/are quantity/quality care
+		?a: the nurse 's physical and emotional health
+	?a addresses ?b
+		?a: the impact of work on the nurse 's physical and emotional health
+		?b: increasing pressures of work
+	?a addresses ?b
+		?a: the impact of work on the nurse 's physical and emotional health
+		?b: ability to provide quality care
+	?a provide ?b
+		?a: ability
+		?b: quality care
+	?a raising ?b
+		?a: organisational care
+		?b: the seeming lack of support from management
+	?a raising ?b
+		?a: organisational care
+		?b: un ) collegial/self care ' where bullying and professional relationships were raised
+	?a where ?b were raised
+		?a: un ) collegial/self care
+		?b: bullying and professional relationships
+
+
+label:    sent_41
+sentence: Little is known about the proportion of women in the US who receive combination care or the sequence in which this care is delivered .
+
+ppatt:
+	?a is known about ?b
+		?a: Little
+		?b: the proportion of women in the US who receive combination care or the sequence in which this care is delivered
+	?a receive ?b
+		?a: the US
+		?b: combination care
+	?a receive ?b
+		?a: the US
+		?b: the sequence in which this care is delivered
+	?a in ?b is delivered
+		?a: the sequence
+		?b: this care
+
+
+label:    sent_42
+sentence: In providing palliative care and hospice in a veterinary outpatient primary care setting it is important to manage all aspects of the patient 's needs as well as the primary disease process , and to understand that veterinary palliative care and hospice do not require a special degree or board certification .
+
+ppatt:
+	providing ?a in ?b ?c
+		?a: palliative care
+		?b: a veterinary outpatient primary care setting
+		?c: it
+	providing ?a in ?b ?c
+		?a: hospice
+		?b: a veterinary outpatient primary care setting
+		?c: it
+	?a is important to manage ?b
+		?a: it
+		?b: all aspects of the patient 's needs as well as the primary disease process
+	?a understand ?b
+		?a: it
+		?b: SOMETHING := veterinary palliative care and hospice do not require a special degree or board certification
+	?a do not require ?b
+		?a: veterinary palliative care
+		?b: a special degree
+	?a do not require ?b
+		?a: hospice
+		?b: a special degree
+	?a do not require ?b
+		?a: veterinary palliative care
+		?b: board certification
+	?a do not require ?b
+		?a: hospice
+		?b: board certification
+
+
+label:    sent_43
+sentence: There is a need to develop an understanding of factors that appear to be protective against stress , to identify how they can be enhanced and to develop ways to minimise the impact of those factors that have a detrimental impact on the well-being of carers and on those for whom they care .
+
+ppatt:
+	There is ?a
+		?a: a need to develop an understanding of factors that appear to be protective against stress to identify how they can be enhanced and to develop ways to minimise the impact of those factors that have a detrimental impact on the well-being of carers and on those for whom they care
+	?a develop ?b
+		?a: a need
+		?b: an understanding of factors that appear to be protective against stress
+	?a appear to be protective against ?b
+		?a: factors
+		?b: stress
+	?a identify ?b
+		?a: a need
+		?b: SOMETHING := how they can be enhanced
+	how ?a can be enhanced
+		?a: they
+	?a develop ?b to minimise ?c
+		?a: a need
+		?b: ways
+		?c: the impact of those factors that have a detrimental impact on the well-being of carers and on those for whom they care
+	?a have ?b on ?c
+		?a: those factors
+		?b: a detrimental impact
+		?c: the well-being of carers
+	?a have ?b on ?c
+		?a: those factors
+		?b: a detrimental impact
+		?c: those for whom they care
+	?a for ?b ?c care
+		?a: those
+		?b: whom
+		?c: they
+
+
+label:    sent_44
+sentence: This exploration was conducted through an iterative , phenomenological , qualitative research methodology that consisted of open-ended interviews with a multi-disciplinary representation of health professionals and a sample of consumers for whom they care .
+
+ppatt:
+	?a was conducted through ?b
+		?a: This exploration
+		?b: an iterative , research methodology that consisted of open-ended interviews with a multi-disciplinary representation of health professionals and a sample of consumers for whom they care
+	?a consisted of ?b
+		?a: an iterative , research methodology
+		?b: open-ended interviews with a multi-disciplinary representation of health professionals
+	?a consisted of ?b
+		?a: an iterative , research methodology
+		?b: a sample of consumers for whom they care
+	?a for ?b ?c care
+		?a: a sample of consumers
+		?b: whom
+		?c: they
+
+
+label:    sent_45
+sentence: Permeability of the cells for lactose might be improved by increased oleic acid content of the cellular components in which care the lactose incorporated into the cells would be utilized as the energy source during storage .
+
+ppatt:
+	?a might be improved by ?b
+		?a: Permeability of the cells for lactose
+		?b: increased oleic acid content of the cellular components in which care the lactose incorporated into the cells would be utilized as the energy source during storage
+	?a incorporated into ?b
+		?a: the lactose
+		?b: the cells
+	?a in ?b ?c would be utilized as ?d during ?e
+		?a: the cellular components
+		?b: care
+		?c: the lactose incorporated into the cells
+		?d: the energy source
+		?e: storage
+
+
+label:    sent_46
+sentence: Registered nurses who delegate to UP must be given time for mentoring such that the nursing care is safe care of high quality .
+
+ppatt:
+	?a delegate to ?b
+		?a: Registered nurses
+		?b: UP
+	?a must be given time
+		?a: Registered nurses who delegate to UP
+	?a mentoring ?b ?c
+		?a: given time
+		?b: such
+		?c: SOMETHING := the nursing care is safe care of high quality
+	?a is safe care of ?b
+		?a: the nursing care
+		?b: high quality
+
+
+label:    sent_47
+sentence: Recommendations for general practice with families that might be adapted by nurses to different settings in which they care for families with diabetes are included .
+
+ppatt:
+	?a might be adapted by ?b to ?c
+		?a: families
+		?b: nurses
+		?c: different settings in which they care for families with diabetes
+	?a in ?b care for ?c
+		?a: different settings
+		?b: they
+		?c: families with diabetes
+	?a are included
+		?a: Recommendations for general practice with families that might be adapted by nurses to different settings in which they care for families with diabetes
+
+
+label:    sent_48
+sentence: There is legitimate reason for optimism that , with education and thoughtful review , physicians will be able to improve the manner in which we care for older individuals .
+
+ppatt:
+	There is ?a
+		?a: legitimate reason for optimism that , with education and thoughtful review , physicians will be able to improve the manner in which we care for older individuals
+	with ?a , ?b will be able to improve ?c
+		?a: education and thoughtful review
+		?b: physicians
+		?c: the manner in which we care for older individuals
+	?a in ?b care for ?c
+		?a: the manner
+		?b: we
+		?c: older individuals
+
+
+label:    sent_49
+sentence: In its dedication to advancing the scientific foundations of biodiversity conservation and placing that science at the service of society in a world whose variety , wildness , and beauty we care for conservation biology represents both a continuation and radical reconfiguration of the traditional relationship between science and conservation .
+
+ppatt:
+	?a advancing ?b
+		?a: its dedication
+		?b: the scientific foundations of biodiversity conservation
+	?a placing
+		?a: the scientific foundations of biodiversity conservation
+	?a ?b ?c care for ?d
+		?a: a world
+		?b: whose variety
+		?c: we
+		?d: conservation biology
+	?a ?b ?c care for ?d
+		?a: a world
+		?b: wildness
+		?c: we
+		?d: conservation biology
+	?a ?b ?c care for ?d
+		?a: a world
+		?b: beauty
+		?c: we
+		?d: conservation biology
+	In ?a that ?b represents ?c
+		?a: its dedication to advancing the scientific foundations of biodiversity conservation and placing
+		?b: science at the service of society in a world whose variety , wildness , and beauty we care for conservation biology
+		?c: a continuation of the traditional relationship between science and conservation
+	In ?a that ?b represents ?c
+		?a: its dedication to advancing the scientific foundations of biodiversity conservation and placing
+		?b: science at the service of society in a world whose variety , wildness , and beauty we care for conservation biology
+		?c: radical reconfiguration
+
+
+label:    sent_50
+sentence: The study will address two important gaps in the research literature : ( 1 ) the relationship between pre-death distress and post-death outcomes and ( 2 ) family caregivers ' anticipation and preparation of the death of the person for whom they care .
+
+ppatt:
+	?a will address ?b
+		?a: The study
+		?b: two important gaps in the research literature
+	?a for ?b ?c care
+		?a: the person
+		?b: whom
+		?c: they
+
+
+label:    sent_51
+sentence: Acute type A aortic dissection ( AAD ) remains a highly lethal entity for which emergent surgical correction is standard care .
+
+ppatt:
+	?a is/are AAD
+		?a: Acute type A aortic dissection
+	?a remains a highly lethal entity
+		?a: Acute type A aortic dissection
+	?a for ?b is standard care
+		?a: a highly lethal entity
+		?b: emergent surgical correction
+
+
+label:    sent_52
+sentence: Higher parental educational attainment , a stronger perception that parents care about them , and a higher self-esteem reduce female adolescents ' risk for excessive weight as young adults , while being African American or Native American increases it . The authors examined whether the groups of aged people who , following the public invitation of the gerontological institutes in the capitals of two countries , i. e. in Budapest and in Sofia requested health examination respectively preventive care , are in conformity regarding their organic and mental health state , their personality characteristics and the self-evaluation of their own situation .
+
+ppatt:
+	?a is/are a stronger perception
+		?a: Higher parental educational attainment , that parents care about them
+	?a is/are a stronger perception
+		?a: a higher self-esteem reduce female adolescents ' risk for excessive weight as young adults while being African American or Native American increases it
+	?a ?b care about ?c
+		?a: Higher parental educational attainment
+		?b: parents
+		?c: them
+	?a care about ?b ?c
+		?a: parents
+		?b: them
+		?c: a higher self-esteem reduce female adolescents ' risk for excessive weight as young adults while being African American or Native American increases it
+	?a reduce ?b
+		?a: a higher self-esteem
+		?b: female adolescents ' risk for excessive weight as young adults
+	?a increases ?b
+		?a: being African American
+		?b: it
+	?a increases ?b
+		?a: Native American
+		?b: it
+	?a ?b examined in ?c
+		?a: Higher parental educational attainment , that parents care about them
+		?b: The authors
+		?c: SOMETHING := the groups of aged people who , following the public invitation of the gerontological institutes in the capitals of two countries , in Budapest and in Sofia requested health examination respectively preventive care , are conformity regarding their organic and mental health state , their personality characteristics and the self-evaluation of their own situation
+	?a ?b examined in ?c
+		?a: a higher self-esteem reduce female adolescents ' risk for excessive weight as young adults while being African American or Native American increases it
+		?b: The authors
+		?c: SOMETHING := the groups of aged people who , following the public invitation of the gerontological institutes in the capitals of two countries , in Budapest and in Sofia requested health examination respectively preventive care , are conformity regarding their organic and mental health state , their personality characteristics and the self-evaluation of their own situation
+	?a following the public invitation of ?b in ?c
+		?a: who
+		?b: the gerontological institutes of two countries , in Budapest and in Sofia requested health examination respectively preventive care
+		?c: the capitals
+	?a ?b in ?c requested ?d ?e
+		?a: two countries
+		?b: in Budapest
+		?c: Sofia
+		?d: health examination
+		?e: respectively preventive care
+	?a are in conformity regarding ?b
+		?a: the groups of aged people who , following the public invitation of the gerontological institutes in the capitals of two countries , in Budapest and in Sofia requested health examination respectively preventive care
+		?b: their organic and mental health state , their personality characteristics and the self-evaluation of their own situation
+
+
+label:    sent_53
+sentence: The reality that nurses primarily care for older adults is not reflected in images on BSN program web sites .
+
+ppatt:
+	The reality ?a ?b
+		?a: The reality that nurses primarily care for older adults
+		?b: SOMETHING := nurses primarily care for older adults
+	?a primarily care for ?b
+		?a: nurses
+		?b: older adults
+	?a is not reflected in ?b
+		?a: The reality that nurses primarily care for older adults
+		?b: images on BSN program web sites
+
+
+label:    sent_54
+sentence: The losers are the medical profession , the patients for whom they care and , in the broadest sense , our society as a whole .
+
+ppatt:
+	?a are the medical profession
+		?a: The losers
+	?a is/are the patients
+		?a: the medical profession
+	?a for ?b ?c care in ?d
+		?a: the patients
+		?b: whom
+		?c: they
+		?d: the broadest sense
+
+
+label:    sent_55
+sentence: This paper develops a model in which risk-averse individuals care about health but also place a value on protection from the financial consequences of rare but costly events .
+
+ppatt:
+	?a develops ?b
+		?a: This paper
+		?b: a model in which risk-averse individuals care about health but also place a value on protection from the financial consequences of rare but costly events
+	?a in ?b care about ?c
+		?a: a model
+		?b: risk-averse individuals
+		?c: health
+	?a also place ?b on ?c
+		?a: risk-averse individuals
+		?b: a value
+		?c: protection from the financial consequences of rare but costly events
+
+
+label:    sent_56
+sentence: The purpose of this article is to identify and categorize types of wound care products appropriate for the various types of wounds that clinicians care for and manage in the home .
+
+ppatt:
+	?a is to identify ?b
+		?a: The purpose of this article
+		?b: types of wound care products appropriate for the various types of wounds that clinicians care for and manage in the home
+	?a is to categorize
+		?a: The purpose of this article
+	?a clinicians ?b
+		?a: wounds
+		?b: care
+	?a manage in ?b
+		?a: that
+		?b: for the home
+
+
+label:    sent_57
+sentence: Attention to family caregivers ' satisfaction with home care for mental illness could have a significant impact on the well-being of family caregivers , as well as on the health of the patients with mental illness for whom they care .
+
+ppatt:
+	?a could have ?b on ?c
+		?a: Attention to family caregivers ' satisfaction with home care for mental illness
+		?b: a significant impact
+		?c: the well-being of family caregivers
+	?a could have ?b on ?c
+		?a: Attention to family caregivers ' satisfaction with home care for mental illness
+		?b: a significant impact
+		?c: the health of the patients with mental illness for whom they care
+	?a for ?b ?c care
+		?a: mental illness
+		?b: whom
+		?c: they
+
+
+label:    sent_58
+sentence: These characteristics need to be considered by clinicians who care for this patient population and factored into case-mix adjustment when evaluating variation in clinical and functional outcomes among different SB clinics . 6 suggestions are offered for health care workers who care for AIDS patients : 1 ) look at who gets AIDS and who does not as a guide to understanding transmission ; 2 ) remember that deadliness and contagiousness are not the same ; 3 ) be aware of emotions that get in the way of professional decisions ; 4 ) gather information on AIDS to counteract hysteria ; 5 ) take the risk of personal involvement ; and 6 ) for administrators , deal with employee grievances and be sure that the hospital 's patient advocacy system is intact .
+
+ppatt:
+	?a need to be considered by ?b
+		?a: These characteristics
+		?b: clinicians who care for this patient population
+	?a care for ?b
+		?a: clinicians
+		?b: this patient population
+	?a factored into ?b
+		?a: These characteristics
+		?b: case-mix adjustment
+	?a when evaluating ?b
+		?a: These characteristics
+		?b: variation in clinical and functional outcomes among different SB clinics
+	?a are offered for ?b
+		?a: 6 suggestions
+		?b: health care workers who care for AIDS patients
+	?a care for ?b
+		?a: health care workers
+		?b: AIDS patients
+	at ?a gets ?b
+		?a: who
+		?b: AIDS
+	?a does not as ?b
+		?a: who
+		?b: a guide to understanding transmission
+	?a understanding ?b
+		?a: a guide
+		?b: transmission
+	?a are not the same
+		?a: deadliness
+	?a are not the same
+		?a: contagiousness
+	be aware of ?a
+		?a: emotions that get in the way of professional decisions
+	?a get in ?b
+		?a: emotions
+		?b: the way of professional decisions
+	gather ?a
+		?a: information on AIDS to counteract hysteria
+	?a counteract ?b
+		?a: information on AIDS
+		?b: hysteria
+	take ?a
+		?a: the risk of personal involvement
+	for ?a , deal with ?b
+		?a: administrators
+		?b: employee grievances
+	be sure that 's ?a is intact
+		?a: the hospital patient advocacy system
+
+
+label:    sent_59
+sentence: The experts were nurses who care for these patients for at least a year and make use of nursing diagnoses .
+
+ppatt:
+	?a were nurses
+		?a: The experts
+	?a care for ?b for ?c
+		?a: nurses
+		?b: these patients
+		?c: at least a year
+	?a make ?b
+		?a: who
+		?b: use of nursing diagnoses
+
+
+label:    sent_60
+sentence: Experiencing sensory spirituality can provide both caregivers and those for whom they care a blessed respite for bodies , minds , and spirits .
+
+ppatt:
+	Experiencing ?a
+		?a: sensory spirituality
+	?a can provide ?b
+		?a: SOMETHING := Experiencing sensory spirituality
+		?b: caregivers for whom they care a blessed respite for bodies , minds , and spirits
+	?a can provide ?b
+		?a: SOMETHING := Experiencing sensory spirituality
+		?b: those
+	?a for ?b ?c care ?d
+		?a: caregivers
+		?b: whom
+		?c: they
+		?d: a blessed respite for bodies , minds , and spirits
+	?a for ?b ?c care ?d
+		?a: those
+		?b: whom
+		?c: they
+		?d: a blessed respite for bodies , minds , and spirits
+
+
+label:    sent_61
+sentence: Findings show the extent of ageing women 's existing dependency on others for help , regard for close ones whom they care for , opinion from family and friends , and guarding the health of people who are important for them do not directly affect the intention of using Infohealth , but are rather mediated by perceived usefulness .
+
+ppatt:
+	?a show ?b
+		?a: Findings
+		?b: the extent of ageing women 's existing dependency on others
+	?a help ?b
+		?a: the extent of ageing women 's existing dependency on others
+		?b: regard for close ones whom they care for , opinion from family and friends and guarding the health of people who are important for them
+	?a ?b ?c care for ?d
+		?a: close ones
+		?b: whom
+		?c: they
+		?d: opinion from family and friends
+	?a guarding ?b
+		?a: they
+		?b: the health of people who are important for them
+	?a are important for ?b
+		?a: people
+		?b: them
+	?a do not directly affect ?b
+		?a: Findings
+		?b: the intention of using Infohealth
+	?a using ?b
+		?a: the intention
+		?b: Infohealth
+	?a are rather mediated by ?b
+		?a: Findings
+		?b: perceived usefulness
+
+
+label:    sent_62
+sentence: Aesthetic modalities in nursing practice expand our understanding of the human condition of the clients for whom we care and enhance our awareness of the meaning of being alive in health-illness situations .
+
+ppatt:
+	?a expand ?b
+		?a: Aesthetic modalities in nursing practice
+		?b: our understanding of the human condition of the clients for whom we care and enhance our awareness of the meaning of being alive in health-illness situations
+	?a for ?b ?c care
+		?a: the clients
+		?b: whom
+		?c: we
+	?a enhance ?b
+		?a: we
+		?b: our awareness of the meaning
+	?a being alive in ?b
+		?a: we
+		?b: health-illness situations
+
+

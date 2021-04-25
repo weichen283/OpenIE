@@ -1,0 +1,236 @@
+label:    sent_1
+sentence: Do they actually work across borders ? Self-management education can work in multiethnic , high-needs communities in New Zealand .
+
+ppatt:
+	Do ?a actually work across ?b ?c
+		?a: they
+		?b: borders
+		?c: SOMETHING := Self-management education can work in multiethnic , communities in New Zealand
+	?a can work in ?b
+		?a: Self-management education
+		?b: multiethnic , communities in New Zealand
+
+
+label:    sent_2
+sentence: Tracking the right ventricle work in progress . Overall 52 % of oncologists were not prepared to work on weekends .
+
+ppatt:
+	Tracking ?a ?b
+		?a: the right ventricle work in progress
+		?b: Overall 52 % of oncologists
+	?a were not prepared to work on ?b
+		?a: Overall 52 % of oncologists
+		?b: weekends
+
+
+label:    sent_3
+sentence: In 1903 both moved to work in the university psychiatric clinic in Munich . A great variety of materials have been reported to work in SALDI .
+
+ppatt:
+	In ?a ?b moved to work in ?c
+		?a: 1903
+		?b: both
+		?c: the university psychiatric clinic in Munich
+	?a have been reported to work in ?b
+		?a: A great variety of materials
+		?b: SALDI
+
+
+label:    sent_4
+sentence: How does electroconvulsive therapy work ? Furthermore , government policy should work to encourage improved filial behavior in youth . * The Cyberwand incorporates coaxial high- and low-frequency ultrasonic probes that work synergistically .
+
+ppatt:
+	How does ?a Furthermore
+		?a: electroconvulsive therapy work
+	?a should work to encourage ?b
+		?a: government policy
+		?b: improved filial behavior in youth
+	?a incorporates ?b
+		?a: The Cyberwand
+		?b: coaxial high- and low-frequency ultrasonic probes that work synergistically
+	?a work synergistically
+		?a: coaxial high- and low-frequency ultrasonic probes
+
+
+label:    sent_5
+sentence: Healthcare professionals work in teams but are rarely trained together .
+
+ppatt:
+	?a work in ?b
+		?a: Healthcare professionals
+		?b: teams
+	?a are rarely trained together
+		?a: Healthcare professionals
+
+
+label:    sent_6
+sentence: Some technologists work within prison infirmaries or in mobile units parked on prison grounds .
+
+ppatt:
+	?a work within ?b
+		?a: Some technologists
+		?b: prison infirmaries
+	?a work within ?b
+		?a: Some technologists
+		?b: mobile units parked on prison grounds
+	?a parked on ?b
+		?a: mobile units
+		?b: prison grounds
+
+
+label:    sent_7
+sentence: Adolescents work in varied environments and are exposed to hazards .
+
+ppatt:
+	?a work in ?b
+		?a: Adolescents
+		?b: varied environments
+	?a are exposed to ?b
+		?a: Adolescents
+		?b: hazards
+
+
+label:    sent_8
+sentence: Interventions are being developed to work with masculinity and to ' change men ' . BIRN tools are designed to be modular and therefore can work with pre-existing tools .
+
+ppatt:
+	?a are being developed to work with ?b
+		?a: Interventions
+		?b: masculinity
+	change ?a
+		?a: men ' BIRN tools
+	?a are designed to be modular
+		?a: men ' BIRN tools
+	?a therefore can work with ?b
+		?a: men ' BIRN tools
+		?b: pre-existing tools
+
+
+label:    sent_9
+sentence: The newly developed assays are fast and work without expensive ready-to-use mixtures .
+
+ppatt:
+	?a are fast
+		?a: The newly developed assays
+	?a work without ?b
+		?a: The newly developed assays
+		?b: expensive ready-to-use mixtures
+
+
+label:    sent_10
+sentence: Return to work following road accidents : factors associated with late work resumption .
+
+ppatt:
+
+
+
+label:    sent_11
+sentence: Do all threats work the same way ? HIV and sex work : the ten commandments of Pattaya . Overall 77 ( 38 % ) oncologists intended to work part time .
+
+ppatt:
+	Do ?a work ?b
+		?a: all threats
+		?b: the same way ? work
+	?a is/are HIV
+		?a: the same way ? work
+	?a sex
+		?a: the same way ? work
+	?a is/are Overall 77
+		?a: the ten commandments of Pattaya . intended to work part time
+	work ?a
+		?a: part time
+
+
+label:    sent_12
+sentence: Psychotherapy relationships that work II .
+
+ppatt:
+	?a work ?b
+		?a: Psychotherapy relationships
+		?b: II
+
+
+label:    sent_13
+sentence: The hematocrit paradox -- how does blood doping really work ? Panelists discuss how ACOs will work and how providers can get ready .
+
+ppatt:
+	?a how does ?b really work
+		?a: The hematocrit paradox
+		?b: blood doping
+	?a ?b discuss ?c
+		?a: The hematocrit paradox -- how does blood doping really work
+		?b: Panelists
+		?c: SOMETHING := how ACOs will work
+	how ?a will work
+		?a: ACOs
+	how ?a can get ready
+		?a: providers
+
+
+label:    sent_14
+sentence: Musicians often work part-time or seasonally or are self-employed .
+
+ppatt:
+	?a often work part-time or seasonally
+		?a: Musicians
+
+
+label:    sent_15
+sentence: There is no need for position change intraoperatively and two teams may work simultaneously .
+
+ppatt:
+	There is ?a intraoperatively
+		?a: no need for position change
+	?a may work simultaneously
+		?a: two teams
+
+
+label:    sent_16
+sentence: They are also valuable partners with whom adult practitioners should closely work .
+
+ppatt:
+	?a are also valuable partners
+		?a: They
+	?a with ?b ?c should closely work
+		?a: also valuable partners
+		?b: whom
+		?c: adult practitioners
+
+
+label:    sent_17
+sentence: The mechanisms by which these proteins work are generally not well understood .
+
+ppatt:
+	?a by ?b are generally not well understood
+		?a: The mechanisms
+		?b: these proteins work
+
+
+label:    sent_18
+sentence: It is heavily influenced by the industrial environment in which they work . Family-centred care : what works and what does not work .
+
+ppatt:
+	?a is heavily influenced by ?b
+		?a: It
+		?b: the industrial environment in which they work . Family-centred care what works and what does not work
+	?a in ?b work ?c
+		?a: the industrial environment
+		?b: they
+		?c: Family-centred care
+	?a ?b does not work
+		?a: what works
+		?b: what
+
+
+label:    sent_19
+sentence: Evolutionary biology : to work or not to work . Lung surfactant : how it does and does not work .
+
+ppatt:
+	?a work
+		?a: Evolutionary biology
+	not to work ?a
+		?a: Lung surfactant
+	how ?a does does not work
+		?a: it
+
+

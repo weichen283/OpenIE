@@ -1,0 +1,274 @@
+label:    sent_1
+sentence: New technologies have enabled such research to advance in the recent years .
+
+ppatt:
+	?a have enabled ?b
+		?a: New technologies
+		?b: such research to advance in the recent years
+	?a advance in ?b
+		?a: such research
+		?b: the recent years
+
+
+label:    sent_2
+sentence: Infusions and option of airway management are ready to set in advance .
+
+ppatt:
+	?a are ready to set in ?b
+		?a: Infusions of airway management
+		?b: advance
+	?a are ready to set in ?b
+		?a: option
+		?b: advance
+
+
+label:    sent_3
+sentence: Many decisions taken in advance , have enormous impact on the quality of implementation .
+
+ppatt:
+	?a taken in ?b
+		?a: Many decisions
+		?b: advance
+	?a have ?b on ?c
+		?a: Many decisions taken in advance
+		?b: enormous impact
+		?c: the quality of implementation
+
+
+label:    sent_4
+sentence: Engaging neuroscience to advance translational research in brain barrier biology . A randomized trial of advance care planning is possible . Only 3.2 % reported that discussing advance directives is time consuming .
+
+ppatt:
+	Engaging ?a ?b
+		?a: neuroscience
+		?b: A randomized trial of advance care planning
+	advance ?a ?b
+		?a: translational research in brain barrier biology
+		?b: A randomized trial of advance care planning
+	?a advance ?b
+		?a: A randomized trial
+		?b: care planning
+	?a is possible
+		?a: A randomized trial of advance care planning
+	?a reported ?b
+		?a: Only 3.2 %
+		?b: SOMETHING := that discussing advance directives is time consuming
+	discussing ?a
+		?a: advance directives
+	?a discussing advance directives is ?b consuming
+		?a: Only 3.2 %
+		?b: time
+
+
+label:    sent_5
+sentence: Predicted BMI may advance the BMI that each patient would probably achieve after surgery .
+
+ppatt:
+	?a may advance ?b ?c
+		?a: Predicted BMI
+		?b: the BMI
+		?c: SOMETHING := each patient would probably achieve after surgery
+	?a would probably achieve after ?b
+		?a: each patient
+		?b: surgery
+
+
+label:    sent_6
+sentence: Human rights and health : opportunities to advance rural occupational health .
+
+ppatt:
+	?a advance ?b
+		?a: opportunities
+		?b: rural occupational health
+
+
+label:    sent_7
+sentence: The positive attitudes and perceptions of care managers about advance directives .
+
+ppatt:
+	?a advance ?b
+		?a: The positive attitudes of care managers
+		?b: directives
+	?a advance ?b
+		?a: perceptions
+		?b: directives
+
+
+label:    sent_8
+sentence: Furthermore , it can be used to advance research in this field . to explore views on advance care planning in care homes for older people . staff and family revealed positive opinions towards advance care planning .
+
+ppatt:
+	Furthermore , ?a can be used to advance ?b
+		?a: it
+		?b: research in this field
+	?a explore ?b
+		?a: it
+		?b: views on advance care planning in care homes for older people
+	?a revealed ?b
+		?a: staff
+		?b: positive opinions towards advance care planning
+	?a revealed ?b
+		?a: family
+		?b: positive opinions towards advance care planning
+	?a advance ?b
+		?a: positive opinions
+		?b: care planning
+
+
+label:    sent_9
+sentence: Specific recommendations are made throughout in an attempt to guide and advance the field .
+
+ppatt:
+	?a are made throughout in ?b
+		?a: Specific recommendations
+		?b: an attempt to guide and advance the field
+	?a guide ?b
+		?a: an attempt
+		?b: the field
+	advance ?a
+		?a: the field
+
+
+label:    sent_10
+sentence: A collaborative effort is needed to advance research and improve treatment .
+
+ppatt:
+	?a is needed to advance ?b
+		?a: A collaborative effort
+		?b: research
+	?a is needed to improve ?b
+		?a: A collaborative effort
+		?b: treatment
+
+
+label:    sent_11
+sentence: Program of plenary sessions and advance abstracts of short communications . [ Research advance on non-small cell lung carcinoma with neuroendocrine differentiation ] . The immunolabelling becomes stronger as the age of animals advance through the post-pubertal stage .
+
+ppatt:
+	advance ?a
+		?a: abstracts of short communications
+	?a ?b becomes stronger as ?c
+		?a: Program of plenary sessions
+		?b: The immunolabelling
+		?c: the age of animals
+	?a ?b becomes stronger as ?c
+		?a: advance abstracts of short communications
+		?b: The immunolabelling
+		?c: the age of animals
+	?a advance through ?b
+		?a: Program of plenary sessions
+		?b: the post-pubertal stage
+	?a advance through ?b
+		?a: advance abstracts of short communications
+		?b: the post-pubertal stage
+
+
+label:    sent_12
+sentence: Phase advance with separate and combined melatonin and light treatment .
+
+ppatt:
+
+
+
+label:    sent_13
+sentence: Teaching advance care planning to medical students with a computer-based decision aid .
+
+ppatt:
+	Teaching ?a
+		?a: advance care planning to medical students with a computer-based decision aid
+
+
+label:    sent_14
+sentence: The findings advance our knowledge of ozone precursors in the PRD region .
+
+ppatt:
+	?a advance ?b
+		?a: The findings
+		?b: our knowledge of ozone precursors in the PRD region
+
+
+label:    sent_15
+sentence: Effect of requiring advance approval of chemotherapy on number and cost of ungiven doses .
+
+ppatt:
+	?a requiring ?b
+		?a: Effect
+		?b: advance approval of chemotherapy on number and cost of ungiven doses
+
+
+label:    sent_16
+sentence: The charge to advance theory and improve health outcomes .
+
+ppatt:
+	?a advance ?b
+		?a: The charge
+		?b: theory
+	improve ?a
+		?a: health outcomes
+
+
+label:    sent_17
+sentence: Ongoing investigations should advance the knowledge and experience with this disease in future years .
+
+ppatt:
+	?a should advance ?b in ?c
+		?a: Ongoing investigations
+		?b: the knowledge with this disease
+		?c: future years
+	?a should advance ?b in ?c
+		?a: Ongoing investigations
+		?b: experience
+		?c: future years
+
+
+label:    sent_18
+sentence: We advance a definition of transdisciplinary thinking and link it with complexity theory . The blood studies showed anemia , and advance of ESR .
+
+ppatt:
+	?a advance ?b
+		?a: We
+		?b: a definition of transdisciplinary thinking
+	?a link ?b with ?c
+		?a: We
+		?b: it
+		?c: complexity theory
+	?a showed ?b
+		?a: The blood studies
+		?b: anemia
+	?a showed ?b
+		?a: The blood studies
+		?b: advance of ESR
+
+
+label:    sent_19
+sentence: Transition between advance and delay responses to eastbound transmeridian flights .
+
+ppatt:
+
+
+
+label:    sent_20
+sentence: Contrast-enhanced ultrasonography : advance and current status in abdominal imaging . Off-site systems advance .
+
+ppatt:
+
+
+
+label:    sent_21
+sentence: Antidepressant effects of the sleep/wake cycle phase advance .
+
+ppatt:
+
+
+
+label:    sent_22
+sentence: Fibrosis did not advance as compared with the biopsy specimen .
+
+ppatt:
+	?a did not advance
+		?a: Fibrosis
+	?a compared with ?b
+		?a: Fibrosis
+		?b: the biopsy specimen
+
+

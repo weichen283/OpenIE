@@ -1,0 +1,286 @@
+label:    sent_1
+sentence: Statistical significance was set to 5 % . Prospective , controlled study set at a tertiary medical center .
+
+ppatt:
+	?a was set to ?b at ?c
+		?a: Statistical significance
+		?b: 5 % . Prospective , study set
+		?c: a tertiary medical center
+
+
+label:    sent_2
+sentence: Humanitarian corridor set up in Egypt as Libyan casualties escalate .
+
+ppatt:
+	?a escalate
+		?a: Humanitarian corridor set up in Egypt as Libyan casualties
+
+
+label:    sent_3
+sentence: A focus is set on the methods that enable the exclusion of disturbing sequences .
+
+ppatt:
+	?a is set on ?b
+		?a: A focus
+		?b: the methods that enable the exclusion of disturbing sequences
+	?a enable ?b
+		?a: the methods
+		?b: the exclusion of disturbing sequences
+
+
+label:    sent_4
+sentence: Genzyme deal set to alter biotech landscape .
+
+ppatt:
+	?a deal ?b
+		?a: Genzyme
+		?b: set to alter biotech landscape
+	?a alter ?b
+		?a: set
+		?b: biotech landscape
+
+
+label:    sent_5
+sentence: This study set out to achieve this objective using a prospective observational design .
+
+ppatt:
+	?a set out to achieve ?b using ?c
+		?a: This study
+		?b: this objective
+		?c: a prospective observational design
+
+
+label:    sent_6
+sentence: Simian-human immunodeficiency infection -- is the course set in the acute phase ? Sequential analysis suggests threats set up basic response options of compliance or defiance .
+
+ppatt:
+	?a is the course set in ?b
+		?a: Simian-human immunodeficiency infection
+		?b: the acute phase
+	?a suggests ?b
+		?a: Sequential analysis
+		?b: SOMETHING := threats set up basic response options of compliance or defiance
+	?a set ?b
+		?a: threats
+		?b: up basic response options of compliance or defiance
+
+
+label:    sent_7
+sentence: The fused angle-polished side-pumping coupler is applied to set up the all-fiber configuration .
+
+ppatt:
+	?a is applied to set up ?b
+		?a: The fused angle-polished side-pumping coupler
+		?b: the all-fiber configuration
+
+
+label:    sent_8
+sentence: These results set the standards for a rectum-sparing strategy .
+
+ppatt:
+	?a set ?b
+		?a: These results
+		?b: the standards for a rectum-sparing strategy
+
+
+label:    sent_9
+sentence: The Turkish version of the MHQ met set criteria of reliability and validity .
+
+ppatt:
+	?a met set ?b
+		?a: The Turkish version of the MHQ
+		?b: criteria of reliability and validity
+
+
+label:    sent_10
+sentence: Most studies set the period of immobilization between 4 and 8 weeks .
+
+ppatt:
+	?a set ?b
+		?a: Most studies
+		?b: the period of immobilization between 4 and 8 weeks
+
+
+label:    sent_11
+sentence: Separation voltage was -6 kV and the temperature was set at 20degreesC .
+
+ppatt:
+	?a was -6 kV
+		?a: Separation voltage
+	?a was set at ?b
+		?a: the temperature
+		?b: 20degreesC
+
+
+label:    sent_12
+sentence: Data loggers set in the cages and outside found a <2 degreesC temperature difference .
+
+ppatt:
+	?a set in ?b
+		?a: Data loggers
+		?b: the cages
+	?a found ?b
+		?a: Data loggers
+		?b: a <2 degreesC temperature difference
+
+
+label:    sent_13
+sentence: The epoch was set at 15 s and reintegrated to 30 and 60 s . Diagnoses were set according to the Structured Clinical Interview ( SCID-1 ) for DSM-IV .
+
+ppatt:
+	?a was set at ?b
+		?a: The epoch
+		?b: 15 s
+	?a reintegrated to ?b
+		?a: The epoch
+		?b: 30 and 60 s
+	?a were set according to ?b
+		?a: Diagnoses
+		?b: the Structured Clinical Interview for DSM-IV
+	?a is/are SCID-1
+		?a: the Structured Clinical Interview for DSM-IV
+
+
+label:    sent_14
+sentence: Moral concepts set decision strategies to abstract values .
+
+ppatt:
+	?a set ?b to ?c
+		?a: Moral concepts
+		?b: decision strategies
+		?c: abstract values
+
+
+label:    sent_15
+sentence: The alpha level was set a priori at 0.05 .
+
+ppatt:
+	?a was set a priori at ?b
+		?a: The alpha level
+		?b: 0.05
+
+
+label:    sent_16
+sentence: Porcine heart grafts valves were used to set the techniques .
+
+ppatt:
+	?a were used to set ?b
+		?a: Porcine heart grafts valves
+		?b: the techniques
+
+
+label:    sent_17
+sentence: At risk : the safety agency that failed to set the world on fire .
+
+ppatt:
+	?a failed to set ?b
+		?a: At risk : the safety agency
+		?b: the world on fire
+
+
+label:    sent_18
+sentence: To set up a new analysis method of the traditional Chinese medicine Scorpio .
+
+ppatt:
+	set up ?a
+		?a: a new analysis method of the traditional Chinese medicine Scorpio
+
+
+label:    sent_19
+sentence: The model was set up , parameterized and tested for uptake into growing crops .
+
+ppatt:
+	?a was set up
+		?a: The model
+	?a parameterized
+		?a: The model
+	?a tested for ?b
+		?a: The model
+		?b: uptake into growing crops
+
+
+label:    sent_20
+sentence: Doublet members set close or far apart promoted local or global motion respectively .
+
+ppatt:
+	?a set ?b
+		?a: Doublet members
+		?b: close
+	?a set ?b
+		?a: Doublet members
+		?b: far
+	?a apart promoted ?b respectively
+		?a: Doublet members
+		?b: local or global motion
+
+
+label:    sent_21
+sentence: The differential proteins were analyzed and the initial diagnostic models were set up . Monotherapy was somewhat less effective and set on later .
+
+ppatt:
+	?a were analyzed
+		?a: The differential proteins
+	?a were set up
+		?a: the initial diagnostic models
+	?a was somewhat less effective
+		?a: Monotherapy
+	?a set on ?b
+		?a: Monotherapy
+		?b: later
+
+
+label:    sent_22
+sentence: The towelling is then rolled and set on the surface of cyst-infested soil .
+
+ppatt:
+	?a is then rolled
+		?a: The towelling
+	?a set on ?b
+		?a: The towelling
+		?b: the surface of cyst-infested soil
+
+
+label:    sent_23
+sentence: Casts were changed weekly and set at maximum available ankle dorsiflexion .
+
+ppatt:
+	?a were changed weekly
+		?a: Casts
+	?a set at ?b
+		?a: Casts
+		?b: maximum available ankle dorsiflexion
+
+
+label:    sent_24
+sentence: Ulcer classification is essential , to set treatment strategy and determine prognosis .
+
+ppatt:
+	?a is essential , to set ?b
+		?a: Ulcer classification
+		?b: treatment strategy
+	?a determine ?b
+		?a: Ulcer classification
+		?b: prognosis
+
+
+label:    sent_25
+sentence: All the transformants should be morphologically normal and set seeds .
+
+ppatt:
+	?a should be morphologically normal
+		?a: All the transformants
+	?a set ?b
+		?a: All the transformants
+		?b: seeds
+
+
+label:    sent_26
+sentence: All of these plants were phenotypically normal , fertile and set seeds .
+
+ppatt:
+	?a were phenotypically normal
+		?a: All of these plants
+	?a fertile
+		?a: All of these plants
+
+

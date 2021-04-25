@@ -1,0 +1,40 @@
+obj	Adenosine activated AMPK , to phosphorylate Bcl-X ( L ) .	obj@Bcl-X
+obj	We also find that protein kinase CTheta can phosphorylate CD43 .	obj@CD43
+obj	The mechanisms by which MAP kinases recognize and phosphorylate substrates are not completely understood .	obj@substrates
+
+subj#obj	We found that active Src does not directly phosphorylate any tyrosine residue of PHD2 .	subj@Src obj@residue
+subj#obj	MAP3Ks phosphorylate MAP2Ks , which in turn activate MAPKs .	subj@MAP3Ks obj@MAP2Ks
+subj#obj	Sequence analysis suggested that p38 MAPK could not directly phosphorylate Akt2 .	subj@MAPK obj@Akt2
+
+subj#obj#prep	The protein kinase also can phosphorylate itself on serine and threonine residues .	subj@kinase obj@itself prep_on@serine
+subj#obj#prep	We have found that gastric microsomal membrane extracts phosphorylate Rab11-FIP2 on serine 227 .	subj@extracts obj@Rab11-FIP2 prep_on@serine
+subj#obj#prep	PRL - activated mTOR may phosphorylate p70S6K and 4E-BP1 by restraining PP2A .	subj@mTOR obj@p70S6K prepc_by@restraining
+
+obj#prep	One pathway involves the CaM-Ks that may directly phosphorylate Akt on T308 .	obj@Akt prep_on@T308
+obj#prep	They were able to phosphorylate several chloroplast-destined precursor proteins within their cleavable presequences .	obj@proteins prep_within@presequences
+obj#prep	Also , the mutant protein retains the wild-type ability to phosphorylate proteins on tyrosine .	obj@proteins prep_on@tyrosine
+
+obj#conj	PKCs are activated by DAG and phosphorylate EGFR to reduce its expression and activity .	obj@EGFR conj_and@activated
+obj#conj	All three were able to phosphorylate histone and undergo autophosphorylation .	obj@histone conj_and@undergo
+obj#conj	Ability of the c-mos product to associate with and phosphorylate tubulin .	obj@tubulin conj_and@associate
+
+subj#obj#conj	AMPK up-regulated Sirt1 , and Sirt1 can inversely phosphorylate AMPK .	subj@Sirt1 obj@AMPK conj_and@up-regulated
+subj#obj#conj	Prostaglandin E2 receptor EP1 phosphorylate CREB and mediates MMP2 expression in human cholangiocarcinoma cells .	subj@EP1 obj@CREB conj_and@mediates
+subj#obj#conj	Various kinases phosphorylate their substrates and thereby switch on or off their functions .	subj@kinases obj@substrates conj_and@switch
+
+conj	Other kinases have also been shown more recently to phosphorylate and regulate CFTR activity .	conj_and@regulate
+conj	Recombinant Pfnek3 was able to phosphorylate and stimulate a malarial MAPK ( Pfmap2 ) .	conj_and@stimulate
+conj	Our thin-filament preparations also contain enzymes that phosphorylate and dephosphorylate a specific protein .	conj_and@dephosphorylate
+
+subj#conj	Activated LATS1/2 in turn phosphorylate and inhibit Yes-associated protein ( YAP ) .	subj@LATS1/2 conj_and@inhibit
+subj#conj	Mitogen-activated protein kinases , Erk and p38 , phosphorylate and regulate Foxo1 .	subj@kinases conj_and@regulate
+subj#conj	Unsaturated fatty acids phosphorylate and destabilize ABCA1 through a protein kinase C delta pathway .	subj@acids conj_and@destabilize
+
+subj#obj#prep#conj	PTKs phosphorylate substrates in a sequence-specific manner and relatively short peptide sequences determine selectivity .	subj@PTKs obj@substrates prep_in@manner conj_and@determine
+subj#obj#prep#conj	DARPP32 has multiple phosphorylation sites , and Cdk5 can phosphorylate DARPP32 at Thr75 .	subj@Cdk5 obj@DARPP32 prep_at@Thr75 conj_and@has
+subj#obj#prep#conj	In inside cells , Lats1/2 phosphorylate Yap and prevent its nuclear localization .	subj@Lats1/2 obj@Yap prep_in@cells conj_and@prevent
+
+subj	LKB1 can phosphorylate the Thr174 of BRSK2 , increasing its activity >50-fold .	subj@LKB1
+subj	Solubilization and partial purification of protein kinase systems from brain membranes that phosphorylate calspectin .	subj@membranes
+subj	The non-specific deoxyriboside kinase can phosphorylate all naturally occurring pyrimidine and purine 2'-deoxyribosides .	subj@kinase
+

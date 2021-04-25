@@ -1,0 +1,318 @@
+label:    sent_1
+sentence: Immunohistochemistry was performed to localize podoplanin .
+
+ppatt:
+	?a was performed to localize ?b
+		?a: Immunohistochemistry
+		?b: podoplanin
+
+
+label:    sent_2
+sentence: All these target neurons express and localize specific receptors for GRP .
+
+ppatt:
+	?a express ?b
+		?a: All these target neurons
+		?b: specific receptors for GRP
+	?a localize
+		?a: All these target neurons
+
+
+label:    sent_3
+sentence: We aim here to localize activated regions of an anatomically accurate brain . PDMS membrane valves control and localize PCR reagents in the 380-nL reactors .
+
+ppatt:
+	?a aim here to localize ?b ?c
+		?a: We
+		?b: activated regions of an anatomically accurate brain
+		?c: SOMETHING := PDMS membrane valves control PCR reagents in the 380-nL reactors
+	?a control ?b
+		?a: PDMS membrane valves
+		?b: PCR reagents in the 380-nL reactors
+	?a localize
+		?a: PDMS membrane valves
+
+
+label:    sent_4
+sentence: To localize GmZFP1 mRNA in various tissues , semi-quantative RT-PCR assay was performed .
+
+ppatt:
+	localize ?a in ?b ?c
+		?a: GmZFP1 mRNA
+		?b: various tissues
+		?c: semi-quantative RT-PCR assay
+	?a was performed
+		?a: semi-quantative RT-PCR assay
+
+
+label:    sent_5
+sentence: How to localize parathyroid tumors in primary hyperparathyroidism ? Furthermore , the PM receptors constitutively internalize and localize intracellularly on CK .
+
+ppatt:
+	How to localize ?a ?b
+		?a: parathyroid tumors in primary hyperparathyroidism
+		?b: the PM receptors
+	Furthermore , ?a constitutively internalize on ?b
+		?a: the PM receptors
+		?b: CK
+	?a localize intracellularly
+		?a: the PM receptors
+
+
+label:    sent_6
+sentence: Furthermore , part of the NPs seemed to localize within the cytoplasm .
+
+ppatt:
+	Furthermore , ?a seemed to localize within ?b
+		?a: part of the NPs
+		?b: the cytoplasm
+
+
+label:    sent_7
+sentence: In PI4KIIIalpha mutant follicle cells , Merlin fails to localize to the apical domain .
+
+ppatt:
+	In ?a , ?b fails to localize to ?c
+		?a: PI4KIIIalpha mutant follicle cells
+		?b: Merlin
+		?c: the apical domain
+
+
+label:    sent_8
+sentence: Unconventional actin conformations localize on intermediate filaments in mitosis .
+
+ppatt:
+	?a localize on ?b
+		?a: Unconventional actin conformations
+		?b: intermediate filaments in mitosis
+
+
+label:    sent_9
+sentence: The histone H2A variant macroH2A1 does not localize to the centrosome .
+
+ppatt:
+	?a does not localize to ?b
+		?a: The histone H2A variant macroH2A1
+		?b: the centrosome
+
+
+label:    sent_10
+sentence: Many of these cognitive deficits likely localize to cerebellar and/or basal ganglia dysfunction .
+
+ppatt:
+	?a likely localize to ?b
+		?a: Many of these cognitive deficits
+		?b: cerebellar
+	?a likely localize to ?b
+		?a: Many of these cognitive deficits
+		?b: basal
+
+
+label:    sent_11
+sentence: Lumbar myelography was helpful , but did not always localize the lesion .
+
+ppatt:
+	?a was helpful
+		?a: Lumbar myelography
+	?a did not always localize ?b
+		?a: Lumbar myelography
+		?b: the lesion
+
+
+label:    sent_12
+sentence: The ultrasound was used to localize the abscess and visualize its depth .
+
+ppatt:
+	?a was used to localize ?b
+		?a: The ultrasound
+		?b: the abscess
+	?a was used to visualize ?b
+		?a: The ultrasound
+		?b: its depth
+
+
+label:    sent_13
+sentence: This study demonstrates the feasibility of MDCT to localize the FO and aid TP .
+
+ppatt:
+	?a demonstrates ?b
+		?a: This study
+		?b: the feasibility of MDCT to localize the FO and aid TP
+	?a localize ?b
+		?a: the feasibility of MDCT
+		?b: the FO
+	aid ?a
+		?a: TP
+
+
+label:    sent_14
+sentence: We showed that Pin1 binds phosphorylated PU.1 and they localize together in a nucleus . Salmonella typhimurium lacking ribose chemoreceptors localize in tumor quiescence and induce apoptosis .
+
+ppatt:
+	?a showed ?b
+		?a: We
+		?b: SOMETHING := Pin1 binds phosphorylated PU.1
+	?a binds ?b
+		?a: Pin1
+		?b: phosphorylated PU.1
+	?a localize together in ?b
+		?a: they
+		?b: a nucleus
+	?a lacking ?b
+		?a: Salmonella typhimurium
+		?b: ribose chemoreceptors
+	?a localize in ?b
+		?a: Salmonella typhimurium lacking ribose chemoreceptors
+		?b: tumor quiescence
+	?a induce ?b
+		?a: Salmonella typhimurium lacking ribose chemoreceptors
+		?b: apoptosis
+
+
+label:    sent_15
+sentence: Two isoforms of the cold-inducible mRNA-binding protein RBM3 localize to dendrites and promote translation .
+
+ppatt:
+	?a localize to ?b
+		?a: Two isoforms of the cold-inducible mRNA-binding protein RBM3
+		?b: dendrites
+	?a promote ?b
+		?a: Two isoforms of the cold-inducible mRNA-binding protein RBM3
+		?b: translation
+
+
+label:    sent_16
+sentence: Autoregulatory and repressive inputs localize Hydra Wnt3 to the head organizer .
+
+ppatt:
+	?a ?b localize ?c to ?d
+		?a: Autoregulatory
+		?b: inputs
+		?c: Hydra Wnt3
+		?d: the head organizer
+	?a ?b localize ?c to ?d
+		?a: repressive
+		?b: inputs
+		?c: Hydra Wnt3
+		?d: the head organizer
+
+
+label:    sent_17
+sentence: Burying beetles of the genus Nicrophorus localize small vertebrate carcasses by emitted volatiles . UNC-13 and UNC-10 / rim localize synaptic vesicles to specific membrane domains .
+
+ppatt:
+	?a localize ?b by ?c
+		?a: Burying beetles of the genus Nicrophorus
+		?b: small vertebrate carcasses
+		?c: emitted volatiles
+	?a ?b localize ?c to ?d
+		?a: UNC-13
+		?b: rim
+		?c: synaptic vesicles
+		?d: specific membrane domains
+	?a ?b localize ?c to ?d
+		?a: UNC-10
+		?b: rim
+		?c: synaptic vesicles
+		?d: specific membrane domains
+
+
+label:    sent_18
+sentence: The defined task was to localize and detect MC clusters consisting of seven MCs .
+
+ppatt:
+	?a was to localize ?b
+		?a: The defined task
+		?b: MC clusters consisting of seven MCs
+	?a was to detect
+		?a: The defined task
+	?a consisting of ?b
+		?a: MC clusters
+		?b: seven MCs
+
+
+label:    sent_19
+sentence: The implanted fiducial was used to localize and treat the patients with gating . A method to localize and segment the acute brain infarcts is proposed .
+
+ppatt:
+	?a was used to localize ?b
+		?a: The implanted fiducial
+		?b: the patients with gating
+	?a was used to treat
+		?a: The implanted fiducial
+	?a localize ?b
+		?a: A method
+		?b: the acute brain infarcts
+	?a segment
+		?a: A method
+	?a is proposed
+		?a: A method to localize and segment the acute brain infarcts
+
+
+label:    sent_20
+sentence: Volumetric myelographic magnetic resonance imaging to localize difficult-to-find spinal dural arteriovenous fistulas .
+
+ppatt:
+	?a localize ?b
+		?a: Volumetric myelographic magnetic resonance imaging
+		?b: difficult-to-find spinal dural arteriovenous fistulas
+
+
+label:    sent_21
+sentence: These tools will help the clinician localize the lesion .
+
+ppatt:
+	?a will help ?b
+		?a: These tools
+		?b: SOMETHING := the clinician localize the lesion
+	?a localize ?b
+		?a: the clinician
+		?b: the lesion
+
+
+label:    sent_22
+sentence: Computed tomography-based computer modeling can localize regions of anticipated mechanical impingement in symptomatic patients .
+
+ppatt:
+	?a can localize ?b
+		?a: Computed tomography-based computer modeling
+		?b: regions of anticipated mechanical impingement in symptomatic patients
+
+
+label:    sent_23
+sentence: SCN5A mutations associate with arrhythmic dilated cardiomyopathy and commonly localize to the voltage-sensing mechanism .
+
+ppatt:
+	?a associate with ?b
+		?a: SCN5A mutations
+		?b: arrhythmic dilated cardiomyopathy
+	?a commonly localize to ?b
+		?a: SCN5A mutations
+		?b: the voltage-sensing mechanism
+
+
+label:    sent_24
+sentence: NhpESCs localize to the ICM in chimera and generate pregnancies .
+
+ppatt:
+	?a localize to ?b in ?c
+		?a: NhpESCs
+		?b: the ICM
+		?c: chimera
+	?a generate ?b
+		?a: NhpESCs
+		?b: pregnancies
+
+
+label:    sent_25
+sentence: EPCs are resident in most murine tissue types and localize to human tumor xenografts .
+
+ppatt:
+	?a are resident in ?b
+		?a: EPCs
+		?b: most murine tissue types
+	?a localize to ?b
+		?a: EPCs
+		?b: human tumor xenografts
+
+

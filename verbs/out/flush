@@ -1,0 +1,114 @@
+label:    sent_1
+sentence: Next , calculations of the turbulence-shear interaction pressure are compared to flush microphone measurements at the surface and microphone measurements with a foam covering flush with the surface .
+
+ppatt:
+	Next , ?a are compared to ?b
+		?a: calculations of the turbulence-shear interaction pressure
+		?b: flush microphone measurements at the surface and microphone with a foam covering flush with the surface
+	?a covering ?b
+		?a: a foam
+		?b: flush with the surface
+
+
+label:    sent_2
+sentence: In-situ preservation with double-balloon triple-lumen catheter is an easy technique to preserve organs in uncontrolled donors and is used in many centers to cool and flush the organs .
+
+ppatt:
+	?a is an easy technique
+		?a: In-situ preservation with double-balloon triple-lumen catheter
+	?a preserve ?b
+		?a: an easy technique
+		?b: organs in uncontrolled donors
+	preserve ?a ?b
+		?a: organs in uncontrolled donors
+		?b: is used in many centers to cool and flush the organs
+	?a is used in ?b to cool ?c
+		?a: In-situ preservation with double-balloon triple-lumen catheter
+		?b: many centers
+		?c: the organs
+	?a is used to flush
+		?a: In-situ preservation with double-balloon triple-lumen catheter
+
+
+label:    sent_3
+sentence: Solar ultraviolet ( UV ) radiation causes skin damage including increases in skin thickness , edema , and flush . We placed activated charcoal filters on both the inspired and expired limbs of several contaminated anesthesia machines and measured the time needed to flush the machine so that the delivered concentrations of isoflurane , sevoflurane , and desflurane would be <5 parts per million ( ppm ) .
+
+ppatt:
+	?a is/are UV
+		?a: ultraviolet
+	?a causes ?b
+		?a: Solar ultraviolet radiation
+		?b: skin damage including increases in skin thickness , edema , and flush
+	?a placed ?b on ?c
+		?a: We
+		?b: activated charcoal filters
+		?c: the inspired and expired limbs of several contaminated anesthesia machines
+	?a measured ?b so ?c
+		?a: We
+		?b: the time needed to flush the machine
+		?c: SOMETHING := the delivered concentrations of isoflurane , sevoflurane , and desflurane would be <5 parts per million
+	?a needed to flush ?b
+		?a: the time
+		?b: the machine
+	?a would be <5 parts per ?b
+		?a: the delivered concentrations of isoflurane , sevoflurane , and desflurane
+		?b: million
+	?a is/are ppm
+		?a: million
+
+
+label:    sent_4
+sentence: Two microphones are flush with the walls of each head . AHA is flush as its president exits at the top of the heap in compensation .
+
+ppatt:
+	?a are flush with ?b
+		?a: Two microphones
+		?b: the walls of each head
+	?a is flush
+		?a: AHA
+	?a exits at ?b in ?c
+		?a: its president
+		?b: the top of the heap
+		?c: compensation
+
+
+label:    sent_5
+sentence: While one tract was used to flush normal saline solution via a nasocystic catheter , multiple stents were deployed in others to facilitate drainage of necrotic contents .
+
+ppatt:
+	?a was used to flush ?b via ?c
+		?a: one tract
+		?b: normal saline solution
+		?c: a nasocystic catheter
+	?a were deployed in ?b to facilitate ?c
+		?a: multiple stents
+		?b: others
+		?c: drainage of necrotic contents
+
+
+label:    sent_6
+sentence: Two microphones are flush with the measurement head walls and one is in the cap closing one side of the measured duct .
+
+ppatt:
+	?a are flush with ?b
+		?a: Two microphones
+		?b: the measurement head walls
+	?a is in the cap
+		?a: one
+	?a closing ?b
+		?a: the cap
+		?b: one side of the measured duct
+
+
+label:    sent_7
+sentence: The transducers were flush with the polished surfaces but discernible to the participants .
+
+ppatt:
+	?a were flush with ?b
+		?a: The transducers
+		?b: the polished surfaces
+	?a discernible to ?b
+		?a: The transducers
+		?b: the participants
+
+

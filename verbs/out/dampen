@@ -1,0 +1,226 @@
+label:    sent_1
+sentence: Bcl-2 antagonists kill plasmacytoid dendritic cells from lupus-prone mice and dampen interferon-alpha production .
+
+ppatt:
+	?a kill ?b from ?c
+		?a: Bcl-2 antagonists
+		?b: plasmacytoid dendritic cells
+		?c: lupus-prone mice
+	?a dampen ?b
+		?a: Bcl-2 antagonists
+		?b: interferon-alpha production
+
+
+label:    sent_2
+sentence: They also indicate that M-channels act pre- and postsynaptically to dampen neuronal excitability .
+
+ppatt:
+	?a also indicate ?b
+		?a: They
+		?b: SOMETHING := M-channels act pre- and postsynaptically to dampen neuronal excitability
+	?a act pre- to dampen ?b
+		?a: M-channels
+		?b: neuronal excitability
+	?a act postsynaptically to dampen
+		?a: M-channels
+
+
+label:    sent_3
+sentence: To dampen this overzealous process , a counter-regulatory loop is initiated .
+
+ppatt:
+	dampen ?a ?b
+		?a: this overzealous process
+		?b: a counter-regulatory loop
+	?a is initiated
+		?a: a counter-regulatory loop
+
+
+label:    sent_4
+sentence: A variety of antioxidants dampen LPS-induced MAPK phosphorylation and inflammatory cytokine production .
+
+ppatt:
+	?a dampen ?b
+		?a: A variety of antioxidants
+		?b: LPS-induced MAPK phosphorylation
+	?a dampen ?b
+		?a: A variety of antioxidants
+		?b: inflammatory cytokine production
+
+
+label:    sent_5
+sentence: Previous research suggested that high doses of benzodiazepines may dampen NEG-ALC priming . Copycat innate lymphoid cells dampen gut inflammation .
+
+ppatt:
+	?a suggested ?b
+		?a: Previous research
+		?b: SOMETHING := high doses of benzodiazepines may dampen NEG-ALC priming
+	?a may dampen ?b
+		?a: high doses of benzodiazepines
+		?b: NEG-ALC priming
+	?a dampen ?b
+		?a: Copycat innate lymphoid cells
+		?b: gut inflammation
+
+
+label:    sent_6
+sentence: This effect tends to dampen ion binding and lower RNA folding stability . PTX3 released from activated leukocytes functioned locally to dampen neutrophil recruitment and regulate inflammation .
+
+ppatt:
+	?a tends to dampen ?b
+		?a: This effect
+		?b: ion binding
+	?a tends to dampen ?b
+		?a: This effect
+		?b: lower RNA folding stability
+	?a released from ?b
+		?a: PTX3
+		?b: activated leukocytes
+	?a functioned locally to dampen ?b
+		?a: PTX3 released from activated leukocytes
+		?b: neutrophil recruitment
+	?a functioned locally to regulate ?b
+		?a: PTX3 released from activated leukocytes
+		?b: inflammation
+
+
+label:    sent_7
+sentence: Adaptive behavior increases the generalist 's ability to both synchronize and dampen resource cycles .
+
+ppatt:
+	?a increases ?b
+		?a: Adaptive behavior
+		?b: the generalist 's ability to both synchronize and dampen resource cycles
+	?a both synchronize ?b
+		?a: the generalist 's ability
+		?b: resource cycles
+	dampen ?a
+		?a: resource cycles
+
+
+label:    sent_8
+sentence: [Is is necessary to dampen the pressure of prostheses at the joint ? ] . Here we describe an adaptive mechanism to dampen fluid loss during hypoxia .
+
+ppatt:
+	?a is necessary to dampen ?b
+		?a: [Is
+		?b: the pressure of prostheses at the joint
+	?a is/are ]
+		?a: the joint
+	Here ?a describe ?b
+		?a: we
+		?b: an adaptive mechanism to dampen fluid loss during hypoxia
+	?a dampen ?b
+		?a: an adaptive mechanism
+		?b: fluid loss during hypoxia
+
+
+label:    sent_9
+sentence: This task requires the individual to dampen hand vibration while walking .
+
+ppatt:
+	?a requires ?b to dampen ?c
+		?a: This task
+		?b: the individual
+		?c: hand vibration
+	?a walking
+		?a: This task
+
+
+label:    sent_10
+sentence: We hypothesized that LDHC treatment would dampen proinflammatory responses without impairing neutrophil function .
+
+ppatt:
+	?a hypothesized ?b
+		?a: We
+		?b: SOMETHING := LDHC treatment would dampen proinflammatory responses without impairing neutrophil function
+	?a would dampen ?b
+		?a: LDHC treatment
+		?b: proinflammatory responses
+	?a impairing ?b
+		?a: LDHC treatment
+		?b: neutrophil function
+
+
+label:    sent_11
+sentence: Motor point blocks may partially dampen spasticity in selected muscles of some patients .
+
+ppatt:
+	?a may partially dampen ?b in ?c
+		?a: Motor point blocks
+		?b: spasticity
+		?c: selected muscles of some patients
+
+
+label:    sent_12
+sentence: In contrast , eddy / wind interactions dampen eddy-induced upwelling in cyclones .
+
+ppatt:
+	In ?a , ?b dampen ?c
+		?a: contrast
+		?b: eddy / wind interactions
+		?c: eddy-induced upwelling in cyclones
+
+
+label:    sent_13
+sentence: Hence , therapeutics that dampen inflammation and enhance resolution are of considerable interest .
+
+ppatt:
+	?a dampen ?b
+		?a: therapeutics
+		?b: inflammation
+	?a enhance ?b
+		?a: that
+		?b: resolution
+	Hence , ?a are of considerable interest
+		?a: therapeutics that dampen inflammation and enhance resolution
+
+
+label:    sent_14
+sentence: Treg at the same sites dampen inflammation and prevent immunopathology .
+
+ppatt:
+	?a dampen ?b
+		?a: Treg at the same sites
+		?b: inflammation
+	?a prevent ?b
+		?a: Treg at the same sites
+		?b: immunopathology
+
+
+label:    sent_15
+sentence: These propathogenic cells dampen the early T cell response and might facilitate BCG persistence .
+
+ppatt:
+	?a dampen ?b
+		?a: These propathogenic cells
+		?b: the early T cell response
+	?a might facilitate ?b
+		?a: These propathogenic cells
+		?b: BCG persistence
+
+
+label:    sent_16
+sentence: In turn , these properties enable groups to collectively dampen or amplify social information .
+
+ppatt:
+	In ?a , ?b enable ?c to collectively dampen ?d
+		?a: turn
+		?b: these properties
+		?c: groups
+		?d: social information
+	?a enable to amplify
+		?a: these properties
+
+
+label:    sent_17
+sentence: These complex and nonlinear forest-atmosphere interactions can dampen or amplify anthropogenic climate change .
+
+ppatt:
+	?a can dampen ?b
+		?a: These complex and nonlinear forest-atmosphere interactions
+		?b: anthropogenic climate change
+	?a amplify
+		?a: These complex and nonlinear forest-atmosphere interactions
+
+

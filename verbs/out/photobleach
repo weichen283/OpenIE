@@ -1,0 +1,350 @@
+label:    sent_1
+sentence: We investigate this issue using multiply labeled dextran polymers that we intentionally photobleach to the background on a single-molecule basis .
+
+ppatt:
+	?a investigate ?b
+		?a: We
+		?b: this issue using multiply labeled dextran polymers that we intentionally photobleach to the background on a single-molecule basis
+	?a using ?b
+		?a: this issue
+		?b: multiply labeled dextran polymers that we intentionally photobleach to the background on a single-molecule basis
+	?a ?b intentionally photobleach to ?c on ?d
+		?a: multiply labeled dextran polymers
+		?b: we
+		?c: the background
+		?d: a single-molecule basis
+
+
+label:    sent_2
+sentence: Such signals do not blink or photobleach under prolonged excitation , which is an advantage in optical nano-biomarker applications .
+
+ppatt:
+	?a do not blink under ?b
+		?a: Such signals
+		?b: prolonged excitation
+	?a photobleach
+		?a: Such signals
+	?a is an advantage in ?b
+		?a: not blink under prolonged excitation
+		?b: optical nano-biomarker applications
+	?a is an advantage in ?b
+		?a: photobleach
+		?b: optical nano-biomarker applications
+
+
+label:    sent_3
+sentence: In fact , they have the unique characteristic that their single molecule fluorescence intensity remains constant over time ; SWNTs do not " blink " or photobleach under ambient conditions .
+
+ppatt:
+	In ?a , ?b have ?c
+		?a: fact
+		?b: they
+		?c: the unique characteristic that their single molecule fluorescence intensity remains constant over time
+	?a remains constant over ?b
+		?a: their single molecule fluorescence intensity
+		?b: time
+	?a do not " ?b under ?c
+		?a: SWNTs
+		?b: blink "
+		?c: ambient conditions
+	?a do not " ?b under ?c
+		?a: SWNTs
+		?b: photobleach
+		?c: ambient conditions
+
+
+label:    sent_4
+sentence: Fluorescent nanodiamonds ( FNDs ) emit in the near-IR and do not photobleach or photoblink .
+
+ppatt:
+	?a is/are FNDs
+		?a: Fluorescent nanodiamonds
+	?a emit in ?b
+		?a: Fluorescent nanodiamonds
+		?b: the near-IR
+	?a do not photobleach
+		?a: Fluorescent nanodiamonds
+
+
+label:    sent_5
+sentence: These methods have allowed us to demonstrate that the luminescence does not blink even in the picosecond domain and that it does not photobleach either .
+
+ppatt:
+	?a have allowed ?b to demonstrate ?c
+		?a: These methods
+		?b: us
+		?c: SOMETHING := the luminescence does not blink even in the picosecond domain
+	?a does not blink in ?b
+		?a: the luminescence
+		?b: even the picosecond domain
+	?a does not photobleach ?b
+		?a: it
+		?b: either
+
+
+label:    sent_6
+sentence: Up-converting phosphors do not photobleach and are inert to common assay interferants such as hemoglobin .
+
+ppatt:
+	?a do not photobleach
+		?a: Up-converting phosphors
+
+
+label:    sent_7
+sentence: Gold and silver metal nanoparticles are non-toxic , they do not photobleach , are relatively inexpensive , are wavelength-tunable , and can be labeled with antibodies .
+
+ppatt:
+	?a are non-toxic
+		?a: Gold and silver metal nanoparticles
+	?a do not photobleach
+		?a: they
+	?a can be labeled with ?b
+		?a: they
+		?b: antibodies
+
+
+label:    sent_8
+sentence: In addition to the traveling molecules , which photobleach in times on the order of 32 s under continuous irradiation at 2 kW/cm2 , two other spatially fixed populations are observed : one with transition dipole oriented along the c-axis of the crystal with a characteristic photobleaching time greater than 32 h , and one with a characteristic photobleaching time of 18 min .
+
+ppatt:
+	?a photobleach in ?b on ?c
+		?a: the traveling molecules
+		?b: times
+		?c: the order of 32 s under continuous irradiation at 2 kW/cm2
+	?a ?b are observed
+		?a: In addition to the traveling molecules , which photobleach in times on the order of 32 s under continuous irradiation at 2 kW/cm2
+		?b: two other spatially fixed populations
+	?a oriented along ?b
+		?a: transition dipole
+		?b: the c-axis of the crystal with a characteristic photobleaching time greater than 32 h
+
+
+label:    sent_9
+sentence: Interestingly , whereas the CO / HF species are stable with respect to photolysis in Ar , they photobleach in Kr and Xe matrixes at 248 and 193 nm , even though the first excited states of CO and HF are not energetically accessible with 193 and 248 nm photons .
+
+ppatt:
+	?a are stable with ?b to ?c
+		?a: the CO / HF species
+		?b: respect
+		?c: photolysis in Ar
+	Interestingly , ?a photobleach in ?b at ?c
+		?a: they
+		?b: Kr
+		?c: 248 and 193 nm
+	Interestingly , ?a photobleach in ?b at ?c
+		?a: they
+		?b: Xe
+		?c: 248 and 193 nm
+	even though ?a are not energetically accessible with ?b
+		?a: the first excited states of CO and HF
+		?b: 193 and 248 nm photons
+
+
+label:    sent_10
+sentence: Carotenoids in chloroform and carbon tetrachloride photobleach upon nanosecond laser flash photolysis in two steps : instantaneously and in a second-order reaction .
+
+ppatt:
+
+
+
+label:    sent_11
+sentence: They do not photobleach under continuous laser excitation over periods of several hours repeated over several days , and they exhibit markedly different blinking behavior ; >20 % of the g-NQDs do not blink , while >40 % have on-time fractions of >80 % . A small fraction of molecules photobleach in multiple steps or show a series of transitions between emissive and nonemissive fluorescent states ( " blinking " ) . Unlike other particles used for tracking purposes , gold nanorods do not photobleach , allowing their optical signal to be tracked for longer periods of time , and they can be easily synthesized and coated with various charged or neutral shells , potentially reducing the effect of their presence on the cell system or allowing selective placement .
+
+ppatt:
+	?a do not photobleach under ?b over ?c
+		?a: They
+		?b: continuous laser excitation
+		?c: periods of several hours repeated over several days
+	?a repeated over ?b
+		?a: several hours
+		?b: several days
+	?a exhibit ?b
+		?a: they
+		?b: markedly different blinking behavior
+	?a do not ?b
+		?a: >20 % of the g-NQDs
+		?b: blink
+	?a have ?b
+		?a: >40 %
+		?b: on-time fractions of >80 %
+	?a is/are A small fraction of ?b
+		?a: on-time fractions of >80 %
+		?b: molecules photobleach in multiple steps
+	?a photobleach in ?b
+		?a: molecules
+		?b: multiple steps
+	?a show ?b
+		?a: >40 %
+		?b: a series of transitions between emissive and nonemissive fluorescent states
+	?a is/are " blinking "
+		?a: emissive and nonemissive fluorescent states
+	?a used for ?b
+		?a: other particles
+		?b: tracking purposes
+	Unlike ?a , ?b do not photobleach
+		?a: other particles used for tracking purposes
+		?b: gold nanorods
+	?a allowing ?b
+		?a: gold nanorods
+		?b: their optical signal
+	?a be tracked for ?b
+		?a: gold nanorods
+		?b: longer periods of time
+	?a can be easily synthesized with ?b
+		?a: they
+		?b: various charged
+	?a can be easily synthesized with ?b
+		?a: they
+		?b: neutral
+	?a coated
+		?a: they
+	?a potentially reducing ?b
+		?a: they
+		?b: the effect of their presence on the cell system
+	?a allowing ?b
+		?a: they
+		?b: selective placement
+
+
+label:    sent_12
+sentence: High fluence illumination ( approximately 190 kJ/cm2 ) is then used to permanently photobleach the ICG molecules -- resulting in a permanent alteration of the overall absorption of the ICG .
+
+ppatt:
+	?a is/are approximately 190 kJ/cm2
+		?a: High fluence illumination
+	?a is then used to permanently photobleach ?b -- resulting in ?c
+		?a: High fluence illumination
+		?b: the ICG molecules
+		?c: a permanent alteration of the overall absorption of the ICG
+
+
+label:    sent_13
+sentence: After incorporation of the labeled actin into the lamellipodium , I used a laser microbeam to photobleach a 3-4-micron region at and surrounding a microspike , without disrupting the integrity of the structure .
+
+ppatt:
+	After ?a , ?b used ?c to photobleach ?d ?e
+		?a: incorporation of the labeled actin into the lamellipodium
+		?b: I
+		?c: a laser microbeam
+		?d: a 3-4-micron region
+		?e: at and surrounding a microspike
+	?a disrupting ?b
+		?a: I
+		?b: the integrity of the structure
+
+
+label:    sent_14
+sentence: Time-dependent photoluminescence ( PL ) enhancement , blue shift , and photobleach were observed from the thiol-capped CdTe quantum dots ( QDs ) ingested in mouse myoblast cells and human primary liver cancer cells .
+
+ppatt:
+	?a is/are PL
+		?a: Time-dependent photoluminescence
+	?a were observed from ?b
+		?a: Time-dependent photoluminescence enhancement
+		?b: the thiol-capped CdTe quantum dots ingested in mouse myoblast cells and human primary liver cancer cells
+	?a were observed from ?b
+		?a: blue shift
+		?b: the thiol-capped CdTe quantum dots ingested in mouse myoblast cells and human primary liver cancer cells
+	?a were observed from ?b
+		?a: photobleach
+		?b: the thiol-capped CdTe quantum dots ingested in mouse myoblast cells and human primary liver cancer cells
+	?a is/are QDs
+		?a: the thiol-capped CdTe quantum dots ingested in mouse myoblast cells and human primary liver cancer cells
+	?a ingested in ?b
+		?a: the thiol-capped CdTe quantum dots
+		?b: mouse myoblast cells
+	?a ingested in ?b
+		?a: the thiol-capped CdTe quantum dots
+		?b: human primary liver cancer cells
+
+
+label:    sent_15
+sentence: The advantages of gold particles as detection labels are that ( a ) their light producing power is equivalent to more than 500,000 fluorescein molecules , ( b ) they can be detected at concentrations as low as 10 ( -15 ) M in suspension by eye and a simple illuminator , ( c ) they do not photobleach , ( d ) individual particles can be seen in a simple student microscope with dark field illumination , ( e ) color of scattered light can be changed by changing particle size or composition for multicolor multiplexing , and ( f ) they can be conjugated with antibodies , DNA probes , ligands , and protein receptors for specific analyte detection .
+
+ppatt:
+	?a are ?b
+		?a: The advantages of gold particles as detection labels
+		?b: SOMETHING := their light producing power is equivalent to more than 500,000 fluorescein molecules
+	?a is equivalent to ?b
+		?a: their light producing power
+		?b: more than 500,000 fluorescein molecules
+	?a can be detected at ?b
+		?a: they
+		?b: concentrations as low as 10 M in suspension by eye and a simple illuminator
+	?a do not photobleach
+		?a: they
+	?a can be seen in ?b
+		?a: individual particles
+		?b: a simple student microscope with dark field illumination
+	?a can be changed
+		?a: color of scattered light
+	?a changing ?b ?c
+		?a: color of scattered light
+		?b: particle
+		?c: size for multicolor multiplexing
+	?a changing ?b ?c
+		?a: color of scattered light
+		?b: particle
+		?c: composition
+	?a can be conjugated with ?b
+		?a: they
+		?b: antibodies , for specific analyte detection
+	?a can be conjugated with ?b
+		?a: they
+		?b: DNA probes
+	?a can be conjugated with ?b
+		?a: they
+		?b: ligands
+	?a can be conjugated with ?b
+		?a: they
+		?b: protein receptors
+
+
+label:    sent_16
+sentence: Transient spectra also exhibit a broad photobleach at early times that arises from the cooling of a hot electron gas created via excitation at the red edge of a pi-plasmon band .
+
+ppatt:
+	?a also exhibit ?b at ?c
+		?a: Transient spectra
+		?b: a broad photobleach
+		?c: early times that arises from the cooling of a hot electron gas created via excitation at the red edge of a pi-plasmon band
+	?a arises from ?b
+		?a: early times
+		?b: the cooling of a hot electron gas created via excitation at the red edge of a pi-plasmon band
+	?a created via ?b
+		?a: a hot electron gas
+		?b: excitation at the red edge of a pi-plasmon band
+
+
+label:    sent_17
+sentence: On the other hand , too much intensity or too long exposure can photobleach the protein and thereby reduce the efficiency of photoconversion .
+
+ppatt:
+	On ?a , ?b can photobleach ?c
+		?a: the other hand
+		?b: too much intensity
+		?c: the protein
+	On ?a , ?b can photobleach ?c
+		?a: the other hand
+		?b: too long exposure
+		?c: the protein
+	?a thereby reduce ?b
+		?a: too much intensity
+		?b: the efficiency of photoconversion
+	?a thereby reduce ?b
+		?a: too long exposure
+		?b: the efficiency of photoconversion
+
+
+label:    sent_18
+sentence: A highly eccentric elliptical Gaussian laser beam was used to photobleach the sample and to monitor fluorescence recovery .
+
+ppatt:
+	?a was used to photobleach ?b
+		?a: A highly eccentric elliptical Gaussian laser beam
+		?b: the sample
+	?a was used to to monitor ?b
+		?a: A highly eccentric elliptical Gaussian laser beam
+		?b: fluorescence recovery
+
+

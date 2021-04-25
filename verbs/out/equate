@@ -1,0 +1,184 @@
+label:    sent_1
+sentence: Statistical significance , here , may not equate to real clinical significance .
+
+ppatt:
+	?a here , may not equate to ?b
+		?a: Statistical significance
+		?b: real clinical significance
+
+
+label:    sent_2
+sentence: Does satisfaction with information equate to better anticoagulant control ? However , lack of a cure does not equate with lack of treatment .
+
+ppatt:
+	Does ?a equate to ?b
+		?a: satisfaction with information
+		?b: better anticoagulant control
+	However , ?a does not equate with ?b
+		?a: lack of a cure
+		?b: lack of treatment
+
+
+label:    sent_3
+sentence: IRT methods were used to equate total scores on any two scales .
+
+ppatt:
+	?a were used to equate ?b on ?c
+		?a: IRT methods
+		?b: total scores
+		?c: any two scales
+
+
+label:    sent_4
+sentence: The use of alternative contrast metrics also failed to equate RTs .
+
+ppatt:
+	?a also failed to equate ?b
+		?a: The use of alternative contrast metrics
+		?b: RTs
+
+
+label:    sent_5
+sentence: Salience was controlled by adjusting chromaticity at equiluminance to equate simple reaction times .
+
+ppatt:
+	?a was controlled
+		?a: Salience
+	?a adjusting ?b at ?c
+		?a: Salience
+		?b: chromaticity
+		?c: equiluminance
+	?a equate ?b
+		?a: Salience
+		?b: simple reaction times
+
+
+label:    sent_6
+sentence: Experiment 3 used number trigrams to equate reading conventions in the 2 languages .
+
+ppatt:
+	?a used ?b to equate ?c
+		?a: Experiment 3
+		?b: number trigrams
+		?c: reading conventions in the 2 languages
+
+
+label:    sent_7
+sentence: Macular degeneration : do conventional measurements of impaired visual function equate with visual disability ? An adaptive staircase procedure was used to equate stimulus duration for each individual .
+
+ppatt:
+	?a was used to equate ?b
+		?a: An adaptive staircase procedure
+		?b: stimulus duration for each individual
+
+
+label:    sent_8
+sentence: Many equate it with a ' sentence of death ' . Many authors equate this temperature measurement with the drill--cortical bone interface temperature .
+
+ppatt:
+	?a equate ?b with ?c
+		?a: Many
+		?b: it
+		?c: a ' sentence of death
+	?a equate ?b
+		?a: Many authors
+		?b: this temperature measurement with the drill--cortical bone interface temperature
+
+
+label:    sent_9
+sentence: Patients equate quality with service .
+
+ppatt:
+	?a equate ?b
+		?a: Patients
+		?b: quality with service
+
+
+label:    sent_10
+sentence: The presence of recipient lymphocytes in grafts is thought to equate with rejection .
+
+ppatt:
+	?a is thought to equate with ?b
+		?a: The presence of recipient lymphocytes in grafts
+		?b: rejection
+
+
+label:    sent_11
+sentence: Involvement of deep nodes does not always seem to equate with systemic disease .
+
+ppatt:
+	?a does not always seem to equate with ?b
+		?a: Involvement of deep nodes
+		?b: systemic disease
+
+
+label:    sent_12
+sentence: Does reduced glomerular filtration rate equate to chronic kidney disease ? Intracranial dissemination of pituitary adenomas is a rare event that does not equate malignancy .
+
+ppatt:
+	Does ?a equate to ?b
+		?a: reduced glomerular filtration rate
+		?b: chronic kidney disease
+	?a is a rare event
+		?a: Intracranial dissemination of pituitary adenomas
+	?a does not equate ?b
+		?a: a rare event
+		?b: malignancy
+
+
+label:    sent_13
+sentence: Seniors ' weight dissatisfaction does not necessarily equate weight changes .
+
+ppatt:
+	?a does not necessarily equate ?b
+		?a: Seniors ' weight dissatisfaction
+		?b: weight changes
+
+
+label:    sent_14
+sentence: The results suggest that infants do explicitly equate category members .
+
+ppatt:
+	?a suggest ?b
+		?a: The results
+		?b: SOMETHING := infants do explicitly equate category members
+	?a do explicitly equate ?b
+		?a: infants
+		?b: category members
+
+
+label:    sent_15
+sentence: Outcome studies of pulmonary embolism versus accuracy : they do not equate .
+
+ppatt:
+
+
+
+label:    sent_16
+sentence: Young people with psychosis equate being listened to with being empowered .
+
+ppatt:
+	?a equate being listened
+		?a: Young people with psychosis
+	?a ?b being empowered
+		?a: Young people with psychosis
+		?b: to
+
+
+label:    sent_17
+sentence: DNAR does not equate to " do not care " . Competence and performance are measurable but do not equate with practice .
+
+ppatt:
+	?a does not equate to ?b
+		?a: DNAR
+		?b: "
+	?a do not care ?b ?c
+		?a: DNAR
+		?b: "
+		?c: Competence
+	?a do not care ?b ?c
+		?a: DNAR
+		?b: "
+		?c: performance
+
+

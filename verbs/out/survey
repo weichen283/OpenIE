@@ -1,0 +1,69 @@
+label:    sent_1
+sentence: The 2007 adult psychiatric morbidity survey in England provides detailed information of high quality about sexual abuse .
+
+ppatt:
+	?a provides ?b
+		?a: The 2007 adult psychiatric morbidity survey in England
+		?b: detailed information of high quality about sexual abuse
+
+
+label:    sent_2
+sentence: A 12-item questionnaire survey on the practice of ECT anesthesia was sent to all units in the UK identified as providing ECT services .
+
+ppatt:
+	?a was sent to ?b
+		?a: A 12-item questionnaire survey on the practice of ECT anesthesia
+		?b: all units in the UK identified as providing ECT services
+	?a identified
+		?a: the UK
+	providing ?a
+		?a: ECT services
+
+
+label:    sent_3
+sentence: The purpose of this study was to analyze the surgical procedures , culture results , and outcomes , and to survey the prevalence of the infectious organisms over a 30-year period in patients with a primary infected abdominal aortic aneurysm ( PIAAA ) . In this review , I survey the recent progress of research in this field , focusing on the X. laevis intestine where apoptotic process is well characterized at the cellular level and can be easily manipulated in vitro .
+
+ppatt:
+	?a was to analyze ?b
+		?a: The purpose of this study
+		?b: the surgical procedures
+	?a was to analyze ?b
+		?a: The purpose of this study
+		?b: culture results
+	?a was to analyze ?b
+		?a: The purpose of this study
+		?b: outcomes
+	?a was to to survey ?b
+		?a: The purpose of this study
+		?b: the prevalence of the infectious organisms over a 30-year period in patients with a primary infected abdominal aortic aneurysm
+	?a is/are PIAAA
+		?a: a primary infected abdominal aortic aneurysm
+	In ?a , ?b survey ?c
+		?a: this review
+		?b: I
+		?c: the recent progress of research in this field
+	?a focusing on ?b
+		?a: I
+		?b: the X. laevis intestine where apoptotic process is well characterized at the cellular level and can be easily manipulated in vitro
+	?a where ?b is well characterized at ?c
+		?a: the X. laevis intestine
+		?b: apoptotic process
+		?c: the cellular level
+	?a can be easily manipulated in vitro
+		?a: apoptotic process
+
+
+label:    sent_4
+sentence: Central to these anti-viral defenses is the recognition of viral pathogens by a diverse set of germ-line encoded receptors that survey nearly all cellular compartments for the presence of pathogens .
+
+ppatt:
+	?a is the recognition of ?b by ?c
+		?a: Central to these anti-viral defenses
+		?b: viral pathogens
+		?c: a diverse set of germ-line encoded receptors that survey nearly all cellular compartments for the presence of pathogens
+	?a survey ?b for ?c
+		?a: germ-line encoded receptors
+		?b: nearly all cellular compartments
+		?c: the presence of pathogens
+
+

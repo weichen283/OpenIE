@@ -1,0 +1,316 @@
+label:    sent_1
+sentence: The aim of this study was to examine this association .
+
+ppatt:
+	?a was to examine ?b
+		?a: The aim of this study
+		?b: this association
+
+
+label:    sent_2
+sentence: Our aim is to examine the time trends of primary RRD in Scotland .
+
+ppatt:
+	?a is to examine ?b
+		?a: Our aim
+		?b: the time trends of primary RRD in Scotland
+
+
+label:    sent_3
+sentence: Boy to girl ratios were calculated to examine gender differences in tobacco use prevalence .
+
+ppatt:
+	?a were calculated to examine ?b
+		?a: Boy to girl ratios
+		?b: gender differences in tobacco use prevalence
+
+
+label:    sent_4
+sentence: Latent growth mixture modelling was used to examine the course of VE over time .
+
+ppatt:
+	?a was used to examine ?b
+		?a: Latent growth mixture modelling
+		?b: the course of VE over time
+
+
+label:    sent_5
+sentence: Results from a study designed to examine haptics for this purpose are discussed .
+
+ppatt:
+	?a designed to examine ?b
+		?a: a study
+		?b: haptics for this purpose
+	?a are discussed
+		?a: Results from a study designed to examine haptics for this purpose
+
+
+label:    sent_6
+sentence: The present study sought to examine imitation difficulties as a risk factor for autism .
+
+ppatt:
+	?a sought to examine ?b as ?c
+		?a: The present study
+		?b: imitation difficulties
+		?c: a risk factor for autism
+
+
+label:    sent_7
+sentence: A modified self-controlled case series method to examine association between multidose vaccinations and death . We also examine the temporal dynamics of both traits within individuals .
+
+ppatt:
+	?a examine ?b
+		?a: A modified self-controlled case series method
+		?b: association between multidose
+	?a ?b also examine ?c
+		?a: A modified self-controlled case series method to examine association between multidose
+		?b: We
+		?c: the temporal dynamics of both traits within individuals
+
+
+label:    sent_8
+sentence: We examine the effects of three different measures of the quality of medical care .
+
+ppatt:
+	?a examine ?b
+		?a: We
+		?b: the effects of three different measures of the quality of medical care
+
+
+label:    sent_9
+sentence: To examine the relationship between income , mental disorders , and suicide attempts .
+
+ppatt:
+	examine ?a
+		?a: the relationship between income , mental disorders , and suicide attempts
+
+
+label:    sent_10
+sentence: The objectives were to finalise the RAID and examine its psychometric properties .
+
+ppatt:
+	?a were to finalise ?b
+		?a: The objectives
+		?b: the RAID
+	?a were to examine ?b
+		?a: The objectives
+		?b: its psychometric properties
+
+
+label:    sent_11
+sentence: The 6-minute walk test was effectively used to prescribe exercise and examine patient outcomes .
+
+ppatt:
+	?a was effectively used to prescribe ?b
+		?a: The 6-minute walk test
+		?b: exercise
+	?a was effectively used to examine ?b
+		?a: The 6-minute walk test
+		?b: patient outcomes
+
+
+label:    sent_12
+sentence: In addition , it will examine the correlation between patient safety culture composites .
+
+ppatt:
+	In ?a , ?b will examine ?c
+		?a: addition
+		?b: it
+		?c: the correlation between patient safety culture composites
+
+
+label:    sent_13
+sentence: They then examine the likely developmental trajectory of self-event relations from childhood through adolescence .
+
+ppatt:
+	?a then examine ?b
+		?a: They
+		?b: the likely developmental trajectory of self-event relations from childhood through adolescence
+
+
+label:    sent_14
+sentence: In addition , we examine the cyclin E expression in rat adrenal cortex .
+
+ppatt:
+	In ?a , ?b examine ?c
+		?a: addition
+		?b: we
+		?c: the cyclin E expression in rat adrenal cortex
+
+
+label:    sent_15
+sentence: Future studies should examine whether cancer screening actually increases after an educational intervention .
+
+ppatt:
+	?a should examine ?b
+		?a: Future studies
+		?b: SOMETHING := cancer screening actually increases after an educational intervention
+	?a actually increases after ?b
+		?a: cancer screening
+		?b: an educational intervention
+
+
+label:    sent_16
+sentence: We examine whether the lung cancer risk due to smoking has increased over time .
+
+ppatt:
+	?a examine ?b
+		?a: We
+		?b: SOMETHING := the lung cancer risk due to smoking has increased over time
+	?a has increased over ?b
+		?a: the lung cancer risk due to smoking
+		?b: time
+
+
+label:    sent_17
+sentence: We examine whether this also applies in economically less developed countries .
+
+ppatt:
+	?a examine ?b
+		?a: We
+		?b: SOMETHING := this also applies in economically less developed countries
+	?a also applies in ?b
+		?a: this
+		?b: economically less developed countries
+
+
+label:    sent_18
+sentence: We then examine 3-year-old human children and find that this preference reverses .
+
+ppatt:
+	?a then examine ?b
+		?a: We
+		?b: 3-year-old human children
+	?a find ?b
+		?a: We
+		?b: SOMETHING := this preference reverses
+	?a reverses
+		?a: this preference
+
+
+label:    sent_19
+sentence: We examine recent findings and make recommendations for patients , families and medical providers .
+
+ppatt:
+	?a examine ?b
+		?a: We
+		?b: recent findings
+	?a make ?b
+		?a: We
+		?b: recommendations for patients , families and medical providers
+
+
+label:    sent_20
+sentence: This article will examine menstrual patterns and concerns in young girls .
+
+ppatt:
+	?a will examine ?b
+		?a: This article
+		?b: menstrual patterns in young girls
+	?a will examine ?b
+		?a: This article
+		?b: concerns
+
+
+label:    sent_21
+sentence: To examine and critique the risks of cosmetic surgery and consider implications for practice .
+
+ppatt:
+	examine ?a
+		?a: the risks of cosmetic surgery
+	critique ?a
+		?a: the risks of cosmetic surgery
+	consider ?a
+		?a: implications for practice
+
+
+label:    sent_22
+sentence: Methods to examine and compare these designs are also addressed .
+
+ppatt:
+	?a examine ?b
+		?a: Methods
+		?b: these designs
+	?a compare
+		?a: Methods
+	?a are also addressed
+		?a: Methods to examine and compare these designs
+
+
+label:    sent_23
+sentence: We aimed to define expertise in regional anaesthesia and examine how it is acquired .
+
+ppatt:
+	?a aimed to define ?b
+		?a: We
+		?b: expertise in regional anaesthesia
+	?a examine ?b
+		?a: We
+		?b: SOMETHING := how it is acquired
+	how ?a is acquired
+		?a: it
+
+
+label:    sent_24
+sentence: It is important to examine patients at rest and during different postural maneuvers .
+
+ppatt:
+	?a is important to examine ?b
+		?a: It
+		?b: patients at rest and during different postural maneuvers
+
+
+label:    sent_25
+sentence: To examine hypertension management across countries and over time using consistent and comparable methods .
+
+ppatt:
+	examine ?a using ?b
+		?a: hypertension management across countries and over time
+		?b: consistent and comparable methods
+
+
+label:    sent_26
+sentence: Our purpose is to examine IABP utilization over time and across medical centers .
+
+ppatt:
+	?a is to examine ?b
+		?a: Our purpose
+		?b: IABP utilization over time and across medical centers
+
+
+label:    sent_27
+sentence: Future research should examine these predictors in larger samples and across other outcome variables .
+
+ppatt:
+	?a should examine ?b in ?c
+		?a: Future research
+		?b: these predictors
+		?c: larger samples
+	?a should examine ?b in ?c
+		?a: Future research
+		?b: these predictors
+		?c: other outcome variables
+
+
+label:    sent_28
+sentence: The authors also examine comprehensive risk-adjustment systems both within Medicaid and outside the program .
+
+ppatt:
+	?a also examine ?b
+		?a: The authors
+		?b: comprehensive risk-adjustment systems both within Medicaid and outside the program
+
+
+label:    sent_29
+sentence: In addition , the authors examine future challenges and consider new areas for research .
+
+ppatt:
+	In ?a , ?b examine ?c
+		?a: addition
+		?b: the authors
+		?c: future challenges
+	?a consider ?b
+		?a: the authors
+		?b: new areas for research
+
+

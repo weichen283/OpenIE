@@ -1,0 +1,247 @@
+label:    sent_1
+sentence: A loving parent faces peer pressure to reject routine vaccination of her children . Refuseniks .
+
+ppatt:
+	?a faces ?b to reject ?c
+		?a: A loving parent
+		?b: peer pressure
+		?c: routine vaccination of her children . Refuseniks
+
+
+label:    sent_2
+sentence: Why some cancer patients reject their doctor 's advice . BMA meeting : BMA refuses to reject health bill " in its entirety " . However , modern legal systems increasingly reject this myopic approach .
+
+ppatt:
+	Why ?a reject ?b
+		?a: some cancer patients
+		?b: their doctor 's advice
+	?a ?b refuses to reject ?c in ?d
+		?a: BMA meeting
+		?b: BMA
+		?c: health bill "
+		?d: its entirety "
+	However , ?a increasingly reject ?b
+		?a: modern legal systems
+		?b: this myopic approach
+
+
+label:    sent_3
+sentence: We reject placement of any of these four genera within core platycercines .
+
+ppatt:
+	?a reject ?b
+		?a: We
+		?b: placement of any of these four genera within core platycercines
+
+
+label:    sent_4
+sentence: Why do women reject bisphosphonates for osteoporosis ? A videographic study . Battle lines drawn as unions reject Brown 's squeeze on pay .
+
+ppatt:
+	Why do ?a reject ?b
+		?a: women
+		?b: bisphosphonates for osteoporosis
+	?a drawn as ?b
+		?a: Battle lines
+		?b: unions
+	?a ?b reject ?c
+		?a: A videographic study
+		?b: Battle lines drawn as unions
+		?c: Brown 's squeeze
+	?a on pay
+		?a: A videographic study
+
+
+label:    sent_5
+sentence: Concentration of nutrients from urine and reject water from anaerobically digested sludge .
+
+ppatt:
+	reject ?a
+		?a: water from anaerobically digested sludge
+
+
+label:    sent_6
+sentence: Both professionals reject themselves in several levels .
+
+ppatt:
+	?a reject ?b in ?c
+		?a: Both professionals
+		?b: themselves
+		?c: several levels
+
+
+label:    sent_7
+sentence: Slot-scanning geometry was used to reject scattered radiation without attenuating primary x rays .
+
+ppatt:
+	?a was used to reject ?b
+		?a: Slot-scanning geometry
+		?b: scattered radiation
+	?a attenuating ?b
+		?a: Slot-scanning geometry
+		?b: primary x rays
+
+
+label:    sent_8
+sentence: Unattended fingerprint identification systems need to reject input attempts by a replica . [NSF 's new profile --Oslo district : reject proposal for new structure ] . Factors considered important in their decision to approve or reject ex-gratia requests were provided .
+
+ppatt:
+	?a need to reject ?b
+		?a: Unattended fingerprint identification systems
+		?b: input attempts by a replica . [NSF 's new profile --Oslo district
+	?a reject ?b
+		?a: Unattended fingerprint identification systems
+		?b: proposal for new structure ]
+	?a considered important in ?b
+		?a: Factors
+		?b: their decision to approve or reject ex-gratia requests
+	?a approve ?b
+		?a: their decision
+		?b: ex-gratia requests
+	reject ?a
+		?a: ex-gratia requests
+	?a were provided
+		?a: Factors considered important in their decision to approve or reject ex-gratia requests
+
+
+label:    sent_9
+sentence: This guide shows how to reject that medical mindset and stay healthy longer .
+
+ppatt:
+	?a shows how to reject ?b
+		?a: This guide
+		?b: medical mindset
+	?a shows to that stay healthy longer
+		?a: This guide
+
+
+label:    sent_10
+sentence: Curve-fitting procedures were used to reject false-positive marker detections and to calculate intermarker distances .
+
+ppatt:
+	?a were used to reject ?b
+		?a: Curve-fitting procedures
+		?b: false-positive marker detections
+	?a were used to to calculate ?b
+		?a: Curve-fitting procedures
+		?b: intermarker distances
+
+
+label:    sent_11
+sentence: They do not reject accusations against them by others and rarely make self-criticism . I reject this criticism , but do not claim that it is necessarily misplaced .
+
+ppatt:
+	?a do not reject ?b
+		?a: They
+		?b: accusations against them by others
+	?a rarely make ?b
+		?a: They
+		?b: self-criticism
+	?a reject ?b
+		?a: They
+		?b: this criticism
+	?a do not claim ?b
+		?a: They
+		?b: SOMETHING := it is necessarily misplaced
+	?a is necessarily misplaced
+		?a: it
+
+
+label:    sent_12
+sentence: The analysis let the participant reject testing and consider innovative care options .
+
+ppatt:
+	?a let ?b
+		?a: The analysis
+		?b: SOMETHING := the participant reject testing
+	?a reject ?b
+		?a: the participant
+		?b: testing
+	?a consider ?b
+		?a: the participant
+		?b: innovative care options
+
+
+label:    sent_13
+sentence: Phylogenomic analyses of deep gastropod relationships reject Orthogastropoda . Global poverty is ours to reject .
+
+ppatt:
+	?a reject ?b
+		?a: Phylogenomic analyses of deep gastropod relationships
+		?b: Orthogastropoda
+	?a is ours
+		?a: Global poverty
+	?a reject
+		?a: ours
+
+
+label:    sent_14
+sentence: If the Court does not reject " Roe , " the controversy will continue .
+
+ppatt:
+	?a does not reject ?b
+		?a: the Court
+		?b: " Roe
+	?a will continue
+		?a: " the controversy
+
+
+label:    sent_15
+sentence: We reject each in turn and thus eliminate all alternative accounts .
+
+ppatt:
+	?a reject ?b in ?c
+		?a: We
+		?b: each
+		?c: turn
+	?a thus eliminate ?b
+		?a: We
+		?b: all alternative accounts
+
+
+label:    sent_16
+sentence: Aesthetic brackets : to perfect or to reject ? I do not intent to reject or criticize existing methodologies .
+
+ppatt:
+	do not ?a to reject ?b
+		?a: intent
+		?b: existing methodologies
+	do not ?a to criticize
+		?a: intent
+
+
+label:    sent_17
+sentence: Accept or reject ? Kidneys were transplanted into outbred mongrel dogs and allowed to reject without immunosuppressive therapy .
+
+ppatt:
+	?a were transplanted into ?b
+		?a: Kidneys
+		?b: outbred mongrel dogs
+	?a allowed to reject without ?b
+		?a: Kidneys
+		?b: immunosuppressive therapy
+
+
+label:    sent_18
+sentence: Such patients often lack the mental capacity to consent to or reject such testing .
+
+ppatt:
+	?a often lack ?b
+		?a: Such patients
+		?b: the mental capacity to consent to or reject such testing
+	?a consent ?b ?c
+		?a: the mental capacity
+		?b: to
+		?c: such testing
+	reject ?a
+		?a: such testing
+
+
+label:    sent_19
+sentence: The prescription of surgical treatments is not necessarily to reject ( urge incontinence ) .
+
+ppatt:
+	?a is not necessarily to reject
+		?a: The prescription of surgical treatments
+
+

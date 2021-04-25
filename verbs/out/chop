@@ -1,0 +1,135 @@
+label:    sent_1
+sentence: The conjugated salts gradually chop off the cell membrane into pieces causing the cells to become small spheres ( 1.5 microns in diameter ) as revealed by scanning electron microscopy , which also revealed that morphological change of platelet in these bile salts depended on both concentration and incubation period .
+
+ppatt:
+	?a gradually ?b off ?c into ?d to become small spheres
+		?a: The conjugated salts
+		?b: chop
+		?c: the cell membrane
+		?d: pieces causing the cells
+	?a causing ?b
+		?a: pieces
+		?b: the cells
+	?a revealed ?b
+		?a: The conjugated salts
+		?b: SOMETHING := which also revealed that morphological change of platelet in these bile salts depended on both concentration and incubation
+	?a scanning ?b
+		?a: The conjugated salts
+		?b: electron microscopy
+	?a also revealed ?b
+		?a: which
+		?b: SOMETHING := morphological change of platelet in these bile salts depended on both concentration and incubation
+	?a depended on ?b
+		?a: morphological change of platelet in these bile salts
+		?b: concentration
+	?a depended on ?b
+		?a: morphological change of platelet in these bile salts
+		?b: incubation
+
+
+label:    sent_2
+sentence: In contrast , in metalloexopeptidases , which chop off N-or C-terminal residues only , extensive binding on both sides of the cleft is not required and a different overall scaffold is generally observed .
+
+ppatt:
+	In ?a , in ?b ?c ?d only , ?e is not required
+		?a: contrast
+		?b: metalloexopeptidases
+		?c: which
+		?d: chop off N-or C-terminal residues
+		?e: extensive binding on both sides of the cleft
+	?a is generally observed
+		?a: a different overall scaffold
+
+
+label:    sent_3
+sentence: One component analyzes statistical features extracted from sEMG to chop the signal into blocks and label them using a fuzzy classifier into three classes : Non-Fatigue , Transition-to-Fatigue and Fatigue .
+
+ppatt:
+	?a analyzes ?b
+		?a: One component
+		?b: statistical features extracted from sEMG to chop the signal into blocks
+	?a extracted from ?b to ?c ?d
+		?a: statistical features
+		?b: sEMG
+		?c: chop
+		?d: the signal into blocks
+	?a label ?b using ?c into ?d
+		?a: One component
+		?b: them
+		?c: a fuzzy classifier
+		?d: three classes
+
+
+label:    sent_4
+sentence: One approach taken to increase the throughput of this image search task is to : chop the large image into numerous small images , display them to a user at high rates one-at-a-time , and then search the simultaneously-recorded EEG data for neural activity that signifies that the user detected an instance of the target .
+
+ppatt:
+	?a taken to increase ?b
+		?a: One approach
+		?b: the throughput of this image search task
+	?a is
+		?a: One approach taken to increase the throughput of this image search task
+	?a display ?b to ?c
+		?a: One approach taken to increase the throughput of this image search task
+		?b: them
+		?c: a user at high rates one-at-a-time
+	?a then search ?b
+		?a: One approach taken to increase the throughput of this image search task
+		?b: the simultaneously-recorded EEG data for neural activity that signifies that the user detected an instance of the target
+	?a signifies ?b
+		?a: neural activity
+		?b: SOMETHING := the user detected an instance of the target
+	?a detected ?b
+		?a: the user
+		?b: an instance of the target
+
+
+label:    sent_5
+sentence: Akin to optical beam chopping , we demonstrate that formation and routing of aqueous droplets in oil can chop a fluidic sample to permit phase sensitive detection .
+
+ppatt:
+	Akin to ?a , ?b demonstrate ?c
+		?a: optical beam chopping
+		?b: we
+		?c: SOMETHING := formation and routing of aqueous droplets in oil can chop a fluidic sample to permit phase sensitive detection
+	?a can chop ?b
+		?a: formation of aqueous droplets in oil
+		?b: a fluidic sample to permit phase sensitive detection
+	?a can chop ?b
+		?a: routing
+		?b: a fluidic sample to permit phase sensitive detection
+	?a permit ?b
+		?a: a fluidic sample
+		?b: phase sensitive detection
+
+
+label:    sent_6
+sentence: They interpret it as a sign of an intruder , and they can unleash a recently discovered defensive mechanism to deal with the problem-they chop the invader into little pieces and use the remnants , called small interfering RNA , to identify and destroy the invader and its progeny .
+
+ppatt:
+	?a interpret ?b as ?c
+		?a: They
+		?b: it
+		?c: a sign of an intruder
+	?a can unleash ?b
+		?a: they
+		?b: a recently discovered defensive mechanism to deal with the problem-they chop the invader into little pieces
+	?a deal with ?b ?c into ?d
+		?a: a recently discovered defensive mechanism
+		?b: the problem-they chop
+		?c: the invader
+		?d: little pieces
+	?a use ?b , to identify ?c
+		?a: they
+		?b: the remnants , called small interfering RNA
+		?c: the invader
+	?a use ?b , to identify ?c
+		?a: they
+		?b: the remnants , called small interfering RNA
+		?c: its progeny
+	?a called small interfering RNA
+		?a: the remnants
+	?a use , to destroy
+		?a: they
+
+

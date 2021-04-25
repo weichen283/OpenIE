@@ -1,0 +1,15 @@
+label:    sent_1
+sentence: The addition of sodium acetate and isopropanol precipitates DNA , and high speed centrifugation is used to pellet the DNA and facilitate isopropanol removal .
+
+ppatt:
+	?a precipitates ?b
+		?a: The addition of sodium acetate and isopropanol
+		?b: DNA
+	?a is used to pellet ?b
+		?a: high speed centrifugation
+		?b: the DNA
+	?a is used to facilitate ?b
+		?a: high speed centrifugation
+		?b: isopropanol removal
+
+

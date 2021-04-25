@@ -1,0 +1,125 @@
+label:    sent_1
+sentence: The hospice philosophy continues to prosper in the new millennium .
+
+ppatt:
+	?a continues to prosper in ?b
+		?a: The hospice philosophy
+		?b: the new millennium
+
+
+label:    sent_2
+sentence: To prosper in the current environment , clinicians must stress productivity and efficiency .
+
+ppatt:
+	prosper in ?a
+		?a: the current environment
+
+
+label:    sent_3
+sentence: Utilizing information systems to survive and prosper under prospective payment .
+
+ppatt:
+	Utilizing ?a
+		?a: information systems to survive and prosper under prospective payment
+	?a survive under ?b
+		?a: information systems
+		?b: prospective payment
+	?a prosper
+		?a: information systems
+
+
+label:    sent_4
+sentence: California physician groups prosper in the " food chain " of managed care .
+
+ppatt:
+	?a prosper in ?b
+		?a: California physician groups
+		?b: the " food chain " of managed care
+
+
+label:    sent_5
+sentence: Some plans may prosper despite Medicare Advantage cuts . Given a facilitating environment , hospital-based research groups can prosper .
+
+ppatt:
+	?a may prosper despite ?b . Given ?c
+		?a: Some plans
+		?b: Medicare Advantage cuts
+		?c: a facilitating environment
+	?a can prosper
+		?a: hospital-based research groups
+
+
+label:    sent_6
+sentence: Innovations in strategic resizing : with careful guidance your hospital can prosper . Marketplace .
+
+ppatt:
+
+
+
+label:    sent_7
+sentence: Wall Street : health plans will prosper , squeezing employers and providers .
+
+ppatt:
+	?a will prosper , squeezing ?b
+		?a: Wall Street health plans
+		?b: employers
+	?a will prosper , squeezing ?b
+		?a: Wall Street health plans
+		?b: providers
+
+
+label:    sent_8
+sentence: How does our discipline prosper ? Finance .
+
+ppatt:
+	How does ?a prosper ?b
+		?a: our discipline
+		?b: Finance
+
+
+label:    sent_9
+sentence: Save and prosper . Save and prosper .
+
+ppatt:
+
+
+
+label:    sent_10
+sentence: Inpatient hospital days ready to dive , but IDSs will prosper , study predicts .
+
+ppatt:
+	?a ready to dive
+		?a: Inpatient hospital days
+	?a will prosper
+		?a: IDSs
+	?a predicts
+		?a: study
+
+
+label:    sent_11
+sentence: Primarily these processes are protective but in chronic liver disease oncogenic mutations may prosper .
+
+ppatt:
+	Primarily ?a are protective
+		?a: these processes
+	in ?a ?b may prosper
+		?a: chronic disease
+		?b: liver oncogenic mutations
+
+
+label:    sent_12
+sentence: Cheaters sometimes prosper : distortion of mendelian segregation by meiotic drive .
+
+ppatt:
+	?a sometimes prosper ?b
+		?a: Cheaters
+		?b: distortion of mendelian segregation by meiotic drive
+
+
+label:    sent_13
+sentence: Change , yes : but the dental profession will survive and prosper !
+
+ppatt:
+
+
+

@@ -1,0 +1,260 @@
+label:    sent_1
+sentence: Facial expression is widely used to judge pain in neonates . A p value of .05 was used to judge statistical significance .
+
+ppatt:
+	?a is widely used to judge ?b
+		?a: Facial expression
+		?b: pain in neonates
+	?a was used to judge ?b
+		?a: A p value of .05
+		?b: statistical significance
+
+
+label:    sent_2
+sentence: Pharmacists in Arkansas to judge individuals ' need for pseudoephedrine .
+
+ppatt:
+	?a judge ?b
+		?a: Pharmacists in Arkansas
+		?b: individuals ' need for pseudoephedrine
+
+
+label:    sent_3
+sentence: Can observers judge future circular path relative to a target from retinal flow ? How can we judge a ' safe ' dentist ? US judge dismisses 50m dollars damages in Vioxx lawsuit .
+
+ppatt:
+	Can ?a judge ?b relative to ?c
+		?a: observers
+		?b: future circular path
+		?c: a target from retinal flow
+	How can ?a judge ?b
+		?a: we
+		?b: a ' safe ' dentist
+	?a dismisses ?b
+		?a: US judge
+		?b: 50m dollars damages in Vioxx lawsuit
+
+
+label:    sent_4
+sentence: How to judge a book by its cover ? About chimioprophylaxy , the physicians have to judge any single case as a whole .
+
+ppatt:
+	How to judge ?a by ?b ? About ?c ?d
+		?a: a book
+		?b: its cover
+		?c: chimioprophylaxy
+		?d: the physicians
+	?a have to judge ?b as ?c
+		?a: the physicians
+		?b: any single case
+		?c: a whole
+
+
+label:    sent_5
+sentence: Scholarly vanity press : why you should judge the book by its cover .
+
+ppatt:
+
+
+
+label:    sent_6
+sentence: Participants were asked to watch the videotape and judge the confederate 's impressions .
+
+ppatt:
+	?a were asked to watch ?b
+		?a: Participants
+		?b: the videotape
+	?a were asked to judge ?b
+		?a: Participants
+		?b: the confederate 's impressions
+
+
+label:    sent_7
+sentence: Sixteen subjects had to listen to acoustically presented sentences and judge their syntactic correctness .
+
+ppatt:
+	?a had to listen to ?b
+		?a: Sixteen subjects
+		?b: acoustically presented sentences
+	?a judge ?b
+		?a: Sixteen subjects
+		?b: their syntactic correctness
+
+
+label:    sent_8
+sentence: Arise and judge the earth . [Parameters to judge the stability of wrist after the four-corner arthrodesis ] . Our job is to care for patients , not judge them .
+
+ppatt:
+	Arise ?a
+		?a: the earth [Parameters
+	judge ?a
+		?a: the earth [Parameters
+	judge ?a
+		?a: the stability of wrist after the four-corner arthrodesis ]
+	?a is to care for ?b
+		?a: Our job
+		?b: patients
+	?a is to not judge ?b
+		?a: Our job
+		?b: them
+
+
+label:    sent_9
+sentence: It is essential for a nurse to judge the effectiveness of her instruction .
+
+ppatt:
+	?a is essential for ?b to judge ?c
+		?a: It
+		?b: a nurse
+		?c: the effectiveness of her instruction
+
+
+label:    sent_10
+sentence: Be careful to judge .
+
+ppatt:
+
+
+
+label:    sent_11
+sentence: Young children 's use of relative distance to judge nearbyness . Do we have enough evidence to judge midwife led maternity units safe ? These data allow to judge about its motor-evacuatory functions .
+
+ppatt:
+	?a judge ?b
+		?a: Young children 's use of relative distance
+		?b: nearbyness
+	?a Do ?b have ?c
+		?a: Young children 's use of relative distance to judge nearbyness
+		?b: we
+		?c: enough evidence to judge midwife
+	?a judge ?b
+		?a: enough evidence
+		?b: midwife
+	?a led ?b
+		?a: Young children 's use of relative distance to judge nearbyness
+		?b: maternity units safe
+	?a allow to judge about ?b
+		?a: These data
+		?b: its motor-evacuatory functions
+
+
+label:    sent_12
+sentence: Humana to ask judge to overturn award .
+
+ppatt:
+	?a ask ?b to overturn ?c
+		?a: Humana
+		?b: judge
+		?c: award
+
+
+label:    sent_13
+sentence: However , there is no prognostic tool to judge on cystic RCC preoperatively .
+
+ppatt:
+	However , there is ?a
+		?a: no prognostic tool to judge on cystic RCC preoperatively
+	?a judge on ?b preoperatively
+		?a: no prognostic tool
+		?b: cystic RCC
+
+
+label:    sent_14
+sentence: There is no morally neutral position from which to judge conscientious refusals in abortion .
+
+ppatt:
+	There is ?a
+		?a: no morally neutral position from which to judge conscientious refusals in abortion
+	?a from to judge ?b
+		?a: no morally neutral position
+		?b: conscientious refusals in abortion
+
+
+label:    sent_15
+sentence: We suggest a question-based framework by which to judge the ethical acceptability of nudges .
+
+ppatt:
+	?a suggest ?b
+		?a: We
+		?b: a question-based framework by which to judge the ethical acceptability of nudges
+	?a by to judge ?b
+		?a: a question-based framework
+		?b: the ethical acceptability of nudges
+
+
+label:    sent_16
+sentence: These are important baseline data against which to judge the impact of mammographic screening .
+
+ppatt:
+	?a are important baseline data
+		?a: These
+	?a against to judge ?b
+		?a: important baseline data
+		?b: the impact of mammographic screening
+
+
+label:    sent_17
+sentence: The brain must judge a source event of these sensory informations and integrate them .
+
+ppatt:
+	?a must judge ?b
+		?a: The brain
+		?b: a source event of these sensory informations
+	?a integrate ?b
+		?a: The brain
+		?b: them
+
+
+label:    sent_18
+sentence: All projects are presented in poster format , and evaluation teams judge each poster .
+
+ppatt:
+	?a are presented in ?b
+		?a: All projects
+		?b: poster format
+	?a judge ?b
+		?a: evaluation teams
+		?b: each poster
+
+
+label:    sent_19
+sentence: These affect how interactants judge each other and decisions are made .
+
+ppatt:
+	?a affect ?b
+		?a: These
+		?b: SOMETHING := how interactants judge each other and decisions
+	how ?a judge ?b
+		?a: interactants
+		?b: each other
+	how ?a judge ?b
+		?a: interactants
+		?b: decisions
+	?a are made
+		?a: interactants
+
+
+label:    sent_20
+sentence: For acupuncturist , it is important to judge and control Deqi in clinical practice .
+
+ppatt:
+	For ?a , ?b is important to judge ?c in ?d
+		?a: acupuncturist
+		?b: it
+		?c: Deqi
+		?d: clinical practice
+	?a is important to control
+		?a: it
+
+
+label:    sent_21
+sentence: Furthermore the result is used to judge and improve the obtained original fitting model .
+
+ppatt:
+	Furthermore ?a is used to judge ?b
+		?a: the result
+		?b: the obtained original fitting model
+	Furthermore ?a is used to improve
+		?a: the result
+
+

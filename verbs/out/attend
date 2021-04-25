@@ -1,0 +1,288 @@
+label:    sent_1
+sentence: Practically , presenting posters can help justify funding to attend a meeting .
+
+ppatt:
+	presenting ?a
+		?a: posters
+	Practically , ?a can help justify ?b
+		?a: SOMETHING := presenting posters
+		?b: funding to attend a meeting
+	?a attend ?b
+		?a: funding
+		?b: a meeting
+
+
+label:    sent_2
+sentence: The key cardiac surgeon was invited to attend quality improvement activities .
+
+ppatt:
+	?a was invited to attend ?b
+		?a: The key cardiac surgeon
+		?b: quality improvement activities
+
+
+label:    sent_3
+sentence: However , women in regional/remote areas were less likely to attend specialist obstetric hospitals .
+
+ppatt:
+	However , ?a were less likely to attend ?b
+		?a: women in regional/remote areas
+		?b: specialist obstetric hospitals
+
+
+label:    sent_4
+sentence: Twelve per cent of patients did not attend the requested visit . Patients did not attend these sessions .
+
+ppatt:
+	per ?a did not attend ?b
+		?a: Twelve cent of patients
+		?b: the requested visit
+	?a did not attend ?b
+		?a: Patients
+		?b: these sessions
+
+
+label:    sent_5
+sentence: The majority of patients who attend ED with minor injury have not taken analgesia .
+
+ppatt:
+	?a attend ?b with ?c
+		?a: patients
+		?b: ED
+		?c: minor injury
+	?a have not taken ?b
+		?a: The majority of patients who attend ED with minor injury
+		?b: analgesia
+
+
+label:    sent_6
+sentence: Vet suspended for failing to attend out of hours . Participants were cued to attend selectively to one of two simultaneously presented narrative stories .
+
+ppatt:
+	?a suspended for ?b to attend out of ?c ?d
+		?a: Vet
+		?b: failing
+		?c: hours
+		?d: Participants
+	?a were cued to attend selectively to ?b
+		?a: Vet suspended for failing to attend out of hours . Participants
+		?b: one of two simultaneously presented narrative stories
+
+
+label:    sent_7
+sentence: Patients referred electronically were much more likely to attend for their appointment .
+
+ppatt:
+	?a referred electronically
+		?a: Patients
+	?a were much more likely to attend for ?b
+		?a: Patients referred electronically
+		?b: their appointment
+
+
+label:    sent_8
+sentence: Efforts to reduce racial differences in hospice use should attend to individual-level factors .
+
+ppatt:
+	?a reduce ?b
+		?a: Efforts
+		?b: racial differences in hospice use
+	?a should attend to ?b
+		?a: Efforts to reduce racial differences in hospice use
+		?b: individual-level factors
+
+
+label:    sent_9
+sentence: Results suggest that FAP patients preferentially attend to pain stimuli in conscious awareness . Can we attend to multiple distinct spatial locations at the same time ? Why adolescents do not attend school .
+
+ppatt:
+	?a suggest ?b ?c
+		?a: Results
+		?b: SOMETHING := FAP patients preferentially attend to pain stimuli in conscious awareness
+		?c: SOMETHING := Can we attend to multiple distinct spatial locations at the same time ? Why adolescents do not attend school
+	?a preferentially attend to ?b
+		?a: FAP patients
+		?b: pain stimuli in conscious awareness
+	Can ?a attend to ?b
+		?a: we
+		?b: multiple distinct spatial locations at the same time
+	Why ?a do not attend ?b
+		?a: adolescents
+		?b: school
+
+
+label:    sent_10
+sentence: All patients had to attend the first questionnaire before surgery .
+
+ppatt:
+	?a had to attend ?b before ?c
+		?a: All patients
+		?b: the first questionnaire
+		?c: surgery
+
+
+label:    sent_11
+sentence: An additional 900 people are scheduled to attend this program in the future .
+
+ppatt:
+	?a are scheduled to attend ?b in ?c
+		?a: An additional 900 people
+		?b: this program
+		?c: the future
+
+
+label:    sent_12
+sentence: There were 34 referred patients , who declined or did not attend the assessment .
+
+ppatt:
+	There were ?a
+		?a: 34 referred patients , who declined or did not attend the assessment
+	?a declined
+		?a: 34 referred patients
+	?a did not attend ?b
+		?a: who
+		?b: the assessment
+
+
+label:    sent_13
+sentence: Cluster 4 patients tended to attend a day-care center and to be exclusively breast-fed .
+
+ppatt:
+	?a tended to attend ?b
+		?a: Cluster 4 patients
+		?b: a day-care center
+
+
+label:    sent_14
+sentence: Some preferred to attend nearby emergency departments or call 999 .
+
+ppatt:
+	Some preferred to attend ?a
+		?a: nearby emergency
+
+
+label:    sent_15
+sentence: Subtypes of smokers who attend psychological treatment in order to stop smoking .
+
+ppatt:
+	?a attend ?b
+		?a: smokers
+		?b: psychological treatment
+	?a order to stop ?b
+		?a: who
+		?b: smoking
+
+
+label:    sent_16
+sentence: In both groups , equal numbers of patients did not attend sessions after allocation .
+
+ppatt:
+	In ?a , ?b did not attend ?c after ?d
+		?a: both groups
+		?b: equal numbers of patients
+		?c: sessions
+		?d: allocation
+
+
+label:    sent_17
+sentence: It is most important that they attend each patient at their bedside .
+
+ppatt:
+	?a is most important ?b
+		?a: It
+		?b: SOMETHING := they attend each patient at their bedside
+	?a attend ?b at ?c
+		?a: they
+		?b: each patient
+		?c: their bedside
+
+
+label:    sent_18
+sentence: The patient did not attend postoperative appointments and was lost to follow-up .
+
+ppatt:
+	?a did not attend ?b
+		?a: The patient
+		?b: postoperative appointments
+	?a was lost to ?b
+		?a: The patient
+		?b: follow-up
+
+
+label:    sent_19
+sentence: Parents did not attend educational sessions but received written materials .
+
+ppatt:
+	?a did not attend ?b
+		?a: Parents
+		?b: educational sessions
+	?a received ?b
+		?a: Parents
+		?b: written materials
+
+
+label:    sent_20
+sentence: The boys attend a private school and she has returned to nursing school .
+
+ppatt:
+	?a attend ?b
+		?a: The boys
+		?b: a private school
+	?a has returned to ?b
+		?a: she
+		?b: nursing school
+
+
+label:    sent_21
+sentence: To attend or not to attend to unwelcome reanalyses ? A reply to Pinker .
+
+ppatt:
+
+
+
+label:    sent_22
+sentence: Participants were required to attend to the center target and identify its color .
+
+ppatt:
+	?a were required to attend to ?b
+		?a: Participants
+		?b: the center target
+	?a identify ?b
+		?a: Participants
+		?b: its color
+
+
+label:    sent_23
+sentence: One can feel and attend to such intentions , be they causal or not . Psychological and physical activity training for older persons : who does not attend ?
+
+ppatt:
+	?a can feel to ?b
+		?a: One
+		?b: such intentions
+	?a attend
+		?a: One
+	?a does not attend
+		?a: who
+
+
+label:    sent_24
+sentence: Their mentality is characteristic of school refusal itself while they attend school almost everyday .
+
+ppatt:
+	?a is characteristic of ?b ?c
+		?a: Their mentality
+		?b: school refusal
+		?c: itself
+	?a attend ?b almost everyday
+		?a: they
+		?b: school
+
+
+label:    sent_25
+sentence: Failure to attend .
+
+ppatt:
+	?a attend
+		?a: Failure
+
+

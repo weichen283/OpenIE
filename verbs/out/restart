@@ -1,0 +1,206 @@
+label:    sent_1
+sentence: Should the patient experience withdrawal symptoms , the optimal treatment is to restart gabapentin .
+
+ppatt:
+	Should ?a , ?b is to restart ?c
+		?a: the patient experience withdrawal symptoms
+		?b: the optimal treatment
+		?c: gabapentin
+
+
+label:    sent_2
+sentence: Cardio-pulmonary arrest--asystole : a review of the medications used to restart the heart .
+
+ppatt:
+	?a used to restart ?b
+		?a: the medications
+		?b: the heart
+
+
+label:    sent_3
+sentence: Homologous recombination ( HR ) is required to protect and restart stressed replication forks .
+
+ppatt:
+	?a is/are HR
+		?a: Homologous recombination
+	?a is required to protect ?b
+		?a: Homologous recombination
+		?b: stressed replication forks
+	?a is required to restart
+		?a: Homologous recombination
+
+
+label:    sent_4
+sentence: Ten of them had to restart dialysis during the first year after PTX .
+
+ppatt:
+	?a had to restart ?b during ?c
+		?a: Ten of them
+		?b: dialysis
+		?c: the first year after PTX
+
+
+label:    sent_5
+sentence: Alternatively , homologous recombination can be used to restart DNA replication across the lesion .
+
+ppatt:
+	Alternatively , ?a can be used to restart ?b
+		?a: homologous recombination
+		?b: DNA replication across the lesion
+
+
+label:    sent_6
+sentence: Once cells lose AFP expression , addition of hydrocortisone does not restart it . The two patients who did not restart the mTPE protocol died .
+
+ppatt:
+	?a lose ?b
+		?a: cells
+		?b: AFP expression
+	?a does not restart ?b
+		?a: addition of hydrocortisone
+		?b: it
+	?a did not restart ?b
+		?a: The two patients
+		?b: the mTPE protocol
+	?a died
+		?a: The two patients who did not restart the mTPE protocol
+
+
+label:    sent_7
+sentence: Surviving fungal residues in the substance of the nail may restart the disease .
+
+ppatt:
+	?a may restart ?b
+		?a: Surviving fungal residues in the substance of the nail
+		?b: the disease
+
+
+label:    sent_8
+sentence: Patients have different reasons why they wish to restart or not restart IV PCA .
+
+ppatt:
+	?a have ?b
+		?a: Patients
+		?b: different reasons why they wish to restart or not restart IV PCA
+	?a why ?b wish to restart ?c
+		?a: different reasons
+		?b: they
+		?c: IV PCA
+	why ?a wish to not restart
+		?a: they
+
+
+label:    sent_9
+sentence: Most patients discontinued the index AA and did not restart any antipsychotic treatment .
+
+ppatt:
+	?a discontinued ?b
+		?a: Most patients
+		?b: the index AA
+	?a did not restart ?b
+		?a: Most patients
+		?b: any antipsychotic treatment
+
+
+label:    sent_10
+sentence: Many patients stop and restart treatment for osteoporosis .
+
+ppatt:
+	?a stop ?b
+		?a: Many patients
+		?b: treatment for osteoporosis
+	?a restart
+		?a: Many patients
+
+
+label:    sent_11
+sentence: Drug maker must restart obesity drug study after releasing early data . Given improved oxygen conditions , the few surviving cells can restart their proliferation .
+
+ppatt:
+	?a must restart ?b
+		?a: Drug maker
+		?b: obesity drug study
+	?a releasing ?b
+		?a: Drug maker
+		?b: early data
+	?a Given ?b
+		?a: Drug maker
+		?b: improved oxygen conditions
+	?a can restart ?b
+		?a: the few surviving cells
+		?b: their proliferation
+
+
+label:    sent_12
+sentence: How cells restart cell division following checkpoint termination is poorly understood .
+
+ppatt:
+	How ?a restart ?b following ?c
+		?a: cells
+		?b: cell division
+		?c: checkpoint termination
+
+
+label:    sent_13
+sentence: Nurses in society : life can restart at forty . Talks restart on global initiative to fund research into diseases that affect poorer countries .
+
+ppatt:
+	?a restart on ?b
+		?a: Talks
+		?b: global initiative to fund research into diseases that affect poorer countries
+	?a fund ?b
+		?a: global initiative
+		?b: research into diseases that affect poorer countries
+	?a affect ?b
+		?a: diseases
+		?b: poorer countries
+
+
+label:    sent_14
+sentence: Children 's heart surgery might restart at Leeds next week .
+
+ppatt:
+	?a might restart at ?b ?c
+		?a: Children 's heart surgery
+		?b: Leeds
+		?c: next week
+
+
+label:    sent_15
+sentence: Most informants felt " clean " and discussed how to restart with renewed ambitions .
+
+ppatt:
+	?a felt " ?b
+		?a: Most informants
+		?b: clean "
+	?a discussed how to restart with ?b
+		?a: Most informants
+		?b: renewed ambitions
+
+
+label:    sent_16
+sentence: Deliberations must restart after juror is kicked out . Limited gene therapy trials to restart . Structural mechanisms of PriA-mediated DNA replication restart .
+
+ppatt:
+	?a must restart after ?b
+		?a: Deliberations
+		?b: juror
+	?a is kicked out . ?b to restart
+		?a: Deliberations
+		?b: Limited gene therapy trials
+	?a restart
+		?a: Structural mechanisms of PriA-mediated DNA replication
+
+
+label:    sent_17
+sentence: The shock can restart the heart and timely delivery can resuscitate the patient .
+
+ppatt:
+	?a can restart ?b
+		?a: The shock
+		?b: the heart
+	?a can resuscitate ?b
+		?a: timely delivery
+		?b: the patient
+
+

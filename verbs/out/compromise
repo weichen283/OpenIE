@@ -1,0 +1,292 @@
+label:    sent_1
+sentence: These interactions can severely compromise organismal health .
+
+ppatt:
+	?a can severely compromise ?b
+		?a: These interactions
+		?b: organismal health
+
+
+label:    sent_2
+sentence: Overly aggressive treatment of hypertension can compromise collateral perfusion of the ischemic penumbra .
+
+ppatt:
+	?a can compromise ?b
+		?a: Overly aggressive treatment of hypertension
+		?b: collateral perfusion of the ischemic penumbra
+
+
+label:    sent_3
+sentence: Part 2 : How does the periapical inflammatory process compromise general health ? Delays in seeking proper treatment are known to compromise the outcome of the care .
+
+ppatt:
+	?a How does ?b
+		?a: Part 2
+		?b: the periapical inflammatory process
+	?a compromise ?b
+		?a: Part 2 : How does the periapical inflammatory process
+		?b: general health
+	?a seeking ?b
+		?a: Delays
+		?b: proper treatment
+	?a are known to compromise ?b
+		?a: Delays in seeking proper treatment
+		?b: the outcome of the care
+
+
+label:    sent_4
+sentence: It can occur before onset of labor and compromise vital maternofoetal outcome .
+
+ppatt:
+	?a can occur before ?b
+		?a: It
+		?b: onset of labor
+	?a compromise ?b
+		?a: It
+		?b: vital maternofoetal outcome
+
+
+label:    sent_5
+sentence: Carprofen and meloxicam appear to compromise gastric mucosal integrity and barrier function in dogs .
+
+ppatt:
+	?a appear to compromise ?b
+		?a: Carprofen
+		?b: gastric mucosal integrity in dogs
+	?a appear to compromise ?b
+		?a: meloxicam
+		?b: gastric mucosal integrity in dogs
+	?a appear to compromise ?b
+		?a: Carprofen
+		?b: barrier function
+	?a appear to compromise ?b
+		?a: meloxicam
+		?b: barrier function
+
+
+label:    sent_6
+sentence: There has been concern regarding decreased surgical exposure and compromise in prosthesis durability .
+
+ppatt:
+
+
+
+label:    sent_7
+sentence: From compromise to leadership in pigeon homing . Farnesyl diphosphate synthase : the art of compromise between substrate selectivity and stereoselectivity .
+
+ppatt:
+
+
+
+label:    sent_8
+sentence: High use of exception reporting may compromise care for vulnerable patient groups .
+
+ppatt:
+	?a may compromise ?b
+		?a: High use of exception reporting
+		?b: care for vulnerable patient groups
+
+
+label:    sent_9
+sentence: Shortages compromise patient safety , say staff on the front line . RARP does not compromise oncologic or functional outcomes in patients with high-risk prostate cancer .
+
+ppatt:
+	?a compromise ?b
+		?a: Shortages
+		?b: patient safety
+	?a say ?b
+		?a: Shortages
+		?b: staff on the front line
+	?a does not compromise ?b
+		?a: RARP
+		?b: oncologic
+	?a does not compromise ?b
+		?a: RARP
+		?b: functional
+
+
+label:    sent_10
+sentence: Unsafe weight management practices can compromise athletic performance and negatively affect health .
+
+ppatt:
+	?a can compromise ?b
+		?a: Unsafe weight management practices
+		?b: athletic performance
+	?a negatively affect ?b
+		?a: Unsafe weight management practices
+		?b: health
+
+
+label:    sent_11
+sentence: Secondary multi-organ damage could highly compromise the transplant success and also could contraindicate it . All cardiovascular malformations compromise ventricular function and lead to alterations in the myocardial structure .
+
+ppatt:
+	?a could highly compromise ?b
+		?a: Secondary multi-organ damage
+		?b: the transplant success
+	?a also could contraindicate ?b
+		?a: Secondary multi-organ damage
+		?b: it
+	?a compromise ?b
+		?a: All cardiovascular malformations
+		?b: ventricular function
+	?a lead to ?b
+		?a: All cardiovascular malformations
+		?b: alterations in the myocardial structure
+
+
+label:    sent_12
+sentence: It is considered safe , minimally invasive and does not compromise physeal growth .
+
+ppatt:
+	?a is considered safe
+		?a: It
+	?a is considered minimally invasive
+		?a: It
+	?a does not compromise ?b
+		?a: It
+		?b: physeal growth
+
+
+label:    sent_13
+sentence: Edentulism is considered a poor health outcome and may compromise the quality of life .
+
+ppatt:
+	?a is considered a poor health outcome
+		?a: Edentulism
+	?a may compromise ?b
+		?a: Edentulism
+		?b: the quality of life
+
+
+label:    sent_14
+sentence: Missed test results are common in clinical practice and compromise patient safety .
+
+ppatt:
+	?a are common in ?b
+		?a: Missed test results
+		?b: clinical practice
+	?a compromise ?b
+		?a: Missed test results
+		?b: patient safety
+
+
+label:    sent_15
+sentence: Imaging revealed compromise of the dominant left vertebral artery with leftward head rotation .
+
+ppatt:
+	?a revealed ?b
+		?a: Imaging
+		?b: compromise of the dominant left vertebral artery with leftward head rotation
+
+
+label:    sent_16
+sentence: An angiogram revealed compromise of the internal carotid artery at the skull base .
+
+ppatt:
+	?a revealed ?b
+		?a: An angiogram
+		?b: compromise of the internal carotid artery at the skull base
+
+
+label:    sent_17
+sentence: Poor sleep is thought to compromise health partially through its effect on immune function .
+
+ppatt:
+	?a is thought to compromise ?b partially through ?c
+		?a: Poor sleep
+		?b: health
+		?c: its effect on immune function
+
+
+label:    sent_18
+sentence: Treatment depended on the underlying pathology , extent of ureteral compromise and location .
+
+ppatt:
+	?a depended on ?b
+		?a: Treatment
+		?b: the underlying pathology
+	?a is/are extent of ?b
+		?a: the underlying pathology
+		?b: ureteral compromise
+	?a is/are extent of ?b
+		?a: the underlying pathology
+		?b: location
+
+
+label:    sent_19
+sentence: None had evidence of vasculitis or compromise of the posterior circulation .
+
+ppatt:
+	?a had ?b
+		?a: None
+		?b: evidence of vasculitis or compromise of the posterior circulation
+
+
+label:    sent_20
+sentence: Symptoms ranged from recurrent stridor and wheezing to severe respiratory compromise and hypercarbia .
+
+ppatt:
+	?a ranged from ?b
+		?a: Symptoms
+		?b: recurrent stridor to severe respiratory compromise and hypercarbia
+	?a ranged from ?b
+		?a: Symptoms
+		?b: wheezing
+
+
+label:    sent_21
+sentence: In addition , LEVO pretreatment did not further compromise gastromucosal muHbO2 in hypoxemia .
+
+ppatt:
+	In ?a , ?b did not further compromise ?c in ?d
+		?a: addition
+		?b: LEVO pretreatment
+		?c: gastromucosal muHbO2
+		?d: hypoxemia
+
+
+label:    sent_22
+sentence: Potential compromise of hospital hygiene by clinical waste carts .
+
+ppatt:
+
+
+
+label:    sent_23
+sentence: Cardiorespiratory compromise under conscious sedation during upper gastrointestinal endoscopy .
+
+ppatt:
+
+
+
+label:    sent_24
+sentence: Fetal growth restriction and compromise may be additional specific risk factors .
+
+ppatt:
+	?a may be additional specific risk factors
+		?a: Fetal growth restriction
+	?a may be additional specific risk factors
+		?a: compromise
+
+
+label:    sent_25
+sentence: EIA can result in a cardiovascular compromise and syncope .
+
+ppatt:
+	?a can result in ?b
+		?a: EIA
+		?b: a cardiovascular compromise
+	?a can result in ?b
+		?a: EIA
+		?b: syncope
+
+
+label:    sent_26
+sentence: [ The rights of man --the action and compromise ] .
+
+ppatt:
+	compromise ?a
+		?a: ]
+
+

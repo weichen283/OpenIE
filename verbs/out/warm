@@ -1,0 +1,179 @@
+label:    sent_1
+sentence: If the climate continues to warm as predicted , we predict that the polar bear population in the northern Beaufort Sea will eventually decline .
+
+ppatt:
+	?a continues to warm
+		?a: the climate
+	?a predicted
+		?a: the climate
+	?a predict ?b
+		?a: we
+		?b: SOMETHING := the polar bear population in the northern Beaufort Sea will eventually decline
+	?a will eventually decline
+		?a: the polar bear population in the northern Beaufort Sea
+
+
+label:    sent_2
+sentence: As climate continues to warm and sea ice declines , similar changes will likely be repeated in other coastal areas of the circumpolar Arctic .
+
+ppatt:
+	?a continues to ?b ?c
+		?a: climate
+		?b: warm
+		?c: ice declines
+	?a continues to ?b ?c
+		?a: climate
+		?b: sea
+		?c: ice declines
+	?a will likely be repeated in ?b
+		?a: similar changes
+		?b: other coastal areas of the circumpolar Arctic
+
+
+label:    sent_3
+sentence: In general , the arctic freshwater-terrestrial system will warm more rapidly than the global average , particularly during the autumn and winter season .
+
+ppatt:
+	In ?a , ?b will warm more rapidly than ?c
+		?a: general
+		?b: the arctic freshwater-terrestrial system
+		?c: the global average , particularly during autumn and winter season
+
+
+label:    sent_4
+sentence: US-Malagasy relations have been warm for most of its history until 1971 when the US ambassador and 5 members of his staff were expelled .
+
+ppatt:
+	?a have been warm for ?b
+		?a: US-Malagasy relations
+		?b: most of its history until 1971
+	when ?a were expelled
+		?a: the US ambassador
+	when ?a were expelled
+		?a: 5 members of his staff
+
+
+label:    sent_5
+sentence: In Experiment 1 , the ambient temperature either remained warm during both the light and dark phases of the photoperiod , as is characteristic in laboratory settings , or was warm during the light phase and cold during the dark phase .
+
+ppatt:
+	In ?a , ?b either remained warm ?c
+		?a: Experiment 1
+		?b: the ambient temperature
+		?c: during both light and dark phases of the photoperiod
+	?a is characteristic in ?b
+		?a: the ambient temperature
+		?b: laboratory settings
+
+
+label:    sent_6
+sentence: A four-part experiment was undertaken to determine the feasibility of adding normal saline warmed to 45 C to units of packed red blood cells ( PRBCs ) to warm them and increase blood flow in transfusions .
+
+ppatt:
+	?a was undertaken to determine ?b
+		?a: A four-part experiment
+		?b: the feasibility of adding normal saline warmed to 45 C to units of packed red blood cells
+	?a adding ?b to ?c
+		?a: the feasibility
+		?b: normal saline warmed to 45 C
+		?c: units of packed red blood cells
+	?a warmed to ?b
+		?a: normal saline
+		?b: 45 C
+	?a is/are PRBCs
+		?a: packed red blood cells
+	?a warm ?b
+		?a: A four-part experiment
+		?b: them
+	?a increase ?b
+		?a: A four-part experiment
+		?b: blood flow in transfusions
+
+
+label:    sent_7
+sentence: This can be adequately done by using a combined heat-exchanger and scrubber where the heat produced by CO2 absorption is used to warm the inspired gas .
+
+ppatt:
+	?a can be adequately done
+		?a: This
+	?a using ?b
+		?a: This
+		?b: a combined heat-exchanger where the heat produced by CO2 absorption is used to warm the inspired gas
+	?a using ?b
+		?a: This
+		?b: scrubber
+	?a produced by ?b
+		?a: the heat
+		?b: CO2 absorption
+	?a where ?b is used to warm ?c
+		?a: a combined heat-exchanger
+		?b: the heat produced by CO2 absorption
+		?c: the inspired gas
+	?a where ?b is used to warm ?c
+		?a: scrubber
+		?b: the heat produced by CO2 absorption
+		?c: the inspired gas
+
+
+label:    sent_8
+sentence: The employment of microwave techniques permits to warm the investigated brain zone and to record the temperature decrease extracranially .
+
+ppatt:
+	?a permits to warm ?b
+		?a: The employment of microwave techniques
+		?b: the investigated brain zone
+	?a permits to to record ?b extracranially
+		?a: The employment of microwave techniques
+		?b: the temperature decrease
+
+
+label:    sent_9
+sentence: In a second series of experiments , bar-pressing would warm the water flowing in the thermode .
+
+ppatt:
+	In ?a , ?b would warm ?c
+		?a: a second series of experiments
+		?b: bar-pressing
+		?c: the water flowing in the thermode
+
+
+label:    sent_10
+sentence: On the other hand , a minority of teams can actively warm patients , employ tranexamic acid or use pelvic restraint belts .
+
+ppatt:
+	On ?a , ?b can ?c , employ ?d
+		?a: the other hand
+		?b: a minority of teams
+		?c: actively warm patients
+		?d: tranexamic acid
+	?a use ?b
+		?a: a minority of teams
+		?b: pelvic restraint belts
+
+
+label:    sent_11
+sentence: Our data demonstrate the potential energetic benefits of warming up muscle before activity , which is seen in diverse groups of animals such as bees , which warm flight muscle before take-off , and humans performing warm ups before exercise .
+
+ppatt:
+	?a demonstrate ?b
+		?a: Our data
+		?b: the potential energetic benefits of warming up muscle before activity , which is seen in diverse groups of animals such as bees , which warm flight muscle before take-off , and humans performing warm ups before exercise
+	?a is seen in ?b
+		?a: the potential energetic benefits of warming up muscle before activity
+		?b: diverse groups of animals such as bees , which warm flight muscle before take-off , and humans performing warm ups before exercise
+	?a warm flight muscle before ?b
+		?a: bees , performing warm ups before exercise
+		?b: take-off
+	warm flight muscle before ?a ?b
+		?a: take-off
+		?b: humans
+	?a performing ?b before ?c
+		?a: bees , which warm flight muscle before take-off
+		?b: warm ups
+		?c: exercise
+	?a performing ?b before ?c
+		?a: humans
+		?b: warm ups
+		?c: exercise
+
+

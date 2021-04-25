@@ -1,0 +1,287 @@
+label:    sent_1
+sentence: Carbon nanotube films as a platform to transduce molecular recognition events in metalloporphyrins .
+
+ppatt:
+	?a transduce ?b
+		?a: a platform
+		?b: molecular recognition events in metalloporphyrins
+
+
+label:    sent_2
+sentence: Lentiviral particles were used to transduce patient-derived fibroblasts with these U1 variants .
+
+ppatt:
+	?a were used to transduce ?b with ?c
+		?a: Lentiviral particles
+		?b: patient-derived fibroblasts
+		?c: these U1 variants
+
+
+label:    sent_3
+sentence: They also penetrate and transduce solid human tumor tissue derived from patient biopsies .
+
+ppatt:
+	?a also penetrate ?b
+		?a: They
+		?b: solid human tumor tissue derived from patient biopsies
+	?a transduce
+		?a: They
+	?a derived from ?b
+		?a: solid human tumor tissue
+		?b: patient biopsies
+
+
+label:    sent_4
+sentence: These modules rapidly amplify and transduce extracellular signals into various appropriate intracellular responses .
+
+ppatt:
+	?a rapidly amplify ?b into ?c
+		?a: These modules
+		?b: extracellular signals
+		?c: various appropriate intracellular responses
+	?a transduce
+		?a: These modules
+
+
+label:    sent_5
+sentence: These ganglion cells are unique in their ability to transduce light into electrical energy .
+
+ppatt:
+	?a are unique in ?b
+		?a: These ganglion cells
+		?b: their ability to transduce light into electrical energy
+	?a transduce ?b into ?c
+		?a: their ability
+		?b: light
+		?c: electrical energy
+
+
+label:    sent_6
+sentence: These channels are believed to transduce pressure signals into intracellular biochemical and physiological events .
+
+ppatt:
+	?a are believed to transduce ?b into ?c
+		?a: These channels
+		?b: pressure signals
+		?c: intracellular biochemical
+	?a are believed to transduce ?b into ?c
+		?a: These channels
+		?b: pressure signals
+		?c: physiological
+
+
+label:    sent_7
+sentence: Mechanosensitive ion channel transduce physical stresses to cells by the response of electro-chemicals exchange .
+
+ppatt:
+	?a transduce ?b by ?c
+		?a: Mechanosensitive ion channel
+		?b: physical stresses to cells
+		?c: the response of electro-chemicals exchange
+
+
+label:    sent_8
+sentence: Handicapped retroviral vectors efficiently transduce foreign genes into hematopoietic stem cells .
+
+ppatt:
+	?a efficiently transduce ?b into ?c
+		?a: Handicapped retroviral vectors
+		?b: foreign genes
+		?c: hematopoietic stem cells
+
+
+label:    sent_9
+sentence: The activated GPCRs transduce their signals via heterotrimeric G-proteins . Ad transduce many cell types including postmitotic neurons .
+
+ppatt:
+	?a transduce ?b via ?c
+		?a: The activated GPCRs
+		?b: their signals
+		?c: heterotrimeric G-proteins
+	?a transduce ?b
+		?a: Ad
+		?b: many cell types including postmitotic neurons
+
+
+label:    sent_10
+sentence: Human receptors patched and smoothened partially transduce hedgehog signal when expressed in Drosophila cells .
+
+ppatt:
+	?a patched
+		?a: Human receptors
+	?a smoothened
+		?a: Human receptors
+	?a partially transduce ?b
+		?a: Human receptors patched and smoothened
+		?b: hedgehog signal
+	?a when expressed in ?b
+		?a: Human receptors patched and smoothened
+		?b: Drosophila cells
+
+
+label:    sent_11
+sentence: Transcription factors ultimately transduce the proliferation signals elicited by growth factors .
+
+ppatt:
+	?a ultimately transduce ?b
+		?a: Transcription factors
+		?b: the proliferation signals elicited by growth factors
+	?a elicited by ?b
+		?a: the proliferation signals
+		?b: growth factors
+
+
+label:    sent_12
+sentence: Fungal histidine kinase receptors ( HKRs ) sense and transduce many extracellular signals .
+
+ppatt:
+	?a is/are HKRs
+		?a: Fungal histidine kinase receptors
+	?a sense
+		?a: Fungal histidine kinase receptors
+	?a transduce ?b
+		?a: Fungal histidine kinase receptors
+		?b: many extracellular signals
+
+
+label:    sent_13
+sentence: They produce and transduce electrical signals .
+
+ppatt:
+	?a produce ?b
+		?a: They
+		?b: electrical signals
+	?a transduce
+		?a: They
+
+
+label:    sent_14
+sentence: This type 2 IL-1 receptor binds ligand but does not transduce a signal .
+
+ppatt:
+	?a binds ?b
+		?a: This type 2 IL-1 receptor
+		?b: ligand
+	?a does not transduce ?b
+		?a: This type 2 IL-1 receptor
+		?b: a signal
+
+
+label:    sent_15
+sentence: They efficiently transduce dendritic cells and stimulate strong T-cell responses against the encoded antigen .
+
+ppatt:
+	?a efficiently transduce ?b
+		?a: They
+		?b: dendritic cells
+	?a stimulate ?b against ?c
+		?a: They
+		?b: strong T-cell responses
+		?c: the encoded antigen
+
+
+label:    sent_16
+sentence: Lentiviral vector carrying recombinant IL-24 gene can effectively transduce hBMSCs and express IL-24 protein .
+
+ppatt:
+	?a carrying ?b
+		?a: Lentiviral vector
+		?b: recombinant IL-24 gene
+	?a can effectively transduce ?b
+		?a: Lentiviral vector carrying recombinant IL-24 gene
+		?b: hBMSCs
+	?a express ?b
+		?a: Lentiviral vector carrying recombinant IL-24 gene
+		?b: IL-24 protein
+
+
+label:    sent_17
+sentence: Genetic evidence suggests that ephrins may transduce signals and become tyrosine phosphorylated during embryogenesis .
+
+ppatt:
+	?a suggests ?b
+		?a: Genetic evidence
+		?b: SOMETHING := ephrins may transduce signals
+	?a may transduce ?b
+		?a: ephrins
+		?b: signals
+	become ?a phosphorylated during ?b
+		?a: tyrosine
+		?b: embryogenesis
+
+
+label:    sent_18
+sentence: Construct retroviral vector containing the gene of SEA and transduce it into HHCC cells .
+
+ppatt:
+	?a containing ?b
+		?a: Construct retroviral vector
+		?b: the gene of SEA
+	transduce ?a into ?b
+		?a: it
+		?b: HHCC cells
+
+
+label:    sent_19
+sentence: Adeno-associated virus-based vectors are able to efficiently transduce and stably persist in RPE cells .
+
+ppatt:
+	?a are able to efficiently transduce
+		?a: Adeno-associated virus-based vectors
+	?a are able to stably persist in ?b
+		?a: Adeno-associated virus-based vectors
+		?b: RPE cells
+
+
+label:    sent_20
+sentence: The apoptotic program utilizes cellular membranes to transduce and generate operative signals .
+
+ppatt:
+	?a utilizes ?b to transduce ?c
+		?a: The apoptotic program
+		?b: cellular membranes
+		?c: operative signals
+	?a utilizes to generate
+		?a: The apoptotic program
+
+
+label:    sent_21
+sentence: The viruses were also tested for the ability to transduce and mature dendritic cells .
+
+ppatt:
+	?a were also tested for ?b
+		?a: The viruses
+		?b: the ability to transduce and mature dendritic cells
+	?a transduce ?b
+		?a: the ability
+		?b: mature dendritic cells
+
+
+label:    sent_22
+sentence: A549 cells transduce by these vectors were co-cultured with immature human DCs . TAT-HO-1 can transduce efficiently into liver during cold storage .
+
+ppatt:
+	?a transduce by ?b
+		?a: A549 cells
+		?b: these vectors
+	?a were co-cultured with ?b
+		?a: A549 cells transduce by these vectors
+		?b: immature human DCs
+	?a can transduce efficiently into ?b during ?c
+		?a: TAT-HO-1
+		?b: liver
+		?c: cold storage
+
+
+label:    sent_23
+sentence: Furthermore , both TAT fusion proteins rapidly enter cultured cells and transduce into mitochondria .
+
+ppatt:
+	Furthermore , ?a rapidly enter ?b
+		?a: both TAT fusion proteins
+		?b: cultured cells
+	?a transduce into ?b
+		?a: both TAT fusion proteins
+		?b: mitochondria
+
+

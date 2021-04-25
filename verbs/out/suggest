@@ -1,0 +1,377 @@
+label:    sent_1
+sentence: These results suggest that DKK1 may not be involved in the beta-catenin dependent pathway .
+
+ppatt:
+	?a suggest ?b
+		?a: These results
+		?b: SOMETHING := DKK1 may not be involved in the beta-catenin dependent pathway
+	?a may not be involved in ?b
+		?a: DKK1
+		?b: the beta-catenin dependent pathway
+
+
+label:    sent_2
+sentence: Our data suggest that stroke severity is significantly associated with short-term and long-term survival .
+
+ppatt:
+	?a suggest ?b
+		?a: Our data
+		?b: SOMETHING := stroke severity is significantly associated with short-term and long-term survival
+	?a is significantly associated ?b
+		?a: stroke severity
+		?b: with short-term and long-term survival
+
+
+label:    sent_3
+sentence: The results suggest that DAS may protect cartilage in the development of OA .
+
+ppatt:
+	?a suggest ?b
+		?a: The results
+		?b: SOMETHING := DAS may protect cartilage in the development of OA
+	?a may protect ?b in ?c
+		?a: DAS
+		?b: cartilage
+		?c: the development of OA
+
+
+label:    sent_4
+sentence: Multiple gene correlations were found , which suggest possible coregulation mechanisms .
+
+ppatt:
+	?a were found ?b
+		?a: Multiple gene correlations
+		?b: SOMETHING := which suggest possible coregulation mechanisms
+	?a suggest ?b
+		?a: which
+		?b: possible coregulation mechanisms
+
+
+label:    sent_5
+sentence: Our data suggest a role for TLR2 during allogen-dependent graft damage after renal transplantation .
+
+ppatt:
+	?a suggest ?b
+		?a: Our data
+		?b: a role for TLR2 during allogen-dependent graft damage after renal transplantation
+
+
+label:    sent_6
+sentence: Estimates suggest prescription use and misuse have increased substantially in Canada since that time .
+
+ppatt:
+	?a suggest ?b
+		?a: Estimates
+		?b: SOMETHING := prescription have increased substantially in Canada since that time
+	?a have increased substantially in ?b
+		?a: prescription
+		?b: Canada
+	?a that time
+		?a: prescription
+
+
+label:    sent_7
+sentence: In girls , low AMH suggest that there is major loss of primordial follicles .
+
+ppatt:
+	In ?a , ?b suggest ?c
+		?a: girls
+		?b: low AMH
+		?c: SOMETHING := there is major loss of primordial follicles
+	there is ?a
+		?a: major loss of primordial follicles
+
+
+label:    sent_8
+sentence: In conclusion , the results suggest that innovative referral strategies increase CR use . In contrast , some studies suggest that the rate is rising in Asia .
+
+ppatt:
+	In ?a , ?b suggest ?c
+		?a: conclusion
+		?b: the results
+		?c: SOMETHING := innovative referral strategies increase CR use . In contrast
+	?a increase ?b . In ?c
+		?a: innovative referral strategies
+		?b: CR use
+		?c: contrast
+	?a suggest ?b
+		?a: some studies
+		?b: SOMETHING := the rate is rising in Asia
+	?a is rising in ?b
+		?a: the rate
+		?b: Asia
+
+
+label:    sent_9
+sentence: In these patients , results suggest a pegvisomant-sparing effect versus daily pegvisomant monotherapy .
+
+ppatt:
+	In ?a , ?b suggest ?c
+		?a: these patients
+		?b: results
+		?c: a pegvisomant-sparing effect
+	In ?a , ?b suggest ?c
+		?a: these patients
+		?b: results
+		?c: daily pegvisomant monotherapy
+
+
+label:    sent_10
+sentence: Therefore , we suggest suction cautery as the most appropriate method for adenoidectomy .
+
+ppatt:
+	Therefore , ?a suggest ?b as ?c
+		?a: we
+		?b: suction cautery
+		?c: the most appropriate method for adenoidectomy
+
+
+label:    sent_11
+sentence: Serologic results suggest increased FCV exposure in FIC cats compared with controls .
+
+ppatt:
+	?a suggest ?b
+		?a: Serologic results
+		?b: increased FCV exposure in FIC cats
+	?a compared with controls
+		?a: Serologic results
+
+
+label:    sent_12
+sentence: This report thus is the first to suggest a function for SAP47 .
+
+ppatt:
+	?a thus is the first
+		?a: This report
+	?a suggest ?b
+		?a: thus the first
+		?b: a function for SAP47
+
+
+label:    sent_13
+sentence: The tendency to suggest CLs was higher in CL wearers as compared to non-wearers .
+
+ppatt:
+	?a suggest ?b
+		?a: The tendency
+		?b: CLs
+	?a was higher in ?b
+		?a: The tendency to suggest CLs
+		?b: CL wearers
+	?a compared to ?b
+		?a: The tendency to suggest CLs
+		?b: non-wearers
+
+
+label:    sent_14
+sentence: Nevertheless , their tendency to suggest CLs is significantly lower .
+
+ppatt:
+	?a suggest ?b
+		?a: their tendency
+		?b: CLs
+	Nevertheless , ?a is significantly lower
+		?a: their tendency to suggest CLs
+
+
+label:    sent_15
+sentence: Functioning is multi-dimensional and structures of association suggest that country-specific pathways towards disability exist .
+
+ppatt:
+	?a is ?b suggest ?c
+		?a: SOMETHING := Functioning
+		?b: multi-dimensional of association
+		?c: SOMETHING := country-specific pathways towards disability exist
+	?a is ?b suggest ?c
+		?a: SOMETHING := Functioning
+		?b: structures
+		?c: SOMETHING := country-specific pathways towards disability exist
+	?a exist
+		?a: country-specific pathways towards disability
+
+
+label:    sent_16
+sentence: These results suggest that Cox2 and mTORC1 signaling is cross-regulated and cooperatively exacerbate EMC .
+
+ppatt:
+	?a suggest ?b
+		?a: These results
+		?b: SOMETHING := Cox2 and mTORC1 signaling is cross-regulated
+	?a is cross-regulated
+		?a: Cox2
+	?a is cross-regulated
+		?a: mTORC1
+	?a is cross-regulated
+		?a: signaling
+	?a cooperatively exacerbate ?b
+		?a: Cox2
+		?b: EMC
+	?a cooperatively exacerbate ?b
+		?a: mTORC1
+		?b: EMC
+	?a cooperatively exacerbate ?b
+		?a: signaling
+		?b: EMC
+
+
+label:    sent_17
+sentence: UV and EPR measurements suggest but can not confirm direct NO release from nitroalkenes .
+
+ppatt:
+	?a suggest
+		?a: UV and EPR measurements
+	?a can not confirm ?b
+		?a: UV and EPR measurements
+		?b: direct NO release from nitroalkenes
+
+
+label:    sent_18
+sentence: Results suggest effects of pH and IS on regulating SRHA conformation were additive .
+
+ppatt:
+	?a suggest ?b ?c
+		?a: Results
+		?b: effects of pH
+		?c: SOMETHING := IS on regulating SRHA conformation were additive
+	regulating ?a
+		?a: SRHA conformation
+	?a were additive
+		?a: Results
+
+
+label:    sent_19
+sentence: We suggest guidelines for diagnosis and propose a treatment algorithm for this condition .
+
+ppatt:
+	?a suggest ?b
+		?a: We
+		?b: guidelines for diagnosis
+	?a propose ?b
+		?a: We
+		?b: a treatment algorithm for this condition
+
+
+label:    sent_20
+sentence: The pathophysiology is unclear , but most reports suggest a hypodopaminergic state .
+
+ppatt:
+	?a is unclear
+		?a: The pathophysiology
+	?a suggest ?b
+		?a: most reports
+		?b: a hypodopaminergic state
+
+
+label:    sent_21
+sentence: Caspase-3 ( p20 ) estimating post-TBI intervals are dubious but could suggest TBI exists .
+
+ppatt:
+	?a is/are p20
+		?a: Caspase-3 estimating post-TBI intervals
+	?a estimating ?b
+		?a: Caspase-3
+		?b: post-TBI intervals
+	?a are dubious
+		?a: Caspase-3 estimating post-TBI intervals
+	?a could suggest ?b
+		?a: Caspase-3 estimating post-TBI intervals
+		?b: SOMETHING := TBI exists
+	?a exists
+		?a: TBI
+
+
+label:    sent_22
+sentence: The histopathologic picture was variable and often did not suggest mycobacterosis .
+
+ppatt:
+	?a was variable
+		?a: The histopathologic picture
+	?a often did not suggest ?b
+		?a: The histopathologic picture
+		?b: mycobacterosis
+
+
+label:    sent_23
+sentence: The findings are promising and suggest that larger trials of citicoline are warranted .
+
+ppatt:
+	?a are promising
+		?a: The findings
+	?a suggest ?b
+		?a: The findings
+		?b: SOMETHING := larger trials of citicoline are warranted
+	?a are warranted
+		?a: larger trials of citicoline
+
+
+label:    sent_24
+sentence: Finally we make several predictions and suggest ways to test this model .
+
+ppatt:
+	Finally ?a make ?b
+		?a: we
+		?b: several predictions
+	?a suggest ?b to test ?c
+		?a: we
+		?b: ways
+		?c: this model
+
+
+label:    sent_25
+sentence: Trends were similar for state-specific tax increases but suggest strong interactive processes across taxes .
+
+ppatt:
+	?a were similar for ?b
+		?a: Trends
+		?b: state-specific tax increases
+	?a suggest ?b
+		?a: Trends
+		?b: strong interactive processes across taxes
+
+
+label:    sent_26
+sentence: Results demonstrated sex-specific transmission of psychosis regardless of psychosis-type and suggest X-linked inheritance .
+
+ppatt:
+	?a demonstrated ?b
+		?a: Results
+		?b: sex-specific transmission of psychosis regardless of psychosis-type
+	?a suggest ?b
+		?a: Results
+		?b: X-linked inheritance
+
+
+label:    sent_27
+sentence: In idiopathic CDI , circulating AVPc-Abs suggest an autoimmune involvement of the neurohypophyseal system .
+
+ppatt:
+	In ?a , ?b suggest ?c
+		?a: idiopathic CDI
+		?b: circulating AVPc-Abs
+		?c: an autoimmune involvement of the neurohypophyseal system
+
+
+label:    sent_28
+sentence: A 61-year-old man showed clinical findings which suggest atypical malignant hyperthermia after pancreatoduodenectomy .
+
+ppatt:
+	?a showed ?b
+		?a: A 61-year-old man
+		?b: clinical findings which suggest atypical malignant hyperthermia after pancreatoduodenectomy
+	?a suggest ?b
+		?a: clinical findings
+		?b: atypical malignant hyperthermia after pancreatoduodenectomy
+
+
+label:    sent_29
+sentence: We examine features that could suggest refractoriness at onset .
+
+ppatt:
+	?a examine ?b
+		?a: We
+		?b: features that could suggest refractoriness at onset
+	?a could suggest ?b
+		?a: features
+		?b: refractoriness at onset
+
+

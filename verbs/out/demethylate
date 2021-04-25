@@ -1,0 +1,165 @@
+label:    sent_1
+sentence: 5-aza-2-deoxycytidine was used to demethylate the RASSF1A promoter in cell lines .
+
+ppatt:
+	?a was used to demethylate ?b in ?c
+		?a: 5-aza-2-deoxycytidine
+		?b: the RASSF1A promoter
+		?c: cell lines
+
+
+label:    sent_2
+sentence: Cells were then treated to specifically demethylate these proteins .
+
+ppatt:
+	?a were then treated to specifically demethylate ?b
+		?a: Cells
+		?b: these proteins
+
+
+label:    sent_3
+sentence: Quercetin is able to demethylate the p16INK4a gene promoter .
+
+ppatt:
+	?a is able to demethylate ?b
+		?a: Quercetin
+		?b: the p16INK4a gene promoter
+
+
+label:    sent_4
+sentence: Both species demethylate the unchanged drug more readily than subsequent metabolites .
+
+ppatt:
+	?a demethylate ?b more readily than ?c
+		?a: Both species
+		?b: the unchanged drug
+		?c: subsequent metabolites
+
+
+label:    sent_5
+sentence: Although histone methyltransferases are known , enzymes that demethylate histones have not been identified .
+
+ppatt:
+	?a are known
+		?a: histone methyltransferases
+	?a demethylate ?b
+		?a: enzymes
+		?b: histones
+	?a have not been identified
+		?a: enzymes that demethylate histones
+
+
+label:    sent_6
+sentence: But their specific activity is low and the other cytochrome P-450 species demethylate NDMA .
+
+ppatt:
+	?a is low
+		?a: their specific activity
+	?a demethylate ?b
+		?a: the other cytochrome P-450 species
+		?b: NDMA
+
+
+label:    sent_7
+sentence: In contrast , TSA treatment failed to demethylate or activate the GSTP1 gene .
+
+ppatt:
+	In ?a , ?b failed to demethylate ?c
+		?a: contrast
+		?b: TSA treatment
+		?c: the GSTP1 gene
+	?a failed to activate
+		?a: TSA treatment
+
+
+label:    sent_8
+sentence: In our hands , MBD2 does not demethylate DNA .
+
+ppatt:
+	In ?a , ?b does not demethylate ?c
+		?a: our hands
+		?b: MBD2
+		?c: DNA
+
+
+label:    sent_9
+sentence: These enzymes demethylate lysine residues in histones in a methylation-state and sequence-specific context .
+
+ppatt:
+	?a demethylate ?b in ?c
+		?a: These enzymes
+		?b: lysine residues in histones
+		?c: a methylation-state and sequence-specific context
+
+
+label:    sent_10
+sentence: Treatment of HepG2 with 5-aza-deoxycytidine could demethylate the promoter and increase ZHX2 mRNA expression .
+
+ppatt:
+	?a could demethylate ?b
+		?a: Treatment of HepG2 with 5-aza-deoxycytidine
+		?b: the promoter
+	?a increase ?b
+		?a: Treatment of HepG2 with 5-aza-deoxycytidine
+		?b: ZHX2 mRNA expression
+
+
+label:    sent_11
+sentence: Nasal microsomes can demethylate both NDMA and NTDMA but the kinetics are vastly different .
+
+ppatt:
+	?a can demethylate ?b
+		?a: Nasal microsomes
+		?b: NDMA
+	?a can demethylate ?b
+		?a: Nasal microsomes
+		?b: NTDMA
+	?a are vastly different
+		?a: the kinetics
+
+
+label:    sent_12
+sentence: They also demethylate p- and m-anisate and 3,4-dimethoxycinnamate , but to a lower degree . Lysine-specific demethylase 1 ( LSD1 ) and LSD2 demethylate H3K4me2/1 .
+
+ppatt:
+	?a also demethylate ?b
+		?a: They
+		?b: p-
+	?a also demethylate ?b
+		?a: They
+		?b: m-anisate
+	?a also demethylate ?b
+		?a: They
+		?b: 3,4-dimethoxycinnamate
+	?a also demethylate ?b
+		?a: They
+		?b: Lysine-specific demethylase 1
+	?a is/are LSD1
+		?a: Lysine-specific demethylase 1
+	?a is/are LSD1
+		?a: LSD2 demethylate H3K4me2/1
+
+
+label:    sent_13
+sentence: Human enteric microsomal CYP4F enzymes O-demethylate the antiparasitic prodrug pafuramidine .
+
+ppatt:
+	?a O-demethylate ?b
+		?a: Human enteric microsomal CYP4F enzymes
+		?b: the antiparasitic prodrug pafuramidine
+
+
+label:    sent_14
+sentence: CoM could demethylate , and DMS and MMPA could remethylate , the corrinoid cofactor .
+
+ppatt:
+	?a could demethylate
+		?a: CoM
+	?a could remethylate ?b
+		?a: DMS
+		?b: the corrinoid cofactor
+	?a could remethylate ?b
+		?a: MMPA
+		?b: the corrinoid cofactor
+
+

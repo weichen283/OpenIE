@@ -1,0 +1,22 @@
+obj	5-aza-2-deoxycytidine was used to demethylate the RASSF1A promoter in cell lines .	obj@promoter
+obj	Cells were then treated to specifically demethylate these proteins .	obj@proteins
+obj	Quercetin is able to demethylate the p16INK4a gene promoter .	obj@promoter
+
+subj#obj	Both species demethylate the unchanged drug more readily than subsequent metabolites .	subj@species obj@drug
+subj#obj	Although histone methyltransferases are known , enzymes that demethylate histones have not been identified .	subj@enzymes obj@histones
+subj#obj	But their specific activity is low and the other cytochrome P-450 species demethylate NDMA .	subj@activity subj@species obj@NDMA
+
+conj	In contrast , TSA treatment failed to demethylate or activate the GSTP1 gene .	conj_or@activate
+
+subj#obj#prep	In our hands , MBD2 does not demethylate DNA .	subj@MBD2 obj@DNA prep_in@hands
+subj#obj#prep	These enzymes demethylate lysine residues in histones in a methylation-state and sequence-specific context .	subj@enzymes obj@residues prep_in@context
+
+subj#obj#conj	Treatment of HepG2 with 5-aza-deoxycytidine could demethylate the promoter and increase ZHX2 mRNA expression .	subj@Treatment obj@promoter conj_and@increase
+subj#obj#conj	Nasal microsomes can demethylate both NDMA and NTDMA but the kinetics are vastly different .	subj@microsomes obj@NDMA conj_but@different
+
+subj#obj#prep#conj	They also demethylate p- and m-anisate and 3,4-dimethoxycinnamate , but to a lower degree .	subj@They obj@p- prep_to@degree conj_but@to
+
+subj	Lysine-specific demethylase 1 ( LSD1 ) and LSD2 demethylate H3K4me2/1 .	subj@LSD2 subj@demethylase
+subj	Human enteric microsomal CYP4F enzymes O - demethylate the antiparasitic prodrug pafuramidine .	subj@enzymes
+subj	CoM could demethylate , and DMS and MMPA could remethylate , the corrinoid cofactor .	subj@CoM
+

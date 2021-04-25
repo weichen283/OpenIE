@@ -1,0 +1,306 @@
+label:    sent_1
+sentence: Thiazole antibiotic thiostrepton synergize with bortezomib to induce apoptosis in cancer cells .
+
+ppatt:
+	?a synergize with ?b to induce ?c
+		?a: Thiazole antibiotic thiostrepton
+		?b: bortezomib
+		?c: apoptosis in cancer cells
+
+
+label:    sent_2
+sentence: Both drug classes synergize in their gene reactivating and anticancer activities .
+
+ppatt:
+	?a synergize in ?b
+		?a: Both drug classes
+		?b: their gene reactivating
+	?a synergize in ?b
+		?a: Both drug classes
+		?b: anticancer
+
+
+label:    sent_3
+sentence: Homeostatic lymphoid chemokines synergize with adhesion ligands to trigger T and B lymphocyte chemokinesis .
+
+ppatt:
+	?a synergize with ?b to trigger ?c ?d
+		?a: Homeostatic lymphoid chemokines
+		?b: adhesion ligands
+		?c: T
+		?d: lymphocyte chemokinesis
+	?a synergize with ?b to trigger ?c ?d
+		?a: Homeostatic lymphoid chemokines
+		?b: adhesion ligands
+		?c: B
+		?d: lymphocyte chemokinesis
+
+
+label:    sent_4
+sentence: The findings suggest escin can synergize with glucocorticoids to enhance their anti-inflammatory effect .
+
+ppatt:
+	?a suggest ?b
+		?a: The findings
+		?b: SOMETHING := escin can synergize with glucocorticoids to enhance their anti-inflammatory effect
+	?a can synergize with ?b to enhance ?c
+		?a: escin
+		?b: glucocorticoids
+		?c: their anti-inflammatory effect
+
+
+label:    sent_5
+sentence: They also failed to synergize with the microtubule-destabilizing agents vinblastine and 2-methoxyestradiol .
+
+ppatt:
+	?a also failed to synergize with ?b
+		?a: They
+		?b: the microtubule-destabilizing agents
+
+
+label:    sent_6
+sentence: These findings suggest that TX+D synergize in the suppression of fetal renin expression .
+
+ppatt:
+	?a suggest ?b
+		?a: These findings
+		?b: SOMETHING := TX+D synergize in the suppression of fetal renin expression
+	?a synergize in ?b
+		?a: TX+D
+		?b: the suppression of fetal renin expression
+
+
+label:    sent_7
+sentence: The growing presence of national and international biobank networks will allow biobanks to synergize .
+
+ppatt:
+	?a will allow ?b to synergize
+		?a: The growing presence of national and international biobank networks
+		?b: biobanks
+
+
+label:    sent_8
+sentence: These opposing defects may synergize to greatly increase the toxicity of DNA replication stress . Bcl-xL and p19 ARF loss together synergize to further accelerate Myc oncogenesis .
+
+ppatt:
+	?a may synergize to greatly increase ?b
+		?a: These opposing defects
+		?b: the toxicity of DNA replication stress
+	?a ?b together synergize to further accelerate ?c
+		?a: Bcl-xL
+		?b: ARF loss
+		?c: Myc oncogenesis
+	?a ?b together synergize to further accelerate ?c
+		?a: p19
+		?b: ARF loss
+		?c: Myc oncogenesis
+
+
+label:    sent_9
+sentence: Estrogen may also synergize with nonaromatizable androgens and control behavior .
+
+ppatt:
+	?a may also synergize with ?b
+		?a: Estrogen
+		?b: nonaromatizable androgens
+	?a control ?b
+		?a: Estrogen
+		?b: behavior
+
+
+label:    sent_10
+sentence: Intraovarian peptides synergize with and potentiate gonadotropin actions in ovarian follicular development .
+
+ppatt:
+	?a synergize ?b in ?c
+		?a: Intraovarian peptides
+		?b: with
+		?c: ovarian follicular development
+	?a potentiate ?b
+		?a: Intraovarian peptides
+		?b: gonadotropin actions
+
+
+label:    sent_11
+sentence: Corticosteroids both synergize with and antagonize the effects of insulin .
+
+ppatt:
+	?a both synergize ?b
+		?a: Corticosteroids
+		?b: with
+	?a antagonize ?b
+		?a: Corticosteroids
+		?b: the effects of insulin
+
+
+label:    sent_12
+sentence: Contaminating peptides had no cytokine-inducing activity and did not synergize with purified groEL .
+
+ppatt:
+	?a had ?b
+		?a: Contaminating peptides
+		?b: no cytokine-inducing activity
+	?a did not synergize with ?b
+		?a: Contaminating peptides
+		?b: purified groEL
+
+
+label:    sent_13
+sentence: Agonists acting at alpha2-adrenergic receptors ( alpha2ARs ) produce antinociception and synergize with opioids .
+
+ppatt:
+	?a acting at ?b
+		?a: Agonists
+		?b: alpha2-adrenergic receptors
+	?a is/are alpha2ARs
+		?a: alpha2-adrenergic receptors
+	?a produce ?b
+		?a: Agonists acting at alpha2-adrenergic receptors
+		?b: antinociception
+	?a synergize with ?b
+		?a: Agonists acting at alpha2-adrenergic receptors
+		?b: opioids
+
+
+label:    sent_14
+sentence: By contrast theophylline was highly apoptotic but did not synergize with cAMP inducers . iMICA did not synergize this cytotoxicity .
+
+ppatt:
+	By ?a ?b was highly apoptotic
+		?a: contrast
+		?b: theophylline
+	?a did not synergize with ?b
+		?a: theophylline
+		?b: cAMP inducers
+	?a did not synergize ?b
+		?a: iMICA
+		?b: this cytotoxicity
+
+
+label:    sent_15
+sentence: Increasing evidence suggests that TLR expressed by DC can cooperate to synergize their functions .
+
+ppatt:
+	?a suggests ?b
+		?a: Increasing evidence
+		?b: SOMETHING := TLR expressed by DC can cooperate to synergize their functions
+	?a expressed by ?b
+		?a: TLR
+		?b: DC
+	?a can cooperate to synergize ?b
+		?a: TLR expressed by DC
+		?b: their functions
+
+
+label:    sent_16
+sentence: Certain inactive PQS analogues were also found to strongly synergize PQS-dependent pyoverdine production .
+
+ppatt:
+	?a were also found to strongly synergize ?b
+		?a: Certain inactive PQS analogues
+		?b: PQS-dependent pyoverdine production
+
+
+label:    sent_17
+sentence: DHEA did not synergize or antagonize the antiplasmodial effect of several antimalarial drugs . CRM1 and BRAF inhibition synergize and induce tumor regression in BRAF-mutant melanoma .
+
+ppatt:
+	?a did not synergize ?b
+		?a: DHEA
+		?b: the antiplasmodial effect of several antimalarial drugs
+	?a antagonize
+		?a: DHEA
+	?a synergize
+		?a: CRM1
+	?a synergize
+		?a: BRAF
+	?a induce ?b
+		?a: CRM1
+		?b: tumor regression in BRAF-mutant melanoma
+	?a induce ?b
+		?a: BRAF
+		?b: tumor regression in BRAF-mutant melanoma
+
+
+label:    sent_18
+sentence: Both substances together produced an additive effect but they did not synergize .
+
+ppatt:
+	?a together produced ?b
+		?a: Both substances
+		?b: an additive effect
+	?a did not synergize
+		?a: they
+
+
+label:    sent_19
+sentence: Pharmacological applications of jasmonic acid and ethylene also synergize the induced accumulation of kauralexins .
+
+ppatt:
+	?a also synergize ?b
+		?a: Pharmacological applications of jasmonic acid and ethylene
+		?b: the induced accumulation of kauralexins
+
+
+label:    sent_20
+sentence: Histone deacetylase inhibitors synergize p300 autoacetylation that regulates its transactivation activity and complex formation .
+
+ppatt:
+	?a synergize ?b
+		?a: Histone deacetylase inhibitors
+		?b: p300 autoacetylation that regulates its transactivation activity and complex formation
+	?a regulates ?b
+		?a: p300 autoacetylation
+		?b: its transactivation activity
+	?a regulates ?b
+		?a: p300 autoacetylation
+		?b: complex formation
+
+
+label:    sent_21
+sentence: The combination of anti-A33 MAb and anti-B5 MAb did not synergize the protective efficacy .
+
+ppatt:
+	?a did not synergize ?b
+		?a: The combination of anti-A33 MAb and anti-B5 MAb
+		?b: the protective efficacy
+
+
+label:    sent_22
+sentence: Among trigeminal contributions , lingual nerve and inferior alveolar nerve may synergize taste .
+
+ppatt:
+	Among ?a , ?b may synergize ?c
+		?a: trigeminal contributions
+		?b: lingual nerve
+		?c: taste
+	Among ?a , ?b may synergize ?c
+		?a: trigeminal contributions
+		?b: inferior alveolar nerve
+		?c: taste
+
+
+label:    sent_23
+sentence: Mtx toxins synergize Bacillus sphaericus and Cry11Aa against susceptible and insecticide-resistant Culex quinquefasciatus larvae .
+
+ppatt:
+	?a synergize ?b against ?c
+		?a: Mtx toxins
+		?b: Bacillus sphaericus
+		?c: susceptible and insecticide-resistant Culex quinquefasciatus larvae
+	?a synergize ?b against ?c
+		?a: Mtx toxins
+		?b: Cry11Aa
+		?c: susceptible and insecticide-resistant Culex quinquefasciatus larvae
+
+
+label:    sent_24
+sentence: Small molecule inhibitors of ERCC1-XPF protein-protein interaction synergize alkylating agents in cancer cells .
+
+ppatt:
+	?a synergize ?b in ?c
+		?a: Small molecule inhibitors of ERCC1-XPF protein-protein interaction
+		?b: alkylating agents
+		?c: cancer cells
+
+

@@ -1,0 +1,283 @@
+label:    sent_1
+sentence: We postulate that Rab1b is a key regulatory component of COPII dynamics and function .
+
+ppatt:
+	?a postulate ?b
+		?a: We
+		?b: SOMETHING := Rab1b is a key regulatory component of COPII
+	?a is a key regulatory component of ?b
+		?a: Rab1b
+		?b: COPII
+
+
+label:    sent_2
+sentence: We postulate that core X and Y' act as epigenetic " cushioning " cis-elements .
+
+ppatt:
+	?a postulate ?b
+		?a: We
+		?b: SOMETHING := core X and Y' act as epigenetic " cushioning " cis-elements
+	?a act as ?b
+		?a: core X
+		?b: epigenetic " cushioning " cis-elements
+	?a act as ?b
+		?a: Y'
+		?b: epigenetic " cushioning " cis-elements
+
+
+label:    sent_3
+sentence: This postulate emphasizes prevention or reversal of emerging neurocognitive pathology considerably before AD onset .
+
+ppatt:
+	?a emphasizes ?b
+		?a: This postulate
+		?b: prevention of emerging neurocognitive pathology considerably before AD onset
+	?a emphasizes ?b
+		?a: This postulate
+		?b: reversal
+	?a emerging ?b considerably before ?c
+		?a: prevention
+		?b: neurocognitive pathology
+		?c: AD onset
+	?a emerging ?b considerably before ?c
+		?a: reversal
+		?b: neurocognitive pathology
+		?c: AD onset
+
+
+label:    sent_4
+sentence: We postulate this to be CD4 ( + ) T-cell dysfunction .
+
+ppatt:
+	?a postulate ?b to be CD4 ) T-cell dysfunction
+		?a: We
+		?b: this
+
+
+label:    sent_5
+sentence: We postulate the possible mechanism involved in its pathogenesis .
+
+ppatt:
+	?a postulate ?b
+		?a: We
+		?b: the possible mechanism involved in its pathogenesis
+	?a involved in ?b
+		?a: the possible mechanism
+		?b: its pathogenesis
+
+
+label:    sent_6
+sentence: We postulate PEDF has a novel effect on apoptotic inducible activity in hepatoma cells .
+
+ppatt:
+	?a postulate ?b
+		?a: We
+		?b: SOMETHING := PEDF has a novel effect on apoptotic inducible activity in hepatoma cells
+	?a has ?b on ?c
+		?a: PEDF
+		?b: a novel effect
+		?c: apoptotic inducible activity in hepatoma cells
+
+
+label:    sent_7
+sentence: After that we postulate a better functional surgery .
+
+ppatt:
+	After ?a ?b postulate ?c
+		?a: that
+		?b: we
+		?c: a better functional surgery
+
+
+label:    sent_8
+sentence: We postulate a tubular " washout " phenomenon as the etiology of these observations .
+
+ppatt:
+	?a postulate ?b as ?c
+		?a: We
+		?b: a tubular " washout " phenomenon
+		?c: the etiology of these observations
+
+
+label:    sent_9
+sentence: We would postulate lead retinal toxicity as the cause of the asymmetric findings .
+
+ppatt:
+	?a would postulate ?b
+		?a: We
+		?b: SOMETHING := lead retinal toxicity as the cause of the asymmetric findings
+	?a lead ?b as ?c
+		?a: We
+		?b: retinal toxicity
+		?c: the cause of the asymmetric findings
+
+
+label:    sent_10
+sentence: Thus , we postulate smSirt2 as a new antiparasite target .
+
+ppatt:
+	Thus , ?a postulate ?b as ?c
+		?a: we
+		?b: smSirt2
+		?c: a new antiparasite target
+
+
+label:    sent_11
+sentence: [ The main postulate of the vertical evolution theory ] . Memory-contingent saccades and the substantia nigra postulate for essential blepharospasm .
+
+ppatt:
+	[ ?a . ?b postulate for ?c
+		?a: The main postulate of the vertical evolution theory ]
+		?b: Memory-contingent saccades
+		?c: essential blepharospasm
+	[ ?a . ?b postulate for ?c
+		?a: The main postulate of the vertical evolution theory ]
+		?b: the substantia nigra
+		?c: essential blepharospasm
+
+
+label:    sent_12
+sentence: On this basis there would be no need to postulate a progressive spreading process .
+
+ppatt:
+	?a postulate ?b
+		?a: On this basis there no need
+		?b: a progressive spreading process
+
+
+label:    sent_13
+sentence: Accordingly , it was possible to postulate main photodegradation mechanisms .
+
+ppatt:
+	Accordingly , ?a was possible to postulate ?b
+		?a: it
+		?b: main photodegradation mechanisms
+
+
+label:    sent_14
+sentence: It is not necessary to postulate an interaction .
+
+ppatt:
+	?a is not necessary to postulate ?b
+		?a: It
+		?b: an interaction
+
+
+label:    sent_15
+sentence: The present study examined this postulate directly by receptor binding experiments .
+
+ppatt:
+	?a examined ?b directly by ?c
+		?a: The present study
+		?b: this postulate
+		?c: receptor binding experiments
+
+
+label:    sent_16
+sentence: The results obtained are in good agreement with the postulate . Histogenesis of salivary gland neoplasms : a postulate with prognostic implications .
+
+ppatt:
+	?a obtained
+		?a: The results
+	?a are in good agreement with ?b
+		?a: The results obtained
+		?b: the postulate . Histogenesis of salivary gland neoplasms
+
+
+label:    sent_17
+sentence: Total determinists postulate total freedom from nature in order to speak of free will .
+
+ppatt:
+	?a postulate ?b
+		?a: Total determinists
+		?b: total freedom from nature
+	?a order to speak of ?b will
+		?a: Total determinists
+		?b: free
+
+
+label:    sent_18
+sentence: We challenge the postulate of the ion-pair formation in free papain .
+
+ppatt:
+	?a challenge ?b
+		?a: We
+		?b: the postulate of the ion-pair formation in free papain
+
+
+label:    sent_19
+sentence: Altogether these findings allow postulate StarD7 as a fusogenic protein .
+
+ppatt:
+	Altogether ?a postulate ?b as ?c
+		?a: these findings
+		?b: StarD7
+		?c: a fusogenic protein
+
+
+label:    sent_20
+sentence: We observed the phenomenon and postulate that it may be frequent but overlooked .
+
+ppatt:
+	?a observed ?b
+		?a: We
+		?b: the phenomenon
+	?a postulate ?b
+		?a: We
+		?b: SOMETHING := it may be frequent
+	?a may be frequent
+		?a: it
+	?a overlooked
+		?a: it
+
+
+label:    sent_21
+sentence: Hence , we have to postulate and study variation of UG .
+
+ppatt:
+	Hence , ?a have to postulate ?b
+		?a: we
+		?b: variation of UG
+	Hence , ?a have to study
+		?a: we
+
+
+label:    sent_22
+sentence: We postulate a pathophysiological relationship and discuss the management of Tako Tsubo cardiomyopathy .
+
+ppatt:
+	?a postulate ?b
+		?a: We
+		?b: a pathophysiological relationship
+	?a discuss ?b
+		?a: We
+		?b: the management of Tako Tsubo cardiomyopathy
+
+
+label:    sent_23
+sentence: We postulate a mechanism of injury and discuss the significance .
+
+ppatt:
+	?a postulate ?b
+		?a: We
+		?b: a mechanism of injury
+	?a discuss ?b
+		?a: We
+		?b: the significance
+
+
+label:    sent_24
+sentence: We postulate the etiology and describe how xerograms can help in the diagnosis .
+
+ppatt:
+	?a postulate ?b
+		?a: We
+		?b: the etiology
+	?a describe ?b
+		?a: We
+		?b: SOMETHING := how xerograms can help in the diagnosis
+	how ?a can help in ?b
+		?a: xerograms
+		?b: the diagnosis
+
+
